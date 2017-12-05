@@ -1,0 +1,47 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section id="howitworks">
+    <div class="container">
+        <div class="row">           
+            <div class="col-sm-12" style="text-align:center;">
+            	<h2>{{ .Params.howtitle | markdownify }}</h2>
+            	<br>
+            	<br>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col-sm-12 col-lg-4">
+        		<div class="row">
+        			<img src="{{ .Params.howpic1 }}" class="img-responsive" style="margin: auto;" alt="">
+        		</div>
+        		<div class="row" style="padding: 20px;">
+        			<p style="text-align: center;">{{ .Params.howdesc1 | markdownify }}</p>
+        		</div>
+        	</div>
+        	<div class="col-sm-12 col-lg-4">
+        		<div class="row">
+        			<img src="{{ .Params.howpic2 }}" class="img-responsive" style="margin: auto;" alt="">
+        		</div>
+        		<div class="row" style="padding: 20px;">
+        			<p style="text-align: center;">{{ .Params.howdesc2 | markdownify }}</p>
+        		</div>
+        	</div>
+        	<div class="col-sm-12 col-lg-4">
+        		<div class="row">
+        			<img src="{{ .Params.howpic3 }}" class="img-responsive" style="margin: auto;" alt="">
+        		</div>
+        		<div class="row" style="padding: 20px;">
+        			<p style="text-align: center;">{{ .Params.howdesc3 | markdownify }}</p>
+        		</div>
+        	</div>
+        </div>
+    <div class="container" id="request">
+        <div class="row">      
+           <div class="col-xs-10-offset-1 col-md-10 col-md-offset-1 text-left">
+                <div class="cognito">
+					<script src="https://services.cognitoforms.com/s/{{ .Site.Params.pcsform }}"></script>
+					<script>Cognito.load("forms", { id: "{{ .Site.Params.pcsformid }}" });</script>
+            </div>
+        </div>
+    </div>
+</section>
+

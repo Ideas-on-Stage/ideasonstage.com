@@ -1,0 +1,36 @@
+{{ "<!-- ASIDE -->" | safeHTML }}
+<footer>
+    <div class="container">
+        <div class="row">
+<!-- remove address        
+			<div class="col-sm-3">
+	        	<address>
+	        		Ideas on Stage<br />
+	        		8 rue du Faubourg Poissonnière<br />
+	        		75010 Paris<br />
+	        		France<br />
+	        		<a href="mailto:info@ideasonstage.com">info@ideasonstage.com</a>
+	        	</address>
+	        </div>
+-->
+			<div class="col-sm-3">
+        		{{ with .Site.Copyright }}{{ . }}{{ end }} {{ with .Site.Params.year }}{{ . }}{{ end }}<br />
+        		{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
+        		{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}
+        		<a href="{{ .Site.BaseURL }}{{ .Site.Params.cookieslink }}"> Cookies policy</a>
+	        </div>
+
+			<div class="col-sm-3">
+        		{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
+	        </div>
+
+			<div class="col-sm-3">
+				<br>
+			</div>
+			<div class="col-sm-3">
+				<a href="{{ .Site.BaseURL }}#page-top" class="btn btn-default tada">{{ with .Site.Params.navigation.links.back }}{{ . }}{{ end }}</a>
+			</div>
+	        
+        </div>
+    </div>
+</footer>

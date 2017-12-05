@@ -1,0 +1,15 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header id="tedx" class="bg-dark">
+    <div class="header-content-img-center" style="bottom: 0px;" >
+    	<img src="/pictures/tedx/header-front.png" style="max-width: 100%;">
+    </div>
+    <div class="header-content ">
+    	
+        <div class="header-content-inner">
+            <h1 style="margin-top: 50px;">{{ with .Params.title }}{{ . | markdownify  }}{{ end }}</h1>
+{{ if .Params.herosubtitleon }}           
+            <h4>{{ with .Params.herosubtitle }}{{ . | markdownify }}{{ end }}</h4>
+{{ end }}
+        </div>
+    </div>
+</header>

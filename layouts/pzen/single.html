@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+
+        {{ partial "pagenav.html" . }}
+        {{ partial "pz_hero.html" . }}
+        {{ partial "pz_about.html" . }}
+ 	    {{ partial "pz_gallery.html" . }}
+ 	    {{ partial "pz_agenda.html" . }}
+ 	    {{ partial "pz-events-tabs.html" . }}
+        {{ partial "pz_trainer.html" . }} 	    
+ 	    {{ partial "pz_aside.html" . }}
+        {{ partial "question.html" . }}
+        
+{{ partial "single-bottom-common.html" . }}
+

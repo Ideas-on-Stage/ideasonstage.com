@@ -1,0 +1,25 @@
+{{ $.Scratch.Set "count" 0 }}
+    {{ range .Site.Data.pcscasestudy }}
+        {{ $.Scratch.Add "count" 1 }}
+            	<section id="case_study" class="bg-dark">
+					 <div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<h2>{{ .name }}</h2>
+								<h3 class="text-muted" style="margin-top: 0px;">{{ .title }}</h3>
+							</div>
+						</div>       
+						<div class="row">
+							<div class="col-xs-12 col-md-4">  		
+								<img src="/pictures/pcs/casestudy/{{  .img }}" class="img-responsive img-left" alt="">	
+							</div>
+							<div class="col-xs-12 col-md-8">  		
+								<p>{{ with .description }}{{ . | markdownify }}{{ end }}</p>	
+							</div> <!--end col -->
+						</div> <!--end row-->      
+					</div>
+				</section>
+					
+					{{ end }}
+					
+		

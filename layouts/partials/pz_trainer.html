@@ -1,0 +1,14 @@
+{{ "<!-- TRAINER -->" | safeHTML }}
+<section id="trainer">
+    <div class="container">
+        <div class="row">
+        
+			<div class="col-lg-12 text-center">
+			    <h2 class="section-heading">{{ with .Params.trainertitle }}{{ . | markdownify }}{{ end }}</h2>
+			    <img src="/pictures/pz/home/phil-waknell.png">
+			    <p class="section-subheading">{{ with .Params.trainersubtitle }}{{ . | markdownify }}{{ end }}</p>
+	            <p>{{ with .Params.trainerdescription }}{{ . | markdownify }}{{ end }}</p>
+			</div>			
+     	</div>
+    </div>
+</section>

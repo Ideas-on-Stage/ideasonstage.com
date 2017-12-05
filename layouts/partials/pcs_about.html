@@ -1,0 +1,10 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section id="about-ios" style="padding-bottom: 0px;">
+    <div class="container">
+        <div class="row">           
+            <div class="col-sm-12 col-md-12 no-gutter">
+            <p class="lead">{{ with .Params.aboutdesc }}{{ . | markdownify }}{{ end }}</p>            
+        </div>
+    </div>
+</section>
+

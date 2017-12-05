@@ -1,0 +1,68 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
+{{ "<!-- jQuery -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/jquery.js"></script>
+{{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+{{ "<!-- Plugin JavaScript -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/jquery.easing.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/wow.min.js"></script>
+{{ "<!-- Contact Form JavaScript -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/jqBootstrapValidation.js"></script>
+{{ "<!-- Custom Theme JavaScript -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/creative.js"></script>
+{{ "<!-- Owl Carousel added from Universal Theme -->" | safeHTML }}
+<script src="{{ .Site.BaseURL }}js/front.js"></script>
+
+<script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
+
+
+<script type="text/javascript">
+$(function() {
+
+    $("input,textarea").not("[type=search]").jqBootstrapValidation({
+        preventSubmit: true,
+        submitError: function($form, event, errors) {
+            // additional error messages or events
+        },
+        submitSuccess: function($form, e) {
+    	    e.preventDefault();
+    	
+    	    var submitButton = $('input[type=submit]', $form);
+    	    $.ajax({
+    	      type: 'POST',
+    	      url: $form.prop('action'),
+    	      accept: {
+    	        javascript: 'application/javascript'
+    	      },
+    	      data: $form.serialize(),
+    	      beforeSend: function() {
+				submitButton.prop('value', '{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}');
+				submitButton.prop('disabled', 'disabled');
+    	      }
+    	    }).done(function(data) {
+				submitButton.prop('value', '{{ with .Site.Params.contact.success }}{{ . }}{{ end }}');
+    			submitButton.prop('disabled', false);
+    			hj('formSubmitSuccessful');
+    	    });
+        },
+
+        filter: function() {
+            return $(this).is(":visible");
+        },
+    });
+
+});
+
+/*When clicking on Full hide fail/success boxes */
+$('#name').focus(function() {
+    $('#success').html('');
+});
+</script> 
+

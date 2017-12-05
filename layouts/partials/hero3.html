@@ -1,0 +1,16 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header id="home" class="bg-dark">
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>{{ with .Site.Params.hero.slogan }}{{ . | markdownify  }}{{ end }}</h1>
+{{ if .Site.Params.hero.subtitle_on }}           
+            <hr>
+            <h3 class="thin">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+{{ end }}
+        </div>
+<br>
+{{ if .Site.Params.hero.button_on }}           
+        <a href="#services" class="btn btn-primary btn-xl page-scroll" style="margin-top: 30px; padding-left: 15px; padding-right: 15px;">{{ with .Site.Params.hero.buttonText }}{{ . }}{{ end }}</a>
+{{ end }}
+    </div>
+</header>

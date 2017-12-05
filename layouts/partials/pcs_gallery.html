@@ -1,0 +1,36 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section id="gallery" style="padding-top: 0px; padding-bottom: 0px;">
+    <div class="container">
+     <div class="row">
+        	<!-- *** REFERENCES CAROUSEL *** -->
+
+               <ul class="owl-carousel gallery same-height-row" style="padding-left: 0px;">
+                    {{ $.Scratch.Set "count" 0 }}
+                    {{ range .Site.Data.pcsreferences }}
+                    	{{ $.Scratch.Add "count" 1 }}
+                        {{ if .showonhome }}
+                        <div class="thumbnail">
+		   					<a href="#pcsModal{{ ($.Scratch.Get "count") }}" data-toggle="modal" data-backdrop="true">
+							{{ partial "pcs-logo.html" . }}
+        	     			</a>
+            			</div>
+						{{ end }}
+					{{ end }}
+                </ul>
+                <!-- /.owl-carousel -->
+				
+				{{ $.Scratch.Set "count" 0 }}
+                    {{ range .Site.Data.pcsreferences }}
+                    	{{ $.Scratch.Add "count" 1 }}
+                        {{ if .showonhome }}
+            			{{ "<!-- references Modals -->" | safeHTML }}
+            			<div class="modal fade" id="pcsModal{{ ($.Scratch.Get "count") }}" tabindex="-1" role="dialog" aria-hidden="true">
+							{{ partial "pcs-modal_new.html" . }}
+            	 		</div>
+						{{ end }}
+					{{ end }}
+                <!-- *** TESTIMONIALS CAROUSEL END *** -->
+        </div>
+    </div>
+</section>
+

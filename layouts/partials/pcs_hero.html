@@ -1,0 +1,12 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header id="pcs" class="bg-dark">
+	
+    <div class="header-content ">
+        <div class="header-content-inner">
+            <h1 style="margin-top: 50px; color: #000">{{ with .Params.heroslogan }}{{ . | markdownify  }}{{ end }}</h1>
+			{{ if .Params.herosubtitleon }} <h4>{{ with .Params.herosubtitle }}{{ . | markdownify }}{{ end }}</h4>{{ end }}
+			<br><br>
+			{{ if .Params.herobuttonon }}<a href="#request" class="btn btn-primary btn-xl page-scroll">{{ with .Params.herobuttontext }}{{ . | markdownify }}{{ end }}</a>{{ end }}
+        </div>
+    </div>
+</header>

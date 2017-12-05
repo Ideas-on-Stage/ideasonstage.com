@@ -1,0 +1,22 @@
+{{ "<!-- ABOUT -->" | safeHTML }}
+<section id="about" class="bg-dark">
+    <div class="container">
+        <div class="row">        
+			<div class="col-lg-12 text-center">
+			    <h2 class="section-heading">{{ with .Params.agendatitle }}{{ . | markdownify }}{{ end }}</h2>
+			    <p class="section-subheading text-muted">{{ with .Params.agendasubtitle }}{{ . | markdownify }}{{ end }}</p>
+	            <p>{{ with .Params.agendadescription }}{{ . | markdownify }}{{ end }}</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 text-center">
+				<h3>{{ with .Params.agendaday1title }}{{ . | markdownify }}{{ end }}</h3>
+				<p>{{ with .Params.agendaday1description }}{{ . | markdownify }}{{ end }}</p>
+			</div>
+<div class="col-sm-6 text-center">
+	<h3>{{ with .Params.agendaday2title }}{{ . | markdownify }}{{ end }}</h3>
+	<p>{{ with .Params.agendaday2description }}{{ . | markdownify }}{{ end }}</p>
+</div>
+		</div>
+    </div>
+</section>

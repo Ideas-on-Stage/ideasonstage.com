@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+
+        {{ partial "pagenav.html" . }}
+        {{ partial "pcs_hero.html" . }} 
+        {{ partial "pcs_about.html" . }}
+ 	    {{ partial "pcs_gallery.html" . }} 
+ 	    {{ partial "pcs_pricing.html" . }}
+ 	    {{ partial "pcs_howitworks.html" . }}
+<!-- 	    {{ partial "pcs_request.html" . }} -->
+
+        
+{{ partial "single-bottom-common.html" . }}
+

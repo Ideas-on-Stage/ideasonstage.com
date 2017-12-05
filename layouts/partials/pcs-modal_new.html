@@ -1,0 +1,21 @@
+  <!-- Modal -->
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content" data-backdrop="true">
+      	<div class="modal-body">
+          <div class="close-modal" data-dismiss="modal">
+        	<div class="lr">
+            	<div class="rl">
+            	</div>
+       		 </div>       
+    	   </div>
+           <h2 class="modal-title" style="color:#000; text-align:center;">{{ .title | markdownify }}</h2>
+           <hr class="star-primary">
+           <img src="/pictures/pcs/{{ .client }}/{{ .img }}" class="img-responsive img-centered" alt="">
+           {{ with .video }}{{ partial "youtube.html" . }}{{ end }}
+           <p>{{ with .description}}{{ . | markdownify }}{{ end }}</p>
+          
+        </div>
+      </div>
+    </div>

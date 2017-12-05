@@ -1,0 +1,38 @@
+{{ "<!-- PAGE -->" | safeHTML }}
+<section id="content">
+    <div class="container">
+        <div class="row">
+        
+{{ if .Params.showrefs }}
+        	<div class="col-xs-12 col-sm-8 col-sm-offset-1">
+{{ else }}
+        	<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+{{ end }}
+	            <body>
+					{{ with .Content }}{{ . | markdownify }}{{ end }}
+				</body>
+	        </div>
+
+{{ if .Params.showrefs }}
+			<div class="col-sm-2 no-gutter">
+	{{ $Title := .Title }}
+	{{ $.Scratch.Set "count" 0 }}
+	{{ range .Site.Data.references }}
+		{{ $.Scratch.Add "count" 1 }}
+		{{ if eq .kind $Title }}
+				<div class="col-xs-3 col-sm-12">
+				    <a href="#referencesModal{{ ($.Scratch.Get "count") }}" data-toggle="modal">
+		{{ partial "reference-logo.html" . }}
+		    	 	</a>
+			 	</div>
+				{{ "<!-- references Modals -->" | safeHTML }}
+				<div class="modal fade" id="referencesModal{{ ($.Scratch.Get "count") }}" tabindex="-1" role="dialog" aria-hidden="true">
+			{{ partial "reference-modal_new.html" . }}
+				</div>
+		{{ end }}
+	{{ end }}
+			</div>
+{{ end }}
+		</div> <!--end row-->
+    </div>
+</section>

@@ -1,0 +1,35 @@
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content" data-backdrop="true">        
+        <div class="modal-body">
+          <div class="close-modal" data-dismiss="modal">
+        	<div class="lr">
+            	<div class="rl">
+            	</div>
+       		 </div>       
+    	</div>
+          <img src="{{ .Site.Params.baseurl }}/pictures/references/{{ .img }}" class="img-responsive img-centered" alt="">
+          <hr class="star-primary">
+          <h2 class="modal-title">{{ .title | markdownify }}</h2>
+          {{ with .video }}{{ partial "youtube.html" . }}{{ end }}
+          <p>{{ .description | markdownify }}</p>
+          {{ with .imgcontent }}<img src="{{ . }}" class="img-responsive img-centered" alt="">{{ end }}
+          {{ with .description2 }}<p>{{ . | markdownify }}</p>{{ end }}
+<!--          <hr class="star-primary">
+-->
+        
+          
+          <a href="{{ .clientlink }}" class="btn btn-primary btn-xl page-scroll" style="margin: auto; width: auto; max-width: 400px; display: block; text-align: center; white-space: normal;">Check out our {{ with .category }}{{ . }}{{ end }} services</a>
+          
+<!--          <ul class="list-inline item-details" style="margin: auto;">                 
+                 <li><strong>{{ with .category }}Category{{ end }}</strong>:
+                        {{with .clientlink }}<strong><a href="{{ . }}">{{ end }}{{ .category }}</a>
+                        </strong>
+                 </li>
+            </ul>
+-->            
+        </div>
+      </div>
+    </div>
+    
