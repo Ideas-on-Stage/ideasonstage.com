@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Ideas on Stage | Deliver amazing presentations</title>
+    <link>https://www.ideasonstage.com/events/</link>
+    <description>Recent content in Events on Ideas on Stage | Deliver amazing presentations</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Thu, 29 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ideasonstage.com/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Women on Stage</title>
+      <link>https://www.ideasonstage.com/events/2017-06-29-wos/</link>
+      <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/events/2017-06-29-wos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Women on Stage</title>
+      <link>https://www.ideasonstage.com/events/2016-11-24-wos/</link>
+      <pubDate>Thu, 24 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/events/2016-11-24-wos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentation Zen for Business</title>
+      <link>https://www.ideasonstage.com/events/2016-09-26-pzfb/</link>
+      <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/events/2016-09-26-pzfb/</guid>
+      <description>Located in the heart of the City of Light, Paris, this training will turn you into a Zen Presentation Master.</description>
+    </item>
+    
+  </channel>
+</rss>

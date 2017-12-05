@@ -32,11 +32,12 @@
 								{{ $Title | markdownify }}
 	                        </div>
 	                        <div class="offer-name">
-								{{ range where $.Data.Pages.ByDate "Section" "events" }}
-								    {{ if eq .Title $Title }}
-									{{ if ge .Date.Unix .Now.Unix }}
+								{{ range .Site.Data.events }}
+								    {{ if eq .title $Title }}
+									{{ if ge (time .date) now.Unix }}
+										{{ $date := time .date }}
 										<br />
-										<span class="label label-primary">{{ .Date.Format "2 January 2006" }} {{ .Params.location }}</span>
+										<span class="label label-primary">{{ $date.Format "2 January 2006" }}, {{ .location }}</span>
 									{{ end }}
 									{{ end }}
 								{{ end }}

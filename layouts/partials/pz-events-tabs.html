@@ -3,7 +3,7 @@
 {{ $.Scratch.Set "count" 0 }}
 {{ range (where .Site.Pages.ByDate "Section" "events") }}
 	{{ if eq .Title $Title }}
-		{{ if ge .Date.Unix .Now.Unix }}
+		{{ if ge .Date.Unix now.Unix }}
 			{{ $.Scratch.Add "count" 1 }}
 			{{ if eq 1 ($.Scratch.Get "count") }}
 <section id="events-tabs">
@@ -29,7 +29,7 @@
 {{ $.Scratch.Set "count" 0 }}
 {{ range (where .Site.Pages.ByDate "Section" "events") }}
 	{{ if eq .Title $Title }}
-		{{ if ge .Date.Unix .Now.Unix }}
+		{{ if ge .Date.Unix now.Unix }}
 			{{ $.Scratch.Add "count" 1 }}
 			{{ if le ($.Scratch.Get "count") 3 }}
 					<div role="tabpanel" class="tab-pane {{ if eq 1 ($.Scratch.Get "count") }}active{{ end }}" id="{{ $.Scratch.Get "count" }}">
