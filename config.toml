@@ -1,0 +1,278 @@
+baseurl      	= "https://www.ideasonstage.com/"
+languageCode 	= "en-us"
+title        	= "Ideas on Stage | Deliver amazing presentations"
+name         	= "Ideas on Stage"
+copyright		= "© Ideas on Stage"
+canonifyurls 	= true
+
+description  	= "Deliver Amazing Presentations with the Business Presentations Specialist"
+theme        	= "hugo-creative-theme-master"
+
+googleAnalytics = "UA-30695118-1"
+
+			
+
+	# Taxonomies
+	[taxonomies]
+		category 	= "categories"
+		news_category	= "news"
+		tag			= "tags"
+
+
+
+	[params]
+		email 			= "info@ideasonstage.com"
+		year			= "2016-2017"
+		rights			= "All Rights Reserved"
+		cookies			= "This website uses cookies from CloudFlare, Google Analytics and HotJar."
+		cookieslink		= "cookies/"
+		footer_desc		= "Ideas on Stage is the global specialist in business presentations. We offer our services in North America and Europe, in English, French, Spanish and Italian."
+		favicon			= "pictures/home/ios_favicon.ico"
+		headerteam		= "/pictures/team/image.png"
+		headereventan	= "/pictures/corporate-events/event-animation/image.png"
+
+		# Id for Incognito form in Presentation Creation Service
+		pcsform = "TeiR-77um0q9kFm49EqvwQ"
+		pcsformid = "2"
+				
+		
+		#News
+		viewMorePostLink = "/news/"
+    	author = "IoS"
+		
+		# Navigation
+		[params.navigation]
+			brand = "Ideas on Stage"
+			brand_logo = "/pictures/home/ideas-on-stage.png"
+	
+			[params.navigation.links]
+				about		= "About"
+				services	= "Services"
+				training	= "Training"
+				contact		= "Contact"
+				news		= "News"
+				more		= "More"
+				team		= "Team"
+				team_url	= "team/"
+				language	= "Language"
+				back		= "Back to Home"
+				fr			= "Français"
+				fr_url		= "https://www.ideasonstage.fr/"
+				es			= "Español"
+				es_url		= "https://www.ideasonstage.es/"
+				en			= "English"
+				en_url		= "https://www.ideasonstage.com/"
+				it			= "Italiano"
+				it_url		= "https://www.ideasonstage.it/"
+
+	
+	
+	
+		# Hero section - Header picture + Tagline + Countries Menu
+		[params.hero]
+				picture	    = "/pictures/home/header.jpg"
+				slogan      = "Deliver amazing presentations"
+				subtitle_on = true
+				subtitle    = "Ideas on Stage is a leading specialist in business presentations, operating in Europe and America. Our services are available in English, French, Spanish and Italian."
+				button_on   = false
+				buttonText  = "Discover how we can help you"
+				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
+	
+		[params.hero.countries]
+				us	= "USA"
+				fr	= "France"
+				es	= "España"
+				de	= "Deutschland"
+	
+	
+		[params.testimonials]
+    		enable = true
+   			 # All testimonials are defined in their own files. You can find testimonials 
+   			 # at '/data/testimonials'.
+    		
+    		title = "Testimonials"
+    		subtitle = "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
+
+		# About section
+		[params.about]
+			headline    = "Ideas on Stage"
+			description = "At Ideas on Stage we are specialized in Public Presentations. If you want to deliver a memorable presentation, win more sales or simply become better at presenting, we're here to help."
+			descriptionheadline = "Ideas on Stage is the global specialist in business presentations and public speaking.<br> We help our customers across Europe, North America and the World to move beyond the boring, ineffective presentations that have become the norm in most companies.<br>As a truly international company, we offer our services in English, French, Spanish and German."
+			logos = "/ios/pictures/home/logos.jpg"
+			buttonText  = "Contact us"
+	   
+	    #About IoS section (bottom of home page)
+	        title			= "About Ideas on Stage"
+	        subtitle		= "Our Methodology"
+	        description1 	= "Ideas on Stage is a leading specialist in business presentations.<br>Our highly experienced team of experts combines to bring you a unique set of skills, helping you to build your presentations and convince your audiences.<br>Ideas on Stage operates in Europe and North America. Our services are available in English, French, Spanish and Italian."
+	        image1 			= "/pictures/about/ios-map.png"
+	        description2 	= "The pSCORE method (Presentation SCORE) is our new approach to business presenting, honed over many years and proven in a wide variety of companies. pSCORE offers a complete method for the creation of top-quality presentations, starting with careful preparation (start with your audience and the context, set objectives and choose the key messages) and then applying the three arts of presenting: <br /><ul><li>Storytelling: define a clear and effective structure, and use storytelling techniques to make your key messages stick.</li><li>Visuals: forget Death By PowerPoint – instead use slides and other visual aids to communicate more effectively.</li><li>Oratory: deliver your presentation powerfully and credibly, with confidence and without stress.</li></ul>"
+	        image2 			= "/pictures/about/ios-pSCORE.png"
+	    
+			[params.about.modal]
+				name = "Name"
+				title = "Title"
+				category = "Category"
+				buttonText = "Close"
+	
+
+
+		# Offer section
+		[params.services]
+			title	= "Our Services"
+			
+		[params.offer]	
+			[params.offer.001]
+				category	= "Public Speaking Coaching"
+				title		= "Public Speaking"
+			[params.offer.002]
+				category	= "Presentation Creation Agency"
+				title		= "Presentation Creation Agency"
+			[params.offer.003]
+				category	= "Corporate Events"
+				title		= "Corporate Events"
+			[params.offer.004]
+				category	= "Training-Workshops"
+				title		= "Training & Workshops"
+		
+		
+		
+		
+		[params.service]
+		
+		[params.service.001]
+				category	= "Public Speaking Coaching"
+				title		= "Public Speaking Coaching"
+		[params.service.002]
+				category	= "Training"
+				title		= "Training"
+		[params.service.003]
+				category	= "Event Design"
+				title		= "Event Design"
+		[params.service.004]
+				category	= "Workshops"
+				title		= "Workshops"	
+				
+		
+		
+		# Presentation Training Tabs (top tabs with dates in the Training page)
+		# buttondate if true show date in button name
+		# buttonplace if true show location in button name
+		[params.events_tabs]
+			language	= "Language: "
+			date		= "Date: "
+			location	= "Location: "
+			address		= "Address: "
+			duration	= "Duration: "
+			time_start	= "Start Time: "
+			time_end	= "End Time: "
+			trainer		= "Trainer: "				
+			buttonText	= "Register Now "
+			buttondate	= true
+			buttonplace	= false	
+			price		= "Price: "		
+	
+	        
+	
+		# Contact section
+		[params.contact]
+	        enable = true
+			title = "Contact us"
+			subtitle  = "Any questions? Use the form below and we'll get back to you shortly"
+			contactemail = "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
+			contactphone = "+33 1 46 94 68 18" 
+			buttonText = "Send message"
+			wait	= "Please Wait..."
+			success = "Thank you, we'll get back to you shortly."
+			
+			# 'warning' defines error messages for invalid inputs
+			[params.contact.form.name]
+				text = "Your Name *"
+				warning = "Please enter your name."
+	
+			[params.contact.form.email]
+				text = "Your Email *"
+				warning = "Please enter your email address."
+	
+			[params.contact.form.phone]
+				text = "Your Phone (optional)"
+				warning = "Please enter your phone number."
+	
+			[params.contact.form.message]
+				text = "Your Message *"
+				warning = "Please enter a message."
+	
+			[params.contact.form.questions]
+				question1 = "I have a question about one of your trainings"
+				question2 = "I am looking for help for a presentation I have to give"
+				question3 = "I am organizing an event and would like to know how you can help"
+				question4 = "Other..."
+	
+	
+	
+		# Aside section
+		[params.asidefree]
+			headline = "Is your TEDx event eligible for free Coaching?"
+			description = "Each year Ideas on Stage sponsors a few TEDx events around the Globe. If you truly believe you can change the world and your event meets the criteria you can apply for our TEDx Sponsorship Speakers Coaching. Corporate events are not eligible."
+			[params.asidefree.button]
+				text = "Apply for TEDx Sponsorship"
+				link = ""
+	
+	
+		[params.modal]
+			client		= "Client"
+			close 		= "Close"
+			date		= "Date"
+			category	= "Category"
+			
+	    # Portfolio modals
+		[params.portfolio.modal]
+	        client = "Client"
+	        date = "Date"
+	        category = "Category"
+	
+	
+	
+	    # Team
+	    [params.team_members]
+	    	headline = "Team"
+	    	
+			[params.team_members.modal]
+		        name = "Name"
+		        title = "Title"
+		        category = "Category"
+	
+	
+		# Aside section
+		[params.aside]
+			headline = "You still haven't found what you're looking for?"
+			description = "You didn't find what you were looking for? Don't waste your time searching for it, simply request it directly from us with the the form below."
+			[params.aside.button]
+				text = "Submit question"
+				link = ""
+
+# News
+# Define the number of posts/news items per page
+
+paginate = 5
+paginatePath = "newspage"
+[params.news]
+	more = "Continue reading"
+	by	 = "by"
+	back = "Back to News"
+	title = "News"
+	next  = "Older"
+	prev  = "Newer"
+[Permalinks]
+    news = "/news/:year/:month/:day/:filename/"
+    
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = false
+    tags = false
+    search = true
+
+
+    
+    
+	
