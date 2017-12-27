@@ -306,7 +306,7 @@ pcsformid = "2"
 # FRENCH
 ##################
 [languages.fr]
-baseURL = "https://flamboyant-mirzakhani-73a1c6.netlify.com/fr/"
+baseURL = "https://suspicious-allen-cf7d54.netlify.com/"
 languageName = "Francais"
 languageCode 	= "fr"
 weight = "2"
