@@ -14,7 +14,7 @@
 <!-- http://formspree.io/info@ideasonstage.com -->
                 <form  action="https://hooks.zapier.com/hooks/catch/607769/43m9eq/" method="POST" name="sentMessage" id="contactForm">
                     <div class="form-group">
-                		<input type="hidden" name="_subject" value="Form sent from page: {{ .RelPermalink }}">
+                		<input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
                 	</div>
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.text }}{{ .  | markdownify }}{{ end }}" name="name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.warning }}{{ . | markdownify}}{{ end }}">

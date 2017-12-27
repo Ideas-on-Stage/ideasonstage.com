@@ -1,14 +1,18 @@
-baseurl      	= "https://flamboyant-mirzakhani-73a1c6.netlify.com/"
-languageCode 	= "en-us"
+DefaultContentLanguage = "en"
+paginate = 5
+paginatePath = "newspage"
+canonifyurls 	= true
+
+
+    
+
 title        	= "Ideas on Stage | Deliver amazing presentations"
 name         	= "Ideas on Stage"
 copyright		= "© Ideas on Stage"
-canonifyurls 	= true
-
-description  	= "Deliver Amazing Presentations with the Business Presentations Specialist"
 theme        	= "hugo-creative-theme-master"
 
-googleAnalytics = "UA-30695118-1"
+[Permalinks]
+    news = "/news/:year/:month/:day/:filename/"
 
 			
 
@@ -23,17 +27,15 @@ googleAnalytics = "UA-30695118-1"
 	[params]
 		email 			= "info@ideasonstage.com"
 		year			= "2016-2017"
-		rights			= "All Rights Reserved"
-		cookies			= "This website uses cookies from CloudFlare, Google Analytics and HotJar."
 		cookieslink		= "cookies/"
-		footer_desc		= "Ideas on Stage is the global specialist in business presentations. We offer our services in North America and Europe, in English, French, Spanish and Italian."
 		favicon			= "pictures/home/ios_favicon.ico"
 		headerteam		= "/pictures/team/image.png"
 		headereventan	= "/pictures/corporate-events/event-animation/image.png"
-
+		
 		# Id for Incognito form in Presentation Creation Service
 		pcsform = "TeiR-77um0q9kFm49EqvwQ"
-		pcsformid = "2"
+
+		
 				
 		
 		#News
@@ -135,26 +137,6 @@ googleAnalytics = "UA-30695118-1"
 				category	= "Training-Workshops"
 				title		= "Training & Workshops"
 		
-		
-		
-		
-		[params.service]
-		
-		[params.service.001]
-				category	= "Public Speaking Coaching"
-				title		= "Public Speaking Coaching"
-		[params.service.002]
-				category	= "Training"
-				title		= "Training"
-		[params.service.003]
-				category	= "Event Design"
-				title		= "Event Design"
-		[params.service.004]
-				category	= "Workshops"
-				title		= "Workshops"	
-				
-		
-		
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
 		# buttonplace if true show location in button name
@@ -254,8 +236,7 @@ googleAnalytics = "UA-30695118-1"
 # News
 # Define the number of posts/news items per page
 
-paginate = 5
-paginatePath = "newspage"
+
 [params.news]
 	more = "Continue reading"
 	by	 = "by"
@@ -263,8 +244,6 @@ paginatePath = "newspage"
 	title = "News"
 	next  = "Older"
 	prev  = "Newer"
-[Permalinks]
-    news = "/news/:year/:month/:day/:filename/"
     
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -272,7 +251,279 @@ paginatePath = "newspage"
     tags = false
     search = true
 
+##################################################
+[languages]
+[languages.en]
+baseURL = "https://flamboyant-mirzakhani-73a1c6.netlify.com/"
+languageName = "English"
+languageCode 	= "en"
+weight = "1"
+title = "Ideas on Stage | Deliver amazing presentations"
+description  	= "Deliver Amazing Presentations with the Business Presentations Specialist"
+googleAnalytics = "UA-30695118-1"
+rights			= "All Rights Reserved"
+cookies			= "This website uses cookies from CloudFlare, Google Analytics and HotJar."
+footer_desc		= "Ideas on Stage is the global specialist in business presentations. We offer our services in North America and Europe, in English, French, Spanish and Italian."
 
-    
-    
+[languages.en.params]
+		rights			= "All Rights Reserved"
+		cookies			= "This website uses cookies from CloudFlare, Google Analytics and HotJar."
+		footer_desc		= "Ideas on Stage is the global specialist in business presentations. We offer our services in North America and Europe, in English, French, Spanish and Italian."
+#form id for Incognito form
+pcsformid = "2"
+
+# Navigation
+		[languages.en.navigation]
+			brand = "Ideas on Stage"
+			brand_logo = "/pictures/home/ideas-on-stage.png"
+	
+			[languages.en.navigation.links]
+				about		= "About"
+				services	= "Services"
+				training	= "Training"
+				contact		= "Contact"
+				news		= "News"
+				more		= "More"
+				team		= "Team"
+				team_url	= "team/"
+				language	= "Language"
+				back		= "Back to Home"
+				fr			= "Français"
+				fr_url		= "https://www.ideasonstage.fr/"
+				es			= "Español"
+				es_url		= "https://www.ideasonstage.es/"
+				en			= "English"
+				en_url		= "https://www.ideasonstage.com/"
+				it			= "Italiano"
+				it_url		= "https://www.ideasonstage.it/"
+
+	
+	
+	
+		
+
+##################
+# FRENCH
+##################
+[languages.fr]
+baseURL = "https://flamboyant-mirzakhani-73a1c6.netlify.com/fr/"
+languageName = "Francais"
+languageCode 	= "fr"
+weight = "2"
+title = "Ideas on Stage | Prise de parole en public − Présentation PowerPoint - Media Training"
+description  	= "Le spécialiste des présentations"
+googleAnalytics = "UA-30695118-2"
+rights			= "Tous droits réservés"
+cookies			= "Ce site utilise des Cookies."
+footer_desc		= "Ideas on Stage est le spécialiste des présentations. Nos services sont disponibles en Amérique du Nord et en Europe, en anglais, français, espagnol et italien."
+favicon			= "pictures/home/ios_favicon.ico"
+		
+#form id for Incognito form
+pcsformid = "1"
+
+# Navigation
+[languages.fr.navigation]
+	brand = "Ideas on Stage"
+	brand_logo = "/pictures/home/ideas-on-stage.png"
+	
+	[languages.fr.navigation.links]
+	about		= "À propos"
+	services	= "Services"
+	training	= "Formations"
+	contact		= "Contact"
+				news		= "Nouvelles"
+				more		= "Plus..."
+				team		= "Équipe"
+				team_url	= "equipe/"
+				language	= "Langue"
+				back		= "Page d'accueil"
+				fr			= "Français"
+				fr_url		= "https://www.ideasonstage.fr/"
+				es			= "Español"
+				es_url		= "https://www.ideasonstage.es/"
+				en			= "English"
+				en_url		= "https://www.ideasonstage.com/"
+				it			= "Italiano"
+				it_url		= "https://www.ideasonstage.it/"
+		
+	
+	
+	
+		# Hero section - Header picture + Tagline + Countries Menu
+		[languages.fr.hero]
+				picture	    = "/pictures/home/header.jpg"
+				slogan      = "Des présentations incroyables"
+				subtitle_on = true
+				subtitle    = "Ideas on Stage est le spécialiste des présentations. Nos services de coaching de prise de parole en public, media training et création de présentation PowerPoint sont disponibles en anglais, français, espagnol et italien. Nous sommes présents en Amérique du Nord et en Europe."
+				button_on   = false
+				buttonText  = "Découvrez nos services"
+				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
+	
+		[languages.fr.hero.countries]
+				us	= "USA"
+				fr	= "France"
+				es	= "España"
+				de	= "Deutschland"
+	
+	
+		[languages.fr.testimonials]
+    		enable = true
+   			 # All testimonials are defined in their own files. You can find testimonials 
+   			 # at '/data/testimonials'.
+    		
+    		title = "Témoignages"
+    		subtitle = "Nous avons travaillé avec de nombreux clients ; voici quelques exemples de ce que nos clients disent de nous."
+
+		# About section
+		[languages.fr.about]
+			headline    = "Ideas on Stage"
+			description = "Ideas on Stage est le spécialiste des présentations. Nous sommes là pour vous aider à réaliser une présentation mémorable, gagner plus de ventes ou simplement devenir un meilleur présentateur."
+			descriptionheadline = "Ideas on Stage est le spécialiste des présentations. Nos services sont disponibles en Amérique du Nord et en Europe, en anglais, français, espagnol et italien."
+			logos = "/ios/pictures/home/logos.jpg"
+			buttonText  = "Nous contacter"
+	   
+	    #About IoS section (bottom of home page)
+	        title			= "À propos d'Ideas on Stage"
+	        subtitle		= "Méthodologie"
+	        description1 	= "Ideas on Stage is a leading specialist in business presentations.<br>Our highly experienced team of experts combines to bring you a unique set of skills, helping you to build your presentations and convince your audiences.<br>Ideas on Stage operates in Europe and North America. Our services are available in English, French, Spanish and Italian."
+	        image1 			= "/pictures/about/ios-map.png"
+	        description2 	= "The pSCORE method (Presentation SCORE) is our new approach to business presenting, honed over many years and proven in a wide variety of companies. pSCORE offers a complete method for the creation of top-quality presentations, starting with careful preparation (start with your audience and the context, set objectives and choose the key messages) and then applying the three arts of presenting: <br /><ul><li>Storytelling: define a clear and effective structure, and use storytelling techniques to make your key messages stick.</li><li>Visuals: forget Death By PowerPoint – instead use slides and other visual aids to communicate more effectively.</li><li>Oratory: deliver your presentation powerfully and credibly, with confidence and without stress.</li></ul>"
+	        image2 			= "/pictures/about/ios-pSCORE.png"
+	    
+			[languages.fr.about.modal]
+				name = "Name"
+				title = "Title"
+				category = "Category"
+				buttonText = "Close"
+	
+
+
+		# Offer section
+		[languages.fr.services]
+			title	= "Nos Services"
+			
+		[languages.fr.offer]	
+			[languages.fr.offer.001]
+				category	= "public-speaking-coaching"
+				title		= "Prise de parole en public"
+			[languages.fr.offer.002]
+				category	= "presentation-creation-agency"
+				title		= "Agence de création de présentations"
+			[languages.fr.offer.003]
+				category	= "corporate-events"
+				title		= "Événements d'entreprise"
+			[languages.fr.offer.004]
+				category	= "training-workshops"
+				title		= "Formations et ateliers"
+				
+		
+		
+		# Presentation Training Tabs (top tabs with dates in the Training page)
+		# buttondate if true show date in button name
+		# buttonplace if true show location in button name
+		[languages.fr.events_tabs]
+			language	= "Language: "
+			date		= "Date: "
+			location	= "Location: "
+			address		= "Address: "
+			duration	= "Duration: "
+			time_start	= "Start Time: "
+			time_end	= "End Time: "
+			trainer		= "Trainer: "				
+			buttonText	= "Register Now "
+			buttondate	= true
+			buttonplace	= false	
+			price		= "Price: "		
+	
+	        
+	
+		# Contact section
+		[languages.fr.contact]
+	        enable = true
+			title = "Contact us"
+			subtitle  = "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
+			contactemail = "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
+			contactphone = "+33 1 46 94 68 18" 
+			buttonText = "Envoyer"
+			wait	= "Veuillez patienter..."
+			success = "Merci, nous vous répondrons rapidement."
+			
+			# 'warning' defines error messages for invalid inputs
+			[languages.fr.contact.form.name]
+				text = "Votre nom complet *"
+				warning = "Veuillez entrer votre nom complet."
+	
+			[languages.fr.contact.form.email]
+				text = "Votre email *"
+				warning = "Veuillez entrer votre adresse email."
+	
+			[languages.fr.contact.form.phone]
+				text = "Votre téléphone (optionnel)"
+				warning = "Veuillez entrer votre numéro de téléphone."
+	
+			[languages.fr.contact.form.message]
+				text = "Your Message *"
+				warning = "Please enter a message."
+	
+	
+	
+	
+		# Aside section
+		[languages.fr.asidefree]
+			headline = "Is your TEDx event eligible for free Coaching?"
+			description = "Each year Ideas on Stage sponsors a few TEDx events around the Globe. If you truly believe you can change the world and your event meets the criteria you can apply for our TEDx Sponsorship Speakers Coaching. Corporate events are not eligible."
+			[languages.fr.asidefree.button]
+				text = "Apply for TEDx Sponsorship"
+				link = ""
+	
+	
+		[languages.fr.modal]
+			client		= "Client"
+			close 		= "Close"
+			date		= "Date"
+			category	= "Category"
+			
+	    # Portfolio modals
+		[languages.fr.portfolio.modal]
+	        client = "Client"
+	        date = "Date"
+	        category = "Category"
+	
+	
+	
+	    # Team
+	    [languages.fr.team_members]
+	    	headline = "Team"
+	    	
+			[languages.fr.team_members.modal]
+		        name = "Name"
+		        title = "Title"
+		        category = "Category"
+	
+	
+		# Aside section
+		[languages.fr.aside]
+			headline = "You still haven't found what you're looking for?"
+			description = "You didn't find what you were looking for? Don't waste your time searching for it, simply request it directly from us with the the form below."
+			[languages.fr.aside.button]
+				text = "Submit question"
+				link = ""
+
+
+[languages.fr.news]
+	more = "continuer à lire"
+	by	 = "par"
+	back = "Retour à Nouvelles"
+	title = "Nouvelles"
+	next  = "Page Suivante"
+	prev  = "Page Précédente"
+
+
+
+# Enable and disable widgets for the right sidebar
+[languages.fr.widgets]
+    categories = false
+    tags = false
+    search = true		
+		
 	

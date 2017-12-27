@@ -1,11 +1,10 @@
 <section id="team-members">
      <div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-				{{ $.Scratch.Set "count" 0}}
+			<div class="col-xs-12 col-sm-10 col-sm-offset-1">				
 				{{ range .Site.Data.teammembers }}
-					{{ $.Scratch.Add "count" 1}}
-	           		 <div class="col-xs-12 col-sm-4 col-lg-3">
+				  {{ if eq $.Site.Params.languagecode .language }}
+	           		    <div class="col-xs-12 col-sm-4 col-lg-3">
 	                	<a href="{{ .url }}" class="people-box">
 	                    <img src="/pictures/team-members/{{ if ne .img nil }}{{ .img }}{{ else}}{{ .name | urlize}}.png{{ end }}" class="people-box-image" alt="">	
 		                <div class="people-box-caption">
@@ -16,6 +15,7 @@
 						</div>
 						</a>
 	            	  </div>
+				{{ end }}  
 				{{ end}}
 	        </div> <!--end col -->
         </div> <!--end row-->

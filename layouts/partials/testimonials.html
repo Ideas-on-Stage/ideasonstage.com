@@ -17,6 +17,7 @@
                <ul class="owl-carousel testimonials same-height-row">
                                     {{ range .Site.Data.testimonials }}
                                     {{ if .showonhome }}
+                                    {{ if eq $.Site.Params.languagecode .language }}
                     <li class="item">
                         <!-- <div class="testimonial same-height-always"> -->
                         <div class="testimonial">
@@ -35,6 +36,7 @@
                         </div>
                     </li>
                     
+                    {{ end }}
                     {{ end }}
                     {{ end }}
                 </ul>
