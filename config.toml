@@ -1,3 +1,4 @@
+baseURL = "https://flamboyant-mirzakhani-73a1c6.netlify.com/"
 DefaultContentLanguage = "en"
 paginate = 5
 paginatePath = "newspage"
