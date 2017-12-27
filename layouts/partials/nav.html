@@ -17,13 +17,17 @@
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
-                </li>               
+                </li>
+                {{ if .Site.Params.activenews }}
                 <li>
                     <a class="page-scroll" href="{{ .Site.BaseURL }}news/">{{ with .Site.Params.navigation.links.news }}{{ . }}{{ end }}</a>
-                </li>               
+                </li>  
+                {{ end }} 
+    
                 <li>
                     <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
                 </li>
+                
 <!--Link to About section in Nav bar -->
 <!--
                 <li>

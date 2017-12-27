@@ -20,8 +20,10 @@
 
                         <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}By <a href="/team/{{ .Params.author | urlize }}">{{ .Params.author }}</a> | {{ end }}{{ if eq $.Site.LanguageCode  "en" }}
                                             	{{ .Date.Format "January 2, 2006" }}
-                                            {{ else }}
+                                            {{ else if eq $.Site.LanguageCode  "fr"}}
                                             	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time> 
+                                            {{ else if eq $.Site.LanguageCode  "es"}}
+                                            	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}</time> 	
                                             {{ end }}</p>
 
                         <div id="post-content">

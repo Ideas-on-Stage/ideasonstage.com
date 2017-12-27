@@ -1,0 +1,39 @@
++++
+draft		= false
+title		= "TEDX McGill 2016"
+tags		= [ "TEDx", "events"]
+date		= "2016-03-19"
+showrefs	= false
+url			= "/project/tedx-mcgill-2016/"
++++
+
+Ideas on Stage, especialista global en presentaciones, ha entrenado y acompañado a speakers en eventos TED durante los últimos seis años, consiguiendo grandes resultados. Este año, no sólo hemos hecho acompañamiento sino que nos hemos asociado con TEDx McGill, que tuvo lugar a principios de este mes.
+
+{{< instagram BCvB83WBw2n >}}
+
+El tema del evento era el cambio de paradigma, y tuvo lugar en la McGill University en Montreal. Como es habitual, los ponentes eran fantásticos y con areas de experiencia tan diversas como las ondas gravitacionales, la fundación de derechos para cyborgs o activismo en ONGs. Puedes consultar la biografía de cada ponente [aquí] (http://www.tedxmcgill.ca/#!speakers/cani)
+
+### Pero, ¿qué es un cambio de paradigma?
+
+Un cambio de paradigma se produce cuando la concepción del mundo acerca de alguna cosa, cambia por completo. Como cuando la gente se dio cuenta de que en realidad la Tierra no era el centro del Universo, o como con la revolución darwiniana. La historia de la ciencia está repleta de estos cambios de paradigma que se han vuelto más numerosos a medida que se han realizado nuevos descubrimientos. Ser parte de esa transformación, ayudando a sacar a la luz esas nuevas ideas, es realmente fantástico.
+
+En esta ocasión el acompañamiento lo realizó nuestro coach [Joe Ross](http://www.ideasonstage.es/team/joe-ross/), cuyo trabajo fue muy alabado.
+
+{{< instagram BDGV2-lBwzv >}}
+
+> “Joe is a master craftsman when it comes to speech coaching and attention to performance detail. Joe’s highly knowledgeable focus, expertise, and insights were an invaluable asset toward the great success of my TED Talk.”   Christopher Emerson 
+
+>“If the talk went well, it was in no small part thanks to you Joe. It was delightful working together, and you used just the right amount of push while respecting what I felt I had to say. I’ve done many talks over the years, yet this was the first time I was mentored, and hesitant though I was, I found it most helpful. Thank you Joe. “ (Please feel free to quote this—it is all true!!)
+Henry Mintzberg, Cleghorn Professor of Management Studies
+
+>“I really enjoyed working with Joe Ross in preparing for a TEDx presentation. He was remarkably artful in taking my fixed points of departure — content, background, and worldview — and gently forming it into something that fit the constraints of the TEDx format, and helping pace me in preparing for it in a timely way. But I did not fully appreciate his contribution to the success of the TEDx event until I saw him during the final rehearsals with the full collection of presenters, who represented a very broad sample across subject matter, level of familiarity with public speaking, innate inclination to communicate in that medium, and simple preparedness. The end result came across as an integrated whole, and this had a lot to do with Joe’s coaching on the individual level and his ability to knit it all together.”
+Dr. David Shoemaker, (científico descubridor de las ondas gravitacionales)
+
+
+{{< instagram BDJSRsfBw_F >}}
+
+Como con todos los eventos TEDx, los videos de los ponentes estarán disponibles online en un par de semanas. Puedes seguir el canal de Youtube de la organización para tener más información.
+
+Igualmente publicaremos estos videos en nuestro canal de Youtube junto con otros videos de eventos anteriores, así que no dudes en echar un vistazo.
+
+
