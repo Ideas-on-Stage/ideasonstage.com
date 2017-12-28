@@ -1,15 +1,13 @@
----
-draft: 'true'
-title: Test 3 - toml format
-tags:
-  - Test
-  - testing
-news:
-  - general
-date: '2017-12-27'
-author: Ricardo Bonis
-banner: /img/news/be_a_boss_thumb.jpg
----
++++
+draft = true
+title = "Test 3 - toml format"
+tags = ["Test","testing"]
+news = ["general"]
+date = "2017-12-27"
+author = "Ricardo Bonis"
+banner = "/img/news/be_a_boss_thumb.jpg"
++++
+
 ## A new attempt
 
 
