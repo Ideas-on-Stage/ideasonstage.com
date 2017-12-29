@@ -29,7 +29,7 @@ theme        	= "hugo-creative-theme-master"
 		email 			= "info@ideasonstage.com"
 		year			= "2016-2017"
 		cookieslink		= "cookies/"
-		favicon			= "pictures/home/ios_favicon.ico"
+		favicon			= "/pictures/home/ios_favicon.ico"
 		headerteam		= "/pictures/team/image.png"
 		headereventan	= "/pictures/corporate-events/event-animation/image.png"
 		
