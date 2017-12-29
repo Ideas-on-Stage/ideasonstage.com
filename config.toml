@@ -312,7 +312,7 @@ activenews = true
 # FRENCH
 ##################
 [languages.fr]
-baseURL = "https://suspicious-allen-cf7d54.netlify.com/"
+baseURL = "https://www.ideasonstage.fr/"
 languageName = "Francais"
 languageCode 	= "fr"
 weight = "2"
