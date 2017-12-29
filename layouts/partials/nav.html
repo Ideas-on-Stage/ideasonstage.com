@@ -1,92 +1,88 @@
 {{ "<!-- NAVIGATION -->" | safeHTML }}
-<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <a class="navbar-brand page-scroll" href="#page-top"><img src="{{ .Site.Params.navigation.brand_logo }}" alt="Ideas on Stage" width="200px" padding="12px, 12px"></a>
-        </div>
-        {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
-                </li>
-                {{ if .Site.Params.activenews }}
-                <li>
-                    <a class="page-scroll" href="{{ .Site.BaseURL }}news/">{{ with .Site.Params.navigation.links.news }}{{ . }}{{ end }}</a>
-                </li>  
-                {{ end }} 
-    
-                <li>
-                    <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
-                </li>
-                
-<!--Link to About section in Nav bar -->
-<!--
-                <li>
-                    <a class="page-scroll" href="#about-ios">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
-                </li> 
--->                             
-                <li>
-                    <a href="{{ .Site.BaseURL }}{{ .Site.Params.navigation.links.team_url }}">{{ with .Site.Params.navigation.links.team }}{{ . }}{{ end }}</a>
-                </li>           
-<!-- Adding a new dropdown with the language selection -->
-				<li role="presentation" class="dropdown">
-                	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" width:100%>
-                		{{ with .Site.Params.navigation.links.language }}{{ . }}{{ end }}<span class="caret"></span>
-                	</a>
-                	<ul class="dropdown-menu dropdown-menu-right">
-						{{ if ne  .Site.Params.navigation.links.en .Site.BaseURL }}
-							<li>
-						   		<a href="{{ .Site.Params.navigation.links.en_url }}">{{ .Site.Params.navigation.links.en }}</a> 
-						   	</li> 
-						{{ end }}
-						{{ if ne  .Site.Params.navigation.links.fr .Site.BaseURL }}
-							<li>
-						   		<a href="{{ .Site.Params.navigation.links.fr_url }}"> {{ with .Site.Params.navigation.links.fr }}{{ . }}{{ end }}</a>
-							</li>
-						{{ end }}
-						{{ if ne  .Site.Params.navigation.links.es .Site.BaseURL }}	
-						<li>
-						   <a href="{{ .Site.Params.navigation.links.es_url }}"> {{ with .Site.Params.navigation.links.es }}{{ . }}{{ end }}</a>
-						</li>
-						{{ end }}
-						{{ if ne  .Site.Params.navigation.links.it .Site.BaseURL }}	
-						<li>
-						   <a href="{{ .Site.Params.navigation.links.it_url }}"> {{ with .Site.Params.navigation.links.it }}{{ . }}{{ end }}</a>
-						</li>
-						{{ end }}						
-                		
-                	</ul>
-                </li>
-<!--              
-                <li role="presentation" class="dropdown">
-                	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                		<i class="fa fa-search"></i>
-                	</a>
-                	<ul class="dropdown-menu dropdown-menu-right">
-							<li>
-						   		<form action="//duckduckgo.com/" method="get" accept-charset="UTF-8" role="search">
-						   		 <div class="input-group">
-                				   <input name="query" type="search" results="0" class="form-control-nav" placeholder="Search our site">
-                				   <input type="hidden" name="query" value="site:{{ .Site.BaseURL }}">
-           						 </div>  
-           						 </form>    						
-						   	</li>
-					</ul>
-						   		  							  	   	
-                </li>  
--->                                                   
-            </ul>
-        </div>
-        {{ "<!-- /.navbar-collapse -->" | safeHTML }}
-    </div>
-    {{ "<!-- /.container-fluid -->" | safeHTML }}
-</nav>
+		<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+		    <div class="container-fluid">
+		        {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
+		        <div class="navbar-header">
+		            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		                <span class="sr-only">Toggle navigation</span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		            </button>
+		            <a class="navbar-brand page-scroll" href="#page-top"><img src="{{ .Site.Params.navigation.brand_logo }}" alt="Ideas on Stage" width="200px" padding="12px, 12px"></a>
+		        </div>
+		        {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
+		        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		            <ul class="nav navbar-nav navbar-right">
+		                <li>
+		                    <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
+		                </li>
+		                {{- if .Site.Params.activenews }}
+		                <li>
+		                    <a class="page-scroll" href="{{ .Site.BaseURL }}news/">{{ with .Site.Params.navigation.links.news }}{{ . }}{{ end }}</a>
+		                </li>  
+		                {{- end }} 
+		                <li>
+		                    <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>
+		                </li>
+		<!--Link to About section in Nav bar -->
+		<!--
+		                <li>
+		                    <a class="page-scroll" href="#about-ios">{{ with .Site.Params.navigation.links.about }}{{ . }}{{ end }}</a>
+		                </li> 
+		-->                             
+		                <li>
+		                    <a href="{{ .Site.BaseURL }}{{ .Site.Params.navigation.links.team_url }}">{{ with .Site.Params.navigation.links.team }}{{ . }}{{ end }}</a>
+		                </li>           
+		<!-- Adding a new dropdown with the language selection -->
+						<li role="presentation" class="dropdown">
+		                	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" width:100%>
+		                		{{ with .Site.Params.navigation.links.language }}{{ . }}{{ end }}<span class="caret"></span>
+		                	</a>
+		                	<ul class="dropdown-menu dropdown-menu-right">
+								{{- if ne  .Site.Params.navigation.links.en .Site.BaseURL }}
+								<li>
+									<a href="{{ .Site.Params.navigation.links.en_url }}">{{ .Site.Params.navigation.links.en }}</a> 
+								</li> 
+								{{- end }}
+								{{- if ne  .Site.Params.navigation.links.fr .Site.BaseURL }}
+								<li>
+									<a href="{{ .Site.Params.navigation.links.fr_url }}"> {{ with .Site.Params.navigation.links.fr }}{{ . }}{{ end }}</a>
+								</li>
+								{{- end }}
+								{{- if ne  .Site.Params.navigation.links.es .Site.BaseURL }}	
+								<li>
+								   <a href="{{ .Site.Params.navigation.links.es_url }}"> {{ with .Site.Params.navigation.links.es }}{{ . }}{{ end }}</a>
+								</li>
+								{{- end }}
+								{{- if ne  .Site.Params.navigation.links.it .Site.BaseURL }}	
+								<li>
+								   <a href="{{ .Site.Params.navigation.links.it_url }}"> {{ with .Site.Params.navigation.links.it }}{{ . }}{{ end }}</a>
+								</li>
+								{{- end }}
+		                	</ul>
+		                </li>
+		<!--              
+		                <li role="presentation" class="dropdown">
+		                	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+		                		<i class="fa fa-search"></i>
+		                	</a>
+		                	<ul class="dropdown-menu dropdown-menu-right">
+									<li>
+								   		<form action="//duckduckgo.com/" method="get" accept-charset="UTF-8" role="search">
+								   		 <div class="input-group">
+		                				   <input name="query" type="search" results="0" class="form-control-nav" placeholder="Search our site">
+		                				   <input type="hidden" name="query" value="site:{{ .Site.BaseURL }}">
+		           						 </div>  
+		           						 </form>    						
+								   	</li>
+							</ul>
+								   		  							  	   	
+		                </li>  
+		-->                                                   
+		            </ul>
+		        </div>
+		        {{ "<!-- /.navbar-collapse -->" | safeHTML }}
+		    </div>
+		    {{ "<!-- /.container-fluid -->" | safeHTML }}
+		</nav>
