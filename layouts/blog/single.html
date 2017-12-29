@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+{{ "<!-- single.html -->" | safeHTML }}
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
 
-        {{ partial "pagenav.html" . }}
+        {{ partial "nav.html" . }}
 
         {{ partial "news/breadcrumbs.html" . }}
 
