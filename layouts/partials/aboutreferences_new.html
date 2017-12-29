@@ -1,4 +1,4 @@
-{{ "<!-- ABOUT -->" | safeHTML }}
+{{ "<!-- aboutreferences -->" | safeHTML }}
 		<section id="about" class="bg-lightgrey" style="padding-top: 0px; padding-bottom: 0px;">
 		    <div class="container">
 		        <div class="row">
@@ -10,28 +10,12 @@
                         {{- if eq $.Site.Params.languagecode .language }}
                         {{- $.Scratch.Add "count" 1 }}
                         <div class="thumbnail" style="background-color: transparent;">
-		   					<a href="#referencesModal{{ ($.Scratch.Get "count") }}" data-toggle="modal" data-backdrop="true">
 							{{ partial "reference-logo.html" . }}
-        	     			</a>
             			</div>
             			{{- end }}
 						{{- end }}
 					{{- end }}
 		            </ul>
-		            <!-- /.owl-carousel -->
-					{{ $.Scratch.Set "count" 0 }}
-		            {{ range .Site.Data.references }}
-		            {{ if .showonhome }}
-		            	{{ if eq $.Site.Params.languagecode .language }}
-		                	{{ $.Scratch.Add "count" 1 }}
-		            {{ "<!-- references Modals -->" | safeHTML }}
-		            <div class="modal fade" id="referencesModal{{ ($.Scratch.Get "count") }}" tabindex="-1" role="dialog" aria-hidden="true">
-						{{ partial "reference-modal_new.html" . }}
-		            </div>
-					{{ end }}
-					{{ end }}
-					{{ end }}
-		            <!-- *** TESTIMONIALS CAROUSEL END *** -->
 		        </div>
 		    </div>
 		</section>
