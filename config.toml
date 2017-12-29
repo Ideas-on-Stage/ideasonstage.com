@@ -1,4 +1,4 @@
-baseURL = "https://flamboyant-mirzakhani-73a1c6.netlify.com/"
+baseURL = "https://www.ideasonstage.com"
 DefaultContentLanguage = "en"
 paginate = 5
 paginatePath = "newspage"
@@ -261,7 +261,7 @@ theme        	= "hugo-creative-theme-master"
 # ENGLISH
 ####################################################
 [languages.en]
-baseURL = "https://flamboyant-mirzakhani-73a1c6.netlify.com/"
+baseURL = "https://www.ideasonstage.com/"
 languageName = "English"
 languageCode 	= "en"
 weight = "1"
