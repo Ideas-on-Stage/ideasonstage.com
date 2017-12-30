@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/evenements-entreprise/conferenciers/"
 +++
 
-### Inspirez vos employés avec une conférence sur l'art de présenter
+## Inspirez vos employés avec une conférence sur l'art de présenter
 
 Que vous organisiez une conférence, un événement hors site ou un séminaire de leadership, vos participants bénéficieront de nos conférences sur l'art de présenter en public.
 

@@ -29,6 +29,8 @@ h6,
     font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
+	margin-top: 0px;
+	margin-bottom: 4px;
 }
 
 #content img {
@@ -83,16 +85,13 @@ h1 {
 }
 
 h2 {
-	margin-bottom: 1em;
 	font-size: 3em;
 }
 
 h3 {
-font-family: "Gotham A", "Gotham B", 'Gotham Book', Helvetica, Arial, sans-serif;
-font-style: normal;
-font-weight: 400;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	font-family: "Gotham A", "Gotham B", 'Gotham Book', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
 	font-size: 2em;
 	color: #aaa;
 }
@@ -108,7 +107,6 @@ h4 {
 }
 /* End of customization */	
 p {
-    margin-bottom: 20px;
     line-height: 1.6;
 }
 
@@ -137,12 +135,19 @@ li {
     color: rgb(51,53,65);
 }
 
+/* My helper classes */
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
 
 .text-blued {
 	color: rgb(51,53,65);
+}
+
+.margin-v {
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 section {
@@ -153,6 +158,18 @@ section {
 section#content  {
 	padding-top: 0px;
 	background-color: #fff; 
+}
+
+section#content h1,
+section#content h2,
+section#content h3,
+section#content h4 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+section#content p {
+	margin-bottom: 1em;
 }
 
 section#team-members {
@@ -517,10 +534,8 @@ header .header-content a:hover {
 /*Customization for small screens*/
 @media(max-width:768px) {
 section {
-    padding-top: 10px;
-    padding-bottom:10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom:20px;
 }
 
 	header .header-content .header-content-inner h1 {

@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/agence-creation-presentations/ecriture-histoires/"
 +++
 
-### Pourquoi nous souvenons-nous des histoires, mais oublions la présentation d'hier ?
+## Pourquoi nous souvenons-nous des histoires, mais oublions la présentation d'hier ?
 
 Votre présentation a été reçue, mais sera-t-elle lue ? Chaque année les entreprises créent des millions de présentations et de documents. Pourtant la plupart sont ennuyeux, difficiles à lire et n'ont pas d'objectif suffisamment précis. L'information est là, mais elle n'est pas mémorable. Mais cela peut changer. Les présentations et les documents peuvent être clairs, intéressants et communiquer un message efficacement ; ils ne sont pas voués à amasser la poussière dans un coin. Nous vous aiderons à créer une présentation intéressante qui se démarquera des présentations de vos concurrents.
 

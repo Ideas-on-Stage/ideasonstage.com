@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/corporate-events/event-design/"
 +++
 
-### "Good enough" is not good enough.
+## "Good enough" is not good enough.
 
 Storify your event and turn it into a unique moment people will love and talk about. Turn a traditional corporate meeting into a powerful opportunity to engage the media, partners, employees, clients or suppliers.
 

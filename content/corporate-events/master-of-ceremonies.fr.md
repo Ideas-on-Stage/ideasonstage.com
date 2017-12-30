@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/evenements-entreprise/animation-evenements/"
 +++
 
-### Un maître de cérémonie pour votre événement
+## Un maître de cérémonie pour votre événement
 
 Nos maîtres de cérémonie vont plus loin que les animateurs traditionnels. Ils animent, racontent des histoires et font le show, mais ce n'est que la partie visible. Ils s'intégreront dans l'atmosphère propre de votre événement et ajouteront une dimension supplémentaire avec leurs questions amenant à la réflexion.
 

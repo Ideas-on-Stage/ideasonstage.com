@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/coaching-prise-de-parole-en-public/coaching-prise-de-parole-en-public/"
 +++
 
-### Soyez un leader sur scène
+## Soyez un leader sur scène
 
 Notre équipe de coachs seniors dédiée au coaching des dirigeants vous aidera à affiner vos talents de communicateur et à évoluer vers le niveau supérieur de votre carrière.
 

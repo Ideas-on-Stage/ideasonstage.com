@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/presentation-creation-agency/presentation-strategy/"
 +++
 
-### Crea una presentazione eccezionale che rifletta il tuo valore e convinca la tua audience, che siano clienti, partner o i media. 
+## Crea una presentazione eccezionale che rifletta il tuo valore e convinca la tua audience, che siano clienti, partner o i media. 
 
 Ti aiuteremo a costruire la tua strategia di comunicazione e a trasformarla in una grande storia, illustrata con bellissime slide visive. Ti possiamo aiutare a ispirare e motivare i tuoi dipendenti, a lanciare in una convention prodotti o servizi di alta visibilità, ad assicurarti delle vendite ad alto tasso di competitività, a creare una magnifica corporate presentation e molto di più. 
 

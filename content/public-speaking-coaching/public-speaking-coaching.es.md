@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/public-speaking-coaching/public-speaking-coaching/"
 +++
 
-### Lidera desde el escenario
+## Lidera desde el escenario
 
 Nuestro equipo senior dedicado al entrenamiento de ejecutivos te ayudará a desarrollar tus habilidades de comunicación y dar el siguiente paso en tu carrera.
 

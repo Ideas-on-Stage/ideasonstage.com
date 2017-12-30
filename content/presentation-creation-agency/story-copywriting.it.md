@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/presentation-creation-agency/story-copywriting/"
 +++
 
-### Perché ci ricordiamo una storia sentita molto tempo fa, ma dimentichiamo facilmente le presentazioni del giorno prima?
+## Perché ci ricordiamo una storia sentita molto tempo fa, ma dimentichiamo facilmente le presentazioni del giorno prima?
 
 Il tuo documento è stato ricevuto, ma verrà letto? Verrà ricordato? E, cosa molto più importante, verrà implementato? O hai solo sprecato del tempo?…
 

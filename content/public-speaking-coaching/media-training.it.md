@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/public-speaking-coaching/media-training/"
 +++
 
-### Mostra al mondo la migliore versione di te stesso
+## Mostra al mondo la migliore versione di te stesso
 
 Sei appena passato dal trucco e arrivi nello studio, sotto le luci artificiali, insopportabilmente calde, ti siedi di fronte ad un giornalista che non conosci minimamente e dopo un breve saluto di circostanza vieni scaraventato dalla tecnologia di fronte a un milione di occhi. Appena realizzato questo pensiero terrorizzante, subito ti investono con la prima domanda. Improvvisamente sotto quelle lampade sembra faccia ancora più caldo. 
 

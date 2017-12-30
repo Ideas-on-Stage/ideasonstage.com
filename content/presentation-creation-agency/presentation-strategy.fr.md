@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/agence-creation-presentations/strategie-de-presentation/"
 +++
 
-### Nous vous créons une présentation pour répondre à des enjeux forts, quel que soit le public
+## Nous vous créons une présentation pour répondre à des enjeux forts, quel que soit le public
 
 Nous vous aiderons à mettre en forme votre stratégie de communication et à la transformer en une histoire captivante illustrée par des visuels étonnants. Nous vous aiderons à inspirer et à motiver vos employées depuis la scène, à lancer de nouveaux produits ou services, à gagner des ventes très disputées, à construire une présentation d'entreprise et bien plus !
 

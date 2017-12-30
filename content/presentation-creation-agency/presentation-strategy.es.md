@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/presentation-creation-agency/presentation-strategy/"
 +++
 
-### Desarrolla una presentación sólida para trasladar tus ideas y convencer a tu público, ya sean clientes, socios o medios de comunicación.
+## Desarrolla una presentación sólida para trasladar tus ideas y convencer a tu público, ya sean clientes, socios o medios de comunicación.
 
 Te ayudaremos a dar forma a tu estrategia de comunicación y a convertirla en una gran historia ilustrada con atractivos elementos visuales. Podemos ayudarte a inspirar y motivar a tus empleados desde el escenario; a lanzar productos o servicios consiguiendo una alta visibilidad, a conseguir ventas en situaciones altamente competitivas, a construir una gran presentación corporativa y a mucho más.
 
