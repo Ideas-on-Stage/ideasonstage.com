@@ -166,15 +166,15 @@ footer {
 	color: #bbb;
 }
 
+.text-muted {
+   color: rgba(255,255,255,.9);
+}
+
 .no-padding {
     padding: 0;
 }
 
 .navbar-inverse {
-	text-transform: uppercase;
-    font-size: 12px;
-	font-weight: 700;
-	color: #666;
     background-color: #222;
     border: none;
     -webkit-transition: all .35s;
@@ -182,22 +182,26 @@ footer {
     transition: all .35s;
 }
 
-.navbar-inverse .navbar-header .navbar-brand {
-	font-size: 12px;
-    color: #F47913;
-}
 /* Adjust logo positioning */
 .navbar-brand {
 	padding: 12px 15px 15px 15px;
     color: #F47913;
 }
+
 .navbar-inverse .navbar-header .navbar-brand:hover,
 .navbar-inverse .navbar-header .navbar-brand:focus {
     color: #F47913;
 }
 
-.navbar-inverse .nav>li {font-size: 12px;
+.navbar-inverse .nav>li a{
+	font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #999;
 }
+
 .navbar-inverse .nav>li>a:hover,
 .navbar-inverse .nav>li>a:focus:hover {
     color: #F47913;
@@ -216,9 +220,8 @@ footer {
 
 .navbar-inverse .nav>li.open>a,
 .navbar-inverse .nav>li.open>a:focus {
-	font-weight: 700;
 	color: #F47913!important;
-    background-color: transparent;	
+    background-color: transparent;
 }
 
 .navbar-inverse .nav>li.open>a:hover, 
@@ -234,8 +237,6 @@ footer {
 
 .dropdown-menu {
 	text-transform: uppercase;
-	font-size: 12px;
-	font-weight: 700;
 	color: #666;
 	background-color: #222;
 	border: none;
@@ -245,7 +246,6 @@ footer {
   display: block;
   padding: 3px 20px;
   clear: both;
-  font-weight: 700;
   line-height: 1.42857143;
   color: #666;
   white-space: nowrap;
@@ -272,12 +272,10 @@ footer {
 
 .nav-tabs >li.active>a {
 	color: #F47913!important;
-	font-weight: 700;
 }
 
 .nav-tabs a {
 	color: #666;
-	font-weight: 700;
 }
 
 .tab-content {
@@ -612,8 +610,6 @@ h2.section-heading {
 }
 
 .offer-box .offer-box-image {
-	background-color: rgba(0, 0, 0, .2);
-	border: 0px solid rgba(51, 53, 65, .2);
 	width: 3px;
 	width: 360px;
 	height: 202px;
@@ -626,7 +622,7 @@ h2.section-heading {
 	width: 360px;
 	height: 202px;
 	opacity: 1;
-	background: rgba(0, 0, 0, .4);
+	background: rgba(51, 53, 65, .7);
 }
 
 .offer-box .offer-box-caption .offer-box-caption-content {
