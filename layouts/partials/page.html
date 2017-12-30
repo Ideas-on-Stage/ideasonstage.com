@@ -1,8 +1,17 @@
 {{ "<!-- PAGE -->" | safeHTML }}
 <section id="content">
+{{ $URL := .URL }}
+{{ $.Scratch.Set "count" 0 }}
+{{ range .Site.Data.inserts }}		
+	{{ $.Scratch.Add "count" 1 }}
+	{{ if eq .url $URL }}
+		{{ if eq .position "top" }}
+		{{ partial .layout . }}
+		{{ end }} 
+	{{ end }}
+{{ end }}
     <div class="container">
-        <div class="row">
-        
+        <div class="row">        
 {{ if .Params.showrefs }}
         	<div class="col-xs-12 col-sm-8 col-sm-offset-1">
 {{ else }}
@@ -22,7 +31,7 @@
 		{{ if eq .kind $Title }}
 				<div class="col-xs-3 col-sm-12">
 				    <a href="#referencesModal{{ ($.Scratch.Get "count") }}" data-toggle="modal">
-		{{ partial "reference-logo.html" . }}
+			{{ partial "reference-logo.html" . }}
 		    	 	</a>
 			 	</div>
 				{{ "<!-- references Modals -->" | safeHTML }}
@@ -35,4 +44,14 @@
 {{ end }}
 		</div> <!--end row-->
     </div>
+{{ $URL := .URL }}
+{{ $.Scratch.Set "count" 0 }}
+{{ range .Site.Data.inserts }}		
+	{{ $.Scratch.Add "count" 1 }}
+	{{ if eq .url $URL }}
+		{{ if eq .position "bottom" }}
+		{{ partial .layout . }}
+		{{ end }} 
+	{{ end }}
+{{ end }}    
 </section>

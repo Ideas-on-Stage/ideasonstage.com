@@ -146,12 +146,12 @@ li {
 }
 
 section {
-    padding-top: 25px;
-    padding-bottom:30px;
+    padding-top: 40px;
+    padding-bottom:40px;
    }
 
 section#content  {
-	padding-top: 25px;	
+	padding-top: 0px;
 	background-color: #fff; 
 }
 
@@ -185,6 +185,10 @@ footer {
 	background-color: #222;
 	font-size: 0.75em;
 	color: #bbb;
+}
+
+footer a {
+	font-size: 0.75em;
 }
 
 .no-padding {
@@ -1342,29 +1346,22 @@ body {
   margin-bottom: 1s0px;
 }
 #blog-listing-medium .post h2 {
-  text-transform: uppercase;
+	color: #000;
   margin: 0 0 10px;
-  font-size: 24px;
-  letter-spacing: 0.08em;
 }
-#blog-listing-medium .post h2 a {
-  color: #555555;
-}
-#blog-listing-medium .post h2 a:hover {
+#blog-listing-medium .post h2:hover {
   color: #F47913;
 }
 #blog-listing-medium .post .author-category {
   float: left;
   color: #999999;
   text-transform: uppercase;
-  font-size: 12px;
   letter-spacing: 0.08em;
 }
 #blog-listing-medium .post .author-category a {
 }
 #blog-listing-medium .post .date-comments {
   float: right;
-  font-size: 12px;
 }
 #blog-listing-medium .post .date-comments a {
   color: #999999;
@@ -1433,14 +1430,16 @@ body {
   color: #999999;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  font-size: 12px;
 }
+
 .box-image-text.blog .author-category a {
 }
+
 .box-image-text.blog .intro {
   text-align: left;
   margin-bottom: 20px;
 }
+
 #blog-homepage .post {
   margin-bottom: 30px;
 }
@@ -1477,7 +1476,6 @@ body {
 }
 #blog-post .comment .posted {
   color: #999999;
-  font-size: 12px;
 }
 #blog-post .comment .reply {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -1529,256 +1527,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
-.panel.sidebar-menu h3 {
-  padding: 5px 0;
-  margin: 0;
-}
-.panel.sidebar-menu {
-  background: #fff;
-  margin: 0 0 20px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.panel.sidebar-menu .panel-heading {
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  background: none;
-  padding: 0;
-  letter-spacing: 0.08em;
-  border-bottom: none;
-}
-.panel.sidebar-menu .panel-heading h1,
-.panel.sidebar-menu .panel-heading h2,
-.panel.sidebar-menu .panel-heading h3,
-.panel.sidebar-menu .panel-heading h4,
-.panel.sidebar-menu .panel-heading h5 {
-  display: inline-block;
-  border-bottom: solid 5px #F47913;
-  line-height: 1.1;
-  margin-bottom: 0;
-  padding-bottom: 10px;
-}
-.panel.sidebar-menu .panel-heading .btn.btn-danger {
-  color: #fff;
-  margin-top: 5px;
-}
-.panel.sidebar-menu .panel-body {
-  padding: 0;
-}
-.panel.sidebar-menu .panel-body span.colour {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  border: solid 1px #555555;
-  vertical-align: top;
-  margin-top: 2px;
-  margin-left: 5px;
-}
-.panel.sidebar-menu .panel-body span.colour.white {
-  background: #fff;
-}
-.panel.sidebar-menu .panel-body span.colour.red {
-  background: red;
-}
-.panel.sidebar-menu .panel-body span.colour.green {
-  background: green;
-}
-.panel.sidebar-menu .panel-body span.colour.blue {
-  background: blue;
-}
-.panel.sidebar-menu .panel-body span.colour.yellow {
-  background: yellow;
-}
-.panel.sidebar-menu .panel-body label {
-  color: #999999;
-  font-size: 12px;
-}
-.panel.sidebar-menu .panel-body label:hover {
-  color: #555555;
-}
-.panel.sidebar-menu ul.nav.category-menu {
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-.panel.sidebar-menu ul.nav.category-menu li a {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-}
-.panel.sidebar-menu ul.nav ul {
-  list-style: none;
-  padding-left: 0;
-}
-.panel.sidebar-menu ul.nav ul li {
-  display: block;
-}
-.panel.sidebar-menu ul.nav ul li a {
-  position: relative;
-  text-transform: none !important;
-  display: block;
-  padding: 10px 15px;
-  padding-left: 30px;
-  font-size: 12px;
-  color: #999999;
-}
-.panel.sidebar-menu ul.nav ul li a:hover,
-.panel.sidebar-menu ul.nav ul li a:focus {
-  text-decoration: none;
-  background-color: #eeeeee;
-}
-.panel.sidebar-menu ul.tag-cloud {
-  list-style: none;
-  padding-left: 0;
-}
-.panel.sidebar-menu ul.tag-cloud li {
-  display: inline-block;
-}
-.panel.sidebar-menu ul.tag-cloud li a {
-  display: inline-block;
-  padding: 5px;
-  border: solid 1px #eeeeee;
-  border-radius: 0;
-  color: #F47913;
-  margin: 5px 5px 5px 0;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 12px;
-}
-.panel.sidebar-menu ul.tag-cloud li a:hover {
-  color: #F47913;
-  text-decoration: none;
-  border-color: #F47913;
-}
-.panel.sidebar-menu ul.popular,
-.panel.sidebar-menu ul.recent {
-  list-style: none;
-  padding-left: 0;
-  padding: 20px 0;
-}
-.panel.sidebar-menu ul.popular li,
-.panel.sidebar-menu ul.recent li {
-  margin-bottom: 10px;
-  padding: 5px 0;
-  border-bottom: dotted 1px #eeeeee;
-}
-.panel.sidebar-menu ul.popular li:before,
-.panel.sidebar-menu ul.recent li:before,
-.panel.sidebar-menu ul.popular li:after,
-.panel.sidebar-menu ul.recent li:after {
-  content: " ";
-  display: table;
-}
-.panel.sidebar-menu ul.popular li:after,
-.panel.sidebar-menu ul.recent li:after {
-  clear: both;
-}
-.panel.sidebar-menu ul.popular li:before,
-.panel.sidebar-menu ul.recent li:before,
-.panel.sidebar-menu ul.popular li:after,
-.panel.sidebar-menu ul.recent li:after {
-  content: " ";
-  display: table;
-}
-.panel.sidebar-menu ul.popular li:after,
-.panel.sidebar-menu ul.recent li:after {
-  clear: both;
-}
-.panel.sidebar-menu ul.popular li img,
-.panel.sidebar-menu ul.recent li img {
-  width: 50px;
-  margin-right: 10px;
-}
-.panel.sidebar-menu ul.popular li h5,
-.panel.sidebar-menu ul.recent li h5 {
-  margin: 0 0 10px;
-}
-.panel.sidebar-menu ul.popular li h5 a,
-.panel.sidebar-menu ul.recent li h5 a {
-}
-.panel.sidebar-menu ul.popular li p.date,
-.panel.sidebar-menu ul.recent li p.date {
-  float: right;
-  font-size: 12px;
-  color: #999999;
-}
-.panel.sidebar-menu ul.popular li:last-child,
-.panel.sidebar-menu ul.recent li:last-child {
-  border-bottom: none;
-}
-.panel.sidebar-menu .text-widget {
-  font-size: 12px;
-}
-.panel.sidebar-menu.with-icons ul.nav li a:after {
-  font-family: 'FontAwesome';
-  content: "\f105";
-  position: relative;
-  top: 0;
-  float: right;
-}
 
-.panel {
-  margin-bottom: 20px;
-  background-color: #ffffff;
-  border: 1px solid transparent;
-  border-radius: 0;
-  -webkit-box-shadow: 0 0 0;
-  box-shadow: 0 0 0;
-}
-.panel-heading {
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: 15px 15px;
-}
-.progress {
-  overflow: hidden;
-  height: 20px;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border-radius: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.panel-group {
-  margin-bottom: 20px;
-}
-.panel-group .panel {
-  margin-bottom: 0;
-  border-radius: 0;
-  overflow: hidden;
-}
-.panel-group .panel + .panel {
-  margin-top: 5px;
-}
-.panel-group.accordion .panel {
-  border-color: #ccc;
-}
-.panel-primary {
-  border-color: #F47913;
-}
-.panel-primary > .panel-heading {
-  color: #ffffff;
-  background-color: #F47913;
-  border-color: #F47913;
-}
-.panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #F47913;
-}
-.panel-primary > .panel-heading .badge {
-  color: #F47913;
-  background-color: #ffffff;
-}
-.panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #F47913;
-}
-.panel-primary .panel-title {
-}
-  
-.panel-primary .panel-title a:hover {
-  color: #fff;
-  text-decoration: none;
-}
 a.badge:hover,
 a.badge:focus {
   color: #ffffff;
