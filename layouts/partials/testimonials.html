@@ -10,13 +10,13 @@
 		                    {{- if eq $.Site.Params.languagecode .language }}
 		                    <li class="item">
 		                        <div class="testimonial">
+									<!--<div class="icon">
+										<i class="fa fa-quote-left"></i>
+									</div>-->
 		                            <div class="text">
 		                                <p>{{ .text }}</p>
 		                            </div>
 		                            <div class="bottom">
-		                                <div class="icon">
-		                                	<i class="fa fa-quote-left"></i>
-		                                </div>
 		                                <div class="name-picture">
 		                                    <img class="" alt="" src="{{ .avatar | absURL }}">
 		                                    <h4>{{ .name }}</h4>

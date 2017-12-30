@@ -13,7 +13,9 @@ body {
 body, a {
     font-family: 'Gotham A', 'Gotham B', 'Gotham Book', Helvetica, Arial, sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
+	font-size: 16px;
+	color: #000;
 }
 
 b,
@@ -22,7 +24,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.btn {
     font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -74,8 +77,28 @@ a:focus {
     color: rgb(52, 52, 52);
 }
 
-h1, h2 {
+h1 {
 	font-size: 3em;
+	text-transform: uppercase;
+}
+
+h2 {
+	margin-bottom: 1em;
+	font-size: 3em;
+}
+
+h3 {
+font-family: "Gotham A", "Gotham B", 'Gotham Book', Helvetica, Arial, sans-serif;
+font-style: normal;
+font-weight: 400;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 2em;
+	color: #aaa;
+}
+
+h4 {
+	font-size: 1.5em;
 }
 
 /*Customization of event labels*/
@@ -86,17 +109,15 @@ h1, h2 {
 /* End of customization */	
 p {
     margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 li {
-	font-size: 16px;
 	line-height: 1.5;
 	text-align: left;
 }
 
-.bg-primary {
+.bg-primary {	
     background-color: #F47913;
 }
 
@@ -112,7 +133,7 @@ li {
 
 .bg-lightgrey {
     color: #fff;
-    background-color: #e2f2f2;
+    background-color: #f2f2f2;
     color: rgb(51,53,65);
 }
 
@@ -162,12 +183,8 @@ aside {
 footer {
 	padding: 50px 0;
 	background-color: #222;
-	font-size: 12px;
+	font-size: 0.75em;
 	color: #bbb;
-}
-
-.text-muted {
-   color: rgba(255,255,255,.9);
 }
 
 .no-padding {
@@ -196,8 +213,8 @@ footer {
 .navbar-inverse .nav>li a{
 	font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
 	font-style: normal;
-	font-weight: 800;
-	font-size: 12px;
+	font-weight: 700;
+	font-size: 0.75em;
 	text-transform: uppercase;
 	color: #999;
 }
@@ -250,7 +267,7 @@ footer {
   color: #666;
   white-space: nowrap;
   text-align: right;
-  font-size: 75%;
+  font-size: 0.75em;
 }
 
 .dropdown-menu > li > a:hover,
@@ -353,7 +370,7 @@ header-pz .header-pz-content .header-pz-content-inner h4 {
 header#home {
 	position: relative;
 	width: 100%;
-	height: 736px;
+	height: 85%;
 	text-align: center;
 	color: #fff;
 	background-position: center;
@@ -362,6 +379,10 @@ header#home {
 	background-size: cover;
 	-o-background-size: cover;
 	background-color: #f27819;	
+}
+
+header#home h1 {
+	font-size: 5em;
 }
 
 header#pz {
@@ -471,22 +492,9 @@ header .header-content .header-content-inner {
 	transform: translateY(-50%);
 }
 
-	 
-header .header-content .header-content-inner h1 {
-    margin-bottom: 0px;
-    text-transform: uppercase;
-	font-size: 5em;
-}
 
 header .header-content .header-content-inner hr {
     margin: 0px auto;
-}
-
-header .header-content .header-content-inner p {
-    margin-bottom: 0px;
-    font-size: 16px;
-    text-align: center;
-    color: rgba(255,255,255,.7);
 }
 
 header .header-content a {
@@ -499,8 +507,7 @@ header .header-content a:hover {
 
 
 @media(max-width:992px){
-	header .header-content .header-content-inner h1 {
-		font-size: 4em;
+
 }
 
 /*Customization for small screens*/
@@ -513,7 +520,7 @@ section {
 }
 
 	header .header-content .header-content-inner h1 {
-    	font-size: 3em;
+    	font-size: 2em;
 	}
 }
 
@@ -525,8 +532,8 @@ section {
     margin-bottom: 30px;
 }
 
-h2.section-heading {
-	font-size: 250%;
+h3.section-heading {
+	font-size: 2em;
 } 
 
 .service-box {
@@ -587,13 +594,13 @@ h2.section-heading {
 
 .thumbnail-caption h3 {
 	margin: 0px;
-	font-size: 10px;
+	font-size: 0.75em;
 	color: #888;
 }
 
 @media(min-width:1200px) {
 	.thumbnail-caption h3 {
-		font-size: 14px;
+		font-size: 0.875em;
 		padding: 4px;
 	}
 }
@@ -652,24 +659,23 @@ h2.section-heading {
 .offer-box .offer-box-caption .offer-box-caption-content .offer-name {
 	padding: 5px 10px;
     text-transform: uppercase;
-    font-size: 18px;
 }
 
 .offer-box .offer-box-caption .offer-box-caption-content .date-next {
 	padding: 5px 10px;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 .offer-box-description {
 	display: block;
 	position: relative;
-	height: 100px;
+	height: 60px;
 }
 
 .offer-box-description .offer-box-description-content {
 	padding: 10px 0px;
-    font-size: 14px;
+    font-size: 1em;
     color: #000;
 }
 
@@ -694,11 +700,11 @@ h2.section-heading {
 	}
 	
     .offer-box .offer-box-caption .offer-box-caption-content .offer-name {
-        font-size: 14px;
+        font-size: 0.875em;
     }
 
 	.offer-box .offer-box-caption .offer-box-description-content .offer-description {
-	    font-size: 12px;
+	    font-size: 0.875em;
 	}
 }
 
@@ -1141,14 +1147,11 @@ body {
 /* Testimonials */
 .testimonials {
   padding: 0;
-  margin-bottom: 40px;
 }
+
 .testimonials .item {
   list-style-type: none;
   margin: 0 5px;
-/*  background: #fff; */
-/*  background: #333541; */   /* dark */
-  background: #e2f2f2;   /*light-blue*/
   padding-bottom: 60px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1194,21 +1197,24 @@ body {
   padding: 20px;
   height: 50px;
 }
-.testimonials .item .testimonial .bottom .icon {
+.testimonials .item .testimonial .icon {
   color: #F47913;
-  font-size: 30px;
+  font-size: 24px;
   float: left;
   width: 20%;
 }
 .testimonials .item .testimonial .name-picture {
   float: right;
-  width: 80%;
+  width: 100%;
   text-align: right;
 }
+
 .testimonials .item .testimonial .name-picture h4 {
  /* color: #fff; */
- color: #333541;
-  }
+	font-size: 1em;
+	color: #333541;
+	margin: 0;
+}
  
 .testimonials .item .testimonial .name-picture h5 {
   font-size: 14px;

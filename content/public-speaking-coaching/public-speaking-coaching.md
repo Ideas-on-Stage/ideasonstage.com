@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/public-speaking-coaching/public-speaking-coaching/"
 +++
 
-### Lead from the stage
+## Lead from the stage
 
 
 Our exclusive Senior Team dedicated to the coaching of C-Level Executives will help you build your communication skills and move to the next stage of your career.
