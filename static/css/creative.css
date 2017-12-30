@@ -145,6 +145,11 @@ li {
 	color: rgb(51,53,65);
 }
 
+.paddingv10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .margin-v {
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -169,7 +174,12 @@ section#content h4 {
 }
 
 section#content p {
-	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+section#content img {
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 section#team-members {
@@ -548,10 +558,14 @@ section {
 
 .section-heading {
     margin-top: 0;
-    margin-bottom: 30px;
+}
+
+h2.section-heading {
+	margin-bottom: 1em;
 }
 
 h3.section-heading {
+	margin-bottom: 1em;
 	font-size: 2em;
 } 
 

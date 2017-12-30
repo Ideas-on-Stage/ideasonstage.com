@@ -1,10 +1,10 @@
 <section class="{{ .style }}"><!-- section used for full width background -->
 	<div class="container insert">
 	    <div class="row">
-	    	<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-1">
+	    	<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-1 margin-v">
 	    		<img src="/pictures/inserts/{{ .picture }}" class="img-responsive">
 	    	</div>
-	        <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0">
+	        <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 margin-v">
 			    <h4>{{ with .title }}{{ . }}{{ end }}</h4>
 			    <p>{{ with .description }}{{ .  }}{{ end }}</p>
 			</div>
