@@ -1,9 +1,13 @@
 {{ "<!-- ABOUT -->" | safeHTML }}
-<section id="about-ios" style="padding-bottom: 0px;">
+<section id="about-ios" class="bg-dark">
     <div class="container">
-        <div class="row">           
-            <div class="col-sm-12 col-md-12 no-gutter">
-            <p class="lead">{{ with .Site.Params.about.description1 }}{{ . | markdownify }}{{ end }}</p>            
+        <div class="row">
+        	<div class="col-sm-2">
+        	</div>       
+            <div class="col-sm-8 text-center">
+            <p class="">{{ with .Site.Params.about.description1 }}{{ . | markdownify }}{{ end }}</p>            
+			<div class="col-sm-2">
+			</div>       
         </div>
     </div>
 </section>

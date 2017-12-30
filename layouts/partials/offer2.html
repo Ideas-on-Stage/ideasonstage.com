@@ -1,5 +1,5 @@
 {{ "<!-- offer2 -->" | safeHTML }}
-		<section id="services" style="padding-bottom: 0px;">
+		<section id="services" >
 		    <div class="container">
 		        <div class="row">        
 					<div class="col-xs-12 text-center">
@@ -13,45 +13,42 @@
 		    <div class="container">
 		        <div class="row">        
 					<div class="col-xs-12 text-center">
-					    <h2 class="section-heading">{{ with .title | markdownify }}{{ . }}{{ end }}</h2>
-					</div>			
-				</div>
-		
+					    <h3 class="section-heading">{{ with .title | markdownify }}{{ . }}{{ end }}</h3>
+					</div>
+				</div><!-- row -->
 				<div class="row">
 		            {{- range where $.Data.Pages.ByWeight "Section" ( .category | urlize ) }}
-		        	<div class="col-xs-12 col-sm-4" min-height:260px;>
-		 				<a href="{{ if .Params.redirect }}{{ .Params.redirectlink }}{{ else }}{{ .RelPermalink }}{{ end }}" target="{{ if .Params.redirect }}{{ "_blank" }}{{ else }}{{ "_self" }}{{ end }}"  class="offer-box"> <!-- Checking if I need to do a external redirection. If so, it'll open a new window-->
-				            <img src="/pictures/{{ .File.Dir }}/{{ .File.TranslationBaseName }}/image.jpg" class="offer-box-image img-responsive" alt="">
-				            <div class="offer-box-caption">
-				                <div class="offer-box-caption-content">
-				                    <div class="offer-name" style="background-color: rgba(52,52,52,0.65);">
-										{{- $Title := .Title }}
-										{{ $Title | markdownify }}
-				                    </div>
-				                	<div class="offer-name">
-									{{- range .Site.Data.events }}
-									    {{- if eq .title $Title }}
-										{{- if ge (time .date) now.Unix }}
-											{{- $date := time .date }}
-										<br />
-										<span class="label label-primary">{{ $date.Format "2 January 2006" }}, {{ .location }}</span>
-										{{- end }}
-										{{- end }}
-									{{- end }}
-				                    </div>
-				                </div>
-				            </div>
-				            <div class="offer-box-description">
+		        	<div class="col-xs-12 col-sm-4">
+		 				<a href="{{ if .Params.redirect }}{{ .Params.redirectlink }}{{ else }}{{ .RelPermalink }}{{ end }}" target="{{ if .Params.redirect }}{{ "_blank" }}{{ else }}{{ "_self" }}{{ end }}"> <!-- Checking if I need to do a external redirection. If so, it'll open a new window-->
+							<div class="offer-box">
+					            <img src="/pictures/{{ .File.Dir }}/{{ .File.TranslationBaseName }}/image.jpg" class="offer-box-image img-responsive" alt="">
+					            <div class="offer-box-caption">
+					                <div class="offer-box-caption-content">
+					                    <div class="offer-name">
+											{{- $Title := .Title }}
+											<h3>{{ $Title | markdownify }}</h3>
+											{{- range .Site.Data.events }}
+										    {{- if eq .title $Title }}
+											{{- if ge (time .date) now.Unix }}
+												{{- $date := time .date }}
+											<br />
+											<span class="label label-primary">{{ $date.Format "2 January 2006" }}, {{ .location }}</span>
+											{{- end }}
+											{{- end }}
+											{{- end }}
+					                    </div>
+					                </div>
+					            </div><!-- offer-box-caption -->
+				            </div><!--offer-box-->
+							<div class="offer-box-description">
 								<div class="offer-box-description-content">
-									<div class="offer-description" style="color: #333541;">
-									    {{ .Description | markdownify }}
-									</div>
+								    {{ .Description | markdownify }}
 								</div>
-				            </div> <!--offer-box-description-->
-						</a> <!--offer-box-->
+							</div><!--offer-box-description-->
+						</a>
 		            </div>
 		            {{- end }}
-		        </div>
-		    </div>
+		        </div><!-- row -->
+		    </div><!-- container -->
 		</section>
 		{{- end }}

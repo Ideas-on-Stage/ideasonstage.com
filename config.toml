@@ -81,9 +81,9 @@ theme        	= "hugo-creative-theme-master"
 		# Hero section - Header picture + Tagline + Countries Menu
 		[params.hero]
 				picture	    = "/pictures/home/header.jpg"
-				slogan      = "Deliver amazing presentations"
+				slogan      = "Just Win"
 				subtitle_on = true
-				subtitle    = "Ideas on Stage is a leading specialist in business presentations, operating in Europe and America. Our services are available in English, French, Spanish and Italian."
+				subtitle    = "Win at the game of business presentations<br />Win more deals and more customers<br />Be the presenter people remember"
 				button_on   = false
 				buttonText  = "Discover how we can help you"
 				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
@@ -114,7 +114,7 @@ theme        	= "hugo-creative-theme-master"
 	    #About IoS section (bottom of home page)
 	        title			= "About Ideas on Stage"
 	        subtitle		= "Our Methodology"
-	        description1 	= "Ideas on Stage is a leading specialist in business presentations.<br>Our highly experienced team of experts combines to bring you a unique set of skills, helping you to build your presentations and convince your audiences.<br>Ideas on Stage operates in Europe and North America. Our services are available in English, French, Spanish and Italian."
+	        description1 	= "<p>Great business presentations are a unique competitive advantage for companies. But we realized that most presentations failed to even raise the interest of the audience. This is why we created Ideas on Stage in 2010, to help our clients deliver the very best presentations in the world.</p><p>We quickly realized that our intuition was right. People who used our services immediately saw a huge difference. They started winning more deals. Their leadership skills improved. They presented their ideas clearly and convincingly.</p><p>Today we work with many of the world's best companies. We help them change. We help them gain a competitive advantage. All thanks to the power of effective business presentations."
 	        image1 			= "/pictures/about/ios-map.png"
 	        description2 	= "The pSCORE method (Presentation SCORE) is our new approach to business presenting, honed over many years and proven in a wide variety of companies. pSCORE offers a complete method for the creation of top-quality presentations, starting with careful preparation (start with your audience and the context, set objectives and choose the key messages) and then applying the three arts of presenting: <br /><ul><li>Storytelling: define a clear and effective structure, and use storytelling techniques to make your key messages stick.</li><li>Visuals: forget Death By PowerPoint – instead use slides and other visual aids to communicate more effectively.</li><li>Oratory: deliver your presentation powerfully and credibly, with confidence and without stress.</li></ul>"
 	        image2 			= "/pictures/about/ios-pSCORE.png"

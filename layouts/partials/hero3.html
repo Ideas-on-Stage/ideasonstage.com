@@ -5,7 +5,7 @@
 		            <h1>{{ with .Site.Params.hero.slogan }}{{ . | markdownify  }}{{ end }}</h1>
 		{{- if .Site.Params.hero.subtitle_on }}           
 		            <hr>
-		            <h3 class="thin">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+		            <p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
 		{{- end }}
 		        </div>
 				<br>
