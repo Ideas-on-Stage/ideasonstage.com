@@ -711,38 +711,27 @@ h3.section-heading {
 .offer-box {
     display: block;
     position: relative;
+    width: 360px;
     margin: 0 auto;
-	-webkit-transition: all .35s;
-	-moz-transition: all .35s;
-	transition: all .35s;
-}
-
-.offer-box .offer-box-image {
-	width: 3px;
-	width: 360px;
-	height: 202px;
+	border: 1px solid #aaa;
+	padding: 20px;
 }
 
 .offer-box .offer-box-caption {
-	display: block;
-	position: absolute;
-	top: 0;
-	width: 360px;
-	height: 202px;
-	opacity: 1;
-	background: rgba(51, 53, 65, .7);
+	height: 80px;
+	padding-top: 20px;
 }
 
 .offer-box .offer-box-caption .offer-box-caption-content {
-	position: absolute;
+	position: relative;
 	top: 50%;
 	width: 100%;
 	text-align: center;
-	color: #fff;
+	color: #000;
 	transform: translateY(-50%);
 }
 
-.offer-box:hover .offer-box-caption {
+.offer-box:hover .offer-box-image-over {
 	background: rgba(51, 53, 65, .2);
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
@@ -750,15 +739,14 @@ h3.section-heading {
 }
 
 
-.offer-box:hover .offer-box-image {
-	border-bottom: 0px solid #F47913;
-	border-top: 0px solid #F47913;
-	border-right: 0px solid #F47913;
-	border-left: 0px solid #F47913;
+.offer-box:hover {
+	border: 1px solid #F47913;
+-webkit-transition: all .35s;
+-moz-transition: all .35s;
+transition: all .35s;
 }
 
 .offer-box .offer-box-caption .offer-box-caption-content .offer-name {
-	padding: 5px 10px;
     text-transform: uppercase;
 }
 
@@ -781,32 +769,53 @@ h3.section-heading {
 }
 
 @media(max-width:1200px) {
-	.offer-box .offer-box-image, .offer-box .offer-box-caption {
+
+	.offer-box {
 		width: 293px;
-		height: 164px;
 	}
+	
+	.offer-box .offer-box-image {
+		width: 251px;
+		height: 144px;
+	}
+
+	.offer-box .offer-box-caption {
+		height: 90px;
+	}
+
 }
 
 @media(max-width:992px) {
-	.offer-box .offer-box-image, .offer-box .offer-box-caption {
+	.offer-box {
 		width: 220px;
-		height: 124px;
 	}
+
+	.offer-box .offer-box-image, .offer-box .offer-box-caption {
+		width: 178px;
+		height: 101px;
+	}
+
+	.offer-box .offer-box-caption {
+		height: 60px;
+		font-size: 0.7em;
+	}
+
 }
 
 @media(max-width:768px) {
+	.offer-box {
+		width: 100%;
+		padding: 20px;
+	}
+
 	.offer-box .offer-box-image, .offer-box .offer-box-caption {
 		width: 100%;
 		height: 100%;
 	}
 	
     .offer-box .offer-box-caption .offer-box-caption-content .offer-name {
-        font-size: 0.875em;
+        font-size: 1em;
     }
-
-	.offer-box .offer-box-caption .offer-box-description-content .offer-description {
-	    font-size: 0.875em;
-	}
 }
 
 @media(max-width:768px) {

@@ -20,7 +20,9 @@
 			        	<div class="col-xs-12 col-sm-4">
 			 				<a href="{{ if .Params.redirect }}{{ .Params.redirectlink }}{{ else }}{{ .RelPermalink }}{{ end }}" target="{{ if .Params.redirect }}{{ "_blank" }}{{ else }}{{ "_self" }}{{ end }}"> <!-- Checking if I need to do a external redirection. If so, it'll open a new window-->
 								<div class="offer-box">
-						            <img src="/pictures/{{ .File.Dir }}/{{ .File.TranslationBaseName }}/image.jpg" class="offer-box-image img-responsive" alt="">
+									<div class="offer-box-image">
+						            <img src="/pictures/{{ .File.Dir }}/{{ .File.TranslationBaseName }}/image.jpg" class="img-responsive center-block" alt="">
+						            </div>
 						            <div class="offer-box-caption">
 						                <div class="offer-box-caption-content">
 						                    <div class="offer-name">
