@@ -4,9 +4,11 @@
 {{- range .Site.Data.inserts }}		
 	{{- $.Scratch.Add "count" 1 }}
 	{{- if eq .url $URL }}
-		{{- if eq .position "top" }}
-		{{ partial .layout . }}
-		{{- end }} 
+		{{- if eq $.Site.Params.languagecode .language }}
+			{{- if eq .position "top" }}
+				{{ partial .layout . }}
+			{{- end }}
+		{{- end }}
 	{{- end }}
 {{- end }}
 <section id="content">
@@ -43,8 +45,10 @@
 {{- range .Site.Data.inserts }}		
 	{{- $.Scratch.Add "count" 1 }}
 	{{- if eq .url $URL }}
-		{{- if eq .position "bottom" }}
-		{{ partial .layout . }}
+		{{- if eq $.Site.Params.languagecode .language }}
+			{{- if eq .position "bottom" }}
+				{{ partial .layout . }}
+			{{- end }} 
 		{{- end }} 
 	{{- end }}
 {{- end }}    

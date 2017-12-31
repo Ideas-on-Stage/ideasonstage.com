@@ -1,0 +1,14 @@
+<section class="{{ .style }} paddingv0"><!-- section used for full width background -->
+	<div class="container-fluid insert">
+	    <div class="row no-gutter">
+	        <div class="col-xs-12">
+				{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="img-responsive center-block">{{ end }}
+			</div>
+	    </div>
+	<div class="row paddingv20">
+	    <div class="col-xs-10 col-xs-offset-1 text-center">
+		    {{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
+		    <p class="marginv0">{{ with .description }}{{ .  }}{{ end }}</p>
+		</div>
+	</div>
+</section>

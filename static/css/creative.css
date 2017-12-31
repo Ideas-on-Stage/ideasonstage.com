@@ -784,7 +784,7 @@ h3.section-heading {
 	.offer-box .offer-box-image, .offer-box .offer-box-caption {
 		width: 293px;
 		height: 164px;
-	} 
+	}
 }
 
 @media(max-width:992px) {
@@ -809,6 +809,15 @@ h3.section-heading {
 	}
 }
 
+@media(max-width:768px) {
+	h1, h2 {
+		font-size: 2em;
+	}
+	h3, h4 {
+		font-size: 1.5em;
+	}
+
+}
 /*PMO people-box is used for team members and other people profiles*/
 
 .trainer {
