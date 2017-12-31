@@ -27,6 +27,7 @@
 	{{ $Title := .Title }}
 	{{ $.Scratch.Set "count" 0 }}
 	{{ range .Site.Data.references }}
+		{{ if eq $.Site.Params.languagecode .language }}
 		{{ $.Scratch.Add "count" 1 }}
 		{{ if eq .kind $Title }}
 				<div class="col-xs-3 col-sm-12">
@@ -38,6 +39,7 @@
 				<div class="modal fade" id="referencesModal{{ ($.Scratch.Get "count") }}" tabindex="-1" role="dialog" aria-hidden="true">
 			{{ partial "reference-modal_new.html" . }}
 				</div>
+		{{ end }}
 		{{ end }}
 	{{ end }}
 			</div>
@@ -55,3 +57,5 @@
 		{{ end }} 
 	{{ end }}
 {{ end }}    
+
+
