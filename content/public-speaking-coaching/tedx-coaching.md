@@ -5,11 +5,11 @@ title		= "TEDx Coaching"
 description	= "TEDx audiences have high expectations. Learn how Ideas on Stage can help you surpass them."
 weight		= 1
 categories	= [ "Public Speaking Coaching" ]
-showrefs	= true
+showrefs	= false
 redirect	= false
 redirectlink = ""
 url 		= "/tedx/"
-aboutdescription = "<p>Producing a successful TEDx takes a lot of hard work in many different areas, but if everything is well-organised, what determines the success of the event is how well your speakers perform. It’s rarely the best-known speakers who deliver the stand-out talks: it’s the best-prepared speakers.</p><p>This is where Ideas on Stage comes in. Since we assisted photographer and environmentalist Yann Arthus-Bertrand with his memorable TED talk in 2009, we have helped over 300 TEDx speakers to create, prepare and deliver the talks of their lives. Curators across the world – from Montreal to Paris, from London to Washington DC – have trusted our professional storytelling experts, speaker coaches and designers to get the best out of their speakers.</p><p>While most of our work is with major international corporations, helping senior executives with their most important presentations, our approach is to apply lessons from TED to the business world, rather than to apply business speaking basics to TED. So we’re not just your usual humdrum speaker coaches: we live and breathe TED every day, whether we’re working on a luxury product launch, a startup pitch or a TEDx talk.</p><p>And since we love working with TEDx speakers and helping them spread their ideas, we do it for free - and in return we ask only to be listed with your other TEDx sponsors/partners. Of course our TEDx offers are subject to availability – it wouldn’t help you or anyone else if we tried to work on ten TEDx-es at once – but we usually find a way to help out if you give us enough advance notice.</p><p>Here are the three levels of what we offer, starting with our free offer, and working all the way up to the full package which isn’t free, but offers a far greater contribution to your event.</p>"
+aboutdescription = ""
 category1= "Free Package"
 category2= "Pro Package"
 category3= "Full Package"
@@ -39,3 +39,13 @@ item35="Yes"
 item36="Yes"
 aboutdescription2 = "Contact us using the form below to see how we can help you make your TEDx a memorable day.<br><br>All our services are available in English, French, Spanish, German and Italian, with native speakers of each language."
 +++
+## International TEDx expertise
+Producing a successful TEDx takes a lot of hard work in many different areas, but if everything is well-organised, what determines the success of the event is how well your speakers perform. It’s rarely the best-known speakers who deliver the stand-out talks: it’s the best-prepared speakers.
+
+This is where Ideas on Stage comes in. Since we assisted photographer and environmentalist Yann Arthus-Bertrand with his memorable TED talk in 2009, we have helped over 300 TEDx speakers to create, prepare and deliver the talks of their lives. Curators across the world – from Montreal to Paris, from London to Washington DC – have trusted our professional storytelling experts, speaker coaches and designers to get the best out of their speakers.
+
+While most of our work is with major international corporations, helping senior executives with their most important presentations, our approach is to apply lessons from TED to the business world, rather than to apply business speaking basics to TED. So we’re not just your usual humdrum speaker coaches: we live and breathe TED every day, whether we’re working on a luxury product launch, a startup pitch or a TEDx talk.
+
+And since we love working with TEDx speakers and helping them spread their ideas, we do it for free - and in return we ask only to be listed with your other TEDx sponsors/partners. Of course our TEDx offers are subject to availability – it wouldn’t help you or anyone else if we tried to work on ten TEDx-es at once – but we usually find a way to help out if you give us enough advance notice.
+
+Here are the three levels of what we offer, starting with our free offer, and working all the way up to the full package which isn’t free, but offers a far greater contribution to your event.

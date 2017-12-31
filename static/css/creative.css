@@ -115,6 +115,10 @@ li {
 	text-align: left;
 }
 
+/*
+	HELPER CLASS SECTION
+*/
+
 .bg-primary {	
     background-color: #F47913;
 }
@@ -135,8 +139,6 @@ li {
     color: rgb(51,53,65);
 }
 
-/* My helper classes */
-
 .text-faded {
     color: rgba(255,255,255,.7);
 }
@@ -145,15 +147,83 @@ li {
 	color: rgb(51,53,65);
 }
 
+.paddingv0 {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
 .paddingv10 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.margin-v {
-	margin-top: 5px;
-	margin-bottom: 5px;
+.paddingv20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
+
+.marginv0 {
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+
+.margin-v {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.timeline {
+	position: absolute;
+	width: 50%;
+	height: 219px;
+	border-right: 1px dotted #333;
+}
+
+.fixedheightsmall {
+	height: 220px;	
+}
+
+.photograph {
+	border: 8px solid #fff;
+	box-shadow: 5px 5px 10px #999;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/*
+	PMO CSS experts hate this mom's shitty hack to align text vertical 
+*/
+.relative {
+	position: relative;
+	height: 220px;
+} 
+
+.relative .absolute {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.relative .absolute .alignverticalmiddle {
+display: block;
+	position: absolute;
+	width: 100%;
+    top: 50%;
+	transform: translateY(-50%);
+}
+
+/*
+	SECTIONs SECTION
+
+	PMO Please no horizontal padding for sections 
+	Instead use a 10 column layout to add a margin left and right.
+	If padding added to section(s), it breaks the full width inserts
+*/
 
 section {
     padding-top: 40px;
@@ -169,8 +239,8 @@ section#content h1,
 section#content h2,
 section#content h3,
 section#content h4 {
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
 }
 
 section#content p {
@@ -183,9 +253,19 @@ section#content img {
 }
 
 section#team-members {
-	padding-top: 25px;	
+	padding-top: 25px;
 	background-color: rgba(255,255,255,0.98); 
 }
+
+section#team-member-bio .picture {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+section#team-member-bio .text {
+	margin-top: 1.5em;
+}
+
 /* RBC This sections use a customized padding to allocate correctly the white space in the offer section */
 section#corporate-events  {
 	padding-top: 0px;
@@ -333,6 +413,10 @@ footer a {
 	border-bottom: 1px solid #ddd;
 }
 
+/*
+	HEADERs SECTION
+*/
+
 header-pz#home {
 	position: relative;
 	width: 100%;
@@ -431,21 +515,6 @@ header#pz {
 	background-color: #aaa;	
 }
 
-header#tedx {
-	position: relative;
-	width: 100%;
-	height: 360px;
-	text-align: center;
-	color: #fff;
-	background-image: url(/pictures/tedx/header.png);
-	background-position: bottom;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	background-color: #aaa;	
-}
-
 header#pcs {
 	position: relative;
 	width: 100%;
@@ -476,7 +545,7 @@ header {
 header .header-content {
 	display: block;
 	position: absolute;
-	top: 20px;
+	top: 27px;
     width: 100%;
     height: 100%;
 }
@@ -522,7 +591,6 @@ header .header-content .header-content-inner {
     padding: 40px;
 	transform: translateY(-50%);
 }
-
 
 header .header-content .header-content-inner hr {
     margin: 0px auto;

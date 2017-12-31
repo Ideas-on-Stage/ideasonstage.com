@@ -1,10 +1,11 @@
-<section id="team-member-page">
+{{ "<!-- partials:team-members-page.html -->" | safeHTML }}
+<section id="team-member-bio">
      <div class="container">
         <div class="row">
-        	<div class="col-xs-10 col-xs-offset-1 col-md-4">  		
+        	<div class="col-xs-10 col-xs-offset-1 col-md-4 picture">  		
 				<img src="/pictures/team-members/{{  .Params.img }}" class="img-responsive img-left" alt="">
 	        </div>
-	        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
+	        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 text">
 				<h2>{{ .Params.name }}</h2>
 				<h3 class="section-heading">{{ .Params.position }}</h3>
 				<p>{{ with .Content }}{{ . | markdownify }}{{ end }}</p>	

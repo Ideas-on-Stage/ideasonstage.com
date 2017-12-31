@@ -17,7 +17,3 @@ Several years later, here I am, as the co-founding Partner and Creative Director
 I was interviewed in the documentary “Le pouvoir des mots” for the Canadian television, and by several magazines, including Le Monde, Le Parisien and Management.
 
 You can [visit my blog](https://www.pierremorsa.com/), in French, where I write about presentation techniques, being a digital nomad and Getting Things Done.
-
-You can book a Skype or phone call directly with me with the form below.
-
-<iframe src="https://pierremorsa-calls.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframepierremorsa-calls" style="width:100%;height:1100px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe>

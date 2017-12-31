@@ -25,12 +25,18 @@
 	{{- $.Scratch.Set "count" 0 }}
 	{{- range .Site.Data.references }}
 		{{- if eq $.Site.Params.languagecode .language }}
-			{{- if eq .kind $Title }}
-				{{- $.Scratch.Add "count" 1 }}
+		{{- if eq .kind $Title }}
+		{{- $.Scratch.Add "count" 1 }}
 				<div class="col-xs-3 col-sm-12">
-					{{ partial "reference-logo.html" . }}
+				    <a href="#referencesModal{{ ($.Scratch.Get "count") }}" data-toggle="modal">
+				{{ partial "reference-logo.html" . }}
+		    	 	</a>
 			 	</div>
-			{{- end }}
+				{{ "<!-- references Modals -->" | safeHTML }}
+				<div class="modal fade" id="referencesModal{{ ($.Scratch.Get "count") }}" tabindex="-1" role="dialog" aria-hidden="true">
+				{{ partial "reference-modal_new.html" . }}
+				</div>
+		{{- end }}
 		{{- end }}
 	{{- end }}
 			</div>
@@ -41,10 +47,10 @@
 {{- $URL := .URL }}
 {{- $.Scratch.Set "count" 0 }}
 {{- range .Site.Data.inserts }}		
-	{{- $.Scratch.Add "count" 1 }}
-	{{- if eq .url $URL }}
-		{{- if eq .position "bottom" }}
+	{{ $.Scratch.Add "count" 1 }}
+	{{ if eq .url $URL }}
+		{{ if eq .position "bottom" }}
 		{{ partial .layout . }}
-		{{- end }} 
-	{{- end }}
+		{{ end }} 
+	{{ end }}
 {{- end }}    
