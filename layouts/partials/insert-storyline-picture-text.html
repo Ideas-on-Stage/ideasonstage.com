@@ -10,8 +10,8 @@
 	        	{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="img-responsive photograph">{{ end }}
 	        </div>
 	        <div class="col-xs-6 col-sm-5 col-md-4">
-			    {{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
-			    <p class="marginv0">{{ with .description }}{{ .  }}{{ end }}</p>
+			    {{ if ne .title "" }}<h4 class="timeline-text">{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
+			    <p class="marginv0 timeline-text">{{ with .description }}{{ .  }}{{ end }}</p>
 			</div>
 	    </div>
 	    </div>

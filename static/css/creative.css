@@ -416,72 +416,6 @@ footer a {
 /*
 	HEADERs SECTION
 */
-
-header-pz#home {
-	position: relative;
-	width: 100%;
-	height: 360px;
-	text-align: center;
-	color: #fff;
-	background-image: url(/pictures/pz/home/header.jpg);
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	background-color: #aaa;	
-}
-
-header-pz {
-	position: relative;
-	width: 100%;
-	height: 360px;
-	text-align: center;
-	color: #000;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	background-color: #aaa;
-}
-
-header-pz .header-pz-content-img-left {
-	display: block;
-	position: absolute;
-	opacity: 1;
-	max-height: 360px;
-	width: auto;
-	left: 0;
-}
-
-header-pz .header-pz-content-img {
-	display: block;
-	position: absolute;
-	opacity: 1;
-	max-height: 360px;
-	width: auto;
-	right: 0;
-}
-
-header-pz .header-pz-content {
-    position: absolute;
-    width: 100%;
-    padding: 15px 15px;
-    text-align: center;
-}
-
-header-pz .header-pz-content .header-pz-content-inner h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-weight: 700;
-}
-
-header-pz .header-pz-content .header-pz-content-inner h4 {
-    margin-top: 18px;
-}
-
-
 header#home {
 	position: relative;
 	width: 100%;
@@ -515,20 +449,6 @@ header#pz {
 	background-color: #aaa;	
 }
 
-header#pcs {
-	position: relative;
-	width: 100%;
-	height:480px;
-	text-align: center;
-	color: #fff;
-	background-image: url(../pictures/pcs/header.png);
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	background-color: #aaa;	
-}
 header {
 	position: relative;
 	width: 100%;
@@ -816,14 +736,20 @@ transition: all .35s;
     .offer-box .offer-box-caption .offer-box-caption-content .offer-name {
         font-size: 1em;
     }
-}
 
-@media(max-width:768px) {
 	h1, h2 {
 		font-size: 2em;
 	}
 	h3, h4 {
 		font-size: 1.5em;
+	}
+
+	h4.timeline-text {
+		font-size: 1.2em;
+	}
+	
+	p.timeline-text {
+		font-size: 0.825em;
 	}
 
 }

@@ -7,8 +7,8 @@
 	<div class="alignverticalmiddle">
 	    <div class="row">
 	        <div class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2 text-right">
-			    {{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
-			    <p class="marginv0">{{ with .description }}{{ .  }}{{ end }}</p>
+			    {{ if ne .title "" }}<h4 class="timeline-text">{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
+			    <p class="marginv0 timeline-text">{{ with .description }}{{ .  }}{{ end }}</p>
 			</div>
 			<div class="col-xs-5 col-sm-4 col-md-3">
 				{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="img-responsive photograph">{{ end }}
