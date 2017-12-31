@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Ideas on Stage | Especialistas en Presentaciones</title>
+    <link>https://www.ideasonstage.es/tags/events/</link>
+    <description>Recent content in Events on Ideas on Stage | Especialistas en Presentaciones</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Sat, 19 Mar 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ideasonstage.es/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TEDX McGill 2016</title>
+      <link>https://www.ideasonstage.es/project/tedx-mcgill-2016/</link>
+      <pubDate>Sat, 19 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.es/project/tedx-mcgill-2016/</guid>
+      <description>Ideas on Stage, especialista global en presentaciones, ha entrenado y acompañado a speakers en eventos TED durante los últimos seis años, consiguiendo grandes resultados. Este año, no sólo hemos hecho acompañamiento sino que nos hemos asociado con TEDx McGill, que tuvo lugar a principios de este mes.
+ Check out our amazing location for our conference !
+A post shared by TEDxMcGill (@tedxmcgill2016) on Mar 9, 2016 at 6:00am PST</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/corporate-events/event-design/"
 +++
 
-### “Abbastanza bene” non è mai abbastanza.
+## “Abbastanza bene” non è mai abbastanza.
 
 Fai del tuo evento una vera e propria storia e trasformalo in un momento unico e memorabile, amato dal pubblico, di cui si parlerà in termini entusiastici. Trasforma una riunione aziendale in una straordinaria opportunità per coinvolgere i media, i partner, i dipendenti, i clienti o i fornitori.  
 Il nostro team di Event Design ha lasciato il segno con grandi società del lusso, industrie farmaceutiche, Corporate leaders, conferenze pubbliche e molto altro ancora. 

@@ -1,11 +1,9 @@
-baseURL = "https://www.ideasonstage.com/"
-DefaultContentLanguage = "en"
-paginate = 5
-paginatePath = "newspage"
-canonifyurls 	= true
-
-
-    
+=======
+baseURL 				= "https://www.ideasonstage.com"
+DefaultContentLanguage	= "en"
+paginate				= 5
+paginatePath			= "newspage"
+canonifyurls			= false
 
 title        	= "Ideas on Stage | Deliver amazing presentations"
 name         	= "Ideas on Stage"
@@ -29,15 +27,13 @@ theme        	= "hugo-creative-theme-master"
 		email 			= "info@ideasonstage.com"
 		year			= "2016-2017"
 		cookieslink		= "cookies/"
-		favicon			= "pictures/home/ios_favicon.ico"
+		favicon			= "/pictures/home/ios_favicon.ico"
 		headerteam		= "/pictures/team/image.png"
 		headereventan	= "/pictures/corporate-events/event-animation/image.png"
 		
 		# Id for Incognito form in Presentation Creation Service
 		pcsform = "TeiR-77um0q9kFm49EqvwQ"
 
-		
-				
 		
 		#News
 		activenews = true
@@ -46,38 +42,49 @@ theme        	= "hugo-creative-theme-master"
 		
 		# Navigation
 		[params.navigation]
-			brand = "Ideas on Stage"
-			brand_logo = "/pictures/home/ideas-on-stage.png"
-	
-			[params.navigation.links]
-				about		= "About"
-				services	= "Services"
-				training	= "Training"
-				contact		= "Contact"
-				news		= "News"
-				more		= "More"
-				team		= "Team"
-				team_url	= "team/"
-				language	= "Language"
-				back		= "Back to Home"
-				fr			= "Français"
-				fr_url		= "https://www.ideasonstage.fr/"
-				es			= "Español"
-				es_url		= "https://www.ideasonstage.es/"
-				en			= "English"
-				en_url		= "https://www.ideasonstage.com/"
-				it			= "Italiano"
-				it_url		= "https://www.ideasonstage.it/"
+			brand 		= "Ideas on Stage"
+			brand_logo	= "/pictures/home/ideas-on-stage.png"
+			language	= "Language"
+			back		= "Back to Home"
 
+			[params.navigation.items]
+				
+				[params.navigation.items.001]
+					name		 	= "Services"
+					url			 	= "/#services"
+					frontpageurl 	= "#services"
+				[params.navigation.items.002]
+					name			= "News"
+					url				= "/news/"
+					frontpageurl	= "/news/"
+				[params.navigation.items.003]
+					name			= "Contact"
+					url				= "#contact"
+					frontpageurl	= "#contact"
+				[params.navigation.items.004]
+					name			= "Team"
+					url				= "/team/"
+					frontpageurl	= "/team/"
 	
-	
+			[params.navigation.languages]
+					
+				[params.navigation.languages.001]
+					name	= "Français"
+					url		= "https://www.ideasonstage.fr"
+				[params.navigation.languages.002]
+					name	= "Español"
+					url		= "https://www.ideasonstage.es"
+				[params.navigation.languages.004]
+					name	= "Italiano"
+					url		= "https://www.ideasonstage.it"
+
 	
 		# Hero section - Header picture + Tagline + Countries Menu
 		[params.hero]
 				picture	    = "/pictures/home/header.jpg"
-				slogan      = "Deliver amazing presentations"
+				slogan      = "Just Win"
 				subtitle_on = true
-				subtitle    = "Ideas on Stage is a leading specialist in business presentations, operating in Europe and America. Our services are available in English, French, Spanish and Italian."
+				subtitle    = "Win the game of business presentations<br />Win more deals and more customers<br />Be the presenter people remember"
 				button_on   = false
 				buttonText  = "Discover how we can help you"
 				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
@@ -108,7 +115,7 @@ theme        	= "hugo-creative-theme-master"
 	    #About IoS section (bottom of home page)
 	        title			= "About Ideas on Stage"
 	        subtitle		= "Our Methodology"
-	        description1 	= "Ideas on Stage is a leading specialist in business presentations.<br>Our highly experienced team of experts combines to bring you a unique set of skills, helping you to build your presentations and convince your audiences.<br>Ideas on Stage operates in Europe and North America. Our services are available in English, French, Spanish and Italian."
+	        description1 	= "<p>Great business presentations are a unique competitive advantage for companies. But we realized that most presentations failed to even raise the interest of the audience. This is why we created Ideas on Stage in 2010, to help our clients deliver the very best presentations in the world.</p><p>We quickly realized that our intuition was right. People who used our services immediately saw a huge difference. They started winning more deals. Their leadership skills improved. They presented their ideas clearly and convincingly.</p><p>Today we work with many of the world's best companies. We help them change. We help them gain a competitive advantage. All thanks to the power of effective business presentations."
 	        image1 			= "/pictures/about/ios-map.png"
 	        description2 	= "The pSCORE method (Presentation SCORE) is our new approach to business presenting, honed over many years and proven in a wide variety of companies. pSCORE offers a complete method for the creation of top-quality presentations, starting with careful preparation (start with your audience and the context, set objectives and choose the key messages) and then applying the three arts of presenting: <br /><ul><li>Storytelling: define a clear and effective structure, and use storytelling techniques to make your key messages stick.</li><li>Visuals: forget Death By PowerPoint – instead use slides and other visual aids to communicate more effectively.</li><li>Oratory: deliver your presentation powerfully and credibly, with confidence and without stress.</li></ul>"
 	        image2 			= "/pictures/about/ios-pSCORE.png"
@@ -277,35 +284,6 @@ pcsformid = "2"
 
 #News
 activenews = true
-
-# Navigation
-		[languages.en.navigation]
-			brand = "Ideas on Stage"
-			brand_logo = "/pictures/home/ideas-on-stage.png"
-	
-			[languages.en.navigation.links]
-				about		= "About"
-				services	= "Services"
-				training	= "Training"
-				contact		= "Contact"
-				news		= "News"
-				more		= "More"
-				team		= "Team"
-				team_url	= "team/"
-				language	= "Language"
-				back		= "Back to Home"
-				fr			= "Français"
-				fr_url		= "https://www.ideasonstage.fr/"
-				es			= "Español"
-				es_url		= "https://www.ideasonstage.es/"
-				en			= "English"
-				en_url		= "https://www.ideasonstage.com/"
-				it			= "Italiano"
-				it_url		= "https://www.ideasonstage.it/"
-
-	
-	
-	
 		
 
 ##################
@@ -332,33 +310,43 @@ activenews = true
 monthtrans = "mois.yaml"
 
 
-# Navigation
-[languages.fr.navigation]
-	brand = "Ideas on Stage"
-	brand_logo = "/pictures/home/ideas-on-stage.png"
+	# Navigation
+	[languages.fr.navigation]
+		brand 		= "Ideas on Stage"
+		brand_logo	= "/pictures/home/ideas-on-stage.png"
+		language	= "Langue"
+		back		= "Page d'accueil"
 	
-	[languages.fr.navigation.links]
-	about		= "À propos"
-	services	= "Services"
-	training	= "Formations"
-	contact		= "Contact"
-				news		= "Nouvelles"
-				more		= "Plus..."
-				team		= "Équipe"
-				team_url	= "equipe/"
-				language	= "Langue"
-				back		= "Page d'accueil"
-				fr			= "Français"
-				fr_url		= "https://www.ideasonstage.fr/"
-				es			= "Español"
-				es_url		= "https://www.ideasonstage.es/"
-				en			= "English"
-				en_url		= "https://www.ideasonstage.com/"
-				it			= "Italiano"
-				it_url		= "https://www.ideasonstage.it/"
-		
-	
-	
+		[languages.fr.navigation.items]
+			
+			[languages.fr.navigation.items.001]
+				name			= "Services"
+				url				= "/#services"
+				frontpageurl 	= "#services"
+			[languages.fr.navigation.items.002]
+				name			= "Nouvelles"
+				url				= "/news/"
+				frontpageurl 	= "/news/"
+			[languages.fr.navigation.items.003]
+				name			= "Contact"
+				url				= "#contact"
+				frontpageurl 	= "#contact"
+			[languages.fr.navigation.items.004]
+				name			= "Équipe"
+				url				= "/equipe/"
+				frontpageurl 	= "/equipe/"
+
+		[languages.fr.navigation.languages]
+				
+			[languages.fr.navigation.languages.001]
+				name	= "Español"
+				url		= "https://www.ideasonstage.es"
+			[languages.fr.navigation.languages.002]
+				name	= "English"
+				url		= "https://www.ideasonstage.com"
+			[languages.fr.navigation.languages.003]
+				name	= "Italiano"
+				url		= "https://www.ideasonstage.it"	
 	
 		# Hero section - Header picture + Tagline + Countries Menu
 		[languages.fr.hero]
@@ -563,34 +551,40 @@ monthtrans = "mois.es.yaml"
 
 
 
-# Navigation
-[languages.es.navigation]
-	brand = "Ideas on Stage"
-	brand_logo = "/pictures/home/ideas-on-stage.png"
-	
-	[languages.es.navigation.links]
-	about		= "Sobre Nosotros"
-	services	= "Servicios"
-	training	= "Formación"
-	contact		= "Contacto"
-	news		= "Noticias"
-	more		= "Más"
-	team		= "Equipo"
-	team_url	= "team/"
-	language	= "Idioma"
-	back		= "Ir a Inicio"
-	fr			= "Français"
-	fr_url		= "https://www.ideasonstage.fr/"
-	es			= "Español"
-	es_url		= "https://www.ideasonstage.es/"
-	en			= "English"
-	en_url		= "https://www.ideasonstage.com/"
-	it			= "Italiano"
-	it_url		= "https://www.ideasonstage.it/"
-		
-	
-	
-	
+	# Navigation
+	[languages.es.navigation]
+		brand		= "Ideas on Stage"
+		brand_logo	= "/pictures/home/ideas-on-stage.png"
+		language	= "Idioma"
+		back		= "Ir a Inicio"
+
+		[languages.es.navigation.items]
+			
+			[languages.es.navigation.items.001]
+				name			= "Servicios"
+				url				= "/#services"
+				frontpageurl 	= "#services"
+			[languages.es.navigation.items.002]
+				name			= "Contacto"
+				url				= "#contact"
+				frontpageurl 	= "#contact"
+			[languages.es.navigation.items.003]
+				name			= "Equipo"
+				url				= "/team/"
+				frontpageurl 	= "/team/"
+
+		[languages.es.navigation.languages]
+				
+			[languages.es.navigation.languages.001]
+				name	= "Français"
+				url		= "https://www.ideasonstage.fr"
+			[languages.es.navigation.languages.002]
+				name	= "English"
+				url		= "https://www.ideasonstage.com"
+			[languages.es.navigation.languages.003]
+				name	= "Italiano"
+				url		= "https://www.ideasonstage.it"
+			
 		# Hero section - Header picture + Tagline + Countries Menu
 		[languages.es.hero]
 				slogan      = "Haz presentaciones brillantes"
@@ -795,29 +789,41 @@ monthtrans = "moisit.yaml"
 
 # Navigation
 [languages.it.navigation]
-	brand = "Ideas on Stage"
-	brand_logo = "/pictures/home/ideas-on-stage.png"
-	
-	[languages.it.navigation.links]
-	about		= "Chi Siamo"
-	services	= "Servizi"
-	training	= "Training"
-	contact		= "Contatti"
-	news		= "Notizie"
-	more		= "Scopri di più"
-	team		= "Il Team"
-	team_url	= "team/"
+	brand		= "Ideas on Stage"
+	brand_logo	= "/pictures/home/ideas-on-stage.png"
 	language	= "Lingue"
 	back		= "Back to Home"
-	fr			= "Français"
-	fr_url		= "https://www.ideasonstage.fr/"
-	es			= "Español"
-	es_url		= "https://www.ideasonstage.es/"
-	en			= "English"
-	en_url		= "https://www.ideasonstage.com/"
-	it			= "Italiano"
-	it_url		= "https://www.ideasonstage.it/"
 
+		[languages.it.navigation.items]
+			
+			[languages.it.navigation.items.001]
+				name			= "Servizi"
+				url				= "/#services"
+				frontpageurl 	= "#services"
+			[languages.it.navigation.items.002]
+				name			= "Contatti"
+				url				= "#contact"
+				frontpageurl 	= "#contact"
+			[languages.it.navigation.items.003]
+				name			= "Il Team"
+				url				= "/team/"
+				frontpageurl 	= "/team/"
+
+		[languages.it.navigation.languages]
+				
+			[languages.it.navigation.languages.001]
+				name	= "Français"
+				url		= "https://www.ideasonstage.fr"
+			[languages.it.navigation.languages.002]
+				name	= "Español"
+				url		= "https://www.ideasonstage.es"
+			[languages.it.navigation.languages.003]
+				name	= "English"
+				url		= "https://www.ideasonstage.com"
+			[languages.it.navigation.languages.004]
+				name	= "Italiano"
+				url		= "https://www.ideasonstage.it"
+				
 		# Hero section - Header picture + Tagline + Countries Menu
 		[languages.it.hero]
 				slogan      = "Regala delle Presentazioni Incredibili"

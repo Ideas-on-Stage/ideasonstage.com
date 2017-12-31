@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/public-speaking-coaching/media-training/"
 +++
 
-### Muéstrale al mundo tu mejor versión
+## Muéstrale al mundo tu mejor versión
 
 
 Entras a un caluroso estudio deslumbrado por los focos, te sientas frente a un periodista que apenas conoces, y tras un breve saludo te ves transportado ante millones de ojos gracias a la magia de la tecnología. Mientras ese pensamiento pasa fugazmente por tu cabeza, recibes la primera pregunta, procedente de alguien cuyas intenciones desconoces. De repente sientes que la temperatura del estudio ha aumentado unos grados...

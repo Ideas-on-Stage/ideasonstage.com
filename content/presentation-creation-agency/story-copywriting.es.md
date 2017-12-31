@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/presentation-creation-agency/story-copywriting/"
 +++
 
-### ¿Porqué recordamos las historias, pero olvidamos la presentación de ayer?
+## ¿Porqué recordamos las historias, pero olvidamos la presentación de ayer?
 
 Tu informe o tu presentación ha llegado a sus destinatarions, pero ¿lo leerán? ¿Lo recodarán? Y más importante, ¿les moverá a actuar? O a lo mejor, has malgastado tu tiempo...
 

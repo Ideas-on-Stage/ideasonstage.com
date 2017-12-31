@@ -1,5 +1,5 @@
 +++
-draft		= false
+draft		= true
 title		= "Leadership Collaborativa"
 description = "Supera i pregiudizi di genere e i silos informativi nella tua azienda, e migliora la tua performance."
 weight		= 5

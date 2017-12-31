@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/coaching-prise-de-parole-en-public/media-training/"
 +++
 
-### Montrez au monde la meilleure version de vous-même
+## Montrez au monde la meilleure version de vous-même
 
 Juste après vous être fait maquiller, vous vous asseyez dans un siège face à un journaliste que vous connaissez à peine. Quelques secondes plus tard, vous voilà face à des millions de paires d'yeux qui vous regardent à travers la caméra. À ce moment le journaliste vous pose une question totalement inattendue. Vous avez tout d'un coup un peu plus chaud sous l'éclairage des spots !
 

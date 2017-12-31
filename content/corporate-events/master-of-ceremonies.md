@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/corporate-events/master-of-ceremonies/"
 +++
 
-### A Master of Ceremonies for your event
+## A Master of Ceremonies for your event
 
 Our Master of Ceremonies will go beyond the traditional animator. They are entertainers, storytellers, showrunners, but it's only the surface. They will immerse themselves in your event's specific culture and add another dimension with their thought-provoking questions. 
 

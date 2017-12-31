@@ -1,16 +1,12 @@
 <section id="team-member-page">
      <div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<h2>{{ .Params.name }}</h2>
-          		<h3 class="text-muted" style="margin-top: 0px;">{{ .Params.position }}</h3>
-          	</div>
-        </div>       
         <div class="row">
-        	<div class="col-xs-12 col-md-4">  		
-				<img src="/pictures/team-members/{{  .Params.img }}" class="img-responsive img-left" alt="">	
+        	<div class="col-xs-10 col-xs-offset-1 col-md-4">  		
+				<img src="/pictures/team-members/{{  .Params.img }}" class="img-responsive img-left" alt="">
 	        </div>
-	        <div class="col-xs-12 col-md-8">  		
+	        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0">
+				<h2>{{ .Params.name }}</h2>
+				<h3 class="section-heading">{{ .Params.position }}</h3>
 				<p>{{ with .Content }}{{ . | markdownify }}{{ end }}</p>	
 	        </div> <!--end col -->
         </div> <!--end row-->      

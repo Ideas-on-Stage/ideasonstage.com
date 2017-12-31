@@ -1,5 +1,5 @@
 +++
-draft		= false
+draft		= true
 title		= "Riavvia la Tua Azienda"
 description = "Se il tuo team fosse una startup, quanto sarebbero più creativi e agili? Scoprilo in questo workshop divertente e innovativo."
 weight		= 6

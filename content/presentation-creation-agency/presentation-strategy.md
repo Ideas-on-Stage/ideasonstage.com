@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/presentation-creation-agency/presentation-strategy/"
 +++
 
-### Get a powerful presentation to sell your value and convince your audience, be they clients, partners or the media
+## Get a powerful presentation to sell your value and convince your audience, be they clients, partners or the media
 
 We will help you shape your communication strategy and turn it into a great story illustrated by amazing visuals. We can help you inspire and motivate your employees from the stage, launch high visibility products or services, win highly competitive sales, build a great corporate presentation and much more.
 

@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
         
-			<div class="col-lg-12 text-center">
+			<div class="col-lg-12">
 	            <p>{{ with .Params.aboutdescription }}{{ . | markdownify }}{{ end }}</p>
 
 <!-- New table -->
@@ -56,7 +56,7 @@
 <!-- end of new table -->
 			
 	        <div class="col-lg-12 text-center"> 
-	            <h3>{{ with .Params.aboutdescription2 }}{{ . | markdownify }}{{ end }}</h3>   
+	            <p><b>{{ with .Params.aboutdescription2 }}{{ . | markdownify }}{{ end }}</b></p>   
 			</div>
 			
      	</div>

@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/corporate-events/master-of-ceremonies/"
 +++
 
-### Un Maestro di Cerimonie per il tuo evento.
+## Un Maestro di Cerimonie per il tuo evento.
 
 I nostri Maestri di Cerimonie andranno oltre l’animazione tradizionale. Sicuramente sono degli intrattenitori, dei cantastorie, dei mattatori, ma questo è solo l’aspetto più superficiale. Si immergeranno nella cultura specifica del tuo evento e aggiungeranno un’ulteriore dimensione con le loro domande stimolanti. 
 

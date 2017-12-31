@@ -1,5 +1,5 @@
 +++
-draft		= false
+draft		= true
 title		= "Gender-Balanced Leadership"
 description = "Overcome gender bias and information silos in your company, and boost your performance."
 weight		= 5

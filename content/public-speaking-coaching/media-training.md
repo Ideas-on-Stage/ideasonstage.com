@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/public-speaking-coaching/media-training/"
 +++
 
-### Show the world the best version of yourself 
+## Show the world the best version of yourself 
 
 
 You come from make-up into a warm studio under hot lights, you take a seat opposite a journalist you hardly know, and after a brief greeting you are thrust via technology in front of a million pairs of eyes. Just as that thought hits your mind you’re being fired your first question, by someone who might not pull their punches. It suddenly feels even hotter under the lights.

@@ -1,5 +1,5 @@
 +++
-draft		= false
+draft		= true
 type		= "pzen"
 title		= "Presentation Zen for Business"
 description = "The official Presentation Zen for Business workshop, exclusively delivered by Ideas on Stage."

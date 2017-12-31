@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/corporate-events/keynotes/"
 +++
 
-### Una keynote o un taller inspiradores para sorprender a tu público o motivar a tu equipo
+## Una keynote o un taller inspiradores para sorprender a tu público o motivar a tu equipo
 
 Tanto si estás organizando una conferencia, un evento off-site con tu equipo o un retiro de liderazgo, los participantes disfrutarán nuestras entretenidas e inspiradoras presentaciones realizadas por nuestros experimentados speakers. 
 

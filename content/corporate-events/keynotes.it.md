@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/corporate-events/keynotes/"
 +++
 
-### Una presentazione ispirata o un seminario per stupire il tuo pubblico o motivare il tuo team
+## Una presentazione ispirata o un seminario per stupire il tuo pubblico o motivare il tuo team
 
 Che tu stia organizzando una conferenza, un ritiro per il team-building o un incontro per lo sviluppo della leadership, i tuoi partecipanti apprezzeranno le nostre presentazioni interessanti e stimolanti, realizzate e presentate da uno dei nostri speaker professionali.  
 

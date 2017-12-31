@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/evenements-entreprise/conception-evenements/"
 +++
 
-### « Bien » n'est pas assez bien
+## « Bien » n'est pas assez bien
 
 Scénarisez votre événement et transformez-le en un moment unique dont tout le monde parlera. Passez d'un événement d'entreprise traditionnel à une occasion unique d'attirer les médias, vos partenaires, vos employés, vos clients, vos fournisseurs et bien plus. 
 

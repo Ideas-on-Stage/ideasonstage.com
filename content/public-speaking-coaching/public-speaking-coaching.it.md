@@ -9,7 +9,7 @@ urlredirect	= ""
 url 		= "/public-speaking-coaching/public-speaking-coaching/"
 +++
 
-### Diventa un leader sul palco
+## Diventa un leader sul palco
 
 Il nostro Senior Team esclusivo è dedicato al coaching di C-Level Executive e vi aiuterà a sviluppare le vostre capacità comunicative per passare alla fase successiva della vostra carriera.
 Aiutiamo molti Senior Manager di grandi aziende a padroneggiare l’arte della leadership dal palco, a parlare con i media, ad ispirare le proprie aziende. Il nostro ruolo è quello di sviluppare competenza, sicurezza e tranquillità in modo che non vediate l’ora di affrontare la sfida di comunicare in tutte le situazioni, da una sala riunioni a un auditorium.  
