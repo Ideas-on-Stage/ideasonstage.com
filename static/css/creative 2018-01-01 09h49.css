@@ -59,6 +59,7 @@ hr.thin {
 }
 
 a {
+    color: #F47913;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -67,9 +68,6 @@ a {
 a:hover,
 a:focus {
     color: #F47913;
-	-webkit-transition: all .35s;
-	-moz-transition: all .35s;
-	transition: all .35s;
 }
 
 #about a {
@@ -187,7 +185,7 @@ li {
 
 .photograph {
 	border: 8px solid #fff;
-	box-shadow: 2px 2px 8px #aaa;
+	box-shadow: 4px 4px 8px #888;
 }
 
 .vcenter {
@@ -436,6 +434,21 @@ header#home h1 {
 	font-size: 5em;
 }
 
+header#pz {
+	position: relative;
+	width: 100%;
+	height:360px;
+	text-align: center;
+	color: #fff;
+	background-image: url(../pictures/pz/home/header.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-color: #aaa;	
+}
+
 header {
 	position: relative;
 	width: 100%;
@@ -615,39 +628,18 @@ h3.section-heading {
 
 /*PMO offer-box is used for presentation services coaching and training sections*/
 
-.offer-category {
-	position: relative;
-	height: 60px;
-	margin-top: 36px;
-	margin-bottom: 10px;
-}
-
-.offer-category .offer-category-content {
-	position: absolute;
-	width: 100%;
-	border: 0;
-	bottom: 0;
-	font-size: 1em;
-	padding: 6px;
-	border-bottom: 1px dotted #333;
-}
-
-.offer-category .offer-category-content h3 {
-	font-size: 1.2em;
-}
-
 .offer-box {
-	display: block;
+    display: block;
     position: relative;
-    width: 100%;
-	border: 1px solid #aaa;
-	padding: 6px;
-	margin-top: 12px;
+    width: 360px;
+    margin: 0 auto;
+	border: 1px solid #fff;
+	padding: 20px;
 }
 
 .offer-box .offer-box-caption {
-	padding-top: 12px;
-	margin-bottom: 8px;
+	height: 64px;
+	padding-top: 20px;
 }
 
 .offer-box .offer-box-caption .offer-box-caption-content {
@@ -655,18 +647,31 @@ h3.section-heading {
 	top: 0;
 	width: 100%;
 	text-align: center;
+	color: #000;
 }
 
-.offer-box a {
-	text-decoration: none;
+.offer-box .offer-box-caption .offer-box-caption-content-oldcrap {
+	position: relative;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transform: translateY(-50%);
 }
 
-.offer-box:hover {
-	border: 1px solid #F47913;
-	color: #F47913;
+.offer-box:hover .offer-box-image-over {
+	background: rgba(51, 53, 65, .2);
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
 	transition: all .35s;
+}
+
+
+.offer-box:hover {
+	border: 1px solid #F47913;
+-webkit-transition: all .35s;
+-moz-transition: all .35s;
+transition: all .35s;
 }
 
 .offer-box .offer-box-caption .offer-box-caption-content .date-next {
@@ -678,31 +683,63 @@ h3.section-heading {
 .offer-box-description {
 	display: block;
 	position: relative;
+	height: 60px;
 }
 
 .offer-box-description .offer-box-description-content {
-	margin-top: 18px;
-	padding: 16px 0;
-    font-size: 0.8em;
+	padding: 10px 0px;
+    font-size: 1em;
+    color: #000;
 }
 
 @media(max-width:1200px) {
+
+	.offer-box {
+		width: 293px;
+	}
+	
+	.offer-box .offer-box-image {
+		width: 251px;
+		height: 144px;
+	}
+
 	.offer-box .offer-box-caption {
-		font-size: 0.8em;
+		height: 64px;
 	}
 
 }
 
 @media(max-width:992px) {
+	.offer-box {
+		width: 220px;
+	}
+
+	.offer-box .offer-box-image, .offer-box .offer-box-caption {
+		width: 178px;
+		height: 101px;
+	}
+
 	.offer-box .offer-box-caption {
-		font-size: 1em;
+		height: 48px;
+		font-size: 0.8em;
 	}
 
 }
 
 @media(max-width:768px) {
+	.offer-box {
+		width: 100%;
+		padding: 20px;
+		margin-bottom: 10px;
+	}
+
+	.offer-box .offer-box-image, .offer-box .offer-box-caption {
+		width: 100%;
+		height: 100%;
+	}
+	
     .offer-box .offer-box-caption .offer-box-caption-content .offer-name {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
 	h1, h2 {

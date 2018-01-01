@@ -1,8 +1,8 @@
 url: /presentation-creation-service/
 language: en
-position: top
+position: bottom
 title: "Pixel perfect slides"
 layout: insert-text2-picture1.html
-style: bg-lightgrey
+style: bg-white
 picture: placeholder-pic.jpg
-description: Our unique PixelPerfectTool (PPT) guarantees that a 1 pixel line on your slide is a 1 pixel line on the screen. Say goodbye to fuzzy lines or slightly misaligned boxes.placeholder-pic
+description: Our unique PixelPerfectTool (PPT) guarantees that a 1 pixel line on your slide is a 1 pixel line on the screen. Say goodbye to fuzzy lines or slightly misaligned elements.
