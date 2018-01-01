@@ -18,7 +18,7 @@
         	<div class="col-xs-10 col-xs-offset-1">
 {{ end }}
 	            <body>
-					{{ with .Content }}{{ . }}{{ end }}
+					{{ with .Content }}{{ . | markdownify }}{{ end }}
 				</body>
 	        </div>
 
