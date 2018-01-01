@@ -102,6 +102,12 @@ h4 {
 	font-size: 1.25em;
 }
 
+h5 {
+	font-size: 1em;
+	padding: 0px;
+	line-height: 1.4;
+}
+
 /*Customization of event labels*/
 .label-primary {
 	display: inline-block;
@@ -118,8 +124,52 @@ li {
 }
 
 /*
+	HOLY FLEX STUFF
+*/
+.flex-container {
+	position: relative;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+}
+
+.flex-container .background {
+	max-width: 100%;
+	flex-direction: row;
+}
+
+.flex-container .background img {
+	max-width: 100%;
+	z-index: 1000;
+}
+
+.flex-container .text {
+	position: absolute;
+	z-index: 2;
+	margin-top: 40px;
+}
+
+/*
 	HELPER CLASS SECTION
 */
+
+.relative {
+	display: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.relative .absolute {
+	display: block;
+	position: absolute;	
+	width: 100%;
+	height: 100%;
+}
+
+.relative .absolute .picture {
+	width: 100%;
+}
 
 .bg-primary {	
     background-color: #F47913;
@@ -201,14 +251,13 @@ li {
 */
 .relative {
 	position: relative;
-	height: 220px;
 } 
 
 .relative .absolute {
 	display: block;
 	position: absolute;
-	width: 100%;
-	height: 100%;
+width: 100%;
+height:100%;
 }
 
 .relative .absolute .alignverticalmiddle {
@@ -231,7 +280,7 @@ section {
     padding-top: 40px;
     padding-bottom:40px;
    }
-
+   
 section#content  {
 	padding-top: 0px;
 	background-color: #fff; 
@@ -617,9 +666,9 @@ h3.section-heading {
 
 .offer-category {
 	position: relative;
-	height: 60px;
+	height: 30px;
 	margin-top: 36px;
-	margin-bottom: 10px;
+	border-bottom: 1px dotted #333;
 }
 
 .offer-category .offer-category-content {
@@ -627,27 +676,24 @@ h3.section-heading {
 	width: 100%;
 	border: 0;
 	bottom: 0;
-	font-size: 1em;
-	padding: 6px;
-	border-bottom: 1px dotted #333;
 }
 
-.offer-category .offer-category-content h3 {
-	font-size: 1.2em;
+.offer-category-desc {
+position: relative;
+margin-bottom: 10px;	
 }
 
 .offer-box {
 	display: block;
     position: relative;
     width: 100%;
-	border: 1px solid #aaa;
-	padding: 6px;
-	margin-top: 12px;
+	border: 1px solid #fff;
+	padding: 20px;
+	margin-top: 10px;
+	border-radius: 3px;
 }
 
 .offer-box .offer-box-caption {
-	padding-top: 12px;
-	margin-bottom: 8px;
 }
 
 .offer-box .offer-box-caption .offer-box-caption-content {
@@ -681,16 +727,13 @@ h3.section-heading {
 }
 
 .offer-box-description .offer-box-description-content {
-	margin-top: 18px;
-	padding: 16px 0;
-    font-size: 0.8em;
+    font-size: 0.825em;
 }
 
 @media(max-width:1200px) {
 	.offer-box .offer-box-caption {
 		font-size: 0.8em;
 	}
-
 }
 
 @media(max-width:992px) {
@@ -702,7 +745,7 @@ h3.section-heading {
 
 @media(max-width:768px) {
     .offer-box .offer-box-caption .offer-box-caption-content .offer-name {
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
 	h1, h2 {

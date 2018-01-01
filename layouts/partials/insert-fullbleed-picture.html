@@ -1,0 +1,17 @@
+<section class="{{ .style }} paddingv0"><!-- section used for full width background -->
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+	<div class="flex-container">
+		<div class="background">
+			{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
+		</div>
+		<div class="text text-center">
+		    {{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
+		    <p>{{ with .description }}{{ .  }}{{ end }}</p>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+</section>

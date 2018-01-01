@@ -125,26 +125,40 @@ theme        	= "hugo-creative-theme-master"
 				category = "Category"
 				buttonText = "Close"
 	
-
-
 		# Offer section
 		[params.services]
 			title	= "Our Services"
 			
 		[params.offer]	
 			[params.offer.001]
-				category	= "Public Speaking Coaching"
-				title		= "Public Speaking"
-			[params.offer.002]
 				category	= "Presentation Creation Agency"
 				title		= "Presentation Creation Agency"
+				description	= "Great story, great slides."
+				picture		= "home-presentation-creation-agency.jpg"
+				style		= "bg-white"
+				layout		= "insert-big-picture.html"
+			[params.offer.002]
+				category	= "Public Speaking Coaching"
+				title		= "Public Speaking Coaching"
+				description	= "Master the stage. Speak with ease and confidence."
+				picture		= "home-public-speaking-coaching.jpg"
+				style		= "bg-dark"
+				layout		= "insert-full-picture.html"
 			[params.offer.003]
 				category	= "Corporate Events"
 				title		= "Corporate Events"
+				description	= "Break the routine. Surprise your Guests."
+				picture		= "home-corporate-events.jpg"
+				style		= "bg-dark"
+				layout		= "insert-full-picture.html"
 			[params.offer.004]
 				category	= "Training-Workshops"
 				title		= "Training & Workshops"
-		
+				description	= "Change the culture of presentations in your company."
+				picture		= "home-training.jpg"
+				style		= "bg-white"
+				layout		= "insert-full-picture.html"
+				
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
 		# buttonplace if true show location in button name
@@ -402,18 +416,33 @@ monthtrans = "mois.yaml"
 			
 		[languages.fr.offer]	
 			[languages.fr.offer.001]
-				category	= "public-speaking-coaching"
-				title		= "Prise de parole en public"
-			[languages.fr.offer.002]
 				category	= "presentation-creation-agency"
 				title		= "Agence de création de présentations"
+				description	= "Une histoire passionnante, des slides captivants."
+				picture		= "home-presentation-creation-agency.jpg"
+				style		= "bg-white"
+				layout		= "insert-big-picture.html"
+			[languages.fr.offer.002]
+				category	= "public-speaking-coaching"
+				title		= "Prise de parole en public"
+				description	= "Prenez la parole avec aisance et confiance."
+				picture		= "home-public-speaking-coaching.jpg"
+				style		= "bg-dark"
+				layout		= "insert-full-picture.html"
 			[languages.fr.offer.003]
 				category	= "corporate-events"
 				title		= "Événements d'entreprise"
+				description	= "Sortez de la routine. Surprenez votre audience."
+				picture		= "home-corporate-events.jpg"
+				style		= "bg-dark"
+				layout		= "insert-full-picture.html"
 			[languages.fr.offer.004]
 				category	= "training-workshops"
 				title		= "Formations et ateliers"
-				
+				description	= "Changez la culture des présentations dans votre entreprise."
+				picture		= "home-training.jpg"
+				style		= "bg-white"
+				layout		= "insert-full-picture.html"
 		
 		
 		# Presentation Training Tabs (top tabs with dates in the Training page)
@@ -638,20 +667,34 @@ monthtrans = "mois.es.yaml"
 			
 		[languages.es.offer]	
 			[languages.es.offer.001]
-				category	= "Public Speaking Coaching"
-				title		= "Public Speaking"
-			[languages.es.offer.002]
 				category	= "Presentation Creation Agency"
 				title		= "Agencia de Presentaciones"
+				description	= ""
+				picture		= "home-presentation-creation-agency.jpg"
+				style		= "bg-white"
+				layout		= "insert-big-picture.html"
+			[languages.es.offer.002]
+				category	= "Public Speaking Coaching"
+				title		= "Public Speaking"
+				description	= ""
+				picture		= "home-public-speaking-coaching.jpg"
+				style		= "bg-dark"
+				layout		= "insert-full-picture.html"
 			[languages.es.offer.003]
 				category	= "Corporate Events"
 				title		= "Eventos Corporativos"
+				description	= ""
+				picture		= "home-corporate-events.jpg"
+				style		= "bg-dark"
+				layout		= "insert-full-picture.html"
 			[languages.es.offer.004]
 				category	= "Training-Workshops"
 				title		= "Formación"
+				description	= ""
+				picture		= "home-training.jpg"
+				style		= "bg-white"
+				layout		= "insert-full-picture.html"
 				
-		
-		
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
 		# buttonplace if true show location in button name
@@ -871,19 +914,33 @@ monthtrans = "moisit.yaml"
 			
 		[languages.it.offer]	
 			[languages.it.offer.001]
-				category	= "public-speaking-coaching"
-				title		= "Public Speaking"
-			[languages.it.offer.002]
 				category	= "presentation-creation-agency"
 				title		= "Presentation Creation Agency"
+				description	= ""
+				picture		= "home-presentation-creation-agency.jpg"
+				style		= "bg-white"
+				layout		= "insert-big-picture.html"
+			[languages.it.offer.002]
+				category	= "public-speaking-coaching"
+				title		= "Public Speaking"
+				description	= ""
+				picture		= "home-public-speaking-coaching.jpg"
+				style		= "bg-dark"
+				layout		= "insert-full-picture.html"
 			[languages.it.offer.003]
 				category	= "corporate-events"
 				title		= "Eventi Corporate"
+				description	= ""
+				picture		= "home-corporate-events.jpg"
+				style		= "bg-dark"
+				layout		= "insert-full-picture.html"
 			[languages.it.offer.004]
 				category	= "training-workshops"
 				title		= "Training & Workshop"
-				
-		
+				description	= ""
+				picture		= "home-training.jpg"
+				style		= "bg-white"
+				layout		= "insert-full-picture.html"		
 		
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
