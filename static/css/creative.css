@@ -242,6 +242,8 @@ li {
     background-color: #333541;
 }
 
+
+
 .bg-black {
     color: #fff;
     background-color: #000;
@@ -749,7 +751,7 @@ margin-bottom: 10px;
 	display: block;
     position: relative;
     width: 100%;
-	border: 1px solid #fff;
+/*	border: 1px solid #fff; */
 	padding: 20px;
 	margin-top: 10px;
 	border-radius: 3px;
@@ -770,7 +772,7 @@ margin-bottom: 10px;
 }
 
 .offer-box:hover {
-	border: 1px solid #F47913;
+/* border: 1px solid #F47913; */
 	color: #F47913;
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
@@ -873,6 +875,10 @@ margin-bottom: 10px;
 	filter: grayscale(0%);
 }
 
+a.people-box:hover {
+	text-decoration: none;
+}
+
 .people-box .people-box-caption .people-box-caption-content {
 	display: block;
 	position: relative;
@@ -881,13 +887,14 @@ margin-bottom: 10px;
 
 .people-box .people-box-caption .people-box-caption-content .people-name {
 	padding: 0px;
-    text-transform: uppercase;
-    font-size: 18px;
+/*    text-transform: uppercase; */
+	font-weight: 700;
+    font-size: 16px;
 }
 
 .people-box .people-box-caption .people-box-caption-content .people-title {
 	padding: 0px;
-    text-transform: uppercase;
+/*    text-transform: uppercase; */
     font-size: 14px;
     color: #666;
 }
@@ -1453,23 +1460,29 @@ body {
 #blog-homepage .post .read-more {
   text-align: right;
 }
+#blog-listing-medium a:hover {
+	text-decoration: none;
+}
 #blog-listing-medium .post {
   margin-bottom: 1s0px;
 }
 #blog-listing-medium .post h2 {
+	font-size: 2.5em;
 	color: #000;
   margin: 0 0 10px;
 }
 #blog-listing-medium .post h2:hover {
   color: #F47913;
+  text-decoration: none;
 }
 #blog-listing-medium .post .author-category {
   float: left;
   color: #999999;
-  text-transform: uppercase;
+/*  text-transform: uppercase; */
   letter-spacing: 0.08em;
 }
 #blog-listing-medium .post .author-category a {
+  text-decoration: none;
 }
 #blog-listing-medium .post .date-comments {
   float: right;
@@ -1537,6 +1550,10 @@ body {
 #blog-listing-medium .post .read-more {
   text-align: right;
 }
+#blog-listing-medium a.btn.btn-template-main:hover {
+	color: #f47913;
+}
+
 .box-image-text.blog .author-category {
   color: #999999;
   text-transform: uppercase;
@@ -1630,6 +1647,11 @@ body {
   margin-bottom: 20px;
 }	
 
+#blog-post a {
+	text-decoration: none;
+	color: #F47913
+}
+
 #categoryMenu h3 {
   padding: 20px;
   background: #f7f7f7;
@@ -1708,3 +1730,6 @@ label {
   margin-bottom: 20px;
 }
 
+a.offer:hover {
+	color: #F47913;
+}
