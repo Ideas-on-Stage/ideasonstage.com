@@ -5,9 +5,9 @@
 		        <div class="row">
 		            <div class="col-xs-12">
 		               <ul class="owl-carousel testimonials same-height-row">
-		                    {{- range .Site.Data.testimonials }}
-		                    {{- if .showonhome }}
-		                    {{- if eq $.Site.Params.languagecode .language }}
+		                    {{ range .Site.Data.testimonials }}
+		                    {{ if .showonhome }}
+		                    {{ if eq $.Site.Params.languagecode .language }}
 		                    <li class="item">
 		                        <div class="testimonial">
 									<!--<div class="icon">
@@ -25,9 +25,9 @@
 		                            </div>
 		                        </div>
 		                    </li>		                    
-		                    {{- end }}
-		                    {{- end }}
-		                    {{- end }}
+		                    {{ end }}
+		                    {{ end }}
+		                    {{ end }}
 		                </ul>
 		            </div>		
 		        </div>
