@@ -1,11 +1,9 @@
 {{ "<!-- testimonials -->" | safeHTML }}
-<h1>TESTIMONIALS</h1>
 {{ if gt (len .Site.Data.testimonials) 0 }}
 		<section id="testimonials" class="bg-lightgrey">
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-xs-12">
-		            <h2>TESTIMONIALS FOR THE WIN!</h2>
 		               <ul class="owl-carousel testimonials same-height-row">
 		                    {{ range .Site.Data.testimonials }}
 		                    {{ if .showonhome }}
