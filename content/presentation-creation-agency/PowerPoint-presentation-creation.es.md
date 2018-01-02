@@ -49,3 +49,5 @@ pricingpic4			= "/pictures/pcs/pricing/pcs-low-priority.png"
 requesttitle		= "Request a design, 100% free!"
 
 +++
+## Creación de Presentaciones en PowerPoint
+Tanto si es una propuesta, una presentación de ventas, un lanzamiento de producto, la presentación de un informe, una conferencia, un evento off-site o cualquier otro tipo de presentación, tu público se merece una presentación profesional, efectiva e inolvidable.

@@ -49,3 +49,6 @@ pricingpic4			= "/pictures/pcs/pricing/pcs-low-priority.png"
 requesttitle		= "Obtenez deux slides en exemple gratuitement !"
 
 +++
+
+## Changez de point de vue
+Les présentations classiques n'impressionnent plus. Aujourd'hui pour impressionner votre audience il faut une présentation de qualité professionnelle. Que ce soit pour une proposition commerciale, un lancement de produit, une réunion d'analystes, une conférence, un événement ou toute autre situation nécessitant une présentation de qualité, nos services feront briller votre contenu.
