@@ -127,37 +127,72 @@ li {
 	HOLY FLEX STUFF
 */
 .flex-container {
-	position: relative;
+	margin-top: 20px;
 	display: flex;
 	width: 100%;
 	height: 100%;
-	justify-content: center;
+	justify-content: center;	
 }
 
-.flex-container .background {
-	max-width: 100%;
-	flex-direction: row;
-}
+	/*	Full width picture
+		Full width of container, not full bleed
+		Recommended media size: 1200px non retina, 2400px retina
 
-.flex-container .background img {
-	max-width: 100%;
-	z-index: 1000;
-}
+		On xs screens:
+			- background gets cropped left and right progressively,
+			- Size remains fixed VERTICALLY.
+	*/
+	.flex-container .flex-item-picture-full {
+	}
+	
+	.flex-container .flex-item-picture-full img {
+		width: 100%;
+		z-index: 10;
+		align-self: flex-end;
+	}
 
-.flex-container .text {
-	position: absolute;
-	z-index: 2;
-	margin-top: 40px;
-}
+	/*
+		Standard text, full width, laid over picture
+	*/	
+	.flex-container .flex-item-text {
+		z-index: 2;
+	}
 
+	flex-container .flex-item-text h4 {
+		margin-top: 30px;
+	} 
+	
+	/*
+		Text, laid over picture
+	*/
+	.flex-container .flex-item-text-overlay {
+		position: absolute;
+		z-index: 2;
+	}
+	
+	.flex-container .flex-item-text-overlay h4 {
+		margin-top: 30px;	
+	}
+	
+	/*
+		Media queries
+	*/
+	@media(max-width:768px){
+		.flex-container .flex-item-picture-full img {
+			width: 768px;
+		}
+		
+		flex-container .flex-item-text h4 {
+			margin-top: 20px;
+		} 
+	}
+	
 /*
-	HELPER CLASS SECTION
+	HELPER CLASSes SECTION
 */
 
 .relative {
 	display: relative;
-	width: 100%;
-	height: 100%;
 }
 
 .relative .absolute {
@@ -470,7 +505,7 @@ footer a {
 header#home {
 	position: relative;
 	width: 100%;
-	height: 85%;
+	height: calc(100% - 6.5em);
 	text-align: center;
 	color: #fff;
 	background-position: center;
@@ -749,10 +784,7 @@ margin-bottom: 10px;
     }
 
 	h1, h2 {
-		font-size: 2em;
-	}
-	h3, h4 {
-		font-size: 1.5em;
+		font-size: 2.2em;
 	}
 
 	h4.timeline-text {

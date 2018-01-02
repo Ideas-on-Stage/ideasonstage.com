@@ -16,9 +16,9 @@ theme        	= "hugo-creative-theme-master"
 
 	# Taxonomies
 	[taxonomies]
-		category 	= "categories"
+		category 		= "categories"
 		news_category	= "news"
-		tag			= "tags"
+		tag				= "tags"
 
 
 
@@ -31,13 +31,13 @@ theme        	= "hugo-creative-theme-master"
 		headereventan	= "/pictures/corporate-events/event-animation/image.png"
 		
 		# Id for Incognito form in Presentation Creation Service
-		pcsform = "TeiR-77um0q9kFm49EqvwQ"
+		pcsform 		= "TeiR-77um0q9kFm49EqvwQ"
 
 		
 		#News
-		activenews = true
-		viewMorePostLink = "/news/"
-    	author = "IoS"
+		activenews 		= true
+		viewMorePostLink= "/news/"
+    	author			= "IoS"
 		
 		# Navigation
 		[params.navigation]
@@ -81,7 +81,7 @@ theme        	= "hugo-creative-theme-master"
 		# Hero section - Header picture + Tagline + Countries Menu
 		[params.hero]
 				picture	    = "/pictures/home/header.jpg"
-				slogan      = "Just Win"
+				slogan      = "Win"
 				subtitle_on = true
 				subtitle    = "Win the game of business presentations<br />Win more deals and more customers<br />Be the presenter people remember"
 				button_on   = false
@@ -136,28 +136,32 @@ theme        	= "hugo-creative-theme-master"
 				description	= "Great story, great slides."
 				picture		= "home-presentation-creation-agency.jpg"
 				style		= "bg-white"
-				layout		= "insert-big-picture.html"
+				layout		= "insert-link-big-picture.html"
+				url			= "/presentation-creation-service/"
 			[params.offer.002]
 				category	= "Public Speaking Coaching"
 				title		= "Public Speaking Coaching"
 				description	= "Master the stage. Speak with ease and confidence."
 				picture		= "home-public-speaking-coaching.jpg"
 				style		= "bg-dark"
-				layout		= "insert-full-picture.html"
+				layout		= "insert-link-full-picture.html"
+				url			= ""
 			[params.offer.003]
 				category	= "Corporate Events"
 				title		= "Corporate Events"
 				description	= "Break the routine. Surprise your Guests."
 				picture		= "home-corporate-events.jpg"
 				style		= "bg-dark"
-				layout		= "insert-full-picture.html"
+				layout		= "insert-link-full-picture.html"
+				url			= ""
 			[params.offer.004]
 				category	= "Training-Workshops"
 				title		= "Training & Workshops"
 				description	= "Change the culture of presentations in your company."
 				picture		= "home-training.jpg"
 				style		= "bg-white"
-				layout		= "insert-full-picture.html"
+				layout		= "insert-link-full-picture.html"
+				url			= ""
 				
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
@@ -421,28 +425,32 @@ monthtrans = "mois.yaml"
 				description	= "Une histoire passionnante, des slides captivants."
 				picture		= "home-presentation-creation-agency.jpg"
 				style		= "bg-white"
-				layout		= "insert-big-picture.html"
+				layout		= "insert-link-big-picture.html"
+				url			= ""
 			[languages.fr.offer.002]
 				category	= "public-speaking-coaching"
 				title		= "Prise de parole en public"
 				description	= "Prenez la parole avec aisance et confiance."
 				picture		= "home-public-speaking-coaching.jpg"
 				style		= "bg-dark"
-				layout		= "insert-full-picture.html"
+				layout		= "insert-link-full-picture.html"
+				url			= ""
 			[languages.fr.offer.003]
 				category	= "corporate-events"
 				title		= "Événements d'entreprise"
 				description	= "Sortez de la routine. Surprenez votre audience."
 				picture		= "home-corporate-events.jpg"
 				style		= "bg-dark"
-				layout		= "insert-full-picture.html"
+				layout		= "insert-link-full-picture.html"
+				url			= ""
 			[languages.fr.offer.004]
 				category	= "training-workshops"
 				title		= "Formations et ateliers"
 				description	= "Changez la culture des présentations dans votre entreprise."
 				picture		= "home-training.jpg"
 				style		= "bg-white"
-				layout		= "insert-full-picture.html"
+				layout		= "insert-link-full-picture.html"
+				url			= ""
 		
 		
 		# Presentation Training Tabs (top tabs with dates in the Training page)
@@ -672,28 +680,32 @@ monthtrans = "mois.es.yaml"
 				description	= ""
 				picture		= "home-presentation-creation-agency.jpg"
 				style		= "bg-white"
-				layout		= "insert-big-picture.html"
+				layout		= "insert-link-big-picture.html"
+				url			= ""
 			[languages.es.offer.002]
 				category	= "Public Speaking Coaching"
 				title		= "Public Speaking"
 				description	= ""
 				picture		= "home-public-speaking-coaching.jpg"
 				style		= "bg-dark"
-				layout		= "insert-full-picture.html"
+				layout		= "insert-link-full-picture.html"
+				url			= ""
 			[languages.es.offer.003]
 				category	= "Corporate Events"
 				title		= "Eventos Corporativos"
 				description	= ""
 				picture		= "home-corporate-events.jpg"
 				style		= "bg-dark"
-				layout		= "insert-full-picture.html"
+				layout		= "insert-link-full-picture.html"
+				url			= ""
 			[languages.es.offer.004]
 				category	= "Training-Workshops"
 				title		= "Formación"
 				description	= ""
 				picture		= "home-training.jpg"
 				style		= "bg-white"
-				layout		= "insert-full-picture.html"
+				layout		= "insert-link-full-picture.html"
+				url			= ""
 				
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
@@ -919,28 +931,32 @@ monthtrans = "moisit.yaml"
 				description	= ""
 				picture		= "home-presentation-creation-agency.jpg"
 				style		= "bg-white"
-				layout		= "insert-big-picture.html"
+				layout		= "insert-link-big-picture.html"
+				url=		""
 			[languages.it.offer.002]
 				category	= "public-speaking-coaching"
 				title		= "Public Speaking"
 				description	= ""
 				picture		= "home-public-speaking-coaching.jpg"
 				style		= "bg-dark"
-				layout		= "insert-full-picture.html"
+				layout		= "insert-link-full-picture.html"
+				url=		""
 			[languages.it.offer.003]
 				category	= "corporate-events"
 				title		= "Eventi Corporate"
 				description	= ""
 				picture		= "home-corporate-events.jpg"
 				style		= "bg-dark"
-				layout		= "insert-full-picture.html"
+				layout		= "insert-link-full-picture.html"
+				url=		""
 			[languages.it.offer.004]
 				category	= "training-workshops"
 				title		= "Training & Workshop"
 				description	= ""
 				picture		= "home-training.jpg"
 				style		= "bg-white"
-				layout		= "insert-full-picture.html"		
+				layout		= "insert-link-full-picture.html"
+				url=		""		
 		
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
