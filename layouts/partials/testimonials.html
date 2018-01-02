@@ -1,13 +1,13 @@
 {{ "<!-- testimonials -->" | safeHTML }}
-{{- if gt (len .Site.Data.testimonials) 0 }}
+{{ if gt (len .Site.Data.testimonials) 0 }}
 		<section id="testimonials" class="bg-lightgrey">
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-xs-12">
 		               <ul class="owl-carousel testimonials same-height-row">
-		                    {{- range .Site.Data.testimonials }}
-		                    {{- if .showonhome }}
-		                    {{- if eq $.Site.Params.languagecode .language }}
+		                    {{ range .Site.Data.testimonials }}
+		                    {{ if .showonhome }}
+		                    {{ if eq $.Site.Params.languagecode .language }}
 		                    <li class="item">
 		                        <div class="testimonial">
 									<!--<div class="icon">
@@ -25,9 +25,9 @@
 		                            </div>
 		                        </div>
 		                    </li>		                    
-		                    {{- end }}
-		                    {{- end }}
-		                    {{- end }}
+		                    {{ end }}
+		                    {{ end }}
+		                    {{ end }}
 		                </ul>
 		            </div>		
 		        </div>
