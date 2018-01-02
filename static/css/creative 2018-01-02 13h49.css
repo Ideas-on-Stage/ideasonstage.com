@@ -127,8 +127,11 @@ li {
 	HOLY FLEX STUFF
 */
 .flex-container {
-	position: relative;
-	height: 641px;
+	margin-top: 20px;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	max-width: 100%;
 	justify-content: center;
 }
 
@@ -141,22 +144,18 @@ li {
 			- Size remains fixed VERTICALLY.
 	*/
 	.flex-container .flex-item-picture-full {
-		position: absolute;
-		width: 100%;
-		overflow: hidden;
 	}
 	
 	.flex-container .flex-item-picture-full img {
-		width: 1140px;
-		position: relative;
-		left: 50%;
-		transform: translateX(-50%);
+		width: 100%;
+		z-index: 10;
 	}
 
 	/*
 		Standard text, full width, laid over picture
 	*/	
 	.flex-container .flex-item-text {
+		z-index: 2;
 	}
 
 	flex-container .flex-item-text h4 {
@@ -167,8 +166,9 @@ li {
 		Text, laid over picture
 	*/
 	.flex-container .flex-item-text-overlay {
-		position: absolute;
 		width: 100%;
+		position: absolute;
+		z-index: 2;
 	}
 	
 	.flex-container .flex-item-text-overlay h4 {
@@ -178,41 +178,15 @@ li {
 	/*
 		Media queries
 	*/
-@media(max-width:1200px){
-	.flex-container {
-		height: 529px;
+	@media(max-width:768px){
+		.flex-container .flex-item-picture-full img {
+			width: 768px;
+		}
+		
+		flex-container .flex-item-text h4 {
+			margin-top: 20px;
+		} 
 	}
-	
-	.flex-container .flex-item-picture-full img {
-		width: 940px;
-		height: 529px;
-	}
-}
-
-@media(max-width:992px){
-	.flex-container {
-		height: 405px;
-	}
-
-	.flex-container .flex-item-picture-full img {
-		width: 720px;
-		height: 405px;
-	}
-}
-
-@media(max-width:768px){
-	.flex-container {
-		height: 405px;
-	}
-
-	.flex-container .flex-item-picture-full img {
-		width: 720px;
-	}
-	
-	flex-container .flex-item-text h4 {
-		margin-top: 20px;
-	} 
-}
 	
 /*
 	HELPER CLASSes SECTION
