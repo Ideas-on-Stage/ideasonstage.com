@@ -6,6 +6,12 @@
 		<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
 		{{ .Hugo.Generator }}
 		<title>{{ .Site.Title }}</title>
+		{{ "<!-- reflang -->" | safeHTML }}
+		{{- if .IsTranslated }}
+		    {{- range .AllTranslations }}
+        <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+		    {{- end}}
+		{{- end }}
 		{{ "<!-- Favicon -->" | safeHTML }}
 		<link rel="shortcut icon" href="{{ .Site.Params.favicon }}">
 		{{ "<!-- Custom Fonts -->" | safeHTML }}
