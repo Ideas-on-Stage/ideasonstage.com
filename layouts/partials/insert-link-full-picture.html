@@ -2,7 +2,7 @@
 	<a href="{{ with .url }}{{ . | urlize }}{{ end }}">
 		<div class="row">
 			<div class="col-xs-12 no-padding">
-				<div class="flex-container {{ .style }}">
+				<div class="flex-container {{ .style }}" id="offer">
 					<div class="flex-item-picture-full">
 						{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
 					</div>
