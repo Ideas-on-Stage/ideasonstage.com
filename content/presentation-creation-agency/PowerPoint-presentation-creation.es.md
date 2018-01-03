@@ -46,8 +46,8 @@ pricingtitle4	= "<strong>Low Priority</strong><br>Entrega en <strong>20 días la
 pricingdesc4		= "<strong>€100</strong> por slide<br>3 iteraciones."
 pricingpic4			= "/pictures/pcs/pricing/pcs-low-priority.png"
 
-requesttitle		= "Request a design, 100% free!"
+requesttitle		= "Solicita tu diseño, ¡totalmente gratis!"
 
 +++
-## Creación de Presentaciones en PowerPoint
+## Creación de Presentaciones
 Tanto si es una propuesta, una presentación de ventas, un lanzamiento de producto, la presentación de un informe, una conferencia, un evento off-site o cualquier otro tipo de presentación, tu público se merece una presentación profesional, efectiva e inolvidable.
