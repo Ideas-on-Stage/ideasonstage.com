@@ -242,6 +242,17 @@ li {
     background-color: #333541;
 }
 
+.bg-dark-box {
+    color: #fff;
+    background-color: #333541;
+}    
+ .bg-dark-box:hover {
+	color: #F47913;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+}
+
 
 
 .bg-black {
@@ -1728,12 +1739,4 @@ label {
 }
 .form-group {
   margin-bottom: 20px;
-}
-
-#offer .bg-dark:hover {
-	color: #F47913;
-}
-
-.flexcontainer.bg-dark:hover {
-	color: #F47913;
 }

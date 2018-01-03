@@ -6,7 +6,7 @@
 					<div class="flex-item-picture-full">
 						{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
 					</div>
- 					<div class="flex-item-text-overlay text-center">
+ 					<div class="flex-item-text-overlay text-center" id="inlay-text">
 					    {{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
 					    <p>{{ with .description }}{{ .  }}{{ end }}</p>
 					</div>
