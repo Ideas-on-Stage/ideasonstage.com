@@ -880,9 +880,9 @@ monthtrans = "moisit.yaml"
 				
 		# Hero section - Header picture + Tagline + Countries Menu
 		[languages.it.hero]
-				slogan      = "Regala delle Presentazioni Incredibili"
+				slogan      = "Vinci"
 				subtitle_on = true
-				subtitle    = "Ideas on Stage è un gruppo di coach specializzati nelle business presentation, che lavorano in Europa e America. I nostri servizi sono disponibili in Italiano, Inglese, Francese e Spagnolo."
+				subtitle    = "Conquista il tuo pubblico con delle magnifiche business presentation<br>Incrementa i tuoi affari e assicurati nuovi clienti<br>Diventa il presentatore che tutti ricorderanno"
 				button_on   = false
 				buttonText  = "Scopri come possiamo aiutarti"
 				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
@@ -907,9 +907,9 @@ monthtrans = "moisit.yaml"
 	    #About IoS section (bottom of home page)
 	        title			= "A proposito di Ideas on Stage"
 	        subtitle		= "La nostra metodologia"
-	        description1 	= "Ideas on stage è lo specialista leader in business presentation.<br>Il nostro team di esperti offre una combinazione di capacità uniche, aiutandoti a costruire la tua presentazione e a convincere la tua audience.<br>Ideas on Stage opera in Europe and North America. Our services sono disponibili in Inglese, Francese, Italiano, Spagnolo e Tedesco."
+	        description1 	= "<p>Business Presentation eccezionali sono un vantaggio competitivo unico per le aziende. Ma ci siamo resi conto che la maggior parte delle presentazioni non riescono neanche a suscitare il minimo interesse dell’ audience. È per questo che abbiamo creato Ideas on Stage nel 2010, per aiutare i nostri clienti a dare al proprio pubblico le migliori presentazioni al mondo.</p><p>Ci siamo resi conto velocemente che la nostra intuizione era corretta. I professionisti che usano i nostri servizi vedono immediatamente un’ enorme differenza. Si assicurano più clienti. Le loro capacità di leadership aumentano.  Presentano le proprie idee in maniera chiara e convincente.</p><p>Oggi lavoriamo con alcune delle migliori società al mondo. Le aiutiamo a cambiare. Le aiutiamo ad avere un vantaggio competitivo. Tutto grazie all’ enorme potere di business presentation efficaci.</p>"
 	        image1 			= "/pictures/about/ios-map.png"
-	        description2 	= "l pSCORE method (Presentation SCORE) è il nostro nuovo approccio alla presentazione di business, calibrata e testata dopo molti anni di collaborazione con moltissime aziende eterogenee. pSCORE offre un metodo completo per la reazione di presentazioni di altissima qualità, iniziando con una preparazione accurata (individua la tua audience e il contesto, individua gli obiettivi e scegli i messaggi chiave) e applicando quindi le tre arti delle presentazione: <br /><ul><li>Storytelling: definisci una struttura chiare ed efficace e usa le tecniche di storytelling per fare in modo che i tuoi messaggi chiave vengano ricordati.</li><li>Visual Design: Dimentica la Morte da PowerPoint - invece usa slide e altri mezzi visivi per comunicare in maniera finalmente efficace.</li><li>Speaking: presenta in maniera potente e credibile, con sicurezza e senza stress.</li></ul>"
+	        
 	        image2 			= "/pictures/about/ios-pSCORE.png"
 	    
 			[languages.it.about.modal]
@@ -928,7 +928,7 @@ monthtrans = "moisit.yaml"
 			[languages.it.offer.001]
 				category	= "presentation-creation-agency"
 				title		= "Presentation Creation Agency"
-				description	= ""
+				description	= "Grandi storie, grandi slides"
 				picture		= "home-presentation-creation-agency.jpg"
 				style		= "bg-white"
 				layout		= "insert-link-full-picture.html"
@@ -936,7 +936,7 @@ monthtrans = "moisit.yaml"
 			[languages.it.offer.002]
 				category	= "public-speaking-coaching"
 				title		= "Public Speaking"
-				description	= ""
+				description	= "Sii padrone del palco. Parla con facilità e sicurezza"
 				picture		= "home-public-speaking-coaching.jpg"
 				style		= "bg-dark-box"
 				layout		= "insert-link-full-picture.html"
@@ -944,7 +944,7 @@ monthtrans = "moisit.yaml"
 			[languages.it.offer.003]
 				category	= "corporate-events"
 				title		= "Eventi Corporate"
-				description	= ""
+				description	= "Rompi la routine. Sorprendi i tuoi ospiti"
 				picture		= "home-corporate-events.jpg"
 				style		= "bg-dark-box"
 				layout		= "insert-link-full-picture.html"
@@ -952,7 +952,7 @@ monthtrans = "moisit.yaml"
 			[languages.it.offer.004]
 				category	= "training-workshops"
 				title		= "Training & Workshop"
-				description	= ""
+				description	= "Cambia la cultura delle presentazioni nella tua azienda"
 				picture		= "home-training.jpg"
 				style		= "bg-white"
 				layout		= "insert-link-full-picture.html"
