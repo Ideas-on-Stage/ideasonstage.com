@@ -180,23 +180,23 @@ li {
 	*/
 @media(max-width:1199px){
 	.flex-container {
-		height: 546px;
+		height: 562px;
 	}
 	
 	.flex-container .flex-item-picture-full img {
-		width: 970px;
-		height: 546px;
+		width: 1000px;
+		height: 562px;
 	}
 }
 
 @media(max-width:991px){
 	.flex-container {
-		height: 432px;
+		height: 438px;
 	}
 
 	.flex-container .flex-item-picture-full img {
-		width: 768px;
-		height: 432px;
+		width: 780px;
+		height: 438px;
 	}
 }
 
