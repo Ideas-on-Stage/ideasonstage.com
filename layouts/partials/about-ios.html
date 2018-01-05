@@ -1,10 +1,8 @@
 {{ "<!-- ABOUT -->" | safeHTML }}
 <section id="about-ios" class="bg-dark">
     <div class="container">
-        <div class="row">
-        	<div class="col-md-2"> 
-        	</div>       
-            <div class="col-md-8 text-center">
+        <div class="row">       
+            <div class="col-md-10 col-md-offset-1 text-center">
             <h2 class="">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>            
             <p class="">{{ with .Site.Params.about.description1 }}{{ . | markdownify }}{{ end }}</p>            
 			<div class="col-md-2">
