@@ -1,6 +1,6 @@
 +++
 draft 		= false
-title 		= "PowerPoint Presentation Creation"
+title 		= "Presentation Creation Agency"
 description	= "Power your presentation and impress your audience with professionally-designed slides."
 weight		= 1
 categories	= [ "Presentation Creation Agency" ]
