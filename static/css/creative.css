@@ -444,7 +444,9 @@ footer a {
 
 /* Adjust logo positioning */
 .navbar-brand {
-	padding: 2px 15px;
+	width: 240px;
+	height: 52px;
+	padding: 0 20px;
     color: #FF8200;
 }
 
