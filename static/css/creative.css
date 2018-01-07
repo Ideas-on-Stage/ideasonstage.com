@@ -129,6 +129,7 @@ li {
 .flex-container {
 	position: relative;
 	height: 675px;
+	width: 100%;
 	justify-content: center;
 }
 
@@ -210,6 +211,7 @@ li {
 
 	.flex-container .flex-item-picture-full img {
 		width: 768px;
+		height: 432px;
 	}
 	
 	flex-container .flex-item-text h4 {
@@ -425,6 +427,7 @@ footer {
 
 footer a {
 	font-size: 0.75em;
+	color: #FF8200;
 }
 
 .no-padding {
