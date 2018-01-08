@@ -49,5 +49,5 @@ pricingpic4			= "/pictures/pcs/pricing/pcs-low-priority.png"
 requesttitle		= "Richiedi un design, 100% gratuito!"
 
 +++
-## Creazione di Presentazioni in PowerPoint
-Che sia per una proposta, una presentazione di vendita, un lancio prodotto, un analyst briefing, una conferenza, un evento o per qualsiasi altra situazione in cui sia necessaria un presentazione, la tua audience ne merita una che sia professionale, efficace e memorabile.
+## PRESENTATION DESIGN
+Che sia per una proposta, una vendita, un lancio prodotto, una riunione degli analisti, una conferenza, un evento off-site o per qualsiasi altra situazione in cui una presentazione sia necessaria, il tuo pubblico merita una presentazione professionale, efficace e memorabile.
