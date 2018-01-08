@@ -4,7 +4,6 @@ paginate				= 5
 paginatePath			= "newspage"
 canonifyurls			= false
 
-title        	= "Ideas on Stage | Deliver amazing presentations"
 title        	= "Presentation Creation Agency | Public Speaking Coaching and Training | Ideas on Stage"
 name         	= "Ideas on Stage"
 copyright		= "© Ideas on Stage"
@@ -286,8 +285,6 @@ theme        	= "hugo-creative-theme-master"
 # ENGLISH
 ####################################################
 [languages.en]
-baseURL = "https://www.ideasonstage.com/"
-languageName = "English"
 baseURL			= "https://www.ideasonstage.com/"
 languageName	= "English"
 languageCode 	= "en"
