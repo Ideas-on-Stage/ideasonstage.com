@@ -49,7 +49,5 @@ pricingpic4			= "/pictures/pcs/pricing/pcs-low-priority.png"
 requesttitle		= "Request a design, 100% free!"
 
 +++
-## From idea to story to great presentation
+## From idea to great presentation
 Whether it’s for a proposal, a sales presentation, a product launch, an analyst briefing, a conference, an off-site event or for any other presentation situation, your audience deserves a professional, effective and memorable presentation.
-
-We strongly believe that slide prettification alone is not enough. Before great visuals, there must be a great story to tell.
