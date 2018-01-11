@@ -6,7 +6,7 @@ weight		= 1
 categories	= [ "Public Speaking Coaching" ]
 showrefs	= true
 urlredirect	= ""
-url 		= "/public-speaking-coaching/public-speaking-coaching/"
+url 		= "/public-speaking-coaching/"
 +++
 
 ## Diventa un leader sul palco

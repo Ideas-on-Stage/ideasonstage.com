@@ -8,7 +8,7 @@ categories	= [ "Coaching Prise de Parole en Public" ]
 showrefs	= false
 redirect	= false
 redirectlink = ""
-url 		= "/coaching-prise-de-parole-en-public/tedx/"
+url 		= "/coaching-prise-de-parole-en-public/coaching-tedx/"
 
 aboutdescription = ""
 

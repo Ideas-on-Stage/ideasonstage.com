@@ -8,7 +8,7 @@ categories	= [ "Public Speaking Coaching" ]
 showrefs	= false
 redirect	= false
 redirectlink = ""
-url 		= "/tedx/"
+url 		= "/public-speaking-coaching/tedx-coaching/"
 
 aboutdescription = ""
 

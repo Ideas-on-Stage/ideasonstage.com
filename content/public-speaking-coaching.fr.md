@@ -6,7 +6,7 @@ weight		= 1
 categories	= [ "Coaching prise de parole en public" ]
 showrefs	= true
 urlredirect	= ""
-url 		= "/coaching-prise-de-parole-en-public/coaching-prise-de-parole-en-public/"
+url 		= "/coaching-prise-de-parole-en-public/"
 +++
 
 ## Soyez un leader sur scène

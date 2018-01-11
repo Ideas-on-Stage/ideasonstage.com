@@ -1,13 +1,14 @@
 +++
 draft 		= false
-title 		= "Public Speaking Coaching"
-description	= "Whether you are a leader in a major corporation or running your own business, speak like the leader everyone wants to follow."
-weight		= 2
+title 		= "Executive Coaching"
+description	= "Develop your presence on stage. Be a Leader."
+weight		= 1
 categories	= [ "Public Speaking Coaching" ]
-showrefs	= true
+showrefs	= false
 urlredirect	= ""
-url 		= "/public-speaking-coaching/public-speaking-coaching/"
+url 		= "/public-speaking-coaching/executive-coaching/"
 +++
+
 
 ## Lead from the stage
 
