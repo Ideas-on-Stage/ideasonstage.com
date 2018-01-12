@@ -44,6 +44,7 @@ theme        	= "hugo-creative-theme-master"
 			brand 		= "Ideas on Stage"
 			brand_logo	= "/pictures/home/ideas-on-stage.png"
 			language	= "Language"
+			forward		= "View"
 			back		= "Back to Home"
 
 			[params.navigation.items]
@@ -475,7 +476,7 @@ monthtrans = "mois.yaml"
 		# Contact section
 		[languages.fr.contact]
 	        enable = true
-			title = "Contact us"
+			title = "Contactez-nous"
 			subtitle  = "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
 			contactemail = "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
 			contactphone = "+33 1 46 94 68 18" 
