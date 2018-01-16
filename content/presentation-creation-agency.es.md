@@ -7,7 +7,6 @@ categories	= [ "Presentation Creation Agency" ]
 type		= "presentationcreationservice"
 showrefs	= false
 urlredirect	= ""
-url 		= "/presentation-creation-service/"
 gallerytitle    = ""
 gallerysubtitle = ""
 heropicture	    = "/pictures/pcs/header.jpg"

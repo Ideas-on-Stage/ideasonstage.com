@@ -15,7 +15,7 @@ Un cookie est un petit fichier qu'un site web enregistre sur votre ordinateur ou
 
 ### Comment utilisons-nous les cookies ?
 
-Ce site utilise les cookies de CloudFlare, Google Analytics et HotJar.
+Ce site utilise les cookies de Google Analytics et HotJar.
 
 ### Comment contrôler les cookies ?
 

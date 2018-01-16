@@ -14,7 +14,7 @@ Una cookie es un pequeño fichero de texto que los sitios web instalan en el ord
 
 ### ¿Cómo utilizamos las cookies?
 
-Esta web utiliza cookies de CloudFlare, Google Analytics y HotJar.
+Esta web utiliza cookies de Google Analytics y HotJar.
 
 ### Cómo controlar las cookies
 

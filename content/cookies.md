@@ -14,7 +14,7 @@ A cookie is a small text file that a website saves on your computer or mobile de
 
 ### How do we use cookies?
 
-This website uses cookies from CloudFlare, Google Analytics and HotJar.
+This website uses cookies from Google Analytics and HotJar.
 
 ### How to control cookies
 
