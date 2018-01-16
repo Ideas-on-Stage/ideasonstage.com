@@ -17,7 +17,3 @@ Quelques années plus tard, je savoure chaque journée de travail à Ideas on St
 J'ai été interviewé dans le documentaire « Le pouvoir des mots » pour la télévision canadienne, et par plusieurs magazines, y compris Le Monde, Le Parisien et Management.
 
 Vous pouvez [visiter mon blog](https://www.pierremorsa.com/), en français, où j'écris des articles sur les techniques de présentation, être un nomade digital et « Getting Things Done ».
-
-Vous pouvez réserver un entretien par Skype ou par téléphone avec moi directement grâce au formulaire ci-dessous.
-
-<iframe src="https://pierremorsa-calls.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframepierremorsa-calls" style="width:100%;height:1100px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe>

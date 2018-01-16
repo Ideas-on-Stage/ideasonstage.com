@@ -17,8 +17,3 @@ Un bel po’ di anni dopo, eccomi, qui, co-fondatore e Creative Director di Idea
 Sono stato intervistato nel documentario “Le pouvoir des mots” per la televisione Canadese e da diverse riviste, incluso le Monde, Le Parisien e Management. 
 
 Puoi visitare il mio blog(https://www.pierremorsa.com/), in Frances, dove scrivo di tecniche di presentazione, sull’essere un nomade digitale e sull’ Arrivare Allo Scopo.  
-
-Puoi contattarmi su Skype o direttamente con una telefonata con il form sottostante. 
-
-<iframe src="https://pierremorsa-calls.youcanbook.me/?noframe=true&skipHeaderFooter=true" id="ycbmiframepierremorsa-calls" style="width:100%;height:1100px;border:0px;background-color:transparent;" frameborder="0" allowtransparency="true"></iframe>
-

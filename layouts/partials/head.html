@@ -6,6 +6,12 @@
 		<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
 		{{ .Hugo.Generator }}
 		<title>{{ .Site.Title }}</title>
+		{{ "<!-- reflang -->" | safeHTML }}
+		{{- if .IsTranslated }}
+		    {{- range .AllTranslations }}
+        <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+		    {{- end}}
+		{{- end }}
 		{{ "<!-- Favicon -->" | safeHTML }}
 		<link rel="shortcut icon" href="{{ .Site.Params.favicon }}">
 		{{ "<!-- Custom Fonts -->" | safeHTML }}
@@ -19,5 +25,7 @@
 		{{ "<!-- Plugin CSS -->" | safeHTML }}
 		<link rel="stylesheet" href="/css/animate.min.css" type="text/css">
 		{{ "<!-- Custom CSS -->" | safeHTML }}
-		<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css">
-		<link href="/css/owl.theme.css" rel="stylesheet" type="text/css"> <!-- used / as path start instead of .Site.BaseURL -->
+		<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css"> -->
+		<link href="/css/owl.theme.css" rel="stylesheet" type="text/css"> -->
+<!--		<link href="/css/owl.carousel.min.css" rel="stylesheet" type="text/css"> -->
+<!--		<link href="/css/owl.theme.default.min.css" rel="stylesheet" type="text/css"> <!-- used / as path start instead of .Site.BaseURL -->

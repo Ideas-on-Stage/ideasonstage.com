@@ -22,6 +22,10 @@ function sliders () {
   if ($('.owl-carousel').length) {
     $('.references').owlCarousel({
       items: 6,
+      loop: true,
+      autoplay: true,
+      autoplayTimeout: 1000,
+      autoplayHoverPause: true,
       itemsDesktopSmall: [990, 6],
       itemsTablet: [768, 6],
       itemsMobile: [480, 3]

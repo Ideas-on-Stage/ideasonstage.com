@@ -1,11 +1,10 @@
-=======
 baseURL 				= "https://www.ideasonstage.com"
 DefaultContentLanguage	= "en"
 paginate				= 5
 paginatePath			= "newspage"
 canonifyurls			= false
 
-title        	= "Ideas on Stage | Deliver amazing presentations"
+title        	= "Presentation Creation Agency | Public Speaking Coaching and Training | Ideas on Stage"
 name         	= "Ideas on Stage"
 copyright		= "© Ideas on Stage"
 theme        	= "hugo-creative-theme-master"
@@ -17,9 +16,9 @@ theme        	= "hugo-creative-theme-master"
 
 	# Taxonomies
 	[taxonomies]
-		category 	= "categories"
+		category 		= "categories"
 		news_category	= "news"
-		tag			= "tags"
+		tag				= "tags"
 
 
 
@@ -32,19 +31,20 @@ theme        	= "hugo-creative-theme-master"
 		headereventan	= "/pictures/corporate-events/event-animation/image.png"
 		
 		# Id for Incognito form in Presentation Creation Service
-		pcsform = "TeiR-77um0q9kFm49EqvwQ"
+		pcsform 		= "TeiR-77um0q9kFm49EqvwQ"
 
 		
 		#News
-		activenews = true
-		viewMorePostLink = "/news/"
-    	author = "IoS"
+		activenews 		= true
+		viewMorePostLink= "/news/"
+    	author			= "IoS"
 		
 		# Navigation
 		[params.navigation]
 			brand 		= "Ideas on Stage"
 			brand_logo	= "/pictures/home/ideas-on-stage.png"
 			language	= "Language"
+			forward		= "View"
 			back		= "Back to Home"
 
 			[params.navigation.items]
@@ -82,7 +82,7 @@ theme        	= "hugo-creative-theme-master"
 		# Hero section - Header picture + Tagline + Countries Menu
 		[params.hero]
 				picture	    = "/pictures/home/header.jpg"
-				slogan      = "Just Win"
+				slogan      = "Win"
 				subtitle_on = true
 				subtitle    = "Win the game of business presentations<br />Win more deals and more customers<br />Be the presenter people remember"
 				button_on   = false
@@ -115,7 +115,7 @@ theme        	= "hugo-creative-theme-master"
 	    #About IoS section (bottom of home page)
 	        title			= "About Ideas on Stage"
 	        subtitle		= "Our Methodology"
-	        description1 	= "<p>Great business presentations are a unique competitive advantage for companies. But we realized that most presentations failed to even raise the interest of the audience. This is why we created Ideas on Stage in 2010, to help our clients deliver the very best presentations in the world.</p><p>We quickly realized that our intuition was right. People who used our services immediately saw a huge difference. They started winning more deals. Their leadership skills improved. They presented their ideas clearly and convincingly.</p><p>Today we work with many of the world's best companies. We help them change. We help them gain a competitive advantage. All thanks to the power of effective business presentations."
+	        description1 	= "<p>Great business presentations are a unique competitive advantage for companies, yet we realized most presentations fail to keep the audience's attention. This is why we created Ideas on Stage in 2010, to help our clients deliver the very best presentations in the world.</p><p>We quickly realized that our intuition was right: people who used our services immediately saw a huge improvement. They started winning more deals. Their leadership skills improved. They presented their ideas clearly and convincingly.</p><p>Today we work with many of the world’s best companies. We help them change. We help them gain a competitive advantage. All thanks to the power of great business presentations.</p>"
 	        image1 			= "/pictures/about/ios-map.png"
 	        description2 	= "The pSCORE method (Presentation SCORE) is our new approach to business presenting, honed over many years and proven in a wide variety of companies. pSCORE offers a complete method for the creation of top-quality presentations, starting with careful preparation (start with your audience and the context, set objectives and choose the key messages) and then applying the three arts of presenting: <br /><ul><li>Storytelling: define a clear and effective structure, and use storytelling techniques to make your key messages stick.</li><li>Visuals: forget Death By PowerPoint – instead use slides and other visual aids to communicate more effectively.</li><li>Oratory: deliver your presentation powerfully and credibly, with confidence and without stress.</li></ul>"
 	        image2 			= "/pictures/about/ios-pSCORE.png"
@@ -126,26 +126,44 @@ theme        	= "hugo-creative-theme-master"
 				category = "Category"
 				buttonText = "Close"
 	
-
-
 		# Offer section
 		[params.services]
 			title	= "Our Services"
 			
 		[params.offer]	
 			[params.offer.001]
-				category	= "Public Speaking Coaching"
-				title		= "Public Speaking"
-			[params.offer.002]
 				category	= "Presentation Creation Agency"
 				title		= "Presentation Creation Agency"
+				description	= "Great story, great slides."
+				picture		= "home-presentation-creation-agency.jpg"
+				style		= "bg-white"
+				layout		= "insert-link-full-picture.html"
+				link		= "/presentation-creation-agency/"
+			[params.offer.002]
+				category	= "Public Speaking Coaching"
+				title		= "Public Speaking Coaching"
+				description	= "Master the stage. Speak with ease and confidence."
+				picture		= "home-public-speaking-coaching.jpg"
+				style		= "bg-dark-box"
+				layout		= "insert-link-full-picture.html"
+				link		= "/public-speaking-coaching/"
 			[params.offer.003]
 				category	= "Corporate Events"
 				title		= "Corporate Events"
+				description	= "Break the routine. Surprise your Guests."
+				picture		= "home-corporate-events.jpg"
+				style		= "bg-dark-box"
+				layout		= "insert-link-full-picture.html"
+				link		= "/corporate-events/event-design/"
 			[params.offer.004]
 				category	= "Training-Workshops"
 				title		= "Training & Workshops"
-		
+				description	= "Change the culture of presentations in your company."
+				picture		= "home-training.jpg"
+				style		= "bg-white"
+				layout		= "insert-link-full-picture.html"
+				link		= "/training-workshops/business-presentation-revolution/"
+				
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
 		# buttonplace if true show location in button name
@@ -268,15 +286,15 @@ theme        	= "hugo-creative-theme-master"
 # ENGLISH
 ####################################################
 [languages.en]
-baseURL = "https://www.ideasonstage.com/"
-languageName = "English"
+baseURL			= "https://www.ideasonstage.com/"
+languageName	= "English"
 languageCode 	= "en"
-weight = "1"
-title = "Ideas on Stage | Deliver amazing presentations"
+weight			= "1"
+title 			= "Presentation Creation Agency | Public Speaking Coaching and Training | Ideas on Stage"
 description  	= "Deliver Amazing Presentations with the Business Presentations Specialist"
 googleAnalytics = "UA-30695118-1"
 rights			= "All Rights Reserved"
-cookies			= "This website uses cookies from CloudFlare, Google Analytics and HotJar."
+cookies			= "This website uses cookies from Google Analytics and HotJar."
 footer_desc		= "Ideas on Stage is the global specialist in business presentations. We offer our services in North America and Europe, in English, French, Spanish and Italian."
 
 #form id for Incognito form
@@ -294,7 +312,7 @@ baseURL = "https://www.ideasonstage.fr/"
 languageName = "Francais"
 languageCode 	= "fr"
 weight = "2"
-title = "Ideas on Stage | Prise de parole en public − Présentation PowerPoint - Media Training"
+title = "Agence de création de présentations | Coaching et formation prise de parole en public | Ideas on Stage"
 description  	= "Le spécialiste des présentations"
 googleAnalytics = "UA-30695118-2"
 rights			= "Tous droits réservés"
@@ -351,9 +369,9 @@ monthtrans = "mois.yaml"
 		# Hero section - Header picture + Tagline + Countries Menu
 		[languages.fr.hero]
 				picture	    = "/pictures/home/header.jpg"
-				slogan      = "Des présentations incroyables"
+				slogan      = "Gagnez"
 				subtitle_on = true
-				subtitle    = "Ideas on Stage est le spécialiste des présentations. Nos services de coaching de prise de parole en public, media training et création de présentation PowerPoint sont disponibles en anglais, français, espagnol et italien. Nous sommes présents en Amérique du Nord et en Europe."
+				subtitle    = "Gagnez le jeu des présentations en entreprise<br />Gagnez plus de contrats<br />Gagnez plus de clients<br />Laissez votre empreinte"
 				button_on   = false
 				buttonText  = "Découvrez nos services"
 				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
@@ -384,7 +402,7 @@ monthtrans = "mois.yaml"
 	    #About IoS section (bottom of home page)
 	        title			= "À propos d'Ideas on Stage"
 	        subtitle		= "Méthodologie"
-	        description1 	= "Ideas on Stage is a leading specialist in business presentations.<br>Our highly experienced team of experts combines to bring you a unique set of skills, helping you to build your presentations and convince your audiences.<br>Ideas on Stage operates in Europe and North America. Our services are available in English, French, Spanish and Italian."
+	        description1 	= "<p>Chaque jour les entreprises dépensent des millions d'heures pour préparer des présentations. Pourtant la plupart d'entre elles ne suscitent même pas l'intérêt de l'audience. C'est pourquoi nous avons créé Ideas on Stage en 21010, pour aider nos clients à réaliser les meilleures présentations au monde.</p><p>Notre intuition s'est rapidement révélée payante. Nos clients ont immédiatement vu la différence. Ils ont commencé à gagner plus d'appels d'offres. Leurs capacités de leadership se sont améliorées. Ils ont pu présenter leurs idées avec clarté et conviction.</p><p>Aujourd'hui nous travaillons avec de nombreuses sociétés parmi les meilleures au monde. Nous les aidons à changer. Nous leur donnons un avantage compétitif. Tout cela grâce au pouvoir des présentations.</p>"	        
 	        image1 			= "/pictures/about/ios-map.png"
 	        description2 	= "The pSCORE method (Presentation SCORE) is our new approach to business presenting, honed over many years and proven in a wide variety of companies. pSCORE offers a complete method for the creation of top-quality presentations, starting with careful preparation (start with your audience and the context, set objectives and choose the key messages) and then applying the three arts of presenting: <br /><ul><li>Storytelling: define a clear and effective structure, and use storytelling techniques to make your key messages stick.</li><li>Visuals: forget Death By PowerPoint – instead use slides and other visual aids to communicate more effectively.</li><li>Oratory: deliver your presentation powerfully and credibly, with confidence and without stress.</li></ul>"
 	        image2 			= "/pictures/about/ios-pSCORE.png"
@@ -403,18 +421,37 @@ monthtrans = "mois.yaml"
 			
 		[languages.fr.offer]	
 			[languages.fr.offer.001]
-				category	= "public-speaking-coaching"
-				title		= "Prise de parole en public"
-			[languages.fr.offer.002]
 				category	= "presentation-creation-agency"
 				title		= "Agence de création de présentations"
+				description	= "Une histoire passionnante, des slides captivants."
+				picture		= "home-presentation-creation-agency.jpg"
+				style		= "bg-white"
+				layout		= "insert-link-full-picture.html"
+				link		= "/agence-creation-presentations/"
+			[languages.fr.offer.002]
+				category	= "public-speaking-coaching"
+				title		= "Prise de parole en public"
+				description	= "Prenez la parole avec aisance et confiance."
+				picture		= "home-public-speaking-coaching.jpg"
+				style		= "bg-dark-box"
+				layout		= "insert-link-full-picture.html"
+				link		= "/coaching-prise-de-parole-en-public/"
 			[languages.fr.offer.003]
 				category	= "corporate-events"
 				title		= "Événements d'entreprise"
+				description	= "Sortez de la routine. Surprenez votre audience."
+				picture		= "home-corporate-events.jpg"
+				style		= "bg-dark-box"
+				layout		= "insert-link-full-picture.html"
+				link		= "/evenements-entreprise/conception-evenements/"
 			[languages.fr.offer.004]
 				category	= "training-workshops"
 				title		= "Formations et ateliers"
-				
+				description	= "Changez la culture des présentations dans votre entreprise."
+				picture		= "home-training.jpg"
+				style		= "bg-white"
+				layout		= "insert-link-full-picture.html"
+				link		= "/formations-ateliers/art-de-presenter/"
 		
 		
 		# Presentation Training Tabs (top tabs with dates in the Training page)
@@ -439,7 +476,7 @@ monthtrans = "mois.yaml"
 		# Contact section
 		[languages.fr.contact]
 	        enable = true
-			title = "Contact us"
+			title = "Contactez-nous"
 			subtitle  = "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
 			contactemail = "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
 			contactphone = "+33 1 46 94 68 18" 
@@ -533,11 +570,11 @@ baseURL = "https://www.ideasonstage.es/"
 languageName = "Español"
 languageCode 	= "es"
 weight = "3"
-title        	= "Ideas on Stage | Especialistas en Presentaciones"
+title        	= "Agencia de Presentaciones | Entrenamiento y formación para hablar en público | Ideas on Stage"
 description  	= "Especialistas en Presentaciones de Negocios"
 googleAnalytics = "UA-30695118-3"
 rights			= "Todos los derechos reservados"
-cookies			= "Usamos cookies de ClouFlare, Google Analytics y Hotjar para mejorar la experiencia de usuario."
+cookies			= "Usamos cookies de Google Analytics y Hotjar para mejorar la experiencia de usuario."
 footer_desc		= "Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
 favicon			= "pictures/home/ios_favicon.ico"
 		
@@ -587,9 +624,9 @@ monthtrans = "mois.es.yaml"
 			
 		# Hero section - Header picture + Tagline + Countries Menu
 		[languages.es.hero]
-				slogan      = "Haz presentaciones brillantes"
+				slogan      = "Triunfa"
 				subtitle_on = true
-				subtitle    = "Ideas on Stage es el especialista global en presentaciones profesionales. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
+				subtitle    = "Supera el desafío de las presentaciones de negocios<br>Consigue más ventas y más clientes<br>Conviértete en un orador inolvidable"
 				button_on   = false
 				buttonText  = "Descubre cómo podemos ayudarte"
 				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
@@ -618,9 +655,9 @@ monthtrans = "mois.es.yaml"
 			buttonText  = "Nous contacter"
 	   
 	    #About IoS section (bottom of home page)
-	        title			= "À propos d'Ideas on Stage"
+	        title			= "Acerca de Ideas on Stage"
 	        subtitle		= "Méthodologie"
-	        description1 	= "Ideas on Stage is a leading specialist in business presentations.<br>Our highly experienced team of experts combines to bring you a unique set of skills, helping you to build your presentations and convince your audiences.<br>Ideas on Stage operates in Europe and North America. Our services are available in English, French, Spanish and Italian."
+	        description1 	= "<p>Una gran presentación de negocios representa una ventaja competitiva única para una empresa. Para nuestra sorpresa, nos dimos cuenta de que la mayoría de las presentaciones no consigue ni tan siquiera despertar el interés del público. Por este motivo creamos Ideas on Stage en 2010, para ayudar a nuestros clientes a hacer las mejores presentaciones del mundo.</p><p>Rápidamente nos dimos cuenta de que nuestra intuición era correcta. Los clientes que contaron con nuestros servicios vieron una gran diferencia de forma inmediata. Empezaron a conseguir más negocio. Sus habilidades de liderazgo e influencia mejoraron. Presentaban sus ideas de forma clara y convincente.</p><p>A día de hoy trabajamos con muchas de las mejores compañías en el mundo. Les ayudamos a cambiar. Les ayudamos a obtener una ventaja competitiva. Y todo gracias al poder de las presentaciones de negocios eficaces."
 	        image1 			= "/pictures/about/ios-map.png"
 	        description2 	= "The pSCORE method (Presentation SCORE) is our new approach to business presenting, honed over many years and proven in a wide variety of companies. pSCORE offers a complete method for the creation of top-quality presentations, starting with careful preparation (start with your audience and the context, set objectives and choose the key messages) and then applying the three arts of presenting: <br /><ul><li>Storytelling: define a clear and effective structure, and use storytelling techniques to make your key messages stick.</li><li>Visuals: forget Death By PowerPoint – instead use slides and other visual aids to communicate more effectively.</li><li>Oratory: deliver your presentation powerfully and credibly, with confidence and without stress.</li></ul>"
 	        image2 			= "/pictures/about/ios-pSCORE.png"
@@ -639,20 +676,38 @@ monthtrans = "mois.es.yaml"
 			
 		[languages.es.offer]	
 			[languages.es.offer.001]
-				category	= "Public Speaking Coaching"
-				title		= "Public Speaking"
-			[languages.es.offer.002]
 				category	= "Presentation Creation Agency"
 				title		= "Agencia de Presentaciones"
+				description	= "Una gran historia. Las mejores slides"
+				picture		= "home-presentation-creation-agency.jpg"
+				style		= "bg-white"
+				layout		= "insert-link-full-picture.html"
+				link		= "/presentation-creation-agency/"
+			[languages.es.offer.002]
+				category	= "Public Speaking Coaching"
+				title		= "Public Speaking"
+				description	= "Muestra tu mejor versión sobre el escenario."
+				picture		= "home-public-speaking-coaching.jpg"
+				style		= "bg-dark-box"
+				layout		= "insert-link-full-picture.html"
+				link		= "/public-speaking-coaching/"
 			[languages.es.offer.003]
 				category	= "Corporate Events"
 				title		= "Eventos Corporativos"
+				description	= "Rompe con la rutina. Sorprende a tus invitados."
+				picture		= "home-corporate-events.jpg"
+				style		= "bg-dark-box"
+				layout		= "insert-link-full-picture.html"
+				link		= "/eventos-corporativos/diseno-eventos/"
 			[languages.es.offer.004]
 				category	= "Training-Workshops"
 				title		= "Formación"
+				description	= "Cambia la cultura de las presentaciones en tu organización."
+				picture		= "home-training.jpg"
+				style		= "bg-white"
+				layout		= "insert-link-full-picture.html"
+				link		= "/formacion-presentaciones/business-presentation-revolution/"
 				
-		
-		
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
 		# buttonplace if true show location in button name
@@ -826,9 +881,9 @@ monthtrans = "moisit.yaml"
 				
 		# Hero section - Header picture + Tagline + Countries Menu
 		[languages.it.hero]
-				slogan      = "Regala delle Presentazioni Incredibili"
+				slogan      = "Vinci"
 				subtitle_on = true
-				subtitle    = "Ideas on Stage è un gruppo di coach specializzati nelle business presentation, che lavorano in Europa e America. I nostri servizi sono disponibili in Italiano, Inglese, Francese e Spagnolo."
+				subtitle    = "Conquista il tuo pubblico con delle magnifiche business presentation<br>Incrementa i tuoi affari e assicurati nuovi clienti<br>Diventa il presentatore che tutti ricorderanno"
 				button_on   = false
 				buttonText  = "Scopri come possiamo aiutarti"
 				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
@@ -853,9 +908,9 @@ monthtrans = "moisit.yaml"
 	    #About IoS section (bottom of home page)
 	        title			= "A proposito di Ideas on Stage"
 	        subtitle		= "La nostra metodologia"
-	        description1 	= "Ideas on stage è lo specialista leader in business presentation.<br>Il nostro team di esperti offre una combinazione di capacità uniche, aiutandoti a costruire la tua presentazione e a convincere la tua audience.<br>Ideas on Stage opera in Europe and North America. Our services sono disponibili in Inglese, Francese, Italiano, Spagnolo e Tedesco."
+	        description1 	= "<p>Le Business Presentation eccezionali sono un vantaggio competitivo unico per le aziende. Ma ci siamo resi conto che la maggior parte delle presentazioni non riescono neanche a suscitare il minimo interesse nell’ audience. È per questo che abbiamo creato Ideas on Stage nel 2010, per aiutare i nostri clienti a dare al proprio pubblico le migliori presentazioni al mondo.</p><p>Abbiamo capito subito che la nostra intuizione era corretta. I professionisti che usano i nostri servizi vedono immediatamente un’ enorme differenza. Si assicurano più clienti. Le loro capacità di leadership aumentano.  Presentano le proprie idee in maniera chiara e convincente.</p><p>Oggi lavoriamo con alcune delle migliori società al mondo. Le aiutiamo a cambiare. Le aiutiamo ad avere un vantaggio competitivo. Tutto grazie all’ enorme potere legato all'uso di business presentation efficaci.</p>"
 	        image1 			= "/pictures/about/ios-map.png"
-	        description2 	= "l pSCORE method (Presentation SCORE) è il nostro nuovo approccio alla presentazione di business, calibrata e testata dopo molti anni di collaborazione con moltissime aziende eterogenee. pSCORE offre un metodo completo per la reazione di presentazioni di altissima qualità, iniziando con una preparazione accurata (individua la tua audience e il contesto, individua gli obiettivi e scegli i messaggi chiave) e applicando quindi le tre arti delle presentazione: <br /><ul><li>Storytelling: definisci una struttura chiare ed efficace e usa le tecniche di storytelling per fare in modo che i tuoi messaggi chiave vengano ricordati.</li><li>Visual Design: Dimentica la Morte da PowerPoint - invece usa slide e altri mezzi visivi per comunicare in maniera finalmente efficace.</li><li>Speaking: presenta in maniera potente e credibile, con sicurezza e senza stress.</li></ul>"
+	        
 	        image2 			= "/pictures/about/ios-pSCORE.png"
 	    
 			[languages.it.about.modal]
@@ -872,19 +927,37 @@ monthtrans = "moisit.yaml"
 			
 		[languages.it.offer]	
 			[languages.it.offer.001]
-				category	= "public-speaking-coaching"
-				title		= "Public Speaking"
-			[languages.it.offer.002]
 				category	= "presentation-creation-agency"
 				title		= "Presentation Creation Agency"
+				description	= "Grandi storie, grandi slides"
+				picture		= "home-presentation-creation-agency.jpg"
+				style		= "bg-white"
+				layout		= "insert-link-full-picture.html"
+				link		= "/presentation-creation-agency/"
+			[languages.it.offer.002]
+				category	= "public-speaking-coaching"
+				title		= "Public Speaking"
+				description	= "Sii padrone del palco. Parla con facilità e sicurezza"
+				picture		= "home-public-speaking-coaching.jpg"
+				style		= "bg-dark-box"
+				layout		= "insert-link-full-picture.html"
+				link		= "/public-speaking-coaching/"
 			[languages.it.offer.003]
 				category	= "corporate-events"
 				title		= "Eventi Corporate"
+				description	= "Rompi la routine. Sorprendi i tuoi ospiti"
+				picture		= "home-corporate-events.jpg"
+				style		= "bg-dark-box"
+				layout		= "insert-link-full-picture.html"
+				link		= "/corporate-events/event-design/"
 			[languages.it.offer.004]
 				category	= "training-workshops"
-				title		= "Training & Workshop"
-				
-		
+				title		= "Training & Seminari"
+				description	= "Cambia la cultura delle Business Presentation nella tua azienda"
+				picture		= "home-training.jpg"
+				style		= "bg-white"
+				layout		= "insert-link-full-picture.html"
+				link		= "/training-workshops/business-presentation-revolution/"		
 		
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name

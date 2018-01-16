@@ -17,5 +17,3 @@ Varios años después, aquí estoy, como Socio Cofundador y Director Creativo de
 Me han entrevistado para el documental "Le pouvoir des mots" *(El poder de las palabras)* para la televisión canadiense, y también para varias publicaciones, incluyendo *Le Monde, Le Parisien* y *Management*.
 
 Puedes [visitar mi blog](https://www.pierremorsa.com/), en francés, donde escribo sobre técnicas de presentaciones, nomadismo digital y GTD.
-
-
