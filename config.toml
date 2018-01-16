@@ -624,7 +624,7 @@ monthtrans = "mois.es.yaml"
 			
 		# Hero section - Header picture + Tagline + Countries Menu
 		[languages.es.hero]
-				slogan      = "Haz presentaciones brillantes"
+				slogan      = "Triunfa"
 				subtitle_on = true
 				subtitle    = "Supera el desafío de las presentaciones de negocios<br>Consigue más ventas y más clientes<br>Conviértete en un orador inolvidable"
 				button_on   = false

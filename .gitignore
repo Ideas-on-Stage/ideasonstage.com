@@ -2,3 +2,6 @@
 *.espressostorage
 data/testimonials/09 -François-Marchessaux.yaml
 data/testimonials/09 -François-Marchessaux.it (Conflicto de codificación Unicode).yaml
+static/pictures/testimonials/.DS_Store
+static/.DS_Store
+.DS_Store
