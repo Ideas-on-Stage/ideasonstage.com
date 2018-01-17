@@ -652,13 +652,18 @@ header .header-content a:hover {
 }
 
 /*Customization for small screens*/
-@media(max-width:767px) {
-
+@media (max-width: 576px){
+	header#home h1 {
+	font-size: 3.7em;
+	}
+	header .header-content .header-content-inner h1 {
+    	font-size: 1.9em;
+	}
+}
+@media(min-width:577px) {
 	header .header-content .header-content-inner h1 {
     	font-size: 2em;
 	}
-}
-
 }
 /* end customization of header for small screens */
 
@@ -841,7 +846,13 @@ margin-bottom: 10px;
 	p.timeline-text {
 		font-size: 0.825em;
 	}
-
+@media (max-width: 576px){
+	h1 {
+	font-size: 2.1em;
+	}
+	h2 {
+	font-size: 2em;
+	}
 }
 /*PMO people-box is used for team members and other people profiles*/
 
