@@ -50,4 +50,6 @@ Nous ne sommes pas juste une autre société qui « fait du TED » ; nous part
 
 Nous offrons d'ailleurs un programme de sponsoring des événements TEDx - en échange d'une visibilité sur le site de l'événement vous pouvez bénéficier d'une aide gratuite pour votre événement TEDx - à condition que celui-ci remplisse les conditions d'éligibilité.
 
+Nous sommes actifs dans toute la France, [découvrez par exemple ce que nous faisons pour TEDx Lille.](/coaching-prise-de-parole-en-public/coaching-tedx-lille/) 
+
 Nous avons listé ci-dessous les trois niveaux de support que nous proposons, de l'offre de sponsoring gratuite au package complet.
