@@ -177,6 +177,12 @@ li {
 	.flex-container .flex-item-text-overlay h4 {
 		margin-top: 30px;
 		padding: 0px 20px;
+		font-size: 1.8em;
+	}
+	
+	.flex-container .flex-item-text-overlay p {
+		line-height: 1.1em;
+		font-size: 1.1em;
 	}
 	
 	/*

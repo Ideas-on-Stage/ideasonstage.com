@@ -156,13 +156,13 @@ theme        	= "hugo-creative-theme-master"
 				layout		= "insert-link-full-picture.html"
 				link		= "/corporate-events/event-design/"
 			[params.offer.004]
-				category	= "Training-Workshops"
+				category	= "Training Workshops"
 				title		= "Training & Workshops"
 				description	= "Change the culture of presentations in your company."
 				picture		= "home-training.jpg"
 				style		= "bg-white"
 				layout		= "insert-link-full-picture.html"
-				link		= "/training-workshops/business-presentation-revolution/"
+				link		= "/training-workshops/"
 				
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
@@ -445,7 +445,7 @@ monthtrans = "mois.yaml"
 				layout		= "insert-link-full-picture.html"
 				link		= "/evenements-entreprise/conception-evenements/"
 			[languages.fr.offer.004]
-				category	= "training-workshops"
+				category	= "Training Workshops"
 				title		= "Formations et ateliers"
 				description	= "Changez la culture des présentations dans votre entreprise."
 				picture		= "home-training.jpg"
@@ -700,7 +700,7 @@ monthtrans = "mois.es.yaml"
 				layout		= "insert-link-full-picture.html"
 				link		= "/eventos-corporativos/diseno-eventos/"
 			[languages.es.offer.004]
-				category	= "Training-Workshops"
+				category	= "training-workshops"
 				title		= "Formación"
 				description	= "Cambia la cultura de las presentaciones en tu organización."
 				picture		= "home-training.jpg"
