@@ -17,7 +17,6 @@ theme        	= "hugo-creative-theme-master"
 	# Taxonomies
 	[taxonomies]
 		category 		= "categories"
-		news_category	= "news"
 		tag				= "tags"
 
 
@@ -162,7 +161,7 @@ theme        	= "hugo-creative-theme-master"
 				picture		= "home-training.jpg"
 				style		= "bg-white"
 				layout		= "insert-link-full-picture.html"
-				link		= "/training-workshops/"
+				link		= "/training-and-workshops/"
 				
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
