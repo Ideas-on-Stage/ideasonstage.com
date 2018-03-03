@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: optimization # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -12,7 +12,7 @@ collections:
     label: "French Article" # Used in the UI
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    extension: "fr"
+    extension: "fr.md"
     format: "frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -28,7 +28,7 @@ collections:
     label: "English Article" # Used in the UI
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    extension: "md"
+    extension: "en.md"
     format: "frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
