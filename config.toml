@@ -17,7 +17,6 @@ theme        	= "hugo-creative-theme-master"
 	# Taxonomies
 	[taxonomies]
 		category 		= "categories"
-		news_category	= "news"
 		tag				= "tags"
 
 
