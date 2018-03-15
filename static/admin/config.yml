@@ -40,7 +40,7 @@ collections:
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Thumb", name: "thumb", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
- - name: "news_spanish" # Used in routes, e.g., /admin/collections/blog
+  - name: "news_spanish" # Used in routes, e.g., /admin/collections/blog
     label: "Spanish Article" # Used in the UI
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -56,7 +56,7 @@ collections:
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Thumb", name: "thumb", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"} 
-- name: "news_italian" # Used in routes, e.g., /admin/collections/blog
+  - name: "news_italian" # Used in routes, e.g., /admin/collections/blog
     label: "Italian Article" # Used in the UI
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
