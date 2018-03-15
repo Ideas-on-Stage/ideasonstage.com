@@ -5,7 +5,7 @@ tags = ["noticia", "test"]
 news = ["general"]
 date = "2018-03-15"
 author = "Ricardo Bonis"
-thumb = "/img/news/be_a_boss_thumb.jpg"
+banner = "/img/news/be_a_boss_thumb.jpg"
 +++
 Qué bonito era mi valle
 

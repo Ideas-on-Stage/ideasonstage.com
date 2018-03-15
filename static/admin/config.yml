@@ -22,7 +22,7 @@ collections:
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
       - {label: "Date", name: "date", widget: "date", default: "", format: "YYYY-MM-DD"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Thumb", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "news_english" # Used in routes, e.g., /admin/collections/blog
     label: "English Article" # Used in the UI
@@ -38,7 +38,7 @@ collections:
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
       - {label: "Date", name: "date", widget: "date", default: "", format: "YYYY-MM-DD"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Thumb", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "news_spanish" # Used in routes, e.g., /admin/collections/blog
     label: "Spanish Article" # Used in the UI
@@ -54,7 +54,7 @@ collections:
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
       - {label: "Date", name: "date", widget: "date", default: "", format: "YYYY-MM-DD"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Thumb", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"} 
   - name: "news_italian" # Used in routes, e.g., /admin/collections/blog
     label: "Italian Article" # Used in the UI
@@ -70,6 +70,6 @@ collections:
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
       - {label: "Date", name: "date", widget: "date", default: "", format: "YYYY-MM-DD"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Thumb", name: "thumb", widget: "image"}
+      - {label: "Thumb", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"} 
       
