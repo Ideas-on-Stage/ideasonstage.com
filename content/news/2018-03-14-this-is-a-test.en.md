@@ -5,4 +5,4 @@ news = ["general"]
 date = "2018-03-15"
 author = "Kevin Pritchard"
 banner = "/img/news/s11_internally_2.jpg"
-body = "Cheetahs run fast like hell.\n\nI didn't know hell was running fast."
+body = "Cheetahs run fast like hell.\n\nI didn't know hell was running fast.\n\nYet it's true, I've seen hell running like crazy beyond the Gates of Tanhauser."
