@@ -855,10 +855,14 @@ monthtrans = "moisit.yaml"
 				url				= "/#services"
 				frontpageurl 	= "#services"
 			[languages.it.navigation.items.002]
+				name			= "Notizie"
+				url				= "/news/"
+				frontpageurl 	= "/news/"
+			[languages.it.navigation.items.003]
 				name			= "Contatti"
 				url				= "#contact"
 				frontpageurl 	= "#contact"
-			[languages.it.navigation.items.003]
+			[languages.it.navigation.items.004]
 				name			= "Il Team"
 				url				= "/team/"
 				frontpageurl 	= "/team/"
