@@ -836,7 +836,7 @@ favicon			= "pictures/home/ios_favicon.ico"
 pcsformid = "3"
 
 #News
-activenews = false
+activenews = true
 monthtrans = "moisit.yaml"
 
 
