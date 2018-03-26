@@ -53,7 +53,7 @@ theme        	= "hugo-creative-theme-master"
 					url			 	= "/#services"
 					frontpageurl 	= "#services"
 				[params.navigation.items.002]
-					name			= "News"
+					name			= "Stories"
 					url				= "/news/"
 					frontpageurl	= "/news/"
 				[params.navigation.items.003]
@@ -266,8 +266,8 @@ theme        	= "hugo-creative-theme-master"
 [params.news]
 	more = "Continue reading"
 	by	 = "by"
-	back = "Back to News"
-	title = "News"
+	back = "Back to Stories"
+	title = "Stories"
 	next  = "Older"
 	prev  = "Newer"
     
@@ -341,7 +341,7 @@ monthtrans = "mois.yaml"
 				url				= "/#services"
 				frontpageurl 	= "#services"
 			[languages.fr.navigation.items.002]
-				name			= "Nouvelles"
+				name			= "Conseils"
 				url				= "/news/"
 				frontpageurl 	= "/news/"
 			[languages.fr.navigation.items.003]
@@ -548,8 +548,8 @@ monthtrans = "mois.yaml"
 [languages.fr.news]
 	more = "continuer à lire"
 	by	 = "par"
-	back = "Retour à Nouvelles"
-	title = "Nouvelles"
+	back = "Retour à Conseils"
+	title = "Conseils"
 	next  = "Page Suivante"
 	prev  = "Page Précédente"
 
