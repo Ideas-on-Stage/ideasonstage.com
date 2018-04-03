@@ -10,13 +10,13 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-6 text-center">
-				<h3>{{ with .Params.agendaday1title }}{{ . | markdownify }}{{ end }}</h3>
+				<h4>{{ with .Params.agendaday1title }}{{ . | markdownify }}{{ end }}</h4>
 				<p>{{ with .Params.agendaday1description }}{{ . | markdownify }}{{ end }}</p>
 			</div>
-<div class="col-sm-6 text-center">
-	<h3>{{ with .Params.agendaday2title }}{{ . | markdownify }}{{ end }}</h3>
-	<p>{{ with .Params.agendaday2description }}{{ . | markdownify }}{{ end }}</p>
-</div>
+			<div class="col-sm-6 text-center">
+				<h4>{{ with .Params.agendaday2title }}{{ . | markdownify }}{{ end }}</h4>
+				<p>{{ with .Params.agendaday2description }}{{ . | markdownify }}{{ end }}</p>
+			</div>
 		</div>
     </div>
 </section>
