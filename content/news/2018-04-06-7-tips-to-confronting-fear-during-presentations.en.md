@@ -1,6 +1,6 @@
 +++
 draft = "false"
-title = "7 tips to confronting fear during presentations"
+title = "7 fear-fighting tips for presenters"
 tags = ["coaching", "public speaking", "fear", "stage fright"]
 news = ["general"]
 date = "2017-08-28"
