@@ -10,5 +10,6 @@ url 		= "/training-and-workshops/"
 +++
 ## Change the culture of presentations in your company
 
-At Ideas on Stage, we debunk the idea that public speaking is reserved for the “talented” or gifted speaker. No, we believe everyone can learn to be a speaker, even a great one. And equally, even already great speakers have room to improve. Why’s that? Because we’ve seen progress again and again across a vast array of clients at all levels of business and experience. 
-### So, what sets our approach apart?
+At Ideas on Stage, we believe that everybody has the potential to become a successful presenter – and that even talented speakers have the potential to improve. Why’s that? Because we’ve helped thousands of presenters to become more comfortable, confident and convincing, across a wide range of clients at all levels of business and experience.
+
+<h3 style="color: #666"> Outstanding courses to help you stand out</h3>
