@@ -9,6 +9,8 @@ banner = "/img/news/PierrePitchSSBL_thumb.jpg"
 +++
 ![null](/img/news/PierrePitchSSBL.jpg)
 
+There's a typo!!!
+
 “There is nothing to fear but fear itself” goes the quote from Franklin Roosevelt during his first inaugural address in 1932 at the depths of the great depression. His objective was to persuade the listeners that the dangers they faced were only material, that the terror of losing what they had was the true enemy, robbing them of the impetus of moving forward and rebuilding. He later on evokes that courage and the core values of the American people would prevail this crisis. 
 
 As we shift from powerful rhetoric to giving presentations, as a whole this mighty line from FDR can be taken for its just virtue. “There is nothing to fear but fear itself”
