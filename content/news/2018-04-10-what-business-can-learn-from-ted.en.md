@@ -18,7 +18,7 @@ Business presentations are not TED talks. A board meeting is not a stage with a 
 What makes TED talks different from most business presentations? Let's focus on three key factors.
 
 
-## 1. Short talks are better
+#### 1. Short talks are better
 
 
 One of the key rules at TED is that no presentation can last more than 18 minutes, no matter who is speaking. Businesses should take note. We always used to ask ourselves the question: "Is my presentation long enough to tell them everything I want to say?" 
@@ -30,7 +30,7 @@ In fact a better question would be: "Is my presentation short enough to keep the
 Attention spans are short, and in an oral presentation people forget most of what they hear within 30 seconds, so the more you say, the less they remember of it. Better to say little, but to say it effectively. Remember the words of Baltasar Gracián: "Good things, when short, are twice as good."
 
 
-## 2. Slides are visual aids, not cheat-sheets or handouts
+#### 2. Slides are visual aids, not cheat-sheets or handouts
 
 
 Many TED talks do not use any slides. They are not always necessary, and many business presentations do not need them either. Frankly, any business presentation would be more effective with no slides than with bad, text-heavy slides that actually stop the audience from listening to the speaker. People simply cannot read and listen at the same time, so the more text you put on your slide, the less you are communicating.
@@ -41,8 +41,7 @@ TED speakers do not use slides as their cheat-sheets: slides, where they are use
 
 Use slides only where needed, and make sure they follow the 5-second rule: every time you click, the audience should be able to 'get' the new content in under 5 seconds. Otherwise they will stop listening to you, and the communication will be broken.
 
-
-## 3. Preparation is the key to success
+#### 3. Preparation is the key to success
 
 
 ![](/img/news/38190882345_9319f0e2e1_o.jpg)
@@ -59,7 +58,7 @@ So if you have limited time, skip the slides but take an hour to rehearse. It wi
 
 
 
-## Summary
+#### Summary
 
 
 
