@@ -5,7 +5,7 @@ tags = ["TED", "TEDx", "conférence", "orateur", "art oratoire", "conseils", "sp
 news = ["general"]
 date = "2018-04-10"
 author = "Phil Waknell"
-banner = "/img/news/7tips.jpg"
+banner = "/img/news/ted-thumb.jpg"
 +++
 Aujourd'hui marque l'ouverture de TED2018, la dernière édition en date de la conférence moderne mondialement connue. Les auditeurs de cette conférence qui se déroule à Vancouver vont pouvoir profiter de discours de grande qualité, présentés par des orateurs très bien préparés et en sortiront inspirés et avec un regain d'énergie.
 
