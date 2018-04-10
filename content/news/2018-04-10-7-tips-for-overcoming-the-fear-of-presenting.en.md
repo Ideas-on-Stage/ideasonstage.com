@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "7 Tips for Overcoming the Fear of Presenting"
 tags = ["stage fright", "presenting", "fear"]
 news = ["general"]

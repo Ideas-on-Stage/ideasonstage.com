@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Ce que les entreprises peuvent apprendre des conférences TED"
 tags = ["TED", "TEDx", "conférence", "orateur", "art oratoire", "conseils", "speaker", "TEDification", "présentation", "powerpoint", "slides"]
 news = ["general"]

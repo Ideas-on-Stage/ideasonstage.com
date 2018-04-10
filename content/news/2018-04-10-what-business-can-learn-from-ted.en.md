@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "What Business Can Learn From TED"
 tags = ["TED", "TEDx", "business presentation", "tips"]
 news = ["general"]
