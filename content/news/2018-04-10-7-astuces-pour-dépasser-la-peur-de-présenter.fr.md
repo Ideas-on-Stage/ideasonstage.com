@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "7 astuces pour dépasser la peur de présenter"
 tags = ["stress", "peur", "présentation", "trac"]
 news = ["general"]
