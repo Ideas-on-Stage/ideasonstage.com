@@ -15,7 +15,7 @@ Les présentations business ne sont pas des présentations TED. Une réunion de 
 
 Qu'est-ce qui rend les conférences TED différentes de la plupart des présentations business ? Concentrons-nous sur quelques facteurs clefs.
 
-1. **Les discours les plus courts sont souvent les meilleurs**
+## 1. Les discours les plus courts sont souvent les meilleurs**
 
 Une des règles pour les conférences TED c'est que les présentations ne peuvent pas excéder 18min. Et cela peut importe qui parle. Les entreprises devraient s'en inspirer. Nous nous demandons toujours : " Ma présentation est-elle assez longue pour que je puisse leur dire tout ce que je veux " ?
 
@@ -23,7 +23,7 @@ De fait, il faudrait plutôt se demander : " Ma présentation est-elle assez cou
 
 Le temps d'attention des gens est en réalité très court. La plupart des gens oublient ce qu'ils entendent dans les 30 secondes donc plus vous en dites, moins ils retiennent. Il est donc conseillé d'en dire peu mais de façon très efficace. Rappelez-vous les mots de Baltasar Gracián: "Les bonnes choses, quand elles sont petites, sont deux fois meilleures."
 
-2. **Les slides sont des aides visuelles, pas des anti-sèches ou des polys à distribuer**
+## 2. Les slides sont des aides visuelles, pas des anti-sèches ou des polys à distribuer**
 
 La plupart des présentations TED n'utilisent pas de slides. Elles ne sont pas toujours nécessaires, et beaucoup de présentations business seraient bien plus efficaces sans slides plutôt qu'avec des slides pleines de texte ou de bullet-points qui empêchent l'audience d'écouter. C'est simple, il est virtuellement impossible de lire et d'écouter en même temps. Donc plus vous mettez de texte sur vos slides, moins vous communiquez avec votre auditoire.
 
@@ -31,7 +31,7 @@ Les conférenciers TED n'utilisent pas les slides comme des anti-sèches. Les sl
 
 Utilisez des slides seulement quand c'est nécessaire et faites en sorte de toujours suivre la règles des 5 secondes. A chaque fois que vous cliquez, votre auditoire doit pouvoir comprendre ce qui est à l'écran en moins de 5 secondes (cela vaut aussi bien pour les animations que pour le changement de slides). Sinon ils arrêtent de vous écouter et la communication est rompue.
 
-3. **La clef du succès est dans la préparation.**
+## 3. La clef du succès est dans la préparation.**
 
 ![null](/img/news/38190882345_9319f0e2e1_o.jpg)
 
@@ -43,7 +43,7 @@ Si votre temps est limité, ne le perdez pas à produire des slides. Les slides 
 
 Donc si vous avez peu de temps, faites l'impasse sur les slides mais prenez une heure pour répéter. Ce sera du temps bien utilisé et votre présentation sera bien plus impactante.
 
-**Résumé**
+## Résumé
 
 Les entreprises peuvent apprendre beacuoup des succès des conférences TED à commencer par ces 3 points :
 

@@ -35,41 +35,41 @@ Les sept étapes qui vont suivre ne seront pas un remède miracle pour ceux qui 
 
 
 
-**1.	Soyez le maître et non l'esclave de votre présentation **
+## 1. Soyez le maître et non l'esclave de votre présentation
 
 Il y a souvent des parties ou des sujets de leur présentation que les orateurs maîtrisent moins bien. Ces écarts de connaissance peuvent être source de stress et devoir expliquer quelque chose que vous ne maîtrisez pas complètement ne vous apportera pas les grâces de votre auditoire qui tentera tant bien que mal de comprendre. Ne présentez que ce qui vous maîtrisez et maitrisez ce que vous présentez.
 
 
 
-**2.	Répétez à voix haute en amont, avec vos slides et un chronomètre.**
+## 2.	Répétez à voix haute en amont, avec vos slides et un chronomètre.
 
 Répéter à voix haute est la meilleure chose qu'un orateur puisse faire mais aussi celle qu'il fait le plus rarement. Nous pouvons passer des heures à peaufiner les messages et à retravailler les slides mais nous ne nous accordons jamais assez de temps pour répéter. Utilisez un chronomètre pour savoir précisément combien de temps prend votre présentation. Arrangez-vous pour que votre présentation ne prenne que 90% du temps alloué afin de ne pas avoir peur de dépasser le temps imparti le jour J.
 
-**3.	Créez un lien avec votre auditoire**
+## 3.	Créez un lien avec votre auditoire
 
 Si vous pouvez rencontrer certains membres de votre auditoire avec votre présentation, cela vous sera très utile. Il ne faut pas être comme un acteur attendant en coulisses le lever de rideau. Cela rend votre présentation plus difficile. Alors que le fait de connaître quelques personnes dans la salle, et savoir qu'elles ne sont pas des dragons prêts à tout pour causer votre perte, réduira grandement vos peurs et votre stress.
 
 
 
-**4.	Vérifiez que tout fonctionne**
+## 4.	Vérifiez que tout fonctionne
 
 Les problèmes techniques peuvent faire dérailler une présentation. Même si tout rentre dans l'ordre, la peur des problèmes techniques peut être très déstabilisante pour les orateurs. Beaucoup de présentations ont échoué à cause de problèmes de dernières minutes à propos des slides, de compatibilité (hardware ou logicielle), de typographie non prises en charge, de problème de résolution d'image, de connectique ou d'adaptateur … La solution ? Rendez-vous sur les lieux de votre présentation à l'avance (la veille ou le jour J), et prenez le temps de vérifier que toutes vos slides et vidéos passent bien en conditions réelles - sur l'ordinateur et l'écran de présentation - et vous vous épargnerez beaucoup de stress et d'inquiétude. Arrangez-vous aussi pour trouver le technicien de la salle, il sera votre meilleur allié. J'ai déjà eu un technicien qui m'a sauvé un jour d'un ordinateur planté qui s'est verrouillé pendant une présentation devant une dizaine de responsables de la mode en Chine.
 
 
 
-**5.	Faites-vous confiance**
+## 5.	Faites-vous confiance
 
 Ne répétez pas votre présentation 101 fois. Faites confiance à votre subconscient et laissez-vous une petite marge d'improvisation. Vous y prendrez plus de plaisir.
 
 
 
-**6.	Evitez le café.**
+## 6.	Evitez le café.
 
 Cela peut paraître évident mais la plupart des orateurs ne réalisent pas à quel point c'est important. Ne buvez pas de café avant vos présentations, surtout si vous êtes sensibles à la caféine. En effet, la caféine ne va pas seulement augmenter votre niveau de stress, elle assèche aussi votre bouche et vos cordes vocales ce qui a un effet négatif sur votre voix qui est moins puissante et plus cassée. 
 
 
 
-**7.	N'ayez pas peur d'avoir peur.**
+## 7.	N'ayez pas peur d'avoir peur.
 
 Me revoilà à ma citation de départ. Il faut accepter que tout le monde ait une appréhension ou de la part au moment de monter sur scène, même les grands orateurs. Le stress n'est qu'une façon pour votre corps de vous préparer à présenter de votre mieux.
 
