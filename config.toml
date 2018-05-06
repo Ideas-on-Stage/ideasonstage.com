@@ -58,7 +58,7 @@ theme        	= "hugo-creative-theme-master"
 					url			 	= "/#services"
 					frontpageurl 	= "#services"
 				[params.navigation.items.002]
-					name			= "News"
+					name			= "Stories"
 					url				= "/news/"
 					frontpageurl	= "/news/"
 				[params.navigation.items.003]
