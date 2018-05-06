@@ -177,6 +177,12 @@ li {
 	.flex-container .flex-item-text-overlay h4 {
 		margin-top: 30px;
 		padding: 0px 20px;
+		font-size: 1.8em;
+	}
+	
+	.flex-container .flex-item-text-overlay p {
+		line-height: 1.1em;
+		font-size: 1.1em;
 	}
 	
 	/*
@@ -555,6 +561,7 @@ footer a {
 /*
 	HEADERs SECTION
 */
+
 header#home {
 	position: relative;
 	width: 100%;
@@ -567,6 +574,21 @@ header#home {
 	background-size: cover;
 	-o-background-size: cover;
 	background-color: #f27819;	
+}
+
+header#pz {
+	position: relative;
+	width: 100%;
+	height:360px;
+	text-align: center;
+	color: #fff;
+	background-image: url(../pictures/pz/home/header.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-color: #aaa;	
 }
 
 header#home h1 {

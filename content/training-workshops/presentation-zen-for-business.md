@@ -1,5 +1,5 @@
 +++
-draft		= true
+draft		= false
 type		= "pzen"
 title		= "Presentation Zen for Business"
 description = "The official Presentation Zen for Business workshop, exclusively delivered by Ideas on Stage."
@@ -19,7 +19,7 @@ agendadescription = ""
 agendaday1title = "Day 1"
 agendaday1description = "<p>On the first day, discover the Presentation Zen approach with many practical exercises related to business presentations so you can learn the keys to apply Presentation Zen in your daily work.</p><p>During this first day, participants will create a presentation using the Presentation Zen approach and some powerful new techniques developed by Ideas on Stage.</p><p>We will focus on how to use the Presentation Zen approach in your business presentations with case studies and many practical exercises.</p>"
 agendaday2title = "Day 2 (optional)"
-agendaday2description = "<p>On the second day, participants will finalize, illustrate and deliver the presentation they prepared the day before and will receive expert advice from our coaches on how to improve their delivery and make a stronger impression on their audiences.</p>"
+agendaday2description = "<p><p>On the second day, participants will finalize, illustrate and deliver the presentation they prepared the day before and will receive expert advice from our coaches on how to improve their delivery and make a stronger impression on their audiences.</p>"
 asidetitle    = "Garr Reynolds"
 asidequote = "Ideas on Stage is the first company that I entrust to train the Presentation Zen approach. Lead trainer Phil Waknell not only embodies the Presentation Zen spirit, he and Ideas on Stage deliver it. This is an opportunity not to be missed!"
 asideattribution	= "− Garr Reynolds, author of Presentation Zen"

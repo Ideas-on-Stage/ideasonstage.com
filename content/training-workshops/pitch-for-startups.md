@@ -1,6 +1,6 @@
 +++
 draft		= false
-title		= "Startup Pitch"
+title		= "Startups on Stage"
 description = "Learn to deliver a killer pitch from experienced coaches who've worked with hundreds of start-ups."
 weight		= 4
 categories	= [ "Training & Workshops" ]
