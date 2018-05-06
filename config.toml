@@ -39,7 +39,7 @@ theme        	= "hugo-creative-theme-master"
     	author			= "IoS"
 		
 		# Enable / Disable algolia search
-  		algolia_search    = true
+  		algolia_search    = false
   		algolia_appId     = "GMTISKBCI2"
  		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
   		algolia_indexName = "IoS_en"
@@ -336,7 +336,7 @@ activenews = true
 monthtrans = "mois.yaml"
 
 # Enable / Disable algolia search
-  		algolia_search    = true
+  		algolia_search    = false
   		algolia_appId     = "GMTISKBCI2"
  		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
   		algolia_indexName = "IoS_fr"
@@ -601,7 +601,7 @@ activenews = false
 monthtrans = "mois.es.yaml"
 
 # Enable / Disable algolia search
-  		algolia_search    = true
+  		algolia_search    = false
   		algolia_appId     = "GMTISKBCI2"
  		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
   		algolia_indexName = "IoS_es"
@@ -861,7 +861,7 @@ activenews = false
 monthtrans = "moisit.yaml"
 
 # Enable / Disable algolia search
-  		algolia_search    = true
+  		algolia_search    = false
   		algolia_appId     = "GMTISKBCI2"
  		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
   		algolia_indexName = "IoS_it"
