@@ -1,18 +1,13 @@
 +++
 draft 		= false
-title 		= "Training & Workshops"
+title 		= "Formación"
 description	= "."
 weight		= 4
 categories	= [ "Training & Workshops" ]
 showrefs	= false
 urlredirect	= ""
-url 		= "/training-and-workshops/"
+url 		= "/formacion-presentaciones/"
 +++
-## Change the culture of presentations in your company
+## Cambia la cultura de las presentaciones en tu empresa
 
-
-Our presentation training courses and workshops redefine what makes a successful business presentation, turning conventional wisdom on its head. Our Business Presentation Revolution course is given in many major companies, and forms part of the HEC Paris Executive MBA curriculum.
-
-You will discover how to master the three arts of presentation: storytelling, visual design and confident speaking, as well as our ground-breaking techniques for audience-centric brainstorming and storyboarding.
-
-### These are our main training courses
+En Ideas on Stage creemos que todas las personas tienen el potencial para convertirse en presentadores de éxito; y que incluso los oradores con un talento natural tienen potencial de mejora. ¿Por qué? Porque hemos ayudado a cientos de presentadores a sentirse más cómodos, a ganar confianza y a ser más convincentes, dentro de un abanico de clientes que engloba todos los niveles de experiencia y profesionales.

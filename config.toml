@@ -726,7 +726,7 @@ monthtrans = "mois.es.yaml"
 				picture		= "home-training.jpg"
 				style		= "bg-white"
 				layout		= "insert-link-full-picture.html"
-				link		= "/formacion-presentaciones/business-presentation-revolution/"
+				link		= "/formacion-presentaciones/"
 				
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
