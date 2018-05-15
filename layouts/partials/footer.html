@@ -6,7 +6,6 @@
 		        		{{ with .Site.Copyright }}{{ . }}{{ end }} {{ with .Site.Params.year }}{{ . }}{{ end }}<br />
 		        		{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
 		        		{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}
-		        		<a href="{{ .Site.BaseURL }}{{ .Site.Params.cookieslink }}"> Cookies policy</a>
 			        </div>
 					<div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0 paddingv10">
 		        		{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}

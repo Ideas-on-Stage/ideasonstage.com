@@ -293,7 +293,7 @@ title 			= "Presentation Creation Agency | Public Speaking Coaching and Training
 description  	= "Deliver Amazing Presentations with the Business Presentations Specialist"
 googleAnalytics = "UA-30695118-1"
 rights			= "All Rights Reserved"
-cookies			= "This website uses cookies from Google Analytics and HotJar."
+cookies			= "We fully respect your privacy. We don't use cookies or scripts to track you, period."
 footer_desc		= "Ideas on Stage is the global specialist in business presentations. We offer our services in North America and Europe, in English, French, Spanish and Italian."
 
 #form id for Incognito form
@@ -315,7 +315,7 @@ title = "Agence de création de présentations | Coaching et formation prise de 
 description  	= "Le spécialiste des présentations"
 googleAnalytics = "UA-30695118-2"
 rights			= "Tous droits réservés"
-cookies			= "Ce site utilise des Cookies."
+cookies			= "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
 footer_desc		= "Ideas on Stage est le spécialiste des présentations. Nos services sont disponibles en Amérique du Nord et en Europe, en anglais, français, espagnol et italien."
 favicon			= "pictures/home/ios_favicon.ico"
 		
