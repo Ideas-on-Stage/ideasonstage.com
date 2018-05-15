@@ -1,4 +1,7 @@
         {{ partial "footer.html" . }}			
-        {{ partial "js.html" . }}			
+        {{ partial "js.html" . }}
+        {{ if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
+            {{ partial "algolia-search" . }}
+        {{ end }}			
     </body>
 </html>

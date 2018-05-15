@@ -1,4 +1,5 @@
 backend:
+  backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
@@ -72,4 +73,4 @@ collections:
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Thumb", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"} 
-      
+

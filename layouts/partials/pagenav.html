@@ -63,6 +63,15 @@
 						{{ end }}					
                 	</ul>
                 </li>
+                <li>
+                {{ if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
+
+         <div id="search-box" class="search">
+            <i class="fa fa-search"></i>
+            <input id="search" type="text" placeholder="{{ i18n "search" }}">
+        </div>
+        {{ end }}
+                </li>
  <!--               
                 <li role="presentation" class="dropdown">
                 	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
@@ -81,6 +90,7 @@
                 </li>
 -->                
             </ul>
+            
         </div>
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}
     </div>
