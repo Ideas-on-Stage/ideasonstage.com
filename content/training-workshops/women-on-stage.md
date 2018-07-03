@@ -9,6 +9,9 @@ showrefs	= false
 url 		= "/training-workshops/women-on-stage/"
 +++
 
+Next date: 6 September 2018
+location: Un dimanche à Paris, 4-6-8 Cour du Commerce Saint André, 75006 Paris
+
 ## What’s so unique for women in their challenge to speak up and be heard?
 
 Women, when they are speaking at the workplace, almost never get it “Just Right”. Some have advised women to be more assertive and to take on masculine attitudes. Others have suggested they should stick with their roles and act their more feminine attributes. In both cases, it doesn’t work. To quote the famous leading organization Catalyst for women and business, “women are damned if they do, doomed if they don’t”. This double-bind that women face every day has created a search for a way-out, a solution.
