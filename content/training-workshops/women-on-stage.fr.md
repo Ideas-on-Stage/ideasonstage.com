@@ -9,10 +9,12 @@ showrefs	= false
 url 		= "/formations-ateliers/women-on-stage/"
 +++
 
-Prochaine date : 6 septembre 2018
-Lieu : Un dimanche à Paris, 4-6-8 Cour du Commerce Saint André, 75006 Paris
-
 ## Qu’y a-t-il de si unique pour les femmes lorsqu’elles prennent la parole en public?
+
+**Prochaine date : 6 septembre 2018**
+
+**Lieu : Un dimanche à Paris, 4-6-8 Cour du Commerce Saint André, 75006 Paris**
+
 Les femmes, lorsqu’elles ouvrent la bouche dans les lieux de pouvoir, sont l’objet de toutes les critiques. Certains leur ont conseillé d’être plus « assertives », d’épouser le modèle dominant et d’adopter des attitudes masculines. D’autres les ont recommandé de valoriser leurs différences et mettre en avant leurs qualités dites « féminines ». Dans les deux cas, cela ne marche pas. Cette « double-contrainte* » que les femmes vivent au quotidien au travail, est une source de tensions et de stress. Elles sont à la recherche  d’une porte de sortie, d’une solution.
 
 Les femmes sont encore éduquées et formatées pour  la recherche de la perfection, la quête de reconnaissance, d’approbation et de validation extérieure. Elles sont habituées à demander la permission pour s’exprimer, à éviter les échecs à tout prix et ont encore aujourd’hui tendance à éprouver un sentiment de gêne et même de honte à dire leur ambition.
