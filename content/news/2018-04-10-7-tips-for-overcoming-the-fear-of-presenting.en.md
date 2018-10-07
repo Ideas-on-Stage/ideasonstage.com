@@ -23,31 +23,31 @@ The natural balance where you can make a true connection with an audience comes 
 
 The following 7 steps may not be a cure for everyone, particularly those with deep fears linked to public speaking, but they are a very good start.  
 
-1. **Master your content - don't let it master you.**
+#### 1. Master your content - don't let it master you
 
 There are often parts of a presentation where the speaker does not entirely master what he or she is talking about. These knowledge gaps can be stressful, and trying to explain something that you have not fully mastered will bring a negative feedback loop from the audience as they struggle to understand. Present only what you master, and master everything you present.
 
-2. **Rehearse aloud in advance with your slides and timer.**
+#### 2. Rehearse aloud in advance with your slides and timer.
 
 Rehearsing aloud is the best thing any speaker can do, but also the rarest. We can spend hours tweaking messages or putting polish on slides, but never enough time on our feet rehearsing. Use a timer so you know exactly how long your presentation takes, and ensure you only take 90% of your allotted time so that on the day you are not stressed about overrunning. 
 
-3. **Connect with your audience. **
+#### 3. Connect with your audience.
 
 If you can meet members of the audience prior to a presentation, this can be hugely beneficial. You must not think like an actor waiting in the wings until the curtain rises. This makes the task harder. Knowing at least some of your audience, and knowing they are not dragons, will reduce your fear and stress.
 
-4. **Check that everything works.**
+#### 4. Check that everything works.
 
 Technical problems can disrupt a presentation, but even if it all ends up running smoothly, the fear of technical problems can be very destabilizing for a presenter. Many presentations have sunk due to last minute problems with slides, compatibility issues (software and hardware), fonts not downloaded, resolution issues, not having the right adaptor, etc. Solution? Get there early and take the time to ensure all slides and videos look good in real conditions - on the actual computer and actual screen - and you will save yourself a lot of worry, and reduce your stress levels. You should also find the technician in charge of the room. They are your best friend. I once had a technician who saved me from a crashed and locked computer during a presentation in front of a dozen Chinese fashion executives. 
 
-5. **Trust yourself.**
+#### 5. Trust yourself.
 
 Don't rehearse your presentation 101 times. Trust your subconscious mind and leave a little margin for the unknown. You'll enjoy it more. 
 
-6. **Avoid coffee.**
+#### 6. Avoid coffee.
 
 This should be obvious but many speakers don't realize how important it is. Don't drink coffee before presenting, especially if you know you are sensitive to it. Caffeine not only increases your stress levels: it also dries out your mouth and throat, so your voice is less resonant and less powerful. We've trained coffee companies and they know this - so should you!
 
-7. **Don't be afraid of being afraid.**
+#### 7. Don't be afraid of being afraid.
 
 Now I'm back to the original quotation. If you accept that everyone feels fear when they take the stage, even the greatest speakers, then you can also accept that stress is the body's way of preparing you to perform at your best.
 
