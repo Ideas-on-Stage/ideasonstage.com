@@ -11,7 +11,7 @@ It's already October and you know what that means... Firming up plans for next y
 
 At Ideas on Stage we coach, train and design for international clients and companies large and small, from CAC 40 enterprises to startups and incubators. They invite us in to provide outside perspective and help leadership and teams to think big, bold and with purpose for how to serve their respective end user, whether internal or external.
 
-As we reflected on the last 12-months, and wondered what we wanted to develop in the year to come, we got the inspiration to assemble a fun 1min video-montage highlighting some of the various speeches and stages we helped to animate. At the end of it, we could really see what was important to us as well as to our clients. (If you want a quick sip of energy, you can find the video at the end of this post.)
+As we reflected on the last 12-months, and wondered what we wanted to develop in the year to come, we got the inspiration to assemble a fun 1min video-montage highlighting some of the various speeches and stages we helped to animate. At the end of it, we could really see what was important to us as well as to our clients. If you want a quick sip of energy, you can find the video at the end of this post.
 
 While working with people from a wide range of industries, we hear a universal theme arise: _how do we transform the inside of our organization into something meaningful, powerful and relevant in our changing economic landscape?_
 
