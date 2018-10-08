@@ -13,7 +13,7 @@ At Ideas on Stage we coach, train and design for international clients and compa
 
 As we reflected on the last 12-months, and wondered what we wanted to develop in the year to come, we got the inspiration to assemble a fun 1min video-montage highlighting some of the various speeches and stages we helped to animate. At the end of it, we could really see what was important to us as well as to our clients. If you want a quick sip of energy, you can find the video at the end of this post.
 
-While working with people from a wide range of industries, we hear a universal theme arise: _how do we transform the inside of our organization into something meaningful, powerful and relevant in our changing economic landscape?_
+While working with people from such a wide range of industries, we hear a universal theme arise: _how do we transform the inside of our organization into something meaningful, powerful and relevant in our changing economic landscape?_
 
 Financial institutions are becoming more agile. 
 
