@@ -7,7 +7,7 @@ date = "2018-10-08"
 author = "Rose Bloomfield"
 banner = "/img/news/img_4011.jpg"
 +++
-It's already October and you know what that means. Firming up plans for next year. Pitching projects. Assigning budgets. And ultimately getting creative about how to expire old, ineffective systems and implement a smarter and better approach. Look around and catch the shift. It's not time for just another step forward. It's time to leap.
+It's already October and you know what that means... Firming up plans for next year. Pitching projects. Assigning budgets. And ultimately getting creative about how to expire old, ineffective systems and implement a smarter and better approach. Look around and catch the shift. It's not time for just another step forward. It's time to leap.
 
 At Ideas on Stage we coach, train and design for international clients and companies large and small, from CAC 40 enterprises to startups and incubators. They invite us in to provide outside perspective and help leadership and teams to think big, bold and with purpose for how to serve their respective end user, whether internal or external.
 
