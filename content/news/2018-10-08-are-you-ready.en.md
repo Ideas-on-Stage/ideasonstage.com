@@ -36,3 +36,5 @@ Spark any ideas? Jot them down. Once you have a little insight into what you wan
 No matter the answer. We have seen countless times the power of intention when paired with preparation and practice is an unstoppable force. You got this. And should you like any help along the way, you know where to find us.
 
 <https://www.youtube.com/watch?v=EnKKwsshGbE>
+
+~ Have a different topic you would like some presentation advice on? Please let us know. After all, this is for you.
