@@ -11,9 +11,11 @@ It's already October and you know what that means... Firming up plans for next y
 
 At Ideas on Stage we coach, train and design for international clients and companies large and small, from CAC 40 enterprises to startups and incubators. They invite us in to provide outside perspective and help leadership and teams to think big, bold and with purpose for how to serve their respective end user, whether internal or external.
 
-While working with people from a wide range of industries, we can hear a universal theme arise: _how do we transform the inside of our organization into something meaningful, powerful and relevant in our changing economic landscape?_
+While working with people from a wide range of industries, we can hear a universal theme arise: **How do we transform the inside of our organization into something meaningful, powerful and relevant in our changing economic landscape? **
 
-* Financial institutions are becoming more agile. 
+There are countless examples of these evolutions: 
+
+* Financial institutions are becoming more agile and customer centric. 
 * Corporates are partnering with startups to build innovative solutions. 
 * Hospitality is shifting to meet new demands in a sharing economy.
 * The list goes on...
