@@ -13,7 +13,7 @@ At Ideas on Stage we coach, train and design for international clients and compa
 
 Recently, as our team was reflecting on the past 12-months, and wondering what we wanted to further in the year to come, we got inspired to assemble a fun 1min video-montage highlighting some of the speeches and stages we helped to animate between fall 2017-2018. For a quick sip of energy, you can find the video at the end of this post.
 
-While working with people from such a wide range of industries, we hear a universal theme arise: **How do we transform the inside of our organization into something meaningful, powerful and relevant in our changing economic landscape? **
+While working with people from such a wide range of industries, we hear a universal theme arise: **How do we transform the inside of our organization into something meaningful, powerful and relevant in our changing economic landscape?**
 
 There are countless examples of these evolutions: 
 
@@ -36,6 +36,6 @@ Spark some ideas? Jot them down. Once you have a little insight into what you wa
 
 No matter the answer. We have seen countless times the unstoppable power of intention paired with preparation. You got this. And should you like any help along the way, you know where to find us.
 
-<https://www.youtube.com/watch?v=EnKKwsshGbE>
+{{< youtube EnKKwsshGbE >}}
 
 ~ Have a different topic you would like some presentation advice on? Please let us know. After all, this is for you.
