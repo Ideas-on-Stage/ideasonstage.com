@@ -32,7 +32,7 @@ So, as autumn leaves fall carrying their message of change, let's imagine where 
 4. how do you currently prepare for important events or presentations?
 5. how will you use your voice more effectively for the benefit of all?
 
-Get some ideas? Jot them down. Once you have a little insight into what you want to be, say and do in 2019--and beyond--ask yourself: **are you ready?**
+Spark some ideas? Jot them down. Once you have a little insight into what you want to be, say and do in 2019--and beyond--ask yourself: **are you ready?**
 
 No matter the answer. We have seen countless times the unstoppable power of intention paired with preparation. You got this. And should you like any help along the way, you know where to find us.
 
