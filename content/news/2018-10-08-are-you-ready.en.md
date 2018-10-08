@@ -28,6 +28,6 @@ At Ideas on Stage we love bringing work and pleasure together to inspire creativ
 
 Get some ideas? Jot them down. Once you have a little insight into what you want to be, say and do in 2019--and beyond--ask yourself: **are you ready?**
 
-No matter the answer. We have seen countless times the power of intention when paired with preparation and practice is an unstoppable force. You got this. And should you like any help along the way, you know where to find us.
+No matter the answer. We have seen countless times the unstoppable power of intention paired with preparation. You got this. And should you like any help along the way, you know where to find us.
 
 <https://www.youtube.com/watch?v=EnKKwsshGbE>
