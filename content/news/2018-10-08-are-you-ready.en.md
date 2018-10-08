@@ -13,13 +13,10 @@ At Ideas on Stage we coach, train and design for international clients and compa
 
 While working with people from a wide range of industries, we can hear a universal theme arise: _how do we transform the inside of our organization into something meaningful, powerful and relevant in our changing economic landscape?_
 
-Financial institutions are becoming more agile. 
-
-Corporates are partnering with startups to build innovative solutions. 
-
-Hospitality is shifting to meet new demands in a sharing economy.
-
-The list goes on...
+* Financial institutions are becoming more agile. 
+* Corporates are partnering with startups to build innovative solutions. 
+* Hospitality is shifting to meet new demands in a sharing economy.
+* The list goes on...
 
 At Ideas on Stage we love bringing work and pleasure together to inspire creative thinking and optimize the power of collaboration. And so, as autumn leaves fall carrying their message of change, let's imagine where this leap might take us. A few questions to get you started: 
 
