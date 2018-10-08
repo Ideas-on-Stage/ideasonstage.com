@@ -11,9 +11,7 @@ It's already October and you know what that means... Firming up plans for next y
 
 At Ideas on Stage we coach, train and design for international clients and companies large and small, from CAC 40 enterprises to startups and incubators. They invite us in to provide outside perspective and help leadership and teams to think big, bold and with purpose for how to serve their respective end user, whether internal or external.
 
-It was when we were reflecting on our last year and wondering what we wanted to be focusing on ourselves next year that we decided to assemble a little 1min video-montage highlighting some of the various scenes and stages we've helped to animate this past year. Here's the skimmed version of fall 2017-2018:
-
-https://www.youtube.com/watch?v=EnKKwsshGbE
+It was as we were reflecting on our last year and wondering what we wanted to be focusing on ourselves next year that we were inspired to assemble a little 1min video-montage highlighting some of the various speeches and stages we've helped to animate this past year. You can find the video at the end of this post.
 
 While working with people from this wide range of industries, we can hear a universal theme arise: **How do we transform the inside of our organization into something meaningful, powerful and relevant in our changing economic landscape? **
 
@@ -35,3 +33,5 @@ At Ideas on Stage we love bringing work and pleasure together to inspire creativ
 Get some ideas? Jot them down. Once you have a little insight into what you want to be, say and do in 2019--and beyond--ask yourself: **are you ready?**
 
 No matter the answer. We have seen countless times the unstoppable power of intention paired with preparation. You got this. And should you like any help along the way, you know where to find us.
+
+https://www.youtube.com/watch?v=EnKKwsshGbE
