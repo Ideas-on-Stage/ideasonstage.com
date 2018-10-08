@@ -23,7 +23,7 @@ The list goes on...
 
 At Ideas on Stage we love bringing work and pleasure together to inspire creative thinking and optimize the power of collaboration. And so, as autumn leaves fall carrying their message of change, let's imagine where this leap might take us. A few questions to get you started: 
 
-1. _what would you want to achieve next year if you knew you could not fail? _
+1. _what would you want to achieve next year if you knew you could not fail?_
 2. _how do you want your team, company or personal presence to grow?_
 3. _how would you like to feel the next time you speak?_
 4. _how do you currently prepare for important events or presentations?_
@@ -33,4 +33,5 @@ Get some ideas? Jot them down. Once you have a little insight into what you want
 
 No matter the answer. We have seen countless times the power of intention when paired with preparation and practice is an unstoppable force. You got this. And should you like any help along the way, you know where to find us.
 
-<https://www.youtube.com/watch?v=EnKKwsshGbE>
+<br>
+{{< youtube EnKKwsshGbE >}}
