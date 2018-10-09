@@ -5,7 +5,7 @@ tags = ["speaking; event design; presentation; coaching; montage; video; promo"]
 news = ["general"]
 date = "2018-10-08"
 author = "Rose Bloomfield"
-banner = "/img/news/img_4011.jpg"
+banner = "/img/news/img_3822.jpg"
 +++
 It's already October and you know what that means... Firming up plans for next year. Pitching projects. Assigning budgets. And ultimately getting creative about how to expire old, ineffective systems and implement a smarter and better approach. Look around and catch the shift. It's not time for just another step forward. It's time to leap.
 
