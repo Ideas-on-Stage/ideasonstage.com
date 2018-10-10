@@ -7,10 +7,13 @@ date = "2018-10-10"
 author = "Phil Waknell"
 banner = "/img/news/a-img_0143_cut.jpg"
 +++
-Hier, le Président de la République française, Emmanuel Macron, a répondu en direct aux questions d'un auditoire de 2 000 entrepreneurs et investisseurs à la Station F, plaque tournante incontestée de la communauté des start-ups françaises.
+Hier, le Président de la République française, Emmanuel Macron, a répondu en direct aux questions d'un auditoire de 2 000 entrepreneurs et investisseurs à la Station F, plaque tournante incontestée de la communauté des start-ups françaises. 
+
 ​​Ideas on Stage n’est peut-être pas une entreprise de technologie mais nous avons aidé des milliers de start-ups à créer leur pitch, et nous avons des partenariats avec de nombreux accélérateurs dont [ShareIT.io](https://share-it.io/), implanté à la [Station F](https://stationf.co/fr/). Donc nous faisons bel et bien partie de l’écosystème French Tech, et nous suivons avec enthousiasme son essor, grâce à sa nouvelle Directrice, notre excellente amie [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). Si vous n’étiez pas à la Station F, vous pouvez regarder le replay sur [Facebook LIVE ici](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/).
 
-​​Ce n’est pas surprenant de voir Macron soutenir la French Tech : il a souvent assisté aux événements tech et même au CES alors qu’il était Ministre de l’Économie. Mais prendre des questions en direct, le jour où son gouvernement était sous le feu des projecteurs avec le temps pris par le remaniement ministériel, était pour le moins courageux. La plupart des politiciens auraient veillé à ce que des questions soient « suggérées à l’avance » ou auraient tout simplement rassemblé des questions à l’avance et les auraient abordées à leur tour. Macron n'a fait ni l'un ni l'autre. Les personnes qui posaient les questions ont été choisies — au hasard, je le confirme — parmi une mer de mains levées par Kat Borlongan, et non par Macron.
+​​Ce n’est pas surprenant de voir Macron soutenir la French Tech : il a souvent assisté aux événements tech et même au CES alors qu’il était Ministre de l’Économie. Mais prendre des questions en direct, le jour où son gouvernement était sous le feu des projecteurs avec le temps pris par le remaniement ministériel, était pour le moins courageux. 
+
+La plupart des politiciens auraient veillé à ce que des questions soient « suggérées à l’avance » ou auraient tout simplement rassemblé des questions à l’avance et les auraient abordées à leur tour. Macron n'a fait ni l'un ni l'autre. Les personnes qui posaient les questions ont été choisies — au hasard, je le confirme — parmi une mer de mains levées par Kat Borlongan, et non par Macron.
 
 ​​ 
 ​​Je ne vais pas commenter la politique du Président ou la qualité de ses réponses. (J'essaie toujours de rester en dehors de la politique.) Mais je vais aborder trois leçons importantes que l’on peut tirer de ce que Macron a fait de bien, et deux autres de ce qu'il pourrait encore améliorer.
@@ -33,7 +36,7 @@ Hier, le Président de la République française, Emmanuel Macron, a répondu en
    ​​ 
 **​​La préparation est toujours ce qui fait la différence entre une communication faible et forte. Que vous soyez en train d’apprendre un discours ou de préparer une séance de questions-réponses, on peut détourner légèrement les mots célèbres de Benjamin Franklin :  « Ratez votre préparation, ratez votre présentation. »**
 
-![null](/img/news/quote-roosevelt.jpg)
+![null]()
 
 <br>
 
