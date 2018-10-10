@@ -73,7 +73,7 @@ Sadly this lackluster finish also happened right at the very end of the evening 
 
 ![The two-headed match](/img/news/slide-double-headed-match.001.jpeg)
 
-Think of a sentence like a two-headed match. It should begin powerfully, like striking the head of a match causing it to burst into flame. Then, keep your message burning, ensuring nobody switches off. And finally, at the end, when a typical match or dull statement would sizzle out into silence, suddenly and surprisingly, it reignites in flame.
+Think of a sentence like a two-headed match. It should begin powerfully, like striking the head of a match causing it to burst into flame. Then, keep your message burning, ensuring nobody switches off. And finally, at the end, when a typical match or dull statement would normally sizzle out into silence, suddenly and surprisingly, it reignites in flame!
 
 This analogy goes for any presentation. Start strong, and finish with a flourish. 
 
