@@ -5,7 +5,7 @@ tags = ["Speaking", "Lessons", "President", "French", "Macron", "Talk", "Techniq
 news = ["general"]
 date = "2018-10-10"
 author = "Phil Waknell"
-banner = "/img/news/macron-feature.jpg"
+banner = "/img/news/a-img_0143_cut.jpg"
 +++
 Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. Ideas on Stage may not be a tech company, but we have helped thousands of start-ups with their pitches, and partner with many accelerators including Ashoka’s Share-IT, based at Station F. So we are very much part of the French Tech ecosystem, and very interested in how it is evolving under its new Director, our good friend [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). If you weren't present for the event at Station F, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
 
@@ -27,7 +27,7 @@ Birds can ‘wing it’. Presenters cannot. Macron knew when taking this stage t
 
 Improvisation is hard for anyone (and impossible for some). There is a danger that presenters think that their choice is either to prepare very well, or to improvise and therefore not need to prepare. That is wrong. Macron gave a fine example of how strong preparation makes you ready to improvise. 
 
-Preparation is always the difference between weak and strong communication. Whether you are learning a speech or preparing a Q&A session, Benjamin Franklin’s famous words always apply: “By failing to prepare, you are preparing to fail.”
+**Preparation is always the difference between weak and strong communication. Whether you are learning a speech or preparing a Q&A session, Benjamin Franklin’s famous words always apply: “By failing to prepare, you are preparing to fail.”**
 
 ![Slide designed by Ideas on Stage](https://d2mxuefqeaa7sj.cloudfront.net/s_A26D9D14E5500731227AC5A23DBCEEDA7F0AB3D74874D7C76FDBC3676F1828BE_1539169395189_Slide+Franklin+16x9+EN.039+1.png)
 
@@ -43,7 +43,7 @@ It would have been very easy to sympathize, and then to explain what his governm
 
 He then went on to defend the French social model, and the importance of social security, while later saying that they are working to lower social charges and make hiring easier. But that would not have been as powerful without his daring, controversial statement that everybody will easily remember days and weeks later.
 
-Dare to surprise your audience. They will sit up and pay attention – and that is half the battle for any speaker.
+**Dare to surprise your audience. They will sit up and pay attention – and that is half the battle for any speaker.**
 
 ![Macron smiles as Kat moderates](/img/news/a-img_0112_cut.jpg)
 
@@ -55,7 +55,7 @@ Smiling is important for two reasons. First, when we smile, the audience can hea
 
 The second reason is that we all have mirror neurons which unconsciously perceive and reproduce the emotions we perceive in others. If you see a speaker who appears negative, demotivated, or even bored, then you will experience the same feelings. If however you see a speaker who is positive, who speaks with passion, who clearly believes what she is saying, then you will feel the same way.
 
-Macron appeared to enjoy the exchange yesterday. He seemed positive in explaining his policies. That made it so much easier for the audience to feel equally positive.
+**Macron appeared to enjoy the exchange yesterday. He seemed positive in explaining his policies. That made it so much easier for the audience to feel equally positive.**
 
 \--So those are three important lessons any speaker can learn from President Macron’s exchange yesterday. Here are two more speaking tips, which Macron can still improve on, and which we can all benefit from employing more.
 
@@ -65,7 +65,7 @@ In a session where there are potentially hundreds of questions, answering only a
 
 Why? The danger when you give a long answer is that people forget the question, or they forget the beginning of your answer when you get to the end. It is also usually true that much of the audience has no interest in the answer to some questions, therefore it is wise not to take too long unless the answer is of clear interest to everybody. For example, the first question yesterday was about EdTech which is an important niche but a niche nonetheless, and after several minutes, anyone not in that niche was left wondering when Macron would finish and move on to a subject they might care about.
 
-Aim to keep any answer to no more than two minutes. When you set yourself this limit, you will be amazed at what you can say in those two minutes, and it will be more powerful than a comprehensive 5-minute answer.
+**Aim to keep any answer to no more than two minutes. When you set yourself this limit, you will be amazed at what you can say in those two minutes, and it will be more powerful than a comprehensive 5-minute answer.**
 
 5. **Finish with a flourish**
 
@@ -79,7 +79,7 @@ Think of a sentence like a two-headed match. It should begin powerfully, like st
 
 This analogy goes for any presentation. Start strong, and finish with a flourish. 
 
-Macron could benefit from practicing conclusions. And any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely have already generated several possible conclusions you can use that will ensure a big round of applause.
+**Macron could benefit from practicing conclusions. And any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely have already generated several possible conclusions you can use that will ensure a big round of applause.**
 
 President Macron is a powerful, confident communicator. And even though he is already a highly skilled speaker, he is not yet the finished article, and he continues to improve. That in itself should be a lesson to us all: every speaker, no matter how good, has potential to further develop and stretch their skills. It comes through practice, a desire to improve, and through a deep respect for your audience that drives you to give them the best experience possible.
 
