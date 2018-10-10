@@ -7,7 +7,7 @@ date = "2018-10-10"
 author = "Phil Waknell"
 banner = "/img/news/a-img_0143_cut.jpg"
 +++
-Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. Ideas on Stage may not be a tech company, but we have helped thousands of start-ups with their pitches, and partner with many accelerators including Ashoka’s Share-IT, based at Station F. So we are very much part of the French Tech ecosystem, and very interested in how it is evolving under its new Director, our good friend [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). If you weren't present for the event at Station F, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
+Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. Ideas on Stage may not be a tech company, but we have helped thousands of start-ups with their pitches, and partner with many accelerators including Ashoka’s [ShareIT.io](https://share-it.io/), based at Station F. So we are very much part of the French Tech ecosystem, and very interested in how it is evolving under its new Director, our good friend [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). If you weren't present for the event at Station F, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
 
 It’s no surprise to see Macron supporting tech entrepreneurs: while Economy Minister a few years back, he was regularly seen at tech events and even CES. But taking live questions, on a day when his government was under fire about the time it is taking over the cabinet reshuffle, was brave to say the least.
 
@@ -17,7 +17,7 @@ I’m not going to comment on the politics or the quality of his answers. (I alw
 
 ![Station F awaiting President Macron and Kat Borlongan](/img/news/a-img_0076.jpg)
 
-<br>
+
 
 **1. Improvisation requires preparation**
 
@@ -31,7 +31,7 @@ Improvisation is hard for anyone (and impossible for some). There is a danger th
 
 ![Slide designed by Ideas on Stage](https://d2mxuefqeaa7sj.cloudfront.net/s_A26D9D14E5500731227AC5A23DBCEEDA7F0AB3D74874D7C76FDBC3676F1828BE_1539169395189_Slide+Franklin+16x9+EN.039+1.png)
 
-<br>
+
 
 **2. Dare to surprise**
 
@@ -49,7 +49,7 @@ He then went on to defend the French social model, and the importance of social 
 
 ![Macron smiles as Kat moderates](/img/news/a-img_0112_cut.jpg)
 
-<br>
+
 
 **3. Smile, and the audience smiles with you**
 
@@ -61,7 +61,7 @@ The second reason is that we all have mirror neurons which unconsciously perceiv
 
 Macron appeared to enjoy the exchange yesterday. He seemed positive in explaining his policies. That made it so much easier for the audience to feel equally positive.
 
-<br>
+
 
 \--So those are three important lessons any speaker can learn from President Macron’s exchange yesterday. Here are two more speaking tips, which Macron can still improve on, and which we can all benefit from employing more.
 
@@ -72,6 +72,8 @@ In a session where there are potentially hundreds of questions, answering only a
 Why? The danger when you give a long answer is that people forget the question, or they forget the beginning of your answer when you get to the end. It is also usually true that much of the audience has no interest in the answer to some questions, therefore it is wise not to take too long unless the answer is of clear interest to everybody. For example, the first question yesterday was about EdTech which is an important niche but a niche nonetheless, and after several minutes, anyone not in that niche was left wondering when Macron would finish and move on to a subject they might care about.
 
 Aim to keep any answer to no more than two minutes. When you set yourself this limit, you will be amazed at what you can say in those two minutes, and it will be more powerful than a comprehensive 5-minute answer.
+
+
 
 **5. Finish with a flourish**
 
