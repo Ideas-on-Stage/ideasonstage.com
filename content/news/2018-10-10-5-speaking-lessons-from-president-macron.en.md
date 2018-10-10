@@ -1,17 +1,19 @@
 +++
 draft = false
 title = "5 Speaking Lessons from President Macron"
-tags = ["Speaking", "Lessons", "President", "French", "Macron", "Talk", "Technique", "Tips", "Learning", "Present", ""]
+tags = ["Speaking", "Lessons", "President", "French", "Macron", "Talk", "Technique", "Tips", "Learning", "Present", "Tech", "Station F", "Paris", "Politics", ""]
 news = ["general"]
 date = "2018-10-10"
 author = "Phil Waknell"
 banner = "/img/news/macron-feature.jpg"
 +++
-Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. Ideas on Stage may not be a tech company, but we have helped thousands of start-ups with their pitches, and partner with many accelerators including Ashoka’s Share-IT, based at Station F. So we are very much part of the French Tech ecosystem, and very interested in how it is evolving under its new Director, our good friend [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). If you weren't at Station F last night, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/).
+Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. Ideas on Stage may not be a tech company, but we have helped thousands of start-ups with their pitches, and partner with many accelerators including Ashoka’s Share-IT, based at Station F. So we are very much part of the French Tech ecosystem, and very interested in how it is evolving under its new Director, our good friend [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). If you weren't present for the event at Station F, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
+
+![The stage at Station F on October 9, 2018](/img/news/french-tech-stage-station-f.jpg)
 
 It’s no surprise to see Macron supporting tech entrepreneurs: while Economy Minister a few years back, he was regularly seen at tech events and even CES. But taking live questions, on a day when his government was under fire about the time it is taking over the cabinet reshuffle, was brave to say the least.
 
-Most politicians would have ensured questions were ‘planted’ in the audience, or simply gathered questions beforehand and addressed them in turn. Macron did neither. Questions were taken from a sea of raised hands by French Tech Director, not by Macron, and I know first-hand that those questions were chosen at random.
+Most politicians would have ensured questions were ‘planted’ in the audience, or simply gathered questions beforehand and addressed them in turn. Macron did neither. Questions were taken from a sea of raised hands by Kat Borlongan, not by Macron, and I know first-hand that those questions were chosen at random.
 
 I’m not going to comment on the politics or the quality of his answers. (I always try to stay out of politics.) But I will cover three important points that speakers can learn from what Macron did very well, and two more from what he could still improve.
 
@@ -33,11 +35,13 @@ Preparation is always the difference between weak and strong communication. Whet
 
 One question received its own round of applause, because it resonated with so many entrepreneurs in the audience. The questioner explained that he finds it difficult to recruit employees because of the very high employers’ social charges, which mean in France that an employee costs far more than they actually take home. “My enemy is the URSSAF,” (the French Social Security agency). 
 
-Macron took a moment to reflect on this statement and the audience’s sympathetic applause, and replied: “The URSSAF is your friend.”
+Macron took a moment to reflect on this statement and the audience’s sympathetic applause, and replied: “The URSSAF is your friend.” 
 
-It would have been very easy to sympathize, and then to explain what his government is doing to reduce social security charges and government spending, but Macron chose a daring approach. He chose to say the opposite of what most entrepreneurs in the room believed. Immediately the audience had this tweetable, newsworthy statement, and he had everybody’s attention. You can catch the moment in the [transcript here](https://www.youtube.com/watch?v=jBxgl5z27ZI).
+{{< youtube jBxgl5z27ZI >}}
 
-He then went on to defend the French social model, and the importance of social security, while later saying that they are working to lower social charges and make hiring easier. But that would not have been as powerful without his daring, controversial statement that everybody will easily remember days and weeks later: “The URSSAF is your friend.”
+It would have been very easy to sympathize, and then to explain what his government is doing to reduce social security charges and government spending, but Macron chose a daring approach. He chose to say the opposite of what most entrepreneurs in the room believed. Immediately the audience had a tweetable, newsworthy statement, and he had everybody’s attention.
+
+He then went on to defend the French social model, and the importance of social security, while later saying that they are working to lower social charges and make hiring easier. But that would not have been as powerful without his daring, controversial statement that everybody will easily remember days and weeks later.
 
 Dare to surprise your audience. They will sit up and pay attention – and that is half the battle for any speaker.
 
@@ -65,19 +69,19 @@ Aim to keep any answer to no more than two minutes. When you set yourself this l
 
 5. **Finish with a flourish**
 
-Many speakers fail to pay attention to the end of their speech, or the end of their sentences. Yesterday, Macron was able to speak clearly and coherently for minutes on end, but then once he got the end of some answers, he appeared to run out of words, or out of breath, and those last sentences tailed off. Twice the audience felt he had finished, or was having trouble finishing, and applauded when in fact he had not properly completed his sentence. On several other occasions, it was clear he was already thinking of the next sentence, and lost power at the end of the current sentence in his haste to begin his next one. This is one of the problems I encounter most often when helping speakers.
+Many speakers fail to pay attention to the end of their speech, or the end of their sentences. Yesterday, Macron was able to speak clearly and coherently for minutes on end, but then once he would start to wrap-up his answers, he appeared to run out of words, or out of breath, and tail off. Twice the audience though he had finished, and applauded when in fact he had not properly completed his sentence. On several other occasions, it was clear he was already thinking of the next sentence, and lost power at the end of the current sentence in his haste to begin the next. This is one of the most common problems I encounter when helping speakers.
 
-Sadly this lackluster finish also happened right at the very end where Macron gave a call to action to the entrepreneurs in the room. This was an excellent way to finish, but unfortunately the last sentence tailed off, and ended up with slightly awkward applause punctuated by a slightly embarrassed “Voilà” from the President.
+Sadly this lackluster finish also happened right at the very end of the evening when Macron gave a call to action to the entrepreneurs in the room. This was an excellent way to finish, but unfortunately the last sentence tailed off, and ended up with slightly awkward applause punctuated by a slightly embarrassed “Voilà” from the President.
 
-![The double-sided match](/img/news/slide-double-headed-match.001.jpeg)
+![The two-headed match](/img/news/slide-double-headed-match.001.jpeg)
 
-Think of a sentence like a two-headed match. It should begin powerfully, like striking the head of a match causing it to burst into flame. Then, keep your point burning, ensuring nobody switches off. And finally, at the end, when a typical match or dull statement would sizzle out into silence, suddenly and surprisingly, it reignites in flame.
+Think of a sentence like a two-headed match. It should begin powerfully, like striking the head of a match causing it to burst into flame. Then, keep your message burning, ensuring nobody switches off. And finally, at the end, when a typical match or dull statement would normally sizzle out into silence, suddenly and surprisingly, it reignites in flame!
 
-This analogy goes for any presentation. Start strong, and finish with a flourish.
+This analogy goes for any presentation. Start strong, and finish with a flourish. 
 
-Macron could benefit from practicing conclusions, and any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely already have several possible conclusions you can use that will ensure a big round of applause.
+Macron could benefit from practicing conclusions. And any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely have already generated several possible conclusions you can use that will ensure a big round of applause.
 
-President Macron is a powerful, confident communicator. And even though he is already a highly skilled speaker, he is not yet the finished article, and he continues to improve. That in itself should be a lesson to us all: every speaker, no matter how good, has potential to develop and stretch their skills. How? It comes through practice, a desire to improve, and through a deep respect for your audience that drives you to give them the best experience possible.
+President Macron is a powerful, confident communicator. And even though he is already a highly skilled speaker, he is not yet the finished article, and he continues to improve. That in itself should be a lesson to us all: every speaker, no matter how good, has potential to further develop and stretch their skills. It comes through practice, a desire to improve, and through a deep respect for your audience that drives you to give them the best experience possible.
 
 Macron gave French Tech a great experience yesterday. I have no doubt he’ll be even better next time.
 
