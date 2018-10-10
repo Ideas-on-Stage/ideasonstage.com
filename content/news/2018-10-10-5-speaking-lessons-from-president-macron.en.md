@@ -9,7 +9,7 @@ banner = "/img/news/macron-feature.jpg"
 +++
 Yesterday French President Emmanual Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community.
 
-{{< youtube jBxgl5z27ZI >}}
+{{< youtube jBxgl5z27ZI >}} 
 
 It’s no surprise to see Macron supporting tech entrepreneurs: while Economy Minister a few years back, he was regularly seen at tech events and even CES. But taking live questions, on a day when his government was under fire about the time it is taking over the cabinet reshuffle, was brave to say the least.
 
@@ -36,8 +36,6 @@ Preparation is always the difference between weak and strong communication. Whet
 One question received its own round of applause, because it resonated with so many entrepreneurs in the audience. The questioner explained that he finds it difficult to recruit employees because of the very high employers’ social charges, which mean in France that an employee costs far more than they actually take home. “My enemy is the URSSAF,” (the French Social Security agency). 
 
 Macron took a moment to reflect on this statement and the audience’s sympathetic applause, and replied: “The URSSAF is your friend.” You can see the moment [LIVE here](<{{< youtube jBxgl5z27ZI >}}>).
-
-
 
 It would have been very easy to sympathize, and then to explain what his government is doing to reduce social security charges and government spending, but Macron chose a daring approach. He chose to say the opposite of what most entrepreneurs in the room believed. Immediately the audience had a tweetable, newsworthy statement, and he had everybody’s attention.
 
