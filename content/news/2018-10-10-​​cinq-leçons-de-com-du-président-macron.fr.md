@@ -15,7 +15,6 @@ Hier, le Président de la République française, Emmanuel Macron, a répondu en
 
 La plupart des politiciens auraient veillé à ce que des questions soient « suggérées à l’avance » ou auraient tout simplement rassemblé des questions à l’avance et les auraient abordées à leur tour. Macron n'a fait ni l'un ni l'autre. Les personnes qui posaient les questions ont été choisies — au hasard, je le confirme — parmi une mer de mains levées par Kat Borlongan, et non par Macron.
 
-​​ 
 ​​Je ne vais pas commenter la politique du Président ou la qualité de ses réponses. (J'essaie toujours de rester en dehors de la politique.) Mais je vais aborder trois leçons importantes que l’on peut tirer de ce que Macron a fait de bien, et deux autres de ce qu'il pourrait encore améliorer.
 ​​ 
 
