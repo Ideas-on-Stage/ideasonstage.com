@@ -7,6 +7,8 @@ date = "2018-10-10"
 author = "Phil Waknell"
 banner = "/img/news/macron-feature.jpg"
 +++
+![Station F awaiting President Macron and Kat Borlongan](/img/news/a-img_0076.jpg)
+
 Yesterday French President Emmanual Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. If you weren't there, you can catch the playback on Facebook [LIVE here](<{{< youtube jBxgl5z27ZI >}} >).
 
 It’s no surprise to see Macron supporting tech entrepreneurs: while Economy Minister a few years back, he was regularly seen at tech events and even CES. But taking live questions, on a day when his government was under fire about the time it is taking over the cabinet reshuffle, was brave to say the least.
@@ -25,8 +27,6 @@ Improvisation is hard for anyone (and impossible for some). There is a danger th
 
 Preparation is always the difference between weak and strong communication. Whether you are learning a speech or preparing a Q&A session, Benjamin Franklin’s famous words always apply: “By failing to prepare, you are preparing to fail.”
 
-![null]()
-
 ![Slide designed by Ideas on Stage](https://d2mxuefqeaa7sj.cloudfront.net/s_A26D9D14E5500731227AC5A23DBCEEDA7F0AB3D74874D7C76FDBC3676F1828BE_1539169395189_Slide+Franklin+16x9+EN.039+1.png)
 
 2. **Dare to surprise**
@@ -40,6 +40,8 @@ It would have been very easy to sympathize, and then to explain what his governm
 He then went on to defend the French social model, and the importance of social security, while later saying that they are working to lower social charges and make hiring easier. But that would not have been as powerful without his daring, controversial statement that everybody will easily remember days and weeks later.
 
 Dare to surprise your audience. They will sit up and pay attention – and that is half the battle for any speaker.
+
+![Macron smiles as Kat moderates](/img/news/a-img_0112_cut.jpg)
 
 3. **Smile, and the audience smiles with you**
 
