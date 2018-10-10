@@ -17,8 +17,6 @@ I’m not going to comment on the politics or the quality of his answers. (I alw
 
 ![Station F awaiting President Macron and Kat Borlongan](/img/news/a-img_0076.jpg)
 
-
-
 **1. Improvisation requires preparation**
 
 If Macron was able to listen to unprepared questions and seem completely at ease responding to them – on subjects as varied as diversity, anti-trust, ed-tech, visas and even pesticides – it is because he was extremely well-briefed.
@@ -30,8 +28,6 @@ Improvisation is hard for anyone (and impossible for some). There is a danger th
 **Preparation is always the difference between weak and strong communication. Whether you are learning a speech or preparing a Q&A session, Benjamin Franklin’s famous words always apply: “By failing to prepare, you are preparing to fail.”**
 
 ![Slide designed by Ideas on Stage](https://d2mxuefqeaa7sj.cloudfront.net/s_A26D9D14E5500731227AC5A23DBCEEDA7F0AB3D74874D7C76FDBC3676F1828BE_1539169395189_Slide+Franklin+16x9+EN.039+1.png)
-
-
 
 **2. Dare to surprise**
 
@@ -49,8 +45,6 @@ He then went on to defend the French social model, and the importance of social 
 
 ![Macron smiles as Kat moderates](/img/news/a-img_0112_cut.jpg)
 
-
-
 **3. Smile, and the audience smiles with you**
 
 One improvement I have noticed in Macron’s speaking behavior over the years has been his smile. While his predecessor François Hollande strove in vain to appear presidential, and therefore always tried to seem serious and grave, Macron appears to believe in his ideas and policies, and he is now visibly positive when he explains them.
@@ -61,11 +55,7 @@ The second reason is that we all have mirror neurons which unconsciously perceiv
 
 Macron appeared to enjoy the exchange yesterday. He seemed positive in explaining his policies. That made it so much easier for the audience to feel equally positive.
 
-
-
 So those are three important lessons any speaker can learn from President Macron’s exchange yesterday. Here are two more speaking tips, which Macron can still improve on, and which we can all benefit from employing more.
-
-
 
 **4. Short answers are best**
 
@@ -75,8 +65,6 @@ Why? The danger when you give a long answer is that people forget the question, 
 
 Aim to keep any answer to no more than two minutes. When you set yourself this limit, you will be amazed at what you can say in those two minutes, and it will be more powerful than a comprehensive 5-minute answer.
 
-
-
 **5. Finish with a flourish**
 
 Many speakers fail to pay attention to the end of their speech, or the end of their sentences. Yesterday, Macron was able to speak clearly and coherently for minutes on end, but then once he would start to wrap-up his answers, he appeared to run out of words, or out of breath, and tail off. Twice the audience though he had finished, and applauded when in fact he had not properly completed his sentence. On several other occasions, it was clear he was already thinking of the next sentence, and lost power at the end of the current sentence in his haste to begin the next. This is one of the most common problems I encounter when helping speakers.
@@ -84,8 +72,6 @@ Many speakers fail to pay attention to the end of their speech, or the end of th
 Sadly this lackluster finish also happened right at the very end of the evening when Macron gave a call to action to the entrepreneurs in the room. This was an excellent way to finish, but unfortunately the last sentence tailed off, and ended up with slightly awkward applause punctuated by a slightly embarrassed “Voilà” from the President.
 
 ![The two-headed match](/img/news/slide-double-headed-match.001.jpeg)
-
-
 
 Think of a sentence like a two-headed match. It should begin powerfully, like striking the head of a match causing it to burst into flame. Then, keep your message burning, ensuring nobody switches off. And finally, at the end, when a typical match or dull statement would normally sizzle out into silence, suddenly and surprisingly, it reignites in flame!
 
