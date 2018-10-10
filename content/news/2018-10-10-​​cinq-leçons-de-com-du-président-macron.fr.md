@@ -1,7 +1,7 @@
 +++
 draft = "false"
 title = "​​Cinq leçons de com du Président Macron"
-tags = ["news", "macron"]
+tags = ["Speaking", "Lessons", "President", "French", "Macron", "Talk", "Technique", "Tips", "Learning", "Present", "Tech", "Station F", "Paris", "Politics", ""]
 news = ["general"]
 date = "2018-10-10"
 author = "Phil Waknell"
