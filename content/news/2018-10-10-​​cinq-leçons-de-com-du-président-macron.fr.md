@@ -8,7 +8,7 @@ author = "Phil Waknell"
 banner = "/img/news/a-img_0143_cut.jpg"
 +++
 Hier, le Président de la République française, Emmanuel Macron, a répondu en direct aux questions d'un auditoire de 2 000 entrepreneurs et investisseurs à la Station F, plaque tournante incontestée de la communauté des start-ups françaises.
-​​Ideas on Stage n’est peut-être pas une entreprise de technologie mais nous avons aidé des milliers de start-ups à créer leur pitch, et nous avons des partenariats avec de nombreux accélérateurs dont [ShareIT.io](https://share-it.io/), implanté à la Station F. Donc nous faisons bel et bien partie de l’écosystème French Tech, et nous suivons avec enthousiasme son essor, grâce à sa nouvelle Directrice, notre excellente amie [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). Si vous n’étiez pas à la Station F, vous pouvez regarder le replay sur [Facebook LIVE ici](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/).
+​​Ideas on Stage n’est peut-être pas une entreprise de technologie mais nous avons aidé des milliers de start-ups à créer leur pitch, et nous avons des partenariats avec de nombreux accélérateurs dont [ShareIT.io](https://share-it.io/), implanté à la [Station F](https://stationf.co/fr/). Donc nous faisons bel et bien partie de l’écosystème French Tech, et nous suivons avec enthousiasme son essor, grâce à sa nouvelle Directrice, notre excellente amie [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). Si vous n’étiez pas à la Station F, vous pouvez regarder le replay sur [Facebook LIVE ici](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/).
 
 ​​Ce n’est pas surprenant de voir Macron soutenir la French Tech : il a souvent assisté aux événements tech et même au CES alors qu’il était Ministre de l’Économie. Mais prendre des questions en direct, le jour où son gouvernement était sous le feu des projecteurs avec le temps pris par le remaniement ministériel, était pour le moins courageux. La plupart des politiciens auraient veillé à ce que des questions soient « suggérées à l’avance » ou auraient tout simplement rassemblé des questions à l’avance et les auraient abordées à leur tour. Macron n'a fait ni l'un ni l'autre. Les personnes qui posaient les questions ont été choisies — au hasard, je le confirme — parmi une mer de mains levées par Kat Borlongan, et non par Macron.
 
@@ -50,7 +50,6 @@ Une question a été applaudie car elle a suscité l'intérêt de nombreux entre
 ​​Il aurait été très facile de compatir, puis d’expliquer ce que fait son gouvernement pour réduire les charges sociales et les dépenses de l’État, mais Macron a choisi une approche audacieuse. Il a choisi de dire le contraire de ce que croyaient la plupart des entrepreneurs de la salle. Immédiatement, l’auditoire a eu une déclaration choc, digne d’être partagée sur Twitter, et il a retenu l’attention de tous.
 ​​Il a ensuite défendu le modèle social français et l’importance de la sécurité sociale, tout en affirmant par la suite qu’ils travaillaient à réduire les charges sociales et à faciliter l’embauche. Mais cela n’aurait pas été aussi puissant sans son audacieuse déclaration controversée dont tout le monde se souviendra facilement pendant des jours et des semaines.
 
-
 **​​Osez surprendre votre public. Ils vont dresser l’oreille et faire attention – et c'est la moitié de la bataille gagnée pour n'importe quel orateur.**
 
 ![null](/img/news/a-img_0112_cut.jpg)
@@ -64,7 +63,6 @@ Une amélioration que j’ai constatée dans le comportement de Macron au fil de
 ​Le sourire est important pour deux raisons. Premièrement, lorsque nous sourions, le public peut l’entendre. Nos mots sont plus positifs, plus attrayants et moins ennuyeux. Essayez d’écouter lors de votre prochain appel téléphonique : vous pourrez facilement détecter si votre correspondant sourit.
 
 ​La deuxième raison est que nous avons tous des neurones miroirs qui perçoivent et reproduisent inconsciemment les émotions que nous percevons chez les autres. Si vous voyez un orateur qui semble négatif, démotivé ou même qui s’ennuie, vous éprouverez les mêmes sentiments. Si toutefois vous voyez un orateur qui est positif, qui parle avec passion, qui croit clairement en ce qu'il dit, vous ressentirez plus facilement la même chose.
-
 
 **​​Macron a semblé apprécier l'échange hier. Il semblait positif dans l'explication de sa politique. Cela a permis au public de se sentir tout aussi positif.**
 
