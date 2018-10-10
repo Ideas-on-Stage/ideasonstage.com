@@ -61,7 +61,7 @@ Smiling is important for two reasons. First, when we smile, the audience can hea
 
 The second reason is that we all have mirror neurons which unconsciously perceive and reproduce the emotions we perceive in others. If you see a speaker who appears negative, demotivated, or even bored, then you will experience the same feelings. If however you see a speaker who is positive, who speaks with passion, who clearly believes what she is saying, then you will feel the same way.
 
-Macron appeared to enjoy the exchange yesterday. He seemed positive in explaining his policies. That made it so much easier for the audience to feel equally positive.
+**Macron appeared to enjoy the exchange yesterday. He seemed positive in explaining his policies. That made it so much easier for the audience to feel equally positive.**
 
 <br>
 
@@ -75,7 +75,7 @@ In a session where there are potentially hundreds of questions, answering only a
 
 Why? The danger when you give a long answer is that people forget the question, or they forget the beginning of your answer when you get to the end. It is also usually true that much of the audience has no interest in the answer to some questions, therefore it is wise not to take too long unless the answer is of clear interest to everybody. For example, the first question yesterday was about EdTech which is an important niche but a niche nonetheless, and after several minutes, anyone not in that niche was left wondering when Macron would finish and move on to a subject they might care about.
 
-Aim to keep any answer to no more than two minutes. When you set yourself this limit, you will be amazed at what you can say in those two minutes, and it will be more powerful than a comprehensive 5-minute answer.
+**Aim to keep any answer to no more than two minutes. When you set yourself this limit, you will be amazed at what you can say in those two minutes, and it will be more powerful than a comprehensive 5-minute answer.**
 
 <br>
 
@@ -93,7 +93,7 @@ Think of a sentence like a two-headed match. It should begin powerfully, like st
 
 (This analogy also goes for any presentation. Start strong, and finish with a flourish.)
 
-Macron could benefit from practicing conclusions. And any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely have already generated several possible conclusions you can use that will ensure a big round of applause.
+**Macron could benefit from practicing conclusions. And any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely have already generated several possible conclusions you can use that will ensure a big round of applause.**
 
 <br>
 
