@@ -35,7 +35,7 @@ La plupart des politiciens auraient veillé à ce que des questions soient « su
    ​​ 
 **​​La préparation est toujours ce qui fait la différence entre une communication faible et forte. Que vous soyez en train d’apprendre un discours ou de préparer une séance de questions-réponses, on peut détourner légèrement les mots célèbres de Benjamin Franklin :  « Ratez votre préparation, ratez votre présentation. »**
 
-![null]()
+![null](/img/news/s_a26d9d14e5500731227ac5a23dbceeda7f0ab3d74874d7c76fdbc3676f1828be_1539169395189_slide-franklin-16x9-en.039-1.png)
 
 <br>
 
@@ -50,7 +50,8 @@ Une question a été applaudie car elle a suscité l'intérêt de nombreux entre
 <br>
 
 ​​Il aurait été très facile de compatir, puis d’expliquer ce que fait son gouvernement pour réduire les charges sociales et les dépenses de l’État, mais Macron a choisi une approche audacieuse. Il a choisi de dire le contraire de ce que croyaient la plupart des entrepreneurs de la salle. Immédiatement, l’auditoire a eu une déclaration choc, digne d’être partagée sur Twitter, et il a retenu l’attention de tous.
-​​Il a ensuite défendu le modèle social français et l’importance de la sécurité sociale, tout en affirmant par la suite qu’ils travaillaient à réduire les charges sociales et à faciliter l’embauche. Mais cela n’aurait pas été aussi puissant sans son audacieuse déclaration controversée dont tout le monde se souviendra facilement pendant des jours et des semaines.
+
+Il a ensuite défendu le modèle social français et l’importance de la sécurité sociale, tout en affirmant par la suite qu’ils travaillaient à réduire les charges sociales et à faciliter l’embauche. Mais cela n’aurait pas été aussi puissant sans son audacieuse déclaration controversée dont tout le monde se souviendra facilement pendant des jours et des semaines.
 
 **​​Osez surprendre votre public. Ils vont dresser l’oreille et faire attention – et c'est la moitié de la bataille gagnée pour n'importe quel orateur.**
 
