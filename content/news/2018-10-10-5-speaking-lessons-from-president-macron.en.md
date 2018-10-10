@@ -7,11 +7,11 @@ date = "2018-10-10"
 author = "Phil Waknell"
 banner = "/img/news/macron-feature.jpg"
 +++
-Yesterday French President Emmanual Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. If you weren't there, you can catch the playback on Facebook [LIVE here](<{{< youtube jBxgl5z27ZI >}} >).
+Yesterday French President Emmanual Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. If you weren't there, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
 
 It’s no surprise to see Macron supporting tech entrepreneurs: while Economy Minister a few years back, he was regularly seen at tech events and even CES. But taking live questions, on a day when his government was under fire about the time it is taking over the cabinet reshuffle, was brave to say the least.
 
-Most politicians would have ensured questions were ‘planted’ in the audience, or simply gathered questions beforehand and addressed them in turn. Macron did neither. Questions were taken from a sea of raised hands by French Tech Director Kat Borlongan, not by Macron, and I know first-hand that those questions were chosen at random.
+Most politicians would have ensured questions were ‘planted’ in the audience, or simply gathered questions beforehand and addressed them in turn. Macron did neither. Questions were taken from a sea of raised hands by French Tech Director [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr), not by Macron, and I know first-hand that those questions were chosen at random.
 
 I’m not going to comment on the politics or the quality of his answers. (I always try to stay out of politics.) But I will cover three important points that speakers can learn from what Macron did very well, and two more from what he could still improve.
 
@@ -33,7 +33,9 @@ Preparation is always the difference between weak and strong communication. Whet
 
 One question received its own round of applause, because it resonated with so many entrepreneurs in the audience. The questioner explained that he finds it difficult to recruit employees because of the very high employers’ social charges, which mean in France that an employee costs far more than they actually take home. “My enemy is the URSSAF,” (the French Social Security agency). 
 
-Macron took a moment to reflect on this statement and the audience’s sympathetic applause, and replied: “The URSSAF is your friend.” You can see the moment [LIVE here](<{{< youtube jBxgl5z27ZI >}}>).
+Macron took a moment to reflect on this statement and the audience’s sympathetic applause, and replied: “The URSSAF is your friend.” 
+
+{{< youtube jBxgl5z27ZI >}}
 
 It would have been very easy to sympathize, and then to explain what his government is doing to reduce social security charges and government spending, but Macron chose a daring approach. He chose to say the opposite of what most entrepreneurs in the room believed. Immediately the audience had a tweetable, newsworthy statement, and he had everybody’s attention.
 
