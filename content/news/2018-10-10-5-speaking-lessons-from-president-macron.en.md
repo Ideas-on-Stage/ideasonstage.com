@@ -79,7 +79,7 @@ Sadly this lackluster finish also happened right at the very end of the evening 
 
 Think of a sentence like a two-headed match. It should begin powerfully, like striking the head of a match causing it to burst into flame. Then, keep your message burning, ensuring nobody switches off. And finally, at the end, when a typical match or dull statement would normally sizzle out into silence, suddenly and surprisingly, it reignites in flame!
 
-This analogy goes for any presentation. Start strong, and finish with a flourish. 
+(This analogy goes for any presentation as well, by the way. Start strongly, and finish with a flourish.)
 
 **Macron could benefit from practicing conclusions. And any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely have already generated several possible conclusions you can use that will ensure a big round of applause.**
 
