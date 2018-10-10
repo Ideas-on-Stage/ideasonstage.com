@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "5 Speaking Lessons from President Macron"
 tags = ["Speaking", "Lessons", "President", "French", "Macron", "Talk", "Technique", "Tips", "Learning", "Present", ""]
 news = ["general"]
