@@ -7,11 +7,11 @@ date = "2018-10-10"
 author = "Phil Waknell"
 banner = "/img/news/macron-feature.jpg"
 +++
-Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. If you weren't there, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
+Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. Ideas on Stage may not be a tech company, but we have helped thousands of start-ups with their pitches, and partner with many accelerators including Ashoka’s Share-IT, based at Station F. So we are very much part of the French Tech ecosystem, and very interested in how it is evolving under its new Director, our good friend [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). If you weren't at Station F last night, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/).
 
 It’s no surprise to see Macron supporting tech entrepreneurs: while Economy Minister a few years back, he was regularly seen at tech events and even CES. But taking live questions, on a day when his government was under fire about the time it is taking over the cabinet reshuffle, was brave to say the least.
 
-Most politicians would have ensured questions were ‘planted’ in the audience, or simply gathered questions beforehand and addressed them in turn. Macron did neither. Questions were taken from a sea of raised hands by French Tech Director [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr), not by Macron, and I know first-hand that those questions were chosen at random.
+Most politicians would have ensured questions were ‘planted’ in the audience, or simply gathered questions beforehand and addressed them in turn. Macron did neither. Questions were taken from a sea of raised hands by French Tech Director, not by Macron, and I know first-hand that those questions were chosen at random.
 
 I’m not going to comment on the politics or the quality of his answers. (I always try to stay out of politics.) But I will cover three important points that speakers can learn from what Macron did very well, and two more from what he could still improve.
 
@@ -33,13 +33,11 @@ Preparation is always the difference between weak and strong communication. Whet
 
 One question received its own round of applause, because it resonated with so many entrepreneurs in the audience. The questioner explained that he finds it difficult to recruit employees because of the very high employers’ social charges, which mean in France that an employee costs far more than they actually take home. “My enemy is the URSSAF,” (the French Social Security agency). 
 
-Macron took a moment to reflect on this statement and the audience’s sympathetic applause, and replied: “The URSSAF is your friend.” 
+Macron took a moment to reflect on this statement and the audience’s sympathetic applause, and replied: “The URSSAF is your friend.”
 
-{{< youtube jBxgl5z27ZI >}}
+It would have been very easy to sympathize, and then to explain what his government is doing to reduce social security charges and government spending, but Macron chose a daring approach. He chose to say the opposite of what most entrepreneurs in the room believed. Immediately the audience had this tweetable, newsworthy statement, and he had everybody’s attention. You can catch the moment in the [transcript here](https://www.youtube.com/watch?v=jBxgl5z27ZI).
 
-It would have been very easy to sympathize, and then to explain what his government is doing to reduce social security charges and government spending, but Macron chose a daring approach. He chose to say the opposite of what most entrepreneurs in the room believed. Immediately the audience had a tweetable, newsworthy statement, and he had everybody’s attention.
-
-He then went on to defend the French social model, and the importance of social security, while later saying that they are working to lower social charges and make hiring easier. But that would not have been as powerful without his daring, controversial statement that everybody will easily remember days and weeks later.
+He then went on to defend the French social model, and the importance of social security, while later saying that they are working to lower social charges and make hiring easier. But that would not have been as powerful without his daring, controversial statement that everybody will easily remember days and weeks later: “The URSSAF is your friend.”
 
 Dare to surprise your audience. They will sit up and pay attention – and that is half the battle for any speaker.
 
@@ -70,6 +68,8 @@ Aim to keep any answer to no more than two minutes. When you set yourself this l
 Many speakers fail to pay attention to the end of their speech, or the end of their sentences. Yesterday, Macron was able to speak clearly and coherently for minutes on end, but then once he got the end of some answers, he appeared to run out of words, or out of breath, and those last sentences tailed off. Twice the audience felt he had finished, or was having trouble finishing, and applauded when in fact he had not properly completed his sentence. On several other occasions, it was clear he was already thinking of the next sentence, and lost power at the end of the current sentence in his haste to begin his next one. This is one of the problems I encounter most often when helping speakers.
 
 Sadly this lackluster finish also happened right at the very end where Macron gave a call to action to the entrepreneurs in the room. This was an excellent way to finish, but unfortunately the last sentence tailed off, and ended up with slightly awkward applause punctuated by a slightly embarrassed “Voilà” from the President.
+
+![The double-sided match](/img/news/slide-double-headed-match.001.jpeg)
 
 Think of a sentence like a two-headed match. It should begin powerfully, like the head of a match being struck and bursting into flame. It should keep burning, ensuring nobody switches off. But at the end, while a typical match just stops burning, and many sentences tail off slowly into silence, a good sentence will finish with power, like a match burning down to another head and finishing with a reignited flame.
 
