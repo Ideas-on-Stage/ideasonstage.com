@@ -9,7 +9,10 @@ banner = "/img/news/a-img_0143_cut.jpg"
 +++
 Hier, le Président de la République française, Emmanuel Macron, a répondu en direct aux questions d'un auditoire de 2 000 entrepreneurs et investisseurs à la Station F, plaque tournante incontestée de la communauté des start-ups françaises.
 ​​Ideas on Stage n’est peut-être pas une entreprise de technologie mais nous avons aidé des milliers de start-ups à créer leur pitch, et nous avons des partenariats avec de nombreux accélérateurs dont [ShareIT.io](https://share-it.io/), implanté à la Station F. Donc nous faisons bel et bien partie de l’écosystème French Tech, et nous suivons avec enthousiasme son essor, grâce à sa nouvelle Directrice, notre excellente amie [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). Si vous n’étiez pas à la Station F, vous pouvez regarder le replay sur [Facebook LIVE ici](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/).
+
+
 ​​Ce n’est pas surprenant de voir Macron soutenir la French Tech : il a souvent assisté aux événements tech et même au CES alors qu’il était Ministre de l’Économie. Mais prendre des questions en direct, le jour où son gouvernement était sous le feu des projecteurs avec le temps pris par le remaniement ministériel, était pour le moins courageux. La plupart des politiciens auraient veillé à ce que des questions soient « suggérées à l’avance » ou auraient tout simplement rassemblé des questions à l’avance et les auraient abordées à leur tour. Macron n'a fait ni l'un ni l'autre. Les personnes qui posaient les questions ont été choisies — au hasard, je le confirme — parmi une mer de mains levées par Kat Borlongan, et non par Macron.
+
 ​​ 
 ​​Je ne vais pas commenter la politique du Président ou la qualité de ses réponses. (J'essaie toujours de rester en dehors de la politique.) Mais je vais aborder trois leçons importantes que l’on peut tirer de ce que Macron a fait de bien, et deux autres de ce qu'il pourrait encore améliorer.
 ​​ 
@@ -21,12 +24,16 @@ Hier, le Président de la République française, Emmanuel Macron, a répondu en
 **1. ​L'improvisation se prépare**
    ​​ 
 ​Si Macron était capable d'écouter des questions non préparées et semblait parfaitement à l'aise en y répondant — sur des sujets aussi variés que la diversité, l'anti-trust, les Ed-Tech, les visas et même les pesticides — c'est parce qu'il avait été extrêmement bien briefé.
+
    ​​ 
 ​​Macron savait, au moment de monter sur scène, qu’il devrait traiter d’une grande variété de sujets. À aucun moment, il n’a semblé perdu ou à court de réponses, et il n’a évité aucune question, contrairement à ce que les politiciens ont tendance à faire. Que vous soyez d'accord avec sa politique ou non, il est certainement très bien informé. Mais il a surtout bien conscience que si l’on veut improviser, il vaut mieux d’abord bien se préparer.
+
    ​​ 
 ​​L'improvisation est difficile pour n'importe qui (et impossible pour certains). Les présentateurs risquent de penser que leur choix est soit de se préparer très bien, soit d'improviser, et donc de n’avoir rien à préparer. C'est faux. Macron a donné un bel exemple de la force d’une préparation qui vous permet d’improviser.
+
    ​​ 
 **​​La préparation est toujours ce qui fait la différence entre une communication faible et forte. Que vous soyez en train d’apprendre un discours ou de préparer une séance de questions-réponses, on peut détourner légèrement les mots célèbres de Benjamin Franklin :  « Ratez votre préparation, ratez votre présentation. »**
+
 
 ![null](/img/news/quote-roosevelt.jpg)
 
@@ -36,10 +43,13 @@ Hier, le Président de la République française, Emmanuel Macron, a répondu en
 
 Une question a été applaudie car elle a suscité l'intérêt de nombreux entrepreneurs dans l'auditoire. L’auteur de la question a expliqué qu’il trouvait difficile de recruter des employés en raison des charges sociales très élevées imposées aux employeurs, ce qui signifie qu’en France, un employé coûte beaucoup plus à son employeur que son simple salaire. « Mon ennemi, c'est l'URSSAF » disait-il, en référence à l’organisme de sécurité sociale.
 
+
 ​​Macron a pris un moment pour réfléchir à cette déclaration et aux applaudissements compréhensifs du public et a répondu : « Votre ami, c’est L’URSSAF. »
 
 {{< youtube jBxgl5z27ZI >}}
 ​​
+<br>
+
 ​​Il aurait été très facile de compatir, puis d’expliquer ce que fait son gouvernement pour réduire les charges sociales et les dépenses de l’État, mais Macron a choisi une approche audacieuse. Il a choisi de dire le contraire de ce que croyaient la plupart des entrepreneurs de la salle. Immédiatement, l’auditoire a eu une déclaration choc, digne d’être partagée sur Twitter, et il a retenu l’attention de tous.
 ​​Il a ensuite défendu le modèle social français et l’importance de la sécurité sociale, tout en affirmant par la suite qu’ils travaillaient à réduire les charges sociales et à faciliter l’embauche. Mais cela n’aurait pas été aussi puissant sans son audacieuse déclaration controversée dont tout le monde se souviendra facilement pendant des jours et des semaines.
 **​​Osez surprendre votre public. Ils vont dresser l’oreille et faire attention – et c'est la moitié de la bataille gagnée pour n'importe quel orateur.**
