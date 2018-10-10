@@ -59,6 +59,8 @@ The second reason is that we all have mirror neurons which unconsciously perceiv
 
 **Macron appeared to enjoy the exchange yesterday. He seemed positive in explaining his policies. That made it so much easier for the audience to feel equally positive.**
 
+
+
 \--So those are three important lessons any speaker can learn from President Macron’s exchange yesterday. Here are two more speaking tips, which Macron can still improve on, and which we can all benefit from employing more.
 
 4. **Short answers are best**
