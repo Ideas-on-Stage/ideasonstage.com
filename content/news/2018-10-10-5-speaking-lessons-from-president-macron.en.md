@@ -71,13 +71,13 @@ Sadly this lackluster finish also happened right at the very end where Macron ga
 
 ![The double-sided match](/img/news/slide-double-headed-match.001.jpeg)
 
-Think of a sentence like a two-headed match. It should begin powerfully, like the head of a match being struck and bursting into flame. It should keep burning, ensuring nobody switches off. But at the end, while a typical match just stops burning, and many sentences tail off slowly into silence, a good sentence will finish with power, like a match burning down to another head and finishing with a reignited flame.
+Think of a sentence like a two-headed match. It should begin powerfully, like striking the head of a match causing it to burst into flame. Then, keep your point burning, ensuring nobody switches off. And finally, at the end, when a typical match or dull statement would sizzle out into silence, suddenly and surprisingly, it reignites in flame.
 
-(This analogy goes for any presentation as well, by the way. Start strongly, and finish with a flourish.)
+This analogy goes for any presentation. Start strong, and finish with a flourish.
 
-Macron could benefit from practicing conclusions, and any speaker can gain power and credibility by ensuring they finish each sentence – especially final sentences – clearly and powerfully. Even when improvising, it is possible to finish each sentence strongly, and if you have prepared everything well, you will already have several possible conclusions you can use that will ensure a big round of applause.
+Macron could benefit from practicing conclusions, and any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely already have several possible conclusions you can use that will ensure a big round of applause.
 
-President Macron is a powerful, confident communicator, and while he is not yet the finished article, he is improving. That in itself should be a lesson to us all: every speaker, no matter how good, has potential to develop their skills. It comes through practice, through a desire to improve, and through a deep respect for your audience that drives you to give them the best experience. 
+President Macron is a powerful, confident communicator. And even though he is already a highly skilled speaker, he is not yet the finished article, and he continues to improve. That in itself should be a lesson to us all: every speaker, no matter how good, has potential to develop and stretch their skills. How? It comes through practice, a desire to improve, and through a deep respect for your audience that drives you to give them the best experience possible.
 
 Macron gave French Tech a great experience yesterday. I have no doubt he’ll be even better next time.
 
