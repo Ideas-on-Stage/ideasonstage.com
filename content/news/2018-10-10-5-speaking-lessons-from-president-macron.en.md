@@ -7,11 +7,13 @@ date = "2018-10-10"
 author = "Phil Waknell"
 banner = "/img/news/macron-feature.jpg"
 +++
-Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. If you weren't there, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
+Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. Ideas on Stage may not be a tech company, but we have helped thousands of start-ups with their pitches, and partner with many accelerators including Ashoka’s Share-IT, based at Station F. So we are very much part of the French Tech ecosystem, and very interested in how it is evolving under its new Director, our good friend [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). If you weren't present for the event at Station F, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
+
+![The stage at Station F on October 9, 2018](/img/news/french-tech-stage-station-f.jpg)
 
 It’s no surprise to see Macron supporting tech entrepreneurs: while Economy Minister a few years back, he was regularly seen at tech events and even CES. But taking live questions, on a day when his government was under fire about the time it is taking over the cabinet reshuffle, was brave to say the least.
 
-Most politicians would have ensured questions were ‘planted’ in the audience, or simply gathered questions beforehand and addressed them in turn. Macron did neither. Questions were taken from a sea of raised hands by French Tech Director [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr), not by Macron, and I know first-hand that those questions were chosen at random.
+Most politicians would have ensured questions were ‘planted’ in the audience, or simply gathered questions beforehand and addressed them in turn. Macron did neither. Questions were taken from a sea of raised hands by Kat Borlongan, not by Macron, and I know first-hand that those questions were chosen at random.
 
 I’m not going to comment on the politics or the quality of his answers. (I always try to stay out of politics.) But I will cover three important points that speakers can learn from what Macron did very well, and two more from what he could still improve.
 
