@@ -19,7 +19,7 @@ I’m not going to comment on the politics or the quality of his answers. (I alw
 
 ![Station F awaiting President Macron and Kat Borlongan](/img/news/a-img_0076.jpg)
 
-**1. Improvisation requires preparation**
+1. **Improvisation requires preparation**
 
 If Macron was able to listen to unprepared questions and seem completely at ease responding to them – on subjects as varied as diversity, anti-trust, ed-tech, visas and even pesticides – it is because he was extremely well-briefed.
 
@@ -31,7 +31,7 @@ Preparation is always the difference between weak and strong communication. Whet
 
 ![Slide designed by Ideas on Stage](https://d2mxuefqeaa7sj.cloudfront.net/s_A26D9D14E5500731227AC5A23DBCEEDA7F0AB3D74874D7C76FDBC3676F1828BE_1539169395189_Slide+Franklin+16x9+EN.039+1.png)
 
-**2. Dare to surprise**
+2. **Dare to surprise**
 
 One question received its own round of applause, because it resonated with so many entrepreneurs in the audience. The questioner explained that he finds it difficult to recruit employees because of the very high employers’ social charges, which mean in France that an employee costs far more than they actually take home. “My enemy is the URSSAF,” (the French Social Security agency). 
 
@@ -47,7 +47,7 @@ Dare to surprise your audience. They will sit up and pay attention – and that 
 
 ![Macron smiles as Kat moderates](/img/news/a-img_0112_cut.jpg)
 
-**3. Smile, and the audience smiles with you**
+3. **Smile, and the audience smiles with you**
 
 One improvement I have noticed in Macron’s speaking behavior over the years has been his smile. While his predecessor François Hollande strove in vain to appear presidential, and therefore always tried to seem serious and grave, Macron appears to believe in his ideas and policies, and he is now visibly positive when he explains them.
 
@@ -59,7 +59,7 @@ Macron appeared to enjoy the exchange yesterday. He seemed positive in explainin
 
 \--So those are three important lessons any speaker can learn from President Macron’s exchange yesterday. Here are two more speaking tips, which Macron can still improve on, and which we can all benefit from employing more.
 
-**4. Short answers are best**
+4. **Short answers are best**
 
 In a session where there are potentially hundreds of questions, answering only a handful of them will leave many people disappointed, and many subjects uncovered. This may be easier for the speaker, but it is not better for the audience. While Macron’s initial speech was refreshingly short, his answers to most of the questions were very long. Although he tried to make it up by staying longer than planned and taking four questions at the end when Kat had said there was time for only one, it would have been a far more dynamic, interesting and fruitful exchange if he had taken twice as many questions, and answered each one in half the time.
 
@@ -67,7 +67,7 @@ Why? The danger when you give a long answer is that people forget the question, 
 
 Aim to keep any answer to no more than two minutes. When you set yourself this limit, you will be amazed at what you can say in those two minutes, and it will be more powerful than a comprehensive 5-minute answer.
 
-**5. Finish with a flourish**
+5. **Finish with a flourish**
 
 Many speakers fail to pay attention to the end of their speech, or the end of their sentences. Yesterday, Macron was able to speak clearly and coherently for minutes on end, but then once he would start to wrap-up his answers, he appeared to run out of words, or out of breath, and tail off. Twice the audience though he had finished, and applauded when in fact he had not properly completed his sentence. On several other occasions, it was clear he was already thinking of the next sentence, and lost power at the end of the current sentence in his haste to begin the next. This is one of the most common problems I encounter when helping speakers.
 
