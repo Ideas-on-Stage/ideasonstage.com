@@ -78,8 +78,11 @@ Voilà donc trois leçons importantes que tout orateur peut tirer de l’échang
 ​​**4. Les réponses courtes sont plus fortes**
 
 Dans une séance où il y a potentiellement des centaines de questions, répondre à une poignée d'entre elles laissera beaucoup de gens déçus et de nombreux sujets ne seront pas abordés. C’est peut-être plus facile pour l'orateur, mais ce n'est pas l’idéal pour l'auditoire.
+
 ​​Alors que le discours initial de Macron était remarquablement court, ses réponses à la plupart des questions furent très longues. Il a essayé de se rattraper en restant plus longtemps que prévu et en répondant à quatre questions à la fin, alors que Kat avait dit qu'il ne restait de temps que pour une seule question. Mais l’échange aurait été beaucoup plus dynamique, intéressante et fructueuse s'il avait pris deux fois plus de questions, et répondu à chacune en deux fois moins de temps.
-​​Lorsque vous donnez une longue réponse, les gens risquent d’oublier la question, ou le début de votre réponse, lorsque vous arrivez à la fin. En outre, souvent une grande partie du public ne s'intéresse pas à la réponse à certaines questions. Il est donc sage de ne pas prendre trop de temps à moins que la réponse ne présente un intérêt clair pour tout le monde. Par exemple, hier, la première question portait sur EdTech, une « niche » importante mais une niche néanmoins, et après quelques minutes, quiconque ne se trouvant pas dans ce domaine pointu se demandait quand Macron finirait et passerait à un sujet qui les intéressait davantage.
+
+Lorsque vous donnez une longue réponse, les gens risquent d’oublier la question, ou le début de votre réponse, lorsque vous arrivez à la fin. En outre, souvent une grande partie du public ne s'intéresse pas à la réponse à certaines questions. Il est donc sage de ne pas prendre trop de temps à moins que la réponse ne présente un intérêt clair pour tout le monde. Par exemple, hier, la première question portait sur EdTech, une « niche » importante mais une niche néanmoins, et après quelques minutes, quiconque ne se trouvant pas dans ce domaine pointu se demandait quand Macron finirait et passerait à un sujet qui les intéressait davantage.
+
 **Essayez de limiter vos réponses à deux minutes tout au plus. Si vous vous fixez cette limite, vous serez étonné de ce que vous pourrez dire pendant ces deux minutes. Ce sera plus efficace qu'une réponse complète de cinq minutes.**
 
 <br>
