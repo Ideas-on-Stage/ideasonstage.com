@@ -17,7 +17,9 @@ I’m not going to comment on the politics or the quality of his answers. (I alw
 
 ![Station F awaiting President Macron and Kat Borlongan](/img/news/a-img_0076.jpg)
 
-1. **Improvisation requires preparation**
+<br>
+
+**1. Improvisation requires preparation**
 
 If Macron was able to listen to unprepared questions and seem completely at ease responding to them – on subjects as varied as diversity, anti-trust, ed-tech, visas and even pesticides – it is because he was extremely well-briefed.
 
@@ -29,7 +31,9 @@ Improvisation is hard for anyone (and impossible for some). There is a danger th
 
 ![Slide designed by Ideas on Stage](https://d2mxuefqeaa7sj.cloudfront.net/s_A26D9D14E5500731227AC5A23DBCEEDA7F0AB3D74874D7C76FDBC3676F1828BE_1539169395189_Slide+Franklin+16x9+EN.039+1.png)
 
-2. **Dare to surprise**
+<br>
+
+**2. Dare to surprise**
 
 One question received its own round of applause, because it resonated with so many entrepreneurs in the audience. The questioner explained that he finds it difficult to recruit employees because of the very high employers’ social charges, which mean in France that an employee costs far more than they actually take home. “My enemy is the URSSAF,” (the French Social Security agency). 
 
@@ -55,9 +59,13 @@ The second reason is that we all have mirror neurons which unconsciously perceiv
 
 **Macron appeared to enjoy the exchange yesterday. He seemed positive in explaining his policies. That made it so much easier for the audience to feel equally positive.**
 
+<br>
+
 \--So those are three important lessons any speaker can learn from President Macron’s exchange yesterday. Here are two more speaking tips, which Macron can still improve on, and which we can all benefit from employing more.
 
-4. **Short answers are best**
+<br>
+
+**4. Short answers are best**
 
 In a session where there are potentially hundreds of questions, answering only a handful of them will leave many people disappointed, and many subjects uncovered. This may be easier for the speaker, but it is not better for the audience. While Macron’s initial speech was refreshingly short, his answers to most of the questions were very long. Although he tried to make it up by staying longer than planned and taking four questions at the end when Kat had said there was time for only one, it would have been a far more dynamic, interesting and fruitful exchange if he had taken twice as many questions, and answered each one in half the time.
 
@@ -65,7 +73,7 @@ Why? The danger when you give a long answer is that people forget the question, 
 
 **Aim to keep any answer to no more than two minutes. When you set yourself this limit, you will be amazed at what you can say in those two minutes, and it will be more powerful than a comprehensive 5-minute answer.**
 
-5. **Finish with a flourish**
+**5. Finish with a flourish**
 
 Many speakers fail to pay attention to the end of their speech, or the end of their sentences. Yesterday, Macron was able to speak clearly and coherently for minutes on end, but then once he would start to wrap-up his answers, he appeared to run out of words, or out of breath, and tail off. Twice the audience though he had finished, and applauded when in fact he had not properly completed his sentence. On several other occasions, it was clear he was already thinking of the next sentence, and lost power at the end of the current sentence in his haste to begin the next. This is one of the most common problems I encounter when helping speakers.
 
@@ -79,7 +87,9 @@ Think of a sentence like a two-headed match. It should begin powerfully, like st
 
 **Macron could benefit from practicing conclusions. And any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely have already generated several possible conclusions you can use that will ensure a big round of applause.**
 
-In conclusion, President Macron is a powerful, confident communicator. And even though he is already a highly skilled speaker, he is not yet the finished article, and he continues to improve. That in itself should be a lesson to us all: every speaker, no matter how good, has potential to further develop and stretch their skills. It comes through practice, a desire to improve, and through a deep respect for your audience that drives you to give them the best experience possible.
+<br>
+
+President Macron is a powerful, confident communicator. And even though he is already a highly skilled speaker, he is not yet the finished article, and he continues to improve. That in itself should be a lesson to us all: every speaker, no matter how good, has potential to further develop and stretch their skills. It comes through practice, a desire to improve, and through a deep respect for your audience that drives you to give them the best experience possible.
 
 Macron gave French Tech a great experience yesterday. I have no doubt he’ll be even better next time.
 
