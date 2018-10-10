@@ -19,6 +19,8 @@ I’m not going to comment on the politics or the quality of his answers. (I alw
 
 ![Station F awaiting President Macron and Kat Borlongan](/img/news/a-img_0076.jpg)
 
+
+
 1. **Improvisation requires preparation**
 
 If Macron was able to listen to unprepared questions and seem completely at ease responding to them – on subjects as varied as diversity, anti-trust, ed-tech, visas and even pesticides – it is because he was extremely well-briefed.
