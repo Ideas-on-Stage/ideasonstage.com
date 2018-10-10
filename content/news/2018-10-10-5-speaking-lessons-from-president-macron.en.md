@@ -17,6 +17,8 @@ I’m not going to comment on the politics or the quality of his answers. (I alw
 
 ![Station F awaiting President Macron and Kat Borlongan](/img/news/a-img_0076.jpg)
 
+<br>
+
 **1. Improvisation requires preparation**
 
 If Macron was able to listen to unprepared questions and seem completely at ease responding to them – on subjects as varied as diversity, anti-trust, ed-tech, visas and even pesticides – it is because he was extremely well-briefed.
@@ -25,7 +27,7 @@ Birds can ‘wing it’. Presenters cannot. Macron knew when taking this stage t
 
 Improvisation is hard for anyone (and impossible for some). There is a danger that presenters think that their choice is either to prepare very well, or to improvise and therefore not need to prepare. That is wrong. Macron gave a fine example of how strong preparation makes you ready to improvise. 
 
-Preparation is always the difference between weak and strong communication. Whether you are learning a speech or preparing a Q&A session, Benjamin Franklin’s famous words always apply: “By failing to prepare, you are preparing to fail.”
+**Preparation is always the difference between weak and strong communication. Whether you are learning a speech or preparing a Q&A session, Benjamin Franklin’s famous words always apply: “By failing to prepare, you are preparing to fail.”**
 
 ![Slide designed by Ideas on Stage](https://d2mxuefqeaa7sj.cloudfront.net/s_A26D9D14E5500731227AC5A23DBCEEDA7F0AB3D74874D7C76FDBC3676F1828BE_1539169395189_Slide+Franklin+16x9+EN.039+1.png)
 
@@ -41,7 +43,7 @@ It would have been very easy to sympathize, and then to explain what his governm
 
 He then went on to defend the French social model, and the importance of social security, while later saying that they are working to lower social charges and make hiring easier. But that would not have been as powerful without his daring, controversial statement that everybody will easily remember days and weeks later.
 
-Dare to surprise your audience. They will sit up and pay attention – and that is half the battle for any speaker.
+**Dare to surprise your audience. They will sit up and pay attention – and that is half the battle for any speaker.**
 
 ![Macron smiles as Kat moderates](/img/news/a-img_0112_cut.jpg)
 
