@@ -7,9 +7,7 @@ date = "2018-10-10"
 author = "Phil Waknell"
 banner = "/img/news/macron-feature.jpg"
 +++
-Yesterday French President Emmanual Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community.
-
-{{< youtube jBxgl5z27ZI >}} 
+Yesterday French President Emmanual Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. If you weren't there, you can catch the playback on Facebook [LIVE here](<{{< youtube jBxgl5z27ZI >}} >).
 
 It’s no surprise to see Macron supporting tech entrepreneurs: while Economy Minister a few years back, he was regularly seen at tech events and even CES. But taking live questions, on a day when his government was under fire about the time it is taking over the cabinet reshuffle, was brave to say the least.
 
