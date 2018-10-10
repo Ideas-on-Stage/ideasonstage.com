@@ -89,9 +89,10 @@ Lorsque vous donnez une longue réponse, les gens risquent d’oublier la questi
 
 **5. Terminez en beauté**
 Beaucoup d'orateurs ne prêtent pas attention à la fin de leur discours, ni à la fin de leurs phrases. Hier, Macron était capable de parler clairement et de manière cohérente pendant plusieurs minutes, mais à la fin de certaines réponses, il semblait manquer de mots, ou à bout de souffle, et du coup ces dernières phrases manquaient d’énergie.
-   ​​À deux reprises, le public a senti qu'il avait terminé ou avait du mal à terminer sa phrase, et a applaudi alors qu’il tentait encore de trouver les bons mots. À d’autres occasions, il était évident qu'il pensait déjà à la phrase suivante et il perdait de l’énergie à la fin de sa phrase en cours, trop pressé de commencer la suivante.
-   ​​ 
-   ​​C'est l'un des problèmes que je rencontre assez souvent lorsque j'aide des conférenciers. Malheureusement, cette façon décevante de terminer sa phrase a également eu lieu à la toute fin lorsque Macron a lancé un appel à l'action aux entrepreneurs présents. C'était une excellente façon de terminer, mais malheureusement, la dernière phrase s'est estompée et s'est terminée par des applaudissements au début incertains ponctués d'un « Voilà ! » légèrement embarrassé du Président.
+
+​​À deux reprises, le public a senti qu'il avait terminé ou avait du mal à terminer sa phrase, et a applaudi alors qu’il tentait encore de trouver les bons mots. À d’autres occasions, il était évident qu'il pensait déjà à la phrase suivante et il perdait de l’énergie à la fin de sa phrase en cours, trop pressé de commencer la suivante.
+
+​​C'est l'un des problèmes que je rencontre assez souvent lorsque j'aide des conférenciers. Malheureusement, cette façon décevante de terminer sa phrase a également eu lieu à la toute fin lorsque Macron a lancé un appel à l'action aux entrepreneurs présents. C'était une excellente façon de terminer, mais malheureusement, la dernière phrase s'est estompée et s'est terminée par des applaudissements au début incertains ponctués d'un « Voilà ! » légèrement embarrassé du Président.
 
 ![null](/img/news/slide-double-headed-match.001.jpeg)
 
@@ -108,3 +109,5 @@ Beaucoup d'orateurs ne prêtent pas attention à la fin de leur discours, ni à 
 Président Macron est un communicant puissant et confiant. Bien qu'il ne soit pas encore parfait, il s'améliore. Cela en soi devrait être une leçon pour nous tous : chaque orateur, aussi bon soit-il, a le potentiel de développer ses compétences. Cela s’acquiert par de la pratique, par le désir de s'améliorer et par le respect de votre public. Tout cela vous pousse à leur offrir la meilleure expérience possible.
 
 ​​Macron a donné à la French Tech une expérience formidable hier. Je l’attends encore plus fort la prochaine fois.
+
+![](/img/news/a-img_0172_cut.jpg)
