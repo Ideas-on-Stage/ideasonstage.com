@@ -77,9 +77,9 @@ Think of a sentence like a two-headed match. It should begin powerfully, like st
 
 This analogy goes for any presentation. Start strong, and finish with a flourish. 
 
-Macron could benefit from practicing conclusions, and any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely already have several possible conclusions you can use that will ensure a big round of applause.
+Macron could benefit from practicing conclusions. And any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely have already generated several possible conclusions you can use that will ensure a big round of applause.
 
-President Macron is a powerful, confident communicator. And even though he is already a highly skilled speaker, he is not yet the finished article, and he continues to improve. That in itself should be a lesson to us all: every speaker, no matter how good, has potential to develop and stretch their skills. It comes through practice, a desire to improve, and through a deep respect for your audience that drives you to give them the best experience possible.
+President Macron is a powerful, confident communicator. And even though he is already a highly skilled speaker, he is not yet the finished article, and he continues to improve. That in itself should be a lesson to us all: every speaker, no matter how good, has potential to further develop and stretch their skills. It comes through practice, a desire to improve, and through a deep respect for your audience that drives you to give them the best experience possible.
 
 Macron gave French Tech a great experience yesterday. I have no doubt he’ll be even better next time.
 
