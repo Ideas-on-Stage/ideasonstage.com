@@ -63,7 +63,9 @@ Macron appeared to enjoy the exchange yesterday. He seemed positive in explainin
 
 
 
-\--So those are three important lessons any speaker can learn from President Macron’s exchange yesterday. Here are two more speaking tips, which Macron can still improve on, and which we can all benefit from employing more.
+So those are three important lessons any speaker can learn from President Macron’s exchange yesterday. Here are two more speaking tips, which Macron can still improve on, and which we can all benefit from employing more.
+
+
 
 **4. Short answers are best**
 
@@ -82,6 +84,8 @@ Many speakers fail to pay attention to the end of their speech, or the end of th
 Sadly this lackluster finish also happened right at the very end of the evening when Macron gave a call to action to the entrepreneurs in the room. This was an excellent way to finish, but unfortunately the last sentence tailed off, and ended up with slightly awkward applause punctuated by a slightly embarrassed “Voilà” from the President.
 
 ![The two-headed match](/img/news/slide-double-headed-match.001.jpeg)
+
+
 
 Think of a sentence like a two-headed match. It should begin powerfully, like striking the head of a match causing it to burst into flame. Then, keep your message burning, ensuring nobody switches off. And finally, at the end, when a typical match or dull statement would normally sizzle out into silence, suddenly and surprisingly, it reignites in flame!
 
