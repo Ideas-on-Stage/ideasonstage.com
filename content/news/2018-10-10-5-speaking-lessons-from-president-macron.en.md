@@ -7,7 +7,7 @@ date = "2018-10-10"
 author = "Phil Waknell"
 banner = "/img/news/macron-feature.jpg"
 +++
-Yesterday French President Emmanual Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. If you weren't there, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
+Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. If you weren't there, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
 
 It’s no surprise to see Macron supporting tech entrepreneurs: while Economy Minister a few years back, he was regularly seen at tech events and even CES. But taking live questions, on a day when his government was under fire about the time it is taking over the cabinet reshuffle, was brave to say the least.
 
@@ -54,8 +54,6 @@ Smiling is important for two reasons. First, when we smile, the audience can hea
 The second reason is that we all have mirror neurons which unconsciously perceive and reproduce the emotions we perceive in others. If you see a speaker who appears negative, demotivated, or even bored, then you will experience the same feelings. If however you see a speaker who is positive, who speaks with passion, who clearly believes what she is saying, then you will feel the same way.
 
 Macron appeared to enjoy the exchange yesterday. He seemed positive in explaining his policies. That made it so much easier for the audience to feel equally positive.
-
-
 
 \--So those are three important lessons any speaker can learn from President Macron’s exchange yesterday. Here are two more speaking tips, which Macron can still improve on, and which we can all benefit from employing more.
 
