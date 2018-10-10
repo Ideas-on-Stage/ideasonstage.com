@@ -7,7 +7,7 @@ date = "2018-10-10"
 author = "Phil Waknell"
 banner = "/img/news/a-img_0143_cut.jpg"
 +++
-Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. Ideas on Stage may not be a tech company, but we have helped thousands of start-ups with their pitches, and partner with many accelerators including Ashoka’s Share-IT, based at Station F. So we are very much part of the French Tech ecosystem, and very interested in how it is evolving under its new Director, our good friend [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). If you weren't present for the event at Station F, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
+Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. Ideas on Stage may not be a tech company, but we have helped thousands of start-ups with their pitches, and partner with many accelerators including Ashoka’s [ShareIT.io](https://share-it.io/), based at Station F. So we are very much part of the French Tech ecosystem, and very interested in how it is evolving under its new Director, our good friend [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). If you weren't present for the event at Station F, you can catch the playback on [Facebook LIVE](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/) here.
 
 It’s no surprise to see Macron supporting tech entrepreneurs: while Economy Minister a few years back, he was regularly seen at tech events and even CES. But taking live questions, on a day when his government was under fire about the time it is taking over the cabinet reshuffle, was brave to say the least.
 
@@ -79,11 +79,13 @@ Sadly this lackluster finish also happened right at the very end of the evening 
 
 Think of a sentence like a two-headed match. It should begin powerfully, like striking the head of a match causing it to burst into flame. Then, keep your message burning, ensuring nobody switches off. And finally, at the end, when a typical match or dull statement would normally sizzle out into silence, suddenly and surprisingly, it reignites in flame!
 
-(This analogy goes for any presentation as well, by the way. Start strongly, and finish with a flourish.)
+(This analogy also goes for _any_ presentation. Start strongly, and finish with a flourish.)
 
 **Macron could benefit from practicing conclusions. And any speaker can gain power and credibility by ensuring they finish each sentence – especially the final one – clearly and powerfully. Even when improvising. And if you have prepared well, you will likely have already generated several possible conclusions you can use that will ensure a big round of applause.**
 
-President Macron is a powerful, confident communicator. And even though he is already a highly skilled speaker, he is not yet the finished article, and he continues to improve. That in itself should be a lesson to us all: every speaker, no matter how good, has potential to further develop and stretch their skills. It comes through practice, a desire to improve, and through a deep respect for your audience that drives you to give them the best experience possible.
+
+
+In conclusion, President Macron is a powerful, confident communicator. And even though he is already a highly skilled speaker, he is not yet the finished article, and he continues to improve. That in itself should be a lesson to us all: every speaker, no matter how good, has potential to further develop and stretch their skills. It comes through practice, a desire to improve, and through a deep respect for your audience that drives you to give them the best experience possible.
 
 Macron gave French Tech a great experience yesterday. I have no doubt he’ll be even better next time.
 
