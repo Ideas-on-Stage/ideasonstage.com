@@ -17,6 +17,8 @@ I’m not going to comment on the politics or the quality of his answers. (I alw
 
 ![Station F awaiting President Macron and Kat Borlongan](/img/news/a-img_0076.jpg)
 
+<br>
+
 **1. Improvisation requires preparation**
 
 If Macron was able to listen to unprepared questions and seem completely at ease responding to them – on subjects as varied as diversity, anti-trust, ed-tech, visas and even pesticides – it is because he was extremely well-briefed.
@@ -29,6 +31,8 @@ Improvisation is hard for anyone (and impossible for some). There is a danger th
 
 ![Slide designed by Ideas on Stage](https://d2mxuefqeaa7sj.cloudfront.net/s_A26D9D14E5500731227AC5A23DBCEEDA7F0AB3D74874D7C76FDBC3676F1828BE_1539169395189_Slide+Franklin+16x9+EN.039+1.png)
 
+<br>
+
 **2. Dare to surprise**
 
 One question received its own round of applause, because it resonated with so many entrepreneurs in the audience. The questioner explained that he finds it difficult to recruit employees because of the very high employers’ social charges, which mean in France that an employee costs far more than they actually take home. “My enemy is the URSSAF,” (the French Social Security agency). 
@@ -37,6 +41,8 @@ Macron took a moment to reflect on this statement and the audience’s sympathet
 
 {{< youtube jBxgl5z27ZI >}}
 
+<br>
+
 It would have been very easy to sympathize, and then to explain what his government is doing to reduce social security charges and government spending, but Macron chose a daring approach. He chose to say the opposite of what most entrepreneurs in the room believed. Immediately the audience had a tweetable, newsworthy statement, and he had everybody’s attention.
 
 He then went on to defend the French social model, and the importance of social security, while later saying that they are working to lower social charges and make hiring easier. But that would not have been as powerful without his daring, controversial statement that everybody will easily remember days and weeks later.
@@ -44,6 +50,8 @@ He then went on to defend the French social model, and the importance of social 
 **Dare to surprise your audience. They will sit up and pay attention – and that is half the battle for any speaker.**
 
 ![Macron smiles as Kat moderates](/img/news/a-img_0112_cut.jpg)
+
+<br>
 
 **3. Smile, and the audience smiles with you**
 
@@ -55,7 +63,11 @@ The second reason is that we all have mirror neurons which unconsciously perceiv
 
 Macron appeared to enjoy the exchange yesterday. He seemed positive in explaining his policies. That made it so much easier for the audience to feel equally positive.
 
+<br>
+
 So those are three important lessons any speaker can learn from President Macron’s exchange yesterday. Here are two more speaking tips, which Macron can still improve on, and which we can all benefit from employing more.
+
+<br>
 
 **4. Short answers are best**
 
@@ -65,6 +77,8 @@ Why? The danger when you give a long answer is that people forget the question, 
 
 Aim to keep any answer to no more than two minutes. When you set yourself this limit, you will be amazed at what you can say in those two minutes, and it will be more powerful than a comprehensive 5-minute answer.
 
+<br>
+
 **5. Finish with a flourish**
 
 Many speakers fail to pay attention to the end of their speech, or the end of their sentences. Yesterday, Macron was able to speak clearly and coherently for minutes on end, but then once he would start to wrap-up his answers, he appeared to run out of words, or out of breath, and tail off. Twice the audience though he had finished, and applauded when in fact he had not properly completed his sentence. On several other occasions, it was clear he was already thinking of the next sentence, and lost power at the end of the current sentence in his haste to begin the next. This is one of the most common problems I encounter when helping speakers.
@@ -72,6 +86,8 @@ Many speakers fail to pay attention to the end of their speech, or the end of th
 Sadly this lackluster finish also happened right at the very end of the evening when Macron gave a call to action to the entrepreneurs in the room. This was an excellent way to finish, but unfortunately the last sentence tailed off, and ended up with slightly awkward applause punctuated by a slightly embarrassed “Voilà” from the President.
 
 ![The two-headed match](/img/news/slide-double-headed-match.001.jpeg)
+
+<br>
 
 Think of a sentence like a two-headed match. It should begin powerfully, like striking the head of a match causing it to burst into flame. Then, keep your message burning, ensuring nobody switches off. And finally, at the end, when a typical match or dull statement would normally sizzle out into silence, suddenly and surprisingly, it reignites in flame!
 
