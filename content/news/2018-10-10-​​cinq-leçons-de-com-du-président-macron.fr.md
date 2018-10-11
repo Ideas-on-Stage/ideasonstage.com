@@ -8,7 +8,7 @@ author = "Phil Waknell"
 banner = "/img/news/a-img_0143_cut.jpg"
 +++
 Hier, le Président de la République française, Emmanuel Macron, a répondu en direct aux questions d'un auditoire de 2 000 entrepreneurs et investisseurs à la Station F, plaque tournante incontestée de la communauté des start-ups françaises. 
-
+ 
 ​​Ideas on Stage travaille depuis des années avec l'écosystème French Tech dont suivons l'essor avec enthousiasme, grâce à sa nouvelle Directrice, [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). Nous avons aidé des milliers de start-ups à créer leur pitch, et nous avons des partenariats avec de nombreux accélérateurs dont [ShareIT.io](https://share-it.io/), implanté à la [Station F](https://stationf.co/fr/). Si vous n’étiez pas à la Station F, vous pouvez regarder le replay sur [Facebook LIVE ici](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/).
 
 ​​Ce n’est pas surprenant de voir Macron soutenir la French Tech : il a souvent assisté aux événements high-tech et même au CES alors qu’il était Ministre de l’Économie. Mais prendre des questions en direct, le jour où son gouvernement était sous le feu des projecteurs avec le temps pris par le remaniement ministériel, était pour le moins courageux. 
