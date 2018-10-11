@@ -1,6 +1,6 @@
 +++
 draft = "false"
-title = "​​Cinq leçons de com du Président Macron"
+title = "​​Emmanuel Macron à Station F : cinq leçons de communication du Président"
 tags = ["Speaking", "Lessons", "President", "French", "Macron", "Talk", "Technique", "Tips", "Learning", "Present", "Tech", "Station F", "Paris", "Politics", ""]
 news = ["general"]
 date = "2018-10-10"
