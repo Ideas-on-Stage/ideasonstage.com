@@ -102,3 +102,5 @@ President Macron is a powerful, confident communicator. And even though he is al
 Macron gave French Tech a great experience yesterday. I have no doubt he’ll be even better next time.
 
 ![President Macron connecting with the audience by shaking hands after Q&A](/img/news/a-img_0172_cut.jpg)
+
+Photos © Ideas on Stage 2018
