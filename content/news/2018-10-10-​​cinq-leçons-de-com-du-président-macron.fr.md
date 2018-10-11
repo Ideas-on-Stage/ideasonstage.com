@@ -23,7 +23,7 @@ La plupart des politiciens auraient veillé à ce que des questions soient « su
 <br>
 
 **1. ​L'improvisation se prépare**
-   ​​ 
+
 ​Si Macron était capable d'écouter des questions non préparées et semblait parfaitement à l'aise en y répondant — sur des sujets aussi variés que la diversité, l'anti-trust, les Ed-Tech, les visas et même les pesticides — c'est parce qu'il avait été extrêmement bien briefé.
 
    ​​ 
