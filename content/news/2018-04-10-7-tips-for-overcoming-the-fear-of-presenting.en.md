@@ -5,7 +5,7 @@ tags = ["stage fright", "presenting", "fear"]
 news = ["general"]
 date = "2018-04-09"
 author = "Michael Rickwood"
-banner = "/img/news/7tips_thumb.jpg"
+banner = "/img/news/7tips.jpg"
 +++
 > Fear doesn't remove the danger. Embrace it and get on top of your presentations.
 
