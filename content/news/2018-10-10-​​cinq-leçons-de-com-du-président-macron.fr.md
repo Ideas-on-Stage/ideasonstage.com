@@ -1,7 +1,7 @@
 +++
 draft = "false"
 title = "​​Emmanuel Macron à Station F : cinq leçons de communication du Président"
-tags = ["Speaking", "Lessons", "President", "French", "Macron", "Talk", "Technique", "Tips", "Learning", "Present", "Tech", "Station F", "Paris", "Politics", ""]
+tags = ["Art oratoire", "Président", "Macron", "Technique", "Station F", "Paris", "Politique", "Communication"]
 news = ["general"]
 date = "2018-10-10"
 author = "Phil Waknell"
@@ -9,9 +9,9 @@ banner = "/img/news/a-img_0143_cut.jpg"
 +++
 Hier, le Président de la République française, Emmanuel Macron, a répondu en direct aux questions d'un auditoire de 2 000 entrepreneurs et investisseurs à la Station F, plaque tournante incontestée de la communauté des start-ups françaises. 
 
-​​Ideas on Stage n’est peut-être pas une entreprise de technologie mais nous avons aidé des milliers de start-ups à créer leur pitch, et nous avons des partenariats avec de nombreux accélérateurs dont [ShareIT.io](https://share-it.io/), implanté à la [Station F](https://stationf.co/fr/). Donc nous faisons bel et bien partie de l’écosystème French Tech, et nous suivons avec enthousiasme son essor, grâce à sa nouvelle Directrice, notre excellente amie [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). Si vous n’étiez pas à la Station F, vous pouvez regarder le replay sur [Facebook LIVE ici](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/).
+​​Ideas on Stage travaille depuis des années avec l'écosystème French Tech dont suivons l'essor avec enthousiasme, grâce à sa nouvelle Directrice, [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). Nous avons aidé des milliers de start-ups à créer leur pitch, et nous avons des partenariats avec de nombreux accélérateurs dont [ShareIT.io](https://share-it.io/), implanté à la [Station F](https://stationf.co/fr/). Si vous n’étiez pas à la Station F, vous pouvez regarder le replay sur [Facebook LIVE ici](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/).
 
-​​Ce n’est pas surprenant de voir Macron soutenir la French Tech : il a souvent assisté aux événements tech et même au CES alors qu’il était Ministre de l’Économie. Mais prendre des questions en direct, le jour où son gouvernement était sous le feu des projecteurs avec le temps pris par le remaniement ministériel, était pour le moins courageux. 
+​​Ce n’est pas surprenant de voir Macron soutenir la French Tech : il a souvent assisté aux événements high-tech et même au CES alors qu’il était Ministre de l’Économie. Mais prendre des questions en direct, le jour où son gouvernement était sous le feu des projecteurs avec le temps pris par le remaniement ministériel, était pour le moins courageux. 
 
 La plupart des politiciens auraient veillé à ce que des questions soient « suggérées à l’avance » ou auraient tout simplement rassemblé des questions à l’avance et les auraient abordées à leur tour. Macron n'a fait ni l'un ni l'autre. Les personnes qui posaient les questions ont été choisies — au hasard, je le confirme — parmi une mer de mains levées par Kat Borlongan, et non par Macron.
 
@@ -25,13 +25,10 @@ La plupart des politiciens auraient veillé à ce que des questions soient « su
 **1. ​L'improvisation se prépare**
 
 ​Si Macron était capable d'écouter des questions non préparées et semblait parfaitement à l'aise en y répondant — sur des sujets aussi variés que la diversité, l'anti-trust, les Ed-Tech, les visas et même les pesticides — c'est parce qu'il avait été extrêmement bien briefé.
-
-   ​​ 
+   
 ​​Macron savait, au moment de monter sur scène, qu’il devrait traiter d’une grande variété de sujets. À aucun moment, il n’a semblé perdu ou à court de réponses, et il n’a évité aucune question, contrairement à ce que les politiciens ont tendance à faire. Que vous soyez d'accord avec sa politique ou non, il est certainement très bien informé. Mais il a surtout bien conscience que si l’on veut improviser, il vaut mieux d’abord bien se préparer.
-
    ​​ 
 ​​L'improvisation est difficile pour n'importe qui (et impossible pour certains). Les présentateurs risquent de penser que leur choix est soit de se préparer très bien, soit d'improviser, et donc de n’avoir rien à préparer. C'est faux. Macron a donné un bel exemple de la force d’une préparation qui vous permet d’improviser.
-
    ​​ 
 **​​La préparation est toujours ce qui fait la différence entre une communication faible et forte. Que vous soyez en train d’apprendre un discours ou de préparer une séance de questions-réponses, on peut détourner légèrement les mots célèbres de Benjamin Franklin :  « Ratez votre préparation, ratez votre présentation. »**
 
@@ -106,8 +103,8 @@ Beaucoup d'orateurs ne prêtent pas attention à la fin de leur discours, ni à 
 
 <br>
 
-Président Macron est un communicant puissant et confiant. Bien qu'il ne soit pas encore parfait, il s'améliore. Cela en soi devrait être une leçon pour nous tous : chaque orateur, aussi bon soit-il, a le potentiel de développer ses compétences. Cela s’acquiert par de la pratique, par le désir de s'améliorer et par le respect de votre public. Tout cela vous pousse à leur offrir la meilleure expérience possible.
+Emmanuel Macron est un communicant qui dégage puissance et confiance. Bien qu'il ne soit pas encore parfait, il s'améliore. Cela en soi devrait être une leçon pour nous tous : chaque orateur, aussi bon soit-il, a le potentiel de développer ses compétences. Cela s’acquiert par de la pratique, par le désir de s'améliorer et par le respect de votre public. Tout cela vous pousse à leur offrir la meilleure expérience possible.
 
-​​Macron a donné à la French Tech une expérience formidable hier. Je l’attends encore plus fort la prochaine fois.
+Le Président a donné à la French Tech une expérience formidable hier. Je m'attends à ce qu'il soit encore meilleur la prochaine fois.
 
 ![](/img/news/a-img_0172_cut.jpg)
