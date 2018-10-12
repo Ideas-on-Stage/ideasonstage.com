@@ -17,21 +17,23 @@ La plupart des politiciens auraient veillé à ce que des questions soient « 
 ​​
 Je ne vais pas commenter la politique du Président ou la qualité de ses réponses, j’essaie toujours de rester en dehors de la politique. Mais je vais aborder trois leçons importantes que l’on peut tirer de ce que Macron a fait de bien, et deux autres de ce qu’il pourrait encore améliorer.
 ​​
+<br />
 ![null](/img/news/a-img_0076.jpg)
-<br>
+<br />
 
 **1. ​L’improvisation se prépare**
 ​
 Si Macron était capable d’écouter des questions non préparées et semblait parfaitement à l’aise en y répondant — sur des sujets aussi variés que diversité, antitrust, Ed-Tech, visas et même pesticides — c’est parce qu’il avait été extrêmement bien briefé.
 ​​
 Macron savait, au moment de monter sur scène, qu’il devrait traiter d’une grande variété de sujets. À aucun moment il n’a semblé perdu ou à court de réponses, et il n’a évité aucune question, contrairement à ce que les politiciens ont tendance à faire. Que vous soyez d’accord avec sa politique ou non, il est très bien informé. Mais il a surtout conscience que si l’on veut improviser, il faut d’abord bien se préparer.
-​​
+
 Les présentateurs pensent souvent qu'ils ont uniquement le choix entre soit de se préparer très bien, soit complètement improviser. C’est faux. Macron a donné un bel exemple de la force d’une préparation qui vous permet d’improviser.
-​​
+
 **​​La préparation est toujours ce qui fait la différence entre une communication faible et forte. Que vous soyez en train d’apprendre un discours ou de préparer une séance de questions-réponses, on peut détourner légèrement les mots célèbres de Benjamin Franklin : « Ratez votre préparation, ratez votre présentation. »**
 
+<br />
 ![null](/img/news/s_a26d9d14e5500731227ac5a23dbceeda7f0ab3d74874d7c76fdbc3676f1828be_1539169395189_slide-franklin-16x9-en.039-1.png)
-<br>
+<br />
 
 **2. Oser surprendre**
 
@@ -39,9 +41,9 @@ Une question a été applaudie, car elle a suscité l’intérêt de nombreux en
 ​​
 Macron a pris un moment pour réfléchir à cette déclaration et aux applaudissements compréhensifs du public et a répondu : « Votre ami, c’est L’URSSAF. »
 
+<br />
 {{< youtube jBxgl5z27ZI >}}
-​​
-<br>
+​​<br />
 ​​
 Il aurait été très facile de compatir, puis d’expliquer ce que fait son gouvernement pour réduire les charges sociales et les dépenses de l’État, mais Macron a choisi une approche audacieuse. Il a choisi de dire le contraire de ce que croyaient la plupart des entrepreneurs de la salle. Immédiatement, l’auditoire a eu une déclaration-choc, digne d’être partagée sur Twitter, et qui a retenu l’attention de tous.
 
@@ -49,9 +51,9 @@ Il a ensuite défendu le modèle social français et l’importance de la sécur
 
 **​​Osez surprendre votre public. Ils vont dresser l’oreille et faire attention – et c’est la moitié de la bataille gagnée pour n’importe quel orateur.**
 
+<br />
 ![null](/img/news/a-img_0112_cut.jpg)
-
-<br>
+<br />
 
 **3. ​​Souriez et le public vous sourira**
 
@@ -69,7 +71,7 @@ Voilà donc trois leçons importantes que tout orateur peut tirer de l’échang
 
 <br>
 ​​
-\\*\\*4. Les réponses courtes sont plus fortes\\*\\*
+**4. Les réponses courtes sont plus fortes**
 
 Dans une séance où il y a potentiellement des centaines de questions, répondre à une poignée d’entre elles laissera beaucoup de gens déçus et de nombreux sujets ne seront pas abordés. C’est peut-être plus facile pour l’orateur, mais ce n’est pas idéal pour l’auditoire.
 ​​
@@ -79,7 +81,7 @@ Lorsque vous donnez une longue réponse, les gens risquent d’oublier la questi
 
 **Essayez de limiter vos réponses à deux minutes tout au plus. Si vous vous fixez cette limite, vous serez étonné de ce que vous pourrez dire pendant ces deux minutes. Ce sera plus efficace qu’une réponse complète de cinq minutes.**
 
-<br>
+<br />
 
 **5. Terminez en beauté**
 
@@ -89,15 +91,15 @@ Beaucoup d’orateurs ne prêtent pas attention à la fin de leur discours ni à
 ​​
 C’est un des problèmes que je rencontre assez souvent lorsque j’aide des conférenciers. Malheureusement, cette façon décevante de terminer sa phrase a également eu lieu à la toute fin lorsque Macron a lancé un appel à l’action aux entrepreneurs présents. C’était une excellente façon de terminer, mais malheureusement la dernière phrase s’est estompée et s’est terminée par des applaudissements, au début incertains, ponctués d’un « Voilà ! » légèrement embarrassé du Président.
 
+<br />
 ![null](/img/news/slide-double-headed-match.001.jpeg)
-
-<br>
+<br />
 ​​
 Pensez à une phrase comme à une allumette à deux têtes. Elle devrait commencer avec énergie, comme la tête d’une allumette qui s’enflamme. Elle devrait continuer à brûler, en veillant à ce que personne ne décroche. Mais à la fin, alors qu’une banale allumette cesse juste de brûler tout comme de nombreuses phrases s’éteignent lentement dans le silence, une bonne phrase se termine avec énergie, comme une allumette qui se consume, se rallume à son extrémité et se termine avec panache. Cette analogie s’applique d’ailleurs à n’importe quelle présentation : commencez avec force et terminez en beauté.
 
 **​​Macron gagnerait à soigner ses conclusions. Tout orateur peut gagner en impact et en crédibilité en s’assurant de bien terminer chaque phrase — en particulier les phrases de conclusion — de manière claire et puissante. Même en improvisant, il est possible de conclure chaque phrase avec force, et si vous avez tout bien préparé, vous aurez déjà plusieurs conclusions possibles que vous pourrez utiliser pour vous assurer une salve d’applaudissements.**
 
-<br>
+<br />
 
 Emmanuel Macron est un communicant qui dégage puissance et confiance. Bien qu’il ne soit pas encore parfait, il s’améliore. Cela en soi devrait être une leçon pour nous tous : chaque orateur, aussi bon soit-il, a le potentiel de développer ses compétences. Cela s’acquiert par la pratique, par le désir de s’améliorer et par le respect de votre public. Tout cela vous pousse à leur offrir la meilleure expérience possible.
 Le Président a donné à la French Tech une expérience formidable hier. Je m’attends à ce qu’il soit encore meilleur la prochaine fois.
