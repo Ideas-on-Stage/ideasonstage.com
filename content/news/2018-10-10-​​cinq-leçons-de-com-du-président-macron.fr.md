@@ -69,7 +69,7 @@ Voilà donc trois leçons importantes que tout orateur peut tirer de l’échang
 
 <br>
 ​​
-**4. Les réponses courtes sont plus fortes**
+\\*\\*4. Les réponses courtes sont plus fortes\\*\\*
 
 Dans une séance où il y a potentiellement des centaines de questions, répondre à une poignée d’entre elles laissera beaucoup de gens déçus et de nombreux sujets ne seront pas abordés. C’est peut-être plus facile pour l’orateur, mais ce n’est pas idéal pour l’auditoire.
 ​​
