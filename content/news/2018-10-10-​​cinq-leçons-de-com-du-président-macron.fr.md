@@ -32,7 +32,7 @@ Les présentateurs pensent souvent qu'ils ont uniquement le choix entre soit de 
 **​​La préparation est toujours ce qui fait la différence entre une communication faible et forte. Que vous soyez en train d’apprendre un discours ou de préparer une séance de questions-réponses, on peut détourner légèrement les mots célèbres de Benjamin Franklin : « Ratez votre préparation, ratez votre présentation. »**
 
 <br />
-![null](/img/news/s_a26d9d14e5500731227ac5a23dbceeda7f0ab3d74874d7c76fdbc3676f1828be_1539169395189_slide-franklin-16x9-en.039-1.png)
+![null](/img/news/s_a26d9d14e5500731227ac5a23dbceeda7f0ab3d74874d7c76fdbc3676f1828be_1539169395189_slide-franklin-16x9-en.039-1.jpg)
 <br />
 
 **2. Oser surprendre**
