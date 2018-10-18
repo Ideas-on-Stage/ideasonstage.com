@@ -54,7 +54,9 @@ Il a ensuite défendu le modèle social français et l’importance de la sécur
 **​​Osez surprendre votre public. Ils vont dresser l’oreille et faire attention – et c’est la moitié de la bataille gagnée pour n’importe quel orateur.**
 
 <br />
-!\\\\\[null](/img/news/a-img_0112_cut.jpg)
+
+![null](/img/news/a-img_0112_cut.jpg)
+
 <br />
 
 **3. ​​Souriez et le public vous sourira**
@@ -73,7 +75,7 @@ Voilà donc trois leçons importantes que tout orateur peut tirer de l’échang
 
 <br>
 ​​
-\\\\\*\\\\\*4. Les réponses courtes sont plus fortes\\\\\*\\\\\*
+**4. Les réponses courtes sont plus fortes**
 
 Dans une séance où il y a potentiellement des centaines de questions, répondre à une poignée d’entre elles laissera beaucoup de gens déçus et de nombreux sujets ne seront pas abordés. C’est peut-être plus facile pour l’orateur, mais ce n’est pas idéal pour l’auditoire.
 ​​
@@ -94,7 +96,9 @@ Beaucoup d’orateurs ne prêtent pas attention à la fin de leur discours ni à
 C’est un des problèmes que je rencontre assez souvent lorsque j’aide des conférenciers. Malheureusement, cette façon décevante de terminer sa phrase a également eu lieu à la toute fin lorsque Macron a lancé un appel à l’action aux entrepreneurs présents. C’était une excellente façon de terminer, mais malheureusement la dernière phrase s’est estompée et s’est terminée par des applaudissements, au début incertains, ponctués d’un « Voilà ! » légèrement embarrassé du Président.
 
 <br />
-!\\\\\[null](/img/news/slide-double-headed-match.001.jpeg)
+
+![null](/img/news/slide-double-headed-match.001.jpeg)
+
 <br />
 ​​
 Pensez à une phrase comme à une allumette à deux têtes. Elle devrait commencer avec énergie, comme la tête d’une allumette qui s’enflamme. Elle devrait continuer à brûler, en veillant à ce que personne ne décroche. Mais à la fin, alors qu’une banale allumette cesse juste de brûler tout comme de nombreuses phrases s’éteignent lentement dans le silence, une bonne phrase se termine avec énergie, comme une allumette qui se consume, se rallume à son extrémité et se termine avec panache. Cette analogie s’applique d’ailleurs à n’importe quelle présentation : commencez avec force et terminez en beauté.
