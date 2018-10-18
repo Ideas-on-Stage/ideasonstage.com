@@ -29,7 +29,7 @@ Improvisation is hard for anyone (and impossible for some). There is a danger th
 
 **Preparation is always the difference between weak and strong communication. Whether you are learning a speech or preparing a Q&A session, Benjamin Franklin’s famous words always apply: “By failing to prepare, you are preparing to fail.”**
 
-![Slide designed by Ideas on Stage](https://d2mxuefqeaa7sj.cloudfront.net/s_A26D9D14E5500731227AC5A23DBCEEDA7F0AB3D74874D7C76FDBC3676F1828BE_1539169395189_Slide+Franklin+16x9+EN.039+1.jpg)
+![Slide designed by Ideas on Stage](/img/news/s_a26d9d14e5500731227ac5a23dbceeda7f0ab3d74874d7c76fdbc3676f1828be_1539169395189_slide-franklin-16x9-en.039-1.jpg)
 
 <br>
 
