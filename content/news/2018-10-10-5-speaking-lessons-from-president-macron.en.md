@@ -5,7 +5,7 @@ tags = ["Speaking", "Lessons", "President", "French", "Macron", "Talk", "Techniq
 news = ["general"]
 date = "2018-10-10"
 author = "Phil Waknell"
-banner = "/img/news/a-img_0143_cut.jpg"
+banner = "/img/news/a-img_0143_thumb.jpg"
 +++
 Yesterday French President Emmanuel Macron took live, unscripted questions from an audience of 2000 tech entrepreneurs and investors at Station F, the undisputed hub of the French startup community. Ideas on Stage may not be a tech company, but we have helped thousands of start-ups with their pitches, and partner with many accelerators including Ashoka’s [ShareIT.io](https://share-it.io/), based at [Station F](https://stationf.co). So we are very much part of the French Tech ecosystem, and very interested in how it is evolving under its new Director, our good friend [Kat Borlongan](https://www.linkedin.com/in/kat-borlongan/?originalSubdomain=fr). If you weren't present for the event at Station F, you can catch the playback on [Facebook LIVE here](https://www.facebook.com/EmmanuelMacron/videos/521273488336651/). 
 
