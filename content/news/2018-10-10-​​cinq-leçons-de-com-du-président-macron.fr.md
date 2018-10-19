@@ -5,7 +5,7 @@ tags = ["Art oratoire", "Président", "Macron", "Technique", "Station F", "Paris
 news = ["general"]
 date = "2018-10-10"
 author = "Phil Waknell"
-banner = "/img/news/a-img_0143_cut.jpg"
+banner = "/img/news/a-img_0143_thumb.jpg"
 +++
 Hier, le Président de la République française, Emmanuel Macron, a répondu en direct aux questions d’un auditoire de 2 000 entrepreneurs et investisseurs à Station F, plaque tournante incontestée de la communauté des start-up françaises.
 
