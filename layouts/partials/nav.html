@@ -47,7 +47,8 @@
 		                	{{ else }}
 							{{- range .Site.Params.navigation.languages }}
 								<li>
-									<a href="{{ .url }}{{ with $.Page.URL }}{{ . }}{{ end }}">{{ .name }}</a> 
+<!-- 								<a href="{{ .url }}{{ with $.Page.URL }}{{ . }}{{ end }}">{{ .name }}</a> -->
+									<a href="{{ .url }}">{{ .name }}</a>
 								</li> 
 							{{- end }}
 							{{ end }}
