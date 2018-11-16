@@ -1,5 +1,5 @@
 {{ "<!-- NAVIGATION -->" | safeHTML }}
-		<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+		<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top ">
 		    <div class="container-fluid">
 		        {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
 		        <div class="navbar-header">
@@ -17,7 +17,7 @@
 		            <img src="{{ .Site.Params.navigation.brand_logo }}" alt="Ideas on Stage" class="navbar-brand"></a>
 		        </div>
 		        {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
-		        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		        <div class="collapse navbar-collapse ios-nav" id="bs-example-navbar-collapse-1">
 		            <ul class="nav navbar-nav navbar-right">
 		            {{- if .IsHome }}
 						{{- range .Site.Params.navigation.items }}

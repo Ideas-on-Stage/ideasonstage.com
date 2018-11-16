@@ -541,7 +541,6 @@ footer a {
   outline: 0;
 }
 
-*/
 
 .nav-tabs >li.active>a {
 	color: #FF8200!important;
@@ -556,6 +555,10 @@ footer a {
 	border-left: 1px solid #ddd;
 	border-right: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
+}
+
+.ios-nav a {
+	text-align: right;
 }
 
 /*
