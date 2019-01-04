@@ -6,5 +6,5 @@ weight		= 4
 categories	= [ "The Business Presentation Revolution" ]
 showrefs	= false
 urlredirect	= ""
-url 		= "/bpr/"
+url 		= "/revolution/"
 +++
