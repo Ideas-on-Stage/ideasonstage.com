@@ -1,0 +1,8 @@
+url: /bpr/
+language: en
+position: bottom
+title: "Hero image"
+layout: insert-full-picture.html
+style: bg-white
+picture: bpr-header.png
+description: ""

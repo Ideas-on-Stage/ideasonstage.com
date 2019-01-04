@@ -1,4 +1,5 @@
 {{ "<!-- HEADER -->" | safeHTML }}
+{{ if ne .Title "" }}
 <header id="{{ .Title }}" class="bg-dark">
 <!-- <img src="/pictures{{ .RelPermalink }}/image.png" class="header-content-img img-responsive"> -->
     <div class="header-content">
@@ -18,3 +19,4 @@
 -->            
     </div>
 </header>
+{{ end }}
