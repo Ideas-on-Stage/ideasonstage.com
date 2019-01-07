@@ -36,3 +36,7 @@ Bad: “After my presentation, my audience will know our corporate presentation 
 Good: “After my presentation, my audience will successfully use our corporate presentation style every time.”
 
 Remember, if you haven’t got a clear objective, you’re certain not to achieve it.
+
+
+
+_For more tips on how to present successfully follow us on LinkedIn and leave a comment or question! Starting January 9 2019 subscribe to our video podcast called _The Business Presentation Revolution_. More info at www.ideasonstage.com/revolution. _
