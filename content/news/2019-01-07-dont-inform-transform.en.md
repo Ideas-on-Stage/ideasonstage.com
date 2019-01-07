@@ -19,8 +19,6 @@ Presentations are very bad at informing people - but they can be great at transf
 
 {{< youtube J3GkrfuXMqE >}}
 
-						
-
 **What is your transformational objective?**
 
 Your aim as a presenter is to change your audience in some way. If, after your presentation, they neither believe, feel, nor do anything new or different, then you’ve wasted your time. 
@@ -39,4 +37,4 @@ Good: “After my presentation, my audience will successfully use our corporate 
 
 Remember, if you haven’t got a clear objective, you’re certain not to achieve it.
 
-_For more tips on how to present successfully follow us on _[_LinkedIn_](https://www.linkedin.com/company/ideas-on-stage/)_ and leave a comment or question! Starting January 9 2019 subscribe to our video podcast called "_[_The Business Presentation Revolution_](www.ideasonstage.com/revolution)_"._
+_For more tips on how to present successfully follow us on _[_LinkedIn_](https://www.linkedin.com/company/ideas-on-stage/)_ and leave a comment or question! Starting January 9 2019 subscribe to our video podcast called _[_The Business Presentation Revolution_](https://www.ideasonstage.com/revolution)_._
