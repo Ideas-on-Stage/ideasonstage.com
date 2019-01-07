@@ -19,7 +19,7 @@ Presentations are very bad at informing people - but they can be great at transf
 
 {{< youtube J3GkrfuXMqE >}}
 
-<p style=“margin-top: 20px; font-weight: 700;”>What is your transformational objective?</p>
+<strong style=“margin-top: 20px; ”>What is your transformational objective?</strong>
 
 Your aim as a presenter is to change your audience in some way. If, after your presentation, they neither believe, feel, nor do anything new or different, then you’ve wasted your time. 
 
