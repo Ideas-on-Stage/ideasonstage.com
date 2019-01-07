@@ -7,6 +7,8 @@ date = "2019-01-07"
 author = "Phil Waknell"
 banner = "/img/news/screen-shot-2019-01-07-at-9.54.08-am.png"
 +++
+{{< youtube J3GkrfuXMqE >}}
+
 Too many presentations aim only to inform, yet this is one thing oral presentations are particularly bad at -- we forget most of what we hear within 30 seconds.
 
 If you want people to remember information, give them a document and a coffee, and time to read. Then you can answer their questions, discuss, agree on the next steps, and leave.
