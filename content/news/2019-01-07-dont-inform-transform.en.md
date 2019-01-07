@@ -7,6 +7,8 @@ date = "2019-01-07"
 author = "Phil Waknell"
 banner = "/img/news/screen-shot-2019-01-07-at-9.54.08-am.png"
 +++
+{{< youtube J3GkrfuXMqE >}}
+
 Too many presentations aim only to inform, yet this is one thing oral presentations are particularly bad at -- we forget most of what we hear within 30 seconds.
 
 If you want people to remember information, give them a document and a coffee, and time to read. Then you can answer their questions, discuss, agree on the next steps, and leave.
@@ -37,4 +39,4 @@ Good: “After my presentation, my audience will successfully use our corporate 
 
 Remember, if you haven’t got a clear objective, you’re certain not to achieve it.
 
-_For more tips on how to present successfully follow us on _[_LinkedIn_](https://www.linkedin.com/company/ideas-on-stage/)_ and leave a comment or question! Starting January 9 2019 subscribe to our video podcast called _[_The Business Presentation Revolution_](https://www.ideasonstage.com/revolution)_._
+*For more tips on how to present successfully follow us on [LinkedIn](https://www.linkedin.com/company/ideas-on-stage/) and leave a comment or question! Starting January 9 2019 subscribe to our video podcast called [The Business Presentation Revolution](https://www.ideasonstage.com/revolution).*
