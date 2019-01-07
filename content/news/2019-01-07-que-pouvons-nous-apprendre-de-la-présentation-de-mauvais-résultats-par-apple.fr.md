@@ -1,6 +1,6 @@
 +++
 draft = "false"
-title = "Que pouvons nous apprendre de la présentation de mauvais résultats par Apple ?"
+title = "Que pouvons-nous apprendre de l'alerte sur les bénéfices d'Apple ?"
 tags = ["Apple", "Alerte", "Présentations"]
 news = ["general"]
 date = "2019-01-08"
