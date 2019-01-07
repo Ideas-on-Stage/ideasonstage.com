@@ -11,7 +11,7 @@ Too many presentations aim only to inform, yet this is one thing oral presentati
 
 If you want people to remember information, give them a document and a coffee, and time to read. Then you can answer their questions, discuss, agree on the next steps, and leave.
 
-This is what happens in meetings at companies like Amazon and LinkedIn, where not only do meetings never have slides - they never have presentations. Meetings begin with a period of silence, during which participants read a document that tells them everything they need to know, and the subjects up for discussion in the meeting.
+This is what happens in meetings at companies like [Amazon](https://qz.com/work/1422191/why-silent-meetings-at-work-are-effective-and-inclusive/) and LinkedIn, where not only do meetings never have slides - they never have presentations. Meetings begin with a period of silence, during which participants read a document that tells them everything they need to know, and the subjects up for discussion in the meeting.
 
 After reading, everybody is literally on the same page. They ask questions, they check understanding, they discuss, they agree - and nobody gets up to present. Meetings take half as long as they did before. And anyone who missed the meeting can easily read the document to get a far better briefing than they would have got by reading a bunch of bullet points.
 
