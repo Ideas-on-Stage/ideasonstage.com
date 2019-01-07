@@ -17,9 +17,9 @@ After reading, everybody is literally on the same page. They ask questions, they
 
 Presentations are very bad at informing people - but they can be great at transforming them.
 
-{{< youtube J3GkrfuXMqE >}}
+<https://www.youtube.com/watch?v=J3GkrfuXMqE>						
 
-<p style="padding-top:20px;">What is your transformational objective?</p>
+**What is your transformational objective?**
 
 Your aim as a presenter is to change your audience in some way. If, after your presentation, they neither believe, feel, nor do anything new or different, then you’ve wasted your time. 
 
