@@ -11,15 +11,15 @@ Too many presentations aim only to inform, yet this is one thing oral presentati
 
 If you want people to remember information, give them a document and a coffee, and time to read. Then you can answer their questions, discuss, agree on the next steps, and leave.
 
-This is what happens in meetings at companies like Amazon and LinkedIn, where not only do meetings never have slides - they never have presentations. Meetings begin with a period of silence, during which participants read a document that tells them everything they need to know, and the subjects up for discussion in the meeting.
+This is what happens in meetings at companies like [Amazon](https://qz.com/work/1422191/why-silent-meetings-at-work-are-effective-and-inclusive/) and [LinkedIn](https://www.linkedin.com/company/ideas-on-stage/), where not only do meetings never have slides - they never have presentations. Meetings begin with a period of silence, during which participants read a document that tells them everything they need to know, and the subjects up for discussion in the meeting.
 
 After reading, everybody is literally on the same page. They ask questions, they check understanding, they discuss, they agree - and nobody gets up to present. Meetings take half as long as they did before. And anyone who missed the meeting can easily read the document to get a far better briefing than they would have got by reading a bunch of bullet points.
 
 Presentations are very bad at informing people - but they can be great at transforming them.
 
-{{< youtube J3GkrfuXMqE >}}
+<https://www.youtube.com/watch?v=J3GkrfuXMqE>						
 
-<p style="padding-top:20px;">What is your transformational objective?</p>
+**What is your transformational objective?**
 
 Your aim as a presenter is to change your audience in some way. If, after your presentation, they neither believe, feel, nor do anything new or different, then you’ve wasted your time. 
 
@@ -36,3 +36,5 @@ Bad: “After my presentation, my audience will know our corporate presentation 
 Good: “After my presentation, my audience will successfully use our corporate presentation style every time.”
 
 Remember, if you haven’t got a clear objective, you’re certain not to achieve it.
+
+For more tips on how to present successfully follow us on [LinkedIn](https://www.linkedin.com/company/ideas-on-stage/) and leave a comment or question! Starting January 9 2019 subscribe to our video podcast called "The Business Presentation Revolution" -- more info at www.ideasonstage.com/revolution.
