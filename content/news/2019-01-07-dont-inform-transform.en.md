@@ -17,7 +17,7 @@ After reading, everybody is literally on the same page. They ask questions, they
 
 Presentations are very bad at informing people - but they can be great at transforming them.
 
-youtube J3GkrfuXMqE
+{{< youtube J3GkrfuXMqE >}}
 
 What is your transformational objective?
 
