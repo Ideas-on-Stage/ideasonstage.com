@@ -24,3 +24,5 @@ Why does this matter? It’s especially important because in such a communicatio
 The third point is really the key message, the one you want everybody to remember. If your delivery is too long, a lot of people will only remember the first point. That you are doomed.
 
 If you have to deliver bad news in a presentation, this is how you should do it. Be as succinct as possible. Start with the bad news, provide context, then conclude with the key positive message.
+
+![](/img/news/two-apples.jpg)
