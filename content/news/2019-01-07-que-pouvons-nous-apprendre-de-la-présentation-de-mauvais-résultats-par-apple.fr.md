@@ -4,7 +4,7 @@ title = "Que pouvons-nous apprendre de l'alerte sur les bénéfices d'Apple ?"
 tags = ["Apple", "Alerte", "Présentations"]
 news = ["general"]
 date = "2019-01-08"
-author = "Pierre Morsa, co-fondateur d'Ideas on Stage"
+author = "Pierre Morsa"
 banner = "/img/news/two-apples.jpg"
 +++
 Vous avez probablement lu qu’Apple était finie. Mercredi dernier, ils ont publié une alerte sur les bénéfices, suivie d’une interview de Tim Cook, leur CEO.
