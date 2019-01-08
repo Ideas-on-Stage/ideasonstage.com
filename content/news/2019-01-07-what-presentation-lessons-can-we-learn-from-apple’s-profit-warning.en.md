@@ -4,7 +4,7 @@ title = "What presentation lessons can we learn from Apple’s profit warning?"
 tags = ["Apple", "Profit Warning", "Press Release", "Presentations"]
 news = ["general"]
 date = "2019-01-08"
-author = "Pierre Morsa, co-founder of Ideas on Stage"
+author = "Pierre Morsa"
 banner = "/img/news/two-apples.jpg"
 +++
 By now, you’ve probably heard that Apple was doomed. Last Wednesday they released a profit warning press release, followed by an interview with CEO Tim Cook. 
