@@ -1,6 +1,6 @@
 url: /revolution/
 language: en
-position: bottom
+position: top
 title: "Hero image"
 layout: insert-full-picture.html
 style: bg-white

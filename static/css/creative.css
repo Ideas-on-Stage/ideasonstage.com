@@ -125,8 +125,10 @@ li {
 
 /*
 	HOLY FLEX STUFF
+	Used to manage full width pictures
 */
 .flex-container {
+	margin-top: 20px;
 	position: relative;
 	height: 675px;
 	width: 100%;
@@ -368,8 +370,8 @@ display: block;
 */
 
 section {
-    padding-top: 40px;
-    padding-bottom:40px;
+    padding-top: 80px;
+    padding-bottom:80px;
    }
    
 section#content  {
