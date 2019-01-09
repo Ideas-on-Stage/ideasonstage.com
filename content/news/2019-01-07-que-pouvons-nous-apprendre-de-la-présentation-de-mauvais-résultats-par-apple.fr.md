@@ -17,8 +17,8 @@ Mais pour nous, présentateurs, ce qui nous intéresse vraiment est le contraste
 Pourquoi est-ce si important ? Parce que dans ce genre de communication, écrite ou orale, l’information que vous voulez que le public retienne est à la fin. Elle suit cette structure :
 
 * Reconnaissez le problème : nous allons rater nos objectifs financiers. Cette partie ne doit pas être longue. Dites juste de combien, et pourquoi. N’essayez pas d’ajouter des explications douteuses ; elles ne feront qu’alimenter les rumeurs.
-  * Expliquez le contexte. Est-ce juste un problème propre à Apple ? Non, le ralentissement affecte toute l’industrie.
-    * Donnez la conclusion qui tue. De tous les acteurs, Apple est celui qui reste de très loin le plus profitable, et le mieux préparé pour affronter le futur.
+* Expliquez le contexte. Est-ce juste un problème propre à Apple ? Non, le ralentissement affecte toute l’industrie.
+* Donnez la conclusion qui tue. De tous les acteurs, Apple est celui qui reste de très loin le plus profitable, et le mieux préparé pour affronter le futur.
 
 Le dernier point est le message clé, celui que vous voulez que tout le monde retienne. Si votre lettre est trop longue, de nombreuses personnes ne liront et ne se souviendront que du début. Que vous êtes fichu.
 
