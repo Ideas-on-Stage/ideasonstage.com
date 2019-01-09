@@ -23,3 +23,5 @@ Pourquoi est-ce si important ? Parce que dans ce genre de communication, écri
 Le dernier point est le message clé, celui que vous voulez que tout le monde retienne. Si votre lettre est trop longue, de nombreuses personnes ne liront et ne se souviendront que du début. Que vous êtes fichu.
 
 Si vous devez annoncer une mauvaise nouvelle dans une présentation, c’est comme cela qu’il faut faire. Soyez le plus bref possible. Commencez par la mauvaise nouvelle, expliquez le contexte, et concluez avec le message clé positif.
+
+![](/img/news/two-apples.jpg)
