@@ -567,7 +567,8 @@ footer a {
 header#home {
 	position: relative;
 	width: 100%;
-	height: calc(100% - 8em);
+	height: 60%;
+	min-height: 400px;
 	text-align: center;
 	color: #fff;
 	background-position: center;
