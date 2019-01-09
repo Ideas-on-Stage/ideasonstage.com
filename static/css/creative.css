@@ -292,12 +292,26 @@ li {
 	padding-bottom: 0px;
 }
 
+.padding-none {
+	padding: 0px;
+}
+
 .paddingv10 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 .paddingv20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.paddingv-huge {
+	padding-top: 80px;
+	padding-bottom: 80px;
+} 
+
+.paddingv-small {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
@@ -369,13 +383,7 @@ display: block;
 	If padding added to section(s), it breaks the full width inserts
 */
 
-section {
-    padding-top: 80px;
-    padding-bottom:80px;
-   }
-   
 section#content  {
-	padding-top: 0px;
 	background-color: #fff; 
 }
 
@@ -391,7 +399,7 @@ section#content p {
 	margin-top: 1em;
 }
 
-section#content img {
+section#content-main img {
 	margin-top: 2em;
 	margin-bottom: 2em;
 }

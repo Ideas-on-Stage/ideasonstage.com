@@ -1,7 +1,7 @@
-{{ "<!-- testimonials -->" | safeHTML }}
+{{ "<!-- partials:testimonials.html -->" | safeHTML }}
 {{ if gt (len .Site.Data.testimonials) 0 }}
 		<section id="testimonials" class="bg-lightgrey">
-		    <div class="container">
+		    <div class="container paddingv-small">
 		        <div class="row">
 		            <div class="col-xs-12">
 		               <ul class="owl-carousel testimonials same-height-row">

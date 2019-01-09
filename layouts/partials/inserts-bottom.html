@@ -1,0 +1,13 @@
+{{ "<!-- partials:inserts-bottom.html -->" | safeHTML }}
+{{- $URL := .URL }}
+{{- $.Scratch.Set "count" 0 }}
+{{- range .Site.Data.inserts }}		
+	{{- $.Scratch.Add "count" 1 }}
+	{{- if eq .url $URL }}
+		{{- if eq $.Site.Params.languagecode .language }}
+			{{- if eq .position "bottom" }}
+				{{ partial .layout . }}
+			{{- end }} 
+		{{- end }} 
+	{{- end }}
+{{- end }}    

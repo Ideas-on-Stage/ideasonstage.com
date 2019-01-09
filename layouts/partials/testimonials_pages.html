@@ -1,3 +1,4 @@
+{{ "<!-- partials:testimonials_pages.html -->" | safeHTML }}
 {{ if gt (len .Site.Data.testimonials) 0 }}
 	{{ $.Scratch.Set "show" 0 }}
 	{{ $title := .Title }}
@@ -8,7 +9,7 @@
     {{ end }}
     {{ if (gt ($.Scratch.Get "show") 0) }}
 <section id="testimonials" class="bg-lightgrey">
-    <div class="container">
+    <div class="container paddingv-small">
         <div class="row">
             <div class="col-xs-12">
                 <!--
@@ -23,8 +24,8 @@
                 <!-- *** TESTIMONIALS CAROUSEL *** -->
 			   
                <ul class="owl-carousel testimonials same-height-row">
-                    {{ range .Site.Data.testimonials }}
-                    {{ if and (.showonpage) ( eq ($title) (.category)) (eq $.Site.Params.languagecode .language) }}
+        {{ range .Site.Data.testimonials }}
+            {{ if and (.showonpage) ( eq ($title) (.category)) (eq $.Site.Params.languagecode .language) }}
                     <li class="item">
                         <!-- <div class="testimonial same-height-always"> -->
                         <div class="testimonial">
@@ -43,8 +44,8 @@
                         </div>
                     </li>
                     
-                    {{ end }}
-                    {{ end }}
+            {{ end }}
+        {{ end }}
                 </ul>
                 <!-- /.owl-carousel -->
 
@@ -55,6 +56,6 @@
     </div>
 </section>
 <!-- /.bar -->
-{{ end }}
+    {{ end }}
 {{ end }}
 

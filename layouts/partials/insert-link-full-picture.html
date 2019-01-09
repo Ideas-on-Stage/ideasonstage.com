@@ -1,19 +1,14 @@
-{{ "<!-- partials:insert-link-full-picture -->" | safeHTML }}
-	<div class="container">
-		<a href="{{ with .link }}{{ . | urlize }}{{ end }}">
-			<div class="row">
-				<div class="col-xs-12 no-padding">
-					<div class="flex-container {{ .style }}" id="offer">
-						<div class="flex-item-picture-full">
-							{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
-						</div>
-	 					<div class="flex-item-text-overlay text-center" id="inlay-text">
-						    {{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
-						    <p>{{ with .description }}{{ .  }}{{ end }}</p>
-						</div>
-					</div>
-				</div>
+{{ "<!-- partials:insert-link-full-picture.html -->" | safeHTML }}
+<section class="{{ .style }}"><!-- section used for full width background -->
+	<a href="{{ with .link }}{{ . | urlize }}{{ end }}">
+		<div class="flex-container {{ .style }}" id="offer">
+			<div class="flex-item-picture-full">
+				{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
 			</div>
-		</a>
-	</div>
-</div>
+			<div class="flex-item-text-overlay text-center" id="inlay-text">
+			    {{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
+			    <p>{{ with .description }}{{ .  }}{{ end }}</p>
+			</div>
+		</div>
+	</a>
+</section>
