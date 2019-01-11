@@ -1,0 +1,25 @@
+<!-- _default:single.html is used to build most individual pages -->
+{{ "<!-- _default:single -->" | safeHTML }}
+<!DOCTYPE html>
+{{ "<!-- partials:single-top-common.html -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{ partial "nav.html" . }}
+        
+		<header id="revolution" class="bg-dark">
+		    <div class="header-content">
+		    <!--     <div class="header-content-inner">
+		            <img src="/pictures/inserts/bpr-header.png" alt="The Business Presentation Revolution" style="width:100%;">
+		        </div>
+		    -->
+		    </div>
+		</header>
+        
+        {{ partial "content.html" . }}
+        
+        {{ partial "testimonials_pages.html" . }}
+        {{ partial "contact.html" . }}
+{{ partial "single-bottom-common.html" . }}

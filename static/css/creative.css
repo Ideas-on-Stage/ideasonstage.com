@@ -602,6 +602,23 @@ header#pz {
 	background-color: #aaa;	
 }
 
+header#revolution {
+	position: relative;
+	width: 100%;
+	height:50%;
+	background-image: url(../pictures/inserts/bpr-header.png);
+	text-align: center;
+	color: #fff;
+	margin-top:20px;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+	-o-background-size: contain;
+	background-color: rgb(255,129,0);	
+}
+
 header#home h1 {
 	font-size: 5em;
 }
