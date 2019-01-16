@@ -17,7 +17,7 @@ After reading, everybody is literally on the same page. They ask questions, they
 
 Presentations are very bad at informing people - but they can be great at transforming them.
 
-{{< youtube P9u20pKFIUQ >}}
+{{< P9u20pKFIUQ >}}
 
 <p style="margin-top:20px;"><strong>What is your transformational objective?</strong></p>
 
@@ -37,4 +37,4 @@ Good: “After my presentation, my audience will successfully use our corporate 
 
 Remember, if you haven’t got a clear objective, you’re certain not to achieve it.
 
-_For more tips on how to present successfully follow us on [_LinkedIn_](https://www.linkedin.com/company/ideas-on-stage/) and leave a comment or question! Starting January 9 2019 subscribe to our video podcast called [The Business Presentation Revolution](https://www.ideasonstage.com/revolution)_
+\--For more tips on how to present successfully follow us on [LinkedIn](https://www.linkedin.com/company/ideas-on-stage/) and leave a comment or question! Starting January 9 2019 subscribe to our video podcast called [The Business Presentation Revolution](https://www.ideasonstage.com/revolution)_
