@@ -12,8 +12,6 @@ theme        	= "hugo-creative-theme-master"
 [Permalinks]
     news = "/news/:year/:month/:day/:filename/"
 
-			
-
 	# Taxonomies
 	[taxonomies]
 		category 		= "categories"
