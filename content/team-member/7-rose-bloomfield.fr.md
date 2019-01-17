@@ -2,7 +2,7 @@
 draft		= false
 title		= "Team"
 name		= "Rose Bloomfield"
-position 	= "Responsable en Communication Créative"
+position 	= " "
 img			= "rose-bloomfield.jpg"
 showrefs	= false
 url			= "/equipe/rose-bloomfield/"
