@@ -141,6 +141,7 @@ theme        	= "hugo-creative-theme-master"
 				style		= "bg-white"
 				layout		= "insert-link-full-picture.html"
 				link		= "/presentation-creation-agency/"
+				button		= "Learn more"
 			[params.offer.002]
 				category	= "Public Speaking Coaching"
 				title		= "Public Speaking Coaching"
@@ -149,6 +150,7 @@ theme        	= "hugo-creative-theme-master"
 				style		= "bg-black"
 				layout		= "insert-link-full-picture.html"
 				link		= "/public-speaking-coaching/"
+				button		= "Learn more"
 			[params.offer.003]
 				category	= "Corporate Events"
 				title		= "Corporate Events"
@@ -157,6 +159,7 @@ theme        	= "hugo-creative-theme-master"
 				style		= "bg-black"
 				layout		= "insert-link-full-picture.html"
 				link		= "/corporate-events/event-design/"
+				button		= "Learn more"
 			[params.offer.004]
 				category	= "Training Workshops"
 				title		= "Training & Workshops"
@@ -165,6 +168,7 @@ theme        	= "hugo-creative-theme-master"
 				style		= "bg-white"
 				layout		= "insert-link-full-picture.html"
 				link		= "/training-and-workshops/"
+				button		= "Learn more"
 				
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
@@ -440,6 +444,7 @@ monthtrans = "mois.yaml"
 				style		= "bg-white"
 				layout		= "insert-link-full-picture.html"
 				link		= "/agence-creation-presentations/"
+				button		= "En savoir plus"
 			[languages.fr.offer.002]
 				category	= "public-speaking-coaching"
 				title		= "Prise de parole en public"
@@ -448,6 +453,7 @@ monthtrans = "mois.yaml"
 				style		= "bg-dark-box"
 				layout		= "insert-link-full-picture.html"
 				link		= "/coaching-prise-de-parole-en-public/"
+				button		= "En savoir plus"
 			[languages.fr.offer.003]
 				category	= "corporate-events"
 				title		= "Événements d'entreprise"
@@ -456,6 +462,7 @@ monthtrans = "mois.yaml"
 				style		= "bg-dark-box"
 				layout		= "insert-link-full-picture.html"
 				link		= "/evenements-entreprise/conception-evenements/"
+				button		= "En savoir plus"
 			[languages.fr.offer.004]
 				category	= "Training Workshops"
 				title		= "Formations et ateliers"
@@ -464,6 +471,7 @@ monthtrans = "mois.yaml"
 				style		= "bg-white"
 				layout		= "insert-link-full-picture.html"
 				link		= "/formations-ateliers/art-de-presenter/"
+				button		= "En savoir plus"
 		
 		
 		# Presentation Training Tabs (top tabs with dates in the Training page)

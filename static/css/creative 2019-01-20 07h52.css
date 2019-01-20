@@ -53,7 +53,6 @@ a {
 a:hover,
 a:focus {
     color: #FF8200;
-    text-decoration: none;
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
 	transition: all .35s;
@@ -96,7 +95,7 @@ li {
 }
 
 /*
-	FULL WIDTH IMAGE FLEX CONTAINER
+	HOLY FLEX STUFF
 	Used to manage full width pictures
 */
 .flex-container {
@@ -108,56 +107,60 @@ li {
 	overflow: hidden;
 }
 
-/*	Full width picture, centered
-	Left and right sizes get cropped, height remains constant for a given width range:
-	- up to 768px width: height is 432px
-	- between 769 and and 1200px width: height is 558px 
-	- 1201px and more: width and height remain at 1200px x 675px
-	Recommended media size: 1200px x 675px non retina, 2400px x 1350px retina
-*/
-.flex-container .flex-item-picture-full {
-	position: absolute;
-	width: 100%;
-	overflow: hidden;
-}
+	/*	Full width picture, centered
+		Left and right sizes get cropped, height remains constant for a given width range:
+		- up to 768px width: height is 432px
+		- between 769 and and 1200px width: height is 558px 
+		- 1201px and more: width and height remain at 1200px x 675px
+		Recommended media size: 1200px non retina, 2400px retina
 
-.flex-container .flex-item-picture-full img {
-	width: 1200px;
-	position: relative;
-	left: 50%;
-	transform: translate(-50%, 0%);
-}
+		On xs screens:
+			- background gets cropped left and right progressively,
+			- Size remains fixed VERTICALLY.
+	*/
+	.flex-container .flex-item-picture-full {
+		position: absolute;
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	.flex-container .flex-item-picture-full img {
+		width: 1200px;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%, 0%);
+	}
 
-/*
-	Standard text, full width, laid over picture
-*/	
-.flex-container .flex-item-text {
-}
+	/*
+		Standard text, full width, laid over picture
+	*/	
+	.flex-container .flex-item-text {
+	}
 
-flex-container .flex-item-text h4 {
-	margin-top: 30px;
-} 
-
-/*
-	Text, laid over picture
-*/
-.flex-container .flex-item-text-overlay {
-	position: absolute;
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 90%;
-}
-
-.flex-container .flex-item-text-overlay h4 {
-	margin-top: 30px;
-	padding: 0px 20px;
-	font-size: 1.8em;
-}
-
-.flex-container .flex-item-text-overlay p {
-	line-height: 1.1em;
-	font-size: 1.1em;
-}
+	flex-container .flex-item-text h4 {
+		margin-top: 30px;
+	} 
+	
+	/*
+		Text, laid over picture
+	*/
+	.flex-container .flex-item-text-overlay {
+		position: absolute;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	
+	.flex-container .flex-item-text-overlay h4 {
+		margin-top: 30px;
+		padding: 0px 20px;
+		font-size: 1.8em;
+	}
+	
+	.flex-container .flex-item-text-overlay p {
+		line-height: 1.1em;
+		font-size: 1.1em;
+	}
 	
 /*
 	Media queries
@@ -225,14 +228,19 @@ flex-container .flex-item-text h4 {
     background-color: #FF8200;
 }
 
+}
+ .bg-dark-box:hover {
+	color: #FF8200;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+}
+
 .bg-dark {
     color: #fff;
     background-color: #333541;
 }
-.bg-dark a {
-	color: #fff;
-} 
-.bg-dark a:hover {
+ .bg-dark-box:hover {
 	color: #FF8200;
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
@@ -242,11 +250,8 @@ flex-container .flex-item-text h4 {
 .bg-dark-box {
     color: #fff;
     background-color: #333541;
-}
-.bg-dark-box a {
-	color: #fff;
-}
-.bg-dark-box a:hover {
+}    
+ .bg-dark-box:hover {
 	color: #FF8200;
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
@@ -257,32 +262,31 @@ flex-container .flex-item-text h4 {
     color: #fff;
     background-color: #000;
 }
-.bg-black a {
-	color: #fff;
-}
-.bg-black a:hover {
+ .bg-black:hover {
 	color: #FF8200;
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
 	transition: all .35s;
 }
 
-
 .bg-lightgrey {
-    color: #000;
+    color: #fff;
     background-color: #f2f2f2;
+    color: rgb(51,53,65);
+}
+.bg-lightgrey:hover {
+	color: #FF8200;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
 }
 
 .text-faded {
     color: rgba(255,255,255,.7);
 }
 
-.text-blue {
+.text-blued {
 	color: rgb(51,53,65);
-}
-
-.text-white {
-	color: #fff;
 }
 
 .paddingv0 {
@@ -616,9 +620,8 @@ header#revolution {
 	background-color: rgb(255,117,0);	
 }
 
-header#home h2 {
+header#home h1 {
 	font-size: 5em;
-	text-transform: uppercase;
 }
 
 header {
@@ -1209,12 +1212,6 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary .badge {
     color: #FF8200;
     background-color: #fff;
-}
-
-
-.btn-secondary {
-    color: #00A3E0 !important;
-    padding-left: 0px;
 }
 
 .btn {

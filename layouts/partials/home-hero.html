@@ -2,7 +2,7 @@
 		<header id="home" class="bg-dark">
 		    <div class="header-content">
 		        <div class="header-content-inner">
-		            <h1>{{ with .Site.Params.hero.slogan }}{{ . | markdownify  }}{{ end }}</h1>
+		            <h2>{{ with .Site.Params.hero.slogan }}{{ . | markdownify  }}{{ end }}</h2>
 		{{- if .Site.Params.hero.subtitle_on }}           
 		            <p class="text-faded">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p>
 		{{- end }}
