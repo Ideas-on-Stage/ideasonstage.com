@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 {{ "<!-- news/list.html -->" | safeHTML }}
 {{ partial "single-top-common.html" . }}
+	<main>
         {{ partial "pagehero.html" . }}
         <div id="content">
             <div class="container paddingv-large" >
@@ -58,7 +59,6 @@
                             </div>
                         </section>
                         {{ end }}
-
                         <ul class="pager">
                             {{ if .Paginator.HasPrev }}
                             <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; {{ .Site.Params.news.prev }}</a></li>
@@ -89,6 +89,8 @@
             <!-- /.container -->
         </div>
         <!-- /#content -->
-
+	</main>
+	<aside>
  	    {{ partial "contact.html" . }}
+ 	</aside>
 {{ partial "single-bottom-common.html" . }}

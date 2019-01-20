@@ -8,18 +8,20 @@
     </head>
     <body id="page-top">
         {{ partial "nav.html" . }}
-        
-		<header id="revolution" class="bg-dark">
-		    <div class="header-content">
-		    <!--     <div class="header-content-inner">
-		            <img src="/pictures/inserts/bpr-header.png" alt="The Business Presentation Revolution" style="width:100%;">
-		        </div>
-		    -->
-		    </div>
-		</header>
-        
-        {{ partial "content.html" . }}
-        
-        {{ partial "testimonials_pages.html" . }}
-        {{ partial "contact.html" . }}
+		<main>        
+			<header id="revolution" class="bg-dark">
+			    <div class="header-content">
+			    <!--     <div class="header-content-inner">
+			            <img src="/pictures/inserts/bpr-header.png" alt="The Business Presentation Revolution" style="width:100%;">
+			        </div>
+			    -->
+			    </div>
+			</header>
+	        
+	        {{ partial "content.html" . }}
+    	</main>
+    	<aside>
+	        {{ partial "testimonials_pages.html" . }}
+	        {{ partial "contact.html" . }}
+	    </aside>
 {{ partial "single-bottom-common.html" . }}

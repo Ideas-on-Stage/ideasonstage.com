@@ -1,10 +1,14 @@
 <!-- _default:single.html is used to build most individual pages -->
 {{ "<!-- _default:single -->" | safeHTML }}
 {{ partial "single-top-common.html" . }}
+	<main>
         {{ partial "pagehero.html" . }}
         {{ partial "events-tabs.html" . }}
         {{ partial "content.html" . }}
+    </main>
+    <aside>
         {{ partial "references.html" . }}
         {{ partial "testimonials_pages.html" . }}
         {{ partial "contact.html" . }}
+    </aside>
 {{ partial "single-bottom-common.html" . }}
