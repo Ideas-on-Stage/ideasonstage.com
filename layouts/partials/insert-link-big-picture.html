@@ -3,13 +3,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<a href="{{ with .link }}{{ . | urlize }}{{ end }}">
+				<a href="{{ with .link }}{{ . }}{{ end }}">
 				<div class="flex-container {{ .style }}">
 					<div class="flex-item-text text-center">
 					    {{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
 					    <p>{{ with .description }}{{ .  }}{{ end }}</p>
 						{{ if ne .button "" }}
-						<a href="{{ with .link }}{{ . | urlize }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
+						<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
 						{{ end }}
 					</div>
 				</div>
