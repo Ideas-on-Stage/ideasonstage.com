@@ -666,7 +666,7 @@ header#revolution {
 
 header#home h2 {
 	color: #fff;
-	font-size: 5em;
+	font-size: 4em;
 	text-transform: uppercase;
 }
 
@@ -750,7 +750,7 @@ header .header-content a:hover {
 
 /*Customization for small screens*/
 @media (max-width: 576px){
-	header#home h1 {
+	header#home h2 {
 	font-size: 3.7em;
 	}
 	header .header-content .header-content-inner h2 {
