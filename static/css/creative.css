@@ -33,7 +33,7 @@ h6,
 	margin-bottom: 4px;
 }
 
-#content img {
+#content-main img {
 	display: block;
 	width: auto;
 	max-width: 100%;
@@ -133,6 +133,7 @@ li {
 	height: 675px;
 	width: 100%;
 	justify-content: center;
+	overflow: hidden;
 }
 
 	/*	Full width picture
@@ -153,7 +154,7 @@ li {
 		width: 1200px;
 		position: relative;
 		left: 50%;
-		transform: translateX(-50%);
+		transform: translate(-50%, 0%);
 	}
 
 	/*
@@ -187,28 +188,30 @@ li {
 		font-size: 1.1em;
 	}
 	
-	/*
-		Media queries
-	*/
+/*
+	Media queries
+*/
 @media(max-width:1199px){
 	.flex-container {
-		height: 562px;
+		height: 675px;
 	}
 	
 	.flex-container .flex-item-picture-full img {
-		width: 1000px;
-		height: 562px;
+		width: 1200px;
+		height: 675px;
+		transform: translate(-50%, 0%);
 	}
 }
 
 @media(max-width:991px){
 	.flex-container {
-		height: 438px;
+		height: 558px;
 	}
 
 	.flex-container .flex-item-picture-full img {
-		width: 780px;
-		height: 438px;
+		width: 992px;
+		height: 558px;
+		transform: translate(-50%, 0%);
 	}
 }
 
@@ -220,6 +223,7 @@ li {
 	.flex-container .flex-item-picture-full img {
 		width: 768px;
 		height: 432px;
+		transform: translate(-50%, 0%);
 	}
 	
 	flex-container .flex-item-text h4 {
@@ -228,7 +232,7 @@ li {
 }
 	
 /*
-	HELPER CLASSes SECTION
+	HELPER CLASSES SECTION
 */
 
 .relative {
@@ -311,6 +315,16 @@ li {
 	padding-bottom: 80px;
 } 
 
+.paddingv-large {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.paddingv-medium {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
 .paddingv-small {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -319,6 +333,10 @@ li {
 .paddingt20 {
 	padding-top: 20px;
 	padding-bottom: 0px;
+}
+
+.margin-none {
+	margin: 0px;
 }
 
 .marginv0 {
