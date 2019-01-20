@@ -1,5 +1,5 @@
 {{ "<!-- partials:inserts-bottom.html -->" | safeHTML }}
-<section id="inserts-bottom">
+<div id="inserts-bottom">
 {{- $URL := .URL }}
 {{- $.Scratch.Set "count" 0 }}
 {{- range .Site.Data.inserts }}		
@@ -12,4 +12,4 @@
 		{{- end }} 
 	{{- end }}
 {{- end }}    
-</section>
+</div>
