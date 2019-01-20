@@ -2,13 +2,13 @@
 <!-- partials:single-top-common.html -->
 <html lang="it">
     <head>
-        <!-- head -->
+        <!-- partials:head.html -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="">
 		<meta name="description" content="Regala delle Presentazioni incredibili con gli Specialisti della Business Presentation">
-		<meta name="generator" content="Hugo 0.37.1" />
+		<meta name="generator" content="Hugo 0.53" />
 		<title>Ideas on Stage | Regala delle Presentazioni Incredibili</title>
 		<!-- reflang -->
         <link rel="alternate" hreflang="en" href="https://www.ideasonstage.com/team/phil-waknell/" />
@@ -30,11 +30,11 @@
 		<!-- Custom CSS -->
 		<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css">
 		<link href="/css/owl.theme.css" rel="stylesheet" type="text/css">
-
+    	<link rel="alternate" type="application/rss+xml" href="https://www.ideasonstage.it/index.xml" title="Ideas on Stage news" />
     </head>
     <body id="page-top">
-        <!-- NAVIGATION -->
-		<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+        <!-- partials:nav.html -->
+		<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top ">
 		    <div class="container-fluid">
 		        <!-- Brand and toggle get grouped for better mobile display -->
 		        <div class="navbar-header">
@@ -48,10 +48,13 @@
 		            <img src="/pictures/home/ideas-on-stage.png" alt="Ideas on Stage" class="navbar-brand"></a>
 		        </div>
 		        <!-- Collect the nav links, forms, and other content for toggling -->
-		        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		        <div class="collapse navbar-collapse ios-nav" id="bs-example-navbar-collapse-1">
 		            <ul class="nav navbar-nav navbar-right">
 						<li>
 						    <a class="page-scroll" href="/#services">Servizi</a>
+						</li>
+						<li>
+						    <a class="page-scroll" href="/news/">Notizie</a>
 						</li>
 						<li>
 						    <a class="page-scroll" href="#contact">Contatti</a>
@@ -81,37 +84,29 @@
 		                	
 		                	
 		                	</ul>
-		                </li>                                        
+		                </li>
+		                <li>
+                
+                </li>                                       
 		            </ul>
 		        </div>
 		        <!-- /.navbar-collapse -->
 		    </div>
 		    <!-- /.container-fluid -->
 		</nav>
-        <!-- HEADER -->
-<header id="Team" class="bg-dark">
-
-    <div class="header-content">
-        <div class="header-content-inner">
-            <h1>Team</h1>
-            
-        </div>
-            
-    </div>
-</header>
-
 
         <body>
-        <!-- partials:team-members-page.html -->
+        	<main>
+   			    <!-- partials:team-members-page.html -->
 <section id="team-member-bio">
-     <div class="container">
+     <div class="container paddingt-large">
         <div class="row">
         	<div class="col-xs-10 col-xs-offset-1 col-md-4 picture">  		
 				<img src="/pictures/team-members/phil-waknell.jpg" class="img-responsive img-left photograph" alt="">
 	        </div>
 	        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 text">
-				<h2>Phil Waknell</h2>
-				<h3 class="section-heading">Chief Inspiration Officer</h3>
+				<h1>Phil Waknell</h1>
+				<h2 class="section-heading">Chief Inspiration Officer</h2>
 				<p><p>Phil Waknell è uno dei maggiori esperti Europei nella nuova arte della presentazione e parla regolarmente in numerose conferenze relativamente al miglioramento della business communication. Insegna tecniche di Business Presentation alla HEC di Parigi, una delle migliori scuole di Business d’Europa, ed è l’autore di The Business Presentation Revolution.</p>
 
 <p>Phil ha aiutato centinaia di imprenditori e di speaker di TED(x) a preparare e dare presentazioni ad alto impatto, oltre ad essere stato il coach di numerosi leader di molte delle maggiori società Europee, dando seminari e workshop in tutto il mondo e ricoprendo il ruolo di Maestro di Cerimonia in importanti eventi internazionali.</p>
@@ -125,9 +120,11 @@
     </div>
 </section>
 
-        <!-- contact2 -->
+   			</main>
+   			<aside>
+		        <!-- partials:contact.html -->
 		<section id="contact">
-		    <div class="container">
+		    <div class="container paddingv-huge">
 		        <div class="row">
 		            <div class="col-xs-10 col-xs-offset-1 text-center">
 	           			<h2 class="section-heading">Contattaci</h2>
@@ -177,6 +174,7 @@
 		        </div><!-- col-md-6 end -->
 		    </div><!-- container end -->
 		</section><!-- contact end -->
+		    </aside>
         </body>
         <!-- footer -->
 		<footer>
@@ -186,7 +184,6 @@
 		        		© Ideas on Stage 2016-2017<br />
 		        		Tutti i diritti riservati<br />
 		        		Questo sito web utilizza i cookie.
-		        		<a href="https://www.ideasonstage.it/cookies/"> Cookies policy</a>
 			        </div>
 					<div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0 paddingv10">
 		        		Ideas on Stage è lo specialista globale nelle business presentation. Offriamo i nostri servizi in Nord America ed Europa in Italiano, Inglese, Francese e Spagnolo.
@@ -197,60 +194,13 @@
 		        </div>
 		    </div>
 		</footer>			
-        
+        <!-- partials:js.html -->
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<!-- Hotjar Tracking Code for https://www.ideasonstage.com -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:283947,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
-<!-- script cookie consent -->
-
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "transparent",
-      "text": "#f47913",
-      "border": "#f47913"
-    }
-  },
-  "content": {
-    "message": "This website uses cookies. By using our website you consent to these cookies in accordance with our Cookie policy.",
-    "dismiss": "Got it!",
-    "href": "https:\/\/www.ideasonstage.it\/cookies/"
-  }
-})});
-</script>
-
-
-<!-- script Google Analytics -->
-
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-30695118-4', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
 
 <!-- jQuery required for form validation -->
 <script src="/js/jquery.js"></script>
@@ -311,49 +261,6 @@ $('#name').focus(function() {
 });
 </script> 
 
-        
-            
-<script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.29.0/autocomplete.jquery.min.js" integrity="sha256-qUqrH6CxKeU+3ClSSiq0GGnYjoKmfLhNO4tFoTCay5c=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/algoliasearch/3.24.5/algoliasearch.min.js" integrity="sha256-vUvLcn3X0cXhote4PNwW6d+fzjJR0hoD+yGFeVaElew=" crossorigin="anonymous"></script>
-
-<script>
-    var client = algoliasearch("GMTISKBCI2", "14fc70c1da865e95a8aea61a7a001f56");
-    var index = client.initIndex("IoS_it");
-
-    $('#search').autocomplete({ hint: false, autoselect: true, debug: false },
-      [
-        {
-          source: $.fn.autocomplete.sources.hits(index, { hitsPerPage: 5 }),
-          displayKey: function(suggestion) {
-            return suggestion.title || suggestion.author
-          },
-          templates: {
-            suggestion: function(suggestion) {
-                return "<span class='entry " + suggestion.type + "'>"
-                      + "<span class='title'>" + suggestion.title + "</span>"
-                      + "<span class='fa fa-fw " + suggestion.iconClass + "'></span>"
-                  + "</span>"
-                ;
-            },
-            empty: function() {
-              return "<span class='empty'></span>"
-            },
-            footer: function() {
-              return '<div class="branding">Powered by <img src="https://www.algolia.com/static_assets/images/press/downloads/algolia-logo-light.svg" /></div>'
-            }
-
-          },
-        }
-      ])
-      .on('autocomplete:selected', function(event, suggestion, dataset) {
-        window.location = (suggestion.url);
-      })
-      .keypress(function (event, suggestion) {
-        if (event.which == 13) {
-          window.location = (suggestion.url);
-        }
-      });
-</script>
         			
     </body>
 </html>

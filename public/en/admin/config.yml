@@ -1,6 +1,7 @@
 backend:
+  backend:
   name: git-gateway
-  branch: optimization # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -13,10 +14,10 @@ collections:
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     extension: "fr.md"
-    format: "toml"
+    format: "toml-frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Draft", name: "draft", widget: "hidden", default: "false"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: "false"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
@@ -29,10 +30,10 @@ collections:
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     extension: "en.md"
-    format: "toml"
+    format: "toml-frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Draft", name: "draft", widget: "hidden", default: "false"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: "false"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
@@ -40,4 +41,35 @@ collections:
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Thumb", name: "banner", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      
+  - name: "news_spanish" # Used in routes, e.g., /admin/collections/blog
+    label: "Spanish Article" # Used in the UI
+    folder: "content/news" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    extension: "es.md"
+    format: "toml-frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Draft", name: "draft", widget: "boolean", default: "false"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "News", name: "news", widget: "hidden", default: ["general"]}
+      - {label: "Date", name: "date", widget: "date", default: "", format: "YYYY-MM-DD"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Thumb", name: "banner", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"} 
+  - name: "news_italian" # Used in routes, e.g., /admin/collections/blog
+    label: "Italian Article" # Used in the UI
+    folder: "content/news" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    extension: "it.md"
+    format: "toml-frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Draft", name: "draft", widget: "boolean", default: "false"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "News", name: "news", widget: "hidden", default: ["general"]}
+      - {label: "Date", name: "date", widget: "date", default: "", format: "YYYY-MM-DD"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Thumb", name: "banner", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"} 

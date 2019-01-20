@@ -328,7 +328,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/training-and-workshops/"
+                href="https://www.ideasonstage.es/formacion-presentaciones/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -343,8 +343,28 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.fr/news/2018/03/03/2018-03-03-c-est-moi/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <loc>https://www.ideasonstage.fr/news/2019/01/15/2019-01-14-jai-fait-une-pr%C3%A9sentation-au-ces-et-tout-ce-que-jai-eu-ce-sont-des-critiques-sur-twitter/</loc>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2019/01/08/2019-01-07-que-pouvons-nous-apprendre-de-la-pr%C3%A9sentation-de-mauvais-r%C3%A9sultats-par-apple/</loc>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2018/10/10/2018-10-10-cinq-le%C3%A7ons-de-com-du-pr%C3%A9sident-macron/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2018/04/10/2018-04-10-ce-que-les-entreprises-peuvent-apprendre-des-conf%C3%A9rences-ted/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2018/04/09/2018-04-10-7-astuces-pour-depasser-la-peur-de-presenter/</loc>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -393,12 +413,12 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.fr/news/2017/09/01/2.les-femmes-peuvent-elles-pitcher-aussi-bien-que-les-hommes-/</loc>
+    <loc>https://www.ideasonstage.fr/news/2017/09/01/2.les-femmes-peuvent-elles-pitcher-aussi-bien-que-les-hommes/</loc>
     <lastmod>2017-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.fr/news/2017/08/31/1.-lost-in-transition-/</loc>
+    <loc>https://www.ideasonstage.fr/news/2017/08/31/1.-lost-in-transition/</loc>
     <lastmod>2017-08-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -439,7 +459,7 @@
   
   <url>
     <loc>https://www.ideasonstage.fr/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -461,6 +481,34 @@
                 hreflang="fr"
                 href="https://www.ideasonstage.fr/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/alerte/</loc>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/apple/</loc>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/tags/apple/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/tags/apple/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/art-oratoire/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -505,6 +553,22 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/tags/ces/</loc>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/tags/ces/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/tags/ces/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/tags/client/</loc>
     <lastmod>2017-10-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -522,7 +586,7 @@
   
   <url>
     <loc>https://www.ideasonstage.fr/tags/coaching/</loc>
-    <lastmod>2017-10-06T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -538,6 +602,24 @@
   
   <url>
     <loc>https://www.ideasonstage.fr/categories/coaching-prise-de-parole-en-public/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/communication/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/conf%C3%A9rence/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/conseils/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -743,6 +825,22 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/tags/macron/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/tags/macron/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/tags/macron/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/tags/marque/</loc>
     <lastmod>2018-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -750,7 +848,7 @@
   
   <url>
     <loc>https://www.ideasonstage.fr/news/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -765,8 +863,14 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/tags/orateur/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/tags/paris/</loc>
-    <lastmod>2017-10-06T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -778,6 +882,12 @@
                 hreflang="fr"
                 href="https://www.ideasonstage.fr/tags/paris/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/peur/</loc>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -794,6 +904,18 @@
                 hreflang="fr"
                 href="https://www.ideasonstage.fr/tags/pitch/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/politique/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/powerpoint/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -822,8 +944,26 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.fr/tags/probaturas/</loc>
-    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+    <loc>https://www.ideasonstage.fr/tags/prise-de-parole-en-public/</loc>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/pr%C3%A9sentation/</loc>
+    <lastmod>2019-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/pr%C3%A9sentations/</loc>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/pr%C3%A9sident/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -865,6 +1005,18 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/tags/slides/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/speaker/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/tags/startup/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -881,8 +1033,30 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/tags/station-f/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/tags/station-f/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/tags/station-f/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/stress/</loc>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/tags/</loc>
-    <lastmod>2017-09-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -931,6 +1105,20 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/equipe/fredericpascal-stein/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/team/fredericpascal-stein/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/equipe/fredericpascal-stein/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/team-member/</loc>
     <lastmod>2014-07-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -957,14 +1145,52 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/tags/technique/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/tags/technique/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/tags/technique/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/tags/technologie/</loc>
     <lastmod>2017-08-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/tags/ted/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/tags/ted/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/tags/ted/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/tedification/</loc>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/tags/tedx/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -989,27 +1215,33 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.fr/categories/training--workshops/</loc>
+    <loc>https://www.ideasonstage.fr/tags/trac/</loc>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/categories/training-workshops/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.ideasonstage.com/categories/training--workshops/"
+                href="https://www.ideasonstage.com/categories/training-workshops/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/categories/training--workshops/"
+                href="https://www.ideasonstage.es/categories/training-workshops/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://www.ideasonstage.it/categories/training--workshops/"
+                href="https://www.ideasonstage.it/categories/training-workshops/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/categories/training--workshops/"
+                href="https://www.ideasonstage.fr/categories/training-workshops/"
                 />
   </url>
   

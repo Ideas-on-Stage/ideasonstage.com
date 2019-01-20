@@ -291,6 +291,30 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.es/formacion-presentaciones/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/training-and-workshops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/training-workshops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://www.ideasonstage.it/training-workshops/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.ideasonstage.es/formacion-presentaciones/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.es/formacion-presentaciones/pitch-para-startups/</loc>
     <xhtml:link
                 rel="alternate"
@@ -311,30 +335,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://www.ideasonstage.es/formacion-presentaciones/pitch-para-startups/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.es/training-and-workshops/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/training-and-workshops/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.fr/training-workshops/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/training-workshops/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.es/training-and-workshops/"
                 />
   </url>
   
@@ -904,27 +904,27 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/categories/training--workshops/</loc>
+    <loc>https://www.ideasonstage.es/categories/training-workshops/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.ideasonstage.com/categories/training--workshops/"
+                href="https://www.ideasonstage.com/categories/training-workshops/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/categories/training--workshops/"
+                href="https://www.ideasonstage.fr/categories/training-workshops/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://www.ideasonstage.it/categories/training--workshops/"
+                href="https://www.ideasonstage.it/categories/training-workshops/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/categories/training--workshops/"
+                href="https://www.ideasonstage.es/categories/training-workshops/"
                 />
   </url>
   

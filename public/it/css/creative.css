@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/*
+	SITE WIDE CUSTOMIZATIONS
+ */
+ 
 html,
 body {
     width: 100%;
@@ -33,29 +37,27 @@ h6,
 	margin-bottom: 4px;
 }
 
-#content img {
+#content-main img {
 	display: block;
 	width: auto;
 	max-width: 100%;
 	margin: auto;
 }
 
-/* Horizontal Line */
-hr {
-    max-width: 50px;
-    border-color: #FF8200;
-    border-width: 3px;
+article img {
+	display: block;
+	width: auto;
+	max-width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-hr.light {
-    border-color: #fff;
-}
-
-hr.thin {
-	width: 100%;
-	max-width: 90%;
-	border-width: 1px;
-    border-color: #ddd;
+article iframe {
+	display: block;
+	width: auto;
+	max-width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 a {
@@ -67,27 +69,19 @@ a {
 a:hover,
 a:focus {
     color: #FF8200;
+    text-decoration: none;
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
 	transition: all .35s;
 }
 
-#about a {
-    color: rgba(52, 52, 52, .7);
-}
-
-#about a:hover,
-#about a:focus {
-    color: rgb(52, 52, 52);
-}
-
 h1 {
 	font-size: 3em;
-	text-transform: uppercase;
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 2em;
+	color: #aaa;
 }
 
 h3 {
@@ -108,14 +102,8 @@ h5 {
 	line-height: 1.4;
 }
 
-/*Customization of event labels*/
-.label-primary {
-	display: inline-block;
-	background-color: #FF8200;  
-}
-/* End of customization */	
 p {
-    line-height: 1.5;
+		line-height: 1.5;
 }
 
 li {
@@ -124,89 +112,93 @@ li {
 }
 
 /*
-	HOLY FLEX STUFF
+	FULL WIDTH IMAGE FLEX CONTAINER
+	Used to manage full width pictures
 */
 .flex-container {
+	margin-top: 20px;
 	position: relative;
 	height: 675px;
 	width: 100%;
 	justify-content: center;
+	overflow: hidden;
 }
 
-	/*	Full width picture
-		Full width of container, not full bleed
-		Recommended media size: 1200px non retina, 2400px retina
+/*	Full width picture, centered
+	Left and right sizes get cropped, height remains constant for a given width range:
+	- up to 768px width: height is 432px
+	- between 769 and and 1200px width: height is 558px 
+	- 1201px and more: width and height remain at 1200px x 675px
+	Recommended media size: 1200px x 675px non retina, 2400px x 1350px retina
+*/
+.flex-container .flex-item-picture-full {
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+}
 
-		On xs screens:
-			- background gets cropped left and right progressively,
-			- Size remains fixed VERTICALLY.
-	*/
-	.flex-container .flex-item-picture-full {
-		position: absolute;
-		width: 100%;
-		overflow: hidden;
+.flex-container .flex-item-picture-full img {
+	width: 1200px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+/*
+	Standard text, full width, laid over picture
+*/	
+.flex-container .flex-item-text {
+}
+
+flex-container .flex-item-text h4 {
+	margin-top: 30px;
+} 
+
+/*
+	Text, laid over picture
+*/
+.flex-container .flex-item-text-overlay {
+	position: absolute;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
+
+.flex-container .flex-item-text-overlay h4 {
+	margin-top: 30px;
+	padding: 0px 20px;
+	font-size: 1.8em;
+}
+
+.flex-container .flex-item-text-overlay p {
+	line-height: 1.1em;
+	font-size: 1.1em;
+}
+	
+/*
+	Media queries
+*/
+@media(max-width:1199px){
+	.flex-container {
+		height: 675px;
 	}
 	
 	.flex-container .flex-item-picture-full img {
 		width: 1200px;
-		position: relative;
-		left: 50%;
-		transform: translateX(-50%);
-	}
-
-	/*
-		Standard text, full width, laid over picture
-	*/	
-	.flex-container .flex-item-text {
-	}
-
-	flex-container .flex-item-text h4 {
-		margin-top: 30px;
-	} 
-	
-	/*
-		Text, laid over picture
-	*/
-	.flex-container .flex-item-text-overlay {
-		position: absolute;
-		margin-left: 5%;
-		margin-right: 5%;
-		width: 90%;
-	}
-	
-	.flex-container .flex-item-text-overlay h4 {
-		margin-top: 30px;
-		padding: 0px 20px;
-		font-size: 1.8em;
-	}
-	
-	.flex-container .flex-item-text-overlay p {
-		line-height: 1.1em;
-		font-size: 1.1em;
-	}
-	
-	/*
-		Media queries
-	*/
-@media(max-width:1199px){
-	.flex-container {
-		height: 562px;
-	}
-	
-	.flex-container .flex-item-picture-full img {
-		width: 1000px;
-		height: 562px;
+		height: 675px;
+		transform: translate(-50%, 0%);
 	}
 }
 
 @media(max-width:991px){
 	.flex-container {
-		height: 438px;
+		height: 558px;
 	}
 
 	.flex-container .flex-item-picture-full img {
-		width: 780px;
-		height: 438px;
+		width: 992px;
+		height: 558px;
+		transform: translate(-50%, 0%);
 	}
 }
 
@@ -218,6 +210,7 @@ li {
 	.flex-container .flex-item-picture-full img {
 		width: 768px;
 		height: 432px;
+		transform: translate(-50%, 0%);
 	}
 	
 	flex-container .flex-item-text h4 {
@@ -226,7 +219,7 @@ li {
 }
 	
 /*
-	HELPER CLASSes SECTION
+	HELPER CLASSES SECTION
 */
 
 .relative {
@@ -252,12 +245,38 @@ li {
     color: #fff;
     background-color: #333541;
 }
+.bg-dark a {
+	color: #fff;
+} 
+.bg-dark a:hover {
+	color: #FF8200;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+}
 
 .bg-dark-box {
     color: #fff;
     background-color: #333541;
-}    
- .bg-dark-box:hover {
+}
+.bg-dark-box a {
+	color: #fff;
+}
+.bg-dark-box a:hover {
+	color: #FF8200;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+}
+
+.bg-black {
+    color: #fff;
+    background-color: #000;
+}
+.bg-black a {
+	color: #fff;
+}
+.bg-black a:hover {
 	color: #FF8200;
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
@@ -265,29 +284,46 @@ li {
 }
 
 
-
-.bg-black {
-    color: #fff;
-    background-color: #000;
-}
-
 .bg-lightgrey {
-    color: #fff;
+    color: #000;
     background-color: #f2f2f2;
-    color: rgb(51,53,65);
 }
 
 .text-faded {
     color: rgba(255,255,255,.7);
 }
 
-.text-blued {
+.text-blue {
 	color: rgb(51,53,65);
+}
+
+.text-white {
+	color: #fff;
+}
+
+.paddingt-large {
+	padding-top: 120px;
+}
+
+.paddingt-medium {
+	padding-top: 80px;
+}
+
+.paddingt-small {
+	padding-top: 40px;
+}
+
+.paddingt-tiny {
+	padding-top: 20px;
 }
 
 .paddingv0 {
 	padding-top: 0px;
 	padding-bottom: 0px;
+}
+
+.padding-none {
+	padding: 0px;
 }
 
 .paddingv10 {
@@ -300,9 +336,33 @@ li {
 	padding-bottom: 20px;
 }
 
+.paddingv-huge {
+	padding-top: 80px;
+	padding-bottom: 80px;
+} 
+
+.paddingv-large {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.paddingv-medium {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.paddingv-small {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .paddingt20 {
 	padding-top: 20px;
 	padding-bottom: 0px;
+}
+
+.margin-none {
+	margin: 0px;
 }
 
 .marginv0 {
@@ -367,13 +427,7 @@ display: block;
 	If padding added to section(s), it breaks the full width inserts
 */
 
-section {
-    padding-top: 40px;
-    padding-bottom:40px;
-   }
-   
 section#content  {
-	padding-top: 0px;
 	background-color: #fff; 
 }
 
@@ -389,7 +443,7 @@ section#content p {
 	margin-top: 1em;
 }
 
-section#content img {
+section#content-main img {
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
@@ -406,21 +460,6 @@ section#team-member-bio .picture {
 
 section#team-member-bio .text {
 	margin-top: 1.5em;
-}
-
-/* RBC This sections use a customized padding to allocate correctly the white space in the offer section */
-section#corporate-events  {
-	padding-top: 0px;
-	padding-bottom:0px;	
-}
-
-section#executive-communication  {
-	padding-top: 20px;
-	padding-bottom:10px;	
-}
-section#training  {
-	padding-top: 10px;
-	padding-bottom:30px;	
 }
 
 /* End of customization */
@@ -561,10 +600,12 @@ footer a {
 /*
 	HEADERs SECTION
 */
+
 header#home {
 	position: relative;
 	width: 100%;
-	height: calc(100% - 8em);
+	height: 60%;
+	min-height: 400px;
 	text-align: center;
 	color: #fff;
 	background-position: center;
@@ -575,8 +616,42 @@ header#home {
 	background-color: #f27819;	
 }
 
-header#home h1 {
+header#pz {
+	position: relative;
+	width: 100%;
+	height:360px;
+	text-align: center;
+	color: #fff;
+	background-image: url(../pictures/pz/home/header.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-color: #aaa;	
+}
+
+header#revolution {
+	position: relative;
+	width: 100%;
+	height:50%;
+	background-image: url(../pictures/inserts/bpr-header.png);
+	text-align: center;
+	color: #fff;
+	margin-top:20px;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+	-o-background-size: contain;
+	background-color: rgb(255,117,0);	
+}
+
+header#home h2 {
+	color: #fff;
 	font-size: 5em;
+	text-transform: uppercase;
 }
 
 header {
@@ -633,7 +708,7 @@ header .header-content-img {
 	z-index: 0;
 /*	width: auto; */
 }
-
+ 
 header .header-content .header-content-inner {
     position: absolute;
     top: 50%;
@@ -923,7 +998,7 @@ a.people-box:hover {
 
 .people-box .people-box-caption .people-box-caption-content .people-name {
 	padding: 0px;
-/*    text-transform: uppercase; */
+	color: #000;
 	font-weight: 700;
     font-size: 16px;
 }
@@ -1167,6 +1242,12 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary .badge {
     color: #FF8200;
     background-color: #fff;
+}
+
+
+.btn-secondary {
+    color: #00A3E0 !important;
+    padding-left: 0px;
 }
 
 .btn {

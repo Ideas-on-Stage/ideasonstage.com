@@ -97,7 +97,9 @@ theme        	= "hugo-creative-theme-master"
 				es	= "España"
 				de	= "Deutschland"
 	
-	
+		[params.references]
+			title = "References"
+			
 		[params.testimonials]
     		enable = true
    			 # All testimonials are defined in their own files. You can find testimonials 
@@ -398,6 +400,8 @@ monthtrans = "mois.yaml"
 				es	= "España"
 				de	= "Deutschland"
 	
+		[languages.fr.references]
+			title = "Références"
 	
 		[languages.fr.testimonials]
     		enable = true
@@ -663,6 +667,8 @@ monthtrans = "mois.es.yaml"
 				es	= "España"
 				de	= "Deutschland"
 	
+		[languages.es.references]
+			title = "References"
 	
 		[languages.es.testimonials]
     		enable = true
@@ -924,6 +930,8 @@ monthtrans = "moisit.yaml"
 				buttonText  = "Scopri come possiamo aiutarti"
 				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
 	
+		[languages.it.references]
+			title = "References"
 	
 		[languages.it.testimonials]
     		enable = true

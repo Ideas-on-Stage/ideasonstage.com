@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <!-- head -->
+        <!-- partials:head.html -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="">
 		<meta name="description" content="Especialistas en Presentaciones de Negocios">
-		<meta name="generator" content="Hugo 0.37.1" />
+		<meta name="generator" content="Hugo 0.53" />
 		<title>Agencia de Presentaciones | Entrenamiento y formación para hablar en público | Ideas on Stage</title>
 		<!-- reflang -->
         <link rel="alternate" hreflang="en" href="https://www.ideasonstage.com/tags/tedx/" />
@@ -29,13 +29,11 @@
 		<!-- Custom CSS -->
 		<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css">
 		<link href="/css/owl.theme.css" rel="stylesheet" type="text/css">
-
+    	<link rel="alternate" type="application/rss+xml" href="https://www.ideasonstage.es/index.xml" title="Ideas on Stage news" />
     </head>
-    <body id="page-top">
-
-        
-        <!-- NAVIGATION -->
-		<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top">
+    <body id="page-top">   
+        <!-- partials:nav.html -->
+		<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top ">
 		    <div class="container-fluid">
 		        <!-- Brand and toggle get grouped for better mobile display -->
 		        <div class="navbar-header">
@@ -49,7 +47,7 @@
 		            <img src="/pictures/home/ideas-on-stage.png" alt="Ideas on Stage" class="navbar-brand"></a>
 		        </div>
 		        <!-- Collect the nav links, forms, and other content for toggling -->
-		        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		        <div class="collapse navbar-collapse ios-nav" id="bs-example-navbar-collapse-1">
 		            <ul class="nav navbar-nav navbar-right">
 						<li>
 						    <a class="page-scroll" href="/#services">Servicios</a>
@@ -82,7 +80,10 @@
 		                	
 		                	
 		                	</ul>
-		                </li>                                        
+		                </li>
+		                <li>
+                
+                </li>                                       
 		            </ul>
 		        </div>
 		        <!-- /.navbar-collapse -->
@@ -104,7 +105,7 @@
     </div>
 </header>
 
-         <!-- aboutreferences -->
+        <!-- partials:aboutreferences -->
 		<section id="about" class="bg-lightgrey" style="padding-top: 0px; padding-bottom: 0px;">
 		    <div class="container">
 		        <div class="row">
@@ -180,97 +181,109 @@
 		        </div>
 		    </div>
 		</section>
- 	    <!-- offer2 -->
+ 	    <!-- partials:home-services -->
 		<section id="services" >
-		    <div class="container">
+		    <div class="container paddingv-large">
 		        <div class="row">
 					<div class="col-xs-12 text-center">
-					    <h2  class="section-heading">NUESTROS SERVICIOS</h2>
+					    <h1>NUESTROS SERVICIOS</h1>
 					</div>
 				</div>
+				
+					<!-- partials:insert-link-full-picture.html -->
+<section>
+		<div class="flex-container">
+			<a href="/presentation-creation-agency/">
+				<div class="flex-item-picture-full">
+					<img src="/pictures/inserts/home-presentation-creation-agency.jpg" class="picture">
+				</div>
+			</a>
+			<div class="bg-white">
+				<div class="flex-item-text-overlay text-center">
+					<a href="/presentation-creation-agency/">
+				    	<h4>Agencia de Presentaciones</h4>
+				    	<p>Una gran historia. Las mejores slides</p>
+				    </a>
+				    
+					<a href="/presentation-creation-agency/" class="btn btn-secondary"></a>
+					
+		    	</div>
 			</div>
+		</div>
+</section>
 
-	<div class="paddingt20">
-	<div class="container">
-		<a href="/presentation-creation-agency/">
-			<div class="row">
-				<div class="col-xs-12 no-padding">
-					<div class="flex-container bg-white" id="offer">
-						<div class="flex-item-picture-full">
-							<img src="/pictures/inserts/home-presentation-creation-agency.jpg" class="picture">
-						</div>
-	 					<div class="flex-item-text-overlay text-center" id="inlay-text">
-						    <h4>Agencia de Presentaciones</h4>
-						    <p>Una gran historia. Las mejores slides</p>
-						</div>
-					</div>
+					<!-- partials:insert-link-full-picture.html -->
+<section>
+		<div class="flex-container">
+			<a href="/public-speaking-coaching/">
+				<div class="flex-item-picture-full">
+					<img src="/pictures/inserts/home-public-speaking-coaching.jpg" class="picture">
 				</div>
+			</a>
+			<div class="bg-dark-box">
+				<div class="flex-item-text-overlay text-center">
+					<a href="/public-speaking-coaching/">
+				    	<h4>Public Speaking</h4>
+				    	<p>Muestra tu mejor versión sobre el escenario.</p>
+				    </a>
+				    
+					<a href="/public-speaking-coaching/" class="btn btn-secondary"></a>
+					
+		    	</div>
 			</div>
-		</a>
-	</div>
-</div>
-	<div class="paddingt20">
-	<div class="container">
-		<a href="/public-speaking-coaching/">
-			<div class="row">
-				<div class="col-xs-12 no-padding">
-					<div class="flex-container bg-dark-box" id="offer">
-						<div class="flex-item-picture-full">
-							<img src="/pictures/inserts/home-public-speaking-coaching.jpg" class="picture">
-						</div>
-	 					<div class="flex-item-text-overlay text-center" id="inlay-text">
-						    <h4>Public Speaking</h4>
-						    <p>Muestra tu mejor versión sobre el escenario.</p>
-						</div>
-					</div>
+		</div>
+</section>
+
+					<!-- partials:insert-link-full-picture.html -->
+<section>
+		<div class="flex-container">
+			<a href="/eventos-corporativos/diseno-eventos/">
+				<div class="flex-item-picture-full">
+					<img src="/pictures/inserts/home-corporate-events.jpg" class="picture">
 				</div>
+			</a>
+			<div class="bg-dark-box">
+				<div class="flex-item-text-overlay text-center">
+					<a href="/eventos-corporativos/diseno-eventos/">
+				    	<h4>Eventos Corporativos</h4>
+				    	<p>Rompe con la rutina. Sorprende a tus invitados.</p>
+				    </a>
+				    
+					<a href="/eventos-corporativos/diseno-eventos/" class="btn btn-secondary"></a>
+					
+		    	</div>
 			</div>
-		</a>
-	</div>
-</div>
-	<div class="paddingt20">
-	<div class="container">
-		<a href="/eventos-corporativos/diseno-eventos/">
-			<div class="row">
-				<div class="col-xs-12 no-padding">
-					<div class="flex-container bg-dark-box" id="offer">
-						<div class="flex-item-picture-full">
-							<img src="/pictures/inserts/home-corporate-events.jpg" class="picture">
-						</div>
-	 					<div class="flex-item-text-overlay text-center" id="inlay-text">
-						    <h4>Eventos Corporativos</h4>
-						    <p>Rompe con la rutina. Sorprende a tus invitados.</p>
-						</div>
-					</div>
+		</div>
+</section>
+
+					<!-- partials:insert-link-full-picture.html -->
+<section>
+		<div class="flex-container">
+			<a href="/formacion-presentaciones/">
+				<div class="flex-item-picture-full">
+					<img src="/pictures/inserts/home-training.jpg" class="picture">
 				</div>
+			</a>
+			<div class="bg-white">
+				<div class="flex-item-text-overlay text-center">
+					<a href="/formacion-presentaciones/">
+				    	<h4>Formación</h4>
+				    	<p>Cambia la cultura de las presentaciones en tu organización.</p>
+				    </a>
+				    
+					<a href="/formacion-presentaciones/" class="btn btn-secondary"></a>
+					
+		    	</div>
 			</div>
-		</a>
-	</div>
-</div>
-	<div class="paddingt20">
-	<div class="container">
-		<a href="/formacion-presentaciones/business-presentation-revolution/">
-			<div class="row">
-				<div class="col-xs-12 no-padding">
-					<div class="flex-container bg-white" id="offer">
-						<div class="flex-item-picture-full">
-							<img src="/pictures/inserts/home-training.jpg" class="picture">
-						</div>
-	 					<div class="flex-item-text-overlay text-center" id="inlay-text">
-						    <h4>Formación</h4>
-						    <p>Cambia la cultura de las presentaciones en tu organización.</p>
-						</div>
-					</div>
-				</div>
+		</div>
+</section>
+
 			</div>
-		</a>
-	</div>
-</div>
 		</section>
 
- 	    <!-- contact2 -->
+ 	    <!-- partials:contact.html -->
 		<section id="contact">
-		    <div class="container">
+		    <div class="container paddingv-huge">
 		        <div class="row">
 		            <div class="col-xs-10 col-xs-offset-1 text-center">
 	           			<h2 class="section-heading">Contacta con nosotros</h2>
@@ -320,12 +333,12 @@
 		        </div><!-- col-md-6 end -->
 		    </div><!-- container end -->
 		</section><!-- contact end -->
- 	    <!-- ABOUT -->
+ 	    <!-- partials:about-ios -->
 <section id="about-ios" class="bg-dark">
     <div class="container">
-        <div class="row">       
+        <div class="row paddingv-huge">       
             <div class="col-md-10 col-md-offset-1 text-center">
-            <h2 class="">Acerca de Ideas on Stage</h2>            
+            <h1 class="">Acerca de Ideas on Stage</h1>            
             <p class=""><p><p>Una gran presentación de negocios representa una ventaja competitiva única para una empresa. Para nuestra sorpresa, nos dimos cuenta de que la mayoría de las presentaciones no consigue ni tan siquiera despertar el interés del público. Por este motivo creamos Ideas on Stage en 2010, para ayudar a nuestros clientes a hacer las mejores presentaciones del mundo.</p><p>Rápidamente nos dimos cuenta de que nuestra intuición era correcta. Los clientes que contaron con nuestros servicios vieron una gran diferencia de forma inmediata. Empezaron a conseguir más negocio. Sus habilidades de liderazgo e influencia mejoraron. Presentaban sus ideas de forma clara y convincente.</p><p>A día de hoy trabajamos con muchas de las mejores compañías en el mundo. Les ayudamos a cambiar. Les ayudamos a obtener una ventaja competitiva. Y todo gracias al poder de las presentaciones de negocios eficaces.</p>
 </p>            
 			<div class="col-md-2">
@@ -343,7 +356,6 @@
 		        		© Ideas on Stage 2016-2017<br />
 		        		Todos los derechos reservados<br />
 		        		Usamos cookies de Google Analytics y Hotjar para mejorar la experiencia de usuario.
-		        		<a href="https://www.ideasonstage.es/cookies/"> Cookies policy</a>
 			        </div>
 					<div class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0 paddingv10">
 		        		Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano.
@@ -354,60 +366,13 @@
 		        </div>
 		    </div>
 		</footer>
-        
+        <!-- partials:js.html -->
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
-<!-- Hotjar Tracking Code for https://www.ideasonstage.com -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:283947,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
-<!-- script cookie consent -->
-
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "transparent",
-      "text": "#f47913",
-      "border": "#f47913"
-    }
-  },
-  "content": {
-    "message": "This website uses cookies. By using our website you consent to these cookies in accordance with our Cookie policy.",
-    "dismiss": "Got it!",
-    "href": "https:\/\/www.ideasonstage.es\/cookies/"
-  }
-})});
-</script>
-
-
-<!-- script Google Analytics -->
-
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-30695118-3', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
-
 
 <!-- jQuery required for form validation -->
 <script src="/js/jquery.js"></script>

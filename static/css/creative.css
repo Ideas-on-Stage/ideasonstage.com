@@ -737,12 +737,12 @@ header .header-content a:hover {
 	header#home h1 {
 	font-size: 3.7em;
 	}
-	header .header-content .header-content-inner h1 {
+	header .header-content .header-content-inner h2 {
     	font-size: 1.9em;
 	}
 }
 @media(min-width:577px) {
-	header .header-content .header-content-inner h1 {
+	header .header-content .header-content-inner h2 {
     	font-size: 2em;
 	}
 }
