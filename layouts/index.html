@@ -14,8 +14,11 @@
         {{ partial "inserts-top.html" . }}
  	    {{ partial "home-services.html" . }}
         {{ partial "inserts-bottom.html" . }}
- 	    {{ partial "testimonials.html" . }}
- 	    {{ partial "contact.html" . }}
+		<aside>
+	    	<h1 class="hidden">Aside</h1>
+	 	    {{ partial "testimonials.html" . }}
+	 	    {{ partial "contact.html" . }}
+	 	</aside>
         {{ partial "footer.html" . }}
         {{ partial "js.html" . }}
     </body>
