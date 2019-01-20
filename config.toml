@@ -43,6 +43,7 @@ theme        	= "hugo-creative-theme-master"
   		algolia_indexName = "IoS_en"
 		# Navigation
 		[params.navigation]
+			title		= "Navigation"
 			brand 		= "Ideas on Stage"
 			brand_logo	= "/pictures/home/ideas-on-stage.png"
 			language	= "Language"
@@ -99,6 +100,12 @@ theme        	= "hugo-creative-theme-master"
 	
 		[params.references]
 			title = "References"
+
+		[params.insertstop]
+			title = "Highlights"
+		
+		[params.insertsbottom]
+			title = "Additional information"
 			
 		[params.testimonials]
     		enable = true
@@ -348,6 +355,7 @@ monthtrans = "mois.yaml"
 
 	# Navigation
 	[languages.fr.navigation]
+		title		= "Navigation"
 		brand 		= "Ideas on Stage"
 		brand_logo	= "/pictures/home/ideas-on-stage.png"
 		language	= "Langue"
@@ -402,6 +410,12 @@ monthtrans = "mois.yaml"
 	
 		[languages.fr.references]
 			title = "Références"
+
+		[languages.fr.insertstop]
+			title = "À la une"
+		
+		[languages.fr.insertsbottom]
+			title = "Informations complémentaires"
 	
 		[languages.fr.testimonials]
     		enable = true
@@ -620,6 +634,7 @@ monthtrans = "mois.es.yaml"
 
 	# Navigation
 	[languages.es.navigation]
+		title		= "Navigation"
 		brand		= "Ideas on Stage"
 		brand_logo	= "/pictures/home/ideas-on-stage.png"
 		language	= "Idioma"
@@ -669,6 +684,12 @@ monthtrans = "mois.es.yaml"
 	
 		[languages.es.references]
 			title = "References"
+
+		[languages.es.insertstop]
+			title = "Highlights"
+		
+		[languages.es.insertsbottom]
+			title = "Additional information"
 	
 		[languages.es.testimonials]
     		enable = true
@@ -882,6 +903,7 @@ monthtrans = "moisit.yaml"
 
 # Navigation
 [languages.it.navigation]
+	title		= "Navigation"
 	brand		= "Ideas on Stage"
 	brand_logo	= "/pictures/home/ideas-on-stage.png"
 	language	= "Lingue"
@@ -932,7 +954,13 @@ monthtrans = "moisit.yaml"
 	
 		[languages.it.references]
 			title = "References"
-	
+			
+		[languages.it.insertstop]
+			title = "Highlights"
+		
+		[languages.it.insertsbottom]
+			title = "Additional information"
+				
 		[languages.it.testimonials]
     		enable = true
    			 # All testimonials are defined in their own files. You can find testimonials 

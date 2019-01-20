@@ -1,6 +1,6 @@
 {{ "<!-- partials:nav.html -->" | safeHTML }}
 		<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-			<h1 class="hidden">Navigation</h1>
+			<h1 class="hidden">{{ .Site.Params.navigation.title }}</h1>
 		    <div class="container-fluid">
 		        {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
 		        <div class="navbar-header">
