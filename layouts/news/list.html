@@ -1,22 +1,9 @@
 <!DOCTYPE html>
 {{ "<!-- news/list.html -->" | safeHTML }}
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-    <head>
-        {{ partial "head.html" . }}
-    </head>
-    <body id="page-top">
-        {{ partial "nav.html" . }}       
-        {{ "<!-- HEADER -->" | safeHTML }}
-		<header id="{{ .Title }}" class="bg-dark">
-		    <div class="header-content">
-		        <div class="header-content-inner">
-		            <h1>{{ with .Site.Params.news.Title }}{{ . | markdownify  }}{{ end }}</h1>
-		        </div>        
-		    </div>
-		</header>
-
+{{ partial "single-top-common.html" . }}
+        {{ partial "pagehero.html" . }}
         <div id="content">
-            <div class="container" >
+            <div class="container paddingv-large" >
                 <div class="row">
                     <!-- *** LEFT COLUMN *** -->
                     <div class="col-md-10-offset-1" id="blog-listing-medium">
@@ -24,8 +11,8 @@
                         {{ $paginator := .Paginate (where .Data.Pages "Type" "news") 5 }}
                         {{ range $paginator.Pages }}
                         <section class="post">
-                            <div class="row">
-                                <div class="col-md-3">
+                            <div class="row paddingv-small">
+                                <div class="col-md-3 col-md-offset-1">
                                   <div class="image">
                                       <a href="{{ .Permalink }}">
                                           {{ if .Params.banner }}
@@ -36,7 +23,7 @@
                                       </a>
                                   </div>
                                 </div>
-                                <div class="col-md-9">
+                                <div class="col-md-7">
                                     <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
                                     <div class="clearfix">
                                         <p class="author-category">
@@ -65,7 +52,7 @@
                                         </p>
                                     </div>
                                     <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .RelPermalink }}" class="btn btn-template-main">{{ .Site.Params.news.more }}</a>
+                                    <p class="read-more"><a href="{{ .RelPermalink }}" class="btn btn-secondary">{{ .Site.Params.news.more }}</a>
                                     </p>
                                 </div>
                             </div>

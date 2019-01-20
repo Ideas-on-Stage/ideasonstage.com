@@ -2,8 +2,8 @@
 <main>
     {{ partial "inserts-top.html" . }}
     <section id="content-main">
-	    <div class="container paddingv-small">
-	        <div>        
+	    <div class="container paddingv-large">
+	        <div class="row">        
 	        	<div class="col-xs-10 col-xs-offset-1">
 					{{ with .Content }}{{ . | markdownify }}{{ end }}	
 		        </div>

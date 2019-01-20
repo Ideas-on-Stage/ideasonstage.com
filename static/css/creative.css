@@ -61,11 +61,11 @@ a:focus {
 
 h1 {
 	font-size: 3em;
-	text-transform: uppercase;
 }
 
 h2 {
-	font-size: 3em;
+	font-size: 2em;
+	color: #aaa;
 }
 
 h3 {
@@ -283,6 +283,22 @@ flex-container .flex-item-text h4 {
 
 .text-white {
 	color: #fff;
+}
+
+.paddingt-large {
+	padding-top: 120px;
+}
+
+.paddingt-medium {
+	padding-top: 80px;
+}
+
+.paddingt-small {
+	padding-top: 40px;
+}
+
+.paddingt-tiny {
+	padding-top: 20px;
 }
 
 .paddingv0 {
@@ -617,6 +633,7 @@ header#revolution {
 }
 
 header#home h2 {
+	color: #fff;
 	font-size: 5em;
 	text-transform: uppercase;
 }
@@ -965,7 +982,7 @@ a.people-box:hover {
 
 .people-box .people-box-caption .people-box-caption-content .people-name {
 	padding: 0px;
-/*    text-transform: uppercase; */
+	color: #000;
 	font-weight: 700;
     font-size: 16px;
 }

@@ -9,13 +9,13 @@
 	                    <img src="/pictures/team-members/{{ if ne .img nil }}{{ .img }}{{ else}}{{ .name | urlize}}.png{{ end }}" class="people-box-image" alt="">	
 		                <div class="people-box-caption">
 		                    <div class="people-box-caption-content">
-		                        <div class="people-name">{{ .name }}</div>
-								<div class="people-title">{{ .title }}</div>                                 
+		                        <h2 class="people-name">{{ .name }}</h2>
+								<h3 class="people-title">{{ .title }}</h3>                                 
 							</div>
 						</div>
 						</a>
 	            	  </div>
-				{{ end }}  
+				  {{ end }}  
 				{{ end}}
 	        </div> <!--end col -->
         </div> <!--end row-->

@@ -6,7 +6,7 @@
 draft	= false
 title	= "Equipo"
 type	= "team"
-url		= "/team"
+url		= "/team/"
 +++
 
-### Hemos reunido a un grupo multidisciplinar de expertos en presentaciones de todo el mundo. Nuestros perfiles van desde ex-consultores de negocio a actores profesionales.
+Hemos reunido a un grupo multidisciplinar de expertos en presentaciones de todo el mundo. Nuestros perfiles van desde ex-consultores de negocio a actores profesionales.

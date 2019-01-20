@@ -1,7 +1,7 @@
 +++
 draft	= false
 title	= "Témoignage « Ils changent le monde »"
-url		= "/testimonial"
+url		= "/testimonial/"
 +++
 
 <div class="cognito">

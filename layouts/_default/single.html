@@ -1,6 +1,7 @@
 <!-- _default:single.html is used to build most individual pages -->
 {{ "<!-- _default:single -->" | safeHTML }}
 {{ partial "single-top-common.html" . }}
+        {{ partial "pagehero.html" . }}
         {{ partial "events-tabs.html" . }}
         {{ partial "content.html" . }}
         {{ partial "references.html" . }}

@@ -1,24 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-    <head>
-        {{ partial "head.html" . }}
-    </head>
-    <body id="page-top">
-
-        {{ partial "nav.html" . }}
-
+{{ "<!-- news/single.html -->" | safeHTML }}
+{{ partial "single-top-common.html" . }}
         {{ partial "news/breadcrumbs.html" . }}
-
-        <div id="content">
+        <article>
             <div class="container">
-
-                <div class="row">
-
-                    <!-- *** LEFT COLUMN *** -->
-
-                    <div class="col-md-9 col-md-offset-3" id="blog-post" style="padding-bottom: 120px;">
+                <div class="row paddingt-small">
+                    <div class="col-md-10 col-md-offset-1">
 						<h1 style="text-transform: none;">{{ .Title }}</h1>
-                        <p class="text-muted  mb-small text-right">
+					</div>
+				</div>
+				<div class="row paddingt-small">
+				    <div class="col-md-10 col-md-offset-1">
+                        <p class="text-muted  mb-small">
                         {{ if isset .Params "author" }}
 						  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
 						  {{ end }}
@@ -31,7 +24,10 @@
 						{{ else if eq $.Site.LanguageCode  "it"}}
 							<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}</time> 		
 						{{ end }}</p>
-
+				    </div> <!-- /#blog-post -->
+				</div> <!-- /.row -->
+				<div class="row paddingt-small">
+					<div class="col-md-10 col-md-offset-1">					
                         <div id="post-content">
                           {{ with .Content }}{{ . }}{{ end }}
                         </div>
@@ -40,21 +36,10 @@
                         <div id="comments">
                             {{ template "_internal/disqus.html" . }}
                         </div>
-                        {{ end }}
-
+                        {{ end }}        
                     </div>
-                    <!-- /#blog-post -->
-
-                    <!-- *** LEFT COLUMN END *** -->
-
-                    
-                </div>
-                <!-- /.row -->
-
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /#content -->
-
+                </div> <!-- /.row -->
+            </div> <!-- /.container -->
+        </article> <!-- /#content -->
  	    {{ partial "contact.html" . }}
 {{ partial "single-bottom-common.html" . }}

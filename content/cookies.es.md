@@ -4,7 +4,7 @@
 draft	= false
 title	= "Cookies"
 type	= "cookies"
-url		= "/cookies"
+url		= "/cookies/"
 +++
 
 Para que este sitio funcione adecuadamente, a veces instalamos en los dispositivos de los usuarios pequeños ficheros de datos, conocidos como cookies. La mayoría de los grandes sitios web también lo hacen

@@ -50,5 +50,5 @@ requesttitle		= "Obtenez deux slides en exemple gratuitement !"
 
 +++
 
-## De l'idée à la présentation persuasive
+# De l'idée à la présentation persuasive
 Les présentations classiques n'impressionnent plus. Aujourd'hui pour impressionner votre audience il faut une présentation de qualité professionnelle. Que ce soit pour une proposition commerciale, un lancement de produit, une réunion d'analystes, une conférence, un événement ou toute autre situation nécessitant une présentation de qualité, nos services feront briller votre contenu.

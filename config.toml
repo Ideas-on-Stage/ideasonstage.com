@@ -438,7 +438,7 @@ monthtrans = "mois.yaml"
 		[languages.fr.offer]	
 			[languages.fr.offer.001]
 				category	= "presentation-creation-agency"
-				title		= "Agence de création de présentations"
+				title		= "Création de présentations"
 				description	= "Une histoire passionnante, des slides captivants."
 				picture		= "home-presentation-creation-agency.jpg"
 				style		= "bg-white"

@@ -1,14 +1,13 @@
 {{ "<!-- partials:home-services -->" | safeHTML }}
 		<section id="services" >
-			<div class="paddingv-large"></div>
-		    <div class="container">
+		    <div class="container paddingv-large">
 		        <div class="row">
 					<div class="col-xs-12 text-center">
-					    <h2  class="section-heading">{{ with .Site.Params.services.title }}{{ . | markdownify }}{{ end }}</h2>
+					    <h1>{{ with .Site.Params.services.title }}{{ . | markdownify }}{{ end }}</h1>
 					</div>
 				</div>
+				{{ range .Site.Params.offer }}
+					{{ partial .layout . }}
+				{{- end }}
 			</div>
-{{ range .Site.Params.offer }}
-						{{ partial .layout . }}
-{{- end }}
 		</section>

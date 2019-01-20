@@ -1,6 +1,17 @@
 {{ "<!-- team:single -->" | safeHTML }}
 {{ partial "single-top-common.html" . }}
-        {{ partial "page.html" . }}
-        {{ partial "team-members_new.html" . }}
-        {{ partial "contact.html" . }}
+    {{ partial "pagehero.html" . }}
+    <main>
+		<section id="content-main">
+		    <div class="container paddingv-large">
+		        <div class="row">        
+		        	<div class="col-xs-10 col-xs-offset-1">
+						{{ with .Content }}{{ . | markdownify }}{{ end }}	
+			        </div>
+			    </div>
+		    </div>
+		</section>
+	    {{ partial "team.html" . }}
+	</main>
+    {{ partial "contact.html" . }}
 {{ partial "single-bottom-common.html" . }}
