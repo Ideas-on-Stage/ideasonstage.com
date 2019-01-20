@@ -3,92 +3,78 @@
 {{ partial "single-top-common.html" . }}
 	<main>
         {{ partial "pagehero.html" . }}
-        <div id="content">
-            <div class="container paddingv-large" >
-                <div class="row">
-                    <!-- *** LEFT COLUMN *** -->
-                    <div class="col-md-10-offset-1" id="blog-listing-medium">
-<!-- For some reason the pagination is not working properly. I'm hardcoding 5 articles in the next line -->
-                        {{ $paginator := .Paginate (where .Data.Pages "Type" "news") 5 }}
-                        {{ range $paginator.Pages }}
-                        <section class="post">
-                            <div class="row paddingv-small">
-                                <div class="col-md-3 col-md-offset-1">
-                                  <div class="image">
-                                      <a href="{{ .Permalink }}">
-                                          {{ if .Params.banner }}
-                                          <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
-                                          {{ else }}
-                                          <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
-                                          {{ end }}
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-7">
-                                    <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          {{ if isset .Params "author" }}
-                                          {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
-                                          {{ end }}
-                                          {{ if isset .Params "categories" }}
-                                          {{ if gt (len .Params.categories) 0 }}
-                                          in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
-                                          {{ end }}
-                                          {{ end }}
+        <div id="content-main">
+            <div class="container" >
+				<!-- For some reason the pagination is not working properly. I'm hardcoding 5 articles in the next line -->
+                {{ $paginator := .Paginate (where .Data.Pages "Type" "news") 5 }}
+                {{ range $paginator.Pages }}
+                <section class="post">
+                    <div class="row paddingv-small">
+                        <div class="col-md-3 col-md-offset-1 paddingt-tiny">
+                          <div class="image">
+                              <a href="{{ .Permalink }}">
+                                  {{ if .Params.banner }}
+                                  <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
+                                  {{ else }}
+                                  <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
+                                  {{ end }}
+                              </a>
+                          </div>
+                        </div>
+                        <div class="col-md-7 paddingt-tiny">
+                            <a href="{{ .RelPermalink }}"><h1>{{ .Title }}</h1></a>
+                            <div class="clearfix">
+                                <p class="author-category">
+                                  {{ if isset .Params "author" }}
+                                  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
+                                  {{ end }}
+                                  {{ if isset .Params "categories" }}
+                                  {{ if gt (len .Params.categories) 0 }}
+                                  in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
+                                  {{ end }}
+                                  {{ end }}
 
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> 
-                                            {{ if eq $.Site.LanguageCode  "en" }}
-                                            	{{ .Date.Format "January 2, 2006" }}
-                                            {{ else if eq $.Site.LanguageCode  "fr"}}
-                                            	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
-                                            {{ else if eq $.Site.LanguageCode  "es"}}
-                                            	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
-                                            {{ else if eq $.Site.LanguageCode  "it"}}
-                                            	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
-                                            	
-                                            {{ end }}</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .RelPermalink }}" class="btn btn-secondary">{{ .Site.Params.news.more }}</a>
-                                    </p>
-                                </div>
+                                </p>
+                                <p class="date-comments">
+                                    <a href="{{ .Permalink }}"><i class="fa fa-calendar-o"></i> 
+                                    {{ if eq $.Site.LanguageCode  "en" }}
+                                    	{{ .Date.Format "January 2, 2006" }}
+                                    {{ else if eq $.Site.LanguageCode  "fr"}}
+                                    	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+                                    {{ else if eq $.Site.LanguageCode  "es"}}
+                                    	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+                                    {{ else if eq $.Site.LanguageCode  "it"}}
+                                    	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+                                    	
+                                    {{ end }}</a>
+                                </p>
                             </div>
-                        </section>
-                        {{ end }}
-                        <ul class="pager">
-                            {{ if .Paginator.HasPrev }}
-                            <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; {{ .Site.Params.news.prev }}</a></li>
-                            {{ else }}
-<!-- this code greys out the "Newer" button in the first page                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
--->                            
-                            {{ end }}
-
-                            {{ if .Paginator.HasNext }}
-                            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ .Site.Params.news.next }} &rarr;</a></li>
-                            {{ else }}
-<!-- this code greys out the "Older" button in the first page   
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
--->
-                            {{ end }}
-                        </ul>
+                            <p class="intro">{{ .Summary }}</p>
+                            <p class="read-more"><a href="{{ .RelPermalink }}" class="btn btn-secondary">{{ .Site.Params.news.more }}</a>
+                            </p>
+                        </div>
                     </div>
-                    <!-- /.col-md-9 -->
+                </section>
+                {{ end }}
+                <ul class="pager">
+                    {{ if .Paginator.HasPrev }}
+                    <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; {{ .Site.Params.news.prev }}</a></li>
+                    {{ else }}
+<!-- this code greys out the "Newer" button in the first page                            
+                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+-->                            
+                    {{ end }}
 
-                    <!-- *** LEFT COLUMN END *** -->
-
-   
-
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /#content -->
+                    {{ if .Paginator.HasNext }}
+                    <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ .Site.Params.news.next }} &rarr;</a></li>
+                    {{ else }}
+<!-- this code greys out the "Older" button in the first page   
+                    <li class="next disabled"><a href="#">Older &rarr;</a></li>
+-->
+                    {{ end }}
+                </ul>
+            </div><!-- container -->
+        </div><!-- content-main -->
 	</main>
 	<aside>
  	    {{ partial "contact.html" . }}
