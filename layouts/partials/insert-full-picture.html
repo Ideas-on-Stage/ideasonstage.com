@@ -1,10 +1,8 @@
 {{ "<!-- partials:insert-full-picture.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="{{ .style }} paddingv-small"><!-- section used for full width background -->
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture img-responsive">{{ end }}
-			</div>
+<section id="{{ .sectionid }}" class="{{ .style }}"><!-- section used for full width background -->
+	<div class="flex-container">
+		<div class="flex-item-picture-full">
+			{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
 		</div>
-	</div>
+ 		</div>
 </section>
