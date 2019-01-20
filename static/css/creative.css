@@ -243,7 +243,7 @@ flex-container .flex-item-text h4 {
 
 .bg-dark {
     color: #fff;
-    background-color: #333541;
+    background-color: #222;
 }
 .bg-dark a {
 	color: #fff;
@@ -257,7 +257,7 @@ flex-container .flex-item-text h4 {
 
 .bg-dark-box {
     color: #fff;
-    background-color: #333541;
+    background-color: #222;
 }
 .bg-dark-box a {
 	color: #fff;
@@ -478,6 +478,9 @@ section#team-member-bio .text {
 	margin-top: 1.5em;
 }
 
+.post h1 {
+	font-size: 2em;
+}
 /* End of customization */
 
 aside {
@@ -1433,7 +1436,7 @@ body {
   clear: both;
 }
 .testimonials .item .testimonial .text {
-  color: #333541; 
+  color: #222; 
 /*  color: #fff;	*/
   margin-bottom: 30px;
 }
@@ -1467,7 +1470,7 @@ body {
 .testimonials .item .testimonial .name-picture h4 {
  /* color: #fff; */
 	font-size: 1em;
-	color: #333541;
+	color: #222;
 	margin: 0;
 }
  
@@ -1475,12 +1478,12 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   /* color: #fff; */
-  color: #333541;
+  color: #222;
   letter-spacing: 0.08em;
 }
 .testimonials .item .testimonial .name-picture p {
   /* color: #fff; */
-  color: #333541;
+  color: #222;
   margin: 0;
   font-size: 12px;
 }
