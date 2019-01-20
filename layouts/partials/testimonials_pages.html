@@ -9,6 +9,7 @@
     {{ end }}
     {{ if (gt ($.Scratch.Get "show") 0) }}
 <section id="testimonials" class="bg-lightgrey">
+	<h1 class="hidden">{{ $.Site.Params.testimonials.title }}</h1>
     <div class="container paddingv-small">
         <div class="row">
             <div class="col-xs-12">
