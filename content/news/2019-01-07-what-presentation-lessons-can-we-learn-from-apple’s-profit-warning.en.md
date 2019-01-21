@@ -25,4 +25,4 @@ The third point is really the key message, the one you want everybody to remembe
 
 If you have to deliver bad news in a presentation, this is how you should do it. Be as succinct as possible. Start with the bad news, provide context, then conclude with the key positive message.
 
-![](/img/news/two-apples.jpg)
+![A tale of two Apple communications](/img/news/two-apples.jpg)
