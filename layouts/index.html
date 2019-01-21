@@ -3,7 +3,7 @@
 {{ "<!-- index -->" | safeHTML }}
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
-        {{ partial "head.html" . }}
+        {{ partial "home-head.html" . }}
     </head>
     <body id="page-top">
     	<h1 class="hidden">{{ .Site.Title }}</h1>

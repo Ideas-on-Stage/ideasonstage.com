@@ -2,7 +2,7 @@
 draft 		= false
 title 		= "The Business Presentation Revolution"
 type		= "revolution"
-description	= "A video podcast about speaking and presenting in public"
+description	= "Un podcast vidéo sur l'art de parler et présenter en public"
 weight		= 4
 categories	= [ "The Business Presentation Revolution" ]
 showrefs	= false
@@ -10,10 +10,12 @@ urlredirect	= ""
 url 		= "/revolution/"
 +++
 
-# The best podcast about presentations, available on Youtube and iTunes
-Introducing The Business Presentation Revolution Podcast: your regular dose of Presentation Inspiration. In these bite-sized videos we share valuable tips on all aspects of the art of presenting, such as successful preparation practices, speaking tips to really engage a specific audience, slide design and more. 
+# Le meilleur podcast sur l'art de présenter en public, disponible sur Youtube et iTunes
+Votre dose d'inspiration pour faire de meilleures présentations ! Ce podcast est constitué de courtes vidéos dans lesquelles nous partageons trucs et astuces sur l'art de présenter : comment se préparer, parler, établir une connexion avec le public, créer de bonnes diapositives PowerPoint, et bien plus.
 
-Rose Bloomfield is the anchor of the show, and Phil Waknell is the first guest to appear in the series. We’ll be sharing a new video every two weeks, so follow us on LinkedIn or subscribe on iTunes to get each episode hot off the press.
+Rose Bloomfield est l'animatrice du show, et Phil waknell est notre premier invité à apparaître dans la série. Nous partagerons une nouvelle vidéo toutes les deux semaines. Pour rester informé le plus simple est de nous suivre sur Linkedin et de vous abonner à Youtube et itunes.
+
+Des versions avec des sous-titres en français et espagnol sont mises à disposition peu après la version anglaise.
 
 <div class="row">
 	<div class="col-xs-4 text-center col-xs-offset-2">
