@@ -16,11 +16,11 @@ Introducing The Business Presentation Revolution Podcast: your regular dose of P
 Rose Bloomfield is the anchor of the show, and Phil Waknell is the first guest to appear in the series. We’ll be sharing a new video every two weeks, so follow us on LinkedIn or subscribe on iTunes to get each episode hot off the press.
 
 <div class="row">
-	<div class="col-xs-4 text-center col-xs-offset-2">
+	<div class="col-xs-4 text-center">
 		<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="/pictures/revolution/youtube.svg" alt="youtube" style="margin-bottom: 5px; width:50px;">YouTube</a>
 	</div>
-	<div class="col-xs-4 text-center hidden">
-		<a href="https://www.apple.com/"><img src="/pictures/revolution/itunes.svg" alt="iTunes" style="margin-bottom: 5px; width:50px;">iTunes</a>
+	<div class="col-xs-4 text-center">
+		<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"><img src="/pictures/revolution/itunes.svg" alt="iTunes" style="margin-bottom: 5px; width:50px;">iTunes</a>
 	</div>
 	<div class="col-xs-4 text-center">
 		<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="/pictures/revolution/linkedin.svg" alt="linkedin" style="margin-bottom: 5px; width:50px;">Linkedin</a>
