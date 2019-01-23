@@ -1,6 +1,6 @@
 +++
 draft		= false
-title		= "The Business Presentation Revolution"
+title		= "The Business Presentation Revolution Training"
 description = "Thanks to our signature training course, your team's presentations will never be the same again."
 weight		= 1
 categories	= [ "Training & Workshops" ]
