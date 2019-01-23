@@ -1,9 +1,10 @@
 url: /revolution/
 language: en
 position: bottom
-title: "Up next, Jan 23 2019"
-layout: insert-picture1-text2.html
+title: "Episode 2: Overcoming nerves"
+layout: insert-link-text1-picture2.html
 style: bg-lightgrey
-picture: revolution-hand-clicker.jpg
-link: /revolution/
-description: "Overcoming nerves."
+picture: revolution-episode-00002.jpg
+link: https://www.youtube.com/watch?v=focwumpNq_o&feature=youtu.be
+description: "Rose asks Phil how to overcome your fear before a big presentation, and turn it into positive energy on stage. Discover our Chief Inspiration Officer's tips to find your inner zen before a big event."
+button: "Watch episode"

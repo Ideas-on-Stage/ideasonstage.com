@@ -1,10 +1,10 @@
 +++
 draft 		= false
 title 		= "The Business Presentation Revolution"
-type		= "revolution"
+type		= "revolution-podcast"
 description	= "Un podcast vidéo sur l'art de parler et présenter en public"
 weight		= 4
-categories	= [ "The Business Presentation Revolution" ]
+categories	= [ "Podcast The Business Presentation Revolution" ]
 showrefs	= false
 urlredirect	= ""
 url 		= "/revolution/"
