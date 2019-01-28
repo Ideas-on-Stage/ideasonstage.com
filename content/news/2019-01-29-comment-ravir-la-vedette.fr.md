@@ -7,7 +7,7 @@ date = "2019-01-29"
 author = "Pierre Morsa"
 banner = "/img/news/star.jpg"
 +++
-Début janvier, Ideas on Stage a eu le privilège d’organiser une formation aux présentations commerciales pour Krauthammer. Donner une formation aux cadres senior de Krauthammer, une des sociétés de formation en vente et management les plus respectées au monde, était pour nous comme concevoir un objet pour Jonathan Ive, le légendaire Designer d’Apple : un peu intimidant, mais incroyablement excitant.
+Début janvier, Ideas on Stage a eu le privilège d’organiser une formation aux présentations commerciales pour Krauthammer à Dolce La Hulpe, près de Bruxelles en Belgique. Donner une formation aux cadres senior de Krauthammer, une des sociétés de formation en vente et management les plus respectées au monde, était pour nous comme concevoir un objet pour Jonathan Ive, le légendaire Designer d’Apple : un peu intimidant, mais incroyablement excitant.
 
 La formation fut un grand succès. C’est formidable de pouvoir travailler avec des équipes aussi talentueuses. Mais ce dont je me souviendrai le plus, ce sont deux présentations. Le dernier exercice de la formation était de préparer et présenter un pitch de vente face aux autres groupes.
 

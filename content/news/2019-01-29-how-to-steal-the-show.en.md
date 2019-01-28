@@ -7,7 +7,7 @@ date = "2019-01-29"
 author = "Pierre Morsa"
 banner = "/img/news/star.jpg"
 +++
-A few weeks ago, Ideas on Stage had the privilege of organizing a sales presentation training for Krauthammer. For us, delivering a training for dozens of senior people at Krauthammer, one of the world’s most respected sales and management training companies, felt like designing something for Jonathan Ive, Apple’s legendary designer: a bit intimidating but incredibly exciting.
+A few weeks ago, Ideas on Stage had the privilege of organizing a sales presentation training for Krauthammer at Dolce La Hulpe, close to Brussels in Belgium. For us, delivering a training for dozens of senior people at Krauthammer, one of the world’s most respected sales and management training companies, felt like designing something for Jonathan Ive, Apple’s legendary designer: a bit intimidating but incredibly exciting.
 
 The training met with great success, and it was fantastic to work with such talented people, but what I will remember most are two presentations. During the hands-on course, groups prepared a sales pitch, and at the end of the day, each group had to deliver its presentation in front of the others.
 
