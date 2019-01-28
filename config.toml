@@ -21,7 +21,7 @@ theme        	= "hugo-creative-theme-master"
 
 	[params]
 		email 			= "info@ideasonstage.com"
-		year			= "2016-2017"
+		year			= "2019"
 		cookieslink		= "cookies/"
 		favicon			= "/pictures/home/ios_favicon.ico"
 		headerteam		= "/pictures/team/image.png"
@@ -710,7 +710,7 @@ monthtrans = "mois.es.yaml"
 	    #About IoS section (bottom of home page)
 	        title			= "Acerca de Ideas on Stage"
 	        subtitle		= "Méthodologie"
-	        description1 	= "<p>Una gran presentación de negocios representa una ventaja competitiva única para una empresa. Para nuestra sorpresa, nos dimos cuenta de que la mayoría de las presentaciones no consigue ni tan siquiera despertar el interés del público. Por este motivo creamos Ideas on Stage en 2010, para ayudar a nuestros clientes a hacer las mejores presentaciones del mundo.</p><p>Rápidamente nos dimos cuenta de que nuestra intuición era correcta. Los clientes que contaron con nuestros servicios vieron una gran diferencia de forma inmediata. Empezaron a conseguir más negocio. Sus habilidades de liderazgo e influencia mejoraron. Presentaban sus ideas de forma clara y convincente.</p><p>A día de hoy trabajamos con muchas de las mejores compañías en el mundo. Les ayudamos a cambiar. Les ayudamos a obtener una ventaja competitiva. Y todo gracias al poder de las presentaciones de negocios eficaces."
+	        description1 	= "<p>Ideas on Stage ayuda a líderes de todo el mundo a hacer presentaciones impactantes, a crear eventos inspiradores y a reforzar sus organizaciones mediante coaching y formación para hablar en público de la máxima calidad. En un mundo de conferencias aburridas y reuniones interminables, destacará y brillará.</p><p>Creamos Ideas on Stage en 2010, convencidos de que las presentaciones de éxito son una ventaja competitiva clave, y ofrecimos una mezcla revolucionaria de storytelling, diseño visual y acompañamiento de oradores. Nuestra intuición era correcta: nuestros clientes se dieron cuenta del valor de las presentaciones de alto impacto, continuaron volviendo a por más y se lo contaron a sus amigos.</p><p>Hoy en día, los expertos en comunicación de Ideas on Stage ofrecen una amplia gama de servicios de presentación en todo el mundo en inglés, francés, español, italiano y alemán.</p>"
 	        image1 			= "/pictures/about/ios-map.png"
 	        description2 	= "The pSCORE method (Presentation SCORE) is our new approach to business presenting, honed over many years and proven in a wide variety of companies. pSCORE offers a complete method for the creation of top-quality presentations, starting with careful preparation (start with your audience and the context, set objectives and choose the key messages) and then applying the three arts of presenting: <br /><ul><li>Storytelling: define a clear and effective structure, and use storytelling techniques to make your key messages stick.</li><li>Visuals: forget Death By PowerPoint – instead use slides and other visual aids to communicate more effectively.</li><li>Oratory: deliver your presentation powerfully and credibly, with confidence and without stress.</li></ul>"
 	        image2 			= "/pictures/about/ios-pSCORE.png"

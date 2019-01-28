@@ -2,7 +2,7 @@
 draft 		= false
 title 		= "The Business Presentation Revolution"
 type		= "revolution-podcast"
-description	= "Un video podcast sobre cómo hablar y presentar en público"
+description	= "A video podcast about speaking and presenting in public"
 weight		= 4
 categories	= [ "Podcast The Business Presentation Revolution" ]
 showrefs	= false
