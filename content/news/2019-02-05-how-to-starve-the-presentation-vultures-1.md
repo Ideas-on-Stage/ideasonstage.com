@@ -5,7 +5,7 @@ tags = ["Public Speaking", "Fear" ]
 news = ["general"]
 date = "2019-02-05"
 author = "Pierre Morsa"
-banner = "/img/news/"
+banner = "/img/news/presentation-vulture.jpg"
 +++
 Maybe you feel that your last presentation was a complete failure. You didn’t manage to shake off your nerves. You became confused. The client or your boss criticized you. Maybe you’ve been caught in a downward spiral for some time, each criticism making you lose confidence, and making the next presentation worse. I have good news for you: no matter what your situation is, this vicious circle can be broken, and you gain the necessary confidence to enjoy presenting.
 
@@ -17,3 +17,5 @@ I started by addressing this point because, in my experience, this is really *th
 The goal of the vultures is to reduce your vital space or push you out of it. The vultures are circling around your vital space, they are always trying to invade it by stealing your energy and confidence. It’s only a facade. If you remain anchored, your vital space will protect you and you will be able to fend off all threats with calm and confidence. It will become a natural part of your presentations. Being able to jump out of your vital space is useful, but don’t do it before you have the confidence to do so and learn to do it without turning into a vulture.
 
 In the second part I will explain several techniques to stay anchored and protect your vital space, and scare off the presentation vultures.
+
+[Presentation Vulture](/img/news/presentation-vulture.jpg)
