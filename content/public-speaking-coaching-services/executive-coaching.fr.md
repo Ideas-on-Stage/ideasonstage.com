@@ -29,6 +29,6 @@ Avec ce programme vous pourrez :
 
 La combinaison de notre programme de coaching de prise de parole en public avec la création de présentations stratégiques est un des meilleurs investissements que vous puissiez faire pour accélérer votre carrière et devenir un dirigeant parmi les dirigeants.
 
-Utilisez le formulaire ci-dessous ou envoyez-nous un email à executivecoaching@ideasonstage.com et nous vous contacterons rapidement. Ces demandes sont reçues et traités exclusivement par notre équipe de coaching senior pour vous garantir le meilleur niveau de confidentialité possible.
+Utilisez le formulaire ci-dessous ou envoyez-nous un email à info@ideasonstage.com et nous vous contacterons rapidement. Ces demandes sont reçues et traités exclusivement par notre équipe de coaching senior pour vous garantir le meilleur niveau de confidentialité possible.
 
 [pic1]: /pictures/public-speaking-coaching/public-speaking-coaching/public-speaking-coaching.jpg
