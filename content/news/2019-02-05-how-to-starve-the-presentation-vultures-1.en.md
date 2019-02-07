@@ -1,7 +1,7 @@
 +++
 draft = "false"
 title = "How to starve the presentation vultures (part 1)"
-tags = ["Public Speaking", "Fear" ]
+tags = ["Public Speaking", "Fear"]
 news = ["general"]
 date = "2019-02-05"
 author = "Pierre Morsa"
@@ -18,4 +18,4 @@ The goal of the vultures is to reduce your vital space or push you out of it. Th
 
 In the second part I will explain several techniques to stay anchored and protect your vital space, and scare off the presentation vultures.
 
-[Presentation Vulture](/img/news/presentation-vulture.jpg)
+![Presentation Vulture](/img/news/presentation-vulture.jpg)
