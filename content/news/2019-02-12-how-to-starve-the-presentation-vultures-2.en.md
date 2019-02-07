@@ -5,7 +5,7 @@ tags = ["Public Speaking", "Fear" ]
 news = ["general"]
 date = "2019-02-12"
 author = "Pierre Morsa"
-banner = "/img/news/"
+banner = "/img/news/presentation-vulture-skeleton.jpg"
 +++
 Last week we saw how presentation vultures can destroy your confidence and ability to present in front of an audience. We saw that the best way to fend them off is to strengthen your vital space anchor. But how can you do that? 
 
@@ -17,4 +17,4 @@ The vultures will also try to destabilize you with questions you don’t have th
 
 These are only a few examples of the techniques you can use to get out of a presentation slump and gain confidence. Anybody willing to invest the time and effort can change and become a good presenter. This is also what a good coach can do for you. He can help you anchor yourself so Vultures will start starving and look elsewhere. He can help you learn to stay firm in hostile environments. He can help you become the good leader people want to follow.
 
-
+![Presentation Vulture](/img/news/presentation-vulture-skeleton.jpg)

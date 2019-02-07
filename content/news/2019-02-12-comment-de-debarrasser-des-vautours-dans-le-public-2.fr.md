@@ -5,7 +5,7 @@ tags = ["Prise de parole en public", "Peur" ]
 news = ["general"]
 date = "2019-02-12"
 author = "Pierre Morsa"
-banner = "/img/news/"
+banner = "/img/news/presentation-vulture-skeleton.jpg"
 +++
 La semaine dernière nous avons expliqué comment les vautours du public peuvent détruire votre confiance en vous et votre capacité à prendre la parole. Nous avons vu que la meilleure manière de s’en débarrasser était de renforcer votre ancrage dans votre espace vital. Mais comment faire cela ?
 
@@ -16,3 +16,5 @@ Les harceleurs aiment aussi se comporter comme des enfants gâtés. Ils se jette
 Les vautours essaieront aussi de vous déstabiliser avec des questions auxquelles vous n’avez pas la réponse. Si vous n’arrivez à répondre à aucune question, cela veut dire que vous ne vous êtes pas préparé correctement (et dans ce cas, c’est votre problème, pas celui du vautour). Mais il est parfaitement normal de ne pas avoir 100 % des réponses. Dites-le simplement. « Je n’ai pas la réponse, mais je vais faire le test et je vous donnerai la réponse ». C’est aussi simple que cela. Vous vous êtes même comporté de manière proactive en proposant de trouver la réponse à la question.
 
 Ce ne sont que quelques exemples des techniques que vous pouvez utiliser pour reprendre confiance en vous lorsque vous prenez la parole en public. N’importe quelle personne prête à investir le temps et l’effort nécessaire peut changer, et devenir un bon présentateur. C’est aussi ce qu’un bon coach peut vous aider à faire. Il vous aidera à renforcer votre ancrage, et les vautours commenceront à mourir de faim et iront voir ailleurs. Il vous aidera à rester ferme dans des environnements hostiles. Il vous aidera à devenir le leader généreux que tout le monde veut suivre.
+
+![Presentation Vulture](/img/news/presentation-vulture-skeleton.jpg)
