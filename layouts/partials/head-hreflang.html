@@ -1,0 +1,9 @@
+{{ "<!-- partials:head-hreflang.html -->" | safeHTML }}
+{{ "<!-- reflang -->" | safeHTML }}
+{{- if .IsTranslated }}
+    {{- range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+    {{- end}}
+{{- end }}
+{{ partial "head-favicon.html" }}
+{{ partial "head-css.html" }}

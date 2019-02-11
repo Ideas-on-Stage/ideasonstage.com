@@ -17,15 +17,15 @@ theme        	= "hugo-creative-theme-master"
 		category 		= "categories"
 		tag				= "tags"
 
-
-
 	[params]
+		author			= "Ideas on Stage"
 		email 			= "info@ideasonstage.com"
 		year			= "2019"
 		cookieslink		= "cookies/"
 		favicon			= "/pictures/home/ios_favicon.ico"
 		headerteam		= "/pictures/team/image.png"
 		headereventan	= "/pictures/corporate-events/event-animation/image.png"
+		back			= "Back"
 		
 		# Id for Incognito form in Presentation Creation Service
 		pcsform 		= "TeiR-77um0q9kFm49EqvwQ"
@@ -34,7 +34,6 @@ theme        	= "hugo-creative-theme-master"
 		#News
 		activenews 		= true
 		viewMorePostLink= "/news/"
-    	author			= "IoS"
 		
 		# Enable / Disable algolia search
   		algolia_search    = false
@@ -57,7 +56,7 @@ theme        	= "hugo-creative-theme-master"
 					url			 	= "/#services"
 					frontpageurl 	= "#services"
 				[params.navigation.items.002]
-					name			= "Stories"
+					name			= "News"
 					url				= "/news/"
 					frontpageurl	= "/news/"
 				[params.navigation.items.003]
@@ -144,7 +143,7 @@ theme        	= "hugo-creative-theme-master"
 		[params.offer]	
 			[params.offer.001]
 				category	= "Presentation Creation Agency"
-				title		= "Presentation Creation Agency"
+				title		= "Presentation Creation"
 				description	= "Great story, great slides."
 				picture		= "home-presentation-creation-agency.jpg"
 				style		= "bg-white"
@@ -161,8 +160,8 @@ theme        	= "hugo-creative-theme-master"
 				link		= "/public-speaking-coaching/"
 				button		= "Learn more"
 			[params.offer.003]
-				category	= "Corporate Events"
-				title		= "Corporate Events"
+				category	= "Business Events"
+				title		= "Business Events"
 				description	= "Break the routine. Surprise your Guests."
 				picture		= "home-corporate-events.jpg"
 				style		= "bg-black"
@@ -195,8 +194,6 @@ theme        	= "hugo-creative-theme-master"
 			buttondate	= true
 			buttonplace	= false	
 			price		= "Price: "		
-	
-	        
 	
 		# Contact section
 		[params.contact]
@@ -232,8 +229,6 @@ theme        	= "hugo-creative-theme-master"
 				question3 = "I am organizing an event and would like to know how you can help"
 				question4 = "Other..."
 	
-	
-	
 		# Aside section
 		[params.asidefree]
 			headline = "Is your TEDx event eligible for free Coaching?"
@@ -242,20 +237,17 @@ theme        	= "hugo-creative-theme-master"
 				text = "Apply for TEDx Sponsorship"
 				link = ""
 	
-	
 		[params.modal]
 			client		= "Client"
 			close 		= "Close"
 			date		= "Date"
 			category	= "Category"
-			
+						
 	    # Portfolio modals
 		[params.portfolio.modal]
 	        client = "Client"
 	        date = "Date"
 	        category = "Category"
-	
-	
 	
 	    # Team
 	    [params.team_members]
@@ -275,27 +267,42 @@ theme        	= "hugo-creative-theme-master"
 				text = "Submit question"
 				link = ""
 
-# News
-# Define the number of posts/news items per page
+		# News
+		# Define the number of posts/news items per page
+		
+		[params.listpages]
+		
+			[params.listpages.001]
+				url			= "/news/"
+				title		= "Stories"
+				description	= "What's happening at Ideas on Stage? Get the latest news and tips here."
+			
+			[params.listpages.002]
+				url			= "/revolution/"
+				title 		= "The Business Presentation Revolution"
+			    description	= "A video podcast about speaking and presenting in public, available on YouTube and iTunes."
+			    
+		[params.news]
+			more		= "Continue reading"
+			by	 		= "by"
+			back 		= "Back to Stories"
+			title 		= "Stories"
+			next  		= "Older"
+			prev  		= "Newer"
 
-
-[params.news]
-	more = "Continue reading"
-	by	 = "by"
-	back = "Back to Stories"
-	title = "Stories"
-	next  = "Older"
-	prev  = "Newer"
-    
-# Enable and disable widgets for the right sidebar
-[params.widgets]
-    categories = false
-    tags = false
-    search = true
+		[params.revolution]
+			text		= "<p>Introducing The Business Presentation Revolution Podcast: your regular dose of Presentation Inspiration. In these bite-sized videos we share valuable tips on all aspects of the art of presenting, such as successful preparation practices, speaking tips to really engage a specific audience, slide design and more.</p><p>Rose Bloomfield is the anchor of the show, and Phil Waknell is the first guest to appear in the series. We’ll be sharing a new video every two weeks, so follow us on LinkedIn or subscribe on iTunes to get each episode hot off the press.</p>"
+			more		= "Watch Episode"
+				    
+		# Enable and disable widgets for the right sidebar
+		[params.widgets]
+		    categories = false
+		    tags = false
+		    search = true
     
 [outputs]
-home = [ "HTML", "JSON" ]
-page = [ "HTML" ]
+	home = [ "HTML", "JSON" ]
+	page = [ "HTML" ]
 
 ##################################################
 
@@ -327,31 +334,32 @@ activenews = true
 # FRENCH
 ##################
 [languages.fr]
-baseURL = "https://www.ideasonstage.fr/"
-languageName = "Francais"
-languageCode 	= "fr"
-weight = "2"
-title = "Agence de création de présentations | Coaching et formation prise de parole en public | Ideas on Stage"
-description  	= "Le spécialiste des présentations"
-googleAnalytics = "UA-30695118-2"
-rights			= "Tous droits réservés"
-cookies			= "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
-footer_desc		= "Ideas on Stage est le spécialiste des présentations. Nos services sont disponibles en Amérique du Nord et en Europe, en anglais, français, espagnol et italien."
-favicon			= "pictures/home/ios_favicon.ico"
-		
-#form id for Incognito form
-pcsformid = "1"
-
-#News
-activenews = true
-monthtrans = "mois.yaml"
-
-# Enable / Disable algolia search
-  		algolia_search    = false
-  		algolia_appId     = "GMTISKBCI2"
- 		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
-  		algolia_indexName = "IoS_fr"
-
+	baseURL			= "https://www.ideasonstage.fr/"
+	languageName	= "Francais"
+	languageCode 	= "fr"
+	weight 			= "2"
+	title			= "Agence de création de présentations | Coaching et formation prise de parole en public | Ideas on Stage"
+	description  	= "Le spécialiste des présentations"
+	googleAnalytics = "UA-30695118-2"
+	rights			= "Tous droits réservés"
+	cookies			= "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
+	footer_desc		= "Ideas on Stage est le spécialiste des présentations. Nos services sont disponibles en Amérique du Nord et en Europe, en anglais, français, espagnol et italien."
+	favicon			= "pictures/home/ios_favicon.ico"
+	back			= "Retour"
+	
+	#form id for Incognito form
+	pcsformid 		= "1"
+	
+	#News
+	activenews		= true
+	monthtrans		= "mois.yaml"
+	
+	# Enable / Disable algolia search
+	algolia_search    = false
+	algolia_appId     = "GMTISKBCI2"
+	algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
+	algolia_indexName = "IoS_fr"
+	
 
 	# Navigation
 	[languages.fr.navigation]
@@ -446,9 +454,7 @@ monthtrans = "mois.yaml"
 				title = "Title"
 				category = "Category"
 				buttonText = "Close"
-	
-
-
+				
 		# Offer section
 		[languages.fr.services]
 			title	= "Nos Services"
@@ -465,7 +471,7 @@ monthtrans = "mois.yaml"
 				button		= "En savoir plus"
 			[languages.fr.offer.002]
 				category	= "public-speaking-coaching"
-				title		= "Prise de parole en public"
+				title		= "Coaching prise de parole en public"
 				description	= "Prenez la parole avec aisance et confiance."
 				picture		= "home-public-speaking-coaching.jpg"
 				style		= "bg-dark-box"
@@ -507,9 +513,7 @@ monthtrans = "mois.yaml"
 			buttonText	= "Register Now "
 			buttondate	= true
 			buttonplace	= false	
-			price		= "Price: "		
-	
-	        
+			price		= "Price: "			        
 	
 		# Contact section
 		[languages.fr.contact]
@@ -583,16 +587,29 @@ monthtrans = "mois.yaml"
 				text = "Submit question"
 				link = ""
 
+		[languages.fr.listpages]
+		
+			[languages.fr.listpages.001]
+				url			= "/news/"
+				title		= "Stories"
+				description	= "What's happening at Ideas on Stage? Get the latest news and tips here."
+			
+			[languages.fr.listpages.002]
+				url			= "/revolution/"
+				title 		= "The Business Presentation Revolution"
+			    description	= "Un podcast vidéo sur l'art de parler et présenter en public, disponible sur YouTube et iTunes."
 
-[languages.fr.news]
-	more = "continuer à lire"
-	by	 = "par"
-	back = "Retour à Conseils"
-	title = "Conseils"
-	next  = "Page Suivante"
-	prev  = "Page Précédente"
+		[languages.fr.news]
+			more = "continuer à lire"
+			by	 = "par"
+			back = "Retour à Conseils"
+			title = "Conseils"
+			next  = "Page Suivante"
+			prev  = "Page Précédente"
 
-
+		[languages.fr.revolution]
+			text		= "<p>Votre dose d'inspiration pour faire de meilleures présentations ! Ce podcast est constitué de courtes vidéos dans lesquelles nous partageons trucs et astuces sur l'art de présenter : comment se préparer, parler, établir une connexion avec le public, créer de bonnes diapositives PowerPoint, et bien plus.</p><p>Rose Bloomfield est l'animatrice du show, et Phil waknell est notre premier invité à apparaître dans la série. Nous partagerons une nouvelle vidéo toutes les deux semaines. Pour rester informé le plus simple est de nous suivre sur Linkedin et de vous abonner à Youtube et itunes.</p><p>Des versions avec des sous-titres en français et espagnol sont mises à disposition peu après la version anglaise.</p>"
+			more		= "Regarder l'épisode"
 
 # Enable and disable widgets for the right sidebar
 [languages.fr.widgets]
@@ -851,18 +868,31 @@ monthtrans = "mois.es.yaml"
 			[languages.es.aside.button]
 				text = "Submit question"
 				link = ""
+		
+		[languages.es.listpages]
+		
+			[languages.es.listpages.001]
+				url			= "/news/"
+				title		= "Stories"
+				description	= "What's happening at Ideas on Stage? Get the latest news and tips here."
+			
+			[languages.es.listpages.002]
+				url			= "/revolution/"
+				title 		= "The Business Presentation Revolution"
+			    description	= "Un video podcast sobre cómo hablar y presentar en público, disponible en YouTube e iTunes."
 
-
-[languages.es.news]
-	more = "Continuar leyendo"
-	by	 = "por"
-	back = "Volver a Noticias"
-	title = "Noticias"
-	next  = "Pag. Siguiente"
-	prev  = "Pag. Anterior"
-
-
-
+		[languages.es.news]
+			more = "Continuar leyendo"
+			by	 = "por"
+			back = "Volver a Noticias"
+			title = "Noticias"
+			next  = "Pag. Siguiente"
+			prev  = "Pag. Anterior"
+		
+		[languages.es.revolution]
+			text		= "<p>Presentamos el podcast The Business Presentation Revolution: tu dosis regular de Inspiración para Presentaciones. En estos videos cortos compartimos valiosos consejos acerca de todos los aspetos del arte de las presentaciones, como por ejemplo hábitos para preparar tu presentación con éxito, consejos para hablar y cautivar a una audiencia concreta, diseño de slides, y mucho más.</p><p>Rose Bloofield presenta la serie, y Phil Waknell es el primer invitado. Publicamos nuevos episodios quincenalmente; si quieres recibir los nuevos videos recién salidos del horno, síguenos en LinkedIn o suscríbete en iTunes.</p>"
+			more		= "Regarder l'épisode"
+			
 # Enable and disable widgets for the right sidebar
 [languages.es.widgets]
     categories = false

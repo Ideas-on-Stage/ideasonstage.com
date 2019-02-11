@@ -1,0 +1,12 @@
+{{ "<!-- partials:home-hero -->" | safeHTML }}
+<header id="home" class="bg-dark">
+    <div class="header-content">
+        <div class="header-content-inner">
+			{{- range .Site.Params.offer }}
+			<a href="{{ .link }}"><h2>
+			    {{ .title }}
+			</h2></a>
+			{{- end }}
+		</div>
+    </div>
+</header>

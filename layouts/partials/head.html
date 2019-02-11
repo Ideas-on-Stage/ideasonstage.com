@@ -1,30 +1,21 @@
 {{ "<!-- partials:head.html -->" | safeHTML }}
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
-		<meta name="description" content="{{ with .Description }}{{ . }}{{ end }}">
-		{{ .Hugo.Generator }}
-		<title>{{ with .Title }}{{ . }}{{ end }}</title>
-		{{ "<!-- reflang -->" | safeHTML }}
-		{{- if .IsTranslated }}
-		    {{- range .AllTranslations }}
-        <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
-		    {{- end}}
-		{{- end }}
-		{{ "<!-- Favicon -->" | safeHTML }}
-		<link rel="shortcut icon" href="{{ .Site.Params.favicon }}">
-		{{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
-		<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
-		{{ "<!-- Custom Fonts -->" | safeHTML }}
- 		<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
-		<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6201816/7621392/css/fonts.css" />
-		{{ "<!-- Site CSS -->" | safeHTML }}
-		<link rel="stylesheet" href="/css/creative.css" type="text/css">
-		<link rel="stylesheet" href="/css/modals.css" type="text/css">
-		{{ "<!-- Plugin CSS -->" | safeHTML }}
-		<link rel="stylesheet" href="/css/animate.min.css" type="text/css">
-		{{ "<!-- Custom CSS -->" | safeHTML }}
-		<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css">
-		<link href="/css/owl.theme.css" rel="stylesheet" type="text/css">
-    	<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="Ideas on Stage news" />
+{{ partial "head-meta.html" }}
+{{ .Hugo.Generator }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "found" "false" }}
+{{ range .Site.Params.listpages }}
+	{{ if eq $.Page.URL .url }}
+		<meta name="author" content="{{ with $.Site.Params.author }}{{ . }}{{ end }}">
+		<meta name="description" content="{{ with .description }}{{ . }}{{ end }}">
+		<title>{{ with .title }}{{ . }}{{ end }}</title>
+		{{ $scratch.Set "found" "true" }}
+	{{ end }}
+{{ end }}
+{{ if eq ($scratch.Get "found") "false" }}
+	<meta name="author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
+	<meta name="description" content="{{ with .Description }}{{ . }}{{ end }}">
+	<title>{{ with .Title }}{{ . }}{{ end }}</title>
+{{ end }}
+{{ partial "head-hreflang.html" }}
+{{ partial "head-favicon.html" }}
+{{ partial "head-css.html" }}

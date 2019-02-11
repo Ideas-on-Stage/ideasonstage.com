@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+{{ "<!-- revolution/list.html -->" | safeHTML }}
+{{ partial "single-top-common.html" . }}
+	<main>
+        {{ partial "page-hero.html" . }}
+        <div>
+			{{ $scratch := newScratch }}
+			{{ $scratch.Set "first" "true" }}
+			{{ $paginator := .Paginate (.Data.Pages) 5 }}
+			{{ range $paginator.Pages }}
+				{{ if eq ($scratch.Get "first") "true" }}
+					<section>
+						<div class="flex-container">
+							<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
+								<div class="flex-item-picture-full">
+									<img src="/pictures/revolution/{{ .File.ContentBaseName }}-dark.jpg" class="picture">
+								</div>
+							</a>
+							<div class="bg-black">
+								<div class="flex-item-text-overlay text-center">
+									<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
+								    	<h4>{{ with .Title }}{{ . }}{{ end }}</h4>
+								    </a>
+									<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}</a>
+						    	</div>
+							</div>
+						</div>
+					</section>
+					<div class="container paddingv-large" >
+						<div class="row">
+							<div class="col-sm-10 col-sm-offset-1">	
+								{{ with .Site.Params.revolution.text }}{{ . | markdownify }}{{ end }}
+							</div>
+						</div>				
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-4 text-center">
+								<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="/pictures/revolution/youtube.svg" alt="youtube" style="margin-bottom: 5px; width:50px;"><br>YouTube</a>
+							</div>
+							<div class="col-xs-4 text-center">
+								<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"><img src="/pictures/revolution/itunes.svg" alt="iTunes" style="margin-bottom: 5px; width:50px;"><br>iTunes</a>
+							</div>
+							<div class="col-xs-4 text-center">
+								<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="/pictures/revolution/linkedin.svg" alt="linkedin" style="margin-bottom: 5px; width:50px;"><br>Linkedin</a>
+							</div>
+						</div>
+					</div>
+					{{ $scratch.Set "first" "false" }}
+				{{ else }}
+		            <div class="container paddingt-small" >
+						<!-- For some reason the pagination is not working properly. I'm hardcoding 5 articles in the next line -->
+		                <section class="post">
+		                    <div class="row paddingv-small">
+		                        <div class="col-md-4 col-md-offset-1 paddingt-tiny">
+		                          <div class="image">
+		                              <a href="{{ .Permalink }}">
+		                                  <img src="{{ .Site.BaseURL}}pictures/revolution/{{ .File.ContentBaseName }}-thumb.jpg" class="img-responsive" alt="">
+		                              </a>
+		                          </div>
+		                        </div>
+		                        <div class="col-md-6 paddingt-tiny">
+		                            <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
+		                            <div class="clearfix">
+		                                <p class="date-comments">
+		                                    <a href="{{ .Permalink }}">
+		                                    {{ if eq $.Site.LanguageCode  "en" }}
+		                                    	{{ .Date.Format "January 2, 2006" }}
+		                                    {{ else if eq $.Site.LanguageCode  "fr"}}
+		                                    	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+		                                    {{ else if eq $.Site.LanguageCode  "es"}}
+		                                    	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
+		                                    {{ else if eq $.Site.LanguageCode  "it"}}
+		                                    	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>	
+		                                    {{ end }}</a>
+		                                </p>
+		                            </div>
+		                            <p class="intro">{{ .Description }}</p>
+		                            <p class="read-more"><a href="{{ .RelPermalink }}" class="btn btn-secondary">{{ .Site.Params.revolution.more }}</a>
+		                            </p>
+		                        </div>
+		                    </div>
+		                </section>
+		            </div><!-- container -->
+		        {{ end }}
+
+			{{ end }}
+        </div><!-- content-main -->
+	</main>
+	<aside>
+ 	    {{ partial "contact.html" . }}
+ 	</aside>
+{{ partial "single-bottom-common.html" . }}

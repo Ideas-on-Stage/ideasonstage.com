@@ -1,18 +1,18 @@
 <!-- index.html is used to build the home page -->
 <!DOCTYPE html>
-{{ "<!-- index -->" | safeHTML }}
+{{ "<!-- index.html -->" | safeHTML }}
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
-        {{ partial "home-head.html" . }}
+        {{ partial "home/head.html" . }}
     </head>
     <body id="page-top">
     	<h1 class="hidden">{{ .Site.Title }}</h1>
         {{ partial "nav.html" . }}
-        {{ partial "home-hero.html" . }}
+        {{ partial "home/hero.html" . }}
         {{ partial "about-ios.html" . }}
         {{ partial "aboutreferences_new.html" . }}
         {{ partial "inserts-top.html" . }}
- 	    {{ partial "home-services.html" . }}
+ 	    {{ partial "home/services.html" . }}
         {{ partial "inserts-bottom.html" . }}
 		<aside>
 	 	    {{ partial "testimonials.html" . }}
