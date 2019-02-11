@@ -1,12 +1,18 @@
-{{ "<!-- partials:home-hero -->" | safeHTML }}
-<header id="home" class="bg-dark">
-    <div class="header-content">
-        <div class="header-content-inner">
-			{{- range .Site.Params.offer }}
-			<a href="{{ .link }}"><h2>
-			    {{ .title }}
-			</h2></a>
-			{{- end }}
+{{ "<!-- partials:home/hero.html -->" | safeHTML }}
+<header id="home" class="bg-black">
+	<div class="flex-container">
+		<div class="background">
+			<img src="/pictures/home/hero.jpg" class="picture">
 		</div>
-    </div>
+		<div class="header-content">
+		    <div class="header-content-inner">
+				{{- range .Site.Params.offer }}
+				<a href="{{ .link }}"><h2>
+				    {{ .title }}
+				</h2></a>
+				{{- end }}
+			</div>
+		</div>
+	</div>
 </header>
+

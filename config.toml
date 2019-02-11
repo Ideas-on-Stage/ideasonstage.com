@@ -29,7 +29,6 @@ theme        	= "hugo-creative-theme-master"
 		
 		# Id for Incognito form in Presentation Creation Service
 		pcsform 		= "TeiR-77um0q9kFm49EqvwQ"
-
 		
 		#News
 		activenews 		= true
