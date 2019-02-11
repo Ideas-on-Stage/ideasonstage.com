@@ -631,6 +631,7 @@ rights			= "Todos los derechos reservados"
 cookies			= "Usamos cookies de Google Analytics y Hotjar para mejorar la experiencia de usuario."
 footer_desc		= "Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
 favicon			= "pictures/home/ios_favicon.ico"
+back			= "Atrás"
 		
 #form id for Incognito form
 pcsform = "ey1NdOq0XU6iS7d67aNhQQ"
@@ -890,7 +891,7 @@ monthtrans = "mois.es.yaml"
 		
 		[languages.es.revolution]
 			text		= "<p>Presentamos el podcast The Business Presentation Revolution: tu dosis regular de Inspiración para Presentaciones. En estos videos cortos compartimos valiosos consejos acerca de todos los aspetos del arte de las presentaciones, como por ejemplo hábitos para preparar tu presentación con éxito, consejos para hablar y cautivar a una audiencia concreta, diseño de slides, y mucho más.</p><p>Rose Bloofield presenta la serie, y Phil Waknell es el primer invitado. Publicamos nuevos episodios quincenalmente; si quieres recibir los nuevos videos recién salidos del horno, síguenos en LinkedIn o suscríbete en iTunes.</p>"
-			more		= "Regarder l'épisode"
+			more		= "Ver el episodio"
 			
 # Enable and disable widgets for the right sidebar
 [languages.es.widgets]
