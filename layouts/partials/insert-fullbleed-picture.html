@@ -8,7 +8,7 @@
 			{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
 		</div>
 		<div class="text text-center">
-		    {{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
+		    {{ if ne .title "" }}<h3>{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}
 		    <p>{{ with .description }}{{ .  }}{{ end }}</p>
 		</div>
 	</div>

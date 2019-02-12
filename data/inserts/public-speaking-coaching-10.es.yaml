@@ -1,9 +1,9 @@
 url: /public-speaking-coaching/
 language: es
-position: top
+position: bottom
 title: "Coaching ejecutivo para hablar en público"
-layout: insert-link-full-picture.html
-style: bg-lightgrey
+layout: insert-link-picture2-text1.html
+style: bg-white
 picture: public-speaking-coaching-10.jpg
 link: /public-speaking-coaching/executive-coaching/
 description: "Lidera desde el escenario"

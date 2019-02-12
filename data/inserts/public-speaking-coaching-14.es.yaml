@@ -1,9 +1,9 @@
 url: /public-speaking-coaching/
 language: es
-position: top
+position: bottom
 title: "Media Training"
-layout: insert-link-full-picture.html
-style: bg-lightgrey
+layout: insert-link-picture2-text1.html
+style: bg-white
 picture: public-speaking-coaching-14.jpg
 link: /public-speaking-coaching/media-training/
 description: "Muéstrale al mundo tu mejor versión"

@@ -6,7 +6,7 @@
 				<a href="{{ with .link }}{{ . }}{{ end }}">
 				<div class="flex-container {{ .style }}">
 					<div class="flex-item-text text-center">
-					    {{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
+					    {{ if ne .title "" }}<h3>{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}
 					    <p>{{ with .description }}{{ .  }}{{ end }}</p>
 						{{ if ne .button "" }}
 						<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>

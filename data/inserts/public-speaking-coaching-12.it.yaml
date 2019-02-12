@@ -1,9 +1,9 @@
 url: /public-speaking-coaching/
 language: it
-position: top
+position: bottom
 title: "TEDx Coaching"
-layout: insert-link-full-picture.html
-style: bg-black
+layout: insert-link-picture2-text1.html
+style: bg-white
 picture: public-speaking-coaching-12.jpg
 link: /public-speaking-coaching/tedx-coaching/
 description: "Help your Speakers deliver amazing talks"

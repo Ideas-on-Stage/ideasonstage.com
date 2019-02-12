@@ -35,8 +35,6 @@ h6,
     font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
-	margin-top: 0px;
-	margin-bottom: 4px;
 }
 
 a {
@@ -56,6 +54,7 @@ a:focus {
 
 h1 {
 	font-size: 2.5em;
+	margin-top: 0;
 }
 
 h2 {
@@ -72,8 +71,6 @@ h4 {
 
 h5 {
 	font-size: 1em;
-	padding: 0px;
-	line-height: 1.4;
 }
 
 p {
@@ -83,7 +80,6 @@ p {
 }
 
 li {
-	line-height: 1.5;
 	text-align: left;
 }
 
@@ -146,7 +142,6 @@ flex-container .flex-item-text h4 {
 .flex-container .flex-item-text-overlay h4 {
 	margin-top: 30px;
 	padding: 0px 20px;
-	font-size: 1.8em;
 }
 
 /*
@@ -177,8 +172,7 @@ flex-container .flex-item-text h4 {
 }
 
 @media(max-width:767px){
-
-	body a {
+	body, a {
 		font-size: 14px;
 	}
 
@@ -480,9 +474,6 @@ section#team-member-bio .text {
 	margin-top: 1.5em;
 }
 
-.post h1 {
-	font-size: 2em;
-}
 /* End of customization */
 
 aside {
@@ -694,6 +685,7 @@ header#revolution {
 
 header#home h3 {
 	text-transform: uppercase;
+	margin: 0;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -776,34 +768,9 @@ header .header-content a:hover {
 	color: #FF8200;
 }
 
-/*Customization for small screens*/
-@media (max-width: 576px){
-	header#home h2 {
-	font-size: 2em;
-	}
-	header .header-content .header-content-inner h2 {
-    	font-size: 2em;
-	}
-}
-@media(min-width:577px) {
-	header .header-content .header-content-inner h2 {
-    	font-size: 2em;
-	}
-}
-/* end customization of header for small screens */
-
 .section-heading {
     margin-top: 0;
 }
-
-h2.section-heading {
-	margin-bottom: 1em;
-}
-
-h3.section-heading {
-	margin-bottom: 1em;
-	font-size: 2em;
-} 
 
 .service-box {
     margin: 50px auto 0;
@@ -874,112 +841,6 @@ h3.section-heading {
 	}
 }
 
-/*PMO offer-box is used for presentation services coaching and training sections*/
-
-.offer-category {
-	position: relative;
-	height: 30px;
-	margin-top: 36px;
-	border-bottom: 1px dotted #333;
-}
-
-.offer-category .offer-category-content {
-	position: absolute;
-	width: 100%;
-	border: 0;
-	bottom: 0;
-}
-
-.offer-category-desc {
-position: relative;
-margin-bottom: 10px;	
-}
-
-.offer-box {
-	display: block;
-    position: relative;
-    width: 100%;
-/*	border: 1px solid #fff; */
-	padding: 20px;
-	margin-top: 10px;
-	border-radius: 3px;
-}
-
-.offer-box .offer-box-caption {
-}
-
-.offer-box .offer-box-caption .offer-box-caption-content {
-	position: relative;
-	top: 0;
-	width: 100%;
-	text-align: center;
-}
-
-.offer-box a {
-	text-decoration: none;
-}
-
-.offer-box:hover {
-/* border: 1px solid #FF8200; */
-	color: #FF8200;
-	-webkit-transition: all .35s;
-	-moz-transition: all .35s;
-	transition: all .35s;
-}
-
-.offer-box .offer-box-caption .offer-box-caption-content .date-next {
-	padding: 5px 10px;
-    text-transform: uppercase;
-    font-size: 1em;
-}
-
-.offer-box-description {
-	display: block;
-	position: relative;
-}
-
-.offer-box-description .offer-box-description-content {
-    font-size: 0.825em;
-}
-
-@media(max-width:1200px) {
-	.offer-box .offer-box-caption {
-		font-size: 0.8em;
-	}
-}
-
-@media(max-width:992px) {
-	.offer-box .offer-box-caption {
-		font-size: 1em;
-	}
-
-}
-
-@media(max-width:768px) {
-    .offer-box .offer-box-caption .offer-box-caption-content .offer-name {
-        font-size: 1em;
-    }
-
-	h1, h2 {
-		font-size: 2em;
-	}
-
-	h4.timeline-text {
-		font-size: 1.2em;
-	}
-	
-	p.timeline-text {
-		font-size: 0.825em;
-	}
-}	
-@media (max-width: 576px){
-	h1 {
-	font-size: 2em;
-	}
-	h2 {
-	font-size: 2em;
-	}
-}
 /*PMO people-box is used for team members and other people profiles*/
 
 .trainer {
@@ -1042,102 +903,26 @@ a.people-box:hover {
 
 .people-box .people-box-caption .people-box-caption-content .people-name {
 	padding: 0px;
+	margin: 4px;
 	color: #000;
-	font-weight: 700;
-    font-size: 16px;
+	font-size: 1em;
 }
 
 .people-box .people-box-caption .people-box-caption-content .people-title {
-	padding: 0px;
-/*    text-transform: uppercase; */
-    font-size: 14px;
-    color: #666;
+	padding: 0;
+	font-size: 0.75em;
+	margin: 0;
+    color: #aaa;
 }
 
 .people-box .people-box-caption .people-box-caption-content .people-description {
 	height: 88px;
 	padding: 2px 0px;
 	margin-bottom: 40px;
-    font-size: 14px;
+    font-size: 0.75em;
     color: #666;
 	overflow: hidden;
 	text-decoration: none;
-}
-
-@media(min-width:768px) {
-
-    .people-box .people-box-caption .people-box-caption-content .people-name {
-        font-size: 14px;
-    }
-
-	.people-box .people-box-caption .people-box-caption-content .people-title {
-	    font-size: 12px;
-	}
-
-	.people-box .people-box-caption .people-box-caption-content .people-description {
-	    font-size: 12px;
-	}
-
-}
-
-/* PMO END Added new stuff*/
-
-.portfolio-box {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 650px;
-}
-
-.portfolio-box .portfolio-box-caption {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    color: #fff;
-    opacity: 0;
-    background: #FF8200;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    padding: 0 15px;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
-    font-size: 14px;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px;
-}
-
-.portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
-}
-
-@media(min-width:768px) {
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-        font-size: 16px;
-    }
-
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px;
-    }
 }
 
 .call-to-action h2 {
@@ -1292,7 +1077,6 @@ fieldset[disabled] .btn-primary.active {
 .btn-secondary {
     color: #00A3E0 !important;
     margin-top: 12px;
-    margin-bottom: 18px;
     padding: 0px;
 }
 

@@ -1,9 +1,9 @@
 url: /public-speaking-coaching/
 language: en
-position: top
+position: bottom
 title: "Executive coaching"
-layout: insert-link-full-picture.html
-style: bg-lightgrey
+layout: insert-link-picture2-text1.html
+style: bg-white
 picture: public-speaking-coaching-10.jpg
 link: /public-speaking-coaching/executive-coaching/
 description: "Lead from the stage"
