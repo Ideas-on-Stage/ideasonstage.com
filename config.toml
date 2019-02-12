@@ -55,14 +55,18 @@ theme        	= "hugo-creative-theme-master"
 					url			 	= "/#services"
 					frontpageurl 	= "#services"
 				[params.navigation.items.002]
+					name			= "Videos"
+					url				= "/revolution/"
+					frontpageurl	= "/revolution/"
+				[params.navigation.items.003]
 					name			= "News"
 					url				= "/news/"
 					frontpageurl	= "/news/"
-				[params.navigation.items.003]
+				[params.navigation.items.004]
 					name			= "Contact"
 					url				= "#contact"
 					frontpageurl	= "#contact"
-				[params.navigation.items.004]
+				[params.navigation.items.005]
 					name			= "Team"
 					url				= "/team/"
 					frontpageurl	= "/team/"
@@ -145,8 +149,8 @@ theme        	= "hugo-creative-theme-master"
 				title		= "Presentation Creation"
 				description	= "The core of Ideas on Stage’s mission is to help leaders to communicate effectively. We help you define your messages and strategy, then we write the story, create the slides and coach you."
 				picture		= "home-presentation-creation-agency.jpg"
-				style		= "bg-white"
-				layout		= "insert-link-picture1-text2.html"
+				style		= "bg-black"
+				layout		= "insert-link-full-picture.html"
 				link		= "/presentation-creation-agency/"
 				button		= "Learn more"
 			[params.offer.002]
@@ -154,8 +158,8 @@ theme        	= "hugo-creative-theme-master"
 				title		= "Public Speaking Coaching"
 				description	= "We offer coaching for public speaking, media training, stage presence and delivery. Our international team can coach you in English, French, Spanish, German and Italian, in Europe and America."
 				picture		= "home-public-speaking-coaching.jpg"
-				style		= "bg-white"
-				layout		= "insert-link-picture1-text2.html"
+				style		= "bg-black"
+				layout		= "insert-link-full-picture.html"
 				link		= "/public-speaking-coaching/"
 				button		= "Learn more"
 			[params.offer.003]
@@ -303,13 +307,18 @@ theme        	= "hugo-creative-theme-master"
 	home = [ "HTML", "JSON" ]
 	page = [ "HTML" ]
 
-##################################################
+
+
+################################
 
 [languages]
 
-####################################################
+
+
+################################
 # ENGLISH
-####################################################
+################################
+
 [languages.en]
 baseURL			= "https://www.ideasonstage.com/"
 languageName	= "English"
@@ -329,9 +338,11 @@ pcsformid = "2"
 activenews = true
 		
 
-##################
+
+################################
 # FRENCH
-##################
+################################
+
 [languages.fr]
 	baseURL			= "https://www.ideasonstage.fr/"
 	languageName	= "Francais"
@@ -375,14 +386,18 @@ activenews = true
 				url				= "/#services"
 				frontpageurl 	= "#services"
 			[languages.fr.navigation.items.002]
+				name			= "Vidéos"
+				url				= "/revolution/"
+				frontpageurl 	= "/revolution/"
+			[languages.fr.navigation.items.003]
 				name			= "Conseils"
 				url				= "/news/"
 				frontpageurl 	= "/news/"
-			[languages.fr.navigation.items.003]
+			[languages.fr.navigation.items.004]
 				name			= "Contact"
 				url				= "#contact"
 				frontpageurl 	= "#contact"
-			[languages.fr.navigation.items.004]
+			[languages.fr.navigation.items.005]
 				name			= "Équipe"
 				url				= "/equipe/"
 				frontpageurl 	= "/equipe/"

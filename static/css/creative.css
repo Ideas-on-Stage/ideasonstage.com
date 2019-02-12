@@ -6,6 +6,7 @@
 
 /*
 	SITE WIDE CUSTOMIZATIONS
+	FOR STANDARD STYLES
  */
  
 html,
@@ -20,6 +21,7 @@ body, a {
     font-weight: 400;
 	font-size: 16px;
 	color: #000;
+	line-height: 1.5;
 }
 
 b,
@@ -35,29 +37,6 @@ h6,
     font-weight: 700;
 	margin-top: 0px;
 	margin-bottom: 4px;
-}
-
-#content-main img {
-	display: block;
-	width: auto;
-	max-width: 100%;
-	margin: auto;
-}
-
-article img {
-	display: block;
-	width: auto;
-	max-width: 100%;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-article iframe {
-	display: block;
-	width: auto;
-	max-width: 100%;
-	margin-top: 40px;
-	margin-bottom: 40px;
 }
 
 a {
@@ -81,19 +60,14 @@ h1 {
 
 h2 {
 	font-size: 2em;
-	color: #aaa;
 }
 
 h3 {
-	font-family: "Gotham A", "Gotham B", 'Gotham Book', Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 2em;
-	color: #aaa;
+	font-size: 1.5em;
 }
 
 h4 {
-	font-size: 1.3em;
+	font-size: 1.25em;
 }
 
 h5 {
@@ -113,10 +87,13 @@ li {
 	text-align: left;
 }
 
+
+
 /*
 	FULL WIDTH IMAGE FLEX CONTAINER
 	Used to manage full width pictures
 */
+
 .flex-container {
 	margin-top: 20px;
 	position: relative;
@@ -172,45 +149,44 @@ flex-container .flex-item-text h4 {
 	font-size: 1.8em;
 }
 
-.flex-container .flex-item-text-overlay p {
-	line-height: 1.1em;
-	font-size: 1.1em;
-}
-	
 /*
 	Media queries
 */
 @media(max-width:1199px){
+
 	.flex-container {
 		height: 675px;
 	}
 	
 	.flex-container .flex-item-picture-full img {
-		width: 1200px;
 		height: 675px;
 		transform: translate(-50%, 0%);
 	}
 }
 
 @media(max-width:991px){
+
 	.flex-container {
 		height: 558px;
 	}
 
 	.flex-container .flex-item-picture-full img {
-		width: 992px;
 		height: 558px;
 		transform: translate(-50%, 0%);
 	}
 }
 
 @media(max-width:767px){
+
+	body a {
+		font-size: 14px;
+	}
+
 	.flex-container {
 		height: 432px;
 	}
 
 	.flex-container .flex-item-picture-full img {
-		width: 768px;
 		height: 432px;
 		transform: translate(-50%, 0%);
 	}
@@ -426,13 +402,37 @@ display: block;
 	transform: translateY(-50%);
 }
 
-/*
-	SECTIONs SECTION
 
+
+/*
+	SECTION SPECIFIC STUFF
 	PMO Please no horizontal padding for sections 
 	Instead use a 10 column layout to add a margin left and right.
 	If padding added to section(s), it breaks the full width inserts
 */
+
+#content-main img {
+	display: block;
+	width: auto;
+	max-width: 100%;
+	margin: auto;
+}
+
+article img {
+	display: block;
+	width: auto;
+	max-width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+article iframe {
+	display: block;
+	width: auto;
+	max-width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
 
 section#content  {
 	background-color: #fff; 
@@ -692,9 +692,7 @@ header#revolution {
 	background-color: rgb(255,117,0);	
 }
 
-header#home h2 {
-	color: #fff;
-	font-size: 2em;
+header#home h3 {
 	text-transform: uppercase;
 	padding-top: 5px;
 	padding-bottom: 5px;

@@ -1,21 +1,27 @@
 {{ "<!-- partials:insert-link-full-picture.html -->" | safeHTML }}
 <section>
-		<div class="flex-container">
-			<a href="{{ with .link }}{{ . }}{{ end }}">
-				<div class="flex-item-picture-full">
-					{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
-				</div>
-			</a>
-			<div class="{{ .style }}">
-				<div class="flex-item-text-overlay text-center">
-					<a href="{{ with .link }}{{ . }}{{ end }}">
-				    	{{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
-				    	<p>{{ with .description }}{{ . }}{{ end }}</p>
-				    </a>
-				    {{ if ne .button "" }}
-					<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
-					{{ end }}
-		    	</div>
+	<div class="flex-container {{ .style }}">
+		<a href="{{ with .link }}{{ . }}{{ end }}">
+			<div class="flex-item-picture-full">
+				{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
 			</div>
-		</div>
+		</a>
+		<div class="{{ .style }}">
+			<div class="flex-item-text-overlay text-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+							<a href="{{ with .link }}{{ . }}{{ end }}">
+						    	{{ if ne .title "" }}<h4>{{ with .title }}{{ . }}{{ end }}</h4>{{ end }}
+						    	<p>{{ with .description }}{{ . }}{{ end }}</p>
+						    </a>
+						    {{ if ne .button "" }}
+							<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
+							{{ end }}
+						</div>
+					</div>
+				</div>
+	    	</div>
+		</div><!-- class -->
+	</div><!-- flex-container --> 
 </section>
