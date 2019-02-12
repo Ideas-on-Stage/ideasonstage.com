@@ -6,7 +6,7 @@
 			    <a href="{{ with .link }}{{ . }}{{ end }}">
 			    <h4>{{ with .title }}{{ . }}{{ end }}</h4>
 			    </a>
-			    <p class="marginv0">{{ with .description }}{{ .  }}{{ end }}</p>
+			    <p>{{ with .description }}{{ .  }}{{ end }}</p>
 				{{ if ne .button "" }}
 				<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
 				{{ end }}

@@ -104,6 +104,8 @@ h5 {
 
 p {
 		line-height: 1.5;
+		margin-top: 12px;
+		margin-bottom: 0;
 }
 
 li {
@@ -1291,7 +1293,9 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-secondary {
     color: #00A3E0 !important;
-    padding-left: 0px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    padding: 0px;
 }
 
 .btn {
