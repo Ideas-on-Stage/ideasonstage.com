@@ -87,6 +87,33 @@ li {
 	Used to manage full width pictures
 */
 
+.flex-parent {
+	display: flex;
+}
+
+.flex-child-half {
+	margin: 20px;
+	padding: 20px;
+	flex: 1;
+}
+
+.flex-col-parent {
+	height: 480px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-col-child img {
+	max-height: 240px;
+}
+
+.flex-child-half-right {
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
 .flex-container {
 	margin-top: 20px;
 	position: relative;
@@ -125,6 +152,13 @@ li {
 flex-container .flex-item-text h4 {
 	margin-top: 30px;
 } 
+
+.flex-container-inner {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	height: 500px;
+}
 
 /*
 	Text, laid over picture
@@ -191,6 +225,20 @@ flex-container .flex-item-text h4 {
 	flex-container .flex-item-text h4 {
 		margin-top: 20px;
 	} 
+	
+	.flex-parent {
+		flex-direction: column;
+	}
+
+	.flex-child-half-right {
+		margin-top: 0px;
+		margin-left: 20px;
+	}
+	
+	.flex-col-parent {
+		height: 420px;
+	}
+
 }
 	
 /*
@@ -299,6 +347,14 @@ flex-container .flex-item-text h4 {
 
 .padding-none {
 	padding: 0px;
+}
+
+.padding-tiny {
+	padding: 20px;
+}
+
+.margin-tiny {
+	margin: 20px;
 }
 
 .paddingv10 {
