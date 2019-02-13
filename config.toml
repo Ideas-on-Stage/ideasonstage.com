@@ -4,7 +4,7 @@ paginate				= 5
 paginatePath			= "newspage"
 canonifyurls			= false
 
-title        	= "Presentation Creation Agency | Public Speaking Coaching and Training | Ideas on Stage"
+title        	= "Presentation Creation | Public Speaking Coaching and Training | Ideas on Stage"
 name         	= "Ideas on Stage"
 copyright		= "© Ideas on Stage"
 theme        	= "hugo-creative-theme-master"
@@ -348,7 +348,7 @@ activenews = true
 	languageName	= "Francais"
 	languageCode 	= "fr"
 	weight 			= "2"
-	title			= "Agence de création de présentations | Coaching et formation prise de parole en public | Ideas on Stage"
+	title			= "Création de présentations | Coaching formation prise de parole en public | Ideas on Stage"
 	description  	= "Le spécialiste des présentations"
 	googleAnalytics = "UA-30695118-2"
 	rights			= "Tous droits réservés"
