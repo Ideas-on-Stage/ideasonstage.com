@@ -1,22 +1,22 @@
 {{ "<!-- partials:aboutreferences -->" | safeHTML }}
-		<section id="references" class="bg-lightgrey" style="padding-top: 0px; padding-bottom: 0px;">
-			<h1 class="hidden">{{ .Site.Params.references.title }}</h1>
-		    <div class="container">
-		        <div class="row">
-		        	<!-- *** REFERENCES CAROUSEL *** -->
-	            	<ul class="owl-carousel references same-height-row" style="padding-left: 0px; background-color: ##e2f2f2;">
-                    {{- $.Scratch.Set "count" 0 }}
-                    {{- range .Site.Data.references }}
-                        {{- if .showonhome }}
-                        {{- if eq $.Site.Params.languagecode .language }}
-                        {{- $.Scratch.Add "count" 1 }}
-                        <div class="thumbnail" style="background-color: transparent;">
-							{{ partial "reference-logo.html" . }}
-            			</div>
-            			{{- end }}
-						{{- end }}
-					{{- end }}
-		            </ul>
-		        </div>
-		    </div>
-		</section>
+<section id="references" class="bg-lightgrey" style="padding-top: 0px; padding-bottom: 0px;">
+	<h3 class="hidden">{{ .Site.Params.references.title }}</h3>
+    <div class="container">
+        <div class="row">
+        	<!-- *** REFERENCES CAROUSEL *** -->
+        	<ul class="owl-carousel references same-height-row" style="padding-left: 0px; background-color: ##e2f2f2;">
+            {{- $.Scratch.Set "count" 0 }}
+            {{- range .Site.Data.references }}
+                {{- if .showonhome }}
+                {{- if eq $.Site.Params.languagecode .language }}
+                {{- $.Scratch.Add "count" 1 }}
+                <div class="thumbnail" style="background-color: transparent;">
+					{{ partial "reference-logo.html" . }}
+    			</div>
+    			{{- end }}
+				{{- end }}
+			{{- end }}
+            </ul>
+        </div>
+    </div>
+</section>
