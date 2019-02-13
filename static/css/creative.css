@@ -18,7 +18,7 @@ body {
 body, a {
     font-family: 'Gotham A', 'Gotham B', 'Gotham Book', Helvetica, Arial, sans-serif;
 	font-size: 18px;
-	color: #222;
+	color: #000;
 	line-height: 1.5;
 }
 
@@ -29,6 +29,8 @@ h3,
 h4,
 h5,
 h6,
+big,
+small,
 .btn {
     font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -308,7 +310,6 @@ flex-container .flex-item-text h4 {
 
 
 .bg-lightgrey {
-    color: #000;
     background-color: #f2f2f2;
 }
 
@@ -688,6 +689,14 @@ header#home {
 }
 
 
+header#home big {
+	text-size: 2em;
+	text-transform: uppercase;
+	margin: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
 /*
 	Media queries
 */
@@ -740,13 +749,6 @@ header#revolution {
 	background-size: contain;
 	-o-background-size: contain;
 	background-color: rgb(255,117,0);	
-}
-
-header#home h3 {
-	text-transform: uppercase;
-	margin: 0;
-	padding-top: 5px;
-	padding-bottom: 5px;
 }
 
 header {
