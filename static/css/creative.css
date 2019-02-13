@@ -691,6 +691,7 @@ header#home {
 header#home h1 {
 	line-height: 1.5;
 	margin: 0;
+	padding: 0;
 	text-transform: uppercase;
 	font-size: 1.5em;
 }
