@@ -7,11 +7,9 @@
 		<div class="header-content">
 		    <div class="header-content-inner">
 		    	<h1>
-				{{- range .Site.Params.offer }}
-					<a href="{{ .link }}">
-						<big>{{ .title }}</big>
-					</a><br />
-				{{- end }}
+					{{- range .Site.Params.offer }}
+						{{ .title }}<br />
+					{{- end }}
 				</h1>
 			</div>
 		</div>
