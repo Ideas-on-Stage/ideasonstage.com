@@ -230,9 +230,42 @@ flex-container .flex-item-text h4 {
 	.flex-col-parent {
 		height: 420px;
 	}
+}
 
+@media(max-width:500px){
+	body, a {
+		font-size: 14px;
+	}
+
+	.flex-container {
+		height: 360px;
+	}
+	
+	.flex-container .flex-item-picture-full img {
+		height: 360px;
+		transform: translate(-50%, 0%);
+	}
+	
+	flex-container .flex-item-text h4 {
+		margin-top: 20px;
+	} 
+	
+	.flex-parent {
+		flex-direction: column;
+	}
+
+	.flex-child-half-right {
+		margin-top: 0px;
+		margin-left: 20px;
+	}
+	
+	.flex-col-parent {
+		height: 420px;
+	}
 }
 	
+
+
 /*
 	HELPER CLASSES
 */
@@ -671,7 +704,6 @@ header#home {
 	position: relative;
 	width: 100%;
 	height: 675px;
-	min-height: 400px;
 	text-align: center;
 	color: #fff;
 	background-position: center;
@@ -722,7 +754,13 @@ header#home h1 {
 	}
 
 }
-	
+
+@media(max-width:500px){
+	header#home {
+		height: 360px;
+	}
+}
+
 
 header#pz {
 	position: relative;
