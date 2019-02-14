@@ -82,11 +82,21 @@ li {
 	text-align: left;
 }
 
+small,
+h1 small,
+h2 small,
+h3 small,
+h4 small {
+	color: #aaa;
+}
 
+time {
+	color: #aaa;
+}
 
 /*
-	FULL WIDTH IMAGE FLEX CONTAINER
-	Used to manage full width pictures
+	FLEX CONTAINERS
+	Used to manage flexboxes
 */
 
 .flex-parent {
@@ -105,6 +115,10 @@ li {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.flex-col-child {
+	max-width: 600px;	
 }
 
 .flex-col-child img {
@@ -323,6 +337,10 @@ flex-container .flex-item-text h4 {
 
 .text-white {
 	color: #fff;
+}
+
+.text-gray {
+	color: #aaa;
 }
 
 .paddingt-large {
@@ -1138,7 +1156,19 @@ fieldset[disabled] .btn-primary.active {
     color: #00A3E0 !important;
     margin-top: 12px;
     padding: 0px;
+    border-color: #00A3EO;
+    border-style: outset;
 }
+
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary:active,
+.btn-secondary.active {
+    border-style: outset;
+}
+
 
 .btn {
     border: 0;

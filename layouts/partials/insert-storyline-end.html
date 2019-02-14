@@ -1,7 +1,17 @@
 {{ "<!-- partials:insert-storyline-end.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="{{ .style }} paddingv0"><!-- section used for full width background -->
-	<img src="/pictures/home/ios.png" height=27 width=27 class="center-block">
-	<div class="container insert paddingv20">
+<!--
+	do not open section tag here
+	it is opened in the insert-storyline-begin.html file
+	which MUST be used to open the storyline
+-->
+	<div class="container">
+		<div class="row">
+	        <div class="col-xs-10 col-xs-offset-1 text-center">
+				<img alt="bullet" src="/pictures/home/ios-orange-bullet.png" height=13 width=13 class="center-block">
+			</div>
+		</div>
+	</div>
+	<div class="container">
 	    <div class="row">
 	        <div class="col-xs-10 col-xs-offset-1 text-center">
 			    <h3>{{ with .title }}{{ . }}{{ end }}</h3>

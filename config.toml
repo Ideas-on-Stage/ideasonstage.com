@@ -296,6 +296,7 @@ theme        	= "hugo-creative-theme-master"
 		[params.revolution]
 			text		= "<p>Introducing The Business Presentation Revolution Podcast: your regular dose of Presentation Inspiration. In these bite-sized videos we share valuable tips on all aspects of the art of presenting, such as successful preparation practices, speaking tips to really engage a specific audience, slide design and more.</p><p>Rose Bloomfield is the anchor of the show, and Phil Waknell is the first guest to appear in the series. We’ll be sharing a new video every two weeks, so follow us on LinkedIn or subscribe on iTunes to get each episode hot off the press.</p>"
 			more		= "Watch Episode"
+		    episodes	= "Previous episodes"
 				    
 		# Enable and disable widgets for the right sidebar
 		[params.widgets]
@@ -556,10 +557,7 @@ activenews = true
 			[languages.fr.contact.form.message]
 				text = "Your Message *"
 				warning = "Please enter a message."
-	
-	
-	
-	
+		
 		# Aside section
 		[languages.fr.asidefree]
 			headline = "Is your TEDx event eligible for free Coaching?"
@@ -567,7 +565,6 @@ activenews = true
 			[languages.fr.asidefree.button]
 				text = "Apply for TEDx Sponsorship"
 				link = ""
-	
 	
 		[languages.fr.modal]
 			client		= "Client"
@@ -581,8 +578,6 @@ activenews = true
 	        date = "Date"
 	        category = "Category"
 	
-	
-	
 	    # Team
 	    [languages.fr.team_members]
 	    	headline = "Team"
@@ -591,7 +586,6 @@ activenews = true
 		        name = "Name"
 		        title = "Title"
 		        category = "Category"
-	
 	
 		# Aside section
 		[languages.fr.aside]
@@ -624,6 +618,7 @@ activenews = true
 		[languages.fr.revolution]
 			text		= "<p>Votre dose d'inspiration pour faire de meilleures présentations ! Ce podcast est constitué de courtes vidéos dans lesquelles nous partageons trucs et astuces sur l'art de présenter : comment se préparer, parler, établir une connexion avec le public, créer de bonnes diapositives PowerPoint, et bien plus.</p><p>Rose Bloomfield est l'animatrice du show, et Phil waknell est notre premier invité à apparaître dans la série. Nous partagerons une nouvelle vidéo toutes les deux semaines. Pour rester informé le plus simple est de nous suivre sur Linkedin et de vous abonner à Youtube et itunes.</p><p>Des versions avec des sous-titres en français et espagnol sont mises à disposition peu après la version anglaise.</p>"
 			more		= "Regarder l'épisode"
+		    episodes	= "Épisodes précédents"
 
 # Enable and disable widgets for the right sidebar
 [languages.fr.widgets]
@@ -911,6 +906,7 @@ monthtrans = "mois.es.yaml"
 		[languages.es.revolution]
 			text		= "<p>Presentamos el podcast The Business Presentation Revolution: tu dosis regular de Inspiración para Presentaciones. En estos videos cortos compartimos valiosos consejos acerca de todos los aspetos del arte de las presentaciones, como por ejemplo hábitos para preparar tu presentación con éxito, consejos para hablar y cautivar a una audiencia concreta, diseño de slides, y mucho más.</p><p>Rose Bloofield presenta la serie, y Phil Waknell es el primer invitado. Publicamos nuevos episodios quincenalmente; si quieres recibir los nuevos videos recién salidos del horno, síguenos en LinkedIn o suscríbete en iTunes.</p>"
 			more		= "Ver el episodio"
+			episodes	= "Episodios"
 			
 # Enable and disable widgets for the right sidebar
 [languages.es.widgets]

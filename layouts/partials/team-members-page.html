@@ -6,8 +6,9 @@
 				<img src="/pictures/team-members/{{  .Params.img }}" class="img-responsive img-left photograph" alt="">
 	        </div>
 	        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 text">
-				<h1>{{ .Params.name }}</h1>
-				<h2 class="section-heading">{{ .Params.position }}</h2>
+				<h1>{{ .Params.name }}<br />
+					<small>{{ .Params.position }}</small>
+				</h2>
 				<p>{{ with .Content }}{{ . | markdownify }}{{ end }}</p>	
 	        </div> <!--end col -->
         </div> <!--end row-->      

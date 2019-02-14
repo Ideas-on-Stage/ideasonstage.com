@@ -19,7 +19,7 @@
 							<div class="bg-black">
 								<div class="flex-item-text-overlay text-center">
 									<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
-								    	<h4>{{ with .Title }}{{ . }}{{ end }}</h4>
+								    	<h2>{{ with .Title }}{{ . }}{{ end }}</h2>
 								    </a>
 									<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}</a>
 						    	</div>
@@ -45,10 +45,15 @@
 								<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="/pictures/revolution/linkedin.svg" alt="linkedin" style="margin-bottom: 5px; width:50px;"><br>Linkedin</a>
 							</div>
 						</div>
-					</div>
+						<div class="row paddingt-small">
+							<div class="colx-xs-12 text-center">
+								<h2>{{ .Site.Params.revolution.episodes }}</h2>
+							</div>
+						</div>
+					</div>					
 					{{ $scratch.Set "first" "false" }}
 				{{ else }}
-		            <div class="container paddingt-small" >
+		            <div class="container" >
 						<!-- For some reason the pagination is not working properly. I'm hardcoding 5 articles in the next line -->
 		                <section class="post">
 		                    <div class="row paddingv-small">
@@ -59,24 +64,27 @@
 		                              </a>
 		                          </div>
 		                        </div>
-		                        <div class="col-md-6 paddingt-tiny">
-		                            <a href="{{ .RelPermalink }}"><h2>{{ .Title }}</h2></a>
-		                            <div class="clearfix">
-		                                <p class="date-comments">
+		                        <div class="col-md-6">
+		                            <a href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3></a>
+		                            <div>
+		                                <p>
 		                                    <a href="{{ .Permalink }}">
-		                                    {{ if eq $.Site.LanguageCode  "en" }}
-		                                    	{{ .Date.Format "January 2, 2006" }}
-		                                    {{ else if eq $.Site.LanguageCode  "fr"}}
-		                                    	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
-		                                    {{ else if eq $.Site.LanguageCode  "es"}}
-		                                    	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
-		                                    {{ else if eq $.Site.LanguageCode  "it"}}
-		                                    	<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>	
-		                                    {{ end }}</a>
+		                                    	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+		                                    		{{ if eq $.Site.LanguageCode  "en" }}
+		                                    			{{ .Date.Format "January 2, 2006" }}
+				                                    {{ else if eq $.Site.LanguageCode  "fr"}}
+														{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
+				                                    {{ else if eq $.Site.LanguageCode  "es"}}
+														{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}
+				                                    {{ else if eq $.Site.LanguageCode  "it"}}
+														{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}
+				                                    {{ end }}
+		                                    	</time>
+		                                    </a>
 		                                </p>
 		                            </div>
-		                            <p class="intro">{{ .Description }}</p>
-		                            <p class="read-more"><a href="{{ .RelPermalink }}" class="btn btn-secondary">{{ .Site.Params.revolution.more }}</a>
+		                            <p>{{ .Description }}</p>
+		                            <p class="marginv-none"><a href="{{ .RelPermalink }}" class="btn btn-secondary">{{ .Site.Params.revolution.more }}</a>
 		                            </p>
 		                        </div>
 		                    </div>

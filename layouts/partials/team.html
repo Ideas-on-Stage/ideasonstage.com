@@ -9,8 +9,9 @@
 	                    <img src="/pictures/team-members/{{ if ne .img nil }}{{ .img }}{{ else}}{{ .name | urlize}}.png{{ end }}" class="people-box-image" alt="">	
 		                <div class="people-box-caption">
 		                    <div class="people-box-caption-content">
-		                        <h2 class="people-name">{{ .name }}</h2>
-								<h3 class="people-title">{{ .title }}</h3>                                 
+		                        <h2 class="people-name">{{ .name }}<br />
+									<small>{{ .title }}</small>
+		                        </h2>
 							</div>
 						</div>
 						</a>
