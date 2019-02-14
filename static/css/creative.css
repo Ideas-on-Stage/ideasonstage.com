@@ -289,6 +289,19 @@ flex-container .flex-item-text h4 {
     background-color: #FF8200;
 }
 
+.bg-primary h1,
+.bg-primary h2,
+.bg-primary h3,
+.bg-primary h4
+{
+	color: #fff;	
+}
+
+.bg-primary .btn-secondary {
+	color: #fff!important;
+}
+
+
 .bg-dark {
     color: #fff;
     background-color: #222;
