@@ -26,7 +26,7 @@ theme        	= "hugo-creative-theme-master"
 		headerteam		= "/pictures/team/image.png"
 		headereventan	= "/pictures/corporate-events/event-animation/image.png"
 		back			= "Back"
-		description		= "International agency specialized in Presentation Creation, Public Speaking Coaching and Training, Business Events. We cover North America and Europe. Services available in English, French, Spanish, Italian and German."
+		description		= "International agency specialized in Presentation Creation, Business Events and Public Speaking Coaching and Training. We cover North America and Europe."
 		
 		# Id for Incognito form in Presentation Creation Service
 		pcsform 		= "TeiR-77um0q9kFm49EqvwQ"
