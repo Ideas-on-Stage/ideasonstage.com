@@ -1,8 +1,8 @@
-{{ "<!-- partials:head.html -->" | safeHTML }}
+{{ "<!-- partials:home:head.html -->" | safeHTML }}
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+		<meta name="author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
 		<meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
 		{{ .Hugo.Generator }}
 		<title>{{ .Site.Title }}</title>
