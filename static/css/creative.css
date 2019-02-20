@@ -239,11 +239,11 @@ flex-container .flex-item-text h4 {
 	}
 
 	.flex-container {
-		height: 480px;
+		height: 440px;
 	}
 	
 	.flex-container .flex-item-picture-full img {
-		height: 480px;
+		height: 440px;
 		transform: translate(-50%, 0%);
 	}
 	
@@ -771,7 +771,7 @@ header#home h1 {
 
 @media(max-width:479px){
 	header#home {
-		height: 480px;
+		height: 420px;
 	}
 }
 
