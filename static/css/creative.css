@@ -194,17 +194,18 @@ flex-container .flex-item-text h4 {
 /*
 	Media queries
 */
+
 @media(max-width:1279px){
 	body, a {
 		font-size: 16px;
 	}
 	
 	.flex-container {
-		height: 480px;
+		height: 560px;
 	}
 	
 	.flex-container .flex-item-picture-full img {
-		height: 480px;
+		height: 560px;
 		transform: translate(-50%, 0%);
 	}
 }
@@ -238,11 +239,11 @@ flex-container .flex-item-text h4 {
 	}
 
 	.flex-container {
-		height: 400px;
+		height: 480px;
 	}
 	
 	.flex-container .flex-item-picture-full img {
-		height: 360px;
+		height: 480px;
 		transform: translate(-50%, 0%);
 	}
 	
@@ -740,7 +741,7 @@ header#home h1 {
 */
 @media(max-width:1279px){
 	header#home {
-		height: 480px;
+		height: 560px;
 	}
 }
 
@@ -770,7 +771,7 @@ header#home h1 {
 
 @media(max-width:479px){
 	header#home {
-		height: 400px;
+		height: 480px;
 	}
 }
 
