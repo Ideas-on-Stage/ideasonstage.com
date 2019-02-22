@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Episode 3: Votre public"
+title 		= "Épisode 3 : Votre public"
 date		= "2019-02-11"
 cast		= [ "Phil Waknell", "Rose Bloomfield" ]
 description	= "L'ingrédient secret de toute présentation est votre public. N'oubliez pas de vous poser ces questions essentielles avant de prendre la parole."
@@ -10,7 +10,7 @@ L'ingrédient secret de toute présentation est votre public. N'oubliez pas de v
 
 {{% youtube WOGTFXBOwfk %}}
 
-## Texte de l'épisode III : l’audience
+## Texte de l'épisode III : l'auditoire
 
 Phil : [00:00:00] Bienvenue à **The Business Presentation Revolution**, le double expresso pour vous éveiller aux présentations.
  
