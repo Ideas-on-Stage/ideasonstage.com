@@ -615,7 +615,7 @@ activenews = true
 			prev  = "Page Précédente"
 
 		[languages.fr.revolution]
-			text		= "<p>Votre dose d'inspiration pour faire de meilleures présentations ! Ce podcast est constitué de courtes vidéos dans lesquelles nous partageons trucs et astuces sur l'art de présenter : comment se préparer, parler, établir une connexion avec le public, créer de bonnes diapositives PowerPoint, et bien plus.</p><p>Rose Bloomfield est l'animatrice du show, et Phil waknell est notre premier invité à apparaître dans la série. Nous partagerons une nouvelle vidéo toutes les deux semaines. Pour rester informé le plus simple est de nous suivre sur Linkedin et de vous abonner à Youtube et itunes.</p><p>Des versions avec des sous-titres en français et espagnol sont mises à disposition peu après la version anglaise.</p>"
+			text		= "<p>Votre dose d'inspiration pour faire de meilleures présentations ! Ce podcast est constitué de courtes vidéos dans lesquelles nous partageons trucs et astuces sur l'art de présenter : comment se préparer, parler, établir une connexion avec le public, créer de bonnes diapositives PowerPoint, et bien plus.</p><p>Rose Bloomfield est l'animatrice du show, et Phil Waknell est notre premier invité à apparaître dans la série. Nous partagerons une nouvelle vidéo toutes les deux semaines. Pour rester informé le plus simple est de nous suivre sur Linkedin et de vous abonner à YouTube et iTunes.</p><p>Des versions avec des sous-titres en français et espagnol sont mises à disposition peu après la version anglaise.</p>"
 			more		= "Regarder l'épisode"
 		    episodes	= "Épisodes précédents"
 
