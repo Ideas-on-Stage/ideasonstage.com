@@ -4,7 +4,7 @@
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1">				
 				{{ range .Site.Data.teammembers }}
 				  {{ if eq $.Site.Params.languagecode .language }}
-	           		    <div class="col-xs-12 col-sm-4 col-lg-3">
+	           		    <div class="col-xs-12 col-sm-4 col-lg-3 teambox">
 	                	<a href="{{ .url }}" class="people-box">
 	                    <img src="/pictures/team-members/{{ if ne .img nil }}{{ .img }}{{ else}}{{ .name | urlize}}.png{{ end }}" class="people-box-image" alt="">	
 		                <div class="people-box-caption">
