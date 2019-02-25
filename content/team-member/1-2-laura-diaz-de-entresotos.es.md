@@ -2,7 +2,7 @@
 draft		= false
 title		= "Equipo"
 name		= "Laura Díaz de Entresotos"
-position 	= "Directora de Coaching de Oradores para España"
+position 	= "Directora de Coaching de Speakers en España"
 img			= "laura-diaz-de-entresotos.jpg"
 showrefs	= false
 url			= "/team/laura-diaz-de-entresotos/"
