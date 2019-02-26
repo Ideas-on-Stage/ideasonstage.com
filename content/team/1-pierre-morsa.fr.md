@@ -1,6 +1,5 @@
 +++
 draft		= false
-title		= "Équipe"
 name		= "Pierre Morsa"
 position 	= "Co-founder - Creative Cat"
 date 		= "2014-07-05"

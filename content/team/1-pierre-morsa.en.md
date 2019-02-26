@@ -1,6 +1,5 @@
 +++
 draft		= false
-title		= "Team"
 name		= "Pierre Morsa"
 position 	= "Co-founder - Creative Cat"
 url			= "/team/pierre-morsa/"

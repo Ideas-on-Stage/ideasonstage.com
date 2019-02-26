@@ -1,6 +1,5 @@
 +++
 draft		= false
-title		= "Team"
 name		= "Phil Waknell"
 position 	= "Chief Inspiration Officer"
 showrefs	= false

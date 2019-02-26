@@ -1,6 +1,5 @@
 +++
 draft		= false
-title		= "Equipo"
 name		= "Michael Rickwood"
 position 	= "Director de Coaching"
 img			= "michael-rickwood"
