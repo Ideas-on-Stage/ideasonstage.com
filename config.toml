@@ -286,6 +286,11 @@ theme        	= "hugo-creative-theme-master"
 				title 		= "The Business Presentation Revolution"
 			    description	= "A video podcast about speaking and presenting in public, available on YouTube and iTunes."
 			    
+			[params.listpages.003]
+				url			= "/team/"
+				title		= "Team"
+				description = "We have assembled a multidisciplinary group of Presentation Experts from all around the world. Our backgrounds range from former business consultants to trained actors."
+			    
 		[params.news]
 			more		= "Continue reading"
 			by	 		= "by"
@@ -298,7 +303,7 @@ theme        	= "hugo-creative-theme-master"
 			text		= "<p>Introducing The Business Presentation Revolution Podcast: your regular dose of Presentation Inspiration. In these bite-sized videos we share valuable tips on all aspects of the art of presenting, such as successful preparation practices, speaking tips to really engage a specific audience, slide design and more.</p><p>Rose Bloomfield is the anchor of the show, and Phil Waknell is the first guest to appear in the series. We’ll be sharing a new video every two weeks, so follow us on LinkedIn or subscribe on iTunes to get each episode hot off the press.</p>"
 			more		= "Watch Episode"
 		    episodes	= "Previous episodes"
-				    
+
 		# Enable and disable widgets for the right sidebar
 		[params.widgets]
 		    categories = false
@@ -605,6 +610,11 @@ activenews = true
 				url			= "/revolution/"
 				title 		= "The Business Presentation Revolution"
 			    description	= "Un podcast vidéo sur l'art de parler et présenter en public, disponible sur YouTube et iTunes."
+    
+			[languages.fr.listpages.003]
+				url			= "/equipe/"
+				title		= "Équipe"
+				description = "Notre équipe pluridisciplinaire rassemble des experts en présentation venant de partout en Europe et aux États-Unis. Nos expériences vont de consultant en management, responsable des ventes à acteurs de cinéma."
 
 		[languages.fr.news]
 			more = "continuer à lire"
@@ -618,7 +628,7 @@ activenews = true
 			text		= "<p>Votre dose d'inspiration pour faire de meilleures présentations ! Ce podcast est constitué de courtes vidéos dans lesquelles nous partageons trucs et astuces sur l'art de présenter : comment se préparer, parler, établir une connexion avec le public, créer de bonnes diapositives PowerPoint, et bien plus.</p><p>Rose Bloomfield est l'animatrice du show, et Phil Waknell est notre premier invité à apparaître dans la série. Nous partagerons une nouvelle vidéo toutes les deux semaines. Pour rester informé le plus simple est de nous suivre sur Linkedin et de vous abonner à YouTube et iTunes.</p><p>Des versions avec des sous-titres en français et espagnol sont mises à disposition peu après la version anglaise.</p>"
 			more		= "Regarder l'épisode"
 		    episodes	= "Épisodes précédents"
-
+			
 # Enable and disable widgets for the right sidebar
 [languages.fr.widgets]
     categories = false
@@ -682,8 +692,8 @@ monthtrans = "mois.es.yaml"
 				frontpageurl 	= "#contact"
 			[languages.es.navigation.items.004]
 				name			= "Equipo"
-				url				= "/team/"
-				frontpageurl 	= "/team/"
+				url				= "/equipo/"
+				frontpageurl 	= "/equipo/"
 
 		[languages.es.navigation.languages]
 				
@@ -893,6 +903,11 @@ monthtrans = "mois.es.yaml"
 				url			= "/revolution/"
 				title 		= "The Business Presentation Revolution"
 			    description	= "Un video podcast sobre cómo hablar y presentar en público, disponible en YouTube e iTunes."
+
+			[languages.es.listpages.003]
+				url			= "/equipo/"
+				title		= "Equipo"
+				description = "Hemos reunido a un grupo multidisciplinar de expertos en presentaciones de todo el mundo. Nuestros perfiles van desde ex-consultores de negocio a actores profesionales."
 
 		[languages.es.news]
 			more = "Continuar leyendo"
@@ -1157,18 +1172,14 @@ monthtrans = "moisit.yaml"
 		        title = "Title"
 		        category = "Category"
 	
-	
 
-
-[languages.it.news]
-	more = "continua la lettura"
-	by	 = "da"
-	back = "Torna a Notizie"
-	title = "Notizie"
-	next  = "Pagina successiva"
-	prev  = "Pagina precedente"
-
-
+		[languages.it.news]
+			more = "continua la lettura"
+			by	 = "da"
+			back = "Torna a Notizie"
+			title = "Notizie"
+			next  = "Pagina successiva"
+			prev  = "Pagina precedente"
 
 # Enable and disable widgets for the right sidebar
 [languages.it.widgets]

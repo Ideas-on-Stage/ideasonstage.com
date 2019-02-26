@@ -3,7 +3,7 @@
      <div class="container paddingt-large">
         <div class="row">
         	<div class="col-xs-10 col-xs-offset-1 col-md-4 picture">  		
-				<img src="/pictures/team-members/{{  .Params.img }}" class="img-responsive img-left photograph" alt="">
+				<img src="/pictures/team-members/{{ if .Params.img }}{{ .Params.img }}{{ else }}{{ .Params.name | urlize }}{{ end }}.jpg" class="img-responsive img-left photograph" alt="">
 	        </div>
 	        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 text">
 				<h1>{{ .Params.name }}<br />

@@ -1,0 +1,41 @@
+{{ "<!-- team:single -->" | safeHTML }}
+{{ partial "single-top-common.html" . }}
+    {{ partial "page-hero.html" . }}
+    <main>
+		<section id="content-main">
+			<div class="container paddingv-large" >
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">	
+						{{ with .Content }}{{ . | markdownify }}{{ end }}
+					</div>
+				</div>				
+			</div>
+		</section>
+		<section id="team-members">
+		     <div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-10 col-sm-offset-1">				
+					    {{- $paginator := .Paginate (.Data.Pages) 1000 }}
+						{{- range .Paginator.Pages }}
+		           			<div class="col-xs-12 col-sm-4 col-lg-3 teambox">
+				   				<a href="{{ .URL }}" class="people-box">
+				   					<img src="/pictures/team-members/{{ if .Params.img }}{{ .Params.img }}{{ else }}{{ .Params.name | urlize }}{{ end }}.png" class="people-box-image" alt="">	
+				   					<div class="people-box-caption">
+				   						<div class="people-box-caption-content">
+				   							<h2 class="people-name">{{ .Params.name }}<br />
+				   								<small>{{ .Params.position }}</small>
+				   							</h2>
+				   						</div>
+				   					</div>
+				   				</a>
+				   			</div>
+						{{ end}}
+			        </div> <!--end col -->
+		        </div> <!--end row-->
+		    </div>
+		</section>
+	</main>
+	<aside>
+	    {{ partial "contact.html" . }}
+	</aside>
+{{ partial "single-bottom-common.html" . }}
