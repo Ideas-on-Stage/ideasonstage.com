@@ -6,6 +6,7 @@
         <div>
 			{{ $scratch := newScratch }}
 			{{ $scratch.Set "first" "true" }}
+			{{ $scratch.Set "content" .Content }}
 			{{ $paginator := .Paginate (.Data.Pages) 5 }}
 			{{ range $paginator.Pages }}
 				{{ if eq ($scratch.Get "first") "true" }}
@@ -29,7 +30,7 @@
 					<div class="container paddingv-large" >
 						<div class="row">
 							<div class="col-sm-10 col-sm-offset-1">	
-								{{ with .Site.Params.revolution.text }}{{ . | markdownify }}{{ end }}
+								{{ with $scratch.Get "content" }}{{ . | markdownify }}{{ end }}
 							</div>
 						</div>				
 					</div>

@@ -14,7 +14,7 @@
 {{ if eq ($scratch.Get "found") "false" }}
 	<meta name="author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
 	<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Params.position }}{{ end }}">
-	<title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Params.name }}{{ end }}</title>
+	<title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Params.name }}{{ if .Params.position }} | {{ .Params.position }}{{ end }}{{ end }}</title>
 {{ end }}
 {{ partial "head-hreflang.html" }}
 {{ partial "head-favicon.html" }}
