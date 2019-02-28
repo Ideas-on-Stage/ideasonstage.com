@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Épisode 2 : Calmer ses nerfs"
+title 		= "Épisode 2 : Gérer son stress"
 date		= "2019-01-19"
 cast		= [ "Phil Waknell", "Rose Bloomfield" ]
 description	= "Rose demande à Phil des conseils pour maîtriser sa peur avant une présentation importante. Découvrez les trucs de notre Chief Inspiration Officer pour être zen avant votre prise de parole en public."
@@ -8,7 +8,7 @@ description	= "Rose demande à Phil des conseils pour maîtriser sa peur avant u
 
 Rose demande à Phil des conseils pour maîtriser sa peur avant une présentation importante. Découvrez les trucs de notre Chief Inspiration Officer pour être zen avant votre prise de parole en public.
 
-{{% youtube focwumpNq_o %}}
+{{% youtube DYQ-4Z6WMqM %}}
 
 ## Texte de la vidéo
 Rose : Bienvenue dans la Révolution des Présentations Business, votre tasse de sérénité pour vos présentations. Ça va Phil ?
