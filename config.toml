@@ -60,7 +60,7 @@ theme        	= "hugo-creative-theme-master"
 					url				= "/revolution/"
 					frontpageurl	= "/revolution/"
 				[params.navigation.items.003]
-					name			= "News"
+					name			= "Stories"
 					url				= "/news/"
 					frontpageurl	= "/news/"
 				[params.navigation.items.004]
@@ -602,8 +602,8 @@ activenews = true
 		
 			[languages.fr.listpages.001]
 				url			= "/news/"
-				title		= "Stories"
-				description	= "What's happening at Ideas on Stage? Get the latest news and tips here."
+				title		= "Conseils"
+				description	= "Quoi de neuf chez Ideas on Stage ? Découvrez les dernières nouvelles ici."
 			
 			[languages.fr.listpages.002]
 				url			= "/revolution/"
