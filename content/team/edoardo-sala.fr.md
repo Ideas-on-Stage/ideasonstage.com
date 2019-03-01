@@ -1,7 +1,7 @@
 +++
 draft		= false
 name		= "Edoardo Sala"
-position 	= "Italy Presentation Director"
+position 	= "Directeur de présentation Italie"
 url			= "/equipe/edoardo-sala/"
 weight		= 180
 +++
