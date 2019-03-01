@@ -5,17 +5,17 @@ position 	= "Presentation Director"
 url			= "/team/rose-bloomfield/"
 weight		= 180
 +++
-Born in Los Angeles, California, Rose Bloomfield grew up performing on stage and in front of the camera. Her first big role was interviewing film creatives as a Disney host, talent like Jerry Bruckheimer, Anne Hathaway and Nicolas Cage, which paved the unexpected road to her next large project as a principle on the socio-cultural F.X. documentary series, “Black. White.”
+Rose Bloomfield grew up in Los Angeles, California, where she became a natural Hollywood/Silicon Valley hybrid. Comfortable relating with big personalities both on stage and in front of the camera, Rose’s first large role was with Disney, interviewing film creatives like Jerry Bruckheimer, Anne Hathaway and Nicolas Cage.
 
-Following the project and before earning a degree in Cultural Anthropology at the University of California, Santa Cruz, Rose had been a hired speaker at over a dozen colleges across the United States on the topic of empathy and intercultural communication.
+Next up was a principal role on the F.X. documentary series, “Black. White,” (produced by RJ Cutler and Ice Cube) after which Rose became a hired public speaker at Universities across the nation on the topic of intercultural communication.
 
-Pursuing her passion for creativity and storytelling, Rose worked in a diversity of professional environments—from publishing to production—each time informed and inspired by a unique internal culture, leadership styles, and always the essential role of clear and empowering communication for success.
+Pursuing her passion for storytelling, Rose has worked in a diversity of professional environments—from publishing to production, and then came tech. In 2014, she moved to San Francisco to join e-commerce startup Teespring as head of Culture managing interior design, wellness, internal communication and an events calendar.
 
-In 2014, Rose moved to San Francisco to join e-commerce startup, Teespring, becoming global head of Culture and Office Experience; leading space design, wellness, internal communication and an events calendar, which featured a monthly speaker series featuring thought leaders like Lars Dalgaard (Andreesen Horowitz) and Claire Johnson (Stripe).
+Experienced in supporting clients to bring transformative events to life, Rose also coaches individuals to present with confidence, authenticity and joy.
 
-Putting her French to the test, Rose moved to Paris and led Community for innovation company Five by Five's inaugural Civic Innovation Fellowship. After completing a program at the Paris Sorbonne, and teaching executives business English, it was a natural decision to team up with Ideas on Stage as our Creative Communications Director. 
+With a degree in Cultural Anthropology from the University of California, Santa Cruz, Rose continued her studies in French at the Sorbonne upon moving to Paris where she now lives.
 
-Dedicated to facilitating effective and empowering communication on and off stage, Rose helps clients to hone their message and present with confidence, authenticity and joy.
+You can catch Rose in action as the host of our original video podcast series entitled The Business Presentation Revolution.
 
 
 <strong>#startup #culture #inspire #empower #lead #teambuilding #coach #english #french</strong>
