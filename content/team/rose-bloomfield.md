@@ -16,6 +16,3 @@ Experienced in supporting clients to bring transformative events to life, Rose a
 With a degree in Cultural Anthropology from the University of California, Santa Cruz, Rose continued her studies in French at the Sorbonne upon moving to Paris where she now lives.
 
 You can catch Rose in action as the host of our original video podcast series entitled The Business Presentation Revolution.
-
-
-<strong>#startup #culture #inspire #empower #lead #teambuilding #coach #english #french</strong>
