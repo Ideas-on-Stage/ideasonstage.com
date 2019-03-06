@@ -2,7 +2,7 @@
 draft		= false
 name		= "Laura Díaz de Entresotos"
 position 	= "Directora de Presentaciones"
-url			= "/team/laura-diaz-de-entresotos/"
+url			= "/equipo/laura-diaz-de-entresotos/"
 img			= "laura-diaz-de-entresotos"
 weight		= 20
 +++

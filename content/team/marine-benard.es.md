@@ -2,7 +2,7 @@
 draft		= false
 name		= "Marine Bénard"
 position 	= "Coordinadora de Eventos"
-url			= "/team/marine-benard/"
+url			= "/equipo/marine-benard/"
 img			= "marine-benard"
 weight		= 200
 +++

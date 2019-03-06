@@ -2,7 +2,7 @@
 draft		= false
 name		= "Rose Bloomfield"
 position 	= "Directora de Presentaciones"
-url			= "/team/rose-bloomfield/"
+url			= "/equipo/rose-bloomfield/"
 weight		= 180
 +++
 Nacida en Los Angeles, California, Rose Bloomfield creció sobre un escenario y frente a la cámara. Su primer gran proyecto le llevó a entrevistar para Disney a grandes talentos creativos como Jerry Bruckheimer, Anne Hathaway y Nicolas Cage. Este proyecto le impulsó a su siguiente gran proyecto como protagonista, en la serie documental "Black. White."

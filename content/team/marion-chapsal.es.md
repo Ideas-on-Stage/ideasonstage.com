@@ -3,7 +3,7 @@ draft		= false
 name		= "Marion Chapsal"
 position 	= "Directora de Formación"
 img			= "marion-chapsal"
-url			= "/team/marion-chapsal/"
+url			= "/equipo/marion-chapsal/"
 weight		= 130
 +++
 La pasión de Marion es potenciar los ámbitos personal y profesional de los demás. Es la fuerza que impulsa Women on Stage, un curso único que ayuda a las mujeres a encontrar su voz, comunicar con confianza y entusiasmo, y desarrollarse completamente como líderes en un universo laboral cambiante. Todos los aspectos del proceso de aprendizaje y descubrimiento que ofrece están fundamentados en la creatividad y el juego. Marion ha desarrollado un singular estilo de coaching basado en una constelación de arquetipos provenientes del mundo del cómic y de los cuentos tradicionales.

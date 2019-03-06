@@ -2,7 +2,7 @@
 draft		= false
 name		= "Pierre Morsa"
 position 	= "Co-founder - Creative Cat"
-url			= "/team/pierre-morsa/"
+url			= "/equipo/pierre-morsa/"
 weight		= 100
 +++
 

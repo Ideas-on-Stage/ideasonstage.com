@@ -2,7 +2,7 @@
 draft		= false
 name		= "Frédéric-Pascal Stein"
 position 	= "Director de Presentaciones"
-url			= "/team/fredericpascal-stein/"
+url			= "/equipo/fredericpascal-stein/"
 img			= "fredericpascal-stein"
 weight		= 190
 +++

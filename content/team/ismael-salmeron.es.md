@@ -2,7 +2,7 @@
 draft		= false
 name		= "Ismael Salmerón"
 position 	= "Diseñador en Design Center"
-url			= "/team/ismael-salmeron/"
+url			= "/equipo/ismael-salmeron/"
 img			= "ismael-salmeron"
 weight		= 220
 +++

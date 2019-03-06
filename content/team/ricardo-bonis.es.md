@@ -2,7 +2,7 @@
 draft		= false
 name		= "Ricardo Bonis"
 position 	= "Director España & LatAm"
-url			= "/team/ricardo-bonis/"
+url			= "/equipo/ricardo-bonis/"
 weight		= 10
 +++
 Ricardo Bonis es el fundador y director de Ideas on Stage Spain, ubicada en Barcelona. Combinando más de 15 años de experiencia en puestos ejecutivos en el sector telco con su experiencia como profesor en la Escuela Politécnica de Ingeniería de la Universidad de Oviedo, Ricardo conoce de primera mano la importancia de unas buenas habilidades de comunicación para responder eficazmente a los desafíos del mundo empresarial.
