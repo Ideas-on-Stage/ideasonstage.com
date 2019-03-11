@@ -1,7 +1,7 @@
 +++
 draft = "false"
 title = "Bienvenue à Andrea Pacini, Directeur de Présentation Royaume-Uni"
-tags = ["Nouvelles", "Ideas on Stage", "Royaume-Uni", "Angleterre", "London"]
+tags = ["Nouvelles", "Ideas on Stage", "Royaume-Uni", "Angleterre", "Londres"]
 news = ["general"]
 date = "2019-03-12"
 author = "Pierre Morsa"
