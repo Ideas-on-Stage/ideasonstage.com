@@ -31,6 +31,6 @@ A : Définitivement. Vous devez vraiment commencer par comprendre qui est votre
 A : Oh oui, TEDx a contribué à améliorer les présentations. Alors, pourquoi ne pas utiliser les ingrédients qui rendent un discours TEDx si attrayant et les appliquer à vos présentations en entreprise ? Les présentations commerciales n’ont pas à être ennuyeuses !
 
 ** Q : Quelque chose d’autre dont tu voudrais parler ? **
-A : J’aime faire une chose en particulier : goûter les bières artisanales ! Vous savez, des bières produites par des microbrasseries. Tout comme les présentations ne sont pas limitées à PowerPoint, la bière n’est pas limitée à Heineken. J’aime découvrir ce monde et participer à des dégustations pour découvrir de nouveaux goûts.
+A : J’aime faire une chose en particulier : goûter les bières artisanales ! Vous savez, des bières produites par des microbrasseries. Tout comme les présentations peuvent être originales, les bières offrent une incroyable palette de saveurs. J’aime découvrir ce monde et participer à des dégustations pour découvrir de nouveaux goûts.
 
-Merci et bienvenue à Andrea, nous sommes tous très heureux de notre future collaboration !
+Merci et bienvenue à Andrea, nous sommes tous très heureux de pouvoir travailler avec toi, à ta santé !
