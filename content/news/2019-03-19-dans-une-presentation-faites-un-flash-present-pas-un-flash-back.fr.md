@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "Dans une présentation, faites un flash présent, pas un flash-back"
 tags = ["Prise de parole", "Storytelling"]
 news = ["general"]
