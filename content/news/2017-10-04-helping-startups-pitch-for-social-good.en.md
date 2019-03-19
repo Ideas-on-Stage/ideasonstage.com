@@ -1,5 +1,5 @@
 +++
-draft		= "false" 
+draft		= false
 title		= "Helping Startups Pitch for Social Good"
 tags		= ["Pitch","Entrepreneur","Training","Paris","Startup"]
 news		= ["general"]

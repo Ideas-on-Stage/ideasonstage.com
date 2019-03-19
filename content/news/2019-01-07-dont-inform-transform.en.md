@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "Don't Inform, Transform"
 tags = ["Presentation", "Tips", "Transform", "Prepare", "Objective", "Meeting", "Impact", "Efficient"]
 news = ["general"]

@@ -1,5 +1,5 @@
 +++
-draft		= "false"
+draft		= false
 title		= "Apprendre à prêcher"
 tags		= ["France","Entrainement","Religion"]
 news		= ["general"]

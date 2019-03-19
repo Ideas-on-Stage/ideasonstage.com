@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "How to steal the show"
 tags = ["Public Speaking", "Training", "Krauthammer", "Presentations"]
 news = ["general"]

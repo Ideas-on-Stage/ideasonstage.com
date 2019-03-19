@@ -1,5 +1,5 @@
 +++
-draft		= "false" 
+draft		= false 
 title		= "Atelier pitch au Sport Social Business Lab"
 tags		= ["Pitch","Entrepreneur","Entrainement","Paris","Startup"]
 news		= ["general"]

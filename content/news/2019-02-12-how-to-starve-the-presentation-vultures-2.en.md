@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "How to starve the presentation vultures (part 2)"
 tags = ["Public Speaking", "Fear" ]
 news = ["general"]

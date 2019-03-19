@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "Écoute comme un papillon, parle comme une abeille"
 tags = ["Prise de parole en public", "Débat", "Mohammed Ali"]
 news = ["general"]

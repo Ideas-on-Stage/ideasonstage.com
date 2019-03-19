@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "Ne faites pas un elevator pitch. Démarrez une conversation."
 tags = ["Prise de parole en public", "Pitch", "Startup"]
 news = ["general"]

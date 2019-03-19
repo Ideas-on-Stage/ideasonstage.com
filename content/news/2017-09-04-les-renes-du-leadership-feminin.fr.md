@@ -1,5 +1,5 @@
 +++
-draft		= "false" 
+draft		= false 
 title		= "Les rênes du leadership au féminin"
 tags		= ["Femmes","Événement","Retraite","Entrainement","Canada"]
 news		= ["general"]

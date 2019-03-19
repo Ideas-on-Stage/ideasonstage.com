@@ -1,5 +1,5 @@
 +++
-draft		= "false"
+draft		= false
 title		= "Lost in Transition ?"
 tags		= ["Événement","France","Technologie","Futur"]
 news		= ["general"]

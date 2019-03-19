@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "Comment se débarrasser des vautours dans le public (partie 1)"
 tags = ["Prise de parole en public", "Peur"]
 news = ["general"]

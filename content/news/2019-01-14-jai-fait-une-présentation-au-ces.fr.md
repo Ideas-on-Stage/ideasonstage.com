@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "J'ai fait une présentation au CES et tout ce que j'ai eu ce sont des critiques sur Twitter  "
 tags = ["Présentation", "CES", "Coaching", "Prise de parole en public"]
 news = ["general"]

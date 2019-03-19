@@ -1,5 +1,5 @@
 +++
-draft		= "false" 
+draft		= false
 title		= "EDF InnovDay UNITEP 2017"
 tags		= ["Coaching","Paris","Lyon","Client"]
 news		= ["general"]

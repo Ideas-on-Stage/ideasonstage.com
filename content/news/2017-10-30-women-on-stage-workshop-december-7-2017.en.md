@@ -1,5 +1,5 @@
 +++
-draft		= "false"
+draft		= false
 title		= "The Women on Stage Workshop Returns Dec 7"
 tags		= ["Coaching","Paris","Lyon","Client"]
 news		= ["general"]

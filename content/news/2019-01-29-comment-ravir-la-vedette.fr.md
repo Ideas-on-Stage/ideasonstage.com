@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "Comment ravir la vedette"
 tags = ["Prise de parole en public", "Formation", "Krauthammer", "Présentations"]
 news = ["general"]

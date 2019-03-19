@@ -1,5 +1,5 @@
 +++
-draft		= "false" 
+draft		= false
 title		= "Les Femmes Peuvent-Elles Pitcher Aussi Bien Que Les Hommes?"
 tags		= ["Femmes","Entrepreneur","Événement","Pitch","Paris"]
 news		= ["general"]

@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "What presentation lessons can we learn from Apple’s profit warning?"
 tags = ["Apple", "Profit Warning", "Press Release", "Presentations"]
 news = ["general"]

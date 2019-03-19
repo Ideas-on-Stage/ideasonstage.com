@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "Que pouvons-nous apprendre de l'alerte sur les bénéfices d'Apple ?"
 tags = ["Apple", "Alerte", "Présentations"]
 news = ["general"]
