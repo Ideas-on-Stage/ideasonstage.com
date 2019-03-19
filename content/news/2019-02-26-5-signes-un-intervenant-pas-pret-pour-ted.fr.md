@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "5 signes qu'un intervenant n'est pas prêt pour TED"
 tags = ["TEDx", "Prise de parole en public"]
 news = ["general"]

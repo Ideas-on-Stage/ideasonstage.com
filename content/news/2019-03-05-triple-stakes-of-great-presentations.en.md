@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "The triple stakes of great presentations"
 tags = ["Public Speaking", "TEDx", "Storytelling"]
 news = ["general"]

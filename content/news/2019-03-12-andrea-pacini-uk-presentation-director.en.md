@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "Welcome to Andrea Pacini, UK Presentation Director"
 tags = ["News", "Ideas on Stage", "UK", "United Kingdom", "London"]
 news = ["general"]

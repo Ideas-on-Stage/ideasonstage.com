@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "5 warning signs someone is not ready to speak at your TEDx event"
 tags = ["Public Speaking", "TEDx"]
 news = ["general"]

@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "In presentations, don’t do a flash back, do a flash present"
 tags = ["Public Speaking", "Storytelling"]
 news = ["general"]

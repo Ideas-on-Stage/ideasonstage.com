@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "Les trois enjeux des présentations"
 tags = ["Prise de parole", "TEDx", "Storytelling"]
 news = ["general"]

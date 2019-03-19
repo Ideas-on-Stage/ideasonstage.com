@@ -1,5 +1,5 @@
 +++
-draft = "false"
+draft = false
 title = "​​Emmanuel Macron à Station F : cinq leçons de communication du Président"
 tags = ["Art oratoire", "Président", "Macron", "Technique", "Station F", "Paris", "Politique", "Communication"]
 news = ["general"]
