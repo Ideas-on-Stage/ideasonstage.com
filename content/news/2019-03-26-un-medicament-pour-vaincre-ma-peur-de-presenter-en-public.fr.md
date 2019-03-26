@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Un médicament pour vaincre ma peur de présenter en public ?"
-tags = ["Public Speaking", "Fear"]
+tags = ["Prise de parole en public", "peur"]
 news = ["general"]
 date = "2019-03-26"
 author = "Pierre Morsa"
