@@ -7,7 +7,7 @@ date = "2019-03-26"
 author = "Pierre Morsa"
 banner = "/img/news/drugs.jpg"
 +++
-Cela peut être surprenant, mais c’est une question que l’on nous pose de temps en temps : « connaissez-vous un médicament pour réduire mon stress sur scène face au public ? »
+Cela peut être surprenant, mais c’est une question que l’on nous pose de temps en temps : « connaissez-vous un médicament pour réduire mon stress sur scène face au public ? »
 
 Nous ne parlons pas de substances illégales, mais de médicaments disponibles dans les pharmacies. De nombreux produits sont conçus pour réduire le stress, l’anxiété, la pression sanguine, le rythme cardiaque, etc. Nous ne sommes pas médecins, donc nous ne parlerons pas de leur utilité thérapeutique. Mais en ce qui concerne les présentations, nous n’en recommandons aucune. Nous avons malheureusement rencontré quelques personnes qui ne pouvaient pas s’en passer. Lorsque nous regardons leur performance, nous ne pensons pas que les médicaments aient eu un effet positif. Ils ont peut-être _pensé_ que cela améliorait leur prestation sur scène, mais _ce n’était pas le cas_. Comme l’explique très bien le célèbre musicien Nile Rodgers dans une interview pour the Guardian :
 
