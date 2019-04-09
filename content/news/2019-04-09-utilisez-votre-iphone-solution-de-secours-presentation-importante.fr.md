@@ -1,11 +1,11 @@
 +++
-draft = true
+draft = false
 title = "Utilisez votre iPhone comme solution de secours lors de présentations importantes"
 tags = ["Présenter en public", "Microsoft PowerPoint", "Apple Keynote", "iPhone"]
 news = ["general"]
 date = "2019-04-09"
 author = "Pierre Morsa"
-banner = "/img/news/"
+banner = "/img/news/iphone-as-backup-for-presentations.jpg"
 +++
 Récemment mon ordinateur, un MacBook Pro, a eu besoin d’être réparé, et j’ai dû m’en séparer pendant plusieurs semaines. Bien sûr, pendant ces semaines j’ai dû présenter avec Microsoft PowerPoint. Heureusement, avec mon téléphone et quelques accessoires je possédais tout ce dont j’avais besoin :  
 
@@ -20,3 +20,5 @@ Microsoft PowerPoint et Apple Keynote fonctionnent sur iOS comme leurs cousins s
 Le seul inconvénient est que l’écran de l’iPhone est vraiment petit pour mes vieux yeux, et j’ai dû me retourner plusieurs fois pour regarder où j’en étais. Mais sinon tout a fonctionné parfaitement.
 
 Si vous avez une présentation très importante à donner, l’iPhone constitue une excellente solution de secours pour éviter d’être victime de la loi de Murphy, et offre un filet de sécurité au cas où quelque chose arrive à votre ordinateur.
+
+![iPhone as Backup for Presentations](/img/news/iphone-as-backup-for-presentations.jpg)

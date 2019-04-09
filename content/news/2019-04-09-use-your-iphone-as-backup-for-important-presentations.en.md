@@ -1,11 +1,11 @@
 +++
-draft = true
+draft = false
 title = "Use your iPhone as backup for important presentations"
 tags = ["Public Speaking", "Microsoft PowerPoint", "Apple Keynote", "iPhone"]
 news = ["general"]
 date = "2019-04-09"
 author = "Pierre Morsa"
-banner = "/img/news/"
+banner = "/img/news/iphone-as-backup-for-presentations.jpg"
 +++
 Recently my computer, a MacBook Pro, needed to be repaired. I had to do without a laptop for several weeks. And of course, during those weeks I needed to present with slides. Luckily, with my iPhone and a couple of accessories I had everything I needed:
 
