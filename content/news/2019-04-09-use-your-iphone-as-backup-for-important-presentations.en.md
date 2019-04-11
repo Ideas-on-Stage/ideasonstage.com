@@ -20,3 +20,5 @@ Both Microsoft PowerPoint and Apple Keynote work like their computer cousins, an
 The only downside is that an iPhone screen is very small for my old eyes, and I had to turn my back to the audience from time to time to see where I was in the presentation. But it worked flawlessly.
 
 If you have a critical presentation to deliver, using your iPhone as a backup is an excellent way to fight Murphy’s Law, and have a safety net in case something goes wrong with your computer.
+
+![iPhone as Backup for Presentations](/img/news/iphone-as-backup-for-presentations.jpg)
