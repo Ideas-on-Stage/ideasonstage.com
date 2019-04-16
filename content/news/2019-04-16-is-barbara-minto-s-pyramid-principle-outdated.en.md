@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Is Barbara Minto’s pyramid principle outdated?"
-tags = [ "Public Speaking", "Storytelling", "Consulting" ]
+tags = [ "Public Speaking", "Storytelling", "Consulting" ]
 news = ["general"]
 date = "2019-04-16"
 author = "Pierre Morsa"
