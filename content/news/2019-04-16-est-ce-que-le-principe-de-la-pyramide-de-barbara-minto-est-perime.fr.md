@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Est-ce que le principe de la pyramide de Barbara Minto est périmé ?"
-tags = [ "Prise de parole", "Storytelling", "Conseil" ]
+tags = [ "Prise de parole", "Storytelling", "Conseil" ]
 news = ["general"]
 date = "2019-04-16"
 author = "Pierre Morsa"
