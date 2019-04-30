@@ -6,7 +6,6 @@ news = ["general"]
 date = "2019-04-30"
 author = "Pierre Morsa"
 banner = "/img/news/trust-meter.jpg"
-language = "fr"
 +++
 Gizmodo a écrit [cet article plutôt amusant](https://gizmodo.com/stuff-elon-musk-said-about-tesla-autonomous-cars-on-mon-1834233680) (en anglais) à propos de la dernière série d’annonces d’Elon Musk, comme des voitures complètement autonomes et un million de robotaxis en 2020. Bon, Gizmodo n’est pas vraiment connu comme étant une référence du journalisme sérieux, mais parfois ils ont l’art de viser juste là où ça fait mal. Dans ce cas, le fait qu’Elon Musk a promis à de nombreuses reprises de faire de la conduite autonome une réalité, promesses jamais respectées. Honnêtement, lorsqu’on voit à quel point il est difficile d’atteindre la conduite complètement autonome, et le nombre de difficultés qu’il reste à surmonter aux systèmes de pilote automatique des Tesla, il est difficile de croire que ces nouvelles promesses vont se matérialiser.
 
