@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Devriez-vous vraiment parler moins vite lorsque vous présentez ?"
 tags = ["Prise de parole en public", "Art Oratoire"]
 news = ["general"]
