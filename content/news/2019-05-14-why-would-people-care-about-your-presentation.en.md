@@ -5,7 +5,7 @@ tags = ["Public Speaking", "Presentation"]
 news = ["general"]
 date = "2019-05-14"
 author = "Pierre Morsa"
-banner = ""
+banner = "/img/news/shoutshout.jpg"
 language = "en"
 +++
 
@@ -21,3 +21,5 @@ Why would people care about your book?
 Why would people care about your ideas?
 
 People are busy. People have urgent problems. People have limited attention. Big companies battle for that attention using campaigns that cost hundreds of millions of dollars. It’s up to your presentation to make them care about your topic.
+
+![Image](/img/news/shoutshout.jpg)
