@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = "Test example"
 tags = ["public speaking", "text", "nice", "TED"]
 news = ["general"]
