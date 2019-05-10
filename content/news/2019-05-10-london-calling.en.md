@@ -44,7 +44,7 @@ Here are the upcoming events in London. If you’re interested, please register 
 
 - 13 June - [HUBB: Hillingdon & Uxbridge Business Breakfast](https://www.wardwilliams.co.uk/events/posts/2019/hubb-hillingdon-uxbridge-business-breakfast/hubb-hillingdon-uxbridge-business-breakfast-13th-june-2019/) 
 
-- 4 July - WeWork Paddington
+- 4 July - WeWork Paddington &nbsp  
 
 
 You’ll also find Andrea at the following events: 
