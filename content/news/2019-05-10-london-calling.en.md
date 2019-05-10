@@ -40,17 +40,17 @@ Here are the upcoming events in London. If you’re interested, please register 
 
 31 May - WeWork 70 Wilson St 
 
-06 June - [Campfire Shoreditch](https://www.eventbrite.com/e/3-key-ingredients-you-need-to-make-presentations-that-sell-free-event-tickets-61223248384)  
+6 June - [Campfire Shoreditch](https://www.eventbrite.com/e/3-key-ingredients-you-need-to-make-presentations-that-sell-free-event-tickets-61223248384)  
 
 13 June - [HUBB: Hillingdon & Uxbridge Business Breakfast](https://www.wardwilliams.co.uk/events/posts/2019/hubb-hillingdon-uxbridge-business-breakfast/hubb-hillingdon-uxbridge-business-breakfast-13th-june-2019/) 
 
-04 July - WeWork Paddington
+4 July - WeWork Paddington
 
 
 You’ll also find Andrea at the following events: 
 
-30/05: [Hillingdon Business Expo](https://hillingdonexpo.com/)
+30 May: [Hillingdon Business Expo](https://hillingdonexpo.com/)
 
-01/06: [TEDxGoodenoughCollege](https://www.eventbrite.co.uk/e/tedxgoodenoughcollege-equality-tickets-59581985322)
+1 June: [TEDxGoodenoughCollege](https://www.eventbrite.co.uk/e/tedxgoodenoughcollege-equality-tickets-59581985322)
 
 We hope to see you at one of our events!
