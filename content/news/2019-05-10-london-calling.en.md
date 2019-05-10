@@ -34,23 +34,23 @@ Andrea will also introduce the **Presentation SCORE Method**, uniquely developed
 
 Here are the upcoming events in London. If you’re interested, please register directly or contact Andrea at andrea.pacini@ideasonstage.com and he will be happy to sign you up or provide more information. 
 
-16 May - [webinar](https://zoom.us/meeting/register/38f4db88e064fd3a34538d7d4481ef37) 
+- 16 May - [webinar](https://zoom.us/meeting/register/38f4db88e064fd3a34538d7d4481ef37) 
 
-23 May - [webinar](https://zoom.us/meeting/register/38f4db88e064fd3a34538d7d4481ef37) 
+- 23 May - [webinar](https://zoom.us/meeting/register/38f4db88e064fd3a34538d7d4481ef37) 
 
-31 May - WeWork 70 Wilson St 
+- 31 May - WeWork 70 Wilson St 
 
-6 June - [Campfire Shoreditch](https://www.eventbrite.com/e/3-key-ingredients-you-need-to-make-presentations-that-sell-free-event-tickets-61223248384)  
+- 6 June - [Campfire Shoreditch](https://www.eventbrite.com/e/3-key-ingredients-you-need-to-make-presentations-that-sell-free-event-tickets-61223248384)  
 
-13 June - [HUBB: Hillingdon & Uxbridge Business Breakfast](https://www.wardwilliams.co.uk/events/posts/2019/hubb-hillingdon-uxbridge-business-breakfast/hubb-hillingdon-uxbridge-business-breakfast-13th-june-2019/) 
+- 13 June - [HUBB: Hillingdon & Uxbridge Business Breakfast](https://www.wardwilliams.co.uk/events/posts/2019/hubb-hillingdon-uxbridge-business-breakfast/hubb-hillingdon-uxbridge-business-breakfast-13th-june-2019/) 
 
-4 July - WeWork Paddington
+- 4 July - WeWork Paddington
 
 
 You’ll also find Andrea at the following events: 
 
-30 May: [Hillingdon Business Expo](https://hillingdonexpo.com/)
+- 30 May: [Hillingdon Business Expo](https://hillingdonexpo.com/)
 
-1 June: [TEDxGoodenoughCollege](https://www.eventbrite.co.uk/e/tedxgoodenoughcollege-equality-tickets-59581985322)
+- 1 June: [TEDxGoodenoughCollege](https://www.eventbrite.co.uk/e/tedxgoodenoughcollege-equality-tickets-59581985322)
 
 We hope to see you at one of our events!
