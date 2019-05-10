@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "London calling"
+title = "Our upcoming events in London"
 tags = ["london", "events"]
 news = ["general"]
 date = "2018-07-01"
