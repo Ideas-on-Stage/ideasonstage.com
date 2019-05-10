@@ -44,13 +44,15 @@ Here are the upcoming events in London. If you’re interested, please register 
 
 - 13 June - [HUBB: Hillingdon & Uxbridge Business Breakfast](https://www.wardwilliams.co.uk/events/posts/2019/hubb-hillingdon-uxbridge-business-breakfast/hubb-hillingdon-uxbridge-business-breakfast-13th-june-2019/) 
 
-- 4 July - WeWork Paddington &nbsp      
+- 4 July - WeWork Paddington       
 
+<p>&nbsp;</p>
 
 You’ll also find Andrea at the following events: 
 
 - 30 May: [Hillingdon Business Expo](https://hillingdonexpo.com/)
 
-- 1 June: [TEDxGoodenoughCollege](https://www.eventbrite.co.uk/e/tedxgoodenoughcollege-equality-tickets-59581985322)
+- 1 June: [TEDxGoodenoughCollege](https://www.eventbrite.co.uk/e/tedxgoodenoughcollege-equality-tickets-59581985322) 
+<p>&nbsp;</p>
 
 We hope to see you at one of our events!
