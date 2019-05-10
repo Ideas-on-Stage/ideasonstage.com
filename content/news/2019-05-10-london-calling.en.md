@@ -27,7 +27,7 @@ Andrea will also introduce the **Presentation SCORE Method**, uniquely developed
 
 **What you will gain:**
 
-- By turning into these sessions, we guarantee that you will leave with at least two or three practical ideas, ready to implement in your presentations
+- By participating in these events, we guarantee that you will leave with at least two or three practical ideas, ready to implement in your presentations
 - Each person who completes the session qualifies for a FREE 1-hour discovery session with Andrea
 - You'll also receive a report that highlights the 7 most common mistakes people make when they create business presentations
 - Plus, access to the Ideas on Stage Presentation Scorecard: an online tool that scores your presentation skills in three key areas by answering 22 yes/no questions
