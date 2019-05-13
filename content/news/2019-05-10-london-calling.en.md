@@ -3,7 +3,7 @@ draft = false
 title = "Our upcoming events in London"
 tags = ["london", "events"]
 news = ["general"]
-date = "2018-07-01"
+date = "2019-05-14"
 author = "The Ideas on Stage team"
 banner = "/img/news/cover-format-eventbrite-f2f.001.jpeg"
 +++
