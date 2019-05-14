@@ -5,7 +5,7 @@ tags = ["london", "events"]
 news = ["general"]
 date = "2019-05-14"
 author = "The Ideas on Stage team"
-banner = "/img/news/cover-format-eventbrite-f2f.001.jpeg"
+banner = "/img/news/audio-2941753_1280.jpg"
 +++
 A big part of the way many companies sell is to create a presentation that shows the complex benefits of the solution they are offering.
 
@@ -27,32 +27,27 @@ Andrea will also introduce the **Presentation SCORE Method**, uniquely developed
 
 **What you will gain:**
 
-- By participating in these events, we guarantee that you will leave with at least two or three practical ideas, ready to implement in your presentations
-- Each person who completes the session qualifies for a FREE 1-hour discovery session with Andrea
-- You'll also receive a report that highlights the 7 most common mistakes people make when they create business presentations
-- Plus, access to the Ideas on Stage Presentation Scorecard: an online tool that scores your presentation skills in three key areas by answering 22 yes/no questions
+* By participating in these events, we guarantee that you will leave with at least two or three practical ideas, ready to implement in your presentations
+* Each person who completes the session qualifies for a FREE 1-hour discovery session with Andrea
+* You'll also receive a report that highlights the 7 most common mistakes people make when they create business presentations
+* Plus, access to the Ideas on Stage Presentation Scorecard: an online tool that scores your presentation skills in three key areas by answering 22 yes/no questions
 
 Here are the upcoming events in London. If you’re interested, please register directly or contact Andrea at andrea.pacini@ideasonstage.com and he will be happy to sign you up or provide more information. 
 
-- 16 May - [webinar](https://zoom.us/meeting/register/38f4db88e064fd3a34538d7d4481ef37) 
-
-- 23 May - [webinar](https://zoom.us/meeting/register/38f4db88e064fd3a34538d7d4481ef37) 
-
-- 31 May - WeWork 70 Wilson St 
-
-- 6 June - [Campfire Shoreditch](https://www.eventbrite.com/e/3-key-ingredients-you-need-to-make-presentations-that-sell-free-event-tickets-61223248384)  
-
-- 13 June - [HUBB: Hillingdon & Uxbridge Business Breakfast](https://www.wardwilliams.co.uk/events/posts/2019/hubb-hillingdon-uxbridge-business-breakfast/hubb-hillingdon-uxbridge-business-breakfast-13th-june-2019/) 
-
-- 4 July - WeWork Paddington       
+* 16 May - [webinar](https://zoom.us/meeting/register/38f4db88e064fd3a34538d7d4481ef37) 
+* 23 May - [webinar](https://zoom.us/meeting/register/38f4db88e064fd3a34538d7d4481ef37) 
+* 31 May - WeWork 70 Wilson St 
+* 6 June - [Campfire Shoreditch](https://www.eventbrite.com/e/3-key-ingredients-you-need-to-make-presentations-that-sell-free-event-tickets-61223248384)  
+* 13 June - [HUBB: Hillingdon & Uxbridge Business Breakfast](https://www.wardwilliams.co.uk/events/posts/2019/hubb-hillingdon-uxbridge-business-breakfast/hubb-hillingdon-uxbridge-business-breakfast-13th-june-2019/) 
+* 4 July - WeWork Paddington       
 
 <p>&nbsp;</p>
 
 You’ll also find Andrea at the following events: 
 
-- 30 May: [Hillingdon Business Expo](https://hillingdonexpo.com/)
-
-- 1 June: [TEDxGoodenoughCollege](https://www.eventbrite.co.uk/e/tedxgoodenoughcollege-equality-tickets-59581985322) 
-<p>&nbsp;</p>
+* 30 May: [Hillingdon Business Expo](https://hillingdonexpo.com/)
+* 1 June: [TEDxGoodenoughCollege](https://www.eventbrite.co.uk/e/tedxgoodenoughcollege-equality-tickets-59581985322) 
 
 We hope to see you at one of our events!
+
+![microphone](/img/news/audio-2941753_1280.jpg)
