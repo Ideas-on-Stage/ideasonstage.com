@@ -8,7 +8,6 @@ author = "Pierre Morsa"
 banner = "/img/news/shoutshout.jpg"
 language = "fr"
 +++
-
 Pourquoi devraient-ils faire attention à votre produit ?
 Pourquoi devraient-ils faire attention à votre service ?
 Pourquoi devraient-ils faire attention à votre projet ?
