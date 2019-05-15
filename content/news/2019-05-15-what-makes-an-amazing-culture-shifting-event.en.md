@@ -11,6 +11,8 @@ Case study of Mövenpick Hotels & Resorts’ 2018 General Managers conference in
 
 ![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751435435_file.jpeg)
 
+## The Story
+
 It was a cool September morning in Paris when my colleague and I sat down in a stylish hotel dining room to meet a Mr. Olivier Chavy, President of Mövenpick Hotels & Resorts.
 
 Before 8:00am we jumped right into business: Olivier’s vision and objectives for the spring 2018 general managers conference. “We want people to leave with the sensation ‘wow, I am really proud to work for this company’,” emphasized Chavy.
@@ -21,7 +23,9 @@ This is how the project started — for us. But Chavy and his team had kicked-of
 
 At Ideas on Stage, we’ve had the pleasure of helping clients from practically all sectors bring creative and substantial presentations and events to life many times over. This was going to be a fun challenge given how out-of-the-box the client wanted to be in achieving the fundamental goals: inspire employee pride, reignite team unity and accelerate innovation to succeed in today’s world. Fueled up, we sent Chavy a proposal for our plan forward. He agreed and we put pedal to the metal.
 
-The challenge
+
+
+## The Challenge
 
 ![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751435491_file.jpeg)
 
@@ -37,9 +41,11 @@ There were also scheduling and location constraints. Plus, conflicting conferenc
 
 ![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751437179_file.jpeg)
 
-The Solution
 
-First step: align key stakeholders. To do this, we facilitated a full-day brainstorm in Geneva with their executive committee, or I should say, both of them. Chavy had recently engaged a shadow ExCom-Y team powered by millennials. During this synergistic gathering, Phil Waknell and I took the diverse group through Ideas on Stage methodology to synchronize objectives, distill key messages and capture creative ideas.
+
+## The Solution
+
+Step one: align key stakeholders. To do this, we facilitated a full-day brainstorm in Geneva with their executive committee, or I should say, both of them. Chavy had recently engaged a shadow ExCom-Y team powered by millennials. During this synergistic gathering, Phil Waknell and I took the diverse group through Ideas on Stage methodology to synchronize objectives, distill key messages and capture creative ideas.
 
 ![ExCom-Y panel day one.](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751437264_file.jpeg)
 
@@ -74,9 +80,11 @@ So, in organizing your next event, we hope you feel clearer and more inspired ab
 
 ![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751437572_file.jpeg)
 
-The Executive Team enjoying time in the hot seat.
+_The Executive Team enjoying time in the hot seat._
 
-The Results
+
+
+## The Results
 
 _Here is a brief interview with Olivier Chavy two weeks after SHIFT 2018:_
 
