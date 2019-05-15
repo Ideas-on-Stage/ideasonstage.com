@@ -7,9 +7,11 @@ date = "2019-05-15"
 author = "Rose Bloomfield"
 banner = "/img/news/swift_moevenpick-regensdorf-9m5a7767.jpg"
 +++
-Case study of Mövenpick Hotels & Resorts’ 2018 General Managers conference in Regensdorf, Switzerland. 
+_Case study of Mövenpick Hotels & Resorts’ 2018 General Managers conference in Regensdorf, Switzerland._
 
 ![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751435435_file.jpeg)
+
+
 
 ## The Story
 
@@ -22,6 +24,8 @@ We asked a lot of questions about his motivation and the current state of the co
 This is how the project started — for us. But Chavy and his team had kicked-off planning the conference that summer, more than 8 months before the event would take place. Not everyone starts this well in advance. But let me assure you, it pays off. 
 
 At Ideas on Stage, we’ve had the pleasure of helping clients from practically all sectors bring creative and substantial presentations and events to life many times over. This was going to be a fun challenge given how out-of-the-box the client wanted to be in achieving the fundamental goals: inspire employee pride, reignite team unity and accelerate innovation to succeed in today’s world. Fueled up, we sent Chavy a proposal for our plan forward. He agreed and we put pedal to the metal.
+
+
 
 ## The Challenge
 
@@ -53,6 +57,8 @@ The day wrapped up with a succulent dinner in the heart of Geneva. (Mövenpick k
 
 Between that day and the event on April 25th, many steps were taken to ensure the success of this event. Here are the super six takeaways which you can put into practice now:
 
+
+
 1. **Define a clear objective and tie it together with a theme.** We decided early on about larger organizing elements, such as the theme of the conference, which would harmonize our main objective across a full 3-day line-up of presentations and workshops. We needed something that would inspire an internal culture change towards being faster, more connected, performance-oriented and having fun. A theme for rethinking the possible and changing gears with changing times. _The theme:_ “SHIFT 2018”
 2. **Add an inspirational gem.** We gathered candidates for external speakers that would elevate our theme and draw insightful real-world connections. Who would represent best-in-class performance, efficiency, collaboration and all with a heart-pumping story of optimism and appetite for adventure? _The speaker:_ ace solo sailor Alex Thomson, 2nd place Vendée Globe Champion
 3. **Schedule and sync with presenters well in advance.** To be sure all workshops and presentations were coherent, unique, memorable and impactful, we scheduled on average two hours of coaching with each contributor, of which there were a good 30 across the 2-day agenda. There were TED-inspired keynotes, panels, a live press briefing (one of the client’s many brilliant ideas), interactive workshops, and 10min lightning talks. The success of an event is determined before it begins. Given the packed agenda and the client’s commitment to success, we deployed the needed resources: two Speaker Coaches, a Master of Ceremonies, plus a Design Director all onsite for the entire event including rehearsals the day before. _The takeaway:_ You can’t prepare too early, too well, or too much. 
@@ -76,7 +82,7 @@ So, in organizing your next event, we hope you feel clearer and more inspired ab
 
 ![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751437572_file.jpeg)
 
-_The Executive Team enjoying time in the hot seat._
+
 
 ## The Results
 
