@@ -7,9 +7,9 @@ date = "2019-05-15"
 author = "Rose Bloomfield"
 banner = "/img/news/swift_moevenpick-regensdorf-9m5a7767.jpg"
 +++
-__
+_Case study of Mövenpick Hotels & Resorts’ 2018 General Managers conference in Regensdorf, Switzerland._
 
-![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751435435_file.jpeg "Case study of Mövenpick Hotels & Resorts’ 2018 General Managers conference in Regensdorf, Switzerland.")
+![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751435435_file.jpeg)
 
 __
 
