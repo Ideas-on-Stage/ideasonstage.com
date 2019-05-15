@@ -57,7 +57,7 @@ Since that full day in Geneva it was clear we were working with a special group.
 
 The day wrapped up with a succulent dinner in the heart of Geneva. (Mövenpick knows how to tie everything together with a beautiful moment.) This kind of generosity and attention to detail wove throughout the next 6 months until the final applause at the end of their conference.
 
-Between that day and the event on April 25th, many steps were taken to ensure the success of this event. Here are the super six takeaways which you can put into practice now:
+Between that day and the event on April 25th, many steps were taken to ensure the success of this event. Here are the super six takeaways which you can put into practice now:                       
 
 
 
@@ -107,3 +107,5 @@ _Here is a brief interview with Olivier Chavy two weeks after SHIFT 2018:_
 ![](/img/news/swift_moevenpick-regensdorf-9m5a4737.jpg)
 
 ![From left to right: Rose Bloomfield, project lead and on-site Presentation Director. Ricardo Bonis, on-site Tech Support and Slide Designer. Phil Waknell (red polo), Master of Ceremonies. Olivier Chavy, CEO of Mövenpick Hotels & Resorts.](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751437599_file.jpeg)
+
+![](/img/news/screen-shot-2019-05-15-at-11.32.01-pm.png)
