@@ -39,6 +39,7 @@ Here are the upcoming events in London. If you’re interested, please register 
 * 31 May - WeWork 70 Wilson St 
 * 6 June - [Campfire Shoreditch](https://www.eventbrite.com/e/3-key-ingredients-you-need-to-make-presentations-that-sell-free-event-tickets-61223248384)  
 * 13 June - [HUBB: Hillingdon & Uxbridge Business Breakfast](https://www.wardwilliams.co.uk/events/posts/2019/hubb-hillingdon-uxbridge-business-breakfast/hubb-hillingdon-uxbridge-business-breakfast-13th-june-2019/) 
+* 20 June - WeWork 1 Poultry 
 * 4 July - WeWork Paddington       
 
 <p>&nbsp;</p>
