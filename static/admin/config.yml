@@ -17,7 +17,7 @@ collections:
     format: "toml-frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Draft", name: "draft", widget: "boolean", default: "false"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: "true"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
@@ -33,7 +33,7 @@ collections:
     format: "toml-frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Draft", name: "draft", widget: "boolean", default: "false"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: "true"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
@@ -49,7 +49,7 @@ collections:
     format: "toml-frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Draft", name: "draft", widget: "boolean", default: "false"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: "true"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
@@ -65,7 +65,7 @@ collections:
     format: "toml-frontmatter"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Draft", name: "draft", widget: "boolean", default: "false"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: "true"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
