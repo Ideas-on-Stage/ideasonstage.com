@@ -98,11 +98,11 @@ _Here is a brief interview with Olivier Chavy two weeks after SHIFT 2018:_
 
 **What made SHIFT a memorable experience?** The whole ambiance made it memorable but there were a lot of memorable ‘little touches’ that came together to achieve this.  From everyone wearing Converse high top shoes, to the newspaper we created, to the cool partners who presented, to the Swiss cow-bell awards…. We took some risks and did things differently and it paid off.
 
-**When did you start planning the conference and why did you bring in Ideas on Stage to support you?** __We started planning initially in summer 2017 but the real work began in October/November that year.  We decided to bring Ideas on Stage on board as we knew we didn’t want to do a ‘traditional’ conference and we would need professional assistance to stage manage, coach our speakers and plan the sessions.
+**When did you start planning the conference and why did you bring in Ideas on Stage to support you?** We started planning initially in summer 2017 but the real work began in October/November that year.  We decided to bring Ideas on Stage on board as we knew we didn’t want to do a ‘traditional’ conference and we would need professional assistance to stage manage, coach our speakers and plan the sessions.
 
-**How did working with Ideas on Stage help in realizing the event?** __It was critical – we would not have achieved the impact we did without them.  Every one of our speakers was coached and guided into how to make the most of their session, all content was aligned to ensure the messages we wanted were passed, they came up with great ideas for transitions, flow of sessions, themes.  We are really pleased we brought them on board.
+**How did working with Ideas on Stage help in realizing the event?** It was critical – we would not have achieved the impact we did without them.  Every one of our speakers was coached and guided into how to make the most of their session, all content was aligned to ensure the messages we wanted were passed, they came up with great ideas for transitions, flow of sessions, themes.  We are really pleased we brought them on board.
 
-**Were you surprised by any aspect of the event, before, during or after?** __We were surprised that we could enjoy it and not stress too much, it went really smoothly.
+**Were you surprised by any aspect of the event, before, during or after?** We were surprised that we could enjoy it and not stress too much, it went really smoothly.
 
 ![](/img/news/swift_moevenpick-regensdorf-9m5a4737.jpg)
 
