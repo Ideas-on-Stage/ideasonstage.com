@@ -4,9 +4,17 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 # publish_mode: editorial_workflow
+site_url: https://www.ideasonstage.com
+logo_url: https://www.ideasonstage.com/pictures/home/ideas-on-stage.png
 
 media_folder: "static/img/news" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/img/news" # The src attribute for uploaded media will begin with /images/uploads
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
 
 collections:
   - name: "news_french" # Used in routes, e.g., /admin/collections/blog
