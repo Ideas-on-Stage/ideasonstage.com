@@ -7,7 +7,7 @@ date = "2019-05-16"
 author = "Phil Waknell"
 banner = "/img/news/image_preview.png"
 +++
-_Most conferences are fairly boring. Even well-known tech conferences fail to engage their audiences all the time:_ [_Pierre Morsa’s article about CES_](https://www.ideasonstage.com/news/2019/01/15/2019-01-14-i-presented-at-ces-and-all-i-got-was-a-bunch-of-ungrateful-tweets/)_. But medical conferences can be among the worst. Ideas on Stage announces a new partnership with Doctors 2.0 & You to take medical events to the next level._
+_Most conferences are fairly boring. Even well-known tech conferences fail to engage their audiences all the time:_ [_Pierre Morsa’s article about CES_](https://www.ideasonstage.com/news/2019/01/15/2019-01-14-i-presented-at-ces-and-all-i-got-was-a-bunch-of-ungrateful-tweets/)_. But medical conferences can be among the worst. Check out this quick interview between Ideas on Stage, new partners with Doctors 2.0 & You, and Denise Silber to find out how to take medical (and other) events to the next level._
 
 ![](/img/news/image_preview.png)
 
