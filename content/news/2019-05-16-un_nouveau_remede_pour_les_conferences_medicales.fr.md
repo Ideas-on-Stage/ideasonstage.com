@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Un nouveau remède pour les conférences médicales"
 tags = ["médicale", "événement", "nouveau", "conférence", "astuces", "entretien", "chef", "expert", "apprend", ""]
 news = ["general"]
