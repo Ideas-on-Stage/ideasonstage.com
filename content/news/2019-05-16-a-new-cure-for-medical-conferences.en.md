@@ -9,7 +9,7 @@ banner = "/img/news/image_preview.png"
 +++
 _Ideas on Stage announces a new partnership with Doctors 2.0 & You to take medical events to the next level._
 
-![](https://paper-attachments.dropbox.com/s_FD961B791442C7362D6B5E501329E0C9DADE0550BEBB6EFB1CAA4BB4D494431C_1557960861053_image.png)
+![](/img/news/image_preview.png)
 
 Most conferences are fairly boring. Even well-known tech conferences fail to engage their audiences all the time: [Pierre Morsa’s article about CES](https://www.ideasonstage.com/news/2019/01/15/2019-01-14-i-presented-at-ces-and-all-i-got-was-a-bunch-of-ungrateful-tweets/). But medical conferences can be among the worst.
 
