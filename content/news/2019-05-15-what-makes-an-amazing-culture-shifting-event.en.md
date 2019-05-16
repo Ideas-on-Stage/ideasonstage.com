@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "What makes an amazing, culture-shifting event?"
+title = "What Makes an Amazing, Culture-Shifting Event?"
 tags = ["events", "amazing", "culture", "shift", "how", "tips", "learning", "study"]
 news = ["general"]
 date = "2019-05-15"
@@ -25,8 +25,6 @@ This is how the project started — for us. But Chavy and his team had kicked-of
 
 At Ideas on Stage, we’ve had the pleasure of helping clients from practically all sectors bring creative and substantial presentations and events to life many times over. This was going to be a fun challenge given how out-of-the-box the client wanted to be in achieving the fundamental goals: inspire employee pride, reignite team unity and accelerate innovation to succeed in today’s world. Fueled up, we sent Chavy a proposal for our plan forward. He agreed and we put pedal to the metal.
 
-
-
 ## The Challenge
 
 ![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751435491_file.jpeg)
@@ -43,8 +41,6 @@ There were also scheduling and location constraints. Plus, conflicting conferenc
 
 ![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751437179_file.jpeg)
 
-
-
 ## The Solution
 
 Step one: align key stakeholders. To do this, we facilitated a full-day brainstorm in Geneva with their executive committee, or I should say, both of them. Chavy had recently engaged a shadow ExCom-Y team powered by millennials. During this synergistic gathering, Phil Waknell and I took the diverse group through Ideas on Stage methodology to synchronize objectives, distill key messages and capture creative ideas.
@@ -58,8 +54,6 @@ Since that full day in Geneva it was clear we were working with a special group.
 The day wrapped up with a succulent dinner in the heart of Geneva. (Mövenpick knows how to tie everything together with a beautiful moment.) This kind of generosity and attention to detail wove throughout the next 6 months until the final applause at the end of their conference.
 
 Between that day and the event on April 25th, many steps were taken to ensure the success of this event. Here are the super six takeaways which you can put into practice now:                       
-
-
 
 1. **Define a clear objective and tie it together with a theme.** We decided early on about larger organizing elements, such as the theme of the conference, which would harmonize our main objective across a full 3-day line-up of presentations and workshops. We needed something that would inspire an internal culture change towards being faster, more connected, performance-oriented and having fun. A theme for rethinking the possible and changing gears with changing times. _The theme:_ “SHIFT 2018”
 2. **Add an inspirational gem.** We gathered candidates for external speakers that would elevate our theme and draw insightful real-world connections. Who would represent best-in-class performance, efficiency, collaboration and all with a heart-pumping story of optimism and appetite for adventure? _The speaker:_ ace solo sailor [Alex Thomson](https://www.alexthomsonracing.com), 2nd place Vendée Globe Champion
@@ -85,8 +79,6 @@ So, in organizing your next event, we hope you feel clearer and more inspired ab
 ![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751437511_file.jpeg)
 
 ![](https://paper-attachments.dropbox.com/s_99396DD3967FF5D219FB354184EB786A241CEADDA2CC052FADB07BA502A05B0E_1557751437572_file.jpeg)
-
-
 
 ## The Results
 
