@@ -19,7 +19,7 @@ Nous avons posé beaucoup de questions sur sa motivation et l'état actuel de l'
 
 C'est ainsi que le projet a commencé - pour nous. Mais Olivier Chavy et son équipe avaient déjà commencé à planifier la conférence dès l’été, plus de 8 mois avant l'événement. Tout le monde n’anticipe pas autant. Mais laissez-moi vous assurer que cela en vaut la peine.
 
-Chez Ideas on Stage, nous avons eu le plaisir d’aider des clients issus de presque tous les secteurs à donner vie à des présentations et à des événements créatifs et d’envergure. Cette fois-là allait être un défi amusant compte tenu de la volonté du client d’atteindre les objectifs fondamentaux : inspirer la fierté des employés, ranimer l’esprit d’unité de l’équipe et accélérer l’innovation pour réussir dans le monde actuel. Excités, nous avons envoyé à Olivier une proposition de plan d’action. Il a accepté et nous avons mis les gaz.
+Chez Ideas on Stage, nous avons eu le plaisir d’aider des clients issus de presque tous les secteurs à donner vie à des présentations et à des événements créatifs et d’envergure. Cette fois-là allait être un défi amusant compte tenu de la volonté du client d’atteindre les objectifs fondamentaux : **inspirer la fierté des employés, ranimer l’esprit d’unité de l’équipe et accélérer l’innovation pour réussir dans le monde actuel.** Excités, nous avons envoyé à Olivier une proposition de plan d’action. Il a accepté et nous avons mis les gaz.
 
 ## Le défi
 
