@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "A new cure for medical conferences"
+title = "A New Cure for Medical Conferences"
 tags = ["conference", "events", "medical", "doctor", "tips", "interview", "learning", "new", "cure", "expert", ""]
 news = ["general"]
 date = "2019-05-16"
