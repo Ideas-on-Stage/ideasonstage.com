@@ -3,7 +3,7 @@ draft = false
 title = "Un nouveau remède pour les conférences médicales"
 tags = ["médicale", "événement", "nouveau", "conférence", "astuces", "entretien", "chef", "expert", "apprend", ""]
 news = ["general"]
-date = "2019-05-17"
+date = "2019-05-16"
 author = "Phil Waknell"
 banner = "/img/news/image_preview.png"
 +++
