@@ -7,11 +7,9 @@ date = "2019-05-16"
 author = "Phil Waknell"
 banner = "/img/news/image_preview.png"
 +++
-_Ideas on Stage announces a new partnership with Doctors 2.0 & You to take medical events to the next level._
+_Most conferences are fairly boring. Even well-known tech conferences fail to engage their audiences all the time:_ [_Pierre Morsa’s article about CES_](https://www.ideasonstage.com/news/2019/01/15/2019-01-14-i-presented-at-ces-and-all-i-got-was-a-bunch-of-ungrateful-tweets/)_. But medical conferences can be among the worst. Ideas on Stage announces a new partnership with Doctors 2.0 & You to take medical events to the next level._
 
 ![](/img/news/image_preview.png)
-
-Most conferences are fairly boring. Even well-known tech conferences fail to engage their audiences all the time: [Pierre Morsa’s article about CES](https://www.ideasonstage.com/news/2019/01/15/2019-01-14-i-presented-at-ces-and-all-i-got-was-a-bunch-of-ungrateful-tweets/). But medical conferences can be among the worst.
 
 Our friend [Ross Fisher](https://www.linkedin.com/in/ross-fisher-29b5902b/?originalSubdomain=uk), a paediatric surgeon based in the UK, has had enough of poor medical communication, and when he’s not operating, he spends time educating doctors about a better way to present. There is a clear need, and [Ross](https://www.youtube.com/watch?v=qFza3W87eDg) is making progress.
 
