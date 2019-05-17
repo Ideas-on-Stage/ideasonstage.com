@@ -41,7 +41,8 @@ Here are the upcoming events in London. If you’re interested, please register 
 * 13 June - [HUBB: Hillingdon & Uxbridge Business Breakfast](https://www.wardwilliams.co.uk/events/posts/2019/hubb-hillingdon-uxbridge-business-breakfast/hubb-hillingdon-uxbridge-business-breakfast-13th-june-2019/) 
 * 20 June - WeWork 1 Poultry 
 * 4 July - WeWork Paddington
-* 5 July - WeWork 123 Buckingham Palace Rd       
+* 5 July - WeWork 123 Buckingham Palace Rd   
+* 11 July - WeWork New Kings Beam House     
 
 <p>&nbsp;</p>
 
