@@ -42,7 +42,8 @@ Here are the upcoming events in London. If you’re interested, please register 
 * 20 June - WeWork 1 Poultry 
 * 4 July - WeWork Paddington
 * 5 July - WeWork 123 Buckingham Palace Rd   
-* 11 July - WeWork New Kings Beam House     
+* 11 July - WeWork New Kings Beam House 
+* 25 July - WeWork Keltan House    
 
 <p>&nbsp;</p>
 
