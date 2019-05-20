@@ -1,27 +1,27 @@
 +++
 draft = false
 title = "Game of Thrones and the importance of the storyline"
-tags = ["Prise de parole en public", "Storyline", "Storytelling", "Présentation"]
+tags = ["Public Speaking", "Storyline", "Storytelling", "Presentation"]
 news = ["general"]
 date = "2019-05-21"
 author = "Pierre Morsa"
 banner = "/img/news/sword.jpg"
-language = "fr"
+language = "en"
 +++
-Le dernier épisode du feuilleton culte Game of Thrones a été vu par des millions de personnes. Je ne l’ai pas encore vu, et je ne voulais pas le voir avant d’écrire cet article. Inutile de débattre si cet épisode respecte les livres ou non, puisque ceux-ci n’ont pas encore été écrits. Et cela se voit. Je ne vais rien dévoiler, pas de spoilers. Mais tout le monde a remarqué que l’écriture des saisons qui se sont appuyées sur les livres de George R. R. Martin était bien meilleure que les saisons qui ont utilisé d’autres scénaristes. Et je vais utiliser cet exemple pour montrer à quel point une bonne trame (storyline) est importante pour une bonne présentation.
+By now, the last episode of the cult show Game of Thrones has aired. I haven’t seen it, and I didn’t want to see it before writing this article. Whether it accurately follows the storyline of the books or not is a moot point, because said book hasn’t been written yet. And it shows. I won’t spoil anything, don’t worry. But everyone noticed that the screenwriting of the seasons that could rely on George R. R. Martin’s material was much better than the seasons that had to rely on external writers. And I will use that as an example of how important a great storyline is for a great presentation.
 
-Regardons d’abord le contenu utilisé par les producteurs pour les premières saisons de Game of Thrones, issu de la série de livres de George R. R. Martin (GRRM), connue en anglais sous le nom « A Song of Ice and Fire ». Je ne suis pas un grand fan du style d’écriture de GRRM, je trouve son style de phrases un peu « plat ». Cependant, GRRM a un talent exceptionnel pour deux choses :
+Let’s first look at the material that the showrunners used for the first seasons of Game of Thrones, the books collectively known as “A Song of Ice and Fire,” written by George R. R. Martin (aka GRRM). I’m not a fan of GRRM’s writing style. I find the general style of the sentences a bit “plain.” However, GRRM is exceptional at two things:
 
-* La trame. Ce sont les éléments d’intrigues, ainsi que les rebondissements, qui ont fait de Game of Thrones ce qu’il est. En refusant de suivre les canons classiques de l’écriture de fiction, GRRM a construit un monde complexe, réaliste et sombre, surprenant et choquant, mais jamais au détriment de la **trame**.
-* Des phrases cultes qui à elles seules en disent plus que plusieurs pages. Le meilleur exemple est Tyrion. Ce qui rend ce personnage génial, ce sont les mots que GRRM met dans sa bouche.
+* The storyline. The perfect plot and its twists were what made Game of Thrones what it is. By refusing to follow common writing wisdom in favor of a more complex, realistic and gritty storyline, GRRM created numerous shocks and surprises, but **none of them were gratuitous**. They were all at the service of the storyline. 
+* Short killer lines that could accomplish in a few words what could not have been done in several pages of writing. Take Tyrion, for example. The fact that he is one of the most beloved characters in the series is entirely due to the great lines GRRM put in his mouth.
 
-Maintenant, si vous regardez les saisons filmées sans l’appui des livres de GRRM, la différence saute aux yeux :
+If you compare it to the seasons filmed without GRRM’s books, it’s plain that:
 
-* La trame est beaucoup plus conventionnelle. L’intrigue utilise beaucoup plus de moments *deus ex machina*. Certains des rebondissements semblent forcés et illogiques. Il est clair que les auteurs ont essayé de respecter l’esprit de la plume de GRRM, mais sans parvenir à intégrer les rebondissements de manière naturelle dans la trame.
-* Les phrases cultes ont disparu. C’est pour cela que le personnage de Tyrion n’est plus aussi truculent dans les dernières saisons.
+* The storyline is much more conventional. There are a lot more *deus ex machina* moments. Some plot twists feel forced and illogical. It’s clear the writers wanted to capture the spirit of GRRM’s writing, but didn’t manage to put their plot twists at the service of the storyline.
+* The short killer lines are gone. Not much more to say. This is why Tyrion feels so useless during these last seasons.
 
-Quelle leçon en tirer pour vos présentations ? Cela signifie que **la trame, le fil conducteur, la storyline doit toujours passer en premier**. Tout ce que vous dites et montrez doit être relié et avoir du sens par rapport à la trame. La trame va définir si votre présentation est facile ou difficile à suivre. Elle va définir si votre présentation est surprenante et « impactante ».
+What does it mean for your presentations? **It means that the storyline always comes first**. Everything you say and show has to be directly relevant to the storyline. The storyline will dictate how easy (or how hard) your presentation is to follow. The storyline will dictate how surprising, how impactful your presentation will be.
 
-Bien sûr la trame n’est pas tout, comme l’usage de phrases cultes le démontre. Une présentation fait appel à bien plus : la qualité de l’orateur, la qualité des visuels, etc. Mais la trame en est l’épine dorsale, et ne doit pas être bâclée.
+The storyline is not everything, as the short killer lines demonstrate. A presentation is much more: the quality of the delivery, the quality of the visuals, etc. But the storyline is its backbone, and cannot be rushed.
 
 ![Sword](/img/news/sword.jpg)
