@@ -39,6 +39,7 @@ Here are the upcoming events in London. If you’re interested, please register 
 * 6 June - [Campfire Shoreditch](https://www.eventbrite.com/e/3-key-ingredients-you-need-to-make-presentations-that-sell-free-event-tickets-61223248384)  
 * 13 June - [HUBB: Hillingdon & Uxbridge Business Breakfast](https://www.wardwilliams.co.uk/events/posts/2019/hubb-hillingdon-uxbridge-business-breakfast/hubb-hillingdon-uxbridge-business-breakfast-13th-june-2019/) 
 * 20 June - WeWork 1 Poultry 
+* 27 June - Spaces Heathrow Airport, Stockley Park 
 * 4 July - WeWork Paddington
 * 5 July - WeWork 123 Buckingham Palace Rd   
 * 11 July - WeWork New Kings Beam House 
