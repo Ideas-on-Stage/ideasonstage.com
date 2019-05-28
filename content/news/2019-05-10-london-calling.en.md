@@ -23,7 +23,7 @@ In our 10-year experience of successfully helping many of the world’s leading 
 
 Our UK Presentation Director Andrea Pacini will be running a series of free events in London to share some practical ideas and insights on how to prepare, design and deliver effective business presentations. 
 
-Andrea will also introduce the **Presentation SCORE Method**, uniquely developed by Ideas on Stage to help our clients create and deliver amazing business presentations. And he will also announce our brand-new **Business Presentation Revolution Training Programme** which is aimed to help participants become the best presenters they can be.
+Andrea will also introduce the **Presentation SCORE Method**, uniquely developed by Ideas on Stage to help our clients create and deliver amazing business presentations. And he will also announce our brand-new programme which is aimed to help participants give the best talks of their life.
 
 **What you will gain:**
 
