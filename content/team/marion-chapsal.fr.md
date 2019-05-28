@@ -1,5 +1,5 @@
 +++
-draft		= false
+draft		= true
 name		= "Marion Chapsal"
 position 	= "Chief Learning Officer"
 url			= "/equipe/marion-chapsal/"
