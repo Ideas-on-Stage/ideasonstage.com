@@ -37,7 +37,8 @@ small,
 }
 
 a {
-    -webkit-transition: all .35s;
+    color: #FF8200;
+	-webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
@@ -58,14 +59,17 @@ h1 {
 
 h2 {
 	font-size: 2em;
+	margin-top: 1em;
 }
 
 h3 {
 	font-size: 1.5em;
+	margin-top: 2em;
 }
 
 h4 {
 	font-size: 1.25em;
+	margin-top: 2em;
 }
 
 h5 {
@@ -345,6 +349,20 @@ flex-container .flex-item-text h4 {
 	transition: all .35s;
 }
 
+
+.bg-codingandbricks {
+    color: #FFD500;
+    background-color: #233B4C;
+}
+.bg-codingandbricks a {
+	color: #FFD500!important;
+}
+.bg-codingandbricks a:hover {
+	color: #FFD500;
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+}
 
 .bg-lightgrey {
     background-color: #f2f2f2;
