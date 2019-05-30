@@ -59,17 +59,14 @@ h1 {
 
 h2 {
 	font-size: 2em;
-	margin-top: 1em;
 }
 
 h3 {
 	font-size: 1.5em;
-	margin-top: 2em;
 }
 
 h4 {
 	font-size: 1.25em;
-	margin-top: 2em;
 }
 
 h5 {
@@ -108,7 +105,7 @@ time {
 }
 
 .flex-child-half {
-	margin: 20px;
+	margin: 6px;
 	padding: 20px;
 	flex: 1;
 }
@@ -131,11 +128,11 @@ time {
 
 .flex-child-half-right {
 	margin-left: 0px;
-	margin-bottom: 20px;
+	margin-bottom: 6px;
 }
 
 .flex-container {
-	margin-top: 20px;
+	margin-top: 6px;
 	position: relative;
 	height: 675px;
 	width: 100%;
@@ -174,8 +171,8 @@ flex-container .flex-item-text h4 {
 } 
 
 .flex-container-inner {
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 6px;
+	margin-right: 6px;
 	padding: 20px;
 	height: 500px;
 }
@@ -220,7 +217,7 @@ flex-container .flex-item-text h4 {
 	}
 	
 	flex-container .flex-item-text h4 {
-		margin-top: 20px;
+		margin-top: 6px;
 	} 
 	
 	.flex-parent {
@@ -229,7 +226,7 @@ flex-container .flex-item-text h4 {
 
 	.flex-child-half-right {
 		margin-top: 0px;
-		margin-left: 20px;
+		margin-left: 6px;
 	}
 	
 	.flex-col-parent {
@@ -252,7 +249,7 @@ flex-container .flex-item-text h4 {
 	}
 	
 	flex-container .flex-item-text h4 {
-		margin-top: 20px;
+		margin-top: 6px;
 	} 
 	
 	.flex-parent {
@@ -261,7 +258,7 @@ flex-container .flex-item-text h4 {
 
 	.flex-child-half-right {
 		margin-top: 0px;
-		margin-left: 20px;
+		margin-left: 6px;
 	}
 	
 	.flex-col-parent {
