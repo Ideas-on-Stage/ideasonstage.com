@@ -83,6 +83,13 @@ li {
 	text-align: left;
 }
 
+a h1,
+a h2,
+a h3,
+a h4 {
+	color: #000;
+}
+
 small,
 h1 small,
 h2 small,
