@@ -363,6 +363,14 @@ flex-container .flex-item-text h4 {
     color: #FFD500;
     background-color: #233B4C;
 }
+
+.bg-codingandbricks h1,
+.bg-codingandbricks h2,
+.bg-codingandbricks h3,
+.bg-codingandbricks h4 {
+	color: #FFD500;
+}
+
 .bg-codingandbricks a {
 	color: #FFD500!important;
 }
