@@ -44,6 +44,7 @@ Here are the upcoming events in London. If you’re interested, please register 
 * 11 July - WeWork New Kings Beam House 
 * 25 July - WeWork Keltan House    
 * 1 August - WeWork 184 Shepherds Bush Rd, Hammersmith
+* 8 August - WeWork Aldwych House
 
 <p>&nbsp;</p>
 
