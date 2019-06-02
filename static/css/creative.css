@@ -320,6 +320,15 @@ flex-container .flex-item-text h4 {
     color: #fff;
     background-color: #222;
 }
+
+.bg-dark h1,
+.bg-dark h2,
+.bg-dark h3,
+.bg-dark h4
+{
+	color: #fff;	
+}
+
 .bg-dark a {
 	color: #fff;
 } 
@@ -348,6 +357,15 @@ flex-container .flex-item-text h4 {
     color: #fff;
     background-color: #000;
 }
+
+.bg-black h1,
+.bg-black h2,
+.bg-black h3,
+.bg-black h4
+{
+	color: #fff;	
+}
+
 .bg-black a {
 	color: #fff;
 }
@@ -494,6 +512,10 @@ flex-container .flex-item-text h4 {
 .margin-v {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.margint-huge {
+	margin-top: 80px;
 }
 
 .timeline {
