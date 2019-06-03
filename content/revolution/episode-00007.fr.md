@@ -6,9 +6,9 @@ cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
 description = "Apprenez à gérer votre stress lors d'une présentation."
 +++
 
-{{% youtube -P9C8xl4RPU %}}
+{{% youtube -_8sswO35r4 %}}
 
-**Épisode 7 : Showtime stress**
+# Épisode 7 : Vaincre le trac
 
 Rose: OK. Oui. Compris. Merci. Au revoir.
  
