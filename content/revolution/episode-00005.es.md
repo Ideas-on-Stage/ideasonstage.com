@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Épisode 5: Triunfa con tus slides"
+title 		= "Episodio 5: Triunfa con tus slides"
 date		= "2019-05-02"
 cast		= [ "Phil Waknell", "Rose Bloomfield" ]
 description	= "​​Las slides potentes nacen de mensajes potentes y de ideas visuales claras. Pero en algunas ocasiones las slides no son necesarias. Los días de la Muerte por PowerPoint® han llegado a su fin. Dedica 5 minutos a descubrir los 3 sencillos pasos para triunfar con tus slides y conseguir tus objetivos."

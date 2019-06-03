@@ -296,8 +296,8 @@ theme        	= "hugo-creative-theme-master"
 			by	 		= "by"
 			back 		= "Back to Stories"
 			title 		= "Stories"
-			next  		= "Older"
-			prev  		= "Newer"
+			next  		= "OLDER"
+			prev  		= "NEWER"
 
 		[params.revolution]
 			more		= "Watch Episode"
@@ -912,8 +912,8 @@ monthtrans = "mois.es.yaml"
 			by	 = "por"
 			back = "Volver a Noticias"
 			title = "Noticias"
-			next  = "Pag. Siguiente"
-			prev  = "Pag. Anterior"
+			next  = "MÁS ANTIGUO"
+			prev  = "MÁS NUEVO"
 		
 		[languages.es.revolution]
 			more		= "Ver el episodio"
