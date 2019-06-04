@@ -1,12 +1,12 @@
 +++
 draft 		= "false"
-title 		= "Episode 6: Gestos"
+title 		= "Episodio 6: Gestos"
 date		= "2019-05-17"
 cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
 description = "Necesitamos utilizar los gestos en escena, pero para mejorar los gestos necesitamos conocer los cuatro tipos de gestos que podemos utilizar para comunicar eficazmente en escena. Hay cuatro tipos de gestos."
 +++
 
-{{% youtube -P9C8xl4RPU %}}
+{{% youtube ttx9xv7GrnQ %}}
 
 ## Episodo 6: Gestos
 

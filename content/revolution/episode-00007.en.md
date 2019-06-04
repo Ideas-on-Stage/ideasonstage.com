@@ -6,7 +6,7 @@ cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
 description = "Learn how to cope with stress during a presentation."
 +++
 
-{{% youtube -P9C8xl4RPU %}}
+{{% youtube 1BZaJCshACc %}}
 
 # Episode 7: Showtime Stress
 
