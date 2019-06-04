@@ -16,5 +16,7 @@ What a change a few years can make. When we created the company, we rented a spa
 
 This is history. Now we can welcome you in our offices on the Champs Élysées, the most prestigious avenue of Paris, the city of light. It’s easy to find: it’s next to the McDonald’s on the Champs Élysées, and a sign indicates the entrance.
 
+
+
 There are many rooms, perfect for public speaking coaching and training. Some are spacious, for group public speaking training.  Other rooms are smaller and are perfect for one to one public speaking coaching sessions.
 

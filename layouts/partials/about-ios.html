@@ -1,7 +1,8 @@
 {{ "<!-- partials:about-ios -->" | safeHTML }}
-<section id="about-ios" class="bg-white">
 	{{ partial "aboutreferences_new.html" . }}
-    <div class="container paddingv-huge">
+
+<section id="about-ios" class="bg-white paddingv-huge">
+    <div class="container ">
         <div class="row">
             <div class="col-md-10 col-md-offset-1 text-center">
 	            <h2 class="marginv-none">{{ with .Site.Params.about.title }}{{ . | markdownify }}{{ end }}</h2>            

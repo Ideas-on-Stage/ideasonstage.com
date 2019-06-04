@@ -1,7 +1,7 @@
 +++
-draft 		= "true"
+draft 		= "false"
 title 		= "Episode 7: Showtime Stress"
-date		= "2019-06-01"
+date		= "2019-06-04"
 cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
 description = "Learn how to cope with stress during a presentation."
 +++

@@ -419,20 +419,28 @@ flex-container .flex-item-text h4 {
 	color: #aaa;
 }
 
-.paddingt-large {
-	padding-top: 120px;
-}
-
-.paddingt-medium {
-	padding-top: 80px;
-}
-
 .paddingt-small {
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 .paddingt-tiny {
 	padding-top: 20px;
+}
+
+.paddingt-medium {
+	padding-top: 50px;
+}
+
+.paddingt-large {
+	padding-top: 80px;
+}
+
+.paddingt-huge {
+	padding-top: 130px;
+}
+
+.paddingb-medium {
+	padding-bottom: 80px;
 }
 
 .paddingv0 {
@@ -451,10 +459,6 @@ flex-container .flex-item-text h4 {
 .margin-tiny {
 	margin: 20px;
 }
-
-.paddingt-huge {
-	padding-top: 80px;
-} 
 
 .paddingv10 {
 	padding-top: 10px;
