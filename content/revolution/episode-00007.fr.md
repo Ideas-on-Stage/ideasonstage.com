@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Épisode 7: Showtime Stress"
+title 		= "Épisode 7: Vaincre le trac"
 date		= "2019-06-04"
 cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
 description = "Apprenez à gérer votre stress lors d'une présentation."
