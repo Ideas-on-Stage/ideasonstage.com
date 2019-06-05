@@ -19,6 +19,7 @@
 	{{ with .Title }} <meta name="title" property="og:title" content="{{ . }}">{{ end }}
 {{ end }}
 <meta name ="image" property="og:image" content="/pictures/home/ideas-on-stage.jpg">
+<meta name ="url" property="og:url" content ="{{ .Permalink }}">
 {{ partial "head-hreflang.html" }}
 {{ partial "head-favicon.html" }}
 {{ partial "head-css.html" }}
