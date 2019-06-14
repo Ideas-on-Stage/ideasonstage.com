@@ -34,8 +34,6 @@ Andrea will also introduce the **Presentation SCORE Method**, uniquely developed
 
 Here are the upcoming events in London. If you’re interested, please register directly or contact Andrea at andrea.pacini@ideasonstage.com and he will be happy to sign you up or provide more information. 
 
-* 31 May - WeWork 70 Wilson St 
-* 6 June - [Campfire Shoreditch](https://www.eventbrite.com/e/3-key-ingredients-you-need-to-make-presentations-that-sell-free-event-tickets-61223248384)  
 * 13 June - [HUBB: Hillingdon & Uxbridge Business Breakfast](https://www.wardwilliams.co.uk/events/posts/2019/hubb-hillingdon-uxbridge-business-breakfast/hubb-hillingdon-uxbridge-business-breakfast-13th-june-2019/) 
 * 20 June - WeWork 1 Poultry 
 * 27 June - [Spaces Heathrow Airport, Stockley Park] (http://bit.ly/2W1LJbV) 
@@ -44,13 +42,9 @@ Here are the upcoming events in London. If you’re interested, please register 
 * 11 July - WeWork New Kings Beam House 
 * 25 July - WeWork Keltan House    
 * 1 August - WeWork 184 Shepherds Bush Rd, Hammersmith
+* 8 August - WeWork Aldwych House
 
 <p>&nbsp;</p>
-
-You’ll also find Andrea at the following events: 
-
-* 30 May: [Hillingdon Business Expo](https://hillingdonexpo.com/)
-* 1 June: [TEDxGoodenoughCollege](https://www.eventbrite.co.uk/e/tedxgoodenoughcollege-equality-tickets-59581985322) 
 
 We hope to see you at one of our events!
 

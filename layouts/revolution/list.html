@@ -8,9 +8,10 @@
 			{{ $scratch.Set "first" "true" }}
 			{{ $scratch.Set "content" .Content }}
 			{{ $paginator := .Paginate (.Data.Pages) 5 }}
+			{{ $pagenumber := .Paginator.PageNumber }}
 			{{ range $paginator.Pages }}
-				{{ if eq ($scratch.Get "first") "true" }}
-					<section>
+				{{ if (and (eq ($scratch.Get "first") "true") (lt $pagenumber "2")) }}
+				     <section>
 						<div class="flex-container">
 							<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 								<div class="flex-item-picture-full">
@@ -55,7 +56,6 @@
 					{{ $scratch.Set "first" "false" }}
 				{{ else }}
 		            <div class="container" >
-						<!-- For some reason the pagination is not working properly. I'm hardcoding 5 articles in the next line -->
 		                <section class="post">
 		                    <div class="row paddingv-small">
 		                        <div class="col-md-4 col-md-offset-1 paddingt-tiny">
@@ -94,6 +94,26 @@
 		        {{ end }}
 
 			{{ end }}
+			<div class="container">
+				<ul class="pager">
+                    {{ if .Paginator.HasPrev }}
+                    <li class="previous btn btn-secondary"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">{{ .Site.Params.news.prev }}</a></li>
+                    {{ else }}
+<!-- this code greys out the "Newer" button in the first page                            
+                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+-->                            
+                    {{ end }}
+
+                    {{ if .Paginator.HasNext }}
+                    <li class="next btn btn-secondary"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ .Site.Params.news.next }} </a></li>
+                    {{ else }}
+<!-- this code greys out the "Older" button in the first page   
+                    <li class="next disabled"><a href="#">Older &rarr;</a></li>
+-->
+                    {{ end }}
+                </ul>
+			</div>
+			
         </div><!-- content-main -->
 	</main>
 	<aside>
