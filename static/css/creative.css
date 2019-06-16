@@ -105,7 +105,9 @@ time {
 }
 
 .flex-child-half {
-	margin: 6px;
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
 	padding: 20px;
 	flex: 1;
 }
@@ -128,7 +130,6 @@ time {
 
 .flex-child-half-right {
 	margin-left: 0px;
-	margin-bottom: 6px;
 }
 
 .flex-container {
@@ -225,7 +226,6 @@ flex-container .flex-item-text h4 {
 	}
 
 	.flex-child-half-right {
-		margin-top: 0px;
 		margin-left: 6px;
 	}
 	
@@ -257,7 +257,6 @@ flex-container .flex-item-text h4 {
 	}
 
 	.flex-child-half-right {
-		margin-top: 0px;
 		margin-left: 6px;
 	}
 	
@@ -1359,6 +1358,11 @@ body {
 /* end of table setting for TEDx */
 
 /* Testimonials */
+
+#testimonials {
+  margin-top: 6px;
+}
+
 .testimonials {
   padding: 0;
 }
