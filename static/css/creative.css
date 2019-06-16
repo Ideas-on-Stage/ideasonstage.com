@@ -83,13 +83,6 @@ li {
 	text-align: left;
 }
 
-a h1,
-a h2,
-a h3,
-a h4 {
-	color: #000;
-}
-
 small,
 h1 small,
 h2 small,
@@ -112,10 +105,7 @@ time {
 }
 
 .flex-child-half {
-	margin-top: 6px;
-	margin-left: 6px;
-	margin-right: 6px;
-	margin-bottom: 0px;
+	margin: 6px;
 	padding: 20px;
 	flex: 1;
 }
@@ -138,16 +128,14 @@ time {
 
 .flex-child-half-right {
 	margin-left: 0px;
+	margin-bottom: 6px;
 }
 
 .flex-container {
 	margin-top: 6px;
-	margin-left: 6px;
-	margin-right: 6px;
-	margin-bottom: 0px;
 	position: relative;
 	height: 675px;
-
+	width: 100%;
 	justify-content: center;
 	overflow: hidden;
 }
@@ -320,15 +308,6 @@ flex-container .flex-item-text h4 {
     color: #fff;
     background-color: #222;
 }
-
-.bg-dark h1,
-.bg-dark h2,
-.bg-dark h3,
-.bg-dark h4
-{
-	color: #fff;	
-}
-
 .bg-dark a {
 	color: #fff;
 } 
@@ -357,15 +336,6 @@ flex-container .flex-item-text h4 {
     color: #fff;
     background-color: #000;
 }
-
-.bg-black h1,
-.bg-black h2,
-.bg-black h3,
-.bg-black h4
-{
-	color: #fff;	
-}
-
 .bg-black a {
 	color: #fff;
 }
@@ -381,14 +351,6 @@ flex-container .flex-item-text h4 {
     color: #FFD500;
     background-color: #233B4C;
 }
-
-.bg-codingandbricks h1,
-.bg-codingandbricks h2,
-.bg-codingandbricks h3,
-.bg-codingandbricks h4 {
-	color: #FFD500;
-}
-
 .bg-codingandbricks a {
 	color: #FFD500!important;
 }
@@ -419,28 +381,20 @@ flex-container .flex-item-text h4 {
 	color: #aaa;
 }
 
+.paddingt-large {
+	padding-top: 120px;
+}
+
+.paddingt-medium {
+	padding-top: 80px;
+}
+
 .paddingt-small {
-	padding-top: 30px;
+	padding-top: 40px;
 }
 
 .paddingt-tiny {
 	padding-top: 20px;
-}
-
-.paddingt-medium {
-	padding-top: 50px;
-}
-
-.paddingt-large {
-	padding-top: 80px;
-}
-
-.paddingt-huge {
-	padding-top: 130px;
-}
-
-.paddingb-medium {
-	padding-bottom: 80px;
 }
 
 .paddingv0 {
@@ -504,10 +458,6 @@ flex-container .flex-item-text h4 {
 	margin: 0px;
 }
 
-.margint6 {
-	margin-top: 6px;
-}
-
 .marginv0 {
 	margin-top: 0px;
 	margin-bottom: 0px;	
@@ -516,10 +466,6 @@ flex-container .flex-item-text h4 {
 .margin-v {
 	margin-top: 10px;
 	margin-bottom: 10px;
-}
-
-.margint-huge {
-	margin-top: 80px;
 }
 
 .timeline {
