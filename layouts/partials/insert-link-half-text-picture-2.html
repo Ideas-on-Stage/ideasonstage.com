@@ -5,7 +5,7 @@
 			<div class="flex-col-parent">
 				<div class="flex-col-child text-center">
 				    <a href="{{ with .link }}{{ . }}{{ end }}">
-				    	<h3>{{ with .title }}{{ . }}{{ end }}</h3>
+				    	<h3 class="margint-tiny">{{ with .title }}{{ . }}{{ end }}</h3>
 				    </a>
 				    <p>{{ with .description }}{{ . }}{{ end }}</p>
 					{{ if ne .button "" }}
