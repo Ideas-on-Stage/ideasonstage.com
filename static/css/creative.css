@@ -16,7 +16,7 @@ body {
 }
 
 body, a {
-    font-family: 'Gotham A', 'Gotham B', 'Gotham Book', Helvetica, Arial, sans-serif;
+	font-family: 'Gotham A', 'Gotham B', 'Gotham Book', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	color: #000;
 	line-height: 1.5;

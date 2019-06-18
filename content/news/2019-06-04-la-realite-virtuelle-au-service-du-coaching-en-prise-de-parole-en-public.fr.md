@@ -23,3 +23,4 @@ La formation à la prise de parole en public augmentée avec la réalité virtue
 * Formation à la prise de parole en public pour un événement interne
 
 Dans le confort et la discrétion de nos bureaux sur les Champs Élysées, au cœur de Paris, vous aurez la formation en prise de parole la plus complète possible. Que ce soit pour des négociations en petit comité ou pour faire un grand discours face à vos employés ou face à la presse, la réalité virtuelle vous aidera à être complètement prêt. Pour les clients dans d’autres pays, nous pouvons organiser des journées de formation qui combinent les techniques de formation à l’art oratoire classique et réalité virtuelle.
+
