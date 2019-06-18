@@ -8,7 +8,7 @@ description = "Apprenez à gérer votre stress lors d'une présentation."
 
 {{% youtube -_8sswO35r4 %}}
 
-# Épisode 7 : Vaincre le trac
+## Transcription
 
 Rose: OK. Oui. Compris. Merci. Au revoir.
  

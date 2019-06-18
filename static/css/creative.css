@@ -8,6 +8,17 @@
 	SITE WIDE CUSTOMIZATIONS
 	FOR STANDARD STYLES
  */
+ 
+/*
+	COLOR REFERENCES
+	
+	BLACK #000
+	WHITE #fff
+	DARK GRAY #222
+	LIGHT GRAY #f2f2f2
+	ORANGE #FF8200
+	BLUE # 
+*/
 
 html,
 body {
@@ -16,13 +27,20 @@ body {
 }
 
 body, a {
-	font-family: 'Gotham A', 'Gotham B', 'Gotham Book', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-family: "Whitney SSm A", "Whitney SSm B";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
 	color: #000;
 	line-height: 1.5;
 }
 
-b,
+b {
+	font-family: "Whitney SSm A", "Whitney SSm B";
+	font-style: normal;
+	font-weight: 600;	
+}
+
 h1,
 h2,
 h3,
@@ -30,14 +48,13 @@ h4,
 h5,
 h6,
 big,
-small,
 .btn {
     font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
 a {
-    color: #FF8200;
+    color: #000;
 	-webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -53,7 +70,7 @@ a:focus {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 3em;
 	margin-top: 0;
 }
 
@@ -79,21 +96,33 @@ p {
 		margin-bottom: 0;
 }
 
+p a {
+	border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
+}
+
+p a:hover {
+	border-bottom: dotted 1px #FF8200;
+}
+
+
 li {
 	text-align: left;
 }
 
-small,
-h1 small,
-h2 small,
-h3 small,
-h4 small {
+h1 small {
 	color: #aaa;
+	font-size: 0.66em;
+}
+
+h2 small {
+	color: #aaa;
+	font-size: 0.75em;
 }
 
 time {
 	color: #aaa;
 }
+
 
 /*
 	FLEX CONTAINERS
@@ -133,19 +162,16 @@ time {
 }
 
 .flex-container {
-	margin-top: 6px;
 	position: relative;
-	height: 675px;
 	width: 100%;
 	justify-content: center;
 	overflow: hidden;
 }
 
-/*	Full width picture, centered
-	Left and right sizes get cropped, height remains constant for a given width range:
-	- up to 768px width: height is 432px
-	- between 769 and and 1200px width: height is 558px 
-	- 1201px and more: width and height remain at 1200px x 675px
+/*	.flex-item-picture-full
+	Full width picture, centered
+	- Up to 1280px, height is constant, left and right sizes are cropped
+	- Above 1280px, pic is full width, bottom is cropped
 	Recommended media size: 1200px x 675px non retina, 2400px x 1350px retina
 */
 .flex-container .flex-item-picture-full {
@@ -155,7 +181,23 @@ time {
 }
 
 .flex-container .flex-item-picture-full img {
-	height: 675px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+/*	flex-item-picture-full-height
+	Full height picture, centered
+	- Up to 1280px, height is constant, left and right sizes are cropped
+	- Above 1280px, pic remains full height (no cropping).
+*/
+.flex-container .flex-item-picture-full-height {
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+}
+
+.flex-container .flex-item-picture-full-height img {
 	position: relative;
 	left: 50%;
 	transform: translate(-50%, 0%);
@@ -175,7 +217,7 @@ flex-container .flex-item-text h4 {
 	margin-left: 6px;
 	margin-right: 6px;
 	padding: 20px;
-	height: 500px;
+	height: 675px;
 }
 
 /*
@@ -197,27 +239,79 @@ flex-container .flex-item-text h4 {
 	Media queries
 */
 
-@media(max-width:1279px){
+@media(min-width:1280px) {
+	
 	body, a {
-		font-size: 16px;
+		font-size: 20px;
 	}
-	
 	.flex-container {
-		height: 560px;
+		height: 720px;
 	}
-	
-	.flex-container .flex-item-picture-full img {
-		height: 560px;
-		transform: translate(-50%, 0%);
+
+	.flex-item-picture-full img {
+			width: 100%;
+			transform: translate(-50%, 0%);
+		}
+
+	.flex-container .flex-item-picture-full-height img {
+		height: 720px;
 	}
 }
 
-@media(max-width:767px){
-	body, a {
-		font-size: 14px;
+@media(max-width:1279px) {
+	
+	.flex-container {
+		height: 540px;
 	}
 	
-	flex-container .flex-item-text h4 {
+	.flex-container .flex-item-picture-full img {
+		height: 720px;
+		transform: translate(-50%, 0%);
+	}
+
+	.flex-container .flex-item-picture-full-height img {
+		height: 540px;
+	}
+}
+
+@media(max-width:719px){
+
+body, a {
+		font-size: 14px;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+	
+	h2 {
+		font-size: 1.5em;
+	}
+	
+	h3 {
+		font-size: 1.2em;
+	}
+	
+	.flex-container {
+		height: 405px;
+	}
+
+	.flex-container .flex-item-text h4 {
+		margin-top: 6px;
+	}
+
+	/* On small screens, keep full bleed pic height constant */
+	.flex-container .flex-item-picture-full img {
+		width: auto;
+		height: 405px;
+		transform: translate(-50%, 0%);
+	}
+
+	.flex-container .flex-item-picture-full-height img {
+		height: 405px;
+	}
+	
+	.flex-container .flex-item-text h4 {
 		margin-top: 6px;
 	} 
 	
@@ -230,38 +324,7 @@ flex-container .flex-item-text h4 {
 	}
 	
 	.flex-col-parent {
-		height: 420px;
-	}
-}
-
-@media(max-width:479px){
-	body, a {
-		font-size: 14px;
-	}
-
-	.flex-container {
-		height: 440px;
-	}
-	
-	.flex-container .flex-item-picture-full img {
-		height: 440px;
-		transform: translate(-50%, 0%);
-	}
-	
-	flex-container .flex-item-text h4 {
-		margin-top: 6px;
-	} 
-	
-	.flex-parent {
-		flex-direction: column;
-	}
-
-	.flex-child-half-right {
-		margin-left: 6px;
-	}
-	
-	.flex-col-parent {
-		height: 420px;
+		height: 405px;
 	}
 }
 	
@@ -385,15 +448,15 @@ flex-container .flex-item-text h4 {
 }
 
 .paddingt-medium {
-	padding-top: 80px;
-}
-
-.paddingt-small {
 	padding-top: 40px;
 }
 
-.paddingt-tiny {
+.paddingt-small {
 	padding-top: 20px;
+}
+
+.paddingt-tiny {
+	padding-top: 6px;
 }
 
 .paddingv0 {
@@ -465,6 +528,10 @@ flex-container .flex-item-text h4 {
 .margin-v {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.margint-tiny {
+	margin-top: 6px;
 }
 
 .timeline {
@@ -787,6 +854,10 @@ header#home h1 {
 	header#home {
 		height: 420px;
 	}
+	
+	header#home h1 {
+		font-size: 1em;
+	}
 }
 
 
@@ -825,9 +896,10 @@ header#revolution {
 header {
 	position: relative;
 	width: 100%;
-	height: 180px;
+	height: 200px;
 	text-align: center;
 	color: #fff;
+	background-color: #222;
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -1051,7 +1123,7 @@ a.people-box:hover {
 	height: 88px;
 	padding: 2px 0px;
 	margin-bottom: 40px;
-    font-size: 0.75em;
+    font-size: 1em;
     color: #666;
 	overflow: hidden;
 	text-decoration: none;

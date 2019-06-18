@@ -8,7 +8,7 @@ description = "Learn how to cope with stress during a presentation."
 
 {{% youtube 1BZaJCshACc %}}
 
-# Episode 7: Showtime Stress
+## Transcript
 
 Rose: OK. Yes. Got it. Thanks. Bye. 
  

@@ -8,7 +8,7 @@ description = "Aprender a gestionar el estrés previo a una presentación."
 
 {{% youtube Rh3MPWz-lQU %}}
 
-# Episodio 7: ESTRÉS DE ÚLTIMA HORA
+## Episodio 7: ESTRÉS DE ÚLTIMA HORA
 
 Rose: OK. Sí. Lo tengo. Gracias. Adiós. 
  
