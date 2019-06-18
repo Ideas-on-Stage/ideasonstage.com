@@ -244,6 +244,7 @@ flex-container .flex-item-text h4 {
 	body, a {
 		font-size: 20px;
 	}
+
 	.flex-container {
 		height: 720px;
 	}
@@ -276,8 +277,8 @@ flex-container .flex-item-text h4 {
 
 @media(max-width:719px){
 
-body, a {
-		font-size: 14px;
+	body, a {
+		font-size: 16px;
 	}
 
 	h1 {
@@ -309,11 +310,14 @@ body, a {
 
 	.flex-container .flex-item-picture-full-height img {
 		height: 405px;
+		transform: translate(-50%, 0%);
 	}
 	
 	.flex-container .flex-item-text h4 {
 		margin-top: 6px;
 	} 
+	
+	/* Used to adapt layout to a single column on narrow screens */
 	
 	.flex-parent {
 		flex-direction: column;
@@ -796,17 +800,7 @@ footer a {
 */
 
 header#home {
-	position: relative;
-	width: 100%;
-	height: 675px;
-	text-align: center;
-	color: #fff;
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	background-color: #000;	
+	height: 720px;
 }
 
 header#home h1 {
@@ -820,13 +814,12 @@ header#home h1 {
 /*
 	Media queries
 */
-@media(max-width:1279px){
-	header#home {
-		height: 560px;
-	}
-}
 
-@media(max-width:767px){
+@media(max-width:1279px){
+
+	header#home {
+		height: 540px;
+	}
 
 	.paddingv-huge {
 		padding-top: 60px;
@@ -850,9 +843,10 @@ header#home h1 {
 
 }
 
-@media(max-width:479px){
+@media(max-width:719px){
+
 	header#home {
-		height: 420px;
+		height: 405px;
 	}
 	
 	header#home h1 {
@@ -860,38 +854,6 @@ header#home h1 {
 	}
 }
 
-
-header#pz {
-	position: relative;
-	width: 100%;
-	height:360px;
-	text-align: center;
-	color: #fff;
-	background-image: url(../pictures/pz/home/header.jpg);
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	background-color: #aaa;	
-}
-
-header#revolution {
-	position: relative;
-	width: 100%;
-	height:50%;
-	background-image: url(../pictures/inserts/bpr-header.png);
-	text-align: center;
-	color: #fff;
-	margin-top:20px;
-	background-position: bottom center;
-	background-repeat: no-repeat;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	background-size: contain;
-	-o-background-size: contain;
-	background-color: rgb(255,117,0);	
-}
 
 header {
 	position: relative;
