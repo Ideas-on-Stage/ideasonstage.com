@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 {{ "<!-- news/single.html -->" | safeHTML }}
 {{ partial "single-top-common.html" . }}
+		<div class="paddingt-medium">
+		</div>
         {{ partial "news/breadcrumbs.html" . }}
         <article>
-            <div class="container paddingt-small">
+            <div class="container paddingt-medium">
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 						<h1>{{ .Title }}</h1>
 					</div>
 				</div>
-				<div class="row paddingt-tiny">
+				<div class="row">
 				    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                         <p class="text-muted  mb-small">
                         {{ if isset .Params "author" }}
-						  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
+						  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a> — 
 						  {{ end }}
                         {{ if eq $.Site.LanguageCode  "en" }}
 							{{ .Date.Format "January 2, 2006" }}
@@ -39,8 +41,14 @@
                         {{ end }}        
                     </div>
                 </div> <!-- /.row -->
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+						<hr>
+					</div>
+				</div>
             </div> <!-- /.container -->
         </article> <!-- /#content -->
+        {{ partial "news/breadcrumbs.html" . }}
 		<aside>
  	    	{{ partial "contact.html" . }}
  	    </aside>

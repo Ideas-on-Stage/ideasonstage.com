@@ -1,9 +1,9 @@
 {{ "<!-- partials:insert-link-full-subtitle.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="{{ .style }} paddingv0"><!-- section used for full width background -->
-	<div class="container insert">
+<section id="{{ .sectionid }}" class="{{ .style }}"><!-- section used for full width background -->
+	<div class="container insert paddingt-medium">
 	    <div class="row">
 	        <div class="col-xs-10 col-xs-offset-1 text-center">
-			    <h2 style="padding-bottom: 10px">{{ with .title }}{{ . }}{{ end }}</h2>
+			    <h2>{{ with .title }}{{ . }}{{ end }}</h2>
 			</div>
 	    </div>
 	</div>

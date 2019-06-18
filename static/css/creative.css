@@ -134,6 +134,14 @@ time {
 	display: flex;
 }
 
+.flex-child {
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
+	padding: 20px;
+	flex: 1;
+}
+
 .flex-child-half {
 	margin-top: 6px;
 	margin-left: 6px;
@@ -455,8 +463,12 @@ flex-container .flex-item-text h4 {
 	color: #aaa;
 }
 
+.paddingt-huge {
+	padding-top: 80px;
+}
+
 .paddingt-large {
-	padding-top: 120px;
+	padding-top: 60px;
 }
 
 .paddingt-medium {
@@ -469,6 +481,14 @@ flex-container .flex-item-text h4 {
 
 .paddingt-tiny {
 	padding-top: 6px;
+}
+
+.paddingb-medium {
+	padding-bottom: 40px;
+}
+
+.paddingb-small {
+	padding-bottom: 20px;
 }
 
 .paddingv0 {
@@ -528,6 +548,11 @@ flex-container .flex-item-text h4 {
 	margin-bottom: 0px;	
 }
 
+.marginv-medium {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 .margin-none {
 	margin: 0px;
 }
@@ -542,8 +567,19 @@ flex-container .flex-item-text h4 {
 	margin-bottom: 10px;
 }
 
+.margint-small {
+	margin-top: 20px;
+} 
+
 .margint-tiny {
 	margin-top: 6px;
+}
+
+.marginb-tiny {
+	margin-bottom: 6px;
+}
+.margint-none {
+	margin-top: 0px;
 }
 
 .timeline {
@@ -858,7 +894,7 @@ header#home h1 {
 	}
 	
 	header#home h1 {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 }
 

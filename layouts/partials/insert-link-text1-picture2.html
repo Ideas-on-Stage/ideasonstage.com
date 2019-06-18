@@ -2,7 +2,7 @@
 <section id="{{ .sectionid }}" class="{{ .style }}"><!-- section used for full width background -->
 	<div class="container insert paddingt-medium">
 	    <div class="row">
-	        <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-1">
+	        <div class="col-xs-12 col-sm-4 col-sm-offset-1">
 				<a href="{{ with .link }}{{ . }}{{ end }}">
 				    <h3>{{ with .title }}{{ . }}{{ end }}</h3>
 				</a>
@@ -11,7 +11,7 @@
 				<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
 				{{ end }}
 			</div>
-			<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 paddingt-tiny">
+			<div class="col-xs-12 col-sm-6 col-sm-offset-0 paddingt-tiny">
 				<a href="{{ with .link }}{{ . }}{{ end }}">
 					<img src="/pictures/inserts/{{ .picture }}" class="img-responsive">
 				</a>

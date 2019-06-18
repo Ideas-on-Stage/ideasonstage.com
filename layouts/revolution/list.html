@@ -28,7 +28,7 @@
 							</div>
 						</div>
 					</section>
-					<div class="container paddingv-large" >
+					<div class="container paddingt-huge" >
 						<div class="row">
 							<div class="col-sm-10 col-sm-offset-1">	
 								{{ with $scratch.Get "content" }}{{ . | markdownify }}{{ end }}
@@ -36,18 +36,20 @@
 						</div>				
 					</div>
 					<div class="container">
-						<div class="row">
-							<div class="col-xs-4 text-center">
-								<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="/pictures/revolution/youtube.svg" alt="youtube" style="margin-bottom: 5px; width:50px;"><br>YouTube</a>
-							</div>
-							<div class="col-xs-4 text-center">
-								<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"><img src="/pictures/revolution/itunes.svg" alt="iTunes" style="margin-bottom: 5px; width:50px;"><br>iTunes</a>
-							</div>
-							<div class="col-xs-4 text-center">
-								<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="/pictures/revolution/linkedin.svg" alt="linkedin" style="margin-bottom: 5px; width:50px;"><br>Linkedin</a>
+						<div class="row paddingt-large">
+							<div class="col-sm-10 col-sm-offset-1">
+								<div class="col-xs-4 text-center">
+									<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="/pictures/revolution/youtube.svg" alt="youtube" style="margin-bottom: 5px; width:50px;"><br>YouTube</a>
+								</div>
+								<div class="col-xs-4 text-center">
+									<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"><img src="/pictures/revolution/itunes.svg" alt="iTunes" style="margin-bottom: 5px; width:50px;"><br>iTunes</a>
+								</div>
+								<div class="col-xs-4 text-center">
+									<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="/pictures/revolution/linkedin.svg" alt="linkedin" style="margin-bottom: 5px; width:50px;"><br>Linkedin</a>
+								</div>
 							</div>
 						</div>
-						<div class="row paddingt-small">
+						<div class="row paddingt-huge">
 							<div class="colx-xs-12 text-center">
 								<h2>{{ .Site.Params.revolution.episodes }}</h2>
 							</div>
@@ -56,17 +58,17 @@
 					{{ $scratch.Set "first" "false" }}
 				{{ else }}
 		            <div class="container" >
-		                <section class="post">
-		                    <div class="row paddingv-small">
-		                        <div class="col-md-4 col-md-offset-1 paddingt-tiny">
-		                          <div class="image">
+		                <section class="post paddingt-small paddingb-medium">
+		                    <div class="row">
+		                        <div class="col-md-4 col-md-offset-1">
+		                          <div class="image margint-small">
 		                              <a href="{{ .Permalink }}">
 		                                  <img src="{{ .Site.BaseURL}}pictures/revolution/{{ .File.ContentBaseName }}-thumb.jpg" class="img-responsive" alt="">
 		                              </a>
 		                          </div>
 		                        </div>
 		                        <div class="col-md-6">
-		                            <a href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3></a>
+		                            <a href="{{ .RelPermalink }}"><h3 class="margint-small">{{ .Title }}</h3></a>
 		                            <div>
 		                                <p>
 		                                    <a href="{{ .Permalink }}">
@@ -90,28 +92,38 @@
 		                        </div>
 		                    </div>
 		                </section>
-		            </div><!-- container -->
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+								<hr>
+							</div>
+						</div>
+					</div><!-- container -->
 		        {{ end }}
 
 			{{ end }}
 			<div class="container">
-				<ul class="pager">
-                    {{ if .Paginator.HasPrev }}
-                    <li class="previous btn btn-secondary"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">{{ .Site.Params.news.prev }}</a></li>
-                    {{ else }}
-<!-- this code greys out the "Newer" button in the first page                            
-                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
--->                            
-                    {{ end }}
-
-                    {{ if .Paginator.HasNext }}
-                    <li class="next btn btn-secondary"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ .Site.Params.news.next }} </a></li>
-                    {{ else }}
-<!-- this code greys out the "Older" button in the first page   
-                    <li class="next disabled"><a href="#">Older &rarr;</a></li>
--->
-                    {{ end }}
-                </ul>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+					
+						<ul class="pager">
+		                    {{ if .Paginator.HasPrev }}
+		                    <li class="previous btn btn-secondary"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">{{ .Site.Params.news.prev }}</a></li>
+		                    {{ else }}
+		<!-- this code greys out the "Newer" button in the first page                            
+		                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+		-->                            
+		                    {{ end }}
+		
+		                    {{ if .Paginator.HasNext }}
+		                    <li class="next btn btn-secondary"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ .Site.Params.news.next }} </a></li>
+		                    {{ else }}
+		<!-- this code greys out the "Older" button in the first page   
+		                    <li class="next disabled"><a href="#">Older &rarr;</a></li>
+		-->
+		                    {{ end }}
+		                </ul>
+					</div>
+				</div>
 			</div>
 			
         </div><!-- content-main -->
