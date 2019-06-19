@@ -138,7 +138,6 @@ time {
 	margin-top: 6px;
 	margin-left: 6px;
 	margin-right: 6px;
-	padding: 20px;
 	flex: 1;
 }
 
@@ -146,12 +145,10 @@ time {
 	margin-top: 6px;
 	margin-left: 6px;
 	margin-right: 6px;
-	padding: 20px;
 	flex: 1;
 }
 
 .flex-col-parent {
-	height: 480px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -159,11 +156,16 @@ time {
 }
 
 .flex-col-child {
-	max-width: 600px;	
 }
 
-.flex-col-child img {
-	max-height: 240px;
+.flex-col-child-text {
+	padding-top: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+	height: 220px;
+}
+
+.flex-col-child-img {
 }
 
 .flex-child-half-right {
@@ -343,8 +345,11 @@ flex-container .flex-item-text h4 {
 		margin-left: 6px;
 	}
 	
-	.flex-col-parent {
-		height: 405px;
+	.flex-col-child-text {
+		padding-top: 24px;
+		padding-left: 24px;
+		padding-right: 24px;
+		height: 170px;
 	}
 }
 	
