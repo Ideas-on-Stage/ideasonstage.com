@@ -10,7 +10,7 @@ Présenter, c’est transformer, pas informer. Découvrez la question essentiell
 
 {{< youtube m49x-uOgtZ8 >}}
 
-## Texte de la vidéo
+## Transcription
 Rose : [00:00:00] Bienvenue dans la Révolution des Présentations Business, votre tasse d’inspiration pour vos présentations. 
  
 Phil : [00:00:07] Aujourd’hui nous allons voir pourquoi présentation ne doit pas rimer avec Information mais avec Transformation. 

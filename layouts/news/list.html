@@ -10,7 +10,7 @@
                 {{ range $paginator.Pages }}
 				<section class="post">
                     <div class="row paddingv-medium">
-                        <div class="col-md-3 col-md-offset-1 margint-tiny">
+                        <div class="col-md-3 col-md-offset-1 margint-small">
 	                        <div class="image">
 	                            <a href="{{ .Permalink }}">
 	                                {{ if .Params.banner }}
@@ -23,7 +23,7 @@
                         </div>
                         <div class="col-md-7">
                             <a href="{{ .RelPermalink }}">
-                            	<h2 class="margint-tiny">{{ .Title }}</h2>
+                            	<h2 class="margint-small">{{ .Title }}</h2>
                             </a>
                             <p>
                               	{{ if isset .Params "author" }}

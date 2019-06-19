@@ -10,6 +10,8 @@ Vous venez juste d’apprendre que vous devez donner une présentation de 15min 
 
 {{% youtube Vx78LJvHXyA %}}
 
+## Transcription
+
 **Rose** : *[00:00:00]* Bienvenue à « The Business Presentation Revolution », révolutionnez vos présentations pendant votre pause café.
 
 **Phil** : *[00:00:07]* Aujourd’hui, nous allons nous intéresser à un changement qui a l’air anodin, mais qui a beaucoup d’impact sur vos présentations. Il tient en une expression : mettre « les bœufs » avant « la charrue ». 

@@ -3,12 +3,13 @@ draft 		= "false"
 title 		= "Episode 6: Gestuelle"
 date		= "2019-05-17"
 cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description = "Good gestures can increase your presence on stage. Learn what to do with your body, your hands, your face while you present."
+description = "Une bonne gestuelle augmentera votre présence sur scène. Apprenez comment utiliser votre corps, vos mains et votre visage pendant une présentation."
 +++
 
 {{% youtube -P9C8xl4RPU %}}
 
-## Épisode 6: Gestuelle
+## Transcription
+
 Bienvenue à The Business Presentation Revolution! Je suis accompagnée de mon collègue Michael Rickwood qui va nous expliquer comment gérer notre corps lors de prises de parole en public. Michael, nos clients nous demandent souvent : « Que dois-je faire de mon corps, de mes mains, avec mon visage quand je fais une présentation ? » Que dis-tu à tes clients ?
 
 Rose, ce dont tu parles c’est la **gestuelle** et nous l’utilisons tous quand nous parlons en public. Mais pour progresser sur ce point, il est utile de connaître les quatre types de gestes que nous pouvons utiliser pour mieux communiquer en public.

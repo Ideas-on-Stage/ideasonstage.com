@@ -10,7 +10,8 @@ Powerful visuals come from powerful messages and clear visual ideas. But sometim
 
 {{% youtube BHIuJtAfObM %}}
 
-## Episode 5 “Slide Success” Transcript
+## Transcript
+
 **Rose**: [00:00:00] Welcome to The Business Presentation Revolution: your colorful cocktail of presentation goodness. 
  
 **Phil**: [00:00:06] Today we're focusing on slides. Why most slides fail and three steps to make sure yours succeed. 

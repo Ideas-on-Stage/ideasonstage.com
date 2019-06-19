@@ -10,7 +10,7 @@ description	= "​​Las slides potentes nacen de mensajes potentes y de ideas v
 
 {{% youtube QoHSuEPa2_s %}}
 
-## Épisode 5 “Triunfa con tus slides”
+## Transcripción
  
 Rose: [00:00:00] Bienvenido a The Business Presentation Revolution: un colorido cóctel de consejos para presentaciones.
  

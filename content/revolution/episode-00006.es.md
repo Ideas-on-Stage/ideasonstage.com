@@ -8,7 +8,7 @@ description = "Necesitamos utilizar los gestos en escena, pero para mejorar los 
 
 {{% youtube ttx9xv7GrnQ %}}
 
-## Episodo 6: Gestos
+## Transcripción
 
 Bienvenidos a The Business Presentation Revolution !
 Me acompaña mi colega Michael Rickwood que va a compartir con nosotros qué hacer con nuestro cuerpo cuando presentamos. 

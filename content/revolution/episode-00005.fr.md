@@ -14,7 +14,7 @@ Prenez 5 minutes pour découvrir 3 étapes clés qui assureront le succès de vo
 
 {{% youtube UCwbZXiPC18 %}}
 
-## Épisode 5 “Réussir ses slides”
+## Transcription
 Rose: [00:00:00] Bienvenue dans “The Business Presentation Revolution”, votre cocktail vitaminé pour vos présentations. 
  
 Phil: [00:00:06] Aujourd’hui nous allons nous intéresser aux diapositives (ou slides), aux raisons pour lesquelles la plupart des slides sont inefficaces et aux 3 étapes à suivre pour y remédier.

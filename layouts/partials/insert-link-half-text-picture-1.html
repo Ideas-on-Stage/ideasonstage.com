@@ -6,14 +6,14 @@
 			<div class="flex-col-parent">
 				<div class="text-center flex-col-child">
 				    <a href="{{ with .link }}{{ . }}{{ end }}">
-				    	<h3 class="margint-tiny">{{ with .title }}{{ . }}{{ end }}</h3>
+				    	<h3 class="margint-none">{{ with .title }}{{ . }}{{ end }}</h3>
 				    </a>
-				    <p>{{ with .description }}{{ . }}{{ end }}</p>
+				    <p>{{ with .description | safeHTML }}{{ . }}{{ end }}</p>
 					{{ if ne .button "" }}
 					<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
 					{{ end }}
 				</div>
-				<div class="paddingt-tiny flex-col-child">
+				<div class="margint-small flex-col-child">
 		    		<a href="{{ with .link }}{{ . }}{{ end }}">
 		    			<img src="/pictures/inserts/{{ .picture }}" class="img-responsive">
 		    		</a>

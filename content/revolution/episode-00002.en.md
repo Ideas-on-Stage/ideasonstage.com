@@ -10,7 +10,7 @@ Rose asks Phil how to overcome your fear before a big presentation, and turn it 
 
 {{% youtube focwumpNq_o %}}
 
-## Text transcript
+## Transcript
 Rose: Welcome to The Business Presentation Revolution, your calming cup of presentation tea. Phil, is everything okay?  
  
 Phil: I'm just really feeling kind of nervous. I just don't think I'm properly prepared for today.  
