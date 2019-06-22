@@ -10,7 +10,7 @@ Presentations are for transformation, not information. Learn the golden simple q
 
 {{< youtube P9u20pKFIUQ >}}
 
-## Text transcript
+## Transcript
 
 Rose: [00:00:00] Welcome to The Business Presentation Revolution, your regular cup of presentation inspiration.  
  

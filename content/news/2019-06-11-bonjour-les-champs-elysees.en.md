@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Bonjour les Champs Élysées !"
-tags = ["Public Speaking", "Debate", "TEDx", "Fear", "Prise de parole en public", "Débat", "Peur"]
+tags = ["Public Speaking", "News"]
 news = ["general"]
 date = "2019-06-11"
 author = "Pierre Morsa"

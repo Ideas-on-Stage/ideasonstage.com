@@ -10,7 +10,7 @@ The secret ingredient in any presentation is Your Audience. Don’t forget to as
 
 {{% youtube WOGTFXBOwfk %}}
 
-## Episode 3 “The Audience” Transcript
+## Transcript
  
 **Phil:** [00:00:00] Welcome to The Business Presentation Revolution, your double espresso of presentation know-how. 
  

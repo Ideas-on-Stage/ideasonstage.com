@@ -1,18 +1,18 @@
-{{ "<!-- partials:insert-link-picture1-text2.html -->" | safeHTML }}
+{{ "<!-- partials:insert-link-half-text-picture-2.html -->" | safeHTML }}
 
-	<div class=" flex-child-half-right flex-child-half {{ .style }}">
+	<div class="flex-child-half flex-child-half-right {{ .style }}">
 		<section id="{{ .sectionid }}">
 			<div class="flex-col-parent">
-				<div class="flex-col-child text-center">
+				<div class="flex-col-child flex-col-child-text text-center">
 				    <a href="{{ with .link }}{{ . }}{{ end }}">
-				    	<h3>{{ with .title }}{{ . }}{{ end }}</h3>
+				    	<h3 class="margint-none">{{ with .title }}{{ . }}{{ end }}</h3>
 				    </a>
-				    <p>{{ with .description }}{{ . }}{{ end }}</p>
+				    <p>{{ with .description | safeHTML }}{{ . }}{{ end }}</p>
 					{{ if ne .button "" }}
 					<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
 					{{ end }}
 				</div>
-				<div class="flex-col-child paddingt-tiny">
+				<div class="flex-col-child margint-small">
 		    		<a href="{{ with .link }}{{ . }}{{ end }}">
 		    			<img src="/pictures/inserts/{{ .picture }}" class="img-responsive">
 		    		</a>

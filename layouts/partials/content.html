@@ -1,9 +1,9 @@
 {{ "<!-- partials:content.html -->" | safeHTML }}
     {{ partial "inserts-top.html" . }}
     <section id="content-main">
-	    <div class="container paddingt-medium">
+	    <div class="container paddingt-large paddingb-small">
 	        <div class="row">        
-	        	<div class="col-xs-10 col-xs-offset-1">
+	        	<div class="col-xs-12 col-sm-10 col-sm-offset-1">
 					{{ with .Content }}{{ . | markdownify }}{{ end }}	
 		        </div>
 		    </div>

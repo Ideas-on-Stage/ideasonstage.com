@@ -10,7 +10,7 @@ Rose demande à Phil des conseils pour maîtriser sa peur avant une présentatio
 
 {{% youtube DYQ-4Z6WMqM %}}
 
-## Texte de la vidéo
+## Transcription
 Rose : Bienvenue dans la Révolution des Présentations Business, votre tasse de sérénité pour vos présentations. Ça va Phil ?
 
 Phil : Je me sens un peu nerveux. J’ai l’impression de ne pas m’être correctement préparé pour aujourd’hui. 

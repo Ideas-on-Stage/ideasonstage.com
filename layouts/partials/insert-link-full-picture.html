@@ -1,8 +1,8 @@
 {{ "<!-- partials:insert-link-full-picture.html -->" | safeHTML }}
-<section>
+<section class="margint-tiny">
 	<div class="flex-container {{ .style }}">
 		<a href="{{ with .link }}{{ . }}{{ end }}">
-			<div class="flex-item-picture-full">
+			<div class="flex-item-picture-full-height">
 				{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
 			</div>
 		</a>

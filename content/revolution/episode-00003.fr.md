@@ -10,7 +10,7 @@ L’ingrédient secret de toute présentation est votre public. N’oubliez pas 
 
 {{% youtube WOGTFXBOwfk %}}
 
-## Texte de l’épisode III : l’auditoire
+## Transcription
 
 Phil : [00:00:00] Bienvenue à **The Business Presentation Revolution**, le double expresso pour vous éveiller aux présentations.
  

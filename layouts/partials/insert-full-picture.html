@@ -1,7 +1,7 @@
 {{ "<!-- partials:insert-full-picture.html -->" | safeHTML }}
 <section id="{{ .sectionid }}" class="{{ .style }}"><!-- section used for full width background -->
 	<div class="flex-container">
-		<div class="flex-item-picture-full">
+		<div class="flex-item-picture-full-height">
 			{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
 		</div>
 		<div class="{{ .style }}">

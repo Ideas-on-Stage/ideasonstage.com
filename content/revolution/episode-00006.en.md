@@ -8,7 +8,7 @@ description = "Good gestures can increase your presence on stage. Learn what to 
 
 {{% youtube -P9C8xl4RPU %}}
 
-## Episode 6: Gestures
+## Transcript
 
 Welcome to The Business Presentation Revolution! I'm here with my colleague Michael Rickwood who's going to be sharing with us what to do with our bodies while presenting.
 

@@ -10,7 +10,7 @@ If you just found out you need to give a 15-minute presentation tomorrow, how wo
 
 {{% youtube Vx78LJvHXyA %}}
 
-## Episode 4 “Carts and Horses” Transcript
+## Transcript
 
 **Rose:** *[00:00:00]* Welcome to The Business Presentation Revolution, your quick coffee break to learn how to shake up and wake up your presentations. *\[00:00:06\][5.8]*
 

@@ -10,7 +10,7 @@ description	= "¿Puedes responder a esta pregunta honestamente? Si te acabaras d
 
 {{% youtube LVu6yIu8VGw %}}
 
-## Episodio 4 “poner el caballo delante del carro”
+## Transcripción
 
 **Rose:** *[00:00:00]* Bienvenidos a The Business Presentation Revolution, tu breve pausa para de café para aprender a agitar y despertar tus presentaciones. *\[00:00:06\][5.8]*
 
