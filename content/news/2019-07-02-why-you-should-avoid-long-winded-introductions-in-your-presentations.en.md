@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Why you should avoid long winded introductions in your presentations"
+title = "Start with the subject, not the context"
 tags = ["Public Speaking", "Storytelling"]
 news = ["general"]
 date = "2019-07-02"
@@ -9,7 +9,7 @@ banner = ""
 language = "en"
 +++
 
-You know these presenters who speak for 20 minutes before they finally say why they are talking? I had a colleague who was just like that. When I asked him why he couldn’t do a shorter introduction, he said that to him, all the details he gave in his opening were indispensable to understand the presentation. In other words, he was taking the time to explain the context before talking about his subject. The problem was, because nobody knew what the exact subject was, the elements of context had no meaning and were extremely boring. Making matters worse, because my colleague had not started by identifying the subject, he rambled for much longer than what was really necessary.
+You know these presenters who speak for 20 minutes before they finally understand what they are talking about? I had a colleague who was just like that. When I asked him why he couldn’t do a shorter introduction, he said that he felt that all the details he gave in his opening were indispensable to understand the presentation. In other words, he was taking the time to explain the context before talking about his subject. That sounded good in theory. The problem was, because nobody knew what the exact subject was, the elements of context had no meaning and were extremely boring. Making matters worse, because my colleague had not started by identifying the subject, he rambled for much longer than what was really necessary.
 
 However, correcting that problem is fairly easy.
 
