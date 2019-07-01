@@ -5,7 +5,7 @@ tags = ["Public Speaking", "Storytelling"]
 news = ["general"]
 date = "2019-07-02"
 author = "Pierre Morsa"
-banner = ""
+banner = "/img/news/long-wait.jpg"
 language = "en"
 +++
 
@@ -18,3 +18,5 @@ Start by presenting the “why you are talking today,” the key topics, before 
 Only once you have done that can you present the context. Avoid the “all you can eat” approach, only give the minimum necessary to understand the key topics.
 
 This simple method will make your presentations much more interesting from the beginning, and much easier to follow for your audience.
+
+![Long wait](/img/news/long-wait.jpg)

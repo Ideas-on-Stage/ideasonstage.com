@@ -1,10 +1,9 @@
 {{ "<!-- partials:head.html -->" | safeHTML }}
 {{ partial "head-meta.html" }}
-{{ .Hugo.Generator }}
 {{ $scratch := newScratch }}
 {{ $scratch.Set "found" "false" }}
 {{ range .Site.Params.listpages }}
-	{{ if eq $.Page.URL .url }}
+	{{ if eq $.Page.Permalink .url }}
 		<meta name="author" property="og:author" content="{{ with $.Site.Params.author }}{{ . }}{{ end }}">
 		<meta name="description" property="og:description" content="{{ with .description }}{{ . }}{{ end }}">
 		<title>{{ with .title }}{{ . }}{{ end }}</title>

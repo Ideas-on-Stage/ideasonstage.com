@@ -1,6 +1,6 @@
 {{ "<!-- partials:insert-link-half-text-picture-2.html -->" | safeHTML }}
 
-	<div class="flex-child-half flex-child-half-right {{ .style }}">
+	<div class="flex-child-half flex-child-half-right {{ .style }}" {{ if .color }}style="background-color:{{ .color }}"{{ end }}>
 		<section id="{{ .sectionid }}">
 			<div class="flex-col-parent">
 				<div class="flex-col-child flex-col-child-text text-center">

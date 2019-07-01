@@ -1,7 +1,7 @@
 {{ "<!-- partials:insert-link-half-text-picture-1.html -->" | safeHTML }}
 
 <div class="flex-parent">
-	<div class="flex-child-half {{ .style }}">
+	<div class="flex-child-half {{ .style }}" {{ if .color }}style="background-color:{{ .color }}"{{ end }}>
 		<section id="{{ .sectionid }}">
 			<div class="flex-col-parent">
 				<div class="flex-col-child flex-col-child-text text-center">
