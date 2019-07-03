@@ -4,6 +4,7 @@
 	<main>
         {{ partial "page-hero.html" . }}
         {{ partial "events-tabs.html" . }}
+		{{ .Resources.Match "**.html" }}
         {{ partial "content.html" . }}
     </main>
 	<aside>

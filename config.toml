@@ -2,7 +2,7 @@ baseURL 				= "https://www.ideasonstage.com"
 DefaultContentLanguage	= "en"
 paginate				= 5
 paginatePath			= "newspage"
-canonifyurls			= false
+canonifyurls				= false
 
 title        	= "Presentation Creation | Public Speaking Coaching and Training | Ideas on Stage"
 name         	= "Ideas on Stage"
@@ -126,13 +126,7 @@ theme        	= "hugo-creative-theme-master"
 			logos = "/ios/pictures/home/logos.jpg"
 			buttonText  = "Contact us"
 	   
-	    #About IoS section (bottom of home page)
-	        title			= "About Ideas&nbsp;on&nbsp;Stage"
-	        subtitle		= "Our Methodology"
-	        description1 	= "<p>Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training. In a world of boring conferences and endless meetings, you will stand out and shine.</p><p>We created Ideas on Stage in 2010, convinced that successful presentations are a key competitive advantage, and offered a revolutionary blend of storytelling, visual design and speaker coaching. Our intuition was right: our clients realized the value of high-impact presentations, kept coming back for more, and told their friends.</p><p>Today the communication experts of Ideas on Stage provide a full range of presentation services around the world in English, French, Spanish, Italian and German.</p>"
-	        image1 			= "/pictures/about/ios-map.png"
-	        description2 	= "The pSCORE method (Presentation SCORE) is our new approach to business presenting, honed over many years and proven in a wide variety of companies. pSCORE offers a complete method for the creation of top-quality presentations, starting with careful preparation (start with your audience and the context, set objectives and choose the key messages) and then applying the three arts of presenting: <br /><ul><li>Storytelling: define a clear and effective structure, and use storytelling techniques to make your key messages stick.</li><li>Visuals: forget Death By PowerPoint – instead use slides and other visual aids to communicate more effectively.</li><li>Oratory: deliver your presentation powerfully and credibly, with confidence and without stress.</li></ul>"
-	        image2 			= "/pictures/about/ios-pSCORE.png"
+	    #About IoS section → text moved to /content/_index.en.md
 	    
 			[params.about.modal]
 				name = "Name"
@@ -328,7 +322,7 @@ theme        	= "hugo-creative-theme-master"
 
 [languages.en]
 baseURL			= "https://www.ideasonstage.com/"
-languageName	= "English"
+languageName		= "English"
 languageCode 	= "en"
 weight			= "1"
 googleAnalytics = "UA-30695118-1"
@@ -459,14 +453,6 @@ activenews = true
 			descriptionheadline = "Ideas on Stage est le spécialiste des présentations. Nos services sont disponibles en Amérique du Nord et en Europe, en anglais, français, espagnol et italien."
 			logos = "/ios/pictures/home/logos.jpg"
 			buttonText  = "Nous contacter"
-	   
-	    #About IoS section (bottom of home page)
-	        title			= "À propos d'Ideas&nbsp;on&nbsp;Stage"
-	        subtitle		= "Méthodologie"
-	        description1 	= "<p>Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public. Dans un univers de conférences monotones et de réunions sans fin, vous vous démarquerez.</p><p>Nous avons créé Ideas on Stage en 2010, convaincus que l’art de présenter est un avantage compétitif essentiel. Nous avons proposé un mélange révolutionnaire de storytelling, de design visuel et de coaching à la prise de parole. Notre intuition était correcte : nos clients ont pris conscience de la valeur des présentations à fort impact, sont devenus fidèles et nous ont recommandés à leurs amis.</p><p>Aujourd’hui, les experts en communication d’Ideas on Stage vous proposent un éventail complet de services en présentation dans le monde en anglais, français, espagnol, italien et allemand.</p>"	        
-	        image1 			= "/pictures/about/ios-map.png"
-	        description2 	= "The pSCORE method (Presentation SCORE) is our new approach to business presenting, honed over many years and proven in a wide variety of companies. pSCORE offers a complete method for the creation of top-quality presentations, starting with careful preparation (start with your audience and the context, set objectives and choose the key messages) and then applying the three arts of presenting: <br /><ul><li>Storytelling: define a clear and effective structure, and use storytelling techniques to make your key messages stick.</li><li>Visuals: forget Death By PowerPoint – instead use slides and other visual aids to communicate more effectively.</li><li>Oratory: deliver your presentation powerfully and credibly, with confidence and without stress.</li></ul>"
-	        image2 			= "/pictures/about/ios-pSCORE.png"
 	    
 			[languages.fr.about.modal]
 				name = "Name"
@@ -746,22 +732,12 @@ monthtrans = "mois.es.yaml"
 			descriptionheadline = "Ideas on Stage est le spécialiste des présentations. Nos services sont disponibles en Amérique du Nord et en Europe, en anglais, français, espagnol et italien."
 			logos = "/ios/pictures/home/logos.jpg"
 			buttonText  = "Nous contacter"
-	   
-	    #About IoS section (bottom of home page)
-	        title			= "Acerca de Ideas&nbsp;on&nbsp;Stage"
-	        subtitle		= "Méthodologie"
-	        description1 	= "<p>Ideas on Stage ayuda a líderes de todo el mundo a hacer presentaciones impactantes, a crear eventos inspiradores y a reforzar sus organizaciones mediante coaching y formación para hablar en público de la máxima calidad. En un mundo de conferencias aburridas y reuniones interminables, destacará y brillará.</p><p>Creamos Ideas on Stage en 2010, convencidos de que las presentaciones de éxito son una ventaja competitiva clave, y ofrecimos una mezcla revolucionaria de storytelling, diseño visual y acompañamiento de oradores. Nuestra intuición era correcta: nuestros clientes se dieron cuenta del valor de las presentaciones de alto impacto, continuaron volviendo a por más y se lo contaron a sus amigos.</p><p>Hoy en día, los expertos en comunicación de Ideas on Stage ofrecen una amplia gama de servicios de presentación en todo el mundo en inglés, francés, español, italiano y alemán.</p>"
-	        image1 			= "/pictures/about/ios-map.png"
-	        description2 	= "The pSCORE method (Presentation SCORE) is our new approach to business presenting, honed over many years and proven in a wide variety of companies. pSCORE offers a complete method for the creation of top-quality presentations, starting with careful preparation (start with your audience and the context, set objectives and choose the key messages) and then applying the three arts of presenting: <br /><ul><li>Storytelling: define a clear and effective structure, and use storytelling techniques to make your key messages stick.</li><li>Visuals: forget Death By PowerPoint – instead use slides and other visual aids to communicate more effectively.</li><li>Oratory: deliver your presentation powerfully and credibly, with confidence and without stress.</li></ul>"
-	        image2 			= "/pictures/about/ios-pSCORE.png"
-	    
+	   	    
 			[languages.es.about.modal]
 				name = "Name"
 				title = "Title"
 				category = "Category"
 				buttonText = "Close"
-	
-
 
 		# Offer section
 		[languages.es.services]
@@ -1031,14 +1007,6 @@ monthtrans = "moisit.yaml"
 			descriptionheadline = "Ideas on Stage è lo specialista globale nelle business presentation e nel public speaking.<br> Aiutiamo i nostri clienti in Europa, Nord America ed il resto del mondo a superare le presentazioni inefficaci e noiose che sono diventate lo standard in moltissime aziende. <br>Siamo una realtà internazionale e offriamo i nostri servizi in Inglese, Francese, Italiano e Spagnolo."
 			logos = "/ios/pictures/home/logos.jpg"
 			buttonText  = "Contattaci"
-	   
-	    #About IoS section (bottom of home page)
-	        title			= "A proposito di Ideas&nbsp;on&nbsp;Stage"
-	        subtitle		= "La nostra metodologia"
-	        description1 	= "<p>Le Business Presentation eccezionali sono un vantaggio competitivo unico per le aziende. Ma ci siamo resi conto che la maggior parte delle presentazioni non riescono neanche a suscitare il minimo interesse nell’ audience. È per questo che abbiamo creato Ideas on Stage nel 2010, per aiutare i nostri clienti a dare al proprio pubblico le migliori presentazioni al mondo.</p><p>Abbiamo capito subito che la nostra intuizione era corretta. I professionisti che usano i nostri servizi vedono immediatamente un’ enorme differenza. Si assicurano più clienti. Le loro capacità di leadership aumentano.  Presentano le proprie idee in maniera chiara e convincente.</p><p>Oggi lavoriamo con alcune delle migliori società al mondo. Le aiutiamo a cambiare. Le aiutiamo ad avere un vantaggio competitivo. Tutto grazie all’ enorme potere legato all'uso di business presentation efficaci.</p>"
-	        image1 			= "/pictures/about/ios-map.png"
-	        
-	        image2 			= "/pictures/about/ios-pSCORE.png"
 	    
 			[languages.it.about.modal]
 				name = "Nome"
