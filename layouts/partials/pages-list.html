@@ -1,0 +1,6 @@
+{{ $paginator := .Paginate (.Data.Pages) }}
+{{ range $paginator.Pages }}
+	{{ with .Params }}
+		{{ partial "insert-link-picture2-text1.html" . }}
+	{{ end }}
+{{ end }}	

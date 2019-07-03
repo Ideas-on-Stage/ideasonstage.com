@@ -1,0 +1,13 @@
+{{ "<!-- partials:about-ios -->" | safeHTML }}
+	{{ partial "aboutreferences_new.html" . }}
+
+<section id="about-ios" class="bg-white paddingt-large">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+				{{ .Content }}
+    	    </div>
+        </div>
+    </div>
+	{{ partial "inserts-top.html" . }}
+</section>

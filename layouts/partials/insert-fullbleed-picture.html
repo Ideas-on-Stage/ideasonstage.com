@@ -1,18 +1,8 @@
 {{ "<!-- partials:insert-fullbleed-picture.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="{{ .style }} paddingv0"><!-- section used for full width background -->
-<div class="container">
-<div class="row">
-<div class="col-xs-12">
-	<div class="flex-container">
-		<div class="background">
-			{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
-		</div>
-		<div class="text text-center">
-		    {{ if ne .title "" }}<h3>{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}
-		    <p>{{ with .description }}{{ .  }}{{ end }}</p>
+ <section>
+	<div class="flex-container {{ .style }}">
+		<div class="flex-item-picture-full">
+			<img src="{{ .picture }}" class="picture">
 		</div>
 	</div>
-</div>
-</div>
-</div>
 </section>

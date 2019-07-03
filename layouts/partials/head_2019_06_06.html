@@ -1,6 +1,5 @@
 {{ "<!-- partials:head.html -->" | safeHTML }}
 {{ partial "head-meta.html" }}
-{{ .Hugo.Generator }}
 {{ $scratch := newScratch }}
 {{ $scratch.Set "found" "false" }}
 {{ range .Site.Params.listpages }}

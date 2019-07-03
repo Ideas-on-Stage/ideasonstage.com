@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-    <head>
-        {{ partial "head.html" . }}
-    </head>
-    <body id="page-top">   
-        {{ partial "nav.html" . }}
-        {{ partial "hero2.html" . }}
-        {{ partial "aboutreferences_new.html" . }}
- 	    {{ partial "home/services.html" . }}
- 	    {{ partial "contact.html" . }}
- 	    {{ partial "about-ios.html" . }}
-        {{ partial "footer.html" . }}
-        {{ partial "js.html" . }}
-    </body>
-</html>
+<!-- _default:list.html is used to build _index.html pages -->
+{{ "<!-- _default:list.html -->" | safeHTML }}
+{{ partial "single-top-common.html" . }}
+	<main>
+        {{ partial "page-hero.html" . }}
+        {{ partial "events-tabs.html" . }}
+        {{ partial "content.html" . }}
+		{{ partial "pages-list.html" . }}
+    </main>
+	<aside>
+        {{ partial "references.html" . }}
+        {{ partial "testimonials_pages.html" . }}
+        {{ partial "contact.html" . }}
+    </aside>
+{{ partial "single-bottom-common.html" . }}
