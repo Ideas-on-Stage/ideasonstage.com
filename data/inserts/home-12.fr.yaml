@@ -4,7 +4,7 @@ position: bottom
 title: "Ateliers LEGO"
 layout: insert-link-half-text-picture-2.html
 style: bg-codingandbricks
-picture: home-lego-serious-play.jpg
+picture: /pictures/inserts/home-lego-serious-play.jpg
 link: /evenements-entreprise/ateliers-lego-serious-play/
 description: "Organisez des ateliers LEGO® et LEGO® Serious Play pour votre entreprise avec notre partenaire Coding & Bricks."
 button: "En savoir plus"

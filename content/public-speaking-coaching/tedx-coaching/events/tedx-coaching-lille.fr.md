@@ -6,8 +6,8 @@ weight		= 1
 categories	= [ "Coaching Prise de Parole en Public" ]
 showrefs	= false
 redirect	= false
-redirectlink = ""
-url 		= "/coaching-prise-de-parole-en-public/coaching-tedx-lille/"
+redirectlink= ""
+permalink 	= "/coaching-prise-de-parole-en-public/coaching-tedx/tedx-lille/"
 +++
 ## Coaching TEDx Lille
 Saviez-vous qu’Ideas on Stage travaille avec TEDx Lille depuis ses débuts, et sponsorise d’autres événements TEDx locaux, tels que le très bon TEDx IÉSEG Lille ? Pourquoi sommes-nous si impliqués dans le coaching d’événements TEDx sur Lille en particulier ? Parce que certains de nos coachs habitent la région des Hauts de France, tout simplement !

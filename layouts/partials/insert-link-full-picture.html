@@ -3,7 +3,7 @@
 	<div class="flex-container {{ .style }}">
 		<a href="{{ with .link }}{{ . }}{{ end }}">
 			<div class="flex-item-picture-full-height">
-				{{ if ne .picture "" }}<img src="/pictures/inserts/{{ .picture }}" class="picture">{{ end }}
+				{{ if ne .picture "" }}<img src="{{ .picture }}" class="picture">{{ end }}
 			</div>
 		</a>
 		<div class="{{ .style }}">
