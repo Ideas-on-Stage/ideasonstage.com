@@ -3,6 +3,7 @@
 {{ partial "single-top-common.html" . }}
 	<main>
         {{ partial "page-hero.html" . }}
+		{{ partial "inserts-top.html" . }}
         <div>
 			{{ $scratch := newScratch }}
 			{{ $scratch.Set "first" "true" }}
@@ -54,7 +55,7 @@
 								<h2>{{ .Site.Params.revolution.episodes }}</h2>
 							</div>
 						</div>
-					</div>					
+					</div>
 					{{ $scratch.Set "first" "false" }}
 				{{ else }}
 		            <div class="container" >
@@ -123,9 +124,9 @@
 		                </ul>
 					</div>
 				</div>
-			</div>
-			
+			</div>		
         </div><!-- content-main -->
+		{{ partial "inserts-bottom.html" . }}
 	</main>
 	<aside>
  	    {{ partial "contact.html" . }}

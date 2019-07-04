@@ -11,7 +11,7 @@ redirect	= false
 redirectlink = ""
 url 		= "/coaching-prise-de-parole-en-public/coaching-tedx/"
 
-picture		= "/pictures/public-speaking-coaching/tedx-coaching/tedx-coaching.jpg"
+picture		= "tedx-saclay.jpg"
 link			= "/coaching-prise-de-parole-en-public/coaching-tedx/"
 button		= "En savoir plus"
 
