@@ -154,6 +154,22 @@ theme        			= "hugo-creative-theme-master"
 			question2 = "I am looking for help for a presentation I have to give"
 			question3 = "I am organizing an event and would like to know how you can help"
 			question4 = "Other..."
+	
+	# ------------------------------		
+	# Subscribe to our news
+	[params.subscribe]
+        enable 		= true
+		title 		= "Subscribe to our monthly news"
+		subtitle  	= "Get the best tips on presentations every month."
+		contactemail= "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
+		contactphone= "+33 1 46 94 68 18" 
+		buttonText	= "Subscribe"
+		wait		= "Please Wait..."
+		success 	= "Thank you, you will receive our monthly news!"
+
+		[params.subscribe.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
 
 	# ------------------------------		
 	# News
@@ -344,6 +360,22 @@ theme        			= "hugo-creative-theme-master"
 			warning = "Please enter a message."
 
 	# ------------------------------		
+	# Subscribe to our news
+	[languages.fr.subscribe]
+        enable 		= true
+		title 		= "Recevez nos conseils chaque mois"
+		subtitle  	= "Inscrivez-vous pour recevoir nos conseils directement dans votre boîte aux lettres."
+		contactemail= "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
+		contactphone= "+33 1 46 94 68 18" 
+		buttonText	= "S'inscrire"
+		wait		= "Un instant..."
+		success 	= "Merci !"
+
+		[languages.fr.subscribe.form.email]
+			text = "Votre Email *"
+			warning = "Veuillez entre votre adresse email."
+
+	# ------------------------------		
 	# News
 	[languages.fr.news]
 		more = "continuer à lire"
@@ -495,6 +527,11 @@ theme        			= "hugo-creative-theme-master"
 		[languages.es.contact.form.message]
 			text = "Tu Mensaje *"
 			warning = "Por favor, escribe un mensaje."
+	
+	# ------------------------------		
+	# Subscribe to our news
+	[languages.es.subscribe]
+        enable 		= false
 
 	# ------------------------------		
 	[languages.es.news]
@@ -645,6 +682,11 @@ theme        			= "hugo-creative-theme-master"
 		[languages.it.contact.form.message]
 			text = "Il tuo messaggio *"
 			warning = "Per favore inserisci il tuo messaggio."
+
+	# ------------------------------		
+	# Subscribe to our news
+	[languages.it.subscribe]
+        enable 		= false
 
 	# ------------------------------		
 	# News

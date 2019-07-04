@@ -8,6 +8,7 @@ showrefs	= false
 redirect	= false
 redirectlink= ""
 picture		= "/pictures/public-speaking-coaching/tedx-coaching/events/tedx-tours-2019/tedx-tours-2019-1.jpg"
+url		 	= "/coaching-prise-de-parole-en-public/coaching-tedx/evenements/tedx-tours-2019/"
 +++
 
 ## Comment créer un événement TEDx inoubliable, avec Fabien Boutard, curateur de TEDx Tours
