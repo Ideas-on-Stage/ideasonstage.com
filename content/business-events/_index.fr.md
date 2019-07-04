@@ -1,12 +1,13 @@
 +++
-draft 		= false
-title 		= "Événements d'entreprise"
-description	= "Oubliez la traditionnelle réunion PowerPoint marathon, surprenez votre audience et faites bouger les lignes établies !"
-weight		= 1
-categories	= [ "Événements d'entreprise" ]
-showrefs	= false
-urlredirect	= ""
-url 		= "/evenements-entreprise/"
+draft 			= false
+title 			= "Événements d'entreprise"
+description		= "Oubliez la traditionnelle réunion PowerPoint marathon, surprenez votre audience et faites bouger les lignes établies !"
+weight			= 1
+categories		= [ "Événements d'entreprise" ]
+showrefs		= false
+showpageslist	= true
+urlredirect		= ""
+url 				= "/evenements-entreprise/"
 +++
 
 ## Événements & conférences

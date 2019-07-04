@@ -1,13 +1,15 @@
 +++
-draft 		= false
-title 		= "Agence de création de présentations"
-description	= "Impressionnez votre audience avec une présentation PowerPoint de qualité professionnelle."
-weight		= 1
-categories	= [ "Agence de Création" ]
-type		= "presentationcreationservice"
-showrefs	= false
-urlredirect	= ""
-url 		= "/agence-creation-presentations/"
+draft 			= false
+title 			= "Agence de création de présentations"
+description		= "Impressionnez votre audience avec une présentation PowerPoint de qualité professionnelle."
+weight			= 1
+categories		= [ "Agence de Création" ]
+type			= "presentationcreationservice"
+showrefs		= false
+showpageslist	= true
+url 				= "/agence-creation-presentations/"
+
+urlredirect		= ""
 gallerytitle    = ""
 gallerysubtitle = ""
 heropicture	    = "/pictures/pcs/header.jpg"

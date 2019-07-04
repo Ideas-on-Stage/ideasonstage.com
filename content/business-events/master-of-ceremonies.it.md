@@ -6,11 +6,11 @@ description = "Dai il giusto ritmo al tuo evento con un esperto Maestro di Cerim
 categories	= [ "Corporate Events" ]
 showrefs	= false
 urlredirect	= ""
-url 			= "/corporate-events/master-of-ceremonies/"
+url 			= "/eventi-corporate/master-of-ceremonies/"
 
 picture		= "/pictures/corporate-events/master-of-ceremonies/mc.jpg"
 style		= "bg-white"
-link 		= "/corporate-events/master-of-ceremonies/"
+link 		= "/eventi-corporate/master-of-ceremonies/"
 +++
 
 ## Un Maestro di Cerimonie per il tuo evento.

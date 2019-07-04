@@ -1,7 +1,49 @@
 +++
+uuid		= "2046405E-6EA2-4D37-AF73-03CB071E1BFF"
 draft 		= false
-title 		= "Création de Présentations | Événements d'Entreprise | Coaching et Formation à la Prise de Parole"
-description	= "Whether you are a leader in a major corporation or running your own business, speak like the leader everyone wants to follow."
+title 		= "Agencia de Presentaciones | Entrenamiento y formación para hablar en público"
+description	= "Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
+
+[services]
+	title	= "NUESTROS SERVICIOS"	
+	[services.list]	
+		[services.list.001]
+			category	= "Presentation Creation Agency"
+			title		= "Agencia de Presentaciones"
+			description	= "Una gran historia. Las mejores slides"
+			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
+			style		= "bg-black"
+			layout		= "insert-link-full-picture.html"
+			link			= "/presentation-creation-agency/"
+			button		= "Saber más"
+		[services.list.002]
+			category	= "Public Speaking Coaching"
+			title		= "Public Speaking"
+			description	= "Muestra tu mejor versión sobre el escenario."
+			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
+			style		= "bg-black"
+			layout		= "insert-link-full-picture.html"
+			link			= "/public-speaking-coaching/"
+			button		= "Saber más"
+		[services.list.003]
+			category	= "Corporate Events"
+			title		= "Eventos Corporativos"
+			description	= "Rompe con la rutina. Sorprende a tus invitados."
+			picture		= "/pictures/inserts/home-corporate-events.jpg"
+			style		= "bg-dark"
+			color		= "#82130F"
+			layout		= "insert-link-half-text-picture-1.html"
+			link			= "/eventos-corporativos/"
+			button		= "Saber más"
+		[services.list.004]
+			category	= "training-workshops"
+			title		= "Formación"
+			description	= "Cambia la cultura de las presentaciones en tu organización."
+			picture		= "/pictures/inserts/home-training.jpg"
+			style		= "bg-lightgrey"
+			layout		= "insert-link-half-text-picture-2.html"
+			link			= "/formacion-presentaciones/"
+			button		= "Saber más"
 +++
 
 ## Acerca de Ideas on Stage

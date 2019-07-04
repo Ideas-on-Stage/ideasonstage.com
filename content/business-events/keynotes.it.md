@@ -6,11 +6,11 @@ description = "I nostri speaker sorprenderanno la vostra audience con delle TED-
 categories	= [ "Corporate Events" ]
 showrefs	= true
 urlredirect	= ""
-url 			= "/corporate-events/keynotes/"
+url 			= "/eventi-corporate/keynotes/"
 
 picture		= "/pictures/corporate-events/keynotes/keynotes.jpg"
 style		= "bg-white"
-link 		= "/corporate-events/keynotes/"
+link 		= "/eventi-corporate/keynotes/"
 
 +++
 

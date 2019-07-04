@@ -1,7 +1,7 @@
 {{ "<!-- partials:content.html -->" | safeHTML }}
     {{ partial "inserts-top.html" . }}
     <section id="content-main">
-	    <div class="container margint-huge marginb-huge">
+	    <div class="container margint-huge marginb-medium">
 	        <div class="row">        
 	        	<div class="col-xs-12 col-sm-10 col-sm-offset-1">
 					{{ with .Content }}{{ . | markdownify }}{{ end }}	

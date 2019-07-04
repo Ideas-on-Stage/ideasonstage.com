@@ -5,6 +5,7 @@ description	= "Whether you are a leader in a major corporation or running your o
 weight		= 2
 categories	= [ "Public Speaking Coaching" ]
 showrefs	= false
+showpageslist = true
 urlredirect	= ""
 url 		= "/public-speaking-coaching/"
 +++

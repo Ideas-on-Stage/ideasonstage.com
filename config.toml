@@ -4,337 +4,218 @@ paginate				= 5
 paginatePath			= "newspage"
 canonifyurls				= false
 
-title        	= "Presentation Creation | Public Speaking Coaching and Training | Ideas on Stage"
-name         	= "Ideas on Stage"
-copyright		= "© Ideas on Stage"
-theme        	= "hugo-creative-theme-master"
+name         			= "Ideas on Stage"
+copyright				= "© Ideas on Stage"
+theme        			= "hugo-creative-theme-master"
 
 [Permalinks]
     news = "/news/:year/:month/:day/:filename/"
 
-	# Taxonomies
-	[taxonomies]
-		category 		= "categories"
-		tag				= "tags"
-
-	[params]
-		author			= "Ideas on Stage"
-		email 			= "info@ideasonstage.com"
-		year			= "2019"
-		cookieslink		= "cookies/"
-		favicon			= "/pictures/home/ios_favicon.ico"
-		headerteam		= "/pictures/team/image.png"
-		headereventan	= "/pictures/corporate-events/event-animation/image.png"
-		back			= "Back"
-		description		= "International agency specialized in Presentation Creation, Business Events and Public Speaking Coaching and Training. We cover North America and Europe."
-		
-		# Id for Incognito form in Presentation Creation Service
-		pcsform 		= "TeiR-77um0q9kFm49EqvwQ"
-		
-		#News
-		activenews 		= true
-		viewMorePostLink= "/news/"
-		
-		# Enable / Disable algolia search
-  		algolia_search    = false
-  		algolia_appId     = "GMTISKBCI2"
- 		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
-  		algolia_indexName = "IoS_en"
-		# Navigation
-		[params.navigation]
-			title		= "Navigation"
-			brand 		= "Ideas on Stage"
-			brand_logo	= "/pictures/home/ideas-on-stage.png"
-			language	= "Language"
-			forward		= "View"
-			back		= "Back to Home"
-
-			[params.navigation.items]
-				
-				[params.navigation.items.001]
-					name		 	= "Services"
-					url			 	= "/#services"
-					frontpageurl 	= "#services"
-				[params.navigation.items.002]
-					name			= "Videos"
-					url				= "/revolution/"
-					frontpageurl	= "/revolution/"
-				[params.navigation.items.003]
-					name			= "Stories"
-					url				= "/news/"
-					frontpageurl	= "/news/"
-				[params.navigation.items.004]
-					name			= "Contact"
-					url				= "#contact"
-					frontpageurl	= "#contact"
-				[params.navigation.items.005]
-					name			= "Team"
-					url				= "/team/"
-					frontpageurl	= "/team/"
-	
-			[params.navigation.languages]
-					
-				[params.navigation.languages.001]
-					name	= "Français"
-					url		= "https://www.ideasonstage.fr"
-				[params.navigation.languages.002]
-					name	= "Español"
-					url		= "https://www.ideasonstage.es"
-				[params.navigation.languages.004]
-					name	= "Italiano"
-					url		= "https://www.ideasonstage.it"
-
-	
-		# Hero section - Header picture + Tagline + Countries Menu
-		[params.hero]
-				picture	    = "/pictures/home/header.jpg"
-				slogan      = "Win"
-				subtitle_on = true
-				subtitle    = "Win the game of business presentations<br />Win more deals and more customers<br />Be the presenter people remember"
-				button_on   = false
-				buttonText  = "Discover how we can help you"
-				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
-	
-		[params.hero.countries]
-				us	= "USA"
-				fr	= "France"
-				es	= "España"
-				de	= "Deutschland"
-	
-		[params.references]
-			title = "References"
-
-		[params.insertstop]
-			title = "Highlights"
-		
-		[params.insertsbottom]
-			title = "Additional information"
-			
-		[params.testimonials]
-    		enable = true
-   			 # All testimonials are defined in their own files. You can find testimonials 
-   			 # at '/data/testimonials'.
-    		
-    		title = "Testimonials"
-    		subtitle = "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
-
-		# About section
-		[params.about]
-			headline    = "Ideas on Stage"
-			description = "At Ideas on Stage we are specialized in Public Presentations. If you want to deliver a memorable presentation, win more sales or simply become better at presenting, we're here to help."
-			descriptionheadline = "Ideas on Stage is the global specialist in business presentations and public speaking.<br> We help our customers across Europe, North America and the World to move beyond the boring, ineffective presentations that have become the norm in most companies.<br>As a truly international company, we offer our services in English, French, Spanish and German."
-			logos = "/ios/pictures/home/logos.jpg"
-			buttonText  = "Contact us"
-	   
-	    #About IoS section → text moved to /content/_index.en.md
-	    
-			[params.about.modal]
-				name = "Name"
-				title = "Title"
-				category = "Category"
-				buttonText = "Close"
-	
-		# Offer section
-		[params.services]
-			title	= "Our Services"
-			
-		[params.offer]	
-			[params.offer.001]
-				category	= "Presentation Creation Agency"
-				title		= "Presentation Creation"
-				description	= "The core of Ideas on Stage’s mission is to help leaders to communicate effectively. We help you define your messages and strategy, then we write the story, create the slides and coach you."
-				picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
-				style		= "bg-black"
-				layout		= "insert-link-full-picture.html"
-				link		= "/presentation-creation-agency/"
-				button		= "Learn more"
-			[params.offer.002]
-				category	= "Public Speaking Coaching"
-				title		= "Public Speaking Coaching"
-				description	= "We offer coaching for public speaking, media training, stage presence and delivery. Our international team can coach you in English, French, Spanish, German and Italian, in Europe and America."
-				picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
-				style		= "bg-black"
-				layout		= "insert-link-full-picture.html"
-				link		= "/public-speaking-coaching/"
-				button		= "Learn more"
-			[params.offer.003]
-				category	= "Business Events"
-				title		= "Business Events"
-				description	= "Organize dynamic and unforgettable events. We work with you to develop agendas and prepare speakers that make a lasting impact."
-				picture		= "/pictures/inserts/home-corporate-events.jpg"
-				style		= "bg-dark"
-				color		= "#82130F"
-				layout		= "insert-link-half-text-picture-1.html"
-				link		= "/business-events/"
-				button		= "Learn more"
-			[params.offer.004]
-				category	= "Training Workshops"
-				title		= "Training & Workshops"
-				description	= "Discover our complete range of presentation training programs, from The Business Presentation Revolution to Women on Stage."
-				picture		= "/pictures/inserts/home-training.jpg"
-				style		= "bg-lightgrey"
-				layout		= "insert-link-half-text-picture-2.html"
-				link		= "/training-and-workshops/"
-				button		= "Learn more"
-				
-		# Presentation Training Tabs (top tabs with dates in the Training page)
-		# buttondate if true show date in button name
-		# buttonplace if true show location in button name
-		[params.events_tabs]
-			language	= "Language: "
-			date		= "Date: "
-			location	= "Location: "
-			address		= "Address: "
-			duration	= "Duration: "
-			time_start	= "Start Time: "
-			time_end	= "End Time: "
-			trainer		= "Trainer: "				
-			buttonText	= "Register Now "
-			buttondate	= true
-			buttonplace	= false	
-			price		= "Price: "		
-	
-		# Contact section
-		[params.contact]
-	        enable = true
-			title = "Contact us"
-			subtitle  = "Any questions? Use the form below and we'll get back to you shortly"
-			contactemail = "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
-			contactphone = "+33 1 46 94 68 18" 
-			buttonText = "Send message"
-			wait	= "Please Wait..."
-			success = "Thank you, we'll get back to you shortly."
-			
-			# 'warning' defines error messages for invalid inputs
-			[params.contact.form.name]
-				text = "Your Name *"
-				warning = "Please enter your name."
-	
-			[params.contact.form.email]
-				text = "Your Email *"
-				warning = "Please enter your email address."
-	
-			[params.contact.form.phone]
-				text = "Your Phone (optional)"
-				warning = "Please enter your phone number."
-	
-			[params.contact.form.message]
-				text = "Your Message *"
-				warning = "Please enter a message."
-	
-			[params.contact.form.questions]
-				question1 = "I have a question about one of your trainings"
-				question2 = "I am looking for help for a presentation I have to give"
-				question3 = "I am organizing an event and would like to know how you can help"
-				question4 = "Other..."
-	
-		# Aside section
-		[params.asidefree]
-			headline = "Is your TEDx event eligible for free Coaching?"
-			description = "Each year Ideas on Stage sponsors a few TEDx events around the Globe. If you truly believe you can change the world and your event meets the criteria you can apply for our TEDx Sponsorship Speakers Coaching. Corporate events are not eligible."
-			[params.asidefree.button]
-				text = "Apply for TEDx Sponsorship"
-				link = ""
-	
-		[params.modal]
-			client		= "Client"
-			close 		= "Close"
-			date		= "Date"
-			category	= "Category"
-						
-	    # Portfolio modals
-		[params.portfolio.modal]
-	        client = "Client"
-	        date = "Date"
-	        category = "Category"
-	
-	    # Team
-	    [params.team_members]
-	    	headline = "Team"
-	    	
-			[params.team_members.modal]
-		        name = "Name"
-		        title = "Title"
-		        category = "Category"
-	
-	
-		# Aside section
-		[params.aside]
-			headline = "You still haven't found what you're looking for?"
-			description = "You didn't find what you were looking for? Don't waste your time searching for it, simply request it directly from us with the the form below."
-			[params.aside.button]
-				text = "Submit question"
-				link = ""
-
-		# News
-		# Define the number of posts/news items per page
-		
-		[params.listpages]
-		
-			[params.listpages.001]
-				url			= "/news/"
-				title		= "Stories"
-				description	= "What's happening at Ideas on Stage? Get the latest news and tips here."
-			
-			[params.listpages.002]
-				url			= "/revolution/"
-				title 		= "The Business Presentation Revolution"
-			    description	= "A video podcast about speaking and presenting in public, available on YouTube and iTunes."
-			    
-			[params.listpages.003]
-				url			= "/team/"
-				title		= "Team"
-				description = "We have assembled a multidisciplinary group of Presentation Experts from all around the world. Our backgrounds range from former business consultants to trained actors."
-			    
-		[params.news]
-			more		= "Continue reading"
-			by	 		= "by"
-			back 		= "Back to Stories"
-			title 		= "Stories"
-			next  		= "OLDER"
-			prev  		= "NEWER"
-
-		[params.revolution]
-			more		= "Watch Episode"
-		    episodes	= "Previous episodes"
-
-		# Enable and disable widgets for the right sidebar
-		[params.widgets]
-		    categories = false
-		    tags = false
-		    search = true
+[taxonomies]
+	category 		= "categories"
+	tag				= "tags"
     
 [outputs]
 	home = [ "HTML", "JSON" ]
 	page = [ "HTML" ]
 
+[params]
+	author			= "Ideas on Stage"
+	email 			= "info@ideasonstage.com"
+	year			= "2019"
+	cookieslink		= "cookies/"
+	favicon			= "/pictures/home/ios_favicon.ico"
+	headerteam		= "/pictures/team/image.png"
+	headereventan	= "/pictures/corporate-events/event-animation/image.png"
+	back			= "Back"
+	
+	# Id for Incognito form in Presentation Creation Service
+	pcsform 		= "TeiR-77um0q9kFm49EqvwQ"
+	
+	#News
+	activenews 		= true
+	viewMorePostLink= "/news/"
+	
+	# Enable / Disable algolia search
+		algolia_search    = false
+		algolia_appId     = "GMTISKBCI2"
+		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
+		algolia_indexName = "IoS_en"
+
+	# Navigation
+	[params.navigation]
+		title		= "Navigation"
+		brand 		= "Ideas on Stage"
+		brand_logo	= "/pictures/home/ideas-on-stage.png"
+		language	= "Language"
+		forward		= "View"
+		back		= "Back to Home"
+
+		[params.navigation.items]
+			
+			[params.navigation.items.001]
+				name		 	= "Services"
+				url			 	= "/#services"
+				frontpageurl 	= "#services"
+			[params.navigation.items.002]
+				name			= "Videos"
+				url				= "/revolution/"
+				frontpageurl	= "/revolution/"
+			[params.navigation.items.003]
+				name			= "Stories"
+				url				= "/news/"
+				frontpageurl	= "/news/"
+			[params.navigation.items.004]
+				name			= "Contact"
+				url				= "#contact"
+				frontpageurl	= "#contact"
+			[params.navigation.items.005]
+				name			= "Team"
+				url				= "/team/"
+				frontpageurl	= "/team/"
+
+		[params.navigation.languages]
+				
+			[params.navigation.languages.001]
+				name	= "Français"
+				url		= "https://www.ideasonstage.fr"
+			[params.navigation.languages.002]
+				name	= "Español"
+				url		= "https://www.ideasonstage.es"
+			[params.navigation.languages.004]
+				name	= "Italiano"
+				url		= "https://www.ideasonstage.it"
+	
+	[params.references]
+		title = "References"
+
+	[params.insertstop]
+		title = "Highlights"
+	
+	[params.insertsbottom]
+		title = "Additional information"
+		
+	[params.testimonials]
+		# All testimonials are defined in their own files. You can find testimonials 
+		# at '/data/testimonials'.
+		enable 		= true
+		title 		= "Testimonials"
+		subtitle		= "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
+
+	[params.events_tabs]
+		# Presentation Training Tabs (top tabs with dates in the Training page)
+		# buttondate if true show date in button name
+		# buttonplace if true show location in button name
+		language		= "Language: "
+		date		= "Date: "
+		location		= "Location: "
+		address		= "Address: "
+		duration	= "Duration: "
+		time_start	= "Start Time: "
+		time_end	= "End Time: "
+		trainer		= "Trainer: "				
+		buttonText	= "Register Now "
+		buttondate	= true
+		buttonplace	= false	
+		price		= "Price: "		
+	
+	[params.contact]
+        enable 		= true
+		title 		= "Contact us"
+		subtitle  	= "Any questions? Use the form below and we'll get back to you shortly"
+		contactemail= "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
+		contactphone= "+33 1 46 94 68 18" 
+		buttonText	= "Send message"
+		wait		= "Please Wait..."
+		success 	= "Thank you, we'll get back to you shortly."
+		
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone (optional)"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+		[params.contact.form.questions]
+			question1 = "I have a question about one of your trainings"
+			question2 = "I am looking for help for a presentation I have to give"
+			question3 = "I am organizing an event and would like to know how you can help"
+			question4 = "Other..."
+
+	# News
+	# Define the number of posts/news items per page		
+	[params.listpages]
+	
+		[params.listpages.001]
+			url			= "/news/"
+			title		= "Stories"
+			description	= "What's happening at Ideas on Stage? Get the latest news and tips here."
+		
+		[params.listpages.002]
+			url			= "/revolution/"
+			title 		= "The Business Presentation Revolution"
+		    description	= "A video podcast about speaking and presenting in public, available on YouTube and iTunes."
+		    
+		[params.listpages.003]
+			url			= "/team/"
+			title		= "Team"
+			description = "We have assembled a multidisciplinary group of Presentation Experts from all around the world. Our backgrounds range from former business consultants to trained actors."
+		    
+	[params.news]
+		more		= "Continue reading"
+		by	 		= "by"
+		back 		= "Back to Stories"
+		title 		= "Stories"
+		next  		= "OLDER"
+		prev  		= "NEWER"
+
+	[params.revolution]
+		more		= "Watch Episode"
+	    episodes	= "Previous episodes"
+
+	# Enable and disable widgets for the right sidebar
+	[params.widgets]
+	    categories = false
+	    tags = false
+	    search = true
+
 
 
 ################################
+# LANGUAGES
+################################
 
 [languages]
-
-
 
 ################################
 # ENGLISH
 ################################
 
 [languages.en]
-baseURL			= "https://www.ideasonstage.com/"
-languageName		= "English"
-languageCode 	= "en"
-weight			= "1"
-googleAnalytics = "UA-30695118-1"
-rights			= "All Rights Reserved"
-cookies			= "We fully respect your privacy. We don't use cookies or scripts to track you."
-footer_desc		= "Ideas on Stage is the global specialist in business presentations. We offer our services in North America and Europe, in English, French, Spanish and Italian."
-
-#form id for Incognito form
-pcsformid = "2"
-
-#News
-activenews = true
+	baseURL			= "https://www.ideasonstage.com/"
+	languageName		= "English"
+	languageCode 	= "en"
+	weight			= "1"
+	googleAnalytics = "UA-30695118-1"
+	rights			= "All Rights Reserved"
+	cookies			= "We fully respect your privacy. We don't use cookies or scripts to track you."
+	footer_desc		= "Ideas on Stage is the global specialist in business presentations. We offer our services in North America and Europe, in English, French, Spanish and Italian."
+	
+	#form id for Incognito form
+	pcsformid = "2"
+	
+	#News
+	activenews = true
 		
 
 
@@ -344,11 +225,9 @@ activenews = true
 
 [languages.fr]
 	baseURL			= "https://www.ideasonstage.fr/"
-	languageName	= "Francais"
+	languageName		= "Francais"
 	languageCode 	= "fr"
 	weight 			= "2"
-	title			= "Création de présentations | Coaching formation prise de parole en public | Ideas on Stage"
-	description  	= "Agence internationale spécialisée dans la création de présentations, la formation et le coaching en prise de parole en public et les événements d'entreprise. Nous sommes présents aux États-Unis et en Europe."
 	googleAnalytics = "UA-30695118-2"
 	rights			= "Tous droits réservés"
 	cookies			= "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
@@ -375,7 +254,7 @@ activenews = true
 		title		= "Navigation"
 		brand 		= "Ideas on Stage"
 		brand_logo	= "/pictures/home/ideas-on-stage.png"
-		language	= "Langue"
+		language		= "Langue"
 		back		= "Page d'accueil"
 	
 		[languages.fr.navigation.items]
@@ -413,22 +292,6 @@ activenews = true
 				name	= "Italiano"
 				url		= "https://www.ideasonstage.it"	
 	
-		# Hero section - Header picture + Tagline + Countries Menu
-		[languages.fr.hero]
-				picture	    = "/pictures/home/header.jpg"
-				slogan      = "Gagnez"
-				subtitle_on = true
-				subtitle    = "Gagnez le jeu des présentations en entreprise<br />Gagnez plus de contrats<br />Gagnez plus de clients<br />Laissez votre empreinte"
-				button_on   = false
-				buttonText  = "Découvrez nos services"
-				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
-	
-		[languages.fr.hero.countries]
-				us	= "USA"
-				fr	= "France"
-				es	= "España"
-				de	= "Deutschland"
-	
 		[languages.fr.references]
 			title = "Références"
 
@@ -445,65 +308,7 @@ activenews = true
     		
     		title = "Témoignages"
     		subtitle = "Nous avons travaillé avec de nombreux clients ; voici quelques exemples de ce que nos clients disent de nous."
-
-		# About section
-		[languages.fr.about]
-			headline    = "Ideas on Stage"
-			description = "Ideas on Stage est le spécialiste des présentations. Nous sommes là pour vous aider à réaliser une présentation mémorable, gagner plus de ventes ou simplement devenir un meilleur présentateur."
-			descriptionheadline = "Ideas on Stage est le spécialiste des présentations. Nos services sont disponibles en Amérique du Nord et en Europe, en anglais, français, espagnol et italien."
-			logos = "/ios/pictures/home/logos.jpg"
-			buttonText  = "Nous contacter"
-	    
-			[languages.fr.about.modal]
-				name = "Name"
-				title = "Title"
-				category = "Category"
-				buttonText = "Close"
-				
-		# Offer section
-		[languages.fr.services]
-			title	= "Nos Services"
-			
-		[languages.fr.offer]	
-			[languages.fr.offer.001]
-				category	= "presentation-creation-agency"
-				title		= "Création de présentations"
-				description	= "Le cœur de mission d'Ideas on Stage est d'aider les dirigeants à communiquer efficacement. Nous vous aidons à définir vos messages et votre stratégie, puis nous écrivons l'histoire, préparons les slides et vous préparons à prendre la parole en public."
-				picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
-				style		= "bg-black"
-				layout		= "insert-link-full-picture.html"
-				link		= "/agence-creation-presentations/"
-				button		= "En savoir plus"
-			[languages.fr.offer.002]
-				category	= "public-speaking-coaching"
-				title		= "Coaching prise de parole en public"
-				description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène. Notre équipe internationale peut vous coacher en anglais, français, espagnol, allemand et italien, en Europe et en Amérique."
-				picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
-				style		= "bg-black"
-				layout		= "insert-link-full-picture.html"
-				link		= "/coaching-prise-de-parole-en-public/"
-				button		= "En savoir plus"
-			[languages.fr.offer.003]
-				category	= "corporate-events"
-				title		= "Événements d'entreprise"
-				description	= "Organisez des événements dynamiques et inoubliables. Nous travaillons avec vous pour développer le programme et préparer les intervenants."
-				picture		= "/pictures/inserts/home-corporate-events.jpg"
-				style		= "bg-dark"
-				color		= "#82130F"
-				layout		= "insert-link-half-text-picture-1.html"
-				link		= "/evenements-entreprise/"
-				button		= "En savoir plus"
-			[languages.fr.offer.004]
-				category	= "Training Workshops"
-				title		= "Formations et ateliers"
-				description	= "Découvrez nos formations à l'art de présenter, de&nbsp;«&nbsp;The&nbsp;Business&nbsp;Presentation&nbsp;Revolution&nbsp;» à&nbsp;«&nbsp;Women&nbsp;on&nbsp;Stage&nbsp;»."
-				picture		= "/pictures/inserts/home-training.jpg"
-				style		= "bg-lightgrey"
-				layout		= "insert-link-half-text-picture-2.html"
-				link		= "/formations-ateliers/art-de-presenter/"
-				button		= "En savoir plus"
-		
-		
+    				
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
 		# buttonplace if true show location in button name
@@ -548,43 +353,6 @@ activenews = true
 			[languages.fr.contact.form.message]
 				text = "Your Message *"
 				warning = "Please enter a message."
-		
-		# Aside section
-		[languages.fr.asidefree]
-			headline = "Is your TEDx event eligible for free Coaching?"
-			description = "Each year Ideas on Stage sponsors a few TEDx events around the Globe. If you truly believe you can change the world and your event meets the criteria you can apply for our TEDx Sponsorship Speakers Coaching. Corporate events are not eligible."
-			[languages.fr.asidefree.button]
-				text = "Apply for TEDx Sponsorship"
-				link = ""
-	
-		[languages.fr.modal]
-			client		= "Client"
-			close 		= "Close"
-			date		= "Date"
-			category	= "Category"
-			
-	    # Portfolio modals
-		[languages.fr.portfolio.modal]
-	        client = "Client"
-	        date = "Date"
-	        category = "Category"
-	
-	    # Team
-	    [languages.fr.team_members]
-	    	headline = "Team"
-	    	
-			[languages.fr.team_members.modal]
-		        name = "Name"
-		        title = "Title"
-		        category = "Category"
-	
-		# Aside section
-		[languages.fr.aside]
-			headline = "You still haven't found what you're looking for?"
-			description = "You didn't find what you were looking for? Don't waste your time searching for it, simply request it directly from us with the the form below."
-			[languages.fr.aside.button]
-				text = "Submit question"
-				link = ""
 
 		[languages.fr.listpages]
 		
@@ -625,41 +393,37 @@ activenews = true
 # SPANISH
 ##################
 [languages.es]
-baseURL = "https://www.ideasonstage.es/"
-languageName = "Español"
-languageCode 	= "es"
-weight = "3"
-title        	= "Agencia de Presentaciones | Entrenamiento y formación para hablar en público | Ideas on Stage"
-description  	= "Especialistas en Presentaciones de Negocios"
-googleAnalytics = "UA-30695118-3"
-rights			= "Todos los derechos reservados"
-cookies			= "No usamos cookies."
-footer_desc		= "Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
-favicon			= "pictures/home/ios_favicon.ico"
-back			= "Atrás"
-		
-#form id for Incognito form
-pcsform = "ey1NdOq0XU6iS7d67aNhQQ"
-pcsformid = "1"
+	baseURL			= "https://www.ideasonstage.es/"
+	languageName		= "Español"
+	languageCode 	= "es"
+	weight 			= "3"
+	googleAnalytics = "UA-30695118-3"
+	rights			= "Todos los derechos reservados"
+	cookies			= "No usamos cookies."
+	footer_desc		= "Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
+	favicon			= "pictures/home/ios_favicon.ico"
+	back			= "Atrás"
+			
+	#form id for Incognito form
+	pcsform = "ey1NdOq0XU6iS7d67aNhQQ"
+	pcsformid = "1"
+	
+	#News
+	activenews		= false
+	monthtrans		= "mois.es.yaml"
 
-#News
-activenews = false
-monthtrans = "mois.es.yaml"
-
-# Enable / Disable algolia search
-  		algolia_search    = false
-  		algolia_appId     = "GMTISKBCI2"
- 		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
-  		algolia_indexName = "IoS_es"
-
-
+	# Enable / Disable algolia search
+  	algolia_search    = false
+  	algolia_appId     = "GMTISKBCI2"
+ 	algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
+  	algolia_indexName = "IoS_es"
 
 	# Navigation
 	[languages.es.navigation]
 		title		= "Navigation"
 		brand		= "Ideas on Stage"
 		brand_logo	= "/pictures/home/ideas-on-stage.png"
-		language	= "Idioma"
+		language		= "Idioma"
 		back		= "Ir a Inicio"
 
 		[languages.es.navigation.items]
@@ -692,21 +456,6 @@ monthtrans = "mois.es.yaml"
 			[languages.es.navigation.languages.003]
 				name	= "Italiano"
 				url		= "https://www.ideasonstage.it"
-			
-		# Hero section - Header picture + Tagline + Countries Menu
-		[languages.es.hero]
-				slogan      = "Triunfa"
-				subtitle_on = true
-				subtitle    = "Supera el desafío de las presentaciones de negocios<br>Consigue más ventas y más clientes<br>Conviértete en un orador inolvidable"
-				button_on   = false
-				buttonText  = "Descubre cómo podemos ayudarte"
-				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
-	
-		[languages.es.hero.countries]
-				us	= "USA"
-				fr	= "France"
-				es	= "España"
-				de	= "Deutschland"
 	
 		[languages.es.references]
 			title = "References"
@@ -724,59 +473,6 @@ monthtrans = "mois.es.yaml"
     		
     		title = "Testimonios"
     		subtitle = "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
-
-		# About section
-		[languages.es.about]
-			headline    = "Ideas on Stage"
-			description = "Ideas on Stage est le spécialiste des présentations. Nous sommes là pour vous aider à réaliser une présentation mémorable, gagner plus de ventes ou simplement devenir un meilleur présentateur."
-			descriptionheadline = "Ideas on Stage est le spécialiste des présentations. Nos services sont disponibles en Amérique du Nord et en Europe, en anglais, français, espagnol et italien."
-			logos = "/ios/pictures/home/logos.jpg"
-			buttonText  = "Nous contacter"
-	   	    
-			[languages.es.about.modal]
-				name = "Name"
-				title = "Title"
-				category = "Category"
-				buttonText = "Close"
-
-		# Offer section
-		[languages.es.services]
-			title	= "NUESTROS SERVICIOS"
-			
-		[languages.es.offer]	
-			[languages.es.offer.001]
-				category	= "Presentation Creation Agency"
-				title		= "Agencia de Presentaciones"
-				description	= "Una gran historia. Las mejores slides"
-				picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
-				style		= "bg-black"
-				layout		= "insert-link-full-picture.html"
-				link		= "/presentation-creation-agency/"
-			[languages.es.offer.002]
-				category	= "Public Speaking Coaching"
-				title		= "Public Speaking"
-				description	= "Muestra tu mejor versión sobre el escenario."
-				picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
-				style		= "bg-black"
-				layout		= "insert-link-full-picture.html"
-				link		= "/public-speaking-coaching/"
-			[languages.es.offer.003]
-				category	= "Corporate Events"
-				title		= "Eventos Corporativos"
-				description	= "Rompe con la rutina. Sorprende a tus invitados."
-				picture		= "/pictures/inserts/home-corporate-events.jpg"
-				style		= "bg-dark"
-				color		= "#82130F"
-				layout		= "insert-link-half-text-picture-1.html"
-				link		= "/eventos-corporativos/"
-			[languages.es.offer.004]
-				category	= "training-workshops"
-				title		= "Formación"
-				description	= "Cambia la cultura de las presentaciones en tu organización."
-				picture		= "/pictures/inserts/home-training.jpg"
-				style		= "bg-lightgrey"
-				layout		= "insert-link-half-text-picture-2.html"
-				link		= "/formacion-presentaciones/"
 				
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
@@ -824,50 +520,6 @@ monthtrans = "mois.es.yaml"
 			[languages.es.contact.form.message]
 				text = "Tu Mensaje *"
 				warning = "Por favor, escribe un mensaje."
-	
-	
-	
-	
-		# Aside section
-		[languages.es.asidefree]
-			headline = "Is your TEDx event eligible for free Coaching?"
-			description = "Each year Ideas on Stage sponsors a few TEDx events around the Globe. If you truly believe you can change the world and your event meets the criteria you can apply for our TEDx Sponsorship Speakers Coaching. Corporate events are not eligible."
-			[languages.es.asidefree.button]
-				text = "Apply for TEDx Sponsorship"
-				link = ""
-	
-	
-		[languages.es.modal]
-			client		= "Cliente"
-			close 		= "Cerrar"
-			date		= "Fecha"
-			category	= "Categoría"
-			
-	    # Portfolio modals
-		[languages.es.portfolio.modal]
-	        client = "Cliente"
-	        date = "Fecha"
-	        category = "Categoría"
-	
-	
-	
-	    # Team
-	    [languages.es.team_members]
-	    	headline = "Equipo"
-	    	
-			[languages.es.team_members.modal]
-		        name = "Nombre"
-		        title = "Puesto"
-		        category = "Categoría"
-	
-	
-		# Aside section
-		[languages.es.aside]
-			headline = "You still haven't found what you're looking for?"
-			description = "You didn't find what you were looking for? Don't waste your time searching for it, simply request it directly from us with the the form below."
-			[languages.es.aside.button]
-				text = "Submit question"
-				link = ""
 		
 		[languages.es.listpages]
 		
@@ -909,12 +561,10 @@ monthtrans = "mois.es.yaml"
 # ITALIAN
 ##################
 [languages.it]
-baseURL = "https://www.ideasonstage.it/"
-languageName = "Italiano"
+baseURL 		= "https://www.ideasonstage.it/"
+languageName 	= "Italiano"
 languageCode 	= "it"
-weight = "4"
-title        	= "Ideas on Stage | Regala delle Presentazioni Incredibili"
-description  	= "Regala delle Presentazioni incredibili con gli Specialisti della Business Presentation"
+weight 			= "4"
 googleAnalytics = "UA-30695118-4"
 rights			= "Tutti i diritti riservati"
 cookies			= "Questo sito web utilizza i cookie."
@@ -934,18 +584,15 @@ monthtrans = "moisit.yaml"
  		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
   		algolia_indexName = "IoS_it"
 
-
-
-# Navigation
-[languages.it.navigation]
-	title		= "Navigation"
-	brand		= "Ideas on Stage"
-	brand_logo	= "/pictures/home/ideas-on-stage.png"
-	language	= "Lingue"
-	back		= "Back to Home"
+	# Navigation
+	[languages.it.navigation]
+		title		= "Navigation"
+		brand		= "Ideas on Stage"
+		brand_logo	= "/pictures/home/ideas-on-stage.png"
+		language	= "Lingue"
+		back		= "Back to Home"
 
 		[languages.it.navigation.items]
-			
 			[languages.it.navigation.items.001]
 				name			= "Servizi"
 				url				= "/#services"
@@ -959,8 +606,7 @@ monthtrans = "moisit.yaml"
 				url				= "/team/"
 				frontpageurl 	= "/team/"
 
-		[languages.it.navigation.languages]
-				
+		[languages.it.navigation.languages]		
 			[languages.it.navigation.languages.001]
 				name	= "Français"
 				url		= "https://www.ideasonstage.fr"
@@ -973,15 +619,6 @@ monthtrans = "moisit.yaml"
 			[languages.it.navigation.languages.004]
 				name	= "Italiano"
 				url		= "https://www.ideasonstage.it"
-				
-		# Hero section - Header picture + Tagline + Countries Menu
-		[languages.it.hero]
-				slogan      = "Vinci"
-				subtitle_on = true
-				subtitle    = "Conquista il tuo pubblico con delle magnifiche business presentation<br>Incrementa i tuoi affari e assicurati nuovi clienti<br>Diventa il presentatore che tutti ricorderanno"
-				button_on   = false
-				buttonText  = "Scopri come possiamo aiutarti"
-				ios_logo	= "/pictures/home/ideas-on-stage-full.png"
 	
 		[languages.it.references]
 			title = "References"
@@ -999,62 +636,8 @@ monthtrans = "moisit.yaml"
     		
     		title = "Testimonianze"
     		subtitle = "Abbiamo lavorato con moltissimi clienti nel corso degli anni e ci piace sapere quali siano le loro opinioni dopo ciascuna collaborazione. A seguire un esempio di quello che i nostri clienti dicono di noi."
-
-		# About section
-		[languages.it.about]
-			headline    = "Ideas on Stage"
-			description = "Ad Ideas on Stage siamo specializzati in Presentazioni Pubbliche. Se volete creare delle presentazioni memorabili, migliorare le vostre vendite o semplicemente migliorare nell’arte della presentazione, siamo qui per aiutarvi."
-			descriptionheadline = "Ideas on Stage è lo specialista globale nelle business presentation e nel public speaking.<br> Aiutiamo i nostri clienti in Europa, Nord America ed il resto del mondo a superare le presentazioni inefficaci e noiose che sono diventate lo standard in moltissime aziende. <br>Siamo una realtà internazionale e offriamo i nostri servizi in Inglese, Francese, Italiano e Spagnolo."
-			logos = "/ios/pictures/home/logos.jpg"
-			buttonText  = "Contattaci"
-	    
-			[languages.it.about.modal]
-				name = "Nome"
-				title = "Titolo"
-				category = "Categoria"
-				buttonText = "Chiudi"
-	
-
-
-		# Offer section
-		[languages.it.services]
-			title	= "I Nostri Servizi"
-			
-		[languages.it.offer]	
-			[languages.it.offer.001]
-				category	= "presentation-creation-agency"
-				title		= "Presentation Creation Agency"
-				description	= "Grandi storie, grandi slides"
-				picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
-				style		= "bg-black"
-				layout		= "insert-link-full-picture.html"
-				link		= "/presentation-creation-agency/"
-			[languages.it.offer.002]
-				category	= "public-speaking-coaching"
-				title		= "Public Speaking"
-				description	= "Sii padrone del palco. Parla con facilità e sicurezza"
-				picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
-				style		= "bg-black"
-				layout		= "insert-link-full-picture.html"
-				link		= "/public-speaking-coaching/"
-			[languages.it.offer.003]
-				category	= "corporate-events"
-				title		= "Eventi Corporate"
-				description	= "Rompi la routine. Sorprendi i tuoi ospiti"
-				picture		= "/pictures/inserts/home-corporate-events.jpg"
-				style		= "bg-dark"
-				color		= "#82130F"
-				layout		= "insert-link-half-text-picture-1.html"
-				link		= "/corporate-events/"
-			[languages.it.offer.004]
-				category	= "training-workshops"
-				title		= "Training & Seminari"
-				description	= "Cambia la cultura delle Business Presentation nella tua azienda"
-				picture		= "/pictures/inserts/home-training.jpg"
-				style		= "bg-lightgrey"
-				layout		= "insert-link-half-text-picture-2.html"
-				link		= "/training-workshops/business-presentation-revolution/"		
-		
+	    		
+		# ------------------------------		
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
 		# buttonplace if true show location in button name
@@ -1070,9 +653,7 @@ monthtrans = "moisit.yaml"
 			buttonText	= "Registrati Ora "
 			buttondate	= true
 			buttonplace	= false	
-			price		= "Prezzo: "	
-	
-	        
+			price		= "Prezzo: "		        
 	
 		# Contact section
 		[languages.it.contact]
@@ -1101,55 +682,20 @@ monthtrans = "moisit.yaml"
 			[languages.it.contact.form.message]
 				text = "Il tuo messaggio *"
 				warning = "Per favore inserisci il tuo messaggio."
-	
-	
-	
-	
-		# Aside section
-		[languages.it.asidefree]
-			headline = "È il vostro evento TEDx idoneo per del Coaching gratuito?"
-			description = "Ogni anno gli sponsor di Ideas on Stage sponsorizzano degli eventi di TEDx in giro per il mondo. Se credi di poter cambiare il mondo e il tuo evento ne ha le caratteristiche, puoi fare domanda per il nostro TEDx. Gli eventi corporate non sono eleggibili."
-			[languages.it.asidefree.button]
-				text = "Fai domanda per una TEDx Sponsorship"
-				link = ""
-	
-	
-		[languages.it.modal]
-			client		= "Client"
-			close 		= "Close"
-			date		= "Date"
-			category	= "Category"
-			
-	    # Portfolio modals
-		[languages.it.portfolio.modal]
-	        client = "Cliente"
-	        date = "Fecha"
-	        category = "Categoría"
-	
-	
-	
-	    # Team
-	    [languages.it.team_members]
-	    	headline = "Team"
-	    	
-			[languages.it.team_members.modal]
-		        name = "Name"
-		        title = "Title"
-		        category = "Category"
-	
 
+		# News
 		[languages.it.news]
-			more = "continua la lettura"
-			by	 = "da"
-			back = "Torna a Notizie"
-			title = "Notizie"
-			next  = "Pagina successiva"
-			prev  = "Pagina precedente"
+			more	= "continua la lettura"
+			by	 	= "da"
+			back 	= "Torna a Notizie"
+			title 	= "Notizie"
+			next  	= "Pagina successiva"
+			prev  	= "Pagina precedente"
 
-# Enable and disable widgets for the right sidebar
-[languages.it.widgets]
-    categories = false
-    tags = false
-    search = true		
-		
-	
+		# Enable and disable widgets for the right sidebar
+		[languages.it.widgets]
+		    categories = false
+		    tags = false
+		    search = true		
+				
+			

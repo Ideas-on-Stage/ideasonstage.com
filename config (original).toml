@@ -493,7 +493,7 @@ activenews = true
 				picture		= "home-training.jpg"
 				style		= "bg-white"
 				layout		= "insert-link-photo1-text2.html"
-				link		= "/formations-ateliers/art-de-presenter/"
+				link		= "/formation-presentation/art-de-presenter/"
 				button		= "En savoir plus"
 		
 		# Presentation Training Tabs (top tabs with dates in the Training page)

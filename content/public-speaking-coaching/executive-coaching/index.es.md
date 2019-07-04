@@ -10,7 +10,7 @@ url 		= "/public-speaking-coaching/executive-coaching/"
 
 picture		= "/pictures/inserts/public-speaking-coaching-10.jpg"
 link			= "/public-speaking-coaching/executive-coaching/"
-button		= "Saber Màs"
+button		= "Saber más"
 
 +++
 

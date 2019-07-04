@@ -2,15 +2,26 @@
 {{ "<!-- partials:inserts-bottom.html -->" | safeHTML }}
 <div id="inserts-bottom">
 {{- $URL := .URL }}
+{{- $UUID := .Params.uuid }}
 {{- $.Scratch.Set "count" 0 }}
-{{- range .Site.Data.inserts }}		
-	{{- $.Scratch.Add "count" 1 }}
+{{- range .Site.Data.inserts }}
 	{{- if eq .url $URL }}
 		{{- if eq $.Site.Params.languagecode .language }}
 			{{- if eq .position "bottom" }}
 				{{ partial .layout . }}
 			{{- end }} 
-		{{- end }} 
+		{{- end }}
+	{{- end }}
+	{{- if eq .position "bottom" }}
+		{{- $.Scratch.Set "count" 0 }}
+		{{- range .pageslist }}
+			{{- if eq . $UUID }}
+				{{- $.Scratch.Set "count" "1" }}
+			{{- end }}
+		{{- end }}
+		{{- if eq ($.Scratch.Get "count") "1" }}
+			{{ partial .layout . }}
+		{{- end }}
 	{{- end }}
 {{- end }}    
 </div>

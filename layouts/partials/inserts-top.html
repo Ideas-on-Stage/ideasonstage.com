@@ -1,14 +1,25 @@
 {{ "<!-- partials:inserts-top.html -->" | safeHTML }}
 <div id="inserts-top">
 {{- $URL := .URL }}
+{{- $UUID := .Params.uuid }}
 {{- $.Scratch.Set "count" 0 }}	
 {{- range .Site.Data.inserts }}		
-	{{- $.Scratch.Add "count" 1 }}
 	{{- if eq .url $URL }}
 		{{- if eq $.Site.Params.languagecode .language }}
 			{{- if eq .position "top" }}
 				{{ partial .layout . }}
 			{{- end }}
+		{{- end }}
+	{{- end }}
+	{{- if eq .position "top" }}
+		{{- $.Scratch.Set "count" 0 }}
+		{{- range .pageslist }}
+			{{- if eq . $UUID }}
+				{{- $.Scratch.Set "count" "1" }}
+			{{- end }}
+		{{- end }}
+		{{- if eq ($.Scratch.Get "count") "1" }}
+			{{ partial .layout . }}
 		{{- end }}
 	{{- end }}
 {{- end }}

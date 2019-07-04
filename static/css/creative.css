@@ -92,8 +92,7 @@ h5 {
 }
 
 p {
-		line-height: 1.5;
-		margin-top: 12px;
+		margin-top: 20px;
 		margin-bottom: 0;
 }
 
@@ -259,10 +258,6 @@ flex-container .flex-item-text h4 {
 
 @media(min-width:1280px) {
 	
-	body, a {
-		font-size: 20px;
-	}
-
 	.flex-container {
 		height: 720px;
 	}

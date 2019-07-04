@@ -1,12 +1,15 @@
 +++
-draft 		= false
-title 		= "Creación de Presentaciones en PowerPoint"
-description	= "Añade un diseño profesional a tus slides para deslumbrar a tu público en tu presentación."
-weight		= 1
-categories	= [ "Presentation Creation Agency" ]
-type		= "presentationcreationservice"
-showrefs	= false
-urlredirect	= ""
+draft 			= false
+title 			= "Creación de Presentaciones en PowerPoint"
+description		= "Añade un diseño profesional a tus slides para deslumbrar a tu público en tu presentación."
+weight			= 1
+categories		= [ "Presentation Creation Agency" ]
+type			= "presentationcreationservice"
+showrefs		= false
+showpageslist	= true
+url 				= "/presentation-creation-agency/"
+
+urlredirect		= ""
 gallerytitle    = ""
 gallerysubtitle = ""
 heropicture	    = "/pictures/pcs/header.jpg"

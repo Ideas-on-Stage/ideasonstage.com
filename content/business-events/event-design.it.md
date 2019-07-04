@@ -6,11 +6,11 @@ description	= "Basta con le solite, noiosissime maratone di slide - lascia che i
 categories	= [ "Corporate Events" ]
 showrefs	= true
 urlredirect	= ""
-url	 		= "/corporate-events/event-design/"
+url	 		= "/eventi-corporate/event-design/"
 
 picture		= "/pictures/corporate-events/event-design/event-design.jpg"
 style		= "bg-white"
-link 		= "/corporate-events/event-design/"
+link 		= "/eventi-corporate/event-design/"
 
 +++
 

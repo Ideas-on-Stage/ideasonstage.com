@@ -7,7 +7,7 @@
 		<div class="header-content">
 		    <div class="header-content-inner">
 		    	<h1>
-					{{- range .Site.Params.offer }}
+					{{- range .Params.services.list }}
 						{{ .title }}<br />
 					{{- end }}
 				</h1>
