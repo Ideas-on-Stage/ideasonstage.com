@@ -8,49 +8,49 @@ copyright				= "© Ideas on Stage"
 theme        			= "hugo-creative-theme-master"
 
 [Permalinks]
-    news = "/news/:year/:month/:day/:filename/"
+    news				= "/news/:year/:month/:day/:filename/"
 
 [taxonomies]
-	category 		= "categories"
-	tag				= "tags"
+	category 			= "categories"
+	tag					= "tags"
     
 [outputs]
-	home = [ "HTML", "JSON" ]
-	page = [ "HTML" ]
+	home 				= [ "HTML", "JSON" ]
+	page 				= [ "HTML" ]
 
 [params]
-	author			= "Ideas on Stage"
-	email 			= "info@ideasonstage.com"
-	year			= "2019"
-	cookieslink		= "cookies/"
-	favicon			= "/pictures/home/ios_favicon.ico"
-	back			= "Back"
+	author				= "Ideas on Stage"
+	email 				= "info@ideasonstage.com"
+	year				= "2019"
+	cookieslink			= "cookies/"
+	favicon				= "/pictures/home/ios_favicon.ico"
+	back				= "Back"
 	
 	# ------------------------------		
 	# Id for Incognito form in Presentation Creation Service
-	pcsform 		= "TeiR-77um0q9kFm49EqvwQ"
+	pcsform 			= "TeiR-77um0q9kFm49EqvwQ"
 	
 	# ------------------------------		
 	#News
-	activenews 		= true
-	viewMorePostLink= "/news/"
+	activenews 			= true
+	viewMorePostLink	= "/news/"
 	
 	# ------------------------------		
 	# Enable / Disable algolia search
-		algolia_search    = false
-		algolia_appId     = "GMTISKBCI2"
-		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
-		algolia_indexName = "IoS_en"
+	algolia_search		= false
+	algolia_appId		= "GMTISKBCI2"
+	algolia_apiKey		= "14fc70c1da865e95a8aea61a7a001f56"
+	algolia_indexName	= "IoS_en"
 
 	# ------------------------------		
 	# Navigation
 	[params.navigation]
-		title		= "Navigation"
-		brand 		= "Ideas on Stage"
-		brand_logo	= "/pictures/home/ideas-on-stage.png"
-		language		= "Language"
-		forward		= "View"
-		back		= "Back to Home"
+		title			= "Navigation"
+		brand 			= "Ideas on Stage"
+		brand_logo		= "/pictures/home/ideas-on-stage.png"
+		language			= "Language"
+		forward			= "View"
+		back			= "Back to Home"
 
 		[params.navigation.items]
 			
@@ -97,9 +97,9 @@ theme        			= "hugo-creative-theme-master"
 	[params.testimonials]
 		# All testimonials are defined in their own files. You can find testimonials 
 		# at '/data/testimonials'.
-		enable 		= true
-		title 		= "Testimonials"
-		subtitle		= "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
+		enable 			= true
+		title 			= "Testimonials"
+		subtitle			= "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
 
 	# ------------------------------		
 	# Events
