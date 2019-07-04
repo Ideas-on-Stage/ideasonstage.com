@@ -19,8 +19,6 @@ Le LEGO est universellement reconnu par les spécialistes des sciences cognitive
 
 Intéressés ? Pour en savoir plus, rendez-vous [sur le site de Coding & Bricks](https://www.codingandbricks.com)
 
-![Atelier LEGO Serious Play](/pictures/corporate-events/lego-serious-play-workshops/lego-serious-play-1.jpg)
-
 ### Ateliers LEGO Serious Play
 
 Vous avez une problématique professionnelle et souhaitez la résoudre par l’intelligence collective de manière innovante ? Vous avez une thématique à traiter pour améliorer le quotidien de vos collaborateurs et vous souhaitez insuffler de nouvelles formes d’échanges plus conviviales et agiles ? Coding & Bricks va libérer votre potentiel avec la méthode de Design Thinking et l’approche LEGO® Serious Play®.

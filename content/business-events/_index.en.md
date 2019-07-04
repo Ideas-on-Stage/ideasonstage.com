@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Public Speaking Coaching"
+title 			= "Business Events"
 description		= "Whether you are a leader in a major corporation or running your own business, speak like the leader everyone wants to follow."
 weight			= 2
 categories		= [ "Public Speaking Coaching" ]
@@ -8,6 +8,7 @@ showrefs		= false
 showpageslist	= true
 urlredirect		= ""
 url 				= "/business-events/"
+picture			= "/pictures/inserts/home-business-events.jpg"
 +++
 
 ## Events & Conferences

@@ -7,7 +7,8 @@ categories	= [ "Public Speaking Coaching" ]
 showrefs	= false
 showpageslist = true
 urlredirect	= ""
-url 		= "/public-speaking-coaching/"
+url 			= "/public-speaking-coaching/"
+picture 	= "wikistage-wbg-2015.jpg"
 +++
 
 ## Tailored to address each individual’s strengths and areas for improvement. 

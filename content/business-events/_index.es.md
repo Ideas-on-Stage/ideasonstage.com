@@ -8,6 +8,7 @@ showrefs		= false
 showpageslist	= true
 urlredirect		= ""
 url 				= "/business-events/"
+picture			= "/pictures/inserts/home-business-events.jpg"
 +++
 
 Deja atrás las interminables maratones de PowerPoint y convierte tus eventos en una experiencia interactiva e inolvidable.

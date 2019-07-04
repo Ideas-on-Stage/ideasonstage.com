@@ -11,7 +11,7 @@ redirect	= false
 redirectlink= ""
 url			= "/public-speaking-coaching/tedx-coaching/"
 
-picture		= "tedx-saclay.jpg"
+picture		= "/public-speaking-coaching/tedx-coaching/tedx-saclay.jpg"
 link			= "/public-speaking-coaching/tedx-coaching/"
 button		= "Learn More"
 

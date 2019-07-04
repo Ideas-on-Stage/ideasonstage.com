@@ -8,6 +8,7 @@ showrefs		= false
 showpageslist 	= true
 urlredirect		= ""
 url 				= "/coaching-prise-de-parole-en-public/"
+picture		 	= "wikistage-wbg-2015.jpg"
 +++
 
 Notre service de coaching est taillé sur mesure. Que vous soyez un cadre dirigeant devant présenter sa nouvelle stratégie, un organisateur souhaitant faire coacher les intervenants de son événement ou un créateur de start-up invité à présenter à une grande conférence, notre objectif est le même : vous faire réussir.

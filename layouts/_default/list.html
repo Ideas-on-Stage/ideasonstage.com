@@ -3,6 +3,11 @@
 {{ partial "single-top-common.html" . }}
 	<main>
         {{ partial "page-hero.html" . }}
+		{{ if .Params.Picture }}
+			{{ with .Params }}
+				{{ partial "insert-fullbleed-picture.html" . }}
+			{{ end }}
+		{{ end }}
         {{ partial "events-tabs.html" . }}
         {{ partial "content.html" . }}
 		{{ partial "pages-list.html" . }}

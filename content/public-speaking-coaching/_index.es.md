@@ -7,7 +7,8 @@ categories	= [ "Public Speaking Coaching" ]
 showrefs	= false
 showpageslist = true
 urlredirect	= ""
-url 		= "/public-speaking-coaching/"
+url 			= "/public-speaking-coaching/"
+picture 	= "wikistage-wbg-2015.jpg"
 +++
 
 Tanto si estás al frente de una gran compañía como si diriges tu propia empresa, habla como el líder al que todos quieren seguir.
