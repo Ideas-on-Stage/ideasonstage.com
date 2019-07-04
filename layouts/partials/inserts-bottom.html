@@ -1,25 +1,13 @@
-<!-- inserts-bottom is a DIV because we want to add it to the main content -->
 {{ "<!-- partials:inserts-bottom.html -->" | safeHTML }}
 <div id="inserts-bottom">
-{{- $URL := .URL }}
-{{- $UUID := .Params.uuid }}
 {{- $.Scratch.Set "count" 0 }}
-{{- range .Site.Data.inserts }}
-	{{- if eq .url $URL }}
-		{{- if eq $.Site.Params.languagecode .language }}
-			{{- if eq .position "bottom" }}
-				{{ partial .layout . }}
-			{{- end }} 
-		{{- end }}
-	{{- end }}
-	{{- if eq .position "bottom" }}
-		{{- $.Scratch.Set "count" 0 }}
-		{{- range .pageslist }}
-			{{- if eq . $UUID }}
-				{{- $.Scratch.Set "count" "1" }}
-			{{- end }}
-		{{- end }}
-		{{- if eq ($.Scratch.Get "count") "1" }}
+{{- range .Params.insertsbottom }}
+	{{- $.Scratch.Set "uuid" . }}
+	{{- $.Scratch.Add "uuid" "." }}
+	{{- $.Scratch.Add "uuid" $.Site.Params.LanguageCode }}
+	{{- range $.Site.Data.inserts }}
+		{{- if eq ($.Scratch.Get "uuid") .uuid }}
+			{{- $.Scratch.Set "count" "1" }}
 			{{ partial .layout . }}
 		{{- end }}
 	{{- end }}

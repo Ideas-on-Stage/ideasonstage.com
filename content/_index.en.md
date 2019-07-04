@@ -4,6 +4,17 @@ draft 		= false
 title 		= "Presentation Creation | Business Events | Public Speaking Coaching and Training"
 description	= "International agency specialized in Presentation Creation, Business Events and Public Speaking Coaching and Training. We cover North America and Europe."
 
+insertstop		= [
+	"home-06",
+	"home-08"
+]
+
+insertsbottom	= [
+	"home-09",
+	"home-10",
+	"home-12"
+]
+
 [services]
 	title	= "Our Services"
 	[services.list.001]
@@ -41,7 +52,7 @@ description	= "International agency specialized in Presentation Creation, Busine
 		picture		= "/pictures/inserts/home-training.jpg"
 		style		= "bg-lightgrey"
 		layout		= "insert-link-half-text-picture-2.html"
-		link			= "/presentation-training/"
+		link			= "/presentations-training/"
 		button		= "Learn more"
 +++
 

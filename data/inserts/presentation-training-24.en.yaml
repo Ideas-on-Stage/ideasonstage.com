@@ -1,11 +1,9 @@
-pageslist: 
-- "D2521AAF-C972-41E3-AFF9-19D92276BA0C"
-position: bottom
+uuid: presentation-training-24.en
 title: "Start-Ups on Stage"
 layout: insert-link-photo1-text2.html
 style: bg-lightgrey
 picture: /pictures/inserts/presentation-training-startup-pitch.jpg
-link: /presentation-training/pitch-for-startups//
+link: /presentations-training/pitch-for-startups//
 description: "Sooner or later, every start-up needs cash. It could come from clients, investors, banks or grants. But it won’t come unless the founders are able to present effectively and convince their audiences.
 Ideas on Stage has helped many hundreds of entrepreneurs to create and deliver stand-out pitches, through our partnerships with Business France, France Digitale, Numa and many other accelerators and incubators.
 This targeted workshop is ideal for any structure that supports start-ups."

@@ -4,6 +4,17 @@ draft 		= false
 title 		= "Création de Présentations | Événements d'Entreprise | Coaching et Formation à la Prise de Parole"
 description	= "Agence internationale spécialisée dans la création de présentations, la formation et le coaching en prise de parole en public et les événements d'entreprise. Nous sommes présents aux États-Unis et en Europe."
 
+insertstop		= [
+	"home-06",
+	"home-08"
+]
+
+insertsbottom	= [
+	"home-09",
+	"home-10",
+	"home-12"
+]
+
 [services]
 	title	= "Nos Services"	
 	[services.list.001]

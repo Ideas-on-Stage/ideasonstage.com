@@ -1,4 +1,5 @@
 +++
+uuid		= "053944EA-AB31-4A35-83D7-ED0CBD11A394"
 draft		= false
 type		= "tedx"
 title		= "TEDx Coaching"
@@ -13,6 +14,16 @@ url			= "/public-speaking-coaching/tedx-coaching/"
 picture		= "/pictures/public-speaking-coaching/tedx-coaching/tedx-coaching.jpg"
 link			= "/public-speaking-coaching/tedx-coaching/"
 button		= "Learn More"
+
+insertstop		= [
+	"tedx-01",
+	"tedx-02",
+	"tedx-03",
+	"tedx-49"
+]
+
+insertsbottom	= [
+]
 
 aboutdescription = ""
 category1= "Free Package"

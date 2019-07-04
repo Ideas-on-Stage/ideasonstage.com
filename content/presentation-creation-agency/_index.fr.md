@@ -1,4 +1,5 @@
 +++
+uuid			= "34EAF79C-44A8-497C-B073-31FE7938FCC4"
 draft 			= false
 title 			= "Agence de création de présentations"
 description		= "Impressionnez votre audience avec une présentation PowerPoint de qualité professionnelle."
@@ -8,6 +9,23 @@ type			= "presentationcreationservice"
 showrefs		= false
 showpageslist	= true
 url 				= "/agence-creation-presentations/"
+
+insertstop		= [
+
+]
+insertsbottom	= [
+	"presentation-creation-service-10",
+	"presentation-creation-service-12",
+	"presentation-creation-service-14",
+	"presentation-creation-service-52",
+	"presentation-creation-service-53",
+	"presentation-creation-service-54",
+	"presentation-creation-service-55",
+	"presentation-creation-service-61",
+	"presentation-creation-service-62",
+	"presentation-creation-service-63",
+	"presentation-creation-service-64",
+]
 
 urlredirect		= ""
 gallerytitle    = ""

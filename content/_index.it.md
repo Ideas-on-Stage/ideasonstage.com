@@ -4,7 +4,17 @@ draft 		= false
 title 		= "Regala delle Presentazioni Incredibili"
 description	= "Regala delle Presentazioni incredibili con gli Specialisti della Business Presentation."
 
-		
+insertstop		= [
+	"home-06",
+	"home-08"
+]
+
+insertsbottom	= [
+	"home-09",
+	"home-10",
+	"home-12"
+]
+
 [services]
 	title	= "I Nostri Servizi"
 	[services.list]	
@@ -40,7 +50,7 @@ description	= "Regala delle Presentazioni incredibili con gli Specialisti della 
 			picture		= "/pictures/inserts/home-training.jpg"
 			style		= "bg-lightgrey"
 			layout		= "insert-link-half-text-picture-2.html"
-			link			= "/training-workshops/business-presentation-revolution/"	
+			link			= "/training-workshops/the-business-presentation-revolution/"	
 +++
 
 ## A proposito di Ideas on Stage

@@ -3,7 +3,6 @@ DefaultContentLanguage	= "en"
 paginate				= 5
 paginatePath			= "newspage"
 canonifyurls				= false
-
 name         			= "Ideas on Stage"
 copyright				= "© Ideas on Stage"
 theme        			= "hugo-creative-theme-master"
@@ -25,29 +24,31 @@ theme        			= "hugo-creative-theme-master"
 	year			= "2019"
 	cookieslink		= "cookies/"
 	favicon			= "/pictures/home/ios_favicon.ico"
-	headerteam		= "/pictures/team/image.png"
-	headereventan	= "/pictures/corporate-events/event-animation/image.png"
 	back			= "Back"
 	
+	# ------------------------------		
 	# Id for Incognito form in Presentation Creation Service
 	pcsform 		= "TeiR-77um0q9kFm49EqvwQ"
 	
+	# ------------------------------		
 	#News
 	activenews 		= true
 	viewMorePostLink= "/news/"
 	
+	# ------------------------------		
 	# Enable / Disable algolia search
 		algolia_search    = false
 		algolia_appId     = "GMTISKBCI2"
 		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
 		algolia_indexName = "IoS_en"
 
+	# ------------------------------		
 	# Navigation
 	[params.navigation]
 		title		= "Navigation"
 		brand 		= "Ideas on Stage"
 		brand_logo	= "/pictures/home/ideas-on-stage.png"
-		language	= "Language"
+		language		= "Language"
 		forward		= "View"
 		back		= "Back to Home"
 
@@ -60,19 +61,19 @@ theme        			= "hugo-creative-theme-master"
 			[params.navigation.items.002]
 				name			= "Videos"
 				url				= "/revolution/"
-				frontpageurl	= "/revolution/"
+				frontpageurl		= "/revolution/"
 			[params.navigation.items.003]
 				name			= "Stories"
 				url				= "/news/"
-				frontpageurl	= "/news/"
+				frontpageurl		= "/news/"
 			[params.navigation.items.004]
 				name			= "Contact"
 				url				= "#contact"
-				frontpageurl	= "#contact"
+				frontpageurl		= "#contact"
 			[params.navigation.items.005]
 				name			= "Team"
 				url				= "/team/"
-				frontpageurl	= "/team/"
+				frontpageurl		= "/team/"
 
 		[params.navigation.languages]
 				
@@ -86,15 +87,13 @@ theme        			= "hugo-creative-theme-master"
 				name	= "Italiano"
 				url		= "https://www.ideasonstage.it"
 	
+	# ------------------------------		
+	# References
 	[params.references]
 		title = "References"
-
-	[params.insertstop]
-		title = "Highlights"
-	
-	[params.insertsbottom]
-		title = "Additional information"
 		
+	# ------------------------------		
+	# Testimonials
 	[params.testimonials]
 		# All testimonials are defined in their own files. You can find testimonials 
 		# at '/data/testimonials'.
@@ -102,6 +101,8 @@ theme        			= "hugo-creative-theme-master"
 		title 		= "Testimonials"
 		subtitle		= "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
 
+	# ------------------------------		
+	# Events
 	[params.events_tabs]
 		# Presentation Training Tabs (top tabs with dates in the Training page)
 		# buttondate if true show date in button name
@@ -119,6 +120,8 @@ theme        			= "hugo-creative-theme-master"
 		buttonplace	= false	
 		price		= "Price: "		
 	
+	# ------------------------------		
+	# Contact
 	[params.contact]
         enable 		= true
 		title 		= "Contact us"
@@ -152,25 +155,9 @@ theme        			= "hugo-creative-theme-master"
 			question3 = "I am organizing an event and would like to know how you can help"
 			question4 = "Other..."
 
+	# ------------------------------		
 	# News
-	# Define the number of posts/news items per page		
-	[params.listpages]
-	
-		[params.listpages.001]
-			url			= "/news/"
-			title		= "Stories"
-			description	= "What's happening at Ideas on Stage? Get the latest news and tips here."
-		
-		[params.listpages.002]
-			url			= "/revolution/"
-			title 		= "The Business Presentation Revolution"
-		    description	= "A video podcast about speaking and presenting in public, available on YouTube and iTunes."
-		    
-		[params.listpages.003]
-			url			= "/team/"
-			title		= "Team"
-			description = "We have assembled a multidisciplinary group of Presentation Experts from all around the world. Our backgrounds range from former business consultants to trained actors."
-		    
+	# Define the number of posts/news items per page
 	[params.news]
 		more		= "Continue reading"
 		by	 		= "by"
@@ -179,10 +166,13 @@ theme        			= "hugo-creative-theme-master"
 		next  		= "OLDER"
 		prev  		= "NEWER"
 
+	# ------------------------------		
+	# Revolution
 	[params.revolution]
 		more		= "Watch Episode"
 	    episodes	= "Previous episodes"
 
+	# ------------------------------		
 	# Enable and disable widgets for the right sidebar
 	[params.widgets]
 	    categories = false
@@ -242,6 +232,7 @@ theme        			= "hugo-creative-theme-master"
 	activenews		= true
 	monthtrans		= "mois.yaml"
 	
+	# ------------------------------		
 	# Enable / Disable algolia search
 	algolia_search    = false
 	algolia_appId     = "GMTISKBCI2"
@@ -249,6 +240,7 @@ theme        			= "hugo-creative-theme-master"
 	algolia_indexName = "IoS_fr"
 	
 
+	# ------------------------------		
 	# Navigation
 	[languages.fr.navigation]
 		title		= "Navigation"
@@ -292,102 +284,89 @@ theme        			= "hugo-creative-theme-master"
 				name	= "Italiano"
 				url		= "https://www.ideasonstage.it"	
 	
-		[languages.fr.references]
-			title = "Références"
+	# ------------------------------		
+	# References
+	[languages.fr.references]
+		title = "Références"
 
-		[languages.fr.insertstop]
-			title = "À la une"
-		
-		[languages.fr.insertsbottom]
-			title = "Informations complémentaires"
-	
-		[languages.fr.testimonials]
-    		enable = true
-   			 # All testimonials are defined in their own files. You can find testimonials 
-   			 # at '/data/testimonials'.
-    		
-    		title = "Témoignages"
-    		subtitle = "Nous avons travaillé avec de nombreux clients ; voici quelques exemples de ce que nos clients disent de nous."
+	# ------------------------------		
+	# Testimonials
+	[languages.fr.testimonials]
+		enable 		= true    		
+		title 		= "Témoignages"
+		subtitle		= "Nous avons travaillé avec de nombreux clients ; voici quelques exemples de ce que nos clients disent de nous."
     				
-		# Presentation Training Tabs (top tabs with dates in the Training page)
-		# buttondate if true show date in button name
-		# buttonplace if true show location in button name
-		[languages.fr.events_tabs]
-			language	= "Language: "
-			date		= "Date: "
-			location	= "Location: "
-			address		= "Address: "
-			duration	= "Duration: "
-			time_start	= "Start Time: "
-			time_end	= "End Time: "
-			trainer		= "Trainer: "				
-			buttonText	= "Register Now "
-			buttondate	= true
-			buttonplace	= false	
-			price		= "Price: "			        
+	# ------------------------------		
+	# Presentation Training Tabs (top tabs with dates in the Training page)
+	# buttondate if true show date in button name
+	# buttonplace if true show location in button name
+	[languages.fr.events_tabs]
+		language	= "Language: "
+		date		= "Date: "
+		location	= "Location: "
+		address		= "Address: "
+		duration	= "Duration: "
+		time_start	= "Start Time: "
+		time_end	= "End Time: "
+		trainer		= "Trainer: "				
+		buttonText	= "Register Now "
+		buttondate	= true
+		buttonplace	= false	
+		price		= "Price: "			        
 	
-		# Contact section
-		[languages.fr.contact]
-	        enable = true
-			title = "Contactez-nous"
-			subtitle  = "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
-			contactemail = "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
-			contactphone = "+33 1 46 94 68 18" 
-			buttonText = "Envoyer"
-			wait	= "Veuillez patienter..."
-			success = "Merci, nous vous répondrons rapidement."
-			
-			# 'warning' defines error messages for invalid inputs
-			[languages.fr.contact.form.name]
-				text = "Votre nom complet *"
-				warning = "Veuillez entrer votre nom complet."
-	
-			[languages.fr.contact.form.email]
-				text = "Votre email *"
-				warning = "Veuillez entrer votre adresse email."
-	
-			[languages.fr.contact.form.phone]
-				text = "Votre téléphone (optionnel)"
-				warning = "Veuillez entrer votre numéro de téléphone."
-	
-			[languages.fr.contact.form.message]
-				text = "Your Message *"
-				warning = "Please enter a message."
-
-		[languages.fr.listpages]
+	# ------------------------------		
+	# Contact section
+	[languages.fr.contact]
+        enable = true
+		title = "Contactez-nous"
+		subtitle  = "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
+		contactemail = "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
+		contactphone = "+33 1 46 94 68 18" 
+		buttonText = "Envoyer"
+		wait	= "Veuillez patienter..."
+		success = "Merci, nous vous répondrons rapidement."
 		
-			[languages.fr.listpages.001]
-				url			= "/news/"
-				title		= "Conseils"
-				description	= "Quoi de neuf chez Ideas on Stage ? Découvrez les dernières nouvelles ici."
-			
-			[languages.fr.listpages.002]
-				url			= "/revolution/"
-				title 		= "The Business Presentation Revolution"
-			    description	= "Un podcast vidéo sur l'art de parler et présenter en public, disponible sur YouTube et iTunes."
-    
-			[languages.fr.listpages.003]
-				url			= "/equipe/"
-				title		= "Équipe"
-				description = "Notre équipe pluridisciplinaire rassemble des experts en présentation venant de partout en Europe et aux États-Unis. Nos expériences vont de consultant en management, responsable des ventes à acteurs de cinéma."
+		# 'warning' defines error messages for invalid inputs
+		[languages.fr.contact.form.name]
+			text = "Votre nom complet *"
+			warning = "Veuillez entrer votre nom complet."
 
-		[languages.fr.news]
-			more = "continuer à lire"
-			by	 = "par"
-			back = "Retour à Conseils"
-			title = "Conseils"
-			next  = "Page Suivante"
-			prev  = "Page Précédente"
+		[languages.fr.contact.form.email]
+			text = "Votre email *"
+			warning = "Veuillez entrer votre adresse email."
 
-		[languages.fr.revolution]
-			more		= "Regarder l'épisode"
-		    episodes	= "Épisodes précédents"
+		[languages.fr.contact.form.phone]
+			text = "Votre téléphone (optionnel)"
+			warning = "Veuillez entrer votre numéro de téléphone."
+
+		[languages.fr.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+	# ------------------------------		
+	# News
+	[languages.fr.news]
+		more = "continuer à lire"
+		by	 = "par"
+		back = "Retour à Conseils"
+		title = "Conseils"
+		next  = "Page Suivante"
+		prev  = "Page Précédente"
+
+	# ------------------------------		
+	# Revolution
+	[languages.fr.revolution]
+		more		= "Regarder l'épisode"
+	    episodes	= "Épisodes précédents"
 			
-# Enable and disable widgets for the right sidebar
-[languages.fr.widgets]
-    categories = false
-    tags = false
-    search = true		
+	# ------------------------------		
+	# Enable and disable widgets for the right sidebar
+	[languages.fr.widgets]
+	    categories = false
+	    tags = false
+	    search = true		
+		
+		
 		
 ##################
 # SPANISH
@@ -418,6 +397,7 @@ theme        			= "hugo-creative-theme-master"
  	algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
   	algolia_indexName = "IoS_es"
 
+	# ------------------------------		
 	# Navigation
 	[languages.es.navigation]
 		title		= "Navigation"
@@ -444,7 +424,7 @@ theme        			= "hugo-creative-theme-master"
 				name			= "Equipo"
 				url				= "/equipo/"
 				frontpageurl 	= "/equipo/"
-
+	
 		[languages.es.navigation.languages]
 				
 			[languages.es.navigation.languages.001]
@@ -456,140 +436,124 @@ theme        			= "hugo-creative-theme-master"
 			[languages.es.navigation.languages.003]
 				name	= "Italiano"
 				url		= "https://www.ideasonstage.it"
-	
-		[languages.es.references]
-			title = "References"
 
-		[languages.es.insertstop]
-			title = "Highlights"
-		
-		[languages.es.insertsbottom]
-			title = "Additional information"
-	
-		[languages.es.testimonials]
-    		enable = true
-   			 # All testimonials are defined in their own files. You can find testimonials 
-   			 # at '/data/testimonials'.
-    		
-    		title = "Testimonios"
-    		subtitle = "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
+	# ------------------------------		
+	# References
+	[languages.es.references]
+		title = "References"
+
+	# ------------------------------		
+	# Testimonials
+	[languages.es.testimonials]
+		enable = true	
+		title = "Testimonios"
+		subtitle = "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
 				
-		# Presentation Training Tabs (top tabs with dates in the Training page)
-		# buttondate if true show date in button name
-		# buttonplace if true show location in button name
-		[languages.es.events_tabs]
-			language	= "Idioma: "
-			date		= "Fecha: "
-			location	= "Lugar: "
-			address		= "Dirección: "
-			duration	= "Duración: "
-			time_start	= "Hora Comienzo: "
-			time_end	= "Hora Fin: "
-			trainer		= "Formador: "				
-			buttonText	= "Inscríbete ahora "
-			buttondate	= true
-			buttonplace	= false		
-			price		= "Precio: "		
+	# ------------------------------		
+	# Presentation Training Tabs (top tabs with dates in the Training page)
+	# buttondate if true show date in button name
+	# buttonplace if true show location in button name
+	[languages.es.events_tabs]
+		language	= "Idioma: "
+		date		= "Fecha: "
+		location	= "Lugar: "
+		address		= "Dirección: "
+		duration	= "Duración: "
+		time_start	= "Hora Comienzo: "
+		time_end	= "Hora Fin: "
+		trainer		= "Formador: "				
+		buttonText	= "Inscríbete ahora "
+		buttondate	= true
+		buttonplace	= false		
+		price		= "Precio: "		
 	
-	        
-	
-		# Contact section
-		[languages.es.contact]
-	        enable = true
-			title = "Contacta con nosotros"
-			subtitle  = "¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible"
-			contactemail = "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
-			contactphone = "+33 1 46 94 68 18" 
-			buttonText = "Enviar mensaje"
-			wait	= "Por favor, espera un instante..."
-			success = "Gracias, en breve nos pondremos en contacto contigo."
-			
-			# 'warning' defines error messages for invalid inputs
-			[languages.es.contact.form.name]
-				text = "Tu Nombre *"
-				warning = "Por favor, escribe tu nombre."
-	
-			[languages.es.contact.form.email]
-				text = "Tu Email *"
-				warning = "Por favor, introduce tu email."
-	
-			[languages.es.contact.form.phone]
-				text = "Tu teléfono (opcional)"
-				warning = "Por favor, escribe tu número de teléfono."
-	
-			[languages.es.contact.form.message]
-				text = "Tu Mensaje *"
-				warning = "Por favor, escribe un mensaje."
+	# ------------------------------		
+	# Contact section
+	[languages.es.contact]
+        enable = true
+		title = "Contacta con nosotros"
+		subtitle  = "¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible"
+		contactemail = "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
+		contactphone = "+33 1 46 94 68 18" 
+		buttonText = "Enviar mensaje"
+		wait	= "Por favor, espera un instante..."
+		success = "Gracias, en breve nos pondremos en contacto contigo."
 		
-		[languages.es.listpages]
-		
-			[languages.es.listpages.001]
-				url			= "/news/"
-				title		= "Stories"
-				description	= "What's happening at Ideas on Stage? Get the latest news and tips here."
-			
-			[languages.es.listpages.002]
-				url			= "/revolution/"
-				title 		= "The Business Presentation Revolution"
-			    description	= "Un video podcast sobre cómo hablar y presentar en público, disponible en YouTube e iTunes."
+		# 'warning' defines error messages for invalid inputs
+		[languages.es.contact.form.name]
+			text = "Tu Nombre *"
+			warning = "Por favor, escribe tu nombre."
 
-			[languages.es.listpages.003]
-				url			= "/equipo/"
-				title		= "Equipo"
-				description = "Hemos reunido a un grupo multidisciplinar de expertos en presentaciones de todo el mundo. Nuestros perfiles van desde ex-consultores de negocio a actores profesionales."
+		[languages.es.contact.form.email]
+			text = "Tu Email *"
+			warning = "Por favor, introduce tu email."
 
-		[languages.es.news]
-			more = "Continuar leyendo"
-			by	 = "por"
-			back = "Volver a Noticias"
-			title = "Noticias"
-			next  = "MÁS ANTIGUO"
-			prev  = "MÁS NUEVO"
-		
-		[languages.es.revolution]
-			more		= "Ver el episodio"
-			episodes	= "Episodios"
+		[languages.es.contact.form.phone]
+			text = "Tu teléfono (opcional)"
+			warning = "Por favor, escribe tu número de teléfono."
+
+		[languages.es.contact.form.message]
+			text = "Tu Mensaje *"
+			warning = "Por favor, escribe un mensaje."
+
+	# ------------------------------		
+	[languages.es.news]
+		more = "Continuar leyendo"
+		by	 = "por"
+		back = "Volver a Noticias"
+		title = "Noticias"
+		next  = "MÁS ANTIGUO"
+		prev  = "MÁS NUEVO"
+
+	# ------------------------------		
+	# Revolution
+	[languages.es.revolution]
+		more		= "Ver el episodio"
+		episodes	= "Episodios"
 			
-# Enable and disable widgets for the right sidebar
-[languages.es.widgets]
-    categories = false
-    tags = false
-    search = true		
-		
+	# ------------------------------		
+	# Enable and disable widgets for the right sidebar
+	[languages.es.widgets]
+	    categories = false
+	    tags = false
+	    search = true		
+
+	
 	
 ##################
 # ITALIAN
 ##################
 [languages.it]
-baseURL 		= "https://www.ideasonstage.it/"
-languageName 	= "Italiano"
-languageCode 	= "it"
-weight 			= "4"
-googleAnalytics = "UA-30695118-4"
-rights			= "Tutti i diritti riservati"
-cookies			= "Questo sito web utilizza i cookie."
-footer_desc		= "Ideas on Stage è lo specialista globale nelle business presentation. Offriamo i nostri servizi in Nord America ed Europa in Italiano, Inglese, Francese e Spagnolo."
-favicon			= "pictures/home/ios_favicon.ico"
+	baseURL 		= "https://www.ideasonstage.it/"
+	languageName 	= "Italiano"
+	languageCode 	= "it"
+	weight 			= "4"
+	googleAnalytics = "UA-30695118-4"
+	rights			= "Tutti i diritti riservati"
+	cookies			= "Questo sito web utilizza i cookie."
+	footer_desc		= "Ideas on Stage è lo specialista globale nelle business presentation. Offriamo i nostri servizi in Nord America ed Europa in Italiano, Inglese, Francese e Spagnolo."
+	favicon			= "pictures/home/ios_favicon.ico"
 		
-#form id for Incognito form
-pcsformid = "3"
+	#form id for Incognito form
+	pcsformid 		= "3"
 
-#News
-activenews = true
-monthtrans = "moisit.yaml"
+	#News
+	activenews 		= true
+	monthtrans 		= "moisit.yaml"
+	
+	# Enable / Disable algolia search
+  	algolia_search    = false
+  	algolia_appId     = "GMTISKBCI2"
+ 	algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
+  	algolia_indexName = "IoS_it"
 
-# Enable / Disable algolia search
-  		algolia_search    = false
-  		algolia_appId     = "GMTISKBCI2"
- 		 algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
-  		algolia_indexName = "IoS_it"
-
+	# ------------------------------		
 	# Navigation
 	[languages.it.navigation]
 		title		= "Navigation"
 		brand		= "Ideas on Stage"
 		brand_logo	= "/pictures/home/ideas-on-stage.png"
-		language	= "Lingue"
+		language		= "Lingue"
 		back		= "Back to Home"
 
 		[languages.it.navigation.items]
@@ -620,82 +584,83 @@ monthtrans = "moisit.yaml"
 				name	= "Italiano"
 				url		= "https://www.ideasonstage.it"
 	
-		[languages.it.references]
-			title = "References"
-			
-		[languages.it.insertstop]
-			title = "Highlights"
+	# ------------------------------		
+	# References
+	[languages.it.references]
+		title = "References"
+
+	# ------------------------------		
+	# Testimonials
+	[languages.it.testimonials]
+		enable = true
+			 # All testimonials are defined in their own files. You can find testimonials 
+			 # at '/data/testimonials'.
 		
-		[languages.it.insertsbottom]
-			title = "Additional information"
-				
-		[languages.it.testimonials]
-    		enable = true
-   			 # All testimonials are defined in their own files. You can find testimonials 
-   			 # at '/data/testimonials'.
-    		
-    		title = "Testimonianze"
-    		subtitle = "Abbiamo lavorato con moltissimi clienti nel corso degli anni e ci piace sapere quali siano le loro opinioni dopo ciascuna collaborazione. A seguire un esempio di quello che i nostri clienti dicono di noi."
+		title = "Testimonianze"
+		subtitle = "Abbiamo lavorato con moltissimi clienti nel corso degli anni e ci piace sapere quali siano le loro opinioni dopo ciascuna collaborazione. A seguire un esempio di quello che i nostri clienti dicono di noi."
 	    		
-		# ------------------------------		
-		# Presentation Training Tabs (top tabs with dates in the Training page)
-		# buttondate if true show date in button name
-		# buttonplace if true show location in button name
-		[languages.it.events_tabs]
-			language	= "Lingua: "
-			date		= "Data: "
-			location	= "Location: "
-			address		= "Indirizzo: "
-			duration	= "Durata: "
-			time_start	= "Orario d’Inizio: "
-			time_end	= "Orario della fine: "
-			trainer		= "Trainer: "				
-			buttonText	= "Registrati Ora "
-			buttondate	= true
-			buttonplace	= false	
-			price		= "Prezzo: "		        
+	# ------------------------------		
+	# Presentation Training Tabs (top tabs with dates in the Training page)
+	# buttondate if true show date in button name
+	# buttonplace if true show location in button name
+	[languages.it.events_tabs]
+		language	= "Lingua: "
+		date		= "Data: "
+		location	= "Location: "
+		address		= "Indirizzo: "
+		duration	= "Durata: "
+		time_start	= "Orario d’Inizio: "
+		time_end	= "Orario della fine: "
+		trainer		= "Trainer: "				
+		buttonText	= "Registrati Ora "
+		buttondate	= true
+		buttonplace	= false	
+		price		= "Prezzo: "		        
 	
-		# Contact section
-		[languages.it.contact]
-	        enable = true
-			title = "Contattaci"
-			subtitle  = "Domande? Usa il modulo sottostante e vi contatteremo a breve"
-			contactemail = "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
-			contactphone = "+33 1 46 94 68 18" 
-			buttonText = "Invia il messaggio"
-			wait	= "Please Wait..."
-			success = "Grazie."
-			
-			# 'warning' defines error messages for invalid inputs
-			[languages.it.contact.form.name]
-				text = "Il tuo nome *"
-				warning = "Per favore inserisci il tuo nome."
-	
-			[languages.it.contact.form.email]
-				text = "La tua mail *"
-				warning = "Per favore inserisci il tuo indirizzo mail."
-	
-			[languages.it.contact.form.phone]
-				text = "Il tuo telefono (opzionale)"
-				warning = "Per favore inserisci il tuo numero di telefono."
-	
-			[languages.it.contact.form.message]
-				text = "Il tuo messaggio *"
-				warning = "Per favore inserisci il tuo messaggio."
+	# ------------------------------		
+	# Contact section
+	[languages.it.contact]
+        enable = true
+		title = "Contattaci"
+		subtitle  = "Domande? Usa il modulo sottostante e vi contatteremo a breve"
+		contactemail = "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
+		contactphone = "+33 1 46 94 68 18" 
+		buttonText = "Invia il messaggio"
+		wait	= "Please Wait..."
+		success = "Grazie."
+		
+		# 'warning' defines error messages for invalid inputs
+		[languages.it.contact.form.name]
+			text = "Il tuo nome *"
+			warning = "Per favore inserisci il tuo nome."
 
-		# News
-		[languages.it.news]
-			more	= "continua la lettura"
-			by	 	= "da"
-			back 	= "Torna a Notizie"
-			title 	= "Notizie"
-			next  	= "Pagina successiva"
-			prev  	= "Pagina precedente"
+		[languages.it.contact.form.email]
+			text = "La tua mail *"
+			warning = "Per favore inserisci il tuo indirizzo mail."
 
-		# Enable and disable widgets for the right sidebar
-		[languages.it.widgets]
-		    categories = false
-		    tags = false
-		    search = true		
-				
+		[languages.it.contact.form.phone]
+			text = "Il tuo telefono (opzionale)"
+			warning = "Per favore inserisci il tuo numero di telefono."
+
+		[languages.it.contact.form.message]
+			text = "Il tuo messaggio *"
+			warning = "Per favore inserisci il tuo messaggio."
+
+	# ------------------------------		
+	# News
+	[languages.it.news]
+		more	= "continua la lettura"
+		by	 	= "da"
+		back 	= "Torna a Notizie"
+		title 	= "Notizie"
+		next  	= "Pagina successiva"
+		prev  	= "Pagina precedente"
+
+	# ------------------------------		
+	# Enable and disable widgets for the right sidebar
+	[languages.it.widgets]
+	    categories = false
+	    tags = false
+	    search = true		
 			
+		

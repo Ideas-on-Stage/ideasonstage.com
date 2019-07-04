@@ -1,4 +1,5 @@
 +++
+uuid			= "93A104BF-9016-4F32-977B-D80140457560"
 draft 			= false
 title 			= "Creación de Presentaciones en PowerPoint"
 description		= "Añade un diseño profesional a tus slides para deslumbrar a tu público en tu presentación."
@@ -8,6 +9,23 @@ type			= "presentationcreationservice"
 showrefs		= false
 showpageslist	= true
 url 				= "/presentation-creation-agency/"
+
+insertstop		= [
+
+]
+insertsbottom	= [
+	"presentation-creation-service-10",
+	"presentation-creation-service-12",
+	"presentation-creation-service-14",
+	"presentation-creation-service-52",
+	"presentation-creation-service-53",
+	"presentation-creation-service-54",
+	"presentation-creation-service-55",
+	"presentation-creation-service-61",
+	"presentation-creation-service-62",
+	"presentation-creation-service-63",
+	"presentation-creation-service-64",
+]
 
 urlredirect		= ""
 gallerytitle    = ""

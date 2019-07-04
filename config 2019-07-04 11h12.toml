@@ -179,7 +179,7 @@ theme        	= "hugo-creative-theme-master"
 				picture		= "/pictures/inserts/home-training.jpg"
 				style		= "bg-lightgrey"
 				layout		= "insert-link-half-text-picture-2.html"
-				link			= "/presentation-training/"
+				link			= "/presentations-training/"
 				button		= "Learn more"
 				
 		# Presentation Training Tabs (top tabs with dates in the Training page)
