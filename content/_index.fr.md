@@ -21,7 +21,7 @@ insertsbottom	= [
 		[services.list.001]
 			sectionid	= "presentation-creation"
 			title		= "Création de présentations"
-			description	= "Le cœur de notre mission est d'aider les dirigeants à communiquer efficacement. Nous vous aidons à définir vos messages et votre stratégie, nous écrivons l'histoire, préparons les slides et vous préparons à prendre la parole en public."
+			description	= "Nous aidons les dirigeants à communiquer efficacement. Nous vous aidons à définir vos messages et votre stratégie, nous écrivons l'histoire, préparons les slides et vous préparons à prendre la parole en public."
 			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
@@ -48,7 +48,7 @@ insertsbottom	= [
 		[services.list.004]
 			sectionid	= "presentations-training"
 			title		= "Formations à l'art de présenter"
-			description	= "Découvrez nos formations à l'art de présenter, de&nbsp;«&nbsp;The&nbsp;Business&nbsp;Presentation&nbsp;Revolution&nbsp;» à&nbsp;«&nbsp;Women&nbsp;on&nbsp;Stage&nbsp;»."
+			description	= "Découvrez nos formations à l'art de présenter, de «&nbsp;The Business Presentation Revolution&nbsp;» à «&nbsp;Women&nbsp;on&nbsp;Stage&nbsp;»."
 			picture		= "/pictures/inserts/home-presentations-training.jpg"
 			style		= "bg-lightgrey"
 			layout		= "insert-link-full-picture.html"

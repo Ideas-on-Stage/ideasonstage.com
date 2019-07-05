@@ -7,9 +7,13 @@
 		<div class="header-content">
 		    <div class="header-content-inner">
 		    	<h1>
+					<ul>
+					{{ $.Scratch.Set "first" "1" }}
 					{{- range .Params.services.list }}
-						{{ .title }}<br />
+						<li>{{ .title }}</li>
+						{{ $.Scratch.Set "first" "0" }}
 					{{- end }}
+					</ul>
 				</h1>
 			</div>
 		</div>
