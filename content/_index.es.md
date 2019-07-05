@@ -19,7 +19,7 @@ insertsbottom	= [
 	title	= "NUESTROS SERVICIOS"	
 	[services.list]	
 		[services.list.001]
-			category	= "Presentation Creation Agency"
+			sectionid	= "presentation-creation"
 			title		= "Agencia de Presentaciones"
 			description	= "Una gran historia. Las mejores slides"
 			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
@@ -28,7 +28,16 @@ insertsbottom	= [
 			link			= "/presentation-creation-agency/"
 			button		= "Saber más"
 		[services.list.002]
-			category	= "Public Speaking Coaching"
+			sectionid	= "business-events"
+			title		= "Eventos Corporativos"
+			description	= "Rompe con la rutina. Sorprende a tus invitados."
+			picture		= "/pictures/inserts/home-business-events.jpg"
+			style		= "bg-black"
+			layout		= "insert-link-full-picture.html"
+			link			= "/eventos-corporativos/"
+			button		= "Saber más"
+		[services.list.003]
+			sectionid	= "public-speaking-coaching"
 			title		= "Public Speaking"
 			description	= "Muestra tu mejor versión sobre el escenario."
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
@@ -36,23 +45,13 @@ insertsbottom	= [
 			layout		= "insert-link-full-picture.html"
 			link			= "/public-speaking-coaching/"
 			button		= "Saber más"
-		[services.list.003]
-			category	= "Corporate Events"
-			title		= "Eventos Corporativos"
-			description	= "Rompe con la rutina. Sorprende a tus invitados."
-			picture		= "/pictures/inserts/home-corporate-events.jpg"
-			style		= "bg-dark"
-			color		= "#82130F"
-			layout		= "insert-link-half-text-picture-1.html"
-			link			= "/eventos-corporativos/"
-			button		= "Saber más"
 		[services.list.004]
-			category	= "training-workshops"
+			sectionid	= "presentations-training"
 			title		= "Formación"
 			description	= "Cambia la cultura de las presentaciones en tu organización."
-			picture		= "/pictures/inserts/home-training.jpg"
+			picture		= "/pictures/inserts/home-presentations-training.jpg"
 			style		= "bg-lightgrey"
-			layout		= "insert-link-half-text-picture-2.html"
+			layout		= "insert-link-full-picture.html"
 			link			= "/formacion-presentaciones/"
 			button		= "Saber más"
 +++

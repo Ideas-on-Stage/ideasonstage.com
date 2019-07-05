@@ -19,7 +19,7 @@ insertsbottom	= [
 	title	= "I Nostri Servizi"
 	[services.list]	
 		[services.list.001]
-			category	= "presentation-creation-agency"
+			sectionid	= "presentation-creation"
 			title		= "Presentation Creation Agency"
 			description	= "Grandi storie, grandi slides"
 			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
@@ -27,30 +27,29 @@ insertsbottom	= [
 			layout		= "insert-link-full-picture.html"
 			link			= "/presentation-creation-agency/"
 		[services.list.002]
-			category	= "public-speaking-coaching"
+			sectionid	= "business-events"
+			title		= "Eventi Corporate"
+			description	= "Rompi la routine. Sorprendi i tuoi ospiti"
+			picture		= "/pictures/inserts/home-business-events.jpg"
+			style		= "bg-black"
+			layout		= "insert-link-full-picture.html"
+			link			= "/eventi-corporate/"
+		[services.list.003]
+			sectionid	= "public-speaking-coaching"
 			title		= "Public Speaking"
 			description	= "Sii padrone del palco. Parla con facilità e sicurezza"
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
 			link			= "/public-speaking-coaching/"
-		[services.list.003]
-			category	= "corporate-events"
-			title		= "Eventi Corporate"
-			description	= "Rompi la routine. Sorprendi i tuoi ospiti"
-			picture		= "/pictures/inserts/home-corporate-events.jpg"
-			style		= "bg-dark"
-			color		= "#82130F"
-			layout		= "insert-link-half-text-picture-1.html"
-			link			= "/eventi-corporate/"
 		[services.list.004]
-			category	= "training-workshops"
+			sectionid	= "presentations-training"
 			title		= "Training & Seminari"
 			description	= "Cambia la cultura delle Business Presentation nella tua azienda"
-			picture		= "/pictures/inserts/home-training.jpg"
+			picture		= "/pictures/inserts/home-presentations-training.jpg"
 			style		= "bg-lightgrey"
-			layout		= "insert-link-half-text-picture-2.html"
-			link			= "/training-workshops/the-business-presentation-revolution/"	
+			layout		= "insert-link-full-picture.html"
+			link			= "/training-workshops/the-business-presentation-revolution/"
 +++
 
 ## A proposito di Ideas on Stage

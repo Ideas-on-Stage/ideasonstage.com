@@ -553,6 +553,11 @@ flex-container .flex-item-text h4 {
 	padding-bottom: 0px;
 }
 
+.marginh-tiny {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
 .marginv-none {
 	margin-top: 0px;
 	margin-bottom: 0px;	
