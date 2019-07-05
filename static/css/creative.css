@@ -333,7 +333,7 @@ flex-container .flex-item-text h4 {
 	}
 	
 	.flex-container {
-		height: 405px;
+		height: 450px;
 	}
 
 	.flex-container .flex-item-text h4 {
@@ -343,12 +343,12 @@ flex-container .flex-item-text h4 {
 	/* On small screens, keep full bleed pic height constant */
 	.flex-container .flex-item-picture-full img {
 		width: auto;
-		height: 405px;
+		height: 450px;
 		transform: translate(-50%, 0%);
 	}
 
 	.flex-container .flex-item-picture-full-height img {
-		height: 405px;
+		height: 450px;
 		transform: translate(-50%, 0%);
 	}
 	
@@ -980,7 +980,7 @@ header#home h1 {
 @media(max-width:719px){
 
 	header#home {
-		height: 405px;
+		height: 450px;
 	}
 	
 	header#home h1 {

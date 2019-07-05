@@ -21,7 +21,7 @@ insertsbottom	= [
 		[services.list.001]
 			sectionid	= "presentation-creation"
 			title		= "Création de présentations"
-			description	= "Le cœur de mission d'Ideas on Stage est d'aider les dirigeants à communiquer efficacement. Nous vous aidons à définir vos messages et votre stratégie, puis nous écrivons l'histoire, préparons les slides et vous préparons à prendre la parole en public."
+			description	= "Le cœur de notre mission est d'aider les dirigeants à communiquer efficacement. Nous vous aidons à définir vos messages et votre stratégie, nous écrivons l'histoire, préparons les slides et vous préparons à prendre la parole en public."
 			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
