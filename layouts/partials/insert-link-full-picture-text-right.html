@@ -1,0 +1,30 @@
+{{ "<!-- partials:insert-link-full-picture.html -->" | safeHTML }}
+<div class="margint-tiny marginh-tiny {{ if .style }}{{ .style }}{{ end }}">
+	{{ if .sectionid }}<section id="{{ .sectionid }}">{{ end }}
+		<div class="flex-parent-img-txt">
+			<div class="flex-child-img-txt-img">	
+				<a href="{{ with .link }}{{ . }}{{ end }}">
+					{{ if ne .picture "" }}<img src="{{ .picture }}" class="picture">{{ end }}
+				</a>
+			</div>
+	
+			<div class="flex-child-img-txt-txt">
+				<a href="{{ with .link }}{{ . }}{{ end }}">
+					{{ if ne .title "" }}<h3>{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}
+					<p>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
+				</a>
+				{{ if ne .button "" }}
+				<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
+				{{ end }}
+			</div>
+		</div>
+	{{ if .sectionid }}</section>{{ end }}
+</div>
+
+<!--
+<div class="flex-child-img-fixed-height">
+
+</div>
+
+			</div>
+-->

@@ -33,7 +33,7 @@ insertsbottom	= [
 			description	= "Rompe con la rutina. Sorprende a tus invitados."
 			picture		= "/pictures/inserts/home-business-events.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/eventos-corporativos/"
 			button		= "Saber más"
 		[services.list.003]
@@ -42,7 +42,7 @@ insertsbottom	= [
 			description	= "Muestra tu mejor versión sobre el escenario."
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/public-speaking-coaching/"
 			button		= "Saber más"
 		[services.list.004]

@@ -33,7 +33,7 @@ insertsbottom	= [
 			description	= "Organize dynamic and unforgettable events. We work with you to develop agendas and prepare speakers that make a lasting impact."
 			picture		= "/pictures/inserts/home-business-events.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/business-events/"
 			button		= "Learn more"
 		[services.list.003]
@@ -42,7 +42,7 @@ insertsbottom	= [
 			description	= "We offer coaching for public speaking, media training, stage presence and delivery. Our international team can coach you in English, French, Spanish, German and Italian, in Europe and America."
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/public-speaking-coaching/"
 			button		= "Learn more"
 		[services.list.004]

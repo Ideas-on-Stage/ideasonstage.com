@@ -33,7 +33,7 @@ insertsbottom	= [
 			description	= "Organisez des événements dynamiques et inoubliables. Nous travaillons avec vous pour développer le programme et préparer les intervenants."
 			picture		= "/pictures/inserts/home-business-events.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "insert-link-full-picture-text-right.html"
 			link		= "/evenements-entreprise/"
 			button		= "En savoir plus"
 		[services.list.003]
@@ -42,7 +42,7 @@ insertsbottom	= [
 			description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène. Notre équipe internationale peut vous coacher en anglais, français, espagnol, allemand et italien, en Europe et en Amérique."
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "insert-link-full-picture-text-right.html"
 			link		= "/coaching-prise-de-parole-en-public/"
 			button		= "En savoir plus"
 		[services.list.004]

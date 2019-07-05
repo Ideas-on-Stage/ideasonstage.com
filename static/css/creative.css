@@ -131,13 +131,20 @@ time {
 
 .flex-parent {
 	display: flex;
+	overflow: hidden;
+}
+
+.flex-parent-img-txt {
+	display: flex;
+	overflow: hidden;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .flex-child {
-	margin-top: 6px;
-	margin-left: 6px;
-	margin-right: 6px;
 	flex: 1;
+	background-color: #AA23AB;
 }
 
 .flex-child-half {
@@ -145,6 +152,25 @@ time {
 	margin-left: 6px;
 	margin-right: 6px;
 	flex: 1;
+}
+
+.flex-child-img-txt-img {
+	width: 60%;
+	max-width: 768px;
+	background-color: #1245EE;
+}
+
+.flex-child-img-txt-txt {
+	flex: 1;
+	max-width: 512px;
+	padding-right: 80px;
+}
+
+.flex-child-img-txt-img img {
+	display: block;
+	float: right;
+	height: 675px;
+	right: 0px;
 }
 
 .flex-col-parent {
@@ -336,6 +362,26 @@ flex-container .flex-item-text h4 {
 		flex-direction: column;
 	}
 
+	.flex-parent-img-txt {
+		flex-direction: column-reverse;
+	}
+	
+	.flex-child-img-txt-img {
+		width: 100%;
+	}
+	
+	.flex-child-img-txt-img img {
+		height: 405px;
+	}
+
+	.flex-child-img-txt-txt {
+		width: 100%;
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 20px;
+	}
+	
 	.flex-child-half-right {
 		margin-left: 6px;
 	}
@@ -526,6 +572,11 @@ flex-container .flex-item-text h4 {
 .paddingv20 {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.paddingh-medium {
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .paddingv-huge {

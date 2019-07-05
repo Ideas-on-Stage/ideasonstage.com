@@ -32,7 +32,7 @@ insertsbottom	= [
 			description	= "Rompi la routine. Sorprendi i tuoi ospiti"
 			picture		= "/pictures/inserts/home-business-events.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/eventi-corporate/"
 		[services.list.003]
 			sectionid	= "public-speaking-coaching"
@@ -40,7 +40,7 @@ insertsbottom	= [
 			description	= "Sii padrone del palco. Parla con facilità e sicurezza"
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/public-speaking-coaching/"
 		[services.list.004]
 			sectionid	= "presentations-training"

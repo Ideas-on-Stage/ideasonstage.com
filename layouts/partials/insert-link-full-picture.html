@@ -1,27 +1,29 @@
 {{ "<!-- partials:insert-link-full-picture.html -->" | safeHTML }}
 <div class="margint-tiny marginh-tiny">
 	{{ if .sectionid }}<section id="{{ .sectionid }}">{{ end }}
-		<div class="flex-container {{ if .style }}{{ .style }}{{ end }}">
-			<a href="{{ with .link }}{{ . }}{{ end }}">
-				<div class="flex-item-picture-full-height">
-					{{ if ne .picture "" }}<img src="{{ .picture }}" class="picture">{{ end }}
-				</div>
-			</a>
-			<div class="{{ .style }}">
-				<div class="container text-center">
-					<div class="row">
-						<div class="col-xs-12 col-sm-10 col-sm-offset-1 paddingt-tiny">
-							<a href="{{ with .link }}{{ . }}{{ end }}">
-						    	{{ if ne .title "" }}<h3>{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}
-						    	<p>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
-						    </a>
-						    {{ if ne .button "" }}
-							<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
-							{{ end }}
+		<div class="flex-parent">
+			<div class="flex-container {{ if .style }}{{ .style }}{{ end }}">
+				<a href="{{ with .link }}{{ . }}{{ end }}">
+					<div class="flex-item-picture-full-height">
+						{{ if ne .picture "" }}<img src="{{ .picture }}" class="picture">{{ end }}
+					</div>
+				</a>
+				<div class="{{ .style }}">
+					<div class="container text-center">
+						<div class="row">
+							<div class="col-xs-12 col-sm-10 col-sm-offset-1 paddingt-tiny">
+								<a href="{{ with .link }}{{ . }}{{ end }}">
+							    	{{ if ne .title "" }}<h3>{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}
+							    	<p>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
+							    </a>
+							    {{ if ne .button "" }}
+								<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
+								{{ end }}
+							</div>
 						</div>
 					</div>
-				</div>
-			</div><!-- class -->
-		</div><!-- flex-container --> 
+				</div><!-- class -->
+			</div><!-- flex-container -->
+		</div>
 	{{ if .sectionid }}</section>{{ end }}
 </div>
