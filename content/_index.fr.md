@@ -38,7 +38,7 @@ insertsbottom	= [
 			button		= "En savoir plus"
 		[services.list.003]
 			sectionid	= "public-speaking-coaching"
-			title		= "Coaching prise de parole en public"
+			title		= "Coaching prise de parole"
 			description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène. Notre équipe internationale peut vous coacher en anglais, français, espagnol, allemand et italien, en Europe et en Amérique."
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
@@ -47,7 +47,7 @@ insertsbottom	= [
 			button		= "En savoir plus"
 		[services.list.004]
 			sectionid	= "presentations-training"
-			title		= "Formations à l'art de présenter"
+			title		= "Formations à l'art&nbsp;de&nbsp;présenter"
 			description	= "Découvrez nos formations à l'art de présenter, de «&nbsp;The Business Presentation Revolution&nbsp;» à «&nbsp;Women&nbsp;on&nbsp;Stage&nbsp;»."
 			picture		= "/pictures/inserts/home-presentations-training.jpg"
 			style		= "bg-lightgrey"

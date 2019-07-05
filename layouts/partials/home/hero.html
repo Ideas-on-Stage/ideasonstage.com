@@ -10,7 +10,7 @@
 					<ul>
 					{{ $.Scratch.Set "first" "1" }}
 					{{- range .Params.services.list }}
-						<li>{{ .title }}</li>
+						<li>{{ .title | safeHTML }}</li>
 						{{ $.Scratch.Set "first" "0" }}
 					{{- end }}
 					</ul>
