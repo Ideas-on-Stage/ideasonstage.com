@@ -157,12 +157,12 @@ time {
 .flex-child-img-txt-img {
 	width: 60%;
 	max-width: 768px;
-	background-color: #1245EE;
 }
 
 .flex-child-img-txt-txt {
 	flex: 1;
 	max-width: 512px;
+	padding-left: 40px;
 	padding-right: 80px;
 }
 
