@@ -48,7 +48,7 @@ insertsbottom	= [
 		[services.list.004]
 			sectionid	= "presentations-training"
 			title		= "Training & Workshops"
-			description	= "Discover our complete range of presentation training programs, from The Business Presentation Revolution to Women on Stage."
+			description	= "Discover our complete range of presentation training programs, from The Business Presentation Revolution to Women&nbsp;on&nbsp;Stage."
 			picture		= "/pictures/inserts/home-presentations-training.jpg"
 			style		= "bg-lightgrey"
 			layout		= "insert-link-full-picture.html"

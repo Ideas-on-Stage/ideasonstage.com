@@ -8,7 +8,7 @@ showrefs		= false
 showpageslist	= true
 urlredirect		= ""
 url 				= "/business-events/"
-picture			= "/pictures/inserts/home-business-events.jpg"
+picture			= "/business-events/business-events.jpg"
 +++
 
 ## Events & Conferences

@@ -71,4 +71,10 @@ requesttitle		= "Obtenez deux slides en exemple gratuitement !"
 +++
 
 ## De l'idée à la présentation persuasive
-Les présentations classiques n'impressionnent plus. Aujourd'hui pour impressionner votre audience il faut une présentation de qualité professionnelle. Que ce soit pour une proposition commerciale, un lancement de produit, une réunion d'analystes, une conférence, un événement ou toute autre situation nécessitant une présentation de qualité, nos services feront briller votre contenu.
+De bons visuels peuvent décupler l’impact de vos mots. Après avoir terminé votre script, nous en prenons les idées clés et nous créons des visuels spectaculaires pour clarifier et renforcer vos messages.
+
+La première étape est de créer un storyboard visuel, avec les idées d’illustrations. Puis, avec votre accord, notre équipe interne de designers transformera ces croquis en une présentation PowerPoint ou Keynote qui marquera votre auditoire. Ces diapositives pourront être réutilisées librement dans d’autres présentations.
+
+Nous avons mis nos années d’expérience à profit pour développer des outils uniques pour garantir des diapositives parfaites au pixel près. Pas d’éléments mal alignés ou décalés d’un pixel. C’est pourquoi de nombreux dirigeants de maisons de luxe font appel à nous pour leurs présentations les plus importantes.
+
+Nous pouvons également créer des présentations PowerPoint interactives, qui seront utilisées dans des kiosques ou pour suivre une trame non linéaire, par exemple lors d’une réunion de vente. Quel que soit votre besoin, nous pourrons y répondre.
