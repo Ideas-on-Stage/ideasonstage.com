@@ -5,12 +5,7 @@
  */
 
 /*
-	SITE WIDE CUSTOMIZATIONS
-	FOR STANDARD STYLES
- */
- 
-/*
-	COLOR REFERENCES
+	COLORS REFERENCE
 	
 	BLACK #000
 	WHITE #fff
@@ -19,6 +14,19 @@
 	ORANGE #FF8200
 	BLUE # 
 */
+
+/* SIZES REFERENCE
+
+	small screens (smartphones and tablets): up to 767px
+	medium screens (ipads and laptops): from 768px to 1279px
+	large screens (large laptops and screens): from 1280px
+*/
+
+/*
+	SITE WIDE CUSTOMIZATIONS
+	FOR STANDARD STYLES
+ */
+ 
 
 html,
 body {
@@ -132,14 +140,16 @@ time {
 .flex-parent {
 	display: flex;
 	overflow: hidden;
-}
-
-.flex-parent-img-txt {
-	display: flex;
-	overflow: hidden;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+
+.flex-parent .col {
+	flex-direction: column;
+}
+
+.flex-parent .row {
+	flex-direction: row;
 }
 
 .flex-child {
@@ -154,14 +164,32 @@ time {
 	flex: 1;
 }
 
+.flex-child-half-right {
+	margin-left: 0px;
+}
+
+/*
+	flex-parent-img-txt
+	Used to display full width pics with text on the right.
+	left area of pic is cropped / overflows on the left on smaller screens.
+*/
+
+.flex-parent-img-txt {
+	display: flex;
+	overflow: hidden;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 .flex-child-img-txt-img {
 	width: 60%;
-	max-width: 768px;
+	max-width: 1200px;
 }
 
 .flex-child-img-txt-txt {
 	flex: 1;
-	max-width: 512px;
+	max-width: 600px;
 	padding-left: 40px;
 	padding-right: 80px;
 }
@@ -173,10 +201,14 @@ time {
 	right: 0px;
 }
 
+/*
+	FLEX FOR TEXT + PIC IN COLUMN
+*/
 .flex-col-parent {
 	display: flex;
+	overflow: hidden;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -193,9 +225,6 @@ time {
 .flex-col-child-img {
 }
 
-.flex-child-half-right {
-	margin-left: 0px;
-}
 
 .flex-container {
 	position: relative;
@@ -211,7 +240,9 @@ time {
 	border-bottom: 1px solid #FF8400;
 }
 
-/*	.flex-item-picture-full
+/*	
+	FLEX ITEM FOR FULL PIC
+	flex-item-picture-full
 	Full width picture, centered
 	- Up to 1280px, height is constant, left and right sizes are cropped
 	- Above 1280px, pic is full width, bottom is cropped
@@ -229,7 +260,9 @@ time {
 	transform: translate(-50%, 0%);
 }
 
-/*	flex-item-picture-full-height
+/*	
+	FLEX ITEM FOR FULL HEIGHT PICS
+	flex-item-picture-full-height
 	Full height picture, centered
 	- Up to 1280px, height is constant, left and right sizes are cropped
 	- Above 1280px, pic remains full height (no cropping).
@@ -943,6 +976,7 @@ header#home h1 {
 	padding: 0;
 	text-transform: uppercase;
 	font-size: 1.5em;
+	color: #222;
 }
 
 header#home ul {
