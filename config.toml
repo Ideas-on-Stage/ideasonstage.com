@@ -165,7 +165,7 @@ theme        			= "hugo-creative-theme-master"
 		contactphone= "+33 1 46 94 68 18" 
 		buttonText	= "Subscribe"
 		wait		= "Please Wait..."
-		success 	= "Thank you, you will receive our monthly news!"
+		success 	= "Thank you, stay tuned for good news!"
 
 		[params.subscribe.form.email]
 			text = "Your Email *"

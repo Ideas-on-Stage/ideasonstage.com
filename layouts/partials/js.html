@@ -32,7 +32,11 @@ $(function() {
         },
         submitSuccess: function($form, e) {
     	    e.preventDefault();
-    	
+            // new variable to check which form we are working with
+            var formtype = $form.prop('id');
+            
+        
+            // end of new variable  	
     	    var submitButton = $('input[type=submit]', $form);
     	    $.ajax({
     	      type: 'POST',
@@ -46,8 +50,17 @@ $(function() {
 				submitButton.prop('disabled', 'disabled');
     	      }
     	    }).done(function(data) {
-				submitButton.prop('value', '{{ with .Site.Params.contact.success }}{{ . }}{{ end }}');
-    			submitButton.prop('disabled', false);
+    	    	if ($form.prop('id') == "newsForm") {
+    	    		submitButton.prop('value', '{{ with .Site.Params.subscribe.success }}{{ . }}{{ end }}');
+    	    	}
+    	    	else if ($form.prop('id') == "contactForm"){
+    	    		submitButton.prop('value', '{{ with .Site.Params.contact.success }}{{ . }}{{ end }}');
+    	    	}
+    	    	else {
+    	    		submitButton.prop('value', '{{ with .Site.Params.contact.success }}{{ . }}{{ end }}');
+    	    	}
+    	
+    			submitButton.prop('disabled', true);
     			hj('formSubmitSuccessful');
     	    });
         },
