@@ -17,9 +17,15 @@
 
 /* SIZES REFERENCE
 
+	RESPONSIVE WIDTHS BREAKPOINTS
 	small screens (smartphones and tablets): up to 767px
 	medium screens (ipads and laptops): from 768px to 1279px
-	large screens (large laptops and screens): from 1280px
+	large screens (large laptops and screens): 1280px and up
+	
+	RESPONSIVE IMG HEIGHTS (widths scaled to respect ratio)
+	small: 450px
+	medium: 675px
+	large: 720px
 */
 
 /*
@@ -240,6 +246,24 @@ time {
 	border-bottom: 1px solid #FF8400;
 }
 
+/*
+	FLEX ITEM FOR FULL SIZE PIC
+	Special pics with a width of 4000px
+*/
+.flex-container .flex-item-picture-fullsize {
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+}
+
+.flex-container .flex-item-picture-fullsize img {
+	position: relative;
+	width: 2000px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+
 /*	
 	FLEX ITEM FOR FULL PIC
 	flex-item-picture-full
@@ -311,14 +335,55 @@ flex-container .flex-item-text h4 {
 	padding: 0px 20px;
 }
 
+
+/*
+	HEADERs SECTION
+*/
+
+header#home {
+	height: 540px;
+}
+
+header#home h1 {
+	line-height: 1.25;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #222;
+}
+
+header#home ul {
+	padding: none;
+	list-style-type: none;
+	-webkit-padding-start: 0;
+	-moz-padding-start: 0;
+}
+
+header#home li {
+	list-style: none;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
 /*
 	Media queries
 */
 
-@media(min-width:1280px) {
+@media(min-width:1281px) {
 	
 	.flex-container {
 		height: 720px;
+	}
+
+	.flex-container .flex-item-picture-fullsize img {
+		width: 4000px;
+		position: relative;
+		left: 50%;
+		transform: translate(-50%, 0%);
 	}
 
 	.flex-item-picture-full img {
@@ -329,9 +394,14 @@ flex-container .flex-item-text h4 {
 	.flex-container .flex-item-picture-full-height img {
 		height: 720px;
 	}
+
+	header#home {
+		height: 720px;
+	}
+
 }
 
-@media(max-width:1279px) {
+@media(max-width:1280px) {
 	
 	.flex-container {
 		height: 540px;
@@ -345,6 +415,7 @@ flex-container .flex-item-text h4 {
 	.flex-container .flex-item-picture-full-height img {
 		height: 540px;
 	}
+	
 }
 
 @media(max-width:719px){
@@ -424,6 +495,15 @@ flex-container .flex-item-text h4 {
 		padding-left: 24px;
 		padding-right: 24px;
 		height: 200px;
+	}
+	
+	
+	header#home {
+		height: 450px;
+	}
+	
+	header#home h1 {
+		font-size: 1.25em;
 	}
 }
 	
@@ -961,83 +1041,6 @@ footer a {
 	border-right: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 }
-
-/*
-	HEADERs SECTION
-*/
-
-header#home {
-	height: 720px;
-}
-
-header#home h1 {
-	line-height: 1.25;
-	margin: 0;
-	padding: 0;
-	text-transform: uppercase;
-	font-size: 1.5em;
-	color: #222;
-}
-
-header#home ul {
-	padding: none;
-	list-style-type: none;
-	-webkit-padding-start: 0;
-	-moz-padding-start: 0;
-}
-
-header#home li {
-	list-style: none;
-	text-align: center;
-	margin-left: 0;
-	margin-right: 0;
-	margin-top: 18px;
-	margin-bottom: 18px;
-}
-
-/*
-	Media queries
-*/
-
-@media(max-width:1279px){
-
-	header#home {
-		height: 540px;
-	}
-
-	.paddingv-huge {
-		padding-top: 60px;
-		padding-bottom: 60px;
-	} 
-	
-	.paddingv-large {
-		padding-top: 45px;
-		padding-bottom: 45px;
-	}
-	
-	.paddingv-medium {
-		padding-top: 30px;
-		padding-bottom: 30px;
-	}
-	
-	.paddingv-small {
-		padding-top: 15px;
-		padding-bottom: 15px;
-	}
-
-}
-
-@media(max-width:719px){
-
-	header#home {
-		height: 450px;
-	}
-	
-	header#home h1 {
-		font-size: 1.25em;
-	}
-}
-
 
 header {
 	position: relative;
