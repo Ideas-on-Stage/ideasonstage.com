@@ -131,13 +131,13 @@ li {
 	- 1201px and more: width and height remain at 1200px x 675px
 	Recommended media size: 1200px x 675px non retina, 2400px x 1350px retina
 */
-.flex-container .flex-item-picture-full {
+.flex-container .img-crop {
 	position: absolute;
 	width: 100%;
 	overflow: hidden;
 }
 
-.flex-container .flex-item-picture-full img {
+.flex-container .img-crop img {
 	width: 1200px;
 	position: relative;
 	left: 50%;
@@ -183,7 +183,7 @@ flex-container .flex-item-text h4 {
 		height: 675px;
 	}
 	
-	.flex-container .flex-item-picture-full img {
+	.flex-container .img-crop img {
 		width: 1200px;
 		height: 675px;
 		transform: translate(-50%, 0%);
@@ -195,7 +195,7 @@ flex-container .flex-item-text h4 {
 		height: 558px;
 	}
 
-	.flex-container .flex-item-picture-full img {
+	.flex-container .img-crop img {
 		width: 992px;
 		height: 558px;
 		transform: translate(-50%, 0%);
@@ -207,7 +207,7 @@ flex-container .flex-item-text h4 {
 		height: 432px;
 	}
 
-	.flex-container .flex-item-picture-full img {
+	.flex-container .img-crop img {
 		width: 768px;
 		height: 432px;
 		transform: translate(-50%, 0%);

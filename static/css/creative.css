@@ -138,6 +138,7 @@ time {
 }
 
 
+
 /*
 	FLEX CONTAINERS
 	Used to manage flexboxes
@@ -188,23 +189,19 @@ time {
 	align-items: center;
 }
 
-.flex-child-img-txt-img {
-	width: 60%;
-	max-width: 1200px;
-}
 
-.flex-child-img-txt-txt {
+.flex-child-40p {
 	flex: 1;
 	max-width: 600px;
+	width: 40%;
 	padding-left: 40px;
 	padding-right: 80px;
 }
 
-.flex-child-img-txt-img img {
-	display: block;
-	float: right;
-	height: 675px;
-	right: 0px;
+.flex-child-60p {
+	flex: 1;
+	max-width: 1200px;
+	width: 60%;
 }
 
 /*
@@ -219,6 +216,7 @@ time {
 }
 
 .flex-col-child {
+	max-width: 1200px;
 }
 
 .flex-col-child-text {
@@ -237,70 +235,117 @@ time {
 	width: 100%;
 	justify-content: center;
 	overflow: hidden;
-}
-
-.flex-container .flex-container-line {
-	position: absolute;
-	width: 100%;
-	height: 53px;
-	border-bottom: 1px solid #FF8400;
+	height: 675px;
 }
 
 /*
-	FLEX ITEM FOR FULL SIZE PIC
-	Special pics with a width of 4000px
+	PICTURE FORMATS
+	---------------
+
+	img-fullsize-crop
+	--------
+	Size: retina (2 image px = 1 screen px) up to 1280px, then standard
+	Height: fixed by breakpoints
+	Alignment: centered
+	Anchor: top
+	Overflow: hidden
+	Media size: 4000px x 1350px
+	- Image displayed at retina resolution 1 screen pix = 1 img pix
+	- On large screens, image displayed at standard resolution
+
+	img-crop
+	--------
+	Width: scaled based on height (up to 1280px), then full width
+	Height: fixed by breakpoints (up to 1280px), then scaled based on width
+	Alignment: centered
+	Anchor: top
+	Overflow: hidden
+	Media size: 2400px x 1350px
+	- Up to 1280px, pic is full breakpoint height, left and right sizes are cropped if necessary
+	- Above 1280px, pic is full width, bottom is cropped
+
+	img-center
+	----------
+	Width: scaled based on height
+	Height: fixed by breakpoints
+	Alignment: centered
+	Anchor: center
+	Overflow: show
+	Media size: 2400px x 1350px	
+	- Up to 1280px, pic is full breakpoint height, left and right sizes are cropped if necessary
+	- Above 1280px, pic is full breakpoint height (no cropping), left and right sizes are filled with background color if necessary
+
+	img-anchorleft / img-anchorright
+	--------------------------------
+	Width: scaled based on height
+	Height: fixed by breakpoints
+	Alignment: left or right
+	Anchor: anchored left or right
+	Overflow: show
+	Media size: 2400px x 1350px
+	
 */
-.flex-container .flex-item-picture-fullsize {
+
+.img-fullsize-crop {
 	position: absolute;
 	width: 100%;
 	overflow: hidden;
 }
 
-.flex-container .flex-item-picture-fullsize img {
+.img-fullsize-crop img {
 	position: relative;
 	width: 2000px;
 	left: 50%;
 	transform: translate(-50%, 0%);
 }
 
-
-/*	
-	FLEX ITEM FOR FULL PIC
-	flex-item-picture-full
-	Full width picture, centered
-	- Up to 1280px, height is constant, left and right sizes are cropped
-	- Above 1280px, pic is full width, bottom is cropped
-	Recommended media size: 1200px x 675px non retina, 2400px x 1350px retina
-*/
-.flex-container .flex-item-picture-full {
+.img-crop {
 	position: absolute;
 	width: 100%;
 	overflow: hidden;
 }
 
-.flex-container .flex-item-picture-full img {
+
+.img-crop img {
 	position: relative;
 	left: 50%;
+	height: 720px; /* 720px on purpose, to avoid empty bottom */
 	transform: translate(-50%, 0%);
 }
 
-/*	
-	FLEX ITEM FOR FULL HEIGHT PICS
-	flex-item-picture-full-height
-	Full height picture, centered
-	- Up to 1280px, height is constant, left and right sizes are cropped
-	- Above 1280px, pic remains full height (no cropping).
-*/
-.flex-container .flex-item-picture-full-height {
+.img-center {
 	position: absolute;
 	width: 100%;
 	overflow: hidden;
 }
 
-.flex-container .flex-item-picture-full-height img {
+.img-center img {
 	position: relative;
 	left: 50%;
+	height: 675px;
 	transform: translate(-50%, 0%);
+}
+
+.img-anchorleft {
+	max-width: 1200px;
+}
+
+.img-anchorleft img {
+	display: block;
+	float: left;
+	height: 675px;
+	left: 0px;
+}
+
+.img-anchorright {
+	max-width: 1200px;
+}
+
+.img-anchorright img {
+	display: block;
+	float: right;
+	height: 675px;
+	right: 0px;
 }
 
 /*
@@ -341,7 +386,7 @@ flex-container .flex-item-text h4 {
 */
 
 header#home {
-	height: 540px;
+	height: 675px;
 }
 
 header#home h1 {
@@ -373,47 +418,39 @@ header#home li {
 	Media queries
 */
 
-@media(min-width:1281px) {
+@media(min-width:1921px) {
 	
 	.flex-container {
-		height: 720px;
+		height: 900px;
 	}
 
-	.flex-container .flex-item-picture-fullsize img {
+	.img-fullsize-crop img {
 		width: 4000px;
 		position: relative;
 		left: 50%;
 		transform: translate(-50%, 0%);
 	}
 
-	.flex-item-picture-full img {
-			width: 100%;
-			transform: translate(-50%, 0%);
-		}
-
-	.flex-container .flex-item-picture-full-height img {
-		height: 720px;
-	}
-
-	header#home {
-		height: 720px;
-	}
-
-}
-
-@media(max-width:1280px) {
-	
-	.flex-container {
-		height: 540px;
-	}
-	
-	.flex-container .flex-item-picture-full img {
-		height: 720px;
+	.img-crop img {
+		width: 100%;
+		height: auto;
 		transform: translate(-50%, 0%);
 	}
 
-	.flex-container .flex-item-picture-full-height img {
-		height: 540px;
+	.img-center img {
+		height: 900px;
+	}
+	
+	.img-anchorleft img {
+		height: 900px;
+	}
+	
+	.img-anchorright img {
+		height: 900px;
+	}
+	
+	header#home {
+		height: 900px;
 	}
 	
 }
@@ -445,20 +482,27 @@ header#home li {
 	}
 
 	/* On small screens, keep full bleed pic height constant */
-	.flex-container .flex-item-picture-full img {
+	.img-crop img {
 		width: auto;
 		height: 450px;
 		transform: translate(-50%, 0%);
 	}
 
-	.flex-container .flex-item-picture-full-height img {
+	.img-center img {
 		height: 450px;
-		transform: translate(-50%, 0%);
+	}
+	
+	.img-anchorleft img {
+		height: 450px;
+	}
+	
+	.img-anchorright img {
+		height: 450px;
 	}
 	
 	.flex-container .flex-item-text h4 {
 		margin-top: 6px;
-	} 
+	}
 	
 	/* Used to adapt layout to a single column on narrow screens */
 	
@@ -470,15 +514,15 @@ header#home li {
 		flex-direction: column-reverse;
 	}
 	
-	.flex-child-img-txt-img {
+	.flex-child-60p {
 		width: 100%;
 	}
 	
-	.flex-child-img-txt-img img {
+	.flex-child-60p img {
 		height: 405px;
 	}
 
-	.flex-child-img-txt-txt {
+	.flex-child-40p {
 		width: 100%;
 		text-align: center;
 		padding-left: 40px;

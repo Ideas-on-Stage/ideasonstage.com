@@ -143,10 +143,10 @@ li {
 			- background gets cropped left and right progressively,
 			- Size remains fixed VERTICALLY.
 	*/
-	.flex-container .flex-item-picture-full {
+	.flex-container .img-crop {
 	}
 	
-	.flex-container .flex-item-picture-full img {
+	.flex-container .img-crop img {
 		width: 100%;
 		z-index: 10;
 	}
@@ -179,7 +179,7 @@ li {
 		Media queries
 	*/
 	@media(max-width:768px){
-		.flex-container .flex-item-picture-full img {
+		.flex-container .img-crop img {
 			width: 768px;
 		}
 		

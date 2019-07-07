@@ -118,13 +118,13 @@ li {
 			- background gets cropped left and right progressively,
 			- Size remains fixed VERTICALLY.
 	*/
-	.flex-container .flex-item-picture-full {
+	.flex-container .img-crop {
 		position: absolute;
 		width: 100%;
 		overflow: hidden;
 	}
 	
-	.flex-container .flex-item-picture-full img {
+	.flex-container .img-crop img {
 		width: 1200px;
 		position: relative;
 		left: 50%;
@@ -170,7 +170,7 @@ li {
 		height: 675px;
 	}
 	
-	.flex-container .flex-item-picture-full img {
+	.flex-container .img-crop img {
 		width: 1200px;
 		height: 675px;
 		transform: translate(-50%, 0%);
@@ -182,7 +182,7 @@ li {
 		height: 558px;
 	}
 
-	.flex-container .flex-item-picture-full img {
+	.flex-container .img-crop img {
 		width: 992px;
 		height: 558px;
 		transform: translate(-50%, 0%);
@@ -194,7 +194,7 @@ li {
 		height: 432px;
 	}
 
-	.flex-container .flex-item-picture-full img {
+	.flex-container .img-crop img {
 		width: 768px;
 		height: 432px;
 		transform: translate(-50%, 0%);
