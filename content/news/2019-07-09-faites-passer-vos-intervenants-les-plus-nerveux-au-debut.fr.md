@@ -8,7 +8,7 @@ author = "Pierre Morsa"
 banner = "/img/news/scared-presenter.jpg"
 language = "fr"
 +++
-
+ 
 Un des moments les plus stressants lorsqu’on prend la parole en public n’est pas pendant la présentation, mais l’attente *avant* la présentation. Pour certains intervenants, l’attente peut être tellement stressante qu’ils en perdent complètement leurs moyens. Mère nature ne nous a pas dotés d’une réponse appropriée pour faire face à ce type de stress, alors nous adoptons une des techniques de survie classiques : nous « battre » avec le public, fuir, ou faire le mort. Plus l’attente se prolonge, plus le problème empire.
 
 Mon conseil est simple : mettez ces intervenants au début du programme. Vous pouvez démarrer avec un orateur expérimenté, mais je vous recommande de ne pas faire attendre les intervenants nerveux trop longtemps. Cela réduira grandement le risque de blocage sur scène.
