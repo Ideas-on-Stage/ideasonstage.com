@@ -13,7 +13,7 @@ link			= "/formation-presentations/the-business-presentation-revolution/"
 button		= "En savoir plus"
 +++
 
-## Formez vos équipes à donner des formations percutantes
+## Formez vos équipes à donner des présentations percutantes
 
 Des milliers de présentations sont données en entreprise chaque année, et la plupart sont oubliées tout de suite. La formation présentation révolution redéfinit ce qu'est une présentation efficace en entreprise.
 
@@ -30,6 +30,6 @@ La formation présentation révolution peut être adaptée en fonction du besoin
 
 La formation présentation révolution peut être combinée avec du coaching individuel pour aider les participants à mettre en pratique les acquis dans la vie de tous les jours.
 
-Pour former vos équipes à la nouvelle façon de présenter en public, contactez-nous avec le formulaire ci-dessous ou envoyez-nous un email à info@ideasonstage.com
+Pour former vos équipes à la nouvelle façon de présenter en public, contactez-nous avec le formulaire ci-dessous.
 
 [pic1]: /pictures/training-workshops/business-presentation-revolution/bpr.jpg
