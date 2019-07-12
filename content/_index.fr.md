@@ -1,7 +1,7 @@
 +++
 uuid		= "53A30545-4E31-459E-B424-00B2FC0F50C8"
 draft 		= false
-title 		= "Création de Présentations | Événements d'Entreprise | Coaching et Formation à la Prise de Parole"
+title 		= "Présentations, Événements, Coaching Formation Prise de Parole | Ideas on Stage"
 description	= "Agence internationale spécialisée dans la création de présentations, la formation et le coaching en prise de parole en public et les événements d'entreprise. Nous sommes présents aux États-Unis et en Europe."
 
 insertstop		= [
