@@ -5,14 +5,14 @@
  */
 
 /*
-	COLORS REFERENCE
+	COLORS REFERENCE (IoS official colors)
 	
 	BLACK #000
 	WHITE #fff
-	DARK GRAY #222
-	LIGHT GRAY #f2f2f2
-	ORANGE #FF8200
-	BLUE # 
+	DARK GRAY #222 - Header, Footer
+	LIGHT GRAY #f2f2f2 - Background, some lines
+	ORANGE #ff8200 - Primary buttons and highlights
+	BLUE # 00a3e0 - Secondary buttons and highlights
 */
 
 /* SIZES REFERENCE
@@ -20,12 +20,15 @@
 	RESPONSIVE WIDTHS BREAKPOINTS
 	small screens (smartphones and tablets): up to 767px
 	medium screens (ipads and laptops): from 768px to 1920px
-	large screens (large laptops and screens): 1920px and up
+	large screens (really large screens): 1920px and up
 	
 	RESPONSIVE IMG HEIGHTS (widths scaled to respect ratio)
 	small: 450px
 	medium: 675px
 	large: 720px
+	
+	There is an additional breakpoint at 1200px
+	It is used to switch how some 16:9 images are resized
 */
 
 /*
@@ -189,9 +192,8 @@ time {
 	align-items: center;
 }
 
-
 .flex-child-40p {
-	flex: 1;
+	flex: 1 0 1;
 	max-width: 600px;
 	width: 40%;
 	padding-left: 40px;
@@ -199,7 +201,7 @@ time {
 }
 
 .flex-child-60p {
-	flex: 1;
+	flex: 1 0 1;
 	max-width: 1200px;
 	width: 60%;
 }
@@ -309,7 +311,8 @@ time {
 .img-crop img {
 	position: relative;
 	left: 50%;
-	height: 720px; /* 720px on purpose, to avoid empty bottom */
+	width: 100%;
+	height: auto; /* 720px on purpose, to avoid empty bottom */
 	transform: translate(-50%, 0%);
 }
 
@@ -420,6 +423,10 @@ header#home li {
 
 @media(min-width:1921px) {
 	
+	body, a {
+		font-size: 20px;
+	}
+	
 	.flex-container {
 		height: 900px;
 	}
@@ -454,6 +461,22 @@ header#home li {
 	}
 	
 }
+
+/*	Our images have a 16:9 ratio.
+	Standard container height is 675px.
+	1200px is the switching point for img-crop between
+	- fixed height up to 1200px
+	- 100% above
+*/
+
+@media(max-width:1200px) {
+	
+	.img-crop img {
+		width: auto;
+		height: 675px;
+	}
+}
+
 
 @media(max-width:719px){
 
