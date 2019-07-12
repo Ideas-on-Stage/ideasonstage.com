@@ -15,6 +15,9 @@
 	 		{{ partial "subscribe.html" . }}
 	 	    {{ partial "testimonials.html" . }}
 	 	    {{ partial "contact.html" . }}
+	 		{{ if eq .Site.Params.map.enable true }}
+	 			{{ partial "map.html" . }}
+	 		{{ end }}
 	 	</aside>
         {{ partial "footer.html" . }}
         {{ partial "js.html" . }}
