@@ -8,7 +8,7 @@
 					<img src="/pictures/team-members/{{ if .img }}{{ .img }}{{ else }}{{ .name | urlize }}{{ end }}.jpg" class="img-responsive img-left photograph" alt="" itemprop="image">
 		        </div>
 		        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 text">
-					<h1 itemprop="name">{{ .name }}<br />
+					<h1><span itemprop="name">{{ .name }}</span><br />
 						<small><span itemprop="jobTitle">{{ .position }}</span></small>
 					</h1>
 		{{ end }}
