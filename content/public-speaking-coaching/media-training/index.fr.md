@@ -12,6 +12,12 @@ picture		= "/pictures/public-speaking-coaching/media-training/media-training.jpg
 link			= "/coaching-prise-de-parole-en-public/media-training/"
 button		= "En savoir plus"
 
+itemtype		= "Service"
+itemscope		= ""
+itemprop		= ""
+titleprop		= "name"
+descprop		= "description"
+pictureprop		= "image"
 +++
 
 ## Montrez au monde la meilleure version de vous-même

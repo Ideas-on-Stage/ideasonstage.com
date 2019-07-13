@@ -12,6 +12,12 @@ picture		= "/pictures/inserts/public-speaking-coaching-10.jpg"
 link			= "/coaching-prise-de-parole-en-public/coaching-de-dirigeants/"
 button		= "En savoir plus"
 
+itemtype		= "Service"
+itemscope		= ""
+itemprop		= ""
+titleprop		= "name"
+descprop		= "description"
+pictureprop		= "image"
 +++
 
 ## Soyez un leader sur scène

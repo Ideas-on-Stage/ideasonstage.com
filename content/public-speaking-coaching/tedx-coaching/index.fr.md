@@ -15,6 +15,13 @@ picture		= "/coaching-prise-de-parole-en-public/coaching-tedx/tedx-saclay.jpg"
 link			= "/coaching-prise-de-parole-en-public/coaching-tedx/"
 button		= "En savoir plus"
 
+itemtype		= "Service"
+itemscope		= ""
+itemprop		= ""
+titleprop		= "name"
+descprop		= "description"
+pictureprop		= "image"
+
 insertstop		= [
 	"tedx-01",
 	"tedx-02",

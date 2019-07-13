@@ -10,6 +10,13 @@ showrefs		= false
 showpageslist	= true
 url 				= "/agence-creation-presentations/"
 
+itemtype		= "Service"
+itemscope		= ""
+itemprop		= ""
+titleprop		= "name"
+descprop		= "description"
+pictureprop		= "image"
+
 insertstop		= [
 
 ]

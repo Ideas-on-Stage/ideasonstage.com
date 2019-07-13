@@ -10,6 +10,13 @@ showpageslist	= true
 urlredirect		= ""
 url		 		= "/formation-presentations/"
 
+itemtype		= "Service"
+itemscope		= ""
+itemprop		= ""
+titleprop		= "name"
+descprop		= "description"
+pictureprop		= "image"
+
 insertstop		= [
 ]
 

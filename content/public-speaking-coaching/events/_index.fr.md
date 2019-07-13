@@ -7,6 +7,13 @@ categories	= [ "Coaching prise de parole en public" ]
 showrefs	= false
 urlredirect	= ""
 url 		= "/coaching-prise-de-parole-en-public/coaching-tedx/evenements/"
+
+itemtype		= "Service"
+itemscope		= ""
+itemprop		= ""
+titleprop		= "name"
+descprop		= "description"
+pictureprop		= "image"
 +++
 
 Notre service de coaching est taillé sur mesure. Que vous soyez un cadre dirigeant devant présenter sa nouvelle stratégie, un organisateur souhaitant faire coacher les intervenants de son événement ou un créateur de start-up invité à présenter à une grande conférence, notre objectif est le même : vous faire réussir.
