@@ -5,7 +5,7 @@ position 		= "Co-founder - Creative Cat"
 url				= "/equipe/pierre-morsa/"
 weight			= 100
 
-itemtype		= "Person"
+itemtype		= "Founder"
 itemscope		= ""
 itemprop		= ""
 titleprop		= "name"
