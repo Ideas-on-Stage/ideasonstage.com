@@ -1,13 +1,15 @@
 {{ "<!-- partials:insert-full-picture.html -->" | safeHTML }}
 <section id="{{ .sectionid }}" class="{{ .style }}"><!-- section used for full width background -->
 	<div class="flex-container">
+		{{- if .picture }}
 		<div class="img-center">
-			{{ if ne .picture "" }}<img src="{{ .picture }}" class="picture">{{ end }}
+			<img src="{{ .picture }}" class="picture">
 		</div>
+		{{- end }}
 		<div class="{{ .style }}">
 			<div class="flex-item-text-overlay text-center">
-		    	{{ if ne .title "" }}<h3>{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}
-		    	<p>{{ with .description }}{{ . }}{{ end }}</p>
+		    	{{ with .title }}<h3>{{ . }}</h3>{{ end }}
+				{{ with .description }}<p>{{ . }}</p>{{ end }}
 	    	</div>
 		</div>
 	</div>
