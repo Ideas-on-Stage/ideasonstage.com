@@ -391,7 +391,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.fr.map]
 		enable		= true
 		title		= "Où nous trouver"
-		address		= "<span itemprop=\"streetAddress\">138 avenue des Champs Élysées</span> — <span itemprop=\"postalCode\">75008</span> <span itemprop=\"addressLocality\">Paris, France</span> Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
+		address		= "<span itemprop=\"streetAddress\">138 avenue des Champs Élysées</span> — <span itemprop=\"postalCode\">75008</span> <span itemprop=\"addressLocality\">Paris, France</span> — Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
 
 	# ------------------------------		
 	# Revolution
