@@ -340,7 +340,7 @@ theme        			= "hugo-creative-theme-master"
         enable = true
 		title = "Contactez-nous"
 		subtitle  = "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
-		contactphone = "Vous pouvez également nous appeler au 01&nbsp;83&nbsp;75&nbsp;05&nbsp;44."
+		contactphone = "Vous pouvez également nous appeler au <span itemprop=\"telephone\" content=\"+33183750544\">01&nbsp;83&nbsp;75&nbsp;05&nbsp;44.</span>"
 		buttonText = "Envoyer"
 		wait	= "Veuillez patienter..."
 		success = "Merci, nous vous répondrons rapidement."
@@ -391,7 +391,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.fr.map]
 		enable		= true
 		title		= "Où nous trouver"
-		subtitle		= "138 avenue des Champs Élysées — 75008 Paris. Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
+		address		= "<span itemprop=\"streetAddress\">138 avenue des Champs Élysées</span> — <span itemprop=\"postalCode\">75008</span> <span itemprop=\"addressLocality\">Paris, France</span> Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
 
 	# ------------------------------		
 	# Revolution
