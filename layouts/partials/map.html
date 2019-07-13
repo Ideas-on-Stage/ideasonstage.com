@@ -4,7 +4,7 @@
 			    <div class="row">
 			        <div class="col-xs-10 col-xs-offset-1 text-center">
 			   			<h2 class="section-heading">{{ with .Site.Params.map.title }}{{ . | markdownify }}{{ end }}</h2>
-			   				<p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">{{ with .Site.Params.map.address }}{{ . | markdownify }}{{ end }}</p>
+			   				<p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">{{ with .Site.Params.map.address }}{{ . | safeHTML }}{{ end }}</p>
 			   			</div>
 			        </div>
 				</div>
