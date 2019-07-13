@@ -1,7 +1,7 @@
 {{ "<!-- partials:insert-link-full-picture.html -->" | safeHTML }}
 <div class="margint-tiny marginh-tiny">
 	{{ if .sectionid }}<section id="{{ .sectionid }}">{{ end }}
-	{{ if .itemtype }}<div itemprop="{{ .itemprop }}" itemscope="{{ .itemscope }}" itemtype="{{ .itemtype }}">{{ end }}
+	{{ if .itemtype }}<div itemprop="{{ .itemprop }}" itemscope="{{ .itemscope }}" itemtype="https://schema.org/{{ .itemtype }}">{{ end }}
 		<div class="flex-parent">
 			<div class="flex-container {{ if .style }}{{ .style }}{{ end }}">
 				<a href="{{ with .link }}{{ . }}{{ end }}">

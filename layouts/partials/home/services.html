@@ -1,6 +1,6 @@
 {{ "<!-- partials:home:services -->" | safeHTML }}
 <section id="services" >
-	{{ if .Params.services.itemtype }}<div itemprop="{{ .Params.services.itemprop }}" itemscope="{{ .Params.services.itemscope }}" itemtype="{{ .Params.services.itemtype }}">
+	{{ if .Params.services.itemtype }}<div itemprop="{{ .Params.services.itemprop }}" itemscope="{{ .Params.services.itemscope }}" itemtype="https://schema.org/{{ .Params.services.itemtype }}">
 	{{ end }}
     <div class="container paddingt-large">
         <div class="row">

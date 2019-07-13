@@ -20,7 +20,6 @@ insertsbottom	= [
 	itemtype	= "OfferCatalog"
 	itemscope	= ""
 	itemprop	= "hasOfferCatalog"
-	titleprop	= "name"
 	[services.list]
 		[services.list.001]
 			sectionid	= "public-speaking-coaching"
