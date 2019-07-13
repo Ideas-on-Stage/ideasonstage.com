@@ -9,6 +9,13 @@ showpageslist	= true
 urlredirect		= ""
 url 				= "/evenements-entreprise/"
 picture			= "/evenements-entreprise/business-events.jpg"
+
+itemtype		= "Service"
+itemscope		= ""
+itemprop		= ""
+titleprop		= "name"
+descprop		= "description"
+pictureprop		= "image"
 +++
 
 ## Événements & conférences

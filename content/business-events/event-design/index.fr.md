@@ -12,6 +12,12 @@ picture		= "/pictures/corporate-events/event-design/event-design.jpg"
 style		= "bg-white"
 link 		= "/evenements-entreprise/conception-evenements/"
 
+itemtype		= "Service"
+itemscope		= ""
+itemprop		= ""
+titleprop		= "name"
+descprop		= "description"
+pictureprop		= "image"
 +++
 
 ## « Bien » n'est pas assez bien
