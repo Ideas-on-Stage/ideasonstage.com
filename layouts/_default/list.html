@@ -2,6 +2,7 @@
 {{ "<!-- _default:list.html -->" | safeHTML }}
 {{ partial "single-top-common.html" . }}
 	<main>
+		{{ with .Params.Itemtype }}<div itemscope itemtype="https://schema.org/{{ . }}">{{ end }}     
         {{ partial "page-hero.html" . }}
 		{{ if .Params.Picture }}
 			{{ with .Params }}
@@ -11,6 +12,7 @@
         {{ partial "events-tabs.html" . }}
         {{ partial "content.html" . }}
 		{{ partial "pages-list.html" . }}
+		{{ if .Params.Itemtype }}</div>{{ end }}		
     </main>
 	<aside>
         {{ partial "references.html" . }}
