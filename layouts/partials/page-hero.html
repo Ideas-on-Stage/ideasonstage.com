@@ -4,7 +4,7 @@
 <!-- <img src="/pictures{{ .RelPermalink }}/image.png" class="header-content-img img-responsive"> -->
     <div class="header-content">
         <div class="header-content-inner">
-        	<h1>
+        	<h1 {{ with .Params.Titleprop }}itemprop="{{ . }}"{{ end }}>
         		{{ $scratch := newScratch }}
         		{{ $scratch.Set "found" "false" }}
         		{{ if eq ($scratch.Get "found") "false" }}

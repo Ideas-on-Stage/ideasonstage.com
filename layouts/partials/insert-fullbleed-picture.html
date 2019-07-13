@@ -2,7 +2,7 @@
  <section>
 	<div class="flex-container {{ .style }}">
 		<div class="img-crop">
-			<img src="{{ .picture }}" class="picture">
+			<img src="{{ .picture }}" class="picture" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
 		</div>
 	</div>
 </section>

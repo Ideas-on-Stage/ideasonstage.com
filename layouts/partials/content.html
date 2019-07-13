@@ -4,7 +4,9 @@
 	    <div class="container margint-huge marginb-medium">
 	        <div class="row">        
 	        	<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+					{{ with .Params.descprop }}<div itemprop="{{ . }}">{{ end }}
 					{{ with .Content }}{{ . | markdownify }}{{ end }}	
+					{{ with .Params.descprop }}</div>{{ end }}
 		        </div>
 		    </div>
 	    </div>
