@@ -1,11 +1,12 @@
 {{ "<!-- partials:insert-link-full-picture.html -->" | safeHTML }}
 <div class="margint-tiny marginh-tiny">
 	{{ if .sectionid }}<section id="{{ .sectionid }}">{{ end }}
+	{{ if .itemtype }}<div itemprop="{{ .itemprop }}" itemscope="{{ .itemscope }}" itemtype="{{ .itemtype }}">{{ end }}
 		<div class="flex-parent">
 			<div class="flex-container {{ if .style }}{{ .style }}{{ end }}">
 				<a href="{{ with .link }}{{ . }}{{ end }}">
 					<div class="img-center">
-						{{ if ne .picture "" }}<img src="{{ .picture }}" class="picture">{{ end }}
+						{{ if ne .picture "" }}<img src="{{ .picture }}" class="picture" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>{{ end }}
 					</div>
 				</a>
 				<div class="{{ .style }}">
@@ -13,11 +14,11 @@
 						<div class="row">
 							<div class="col-xs-12 col-sm-10 col-sm-offset-1 paddingt-tiny">
 								<a href="{{ with .link }}{{ . }}{{ end }}">
-							    	{{ if ne .title "" }}<h3>{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>{{ end }}
-							    	<p>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
+							    	{{ if ne .title "" }}<h3 {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }}>{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>{{ end }}
+							    	<p {{ if .descprop }}itemprop="{{ .descprop }}"{{ end }}>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
 							    </a>
 							    {{ if ne .button "" }}
-								<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
+								<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary" {{ if .linkprop }}itemprop="{{ .linkprop }}"{{ end }}>{{ with .button }}{{ . }}{{ end }}</a>
 								{{ end }}
 							</div>
 						</div>
@@ -25,5 +26,6 @@
 				</div><!-- class -->
 			</div><!-- flex-container -->
 		</div>
+		{{ if .itemtype }}</div>{{ end }}
 	{{ if .sectionid }}</section>{{ end }}
 </div>

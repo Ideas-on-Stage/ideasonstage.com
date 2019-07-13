@@ -6,6 +6,7 @@
         {{ partial "home/head.html" . }}
     </head>
     <body id="page-top">
+		<div itemscope itemtype="https://schema.org/Corporation">
         {{ partial "nav.html" . }}
         {{ partial "home/hero.html" . }}
         {{ partial "home/content.html" . }}
@@ -21,5 +22,6 @@
 	 	</aside>
         {{ partial "footer.html" . }}
         {{ partial "js.html" . }}
+		</div>
     </body>
 </html>

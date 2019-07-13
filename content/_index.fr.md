@@ -16,7 +16,11 @@ insertsbottom	= [
 ]
 
 [services]
-	title	= "Nos Services"
+	title		= "Nos Services"
+	itemtype	= "OfferCatalog"
+	itemscope	= ""
+	itemprop	= "hasOfferCatalog"
+	titleprop	= "name"
 	[services.list]
 		[services.list.001]
 			sectionid	= "public-speaking-coaching"
@@ -25,8 +29,16 @@ insertsbottom	= [
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
-			link		= "/coaching-prise-de-parole-en-public/"
+			link			= "/coaching-prise-de-parole-en-public/"
 			button		= "En savoir plus"
+			itemtype	= "OfferCatalog"
+			itemscope	= ""
+			itemprop	= "itemListElement"
+			titleprop	= "name"
+			descprop	= "description"
+			pictureprop	= "image"
+			linkprop		= "mainEntityOfPage"
+			
 		[services.list.002]
 			sectionid	= "business-events"
 			title		= "Événements d'entreprise"
@@ -34,8 +46,16 @@ insertsbottom	= [
 			picture		= "/pictures/inserts/home-business-events.jpg"
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
-			link		= "/evenements-entreprise/"
+			link			= "/evenements-entreprise/"
 			button		= "En savoir plus"
+			itemtype	= "OfferCatalog"
+			itemscope	= ""
+			itemprop	= "itemListElement"
+			titleprop	= "name"
+			descprop	= "description"
+			pictureprop	= "image"
+			linkprop		= "mainEntityOfPage"
+
 		[services.list.003]
 			sectionid	= "presentation-creation"
 			title		= "Création de présentations"
@@ -43,8 +63,16 @@ insertsbottom	= [
 			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
-			link		= "/agence-creation-presentations/"
+			link			= "/agence-creation-presentations/"
 			button		= "En savoir plus"
+			itemtype	= "OfferCatalog"
+			itemscope	= ""
+			itemprop	= "itemListElement"
+			titleprop	= "name"
+			descprop	= "description"
+			pictureprop	= "image"
+			linkprop		= "mainEntityOfPage"
+			
 		[services.list.004]
 			sectionid	= "presentations-training"
 			title		= "Formations à l'art&nbsp;de&nbsp;présenter"
@@ -52,8 +80,16 @@ insertsbottom	= [
 			picture		= "/pictures/inserts/home-presentations-training.jpg"
 			style		= "bg-lightgrey"
 			layout		= "insert-link-full-picture.html"
-			link		= "/formation-presentations/"
+			link			= "/formation-presentations/"
 			button		= "En savoir plus"
+			itemtype	= "OfferCatalog"
+			itemscope	= ""
+			itemprop	= "itemListElement"
+			titleprop	= "name"
+			descprop	= "description"
+			pictureprop	= "image"
+			linkprop		= "mainEntityOfPage"
+			
 +++
 
 ## À propos d'Ideas on Stage
