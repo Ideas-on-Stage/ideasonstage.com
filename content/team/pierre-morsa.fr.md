@@ -1,9 +1,16 @@
 +++
-draft		= false
-name		= "Pierre Morsa"
-position 	= "Co-founder - Creative Cat"
-url			= "/equipe/pierre-morsa/"
-weight		= 100
+draft			= false
+name			= "Pierre Morsa"
+position 		= "Co-founder - Creative Cat"
+url				= "/equipe/pierre-morsa/"
+weight			= 100
+
+itemtype		= "Person"
+itemscope		= ""
+itemprop		= ""
+titleprop		= "name"
+descprop		= "description"
+pictureprop		= "image"
 +++
 
 Le meilleur moment pour quitter mon job dans le conseil et créer une startup avec zéro clients est à 40 ans, avec deux jeunes enfants et un crédit pour rembourser un appartement Parisien. Fermer les yeux, respirer, compter jusqu'à 10. Et sauter dans l'inconnu !
