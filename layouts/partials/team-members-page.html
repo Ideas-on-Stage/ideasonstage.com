@@ -12,7 +12,7 @@
 						<small><span itemprop="jobTitle">{{ .position }}</span></small>
 					</h1>
 		{{ end }}
-					<p itemprop="description">{{ with .Content }}{{ . | markdownify }}{{ end }}</p>	
+					<span itemprop="description">{{ with .Content }}{{ . | markdownify }}{{ end }}</span>	
 		        </div>
 	        </div> <!--end row-->      
 	    </div><!-- end container -->
