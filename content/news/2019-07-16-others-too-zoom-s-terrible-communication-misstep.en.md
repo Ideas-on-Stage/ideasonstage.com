@@ -6,7 +6,7 @@ news = ["general"]
 date = "2019-07-16"
 author = "Pierre Morsa"
 banner = "/img/news/finger-pointing.jpg"
-language = "en"
+language = "en" 
 +++
 
 You may have heard about it, a basic security problem was found in Zoom for Mac, that allowed attackers to turn the camera on remotely. Zoom is an application used to organize videoconferences on the web. It works well and has been widely adopted by corporations and individuals seeking to provide a quality service to employees working remotely or on different sites.
