@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eventos Corporativos on </title>
+    <link>https://www.ideasonstage.es/categories/eventos-corporativos/</link>
+    <description>Recent content in Eventos Corporativos on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>© Ideas on Stage</copyright>
+    
+	<atom:link href="https://www.ideasonstage.es/categories/eventos-corporativos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eventos Corporativos</title>
+      <link>https://www.ideasonstage.es/business-events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.es/business-events/</guid>
+      <description>Deja atrás las interminables maratones de PowerPoint y convierte tus eventos en una experiencia interactiva e inolvidable.</description>
+    </item>
+    
+    <item>
+      <title>Keynotes</title>
+      <link>https://www.ideasonstage.es/eventos-corporativos/keynotes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.es/eventos-corporativos/keynotes/</guid>
+      <description>Una keynote o un taller inspiradores para sorprender a tu público o motivar a tu equipo Tanto si estás organizando una conferencia, un evento off-site con tu equipo o un retiro de liderazgo, los participantes disfrutarán nuestras entretenidas e inspiradoras presentaciones realizadas por nuestros experimentados speakers.
+Nuestros speakers han hecho presentaciones en conferencias de primer nivel, en instituciones gubernamentales y en compañías líderes, ya sea como parte de un evento o como talleres de presentaciones off-site para departamentos de la compañía.</description>
+    </item>
+    
+  </channel>
+</rss>

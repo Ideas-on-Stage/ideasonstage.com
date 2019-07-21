@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Business Events on </title>
+    <link>https://www.ideasonstage.com/categories/business-events/</link>
+    <description>Recent content in Business Events on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage</copyright>
+    
+	<atom:link href="https://www.ideasonstage.com/categories/business-events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Event Design</title>
+      <link>https://www.ideasonstage.com/business-events/event-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/business-events/event-design/</guid>
+      <description>When you want your business event or conference, or even just an off-site team meeting, to be memorable for all the right reasons, Ideas on Stage can help you right from the start.
+Our experienced event specialists can help you to understand your objectives, brainstorm to find ideas for how to achieve those objectives, establish a theme, plan workshops, exercises and plenary sessions, and choose the right participants, guest speakers and location.</description>
+    </item>
+    
+  </channel>
+</rss>

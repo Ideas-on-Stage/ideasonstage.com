@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on </title>
+    <link>https://www.ideasonstage.com/categories/</link>
+    <description>Recent content in Categories on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage</copyright>
+    
+	<atom:link href="https://www.ideasonstage.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Business Events</title>
+      <link>https://www.ideasonstage.com/categories/business-events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/categories/business-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Corporate Events</title>
+      <link>https://www.ideasonstage.com/categories/corporate-events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/categories/corporate-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Events</title>
+      <link>https://www.ideasonstage.com/categories/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/categories/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Presentation Creation Agency</title>
+      <link>https://www.ideasonstage.com/categories/presentation-creation-agency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/categories/presentation-creation-agency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Speaking</title>
+      <link>https://www.ideasonstage.com/categories/public-speaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/categories/public-speaking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Speaking Coaching</title>
+      <link>https://www.ideasonstage.com/categories/public-speaking-coaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/categories/public-speaking-coaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TEDx</title>
+      <link>https://www.ideasonstage.com/categories/tedx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/categories/tedx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training &amp; Workshops</title>
+      <link>https://www.ideasonstage.com/categories/training-workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/categories/training-workshops/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

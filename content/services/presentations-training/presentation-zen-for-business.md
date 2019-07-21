@@ -8,7 +8,7 @@ categories	= [ "training-workshops" ]
 showrefs	= true
 redirect	= false
 redirectlink = ""
-url 		= "/training-workshops/presentation-zen-for-business/"
+url 		= "/presentations-training/presentation-zen-for-business/"
 
 aboutheadline    = "The approach that revolutionized presentations all over the world"
 aboutdescription = "<p>Garr Reynolds redefined the rules for business presentations in his best-selling book Presentation Zen. A leading author, designer, former manager at Apple and professor based in Japan, he began the Presentation Zen blog in 2005, and published the first edition of the Presentation Zen book in 2007, followed by the highly successful Presentation Zen Design and The Naked Presenter.</p><p>Garr’s approach takes lessons and principles from Japanese culture, particularly restraint, simplicity and naturalness, and applies them to typical presentations given in conferences and the workplace.</p><p>Ideas on Stage created Presentation Zen for Business together with Garr, blending his unique approach with our business presentation experience. The result is a fun, refreshing workshop for large groups, ideal for department meetings or management retreats, combining a team-building event with a highly useful new approach to business presenting.</p><p>Exclusively delivered by Ideas on Stage, Presentation Zen for Business is available around the world in multiple languages. Bring the magic of Presentation Zen to your company and revolutionize your presentations!</p>"

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>events on </title>
+    <link>https://www.ideasonstage.it/tags/events/</link>
+    <description>Recent content in events on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Sat, 19 Mar 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ideasonstage.it/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TEDX McGill 2016</title>
+      <link>https://www.ideasonstage.it/project/tedx-mcgill-2016/</link>
+      <pubDate>Sat, 19 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.it/project/tedx-mcgill-2016/</guid>
+      <description>Ideas on Stage, gli specialisti globali nell’arte della presentazione, hanno supportato gli speaker di TED nel corso degli ultimi sei anni con grandi risultati. Quest’anno non solo abbiamo fornito i nostri servizi di coaching ma siamo entrati in partnership con Tedx McGill, che si è tenuto all’inizio del mese corrente.
+   View this post on Instagram        Check out our amazing location for our conference !</description>
+    </item>
+    
+  </channel>
+</rss>

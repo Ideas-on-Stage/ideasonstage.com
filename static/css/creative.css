@@ -417,6 +417,20 @@ header#home li {
 	margin-bottom: 18px;
 }
 
+header#pz {
+	position: relative;
+	width: 100%;
+	height:360px;
+	text-align: center;
+	color: #fff;
+	background-image: url(../pictures/pz/home/header.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-color: #aaa;	
+}
 /*
 	Media queries
 */
