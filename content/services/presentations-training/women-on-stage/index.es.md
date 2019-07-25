@@ -6,7 +6,7 @@ weight		= 2
 categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
-slug 		= "/women-on-stage/"
+url 			= "/formacion-presentaciones/women-on-stage/"
 +++
 
 ## ¿Qué es tan especial para las mujeres en su reto de hablar y ser escuchadas?

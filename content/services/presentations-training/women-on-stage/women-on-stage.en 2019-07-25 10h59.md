@@ -6,7 +6,7 @@ weight		= 2
 categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
-slug 		= "/women-on-stage/"
+url	 		= "/women-on-stage/"
 +++
 
 
