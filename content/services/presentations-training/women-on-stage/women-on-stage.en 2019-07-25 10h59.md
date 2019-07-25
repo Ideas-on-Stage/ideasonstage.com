@@ -1,12 +1,12 @@
 +++
-draft		= false
+draft		= true
 title		= "Women on Stage"
 description = "Answer the challenges faced by many women in the workplace, and communicate with your own style."
 weight		= 2
 categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
-url 		= "/presentations-training/women-on-stage/"
+slug 		= "/women-on-stage/"
 +++
 
 

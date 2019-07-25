@@ -1,4 +1,4 @@
-/*!
+ /*!
  * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -950,7 +950,16 @@ section#content h1,
 section#content h2,
 section#content h3,
 section#content h4 {
-	margin-top: 1.5em;
+	margin-top: 40px;
+	margin-bottom: 0.5em;
+}
+
+
+section#content-main h1,
+section#content-main h2,
+section#content-main h3,
+section#content-main h4 {
+	margin-top: 40px;
 	margin-bottom: 0.5em;
 }
 
@@ -959,10 +968,8 @@ section#content p {
 }
 
 section#content-main img {
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 40px;
 }
-
 
 div#inserts-top img {
 	margin-top: 0px;

@@ -1,0 +1,25 @@
+<div class="container paddingt-medium paddingb-small">
+    <div class="row">
+    	<div class="col-xs-12 col-sm-6 col-sm-push-4 margint-small">
+			{{ if isset .Params "link" }}
+			<a href="{{ with .Get "link" }}{{ . }}{{ end }}">
+			{{ end }}
+				{{ if isset .Params "title" }}
+				<h3 class="margint-small">{{ with .Get "title" }}{{ . }}{{ end }}</h3>
+				{{ end }}
+			{{ if isset .Params "link" }}
+			</a>
+			{{ end }}
+		    <p>{{ .Inner | markdownify }}</p>
+		</div>
+		<div id="team-member" class="col-xs-12 col-sm-4 col-sm-pull-6 margint-small">
+			{{ if isset .Params "link" }}
+			<a href="{{ with .Get "link" }}{{ . }}{{ end }}">
+			{{ end }}
+				<img src="{{ .Get "picture" }}" class="img-responsive">
+			{{ if isset .Params "link" }}
+			</a>
+			{{ end }}
+		</div>
+	</div>
+</div>
