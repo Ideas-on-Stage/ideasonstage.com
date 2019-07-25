@@ -28,6 +28,7 @@ insertsbottom	= [
 	"presentation-creation-service-53",
 	"presentation-creation-service-54",
 	"presentation-creation-service-55",
+	"presentation-creation-service-60",
 	"presentation-creation-service-61",
 	"presentation-creation-service-62",
 	"presentation-creation-service-63",

@@ -151,7 +151,6 @@ time {
 	display: flex;
 	overflow: hidden;
 	justify-content: center;
-	align-items: center;
 }
 
 .flex-parent .col {
@@ -160,11 +159,11 @@ time {
 
 .flex-parent .row {
 	flex-direction: row;
+	align-items: flex-start;
 }
 
 .flex-child {
 	flex: 1;
-	background-color: #AA23AB;
 }
 
 .flex-child-half {
@@ -176,6 +175,20 @@ time {
 
 .flex-child-half-right {
 	margin-left: 0px;
+}
+
+.flex-child-onethird {
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+	flex: 1 1 33%;
+}
+
+.flex-child-twothirds {
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+	flex: 1 1 67%;
 }
 
 /*
@@ -827,6 +840,14 @@ header#pz {
 	margin-bottom: 10px;
 }
 
+.marginl-small {
+	margin-left: 12px;
+}
+
+.marginl-tiny {
+	margin-left: 6px;
+}
+
 .margint-huge {
 	margin-top: 96px;
 } 
@@ -962,27 +983,33 @@ section#content-main h2
 	margin-bottom: 0.5em;
 }
 
+section#content-main h3
+{
+	margin-top: 20px;
+	margin-bottom: 0.5em;
+}
+
 section#content p {
 	margin-top: 1em;
 }
 
 section#content-main img {
-	margin-top: 40px;
-}
-
-div#team-member img {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 20px;
 }
 
 div#inserts-top img {
-	margin-top: 0px;
+	margin-top: 20px;
 	margin-bottom: 0px;	
 }
 
 div#inserts-bottom img {
-	margin-top: 0px;
+	margin-top: 20px;
 	margin-bottom: 0px;	
+}
+
+div#storyline-bullet img {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 section#team-members {
