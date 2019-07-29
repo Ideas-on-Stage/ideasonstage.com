@@ -6,7 +6,7 @@ description		= "Changez votre vision des présentations"
 weight			= 4
 categories		= [ "Training & Workshops" ]
 showrefs		= false
-showpageslist	= true
+showpageslist	= false
 urlredirect		= ""
 url		 		= "/formation-presentations/"
 
