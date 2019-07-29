@@ -32,11 +32,11 @@ Initié par Marion Chapsal, *Women on Stage devient “2.0”* grâce à deux no
 
 ## Pourquoi Women on Stage ? 
 
-Le début du XXIe siècle est marqué par une explosion du féminin dans l’univers social et professionnel. Parité, égalité des salaires, règles grammaticales relatives aux genres, mouvement #metoo, publications scientifiques, articles de presse mettant en avant des dirigeantes et entrepreneuses…le monde entier met les *femmes en lumière. Plus que jamais, il est temps qu’elles prennent la parole pour partager fièrement leurs histoires et leur voix avec le monde entier.
+Le début du XXIe siècle est marqué par une explosion du féminin dans l’univers social et professionnel. Parité, égalité des salaires, règles grammaticales relatives aux genres, mouvement #metoo, publications scientifiques, articles de presse mettant en avant des dirigeantes et entrepreneuses…le monde entier met les femmes en lumière. Plus que jamais, il est temps qu’elles prennent la parole pour partager fièrement leurs histoires et leur voix avec le monde entier.
 
 L’idée qu’hommes et femmes soient “égaux” n’est pas une nouveauté. Ce qui est nouveau c’est le changement de perception de la société : **être une femme n’est pas équivalent à être un homme, mais redevient une spécificité, une identité et une force**.
 
-Le monde évolue à toute vitesse. La conscience mondiale tend vers un équilibre, mais à bien des égards, nous sommes toujours en proie aux vieilles habitudes et ne saisissons pas l’opportunité d’agir conformément au nouveau paradigme. Pour faire évoluer efficacement les comportements et la communication, il est important de prendre du recul, de sortir la tête hors de l'eau, d’écouter sa voix intérieure, savoir b échanger, construire un réseau, apprendre des autres et créer ensemble un avenir mieux équilibré.
+Le monde évolue à toute vitesse. La conscience mondiale tend vers un équilibre, mais à bien des égards, nous sommes toujours en proie aux vieilles habitudes et ne saisissons pas l’opportunité d’agir conformément au nouveau paradigme. Pour faire évoluer efficacement les comportements et la communication, il est important de prendre du recul, de sortir la tête hors de l'eau, d’écouter sa voix intérieure, savoir échanger, construire un réseau, apprendre des autres et créer ensemble un avenir mieux équilibré.
 
 Nous avons le choix : attendre encore une décennie ou plus pour que nos paroles et nos actes se rejoignent lentement ou… *Women on Stage 2.0*.
 
@@ -48,15 +48,15 @@ Vous a-t-on déjà coupé l’herbe sous le pied au moment d’exprimer vos idé
 
 Trop de femmes, actives, fortes, impliquées et haut placées luttent encore pour être reconnues et entendues. Trop de femmes hésitent encore avant de partager leur point de vue, sentant leur gorge se serrer et manquant d’air au moment de s’exprimer. Trop de femmes n’osent pas agir, prendre de décisions, s’habiller ou s’exprimer librement, de peur d’être critiquées ou sanctionnées. Pourquoi ?
 
-- Il existe la fameuse théorie de la [double-contrainte](https://www.huffpost.com/entry/obstacles-for-women-in-bu_b_5432624) qui suggère que, dans un monde du travail, les femmes se sentent piégées par le jugement des autres. Elle seraient soit trop “féminines” (comprenez : gentilles, approbatrices, douces) soit trop masculines (lisez : autoritaires, perspicaces, franches).
+- Il existe la fameuse théorie de la [double-contrainte](https://www.huffpost.com/entry/obstacles-for-women-in-bu_b_5432624) qui suggère que, dans un monde du travail, les femmes se sentent piégées par le jugement des autres. Elles seraient soit trop “féminines” (comprenez : gentilles, approbatrices, douces) soit trop masculines (lisez : autoritaires, perspicaces, franches).
 
-- On constate également que la place d’une femme est élevée dans la hiérarchie, plus elle est entourée d’hommes, et nous savons tous qu'il est plus difficile de s’exprimer en tant que minorité. 
+- On constate également que plus la place d’une femme est élevée dans la hiérarchie, plus elle se retrouve isolée au milieu de collègues de sexe masculin, et nous savons tous qu'il est plus difficile de s’exprimer en tant que minorité. 
 
 - Il existe également des études et des statistiques montrant que lors d’une prise de parole, les femmes sont plus fréquemment interrompues que leurs homologues masculins.
  
 - Sans parler des facteurs démotivants tels que [les écarts de salaire](https://www.pewresearch.org/fact-tank/2019/03/22/gender-pay-gap-facts/), la difficulté à concilier la maternité avec les aspirations professionnelles, les préjugés liés au genre,… la liste varie selon les femmes et les cultures, mais elle est toujours trop longue. 
 
-Cet atelier ne repose pas sur l'idée que les femmes seraient des victimes, mais simplement que toute évolution repose sur une prise de conscience. Nous devons identifier les défis et les obstacles auxquels nous sommes confrontés pour pouvoir les surmonter et atteindre un équilibre satisfaisant, libérateur et fructueux. Pour aller plus loin, rejoignez-nous. 
+Cet atelier ne repose pas sur l'idée que les femmes seraient des victimes, mais simplement que **toute évolution repose sur une prise de conscience**. Nous devons identifier les défis et les obstacles auxquels nous sommes confrontés pour pouvoir les surmonter et atteindre un équilibre satisfaisant, libérateur et fructueux. Pour aller plus loin, rejoignez-nous. 
 
 ![Woman asking a question](women-on-stage-04.jpg)
 
@@ -86,13 +86,15 @@ Cet atelier ne repose pas sur l'idée que les femmes seraient des victimes, mais
 
 Lors de l’atelier, nous commençons par créer le groupe grace à un “cercle ouvert” où nous passons du mode de compréhension intellectuel à un mode de communication plus intuitif  : tête, coeur, mains. À partir de là, nous établissons nos objectifs, et partageons les sujets sur lesquels nous souhaitons nous concentrer. Nous définissons alors la ligne d’évolution professionnelle et personnelle qui nous accompagnera au long de la journée, et que nous poursuivrons par la suite.
 
-Les formateurs présentent une vue d'ensemble du contexte socioculturel des femmes qui s'expriment en public aujourd'hui, en s’appuyant sur des faits historiques sur la scène internationale. Nous partageons ensuite les outils essentiels à la création d’une présentation professionnelle réussie. *Au cours de l’atelier, nous pourrons approfondir -en fonction des besoins du groupe- la préparation, la définition des objectifs, les messages clés et un accompagnement plus personnalisé.
+Les formateurs présentent une vue d'ensemble du contexte socioculturel des femmes qui s'expriment en public aujourd'hui, en s’appuyant sur des faits historiques sur la scène internationale. Nous partageons ensuite les outils essentiels à la création d’une présentation professionnelle réussie.*Au cours de l’atelier, nous pourrons approfondir -en fonction des besoins du groupe- la préparation, la définition des objectifs, les messages clés et un accompagnement plus personnalisé.
 
 Par le biais d'exercices de concentration et d'échauffements physiques, les participantes apprennent à se sentir plus à l’aise corporellement, tout en s'exprimant avec clarté, puissance et conviction. Nous pratiquons alors la stabilité et l’équilibre, les pieds plantés et connectés au sol, et travaillons sur la respiration.
 
 A l’issue d’un atelier, nous avons exploré une vision de nous-même plus autonome et plus présente, nous avons identifié nos forces actuelles en tant que leaders et les possibles pistes de progrès, nous avons « pris possession de la scène » en appliquant de nouveaux outils de communication, nous avons partagé et reçu des retours avec le groupe ainsi qu’avec les formateurs et enfin nous nous sommes exercées à nous exprimer avec audace, au-delà notre zone de confort.
 
-Cet atelier est non seulement un levier d’évolution pour les participantes, mais également pour leur entourage professionnel, masculin et féminin. Women on Stage 2.0 est un accélérateur pour cultiver la confiance personnelle et la présence lors de présentations en public, ainsi que pour l'équilibre dans l'environnement professionnel. C’est un investissement pour changer la manière dont le monde dans son ensemble -à commencer par le bureau- perçoit les femmes, cela à la lumière de la façon dont nous nous percevons nous-mêmes.ees and values women—of course, starting with how we see and value ourselves.
+Cet atelier est non seulement un levier d’évolution pour les participantes, mais également pour leur entourage professionnel, masculin et féminin. Women on Stage 2.0 est un accélérateur pour cultiver la confiance personnelle et la présence lors de présentations en public, ainsi que pour l'équilibre dans l'environnement professionnel. C’est un investissement pour changer la manière dont le monde dans son ensemble -à commencer par le bureau- perçoit les femmes, cela à la lumière de la façon dont nous nous percevons nous-mêmes.
+
+\* *Au cours de l’atelier, nous pourrons approfondir -en fonction des besoins du groupe- la préparation, la définition des objectifs, les messages clés et un accompagnement plus personnalisé.*
 
 ## Acquis
 
