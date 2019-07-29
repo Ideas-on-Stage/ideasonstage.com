@@ -25,7 +25,7 @@ Authenticity. Confidence. Leadership. In this professional development training 
 
 Across one or two days (depending on group request), we will offer participants [Ideas on Stage](https://www.ideasonstage.com/public-speaking-coaching/) presentation techniques along with personalized coaching in a supportive group environment. We find participants grow even faster when in a small group due to the benefits of sharing with peers and witnessing others’ breakthroughs. Practicing, even with a small public, helps us to overcome public speaking nerves, to face fears of judgement or failure and take safe risks. This is what ultimately builds the confidence to speak successfully when opportunity arises.
 
-Originally brought to life by Marion Chapsal, today *Women on Stage “*goes *2.0*” with two new torchbearers: [Rose Bloomfield](https://www.ideasonstage.fr/equipe/rose-bloomfield/) and [Frédéric-Pascal Stein](https://www.ideasonstage.fr/equipe/fredericpascal-stein/). Life is not a women’s only club. Which is why we have created a balanced work space with both male and female facilitation of an agenda rich with discussion and hands-on exercises that will raise awareness and develop speaking skills. Rose and Frédéric-Pascal provide a dynamic blend of professional experience and communication expertise allowing them to adapt to the needs and level of each group.
+Originally brought to life by Marion Chapsal, today *Women on Stage “goes 2.0”* with two new torchbearers: [Rose Bloomfield](https://www.ideasonstage.com/team/rose-bloomfield/) and [Frédéric-Pascal Stein](https://www.ideasonstage.com/team/fredericpascal-stein/). Life is not a women’s only club. Which is why we have created a balanced work space with both male and female facilitation of an agenda rich with discussion and hands-on exercises that will raise awareness and develop speaking skills. Rose and Frédéric-Pascal provide a dynamic blend of professional experience and communication expertise allowing them to adapt to the needs and level of each group.
 
 ![When presenting at a conference](women-on-stage-02.jpg)
 
@@ -56,7 +56,7 @@ This workshop is not built upon the idea that women are victims, but we do belie
 
 ![Woman asking a question](women-on-stage-04.jpg)
 
-*“**Women on Stage 2.0* *is your personal accelerator program to become more visible, present and free.”*
+“**Women on Stage 2.0** *is your personal accelerator program to become more visible, present and free.”*
 
 ## Why take the workshop?
 
