@@ -86,7 +86,7 @@ Cet atelier ne repose pas sur l'idée que les femmes seraient des victimes, mais
 
 Lors de l’atelier, nous commençons par créer le groupe grace à un “cercle ouvert” où nous passons du mode de compréhension intellectuel à un mode de communication plus intuitif  : tête, coeur, mains. À partir de là, nous établissons nos objectifs, et partageons les sujets sur lesquels nous souhaitons nous concentrer. Nous définissons alors la ligne d’évolution professionnelle et personnelle qui nous accompagnera au long de la journée, et que nous poursuivrons par la suite.
 
-Les formateurs présentent une vue d'ensemble du contexte socioculturel des femmes qui s'expriment en public aujourd'hui, en s’appuyant sur des faits historiques sur la scène internationale. Nous partageons ensuite les outils essentiels à la création d’une présentation professionnelle réussie.*Au cours de l’atelier, nous pourrons approfondir -en fonction des besoins du groupe- la préparation, la définition des objectifs, les messages clés et un accompagnement plus personnalisé.
+Les formateurs présentent une vue d'ensemble du contexte socioculturel des femmes qui s'expriment en public aujourd'hui, en s’appuyant sur des faits historiques sur la scène internationale. Nous partageons ensuite les outils essentiels à la création d’une présentation professionnelle réussie.
 
 Par le biais d'exercices de concentration et d'échauffements physiques, les participantes apprennent à se sentir plus à l’aise corporellement, tout en s'exprimant avec clarté, puissance et conviction. Nous pratiquons alors la stabilité et l’équilibre, les pieds plantés et connectés au sol, et travaillons sur la respiration.
 
