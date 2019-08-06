@@ -414,6 +414,15 @@ header#home h1 {
 	color: #222;
 }
 
+header#home h2 {
+	line-height: 1.25;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #222;
+}
+
 header#home ul {
 	padding: none;
 	list-style-type: none;
@@ -714,6 +723,10 @@ header#pz {
 
 .text-gray {
 	color: #aaa;
+}
+
+text-dark {
+	color: #222;
 }
 
 .paddingt-huge {
@@ -1573,6 +1586,11 @@ fieldset[disabled] .btn-primary.active {
     padding: 15px 30px;
 }
 
+.btn-slider {
+	padding: 15px 30px;
+	margin-top: 30px;
+}
+
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
@@ -2101,3 +2119,5 @@ label {
 .form-group {
   margin-bottom: 20px;
 }
+
+

@@ -49,43 +49,28 @@ theme        			= "hugo-creative-theme-master"
 		brand 			= "Ideas on Stage"
 		brand_logo		= "/pictures/home/ideas-on-stage.png"
 		language			= "Language"
-		resource		= "Resources"
 		forward			= "View"
 		back			= "Back to Home"
 
 		[params.navigation.items]
+			
 			[params.navigation.items.001]
-				name		 	= "Presentation Creation"
-				url			 	= "/#presentation-creation"
-				frontpageurl 	= "#presentation-creation"
+				name		 	= "Services"
+				url			 	= "/#services"
+				frontpageurl 	= "#services"
 			[params.navigation.items.002]
-				name		 	= "Business Events"
-				url			 	= "/#business-events"
-				frontpageurl 	= "#business-events"	
+				name			= "Videos"
+				url				= "/revolution/"
+				frontpageurl		= "/revolution/"
 			[params.navigation.items.003]
-				name		 	= "Public Speaking Coaching"
-				url			 	= "/#public-speaking-coaching"
-				frontpageurl 	= "#public-speaking-coaching"
+				name			= "Stories"
+				url				= "/news/"
+				frontpageurl		= "/news/"
 			[params.navigation.items.004]
-				name		 	= "Training & Workshops"
-				url			 	= "/#presentations-training"
-				frontpageurl 	= "#presentations-training"	
-		[params.navigation.resources]
-				
-				[params.navigation.resources.001]
-					name			= "Videos"
-					url				= "/revolution/"
-					frontpageurl		= "/revolution/"
-				[params.navigation.resources.002]
-					name			= "Stories"
-					url				= "/news/"
-					frontpageurl		= "/news/"
-		[params.navigation.housekeeping]
-			[params.navigation.housekeeping.001]
 				name			= "Contact"
 				url				= "#contact"
 				frontpageurl		= "#contact"
-			[params.navigation.housekeeping.002]
+			[params.navigation.items.005]
 				name			= "Team"
 				url				= "/team/"
 				frontpageurl		= "/team/"
