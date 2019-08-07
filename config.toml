@@ -50,6 +50,7 @@ theme        			= "hugo-creative-theme-master"
 		brand_logo		= "/pictures/home/ideas-on-stage.png"
 		language			= "Language"
 		resource		= "Resources"
+		service			= "Services"
 		forward			= "View"
 		back			= "Back to Home"
 
