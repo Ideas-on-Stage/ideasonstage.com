@@ -60,7 +60,7 @@ insertsbottom	= [
 		[slider.list.001]
 			bgimage ="/pictures/home/slider2-min.jpg"
 			title = "WOMEN ON STAGE 2.0"
-			description = "Your personal accelerator program to become more visible, present and free."
+			description = "Your personal accelerator program to become more visible, present and free when presenting"
 			button = "Learn more"
 			buttonlink = "https://www.ideasonstage.com/presentations-training/women-on-stage/"
 			color = "text-white"
