@@ -11,7 +11,7 @@ url	 		= "/formation-presentations/women-on-stage/"
 
 **Women On Stage 2.0 est un atelier de prise de parole en public et de développement professionnel dédié aux femmes dirigeantes qui souhaitent faire entendre leur voix, être source d’inspiration et prendre la parole avec confiance.**
 
-Prochaine date : **Vendredi 18 octobre 2019** - Allez au bas de la page pour vous inscrire.
+Prochaine date : **Vendredi 25 octobre 2019** - [Allez au bas de la page pour vous inscrire](./#registration).
 
 ![Lorsque vous parlez avec votre équipe](women-on-stage-01.jpg)
 
@@ -119,7 +119,7 @@ Frédéric-Pascal Stein est coach, consultant et rédacteur. Ancien acteur, prof
 
 {{% link-picture1-text2 title="Marion Chapsal" picture="/pictures/team-members/marion-chapsal.jpg" %}}
 
-Coach, formatrice et intervenante, **Marion Chapsal** a initié *Women on Stage* en 2015. L’objectif : transmettre les forces et les outils dont elle dispose pour que les femmes puissent prendre la parole, retrouver l’impact et le leadership qui doivent être le leur au XXI siècle. En renforçant leurs points forts, en explorant leurs limites personnelles et en adoptant des techniques de communication en public, cette formation s’est révélée être un choix efficace et source de grandes transformations pour les dirigeantes, les managers et les entrepreneuses qui l’ont suivi. Aujourd'hui, Marion dirige [sa propre activité](https://etincelleszen.com/about/) axée sur le développement personnel.{{% /link-picture1-text2 %}}
+Coach, formatrice et intervenante, [Marion Chapsal](https://etincelleszen.com/about/) a initié *Women on Stage* en 2015. L’objectif : transmettre les forces et les outils dont elle dispose pour que les femmes puissent prendre la parole, retrouver l’impact et le leadership qui doivent être le leur au XXI siècle. En renforçant leurs points forts, en explorant leurs limites personnelles et en adoptant des techniques de communication en public, cette formation s’est révélée être un choix efficace et source de grandes transformations pour les dirigeantes, les managers et les entrepreneuses qui l’ont suivi. Aujourd'hui, Marion dirige [sa propre activité](https://etincelleszen.com/about/) axée sur le développement personnel.{{% /link-picture1-text2 %}}
 
 
 ## Dates des prochains ateliers à Paris
@@ -133,4 +133,5 @@ Chaque saison, nous organisons un atelier de groupe, en français ou en anglais,
 
 Si vous souhaitez organiser un atelier personnalisé destiné à votre équipe, veuillez nous envoyer un email avec vos dates, vos questions et le but spécifique de l'atelier. Nous nous adapterons à votre demande et à vos besoins.
 
+<span id="registration"></span>
 *Pour toute demande de renseignements ou pour réserver votre place à l'un de nos prochains ateliers, contactez info@ideasonstage.com en indiquant l’objet « Women on Stage 2.0 ». Nous vous contacterons dans les plus bref délais. Merci !*
