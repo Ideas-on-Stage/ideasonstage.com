@@ -120,7 +120,7 @@ In 2015, executive coach, [Marion Chapsal](https://etincelleszen.com/about/) cre
 
 We hold one open group training each season in either French or English based on demand. Facilitators are bilingual so it is never an issue to ask questions or speak in either language. We hold open group trainings in our lovely, luminous and open office space on the Champs-Elysées just steps from the magnificent Arc de Triomphe. The next dates are:
 
-* Friday, October 18, 2019 (Lab)
+* Friday, October 25, 2019 (Lab)
 * Friday, November 8, 2019 (Premier Fall Workshop)
 * Tuesday in January 2020 (Winter New Year’s Jumpstart)—date TBD
 * Thursday in March 2020 (Spring Renewal)—date TBD

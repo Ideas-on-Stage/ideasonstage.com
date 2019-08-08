@@ -126,7 +126,7 @@ Coach, formatrice et intervenante, [Marion Chapsal](https://etincelleszen.com/ab
 
 Chaque saison, nous organisons un atelier de groupe, en français ou en anglais, selon la demande. Les animateurs étant bilingues, poser des questions ou parler dans l'une ou l'autre langue n'est pas un problème. Nous organisons ces ateliers au sein de notre espace de travail situé sur les Champs-Élysées, à quelques pas de l’Arc de Triomphe. Les prochaines dates sont :
 
-* Lab : vendredi 18 octobre 2019
+* Lab : vendredi 25 octobre 2019
 * Avant-première : vendredi 8 novembre 2019 (Atelier d’automne)
 * Janvier 2020 - un mardi (Nouvelle année, nouveau départ) - date à déterminer
 * Mars 2020 - un jeudi (Renouveau du printemps) - date à déterminer
