@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Episode 4: la charrue et les bœufs"
+title 		= "La charrue et les bœufs"
 date		= "2019-03-05"
 cast		= [ "Phil Waknell", "Rose Bloomfield" ]
 description	= "Découvrez comment préparer vos présentations correctement. Ne mettez pas la charrue avant les bœufs."

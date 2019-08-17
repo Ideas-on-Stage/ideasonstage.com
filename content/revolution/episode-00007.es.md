@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Episodio 7: Estrés del momento"
+title 		= "Estrés del momento"
 date		= "2019-06-04"
 cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
 description = "Aprender a gestionar el estrés previo a una presentación."

@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Episode 6: Gestuelle"
+title 		= "Gestuelle"
 date		= "2019-05-17"
 cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
 description = "Une bonne gestuelle augmentera votre présence sur scène. Apprenez comment utiliser votre corps, vos mains et votre visage pendant une présentation."

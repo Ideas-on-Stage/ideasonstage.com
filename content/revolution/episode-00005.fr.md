@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Épisode 5: Réussir ses slides"
+title 		= "Réussir ses slides"
 date		= "2019-05-02"
 cast		= [ "Phil Waknell", "Rose Bloomfield" ]
 description	= "Les idées claires et les messages forts s’appuient sur des slides mémorables. Mais parfois les slides ne sont pas nécessaires. L’ère de « Death by PowerPoint® » est révolue. Prenez 5 minutes pour découvrir 3 étapes clés qui assureront le succès de vos slides."

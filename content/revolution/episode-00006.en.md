@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Episode 6: Gestures"
+title 		= "Gestures"
 date		= "2019-05-17"
 cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
 description = "Good gestures can increase your presence on stage. Learn what to do with your body, your hands, your face while you present."
