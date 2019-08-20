@@ -1086,7 +1086,7 @@ footer a {
 	font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 0.7em;
+	font-size: 0.8em;
 	text-transform: uppercase;
 	color: #DDD;
 }
@@ -1129,6 +1129,7 @@ footer a {
 	color: #DDD;
 	background-color: #222;
 	border: none;
+	font-size: 1em;
 }
 
 .dropdown-menu > li > a {

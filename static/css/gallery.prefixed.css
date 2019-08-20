@@ -704,7 +704,7 @@
   background: #222;
   text-align: center; }
 .gallery .custom-controls {
-  background: #73C16F; }
+  background: #222; }
 
 .gallery header {
   color: white;
@@ -751,7 +751,14 @@
 .gallery .control-operator:nth-of-type(3):target ~ .secondary-controls-3 {
   display: block; }  
 
-.gallery .secondary-controls,
+.gallery .secondary-controls {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: auto; }
+  
 .gallery .secondary-controls-1,
 .gallery .secondary-controls-2,
 .gallery .secondary-controls-3 {
@@ -759,7 +766,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 2;
+  z-index: 3;
   pointer-events: none; }
   
   .gallery .secondary-controls nav,

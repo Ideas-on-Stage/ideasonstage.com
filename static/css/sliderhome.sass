@@ -1,8 +1,8 @@
 /**
- * Carousel.sass
+ * heroslider.sass
  * @author: Dang Van Thanh
- * @github: https://github.com/dangvanthanh/carousel.sass
- * @description: A Simple Carousel Pure CSS Using Sass
+ * @github: https://github.com/dangvanthanh/heroslider.sass
+ * @description: A Simple heroslider Pure CSS Using Sass
  * @version: 1.0.0
  */
 %animation-default {
@@ -10,8 +10,8 @@
   z-index: 3;
 }
 
-@mixin carousel($items, $animation: "default") {
-  .carousel {
+@mixin heroslider($items, $animation: 'default') {
+  .heroslider {
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -23,9 +23,9 @@
       top: 0;
 
       &:checked {
-        ~ .carousel__items .carousel__item,
-        ~ .carousel__prev > label,
-        ~ .carousel__next > label {
+        ~ .heroslider__items .heroslider__item,
+        ~ .heroslider__prev > label,
+        ~ .heroslider__next > label {
           opacity: 0;
         }
       }
@@ -33,15 +33,15 @@
       @for $i from 1 through $items {
         &:nth-child(#{$i}) {
           &:checked {
-            ~ .carousel__items .carousel__item {
-              @if $animation == "default" {
+            ~ .heroslider__items .heroslider__item {
+              @if $animation == 'default' {
                 &:nth-child(#{$i}) {
                   opacity: 1;
                 }
               }
             }
 
-            ~ .carousel__prev {
+            ~ .heroslider__prev {
               > label {
                 @if $i == 1 {
                   &:nth-child(#{$items}) {
@@ -59,7 +59,7 @@
               }
             }
 
-            ~ .carousel__next {
+            ~ .heroslider__next {
               > label {
                 @if $i == $items {
                   &:nth-child(1) {
@@ -73,7 +73,7 @@
               }
             }
 
-            ~ .carousel__nav {
+            ~ .heroslider__nav {
               > label {
                 &:nth-child(#{$i}) {
                   background: #ccc;
@@ -92,7 +92,7 @@
       padding: 0;
       list-style-type: none;
       width: 100%;
-      height: 600px;
+      height: 675px;
       position: relative;
     }
 
@@ -125,14 +125,14 @@
         top: 50%;
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
-        transition: all 0.3s ease;
-        -webkit-transition: all 0.3s ease;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
         opacity: 0;
         z-index: 2;
 
         &:hover,
         &:focus {
-          opacity: 0.5 !important;
+          opacity: .5 !important;
         }
 
         &:before,
@@ -144,13 +144,8 @@
         }
 
         &:before {
-          background: linear-gradient(
-              to top,
-              #fff 0%,
-              #fff 10%,
-              rgba(51, 51, 51, 0) 10%
-            ),
-            linear-gradient(to left, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%);
+          background: linear-gradient(to top, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%),
+                      linear-gradient(to left, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%);
           width: 60%;
           height: 60%;
           top: 20%;
@@ -192,11 +187,12 @@
       z-index: 3;
 
       > label {
-        border: 1px solid #fff;
+        border: 0px solid #fff;
+        background: rgba(255,255,255,0.2);
         display: inline-block;
         border-radius: 50%;
         cursor: pointer;
-        margin: 0 0.125%;
+        margin: 0 .125%;
         width: 20px;
         height: 20px;
       }
@@ -213,15 +209,14 @@
 }
 
 body {
-  background: #fcfcfc;
+  background: #ccc;
   margin: 0;
 }
 
 .container {
-  width: 900px;
+  width: auto;
   min-width: 900px;
   margin: 50px auto;
 }
 
-@include carousel(5);
-
+@include heroslider(5);
