@@ -105,10 +105,10 @@ This training is not only a lever of change for participants, but we believe is 
 
 ## The Team
 
-{{% link-picture1-text2 title="Rose Bloomfield" picture="/pictures/team-members/rose-bloomfield.jpg" %}}
+{{% link-picture1-text2 link="/team/rose-bloomfield/" title="Rose Bloomfield" picture="/pictures/team-members/rose-bloomfield.jpg" %}}
 Rose Bloomfield is a professional public speaker, Master of Ceremonies and presentation coach. With a degree in Cultural Anthropology and experience as a pioneering member at a successful San Francisco startup, Rose brings a California spirit and intercultural understanding to all she does. Through creating safe and powerful space, she supports women (and men) in feeling more confident and at ease when using their voice. Inspired by her mothers’ lead, she is a trained facilitator of the heart-based communication practice, [Council](https://www.centerforcouncil.org/what-is-council.html). Using circle, vision boarding and storytelling, Rose developed an Empowered Public Speaking workshop for young international female alumni of US Embassy programs. With a background in performance, television and production, Rose knows what it means to be a woman on stage. You can s*ee her as host of our video podcast series:* [*The Business Presentation Revolution*](https://www.ideasonstage.com/revolution/)*.*{{% /link-picture1-text2 %}}  
 
-{{% link-picture1-text2 title="Frédéric-Pascal Stein" picture="/pictures/team-members/fredericpascal-stein.jpg" %}}
+{{% link-picture1-text2 link="/team/fredericpascal-stein/" title="Frédéric-Pascal Stein" picture="/pictures/team-members/fredericpascal-stein.jpg" %}}
 Frédéric-Pascal Stein is a coach, stage director and speech writer with professional roots in acting, teaching and writing. Thanks to his broad communication background, Frédéric-Pascal brings a director’s attention to detail and understanding of human motivation, with innovative practices to support clients in rising to their potential. Personal passions include children’s rights, intercultural respect and fostering healthy dynamics between men and women at work. Frédéric-Pascal is committed to furthering gender-balanced leadership through his role as a Presentation Director at Ideas on Stage. In winter 2019, he joined up with Rose to create a new iteration of this beloved workshop while becoming a passionate advocate for *Women on Stage*. {{% /link-picture1-text2 %}}  
 
 {{% link-picture1-text2 title="Marion Chapsal" picture="/pictures/team-members/marion-chapsal.jpg" %}}
