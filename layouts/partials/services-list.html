@@ -1,6 +1,6 @@
 {{ "<!-- partials:pages-list.html -->" | safeHTML }}
 {{ if eq .Params.showpageslist true }}
-{{ $paginator := .Paginate (.Data.Pages) }}
+{{ $paginator := .Paginate (.Site.RegularPages) }}
 {{ range $paginator.Pages }}
 	{{ with .Params }}
 		{{ partial "insert-link-picture2-text1.html" . }}

@@ -12,7 +12,7 @@
     {{- $.Scratch.Add "index" (dict "url" (print "/tags" ($name | relURL)) "title" ($name | humanize) "iconClass" "fa-tag" "type" "tag" "objectID" (print "/tags" ($name | relURL) | md5) ) -}}
 {{- end -}}
 
-{{- range where .Pages "Type" "not in"  (slice "page" "json") -}}
+{{- range where .Site.RegularPages "Type" "not in"  (slice "page" "json") -}}
 
     {{- .Scratch.Set "iconClass" "fa-pencil" -}}
     {{- if eq .Type "quote" -}}
