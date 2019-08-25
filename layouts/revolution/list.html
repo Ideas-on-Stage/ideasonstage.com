@@ -8,7 +8,7 @@
 			{{ $scratch := newScratch }}
 			{{ $scratch.Set "first" "true" }}
 			{{ $scratch.Set "content" .Content }}
-			{{ $paginator := .Paginate (.Site.RegularPages) 5 }}
+			{{ $paginator := .Paginate (where .Site.RegularPages "Type" "revolution") 5 }}
 			{{ $pagenumber := .Paginator.PageNumber }}
 			{{ range $paginator.Pages }}
 				{{ if (and (eq ($scratch.Get "first") "true") (lt $pagenumber "2")) }}
