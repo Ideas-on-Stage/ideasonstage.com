@@ -57,20 +57,20 @@ theme        			= "hugo-creative-theme-master"
 		[params.navigation.items]
 			[params.navigation.items.001]
 				name		 	= "Presentation Creation"
-				url			 	= "/#presentation-creation"
-				frontpageurl 	= "#presentation-creation"
+				url			 	= "/presentation-creation-agency/"
+				frontpageurl 	= "/presentation-creation-agency/"
 			[params.navigation.items.002]
 				name		 	= "Business Events"
-				url			 	= "/#business-events"
-				frontpageurl 	= "#business-events"	
+				url			 	= "/business-events"
+				frontpageurl 	= "/business-events"	
 			[params.navigation.items.003]
 				name		 	= "Public Speaking Coaching"
-				url			 	= "/#public-speaking-coaching"
-				frontpageurl 	= "#public-speaking-coaching"
+				url			 	= "/public-speaking-coaching/"
+				frontpageurl 	= "/public-speaking-coaching/"
 			[params.navigation.items.004]
 				name		 	= "Training & Workshops"
-				url			 	= "/#presentations-training"
-				frontpageurl 	= "#presentations-training"	
+				url			 	= "/presentations-training/"
+				frontpageurl 	= "/presentations-training/"	
 		[params.navigation.resources]
 				
 				[params.navigation.resources.001]
