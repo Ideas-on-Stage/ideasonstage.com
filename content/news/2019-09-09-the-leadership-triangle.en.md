@@ -5,7 +5,7 @@ tags = [ "Public Speaking", "Leadership" ]
 news = ["general"]
 date = "2019-09-09"
 author = "Joe Ross and Michael Rickwood"
-banner = "/img/news/ethos-pathos-logos.jpeg"
+banner = "/img/news/ethos-pathos-logos.jpg"
 language = "en"
 +++
 The Leadership Triangle 
@@ -26,7 +26,7 @@ To get to the heart of meaningful content, the why, we can look back to the Gree
 
 And the motivational compass that asks: What kind of a world do I want to live in anyway? 
 
-![Ethos Pathos Logos Triangle](/img/news/ethos-pathos-logos.jpeg)
+![Ethos Pathos Logos Triangle](/img/news/ethos-pathos-logos.jpg)
 
 In ancient Greece, the principle of the persuasive argument by Aristotle was based on 3 key pillars: Ethos, Logos, and Pathos. Since the Industrial Revolution in the 19th century, the focus in many industries swung to logos: with fact-based and structure being the focused pillar to build upon. Top down, left brain, siloed and reductionist in approach led to a scientific lab like communication style based upon informative data that could be reproduced easily and widely by using primitive means. Today, in the 21st century, with all our high-tech tools, always on multimedia screens, the shift is undeniably towards pathos: the emotional and creative pillar. This has been very welcome but sometimes communication that is too focused only on pathos leaves us with pretty and passionate presentations yet empty and directionless messaging. Ethos has remained present throughout all eras, particularly in the most inspiring of speeches. Leadership, vision and shared experience lighting the way for future generations. 
 
