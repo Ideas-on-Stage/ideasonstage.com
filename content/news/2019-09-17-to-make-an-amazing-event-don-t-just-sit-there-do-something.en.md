@@ -5,7 +5,7 @@ tags = ["Public Speaking", "Events"]
 news = ["general"]
 date = "2019-09-17"
 author = "Pierre Morsa"
-banner = ""
+banner = "/img/news/rose-on-stage.jpg"
 language = "en"
 +++
 What is it about designing events that I love so much? Suddenly I think of cookie dough, the small crunchy granules of sugar blended with butter, the heavenly flavour of vanilla extract and the sublime melt of dark chocolate chips. Even before I bake the cookies, the main ‘event’ in this case, the ingredients themselves have satisfied me. Designing events are similar because I love what goes into making them shine. To create an event that is truly memorable, impactful and enjoyable you need to blend four delicious key ingredients:
@@ -49,3 +49,5 @@ In sum, events can be wonderful, meaningful and valuable, especially when they�
 So remember the four key ingredients to make your next event amazing: purpose, teamwork, creativity and action. We hope this has inspired you even a little with how to turn up the volume on engagement and impact for your next event.
 
 If you’d like to discuss how we can help boost activate these inherent elements and make something unforgettable feel free to reach out directly at info@ideasonstage.com.
+
+![Rose on Stage](/img/news/rose-on-stage.jpg)
