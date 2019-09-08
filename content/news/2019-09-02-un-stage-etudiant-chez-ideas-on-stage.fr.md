@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = "Un stage étudiant chez Ideas on Stage"
 tags = ["Nouvelles"]
 news = ["general"]

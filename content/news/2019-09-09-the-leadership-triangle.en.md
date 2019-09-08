@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = "The leadership Triangle"
 tags = [ "Public Speaking", "Leadership" ]
 news = ["general"]
