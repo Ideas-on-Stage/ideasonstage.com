@@ -1,5 +1,5 @@
 +++
-draft 		= "true"
+draft 		= "false"
 title 		= "Événements mémorables"
 date		= "2019-09-09"
 cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
