@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "The leadership Triangle"
 tags = [ "Public Speaking", "Leadership" ]
 news = ["general"]
@@ -8,8 +8,6 @@ author = "Joe Ross and Michael Rickwood"
 banner = "/img/news/ethos-pathos-logos.jpg"
 language = "en"
 +++
-The Leadership Triangle 
-
 There is one key objective at the heart of all presenting. Persuading the human mind. 
 
 Today there is a war on for attention and space, with the human mind as object of the conquest. In 2019, emotions rule the stage and calm reasoned logic seems to have gone out of fashion. Individually and collectively, most of us are getting our information from sound bites, news summaries, and short burst headlines provided by our iPhone feed; while opinions change from one glance at the screen to the next.
