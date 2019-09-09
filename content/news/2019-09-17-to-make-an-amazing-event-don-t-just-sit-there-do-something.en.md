@@ -50,4 +50,4 @@ So remember the four key ingredients to make your next event amazing: purpose, t
 
 If you’d like to discuss how we can help boost activate these inherent elements and make something unforgettable feel free to reach out directly at info@ideasonstage.com.
 
-![Rose on Stage](/img/news/rose-on-stage.jpg)
+![Rose on Stage ](/img/news/rose-on-stage.jpg)

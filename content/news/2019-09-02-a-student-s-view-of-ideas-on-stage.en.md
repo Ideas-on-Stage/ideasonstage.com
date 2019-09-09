@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "A student’s view of Ideas on Stage"
 tags = ["News"]
 news = ["general"]
