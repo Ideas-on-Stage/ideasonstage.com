@@ -6,7 +6,7 @@ cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
 description = "Trois conseils pour créer un événement d'entreprise original."
 +++
 
-{{% youtube 1BZaJCshACc %}}
+{{% youtube GZzfCyAm_No %}}
 
 **Rose** : La plupart des gens pensent qu’un événement est réussi quand son programme est le plus complet possible. Plus il y en a, mieux c’est. Eh bien, nous pensons différemment : moins c’est mieux, surtout en ce qui concerne les présentations. Aujourd’hui je vais vous donner trois conseils sur la façon de créer un événement extraordinaire en le rendant dynamique.
 

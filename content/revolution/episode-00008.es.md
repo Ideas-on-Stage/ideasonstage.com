@@ -6,7 +6,7 @@ cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
 description = "Tres consejos sobre cómo crear un evento de negocios increíble."
 +++
 
-{{% youtube 1BZaJCshACc %}}
+{{% youtube pCERROM6an0 %}}
 
 **Rose**: La mayoría de la gente piensa que un gran evento es uno que incluye todo en la agenda. Cuanto más, mejor. Bueno, queremos compartir que menos es más[en cursiva], especialmente cuando se trata de presentaciones. Así que hoy tengo tres consejos sobre cómo crear un evento de negocios increíble, haciéndolo activo [en cursiva].
 

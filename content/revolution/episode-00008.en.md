@@ -6,7 +6,7 @@ cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
 description = "Three tips to create amazing business events."
 +++
 
-{{% youtube 1BZaJCshACc %}}
+{{% youtube LsqWSd_lXxs %}}
 
 **Rose**: Most people think that a great event is one that fits everything into the agenda. The more the better. Well, we want to share that less is more, especially when it comes to presentations. Today I'm gonna have three tips for you on how to create an amazing business event by making it active. 
  
