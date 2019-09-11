@@ -1,0 +1,23 @@
+<!-- _default:single.html is used to build most individual pages -->
+{{ "<!-- _default:single.html -->" | safeHTML }}
+{{ partial "single-top-common.html" . }}
+	<main>
+        <section class="bg-dark">
+	
+   	 <div class="container flex-404">
+   	 	
+        <img src="/pictures/404/404.svg" alt="">
+        <div class="error-box">
+        	<h1>Oops, something went wrong</h1>
+        	<h2>It seems we forgot our next line.<br>While we gather our thoughts, use the menu on top to find your way around, or drop us a line with the contact form so we can check what went wrong.</h2>
+        </div>
+	</div>
+	
+</section>
+		
+    </main>
+	<aside>
+       
+        {{ partial "contact.html" . }}
+    </aside>
+{{ partial "single-bottom-common.html" . }}

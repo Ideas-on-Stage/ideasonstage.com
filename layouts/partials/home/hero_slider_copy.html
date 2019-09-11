@@ -1,0 +1,145 @@
+{{ "<!-- partials:home/hero.html -->" | safeHTML }}
+<header id="home">
+<!--
+<div class="flex-container bg-black">
+	<div class="gallery items-3 flex-container bg-black"> 
+	<!-- I've removed autoplay from the time being until I find a good solution for the navigation arrows at the sides-->
+  		<div id="item-1" class="control-operator"></div>
+  		<div id="item-2" class="control-operator"></div>
+  		<div id="item-3" class="control-operator"></div>
+<!-- First element of the slider - Defaults to main hero -->
+  		<figure class="item custom-controls">
+    		<div class="img-fullsize-crop">
+				<img src="/pictures/home/hero.jpg" class="picture">
+			</div>
+    		<div class="header-content">
+		    <div class="header-content-inner">
+		    	<h1>
+					<ul>
+					{{ $.Scratch.Set "first" "1" }}
+					{{- range .Params.services.list }}
+						<li>{{ .title | safeHTML }}</li>
+						{{ $.Scratch.Set "first" "0" }}
+					{{- end }}
+					</ul>
+				</h1>
+			</div>
+		</div>
+  		</figure>
+
+<!-- The rest of slider slides --> 		
+ 		
+		{{ range .Params.slider.list }}
+  		<figure class="item custom-controls {{ with .color}}{{ . }}{{ else }}text-white{{ end }}">
+    		<div class="img-fullsize-crop">
+				<img src="{{ .bgimage }}" class="picture">
+			</div>
+    		<div class="header-content-inner slider">  
+		    	<div class="slider-title">{{ .title }}</div>
+				<div class="slider-subtitle">{{ .description }}</div>
+				<a href="{{ .buttonlink }}">
+					<div class="btn btn-primary btn-slider">{{ .button }}</div>
+				</a>
+			</div>
+  		</figure>
+  		{{ end }}
+-->  		
+ <!-- HERE ARE THE SECONDARY CONTROLS. THERE'S ONE FOR EVERY SLIDE IN THE SLIDER. IT'S A LAME HACK. I DON'T HAVE TIME NOW TO EXPLORE THE NTH-CHILD INTRINCACIES OF CSS. I LEFT THE ORIGINAL CONTROL COMMENTED JUST AS A REFERENCE--> 	
+ 	
+ <!-- 		<div class="secondary-controls">
+			<div class="superfluous">
+				<nav>
+					<a href="#item-1"><img src="pictures/home/arrow-left.svg" alt="Left pointing arrow"></a>
+					<a href="#item-3"><img src="pictures/home/arrow-right.svg" alt="Right pointing arrow"></a>
+				</nav>
+			</div>
+		</div> -->
+<!--		
+		<div class="secondary-controls-1">
+			<div class="superfluous">
+				<nav>
+					<a href="#item-3"><img src="pictures/home/arrow-left.svg" alt="Left pointing arrow"></a>
+					<a href="#item-2"><img src="pictures/home/arrow-right.svg" alt="Right pointing arrow"></a>
+				</nav>
+			</div>
+		</div>
+		<div class="secondary-controls-2">
+			<div class="superfluous">
+				<nav>
+					<a href="#item-1"><img src="pictures/home/arrow-left.svg" alt="Left pointing arrow"></a>
+					<a href="#item-3"><img src="pictures/home/arrow-right.svg" alt="Right pointing arrow"></a>
+				</nav>
+			</div>
+		</div>
+		<div class="secondary-controls-3">
+			<div class="superfluous">
+				<nav>
+					<a href="#item-2"><img src="pictures/home/arrow-left.svg" alt="Left pointing arrow"></a>
+					<a href="#item-1"><img src="pictures/home/arrow-right.svg" alt="Right pointing arrow"></a>
+				</nav>
+			</div>
+		</div>
+<!-- END OF SECONDARY CONTROLS -->		
+		
+<!-- BOTTOM CONTROLS --> 
+  		<div class="controls">
+    		<a href="#item-1" class="control-button">•</a>
+    		<a href="#item-2" class="control-button">•</a>
+    		<a href="#item-3" class="control-button">•</a>
+  		</div>
+<!-- End of BOTTOM CONTROLS -->  		
+	</div>
+-->
+
+<div class="carousel flex-container bg-black">
+		<input type="radio" id="carousel-1" name="carousel[]" checked>
+		<input type="radio" id="carousel-2" name="carousel[]">
+     <input type="radio" id="carousel-3" name="carousel[]">
+		<ul class="flex-container bg-black carousel__items">
+			<li class="carousel__item img-fullsize-crop">
+			<img src="/pictures/home/hero.jpg" alt="">
+			<div class="header-content">
+		    <div class="header-content-inner">
+		    	<h1>
+					<ul>
+					{{ $.Scratch.Set "first" "1" }}
+					{{- range .Params.services.list }}
+						<li>{{ .title | safeHTML }}</li>
+						{{ $.Scratch.Set "first" "0" }}
+					{{- end }}
+					</ul>
+				</h1>
+			</div>
+		</div>
+			</li>
+			{{ range .Params.slider.list }}
+			<li class="carousel__item img-fullsize-crop">
+				<img src="{{ .bgimage }}" alt="">
+				<div class="header-content">
+		    		<div class="header-content-inner">
+		    			<h1>{{ .title }}<h1>
+						<h2>{{ .description }}<h2>
+						<a href="{{ .buttonlink }}">{{ .button }}</a>
+					</div>
+				</div>
+			</li>
+			{{ end }}
+		</ul>
+     <div class="carousel__prev">
+     	<label for="carousel-1"></label>
+     	<label for="carousel-2"></label>
+     	<label for="carousel-3"></label>
+     </div>
+     <div class="carousel__next">
+       <label for="carousel-1"></label>
+       <label for="carousel-2"></label>
+       <label for="carousel-3"></label>
+     </div>
+     <div class="carousel__nav">
+       <label for="carousel-1"></label>
+       <label for="carousel-2"></label>
+       <label for="carousel-3"></label>
+     </div>
+   </div>
+
+</header>

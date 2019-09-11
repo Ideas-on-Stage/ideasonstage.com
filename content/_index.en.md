@@ -54,6 +54,23 @@ insertsbottom	= [
 			layout		= "insert-link-full-picture.html"
 			link			= "/presentations-training/"
 			button		= "Learn more"
+
+[slider]
+	[slider.list]
+		[slider.list.001]
+			bgimage ="/pictures/home/slider2-min.jpg"
+			title = "WOMEN ON STAGE 2.0"
+			description = "Your personal accelerator program to become more visible, present and free when presenting"
+			button = "Learn more"
+			buttonlink = "https://www.ideasonstage.com/presentations-training/women-on-stage/"
+			color = "text-white"
+		[slider.list.002]
+			bgimage ="/pictures/home/slider3-min.jpg"
+			title = "THE BUSINESS PRESENTATION REVOLUTION"
+			description = "Episode 8: Amazing Events"
+			button = "Watch now"
+			buttonlink = "https://www.ideasonstage.com/revolution/episode-00008/"
+			color ="text-white"	
 +++
 
 ## About Ideas on Stage

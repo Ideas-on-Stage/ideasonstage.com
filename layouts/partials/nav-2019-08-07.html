@@ -19,15 +19,7 @@
 		        {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
 		        <div class="collapse navbar-collapse ios-nav" id="bs-example-navbar-collapse-1">
 		            <ul class="nav navbar-nav navbar-right">
-		            
-		            {{ "<!-- Services dropdown menu  -->" | safeHTML }}
-		            
-						<li role="presentation" class="dropdown">
-		                	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" width:100%>
-		                		{{ with .Site.Params.navigation.service }}{{ . }}{{ end }}<span class="caret"></span>
-		                	</a>
-		                	<ul class="dropdown-menu dropdown-menu-right">
-							{{- if .IsHome }}
+		            {{- if .IsHome }}
 						{{- range .Site.Params.navigation.items }}
 		                <li>
 		                    <a class="page-scroll" href="{{ .frontpageurl }}">{{ .name }}</a>
@@ -40,10 +32,6 @@
 						</li>
 						{{- end }}
 		            {{- end }}
-		                	</ul>
-		                </li>
-		            
-		            
 		            
 		            {{ "<!-- Resources dropdown menu  -->" | safeHTML }}
 		            
@@ -59,7 +47,6 @@
 							{{- end }}
 		                	</ul>
 		                </li>
-		            
 		            
 		            {{ "<!-- Contact & Team menus  -->" | safeHTML }}
 		            {{- range .Site.Params.navigation.housekeeping }}

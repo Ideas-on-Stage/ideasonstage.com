@@ -31,7 +31,7 @@ function sliders () {
       itemsMobile: [480, 3]
     })
   }
-  
+/**  
   if ($('.owl-carousel').length) {
     $('.gallery').owlCarousel({
       items: 5,
@@ -40,6 +40,7 @@ function sliders () {
       itemsMobile: [480, 3]
     })
   }
+   **/ 
 }
 
 function utils () {

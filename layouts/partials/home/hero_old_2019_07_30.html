@@ -1,0 +1,21 @@
+{{ "<!-- partials:home/hero.html -->" | safeHTML }}
+<header id="home">
+	<div class="flex-container bg-black">
+		<div class="img-fullsize-crop">
+			<img src="/pictures/home/hero.jpg" class="picture">
+		</div>
+		<div class="header-content">
+		    <div class="header-content-inner">
+		    	<h1>
+					<ul>
+					{{ $.Scratch.Set "first" "1" }}
+					{{- range .Params.services.list }}
+						<li>{{ .title | safeHTML }}</li>
+						{{ $.Scratch.Set "first" "0" }}
+					{{- end }}
+					</ul>
+				</h1>
+			</div>
+		</div>
+	</div>
+</header>
