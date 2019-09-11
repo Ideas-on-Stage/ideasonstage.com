@@ -7,6 +7,7 @@
  * @version: 1.0.0
  */
 .heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__prev > label:nth-child(3), .heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__next > label:nth-child(2), .heroslider > input[type="radio"]:nth-child(2):checked ~ .heroslider__prev > label:nth-child(1), .heroslider > input[type="radio"]:nth-child(2):checked ~ .heroslider__next > label:nth-child(3), .heroslider > input[type="radio"]:nth-child(3):checked ~ .heroslider__prev > label:nth-child(2), .heroslider > input[type="radio"]:nth-child(3):checked ~ .heroslider__next > label:nth-child(1) {
+    visibility: visible;
   opacity: 1 !important;
   z-index: 3;
 }
@@ -36,9 +37,11 @@
 .heroslider > input[type="radio"]:checked ~ .heroslider__items .heroslider__item,
 .heroslider > input[type="radio"]:checked ~ .heroslider__prev > label,
 .heroslider > input[type="radio"]:checked ~ .heroslider__next > label {
+  visibility: hidden;
   opacity: 0;
 }
 .heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__items .heroslider__item:nth-child(1) {
+  visibility: visible;
   opacity: 1;
 }
 .heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__nav > label:nth-child(1) {
@@ -47,6 +50,7 @@
   pointer-events: none;
 }
 .heroslider > input[type="radio"]:nth-child(2):checked ~ .heroslider__items .heroslider__item:nth-child(2) {
+  visibility: visible;
   opacity: 1;
 }
 .heroslider > input[type="radio"]:nth-child(2):checked ~ .heroslider__nav > label:nth-child(2) {
@@ -55,6 +59,7 @@
   pointer-events: none;
 }
 .heroslider > input[type="radio"]:nth-child(3):checked ~ .heroslider__items .heroslider__item:nth-child(3) {
+  visibility: visible;
   opacity: 1;
 }
 .heroslider > input[type="radio"]:nth-child(3):checked ~ .heroslider__nav > label:nth-child(3) {
