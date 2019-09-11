@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Episode 4: Carts and Horses"
+title 		= "Carts and Horses"
 date		= "2019-03-05"
 cast		= [ "Phil Waknell", "Rose Bloomfield" ]
 description	= "If you just found out you need to give a 15-minute presentation tomorrow, how would you prepare? Would you put the cart before the horse? Most people do."

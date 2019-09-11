@@ -11,7 +11,8 @@ url	 		= "/presentations-training/women-on-stage/"
 
 **Women on Stage 2.0 is a public speaking and professional development workshop dedicated to women leaders and executives who want to speak up, inspire and present with confidence.**
 
-Next date: **Friday, October 18, 2019** —Go to the bottom of the page to register.
+
+Next date: **Friday, October 25, 2019**—[Go to the bottom of the page to register](./#registration).
 
 ![When speaking with your team](women-on-stage-01.jpg)
 
@@ -105,26 +106,27 @@ This training is not only a lever of change for participants, but we believe is 
 
 ## The Team
 
-{{% link-picture1-text2 title="Rose Bloomfield" picture="/pictures/team-members/rose-bloomfield.jpg" %}}
+{{% link-picture1-text2 link="/team/rose-bloomfield/" title="Rose Bloomfield" picture="/pictures/team-members/rose-bloomfield.jpg" %}}
 Rose Bloomfield is a professional public speaker, Master of Ceremonies and presentation coach. With a degree in Cultural Anthropology and experience as a pioneering member at a successful San Francisco startup, Rose brings a California spirit and intercultural understanding to all she does. Through creating safe and powerful space, she supports women (and men) in feeling more confident and at ease when using their voice. Inspired by her mothers’ lead, she is a trained facilitator of the heart-based communication practice, [Council](https://www.centerforcouncil.org/what-is-council.html). Using circle, vision boarding and storytelling, Rose developed an Empowered Public Speaking workshop for young international female alumni of US Embassy programs. With a background in performance, television and production, Rose knows what it means to be a woman on stage. You can s*ee her as host of our video podcast series:* [*The Business Presentation Revolution*](https://www.ideasonstage.com/revolution/)*.*{{% /link-picture1-text2 %}}  
 
-{{% link-picture1-text2 title="Frédéric-Pascal Stein" picture="/pictures/team-members/fredericpascal-stein.jpg" %}}
+{{% link-picture1-text2 link="/team/fredericpascal-stein/" title="Frédéric-Pascal Stein" picture="/pictures/team-members/fredericpascal-stein.jpg" %}}
 Frédéric-Pascal Stein is a coach, stage director and speech writer with professional roots in acting, teaching and writing. Thanks to his broad communication background, Frédéric-Pascal brings a director’s attention to detail and understanding of human motivation, with innovative practices to support clients in rising to their potential. Personal passions include children’s rights, intercultural respect and fostering healthy dynamics between men and women at work. Frédéric-Pascal is committed to furthering gender-balanced leadership through his role as a Presentation Director at Ideas on Stage. In winter 2019, he joined up with Rose to create a new iteration of this beloved workshop while becoming a passionate advocate for *Women on Stage*. {{% /link-picture1-text2 %}}  
 
 {{% link-picture1-text2 title="Marion Chapsal" picture="/pictures/team-members/marion-chapsal.jpg" %}}
 
-In 2015, executive coach, **Marion Chapsal** created the original *Women on Stage* workshop. Her mission: support women in finding their voice and develop fully as 21st century leaders. Through enhancing strengths, exploring personal edges and adopting technical public speaking skills, this training has proven to be a practical and transformative choice for executives, managers and entrepreneurs alike. Today, Marion runs her [own practice](https://etincelleszen.com/about/) focused on personal development. {{% /link-picture1-text2 %}}
+In 2015, executive coach, [Marion Chapsal](https://etincelleszen.com/about/) created the original *Women on Stage* workshop. Her mission: support women in finding their voice and develop fully as 21st century leaders. Through enhancing strengths, exploring personal edges and adopting technical public speaking skills, this training has proven to be a practical and transformative choice for executives, managers and entrepreneurs alike. Today, Marion runs her [own practice](https://etincelleszen.com/about/) focused on personal development. {{% /link-picture1-text2 %}}
 
 
 ## Upcoming Workshop Dates in Paris
 
 We hold one open group training each season in either French or English based on demand. Facilitators are bilingual so it is never an issue to ask questions or speak in either language. We hold open group trainings in our lovely, luminous and open office space on the Champs-Elysées just steps from the magnificent Arc de Triomphe. The next dates are:
 
-* Friday, October 18, 2019 (Lab)
-* Friday, November 8, 2019 (Premier Fall Workshop)
+* Friday, October 25, 2019 (Lab)
+* Thursday, November 21, 2019 (Premier Fall Workshop)
 * Tuesday in January 2020 (Winter New Year’s Jumpstart)—date TBD
 * Thursday in March 2020 (Spring Renewal)—date TBD
 
 Each training is tailored to the needs of the organization or group. To coordinate an internal training for your team, please send us an email with your dates, questions and specific purpose of the workshop. 
 
+<span id="registration"></span>
 *For inquiries or to reserve your space at one of our upcoming workshops please use the form below or reach out to* *info@ideasonstage.com* *with “Women on Stage 2.0” in the subject line and one of the facilitators will be back in touch with you shortly. Thank you!*

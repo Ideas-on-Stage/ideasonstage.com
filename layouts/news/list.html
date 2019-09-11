@@ -6,7 +6,9 @@
         <div id="content-main">
             <div class="container" >
 				<!-- For some reason the pagination is not working properly. I'm hardcoding 5 articles in the next line -->
+
                 {{ $paginator := .Paginate (where .Site.RegularPages "Type" "news") 8 }}
+
                 {{ range $paginator.Pages }}
 				<section class="post">
                     <div class="row paddingv-medium">

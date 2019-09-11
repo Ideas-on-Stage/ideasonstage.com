@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Episodio 3: La Audiencia"
+title 		= "La Audiencia"
 date		= "2019-02-11"
 cast		= [ "Phil Waknell", "Rose Bloomfield" ]
 description	= "El ingrediente secreto de cualquier presentación es Tu Audiencia. No olvides hacerte estas preguntas esenciales para asegurarte de que no fallar antes incluso de empezar a hablar."

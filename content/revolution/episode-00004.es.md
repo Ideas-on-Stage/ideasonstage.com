@@ -1,6 +1,6 @@
 +++
 draft 		= "false"
-title 		= "Episodio 4: poner el caballo delante del carro"
+title 		= "Poner el caballo delante del carro"
 date		= "2019-03-05"
 cast		= [ "Phil Waknell", "Rose Bloomfield" ]
 description	= "¿Puedes responder a esta pregunta honestamente? Si te acabaras de enterar de que tienes que hacer una presentación de 15 minutos mañana, ¿cómo te prepararías?"
