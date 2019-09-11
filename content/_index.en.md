@@ -67,9 +67,9 @@ insertsbottom	= [
 		[slider.list.002]
 			bgimage ="/pictures/home/slider3-min.jpg"
 			title = "THE BUSINESS PRESENTATION REVOLUTION"
-			description = "Episode 7: Showtime Stress"
+			description = "Episode 8: Amazing Events"
 			button = "Watch now"
-			buttonlink = "https://www.ideasonstage.com/revolution/episode-00007/"
+			buttonlink = "https://www.ideasonstage.com/revolution/episode-00008/"
 			color ="text-white"	
 +++
 

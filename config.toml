@@ -283,30 +283,48 @@ theme        			= "hugo-creative-theme-master"
 		brand 		= "Ideas on Stage"
 		brand_logo	= "/pictures/home/ideas-on-stage.png"
 		language		= "Langue"
+		resource		= "Ressources"
+		service			= "Services"
 		back		= "Page d'accueil"
-	
+
 		[languages.fr.navigation.items]
-			
 			[languages.fr.navigation.items.001]
-				name			= "Services"
-				url				= "/#services"
-				frontpageurl 	= "#services"
+				name		 	= "Création de présentations"
+				url			 	= "/agence-creation-presentations/"
+				frontpageurl 	= "/agence-creation-presentations/"
 			[languages.fr.navigation.items.002]
-				name			= "Vidéos"
-				url				= "/revolution/"
-				frontpageurl 	= "/revolution/"
+				name		 	= "Événements d'entreprise"
+				url			 	= "/evenements-entreprise/"
+				frontpageurl 	= "/evenements-entreprise"	
 			[languages.fr.navigation.items.003]
-				name			= "Conseils"
-				url				= "/news/"
-				frontpageurl 	= "/news/"
+				name		 	= "Coaching prise de parole"
+				url			 	= "/coaching-prise-de-parole-en-public/"
+				frontpageurl 	= "/coaching-prise-de-parole-en-public/"
 			[languages.fr.navigation.items.004]
+				name		 	= "Formations à l'art de présenter"
+				url			 	= "/formation-presentations/"
+				frontpageurl 	= "/formation-presentations/"	
+		[languages.fr.navigation.resources]
+				
+				[languages.fr.navigation.resources.001]
+					name			= "Videos"
+					url				= "/revolution/"
+					frontpageurl		= "/revolution/"
+				[languages.fr.navigation.resources.002]
+					name			= "Stories"
+					url				= "/news/"
+					frontpageurl		= "/news/"
+		[languages.fr.navigation.housekeeping]
+			[languages.fr.navigation.housekeeping.001]
 				name			= "Contact"
 				url				= "#contact"
-				frontpageurl 	= "#contact"
-			[languages.fr.navigation.items.005]
-				name			= "Équipe"
+				frontpageurl		= "#contact"
+			[languages.fr.navigation.housekeeping.002]
+				name			= "Team"
 				url				= "/equipe/"
-				frontpageurl 	= "/equipe/"
+				frontpageurl		= "/equipe/"
+
+		
 
 		[languages.fr.navigation.languages]
 				
@@ -459,27 +477,48 @@ theme        			= "hugo-creative-theme-master"
 		title		= "Navigation"
 		brand		= "Ideas on Stage"
 		brand_logo	= "/pictures/home/ideas-on-stage.png"
+		resource		= "Recursos"
+		service			= "Servicios"
 		language		= "Idioma"
 		back		= "Ir a Inicio"
 
 		[languages.es.navigation.items]
 			
 			[languages.es.navigation.items.001]
-				name			= "Servicios"
-				url				= "/#services"
-				frontpageurl 	= "#services"
+				name		 	= "Creación de presentaciones"
+				url			 	= "/presentation-creation-agency/"
+				frontpageurl 	= "/presentation-creation-agency/"
 			[languages.es.navigation.items.002]
-				name			= "Videos"
-				url				= "/revolution/"
-				frontpageurl 	= "/revolution"
+				name		 	= "Eventos corporativos"
+				url			 	= "/eventos-corporativos/"
+				frontpageurl 	= "/eventos-corporativos"	
 			[languages.es.navigation.items.003]
+				name		 	= "Public Speaking"
+				url			 	= "/public-speaking-coaching/"
+				frontpageurl 	= "/public-speaking-coaching/"
+			[languages.es.navigation.items.004]
+				name		 	= "Formación"
+				url			 	= "/formacion-presentaciones/"
+				frontpageurl 	= "/formacion-presentaciones/"
+
+
+			
+		[languages.es.navigation.resources]
+				
+				[languages.es.navigation.resources.001]
+					name			= "Videos"
+					url				= "/revolution/"
+					frontpageurl		= "/revolution/"
+			
+		[languages.es.navigation.housekeeping]
+			[languages.es.navigation.housekeeping.001]
 				name			= "Contacto"
 				url				= "#contact"
-				frontpageurl 	= "#contact"
-			[languages.es.navigation.items.004]
+				frontpageurl		= "#contact"
+			[languages.es.navigation.housekeeping.002]
 				name			= "Equipo"
 				url				= "/equipo/"
-				frontpageurl 	= "/equipo/"
+				frontpageurl		= "/equipo/"
 	
 		[languages.es.navigation.languages]
 				
@@ -614,22 +653,43 @@ theme        			= "hugo-creative-theme-master"
 		brand		= "Ideas on Stage"
 		brand_logo	= "/pictures/home/ideas-on-stage.png"
 		language		= "Lingue"
+		resource		= "Risorse"
+		service			= "Servizi"
 		back		= "Back to Home"
-
+			
+			
+		
 		[languages.it.navigation.items]
 			[languages.it.navigation.items.001]
-				name			= "Servizi"
-				url				= "/#services"
-				frontpageurl 	= "#services"
+				name		 	= "Presentation Creation Agency"
+				url			 	= "/presentation-creation-agency/"
+				frontpageurl 	= "/presentation-creation-agency/"
 			[languages.it.navigation.items.002]
+				name		 	= "Eventi Corporate"
+				url			 	= "/eventi-corporate/"
+				frontpageurl 	= "/eventi-corporate"	
+			[languages.it.navigation.items.003]
+				name		 	= "Public Speaking"
+				url			 	= "/public-speaking-coaching/"
+				frontpageurl 	= "/public-speaking-coaching/"
+			[languages.it.navigation.items.004]
+				name		 	= "Training"
+				url			 	= "/training-workshops/the-business-presentation-revolution/"
+				frontpageurl 	= "/training-workshops/the-business-presentation-revolution/"
+				
+	
+			
+		
+		[languages.it.navigation.housekeeping]
+			[languages.it.navigation.housekeeping.001]
 				name			= "Contatti"
 				url				= "#contact"
-				frontpageurl 	= "#contact"
-			[languages.it.navigation.items.003]
+				frontpageurl		= "#contact"
+			[languages.it.navigation.housekeeping.002]
 				name			= "Il Team"
-				url				= "/team/"
-				frontpageurl 	= "/team/"
-
+				url				= "/equipo/"
+				frontpageurl		= "/equipo/"
+		
 		[languages.it.navigation.languages]		
 			[languages.it.navigation.languages.001]
 				name	= "Français"
