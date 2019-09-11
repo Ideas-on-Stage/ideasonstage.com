@@ -11,6 +11,7 @@ url	 		= "/presentations-training/women-on-stage/"
 
 **Women on Stage 2.0 is a public speaking and professional development workshop dedicated to women leaders and executives who want to speak up, inspire and present with confidence.**
 
+
 Next date: **Friday, October 25, 2019**—[Go to the bottom of the page to register](./#registration).
 
 ![When speaking with your team](women-on-stage-01.jpg)
