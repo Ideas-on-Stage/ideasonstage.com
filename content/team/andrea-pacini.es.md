@@ -4,6 +4,7 @@ name		= "Andrea Pacini"
 position 	= "Director de Presentaciones en UK"
 url			= "/equipo/andrea-pacini/"
 weight		= 210
+type 		= "team"
 +++
 Andrea tiene una larga experiencia en ventas para una gran compañía en Londres, liderando projectos de innovación y desarrollo de negocio con grandes clientes en el Reino Unido.
 

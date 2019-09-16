@@ -3,7 +3,7 @@
      <div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1">				
-				{{ range .Site.RegularPages }}
+				{{ range .Pages }}
 					{{ if eq $.Site.Params.languagecode .language }}
 	           			<div class="col-xs-12 col-sm-4 col-lg-3 teambox">
 			   				<a href="{{ .url }}" class="people-box">

@@ -17,7 +17,7 @@
 					<div class="col-xs-12 col-sm-10 col-sm-offset-1">
 						{{ $scratch := newScratch }}
 						{{ $scratch.Set "pl" .RelPermalink }}
-					    {{- $paginator := .Paginate (.Site.RegularPages) 1000 }}
+					    {{- $paginator := .Paginate (.Pages) 1000 }}
 						{{- range .Paginator.Pages.ByWeight }}
 		           			<div class="col-xs-12 col-sm-4 col-lg-3 teambox">
 				   				<a href="{{ if .Params.url }}{{ .Params.url }}{{ else }}{{ $scratch.Get "pl" }}{{ .Params.name | urlize }}/{{ end }}" class="people-box">
