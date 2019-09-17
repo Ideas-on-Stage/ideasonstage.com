@@ -4,7 +4,7 @@ title = "To Make an Amazing Event: Don’t Just Sit There, DO Something"
 tags = ["Public Speaking", "Events"]
 news = ["general"]
 date = "2019-09-17"
-author = "Pierre Morsa"
+author = "Rose Bloomfield"
 banner = "/img/news/rose-on-stage.jpg"
 language = "en"
 +++
@@ -25,11 +25,10 @@ Of course there are times when a classic presentation is just the ticket to open
 - Be Lean: when you use a presentation be sure to reset attention of the audience every 10 minutes according to mind expert John Medina, author of Brain Rules. You can do this in many ways such as by asking a question or sharing a relevant emotionally charged anecdote. Also, the less we tell people, the more they remember. Keep your presentation compelling and clear with 1-3 key messages tops.
 - Panels: gather a few key opinion leaders whether internal or external, aim for diversity, and add a skilled moderator to create a dynamic and energised discussion.
 - Q&A: give your audience a chance to ask their burning questions and aim to be honest, clear, direct and concise in your responses. This can be especially helpful around the rollout of a new program or initiative, or to help rebuild trust around a topic or leader.
-- Round tables: give your team a chance to work in smaller groups to discuss a key question or topic with enough instruction that they are clear how to spend their time and what their objective is and enough freedom to really explore and come to new insight. Then have a spokesperson share a quick update with the larger group.
+- Group activities: give your team a chance to work in smaller groups to discuss a key question or topic with enough instruction that they are clear how to spend their time and what their objective is and enough freedom to really explore and come to new insight. Then have a spokesperson share a quick update with the larger group.
 
 2. Make it active!
-This doesn’t mean people should never sit down during an event or be artifically sporty, nor should you resort to: ‘let’s just throw in an escape game and call it a day’. What we are suggesting is to tap the deeper potential of your team by calling in their whole selves during your event. We are human beings, not laptops. We are meant to move and our brains impressively better when we do. Research shows that movement, creative activities and collaboration improve learning and memory retention. Here are few ideas to get the ball rolling on how to put some action in your event:
-
+This doesn’t mean people should never sit down during an event or be artifically sporty, nor should you resort to: ‘let’s just throw in an escape game and call it a day’. What we are suggesting is to tap the deeper potential of your team by calling in their whole selves during your event. We are human beings, not laptops. We are meant to move and our brains work impressively better when we do. Research shows that movement, creative activities and collaboration improve learning and memory retention. Here are few ideas to get the ball rolling on how to put some action in your event:
 
 - Workshops: when participants can work on something related to the purpose of your event and really get their hands dirty, touch the problem even briefly and look for solutions, new neurons fire and they feel engaged and become invested in finding a way forward and making an impact. 
 - Pitch it: instead of long-winded presentations, try a timed 5-10minute pitch and even more fun if you have a few which can playfully compete on fun criteria like most convincing or most imaginative. 
