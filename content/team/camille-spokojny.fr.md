@@ -1,7 +1,7 @@
 +++
 draft		= false
 name		= "Camille Spokojny"
-position 	= "Directeur Client et Partenaire"
+position 	= "Client & Partner Director"
 url			= "/equipe/camille-spokojny/"
 img			= "camille-spokojny"
 weight		= 230
