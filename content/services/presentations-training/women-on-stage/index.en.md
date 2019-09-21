@@ -116,13 +116,15 @@ Frédéric-Pascal Stein is a coach, stage director and speech writer with profes
 
 In 2015, executive coach, [Marion Chapsal](https://etincelleszen.com/about/) created the original *Women on Stage* workshop. Her mission: support women in finding their voice and develop fully as 21st century leaders. Through enhancing strengths, exploring personal edges and adopting technical public speaking skills, this training has proven to be a practical and transformative choice for executives, managers and entrepreneurs alike. Today, Marion runs her [own practice](https://etincelleszen.com/about/) focused on personal development. {{% /link-picture1-text2 %}}
 
+<span id="registration"></span>
 
 ## Upcoming Workshop Dates in Paris
 
 We hold one open group training each season in either French or English based on demand. Facilitators are bilingual so it is never an issue to ask questions or speak in either language. We hold open group trainings in our lovely, luminous and open office space on the Champs-Elysées just steps from the magnificent Arc de Triomphe. The next dates are:<br><br>
 
 
-* Friday, October 25, 2019 (Lab)
+* **Friday, October 25, 2019 (Lab)**
+
 <div id="eventbrite-widget-container-73400231067" style="height: 270px;"></div>
 
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
@@ -143,13 +145,12 @@ We hold one open group training each season in either French or English based on
     });
 </script>
 
-* Thursday, November 21, 2019 (Premier Fall Workshop)
+* **Thursday, November 21, 2019 (Premier Fall Workshop)**
 
-* Tuesday in January 2020 (Winter New Year’s Jumpstart)—date TBD
+* **Tuesday in January 2020 (Winter New Year’s Jumpstart)—date TBD**
 
-* Thursday in March 2020 (Spring Renewal)—date TBD
+* **Thursday in March 2020 (Spring Renewal)—date TBD**
 
 Each training is tailored to the needs of the organization or group. To coordinate an internal training for your team, please send us an email with your dates, questions and specific purpose of the workshop. 
 
-<span id="registration"></span>
 *For inquiries or to reserve your space at one of our upcoming workshops please use the form below or reach out to* *info@ideasonstage.com* *with “Women on Stage 2.0” in the subject line and one of the facilitators will be back in touch with you shortly. Thank you!*

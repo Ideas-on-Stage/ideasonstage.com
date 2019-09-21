@@ -121,17 +121,40 @@ Frédéric-Pascal Stein est coach, consultant et rédacteur. Ancien acteur, prof
 
 Coach, formatrice et intervenante, [Marion Chapsal](https://etincelleszen.com/about/) a initié *Women on Stage* en 2015. L’objectif : transmettre les forces et les outils dont elle dispose pour que les femmes puissent prendre la parole, retrouver l’impact et le leadership qui doivent être le leur au XXI siècle. En renforçant leurs points forts, en explorant leurs limites personnelles et en adoptant des techniques de communication en public, cette formation s’est révélée être un choix efficace et source de grandes transformations pour les dirigeantes, les managers et les entrepreneuses qui l’ont suivi. Aujourd'hui, Marion dirige [sa propre activité](https://etincelleszen.com/about/) axée sur le développement personnel.{{% /link-picture1-text2 %}}
 
-
+<span id="registration"></span>
 ## Dates des prochains ateliers à Paris
 
 Chaque saison, nous organisons un atelier de groupe, en français ou en anglais, selon la demande. Les animateurs étant bilingues, poser des questions ou parler dans l'une ou l'autre langue n'est pas un problème. Nous organisons ces ateliers au sein de notre espace de travail situé sur les Champs-Élysées, à quelques pas de l’Arc de Triomphe. Les prochaines dates sont :
 
-* Lab : vendredi 25 octobre 2019
-* Avant-première : jeudi 21 novembre 2019 (Atelier d’automne)
-* Janvier 2020 - un mardi (Nouvelle année, nouveau départ) - date à déterminer
-* Mars 2020 - un jeudi (Renouveau du printemps) - date à déterminer
+* **Lab : vendredi 25 octobre 2019**
+
+<div id="eventbrite-widget-container-73400231067" style="height: 270px;"></div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '73400231067',
+        iframeContainerId: 'eventbrite-widget-container-73400231067',
+        // Optional
+        iframeContainerHeight: 270,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
+
+* **Avant-première : jeudi 21 novembre 2019 (Atelier d’automne)**
+
+* **Janvier 2020 - un mardi (Nouvelle année, nouveau départ) - date à déterminer**
+
+* **Mars 2020 - un jeudi (Renouveau du printemps) - date à déterminer**
 
 Si vous souhaitez organiser un atelier personnalisé destiné à votre équipe, veuillez nous envoyer un email avec vos dates, vos questions et le but spécifique de l'atelier. Nous nous adapterons à votre demande et à vos besoins.
 
-<span id="registration"></span>
+
 *Pour toute demande de renseignements ou pour réserver votre place à l'un de nos prochains ateliers, contactez info@ideasonstage.com en indiquant l’objet « Women on Stage 2.0 ». Nous vous contacterons dans les plus bref délais. Merci !*
