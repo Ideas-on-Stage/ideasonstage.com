@@ -119,11 +119,34 @@ In 2015, executive coach, [Marion Chapsal](https://etincelleszen.com/about/) cre
 
 ## Upcoming Workshop Dates in Paris
 
-We hold one open group training each season in either French or English based on demand. Facilitators are bilingual so it is never an issue to ask questions or speak in either language. We hold open group trainings in our lovely, luminous and open office space on the Champs-Elysées just steps from the magnificent Arc de Triomphe. The next dates are:
+We hold one open group training each season in either French or English based on demand. Facilitators are bilingual so it is never an issue to ask questions or speak in either language. We hold open group trainings in our lovely, luminous and open office space on the Champs-Elysées just steps from the magnificent Arc de Triomphe. The next dates are:<br><br>
+
 
 * Friday, October 25, 2019 (Lab)
+<div id="eventbrite-widget-container-73400231067" style="height: 270px;"></div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '73400231067',
+        iframeContainerId: 'eventbrite-widget-container-73400231067',
+        // Optional
+        iframeContainerHeight: 270,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
+
 * Thursday, November 21, 2019 (Premier Fall Workshop)
+
 * Tuesday in January 2020 (Winter New Year’s Jumpstart)—date TBD
+
 * Thursday in March 2020 (Spring Renewal)—date TBD
 
 Each training is tailored to the needs of the organization or group. To coordinate an internal training for your team, please send us an email with your dates, questions and specific purpose of the workshop. 
