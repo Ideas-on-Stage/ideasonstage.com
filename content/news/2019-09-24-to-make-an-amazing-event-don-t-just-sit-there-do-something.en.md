@@ -1,9 +1,9 @@
 +++
-draft = true
+draft = false
 title = "To Make an Amazing Event: Don’t Just Sit There, DO Something"
 tags = ["Public Speaking", "Events"]
 news = ["general"]
-date = "2019-09-17"
+date = "2019-09-24"
 author = "Rose Bloomfield"
 banner = "/img/news/rose-on-stage.jpg"
 language = "en"

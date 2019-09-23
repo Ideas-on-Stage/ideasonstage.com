@@ -1,9 +1,9 @@
 +++
-draft = true
+draft = false
 title = "Pour un événement exceptionnel, FAITES quelque chose"
 tags = ["Prise de parole en public", "Événements"]
 news = ["general"]
-date = "2019-09-17"
+date = "2019-09-24"
 author = "Rose Bloomfield"
 banner = "/img/news/rose-on-stage.jpg"
 language = "fr"
@@ -35,8 +35,10 @@ Cela ne veut pas dire que les personnes ne doivent jamais s'asseoir ou être art
 - Stand-up brainstorms: before hearing a presentation why not ask your team to break out into small groups around a paper board, set a timer and have them brainstorm on a question or issue related to the presentation topic or event. After that they’ll be many times more receptive to hearing what you wanted to share with them because they had the opportunity to reflect first about the need. 
 - Play: have participants improvise a skit, record a video, or write a song in alignment with the purpose of the event. Thinking in new ways and sharing it unleashes new synergy and trust among groups and unleashes new ideas.
 
-## Make it memorable with the unexpected.
-We have seen traditional trade companies host IT conferences and Pharmaceutical teams present new findings in a way that is sprinkled with moments of delight, surprise and breaks. This also makes all the difference. If you know everyone always loves the champagne hour then keep that in and iterate on the type of inspirational speaker or flow of the event. Here are a few ways you might spice things up…
+## Rendez-le mémorable avec de l'inattendu
+Nous avons vu des sociétés traditionnelles accueillir des conférences technologiques et des équipes pharmaceutiques présenter leurs résultats de manière originale, créant un moment de surprise et d'émerveillement dans l'auditoire. Cela fait toute la différence. Tout le monde apprécie 
+ 
+ This also makes all the difference. If you know everyone always loves the champagne hour then keep that in and iterate on the type of inspirational speaker or flow of the event. Here are a few ways you might spice things up…
 
 - Theme: Giving your event a theme is a great way to unite many messages and new information under a meaningful umbrella. We worked on an event called SHIFT, which as you may have guessed was all about “shifting” culture to be more efficient, connected, customer focused and fun. They used activities like test-driving a Tesla and having a formula 1 race simulator available during the breaks. (You can read about the event here.)
 - Team-building: we also worked on a memorable event that included a team-building treasure hunt in small groups all around Athens, where the conference was held. Meaningful connections occur in moments least expected, like while taking shelter from a downpour in a quaint café over hot Greek coffee.

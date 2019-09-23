@@ -2,7 +2,7 @@
 uuid			= "34EAF79C-44A8-497C-B073-31FE7938FCC4"
 draft 			= false
 title 			= "Agence de création de présentations"
-description		= "Impressionnez votre audience avec une présentation PowerPoint de qualité professionnelle."
+description		= "Impressionnez votre auditoire avec une présentation PowerPoint de qualité professionnelle. Nos services sont utilisés par les plus grandes marques."
 weight			= 1
 categories		= [ "Agence de Création" ]
 type			= "presentationcreationservice"
