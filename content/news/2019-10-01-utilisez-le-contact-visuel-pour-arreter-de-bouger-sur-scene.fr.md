@@ -1,7 +1,7 @@
 +++
 draft = true
 title = "Utilisez le contact visuel pour arrêter de bouger sur scène"
-tags = ["Public Speaking", "Debate", "TEDx", "Fear", "Prise de parole en public", "Débat", "Peur"]
+tags = ["Prise de parole en public"]
 news = ["general"]
 date = "2019-10-01"
 author = "Pierre Morsa"
