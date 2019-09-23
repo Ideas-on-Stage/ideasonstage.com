@@ -12,7 +12,27 @@ url	 		= "/presentations-training/women-on-stage/"
 **Women on Stage 2.0 is a public speaking and professional development workshop dedicated to women leaders and executives who want to speak up, inspire and present with confidence.**
 
 
-Next date: **Friday, October 25, 2019**—[Go to the bottom of the page to register](./#registration).
+Next date: **Friday, October 25, 2019** - (French)  <!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.fr/e/women-on-stage-20-lab-tickets-73400231067" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-73400231067" type="button">Buy Tickets</button>
+<noscript></a>Buy Tickets on Eventbrite</noscript>
+
+<script src="https://www.eventbrite.fr/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '73400231067',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-73400231067',
+        onOrderComplete: exampleCallback
+    });
+</script>
 
 ![When speaking with your team](women-on-stage-01.jpg)
 
@@ -123,11 +143,13 @@ In 2015, executive coach, [Marion Chapsal](https://etincelleszen.com/about/) cre
 We hold one open group training each season in either French or English based on demand. Facilitators are bilingual so it is never an issue to ask questions or speak in either language. We hold open group trainings in our lovely, luminous and open office space on the Champs-Elysées just steps from the magnificent Arc de Triomphe. The next dates are:<br><br>
 
 
-* **Friday, October 25, 2019 (Lab)**
+* **Friday, October 25, 2019 (Lab)**  - (French)    	<!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.fr/e/women-on-stage-20-lab-tickets-73400231067" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-73400231067" type="button">Buy Tickets</button>
+<noscript></a>Buy Tickets on Eventbrite</noscript>
 
-<div id="eventbrite-widget-container-73400231067" style="height: 270px;"></div>
-
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<script src="https://www.eventbrite.fr/static/widgets/eb_widgets.js"></script>
 
 <script type="text/javascript">
     var exampleCallback = function() {
@@ -135,21 +157,19 @@ We hold one open group training each season in either French or English based on
     };
 
     window.EBWidgets.createWidget({
-        // Required
         widgetType: 'checkout',
         eventId: '73400231067',
-        iframeContainerId: 'eventbrite-widget-container-73400231067',
-        // Optional
-        iframeContainerHeight: 270,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-73400231067',
+        onOrderComplete: exampleCallback
     });
 </script>
 
-* **Thursday, November 21, 2019 (Premier Fall Workshop)**
+* **Thursday, November 21, 2019 (Premier Fall Workshop)** - (French)
 
-* **Tuesday in January 2020 (Winter New Year’s Jumpstart)—date TBD**
+* **Tuesday in January 2020 (Winter New Year’s Jumpstart)—date TBD**  - (French)
 
-* **Thursday in March 2020 (Spring Renewal)—date TBD**
+* **Thursday in March 2020 (Spring Renewal)—date TBD**  - (French)
 
 Each training is tailored to the needs of the organization or group. To coordinate an internal training for your team, please send us an email with your dates, questions and specific purpose of the workshop. 
 

@@ -11,7 +11,27 @@ url	 		= "/formation-presentations/women-on-stage/"
 
 **Women On Stage 2.0 est un atelier de prise de parole en public et de développement professionnel dédié aux femmes dirigeantes qui souhaitent faire entendre leur voix, être source d’inspiration et prendre la parole avec confiance.**
 
-Prochaine date : **Vendredi 25 octobre 2019** - [Allez au bas de la page pour vous inscrire](./#registration).
+Prochaine date : **Vendredi 25 octobre 2019** - (Français) <!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.fr/e/women-on-stage-20-lab-tickets-73400231067" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-73400231067" type="button">Buy Tickets</button>
+<noscript></a>Buy Tickets on Eventbrite</noscript>
+
+<script src="https://www.eventbrite.fr/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '73400231067',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-73400231067',
+        onOrderComplete: exampleCallback
+    });
+</script>
 
 ![Lorsque vous parlez avec votre équipe](women-on-stage-01.jpg)
 
@@ -126,11 +146,13 @@ Coach, formatrice et intervenante, [Marion Chapsal](https://etincelleszen.com/ab
 
 Chaque saison, nous organisons un atelier de groupe, en français ou en anglais, selon la demande. Les animateurs étant bilingues, poser des questions ou parler dans l'une ou l'autre langue n'est pas un problème. Nous organisons ces ateliers au sein de notre espace de travail situé sur les Champs-Élysées, à quelques pas de l’Arc de Triomphe. Les prochaines dates sont :
 
-* **Lab : vendredi 25 octobre 2019**
+* **Lab : vendredi 25 octobre 2019**  - (Français) <!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.fr/e/women-on-stage-20-lab-tickets-73400231067" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-73400231067" type="button">Buy Tickets</button>
+<noscript></a>Buy Tickets on Eventbrite</noscript>
 
-<div id="eventbrite-widget-container-73400231067" style="height: 270px;"></div>
-
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<script src="https://www.eventbrite.fr/static/widgets/eb_widgets.js"></script>
 
 <script type="text/javascript">
     var exampleCallback = function() {
@@ -138,21 +160,19 @@ Chaque saison, nous organisons un atelier de groupe, en français ou en anglais,
     };
 
     window.EBWidgets.createWidget({
-        // Required
         widgetType: 'checkout',
         eventId: '73400231067',
-        iframeContainerId: 'eventbrite-widget-container-73400231067',
-        // Optional
-        iframeContainerHeight: 270,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-73400231067',
+        onOrderComplete: exampleCallback
     });
 </script>
 
-* **Avant-première : jeudi 21 novembre 2019 (Atelier d’automne)**
+* **Avant-première : jeudi 21 novembre 2019 (Atelier d’automne)**  - (Français)
 
-* **Janvier 2020 - un mardi (Nouvelle année, nouveau départ) - date à déterminer**
+* **Janvier 2020 - un mardi (Nouvelle année, nouveau départ) - date à déterminer**  - (Français)
 
-* **Mars 2020 - un jeudi (Renouveau du printemps) - date à déterminer**
+* **Mars 2020 - un jeudi (Renouveau du printemps) - date à déterminer**  - (Français)
 
 Si vous souhaitez organiser un atelier personnalisé destiné à votre équipe, veuillez nous envoyer un email avec vos dates, vos questions et le but spécifique de l'atelier. Nous nous adapterons à votre demande et à vos besoins.
 
