@@ -1592,6 +1592,10 @@ fieldset[disabled] .btn-primary.active {
 	margin-top: 30px;
 }
 
+.btn-register:hover {
+	
+}
+
 ::-moz-selection {
     text-shadow: none;
     color: #fff;

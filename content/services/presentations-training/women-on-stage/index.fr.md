@@ -11,27 +11,7 @@ url	 		= "/formation-presentations/women-on-stage/"
 
 **Women On Stage 2.0 est un atelier de prise de parole en public et de développement professionnel dédié aux femmes dirigeantes qui souhaitent faire entendre leur voix, être source d’inspiration et prendre la parole avec confiance.**
 
-Prochaine date : **Vendredi 25 octobre 2019** - (Français) <!-- Noscript content for added SEO -->
-<noscript><a href="https://www.eventbrite.fr/e/women-on-stage-20-lab-tickets-73400231067" rel="noopener noreferrer" target="_blank"></noscript>
-<!-- You can customize this button any way you like -->
-<button id="eventbrite-widget-modal-trigger-73400231067" type="button">Buy Tickets</button>
-<noscript></a>Buy Tickets on Eventbrite</noscript>
-
-<script src="https://www.eventbrite.fr/static/widgets/eb_widgets.js"></script>
-
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        widgetType: 'checkout',
-        eventId: '73400231067',
-        modal: true,
-        modalTriggerElementId: 'eventbrite-widget-modal-trigger-73400231067',
-        onOrderComplete: exampleCallback
-    });
-</script>
+Prochaine date : **Vendredi 25 octobre 2019** - (Français) <a href="https://www.eventbrite.fr/e/women-on-stage-20-lab-tickets-73400231067?ref=elink" target="_blank" class="btn btn-primary btn-register">Cliquez ici pour connaître les détails de l'événement</a>
 
 ![Lorsque vous parlez avec votre équipe](women-on-stage-01.jpg)
 
@@ -146,27 +126,7 @@ Coach, formatrice et intervenante, [Marion Chapsal](https://etincelleszen.com/ab
 
 Chaque saison, nous organisons un atelier de groupe, en français ou en anglais, selon la demande. Les animateurs étant bilingues, poser des questions ou parler dans l'une ou l'autre langue n'est pas un problème. Nous organisons ces ateliers au sein de notre espace de travail situé sur les Champs-Élysées, à quelques pas de l’Arc de Triomphe. Les prochaines dates sont :
 
-* **Lab : vendredi 25 octobre 2019**  - (Français) <!-- Noscript content for added SEO -->
-<noscript><a href="https://www.eventbrite.fr/e/women-on-stage-20-lab-tickets-73400231067" rel="noopener noreferrer" target="_blank"></noscript>
-<!-- You can customize this button any way you like -->
-<button id="eventbrite-widget-modal-trigger-73400231067" type="button">Buy Tickets</button>
-<noscript></a>Buy Tickets on Eventbrite</noscript>
-
-<script src="https://www.eventbrite.fr/static/widgets/eb_widgets.js"></script>
-
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-        widgetType: 'checkout',
-        eventId: '73400231067',
-        modal: true,
-        modalTriggerElementId: 'eventbrite-widget-modal-trigger-73400231067',
-        onOrderComplete: exampleCallback
-    });
-</script>
+* **Lab : vendredi 25 octobre 2019**  - (Français) <a href="https://www.eventbrite.fr/e/women-on-stage-20-lab-tickets-73400231067?ref=elink" target="_blank" class="btn btn-primary btn-register">Cliquez ici pour connaître les détails de l'événement</a>
 
 * **Avant-première : jeudi 21 novembre 2019 (Atelier d’automne)**  - (Français)
 
