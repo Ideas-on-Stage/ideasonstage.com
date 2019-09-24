@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Pour un événement exceptionnel, FAITES quelque chose"
+title = "12 conseils pour un événement exceptionnel : FAITES quelque chose"
 tags = ["Prise de parole en public", "Événements"]
 news = ["general"]
 date = "2019-09-24"

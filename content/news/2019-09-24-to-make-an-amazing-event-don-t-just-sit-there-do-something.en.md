@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "To Make an Amazing Event: Don’t Just Sit There, DO Something"
+title = "12 Tips for an Amazing Event: Don’t Just Sit There, DO Something"
 tags = ["Public Speaking", "Events"]
 news = ["general"]
 date = "2019-09-24"
