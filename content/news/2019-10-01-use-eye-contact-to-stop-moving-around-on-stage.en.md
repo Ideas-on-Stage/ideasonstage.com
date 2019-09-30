@@ -1,11 +1,11 @@
 +++
-draft = true
+draft = false
 title = "Use eye contact to stop moving around on stage"
 tags = ["Public Speaking"]
 news = ["general"]
 date = "2019-10-01"
 author = "Pierre Morsa"
-banner = ""
+banner = "/img/news/eye-contact.jpg"
 language = "en"
 +++
 Moving with purpose on stage is good. Moving around aimlessly is not. It’s what we call derivative actions, things that we do unconsciously that betray our stress, lack of confidence or lack of preparation. Luckily, it’s very easy to stop parasitic movements, but the solution sounds counterintuitive: use eye contact to "anchor" yourself on the ground.
@@ -17,3 +17,5 @@ The trick is to always look at someone in the eye when you talk, alternating bet
 If you’re still not convinced, try to force yourself to move after you have established strong eye contact with someone. You will realize that it’s actually very hard to force yourself to move once connected!
 
 If you have trouble keeping eye contact with your audience, book a session with one of our coaches. They will help you do this naturally and effortlessly.
+
+![Eye contact](/img/news/eye-contact.jpg)
