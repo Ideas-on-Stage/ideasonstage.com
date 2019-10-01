@@ -9,7 +9,7 @@ banner = "/img/news/eye-contact.jpg"
 language = "fr"
 +++
 Il est bon de bouger avec détermination sur scène. Se déplacer sans but ne l'est pas. C’est ce que nous appelons des actions dérivées, des choses que nous faisons inconsciemment qui trahissent notre stress, notre manque de confiance en nous ou notre manque de préparation. Heureusement, il est très facile d’arrêter les mouvements parasites mais la solution semble contre-intuitive : utiliser un contact visuel pour vous « ancrer » au sol.
-
+ 
 Oui c'est vrai. Établir un contact visuel avec votre public stabilisera votre attention et empêchera vos pieds de vous déplacer sur la scène.
 
 L'astuce consiste à toujours regarder quelqu'un dans les yeux lorsque vous parlez, en alternant avec des personnes situées à différents endroits du public. Assurez-vous de prendre le temps de prononcer au moins une phrase complète avant de porter votre regard sur quelqu'un d'autre. Et regardez vraiment la personne, pas seulement dans sa direction générale. L'effet est instantané : lorsque vous regardez une personne en particulier, votre cerveau demande à votre corps de s’ancrer au sol et de cesser de bouger.
