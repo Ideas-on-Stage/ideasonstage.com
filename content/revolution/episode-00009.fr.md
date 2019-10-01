@@ -6,7 +6,7 @@ cast		= [ "Rose Bloomfield", "Pierre Morsa" ]
 description = "Découvrez comment utiliser le storytelling en entreprise."
 +++
 
-{{% youtube _pU1-z3MK_M %}}
+{{% youtube kihTh9ap35M %}}
 
 **Rose** : Quelle belle histoire…
 

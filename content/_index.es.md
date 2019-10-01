@@ -59,7 +59,7 @@ insertsbottom	= [
 		[slider.list.001]
 			bgimage ="/pictures/home/slider3-min.jpg"
 			title = "THE BUSINESS PRESENTATION REVOLUTION"
-			description = "Episode 8: Érase una vez una historia empresarial"
+			description = "Episodio 9: Érase una vez una historia empresarial"
 			button = "Watch now"
 			buttonlink = "/revolution/episode-00009/"
 			color ="text-white"	
