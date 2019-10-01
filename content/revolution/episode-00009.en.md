@@ -6,7 +6,7 @@ cast		= [ "Rose Bloomfield", "Pierre Morsa" ]
 description = "How can you use storytelling in your company? Find out in this video."
 +++
 
-{{% youtube LIWF8GRh0dc %}}
+{{% youtube RBwa0UOY2vo %}}
 
 **Rose**: What a great story. 
  
