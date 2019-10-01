@@ -95,14 +95,14 @@ insertsbottom	= [
 			title = "WOMEN ON STAGE 2.0"
 			description = "Votre programme d'accélérateur personnel pour devenir plus visible, présent et gratuit lors de la présentation"
 			button = "Learn more"
-			buttonlink = "https://www.ideasonstage.com/presentations-training/women-on-stage/"
+			buttonlink = "/presentations-training/women-on-stage/"
 			color = "text-white"
 		[slider.list.002]
 			bgimage ="/pictures/home/slider3-min.jpg"
 			title = "THE BUSINESS PRESENTATION REVOLUTION"
-			description = "Episode 8: Événements Mémorables"
+			description = "Episode 9: Il était une fois le storytelling d’entreprise"
 			button = "Watch now"
-			buttonlink = "https://www.ideasonstage.fr/revolution/episode-00008/"
+			buttonlink = "/revolution/episode-00009/"
 			color ="text-white"				
 +++
 

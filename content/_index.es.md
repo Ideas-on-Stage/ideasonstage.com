@@ -59,9 +59,9 @@ insertsbottom	= [
 		[slider.list.001]
 			bgimage ="/pictures/home/slider3-min.jpg"
 			title = "THE BUSINESS PRESENTATION REVOLUTION"
-			description = "Episode 8: Eventos Espectaculares"
+			description = "Episode 8: Érase una vez una historia empresarial"
 			button = "Watch now"
-			buttonlink = "https://www.ideasonstage.es/revolution/episode-00008/"
+			buttonlink = "/revolution/episode-00009/"
 			color ="text-white"	
 		[slider.list.002]
 			bgimage ="/pictures/home/slider2-min.jpg"
