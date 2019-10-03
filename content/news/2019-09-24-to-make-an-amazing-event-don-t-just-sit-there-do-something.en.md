@@ -33,6 +33,8 @@ Of course there are times when a classic keynote is just the ticket to open or c
 
 **4 -** **Group activities**: give your team a chance to work in smaller groups to discuss a key question or topic with enough instruction that they are clear how to spend their time and what their objective is and enough freedom to really explore and come to new insight. Then have a spokesperson share a quick update with the larger group.
 
+![](/img/news/img_3413.jpeg "Project planning sprint during an innovation weekend with RCI")
+
 ## Tip 2: Do Something!
 
 This doesn’t mean people should never sit down during an event or be artifically sporty, nor should you resort to: ‘let’s just throw in an escape game and call it a day’. What we are suggesting is to tap the deeper potential of your team by calling in their whole selves during your event. We are human beings, not laptops. We are meant to move and our brains impressively better when we do. Research shows that activity, creativity and collaboration improve learning and memory retention. Here are few ideas to get the ball rolling on how to pack some action in your event:
@@ -44,6 +46,8 @@ This doesn’t mean people should never sit down during an event or be artifical
 **7 -** **Stand-up brainstorms**: before hearing a presentation why not ask your team to break out into small groups around a paper board, set a timer and brainstorm on a question or issue related to the event topic. After that they’ll be many times more receptive to hearing what you wanted to share with them because they had the opportunity to reflect first about the need. 
 
 **8 -** **Play**: have participants improvise a skit, record a video, or write a song in alignment with the purpose of the event. Thinking in new ways and sharing it unleashes new synergy and trust in teams.
+
+![](/img/news/img_5275.jpeg "Ideas on Stage team building tour through Syracuse, Italy during quarterly offsite")
 
 ## Tip 3: Make it memorable with the unexpected
 
