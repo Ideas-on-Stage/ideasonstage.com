@@ -60,14 +60,14 @@ insertsbottom	= [
 			bgimage ="/pictures/home/slider3-min.jpg"
 			title = "THE BUSINESS PRESENTATION REVOLUTION"
 			description = "Episodio 9: Érase una vez una historia empresarial"
-			button = "Watch now"
+			button = "Ver ahora"
 			buttonlink = "/revolution/episode-00009/"
 			color ="text-white"	
 		[slider.list.002]
 			bgimage ="/pictures/home/slider2-min.jpg"
 			title = "WOMEN ON STAGE 2.0"
 			description = "Your personal accelerator program to become more visible, present and free when presenting"
-			button = "Learn more"
+			button = "Saber más"
 			buttonlink = "https://www.ideasonstage.com/presentations-training/women-on-stage/"
 			color = "text-white"
 					
