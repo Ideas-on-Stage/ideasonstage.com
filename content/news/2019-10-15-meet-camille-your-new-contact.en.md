@@ -1,12 +1,12 @@
 +++
 draft = true
-title = "Rencontrez Camille, votre nouvelle interlocutrice"
+title = "Meet Camille, your new contact"
 tags = ["Public Speaking"]
 news = ["general"]
-date = "2019-10-08"
+date = "2019-10-15"
 author = "Camille Spokojny"
 banner = "/img/news/camille-spokojny.jpg"
-language = "fr"
+language = "en"
 +++
 A funny thing happened when I was describing my “dream job” to a friend. I imagined a company whose mission would be to help people become great presenters, and had a culture that was both supporting and nurturing while remaining professional and attentive to clients’ needs. My friend said: “I know that company!”
 
