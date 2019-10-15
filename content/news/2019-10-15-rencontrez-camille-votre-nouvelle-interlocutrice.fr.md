@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Rencontrez Camille, votre nouvelle interlocutrice"
 tags = ["Public Speaking"]
 news = ["general"]
