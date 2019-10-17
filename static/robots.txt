@@ -6,5 +6,3 @@ https://catalogue.ideasonstage.com/			https://www.ideasonstage.com/guides/ideaso
 https://catalogue.ideasonstage.fr/			https://www.ideasonstage.fr/guides/ideasonstage-catalogue-fr.pdf
 https://wos.ideasonstage.com/				https://www.ideasonstage.com/presentations-training/women-on-stage/
 https://wos.ideasonstage.fr/				https://www.ideasonstage.fr/formation-presentations/women-on-stage/
-https://www.ideasonstage.fr/formations-ateliers/women-on-stage/		https://www.ideasonstage.fr/formation-presentations/women-on-stage/	301
-https://www.ideasonstage.fr/formations-ateliers/art-de-presenter/	https://www.ideasonstage.fr/formation-presentations/the-business-presentation-revolution/		301
