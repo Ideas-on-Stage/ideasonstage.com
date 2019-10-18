@@ -3,9 +3,9 @@ draft = false
 title = "Wash that Ted right out of your head: avoiding bad Ted presentations"
 tags = ["Public Speaking"]
 news = ["general"]
-date = "2019-10-29"
+date = "2019-10-22"
 author = "Joe Ross"
-banner = ""
+banner = "/img/news/shower.jpg"
 language = "en"
 +++
 The days of the expert or reliable narrator are over. We have entered the “Disinformation Age” where fake news, conspiracy stories, and meme warfare rule. 
@@ -49,3 +49,5 @@ We will explore and define this in a forthcoming article, but not to leave you h
 What we are leading is the “Post-Ted” presentation approach, one that fronts an ethical and balanced presentation by employing honest communication that has these three pillars: authenticity, compassion, and empathy.
 
 These may very well be the new triumvirate for the 21st century and quite possibly could rekindle our passion for presentation.
+
+![Shower](/img/news/shower.jpg)
