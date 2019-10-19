@@ -58,7 +58,7 @@ insertsbottom	= [
 	[slider.list]
 		[slider.list.001]
 			bgimage ="/pictures/home/hero.jpg"
-			title = "AGENCIA DE PRESENTACIONES · EVENTOS CORPORATIVOS · PUBLIC SPEAKING"
+			title = "AGENCIA DE PRESENTACIONES · EVENTOS CORPORATIVOS · PUBLIC SPEAKING"
 		[slider.list.002]
 			bgimage ="/pictures/home/slider3-min.jpg"
 			title = "THE BUSINESS PRESENTATION REVOLUTION"

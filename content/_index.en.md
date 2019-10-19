@@ -59,7 +59,7 @@ insertsbottom	= [
 	[slider.list]
 		[slider.list.001]
 			bgimage ="/pictures/home/hero.jpg"
-			title = "PRESENTATION CREATION · BUSINESS EVENTS · PUBLIC SPEAKING COACHING AND TRAINING"
+			title = "PRESENTATION CREATION · BUSINESS EVENTS · PUBLIC SPEAKING COACHING AND TRAINING"
 		[slider.list.002]
 			bgimage ="/pictures/home/slider2-min.jpg"
 			title = "WOMEN ON STAGE 2.0"
