@@ -7,12 +7,27 @@
      	<input type="radio" id="heroslider-3" name="heroslider[]">
 		
 		<ul class="flex-container bg-black heroslider__items">
+			<li class="heroslider__item img-fullsize-crop">
+				<img src="/pictures/home/hero.jpg" alt="">
+				<div class="header-content">
+		    		<div class="header-content-inner">
+		    			<h1>
+							<ul>
+							{{- range .Params.services.list }}
+								<li>{{ .title | safeHTML }}</li>
+								
+							{{- end }}
+							</ul>
+						</h1>
+					</div>
+				</div>
+			</li>
 			{{ range .Params.slider.list }}
 			<li class="heroslider__item img-fullsize-crop">
 				<img src="{{ .bgimage }}" alt="">
 				<div class= "header-content">
 					<div class="header-content-inner slider">  
-		    			<div class="slider-title">{{ .title | safeHTML }}</div>
+		    			<div class="slider-title">{{ .title }}</div>
 						<div class="slider-subtitle">{{ .description }}</div>
 						<a href="{{ .buttonlink }}">
 							<div class="btn btn-primary btn-slider">{{ .button }}</div>

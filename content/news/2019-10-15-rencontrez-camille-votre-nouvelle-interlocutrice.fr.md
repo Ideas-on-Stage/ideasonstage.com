@@ -1,31 +1,36 @@
 +++
 draft = false
-title = "Rencontrez Camille, votre nouvelle interlocutrice"
+title = "Petit-déjeuner « le leadership a-t-il un genre ? »"
 tags = ["Public Speaking"]
 news = ["general"]
-date = "2019-10-15"
-author = "Camille Spokojny"
-banner = "/img/news/camille-spokojny.jpg"
+date = "2019-10-22"
+author = "Pierre Morsa"
+banner = "/img/news/petit-dejeuner-le-leadership.jpg"
 language = "fr"
 +++
-Quelque chose de drôle s’est produit alors que j’essayais de décrire mon « métier idéal » à un ami. J’imaginais une entreprise dont la mission serait d’aider les autres à devenir d’excellents présentateurs, et qui aurait une culture à la fois collaborative et encourageante, tout en restant professionnelle et attentive aux besoins des clients. À ma grande surprise, mon ami me répondit : « cette entreprise existe ! »
- 
-Quelques semaines plus tard, après m’être rechargée pendant les vacances d’été, je démarrais mon nouveau travail chez Ideas on Stage avec tous mes nouveaux collègues, dont certains que je rencontrais pour la première fois, lors de la réunion d’équipe d’automne. Nous passâmes les jours suivants à travailler nuit et jour sur mon nouveau rôle, et à définir comment nous pourrions mieux aider nos partenaires et nos clients.
+Rejoignez-nous pour un petit-déjeuner inspirant « **Le leadership a-t-il un genre ?** »
 
-Alors, quel est mon rôle ? En quatre mots : garder mes collègues occupés ! Leur rôle est de créer et donner des présentations de classe mondiale, de coacher les intervenants et d’aider les entreprises à organiser des événements surprenants ; mon rôle est de garantir qu’ils auront des missions passionnantes.
+Nous sommes ravis de vous inviter à notre premier petit-déjeuner “Morning Inspiration” co-organisé par Ideas on Stage et notre partenaire Columbus Consulting.
+Nous vous attendons le mardi 5 novembre 2019 de 8h30 à 10h00 au sein de nos locaux. Ce rendez-vous sera animé par Rose Bloomfield, coach et facilitatrice de l’atelier Women on Stage 2.0.
 
-Pour cela, j’ai trois objectifs principaux :
+Vous pourrez notamment échanger avec :
 
-- avoir des clients enchantés,
-- aider nos partenaires à expliquer nos services à leurs clients,
-- et construire notre marque au niveau international.
+* Elsa Cuisinier - Directrice Générale de Columbus Consulting
+* Marie-Laure de Sousa - Directrice France du département Agence de Jones Lang Lasalle
+* Frédéric-Pascal Stein - Directeur de Présentation chez Ideas on Stage
 
-Je vais rencontrer nos clients pour mieux comprendre leurs besoins et ce qu’ils attendent de nos services. Je vais m’assurer qu’ils sont enchantés par le travail réalisé.
+Agenda
 
-Ensuite ,je serai le point de contact principal pour nos principaux partenaires, je les soutiendrai lorsqu’ils feront appel à nos services pour leurs clients.
+* 8h30 - 8h45	Café de bienvenue
+* 8h45 - 9h10	Table-ronde sur le sujet “Le leadership a-t-il un genre ?”
+* 9h10 - 9h35	Échanges & questions entre les participant(e)s
+* 9h35 - 9h45	Networking guidé
+* 9h45 - 10h00 Poursuite des échanges de façon libre pour celles/ceux qui le souhaitent
 
-Enfin, je travaillerai sur plusieurs initiatives pour construire la marque Ideas on Stage dans les pays où nous sommes déjà présents (NDLR France, Italie, Espagne, Royaume-Uni, États-Unis). Je m’attacherai à adapter nos services aux spécificités des marchés locaux.
+N'hésitez pas à vous munir de vos cartes de visite : vous pourrez peut-être avoir la chance de gagner une place pour notre prochain atelier Women on Stage 2.0 ou un coaching personnalisé. Si vous le souhaitez, vous pouvez venir accompagné(e) de professionnels de votre réseau.
 
-Est-ce mon « métier idéal ? » Cela y ressemble très fortement ! Je suis déjà très bien accueillie par l’équipe, je suis passionnée par ma mission, et je me réjouis de pouvoir rencontrer nos clients et partenaires, pour transformer le rêve en réalité.
+[Vous pouvez vous inscrire dès maintenant sur Eventbrite en cliquant sur ce lien.](https://www.eventbrite.fr/e/inscription-morning-inspiration-par-ideas-on-stage-columbus-consulting-71763379199)
 
-![Camille Spokojny](/img/news/camille-spokojny.jpg)
+Les équipes de Ideas on Stage et Columbus Consulting
+
+![Le leadership a-t-il un genre ?](/img/news/petit-dejeuner-le-leadership.jpg")
