@@ -58,13 +58,16 @@ insertsbottom	= [
 [slider]
 	[slider.list]
 		[slider.list.001]
+			bgimage ="/pictures/home/hero.jpg"
+			title = "PRESENTATION CREATION · BUSINESS EVENTS · PUBLIC SPEAKING COACHING AND TRAINING"
+		[slider.list.002]
 			bgimage ="/pictures/home/slider2-min.jpg"
 			title = "WOMEN ON STAGE 2.0"
 			description = "Your personal accelerator program to become more visible, present and free when presenting"
 			button = "Learn more"
 			buttonlink = "/presentations-training/women-on-stage/"
 			color = "text-white"
-		[slider.list.002]
+		[slider.list.003]
 			bgimage ="/pictures/home/slider3-min.jpg"
 			title = "THE BUSINESS PRESENTATION REVOLUTION"
 			description = "Episode 9: Once Upon a Business Story"

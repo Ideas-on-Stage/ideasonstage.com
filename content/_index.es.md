@@ -57,13 +57,16 @@ insertsbottom	= [
 [slider]
 	[slider.list]
 		[slider.list.001]
+			bgimage ="/pictures/home/hero.jpg"
+			title = "AGENCIA DE PRESENTACIONES · EVENTOS CORPORATIVOS · PUBLIC SPEAKING"
+		[slider.list.002]
 			bgimage ="/pictures/home/slider3-min.jpg"
 			title = "THE BUSINESS PRESENTATION REVOLUTION"
 			description = "Episodio 9: Érase una vez una historia empresarial"
 			button = "Ver ahora"
 			buttonlink = "/revolution/episode-00009/"
 			color ="text-white"	
-		[slider.list.002]
+		[slider.list.003]
 			bgimage ="/pictures/home/slider2-min.jpg"
 			title = "WOMEN ON STAGE 2.0"
 			description = "Your personal accelerator program to become more visible, present and free when presenting"

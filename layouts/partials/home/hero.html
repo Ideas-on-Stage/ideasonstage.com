@@ -13,10 +13,14 @@
 				<div class= "header-content">
 					<div class="header-content-inner slider">  
 		    			<div class="slider-title">{{ .title | safeHTML }}</div>
+						{{ if .description }}
 						<div class="slider-subtitle">{{ .description }}</div>
+						{{ end }}
+						{{ if .button }}
 						<a href="{{ .buttonlink }}">
 							<div class="btn btn-primary btn-slider">{{ .button }}</div>
 						</a>
+						{{ end }}
 					</div>
 				</div>
 			</li>
