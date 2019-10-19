@@ -54,7 +54,7 @@ insertsbottom	= [
 	[slider.list]
 		[slider.list.001]
 			bgimage ="/pictures/home/hero.jpg"
-			title = "PRESENTATION CREATION AGENCY · EVENTI CORPORATE · PUBLIC SPEAKING"
+			title = "PRESENTATION CREATION · EVENTI CORPORATE · PUBLIC SPEAKING"
 		[slider.list.002]
 			bgimage ="/pictures/home/slider2-min.jpg"
 			title = "WOMEN ON STAGE 2.0"
