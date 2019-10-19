@@ -111,6 +111,9 @@ insertsbottom	= [
 			button = "Regarder l'Épisode"
 			buttonlink = "/revolution/episode-00009/"
 			color ="text-white"				
+		[slider.list.004]
+			bgimage ="/pictures/home/hero.jpg"
+			title = "CRÉATION DE PRÉSENTATIONS · ÉVÉNEMENTS D'ENTREPRISE · COACHING ET FORMATION À LA PRISE DE PAROLE"
 +++
 
 ## À propos d'Ideas on Stage

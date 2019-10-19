@@ -6,11 +6,6 @@
  * @description: A Simple heroslider Pure CSS Using Sass
  * @version: 1.0.0
  */
-.heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__prev > label:nth-child(3), .heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__next > label:nth-child(2), .heroslider > input[type="radio"]:nth-child(2):checked ~ .heroslider__prev > label:nth-child(1), .heroslider > input[type="radio"]:nth-child(2):checked ~ .heroslider__next > label:nth-child(3), .heroslider > input[type="radio"]:nth-child(3):checked ~ .heroslider__prev > label:nth-child(2), .heroslider > input[type="radio"]:nth-child(3):checked ~ .heroslider__next > label:nth-child(1) {
-    visibility: visible;
-  opacity: 1 !important;
-  z-index: 3;
-}
 
 *,
 *:before,
@@ -19,9 +14,6 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
-
-
-
 
 .heroslider {
   width: 100%;
@@ -40,33 +32,7 @@
   visibility: hidden;
   opacity: 0;
 }
-.heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__items .heroslider__item:nth-child(1) {
-  visibility: visible;
-  opacity: 1;
-}
-.heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__nav > label:nth-child(1) {
-  background: #ccc;
-  cursor: default;
-  pointer-events: none;
-}
-.heroslider > input[type="radio"]:nth-child(2):checked ~ .heroslider__items .heroslider__item:nth-child(2) {
-  visibility: visible;
-  opacity: 1;
-}
-.heroslider > input[type="radio"]:nth-child(2):checked ~ .heroslider__nav > label:nth-child(2) {
-  background: #ccc;
-  cursor: default;
-  pointer-events: none;
-}
-.heroslider > input[type="radio"]:nth-child(3):checked ~ .heroslider__items .heroslider__item:nth-child(3) {
-  visibility: visible;
-  opacity: 1;
-}
-.heroslider > input[type="radio"]:nth-child(3):checked ~ .heroslider__nav > label:nth-child(3) {
-  background: #ccc;
-  cursor: default;
-  pointer-events: none;
-}
+/* Note: css based on the number of slider items is generated dynamically by Hugo in the head-slider-css.html template */
 
 .heroslider__items {
   margin: 0;

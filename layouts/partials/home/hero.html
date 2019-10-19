@@ -1,11 +1,14 @@
 {{ "<!-- partials:home/hero.html -->" | safeHTML }}
 <header id="home">
 
-<div class="heroslider flex-container bg-black">
-		<input type="radio" id="heroslider-1" name="heroslider[]" checked>
-		<input type="radio" id="heroslider-2" name="heroslider[]">
-     	<input type="radio" id="heroslider-3" name="heroslider[]">
-		
+	<div class="heroslider flex-container bg-black">
+			
+		{{ $.Scratch.Set "counter" 0 }}
+		{{ range .Params.slider.list }}
+			{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+		<input type="radio" id="heroslider-{{$.Scratch.Get "counter"}}" name="heroslider[]" {{ if eq 1 ($.Scratch.Get "counter") }}checked{{ end }}>
+		{{ end }}
+			
 		<ul class="flex-container bg-black heroslider__items">
 			{{ range .Params.slider.list }}
 			<li class="heroslider__item img-fullsize-crop">
@@ -26,21 +29,29 @@
 			</li>
 			{{ end }}
 		</ul>
-     <div class="heroslider__prev">
-     	<label for="heroslider-1"></label>
-     	<label for="heroslider-2"></label>
-     	<label for="heroslider-3"></label>
-     </div>
-     <div class="heroslider__next">
-       <label for="heroslider-1"></label>
-       <label for="heroslider-2"></label>
-       <label for="heroslider-3"></label>
-     </div>
-     <div class="heroslider__nav">
-       <label for="heroslider-1"></label>
-       <label for="heroslider-2"></label>
-       <label for="heroslider-3"></label>
-     </div>
-   </div>
+
+		<div class="heroslider__prev">
+			{{ $.Scratch.Set "counter" 0 }}
+			{{ range .Params.slider.list }}
+				{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+	     	<label for="heroslider-{{$.Scratch.Get "counter"}}"></label>
+			{{ end }}
+	    </div>
+	    <div class="heroslider__next">
+			{{ $.Scratch.Set "counter" 0 }}
+			{{ range .Params.slider.list }}
+				{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+	       <label for="heroslider-{{$.Scratch.Get "counter"}}"></label>
+			{{ end }}
+		</div>
+	    <div class="heroslider__nav">
+			{{ $.Scratch.Set "counter" 0 }}
+			{{ range .Params.slider.list }}
+				{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+	       <label for="heroslider-{{$.Scratch.Get "counter"}}"></label>
+		   {{ end }}
+	    </div>
+		 
+	</div>
 
 </header>
