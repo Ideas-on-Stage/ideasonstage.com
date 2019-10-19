@@ -61,7 +61,7 @@ insertsbottom	= [
 			title = "AGENCIA DE PRESENTACIONES · EVENTOS CORPORATIVOS · PUBLIC SPEAKING"
 		[slider.list.002]
 			bgimage ="/pictures/home/slider3-min.jpg"
-			title = "THE BUSINESS PRESENTATION REVOLUTION"
+			title = "THE BUSINESS PRESENTATION REVOLUTION"
 			description = "Episodio 9: Érase una vez una historia empresarial"
 			button = "Ver ahora"
 			buttonlink = "/revolution/episode-00009/"

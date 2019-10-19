@@ -92,7 +92,7 @@ insertsbottom	= [
 	[slider.list]
 		[slider.list.001]
 			bgimage ="/pictures/home/slider1-min.jpg"
-			title = "PETIT-DÉJEUNER<br />« LE LEADERSHIP A-T-IL UN GENRE ? »"
+			title = "PETIT-DÉJEUNER<br />« LE LEADERSHIP A-T-IL UN GENRE ? »"
 			description = "Le 5 novembre, Champs-Élysées, Paris"
 			button = "Inscrivez-vous"
 			buttonlink = "https://www.eventbrite.fr/e/inscription-morning-inspiration-par-ideas-on-stage-columbus-consulting-71763379199"
@@ -106,7 +106,7 @@ insertsbottom	= [
 			color = "text-white"
 		[slider.list.003]
 			bgimage ="/pictures/home/slider3-min.jpg"
-			title = "THE BUSINESS PRESENTATION REVOLUTION"
+			title = "THE BUSINESS PRESENTATION REVOLUTION"
 			description = "Episode 9: Il était une fois le storytelling d’entreprise"
 			button = "Regarder l'Épisode"
 			buttonlink = "/revolution/episode-00009/"

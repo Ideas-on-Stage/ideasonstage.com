@@ -64,7 +64,7 @@ insertsbottom	= [
 			color = "text-white"
 		[slider.list.003]
 			bgimage ="/pictures/home/slider3-min.jpg"
-			title = "THE BUSINESS PRESENTATION REVOLUTION"
+			title = "THE BUSINESS PRESENTATION REVOLUTION"
 			description = "Episode 8: Amazing Events"
 			button = "Watch now"
 			buttonlink = "https://www.ideasonstage.com/revolution/episode-00008/"
