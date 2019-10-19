@@ -423,6 +423,7 @@ header#home h2 {
 	color: #222;
 }
 
+/*
 header#home ul {
 	padding: none;
 	list-style-type: none;
@@ -438,6 +439,7 @@ header#home li {
 	margin-top: 18px;
 	margin-bottom: 18px;
 }
+*/
 
 header#pz {
 	position: relative;
@@ -1192,9 +1194,12 @@ header {
 header .header-content {
 	display: block;
 	position: absolute;
-	top: 27px;
+	top: 0px;
+	/* top: 27px; */
     width: 100%;
     height: 100%;
+	list-style: none;
+	text-align: center;
 }
 
 header .header-content-img-right {
