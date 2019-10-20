@@ -53,6 +53,8 @@
   z-index: 1;
   transition: opacity 1s;
   -webkit-transition: opacity 1s;
+  animation-name: zoomout;
+  animation-duration: 3s;
 }
 /*
 .heroslider__item img {
@@ -78,6 +80,7 @@
   opacity: 0;
   z-index: 2;
 }
+
 .heroslider__prev > label:hover, .heroslider__prev > label:focus, .heroslider__next > label:hover, .heroslider__next > label:focus {
   opacity: 0.8;
   
@@ -88,6 +91,7 @@
   width: inherit;
   height: inherit;
 }
+
 .heroslider__prev > label:before, .heroslider__next > label:before {
   background: linear-gradient(to top, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%), linear-gradient(to left, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%);
   width: 50%;
@@ -211,3 +215,10 @@
   		height: 900px;
 }
 }
+
+@keyframes zoomout {
+  from {transform: scale(1.1);
+  }
+  to {transform: scale(1);}
+}
+
