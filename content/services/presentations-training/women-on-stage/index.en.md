@@ -127,9 +127,9 @@ We hold one open group training each season in either French or English based on
 
 * **Thursday, November 21, 2019 (Premier Fall Workshop)** - (French)
 
-* **Tuesday in January 2020 (Winter New Year’s Jumpstart)—date TBD**  - (French)
+* **Thursday, January 23, 2020**  - (English)
 
-* **Thursday in March 2020 (Spring Renewal)—date TBD**  - (French)
+* **March 2020 (Spring Renewal)—date TBD**  - (language determined by demand)
 
 Each training is tailored to the needs of the organization or group. To coordinate an internal training for your team, please send us an email with your dates, questions and specific purpose of the workshop. 
 

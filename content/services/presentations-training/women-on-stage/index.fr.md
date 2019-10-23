@@ -130,9 +130,9 @@ Chaque saison, nous organisons un atelier de groupe, en français ou en anglais,
 
 * **Avant-première : jeudi 21 novembre 2019 (Atelier d’automne)**  - (Français)
 
-* **Janvier 2020 - un mardi (Nouvelle année, nouveau départ) - date à déterminer**  - (Français)
+* **Jeudi 23 janvier 2020**  - (en anglais)
 
-* **Mars 2020 - un jeudi (Renouveau du printemps) - date à déterminer**  - (Français)
+* **Mars 2020 (Renouveau du printemps) - date à confirmer**  - (langue à déterminer selon la demande)
 
 Si vous souhaitez organiser un atelier personnalisé destiné à votre équipe, veuillez nous envoyer un email avec vos dates, vos questions et le but spécifique de l'atelier. Nous nous adapterons à votre demande et à vos besoins.
 
