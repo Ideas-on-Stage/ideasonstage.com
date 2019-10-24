@@ -1,8 +1,8 @@
 modalID: 1
 language : es
 title: ¿Qué harías si tuvieras una oportunidad en la vida para hablar en un TED?
-logo: tedx.png
-img: tedx.jpg
+logo: TEDx_ref.svg
+img: TEDx_ref.svg
 client: TEDx
 kind: "TEDx Coaching"
 showonhome: true

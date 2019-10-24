@@ -1,8 +1,8 @@
 modalID: 10
 language : es
 title: Coaching de speakers
-logo: edf.png
-img: edf.jpg
+logo: edf_ref.svg
+img: edf_ref.svg
 client: EDF
 kind: "Coaching para hablar en público"
 showonhome: true

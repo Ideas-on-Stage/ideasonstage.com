@@ -1,8 +1,8 @@
 modalID: 1
 language : en
 title: What would you do if you had one opportunity in your life to talk at TED?
-logo: tedx.png
-img: tedx.jpg
+logo: TEDx_ref.svg
+img: TEDx_ref.svg
 client: TEDx
 kind: "TEDx Coaching"
 showonhome: true

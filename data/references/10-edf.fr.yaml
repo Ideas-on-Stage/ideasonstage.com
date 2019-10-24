@@ -1,8 +1,8 @@
 modalID: 10
 language : fr
 title: Coaching des orateurs 
-logo: edf.png
-img: edf.jpg
+logo: edf_ref.svg
+img: edf_ref.svg
 client: EDF
 showonhome: true
 clientlink: "/coaching-prise-de-parole-en-public/coaching-prise-de-parole-en-public/"

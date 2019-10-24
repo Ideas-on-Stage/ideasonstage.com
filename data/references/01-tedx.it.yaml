@@ -1,8 +1,8 @@
 modalID: 1
 language : it
 title: Cosa faresti se nella tua vita avessi l'opportunità di parlare ad un TED?
-logo: tedx.png
-img: tedx.jpg
+logo: TEDx_ref.svg
+img: TEDx_ref.svg
 client: TEDx
 showonhome: true
 clientlink: "/tedx/"
