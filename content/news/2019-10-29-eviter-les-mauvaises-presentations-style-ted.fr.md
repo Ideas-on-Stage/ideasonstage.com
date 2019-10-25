@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Wash that Ted right out of your head: avoiding bad Ted presentations"
+title = "Éviter les mauvaises présentations style TED"
 tags = ["Prise de parole en public"]
 news = ["general"]
 date = "2019-10-29"
