@@ -32,7 +32,7 @@ Qu’est-ce que je veux dire par « formule » ? Si vous avez déjà vu de
 
 Et puis bien sûr il y a des opportunistes qui utilisent ces événements pour détourner l’événement à des fins de promotion personnelle.
 
-Ce style de présentation — veuillez consulter un article précédent que Michael et moi avons publié sur Pathos, Éthos, Logos — contribue à un déséquilibre par rapport au pathos. C’est notre style de présentation général. Maintenant, nous avons à la fois des chefs d’entreprise et des politiciens jouant sur les émotions en négligeant souvent la véracité des faits, voire pire, en oubliant l’éthos, le côté moral de l’histoire.
+Ce style de présentation — [veuillez consulter un article précédent que Michael et moi avons publié sur Pathos, Éthos, Logos](/news/2019/09/09/2019-09-09-le-triangle-du-leadership/) — contribue à un déséquilibre par rapport au pathos. C’est notre style de présentation général. Maintenant, nous avons à la fois des chefs d’entreprise et des politiciens jouant sur les émotions en négligeant souvent la véracité des faits, voire pire, en oubliant l’éthos, le côté moral de l’histoire.
 
 Nous avons perdu l’équilibre dans la formule de narration. Comme le dit Pierre Morsa, cofondateur de Ideas on Stage, « La formule ressemble à celle des films hollywoodiens. C’est nécessaire : les films auxquels il manque un ingrédient de la formule sont souvent des échecs. Vous pouvez omettre certains éléments, mais vous devez en comprendre l’impact. Et finalement, bien que tous les films hollywoodiens utilisent la même formule, certains sont géniaux et d’autres sont nuls. »
 

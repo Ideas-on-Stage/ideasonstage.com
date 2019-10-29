@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Wash that Ted right out of your head: avoiding bad Ted presentations"
+title = "Wash that Ted right out of your head: new post-Ted presentation"
 tags = ["Public Speaking"]
 news = ["general"]
 date = "2019-10-29"
@@ -34,7 +34,7 @@ What do I mean by formulaic? Well, I’d suspect that if you watched a fair numb
 
 And of course, there are the occasional opportunists who use these events to hijack the stage for self-promoting purposes. 
 
-This style of presenting—please see an earlier article that Michael and I posted on Pathos, Ethos, Logos—contributes to an imbalance towards pathos is our general presentation style. Now we have both business leaders and politicians playing to the emotions with often little regard for either the veracity, i.e. truth, facts of the situation; and worse, with little regard for the ethos, the ethical moral side of the case. 
+This style of presenting—[please see an earlier article that Michael and I posted on Pathos, Ethos, Logos](/news/2019/09/09/2019-09-09-the-leadership-triangle/)—contributes to an imbalance towards pathos is our general presentation style. Now we have both business leaders and politicians playing to the emotions with often little regard for either the veracity, i.e. truth, facts of the situation; and worse, with little regard for the ethos, the ethical moral side of the case. 
 
 No wonder we are in the state we are.
 
