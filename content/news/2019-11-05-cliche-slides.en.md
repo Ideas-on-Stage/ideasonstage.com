@@ -1,11 +1,11 @@
 +++
-draft = true
+draft = false
 title = "Cliché slides"
 tags = ["Slides", "PowerPoint", "Visuals"]
 news = ["general"]
 date = "2019-11-05"
 author = "Pierre Morsa"
-banner = ""
+banner = "/img/news/cheesy-handshake.jpg"
 language = "en"
 +++
 You’ve probably all seen these slides: they use a picture which is “cliché,” like two shaking hands. Using a few of these clichés is fine, because they are often the clearest way to illustrate the idea of the slide; it’s nice to be creative, but clarity of the message comes first.
@@ -15,3 +15,5 @@ But some presentations seem to overflow with these clichés, using them on every
 So when a presentation requires the use of too many clichés, the right thing to ask ourselves is: how could I make the content more concrete? Instead of the cheesy handshake to illustrate collaboration, show a picture of your employees having fun during a team-building activity. Instead of the light bulb to represent innovation, show the latest ideas from your teams. Instead of the generic upward graph, show real results.
 
 In a company where none of these concrete elements can be found, I would seriously ask myself why.
+
+![Cheesy handshake](/img/news/cheesy-handshake.jpg)
