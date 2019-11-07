@@ -27,3 +27,4 @@ Notre service de coaching à la prise de parole est adapté aux forces et opport
 * Encouragement: même les présentateurs les plus expérimentés ont besoin d’être en confiance lorsqu’ils sont sur scène. Les conseils et les encouragements de votre coach seront essentiels pour aborder le moment crucial avec sérénité.
 
 Plus les enjeux sont importants, plus la préparation est essentielle.
+

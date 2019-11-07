@@ -336,7 +336,7 @@ theme        			= "hugo-creative-theme-master"
 				url		= "https://www.ideasonstage.com"
 			[languages.fr.navigation.languages.003]
 				name	= "Italiano"
-				url		= "https://www.ideasonstage.it"	
+				url		= "https://www.ideasonstage.it"
 	
 	# ------------------------------		
 	# References
@@ -426,6 +426,7 @@ theme        			= "hugo-creative-theme-master"
 		enable		= true
 		title		= "Où nous trouver"
 		address		= "<span itemprop=\"streetAddress\">138 avenue des Champs Élysées</span> — <span itemprop=\"postalCode\">75008</span> <span itemprop=\"addressLocality\">Paris, France</span> — Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
+		bgimage		= "/pictures/home/triumph.jpg"
 
 	# ------------------------------		
 	# Revolution
