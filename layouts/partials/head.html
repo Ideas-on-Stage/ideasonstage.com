@@ -4,7 +4,7 @@
 <meta name="description" property="og:description"  content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Params.position }}{{ end }}">
 <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Params.name }}{{ if .Params.position }} | {{ .Params.position }}{{ end }}{{ end }}</title>
 {{ with .Title }} <meta name="title" property="og:title" content="{{ . }}">{{ end }}
-{{ with .Params.banner }}<meta name ="image" property="og:image" content="{{ . }}">{{ end }}
+{{ with .Params.banner }}<meta name ="image" property="og:image" content="{{ $.Site.BaseURL }}{{ . }}">{{ end }}
 <meta name ="url" property="og:url" content ="{{ .Permalink }}">
 {{ partial "head-hreflang.html" }}
 {{ partial "head-favicon.html" }}
