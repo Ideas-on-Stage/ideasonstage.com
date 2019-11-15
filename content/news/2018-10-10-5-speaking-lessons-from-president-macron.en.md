@@ -85,7 +85,7 @@ Many speakers fail to pay attention to the end of their speech, or the end of th
 
 Sadly this lackluster finish also happened right at the very end of the evening when Macron gave a call to action to the entrepreneurs in the room. This was an excellent way to finish, but unfortunately the last sentence tailed off, and ended up with slightly awkward applause punctuated by a slightly embarrassed “Voilà” from the President.
 
-![The two-headed match](/img/news/slide-double-headed-match.001.jpeg)
+![The two-headed match](/img/news/slide-double-headed-match.001.jpg)
 
 <br>
 

@@ -5,11 +5,11 @@ tags = ["conference", "events", "medical", "doctor", "tips", "interview", "learn
 news = ["general"]
 date = "2019-05-16"
 author = "Phil Waknell"
-banner = "/img/news/image_preview.png"
+banner = "/img/news/image_preview.jpg"
 +++
 _Most conferences are fairly boring._ [_Even well-known tech conferences_](https://www.ideasonstage.com/news/2019/01/15/2019-01-14-i-presented-at-ces-and-all-i-got-was-a-bunch-of-ungrateful-tweets/) _fail to engage their audiences all the time. But medical conferences can be among the worst. Check out this quick interview between Ideas on Stage, new partners with Doctors 2.0 & You, and Denise Silber to find out how to take medical (and other) events to the next level._
 
-![](/img/news/image_preview.png)
+![](/img/news/image_preview.jpg)
 
 Our friend [Ross Fisher](https://www.linkedin.com/in/ross-fisher-29b5902b/?originalSubdomain=uk), a paediatric surgeon based in the UK, has had enough of poor medical communication, and when he’s not operating, he spends time educating doctors about a better way to present. There is a clear need, and [Ross](https://www.youtube.com/watch?v=qFza3W87eDg) is making progress.
 

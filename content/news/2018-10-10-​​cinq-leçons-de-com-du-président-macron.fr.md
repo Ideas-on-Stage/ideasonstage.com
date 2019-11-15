@@ -97,7 +97,7 @@ C’est un des problèmes que je rencontre assez souvent lorsque j’aide des co
 
 <br />
 
-![null](/img/news/slide-double-headed-match.001.jpeg)
+![null](/img/news/slide-double-headed-match.001.jpg)
 
 <br />
 ​​

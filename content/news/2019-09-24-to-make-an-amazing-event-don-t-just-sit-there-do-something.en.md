@@ -33,7 +33,7 @@ Of course there are times when a classic keynote is just the ticket to open or c
 
 **4 -** **Group activities**: give your team a chance to work in smaller groups to discuss a key question or topic with enough instruction that they are clear how to spend their time and what their objective is and enough freedom to really explore and come to new insight. Then have a spokesperson share a quick update with the larger group.
 
-![](/img/news/img_3413.jpeg "Project planning sprint during an innovation weekend with RCI")
+![](/img/news/img_3413.jpg "Project planning sprint during an innovation weekend with RCI")
 
 ## Tip 2: Do Something!
 
@@ -47,7 +47,7 @@ This doesn’t mean people should never sit down during an event or be artifical
 
 **8 -** **Play**: have participants improvise a skit, record a video, or write a song in alignment with the purpose of the event. Thinking in new ways and sharing it unleashes new synergy and trust in teams.
 
-![](/img/news/img_5275.jpeg "Ideas on Stage team building tour through Syracuse, Italy during quarterly offsite")
+![](/img/news/img_5275.jpg "Ideas on Stage team building tour through Syracuse, Italy during quarterly offsite")
 
 ## Tip 3: Make it memorable with the unexpected
 

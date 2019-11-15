@@ -5,7 +5,7 @@ tags = ["médicale", "événement", "nouveau", "conférence", "astuces", "entret
 news = ["general"]
 date = "2019-05-15"
 author = "Phil Waknell"
-banner = "/img/news/image_preview.png"
+banner = "/img/news/image_preview.jpg"
 +++
 La plupart des conférences sont assez ennuyeuses. Même [les conférences techniques](https://www.ideasonstage.fr/news/2019/01/15/2019-01-14-jai-fait-une-présentation-au-ces/) les plus connues ne parviennent pas à stimuler leur public. Mais les conférences médicales peuvent être parmi les pires. Ideas on Stage annonce un nouveau partenariat avec [Doctors 2.0 & You](http://www.doctors20.com) pour faire passer les événements médicaux au niveau supérieur.
 
