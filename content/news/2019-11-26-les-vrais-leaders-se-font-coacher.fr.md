@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Les vrais leaders se font coacher"
 tags = ["Prise de parole en public"]
 news = ["general"]

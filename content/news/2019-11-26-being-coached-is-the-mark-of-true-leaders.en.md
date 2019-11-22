@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Being coached is the mark of true leaders"
 tags = ["Public Speaking", "Debate", "TEDx", "Fear", "Prise de parole en public", "Débat", "Peur"]
 news = ["general"]
