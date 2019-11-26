@@ -18,4 +18,4 @@ L’année suivante, le *Techno meeting* eut lieu à Bruxelles, et l’associé 
 
 Cet associé n’était pas parfait. Il avait ses défauts, comme nous tous. Mais je me souviendrai toujours qu’en tant que leader, se faire coacher est indispensable. Tous les grands dirigeants, tous les politiciens admettent que le coaching est essentiel, sans oublier les athlètes professionnels qui se targuent de travailler avec les meilleurs coachs. Ils ont confiance en eux-mêmes et voient le coaching comme un moyen de s’améliorer. Au final, cela fait d’eux de meilleurs leaders.
 
-/img/news/coach.jpg
+![Coach et Leader](/img/news/coach.jpg)

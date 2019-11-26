@@ -18,4 +18,4 @@ The next year, the Techno meeting took place in Brussels, and the partner who hi
 
 That partner was not perfect. He had his flaws, as we all have. But I will always remember that as a leader, being coached should be natural. All top leaders and politicians admit freely that coaching is very important. They are secure about themselves and see being coached as another way to improve their skills. And in the end, that approach makes them even better leaders.
 
-/img/news/coach.jpg
+![Coach and Leader](/img/news/coach.jpg)
