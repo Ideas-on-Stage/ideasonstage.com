@@ -12,7 +12,7 @@ url	 		= "/presentations-training/women-on-stage/"
 **Women on Stage 2.0 is a public speaking and professional development workshop dedicated to women leaders and executives who want to speak up, inspire and present with confidence.**
 
 
-Next date: **Thursday, January 23, 2020** - (English)   <!-- <a href="https://www.eventbrite.fr/e/women-on-stage-20-lab-tickets-73400231067?ref=elink" target="_blank" class="btn btn-primary btn-register">Click here to read full event details</a> -->
+Next date: **Thursday, January 23, 2020** - (English)   <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="btn btn-primary btn-register">Click here to read full event details</a>
 
 ![When speaking with your team](women-on-stage-01.jpg)
 
@@ -124,7 +124,7 @@ We hold one open group training each season in either French or English based on
 
 
 
-* **Thursday, January 23, 2020**  - (English) <!-- <a href="https://www.eventbrite.fr/e/women-on-stage-20-lab-tickets-73400231067?ref=elink" target="_blank" class="btn btn-primary btn-register">Click here to read full event details</a> -->
+* **Thursday, January 23, 2020**  - (English) <<a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="btn btn-primary btn-register">Click here to read full event details</a>
 
 * **March 2020 (Spring Renewal)—date TBD**  - (language determined by demand)
 
