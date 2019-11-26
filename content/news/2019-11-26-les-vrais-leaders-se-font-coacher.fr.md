@@ -5,7 +5,7 @@ tags = ["Prise de parole en public"]
 news = ["general"]
 date = "2019-11-26"
 author = "Pierre Morsa"
-banner = ""
+banner = "/img/news/coach.jpg"
 language = "fr"
 +++
 Certains dirigeants ont peur de laisser d’autres personnes savoir qu’ils se font coacher avant de parler en public. Je voudrais expliquer pourquoi c’est une erreur, et pourquoi les meilleurs leaders sont **fiers** de se faire coacher.
@@ -17,3 +17,5 @@ Je pus constater l’énorme différence entre ses compétences oratoires et cel
 L’année suivante, le *Techno meeting* eut lieu à Bruxelles, et l’associé qui m’avait engagé était le maître de cérémonie. En dépit du fait qu’il était un bon orateur, ou plutôt, parce qu’il était un bon orateur, il ne vint pas sur scène sans préparation. Il se fit coacher pour être certain d’être prêt à 100 %. Cela fit une différence énorme. Tout le monde fut captivé, rit, écouta et retint son message comme étant un des moments phares de l’événement. Le lieu était peut-être plus modeste que Disneyland, mais l’événement fut un grand succès (et la musique était également meilleure !)
 
 Cet associé n’était pas parfait. Il avait ses défauts, comme nous tous. Mais je me souviendrai toujours qu’en tant que leader, se faire coacher est indispensable. Tous les grands dirigeants, tous les politiciens admettent que le coaching est essentiel, sans oublier les athlètes professionnels qui se targuent de travailler avec les meilleurs coachs. Ils ont confiance en eux-mêmes et voient le coaching comme un moyen de s’améliorer. Au final, cela fait d’eux de meilleurs leaders.
+
+/img/news/coach.jpg
