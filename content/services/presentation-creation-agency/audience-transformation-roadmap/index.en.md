@@ -27,7 +27,9 @@ How can you work out what transformations you need to make, and what to say to a
 
 (Non-commercial use means that you can use it yourself to prepare your own presentations, even business presentations; but you can’t sell it as a product or part of a service to your clients.)
 
-Here’s how it works.
+![ATR in action](atr_from_iOS.jpg)
+
+### Here’s how it works.
 
 You first ask yourself four questions related to the subject of your presentation, filling in the first column with your answers:
 
