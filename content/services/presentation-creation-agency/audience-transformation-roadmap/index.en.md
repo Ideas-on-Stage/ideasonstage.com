@@ -1,15 +1,15 @@
 +++
 draft		= false
 title		= "The Audience Transformation Roadmap™"
-description = "Women On Stage 2.0 is a public speaking and professional development workshop dedicated to women leaders and executives who want to speak up, inspire and present with confidence."
-weight		= 2
+description = "The Audience Transformation Roadmap™ is a simple and powerful tool created by Ideas on Stage to work out what transformations you need to make and what to say to achieve them."
+weight		= 4
 categories	= [ "presentation-creation-agency" ]
 urlredirect	= ""
 showrefs	= false
 url	 		= "/audience-transformation-roadmap/"
+picture		= "/pictures/presentation-creation-agency/audience-transformation-roadmap/ATR_english.jpeg"
+link			= "/audience-transformation-roadmap/"
 +++
-
-![The Audience Transformation Roadmap™](ATR_english.jpeg)
 
 Most people use presentations to share information, which is a terrible waste of everybody’s time because we forget most of what we hear very quickly. 
 
