@@ -1,6 +1,6 @@
 +++
 draft 		= false
-title 		= "Coaching prise de parole en public"
+title 		= "Coaching en prise de parole pour dirigeants"
 description	= "Développez votre présence sur scène. Devenez un leader charismatique."
 weight		= 1
 categories	= [ "Coaching prise de parole en public" ]
