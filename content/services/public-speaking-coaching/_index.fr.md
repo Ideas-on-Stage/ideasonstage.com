@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Coaching à la prise de parole en public"
+title 			= "Coaching en prise de parole en public"
 description		= "Développez votre présence sur scène. Devenez un leader charismatique."
 weight			= 1
 categories		= [ "Coaching prise de parole en public" ]
@@ -28,7 +28,7 @@ La prise de parole, ou art oratoire, est un ensemble de techniques qui permetten
 
 Pour être efficace, la prise de parole doit faire l'objet d'un travail en amont sur les messages, le storytelling et, si nécessaire, les visuels.
 
-Notre service de coaching à la prise de parole est taillé sur mesure. Que vous soyez un cadre dirigeant devant présenter sa nouvelle stratégie, un organisateur souhaitant faire coacher les intervenants de son événement ou un créateur de start-up invité à présenter à une grande conférence, notre objectif est le même : vous faire réussir.
+Notre service de coaching en prise de parole est taillé sur mesure. Que vous soyez un cadre dirigeant devant présenter sa nouvelle stratégie, un organisateur souhaitant faire coacher les intervenants de son événement ou un créateur de start-up invité à présenter à une grande conférence, notre objectif est le même : vous faire réussir.
 
 ## Une combinaison de techniques classiques et modernes
 Les techniques d'art oratoire classiques sont efficaces, mais elles ont une limite : elles ne permettent pas de répéter en face d'un public de plusieurs centaines de personnes. Désormais, grâce à la réalité virtuelle, c'est possible. Dans le confort de nos locaux sur les Champs Élysées, vous ferez votre entrée sur la scène virtuelle. Le rideau s'ouvrira et vous découvrirez le public. Vous découvrirez comment utiliser votre regard pour mieux communiquer face à un large auditoire. Vous pourrez vous entraîner à gérer les réactions positives et négatives, et à répondre aux questions très difficiles.
