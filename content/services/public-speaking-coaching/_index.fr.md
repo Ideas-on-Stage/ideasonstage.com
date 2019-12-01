@@ -23,7 +23,7 @@ La prise de parole, ou art oratoire, est un ensemble de techniques qui permetten
 * La respiration qui donne force et aisance à la voix.
 * La posture qui ancre l'orateur sur scène, lui donnant une présence naturelle.
 * Le regard qui établit une connexion et un échange avec l'auditoire.
-* L'élocution qui rend le discours clair, facilement compréhensible et le rend agréable à écouter en jouant sur le rythme, les pauses et l'intonation.
+* L'élocution qui rend le discours clair, facilement compréhensible et agréable à écouter en jouant sur le rythme, les pauses et l'intonation.
 * Le langage corporel et la gestuelle qui renforcent la cohérence non verbale du message.
 
 Pour être efficace, la prise de parole doit faire l'objet d'un travail en amont sur les messages, le storytelling et, si nécessaire, les visuels.
@@ -31,7 +31,7 @@ Pour être efficace, la prise de parole doit faire l'objet d'un travail en amont
 Notre service de coaching en prise de parole est taillé sur mesure. Que vous soyez un cadre dirigeant devant présenter sa nouvelle stratégie, un organisateur souhaitant faire coacher les intervenants de son événement ou un créateur de start-up invité à présenter à une grande conférence, notre objectif est le même : vous faire réussir.
 
 ## Une combinaison de techniques classiques et modernes
-Les techniques d'art oratoire classiques sont efficaces, mais elles ont une limite : elles ne permettent pas de répéter en face d'un public de plusieurs centaines de personnes. Désormais, grâce à la réalité virtuelle, c'est possible. Dans le confort de nos locaux sur les Champs Élysées, vous ferez votre entrée sur la scène virtuelle. Le rideau s'ouvrira et vous découvrirez le public. Vous découvrirez comment utiliser votre regard pour mieux communiquer face à un large auditoire. Vous pourrez vous entraîner à gérer les réactions positives et négatives, et à répondre aux questions très difficiles.
+Les techniques d'art oratoire classiques sont efficaces, mais elles ont une limite : elles ne permettent pas de répéter en face d'un public de plusieurs centaines de personnes. Désormais, grâce à la réalité virtuelle, c'est possible. Dans le confort de nos locaux sur les Champs Élysées, vous ferez votre entrée sur la scène virtuelle. Le rideau s'ouvrira et vous découvrirez le public. Vous apprendrez à utiliser votre regard pour mieux communiquer face à un large auditoire. Vous pourrez vous entraîner à gérer les réactions positives et négatives, et à répondre aux questions très difficiles.
 
 ## Un programme personnalisé
 Nous adaptons le programme de coaching aux forces et opportunités d’amélioration de chacun. Nous choisissons le coach le plus approprié en fonction du style de chaque orateur, et nous adaptons le programme avec notre approche ACE. Cela apporte trois bénéfices essentiels :
