@@ -18,7 +18,7 @@ descprop		= "description"
 pictureprop		= "image"
 +++
 
-La prise de parole, ou art oratoire, est un ensemble de techniques qui permettent de communiquer son message efficacement face a un auditoire, que celui-ci soit constitué d'une à plusieurs milliers de personnes. Parmi les techniques clés de la prise de parole, on peut citer :
+La prise de parole, ou art oratoire, est un ensemble de techniques qui permettent de communiquer son message efficacement face a un auditoire, que celui-ci soit constitué d'une ou de plusieurs milliers de personnes. Parmi les techniques clés de la prise de parole, on peut citer :
 
 * La respiration qui donne force et aisance à la voix.
 * La posture qui ancre l'orateur sur scène, lui donnant une présence naturelle.
