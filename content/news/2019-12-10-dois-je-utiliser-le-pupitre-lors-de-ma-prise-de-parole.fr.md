@@ -17,4 +17,4 @@ Notre conseil est simple : si vous n’êtes pas un politicien, évitez le pupi
 
 La seule exception est lorsque vous prenez la parole dans un pays où le respect de la tradition est extrêmement important. Dans le doute, demandez si vous pouvez vous déplacer sur scène. Si vous avez des doutes, alors il vaut mieux rester derrière le pupitre pour éviter de choquer l’auditoire.
 
-![Lectern](/img/news/lectern.jpg)
+![Pupitre](/img/news/lectern.jpg)
