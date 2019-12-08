@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = "Dois-je utiliser le pupitre lors de ma prise de parole ?"
 tags = ["Prise de parole en public"]
 news = ["general"]

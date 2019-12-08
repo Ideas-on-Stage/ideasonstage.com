@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = "Should I stand behind the lectern?"
 tags = ["Public Speaking"]
 news = ["general"]
