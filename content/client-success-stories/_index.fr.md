@@ -8,11 +8,4 @@ showrefs		= false
 showpageslist	= true
 urlredirect		= ""
 url		 		= "/success-stories-clients/"
-
-itemtype		= "Service"
-itemscope		= ""
-itemprop		= ""
-titleprop		= "name"
-descprop		= "description"
-pictureprop		= "image"
 +++
