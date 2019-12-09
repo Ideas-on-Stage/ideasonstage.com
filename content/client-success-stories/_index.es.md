@@ -1,5 +1,4 @@
 +++
-uuid			= "125E3753-B0C6-4CF0-BE9F-1DBE6759D7DC"
 draft 			= false
 title 			= "Client Success Stories"
 description		= ""
@@ -8,5 +7,4 @@ categories		= [ ]
 showrefs		= false
 urlredirect		= ""
 url	 			= "/client-success-stories/"
-
 +++

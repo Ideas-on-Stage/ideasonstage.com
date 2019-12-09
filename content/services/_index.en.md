@@ -4,9 +4,9 @@ draft 			= false
 title 			= "Services"
 description		= "Presentation creation, business events, public speaking training and coaching"
 weight			= 4
-categories		= [ "Training & Workshops" ]
+categories		= [ "Services" ]
 showrefs		= false
 urlredirect		= ""
 url 				= "/services/"
 +++
-## Services
+
