@@ -4,9 +4,9 @@ draft 			= false
 title 			= "Client Success Stories"
 description		= ""
 weight			= 4
-categories		= [ "Servicios" ]
+categories		= [ ]
 showrefs		= false
 urlredirect		= ""
-url	 			= "/servicios/"
+url	 			= "/client-success-stories/"
 
 +++
