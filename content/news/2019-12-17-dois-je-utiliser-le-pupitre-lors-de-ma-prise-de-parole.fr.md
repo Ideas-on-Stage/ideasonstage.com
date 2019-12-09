@@ -1,9 +1,9 @@
 +++
-draft = true
+draft = false
 title = "Dois-je utiliser le pupitre lors de ma prise de parole ?"
 tags = ["Prise de parole en public"]
 news = ["general"]
-date = "2019-12-10"
+date = "2019-12-17"
 author = "Pierre Morsa"
 banner = "/img/news/lectern.jpg"
 language = "fr"

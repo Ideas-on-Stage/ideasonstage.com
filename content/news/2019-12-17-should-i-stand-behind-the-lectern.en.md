@@ -1,9 +1,9 @@
 +++
-draft = true
+draft = false
 title = "Should I stand behind the lectern?"
 tags = ["Public Speaking"]
 news = ["general"]
-date = "2019-12-10"
+date = "2019-12-17"
 author = "Pierre Morsa"
 banner = "/img/news/lectern.jpg"
 language = "en"
