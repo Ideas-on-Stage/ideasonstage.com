@@ -9,7 +9,7 @@ redirect	= false
 redirectlink= ""
 url		 	= "/success-stories-clients/soiree-trophees-martech-cmit/"
 link		 	= "/success-stories-clients/soiree-trophees-martech-cmit/"
-picture		= "/pictures/success-stories/cmit_story.jpeg"
+picture		= "/pictures/success-stories/cmit_story.jpg"
 +++
 
 Le Club des Marketeurs de la Tech (CMIT) organisait le 20 novembre dernier la 4ème édition des Trophées Startup MarTech, un concours qui déniche les futures pépites destinées à révolutionner le marketing B2B. Depuis 2016, le CMIT révèle des startups innovantes en mettant à l’honneur les nouveaux talents qui accompagneront les responsables marketing de demain. Chaque année, les plus beaux dossiers plébiscités par les membres sont mis en avant sur le site du CMIT et de leurs partenaires presse. L’objectif de ces trophées est de permettre aux jeunes entreprises de se faire connaitre auprès de leurs clients marketeurs. Cette année, les trois startups sélectionnées étaient Kiliba, Omnilive et Sensego. 
