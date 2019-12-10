@@ -110,8 +110,6 @@ Dans une petite salle, avec juste quelques personnes face à vous, il est import
 ### Gestuelle
 Une bonne gestuelle vous donnera de l’aisance sur scène et renforcera les passages clés de votre discours. La gestuelle, c’est beaucoup plus simple qu’il n’y paraît. 
 
-{{% youtube "-P9C8xl4RPU" %}}
-
 Une bonne gestuelle est naturelle, ouverte et expressive. Naturelle, car elle correspond à votre style. Si vous êtes plutôt expansif, vous pouvez faire de grands et nombreux gestes. Si vous êtes plutôt réservé, une gestuelle posée mais efficace est tout à fait adaptée. Le pire est d’essayer d’adapter une gestuelle qui ne correspond pas à notre style naturel. Elle est aussi ouverte, tournée vers le public, et ne cachant pas l’orateur. Enfin, elle est expressive : elle ponctue, illustre et renforce le discours.
 
 Nous allons expliquer comment pratiquer la gestuelle, mais avant cela listons quelques gestes à éviter :
@@ -167,8 +165,6 @@ Pour combattre ces deux causes, il existe de nombreuses méthodes. Je vais en li
 * Rester dans l’instant présent pour éviter d’échafauder des scénarios catastrophes ou d’angoisser sur le futur. 
 * Garder un contact permanent avec d’autres personnes.
 * Se faire des Alliés dans le public.
-
-{{% youtube "-_8sswO35r4" %}}
 
 Si la peur de la prise de parole en public est particulièrement vous fait particulièrement souffrir, je vous invite à lire ces articles que j’avais écrits sur mon blog personnel :
 
