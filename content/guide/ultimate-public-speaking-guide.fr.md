@@ -119,6 +119,9 @@ Nous allons expliquer comment pratiquer la gestuelle, mais avant cela listons qu
 * Se frotter les mains. Bill Gates avait ce défaut lorsqu’il présentait. Cela lui donnait l’air de comploter en permanence, un peu comme Mr. Burns dans les Simpson…
 * Pointer du doigt (quel que soit le doigt) : c’est un geste qui est considéré comme grossier ou inapproprié dans de nombreuses cultures. Si vous voulez montrer une direction, il vaut mieux le faire en tendant la main entière.
 
+<br />
+{{% youtube -P9C8xl4RPU %}}
+
 Pour pratiquer la gestuelle, commencez par prendre une posture ancrée, respirez calmement. Laissez vos bras le long du corps, détendus. Imaginez-vous en train d’établir le contact visuel avec le public face à vous. Dans cette position, vous allez sûrement vous sentir mal à l’aise, peu naturel. Pourquoi ? Parce que c’est une position vulnérable, ouverte, qui n’offre aucune protection psychologique face au public. Pourtant, quelqu’un qui vous regarde aura l’impression que vous êtes « normal ». C’est le paradoxe de la gestuelle : ce que l’on ressent peut être très différent de ce que le public perçoit.
 
 Une fois cette première position avec les bras relâchés le long du corps assumée, commencez à parler. Utilisez naturellement les mains et les bras pour ponctuer les moments clés de votre discours. Encore une fois, en dehors des gestes « interdits » ou « incohérents », une gestuelle spontanée et naturelle est la meilleure. C’est simple non ? Il suffit alors d’utiliser des gestes « cohérents ». Si vous parlez de quelque chose de petit ou simple, ne faites pas de grands gestes ou de gestes élaborés, faites de petits gestes simples. Si vous parlez de quelque chose de lent, ne faites pas de gestes rapides, mais plutôt des gestes posés, précis, lents.
@@ -171,6 +174,9 @@ Si la peur de la prise de parole en public est particulièrement vous fait parti
 * [Démasquer les artifices de notre Ego](https://www.pierremorsa.com/post/2017-01-23-comment-vaincre-peur-parler-public-2/)
 * [vaincre sa peur de la prise de parole](https://www.pierremorsa.com/post/2017-01-30-comment-vaincre-peur-parler-public-3/)
 
+<br />
+{{% youtube DYQ-4Z6WMqM %}}
+
 ### Éliminer les « euh »
 Les « euh » sont le tic de langage le plus fréquent lors de la prise de parole en public. Et pour les corriger, on va utiliser… le regard. Comme on dit, les euh s’éliminent avec les yeux !
 
@@ -192,6 +198,9 @@ Pour éviter cela, il faut répéter l’exercice des Post-its, et surtout, il f
 
 ### Éviter la voix « monotone »
 Si vous avez tendance à prendre une voix faible ou monotone lorsque vous prenez la parole en public, nous vous conseillons de pratiquer les 4 tempos, tels que décrits dans cette excellente vidéo réalisée par mes collègues Michael et Rose.
+
+<br />
+{{% youtube 3nMIo1mGcLc %}}
 
 [Cette vidéo fait partie de notre série The Business Presentation Revolution](https://www.ideasonstage.fr/revolution/)
 
