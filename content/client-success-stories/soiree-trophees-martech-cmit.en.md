@@ -8,7 +8,6 @@ showrefs	= false
 redirect	= false
 redirectlink= ""
 url		 	= "/client-success-stories/martech-trophies-ceremony-by-cmit/"
-link			= "/client-success-stories/martech-trophies-ceremony-by-cmit/"
 picture		= "/pictures/success-stories/cmit_story.jpg"
 +++
 
