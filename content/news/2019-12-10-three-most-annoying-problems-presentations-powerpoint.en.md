@@ -21,12 +21,6 @@ Dave Paradi, an expert on PowerPoint presentations, has published the results of
 
     Number three is a bit weird. Why would people be annoyed by full sentences? Using short and simple sentences is fine. We think that the correct formulation for that problem should be “use of sentences that are too long or too complicated.”
 
-    If you want to know what the next three most annoying problems are, you can read about them on our website.
-
-
-    The next three most often cited annoyances are:
-
-
 4. Text overload
 5. Not having a clear purpose
 6. Not having a clear flow of ideas.
