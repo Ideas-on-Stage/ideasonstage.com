@@ -24,7 +24,7 @@ Dave Paradi, an expert on PowerPoint presentations, has published the results of
     If you want to know what the next three most annoying problems are, you can read about them on our website.
 
 
-The next three most often cited annoyances are:
+    The next three most often cited annoyances are:
 
 
 4. Text overload
