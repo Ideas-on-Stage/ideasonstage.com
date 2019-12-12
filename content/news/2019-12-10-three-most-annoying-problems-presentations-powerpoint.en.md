@@ -15,11 +15,14 @@ Dave Paradi, an expert on PowerPoint presentations, has published the results of
 2. The text is too small
 3. Use of full sentences
 
-Number one is a no. This is one of the first things we teach to people using “slideuments”: never read your presentation. A presentation is not a prompter that you read at the same time as your audience. This is an extremely ineffective method of communication. It will bore your audience so much they will fall asleep or start crying. Number two is obvious, or rather should be obvious: text that is so small nobody can read it is useless, and should be avoided. Number three is a bit weird. Why would people be annoyed by full sentences? Using short and simple sentences is fine. We think that the correct formulation for that problem should be “use of sentences that are too long or too complicated.”
+Number one is a no. This is one of the first things we teach to people using “slideuments”: never read your presentation. A presentation is not a prompter that you read at the same time as your audience. This is an extremely ineffective method of communication. It will bore your audience so much they will fall asleep or start crying.
+
+Number two is obvious, or rather should be obvious: text that is so small nobody can read it is useless, and should be avoided. 
+
+Number three is a bit weird. Why would people be annoyed by full sentences? Using short and simple sentences is fine. We think that the correct formulation for that problem should be “use of sentences that are too long or too complicated.”
 
 If you want to know what the next three most annoying problems are, you can read about them on our website.
 
-[The text below is going to be on the website article only]
 
 The next three most often cited annoyances are:
 
