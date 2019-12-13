@@ -295,7 +295,7 @@ theme        			= "hugo-creative-theme-master"
 			[languages.fr.navigation.items.002]
 				name		 	= "Événements d'entreprise"
 				url			 	= "/evenements-entreprise/"
-				frontpageurl 	= "/evenements-entreprise"	
+				frontpageurl 	= "/evenements-entreprise/"	
 			[languages.fr.navigation.items.003]
 				name		 	= "Coaching prise de parole"
 				url			 	= "/coaching-prise-de-parole-en-public/"
@@ -314,6 +314,10 @@ theme        			= "hugo-creative-theme-master"
 					name			= "Stories"
 					url				= "/news/"
 					frontpageurl		= "/news/"
+				[languages.fr.navigation.resources.002]
+					name			= "Guides"
+					url				= "/guides/"
+					frontpageurl		= "/guides/"
 		[languages.fr.navigation.housekeeping]
 			[languages.fr.navigation.housekeeping.001]
 				name			= "Contact"
