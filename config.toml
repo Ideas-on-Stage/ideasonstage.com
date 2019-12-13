@@ -314,7 +314,7 @@ theme        			= "hugo-creative-theme-master"
 					name			= "Stories"
 					url				= "/news/"
 					frontpageurl		= "/news/"
-				[languages.fr.navigation.resources.002]
+				[languages.fr.navigation.resources.003]
 					name			= "Guides"
 					url				= "/guides/"
 					frontpageurl		= "/guides/"
