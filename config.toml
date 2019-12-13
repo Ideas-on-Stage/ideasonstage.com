@@ -307,11 +307,11 @@ theme        			= "hugo-creative-theme-master"
 		[languages.fr.navigation.resources]
 				
 				[languages.fr.navigation.resources.001]
-					name			= "Videos"
+					name			= "Vidéos"
 					url				= "/revolution/"
 					frontpageurl		= "/revolution/"
 				[languages.fr.navigation.resources.002]
-					name			= "Stories"
+					name			= "Articles"
 					url				= "/news/"
 					frontpageurl		= "/news/"
 				[languages.fr.navigation.resources.003]
@@ -324,7 +324,7 @@ theme        			= "hugo-creative-theme-master"
 				url				= "#contact"
 				frontpageurl		= "#contact"
 			[languages.fr.navigation.housekeeping.002]
-				name			= "Team"
+				name			= "Équipe"
 				url				= "/equipe/"
 				frontpageurl		= "/equipe/"
 
