@@ -5,6 +5,7 @@ description	= "Tout ce que vous avez toujours voulu savoir pour devenir un TEDx 
 categories	= [ "Guides" ]
 showrefs	= false
 url			= "/guide-tedx-speaker/"
+picture		= "/guide-tedx-speaker/tedx-speaker.jpg"
 +++
 
 ## Sommaire

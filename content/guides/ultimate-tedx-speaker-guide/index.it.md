@@ -5,6 +5,7 @@ description	= "Tutto quello che avreste voluto sapere sull’essere un TEDx spea
 categories	= [ "TEDx Events" ]
 showrefs	= false
 url			= "/ultimate-tedx-speaker-guide/"
+picture		= "/ultimate-tedx-speaker-guide/tedx-speaker.jpg"
 +++
 
 Congratulazioni, sei stato appena contattato per essere uno speaker a TED o TEDx! O potresti avere l’ambizione di organizzarne uno. Se è una di queste due cose, questa guida è stata fatta per te: Tutto quello che avreste voluto sapere su un TEDx speaker ma non avete mai osato chiedere!

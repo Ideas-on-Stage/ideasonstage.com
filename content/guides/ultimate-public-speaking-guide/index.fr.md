@@ -8,13 +8,7 @@ showrefs		= false
 showpageslist 	= true
 urlredirect		= ""
 url 				= "/guide-ultime-prise-de-parole-en-public/"
-picture		 	= ""
-itemtype		= "Service"
-itemscope		= ""
-itemprop		= ""
-titleprop		= "name"
-descprop		= "description"
-pictureprop		= "image"
+picture		 	= "/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
 +++
 
 Ce guide vous donnera tous les conseils nécessaires pour réussir votre prise de parole en public, que ce soit lors d’une réunion ou face à un auditoire de plusieurs milliers de personnes.
