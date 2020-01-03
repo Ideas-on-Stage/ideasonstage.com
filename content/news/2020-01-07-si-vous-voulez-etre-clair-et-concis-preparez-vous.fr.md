@@ -8,7 +8,7 @@ author = "Pierre Morsa"
 banner = "/img/news/christmas-lights-nightmare.jpg"
 language = "fr"
 +++
-Si seulement il s’était préparé… Il ne serait pas en train de se battre avec la guirlande de Noël au lieu de profiter du moment…
+Si seulement il s’était préparé… Il ne serait pas en train de se battre avec la guirlande de Noël au lieu de profiter de l’instant présent…
 
 Il y a quelques mois, j’ai enregistré un épisode pour notre série de vidéos « The Business Presentation Revolution ». Au début, mon contenu était trop long pour tenir dans le temps de 3 ou 4 minutes que nous avions prévu. En regardant mon script, je me rendis compte que de nombreuses phrases pouvaient être simplifiées, que certains détails n’étaient pas nécessaires et que la structure pouvait être moins tarabiscotée.
 
