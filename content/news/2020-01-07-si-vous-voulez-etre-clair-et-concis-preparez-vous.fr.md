@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = "Si vous voulez être clair et concis, préparez-vous"
 tags = ["Prise de parole en public", "TEDx"]
 news = ["general"]

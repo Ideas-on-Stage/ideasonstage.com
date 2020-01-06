@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = "If you want to be brief and to the point, prepare"
 tags = ["Public Speaking", "TEDx"]
 news = ["general"]
