@@ -5,7 +5,7 @@ tags = ["Public Speaking", "TEDx"]
 news = ["general"]
 date = "2020-01-07"
 author = "Joe Ross"
-banner = "/img/news/fire.jpg"
+banner = "/img/news/sequoias.jpg"
 language = "en"
 +++
 You know that mental image you have of what you think you should be like on stage? Yes, that one based upon a mash-up of some of your favorite TED speakers whom you are certain you’ll never be as good as. Well, forget it! 
@@ -44,7 +44,7 @@ The “how” for the Post TED-like style for 21st century presenting and commun
 
 Just in time for when we need it most. 
 
-![Fire](/img/news/fire.jpg)
+![Sequoias](/img/news/sequoias.jpg)
  
 
 

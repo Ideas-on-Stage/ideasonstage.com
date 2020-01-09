@@ -1,12 +1,13 @@
 +++
 draft = false
-title = "La vie après TED : comment présenter dans un monde Post-TED"
+title = "La vie après TED : comment manifestons-nous dans un monde Post-TED"
 tags = ["Prise de parole", "TEDx"]
 news = ["general"]
 date = "2020-01-07"
 author = "Joe Ross"
-banner = "/img/news/fire.jpg"
+banner = "/img/news/sequoias.jpg"
 language = "fr"
+url = "/news/2020-01-07-la-vie-apres-ted-comment-manifestons-nous-dans-un-monde-post-ted.fr"
 +++
 Vous voyez cette image mentale du présentateur que vous imaginez devoir être sur scène ? Oui, celle basée sur un mélange de vos intervenants TED préférés, mais que vous pensez ne jamais pouvoir égaler. Eh bien, oubliez cette image !
 
@@ -42,4 +43,4 @@ Ces trois éléments sont la base du style Post TED pour la présentation et la 
 
 Juste à temps pour le moment où nous en avons le plus besoin.
 
-![Feu](/img/news/fire.jpg)
+![Sequoias](/img/news/sequoias.jpg)
