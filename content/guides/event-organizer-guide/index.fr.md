@@ -16,7 +16,7 @@ Les événements se présentent sous différentes formes et formats, mais les pr
 
 ## Sommaire
 
-- Qui sommes-nous ?
+- À propos de l'auteur
 - Définissez précisément l’événement
 - S’organiser et mettre en place des outils de suivi
 - Définir et gérer le budget
@@ -28,27 +28,18 @@ Les événements se présentent sous différentes formes et formats, mais les pr
 - Le jour J
 - Après l’événement
 
-## Qui sommes-nous ?
-Ideas on Stage est une société spécialisée dans les présentations et les événements d’entreprise. Nous transformons vos conférences et réunions classiques en événements dynamiques et mémorables. Nous travaillons avec les organisateurs et les équipes de direction pour établir un programme passionnant et plein de surprises, mettre en place les aspects logistiques et pour maximiser l’impact de chaque intervenant.
+## À propos de l'auteur
+Marine Bénard est coordinatrice d'événements et chef de projet chez Ideas on Stage, une société spécialisée dans les présentations et les événements d’entreprise. Auparavant, elle a travaillé dans une agence événementielle, et a aidé à organiser des événements très connus. Elle transforme vos conférences et réunions classiques en événements dynamiques et mémorables.
 
-Nous ne sommes pas une agence événementielle. Nous ne sommes pas simplement des coordinateurs. Nous sommes spécialistes en présentations et en événements professionnels à fort impact. Nous travaillons avec des clients du monde entier pour les aider à présenter leurs idées et stratégies de manière claire et mémorable.
+Ideas on Stage n'est pas une agence événementielle et nous ne sommes pas simplement des coordinateurs. Nous sommes spécialistes en présentations et en événements professionnels à fort impact. Nous travaillons avec des clients du monde entier pour les aider à présenter leurs idées et stratégies de manière claire et mémorable. Nous concevons l’événement à vos côtés, dans toutes ses étapes : le conseil, la réflexion qui amène à la créativité, la logistique et la mise en place.
 
-- Nous aidons les dirigeants à créer des présentations, en réfléchissant à des idées, en élaborant des scénarios, en concevant des diapositives à fort impact et en les encadrant pour s’assurer qu’ils soient prêts à s’exprimer en toute confiance et de manière convaincante.
-- Nous aidons les organisateurs événementiels à inspirer leurs participants en appliquant nos compétences en matière de créativité et de storytelling pour concevoir et produire des événements originaux et exceptionnels.
-- Nous donnons aux organisations des formations de haute qualité et un coaching individuel, basés sur notre méthode exclusive Presentation SCORE™ et notre expérience de travail avec des milliers de cadres dirigeants.
-
-Nous concevons l’événement à vos côtés, dans toutes ses étapes : le conseil, la réflexion qui amène à la créativité, la logistique et la mise en place.
-
-Comme nous le faisons pour les formations et le coaching que nous encadrons, nous appliquons nos méthodes de brainstorming, storytelling et design dans le cadre événementiel.
-
-Cette méthodologie va nous permettre de comprendre ensemble qui sont vos participants/invités, quels sont leurs besoins, quel est le contexte de cet événement, et quels sont vos objectifs.
+Comme nous le faisons pour les formations et le coaching que nous encadrons, nous appliquons nos méthodes de brainstorming, storytelling et design dans le cadre événementiel. Cette méthodologie va nous permettre de comprendre ensemble qui sont vos participants/invités, quels sont leurs besoins, quel est le contexte de cet événement, et quels sont vos objectifs.
 À partir de ce travail de réflexion et d’imagination, la maîtrise d’œuvre devient ensuite une partie indispensable pour la réussite de l’événement. Nous allons assembler et contrôler toute la mise en place des différents éléments artistiques, matériels, humains, règlementaires et budgétaires, et assurer la cohérence globale, tout en respectant le planning idéalement conçu.
 
 Nous veillerons à ce que votre événement soit non seulement mémorable pour les participants, mais atteigne également vos objectifs en harmonie avec votre culture d’entreprise.
 
 ## Définissez précisément l’événement
-Quand ? Où ? Pourquoi ? Comment ? Avec qui ? Répondre à toutes ces questions vous aidera à fixer les objectifs stratégiques tout en déterminant le contenu de votre événement.
-Vouloir organiser un événement, c’est bien. Mais savoir pourquoi et créer un événement qui a du sens, c’est mieux ! Dans tout projet, les fondations sont capitales. Mal définir le cadre et les objectifs attendus est l’une des erreurs les plus fréquentes. Elle mène inévitablement à des oublis et un retour sur investissement moindre. Pour éviter cette situation, posez le cadre en appliquant la règle des 5 W :
+Quand ? Où ? Pourquoi ? Comment ? Avec qui ? Répondre à toutes ces questions vous aidera à fixer les objectifs stratégiques tout en déterminant le contenu de votre événement. Vouloir organiser un événement, c’est bien. Mais savoir pourquoi et créer un événement qui a du sens, c’est mieux ! Dans tout projet, les fondations sont capitales. Mal définir le cadre et les objectifs attendus est l’une des erreurs les plus fréquentes. Elle mène inévitablement à des oublis et un retour sur investissement moindre. Pour éviter cette situation, posez le cadre en appliquant la règle des 5 W :
 
 ### Quoi : what?
 Quel type d’événement souhaitez-vous organiser ?
@@ -97,7 +88,7 @@ L’événement est-il le moyen le plus rapide, le plus facile et le plus pertin
 En découleront alors beaucoup d’éléments : le thème de la manifestation, les sujets abordés, les intervenants sélectionnés, le budget nécessaire, le ton des invitations, la décoration et la scénographie, etc.
 Ne vous laissez pas emballer par une idée, aussi extraordinaire soit-elle. N’oubliez pas qu’un événement n’existe que s’il rencontre son public !
 
-**Quels que soient vos objectifs, ces derniers se doivent d’être S.M.A.R.T.**
+### Quels que soient vos objectifs, ces derniers se doivent d’être S.M.A.R.T.
 
 - **S**pécifiques. Ils sont clairs, compréhensibles et le plus précis possible, même sortis de leur contexte.
 - **M**esurables. Ils sont chiffrés et vous permettent de suivre votre progrès de réalisation et d’évaluer le résultat. 
