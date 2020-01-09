@@ -12,7 +12,7 @@ You know that mental image you have of what you think you should be like on stag
 
 Welcome to the Post-TED style of authenticity centered presentation. 
 
-[In my last article, Wash that TED right out of your head: New Post-TED presentation](/news/2019-10-29-wash-that-ted-right-out-of-your-head-avoiding-bad-ted-presentations/), we explored some of the foundational reasons which many are experiencing, and what I call, “TED-like style Fatigue”. Please see that first, as it was the second in a series of three articles exploring this subject. However, if you already think you know what I mean by TED-like style fatigue, then by all means read on. 
+[In my last article, Wash that TED right out of your head: New Post-TED presentation](/news/2019/10/29/2019-10-29-wash-that-ted-right-out-of-your-head-avoiding-bad-ted-presentations/), we explored some of the foundational reasons which many are experiencing, and what I call, “TED-like style Fatigue”. Please see that first, as it was the second in a series of three articles exploring this subject. However, if you already think you know what I mean by TED-like style fatigue, then by all means read on. 
 
 So, we have established that we are growing rather weary of the formulaic and “highly oratorial,” perfectly polished, and perfectly predictable TED-like style that we see time and time again. Fine. What comes after then?
 
