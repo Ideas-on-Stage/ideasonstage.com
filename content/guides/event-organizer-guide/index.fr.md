@@ -29,7 +29,7 @@ Les événements se présentent sous différentes formes et formats, mais les pr
 - Après l’événement
 
 ## À propos de l'auteur
-Marine Bénard est coordinatrice d'événements et chef de projet chez Ideas on Stage, une société spécialisée dans les présentations et les événements d’entreprise. Auparavant, elle a travaillé dans une agence événementielle, et a aidé à organiser des événements très connus. Elle transforme vos conférences et réunions classiques en événements dynamiques et mémorables.
+Marine Bénard est coordinatrice d'événements et chef de projet chez Ideas on Stage, une société spécialisée dans les présentations et les événements d’entreprise. Auparavant, elle a travaillé en agence événementielle et pour un organisateur international de salons, et a aidé à organiser des événements professionnels et grand public de grande renommée. Elle transforme vos conférences et réunions classiques en événements dynamiques et mémorables.
 
 Ideas on Stage n'est pas une agence événementielle et nous ne sommes pas simplement des coordinateurs. Nous sommes spécialistes en présentations et en événements professionnels à fort impact. Nous travaillons avec des clients du monde entier pour les aider à présenter leurs idées et stratégies de manière claire et mémorable. Nous concevons l’événement à vos côtés, dans toutes ses étapes : le conseil, la réflexion qui amène à la créativité, la logistique et la mise en place.
 
@@ -49,16 +49,16 @@ L’ambiance est-elle festive, décontractée, professionnelle ?
 ### Qui : who?
 Quelle est la cible ?
 
-    > Salariés, prospects, clients, fournisseurs, investisseurs, presse, grand public, VIP… ?
+ Salariés, prospects, clients, fournisseurs, investisseurs, presse, grand public, VIP… ?
 
 ### Pourquoi : why?
 Quel est le but stratégique ?
 
-    > Notoriété, image de marque, visibilité, fidélisation… ?
+    => Notoriété, image de marque, visibilité, fidélisation… ?
 
 Pourquoi voulez-vous organiser cet événement ?
 
-    > Motiver les équipes, développer la culture d’entreprise, faire une annonce/informer, lancer un nouveau produit, sensibiliser les clients/prospects à un produit ou service, trouver de nouveaux partenaires, présenter une nouveauté à la presse… ?
+    => Motiver les équipes, développer la culture d’entreprise, faire une annonce/informer, lancer un nouveau produit, sensibiliser les clients/prospects à un produit ou service, trouver de nouveaux partenaires, présenter une nouveauté à la presse… ?
 
 Quels messages souhaitez-vous transmettre à vos invités ?
 Que vont-ils découvrir ou apprendre ?
@@ -66,21 +66,21 @@ Que vont-ils découvrir ou apprendre ?
 ### Où : where?
 Où se tiendra-t-il ?
 
-    > Salle de conférence, restaurant, bureau… ?
+    => Salle de conférence, restaurant, bureau… ?
 
 Quel est le secteur géographique choisi ?
 Quel est le type de lieu recherché ?
 
-    > Atypique, cosy, chaleureux… ?
+    => Atypique, cosy, chaleureux… ?
 
 ### Quand : when?
 À quel moment doit-il se dérouler ?
 
-    > Matinée, déjeuner, après-midi, dîner, soirée ?
+    => Matinée, déjeuner, après-midi, dîner, soirée ?
 
 Quelle en sera la durée ?
 
-    > Quelques heures, demi-journée, journée ?
+    => Quelques heures, demi-journée, journée ?
 
 Quel jour de la semaine ?
 

@@ -10,9 +10,9 @@ urlredirect		= ""
 url 				= "/event-organizer-guide/"
 picture		 	= "/event-organizer-guide/organisateur-evenement.jpg"
 +++
-This guide will give you the keys to organize a successful business event. Each step of the organization process is explained. Eliminate unforeseen events, omissions and last-minute panic and turn event management into a strategic asset for your company.
+This guide will give you the keys to organize a successful business event. Each step of the organization process is explained. Eliminate unforeseen circumstances, omissions and last-minute panic and turn event management into a strategic asset for your company.
 
-Events come in all shapes and sizes, but the principles of organization are always the same. The key to a successful event is making sure it’s well planned and that it meets all of your target’s expectations.
+Events come in all shapes and sizes, but the principles of organization are always the same. The key to a successful event is making sure it’s well planned and that it meets all of your targeted expectations.
 
 ## Summary
 
@@ -30,9 +30,9 @@ Events come in all shapes and sizes, but the principles of organization are alwa
 - After the Event
 
 ## About the author
-Marine Bénard is event coordinator and project manager at Ideas on Stage, a company specializing in presentations and corporate events. Previously, she worked for event agencies, and helped organize several high-profile events. She turns business conferences and meetings into dynamic, memorable events, working with organizers and senior management to develop agendas, set up the logistical aspects and prepare speakers that make a lasting impact.
+Marine Bénard is event coordinator and project manager at Ideas on Stage, a company specializing in presentations and corporate events. Previously, she worked for event agencies and an international exhibition company, and helped organize several high-profile events. She turns business conferences and meetings into dynamic, memorable events, working with organizers and senior management to develop agendas, set up the logistical aspects and prepare speakers that make a lasting impact.
 
-Ideas on Stage is not an event agency and we are not just coordinators. We are specialists in powerful business presentations and events. We work with clients all over the world to present their ideas and strategies clearly and memorably. We design the event with you, from its inception to its last minute: advice, reflection that leads to creativity, logistics and set-up. 
+Ideas on Stage is not an event agency and we are not just coordinators. We are specialists in powerful business presentations and events. We work with clients all over the world to present their ideas and strategies clearly and memorably. We design the event with you every step of the way: advice, reflection that leads to creativity, logistics and set-up.
 
 As we do for our training and coaching, we apply our brainstorming, storytelling and design methods to Event Management. This methodology will help us understand together who are your attendees/guests, their needs, the context of this event and your objectives.
 
@@ -47,16 +47,16 @@ What type of event do you want to organize? Is it internal or external? Is the a
 ### WHO?
 Who is the target?
 
-    > Employees, prospects, customers, suppliers, investors, press, general public, VIP…?
+    => Employees, prospects, customers, suppliers, investors, press, general public, VIP…?
 
 ### WHY?
 What is the strategic goal?
 
-    > Notoriety, brand image, visibility, loyalty…?
+    => Notoriety, brand image, visibility, team building, loyalty…?
 
 Why do you want to organize this event?
 
-    > Motivate your employees, develop the corporate culture, make an announcement/inform, launch a new product, educate customers/prospects about a product or service, find new partners, present something new to the press…?
+    => Motivate your employees, develop the corporate culture, make an announcement/inform, launch a new product, educate customers/prospects about a product or service, find new partners, present something new to the press…?
 
 What messages do you want to convey to your guests?
 What will they discover or learn?
@@ -64,21 +64,21 @@ What will they discover or learn?
 ### WHERE?
 Where will it be held?
 
-    > Conference room, restaurant, office…?
+    => Conference room, restaurant, office…?
 
 What is the chosen geographic area?
 What type of place are you looking for?
 
-    > Atypical, cozy, warm…?
+    => Atypical, cozy, warm…?
 
 ### WHEN?
 When should it take place?
 
-    > Morning, lunch, afternoon, dinner, evening?
+    => Morning, lunch, afternoon, dinner, evening?
 
 How long will it last?
 
-    > A few hours, half a day, a day?
+    => A few hours, half a day, a day?
 
 What day of the week?
 
@@ -89,7 +89,7 @@ Using the 5 W, you will identify several important elements: the theme of the e
 ### Use S.M.A.R.T. Objectives
 
 - **S**pecific. They are clear, understandable and as precise as possible, even out of context.
-- **M**easurable. They allow you to track your progress and assess the result.
+- **M**easurable. They are precisely defined and allow you to track your progress and assess the result.
 - **A**chievable. They must be ambitious enough to represent a challenge and boost motivation and concentration towards their achievement but without discouraging your team from reaching them.
 - **R**elevant. The objectives of your event must be part of a global business strategy. Ask yourself if your event helps you meet the challenges of your business. And take your resources into consideration (human, financial, material, time); your goal should be consistent with your situation.
 - **T**ime bound. You need to set a date to reach your goals. Do not hesitate to break down a main objective into several steps, which can correspond to given periods (a month for example).
@@ -113,7 +113,7 @@ You will certainly not be able to remember everything. This document details eac
 You are free to choose the tool that suits you best. The larger and more complex the event, the more robust the tracking tool will need to be.
 
 ### A Checklist of Things to Have on D-Day
-This list will be essential on the day of the event. It will be completed one task after another, throughout the organization. This can be for example “Order xx vegetarian meals” or “Don’t put the furniture on stage before 10 a.m.” This list clears your mind and keeps you from constantly asking yourself if you’ve forgotten anything.
+This list will be essential on the day of the event. It will be completed one task after another, throughout the organization. This can be for example “Order xx vegetarian meals” or “Don’t put the chairs, tables, etc on stage before 10 a.m.” This list clears your mind and keeps you from constantly asking yourself if you’ve forgotten anything.
 
 ### A Technical Timeline
 The closer you get to the date of the event, the clearer the event will materialize in your mind and you will be able to program everything, minute by minute. This timeline is the equivalent of a film script. It precisely lists every action that needs to be done, when, where and by whom. It is the reference for the day so that the experience is as smooth as possible.
@@ -197,7 +197,7 @@ A successful conference cannot happen without a successful technical execution:
 - Arrange for the audience to be in the shade, but not completely in the dark. This allows to film audience reactions if video teams are present.
 - Good stage lighting will greatly improve the chance of having quality photos and videos.
 - Provide a small bottle of room-temperature water on a desk so that the speaker can drink.
-- During formal presentations, the speaker often stands behind a desk. Aside from these very formal cases, we do not recommend its use, as it adds a barrier between the speaker and the audience.
+- During formal presentations, the speaker often stands behind a podium. Aside from these very formal cases, we do not recommend its use, as it adds a barrier between the speaker and the audience.
 - Check where the speakers are entering and leaving the stage.
 - In the case of a seated audience, make sure that all guests have a seat.
 - Check all audiovisual equipment (screen, slide format, secondary video screens, timer, microphones, clicker with batteries, sound systems, connection cables to connect the computer to the projection system, etc.).
