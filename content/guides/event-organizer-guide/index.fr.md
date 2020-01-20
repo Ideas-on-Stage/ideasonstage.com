@@ -47,18 +47,16 @@ Est-il interne ou externe ?
 L’ambiance est-elle festive, décontractée, professionnelle ?
 
 ### Qui : who?
-Quelle est la cible ?
-
- Salariés, prospects, clients, fournisseurs, investisseurs, presse, grand public, VIP… ?
+Quelle est la cible ? Salariés, prospects, clients, fournisseurs, investisseurs, presse, grand public, VIP… ?
 
 ### Pourquoi : why?
 Quel est le but stratégique ?
 
-    => Notoriété, image de marque, visibilité, fidélisation… ?
+- Notoriété, image de marque, visibilité, fidélisation… ?
 
 Pourquoi voulez-vous organiser cet événement ?
 
-    => Motiver les équipes, développer la culture d’entreprise, faire une annonce/informer, lancer un nouveau produit, sensibiliser les clients/prospects à un produit ou service, trouver de nouveaux partenaires, présenter une nouveauté à la presse… ?
+=> Motiver les équipes, développer la culture d’entreprise, faire une annonce/informer, lancer un nouveau produit, sensibiliser les clients/prospects à un produit ou service, trouver de nouveaux partenaires, présenter une nouveauté à la presse… ?
 
 Quels messages souhaitez-vous transmettre à vos invités ?
 Que vont-ils découvrir ou apprendre ?
@@ -66,21 +64,21 @@ Que vont-ils découvrir ou apprendre ?
 ### Où : where?
 Où se tiendra-t-il ?
 
-    => Salle de conférence, restaurant, bureau… ?
+- Salle de conférence, restaurant, bureau… ?
 
 Quel est le secteur géographique choisi ?
 Quel est le type de lieu recherché ?
 
-    => Atypique, cosy, chaleureux… ?
+- Atypique, cosy, chaleureux… ?
 
 ### Quand : when?
 À quel moment doit-il se dérouler ?
 
-    => Matinée, déjeuner, après-midi, dîner, soirée ?
+- Matinée, déjeuner, après-midi, dîner, soirée ?
 
 Quelle en sera la durée ?
 
-    => Quelques heures, demi-journée, journée ?
+- Quelques heures, demi-journée, journée ?
 
 Quel jour de la semaine ?
 

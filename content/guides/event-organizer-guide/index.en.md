@@ -52,11 +52,11 @@ Who is the target?
 ### WHY?
 What is the strategic goal?
 
-    => Notoriety, brand image, visibility, team building, loyalty…?
+- Notoriety, brand image, visibility, team building, loyalty…?
 
 Why do you want to organize this event?
 
-    => Motivate your employees, develop the corporate culture, make an announcement/inform, launch a new product, educate customers/prospects about a product or service, find new partners, present something new to the press…?
+- Motivate your employees, develop the corporate culture, make an announcement/inform, launch a new product, educate customers/prospects about a product or service, find new partners, present something new to the press…?
 
 What messages do you want to convey to your guests?
 What will they discover or learn?
@@ -64,21 +64,21 @@ What will they discover or learn?
 ### WHERE?
 Where will it be held?
 
-    => Conference room, restaurant, office…?
+- Conference room, restaurant, office…?
 
 What is the chosen geographic area?
 What type of place are you looking for?
 
-    => Atypical, cozy, warm…?
+- Atypical, cozy, warm…?
 
 ### WHEN?
 When should it take place?
 
-    => Morning, lunch, afternoon, dinner, evening?
+- Morning, lunch, afternoon, dinner, evening?
 
 How long will it last?
 
-    => A few hours, half a day, a day?
+- A few hours, half a day, a day?
 
 What day of the week?
 
