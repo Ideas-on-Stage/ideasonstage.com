@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = " The 3 Magic Ingredients of Great Presentations"
 tags = ["TEDxSaclay", "Present", "Presentation", "TED", "Inspire", "PublicSpeaking", "Brainstorm", "Method", "Technique", "Tip"]
 news = ["general"]
@@ -14,6 +14,8 @@ So if there is no magic formula, are there at least some key ingredients we shou
 Over the last ten years, I’ve given thousands of speakers countless pieces of advice on how to make their presentations resonate with their audiences. Finally, out of all these great tips and ideas, I’ve boiled it down to three magic ingredients. If you include these in your presentation, you’ll be well on the road to success.
 
 These were the subject of my recent TEDx talk at [TEDxSaclay](https://tedxsaclay.com/). Perhaps you’d like to discover them live by watching **[this short video](https://m.youtube.com/watch?v=yoD8RMq2OkU)** – or if not, scroll down to see a summary.
+
+![https://www.youtube.com/watch?v=yoD8RMq2OkU](/img/news/Phil Waknell - TEDx Saclay 2019.jpg "Phil Waknell - TEDx Saclay 2019 - cc Yves Appriou")
 
 So let’s recap these three magic ingredients:
 
