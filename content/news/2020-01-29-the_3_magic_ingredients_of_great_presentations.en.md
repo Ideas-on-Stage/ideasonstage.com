@@ -15,7 +15,7 @@ Over the last ten years, I’ve given thousands of speakers countless pieces of 
 
 These were the subject of my recent TEDx talk at [TEDxSaclay](https://tedxsaclay.com/). Perhaps you’d like to discover them live by watching **[this short video](https://m.youtube.com/watch?v=yoD8RMq2OkU)** – or if not, scroll down to see a summary.
 
-![https://www.youtube.com/watch?v=yoD8RMq2OkU](/img/news/Phil Waknell - TEDx Saclay 2019.jpg "Phil Waknell - TEDx Saclay 2019 - cc Yves Appriou")
+![https://www.youtube.com/watch?v=yoD8RMq2OkU](/img/news/Phil Waknell TEDx Saclay 2019.jpg "Phil Waknell - TEDx Saclay 2019 - cc Yves Appriou")
 
 So let’s recap these three magic ingredients:
 
