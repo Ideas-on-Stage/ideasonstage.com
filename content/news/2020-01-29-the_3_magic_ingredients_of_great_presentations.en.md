@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = " The 3 Magic Ingredients of Great Presentations"
 tags = ["TEDxSaclay", "Present", "Presentation", "TED", "Inspire", "PublicSpeaking", "Brainstorm", "Method", "Technique", "Tip"]
 news = ["general"]
