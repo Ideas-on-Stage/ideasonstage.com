@@ -15,6 +15,8 @@ Au cours des dix dernières années, j'ai donné à des milliers de conférencie
 
 C'était le sujet de mon TED talk que j’ai fait lors de [TEDx Saclay](https://tedxsaclay.com/) 2019.Vous pouvez découvrir ma présentation en regardant [cette courte vidéo](https://www.youtube.com/watch?v=yoD8RMq2OkU) - ou bien passez au paragraphe suivant pour en lire le résumé.
 
+{{< youtube yoD8RMq2OkU >}}
+
 Récapitulons donc ces trois ingrédients magiques :
 
 1. **L’auditoire**- c'est leur présentation, pas la vôtre, alors personnalisez-la en fonction d’eux, de leurs besoins et de leurs attentes, ainsi que du contexte. Intégrez-les dans la présentation et rendez-la aussi originale que possible pour eux, et vous serez certain(e)s qu’ils écouteront attentivement.
