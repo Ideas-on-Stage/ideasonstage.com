@@ -8,7 +8,7 @@ urlredirect	= ""
 showrefs	= false
 url	 		= "/parcours-transformation-auditoire/"
 link			= "/parcours-transformation-auditoire/"
-picture		= "atr_from_iOS.jpg"
+picture		= "/parcours-transformation-auditoire/atr_from_iOS.jpg"
 +++
 
 La plupart des gens font des présentations pour partager des informations, ce qui est une perte de temps pour tout le monde car nous oublions la plupart de ce que nous entendons très rapidement.
@@ -27,7 +27,7 @@ Comment déterminer quelles transformations vous devez effectuer et que dire pou
 
 (L’utilisation non commerciale signifie que vous pouvez l’utiliser vous-même pour préparer vos propres présentations, même des présentations commerciales ; mais vous ne pouvez pas le vendre en tant que produit ou partie d’un service à vos clients.)
 
-![ATR in action](atr_from_iOS.jpg)
+![ATR in action](ATR_english.jpeg)
 
 ### Comment utiliser le parcours de transformation de l'auditoire ?
 
