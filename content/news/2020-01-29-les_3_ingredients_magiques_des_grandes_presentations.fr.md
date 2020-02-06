@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Les 3 ingrédients magiques des grandes présentations"
 tags = ["TEDxSaclay", "TED", "inspiration", "prisedeparoleenpublic", "brainstorming", "astucesdepresentation", "coaching"]
 news = ["general"]
