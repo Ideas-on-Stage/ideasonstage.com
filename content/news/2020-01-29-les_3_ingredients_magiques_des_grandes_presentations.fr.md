@@ -3,7 +3,7 @@ draft = false
 title = "Les 3 ingrédients magiques des grandes présentations"
 tags = ["TEDxSaclay", "TED", "inspiration", "prisedeparoleenpublic", "brainstorming", "astucesdepresentation", "coaching"]
 news = ["general"]
-date = "2020-01-29"
+date = "2020-02-06"
 author = "Phil Waknell"
 banner = "/img/news/ingrédients magiques.png"
 +++
