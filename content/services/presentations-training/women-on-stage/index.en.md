@@ -11,8 +11,9 @@ url	 		= "/presentations-training/women-on-stage/"
 
 **Women on Stage 2.0 is a public speaking and professional development workshop dedicated to women leaders and executives who want to speak up, inspire and present with confidence.**
 
+**To organize an internal workshop please contact us through the form below.**
 
-Next date: **Thursday, January 23, 2020** - (English)   <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="btn btn-primary btn-register">Click here to read full event details</a>
+<!-- Next date: **Thursday, January 23, 2020** - (English)   <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="btn btn-primary btn-register">Click here to read full event details</a> -->
 
 ![When speaking with your team](women-on-stage-01.jpg)
 
@@ -120,14 +121,17 @@ In 2015, executive coach, [Marion Chapsal](https://etincelleszen.com/about/) cre
 
 ## Upcoming Workshop Dates in Paris
 
-We hold one open group training each season in either French or English based on demand. Facilitators are bilingual so it is never an issue to ask questions or speak in either language. We hold open group trainings in our lovely, luminous and open office space on the Champs-Elysées just steps from the magnificent Arc de Triomphe. The next dates are:<br><br>
+We hold one open group training each season in either French or English based on demand. Facilitators are bilingual so it is never an issue to ask questions or speak in either language. We hold open group trainings in our lovely, luminous and open office space on the Champs-Elysées just steps from the magnificent Arc de Triomphe.
+
+<!-- The next dates are:<br><br>
 
 
 
+ 
 * **Thursday, January 23, 2020**  - (English) <<a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="btn btn-primary btn-register">Click here to read full event details</a>
 
 * **March 2020 (Spring Renewal)—date TBD**  - (language determined by demand)
-
+-->
 Each training is tailored to the needs of the organization or group. To coordinate an internal training for your team, please send us an email with your dates, questions and specific purpose of the workshop. 
 
 *For inquiries or to reserve your space at one of our upcoming workshops please use the form below or reach out to* *info@ideasonstage.com* *with “Women on Stage 2.0” in the subject line and one of the facilitators will be back in touch with you shortly. Thank you!*

@@ -11,7 +11,11 @@ url	 		= "/formation-presentations/women-on-stage/"
 
 **Women On Stage 2.0 est un atelier de prise de parole en public et de développement professionnel dédié aux femmes dirigeantes qui souhaitent faire entendre leur voix, être source d’inspiration et prendre la parole avec confiance.**
 
+**Pour organiser un atelier interne merci de nous contacter via le formulaire ci-dessous**
+
+<!--
 Prochaine date : **Jeudi 23 janvier 2020**  - (en anglais) <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="btn btn-primary btn-register">Inscrivez-vous</a>
+-->
 
 ![Lorsque vous parlez avec votre équipe](women-on-stage-01.jpg)
 
@@ -124,11 +128,16 @@ Coach, formatrice et intervenante, [Marion Chapsal](https://etincelleszen.com/ab
 <span id="registration"></span>
 ## Dates des prochains ateliers à Paris
 
-Chaque saison, nous organisons un atelier de groupe, en français ou en anglais, selon la demande. Les animateurs étant bilingues, poser des questions ou parler dans l'une ou l'autre langue n'est pas un problème. Nous organisons ces ateliers au sein de notre espace de travail situé sur les Champs-Élysées, à quelques pas de l’Arc de Triomphe. Les prochaines dates sont :
+Chaque saison, nous organisons un atelier de groupe, en français ou en anglais, selon la demande. Les animateurs étant bilingues, poser des questions ou parler dans l'une ou l'autre langue n'est pas un problème. Nous organisons ces ateliers au sein de notre espace de travail situé sur les Champs-Élysées, à quelques pas de l’Arc de Triomphe. 
+
+<!-- Les prochaines dates sont :
+
 
 * **Jeudi 23 janvier 2020**  - (en anglais)  <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="btn btn-primary btn-register">Inscrivez-vous</a>
 
+
 * **Mars 2020 (Renouveau du printemps) - date à confirmer**  - (langue à déterminer selon la demande)
+-->
 
 Si vous souhaitez organiser un atelier personnalisé destiné à votre équipe, veuillez nous envoyer un email avec vos dates, vos questions et le but spécifique de l'atelier. Nous nous adapterons à votre demande et à vos besoins.
 
