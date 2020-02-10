@@ -1,5 +1,5 @@
 +++
-draft		= false
+draft		= true
 name		= "Philippe Farnole"
 position 	= "Becario"
 url			= "/equipo/philippe-farnole/"
