@@ -5,7 +5,7 @@ position 	= "Co-founder - Creative Cat"
 url			= "/team/pierre-morsa/"
 weight		= 100
 +++
-Pierre is the Co-founder and Creative Cat of Ideas on Stage. He works every day to create presentations with something extra special. He always looks for new ways to surprise and amaze your audience.
+Pierre is the Co-founder and Creative Cat of Ideas on Stage. He created the Ideas on Stage brand and concept in 2009. He works every day to create presentations with something extra special. He always looks for new ways to surprise and amaze your audience.
 
 Pierre did projects for Yann Arthus-Bertrand, the Positive Economy Forum, Havas, McCann, SNCF, Fresenius, Boston Scientific, EDF, RTE, Société Générale, Murex, l’Agence Française de Développement, Google, Microsoft, Vade Secure, Stormshield, several large luxury groups and more. He worked with the startups of several incubators, including Le Camping, the Microsoft Accelerator, INCO and Euratechnologies.
 
