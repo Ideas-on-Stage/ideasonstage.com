@@ -78,9 +78,13 @@ theme        			= "hugo-creative-theme-master"
 					url				= "/revolution/"
 					frontpageurl		= "/revolution/"
 				[params.navigation.resources.002]
-					name			= "Stories"
+					name			= "News"
 					url				= "/news/"
 					frontpageurl		= "/news/"
+				[params.navigation.resources.003]
+					name			= "Guides"
+					url				= "/guides/"
+					frontpageurl		= "/guides/"
 		[params.navigation.housekeeping]
 			[params.navigation.housekeeping.001]
 				name			= "Contact"
