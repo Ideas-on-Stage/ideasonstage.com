@@ -297,7 +297,7 @@ theme        			= "hugo-creative-theme-master"
 				url			 	= "/agence-creation-presentations/"
 				frontpageurl 	= "/agence-creation-presentations/"
 			[languages.fr.navigation.items.002]
-				name		 	= "Événements d'entreprise"
+				name		 	= "Support événementiel"
 				url			 	= "/evenements-entreprise/"
 				frontpageurl 	= "/evenements-entreprise/"	
 			[languages.fr.navigation.items.003]

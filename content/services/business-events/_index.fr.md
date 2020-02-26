@@ -1,7 +1,7 @@
 +++
 draft 			= false
-title 			= "Événements d'entreprise"
-description		= "Oubliez la traditionnelle réunion PowerPoint marathon, surprenez votre audience et faites bouger les lignes établies !"
+title 			= "Support Événementiel"
+description		= "Un ensemble de services pour aider votre agence événementielle ou votre entreprise à réaliser un événement mémorable"
 weight			= 1
 categories		= [ "Événements d'entreprise" ]
 showrefs		= false
@@ -18,11 +18,5 @@ descprop		= "description"
 pictureprop		= "image"
 +++
 
-## Événements & conférences
-
-Nous transformons les conférences classiques en événements dynamiques et mémorables. Nous travaillons avec les organisateurs et l’équipe de direction pour établir un programme passionnant et plein de surprises, et pour maximiser l’impact de chaque intervenant.
-
-Nous partons de la définition des objectifs de transformation de votre auditoire. Nous élaborons un thème commun, puis nous développons un programme en cohérence avec le fil conducteur. 
-
-Nous pouvons également vous aider à choisir des ateliers ciblés en fonction du thème.
-Le jour J, nos maîtres de cérémonie expérimentés dynamiseront votre événement et veilleront à son bon déroulement.
+## Support événementiel
+Nous fournissons des services de coaching en prise de parole et du support à la gestion de projet pour les agences événementielles et les événements d'entreprise.
