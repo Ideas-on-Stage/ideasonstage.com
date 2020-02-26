@@ -40,8 +40,8 @@ insertsbottom	= [
 			
 		[services.list.002]
 			sectionid	= "business-events"
-			title		= "Événements d'entreprise"
-			description	= "Organisez des événements dynamiques et inoubliables. Nous travaillons avec vous pour développer le programme et préparer les intervenants."
+			title		= "Support événementiel"
+			description	= "Un ensemble de services pour faciliter l'organisation des événements. Maîtres de cérémonie, coaching en prise de parole, ateliers créatifs, gestion de projet."
 			picture		= "/pictures/inserts/home-business-events.jpg"
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
