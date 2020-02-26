@@ -92,7 +92,7 @@ insertsbottom	= [
 	[slider.list]
 		[slider.list.001]
 			bgimage ="/pictures/home/hero.jpg"
-			title = "CRÉATION DE PRÉSENTATIONS · ÉVÉNEMENTS D'ENTREPRISE · COACHING ET FORMATION À LA PRISE DE PAROLE"
+			title = "CRÉATION DE PRÉSENTATIONS · SUPPORT ÉVÉNEMENTIEL · COACHING ET FORMATION À LA PRISE DE PAROLE"
 			date = "2019-11-04"
 		[slider.list.002]
 			bgimage ="/pictures/home/slider1-min.jpg"
