@@ -1,5 +1,5 @@
 +++
-draft 		= false
+draft 		= true
 weight		= 1
 title 		= "Conception d'événements"
 description	= "Oubliez la traditionnelle réunion PowerPoint marathon, surprenez votre audience et faites bouger les lignes établies !"
