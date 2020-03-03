@@ -40,28 +40,38 @@ Not being able to access the videoconference because of technical problems is th
 
 > Pro tip: ask your participants to test their audio and video *before* the meeting. Non-working audio and video are the number one reason why most videoconferences don’t start on time. To do so in Zoom, go to the microphone icon at the bottom left, click on the up arrow next to it, and select “test speaker and microphone.”
 
+![Zoom Test Speakers and Microphone](/how-to-deliver-presentations-remotely/zoom-test-speakers-microphone.png)
+
 ## Welcoming Your Participants
 If people know each other, you can get down to business quickly. Otherwise, make sure that people are ready to start and won’t interrupt the session. There's nothing more annoying for participants than having to redo the intro several times because of late participants or people interrupting because they have a technical problem.
 
 ## Using PowerPoint for Remote Presentations
 Any presentation software can be used. We’re going to use PowerPoint because it remains the industry standard.
 
-1. Share your screen in Zoom. The easiest option is to simply share the whole screen. To do so, click on the “Share Screen” button at the bottom of the Zoom window, then select “Desktop 1” or whatever the name is for the whole screen view.
-2. Start the Slide Show in PowerPoint, so participants can see your slides full screen (you may need to click on your presentation again to put the focus on PowerPoint). If you want to use PowerPoint's presenter view and see your notes, you will need two screens, for example a laptop connected to an external monitor or television.
-3. You can then start to deliver your presentations in the best conditions possible. Use the left and right arrows to move from one slide to another.
+Start by Sharing your screen in Zoom. The easiest option is to simply share the whole screen. To do so, click on the “Share Screen” button at the bottom of the Zoom window, then select “Desktop 1” or whatever the name is for the whole screen view.
+
+![Zoom Share Screen](/how-to-deliver-presentations-remotely/zoom-share-desktop.png)
+
+Next, start the Slide Show in PowerPoint, so participants can see your slides full screen (you may need to click on your presentation again to put the focus on PowerPoint). If you want to use PowerPoint's presenter view and see your notes, you will need two screens, for example a laptop connected to an external monitor or television.
+
+You can then start to deliver your presentations in the best conditions possible. Use the left and right arrows to move from one slide to another.
 
 ## Highlighting an element on your slide
 With Zoom and PowerPoint, you actually do not have one, but two different options to do live annotations to your slides.
 
-From PowerPoint:
+From PowerPoint: move the mouse to the bottom left corner. A series of icons will show up. Clicking on the pen icon will show a pop-up menu with various options to highlight specific parts of your slide.
 
-* Move the mouse to the bottom left corner. A series of icons will show up. Clicking on the pen icon will show a pop-up menu with various options to highlight specific parts of your slide.
+![PowerPoint Slide Show Options](/how-to-deliver-presentations-remotely/powerpoint-slideshow-options.png)
 
-From Zoom:
+![PowerPoint Annotation Menu](/how-to-deliver-presentations-remotely/powerpoint-annotation-menu.png)
 
-* In the Zoom floating tools palette, click the “Annotate” pen icon. A second floating palette, the annotation palette, will appear right under the main one, giving you options to annotate part of the screen. 
+From Zoom: in the Zoom floating tools palette, click the “Annotate” pen icon. A second floating palette, the annotation palette, will appear right under the main one, giving you options to annotate part of the screen. 
 
-Should you use the PowerPoint or Zoom tools? Here are the key differences between the two:
+![Zoom Palette](/how-to-deliver-presentations-remotely/zoom-palette.png)
+
+![Zoom Annotation Palette](/how-to-deliver-presentations-remotely/zoom-annotation-palette.png)
+
+Should you use the PowerPoint or Zoom annotation tools? Here are the key differences between the two:
 
 * PowerPoint annotations will be automatically cleared when you move from one slide to another. Zoom annotations will remain on the shared screen until you decide to clear them by clicking on the trash icon in the annotation palette.
 * PowerPoint annotations are easier to use for the presenter, because they don’t need to constantly switch the focus back and forth between Zoom and PowerPoint.
