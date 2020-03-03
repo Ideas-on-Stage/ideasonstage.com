@@ -3,11 +3,11 @@ draft = false
 title = "Comment utiliser une présentation efficacement lors d'un rendez-vous commercial"
 tags = ["Prise de parole", "Ventes"]
 news = ["general"]
-date = "2020-03-03"
+date = "2020-03-10"
 author = "Pierre Morsa"
 banner = "/img/news/vente.jpg"
 language = "fr"
-url = "/news/2020-03-03-comment-utiliser-presentation-efficacement-rendez-vous-commercial/"
+url = "/news/2020-03-10-comment-utiliser-presentation-efficacement-rendez-vous-commercial/"
 +++
 Notre métier est de créer des présentations. Nous devrions donc dire à nos clients d’utiliser des présentations pour tout : réunions clients, conseils d’administration, rendez-vous commerciaux… Pourtant, même si une présentation est utile dans chacune de ces situations, nous avons observé que lors des rendez-vous commerciaux beaucoup de personnes suivent le script figé de la présentation au lieu d’interagir avec le client.
 
