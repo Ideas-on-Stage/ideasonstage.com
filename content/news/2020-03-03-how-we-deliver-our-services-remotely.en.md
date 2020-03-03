@@ -5,7 +5,7 @@ tags = ["Remote Work"]
 news = ["general"]
 date = "2020-03-03"
 author = "Pierre Morsa"
-banner = "/img/news/edoardo-delivering-remote-coaching.jpeg"
+banner = "/img/news/edoardo-delivering-remote-coaching.jpg"
 language = "en"
 +++
 With the current health crisis looming, remote work may no longer be a choice, but a precautionary measure. How do we do it at Ideas on Stage?
@@ -41,4 +41,4 @@ Even if we work well remotely, having team events from time to time is important
 
 ## Conclusion: it's easier than you think
 Adopting a remote work environment is easier than you think. Nowadays nearly all companies have digital tools. The biggest obstacle is psychological: moving from a top-down, rigid and high control organization to a decentralized, adaptable and results based organization requires a shift in mindset and practice. But if people are forced to stay home, moving to an efficient remote work organization will become a matter of survival for many companies and an opportunity to accelerate their digital transformation.
-![Remote coaching](/img/news/edoardo-delivering-remote-coaching.jpeg)
+![Remote coaching](/img/news/edoardo-delivering-remote-coaching.jpg)
