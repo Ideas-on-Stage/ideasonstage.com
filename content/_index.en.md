@@ -58,7 +58,7 @@ insertsbottom	= [
 [slider]
 	[slider.list]
 		[slider.list.001]
-			bgimage ="/how-to-deliver-presentations-remotely/remote-presentations.jpg"
+			bgimage ="/how-to-deliver-presentations-remotely/remote-presentations-dark.jpg"
 			title = "HOW TO DELIVER PRESENTATIONS REMOTELY"
 			button = "Read Our Guide"
 			buttonlink = "/how-to-deliver-presentations-remotely/"
