@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = "Comment utiliser une présentation efficacement lors d'un rendez-vous commercial"
 tags = ["Prise de parole", "Ventes"]
 news = ["general"]

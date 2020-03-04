@@ -1,5 +1,5 @@
 +++
-draft = false
+draft = true
 title = "How to use presentations effectively during sales meetings"
 tags = ["Public Speaking", "Sales"]
 news = ["general"]
