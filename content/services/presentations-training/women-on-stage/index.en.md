@@ -7,6 +7,8 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
 url	 		= "/presentations-training/women-on-stage/"
+picture		= "/presentations-training/women-on-stage/image.jpg"
+button		= "Learn More"
 +++
 
 **Women on Stage 2.0 is a public speaking and professional development workshop dedicated to women leaders and executives who want to speak up, inspire and present with confidence.**

@@ -7,6 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= true
 url 			= "/training-workshops/the-business-presentation-revolution/"
+picture		= "/training-workshops/the-business-presentation-revolution/image.jpg"
 +++
 
 ## Insegna ai tuoi team a preparare delle TED style business presentation.

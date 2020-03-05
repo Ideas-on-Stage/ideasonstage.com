@@ -6,6 +6,7 @@ description		= "Cambia la cultura de las presentaciones en tu empresa"
 weight			= 4
 categories		= [ "Training & Workshops" ]
 showrefs		= false
+showpageslist	= true
 urlredirect		= ""
 url	 			= "/formacion-presentaciones/"
 
@@ -16,13 +17,7 @@ insertsbottom	= [
 	"presentation-training-10",
 	"presentation-training-11",
 	"presentation-training-12",
-	"presentation-training-13",
-	"presentation-training-20",
-	"presentation-training-21",
-	"presentation-training-22",
-	"presentation-training-23",
-	"presentation-training-24",
-	"presentation-training-25",
+	"presentation-training-13"
 ]
 
 +++

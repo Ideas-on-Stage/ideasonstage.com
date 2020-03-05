@@ -7,6 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= true
 url	 		= "/formacion-presentaciones/the-business-presentation-revolution/"
+picture		= "/formacion-presentaciones/the-business-presentation-revolution/image.jpg"
 +++
 
 ## Forma a tus equipos para que hagan presentaciones de calidad TED

@@ -7,8 +7,7 @@ categories	= [ "Formations et Ateliers" ]
 urlredirect	= ""
 showrefs	= true
 url	 		= "/formation-presentations/the-business-presentation-revolution/"
-
-picture		= "/pictures/training-workshops/business-presentation-revolution/bpr.jpg"
+picture		= "/formation-presentations/the-business-presentation-revolution/image.jpg"
 link			= "/formation-presentations/the-business-presentation-revolution/"
 button		= "En savoir plus"
 +++

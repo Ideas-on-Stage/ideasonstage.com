@@ -6,7 +6,8 @@ weight		= 4
 categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
-url 		= "/formacion-presentaciones/pitch-para-startups/"
+url	 		= "/formacion-presentaciones/pitch-para-startups/"
+picture		= "/formacion-presentaciones/pitch-para-startups/image.jpg"
 +++
 
 ## Todo se reduce a un pitch

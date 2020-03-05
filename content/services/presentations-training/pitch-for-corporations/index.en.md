@@ -6,7 +6,9 @@ weight		= 6
 categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
-url 		= "/presentations-training/pitch-for-corporations/"
+url 			= "/presentations-training/pitch-for-corporations/"
+picture		= "/presentations-training/pitch-for-corporations/image.jpg"
+button		= "Learn More"
 +++
 
 ## Everyone has an idea to pitch

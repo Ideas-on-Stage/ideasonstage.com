@@ -1,12 +1,14 @@
 +++
 draft		= true
-title		= "Liderazgo Colaborativo"
+title		= "Gender-Balanced Leadership"
 description = "Overcome gender bias and information silos in your company, and boost your performance."
-weight		= 6
+weight		= 5
 categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
-url 			= "/formacion-presentaciones/inclusion-and-networking/"
+url 			= "/presentations-training/gender-balanced-leadership/"
+picture		= "/presentations-training/gender-balanced-leadership/image.jpg"
+button		= "Learn More"
 +++
 
 ## Overcome gender bias and information silos in your company, and boost your performance.

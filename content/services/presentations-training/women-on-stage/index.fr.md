@@ -7,6 +7,8 @@ categories	= [ "Formations et Ateliers" ]
 urlredirect	= ""
 showrefs	= false
 url	 		= "/formation-presentations/women-on-stage/"
+picture		= "/formation-presentations/women-on-stage/image.jpg"
+button		= "En savoir plus"
 +++
 
 **Women On Stage 2.0 est un atelier de prise de parole en public et de développement professionnel dédié aux femmes dirigeantes qui souhaitent faire entendre leur voix, être source d’inspiration et prendre la parole avec confiance.**

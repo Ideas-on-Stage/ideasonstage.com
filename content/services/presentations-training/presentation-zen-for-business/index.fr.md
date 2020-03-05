@@ -7,8 +7,9 @@ weight		= 3
 categories	= [ "Formations et Ateliers" ]
 showrefs	= true
 redirect	= false
-redirectlink = ""
-url 		= "/formation-presentations/presentation-zen-en-entreprise/"
+redirectlink= ""
+url 			= "/formation-presentations/presentation-zen-en-entreprise/"
+picture		= "/formation-presentations/presentation-zen-en-entreprise/image.jpg"
 
 aboutheadline    = "L'approche qui a révolutionné les présentations dans le monde"
 aboutdescription = "<p>Avec son livre best seller « Présentation Zen », Garr Reynolds a redéfini les règles des présentations. Auteur en vue, designer, ancien manager chez Apple et professeur au Japon, il a lancé le blog Presentation Zen en 2005, et publié la première édition du livre du même nom en 2007. Celui-ci fut suivi des non moins incroyablement fantastique Presentation Zen Design et « Les présentations mises à nu ».</p><p>L'approche de Garr s'inspire des leçons et des des principes de la culture Japonaise, en particulier la retenue, la simplicité et le naturel, et les applique aux présentations typiquement données dans les entreprises.</p><p>Ideas on Stage a créé Présentation Zen en Entreprise en collaboration avec Garr, mélangeant son approche unique avec notre connaissance des présentations en entreprise. Le résultat est une formation ludique et rafraîchissante pour de grands groupes, idéale pour les réunions de département et les séminaires de management, qui combine un événement de team building avec une nouvelle approche des présentations particulièrement utile.</p><p>Donnée exclusivement par Ideas on Stage, Présentation Zen en Entreprise est disponible dans le monde dans plusieurs langues. Amenez la magie de Présentation Zen dans votre entreprise et révolutionnez vos présentations !</p>"
