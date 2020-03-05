@@ -1,6 +1,6 @@
 +++
 draft		= false
-title		= "Virtual Meetings Revolution"
+title		= "Virtual Meetings Revolution Training"
 description = "What is the best way to deliver an efficient meeting online? What gear do you need? How can you engage your audience during a virtual meeting?"
 weight		= 2
 categories	= [ "Training & Workshops" ]
