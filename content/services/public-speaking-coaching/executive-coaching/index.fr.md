@@ -6,10 +6,8 @@ weight		= 1
 categories	= [ "Coaching prise de parole en public" ]
 showrefs	= false
 urlredirect	= ""
-url 		= "/coaching-prise-de-parole-en-public/coaching-de-dirigeants/"
-
-picture		= "/pictures/inserts/public-speaking-coaching-10.jpg"
-link			= "/coaching-prise-de-parole-en-public/coaching-de-dirigeants/"
+url 			= "/coaching-prise-de-parole-en-public/coaching-de-dirigeants/"
+picture		= "public-speaking-coaching-10.jpg"
 button		= "En savoir plus"
 
 itemtype		= "Service"
@@ -42,4 +40,4 @@ La combinaison de notre programme de coaching de prise de parole en public avec 
 
 Utilisez le formulaire ci-dessous ou envoyez-nous un email à info@ideasonstage.com et nous vous contacterons rapidement. Ces demandes sont reçues et traités exclusivement par notre équipe de coaching senior pour vous garantir le meilleur niveau de confidentialité possible.
 
-[pic1]: /pictures/public-speaking-coaching/public-speaking-coaching/public-speaking-coaching.jpg
+[pic1]: public-speaking-coaching.jpg

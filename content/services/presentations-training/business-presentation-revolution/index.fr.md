@@ -7,8 +7,7 @@ categories	= [ "Formations et Ateliers" ]
 urlredirect	= ""
 showrefs	= true
 url	 		= "/formation-presentations/the-business-presentation-revolution/"
-picture		= "/formation-presentations/the-business-presentation-revolution/image.jpg"
-link			= "/formation-presentations/the-business-presentation-revolution/"
+picture		= "image.jpg"
 button		= "En savoir plus"
 +++
 
@@ -31,4 +30,4 @@ La formation présentation révolution peut être combinée avec du coaching ind
 
 Pour former vos équipes à la nouvelle façon de présenter en public, contactez-nous avec le formulaire ci-dessous.
 
-[pic1]: /pictures/training-workshops/business-presentation-revolution/bpr.jpg
+[pic1]: image.jpg

@@ -5,9 +5,15 @@
 		<div class="flex-parent-img-txt">
 			<div class="flex-child-60p">	
 				<div class="img-anchorright">
+					{{ if .link }}
 					<a href="{{ with .link }}{{ . }}{{ end }}">
-						{{ if ne .picture "" }}<img src="{{ .picture }}" class="picture" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>{{ end }}
+						<img src="{{ .picture }}" class="picture" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
 					</a>
+					{{ else }}
+					<a href="{{ .url }}">
+						<img src="{{ .url }}{{ .picture }}" class="picture" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
+					</a>
+					{{ end }}
 				</div>
 			</div>
 	

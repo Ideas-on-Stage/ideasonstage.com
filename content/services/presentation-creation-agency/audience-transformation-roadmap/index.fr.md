@@ -7,8 +7,7 @@ categories	= [ "presentation-creation-agency" ]
 urlredirect	= ""
 showrefs	= false
 url	 		= "/parcours-transformation-auditoire/"
-link			= "/parcours-transformation-auditoire/"
-picture		= "/parcours-transformation-auditoire/atr_from_iOS.jpg"
+picture		= "atr_from_iOS.jpg"
 +++
 
 La plupart des gens font des présentations pour partager des informations, ce qui est une perte de temps pour tout le monde car nous oublions la plupart de ce que nous entendons très rapidement.

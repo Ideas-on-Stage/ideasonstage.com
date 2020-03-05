@@ -8,7 +8,7 @@ showrefs		= false
 showpageslist	= true
 urlredirect		= ""
 url 				= "/evenements-entreprise/"
-picture			= "/evenements-entreprise/business-events.jpg"
+picture			= "business-events.jpg"
 
 itemtype		= "Service"
 itemscope		= ""

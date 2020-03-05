@@ -5,7 +5,7 @@ description	= "A series of kakemonos with inspirational quotes from daring women
 categories	= [ "Women on Stage" ]
 showrefs	= false
 url			= "/women/"
-picture		= "/women/women.jpg"
+picture		= "women.jpg"
 +++
 We created a series of kakemonos to celebrate women who changed the world. You can freely download and print them for your own use. All images are public domain. If you want to print them, the recommended format is 80 cm x 200 cm (approx. 31.49 inches by 78.7 inches) or smaller keeping the same proportions (e.g. 40 cm x  100 cm). The color space is FOGRA 39 and the bleed is 1 mm on every side. 
 

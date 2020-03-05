@@ -5,7 +5,7 @@ description	= "Everything that you wanted to know about being a TED speaker with
 categories	= [ "TEDx Events" ]
 showrefs	= false
 url			= "/ultimate-tedx-speaker-guide/"
-picture		= "/ultimate-tedx-speaker-guide/tedx-speaker.jpg"
+picture		= "tedx-speaker.jpg"
 +++
 
 Congratulations, you’ve just been contacted to be a speaker at a TED or TEDx talk! Or it could be that you have the ambition to organize one yourself. If it’s either of those, this guide was made for you: Everything that you wanted to know about being a TED speaker without needing to ask.

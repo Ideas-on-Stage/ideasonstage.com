@@ -7,11 +7,8 @@ categories	= [ "Public Speaking Coaching" ]
 showrefs	= false
 urlredirect	= ""
 url 			= "/public-speaking-coaching/executive-coaching/"
-
-picture		= "/pictures/inserts/public-speaking-coaching-10.jpg"
-link			= "/public-speaking-coaching/executive-coaching/"
+picture		= "public-speaking-coaching-10.jpg"
 button		= "Learn more"
-
 +++
 
 
@@ -38,4 +35,4 @@ Combining our Public Speaking Coaching program with Presentation Strategy is one
 
 Use the form below and we'll get back to you quickly. These requests are directly received and handled by our Senior Coaching Team to ensure the highest level of confidentiality.
 
-[pic1]: /pictures/public-speaking-coaching/public-speaking-coaching/public-speaking-coaching.jpg
+[pic1]: public-speaking-coaching.jpg

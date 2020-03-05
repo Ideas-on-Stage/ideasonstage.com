@@ -9,7 +9,7 @@ showrefs	= true
 redirect	= false
 redirectlink = ""
 url	 		= "/formacion-presentaciones/presentation-zen-para-empresas/"
-picture		= "/formacion-presentaciones/presentation-zen-para-empresas/image.jpg"
+picture		= "image.jpg"
 
 aboutheadline    = "La filosofía que revolucionó las presentaciones en todo el mundo"
 aboutdescription = "<p>Garr Reynolds reescribió las reglas para hacer una gran presentación en su best-seller <b>Presentation Zen</b>. Autor, diseñador, ex-gerente en Apple y profesor en Japón, comenzó su blog Presentation Zen en 2005, y publicó la primera edición de su libro <i>Presentation Zen</i> en 2007, al cual siguieron los exitosos <i>Presentation Zen Design</i> y <i>The Naked Presenter</i>.</p><p>El enfoque de Garr parte de las lecciones y principios de la cultura japonesa, especialmente la moderación, simplicidad y naturalidad, para aplicarlas a las típicas presentaciones que se hacen en los eventos y en las empresas.</p><p>En Ideas on Stage hemos creado Presentation Zen para Empresas junto a Garr, fusionando su singular enfoque con nuestra amplia experiencia en presentaciones empresariales. El resultado es un taller divertido y refrescante para grandes grupos, ideal para encuentros departamentales o retiros del equipo de gestión, en los que combinar un evento de team-building con una potente y útil nueva manera de hacer presentaciones.</p><p>Ofrecido en exclusiva por Ideas on Stage, <i>Presentation Zen para Empresas</i> está disponible en todo el mundo, en varios idiomas.<p><p>¡Incorpora la magia de Presentation Zen a tu empresa y cambia tus presentaciones para siempre!</p>"

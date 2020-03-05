@@ -7,7 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
 url 			= "/formacion-presentaciones/inclusion-and-networking/"
-picture		= "/formacion-presentaciones/inclusion-and-networking/image.jpg"
+picture		= "image.jpg"
 +++
 
 ## Overcome gender bias and information silos in your company, and boost your performance.

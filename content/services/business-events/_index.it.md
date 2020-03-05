@@ -8,7 +8,7 @@ showrefs		= false
 showpageslist	= true
 urlredirect		= ""
 url	 			= "/eventi-corporate/"
-picture			= "/eventi-corporate/business-events.jpg"
+picture			= "business-events.jpg"
 +++
 
 Basta con le solite, noiosissime maratone di slide - lascia che i nostri esperti rendano i tuoi meeting divertenti, interattivi e memorabili.

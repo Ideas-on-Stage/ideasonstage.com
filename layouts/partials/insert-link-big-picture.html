@@ -15,7 +15,11 @@
 				</div>
 				<div class="flex-container {{ .style }}">
 					<div class="img-crop">
-						{{ if ne .picture "" }}<img src="{{ .picture }}">{{ end }}
+					{{ if .link }}
+						<img src="{{ .picture }}">
+					{{ else }}
+						<img src="{{ .url }}{{ .picture }}">
+					{{ end }}
 					</div>
 				</div>
 				</a>

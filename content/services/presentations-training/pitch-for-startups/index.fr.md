@@ -7,8 +7,7 @@ categories	= [ "Formations et Ateliers" ]
 urlredirect	= ""
 showrefs	= false
 url 			= "/formation-presentations/pitch-pour-startups/"
-picture		= "/formation-presentations/pitch-pour-startups/image.jpg"
-link			= "/formation-presentations/pitch-pour-startups/"
+picture		= "image.jpg"
 button		= "En savoir plus"
 
 +++

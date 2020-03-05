@@ -12,9 +12,17 @@
 				{{ end }}
 			</div>
 			<div class="col-sm-4 col-sm-offset-0">
-				<a href="{{ with .link }}{{ . }}{{ end }}">
-				<img src="{{ .picture }}" class="img-responsive photograph">
+				{{ if .link }}
+	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
+					<img src="{{ .picture }}" class="img-responsive">
+					{{ "<!-- .link .picture -->" | safeHTML }}
+				</a>	
+				{{ else }}
+	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
+					<img src="{{ .url }}{{ .picture }}" class="img-responsive">
+					{{ "<!-- .url .picture -->" | safeHTML }}
 				</a>
+				{{ end }}
 			</div>
 	    </div>
 	</div>

@@ -7,7 +7,7 @@ categories	= [ "Formations et Ateliers" ]
 urlredirect	= ""
 showrefs	= false
 url	 		= "/formation-presentations/rebootez-votre-entreprise/"
-picture		= "/formation-presentations/rebootez-votre-entreprise/image.jpg"
+picture		= "image.jpg"
 +++
 
 ## Tout le monde a une idée à pitcher !

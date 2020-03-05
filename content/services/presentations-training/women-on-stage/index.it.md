@@ -7,7 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
 url	 		= "/presentations-training/women-on-stage/"
-picture		= "/presentations-training/women-on-stage/image.jpg"
+picture		= "image.jpg"
 +++
 
 ## Cosa c’è di meravigliosamente unico nella sfida delle donne ad avere il diritto di alzare la voce ed essere ascoltate?

@@ -7,7 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
 url 			= "/formacion-presentaciones/women-on-stage/"
-picture		= "/formacion-presentaciones/women-on-stage/image.jpg"
+picture		= "image.jpg"
 +++
 
 ## ¿Qué es tan especial para las mujeres en su reto de hablar y ser escuchadas?

@@ -7,11 +7,8 @@ categories	= [ "Corporate Events" ]
 showrefs	= true
 urlredirect	= ""
 url	 		= "/eventi-corporate/event-design/"
-
-picture		= "/pictures/corporate-events/event-design/event-design.jpg"
+picture		= "event-design.jpg"
 style		= "bg-white"
-link 		= "/eventi-corporate/event-design/"
-
 +++
 
 ## “Abbastanza bene” non è mai abbastanza.
@@ -38,4 +35,4 @@ Una volta che l’evento sia stato creato, possiamo aiutarvi a preparare gli Spe
 
 Hai bisogno di creare un evento eccezionale? Contattaci con il modulo sottostante. 
 
-[pic1]: /pictures/corporate-events/event-design/event-design.jpg
+[pic1]: event-design-02.jpg

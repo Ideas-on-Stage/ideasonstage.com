@@ -6,11 +6,8 @@ weight		= 1
 categories	= [ "Public Speaking Coaching" ]
 showrefs	= false
 urlredirect	= ""
-url 		= "/public-speaking-coaching/executive-coaching/"
-
-picture		= "/pictures/inserts/public-speaking-coaching-10.jpg"
-link			= "/public-speaking-coaching/executive-coaching/"
-
+url 			= "/public-speaking-coaching/executive-coaching/"
+picture		= "public-speaking-coaching-10.jpg"
 +++
 
 ## Diventa un leader sul palco
@@ -34,4 +31,4 @@ La combinazione del nostro programma di Public Speaking Coaching con la nostra P
 
 Usate il modulo sottostante e vi risponderemo subito. Queste richieste sono ricevute e gestite direttamente dal nostro Senior Coaching Team per assicurare il più alto livello di privacy.
 
-[pic1]: /pictures/public-speaking-coaching/public-speaking-coaching/public-speaking-coaching.jpg
+[pic1]: public-speaking-coaching.jpg

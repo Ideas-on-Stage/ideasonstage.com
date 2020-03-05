@@ -7,9 +7,7 @@ categories	= [ "Public Speaking Coaching" ]
 showrefs	= false
 urlredirect	= ""
 url	 		= "/public-speaking-coaching/media-training/"
-
-picture		= "/pictures/public-speaking-coaching/media-training/media-training.jpg"
-link			= "/public-speaking-coaching/media-training/"
+picture		= "media-training.jpg"
 button		= "Learn More"
 
 +++
@@ -35,4 +33,4 @@ Working on your own schedule with our experienced Senior Coaches, you will learn
 
 If you have an important public or media appearance coming up, contact us via the form below and we’ll get back to you quickly. These requests are directly received and handled by our Senior Coaching Team to ensure the highest level of confidentiality.
 
-[pic1]: /pictures/public-speaking-coaching/media-training/media-training.jpg
+[pic1]: media-training.jpg

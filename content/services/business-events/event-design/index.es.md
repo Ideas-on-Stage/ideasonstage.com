@@ -7,10 +7,8 @@ categories	= [ "Corporate Events" ]
 showrefs	= true
 urlredirect	= ""
 url 			= "/eventos-corporativos/diseno-eventos/"
-
-picture		= "/pictures/corporate-events/event-design/event-design.jpg"
+picture		= "event-design.jpg"
 style		= "bg-white"
-link 		= "/eventos-corporativos/diseno-eventos/"
 +++
 
 ## "Suficiente" no es suficiente.
@@ -36,4 +34,4 @@ Además del diseño de su evento, podemos ayudarle a preparar a sus speakers con
 
 ¿Necesita diseñar un evento excepcional? Contacte con nosotros a través del formulario.
 
-[pic1]: /pictures/corporate-events/event-design/event-design.jpg
+[pic1]: event-design-02.jpg

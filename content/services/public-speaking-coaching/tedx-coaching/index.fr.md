@@ -9,10 +9,8 @@ categories	= [ "Coaching Prise de Parole en Public" ]
 showrefs	= false
 redirect	= false
 redirectlink = ""
-url 		= "/coaching-prise-de-parole-en-public/coaching-tedx/"
-
-picture		= "/coaching-prise-de-parole-en-public/coaching-tedx/tedx-saclay.jpg"
-link			= "/coaching-prise-de-parole-en-public/coaching-tedx/"
+url 			= "/coaching-prise-de-parole-en-public/coaching-tedx/"
+picture		= "tedx-saclay.jpg"
 button		= "En savoir plus"
 
 itemtype		= "Service"

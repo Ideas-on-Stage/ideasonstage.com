@@ -9,7 +9,7 @@ showrefs	= true
 redirect	= false
 redirectlink= ""
 url 			= "/presentations-training/presentation-zen-for-business/"
-picture		= "/presentations-training/presentation-zen-for-business/image.jpg"
+picture		= "image.jpg"
 button		= "Learn More"
 
 aboutheadline    = "The approach that revolutionized presentations all over the world"

@@ -7,9 +7,7 @@ categories	= [ "Public Speaking Coaching" ]
 showrefs	= false
 urlredirect	= ""
 url 		= "/public-speaking-coaching/media-training/"
-
-picture		= "/pictures/public-speaking-coaching/media-training/media-training.jpg"
-link			= "/public-speaking-coaching/media-training/"
+picture		= "media-training.jpg"
 +++
 
 ## Mostra al mondo la migliore versione di te stesso

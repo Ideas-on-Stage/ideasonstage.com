@@ -7,7 +7,7 @@ categories		= [ "Public Speaking" ]
 showrefs		= false
 showpageslist 	= true
 url				= "/how-to-deliver-presentations-remotely/"
-picture		 	= "/how-to-deliver-presentations-remotely/remote-presentations.jpg"
+picture		 	= "remote-presentations.jpg"
 +++
 
 What you need to deliver great presentations remotely: gear, software, setup, animation. We wrote this guide based on ten years of experience delivering professional remote presentations to clients.

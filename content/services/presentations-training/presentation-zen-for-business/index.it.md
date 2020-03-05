@@ -9,7 +9,7 @@ showrefs	= true
 redirect	= false
 redirectlink= ""
 url 			= "/presentations-training/presentation-zen-for-business/"
-picture		= "/presentations-training/presentation-zen-for-business/image.jpg"
+picture		= "image.jpg"
 
 aboutheadline    = "L’approccio che ha rivoluzionato le presentazioni in tutto il mondo"
 aboutdescription = "<p> Garr Reynolds ha ridefinito le regole per le business presentation nel suo best-seller ‘Presentation Zen’. Autore, designer, ex-manager alla Apple e professore con base in Giappone, ha incominciato il blog Presentation Zen nel 2005 e ha pubblicato la prima edizione del libro ‘Presentation Zen’ nel 2007, seguiti dai grandi successi di ‘Presentation Zen Design’ e ’The Naked Presenter’. </p><p>L’approccio di Garr nasce dalle lezioni e dai principi della cultura Giapponese, in particolare la moderazione, la semplicità e la naturalezza, e li applica alle tipiche presentazioni che vengono date durante le conferenze e sul posto di lavoro. </p><p>Ideas on Stage ha creato insieme a Garr Presentation Zen for Business, fondendo il suo approccio unico con la nostra esperienza nelle business presentation. Il risultato è un workshop divertente e piacevole per grandi gruppi, ideale per le riunioni aziendali o per i ritiri manageriali, che combina un evento di team-building con un nuovo utile approccio alle business presentation.</p><p>Dato in esclusiva da Ideas on Stage, Presentation Zen for Business è disponibile in tutto il mondo in diverse lingue. Porta la magia di Presentation Zen nella tua azienda e rivoluzione le tue presentazioni!</p>"

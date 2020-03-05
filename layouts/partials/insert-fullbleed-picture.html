@@ -2,7 +2,11 @@
  <section>
 	<div class="flex-container {{ .style }}">
 		<div class="img-crop">
+			{{ if .link }}
 			<img src="{{ .picture }}" class="picture" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
+			{{ else }}
+			<img src="{{ .url }}{{ .picture }}" class="picture" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
+			{{ end }}
 		</div>
 	</div>
 </section>

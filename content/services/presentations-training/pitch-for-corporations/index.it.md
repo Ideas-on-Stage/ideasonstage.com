@@ -7,7 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
 url	 		= "/presentations-training/pitch-for-corporations/"
-picture		= "/presentations-training/pitch-for-corporations/image.jpg"
+picture		= "image.jpg"
 +++
 
 ## Tutti hanno un’idea da proporre

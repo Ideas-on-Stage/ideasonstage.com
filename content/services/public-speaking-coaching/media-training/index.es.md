@@ -7,9 +7,7 @@ categories	= [ "Public Speaking Coaching" ]
 showrefs	= false
 urlredirect	= ""
 url	 		= "/public-speaking-coaching/media-training/"
-
-picture		= "/pictures/public-speaking-coaching/media-training/media-training.jpg"
-link			= "/public-speaking-coaching/media-training/"
+picture		= "media-training.jpg"
 +++
 
 ## Muéstrale al mundo tu mejor versión
@@ -32,4 +30,4 @@ Nuestros experimentados coaches se adaptarán a tu ritmo y disponibilidad de tie
 
 Tu próxima aparición pública o ante los medios no tiene porqué ser un calvario. Contacta con nostros usando el formulario y te prepararemos para deslumbrar al público. Todas las peticiones son gestionadas directamente por nuestro equipo para garantizar la máxima confidencialidad.
 
-[pic1]: /pictures/public-speaking-coaching/media-training/media-training.jpg
+[pic1]: media-training.jpg

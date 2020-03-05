@@ -7,7 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= true
 url 			= "/training-workshops/the-business-presentation-revolution/"
-picture		= "/training-workshops/the-business-presentation-revolution/image.jpg"
+picture		= "image.jpg"
 +++
 
 ## Insegna ai tuoi team a preparare delle TED style business presentation.
@@ -28,4 +28,4 @@ Molte aziende scelgono di combinare la Business Presentation Revolution con il P
 
 Per scoprire di più sulla Business Presentation Revolution e su come possa aiutare i tuoi team a presentare con più efficacia, compila il nostro modulo qui sotto. 
 
-[pic1]: /pictures/training-workshops/business-presentation-revolution/bpr.jpg
+[pic1]: image.jpg

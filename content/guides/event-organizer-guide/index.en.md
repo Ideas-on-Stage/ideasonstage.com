@@ -8,7 +8,7 @@ showrefs		= false
 showpageslist 	= true
 urlredirect		= ""
 url 				= "/event-organizer-guide/"
-picture		 	= "/event-organizer-guide/organisateur-evenement.jpg"
+picture		 	= "organisateur-evenement.jpg"
 +++
 This guide will give you the keys to organize a successful business event. Each step of the organization process is explained. Eliminate unforeseen circumstances, omissions and last-minute panic and turn event management into a strategic asset for your company.
 

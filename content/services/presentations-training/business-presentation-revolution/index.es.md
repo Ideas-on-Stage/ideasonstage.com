@@ -7,7 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= true
 url	 		= "/formacion-presentaciones/the-business-presentation-revolution/"
-picture		= "/formacion-presentaciones/the-business-presentation-revolution/image.jpg"
+picture		= "image.jpg"
 +++
 
 ## Forma a tus equipos para que hagan presentaciones de calidad TED
@@ -36,4 +36,4 @@ Muchas empresas optan por combinar la formación Business Presentation Revolutio
 
 Para saber más sobre la formación Business Presentation Revolution y cómo puede ayudar a tus equipos a presentar de manera más eficaz, por favor rellena nuestro formulario de contacto.
 
-[pic1]: /pictures/training-workshops/business-presentation-revolution/bpr.jpg
+[pic1]: image.jpg

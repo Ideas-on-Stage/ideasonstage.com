@@ -7,7 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
 url 			= "/formacion-presentaciones/reinicia-tu-empresa/"
-picture		= "/formacion-presentaciones/reinicia-tu-empresa/image.jpg"
+picture		= "image.jpg"
 +++
 
 ## Todo el mundo tiene una idea que vender

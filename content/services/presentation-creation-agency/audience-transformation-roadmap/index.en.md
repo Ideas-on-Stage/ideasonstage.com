@@ -7,8 +7,7 @@ categories	= [ "presentation-creation-agency" ]
 urlredirect	= ""
 showrefs	= false
 url	 		= "/audience-transformation-roadmap/"
-picture		= "/pictures/presentation-creation-agency/audience-transformation-roadmap/ATR_english.jpeg"
-link			= "/audience-transformation-roadmap/"
+picture		= "ATR_english.jpeg"
 +++
 
 Most people use presentations to share information, which is a terrible waste of everybody’s time because we forget most of what we hear very quickly. 

@@ -7,10 +7,8 @@ categories	= [ "Événements d'entreprise" ]
 showrefs	= true
 urlredirect	= ""
 url 			= "/evenements-entreprise/conception-evenements/"
-
-picture		= "/pictures/corporate-events/event-design/event-design.jpg"
+picture		= "event-design.jpg"
 style		= "bg-white"
-link 		= "/evenements-entreprise/conception-evenements/"
 
 itemtype		= "Service"
 itemscope		= ""
@@ -41,4 +39,4 @@ Une fois la conception de l'événement terminée nous pouvons vous aider à pr�
 
 Pour concevoir un événement exceptionnel contactez-nous avec le formulaire ci-dessous.
 
-[pic1]: /pictures/corporate-events/event-design/event-design.jpg
+[pic1]: event-design-02.jpg

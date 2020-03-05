@@ -7,7 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
 url 			= "/presentations-training/gender-balanced-leadership/"
-picture		= "/presentations-training/gender-balanced-leadership/image.jpg"
+picture		= "image.jpg"
 button		= "Learn More"
 +++
 

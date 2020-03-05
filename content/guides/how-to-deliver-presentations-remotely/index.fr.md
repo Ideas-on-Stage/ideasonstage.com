@@ -7,7 +7,7 @@ categories		= [ "Prise de Parole", "Télétravail" ]
 showrefs		= false
 showpageslist 	= true
 url				= "/comment-presenter-a-distance/"
-picture		 	= "/comment-presenter-a-distance/remote-presentations.jpg"
+picture		 	= "remote-presentations.jpg"
 +++
 
 Ce dont vous avez besoin pour réaliser de superbes présentations à distance : équipement, logiciel, configuration, animation. Nous avons rédigé ce guide sur la base de dix années d’expérience de présentations professionnelles données à distance à nos clients.

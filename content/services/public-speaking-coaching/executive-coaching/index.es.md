@@ -6,12 +6,9 @@ weight		= 2
 categories	= [ "Public Speaking Coaching" ]
 showrefs	= false
 urlredirect	= ""
-url 		= "/public-speaking-coaching/executive-coaching/"
-
-picture		= "/pictures/inserts/public-speaking-coaching-10.jpg"
-link			= "/public-speaking-coaching/executive-coaching/"
+url 			= "/public-speaking-coaching/executive-coaching/"
+picture		= "public-speaking-coaching-10.jpg"
 button		= "Saber más"
-
 +++
 
 ## Lidera desde el escenario
@@ -38,4 +35,4 @@ La combinación de nuestro programa de Entrenamiento Ejecutivo con Presentacione
 Utiliza el formulario y nos pondremos en contacto contigo rápidamente. Todas las solicitudes son gestionadas directamente por nuestro equipo senior para asegurar el más alto nivel de confidencialidad.
 
 
-[pic1]: /pictures/public-speaking-coaching/public-speaking-coaching/public-speaking-coaching.jpg
+[pic1]: public-speaking-coaching.jpg

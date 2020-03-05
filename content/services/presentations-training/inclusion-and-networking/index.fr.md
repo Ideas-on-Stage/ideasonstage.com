@@ -7,7 +7,7 @@ categories	= [ "Formations et Ateliers" ]
 urlredirect	= ""
 showrefs	= false
 url 			= "/formation-presentations/inclusion-et-networking/"
-picture		= "/formation-presentations/inclusion-et-networking/image.jpg"
+picture		= "image.jpg"
 +++
 
 ## Dépassez les stéréotypes culturels, brisez les silos de votre entreprise et décuplez la performance de votre entreprise.

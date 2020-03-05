@@ -7,7 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false
 url	 		= "/presentations-training/virtual-meetings-revolution/"
-picture		= "/presentations-training/virtual-meetings-revolution/image.jpg"
+picture		= "image.jpg"
 button		= "Learn More"
 +++
 

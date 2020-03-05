@@ -7,7 +7,7 @@ categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= true
 url 			= "/presentations-training/the-business-presentation-revolution/"
-picture		= "/presentations-training/the-business-presentation-revolution/image.jpg"
+picture		= "image.jpg"
 button		= "Learn More"
 +++
 
@@ -32,4 +32,4 @@ Many companies choose to combine The Business Presentation Revolution with some 
 
 To find out more about The Business Presentation Revolution and how it can help your teams to present more effectively, please fill in our contact form below.
 
-[pic1]: /pictures/training-workshops/business-presentation-revolution/bpr.jpg
+[pic1]: image.jpg

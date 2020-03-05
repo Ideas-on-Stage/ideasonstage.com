@@ -7,9 +7,7 @@ categories	= [ "Coaching Prise de Parole en Public" ]
 showrefs	= false
 urlredirect	= ""
 url	 		= "/coaching-prise-de-parole-en-public/media-training/"
-
-picture		= "/pictures/public-speaking-coaching/media-training/media-training.jpg"
-link			= "/coaching-prise-de-parole-en-public/media-training/"
+picture		= "media-training.jpg"
 button		= "En savoir plus"
 
 itemtype		= "Service"

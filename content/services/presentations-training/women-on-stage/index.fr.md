@@ -7,7 +7,7 @@ categories	= [ "Formations et Ateliers" ]
 urlredirect	= ""
 showrefs	= false
 url	 		= "/formation-presentations/women-on-stage/"
-picture		= "/formation-presentations/women-on-stage/image.jpg"
+picture		= "image.jpg"
 button		= "En savoir plus"
 +++
 

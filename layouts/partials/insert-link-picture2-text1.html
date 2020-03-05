@@ -12,8 +12,17 @@
 				{{ end }}
 			</div>
 	    	<div class="col-xs-12 col-sm-6 col-sm-pull-3 col-sm-offset-0 margint-small">
+				{{ if .link }}
 	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-	    			<img src="{{ .picture }}" class="img-responsive">
+					<img src="{{ .picture }}" class="img-responsive">
+					{{ "<!-- .link .picture -->" | safeHTML }}
+				</a>	
+				{{ else }}
+	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
+					<img src="{{ .url }}{{ .picture }}" class="img-responsive">
+					{{ "<!-- .url .picture -->" | safeHTML }}
+				</a>
+				{{ end }}
 	    		</a>
 	    	</div>
 	    </div>

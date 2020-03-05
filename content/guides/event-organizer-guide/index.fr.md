@@ -8,7 +8,7 @@ showrefs		= false
 showpageslist 	= true
 urlredirect		= ""
 url 				= "/guide-organisateur-evenement-entreprise/"
-picture		 	= "/guide-organisateur-evenement-entreprise/organisateur-evenement.jpg"
+picture		 	= "organisateur-evenement.jpg"
 +++
 Nous avons rassemblé ici ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables… et faire de l’événementiel un véritable atout stratégique ! 
 

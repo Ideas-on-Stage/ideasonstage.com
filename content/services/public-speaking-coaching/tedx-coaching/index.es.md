@@ -10,9 +10,7 @@ showrefs	= false
 redirect	= false
 redirectlink = ""
 url			= "/public-speaking-coaching/tedx-coaching/"
-
-picture		= "/public-speaking-coaching/tedx-coaching/tedx-saclay.jpg"
-link			= "/public-speaking-coaching/tedx-coaching/"
+picture		= "tedx-saclay.jpg"
 button		= "Saber más"
 
 insertstop		= [
