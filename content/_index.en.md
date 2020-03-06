@@ -58,28 +58,32 @@ insertsbottom	= [
 [slider]
 	[slider.list]
 		[slider.list.001]
-			bgimage ="/how-to-deliver-presentations-remotely/remote-presentations-dark.jpg"
-			title = "HOW TO DELIVER PRESENTATIONS REMOTELY"
-			button = "Read Our Guide"
-			buttonlink = "/how-to-deliver-presentations-remotely/"
-			color ="text-white"	
+			bgimage		= "/how-to-deliver-presentations-remotely/remote-presentations-dark.jpg"
+			title		= "HOW TO DELIVER PRESENTATIONS REMOTELY"
+			button		= "Read Our Guide"
+			buttonlink	= "/how-to-deliver-presentations-remotely/"
+			color		= "text-white"
+			date		= "2020-03-05"
+			expirydate	= "2020-04-01"
 		[slider.list.002]
-			bgimage ="/pictures/home/hero.jpg"
-			title = "PRESENTATION CREATION · BUSINESS EVENTS · PUBLIC SPEAKING COACHING AND TRAINING"
+			bgimage		= "/pictures/home/hero.jpg"
+			title		= "PRESENTATION CREATION · BUSINESS EVENTS · PUBLIC SPEAKING COACHING AND TRAINING"
+			date 		= "2019-11-04"
 		[slider.list.003]
-			bgimage ="/pictures/home/slider2-min.jpg"
-			title = "WOMEN ON STAGE 2.0"
+			bgimage		= "/pictures/home/slider2-min.jpg"
+			title		= "WOMEN ON STAGE 2.0"
 			description = "Your personal accelerator program to become more visible, present and free when presenting"
-			button = "Learn more"
-			buttonlink = "/presentations-training/women-on-stage/"
-			color = "text-white"
+			button		= "Learn more"
+			buttonlink	= "/presentations-training/women-on-stage/"
+			color		= "text-white"
 		[slider.list.004]
-			bgimage ="/pictures/home/slider3-min.jpg"
-			title = "THE BUSINESS PRESENTATION REVOLUTION"
+			bgimage		= "/pictures/home/slider3-min.jpg"
+			title		= "THE BUSINESS PRESENTATION REVOLUTION"
 			description = "Episode 9: Once Upon a Business Story"
-			button = "Watch now"
-			buttonlink = "/revolution/episode-00009/"
-			color ="text-white"	
+			button		= "Watch now"
+			buttonlink	= "/revolution/episode-00009/"
+			color		= "text-white"	
+			expirydate	= "2019-11-04"
 +++
 
 ## About Ideas on Stage
