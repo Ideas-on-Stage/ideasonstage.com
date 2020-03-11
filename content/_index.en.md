@@ -19,6 +19,15 @@ insertsbottom	= [
 	title	= "Our Services"
 	[services.list]
 		[services.list.001]
+			sectionid	= "from-office-to-remote-work"
+			title		= "From Office To Remote Work In 10 Days"
+			description	= "How can you move from an office based to a remote work environment in 10 days and keep the human touch?"
+			picture		= "/services/from-office-to-remote-work/remote-work.jpg"
+			style		= "bg-black"
+			layout		= "insert-link-full-picture-text-right.html"
+			link			= "/from-office-to-remote-work/"
+			button		= "Learn more"
+		[services.list.002]
 			sectionid	= "public-speaking-coaching"
 			title		= "Public Speaking Coaching"
 			description	= "We offer coaching for public speaking, media training, stage presence and delivery. Our international team can coach you in English, French, Spanish, German and Italian, in Europe and America."
@@ -27,7 +36,7 @@ insertsbottom	= [
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/public-speaking-coaching/"
 			button		= "Learn more"
-		[services.list.002]
+		[services.list.003]
 			sectionid	= "business-events"
 			title		= "Business Events"
 			description	= "Organize dynamic and unforgettable events. We work with you to develop agendas and prepare speakers that make a lasting impact."
@@ -36,7 +45,7 @@ insertsbottom	= [
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/business-events/"
 			button		= "Learn more"
-		[services.list.003]
+		[services.list.004]
 			sectionid	= "presentation-creation"
 			title		= "Presentation Creation"
 			description	= "The core of Ideas on Stage’s mission is to help leaders to communicate effectively. We help you define your messages and strategy, then we write the story, create the slides and coach you."
@@ -45,7 +54,7 @@ insertsbottom	= [
 			layout		= "insert-link-full-picture.html"
 			link			= "/presentation-creation-agency/"
 			button		= "Learn more"
-		[services.list.004]
+		[services.list.005]
 			sectionid	= "presentations-training"
 			title		= "Training & Workshops"
 			description	= "Discover our presentation training programs, from The Business Presentation Revolution to Women&nbsp;on&nbsp;Stage."
