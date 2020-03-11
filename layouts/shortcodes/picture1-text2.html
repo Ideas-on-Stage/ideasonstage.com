@@ -1,0 +1,18 @@
+{{ "<!-- partials:insert-link-half-text-picture-1.html -->" | safeHTML }}
+
+<div id="team-member" class="flex-parent row margint-small">
+	<div class="flex-child-onethird">
+		<a href="{{ .Params.link }}">
+			<img src="{{ .Params.picture }}" class="img-responsive">
+		</a>
+	</div>
+	<div class="flex-child-twothirds">
+	    <a href="{{ .Params.link }}">
+	    	<h3 class="margint-none">{{ .Params.title }}</h3>
+	    </a>
+	    <p>{{ .Inner | markdownify }}</p>
+		{{ if ne .Params.button "" }}
+		<a href="{{ .Params.link }}" class="btn btn-secondary">{{ .Params.button }}</a>
+		{{ end }}
+	</div>
+</div><!-- flex-parent -->
