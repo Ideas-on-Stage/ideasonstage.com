@@ -78,6 +78,8 @@ Employees will be able to attend a series of **online webinars**:
 * How to use good communication etiquette to encourage collaboration and avoid unnecessary conflicts or holdups
 * How to create a trust-based online work culture
 
+{{% picture1-text2 title="Trust" picture="/from-office-to-remote-work/trust.jpg" %}}Trust is at the heart of an online work community. It is what fosters a positive and productive work environment.{{% /picture1-text2 %}}
+
 **Trust** is at the heart of an online work community. But how do you build it? By doing what you say you will do. Or at least cleaning things up well if and when you miss the mark. Seems simple, and it is, under specific conditions: when all parties share an understanding of the agreement plus a common idea of what success looks like. Achieving that can be harder than we realise. Communication is king when building trust. SMART goals help achieve clarity and create conditions for success. 
 
 But, sometimes people don't do what they say they will do. What happens then? We need the right communication skills and practices to effectively move forward from a misunderstanding and ideally let it be a strengthening of relationships and learning for future success. Building trust is about following through, but it’s also about how we deal with things when they go awry and targets don’t get hit. Lastly, it’s not just what we communicate to our team or colleagues but how and when.
