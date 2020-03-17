@@ -22,6 +22,15 @@ insertsbottom	= [
 	itemprop	= "hasOfferCatalog"
 	[services.list]
 		[services.list.001]
+			sectionid	= "du-bureau-au-travail-a-distance"
+			title		= "Du bureau au travail à distance en 10 jours"
+			description	= "Comment passer d'un bureau physique à un bureau à distance tout en gardant le lien ? En créant une communauté de travail en ligne."
+			picture		= "/du-bureau-au-travail-a-distance/remote-work.jpg"
+			style		= "bg-black"
+			layout		= "insert-link-full-picture-text-right.html"
+			link			= "/du-bureau-au-travail-a-distance/"
+			button		= "En savoir plus"
+		[services.list.002]
 			sectionid	= "public-speaking-coaching"
 			title		= "Coaching prise de parole"
 			description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène. Notre équipe internationale peut vous coacher en anglais, français, espagnol, allemand et italien, en Europe et en Amérique."
@@ -38,7 +47,7 @@ insertsbottom	= [
 			pictureprop	= "image"
 			linkprop		= "mainEntityOfPage"
 			
-		[services.list.002]
+		[services.list.003]
 			sectionid	= "business-events"
 			title		= "Support événementiel"
 			description	= "Un ensemble de services pour faciliter l'organisation des événements. Maîtres de cérémonie, coaching en prise de parole, ateliers créatifs, gestion de projet."
@@ -55,7 +64,7 @@ insertsbottom	= [
 			pictureprop	= "image"
 			linkprop		= "mainEntityOfPage"
 
-		[services.list.003]
+		[services.list.004]
 			sectionid	= "presentation-creation"
 			title		= "Création de présentations"
 			description	= "Nous aidons les dirigeants à communiquer efficacement. Nous vous aidons à définir vos messages et votre stratégie, nous écrivons l'histoire, préparons les slides et vous préparons à prendre la parole en public."
@@ -72,7 +81,7 @@ insertsbottom	= [
 			pictureprop	= "image"
 			linkprop		= "mainEntityOfPage"
 			
-		[services.list.004]
+		[services.list.005]
 			sectionid	= "presentations-training"
 			title		= "Formations à l'art&nbsp;de&nbsp;présenter"
 			description	= "Découvrez nos formations à l'art de présenter, de «&nbsp;The Business Presentation Revolution&nbsp;» à «&nbsp;Women&nbsp;on&nbsp;Stage&nbsp;»."
