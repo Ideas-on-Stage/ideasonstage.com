@@ -7,27 +7,28 @@
         {{/* partial "home/head-slider-css.html" . */}}
     </head>
 	
-    <body id="page-top">
+    <body id="page-top" class="bg-black">
 
 		{{/* <!-- background welcome image --> */}}
 		{{ with .Params.Picture }}
 			{{ partial "welcome-img.html" . }}
 		{{ end }}
-		
 		{{/* <!-- navigation bar --> */}}
 		{{ partial "nav.html" . }}
+
+		<div class="layout-screen-full flex-parent-column flex-justify-end flex-align-center">
+				<div class="layout-page-intro bg-black-transparent text-center">
+		 			{{ .Page.Content }}
+		 			<p class="highlight"><i class="fa fa-chevron-down"></i></p>
+				</div>
+			</div>
+		</div>
 
 		<!-- layout-page:start -->
 		<div class="layout-page">
 			
 			<main>
 				<section id="about">
-					<div class="layout-screen-full flex-parent-column flex-justify-end">
-						<div class="layout-page-intro bg-white text-center">
-				 			{{ .Page.Content }}
-				 			<p><i class="fa fa-chevron-down"></i></p>
-						</div>
-					</div>
 				</section>
 				{{ partial "inserts-top.html" . }}
 				{{ partial "home/services.html" . }}		

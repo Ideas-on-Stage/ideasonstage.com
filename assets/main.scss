@@ -28,10 +28,7 @@
 
 /* @group SCRATCHPAD */
 
-
-
 /* @end */
-
 
 
 /* @group STANDARD TAGS */
@@ -210,6 +207,10 @@ time {
 	width: 100%;
 }
 
+.highlight {
+	color: {{ site.Params.colors.orange }};
+}
+
 .bg-white .style-section-title {
 	color: black;
 	background-color: white;
@@ -243,6 +244,21 @@ time {
 */
 
 /* layout-absolute */
+
+.layout-relative {
+	position: relative
+}
+
+.layout-absolute-child {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 24vw;
+	height: 13.5vw;
+	opacity: 1;
+}
+
+
 .layout-absolute-parent {
 	margin: 0;
 	padding: 0;
@@ -350,6 +366,7 @@ time {
 	min-height: 420px;
 	width: 100%;
 }
+
 .layout-module-slide-img {
 	position: absolute;
 	height: 75vh;
@@ -357,6 +374,7 @@ time {
 	min-height: 420px;
 	overflow: hidden;
 }
+
 .layout-module-slide-text {
 	position: sticky;
 	width: 40vw;
@@ -388,7 +406,7 @@ time {
 }
 
 .layout-page-content {
-	padding: 0px 120px 40px 120px;
+	padding: 80px 120px 40px 120px;
 	margin: 5vh 0;
 }
 
@@ -398,8 +416,10 @@ time {
 }
 
 .layout-page-intro {
-	padding: 40px 60px;
-	margin: 5vh 10vw;
+	position: relative;
+	width: 50%;
+	padding: 40px;
+	z-index: 10;
 }
 
 /* layout screen */
@@ -410,7 +430,7 @@ time {
 
 .layout-screen {
 	width: 100vw;
-	min-height: 80vh;
+	height: 100vh;
 }
 
 .layout-screen-height {
@@ -445,11 +465,20 @@ time {
 	object-position: 100% 100%;
 	top: {{ site.Params.layout.menu.height }};
 	object-fit: cover;
+	height: 40vmax; /* so not too small on tall screens */
 	width: 100%;
-	min-height: 50vh; /* so not too small on tall screens */
-	max-height: 100vh;
 	z-index: -10;
 }
+
+.layout-welcome-img-b {
+	position: sticky;
+	object-position: 100% 100%;
+	top: {{ site.Params.layout.menu.height }};
+	object-fit: cover;
+	height: 100%; /* so not too small on tall screens */
+	width: 100%;
+	z-index: -10;
+} 
 
 /* layout-* */
 .layout-square {
@@ -497,7 +526,7 @@ time {
 
 	/* layout-module-slide */
 	.layout-module-slide-parent, .layout-module-slide-img {
-		height: 160vw;
+		height: 100vmin;
 	}
 	
 	.layout-module-slide-img {
@@ -515,14 +544,20 @@ time {
 		padding: 0;
 	}
 	
+	.layout-page-width {
+		margin: 0;
+		padding: 0;
+	}
+	
 	.layout-page-intro {
-		margin: 5vh 5vw;
+		margin: 0;
 		padding: 20px;
+		width: 100%;
 	}
 	
 	.layout-page-content {
 		margin: 5vh 0;
-		padding: 0 20px;
+		padding: 20px 20px;
 	}
 
 	/* layout-section */
@@ -530,6 +565,11 @@ time {
 		height: 40px;
 	}
 	
+	.layout-welcome-img {
+		height: 60vmax; /* so not too small on tall screens */
+		width: 100%;
+	}
+
 	/* layout-* */
 	.layout-third {
 		width: 100%;
@@ -1012,10 +1052,6 @@ flex-container .flex-item-text h4 {
 	-webkit-transition: all .35s;
 	-moz-transition: all .35s;
 	transition: all .35s;
-}
-
-.bg-dark-transparent {
-	color: rgba(0, 0, 0, 0.6);
 }
 
 .bg-black-transparent {
