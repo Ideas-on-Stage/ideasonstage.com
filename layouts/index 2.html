@@ -1,0 +1,33 @@
+<!-- index.html is used to build the home page -->
+<!DOCTYPE html>
+{{ "<!-- index.html -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "home/head.html" . }}
+        {{ partial "home/head-slider-css.html" . }}
+    </head>
+    <body id="page-top">
+		<div itemscope itemtype="https://schema.org/Corporation">
+			<a href="{{ .Site.BaseURL }}" itemprop="url"></a>
+	        {{ partial "nav.html" . }}
+			<div class="top-layout">
+			</div>
+		    {{ partial "home/hero.html" . }}
+			<div class="page-layout">
+				{{ partial "home/content.html" . }}
+		 	    {{ partial "home/services.html" . }}
+		        {{ partial "inserts-bottom.html" . }}
+				<aside>
+			 		{{ partial "subscribe.html" . }}
+			 	    {{ partial "testimonials.html" . }}
+			 	    {{ partial "contact.html" . }}
+			 		{{ if eq .Site.Params.map.enable true }}
+			 			{{ partial "map.html" . }}
+			 		{{ end }}
+			 	</aside>
+		        {{ partial "footer.html" . }}
+		        {{ partial "js.html" . }}
+			</div>
+		</div>
+    </body>
+</html>

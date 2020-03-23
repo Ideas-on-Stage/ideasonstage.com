@@ -1,0 +1,40 @@
+{{ "<!-- partials:insert-link-full-picture-text-right.html -->" | safeHTML }}
+<div class="flex-child">
+	<section id="{{ with .sectionid }}{{ . }}{{ end }}">
+		<div class="layout-module">
+			
+			{{ if .itemtype }}<div itemprop="{{ .itemprop }}" itemscope="{{ .itemscope }}" itemtype="https://schema.org/{{ .itemtype }}">{{ end }}
+				
+			<div class="flex-parent-row {{ if .style }}{{ .style }}{{ end }}">
+	
+				<div class="flex-child-60p">	
+					{{ if .link }}
+						<a href="{{ with .link }}{{ . }}{{ end }}">
+							<img src="{{ .picture }}" class="img-cover img-position-right" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
+						</a>
+					{{ else }}
+						<a href="{{ .url }}">
+							<img src="{{ .url }}{{ .picture }}" class="picture" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
+						</a>
+					{{ end }}
+				</div>
+		
+				<div class="flex-child-40p">
+					<div class="flex-parent-column flex-justify-center insert-text">
+						<a href="{{ with .link }}{{ . }}{{ end }}">
+						   	{{ if ne .title "" }}<h3 {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }} class="insert-heading">{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>{{ end }}
+							<p {{ if .descprop }}itemprop="{{ .descprop }}"{{ end }} class="insert-description">{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
+						</a>
+						{{ if ne .button "" }}
+							<a href="{{ with .link }}{{ . }}{{ end }}" class="insert-button" {{ if .linkprop }}itemprop="{{ .linkprop }}"{{ end }}>{{ with .button }}{{ . }}{{ end }}</a>
+						{{ end }}
+					</div>
+				</div>
+				
+			</div>
+			
+			{{ if .itemtype }}</div>{{ end }}
+			
+		</div>
+	</section>
+</div>

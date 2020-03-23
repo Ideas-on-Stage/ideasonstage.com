@@ -7,6 +7,7 @@ name         			= "Ideas on Stage"
 copyright				= "© Ideas on Stage"
 theme        			= "hugo-creative-theme-master"
 
+
 [Permalinks]
     news				= "/news/:year/:month/:day/:filename/"
 
@@ -17,7 +18,7 @@ theme        			= "hugo-creative-theme-master"
 [outputs]
 	home 				= [ "HTML", "JSON" ]
 	page 				= [ "HTML" ]
-
+	
 [params]
 	author				= "Ideas on Stage"
 	email 				= "info@ideasonstage.com"
@@ -25,7 +26,7 @@ theme        			= "hugo-creative-theme-master"
 	cookieslink			= "cookies/"
 	favicon				= "/pictures/home/ios_favicon.ico"
 	back				= "Back"
-	
+		
 	# ------------------------------		
 	# Id for Incognito form in Presentation Creation Service
 	pcsform 			= "TeiR-77um0q9kFm49EqvwQ"
@@ -41,6 +42,56 @@ theme        			= "hugo-creative-theme-master"
 	algolia_appId		= "GMTISKBCI2"
 	algolia_apiKey		= "14fc70c1da865e95a8aea61a7a001f56"
 	algolia_indexName	= "IoS_en"
+
+	# ------------------------------
+	# Site layout options, in order of appearance on the page
+	[params.layout]
+	
+		[params.layout.breakpoints]
+			small		= "640px"
+	
+		[params.layout.menu]
+			height		= "52px"
+		
+		[params.layout.hero]
+			height		= "60vh"
+			[params.layout.hero.padding]
+				top		= "0"
+				right	= "0"
+				left		= "0"
+				bottom	= "0"
+				
+		[params.layout.page]
+			max_width	= "100%"
+			[params.layout.page.padding]
+				top		= "0"
+				right	= "10vw"
+				left		= "10vw"
+				bottom	= "0"
+			
+		[params.layout.modules]
+			min_height	= "200px"
+			max_height	= "600px"
+			min_width	= "600px"
+			max_width	= "100%"
+			[params.layout.modules.padding]
+				top		= "20px"
+				right	= "2px"
+				left		= "2px"
+				bottom	= "20px"
+			[params.layout.modules.text]
+				min_width="200px"
+				
+	# ------------------------------
+	# Site colors
+	[params.colors]
+		orange			= "#FF8200"
+		blue				= "#00A3E0"
+		darkgray		= "#222"
+		lightgray		= "#f2f2f2"
+		darken			= "rgba(0, 0, 0, 0.6)"
+		link_hover		= "#FF8200" # color when hover normal links
+
 
 	# ------------------------------		
 	# Navigation
@@ -110,16 +161,31 @@ theme        			= "hugo-creative-theme-master"
 	# ------------------------------		
 	# References
 	[params.references]
-		title = "References"
+		enable	= true
+		title	= "Clients"		
+		style	= "bg-white"
 		
 	# ------------------------------		
 	# Testimonials
 	[params.testimonials]
 		# All testimonials are defined in their own files. You can find testimonials 
 		# at '/data/testimonials'.
-		enable 			= true
-		title 			= "Testimonials"
-		subtitle			= "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
+		enable 		= true
+		title 		= "Testimonials"
+		subtitle		= "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
+		style		= "bg-lightgray"
+		
+	# ------------------------------		
+	# Inserts
+	[params.inserts]
+		[params.inserts.top]
+			enable 	= true
+			title 	= ""
+			style	= "bg-black"
+		[params.inserts.bottom]
+			enable	= true
+			title	= "Learning resources"
+			style	= "bg-black"
 
 	# ------------------------------		
 	# Events
@@ -139,7 +205,7 @@ theme        			= "hugo-creative-theme-master"
 		buttondate	= true
 		buttonplace	= false	
 		price		= "Price: "		
-	
+		
 	# ------------------------------		
 	# Contact
 	[params.contact]
@@ -176,7 +242,7 @@ theme        			= "hugo-creative-theme-master"
 	# ------------------------------		
 	# Subscribe to our news
 	[params.subscribe]
-        enable 		= true
+        enable 		= false
 		title 		= "Subscribe to our monthly news"
 		subtitle  	= "Get the best tips on presentations every month."
 		contactemail= "[info@ideasonstage.com](mailto:info@ideasonstage.com)"

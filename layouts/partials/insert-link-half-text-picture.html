@@ -1,0 +1,20 @@
+{{ "<!-- partials:insert-link-half-text-picture.html -->" | safeHTML }}
+<div class="flex-child">
+	<section id="{{ with .sectionid }}{{ . }}{{ end }}" class="layout-module">
+		
+		<div class="flex-parent-column {{ .style }}">
+			
+			<div class="flex-child module-text-layout text-center">
+			    <a href="{{ with .link }}{{ . }}{{ end }}">
+			    	<h3 class="insert-heading">{{ with .title }}{{ . }}{{ end }}</h3>
+			    </a>
+			    <p>{{ with .description | safeHTML }}{{ . }}{{ end }}</p>
+				{{ if ne .button "" }}
+				<a href="{{ with .link }}{{ . }}{{ end }}" class="style-module-button">{{ with .button }}{{ . }}{{ end }}</a>
+				{{ end }}
+			</div>
+			<img src="{{ .picture }}" class="flex-child">
+		</div>
+		
+	</section>
+</div>

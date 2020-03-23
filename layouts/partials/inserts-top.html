@@ -1,15 +1,23 @@
 {{ "<!-- partials:inserts-top.html -->" | safeHTML }}
+{{ if .Params.insertstop }}
 <div id="inserts-top">
-{{- $.Scratch.Set "count" 0 }}
-{{- range .Params.insertstop }}
-	{{- $.Scratch.Set "uuid" . }}
-	{{- $.Scratch.Add "uuid" "." }}
-	{{- $.Scratch.Add "uuid" $.Site.Params.LanguageCode }}
-	{{- range $.Site.Data.inserts }}
-		{{- if eq ($.Scratch.Get "uuid") .uuid }}
-			{{- $.Scratch.Set "count" "1" }}
-			{{ partial .layout . }}
-		{{- end }}
-	{{- end }}
-{{- end }}
+	<div class="layout-page-content">
+		<div class="flex-parent-column">
+			{{- $.Scratch.Set "count" 0 }}
+			{{- range .Params.insertstop }}
+				{{- $.Scratch.Set "uuid" . }}
+				{{- $.Scratch.Add "uuid" "." }}
+				{{- $.Scratch.Add "uuid" $.Site.Params.LanguageCode }}
+				{{- range $.Site.Data.inserts }}
+					{{- if eq ($.Scratch.Get "uuid") .uuid }}
+						{{- $.Scratch.Set "count" "1" }}
+						<div class="flex-child">
+							{{ partial .layout . }}
+						</div>
+					{{- end }}
+				{{- end }}
+			{{- end }}
+		</div>
+	</div>
 </div>
+{{ end }}

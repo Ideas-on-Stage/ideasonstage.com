@@ -1,0 +1,88 @@
+{{ "<!-- _default:baseof.html:start -->" | safeHTML }}
+
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+	
+    <body id="page-top">
+
+		{{/* <!-- background welcome image --> */}}
+		{{ with .Params.Picture }}
+			{{ partial "welcome-img.html" . }}
+		{{ end }}
+
+		<div itemscope itemtype="https://schema.org/Corporation">
+				<a href="{{ .Site.BaseURL }}" itemprop="url"></a>
+
+			<div class="layout-page">
+				
+				{{ partial "nav.html" . }}
+	
+				<main>
+					<div {{ with .Params.Itemtype }}itemscope itemtype="https://schema.org/{{ . }}"{{ end }}>
+						
+						{{/* <!-- intro text box at beginning of page --> */}}
+						<section id="intro">
+							<div class="layout-screen-full flex-parent-column flex-justify-end">
+							    <div class="layout-page-intro style-content">
+									<div{{ with .Params.descprop }} itemprop="{{ . }}"{{ end }}>
+										<h1>{{ .Params.title }}</h1>
+										<p>{{ .Params.description | markdownify }}</p>
+										<p class="text-center"><i class="fa fa-chevron-down"></i></p>
+								    </div>
+							    </div>
+							</div>
+						</section>
+						
+						{{/* <!-- list of upcoming events --> */}}
+						{{ partial "events-tabs.html" . }}
+
+						{{/* <!-- top inserts --> */}}	
+					    {{ partial "inserts-top.html" . }}
+
+						{{/* <!-- list pages inserted by list templates --> */}}
+						{{ block "list" . }}
+						{{ end }}
+						
+						{{/* <!-- main content of file.md --> */}}
+						<section id="content-main">
+						    <div class="layout-page-content style-content">
+								<div{{ with .Params.descprop }} itemprop="{{ . }}"{{ end }}>
+									{{ .Content }}	
+							    </div>
+						    </div>
+						</section>
+					    
+						{{/* <!-- bottom inserts --> */}}
+						{{ partial "inserts-bottom.html" . }}
+						
+					</div>
+			    </main>
+			    
+				<aside>
+					{{/* <!-- references and testimonials temporarily deactivated --> */}}
+				    {{/* partial "references.html" . */}}
+				    {{/* partial "testimonials_pages.html" . */}}
+				    {{ partial "contact.html" . }}
+			    </aside>
+
+			</div>
+			<!-- layout-page -->
+
+	        {{ partial "footer.html" . }}			
+	        {{ partial "js.html" . }}
+	        {{ if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
+	            {{ partial "algolia-search" . }}
+	        {{ end }}
+				
+		</div>
+		<!-- itemtype corporation -->
+		 
+	</body>
+	
+</html>
+
+{{ "<!-- _default:baseof.html:end -->" | safeHTML }}

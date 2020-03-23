@@ -1,43 +1,44 @@
 {{ "<!-- partials:home:head.html -->" | safeHTML }}
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" property="og:author"  content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
-		<meta name="description" property="og:description" content="{{ .Description }}">
-		<meta name ="title" property="og:title" content="{{ .Title }}">
-		<meta name ="image" property="og:image" content="/pictures/home/ideas-on-stage.jpg">
-		<meta name ="url" property="og:url" content ="{{ .Permalink }}">
-		<title>{{ .Title | safeHTML }}</title>
-		{{ "<!-- reflang -->" | safeHTML }}
-		{{- if .IsTranslated }}
-		    {{- range .AllTranslations }}
-        <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
-		    {{- end}}
-		{{- end }}
-		{{ "<!-- Favicon -->" | safeHTML }}
-		<!-- <link rel="shortcut icon" href="{{ .Site.Params.favicon }}"> -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" property="og:author"  content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
+<meta name="description" property="og:description" content="{{ .Description }}">
+<meta name ="title" property="og:title" content="{{ .Title }}">
+<meta name ="image" property="og:image" content="/pictures/home/ideas-on-stage.jpg">
+<meta name ="url" property="og:url" content ="{{ .Permalink }}">
+<title>{{ .Title | safeHTML }}</title>
+{{ "<!-- reflang -->" | safeHTML }}
+{{- if .IsTranslated }}
+    {{- range .AllTranslations }}
+<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+    {{- end}}
+{{- end }}
+{{ "<!-- Favicon -->" | safeHTML }}
+<!-- <link rel="shortcut icon" href="{{ .Site.Params.favicon }}"> -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png?v=69PX7oW5RN">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png?v=69PX7oW5RN">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png?v=69PX7oW5RN">
+<link rel="manifest" href="/img/site.webmanifest?v=69PX7oW5RN">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg?v=69PX7oW5RN" color="#ff0000">
+<link rel="shortcut icon" href="/img/favicon.ico?v=69PX7oW5RN">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="theme-color" content="#ffffff">
 		
-		<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png?v=69PX7oW5RN">
-	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png?v=69PX7oW5RN">
-	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png?v=69PX7oW5RN">
-	<link rel="manifest" href="/img/site.webmanifest?v=69PX7oW5RN">
-	<link rel="mask-icon" href="/img/safari-pinned-tab.svg?v=69PX7oW5RN" color="#ff0000">
-	<link rel="shortcut icon" href="/img/favicon.ico?v=69PX7oW5RN">
-	<meta name="msapplication-TileColor" content="#000000">
-	<meta name="theme-color" content="#ffffff">
 		
-		
-		{{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
-		<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
-		{{ "<!-- Custom Fonts -->" | safeHTML }}
- 		<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
-		<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6201816/7621392/css/fonts.css" />
-		{{ "<!-- Site CSS -->" | safeHTML }}
-		<link rel="stylesheet" href="/css/creative.css" type="text/css">
-		<link rel="stylesheet" href="/css/modals.css" type="text/css">
-		{{ "<!-- Plugin CSS -->" | safeHTML }}
-		<link rel="stylesheet" href="/css/animate.min.css" type="text/css">
-		{{ "<!-- Custom CSS -->" | safeHTML }}
-		<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css">
-		<link href="/css/owl.theme.css" rel="stylesheet" type="text/css">
-    	<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="Ideas on Stage news" />
+<!-- CSS -->
+
+{{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
+<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+{{ $style := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ "<!-- Custom Fonts -->" | safeHTML }}
+	<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6201816/7621392/css/fonts.css" />
+{{ "<!-- Plugin CSS -->" | safeHTML }}
+<link rel="stylesheet" href="/css/animate.min.css" type="text/css">
+{{ "<!-- Custom CSS -->" | safeHTML }}
+<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css">
+<link href="/css/owl.theme.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="Ideas on Stage news" />

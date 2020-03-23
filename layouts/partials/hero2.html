@@ -1,6 +1,6 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 <header id="home" class="bg-dark">
-    <div class="header-content">
+    <div class="header-content layout-child">
         <div class="header-content-inner">
             <h1>{{ with .Site.Params.hero.slogan }}{{ . | markdownify  }}{{ end }}</h1>
 {{ if .Site.Params.hero.subtitle_on }}           

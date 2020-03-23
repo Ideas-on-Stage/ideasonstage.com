@@ -1,6 +1,12 @@
 {{ "<!-- partials:aboutreferences_new -->" | safeHTML }}
-<section id="references" class="bg-white" style="padding-top: 10px; padding-bottom: 0px;">
-    <div class="container">
+<section id="references" class=" layout-section">
+	
+    <div class="layout-page-content bg-white">
+		
+		{{ with .Site.Params.references }}
+			{{ partial "section-title.html" . }}
+		{{ end }}
+		
         <div class="row">
         	<!-- *** REFERENCES CAROUSEL *** -->
         	<ul class="owl-carousel references same-height-row" style="padding-left: 0px; background-color: ##e2f2f2;">

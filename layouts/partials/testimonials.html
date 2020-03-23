@@ -1,38 +1,39 @@
-{{ "<!-- partials:testimonials.html -->" | safeHTML }}
+{{ "<!-- partials:testimonials.html:start -->" | safeHTML }}
 {{ if gt (len .Site.Data.testimonials) 0 }}
-		<section id="testimonials" class="bg-lightgrey margint-tiny">
-			<h1 class="hidden">{{ .Site.Params.testimonials.title }}</h1>
-		    <div class="container paddingv-small">
-		        <div class="row">
-		            <div class="col-xs-12">
-		               <ul class="owl-carousel testimonials same-height-row">
-		                    {{ range .Site.Data.testimonials }}
-		                    {{ if .showonhome }}
-		                    {{ if eq $.Site.Params.languagecode .language }}
-		                    <li class="item">
-		                        <div class="testimonial">
-									<!--<div class="icon">
-										<i class="fa fa-quote-left"></i>
-									</div>-->
-		                            <div class="text">
-		                                <p>{{ .text }}</p>
-		                            </div>
-		                            <div class="bottom">
-		                                <div class="name-picture">
-		                                    <img class="" alt="" src="{{ .avatar }}">
-		                                    <h4>{{ .name }}</h4>
-		                                    <p>{{ .position }}</p>
-		                                </div>
-		                            </div>
-		                        </div>
-		                    </li>		                    
-		                    {{ end }}
-		                    {{ end }}
-		                    {{ end }}
-		                </ul>
-		            </div>		
-		        </div>
-		    </div>
-		</section>{{ "<!-- testimonials end -->" | safeHTML }}
-{{ end }}
+	<section id="testimonials" class="layout-section">
+		<div class="layout-page-content {{ with site.Params.testimonials.style }}{{ . }}{{ else }}bg-white{{ end }}">
 
+			{{ with site.Params.testimonials }}
+				{{ partial "section-title.html" . }}
+			{{ end }}
+			
+           <ul class="owl-carousel testimonials same-height-row">
+                {{ range .Site.Data.testimonials }}
+                {{ if .showonhome }}
+                {{ if eq $.Site.Params.languagecode .language }}
+                <li class="item">
+                    <div class="testimonial">
+						<!--<div class="icon">
+							<i class="fa fa-quote-left"></i>
+						</div>-->
+                        <div class="text">
+                            <p>{{ .text }}</p>
+                        </div>
+                        <div class="bottom">
+                            <div class="name-picture">
+                                <img class="" alt="" src="{{ .avatar }}">
+                                <h4>{{ .name }}</h4>
+                                <p>{{ .position }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>		                    
+                {{ end }}
+                {{ end }}
+                {{ end }}
+            </ul>
+			
+	    </div>
+	</section>
+{{ end }}
+{{ "<!-- partials:testimonials.html:end -->" | safeHTML }}

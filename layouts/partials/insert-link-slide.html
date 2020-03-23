@@ -1,0 +1,30 @@
+{{ "<!-- partials:insert-link-slide.html:start -->" | safeHTML }}
+
+<section {{ with .sectionid }}id="{{ . }}"{{ end }}>
+	<div class="layout-module">
+	{{ if .itemtype }}<div itemprop="{{ .itemprop }}" itemscope="{{ .itemscope }}" itemtype="https://schema.org/{{ .itemtype }}">{{ end }}
+
+	<div class="layout-module-slide-parent">
+		<div class="layout-module-slide-img">
+			<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url }}{{ end }}">
+				<img src="{{ .picture }}" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }} class="img-cover img-position-right">
+			</a>
+		</div>
+		<div class="flex-parent-row  flex-align-center">
+			<div class="layout-module-slide-text">
+				<a href="{{ with .link }}{{ . }}{{ end }}">
+					{{ if ne .title "" }}<h3 {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }} class="style-module-title text-left">{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>{{ end }}
+					<p {{ if .descprop }}itemprop="{{ .descprop }}"{{ end }}class="style-module-description">{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
+				    {{ if ne .button "" }}
+				</a>
+				<a href="{{ with .link }}{{ . }}{{ end }}" class="style-module-button" {{ if .linkprop }}itemprop="{{ .linkprop }}"{{ end }}>{{ with .button }}{{ . }}{{ end }}</a>
+				{{ end }}
+			</div>
+		</div>
+	</div>
+
+	{{ if .itemtype }}</div>{{ end }}
+	</div>
+</section>
+
+{{ "<!-- partials:insert-link-slide.html:end -->" | safeHTML }}

@@ -1,0 +1,18 @@
+{{ "<!-- partials:home:services -->" | safeHTML }}
+<section id="services" class="flex-grandparent">
+	{{ if .Params.services.itemtype }}<div itemprop="{{ .Params.services.itemprop }}" itemscope="{{ .Params.services.itemscope }}" itemtype="https://schema.org/{{ .Params.services.itemtype }}">
+	{{ end }}
+    <div class="container paddingt-large">
+        <div class="row">
+			<div class="col-xs-12 text-center col-md-8 col-md-offset-2">
+				<h2 {{ with .Params.services.titleprop }}itemprop="{{ . }}"{{ end }}>{{ with .Params.services.title }}{{ . | markdownify }}{{ end }}</h2>
+			</div>
+		</div>
+	</div>
+	{{ range .Params.services.list }}
+		{{ partial .layout . }}
+	{{- end }}
+	{{ if .Params.services.itemtype }}
+	</div>
+	{{ end }}
+</section>

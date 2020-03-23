@@ -3,10 +3,10 @@ uuid 		= "24103085-4F73-484A-B98F-F00A5F82C90A"
 draft 		= false
 title 		= "Presentation Creation | Business Events | Public Speaking Coaching and Training"
 description	= "International agency specialized in Presentation Creation, Business Events and Public Speaking Coaching and Training. We cover North America and Europe."
+picture		= "/pictures/inserts/home-business-events.jpg"
 
 insertstop		= [
-	"home-06",
-	"home-08"
+
 ]
 
 insertsbottom	= [
@@ -15,39 +15,43 @@ insertsbottom	= [
 	"home-12"
 ]
 
+[inserts]
+	[inserts.bottom]
+		title = "Learn Online"
+		
 [services]
-	title	= "Our Services"
+	title	= "Services"
 	[services.list]
 		[services.list.001]
 			sectionid	= "from-office-to-remote-work"
-			title		= "From Office To Remote Work In 10 Days"
-			description	= "How can you move from an office based to a remote work environment in 10 days and keep the human touch? By creating an online work community."
+			title		= "Online Work Community"
+			description	= "Move from an office based to a remote work environment and keep the human touch by creating an online work community."
 			picture		= "/from-office-to-remote-work/remote-work.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "insert-link-slide.html"
 			link			= "/from-office-to-remote-work/"
 			button		= "Learn more"
 		[services.list.002]
 			sectionid	= "public-speaking-coaching"
 			title		= "Public Speaking Coaching"
-			description	= "We offer coaching for public speaking, media training, stage presence and delivery. Our international team can coach you in English, French, Spanish, German and Italian, in Europe and America."
+			description	= "We offer coaching for public speaking, media training, stage presence and delivery."
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "insert-link-slide.html"
 			link			= "/public-speaking-coaching/"
 			button		= "Learn more"
 		[services.list.003]
 			sectionid	= "business-events"
-			title		= "Business Events"
+			title		= "Impactful Events"
 			description	= "Organize dynamic and unforgettable events. We work with you to develop agendas and prepare speakers that make a lasting impact."
 			picture		= "/pictures/inserts/home-business-events.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "insert-link-slide.html"
 			link			= "/business-events/"
 			button		= "Learn more"
 		[services.list.004]
 			sectionid	= "presentation-creation"
-			title		= "Presentation Creation"
+			title		= "Stunning Presentations"
 			description	= "The core of Ideas on Stage’s mission is to help leaders to communicate effectively. We help you define your messages and strategy, then we write the story, create the slides and coach you."
 			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 			style		= "bg-black"
@@ -59,7 +63,7 @@ insertsbottom	= [
 			title		= "Training & Workshops"
 			description	= "Discover our presentation training programs, from The Business Presentation Revolution to Women&nbsp;on&nbsp;Stage."
 			picture		= "/pictures/inserts/home-presentations-training.jpg"
-			style		= "bg-lightgrey"
+			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
 			link			= "/presentations-training/"
 			button		= "Learn more"
@@ -94,11 +98,6 @@ insertsbottom	= [
 			color		= "text-white"	
 			expirydate	= "2019-11-04"
 +++
+**Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.**
 
-## About Ideas on Stage
-
-Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training. In a world of boring conferences and endless meetings, you will stand out and shine.
-
-We created Ideas on Stage in 2010, convinced that successful presentations are a key competitive advantage, and offered a revolutionary blend of storytelling, visual design and speaker coaching. Our intuition was right: our clients realized the value of high-impact presentations, kept coming back for more, and told their friends.
-
-Today the communication experts of Ideas on Stage provide a full range of presentation services around the world in English, French, Spanish, Italian and German.
+**Our communication experts provide our services around the world in France, UK, Spain, Italy and North America.**

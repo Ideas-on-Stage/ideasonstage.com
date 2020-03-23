@@ -1,0 +1,9 @@
+{{ "<!-- partials:section-title.html:start -->" | safeHTML }}
+
+<div class="layout-sticky layout-section-title">
+	<h2 {{ with .titleprop }}itemprop="{{ . }}"{{ end }}class="style-section-title">
+		{{ with .title }}{{ . | markdownify }}{{ end }}
+	</h2>
+</div>
+		
+{{ "<!-- partials:section-title.html:end -->" | safeHTML }}

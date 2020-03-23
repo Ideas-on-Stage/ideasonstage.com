@@ -1,68 +1,65 @@
 {{ "<!-- partials:home/hero.html -->" | safeHTML }}
-<header id="home">
+<header id="hero">
 
-	<div class="heroslider flex-container bg-black">
-			
-{{ $.Scratch.Set "counter" 0 }}
-	{{ range .Params.slider.list }}
-		{{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
-			{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-		<input type="radio" id="heroslider-{{$.Scratch.Get "counter"}}" name="heroslider[]" {{ if eq 1 ($.Scratch.Get "counter") }}checked{{ end }}>
+	<div class="heroslider hero-layout">
+		
+			{{ $.Scratch.Set "counter" 0 }}
+		{{ range .Params.slider.list }}
+			{{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
+				{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+			<input type="radio" id="heroslider-{{$.Scratch.Get "counter"}}" name="heroslider[]" {{ if eq 1 ($.Scratch.Get "counter") }}checked{{ end }}>
+			{{ end }}
 		{{ end }}
-	{{ end }}
-			
-		<ul class="flex-container bg-black heroslider__items">
-	{{ range .Params.slider.list }}
-		{{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
-			<li class="heroslider__item img-fullsize-crop">
-				<img src="{{ .bgimage }}" alt="">
-				<div class= "header-content">
-					<div class="header-content-inner slider">  
-		    			<div class="slider-title">{{ .title | safeHTML }}
+		{{ "<!-- slider pictures and text -->" | safeHTML }}
+		<ul class="heroslider__items">
+			{{ range .Params.slider.list }}
+				{{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
+					<li class="heroslider__item">
+						<img src="{{ .bgimage }}" alt="" class="img-cover hero-layout-module">
+						<div class="hero-layout-module">
+							<div class= "flex-parent-column flex-justify-center flex-align-center">
+									<h2 class="hero-heading-style">{{ .title | safeHTML }}</h2>
+								{{ if .description }}
+									<p class="hero-description-style">{{ .description }}</p>
+								{{ end }}
+								{{ if .button }}
+									<a href="{{ .buttonlink }}">
+										<div class="btn btn-primary btn-slider">{{ .button }}</div>
+									</a>
+								{{ end }}
+							</div>
 						</div>
-						{{ if .description }}
-						<div class="slider-subtitle">{{ .description }}</div>
-						{{ end }}
-						{{ if .button }}
-						<a href="{{ .buttonlink }}">
-							<div class="btn btn-primary btn-slider">{{ .button }}</div>
-						</a>
-						{{ end }}
-					</div>
-				</div>
-			</li>
-		{{ end }}
-	{{ end }}
+					</li>
+				{{ end }}
+			{{ end }}
 		</ul>
-
 		<div class="heroslider__prev">
-	{{ $.Scratch.Set "counter" 0 }}
-	{{ range .Params.slider.list }}
-		{{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
-			{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-	     	<label for="heroslider-{{$.Scratch.Get "counter"}}"></label>
-		{{ end }}
-	{{ end }}
+			{{ $.Scratch.Set "counter" 0 }}
+			{{ range .Params.slider.list }}
+				{{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
+					{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+			     	<label for="heroslider-{{$.Scratch.Get "counter"}}"></label>
+				{{ end }}
+			{{ end }}
 	    </div>
 	    <div class="heroslider__next">
-	{{ $.Scratch.Set "counter" 0 }}
-	{{ range .Params.slider.list }}
-		{{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
-			{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-	       <label for="heroslider-{{$.Scratch.Get "counter"}}"></label>
-		{{ end }}
-	{{ end }}
+			{{ $.Scratch.Set "counter" 0 }}
+			{{ range .Params.slider.list }}
+				{{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
+					{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+			       <label for="heroslider-{{$.Scratch.Get "counter"}}"></label>
+				{{ end }}
+			{{ end }}
 		</div>
 	    <div class="heroslider__nav">
-	{{ $.Scratch.Set "counter" 0 }}
-	{{ range .Params.slider.list }}
-		{{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
-				{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-	       <label for="heroslider-{{$.Scratch.Get "counter"}}"></label>
-		{{ end }}
-	{{ end }}
+			{{ $.Scratch.Set "counter" 0 }}
+			{{ range .Params.slider.list }}
+				{{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
+						{{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+			       <label for="heroslider-{{$.Scratch.Get "counter"}}"></label>
+				{{ end }}
+			{{ end }}
 	    </div>
-		 
 	</div>
 
 </header>

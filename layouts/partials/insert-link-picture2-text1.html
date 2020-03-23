@@ -1,30 +1,28 @@
 {{ "<!-- partials:insert-link-picture2-text1.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="{{ .style }}"><!-- section used for full width background -->
-	<div class="container insert paddingt-medium paddingb-small">
-	    <div class="row">
-	    	<div class="col-sm-4 col-sm-push-7 col-sm-offset-0">
-			    <a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-			    	<h3 class="margint-small">{{ with .title }}{{ . }}{{ end }}</h3>
-			    </a>
-			    <p>{{ with .description }}{{ . }}{{ end }}</p>
-				{{ if ne .button "" }}
-				<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
-				{{ end }}
-			</div>
-	    	<div class="col-xs-12 col-sm-6 col-sm-pull-3 col-sm-offset-0 margint-small">
-				{{ if .link }}
-	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-					<img src="{{ .picture }}" class="img-responsive">
-					{{ "<!-- .link .picture -->" | safeHTML }}
-				</a>	
-				{{ else }}
-	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-					<img src="{{ .url }}{{ .picture }}" class="img-responsive">
-					{{ "<!-- .url .picture -->" | safeHTML }}
-				</a>
-				{{ end }}
-	    		</a>
-	    	</div>
-	    </div>
+<section {{ with .sectionid }}id="{{ . }}"{{ end }} {{ with .style }}class="{{ . }}"{{ end }}>
+	<div class="flex-parent-row layout-module">
+    	<div class="flex-child-60p">
+			{{ if .link }}
+    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
+				<img src="{{ .picture }}" class="img-responsive">
+				{{ "<!-- .link .picture -->" | safeHTML }}
+			</a>	
+			{{ else }}
+    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
+				<img src="{{ .url }}{{ .picture }}" class="img-responsive">
+				{{ "<!-- .url .picture -->" | safeHTML }}
+			</a>
+			{{ end }}
+    		</a>
+    	</div>
+    	<div class="flex-child-40p layout-module-text">
+		    <a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
+		    	<h3 class="margint-small">{{ with .title }}{{ . }}{{ end }}</h3>
+		    </a>
+		    <p>{{ with .description }}{{ . }}{{ end }}</p>
+			{{ if ne .button "" }}
+			<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
+			{{ end }}
+		</div>
 	</div>
 </section>

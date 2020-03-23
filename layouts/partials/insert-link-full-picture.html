@@ -1,39 +1,39 @@
 {{ "<!-- partials:insert-link-full-picture.html -->" | safeHTML }}
-<div class="margint-tiny marginh-tiny">
-	{{ if .sectionid }}<section id="{{ .sectionid }}">{{ end }}
-	{{ if .itemtype }}<div itemprop="{{ .itemprop }}" itemscope="{{ .itemscope }}" itemtype="https://schema.org/{{ .itemtype }}">{{ end }}
-		<div class="flex-parent">
-			<div class="flex-container {{ if .style }}{{ .style }}{{ end }}">
-				{{ if .link }}
-				<a href="{{ with .link }}{{ . }}{{ end }}">
-					<div class="img-center">
-						<img src="{{ .picture }}" class="picture" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
-					</div>
+
+<div class="flex-child layout-module">
+
+	<section {{ with .sectionid }}id="{{ . }}"{{ end }}>
+		
+		{{ if .itemtype }}<div itemprop="{{ .itemprop }}" itemscope="{{ .itemscope }}" itemtype="https://schema.org/{{ .itemtype }}">{{ end }}
+
+		<div class="flex-parent-column flex-align-center">	
+			
+			<div class="flex-child">
+				<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url }}{{ end }}">
+					<img src="{{ .picture }}" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }} class="img-cover">
 				</a>
-				{{ else }}
-				<a href="{{ .url }}">
-					<div class="img-center">
-						<img src="{{ .url }}{{ .picture }}" class="picture" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
+			</div>
+			
+			<div class="flex-child">
+				<div class="layout-module-text {{ if .style }}{{ .style }}{{ end }}">
+					<div class="layout-module-title text-center">
+						<a href="{{ with .link }}{{ . }}{{ end }}">
+					    	{{ if ne .title "" }}
+							<h3 {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }} class="style-module-title">{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>
+							{{ end }}
+					    	<p {{ if .descprop }}itemprop="{{ .descprop }}"{{ end }}class="style-module-description">{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
+					    </a>
+					    {{ if ne .button "" }}
+							<a href="{{ with .link }}{{ . }}{{ end }}" class="style-module-button" {{ if .linkprop }}itemprop="{{ .linkprop }}"{{ end }}>{{ with .button }}{{ . }}{{ end }}</a>
+						{{ end }}
 					</div>
-				</a>
-				{{ end }}
-				<div class="{{ .style }}">
-					<div class="container text-center">
-						<div class="row">
-							<div class="col-xs-12 col-sm-10 col-sm-offset-1 paddingt-tiny">
-								<a href="{{ with .link }}{{ . }}{{ end }}">
-							    	{{ if ne .title "" }}<h3 {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }}>{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>{{ end }}
-							    	<p {{ if .descprop }}itemprop="{{ .descprop }}"{{ end }}>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
-							    </a>
-							    {{ if ne .button "" }}
-								<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary" {{ if .linkprop }}itemprop="{{ .linkprop }}"{{ end }}>{{ with .button }}{{ . }}{{ end }}</a>
-								{{ end }}
-							</div>
-						</div>
-					</div>
-				</div><!-- class -->
-			</div><!-- flex-container -->
+				</div>
+			</div>
+			
 		</div>
+			
 		{{ if .itemtype }}</div>{{ end }}
-	{{ if .sectionid }}</section>{{ end }}
+			
+	</section>
+
 </div>

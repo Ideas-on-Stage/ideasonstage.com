@@ -10,8 +10,7 @@ urlredirect		= ""
 url 				= "/business-events/"
 picture			= "business-events.jpg"
 +++
-
-## Events & Conferences
+# Events and Conferences
 
 We help turn conferences into dynamic, memorable events, working with organizers and senior management to develop agendas and prepare speakers that make a lasting impact.
 

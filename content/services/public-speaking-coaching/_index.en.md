@@ -1,7 +1,7 @@
 +++
 draft 		= false
 title 		= "Public Speaking Coaching"
-description	= "Whether you are a leader in a major corporation or running your own business, speak like the leader everyone wants to follow."
+description	= "Our coaching service is made to measure. Whether you are a senior executive set to present a high-stakes strategy, an organizer looking to have a group of speakers coached for a business event or a start-up founder who’s been invited to present at a high-profile tech event, our goal is the same: to make you succeed."
 weight		= 2
 categories	= [ "Public Speaking Coaching" ]
 showrefs	= false
@@ -12,8 +12,6 @@ picture 	= "wikistage-wbg-2015.jpg"
 +++
 
 ## Tailored to address each individual’s strengths and areas for improvement. 
-
-Our coaching service is made to measure. Whether you are a senior executive set to present a high-stakes strategy, an organizer looking to have a group of speakers coached for a business event or a start-up founder who’s been invited to present at a high-profile tech event, our goal is the same: to make you succeed.
 
 We choose the most appropriate coach for each speaker, and prepare a made-to-measure program based on our ACE Speaker Coaching approach, providing each speaker with three key benefits:
 

@@ -1,15 +1,30 @@
 {{ "<!-- partials:inserts-bottom.html -->" | safeHTML }}
-<div id="inserts-bottom">
-{{- $.Scratch.Set "count" 0 }}
-{{- range .Params.insertsbottom }}
-	{{- $.Scratch.Set "uuid" . }}
-	{{- $.Scratch.Add "uuid" "." }}
-	{{- $.Scratch.Add "uuid" $.Site.Params.LanguageCode }}
-	{{- range $.Site.Data.inserts }}
-		{{- if eq ($.Scratch.Get "uuid") .uuid }}
-			{{- $.Scratch.Set "count" "1" }}
-			{{ partial .layout . }}
-		{{- end }}
-	{{- end }}
-{{- end }}    
-</div>
+
+{{ if .Params.insertsbottom }}
+	<section id="inserts-bottom" class="layout-section bg-black">
+		
+		<div class="layout-page-content bg-black">
+			
+			{{ with .Params.inserts.bottom }}
+				{{ partial "section-title.html" . }}
+			{{ end }}
+		
+			{{ $.Scratch.Set "count" 0 }}
+			{{ range .Params.insertsbottom }}
+				{{ $.Scratch.Set "uuid" . }}
+				{{ $.Scratch.Add "uuid" "." }}
+				{{ $.Scratch.Add "uuid" $.Site.Params.LanguageCode }}
+				{{ range $.Site.Data.inserts }}
+					{{ if eq ($.Scratch.Get "uuid") .uuid }}
+						{{ $.Scratch.Set "count" "1" }}
+						<div class="layout-section-spacer">
+						</div>
+						{{ partial .layout . }}
+					{{ end }}
+				{{ end }}
+			{{ end }}    
+	
+		</div>
+		
+	</section>
+{{ end }}

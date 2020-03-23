@@ -16,6 +16,7 @@
 {{ $.Scratch.Set "counternext" 0 }}
 {{ range .Params.slider.list }}
 	{{ $.Scratch.Set "counternext" (add ($.Scratch.Get "counter") 1) }}
+	{{/* Button Next */}}
 	.heroslider > input[type="radio"]:nth-child({{($.Scratch.Get "counter")}}):checked ~ .heroslider__next > label:nth-child({{($.Scratch.Get "counternext")}}) {
 	    visibility: visible;
 	  opacity: 1 !important;

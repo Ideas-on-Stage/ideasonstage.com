@@ -1,14 +1,11 @@
-{{ "<!-- partials:content.html -->" | safeHTML }}
+{{ "<!-- partials:content.html:start -->" | safeHTML }}
     {{ partial "inserts-top.html" . }}
     <section id="content-main">
-	    <div class="container margint-large marginb-medium">
-	        <div class="row">        
-	        	<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-					{{ with .Params.descprop }}<div itemprop="{{ . }}">{{ end }}
-					{{ with .Content }}{{ . | markdownify }}{{ end }}	
-					{{ with .Params.descprop }}</div>{{ end }}
-		        </div>
+	    <div class="layout-page-text">
+			<div{{ with .Params.descprop }} itemprop="{{ . }}"{{ end }}>
+				{{ with .Content }}{{ . | markdownify }}{{ end }}	
 		    </div>
 	    </div>
-    {{ partial "inserts-bottom.html" . }}
     </section>
+    {{ partial "inserts-bottom.html" . }}
+{{ "<!-- partials:content.html:end -->" | safeHTML }}

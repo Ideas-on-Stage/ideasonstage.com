@@ -1,0 +1,30 @@
+{{ "<!-- partials:insert-link-full-picture.html -->" | safeHTML }}
+<div class="flex-child">
+	<section {{ with .sectionid }}id="{{ . }}"{{ end }}>
+		
+		{{ if .itemtype }}<div itemprop="{{ .itemprop }}" itemscope="{{ .itemscope }}" itemtype="https://schema.org/{{ .itemtype }}">{{ end }}
+		<div class="absolute-layout-parent">
+			<div class="absolute-layout-child">
+				<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url }}{{ end }}">
+					<img src="{{ .picture }}" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }} class="img-cover scroller-img">
+				</a>
+			</div>
+			<div class="absolute-layout-text">
+				<div class="flex-parent-column">
+					<div class="flex-child insert-text text-center">
+					    	<p {{ if .descprop }}itemprop="{{ .descprop }}"{{ end }}class="insert-description">{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
+					    {{ if ne .button "" }}
+							<a href="{{ with .link }}{{ . }}{{ end }}" class="insert-button" {{ if .linkprop }}itemprop="{{ .linkprop }}"{{ end }}>{{ with .button }}{{ . }}{{ end }}</a>
+						{{ end }}
+					</div>			
+				</div>
+			</div>
+		</div>
+		<div class="bg-black">
+		<a href="{{ with .link }}{{ . }}{{ end }}">
+			{{ if ne .title "" }}<h3 {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }} class="insert-heading">{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>{{ end }}
+		</a>
+		</div>
+		{{ if .itemtype }}</div>{{ end }}
+	</section>
+</div>

@@ -1,18 +1,24 @@
 {{ "<!-- partials:home:services -->" | safeHTML }}
-<section id="services" >
-	{{ if .Params.services.itemtype }}<div itemprop="{{ .Params.services.itemprop }}" itemscope="{{ .Params.services.itemscope }}" itemtype="https://schema.org/{{ .Params.services.itemtype }}">
-	{{ end }}
-    <div class="container paddingt-large">
-        <div class="row">
-			<div class="col-xs-12 text-center col-md-8 col-md-offset-2">
-				<h2 {{ with .Params.services.titleprop }}itemprop="{{ . }}"{{ end }}>{{ with .Params.services.title }}{{ . | markdownify }}{{ end }}</h2>
+
+<section id="services" {{ with .Params.services.itemprop }}itemprop="{{ . }}"{{ end }} {{ with .Params.services.itemscope }}itemscope="{{ . }}"{{ end }} {{ with .Params.services.itemtype }}itemtype="https://schema.org/{{ . }}"{{ end }}>
+		
+	<div class="layout-page-content {{ with .Params.style }}{{ . }}{{ else }}bg-white{{ end }}">
+		
+		{{ with .Params.services }}
+			{{ partial "section-title.html" . }}
+		{{ end }}
+		
+		<div class="flex-parent-row">
+			<div class="flex-parent-column">
+				{{ range .Params.services.list }}
+					<div class="layout-section-spacer">
+					</div>
+					<div class="flex-child">
+						{{ partial .layout . }}
+					</div>
+				{{ end }}
 			</div>
 		</div>
 	</div>
-	{{ range .Params.services.list }}
-		{{ partial .layout . }}
-	{{- end }}
-	{{ if .Params.services.itemtype }}
-	</div>
-	{{ end }}
+	
 </section>

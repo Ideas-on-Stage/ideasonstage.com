@@ -1,0 +1,17 @@
+{{ "<!-- _default:content.html:start -->" | safeHTML }}
+	
+    {{ partial "inserts-top.html" . }}
+    
+	<section id="content-main">
+		<div class="layout-page">
+		    <div class="layout-page-content style-content">
+				<div{{ with .Params.descprop }} itemprop="{{ . }}"{{ end }}>
+					{{ .Content }}	
+			    </div>
+		    </div>
+		</div>
+	</section>
+    
+	{{ partial "inserts-bottom.html" . }}
+    
+{{ "<!-- _default:content.html:end -->" | safeHTML }}
