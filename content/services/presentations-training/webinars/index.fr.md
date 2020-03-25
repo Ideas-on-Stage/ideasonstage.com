@@ -3,7 +3,7 @@ draft 			= false
 title 			= "Virtual Meeting Revolution - Webinaires Gratuits"
 description		= "Une série de webinaires gratuits pour mieux présenter."
 categories		= [ "Training & Workshops" ]
-url 				= "/formation-presentations/webinaires/"
+slug 			= "/formation-presentations/webinaires/"
 picture			= "webinar.jpg"
 button			= "En savoir plus"
 +++
@@ -18,7 +18,7 @@ Heureusement, il existe une solution. Chez Ideas on Stage, nous ne sommes pas se
 
 Notre formation en ligne « Virtual Meeting Revolution » a été très demandée récemment, pour des raisons évidentes, mais nombreux sont ceux qui ont besoin de cet apprentissage dans le monde entier. Nous avons donc décidé d'organiser une série de webinaires gratuits qui visent à aider tout travailleur à distance, enseignant ou dirigeant à préparer et à organiser des réunions en ligne efficaces.
 
-Voici le calendrier ainsi que les liens vers nos pages EventBrite afin que vous puissiez vous inscrire. Ces webinaires seront donnés en français (cliquez ici si vous préférez participer à des webinaires en anglais, qui ont lieu tous les jeudis).
+Voici le calendrier ainsi que les liens vers nos pages EventBrite afin que vous puissiez vous inscrire. Ces webinaires seront donnés en français ([cliquez ici si vous préférez participer à des webinaires en anglais, qui ont lieu tous les jeudis](https://www.ideasonstage.com/presentations-training/webinars/)).
 
 Horaires : tous les mardis de 16h00 à 17h00.
 
