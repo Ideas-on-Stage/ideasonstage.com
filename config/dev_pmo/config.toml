@@ -1,0 +1,12 @@
+# Used to serve the site from local network
+
+baseURL 				= "http://192.168.1.16:1313"
+
+[languages.fr]
+	baseURL			= "http://192.168.1.16:1314"
+	
+[languages.es]
+	baseURL			= "http://192.168.1.16:1315"
+	
+[languages.it]
+	baseURL			= "http://192.168.1.16:1316"
