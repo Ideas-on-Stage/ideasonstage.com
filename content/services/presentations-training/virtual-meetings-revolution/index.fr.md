@@ -2,7 +2,6 @@
 draft		= false
 title		= "Formation Virtual Meetings Revolution"
 description = "Comment faire une réunion en ligne efficace ? De quel matériel avez-vous besoin ? Comment créer du lien avec les participants pendant la réunion ?"
-weight		= 2
 categories	= [ "Training & Workshops" ]
 urlredirect	= ""
 showrefs	= false

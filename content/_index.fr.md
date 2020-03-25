@@ -5,8 +5,6 @@ title 		= "Ideas on Stage | Coaching prise de parole et gestion d'événements"
 description	= "Agence internationale spécialisée dans la création de présentations, la formation et le coaching en prise de parole en public et les événements d'entreprise. Nous sommes présents aux États-Unis et en Europe."
 
 insertstop		= [
-	"home-06",
-	"home-08"
 ]
 
 insertsbottom	= [
@@ -97,16 +95,17 @@ insertsbottom	= [
 			descprop	= "description"
 			pictureprop	= "image"
 			linkprop		= "mainEntityOfPage"
+
 [slider]
 	[slider.list]
 		[slider.list.001]
-			bgimage 	="/comment-presenter-a-distance/remote-presentations-dark.jpg"
-			title 		= "COMMENT PRÉSENTER À DISTANCE"
+			bgimage 	="/formation-presentations/webinaires/webinar-2.jpg"
+			title 		= "VIRTUAL MEETINGS REVOLUTION"
+			description = "Une série de webinaires gratuits"
 			button 		= "Lisez notre guide"
-			buttonlink	= "/comment-presenter-a-distance/"
+			buttonlink	= "/formation-presentations/webinaires/"
 			color		= "text-white"	
 			date		= "2020-03-05"
-			expirydate	= "2020-04-01"
 		[slider.list.002]
 			bgimage		="/pictures/home/hero.jpg"
 			title		= "CRÉATION DE PRÉSENTATIONS · SUPPORT ÉVÉNEMENTIEL · COACHING ET FORMATION À LA PRISE DE PAROLE"
@@ -138,8 +137,6 @@ insertsbottom	= [
 
 ## À propos d'Ideas on Stage
 
-Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public. Dans un univers de conférences monotones et de réunions sans fin, vous vous démarquerez.
+Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.
 
-Nous avons créé Ideas on Stage en 2010, convaincus que l’art de présenter est un avantage compétitif essentiel. Nous avons proposé un mélange révolutionnaire de storytelling, de design visuel et de coaching à la prise de parole. Notre intuition était correcte : nos clients ont pris conscience de la valeur des présentations à fort impact, sont devenus fidèles et nous ont recommandés à leurs amis.
-
-Aujourd’hui, les experts en communication d’Ideas on Stage vous proposent un éventail complet de services en présentation dans le monde en anglais, français, espagnol, italien et allemand.
+Les experts en communication d’Ideas on Stage offrent leurs services en France, Angleterre, Espagne, Italie et aux États-Unis.

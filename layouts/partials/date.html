@@ -1,0 +1,11 @@
+{{ "<!-- partials:date.html:start -->" | safeHTML }}
+{{ if eq $.Site.LanguageCode  "en" }}
+	{{ .Format "January 2, 2006" }}
+{{ else if eq $.Site.LanguageCode  "fr"}}
+	<time class="post-date" datetime="{{ .Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Day }} {{ index $.Site.Data.mois (printf "%d" .Month) }} {{ .Year }}</time> 
+{{ else if eq $.Site.LanguageCode  "es"}}
+	<time class="post-date" datetime="{{ .Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Day }} {{ index $.Site.Data.moises (printf "%d" .Month) }} {{ .Year }}</time>
+{{ else if eq $.Site.LanguageCode  "it"}}
+	<time class="post-date" datetime="{{ .Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Day }} {{ index $.Site.Data.moisit (printf "%d" .Month) }} {{ .Year }}</time> 		
+{{ end }}
+{{ "<!-- partials:date.html:end -->" | safeHTML }}

@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-{{ "<!-- revolution/list.html -->" | safeHTML }}
-{{ partial "single-top-common.html" . }}
-	<main>
-        {{ partial "page-hero.html" . }}
-		{{ partial "inserts-top.html" . }}
+{{ define "main" }}
+	{{ "<!-- revolution:list.html:end -->" | safeHTML }}
         <div>
 			{{ $scratch := newScratch }}
 			{{ $scratch.Set "first" "true" }}
@@ -12,6 +8,7 @@
 			{{ $pagenumber := .Paginator.PageNumber }}
 			{{ range $paginator.Pages }}
 				{{ if (and (eq ($scratch.Get "first") "true") (lt $pagenumber "2")) }}
+					{{/* <!-- generate hero with newest video --> */}}
 				     <section>
 						<div class="flex-container">
 							<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
@@ -58,13 +55,14 @@
 					</div>
 					{{ $scratch.Set "first" "false" }}
 				{{ else }}
+					{{/* <!-- generate normal list entry --> */}}
 		            <div class="container" >
 		                <section class="post paddingt-small paddingb-medium">
 		                    <div class="row">
 		                        <div class="col-sm-4 col-sm-offset-1">
 		                          <div class="image margint-small">
-		                              <a href="{{ .Permalink }}">
-		                                  <img src="{{ .Site.BaseURL}}pictures/revolution/{{ .File.ContentBaseName }}-thumb.jpg" class="img-responsive" alt="">
+		                              <a href="{{ .RelPermalink }}">
+		                                  <img src="/pictures/revolution/{{ .File.ContentBaseName }}-thumb.jpg" class="img-responsive" alt="">
 		                              </a>
 		                          </div>
 		                        </div>
@@ -72,7 +70,7 @@
 		                            <a href="{{ .RelPermalink }}"><h3 class="margint-small">{{ .Title }}</h3></a>
 		                            <div>
 		                                <p>
-		                                    <a href="{{ .Permalink }}">
+		                                    <a href="{{ .RelPermalink }}">
 		                                    	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
 		                                    		{{ if eq $.Site.LanguageCode  "en" }}
 		                                    			{{ .Date.Format "January 2, 2006" }}
@@ -126,9 +124,5 @@
 				</div>
 			</div>		
         </div><!-- content-main -->
-		{{ partial "inserts-bottom.html" . }}
-	</main>
-	<aside>
- 	    {{ partial "contact.html" . }}
- 	</aside>
-{{ partial "single-bottom-common.html" . }}
+	{{ "<!-- revolution:list.html:end -->" | safeHTML }}
+{{ end }}

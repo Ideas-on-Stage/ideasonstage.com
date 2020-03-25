@@ -5,8 +5,6 @@ title 		= "Presentation Creation | Business Events | Public Speaking Coaching an
 description	= "International agency specialized in Presentation Creation, Business Events and Public Speaking Coaching and Training. We cover North America and Europe."
 
 insertstop		= [
-	"home-06",
-	"home-08"
 ]
 
 insertsbottom	= [
@@ -67,13 +65,13 @@ insertsbottom	= [
 [slider]
 	[slider.list]
 		[slider.list.001]
-			bgimage		= "/how-to-deliver-presentations-remotely/remote-presentations-dark.jpg"
-			title		= "HOW TO DELIVER PRESENTATIONS REMOTELY"
-			button		= "Read Our Guide"
-			buttonlink	= "/how-to-deliver-presentations-remotely/"
+			bgimage		= "/presentations-training/webinars/webinar-2.jpg"
+			title		= "VIRTUAL MEETING REVOLUTION"
+			description	= "A free webinar series"
+			button		= "Learn More"
+			buttonlink	= "/presentations-training/webinars/"
 			color		= "text-white"
 			date		= "2020-03-05"
-			expirydate	= "2020-04-01"
 		[slider.list.002]
 			bgimage		= "/pictures/home/hero.jpg"
 			title		= "PRESENTATION CREATION · BUSINESS EVENTS · PUBLIC SPEAKING COACHING AND TRAINING"
@@ -97,8 +95,6 @@ insertsbottom	= [
 
 ## About Ideas on Stage
 
-Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training. In a world of boring conferences and endless meetings, you will stand out and shine.
+Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.
 
-We created Ideas on Stage in 2010, convinced that successful presentations are a key competitive advantage, and offered a revolutionary blend of storytelling, visual design and speaker coaching. Our intuition was right: our clients realized the value of high-impact presentations, kept coming back for more, and told their friends.
-
-Today the communication experts of Ideas on Stage provide a full range of presentation services around the world in English, French, Spanish, Italian and German.
+The communication experts of Ideas on Stage provide a full range of presentation services in England, the United States, France, Spain and Italy.

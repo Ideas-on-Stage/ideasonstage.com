@@ -1,22 +1,7 @@
-<!-- _default:list.html is used to build _index.html pages -->
-{{ "<!-- _default:list.html -->" | safeHTML }}
-{{ partial "single-top-common.html" . }}
-	<main>
-		{{ with .Params.Itemtype }}<div itemscope itemtype="https://schema.org/Service">{{ end }}
-        {{ partial "page-hero.html" . }}
-		{{ if .Params.Picture }}
-			{{ with .Params }}
-				{{ partial "insert-fullbleed-picture.html" . }}
-			{{ end }}
-		{{ end }}
-        {{ partial "events-tabs.html" . }}
-        {{ partial "content.html" . }}
-		{{ partial "services-list.html" . }}
-		{{ if .Params.Itemtype }}</div>{{ end }}		
-    </main>
-	<aside>
-        {{ partial "references.html" . }}
-        {{ partial "testimonials_pages.html" . }}
-        {{ partial "contact.html" . }}
-    </aside>
-{{ partial "single-bottom-common.html" . }}
+{{ define "main" }}
+	{{ "<!-- services:list.html:start -->" | safeHTML }}
+    {{ partial "events-tabs.html" . }}
+	{{ partial "content.html" . }}
+	{{ partial "services-list.html" . }}
+	{{ "<!-- services:list.html:end -->" | safeHTML }}
+{{ end }}

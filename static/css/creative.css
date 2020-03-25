@@ -72,8 +72,6 @@ big,
 
 a {
     color: #000;
-	-webkit-transition: all .35s;
-    -moz-transition: all .35s;
     transition: all .35s;
 }
 
@@ -81,8 +79,6 @@ a:hover,
 a:focus {
     color: #FF8200;
     text-decoration: none;
-	-webkit-transition: all .35s;
-	-moz-transition: all .35s;
 	transition: all .35s;
 }
 
@@ -113,7 +109,7 @@ p {
 		margin-bottom: 0;
 }
 
-p a {
+p a, li a {
 	border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
 }
 
@@ -121,9 +117,10 @@ p a:hover {
 	border-bottom: dotted 1px #FF8200;
 }
 
-
 li {
+	margin-top: 0.5em;
 	text-align: left;
+	margin-bottom: 0.5em;
 }
 
 h1 small {
@@ -319,7 +316,6 @@ time {
 	width: 100%;
 	overflow: hidden;
 }
-
 
 .img-crop img {
 	position: relative;

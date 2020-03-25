@@ -5,8 +5,6 @@ title 		= "Agencia de Presentaciones | Entrenamiento y formación para hablar en
 description	= "Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
 
 insertstop		= [
-	"home-06",
-	"home-08"
 ]
 
 insertsbottom	= [

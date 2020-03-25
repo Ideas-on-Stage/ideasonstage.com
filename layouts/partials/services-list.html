@@ -1,9 +1,7 @@
-{{ "<!-- partials:pages-list.html -->" | safeHTML }}
-{{ if eq .Params.showpageslist true }}
-{{ $paginator := .Paginate (.Data.Pages) }}
-{{ range $paginator.Pages }}
+{{ "<!-- partials:services-list.html:start -->" | safeHTML }}
+{{ range (.Paginator 10).Pages }}
 	{{ with .Params }}
 		{{ partial "insert-link-picture2-text1.html" . }}
 	{{ end }}
-{{ end }}	
 {{ end }}
+{{ "<!-- partials:services-list.html:end -->" | safeHTML }}

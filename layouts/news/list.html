@@ -1,93 +1,88 @@
-<!DOCTYPE html>
-{{ "<!-- news/list.html -->" | safeHTML }}
-{{ partial "single-top-common.html" . }}
-	<main>
-        {{ partial "page-hero.html" . }}
-        <div id="content-main">
-            <div class="container" >
-				<!-- For some reason the pagination is not working properly. I'm hardcoding 5 articles in the next line -->
-
-                {{ $paginator := .Paginate (where .Site.RegularPages "Type" "news") 8 }}
-
-                {{ range $paginator.Pages }}
-				<section class="post">
-                    <div class="row paddingv-medium">
-                        <div class="col-md-3 col-md-offset-1 margint-small">
-	                        <div class="image">
-	                            <a href="{{ .Permalink }}">
-	                                {{ if .Params.banner }}
-	                                <img src="{{ .Site.BaseURL}}{{ .Params.banner }}" class="img-responsive" alt="">
-	                                {{ else }}
-	                                <img src="{{ .Site.BaseURL}}img/placeholder.png" class="img-responsive" alt="">
-	                                {{ end }}
-	                            </a>
-	                        </div>
-                        </div>
-                        <div class="col-md-7">
+{{ define "main" }}
+	{{ "<!-- news:list.html:start -->" | safeHTML }}
+    <div id="content-main">
+        <div class="container" >
+			
+			{{/* <!-- generate list of articles --> */}}
+            {{ range (.Paginator 8).Pages }}
+			<section class="post">
+                <div class="row paddingv-medium">
+                    <div class="col-md-3 col-md-offset-1 margint-small">
+                        <div class="image">
                             <a href="{{ .RelPermalink }}">
-                            	<h2 class="margint-small">{{ .Title }}</h2>
+                                {{ if .Params.banner }}
+                                	<img src="{{ .Params.banner }}" class="img-responsive" alt="">
+                                {{ else }}
+                                	<img src="/news/img/placeholder.png" class="img-responsive" alt="">
+                                {{ end }}
                             </a>
-                            <p>
-                              	{{ if isset .Params "author" }}
-                              		{{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "005").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a> — 
-                              	{{ end }}
-                              	{{ if isset .Params "categories" }}
-                              		{{ if gt (len .Params.categories) 0 }}
-                              			in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
-	                              	{{ end }}
-                              	{{ end }}
-						        <a href="{{ .Permalink }}">
-						        	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-						        		{{ if eq $.Site.LanguageCode  "en" }}
-						        			{{ .Date.Format "January 2, 2006" }}
-						                {{ else if eq $.Site.LanguageCode  "fr"}}
-											{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
-						                {{ else if eq $.Site.LanguageCode  "es"}}
-											{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}
-						                {{ else if eq $.Site.LanguageCode  "it"}}
-											{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}
-						                {{ end }}
-						        	</time>
-						        </a>
-						    </p>
-							<p>{{ .Summary }}</p>
-	                        <p class="marginv-none">
-	                           	<a href="{{ .RelPermalink }}" class="btn btn-secondary">{{ .Site.Params.news.more }}</a>
-	                        </p>
                         </div>
                     </div>
-                </section>
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<hr>
-					</div>
+                    <div class="col-md-7">
+                        <a href="{{ .RelPermalink }}">
+                        	<h2 class="margint-small">{{ .Title }}</h2>
+                        </a>
+                        <p>
+                          	{{ if isset .Params "author" }}
+                          		{{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "005").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a> — 
+                          	{{ end }}
+                          	{{ if isset .Params "categories" }}
+                          		{{ if gt (len .Params.categories) 0 }}
+                          			in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
+                              	{{ end }}
+                          	{{ end }}
+					        <a href="{{ .Permalink }}">
+					        	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+					        		{{ if eq $.Site.LanguageCode  "en" }}
+					        			{{ .Date.Format "January 2, 2006" }}
+					                {{ else if eq $.Site.LanguageCode  "fr"}}
+										{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
+					                {{ else if eq $.Site.LanguageCode  "es"}}
+										{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}
+					                {{ else if eq $.Site.LanguageCode  "it"}}
+										{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}
+					                {{ end }}
+					        	</time>
+					        </a>
+					    </p>
+						<p>{{ .Summary }}</p>
+                        <p class="marginv-none">
+                           	<a href="{{ .RelPermalink }}" class="btn btn-secondary">{{ .Site.Params.news.more }}</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<hr>
 				</div>
-				{{ end }}
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-		                <ul class="pager">
-		                    {{ if .Paginator.HasPrev }}
-		                    <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}" class="btn btn-secondary">&larr; {{ .Site.Params.news.prev }}</a></li>
-		                    {{ else }}
-		<!-- this code greys out the "Newer" button in the first page                            
-		                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-		-->                            
-		                    {{ end }}
-		
-		                    {{ if .Paginator.HasNext }}
-		                    <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}" class="btn btn-secondary">{{ .Site.Params.news.next }} &rarr;</a></li>
-		                    {{ else }}
-		<!-- this code greys out the "Older" button in the first page   
-		                    <li class="next disabled"><a href="#">Older &rarr;</a></li>
-		-->
-		                    {{ end }}
-		                </ul>
-					</div>
+			</div>
+			{{ end }}
+			
+			{{/* <!-- add pagination buttons --> */}}
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+	                <ul class="pager">
+	                    {{ if .Paginator.HasPrev }}
+	                    <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}" class="btn btn-secondary">&larr; {{ .Site.Params.news.prev }}</a></li>
+	                    {{ else }}
+	<!-- this code greys out the "Newer" button in the first page                            
+	                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+	-->                            
+	                    {{ end }}
+	
+	                    {{ if .Paginator.HasNext }}
+	                    <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}" class="btn btn-secondary">{{ .Site.Params.news.next }} &rarr;</a></li>
+	                    {{ else }}
+	<!-- this code greys out the "Older" button in the first page   
+	                    <li class="next disabled"><a href="#">Older &rarr;</a></li>
+	-->
+	                    {{ end }}
+	                </ul>
 				</div>
-            </div><!-- container -->
-        </div><!-- content-main -->
-	</main>
-	<aside>
- 	    {{ partial "contact.html" . }}
- 	</aside>
-{{ partial "single-bottom-common.html" . }}
+			</div>
+			
+        </div><!-- container -->
+    </div><!-- content-main -->
+    {{ "<!-- news:list.html:end -->" | safeHTML }}
+{{ end }}

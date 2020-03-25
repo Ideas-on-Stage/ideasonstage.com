@@ -7,6 +7,11 @@ name         			= "Ideas on Stage"
 copyright				= "© Ideas on Stage"
 theme        			= "hugo-creative-theme-master"
 
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+      		unsafe		= true # added to prevent omission of raw HTML in contents
+      		
 [Permalinks]
     news				= "/news/:year/:month/:day/:filename/"
 

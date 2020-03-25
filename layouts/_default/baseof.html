@@ -1,0 +1,34 @@
+{{ "<!-- _default:baseof.html:start -->" | safeHTML }}
+<!DOCTYPE html>
+{{ "<!-- partials:single-top-common.html -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+		{{ partial "nav.html" . }}
+		<main>
+			<div{{ with .Params.Itemtype }} itemscope itemtype="https://schema.org/{{ . }}"{{ end }}>   
+				{{ partial "page-hero.html" . }}
+				{{ if .Params.Picture }}
+					{{ with .Params }}
+						{{ partial "insert-fullbleed-picture.html" . }}
+					{{ end }}
+				{{ end }}
+				{{ block "main" . }}
+				{{ end }}
+			</div>
+	    </main>
+		<aside>
+	        {{ partial "references.html" . }}
+	        {{ partial "testimonials_pages.html" . }}
+	        {{ partial "contact.html" . }}
+	    </aside>
+        {{ partial "footer.html" . }}			
+        {{ partial "js.html" . }}
+        {{ if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
+            {{ partial "algolia-search" . }}
+        {{ end }}
+    </body>
+</html>
+{{ "<!-- _default:baseof.html:start -->" | safeHTML }}

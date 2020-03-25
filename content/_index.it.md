@@ -5,8 +5,6 @@ title 		= "Regala delle Presentazioni Incredibili"
 description	= "Regala delle Presentazioni incredibili con gli Specialisti della Business Presentation."
 
 insertstop		= [
-	"home-06",
-	"home-08"
 ]
 
 insertsbottom	= [
