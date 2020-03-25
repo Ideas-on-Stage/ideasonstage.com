@@ -1087,6 +1087,7 @@ footer a {
 	font-size: 0.8em;
 	text-transform: uppercase;
 	color: #DDD;
+	border: 0;
 }
 
 .navbar-inverse .nav>li>a:hover,
@@ -1155,8 +1156,6 @@ footer a {
   background-color: transparent;
   outline: 0;
 }
-
-*/
 
 .nav-tabs >li.active>a {
 	color: #FF8200!important;
@@ -1567,7 +1566,7 @@ fieldset[disabled] .btn-primary.active {
     color: #00A3E0 !important;
     margin-top: 12px;
     padding: 0px;
-    border-color: #00A3EO;
+    border-color: #00A3E0;
     border-style: outset;
 }
 

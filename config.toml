@@ -47,6 +47,9 @@ theme        			= "hugo-creative-theme-master"
 	algolia_apiKey		= "14fc70c1da865e95a8aea61a7a001f56"
 	algolia_indexName	= "IoS_en"
 
+	[params.colors]
+		link			= "#FF8200"
+		
 	# ------------------------------		
 	# Navigation
 	[params.navigation]
