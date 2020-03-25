@@ -48,7 +48,7 @@ body, a {
 	font-style: normal;
 	font-weight: 300;
 	font-size: 16px;
-	color: #000;
+	color: {{ site.Params.colors.text }};
 	line-height: 1.5;
 }
 
@@ -68,18 +68,6 @@ big,
 .btn {
     font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
     font-weight: 700;
-}
-
-a {
-    color: #000;
-    transition: all .35s;
-}
-
-a:hover,
-a:focus {
-    color: #FF8200;
-    text-decoration: none;
-	transition: all .35s;
 }
 
 h1 {
@@ -109,12 +97,24 @@ p {
 		margin-bottom: 0;
 }
 
-p a, li a {
-	border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
+/* a links */
+a {
+    color: {{ site.Params.colors.text }};
+	border-bottom: none;
+	text-decoration: none;
+    transition: all .35s;
 }
 
-p a:hover {
-	border-bottom: dotted 1px #FF8200;
+a:hover,
+a:focus {
+    color: {{ site.Params.colors.link_hover }};
+	border-bottom: none;
+	text-decoration: none;
+	transition: all .35s;
+}
+
+p a, li a {
+	border-bottom: dotted 1px {{ site.Params.colors.link_hover }};
 }
 
 li {
@@ -630,7 +630,7 @@ header#pz {
 }
 
 .bg-primary {	
-    background-color: #FF8200;
+    background-color: {{ site.Params.colors.button_main }};
 }
 
 .bg-primary h1,
@@ -638,25 +638,24 @@ header#pz {
 .bg-primary h3,
 .bg-primary h4
 {
-	color: #fff;	
+	color: {{ site.Params.colors.text_inv }};	
 }
 
 .bg-primary .btn-secondary {
-	color: #fff!important;
+	color: {{ site.Params.colors.text_inv }}!important;
 }
 
 
 .bg-dark {
-    color: #fff;
+    color: {{ site.Params.colors.text_inv }};
     background-color: #222;
 }
 .bg-dark a {
-	color: #fff;
+	color: {{ site.Params.colors.text_inv }};
 } 
+
 .bg-dark a:hover {
 	color: #FF8200;
-	-webkit-transition: all .35s;
-	-moz-transition: all .35s;
 	transition: all .35s;
 }
 

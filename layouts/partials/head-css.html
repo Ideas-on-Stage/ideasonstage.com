@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
 <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6201816/7621392/css/fonts.css" />
 {{ "<!-- Site CSS -->" | safeHTML }}
-{{ $style := resources.Get "main.scss" | resources.ToCSS | resources.Minify }}
+{{ $style := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 <link rel="stylesheet" href="/css/modals.css" type="text/css">
 {{ "<!-- Plugin CSS -->" | safeHTML }}

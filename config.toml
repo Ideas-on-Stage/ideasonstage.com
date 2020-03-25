@@ -48,7 +48,11 @@ theme        			= "hugo-creative-theme-master"
 	algolia_indexName	= "IoS_en"
 
 	[params.colors]
-		link			= "#FF8200"
+		button_main		= "#FF8200"
+		button_secondary= ""
+		link_hover		= "#FF8200"
+		text			= "black"
+		text_inv		= "white"
 		
 	# ------------------------------		
 	# Navigation
