@@ -3,7 +3,7 @@ draft 			= false
 title 			= "Virtual Meeting Revolution - Webinaires Gratuits"
 description		= "Une série de webinaires gratuits pour mieux présenter."
 categories		= [ "Training & Workshops" ]
-slug 			= "/formation-presentations/webinaires/"
+url	 			= "/formation-presentations/webinaires/"
 picture			= "webinar.jpg"
 button			= "En savoir plus"
 +++
