@@ -18,7 +18,7 @@ insertsbottom	= [
 	[services.list]
 		[services.list.001]
 			sectionid	= "from-office-to-remote-work"
-			title		= "From Office To Remote Work In 10 Days"
+			title		= "Online Work Community"
 			description	= "How can you move from an office based to a remote work environment in 10 days and keep the human touch? By creating an online work community."
 			picture		= "/from-office-to-remote-work/remote-work.jpg"
 			style		= "bg-black"

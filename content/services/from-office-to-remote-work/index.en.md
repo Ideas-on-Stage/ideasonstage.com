@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "From Office To Remote Work In 10 Days"
+title 			= "Online Work Community"
 description		= "Move from an office based to a remote work workflow in 10 days by creating an online work community."
 weight			= 1
 categories		= [ "Consulting" ]

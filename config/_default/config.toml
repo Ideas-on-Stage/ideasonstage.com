@@ -53,6 +53,10 @@ theme        			= "hugo-creative-theme-master"
 		link_hover		= "#FF8200"
 		text			= "black"
 		text_inv		= "white"
+		title_h1			= "black"
+		title_h2			= "black"
+		title_h3			= "black"
+		title_h4			= "black"
 		
 	# ------------------------------		
 	# Navigation
