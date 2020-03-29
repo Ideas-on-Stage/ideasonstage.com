@@ -70,6 +70,7 @@ theme        			= "hugo-creative-theme-master"
 		title_h2			= "black"
 		title_h3			= "black"
 		title_h4			= "black"
+		time			= "#aaa"
 
 		
 	# ------------------------------		

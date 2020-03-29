@@ -15,55 +15,23 @@
 	BLUE # 00a3e0 - Secondary buttons and highlights
 */
 
-/* SIZES REFERENCE
+/* @group FONT FAMILIES */
+/* This is where ALL font families are declared */
 
-	RESPONSIVE WIDTHS BREAKPOINTS
-	small screens (smartphones and tablets): up to 767px
-	medium screens (ipads and laptops): from 768px to 1920px
-	large screens (really large screens): 1920px and up
-	
-	RESPONSIVE IMG HEIGHTS (widths scaled to respect ratio)
-	small: 450px
-	medium: 675px
-	large: 720px
-	
-	There is an additional breakpoint at 1200px
-	It is used to switch how some 16:9 images are resized
-*/
-
-/*
-	SITE WIDE CUSTOMIZATIONS
-	FOR STANDARD STYLES
-*/
- 
-/* @group STANDARD TAGS */
- 
-html,
-body {
-     width: 100%;
-     height: 100%;
-}
- 
-/* @group fonts */
- 
-/* base font style */ 
 body, a {
   	font-family: "Whitney SSm A", "Whitney SSm B";
   	font-style: normal;
   	font-weight: 300;
-  	font-size: 16px;
-  	color: {{ site.Params.colors.text }};
   	line-height: 1.6;
-  }
- 
-/* bold font */ 
+  	color: {{ site.Params.colors.text }};
+}
+
 b, strong {
   	font-family: "Whitney SSm A", "Whitney SSm B";
   	font-style: normal;
   	font-weight: 700;
 }
- 
-/* title font */ 
+
 h1,
 h2,
 h3,
@@ -73,6 +41,20 @@ h6,
 big {
       font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
       font-weight: 700;
+}
+
+.button-primary, .button-secondary {
+      font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+      font-weight: 700;	
+}  
+
+/* @end */
+
+/* @group FONT SIZES */
+/* This is where ALL font sizes are declared */
+
+body, a {
+  	font-size: 16px;
 }
 
 h1 {
@@ -97,8 +79,33 @@ h5 {
 	font-size: 1em;
 }
 
+ @media(min-width:1921px) {	
+	body, a {
+		font-size: 20px;
+	}
+}
+
+/* @end */
  
-/* a links */
+/* @group STYLES */
+
+/* @group STYLES STANDARD TAGS */
+
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+ }
+ 
+li {
+ 	margin-top: 0.5em;
+ 	margin-bottom: 0.5em;
+ 	text-align: left;
+}
+ 
+time {
+ 	color: {{ site.Params.colors.time }};
+}
+ 
 a {
     color: {{ site.Params.colors.text }};
 	border-bottom: none;
@@ -117,41 +124,10 @@ a:focus {
 p a, li a {
 	border-bottom: dotted 1px {{ site.Params.colors.link_hover }};
 }
- 
- /* @end */
-
-/* @group paragraph */
-
- p {
-	margin-top: 1em;
-	margin-bottom: 1em;
- }
- 
- li {
- 	margin-top: 0.5em;
- 	margin-bottom: 0.5em;
- 	text-align: left;
- }
- 
- h1 small {
- 	color: #aaa;
- 	font-size: 0.66em;
- }
- 
- h2 small {
- 	color: #aaa;
- 	font-size: 0.75em;
- }
- 
- time {
- 	color: #aaa;
- }
 
 /* @end */
 
-/* @end */
-
-/* @group STYLES */
+/* @group STYLES CUSTOM CLASSES */
 
 /* @group SLIDER */
 
@@ -205,11 +181,6 @@ p a, li a {
 
 /* @group BUTTONS */
 
-.button-primary, .button-secondary {
-      font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
-      font-weight: 700;	
-}  
-
 .button-primary {
 	margin: 1vw 0;
     padding: 15px 30px;
@@ -245,10 +216,180 @@ p a, li a {
 
 /* @end */
 
-.style-header {
+.style-page-title {
 	text-align: center;
 	color: #fff;
 	background-color: #222;
+}
+
+.style-page-title-overlay {
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.4);	
+}
+
+/* @end */
+
+/* @end */
+
+/* @group LAYOUT */
+/* Layout defines the position constraints of elements in the document flow */
+
+.layout-relative {
+	position: relative
+}
+
+.layout-absolute {
+	position: absolute;
+}
+
+.layout-sticky {
+	position: sticky;
+	top: 52px;
+	z-index: 100;
+}
+
+/* spacer same height as menu bar */
+.layout-page-top {
+	height: 52px;
+}
+
+/* Maximum width of the page to avoid wonky ratios*/
+.layout-page-width {
+	margin: auto;
+	max-width: 160vh;
+}
+
+/* Defines a space equal to the full viewport */
+.layout-size-screen-full {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+/* Defines a space equal to full layout-page width, 66% vertical viewport  */
+.layout-size-screen-partial {
+	margin: auto;
+	padding: 0;
+	height: 60vh;
+	width: 100%;
+	max-width: 160vh;
+}
+
+.layout-size-screen-partial img {
+	margin: 0;
+	padding: 0;
+	height: 60vh;
+	width: 100%;
+	max-width: 160vh;
+	object-fit: cover;
+}
+
+.layout-page-title {
+	height: 128px;
+}
+
+.layout-hero {
+	margin: 0;
+	padding: 0;
+	height: 60vh;
+	width: 100%;
+	max-width: 160vh;
+}
+
+.layout-hero-img {
+	margin: 0;
+	padding: 0;
+	height: 60vh;
+	width: 100%;
+	max-width: 160vh;
+	object-fit: cover;
+}
+
+/* @end */
+
+/* @group FLEX */
+
+.flex-parent-row {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+}
+
+.flex-parent-column {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+}
+
+.flex-child {
+	flex: 1;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.flex-child-60p {
+	flex: 1;
+	flex-grow: 2;
+	flex-basis: 60%; /* start at 60% width */
+}
+
+.flex-child-40p {
+	flex: 1;
+	flex-basis: 40%
+}
+
+.flex-child-half {
+	flex: 1;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+@media(max-width:768px) {
+	
+	.flex-parent-row {
+		flex-direction: column;
+	}
+	
+}
+
+/* flex helper classes */
+
+.flex-size-fullscreen {
+	height: 100vh;
+	width: 100vw;
+}
+
+.flex-align-center {
+	align-items: center;
+}
+
+.flex-justify-center {
+	justify-content: center;
+}
+
+.flex-justify-start {
+	justify-content: flex-start;
+}
+
+.flex-justify-end {
+	justify-content: flex-end;
+}
+
+.flex-padding-5vw {
+	padding: 5vw;
+}
+
+.flex-wrap-no {
+	flex-wrap: 0;
 }
 
 /* @end */
@@ -367,167 +508,7 @@ p a, li a {
 
 /* @end */
 
-/* @group LAYOUT */
-
-/* 
- 	Use flex to position items relatively to each other
-*/
-
-.layout-relative {
-	position: relative
-}
-
-.layout-absolute {
-	position: absolute;
-}
-
-.layout-sticky {
-	position: sticky;
-	top: 52px;
-}
-
-/* spacer same height as menu bar */
-.layout-page-top {
-	height: 52px;
-}
-
-.layout-page {
-	margin: auto;
-	max-width: 180vh;
-}
-.layout-size-screen-full {
-	margin: 0;
-	padding: 0;
-	height: 100vh;
-	width: 100vw;
-}
-
-.layout-size-screen-partial {
-	margin: 0;
-	padding: 0;
-	height: 60vh;
-	width: 100%;
-	max-width: 180vh;	
-}
-
-.layout-size-screen-partial img {
-	margin: 0;
-	padding: 0;
-	height: 60vh;
-	width: 100%;
-	max-width: 180vh;
-	object-fit: cover;
-}
-
-.layout-header {
-	height: 128px;
-}
-
-.layout-hero {
-	margin: 0;
-	padding: 0;
-	height: 60vh;
-	width: 100%;
-	max-width: 160vh;
-}
-
-.layout-hero-img {
-	margin: 0;
-	padding: 0;
-	height: 60vh;
-	width: 100%;
-	max-width: 160vh;
-	object-fit: cover;
-}
-
-/* @end */
-
-/* @group FLEXNEW */
-
-.flex-parent-row {
-	display: flex;
-	flex-direction: row;
-	align-items: stretch;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	height: 100%;
-	width: 100%;
-}
-
-.flex-parent-column {
-	display: flex;
-	flex-direction: column;
-	align-items: stretch;
-	justify-content: space-between;
-	height: 100%;
-	width: 100%;
-}
-
-.flex-child {
-	flex: 1;
-	max-height: 100%;
-	max-width: 100%;
-}
-
-.flex-child-60p {
-	flex: 1;
-	flex-grow: 2;
-	flex-basis: 60%; /* start at 60% width */
-}
-
-.flex-child-40p {
-	flex: 1;
-	flex-basis: 40%
-}
-
-.flex-child-half {
-	flex: 1;
-	max-height: 100%;
-	max-width: 100%;
-}
-
-@media(max-width:768px) {
-	
-	.flex-parent-row {
-		flex-direction: column;
-	}
-	
-}
-
-/* flex helper classes */
-
-.flex-size-fullscreen {
-	height: 100vh;
-	width: 100vw;
-}
-
-.flex-align-center {
-	align-items: center;
-}
-
-.flex-justify-center {
-	justify-content: center;
-}
-
-.flex-justify-start {
-	justify-content: flex-start;
-}
-
-.flex-justify-end {
-	justify-content: flex-end;
-}
-
-.flex-padding-5vw {
-	padding: 5vw;
-}
-
-.flex-wrap-no {
-	flex-wrap: 0;
-}
-
-/* @end */
-
-/* @group FLEX OLD */
+/* @group FLEX (OLD) */
 
 /*
 	FLEX CONTAINERS
@@ -678,10 +659,6 @@ flex-container .flex-item-text h4 {
 */
 
 @media(min-width:1921px) {
-	
-	body, a {
-		font-size: 20px;
-	}
 	
 	.flex-container {
 		height: 900px;

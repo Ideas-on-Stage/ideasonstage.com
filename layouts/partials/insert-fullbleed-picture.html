@@ -1,7 +1,9 @@
 {{ "<!-- partials:insert-fullbleed-picture.html:start -->" | safeHTML }}
  <section>
-	<div class="layout-size-screen-partial {{ .style }}">
-		<img src="{{ if .link }}{{ .picture }}{{ else }}{{ .url }}{{ .picture }}{{ end }}" class="layout-header-img" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
+	<div class="layout-page-width">
+		<div class="layout-size-screen-partial {{ .style }}">
+			<img src="{{ if .link }}{{ .picture }}{{ else }}{{ .url }}{{ .picture }}{{ end }}" class="layout-header-img" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
+		</div>
 	</div>
 </section>
 {{ "<!-- partials:insert-fullbleed-picture.html:end -->" | safeHTML }}
