@@ -8,7 +8,6 @@ showrefs	= false
 urlredirect	= ""
 url 			= "/public-speaking-coaching/executive-coaching/"
 picture		= "public-speaking-coaching-10.jpg"
-button		= "Learn more"
 +++
 
 

@@ -8,8 +8,6 @@ showrefs	= false
 urlredirect	= ""
 url	 		= "/public-speaking-coaching/media-training/"
 picture		= "media-training.jpg"
-button		= "Learn More"
-
 +++
 
 ## Show the world the best version of yourself 

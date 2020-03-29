@@ -69,7 +69,7 @@
                             {{ end }}
 
                             {{ if .Paginator.HasNext }}
-                            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ .Site.Params.news.next }} &rarr;</a></li>
+                            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ .Site.Params.buttons.next }} &rarr;</a></li>
                             {{ else }}
 <!-- this code greys out the "Older" button in the first page   
                             <li class="next disabled"><a href="#">Older &rarr;</a></li>

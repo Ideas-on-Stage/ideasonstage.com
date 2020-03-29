@@ -46,7 +46,7 @@
 			                    <div id="success">
 			                    	{{ with .Site.Params.contact.success }}{{ . | markdownify }}{{ end }}
 			                    </div>
-			                    <input type="submit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="btn btn-primary btn-xl">
+			                    <input type="submit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="button-primary">
 			                </div>
 			            </form>
 			        </div>{{ "<!-- col-md-6 end -->" | safeHTML }}

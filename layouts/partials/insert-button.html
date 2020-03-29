@@ -1,0 +1,1 @@
+<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}" class="button-secondary" {{ if .linkprop }}itemprop="{{ .linkprop }}"{{ end }}>{{ with .button }}{{ . }}{{ else }}{{ site.Params.buttons.default }}{{ end }}</a>

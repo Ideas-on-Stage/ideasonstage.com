@@ -11,7 +11,6 @@ redirect	= false
 redirectlink= ""
 url			= "/public-speaking-coaching/tedx-coaching/"
 picture		= "tedx-saclay.jpg"
-button		= "Learn More"
 
 insertstop		= [
 	"tedx-01",

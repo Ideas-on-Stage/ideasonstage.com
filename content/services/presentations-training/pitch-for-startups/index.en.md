@@ -8,7 +8,6 @@ urlredirect	= ""
 showrefs	= false
 url 			= "/presentations-training/pitch-for-startups/"
 picture		= "image.jpg"
-button		= "Learn More"
 +++
 
 ## Everything comes down to the pitch

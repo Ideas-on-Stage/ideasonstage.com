@@ -27,19 +27,11 @@
 		                		{{ with .Site.Params.navigation.service }}{{ . }}{{ end }}<span class="caret"></span>
 		                	</a>
 		                	<ul class="dropdown-menu dropdown-menu-right">
-							{{- if .IsHome }}
-						{{- range .Site.Params.navigation.items }}
-		                <li>
-		                    <a class="page-scroll" href="{{ .frontpageurl }}">{{ .name }}</a>
-		                </li>
-			            {{- end }}
-		            {{- else }}  
-						{{- range .Site.Params.navigation.items }}
-						<li>
-						    <a class="page-scroll" href="{{ .url }}">{{ .name }}</a>
-						</li>
-						{{- end }}
-		            {{- end }}
+								{{- range .Site.Params.navigation.items }}
+									<li>
+									    <a class="page-scroll" href="{{ .url }}">{{ .name }}</a>
+									</li>
+								{{- end }}
 		                	</ul>
 		                </li>
 		            

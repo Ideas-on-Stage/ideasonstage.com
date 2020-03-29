@@ -1,12 +1,7 @@
-{{ "<!-- partials:insert-fullbleed-picture.html -->" | safeHTML }}
+{{ "<!-- partials:insert-fullbleed-picture.html:start -->" | safeHTML }}
  <section>
-	<div class="flex-container {{ .style }}">
-		<div class="img-crop">
-			{{ if .link }}
-			<img src="{{ .picture }}" class="picture" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
-			{{ else }}
-			<img src="{{ .url }}{{ .picture }}" class="picture" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
-			{{ end }}
-		</div>
+	<div class="layout-size-screen-partial {{ .style }}">
+		<img src="{{ if .link }}{{ .picture }}{{ else }}{{ .url }}{{ .picture }}{{ end }}" class="layout-header-img" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
 	</div>
 </section>
+{{ "<!-- partials:insert-fullbleed-picture.html:end -->" | safeHTML }}

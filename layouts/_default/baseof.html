@@ -1,21 +1,19 @@
 {{ "<!-- _default:baseof.html:start -->" | safeHTML }}
 <!DOCTYPE html>
-{{ "<!-- partials:single-top-common.html -->" | safeHTML }}
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
-		{{ partial "nav.html" . }}
+		<header>
+			{{ partial "nav.html" . }}
+		</header>
 		<main>
-			<div{{ with .Params.Itemtype }} itemscope itemtype="https://schema.org/{{ . }}"{{ end }}>   
-				{{ partial "page-hero.html" . }}
-				{{ if .Params.Picture }}
-					{{ with .Params }}
-						{{ partial "insert-fullbleed-picture.html" . }}
-					{{ end }}
-				{{ end }}
+			<div{{ with .Params.Itemtype }} itemscope itemtype="https://schema.org/{{ . }}"{{ end }}>
 				{{ block "main" . }}
+					{{ partial "page-hero.html" . }}
+				    {{ partial "events-tabs.html" . }}
+					{{ partial "content.html" . }}
 				{{ end }}
 			</div>
 	    </main>

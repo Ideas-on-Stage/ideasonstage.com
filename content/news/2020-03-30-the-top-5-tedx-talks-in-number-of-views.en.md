@@ -5,7 +5,7 @@ tags = ["Public Speaking", "TEDx"]
 news = ["general"]
 date = "2020-03-30"
 author = "Pierre Morsa"
-banner = ""
+banner = "/img/news/tedx-tours-2019-3.jpg"
 language = "en"
 +++
 
@@ -36,3 +36,5 @@ Number of views is not the ultimate measure of the quality of a talk; some of th
 Finally, I finish with a video that maybe doesn’t have as many views as the others, but which I find really great; it was at TEDx IÉSEG Lille several years ago, and Augustin Petit demonstrates how a good magician can play with our attention. Augustin is now famous, you can see him as Gus Illusioniste on French television.
 
 https://www.youtube.com/watch?v=-ADgAA24g3c
+
+![Karim Noui at TEDx Tours 2019](/img/news/tedx-tours-2019-3.jpg)

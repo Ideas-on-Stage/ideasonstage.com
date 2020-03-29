@@ -29,7 +29,6 @@ theme        			= "hugo-creative-theme-master"
 	year				= "2019"
 	cookieslink			= "cookies/"
 	favicon				= "/pictures/home/ios_favicon.ico"
-	back				= "Back"
 	
 	# ------------------------------		
 	# Id for Incognito form in Presentation Creation Service
@@ -47,9 +46,23 @@ theme        			= "hugo-creative-theme-master"
 	algolia_apiKey		= "14fc70c1da865e95a8aea61a7a001f56"
 	algolia_indexName	= "IoS_en"
 
+	# ------------------------------
+	# Buttons
+	[params.buttons]
+		default			= "Learn More"
+		next			= "Older"
+		previous		= "Newer"
+		back			= "Back"
+		[params.buttons.primary]					
+			color		= "white"
+			bg_color		= "#FF8200"
+		[params.buttons.secondary]
+			color		= "#00A3E0"
+			bg_color		= "none"
+		
+	# ------------------------------
+	# Colors
 	[params.colors]
-		button_main		= "#FF8200"
-		button_secondary= ""
 		link_hover		= "#FF8200"
 		text			= "black"
 		text_inv		= "white"
@@ -57,6 +70,7 @@ theme        			= "hugo-creative-theme-master"
 		title_h2			= "black"
 		title_h3			= "black"
 		title_h4			= "black"
+
 		
 	# ------------------------------		
 	# Navigation
@@ -67,52 +81,41 @@ theme        			= "hugo-creative-theme-master"
 		language			= "Language"
 		resource		= "Resources"
 		service			= "Services"
-		forward			= "View"
-		back			= "Back to Home"
 
 		[params.navigation.items]
 			[params.navigation.items.001]
 				name		 	= "Presentation Creation"
 				url			 	= "/presentation-creation-agency/"
-				frontpageurl 	= "/presentation-creation-agency/"
 			[params.navigation.items.002]
 				name		 	= "Business Events"
 				url			 	= "/business-events"
-				frontpageurl 	= "/business-events"	
 			[params.navigation.items.003]
 				name		 	= "Public Speaking Coaching"
 				url			 	= "/public-speaking-coaching/"
-				frontpageurl 	= "/public-speaking-coaching/"
 			[params.navigation.items.004]
 				name		 	= "Training & Workshops"
 				url			 	= "/presentations-training/"
-				frontpageurl 	= "/presentations-training/"	
-		[params.navigation.resources]
 				
+		[params.navigation.resources]
 				[params.navigation.resources.001]
 					name			= "Videos"
 					url				= "/revolution/"
-					frontpageurl		= "/revolution/"
 				[params.navigation.resources.002]
 					name			= "News"
 					url				= "/news/"
-					frontpageurl		= "/news/"
 				[params.navigation.resources.003]
 					name			= "Guides"
 					url				= "/guides/"
-					frontpageurl		= "/guides/"
+
 		[params.navigation.housekeeping]
 			[params.navigation.housekeeping.001]
 				name			= "Contact"
 				url				= "#contact"
-				frontpageurl		= "#contact"
 			[params.navigation.housekeeping.002]
 				name			= "Team"
 				url				= "/team/"
-				frontpageurl		= "/team/"
 
-		[params.navigation.languages]
-				
+		[params.navigation.languages]				
 			[params.navigation.languages.001]
 				name	= "Français"
 				url		= "https://www.ideasonstage.fr"
@@ -217,10 +220,7 @@ theme        			= "hugo-creative-theme-master"
 	[params.news]
 		more		= "Continue reading"
 		by	 		= "by"
-		back 		= "Back to Stories"
 		title 		= "Stories"
-		next  		= "OLDER"
-		prev  		= "NEWER"
 
 	# ------------------------------		
 	# Revolution
@@ -279,7 +279,6 @@ theme        			= "hugo-creative-theme-master"
 	cookies			= "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
 	footer_desc		= "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
 	favicon			= "pictures/home/ios_favicon.ico"
-	back			= "Retour"
 	
 	#form id for Incognito form
 	pcsformid 		= "1"
@@ -295,63 +294,58 @@ theme        			= "hugo-creative-theme-master"
 	algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
 	algolia_indexName = "IoS_fr"
 	
-
+	# ------------------------------
+	# Buttons
+	[languages.fr.buttons]
+		default			= "En savoir plus"
+		next			= "Plus anciens"
+		previous		= "Plus récents"
+		back			= "Retour"
+		
 	# ------------------------------		
 	# Navigation
 	[languages.fr.navigation]
-		title		= "Navigation"
-		brand 		= "Ideas on Stage"
-		brand_logo	= "/pictures/home/ideas-on-stage.png"
-		language		= "Langue"
+		title			= "Navigation"
+		brand 			= "Ideas on Stage"
+		brand_logo		= "/pictures/home/ideas-on-stage.png"
+		language			= "Langue"
 		resource		= "Ressources"
 		service			= "Services"
-		back		= "Page d'accueil"
 
 		[languages.fr.navigation.items]
 			[languages.fr.navigation.items.001]
 				name		 	= "Création de présentations"
 				url			 	= "/agence-creation-presentations/"
-				frontpageurl 	= "/agence-creation-presentations/"
 			[languages.fr.navigation.items.002]
 				name		 	= "Support événementiel"
 				url			 	= "/evenements-entreprise/"
-				frontpageurl 	= "/evenements-entreprise/"	
 			[languages.fr.navigation.items.003]
 				name		 	= "Coaching prise de parole"
 				url			 	= "/coaching-prise-de-parole-en-public/"
-				frontpageurl 	= "/coaching-prise-de-parole-en-public/"
 			[languages.fr.navigation.items.004]
 				name		 	= "Formations à l'art de présenter"
 				url			 	= "/formation-presentations/"
-				frontpageurl 	= "/formation-presentations/"	
-		[languages.fr.navigation.resources]
 				
-				[languages.fr.navigation.resources.001]
-					name			= "Vidéos"
-					url				= "/revolution/"
-					frontpageurl		= "/revolution/"
-				[languages.fr.navigation.resources.002]
-					name			= "Articles"
-					url				= "/news/"
-					frontpageurl		= "/news/"
-				[languages.fr.navigation.resources.003]
-					name			= "Guides"
-					url				= "/guides/"
-					frontpageurl		= "/guides/"
+		[languages.fr.navigation.resources]				
+			[languages.fr.navigation.resources.001]
+				name			= "Vidéos"
+				url				= "/revolution/"
+			[languages.fr.navigation.resources.002]
+				name			= "Articles"
+				url				= "/news/"
+			[languages.fr.navigation.resources.003]
+				name			= "Guides"
+				url				= "/guides/"
+					
 		[languages.fr.navigation.housekeeping]
 			[languages.fr.navigation.housekeeping.001]
 				name			= "Contact"
 				url				= "#contact"
-				frontpageurl		= "#contact"
 			[languages.fr.navigation.housekeeping.002]
 				name			= "Équipe"
 				url				= "/equipe/"
-				frontpageurl		= "/equipe/"
-
-		
 
 		[languages.fr.navigation.languages]
-				
 			[languages.fr.navigation.languages.001]
 				name	= "Español"
 				url		= "https://www.ideasonstage.es"
@@ -439,10 +433,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.fr.news]
 		more = "continuer à lire"
 		by	 = "par"
-		back = "Retour à Conseils"
 		title = "Conseils"
-		next  = "Page Suivante"
-		prev  = "Page Précédente"
 
 	# ------------------------------
 	# Map
@@ -480,7 +471,6 @@ theme        			= "hugo-creative-theme-master"
 	cookies			= "No usamos cookies."
 	footer_desc		= "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
 	favicon			= "pictures/home/ios_favicon.ico"
-	back			= "Atrás"
 			
 	#form id for Incognito form
 	pcsform = "ey1NdOq0XU6iS7d67aNhQQ"
@@ -496,57 +486,52 @@ theme        			= "hugo-creative-theme-master"
  	algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
   	algolia_indexName = "IoS_es"
 
+	# ------------------------------
+	# Buttons
+	[languages.es.buttons]
+		default			= "Saber más"
+		next			= "Más antiguo"
+		previous		= "Más nuevo"
+		back			= "Atrás"
+		
 	# ------------------------------		
 	# Navigation
 	[languages.es.navigation]
-		title		= "Navigation"
-		brand		= "Ideas on Stage"
-		brand_logo	= "/pictures/home/ideas-on-stage.png"
+		title			= "Navigation"
+		brand			= "Ideas on Stage"
+		brand_logo		= "/pictures/home/ideas-on-stage.png"
 		resource		= "Recursos"
 		service			= "Servicios"
-		language		= "Idioma"
-		back		= "Ir a Inicio"
+		language			= "Idioma"
 
-		[languages.es.navigation.items]
-			
+		[languages.es.navigation.items]	
 			[languages.es.navigation.items.001]
 				name		 	= "Creación de presentaciones"
 				url			 	= "/presentation-creation-agency/"
-				frontpageurl 	= "/presentation-creation-agency/"
 			[languages.es.navigation.items.002]
 				name		 	= "Eventos corporativos"
 				url			 	= "/eventos-corporativos/"
-				frontpageurl 	= "/eventos-corporativos"	
 			[languages.es.navigation.items.003]
 				name		 	= "Public Speaking"
 				url			 	= "/public-speaking-coaching/"
-				frontpageurl 	= "/public-speaking-coaching/"
 			[languages.es.navigation.items.004]
 				name		 	= "Formación"
 				url			 	= "/formacion-presentaciones/"
-				frontpageurl 	= "/formacion-presentaciones/"
-
-
-			
-		[languages.es.navigation.resources]
 				
-				[languages.es.navigation.resources.001]
-					name			= "Videos"
-					url				= "/revolution/"
-					frontpageurl		= "/revolution/"
+		[languages.es.navigation.resources]
+			[languages.es.navigation.resources.001]
+				name			= "Videos"
+				url				= "/revolution/"
 			
 		[languages.es.navigation.housekeeping]
 			[languages.es.navigation.housekeeping.001]
 				name			= "Contacto"
 				url				= "#contact"
-				frontpageurl		= "#contact"
 			[languages.es.navigation.housekeeping.002]
 				name			= "Equipo"
 				url				= "/equipo/"
-				frontpageurl		= "/equipo/"
 	
 		[languages.es.navigation.languages]
-				
 			[languages.es.navigation.languages.001]
 				name	= "Français"
 				url		= "https://www.ideasonstage.fr"
@@ -624,11 +609,8 @@ theme        			= "hugo-creative-theme-master"
 	[languages.es.news]
 		more = "Continuar leyendo"
 		by	 = "por"
-		back = "Volver a Noticias"
 		title = "Noticias"
-		next  = "MÁS ANTIGUO"
-		prev  = "MÁS NUEVO"
-
+		
 	# ------------------------------		
 	# Revolution
 	[languages.es.revolution]
@@ -671,49 +653,46 @@ theme        			= "hugo-creative-theme-master"
  	algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
   	algolia_indexName = "IoS_it"
 
+
+	# ------------------------------
+	# Buttons
+	[languages.it.buttons]
+		default			= "Scopri di più"
+		next			= "Older"
+		previous		= "Newer"
+		back			= "Back"
+				
 	# ------------------------------		
 	# Navigation
 	[languages.it.navigation]
-		title		= "Navigation"
-		brand		= "Ideas on Stage"
-		brand_logo	= "/pictures/home/ideas-on-stage.png"
-		language		= "Lingue"
+		title			= "Navigation"
+		brand			= "Ideas on Stage"
+		brand_logo		= "/pictures/home/ideas-on-stage.png"
+		language			= "Lingue"
 		resource		= "Risorse"
 		service			= "Servizi"
-		back		= "Back to Home"
-			
-			
 		
 		[languages.it.navigation.items]
 			[languages.it.navigation.items.001]
 				name		 	= "Presentation Creation Agency"
 				url			 	= "/presentation-creation-agency/"
-				frontpageurl 	= "/presentation-creation-agency/"
 			[languages.it.navigation.items.002]
 				name		 	= "Eventi Corporate"
 				url			 	= "/eventi-corporate/"
-				frontpageurl 	= "/eventi-corporate"	
 			[languages.it.navigation.items.003]
 				name		 	= "Public Speaking"
 				url			 	= "/public-speaking-coaching/"
-				frontpageurl 	= "/public-speaking-coaching/"
 			[languages.it.navigation.items.004]
 				name		 	= "Training"
 				url			 	= "/training-workshops/the-business-presentation-revolution/"
-				frontpageurl 	= "/training-workshops/the-business-presentation-revolution/"
 				
-	
-			
-		
 		[languages.it.navigation.housekeeping]
 			[languages.it.navigation.housekeeping.001]
 				name			= "Contatti"
 				url				= "#contact"
-				frontpageurl		= "#contact"
 			[languages.it.navigation.housekeeping.002]
 				name			= "Il Team"
 				url				= "/equipo/"
-				frontpageurl		= "/equipo/"
 		
 		[languages.it.navigation.languages]		
 			[languages.it.navigation.languages.001]
@@ -800,10 +779,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.it.news]
 		more	= "continua la lettura"
 		by	 	= "da"
-		back 	= "Torna a Notizie"
 		title 	= "Notizie"
-		next  	= "Pagina successiva"
-		prev  	= "Pagina precedente"
 
 	# ------------------------------		
 	# Enable and disable widgets for the right sidebar

@@ -7,9 +7,7 @@
 			    <h3 class="margint-small">{{ with .title }}{{ . }}{{ end }}</h3>
 			    </a>
 			    <p>{{ with .description }}{{ .  }}{{ end }}</p>
-				{{ if ne .button "" }}
-				<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
-				{{ end }}
+				{{ partial "insert-button.html" . }}
 			</div>
 			<div class="col-sm-4 col-sm-offset-0">
 				{{ if .link }}

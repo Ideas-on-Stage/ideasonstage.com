@@ -5,7 +5,7 @@ tags = ["TEDx", "Prise de parole en public"]
 news = ["general"]
 date = "2020-03-30"
 author = "Pierre Morsa"
-banner = ""
+banner = "/img/news/tedx-tours-2019-3.jpg"
 language = "fr"
 slug = "2020-03-30-top-5-presentations-tedx-en-nombre-de-vues"
 +++
@@ -37,3 +37,5 @@ Bien sûr, le nombre de vues n’est pas nécessairement représentatif de la qu
 Finalement, je termine avec une vidéo qui n’a pas autant de vues, mais que j’adore ; cette intervention a eu lieu à TEDx IÉSEG Lille il y a plusieurs années. Augustin Petit, que vous connaissez peut-être sous son nom de scène, Gus Illusioniste, démontre comment un magicien joue avec notre attention.
 
 https://www.youtube.com/watch?v=-ADgAA24g3c
+
+![Karim Noui à TEDx Tours 2019](/img/news/tedx-tours-2019-3.jpg)

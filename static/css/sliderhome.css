@@ -7,6 +7,8 @@
  * @version: 1.0.0
  */
 
+/* Note: css based on the number of slider items is generated dynamically by Hugo in the head-slider-css.html template */
+
 *,
 *:before,
 *:after {
@@ -32,16 +34,15 @@
   visibility: hidden;
   opacity: 0;
 }
-/* Note: css based on the number of slider items is generated dynamically by Hugo in the head-slider-css.html template */
 
 .heroslider__items {
   margin: 0;
   padding: 0;
   list-style-type: none;
   width: 100%;
-  height: 675px;
   position: relative;
 }
+
 .heroslider__item {
   position: absolute;
   top: 0;
@@ -56,12 +57,8 @@
   animation-name: zoomout;
   animation-duration: 3s;
 }
-/*
-.heroslider__item img {
-  height: 100%;
-  vertical-align: middle;
-}
-*/
+
+/* previous and next buttons */
 
 .heroslider__prev > label, .heroslider__next > label {
   border: 0px solid #fff;
@@ -98,23 +95,28 @@
   height: 50%;
   top: 25%;
 }
+
 .heroslider__prev > label {
   left: 2%;
 }
+
 .heroslider__prev > label:before {
   left: 35%;
   top: 25%;
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
 }
+
 .heroslider__next > label {
   right: 2%;
+
 }
 .heroslider__next > label:before {
   left: 10%;
   transform: rotate(315deg);
   -webkit-transform: rotate(315deg);
 }
+
 .heroslider__nav {
   position: absolute;
   bottom: 3%;
@@ -134,87 +136,7 @@
   height: 20px;
 }
 
-.slider {
-  position: relative;
-  top:40%;
-  font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-}
-.slider .slider-title {
-  margin: 0 auto;
-  padding: 0 10%;
-  max-width: 1280px;
-  font-size: 2em;
-  color: rgba(255,255,255,1); }
 
-.slider .slider-subtitle {
-  margin: 0 auto;
-  padding: 0 10%;
-  max-width: 1280px;
-  font-size: 1.5em;
-  color: rgba(255, 255, 255, 0.8); }
-
-@media(max-width:1200px){
-  
-	.slider {
- 		top:35%;
-   	}	   
-  
-    
-}
-
-@media(max-width:719px){
-	.slider {
- 	   top:35%;
-	}
-	.slider .slider-title {
-  		font-size: 1.5em;
-  		padding-right: 10%;
-  		padding-left: 10%;
-  	}
-
-	.slider .slider-subtitle {
- 		font-size: 1.2em;
- 		padding-right: 10%;
-  		padding-left: 10%;
-  	}
-	header#home h1 {
-		font-size: 1.25em;
-	}
-	
-	.heroslider .heroslider__items {
-		height: 450px;
-	}
-}
-
-@media(max-width: 480px) {
-	.slider .slider-title {
-		font-size: 1.25em;
-		padding-right: 5px;
-		padding-left: 5px;
-	}
-	.slider .slider-subtitle {
-		font-size: 1em;
-		padding-right: 10px;
-		padding-left: 10px;
-	}
-}
-
-@media(max-width: 320px) {
-	.slider .slider-title {
-		font-size: 1em;
-	}
-	.slider .slider-subtitle {
-		font-size: 1em;
-	}
-}
-
-
-@media (min-width:1921px){
-	.heroslider__items {
-  		height: 900px;
-}
-}
 
 @keyframes zoomout {
   from {transform: scale(1.1);

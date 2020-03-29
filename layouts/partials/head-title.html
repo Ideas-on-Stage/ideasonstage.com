@@ -1,0 +1,3 @@
+{{ "<!-- partials:head-title.html:start -->" | safeHTML }}
+<title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Params.name }}{{ if .Params.position }} | {{ .Params.position }}{{ end }}{{ end }}</title>
+{{ "<!-- partials:head-title.html:end -->" | safeHTML }}

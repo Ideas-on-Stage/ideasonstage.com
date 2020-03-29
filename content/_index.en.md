@@ -4,9 +4,6 @@ draft 		= false
 title 		= "Presentation Creation | Business Events | Public Speaking Coaching and Training"
 description	= "International agency specialized in Presentation Creation, Business Events and Public Speaking Coaching and Training. We cover North America and Europe."
 
-insertstop		= [
-]
-
 insertsbottom	= [
 	"home-09",
 	"home-10",
@@ -24,7 +21,6 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/from-office-to-remote-work/"
-			button		= "Learn more"
 		[services.list.002]
 			sectionid	= "public-speaking-coaching"
 			title		= "Public Speaking Coaching"
@@ -33,7 +29,6 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/public-speaking-coaching/"
-			button		= "Learn more"
 		[services.list.003]
 			sectionid	= "business-events"
 			title		= "Business Events"
@@ -42,7 +37,6 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/business-events/"
-			button		= "Learn more"
 		[services.list.004]
 			sectionid	= "presentation-creation"
 			title		= "Presentation Creation"
@@ -51,7 +45,6 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
 			link			= "/presentation-creation-agency/"
-			button		= "Learn more"
 		[services.list.005]
 			sectionid	= "presentations-training"
 			title		= "Training & Workshops"
@@ -60,7 +53,6 @@ insertsbottom	= [
 			style		= "bg-lightgrey"
 			layout		= "insert-link-full-picture.html"
 			link			= "/presentations-training/"
-			button		= "Learn more"
 
 [slider]
 	[slider.list]

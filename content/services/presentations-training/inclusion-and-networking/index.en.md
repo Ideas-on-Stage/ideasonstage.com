@@ -8,7 +8,6 @@ urlredirect	= ""
 showrefs	= false
 url 			= "/presentations-training/gender-balanced-leadership/"
 picture		= "image.jpg"
-button		= "Learn More"
 +++
 
 ## Overcome gender bias and information silos in your company, and boost your performance.

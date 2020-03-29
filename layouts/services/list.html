@@ -1,7 +1,10 @@
 {{ define "main" }}
 	{{ "<!-- services:list.html:start -->" | safeHTML }}
-    {{ partial "events-tabs.html" . }}
-	{{ partial "content.html" . }}
-	{{ partial "services-list.html" . }}
+	<div{{ with .Params.Itemtype }} itemscope itemtype="https://schema.org/{{ . }}"{{ end }}>	
+		{{ partial "page-hero.html" . }}
+	    {{ partial "events-tabs.html" . }}
+		{{ partial "content.html" . }}
+		{{ partial "services-list.html" . }}
+	</div>
 	{{ "<!-- services:list.html:end -->" | safeHTML }}
 {{ end }}

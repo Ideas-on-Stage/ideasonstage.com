@@ -9,9 +9,7 @@
 				    	<h3 class="margint-none">{{ with .title }}{{ . }}{{ end }}</h3>
 				    </a>
 				    <p>{{ with .description | safeHTML }}{{ . }}{{ end }}</p>
-					{{ if ne .button "" }}
-					<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary">{{ with .button }}{{ . }}{{ end }}</a>
-					{{ end }}
+					{{ partial "insert-button.html" . }}
 				</div>
 				<div class="margint-small flex-col-child">
 					{{ if .link }}

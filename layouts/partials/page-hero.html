@@ -1,17 +1,19 @@
 {{ "<!-- partials:page-hero.html -->" | safeHTML }}
-{{ if ne .Title "" }}
-<header id="page">
-<!-- <img src="/pictures{{ .RelPermalink }}/image.png" class="header-content-img img-responsive"> -->
-    <div class="header-content">
-        <div class="header-content-inner">
-        	<h1 {{ with .Params.Titleprop }}itemprop="{{ . }}"{{ end }}>
-        		{{ $scratch := newScratch }}
-        		{{ $scratch.Set "found" "false" }}
-        		{{ if eq ($scratch.Get "found") "false" }}
-	            	{{ with .Title }}{{ . | markdownify  }}{{ end }}
-	            {{ end }}
-            </h1>
+{{ if .Title }}
+	<div>
+		<div class="layout-top">
 		</div>
-    </div>
-</header>
+	    <div class="layout-sticky layout-header style-header">
+	        <div class="flex-parent-column flex-justify-center flex-align-center">
+	        	<h1 {{ with .Params.Titleprop }}itemprop="{{ . }}"{{ end }}>
+		            {{ with .Title }}{{ . | markdownify  }}{{ end }}
+	            </h1>
+			</div>
+	    </div>
+		{{ if .Params.Picture }}
+			{{ with .Params }}
+				{{ partial "insert-fullbleed-picture.html" . }}
+			{{ end }}
+		{{ end }}
+	</div>
 {{ end }}

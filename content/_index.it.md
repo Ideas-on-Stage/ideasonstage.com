@@ -4,9 +4,6 @@ draft 		= false
 title 		= "Regala delle Presentazioni Incredibili"
 description	= "Regala delle Presentazioni incredibili con gli Specialisti della Business Presentation."
 
-insertstop		= [
-]
-
 insertsbottom	= [
 	"home-09",
 	"home-10",

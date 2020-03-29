@@ -8,7 +8,6 @@ urlredirect	= ""
 showrefs	= true
 url 			= "/presentations-training/the-business-presentation-revolution/"
 picture		= "image.jpg"
-button		= "Learn More"
 +++
 
 ## Train your teams to give TED-quality business presentations

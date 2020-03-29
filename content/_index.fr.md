@@ -4,9 +4,6 @@ draft 		= false
 title 		= "Ideas on Stage | Coaching prise de parole et gestion d'événements"
 description	= "Agence internationale spécialisée dans la création de présentations, la formation et le coaching en prise de parole en public et les événements d'entreprise. Nous sommes présents aux États-Unis et en Europe."
 
-insertstop		= [
-]
-
 insertsbottom	= [
 	"home-09",
 	"home-10",
@@ -36,7 +33,6 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/coaching-prise-de-parole-en-public/"
-			button		= "En savoir plus"
 			itemtype	= "OfferCatalog"
 			itemscope	= ""
 			itemprop	= "itemListElement"
@@ -53,7 +49,6 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/evenements-entreprise/"
-			button		= "En savoir plus"
 			itemtype	= "OfferCatalog"
 			itemscope	= ""
 			itemprop	= "itemListElement"
@@ -70,7 +65,6 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
 			link			= "/agence-creation-presentations/"
-			button		= "En savoir plus"
 			itemtype	= "OfferCatalog"
 			itemscope	= ""
 			itemprop	= "itemListElement"
@@ -87,7 +81,6 @@ insertsbottom	= [
 			style		= "bg-lightgrey"
 			layout		= "insert-link-full-picture.html"
 			link			= "/formation-presentations/"
-			button		= "En savoir plus"
 			itemtype	= "OfferCatalog"
 			itemscope	= ""
 			itemprop	= "itemListElement"

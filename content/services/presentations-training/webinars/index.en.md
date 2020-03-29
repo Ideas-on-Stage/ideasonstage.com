@@ -5,7 +5,6 @@ description		= "A free Webinar series to become a better presenter."
 categories		= [ "Training & Workshops" ]
 url	 			= "/presentations-training/webinars/"
 picture			= "webinar.jpg"
-button			= "Learn More"
 +++
 
 ## Virtual Meeting Revolution - Free Webinar Series

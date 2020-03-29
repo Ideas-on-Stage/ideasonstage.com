@@ -25,9 +25,7 @@
 							    	{{ if ne .title "" }}<h3 {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }}>{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>{{ end }}
 							    	<p {{ if .descprop }}itemprop="{{ .descprop }}"{{ end }}>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
 							    </a>
-							    {{ if ne .button "" }}
-								<a href="{{ with .link }}{{ . }}{{ end }}" class="btn btn-secondary" {{ if .linkprop }}itemprop="{{ .linkprop }}"{{ end }}>{{ with .button }}{{ . }}{{ end }}</a>
-								{{ end }}
+								{{ partial "insert-button.html" . }}
 							</div>
 						</div>
 					</div>

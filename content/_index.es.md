@@ -4,9 +4,6 @@ draft 		= false
 title 		= "Agencia de Presentaciones | Entrenamiento y formación para hablar en público"
 description	= "Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
 
-insertstop		= [
-]
-
 insertsbottom	= [
 	"home-09",
 	"home-10",
@@ -24,7 +21,6 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
 			link			= "/presentation-creation-agency/"
-			button		= "Saber más"
 		[services.list.002]
 			sectionid	= "business-events"
 			title		= "Eventos Corporativos"
@@ -33,7 +29,6 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/eventos-corporativos/"
-			button		= "Saber más"
 		[services.list.003]
 			sectionid	= "public-speaking-coaching"
 			title		= "Public Speaking"
@@ -42,7 +37,6 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/public-speaking-coaching/"
-			button		= "Saber más"
 		[services.list.004]
 			sectionid	= "presentations-training"
 			title		= "Formación"
@@ -51,7 +45,6 @@ insertsbottom	= [
 			style		= "bg-lightgrey"
 			layout		= "insert-link-full-picture.html"
 			link			= "/formacion-presentaciones/"
-			button		= "Saber más"
 [slider]
 	[slider.list]
 		[slider.list.001]
