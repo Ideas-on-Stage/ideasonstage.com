@@ -10,10 +10,14 @@
 		<div itemscope itemtype="https://schema.org/Corporation">
 			<a href="{{ .Site.BaseURL }}" itemprop="url"></a>
 	        {{ partial "nav.html" . }}
-	        {{ partial "home/hero.html" . }}
-	        {{ partial "home/content.html" . }}
-	 	    {{ partial "home/services.html" . }}
-	        {{ partial "inserts-bottom.html" . }}
+			<div class="layout-page-top">
+			</div>
+			<main role="main">
+		        {{ partial "home/hero.html" . }}
+		        {{ partial "home/content.html" . }}
+		 	    {{ partial "home/services.html" . }}
+		        {{ partial "inserts-bottom.html" . }}
+			</main>
 			<aside>
 		 		{{ partial "subscribe.html" . }}
 		 	    {{ partial "testimonials.html" . }}

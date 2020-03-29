@@ -48,7 +48,7 @@
 					    </p>
 						<p>{{ .Summary }}</p>
                         <p class="marginv-none">
-                           	<a href="{{ .RelPermalink }}" class="btn btn-secondary">{{ .Site.Params.news.more }}</a>
+                           	<a href="{{ .RelPermalink }}" class="button-secondary">{{ .Site.Params.news.more }}</a>
                         </p>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
 				<div class="col-md-10 col-md-offset-1">
 	                <ul class="pager">
 	                    {{ if .Paginator.HasPrev }}
-	                    <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}" class="btn btn-secondary">&larr; {{ .Site.Params.news.prev }}</a></li>
+	                    <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}" class="button-secondary">&larr; {{ .Site.Params.news.prev }}</a></li>
 	                    {{ else }}
 	<!-- this code greys out the "Newer" button in the first page                            
 	                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
@@ -73,7 +73,7 @@
 	                    {{ end }}
 	
 	                    {{ if .Paginator.HasNext }}
-	                    <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}" class="btn btn-secondary">{{ .Site.Params.news.next }} &rarr;</a></li>
+	                    <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}" class="button-secondary">{{ .Site.Params.news.next }} &rarr;</a></li>
 	                    {{ else }}
 	<!-- this code greys out the "Older" button in the first page   
 	                    <li class="next disabled"><a href="#">Older &rarr;</a></li>

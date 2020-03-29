@@ -1,5 +1,7 @@
 {{ define "main" }}
+	{{ "<!-- _default:single.html:main:start -->" | safeHTML }}
 	{{ partial "page-hero.html" . }}
     {{ partial "events-tabs.html" . }}
 	{{ partial "content.html" . }}
+	{{ "<!-- _default:single.html:main:end -->" | safeHTML }}
 {{ end }}

@@ -8,14 +8,11 @@
 		<header>
 			{{ partial "nav.html" . }}
 		</header>
-		<main>
-			<div{{ with .Params.Itemtype }} itemscope itemtype="https://schema.org/{{ . }}"{{ end }}>
-				{{ block "main" . }}
-					{{ partial "page-hero.html" . }}
-				    {{ partial "events-tabs.html" . }}
-					{{ partial "content.html" . }}
-				{{ end }}
-			</div>
+		<div class="layout-page-top">
+		</div>
+		<main role="main"{{ with .Params.Itemtype }} itemscope itemtype="https://schema.org/{{ . }}"{{ end }}>
+			{{ block "main" . }}
+			{{ end }}
 	    </main>
 		<aside>
 	        {{ partial "references.html" . }}

@@ -151,119 +151,7 @@ p a, li a {
 
 /* @end */
 
-/* @group FLEX */
-
-/*
-	FLEX CONTAINERS
-	Used to manage flexboxes
-*/
-
-.flex-parent {
-	display: flex;
-	overflow: hidden;
-	justify-content: center;
-}
-
-.flex-parent .col {
-	flex-direction: column;
-}
-
-.flex-parent .row {
-	flex-direction: row;
-	align-items: flex-start;
-}
-
-.flex-child {
-	flex: 1;
-}
-
-.flex-child-half {
-	margin-top: 6px;
-	margin-left: 6px;
-	margin-right: 6px;
-	flex: 1;
-}
-
-.flex-child-half-right {
-	margin-left: 0px;
-}
-
-.flex-child-onethird {
-	margin-top: 12px;
-	margin-left: 12px;
-	margin-right: 12px;
-	flex: 1 1 33%;
-}
-
-.flex-child-twothirds {
-	margin-top: 12px;
-	margin-left: 12px;
-	margin-right: 12px;
-	flex: 1 1 67%;
-}
-
-/*
-	flex-parent-img-txt
-	Used to display full width pics with text on the right.
-	left area of pic is cropped / overflows on the left on smaller screens.
-*/
-
-.flex-parent-img-txt {
-	display: flex;
-	overflow: hidden;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-
-.flex-child-40p {
-	flex: 1 0 1;
-	max-width: 600px;
-	width: 40%;
-	padding-left: 40px;
-	padding-right: 80px;
-}
-
-.flex-child-60p {
-	flex: 1 0 1;
-	max-width: 1200px;
-	width: 60%;
-}
-
-/*
-	FLEX FOR TEXT + PIC IN COLUMN
-*/
-.flex-col-parent {
-	display: flex;
-	overflow: hidden;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.flex-col-child {
-	max-width: 1200px;
-}
-
-.flex-col-child-text {
-	padding-top: 24px;
-	padding-left: 24px;
-	padding-right: 24px;
-	height: 220px;
-}
-
-.flex-col-child-img {
-}
-
-.flex-container {
-	position: relative;
-	width: 100%;
-	justify-content: center;
-	overflow: hidden;
-	height: 675px;
-}
-
-/* @end */
+/* @group STYLES */
 
 /* @group SLIDER */
 
@@ -285,6 +173,8 @@ p a, li a {
 
 @media(max-aspect-ratio:1/1) {
 
+	/* adjust for tall viewport */
+
 	.style-slider-title {
 		margin: 2vw 8vw 0 8vw;
 		font-size: 6vw;
@@ -292,18 +182,73 @@ p a, li a {
 	
 	.style-slider-subtitle {
 		margin: 2vw 8vw;
-		font-size: 3vw;
+		font-size: 4vw;
 	}
 	
 }
 
 @media(min-aspect-ratio:21/9) {
+	
+	/* adjust for ultra-wide viewport */
+	
 	.style-slider-title {
 		font-size: 2vw;
 	}
+	
 	.style-slider-subtitle {
 		font-size: 1vw;
 	}
+	
+}
+
+/* @end */
+
+/* @group BUTTONS */
+
+.button-primary, .button-secondary {
+      font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+      font-weight: 700;	
+}  
+
+.button-primary {
+	margin: 1vw 0;
+    padding: 15px 30px;
+	color: {{ site.Params.buttons.primary.color }} !important;
+	background-color: {{ site.Params.buttons.primary.bg_color }};
+	border: none;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+.button-secondary {
+	margin: 1vw 0;
+    padding: 0px;
+	color: {{ site.Params.buttons.secondary.color }} !important;
+	background-color: {{ site.Params.buttons.secondary.bg_color }};
+	border: none;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+    text-transform: uppercase;
+}
+
+
+.button-secondary:hover,
+.button-secondary:focus,
+.button-secondary.focus,
+.button-secondary:active,
+.button-secondary.active {
+    border-style: none;
+}
+
+/* @end */
+
+.style-header {
+	text-align: center;
+	color: #fff;
+	background-color: #222;
 }
 
 /* @end */
@@ -422,52 +367,6 @@ p a, li a {
 
 /* @end */
 
-
-
-/* @group BUTTONS */
-
-.button-primary, .button-secondary {
-      font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
-      font-weight: 700;	
-}  
-
-.button-primary {
-	margin: 1vw 0;
-    padding: 15px 30px;
-	color: {{ site.Params.buttons.primary.color }} !important;
-	background-color: {{ site.Params.buttons.primary.bg_color }};
-	border: none;
-    border-radius: 5px;
-    border-color: none;
-    border-style: none;
-    text-transform: uppercase;
-}
-
-.button-secondary {
-	margin: 1vw 0;
-    padding: 0px;
-	color: {{ site.Params.buttons.secondary.color }} !important;
-	background-color: {{ site.Params.buttons.secondary.bg_color }};
-	border: none;
-    border-radius: 5px;
-    border-color: none;
-    border-style: none;
-    text-transform: uppercase;
-}
-
-
-.button-secondary:hover,
-.button-secondary:focus,
-.button-secondary.focus,
-.button-secondary:active,
-.button-secondary.active {
-    border-style: none;
-}
-
-/* @end */
-
-
-
 /* @group LAYOUT */
 
 /* 
@@ -488,7 +387,7 @@ p a, li a {
 }
 
 /* spacer same height as menu bar */
-.layout-top {
+.layout-page-top {
 	height: 52px;
 }
 
@@ -628,7 +527,117 @@ p a, li a {
 
 /* @end */
 
+/* @group FLEX OLD */
 
+/*
+	FLEX CONTAINERS
+	Used to manage flexboxes
+*/
+
+.flex-parent {
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+}
+
+.flex-parent .col {
+	flex-direction: column;
+}
+
+.flex-parent .row {
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.flex-child {
+	flex: 1;
+}
+
+.flex-child-half {
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
+	flex: 1;
+}
+
+.flex-child-half-right {
+	margin-left: 0px;
+}
+
+.flex-child-onethird {
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+	flex: 1 1 33%;
+}
+
+.flex-child-twothirds {
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+	flex: 1 1 67%;
+}
+
+/*
+	flex-parent-img-txt
+	Used to display full width pics with text on the right.
+	left area of pic is cropped / overflows on the left on smaller screens.
+*/
+
+.flex-parent-img-txt {
+	display: flex;
+	overflow: hidden;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-child-40p {
+	flex: 1 0 1;
+	max-width: 600px;
+	width: 40%;
+	padding-left: 40px;
+	padding-right: 80px;
+}
+
+.flex-child-60p {
+	flex: 1 0 1;
+	max-width: 1200px;
+	width: 60%;
+}
+
+/*
+	FLEX FOR TEXT + PIC IN COLUMN
+*/
+.flex-col-parent {
+	display: flex;
+	overflow: hidden;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-col-child {
+	max-width: 1200px;
+}
+
+.flex-col-child-text {
+	padding-top: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+	height: 220px;
+}
+
+.flex-col-child-img {
+}
+
+.flex-container {
+	position: relative;
+	width: 100%;
+	justify-content: center;
+	overflow: hidden;
+	height: 675px;
+}
 /*
 	Standard text, full width, laid over picture
 */	
@@ -660,6 +669,9 @@ flex-container .flex-item-text h4 {
 	margin-top: 30px;
 	padding: 0px 20px;
 }
+
+/* @end */
+
 
 /*
 	Media queries
@@ -804,8 +816,8 @@ flex-container .flex-item-text h4 {
 		height: 200px;
 	}
 }
-	
 
+/* @group HELPER CLASSES */
 
 /*
 	HELPER CLASSES
@@ -827,6 +839,7 @@ flex-container .flex-item-text h4 {
 }
 
 .bg-primary {	
+	color: {{ site.Params.colors.text_inv }}!important;
     background-color: {{ site.Params.buttons.primary.bg_color }};
 }
 
@@ -838,15 +851,11 @@ flex-container .flex-item-text h4 {
 	color: {{ site.Params.colors.text_inv }};	
 }
 
-.bg-primary .btn-secondary {
-	color: {{ site.Params.colors.text_inv }}!important;
-}
-
-
 .bg-dark {
     color: {{ site.Params.colors.text_inv }};
     background-color: #222;
 }
+
 .bg-dark a {
 	color: {{ site.Params.colors.text_inv }};
 } 
@@ -1132,7 +1141,13 @@ display: block;
 	transform: translateY(-50%);
 }
 
+.no-padding {
+    padding: 0;
+}
 
+/* @end */
+
+/* @group SECTIONS */
 
 /*
 	SECTION
@@ -1227,6 +1242,8 @@ section#team-member-bio .text {
 	margin-top: 1.5em;
 }
 
+/* @end */
+
 /* End of customization */
 
 aside {
@@ -1245,9 +1262,7 @@ footer a {
 	color: #FF8200;
 }
 
-.no-padding {
-    padding: 0;
-}
+/* @group MENU */
 
 .navbar-inverse {
     background-color: #222;
@@ -1304,12 +1319,6 @@ footer a {
     background-color: transparent;	
 }
 
-.open > .dropdown-toggle.btn-default {
-  color: #DDD;
-  background-color: transparent;
-  border-color: #adadad;
-}
-
 .dropdown-menu {
 	text-transform: uppercase;
 	color: #DDD;
@@ -1359,12 +1368,8 @@ footer a {
 	border-bottom: 1px solid #ddd;
 }
 
-.style-header {
-	text-align: center;
-	color: #fff;
-	background-color: #222;
-}
- 
+/* @end */
+
 .section-heading {
     margin-top: 0;
 }
@@ -1540,152 +1545,6 @@ section#contact .text-danger {
 	padding: 10px;
 }
 
-.btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
-    transition: all .35s;
-}
-
-.btn-default:hover,
-.btn-default:focus,
-.btn-default.focus,
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-    border-color: #ededed;
-    color: #222;
-    background-color: #f2f2f2;
-}
-
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-    background-image: none;
-}
-
-.btn-default.disabled,
-.btn-default[disabled],
-fieldset[disabled] .btn-default,
-.btn-default.disabled:hover,
-.btn-default[disabled]:hover,
-fieldset[disabled] .btn-default:hover,
-.btn-default.disabled:focus,
-.btn-default[disabled]:focus,
-fieldset[disabled] .btn-default:focus,
-.btn-default.disabled.focus,
-.btn-default[disabled].focus,
-fieldset[disabled] .btn-default.focus,
-.btn-default.disabled:active,
-.btn-default[disabled]:active,
-fieldset[disabled] .btn-default:active,
-.btn-default.disabled.active,
-.btn-default[disabled].active,
-fieldset[disabled] .btn-default.active {
-    border-color: #fff;
-    background-color: #fff;
-}
-
-.btn-default .badge {
-    color: #fff;
-    background-color: #222;
-}
-
-.btn-primary {
-    border-color: #f05f40;
-    color: #fff!important;
-    background-color: #FF8200;
-    transition: all .35s;
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary.focus,
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
-    color: #fff;
-    background-color: #FF8200;
-}
-
-.btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-    background-image: none;
-}
-
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled.focus,
-.btn-primary[disabled].focus,
-fieldset[disabled] .btn-primary.focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
-    border-color: #f05f40;
-    background-color: #FF8200;
-    color: #fff;
-}
-
-.btn-primary .badge {
-    color: #FF8200;
-    background-color: #fff;
-}
-
-
-.btn-secondary {
-    color: #00A3E0 !important;
-    margin-top: 12px;
-    padding: 0px;
-    border-color: #00A3E0;
-    border-style: outset;
-}
-
-.btn-secondary:hover,
-.btn-secondary:focus,
-.btn-secondary.focus,
-.btn-secondary:active,
-.btn-secondary.active {
-    border-style: outset;
-}
-
-
-.btn {
-    border: 0;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-
-.btn-xl {
-    padding: 15px 30px;
-}
-
-.btn-slider {
-	padding: 15px 30px;
-	margin-top: 30px;
-}
-
-.btn-register:hover {
-	
-}
-
-::-moz-selection {
-    text-shadow: none;
-    color: #fff;
-    background: #222;
-}
-
 ::selection {
     text-shadow: none;
     color: #fff;
@@ -1693,11 +1552,6 @@ fieldset[disabled] .btn-primary.active {
 }
 
 img::selection {
-    color: #fff;
-    background: 0 0;
-}
-
-img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
@@ -2083,9 +1937,6 @@ body {
 #blog-listing-medium .post .read-more {
   text-align: right;
 }
-#blog-listing-medium a.btn.btn-template-main:hover {
-	color: #FF8200;
-}
 
 .box-image-text.blog .author-category {
   color: #999999;
@@ -2197,6 +2048,8 @@ label {
   margin-bottom: 20px;
 }
 
+/* @group 404 */
+
 /**************************************
 **** 404 page stuff *******************
 **************************************/
@@ -2236,6 +2089,8 @@ label {
 	font-size: 1.25em;
 	font-weight: 400;
 }
+
+/* @end */
 
 
 

@@ -16,7 +16,7 @@ button		= "En savoir plus"
 **Pour organiser un atelier interne merci de nous contacter via le formulaire ci-dessous**
 
 <!--
-Prochaine date : **Jeudi 23 janvier 2020**  - (en anglais) <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="btn btn-primary btn-register">Inscrivez-vous</a>
+Prochaine date : **Jeudi 23 janvier 2020**  - (en anglais) <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="button-primary btn-register">Inscrivez-vous</a>
 -->
 
 ![Lorsque vous parlez avec votre équipe](women-on-stage-01.jpg)
@@ -135,7 +135,7 @@ Chaque saison, nous organisons un atelier de groupe, en français ou en anglais,
 <!-- Les prochaines dates sont :
 
 
-* **Jeudi 23 janvier 2020**  - (en anglais)  <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="btn btn-primary btn-register">Inscrivez-vous</a>
+* **Jeudi 23 janvier 2020**  - (en anglais)  <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="button-primary btn-register">Inscrivez-vous</a>
 
 
 * **Mars 2020 (Renouveau du printemps) - date à confirmer**  - (langue à déterminer selon la demande)

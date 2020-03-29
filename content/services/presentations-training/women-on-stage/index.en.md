@@ -14,7 +14,7 @@ picture		= "image.jpg"
 
 **To organize an internal workshop please contact us through the form below.**
 
-<!-- Next date: **Thursday, January 23, 2020** - (English)   <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="btn btn-primary btn-register">Click here to read full event details</a> -->
+<!-- Next date: **Thursday, January 23, 2020** - (English)   <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="button-primary button-register">Click here to read full event details</a> -->
 
 ![When speaking with your team](women-on-stage-01.jpg)
 
@@ -129,7 +129,7 @@ We hold one open group training each season in either French or English based on
 
 
  
-* **Thursday, January 23, 2020**  - (English) <<a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="btn btn-primary btn-register">Click here to read full event details</a>
+* **Thursday, January 23, 2020**  - (English) <<a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="button-primary btn-register">Click here to read full event details</a>
 
 * **March 2020 (Spring Renewal)—date TBD**  - (language determined by demand)
 -->

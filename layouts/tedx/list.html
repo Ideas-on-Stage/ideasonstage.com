@@ -1,11 +1,8 @@
-{{ partial "single-top-common.html" . }}
-	<main>
-        {{ partial "page-hero.html" . }}
-        {{ partial "content.html" . }}
-        {{ partial "tedx_about.html" . }}
-        {{ partial "tedx_speaker.html" . }}
-    </main>
-	<aside>
-        {{ partial "contact.html" . }}       
-    </aside>
-{{ partial "single-bottom-common.html" . }}
+{{ define "main" }}
+	{{ "<!-- tedx:list.html:main:start -->" | safeHTML }}
+    {{ partial "page-hero.html" . }}
+    {{ partial "content.html" . }}
+    {{ partial "tedx_about.html" . }}
+    {{ partial "tedx_speaker.html" . }}
+	{{ "<!-- tedx:list.html:main:end -->" | safeHTML }}
+{{ end }}

@@ -45,7 +45,7 @@
 								</ul>
 				{{ .Content }}
 								{{ $date := time .date }}
- 								<a href="{{ .registerlnk }}" class="btn btn-primary btn-xl page-scroll">{{ with $.Site.Params.events_tabs.buttonText }}{{ . }}{{ end }}{{ if $.Site.Params.events_tabs.buttondate }} - {{ $date.Format "2 January 2006" }}{{ end }}{{ if $.Site.Params.events_tabs.buttonplace }} - {{ .location }}{{ end }}</a>
+ 								<a href="{{ .registerlnk }}" class="button-primary btn-xl page-scroll">{{ with $.Site.Params.events_tabs.buttonText }}{{ . }}{{ end }}{{ if $.Site.Params.events_tabs.buttondate }} - {{ $date.Format "2 January 2006" }}{{ end }}{{ if $.Site.Params.events_tabs.buttonplace }} - {{ .location }}{{ end }}</a>
 							</div>
 							
 				{{ $Trainer := .trainer }}

@@ -12,7 +12,7 @@
 	    </a>
 	    <p>{{ .Inner | markdownify }}</p>
 		{{ if ne .Params.button "" }}
-		<a href="{{ .Params.link }}" class="btn btn-secondary">{{ .Params.button }}</a>
+		<a href="{{ .Params.link }}" class="button-secondary">{{ .Params.button }}</a>
 		{{ end }}
 	</div>
 </div><!-- flex-parent -->
