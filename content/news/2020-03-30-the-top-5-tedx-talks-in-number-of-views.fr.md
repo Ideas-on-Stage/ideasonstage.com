@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "The Top 5 TEDx Talks in number of views"
+title = "Le Top 5 des TEDx Talks en nombre de vues"
 tags = ["TEDx", "Prise de parole en public"]
 news = ["general"]
 date = "2020-03-30"
