@@ -39,6 +39,4 @@ There is much we can improve about virtual meetings, and we have [5 webinars on 
 
 **We hope this helps you to turn your next virtual meeting into a real success.**
 
-
-
-<iframe width="850" height="531" src="https://www.youtube.com/embed/vsbB2iwja9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube vsbB2iwja9o >}}

@@ -39,4 +39,4 @@ Nous pouvons améliorer beaucoup d’aspects des réunions virtuelles, et nous v
 
 **Nous espérons que cela vous aidera à faire de votre prochaine réunion virtuelle un véritable succès.**
 
-<iframe width="850" height="454" src="https://www.youtube.com/embed/IknE6ibOYpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube IknE6ibOYpw >}}
