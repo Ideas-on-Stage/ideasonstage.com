@@ -38,3 +38,7 @@ A meeting without a facilitator is like an orchestra without a conductor: a lot 
 There is much we can improve about virtual meetings, and we have [5 webinars on the subject](https://www.ideasonstage.com/presentations-training/webinars/) - our first webinar is live on [YouTube](https://www.youtube.com/watch?v=vsbB2iwja9o) - all of which are simply a condensed version of what we have to share in our [Virtual Meeting Revolution course](https://www.ideasonstage.com/presentations-training/virtual-meetings-revolution/). If you’d like more details about that, please let us know using the form below.
 
 **We hope this helps you to turn your next virtual meeting into a real success.**
+
+
+
+<iframe width="850" height="454" src="https://www.youtube.com/embed/IknE6ibOYpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
