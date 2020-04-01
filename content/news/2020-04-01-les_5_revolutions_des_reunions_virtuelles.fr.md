@@ -27,7 +27,7 @@ Evidemment, chez Ideas on Stage, nous vivons et respirons“présentations”- m
 
 L'attention est la monnaie des dirigeants - et dans les réunions en ligne, elle n'est que trop rare. Planifiez votre réunion de façon à ce que les invités ne trouvent rien de plus intéressant à faire... car votre réunion sera la chose la plus intéressante qu'ils puissent faire. Ce n'est pas aux participants de faire un effort pour être attentifs : c'est au responsable de la réunion, à l'animateur et à tout présentateur de faire un effort pour mériter leur attention, à tout instant. La planification des moments d’interaction est un excellent moyen de maintenir l'engagement des gens.
 
-**4.    Utilisez les document pour l’information, et les slides pour l’attention**
+**4.    Utilisez des documents pour l’information, et les slides pour l’attention**
 
 Les gens oublient très vite ce qu'ils entendent. Ils se souviennent beaucoup mieux de ce qu'ils lisent - à condition qu'on leur permette de se concentrer sur la lecture, sans être dérangés. C'est pourquoi Jeff Bezos fait lire à chaque participant un document de 6 pages en silence au début d'une réunion. Lorsque tout le monde a terminé, ils sont littéralement sur la même page - et peuvent alors en discuter et prendre des décisions. Dans une réunion en ligne, il est également judicieux de partager les documents que vos participants peuvent lire - même si cela signifie qu'ils lisent en silence pendant les dix premières minutes de la réunion. Au début, cela peut paraître étrange, mais c'est extrêmement efficace. Lorsque vous choisissez d'utiliser des slides, assurez-vous qu'elles visent à retenir ou à appeler l'attention de chacun plutôt qu'à transmettre des informations.
 
@@ -38,3 +38,5 @@ Une réunion sans animateur est comme un orchestre sans son chef : beaucoup de g
 Nous pouvons améliorer beaucoup d’aspects des réunions virtuelles, et nous vous proposons [5 webinaires sur le sujet](https://www.ideasonstage.fr/formation-presentations/webinaires/) (le premier webinaire de cette série est disponible sur [YouTube](https://youtu.be/IknE6ibOYpw)) - qui sont tout simplement une version condensée de ce que nous enseignons dans notre cours [Virtual Meeting Revolution](https://www.ideasonstage.fr/presentations-training/virtual-meetings-revolution/). Si vous souhaitez recevoir plus d’informations à ce sujet, veuillez nous l’indiquer en utilisant le formulaire ci-dessous.
 
 **Nous espérons que cela vous aidera à faire de votre prochaine réunion virtuelle un véritable succès.**
+
+<iframe width="850" height="454" src="https://www.youtube.com/embed/IknE6ibOYpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
