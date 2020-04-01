@@ -21,7 +21,6 @@ Here is the schedule, together with links to our EventBrite pages so you can sig
 
 Timing: every Thursday from 4.00pm-5.00pm CET (Paris time) / 3.00pm-4.00pm GMT (London) / 7.00am PST (California) except the first which is 8.00am PST
 
-* [March 26th: Virtual Meeting Revolution: Key success factors for online meetings](https://www.eventbrite.fr/e/virtual-meeting-revolution-key-success-factors-for-online-meetings-free-webinar-registration-100534306818)
 * [April 2nd: Virtual Speaking Success: Effective communication in online meetings](https://www.eventbrite.fr/e/virtual-speaking-success-effective-communication-in-online-meetings-free-webinar-registration-100934826784)
 * [April 9th: Virtual Slide Success: Using slides in online meetings](https://www.eventbrite.fr/e/virtual-slide-success-using-slides-in-online-meetings-free-webinar-registration-100935450650)
 * [April 16th: Virtual Set-Up, Real Success: How to set up your home office for online meetings](https://www.eventbrite.fr/e/virtual-set-up-real-success-how-to-set-up-your-home-office-for-online-meetings-free-webinar-registration-100935895982)
@@ -32,3 +31,9 @@ Timing: every Thursday from 4.00pm-5.00pm CET (Paris time) / 3.00pm-4.00pm GMT (
 Each webinar is limited to 100 places, so please sign up using the EventBrite pages above, and we will send you a link to our Zoom conference so you can join us online.
 
 Inspiration has healing power for the mind like rest and nutrition for the body. With these webinars, we aim to inspire you so that you can inspire your teams, your students, your communities, and maintain a sense of connection in these challenging times.
+
+## Past webinars
+
+March 26th: Virtual Meeting Revolution: Key success factors for online meetings
+
+{{< youtube vsbB2iwja9o >}}

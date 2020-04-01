@@ -22,7 +22,6 @@ Voici le calendrier ainsi que les liens vers nos pages EventBrite afin que vous 
 
 Horaires : tous les mardis de 16h00 à 17h00.
 
-* [31 mars : Virtual Meeting Revolution - Les clés pour réussir vos réunions virtuelles](https://www.eventbrite.fr/e/inscription-virtual-meeting-revolution-les-cles-pour-reussir-vos-reunions-virtuelles-webinaire-gratuit-100780934488)
 * [7 avril : Virtual Speaking Success - Capter l’attention lors de réunions virtuelles](https://www.eventbrite.fr/e/inscription-virtual-speaking-success-capter-lattention-lors-de-reunions-virtuelles-webinaire-gratuit-100931912066)
 * [14 avril : Virtual Slide Success - Les nouvelles règles pour réussir vos diapos en réunion virtuelle](https://www.eventbrite.fr/e/inscription-virtual-slide-success-les-nouvelles-regles-pour-reussir-vos-diapos-en-reunion-virtuelle-webinaire-100932774646)
 * [21 avril : Virtual Set-Up, Real Success - Configurer son bureau pour réussir ses réunions virtuelles depuis son domicile](https://www.eventbrite.fr/e/inscription-virtual-set-up-real-success-configurer-son-bureau-pour-les-reunions-virtuelles-a-domicile-webinaire-100933292194)
@@ -33,3 +32,9 @@ Horaires : tous les mardis de 16h00 à 17h00.
 Chaque webinaire est limité à 100 places, alors veuillez vous inscrire en utilisant les pages EventBrite ci-dessus. Nous vous enverrons un lien vers notre outil de conférence Zoom afin que vous puissiez vous connecter.
 
 L'inspiration a un pouvoir de guérison sur l'esprit tout comme le repos et la nutrition sur le corps. Avec ces webinaires, nous visons à vous inspirer afin que vous puissiez ensuite inspirer vos équipes, vos étudiants, vos communautés et maintenir un sentiment de connexion et de partage en ces temps difficiles.
+
+## Anciens webinaires
+
+31 mars : Virtual Meeting Revolution - Les clés pour réussir vos réunions virtuelles
+
+{{< youtube IknE6ibOYpw >}}
