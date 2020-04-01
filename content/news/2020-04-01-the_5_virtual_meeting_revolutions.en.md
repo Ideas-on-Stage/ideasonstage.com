@@ -41,4 +41,4 @@ There is much we can improve about virtual meetings, and we have [5 webinars on 
 
 
 
-<iframe width="850" height="454" src="https://www.youtube.com/embed/IknE6ibOYpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="850" height="531" src="https://www.youtube.com/embed/vsbB2iwja9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
