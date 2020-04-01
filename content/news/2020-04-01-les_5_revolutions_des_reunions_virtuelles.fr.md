@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Les 5 Révolutions des Réunions Virtuelles"
+title = "Les 5 révolutions des réunions virtuelles"
 tags = ["#réunionsvirtuelles #communicationenligne #télétravail"]
 news = ["general"]
 date = "2020-04-01"
