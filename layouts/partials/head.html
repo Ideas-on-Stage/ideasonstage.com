@@ -1,7 +1,7 @@
 {{ "<!-- partials:head.html:start -->" | safeHTML }}
-{{ partial "head-title.html" }}
-{{ partial "head-meta.html" }}
-{{ partial "head-hreflang.html" }}
-{{ partial "head-favicon.html" }}
-{{ partial "head-css.html" }}
+{{ partial "head-title.html" . }}
+{{ partial "head-meta.html" . }}
+{{ partial "head-hreflang.html" . }}
+{{ partial "head-favicon.html" . }}
+{{ partial "head-css.html" . }}
 {{ "<!-- partials:head.html:end -->" | safeHTML }}
