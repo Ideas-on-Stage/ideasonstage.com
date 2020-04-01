@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "The 5 Virtual Meeting Revolutions"
 tags = ["#VirtualMeetingRevolution #remotepresentation #remotemeeting"]
 news = ["general"]
