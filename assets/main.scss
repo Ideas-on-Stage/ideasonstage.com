@@ -70,50 +70,41 @@ footer, footer a			{ font-size: 0.75em;	}
 .navbar-inverse .nav>li a 	{ font-size: 0.8em;		}
 .dropdown-menu 				{ font-size: 1em;		}
 .dropdown-menu > li > a 		{ font-size: 0.75em;	}
+.flex-404 .error-box h1		{ font-size: 2em;		}
+.flex-404 .error-box h2 		{ font-size: 1.25em;	}
+.form-control-nav 			{ font-size: 90%;		}
 .people-name					{ font-size: 1em;		}
 .people-title				{ font-size: 0.75em;	}
 .people-description			{ font-size: 1em;		}
+.price .header 				{ font-size: 25px;		}
+.price .grey				{ font-size: 20px;		}
 .style-slider-title 			{ font-size: 4vw;		}
 .style-slider-subtitle		{ font-size: 2vw;		}
 .thumbnail-caption h3 		{ font-size: 0.75em;	}
-.price .header 				{ font-size: 25px;		}
-.price .grey				{ font-size: 20px;		}
+.tedxtable 					{ font-size: 16px;		}
+.tedxtable th				{ font-size: 20px;		}
+.testimonials .item .testimonial .text p				{ font-size: 14px;	}  
+.testimonials .item .testimonial .icon				{ font-size: 24px;	}
+.testimonials .item .testimonial .name-picture h4	{ font-size: 1em;	}
+.testimonials .item .testimonial .name-picture h5 	{ font-size: 14px;	}
+.testimonials .item .testimonial .name-picture p		{ font-size: 12px;	}
 
 /* adjust for small tall smartphone screens */
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
 
-	body, a {
-		font-size: 16px;
-	}
-
-	h1 {
-		font-size: 2em;
-	}
-	
-	h2 {
-		font-size: 2em;
-	}
-	
-	h3 {
-		font-size: 1.25em;
-	}
-	
-	.style-slider-title {
-		margin: 2vw 8vw 0 8vw;
-		font-size: 6vw;
-	}
-	
-	.style-slider-subtitle {
-		margin: 2vw 8vw;
-		font-size: 4vw;
-	}
+	body, a 				{ font-size: 16px;		}
+	h1 						{ font-size: 2em;		}	
+	h2 						{ font-size: 2em;		}
+	h3 						{ font-size: 1.25em;	}
+	.style-slider-title 		{ font-size: 6vw;		}	
+	.style-slider-subtitle	{ font-size: 4vw;		}
+	.tedxtable th			{ font-size: 14px;		}
+	.tedxtable				{ font-size: 12px;		}
 
 }
 
  @media(min-width:1921px) {	
-	body, a {
-		font-size: 20px;
-	}
+	body, a 				{ font-size: 20px;		}
 }
 
 /* @end */
@@ -269,6 +260,10 @@ p a, li a {
 	position: absolute;
 }
 
+.layout-fixed {
+	position: fixed;
+}
+
 .layout-sticky {
 	position: sticky;
 	top: {{ site.Params.navigation.height }};
@@ -304,20 +299,25 @@ p a, li a {
 .layout-size-screen-partial {
 	margin: auto;
 	padding: 0;
-	height: 80vh;
+	height: 60vh;
 	width: 100vw;
 }
 
 .layout-size-screen-partial img {
 	margin: 0;
 	padding: 0;
-	height: 80vh;
+	height: 60vh;
 	width: 100vw;
 	object-fit: cover;
 }
 
 .layout-page-title {
 	height: 128px;
+}
+
+.layout-content {
+	margin: auto;
+	width: 50vw;
 }
 
 .layout-hero {
@@ -921,7 +921,7 @@ text-dark {
 	padding-top: 96px;
 }
 .paddingt-large {
-	padding-top: 48px;
+	padding-top: 36px;
 }
 .paddingt-medium {
 	padding-top: 24px;
@@ -1088,6 +1088,10 @@ text-dark {
 }
 
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
+
+.paddingt-large {
+	padding-top: 12px;
+}
 
 .margint-large {
 	margin-top: 12px;
@@ -1261,7 +1265,6 @@ footer a {
 /* @group MENU */
 
 .navbar-inverse {
-    background-color: #222;
     border: none;
     transition: all .35s;
 }
@@ -1596,7 +1599,6 @@ body {
   border-collapse: collapse;
   min-width: 320px;
   border: 1px solid #ddd;
-  font-size: 16px;
 }
 
 .tedxtable th {
@@ -1604,7 +1606,6 @@ body {
   vertical-align: middle;
   padding: 3px;
   color: white;
-  font-size: 20px;
   background-color: #FF8200;
 }
 
@@ -1621,15 +1622,6 @@ body {
   border-bottom: 0px solid #ddd;
 }
 
-@media(max-width:414px) {
-	.tedxtable th {
-  	font-size: 14px;
-	}
-	
-	.tedxtable {
-  	font-size: 12px;
-	}
-}
 
 /* end of table setting for TEDx */
 
@@ -1675,9 +1667,6 @@ body {
   margin-bottom: 30px;
 }
 
-.testimonials .item .testimonial .text p {
-  font-size: 14px;
-}  
 .testimonials .item .testimonial .bottom {
   position: absolute;
   left: 0;
@@ -1689,7 +1678,6 @@ body {
 }
 .testimonials .item .testimonial .icon {
   color: #FF8200;
-  font-size: 24px;
   float: left;
   width: 20%;
 }
@@ -1700,24 +1688,18 @@ body {
 }
 
 .testimonials .item .testimonial .name-picture h4 {
- /* color: #fff; */
-	font-size: 1em;
 	color: #222;
 	margin: 0;
 }
  
 .testimonials .item .testimonial .name-picture h5 {
-  font-size: 14px;
   text-transform: uppercase;
-  /* color: #fff; */
   color: #222;
   letter-spacing: 0.08em;
 }
 .testimonials .item .testimonial .name-picture p {
-  /* color: #fff; */
   color: #222;
   margin: 0;
-  font-size: 12px;
 }
 .testimonials .item .testimonial .name-picture img {
   float: right;
@@ -1817,7 +1799,6 @@ label {
   color: #666;
   white-space: nowrap;
   text-align: left;
-  font-size: 90%;
   width: 190px;
   background-color: rgba(0, 0, 0, 0);
   color: rgb(102, 102, 102);
@@ -1870,15 +1851,12 @@ label {
 	align-items: stretch;
 }
 
-
 .flex-404 .error-box h1 {
-	font-size: 2em;
 	text-align: center;
 }
  
 .flex-404 .error-box h2 {
 	text-align: center;
-	font-size: 1.25em;
 	font-weight: 400;
 }
 
