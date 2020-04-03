@@ -2,15 +2,15 @@
 		<footer>
 		    <div class="container">
 		        <div class="row">
-					<div class="col-xs-12 col-sm-4  paddingv10">
+					<div class="col-xs-12 col-sm-4  paddingv-tiny">
 		        		{{ with .Site.Copyright }}{{ . }}{{ end }} {{ with .Site.Params.year }}{{ . }}{{ end }}<br />
 		        		{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
 		        		{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}
 			        </div>
-					<div class="col-xs-12 col-sm-4  paddingv10">
+					<div class="col-xs-12 col-sm-4  paddingv-tiny">
 		        		{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
 			        </div>
-					<div class="col-xs-12 col-sm-4  paddingv10">
+					<div class="col-xs-12 col-sm-4  paddingv-tiny">
 						<a href="{{ .Site.BaseURL }}#page-top" class="btn btn-default tada">{{ with .Site.Params.buttons.back }}{{ . }}{{ end }}</a>
 					</div>
 		        </div>

@@ -1,33 +1,30 @@
 {{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
 <section id="title">
-	{{/* <!-- constrains max width to page width on ultrawide viewport --> */}}
-	<div class="layout-page-width">
-		{{/* <!-- if pic exists, add div to add hero area to document flow --> */}}
+	{{/* <!-- if pic exists, add div to add hero area to document flow --> */}}
+	{{ if .Params.Picture }}
+		<div class="layout-size-screen-partial">
+	{{ end }}
+		{{/* <!-- insert picture if exists --> */}}
 		{{ if .Params.Picture }}
-			<div class="layout-size-screen-partial">
-		{{ end }}
-			{{/* <!-- insert picture if exists --> */}}
-			{{ if .Params.Picture }}
-				{{ with .Params }}
-					<div class="layout-absolute{{ .style }}">
-						<img src="{{ if .link }}{{ .picture }}{{ else }}{{ .url }}{{ .picture }}{{ end }}" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
-					</div>
-				{{ end }}
+			{{ with .Params }}
+				<div class="layout-absolute {{ with .style }}{{ . }}{{ end }}">
+					<img src="{{ if .link }}{{ .picture }}{{ else }}{{ .url }}{{ .picture }}{{ end }}" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
+				</div>
 			{{ end }}
-			{{/* <!-- add title --> */}}
-			{{ if .Title }}
-				{{/* <!-- title style is dark gray, or transparent if bg pic --> */}}
-			    <div class="layout-sticky layout-page-title style-page-title{{ if .Params.Picture }}-overlay{{ end }}">
-			        <div class="flex-parent-column flex-justify-center flex-align-center">
-			        	<h1 {{ with .Params.Titleprop }}itemprop="{{ . }}"{{ end }}>
-				            {{ with .Title }}{{ . | markdownify  }}{{ end }}
-			            </h1>
-					</div>
-			    </div>
-			{{ end }}
-		{{ if .Params.Picture }}
-			</div>
 		{{ end }}
-	</div>
+		{{/* <!-- add title --> */}}
+		{{ if .Title }}
+			{{/* <!-- title style is dark gray, or transparent if bg pic --> */}}
+		    <div class="layout-sticky layout-page-title style-page-title{{ if .Params.Picture }}-overlay{{ end }}">
+		        <div class="flex-parent-column flex-justify-center flex-align-center">
+		        	<h1 {{ with .Params.Titleprop }}itemprop="{{ . }}"{{ end }}>
+			            {{ with .Title }}{{ . | markdownify  }}{{ end }}
+		            </h1>
+				</div>
+		    </div>
+		{{ end }}
+	{{ if .Params.Picture }}
+		</div>
+	{{ end }}
 </section>
 {{ "<!-- partials:page-hero.html:end -->" | safeHTML }}
