@@ -71,11 +71,11 @@ theme        			= "hugo-creative-theme-master"
 		title_h3			= "black"
 		title_h4			= "black"
 		time			= "#aaa"
-
 		
 	# ------------------------------		
 	# Navigation
 	[params.navigation]
+		height			= "52px"
 		title			= "Navigation"
 		brand 			= "Ideas on Stage"
 		brand_logo		= "/pictures/home/ideas-on-stage.png"

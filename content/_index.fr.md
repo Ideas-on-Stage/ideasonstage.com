@@ -92,12 +92,13 @@ insertsbottom	= [
 [slider]
 	[slider.list]
 		[slider.list.001]
-			bgimage 	="/formation-presentations/webinaires/webinar-2.jpg"
+			bgimage 	="/formation-presentations/webinaires/ouaibinarre.jpg"
 			title 		= "VIRTUAL MEETINGS REVOLUTION"
 			description = "Une série de webinaires gratuits"
 			button 		= "Inscrivez-vous"
 			buttonlink	= "/formation-presentations/webinaires/"
 			color		= "text-white"	
+			opacity		= "30"
 			date		= "2020-03-05"
 		[slider.list.002]
 			bgimage		="/pictures/home/hero.jpg"

@@ -18,7 +18,7 @@
 					<div class="layout-absolute layout-size-screen-partial">
 						<img src="{{ .bgimage }}" alt="">
 					</div>
-					<div class= "layout-absolute layout-size-screen-partial">					
+					<div class= "layout-absolute layout-size-screen-partial" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>					
 						<div class="flex-parent-column flex-justify-center flex-align-center">  
 			    			<h2 class="style-slider-title">{{ .title | safeHTML }}
 							</h2>

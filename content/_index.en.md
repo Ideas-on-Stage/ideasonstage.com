@@ -57,16 +57,17 @@ insertsbottom	= [
 [slider]
 	[slider.list]
 		[slider.list.001]
-			bgimage		= "/presentations-training/webinars/webinar-2.jpg"
+			bgimage		= "/presentations-training/webinars/ouaibinarre.jpg"
 			title		= "VIRTUAL MEETING REVOLUTION"
 			description	= "A free webinar series"
 			button		= "Learn More"
 			buttonlink	= "/presentations-training/webinars/"
 			color		= "text-white"
+			opacity		= "30"
 			date		= "2020-03-05"
 		[slider.list.002]
 			bgimage		= "/pictures/home/hero.jpg"
-			title		= "PRESENTATION CREATION · BUSINESS EVENTS · PUBLIC SPEAKING COACHING AND TRAINING"
+			title		= "PUBLIC SPEAKING COACHING AND TRAINING · BUSINESS EVENTS · PRESENTATION CREATION"
 			date 		= "2019-11-04"
 		[slider.list.003]
 			bgimage		= "/pictures/home/slider2-min.jpg"

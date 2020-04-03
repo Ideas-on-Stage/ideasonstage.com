@@ -43,6 +43,13 @@ big {
       font-weight: 700;
 }
 
+.navbar-inverse .nav>li a{
+	font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 0.8em;
+}
+
 .button-primary, .button-secondary {
       font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
       font-weight: 700;	
@@ -77,6 +84,10 @@ h4 {
   
 h5 {
 	font-size: 1em;
+}
+
+.navbar-inverse .nav>li a{
+	font-size: 0.8em;
 }
 
  @media(min-width:1921px) {	
@@ -183,7 +194,7 @@ p a, li a {
 
 .button-primary {
 	margin: 1vw 0;
-    padding: 15px 30px;
+    padding: 1vw 2vw;
 	color: {{ site.Params.buttons.primary.color }} !important;
 	background-color: {{ site.Params.buttons.primary.bg_color }};
 	border: none;
@@ -212,6 +223,14 @@ p a, li a {
 .button-secondary:active,
 .button-secondary.active {
     border-style: none;
+}
+
+/* adapt to tall smartphone screens */
+@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	
+	.button-primary {
+		padding: 2vw 6vw;
+	}
 }
 
 /* @end */
@@ -245,44 +264,48 @@ p a, li a {
 
 .layout-sticky {
 	position: sticky;
-	top: 52px;
+	top: {{ site.Params.navigation.height }};
 	z-index: 100;
 }
 
 /* spacer same height as menu bar */
 .layout-page-top {
-	height: 52px;
+	height: {{ site.Params.navigation.height }};
 }
 
 /* Maximum width of the page to avoid wonky ratios*/
 .layout-page-width {
 	margin: auto;
-	max-width: 160vh;
 }
 
-/* Defines a space equal to the full viewport */
+/* layout height = 100vh - menu, width=100vw (full viewport minus menubar) */
 .layout-size-screen-full {
 	margin: 0;
 	padding: 0;
-	height: 100vh;
+	height: calc(100vh - {{ site.Params.navigation.height }});
 	width: 100vw;
 }
 
-/* Defines a space equal to full layout-page width, 66% vertical viewport  */
+.layout-size-screen-full img {
+	margin: 0;
+	padding: 0;
+	height: calc(100vh - {{ site.Params.navigation.height }});
+	width: 100vw;
+	object-fit: cover;
+}
+
 .layout-size-screen-partial {
 	margin: auto;
 	padding: 0;
-	height: 60vh;
-	width: 100%;
-	max-width: 160vh;
+	height: 80vh;
+	width: 100vw;
 }
 
 .layout-size-screen-partial img {
 	margin: 0;
 	padding: 0;
-	height: 60vh;
-	width: 100%;
-	max-width: 160vh;
+	height: 80vh;
+	width: 100vw;
 	object-fit: cover;
 }
 
@@ -1249,9 +1272,8 @@ footer a {
 
 /* Adjust logo positioning */
 .navbar-brand {
-	width: 240px;
-	height: 52px;
-	padding: 0 20px;
+	height: {{ site.Params.navigation.height }};
+	padding: 0;
     color: #FF8200;
 }
 
@@ -1260,9 +1282,6 @@ footer a {
 }
 
 .navbar-inverse .nav>li a{
-	font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-weight: 700;
 	font-size: 0.8em;
 	text-transform: uppercase;
 	color: #DDD;
