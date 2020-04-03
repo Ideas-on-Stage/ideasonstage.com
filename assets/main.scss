@@ -39,11 +39,11 @@ h4,
 h5,
 h6,
 big {
-      font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
-      font-weight: 700;
+    font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+    font-weight: 700;
 }
 
-.navbar-inverse .nav>li a{
+.navbar-inverse .nav>li a {
 	font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -51,8 +51,8 @@ big {
 }
 
 .button-primary, .button-secondary {
-      font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
-      font-weight: 700;	
+    font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+    font-weight: 700;	
 }  
 
 /* @end */
@@ -60,34 +60,54 @@ big {
 /* @group FONT SIZES */
 /* This is where ALL font sizes are declared */
 
-body, a {
-  	font-size: 16px;
-}
+body, a 					{ font-size: 16px;		}
+h1							{ font-size: 3em;		}
+h2							{ font-size: 2.5em;		}
+h3 							{ font-size: 1.5em;		}
+h4 							{ font-size: 1.25em;	}
+h5							{ font-size: 1em;		}
+footer, footer a			{ font-size: 0.75em;	}
+.navbar-inverse .nav>li a 	{ font-size: 0.8em;		}
+.dropdown-menu 				{ font-size: 1em;		}
+.dropdown-menu > li > a 		{ font-size: 0.75em;	}
+.people-name					{ font-size: 1em;		}
+.people-title				{ font-size: 0.75em;	}
+.people-description			{ font-size: 1em;		}
+.style-slider-title 			{ font-size: 4vw;		}
+.style-slider-subtitle		{ font-size: 2vw;		}
+.thumbnail-caption h3 		{ font-size: 0.75em;	}
+.price .header 				{ font-size: 25px;		}
+.price .grey				{ font-size: 20px;		}
 
-h1 {
-  	font-size: 3em;
-  	text-transform: uppercase;
-  	margin-top: 0;
-}
-  
-h2 {
-	font-size: 2.5em;
-}
-  
-h3 {
-	font-size: 1.5em;
-}
-  
-h4 {
-	font-size: 1.25em;
-}
-  
-h5 {
-	font-size: 1em;
-}
+/* adjust for small tall smartphone screens */
+@media(max-aspect-ratio:1/1) and (max-width:480px) {
 
-.navbar-inverse .nav>li a{
-	font-size: 0.8em;
+	body, a {
+		font-size: 16px;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+	
+	h2 {
+		font-size: 2em;
+	}
+	
+	h3 {
+		font-size: 1.25em;
+	}
+	
+	.style-slider-title {
+		margin: 2vw 8vw 0 8vw;
+		font-size: 6vw;
+	}
+	
+	.style-slider-subtitle {
+		margin: 2vw 8vw;
+		font-size: 4vw;
+	}
+
 }
 
  @media(min-width:1921px) {	
@@ -111,6 +131,11 @@ li {
  	margin-top: 0.5em;
  	margin-bottom: 0.5em;
  	text-align: left;
+}
+
+h1 {
+  	text-transform: uppercase;
+  	margin-top: 0;
 }
  
 time {
@@ -144,7 +169,6 @@ p a, li a {
 
 .style-slider-title {
   margin: 1vw 8vw 0 8vw;
-  font-size: 4vw;
   line-height: 1.2;
   color: white; 
   text-align: center;
@@ -152,7 +176,6 @@ p a, li a {
 
 .style-slider-subtitle {
   margin: 1vw 8vw;
-  font-size: 2vw;
   line-height: 1.2;
   color: rgba(255, 255, 255, 0.8); 
   text-align: center;
@@ -164,26 +187,10 @@ p a, li a {
 
 	.style-slider-title {
 		margin: 2vw 8vw 0 8vw;
-		font-size: 6vw;
 	}
 	
 	.style-slider-subtitle {
 		margin: 2vw 8vw;
-		font-size: 4vw;
-	}
-	
-}
-
-@media(min-aspect-ratio:21/9) {
-	
-	/* adjust for ultra-wide viewport */
-	
-	.style-slider-title {
-		font-size: 2vw;
-	}
-	
-	.style-slider-subtitle {
-		font-size: 1vw;
 	}
 	
 }
@@ -731,22 +738,6 @@ flex-container .flex-item-text h4 {
 
 
 @media(max-width:719px){
-
-	body, a {
-		font-size: 16px;
-	}
-
-	h1 {
-		font-size: 2em;
-	}
-	
-	h2 {
-		font-size: 2em;
-	}
-	
-	h3 {
-		font-size: 1.25em;
-	}
 	
 	.flex-container {
 		height: 450px;
@@ -1062,7 +1053,7 @@ text-dark {
 	margin-top: 96px;
 } 
 .margint-large {
-	margin-top: 48px;
+	margin-top: 36px;
 } 
 .margint-medium {
 	margin-top: 24px;
@@ -1096,6 +1087,13 @@ text-dark {
 	margin-bottom: 0px;
 }
 
+@media(max-aspect-ratio:1/1) and (max-width:480px) {
+
+.margint-large {
+	margin-top: 12px;
+}
+
+}
 
 .timeline {
 	position: absolute;
@@ -1253,12 +1251,10 @@ aside {
 footer {
 	padding: 50px 0;
 	background-color: #222;
-	font-size: 0.75em;
 	color: #bbb;
 }
 
 footer a {
-	font-size: 0.75em;
 	color: #FF8200;
 }
 
@@ -1282,7 +1278,6 @@ footer a {
 }
 
 .navbar-inverse .nav>li a{
-	font-size: 0.8em;
 	text-transform: uppercase;
 	color: #DDD;
 	border: 0;
@@ -1320,7 +1315,6 @@ footer a {
 	color: #DDD;
 	background-color: #222;
 	border: none;
-	font-size: 1em;
 }
 
 .dropdown-menu > li > a {
@@ -1331,7 +1325,6 @@ footer a {
   color: #888;
   white-space: nowrap;
   text-align: right;
-  font-size: 0.75em;
 }
 
 .dropdown-menu > li > a:hover,
@@ -1423,15 +1416,7 @@ footer a {
 
 .thumbnail-caption h3 {
 	margin: 0px;
-	font-size: 0.75em;
 	color: #888;
-}
-
-@media(min-width:1200px) {
-	.thumbnail-caption h3 {
-		font-size: 0.875em;
-		padding: 4px;
-	}
 }
 
 /*PMO people-box is used for team members and other people profiles*/
@@ -1494,12 +1479,10 @@ a.people-box:hover {
 	padding: 0px;
 	margin: 4px;
 	color: #000;
-	font-size: 1em;
 }
 
 .people-box .people-box-caption .people-box-caption-content .people-title {
 	padding: 0;
-	font-size: 0.75em;
 	margin: 0;
     color: #aaa;
 }
@@ -1508,7 +1491,6 @@ a.people-box:hover {
 	height: 88px;
 	padding: 2px 0px;
 	margin-bottom: 40px;
-    font-size: 1em;
     color: #666;
 	overflow: hidden;
 	text-decoration: none;
@@ -1592,7 +1574,6 @@ body {
 .price .header {
     background-color: #111;
     color: white;
-    font-size: 25px;
 }
 
 .price li {
@@ -1603,7 +1584,6 @@ body {
 
 .price .grey {
     background-color: #eee;
-    font-size: 20px;
 }
 
 
@@ -1650,6 +1630,7 @@ body {
   	font-size: 12px;
 	}
 }
+
 /* end of table setting for TEDx */
 
 /* Testimonials */
@@ -1770,170 +1751,6 @@ body {
 	text-align: right;
 }	
 
-
-#blog-listing-big .post,
-#blog-homepage .post {
-  margin-bottom: 60px;
-}
-#blog-listing-big .post h2,
-#blog-homepage .post h2,
-#blog-listing-big .post h4,
-#blog-homepage .post h4 {
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-#blog-listing-big .post h2 a,
-#blog-homepage .post h2 a,
-#blog-listing-big .post h4 a,
-#blog-homepage .post h4 a {
-  color: #555555;
-}
-#blog-listing-big .post h2 a:hover,
-#blog-homepage .post h2 a:hover,
-#blog-listing-big .post h4 a:hover,
-#blog-homepage .post h4 a:hover {
-  color: #FF8200;
-}
-#blog-listing-big .post .author-category,
-#blog-homepage .post .author-category {
-  color: #999999;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-#blog-listing-big .post .author-category a,
-#blog-homepage .post .author-category a {
-}
-#blog-listing-big .post .date-comments a,
-#blog-homepage .post .date-comments a {
-  color: #999999;
-  margin-right: 20px;
-}
-#blog-listing-big .post .date-comments a:hover,
-#blog-homepage .post .date-comments a:hover {
-  color: #FF8200;
-}
-@media (min-width: 768px) {
-  #blog-listing-big .post .date-comments,
-  #blog-homepage .post .date-comments {
-    text-align: right;
-  }
-}
-#blog-listing-big .post .intro,
-#blog-homepage .post .intro {
-  text-align: left;
-}
-#blog-listing-big .post .image,
-#blog-homepage .post .image {
-  margin-bottom: 10px;
-  overflow: hidden;
-}
-#blog-listing-big .post .image img,
-#blog-homepage .post .image img {
-  transition: all 0.2s ease-out;
-}
-@media (max-width: 767px) {
-  #blog-listing-big .post .image img.img-responsive,
-  #blog-homepage .post .image img.img-responsive {
-    min-width: 100%;
-  }
-}
-#blog-listing-big .post .video,
-#blog-homepage .post .video {
-  margin-bottom: 10px;
-}
-#blog-listing-big .post .read-more,
-#blog-homepage .post .read-more {
-  text-align: right;
-}
-#blog-listing-medium a:hover {
-	text-decoration: none;
-}
-#blog-listing-medium .post {
-  margin-bottom: 1s0px;
-}
-#blog-listing-medium .post h2 {
-	font-size: 1.9em;
-	color: #000;
-  margin: 0 0 10px;
-}
-#blog-listing-medium .post h2:hover {
-  color: #FF8200;
-  text-decoration: none;
-}
-#blog-listing-medium .post .author-category {
-  float: left;
-  color: #999999;
-/*  text-transform: uppercase; */
-  letter-spacing: 0.08em;
-}
-#blog-listing-medium .post .author-category a {
-  text-decoration: none;
-}
-#blog-listing-medium .post .date-comments {
-  float: right;
-}
-#blog-listing-medium .post .date-comments a {
-  color: #999999;
-  margin-right: 20px;
-}
-#blog-listing-medium .post .date-comments a:hover {
-  color: #FF8200;
-}
-@media (min-width: 768px) {
-  #blog-listing-medium .post .date-comments {
-    text-align: right;
-  }
-}
-#blog-listing-medium .post .intro {
-  text-align: left;
-}
-#blog-listing-medium .post .clearfix:before,
-#blog-listing-medium .post .clearfix:after,
-#blog-listing-medium .post .navbar:before,
-#blog-listing-medium .post .navbar:after,
-#blog-listing-medium .post .navbar-header:before,
-#blog-listing-medium .post .navbar-header:after {
-  content: " ";
-  display: table;
-}
-#blog-listing-medium .post .clearfix:after,
-#blog-listing-medium .post .navbar:after,
-#blog-listing-medium .post .navbar-header:after {
-  clear: both;
-}
-#blog-listing-medium .post .clearfix:before,
-#blog-listing-medium .post .clearfix:after,
-#blog-listing-medium .post .navbar:before,
-#blog-listing-medium .post .navbar:after,
-#blog-listing-medium .post .navbar-header:before,
-#blog-listing-medium .post .navbar-header:after {
-  content: " ";
-  display: table;
-}
-#blog-listing-medium .post .clearfix:after,
-#blog-listing-medium .post .navbar:after,
-#blog-listing-medium .post .navbar-header:after {
-  clear: both;
-}
-#blog-listing-medium .post .image {
-  margin-bottom: 10px;
-  overflow: hidden;
-}
-#blog-listing-medium .post .image img {
-  transition: all 0.2s ease-out;
-}
-@media (max-width: 767px) {
-  #blog-listing-medium .post .image img.img-responsive {
-    min-width: 100%;
-  }
-}
-#blog-listing-medium .post .video {
-  margin-bottom: 10px;
-}
-#blog-listing-medium .post .read-more {
-  text-align: right;
-}
-
 .box-image-text.blog .author-category {
   color: #999999;
   text-transform: uppercase;
@@ -1946,27 +1763,6 @@ body {
 .box-image-text.blog .intro {
   text-align: left;
   margin-bottom: 20px;
-}
-
-#blog-homepage .post {
-  margin-bottom: 30px;
-}
-#blog-homepage .post h2,
-#blog-homepage .post h4,
-#blog-homepage .post .author-category,
-#blog-homepage .post .read-more {
-  text-align: center;
-}
-#blog-homepage .post .read-more {
-  margin-top: 20px;
-}
-#blog-post #post-content {
-  margin-bottom: 20px;
-}
-
-#blog-post a {
-	text-decoration: none;
-	color: #FF8200
 }
 
 #categoryMenu h3 {
