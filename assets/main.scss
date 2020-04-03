@@ -43,6 +43,12 @@ big {
     font-weight: 700;
 }
 
+.intro {
+  	font-family: "Whitney SSm A", "Whitney SSm B";
+  	font-style: normal;
+  	font-weight: 400;	
+}
+
 .navbar-inverse .nav>li a {
 	font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
 	font-style: normal;
@@ -299,14 +305,14 @@ p a, li a {
 .layout-size-screen-partial {
 	margin: auto;
 	padding: 0;
-	height: 60vh;
+	height: 75vh;
 	width: 100vw;
 }
 
 .layout-size-screen-partial img {
 	margin: 0;
 	padding: 0;
-	height: 60vh;
+	height: 75vh;
 	width: 100vw;
 	object-fit: cover;
 }
@@ -910,7 +916,7 @@ flex-container .flex-item-text h4 {
 }
 
 .text-gray {
-	color: #aaa;
+	color: #888;
 }
 
 text-dark {
@@ -1090,11 +1096,15 @@ text-dark {
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
 
 .paddingt-large {
+	padding-top: 18px;
+}
+
+.paddingt-medium {
 	padding-top: 12px;
 }
 
 .margint-large {
-	margin-top: 12px;
+	margin-top: 18px;
 }
 
 }
