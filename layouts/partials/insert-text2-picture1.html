@@ -1,5 +1,5 @@
 {{ "<!-- partials:insert-text2-picture1.html -->" | safeHTML }}
-<section {{ with .sectionid }}id="{{ . }}"{{ end }} class="layout-content {{ .style }}">
+<section {{ partial "elements/section-tags.html" . }} class="layout-content {{ .style }}">
 	<div class="flex-parent-row flex-column-ontall">
         <div class="flex-child-60p">
 		    <h3>{{ with .title }}{{ . }}{{ end }}</h3>

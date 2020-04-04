@@ -1,5 +1,5 @@
 {{ "<!-- partials:insert-link-picture1-text2.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="layout-content {{ .style }}"><!-- section used for full width background -->
+<section {{ partial "elements/section-tags.html" . }} class="layout-content {{ .style }}">
 	<div class="container insert paddingt-medium paddingb-small">
 	    <div class="row">
 	    	<div class="col-xs-12 col-sm-6 col-sm-push-5 col-sm-offset-0">
@@ -7,7 +7,7 @@
 			    	<h3>{{ with .title }}{{ . }}{{ end }}</h3>
 			    </a>
 			    <p>{{ with .description }}{{ . }}{{ end }}</p>
-				{{ partial "insert-button.html" . }}
+				{{ partial "elements/button-secondary.html" . }}
 			</div>
 	    	<div class="col-xs-12 col-sm-4 col-sm-pull-6 col-sm-offset-1">
 				{{ if .link }}

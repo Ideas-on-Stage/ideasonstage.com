@@ -1,0 +1,6 @@
+{{ "<!-- partials:elements:link-title-description.html:start -->" | safeHTML }}
+<a href="{{ with .link }}{{ . }}{{ else }}{{ .url }}{{ end }}">
+	{{ if ne .title "" }}<h3 class="title-responsive" {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }}>{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>{{ end }}
+	<p class="text-responsive" {{ if .descprop }}itemprop="{{ .descprop }}"{{ end }}>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
+</a>
+{{ "<!-- partials:elements:link-title-descrpition.html:end -->" | safeHTML }}

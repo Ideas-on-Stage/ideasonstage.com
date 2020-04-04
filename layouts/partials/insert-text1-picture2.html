@@ -1,5 +1,5 @@
 {{ "<!-- partials:insert-text1-picture2.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="layout-content {{ .style }}"><!-- section used for full width background -->
+<section {{ partial "elements/section-tags.html" . }} class="layout-content {{ .style }}"><!-- section used for full width background -->
 	<div class="flex-parent-row flex-column-ontall">
 	        <div class="flex-child-40p">
 			    <h3>{{ with .title }}{{ . }}{{ end }}</h3>

@@ -1,0 +1,3 @@
+{{ "<!-- partials:elements:b	utton-secondary.html:start -->" | safeHTML }}
+<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}" class="button-secondary text-responsive" {{ if .linkprop }}itemprop="{{ .linkprop }}"{{ end }}>{{ with .button }}{{ . }}{{ else }}{{ site.Params.buttons.default }}{{ end }}</a>
+{{ "<!-- partials:elements:b	utton-secondary.html:end -->" | safeHTML }}

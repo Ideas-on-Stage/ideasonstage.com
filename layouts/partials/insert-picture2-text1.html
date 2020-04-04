@@ -1,5 +1,5 @@
 {{ "<!-- partials:insert-picture2-text1.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="layout-content {{ .style }}"><!-- section used for full width background -->
+<section {{ partial "elements/section-tags.html" . }} class="layout-content {{ .style }}"><!-- section used for full width background -->
 	<div class="flex-parent-row flex-column-reverse-ontall">
 		<div class="flex-child-60p">
 			<img src="{{ .picture }}" class="img-responsive">

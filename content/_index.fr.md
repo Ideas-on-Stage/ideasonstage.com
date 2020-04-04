@@ -12,6 +12,7 @@ insertsbottom	= [
 
 [services]
 	title		= "Nos Services"
+	sectionid	= "services"
 	itemtype	= "OfferCatalog"
 	itemscope	= ""
 	itemprop	= "hasOfferCatalog"

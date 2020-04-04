@@ -1,7 +1,5 @@
 {{ "<!-- partials:home:services:start -->" | safeHTML }}
-<section id="services" >
-	{{ if .Params.services.itemtype }}<div itemprop="{{ .Params.services.itemprop }}" itemscope="{{ .Params.services.itemscope }}" itemtype="https://schema.org/{{ .Params.services.itemtype }}">
-	{{ end }}
+{{ partial "elements/section-tags.html" .Params.services }}
     <div class="container paddingt-large">
         <div class="row">
 			<div class="col-xs-12 text-center col-md-8 col-md-offset-2">
@@ -12,8 +10,5 @@
 	{{ range .Params.services.list }}
 		{{ partial .layout . }}
 	{{- end }}
-	{{ if .Params.services.itemtype }}
-	</div>
-	{{ end }}
 </section>
 {{ "<!-- partials:home:services:end -->" | safeHTML }}
