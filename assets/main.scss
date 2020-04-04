@@ -480,6 +480,10 @@ p a, li a {
 	.layout-module-16-6-image-bottom {
 		height: 70vw;
 	}
+	.layout-module-16-6-image-bottom img {
+		object-fit: cover;
+	}
+
 
 	.layout-content {
 		width:90vw;
