@@ -1,5 +1,5 @@
-{{ "<!-- partials:inserts-bottom.html -->" | safeHTML }}
-<div id="inserts-bottom">
+{{ "<!-- partials:inserts-bottom.html:start -->" | safeHTML }}
+<section id="inserts-bottom">
 {{- $.Scratch.Set "count" 0 }}
 {{- range .Params.insertsbottom }}
 	{{- $.Scratch.Set "uuid" . }}
@@ -12,4 +12,5 @@
 		{{- end }}
 	{{- end }}
 {{- end }}    
-</div>
+</section>
+{{ "<!-- partials:inserts-bottom.html:end -->" | safeHTML }}

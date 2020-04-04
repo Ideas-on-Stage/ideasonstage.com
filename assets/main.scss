@@ -43,7 +43,7 @@ big {
     font-weight: 700;
 }
 
-.intro {
+.style-text-intro {
   	font-family: "Whitney SSm A", "Whitney SSm B";
   	font-style: normal;
   	font-weight: 400;	
@@ -59,7 +59,7 @@ big {
 .button-primary, .button-secondary {
     font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
     font-weight: 700;	
-}  
+}
 
 /* @end */
 
@@ -107,6 +107,7 @@ footer, footer a			{ font-size: 0.75em;	}
 	.tedxtable th			{ font-size: 14px;		}
 	.tedxtable				{ font-size: 12px;		}
 
+	.text-responsive		{ font-size: 5vw;		}
 }
 
  @media(min-width:1921px) {	
@@ -161,6 +162,11 @@ p a, li a {
 /* @end */
 
 /* @group STYLES CUSTOM CLASSES */
+
+.style-text-intro {
+	color: #888;
+	text-align: center;
+}
 
 /* @group SLIDER */
 
@@ -322,8 +328,9 @@ p a, li a {
 }
 
 .layout-content {
+	padding: 2vw 0;
 	margin: auto;
-	width: 50vw;
+	width: 60vw;
 }
 
 .layout-hero {
@@ -341,6 +348,14 @@ p a, li a {
 	width: 100%;
 	max-width: 160vh;
 	object-fit: cover;
+}
+
+@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	
+	.layout-content {
+		width:90vw;
+	}
+
 }
 
 /* @end */

@@ -1,4 +1,4 @@
-{{ "<!-- partials:home:services -->" | safeHTML }}
+{{ "<!-- partials:home:services:start -->" | safeHTML }}
 <section id="services" >
 	{{ if .Params.services.itemtype }}<div itemprop="{{ .Params.services.itemprop }}" itemscope="{{ .Params.services.itemscope }}" itemtype="https://schema.org/{{ .Params.services.itemtype }}">
 	{{ end }}
@@ -16,3 +16,4 @@
 	</div>
 	{{ end }}
 </section>
+{{ "<!-- partials:home:services:end -->" | safeHTML }}

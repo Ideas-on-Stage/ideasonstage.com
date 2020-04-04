@@ -88,4 +88,4 @@ insertsbottom	= [
 
 Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.
 
-The communication experts of Ideas on Stage provide a full range of presentation services in England, the United States, France, Spain and Italy.
+The communication experts of Ideas on Stage provide a full range of presentation services in England, the United States, France, Spain and Italy.

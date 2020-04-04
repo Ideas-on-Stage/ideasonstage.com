@@ -1,6 +1,5 @@
-{{ "<!-- partials:home/hero.html -->" | safeHTML }}
-
-<div class="layout-page-width">
+{{ "<!-- partials:home/hero.html:start -->" | safeHTML }}
+<header id="hero" class="layout-page-width">
 	<div class="heroslider layout-size-screen-partial">
 	
 		{{ $.Scratch.Set "counter" 0 }}
@@ -64,4 +63,5 @@
 		    </div>
 				 
 	</div>
-</div>
+</header>
+{{ "<!-- partials:home/hero.html:end -->" | safeHTML }}
