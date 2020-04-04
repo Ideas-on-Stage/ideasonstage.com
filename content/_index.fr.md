@@ -129,6 +129,6 @@ insertsbottom	= [
 			color		= "text-white"
 			expirydate	= "2019-11-04"
 +++
-Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.
+Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.
 
 Les experts en communication d’Ideas on Stage offrent leurs services en France, Angleterre, Espagne, Italie et aux États-Unis.

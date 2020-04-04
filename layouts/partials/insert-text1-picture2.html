@@ -1,12 +1,12 @@
 {{ "<!-- partials:insert-text1-picture2.html -->" | safeHTML }}
 <section {{ partial "elements/section-tags.html" . }} class="layout-content {{ .style }}"><!-- section used for full width background -->
 	<div class="flex-parent-row flex-column-ontall">
-	        <div class="flex-child-40p">
-			    <h3>{{ with .title }}{{ . }}{{ end }}</h3>
-			    <p class="marginv-none">{{ with .description }}{{ .  }}{{ end }}</p>
-			</div>
-			<div class="flex-child-60p">
-				<img src="{{ .picture }}" class="img-responsive">
-			</div>
+        <div class="flex-child-40p flex-child-text-left">
+		    <h3>{{ with .title }}{{ . }}{{ end }}</h3>
+		    <p class="marginv-none">{{ with .description }}{{ .  }}{{ end }}</p>
+		</div>
+		<div class="flex-child-60p">
+			<img src="{{ .picture }}">
+		</div>
 	</div>
 </section>
