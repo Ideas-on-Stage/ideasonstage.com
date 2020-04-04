@@ -1,5 +1,5 @@
 {{ "<!-- partials:inserts-bottom.html:start -->" | safeHTML }}
-<section id="inserts-bottom">
+<section id="inserts-bottom" class="flex-parent-row">
 {{- $.Scratch.Set "count" 0 }}
 {{- range .Params.insertsbottom }}
 	{{- $.Scratch.Set "uuid" . }}

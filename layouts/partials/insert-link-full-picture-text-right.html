@@ -1,30 +1,18 @@
 {{ "<!-- partials:insert-link-full-picture.html -->" | safeHTML }}
-<div class="margint-tiny marginh-tiny {{ if .style }}{{ .style }}{{ end }}">
-	{{ if .sectionid }}<section id="{{ .sectionid }}">{{ end }}
-	{{ if .itemtype }}<div itemprop="{{ .itemprop }}" itemscope="{{ .itemscope }}" itemtype="https://schema.org/{{ .itemtype }}">{{ end }}
-		<div class="flex-parent-img-txt">
-			<div class="flex-child-60p">	
-				<div class="img-anchorright">
-					{{ if .link }}
-					<a href="{{ with .link }}{{ . }}{{ end }}">
-						<img src="{{ .picture }}" class="picture" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
-					</a>
-					{{ else }}
-					<a href="{{ .url }}">
-						<img src="{{ .url }}{{ .picture }}" class="picture" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
-					</a>
-					{{ end }}
-				</div>
-			</div>
-	
-			<div class="flex-child-40p">
-				<a href="{{ with .link }}{{ . }}{{ end }}">
-				   	{{ if ne .title "" }}<h3 {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }}>{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>{{ end }}
-					<p {{ if .descprop }}itemprop="{{ .descprop }}"{{ end }}>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
-				</a>
-				{{ partial "insert-button.html" . }}
+<section {{ with .sectionid }}id="{{ . }}"{{ end }}	{{ if .itemtype }}itemprop="{{ .itemprop }}" itemscope="{{ .itemscope }}" itemtype="https://schema.org/{{ .itemtype }}"{{ end }} class="layout-module">
+	<div class="layout-module-16-6-image-left-text-right {{ with .style }}{{ . }}{{ end }}">
+		<div class=" layout-module-16-6-image-left">
+			<a href="{{ with .link }}{{ . }}{{ else }}{{ .url }}{{ end }}">
+				<img src="{{ with .link }}{{ else }}{{ .url }}{{ end }}{{ .picture }}" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
+			</a>
+		</div>
+		<div class="layout-module-16-6-text-right">
+			<a href="{{ with .link }}{{ . }}{{ end }}">
+			   	{{ if ne .title "" }}<h3 class="title-responsive" {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }}>{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>{{ end }}
+				<p class="text-responsive" {{ if .descprop }}itemprop="{{ .descprop }}"{{ end }}>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
+			</a>
+			{{ partial "insert-button.html" . }}
 			</div>
 		</div>
-	{{ if .itemtype }}</div>{{ end }}
-	{{ if .sectionid }}</section>{{ end }}
-</div>
+	</div>
+</section>

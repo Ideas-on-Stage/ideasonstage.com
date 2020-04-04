@@ -1,0 +1,18 @@
+{{ "<!-- partials:insert-link-half-text-picture.html:start -->" | safeHTML }}
+<section {{ with .sectionid }}id="{{ . }}"{{ end }} {{ if .itemtype }}itemprop="{{ .itemprop }}" itemscope="{{ .itemscope }}" itemtype="https://schema.org/{{ .itemtype }}"{{ end }} class="layout-module-half">
+	<div class="layout-module-16-6-text-top-image-bottom {{ with .style }}{{ . }}{{ end }}" {{ if .color }}style="background-color:{{ .color }}"{{ end }}>
+		<div class="layout-module-16-6-text-top text-center">
+		    <a href="{{ with .link }}{{ . }}{{ end }}">
+		    	<h3 class="title-responsive">{{ with .title }}{{ . }}{{ end }}</h3>
+		    </a>
+		    <p class="text-responsive">{{ with .description | safeHTML }}{{ . }}{{ end }}</p>
+			{{ partial "insert-button.html" . }}
+		</div>
+		<div class="layout-module-16-6-image-bottom">
+			<a href="{{ with .link }}{{ . }}{{ else }}{{ .url }}{{ end }}">
+				<img src="{{ with .link }}{{ else }}{{ .url }}{{ end }}{{ .picture }}" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
+			</a>
+		</div>
+	</div>
+</section>
+{{ "<!-- partials:insert-link-half-text-picture.html:end -->" | safeHTML }}

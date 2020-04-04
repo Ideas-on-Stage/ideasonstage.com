@@ -66,15 +66,18 @@ big {
 /* @group FONT SIZES */
 /* This is where ALL font sizes are declared */
 
+/* font sizes for standard tags */
 body, a 					{ font-size: 16px;		}
-h1							{ font-size: 3em;		}
-h2							{ font-size: 2.5em;		}
-h3 							{ font-size: 1.5em;		}
+h1							{ font-size: 3.00em;	}
+h2							{ font-size: 2.50em;	}
+h3 							{ font-size: 1.50em;	}
 h4 							{ font-size: 1.25em;	}
-h5							{ font-size: 1em;		}
+h5							{ font-size: 1.00em;	}
 footer, footer a			{ font-size: 0.75em;	}
-.navbar-inverse .nav>li a 	{ font-size: 0.8em;		}
-.dropdown-menu 				{ font-size: 1em;		}
+
+/* font sizes for custom classes */
+.navbar-inverse .nav>li a 	{ font-size: 0.80em;	}
+.dropdown-menu 				{ font-size: 1.00em;	}
 .dropdown-menu > li > a 		{ font-size: 0.75em;	}
 .flex-404 .error-box h1		{ font-size: 2em;		}
 .flex-404 .error-box h2 		{ font-size: 1.25em;	}
@@ -95,6 +98,10 @@ footer, footer a			{ font-size: 0.75em;	}
 .testimonials .item .testimonial .name-picture h5 	{ font-size: 14px;	}
 .testimonials .item .testimonial .name-picture p		{ font-size: 12px;	}
 
+.style-section-title-main 	{ font-size: 3vw;		}
+.title-responsive			{ font-size: 3vw;		}
+.text-responsive			{ font-size: 1.5vw;		}
+
 /* adjust for small tall smartphone screens */
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
 
@@ -102,17 +109,22 @@ footer, footer a			{ font-size: 0.75em;	}
 	h1 						{ font-size: 2em;		}	
 	h2 						{ font-size: 2em;		}
 	h3 						{ font-size: 1.25em;	}
+	
 	.style-slider-title 		{ font-size: 6vw;		}	
 	.style-slider-subtitle	{ font-size: 4vw;		}
 	.tedxtable th			{ font-size: 14px;		}
 	.tedxtable				{ font-size: 12px;		}
 
-	.text-responsive		{ font-size: 5vw;		}
+	.style-section-title-main { font-size: 8vw;		}
+	.text-responsive		{ font-size: 4vw;		}
+	.title-responsive		{ font-size: 8vw;		}
+	
 }
 
  @media(min-width:1921px) {	
 	body, a 				{ font-size: 20px;		}
-}
+
+ }
 
 /* @end */
  
@@ -226,6 +238,9 @@ p a, li a {
     text-transform: uppercase;
 }
 
+.bg-primary .button-secondary {
+	color: white !important;
+}
 
 .button-secondary:hover,
 .button-secondary:focus,
@@ -238,6 +253,10 @@ p a, li a {
 /* adapt to tall smartphone screens */
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
 	
+	.button-primary {
+		padding: 2vw 6vw;
+	}
+
 	.button-primary {
 		padding: 2vw 6vw;
 	}
@@ -257,6 +276,21 @@ p a, li a {
 	background-color: rgba(0, 0, 0, 0.4);	
 }
 
+.style-section-title-main {
+	color: #bbb;
+	text-transform: uppercase;
+}
+
+.text-responsive {
+	margin: 0;
+	padding: 0;
+} 
+.title-responsive
+{
+	margin: 0 0 1vw 0;
+	padding: 0;
+}
+
 /* @end */
 
 /* @end */
@@ -270,6 +304,9 @@ p a, li a {
 
 .layout-absolute {
 	position: absolute;
+}
+
+.layout-absolute-ontall {
 }
 
 .layout-fixed {
@@ -323,8 +360,64 @@ p a, li a {
 	object-fit: cover;
 }
 
+/* approximately 16/6 ratio */
 .layout-page-title {
 	height: 128px;
+}
+
+.layout-module {
+	width: 100%;
+	padding: 0.2vw;
+}
+
+.layout-module-half {
+	width: 50%;
+	padding: 0.2vw;
+}
+
+.layout-module-16-6-image-left-text-right {
+	height: 36vw;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.layout-module-16-6-image-left {
+	height: 36vw;
+	width: 60%;
+}
+.layout-module-16-6-image-left img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.layout-module-16-6-text-right {
+	padding: 4vw;
+	width: 36vw;
+}
+
+.layout-module-16-6-text-top-image-bottom {
+	height: 36vw;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.layout-module-16-6-text-top {
+	padding: 2vw 4vw;
+	height: 18vw;
+	width: 100%;
+	flex: 1;
+}
+.layout-module-16-6-image-bottom {
+	height: 18vw;
+	width: 100%;
+	flex: 1;
+}
+.layout-module-16-6-image-bottom img {	
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+	object-position: 50% 100%;
 }
 
 .layout-content {
@@ -351,7 +444,43 @@ p a, li a {
 }
 
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
+
+	.layout-absolute-ontall {
+		position: absolute;
+		width: 100%;
+	}
 	
+	.layout-module-half {
+		width: 100%;
+	}
+	.layout-module-16-6-image-left-text-right {
+		height: 140vw;
+		width: 100%;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+	}
+	.layout-module-16-6-image-left {
+		height: 60vw;
+		width: 100%;
+	}
+	.layout-module-16-6-text-right {
+		padding: 8vw;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.layout-module-16-6-text-top-image-bottom {
+		height: auto;
+		width: 100%;
+	}
+	.layout-module-16-6-text-top {
+		padding: 8vw;
+		height: 70vw;
+	}
+	.layout-module-16-6-image-bottom {
+		height: 70vw;
+	}
+
 	.layout-content {
 		width:90vw;
 	}
@@ -361,6 +490,16 @@ p a, li a {
 /* @end */
 
 /* @group FLEX */
+
+.flex-parent {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+}
 
 .flex-parent-row {
 	display: flex;
@@ -391,6 +530,7 @@ p a, li a {
 	flex: 1;
 	flex-grow: 2;
 	flex-basis: 60%; /* start at 60% width */
+	max-width: 100%;
 }
 
 .flex-child-40p {
@@ -404,13 +544,13 @@ p a, li a {
 	max-width: 100%;
 }
 
-@media(max-width:768px) {
-	
-	.flex-parent-row {
-		flex-direction: column;
-	}
-	
+@media(max-aspect-ratio:1/1) and (max-width:480px) {
+
+.flex-parent {
+	flex-direction: column-reverse;
 }
+
+} /* end media */
 
 /* flex helper classes */
 
@@ -565,7 +705,7 @@ p a, li a {
 	FLEX CONTAINERS
 	Used to manage flexboxes
 */
-
+/*
 .flex-parent {
 	display: flex;
 	overflow: hidden;
@@ -609,7 +749,7 @@ p a, li a {
 	margin-right: 12px;
 	flex: 1 1 67%;
 }
-
+*/
 /*
 	flex-parent-img-txt
 	Used to display full width pics with text on the right.
@@ -624,6 +764,7 @@ p a, li a {
 	align-items: center;
 }
 
+/*
 .flex-child-40p {
 	flex: 1 0 1;
 	max-width: 600px;
@@ -637,6 +778,7 @@ p a, li a {
 	max-width: 1200px;
 	width: 60%;
 }
+*/
 
 /*
 	FLEX FOR TEXT + PIC IN COLUMN
@@ -792,29 +934,13 @@ flex-container .flex-item-text h4 {
 	}
 	
 	/* Used to adapt layout to a single column on narrow screens */
-	
+	/*
 	.flex-parent {
 		flex-direction: column;
 	}
-
+*/
 	.flex-parent-img-txt {
 		flex-direction: column-reverse;
-	}
-	
-	.flex-child-60p {
-		width: 100%;
-	}
-	
-	.flex-child-60p img {
-		height: 405px;
-	}
-
-	.flex-child-40p {
-		width: 100%;
-		text-align: center;
-		padding-left: 40px;
-		padding-right: 40px;
-		padding-top: 20px;
 	}
 	
 	.flex-child-half-right {

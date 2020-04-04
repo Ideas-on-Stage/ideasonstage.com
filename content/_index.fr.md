@@ -28,7 +28,7 @@ insertsbottom	= [
 		[services.list.002]
 			sectionid	= "public-speaking-coaching"
 			title		= "Coaching prise de parole"
-			description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène. Notre équipe internationale peut vous coacher en anglais, français, espagnol, allemand et italien, en Europe et en Amérique."
+			description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène."
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"

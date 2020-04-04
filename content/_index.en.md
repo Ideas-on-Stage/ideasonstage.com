@@ -40,7 +40,7 @@ insertsbottom	= [
 		[services.list.004]
 			sectionid	= "presentation-creation"
 			title		= "Presentation Creation"
-			description	= "The core of Ideas on Stage’s mission is to help leaders to communicate effectively. We help you define your messages and strategy, then we write the story, create the slides and coach you."
+			description	= "We help you define your messages and strategy, then we write the story, create the slides and coach you."
 			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
