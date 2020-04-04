@@ -21,6 +21,7 @@ descprop		= "description"
 pictureprop		= "image"
 
 insertstop		= [
+	"tedx-00",
 	"tedx-01",
 	"tedx-02",
 	"tedx-03",

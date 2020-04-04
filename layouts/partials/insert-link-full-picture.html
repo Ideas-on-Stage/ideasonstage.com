@@ -10,7 +10,7 @@
 		</div>
 		<div class="layout-module-16-6-image-bottom">
 			<a href="{{ with .link }}{{ . }}{{ else }}{{ .url }}{{ end }}">
-				<img src="{{ with .link }}{{ else }}{{ .url }}{{ end }}{{ .picture }}" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
+				<img src="{{ with .link }}{{ else }}{{ .url }}{{ end }}{{ .picture }}" class="img-cover" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
 			</a>
 		</div>
 	</div>

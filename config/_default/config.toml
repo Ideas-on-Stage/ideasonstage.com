@@ -64,7 +64,7 @@ theme        			= "hugo-creative-theme-master"
 	# Colors
 	[params.colors]
 		link_hover		= "#FF8200"
-		text			= "black"
+		text			= "#444"
 		text_inv		= "white"
 		title_h1			= "black"
 		title_h2			= "black"

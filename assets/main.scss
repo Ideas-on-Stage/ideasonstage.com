@@ -21,7 +21,7 @@
 body, a {
   	font-family: "Whitney SSm A", "Whitney SSm B";
   	font-style: normal;
-  	font-weight: 300;
+  	font-weight: 400;
   	line-height: 1.6;
   	color: {{ site.Params.colors.text }};
 }
@@ -97,7 +97,8 @@ footer, footer a			{ font-size: 0.75em;	}
 .testimonials .item .testimonial .name-picture h4	{ font-size: 1em;	}
 .testimonials .item .testimonial .name-picture h5 	{ font-size: 14px;	}
 .testimonials .item .testimonial .name-picture p		{ font-size: 12px;	}
-
+.timeline-title				{ font-size: 2vw;		}
+.timeline-text				{ font-size: 1vw;		}
 .style-section-title-main 	{ font-size: 3vw;		}
 .title-responsive			{ font-size: 3vw;		}
 .text-responsive			{ font-size: 1.5vw;		}
@@ -105,19 +106,20 @@ footer, footer a			{ font-size: 0.75em;	}
 /* adjust for small tall smartphone screens */
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
 
-	body, a 				{ font-size: 16px;		}
-	h1 						{ font-size: 2em;		}	
-	h2 						{ font-size: 2em;		}
-	h3 						{ font-size: 1.25em;	}
+body, a 					{ font-size: 16px;		}
+h1 							{ font-size: 2em;		}	
+h2 							{ font-size: 2em;		}
+h3 							{ font-size: 1.25em;	}
 	
-	.style-slider-title 		{ font-size: 6vw;		}	
-	.style-slider-subtitle	{ font-size: 4vw;		}
-	.tedxtable th			{ font-size: 14px;		}
-	.tedxtable				{ font-size: 12px;		}
-
-	.style-section-title-main { font-size: 8vw;		}
-	.text-responsive		{ font-size: 4vw;		}
-	.title-responsive		{ font-size: 8vw;		}
+.style-slider-title 			{ font-size: 6vw;		}	
+.style-slider-subtitle		{ font-size: 4vw;		}
+.tedxtable th				{ font-size: 14px;		}
+.tedxtable					{ font-size: 12px;		}
+.timeline-title				{ font-size: 4vw;		}
+.timeline-text				{ font-size: 3vw;		}
+.style-section-title-main	{ font-size: 8vw;		}
+.text-responsive			{ font-size: 4vw;		}
+.title-responsive			{ font-size: 8vw;		}
 	
 }
 
@@ -291,6 +293,11 @@ p a, li a {
 	padding: 0;
 }
 
+.timeline-title {
+	margin-top: 0;
+	margin-bottom: 1vw;
+}
+
 /* @end */
 
 /* @end */
@@ -420,10 +427,37 @@ p a, li a {
 	object-position: 50% 100%;
 }
 
+/* layout for storyline inserts */
+.layout-storyline {
+	/* main wrapper */
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.layout-storyline-left {
+	padding: 2vw;
+	width: 50%;
+	border-right: 1px dotted #333;	
+}
+.layout-storyline-left img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.layout-storyline-right {
+	padding: 2vw;
+	width: 50%;
+}
+.layout-storyline-right img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+
 .layout-content {
-	padding: 2vw 0;
+	padding: 2vw 2vw;
 	margin: auto;
-	width: 60vw;
+	width: 80vw;
 }
 
 .layout-hero {
@@ -484,7 +518,13 @@ p a, li a {
 		object-fit: cover;
 	}
 
-
+	.layout-storyline-left {
+		padding: 4vw 2vw;
+	}
+	.layout-storyline-right {
+		padding: 4vw 2vw;
+	}
+	
 	.layout-content {
 		width:90vw;
 	}
@@ -542,6 +582,10 @@ p a, li a {
 	flex-basis: 40%
 }
 
+.flex-child-text-right {
+	padding-left: 2vw;
+}
+
 .flex-child-half {
 	flex: 1;
 	max-height: 100%;
@@ -552,6 +596,10 @@ p a, li a {
 
 .flex-parent {
 	flex-direction: column-reverse;
+}
+
+.flex-child-text-right {
+	padding-left: 0;
 }
 
 } /* end media */
@@ -587,6 +635,17 @@ p a, li a {
 	flex-wrap: 0;
 }
 
+@media(max-aspect-ratio:1/1) and (max-width:480px) {
+
+.flex-column-ontall {
+	flex-direction: column;
+}
+
+.flex-column-reverse-ontall {
+	flex-direction: column-reverse;
+}
+
+}
 /* @end */
 
 /* @group PICTURES */
@@ -638,6 +697,10 @@ p a, li a {
 	Media size: 2400px x 1350px
 	
 */
+
+.img-cover {
+	object-fit: cover;
+}
 
 .img-fullsize-crop {
 	position: absolute;

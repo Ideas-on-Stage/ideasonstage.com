@@ -1,14 +1,12 @@
 {{ "<!-- partials:insert-text2-picture1.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="{{ .style }} paddingt-medium paddingb-small"><!-- section used for full width background -->
-	<div class="container insert">
-	    <div class="row">
-	        <div class="col-xs-12 col-sm-6 col-sm-offset-1">
-			    <h3>{{ with .title }}{{ . }}{{ end }}</h3>
-			    <p class="marginv-none">{{ with .description }}{{ .  }}{{ end }}</p>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-sm-offset-0">
-				<img src="{{ .picture }}" class="img-responsive">
-			</div>
-	    </div>
+<section {{ with .sectionid }}id="{{ . }}"{{ end }} class="layout-content {{ .style }}">
+	<div class="flex-parent-row flex-column-ontall">
+        <div class="flex-child-60p">
+		    <h3>{{ with .title }}{{ . }}{{ end }}</h3>
+		    <p class="marginv-none">{{ with .description }}{{ .  }}{{ end }}</p>
+		</div>
+		<div class="flex-child-40p">
+			<img src="{{ .picture }}" class="img-responsive">
+		</div>
 	</div>
 </section>

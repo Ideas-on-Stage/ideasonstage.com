@@ -1,20 +1,12 @@
 {{ "<!-- partials:insert-storyline-begin.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="{{ .style }} paddingv-medium"><!-- section used for full width background -->
-	<div class="container">
-	    <div class="row">
-	        <div class="col-xs-12 text-center">
-			    <h2>{{ with .title }}{{ . }}{{ end }}</h2>
-			    <p>{{ with .description }}{{ .  }}{{ end }}</p>
-			</div>
-	    </div>
-	</div>
-	<div id="storyline-bullet" class="container paddingt-tiny">
-		<div class="row">
-	        <div class="col-xs-12 text-center">
-				<img alt="bullet" src="/pictures/home/ios-orange-bullet.png" height=13 width=13 class="center-block marginv-none">
-			</div>
+<section id="{{ .sectionid }}" class="layout-content padding-none {{ .style }}">
+	{{ if or .title .description }}
+		<div class="flex-parent-column text-center flex-align-center">
+		    <h2>{{ with .title }}{{ . }}{{ end }}</h2>
+		    <p>{{ with .description }}{{ .  }}{{ end }}</p>
+			<img alt="bullet" src="/pictures/home/ios-orange-bullet.png" height=13 width=13>
 		</div>
-	</div>
+	{{ end }}
 <!--
 	do not close section tag here
 	it is closed in the insert-storyline-end.html file

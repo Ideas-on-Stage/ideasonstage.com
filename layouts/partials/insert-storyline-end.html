@@ -4,19 +4,11 @@
 	it is opened in the insert-storyline-begin.html file
 	which MUST be used to open the storyline
 -->
-	<div id="storyline-bullet" class="container">
-		<div class="row">
-	        <div class="col-xs-12 text-center">
-				<img alt="bullet" src="/pictures/home/ios-orange-bullet.png" height=13 width=13 class="center-block marginv-none">
-			</div>
+	{{ if or .title .description }}
+		<div class="flex-parent-column text-center flex-align-center">
+			<img alt="bullet" src="/pictures/home/ios-orange-bullet.png" height=13 width=13>
+			{{ with .title }}<h3>{{ . }}</h3>{{ end }}
+			{{ with .description }}<p>{{ .  }}</p>{{ end }}
 		</div>
-	</div>
-	<div class="container">
-	    <div class="row">
-	        <div class="col-xs-12 text-center">
-			    <h3>{{ with .title }}{{ . }}{{ end }}</h3>
-			    <p>{{ with .description }}{{ .  }}{{ end }}</p>
-			</div>
-	    </div>
-	</div>
+	{{ end }}
 </section>

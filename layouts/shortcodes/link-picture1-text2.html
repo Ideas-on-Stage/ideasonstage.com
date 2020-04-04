@@ -1,18 +1,17 @@
-{{ "<!-- partials:insert-link-half-text-picture-1.html -->" | safeHTML }}
+{{ "<!-- shortcodes:link-picture-1-text2.html:start -->" | safeHTML }}
 
-<div id="team-member" class="flex-parent row margint-small">
-	<div class="flex-child-onethird">
+<div class="flex-parent-row flex-column-ontall">
+	<div class="flex-child-40p">
 		<a href="{{ .Params.link }}">
-			<img src="{{ .Params.picture }}" class="img-responsive">
+			<img src="{{ .Params.picture }}" class="">
 		</a>
 	</div>
-	<div class="flex-child-twothirds">
+	<div class="flex-child-60p flex-child-text-right">
 	    <a href="{{ .Params.link }}">
-	    	<h3 class="margint-none">{{ .Params.title }}</h3>
+	    	<h3 class="">{{ .Params.title }}</h3>
 	    </a>
 	    <p>{{ .Inner | markdownify }}</p>
-		{{ if ne .Params.button "" }}
-		<a href="{{ .Params.link }}" class="button-secondary">{{ .Params.button }}</a>
-		{{ end }}
 	</div>
 </div><!-- flex-parent -->
+
+{{ "<!-- shortcodes:link-picture-1-text2.html:end -->" | safeHTML }}

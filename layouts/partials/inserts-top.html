@@ -1,5 +1,5 @@
 {{ "<!-- partials:inserts-top.html:start -->" | safeHTML }}
-<section id="inserts-top">
+<section id="inserts-top"  class="flex-parent-row">
 {{- $.Scratch.Set "count" 0 }}
 {{- range .Params.insertstop }}
 	{{- $.Scratch.Set "uuid" . }}

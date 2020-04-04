@@ -13,6 +13,7 @@ url			= "/public-speaking-coaching/tedx-coaching/"
 picture		= "tedx-saclay.jpg"
 
 insertstop		= [
+	"tedx-00",
 	"tedx-01",
 	"tedx-02",
 	"tedx-03",

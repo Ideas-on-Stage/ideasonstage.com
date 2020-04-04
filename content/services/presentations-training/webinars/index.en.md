@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Virtual Meeting Revolution - Free Webinar Series"
+title 			= "Virtual Meeting Revolution Webinars"
 description		= "A free Webinar series to become a better presenter."
 categories		= [ "Training & Workshops" ]
 url	 			= "/presentations-training/webinars/"
