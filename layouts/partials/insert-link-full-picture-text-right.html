@@ -1,11 +1,11 @@
 {{ "<!-- partials:insert-link-full-picture-text-right.html:start -->" | safeHTML }}
 <div class="layout-module">
 	{{ partial "elements/section-tags.html" . }}
-		<div class="layout-16-6-image-left-text-right {{ with .style }}{{ . }}{{ end }}">
-			<div class=" layout-16-6-image-left">
+		<div class="layout-module-image-left-text-right {{ with .style }}{{ . }}{{ end }}">
+			<div class=" layout-module-image-left">
 				{{ partial "elements/link-picture.html" . }}
 			</div>
-			<div class="layout-16-6-text-right">
+			<div class="layout-module-text-right">
 				{{ partial "elements/link-title-description.html" . }}
 				{{ partial "elements/button-secondary.html" . }}
 			</div>

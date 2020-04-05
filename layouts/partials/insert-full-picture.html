@@ -1,37 +1,14 @@
-{{ "<!-- partials:insert-full-picture.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="{{ .style }}"><!-- section used for full width background -->
-	<div class="flex-container">
-		{{- if .picture }}
-		<div class="img-center">
-			<img src="{{ .picture }}" class="picture">
-		</div>
-		{{- end }}
-		<div class="{{ .style }}">
-			<div class="flex-item-text-overlay text-center">
-		    	{{ with .title }}<h3>{{ . }}</h3>{{ end }}
-				{{ with .description }}<p>{{ . }}</p>{{ end }}
-	    	</div>
-		</div>
-	</div>
-</section>
-
-
-<section class="margint-tiny">
-	<div class="flex-container {{ .style }}">
-		<div class="img-center">
-			{{ if ne .picture "" }}<img src="{{ .picture }}" class="picture">{{ end }}
-		</div>
-		<div class="{{ .style }}">
-			<div class="container text-center">
-				<div class="row">
-					<div class="col-xs-12 col-sm-10 col-sm-offset-1 paddingt-tiny">
-						<a href="{{ with .link }}{{ . }}{{ end }}">
-					    	{{ if ne .title "" }}<h3>{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}
-					    	<p>{{ with .description }}{{ . }}{{ end }}</p>
-					    </a>
-					</div>
-				</div>
+{{ "<!-- partials:insert-full-picture.html:start -->" | safeHTML }}
+<div class="layout-module">
+	{{ partial "elements/section-tags.html" . }}
+		<div class="layout-module-text-top-image-bottom {{ with .style }}{{ . }}{{ end }}">
+			<div class="layout-module-text-top">
+				{{ partial "elements/title-description.html" . }}
 			</div>
-		</div><!-- class -->
-	</div><!-- flex-container --> 
-</section>
+			<div class="layout-module-image-bottom">
+				{{ partial "elements/picture.html" . }}
+			</div>
+		</div>
+	</section>
+</div>
+{{ "<!-- partials:insert-full-picture.html:end -->" | safeHTML }}
