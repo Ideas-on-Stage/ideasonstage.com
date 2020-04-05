@@ -4,14 +4,14 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
         {{ partial "home/head.html" . }}
-        {{ partial "home/head-slider-css.html" . }}
+        {{ partial "slider-css.html" . }}
     </head>
     <body id="page-top" itemscope itemtype="https://schema.org/Corporation">
 		<a href="{{ .Site.BaseURL }}" itemprop="url"></a>
         {{ partial "nav.html" . }}
 		<div class="layout-page-top">
 		</div>
-	    {{ partial "home/hero.html" . }}
+	    {{ partial "page-hero.html" . }}
 		<main role="main" class="layout-module">
 	        {{ partial "home/content.html" . }}
 			{{ partial "inserts-top.html" . }}

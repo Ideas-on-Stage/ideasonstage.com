@@ -3,11 +3,9 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
         {{ partial "head.html" . }}
-    </head>
+	</head>
     <body id="page-top">
-		<header>
-			{{ partial "nav.html" . }}
-		</header>
+		{{ partial "nav.html" . }}
 		<div class="layout-page-top">
 		</div>
 		<main role="main"{{ with .Params.Itemtype }} itemscope itemtype="https://schema.org/{{ . }}"{{ end }}>

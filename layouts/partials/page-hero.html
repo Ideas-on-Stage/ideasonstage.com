@@ -1,6 +1,8 @@
 {{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
-<section id="title">
-	{{ if .Params.Picture }}
+<header id="hero">
+	{{ if isset .Params "slider" }}
+		{{ partial "slider.html" . }}
+	{{ else if .Params.Picture }}
 		{{/* <!-- if pic exists, create hero area --> */}}
 		<div class="layout-hero">
 			{{ with .Params }}
@@ -23,5 +25,5 @@
             </h1>
 	    </div>
 	{{ end }}
-</section>
+</header>
 {{ "<!-- partials:page-hero.html:end -->" | safeHTML }}
