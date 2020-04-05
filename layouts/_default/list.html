@@ -2,7 +2,9 @@
 	{{ "<!-- _default:list.html:main:start -->" | safeHTML }}
 	{{ partial "page-hero.html" . }}
     {{ partial "events-tabs.html" . }}
+	{{ partial "inserts-top.html" . }}
 	{{ partial "content.html" . }}
+	{{ partial "inserts-bottom.html" . }}
 	{{ partial "pages-list.html" . }}
 	{{ "<!-- _default:list.html:main:end -->" | safeHTML }}
 {{ end }}

@@ -1,7 +1,9 @@
 {{ define "main" }}
 	{{ "<!-- tedx:list.html:main:start -->" | safeHTML }}
     {{ partial "page-hero.html" . }}
+	{{ partial "inserts-top.html" . }}
     {{ partial "content.html" . }}
+	{{ partial "inserts-bottom.html" . }}
     {{ partial "tedx_about.html" . }}
     {{ partial "tedx_speaker.html" . }}
 	{{ "<!-- tedx:list.html:main:end -->" | safeHTML }}

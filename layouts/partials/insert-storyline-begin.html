@@ -1,14 +1,14 @@
 {{ "<!-- partials:insert-storyline-begin.html -->" | safeHTML }}
-<section {{ partial "elements/section-tags.html" . }} class="layout-content padding-none {{ .style }}">
-	{{ if or .title .description }}
-		<div class="flex-parent-column text-center flex-align-center">
-		    <h2>{{ with .title }}{{ . }}{{ end }}</h2>
-		    <p>{{ with .description }}{{ .  }}{{ end }}</p>
-			<img alt="bullet" src="/pictures/home/ios-orange-bullet.png" height=13 width=13>
-		</div>
-	{{ end }}
-<!--
-	do not close section tag here
-	it is closed in the insert-storyline-end.html file
-	which MUST be used to close the storyline
--->
+<div class="layout-content {{ with .style }}{{ . }}{{ end }}">
+	{{ partial "elements/section-tags.html" . }}
+		{{ if or .title .description }}
+			<div class="flex-parent-column text-center flex-align-center">
+				{{ partial "elements/title-description.html" . }}
+				<img alt="bullet" src="/pictures/home/ios-orange-bullet.png" height=13 width=13>
+			</div>
+		{{ end }}
+	<!--
+		do not close the first div and section tags here
+		it is closed in the insert-storyline-end.html file
+		which MUST be used to close the storyline
+	-->

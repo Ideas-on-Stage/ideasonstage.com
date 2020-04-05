@@ -1,27 +1,14 @@
 {{ "<!-- partials:insert-link-text1-picture2.html -->" | safeHTML }}
-<section id="{{ .sectionid }}" class="{{ .style }}"><!-- section used for full width background -->
-	<div class="container insert paddingt-medium paddingb-small">
-	    <div class="row">
-	        <div class="col-sm-4 col-sm-offset-1">
-				<a href="{{ with .link }}{{ . }}{{ end }}">
-				    <h3 class="margint-small">{{ with .title }}{{ . }}{{ end }}</h3>
-				</a>
-			    <p>{{ with .description }}{{ . }}{{ end }}</p>
+<div class="layout-content {{ with .style }}{{ . }}{{ end }}">
+	{{ partial "elements/section-tags.html" . }}
+		<div class="flex-parent-row flex-column-ontall">
+			<div class="flex-child-40p flex-child-text-right">
+				{{ partial "elements/link-title-description.html" . }}
 				{{ partial "elements/button-secondary.html" . }}
 			</div>
-			<div class="col-sm-6 col-sm-offset-0 margint-small">
-				{{ if .link }}
-	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-					<img src="{{ .picture }}" class="img-responsive">
-					{{ "<!-- .link .picture -->" | safeHTML }}
-				</a>	
-				{{ else }}
-	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-					<img src="{{ .url }}{{ .picture }}" class="img-responsive">
-					{{ "<!-- .url .picture -->" | safeHTML }}
-				</a>
-				{{ end }}
-			</div>
+	    	<div class="flex-child-60p">
+				{{ partial "elements/link-picture.html" . }}
+	    	</div>
 	    </div>
-	</div>
-</section>
+	</section>
+</div>

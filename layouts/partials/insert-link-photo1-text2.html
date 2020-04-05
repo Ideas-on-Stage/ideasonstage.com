@@ -1,27 +1,29 @@
 {{ "<!-- partials:insert-link-photo1-text2.html -->" | safeHTML }}
-<section {{ partial "elements/section-tags.html" . }} class="{{ .style }}">
-	<div class="container insert paddingt-medium paddingb-small">
-	    <div class="row">
-	    	<div class="col-sm-6 col-sm-push-5 col-sm-offset-0">
-			    <a href="{{ with .link }}{{ . }}{{ end }}">
-				    <h3>{{ with .title }}{{ . }}{{ end }}</h3>
-			    </a>
-			    <p class="margint-none">{{ with .description }}{{ . }}{{ end }}</p>
-				{{ partial "elements/button-secondary.html" . }}
-			</div>
-	    	<div class="col-sm-4 col-sm-pull-6 col-sm-offset-1">
-				{{ if .link }}
-	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-					<img src="{{ .picture }}" class="img-responsive">
-					{{ "<!-- .link .picture -->" | safeHTML }}
-				</a>	
-				{{ else }}
-	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-					<img src="{{ .url }}{{ .picture }}" class="img-responsive">
-					{{ "<!-- .url .picture -->" | safeHTML }}
-				</a>
-				{{ end }}
-	    	</div>
-	    </div>
-	</div>
-</section>
+<div class="layout-content {{ with .style }}{{ . }}{{ end }}">
+	{{ partial "elements/section-tags.html" . }}
+		<div class="container insert paddingt-medium paddingb-small">
+		    <div class="row">
+		    	<div class="col-sm-6 col-sm-push-5 col-sm-offset-0">
+				    <a href="{{ with .link }}{{ . }}{{ end }}">
+					    <h3>{{ with .title }}{{ . }}{{ end }}</h3>
+				    </a>
+				    <p class="margint-none">{{ with .description }}{{ . }}{{ end }}</p>
+					{{ partial "elements/button-secondary.html" . }}
+				</div>
+		    	<div class="col-sm-4 col-sm-pull-6 col-sm-offset-1">
+					{{ if .link }}
+		    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
+						<img src="{{ .picture }}" class="img-responsive">
+						{{ "<!-- .link .picture -->" | safeHTML }}
+					</a>	
+					{{ else }}
+		    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
+						<img src="{{ .url }}{{ .picture }}" class="img-responsive">
+						{{ "<!-- .url .picture -->" | safeHTML }}
+					</a>
+					{{ end }}
+		    	</div>
+		    </div>
+		</div>
+	</section>
+</div>

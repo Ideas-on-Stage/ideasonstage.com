@@ -1,13 +1,15 @@
 {{ "<!-- partials:insert-link-full-picture.html:start -->" | safeHTML }}
-{{ partial "elements/section-module.html" . }}
-	<div class="layout-16-6-text-top-image-bottom {{ with .style }}{{ . }}{{ end }}">
-		<div class="layout-16-6-text-top text-center">
-			{{ partial "elements/link-title-description.html" . }}
-			{{ partial "elements/button-secondary.html" . }}
+<div class="layout-module">
+	{{ partial "elements/section-tags.html" . }}
+		<div class="layout-16-6-text-top-image-bottom {{ with .style }}{{ . }}{{ end }}">
+			<div class="layout-16-6-text-top">
+				{{ partial "elements/link-title-description.html" . }}
+				{{ partial "elements/button-secondary.html" . }}
+			</div>
+			<div class="layout-16-6-image-bottom">
+				{{ partial "elements/link-picture.html" . }}
+			</div>
 		</div>
-		<div class="layout-16-6-image-bottom">
-			{{ partial "elements/link-picture.html" . }}
-		</div>
-	</div>
-</section>
+	</section>
+</div>
 {{ "<!-- partials:insert-link-full-picture.html:end -->" | safeHTML }}

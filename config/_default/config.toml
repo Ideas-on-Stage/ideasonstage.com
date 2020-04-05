@@ -71,6 +71,7 @@ theme        			= "hugo-creative-theme-master"
 		title_h3			= "black"
 		title_h4			= "black"
 		time			= "#aaa"
+		blockquote		= "#00A3E0"		
 		
 	# ------------------------------		
 	# Navigation

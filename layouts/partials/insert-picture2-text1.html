@@ -2,11 +2,10 @@
 <section {{ partial "elements/section-tags.html" . }} class="layout-content {{ .style }}"><!-- section used for full width background -->
 	<div class="flex-parent-row flex-column-reverse-ontall">
 		<div class="flex-child-60p">
-			<img src="{{ .picture }}">
-		</div>      
+			{{ partial "elements/picture.html" . }}
+		</div>
     	<div class="flex-child-40p flex-child-text-right">
-		    <h3>{{ with .title }}{{ . }}{{ end }}</h3>
-		    <p>{{ with .description }}{{ .  }}{{ end }}</p>
+			{{ partial "elements/title-description.html" . }}
 		</div>
 	</div>
 </section>

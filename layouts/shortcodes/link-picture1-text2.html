@@ -1,6 +1,5 @@
 {{ "<!-- shortcodes:link-picture-1-text2.html:start -->" | safeHTML }}
-
-<div class="flex-parent-row flex-column-ontall">
+<div class="layout-shortcode flex-parent-row flex-column-ontall">
 	<div class="flex-child-40p">
 		<a href="{{ .Params.link }}">
 			<img src="{{ .Params.picture }}" class="">
@@ -12,6 +11,5 @@
 	    </a>
 	    <p>{{ .Inner | markdownify }}</p>
 	</div>
-</div><!-- flex-parent -->
-
+</div>
 {{ "<!-- shortcodes:link-picture-1-text2.html:end -->" | safeHTML }}

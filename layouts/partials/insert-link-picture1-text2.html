@@ -1,27 +1,14 @@
 {{ "<!-- partials:insert-link-picture1-text2.html -->" | safeHTML }}
-<section {{ partial "elements/section-tags.html" . }} class="layout-content {{ .style }}">
-	<div class="container insert paddingt-medium paddingb-small">
-	    <div class="row">
-	    	<div class="col-xs-12 col-sm-6 col-sm-push-5 col-sm-offset-0">
-			    <a href="{{ with .link }}{{ . }}{{ end }}">
-			    	<h3>{{ with .title }}{{ . }}{{ end }}</h3>
-			    </a>
-			    <p>{{ with .description }}{{ . }}{{ end }}</p>
+<div class="layout-content {{ with .style }}{{ . }}{{ end }}">
+	{{ partial "elements/section-tags.html" . }}
+		<div class="flex-parent-row flex-column-reverse-ontall">
+	    	<div class="flex-child-40p">
+				{{ partial "elements/link-picture.html" . }}
+	    	</div>
+			<div class="flex-child-60p flex-child-text-right">
+				{{ partial "elements/link-title-description.html" . }}
 				{{ partial "elements/button-secondary.html" . }}
 			</div>
-	    	<div class="col-xs-12 col-sm-4 col-sm-pull-6 col-sm-offset-1">
-				{{ if .link }}
-	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-					<img src="{{ .picture }}" class="img-responsive">
-					{{ "<!-- .link .picture -->" | safeHTML }}
-				</a>	
-				{{ else }}
-	    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-					<img src="{{ .url }}{{ .picture }}" class="img-responsive">
-					{{ "<!-- .url .picture -->" | safeHTML }}
-				</a>
-				{{ end }}
-	    	</div>
 	    </div>
-	</div>
-</section>
+	</section>
+</div>

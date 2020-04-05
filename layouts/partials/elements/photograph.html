@@ -1,0 +1,1 @@
+<img src="{{ with .link }}{{ else }}{{ .url }}{{ end }}{{ .picture }}" class="img-cover photograph" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>

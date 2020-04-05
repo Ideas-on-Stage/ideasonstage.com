@@ -1,7 +1,7 @@
 {{ "<!-- partials:insert-storyline-picture-text.html:start -->" | safeHTML }}
 <div class="layout-storyline">
 	<div class="layout-storyline-left"><!-- used to display dotted line in middle -->
-		{{ if ne .picture "" }}<img src="{{ .picture }}" class="photograph">{{ end }}
+		{{ partial "elements/photograph.html" . }}
 	</div>
 	<div class="layout-storyline-right">
 	    {{ if ne .title "" }}<h3 class="timeline-title">{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}

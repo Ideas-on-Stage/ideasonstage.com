@@ -1,14 +1,8 @@
-{{ "<!-- partials:content.html -->" | safeHTML }}
-    {{ partial "inserts-top.html" . }}
-    <section id="content-main">
-	    <div class="container margint-large marginb-medium">
-	        <div class="row">        
-	        	<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-					{{ with .Params.descprop }}<div itemprop="{{ . }}">{{ end }}
-					{{ with .Content }}{{ . }}{{ end }} {{/* <!-- note: don't put markdownify it prevents the content from rendering in hugo 0.67 --> */}}
-					{{ with .Params.descprop }}</div>{{ end }}
-		        </div>
-		    </div>
-	    </div>
-    {{ partial "inserts-bottom.html" . }}
-    </section>
+{{ "<!-- partials:content.html:start -->" | safeHTML }}
+<div class="layout-content">
+	<section id="content-main" {{ with .Params.descprop }} itemprop="{{ . }}"{{ end }}>
+		{{/* <!-- note: don't put markdownify it prevents the content from rendering in hugo 0.67 --> */}}
+		{{- with .Content }}{{ . }}{{ end }} 
+	</section>
+</div>
+{{ "<!-- partials:content.html:end -->" | safeHTML }}

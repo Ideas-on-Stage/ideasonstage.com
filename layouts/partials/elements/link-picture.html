@@ -1,5 +1,3 @@
-{{ "<!-- partials:elements:link-picture.html:start -->" | safeHTML }}
 <a href="{{ with .link }}{{ . }}{{ else }}{{ .url }}{{ end }}">
-<img src="{{ with .link }}{{ else }}{{ .url }}{{ end }}{{ .picture }}" class="img-cover" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
+	{{ partial "elements/picture.html" . }}
 </a>
-{{ "<!-- partials:elements:link-picture.html:end -->" | safeHTML }}

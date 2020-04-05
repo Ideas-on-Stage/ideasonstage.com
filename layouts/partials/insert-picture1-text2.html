@@ -1,12 +1,14 @@
 {{ "<!-- partials:insert-picture1-text2.html -->" | safeHTML }}
-<section {{ partial "elements/section-tags.html" . }} class="layout-content {{ .style }}">
-	<div class="flex-parent-row flex-column-reverse-ontall">
-    	<div class="flex-child-40p">
-    		<img src="{{ .picture }}">
-    	</div>
-    	<div class="flex-child-60p flex-child-text-right">
-		    <h3>{{ with .title }}{{ . }}{{ end }}</h3>
-		    <p>{{ with .description }}{{ .  }}{{ end }}</p>
+<div class="layout-content {{ with .style }}{{ . }}{{ end }}">
+	{{ partial "elements/section-tags.html" . }}
+		<div class="flex-parent-row flex-column-reverse-ontall">
+	    	<div class="flex-child-40p">
+				{{ partial "elements/picture.html" . }}
+	    	</div>
+	    	<div class="flex-child-60p flex-child-text-right">
+			    <h3 class="title-responsive">{{ with .title }}{{ . }}{{ end }}</h3>
+			    <p class="text-responsive">{{ with .description }}{{ .  }}{{ end }}</p>
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
+</div>

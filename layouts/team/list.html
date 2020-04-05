@@ -1,6 +1,7 @@
 {{ define "main" }}
 	{{ partial "page-hero.html" . }}
     {{ partial "events-tabs.html" . }}
+	{{ partial "inserts-top.html" . }}
 	{{ partial "content.html" . }}
 	{{ "<!-- team:list.html:main:start -->" | safeHTML }}
 	<section id="team-members">
@@ -29,4 +30,5 @@
 	    </div>
 	</section>
 	{{ "<!-- team:list.html:main:end -->" | safeHTML }}
+	{{ partial "inserts-bottom.html" . }}
 {{ end }}

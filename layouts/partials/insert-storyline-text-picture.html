@@ -5,6 +5,7 @@
 	    <p class="timeline-text">{{ with .description }}{{ .  }}{{ end }}</p>
 	</div>
 	<div class="layout-storyline-right">
-		{{ if ne .picture "" }}<img src="{{ .picture }}" class="photograph">{{ end }}
+		{{ partial "elements/photograph.html" . }}
+	</div>
 </div>
 {{ "<!-- partials:insert-storyline-picture-text.html:end -->" | safeHTML }}

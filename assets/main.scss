@@ -67,8 +67,8 @@ big {
 /* This is where ALL font sizes are declared */
 
 /* font sizes for standard tags */
-body, a 					{ font-size: 16px;		}
-h1							{ font-size: 3vw;		}
+body, a, blockquote			{ font-size: 1.50vw;	}
+h1							{ font-size: 2.50em;	}
 h2							{ font-size: 2.00em;	}
 h3 							{ font-size: 1.50em;	}
 h4 							{ font-size: 1.25em;	}
@@ -79,16 +79,16 @@ footer, footer a			{ font-size: 0.75em;	}
 .navbar-inverse .nav>li a 	{ font-size: 0.80em;	}
 .dropdown-menu 				{ font-size: 1.00em;	}
 .dropdown-menu > li > a 		{ font-size: 0.75em;	}
-.flex-404 .error-box h1		{ font-size: 2em;		}
+.flex-404 .error-box h1		{ font-size: 2.00em;	}
 .flex-404 .error-box h2 		{ font-size: 1.25em;	}
 .form-control-nav 			{ font-size: 90%;		}
-.people-name					{ font-size: 1em;		}
+.people-name					{ font-size: 1.00em;	}
 .people-title				{ font-size: 0.75em;	}
-.people-description			{ font-size: 1em;		}
+.people-description			{ font-size: 1.00em;	}
 .price .header 				{ font-size: 25px;		}
 .price .grey				{ font-size: 20px;		}
-.style-slider-title 			{ font-size: 4vw;		}
-.style-slider-subtitle		{ font-size: 2vw;		}
+.style-slider-title 			{ font-size: 2.50em;	}
+.style-slider-subtitle		{ font-size: 1.50em;	}
 .thumbnail-caption h3 		{ font-size: 0.75em;	}
 .tedxtable 					{ font-size: 16px;		}
 .tedxtable th				{ font-size: 20px;		}
@@ -97,28 +97,28 @@ footer, footer a			{ font-size: 0.75em;	}
 .testimonials .item .testimonial .name-picture h4	{ font-size: 1em;	}
 .testimonials .item .testimonial .name-picture h5 	{ font-size: 14px;	}
 .testimonials .item .testimonial .name-picture p		{ font-size: 12px;	}
-.timeline-title				{ font-size: 2vw;		}
-.timeline-text				{ font-size: 1vw;		}
-.style-section-title-main 	{ font-size: 3vw;		}
-.title-responsive			{ font-size: 3vw;		}
-.text-responsive			{ font-size: 1.5vw;		}
+.timeline-title				{ font-size: 1.50em;	}
+.timeline-text				{ font-size: 0.80em;	}
+.style-section-title-main 	{ font-size: 2.00em;	}
+.title-responsive			{ font-size: 2.00em;	}
+.text-responsive			{ font-size: 1.00em;	}
 
 /* adjust for small tall smartphone screens */
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
 
-h1 							{ font-size: 7vw;		}	
-h2 							{ font-size: 2em;		}
-h3 							{ font-size: 1.25em;	}
+	body, a, blockquote 			{ font-size: 4vw;		}
+		
+	.style-slider-title 			{ font-size: 1.50em;	}	
+	.style-slider-subtitle		{ font-size: 1.00em;	}
+	.tedxtable th				{ font-size: 14px;		}
+	.tedxtable					{ font-size: 12px;		}
 	
-.style-slider-title 			{ font-size: 6vw;		}	
-.style-slider-subtitle		{ font-size: 4vw;		}
-.tedxtable th				{ font-size: 14px;		}
-.tedxtable					{ font-size: 12px;		}
-.timeline-title				{ font-size: 4vw;		}
-.timeline-text				{ font-size: 3vw;		}
-.style-section-title-main	{ font-size: 8vw;		}
-.text-responsive			{ font-size: 4vw;		}
-.title-responsive			{ font-size: 8vw;		}
+}
+
+/* adjust for very large screens (>1280px wide) */
+@media(min-width:1281px) {
+	
+	body, a, blockquote			{ font-size: 20px;		}
 	
 }
 
@@ -128,11 +128,21 @@ h3 							{ font-size: 1.25em;	}
 
 /* @group STYLES STANDARD TAGS */
 
+/* !!! Only set sitewide attributes !!! */
+
 p {
 	margin-top: 1em;
 	margin-bottom: 1em;
  }
- 
+
+blockquote {
+	padding: 1vw;
+	color: {{ site.Params.colors.blockquote }};
+}
+blockquote p {
+	margin: 0;
+} 
+
 li {
  	margin-top: 0.5em;
  	margin-bottom: 0.5em;
@@ -141,9 +151,15 @@ li {
 
 h1 {
   	text-transform: uppercase;
-  	margin-top: 0;
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;
 }
- 
+
+h3 {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
 time {
  	color: {{ site.Params.colors.time }};
 }
@@ -170,6 +186,36 @@ p a, li a {
 /* @end */
 
 /* @group STYLES CUSTOM CLASSES */
+
+#content-main h1,
+#content-main h5 {
+	/* highlight h1 and h5 in red to show problem */
+	color: red; 
+}
+
+#content-main > h2,
+#content-main > h3,
+#content-main > h4 {
+	/* > ensures only direct children are affected */
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+/* remove top margin from first element of content */
+#content-main p:first-child,
+#content-main h2:first-child,
+#content-main h3:first-child,
+#content-main h4:first-child {
+	margin-top: 0;
+}
+
+/* remove bottom margin from last element of content */
+#content-main p:last-child,
+#content-main h2:last-child,
+#content-main h3:last-child,
+#content-main h4:last-child {
+	margin-bottom: 0;
+}
 
 .style-text-intro {
 	color: #888;
@@ -288,6 +334,8 @@ p a, li a {
 }
 
 .timeline-title {
+	padding: 0;
+	margin: 0;
 	margin-top: 0;
 	margin-bottom: 1vw;
 }
@@ -298,6 +346,35 @@ p a, li a {
 
 /* @group LAYOUT */
 /* Layout defines the position constraints of elements in the document flow */
+
+body {
+	padding: 0;
+	margin: 0;
+}
+nav {
+	padding: 0;
+	margin: 0;
+}
+header {
+	padding: 0;
+	margin: 0;
+}
+main {
+	padding: 0;
+	margin: 0;
+}
+aside {
+	padding: 0;
+	margin: 0;
+}
+
+
+#content-main > p > img {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	max-width: 100%;
+}
 
 .layout-relative {
 	position: relative
@@ -333,6 +410,30 @@ p a, li a {
 /* Maximum width of the page to avoid wonky ratios*/
 .layout-page-width {
 	margin: auto;
+}
+
+.layout-content {
+	padding: 2vw 2vw;
+	margin: auto;
+	width: 80vw;
+	max-width: 1200px; /* prevents text area from getting unpleasantly wide */
+}
+
+.layout-hero {
+	margin: 0;
+	padding: 0;
+	height: 60vh;
+	width: 100%;
+	max-width: 160vh;
+}
+
+.layout-hero-img {
+	margin: 0;
+	padding: 0;
+	height: 60vh;
+	width: 100%;
+	max-width: 160vh;
+	object-fit: cover;
 }
 
 /* layout height = 100vh - menu, width=100vw (full viewport minus menubar) */
@@ -408,6 +509,7 @@ p a, li a {
 	height: 18vw;
 	width: 100%;
 	flex: 1;
+	text-align: center;
 }
 .layout-16-6-image-bottom {
 	height: 18vw;
@@ -419,6 +521,11 @@ p a, li a {
 	width: 100%;
 	object-fit: contain;
 	object-position: 50% 100%;
+}
+
+/* layout for shortcodes */
+.layout-shortcode {
+	margin: 4vw 0;
 }
 
 /* layout for storyline inserts */
@@ -445,30 +552,6 @@ p a, li a {
 .layout-storyline-right img {
 	max-height: 100%;
 	max-width: 100%;
-}
-
-
-.layout-content {
-	padding: 2vw 2vw;
-	margin: auto;
-	width: 80vw;
-}
-
-.layout-hero {
-	margin: 0;
-	padding: 0;
-	height: 60vh;
-	width: 100%;
-	max-width: 160vh;
-}
-
-.layout-hero-img {
-	margin: 0;
-	padding: 0;
-	height: 60vh;
-	width: 100%;
-	max-width: 160vh;
-	object-fit: cover;
 }
 
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
@@ -647,13 +730,28 @@ p a, li a {
 	flex-direction: column-reverse;
 }
 
-.flex-column-ontall .flex-child-text-left,
+.flex-column-ontall .flex-child-text-left {
+	padding-right: 0;
+	padding-top: 4vw;
+	padding-bottom: 2vw;
+}
+
 .flex-column-reverse-ontall .flex-child-text-left {
+	/* text was on left of img, now below */
+	padding-top: 4vw;
 	padding-right: 0;
 }
-.flex-column-ontall .flex-child-text-right,
+
+.flex-column-ontall .flex-child-text-right {
+	/* text was on right of image, now below */
+	padding-top: 4vw;
+	padding-left: 0;
+}
+
 .flex-column-reverse-ontall .flex-child-text-right {
 	padding-left: 0;
+	padding-top: 4vw;
+	padding-bottom: 2vw;
 }
 
 }
@@ -1223,11 +1321,6 @@ display: block;
 	If padding added to section(s), it breaks the full width inserts
 */
 
-#content-main img {
-	display: block;
-	max-width: 100%;
-}
-
 article img {
 	display: block;
 	width: auto;
@@ -1240,8 +1333,6 @@ article iframe {
 	display: block;
 	width: auto;
 	max-width: 100%;
-	margin-top: 40px;
-	margin-bottom: 40px;
 }
 
 section#content  {
@@ -1253,20 +1344,6 @@ section#content h2,
 section#content h3,
 section#content h4 {
 	margin-top: 40px;
-	margin-bottom: 0.5em;
-}
-
-
-section#content-main h1,
-section#content-main h2
-{
-	margin-top: 40px;
-	margin-bottom: 0.5em;
-}
-
-section#content-main h3
-{
-	margin-top: 20px;
 	margin-bottom: 0.5em;
 }
 
