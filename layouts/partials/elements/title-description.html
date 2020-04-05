@@ -1,6 +1,4 @@
-{{ if .title }}
-	<h3 class="title-responsive" {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }}>{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>
-{{ end }}
+{{ partial "elements/title.html" . }}
 {{ if .description }}
 	<p class="text-responsive" {{ if .descprop }}itemprop="{{ .descprop }}"{{ end }}>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
 {{ end }}

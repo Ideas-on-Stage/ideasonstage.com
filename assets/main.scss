@@ -373,11 +373,11 @@ aside {
 	display: block;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	max-width: 100%;
+	width: 100%;
 }
 
 .layout-relative {
-	position: relative
+	position: relative;
 }
 
 .layout-absolute {
@@ -404,6 +404,11 @@ aside {
 
 /* approximately 16/6 ratio */
 .layout-page-title {
+	position: sticky;
+	top: {{ site.Params.navigation.height }};
+	z-index: 100;
+	display: flex;
+	justify-content: center;
 	padding: 2vw;
 }
 
@@ -422,17 +427,17 @@ aside {
 .layout-hero {
 	margin: 0;
 	padding: 0;
-	height: 60vh;
-	width: 100%;
-	max-width: 160vh;
+	height: 75vh;
+	width: 100vw;
 }
 
-.layout-hero-img {
+.layout-hero img {
+	position: absolute;
+	z-index: 0;
 	margin: 0;
 	padding: 0;
-	height: 60vh;
-	width: 100%;
-	max-width: 160vh;
+	height: 75vh;
+	width: 100vw;
 	object-fit: cover;
 }
 

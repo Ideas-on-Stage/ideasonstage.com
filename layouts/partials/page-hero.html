@@ -1,30 +1,27 @@
 {{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
 <section id="title">
-	{{/* <!-- if pic exists, add div to add hero area to document flow --> */}}
 	{{ if .Params.Picture }}
-		<div class="layout-size-screen-partial">
-	{{ end }}
-		{{/* <!-- insert picture if exists --> */}}
-		{{ if .Params.Picture }}
+		{{/* <!-- if pic exists, create hero area --> */}}
+		<div class="layout-hero">
 			{{ with .Params }}
-				<div class="layout-absolute {{ with .style }}{{ . }}{{ end }}">
-					<img src="{{ if .link }}{{ .picture }}{{ else }}{{ .url }}{{ .picture }}{{ end }}" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
-				</div>
+				<img src="{{ if .link }}{{ .picture }}{{ else }}{{ .url }}{{ .picture }}{{ end }}" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
 			{{ end }}
-		{{ end }}
-		{{/* <!-- add title --> */}}
-		{{ if .Title }}
-			{{/* <!-- title style is dark gray, or transparent if bg pic --> */}}
-		    <div class="layout-sticky layout-page-title style-page-title{{ if .Params.Picture }}-overlay{{ end }}">
-		        <div class="flex-parent-column flex-justify-center flex-align-center">
+			{{/* <!-- adding layout-hero div corrects bug on browsers where sticky doesn't work --> */}}
+			<div class="layout-hero layout-absolute">
+			    <div class="layout-page-title style-page-title-overlay">
 		        	<h1 {{ with .Params.Titleprop }}itemprop="{{ . }}"{{ end }}>
 			            {{ with .Title }}{{ . | markdownify  }}{{ end }}
 		            </h1>
-				</div>
-		    </div>
-		{{ end }}
-	{{ if .Params.Picture }}
+			    </div>
+			</div>
 		</div>
+	{{ else if .Title }}
+		{{/* <!-- else if title exists, create title area --> */}}
+	    <div class="layout-page-title style-page-title">
+        	<h1 {{ with .Params.Titleprop }}itemprop="{{ . }}"{{ end }}>
+	            {{ with .Title }}{{ . | markdownify  }}{{ end }}
+            </h1>
+	    </div>
 	{{ end }}
 </section>
 {{ "<!-- partials:page-hero.html:end -->" | safeHTML }}

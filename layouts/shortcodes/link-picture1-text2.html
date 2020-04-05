@@ -1,9 +1,7 @@
 {{ "<!-- shortcodes:link-picture-1-text2.html:start -->" | safeHTML }}
 <div class="layout-shortcode flex-parent-row flex-column-ontall">
 	<div class="flex-child-40p">
-		<a href="{{ .Params.link }}">
-			<img src="{{ .Params.picture }}" class="">
-		</a>
+		{{ partial "elements/link-picture.html" .Params }}
 	</div>
 	<div class="flex-child-60p flex-child-text-right">
 	    <a href="{{ .Params.link }}">

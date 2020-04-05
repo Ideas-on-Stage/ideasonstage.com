@@ -1,0 +1,3 @@
+<a href="{{ with .link }}{{ . }}{{ else }}{{ .url }}{{ end }}">
+	<h3 class="title-responsive" {{ if .titleprop }}itemprop="{{ .titleprop }}"{{ end }}>{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>
+</a>
