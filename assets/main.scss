@@ -22,11 +22,9 @@ body, a {
   	font-family: "Whitney SSm A", "Whitney SSm B";
   	font-style: normal;
   	font-weight: 400;
-  	line-height: 1.6;
-  	color: {{ site.Params.colors.text }};
 }
 
-b, strong {
+b, strong, blockquote {
   	font-family: "Whitney SSm A", "Whitney SSm B";
   	font-style: normal;
   	font-weight: 700;
@@ -53,12 +51,11 @@ big {
 	font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 0.8em;
 }
 
 .button-primary, .button-secondary {
     font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
-    font-weight: 700;	
+    font-weight: 700;
 }
 
 /* @end */
@@ -82,6 +79,7 @@ footer, footer a			{ font-size: 0.75em;	}
 .flex-404 .error-box h1		{ font-size: 2.00em;	}
 .flex-404 .error-box h2 		{ font-size: 1.25em;	}
 .form-control-nav 			{ font-size: 90%;		}
+.navbar-inverse .nav>li a	{ font-size: 0.80em;	}
 .people-name					{ font-size: 1.00em;	}
 .people-title				{ font-size: 0.75em;	}
 .people-description			{ font-size: 1.00em;	}
@@ -130,34 +128,22 @@ footer, footer a			{ font-size: 0.75em;	}
 
 /* !!! Only set sitewide attributes !!! */
 
-p {
-	margin-top: 1em;
-	margin-bottom: 1em;
- }
 
-blockquote {
-	padding: 1vw;
-	color: {{ site.Params.colors.blockquote }};
+body, a {
+  	line-height: 1.6;
+  	color: {{ site.Params.colors.text }};
 }
-blockquote p {
-	margin: 0;
-} 
 
 li {
- 	margin-top: 0.5em;
- 	margin-bottom: 0.5em;
  	text-align: left;
+}
+
+blockquote {
+	color: {{ site.Params.colors.blockquote }};
 }
 
 h1 {
   	text-transform: uppercase;
-	margin-block-start: 0.5em;
-	margin-block-end: 0.5em;
-}
-
-h3 {
-	margin-block-start: 0;
-	margin-block-end: 0;
 }
 
 time {
@@ -183,43 +169,59 @@ p a, li a {
 	border-bottom: dotted 1px {{ site.Params.colors.link_hover }};
 }
 
-/* @end */
-
-/* @group STYLES CUSTOM CLASSES */
-
 #content-main h1,
 #content-main h5 {
 	/* highlight h1 and h5 in red to show problem */
 	color: red; 
 }
 
-#content-main > h2,
-#content-main > h3,
-#content-main > h4 {
-	/* > ensures only direct children are affected */
-	margin-top: 1.5em;
-	margin-bottom: 0.5em;
-}
+/* @end */
 
-/* remove top margin from first element of content */
-#content-main p:first-child,
-#content-main h2:first-child,
-#content-main h3:first-child,
-#content-main h4:first-child {
-	margin-top: 0;
-}
+/* @group STYLES CUSTOM CLASSES */
 
-/* remove bottom margin from last element of content */
-#content-main p:last-child,
-#content-main h2:last-child,
-#content-main h3:last-child,
-#content-main h4:last-child {
-	margin-bottom: 0;
+.photograph {
+	border: 8px solid #fff;
+	box-shadow: 2px 2px 8px #aaa;
 }
 
 .style-text-intro {
 	color: #888;
 	text-align: center;
+}
+
+.style-page-title {
+	text-align: center;
+	color: #fff;
+	background-color: #222;
+}
+
+.style-page-title-overlay {
+	text-align: center;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.4);	
+}
+
+.style-section-title-main {
+	color: #bbb;
+	text-transform: uppercase;
+}
+
+.text-responsive {
+	margin: 0;
+	padding: 0;
+}
+
+.title-responsive
+{
+	margin: 0 0 1vw 0;
+	padding: 0;
+}
+
+.timeline-title {
+	padding: 0;
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 1vw;
 }
 
 /* @group SLIDER */
@@ -238,7 +240,7 @@ p a, li a {
   text-align: center;
 }
 
-@media(max-aspect-ratio:1/1) {
+@media(max-aspect-ratio:1/1) and (max-width:480px) {
 
 	/* adjust for tall viewport */
 
@@ -306,40 +308,6 @@ p a, li a {
 
 /* @end */
 
-.style-page-title {
-	text-align: center;
-	color: #fff;
-	background-color: #222;
-}
-
-.style-page-title-overlay {
-	text-align: center;
-	color: #fff;
-	background-color: rgba(0, 0, 0, 0.4);	
-}
-
-.style-section-title-main {
-	color: #bbb;
-	text-transform: uppercase;
-}
-
-.text-responsive {
-	margin: 0;
-	padding: 0;
-} 
-.title-responsive
-{
-	margin: 0 0 1vw 0;
-	padding: 0;
-}
-
-.timeline-title {
-	padding: 0;
-	margin: 0;
-	margin-top: 0;
-	margin-bottom: 1vw;
-}
-
 /* @end */
 
 /* @end */
@@ -347,27 +315,85 @@ p a, li a {
 /* @group LAYOUT */
 /* Layout defines the position constraints of elements in the document flow */
 
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+ }
+
+blockquote {
+	padding: 1vw;
+}
+
+blockquote p {
+	margin: 0;
+}
+
+li {
+ 	margin-top: 0.5em;
+ 	margin-bottom: 0.5em;
+ 	text-align: left;
+}
+
+h1 {
+	margin-block-start: 0.5em;
+	margin-block-end: 0.5em;
+}
+
+h3 {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
 body {
 	padding: 0;
 	margin: 0;
 }
+
 nav {
 	padding: 0;
 	margin: 0;
 }
+
 header {
 	padding: 0;
 	margin: 0;
 }
+
 main {
 	padding: 0;
 	margin: 0;
 }
+
 aside {
 	padding: 0;
 	margin: 0;
 }
 
+/* #content-main section layout */
+
+#content-main > h2,
+#content-main > h3,
+#content-main > h4 {
+	/* > ensures only direct children are affected */
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+/* remove top margin from first element of content */
+#content-main p:first-child,
+#content-main h2:first-child,
+#content-main h3:first-child,
+#content-main h4:first-child {
+	margin-top: 0;
+}
+
+/* remove bottom margin from last element of content */
+#content-main p:last-child,
+#content-main h2:last-child,
+#content-main h3:last-child,
+#content-main h4:last-child {
+	margin-bottom: 0;
+}
 
 #content-main > p > img {
 	display: block;
@@ -412,6 +438,23 @@ aside {
 	padding: 2vw;
 }
 
+/* hero */
+.layout-hero {
+	margin: 0;
+	padding: 0;
+	height: 75vh;
+	width: 100vw;
+}
+.layout-hero img {
+	position: absolute;
+	z-index: 0;
+	margin: 0;
+	padding: 0;
+	height: 75vh;
+	width: 100vw;
+	object-fit: cover;
+}
+
 /* Maximum width of the page to avoid wonky ratios*/
 .layout-page-width {
 	margin: auto;
@@ -422,23 +465,6 @@ aside {
 	margin: auto;
 	width: 80vw;
 	max-width: 1200px; /* prevents text area from getting unpleasantly wide */
-}
-
-.layout-hero {
-	margin: 0;
-	padding: 0;
-	height: 75vh;
-	width: 100vw;
-}
-
-.layout-hero img {
-	position: absolute;
-	z-index: 0;
-	margin: 0;
-	padding: 0;
-	height: 75vh;
-	width: 100vw;
-	object-fit: cover;
 }
 
 /* layout height = 100vh - menu, width=100vw (full viewport minus menubar) */
@@ -880,87 +906,6 @@ aside {
 
 /* @end */
 
-/* @group FLEX (OLD) */
-
-/*
-	FLEX CONTAINERS
-	Used to manage flexboxes
-*/
-/*
-.flex-parent {
-	display: flex;
-	overflow: hidden;
-	justify-content: center;
-}
-
-.flex-parent .col {
-	flex-direction: column;
-}
-
-.flex-parent .row {
-	flex-direction: row;
-	align-items: flex-start;
-}
-
-.flex-child {
-	flex: 1;
-}
-
-.flex-child-half {
-	margin-top: 6px;
-	margin-left: 6px;
-	margin-right: 6px;
-	flex: 1;
-}
-
-.flex-child-half-right {
-	margin-left: 0px;
-}
-
-.flex-child-onethird {
-	margin-top: 12px;
-	margin-left: 12px;
-	margin-right: 12px;
-	flex: 1 1 33%;
-}
-
-.flex-child-twothirds {
-	margin-top: 12px;
-	margin-left: 12px;
-	margin-right: 12px;
-	flex: 1 1 67%;
-}
-*/
-/*
-	flex-parent-img-txt
-	Used to display full width pics with text on the right.
-	left area of pic is cropped / overflows on the left on smaller screens.
-*/
-
-.flex-parent-img-txt {
-	display: flex;
-	overflow: hidden;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
-
-/*
-.flex-child-40p {
-	flex: 1 0 1;
-	max-width: 600px;
-	width: 40%;
-	padding-left: 40px;
-	padding-right: 80px;
-}
-
-.flex-child-60p {
-	flex: 1 0 1;
-	max-width: 1200px;
-	width: 60%;
-}
-*/
-
 /*
 	FLEX FOR TEXT + PIC IN COLUMN
 */
@@ -1267,20 +1212,8 @@ flex-container .flex-item-text h4 {
 
 }
 
-.timeline {
-	position: absolute;
-	width: 50%;
-	height: 219px;
-	border-right: 1px dotted #333;
-}
-
 .fixedheightsmall {
 	height: 220px;	
-}
-
-.photograph {
-	border: 8px solid #fff;
-	box-shadow: 2px 2px 8px #aaa;
 }
 
 .vcenter {
