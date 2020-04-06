@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Virtual Speaking Success: Effective communication in online meetings"
 tags = ["Communication", "OnlineMeeting", "VirtualMeetingRevolution", "PublicSpeaking"]
 news = ["general"]
