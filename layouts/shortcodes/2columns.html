@@ -1,0 +1,16 @@
+<div class="layout-shortcode {{ with .Params.class }}{{ . }}{{ end }}">
+	{{ with .Params.title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+	<div class="flex-parent-row flex-column-ontall">
+		{{ $columns := split .Inner "---" }}
+		{{ if ne 2 (len $columns) }}
+			Shortcode content is not two columns. The second column content is separated by "---"
+		{{ else }}
+			<div class="flex-child-50p flex-child-text">
+				{{ (index $columns 0) | markdownify }}
+			</div>
+			<div class="flex-child-50p flex-child-text">
+				{{ (index $columns 1) | markdownify }}
+			</div>
+		{{ end }}
+	</div>
+</div>

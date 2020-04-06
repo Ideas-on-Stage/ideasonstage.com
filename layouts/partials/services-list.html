@@ -1,5 +1,5 @@
 {{ "<!-- partials:services-list.html:start -->" | safeHTML }}
-{{ range (.Paginator 10).Pages }}
+{{ range .Pages }}
 	{{ with .Params }}
 		{{ partial "insert-link-picture2-text1.html" . }}
 	{{ end }}

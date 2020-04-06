@@ -1,0 +1,24 @@
+{{/* <!--
+	gets the path to the hero image
+	- first is simply .Params.picture if the .link and .picture parameters exist
+	- second is .url.picture if no .link exists but .picture exists
+	- third is hero.jpg picture in same folder as page
+ --> */}}
+
+{{ $imgpath := "" }}
+{{ if .Params.picture }}
+	{{ if .Params.link }}
+		{{/* <!-- with .link, .picture is supposed to contain full path to img --> */}}
+		{{ $imgpath = .Params.picture }}
+	{{ else }}
+		{{/* <!-- with .url, .picture only contains name of picture --> */}}
+		{{ $imgpath = path.Join .Params.url .Params.picture }}
+	{{ end }}
+{{ else }}
+	{{ $testpath := path.Join $.Page.File.Dir "hero.jpg" }}
+	{{ if fileExists $testpath }}
+		{{ $imgpath = path.Join .Params.url "hero.jpg" }}	
+	{{ end }}
+{{ end }}
+
+{{ return $imgpath }}
