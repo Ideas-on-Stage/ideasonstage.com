@@ -1,14 +1,13 @@
 {{ "<!-- partials:insert-full-picture.html:start -->" | safeHTML }}
-<div class="layout-module">
-	{{ partial "elements/section-tags.html" . }}
-		<div class="layout-module-text-top-image-bottom {{ with .style }}{{ . }}{{ end }}">
-			<div class="layout-module-text-top">
-				{{ partial "elements/title-description.html" . }}
-			</div>
-			<div class="layout-module-image-bottom">
-				{{ partial "elements/picture.html" . }}
-			</div>
+{{ $schema := partial "getschemaitem.html" . }}
+<section {{ $schema | safeHTMLAttr }} class="layout-module">
+	<div class="layout-module-text-top-image-bottom ">
+		<div class="layout-module-text-top {{ with .style }}{{ . }}{{ end }}">
+			{{ partial "elements/title-description.html" . }}
 		</div>
-	</section>
-</div>
+		<div class="layout-module-image-bottom">
+			{{ partial "elements/picture.html" . }}
+		</div>
+	</div>
+</section>
 {{ "<!-- partials:insert-full-picture.html:end -->" | safeHTML }}

@@ -1,5 +1,6 @@
 {{ "<!-- partials:insert-picture2-text1.html -->" | safeHTML }}
-<section {{ partial "elements/section-tags.html" . }} class="layout-content {{ .style }}"><!-- section used for full width background -->
+{{ $schema := partial "getschemaitem.html" . }}
+<section {{ $schema | safeHTMLAttr }} class="layout-content {{ .style }}">
 	<div class="flex-parent-row flex-column-reverse-ontall">
 		<div class="flex-child-60p">
 			{{ partial "elements/picture.html" . }}

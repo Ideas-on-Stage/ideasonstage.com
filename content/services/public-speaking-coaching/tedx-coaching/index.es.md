@@ -1,19 +1,15 @@
 +++
-uuid		= "DD67BD5A-5334-4B19-A347-25E25B3F579C"
 draft		= false
-type		= "tedx"
 title		= "Coaching TEDx"
 description	= "El público de los eventos TED tienes unas altas expectativas. Aprende a sobrepasarlas con nuestra ayuda."
 weight		= 1
 categories	= [ "Public Speaking Coaching" ]
-showrefs	= false
-redirect	= false
-redirectlink = ""
 url			= "/public-speaking-coaching/tedx-coaching/"
 picture		= "tedx-saclay.jpg"
 button		= "Saber más"
 
 insertstop		= [
+	"tedx-00",
 	"tedx-01",
 	"tedx-02",
 	"tedx-03",
@@ -23,10 +19,6 @@ insertstop		= [
 insertsbottom	= [
 ]
 
-aboutdescription = " "
-category1= "Nivel Gratuito"
-category2= "Nivel Pro"
-category3= "Nivel Completo"
 item1="Provisión de materiales escritos y de vídeo para ayudar a oradores y organizadores"
 item2="Participación en el ensayo general (sujeto a disponibilidad y reembolso de gastos de viaje)"
 item3="Preparación y coaching de oradores"
@@ -64,3 +56,17 @@ Aunque la mayor parte de nuestro trabajo lo realizamos con las principales multi
 Y como nos encanta trabajar con oradores de TEDx y ayudarles a difundir sus ideas, lo hacemos gratis, y a cambio sólo les pedimos que nos incluyan en su lista de sponsors/partners de su evento TEDx. Aunque nuestra oferta para eventos TEDx está sujeta a nuestra disponibilidad (no sería de mucha ayuda para tu evento, o cualquier otro, si intentáramos trabajar en diez eventos TEDx al tiempo), generalmente encontramos el modo de ayudar si nos avisas con suficiente antelación.
 
 Estos son los tres niveles de ayuda que ofrecemos, desde nuestra oferta de ayuda gratuita hasta el paquete completo, que aunque no es gratuito, contribuye de forma más amplia a tu evento.
+
+
+|                | Gratuito | Pro  | Completo |
+| -------------- |:----:|:----:|:----:|
+| Provisión de materiales escritos y de vídeo para ayudar a oradores y organizadores | {{< fa-check >}}  | {{< fa-check >}} | {{< fa-check >}} |
+| Participación en el ensayo general (sujeto a disponibilidad y reembolso de gastos de viaje) | {{< fa-check >}}  | {{< fa-check >}}  | {{< fa-check >}} |
+| Preparación y coaching de oradores | 2 oradores | {{< fa-check >}} | {{< fa-check >}} |
+| Diseño de slides para los oradores |     |     | {{< fa-check >}} |
+| Integración y unificación de slides y videos para el evento |     |     | {{< fa-check >}} |
+| Supervisión de slides y videos durante el evento para prevenir y solucionar cualquier problema técnico |     |     | {{< fa-check >}} |
+
+> Ponte en contacto con nosotros a través del formulario para ver cómo podemos ayudarte a conseguir que tu evento TEDx sea memorable.
+
+Todos nuestros servicios están disponibles en Español,Inglés, Francés, Italiano y Alemán, con coaches nativos de cada idioma.

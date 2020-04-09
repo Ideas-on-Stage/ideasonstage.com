@@ -1,6 +1,7 @@
 {{ "<!-- partials:insert-text1-picture2.html -->" | safeHTML }}
 <div class="layout-content {{ with .style }}{{ . }}{{ end }}">
-	{{ partial "elements/section-tags.html" . }}
+	{{- $schema := partial "getschemaitem.html" . -}}
+	<section {{ $schema | safeHTMLAttr }}>
 		<div class="flex-parent-row flex-column-ontall">
 	        <div class="flex-child-40p flex-child-text-left">
 			    <h3 class="title-responsive">{{ with .title }}{{ . }}{{ end }}</h3>

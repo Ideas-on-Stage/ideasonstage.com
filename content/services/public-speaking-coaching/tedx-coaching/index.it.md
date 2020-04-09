@@ -1,57 +1,20 @@
 +++
-uuid		= "F66AB505-D431-49E3-B6F4-8F2BEAE40B06"
 draft		= false
-type		= "tedx"
 title		= "TEDx Coaching"
 description	= "Il pubblico di TEDx ha delle grandi aspettative. Scopri come Ideas on Stage può aiutarti a superarle."
 weight		= 1
 categories	= [ "Public Speaking Coaching" ]
-showrefs	= false
-redirect	= false
-redirectlink = ""
 url			= "/public-speaking-coaching/tedx-coaching/"
 picture		= "tedx-saclay.jpg"
 
 insertstop		= [
+	"tedx-00",
 	"tedx-01",
 	"tedx-02",
 	"tedx-03",
 	"tedx-49"
 ]
 
-insertsbottom	= [
-]
-
-aboutdescription = ""
-
-category1= "Free Package"
-category2= "Pro Package"
-category3= "Full Package"
-item1="Fornitura di materiale scritto o video per aiutare speaker e organizzatori"
-item2="Partecipazione alle prove finali (soggetto a disponibilità e rimborso dei costi di viaggio)"
-item3="Preparazione e coaching dello speaker"
-item4="Design delle slide dello speaker"
-item5="Integrazione delle slide e dei video per assicurarne il buon funzionamento durante il TEDx"
-item6="Supervisione delle slide e dei video durante il TEDx per prevenire e sistemare qualsiasi problema tecnico."
-item11="Yes"
-item12="Yes"
-item13="Fino a 2 speaker"
-item14=""
-item15=""
-item16=""
-item21="Yes"
-item22="Yes"
-item23="Yes"
-item24=""
-item25=""
-item26=""
-item31="Yes"
-item32="Yes"
-item33="Yes"
-item34="Yes"
-item35="Yes"
-item36="Yes"
-aboutdescription2 = "Contattateci con il modulo sottostante per vedere insieme come possiamo rendere il tuo intervento a TEDx memorabile.<br><br>Tutti i nostri servizi sono disponibili in Italiano, Inglese, Francese, Spagnolo e Tedesco, con speaker madrelingua."
 +++
 ##    
 

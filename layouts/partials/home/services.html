@@ -1,5 +1,6 @@
 {{ "<!-- partials:home:services:start -->" | safeHTML }}
-{{ partial "elements/section-tags.html" .Params.services }}
+{{ $schema := partial "getschemaitem.html" .Params.services }}
+<section {{ $schema | safeHTMLAttr }}>
     <div class="container paddingt-large">
         <div class="row">
 			<div class="col-xs-12 text-center col-md-8 col-md-offset-2">

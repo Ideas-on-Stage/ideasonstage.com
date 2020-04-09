@@ -1,6 +1,7 @@
 {{ "<!-- partials:insert-storyline-begin.html -->" | safeHTML }}
 <div class="layout-content {{ with .style }}{{ . }}{{ end }}">
-	{{ partial "elements/section-tags.html" . }}
+	{{- $schema := partial "getschemaitem.html" . -}}
+	<section {{ $schema | safeHTMLAttr }}>
 		{{ if or .title .description }}
 			<div class="flex-parent-column text-center flex-align-center">
 				{{ partial "elements/title-description.html" . }}
