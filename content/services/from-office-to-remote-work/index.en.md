@@ -4,11 +4,9 @@ title 			= "Online Work Community"
 description		= "Move from an office based to a remote work workflow in 10 days by creating an online work community."
 weight			= 1
 categories		= [ "Consulting" ]
-showrefs		= false
-showpageslist	= false
-urlredirect		= ""
 url 				= "/from-office-to-remote-work/"
 picture			= "remote-work.jpg"
+itemtype	= "Service"
 +++
 **This service will help you move from an office-based to a remote-based work environment in ten days. We will create an online work community whose benefits will have long-lasting positive effects on the productivity and morale of your workforce.**
 

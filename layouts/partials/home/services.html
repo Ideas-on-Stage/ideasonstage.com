@@ -1,15 +1,17 @@
 {{ "<!-- partials:home:services:start -->" | safeHTML }}
-{{ $schema := partial "getschemaitem.html" .Params.services }}
-<section {{ $schema | safeHTMLAttr }}>
+{{ $schema := partial "getschema.html" .Params.services }}
+<section id="services" {{ $schema.schema | safeHTMLAttr }}>
     <div class="container paddingt-large">
         <div class="row">
 			<div class="col-xs-12 text-center col-md-8 col-md-offset-2">
-				<h2 class="style-section-title-main" {{ with .Params.services.titleprop }}itemprop="{{ . }}"{{ end }}>{{ with .Params.services.title }}{{ . | markdownify }}{{ end }}</h2>
+				<h2 class="style-section-title-main" {{ $schema.name | safeHTMLAttr }}>{{ with .Params.services.title }}{{ . | markdownify }}{{ end }}</h2>
 			</div>
 		</div>
 	</div>
-	{{ range .Params.services.list }}
-		{{ partial .layout . }}
-	{{- end }}
+	{{- range .Params.services.list -}}
+		<div {{ $schema.itemlist | safeHTMLAttr }}>
+			{{ partial .layout . }}
+		</div>
+	{{- end -}}
 </section>
 {{ "<!-- partials:home:services:end -->" | safeHTML }}

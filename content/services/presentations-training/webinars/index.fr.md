@@ -5,7 +5,7 @@ description		= "Une série de webinaires gratuits pour mieux présenter."
 categories		= [ "Training & Workshops" ]
 url	 			= "/formation-presentations/webinaires/"
 picture			= "webinar.jpg"
-button			= "En savoir plus"
+itemtype		= "Course"
 +++
 
 ## Virtual Meeting Revolution - Webinaires Gratuits
@@ -22,7 +22,6 @@ Voici le calendrier ainsi que les liens vers nos pages EventBrite afin que vous 
 
 Horaires : tous les mardis de 16h00 à 17h00.
 
-* [7 avril : Virtual Speaking Success - Capter l’attention lors de réunions virtuelles](https://www.eventbrite.fr/e/inscription-virtual-speaking-success-capter-lattention-lors-de-reunions-virtuelles-webinaire-gratuit-100931912066)
 * [14 avril : Virtual Slide Success - Les nouvelles règles pour réussir vos diapos en réunion virtuelle](https://www.eventbrite.fr/e/inscription-virtual-slide-success-les-nouvelles-regles-pour-reussir-vos-diapos-en-reunion-virtuelle-webinaire-100932774646)
 * [21 avril : Virtual Set-Up, Real Success - Configurer son bureau pour réussir ses réunions virtuelles depuis son domicile](https://www.eventbrite.fr/e/inscription-virtual-set-up-real-success-configurer-son-bureau-pour-les-reunions-virtuelles-a-domicile-webinaire-100933292194)
 * [28 avril : Virtual Facilitation - Préparer et animer des réunions virtuelles réussies](https://www.eventbrite.fr/e/inscription-virtual-facilitation-preparer-et-animer-des-reunions-virtuelles-reussies-webinaire-gratuit-100933442644)
@@ -38,3 +37,7 @@ L'inspiration a un pouvoir de guérison sur l'esprit tout comme le repos et la n
 31 mars : Virtual Meeting Revolution - Les clés pour réussir vos réunions virtuelles
 
 {{< youtube IknE6ibOYpw >}}
+
+7 avril : Virtual Speaking Success - Capter l’attention lors de réunions virtuelles
+
+{{< youtube 01TMHcrGOqg >}}

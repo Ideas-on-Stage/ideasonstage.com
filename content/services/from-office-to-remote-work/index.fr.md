@@ -4,11 +4,9 @@ title 			= "Du bureau au travail à distance en 10 jours"
 description		= "Passer du travail au bureau à un mode de travail à distance en 10 jours en créant une communauté de travail en ligne."
 weight			= 1
 categories		= [ "Consulting" ]
-showrefs		= false
-showpageslist	= false
-urlredirect		= ""
 url 				= "/du-bureau-au-travail-a-distance/"
 picture			= "remote-work.jpg"
+itemtype	= "Service"
 +++
 **Ce service vous aidera à passer d’un environnement de travail au bureau à un environnement de travail à distance en dix jours. Nous vous aiderons à créer une communauté de travail en ligne avec des effets positifs à long terme sur la productivité et le moral de vos effectifs.**
 

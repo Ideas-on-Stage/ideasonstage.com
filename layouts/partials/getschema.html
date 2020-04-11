@@ -1,0 +1,64 @@
+{{/* <!--
+	builds the schema.org attributes for a new itemscope
+	returns itemprop=".itemprop" itemscope=".itemscope" itemtype=".itemtype"
+	to be used successfully, the result must be piped to safeHTMLAttr
+	eg:
+	{{ $schema := partial "getschemaitem.html" . }}
+	<section {{ $schema | safeHTMLAttr }}>
+ --> */}}
+
+{{ $schema := "" }}
+{{ $itemlist := "" }}
+{{ $image := "" }}
+{{ $name:= "" }}
+{{ $description := "" }}
+{{ $link := "" }}
+
+{{ if .itemtype }}
+	{{ $itemtype := .itemtype }}
+	{{ range site.Data.schema }}
+		{{ if eq .itemtype $itemtype }}
+		
+			{{/* <!-- Create the basic itemprop --> */}}
+			{{ $schema = add "itemprop=\"" .itemprop }}
+			{{ $schema = add $schema "\" itemscope=\"" }}
+			{{ $schema = add $schema .itemscope }}
+			{{ $schema = add $schema "\" itemtype=\"https://schema.org/" }}
+			{{ $schema = add $schema .itemtype }}
+			{{ $schema = add $schema "\"" }}
+
+			{{/* <!-- itemprop for list items only for schema with lists --> */}}
+			{{ if .itemlistprop }}
+				{{ $itemlist = add "itemprop=\"" .itemlistprop }}
+				{{ $itemlist = add $itemlist "\" itemscope" }}
+				{{ $itemlist = add $itemlist " itemtype=\"https://schema.org/" }}
+				{{ $itemlist = add $itemlist .itemtype }}
+				{{ $itemlist = add $itemlist "\"" }}
+			{{ end }}
+			
+			{{/* <!-- image prop --> */}}
+			{{ if .imageprop }}
+				{{ $image = add "itemprop=\"" .imageprop }}
+				{{ $image = add $image "\"" }} 
+			{{ end }}
+			
+			{{/* <!-- name --> */}}
+			{{ if .nameprop }}
+				{{ $name = add "itemprop=\"" .nameprop }}
+				{{ $name = add $name "\"" }}
+			{{ end }}
+			
+			{{ if .descprop }}
+				{{ $description = add "itemprop=\"" .descprop }}
+				{{ $description = add $description "\"" }}
+			{{ end }}
+			
+			{{ if .linkprop }}
+				{{ $link = add "itemprop=\"" .linkprop }}
+				{{ $link = add $link "\"" }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+{{ $fullschema := dict "schema" $schema "itemlist" $itemlist "image" $image "name" $name "description" $description "link" $link }}
+{{ return $fullschema }}

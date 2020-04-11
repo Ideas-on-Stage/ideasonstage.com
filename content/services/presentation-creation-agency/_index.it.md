@@ -1,18 +1,13 @@
 +++
-uuid			= "1EBFB836-DE57-4BB9-82C3-F54E37610F8C"
 draft 			= false
 title 			= "Creazione di Presentazioni in PowerPoint"
 description		= "Potenzia le tue presentazioni e stupisci la tua audience con delle slide disegnate professionalmente."
 weight			= 1
 categories		= [ "Presentation Creation Agency" ]
 type			= "presentationcreationservice"
-showrefs		= false
-showpageslist	= true
 url 				= "/presentation-creation-agency/"
+itemtype	= "Service"
 
-insertstop		= [
-
-]
 insertsbottom	= [
 	"presentation-creation-service-10",
 	"presentation-creation-service-12",

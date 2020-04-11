@@ -4,18 +4,9 @@ title 			= "Coaching prise de parole en public"
 description		= "Développez votre présence sur scène. Devenez un leader charismatique."
 weight			= 1
 categories		= [ "Coaching prise de parole en public" ]
-showrefs		= false
-showpageslist 	= true
-urlredirect		= ""
 url 				= "/coaching-prise-de-parole-en-public/"
 picture		 	= "wikistage-wbg-2015.jpg"
-
 itemtype		= "Service"
-itemscope		= ""
-itemprop		= ""
-titleprop		= "name"
-descprop		= "description"
-pictureprop		= "image"
 +++
 
 La prise de parole, ou art oratoire, est un ensemble de techniques qui permettent de communiquer son message efficacement face a un auditoire, que celui-ci soit constitué d'une ou de plusieurs milliers de personnes. Parmi les techniques clés de la prise de parole, on peut citer :

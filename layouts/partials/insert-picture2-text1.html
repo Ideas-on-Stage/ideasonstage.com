@@ -1,6 +1,6 @@
 {{ "<!-- partials:insert-picture2-text1.html -->" | safeHTML }}
-{{ $schema := partial "getschemaitem.html" . }}
-<section {{ $schema | safeHTMLAttr }} class="layout-content {{ .style }}">
+{{ $schema := partial "getschema.html" . }}
+<section {{ $schema.schema | safeHTMLAttr }} class="layout-content {{ .style }}">
 	<div class="flex-parent-row flex-column-reverse-ontall">
 		<div class="flex-child-60p">
 			{{ partial "elements/picture.html" . }}

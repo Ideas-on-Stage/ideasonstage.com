@@ -530,131 +530,141 @@ p a, li a {
 	/* @group layout-module */
 	/* layout-module is a series of constant height page modules */
 
-		/* layout-module-wrapper */
+		/* enclose all modules in one layout-module-wrapper div to add external padding */
 		.layout-module-wrapper {
-			padding: 0.2vw;
+			padding: {{ site.Params.modules.padding }};
 		}
 		
 		/* use to start a full width module */
 		.layout-module {
 			width: 100%;
-			padding: 0.2vw;
+			padding: {{ site.Params.modules.padding }};
 		}
 		
 		/* use to start a half width module */
 		.layout-module-half {
 			width: 50%;
-			padding: 0.2vw;
+			padding: {{ site.Params.modules.padding }};
 		}
 		
 		/* use to create module div with pic on left, text on right */
-		.layout-module-image-left-text-right {
-			height: 36vw;
+		.layout-module-row {
+			height: {{ site.Params.modules.height }};
 			width: 100%;
 			display: flex;
 			flex-direction: row;
 		}
 			/* use to create inner div with the pic on left */
-			.layout-module-image-left {
-				height: 36vw;
-				width: 60%;
+			.layout-module-row-image {
+				height: {{ site.Params.modules.height }};
+				width: 64%;
 			}
-			.layout-module-image-left img {
+			.layout-module-row-image img {
 				height: 100%;
 				width: 100%;
 				object-fit: cover;
+				object-position: 100% 50%; /* anchor on right edge (100%), vertical center */
 			}
 			/* use to create inner div with text on right */
-			.layout-module-text-right {
+			.layout-module-row-text {
 				padding: 4vw;
-				width: 36vw;
+				width: 36%; /* width = height for square ratio */
 			}
 		
+			.layout-module-60pw {
+				width: 36%;
+			}
+			
+			.layout-module-40pw {
+				width: 64%;
+			}
+			
 		/* use to create module div with text on top, image below */
-		.layout-module-text-top-image-bottom {
-			height: 36vw;
+		.layout-module-column {
+			height: {{ site.Params.modules.height }};
 			width: 100%;
 			display: flex;
 			flex-direction: column;
-			justify-content: space-between;
 		}
 			/* use to create inner div with text on top */
-			.layout-module-text-top {
+			.layout-module-column-text {
 				position: relative;	/* enables z-index */
 				z-index: 10; /* if text overflows, it will go over picture below */
 				padding: 2vw 4vw;
 				margin: auto;
-				height: 18vw;
+				height: 50%;
 				width: 100%;
-				flex: 1;
 				text-align: center;
 			}
 			
 			/* use to create inner div with image on bottom */
-			.layout-module-image-bottom {
-				height: 18vw;
+			.layout-module-column-image {
+				height: 50%; /* without this, image size can overflow from module */
 				width: 100%;
-				flex: 1;
 			}
-			.layout-module-image-bottom img {	
+			.layout-module-column-image img {	
 				height: 100%;
 				width: 100%;
-				object-fit: contain;
-				object-position: 50% 100%;
+				object-fit: contain; /* image is never distorted, crop if necessary */
+				object-position: 50% 100%; /* anchor on bottom, horizontal center */
 			}
 
 		/* use to create module div with pic in background, text on top */
 		.layout-module-image-back-text-top {
-			height: 36vw;
+			height: {{ site.Params.modules.height }};
 			width: 100%;
 			display: relative;
 		}
 			/* use to create inner div with the pic in background */
 			.layout-module-image-back {
 				position: absolute;
-				height: 36vw;
+				height: {{ site.Params.modules.height }};
 			}
 			.layout-module-image-back img {
 				height: 100%;
 				width: 100%;
 				object-fit: cover;
 			}
-			/* use layout-module-text-top above to create text div */
+			/* use layout-module-column-text above to create text div */
 			
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
 			
 			.layout-module-half {
-				width: 100%;
+				width: 100%; /* make half width modules full width on ts screens */
 			}
-			.layout-module-image-left-text-right {
-				height: 140vw;
+			.layout-module-row {
+				height: {{ site.Params.modules.height_ts }};
 				width: 100%;
 				flex-direction: column-reverse;
 				justify-content: space-between;
 			}
-			.layout-module-image-left {
-				height: 60vw;
+			.layout-module-row-image {
+				height: 50%;
 				width: 100%;
 			}
-			.layout-module-text-right {
+			.layout-module-row-text {
 				padding: 8vw;
+				height: 50%;
 				width: 100%;
 				text-align: center;
 			}
-			
-			.layout-module-text-top-image-bottom {
-				height: auto;
+	
+			.layout-module-60pw {
 				width: 100%;
 			}
-			.layout-module-text-top {
+			
+			.layout-module-40pw {
+				width: 100%;
+			}
+	
+			.layout-module-column {
+				height: {{ site.Params.modules.height_ts }};
+			}
+			.layout-module-column-text {
 				padding: 8vw;
-				height: 70vw;
 			}
-			.layout-module-image-bottom {
-				height: 70vw;
-			}
-			.layout-module-image-bottom img {
-				object-fit: cover;
+			.layout-module-column-image img {
+				object-fit: cover; /* use cover instead of contain on ts screens */
 			}
 		
 		}
@@ -1191,14 +1201,18 @@ flex-container .flex-item-text h4 {
 }
 
 .bg-primary {	
-	color: {{ site.Params.colors.text_inv }}!important;
+	color: {{ site.Params.colors.text_inv }} !important;
     background-color: {{ site.Params.buttons.primary.bg_color }};
 }
 
+/* this is necessary to override bootstrap's inherited styles */
 .bg-primary h1,
 .bg-primary h2,
 .bg-primary h3,
-.bg-primary h4				{	color: {{ site.Params.colors.text_inv }};	}
+.bg-primary h4,
+.bg-primary p {	
+	color: {{ site.Params.colors.text_inv }} !important;
+}
 
 .bg-dark 					{   color: {{ site.Params.colors.text_inv }};
     							background-color: #222;						}

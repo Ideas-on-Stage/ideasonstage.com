@@ -1,5 +1,6 @@
 
 {{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
+{{- $schema := partial "getschema.html" .Params -}}
 <header id="hero">
 	{{- $heropath := partial "getheroimgpath.html" . }}
 	{{- if isset .Params "slider" }}
@@ -8,12 +9,12 @@
 		{{/* <!-- if pic exists, create hero area --> */}}
 		<div class="layout-hero">
 			{{ with .Params -}}
-				<img src="{{ $heropath }}" {{ with .pictureprop }}itemprop="{{ . }}"{{ end }}>
+				<img src="{{ $heropath }}" {{ $schema.image | safeHTMLAttr }}>
 			{{- end -}}
 			{{/* <!-- adding layout-hero div corrects bug on browsers where sticky doesn't work --> */}}
 			<div class="layout-hero layout-absolute">
 			    <div class="layout-page-title style-page-title-overlay">
-		        	<h1 {{ with .Params.Titleprop }}itemprop="{{ . }}"{{ end }}>
+		        	<h1 {{ $schema.name | safeHTMLAttr }}>
 			            {{- with .Title }}{{ . | markdownify  }}{{ end -}}
 		            </h1>
 			    </div>
@@ -22,7 +23,7 @@
 	{{- else if .Title -}}
 		{{/* <!-- else if title exists, create title area --> */}}
 	    <div class="layout-page-title style-page-title">
-        	<h1 {{ with .Params.Titleprop }}itemprop="{{ . }}"{{ end }}>
+        	<h1 {{ $schema.name | safeHTMLAttr }}>
 	            {{ with .Title }}{{ . | markdownify  }}{{ end }}
             </h1>
 	    </div>

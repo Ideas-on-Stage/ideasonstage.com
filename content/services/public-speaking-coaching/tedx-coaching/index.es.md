@@ -6,45 +6,17 @@ weight		= 1
 categories	= [ "Public Speaking Coaching" ]
 url			= "/public-speaking-coaching/tedx-coaching/"
 picture		= "tedx-saclay.jpg"
-button		= "Saber más"
-
-insertstop		= [
-	"tedx-00",
-	"tedx-01",
-	"tedx-02",
-	"tedx-03",
-	"tedx-49"
-]
-
-insertsbottom	= [
-]
-
-item1="Provisión de materiales escritos y de vídeo para ayudar a oradores y organizadores"
-item2="Participación en el ensayo general (sujeto a disponibilidad y reembolso de gastos de viaje)"
-item3="Preparación y coaching de oradores"
-item4="Diseño de slides para los oradores"
-item5="Integración y unificación de slides y videos para el evento"
-item6="Supervisión de slides y videos durante el evento para prevenir y solucionar cualquier problema técnico"
-item11="Sí"
-item12="Sí"
-item13="hasta 2 oradores"
-item14=""
-item15=""
-item16=""
-item21="Sí"
-item22="Sí"
-item23="Sí"
-item24=""
-item25=""
-item26=""
-item31="Sí"
-item32="Sí"
-item33="Sí"
-item34="Sí"
-item35="Sí"
-item36="Sí"
-aboutdescription2 = "Ponte en contacto con nosotros a través del formulario para ver cómo podemos ayudarte a conseguir que tu evento TEDx sea memorable.<br><br>Todos nuestros servicios están disponibles en Español,Inglés, Francés, Italiano y Alemán, con coaches nativos de cada idioma."
+itemtype	= "Service"
 +++
+
+{{< storyline-picture-text title="TED - 2009" description="Toda historia necesita un Héroe. El nuestro fue Yann Arthus-Bertrand, a quien ayudamos a preparar su charla TED." picture="/pictures/inserts/ted-01.jpg" >}}
+
+{{< storyline-text-picture title="TEDx - 2010" description="Hicimos coaching de speakers en eventos TEDx tan pronto como se creó el programa, empezando con el TEDxParisUniversités." picture="/pictures/inserts/ted-02.jpg" >}}
+
+{{< storyline-picture-text title="2011- Hoy" description="TEDxLaDéfense. TEDxLille. TEDxMcGill. TEDxParis. TEDxSaclay. TEDxTours. TEDxWorldBankGroup. Wikistage ESCP, Wikistage Lima WorldBankGroup, OuishareFest BCN, NESI Forum. Y muchos más." picture="/pictures/inserts/ted-03.jpg" >}}
+
+{{< storyline-end title="300+ y creciendo" description="Hemos acompañado y entrenado a más de 300 speakers de eventos TEDx. Nos hemos convertido en expertos en TEDx internacionalmente trabajando en eventos en los Estados Unidos, Canada, Reino Unido y muchos otros países europeos. Y no tenemos intención de parar." >}}
+
 ## Expertos Internacionales en TEDx
 
 Conseguir que un evento TEDx sea un éxito requiere mucho trabajo en muchas areas diferentes; aunque si se cuenta con una buena organización, el elemento que determina el éxito del evento es el desempeño de los oradores. Es poco frecuente que los oradores más conocidos sean los que hagan las presentaciones más destacadas: suelen hacerlas los oradores que mejor se han preparado.

@@ -1,1 +1,2 @@
-<img src="{{ with .link }}{{ else }}{{ .url }}{{ end }}{{ .picture }}" class="img-cover" {{ if .pictureprop }}itemprop="{{ .pictureprop }}"{{ end }}>
+{{ $schema := partial "getschema.html" . }}
+<img src="{{ with .link }}{{ else }}{{ .url }}{{ end }}{{ .picture }}" {{ $schema.image | safeHTMLAttr }}>

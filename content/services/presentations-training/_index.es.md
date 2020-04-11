@@ -1,17 +1,11 @@
 +++
-uuid			= "125E3753-B0C6-4CF0-BE9F-1DBE6759D7DC"
-draft 			= false
-title 			= "Formación"
-description		= "Cambia la cultura de las presentaciones en tu empresa"
-weight			= 4
-categories		= [ "Training & Workshops" ]
-showrefs		= false
-showpageslist	= true
-urlredirect		= ""
-url	 			= "/formacion-presentaciones/"
-
-insertstop		= [
-]
+draft 		= false
+title 		= "Formación"
+description	= "Cambia la cultura de las presentaciones en tu empresa"
+weight		= 4
+categories	= [ "Training & Workshops" ]
+url	 		= "/formacion-presentaciones/"
+itemtype	= "Service"
 
 insertsbottom	= [
 	"presentation-training-10",

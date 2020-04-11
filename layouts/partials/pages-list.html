@@ -1,6 +1,10 @@
-{{ "<!-- partials:pages-list.html -->" | safeHTML }}
-{{ range .Paginator.Pages }}
+{{ "<!-- partials:pages-list.html:start -->" | safeHTML }}
+{{ range .Pages }}
+	{{- $schema := partial "getschema.html" .Params -}}
+	<div class="layout-content" {{ $schema.itemlist | safeHTMLAttr }}>
 	{{ with .Params }}
 		{{ partial "insert-link-picture2-text1.html" . }}
 	{{ end }}
-{{ end }}	
+	</div>
+{{ end }}
+{{ "<!-- partials:pages-list.html:end -->" | safeHTML }}

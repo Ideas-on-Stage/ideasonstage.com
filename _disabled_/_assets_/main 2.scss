@@ -548,30 +548,30 @@ p a, li a {
 		}
 		
 		/* use to create module div with pic on left, text on right */
-		.layout-module-image-left-text-right {
+		.layout-module-row {
 			height: 36vw;
 			width: 100%;
 			display: flex;
 			flex-direction: row;
 		}
 			/* use to create inner div with the pic on left */
-			.layout-module-image-left {
+			.layout-module-row-image {
 				height: 36vw;
 				width: 60%;
 			}
-			.layout-module-image-left img {
+			.layout-module-row-image img {
 				height: 100%;
 				width: 100%;
 				object-fit: cover;
 			}
 			/* use to create inner div with text on right */
-			.layout-module-text-right {
+			.layout-module-row-text {
 				padding: 4vw;
 				width: 36vw;
 			}
 		
 		/* use to create module div with text on top, image below */
-		.layout-module-text-top-image-bottom {
+		.layout-module-column {
 			height: 36vw;
 			width: 100%;
 			display: flex;
@@ -579,7 +579,7 @@ p a, li a {
 			justify-content: space-between;
 		}
 			/* use to create inner div with text on top */
-			.layout-module-text-top {
+			.layout-module-column-text {
 				position: relative;	/* enables z-index */
 				z-index: 10; /* if text overflows, it will go over picture below */
 				padding: 2vw 4vw;
@@ -591,12 +591,12 @@ p a, li a {
 			}
 			
 			/* use to create inner div with image on bottom */
-			.layout-module-image-bottom {
+			.layout-module-column-image {
 				height: 18vw;
 				width: 100%;
 				flex: 1;
 			}
-			.layout-module-image-bottom img {	
+			.layout-module-column-image img {	
 				height: 100%;
 				width: 100%;
 				object-fit: contain;
@@ -619,41 +619,41 @@ p a, li a {
 				width: 100%;
 				object-fit: cover;
 			}
-			/* use layout-module-text-top above to create text div */
+			/* use layout-module-column-text above to create text div */
 			
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
 			
 			.layout-module-half {
 				width: 100%;
 			}
-			.layout-module-image-left-text-right {
+			.layout-module-row {
 				height: 140vw;
 				width: 100%;
 				flex-direction: column-reverse;
 				justify-content: space-between;
 			}
-			.layout-module-image-left {
+			.layout-module-row-image {
 				height: 60vw;
 				width: 100%;
 			}
-			.layout-module-text-right {
+			.layout-module-row-text {
 				padding: 8vw;
 				width: 100%;
 				text-align: center;
 			}
 			
-			.layout-module-text-top-image-bottom {
+			.layout-module-column {
 				height: auto;
 				width: 100%;
 			}
-			.layout-module-text-top {
+			.layout-module-column-text {
 				padding: 8vw;
 				height: 70vw;
 			}
-			.layout-module-image-bottom {
+			.layout-module-column-image {
 				height: 70vw;
 			}
-			.layout-module-image-bottom img {
+			.layout-module-column-image img {
 				object-fit: cover;
 			}
 		

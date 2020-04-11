@@ -1,8 +1,9 @@
-{{ "<!-- partials:content.html:start -->" | safeHTML }}
+{{ "<!-- partials:page-content.html:start -->" | safeHTML }}
+{{ $schema := partial "getschema.html" .Params }}
 <div class="layout-content">
-	<section id="content-main" {{ with .Params.descprop }} itemprop="{{ . }}"{{ end }}>
+	<section id="content-main" {{ $schema.description | safeHTMLAttr }}>
 		{{/* <!-- note: don't put markdownify it prevents the content from rendering in hugo 0.67 --> */}}
 		{{- with .Content }}{{ . }}{{ end }} 
 	</section>
 </div>
-{{ "<!-- partials:content.html:end -->" | safeHTML }}
+{{ "<!-- partials:page-content.html:end -->" | safeHTML }}

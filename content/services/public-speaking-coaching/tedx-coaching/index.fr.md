@@ -6,24 +6,17 @@ weight		= 1
 categories	= [ "Coaching Prise de Parole en Public" ]
 url 			= "/coaching-prise-de-parole-en-public/coaching-tedx/"
 picture		= "tedx-saclay.jpg"
-button		= "En savoir plus"
-
-itemtype		= "Service"
-itemscope		= ""
-itemprop		= ""
-titleprop		= "name"
-descprop		= "description"
-pictureprop		= "image"
-
-insertstop		= [
-	"tedx-00",
-	"tedx-01",
-	"tedx-02",
-	"tedx-03",
-	"tedx-49"
-]
-
+itemtype	= "Service"
 +++
+
+{{< storyline-picture-text title="TED - 2009" description="Chaque histoire a un héros. Le nôtre a été Yann Arthus-Bertrand, que nous avons coaché pour TED." picture="/pictures/inserts/ted-01.jpg" >}}
+
+{{< storyline-text-picture title="TEDx - 2010" description="Nous avons coaché les événements TEDx dès le début du programme, dont le premier TEDxParisUniversités." picture="/pictures/inserts/ted-02.jpg" >}}
+
+{{< storyline-picture-text title="2011- Aujourd'hui" description="TEDxLaDéfense. TEDxLille. TEDxMcGill. TEDxParis. TEDxSaclay. TEDxTours. TEDxWorldBankGroup. Et bien d'autres." picture="/pictures/inserts/ted-03.jpg" >}}
+
+{{< storyline-end title="300+ et plus" description="Aujourd'hui nous avons coaché plus de 300 intervenants TEDx. Nous avons construit notre expertise internationale avec des événements TEDx aux États-Unis, au Canada, au Royaume-Uni beaucoup de pays européens. Nous n'allons pas nous arrêter en si bon chemin." >}}
+
 ## Expérience TEDx internationale
 Mettre sur pied un événement TEDx réussi demande beaucoup d'efforts, mais si  tout est bien organisé ce qui fait la différence est le niveau de préparation des intervenants. Les présentations les plus réussies ne sont pas celles des orateurs les plus connus, mais celles des orateurs les mieux préparés.
 

@@ -13,6 +13,7 @@ insertsbottom	= [
 [services]
 	title	= "I Nostri Servizi"
 	sectionid	= "services"
+	itemtype	= "OfferCatalog"
 	[services.list]	
 		[services.list.001]
 			sectionid	= "presentation-creation"
@@ -22,6 +23,7 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
 			link			= "/presentation-creation-agency/"
+			itemtype	= "Service"
 		[services.list.002]
 			sectionid	= "business-events"
 			title		= "Eventi Corporate"
@@ -30,6 +32,7 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/eventi-corporate/"
+			itemtype	= "Service"
 		[services.list.003]
 			sectionid	= "public-speaking-coaching"
 			title		= "Public Speaking"
@@ -38,6 +41,7 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/public-speaking-coaching/"
+			itemtype	= "Service"
 		[services.list.004]
 			sectionid	= "presentations-training"
 			title		= "Training & Seminari"
@@ -46,6 +50,8 @@ insertsbottom	= [
 			style		= "bg-lightgrey"
 			layout		= "insert-link-full-picture.html"
 			link			= "/training-workshops/the-business-presentation-revolution/"
+			itemtype	= "Service"
+
 [slider]
 	[slider.list]
 		[slider.list.001]

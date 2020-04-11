@@ -1,6 +1,6 @@
 {{ "<!-- partials:insert-link-full-picture-text-right.html:start -->" | safeHTML }}
-{{ $schema := partial "getschemaitem.html" . }}
-<section {{ $schema | safeHTMLAttr }} class="layout-sticky">
+{{ $schema := partial "getschema.html" . }}
+<section {{ $schema.schema | safeHTMLAttr }} class="layout-sticky">
 	<div class="layout-screen-partial flex-parent-row {{ with .style }}{{ . }}{{ end }}">
 		<div class="flex-child-60p">
 			{{ partial "elements/link-picture.html" . }}

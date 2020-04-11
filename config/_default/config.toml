@@ -72,7 +72,14 @@ theme        			= "hugo-creative-theme-master"
 		title_h4			= "black"
 		time			= "#aaa"
 		blockquote		= "#00A3E0"		
-		
+
+	# ------------------------------		
+	# Modules
+	[params.modules]
+		padding			= "0.2vw"
+		height			= "36vw"
+		height_ts		= "140vw" # ts is for tall small screens on smartphones
+	
 	# ------------------------------		
 	# Navigation
 	[params.navigation]

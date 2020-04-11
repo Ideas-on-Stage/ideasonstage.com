@@ -1,11 +1,11 @@
 {{ "<!-- partials:insert-link-full-picture-text-right.html:start -->" | safeHTML }}
-{{ $schema := partial "getschemaitem.html" . }}
-<section {{ $schema | safeHTMLAttr }} class="layout-module">
-	<div class="layout-module-image-left-text-right {{ with .style }}{{ . }}{{ end }}">
-		<div class=" layout-module-image-left">
+{{- $schema := partial "getschema.html" . -}}
+<section {{ $schema.schema | safeHTMLAttr }} class="layout-module">
+	<div class="layout-module-row {{ with .style }}{{ . }}{{ end }}">
+		<div class=" layout-module-row-image">
 			{{ partial "elements/link-picture.html" . }}
 		</div>
-		<div class="layout-module-text-right">
+		<div class="layout-module-row-text">
 			{{ partial "elements/link-title-description.html" . }}
 			{{ partial "elements/button-secondary.html" . }}
 		</div>

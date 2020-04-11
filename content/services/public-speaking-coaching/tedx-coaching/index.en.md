@@ -6,16 +6,17 @@ weight		= 1
 categories	= [ "Public Speaking Coaching" ]
 url			= "/public-speaking-coaching/tedx-coaching/"
 picture		= "tedx-saclay.jpg"
-
-insertstop		= [
-	"tedx-00",
-	"tedx-01",
-	"tedx-02",
-	"tedx-03",
-	"tedx-49"
-]
-
+itemtype	= "Service"
 +++
+
+{{< storyline-picture-text title="TED - 2009" description="Every story needs a Hero. Ours was Yann Arthus-Bertrand, who we helped prepare for TED." picture="/pictures/inserts/ted-01.jpg" >}}
+
+{{< storyline-text-picture title="TEDx - 2010" description="We coached speakers for TEDx events as soon as the program was created, starting with TEDxParisUniversités." picture="/pictures/inserts/ted-02.jpg" >}}
+
+{{< storyline-picture-text title="2011- Today" description="TEDxLaDéfense. TEDxLille. TEDxMcGill. TEDxParis. TEDxSaclay. TEDxTours. TEDxWorldBankGroup. And many more." picture="/pictures/inserts/ted-03.jpg" >}}
+
+{{< storyline-end title="300+ and counting" description="We have coached more than 300 speakers for TEDx events. We built our international TEDx expertise with events in the United States, Canada, Great Britain and many countries in Europe. We have no plans to stop." >}}
+
 ## International TEDx expertise
 Producing a successful TEDx takes a lot of hard work in many different areas, but if everything is well-organised, what determines the success of the event is how well your speakers perform. It’s rarely the best-known speakers who deliver the stand-out talks: it’s the best-prepared speakers.
 

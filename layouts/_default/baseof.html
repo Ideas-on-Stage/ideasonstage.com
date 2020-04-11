@@ -4,11 +4,12 @@
     <head>
         {{ partial "head.html" . }}
 	</head>
-    <body id="page-top">
+    <body id="page-top" vocab="http://schema.org/">
 		{{ partial "nav.html" . }}
 		<div class="layout-page-top">
 		</div>
-		<main role="main"{{ with .Params.Itemtype }} itemscope itemtype="https://schema.org/{{ . }}"{{ end }}>
+		{{ $schema := partial "getschema.html" .Params }}
+		<main role="main" {{ $schema.schema | safeHTMLAttr }}>
 			{{ block "main" . }}
 			{{ end }}
 	    </main>

@@ -4,10 +4,9 @@ title 		= "Media Training"
 description	= "Coaching professionale per preparare i leader alle apparizioni di fronte ai media o alle conferenze importanti."
 weight		= 3
 categories	= [ "Public Speaking Coaching" ]
-showrefs	= false
-urlredirect	= ""
 url 		= "/public-speaking-coaching/media-training/"
 picture		= "media-training.jpg"
+itemtype	= "Service"
 +++
 
 ## Mostra al mondo la migliore versione di te stesso

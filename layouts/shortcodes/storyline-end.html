@@ -1,0 +1,11 @@
+{{ "<!-- partials:insert-storyline-end.html -->" | safeHTML }}
+{{- with .Params -}}
+	<div>
+		{{- if or .title .description -}}
+			<div class="flex-parent-column text-center flex-align-center">
+				<img alt="bullet" src="/pictures/home/ios-orange-bullet.png" height=13 width=13>
+				{{ partial "elements/title-description.html" . }}
+			</div>
+		{{- end -}}
+	</div>
+{{- end -}}

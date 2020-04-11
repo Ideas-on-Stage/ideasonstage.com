@@ -4,18 +4,10 @@ title 		= "Media Training"
 description	= "Media Training professionnel pour préparer les dirigeants à faire face à la caméra."
 weight		= 3
 categories	= [ "Coaching Prise de Parole en Public" ]
-showrefs	= false
-urlredirect	= ""
 url	 		= "/coaching-prise-de-parole-en-public/media-training/"
 picture		= "media-training.jpg"
 button		= "En savoir plus"
-
-itemtype		= "Service"
-itemscope		= ""
-itemprop		= ""
-titleprop		= "name"
-descprop		= "description"
-pictureprop		= "image"
+itemtype	= "Service"
 +++
 
 ## Montrez au monde la meilleure version de vous-même

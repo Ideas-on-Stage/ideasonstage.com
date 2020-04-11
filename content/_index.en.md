@@ -13,6 +13,7 @@ insertsbottom	= [
 [services]
 	title	= "Our Services"
 	sectionid	= "services"
+	itemtype	= "OfferCatalog"
 	[services.list]
 		[services.list.001]
 			sectionid	= "from-office-to-remote-work"
@@ -22,14 +23,16 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/from-office-to-remote-work/"
+			itemtype	= "Service"
 		[services.list.002]
 			sectionid	= "public-speaking-coaching"
 			title		= "Public Speaking Coaching"
-			description	= "We offer coaching for public speaking, media training, stage presence and delivery. Our international team can coach you in English, French, Spanish, German and Italian, in Europe and America."
+			description	= "We offer coaching for public speaking, media training, stage presence and delivery."
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/public-speaking-coaching/"
+			itemtype	= "Service"
 		[services.list.003]
 			sectionid	= "business-events"
 			title		= "Business Events"
@@ -38,6 +41,7 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/business-events/"
+			itemtype	= "Service"
 		[services.list.004]
 			sectionid	= "presentation-creation"
 			title		= "Presentation Creation"
@@ -46,6 +50,7 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
 			link			= "/presentation-creation-agency/"
+			itemtype	= "Service"
 		[services.list.005]
 			sectionid	= "presentations-training"
 			title		= "Training & Workshops"
@@ -54,7 +59,8 @@ insertsbottom	= [
 			style		= "bg-lightgrey"
 			layout		= "insert-link-full-picture.html"
 			link			= "/presentations-training/"
-
+			itemtype	= "Service"
+			
 [slider]
 	[slider.list]
 		[slider.list.001]

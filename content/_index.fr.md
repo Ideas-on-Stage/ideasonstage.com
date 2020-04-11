@@ -25,7 +25,7 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/du-bureau-au-travail-a-distance/"
-			button		= "En savoir plus"
+			itemtype	= "Service"
 		[services.list.002]
 			sectionid	= "public-speaking-coaching"
 			title		= "Coaching prise de parole"
@@ -34,13 +34,7 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/coaching-prise-de-parole-en-public/"
-			itemtype	= "OfferCatalog"
-			itemscope	= ""
-			itemprop	= "itemListElement"
-			titleprop	= "name"
-			descprop	= "description"
-			pictureprop	= "image"
-			linkprop		= "mainEntityOfPage"
+			itemtype	= "Service"
 			
 		[services.list.003]
 			sectionid	= "business-events"
@@ -50,13 +44,7 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture-text-right.html"
 			link			= "/evenements-entreprise/"
-			itemtype	= "OfferCatalog"
-			itemscope	= ""
-			itemprop	= "itemListElement"
-			titleprop	= "name"
-			descprop	= "description"
-			pictureprop	= "image"
-			linkprop		= "mainEntityOfPage"
+			itemtype	= "Service"
 
 		[services.list.004]
 			sectionid	= "presentation-creation"
@@ -66,13 +54,7 @@ insertsbottom	= [
 			style		= "bg-black"
 			layout		= "insert-link-full-picture.html"
 			link			= "/agence-creation-presentations/"
-			itemtype	= "OfferCatalog"
-			itemscope	= ""
-			itemprop	= "itemListElement"
-			titleprop	= "name"
-			descprop	= "description"
-			pictureprop	= "image"
-			linkprop		= "mainEntityOfPage"
+			itemtype	= "Service"
 			
 		[services.list.005]
 			sectionid	= "presentations-training"
@@ -82,13 +64,7 @@ insertsbottom	= [
 			style		= "bg-lightgrey"
 			layout		= "insert-link-full-picture.html"
 			link			= "/formation-presentations/"
-			itemtype	= "OfferCatalog"
-			itemscope	= ""
-			itemprop	= "itemListElement"
-			titleprop	= "name"
-			descprop	= "description"
-			pictureprop	= "image"
-			linkprop		= "mainEntityOfPage"
+			itemtype	= "Service"
 
 [slider]
 	[slider.list]

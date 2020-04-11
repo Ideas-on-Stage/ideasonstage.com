@@ -1,8 +1,8 @@
 {{ "<!-- partials:insert-link-photo1-text2.html -->" | safeHTML }}
+{{- $schema := partial "getschema.html" . -}}
+<section {{ $schema.schema | safeHTMLAttr }} class="layout-module">
 <div class="layout-content {{ with .style }}{{ . }}{{ end }}">
-	{{ $schema := partial "getschemaitem.html" . }}
-	<section {{ $schema | safeHTMLAttr }}>
-		<div class="container insert paddingt-medium paddingb-small">
+	<div class="container insert paddingt-medium paddingb-small">
 		    <div class="row">
 		    	<div class="col-sm-6 col-sm-push-5 col-sm-offset-0">
 				    <a href="{{ with .link }}{{ . }}{{ end }}">
@@ -12,17 +12,8 @@
 					{{ partial "elements/button-secondary.html" . }}
 				</div>
 		    	<div class="col-sm-4 col-sm-pull-6 col-sm-offset-1">
-					{{ if .link }}
-		    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-						<img src="{{ .picture }}" class="img-responsive">
-						{{ "<!-- .link .picture -->" | safeHTML }}
-					</a>	
-					{{ else }}
-		    		<a href="{{ if .link }}{{ .link }}{{ else }}{{ .url}}{{ end }}">
-						<img src="{{ .url }}{{ .picture }}" class="img-responsive">
-						{{ "<!-- .url .picture -->" | safeHTML }}
-					</a>
-					{{ end }}
+			{{ partial "elements/photograph.html" . }}
+
 		    	</div>
 		    </div>
 		</div>

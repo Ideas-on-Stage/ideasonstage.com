@@ -1,24 +1,11 @@
 +++
-uuid			= "E2EE6B35-A4F0-4C7B-A348-106E16E1CC9D"
 draft 			= false
 title 			= "Formations à l'art de présenter"
 description		= "Changez votre vision des présentations"
 weight			= 4
 categories		= [ "Training & Workshops" ]
-showrefs		= false
-showpageslist	= true
-urlredirect		= ""
 url		 		= "/formation-presentations/"
-
 itemtype		= "Service"
-itemscope		= ""
-itemprop		= ""
-titleprop		= "name"
-descprop		= "description"
-pictureprop		= "image"
-
-insertstop		= [
-]
 
 insertsbottom	= [
 	"presentation-training-10",
