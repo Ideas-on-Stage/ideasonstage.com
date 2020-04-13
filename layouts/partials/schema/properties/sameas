@@ -1,0 +1,1 @@
+[ {{- $counter := 0 -}}{{- range . -}}{{- if ne 0 $counter }},{{ end }}"{{ . }}"{{- $counter = add $counter 1 -}}{{- end -}} ]

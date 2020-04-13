@@ -5,6 +5,7 @@ picture		= "pierre-morsa.jpg"
 position 	= "Co-founder - Creative Cat"
 url			= "/equipo/pierre-morsa/"
 weight		= 100
+sameas		= ["https://www.pierremorsa.com","https://www.linkedin.com/in/pierremorsa/"]
 +++
 
 El mejor momento para dejar tu trabajo como consultor y lanzarte a crear tu startup con cero clientes es a los 40 años, con una carrera exitosa, con dos niños pequeños y la losa de una hipoteca de un apartamento en Paris. Cierra los ojos. Respira hondo. Cuenta hasta diez. Y salta a un vacío desconocido.

@@ -2,10 +2,51 @@
 draft 			= false
 title 			= "Webinaires Virtual Meeting Revolution"
 description		= "Une série de webinaires gratuits pour mieux présenter."
-categories		= [ "Training & Workshops" ]
+categories		= [ "Formations et Ateliers" ]
 url	 			= "/formation-presentations/webinaires/"
 picture			= "webinar.jpg"
-# !!! Do not set schema to course, but to event
+schema			= "events" # !!! Do not set schema to course, but to event
+[events]
+	[events.001]
+		name		= "Virtual Set-Up, Real Success"
+		description	= "Configurer son bureau pour réussir ses réunions virtuelles depuis son domicile"
+		duration	= "T1H"
+		startdate	= "2020-04-21 16:00 UTC+01:00"
+		enddate		= "2020-04-21 17:00 UTC+01:00"
+		eventAttendanceMode = "Online"
+		eventStatus	= "Scheduled"
+		image		= "webinar.jpg"
+		isaccessibleforfree = true
+		location		= "Zoom"
+		performer	= "Pierre Morsa"
+		[events.001.offers]
+			[events.001.offers.001]
+				availability = "In Stock"
+				price = "0"
+				priceCurrency = "EUR"
+				seller = "Eventbrite"
+				url = "https://www.eventbrite.fr/e/inscription-virtual-set-up-real-success-configurer-son-bureau-pour-les-reunions-virtuelles-a-domicile-webinaire-100933292194"
+				validfrom = "2020-04-01"
+	[events.002]
+		name		= "Virtual Facilitation"
+		description	= "Préparer et animer des réunions virtuelles réussies"
+		duration	= "T1H"
+		startdate	= "2020-04-28 16:00 UTC+01:00"
+		enddate		= "2020-04-28 17:00 UTC+01:00"
+		eventAttendanceMode = "Online"
+		eventStatus	= "Scheduled"		
+		image		= "webinar.jpg"
+		isaccessibleforfree = true
+		location		= "Zoom"
+		performer	= "Phil Waknell"
+		[events.002.offers]
+			[events.002.offers.001]
+				availability = "In Stock"
+				price = "0"
+				priceCurrency = "EUR"
+				seller = "Eventbrite"
+				url = "https://www.eventbrite.fr/e/inscription-virtual-facilitation-preparer-et-animer-des-reunions-virtuelles-reussies-webinaire-gratuit-100933442644"
+				validfrom = "2020-04-01"
 +++
 
 ## Virtual Meeting Revolution - Webinaires Gratuits

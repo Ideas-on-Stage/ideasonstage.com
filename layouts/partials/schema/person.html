@@ -13,6 +13,9 @@
   "image": {{ .Params.picture }},
   "jobTitle": {{ .Params.position }},
   "name": {{ .Params.name }},
+  {{ with .Params.sameas -}}
+  "sameAs": {{ partial "schema/properties/sameas" . | safeJS }},
+  {{- end }}
   "url": {{ .Permalink }}
 }
 </script>

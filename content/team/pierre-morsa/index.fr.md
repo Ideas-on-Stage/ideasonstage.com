@@ -1,10 +1,11 @@
 +++
-draft			= false
-name			= "Pierre Morsa"
+draft		= false
+name		= "Pierre Morsa"
 picture		= "pierre-morsa.jpg"
-position 		= "Co-founder - Creative Cat"
-url				= "/equipe/pierre-morsa/"
-weight			= 100
+position 	= "Co-founder - Creative Cat"
+url			= "/equipe/pierre-morsa/"
+weight		= 100
+sameas		= ["https://www.pierremorsa.com","https://www.linkedin.com/in/pierremorsa/"]
 +++
 Pierre Morsa est le Co-Fondateur et Creative Cat d’Ideas on Stage. Il a créé la marque et le concept d'Ideas on Stage en 2009. Il met toute son énergie dans la création de présentations avec quelque chose de spécial. Il essaie de toujours trouver de nouvelles astuces pour surprendre et émerveiller votre public.
 

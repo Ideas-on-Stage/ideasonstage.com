@@ -5,6 +5,7 @@ picture		= "pierre-morsa.jpg"
 position 	= "Co-founder - Creative Cat"
 url			= "/team/pierre-morsa/"
 weight		= 100
+sameas		= ["https://www.pierremorsa.com","https://www.linkedin.com/in/pierremorsa/"]
 +++
 
 Il momento migliore per abbandonare il tuo lavoro come consulente e creare una startup con zero clienti è quando hai raggiunto i 40 anni, al top della carriera, con due bambini piccoli e un mutuo da pagare per il tuo appartamento di Parigi. Chiudi gli occhi. Prendi un bel respiro. Conta fino a 10. E fai un salto nel buio. 
