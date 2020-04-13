@@ -3,7 +3,7 @@ pageslist:
 - "1EBFB836-DE57-4BB9-82C3-F54E37610F8C"
 position: bottom
 title: "L’acquisto di iStockPhoto è incluso"
-layout: insert-picture1-text2.html
+layout: inserts/picture1-text2.html
 style: bg-white
 picture: /pictures/inserts/presentation-creation-service-53.jpg
 description: Non devi preoccuparti del costo di acquisto delle immagini di stock. Sono incluse nel prezzo.

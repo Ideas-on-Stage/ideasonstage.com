@@ -1,5 +1,4 @@
 {{ partial "elements/title.html" . }}
-{{ if .description }}
-	{{ $schema := partial "getschema.html" . }}
-	<p class="text-responsive" {{ $schema.description | safeHTMLAttr }}>{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
-{{ end }}
+{{ if .description -}}
+	<p class="text-responsive">{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
+{{- end }}

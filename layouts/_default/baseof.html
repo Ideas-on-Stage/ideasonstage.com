@@ -2,14 +2,15 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
+		{{ block "head" . }}
+		{{ end }}
         {{ partial "head.html" . }}
 	</head>
-    <body id="page-top" vocab="http://schema.org/">
+    <body id="page-top">
 		{{ partial "nav.html" . }}
 		<div class="layout-page-top">
 		</div>
-		{{ $schema := partial "getschema.html" .Params }}
-		<main role="main" {{ $schema.schema | safeHTMLAttr }}>
+		<main role="main">
 			{{ block "main" . }}
 			{{ end }}
 	    </main>

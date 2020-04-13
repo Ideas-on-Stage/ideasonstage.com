@@ -1,5 +1,4 @@
 +++
-uuid		= "2046405E-6EA2-4D37-AF73-03CB071E1BFF"
 draft 		= false
 title 		= "Agencia de Presentaciones | Entrenamiento y formación para hablar en público"
 description	= "Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
@@ -13,7 +12,6 @@ insertsbottom	= [
 [services]
 	title	= "NUESTROS SERVICIOS"	
 	sectionid	= "services"
-	itemtype	= "OfferCatalog"
 	[services.list]	
 		[services.list.001]
 			sectionid	= "presentation-creation"
@@ -21,36 +19,32 @@ insertsbottom	= [
 			description	= "Una gran historia. Las mejores slides"
 			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "inserts/link-full-picture.html"
 			link			= "/presentation-creation-agency/"
-			itemtype	= "Service"
 		[services.list.002]
 			sectionid	= "business-events"
 			title		= "Eventos Corporativos"
 			description	= "Rompe con la rutina. Sorprende a tus invitados."
 			picture		= "/pictures/inserts/home-business-events.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "inserts/link-full-picture-text-right.html"
 			link			= "/eventos-corporativos/"
-			itemtype	= "Service"
 		[services.list.003]
 			sectionid	= "public-speaking-coaching"
 			title		= "Public Speaking"
 			description	= "Muestra tu mejor versión sobre el escenario."
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "inserts/link-full-picture-text-right.html"
 			link			= "/public-speaking-coaching/"
-			itemtype	= "Service"
 		[services.list.004]
 			sectionid	= "presentations-training"
 			title		= "Formación"
 			description	= "Cambia la cultura de las presentaciones en tu organización."
 			picture		= "/pictures/inserts/home-presentations-training.jpg"
 			style		= "bg-lightgrey"
-			layout		= "insert-link-full-picture.html"
+			layout		= "inserts/link-full-picture.html"
 			link			= "/formacion-presentaciones/"
-			itemtype	= "Service"
 			
 [slider]
 	[slider.list]

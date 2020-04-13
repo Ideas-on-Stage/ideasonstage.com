@@ -3,7 +3,7 @@ url: /training-workshops/presentation-zen-for-business/
 language: en
 position: top
 title: "Mini hero image"
-layout: insert-full-picture.html
+layout: inserts/full-picture.html
 style: bg-white
 picture: /pictures/inserts/presentation-zen-for-business-12.jpg
 description: ""

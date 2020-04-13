@@ -4,10 +4,9 @@ title		= "Women on Stage"
 description = "Responde a los retos que supone ser mujer en tu lugar de trabajo, y comunícate con tu propio estilo.."
 weight		= 2
 categories	= [ "Training & Workshops" ]
-urlredirect	= ""
-showrefs	= false
 url 			= "/formacion-presentaciones/women-on-stage/"
 picture		= "image.jpg"
+schema		= "Course"
 +++
 
 ## ¿Qué es tan especial para las mujeres en su reto de hablar y ser escuchadas?

@@ -4,10 +4,9 @@ title		= "La Business Presentation Revolution"
 description = "Grazie ai nostri seminari, le presentazioni del tuo team non saranno più le stesse."
 weight		= 1
 categories	= [ "Training & Workshops" ]
-urlredirect	= ""
-showrefs	= true
 url 			= "/training-workshops/the-business-presentation-revolution/"
 picture		= "image.jpg"
+schema		= "Course"
 +++
 
 ## Insegna ai tuoi team a preparare delle TED style business presentation.

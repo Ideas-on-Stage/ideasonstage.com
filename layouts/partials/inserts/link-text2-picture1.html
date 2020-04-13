@@ -1,0 +1,14 @@
+{{ "<!-- partials:insert-link-text2-picture1.html -->" | safeHTML }}
+<div class="layout-content {{ with .style }}{{ . }}{{ end }}">
+	<section>
+		<div class="flex-parent-row flex-column-ontall">
+			<div class="flex-child-60p flex-child-text-right">
+				{{ partial "elements/link-title-description.html" . }}
+				{{ partial "elements/button-secondary.html" . }}
+			</div>
+	    	<div class="flex-child-40p">
+				{{ partial "elements/link-picture.html" . }}
+	    	</div>
+	    </div>
+	</section>
+</div>

@@ -1,8 +1,8 @@
 +++
-uuid 		= "24103085-4F73-484A-B98F-F00A5F82C90A"
 draft 		= false
 title 		= "Presentation Creation | Business Events | Public Speaking Coaching and Training"
 description	= "International agency specialized in Presentation Creation, Business Events and Public Speaking Coaching and Training. We cover North America and Europe."
+schema		= "Website"
 
 insertsbottom	= [
 	"home-09",
@@ -13,7 +13,6 @@ insertsbottom	= [
 [services]
 	title	= "Our Services"
 	sectionid	= "services"
-	itemtype	= "OfferCatalog"
 	[services.list]
 		[services.list.001]
 			sectionid	= "from-office-to-remote-work"
@@ -21,45 +20,40 @@ insertsbottom	= [
 			description	= "How can you move from an office based to a remote work environment in 10 days and keep the human touch? By creating an online work community."
 			picture		= "/from-office-to-remote-work/remote-work.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "inserts/link-full-picture-text-right.html"
 			link			= "/from-office-to-remote-work/"
-			itemtype	= "Service"
 		[services.list.002]
 			sectionid	= "public-speaking-coaching"
 			title		= "Public Speaking Coaching"
 			description	= "We offer coaching for public speaking, media training, stage presence and delivery."
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "inserts/link-full-picture-text-right.html"
 			link			= "/public-speaking-coaching/"
-			itemtype	= "Service"
 		[services.list.003]
 			sectionid	= "business-events"
 			title		= "Business Events"
 			description	= "Organize dynamic and unforgettable events. We work with you to develop agendas and prepare speakers that make a lasting impact."
 			picture		= "/pictures/inserts/home-business-events.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "inserts/link-full-picture-text-right.html"
 			link			= "/business-events/"
-			itemtype	= "Service"
 		[services.list.004]
 			sectionid	= "presentation-creation"
 			title		= "Presentation Creation"
 			description	= "We help you define your messages and strategy, then we write the story, create the slides and coach you."
 			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "inserts/link-full-picture.html"
 			link			= "/presentation-creation-agency/"
-			itemtype	= "Service"
 		[services.list.005]
 			sectionid	= "presentations-training"
 			title		= "Training & Workshops"
 			description	= "Discover our presentation training programs, from The Business Presentation Revolution to Women&nbsp;on&nbsp;Stage."
 			picture		= "/pictures/inserts/home-presentations-training.jpg"
 			style		= "bg-lightgrey"
-			layout		= "insert-link-full-picture.html"
+			layout		= "inserts/link-full-picture.html"
 			link			= "/presentations-training/"
-			itemtype	= "Service"
 			
 [slider]
 	[slider.list]

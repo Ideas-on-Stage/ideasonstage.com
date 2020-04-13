@@ -1,6 +1,6 @@
 uuid: presentation-creation-service-63.es
 title: "3 Validación"
-layout: insert-storyline-picture-text.html
+layout: inserts/storyline-picture-text.html
 style: bg-light
 picture: /pictures/inserts/presentation-creation-service-63.jpg
 description: Nuestro precio incluye tres revisiones de la entrega inicial. Además probamos la presentación en el SO que utilices (Windos, macOS, iOS)

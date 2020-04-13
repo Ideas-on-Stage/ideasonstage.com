@@ -1,7 +1,7 @@
 +++
 draft 			= false
 title 			= "Coaching prise de parole en public"
-description		= "Développez votre présence sur scène. Devenez un leader charismatique."
+description		= "Développez votre éloquence et votre présence sur scène. Devenez un leader charismatique."
 weight			= 1
 categories		= [ "Coaching prise de parole en public" ]
 url 				= "/coaching-prise-de-parole-en-public/"

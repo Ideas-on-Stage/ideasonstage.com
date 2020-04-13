@@ -3,7 +3,7 @@ pageslist:
 - "34EAF79C-44A8-497C-B073-31FE7938FCC4"
 position: bottom
 title: "Au pixel près"
-layout: insert-text2-picture1.html
+layout: inserts/text2-picture1.html
 style: bg-white
 picture: /pictures/inserts/presentation-creation-service-54.jpg
 description: Notre outil interne PixelPerfectTool (PPT) vous garantit qu'une ligne d'1 point sur le slide sera une ligne d'1 point à l'écran. Pas de lignes floues ou d'éléments légèrement décalés.

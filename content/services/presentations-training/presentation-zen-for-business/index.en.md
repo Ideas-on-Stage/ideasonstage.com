@@ -6,7 +6,7 @@ weight		= 3
 categories	= [ "training-workshops" ]
 picture		= "hero.jpg"
 url 			= "/presentations-training/presentation-zen-for-business/"
-
+schema		= "Course"
 +++
 ## The approach that revolutionized presentations all over the world
 

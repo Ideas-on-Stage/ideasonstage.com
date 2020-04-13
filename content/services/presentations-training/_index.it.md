@@ -1,11 +1,10 @@
 +++
 draft 			= false
 title 			= "Training & Workshops"
-description		= "."
-weight			= 4
+description		= ""
 categories		= [ "Training & Workshops" ]
 url 				= "/training-workshops/"
-itemtype		= "Service"
+schema			= "Carousel"
 
 insertsbottom	= [
 	"presentation-training-10",

@@ -1,6 +1,6 @@
 uuid: presentation-creation-service-63.en
 title: "3 PowerPoint presentation"
-layout: insert-storyline-picture-text.html
+layout: inserts/storyline-picture-text.html
 style: bg-light
 picture: /pictures/inserts/presentation-creation-service-63.jpg
 description: Once the story is validated we build the PowerPoint Deck. We also use Apple Keynote.

@@ -3,7 +3,7 @@ pageslist:
 - "D2521AAF-C972-41E3-AFF9-19D92276BA0C"
 position: bottom
 title: "Women on Stage"
-layout: insert-link-photo1-text2.html
+layout: inserts/link-photo1-text2.html
 style: bg-lightgrey
 picture: /pictures/inserts/presentation-training-wos.jpg
 link: /presentations-training/women-on-stage/

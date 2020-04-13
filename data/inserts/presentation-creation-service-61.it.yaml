@@ -1,6 +1,6 @@
 uuid: presentation-creation-service-61.it
 title: "1 Approvazione del Design"
-layout: insert-storyline-picture-text.html
+layout: inserts/storyline-picture-text.html
 style: bg-light
 picture: /pictures/inserts/presentation-creation-service-61.jpg
 description: "Basandoci sul tuo brief ti proporremo  un design per lo slide deck. Ogni Cliente è unico: puoi chiedere le tue modifiche fino a quando il design è esattamente quello desiderato."

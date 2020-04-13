@@ -1,11 +1,10 @@
 +++
-draft 		= false
-title 		= "Formación"
-description	= "Cambia la cultura de las presentaciones en tu empresa"
-weight		= 4
-categories	= [ "Training & Workshops" ]
-url	 		= "/formacion-presentaciones/"
-itemtype	= "Service"
+draft 			= false
+title 			= "Formación"
+description		= "Cambia la cultura de las presentaciones en tu empresa"
+categories		= [ "Training & Workshops" ]
+url	 			= "/formacion-presentaciones/"
+schema			= "Carousel"
 
 insertsbottom	= [
 	"presentation-training-10",

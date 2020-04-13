@@ -2,12 +2,10 @@
 draft		= true
 title		= "Reinicia tu empresa"
 description = "¿Cuánto más creativo y ágil sería tu equipo si fuera una startup? Descúbrelo con este innovador y entretenido taller."
-weight		= 5
 categories	= [ "Training & Workshops" ]
-urlredirect	= ""
-showrefs	= false
 url 			= "/formacion-presentaciones/reinicia-tu-empresa/"
 picture		= "image.jpg"
+schema		= "Course"
 +++
 
 ## Todo el mundo tiene una idea que vender

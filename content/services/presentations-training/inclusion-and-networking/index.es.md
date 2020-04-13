@@ -8,6 +8,8 @@ urlredirect	= ""
 showrefs	= false
 url 			= "/formacion-presentaciones/inclusion-and-networking/"
 picture		= "image.jpg"
+schema		= "Course"
+
 +++
 
 ## Overcome gender bias and information silos in your company, and boost your performance.

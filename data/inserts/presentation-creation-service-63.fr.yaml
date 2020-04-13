@@ -1,6 +1,6 @@
 uuid: presentation-creation-service-63.fr
 title: "3 Présentation PowerPoint"
-layout: insert-storyline-picture-text.html
+layout: inserts/storyline-picture-text.html
 style: bg-light
 picture: /pictures/inserts/presentation-creation-service-63.jpg
 description: Une fois l'histoire validée nous la mettons en image et nous l'animons avec Microsoft PowerPoint. Nous utilisons également Apple Keynote.

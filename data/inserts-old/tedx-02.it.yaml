@@ -3,7 +3,7 @@ pageslist:
 - "F66AB505-D431-49E3-B6F4-8F2BEAE40B06"
 position: top
 title: "TEDx - 2010"
-layout: insert-storyline-text-picture.html
+layout: inserts/storyline-text-picture.html
 style: bg-lightgrey
 picture: /pictures/inserts/ted-02.jpg
 description: Abbiamo fatto coaching per gli eventi di TEDx da subito, incominciando con TEDxParisUniversitès

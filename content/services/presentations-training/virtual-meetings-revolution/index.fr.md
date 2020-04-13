@@ -7,7 +7,7 @@ urlredirect	= ""
 showrefs	= false
 url	 		= "/presentations-training/virtual-meetings-revolution/"
 picture		= "image.jpg"
-button		= "En savoir plus"
+schema		= "Course"
 +++
 
 ## Gardez le côté humain

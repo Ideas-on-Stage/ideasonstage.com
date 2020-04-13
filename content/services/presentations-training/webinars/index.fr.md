@@ -5,7 +5,7 @@ description		= "Une série de webinaires gratuits pour mieux présenter."
 categories		= [ "Training & Workshops" ]
 url	 			= "/formation-presentations/webinaires/"
 picture			= "webinar.jpg"
-itemtype		= "Course"
+# !!! Do not set schema to course, but to event
 +++
 
 ## Virtual Meeting Revolution - Webinaires Gratuits

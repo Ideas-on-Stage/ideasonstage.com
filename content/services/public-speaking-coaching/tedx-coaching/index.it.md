@@ -6,7 +6,14 @@ weight		= 1
 categories	= [ "Public Speaking Coaching" ]
 url			= "/public-speaking-coaching/tedx-coaching/"
 picture		= "tedx-saclay.jpg"
-itemtype	= "Service"
+
+# Product schema, offers array is mandatory
+schema		= "Product"
+[offers]
+	[offers.001]
+		pricecurrency = "EUR"
+		price			= "250"
+		availability		= "https://schema.org/InStock"	
 +++
 
 {{< storyline-picture-text title="TED - 2009" description="Ogni storia ha bisogno del suo Eroe. Il nostro è Yann Arthus - Berthrand , che ci aiutò nella presentazione del nostro primo TED." picture="/pictures/inserts/ted-01.jpg" >}}

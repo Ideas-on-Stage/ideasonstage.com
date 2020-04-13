@@ -1,12 +1,19 @@
 +++
 draft		= false
 title		= "Coaching TEDx"
-description	= "Le public des événements TEDx a des attentes élevées. Découvrez comment Ideas on Stage peut vous aider à les dépasser."
+description	= "Le public des événements TEDx a des attentes élevées. Découvrez comment Ideas on Stage peut vous aider à les dépasser avec son équipe de coachs expérimentés."
 weight		= 1
 categories	= [ "Coaching Prise de Parole en Public" ]
 url 			= "/coaching-prise-de-parole-en-public/coaching-tedx/"
 picture		= "tedx-saclay.jpg"
-itemtype	= "Service"
+
+# Product schema, offers array is mandatory
+schema		= "Product"
+[offers]
+	[offers.001]
+		pricecurrency = "EUR"
+		price			= "250"
+		availability		= "https://schema.org/InStock"			
 +++
 
 {{< storyline-picture-text title="TED - 2009" description="Chaque histoire a un héros. Le nôtre a été Yann Arthus-Bertrand, que nous avons coaché pour TED." picture="/pictures/inserts/ted-01.jpg" >}}

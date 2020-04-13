@@ -1,5 +1,4 @@
 +++
-uuid		= "53A30545-4E31-459E-B424-00B2FC0F50C8"
 draft 		= false
 title 		= "Ideas on Stage | Coaching prise de parole et gestion d'événements"
 description	= "Agence internationale spécialisée dans la création de présentations, la formation et le coaching en prise de parole en public et les événements d'entreprise. Nous sommes présents aux États-Unis et en Europe."
@@ -13,9 +12,6 @@ insertsbottom	= [
 [services]
 	title		= "Nos Services"
 	sectionid	= "services"
-	itemtype	= "OfferCatalog"
-	itemscope	= ""
-	itemprop	= "hasOfferCatalog"
 	[services.list]
 		[services.list.001]
 			sectionid	= "du-bureau-au-travail-a-distance"
@@ -23,48 +19,40 @@ insertsbottom	= [
 			description	= "Comment passer d'un bureau physique à un bureau à distance tout en gardant le lien ? En créant une communauté de travail en ligne."
 			picture		= "/du-bureau-au-travail-a-distance/remote-work.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "inserts/link-full-picture-text-right.html"
 			link			= "/du-bureau-au-travail-a-distance/"
-			itemtype	= "Service"
 		[services.list.002]
 			sectionid	= "public-speaking-coaching"
 			title		= "Coaching prise de parole"
 			description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène."
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
-			link			= "/coaching-prise-de-parole-en-public/"
-			itemtype	= "Service"
-			
+			layout		= "inserts/link-full-picture-text-right.html"
+			link			= "/coaching-prise-de-parole-en-public/"	
 		[services.list.003]
 			sectionid	= "business-events"
 			title		= "Support événementiel"
 			description	= "Un ensemble de services pour faciliter l'organisation des événements. Maîtres de cérémonie, coaching en prise de parole, ateliers créatifs, gestion de projet."
 			picture		= "/pictures/inserts/home-business-events.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "inserts/link-full-picture-text-right.html"
 			link			= "/evenements-entreprise/"
-			itemtype	= "Service"
-
 		[services.list.004]
 			sectionid	= "presentation-creation"
 			title		= "Création de présentations"
 			description	= "Nous aidons les dirigeants à communiquer efficacement. Nous vous aidons à définir vos messages et votre stratégie, nous écrivons l'histoire, préparons les slides et vous préparons à prendre la parole en public."
 			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "inserts/link-full-picture.html"
 			link			= "/agence-creation-presentations/"
-			itemtype	= "Service"
-			
 		[services.list.005]
 			sectionid	= "presentations-training"
 			title		= "Formations à l'art&nbsp;de&nbsp;présenter"
 			description	= "Découvrez nos formations à l'art de présenter, de «&nbsp;The Business Presentation Revolution&nbsp;» à «&nbsp;Women&nbsp;on&nbsp;Stage&nbsp;»."
 			picture		= "/pictures/inserts/home-presentations-training.jpg"
 			style		= "bg-lightgrey"
-			layout		= "insert-link-full-picture.html"
+			layout		= "inserts/link-full-picture.html"
 			link			= "/formation-presentations/"
-			itemtype	= "Service"
 
 [slider]
 	[slider.list]

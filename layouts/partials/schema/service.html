@@ -1,0 +1,37 @@
+{{/* <!--
+	Official Google Structured data type: no
+	
+	Use product instead of service whenever possible. This "may" allow it to be displayed as a rich snippet in Google's results. Services can be listed as products.
+ --> */}}
+{{- $permalink := .Permalink -}}
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org/",
+	"@type": "Service",
+	"name": {{ .Title }},
+	"image": {{ $permalink }}{{ .Params.picture }},
+	"description": {{ .Params.description }},
+	"brand": {
+	    "@type": "Brand",
+	    "name": {{ site.Params.author }}
+	}
+	{{- if .Params.Offers }},
+	"offers": [
+		{{- $counter := 0 -}}
+		{{ range .Params.offers -}}
+			{{- if ne 0 $counter }},{{ end }}
+			{
+			    "@type": "Offer",
+			    "url": {{ $permalink }},
+			    "priceCurrency": {{ .pricecurrency }},
+			    "price": {{ .price }},
+			    "availability": {{ .availability }},
+			    "seller": {{ (partial "schema/properties/organization" .) | safeJS }}
+				}
+		    }
+			{{- $counter = add $counter 1 -}}
+		{{- end }}
+	]
+	{{- end }}
+}
+</script>

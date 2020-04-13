@@ -1,2 +1,1 @@
-{{ $schema := partial "getschema.html" . }}
-<img src="{{ with .link }}{{ else }}{{ .url }}{{ end }}{{ .picture }}" {{ $schema.image | safeHTMLAttr }}>
+<img src="{{ with .link }}{{ else }}{{ .url }}{{ end }}{{ .picture }}">

@@ -3,7 +3,7 @@ pageslist:
 - "53A30545-4E31-459E-B424-00B2FC0F50C8"
 position: bottom
 title: "Ateliers LEGO"
-layout: insert-link-half-text-picture-2.html
+layout: inserts/link-half-text-picture-2.html
 style: bg-codingandbricks
 picture: /pictures/inserts/home-lego-serious-play.jpg
 link: /evenements-entreprise/ateliers-lego-serious-play/

@@ -3,7 +3,7 @@ pageslist:
 - "125E3753-B0C6-4CF0-BE9F-1DBE6759D7DC"
 position: bottom
 title: "Presentation Zen for Business"
-layout: insert-link-photo1-text2.html
+layout: inserts/link-photo1-text2.html
 style: bg-lightgrey
 picture: /pictures/inserts/presentation-training-pz.jpg
 link: /formacion-presentaciones/presentation-zen-para-empresas/

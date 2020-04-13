@@ -5,7 +5,7 @@ description		= "A free Webinar series to become a better presenter."
 categories		= [ "Training & Workshops" ]
 url	 			= "/presentations-training/webinars/"
 picture			= "webinar.jpg"
-itemtype		= "Course"
+# !!! Do not set schema to course, but to event
 +++
 
 ## Virtual Meeting Revolution - Free Webinar Series
@@ -23,7 +23,7 @@ Here is the schedule, together with links to our EventBrite pages so you can sig
 Timing: every Thursday from 4.00pm-5.00pm CET (Paris time) / 3.00pm-4.00pm GMT (London) / 7.00am PST (California) except the first which is 8.00am PST
 
 <ul>
-<li itemprop="hasCourseInstance" itemscope itemtype="CourseInstance"><a href="https://www.eventbrite.fr/e/virtual-set-up-real-success-how-to-set-up-your-home-office-for-online-meetings-free-webinar-registration-100935895982">April 16th: Virtual Set-Up, Real Success: How to set up your home office for online meetings</a><span itemprop="courseWorkload"><br/>1 hour</span> <span itemprop="courseMode">online webinar</span> with <span itemprop="instructor">Pierre Morsa</span> on <span itemprop="startDate">2020-04-16</span></li>
+<li><a href="https://www.eventbrite.fr/e/virtual-set-up-real-success-how-to-set-up-your-home-office-for-online-meetings-free-webinar-registration-100935895982">April 16th: Virtual Set-Up, Real Success: How to set up your home office for online meetings</a><span itemprop="courseWorkload"><br/>1 hour</span> <span itemprop="courseMode">online webinar</span> with <span itemprop="instructor">Pierre Morsa</span> on <span itemprop="startDate">2020-04-16</span></li>
 <li itemprop="hasCourseInstance" itemscope itemtype="CourseInstance"><a href="https://www.eventbrite.fr/e/virtual-facilitation-preparing-and-leading-successful-online-meetings-free-webinar-registration-100936094576">April 23rd: Virtual Facilitation: Preparing and leading successful online meetings</a><br/>1 hour</span> <span itemprop="courseMode">online webinar</span> with <span itemprop="instructor">Phil Waknell</span> on <span itemprop="startDate">2020-04-23</span></li></li>
 </ul>
 

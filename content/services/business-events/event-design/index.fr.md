@@ -9,13 +9,6 @@ urlredirect	= ""
 url 			= "/evenements-entreprise/conception-evenements/"
 picture		= "event-design.jpg"
 style		= "bg-white"
-
-itemtype		= "Service"
-itemscope		= ""
-itemprop		= ""
-titleprop		= "name"
-descprop		= "description"
-pictureprop		= "image"
 +++
 
 ## « Bien » n'est pas assez bien

@@ -1,0 +1,6 @@
+{{ "<!-- partials:head-schema.html:start -->" | safeHTML }}
+{{ if isset .Params "schema" -}}
+	{{- $schema := lower .Params.schema }}
+	{{- partial (printf "schema/%s.html" $schema) . }}
+{{- end }}
+{{ "<!-- partials:head-schema.html:end -->" | safeHTML }}

@@ -3,7 +3,7 @@ pageslist:
 - "24103085-4F73-484A-B98F-F00A5F82C90A"
 position: top
 title: "Diverse and skilled team"
-layout: insert-picture1-text2.html
+layout: inserts/picture1-text2.html
 style: bg-white
 picture: /pictures/inserts/home-team.jpg
 description: "Our team brings together business experts, voice coaches, presentation designers and directors, event managers, master of ceremonies, keynote speakers and more to offer a unique blend of skills."

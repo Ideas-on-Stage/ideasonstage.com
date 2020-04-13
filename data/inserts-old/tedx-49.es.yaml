@@ -3,7 +3,7 @@ pageslist:
 - "DD67BD5A-5334-4B19-A347-25E25B3F579C"
 position: top
 title: "300+ y creciendo"
-layout: insert-storyline-end.html
+layout: inserts/storyline-end.html
 style: bg-lightgrey
 picture: /pictures/inserts/ted-01.jpg
 description: Hemos acompañado y entrenado a más de 300 speakers de eventos TEDx. Nos hemos convertido en expertos en TEDx internacionalmente trabajando en eventos en los Estados Unidos, Canada, Reino Unido y muchos otros países europeos. Y no tenemos intención de parar.

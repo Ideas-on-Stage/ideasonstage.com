@@ -1,9 +1,8 @@
 {{ "<!-- partials:pages-list.html:start -->" | safeHTML }}
 {{ range .Pages }}
-	{{- $schema := partial "getschema.html" .Params -}}
-	<div class="layout-content" {{ $schema.itemlist | safeHTMLAttr }}>
+	<div class="layout-content">
 	{{ with .Params }}
-		{{ partial "insert-link-picture2-text1.html" . }}
+		{{ partial "inserts/link-picture2-text1.html" . }}
 	{{ end }}
 	</div>
 {{ end }}

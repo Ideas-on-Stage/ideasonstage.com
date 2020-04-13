@@ -3,7 +3,7 @@ pageslist:
 - "F66AB505-D431-49E3-B6F4-8F2BEAE40B06"
 position: top
 title: "2009 - TED"
-layout: insert-storyline-picture-text.html
+layout: inserts/storyline-picture-text.html
 style: bg-lightgrey
 picture: /pictures/inserts/ted-01.jpg
 description: Ogni storia ha bisogno del suo Eroe. Il nostro   è Yann Arthus - Berthrand , che ci aiutò nella presentazione del nostro primo TED. 

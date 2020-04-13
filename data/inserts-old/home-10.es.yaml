@@ -3,7 +3,7 @@ pageslist:
 - "2046405E-6EA2-4D37-AF73-03CB071E1BFF"
 position: bottom
 title: "The Business Presentation Revolution Videos"
-layout: insert-link-text1-picture2.html
+layout: inserts/link-text1-picture2.html
 style: bg-lightgrey
 picture: /pictures/inserts/revolution-hand-clicker.jpg
 link: /revolution/

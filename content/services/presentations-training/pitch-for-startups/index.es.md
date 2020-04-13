@@ -2,12 +2,10 @@
 draft		= false
 title		= "Pitch para Startups"
 description = "Aprender a hacer un pitch ganador con la ayuda de coaches que han trabajado con cientos de startups."
-weight		= 4
 categories	= [ "Training & Workshops" ]
-urlredirect	= ""
-showrefs	= false
 url	 		= "/formacion-presentaciones/pitch-para-startups/"
 picture		= "image.jpg"
+schema		= "Course"
 +++
 
 ## Todo se reduce a un pitch

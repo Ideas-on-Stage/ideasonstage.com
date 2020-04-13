@@ -1,0 +1,31 @@
+{{/* <!--
+	Official Google Structured data type: no
+	
+	Do not replace address with address-ios partial, as actual address may change.
+	DO NOT USE YET, IMPLEMENTATION NOT FINISHED
+ --> */}}
+ {{- $permalink := .Permalink -}}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostaAddress",
+      "addressCountry": {{ site.Params.location.addresscountry }},
+	  "addressLocality": {{ site.Params.location.addresslocality }},
+      "addressRegion": {{ site.Params.location.addressregion }},
+      "postalCode": {{ site.Params.location.postalcode }},
+      "streetAddress": {{ site.Params.location.streetaddress }},
+	  "telephone": {{ site.Params.location.telephone }}
+    },
+    "name": "Ideas on Stage" 
+  },
+  "name": {{ .Title }}
+  "description": {{ .Params.description }},
+  "picture": {{ .Params.picture }},
+  "organizer": {{ (partial "schema/properties/organization" .) | safeJS }}
+  }
+}
+</script>

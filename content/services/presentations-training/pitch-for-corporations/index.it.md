@@ -2,12 +2,10 @@
 draft		= true
 title		= "Riavvia la Tua Azienda"
 description = "Se il tuo team fosse una startup, quanto sarebbero più creativi e agili? Scoprilo in questo workshop divertente e innovativo."
-weight		= 6
 categories	= [ "Training & Workshops" ]
-urlredirect	= ""
-showrefs	= false
 url	 		= "/presentations-training/pitch-for-corporations/"
 picture		= "image.jpg"
+schema		= "Course"
 +++
 
 ## Tutti hanno un’idea da proporre

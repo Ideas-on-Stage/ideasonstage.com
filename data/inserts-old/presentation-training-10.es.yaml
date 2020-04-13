@@ -3,7 +3,7 @@ pageslist:
 - "125E3753-B0C6-4CF0-BE9F-1DBE6759D7DC"
 position: bottom
 title: "Metodología probada, formadores experimentados"
-layout: insert-text2-picture1.html
+layout: inserts/text2-picture1.html
 style: bg-white
 picture: /pictures/inserts/presentation-training-10.jpg
 description: Los métodos y técnicas que enseñamos son los mismos que utilizamos diariamente para crear presentaciones memorables para nuestros clientes, por lo que sabemos que funcionan. Nuestros formadores suman decenas de años de experiencia en la preparación y exposición de presentaciones de alto nivel, de forma que aprenderás de auténticos expertos.

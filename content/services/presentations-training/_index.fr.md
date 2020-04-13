@@ -2,10 +2,9 @@
 draft 			= false
 title 			= "Formations à l'art de présenter"
 description		= "Changez votre vision des présentations"
-weight			= 4
 categories		= [ "Training & Workshops" ]
 url		 		= "/formation-presentations/"
-itemtype		= "Service"
+schema			= "Carousel"
 
 insertsbottom	= [
 	"presentation-training-10",

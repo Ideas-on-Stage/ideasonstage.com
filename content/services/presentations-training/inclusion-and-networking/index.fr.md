@@ -8,6 +8,8 @@ urlredirect	= ""
 showrefs	= false
 url 			= "/formation-presentations/inclusion-et-networking/"
 picture		= "image.jpg"
+schema		= "Course"
+
 +++
 
 ## Dépassez les stéréotypes culturels, brisez les silos de votre entreprise et décuplez la performance de votre entreprise.

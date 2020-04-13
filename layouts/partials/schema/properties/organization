@@ -1,0 +1,1 @@
+{ "@type": "Organization", "name": "{{ site.Params.organization.name }}", "url": "{{ site.BaseURL }}" }

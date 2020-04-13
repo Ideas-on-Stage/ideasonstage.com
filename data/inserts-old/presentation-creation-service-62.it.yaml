@@ -3,7 +3,7 @@ pageslist:
 - "1EBFB836-DE57-4BB9-82C3-F54E37610F8C"
 position: bottom
 title: "2 Creazione della Presentazione"
-layout: insert-storyline-picture-text.html
+layout: inserts/storyline-picture-text.html
 style: bg-light
 picture: /pictures/inserts/presentation-creation-service-62.jpg
 description: Una volta che il design è stato approvato costruiamo la prima versione del PowerPoint Deck. In alternativa usiamo anche Keynote di Apple.

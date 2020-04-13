@@ -1,5 +1,4 @@
 +++
-uuid		= "922A0BFD-93A9-46E2-ADB4-CD07FE376C86"
 draft 		= false
 title 		= "Regala delle Presentazioni Incredibili"
 description	= "Regala delle Presentazioni incredibili con gli Specialisti della Business Presentation."
@@ -21,25 +20,23 @@ insertsbottom	= [
 			description	= "Grandi storie, grandi slides"
 			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture.html"
+			layout		= "inserts/link-full-picture.html"
 			link			= "/presentation-creation-agency/"
-			itemtype	= "Service"
 		[services.list.002]
 			sectionid	= "business-events"
 			title		= "Eventi Corporate"
 			description	= "Rompi la routine. Sorprendi i tuoi ospiti"
 			picture		= "/pictures/inserts/home-business-events.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "inserts/link-full-picture-text-right.html"
 			link			= "/eventi-corporate/"
-			itemtype	= "Service"
 		[services.list.003]
 			sectionid	= "public-speaking-coaching"
 			title		= "Public Speaking"
 			description	= "Sii padrone del palco. Parla con facilità e sicurezza"
 			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 			style		= "bg-black"
-			layout		= "insert-link-full-picture-text-right.html"
+			layout		= "inserts/link-full-picture-text-right.html"
 			link			= "/public-speaking-coaching/"
 			itemtype	= "Service"
 		[services.list.004]
@@ -48,9 +45,8 @@ insertsbottom	= [
 			description	= "Cambia la cultura delle Business Presentation nella tua azienda"
 			picture		= "/pictures/inserts/home-presentations-training.jpg"
 			style		= "bg-lightgrey"
-			layout		= "insert-link-full-picture.html"
+			layout		= "inserts/link-full-picture.html"
 			link			= "/training-workshops/the-business-presentation-revolution/"
-			itemtype	= "Service"
 
 [slider]
 	[slider.list]

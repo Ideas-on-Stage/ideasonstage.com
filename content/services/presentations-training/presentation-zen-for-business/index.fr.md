@@ -6,6 +6,7 @@ weight		= 3
 categories	= [ "Formations et Ateliers" ]
 picture		= "hero.jpg"
 url 			= "/formation-presentations/presentation-zen-en-entreprise/"
+schema		= "Course"
 +++
 
 ## L'approche qui a révolutionné les présentations dans le monde

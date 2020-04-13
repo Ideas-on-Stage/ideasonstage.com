@@ -1,0 +1,7 @@
+{{ "<!-- partials:services-list.html:start -->" | safeHTML }}
+{{ range .Pages }}
+	{{ with .Params }}
+		{{ partial "inserts/link-picture2-text1.html" . }}
+	{{ end }}
+{{ end }}
+{{ "<!-- partials:services-list.html:end -->" | safeHTML }}

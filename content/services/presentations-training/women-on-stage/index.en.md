@@ -4,10 +4,9 @@ title		= "Women on Stage 2.0"
 description = "Women On Stage 2.0 is a public speaking and professional development workshop dedicated to women leaders and executives who want to speak up, inspire and present with confidence."
 weight		= 2
 categories	= [ "Training & Workshops" ]
-urlredirect	= ""
-showrefs	= false
 url	 		= "/presentations-training/women-on-stage/"
 picture		= "image.jpg"
+schema		= "Course"
 +++
 
 **Women on Stage 2.0 is a public speaking and professional development workshop dedicated to women leaders and executives who want to speak up, inspire and present with confidence.**

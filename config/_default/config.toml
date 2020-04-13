@@ -3,7 +3,7 @@ DefaultContentLanguage	= "en"
 paginate				= 5
 paginatePath			= "newspage"
 canonifyurls				= false
-name         			= "Ideas on Stage"
+title         			= "Ideas on Stage"
 copyright				= "© Ideas on Stage"
 theme        			= "hugo-creative-theme-master"
 
@@ -217,6 +217,16 @@ theme        			= "hugo-creative-theme-master"
 			warning = "Please enter your email address."
 
 	# ------------------------------
+	# Location
+	[params.location]
+		addresscountry	= "France"
+		addresslocality	= "Paris"
+		addressregion	= "Île de France"
+		postalcode		= "75008"
+		streetaddress	= "138 avenue des Champs Élysées"
+		telephone		= "+33183750544"
+	
+	# ------------------------------
 	# Map
 	[params.map]
 		enable		= false
@@ -231,6 +241,13 @@ theme        			= "hugo-creative-theme-master"
 		by	 		= "by"
 		title 		= "Stories"
 
+	# ------------------------------
+	[params.organization]
+		logo			= "/pictures/home/ideas-on-stage.png"
+		name		= "Ideas on Stage"
+		sameas		= [ "https://www.linkedin.com/company/ideas-on-stage/", "https://www.youtube.com/user/IdeasOnStage" ]
+		
+		
 	# ------------------------------		
 	# Revolution
 	[params.revolution]
@@ -401,7 +418,7 @@ theme        			= "hugo-creative-theme-master"
         enable = true
 		title = "Contactez-nous"
 		subtitle  = "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
-		contactphone = "Vous pouvez également nous appeler au <span itemprop=\"telephone\" content=\"+33183750544\">01&nbsp;83&nbsp;75&nbsp;05&nbsp;44.</span>"
+		contactphone = "Vous pouvez également nous appeler au +33183750544."
 		buttonText = "Envoyer"
 		wait	= "Veuillez patienter..."
 		success = "Merci, nous vous répondrons rapidement."
@@ -449,7 +466,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.fr.map]
 		enable		= true
 		title		= "Où nous trouver"
-		address		= "<span itemprop=\"streetAddress\">138 avenue des Champs Élysées</span> — <span itemprop=\"postalCode\">75008</span> <span itemprop=\"addressLocality\">Paris, France</span> — Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
+		address		= "138 avenue des Champs Élysées — 75008 Paris, France — Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
 		bgimage		= "/pictures/home/triumph.jpg"
 
 	# ------------------------------		

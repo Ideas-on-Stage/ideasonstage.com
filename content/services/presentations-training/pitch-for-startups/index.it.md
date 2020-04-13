@@ -2,12 +2,10 @@
 draft		= false
 title		= "Startup Pitch"
 description = "Impara a dare un killer pitch da coach esperti che hanno lavorato con centinaia di startup."
-weight		= 4
 categories	= [ "Training & Workshops" ]
-urlredirect	= ""
-showrefs	= false
 url	 		= "/presentations-training/pitch-for-startups/"
 picture		= "image.jpg"
+schema		= "Course"
 +++
 
 ## È tutta questione di pitch

@@ -6,6 +6,7 @@ weight		= 3
 categories	= [ "training-workshops" ]
 picture		= "hero.jpg"
 url	 		= "/formacion-presentaciones/presentation-zen-para-empresas/"
+schema		= "Course"
 +++
 
 ## La filosofía que revolucionó las presentaciones en todo el mundo

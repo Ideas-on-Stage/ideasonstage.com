@@ -3,7 +3,7 @@ pageslist:
 - "34EAF79C-44A8-497C-B073-31FE7938FCC4"
 position: bottom
 title: "One More Thing"
-layout: insert-storyline-end.html
+layout: inserts/storyline-end.html
 style: bg-light
 picture: /pictures/inserts/presentation-creation-service-05.jpg
 description: Nous savons que les entreprises évoluent sans cesse. C'est pourquoi vous avez un an après la livraison de la présentation finale pour nous demander un set de modifications en plus. Gratuitement.

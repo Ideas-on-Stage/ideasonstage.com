@@ -4,11 +4,9 @@ title		= "Formation « The Business Presentation Revolution »"
 description = "Les présentations de vos équipes vont être changées à jamais."
 weight		= 1
 categories	= [ "Formations et Ateliers" ]
-urlredirect	= ""
-showrefs	= true
 url	 		= "/formation-presentations/the-business-presentation-revolution/"
 picture		= "image.jpg"
-button		= "En savoir plus"
+schema		= "Course"
 +++
 
 ## Formez vos équipes à donner des présentations percutantes

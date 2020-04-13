@@ -2,12 +2,10 @@
 draft		= false
 title		= "Reboot your company"
 description = "If your team were a startup, how much more creative and agile would they be? Find out with this fun, innovative workshop."
-weight		= 6
 categories	= [ "Training & Workshops" ]
-urlredirect	= ""
-showrefs	= false
 url 			= "/presentations-training/pitch-for-corporations/"
 picture		= "image.jpg"
+schema		= "Course"
 +++
 
 ## Everyone has an idea to pitch

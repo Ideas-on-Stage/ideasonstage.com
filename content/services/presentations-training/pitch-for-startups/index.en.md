@@ -2,12 +2,10 @@
 draft		= false
 title		= "Startups on Stage"
 description = "Learn to deliver a killer pitch from experienced coaches who've worked with hundreds of start-ups."
-weight		= 4
 categories	= [ "Training & Workshops" ]
-urlredirect	= ""
-showrefs	= false
 url 			= "/presentations-training/pitch-for-startups/"
 picture		= "image.jpg"
+schema		= "Course"
 +++
 
 ## Everything comes down to the pitch

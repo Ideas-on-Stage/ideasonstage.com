@@ -1,4 +1,3 @@
-{{- if .title -}}
-	{{- $schema := partial "getschema.html" . -}}
-	<h3 class="title-responsive" {{ $schema.name | safeHTMLAttr }}>{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>
-{{- end -}}
+{{ if .title -}}
+	<h3 class="title-responsive">{{ with .title | safeHTML }}{{ . }}{{ end }}</h3>
+{{- end }}
