@@ -1,0 +1,19 @@
+{{/* <!--
+	Official Google Structured data type: no
+ --> */}}
+{{- $permalink := .Permalink -}}
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org/"
+	, "@type": "Video",
+	, "name": {{ .Title }},
+	, "image": {{ .Params.picture | absURL }},
+	, "description": {{ .Params.description }},
+	, "brand": {
+	    "@type": "Brand"
+	    , "name": {{ site.Params.author }}
+	  }
+	, "thumbnail": {{ .Params.picture | absURL }}
+	, "transcript": {{ .Content }}
+}
+</script>

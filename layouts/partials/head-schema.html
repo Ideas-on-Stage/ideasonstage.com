@@ -1,5 +1,8 @@
 {{ "<!-- partials:head-schema.html:start -->" | safeHTML }}
-{{ if isset .Params "schema" -}}
+{{ if .IsHome -}}
+	{{- partial "schema/corporation.html" . }}
+	{{- partial "schema/website.html" . }}
+{{- else if isset .Params "schema" }}
 	{{- $schema := lower .Params.schema }}
 	{{- partial (printf "schema/%s.html" $schema) . }}
 {{- end }}
