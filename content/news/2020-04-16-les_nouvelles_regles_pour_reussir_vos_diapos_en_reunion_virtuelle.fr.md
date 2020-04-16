@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Les nouvelles règles pour réussir vos diapos en réunion virtuelle"
+title = "Les nouvelles règles pour réussir vos slides en réunion virtuelle"
 tags = ["Slides", "Diapositives", "TravailàDistance", "VirtualSlideSuccess."]
 news = ["general"]
 date = "2020-04-16"
