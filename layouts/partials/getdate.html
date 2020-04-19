@@ -8,29 +8,27 @@
 {{ $lang := site.LanguageCode }}
 {{ $datetoto := . }}
 {{ $date := dateFormat "02 January 2006 15:00" . }}
-{{ $datenum := dateFormat "2006 1 2" . }}
+{{ $datenum := dateFormat "2006 1 2 15:00" . }}
 {{ $datesplit := split $datenum " " }}
 {{ $daynum := index $datesplit 2 }}
 {{ $moisnum := index $datesplit 1 }}
 {{ $moistxt := "" }}
 {{ $yearnum := index $datesplit 0 }}
-
+{{ $time := index $datesplit 3 }}
 {{ if ne "en" $lang }}
+	{{/* <!-- get array of localized month names  --> */}}
+	{{ $months := index site.Data.multilingual.months $lang }}
+	{{/* <!-- get matching month !!! "01" is not equal to "1" !!! --> */}}
+	{{ $moistxt = index $months $moisnum }}
+	{{/* <!-- build international date --> */}}
 	{{ $date = $daynum }}
 	{{ $date = add $date " " }}
-	{{ if eq "fr" $lang }}
-		{{ $moistxt = index site.Data.mois $moisnum }}
-	{{ else if eq  "es" $lang }}
-		{{ $moistxt = index site.Data.moises $moisnum }}
-		{{ $date = add $date .Date.Year }}
-	{{ else if eq "it" $lang}}
-		{{ $moistxt = index site.Data.moisit $moisnum }}
-	{{ end }}
 	{{ $date = add $date $moistxt }}
 	{{ $date = add $date " " }}
 	{{ $date = add $date $yearnum }}
+	{{ $date = add $date " " }}
+	{{ $date = add $date $time }}
 {{ end }}
 
-{{ $date = add $date " " }}
-
+{{ $date = add $date " CET (Paris)" }}
 {{ return $date }}

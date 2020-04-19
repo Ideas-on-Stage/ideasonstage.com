@@ -65,7 +65,7 @@ Voici le calendrier ainsi que les liens vers nos pages EventBrite afin que vous 
 
 Horaires : tous les mardis de 16h00 à 17h00.
 
-{{< events title="Upcoming Events" >}}
+{{< events title="Prochains événements" >}}
 
 (Si vous avez des idées pour d'autres webinaires liés aux réunions en ligne et au travail à distance, et si ces webinaires s'avèrent très sollicités, nous pourrions ajouter d'autres dates ultérieurement)
 

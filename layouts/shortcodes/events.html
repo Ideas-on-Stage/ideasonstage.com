@@ -1,16 +1,16 @@
 {{ "<!-- shortcodes:events.html:start -->" | safeHTML }}
-<div class="layout-shortcode flex-parent-column flex-column-ontall">
-	{{ with .Params.title }}<h3 class="text-center paddingb-small">{{ . }}</h3>{{ end }}
+	{{ with .Params.title }}<h3 class="text-center">{{ . }}</h3>{{ end }}
 	{{- range $.Page.Params.events }}
 		{{- if gt .startdate (now.Format "2006-01-02") }}
-		<div class="flex-parent-row marginv-small">
+		<div class="flex-parent-row marginv-medium flex-column-reverse-ontall">
 			<div class="flex-child-40p">
 				<img src="{{ .image }}">
 			</div>
 			<div class="flex-child-60p flex-child-text-right">
-				<h4 class="">{{ .name }}</h4>
+				<h4 class="margin-none">{{ .name }}</h4>
 			    <p>{{ .description }}<br />
-				{{ partial "getdate.html" .startdate }} - {{ .performer }}<br />
+				{{ partial "getdate.html" .startdate }}<br />
+				{{ .performer }}<br />
 				{{- range .offers }}
 				<a href="{{ .url }}" class="button-secondary">{{ .button }}</a>
 				{{- end }}
@@ -18,5 +18,4 @@
 		</div>
 		{{- end }}
 	{{- end }}
-</div>
 {{ "<!-- shortcodes:events.html:end -->" | safeHTML }}
