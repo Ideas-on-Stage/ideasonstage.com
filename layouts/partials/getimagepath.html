@@ -1,0 +1,22 @@
+{{/* <!--
+	gets the path to the hero image
+	- first is simply .Params.picture if the .link and .picture parameters exist
+	- second is .url.picture if no .link exists but .picture exists
+	- third is hero.jpg picture in same folder as page
+ --> */}}
+
+{{ $imgpath := "" }}
+{{ if .Params.picture }}
+	{{ $firstchar := substr .Params.picture 1 1 }}
+	{{ $firstfour := substr .Params.picture 1 4 }}
+	{{ if eq "/" $firstchar }}
+		{{/* <!-- if starts with / then .picture contains rel path to img --> */}}
+		{{ $imgpath = .Params.picture | absURL }}
+	{{ else if eq "http" $firstfour }}
+		{{ $imgpath = .Params.picture }}
+	{{ else }}
+		{{ $imgpath = path.Join .Permalink .Params.picture }}
+	{{ end }}
+{{ end }}
+
+{{ return $imgpath }}

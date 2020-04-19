@@ -1,7 +1,12 @@
+{{/* <!-- 
+ 	gallery shortcode
+ 	
+ 	Creates a row of 3 images side by side.
+ 	Becomes 2 images side by side on ts (tall small) screens
+ 	So the ideal number of images is 6 or a multiple of 6
+ --> */}}
 <div class="flex-parent-row">
-	{{ range .Params}}
-		<div class="flex-child-33p">
-			<img src="{{ . }}">
-		</div>
-	{{ end }}
+	{{- range .Params }}
+		<div class="flex-child-33p"><img src="{{ . }}"></div>
+	{{- end }}
 </div>

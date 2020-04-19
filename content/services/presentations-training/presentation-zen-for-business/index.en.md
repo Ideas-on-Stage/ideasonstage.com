@@ -36,6 +36,6 @@ We will focus on how to use the Presentation Zen approach in your business prese
 On the second day, participants will finalize, illustrate and deliver the presentation they prepared the day before and will receive expert advice from our coaches on how to improve their delivery and make a stronger impression on their audiences.
 {{< /2columns >}}
 
-{{< picture1-text2 picture="/pictures/team-members/phil-waknell.jpg" title="Lead Trainer: Phil Waknell" >}}
+{{< picture1-text2 picture="phil-waknell.jpg" title="Lead Trainer: Phil Waknell" >}}
 The course owner and lead trainer for Presentation Zen for Business is Phil Waknell, co-founder and Chief Inspiration Officer at Ideas on Stage. Apart from his many years of experience with Ideas on Stage and its leading blue-chip clients, Phil teaches presentation skills at HEC Paris Executive Education, the world’s leading executive business school, and was featured in Garr’s third book The Naked Presenter. He is the author of the forthcoming book The Business Presentation Revolution, and is a frequent keynote speaker on the new way of presenting.
 {{< /picture1-text2 >}}

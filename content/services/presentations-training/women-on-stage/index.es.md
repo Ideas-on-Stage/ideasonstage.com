@@ -53,5 +53,5 @@ Esta no es la típica formación corporativa; ven preparada para trabajar y juga
 Una semana antes de la formación recibirás un cuestionario para que nos detalles tus retos específicos en la comunicación y tus expectativas. También te pediremos que prepares una tarea específica, de acuerdo a tus perfil y a tus retos.
 
 
-[pic1]: /pictures/training-workshops/women-on-stage/Confident-and-grounded.woman-at-work.jpg
-[pic2]: /pictures/training-workshops/women-on-stage/un-dimanche-a-paris.jpg
+[pic1]: confident-and-grounded-woman-at-work.jpg
+[pic2]: un-dimanche-a-paris.jpg

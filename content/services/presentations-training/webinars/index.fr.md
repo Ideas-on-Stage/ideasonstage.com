@@ -11,11 +11,11 @@ schema			= "events" # !!! Do not set schema to course, but to event
 		name		= "Virtual Set-Up, Real Success"
 		description	= "Configurer son bureau pour réussir ses réunions virtuelles depuis son domicile"
 		duration	= "T1H"
-		startdate	= "2020-04-21 16:00 UTC+01:00"
-		enddate		= "2020-04-21 17:00 UTC+01:00"
+		startdate	= "2020-04-21T16:00:00+01:00"
+		enddate		= "2020-04-21T17:00:00+01:00"
 		eventAttendanceMode = "Online"
 		eventStatus	= "Scheduled"
-		image		= "webinar.jpg"
+		image		= "2020-04-21-virtual-setup.jpg"
 		isaccessibleforfree = true
 		location		= "Zoom"
 		performer	= "Pierre Morsa"
@@ -27,15 +27,16 @@ schema			= "events" # !!! Do not set schema to course, but to event
 				seller = "Eventbrite"
 				url = "https://www.eventbrite.fr/e/inscription-virtual-set-up-real-success-configurer-son-bureau-pour-les-reunions-virtuelles-a-domicile-webinaire-100933292194"
 				validfrom = "2020-04-01"
+				button = "Inscrivez-vous sur Eventbrite"
 	[events.002]
 		name		= "Virtual Facilitation"
 		description	= "Préparer et animer des réunions virtuelles réussies"
 		duration	= "T1H"
-		startdate	= "2020-04-28 16:00 UTC+01:00"
-		enddate		= "2020-04-28 17:00 UTC+01:00"
+		startdate	= "2020-04-28T16:00:00+01:00"
+		enddate		= "2020-04-28T17:00:00+01:00"
 		eventAttendanceMode = "Online"
 		eventStatus	= "Scheduled"		
-		image		= "webinar.jpg"
+		image		= "2020-04-28-virtual-facilitation.jpg"
 		isaccessibleforfree = true
 		location		= "Zoom"
 		performer	= "Phil Waknell"
@@ -47,6 +48,7 @@ schema			= "events" # !!! Do not set schema to course, but to event
 				seller = "Eventbrite"
 				url = "https://www.eventbrite.fr/e/inscription-virtual-facilitation-preparer-et-animer-des-reunions-virtuelles-reussies-webinaire-gratuit-100933442644"
 				validfrom = "2020-04-01"
+				button = "Inscrivez-vous sur Eventbrite"
 +++
 
 ## Virtual Meeting Revolution - Webinaires Gratuits
@@ -63,9 +65,7 @@ Voici le calendrier ainsi que les liens vers nos pages EventBrite afin que vous 
 
 Horaires : tous les mardis de 16h00 à 17h00.
 
-* [14 avril : Virtual Slide Success - Les nouvelles règles pour réussir vos diapos en réunion virtuelle](https://www.eventbrite.fr/e/inscription-virtual-slide-success-les-nouvelles-regles-pour-reussir-vos-diapos-en-reunion-virtuelle-webinaire-100932774646)
-* [21 avril : Virtual Set-Up, Real Success - Configurer son bureau pour réussir ses réunions virtuelles depuis son domicile](https://www.eventbrite.fr/e/inscription-virtual-set-up-real-success-configurer-son-bureau-pour-les-reunions-virtuelles-a-domicile-webinaire-100933292194)
-* [28 avril : Virtual Facilitation - Préparer et animer des réunions virtuelles réussies](https://www.eventbrite.fr/e/inscription-virtual-facilitation-preparer-et-animer-des-reunions-virtuelles-reussies-webinaire-gratuit-100933442644)
+{{< events title="Upcoming Events" >}}
 
 (Si vous avez des idées pour d'autres webinaires liés aux réunions en ligne et au travail à distance, et si ces webinaires s'avèrent très sollicités, nous pourrions ajouter d'autres dates ultérieurement)
 

@@ -34,6 +34,6 @@ Durant ce premier jour, les participants vont créer une présentation en utilis
 Lors de la deuxième journée, les participants vont finaliser, illustrer et donner la présentation qu'ils ont préparé la veille ; ils recevront des conseils d'experts sur comment améliorer leur présence sur scène et renforcer leur impact sur l'audience.
 {{< /2columns >}}
 
-{{< picture1-text2 picture="/pictures/team-members/phil-waknell.jpg" title="Formateur principal: Phil Waknell" >}}
+{{< picture1-text2 picture="phil-waknell.jpg" title="Formateur principal: Phil Waknell" >}}
 Le responsable de la formation et formateur principal pour Présentation Zen en Entreprise est Phil Waknell, co-fondateur et Chief Inspiration Officer à Ideas on Stage. En plus de ses nombreuses années d'expérience avec Ideas on Stage et ses clients issus des grandes entreprises, Phil enseigne l'art de présenter à HEC Paris Executive Education, la meilleur école de management du monde, et a un encart dédié dans le troisième livre de Garr, « Les présentations mises à nu ». Il est l'auteur du livre à venir « The Business Presentation Revolution » et est un intervenant fréquent en tant que conférencier sur le nouvel art de présenter.
 {{< /picture1-text2 >}}

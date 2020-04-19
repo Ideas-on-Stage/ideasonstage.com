@@ -11,8 +11,8 @@ schema			= "events" # !!! Do not set schema to course, but to event
 		name		= "Virtual Set-Up, Real Success"
 		description	= "How to set up your home office for online meetings"
 		duration	= "T1H"
-		startdate	= "2020-04-16 16:00 UTC+01:00"
-		enddate		= "2020-04-16 17:00 UTC+01:00"
+		startdate	= "2020-04-16T16:00:00+01:00"
+		enddate		= "2020-04-16T17:00:00+01:00"
 		eventAttendanceMode = "Online"
 		eventStatus	= "Scheduled"
 		image		= "webinar.jpg"
@@ -27,15 +27,16 @@ schema			= "events" # !!! Do not set schema to course, but to event
 				seller = "Eventbrite"
 				url = "https://www.eventbrite.fr/e/virtual-set-up-real-success-how-to-set-up-your-home-office-for-online-meetings-free-webinar-registration-100935895982"
 				validfrom = "2020-04-01"
+				button = "Register on Eventbrite"
 	[events.002]
 		name		= "Virtual Facilitation"
 		description	= "Preparing and leading successful online meetings"
 		duration	= "T1H"
-		startdate	= "2020-04-23 16:00 UTC+01:00"
-		enddate		= "2020-04-23 17:00 UTC+01:00"
+		startdate	= "2020-04-23T16:00:00+01:00"
+		enddate		= "2020-04-23T17:00:00+01:00"
 		eventAttendanceMode = "Online"
 		eventStatus	= "Scheduled"		
-		image		= "webinar.jpg"
+		image		= "2020-04-23-virtual-facilitation.jpg"
 		isaccessibleforfree = true
 		location		= "Zoom"
 		performer	= "Phil Waknell"
@@ -47,6 +48,7 @@ schema			= "events" # !!! Do not set schema to course, but to event
 				seller = "Eventbrite"
 				url = "https://www.eventbrite.fr/e/virtual-facilitation-preparing-and-leading-successful-online-meetings-free-webinar-registration-100936094576"
 				validfrom = "2020-04-01"
+				button = "Register on Eventbrite"
 +++
 
 ## Virtual Meeting Revolution - Free Webinar Series
@@ -63,10 +65,7 @@ Here is the schedule, together with links to our EventBrite pages so you can sig
 
 Timing: every Thursday from 4.00pm-5.00pm CET (Paris time) / 3.00pm-4.00pm GMT (London) / 7.00am PST (California) except the first which is 8.00am PST
 
-<ul>
-<li><a href="https://www.eventbrite.fr/e/virtual-set-up-real-success-how-to-set-up-your-home-office-for-online-meetings-free-webinar-registration-100935895982">April 16th: Virtual Set-Up, Real Success: How to set up your home office for online meetings</a><br/>1 hour online webinar with Pierre Morsa on 2020-04-16</li>
-<li><a href="https://www.eventbrite.fr/e/virtual-facilitation-preparing-and-leading-successful-online-meetings-free-webinar-registration-100936094576">April 23rd: Virtual Facilitation: Preparing and leading successful online meetings</a><br/>1 hour online webinar with Phil Waknell on 2020-04-23</li>
-</ul>
+{{< events title="Upcoming Events" >}}
 
 (If you have ideas for other webinars linked to online meetings and remote work, and if these webinars prove very popular, we might add more later.) 
 

@@ -3,7 +3,7 @@ draft		= false
 name		= "Frédéric-Pascal Stein"
 picture		= "frederic-pascal-stein.jpg"
 position 	= "Director de Presentaciones"
-url			= "/equipo/fredericpascal-stein/"
+url			= "/equipo/frederic-pascal-stein/"
 weight		= 190
 +++
 Consultor de comunicación, coach y escritor, Frédéric-Pascal Stein está especializado en comunicación verba y no verbal. Franco-americano, trabaja con clientes en francés y en inglés.

@@ -38,6 +38,6 @@ Nos centraremos en cómo aplicar la filosofía de Presentation Zen en tus presen
 El segundo día, los participantes completarán, ilustrarán y expondrán la presentación que prepararon el día anterior, y recibirán feedback de nuestros coaches para mejorar su exposición y conseguir causar un mayor impacto en su público.
 {{< /2columns >}}
 
-{{< picture1-text2 picture="/pictures/team-members/ricardo-bonis.jpg" title="Formador: Ricardo Bonis" >}}
+{{< picture1-text2 picture="ricardo-bonis.jpg" title="Formador: Ricardo Bonis" >}}
 El responsable del curso Presentation Zen para Empresas en español es Ricardo Bonis, Director de Ideas on Stage en España y Latinoamérica. Combina una larga experiencia desempeñando roles ejecutivos en el mundo empresarial con su experiencia ayudando a grandes multinacionales a crear presentaciones memorables inspiradas en la filosofía de Presentation Zen.
 {{< /picture1-text2 >}}

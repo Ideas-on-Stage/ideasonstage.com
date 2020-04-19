@@ -65,5 +65,5 @@ Marion è a disposizione per aiutare le donne a superare la loro riluttanza a br
 
 Per organizzare un workshop di Women on Stage per la tua azienda, o se vuoi partecipare ad uno dei nostri workshop pubblici, contattaci per favore con il modulo sottostante. TU ne vali sicuramente la pena!
 
-[pic1]: /pictures/training-workshops/women-on-stage/Confident-and-grounded.woman-at-work.jpg
-[pic2]: /pictures/training-workshops/women-on-stage/un-dimanche-a-paris.jpg
+[pic1]: confident-and-grounded-woman-at-work.jpg
+[pic2]: un-dimanche-a-paris.jpg
