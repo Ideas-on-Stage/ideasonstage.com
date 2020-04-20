@@ -13,15 +13,15 @@ schema			= "events" # !!! Do not set schema to course, but to event
 		duration	= "T1H"
 		startdate	= "2020-04-21T16:00:00+02:00"
 		enddate		= "2020-04-21T17:00:00+02:00"
-		eventAttendanceMode = "Online"
-		eventStatus	= "Scheduled"
+		eventAttendanceMode = "OnlineEventAttendanceMode"
+		eventStatus	= "EventScheduled"
 		image		= "2020-04-21-virtual-setup.jpg"
 		isaccessibleforfree = true
 		location		= "Zoom"
 		performer	= "Pierre Morsa"
 		[events.001.offers]
 			[events.001.offers.001]
-				availability = "In Stock"
+				availability = "OnlineOnly"
 				price = "0"
 				priceCurrency = "EUR"
 				seller = "Eventbrite"
@@ -34,15 +34,15 @@ schema			= "events" # !!! Do not set schema to course, but to event
 		duration	= "T1H"
 		startdate	= "2020-04-28T16:00:00+02:00"
 		enddate		= "2020-04-28T17:00:00+02:00"
-		eventAttendanceMode = "Online"
-		eventStatus	= "Scheduled"		
+		eventAttendanceMode = "OnlineEventAttendanceMode"
+		eventStatus	= "EventScheduled"		
 		image		= "2020-04-28-virtual-facilitation.jpg"
 		isaccessibleforfree = true
 		location		= "Zoom"
 		performer	= "Phil Waknell"
 		[events.002.offers]
 			[events.002.offers.001]
-				availability = "In Stock"
+				availability = "OnlineOnly"
 				price = "0"
 				priceCurrency = "EUR"
 				seller = "Eventbrite"
@@ -82,3 +82,8 @@ L'inspiration a un pouvoir de guérison sur l'esprit tout comme le repos et la n
 7 avril : Virtual Speaking Success - Capter l’attention lors de réunions virtuelles
 
 {{< youtube 01TMHcrGOqg >}}
+
+14 avril: Virtual Slide Success - Utiliser les slides lors d'une réunion en ligne
+
+{{< youtube ekCyWeFWUcw >}}
+

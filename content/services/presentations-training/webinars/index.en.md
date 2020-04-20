@@ -13,15 +13,15 @@ schema			= "events" # !!! Do not set schema to course, but to event
 		duration	= "T1H"
 		startdate	= "2020-04-16T16:00:00+02:00"
 		enddate		= "2020-04-16T17:00:00+02:00"
-		eventAttendanceMode = "Online"
-		eventStatus	= "Scheduled"
+		eventAttendanceMode = "OnlineEventAttendanceMode"
+		eventStatus	= "EventScheduled"
 		image		= "webinar.jpg"
 		isaccessibleforfree = true
 		location		= "Zoom"
 		performer	= "Pierre Morsa"
 		[events.001.offers]
 			[events.001.offers.001]
-				availability = "In Stock"
+				availability = "OnlineOnly"
 				price = "0"
 				priceCurrency = "USD"
 				seller = "Eventbrite"
@@ -34,15 +34,15 @@ schema			= "events" # !!! Do not set schema to course, but to event
 		duration	= "T1H"
 		startdate	= "2020-04-23T16:00:00+02:00"
 		enddate		= "2020-04-23T17:00:00+02:00"
-		eventAttendanceMode = "Online"
-		eventStatus	= "Scheduled"		
+		eventAttendanceMode = "OnlineEventAttendanceMode"
+		eventStatus	= "EventScheduled"		
 		image		= "2020-04-23-virtual-facilitation.jpg"
 		isaccessibleforfree = true
 		location		= "Zoom"
 		performer	= "Phil Waknell"
 		[events.002.offers]
 			[events.002.offers.001]
-				availability = "In Stock"
+				availability = "OnlineOnly"
 				price = "0"
 				priceCurrency = "USD"
 				seller = "Eventbrite"
@@ -86,3 +86,8 @@ April 2nd: Virtual Speaking Success: Effective communication in online meetings
 April 9th: Virtual Slide Success: Using slides in online meetings
 
 {{< youtube Ol878WG2WTg >}}
+
+April 16th: Virtual Set-Up, Real Success
+
+{{< youtube UaX7oW58afA >}}
+
