@@ -13,6 +13,8 @@
 	, "embedUrl": {{ $embedurl }}
 	, "name": {{ .Title }}
 	, "description": {{ .Params.description }}
+	{{ with .Params.starttime }}, "startTime": {{ . }}{{ end }}
+	{{ with .Params.endtime }}, "endTime": {{ . }}{{ end }}
 	, "thumbnailUrl": {{ add .Permalink "thumbnail.jpg" }}
 	, "transcript": {{ .Content }}
 	, "uploadDate": {{ .Params.date }}
