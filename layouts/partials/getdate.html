@@ -1,8 +1,13 @@
 {{/* <!--
-	gets the path to the hero image
-	- first is simply .Params.picture if the .link and .picture parameters exist
-	- second is .url.picture if no .link exists but .picture exists
-	- third is hero.jpg picture in same folder as page
+	getdate
+	
+	Parameters: none
+	Returns: the date string localized in EN, FR, ES or IT with the format "Monday 1 March 2000 15:00 CEST"
+	
+	The date returned uses the local time zone of the machine running Hugo.
+	To set the local time zone on Netlify, use the "TZ" build environment variable.
+	Set TZ to a value from the TZ time zones:
+	https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
  --> */}}
 
 {{/* <!-- get language --> */}}
@@ -28,14 +33,14 @@
 {{/* <!-- get matching month translation --> */}}
 {{ $monthint := index $months $monthname }}
 
-{{/* <!-- get localized month name --> */}}
+{{/* <!-- get localized time zone name --> */}}
 {{ $timezonename := index $dateelements 5 }}
-{{/* <!-- get array of localized month names  --> */}}
+{{/* <!-- get array of localized time zone names  --> */}}
 {{ $timezones := index site.Data.multilingual.timezones $lang }}
-{{/* <!-- get matching month translation --> */}}
+{{/* <!-- get matching time zone translation --> */}}
 {{ $timezoneint := index $timezones $timezonename }}
 
-{{/* <!-- build date --> */}}
+{{/* <!-- build localized date string --> */}}
 {{ $dateout := add $dayint " " }}
 {{ $dateout = add $dateout (index $dateelements 1) }}
 {{ $dateout = add $dateout " " }}

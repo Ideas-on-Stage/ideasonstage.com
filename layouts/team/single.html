@@ -1,7 +1,10 @@
-{{ define "head" }}
-	{{ partial "schema/person.html" . }}
-{{ end }}
-{{ define "main" }}
+{{- define "head" }}
+	{{ "<!-- team:single.html:head:start -->" | safeHTML }}
+	{{/* <!-- use Person schema for all team member pages --> */}}
+	{{- partial "schema/person.html" . }}
+	{{ "<!-- team:single.html:head:end -->" | safeHTML }}
+{{- end }}
+{{- define "main" }}
 	{{ "<!-- team:single.html:main:start -->" | safeHTML }}
 	<section id="team-member-bio">
 	    <div class="container paddingt-huge">
@@ -24,4 +27,4 @@
 	    </div><!-- end container -->
 	</section>
 	{{ "<!-- team:single.html:main:end -->" | safeHTML }}
-{{ end }}
+{{- end }}

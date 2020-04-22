@@ -3,6 +3,7 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
 		{{ block "head" . }}
+			{{/* <!-- page specific head info, for example a common schema --> */}}
 		{{ end }}
         {{ partial "head.html" . }}
 	</head>
@@ -19,11 +20,13 @@
 	        {{ partial "testimonials_pages.html" . }}
 	        {{ partial "contact.html" . }}
 	    </aside>
-        {{ partial "footer.html" . }}			
-        {{ partial "js.html" . }}
-        {{ if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
-            {{ partial "algolia-search" . }}
-        {{ end }}
+		<footer>
+	        {{ partial "footer.html" . }}			
+	        {{ partial "js.html" . }}
+	        {{- if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
+	            {{ partial "algolia-search" . }}
+	        {{- end }}
+		</footer>
     </body>
 </html>
 {{ "<!-- _default:baseof.html:start -->" | safeHTML }}

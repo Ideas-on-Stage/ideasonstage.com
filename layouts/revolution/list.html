@@ -1,122 +1,122 @@
 {{ define "main" }}
 	{{ "<!-- revolution:list.html:start -->" | safeHTML }}
 	{{ partial "page-hero.html" . }}
-    <div>
-		{{ $scratch := newScratch }}
-		{{ $scratch.Set "first" "true" }}
-		{{ $scratch.Set "content" .Content }}
-		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "revolution") 5 }}
-		{{ $pagenumber := .Paginator.PageNumber }}
-		{{ range $paginator.Pages }}
-			{{ if (and (eq ($scratch.Get "first") "true") (lt $pagenumber "2")) }}
-				{{/* <!-- generate hero with newest video --> */}}
-			     <section>
-					<div class="flex-container">
-						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
-							<div class="img-crop">
-								<img src="{{ .RelPermalink }}image.jpg" class="picture">
-							</div>
-						</a>
-						<div class="bg-black">
-							<div class="flex-item-text-overlay text-center">
-								<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
-							    	<h2>{{ with .Title }}{{ . }}{{ end }}</h2>
-							    </a>
-								<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}</a>
-					    	</div>
+	{{ partial "inserts-top.html" . }}
+	{{ $scratch := newScratch }}
+	{{ $scratch.Set "first" "true" }}
+	{{ $scratch.Set "content" .Content }}
+	{{ $paginator := .Paginate (where .Site.RegularPages "Type" "revolution") 5 }}
+	{{ $pagenumber := .Paginator.PageNumber }}
+	{{ range $paginator.Pages }}
+		{{ if (and (eq ($scratch.Get "first") "true") (lt $pagenumber "2")) }}
+			{{/* <!-- generate hero with newest video --> */}}
+		     <section id="hero">
+				<div class="flex-container">
+					<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
+						<div class="img-crop">
+							<img src="{{ .RelPermalink }}image.jpg" class="picture">
 						</div>
+					</a>
+					<div class="bg-black">
+						<div class="flex-item-text-overlay text-center">
+							<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
+						    	<h2>{{ with .Title }}{{ . }}{{ end }}</h2>
+						    </a>
+							<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}</a>
+				    	</div>
 					</div>
-				</section>
-				<div class="container paddingt-huge" >
-					<div class="row">
-						<div class="col-sm-10 col-sm-offset-1">	
-							{{ with $scratch.Get "content" }}{{ . | markdownify }}{{ end }}
-						</div>
-					</div>				
 				</div>
-				<div class="container">
-					<div class="row paddingt-large">
-						<div class="col-sm-10 col-sm-offset-1">
-							<div class="col-xs-4 text-center">
-								<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="youtube.svg" alt="youtube" style="margin-bottom: 5px; width:50px;"><br>YouTube</a>
-							</div>
-							<div class="col-xs-4 text-center">
-								<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"><img src="itunes.svg" alt="iTunes" style="margin-bottom: 5px; width:50px;"><br>iTunes</a>
-							</div>
-							<div class="col-xs-4 text-center">
-								<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="linkedin.svg" alt="linkedin" style="margin-bottom: 5px; width:50px;"><br>Linkedin</a>
-							</div>
-						</div>
+			</section>
+			<div class="container margint-medium" >
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">	
+						{{ with $scratch.Get "content" }}{{ . | markdownify }}{{ end }}
 					</div>
-					<div class="row paddingt-huge">
-						<div class="colx-xs-12 text-center">
-							<h2>{{ .Site.Params.revolution.episodes }}</h2>
+				</div>				
+			</div>
+			<div class="container">
+				<div class="row paddingt-large">
+					<div class="col-sm-10 col-sm-offset-1">
+						<div class="col-xs-4 text-center">
+							<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="youtube.svg" alt="youtube" style="margin-bottom: 5px; width:50px;"><br>YouTube</a>
+						</div>
+						<div class="col-xs-4 text-center">
+							<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"><img src="itunes.svg" alt="iTunes" style="margin-bottom: 5px; width:50px;"><br>iTunes</a>
+						</div>
+						<div class="col-xs-4 text-center">
+							<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="linkedin.svg" alt="linkedin" style="margin-bottom: 5px; width:50px;"><br>Linkedin</a>
 						</div>
 					</div>
 				</div>
-				{{ $scratch.Set "first" "false" }}
-			{{ else }}
-				{{/* <!-- generate normal list entry --> */}}
-	            <div class="container" >
-	                <section class="post paddingt-small paddingb-medium">
-	                    <div class="row">
-	                        <div class="col-sm-4 col-sm-offset-1">
-	                          <div class="image margint-small">
-	                              <a href="{{ .RelPermalink }}">
-	                                  <img src="{{ .RelPermalink }}thumbnail.jpg" class="img-responsive" alt="">
-	                              </a>
-	                          </div>
-	                        </div>
-	                        <div class="col-sm-6">
-	                            <a href="{{ .RelPermalink }}"><h3 class="margint-small">{{ .Title }}</h3></a>
-                            	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-                            		{{ if eq $.Site.LanguageCode  "en" }}
-                            			{{ .Date.Format "January 2, 2006" }}
-                                    {{ else if eq $.Site.LanguageCode  "fr"}}
-										{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
-                                    {{ else if eq $.Site.LanguageCode  "es"}}
-										{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}
-                                    {{ else if eq $.Site.LanguageCode  "it"}}
-										{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}
-                                    {{ end }}
-                            	</time>
-	                            <p>{{ .Description }}</p>
-	                            <a href="{{ .RelPermalink }}" class="button-secondary">{{ .Site.Params.revolution.more }}</a>
-	                        </div>
-	                    </div>
-	                </section>
-					<div class="row">
-						<div class="col-sm-10 col-sm-offset-1">
-							<hr>
-						</div>
+				<div class="row paddingt-huge">
+					<div class="colx-xs-12 text-center">
+						<h2>{{ .Site.Params.revolution.episodes }}</h2>
 					</div>
-				</div><!-- container -->
-	        {{ end }}
-
-		{{ end }}
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1">					
-					<ul class="pager">
-	                    {{ if .Paginator.HasPrev }}
-	                    <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}" class="button-secondary">{{ .Site.Params.news.prev }}</a></li>
-	                    {{ else }}
-	<!-- this code greys out the "Newer" button in the first page                            
-	                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-	-->                            
-	                    {{ end }}
-	
-	                    {{ if .Paginator.HasNext }}
-	                    <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}" class="button-secondary">{{ .Site.Params.buttons.next }}</a></li>
-	                    {{ else }}
-	<!-- this code greys out the "Older" button in the first page   
-	                    <li class="next disabled"><a href="#">Older &rarr;</a></li>
-	-->
-	                    {{ end }}
-	                </ul>
 				</div>
 			</div>
-		</div>		
-    </div><!-- content-main -->
+			{{ $scratch.Set "first" "false" }}
+		{{ else }}
+			{{/* <!-- generate normal list entry --> */}}
+            <div class="container" >
+                <section class="post paddingt-small paddingb-medium">
+                    <div class="row">
+                        <div class="col-sm-4 col-sm-offset-1">
+                          <div class="image margint-small">
+                              <a href="{{ .RelPermalink }}">
+                                  <img src="{{ .RelPermalink }}thumbnail.jpg" class="img-responsive" alt="">
+                              </a>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="{{ .RelPermalink }}"><h3 class="margint-small">{{ .Title }}</h3></a>
+                        	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+                        		{{ if eq $.Site.LanguageCode  "en" }}
+                        			{{ .Date.Format "January 2, 2006" }}
+                                {{ else if eq $.Site.LanguageCode  "fr"}}
+									{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                                {{ else if eq $.Site.LanguageCode  "es"}}
+									{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                                {{ else if eq $.Site.LanguageCode  "it"}}
+									{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}
+                                {{ end }}
+                        	</time>
+                            <p>{{ .Description }}</p>
+                            <a href="{{ .RelPermalink }}" class="button-secondary">{{ .Site.Params.revolution.more }}</a>
+                        </div>
+                    </div>
+                </section>
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+						<hr>
+					</div>
+				</div>
+			</div><!-- container -->
+        {{ end }}
+
+	{{ end }}
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-1">					
+				<ul class="pager">
+                    {{ if .Paginator.HasPrev }}
+                    <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}" class="button-secondary">{{ .Site.Params.buttons.previous }}</a></li>
+                    {{ else }}
+<!-- this code greys out the "Newer" button in the first page                            
+                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+-->                            
+                    {{ end }}
+
+                    {{ if .Paginator.HasNext }}
+                    <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}" class="button-secondary">{{ .Site.Params.buttons.next }}</a></li>
+                    {{ else }}
+<!-- this code greys out the "Older" button in the first page   
+                    <li class="next disabled"><a href="#">Older &rarr;</a></li>
+-->
+                    {{ end }}
+                </ul>
+			</div>
+		</div>
+	</div>		
+	{{ partial "inserts-bottom.html" . }}
 	{{ "<!-- revolution:list.html:end -->" | safeHTML }}
 {{ end }}

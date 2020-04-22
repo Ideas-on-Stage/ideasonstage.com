@@ -1,9 +1,8 @@
 {{ define "main" }}
+	{{ "<!-- team:list.html:main:start -->" | safeHTML }}
 	{{ partial "page-hero.html" . }}
-    {{ partial "events-tabs.html" . }}
 	{{ partial "inserts-top.html" . }}
 	{{ partial "page-content.html" . }}
-	{{ "<!-- team:list.html:main:start -->" | safeHTML }}
 	<section id="team-members">
 	     <div class="container">
 			<div class="row">
@@ -29,6 +28,6 @@
 	        </div> <!--end row-->
 	    </div>
 	</section>
-	{{ "<!-- team:list.html:main:end -->" | safeHTML }}
 	{{ partial "inserts-bottom.html" . }}
+	{{ "<!-- team:list.html:main:end -->" | safeHTML }}
 {{ end }}

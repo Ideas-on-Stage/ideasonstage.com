@@ -5,7 +5,7 @@ description		= "Une série de webinaires gratuits pour mieux présenter."
 categories		= [ "Formations et Ateliers" ]
 url	 			= "/formation-presentations/webinaires/"
 picture			= "webinar.jpg"
-schema			= "events" # !!! Do not set schema to course, but to event
+
 [events]
 	[events.001]
 		name		= "Virtual Set-Up, Real Success"
@@ -49,6 +49,40 @@ schema			= "events" # !!! Do not set schema to course, but to event
 				url = "https://www.eventbrite.fr/e/inscription-virtual-facilitation-preparer-et-animer-des-reunions-virtuelles-reussies-webinaire-gratuit-100933442644"
 				validfrom = "2020-04-01"
 				button = "Inscrivez-vous sur Eventbrite"
+				
+[videoobjects]
+	[videoobjects.001]
+		embedurl		= "IknE6ibOYpw"
+		description	= "Les clés pour réussir vos réunions virtuelles"
+		name		= "Virtual Meeting Revolution"
+		starttime	= "2020-03-31T16:00:00+02:00"
+		endtime		= "2020-03-31T17:00:00+02:00"
+		thumbnailurl= "webinar.jpg"
+		uploadDate	= "2020-04-01"
+	[videoobjects.002]
+		embedurl		= "01TMHcrGOqg"
+		description	= "Capter l’attention lors de réunions virtuelles"
+		name		= "Virtual Speaking Success"
+		starttime	= "2020-04-07T16:00:00+02:00"
+		endtime		= "2020-04-07T17:00:00+02:00"
+		thumbnailurl= "webinar.jpg"
+		uploadDate	= "2020-04-08"
+	[videoobjects.003]
+		embedurl		= "ekCyWeFWUcw"
+		description	= "Utiliser les slides lors d'une réunion en ligne"
+		name		= "Virtual Slide Success"
+		starttime	= "2020-04-14T16:00:00+02:00"
+		endtime		= "2020-04-14T17:00:00+02:00"
+		thumbnailurl= "webinar.jpg"
+		uploadDate	= "2020-04-15"	
+	[videoobjects.004]
+		embedurl		= "ZskvaALn37U"
+		description	= "Utiliser les slides lors d'une réunion en ligne"
+		name		= "Virtual Slide Success"
+		starttime	= "2020-04-21T16:00:00+02:00"
+		endtime		= "2020-04-21T17:00:00+02:00"
+		thumbnailurl= "2020-04-21-virtual-setup.jpg"
+		uploadDate	= "2020-04-22"	
 +++
 
 ## Virtual Meeting Revolution - Webinaires Gratuits
@@ -73,17 +107,4 @@ Chaque webinaire est limité à 100 places, alors veuillez vous inscrire en util
 
 L'inspiration a un pouvoir de guérison sur l'esprit tout comme le repos et la nutrition sur le corps. Avec ces webinaires, nous visons à vous inspirer afin que vous puissiez ensuite inspirer vos équipes, vos étudiants, vos communautés et maintenir un sentiment de connexion et de partage en ces temps difficiles.
 
-## Anciens webinaires
-
-31 mars : Virtual Meeting Revolution - Les clés pour réussir vos réunions virtuelles
-
-{{< youtube IknE6ibOYpw >}}
-
-7 avril : Virtual Speaking Success - Capter l’attention lors de réunions virtuelles
-
-{{< youtube 01TMHcrGOqg >}}
-
-14 avril: Virtual Slide Success - Utiliser les slides lors d'une réunion en ligne
-
-{{< youtube ekCyWeFWUcw >}}
-
+{{< videoobjects title="Webinaires précédents" >}}

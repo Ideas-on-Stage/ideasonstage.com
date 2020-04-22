@@ -4,18 +4,18 @@
 	Do not replace address with address-ios partial, as actual address may change.
 	DO NOT USE YET, IMPLEMENTATION NOT FINISHED
  --> */}}
- {{- $permalink := .Permalink -}}
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "affiliation": {{ partial "schema/properties/organization" . | safeJS }},
-  "image": {{ .Params.picture }},
-  "jobTitle": {{ .Params.position }},
-  "name": {{ .Params.name }},
-  {{ with .Params.sameas -}}
-  "sameAs": {{ partial "schema/properties/sameas" . | safeJS }},
-  {{- end }}
-  "url": {{ .Permalink }}
-}
-</script>
+		{{- $permalink := .Permalink }}
+		<script type="application/ld+json">
+			{
+			  "@context": "http://schema.org",
+			  "@type": "Person",
+			  "affiliation": {{ partial "schema/properties/organization" . | safeJS }},
+			  "image": {{ .Params.picture }},
+			  "jobTitle": {{ .Params.position }},
+			  "name": {{ .Params.name }},
+			  {{- with .Params.sameas -}}
+			  "sameAs": {{ partial "schema/properties/sameas" . | safeJS }},
+			  {{- end }}
+			  "url": {{ .Permalink }}
+			}
+		</script>

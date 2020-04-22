@@ -5,7 +5,7 @@ description		= "A free Webinar series to become a better presenter."
 categories		= [ "Training and Workshops" ]
 url	 			= "/presentations-training/webinars/"
 picture			= "webinar.jpg"
-schema			= "events" # !!! Do not set schema to course, but to event
+
 [events]
 	[events.001]
 		name		= "Virtual Set-Up, Real Success"
@@ -49,6 +49,40 @@ schema			= "events" # !!! Do not set schema to course, but to event
 				url = "https://www.eventbrite.fr/e/virtual-facilitation-preparing-and-leading-successful-online-meetings-free-webinar-registration-100936094576"
 				validfrom = "2020-04-01"
 				button = "Register on Eventbrite"
+
+[videoobjects]
+	[videoobjects.001]
+		embedurl		= "vsbB2iwja9o"
+		description	= "Key success factors for online meetings"
+		name		= "Virtual Meeting Revolution"
+		starttime	= "2020-03-26T16:00:00+02:00"
+		endtime		= "2020-03-26T17:00:00+02:00"
+		thumbnailurl= "webinar.jpg"
+		uploadDate	= "2020-03-27"
+	[videoobjects.002]
+		embedurl		= "fUDxZQaEra4"
+		description	= "Effective communication in online meetings"
+		name		= "Virtual Speaking Success"
+		starttime	= "2020-04-02T16:00:00+02:00"
+		endtime		= "2020-04-02T17:00:00+02:00"
+		thumbnailurl= "webinar.jpg"
+		uploadDate	= "2020-04-03"
+	[videoobjects.003]
+		embedurl		= "Ol878WG2WTg"
+		description	= "Using slides in online meetings"
+		name		= "Virtual Slide Success"
+		starttime	= "2020-04-09T16:00:00+02:00"
+		endtime		= "2020-04-09T17:00:00+02:00"
+		thumbnailurl= "webinar.jpg"
+		uploadDate	= "2020-04-10"	
+	[videoobjects.004]
+		embedurl		= "UaX7oW58afA"
+		description	= "How to set up your home office for online meetings"
+		name		= "Virtual Set-Up, Real Success"
+		starttime	= "2020-04-16T16:00:00+02:00"
+		endtime		= "2020-04-16T17:00:00+02:00"
+		thumbnailurl= "webinar.jpg"
+		uploadDate	= "2020-04-17"	
 +++
 
 ## Virtual Meeting Revolution - Free Webinar Series
@@ -73,21 +107,4 @@ Each webinar is limited to 100 places, so please sign up using the EventBrite pa
 
 Inspiration has healing power for the mind like rest and nutrition for the body. With these webinars, we aim to inspire you so that you can inspire your teams, your students, your communities, and maintain a sense of connection in these challenging times.
 
-## Past webinars
-
-March 26th: Virtual Meeting Revolution: Key success factors for online meetings
-
-{{< youtube vsbB2iwja9o >}}
-
-April 2nd: Virtual Speaking Success: Effective communication in online meetings
-
-{{< youtube fUDxZQaEra4 >}}
-
-April 9th: Virtual Slide Success: Using slides in online meetings
-
-{{< youtube Ol878WG2WTg >}}
-
-April 16th: Virtual Set-Up, Real Success
-
-{{< youtube UaX7oW58afA >}}
-
+{{< videoobjects title="Past Webinars" >}}

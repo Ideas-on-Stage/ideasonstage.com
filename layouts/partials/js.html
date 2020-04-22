@@ -19,8 +19,15 @@
 
 {{ "<!-- script form validation -->" | safeHTML }}
 <script type="text/javascript">
+
+// $(function()... is identical to $(document).ready(function()...
+// it prevents script from running before document is fully loaded
 $(function() {
 
+	// jQuery
+	// "input,textarea" to act on input and textarea elements only
+	// not("...") to exclude these elements
+	// then run jqBootstrapValidation on it
     $("input,textarea").not("[type=search]").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {

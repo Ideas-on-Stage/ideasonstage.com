@@ -1,6 +1,7 @@
 {{ define "main" }}
 	{{ "<!-- news:list.html:start -->" | safeHTML }}
 	{{ partial "page-hero.html" . }}
+	{{ partial "inserts-top.html" . }}
     <div id="content-main">
         <div class="container" >
 			
@@ -85,5 +86,6 @@
 			
         </div><!-- container -->
     </div><!-- content-main -->
+	{{ partial "inserts-bottom.html" . }}
     {{ "<!-- news:list.html:end -->" | safeHTML }}
 {{ end }}

@@ -1,6 +1,7 @@
 {{ define "main" }}
 	{{ "<!-- revolution:single.html:start -->" | safeHTML }}
 	{{ partial "page-hero.html" . }}
+	{{ partial "inserts-top.html" . }}
 	<div class="paddingt-large">
 	</div>
     {{ partial "revolution/breadcrumbs.html" . }}
@@ -32,5 +33,6 @@
             </div> <!-- /.row -->
         </div> <!-- /.container -->
     </article> <!-- /#content -->
+	{{ partial "inserts-bottom.html" . }}
 	{{ "<!-- revolution:single.html:end -->" | safeHTML }}
 {{ end }}

@@ -5,6 +5,7 @@ picture		= "andrea-pacini.jpg"
 position 	= "UK Presentation Director"
 url			= "/team/andrea-pacini/"
 weight		= 210
+schema		= "person"
 +++
 Andrea has an extensive sales experience in a large organisation in London, driving innovation and business development projects with major UK clients.
 

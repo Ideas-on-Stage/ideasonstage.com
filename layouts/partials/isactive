@@ -1,0 +1,16 @@
+{{/* <!--
+	
+	isactive
+	
+	returns true if
+	- .date is greater than or equal to today or is not set
+	- AND .expirydate is less than today or is not set
+	
+ --> */}}
+
+{{ $result := false }}
+{{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
+	{{ $result = true }}
+{{ end }}
+
+{{- return $result }}
