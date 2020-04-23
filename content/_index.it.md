@@ -1,7 +1,9 @@
 +++
-draft 		= false
-title 		= "Regala delle Presentazioni Incredibili"
-description	= "Regala delle Presentazioni incredibili con gli Specialisti della Business Presentation."
+draft 			= false
+title	 		= "Regala delle Presentazioni Incredibili"
+description		= "Regala delle Presentazioni incredibili con gli Specialisti della Business Presentation."
+picture			= "/pictures/home/ideas-on-stage.png"
+schema			= "Website"
 
 insertsbottom	= [
 	"home-09",

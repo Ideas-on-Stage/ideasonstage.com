@@ -1,17 +1,14 @@
-{{ "<!-- partials:head-css.html:start -->" | safeHTML }}
-{{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
-<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
-{{ "<!-- Custom Fonts -->" | safeHTML }}
-<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6201816/7621392/css/fonts.css" />
-{{ "<!-- Site CSS -->" | safeHTML }}
-{{ $style := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-<link rel="stylesheet" href="/css/modals.css" type="text/css">
-{{ "<!-- Plugin CSS -->" | safeHTML }}
-<link rel="stylesheet" href="/css/animate.min.css" type="text/css">
-{{ "<!-- Custom CSS -->" | safeHTML }}
-<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css">
-<link href="/css/owl.theme.css" rel="stylesheet" type="text/css">
-<link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}index.xml" title="Ideas on Stage news" />
-{{ "<!-- partials:head-css.html:end -->" | safeHTML }}
+
+		{{ "<!-- partials:head-css.html:start -->" | safeHTML }}
+		{{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
+		<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+		{{ "<!-- Custom Fonts -->" | safeHTML }}
+		<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6201816/7621392/css/fonts.css" />
+		{{ "<!-- Site CSS -->" | safeHTML }}
+		{{- $style := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+		{{ "<!-- Carousel CSS -->" | safeHTML }}
+		<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css">
+		<link href="/css/owl.theme.css" rel="stylesheet" type="text/css">
+		{{ "<!-- partials:head-css.html:end -->" | safeHTML }}

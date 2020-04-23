@@ -2,15 +2,13 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
-		{{ block "head" . }}
+		{{- block "head" . }}
 			{{/* <!-- page specific head info, for example a common schema --> */}}
-		{{ end }}
-        {{ partial "head.html" . }}
+		{{- end }}
+        {{- partial "head.html" . }}
 	</head>
     <body id="page-top">
 		{{ partial "nav.html" . }}
-		<div class="layout-page-top">
-		</div>
 		<main role="main">
 			{{ block "main" . }}
 			{{ end }}

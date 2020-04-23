@@ -1,11 +1,12 @@
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Corporation",
-  "location": {{ (partial "schema/properties/location" .) | safeJS }},
-  "name": {{ site.Params.organization.name }},
-  "logo": {{ site.Params.navigation.brand_logo | absURL }},
-  "sameAs": [ {{- $counter := 0 -}}{{- range site.Params.organization.sameas -}}{{- if ne 0 $counter }},{{ end }}"{{ . }}"{{- $counter = add $counter 1 -}}{{- end -}} ],
-  "url": {{ site.BaseURL }}
-}
-</script>
+
+		<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "Corporation",
+		  "location": {{ (partial "schema/properties/location" .) | safeJS }},
+		  "name": {{ site.Params.organization.name }},
+		  "logo": {{ site.Params.navigation.brand_logo | absURL }},
+		  "sameAs": [ {{- $counter := 0 -}}{{- range site.Params.organization.sameas -}}{{- if ne 0 $counter }},{{ end }}"{{ . }}"{{- $counter = add $counter 1 -}}{{- end -}} ],
+		  "url": {{ site.BaseURL }}
+		}
+		</script>

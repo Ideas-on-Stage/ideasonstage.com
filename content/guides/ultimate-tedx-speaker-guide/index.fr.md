@@ -3,33 +3,10 @@ draft 		= false
 title 		= "Le guide ultime du TEDx Speaker"
 description	= "Tout ce que vous avez toujours voulu savoir pour devenir un TEDx Speaker."
 categories	= [ "Guides" ]
-showrefs	= false
 url			= "/guide-tedx-speaker/"
 picture		= "tedx-speaker.jpg"
+summary		= "Félicitations, vous venez d'être sélectionné pour être speaker à un événement TED ou TEDx ! Ce guide vous donnera tous les conseils nécessaires pour réussir votre intervention. Vous pouvez tout lire dans l’ordre, mais ce n’est pas obligatoire. Si vous êtes pressé, vous pouvez sauter directement à la partie qui vous intéresse."
 +++
-
-## Sommaire
-Vous pouvez tout lire dans l’ordre, mais ce n’est pas obligatoire. Si vous êtes pressé, vous pouvez sauter directement à la partie qui vous intéresse :
-
-*	Pourquoi le guide ultime du TEDx Speaker ?
-	*	Usages autorisés de ce guide
-	*	Remerciements
-*	Le chemin vers votre TED talk
-	*	Répondre à l’invitation comme un speaker professionnel
-	*	Définir la logistique
-*	Avant la première répétition
-*	Créer votre présentation
-	*	Fixer votre message et votre objectif
-	*	Votre histoire
-	*	Concevoir des slides style « TED »
-*	Répéter
-*	Le Jour T
-	*	Choisir vos vêtements
-	*	Ultime répétition sur scène
-	*	Avant de monter sur scène
-	*	C’est maintenant !
-*	En conclusion
-
 ## Pourquoi le guide ultime du TEDx Speaker ?
 Parce que nous nous sommes rendus compte que beaucoup de Speakers se posaient les mêmes questions. Nous avons donc décidé de créer un guide pratique et sans blabla pour les aider à préparer leur TED Talk.
 

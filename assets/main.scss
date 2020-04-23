@@ -325,7 +325,7 @@ footer, footer a			{ font-size: 0.75em;	}
 	/* Layout defines the position constraints of elements in the document flow */
 
 	/* @group standard tags */
-	
+		
 		p {
 			margin-top: 1em;
 			margin-bottom: 1em;
@@ -357,7 +357,7 @@ footer, footer a			{ font-size: 0.75em;	}
 		
 		body {
 			padding: 0;
-			margin: 0;
+			margin: {{ site.Params.navigation.height }} 0 0 0;
 		}
 		
 		nav {
@@ -416,7 +416,7 @@ footer, footer a			{ font-size: 0.75em;	}
 			display: block;
 			margin-top: 1em;
 			margin-bottom: 1em;
-			width: 100%;
+			max-width: 100%;
 		}
 		
 		#content-main table {

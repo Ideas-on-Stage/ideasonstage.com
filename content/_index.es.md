@@ -1,7 +1,9 @@
 +++
-draft 		= false
-title 		= "Agencia de Presentaciones | Entrenamiento y formación para hablar en público"
-description	= "Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
+draft 			= false
+title 			= "Agencia de Presentaciones | Entrenamiento y formación para hablar en público"
+description		= "Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
+picture			= "/pictures/home/ideas-on-stage.png"
+schema			= "Website"
 
 insertsbottom	= [
 	"home-09",

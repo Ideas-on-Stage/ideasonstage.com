@@ -1,23 +1,15 @@
-{{ "<!-- partials:js.html -->" | safeHTML }}
-{{ "<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->" | safeHTML }}
-{{ "<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->" | safeHTML }}
-{{ "<!--[if lt IE 9]>" | safeHTML }}
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-{{ "<![endif]-->" | safeHTML }}
+{{ "<!-- partials:js.html:start -->" | safeHTML }}
 
 {{ "<!-- jQuery required for form validation -->" | safeHTML }}
 <script src="/js/jquery.js"></script>
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
 <script src="/js/bootstrap.min.js"></script>
-
 {{ "<!-- Contact Form JavaScript -->" | safeHTML }}
 <script src="/js/jqBootstrapValidation.js"></script>
-{{ "<!-- Owl Carousel added from Universal Theme -->" | safeHTML }}
+{{ "<!-- Owl Carousel JavaScript -->" | safeHTML }}
 <script src="/js/front.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
-
-{{ "<!-- script form validation -->" | safeHTML }}
+{{ "<!-- Form validation JavaScript -->" | safeHTML }}
 <script type="text/javascript">
 
 // $(function()... is identical to $(document).ready(function()...
@@ -80,3 +72,4 @@ $('#name').focus(function() {
     $('#success').html('');
 });
 </script> 
+{{ "<!-- partials:js.html:end -->" | safeHTML }}

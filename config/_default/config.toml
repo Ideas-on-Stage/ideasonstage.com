@@ -11,6 +11,10 @@ theme        			= "hugo-creative-theme-master"
 	[markup.goldmark]
 		[markup.goldmark.renderer]
       		unsafe		= true # added to prevent omission of raw HTML in contents
+
+	[markup.tableOfContents]
+	    endLevel = 3
+	    startLevel = 2	
       		
 [Permalinks]
     news				= "/news/:year/:month/:day/:filename/"
@@ -29,6 +33,7 @@ theme        			= "hugo-creative-theme-master"
 	year				= "2019"
 	cookieslink			= "cookies/"
 	favicon				= "/pictures/home/ios_favicon.ico"
+	tableofcontents		= "Table of Contents"
 	
 	# ------------------------------		
 	# Id for Incognito form in Presentation Creation Service
@@ -79,7 +84,7 @@ theme        			= "hugo-creative-theme-master"
 		padding			= "0.2vw"
 		height			= "36vw"
 		height_ts		= "140vw" # ts is for tall small screens on smartphones
-	
+
 	# ------------------------------		
 	# Navigation
 	[params.navigation]
@@ -240,7 +245,7 @@ theme        			= "hugo-creative-theme-master"
 		more		= "Continue reading"
 		by	 		= "by"
 		title 		= "Stories"
-
+		
 	# ------------------------------
 	[params.organization]
 		logo			= "/pictures/home/ideas-on-stage.png"
@@ -305,6 +310,8 @@ theme        			= "hugo-creative-theme-master"
 	cookies			= "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
 	footer_desc		= "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
 	favicon			= "pictures/home/ios_favicon.ico"
+
+	tableofcontents	= "Table des matières"
 	
 	#form id for Incognito form
 	pcsformid 		= "1"

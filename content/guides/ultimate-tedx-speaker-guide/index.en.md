@@ -3,34 +3,10 @@ draft 		= true
 title 		= "Ultimate TEDx Speaker Guide"
 description	= "Everything that you wanted to know about being a TED speaker without needing to ask."
 categories	= [ "TEDx Events" ]
-showrefs	= false
 url			= "/ultimate-tedx-speaker-guide/"
 picture		= "tedx-speaker.jpg"
+summary		= "Congratulations, you’ve just been contacted to be a speaker at a TED or TEDx talk! Or it could be that you have the ambition to organize one yourself. If it’s either of those, this guide was made for you: Everything that you wanted to know about being a TED speaker without needing to ask."
 +++
-
-Congratulations, you’ve just been contacted to be a speaker at a TED or TEDx talk! Or it could be that you have the ambition to organize one yourself. If it’s either of those, this guide was made for you: Everything that you wanted to know about being a TED speaker without needing to ask.
-
-## Summary
-You can read everything in order but it’s not imperative. If you’re in a hurry you can jump directly to the section that interests you:
-
-* Why an ultimate TEDx speaker guide?
-	* Rules on authorized use of this guide
-	* Acknowledgements
-* The path to your TED talk
-	* Replying to the invitation as a professional speaker.
-	* Defining the logistics
-* Before the first rehearsal
-* Create your presentation
-	* Fix your message and your objective
-	* Your story
-	* Create TED style slides
-* Rehearse
-* On the day
-	* Choose your clothes
-	* Last or ultimate rehearsal on stage
-	* Before going on stage
-	* It's now!
-* To conclude
 
 ## Why an ultimate TED Speaker guide?
 Because we have come to realize that a lot of speakers ask themselves the same questions. We have therefore decided to create a practical guide without any bla bla bla to help you prepare your TED talk.

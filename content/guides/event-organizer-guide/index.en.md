@@ -9,26 +9,8 @@ showpageslist 	= true
 urlredirect		= ""
 url 				= "/event-organizer-guide/"
 picture		 	= "organisateur-evenement.jpg"
+summary			= "This guide will give you the keys to organize a successful business event. Each step of the organization process is explained. Eliminate unforeseen circumstances, omissions and last-minute panic and turn event management into a strategic asset for your company. Events come in all shapes and sizes, but the principles of organization are always the same. The key to a successful event is making sure it’s well planned and that it meets all of your targeted expectations."
 +++
-This guide will give you the keys to organize a successful business event. Each step of the organization process is explained. Eliminate unforeseen circumstances, omissions and last-minute panic and turn event management into a strategic asset for your company.
-
-Events come in all shapes and sizes, but the principles of organization are always the same. The key to a successful event is making sure it’s well planned and that it meets all of your targeted expectations.
-
-## Summary
-
-- About the author
-- Set the goals
-- Organize and set up management tools
-- Define and manage the budget
-- Find the right place
-- Choose the providers
-- Make your event unforgettable
-- Organize an effective communication
-- Create an attendee engagement
-- Prepare and print event collateral
-- The D-Day
-- After the Event
-
 ## About the author
 Marine Bénard is event coordinator and project manager at Ideas on Stage, a company specializing in presentations and corporate events. Previously, she worked for event agencies and an international exhibition company, and helped organize several high-profile events. She turns business conferences and meetings into dynamic, memorable events, working with organizers and senior management to develop agendas, set up the logistical aspects and prepare speakers that make a lasting impact.
 

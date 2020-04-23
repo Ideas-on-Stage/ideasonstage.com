@@ -13,7 +13,7 @@
 					{{- range .Pages.ByWeight }}
 	           			<div class="col-xs-12 col-sm-4 col-lg-3 teambox">
 			   				<a href="{{ .RelPermalink }}" class="people-box">
-			   					<img src="{{ .Params.picture }}" class="people-box-image" alt="">	
+			   					<img src="{{ add .RelPermalink "thumbnail.jpg" }}" class="people-box-image" alt="">	
 			   					<div class="people-box-caption">
 			   						<div class="people-box-caption-content">
 			   							<h2 class="people-name">{{ .Params.name }}<br />

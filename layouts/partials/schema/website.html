@@ -1,20 +1,20 @@
-{{/* <!--
-	Official Google Structured data type: no
-	
-	!!! Use only for homepage !!!
- --> */}}
-<script type="application/ld+json">
-{
-	"@context": "https://schema.org/",
-	"@type": "Website",
-	"copyrightHolder": {{ site.Copyright }},
-	"description": {{ .Params.description }},
-	"dateCreated": "2010-04-30",
-	"datePublished": "2010-04-30",
-	"dateModified": {{ now }},
-	"inLanguage": {{ site.LanguageCode }},
-	"name": {{ site.Title }},
-	"provider": {{ (partial "schema/properties/organization" .) | safeJS }},
-	"url": {{ site.BaseURL }}
-}
-</script>
+		{{/* <!--
+			Official Google Structured data type: no
+			
+			!!! Use only for homepage !!!
+		 --> */}}
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org/",
+			"@type": "Website",
+			"copyrightHolder": {{ site.Copyright }},
+			"description": {{ .Params.description }},
+			"dateCreated": "2010-04-30",
+			"datePublished": "2010-04-30",
+			"dateModified": {{ now }},
+			"inLanguage": {{ site.LanguageCode }},
+			"name": {{ site.Title }},
+			"provider": {{ (partial "schema/properties/organization" .) | safeJS }},
+			"url": {{ site.BaseURL }}
+		}
+		</script>

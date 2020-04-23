@@ -1,7 +1,9 @@
 +++
-draft 		= false
-title 		= "Ideas on Stage | Coaching prise de parole et gestion d'événements"
-description	= "Agence internationale spécialisée dans la création de présentations, la formation et le coaching en prise de parole en public et les événements d'entreprise. Nous sommes présents aux États-Unis et en Europe."
+draft	 		= false
+title 			= "Ideas on Stage | Coaching prise de parole et gestion d'événements"
+description		= "Agence internationale spécialisée dans la création de présentations, la formation et le coaching en prise de parole en public et les événements d'entreprise. Nous sommes présents aux États-Unis et en Europe."
+picture			= "/pictures/home/ideas-on-stage.png"
+schema			= "Website"
 
 insertsbottom	= [
 	"home-09",

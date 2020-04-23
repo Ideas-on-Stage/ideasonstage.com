@@ -1,0 +1,9 @@
+{{ define "main" }}
+	{{ "<!-- guides:single.html:main:start -->" | safeHTML }}
+	{{ partial "page-hero.html" . }}
+	{{ partial "inserts-top.html" . }}
+	{{ partial "page-toc.html" . }}
+	{{ partial "page-content.html" . }}
+	{{ partial "inserts-bottom.html" . }}
+	{{ "<!-- guides:single.html:main:end -->" | safeHTML }}
+{{ end }}

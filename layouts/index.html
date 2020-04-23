@@ -4,12 +4,9 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
     <head>
         {{ partial "home/head.html" . }}
-        {{ partial "slider-css.html" . }}
     </head>
     <body id="page-top">
         {{ partial "nav.html" . }}
-		<div class="layout-page-top">
-		</div>
 	    {{ partial "page-hero.html" . }}
 		<main role="main" class="layout-module-wrapper">
 	        {{ partial "home/content.html" . }}

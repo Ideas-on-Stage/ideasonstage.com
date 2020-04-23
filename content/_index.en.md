@@ -1,8 +1,9 @@
 +++
-draft 		= false
-title 		= "Presentation Creation | Business Events | Public Speaking Coaching and Training"
-description	= "International agency specialized in Presentation Creation, Business Events and Public Speaking Coaching and Training. We cover North America and Europe."
-schema		= "Website"
+draft 			= false
+title 			= "Presentation Creation | Business Events | Public Speaking Coaching and Training"
+description		= "International agency specialized in Presentation Creation, Business Events and Public Speaking Coaching and Training. We cover North America and Europe."
+picture			= "/pictures/home/ideas-on-stage.png"
+schema			= "Website"
 
 insertsbottom	= [
 	"home-09",

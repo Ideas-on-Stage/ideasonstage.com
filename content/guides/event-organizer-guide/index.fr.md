@@ -9,24 +9,8 @@ showpageslist 	= true
 urlredirect		= ""
 url 				= "/guide-organisateur-evenement-entreprise/"
 picture		 	= "organisateur-evenement.jpg"
+summary			= "Nous avons rassemblé ici ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables… et faire de l’événementiel un véritable atout stratégique ! Les événements se présentent sous différentes formes et formats, mais les principes de base de l’organisation sont les mêmes pour tous. La clé d’un événement réussi est de s’assurer qu’il est bien planifié et qu’il répond en tous points aux besoins de votre cible."
 +++
-Nous avons rassemblé ici ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables… et faire de l’événementiel un véritable atout stratégique ! 
-
-Les événements se présentent sous différentes formes et formats, mais les principes de base de l’organisation sont les mêmes pour tous. La clé d’un événement réussi est de s’assurer qu’il est bien planifié et qu’il répond en tous points aux besoins de votre cible. 
-
-## Sommaire
-
-- À propos de l'auteur
-- Définissez précisément l’événement
-- S’organiser et mettre en place des outils de suivi
-- Définir et gérer le budget
-- Trouver le bon lieu
-- Rendre votre événement inoubliable
-- Mettre en place une communication efficace
-- Susciter l’intérêt et l’engagement des participants
-- Préparer et imprimer la documentation
-- Le jour J
-- Après l’événement
 
 ## À propos de l'auteur
 Marine Bénard est coordinatrice d'événements et chef de projet chez Ideas on Stage, une société spécialisée dans les présentations et les événements d’entreprise. Auparavant, elle a travaillé en agence événementielle et pour un organisateur international de salons, et a aidé à organiser des événements professionnels et grand public de grande renommée. Elle transforme vos conférences et réunions classiques en événements dynamiques et mémorables.
