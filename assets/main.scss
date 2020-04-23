@@ -403,7 +403,8 @@ footer, footer a			{ font-size: 0.75em;	}
 		#content-main > h4 {
 			/* The > sign ensures only direct children are affected */
 			/* use padding-top size of top bar to position text properly when clicking on anchor, for example anchor link in table of contents */
-			margin-top: 1em;
+			padding-top: {{ site.Params.navigation.height }};
+			margin-top: -1em;
 			margin-bottom: 0.5em;
 		}
 		
