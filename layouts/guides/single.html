@@ -2,8 +2,22 @@
 	{{ "<!-- guides:single.html:main:start -->" | safeHTML }}
 	{{ partial "page-hero.html" . }}
 	{{ partial "inserts-top.html" . }}
-	{{ partial "page-toc.html" . }}
-	{{ partial "page-content.html" . }}
+	<div class="layout-content">
+		<div class="flex-parent-row flex-column-reverse-ontall">
+			<aside id="content-table" class="flex-child-33p layout-sticky flex-hide-ontall">
+				<div class="scroller">
+					<h2>{{ site.Params.tableofcontents }}</h2>
+					{{- with .TableOfContents }}{{ . }}{{ end }} 
+				</div>
+			</aside>
+			<article id="content-main" class="flex-child-67p">
+				{{- with .Summary }}{{ . }}{{ end }} 
+				<h2>{{ site.Params.tableofcontents }}</h2>
+				{{- with .TableOfContents }}{{ . }}{{ end }} 
+				{{- with .Content }}{{ . }}{{ end }} 
+			</article>
+		</div>
+	</div>
 	{{ partial "inserts-bottom.html" . }}
 	{{ "<!-- guides:single.html:main:end -->" | safeHTML }}
 {{ end }}

@@ -20,6 +20,8 @@ Les techniques de l’art oratoire couvrent principalement la posture, la respir
 ### Posture : ancré mais pas figé
 La posture est le premier élément d’une prise de parole réussie. Une posture confiante et stable, volontaire mais non tendue, renforcera votre présence sur scène, et projettera une image positive. À l’inverse, une posture fermée, faible, avec des mouvements parasites projettera une image de manque de confiance en soi qui ne pourra qu’impacter négativement votre discours. Nous allons voir ensemble comment adopter une bonne posture. 
 
+![Posture pour la prise de parole](posture.jpg)
+
 Tout part des pieds. Ceux-ci doivent être posés bien à plat, bien « ancrés dans le sol », écartés d’environ la largeur du bassin. Dans cette position, ils doivent vous permettre d’être complètement stable, même si vous étiez légèrement poussé.
 
 Les jambes sont droites, toniques, sans être trop tendues. Si vous deviez commencer à marcher, le mouvement doit sembler naturel.
@@ -37,6 +39,8 @@ Une respiration calme, posée et profonde donnera de l’énergie à la voix. Av
 
 La respiration est connectée à la posture pour une raison mécanique toute simple : il est plus facile de respirer lorsqu’on se tient bien droit que lorsqu’on est courbé. L’air passe sans effort du nez et de la bouche aux poumons.
 
+![Respiration](breathing.jpg)
+
 Pour travailler la respiration, commencez par adopter une posture ancrée. Fermez les yeux. Si vous avez des problèmes d’équilibre, vous pouvez garder les yeux ouverts, mais focalisez-vous sur la respiration, sur ce que vous ressentez durant l’exercice.
 
 Le premier exercice consiste à respirer lentement, calmement, en inspirant profondément, puis en expirant profondément. Imaginez que l’air descend tout en bas de vos poumons, presque dans le bas de votre ventre. Cela fera travailler tous les muscles, y compris abdominaux, et pas seulement la cage thoracique. Répétez cet exercice pendant une vingtaine de respirations, ou jusqu’à ce que la respiration devienne très facile, sans effort. Pour mieux ressentir la respiration, vous pouvez placer une main sur le ventre.
@@ -52,12 +56,16 @@ Nous ne cherchons pas à devenir des chanteurs. Pour la prise de parole, nous vo
 
 Pour travailler votre timbre naturel, parlez en ayant l’impression de faire sortir le son de l’avant de votre bouche plutôt que de l’arrière de votre gorge. Utilisez vos mains pour ressentir les vibrations, l’objectif étant d’amplifier au maximum votre voix en utilisant celles-ci. Cette partie est probablement celle qui ne peut pas se maîtriser via un article, et qui demande absolument l’aide d’un professionnel.
 
+![Voix](voice.jpg)
+
 Enfin, certaines personnes ont également des voix beaucoup plus fortes que d’autres personnes. Si votre voix est particulièrement douce, nous vous conseillons d’utiliser un micro même lorsque la salle n’est pas très grande (à partir d’une vingtaine de personnes). De nouveau, trop forcer sur votre voix s’entendra et sera désagréable pour le public.
 
 ### Regard
 Le regard est un élément essentiel de la prise de parole. En effet, c’est lui qui permet d’établir une connexion avec le public. Une connexion efficace vous donnera énergie, authenticité et force dans la voix. Le regard est également l’élément « magique » qui permet d’éviter les mouvements parasites, de parler trop vite et d’éliminer les « euh » comme nous le verrons plus loin.
 
 Le regard doit à la fois être individuel et englobant tout le public. Individuel, car lorsque vous regardez dans une direction, vous adressez à une personne précise. Englobant tout le public, car il faut changer de personne assez souvent, mais pas trop. Nous allons expliquer comment combiner ces deux aspects pour établir la connexion visuelle la plus efficace possible.
+
+![Regard](eye-contact.jpg)
 
 Pour cet exercice, vous n’avez pas probablement pas d’audience devant laquelle vous entraîner. Nous vous recommandons donc de placer deux rangées de Post-its devant vous, sur un mur, qui représentera les personnes de l’auditoire. Commencez par regarder un des Post-its, qui représente une personne. **Adressez-lui une phrase complète. Ne changez pas de post-it avant d’avoir fini votre phrase.** Ensuite, sélectionnez un autre post-it et récitez-lui une autre phrase. 
 
@@ -91,6 +99,8 @@ N’oubliez pas qu’en gestuelle, il faut tout faire en « miroir », car l
 
 ## La prise de parole sur scène
 Nous allons voir comment appliquer les techniques de prise de parole tout au long d’une présentation, depuis l’entrée en scène jusqu’à la conclusion.
+
+![Prise de parole sur scène](stage.jpg)
 
 ### L’entrée en scène
 Une entrée en scène réussie vous donnera énergie, une bonne connexion avec le public et établira votre présence sur scène. 

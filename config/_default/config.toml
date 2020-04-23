@@ -250,9 +250,8 @@ theme        			= "hugo-creative-theme-master"
 	[params.organization]
 		logo			= "/pictures/home/ideas-on-stage.png"
 		name		= "Ideas on Stage"
-		sameas		= [ "https://www.linkedin.com/company/ideas-on-stage/", "https://www.youtube.com/user/IdeasOnStage" ]
-		
-		
+		sameas		= [ "https://www.linkedin.com/company/ideas-on-stage/", "https://www.youtube.com/user/IdeasOnStage", "https://twitter.com/ideasonstage", "https://www.pierremorsa.com/ideas-on-stage/" ]
+			
 	# ------------------------------		
 	# Revolution
 	[params.revolution]

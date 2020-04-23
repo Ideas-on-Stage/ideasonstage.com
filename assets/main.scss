@@ -326,6 +326,11 @@ footer, footer a			{ font-size: 0.75em;	}
 
 	/* @group standard tags */
 		
+		body {
+			scroll-padding-top: {{ site.Params.navigation.height }}; 
+			scroll-snap-margin-top: {{ site.Params.navigation.height }};
+		}
+		
 		p {
 			margin-top: 1em;
 			margin-bottom: 1em;
@@ -387,11 +392,18 @@ footer, footer a			{ font-size: 0.75em;	}
 		/* #content-main is the section that displays the .Content of most pages */
 		
 		/* define title margins */
-		#content-main > h2,
+		#content-main > h2 {
+			/* The > sign ensures only direct children are affected */
+			/* use padding-top size of top bar to position text properly when clicking on anchor, for example anchor link in table of contents */
+			padding-top: {{ site.Params.navigation.height }};
+			margin-bottom: 0.5em;
+		}
+
 		#content-main > h3,
 		#content-main > h4 {
-			/* > ensures only direct children are affected */
-			margin-top: 1.5em;
+			/* The > sign ensures only direct children are affected */
+			/* use padding-top size of top bar to position text properly when clicking on anchor, for example anchor link in table of contents */
+			margin-top: 1em;
 			margin-bottom: 0.5em;
 		}
 		
@@ -400,7 +412,7 @@ footer, footer a			{ font-size: 0.75em;	}
 		#content-main h2:first-child,
 		#content-main h3:first-child,
 		#content-main h4:first-child {
-			margin-top: 0;
+			padding-top: 0;
 		}
 		
 		/* remove bottom margin from last element of content */
@@ -434,7 +446,7 @@ footer, footer a			{ font-size: 0.75em;	}
 			width: auto;
 			border-right: 1px solid #888;
 		}
-		
+				
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
 
 			#content-main th {
@@ -443,6 +455,48 @@ footer, footer a			{ font-size: 0.75em;	}
 		
 		}
 	
+		#content-table {
+			padding-right: 4vw;
+		}
+
+		.scroller {
+						max-height: 90vh;
+			overflow-y: auto;
+		}
+		#content-table h2 {
+			margin-top: 0;
+			background-color: #222;
+			color: #fff;
+			padding: 1vw;
+			margin: 4px 0;
+			font-size: 1em;
+		}
+		
+		#content-table ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		#content-table li {
+			margin: 4px 0;
+			padding: 0.5vw 1vw;
+			background-color: #eee;
+			line-height: 1;
+		}
+
+		#content-table li > ul > li {
+			padding: 0 0 0 10px;
+		}
+		
+		#content-table a {
+			font-size: 0.75em;
+		}
+		
+		#TableOfContents > ul > li > a {
+			font-weight: 700;
+		}
+		
 	/* @end */
 	
 	/* @group page sections */
@@ -471,7 +525,7 @@ footer, footer a			{ font-size: 0.75em;	}
 		.layout-hero {
 			margin: 0;
 			padding: 0;
-			height: 75vh;
+			height: 70vh;
 			width: 100vw;
 		}
 		.layout-hero img {
@@ -479,7 +533,7 @@ footer, footer a			{ font-size: 0.75em;	}
 			z-index: 0;
 			margin: 0;
 			padding: 0;
-			height: 75vh;
+			height: 70vh;
 			width: 100vw;
 			object-fit: cover;
 		}
@@ -523,14 +577,14 @@ footer, footer a			{ font-size: 0.75em;	}
 		.layout-screen-partial {
 			margin: 0;
 			padding: 0;
-			height: 75vh;
+			height: 70vh;
 			width: 100vw;
 		}
 		
 		.layout-screen-partial img {
 			margin: 0;
 			padding: 0;
-			height: 75vh;
+			height: 70vh;
 			width: 100vw;
 			object-fit: cover;
 		}
@@ -754,6 +808,7 @@ footer, footer a			{ font-size: 0.75em;	}
 			position: sticky;
 			top: {{ site.Params.navigation.height }};
 			z-index: 100;
+			
 		}
 	/* @end */
 
@@ -843,6 +898,14 @@ footer, footer a			{ font-size: 0.75em;	}
 			height: 100%;
 		}
 		
+		/* flex child constrained to about 67% of available space */
+		.flex-child-67p {
+			height: 100%;
+			flex: 1;
+			flex-grow: 0;
+			flex-basis: 67%; /* start at 60% width */
+		}
+		
 		.flex-child-text {
 			padding: 2vw;
 		}
@@ -890,6 +953,11 @@ footer, footer a			{ font-size: 0.75em;	}
 			/* change flex-direction to column-reverse on tall smartphone screens */
 			.flex-column-reverse-ontall {
 				flex-direction: column-reverse;
+			}
+			
+			.flex-hide-ontall {
+				visibility: hidden;
+				height: 0;
 			}
 			
 			.flex-column-ontall .flex-child-text-left {
