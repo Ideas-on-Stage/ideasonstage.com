@@ -1,16 +1,12 @@
 {{ "<!-- partials:inserts-bottom.html:start -->" | safeHTML }}
 <section id="inserts-bottom" class="flex-parent-row">
-{{- $.Scratch.Set "count" 0 }}
 {{- range .Params.insertsbottom }}
-	{{- $.Scratch.Set "uuid" . }}
-	{{- $.Scratch.Add "uuid" "." }}
-	{{- $.Scratch.Add "uuid" $.Site.Params.LanguageCode }}
-	{{- range $.Site.Data.inserts }}
-		{{- if eq ($.Scratch.Get "uuid") .uuid }}
-			{{- $.Scratch.Set "count" "1" }}
-			{{ partial .layout . }}
-		{{- end }}
+	{{- $insertname := add . "." }}
+	{{- $insertname = add $insertname site.Params.LanguageCode }}
+	{{- $insert := index site.Data.inserts $insertname }}
+	{{- if $insert }}
+		{{ partial $insert.layout $insert }}
 	{{- end }}
-{{- end }}    
+{{- end }}
 </section>
 {{ "<!-- partials:inserts-bottom.html:end -->" | safeHTML }}

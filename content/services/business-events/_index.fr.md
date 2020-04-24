@@ -7,6 +7,7 @@ categories		= [ "Événements d'entreprise" ]
 url 				= "/evenements-entreprise/"
 picture			= "business-events.jpg"
 itemtype		= "Service"
+insertsbottom	= [	"codingandbricks", "guideevents" ]
 +++
 
 ## Support événementiel
