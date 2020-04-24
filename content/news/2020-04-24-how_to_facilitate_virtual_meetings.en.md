@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "How to facilitate virtual meetings?"
+title = "How to facilitate virtual meetings"
 tags = ["VirtualMeetings", "FacilitateMeetings", "RemotePresentation."]
 news = ["general"]
 date = "2020-04-24"
