@@ -5,11 +5,7 @@ description		= "International agency specialized in Presentation Creation, Busin
 picture			= "/pictures/home/ideas-on-stage.png"
 schema			= "Website"
 
-insertsbottom	= [
-	"home-09",
-	"home-10",
-	"home-12"
-]
+insertsbottom	= [ "revolution", "news" ]
 			
 [slider]
 	[[slider.list]]
@@ -60,7 +56,7 @@ insertsbottom	= [
 		description	= "How can you move from an office based to a remote work environment in 10 days and keep the human touch? By creating an online work community."
 		picture		= "/from-office-to-remote-work/remote-work.jpg"
 		style		= "bg-black"
-		layout		= "inserts/link-full-picture-text-right.html"
+		layout		= "inserts/module-picture-textright.html"
 		link			= "/from-office-to-remote-work/"
 	[[services.list]]
 		sectionid	= "public-speaking-coaching"
@@ -68,7 +64,7 @@ insertsbottom	= [
 		description	= "We offer coaching for public speaking, media training, stage presence and delivery."
 		picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 		style		= "bg-black"
-		layout		= "inserts/link-full-picture-text-right.html"
+		layout		= "inserts/module-picture-textright.html"
 		link			= "/public-speaking-coaching/"
 	[[services.list]]
 		sectionid	= "business-events"
@@ -76,7 +72,7 @@ insertsbottom	= [
 		description	= "Organize dynamic and unforgettable events. We work with you to develop agendas and prepare speakers that make a lasting impact."
 		picture		= "/pictures/inserts/home-business-events.jpg"
 		style		= "bg-black"
-		layout		= "inserts/link-full-picture-text-right.html"
+		layout		= "inserts/module-picture-textright.html"
 		link			= "/business-events/"
 	[[services.list]]
 		sectionid	= "presentation-creation"
@@ -84,7 +80,7 @@ insertsbottom	= [
 		description	= "We help you define your messages and strategy, then we write the story, create the slides and coach you."
 		picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
-		layout		= "inserts/link-full-picture.html"
+		layout		= "inserts/module-texttop-picture.html"
 		link			= "/presentation-creation-agency/"
 	[[services.list]]
 		sectionid	= "presentations-training"
@@ -92,7 +88,7 @@ insertsbottom	= [
 		description	= "Discover our presentation training programs, from The Business Presentation Revolution to Women&nbsp;on&nbsp;Stage."
 		picture		= "/pictures/inserts/home-presentations-training.jpg"
 		style		= "bg-lightgrey"
-		layout		= "inserts/link-full-picture.html"
+		layout		= "inserts/module-texttop-picture.html"
 		link			= "/presentations-training/"
 +++
 

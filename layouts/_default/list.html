@@ -1,9 +1,9 @@
+{{ define "hero" }}
+	{{ partial "page-hero.html" . }}
+{{ end }}
 {{ define "main" }}
 	{{ "<!-- _default:list.html:main:start -->" | safeHTML }}
-	{{ partial "page-hero.html" . }}
-	{{ partial "inserts-top.html" . }}
 	{{ partial "page-content.html" . }}
 	{{ partial "pages-list.html" . }}
-	{{ partial "inserts-bottom.html" . }}
 	{{ "<!-- _default:list.html:main:end -->" | safeHTML }}
 {{ end }}

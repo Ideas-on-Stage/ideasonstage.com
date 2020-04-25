@@ -4,7 +4,7 @@ title 			= "Virtual Meeting Revolution Webinars"
 description		= "A free Webinar series to become a better presenter."
 categories		= [ "Training and Workshops" ]
 url	 			= "/presentations-training/webinars/"
-picture			= "webinar.jpg"
+picture			= "ouaibinarre.jpg"
 
 [[events]]
 	name		= "Virtual Set-Up, Real Success"
@@ -16,7 +16,7 @@ picture			= "webinar.jpg"
 	eventstatus	= "EventScheduled"
 	image		= "webinar.jpg"
 	isaccessibleforfree = true
-	location		= "Zoom"
+	location		= "VirtualLocation"
 	performer	= "Pierre Morsa"
 	[[events.offers]]
 		availability = "OnlineOnly"
@@ -36,7 +36,7 @@ picture			= "webinar.jpg"
 	eventstatus	= "EventScheduled"		
 	image		= "2020-04-23-virtual-facilitation.jpg"
 	isaccessibleforfree = true
-	location		= "Zoom"
+	location		= "VirtualLocation"
 	performer	= "Phil Waknell"
 	[[events.offers]]
 		availability = "OnlineOnly"

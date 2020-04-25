@@ -1,0 +1,27 @@
+[en]
+	title		= "How does it work?"
+	layout		= "inserts/storyline-begin.html"
+	style		= "bg-light"
+	picture		= ""
+	description	= "We first meet to discuss your requirements and your goals. We work in Paris, Barcelona, Washington and Milan. Alternatively you can use the form below to send us your request, and we will get back to you."
+
+[es]
+	title		= "¿Cómo funciona?"
+	layout		= "inserts/storyline-begin.html"
+	style		= "bg-light"
+	picture		= ""
+	description	= "Primero nos reuniremos para acordar tus requisitos y objetivos. Disponemos de equipos locales en Paris, Washington, Barcelona y Milán. Alternativamente, puedes utilizar el formulario inferior para enviarnos tu petición, y te responderemos encantados."
+
+[fr]
+	title		= "Un processus simple"
+	layout		= "inserts/storyline-begin.html"
+	style		= "bg-light"
+	picture		= ""
+	description = "Nous commençons par vous rencontrer pour comprendre vos besoins et vos objectifs. Nous avons des équipes locales à Paris, Washington, Barcelone et Milan. Ou vous pouvez utiliser le formulaire à la fin de cette page pour nous envoyer votre demande."
+
+[it]
+	title		= "Come funziona?"
+	layout		= "inserts/storyline-begin.html"
+	style		= "bg-light"
+	picture		= ""
+	description	= "Per prima cosa ci incontriamo per discutere la tua richiesta e i tuoi obiettivi. Abbiamo team locali a Parigi, Washington, Barcelona e Milano. Altrimenti puoi usare il modulo qui sotto, comunicarci la tua richiesta e noi ti risponderemo subito."

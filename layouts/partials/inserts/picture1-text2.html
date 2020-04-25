@@ -1,14 +1,12 @@
-{{ "<!-- partials:insert-picture1-text2.html -->" | safeHTML }}
+{{ "<!-- partials:inserts:picture1-text2.html:start -->" | safeHTML }}
 <div class="layout-content {{ with .style }}{{ . }}{{ end }}">
-	<section>
-		<div class="flex-parent-row flex-column-reverse-ontall">
-	    	<div class="flex-child-40p">
-				{{ partial "elements/picture.html" . }}
-	    	</div>
-	    	<div class="flex-child-60p flex-child-text-right">
-			    <h3 class="title-responsive">{{ with .title }}{{ . }}{{ end }}</h3>
-			    <p class="text-responsive">{{ with .description }}{{ .  }}{{ end }}</p>
-			</div>
+	<div class="flex-parent-row flex-column-reverse-ontall">
+    	<div class="flex-child-40p">
+			{{ partial "elements/picture.html" . }}
+    	</div>
+    	<div class="flex-child-60p flex-child-text-right">
+			{{ partial "elements/title-description.html" . }}
 		</div>
-	</section>
+	</div>
 </div>
+{{ "<!-- partials:inserts:picture1-text2.html:end -->" | safeHTML }}

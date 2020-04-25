@@ -5,7 +5,7 @@
 
 	{{/* show title if it exists and not homepage */}}
 	{{ if and .Title (not .IsHome) }}
-		<div class="layout-page-width layout-sticky layout-header style-header">
+		<div class="layout-sticky layout-header style-header">
 	        <div class="flex-parent-column flex-justify-center flex-align-center">
 	        	<h1>
 		            {{ with .Title }}{{ . | markdownify  }}{{ end }}
@@ -15,7 +15,7 @@
 	{{ end }}
 
 	{{ with .Params.slider }}
-		<div class="layout-page-width layout-hero heroslider bg-black">
+		<div class="layout-hero heroslider bg-black">
 		{{ partial "slider.html" . }}
 		</div>
 	{{ else }}

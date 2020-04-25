@@ -78,6 +78,16 @@ theme        			= "hugo-creative-theme-master"
 		time			= "#aaa"
 		blockquote		= "#00A3E0"		
 
+	# ------------------------------
+	# Layout
+	[params.layout]
+		[params.layout.page]
+			[params.layout.page.padding]
+				top		= "52px"
+				right	= "0"
+				bottom	= "0"
+				left		= "0"
+			
 	# ------------------------------		
 	# Modules
 	[params.modules]
@@ -285,7 +295,7 @@ theme        			= "hugo-creative-theme-master"
 	googleAnalytics = "UA-30695118-1"
 	rights			= "All Rights Reserved"
 	cookies			= "We fully respect your privacy. We don't use cookies or scripts to track you."
-	footer_desc		= "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
+	footer_desc		= "Ideas on Stage<br>SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057<br>N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
 	
 	#form id for Incognito form
 	pcsformid = "2"

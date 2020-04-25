@@ -1,0 +1,20 @@
+[en]
+	title		= "Lasting transformation"
+	layout		= "inserts/text2-picture1.html"
+	style		= "bg-white"
+	picture		= "/pictures/inserts/presentation-training-12.jpg"
+	description	= "Our results-oriented approach is aimed at creating a permanent change in the way you and your team present. Our courses are very hands-on so participants learn AND adopt our new techniques. We give detailed handouts to guide participants through the creation of their next presentations. And we can add one-to-one coaching for participants in the weeks after the course, to help them to prepare and rehearse as they use these new methods. Our courses are only the beginning of the journey."
+
+[es]
+	title		= "Transformación duradera"
+	layout		= "inserts/text2-picture1.html"
+	style		= "bg-white"
+	picture		= "/pictures/inserts/presentation-training-12.jpg"
+	description	= "Nuestro enfoque orientando a resultados persigue conseguir un cambio permanente en tu forma de presentar y en la de tu equipo. Nuestros cursos son eminentemente prácticos para que los participantes puedan aprender Y asimilar nuestras técnicas. En cada curso entregamos materiales detallados para guiar a los participantes a la hora de preparar su próxima presentación. Y también podemos incluir sesiones individuales de acompañamiento para los participanes en las semanas posteriores al curso, para ayudarles a prepararse y ensayar mientras ponen en práctica las nuevas técnicas. ¡Nuestros cursos son sólo el comienzo del viaje!"
+
+[fr]
+	title		= "Un changement dans la durée"
+	layout		= "inserts/text2-picture1.html"
+	style		= "bg-white"
+	picture		= "/pictures/inserts/presentation-training-12.jpg"
+	description	= "Notre approche changera votre façon de présenter de manière durable. Nos formations sont remplies d’exercices et de mises en situation. Nous donnons un guide détaillé à chaque participant, qu’il pourra utiliser pour l’aider lors de la préparation de ses présentations. Et nous pouvons compléter la formation avec du coaching individualisé dans les semaines suivant la formation."

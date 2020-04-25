@@ -1,14 +1,13 @@
-{{ "<!-- partials:insert-link-text1-picture2.html -->" | safeHTML }}
+{{ "<!-- partials:inserts:link-text1-picture2.html:start -->" | safeHTML }}
 <div class="layout-content {{ with .style }}{{ . }}{{ end }}">
-	<section>
-		<div class="flex-parent-row flex-column-ontall">
-			<div class="flex-child-40p flex-child-text-right">
-				{{ partial "elements/link-title-description.html" . }}
-				{{ partial "elements/button-secondary.html" . }}
-			</div>
-	    	<div class="flex-child-60p">
-				{{ partial "elements/link-picture.html" . }}
-	    	</div>
-	    </div>
-	</section>
+	<div class="flex-parent-row">
+    	<div class="flex-child-40p flex-child-text-left">
+			{{ partial "elements/link-title-description.html" . }}
+			{{ partial "elements/button-secondary.html" . }}
+		</div>
+		<div class="flex-child-60p">
+			{{ partial "elements/link-picture.html" . }}
+    	</div>
+    </div>
 </div>
+{{ "<!-- partials:inserts:link-text1-picture2.html:end -->" | safeHTML }}

@@ -5,70 +5,62 @@ description		= "Regala delle Presentazioni incredibili con gli Specialisti della
 picture			= "/pictures/home/ideas-on-stage.png"
 schema			= "Website"
 
-insertsbottom	= [
-	"home-09",
-	"home-10",
-	"home-12"
-]
-
+[slider]
+	[[slider.list]]
+		bgimage ="/pictures/home/hero.jpg"
+		title = "PRESENTATION CREATION · EVENTI CORPORATE · PUBLIC SPEAKING"
+	[[slider.list]]
+		bgimage ="/pictures/home/slider2-min.jpg"
+		title = "WOMEN ON STAGE 2.0"
+		description = "Your personal accelerator program to become more visible, present and free when presenting"
+		button = "Learn more"
+		buttonlink = "https://www.ideasonstage.com/presentations-training/women-on-stage/"
+		color = "text-white"
+	[[slider.list]]
+		bgimage ="/pictures/home/slider3-min.jpg"
+		title = "THE BUSINESS PRESENTATION REVOLUTION"
+		description = "Episode 8: Amazing Events"
+		button = "Watch now"
+		buttonlink = "https://www.ideasonstage.com/revolution/episode-00008/"
+		color ="text-white"		
+			
 [services]
 	title	= "I Nostri Servizi"
 	sectionid	= "services"
 	itemtype	= "OfferCatalog"
-	[services.list]	
-		[services.list.001]
-			sectionid	= "presentation-creation"
-			title		= "Presentation Creation Agency"
-			description	= "Grandi storie, grandi slides"
-			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
-			style		= "bg-black"
-			layout		= "inserts/link-full-picture.html"
-			link			= "/presentation-creation-agency/"
-		[services.list.002]
-			sectionid	= "business-events"
-			title		= "Eventi Corporate"
-			description	= "Rompi la routine. Sorprendi i tuoi ospiti"
-			picture		= "/pictures/inserts/home-business-events.jpg"
-			style		= "bg-black"
-			layout		= "inserts/link-full-picture-text-right.html"
-			link			= "/eventi-corporate/"
-		[services.list.003]
-			sectionid	= "public-speaking-coaching"
-			title		= "Public Speaking"
-			description	= "Sii padrone del palco. Parla con facilità e sicurezza"
-			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
-			style		= "bg-black"
-			layout		= "inserts/link-full-picture-text-right.html"
-			link			= "/public-speaking-coaching/"
-			itemtype	= "Service"
-		[services.list.004]
-			sectionid	= "presentations-training"
-			title		= "Training & Seminari"
-			description	= "Cambia la cultura delle Business Presentation nella tua azienda"
-			picture		= "/pictures/inserts/home-presentations-training.jpg"
-			style		= "bg-lightgrey"
-			layout		= "inserts/link-full-picture.html"
-			link			= "/training-workshops/the-business-presentation-revolution/"
-
-[slider]
-	[slider.list]
-		[slider.list.001]
-			bgimage ="/pictures/home/hero.jpg"
-			title = "PRESENTATION CREATION · EVENTI CORPORATE · PUBLIC SPEAKING"
-		[slider.list.002]
-			bgimage ="/pictures/home/slider2-min.jpg"
-			title = "WOMEN ON STAGE 2.0"
-			description = "Your personal accelerator program to become more visible, present and free when presenting"
-			button = "Learn more"
-			buttonlink = "https://www.ideasonstage.com/presentations-training/women-on-stage/"
-			color = "text-white"
-		[slider.list.003]
-			bgimage ="/pictures/home/slider3-min.jpg"
-			title = "THE BUSINESS PRESENTATION REVOLUTION"
-			description = "Episode 8: Amazing Events"
-			button = "Watch now"
-			buttonlink = "https://www.ideasonstage.com/revolution/episode-00008/"
-			color ="text-white"				
+	[[services.list]]
+		sectionid	= "presentation-creation"
+		title		= "Presentation Creation Agency"
+		description	= "Grandi storie, grandi slides"
+		picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
+		style		= "bg-black"
+		layout		= "inserts/module-texttop-picture.html"
+		link			= "/presentation-creation-agency/"
+	[[services.list]]
+		sectionid	= "business-events"
+		title		= "Eventi Corporate"
+		description	= "Rompi la routine. Sorprendi i tuoi ospiti"
+		picture		= "/pictures/inserts/home-business-events.jpg"
+		style		= "bg-black"
+		layout		= "inserts/module-picture-textright.html"
+		link			= "/eventi-corporate/"
+	[[services.list]]
+		sectionid	= "public-speaking-coaching"
+		title		= "Public Speaking"
+		description	= "Sii padrone del palco. Parla con facilità e sicurezza"
+		picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
+		style		= "bg-black"
+		layout		= "inserts/module-picture-textright.html"
+		link			= "/public-speaking-coaching/"
+		itemtype	= "Service"
+	[[services.list]]
+		sectionid	= "presentations-training"
+		title		= "Training & Seminari"
+		description	= "Cambia la cultura delle Business Presentation nella tua azienda"
+		picture		= "/pictures/inserts/home-presentations-training.jpg"
+		style		= "bg-lightgrey"
+		layout		= "inserts/module-texttop-picture.html"
+		link			= "/training-workshops/the-business-presentation-revolution/"		
 +++
 Le Business Presentation eccezionali sono un vantaggio competitivo unico per le aziende. Ma ci siamo resi conto che la maggior parte delle presentazioni non riescono neanche a suscitare il minimo interesse nell’ audience. È per questo che abbiamo creato Ideas on Stage nel 2010, per aiutare i nostri clienti a dare al proprio pubblico le migliori presentazioni al mondo.
 

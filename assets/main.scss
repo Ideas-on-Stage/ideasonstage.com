@@ -61,6 +61,10 @@ big {
     font-weight: 700;
 }
 
+#TableOfContents > ul > li > a {
+	font-weight: 700;
+}
+
 /* @end */
 
 
@@ -79,13 +83,10 @@ h5							{ font-size: 1.00em;	}
 footer, footer a			{ font-size: 0.75em;	}
 
 /* font sizes for custom classes */
-.navbar-inverse .nav>li a 	{ font-size: 0.80em;	}
-.dropdown-menu 				{ font-size: 1.00em;	}
-.dropdown-menu > li > a 		{ font-size: 0.75em;	}
+.nav a  					{ font-size: 16px;		}
 .flex-404 .error-box h1		{ font-size: 2.00em;	}
 .flex-404 .error-box h2 		{ font-size: 1.25em;	}
 .form-control-nav 			{ font-size: 90%;		}
-.navbar-inverse .nav>li a	{ font-size: 0.80em;	}
 .people-name					{ font-size: 1.00em;	}
 .people-title				{ font-size: 0.75em;	}
 .people-description			{ font-size: 1.00em;	}
@@ -94,8 +95,6 @@ footer, footer a			{ font-size: 0.75em;	}
 .style-slider-title 			{ font-size: 2.50em;	}
 .style-slider-subtitle		{ font-size: 1.50em;	}
 .thumbnail-caption h3 		{ font-size: 0.75em;	}
-.tedxtable 					{ font-size: 16px;		}
-.tedxtable th				{ font-size: 20px;		}
 .testimonials .item .testimonial .text p				{ font-size: 14px;	}  
 .testimonials .item .testimonial .icon				{ font-size: 24px;	}
 .testimonials .item .testimonial .name-picture h4	{ font-size: 1em;	}
@@ -106,16 +105,18 @@ footer, footer a			{ font-size: 0.75em;	}
 .style-section-title-main 	{ font-size: 2.00em;	}
 .title-responsive			{ font-size: 2.00em;	}
 .text-responsive			{ font-size: 1.00em;	}
+#content-table h2 			{ font-size: 1em;		}
+#content-table a				{ font-size: 0.75em;	}
 
 /* adjust for small tall smartphone screens */
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
 
 	body, a, blockquote 			{ font-size: 4vw;		}
-		
+	
+	.nav a  					{ font-size: 12px;		}
+	
 	.style-slider-title 			{ font-size: 1.50em;	}	
 	.style-slider-subtitle		{ font-size: 1.00em;	}
-	.tedxtable th				{ font-size: 14px;		}
-	.tedxtable					{ font-size: 12px;		}
 	
 }
 
@@ -327,8 +328,8 @@ footer, footer a			{ font-size: 0.75em;	}
 	/* @group standard tags */
 		
 		body {
-			scroll-padding-top: {{ site.Params.navigation.height }}; 
-			scroll-snap-margin-top: {{ site.Params.navigation.height }};
+			padding: 0;
+			margin: 0;
 		}
 		
 		p {
@@ -358,11 +359,6 @@ footer, footer a			{ font-size: 0.75em;	}
 		h3 {
 			margin-block-start: 0;
 			margin-block-end: 0;
-		}
-		
-		body {
-			padding: 0;
-			margin: {{ site.Params.navigation.height }} 0 0 0;
 		}
 		
 		nav {
@@ -470,7 +466,6 @@ footer, footer a			{ font-size: 0.75em;	}
 			color: #fff;
 			padding: 1vw;
 			margin: 4px 0;
-			font-size: 1em;
 		}
 		
 		#content-table ul {
@@ -490,26 +485,16 @@ footer, footer a			{ font-size: 0.75em;	}
 			padding: 0 0 0 10px;
 		}
 		
-		#content-table a {
-			font-size: 0.75em;
-		}
-		
-		#TableOfContents > ul > li > a {
-			font-weight: 700;
-		}
-		
 	/* @end */
 	
 	/* @group page sections */
-	
+
 		/* spacer same height as menu bar */
-		.layout-page-top {
-			height: {{ site.Params.navigation.height }};
-		}
-		
-		/* Maximum width of the page to avoid wonky ratios*/
-		.layout-page-width {
-			margin: auto;
+		.layout-page {
+			padding-top: {{ site.Params.layout.page.padding.top }};
+			padding-right: {{ site.Params.layout.page.padding.right }};
+			padding-bottom: {{ site.Params.layout.page.padding.bottom }};
+			padding-left: {{ site.Params.layout.page.padding.left }};
 		}
 		
 		/* approximately 16/6 ratio */
@@ -545,7 +530,6 @@ footer, footer a			{ font-size: 0.75em;	}
 			width: 80vw;
 			max-width: 1200px; /* prevents text area from getting unpleasantly wide */
 		}
-		
 		
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
 

@@ -1,8 +1,6 @@
 {{ "<!-- partials:page-content.html:start -->" | safeHTML }}
-<div class="layout-content">
-	<section id="content-main">
-		{{/* <!-- note: don't put markdownify it prevents the content from rendering in hugo 0.67 --> */}}
-		{{- with .Content }}{{ . }}{{ end }} 
-	</section>
-</div>
+<section id="content-main" class="layout-content">
+	{{/* <!-- note: don't put markdownify it prevents the content from rendering in hugo 0.67 --> */}}
+	{{- with .Content }}{{ . }}{{ end }} 
+</section>
 {{ "<!-- partials:page-content.html:end -->" | safeHTML }}

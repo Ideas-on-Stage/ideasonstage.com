@@ -7,12 +7,18 @@
 		{{- end }}
         {{- partial "head.html" . }}
 	</head>
-    <body id="page-top">
+    <body id="page-top" class="layout-page">
 		{{ partial "nav.html" . }}
 		<main role="main">
-			{{ block "main" . }}
+			{{ block "hero" . }}
 			{{ end }}
-	    </main>
+			<div class="layout-module-wrapper">
+				{{ partial "inserts-top" . }}
+				{{ block "main" . }}
+				{{ end }}
+				{{ partial "inserts-bottom" . }}
+			</div>
+		</main>
 		<aside>
 	        {{ partial "references.html" . }}
 	        {{ partial "testimonials_pages.html" . }}

@@ -1,20 +1,13 @@
-{{ "<!-- partials:insert-link-photo1-text2.html -->" | safeHTML }}
-<section class="layout-module">
+{{ "<!-- partials:inserts:link-photo1-text2.html:start -->" | safeHTML }}
 <div class="layout-content {{ with .style }}{{ . }}{{ end }}">
-	<div class="container insert paddingt-medium paddingb-small">
-		    <div class="row">
-		    	<div class="col-sm-6 col-sm-push-5 col-sm-offset-0">
-				    <a href="{{ with .link }}{{ . }}{{ end }}">
-					    <h3>{{ with .title }}{{ . }}{{ end }}</h3>
-				    </a>
-				    <p class="margint-none">{{ with .description }}{{ . }}{{ end }}</p>
-					{{ partial "elements/button-secondary.html" . }}
-				</div>
-		    	<div class="col-sm-4 col-sm-pull-6 col-sm-offset-1">
-			{{ partial "elements/photograph.html" . }}
-
-		    	</div>
-		    </div>
+	<div class="flex-parent-row flex-column-reverse-ontall">
+    	<div class="flex-child-40p">
+			{{ partial "elements/link-photograph.html" . }}
+    	</div>
+		<div class="flex-child-60p flex-child-text-right">
+			{{ partial "elements/link-title-description.html" . }}
+			{{ partial "elements/button-secondary.html" . }}
 		</div>
-	</section>
+    </div>
 </div>
+{{ "<!-- partials:inserts:link-photo1-text2.html:end -->" | safeHTML }}

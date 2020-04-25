@@ -1,4 +1,4 @@
-{{ "<!-- partials:insert-storyline-picture-text.html:start -->" | safeHTML }}
+{{ "<!-- partials:inserts:storyline-picture-text.html:start -->" | safeHTML }}
 <div class="layout-storyline">
 	<div class="layout-storyline-left text-right"><!-- used to display dotted line in middle -->
 	    {{ if ne .title "" }}<h3 class="timeline-title">{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}
@@ -8,4 +8,4 @@
 		{{ partial "elements/photograph.html" . }}
 	</div>
 </div>
-{{ "<!-- partials:insert-storyline-picture-text.html:end -->" | safeHTML }}
+{{ "<!-- partials:inserts:storyline-picture-text.html:end -->" | safeHTML }}

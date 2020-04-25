@@ -5,10 +5,7 @@ description		= "Agence internationale spécialisée dans la création de présen
 picture			= "/pictures/home/ideas-on-stage.png"
 schema			= "Website"
 
-insertsbottom	= [
-	"revolution",
-	"codingandbricks"
-]
+insertsbottom	= [ "revolution", "codingandbricks" ]
 
 [slider]
 	[[slider.list]]
@@ -67,7 +64,7 @@ insertsbottom	= [
 		description	= "Comment passer d'un bureau physique à un bureau à distance tout en gardant le lien ? En créant une communauté de travail en ligne."
 		picture		= "/du-bureau-au-travail-a-distance/remote-work.jpg"
 		style		= "bg-black"
-		layout		= "inserts/link-full-picture-text-right.html"
+		layout		= "inserts/module-picture-textright.html"
 		link			= "/du-bureau-au-travail-a-distance/"
 	[[services.list]]
 		sectionid	= "public-speaking-coaching"
@@ -75,7 +72,7 @@ insertsbottom	= [
 		description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène."
 		picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
 		style		= "bg-black"
-		layout		= "inserts/link-full-picture-text-right.html"
+		layout		= "inserts/module-picture-textright.html"
 		link			= "/coaching-prise-de-parole-en-public/"	
 	[[services.list]]
 		sectionid	= "business-events"
@@ -83,7 +80,7 @@ insertsbottom	= [
 		description	= "Un ensemble de services pour faciliter l'organisation des événements. Maîtres de cérémonie, coaching en prise de parole, ateliers créatifs, gestion de projet."
 		picture		= "/pictures/inserts/home-business-events.jpg"
 		style		= "bg-black"
-		layout		= "inserts/link-full-picture-text-right.html"
+		layout		= "inserts/module-picture-textright.html"
 		link			= "/evenements-entreprise/"
 	[[services.list]]
 		sectionid	= "presentation-creation"
@@ -91,7 +88,7 @@ insertsbottom	= [
 		description	= "Nous aidons les dirigeants à communiquer efficacement. Nous vous aidons à définir vos messages et votre stratégie, nous écrivons l'histoire, préparons les slides et vous préparons à prendre la parole en public."
 		picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
-		layout		= "inserts/link-full-picture.html"
+		layout		= "inserts/module-texttop-picture.html"
 		link			= "/agence-creation-presentations/"
 	[[services.list]]
 		sectionid	= "presentations-training"
@@ -99,7 +96,7 @@ insertsbottom	= [
 		description	= "Découvrez nos formations à l'art de présenter, de «&nbsp;The Business Presentation Revolution&nbsp;» à «&nbsp;Women&nbsp;on&nbsp;Stage&nbsp;»."
 		picture		= "/pictures/inserts/home-presentations-training.jpg"
 		style		= "bg-lightgrey"
-		layout		= "inserts/link-full-picture.html"
+		layout		= "inserts/module-texttop-picture.html"
 		link			= "/formation-presentations/"
 +++
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.

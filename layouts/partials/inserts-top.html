@@ -1,14 +1,11 @@
 {{ "<!-- partials:inserts-top.html:start -->" | safeHTML }}
 <section id="inserts-top"  class="flex-parent-row">
-{{- $.Scratch.Set "count" 0 }}
 {{- range .Params.insertstop }}
-	{{- $.Scratch.Set "uuid" . }}
-	{{- $.Scratch.Add "uuid" "." }}
-	{{- $.Scratch.Add "uuid" $.Site.Params.LanguageCode }}
-	{{- range $.Site.Data.inserts }}
-		{{- if eq ($.Scratch.Get "uuid") .uuid }}
-			{{- $.Scratch.Set "count" "1" }}
-			{{ partial .layout . }}
+	{{- $insertalllang := index site.Data.inserts . }}
+	{{- if $insertalllang }}
+		{{- $insert := index $insertalllang site.Params.LanguageCode }}
+		{{- if $insert }}
+			{{ partial $insert.layout $insert }}
 		{{- end }}
 	{{- end }}
 {{- end }}

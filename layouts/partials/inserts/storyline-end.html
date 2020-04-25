@@ -1,14 +1,13 @@
 {{ "<!-- partials:insert-storyline-end.html -->" | safeHTML }}
 <!--
-	do not open the last div and section tags here
+	do not open the last div tag here
 	it is opened in the insert-storyline-begin.html file
 	which MUST be used to open the storyline
 -->
-		{{ if or .title .description }}
-			<div class="flex-parent-column text-center flex-align-center">
-				<img alt="bullet" src="/pictures/home/ios-orange-bullet.png" height=13 width=13>
-				{{ partial "elements/title-description.html" . }}
-			</div>
-		{{ end }}
-	</section>
+	{{ if or .title .description }}
+		<div class="flex-parent-column text-center flex-align-center">
+			<img alt="bullet" src="/pictures/home/ios-orange-bullet.png" height=13 width=13>
+			{{ partial "elements/title-description.html" . }}
+		</div>
+	{{ end }}
 </div>

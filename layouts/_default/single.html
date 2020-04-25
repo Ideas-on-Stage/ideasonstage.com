@@ -1,8 +1,8 @@
+{{ define "hero" }}
+	{{ partial "page-hero.html" . }}
+{{ end }}
 {{ define "main" }}
 	{{ "<!-- _default:single.html:main:start -->" | safeHTML }}
-	{{ partial "page-hero.html" . }}
-	{{ partial "inserts-top.html" . }}
 	{{ partial "page-content.html" . }}
-	{{ partial "inserts-bottom.html" . }}
 	{{ "<!-- _default:single.html:main:end -->" | safeHTML }}
 {{ end }}

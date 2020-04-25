@@ -1,7 +1,8 @@
+{{ define "hero" }}
+	{{ partial "page-hero.html" . }}
+{{ end }}
 {{ define "main" }}
 	{{ "<!-- revolution:list.html:start -->" | safeHTML }}
-	{{ partial "page-hero.html" . }}
-	{{ partial "inserts-top.html" . }}
 	{{ $scratch := newScratch }}
 	{{ $scratch.Set "first" "true" }}
 	{{ $scratch.Set "content" .Content }}
@@ -116,7 +117,6 @@
                 </ul>
 			</div>
 		</div>
-	</div>		
-	{{ partial "inserts-bottom.html" . }}
+	</div>
 	{{ "<!-- revolution:list.html:end -->" | safeHTML }}
 {{ end }}

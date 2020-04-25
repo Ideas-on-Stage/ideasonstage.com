@@ -1,0 +1,27 @@
+[en]
+	title		= "One More Thing"
+	layout		= "inserts/storyline-end.html"
+	style		= "bg-light"
+	picture		= "/pictures/inserts/presentation-creation-service-05.jpg"
+	description	= "We know your business evolves constantly. This is why you have one year after we deliver the final deck to request one more set of revisions. For free."
+
+[es]
+	title		= "One More Thing"
+	layout		= "inserts/storyline-end.html"
+	style		= "bg-light"
+	picture		= "/pictures/inserts/presentation-creation-service-05.jpg"
+	description	= "Sabemos que tu negocio evoluciona constantemente. Por este motivo durante un año a partir de la entrega de la versión final dispones de una revisión adicional totalmente gratis."
+
+[fr]
+	title		= "One More Thing"
+	layout		= "inserts/storyline-end.html"
+	style		= "bg-light"
+	picture		= "/pictures/inserts/presentation-creation-service-05.jpg"
+	description	= "Nous savons que les entreprises évoluent sans cesse. C'est pourquoi vous avez un an après la livraison de la présentation finale pour nous demander un set de modifications en plus. Gratuitement."
+
+[it]
+	title		= "Ancora Una Cosa"
+	layout		= "inserts/storyline-end.html"
+	style		= "bg-light"
+	picture		= "/pictures/inserts/presentation-creation-service-05.jpg"
+	description	= "Sappiamo che il tuo Business evolve continuamente. Per questo hai un anno dopo la consegna della Presentazione finale per richiedere una revisione aggiuntiva. Gratis."

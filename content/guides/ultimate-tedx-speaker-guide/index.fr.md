@@ -31,6 +31,8 @@ Le moment d’euphorie passé, vous retombez vite sur terre. Que faire ? Par quo
 
 Tout d’abord, assurez-vous d’être bien disponible à la date de l’événement, et d’être certain de vouloir y participer. Rien n’est plus pénible pour un organisateur que d’avoir un speaker qui abandonne en cours de route, surtout lorsque le programme a déjà été annoncé. Assurez-vous d’être certain(e) à 100% de vouloir le faire avant de confirmer votre participation aux organisateurs.
 
+![TEDx Saclay](tedx-saclay.jpg)
+
 ### Répondre à l’invitation comme un speaker professionnel
 Vous êtes certain de vouloir participer en tant que TEDx Speaker ? Fantastique ! Commencez par envoyer un email aux organisateurs avec 3 informations et 4 questions :
 
@@ -42,6 +44,7 @@ Vous êtes certain de vouloir participer en tant que TEDx Speaker ? Fantastique 
 * Demandez les dates de coaching prévues. Si les organisateurs portent bien leur nom (ils sont organisés), ils auront parmi leurs équipes ou partenaires un ou plusieurs Directeurs de Présentation ou Coachs qui vous aideront à vous préparer. Fixez avec eux les dates de répétition le plus tôt possible. Il est très, très fortement conseiller d’accepter leur aide, car ils vous aideront à rendre votre TEDx Talk encore plus mémorable. Ce que vous y apprendrez vous sera utile pour le reste de votre carrière professionnelle.
 * Demandez le Speaker Release Form : c’est le « contrat » par lequel vous vous engagez à respecter les règles de TEDx. Si les organisateurs ne vous l’envoient pas, réclamez-le, il est obligatoire.
 Si vous envoyez tous ces éléments dès le début, les organisateurs ne pourront qu’être impressionnés par votre professionnalisme !
+
 
 ### Organiser votre préparation
 Une fois votre réponse initiale envoyée, les organisateurs devraient rapidement vous contacter pour fixer les éléments suivants avec vous :
@@ -93,27 +96,29 @@ Avant de vous lancer dans la préparation détaillée de votre Talk, n’oubliez
 
 L’art de présenter a été le sujet de nombreux livres, et il est impossible de tout expliquer dans ce document, ou celui-ci ferait 500 pages et plus personne ne le lirait. J’ai donc du faire un choix : vous trouverez pour chacun des points mentionnés ci-dessus quelques conseils non exhaustifs pour faire une bonne présentation « TED Style ».
 
-### Votre histoire
+### Construire votre histoire
 N’oubliez pas de prévoir votre histoire en fonction du temps qui vous a été alloué. Si vous écrivez votre texte, voici un truc simple pour estimer à la louche le temps qu’il durera : comptez le nombre de mots et divisez-le par 150. C’est le temps minimum que cela prendra pour le raconter sur scène. Si vous allez plus vite, c’est que vous parlez trop vite.
 
 Ci-dessous vous trouverez neuf caractéristiques pour raconter une bonne histoire.
 
-Physique. Les TEDx Speakers les plus mémorables font une action surprenante sur scène. Bill Gates a amené des moustiques sur scène, Jamie Oliver une brouette remplie de sucre, Phil Waknell a lâché des ballons de baudruche, Isaac Getz a lancé des peluches de singe dans la salle. Peter Drucker utilise un gros réveil qu’il fait sonner sur scène. Hans Rösling utilise une perche en bambou. Ces actions physiques marquent les esprits car elles sont souvent originales et inattendues. Demandez-vous « Quelle action ou quel objet pourrais-je utiliser sur scène pour renforcer mon discours ? »
+**Physique**. Les TEDx Speakers les plus mémorables font une action surprenante sur scène. Bill Gates a amené des moustiques sur scène, Jamie Oliver une brouette remplie de sucre, Phil Waknell a lâché des ballons de baudruche, Isaac Getz a lancé des peluches de singe dans la salle. Peter Drucker utilise un gros réveil qu’il fait sonner sur scène. Hans Rösling utilise une perche en bambou. Ces actions physiques marquent les esprits car elles sont souvent originales et inattendues. Demandez-vous « Quelle action ou quel objet pourrais-je utiliser sur scène pour renforcer mon discours ? »
 
-Relié. Nous ne pouvons apprendre qu’en construisant sur ce que nous connaissons déjà. Le public ne peut comprendre quelque chose qu’il ne connaît pas du tout. Le public de TEDx est branché, mais généraliste. Si vous êtes spécialiste de la neurochirurgie ou de la physique quantique, vos sujets intéresseront le public, mais il ne connaîtra pas grand chose. Utilisez des analogies, des métaphores, des images pour relier vos connaissances aux leurs.
+**Relié**. Nous ne pouvons apprendre qu’en construisant sur ce que nous connaissons déjà. Le public ne peut comprendre quelque chose qu’il ne connaît pas du tout. Le public de TEDx est branché, mais généraliste. Si vous êtes spécialiste de la neurochirurgie ou de la physique quantique, vos sujets intéresseront le public, mais il ne connaîtra pas grand chose. Utilisez des analogies, des métaphores, des images pour relier vos connaissances aux leurs.
 
-Émotionnel. Ne dissimulez pas vos émotions, partagez-les avec votre auditoire. Partagez les moments forts que vous avez vécu.
+**Émotionnel**. Ne dissimulez pas vos émotions, partagez-les avec votre auditoire. Partagez les moments forts que vous avez vécu.
 Surprenant. La surprise est un élément clé d’une bonne présentation TED ou TEDx.
 
-Concret. Très concret. Évitez les idées et les termes conceptuels.
+**Surprenant**. Apportez des éléments inattendus, un nouveau point de vue, une façon inédite de présenter votre sujet.
 
-Imagé. Et imaginé. On raconte une bonne histoire lorsque les gens peuvent se l’imaginer mentalement, lorsque celle-ci évoque des images fortes.
+**Concret**. Très concret. Évitez les idées et les termes conceptuels.
 
-Exact. Vérifiez vos faits, vos informations et vos données trois fois.
+**Imagé**. Et imaginé. On raconte une bonne histoire lorsque les gens peuvent se l’imaginer mentalement, lorsque celle-ci évoque des images fortes.
 
-Nouveau. Même si les ingrédients précédents peuvent vous faire réaliser un bon TED Talk, demandez-vous comment votre Talk peut apporter quelque chose de nouveau, un point de vue auquel personne n’a pensé avant.
+**Exact**. Vérifiez vos faits, vos informations et vos données trois fois.
 
-Twitter-ready. Le public des événements TEDx est en général très actif sur les réseaux sociaux, Facebook, Twitter, et autres. Vous aurez beaucoup plus de chances qu’on parle de vous si vous donnez des phrases « Twitter ready ». Ces petites phrases ponctueront les moments forts de votre discours.
+**Nouveau**. Même si les ingrédients précédents peuvent vous faire réaliser un bon TED Talk, demandez-vous comment votre Talk peut apporter quelque chose de nouveau, un point de vue auquel personne n’a pensé avant.
+
+**Twitter-ready**. Le public des événements TEDx est en général très actif sur les réseaux sociaux, Facebook, Twitter, et autres. Vous aurez beaucoup plus de chances qu’on parle de vous si vous donnez des phrases « Twitter ready ». Ces petites phrases ponctueront les moments forts de votre discours.
 
 En résumé ces neuf règles donnent :
 
@@ -129,7 +134,6 @@ En résumé ces neuf règles donnent :
 
 Autrement dit, PRESCIENT ;)
 
-### Raconter votre histoire
 En tant que TEDx Speaker, vos premiers mots peuvent influencer tout le reste de votre Talk. Ils peuvent vous attirer la sympathie du public ou au contraire lui ôter toute envie de vous écouter. L’introduction sert aussi à accrocher l’attention du public. Vous pouvez le faire avec un élément surprenant, une anecdote, une question rhétorique …
 
 N’hésitez pas également à dire là où vous voulez aller dès le début. Il est beaucoup plus facile de suivre une présentation orale si on sait dès le début ce que le Speaker veut démontrer. Par exemple :
@@ -175,6 +179,8 @@ Créer de bons visuels pour un TED Talk n’est pas si difficile, et votre Coach
 ## Répéter
 La ou les répétitions sont cruciales. Certaines personnes disent qu’elles n’aiment pas répéter, mais c’est parce qu’elles ne répètent pas bien ou pas assez. Sans répéter, votre présentation sera peut-être bonne, mais jamais excellente. Si vous répétez une fois ou deux, vous aurez répété, mais pas assez pour avoir assimilé votre présentation et être à l’aise ; c’est dans cette situation que vous aurez l’impression d’être moins bon après avoir répété. Mais au fil des répétitions vous allez vous améliorer, jusqu’à dépasser largement le niveau que vous aviez au début ! C’est ce niveau que votre coach va vous aider à atteindre.
 
+![TEDx Tours répétitions](tedx-tours-rehearsal.jpg)
+
 Voici quelques conseils pour vous aider à mieux répéter :
 
 *	Ne vous présentez pas trop longuement. Le Maître de Cérémonie vous aura déjà présenté lorsque vous montez sur scène. Ne présentez que les éléments essentiels à la compréhension de ce que vous allez raconter.
@@ -186,6 +192,8 @@ Nous ne le répéterons jamais assez : les meilleurs TEDx Speakers ont tous rép
 
 ## Le jour T…
 Vous venez de terminer les répétitions. Vous êtes fin prêt pour être TEDx Speaker et être la star sur scène. Vous n’avez donc plus rien à faire… et bien pas tout à fait. Il vous reste encore quelques étapes avant le grand moment.
+
+![TEDx Tours sur scène](stage.jpg)
 
 ### Choix de vos vêtements
 Pour parler à TED(x), nous vous conseillons de vous habiller de la même manière que lorsque vous travaillez. Bien entendu, il y a des exceptions selon les métiers ! Mais l’idée est de vous habiller avec un style qui correspond à la position qui est la vôtre. Si vous êtes designer, vous ne vous habillerez pas en costume, et si vous êtes PDG ou homme politique, vous ne viendrez probablement pas en Jeans et T-Shirt.
@@ -216,7 +224,7 @@ Vous avez terminé l’ultime répétition. Vient maintenant le moment le plus a
 *	Repérez vos amis dans la salle. Ils vous aideront à affronter le stress.
 *	Ne restez pas isolé, continuez à parler avec les autres Speakers.
 
-![TEDx Tours sur scène](stage.jpg)
+![TEDx Tours sur scène](tedx-tours-onstage.jpg)
 
 ### Ça y est, vous êtes TEDx Speaker !
 L’attente est terminée. Vous vous dirigez vers la loge pour le maquillage si ce n’est pas encore fait. Ça y est, le Speaker précédent a fini. Le Maître de Cérémonie monte sur scène, remercie l’orateur précédent, et vous annonce. C’est votre moment ! Vous êtes TEDx Speaker !
@@ -226,6 +234,8 @@ L’attente est terminée. Vous vous dirigez vers la loge pour le maquillage si 
 
 ## En conclusion
 À Ideas on Stage, nous croyons vraiment qu’une bonne présentation peut changer le monde. J’espère que ce guide vous aura été utile, qu’il vous aura aidé à faire de votre TED Talk un moment inoubliable de votre vie.
+
+![TEDx Saclay remerciements](tedx-saclay-thankyou.jpg)
 
 ## À propos de l’auteur
 Ce guide a été écrit par Pierre Morsa. Il se base sur plusieurs années d’expérience à coacher les intervenants d’un grand nombre d’événements TEDx. Il s’adresse aux TEDx Speakers, et aux Conférenciers en général, et a pour but de vous aider à vous préparer comme un pro. Si vous avez des commentaires, des conseils à ajouter ou des questions, envoyez-les moi à pierre.morsa@ideasonstage.com

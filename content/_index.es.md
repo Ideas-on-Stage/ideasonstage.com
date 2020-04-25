@@ -5,68 +5,62 @@ description		= "Ideas on Stage es el especialista global en presentaciones de ne
 picture			= "/pictures/home/ideas-on-stage.png"
 schema			= "Website"
 
-insertsbottom	= [
-	"home-09",
-	"home-10",
-	"home-12"
-]
+insertsbottom	= [ "revolution" ]
+
+[slider]
+	[[slider.list]]
+		bgimage ="/pictures/home/hero.jpg"
+		title = "AGENCIA DE PRESENTACIONES · EVENTOS CORPORATIVOS · PUBLIC SPEAKING"
+	[[slider.list]]
+		bgimage ="/pictures/home/slider3-min.jpg"
+		title = "THE BUSINESS PRESENTATION REVOLUTION"
+		description = "Episodio 9: Érase una vez una historia empresarial"
+		button = "Ver ahora"
+		buttonlink = "/revolution/episode-00009/"
+		color ="text-white"	
+	[[slider.list]]
+		bgimage ="/pictures/home/slider2-min.jpg"
+		title = "WOMEN ON STAGE 2.0"
+		description = "Your personal accelerator program to become more visible, present and free when presenting"
+		button = "Saber más"
+		buttonlink = "https://www.ideasonstage.com/presentations-training/women-on-stage/"
+		color = "text-white"
 
 [services]
 	title	= "NUESTROS SERVICIOS"	
-	sectionid	= "services"
-	[services.list]	
-		[services.list.001]
-			sectionid	= "presentation-creation"
-			title		= "Agencia de Presentaciones"
-			description	= "Una gran historia. Las mejores slides"
-			picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
-			style		= "bg-black"
-			layout		= "inserts/link-full-picture.html"
-			link			= "/presentation-creation-agency/"
-		[services.list.002]
-			sectionid	= "business-events"
-			title		= "Eventos Corporativos"
-			description	= "Rompe con la rutina. Sorprende a tus invitados."
-			picture		= "/pictures/inserts/home-business-events.jpg"
-			style		= "bg-black"
-			layout		= "inserts/link-full-picture-text-right.html"
-			link			= "/eventos-corporativos/"
-		[services.list.003]
-			sectionid	= "public-speaking-coaching"
-			title		= "Public Speaking"
-			description	= "Muestra tu mejor versión sobre el escenario."
-			picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
-			style		= "bg-black"
-			layout		= "inserts/link-full-picture-text-right.html"
-			link			= "/public-speaking-coaching/"
-		[services.list.004]
-			sectionid	= "presentations-training"
-			title		= "Formación"
-			description	= "Cambia la cultura de las presentaciones en tu organización."
-			picture		= "/pictures/inserts/home-presentations-training.jpg"
-			style		= "bg-lightgrey"
-			layout		= "inserts/link-full-picture.html"
-			link			= "/formacion-presentaciones/"
-			
-[slider]
-	[slider.list]
-		[slider.list.001]
-			bgimage ="/pictures/home/hero.jpg"
-			title = "AGENCIA DE PRESENTACIONES · EVENTOS CORPORATIVOS · PUBLIC SPEAKING"
-		[slider.list.002]
-			bgimage ="/pictures/home/slider3-min.jpg"
-			title = "THE BUSINESS PRESENTATION REVOLUTION"
-			description = "Episodio 9: Érase una vez una historia empresarial"
-			button = "Ver ahora"
-			buttonlink = "/revolution/episode-00009/"
-			color ="text-white"	
-		[slider.list.003]
-			bgimage ="/pictures/home/slider2-min.jpg"
-			title = "WOMEN ON STAGE 2.0"
-			description = "Your personal accelerator program to become more visible, present and free when presenting"
-			button = "Saber más"
-			buttonlink = "https://www.ideasonstage.com/presentations-training/women-on-stage/"
-			color = "text-white"
+	sectionid = "services"
+	[[services.list]]
+		sectionid	= "presentation-creation"
+		title		= "Agencia de Presentaciones"
+		description	= "Una gran historia. Las mejores slides"
+		picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
+		style		= "bg-black"
+		layout		= "inserts/module-texttop-picture.html"
+		link			= "/presentation-creation-agency/"
+	[[services.list]]
+		sectionid	= "business-events"
+		title		= "Eventos Corporativos"
+		description	= "Rompe con la rutina. Sorprende a tus invitados."
+		picture		= "/pictures/inserts/home-business-events.jpg"
+		style		= "bg-black"
+		layout		= "inserts/module-picture-textright.html"
+		link			= "/eventos-corporativos/"
+	[[services.list]]
+		sectionid	= "public-speaking-coaching"
+		title		= "Public Speaking"
+		description	= "Muestra tu mejor versión sobre el escenario."
+		picture		= "/pictures/inserts/home-public-speaking-coaching.jpg"
+		style		= "bg-black"
+		layout		= "inserts/module-picture-textright.html"
+		link			= "/public-speaking-coaching/"
+	[[services.list]]
+		sectionid	= "presentations-training"
+		title		= "Formación"
+		description	= "Cambia la cultura de las presentaciones en tu organización."
+		picture		= "/pictures/inserts/home-presentations-training.jpg"
+		style		= "bg-lightgrey"
+		layout		= "inserts/module-texttop-picture.html"
+		link			= "/formacion-presentaciones/"
 					
 +++
 Ideas on Stage ayuda a líderes de todo el mundo a hacer presentaciones impactantes, a crear eventos inspiradores y a reforzar sus organizaciones mediante coaching y formación para hablar en público de la máxima calidad. En un mundo de conferencias aburridas y reuniones interminables, destacará y brillará.

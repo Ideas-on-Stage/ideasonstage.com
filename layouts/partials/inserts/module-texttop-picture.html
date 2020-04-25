@@ -1,0 +1,13 @@
+{{ "<!-- partials:inserts:module-texttop-picture.html:start -->" | safeHTML }}
+<div class="layout-module">
+	<div class="layout-module-column {{ with .style }}{{ . }}{{ end }}">
+		<div class="layout-module-column-text">
+			{{ partial "elements/link-title-description.html" . }}
+			{{ partial "elements/button-secondary.html" . }}
+		</div>
+		<div class="layout-module-column-image">
+			{{ partial "elements/link-picture.html" . }}
+		</div>
+	</div>
+</div>
+{{ "<!-- partials:inserts:module-texttop-picture.html:end -->" | safeHTML }}

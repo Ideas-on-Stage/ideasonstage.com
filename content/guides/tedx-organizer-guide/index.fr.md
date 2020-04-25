@@ -189,3 +189,4 @@ La qualité de l’éclairage, mais surtout du son, seront déterminants pour la
 ### La restauration
 Il n’y a pas que parler qui donne soif, écouter une conférence TEDx dans une salle bondée aussi ! C’est pourquoi il faut prévoir des rafraîchissements lors de l’entracte et après la conférence.
 
+![Restauration lors d'un événement TEDx](food.jpg)

@@ -5,15 +5,19 @@
     <head>
         {{ partial "home/head.html" . }}
     </head>
-    <body id="page-top">
+    <body id="page-top" class="layout-page">
         {{ partial "nav.html" . }}
-	    {{ partial "page-hero.html" . }}
-		<main role="main" class="layout-module-wrapper">
-	        {{ partial "home/content.html" . }}
-			{{ partial "inserts-top.html" . }}
-			{{ partial "aboutreferences_new.html" . }}
-			{{ partial "home/services.html" . }}
-	        {{ partial "inserts-bottom.html" . }}
+		<main role="main">
+			{{ partial "page-hero.html" . }}
+			<div class="layout-module-wrapper">
+				{{ partial "inserts-top.html" . }}
+				<section id="content-main" class="layout-content style-text-intro">
+					{{ .Content }}
+				</section>
+				{{ partial "aboutreferences_new.html" . }}
+				{{ partial "home/services.html" . }}
+		        {{ partial "inserts-bottom.html" . }}
+			</div>
 		</main>
 		<aside>
 	 		{{ partial "subscribe.html" . }}

@@ -1,11 +1,12 @@
 {{ "<!-- partials:inserts-bottom.html:start -->" | safeHTML }}
 <section id="inserts-bottom" class="flex-parent-row">
 {{- range .Params.insertsbottom }}
-	{{- $insertname := add . "." }}
-	{{- $insertname = add $insertname site.Params.LanguageCode }}
-	{{- $insert := index site.Data.inserts $insertname }}
-	{{- if $insert }}
-		{{ partial $insert.layout $insert }}
+	{{- $insertalllang := index site.Data.inserts . }}
+	{{- if $insertalllang }}
+		{{- $insert := index $insertalllang site.Params.LanguageCode }}
+		{{- if $insert }}
+			{{ partial $insert.layout $insert }}
+		{{- end }}
 	{{- end }}
 {{- end }}
 </section>

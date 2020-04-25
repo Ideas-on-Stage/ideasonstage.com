@@ -1,5 +1,5 @@
-{{ "<!-- partials:insert-text2-photo1.html -->" | safeHTML }}
-<section class="layout-content {{ with .style }}{{ . }}{{ end }}">
+{{ "<!-- partials:inserts:text2-photo1.html:start -->" | safeHTML }}
+<div class="layout-content {{ with .style }}{{ . }}{{ end }}">
 	<div class="flex-parent-row flex-column-ontall">
         <div class="flex-child-60p flex-child-text-left">
 			{{ partial "elements/title-description.html" . }}
@@ -8,4 +8,5 @@
 			{{ partial "elements/photograph.html" . }}
 		</div>
 	</div>
-</section>
+</div>
+{{ "<!-- partials:inserts:text2-photo1.html:end -->" | safeHTML }}

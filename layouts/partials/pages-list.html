@@ -1,9 +1,9 @@
 {{ "<!-- partials:pages-list.html:start -->" | safeHTML }}
-{{ range .Pages }}
-	<div class="layout-content">
-	{{ with .Params }}
-		{{ partial "inserts/link-picture2-text1.html" . }}
+<section id="content-list">
+	{{ range .Pages }}
+			{{ with .Params }}
+				{{ partial "inserts/link-picture2-text1.html" . }}
+			{{ end }}
 	{{ end }}
-	</div>
-{{ end }}
+</section>
 {{ "<!-- partials:pages-list.html:end -->" | safeHTML }}
