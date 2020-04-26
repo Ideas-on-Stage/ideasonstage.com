@@ -17,7 +17,7 @@
 [es]
 	title		= "The Business Presentation Revolution Videos"
 	layout		= "inserts/module-picture-textleft.html"
-	style		= "bg-lightgrey"
+	style		= "bg-primary"
 	picture		= "/pictures/inserts/revolution-hand-clicker.jpg"
 	link			= "/revolution/"
 	description = "Descubre los mejores consejos para presentar con nuestra nueva serie de videos: The Business Presentation Revolution."

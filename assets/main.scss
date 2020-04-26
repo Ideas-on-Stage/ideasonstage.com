@@ -83,7 +83,7 @@ h5							{ font-size: 1.00em;	}
 footer, footer a			{ font-size: 0.75em;	}
 
 /* font sizes for custom classes */
-.nav a  					{ font-size: 16px;		}
+.nav a  					{ font-size: 14px;		}
 .flex-404 .error-box h1		{ font-size: 2.00em;	}
 .flex-404 .error-box h2 		{ font-size: 1.25em;	}
 .form-control-nav 			{ font-size: 90%;		}
@@ -733,7 +733,8 @@ footer, footer a			{ font-size: 0.75em;	}
 			padding: 2vw 0;
 			margin: 2vw 0;
 		}
-	
+
+
 	/* @end */
 	
 	/* @group storyline inserts */
@@ -970,7 +971,11 @@ footer, footer a			{ font-size: 0.75em;	}
 				padding-top: 4vw;
 				padding-bottom: 2vw;
 			}
-		
+
+			.flex-child-youtube {
+				height: 48vw;
+			}
+
 		}
 	
 	/* @end */

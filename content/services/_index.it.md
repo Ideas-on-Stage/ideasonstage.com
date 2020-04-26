@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Services"
+title 			= "Servizi"
 description		= ""
-url 				= "/services/"
+url 				= "/servizi/"
 +++

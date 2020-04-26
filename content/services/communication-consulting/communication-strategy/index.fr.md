@@ -1,13 +1,9 @@
 +++
-draft 		= false
-title 		= "Présentations stratégiques"
-description = "Nous vous créons une présentation pour répondre à des enjeux forts, de l'idée jusqu'à la scène."
-weight		= 3
-categories	= [ "Agence de Création" ]
-showrefs	= true
-urlredirect	= ""
-url 		= "/agence-creation-presentations/strategie-de-presentation/"
-picture		= "strategy.jpg"
+draft 			= false
+title 			= "Présentations stratégiques"
+description		= "Nous vous créons une présentation pour répondre à des enjeux forts, de l'idée jusqu'à la scène."
+picture			= "strategy.jpg"
+url		 		= "/services/conseil-communication/strategie-communication/"
 +++
 
 ## Nous vous créons une présentation pour répondre à des enjeux forts, quel que soit le public

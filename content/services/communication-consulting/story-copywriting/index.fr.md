@@ -1,13 +1,9 @@
 +++
-draft 		= false
-title 		= "Storytelling et Écriture"
-description	= "Notre équipe de « Storytellers » vous créera une histoire captivante."
-weight		= 2
-categories	= [ "Agence de Création" ]
-showrefs	= false
-urlredirect	= ""
-url 			= "/agence-creation-presentations/storytelling-et-ecriture/"
-picture		= "story-copywriting.jpg"
+draft 			= false
+title 			= "Storytelling et Écriture"
+description		= "Notre équipe de « Storytellers » vous créera une histoire captivante."
+picture			= "story-copywriting.jpg"
+url	 			= "/services/conseil-communication/storytelling-et-ecriture/"
 +++
 
 ## Pourquoi nous souvenons-nous des histoires, mais oublions la présentation d'hier ?

@@ -7,6 +7,7 @@ categories		= [ "Public Speaking Coaching" ]
 url	 			= "/public-speaking-coaching/"
 picture	 		= "wikistage-wbg-2015.jpg"
 itemtype		= "Service"
+showonhome		= true
 +++
 
 ## Tailored to address each individual’s strengths and areas for improvement. 

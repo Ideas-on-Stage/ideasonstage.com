@@ -1,13 +1,9 @@
 +++
-draft 		= false
-title 		= "Presentation Strategy"
-description = "Scegli la giusta angolazione per conquistare la tua audience e per assicurarti che la tua presentazione sia un successo."
-weight		= 3
-categories	= [ "Presentation Creation Agency" ]
-showrefs	= true
-urlredirect	= ""
-url	 		= "/presentation-creation-agency/presentation-strategy/"
-picture		= "strategy.jpg"
+draft 			= false
+title 			= "Presentation Strategy"
+description 	= "Scegli la giusta angolazione per conquistare la tua audience e per assicurarti che la tua presentazione sia un successo."
+picture			= "strategy.jpg"
+url				= "/servizi/communication-consulting/communication-strategy/"
 +++
 
 ## Crea una presentazione eccezionale che rifletta il tuo valore e convinca la tua audience, che siano clienti, partner o i media. 

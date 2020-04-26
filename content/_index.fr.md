@@ -56,12 +56,10 @@ insertsbottom	= [ "revolution", "codingandbricks" ]
 		expirydate	= "2019-11-04"
 
 [services]
-	title		= "Nos Services"
-	sectionid	= "services"
 	[[services.list]]
 		sectionid	= "du-bureau-au-travail-a-distance"
-		title		= "Du bureau au travail à distance en 10 jours"
-		description	= "Comment passer d'un bureau physique à un bureau à distance tout en gardant le lien ? En créant une communauté de travail en ligne."
+		title		= "Communauté de travail en ligne"
+		description	= "Créez et animez une communauté de travail en ligne pour booster le moral et la productivité de vos employés."
 		picture		= "/du-bureau-au-travail-a-distance/remote-work.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
@@ -89,7 +87,7 @@ insertsbottom	= [ "revolution", "codingandbricks" ]
 		picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
-		link			= "/agence-creation-presentations/"
+		link			= "/services/agence-creation-presentation-powerpoint/"
 	[[services.list]]
 		sectionid	= "presentations-training"
 		title		= "Formations à l'art&nbsp;de&nbsp;présenter"

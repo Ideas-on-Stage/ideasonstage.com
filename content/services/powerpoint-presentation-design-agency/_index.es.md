@@ -2,11 +2,7 @@
 draft 			= false
 title 			= "Creación de Presentaciones en PowerPoint"
 description		= "Añade un diseño profesional a tus slides para deslumbrar a tu público en tu presentación."
-weight			= 1
-categories		= [ "Presentation Creation Agency" ]
-type			= "presentationcreationservice"
-url 				= "/presentation-creation-agency/"
-itemtype	= "Service"
+url 				= "/servicios/creacion-presentaciones-powerpoint/"
 
 insertsbottom	= [
 	"presentation-creation-service-10",

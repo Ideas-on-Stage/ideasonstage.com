@@ -25,9 +25,6 @@ schema			= "Website"
 		color ="text-white"		
 			
 [services]
-	title	= "I Nostri Servizi"
-	sectionid	= "services"
-	itemtype	= "OfferCatalog"
 	[[services.list]]
 		sectionid	= "presentation-creation"
 		title		= "Presentation Creation Agency"
@@ -35,7 +32,7 @@ schema			= "Website"
 		picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
-		link			= "/presentation-creation-agency/"
+		link			= "/servizi/creazione-presentazioni-powerpoint/"
 	[[services.list]]
 		sectionid	= "business-events"
 		title		= "Eventi Corporate"

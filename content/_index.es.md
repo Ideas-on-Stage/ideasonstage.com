@@ -27,8 +27,6 @@ insertsbottom	= [ "revolution" ]
 		color = "text-white"
 
 [services]
-	title	= "NUESTROS SERVICIOS"	
-	sectionid = "services"
 	[[services.list]]
 		sectionid	= "presentation-creation"
 		title		= "Agencia de Presentaciones"
@@ -36,7 +34,7 @@ insertsbottom	= [ "revolution" ]
 		picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
-		link			= "/presentation-creation-agency/"
+		link			= "/servicios/creacion-presentaciones-powerpoint/"
 	[[services.list]]
 		sectionid	= "business-events"
 		title		= "Eventos Corporativos"

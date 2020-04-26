@@ -1,13 +1,9 @@
 +++
-draft 		= false
-title 		= "Storytelling & Copywriting"
-description	= "Together with our creative business storytellers, craft a narrative to captivate your audience and make your messages stick."
-weight		= 2
-categories	= [ "Presentation Creation Agency" ]
-showrefs	= false
-urlredirect	= ""
-url	 		= "/presentation-creation-agency/story-copywriting/"
-picture		= "story-copywriting.jpg"
+draft 			= false
+title 			= "Storytelling & Copywriting"
+description		= "Together with our creative business storytellers, craft a narrative to captivate your audience and make your messages stick."
+picture			= "story-copywriting.jpg"
+url				= "/services/communication-consulting/story-copywriting/"
 +++
 
 ## Why do we remember stories, yet forget yesterday’s presentation?

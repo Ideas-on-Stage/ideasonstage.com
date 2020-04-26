@@ -7,6 +7,7 @@ categories		= [ "Public Speaking Coaching" ]
 url 				= "/business-events/"
 picture			= "business-events.jpg"
 itemtype		= "Service"
+showonhome		= true
 +++
 
 ## Events & Conferences

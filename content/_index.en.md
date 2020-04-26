@@ -48,12 +48,10 @@ insertsbottom	= [ "revolution", "news" ]
 		expirydate	= "2019-11-04"
 
 [services]
-	title	= "Our Services"
-	sectionid	= "services"
 	[[services.list]]
 		sectionid	= "from-office-to-remote-work"
 		title		= "Online Work Community"
-		description	= "How can you move from an office based to a remote work environment in 10 days and keep the human touch? By creating an online work community."
+		description	= "Create and animate an online work community to boost your employees' morale and productivity."
 		picture		= "/from-office-to-remote-work/remote-work.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
@@ -81,7 +79,7 @@ insertsbottom	= [ "revolution", "news" ]
 		picture		= "/pictures/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
-		link			= "/presentation-creation-agency/"
+		link			= "/services/powerpoint-presentation-design-agency/"
 	[[services.list]]
 		sectionid	= "presentations-training"
 		title		= "Training & Workshops"

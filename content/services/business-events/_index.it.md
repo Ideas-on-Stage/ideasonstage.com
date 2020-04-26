@@ -7,6 +7,7 @@ categories		= [ "Eventi Corporate" ]
 url	 			= "/eventi-corporate/"
 picture			= "business-events.jpg"
 itemtype		= "Service"
+showonhome		= true
 +++
 
 Basta con le solite, noiosissime maratone di slide - lascia che i nostri esperti rendano i tuoi meeting divertenti, interattivi e memorabili.

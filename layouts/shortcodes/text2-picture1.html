@@ -1,5 +1,5 @@
 {{ "<!-- shortcodes:picture1-text2.html:start -->" | safeHTML }}
-<div class="layout-shortcode flex-parent-row flex-column-reverse-ontall">
+<div class="layout-shortcode flex-parent-row flex-column-reverse-ontall {{ with .Params.style }}{{ . }}{{ end }}">
 	<div class="flex-child-60p flex-child-text-left">
 		<h3 class="">{{ .Params.title }}</h3>
 	    <p>{{ .Inner | markdownify }}</p>

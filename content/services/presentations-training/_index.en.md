@@ -5,6 +5,7 @@ description		= "Change the culture of presentations in your company"
 categories		= [ "Training & Workshops" ]
 url 				= "/presentations-training/"
 schema			= "Carousel"
+showonhome		= true
 
 insertsbottom	= [
 	"presentation-training-10",

@@ -5,6 +5,7 @@ description		= "Changez votre vision des présentations"
 categories		= [ "Training & Workshops" ]
 url		 		= "/formation-presentations/"
 schema			= "Carousel"
+showonhome		= true
 
 insertsbottom	= [
 	"presentation-training-10",

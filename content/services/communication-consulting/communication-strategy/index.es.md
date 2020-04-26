@@ -1,13 +1,9 @@
 +++
-draft 		= false
-title 		= "Presentaciones Estratégicas"
-description	= "Te ayudamos a encontrar el ángulo adecuado con tu público para que tu presentación sea un éxito."
-weight		= 3
-categories	= [ "Presentation Creation Agency" ]
-showrefs	= true
-urlredirect	= ""
-url 		= "/presentation-creation-agency/presentation-strategy/"
-picture		= "strategy.jpg"
+draft	 		= false
+title 			= "Presentaciones Estratégicas"
+description		= "Te ayudamos a encontrar el ángulo adecuado con tu público para que tu presentación sea un éxito."
+picture			= "strategy.jpg"
+url				= "/servicios/communication-consulting/communication-strategy/"
 +++
 
 ## Desarrolla una presentación sólida para trasladar tus ideas y convencer a tu público, ya sean clientes, socios o medios de comunicación.

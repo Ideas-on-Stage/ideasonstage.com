@@ -1,12 +1,8 @@
 +++
 draft 			= false
-title 			= "Agence de création de présentations"
+title 			= "Agence de création de présentations PowerPoint"
 description		= "Impressionnez votre auditoire avec une présentation PowerPoint de qualité professionnelle. Nos services sont utilisés par les plus grandes marques."
-weight			= 1
-categories		= [ "Agence de Création" ]
-type			= "presentationcreationservice"
-url 				= "/agence-creation-presentations/"
-itemtype		= "Service"
+url 				= "/services/agence-creation-presentation-powerpoint/"
 
 insertsbottom	= [
 	"presentation-creation-service-10",

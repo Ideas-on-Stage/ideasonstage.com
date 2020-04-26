@@ -10,11 +10,11 @@ theme        			= "hugo-creative-theme-master"
 [markup]
 	[markup.goldmark]
 		[markup.goldmark.renderer]
-      		unsafe		= true # added to prevent omission of raw HTML in contents
+      		unsafe		= true	# added to allow raw HTML in page .Content
 
 	[markup.tableOfContents]
-	    endLevel = 3
-	    startLevel = 2	
+	    startLevel		= 2		# start level for table of contents
+	    endLevel 		= 3		# end level for table of contents
       		
 [Permalinks]
     news				= "/news/:year/:month/:day/:filename/"
@@ -108,15 +108,18 @@ theme        			= "hugo-creative-theme-master"
 
 		[params.navigation.items]
 			[params.navigation.items.001]
-				name		 	= "Presentation Creation"
-				url			 	= "/presentation-creation-agency/"
-			[params.navigation.items.002]
-				name		 	= "Business Events"
-				url			 	= "/business-events"
-			[params.navigation.items.003]
 				name		 	= "Public Speaking Coaching"
 				url			 	= "/public-speaking-coaching/"
+			[params.navigation.items.002]
+				name		 	= "Presentation Design"
+				url			 	= "/services/powerpoint-presentation-design-agency/"
+			[params.navigation.items.003]
+				name		 	= "Communication Consulting"
+				url			 	= "/services/communication-consulting/"
 			[params.navigation.items.004]
+				name		 	= "Business Events"
+				url			 	= "/business-events/"
+			[params.navigation.items.005]
 				name		 	= "Training & Workshops"
 				url			 	= "/presentations-training/"
 				
@@ -356,15 +359,18 @@ theme        			= "hugo-creative-theme-master"
 
 		[languages.fr.navigation.items]
 			[languages.fr.navigation.items.001]
-				name		 	= "Création de présentations"
-				url			 	= "/agence-creation-presentations/"
-			[languages.fr.navigation.items.002]
-				name		 	= "Support événementiel"
-				url			 	= "/evenements-entreprise/"
-			[languages.fr.navigation.items.003]
 				name		 	= "Coaching prise de parole"
 				url			 	= "/coaching-prise-de-parole-en-public/"
+			[languages.fr.navigation.items.002]
+				name		 	= "Création de présentations"
+				url			 	= "/services/agence-creation-presentation-powerpoint/"
+			[languages.fr.navigation.items.003]
+				name		 	= "Conseil en communication"
+				url			 	= "/services/conseil-communication/"
 			[languages.fr.navigation.items.004]
+				name		 	= "Support événementiel"
+				url			 	= "/evenements-entreprise/"
+			[languages.fr.navigation.items.005]
 				name		 	= "Formations à l'art de présenter"
 				url			 	= "/formation-presentations/"
 				
@@ -549,7 +555,7 @@ theme        			= "hugo-creative-theme-master"
 		[languages.es.navigation.items]	
 			[languages.es.navigation.items.001]
 				name		 	= "Creación de presentaciones"
-				url			 	= "/presentation-creation-agency/"
+				url			 	= "/servicios/creacion-presentaciones-powerpoint/"
 			[languages.es.navigation.items.002]
 				name		 	= "Eventos corporativos"
 				url			 	= "/eventos-corporativos/"
@@ -717,7 +723,7 @@ theme        			= "hugo-creative-theme-master"
 		[languages.it.navigation.items]
 			[languages.it.navigation.items.001]
 				name		 	= "Presentation Creation Agency"
-				url			 	= "/presentation-creation-agency/"
+				url			 	= "/servizi/creazione-presentazioni-powerpoint/"
 			[languages.it.navigation.items.002]
 				name		 	= "Eventi Corporate"
 				url			 	= "/eventi-corporate/"
