@@ -2,13 +2,9 @@
 draft 		= false
 title 		= "Executive Coaching"
 description	= "Develop your presence on stage. Be a Leader."
-weight		= 1
-categories	= [ "Public Speaking Coaching" ]
 url 			= "/public-speaking-coaching/executive-coaching/"
 picture		= "public-speaking-coaching-10.jpg"
-itemtype	= "Service"
 +++
-
 
 ## Lead from the stage
 

@@ -1,7 +1,6 @@
 {{/* <!-- no hero for single news page --> */}}
 {{ define "main" }}
 	{{ "<!-- news:single.html:main:start -->" | safeHTML }}
-    {{ partial "news/breadcrumbs.html" . }}
 	<article>
         <div class="container paddingt-medium">
             <div class="row">
@@ -46,6 +45,5 @@
 			</div>
         </div> <!-- /.container -->
     </article> <!-- /#content -->
-    {{ partial "news/breadcrumbs.html" . }}
    	{{ "<!-- news:single.html:main:end -->" | safeHTML }}
 {{ end }}

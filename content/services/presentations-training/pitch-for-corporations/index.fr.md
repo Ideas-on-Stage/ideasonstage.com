@@ -20,4 +20,4 @@ Peut-être allez vous découvrir l'idée de génie qui va faire avancer votre en
 
 Vous êtes prêt à penser différemment et décupler la créativité de votre équipe ? Contactez-nous via le formulaire ci-dessous.
 
-[pic1]: /pictures/training-workshops/pitch-for-corporations/pitch-for-corporations.jpg
+[pic1]: /img/training-workshops/pitch-for-corporations/pitch-for-corporations.jpg

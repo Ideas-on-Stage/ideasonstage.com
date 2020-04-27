@@ -2,12 +2,8 @@
 draft 		= false
 title 		= "Media Training"
 description	= "Media Training professionnel pour préparer les dirigeants à faire face à la caméra."
-weight		= 3
-categories	= [ "Coaching Prise de Parole en Public" ]
 url	 		= "/coaching-prise-de-parole-en-public/media-training/"
 picture		= "media-training.jpg"
-button		= "En savoir plus"
-itemtype	= "Service"
 +++
 
 ## Montrez au monde la meilleure version de vous-même
@@ -30,4 +26,4 @@ En travaillant avec notre équipe de Coachs, vous apprendrez :
 
 Si vous devez vous préparer pour une intervention radiophonique ou télévisée contactez-nous avec le formulaire ci-dessous et nous vous contacterons rapidement. Ces demandes sont reçues directement par notre équipe de Coachs pour garantir le plus haut niveau de confidentialité possible.
 
-[pic1]: /pictures/public-speaking-coaching/media-training/media-training.jpg
+[pic1]: /img/public-speaking-coaching/media-training/media-training.jpg

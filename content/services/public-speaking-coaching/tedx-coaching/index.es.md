@@ -1,26 +1,24 @@
 +++
-draft		= false
-title		= "Coaching TEDx"
-description	= "El público de los eventos TED tienes unas altas expectativas. Aprende a sobrepasarlas con nuestra ayuda."
-weight		= 1
-categories	= [ "Public Speaking Coaching" ]
-url			= "/public-speaking-coaching/tedx-coaching/"
-picture		= "tedx-saclay.jpg"
+draft			= false
+title			= "Coaching TEDx"
+description		= "El público de los eventos TED tienes unas altas expectativas. Aprende a sobrepasarlas con nuestra ayuda."
+url				= "/public-speaking-coaching/tedx-coaching/"
+picture			= "tedx-saclay.jpg"
+weight			= 1
 
 # Product schema, offers array is mandatory
-schema		= "Product"
-[offers]
-	[offers.001]
-		pricecurrency = "EUR"
-		price			= "250"
-		availability		= "https://schema.org/InStock"	
+schema			= "Product"
+[[offers]]
+	pricecurrency	= "EUR"
+	price			= "250"
+	availability		= "https://schema.org/InStock"	
 +++
 
-{{< storyline-picture-text title="TED - 2009" description="Toda historia necesita un Héroe. El nuestro fue Yann Arthus-Bertrand, a quien ayudamos a preparar su charla TED." picture="/pictures/inserts/ted-01.jpg" >}}
+{{< storyline-picture-text title="TED - 2009" description="Toda historia necesita un Héroe. El nuestro fue Yann Arthus-Bertrand, a quien ayudamos a preparar su charla TED." picture="/img/inserts/ted-01.jpg" >}}
 
-{{< storyline-text-picture title="TEDx - 2010" description="Hicimos coaching de speakers en eventos TEDx tan pronto como se creó el programa, empezando con el TEDxParisUniversités." picture="/pictures/inserts/ted-02.jpg" >}}
+{{< storyline-text-picture title="TEDx - 2010" description="Hicimos coaching de speakers en eventos TEDx tan pronto como se creó el programa, empezando con el TEDxParisUniversités." picture="/img/inserts/ted-02.jpg" >}}
 
-{{< storyline-picture-text title="2011- Hoy" description="TEDxLaDéfense. TEDxLille. TEDxMcGill. TEDxParis. TEDxSaclay. TEDxTours. TEDxWorldBankGroup. Wikistage ESCP, Wikistage Lima WorldBankGroup, OuishareFest BCN, NESI Forum. Y muchos más." picture="/pictures/inserts/ted-03.jpg" >}}
+{{< storyline-picture-text title="2011- Hoy" description="TEDxLaDéfense. TEDxLille. TEDxMcGill. TEDxParis. TEDxSaclay. TEDxTours. TEDxWorldBankGroup. Wikistage ESCP, Wikistage Lima WorldBankGroup, OuishareFest BCN, NESI Forum. Y muchos más." picture="/img/inserts/ted-03.jpg" >}}
 
 {{< storyline-end title="300+ y creciendo" description="Hemos acompañado y entrenado a más de 300 speakers de eventos TEDx. Nos hemos convertido en expertos en TEDx internacionalmente trabajando en eventos en los Estados Unidos, Canada, Reino Unido y muchos otros países europeos. Y no tenemos intención de parar." >}}
 

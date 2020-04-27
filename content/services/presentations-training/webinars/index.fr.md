@@ -2,7 +2,6 @@
 draft 			= false
 title 			= "Webinaires Virtual Meeting Revolution"
 description		= "Une série de webinaires gratuits pour mieux présenter."
-categories		= [ "Formations et Ateliers" ]
 url	 			= "/formation-presentations/webinaires/"
 picture			= "ouaibinarre.jpg"
 
@@ -95,7 +94,7 @@ Voici le calendrier ainsi que les liens vers nos pages EventBrite afin que vous 
 
 Horaires : tous les mardis de 16h00 à 17h00.
 
-{{< events title="Prochains événements" >}}
+{{< events title="Prochains événements" style="bg-lightgray" >}}
 
 (Si vous avez des idées pour d'autres webinaires liés aux réunions en ligne et au travail à distance, et si ces webinaires s'avèrent très sollicités, nous pourrions ajouter d'autres dates ultérieurement)
 

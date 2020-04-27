@@ -12,4 +12,4 @@ Joe è uno scrittore di grandissima esperienza, un comunicatore e un designer di
 
 
 
-[pic1]: /pictures/logos/linkedin.png
+[pic1]: /img/logos/linkedin.png

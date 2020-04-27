@@ -1,14 +1,9 @@
 +++
 draft 		= false
-weight		= 1
 title 		= "Event Design"
 description	= "Basta con le solite, noiosissime maratone di slide - lascia che i nostri esperti rendano i tuoi meeting divertenti, interattivi e memorabili."
-categories	= [ "Corporate Events" ]
-showrefs	= true
-urlredirect	= ""
-url	 		= "/eventi-corporate/event-design/"
 picture		= "event-design.jpg"
-style		= "bg-white"
+url	 		= "/eventi-corporate/event-design/"
 +++
 
 ## “Abbastanza bene” non è mai abbastanza.

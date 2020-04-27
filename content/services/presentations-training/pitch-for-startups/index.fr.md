@@ -2,7 +2,6 @@
 draft		= false
 title		= "Pitch pour Startups"
 description = "Apprenez les secrets du pitch, par une équipe de coachs qui a collaboré avec des centaines de startups."
-categories	= [ "Formations et Ateliers" ]
 url 			= "/formation-presentations/pitch-pour-startups/"
 picture		= "image.jpg"
 schema		= "Course"
@@ -19,4 +18,4 @@ Suite à notre coaching certaines startups ont levé des millions, convaincu leu
 
 Si vous souhaitez bénéficier des conseils de Coachs expérimentés, ou si vous voulez organiser un atelier Pitch pour un groupe de Startups vous pouvez nous contacter via le formulaire ci-dessous.
 
-[pic1]: /pictures/training-workshops/pitch-for-startups/pitch.jpg
+[pic1]: /img/training-workshops/pitch-for-startups/pitch.jpg

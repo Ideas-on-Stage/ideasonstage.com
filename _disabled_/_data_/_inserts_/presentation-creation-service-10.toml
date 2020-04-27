@@ -1,0 +1,13 @@
+[en]
+	title		= "Communication strategy consulting"
+	layout		= "inserts/text2-picture1.html"
+	style		= "bg-lightgrey"
+	picture		= "/img/inserts/presentation-creation-service-10.jpg"
+	description	= "With our unique ATR (Audience Transformation Roadmap) you will be confident that you have the right message for the right audience. The ATR was built by business professionals for business professionals."
+
+[fr]
+	title		= "Conseil en communication"
+	layout		= "inserts/text2-picture1.html"
+	style		= "bg-lightgrey"
+	picture		= "/img/inserts/presentation-creation-service-10.jpg"
+	description	= "L'ATR (Audience Transformation Roadmap) est notre outil unique pour définir vos messages clés. Montez sur scène en étant sûr d'avoir les bons messages pour le bon public. L'ATR a été construite par des chefs d'entreprise pour des chefs d'entreprise."

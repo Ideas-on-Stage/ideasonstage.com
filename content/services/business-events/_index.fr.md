@@ -2,12 +2,8 @@
 draft 			= false
 title 			= "Support Événementiel"
 description		= "Un ensemble de services pour aider votre agence événementielle ou votre entreprise à réaliser un événement mémorable"
-weight			= 1
-categories		= [ "Événements d'entreprise" ]
-url 				= "/evenements-entreprise/"
 picture			= "business-events.jpg"
-itemtype		= "Service"
-showonhome		= true
+url 				= "/evenements-entreprise/"
 insertsbottom	= [	"codingandbricks", "guideevents" ]
 +++
 

@@ -1,11 +1,10 @@
 +++
-draft		= false
-title		= "Reboot your company"
-description = "If your team were a startup, how much more creative and agile would they be? Find out with this fun, innovative workshop."
-categories	= [ "Training & Workshops" ]
-url 			= "/presentations-training/pitch-for-corporations/"
-picture		= "image.jpg"
-schema		= "Course"
+draft			= false
+title			= "Reboot your company"
+description 	= "If your team were a startup, how much more creative and agile would they be? Find out with this fun, innovative workshop."
+url 				= "/presentations-training/pitch-for-corporations/"
+picture			= "image.jpg"
+schema			= "Course"
 +++
 
 ## Everyone has an idea to pitch
@@ -20,4 +19,4 @@ Perhaps they will come up with some innovative ideas to move your business forwa
 
 If you want to make your team think differently and boost their creativity, find out more about Reboot Your Company by contacting us using the form below.
 
-[pic1]: /pictures/training-workshops/pitch-for-corporations/pitch-for-corporations.jpg
+[pic1]: /img/training-workshops/pitch-for-corporations/pitch-for-corporations.jpg

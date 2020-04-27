@@ -1,0 +1,49 @@
+{{/* <!--
+	
+	f/getpicturepath
+	
+	Gets full path to picture
+	- Uses .thumbnail first, then .picture
+	- Path as is if already absolute path
+	- Convert to absolute if relative path
+	- Convert to absolute with full path if just picture name
+ --> */}}
+
+{{ $imgpath := "" }}
+{{ $picture := "" }}
+{{ $found := false }}
+{{ if .Params.thumbnail }}
+	{{ $picture = .Params.thumbnail }}
+	{{ $found = true }}
+{{ else if .Params.picture }}
+	{{/* <!-- i's a page structure --> */}}
+	{{ $picture = .Params.picture }}
+	{{ $found = true }}
+{{ else if (isset . "thumbnail") }}
+	{{ $picture = .thumbnail }}
+	{{ $found = true }}
+{{ else if (isset . "picture") }}
+	{{/* <!-- it's a data file structure --> */}}
+	{{ $picture = .picture }}
+	{{ $found = true }}
+{{ end }}
+
+{{ if $found }}
+	{{ $firstchar := substr $picture 0 1 }}
+	{{ $firstfour := substr $picture 0 4 }}
+	{{ if eq "/" $firstchar }}
+		{{/* <!-- if starts with / then .picture contains rel path to img --> */}}
+		{{ $imgpath = $picture }}
+	{{ else if eq "http" $firstfour }}
+		{{/* <!-- if starts with / then .picture contains abs path to img --> */}}
+		{{ $imgpath = $picture }}
+	{{ else }}
+		{{/* <!-- else .picture contains name of img, add path --> */}}
+		{{ if (isset . "url") }}
+			{{ $imgpath = path.Join .url $picture }}
+		{{ else }}
+			{{ $imgpath = path.Join .RelPermalink $picture }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+{{ return $imgpath }}

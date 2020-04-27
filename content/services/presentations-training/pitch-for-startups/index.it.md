@@ -2,7 +2,6 @@
 draft		= false
 title		= "Startup Pitch"
 description = "Impara a dare un killer pitch da coach esperti che hanno lavorato con centinaia di startup."
-categories	= [ "Training & Workshops" ]
 url	 		= "/presentations-training/pitch-for-startups/"
 picture		= "image.jpg"
 schema		= "Course"
@@ -21,4 +20,4 @@ Affidandosi al nostro coaching, molte startup hanno raccolto milioni, convinto c
 
 Se volete che la vostra startup abbia la migliore consulenza possibile o se volete organizzare un workshop per un gruppo di startup, contattate Ideas on Stage con il modulo sottostante. 
 
-[pic1]: /pictures/training-workshops/pitch-for-startups/pitch.jpg
+[pic1]: /img/training-workshops/pitch-for-startups/pitch.jpg

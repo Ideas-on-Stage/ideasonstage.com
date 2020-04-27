@@ -8,27 +8,28 @@
         {{- partial "head.html" . }}
 	</head>
     <body id="page-top" class="layout-page">
-		{{ partial "nav.html" . }}
+		{{ partial "page-nav.html" . }}
 		<main role="main">
 			{{ block "hero" . }}
 			{{ end }}
-			<div class="layout-module-wrapper">
-				{{ partial "inserts-top" . }}
+		{{ partial "page-breadcrumbs.html" . }}
+		<div class="layout-module-wrapper">
+				{{ partial "page-inserts-top.html" . }}
 				{{ block "main" . }}
 				{{ end }}
-				{{ partial "inserts-bottom" . }}
+				{{ partial "page-inserts-bottom.html" . }}
 			</div>
 		</main>
 		<aside>
-	        {{ partial "references.html" . }}
-	        {{ partial "testimonials_pages.html" . }}
-	        {{ partial "contact.html" . }}
+	        {{ partial "page-testimonials.html" . }}
+	        {{ partial "page-contact.html" . }}
 	    </aside>
+		{{ partial "page-breadcrumbs.html" . }}
 		<footer>
-	        {{ partial "footer.html" . }}			
-	        {{ partial "js.html" . }}
+	        {{ partial "page-footer.html" . }}			
+	        {{ partial "page-js.html" . }}
 	        {{- if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
-	            {{ partial "algolia-search" . }}
+	            {{ partial "page-search.html" . }}
 	        {{- end }}
 		</footer>
     </body>

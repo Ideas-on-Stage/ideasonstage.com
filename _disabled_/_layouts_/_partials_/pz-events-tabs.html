@@ -1,0 +1,85 @@
+<!-- {{ $Title := .Params.ticketing.trainingtitle }} -->
+{{ $Title := "Presentation Zen for Business" }}
+{{ $.Scratch.Set "count" 0 }}
+{{ range (where .Site.Pages.ByDate "Section" "events") }}
+	{{ if eq .Title $Title }}
+		{{ if ge .Date.Unix now.Unix }}
+			{{ $.Scratch.Add "count" 1 }}
+			{{ if eq 1 ($.Scratch.Get "count") }}
+<section id="events-tabs">
+    <div class="container">
+	    <div class="row">
+		    <div class="col-sm-12">
+				<ul id="tabs" class="nav nav-tabs" data-tabs="tabs" role="tablist">								
+			{{ end }}
+			{{ if le ($.Scratch.Get "count") 3 }}
+					<li role="presentation" class="{{ if eq 1 ($.Scratch.Get "count") }}active{{ end }}">
+						<a href="#{{ $.Scratch.Get "count" }}" aria-controls="{{ $.Scratch.Get "count" }}" role="tab" data-toggle="tab">{{ .Date.Format "January" }} {{ .Params.location }}</a>
+					</li>
+			{{ end }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+{{ if ge ($.Scratch.Get "count") 1 }}
+				</ul>
+				<div id="myTabs" class="tab-content">
+{{ end }}
+
+{{ $.Scratch.Set "count" 0 }}
+{{ range (where .Site.Pages.ByDate "Section" "events") }}
+	{{ if eq .Title $Title }}
+		{{ if ge .Date.Unix now.Unix }}
+			{{ $.Scratch.Add "count" 1 }}
+			{{ if le ($.Scratch.Get "count") 3 }}
+					<div role="tabpanel" class="tab-pane {{ if eq 1 ($.Scratch.Get "count") }}active{{ end }}" id="{{ $.Scratch.Get "count" }}">
+				  		<div class="row">
+					  		<div class="col-sm-12">
+							  	<ul>
+									<li>{{ .Site.Params.events_tabs.language }}<b>{{ .Params.language }}</b></li>						  
+									<li>{{ .Site.Params.events_tabs.location }}<b>{{ .Params.location }}</b></li>						  
+									<li>{{ .Site.Params.events_tabs.address }}<b>{{ .Params.address }}</b></li>
+									<li>{{ .Site.Params.events_tabs.duration }}<b>{{ .Params.duration }}</b></li>				  
+									<li>{{ .Site.Params.events_tabs.time_start }}<b>{{ .Params.time_start }}</b></li>
+									<li>{{ .Site.Params.events_tabs.time_end }}<b>{{ .Params.time_end }}</b></li>
+								</ul>						
+								{{ .Content }}
+							</div>
+							
+				{{ $Trainer := .Params.trainer }}
+				{{ range .Site.Data.teammembers }}
+					{{ if eq .name $Trainer }}
+							<div class="col-sm-4">
+				                <a href="#team-membersModal{{ ($.Scratch.Get "count") }}" data-toggle="modal" class="people-box">
+							        <img src="/img/team-members/{{ if ne .img nil }}{{ .img }}{{ else}}{{ .name | urlize}}.png{{ end }}" class="people-box-image" alt="">
+							        <div class="people-box-caption">
+							            <div class="people-box-caption-content">
+							                <div class="people-name">{{ .name }}</div>
+											<div class="people-title">{{ .title }}</div>
+											<div class="people-description">{{ index (split .description ".") 0 }}.</div>
+										</div>
+									</div>
+								</a>
+								{{ "<!-- references Modals -->" | safeHTML }}
+								<div class="portfolio-modal modal fade" id="team-membersModal{{ ($.Scratch.Get "count") }}" tabindex="-1" role="dialog" aria-hidden="true">
+						{{ partial "team-member-modal.html" . }}
+								</div>
+
+							</div> <!--end col trainer-->
+					{{ end }}
+				{{ end }}							
+
+						</div> <!--end row-->
+					</div> <!--end tabpanel-->
+			{{ end }}
+		{{ end }}
+	{{ end }}
+{{ end }}					
+
+{{ if ge ($.Scratch.Get "count") 1 }}
+		        </div> <!--end myTabs-->
+		    </div>
+    	</div>
+    </div>
+</section> <!--end events-tabs-->
+{{ end }}

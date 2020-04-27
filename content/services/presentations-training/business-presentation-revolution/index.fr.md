@@ -2,11 +2,10 @@
 draft		= false
 title		= "Formation « The Business Presentation Revolution »"
 description = "Les présentations de vos équipes vont être changées à jamais."
-weight		= 1
-categories	= [ "Formations et Ateliers" ]
 url	 		= "/formation-presentations/the-business-presentation-revolution/"
 picture		= "image.jpg"
 schema		= "Course"
+weight		= 1
 +++
 
 ## Formez vos équipes à donner des présentations percutantes

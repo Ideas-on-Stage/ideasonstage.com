@@ -1,14 +1,9 @@
 +++
 draft 		= false
 title 		= "Conférenciers"
-weight		= 3
 description = "Les conférences de nos intervenants émerveilleront votre audience."
-categories	= [ "Événements d'entreprise" ]
-showrefs	= true
-urlredirect	= ""
-url 			= "/evenements-entreprise/conferenciers/"
 picture		= "keynotes.jpg"
-style		= "bg-white"
+url 			= "/evenements-entreprise/conferenciers/"
 +++
 
 ## Inspirez vos employés avec une conférence sur l'art de présenter

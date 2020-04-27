@@ -32,7 +32,7 @@ theme        			= "hugo-creative-theme-master"
 	email 				= "info@ideasonstage.com"
 	year				= "2019"
 	cookieslink			= "cookies/"
-	favicon				= "/pictures/home/ios_favicon.ico"
+	favicon				= "/img/ios_favicon.ico"
 	tableofcontents		= "Table of Contents"
 	
 	# ------------------------------		
@@ -77,7 +77,9 @@ theme        			= "hugo-creative-theme-master"
 		title_h4			= "black"
 		time			= "#aaa"
 		blockquote		= "#00A3E0"		
-
+		darkgray		= "#222"
+		lightgray		= "#eee"
+				
 	# ------------------------------
 	# Layout
 	[params.layout]
@@ -101,7 +103,7 @@ theme        			= "hugo-creative-theme-master"
 		height			= "52px"
 		title			= "Navigation"
 		brand 			= "Ideas on Stage"
-		brand_logo		= "/pictures/home/ideas-on-stage.png"
+		brand_logo		= "/img/ideas-on-stage.png"
 		language			= "Language"
 		resource		= "Resources"
 		service			= "Services"
@@ -261,7 +263,7 @@ theme        			= "hugo-creative-theme-master"
 		
 	# ------------------------------
 	[params.organization]
-		logo			= "/pictures/home/ideas-on-stage.png"
+		logo			= "/img/ideas-on-stage.png"
 		name		= "Ideas on Stage"
 		sameas		= [ "https://www.linkedin.com/company/ideas-on-stage/", "https://www.youtube.com/user/IdeasOnStage", "https://twitter.com/ideasonstage", "https://www.pierremorsa.com/ideas-on-stage/" ]
 			
@@ -321,7 +323,7 @@ theme        			= "hugo-creative-theme-master"
 	rights			= "Tous droits réservés"
 	cookies			= "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
 	footer_desc		= "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
-	favicon			= "pictures/home/ios_favicon.ico"
+	favicon			= "/img/ios_favicon.ico"
 
 	tableofcontents	= "Table des matières"
 	
@@ -352,7 +354,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.fr.navigation]
 		title			= "Navigation"
 		brand 			= "Ideas on Stage"
-		brand_logo		= "/pictures/home/ideas-on-stage.png"
+		brand_logo		= "/img/ideas-on-stage.png"
 		language			= "Langue"
 		resource		= "Ressources"
 		service			= "Services"
@@ -489,7 +491,7 @@ theme        			= "hugo-creative-theme-master"
 		enable		= true
 		title		= "Où nous trouver"
 		address		= "138 avenue des Champs Élysées — 75008 Paris, France — Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
-		bgimage		= "/pictures/home/triumph.jpg"
+		bgimage		= "/img/triumph.jpg"
 
 	# ------------------------------		
 	# Revolution
@@ -518,7 +520,7 @@ theme        			= "hugo-creative-theme-master"
 	rights			= "Todos los derechos reservados"
 	cookies			= "No usamos cookies."
 	footer_desc		= "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
-	favicon			= "pictures/home/ios_favicon.ico"
+	favicon			= "/img/ios_favicon.ico"
 			
 	#form id for Incognito form
 	pcsform = "ey1NdOq0XU6iS7d67aNhQQ"
@@ -547,7 +549,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.es.navigation]
 		title			= "Navigation"
 		brand			= "Ideas on Stage"
-		brand_logo		= "/pictures/home/ideas-on-stage.png"
+		brand_logo		= "/img/ideas-on-stage.png"
 		resource		= "Recursos"
 		service			= "Servicios"
 		language			= "Idioma"
@@ -686,7 +688,7 @@ theme        			= "hugo-creative-theme-master"
 	rights			= "Tutti i diritti riservati"
 	cookies			= "Questo sito web utilizza i cookie."
 	footer_desc		= "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
-	favicon			= "pictures/home/ios_favicon.ico"
+	favicon			= "/img/ios_favicon.ico"
 		
 	#form id for Incognito form
 	pcsformid 		= "3"
@@ -715,7 +717,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.it.navigation]
 		title			= "Navigation"
 		brand			= "Ideas on Stage"
-		brand_logo		= "/pictures/home/ideas-on-stage.png"
+		brand_logo		= "/img/ideas-on-stage.png"
 		language			= "Lingue"
 		resource		= "Risorse"
 		service			= "Servizi"

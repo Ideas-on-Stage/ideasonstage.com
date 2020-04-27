@@ -1,14 +1,9 @@
 +++
 draft 		= true
-weight		= 1
 title 		= "Conception d'événements"
 description	= "Oubliez la traditionnelle réunion PowerPoint marathon, surprenez votre audience et faites bouger les lignes établies !"
-categories	= [ "Événements d'entreprise" ]
-showrefs	= true
-urlredirect	= ""
-url 			= "/evenements-entreprise/conception-evenements/"
 picture		= "event-design.jpg"
-style		= "bg-white"
+url 			= "/evenements-entreprise/conception-evenements/"
 +++
 
 ## « Bien » n'est pas assez bien

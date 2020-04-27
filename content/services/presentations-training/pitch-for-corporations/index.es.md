@@ -20,4 +20,4 @@ Puede que descubran ideas innovadoras para hacer avanzar tu empresa. Sin embargo
 
 Si quieres que tu equipo piense diferente e impulsar su creatividad, obten más información usando el formulario.
 
-[pic1]: /pictures/training-workshops/pitch-for-corporations/pitch-for-corporations.jpg
+[pic1]: /img/training-workshops/pitch-for-corporations/pitch-for-corporations.jpg

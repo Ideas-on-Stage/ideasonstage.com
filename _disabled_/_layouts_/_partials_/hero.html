@@ -1,0 +1,32 @@
+{{ "<!-- partials:hero.html:start -->" | safeHTML }}
+<div id="hero">
+	<div class="layout-top">
+	</div>
+
+	{{/* show title if it exists and not homepage */}}
+	{{ if and .Title (not .IsHome) }}
+		<div class="layout-sticky layout-header style-header">
+	        <div class="flex-parent-column flex-justify-center flex-align-center">
+	        	<h1>
+		            {{ with .Title }}{{ . | markdownify  }}{{ end }}
+	            </h1>
+			</div>
+		</div>
+	{{ end }}
+
+	{{ with .Params.slider }}
+		<div class="layout-hero heroslider bg-black">
+		{{ partial "page-slider.html" . }}
+		</div>
+	{{ else }}
+		{{/* <!-- if no slider use pic as hero if it exists --> */}}
+		<div>
+			{{ if .Params.Picture }}
+				{{ with .Params }}
+					{{ partial "inserts/fullbleed-picture.html" . }}
+				{{ end }}
+			{{ end }}
+		</div>
+	{{ end }}
+</div>
+{{ "<!-- partials:hero.html:end -->" | safeHTML }}

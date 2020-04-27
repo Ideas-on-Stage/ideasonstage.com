@@ -1,14 +1,9 @@
 +++
 draft 		= false
 title 		= "Inspiring Keynotes"
-weight		= 3
 description = "I nostri speaker sorprenderanno la vostra audience con delle TED-style presentation stimolanti e memorabili."
-categories	= [ "Corporate Events" ]
-showrefs	= true
-urlredirect	= ""
-url 			= "/eventi-corporate/keynotes/"
 picture		= "keynotes.jpg"
-style		= "bg-white"
+url 			= "/eventi-corporate/keynotes/"
 +++
 
 ## Una presentazione ispirata o un seminario per stupire il tuo pubblico o motivare il tuo team

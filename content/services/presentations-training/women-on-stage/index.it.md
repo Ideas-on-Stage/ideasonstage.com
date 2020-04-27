@@ -1,12 +1,10 @@
 +++
-draft		= false
-title		= "Women on Stage"
-description = "Rispondi alle sfide affrontate da molte donne in ambito lavorativo e comunica con il tuo stile unico e personale."
-weight		= 2
-categories	= [ "Training & Workshops" ]
-url	 		= "/presentations-training/women-on-stage/"
-picture		= "image.jpg"
-schema		= "Course"
+draft			= false
+title			= "Women on Stage"
+description 	= "Rispondi alle sfide affrontate da molte donne in ambito lavorativo e comunica con il tuo stile unico e personale."
+url	 			= "/presentations-training/women-on-stage/"
+picture			= "image.jpg"
+schema			= "Course"
 +++
 
 ## Cosa c’è di meravigliosamente unico nella sfida delle donne ad avere il diritto di alzare la voce ed essere ascoltate?

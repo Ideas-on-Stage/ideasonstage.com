@@ -2,22 +2,22 @@
 	title		= "The Business Presentation Revolution Videos"
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-primary"
-	picture		= "/pictures/inserts/revolution-hand-clicker.jpg"
-	link			= "/revolution/"
+	picture		= "/img/inserts/revolution-hand-clicker.jpg"
+	url			= "/revolution/"
 	description	= "Discover the best tips on how to present with our new video series: The Business Presentation Revolution."
 
 [fr]
 	title		= "Vidéos The Business Presentation Revolution"
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-primary"
-	picture		= "/pictures/inserts/revolution-hand-clicker.jpg"
-	link			= "/revolution/"
+	picture		= "/img/inserts/revolution-hand-clicker.jpg"
+	url			= "/revolution/"
 	description	= "Une série de courtes vidéos pour apprendre à mieux présenter, disponibles sur YouTube et iTunes."
 
 [es]
 	title		= "The Business Presentation Revolution Videos"
 	layout		= "inserts/module-picture-textleft.html"
 	style		= "bg-primary"
-	picture		= "/pictures/inserts/revolution-hand-clicker.jpg"
-	link			= "/revolution/"
+	picture		= "/img/inserts/revolution-hand-clicker.jpg"
+	url			= "/revolution/"
 	description = "Descubre los mejores consejos para presentar con nuestra nueva serie de videos: The Business Presentation Revolution."

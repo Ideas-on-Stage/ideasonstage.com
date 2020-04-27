@@ -2,7 +2,6 @@
 draft		= false
 title		= "Pitch para Startups"
 description = "Aprender a hacer un pitch ganador con la ayuda de coaches que han trabajado con cientos de startups."
-categories	= [ "Training & Workshops" ]
 url	 		= "/formacion-presentaciones/pitch-para-startups/"
 picture		= "image.jpg"
 schema		= "Course"
@@ -24,4 +23,4 @@ Tras nuestro coaching, muchas startups han levantado millones de euros, convenci
 
 Si quieres recibir el mejor apoyo para el pitch de tu startup o si quieres organizar un taller para un grupo de startups, puedes ponerte en contacto con nosotro usando el formulario.
 
-[pic1]: /pictures/training-workshops/pitch-for-startups/pitch.jpg
+[pic1]: /img/training-workshops/pitch-for-startups/pitch.jpg

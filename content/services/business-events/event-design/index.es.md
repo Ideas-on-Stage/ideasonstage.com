@@ -1,14 +1,9 @@
 +++
 draft 		= false
-weight		= 1
 title 		= "Diseño de Eventos"
 description	= "Deja atrás las interminables maratones de PowerPoint y convierte tus eventos en una experiencia interactiva e inolvidable."
-categories	= [ "Corporate Events" ]
-showrefs	= true
-urlredirect	= ""
-url 			= "/eventos-corporativos/diseno-eventos/"
 picture		= "event-design.jpg"
-style		= "bg-white"
+url 			= "/eventos-corporativos/diseno-eventos/"
 +++
 
 ## "Suficiente" no es suficiente.

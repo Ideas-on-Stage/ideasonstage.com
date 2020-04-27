@@ -12,4 +12,4 @@ Joe est un écrivain et communiquant très expérimenté qui enseigne à l’Éc
 
 
 
-[pic1]: /pictures/logos/linkedin.png
+[pic1]: /img/logos/linkedin.png

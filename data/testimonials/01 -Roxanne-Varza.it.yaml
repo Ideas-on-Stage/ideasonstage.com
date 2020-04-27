@@ -3,7 +3,7 @@ language: it
 name: Roxanne Varza
 position: Direttore a Station F
 category: "Pitch your Startup"
-avatar: pictures/testimonials/roxanne-varza.png
+avatar: /img/testimonials/roxanne-varza.png
 showonhome: true
 showonpage: true 
 text: Ideas on Stage ha dato degli ottimi feedback e un grandissimo aiuto alle nostre startup.

@@ -1,15 +1,9 @@
 +++
 draft 		= false
-weight		= 5
 title 		= "Ateliers LEGO et LEGO Serious Play pour vos événements d'entreprise"
 description	= "Cultivez votre créativité et votre originalité ! Les ateliers LEGO et LEGO Serious Play de notre partenaire Coding & Bricks vont libérer vos idées."
-categories	= [ "Événements d'entreprise" ]
-showrefs	= false
-urlredirect	= ""
-url 			= "/evenements-entreprise/ateliers-lego-serious-play/"
-
 picture		= "lego-serious-play-1.jpg"
-style		= "bg-white"
+url 			= "/evenements-entreprise/ateliers-lego-serious-play/"
 +++
 
 ## Le LEGO pour libérer vos idées

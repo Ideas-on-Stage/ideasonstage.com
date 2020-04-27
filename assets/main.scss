@@ -83,7 +83,7 @@ h5							{ font-size: 1.00em;	}
 footer, footer a			{ font-size: 0.75em;	}
 
 /* font sizes for custom classes */
-.nav a  					{ font-size: 14px;		}
+.nav a  					{ font-size: 0.8em;	}
 .flex-404 .error-box h1		{ font-size: 2.00em;	}
 .flex-404 .error-box h2 		{ font-size: 1.25em;	}
 .form-control-nav 			{ font-size: 90%;		}
@@ -175,17 +175,56 @@ footer, footer a			{ font-size: 0.75em;	}
 	p a, li a {
 		border-bottom: dotted 1px {{ site.Params.colors.link_hover }};
 	}
+
+	footer {
+		background-color: #222;
+		color: #bbb;
+	}
+	footer a {
+		color: #FF8200;
+	}	
 	
+	/* @end */
+
+	/* @group STYLES CUSTOM CLASSES */
+	#breadcrumbs {
+		background-color: {{ site.Params.colors.lightgray }};
+	}
+	
+	#breadcrumbs ol {
+		display: flex;
+		padding: 0.2vw 0;
+		margin: 0;
+		list-style: none;
+		text-transform: uppercase;
+	}
+	#breadcrumbs li {
+		margin: 0;
+	}
+	#breadcrumbs .arrow {
+		padding: 0 2vw;
+	}
+
+	@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	
+		/* adjust for tall viewport */
+	
+		#breadcrumbs ol {
+		padding: 2vw 0;
+		}
+		
+		.style-slider-subtitle {
+			margin: 2vw 8vw;
+		}
+		
+	}
+
 	#content-main h1,
 	#content-main h5 {
 		/* highlight h1 and h5 in red to show problem */
 		color: red; 
 	}
-	
-	/* @end */
-
-	/* @group STYLES CUSTOM CLASSES */
-	
+		
 	.photograph {
 		border: 8px solid #fff;
 		box-shadow: 2px 2px 8px #aaa;
@@ -326,17 +365,11 @@ footer, footer a			{ font-size: 0.75em;	}
 	/* Layout defines the position constraints of elements in the document flow */
 
 	/* @group standard tags */
-		
-		body {
+		aside {
 			padding: 0;
 			margin: 0;
 		}
-		
-		p {
-			margin-top: 1em;
-			margin-bottom: 1em;
-		 }
-		
+	
 		blockquote {
 			padding: 1vw;
 		}
@@ -344,11 +377,19 @@ footer, footer a			{ font-size: 0.75em;	}
 		blockquote p {
 			margin: 0;
 		}
+
+		body {
+			padding: 0;
+			margin: 0;
+		}		
+
+		footer {
+			padding: 50px 0;
+		}
 		
-		li {
-		 	margin-top: 0.5em;
-		 	margin-bottom: 0.5em;
-		 	text-align: left;
+		header {
+			padding: 0;
+			margin: 0;
 		}
 		
 		h1 {
@@ -361,14 +402,10 @@ footer, footer a			{ font-size: 0.75em;	}
 			margin-block-end: 0;
 		}
 		
-		nav {
-			padding: 0;
-			margin: 0;
-		}
-		
-		header {
-			padding: 0;
-			margin: 0;
+		li {
+		 	margin-top: 0.5em;
+		 	margin-bottom: 0.5em;
+		 	text-align: left;
 		}
 		
 		main {
@@ -376,11 +413,16 @@ footer, footer a			{ font-size: 0.75em;	}
 			margin: 0;
 		}
 		
-		aside {
+		nav {
 			padding: 0;
 			margin: 0;
 		}
 		
+		p {
+			margin-top: 1em;
+			margin-bottom: 1em;
+		 }
+				
 	/* @end */
 	
 	/* @group #content-main */
@@ -530,13 +572,22 @@ footer, footer a			{ font-size: 0.75em;	}
 			width: 80vw;
 			max-width: 1200px; /* prevents text area from getting unpleasantly wide */
 		}
-		
+
+		.layout-content-width {
+			padding: 0 2vw;
+			margin: auto;
+			width: 80vw;
+			max-width: 1200px; /* prevents text area from getting unpleasantly wide */
+		}
+				
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
 
 			.layout-content {
 					width:90vw;
 				}
-		
+			.layout-content-width {
+					width:90vw;
+				}		
 		}
 		
 	/* @end */
@@ -730,11 +781,35 @@ footer, footer a			{ font-size: 0.75em;	}
 	/* @group shortcodes */
 	
 		.layout-shortcode {
-			padding: 2vw 0;
-			margin: 2vw 0;
+			display: flex;
+			padding: 1vw;
+			margin: 0 -2vw;
+			flex-wrap: wrap;
+			align-content: stretch;
 		}
-
-
+		
+		.layout-shortcode-child {
+			max-width: 100%;
+			flex-grow: 0;
+			flex-shrink: 0;
+			padding: 1vw;
+		}
+		
+		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+			
+			.layout-shortcode {
+				padding: 2vw;
+				margin: 0 -4vw;
+				flex-direction: column;
+				align-content: stretch;
+			}
+			
+			.layout-shortcode-child {
+				flex-grow: 0;
+				flex-shrink: 0;
+				padding: 2vw;
+			}
+		}
 	/* @end */
 	
 	/* @group storyline inserts */
@@ -929,6 +1004,10 @@ footer, footer a			{ font-size: 0.75em;	}
 			flex-wrap: nowrap;
 		}
 		
+		.flex-align-self-center {
+			align-self: center;
+		}
+		
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
 		
 			/* change flex-direction to column on tall smartphone screens */
@@ -973,7 +1052,7 @@ footer, footer a			{ font-size: 0.75em;	}
 			}
 
 			.flex-child-youtube {
-				height: 48vw;
+				height: 52vw;
 			}
 
 		}
@@ -987,67 +1066,11 @@ footer, footer a			{ font-size: 0.75em;	}
 /*
 	PICTURE FORMATS
 	---------------
-
-	img-fullsize-crop
-	--------
-	Size: retina (2 image px = 1 screen px) up to 1280px, then standard
-	Height: fixed by breakpoints
-	Alignment: centered
-	Anchor: top
-	Overflow: hidden
-	Media size: 4000px x 1350px
-	- Image displayed at retina resolution 1 screen pix = 1 img pix
-	- On large screens, image displayed at standard resolution
-
-	img-crop
-	--------
-	Width: scaled based on height (up to 1280px), then full width
-	Height: fixed by breakpoints (up to 1280px), then scaled based on width
-	Alignment: centered
-	Anchor: top
-	Overflow: hidden
-	Media size: 2400px x 1350px
-	- Up to 1280px, pic is full breakpoint height, left and right sizes are cropped if necessary
-	- Above 1280px, pic is full width, bottom is cropped
-
-	img-center
-	----------
-	Width: scaled based on height
-	Height: fixed by breakpoints
-	Alignment: centered
-	Anchor: center
-	Overflow: show
-	Media size: 2400px x 1350px	
-	- Up to 1280px, pic is full breakpoint height, left and right sizes are cropped if necessary
-	- Above 1280px, pic is full breakpoint height (no cropping), left and right sizes are filled with background color if necessary
-
-	img-anchorleft / img-anchorright
-	--------------------------------
-	Width: scaled based on height
-	Height: fixed by breakpoints
-	Alignment: left or right
-	Anchor: anchored left or right
-	Overflow: show
-	Media size: 2400px x 1350px
+	
+	Pic formats have been greatly simplified. The last legacy is .img-crop
+	used on revolution page, but it should be replaced too.
 	
 */
-
-.img-cover {
-	object-fit: cover;
-}
-
-.img-fullsize-crop {
-	position: absolute;
-	width: 100%;
-	overflow: hidden;
-}
-
-.img-fullsize-crop img {
-	position: relative;
-	width: 2000px;
-	left: 50%;
-	transform: translate(-50%, 0%);
-}
 
 .img-crop {
 	position: absolute;
@@ -1061,41 +1084,6 @@ footer, footer a			{ font-size: 0.75em;	}
 	width: 100%;
 	height: auto; /* 720px on purpose, to avoid empty bottom */
 	transform: translate(-50%, 0%);
-}
-
-.img-center {
-	position: absolute;
-	width: 100%;
-	overflow: hidden;
-}
-
-.img-center img {
-	position: relative;
-	left: 50%;
-	height: 675px;
-	transform: translate(-50%, 0%);
-}
-
-.img-anchorleft {
-	max-width: 1200px;
-}
-
-.img-anchorleft img {
-	display: block;
-	float: left;
-	height: 675px;
-	left: 0px;
-}
-
-.img-anchorright {
-	max-width: 1200px;
-}
-
-.img-anchorright img {
-	display: block;
-	float: right;
-	height: 675px;
-	right: 0px;
 }
 
 /* @end */
@@ -1156,31 +1144,11 @@ flex-container .flex-item-text h4 {
 		height: 900px;
 	}
 
-	.img-fullsize-crop img {
-		width: 4000px;
-		position: relative;
-		left: 50%;
-		transform: translate(-50%, 0%);
-	}
-
 	.img-crop img {
 		width: 100%;
 		height: auto;
 		transform: translate(-50%, 0%);
 	}
-
-	.img-center img {
-		height: 900px;
-	}
-	
-	.img-anchorleft img {
-		height: 900px;
-	}
-	
-	.img-anchorright img {
-		height: 900px;
-	}
-	
 }
 
 /*	Our images have a 16:9 ratio.
@@ -1215,295 +1183,184 @@ flex-container .flex-item-text h4 {
 		height: 450px;
 		transform: translate(-50%, 0%);
 	}
-
-	.img-center img {
-		height: 450px;
-	}
-	
-	.img-anchorleft img {
-		height: 450px;
-	}
-	
-	.img-anchorright img {
-		height: 450px;
-	}
 	
 	.flex-container .flex-item-text h4 {
 		margin-top: 6px;
 	}
-	
-	/* Used to adapt layout to a single column on narrow screens */
-	/*
-	.flex-parent {
-		flex-direction: column;
-	}
-*/
-	.flex-parent-img-txt {
-		flex-direction: column-reverse;
-	}
-	
-	.flex-child-half-right {
-		margin-left: 6px;
-	}
-	
-	.flex-col-child-text {
-		padding-top: 24px;
-		padding-left: 24px;
-		padding-right: 24px;
-		height: 200px;
-	}
 }
+
+
 
 /* @group HELPER CLASSES */
 
-/*
-	HELPER CLASSES
-*/
-
-.relative {
-	display: relative;
-}
-
-.relative .absolute {
-	display: block;
-	position: absolute;	
-	width: 100%;
-	height: 100%;
-}
-
-.relative .absolute .picture {
-	width: 100%;
-}
-
-.bg-primary {	
-	color: {{ site.Params.colors.text_inv }} !important;
-    background-color: {{ site.Params.buttons.primary.bg_color }};
-}
-
-/* this is necessary to override bootstrap's inherited styles */
-.bg-primary h1,
-.bg-primary h2,
-.bg-primary h3,
-.bg-primary h4,
-.bg-primary p {	
-	color: {{ site.Params.colors.text_inv }} !important;
-}
-
-.bg-dark 					{   color: {{ site.Params.colors.text_inv }};
-    							background-color: #222;						}
-.bg-dark a 					{	color: {{ site.Params.colors.text_inv }};	} 
-.bg-dark a:hover 			{	color: #FF8200;
-								transition: all .35s;			}
-
-.bg-dark-box 				{   color: #fff;
-    							background-color: #222;			}
-.bg-dark-box a 				{	color: #fff;						}
-.bg-dark-box a:hover 		{	color: #FF8200;
-								transition: all .35s;			}
-
-.bg-black					{   color: #fff;
-    							background-color: #000;			}
-.bg-black a 					{	color: #fff;						}
-.bg-black a:hover 			{	color: #FF8200;
-								transition: all .35s;			}
-
-.bg-codingandbricks			{	color: #FFD500;
-								background-color: #233B4C;		}
-.bg-codingandbricks a 		{	color: #FFD500!important;		}
-.bg-codingandbricks a:hover {	color: #FFD500;
-								transition: all .35s;			}
-
-.bg-lightgrey, .bg-lightgray 	{    background-color: #f2f2f2;	}
-
-/* text color helper classes */
-
-.text-faded 		{    color: rgba(255,255,255,.7);	}
-.text-blue	 		{	color: rgb(51,53,65);	}
-.text-white			{	color: #fff;				}
-.text-gray 			{	color: #888;				}
-.text-dark 			{	color: #222;				}
-
-/* padding helper classes */
-
-.paddingt-huge 		{	padding-top: 96px;		}
-.paddingt-large 		{	padding-top: 36px;		}
-.paddingt-medium 	{	padding-top: 24px;		}
-.paddingt-small 		{	padding-top: 12px;		}
-.paddingt-tiny 		{	padding-top: 6px;		}
-.paddingt-none 		{	padding-top: 0px;		}
-
-.paddingb-huge 		{	padding-bottom: 96px;	}
-.paddingb-large 		{	padding-bottom: 48px;	}
-.paddingb-medium 	{	padding-bottom: 24px;	}
-.paddingb-small 		{	padding-bottom: 12px;	}
-.paddingb-tiny 		{	padding-bottom: 6px;	}
-.paddingb-none 		{	padding-bottom: 0px;	}
-
-.paddingv-huge 		{	padding-top: 80px;
-						padding-bottom: 80px;	} 
-.paddingv-large 		{	padding-top: 60px;
-						padding-bottom: 60px;	}
-.paddingv-medium 	{	padding-top: 40px;
-						padding-bottom: 40px;	}
-.paddingv-small 		{	padding-top: 20px;
-						padding-bottom: 20px;	}
-.paddingv-tiny 		{	padding-top: 10px;
-						padding-bottom: 10px;	}
-
-.padding-tiny 		{	padding: 20px;			}
-.padding-none 		{	padding: 0px;			}
-
-/* margin helper classes */
-
-.margint-huge 		{	margin-top: 96px;		} 
-.margint-large		{	margin-top: 36px;		} 
-.margint-medium 	{	margin-top: 24px;		} 
-.margint-small		{	margin-top: 12px;		}
-.margint-tiny 		{	margin-top: 6px;		}
-.margint-none 		{	margin-top: 0px;		}
-
-.marginb-huge		{	margin-bottom: 96px;	}
-.marginb-large 		{	margin-bottom: 48px;	}
-.marginb-medium	 	{	margin-bottom: 24px;	}
-.marginb-small 		{	margin-bottom: 12px;	}
-.marginb-tiny 		{	margin-bottom: 6px;		}
-.marginb-none		{	margin-bottom: 0px;		}
-
-.marginh-tiny 		{	margin-left: 6px;
-						margin-right: 6px;		}
-
-.marginv-medium		{	margin-top: 40px;
-						margin-bottom: 40px;	}
-.marginv-small		{	margin-top: 12px;
-						margin-bottom: 12px;	}
-.marginv-none 		{	margin-top: 0px;
-						margin-bottom: 0px;		}
-
-.margin-tiny 		{	margin: 20px;			}
-.margin-none 		{	margin: 0px;			}
-
-@media(max-aspect-ratio:1/1) and (max-width:480px) {
-
-.paddingt-large		{	padding-top: 18px;		}
-.paddingt-medium	{	padding-top: 12px;		}
-
-.margint-large 		{	margin-top: 18px;		}
-
-}
-
-.fixedheightsmall {
-	height: 220px;	
-}
-
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
-
-/*
-	PMO CSS experts hate this mom's shitty hack to align text vertical 
-*/
-.relative {
-	position: relative;
-} 
-
-.relative .absolute {
-	display: block;
-	position: absolute;
-	width: 100%;
-	height:100%;
-}
-
-.relative .absolute .alignverticalmiddle {
-display: block;
-	position: absolute;
-	width: 100%;
-    top: 50%;
-	transform: translateY(-50%);
-}
-
-.no-padding {
-    padding: 0;
-}
+	.bg-primary {	
+		color: {{ site.Params.colors.text_inv }} !important;
+	    background-color: {{ site.Params.buttons.primary.bg_color }};
+	}
+	
+	/* this is necessary to override bootstrap's inherited styles */
+	.bg-primary h1,
+	.bg-primary h2,
+	.bg-primary h3,
+	.bg-primary h4,
+	.bg-primary p {	
+		color: {{ site.Params.colors.text_inv }} !important;
+	}
+	
+	.bg-dark 					{   color: {{ site.Params.colors.text_inv }};
+	    							background-color: #222;						}
+	.bg-dark a 					{	color: {{ site.Params.colors.text_inv }};	} 
+	.bg-dark a:hover 			{	color: #FF8200;
+									transition: all .35s;			}
+	
+	.bg-black					{   color: #fff;
+	    							background-color: #000;			}
+	.bg-black a 					{	color: #fff;						}
+	.bg-black a:hover 			{	color: #FF8200;
+									transition: all .35s;			}
+	
+	.bg-codingandbricks			{	color: #FFD500;
+									background-color: #233B4C;		}
+	.bg-codingandbricks a 		{	color: #FFD500!important;		}
+	.bg-codingandbricks a:hover {	color: #FFD500;
+									transition: all .35s;			}
+	
+	.bg-lightgrey, .bg-lightgray 	{    background-color: #f2f2f2;	}
+	
+	/* text color helper classes */
+	
+	.text-faded 		{   color: rgba(255,255,255,.7);	}
+	.text-blue	 		{	color: rgb(51,53,65);	}
+	.text-white			{	color: #fff;				}
+	.text-gray 			{	color: #888;				}
+	.text-dark 			{	color: #222;				}
+	
+	/* padding helper classes */
+	
+	.paddingt-huge 		{	padding-top: 96px;		}
+	.paddingt-large 		{	padding-top: 36px;		}
+	.paddingt-medium 	{	padding-top: 24px;		}
+	.paddingt-small 		{	padding-top: 12px;		}
+	.paddingt-tiny 		{	padding-top: 6px;		}
+	.paddingt-none 		{	padding-top: 0px;		}
+	
+	.paddingb-huge 		{	padding-bottom: 96px;	}
+	.paddingb-large 		{	padding-bottom: 48px;	}
+	.paddingb-medium 	{	padding-bottom: 24px;	}
+	.paddingb-small 		{	padding-bottom: 12px;	}
+	.paddingb-tiny 		{	padding-bottom: 6px;	}
+	.paddingb-none 		{	padding-bottom: 0px;	}
+	
+	.paddingv-huge 		{	padding-top: 80px;
+							padding-bottom: 80px;	} 
+	.paddingv-large 		{	padding-top: 60px;
+							padding-bottom: 60px;	}
+	.paddingv-medium 	{	padding-top: 40px;
+							padding-bottom: 40px;	}
+	.paddingv-small 		{	padding-top: 20px;
+							padding-bottom: 20px;	}
+	.paddingv-tiny 		{	padding-top: 10px;
+							padding-bottom: 10px;	}
+	.paddingv-none 		{	padding-top: 0;
+							padding-bottom: 0;		}
+	
+	.padding-tiny 		{	padding: 20px;			}
+	.padding-none 		{	padding: 0px;			}
+	
+	/* margin helper classes */
+	
+	.margint-huge 		{	margin-top: 96px;		} 
+	.margint-large		{	margin-top: 36px;		} 
+	.margint-medium 	{	margin-top: 24px;		} 
+	.margint-small		{	margin-top: 12px;		}
+	.margint-tiny 		{	margin-top: 6px;		}
+	.margint-none 		{	margin-top: 0px;		}
+	
+	.marginb-huge		{	margin-bottom: 96px;	}
+	.marginb-large 		{	margin-bottom: 48px;	}
+	.marginb-medium	 	{	margin-bottom: 24px;	}
+	.marginb-small 		{	margin-bottom: 12px;	}
+	.marginb-tiny 		{	margin-bottom: 6px;		}
+	.marginb-none		{	margin-bottom: 0px;		}
+	
+	.marginh-tiny 		{	margin-left: 6px;
+							margin-right: 6px;		}
+	
+	.marginv-medium		{	margin-top: 40px;
+							margin-bottom: 40px;	}
+	.marginv-small		{	margin-top: 12px;
+							margin-bottom: 12px;	}
+	.marginv-none 		{	margin-top: 0px;
+							margin-bottom: 0px;		}
+	
+	.margin-tiny 		{	margin: 20px;			}
+	.margin-none 		{	margin: 0px;			}
+	
+	@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	
+		.paddingt-large		{	padding-top: 18px;		}
+		.paddingt-medium	{	padding-top: 12px;		}
+		
+		.margint-large 		{	margin-top: 18px;		}
+	
+	}
 
 /* @end */
 
 /* @group SECTIONS */
 
-/*
-	SECTION
-	PMO Please no horizontal padding for sections 
-	Instead use a 10 column layout to add a margin left and right.
-	If padding added to section(s), it breaks the full width inserts
-*/
-
-article img {
-	display: block;
-	width: auto;
-	max-width: 100%;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-article iframe {
-	display: block;
-	width: auto;
-	max-width: 100%;
-}
-
-section#content  {
-	background-color: #fff; 
-}
-
-section#content h1,
-section#content h2,
-section#content h3,
-section#content h4 {
-	margin-top: 40px;
-	margin-bottom: 0.5em;
-}
-
-section#content p {
-	margin-top: 1em;
-}
-
-div#storyline-bullet img {
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-section#team-members {
-	padding-top: 25px;
-	background-color: rgba(255,255,255,0.98); 
-}
-
-section#team-member-bio .picture {
-	margin-top: 2em;
-	margin-bottom: 2em;
-}
-
-section#team-member-bio .text {
-	margin-top: 1.5em;
-}
+	article img {
+		display: block;
+		width: auto;
+		max-width: 100%;
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	
+	article iframe {
+		display: block;
+		width: auto;
+		max-width: 100%;
+	}
+	
+	section#content  {
+		background-color: #fff; 
+	}
+	
+	section#content h1,
+	section#content h2,
+	section#content h3,
+	section#content h4 {
+		margin-top: 40px;
+		margin-bottom: 0.5em;
+	}
+	
+	section#content p {
+		margin-top: 1em;
+	}
+	
+	div#storyline-bullet img {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	section#team-members {
+		padding-top: 25px;
+		background-color: rgba(255,255,255,0.98); 
+	}
+	
+	section#team-member-bio .picture {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	
+	section#team-member-bio .text {
+		margin-top: 1.5em;
+	}
 
 /* @end */
 
 /* End of customization */
-
-aside {
-    padding: 0px 0;
-}
-
-footer {
-	padding: 50px 0;
-	background-color: #222;
-	color: #bbb;
-}
-
-footer a {
-	color: #FF8200;
-}
 
 /* @group MENU */
 
@@ -1725,10 +1582,6 @@ a.people-box:hover {
     color: #666;
 	overflow: hidden;
 	text-decoration: none;
-}
-
-.call-to-action h2 {
-    margin: 0 auto 20px;
 }
 
 .text-primary {

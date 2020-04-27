@@ -1,0 +1,9 @@
+{{ "<!-- partials:page-list.html:start -->" | safeHTML }}
+<section id="content-list">
+{{- range .Pages }}
+	{{- with .Params }}
+	{{- partial "inserts/link-picture2-text1.html" . }}
+	{{- end }}
+{{- end }}
+</section>
+{{ "<!-- partials:page-list.html:end -->" | safeHTML }}

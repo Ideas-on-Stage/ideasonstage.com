@@ -1,10 +1,10 @@
 
 		{{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
 		<header id="hero">
-			{{- $heropath := partial "getheroimgpath.html" . }}
+			{{- $heropath := .Params.picture }}
 			{{- if isset .Params "slider" }}
-				{{ partial "slider.html" . }}
-			{{- else if ne "" $heropath -}}
+				{{ partial "page-slider.html" . }}
+			{{- else if $heropath }}
 				{{/* <!-- if pic exists, create hero area --> */}}
 				<div class="layout-hero">
 					{{ with .Params -}}

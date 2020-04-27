@@ -7,5 +7,5 @@
 		<meta name="description" property="og:description"  content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Params.position }}{{ end }}">
 		<meta name="title" property="og:title" content="{{ .Title }}">
 		<meta name ="url" property="og:url" content ="{{ .Permalink }}">
-		{{ if .Params.picture }}<meta name ="image" property="og:image" content="{{ partial "getpicturepath" . }}">{{ end }}
+		{{ if .Params.picture }}<meta name ="image" property="og:image" content="{{ partial "f/getpicturepath" . }}">{{ end }}
 		{{ "<!-- partials:head-meta.html:end -->" | safeHTML }}

@@ -1,7 +1,10 @@
-uuid: home-10.en
+uuid: E5954A16-D58A-4B7B-AE52-A62A0E965A81
+pageslist:
+- "24103085-4F73-484A-B98F-F00A5F82C90A"
+position: bottom
 title: "The Business Presentation Revolution Videos"
-layout: inserts/module-half-text-picture.html
+layout: inserts/module-half-text-picture-1.html
 style: bg-primary
-picture: /pictures/inserts/revolution-hand-clicker.jpg
+picture: /img/inserts/revolution-hand-clicker.jpg
 link: /revolution/
 description: "Discover the best tips on how to present with our new video series: The Business Presentation Revolution."

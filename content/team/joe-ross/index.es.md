@@ -13,4 +13,4 @@ Joe es un experimentado escritor, comunicador y diseñador de estrategias de cam
 
 
 
-[pic1]: /pictures/logos/linkedin.png
+[pic1]: /img/logos/linkedin.png

@@ -19,4 +19,4 @@ Tuttavia, il risultato più importante è che potranno liberare la loro creativi
 Se volete che il vostro team pensi in maniera differente e liberi la propria creatività, scopri di più su Riavvia la Tua Azienda e contattaci attraverso il modulo sottostante. 
 
 
-[pic1]: /pictures/training-workshops/pitch-for-corporations/pitch-for-corporations.jpg
+[pic1]: /img/training-workshops/pitch-for-corporations/pitch-for-corporations.jpg

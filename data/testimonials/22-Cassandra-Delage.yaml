@@ -3,6 +3,6 @@ language: en
 name:  Cassandra Delage 
 position:  TEDxMcGill Organiser
 category: "Speaker Coaching"
-avatar: pictures/testimonials/placeholder.jpg
+avatar: /img/testimonials/placeholder.jpg
 showonhome: false 
 text: Ideas on Stage helped coach and prepare all of the speakers for TEDxMcGill. The speakers had a clear message and direction in their talk, which truly enriched the TEDx experience. The attendees came out with new perspectives and/or having lived emotions.

@@ -1,0 +1,4 @@
+{{ partial "e/title.html" . }}
+{{- if .description }}
+	<p class="text-responsive">{{ with .description }}{{ . | safeHTML }}{{ end }}</p>
+{{- end }}

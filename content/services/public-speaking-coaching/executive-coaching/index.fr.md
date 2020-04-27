@@ -2,11 +2,8 @@
 draft 		= false
 title 		= "Coaching en prise de parole pour dirigeants"
 description	= "Développez votre présence sur scène. Devenez un leader charismatique."
-weight		= 1
-categories	= [ "Coaching prise de parole en public" ]
 url 			= "/coaching-prise-de-parole-en-public/coaching-de-dirigeants/"
 picture		= "public-speaking-coaching-10.jpg"
-itemtype	= "Service"
 +++
 
 ## Soyez un leader sur scène

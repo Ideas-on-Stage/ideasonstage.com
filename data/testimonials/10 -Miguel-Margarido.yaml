@@ -3,7 +3,7 @@ language: en
 name: Miguel Margarido
 position: CEO, Story Shapers
 category: "The Business Presentation Revolution Training"
-avatar: pictures/testimonials/miguel-margarido.png
+avatar: /img/testimonials/miguel-margarido.png
 showonhome: false 
 showonpage: true
 text: "Follow this course and your presentations will never be the same again."

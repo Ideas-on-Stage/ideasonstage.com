@@ -2,10 +2,7 @@
 draft 		= true
 title 		= "Public Speaking Coaching"
 description	= "Whether you are a leader in a major corporation or running your own business, speak like the leader everyone wants to follow."
-weight		= 2
-categories	= [ "Public Speaking Coaching" ]
 url	 		= "/public-speaking-coaching/coaching/"
-itemtype	= "Service"
 +++
 
 ## Tailored to address each individual’s strengths and areas for improvement. 

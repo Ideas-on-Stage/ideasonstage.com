@@ -1,0 +1,22 @@
+{{ "<!-- partials:aboutreferences_new:start -->" | safeHTML }}
+<section id="references" class="bg-white">
+    <div class="layout-content">
+    	<!-- *** REFERENCES CAROUSEL *** -->
+    	<ul class="owl-carousel references same-height-row" style="padding-left: 0px; background-color: ##e2f2f2;">
+        {{- $.Scratch.Set "count" 0 }}
+        {{- range .Site.Data.references }}
+            {{- if .showonhome }}
+            {{- if eq $.Site.Params.languagecode .language }}
+            {{- $.Scratch.Add "count" 1 }}
+            <div class="thumbnail" style="background-color: transparent;">
+				<div class="thumbnail" style="background-color: transparent;">
+					<img src="/img/logos/{{ .logo }}" class="img-responsive" alt="">
+				</div>
+			</div>
+			{{- end }}
+			{{- end }}
+		{{- end }}
+        </ul>
+    </div>
+</section>
+{{ "<!-- partials:aboutreferences_new:end -->" | safeHTML }}

@@ -5,7 +5,7 @@ tags = ["Nouvelles", "Ideas on Stage", "Royaume-Uni", "Angleterre", "Londres"]
 news = ["general"]
 date = "2019-03-12"
 author = "Pierre Morsa"
-banner = "/pictures/team-members/andrea-pacini.jpg"
+banner = "/img/team-members/andrea-pacini.jpg"
 +++
 
 Ce mois de mars Andrea Pacini a rejoint Ideas on Stage en tant que Directeur de Présentation Royaume-Uni. En Europe, Ideas on Stage a désormais une présence permanente en France, Espagne, Italie et au Royaume-Uni.

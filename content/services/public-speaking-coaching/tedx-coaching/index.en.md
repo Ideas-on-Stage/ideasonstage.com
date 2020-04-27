@@ -1,26 +1,24 @@
 +++
-draft		= false
-title		= "TEDx Coaching"
-description	= "TEDx audiences have high expectations. Learn how Ideas on Stage can help you surpass them."
-weight		= 1
-categories	= [ "Public Speaking Coaching" ]
-url			= "/public-speaking-coaching/tedx-coaching/"
-picture		= "tedx-saclay.jpg"
+draft			= false
+title			= "TEDx Coaching"
+description		= "TEDx audiences have high expectations. Learn how Ideas on Stage can help you surpass them."
+url				= "/public-speaking-coaching/tedx-coaching/"
+picture			= "tedx-saclay.jpg"
+weight			= 1
 
 # Product schema, offers array is mandatory
-schema		= "Product"
-[offers]
-	[offers.001]
-		pricecurrency = "USD"
-		price			= "250"
-		availability		= "https://schema.org/InStock"
+schema			= "Product"
+[[offers]]
+	pricecurrency	= "USD"
+	price			= "250"
+	availability		= "https://schema.org/InStock"
 +++
 
-{{< storyline-picture-text title="TED - 2009" description="Every story needs a Hero. Ours was Yann Arthus-Bertrand, who we helped prepare for TED." picture="/pictures/inserts/ted-01.jpg" >}}
+{{< storyline-picture-text title="TED - 2009" description="Every story needs a Hero. Ours was Yann Arthus-Bertrand, who we helped prepare for TED." picture="/img/inserts/ted-01.jpg" >}}
 
-{{< storyline-text-picture title="TEDx - 2010" description="We coached speakers for TEDx events as soon as the program was created, starting with TEDxParisUniversités." picture="/pictures/inserts/ted-02.jpg" >}}
+{{< storyline-text-picture title="TEDx - 2010" description="We coached speakers for TEDx events as soon as the program was created, starting with TEDxParisUniversités." picture="/img/inserts/ted-02.jpg" >}}
 
-{{< storyline-picture-text title="2011- Today" description="TEDxLaDéfense. TEDxLille. TEDxMcGill. TEDxParis. TEDxSaclay. TEDxTours. TEDxWorldBankGroup. And many more." picture="/pictures/inserts/ted-03.jpg" >}}
+{{< storyline-picture-text title="2011- Today" description="TEDxLaDéfense. TEDxLille. TEDxMcGill. TEDxParis. TEDxSaclay. TEDxTours. TEDxWorldBankGroup. And many more." picture="/img/inserts/ted-03.jpg" >}}
 
 {{< storyline-end title="300+ and counting" description="We have coached more than 300 speakers for TEDx events. We built our international TEDx expertise with events in the United States, Canada, Great Britain and many countries in Europe. We have no plans to stop." >}}
 

@@ -2,13 +2,8 @@
 draft 		= false
 title 		= "Master of Ceremonies"
 description	= "Set the right tempo for your event with an experienced Master of Ceremonies, keeping the audience engaged and helping your speakers to shine."
-weight		= 2
-categories	= [ "Corporate Events" ]
-showrefs	= false
-urlredirect	= ""
-url 			= "/corporate-events/master-of-ceremonies/"
 picture		= "image.jpg"
-style		= "bg-white"
+url 			= "/corporate-events/master-of-ceremonies/"
 +++
 
 ## A Master of Ceremonies for your event

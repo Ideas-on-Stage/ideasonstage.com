@@ -8,8 +8,8 @@
 	"@context": "https://schema.org/",
 	"@type": "Product",
 	"name": {{ .Title }},
-	"image": {{ .Params.picture | absURL }},
 	"description": {{ .Params.description }},
+	{{ if .Params.picture }}"image": {{ partial "f/getpicturepath" . }},{{ end }}
 	"brand": {
 	    "@type": "Brand",
 	    "name": {{ site.Params.author }}

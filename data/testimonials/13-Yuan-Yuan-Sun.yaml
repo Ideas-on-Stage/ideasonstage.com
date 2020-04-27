@@ -3,6 +3,6 @@ language: en
 name: Yuan-Yuan Sun
 position: 
 category: "Presentation Zen for Business"
-avatar: pictures/testimonials/placeholder.jpg
+avatar: /img/testimonials/placeholder.jpg
 showonhome: false 
 text: Best seminar I've ever been to.

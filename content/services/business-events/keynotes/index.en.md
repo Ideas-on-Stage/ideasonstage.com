@@ -1,14 +1,9 @@
 +++
 draft 		= false
 title 		= "Inspiring Keynotes"
-weight		= 3
 description = "Our experienced speakers will amaze your audience with inspiring and memorable TED-quality talks."
-categories	= [ "Corporate Events" ]
-showrefs	= true
-urlredirect	= ""
-url 			= "/business-events/keynotes/"
 picture		= "keynotes.jpg"
-style		= "bg-white"
+url 			= "/business-events/keynotes/"
 +++
 
 ## An inspiring keynote or workshop to wow your audience or motivate your team

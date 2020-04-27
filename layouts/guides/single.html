@@ -12,7 +12,7 @@
 				</div>
 			</aside>
 			<article id="content-main" class="flex-child-67p">
-				{{- with .Summary }}{{ . }}{{ end }} 
+				<p>{{- with .Summary }}{{ . }}{{ end }}</p> 
 				<h2>{{ site.Params.tableofcontents }}</h2>
 				{{- with .TableOfContents }}{{ . }}{{ end }} 
 				{{- with .Content }}{{ . }}{{ end }} 

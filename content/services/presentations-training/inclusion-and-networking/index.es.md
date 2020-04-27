@@ -1,15 +1,10 @@
 +++
-draft		= true
-title		= "Liderazgo Colaborativo"
-description = "Overcome gender bias and information silos in your company, and boost your performance."
-weight		= 6
-categories	= [ "Training & Workshops" ]
-urlredirect	= ""
-showrefs	= false
-url 			= "/formacion-presentaciones/inclusion-and-networking/"
-picture		= "image.jpg"
-schema		= "Course"
-
+draft			= true
+title			= "Liderazgo Colaborativo"
+description 	= "Overcome gender bias and information silos in your company, and boost your performance."
+url 				= "/formacion-presentaciones/inclusion-and-networking/"
+picture			= "image.jpg"
+schema			= "Course"
 +++
 
 ## Overcome gender bias and information silos in your company, and boost your performance.

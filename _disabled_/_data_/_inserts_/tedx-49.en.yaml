@@ -1,6 +1,9 @@
-uuid: tedx-49.en
+uuid: 4CF5F3D5-17FA-461F-8B81-3316CF5068EB
+pageslist:
+- "053944EA-AB31-4A35-83D7-ED0CBD11A394"
+position: top
 title: "300+ and counting"
-layout: insert-storyline-end.html
+layout: inserts/storyline-end.html
 style: bg-lightgrey
-picture: /pictures/inserts/ted-01.jpg
+picture: /img/inserts/ted-01.jpg
 description: We have coached more than 300 speakers for TEDx events. We built our international TEDx expertise with events in the United States, Canada, Great Britain and many countries in Europe. We have no plans to stop.

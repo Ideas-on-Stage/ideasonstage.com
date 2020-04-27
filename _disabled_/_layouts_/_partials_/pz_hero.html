@@ -1,0 +1,14 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header id="pz" class="bg-dark">
+	<div class="header-content-img-right">
+	   	<img src="/img/pz/home/header-stones.png">
+	</div>
+    <div class="header-content ">
+        <div class="header-content-inner">
+            <h1 style="margin-top: 50px;">{{ with .Params.heroslogan }}{{ . | markdownify  }}{{ end }}</h1>
+{{ if .Params.herosubtitleon }}           
+            <h4>{{ with .Params.herosubtitle }}{{ . | markdownify }}{{ end }}</h4>
+{{ end }}
+        </div>
+    </div>
+</header>

@@ -1,26 +1,24 @@
 +++
-draft		= false
-title		= "TEDx Coaching"
-description	= "Il pubblico di TEDx ha delle grandi aspettative. Scopri come Ideas on Stage può aiutarti a superarle."
-weight		= 1
-categories	= [ "Public Speaking Coaching" ]
-url			= "/public-speaking-coaching/tedx-coaching/"
-picture		= "tedx-saclay.jpg"
+draft			= false
+title			= "TEDx Coaching"
+description		= "Il pubblico di TEDx ha delle grandi aspettative. Scopri come Ideas on Stage può aiutarti a superarle."
+url				= "/public-speaking-coaching/tedx-coaching/"
+picture			= "tedx-saclay.jpg"
+weight			= 1
 
 # Product schema, offers array is mandatory
-schema		= "Product"
-[offers]
-	[offers.001]
-		pricecurrency = "EUR"
-		price			= "250"
-		availability		= "https://schema.org/InStock"	
+schema			= "Product"
+[[offers]]
+	pricecurrency	= "EUR"
+	price			= "250"
+	availability		= "https://schema.org/InStock"	
 +++
 
-{{< storyline-picture-text title="TED - 2009" description="Ogni storia ha bisogno del suo Eroe. Il nostro è Yann Arthus - Berthrand , che ci aiutò nella presentazione del nostro primo TED." picture="/pictures/inserts/ted-01.jpg" >}}
+{{< storyline-picture-text title="TED - 2009" description="Ogni storia ha bisogno del suo Eroe. Il nostro è Yann Arthus - Berthrand , che ci aiutò nella presentazione del nostro primo TED." picture="/img/inserts/ted-01.jpg" >}}
 
-{{< storyline-text-picture title="TEDx - 2010" description="Abbiamo fatto coaching per gli eventi di TEDx da subito, incominciando con TEDxParisUniversitès." picture="/pictures/inserts/ted-02.jpg" >}}
+{{< storyline-text-picture title="TEDx - 2010" description="Abbiamo fatto coaching per gli eventi di TEDx da subito, incominciando con TEDxParisUniversitès." picture="/img/inserts/ted-02.jpg" >}}
 
-{{< storyline-picture-text title="2011- Oggi" description="TEDxLaDèfense. TEDxLille. TEDxMcGill, TEDxParis, TEDxSaclay, TEDxTours, TEDxWorldBankGroup. E molti altri." picture="/pictures/inserts/ted-03.jpg" >}}
+{{< storyline-picture-text title="2011- Oggi" description="TEDxLaDèfense. TEDxLille. TEDxMcGill, TEDxParis, TEDxSaclay, TEDxTours, TEDxWorldBankGroup. E molti altri." picture="/img/inserts/ted-03.jpg" >}}
 
 {{< storyline-end title="300+ e si continua" description="Abbiamo curato il coaching di più di 300 speaker per gli eventi di TEDx. Abbiamo costruito la nostra esperienza internazionale di TEDx con eventi negli Stati Uniti, Canada, Gran Bretagna e molti altri paesi Europei. Non abbiamo intenzione di fermarci." >}}
 

@@ -1,15 +1,10 @@
 +++
-draft		= true
-title		= "Leadership collaboratif"
-description = "Dépassez les stéréotypes culturels, brisez les silos de votre entreprise et décuplez la performance de votre entreprise."
-weight		= 5
-categories	= [ "Formations et Ateliers" ]
-urlredirect	= ""
-showrefs	= false
-url 			= "/formation-presentations/inclusion-et-networking/"
-picture		= "image.jpg"
-schema		= "Course"
-
+draft			= true
+title			= "Leadership collaboratif"
+description	 	= "Dépassez les stéréotypes culturels, brisez les silos de votre entreprise et décuplez la performance de votre entreprise."
+url	 			= "/formation-presentations/inclusion-et-networking/"
+picture			= "image.jpg"
+schema			= "Course"
 +++
 
 ## Dépassez les stéréotypes culturels, brisez les silos de votre entreprise et décuplez la performance de votre entreprise.

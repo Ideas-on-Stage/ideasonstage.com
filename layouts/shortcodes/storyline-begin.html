@@ -1,11 +1,11 @@
 {{ "<!-- shortcodes:storyline-begin.html -->" | safeHTML }}
 {{- with .Params -}}
-	<div class="{{ with .style }}{{ . }}{{ end }}">
-		{{- if or .title .description -}}
-			<div class="flex-parent-column text-center flex-align-center">
-				{{ partial "elements/title-description.html" . }}
-				<img alt="bullet" src="/pictures/home/ios-orange-bullet.png" height=13 width=13>
-			</div>
-		{{- end -}}
+	{{- if or .title .description -}}
+	<div class="layout-shortcode text-center flex-align-center paddingb-none {{ with .style }}{{ . }}{{ end }}">
+		<div class="layout-shortcode-child paddingb-none">
+			{{ partial "e/title-description.html" . }}
+			<img alt="bullet" src="/img/ios-orange-bullet.png" height=13 width=13>
+		</div>
 	</div>
+	{{- end }}
 {{- end -}}

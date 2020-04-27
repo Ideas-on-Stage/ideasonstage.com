@@ -1,6 +1,9 @@
-uuid: home-06.fr
+uuid: 2C457601-27AA-4A70-84D0-DE2CEDB57056
+pageslist:
+- "53A30545-4E31-459E-B424-00B2FC0F50C8"
+position: top
 title: "Service mondial"
-layout: insert-picture1-text2.html
+layout: inserts/picture1-text2.html
 style: bg-white
-picture: /pictures/inserts/home-world.jpg
+picture: /img/inserts/home-world.jpg
 description: "Ideas on Stage offre ses services en Europe et Amérique du Nord. Notre équipe inclut des coachs des États-Unis, Royaume-Uni, France, Belgique, Espagne, Italie et Allemagne."

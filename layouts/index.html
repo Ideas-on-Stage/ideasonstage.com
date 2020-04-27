@@ -6,30 +6,30 @@
         {{ partial "home/head.html" . }}
     </head>
     <body id="page-top" class="layout-page">
-        {{ partial "nav.html" . }}
+        {{ partial "page-nav.html" . }}
 		<main role="main">
 			{{ partial "page-hero.html" . }}
 			<div class="layout-module-wrapper">
-				{{ partial "inserts-top.html" . }}
+				{{ partial "page-inserts-top.html" . }}
 				<section id="content-main" class="layout-content style-text-intro">
 					{{ .Content }}
 				</section>
-				{{ partial "aboutreferences_new.html" . }}
+				{{ partial "home/references.html" . }}
 				{{ partial "home/services.html" . }}
-		        {{ partial "inserts-bottom.html" . }}
+		        {{ partial "page-inserts-bottom.html" . }}
 			</div>
 		</main>
 		<aside>
-	 		{{ partial "subscribe.html" . }}
-	 	    {{ partial "testimonials.html" . }}
-	 	    {{ partial "contact.html" . }}
+	 		{{ partial "page-subscribe.html" . }}
+	 	    {{ partial "home/testimonials.html" . }}
+	 	    {{ partial "page-contact.html" . }}
 	 		{{ if eq .Site.Params.map.enable true }}
-	 			{{ partial "map.html" . }}
+	 			{{ partial "page-address.html" . }}
 	 		{{ end }}
 	 	</aside>
 	 	<footer>
-	        {{ partial "footer.html" . }}
-	        {{ partial "js.html" . }}
+	        {{ partial "page-footer.html" . }}
+	        {{ partial "page-js.html" . }}
 	 	</footer>
     </body>
 </html>

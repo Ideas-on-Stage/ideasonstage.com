@@ -2,8 +2,6 @@
 draft		= false
 title		= "Présentation Zen en Entreprise"
 description = "La formation Présentation Zen en Entreprise officielle, donnée exclusivement par Ideas on Stage."
-weight		= 3
-categories	= [ "Formations et Ateliers" ]
 picture		= "hero.jpg"
 url 			= "/formation-presentations/presentation-zen-en-entreprise/"
 schema		= "Course"

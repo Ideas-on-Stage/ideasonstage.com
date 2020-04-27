@@ -1,21 +1,28 @@
 {{ "<!-- shortcodes:events.html:start -->" | safeHTML }}
-	{{ with .Params.title }}<h3 class="text-center">{{ . }}</h3>{{ end }}
-	{{- range $.Page.Params.events }}
-		{{- if gt .startdate (now.Format "2006-01-02") }}
-		<div class="flex-parent-row marginv-medium flex-column-reverse-ontall">
-			<div class="flex-child-40p">
-				<img src="{{ .image }}">
-			</div>
-			<div class="flex-child-60p flex-child-text-right">
-				<h4 class="margin-none">{{ .name }}</h4>
-			    <p>{{ .description }}<br />
-				{{ partial "getdate.html" .startdate }}<br />
-				{{ .performer }}<br />
-				{{- range .offers }}
-				<a href="{{ .url }}" class="button-secondary">{{ .button }}</a>
-				{{- end }}
-			</div>
+<div class="layout-shortcode flex-justify-center {{ with .Params.style }}{{ . }}{{ end }}">
+{{- if .Params.title }}
+	<div class="layout-shortcode-child">
+		<h3 class="text-center">{{ .Params.title }}</h3>
+	</div>
+{{- end }}
+{{- $style := .Params.style }}
+{{- range $.Page.Params.events }}
+	{{- if gt .startdate (now.Format "2006-01-02") }}
+	<div class="flex-parent-row flex-column-ontall">
+		<div class="layout-shortcode-child flex-child-40p">
+			<img src="{{ .image }}">
 		</div>
-		{{- end }}
+		<div class="layout-shortcode-child flex-child-60p">
+			<h4 class="margin-none">{{ .name }}</h4>
+		    <p>{{ .description }}<br />
+			{{ partial "f/getdate" .startdate }}<br />
+			{{ .performer }}<br />
+			{{- range .offers }}
+			<a href="{{ .url }}" class="button-secondary">{{ .button }}</a>
+			{{- end }}
+		</div>
+	</div>
+</div>
 	{{- end }}
+{{- end }}
 {{ "<!-- shortcodes:events.html:end -->" | safeHTML }}

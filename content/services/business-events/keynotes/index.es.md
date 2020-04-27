@@ -1,14 +1,9 @@
 +++
 draft 		= false
 title 		= "Keynotes"
-weight		= 3
 description = "Nuestros experimentados speakers sorprenderán a tu público con charlas inspiradoras e inolvidables."
-categories	= [ "Eventos Corporativos" ]
-showrefs	= true
-urlredirect	= ""
-url	 		= "/eventos-corporativos/keynotes/"
 picture		= "keynotes.jpg"
-style		= "bg-white"
+url	 		= "/eventos-corporativos/keynotes/"
 +++
 
 ## Una keynote o un taller inspiradores para sorprender a tu público o motivar a tu equipo

@@ -1,11 +1,11 @@
-{{ "<!-- shortcodes:picture1-text2.html:start -->" | safeHTML }}
-<div class="layout-shortcode flex-parent-row flex-column-reverse-ontall {{ with .Params.style }}{{ . }}{{ end }}">
-	<div class="flex-child-60p flex-child-text-left">
+{{ "<!-- shortcodes:text2-picture1.html:start -->" | safeHTML }}
+<div class="layout-shortcode flex-column-reverse-ontall {{ with .Params.style }}{{ . }}{{ end }}">
+	<div class="layout-shortcode-child flex-child-60p">
 		<h3 class="">{{ .Params.title }}</h3>
 	    <p>{{ .Inner | markdownify }}</p>
 	</div>
-	<div class="flex-child-40p">
+	<div class="layout-shortcode-child flex-child-40p">
 		<img src="{{ .Params.picture }}">
 	</div>
 </div>
-{{ "<!-- shortcodes:picture1-text2.html:end -->" | safeHTML }}
+{{ "<!-- shortcodes:text2-picture1.html:end -->" | safeHTML }}

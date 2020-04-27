@@ -1,10 +1,9 @@
 {{ define "main" }}
 	{{ "<!-- services:list.html:start -->" | safeHTML }}	
 	{{ partial "page-hero.html" . }}
-    {{ partial "events-tabs.html" . }}
-	{{ partial "inserts-top.html" . }}
+	{{ partial "page-inserts-top.html" . }}
 	{{ partial "page-content.html" . }}
-	{{ partial "pages-list.html" . }}
-	{{ partial "inserts-bottom.html" . }}
+	{{ partial "page-list.html" . }}
+	{{ partial "page-inserts-bottom.html" . }}
 	{{ "<!-- services:list.html:end -->" | safeHTML }}
 {{ end }}

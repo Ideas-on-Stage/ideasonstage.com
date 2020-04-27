@@ -1,26 +1,24 @@
 +++
-draft		= false
-title		= "Coaching TEDx"
-description	= "Le public des événements TEDx a des attentes élevées. Découvrez comment Ideas on Stage peut vous aider à les dépasser avec son équipe de coachs expérimentés."
-weight		= 1
-categories	= [ "Coaching Prise de Parole en Public" ]
-url 			= "/coaching-prise-de-parole-en-public/coaching-tedx/"
-picture		= "tedx-saclay.jpg"
+draft			= false
+title			= "Coaching TEDx"
+description		= "Le public des événements TEDx a des attentes élevées. Découvrez comment Ideas on Stage peut vous aider à les dépasser avec son équipe de coachs expérimentés."
+url 				= "/coaching-prise-de-parole-en-public/coaching-tedx/"
+picture			= "tedx-saclay.jpg"
+weight			= 1
 
 # Product schema, offers array is mandatory
-schema		= "Product"
-[offers]
-	[offers.001]
-		pricecurrency = "EUR"
-		price			= "250"
-		availability		= "https://schema.org/InStock"			
+schema			= "Product"
+[[offers]]
+	pricecurrency	= "EUR"
+	price			= "250"
+	availability		= "https://schema.org/InStock"
 +++
 
-{{< storyline-picture-text title="TED - 2009" description="Chaque histoire a un héros. Le nôtre a été Yann Arthus-Bertrand, que nous avons coaché pour TED." picture="/pictures/inserts/ted-01.jpg" >}}
+{{< storyline-picture-text title="TED - 2009" description="Chaque histoire a un héros. Le nôtre a été Yann Arthus-Bertrand, que nous avons coaché pour TED." picture="/img/inserts/ted-01.jpg" >}}
 
-{{< storyline-text-picture title="TEDx - 2010" description="Nous avons coaché les événements TEDx dès le début du programme, dont le premier TEDxParisUniversités." picture="/pictures/inserts/ted-02.jpg" >}}
+{{< storyline-text-picture title="TEDx - 2010" description="Nous avons coaché les événements TEDx dès le début du programme, dont le premier TEDxParisUniversités." picture="/img/inserts/ted-02.jpg" >}}
 
-{{< storyline-picture-text title="2011- Aujourd'hui" description="TEDxLaDéfense. TEDxLille. TEDxMcGill. TEDxParis. TEDxSaclay. TEDxTours. TEDxWorldBankGroup. Et bien d'autres." picture="/pictures/inserts/ted-03.jpg" >}}
+{{< storyline-picture-text title="2011- Aujourd'hui" description="TEDxLaDéfense. TEDxLille. TEDxMcGill. TEDxParis. TEDxSaclay. TEDxTours. TEDxWorldBankGroup. Et bien d'autres." picture="/img/inserts/ted-03.jpg" >}}
 
 {{< storyline-end title="300+ et plus" description="Aujourd'hui nous avons coaché plus de 300 intervenants TEDx. Nous avons construit notre expertise internationale avec des événements TEDx aux États-Unis, au Canada, au Royaume-Uni beaucoup de pays européens. Nous n'allons pas nous arrêter en si bon chemin." >}}
 

@@ -2,11 +2,10 @@
 draft		= false
 title		= "La Business Presentation Revolution"
 description = "Grazie ai nostri seminari, le presentazioni del tuo team non saranno più le stesse."
-weight		= 1
-categories	= [ "Training & Workshops" ]
 url 			= "/training-workshops/the-business-presentation-revolution/"
 picture		= "image.jpg"
 schema		= "Course"
+weight		= 1
 +++
 
 ## Insegna ai tuoi team a preparare delle TED style business presentation.

@@ -1,0 +1,15 @@
+[en]
+	title		= "PDF Catalogue"
+	layout		= "inserts/module-half-text-picture.html"
+	style		= "bg-lightgray"
+	picture		= "/img/inserts/catalogue.jpg"
+	url			= "/guides/ideasonstage-catalogue-fr.pdf"
+	description	= "Download our pdf catalogue."
+
+[fr]
+	title		= "Catalogue pdf"
+	layout		= "inserts/module-half-text-picture.html"
+	style		= "bg-lightgray"
+	picture		= "/img/inserts/catalogue.jpg"
+	url			= "/guides/ideasonstage-catalogue-fr.pdf"
+	description	= "Téléchargez notre catalogue de services au format pdf."

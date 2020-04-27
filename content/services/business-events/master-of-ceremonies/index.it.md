@@ -1,14 +1,9 @@
 +++
 draft 		= false
 title 		= "Maestro di Cerimonie"
-weight		= 2
 description = "Dai il giusto ritmo al tuo evento con un esperto Maestro di Cerimonie, intrattenendo l’audience e aiutando i tuoi speaker a brillare."
-categories	= [ "Corporate Events" ]
-showrefs	= false
-urlredirect	= ""
-url 			= "/eventi-corporate/master-of-ceremonies/"
 picture		= "image.jpg"
-style		= "bg-white"
+url 			= "/eventi-corporate/master-of-ceremonies/"
 +++
 
 ## Un Maestro di Cerimonie per il tuo evento.

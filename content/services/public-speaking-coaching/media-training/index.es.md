@@ -2,11 +2,8 @@
 draft 		= false
 title 		= "Entrenamiento ante los medios"
 description	= "Entrenamiento y acompañamiento profesional para tus intervenciones en conferencias o ante los medios."
-weight		= 3
-categories	= [ "Public Speaking Coaching" ]
 url	 		= "/public-speaking-coaching/media-training/"
 picture		= "media-training.jpg"
-itemtype	= "Service"
 +++
 
 ## Muéstrale al mundo tu mejor versión

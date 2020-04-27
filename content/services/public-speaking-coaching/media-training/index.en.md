@@ -2,11 +2,8 @@
 draft 		= false
 title 		= "Media Training"
 description	= "Professional coaching to prepare leaders for important media or conference appearances."
-weight		= 3
-categories	= [ "Public Speaking Coaching" ]
 url	 		= "/public-speaking-coaching/media-training/"
 picture		= "media-training.jpg"
-itemtype	= "Service"
 +++
 
 ## Show the world the best version of yourself 

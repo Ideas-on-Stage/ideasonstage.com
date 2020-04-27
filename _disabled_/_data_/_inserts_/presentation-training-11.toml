@@ -1,0 +1,20 @@
+[en]
+	title		= "Made to measure"
+	layout		= "inserts/picture1-text2.html"
+	style		= "bg-white"
+	picture		= "/img/inserts/presentation-training-11.jpg"
+	description	= "Every presentation should be made to measure for a specific audience. Likewise, our courses are tailored for each client’s specific needs to make the maximum business impact: adapting the duration, choosing the most appropriate trainers, including client-specific examples and exercises, and choosing to focus more or less on each art of presenting according to your needs."
+
+[es]
+	title		= "A medida"
+	layout		= "inserts/picture1-text2.html"
+	style		= "bg-white"
+	picture		= "/img/inserts/presentation-training-11.jpg"
+	description	= "Cualquier presentación debe ser hecha a medida para un público concreto. De igual manera confeccionamos nuestros cursos a la medida de las necesidades específicas de cada cliente, para conseguir el máximo impacto: adaptando la duración, seleccionando a los formadores más adecuados, incluyendo ejemplos y ejercicios específicos para el cliente, y centrándonos en mayor o menor medida en cada una de las artes de la presentación que el cliente necesite."
+
+[fr]
+	title		= "Programme sur mesure"
+	layout		= "inserts/picture1-text2.html"
+	style		= "bg-white"
+	picture		= "/img/inserts/presentation-training-11.jpg"
+	description	= "Chaque présentation devrait être créée sur mesure en fonction de votre auditoire. De la même manière, nos formations sont adaptées aux besoins spécifiques de chaque client pour avoir le maximum de résultats : adapter la durée, choisir le formateur le plus approprié, inclure des exemples et des exercices adaptés à votre métier."

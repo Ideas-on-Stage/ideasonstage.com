@@ -1,0 +1,55 @@
+{{ "<!-- partials:page-contact.html -->" | safeHTML }}
+		<section id="contact">
+		    <div class="container paddingv-huge">
+		        <div class="row">
+		            <div class="col-xs-10 col-xs-offset-1 text-center">
+	           			<h2 class="section-heading">{{ with .Site.Params.contact.title }}{{ . | markdownify }}{{ end }}</h2>
+						<p>{{ with .Site.Params.contact.subtitle }}{{ . | markdownify }}{{ end }}</p>
+						{{ with .Site.Params.contact.contactphone }}<p>{{ . | safeHTML }}</p>{{ end }}
+		            </div>
+		        </div>{{ "<!-- row end -->" | safeHTML }}
+				<div class="row margint-tiny">
+			        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 text-left">
+			            <form  action="https://hooks.zapier.com/hooks/catch/607769/43m9eq/" method="POST" name="sentMessage" id="contactForm">
+			                <div class="form-group">
+			             		<input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
+			               	</div>
+			                <div class="form-group">
+			                    <input type="text" class="form-control" placeholder="{{ with .Site.Params.contact.form.name.text }}{{ .  | markdownify }}{{ end }}" name="name" required data-validation-required-message="{{ with .Site.Params.contact.form.name.warning }}{{ . | markdownify}}{{ end }}">
+			                        <p class="help-block text-danger"></p>
+			                </div>
+			                <div class="form-group">
+			                    <input type="email" class="form-control" placeholder="{{ with .Site.Params.contact.form.email.text }}{{ . | markdownify }}{{ end }}" name="email" required data-validation-required-message="{{ with .Site.Params.contact.form.email.warning }}{{ . | markdownify }}{{ end }}">
+			                        <p class="help-block text-danger"></p>
+			                </div>
+			                <div class="form-group">
+			                    <input type="tel" class="form-control" placeholder="{{ with .Site.Params.contact.form.phone.text }}{{ . | markdownify }}{{ end }}" name="phone">
+			                        <p class="help-block text-danger"></p>
+			                </div>
+			                <div class="form-group" id="fooDiv">
+								<label for="foo">Leave this field blank</label>
+								<input type="text" name="foo" id="foo">
+							</div>
+							<script>
+								(function () {
+			    					var e = document.getElementById("fooDiv");
+			    					e.parentNode.removeChild(e);
+								})();
+							</script>
+			                <div class="form-group">
+			                    <textarea class="form-control" placeholder="{{ with .Site.Params.contact.form.message.text }}{{ . | markdownify }}{{ end }}" name="message" required data-validation-required-message="{{ with .Site.Params.contact.form.message.warning }}{{ . | markdownify }}{{ end }}"></textarea>
+			                        <p class="help-block text-danger"></p>
+			                </div>
+			                <div class="clearfix">
+			                </div>
+			                <div class="col-lg-12 text-center">
+			                    <div id="success">
+			                    	{{ with .Site.Params.contact.success }}{{ . | markdownify }}{{ end }}
+			                    </div>
+			                    <input type="submit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="button-primary">
+			                </div>
+			            </form>
+			        </div>{{ "<!-- col-md-6 end -->" | safeHTML }}
+				</div>
+		    </div>{{ "<!-- container end -->" | safeHTML }}
+		</section>{{ "<!-- contact end -->" | safeHTML }}

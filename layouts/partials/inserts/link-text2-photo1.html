@@ -2,11 +2,11 @@
 <div class="layout-content {{ with .style }}{{ . }}{{ end }}">
 	<div class="flex-parent-row flex-column-ontall">
 		<div class="flex-child-60p flex-child-text-right">
-			{{ partial "elements/link-title-description.html" . }}
-			{{ partial "elements/button-secondary.html" . }}
+			{{ partial "e/link-title-description.html" . }}
+			{{ partial "e/button-secondary.html" . }}
 		</div>
-    	<div class="flex-child-40p">
-			{{ partial "elements/link-photograph.html" . }}
+    	<div class="flex-child-40p flex-child-image-right">
+			{{ partial "e/link-photograph.html" . }}
     	</div>
     </div>
 </div>

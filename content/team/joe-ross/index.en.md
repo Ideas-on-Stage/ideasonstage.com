@@ -12,4 +12,4 @@ Joe is a highly experienced writer, communicator, and campaign strategy designer
 
 
 
-[pic1]: /pictures/logos/linkedin.png
+[pic1]: /img/logos/linkedin.png

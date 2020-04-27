@@ -2,8 +2,6 @@
 draft		= false
 title		= "Women on Stage"
 description = "Responde a los retos que supone ser mujer en tu lugar de trabajo, y comunícate con tu propio estilo.."
-weight		= 2
-categories	= [ "Training & Workshops" ]
 url 			= "/formacion-presentaciones/women-on-stage/"
 picture		= "image.jpg"
 schema		= "Course"

@@ -2,7 +2,6 @@
 draft 			= false
 title 			= "Virtual Meeting Revolution Webinars"
 description		= "A free Webinar series to become a better presenter."
-categories		= [ "Training and Workshops" ]
 url	 			= "/presentations-training/webinars/"
 picture			= "ouaibinarre.jpg"
 

@@ -2,11 +2,10 @@
 draft		= false
 title		= "The Business Presentation Revolution Training"
 description = "Thanks to our signature training course, your team's presentations will never be the same again."
-weight		= 1
-categories	= [ "Training & Workshops" ]
 url 			= "/presentations-training/the-business-presentation-revolution/"
 picture		= "image.jpg"
 schema		= "Course"
+weight		= 1
 +++
 
 ## Train your teams to give TED-quality business presentations

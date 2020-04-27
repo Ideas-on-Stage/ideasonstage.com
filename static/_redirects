@@ -5,6 +5,7 @@ https://www.ideasonstage.com/welcome/		https://paper.dropbox.com/doc/Welcome-to-
 https://welcome.ideasonstage.com/			https://paper.dropbox.com/doc/Welcome-to-Ideas-on-Stage--AWL_R65t15l7_WdJUM0_B4ncAQ-zyhHjLnrK0f4cqMWINXsJ
 https://www.ideasonstage.com/in/			https://www.linkedin.com/company/ideas-on-stage/
 https://in.ideasonstage.com/				https://www.linkedin.com/company/ideas-on-stage/
+https://in.ideasonstage.com					https://www.linkedin.com/company/ideas-on-stage/
 
 https://catalogue.ideasonstage.com/			https://www.ideasonstage.com/guides/ideasonstage-catalogue-en.pdf
 https://catalogue.ideasonstage.fr/			https://www.ideasonstage.fr/guides/ideasonstage-catalogue-fr.pdf
@@ -22,8 +23,8 @@ https://www.ideasonstage.com/es/			https://www.ideasonstage.es/	301!
 
 # --------
 # Not found to correct link
-https://www.ideasonstage.com/wp-ios/uploads/2012/04/pierre_morsa.jpg		https://www.ideasonstage.com/pictures/team-members/pierre-morsa.jpg	301
-https://www.ideasonstage.com/picture/home/ideas-on-stage.jpg	https://www.ideasonstage.com/pictures/home/ideas-on-stage.png	301
+https://www.ideasonstage.com/wp-ios/uploads/2012/04/pierre_morsa.jpg		https://www.ideasonstage.com/img/team-members/pierre-morsa.jpg	301
+https://www.ideasonstage.com/picture/home/ideas-on-stage.jpg	https://www.ideasonstage.com/img/home/ideas-on-stage.jpg	301
 https://www.ideasonstage.com/fr/formations-art-presenter/women-on-stage/	https://www.ideasonstage.fr/formation-presentations/women-on-stage/	301!
 
 https://www.ideasonstage.fr/formations-ateliers/women-on-stage/		https://www.ideasonstage.fr/formation-presentations/women-on-stage/	301!
@@ -51,3 +52,7 @@ https://www.ideasonstage.com/presentation-creation-agency/		https://www.ideasons
 https://www.ideasonstage.es/presentation-creation-agency/		https://www.ideasonstage.es/servicios/creacion-presentaciones-powerpoint/	301!
 https://www.ideasonstage.fr/agence-creation-presentations/		https://www.ideasonstage.fr/services/agence-creation-presentation-powerpoint/ 301!
 https://www.ideasonstage.it/presentation-creation-agency/		https://www.ideasonstage.it/servizi/creazione-presentazioni-powerpoint/	301!
+
+# --------
+# /img/* to /img/*
+/img/* /img/:splat 301!

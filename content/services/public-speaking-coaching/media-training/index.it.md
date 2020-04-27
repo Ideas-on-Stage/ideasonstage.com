@@ -2,11 +2,8 @@
 draft 		= false
 title 		= "Media Training"
 description	= "Coaching professionale per preparare i leader alle apparizioni di fronte ai media o alle conferenze importanti."
-weight		= 3
-categories	= [ "Public Speaking Coaching" ]
 url 		= "/public-speaking-coaching/media-training/"
 picture		= "media-training.jpg"
-itemtype	= "Service"
 +++
 
 ## Mostra al mondo la migliore versione di te stesso
@@ -28,4 +25,4 @@ Quando ti sarà più conveniente lavorerai con i nostri Senior Coach e imparerai
 
 Se hai un importante appuntamento pubblico o un’apparizione con i media imminente, contattaci attraverso il modulo sottostante e ti risponderemo a breve. Queste richieste sono ricevute e gestite direttamente dal nostro Senior Coaching Team per assicurare il più alto livello di privacy.
 
-[pic1]: /pictures/public-speaking-coaching/media-training/media-training.jpg
+[pic1]: /img/public-speaking-coaching/media-training/media-training.jpg

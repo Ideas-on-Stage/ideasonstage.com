@@ -1,8 +1,11 @@
-uuid: presentation-training-21.fr
-title: "Formation « The Business Presentation Revolution »"
-layout: insert-link-text2-photo1.html
+uuid: 7F65E86F-4EC6-4507-90B7-FC5EE5AC518C
+pageslist: 
+- "D2521AAF-C972-41E3-AFF9-19D92276BA0C"
+position: bottom
+title: "The Business Presentation Revolution"
+layout: inserts/link-text2-photo1.html
 style: bg-lightgrey
-picture: /pictures/inserts/presentation-training-bpr.jpg
-link: /formation-presentations/the-business-presentation-revolution/
-description: "Les présentations de vos équipes vont être changées à jamais."
-button: "En Savoir Plus"
+picture: /img/inserts/presentation-training-bpr.jpg
+link: /presentations-training/the-business-presentation-revolution/
+description: "Most presentations fail to reach their objectives – if they even have clear objectives. The Business Presentation Revolution tears up the conventional wisdom and provides trainees a simple method for producing successful business presentations, focusing on what to say, how to say it and how to use slides effectively.
+This course is taught in leading companies and business schools such as HEC Paris Executive Education and Thunderbird School of Global Management."
