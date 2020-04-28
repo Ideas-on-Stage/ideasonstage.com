@@ -1,0 +1,10 @@
+[ideasonstage]
+	name			= "Ideas on Stage"
+	type			= "PostalAddress"
+	addresscountry	= "France"
+	addresslocality	= "Paris"
+	addressregion	= "Île de France"
+	postalcode		= "75008"
+	streetaddress	= "138 avenue des Champs Élysées"
+	telephone		= "&#43;33183750544"
+	

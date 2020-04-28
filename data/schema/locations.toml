@@ -1,0 +1,9 @@
+[ideasonstage]
+	name			= "Ideas on Stage"
+	type			= "Place"
+	address			= "ideasonstage"
+[zoom]
+	name			= "Zoom"
+	type			= "VirtualLocation"
+	url				= "https://zoom.us"
+	

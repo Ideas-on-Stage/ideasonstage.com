@@ -15,7 +15,7 @@ picture			= "ouaibinarre.jpg"
 	eventstatus	= "EventScheduled"
 	image		= "2020-04-21-virtual-setup.jpg"
 	isaccessibleforfree = true
-	location		= "VirtualLocation"
+	location		= "zoom"
 	performer	= "Pierre Morsa"
 	[[events.offers]]
 		availability = "OnlineOnly"
@@ -35,7 +35,7 @@ picture			= "ouaibinarre.jpg"
 	eventstatus	= "EventScheduled"		
 	image		= "2020-04-28-virtual-facilitation.jpg"
 	isaccessibleforfree = true
-	location		= "VirtualLocation"
+	location		= "zoom"
 	performer	= "Phil Waknell"
 	[[events.offers]]
 		availability = "OnlineOnly"

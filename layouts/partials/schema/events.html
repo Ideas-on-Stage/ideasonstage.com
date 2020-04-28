@@ -15,7 +15,7 @@
 		  "eventAttendanceMode": {{ .eventattendancemode }},
 		  "eventStatus": {{ .eventstatus }},
 		  "image": {{ .image }},
-		  "location": {{ if eq "Zoom" .location }}{{ partial "schema/properties/location-zoom" . | safeJS }}{{ else }}{{ .location }}{{ end }},
+		  "location": {{ partial "schema/properties/location" .location | safeJS }},
 		  "name": {{ .name }},
 		  "organizer": {{ (partial "schema/properties/organization" .) | safeJS }},
 		  "performer": {{ .performer }},

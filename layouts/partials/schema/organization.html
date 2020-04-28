@@ -3,7 +3,7 @@
 		{
 		  "@context": "http://schema.org",
 		  "@type": "Organization",
-		  "location": {{ (partial "schema/properties/location" .) | safeJS }},
+		  "location": {{ (partial "schema/properties/location" .location) | safeJS }},
 		  "name": {{ site.Params.organization.name }},
 		  "logo": {{ site.Params.navigation.brand_logo | absURL }},
 		  "sameAs": [ 
