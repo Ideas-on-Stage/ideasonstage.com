@@ -5,17 +5,20 @@
  --> */}}
 <script type="application/ld+json">
 {
-	"@context": "https://schema.org/",
-	"@type": "Service",
-	"name": {{ .Title }},
-	"description": {{ .Params.description }},
-	{{ if .Params.picture }}"image": {{ partial "f/getpicturepath" . }},{{ end }}
-	"brand": {
+	"@context": "https://schema.org/"
+	, "@type": "Service"
+	, "name": {{ .Title }}
+	, "description": {{ .Params.description }}
+	{{- if .Params.picture }}
+	, "image": {{ partial "f/getpicturepath" . }}
+	{{- end }}
+	, "brand": {
 	    "@type": "Brand",
 	    "name": {{ site.Params.author }}
 	}
-	{{- if .Params.Offers }},
-	"offers": [
+	, "provider": {{ (partial "schema/properties/organization" .Params.provider) | safeJS }}
+	{{- if .Params.Offers }}
+	, "offers": [
 		{{- $permalink := .Permalink -}}
 		{{- $counter := 0 -}}
 		{{ range .Params.offers -}}
@@ -26,7 +29,7 @@
 			    "priceCurrency": {{ .pricecurrency }},
 			    "price": {{ .price }},
 			    "availability": {{ .availability }},
-			    "seller": {{ (partial "schema/properties/organization" .) | safeJS }}
+			    "seller": {{ (partial "schema/properties/organization" .seller) | safeJS }}
 		    }
 			{{- $counter = add $counter 1 -}}
 		{{- end }}

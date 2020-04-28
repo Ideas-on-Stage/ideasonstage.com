@@ -1,20 +1,4 @@
 # --------
-# Short url redirects
-
-https://www.ideasonstage.com/welcome/		https://paper.dropbox.com/doc/Welcome-to-Ideas-on-Stage--AWL_R65t15l7_WdJUM0_B4ncAQ-zyhHjLnrK0f4cqMWINXsJ
-https://welcome.ideasonstage.com/			https://paper.dropbox.com/doc/Welcome-to-Ideas-on-Stage--AWL_R65t15l7_WdJUM0_B4ncAQ-zyhHjLnrK0f4cqMWINXsJ
-https://www.ideasonstage.com/in/			https://www.linkedin.com/company/ideas-on-stage/
-https://in.ideasonstage.com/				https://www.linkedin.com/company/ideas-on-stage/
-https://in.ideasonstage.com					https://www.linkedin.com/company/ideas-on-stage/
-
-https://catalogue.ideasonstage.com/			https://www.ideasonstage.com/guides/ideasonstage-catalogue-en.pdf
-https://catalogue.ideasonstage.fr/			https://www.ideasonstage.fr/guides/ideasonstage-catalogue-fr.pdf
-https://revolution.ideasonstage.fr/			https://www.ideasonstage.fr/revolution/
-https://revolution.ideasonstage.com/			https://www.ideasonstage.com/revolution/
-https://wos.ideasonstage.com/				https://www.ideasonstage.com/presentations-training/women-on-stage/
-https://wos.ideasonstage.fr/				https://www.ideasonstage.fr/formation-presentations/women-on-stage/
-
-# --------
 # Old language structure to new one
 https://www.ideasonstage.com/fr				https://www.ideasonstage.fr/	301!
 https://www.ideasonstage.com/fr/			https://www.ideasonstage.fr/	301!

@@ -63,7 +63,7 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		picture		= "/du-bureau-au-travail-a-distance/remote-work.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		link			= "/du-bureau-au-travail-a-distance/"
+		url			= "/du-bureau-au-travail-a-distance/"
 	[[services.list]]
 		sectionid	= "public-speaking-coaching"
 		title		= "Coaching prise de parole"
@@ -71,7 +71,7 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		picture		= "/img/inserts/home-public-speaking-coaching.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		link			= "/coaching-prise-de-parole-en-public/"	
+		url			= "/coaching-prise-de-parole-en-public/"	
 	[[services.list]]
 		sectionid	= "business-events"
 		title		= "Support événementiel"
@@ -79,7 +79,7 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		picture		= "/img/inserts/home-business-events.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		link			= "/evenements-entreprise/"
+		url			= "/evenements-entreprise/"
 	[[services.list]]
 		sectionid	= "presentation-creation"
 		title		= "Création de présentations"
@@ -87,7 +87,7 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		picture		= "/img/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
-		link			= "/services/agence-creation-presentation-powerpoint/"
+		url			= "/services/agence-creation-presentation-powerpoint/"
 	[[services.list]]
 		sectionid	= "presentations-training"
 		title		= "Formations à l'art&nbsp;de&nbsp;présenter"
@@ -95,7 +95,7 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		picture		= "/img/inserts/home-presentations-training.jpg"
 		style		= "bg-lightgrey"
 		layout		= "inserts/module-texttop-picture.html"
-		link			= "/formation-presentations/"
+		url			= "/formation-presentations/"
 +++
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.
 

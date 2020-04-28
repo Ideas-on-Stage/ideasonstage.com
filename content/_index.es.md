@@ -34,7 +34,7 @@ insertsbottom	= [ "revolution" ]
 		picture		= "/img/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
-		link			= "/servicios/creacion-presentaciones-powerpoint/"
+		url			= "/servicios/creacion-presentaciones-powerpoint/"
 	[[services.list]]
 		sectionid	= "business-events"
 		title		= "Eventos Corporativos"
@@ -42,7 +42,7 @@ insertsbottom	= [ "revolution" ]
 		picture		= "/img/inserts/home-business-events.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		link			= "/eventos-corporativos/"
+		url			= "/eventos-corporativos/"
 	[[services.list]]
 		sectionid	= "public-speaking-coaching"
 		title		= "Public Speaking"
@@ -50,7 +50,7 @@ insertsbottom	= [ "revolution" ]
 		picture		= "/img/inserts/home-public-speaking-coaching.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		link			= "/public-speaking-coaching/"
+		url			= "/public-speaking-coaching/"
 	[[services.list]]
 		sectionid	= "presentations-training"
 		title		= "Formación"
@@ -58,7 +58,7 @@ insertsbottom	= [ "revolution" ]
 		picture		= "/img/inserts/home-presentations-training.jpg"
 		style		= "bg-lightgrey"
 		layout		= "inserts/module-texttop-picture.html"
-		link			= "/formacion-presentaciones/"
+		url			= "/formacion-presentaciones/"
 					
 +++
 Ideas on Stage ayuda a líderes de todo el mundo a hacer presentaciones impactantes, a crear eventos inspiradores y a reforzar sus organizaciones mediante coaching y formación para hablar en público de la máxima calidad. En un mundo de conferencias aburridas y reuniones interminables, destacará y brillará.

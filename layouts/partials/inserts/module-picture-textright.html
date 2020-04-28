@@ -1,6 +1,6 @@
 {{ "<!-- partials:inserts:module-picture-textright.html:start -->" | safeHTML }}
 <div class="layout-module">
-	<div class="layout-module-row {{ with .style }}{{ . }}{{ end }}">
+	<div class="layout-module-row {{ partial "f/getstyle" . }}">
 		<div class=" layout-module-row-image">
 			{{ partial "e/link-picture.html" . }}
 		</div>

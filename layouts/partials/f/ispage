@@ -1,0 +1,15 @@
+{{/* <!--
+	
+	f/ispage
+	
+	Returns true if page, false if not
+	
+ --> */}}
+{{ $result := false }}
+
+{{ if or .IsPage .IsNode }}
+{{ $result = true }}
+{{ else }}
+{{ $result = false }}
+{{ end }}
+{{ return $result }}

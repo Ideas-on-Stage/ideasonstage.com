@@ -3,8 +3,9 @@ draft 			= false
 title 			= "Agence de création de présentations PowerPoint"
 description		= "Impressionnez votre auditoire avec une présentation PowerPoint de qualité professionnelle. Nos services sont utilisés par les plus grandes marques."
 url 				= "/services/agence-creation-presentation-powerpoint/"
+
 schema			= "Service"
-thumbnail		= "thumbnail.jpg"
+provider		= "ideasonstage"
 
 urlredirect		= ""
 gallerytitle    = ""

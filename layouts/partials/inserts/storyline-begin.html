@@ -1,5 +1,5 @@
 {{ "<!-- partials:insert-storyline-begin.html -->" | safeHTML }}
-<div class="layout-content {{ with .style }}{{ . }}{{ end }}">
+<div class="layout-content {{ partial "f/getstyle" . }}">
 	{{ if or .title .description }}
 		<div class="flex-parent-column text-center flex-align-center">
 			{{ partial "e/title-description.html" . }}

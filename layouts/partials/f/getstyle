@@ -1,0 +1,19 @@
+{{/* <!--
+	
+	f/getstyle
+
+	returns the .style attribute
+
+ --> */}}
+
+{{ $style := "" }}
+{{ if (partial "f/ispage" .) }}
+	{{ with .Params.style }}
+		{{ $style = . }}
+	{{ end }}
+{{ else }}
+	{{ with .style }}
+		{{ $style = . }}
+	{{ end }}
+{{ end }}
+{{ return $style }}

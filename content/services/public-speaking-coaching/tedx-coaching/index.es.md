@@ -11,7 +11,8 @@ schema			= "Product"
 [[offers]]
 	pricecurrency	= "EUR"
 	price			= "250"
-	availability		= "https://schema.org/InStock"	
+	availability		= "https://schema.org/InStock"
+	seller			= "ideasonstage"
 +++
 
 {{< storyline-picture-text title="TED - 2009" description="Toda historia necesita un Héroe. El nuestro fue Yann Arthus-Bertrand, a quien ayudamos a preparar su charla TED." picture="/img/inserts/ted-01.jpg" >}}

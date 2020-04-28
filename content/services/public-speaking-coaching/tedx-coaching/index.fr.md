@@ -12,6 +12,7 @@ schema			= "Product"
 	pricecurrency	= "EUR"
 	price			= "250"
 	availability		= "https://schema.org/InStock"
+	seller			= "ideasonstage"
 +++
 
 {{< storyline-picture-text title="TED - 2009" description="Chaque histoire a un héros. Le nôtre a été Yann Arthus-Bertrand, que nous avons coaché pour TED." picture="/img/inserts/ted-01.jpg" >}}

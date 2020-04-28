@@ -14,7 +14,7 @@
 			"dateModified": {{ now }},
 			"inLanguage": {{ site.LanguageCode }},
 			"name": {{ site.Title }},
-			"provider": {{ (partial "schema/properties/organization" .) | safeJS }},
+			"provider": {{ (partial "schema/properties/organization" "ideasonstage") | safeJS }},
 			"url": {{ site.BaseURL }}
 		}
 		</script>

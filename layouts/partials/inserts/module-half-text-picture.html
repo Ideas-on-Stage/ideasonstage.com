@@ -1,6 +1,6 @@
 {{ "<!-- partials:inserts:module-half-text-picture.html:start -->" | safeHTML }}
 <div class="layout-module-half">
-	<div class="layout-module-column {{ with .style }}{{ . }}{{ end }}">
+	<div class="layout-module-column {{ partial "f/getstyle" . }}">
 		<div class="layout-module-column-text">
 			{{ partial "e/link-title-description.html" . }}
 			{{ partial "e/button-secondary.html" . }}

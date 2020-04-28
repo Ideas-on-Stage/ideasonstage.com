@@ -1,1 +1,1 @@
-<img src="{{ with .link }}{{ else }}{{ .url }}{{ end }}{{ .picture }}" class="photograph">
+<img src="{{ partial "f/getpicturepath" . }}" class="photograph">

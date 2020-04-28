@@ -7,15 +7,15 @@
 		{{- $permalink := .Permalink }}
 		<script type="application/ld+json">
 			{
-			  "@context": "http://schema.org",
-			  "@type": "Person",
-			  "affiliation": {{ partial "schema/properties/organization" . | safeJS }},
-			  "image": {{ .Params.picture }},
-			  "jobTitle": {{ .Params.position }},
-			  "name": {{ .Params.name }},
+			  "@context": "http://schema.org"
+			  , "@type": "Person"
+			  , "affiliation": {{ partial "schema/properties/organization" .Params.affiliation | safeJS }}
+			  , "image": {{ .Params.picture }}
+			  , "jobTitle": {{ .Params.position }}
+			  , "name": {{ .Params.name }}
 			  {{- with .Params.sameas -}}
-			  "sameAs": {{ partial "schema/properties/sameas" . | safeJS }},
+			  , "sameAs": {{ partial "schema/properties/sameas" . | safeJS }}
 			  {{- end }}
-			  "url": {{ .Permalink }}
+			  , "url": {{ .Permalink }}
 			}
 		</script>

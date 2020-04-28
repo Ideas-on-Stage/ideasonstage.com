@@ -7,10 +7,10 @@
  {{- $permalink := .Permalink -}}
 <script type="application/ld+json">
 {
-    "@context": "https://schema.org",
-    "@type": "Course",
-    "name": {{ .Title }},
-    "description": {{ .Params.description }},
-    "provider": {{ (partial "schema/properties/organization" .) | safeJS }}
+    "@context": "https://schema.org"
+    , "@type": "Course"
+    , "name": {{ .Title }}
+    , "description": {{ .Params.description }}
+    , "provider": {{ (partial "schema/properties/organization" .Params.provider) | safeJS }}
 }
 </script>

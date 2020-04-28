@@ -3,8 +3,9 @@ draft 			= false
 title 			= "Creación de Presentaciones en PowerPoint"
 description		= "Añade un diseño profesional a tus slides para deslumbrar a tu público en tu presentación."
 url 				= "/servicios/creacion-presentaciones-powerpoint/"
+
 schema			= "Service"
-thumbnail		= "thumbnail.jpg"
+provider		= "ideasonstage"
 
 urlredirect		= ""
 gallerytitle    = ""

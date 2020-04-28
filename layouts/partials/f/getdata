@@ -1,0 +1,17 @@
+{{/* <!--
+	
+	f/getdata
+
+	Standardizes data access base
+	If it's a page, will use .Params as base
+	If it's a data file, use . as base
+	
+	This allows to use for example .picture without having to wonder if it's .picture or .Params.picture
+
+ --> */}}
+
+{{- $data := . }}
+{{- if (partial "f/ispage" .) }}
+	{{- $data = .Params }}
+{{- end }}
+{{ return $data }}

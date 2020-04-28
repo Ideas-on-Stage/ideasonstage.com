@@ -55,7 +55,7 @@ insertsbottom	= [ "revolution", "news" ]
 		picture		= "/from-office-to-remote-work/remote-work.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		link			= "/from-office-to-remote-work/"
+		url			= "/from-office-to-remote-work/"
 	[[services.list]]
 		sectionid	= "public-speaking-coaching"
 		title		= "Public Speaking Coaching"
@@ -63,7 +63,7 @@ insertsbottom	= [ "revolution", "news" ]
 		picture		= "/img/inserts/home-public-speaking-coaching.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		link			= "/public-speaking-coaching/"
+		url			= "/public-speaking-coaching/"
 	[[services.list]]
 		sectionid	= "business-events"
 		title		= "Business Events"
@@ -71,7 +71,7 @@ insertsbottom	= [ "revolution", "news" ]
 		picture		= "/img/inserts/home-business-events.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		link			= "/business-events/"
+		url			= "/business-events/"
 	[[services.list]]
 		sectionid	= "presentation-creation"
 		title		= "Presentation Creation"
@@ -79,7 +79,7 @@ insertsbottom	= [ "revolution", "news" ]
 		picture		= "/img/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
-		link			= "/services/powerpoint-presentation-design-agency/"
+		url			= "/services/powerpoint-presentation-design-agency/"
 	[[services.list]]
 		sectionid	= "presentations-training"
 		title		= "Training & Workshops"
@@ -87,7 +87,7 @@ insertsbottom	= [ "revolution", "news" ]
 		picture		= "/img/inserts/home-presentations-training.jpg"
 		style		= "bg-lightgrey"
 		layout		= "inserts/module-texttop-picture.html"
-		link			= "/presentations-training/"
+		url			= "/presentations-training/"
 +++
 
 Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.

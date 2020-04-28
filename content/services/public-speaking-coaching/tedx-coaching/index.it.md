@@ -12,6 +12,7 @@ schema			= "Product"
 	pricecurrency	= "EUR"
 	price			= "250"
 	availability		= "https://schema.org/InStock"	
+	seller			= "ideasonstage"
 +++
 
 {{< storyline-picture-text title="TED - 2009" description="Ogni storia ha bisogno del suo Eroe. Il nostro è Yann Arthus - Berthrand , che ci aiutò nella presentazione del nostro primo TED." picture="/img/inserts/ted-01.jpg" >}}

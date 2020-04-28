@@ -2,28 +2,38 @@
 	
 	f/getpicturepath
 	
-	Gets full path to picture
-	- Uses .thumbnail first, then .picture
-	- Path as is if already absolute path
-	- Convert to absolute if relative path
-	- Convert to absolute with full path if just picture name
+	Gets full path to .picture parameter for pages and data files.
+	
+	Arguments:
+	- . as .Page for pages or . as Data for data files
+	
+	Process:
+	- If page:
+		- tries to use thumbnail.jpg, then .Params.picture
+		- completes path with .RelPermalink if only picture name specified.
+	- If data:
+		- tries to use .picture
+		- completes path with .url if only picture name specified, eg. "pic.jpg"
+
  --> */}}
 
 {{ $imgpath := "" }}
 {{ $picture := "" }}
 {{ $found := false }}
-{{ if .Params.thumbnail }}
-	{{ $picture = .Params.thumbnail }}
-	{{ $found = true }}
-{{ else if .Params.picture }}
-	{{/* <!-- i's a page structure --> */}}
-	{{ $picture = .Params.picture }}
-	{{ $found = true }}
-{{ else if (isset . "thumbnail") }}
-	{{ $picture = .thumbnail }}
-	{{ $found = true }}
+{{ if partial "f/ispage" . }}
+	{{/* <!-- then this is a page, check for thumbnail.jpg in same directory --> */}}
+	{{ $thumbtest := add .File.Dir "thumbnail.jpg" }}
+	{{ if fileExists $thumbtest }}
+		{{/* <!-- then a file named thumbnail.jpg exists, use it --> */}}
+	  	{{ $picture = "thumbnail.jpg" }}
+		{{ $found = true }}
+	{{ else if .Params.picture }}
+		{{/* <!-- else if .picture exists, use it --> */}}
+		{{ $picture = .Params.picture }}
+		{{ $found = true }}
+	{{ end }}
 {{ else if (isset . "picture") }}
-	{{/* <!-- it's a data file structure --> */}}
+	{{/* <!-- else this is a site.Data file --> */}}
 	{{ $picture = .picture }}
 	{{ $found = true }}
 {{ end }}
@@ -39,7 +49,9 @@
 		{{ $imgpath = $picture }}
 	{{ else }}
 		{{/* <!-- else .picture contains name of img, add path --> */}}
-		{{ if (isset . "url") }}
+		{{ if .RelPermalink }}
+			{{ $imgpath = path.Join .RelPermalink $picture }}
+		{{ else if (isset . "url") }}
 			{{ $imgpath = path.Join .url $picture }}
 		{{ else }}
 			{{ $imgpath = path.Join .RelPermalink $picture }}

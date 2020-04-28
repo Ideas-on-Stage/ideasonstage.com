@@ -26,7 +26,7 @@
 			    "priceCurrency": {{ .pricecurrency }},
 			    "price": {{ .price }},
 			    "availability": {{ .availability }},
-			    "seller": {{ (partial "schema/properties/organization" .) | safeJS }}
+			    "seller": {{ (partial "schema/properties/organization" .seller) | safeJS }}
 		    }
 			{{- $counter = add $counter 1 -}}
 		{{- end }}

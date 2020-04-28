@@ -12,6 +12,7 @@ schema			= "Product"
 	pricecurrency	= "USD"
 	price			= "250"
 	availability		= "https://schema.org/InStock"
+	seller			= "ideasonstage"
 +++
 
 {{< storyline-picture-text title="TED - 2009" description="Every story needs a Hero. Ours was Yann Arthus-Bertrand, who we helped prepare for TED." picture="/img/inserts/ted-01.jpg" >}}

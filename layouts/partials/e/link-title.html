@@ -1,5 +1,3 @@
 {{- if .title -}}
-	<a href="{{ with .link }}{{ . }}{{ else }}{{ .url }}{{ end }}">
-		{{ partial "title.html" . }}
-	</a>
+<a href="{{ partial "f/geturl" . }}">{{ partial "title.html" . }}</a>
 {{- end -}}

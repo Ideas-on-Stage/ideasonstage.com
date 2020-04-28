@@ -1,0 +1,12 @@
+[ideasonstage]
+	name			= "Ideas on Stage"
+	type			= "Organization"
+	url				= "https://www.ideasonstage.com"
+[eventbrite]
+	name			= "Eventbrite"
+	type			= "Organization"
+	url				= "https://www.eventbrite.com"
+[zoom]
+	name			= "Zoom"
+	type			= "Organization"
+	url				= "https://zoom.us"

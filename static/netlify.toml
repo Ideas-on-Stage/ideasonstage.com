@@ -1,0 +1,101 @@
+
+# redirect catalogue
+
+[[redirects]]
+	from			= "https://catalogue.ideasonstage.com/*"	
+	to				= "https://www.ideasonstage.com/guides/ideasonstage-catalogue-en.pdf"
+	status			= 301
+	force			= true
+	
+[[redirects]]
+	from			= "http://catalogue.ideasonstage.com/*"
+	to				= "https://www.ideasonstage.com/guides/ideasonstage-catalogue-en.pdf"
+	status			= 301
+	force			= true
+	
+[[redirects]]
+	from			= "https://catalogue.ideasonstage.fr/*"
+	to				= "https://www.ideasonstage.fr/guides/ideasonstage-catalogue-fr.pdf"
+	status			= 301
+	force			= true
+		
+[[redirects]]
+	from			= "http://catalogue.ideasonstage.fr/*"
+	to				= "https://www.ideasonstage.fr/guides/ideasonstage-catalogue-fr.pdf"
+	status			= 301
+	force			= true
+	
+# redirect welcome
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/welcome/"
+	to				= "https://paper.dropbox.com/doc/Welcome-to-Ideas-on-Stage--AWL_R65t15l7_WdJUM0_B4ncAQ-zyhHjLnrK0f4cqMWINXsJ"
+	status			= 301
+	force			= true
+	
+[[redirects]]
+	from			= "https://welcome.ideasonstage.com/	"
+	to				= "https://paper.dropbox.com/doc/Welcome-to-Ideas-on-Stage--AWL_R65t15l7_WdJUM0_B4ncAQ-zyhHjLnrK0f4cqMWINXsJ"
+	status			= 301
+	force			= true
+	
+# redirect in (linkedin)
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/in/"
+	to				= "https://www.linkedin.com/company/ideas-on-stage/"
+	status			= 301
+	force			= true
+	
+[[redirects]]
+	from			= "http://in.ideasonstage.com/*"
+	to				= "https://www.linkedin.com/company/ideas-on-stage/"
+	status			= 301
+	force			= true
+		
+[[redirects]]
+	from			= "https://in.ideasonstage.com/*"
+	to				= "https://www.linkedin.com/company/ideas-on-stage/"
+	status			= 301
+	force			= true
+	
+# redirect revolution
+	
+[[redirects]]
+	from			= "https://revolution.ideasonstage.com/*"
+	to				= "https://www.ideasonstage.com/revolution/"
+	status			= 301
+	force			= true
+		
+[[redirects]]
+	from			= "http://revolution.ideasonstage.com/*"	
+	to				= "https://www.ideasonstage.com/revolution/"
+	status			= 301
+	force			= true	
+
+[[redirects]]
+	from			= "https://revolution.ideasonstage.fr/*"
+	to				= "https://www.ideasonstage.fr/revolution/"
+	status			= 301
+	force			= true	
+
+[[redirects]]
+	from			= "http://revolution.ideasonstage.fr/*"
+	to				= "https://www.ideasonstage.fr/revolution/"
+	status			= 301
+	force			= true
+	
+# redirection wos (women on stage)
+
+[[redirects]]
+	from			= "https://wos.ideasonstage.com/*"
+	to				= "https://www.ideasonstage.com/presentations-training/women-on-stage/"
+	status			= 301
+	force			= true
+		
+[[redirects]]
+	from			= "https://wos.ideasonstage.fr/*"
+	to				= "https://www.ideasonstage.fr/formation-presentations/women-on-stage/"
+	status			= 301
+	force			= true
+	
