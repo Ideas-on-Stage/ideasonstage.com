@@ -15,7 +15,23 @@
 		Friday = "Vendredi"
 		Saturday = "Samedi"
 		Sunday = "Dimanche"		
-
+	[days.es]
+		Monday = "Lunes"
+		Tuesday = "Martes"
+		Wednesday = "Miércoles"
+		Thursday = "Jueves"
+		Friday = "Viernes"
+		Saturday = "Sábado"
+		Sunday = "Domingo"			
+	[days.it]
+		Monday = "Lunedì"
+		Tuesday = "Martedì"
+		Wednesday = "Mercoledì"
+		Thursday = "Giovedì"
+		Friday = "Venerdì"
+		Saturday = "Sabato"
+		Sunday = "Domenica"		
+			
 [months]
 	[months.en] 
 		January = "January" 

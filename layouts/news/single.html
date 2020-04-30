@@ -13,16 +13,9 @@
                     <p class="text-muted  mb-small">
                     {{ if isset .Params "author" }}
 					  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a> — 
-					  {{ end }}
-                    {{ if eq $.Site.LanguageCode  "en" }}
-						{{ .Date.Format "January 2, 2006" }}
-					{{ else if eq $.Site.LanguageCode  "fr"}}
-						<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time> 
-					{{ else if eq $.Site.LanguageCode  "es"}}
-						<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
-					{{ else if eq $.Site.LanguageCode  "it"}}
-						<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}</time> 		
-					{{ end }}</p>
+					{{ end }}
+						<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate" .Date }}</time> 
+					</p>
 			    </div> <!-- /#blog-post -->
 			</div> <!-- /.row -->
 			<div class="row paddingt-tiny">

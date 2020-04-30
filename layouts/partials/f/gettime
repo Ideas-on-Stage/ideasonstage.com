@@ -1,10 +1,10 @@
 {{/* <!--
 
-	f/getdate
+	f/gettime
 	
 	Parameters: date as a string object (NOT a date object)
 	
-	Returns: the date string localized in EN, FR, ES or IT with the format "Monday 1 March 2000"
+	Returns: the time string localized in EN, FR, ES or IT with the format "15:00 CEST (Paris Time)"
 	
 	The date returned uses the local time zone of the machine running Hugo.
 	To set the local time zone on Netlify, use the "TZ" build environment variable.
@@ -31,20 +31,6 @@
 {{ $datetxt := $date.Format "Monday 2 January 2006 15:00 MST" }}
 {{ $dateelements := split $datetxt " " }}
 
-{{/* <!-- get localized day name --> */}}
-{{ $dayname := index $dateelements 0 }}
-{{/* <!-- get array of localized day names  --> */}}
-{{ $days := index site.Data.multilingual.days $lang }}
-{{/* <!-- get matching day translation --> */}}
-{{ $dayint := index $days $dayname }}
-
-{{/* <!-- get localized month name --> */}}
-{{ $monthname := printf "%s" $date.Month }}
-{{/* <!-- get array of localized month names  --> */}}
-{{ $months := index site.Data.multilingual.months $lang }}
-{{/* <!-- get matching month translation --> */}}
-{{ $monthint := index $months $monthname }}
-
 {{/* <!-- get localized time zone name --> */}}
 {{ $timezonename := index $dateelements 5 }}
 {{/* <!-- get array of localized time zone names  --> */}}
@@ -53,10 +39,7 @@
 {{ $timezoneint := index $timezones $timezonename }}
 
 {{/* <!-- build localized date string --> */}}
-{{ $dateout := add $dayint " " }}
-{{ $dateout = add $dateout (index $dateelements 1) }}
+{{ $dateout := index $dateelements 4 }}
 {{ $dateout = add $dateout " " }}
-{{ $dateout = add $dateout $monthint }}
-{{ $dateout = add $dateout " " }}
-{{ $dateout = add $dateout (index $dateelements 3) }}
+{{ $dateout = add $dateout $timezoneint }}
 {{ return $dateout }}

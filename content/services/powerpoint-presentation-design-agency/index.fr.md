@@ -85,7 +85,7 @@ Nous réduisons la taille des présentations avec notre outil interne de compres
 
 {{< storyline-begin title="Un processus simple" description="Nous commençons par vous rencontrer pour comprendre vos besoins et vos objectifs. Nous avons des équipes locales à Paris, Washington, Barcelone et Milan. Ou vous pouvez utiliser le formulaire à la fin de cette page pour nous envoyer votre demande." >}}
 
-{{< storyline-picture-text title="1 Brainstorming" description="ous démarrons par un brainstorm pour récolter les idées pour la présentation. Nous explorons chaque recoin." picture="/img/inserts/presentation-creation-service-61.jpg" >}}
+{{< storyline-picture-text title="1 Brainstorming" description="Nous démarrons par un brainstorm pour récolter les idées pour la présentation. Nous explorons chaque recoin." picture="/img/inserts/presentation-creation-service-61.jpg" >}}
 
 {{< storyline-text-picture title="2 Histoire" description="Sur base du brief et du brainstorm nous créons une histoire qui donnera envie d'écouter à votre audience." picture="/img/inserts/presentation-creation-service-62.jpg" >}}
 

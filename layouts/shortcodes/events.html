@@ -15,7 +15,7 @@
 		<div class="layout-shortcode-child flex-child-60p">
 			<h4 class="margin-none">{{ .name }}</h4>
 		    <p>{{ .description }}<br />
-			{{ partial "f/getdate" .startdate }}<br />
+			{{ partial "f/getdatetime" .startdate }}<br />
 			{{ .performer }}<br />
 			{{- range .offers }}
 			<a href="{{ .url }}" class="button-secondary">{{ .button }}</a>

@@ -74,15 +74,7 @@
                         <div class="col-sm-6">
                             <a href="{{ .RelPermalink }}"><h3 class="margint-small">{{ .Title }}</h3></a>
                         	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-                        		{{ if eq $.Site.LanguageCode  "en" }}
-                        			{{ .Date.Format "January 2, 2006" }}
-                                {{ else if eq $.Site.LanguageCode  "fr"}}
-									{{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
-                                {{ else if eq $.Site.LanguageCode  "es"}}
-									{{ .Date.Day }} {{ index $.Site.Data.moises (printf "%d" .Date.Month) }} {{ .Date.Year }}
-                                {{ else if eq $.Site.LanguageCode  "it"}}
-									{{ .Date.Day }} {{ index $.Site.Data.moisit (printf "%d" .Date.Month) }} {{ .Date.Year }}
-                                {{ end }}
+								{{ partial "f/getdate" .Date }}
                         	</time>
                             <p>{{ .Description }}</p>
                             <a href="{{ .RelPermalink }}" class="button-secondary">{{ .Site.Params.revolution.more }}</a>
