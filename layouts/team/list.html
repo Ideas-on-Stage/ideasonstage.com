@@ -3,30 +3,25 @@
 {{ end }}
 {{ define "main" }}
 	{{ "<!-- team:list.html:main:start -->" | safeHTML }}
-	{{ partial "page-content.html" . }}
 	<section id="team-members">
-	     <div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-10 col-sm-offset-1">
-					{{ $scratch := newScratch }}
-					{{ $scratch.Set "pl" .RelPermalink }}
-				    {{- $paginator := .Paginate (.Pages) 1000 }}
-					{{- range .Pages.ByWeight }}
-	           			<div class="col-xs-12 col-sm-4 col-lg-3 teambox">
-			   				<a href="{{ .RelPermalink }}" class="people-box">
-			   					<img src="{{ add .RelPermalink "thumbnail.jpg" }}" class="people-box-image" alt="">	
-			   					<div class="people-box-caption">
-			   						<div class="people-box-caption-content">
-			   							<h2 class="people-name">{{ .Params.name }}<br />
-			   								<small>{{ .Params.position }}</small>
-			   							</h2>
-			   						</div>
-			   					</div>
-			   				</a>
-			   			</div>
-					{{ end}}
-		        </div> <!--end col -->
-	        </div> <!--end row-->
+	     <div class="layout-content">
+	{{ partial "page-content.html" . }}
+			<div class="flex-parent-row flex-column-ontall flex-justify-start">
+				{{- range .Pages.ByWeight }}
+           			<div class="flex-child-33p">
+		   				<a href="{{ .RelPermalink }}" class="people-box">
+		   					<img src="{{ add .RelPermalink "thumbnail.jpg" }}" class="people-box-image" alt="{{ .Params.name }}">	
+		   					<div class="people-box-caption">
+		   						<div class="people-box-caption-content">
+		   							<h2 class="people-name">{{ .Params.name }}<br />
+		   								<small>{{ .Params.position }}</small>
+		   							</h2>
+		   						</div>
+		   					</div>
+		   				</a>
+		   			</div>
+				{{ end}}
+	        </div> <!--end col -->
 	    </div>
 	</section>
 	{{ "<!-- team:list.html:main:end -->" | safeHTML }}

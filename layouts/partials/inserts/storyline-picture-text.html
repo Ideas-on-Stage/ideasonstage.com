@@ -4,7 +4,7 @@
 		{{ partial "e/photograph.html" . }}
 	</div>
 	<div class="layout-storyline-right">
-	    {{ if ne .title "" }}<h3 class="timeline-title">{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}
+	    {{ if ne .title "" }}<h3>{{ with .title }}{{ . }}{{ end }}</h3>{{ end }}
 	    <p class="timeline-text">{{ with .description }}{{ .  }}{{ end }}</p>
 	</div>
 </div>

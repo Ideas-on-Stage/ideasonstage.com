@@ -79,6 +79,7 @@ theme        			= "hugo-creative-theme-master"
 		blockquote		= "#00A3E0"		
 		darkgray		= "#222"
 		lightgray		= "#eee"
+		midgray			= "#888"
 				
 	# ------------------------------
 	# Layout

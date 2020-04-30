@@ -90,8 +90,6 @@ footer, footer a			{ font-size: 0.75em;	}
 .people-name					{ font-size: 1.00em;	}
 .people-title				{ font-size: 0.75em;	}
 .people-description			{ font-size: 1.00em;	}
-.price .header 				{ font-size: 25px;		}
-.price .grey				{ font-size: 20px;		}
 .style-slider-title 			{ font-size: 2.50em;	}
 .style-slider-subtitle		{ font-size: 1.50em;	}
 .thumbnail-caption h3 		{ font-size: 0.75em;	}
@@ -103,8 +101,7 @@ footer, footer a			{ font-size: 0.75em;	}
 .timeline-title				{ font-size: 1.50em;	}
 .timeline-text				{ font-size: 0.80em;	}
 .style-section-title-main 	{ font-size: 2.00em;	}
-.title-responsive			{ font-size: 2.00em;	}
-.text-responsive			{ font-size: 1.00em;	}
+.style-module-text h3		{ font-size: 2.00em;	}
 #content-table h2 			{ font-size: 1em;		}
 #content-table a				{ font-size: 0.75em;	}
 
@@ -112,9 +109,7 @@ footer, footer a			{ font-size: 0.75em;	}
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
 
 	body, a, blockquote 			{ font-size: 4vw;		}
-	
 	.nav a  					{ font-size: 12px;		}
-	
 	.style-slider-title 			{ font-size: 1.50em;	}	
 	.style-slider-subtitle		{ font-size: 1.00em;	}
 	
@@ -133,243 +128,14 @@ footer, footer a			{ font-size: 0.75em;	}
 
 	/* @group STYLES STANDARD TAGS */
 	
-	/* !!! Only set sitewide attributes !!! */
-	
-	
-	body, a {
-	  	line-height: 1.6;
-	  	color: {{ site.Params.colors.text }};
-	}
-	
-	li {
-	 	text-align: left;
-	}
-	
-	blockquote {
-		color: {{ site.Params.colors.blockquote }};
-	}
-	
-	h1 {
-	  	text-transform: uppercase;
-	}
-	
-	time {
-	 	color: {{ site.Params.colors.time }};
-	}
-	 
-	a {
-	    color: {{ site.Params.colors.text }};
-		border-bottom: none;
-		text-decoration: none;
-	    transition: all .35s;
-	}
-	
-	a:hover,
-	a:focus {
-	    color: {{ site.Params.colors.link_hover }};
-		border-bottom: none;
-		text-decoration: none;
-		transition: all .35s;
-	}
-	
-	p a, li a {
-		border-bottom: dotted 1px {{ site.Params.colors.link_hover }};
-	}
-
-	footer {
-		background-color: #222;
-		color: #bbb;
-	}
-	footer a {
-		color: #FF8200;
-	}	
-	
-	/* @end */
-
-	/* @group STYLES CUSTOM CLASSES */
-	#breadcrumbs {
-		background-color: {{ site.Params.colors.lightgray }};
-	}
-	
-	#breadcrumbs ol {
-		display: flex;
-		padding: 0.2vw 0;
-		margin: 0;
-		list-style: none;
-		text-transform: uppercase;
-	}
-	#breadcrumbs li {
-		margin: 0;
-	}
-	#breadcrumbs .arrow {
-		padding: 0 2vw;
-	}
-
-	@media(max-aspect-ratio:1/1) and (max-width:480px) {
-	
-		/* adjust for tall viewport */
-	
-		#breadcrumbs ol {
-		padding: 2vw 0;
+		/* !!! Only set sitewide attributes !!! */
+		/* define the styling of standard tags */
+		
+		a {
+		  	line-height: 1.6;
+		  	color: {{ site.Params.colors.text }};
 		}
 		
-		.style-slider-subtitle {
-			margin: 2vw 8vw;
-		}
-		
-	}
-
-	#content-main h1,
-	#content-main h5 {
-		/* highlight h1 and h5 in red to show problem */
-		color: red; 
-	}
-		
-	.photograph {
-		border: 8px solid #fff;
-		box-shadow: 2px 2px 8px #aaa;
-	}
-	
-	.style-text-intro {
-		color: #888;
-		text-align: center;
-	}
-	
-	.style-page-title {
-		text-align: center;
-		color: #fff;
-		background-color: #222;
-	}
-	
-	.style-page-title-overlay {
-		text-align: center;
-		color: #fff;
-		background-color: rgba(0, 0, 0, 0.4);	
-	}
-	
-	.style-section-title-main {
-		color: #bbb;
-		text-transform: uppercase;
-	}
-	
-	.text-responsive {
-		margin: 0;
-		padding: 0;
-	}
-	
-	.title-responsive
-	{
-		margin: 0 0 1vw 0;
-		padding: 0;
-	}
-	
-	.timeline-title {
-		padding: 0;
-		margin: 0;
-		margin-top: 0;
-		margin-bottom: 1vw;
-	}
-
-	/* @group SLIDER */
-	
-	.style-slider-title {
-	  margin: 1vw 8vw 0 8vw;
-	  line-height: 1.2;
-	  color: white; 
-	  text-align: center;
-	}
-	
-	.style-slider-subtitle {
-	  margin: 1vw 8vw;
-	  line-height: 1.2;
-	  color: rgba(255, 255, 255, 0.8); 
-	  text-align: center;
-	}
-	
-	@media(max-aspect-ratio:1/1) and (max-width:480px) {
-	
-		/* adjust for tall viewport */
-	
-		.style-slider-title {
-			margin: 2vw 8vw 0 8vw;
-		}
-		
-		.style-slider-subtitle {
-			margin: 2vw 8vw;
-		}
-		
-	}
-	
-	/* @end */
-	
-	/* @group BUTTONS */
-	
-	.button-primary {
-		margin: 1vw 0;
-	    padding: 1vw 2vw;
-		color: {{ site.Params.buttons.primary.color }} !important;
-		background-color: {{ site.Params.buttons.primary.bg_color }};
-		border: none;
-	    border-radius: 5px;
-	    border-color: none;
-	    border-style: none;
-	    text-transform: uppercase;
-	}
-	
-	.button-secondary {
-		margin: 1vw 0;
-	    padding: 0px;
-		color: {{ site.Params.buttons.secondary.color }} !important;
-		background-color: {{ site.Params.buttons.secondary.bg_color }};
-		border: none;
-	    border-radius: 5px;
-	    border-color: none;
-	    border-style: none;
-	    text-transform: uppercase;
-	}
-	
-	.bg-primary .button-secondary {
-		color: white !important;
-	}
-	
-	.button-secondary:hover,
-	.button-secondary:focus,
-	.button-secondary.focus,
-	.button-secondary:active,
-	.button-secondary.active {
-	    border-style: none;
-	}
-	
-	/* adapt to tall smartphone screens */
-	@media(max-aspect-ratio:1/1) and (max-width:480px) {
-		
-		.button-primary {
-			padding: 2vw 6vw;
-		}
-	
-		.button-primary {
-			padding: 2vw 6vw;
-		}
-	}
-	
-	/* @end */
-
-/* @end */
-
-/* @end */
-
-
-
-/* @group LAYOUT */
-
-	/* Layout defines the position constraints of elements in the document flow */
-
-	/* @group standard tags */
-		aside {
-			padding: 0;
-			margin: 0;
-		}
-	
 		blockquote {
 			padding: 1vw;
 		}
@@ -379,25 +145,29 @@ footer, footer a			{ font-size: 0.75em;	}
 		}
 
 		body {
-			padding: 0;
-			margin: 0;
-		}		
+			scroll-padding-top: {{ site.Params.navigation.height }};
+		  	line-height: 1.6;
+		  	color: {{ site.Params.colors.text }};
+		}
+		
+		blockquote {
+			color: {{ site.Params.colors.blockquote }};
+		}
 
 		footer {
 			padding: 50px 0;
 		}
-		
-		header {
-			padding: 0;
-			margin: 0;
-		}
-		
+				
 		h1 {
-			margin-block-start: 0.5em;
-			margin-block-end: 0.5em;
+			margin: 0;
+			margin-block-start: 0em;
+			margin-block-end: 0em;
+		  	text-transform: uppercase;
 		}
 		
-		h3 {
+		h2,
+		h3,
+		h4 {
 			margin-block-start: 0;
 			margin-block-end: 0;
 		}
@@ -408,27 +178,82 @@ footer, footer a			{ font-size: 0.75em;	}
 		 	text-align: left;
 		}
 		
-		main {
-			padding: 0;
-			margin: 0;
+		time {
+		 	color: {{ site.Params.colors.time }};
+		}
+		 
+		a {
+		    color: {{ site.Params.colors.text }};
+			border-bottom: none;
+			text-decoration: none;
+		    transition: all .35s;
 		}
 		
-		nav {
-			padding: 0;
-			margin: 0;
+		a:hover,
+		a:focus {
+		    color: {{ site.Params.colors.link_hover }};
+			border-bottom: none;
+			text-decoration: none;
+			transition: all .35s;
 		}
 		
 		p {
 			margin-top: 1em;
 			margin-bottom: 1em;
 		 }
-				
-	/* @end */
-	
-	/* @group #content-main */
-	
-		/* #content-main is the section that displays the .Content of most pages */
 		
+		p a, li a {
+			border-bottom: dotted 1px {{ site.Params.colors.link_hover }};
+		}
+	
+		footer {
+			background-color: #222;
+			color: #bbb;
+		}
+		footer a {
+			color: #FF8200;
+		}	
+		
+	/* @end */
+
+	/* @group STYLES IDs */
+		
+		#breadcrumbs {
+			background-color: {{ site.Params.colors.lightgray }};
+		}
+		
+		#breadcrumbs ol {
+			display: flex;
+			padding: 0.2vw 0;
+			margin: 0;
+			list-style: none;
+			text-transform: uppercase;
+		}
+		#breadcrumbs li {
+			margin: 0;
+		}
+		#breadcrumbs .arrow {
+			padding: 0 2vw;
+		}
+	
+		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+		
+			/* adjust for tall viewport */
+		
+			#breadcrumbs ol {
+			padding: 2vw 0;
+			}
+			
+		}
+
+		/* #content-main is the section that displays the .Content of most pages */
+	
+		#content-main h1,
+		#content-main h5 {
+			/* highlight h1 and h5 in red to show they should not be used in content */
+			color: red; 
+		}
+	
 		/* define title margins */
 		#content-main > h2 {
 			/* The > sign ensures only direct children are affected */
@@ -436,7 +261,7 @@ footer, footer a			{ font-size: 0.75em;	}
 			padding-top: {{ site.Params.navigation.height }};
 			margin-bottom: 0.5em;
 		}
-
+	
 		#content-main > h3,
 		#content-main > h4 {
 			/* The > sign ensures only direct children are affected */
@@ -487,17 +312,19 @@ footer, footer a			{ font-size: 0.75em;	}
 		}
 				
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
-
+	
 			#content-main th {
 				min-width: 50px;
 			}
 		
 		}
 	
+		/* content table is the style for the table of contents */
+		
 		#content-table {
 			padding-right: 4vw;
 		}
-
+	
 		.scroller {
 						max-height: 90vh;
 			overflow-y: auto;
@@ -522,50 +349,144 @@ footer, footer a			{ font-size: 0.75em;	}
 			background-color: #eee;
 			line-height: 1;
 		}
-
+	
 		#content-table li > ul > li {
 			padding: 0 0 0 10px;
 		}
 		
+		#team-member .style-person-title {
+			font-size: 1.5em;
+			margin-top: 0;
+			color: {{ site.Params.colors.midgray }};
+			text-transform: uppercase;
+		}
+		
 	/* @end */
 	
-	/* @group page sections */
+	/* @group STYLES CUSTOM CLASSES */
+		
+		/* style for page titles */
+		.style-page-title {
+			text-align: center;
+			color: #fff;
+			background-color: #222;
+		}
+			
+		/* style for photograph styled pictures */
+		.style-photograph {
+			border: 8px solid #fff;
+			box-shadow: 2px 2px 8px #aaa;
+		}
+		
+		.style-text-intro {
+			color: #888;
+			text-align: center;
+		}
+		
+		.style-page-title-overlay {
+			text-align: center;
+			color: #fff;
+			background-color: rgba(0, 0, 0, 0.4);	
+		}
+		
+		.style-section-title-main {
+			color: #bbb;
+			text-transform: uppercase;
+		}
+		
+	/* @end */
+	
+	/* @group STYLES SLIDER */
+	
+		.style-slider-title {
+		  margin: 1vw 8vw 0 8vw;
+		  line-height: 1.2;
+		  color: white; 
+		  text-align: center;
+		}
+		
+		.style-slider-subtitle {
+		  margin: 1vw 8vw;
+		  line-height: 1.2;
+		  color: rgba(255, 255, 255, 0.8); 
+		  text-align: center;
+		}
+		
+		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+		
+			/* adjust for tall viewport */
+		
+			.style-slider-title {
+				margin: 2vw 8vw 0 8vw;
+			}
+			
+			.style-slider-subtitle {
+				margin: 2vw 8vw;
+			}
+			
+		}
+	
+	/* @end */
+	
+	/* @group BUTTONS */
+		
+		.button-primary {
+			margin: 1vw 0;
+		    padding: 1vw 2vw;
+			color: {{ site.Params.buttons.primary.color }} !important;
+			background-color: {{ site.Params.buttons.primary.bg_color }};
+			border: none;
+		    border-radius: 5px;
+		    border-color: none;
+		    border-style: none;
+		    text-transform: uppercase;
+		}
+		
+		.button-secondary {
+		    padding: 0px;
+			color: {{ site.Params.buttons.secondary.color }} !important;
+			background-color: {{ site.Params.buttons.secondary.bg_color }};
+			border: none;
+		    border-radius: 3px;
+		    border-color: none;
+		    border-style: none;
+		    text-transform: uppercase;
+		}
+			
+		/* adapt to tall smartphone screens */
+		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+			
+			.button-primary {
+				padding: 2vw 6vw;
+			}
+		
+			.button-primary {
+				padding: 2vw 6vw;
+			}
+		}
+	
+	/* @end */
 
-		/* spacer same height as menu bar */
+/* @end */
+
+
+
+/* @group .LAYOUT */
+
+	/*	.layout- classes for specific layouts
+	 	for generic flexboxes, use .flex- classes */
+	
+	/* @group .LAYOUT- CLASSES */
+
+		/* wrapper for all content <body> */
 		.layout-page {
 			padding-top: {{ site.Params.layout.page.padding.top }};
 			padding-right: {{ site.Params.layout.page.padding.right }};
 			padding-bottom: {{ site.Params.layout.page.padding.bottom }};
 			padding-left: {{ site.Params.layout.page.padding.left }};
 		}
-		
-		/* approximately 16/6 ratio */
-		.layout-page-title {
-			position: sticky;
-			top: {{ site.Params.navigation.height }};
-			z-index: 100;
-			display: flex;
-			justify-content: center;
-			padding: 2vw;
-		}
-		
-		/* hero */
-		.layout-hero {
-			margin: 0;
-			padding: 0;
-			height: 70vh;
-			width: 100vw;
-		}
-		.layout-hero img {
-			position: absolute;
-			z-index: 0;
-			margin: 0;
-			padding: 0;
-			height: 70vh;
-			width: 100vw;
-			object-fit: cover;
-		}
-		
+
+		/* wrapper from main content such as .Content */
 		.layout-content {
 			padding: 2vw 2vw;
 			margin: auto;
@@ -573,13 +494,18 @@ footer, footer a			{ font-size: 0.75em;	}
 			max-width: 1200px; /* prevents text area from getting unpleasantly wide */
 		}
 
+		/* use to align menubar, footer, etc. on content */
 		.layout-content-width {
 			padding: 0 2vw;
 			margin: auto;
 			width: 80vw;
 			max-width: 1200px; /* prevents text area from getting unpleasantly wide */
 		}
-				
+		
+		#content-list {
+			padding-bottom: 4vw;
+		}
+
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
 
 			.layout-content {
@@ -591,10 +517,24 @@ footer, footer a			{ font-size: 0.75em;	}
 		}
 		
 	/* @end */
+
+	/* @group .LAYOUT-PAGE-TITLE */
+			
+		/* main page title layout */
+		.layout-page-title {
+			position: sticky;
+			top: {{ site.Params.navigation.height }};
+			z-index: 100;
+			display: flex;
+			justify-content: center;
+			padding: 2vw;
+		}
+		
+	/* @end */
+		
+	/* @group .LAYOUT-SCREEN */
 	
-	/* @group screen layout */
-	
-		/* layout height = 100vh - menu, width=100vw (full viewport minus menubar) */
+		/* full viewport minus menubar layout */
 		.layout-screen-full {
 			margin: 0;
 			padding: 0;
@@ -617,20 +557,41 @@ footer, footer a			{ font-size: 0.75em;	}
 			width: 100vw;
 		}
 		
+		
 		.layout-screen-partial img {
+			position: absolute;
+			z-index: 0;
 			margin: 0;
 			padding: 0;
 			height: 70vh;
 			width: 100vw;
 			object-fit: cover;
 		}
-	
+
+		/* hero */
+		.layout-hero {
+			margin: 0;
+			padding: 0;
+			height: 70vh;
+			width: 100vw;
+		}
+		.layout-hero img {
+			position: absolute;
+			z-index: 0;
+			margin: 0;
+			padding: 0;
+			height: 70vh;
+			width: 100vw;
+			object-fit: cover;
+		}
+			
 	/* @end */
 	
-	/* @group layout-module */
-	/* layout-module is a series of constant height page modules */
+	/* @group .LAYOUT-MODULE */
+	
+		/* constant height page modules */
 
-		/* enclose all modules in one layout-module-wrapper div to add external padding */
+		/* enclose all modules in one layout-module-wrapper div */		
 		.layout-module-wrapper {
 			padding: {{ site.Params.modules.padding }};
 		}
@@ -778,7 +739,7 @@ footer, footer a			{ font-size: 0.75em;	}
 	
 	/* @end */
 	
-	/* @group shortcodes */
+	/* @group .LAYOUT-SHORTCODE */
 	
 		.layout-shortcode {
 			display: flex;
@@ -810,9 +771,10 @@ footer, footer a			{ font-size: 0.75em;	}
 				padding: 2vw;
 			}
 		}
+		
 	/* @end */
 	
-	/* @group storyline inserts */
+	/* @group .LAYOUT-STORYLINE */
 	
 		.layout-storyline {
 			/* main wrapper */
@@ -852,7 +814,7 @@ footer, footer a			{ font-size: 0.75em;	}
 		
 	/* @end */
 	
-	/* @group layout helper classes */
+	/* @group .LAYOUT HELPER CLASSES */
 		.layout-relative {
 			position: relative;
 		}
@@ -877,6 +839,9 @@ footer, footer a			{ font-size: 0.75em;	}
 
 /* @group FLEX */
 
+	/* .flex- is a series of classes to implement generic flexbox */
+	/* .layout- are defined for a precise use, .flex- is more generic */
+	
 	/* @group flex standard */
 	
 		/* flex row that wraps if too large */
@@ -901,7 +866,9 @@ footer, footer a			{ font-size: 0.75em;	}
 		
 		/* standard flex child */
 		.flex-child {
+			height: 100%;
 			flex: 1;
+			flex-grow: 0;
 			max-height: 100%;
 			max-width: 100%;
 		}
@@ -913,25 +880,12 @@ footer, footer a			{ font-size: 0.75em;	}
 			flex-grow: 0;
 			flex-basis: 60%; /* start at 60% width */
 		}
-		.flex-child-60p img {
-			margin: 0;
-			padding: 0;
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-
+		
 		/* flex child constrained to about 50% of available space */
 		.flex-child-50p {
 			height: 100%;
 			flex: 1;
 			flex-basis: 50%; /* start at 60% width */
-		}
-		.flex-child-50p img {
-			margin: 0;
-			padding: 0;
-			width: 100%;
-			height: 100%;
 		}
 		
 		/* flex child constrained to about 40% of available space */
@@ -940,23 +894,14 @@ footer, footer a			{ font-size: 0.75em;	}
 			flex: 1;
 			flex-basis: 40%
 		}
-		.flex-child-40p img {
-			width: 100%;
-			height: 100%;
-		}
 
-		/* flex child constrained to about 60% of available space */
+		/* flex child constrained to about 3	3% of available space */
 		.flex-child-33p {
 			height: 100%;
 			flex: 1;
-			flex-basis: 33%; /* start at 60% width */
+			flex-basis: 33%; /* start at 33% width */
+			flex-grow: 0;
 			min-width: 120px; /* force 2 columns width on tall sp screens */
-		}
-		.flex-child-33p img {
-			margin: 0;
-			padding: 0;
-			width: 100%;
-			height: 100%;
 		}
 		
 		/* flex child constrained to about 67% of available space */
@@ -964,7 +909,20 @@ footer, footer a			{ font-size: 0.75em;	}
 			height: 100%;
 			flex: 1;
 			flex-grow: 0;
-			flex-basis: 67%; /* start at 60% width */
+			flex-basis: 67%; /* start at 67% width */
+		}
+
+		.flex-child img,
+		.flex-child-67p img,
+		.flex-child-60p img,
+		.flex-child-50p img,
+		.flex-child-40p img,
+		.flex-child-33p img {
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
 		}
 		
 		.flex-child-text {
@@ -974,7 +932,6 @@ footer, footer a			{ font-size: 0.75em;	}
 		.flex-child-text-left {
 			padding-right: 2vw;
 		}
-		
 		/* adjust child to text on right of pic */
 		.flex-child-text-right {
 			padding-left: 2vw;
@@ -985,27 +942,48 @@ footer, footer a			{ font-size: 0.75em;	}
 	/* @group flex helper classes */
 		
 		.flex-align-center {
+			/* center flex items (vertically for row, horizontally for col */
 			align-items: center;
 		}
 		
+		.flex-align-end {
+			/* align flex items (vertically for row, horizontally for col */
+			align-items: flex-end;
+		}
+
+		.flex-align-start {
+			/* align flex items (vertically for row, horizontally for col */
+			align-items: flex-start;
+		}
+		
+		.flex-align-self-center {
+			/* force one child to center itself  */
+			align-self: center;
+		}
+		
 		.flex-justify-center {
+			/* center flex items (horizontally for row, vertically for col */
 			justify-content: center;
 		}
 		
 		.flex-justify-start {
+			/* force all items at start of flex container */
 			justify-content: flex-start;
 		}
 		
 		.flex-justify-end {
+			/* force all items at end of flex container */
 			justify-content: flex-end;
+		}
+		
+		.flex-justify-space-between {
+			/* add even space between items */
+			justify-content: space-between;
 		}
 
 		.flex-wrap-no {
+			/* disable wrap */
 			flex-wrap: nowrap;
-		}
-		
-		.flex-align-self-center {
-			align-self: center;
 		}
 		
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
@@ -1060,134 +1038,6 @@ footer, footer a			{ font-size: 0.75em;	}
 	/* @end */
 	
 /* @end */
-
-/* @group PICTURES */
-
-/*
-	PICTURE FORMATS
-	---------------
-	
-	Pic formats have been greatly simplified. The last legacy is .img-crop
-	used on revolution page, but it should be replaced too.
-	
-*/
-
-.img-crop {
-	position: absolute;
-	width: 100%;
-	overflow: hidden;
-}
-
-.img-crop img {
-	position: relative;
-	left: 50%;
-	width: 100%;
-	height: auto; /* 720px on purpose, to avoid empty bottom */
-	transform: translate(-50%, 0%);
-}
-
-/* @end */
-
-/*
-	OLD FLEX - REPLACED BY NEW FLEX
-*/
-
-.flex-container {
-	position: relative;
-	width: 100%;
-	justify-content: center;
-	overflow: hidden;
-	height: 675px;
-}
-/*
-	Standard text, full width, laid over picture
-*/	
-.flex-container .flex-item-text {
-}
-
-flex-container .flex-item-text h4 {
-	margin-top: 30px;
-} 
-
-.flex-container-inner {
-	margin-left: 6px;
-	margin-right: 6px;
-	padding: 20px;
-	height: 675px;
-}
-
-/*
-	Text, laid over picture
-*/
-.flex-container .flex-item-text-overlay {
-	position: absolute;
-	margin-left: 5%;
-	margin-right: 5%;
-	width: 90%;
-}
-
-.flex-container .flex-item-text-overlay h4 {
-	margin-top: 30px;
-	padding: 0px 20px;
-}
-
-/* @end */
-
-
-/*
-	Media queries
-*/
-
-@media(min-width:1921px) {
-	
-	.flex-container {
-		height: 900px;
-	}
-
-	.img-crop img {
-		width: 100%;
-		height: auto;
-		transform: translate(-50%, 0%);
-	}
-}
-
-/*	Our images have a 16:9 ratio.
-	Standard container height is 675px.
-	1200px is the switching point for img-crop between
-	- fixed height up to 1200px
-	- 100% above
-*/
-
-@media(max-width:1200px) {
-	
-	.img-crop img {
-		width: auto;
-		height: 675px;
-	}
-}
-
-
-@media(max-width:719px){
-	
-	.flex-container {
-		height: 450px;
-	}
-
-	.flex-container .flex-item-text h4 {
-		margin-top: 6px;
-	}
-
-	/* On small screens, keep full bleed pic height constant */
-	.img-crop img {
-		width: auto;
-		height: 450px;
-		transform: translate(-50%, 0%);
-	}
-	
-	.flex-container .flex-item-text h4 {
-		margin-top: 6px;
-	}
-}
 
 
 
@@ -1307,6 +1157,8 @@ flex-container .flex-item-text h4 {
 
 /* @end */
 
+
+
 /* @group SECTIONS */
 
 	article img {
@@ -1322,23 +1174,7 @@ flex-container .flex-item-text h4 {
 		width: auto;
 		max-width: 100%;
 	}
-	
-	section#content  {
-		background-color: #fff; 
-	}
-	
-	section#content h1,
-	section#content h2,
-	section#content h3,
-	section#content h4 {
-		margin-top: 40px;
-		margin-bottom: 0.5em;
-	}
-	
-	section#content p {
-		margin-top: 1em;
-	}
-	
+
 	div#storyline-bullet img {
 		margin-top: 0px;
 		margin-bottom: 0px;
@@ -1349,18 +1185,9 @@ flex-container .flex-item-text h4 {
 		background-color: rgba(255,255,255,0.98); 
 	}
 	
-	section#team-member-bio .picture {
-		margin-top: 2em;
-		margin-bottom: 2em;
-	}
-	
-	section#team-member-bio .text {
-		margin-top: 1.5em;
-	}
-
 /* @end */
 
-/* End of customization */
+
 
 /* @group MENU */
 
@@ -1411,6 +1238,11 @@ flex-container .flex-item-text h4 {
 .navbar-inverse .nav>li.open>a:hover, 
 .navbar-inverse .nav>li.open>a:focus:hover, {
     background-color: transparent;	
+}
+
+/* override bootstrap margin */
+.navbar-toggle {
+	margin-right: 0;
 }
 
 .dropdown-menu {
@@ -1466,19 +1298,6 @@ flex-container .flex-item-text h4 {
     margin-top: 0;
 }
 
-/* PMO added panel stuff */
-
-.panel {
-	border-width: 2px;
-	border-color: #666;
-} 
-
-@media(max-width:768px) {
-    .panel {
-    	border: none;
-    }
-}
-
 /* PMO: added thumbnail stuff */
 /*PMO forced to make thumbnail relative or caption alignment was wrong*/
 .thumbnail {
@@ -1508,16 +1327,6 @@ flex-container .flex-item-text h4 {
 }
 
 /*PMO people-box is used for team members and other people profiles*/
-
-.trainer {
-	padding-top: 10px;
-}
-
-.tab-inside {
-	display: inline-block;
-	right: 0px;
-	width: 70%;
-}
 
 .people-box {
 	min-height:175px;
@@ -1616,10 +1425,6 @@ section#contact .text-danger {
 img::selection {
     color: #fff;
     background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: #222;
 }
 
 /* Testimonials */

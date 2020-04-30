@@ -4,5 +4,5 @@
 {{- end }}
 {{ partial "e/title.html" . }}
 {{- if $data.description }}
-	<p class="text-responsive">{{ with $data.description }}{{ . | safeHTML }}{{ end }}</p>
+	<p>{{ with $data.description }}{{ . | safeHTML }}{{ end }}</p>
 {{- end }}

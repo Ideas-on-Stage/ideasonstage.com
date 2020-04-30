@@ -8,19 +8,7 @@
 	force			= true
 	
 [[redirects]]
-	from			= "http://catalogue.ideasonstage.com/*"
-	to				= "https://www.ideasonstage.com/guides/ideasonstage-catalogue-en.pdf"
-	status			= 301
-	force			= true
-	
-[[redirects]]
 	from			= "https://catalogue.ideasonstage.fr/*"
-	to				= "https://www.ideasonstage.fr/guides/ideasonstage-catalogue-fr.pdf"
-	status			= 301
-	force			= true
-		
-[[redirects]]
-	from			= "http://catalogue.ideasonstage.fr/*"
 	to				= "https://www.ideasonstage.fr/guides/ideasonstage-catalogue-fr.pdf"
 	status			= 301
 	force			= true
@@ -34,7 +22,7 @@
 	force			= true
 	
 [[redirects]]
-	from			= "https://welcome.ideasonstage.com/	"
+	from			= "https://welcome.ideasonstage.com/*"
 	to				= "https://paper.dropbox.com/doc/Welcome-to-Ideas-on-Stage--AWL_R65t15l7_WdJUM0_B4ncAQ-zyhHjLnrK0f4cqMWINXsJ"
 	status			= 301
 	force			= true
@@ -46,15 +34,15 @@
 	to				= "https://www.linkedin.com/company/ideas-on-stage/"
 	status			= 301
 	force			= true
-	
-[[redirects]]
-	from			= "http://in.ideasonstage.com/*"
-	to				= "https://www.linkedin.com/company/ideas-on-stage/"
-	status			= 301
-	force			= true
 		
 [[redirects]]
 	from			= "https://in.ideasonstage.com/*"
+	to				= "https://www.linkedin.com/company/ideas-on-stage/"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://in.ideasonstage.fr/*"
 	to				= "https://www.linkedin.com/company/ideas-on-stage/"
 	status			= 301
 	force			= true
@@ -66,26 +54,14 @@
 	to				= "https://www.ideasonstage.com/revolution/"
 	status			= 301
 	force			= true
-		
-[[redirects]]
-	from			= "http://revolution.ideasonstage.com/*"	
-	to				= "https://www.ideasonstage.com/revolution/"
-	status			= 301
-	force			= true	
 
 [[redirects]]
 	from			= "https://revolution.ideasonstage.fr/*"
 	to				= "https://www.ideasonstage.fr/revolution/"
 	status			= 301
 	force			= true	
-
-[[redirects]]
-	from			= "http://revolution.ideasonstage.fr/*"
-	to				= "https://www.ideasonstage.fr/revolution/"
-	status			= 301
-	force			= true
 	
-# redirection wos (women on stage)
+# redirect wos (women on stage)
 
 [[redirects]]
 	from			= "https://wos.ideasonstage.com/*"
@@ -98,4 +74,3 @@
 	to				= "https://www.ideasonstage.fr/formation-presentations/women-on-stage/"
 	status			= 301
 	force			= true
-	

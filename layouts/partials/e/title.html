@@ -3,5 +3,5 @@
 	{{- $data = .Params }}
 {{- end }}
 {{- if $data.title }}
-	<h3 class="title-responsive">{{ with $data.title | safeHTML }}{{ . }}{{ end }}</h3>
+	<h3>{{ with $data.title | safeHTML }}{{ . }}{{ end }}</h3>
 {{- end }}

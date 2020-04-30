@@ -6,21 +6,16 @@
 {{/* <!-- no hero for single team page --> */}}
 {{- define "main" }}
 	{{ "<!-- team:single.html:main:start -->" | safeHTML }}
-	<section id="team-member-bio">
-	    <div class="container paddingt-huge">
-	        <div class="row">
-	        	<div class="col-xs-10 col-xs-offset-1 col-md-4 picture">  		
+	<section id="team-member" class="layout-content">
+	    <div class="flex-parent-row flex-column-ontall">
+	        	<div class="flex-child-33p">  		
 					{{ with .Params -}}
-						<img src="{{ .picture }}" class="img-responsive img-left photograph" alt="{{ .name }}">
+						<img src="{{ .picture }}" class="img-responsive img-left style-photograph" alt="{{ .name }}">
 					{{- end }}
 		        </div>
-		        <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 text">
-					<h1>
-						{{ with .Params -}}
-							<span>{{ .name }}</span><br />
-							<small>{{ .position }}</small>
-						{{- end }}
-					</h1>
+		        <div class="flex-child-67p flex-child-text-right">
+					<h1>{{ .Params.name }}</h1>
+					<p class="style-person-title">{{ .Params.position }}</p>
 					{{ with .Content }}{{ . | markdownify }}{{ end }}
 		        </div>
 	        </div> <!--end row-->      

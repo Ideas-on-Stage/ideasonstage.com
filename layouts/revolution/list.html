@@ -4,20 +4,20 @@
 	{{ range first 1 .Pages }}
 		{{/* <!-- generate hero with newest video --> */}}
 	     <section id="hero">
-			<div class="flex-container">
+			<div class="layout-screen-partial">
 				<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
-					<div class="img-crop">
-						<img src="{{ .RelPermalink }}image.jpg" class="picture">
-					</div>
+					<img src="{{ .RelPermalink }}image.jpg">
 				</a>
-				<div class="bg-black">
-					<div class="flex-item-text-overlay text-center">
+				<div class="layout-relative flex-parent-column">
+					<div class="flex-child-text text-center">
 						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
-					    	<h2>{{ with .Title }}{{ . }}{{ end }}</h2>
+					    	<h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
 					    </a>
-						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}</a>
-			    	</div>
-				</div>
+						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">
+							{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
+						</a>
+					</div>
+		    	</div>
 			</div>
 		</section>
 	{{ end }}
