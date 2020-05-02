@@ -1,0 +1,50 @@
+{{/* <!--
+	
+	f/getheropicturepath
+	
+	Gets full path to hero picture for pages files.
+	
+	Arguments:
+	- . as .Page object
+	
+	Process:
+	- If page:
+		- tries to use hero.jpg, then .Params.picture
+		- completes path with .RelPermalink if only picture name specified.
+
+ --> */}}
+
+{{ $imgpath := "" }}
+{{ $picture := "" }}
+{{ $found := false }}
+{{ if partial "f/ispage" . }}
+	{{/* <!-- then this is a page, check for hero.jpg in same directory --> */}}
+	{{ $thumbtest := add .File.Dir "hero.jpg" }}
+	{{ if and (eq .Section "team") (.IsPage) }}
+		{{/* <!-- temporary workaround not to show hero on team member page --> */}}
+	{{ else if fileExists $thumbtest }}
+		{{/* <!-- then a file named hero.jpg exists, use it --> */}}
+	  	{{ $picture = "hero.jpg" }}
+		{{ $found = true }}
+	{{ else if .Params.picture }}
+		{{/* <!-- else if .picture exists, use it --> */}}
+		{{ $picture = .Params.picture }}
+		{{ $found = true }}
+	{{ end }}
+{{ end }}
+
+{{ if $found }}
+	{{ $firstchar := substr $picture 0 1 }}
+	{{ $firstfour := substr $picture 0 4 }}
+	{{ if eq "/" $firstchar }}
+		{{/* <!-- if starts with / then .picture contains rel path to img --> */}}
+		{{ $imgpath = $picture }}
+	{{ else if eq "http" $firstfour }}
+		{{/* <!-- if starts with / then .picture contains abs path to img --> */}}
+		{{ $imgpath = $picture }}
+	{{ else }}
+		{{/* <!-- else .picture contains name of img, add path --> */}}
+		{{ $imgpath = path.Join .RelPermalink $picture }}
+	{{ end }}
+{{ end }}
+{{ return $imgpath }}

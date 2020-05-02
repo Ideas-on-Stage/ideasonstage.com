@@ -1,7 +1,7 @@
 
 		{{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
 		<header id="hero">
-			{{- $heropath := .Params.picture }}
+			{{- $heropath := partial "f/getheropicturepath" . }}
 			{{- if isset .Params "slider" }}
 				{{ partial "page-slider.html" . }}
 			{{- else if $heropath }}

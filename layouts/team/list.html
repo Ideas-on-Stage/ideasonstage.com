@@ -1,23 +1,20 @@
 {{ define "main" }}
 	{{ "<!-- team:list.html:main:start -->" | safeHTML }}
 	<section id="team-members">
-	     <div class="layout-content">
-	{{ partial "page-content.html" . }}
-			<div class="flex-parent-row flex-column-ontall flex-justify-start">
+		<div class="style-text-intro">
+			{{ partial "page-content.html" . }}
+		</div>
+    	<div class="layout-content">
+		 	<div class="flex-parent-row flex-column-ontall flex-justify-start">
 				{{- range .Pages.ByWeight }}
-           			<div class="flex-child-33p">
-		   				<a href="{{ .RelPermalink }}" class="people-box">
-		   					<img src="{{ add .RelPermalink "thumbnail.jpg" }}" class="people-box-image" alt="{{ .Params.name }}">	
-		   					<div class="people-box-caption">
-		   						<div class="people-box-caption-content">
-		   							<h2 class="people-name">{{ .Params.name }}<br />
-		   								<small>{{ .Params.position }}</small>
-		   							</h2>
-		   						</div>
-		   					</div>
-		   				</a>
-		   			</div>
-				{{ end}}
+       			<div class="flex-child-33p">
+	   				<a href="{{ .RelPermalink }}" class="people-box">
+	   					<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}">	
+						<h2 class="people-box-name">{{ .Params.name }}</h2>
+						<p class="people-box-title">{{ .Params.position }}</p>
+	   				</a>
+	   			</div>
+				{{- end}}
 	        </div> <!--end col -->
 	    </div>
 	</section>

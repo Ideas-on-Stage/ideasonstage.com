@@ -87,9 +87,8 @@ footer, footer a			{ font-size: 0.75em;	}
 .flex-404 .error-box h1		{ font-size: 2.00em;	}
 .flex-404 .error-box h2 		{ font-size: 1.25em;	}
 .form-control-nav 			{ font-size: 90%;		}
-.people-name					{ font-size: 1.00em;	}
-.people-title				{ font-size: 0.75em;	}
-.people-description			{ font-size: 1.00em;	}
+.people-box-name				{ font-size: 1.00em;	}
+.people-box-title			{ font-size: 0.75em;	}
 .style-slider-title 			{ font-size: 2.50em;	}
 .style-slider-subtitle		{ font-size: 1.50em;	}
 .thumbnail-caption h3 		{ font-size: 0.75em;	}
@@ -902,8 +901,7 @@ footer, footer a			{ font-size: 0.75em;	}
 			height: 100%;
 			flex: 1;
 			flex-basis: 33%; /* start at 33% width */
-			flex-grow: 0;
-			min-width: 120px; /* force 2 columns width on tall sp screens */
+			min-width: 120px; /* force 2 columns width on ts screens */
 		}
 		
 		/* flex child constrained to about 67% of available space */
@@ -1081,6 +1079,7 @@ footer, footer a			{ font-size: 0.75em;	}
 	
 	/* text color helper classes */
 	
+	.text-primary		{   color: #FF8200;			}
 	.text-faded 		{   color: rgba(255,255,255,.7);	}
 	.text-blue	 		{	color: rgb(51,53,65);	}
 	.text-white			{	color: #fff;				}
@@ -1180,11 +1179,6 @@ footer, footer a			{ font-size: 0.75em;	}
 	div#storyline-bullet img {
 		margin-top: 0px;
 		margin-bottom: 0px;
-	}
-	
-	section#team-members {
-		padding-top: 25px;
-		background-color: rgba(255,255,255,0.98); 
 	}
 	
 /* @end */
@@ -1328,7 +1322,7 @@ footer, footer a			{ font-size: 0.75em;	}
 	color: #888;
 }
 
-/*PMO people-box is used for team members and other people profiles*/
+/* @group PEOPLE-BOX used for team members and other people profiles*/
 
 .people-box {
 	min-height:175px;
@@ -1340,15 +1334,7 @@ footer, footer a			{ font-size: 0.75em;	}
     margin: 0px auto 0;
 }
 
-.people-box-caption {
-	display: block;
-	position: relative;
-	bottom: 0px;
-	width: 100%;
-	height: 100%;
-}
-
-.people-box .people-box-image {
+.people-box img {
 	width: 100px;
 	height: 100px;
 	border: 3px solid #fff;
@@ -1359,45 +1345,24 @@ footer, footer a			{ font-size: 0.75em;	}
 	filter: grayscale(100%);
 }
 
-.people-box:hover .people-box-image {
+.people-box:hover img {
 	border: 3px solid #FF8200;
 	filter: grayscale(0%);
 }
 
-a.people-box:hover {
-	text-decoration: none;
-}
-
-.people-box .people-box-caption .people-box-caption-content {
-	display: block;
-	position: relative;
-	width: 100%;
-}
-
-.people-box .people-box-caption .people-box-caption-content .people-name {
+.people-box-name {
 	padding: 0px;
 	margin: 4px;
 	color: #000;
 }
 
-.people-box .people-box-caption .people-box-caption-content .people-title {
+.people-box-title {
 	padding: 0;
 	margin: 0;
     color: #aaa;
 }
 
-.people-box .people-box-caption .people-box-caption-content .people-description {
-	height: 88px;
-	padding: 2px 0px;
-	margin-bottom: 40px;
-    color: #666;
-	overflow: hidden;
-	text-decoration: none;
-}
-
-.text-primary {
-    color: #FF8200;
-}
+/* @end */
 
 .no-gutter > [class*=col-] {
     padding-right: 0;
@@ -1513,32 +1478,6 @@ img::selection {
 }
 
 /* End of testimonials */
-
-/* Custom */
-
-.box-image-text .image {
-  min-height: 200px;
-  max-height: 200px;
-}
-
-.box-simple {
-  min-height: 230px;
-}
-/* End of custom */
-
-.box-image-text.blog .author-category {
-  color: #999999;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.box-image-text.blog .author-category a {
-}
-
-.box-image-text.blog .intro {
-  text-align: left;
-  margin-bottom: 20px;
-}
 
 #categoryMenu h3 {
   padding: 20px;
