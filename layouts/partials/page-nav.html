@@ -1,98 +1,64 @@
 {{ "<!-- partials:page-nav.html:start -->" | safeHTML }}
-<nav id="mainNav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="layout-content-width">
-        {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            {{- if .IsHome }}
-            <a class="page-scroll" href="#page-top">
-            {{- else }}
-            <a class="page-scroll" href="/#page-top">		            
-            {{- end }}
-            <img src="{{ .Site.Params.navigation.brand_logo }}" alt="Ideas on Stage" class="navbar-brand"></a>
-        </div>
-        {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
-        <div class="collapse navbar-collapse ios-nav" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-            
-            {{ "<!-- Services dropdown menu  -->" | safeHTML }}
-            
-				<li role="presentation" class="dropdown">
-                	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" width:100%>
-                		{{ with .Site.Params.navigation.service }}{{ . }}{{ end }}<span class="caret"></span>
-                	</a>
-                	<ul class="dropdown-menu dropdown-menu-right">
-						{{- range .Site.Params.navigation.items }}
-							<li>
-							    <a class="page-scroll" href="{{ .url }}">{{ .name }}</a>
-							</li>
-						{{- end }}
-                	</ul>
-                </li>
-            
-            
-            
-            {{ "<!-- Resources dropdown menu  -->" | safeHTML }}
-            
-				<li role="presentation" class="dropdown">
-                	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" width:100%>
-                		{{ with .Site.Params.navigation.resource }}{{ . }}{{ end }}<span class="caret"></span>
-                	</a>
-                	<ul class="dropdown-menu dropdown-menu-right">
-					{{- range .Site.Params.navigation.resources }}
-						<li>
-							<a href="{{ .url }}">{{ .name }}</a>
-						</li> 
-					{{- end }}
-                	</ul>
-                </li>
-            
-            
-            {{ "<!-- Contact & Team menus  -->" | safeHTML }}
-            {{- range .Site.Params.navigation.housekeeping }}
-				<li>
-				    <a class="page-scroll" href="{{ .url }}">{{ .name }}</a>
-				</li>
-			{{- end }}
-				{{ "<!-- language dropdown -->" | safeHTML }}
-				<li role="presentation" class="dropdown">
-                	<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" width:100%>
-                		{{ with .Site.Params.navigation.language }}{{ . }}{{ end }}<span class="caret"></span>
-                	</a>
-                	<ul class="dropdown-menu dropdown-menu-right">
-                	{{ if .IsTranslated }}
-                	{{ range .Translations }}
-                		<li>
-                			<a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-                		</li>
-                	{{ end }}
-                	{{ else }}
-					{{- range .Site.Params.navigation.languages }}
-						<li>
-							<a href="{{ .url }}">{{ .name }}</a>
-						</li> 
-					{{- end }}
-					{{ end }}
-                	</ul>
-                </li>
-                <li>
-        {{ if and (isset .Site.Params "algolia_search") (eq .Site.Params.algolia_search true) }}
 
- <div id="search-box" class="search">
-    <i class="fa fa-search"></i>
-    <input id="search" type="text" placeholder="{{ i18n "search" }}">
-</div>
-{{ end }}
-        </li>                                       
-            </ul>
-        </div>
-        {{ "<!-- /.navbar-collapse -->" | safeHTML }}
-    </div>
-    {{ "<!-- /.container-fluid -->" | safeHTML }}
+<nav class="iosnavbar">
+ <div class="layout-content-width">
+  <div class="iosnavbar-header">
+    	<div class="iosnavbar-brand">
+    	<a class="page-scroll" href="#page-top">
+    	<img src="{{ .Site.Params.navigation.brand_logo }}" alt="Ideas on Stage" class="iosnavbar-brand"></a>
+  		</div>
+  </div>
+  <label for="drop" class="toggle iosnavbar-icon">&#9776</label>
+  <input type="checkbox" id="drop" />
+  <ul class="menu">
+    <li> 
+      <!-- Services Drop Down -->
+      <label for="drop-1" class="toggle">{{ with .Site.Params.navigation.service }}{{ . }}{{ end }}</label>
+      <a href="#">{{ with .Site.Params.navigation.service }}{{ . }}{{ end }}</a>
+      <input type="checkbox" id="drop-1"/>
+      <ul>
+        {{- range .Site.Params.navigation.items }}
+        <li>
+	      <a class="page-scroll" href="{{ .url }}">{{ .name }}</a>
+	    </li>  
+	      {{- end }}
+      </ul>
+    </li>
+    <li>
+     <!-- Resources  Drop Down -->
+      <label for="drop-2" class="toggle">{{ with .Site.Params.navigation.resource }}{{ . }}{{ end }}</label>
+      <a href="#">{{ with .Site.Params.navigation.resource }}{{ . }}{{ end }}</a>
+      <input type="checkbox" id="drop-2"/>
+      <ul>
+        {{- range .Site.Params.navigation.resources }}
+	      <li>
+	      <a href="{{ .url }}">{{ .name }}</a>
+	      </li>
+	      {{- end }}
+      </ul>
+    </li>
+     <!-- Contact & Team Menus -->
+    {{- range .Site.Params.navigation.housekeeping }}
+    <li><a class="page-scroll" href="{{ .url }}">{{ .name }}</a></li>
+	{{- end }} 
+
+    <li>
+     <!-- Languages  Drop Down -->
+      <label for="drop-3" class="toggle">{{ with .Site.Params.navigation.language }}{{ . }}{{ end }}</label>
+      <a href="#">{{ with .Site.Params.navigation.language }}{{ . }}{{ end }}</a>
+      <input type="checkbox" id="drop-3"/>
+      <ul>
+        {{ if .IsTranslated }}
+            {{ range .Translations }}
+              <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+           	{{ end }}
+		  {{ else }}
+			{{- range .Site.Params.navigation.languages }}
+  			  <li><a href="{{ .url }}">{{ .name }}</a></li>
+			{{- end }}
+    	  {{ end }}
+      </ul>
+    </li>
+  </ul>
+ </div>
 </nav>
-{{ "<!-- partials:page-nav.html:end -->" | safeHTML }}
