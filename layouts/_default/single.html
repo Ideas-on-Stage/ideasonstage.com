@@ -1,5 +1,9 @@
 {{ define "main" }}
 	{{ "<!-- _default:single.html:main:start -->" | safeHTML }}
+	{{- if .Params.showtoc }}
+	{{ partial "page-content-toc.html" . }}
+	{{- else }}
 	{{ partial "page-content.html" . }}
+	{{- end }}
 	{{ "<!-- _default:single.html:main:end -->" | safeHTML }}
 {{ end }}
