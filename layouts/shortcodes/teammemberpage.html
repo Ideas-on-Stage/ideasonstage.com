@@ -1,0 +1,11 @@
+{{/* <!-- 
+ 	teammember shortcode
+ 
+ --> */}}
+{{- $page := "/team/" }}
+{{- if isset .Params "page" }}
+	{{- $page = add $page .Params.page }}
+{{- end }}
+{{- with site.GetPage $page }}
+<a href="{{ .RelPermalink }}">{{ .Params.name }}</a>
+{{- end }}

@@ -1,0 +1,15 @@
+[en]
+	title		= "Virtual Meeting Revolution Webinars"
+	layout		= "inserts/module-half-text-picture.html"
+	style		= "bg-dark"
+	picture		= "/presentations-training/webinars/webinar3.jpg"
+	url			= "/presentations-training/webinars/"
+	description	= "A series of webinars to learn how to do meetings online."
+
+[fr]
+	title		= "Vidéos Virtual Meeting Revolution"
+	layout		= "inserts/module-half-text-picture.html"
+	style		= "bg-dark"
+	picture		= "/formation-presentations/webinaires/webinar3.jpg"
+	url			= "/formation-presentations/webinaires/"
+	description	= "Une série de webinaire pour apprendre à gérer des réunions efficaces en ligne."

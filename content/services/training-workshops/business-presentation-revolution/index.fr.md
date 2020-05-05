@@ -5,7 +5,6 @@ description = "Les présentations de vos équipes vont être changées à jamais
 url	 		= "/formation-presentations/the-business-presentation-revolution/"
 picture		= "image.jpg"
 schema		= "Course"
-weight		= 1
 +++
 
 ## Formez vos équipes à donner des présentations percutantes

@@ -5,7 +5,6 @@ description = "Thanks to our signature training course, your team's presentation
 url 			= "/presentations-training/the-business-presentation-revolution/"
 picture		= "image.jpg"
 schema		= "Course"
-weight		= 1
 +++
 
 ## Train your teams to give TED-quality business presentations

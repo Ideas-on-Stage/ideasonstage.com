@@ -5,7 +5,6 @@ description = "Grazie ai nostri seminari, le presentazioni del tuo team non sara
 url 			= "/training-workshops/the-business-presentation-revolution/"
 picture		= "image.jpg"
 schema		= "Course"
-weight		= 1
 +++
 
 ## Insegna ai tuoi team a preparare delle TED style business presentation.
