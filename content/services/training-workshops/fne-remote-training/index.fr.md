@@ -31,6 +31,8 @@ Enfin, tous nos cours sont disponibles en français et en anglais — et pas un 
 
 Des milliers de présentations sont données en entreprise chaque année, et la plupart sont oubliées tout de suite. Notre cours phare **révolutionnez vos présentations** redéfinit ce qu’est une présentation efficace en entreprise, et démontre une toute nouvelle approche qui vous fera sortir du lot, et gagner en efficacité.
 
+![FNE Présentations](presentations.jpg)
+
 Enseigné dans de nombreuses grandes écoles donc HEC Paris Executive Education et EM Lyon, ce cours est basé sur notre méthode pSCORE (Présentation SCORE) qui vous guide pendant les cinq étapes de préparation d’une présentation réussie :
 
 1. **Fondation** : comprendre votre auditoire, leurs besoins, et le contexte, et identifier ses objectifs
@@ -79,6 +81,8 @@ Chez Ideas on Stage, nous travaillons et formons à distance depuis nos débuts 
 
 Que ce soit pour une réunion de décision, de collaboration ou d’équipe, ou un webinaire, notre cours Virtual Meeting Revolution vous donnera une méthode complète pour imaginer, préparer et réussir vos réunions en ligne.
 
+![FNE Réunions en ligne](onlinemeeting.jpg)
+
 Les cinq étapes sont les mêmes que dans notre cours sur la préparation des présentations, mais les activités dans chaque partie sont bien différentes :
 
 1. **Fondation :** Comprendre le contexte, établir des objectifs clairs et choisir les participants
@@ -102,6 +106,8 @@ Ce cours est prévu pour des groupes de 6 à 8 participants, avec des exercices
 
 Qu’il s’agisse de prise de parole régulière dans le cadre de réunions de travail, d’une volonté d’améliorer vos compétences en prise de parole en public au quotidien, ou encore à l’approche d’un événement spécifique auquel vous participé, nous vous aidons à gagner en confiance et en compétences. En français, anglais, italien et espagnol, nos coachs formateurs vous aident à atteindre vos objectifs ! 
 
+![FNE Prise de parole en public](publicspeaking.jpg)
+ 
 Nous adaptons le programme de coaching aux forces et opportunités d’amélioration de chacun. Nous choisissons le coach le plus approprié en fonction du style de chaque orateur, et nous adaptons le programme avec notre approche ACE. Cela apporte trois bénéfices essentiels :
 
 * **Amélioration** : nos coachs spécialisés vous aideront à travailler votre posture, vos mouvements et votre gestuelle. Ils amélioreront votre voix, votre respiration, votre rythme et votre élocution. Ils vous apprendront à utiliser le contact visuel pour interagir avec le public.
@@ -125,5 +131,7 @@ Ce déroulé type peut être personnalisé en amont aux besoins de chaque partic
 Présentations d’entreprise, prise de parole en public, art du pitch… Formez-vous avec les meilleurs experts, depuis votre domicile !
 
 Vous souhaitez intervenir lors d’un événement ? Formez-vous avec un expert des TED Talks, {{< teammemberpage page="phil-waknell" >}}. Vous souhaitez être formé aux techniques d’art oratoire ? Faites-le avec un expert formé au célèbre Drama Centre à Londres, {{< teammemberpage page="michael-rickwood" >}}. Vos visuels de présentations en entreprise manquent d’originalité et de modernité ? Demandez conseil à {{< teammemberpage page="pierre-morsa" >}}, notre Creative Cat et expert en storytelling et création de présentations !
+
+![FNE Webinar](webinar.jpg)
 
 Vous trouverez, sur notre site web, un aperçu du format des webinaires que nous pouvons donner à vos collaborateurs. Les [cinq webinaires](https://www.ideasonstage.fr/formation-presentations/webinaires/) présentés ici portent sur le sujet des réunions virtuelles réussies et sont inspirés de notre formation complète.
