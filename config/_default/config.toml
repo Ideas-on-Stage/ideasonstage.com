@@ -213,7 +213,7 @@ theme        			= "hugo-creative-theme-master"
 			warning = "Please enter your phone number."
 
 		[params.contact.form.message]
-			text = "Your Message *"
+			text = "Let us know how we can help you *"
 			warning = "Please enter a message."
 
 		[params.contact.form.questions]
