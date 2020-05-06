@@ -1,75 +1,29 @@
 {{ "<!-- partials:page-js.html:start -->" | safeHTML }}
 
+
 {{ "<!-- jQuery required for form validation -->" | safeHTML }}
-<script src="/js/jquery.js"></script>
+<!-- <script src="/js/jquery.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
 <script src="/js/bootstrap.min.js"></script>
 {{ "<!-- Contact Form JavaScript -->" | safeHTML }}
 <script src="/js/jqBootstrapValidation.js"></script>
 {{ "<!-- Owl Carousel JavaScript -->" | safeHTML }}
+-->
+{{ "<!-- Contact Form JavaScript -->" | safeHTML }}
+<script src="/js/ios-form-plugin.js"></script>
+
 <script src="/js/front.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
-{{ "<!-- Form validation JavaScript -->" | safeHTML }}
-<script type="text/javascript">
 
-// $(function()... is identical to $(document).ready(function()...
-// it prevents script from running before document is fully loaded
+{{ "<!-- Form submission JavaScript -->" | safeHTML }}
+
+<!-- This one calls the form plugin -->
+<script>
 $(function() {
-
-	// jQuery
-	// "input,textarea" to act on input and textarea elements only
-	// not("...") to exclude these elements
-	// then run jqBootstrapValidation on it
-    $("input,textarea").not("[type=search]").jqBootstrapValidation({
-        preventSubmit: true,
-        submitError: function($form, event, errors) {
-            // additional error messages or events
-        },
-        submitSuccess: function($form, e) {
-    	    e.preventDefault();
-            // new variable to check which form we are working with
-            var formtype = $form.prop('id');
-            
-        
-            // end of new variable  	
-    	    var submitButton = $('input[type=submit]', $form);
-    	    $.ajax({
-    	      type: 'POST',
-    	      url: $form.prop('action'),
-    	      accept: {
-    	        javascript: 'application/javascript'
-    	      },
-    	      data: $form.serialize(),
-    	      beforeSend: function() {
-				submitButton.prop('value', '{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}');
-				submitButton.prop('disabled', 'disabled');
-    	      }
-    	    }).done(function(data) {
-    	    	if ($form.prop('id') == "newsForm") {
-    	    		submitButton.prop('value', '{{ with .Site.Params.subscribe.success }}{{ . }}{{ end }}');
-    	    	}
-    	    	else if ($form.prop('id') == "contactForm"){
-    	    		submitButton.prop('value', '{{ with .Site.Params.contact.success }}{{ . }}{{ end }}');
-    	    	}
-    	    	else {
-    	    		submitButton.prop('value', '{{ with .Site.Params.contact.success }}{{ . }}{{ end }}');
-    	    	}
-    	
-    			submitButton.prop('disabled', true);
-    			hj('formSubmitSuccessful');
-    	    });
-        },
-
-        filter: function() {
-            return $(this).is(":visible");
-        },
-    });
-
+  $('form[data-autosubmit]').autosubmit();
 });
+</script>
 
-/*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
-    $('#success').html('');
-});
-</script> 
 {{ "<!-- partials:page-js.html:end -->" | safeHTML }}
