@@ -50,7 +50,7 @@
       <ul>
         {{ if .IsTranslated }}
             {{ range .Translations }}
-              <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+              <li><a href="{{ .Permalink }}"><img class="iosnavbar-flag" src="/img/flag_{{ .Lang }}.svg">{{ .Language.LanguageName }}</a></li>
            	{{ end }}
 		  {{ else }}
 			{{- range .Site.Params.navigation.languages }}

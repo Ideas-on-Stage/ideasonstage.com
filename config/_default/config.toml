@@ -104,7 +104,7 @@ theme        			= "hugo-creative-theme-master"
 		height			= "52px"
 		title			= "Navigation"
 		brand 			= "Ideas on Stage"
-		brand_logo		= "/img/ideas-on-stage.png"
+		brand_logo		= "/img/ideas-on-stage.svg"
 		language			= "Language"
 		resource		= "Resources"
 		service			= "Services"
@@ -149,12 +149,15 @@ theme        			= "hugo-creative-theme-master"
 			[params.navigation.languages.001]
 				name	= "Français"
 				url		= "https://www.ideasonstage.fr"
+				flag	= "flag_fr.svg"
 			[params.navigation.languages.002]
 				name	= "Español"
+				flag	= "flag_es.svg"
 				url		= "https://www.ideasonstage.es"
 			[params.navigation.languages.004]
 				name	= "Italiano"
 				url		= "https://www.ideasonstage.it"
+				flag	= "flag_it.svg"
 	
 	# ------------------------------		
 	# References

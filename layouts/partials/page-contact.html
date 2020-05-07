@@ -24,7 +24,7 @@
 			             <textarea id="message" name="message" class="iosform-control" placeholder="{{ with .Site.Params.contact.form.message.text }}{{ . | markdownify }}{{ end }}" required></textarea>      
 			            </div>
 			            <div class="iosform-button">
-			              <input type="submit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="button-primary">    
+			              <input type="submit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="button-primary" success="{{ with .Site.Params.contact.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}">    
 			            </div>     
 			          </form>
 		            </div>

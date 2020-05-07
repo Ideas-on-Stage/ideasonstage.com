@@ -5,36 +5,11 @@
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
 <script src="/js/bootstrap.min.js"></script>
 {{ "<!-- Contact Form JavaScript -->" | safeHTML }}
-<!--
 <script src="/js/jqBootstrapValidation.js"></script>
--->
-
-<script src="/js/ios-form-plugin.js"></script>
-
-
 {{ "<!-- Owl Carousel JavaScript -->" | safeHTML }}
-<script src="/js/owl.carousel.min.js"></script>
 <script src="/js/front.js"></script>
-
-{{ "<!-- Form submission JavaScript -->" | safeHTML }}
-
-
-
-<!-- This one calls the form plugin -->
-
-
-<script>
-$(function() {
-  $('form[data-autosubmit]').autosubmit();
-});
-</script>
-
-{{ "<!-- partials:page-js.html:end -->" | safeHTML }}
-
-
-
+<script src="/js/owl.carousel.min.js"></script>
 {{ "<!-- Form validation JavaScript -->" | safeHTML }}
-<!--
 <script type="text/javascript">
 
 // $(function()... is identical to $(document).ready(function()...
@@ -91,10 +66,10 @@ $(function() {
     });
 
 });
+
 /*When clicking on Full hide fail/success boxes */
 $('#name').focus(function() {
     $('#success').html('');
 });
 </script> 
-
--->
+{{ "<!-- partials:page-js.html:end -->" | safeHTML }}
