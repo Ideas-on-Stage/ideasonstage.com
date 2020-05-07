@@ -209,11 +209,11 @@ theme        			= "hugo-creative-theme-master"
 
 		[params.contact.form.email]
 			text = "Your Email *"
-			warning = "Please enter your email address."
+			warning = "Please enter a valid email address."
 
 		[params.contact.form.phone]
 			text = "Your Phone (optional)"
-			warning = "Please enter your phone number."
+			warning = "Please enter a valid phone number."
 
 		[params.contact.form.message]
 			text = "Let us know how we can help you *"
@@ -458,15 +458,15 @@ theme        			= "hugo-creative-theme-master"
 
 		[languages.fr.contact.form.email]
 			text = "Votre email *"
-			warning = "Veuillez entrer votre adresse email."
+			warning = "Veuillez entrer une adresse e-mail valide."
 
 		[languages.fr.contact.form.phone]
 			text = "Votre téléphone (optionnel)"
-			warning = "Veuillez entrer votre numéro de téléphone."
+			warning = "Veuillez entrer un numéro de téléphone valide."
 
 		[languages.fr.contact.form.message]
-			text = "Your Message *"
-			warning = "Please enter a message."
+			text = "Votre message *"
+			warning = "S'il vous plaît entrer un message."
 
 	# ------------------------------		
 	# Subscribe to our news
@@ -644,11 +644,11 @@ theme        			= "hugo-creative-theme-master"
 
 		[languages.es.contact.form.email]
 			text = "Tu Email *"
-			warning = "Por favor, introduce tu email."
+			warning = "Por favor, introduce un email válido."
 
 		[languages.es.contact.form.phone]
 			text = "Tu teléfono (opcional)"
-			warning = "Por favor, escribe tu número de teléfono."
+			warning = "Por favor, introduce un número de teléfono válido."
 
 		[languages.es.contact.form.message]
 			text = "Tu Mensaje *"
