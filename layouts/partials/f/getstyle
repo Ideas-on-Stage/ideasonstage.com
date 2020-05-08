@@ -2,7 +2,11 @@
 	
 	f/getstyle
 
-	returns the .style attribute
+	Parameters:
+	- . as .Page or .Data object
+	
+	Returns:
+	- .style attribute
 
  --> */}}
 
