@@ -1,6 +1,24 @@
 {{ "<!-- partials:page-content.html:start -->" | safeHTML }}
-<section id="content-main" class="layout-content">
-	{{/* <!-- note: don't put markdownify it prevents the content from rendering in hugo 0.67 --> */}}
-	{{- with .Content }}{{ . }}{{ end }} 
-</section>
+<div class="layout-content">
+{{- if or (.Params.showtoc) (eq "guides" .Section) }}
+	<div class="flex-parent-row flex-column-reverse-ontall">
+		<aside id="content-table" class="flex-child-33p layout-sticky flex-hide-ontall">
+			<div class="scroller">
+				<h2>{{ site.Params.tableofcontents }}</h2>
+				{{- with .TableOfContents }}{{ . }}{{ end }} 
+			</div>
+		</aside>
+		<article id="content-main" class="flex-child-67p">
+			{{ with .Params.summary }}<p>{{ . }}</p>{{ end }} 
+			<h2>{{ site.Params.tableofcontents }}</h2>
+			{{ with .TableOfContents }}{{ . }}{{ end }} 
+			{{ with .Content }}{{ . }}{{ end }} 
+		</article>
+	</div>
+{{- else }}
+	<section id="content-main">
+		{{- with .Content }}{{ . }}{{ end }} 
+	</section>
+{{- end }}
+</div>
 {{ "<!-- partials:page-content.html:end -->" | safeHTML }}
