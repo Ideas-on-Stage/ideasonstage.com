@@ -1,8 +1,9 @@
 {{/* <!--
 	
-	f/getpicturepath
+	f/getthumbnailpicturepath
 	
-	Gets full path to .picture parameter for pages and data files.
+	Gets full path to thumbnail picture for page and data files.
+	Use it to get the right thumbnail pic in inserts.
 	
 	Arguments:
 	- . as .Page object or . as Data object
@@ -11,12 +12,12 @@
 	- If page:
 		- tries to use thumbnail.jpg, then .Params.picture
 		- completes path with .RelPermalink if only picture name specified.
-	- If data:
+	- If data from a /data file:
 		- tries to use .picture
 		- completes path with .url if only picture name specified, eg. "pic.jpg"
 	
 	Returns:
-	- relative path to thumbnail file, empty string if not found.
+	- relative path to thumbnail picture, empty string if not found.
 
  --> */}}
 

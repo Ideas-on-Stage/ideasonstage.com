@@ -9,8 +9,11 @@
 	
 	Process:
 	- If page:
-		- tries to use hero.jpg, then .Params.picture
+		- Tries to use file named hero.jpg, else try to use .Params.picture
 		- completes path with .RelPermalink if only picture name specified.
+		
+	Returns:
+	- full relative path to hero pic, or empty string if not found.
 
  --> */}}
 
@@ -22,7 +25,7 @@
 	{{ $thumbtest := add .File.Dir "hero.jpg" }}
 	{{ if and (eq .Section "team") (.IsPage) }}
 		{{/* <!-- temporary workaround not to show hero on team member page --> */}}
-	{{ else if and (fileExists $thumbtest) }}
+	{{ else if (fileExists $thumbtest) }}
 		{{/* <!-- then a file named hero.jpg exists, use it --> */}}
 	  	{{ $picture = "hero.jpg" }}
 		{{ $found = true }}

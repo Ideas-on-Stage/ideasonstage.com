@@ -2,14 +2,15 @@
 
 	f/gettime
 	
-	Parameters: date as a string object (NOT a date object)
+	Gets the human readable time with time zone.
+	See additional comments in f/getdatetime
 	
-	Returns: the time string localized in EN, FR, ES or IT with the format "15:00 CEST (Paris Time)"
+	Parameters: 
+	- date as string or date object
 	
-	The date returned uses the local time zone of the machine running Hugo.
-	To set the local time zone on Netlify, use the "TZ" build environment variable.
-	Set TZ to a value from the TZ time zones:
-	https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+	Returns: 
+	- localized time string with format "15:00 CEST (Paris Time)"
+
  --> */}}
 
 {{/* <!-- get language --> */}}
