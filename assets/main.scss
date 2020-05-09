@@ -1279,7 +1279,7 @@ nav ul.iosmenu li {
 }
 
 nav ul.iosmenu>li>a {
-  padding: 15px 15px;
+  padding: 15px 0.9em;
   line-height: 20px;
   border: none;
 }
@@ -1327,13 +1327,13 @@ nav ul.iosmenu>li>ul>li>a.iosnavbar-dropdownlang {
 /* Globe icon */
 .iosnavbar-langicon {
   height: 1.2em;
-  margin-right: 8px;
+  margin-right: 0.5em;
   padding-top:-2px;
 }
 
 .iosnavbar-langicon-hover {
   height: 1.2em;
-  margin-right: 8px;
+  margin-right: 0.5em;
   padding-top:-2px;
   display:none;
 }
@@ -1351,6 +1351,12 @@ li:hover .iosnavbar-langicon-hover {
 }
 
 nav.iosnavbar input[type=checkbox] { margin-top: 0; }
+
+.iosnavbar-brand { 
+  width: 15em;
+  min-width: 120px;
+}
+
 
 @media all and (min-width : 481px) {
   nav.iosnavbar ul li:hover > ul { display: inherit; }
