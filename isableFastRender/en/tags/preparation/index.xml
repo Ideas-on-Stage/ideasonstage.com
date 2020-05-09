@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Preparation on Ideas on Stage</title>
+    <link>http://localhost:1313/tags/preparation/</link>
+    <description>Recent content in Preparation on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/preparation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The meatball sundae presentation effect</title>
+      <link>http://localhost:1313/news/2019/04/02/2019-04-02-the-meatball-sundae-presentation-e/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2019/04/02/2019-04-02-the-meatball-sundae-presentation-e/</guid>
+      <description>Seth Godin coined the term “meatball sundae” several years ago in a book that explained that putting two great things together does not always create something better. And in the worst case, such as a meatball sundae, it can actually create something nobody wants.
+The meatball sundae presentation effect can happen at two levels: at the event level, and at the individual presentation level.
+Let’s take Apple’s latest keynote as an example of the meatball sundae effect at the event level.</description>
+    </item>
+    
+  </channel>
+</rss>

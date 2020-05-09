@@ -108,6 +108,8 @@ theme        			= "hugo-creative-theme-master"
 		language			= "Language"
 		resource		= "Resources"
 		service			= "Services"
+		languageicon	= "/img/globe.svg"
+		languageiconhover ="/img/globe_hover.svg"
 
 		[params.navigation.items]
 			[params.navigation.items.001]
@@ -145,7 +147,8 @@ theme        			= "hugo-creative-theme-master"
 				name			= "Team"
 				url				= "/team/"
 
-		[params.navigation.languages]				
+		[params.navigation.languages]
+					
 			[params.navigation.languages.001]
 				name	= "Français"
 				url		= "https://www.ideasonstage.fr"
@@ -320,7 +323,7 @@ theme        			= "hugo-creative-theme-master"
 
 [languages.fr]
 	baseURL			= "https://www.ideasonstage.fr/"
-	languageName		= "Francais"
+	languageName		= "Français"
 	languageCode 	= "fr"
 	weight 			= "2"
 	googleAnalytics = "UA-30695118-2"

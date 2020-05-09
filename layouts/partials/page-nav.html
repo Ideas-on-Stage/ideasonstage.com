@@ -8,13 +8,13 @@
     	<img src="{{ .Site.Params.navigation.brand_logo }}" alt="Ideas on Stage" class="iosnavbar-brand"></a>
   		</div>
   </div>
-  <label for="drop" class="toggle iosnavbar-icon">&#9776</label>
+  <label for="drop" class="menutoggle iosnavbar-icon">&#9776</label>
   <input type="checkbox" id="drop" />
-  <ul class="menu">
+  <ul class="iosmenu">
     <li> 
       <!-- Services Drop Down -->
-      <label for="drop-1" class="toggle">{{ with .Site.Params.navigation.service }}{{ . }}{{ end }}</label>
-      <a href="#">{{ with .Site.Params.navigation.service }}{{ . }}{{ end }}</a>
+      <label for="drop-1" class="menutoggle">{{ with .Site.Params.navigation.service }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></label>
+      <a href="#">{{ with .Site.Params.navigation.service }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></a>
       <input type="checkbox" id="drop-1"/>
       <ul>
         {{- range .Site.Params.navigation.items }}
@@ -26,8 +26,8 @@
     </li>
     <li>
      <!-- Resources  Drop Down -->
-      <label for="drop-2" class="toggle">{{ with .Site.Params.navigation.resource }}{{ . }}{{ end }}</label>
-      <a href="#">{{ with .Site.Params.navigation.resource }}{{ . }}{{ end }}</a>
+      <label for="drop-2" class="menutoggle">{{ with .Site.Params.navigation.resource }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></label>
+      <a href="#">{{ with .Site.Params.navigation.resource }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></a>
       <input type="checkbox" id="drop-2"/>
       <ul>
         {{- range .Site.Params.navigation.resources }}
@@ -41,23 +41,34 @@
     {{- range .Site.Params.navigation.housekeeping }}
     <li><a class="page-scroll" href="{{ .url }}">{{ .name }}</a></li>
 	{{- end }} 
-
+	<li><a class="iosnavbar-separator" href="#">|</a></li>
     <li>
      <!-- Languages  Drop Down -->
-      <label for="drop-3" class="toggle">{{ with .Site.Params.navigation.language }}{{ . }}{{ end }}</label>
-      <a href="#">{{ with .Site.Params.navigation.language }}{{ . }}{{ end }}</a>
+      <label for="drop-3" class="menutoggle">
+        <img class="iosnavbar-langicon" src="{{ .Site.Params.navigation.languageicon }}">
+        <img class="iosnavbar-langicon-hover" src="{{ .Site.Params.navigation.languageiconhover }}">
+        {{ with .Language.LanguageName }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></label>
+      <a class="iosnavbar-lang" href="#">
+        <img class="iosnavbar-langicon" src="{{ .Site.Params.navigation.languageicon }}">
+        <img class="iosnavbar-langicon-hover" src="{{ .Site.Params.navigation.languageiconhover }}">
+        {{ with .Language.LanguageName  }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></a>
       <input type="checkbox" id="drop-3"/>
       <ul>
-        {{ if .IsTranslated }}
-            {{ range .Translations }}
-              <li><a href="{{ .Permalink }}"><img class="iosnavbar-flag" src="/img/flag_{{ .Lang }}.svg">{{ .Language.LanguageName }}</a></li>
-           	{{ end }}
-		  {{ else }}
-			{{- range .Site.Params.navigation.languages }}
-  			  <li><a href="{{ .url }}">{{ .name }}</a></li>
-			{{- end }}
-    	  {{ end }}
-      </ul>
+       {{ range .Site.Params.navigation.languages }}
+         {{ $scratch := newScratch }}
+         {{ $scratch.Set "url" .url }}
+         {{ $scratch.Set "name" .name }}
+         {{ if $.Page.IsTranslated }}
+           {{ range $.Page.Translations }}
+             {{ $lang := .Language.LanguageName }}
+             {{ if eq ($scratch.Get "name") .Language.LanguageName }}
+               {{ $scratch.Set "url" .Permalink }}
+             {{ end }}
+           {{ end }}
+         {{ end }}
+         <li><a class="iosnavbar-dropdownlang" href="{{ $scratch.Get "url" }}">{{ $scratch.Get "name" }}</a></li>
+       {{ end }}
+      </ul>    
     </li>
   </ul>
  </div>

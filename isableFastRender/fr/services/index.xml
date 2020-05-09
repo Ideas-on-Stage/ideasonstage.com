@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Ideas on Stage</title>
+    <link>http://localhost:1314/services/</link>
+    <description>Recent content in Services on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage</copyright>
+    
+	<atom:link href="http://localhost:1314/services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agence de création de présentations PowerPoint</title>
+      <link>http://localhost:1314/services/agence-creation-presentation-powerpoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/services/agence-creation-presentation-powerpoint/</guid>
+      <description>De l&amp;rsquo;idée à la présentation persuasive De bons visuels peuvent décupler l’impact de vos mots. Après avoir terminé votre script, nous en prenons les idées clés et nous créons des visuels spectaculaires pour clarifier et renforcer vos messages.
+La première étape est de créer un storyboard visuel, avec les idées d’illustrations. Puis, avec votre accord, notre équipe interne de designers transformera ces croquis en une présentation PowerPoint ou Keynote qui marquera votre auditoire.</description>
+    </item>
+    
+    <item>
+      <title>Communauté de travail en ligne</title>
+      <link>http://localhost:1314/du-bureau-au-travail-a-distance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/du-bureau-au-travail-a-distance/</guid>
+      <description>Ce service vous aidera à passer d’un environnement de travail au bureau à un environnement de travail à distance en dix jours. Nous vous aiderons à créer une communauté de travail en ligne avec des effets positifs à long terme sur la productivité et le moral de vos effectifs.
+Propulsés dans un environnement de travail à distance, les managers et les employés auront instinctivement tendance à reproduire leur environnement de travail traditionnel.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Ideas on Stage</title>
+    <link>http://localhost:1314/categories/</link>
+    <description>Recent content in Categories on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage</copyright>
+    
+	<atom:link href="http://localhost:1314/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Coaching Prise de Parole en Public</title>
+      <link>http://localhost:1314/categories/coaching-prise-de-parole-en-public/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/coaching-prise-de-parole-en-public/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Corporate Events</title>
+      <link>http://localhost:1314/categories/corporate-events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/corporate-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guides</title>
+      <link>http://localhost:1314/categories/guides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/guides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prise de parole</title>
+      <link>http://localhost:1314/categories/prise-de-parole/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/prise-de-parole/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prise de parole en public</title>
+      <link>http://localhost:1314/categories/prise-de-parole-en-public/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/prise-de-parole-en-public/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startups</title>
+      <link>http://localhost:1314/categories/startups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/startups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TEDx</title>
+      <link>http://localhost:1314/categories/tedx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/tedx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Télétravail</title>
+      <link>http://localhost:1314/categories/t%C3%A9l%C3%A9travail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/t%C3%A9l%C3%A9travail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Women on Stage</title>
+      <link>http://localhost:1314/categories/women-on-stage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/women-on-stage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Événements</title>
+      <link>http://localhost:1314/categories/%C3%A9v%C3%A9nements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/%C3%A9v%C3%A9nements/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Événements d&#39;entreprise</title>
+      <link>http://localhost:1314/categories/%C3%A9v%C3%A9nements-dentreprise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/categories/%C3%A9v%C3%A9nements-dentreprise/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

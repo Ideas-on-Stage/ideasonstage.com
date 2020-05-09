@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TED on Ideas on Stage</title>
+    <link>http://localhost:1313/tags/ted/</link>
+    <description>Recent content in TED on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Mon, 30 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/ted/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> The 3 Magic Ingredients of Great Presentations</title>
+      <link>http://localhost:1313/news/2020/01/29/2020-01-29-the_3_magic_ingredients_of_great_presentations/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2020/01/29/2020-01-29-the_3_magic_ingredients_of_great_presentations/</guid>
+      <description>Is there a perfect recipe for a successful presentation? No. Partly it depends on the audience and the context: a boardroom presentation shouldn’t look like a TED talk, even if the subject is the same. And different presentations at the same event – a conference, a demo day, an Executive Committee meeting – should also look different from each other, because otherwise none of them will stand out.
+So if there is no magic formula, are there at least some key ingredients we should always include?</description>
+    </item>
+    
+    <item>
+      <title>What Business Can Learn From TED</title>
+      <link>http://localhost:1313/news/2018/04/10/2018-04-10-what-business-can-learn-from-ted/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2018/04/10/2018-04-10-what-business-can-learn-from-ted/</guid>
+      <description>Today marks the start of TED2018, the latest edition of the world&amp;rsquo;s best-known modern conference. Participants in Vancouver will be treated to high-quality talks from well-prepared speakers, and will leave feeling energized and inspired.
+Back in the office, you and your colleagues will no doubt be subjected to low-quality presentations from poorly-prepared speakers, and you will leave feeling bored and uninspired.
+Business presentations are not TED talks. A board meeting is not a stage with a round red carpet.</description>
+    </item>
+    
+  </channel>
+</rss>

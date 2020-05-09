@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chef on Ideas on Stage</title>
+    <link>http://localhost:1314/tags/chef/</link>
+    <description>Recent content in chef on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1314/tags/chef/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Un nouveau remède pour les conférences médicales</title>
+      <link>http://localhost:1314/news/2019/05/15/2019-05-16-un_nouveau_remede_pour_les_conferences_medicales/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/news/2019/05/15/2019-05-16-un_nouveau_remede_pour_les_conferences_medicales/</guid>
+      <description>La plupart des conférences sont assez ennuyeuses. Même les conférences techniques les plus connues ne parviennent pas à stimuler leur public. Mais les conférences médicales peuvent être parmi les pires. Ideas on Stage annonce un nouveau partenariat avec Doctors 2.0 &amp;amp; You pour faire passer les événements médicaux au niveau supérieur.
+Notre ami Ross Fisher, chirurgien pédiatrique basé au Royaume-Uni, en a assez des mauvaises communications médicales et, lorsqu&amp;rsquo;il ne travaille pas, il passe son temps à enseigner aux médecins comment faire de meilleures présentations.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Télétravail on Ideas on Stage</title>
+    <link>http://localhost:1314/categories/t%C3%A9l%C3%A9travail/</link>
+    <description>Recent content in Télétravail on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage</copyright>
+    
+	<atom:link href="http://localhost:1314/categories/t%C3%A9l%C3%A9travail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comment présenter à distance</title>
+      <link>http://localhost:1314/comment-presenter-a-distance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/comment-presenter-a-distance/</guid>
+      <description>Ce dont vous avez besoin pour réaliser de superbes présentations à distance : équipement, logiciel, configuration, animation. Nous avons rédigé ce guide sur la base de dix années d’expérience de présentations professionnelles données à distance à nos clients. Nous ne gagnons pas d’argent sur les logiciels ou le matériel que nous recommandons dans cet article. Nous les recommandons en fonction de notre expérience, mais il existe de nombreuses autres solutions qui pourraient tout aussi bien fonctionner.</description>
+    </item>
+    
+  </channel>
+</rss>

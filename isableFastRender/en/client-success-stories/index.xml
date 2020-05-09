@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Client Success Stories on Ideas on Stage</title>
+    <link>http://localhost:1313/client-success-stories/</link>
+    <description>Recent content in Client Success Stories on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage</copyright>
+    
+	<atom:link href="http://localhost:1313/client-success-stories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MarTech Trophies Ceremony by CMIT</title>
+      <link>http://localhost:1313/client-success-stories/martech-trophies-ceremony-by-cmit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/client-success-stories/martech-trophies-ceremony-by-cmit/</guid>
+      <description>The 4th edition of the Martech Startup Trophies Ceremony is a competition organized by the “Club des Marketeurs de la Tech” (CMIT) (Tech Marketers’ Club). Since 2016, CMIT puts innovative B2B marketing startups in the spotlight and honors new talents. Each year, the winners are promoted on their website and their media partners. The objective is to give more visibility to the newcomers and highlight their services to their potential marketing clients.</description>
+    </item>
+    
+    <item>
+      <title>TEDx Tours 2019</title>
+      <link>http://localhost:1313/public-speaking-coaching/tedx-coaching/events/tedx-tours-2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/public-speaking-coaching/tedx-coaching/events/tedx-tours-2019/</guid>
+      <description>How to create a great TEDx event, with Fabien Boutard, curator of TEDx Tours This summer we coached the speakers for TEDx Tours 2019, which took place on June 25 in the historical region of Touraine in France. The event space was none other than the Grand Théâtre de Tours, a beautiful piece of architecture à l’italienne. This region is also home to world-famous sites such as the Clos Lucé, where Leonardo da Vinci spent his last years in France, the charming castles of Amboise, Blois, Chenonceau, Chambord and many more.</description>
+    </item>
+    
+  </channel>
+</rss>

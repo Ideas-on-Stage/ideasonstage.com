@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>télétravail. on Ideas on Stage</title>
+    <link>http://localhost:1314/tags/t%C3%A9l%C3%A9travail./</link>
+    <description>Recent content in télétravail. on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1314/tags/t%C3%A9l%C3%A9travail./index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Préparer et animer des réunions virtuelles réussies</title>
+      <link>http://localhost:1314/news/2020/04/30/2020-04-30-preparer_et_animer_des_reunions_virtuelles_reussies/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/news/2020/04/30/2020-04-30-preparer_et_animer_des_reunions_virtuelles_reussies/</guid>
+      <description>Une réunion virtuelle sans animateur, c’est un peu comme un orchestre sans chef d&amp;rsquo;orchestre : le résultat est généralement une cacophonie désagréable. Avant, pendant, et après la réunion, le rôle de l&amp;rsquo;animateur est essentiel pour assurer l&amp;rsquo;harmonie, permettre à chaque participant de contribuer et d&amp;rsquo;atteindre les objectifs de la réunion.
+Le rôle de l’animateur dépendra du type de réunion. Pour un webinaire, il devra se concentrer sur la qualité du son, s&amp;rsquo;assurer que ceux qui ne parlent pas ont coupé leur micro (ou le fait pour eux), et gérer la messagerie instantanée.</description>
+    </item>
+    
+  </channel>
+</rss>

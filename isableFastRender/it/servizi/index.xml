@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Servizi on Ideas on Stage</title>
+    <link>http://localhost:1316/servizi/</link>
+    <description>Recent content in Servizi on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <copyright>© Ideas on Stage</copyright>
+    
+	<atom:link href="http://localhost:1316/servizi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creazione di Presentazioni in PowerPoint</title>
+      <link>http://localhost:1316/servizi/creazione-presentazioni-powerpoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1316/servizi/creazione-presentazioni-powerpoint/</guid>
+      <description>Presentation Design Che sia per una proposta, una vendita, un lancio prodotto, una riunione degli analisti, una conferenza, un evento off-site o per qualsiasi altra situazione in cui una presentazione sia necessaria, il tuo pubblico merita una presentazione professionale, efficace e memorabile.
+ Pensata per il Business Il nostro team creativo è guidato da business executive che possono aiutarti a trasformare dei concetti complessi in illustrazioni semplici.Sanno come catturare l’interesse dell’audience ad aiutarvi ad ottenere il risultato.</description>
+    </item>
+    
+  </channel>
+</rss>

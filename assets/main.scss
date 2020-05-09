@@ -1217,6 +1217,7 @@ footer, footer a			{ font-size: 0.75em;	}
 
 /* Links inside the navbar */
 .iosnavbar a {
+  display: block;
   text-align: left;
   font-size: 0.8em;
   font-weight: 700;
@@ -1240,10 +1241,21 @@ footer, footer a			{ font-size: 0.75em;	}
   float: left;
 }
 
+/* definition of the "burger" */
+.iosnavbar-icon {
+  height: 1.2em;
+  margin-right: 8px;
+  padding-top:-2px;
+}
+
+
+/* new class to style the flags in the language option not in use */
+/*
 .iosnavbar-flag {
   height: 0.8em;
   margin-right: 8px;
 }
+*/
 
 nav:after {
   content: "";
@@ -1251,87 +1263,114 @@ nav:after {
   clear: both;
 }
 
-nav a {
-  display: block;
-  color: #FFF;
-  font-size: 0.8em;
-  line-height: 2em;
-  text-decoration: none;
-}
-
-nav ul {
+nav ul.iosmenu {
   float: right;
   padding: 0;
   margin: 0;
-  list-style: none;
   position: relative;
-  background-color: 222;
+  background-color: #222;
 }
 
-nav ul li {
+nav ul.iosmenu li {
   margin: 0px;
   display: inline-block;
   float: left;
+  list-style: none;
 }
 
-nav ul>li>a {
-  padding: 16px 15px;
+nav ul.iosmenu>li>a {
+  padding: 15px 15px;
+  line-height: 20px;
+  border: none;
+}
+
+nav ul.iosmenu>li>ul>li>a {
+  padding: 5px 15px;
+  font-size: 0.8em;
+  background-color: transparent;
   line-height: 20px;
 }
+nav ul.iosmenu>li>ul>li:hover { color: #ff8200; }
 
-nav ul>li>ul>li>a {
-  padding: 5px 15px;
-  font-size: 0.6em;
-  background-color: transparent;
-}
-nav ul li ul li:hover { color: #ff8200; }
-
-nav ul ul {
+nav ul.iosmenu ul {
   display: none;
   position: absolute;
-  top: {{ site.Params.navigation.height }};
+  top: {{ site.Params.navigation.height }}-2;
   background-color: rgba(34,34,34,1);
+  padding: 0;
 }
 
-nav ul li:hover > ul { display: inherit; }
 
-nav ul ul li {
+
+nav ul.iosmenu ul li {
   min-width: 160px;
   float: none;
   display: list-item;
   position: relative;
 }
 
-nav ul ul ul li {
-  position: relative;
-  top: -{{ site.Params.navigation.height }};
-  left: 170px;
+.iosnavbar-separator {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  font-weight: 400 !important;
 }
 
-li > a:after { font-size: 0.6em; content: ' ▼'; }
-li > label:after { font-size: 0.6em; content: ' ▼'; }
+.iosnavbar-separator:hover {
+  color: #ddd !important;
+}
 
-.toggle, [id^=drop] {
+/* Padding to align the dropdown languages*/
+nav ul.iosmenu>li>ul>li>a.iosnavbar-dropdownlang {
+	padding-left: 3.7em;
+}
+
+/* Globe icon */
+.iosnavbar-langicon {
+  height: 1.2em;
+  margin-right: 8px;
+  padding-top:-2px;
+}
+
+.iosnavbar-langicon-hover {
+  height: 1.2em;
+  margin-right: 8px;
+  padding-top:-2px;
+  display:none;
+}
+
+li:hover .iosnavbar-langicon {
+  display:none;
+}
+li:hover .iosnavbar-langicon-hover {
+  display:inline-block;
+}
+
+.menutoggle, [id^=drop] {
  display: none;
+ margin-bottom: 0;
 }
 
-li > a:only-child:after { content: ''; }
 
 
+nav.iosnavbar input[type=checkbox] { margin-top: 0; }
+
+@media all and (min-width : 481px) {
+  nav.iosnavbar ul li:hover > ul { display: inherit; }
+}
 
 @media all and (max-width : 480px) {
 
 iosnavbar { margin: 0; }
 
-.toggle + a,
- .menu { display: none; }
+.menutoggle + a,
+ .iosmenu { display: none; }
 
-.toggle {
+.menutoggle {
   display: block;
   background-color: #222;
   padding: 5px 10px;
   color: #ddd;
-  font-size: 12px;
+  font-size: 0.8em;
   line-height: 1.6em;
   text-decoration: none;
   text-transform: uppercase;
@@ -1339,7 +1378,7 @@ iosnavbar { margin: 0; }
   border: none;
 }
 
-.toggle:hover {color: #ff8200; }
+.menutoggle:hover {color: #ff8200; }
 
 .iosnavbar-icon {
     float: right;
@@ -1349,52 +1388,45 @@ iosnavbar { margin: 0; }
     background-color: #222;
   }
 
+
 [id^=drop]:checked + ul { display: block; }
 
-nav ul li {
+nav.iosnavbar ul.iosmenu li {
   display: block;
   width: 100%;
 }
 
-nav ul>li>a {
-  padding: 0px 10px;
-  color: ddd;
+nav ul.iosmenu>li>a {
+  padding: 5px 10px;
+  color: #ddd;
   text-align: left;
   min-width: 240px;
 }
 
-nav ul>li>ul>li>a {
+nav ul.iosmenu>li>ul>li>a {
   padding: 5px 20px;
 }
 
-nav ul ul .toggle,
- nav ul ul a { padding: 0 40px; }
+nav ul.iosmenu ul .toggle,
+ nav ul.iosmenu ul a { padding: 0 40px; }
 
-nav ul ul ul a { padding: 0 80px; }
 
-nav a:hover,
- nav ul ul ul a { color: #ff8200; }
+nav.iosnavbar ul li ul li .menutoggle,
+ nav.iosnavbar ul ul a { background-color: #222; }
 
-nav ul li ul li .toggle,
- nav ul ul a { background-color: #222; }
-
-nav ul ul {
+nav ul.iosmenu ul {
   float: none;
   position: static;
   color: #ffffff;
 }
 
-nav ul ul li:hover > ul,
-nav ul li:hover > ul { display: none; }
-
-nav ul ul li {
-  display: block;
-  width: 100%;
+.iosnavbar-separator {
+  display: none !important;
 }
 
-nav ul ul ul li { 
-  position: static;
-}
+
+
+
 }
 
 

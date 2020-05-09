@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CES on Ideas on Stage</title>
+    <link>http://localhost:1313/tags/ces/</link>
+    <description>Recent content in CES on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/ces/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I presented at CES and all I got was a bunch of ungrateful tweets</title>
+      <link>http://localhost:1313/news/2019/01/15/2019-01-14-i-presented-at-ces-and-all-i-got-was-a-bunch-of-ungrateful-tweets/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2019/01/15/2019-01-14-i-presented-at-ces-and-all-i-got-was-a-bunch-of-ungrateful-tweets/</guid>
+      <description>My colleague Ricardo pointed me to a tweet from Rene Ritchie, who was attending the conferences at CES.
+Dear almost everyone on stage at CES: Pay ungodly amounts of money — anything you have to — to get WWDC speaker training ASAP.
+Or go to Juilliard or the Royal Shakespeare Company for a month. Whatever works for you.
+&amp;mdash; Rene Ritchie (@reneritchie) January 8, 2019  This tweet says:
+&amp;ldquo;Dear almost everyone on stage at CES: Pay ungodly amounts of money — anything you have to — to get WWDC speaker training ASAP.</description>
+    </item>
+    
+  </channel>
+</rss>
