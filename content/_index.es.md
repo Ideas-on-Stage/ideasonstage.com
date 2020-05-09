@@ -61,8 +61,6 @@ insertsbottom	= [ "revolution" ]
 		url			= "/formacion-presentaciones/"
 					
 +++
-Ideas on Stage ayuda a líderes de todo el mundo a hacer presentaciones impactantes, a crear eventos inspiradores y a reforzar sus organizaciones mediante coaching y formación para hablar en público de la máxima calidad. En un mundo de conferencias aburridas y reuniones interminables, destacará y brillará.
+En Ideas on Stage ayudamos a líderes de todo el mundo a hacer presentaciones impactantes, a crear eventos que inspiren y a fortalecer sus organizaciones gracias a nuestro acompañamiento y formación para hablar y presentar en público.
 
-Creamos Ideas on Stage en 2010, convencidos de que las presentaciones de éxito son una ventaja competitiva clave, y ofrecimos una mezcla revolucionaria de storytelling, diseño visual y acompañamiento de oradores. Nuestra intuición era correcta: nuestros clientes se dieron cuenta del valor de las presentaciones de alto impacto, continuaron volviendo a por más y se lo contaron a sus amigos.
-
-Hoy en día, los expertos en comunicación de Ideas on Stage ofrecen una amplia gama de servicios de presentación en todo el mundo en inglés, francés, español, italiano y alemán.
+Con nuestro equipo de expertos en comunicación ofrecemos una amplia gama de servicios de presentación en Europa (España, Francia, Reino Unido, Italia) y América.
