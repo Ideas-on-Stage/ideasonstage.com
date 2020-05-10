@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cure on Ideas on Stage</title>
+    <link>http://localhost:1313/tags/cure/</link>
+    <description>Recent content in cure on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Thu, 16 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/cure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A New Cure for Medical Conferences</title>
+      <link>http://localhost:1313/news/2019/05/16/2019-05-16-a-new-cure-for-medical-conferences/</link>
+      <pubDate>Thu, 16 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2019/05/16/2019-05-16-a-new-cure-for-medical-conferences/</guid>
+      <description>Most conferences are fairly boring. Even well-known tech conferences fail to engage their audiences all the time. But medical conferences can be among the worst. Check out this quick interview between Ideas on Stage, new partners with Doctors 2.0 &amp;amp; You, and Denise Silber to find out how to take medical (and other) events to the next level.
+Our friend Ross Fisher, a paediatric surgeon based in the UK, has had enough of poor medical communication, and when he’s not operating, he spends time educating doctors about a better way to present.</description>
+    </item>
+    
+  </channel>
+</rss>

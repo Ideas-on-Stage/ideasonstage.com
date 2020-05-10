@@ -104,10 +104,12 @@ theme        			= "hugo-creative-theme-master"
 		height			= "52px"
 		title			= "Navigation"
 		brand 			= "Ideas on Stage"
-		brand_logo		= "/img/ideas-on-stage.png"
+		brand_logo		= "/img/ideas-on-stage.svg"
 		language			= "Language"
 		resource		= "Resources"
 		service			= "Services"
+		languageicon	= "/img/globe.svg"
+		languageiconhover ="/img/globe_hover.svg"
 
 		[params.navigation.items]
 			[params.navigation.items.001]
@@ -145,16 +147,20 @@ theme        			= "hugo-creative-theme-master"
 				name			= "Team"
 				url				= "/team/"
 
-		[params.navigation.languages]				
+		[params.navigation.languages]
+					
 			[params.navigation.languages.001]
 				name	= "Français"
 				url		= "https://www.ideasonstage.fr"
+				flag	= "flag_fr.svg"
 			[params.navigation.languages.002]
 				name	= "Español"
+				flag	= "flag_es.svg"
 				url		= "https://www.ideasonstage.es"
 			[params.navigation.languages.004]
 				name	= "Italiano"
 				url		= "https://www.ideasonstage.it"
+				flag	= "flag_it.svg"
 	
 	# ------------------------------		
 	# References
@@ -206,14 +212,14 @@ theme        			= "hugo-creative-theme-master"
 
 		[params.contact.form.email]
 			text = "Your Email *"
-			warning = "Please enter your email address."
+			warning = "Please enter a valid email address."
 
 		[params.contact.form.phone]
 			text = "Your Phone (optional)"
-			warning = "Please enter your phone number."
+			warning = "Please enter a valid phone number."
 
 		[params.contact.form.message]
-			text = "Your Message *"
+			text = "Let us know how we can help you *"
 			warning = "Please enter a message."
 
 		[params.contact.form.questions]
@@ -317,7 +323,7 @@ theme        			= "hugo-creative-theme-master"
 
 [languages.fr]
 	baseURL			= "https://www.ideasonstage.fr/"
-	languageName		= "Francais"
+	languageName		= "Français"
 	languageCode 	= "fr"
 	weight 			= "2"
 	googleAnalytics = "UA-30695118-2"
@@ -455,15 +461,15 @@ theme        			= "hugo-creative-theme-master"
 
 		[languages.fr.contact.form.email]
 			text = "Votre email *"
-			warning = "Veuillez entrer votre adresse email."
+			warning = "Veuillez entrer une adresse e-mail valide."
 
 		[languages.fr.contact.form.phone]
 			text = "Votre téléphone (optionnel)"
-			warning = "Veuillez entrer votre numéro de téléphone."
+			warning = "Veuillez entrer un numéro de téléphone valide."
 
 		[languages.fr.contact.form.message]
-			text = "Your Message *"
-			warning = "Please enter a message."
+			text = "Votre message *"
+			warning = "S'il vous plaît entrer un message."
 
 	# ------------------------------		
 	# Subscribe to our news
@@ -641,11 +647,11 @@ theme        			= "hugo-creative-theme-master"
 
 		[languages.es.contact.form.email]
 			text = "Tu Email *"
-			warning = "Por favor, introduce tu email."
+			warning = "Por favor, introduce un email válido."
 
 		[languages.es.contact.form.phone]
 			text = "Tu teléfono (opcional)"
-			warning = "Por favor, escribe tu número de teléfono."
+			warning = "Por favor, introduce un número de teléfono válido."
 
 		[languages.es.contact.form.message]
 			text = "Tu Mensaje *"

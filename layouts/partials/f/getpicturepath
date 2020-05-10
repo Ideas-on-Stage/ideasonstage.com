@@ -5,7 +5,7 @@
 	Gets full path to .picture parameter for pages and data files.
 	
 	Arguments:
-	- . as .Page for pages or . as Data for data files
+	- . as .Page object or . as Data object
 	
 	Process:
 	- If page:
@@ -14,6 +14,9 @@
 	- If data:
 		- tries to use .picture
 		- completes path with .url if only picture name specified, eg. "pic.jpg"
+	
+	Returns:
+	- relative path to thumbnail file, empty string if not found.
 
  --> */}}
 
@@ -33,7 +36,7 @@
 		{{ $found = true }}
 	{{ end }}
 {{ else if (isset . "picture") }}
-	{{/* <!-- else this is a site.Data file --> */}}
+	{{/* <!-- else this is a site.Data file, use .picture property --> */}}
 	{{ $picture = .picture }}
 	{{ $found = true }}
 {{ end }}

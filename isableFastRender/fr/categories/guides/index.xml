@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Ideas on Stage</title>
+    <link>http://localhost:1314/categories/guides/</link>
+    <description>Recent content in Guides on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage</copyright>
+    
+	<atom:link href="http://localhost:1314/categories/guides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Le guide ultime du TEDx Speaker</title>
+      <link>http://localhost:1314/guide-tedx-speaker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/guide-tedx-speaker/</guid>
+      <description>Félicitations, vous venez d&amp;rsquo;être sélectionné pour être speaker à un événement TED ou TEDx ! Ce guide vous donnera tous les conseils nécessaires pour réussir votre intervention. Vous pouvez tout lire dans l’ordre, mais ce n’est pas obligatoire. Si vous êtes pressé, vous pouvez sauter directement à la partie qui vous intéresse.</description>
+    </item>
+    
+  </channel>
+</rss>

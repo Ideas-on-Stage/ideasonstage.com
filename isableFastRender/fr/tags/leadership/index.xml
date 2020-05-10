@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leadership on Ideas on Stage</title>
+    <link>http://localhost:1314/tags/leadership/</link>
+    <description>Recent content in Leadership on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1314/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Le triangle du leadership</title>
+      <link>http://localhost:1314/news/2019/09/09/2019-09-09-le-triangle-du-leadership/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/news/2019/09/09/2019-09-09-le-triangle-du-leadership/</guid>
+      <description>L’objectif au cœur de toute présentation est de persuader l’auditeur. Aujourd’hui, tout le monde se livre à une guerre pour l’attention et l’espace, avec l’auditeur comme cible. Cette guerre a mené à une prise de pouvoir des émotions, et la logique calme et raisonnée semble être passée de mode. Individuellement et collectivement, la plupart d’entre nous ingurgitons l’information sous forme de petites bouchées auditives, de brèves nouvelles, et de titres racoleurs affichés sur l’écran de notre smartphone ; les opinions changent à chaque coup d’œil sur notre écran.</description>
+    </item>
+    
+  </channel>
+</rss>

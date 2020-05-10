@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storytelling on Ideas on Stage</title>
+    <link>http://localhost:1313/tags/storytelling/</link>
+    <description>Recent content in Storytelling on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Tue, 03 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/storytelling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The story behind the story</title>
+      <link>http://localhost:1313/news/2019/12/03/2019-12-03-the-story-behind-the-story/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2019/12/03/2019-12-03-the-story-behind-the-story/</guid>
+      <description>First, a mandatory disclaimer: I like Sixties-Boomer music. If poor musical tastes offend you, don’t read this.
+Last week, I was searching for an old song on YouTube, when suddenly I noticed a video from Joan Baez. I realized that, despite priding myself on my knowledge of 60s music, I never actually listened to one of her songs. So I clicked and listened to it. It was called Diamonds and Rust.</description>
+    </item>
+    
+    <item>
+      <title>Start with the subject, not the context</title>
+      <link>http://localhost:1313/news/2019/07/02/2019-07-02-why-you-should-avoid-long-winded-introductions-in-your-presentations/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2019/07/02/2019-07-02-why-you-should-avoid-long-winded-introductions-in-your-presentations/</guid>
+      <description>You know these presenters who speak for 20 minutes before they finally understand what they are talking about? I had a colleague who was just like that. When I asked him why he couldn’t do a shorter introduction, he said that he felt that all the details he gave in his opening were indispensable to understand the presentation. In other words, he was taking the time to explain the context before talking about his subject.</description>
+    </item>
+    
+    <item>
+      <title>Game of Thrones and the importance of the storyline</title>
+      <link>http://localhost:1313/news/2019/05/21/2019-05-21-game-of-thrones-and-the-importance-of-the-storyline/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2019/05/21/2019-05-21-game-of-thrones-and-the-importance-of-the-storyline/</guid>
+      <description>By now, the last episode of the cult show Game of Thrones has aired. I haven’t seen it, and I didn’t want to see it before writing this article. Whether it accurately follows the storyline of the books or not is a moot point, because said book hasn’t been written yet. And it shows. I won’t spoil anything, don’t worry. But everyone noticed that the screenwriting of the seasons that could rely on George R.</description>
+    </item>
+    
+    <item>
+      <title>Is Barbara Minto’s pyramid principle outdated?</title>
+      <link>http://localhost:1313/news/2019/04/16/2019-04-16-is-barbara-minto-s-pyramid-principle-outdated/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2019/04/16/2019-04-16-is-barbara-minto-s-pyramid-principle-outdated/</guid>
+      <description>A few weeks ago someone spoke a name that I hadn’t heard in a long, very long time: Barbara Minto. She’s the author of the Pyramid Principle, a book that was long considered, and sometimes still is, the gold standard of presentation structuring in the consulting industry. But it was back in the eighties. So I’ll dare to ask the question: is the pyramid principle outdated?
+If you’re not familiar with the pyramid principle, it is a method to lay out the information in a presentation in the most efficient way possible, based on how people with little time, especially executives, absorb information.</description>
+    </item>
+    
+    <item>
+      <title>In presentations, don’t do a flash back, do a flash present</title>
+      <link>http://localhost:1313/news/2019/03/19/2019-03-19-in-presentations-dont-do-a-flash/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2019/03/19/2019-03-19-in-presentations-dont-do-a-flash/</guid>
+      <description>It’s a trick I learned when studying how movies and TV shows are written. You don’t do a flash back, you do a flash present. For presentations, that means that you don’t tell the story as something that is over; that makes the audience passive. Instead, you bring the scene from the past into the present, or you bring the audience to the past, and tell it as if it is happening right now.</description>
+    </item>
+    
+    <item>
+      <title>The triple stakes of great presentations</title>
+      <link>http://localhost:1313/news/2019/03/05/2019-03-05-triple-stakes-of-great-presentations/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2019/03/05/2019-03-05-triple-stakes-of-great-presentations/</guid>
+      <description>The best presentations have three stakes, three reasons &amp;ldquo;why&amp;rdquo; they are important:
+ The first stake is about you: why is the topic important for you? This is the reason you, and not somebody else, is on stage to deliver the presentation. The second stake is about your audience: why is it important for them? This is the reason why your audience is there to listen to you instead of doing something else.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prezi on Ideas on Stage</title>
+    <link>http://localhost:1314/tags/prezi/</link>
+    <description>Recent content in Prezi on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1314/tags/prezi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pourquoi Prezi n&#39;a pas révolutionné les présentations</title>
+      <link>http://localhost:1314/news/2019/05/28/2019-05-28-pourquoi-prezi-n-a-pas-revolutionne-les-presentations/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/news/2019/05/28/2019-05-28-pourquoi-prezi-n-a-pas-revolutionne-les-presentations/</guid>
+      <description>En 2009, l’année où TED a décidé de lancer le programme de licence TEDx, Prezi est né du désir de changer la façon dont des outils comme PowerPoint et Keynote structuraient les présentations. Avec ses effets de zoom et déplacement, Prezi a rapidement attiré l’attention des spectateurs. Mais les déplacements et zooms constants se sont vite révélé être finalement assez limités, et le public avait l’impression d’être sur un bateau pris dans un ouragan de force 10.</description>
+    </item>
+    
+  </channel>
+</rss>

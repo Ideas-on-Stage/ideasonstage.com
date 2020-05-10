@@ -1,0 +1,42 @@
+# --------
+# Old language structure to new one
+https://www.ideasonstage.com/fr				https://www.ideasonstage.fr/	301!
+https://www.ideasonstage.com/fr/			https://www.ideasonstage.fr/	301!
+https://www.ideasonstage.com/es				https://www.ideasonstage.es/	301!
+https://www.ideasonstage.com/es/			https://www.ideasonstage.es/	301!
+
+# --------
+# Not found to correct link
+https://www.ideasonstage.com/wp-ios/uploads/2012/04/pierre_morsa.jpg		https://www.ideasonstage.com/img/team-members/pierre-morsa.jpg	301
+https://www.ideasonstage.com/picture/home/ideas-on-stage.jpg	https://www.ideasonstage.com/img/home/ideas-on-stage.jpg	301
+https://www.ideasonstage.com/fr/formations-art-presenter/women-on-stage/	https://www.ideasonstage.fr/formation-presentations/women-on-stage/	301!
+
+https://www.ideasonstage.fr/formations-ateliers/women-on-stage/		https://www.ideasonstage.fr/formation-presentations/women-on-stage/	301!
+https://www.ideasonstage.fr/formations-ateliers/art-de-presenter/	https://www.ideasonstage.fr/formation-presentations/the-business-presentation-revolution/		301!
+
+# --------
+# presentation-creation-agency to communication-consulting redirects
+
+https://www.ideasonstage.com/audience-transformation-roadmap/		https://www.ideasonstage.com/services/communication-consulting/audience-transformation-roadmap/	 301!
+https://www.ideasonstage.fr/parcours-transformation-auditoire/		https://www.ideasonstage.fr/services/conseil-communication/parcours-transformation-auditoire/ 301!
+
+https://www.ideasonstage.com/presentation-creation-agency/presentation-strategy/		https://www.ideasonstage.com/services/communication-consulting/communication-strategy/	301!
+https://www.ideasonstage.es/presentation-creation-agency/presentation-strategy/			https://www.ideasonstage.es/servicios/communication-consulting/communication-strategy/ 301!
+https://www.ideasonstage.fr/agence-creation-presentations/strategie-de-presentation/		https://www.ideasonstage.fr/services/conseil-communication/strategie-communication/ 301!
+https://www.ideasonstage.it/presentation-creation-agency/presentation-strategy/		https://www.ideasonstage.it/servizi/communication-consulting/communication-strategy/	301!
+
+https://www.ideasonstage.com/presentation-creation-agency/story-copywriting/		https://www.ideasonstage.com/services/communication-consulting/story-copywriting/	301!
+https://www.ideasonstage.es/presentation-creation-agency/story-copywriting/			https://www.ideasonstage.es/servicios/communication-consulting/story-copywriting/ 301!
+https://www.ideasonstage.fr/agence-creation-presentations/storytelling-et-ecriture/		https://www.ideasonstage.fr/services/conseil-communication/storytelling-et-ecriture// 301!
+https://www.ideasonstage.it/presentation-creation-agency/story-copywriting/		https://www.ideasonstage.it/servizi/communication-consulting/story-copywriting/	301!
+
+# --------
+# presentation-creation-agency to powerpoint-presentation-design-agency
+https://www.ideasonstage.com/presentation-creation-agency/		https://www.ideasonstage.com/services/powerpoint-presentation-design-agency/	301!
+https://www.ideasonstage.es/presentation-creation-agency/		https://www.ideasonstage.es/servicios/creacion-presentaciones-powerpoint/	301!
+https://www.ideasonstage.fr/agence-creation-presentations/		https://www.ideasonstage.fr/services/agence-creation-presentation-powerpoint/ 301!
+https://www.ideasonstage.it/presentation-creation-agency/		https://www.ideasonstage.it/servizi/creazione-presentazioni-powerpoint/	301!
+
+# --------
+# /img/* to /img/*
+/img/* /img/:splat 301!

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Women on Stage on Ideas on Stage</title>
+    <link>http://localhost:1313/categories/women-on-stage/</link>
+    <description>Recent content in Women on Stage on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage</copyright>
+    
+	<atom:link href="http://localhost:1313/categories/women-on-stage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Women, a series of kakemonos celebrating women who changed the world</title>
+      <link>http://localhost:1313/women/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/women/</guid>
+      <description>We created a series of kakemonos to celebrate women who changed the world. You can freely download and print them for your own use. All images are public domain. If you want to print them, the recommended format is 80 cm x 200 cm (approx. 31.49 inches by 78.7 inches) or smaller keeping the same proportions (e.g. 40 cm x  100 cm). The color space is FOGRA 39 and the bleed is 1 mm on every side.</description>
+    </item>
+    
+  </channel>
+</rss>

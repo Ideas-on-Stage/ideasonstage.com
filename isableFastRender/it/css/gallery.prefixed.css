@@ -1,0 +1,893 @@
+.gallery .control-operator:target ~ .controls .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:first-of-type,
+.gallery .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1),
+.gallery .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2),
+.gallery .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3),
+.gallery .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4),
+.gallery .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5) {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.gallery .item:first-of-type {
+  position: static;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.gallery .control-operator {
+  display: none;
+}
+
+.gallery .control-operator:target ~ .item {
+  pointer-events: none;
+  opacity: 0;
+  -webkit-animation: none;
+  -o-animation: none;
+  animation: none;
+}
+
+.gallery .control-operator:target ~ .controls .control-button {
+  -webkit-animation: none;
+  -o-animation: none;
+  animation: none;
+}
+
+
+@-webkit-keyframes controlAnimation-2 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  14.3%, 50% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  64.3%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@-o-keyframes controlAnimation-2 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  14.3%, 50% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  64.3%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes controlAnimation-2 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  14.3%, 50% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  64.3%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@-webkit-keyframes galleryAnimation-2 {
+  0% {
+    opacity: 0;
+  }
+
+  14.3%, 50% {
+    opacity: 1;
+  }
+
+  64.3%, 100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes galleryAnimation-2 {
+  0% {
+    opacity: 0;
+  }
+
+  14.3%, 50% {
+    opacity: 1;
+  }
+
+  64.3%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes galleryAnimation-2 {
+  0% {
+    opacity: 0;
+  }
+
+  14.3%, 50% {
+    opacity: 1;
+  }
+
+  64.3%, 100% {
+    opacity: 0;
+  }
+}
+
+.gallery .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.items-2.autoplay .control-button {
+  -webkit-animation: controlAnimation-2 14s infinite;
+  -o-animation: controlAnimation-2 14s infinite;
+  animation: controlAnimation-2 14s infinite;
+}
+
+.items-2.autoplay .item {
+  -webkit-animation: galleryAnimation-2 14s infinite;
+  -o-animation: galleryAnimation-2 14s infinite;
+  animation: galleryAnimation-2 14s infinite;
+}
+
+.items-2 .control-button:nth-of-type(1),
+.items-2 .item:nth-of-type(1) {
+  -webkit-animation-delay: -2s;
+  -o-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.items-2 .control-button:nth-of-type(2),
+.items-2 .item:nth-of-type(2) {
+  -webkit-animation-delay: 5s;
+  -o-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+@-webkit-keyframes controlAnimation-3 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  9.5%, 33.3% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  42.9%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@-o-keyframes controlAnimation-3 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  9.5%, 33.3% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  42.9%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes controlAnimation-3 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  9.5%, 33.3% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  42.9%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@-webkit-keyframes galleryAnimation-3 {
+  0% {
+    opacity: 0;
+  }
+
+  9.5%, 33.3% {
+    opacity: 1;
+  }
+
+  42.9%, 100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes galleryAnimation-3 {
+  0% {
+    opacity: 0;
+  }
+
+  9.5%, 33.3% {
+    opacity: 1;
+  }
+
+  42.9%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes galleryAnimation-3 {
+  0% {
+    opacity: 0;
+  }
+
+  9.5%, 33.3% {
+    opacity: 1;
+  }
+
+  42.9%, 100% {
+    opacity: 0;
+  }
+}
+
+.gallery .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.items-3.autoplay .control-button {
+  -webkit-animation: controlAnimation-3 21s infinite;
+  -o-animation: controlAnimation-3 21s infinite;
+  animation: controlAnimation-3 21s infinite;
+}
+
+.items-3.autoplay .item {
+  -webkit-animation: galleryAnimation-3 21s infinite;
+  -o-animation: galleryAnimation-3 21s infinite;
+  animation: galleryAnimation-3 21s infinite;
+}
+
+.items-3 .control-button:nth-of-type(1),
+.items-3 .item:nth-of-type(1) {
+  -webkit-animation-delay: -2s;
+  -o-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.items-3 .control-button:nth-of-type(2),
+.items-3 .item:nth-of-type(2) {
+  -webkit-animation-delay: 5s;
+  -o-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.items-3 .control-button:nth-of-type(3),
+.items-3 .item:nth-of-type(3) {
+  -webkit-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+@-webkit-keyframes controlAnimation-4 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  7.1%, 25% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  32.1%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@-o-keyframes controlAnimation-4 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  7.1%, 25% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  32.1%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes controlAnimation-4 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  7.1%, 25% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  32.1%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@-webkit-keyframes galleryAnimation-4 {
+  0% {
+    opacity: 0;
+  }
+
+  7.1%, 25% {
+    opacity: 1;
+  }
+
+  32.1%, 100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes galleryAnimation-4 {
+  0% {
+    opacity: 0;
+  }
+
+  7.1%, 25% {
+    opacity: 1;
+  }
+
+  32.1%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes galleryAnimation-4 {
+  0% {
+    opacity: 0;
+  }
+
+  7.1%, 25% {
+    opacity: 1;
+  }
+
+  32.1%, 100% {
+    opacity: 0;
+  }
+}
+
+.gallery .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.items-4.autoplay .control-button {
+  -webkit-animation: controlAnimation-4 28s infinite;
+  -o-animation: controlAnimation-4 28s infinite;
+  animation: controlAnimation-4 28s infinite;
+}
+
+.items-4.autoplay .item {
+  -webkit-animation: galleryAnimation-4 28s infinite;
+  -o-animation: galleryAnimation-4 28s infinite;
+  animation: galleryAnimation-4 28s infinite;
+}
+
+.items-4 .control-button:nth-of-type(1),
+.items-4 .item:nth-of-type(1) {
+  -webkit-animation-delay: -2s;
+  -o-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.items-4 .control-button:nth-of-type(2),
+.items-4 .item:nth-of-type(2) {
+  -webkit-animation-delay: 5s;
+  -o-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.items-4 .control-button:nth-of-type(3),
+.items-4 .item:nth-of-type(3) {
+  -webkit-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+.items-4 .control-button:nth-of-type(4),
+.items-4 .item:nth-of-type(4) {
+  -webkit-animation-delay: 19s;
+  -o-animation-delay: 19s;
+  animation-delay: 19s;
+}
+
+@-webkit-keyframes controlAnimation-5 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  5.7%, 20% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  25.7%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@-o-keyframes controlAnimation-5 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  5.7%, 20% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  25.7%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@keyframes controlAnimation-5 {
+  0% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  5.7%, 20% {
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  25.7%, 100% {
+    color: #ccc;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+@-webkit-keyframes galleryAnimation-5 {
+  0% {
+    opacity: 0;
+  }
+
+  5.7%, 20% {
+    opacity: 1;
+  }
+
+  25.7%, 100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes galleryAnimation-5 {
+  0% {
+    opacity: 0;
+  }
+
+  5.7%, 20% {
+    opacity: 1;
+  }
+
+  25.7%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes galleryAnimation-5 {
+  0% {
+    opacity: 0;
+  }
+
+  5.7%, 20% {
+    opacity: 1;
+  }
+
+  25.7%, 100% {
+    opacity: 0;
+  }
+}
+
+.gallery .control-operator:nth-of-type(1):target ~ .item:nth-of-type(1) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(2):target ~ .item:nth-of-type(2) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(3):target ~ .item:nth-of-type(3) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(4):target ~ .item:nth-of-type(4) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.gallery .control-operator:nth-of-type(5):target ~ .item:nth-of-type(5) {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.items-5.autoplay .control-button {
+  -webkit-animation: controlAnimation-5 35s infinite;
+  -o-animation: controlAnimation-5 35s infinite;
+  animation: controlAnimation-5 35s infinite;
+}
+
+.items-5.autoplay .item {
+  -webkit-animation: galleryAnimation-5 35s infinite;
+  -o-animation: galleryAnimation-5 35s infinite;
+  animation: galleryAnimation-5 35s infinite;
+}
+
+.items-5 .control-button:nth-of-type(1),
+.items-5 .item:nth-of-type(1) {
+  -webkit-animation-delay: -2s;
+  -o-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.items-5 .control-button:nth-of-type(2),
+.items-5 .item:nth-of-type(2) {
+  -webkit-animation-delay: 5s;
+  -o-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.items-5 .control-button:nth-of-type(3),
+.items-5 .item:nth-of-type(3) {
+  -webkit-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  animation-delay: 12s;
+}
+
+.items-5 .control-button:nth-of-type(4),
+.items-5 .item:nth-of-type(4) {
+  -webkit-animation-delay: 19s;
+  -o-animation-delay: 19s;
+  animation-delay: 19s;
+}
+
+.items-5 .control-button:nth-of-type(5),
+.items-5 .item:nth-of-type(5) {
+  -webkit-animation-delay: 26s;
+  -o-animation-delay: 26s;
+  animation-delay: 26s;
+}
+
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+
+.gallery {
+  position: relative;
+}
+
+.gallery .item {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: #222;
+  text-rendering: optimizeLegibility; 
+}
+
+.gallery .controls {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 2;
+  width: 100%;
+  margin-left: -50%;
+  text-align: center;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-family: Helvetica;
+  font-size: 2.5em;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: color .1s;
+  -o-transition: color .1s;
+  transition: color .1s;
+  
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* new declarations from example */
+  
+/*
+.gallery .item {
+  height: 100%;
+  text-rendering: optimizeLegibility; }
+*/
+.gallery .introduction {
+  background: #222;
+  text-align: center; }
+.gallery .custom-controls {
+  background: #222; }
+
+.gallery header {
+  color: white;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2); }
+
+.gallery .item:first-of-type {
+  position: absolute; }
+
+.superfluous {
+  display: table;
+  height: 100%;
+  width: 100%; }
+.gallery .slider {
+  position: relative;
+  top:40%;
+  font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.gallery .slider .slider-title {
+  margin: 0;
+  padding: 0 10%;
+  font-size: 2em;
+  color: rgba(255,255,255,1); }
+
+.gallery .slider .slider-subtitle {
+  margin: 0;
+  padding: 0 10%;
+  font-size: 1.5em;
+  color: rgba(255, 255, 255, 0.8); }
+
+.gallery .custom-controls header {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 25%;
+  font-size: .7em; }
+
+.gallery .control-operator:nth-of-type(2):target ~ .secondary-controls {
+  display: block; }
+.gallery .control-operator:nth-of-type(1):target ~ .secondary-controls-1 {
+  display: block; }
+.gallery .control-operator:nth-of-type(2):target ~ .secondary-controls-2 {
+  display: block; }
+.gallery .control-operator:nth-of-type(3):target ~ .secondary-controls-3 {
+  display: block; }  
+
+.gallery .secondary-controls {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: auto; }
+  
+.gallery .secondary-controls-1,
+.gallery .secondary-controls-2,
+.gallery .secondary-controls-3 {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  pointer-events: none; }
+  
+  .gallery .secondary-controls nav,
+  .gallery .secondary-controls-1 nav,
+  .gallery .secondary-controls-2 nav,
+  .gallery .secondary-controls-3 nav {
+    display: table-cell;
+    vertical-align: middle; }
+    
+  .gallery .secondary-controls a,
+  .gallery .secondary-controls-1 a,
+  .gallery .secondary-controls-2 a,
+  .gallery .secondary-controls-3 a {
+    pointer-events: auto;
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    transition: all .25s; }
+    
+    .gallery .secondary-controls a:hover {
+      transform: scale(1.1); }
+    .gallery .secondary-controls-1 a:hover {
+      transform: scale(1.1); }
+    .gallery .secondary-controls-2 a:hover {
+      transform: scale(1.1); }
+    .gallery .secondary-controls-3 a:hover {
+      transform: scale(1.1); }        
+      
+  .gallery .secondary-controls a img,
+  .gallery .secondary-controls-1 a img,
+  .gallery .secondary-controls-2 a img,
+  .gallery .secondary-controls-3 a img  {
+    margin-top: -0.5em;
+    
+   }
+    
+  .gallery .secondary-controls a:nth-child(1),
+  .gallery .secondary-controls-1 a:nth-child(1),
+  .gallery .secondary-controls-2 a:nth-child(1),
+  .gallery .secondary-controls-3 a:nth-child(1) {
+    float: left;
+    margin-left: .2em; }
+  .gallery .secondary-controls a:nth-child(1) img,
+  .gallery .secondary-controls-1 a:nth-child(1) img,
+  .gallery .secondary-controls-2 a:nth-child(1) img,
+  .gallery .secondary-controls-3 a:nth-child(1) img {
+    margin-right: .1em; }
+  .gallery .secondary-controls a:nth-child(2),
+  .gallery .secondary-controls-1 a:nth-child(2),
+  .gallery .secondary-controls-2 a:nth-child(2),
+  .gallery .secondary-controls-3 a:nth-child(2) {
+    float: right;
+    margin-right: .2em; }
+  .gallery .secondary-controls a:nth-child(2) img,
+  .gallery .secondary-controls-1 a:nth-child(2) img,
+  .gallery .secondary-controls-2 a:nth-child(2) img,
+  .gallery .secondary-controls-3 a:nth-child(2) img {
+    margin-left: .1em; }
+
+@media(max-width:1200px){
+  
+  .gallery .slider {
+ 	   top:35%;
+   }	   
+  
+  .gallery .secondary-controls a img,
+  .gallery .secondary-controls-1 a img,
+  .gallery .secondary-controls-2 a img,
+  .gallery .secondary-controls-3 a img  {
+    margin-top: -0.3em;
+    width: auto; } 
+    
+}
+
+@media(max-width:719px){
+	.gallery .slider {
+ 	   top:35%;
+	}
+	.gallery .slider .slider-title {
+  		font-size: 1.5em;
+  		padding-right: 10%;
+  		padding-left: 10%;
+  	}
+
+	.gallery .slider .slider-subtitle {
+ 		font-size: 1.2em;
+ 		padding-right: 10%;
+  		padding-left: 10%;
+  	}
+	header#home h1 {
+		font-size: 1.25em;
+	}
+  
+  .gallery .secondary-controls a,
+  .gallery .secondary-controls-1 a,
+  .gallery .secondary-controls-2 a,
+  .gallery .secondary-controls-3 a {
+    pointer-events: auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    transition: all .25s; }
+    
+  .gallery .secondary-controls a img,
+  .gallery .secondary-controls-1 a img,
+  .gallery .secondary-controls-2 a img,
+  .gallery .secondary-controls-3 a img  {
+    margin-top: -0.4em;
+    width: 35px; } 
+    
+}
+

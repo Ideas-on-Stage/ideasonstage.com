@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startups on Ideas on Stage</title>
+    <link>http://localhost:1314/categories/startups/</link>
+    <description>Recent content in Startups on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage</copyright>
+    
+	<atom:link href="http://localhost:1314/categories/startups/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Soirée des Trophées MarTech by CMIT</title>
+      <link>http://localhost:1314/success-stories-clients/soiree-trophees-martech-cmit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/success-stories-clients/soiree-trophees-martech-cmit/</guid>
+      <description>Le Club des Marketeurs de la Tech (CMIT) organisait le 20 novembre dernier la 4ème édition des Trophées Startup MarTech, un concours qui déniche les futures pépites destinées à révolutionner le marketing B2B. Depuis 2016, le CMIT révèle des startups innovantes en mettant à l’honneur les nouveaux talents qui accompagneront les responsables marketing de demain. Chaque année, les plus beaux dossiers plébiscités par les membres sont mis en avant sur le site du CMIT et de leurs partenaires presse.</description>
+    </item>
+    
+  </channel>
+</rss>

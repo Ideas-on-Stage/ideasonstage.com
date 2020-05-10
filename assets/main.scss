@@ -459,11 +459,9 @@ footer, footer a			{ font-size: 0.75em;	}
 			
 			.button-primary {
 				padding: 2vw 6vw;
+				max-width: 90vw;
 			}
-		
-			.button-primary {
-				padding: 2vw 6vw;
-			}
+
 		}
 	
 	/* @end */
@@ -506,15 +504,29 @@ footer, footer a			{ font-size: 0.75em;	}
 		#content-list {
 			padding-bottom: 4vw;
 		}
-
+		
+		/* use for narrow content such as forms */
+		.layout-content-narrow {
+			padding: 0 2vw;
+			margin: auto;
+			width: 50vw;
+			min-width: 410px;
+			max-width:800px; /* prevents text area from getting unpleasantly wide */
+		}
+		
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
 
 			.layout-content {
 					width:90vw;
-				}
+			}
 			.layout-content-width {
 					width:90vw;
-				}		
+			}
+			/* make the narrow content look nice in small screens */
+			.layout-content-narrow {
+			min-width: 90vw;
+			width: 90vw;
+			}		
 		}
 		
 	/* @end */
@@ -585,6 +597,7 @@ footer, footer a			{ font-size: 0.75em;	}
 			width: 100vw;
 			object-fit: cover;
 		}
+		
 			
 	/* @end */
 	
@@ -1187,106 +1200,236 @@ footer, footer a			{ font-size: 0.75em;	}
 
 /* @group MENU */
 
-.navbar-inverse {
-    border: none;
-    transition: all .35s;
+/* Navbar container */
+.iosnavbar {
+  /* overflow: hidden; */
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:1000;
+  border: none;
+  transition: all .35s;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Links inside the navbar */
+.iosnavbar a {
+  display: block;
+  text-align: left;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #ddd;
+  text-decoration: none;
+  text-transform: uppercase;
+  /* background-color: #222; */
+  border: none;
+}
+
+.iosnavbar a:hover {
+  color: #ff8200;
 }
 
 /* Adjust logo positioning */
-.navbar-brand {
-	height: {{ site.Params.navigation.height }};
-	padding: 0;
-    color: #FF8200;
+.iosnavbar-brand {
+  height: {{ site.Params.navigation.height }};
+  /* height: 52px; */
+  padding: 0;
+  color: #FF8200;
+  float: left;
 }
 
-.nav li {
-	margin: 0;
+/* definition of the "burger" */
+.iosnavbar-icon {
+  height: 1.2em;
+  margin-right: 8px;
+  padding-top:-2px;
 }
 
-.navbar-inverse .nav>li a{
-	text-transform: uppercase;
-	color: #DDD;
-	border: 0;
-}
 
-.navbar-inverse .nav>li>a:hover,
-.navbar-inverse .nav>li>a:focus:hover {
-    color: #FF8200;
+/* new class to style the flags in the language option not in use */
+/*
+.iosnavbar-flag {
+  height: 0.8em;
+  margin-right: 8px;
 }
+*/
 
-.navbar-inverse .nav>li.active>a,
-.navbar-inverse .nav>li.active>a:focus {
-    color: #FF8200!important;
-    background-color: transparent;
-}
-
-.navbar-inverse .nav>li.active>a:hover,
-.navbar-inverse .nav>li.active>a:focus:hover {
-    background-color: transparent;
-}
-
-.navbar-inverse .nav>li.open>a,
-.navbar-inverse .nav>li.open>a:focus {
-	color: #FF8200!important;
-    background-color: transparent;
-}
-
-.navbar-inverse .nav>li.open>a:hover, 
-.navbar-inverse .nav>li.open>a:focus:hover, {
-    background-color: transparent;	
-}
-
-/* override bootstrap margin */
-.navbar-toggle {
-	margin-right: 0;
-}
-
-.dropdown-menu {
-	text-transform: uppercase;
-	color: #DDD;
-	background-color: #222;
-	border: none;
-}
-
-.dropdown-menu > li > a {
-  display: block;
-  padding: 3px 20px;
+nav:after {
+  content: "";
+  display: table;
   clear: both;
-  line-height: 1.42857143;
-  color: #888;
-  white-space: nowrap;
-  text-align: right;
 }
 
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-  color: #FF8200;
-  text-decoration: none;
+nav ul.iosmenu {
+  float: right;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-color: #222;
+}
+
+nav ul.iosmenu li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  list-style: none;
+}
+
+nav ul.iosmenu>li>a {
+  padding: 15px 0.9em;
+  line-height: 20px;
+  border: none;
+}
+
+nav ul.iosmenu>li>ul>li>a {
+  padding: 5px 15px;
+  font-size: 0.8em;
   background-color: transparent;
+  line-height: 20px;
 }
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-  color: #FF8200;
+nav ul.iosmenu>li>ul>li:hover { color: #ff8200; }
+
+nav ul.iosmenu ul {
+  display: none;
+  position: absolute;
+  top: {{ site.Params.navigation.height }}-2;
+  background-color: rgba(34,34,34,1);
+  padding: 0;
+}
+
+
+
+nav ul.iosmenu ul li {
+  min-width: 160px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+.iosnavbar-separator {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  font-weight: 400 !important;
+}
+
+.iosnavbar-separator:hover {
+  color: #ddd !important;
+}
+
+/* Padding to align the dropdown languages*/
+nav ul.iosmenu>li>ul>li>a.iosnavbar-dropdownlang {
+	padding-left: 3em;
+}
+
+/* Globe icon */
+.iosnavbar-langicon, .iosnavbar-langicon-hover {
+  height: 1.2em;
+  margin-right: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+.iosnavbar-langicon-hover {
+  display:none;
+}
+
+li:hover .iosnavbar-langicon {
+  display:none;
+}
+li:hover .iosnavbar-langicon-hover {
+  display:inline-block;
+}
+
+.menutoggle, [id^=drop] {
+ display: none;
+ margin-bottom: 0;
+}
+
+nav.iosnavbar input[type=checkbox] { margin-top: 0; }
+
+.iosnavbar-brand { 
+  width: 15em;
+  min-width: 120px;
+}
+
+
+@media all and (min-width : 481px) {
+  nav.iosnavbar ul li:hover > ul { display: inherit; }
+}
+
+@media all and (max-width : 480px) {
+
+iosnavbar { margin: 0; }
+
+.menutoggle + a,
+ .iosmenu { display: none; }
+
+.menutoggle {
+  display: block;
+  background-color: #222;
+  padding: 5px 10px;
+  color: #ddd;
+  font-size: 0.8em;
+  line-height: 1.6em;
   text-decoration: none;
-  background-color: transparent;
-  outline: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
 }
 
-.nav-tabs >li.active>a {
-	color: #FF8200!important;
+.menutoggle:hover {color: #ff8200; }
+
+.iosnavbar-icon {
+    float: right;
+    display: block;
+    font-size: 1.6em;
+    padding: 3px 0px;
+    background-color: #222;
+  }
+
+
+[id^=drop]:checked + ul { display: block; }
+
+nav.iosnavbar ul.iosmenu li {
+  display: block;
+  width: 100%;
 }
 
-.nav-tabs a {
-	color: #DDD;
+nav ul.iosmenu>li>a {
+  padding: 5px 10px;
+  color: #ddd;
+  text-align: left;
+  min-width: 240px;
 }
 
-.tab-content {
-	padding: 20px;	
-	border-left: 1px solid #ddd;
-	border-right: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
+nav ul.iosmenu>li>ul>li>a {
+  padding: 5px 20px;
 }
+
+nav ul.iosmenu ul .toggle,
+ nav ul.iosmenu ul a { padding: 0 40px; }
+
+
+nav.iosnavbar ul li ul li .menutoggle,
+ nav.iosnavbar ul ul a { background-color: #222; }
+
+nav ul.iosmenu ul {
+  float: none;
+  position: static;
+  color: #ffffff;
+}
+
+.iosnavbar-separator {
+  display: none !important;
+}
+
+
+
+
+}
+
 
 /* @end */
 
@@ -1370,7 +1513,7 @@ footer, footer a			{ font-size: 0.75em;	}
 }
 
 /*PMO Added for forms - height of free text field*/
-section#contact .form-group textarea.form-control {
+section#contact .iosform-group textarea.iosform-control {
     height: 133px;
 }
 
@@ -1552,6 +1695,60 @@ label {
 .form-group {
   margin-bottom: 20px;
 }
+
+.iosform-control {
+  box-shadow: none;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.iosform-control-nav {
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  display: block;
+  padding: 3px 6px ;
+  clear: both;
+  line-height: 1.42857143;
+  color: #666;
+  white-space: nowrap;
+  text-align: left;
+  width: 190px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(102, 102, 102);
+}
+.iosform-control-nav:focus:hover {
+  color: #FF8200!important;
+  background-color: transparent;
+  border-color: #000;
+  outline: 0;
+ 
+}
+
+.iosform-control:focus {
+  border-color: #FF8200;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 127, 191, 0.6);
+}
+.iosform-group {
+  margin-bottom: 20px;
+}
+
+.iosform-button {
+  text-align: center;
+}
+
 
 /* @group 404 */
 

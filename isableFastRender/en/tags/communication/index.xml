@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communication on Ideas on Stage</title>
+    <link>http://localhost:1313/tags/communication/</link>
+    <description>Recent content in Communication on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/communication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Virtual Speaking Success: Effective communication in online meetings</title>
+      <link>http://localhost:1313/news/2020/04/06/2020-04-06-virtual_speaking_success_effective_communication_in_online_meetings/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2020/04/06/2020-04-06-virtual_speaking_success_effective_communication_in_online_meetings/</guid>
+      <description>As many of us are learning, it’s easy to arrange a virtual meeting, but not so easy to run one successfully. There is quite a steep learning curve.
+One vital area to work on is speaking in virtual meetings. People often complain of video issues, microphone issues, poor vocal expression, monotonous speakers, and poor interactivity. Step 5 of our Virtual Meeting Revolution process is called Connection for a good reason: when speaking in an online meeting, you need to connect with the other participants, and you can’t connect if they are so bored they are not paying attention, or if they gave up trying to understand what you are saying.</description>
+    </item>
+    
+    <item>
+      <title>“Others Too”: Zoom&#39;s Terrible Communication Misstep</title>
+      <link>http://localhost:1313/news/2019/07/16/2019-07-16-others-too-zoom-s-terrible-communication-misstep/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/2019/07/16/2019-07-16-others-too-zoom-s-terrible-communication-misstep/</guid>
+      <description>You may have heard about it, a basic security problem was found in Zoom for Mac, that allowed attackers to turn the camera on remotely. Zoom is an application used to organize videoconferences on the web. It works well and has been widely adopted by corporations and individuals seeking to provide a quality service to employees working remotely or on different sites.
+The security problem itself was easy to correct, and, at the time of this article, should have been fixed.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>communicationenligne on Ideas on Stage</title>
+    <link>http://localhost:1314/tags/communicationenligne/</link>
+    <description>Recent content in communicationenligne on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage</copyright>
+    <lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1314/tags/communicationenligne/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Les 5 révolutions des réunions virtuelles</title>
+      <link>http://localhost:1314/news/2020/04/01/2020-04-01-les_5_revolutions_des_reunions_virtuelles/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1314/news/2020/04/01/2020-04-01-les_5_revolutions_des_reunions_virtuelles/</guid>
+      <description>Qu&amp;rsquo;allez-vous faire aujourd&amp;rsquo;hui ? Pour beaucoup d’entre vous, la réponse est sans appel : trop de réunions et pas assez de temps pour travailler. Il est effectivement rare que les réunions et la productivité coïncident.
+Au moment où nous écrivons ces lignes, beaucoup d&amp;rsquo;entre nous doivent travailler à la maison. Les réunions physiques sont donc devenues des réunions virtuelles, et elles ne constituent pas toujours une amélioration. Les réunions en ligne présentent leurs propres défis, principalement parce que si tout le monde n&amp;rsquo;allume pas sa caméra, un participant ne saura pas si un autre est attentif, s&amp;rsquo;il est sur Instagram, ou encore s&amp;rsquo;il est parti promener son chien, dans le but de revenir à la fin de la réunion à temps pour dire au revoir et prendre le moins d’actions possible !</description>
+    </item>
+    
+  </channel>
+</rss>

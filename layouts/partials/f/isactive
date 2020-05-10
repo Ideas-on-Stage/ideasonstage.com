@@ -2,9 +2,14 @@
 	
 	f/isactive
 	
-	returns true if
-	- .date is greater than or equal to today or is not set
-	- AND .expirydate is less than today or is not set
+	Test if page is currently active or not based on .date and .expirydate
+
+	Parameters:
+	- . as object containing .date and .expirydate properties
+	
+	Returns:
+	- true if .date is greater than or equal to today or is not set AND .expirydate is less than today or is not set
+	- else false (before .date or .expirydate reached)
 	
  --> */}}
 
