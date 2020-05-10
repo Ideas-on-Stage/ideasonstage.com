@@ -361,10 +361,12 @@ theme        			= "hugo-creative-theme-master"
 	[languages.fr.navigation]
 		title			= "Navigation"
 		brand 			= "Ideas on Stage"
-		brand_logo		= "/img/ideas-on-stage.png"
+		brand_logo		= "/img/ideas-on-stage.svg"
 		language			= "Langue"
 		resource		= "Ressources"
 		service			= "Services"
+		languageicon	= "/img/globe.svg"
+		languageiconhover ="/img/globe_hover.svg"
 
 		[languages.fr.navigation.items]
 			[languages.fr.navigation.items.001]
@@ -556,10 +558,12 @@ theme        			= "hugo-creative-theme-master"
 	[languages.es.navigation]
 		title			= "Navigation"
 		brand			= "Ideas on Stage"
-		brand_logo		= "/img/ideas-on-stage.png"
+		brand_logo		= "/img/ideas-on-stage.svg"
 		resource		= "Recursos"
 		service			= "Servicios"
 		language			= "Idioma"
+		languageicon	= "/img/globe.svg"
+		languageiconhover ="/img/globe_hover.svg"
 
 		[languages.es.navigation.items]	
 			[languages.es.navigation.items.001]
@@ -724,10 +728,12 @@ theme        			= "hugo-creative-theme-master"
 	[languages.it.navigation]
 		title			= "Navigation"
 		brand			= "Ideas on Stage"
-		brand_logo		= "/img/ideas-on-stage.png"
+		brand_logo		= "/img/ideas-on-stage.svg"
 		language			= "Lingue"
 		resource		= "Risorse"
 		service			= "Servizi"
+		languageicon	= "/img/globe.svg"
+		languageiconhover ="/img/globe_hover.svg"
 		
 		[languages.it.navigation.items]
 			[languages.it.navigation.items.001]
