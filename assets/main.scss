@@ -1325,16 +1325,13 @@ nav ul.iosmenu>li>ul>li>a.iosnavbar-dropdownlang {
 }
 
 /* Globe icon */
-.iosnavbar-langicon {
+.iosnavbar-langicon, .iosnavbar-langicon-hover {
   height: 1.2em;
   margin-right: 0.5em;
-  padding-top:-2px;
+  margin-bottom: 0.2em;
 }
 
 .iosnavbar-langicon-hover {
-  height: 1.2em;
-  margin-right: 0.5em;
-  padding-top:-2px;
   display:none;
 }
 
