@@ -9,7 +9,7 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 
 [slider]
 	[[slider.list]]
-		bgimage 	="/formation-presentations/webinaires/ouaibinarre.jpg"
+		bgimage 	= "/formation-presentations/webinaires/ouaibinarre.jpg"
 		title 		= "VIRTUAL MEETINGS REVOLUTION"
 		description = "Une série de webinaires gratuits"
 		button 		= "Inscrivez-vous"
@@ -19,7 +19,17 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		date		= "2020-03-05"
 		expirydate	= "2020-04-29"
 	[[slider.list]]
-		bgimage 	="/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
+		bgimage 	= "/services/formations-ateliers/fne-formation-distance/hero.jpg"
+		title 		= "FORMATIONS FNE GRATUITES"
+		description = "Suivez une formation 100% prise en charge par le dispositif FNE"
+		button 		= "Inscrivez-vous"
+		buttonlink	= "/services/formations-ateliers/fne-formation-distance/"
+		color		= "text-white"	
+		opacity		= "30"
+		date		= "2020-05-12"
+		expirydate	= "2020-06-29"
+	[[slider.list]]
+		bgimage 	= "/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
 		title 		= "GUIDE DE LA PRISE DE PAROLE EN PUBLIC"
 		description = "Notre guide pour maîtriser les techniques de l'art oratoire."
 		button 		= "Lisez le guide"
@@ -28,11 +38,12 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		opacity		= "30"
 		date		= "2020-04-29"
 	[[slider.list]]
-		bgimage		="hero.jpg"
+		draft		= true
+		bgimage		= "hero.jpg"
 		title		= "CRÉATION DE PRÉSENTATIONS · SUPPORT ÉVÉNEMENTIEL · COACHING ET FORMATION À LA PRISE DE PAROLE"
 		date 		= "2019-11-04"
 	[[slider.list]]
-		bgimage		="slider1-min.jpg"
+		bgimage		= "slider1-min.jpg"
 		title		= "PETIT-DÉJEUNER<br />« LE LEADERSHIP A-T-IL UN GENRE ? »"
 		description = "Le 5 novembre, Champs-Élysées, Paris"
 		button		= "Inscrivez-vous"
@@ -40,14 +51,14 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		color		= "text-white"
 		expirydate	= "2019-11-04"
 	[[slider.list]]
-		bgimage		="slider2-min.jpg"
+		bgimage		= "slider2-min.jpg"
 		title		= "WOMEN ON STAGE 2.0"
 		description = "Votre accélérateur personnel pour devenir plus visible, présente et libre lors de vos présentations"
 		button		= "Plus d'informations"
 		buttonlink	= "/formation-presentations/women-on-stage/"
 		color 		= "text-white"
 	[[slider.list]]
-		bgimage		="slider3-min.jpg"
+		bgimage		= "slider3-min.jpg"
 		title		= "THE BUSINESS PRESENTATION REVOLUTION"
 		description	= "Episode 9: Il était une fois le storytelling d’entreprise"
 		button		= "Regarder l'Épisode"

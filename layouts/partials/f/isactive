@@ -2,7 +2,7 @@
 	
 	f/isactive
 	
-	Test if page is currently active or not based on .date and .expirydate
+	Test if page is currently active or not based on .date, .expirydate and .draft
 
 	Parameters:
 	- . as object containing .date and .expirydate properties
@@ -15,7 +15,9 @@
 
 {{ $result := false }}
 {{ if and (or (eq nil .date) (ge (now.Format "2006-01-02") .date)) (or (eq nil .expirydate) (lt (now.Format "2006-01-02") .expirydate)) }}
-	{{ $result = true }}
+	{{ if ne .draft true }}
+		{{ $result = true }}
+	{{ end }}
 {{ end }}
 
 {{- return $result }}
