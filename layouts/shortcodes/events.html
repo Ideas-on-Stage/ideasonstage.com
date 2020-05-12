@@ -9,10 +9,10 @@
 {{- range $.Page.Params.events }}
 	{{- if ge .startdate (now.Format "2006-01-02") }}
 	<div class="flex-parent-row flex-column-ontall">
-		<div class="layout-shortcode-child flex-child-40p">
+		<div class="flex-child-40p layout-shortcode-child ">
 			<img src="{{ .image }}">
 		</div>
-		<div class="layout-shortcode-child flex-child-60p">
+		<div class="flex-child-60p layout-shortcode-child">
 			<h4 class="margin-none">{{ .name }}</h4>
 		    <p>{{ .description }}<br />
 			{{ partial "f/getdatetime" .startdate }}<br />
@@ -22,7 +22,7 @@
 			{{- end }}
 		</div>
 	</div>
-</div>
 	{{- end }}
 {{- end }}
+</div>
 {{ "<!-- shortcodes:events.html:end -->" | safeHTML }}
