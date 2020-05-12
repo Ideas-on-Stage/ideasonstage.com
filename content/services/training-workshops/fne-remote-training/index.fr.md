@@ -15,7 +15,7 @@ showtoc		= true
 	eventstatus	= "EventScheduled"
 	image		= "business-presentation-revolution.jpg"
 	isaccessibleforfree = false
-	location		= "VirtualLocation"
+	location		= "zoom"
 	organizer	= "ideasonstage"
 	performer	= "Phil Waknell"
 	[[events.offers]]
@@ -36,7 +36,7 @@ showtoc		= true
 	eventstatus	= "EventScheduled"
 	image		= "business-presentation-revolution.jpg"
 	isaccessibleforfree = false
-	location		= "VirtualLocation"
+	location		= "zoom"
 	organizer	= "ideasonstage"
 	performer	= "Phil Waknell"
 	[[events.offers]]
@@ -57,7 +57,7 @@ showtoc		= true
 	eventstatus	= "EventScheduled"
 	image		= "business-presentation-revolution.jpg"
 	isaccessibleforfree = false
-	location		= "VirtualLocation"
+	location		= "zoom"
 	organizer	= "ideasonstage"
 	performer	= "Phil Waknell"
 	[[events.offers]]
@@ -78,7 +78,7 @@ showtoc		= true
 	eventstatus	= "EventScheduled"
 	image		= "virtual-meeting-revolution.jpg"
 	isaccessibleforfree = false
-	location		= "VirtualLocation"
+	location		= "zoom"
 	organizer	= "ideasonstage"
 	performer	= "Phil Waknell"
 	[[events.offers]]
@@ -99,7 +99,7 @@ showtoc		= true
 	eventstatus	= "EventScheduled"
 	image		= "virtual-meeting-revolution.jpg"
 	isaccessibleforfree = false
-	location		= "VirtualLocation"
+	location		= "zoom"
 	organizer	= "ideasonstage"
 	performer	= "Phil Waknell"
 	[[events.offers]]
@@ -120,7 +120,7 @@ showtoc		= true
 	eventstatus	= "EventScheduled"
 	image		= "business-presentation-revolution.jpg"
 	isaccessibleforfree = false
-	location		= "VirtualLocation"
+	location		= "zoom"
 	organizer	= "ideasonstage"
 	performer	= "Phil Waknell"
 	[[events.offers]]
