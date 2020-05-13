@@ -4,7 +4,7 @@ paginate				= 5
 paginatePath			= "newspage"
 canonifyurls				= false
 title         			= "Ideas on Stage"
-copyright				= "© Ideas on Stage"
+copyright				= "© Ideas on Stage 2015 - "
 theme        			= "hugo-creative-theme-master"
 
 [markup]
@@ -105,6 +105,7 @@ theme        			= "hugo-creative-theme-master"
 		title			= "Navigation"
 		brand 			= "Ideas on Stage"
 		brand_logo		= "/img/ideas-on-stage.svg"
+		brand_ball		= "/img/ideas-on-stage-ball.svg"
 		language			= "Language"
 		resource		= "Resources"
 		service			= "Services"
@@ -286,8 +287,23 @@ theme        			= "hugo-creative-theme-master"
 	    categories = false
 	    tags = false
 	    search = true
-
-
+	    
+    # ------------------------------	
+	# Social items for footer or other elements
+	[params.social]
+		[params.social.items]
+			[params.social.items.001]
+			   icon = "facebook"
+			   url	= "https://www.facebook.com/ideasonstage"
+			[params.social.items.002]
+			   icon = "linkedin"
+			   url	= "https://www.linkedin.com/company/ideas-on-stage/"
+			[params.social.items.003]
+			   icon = "twitter"
+			   url	= "https://www.twitter.com/ideasonstage/"
+			[params.social.items.004]
+			   icon = "youtube"
+			   url	= "https://www.youtube.com/user/IdeasOnStage/"
 
 ################################
 # LANGUAGES
@@ -307,7 +323,7 @@ theme        			= "hugo-creative-theme-master"
 	googleAnalytics = "UA-30695118-1"
 	rights			= "All Rights Reserved"
 	cookies			= "We fully respect your privacy. We don't use cookies or scripts to track you."
-	footer_desc		= "Ideas on Stage<br>SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057<br>N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
+	footer_desc		= "Ideas on Stage – SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 – N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
 	
 	#form id for Incognito form
 	pcsformid = "2"

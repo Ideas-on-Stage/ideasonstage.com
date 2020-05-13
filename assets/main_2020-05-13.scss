@@ -80,7 +80,7 @@ h2							{ font-size: 2.00em;	}
 h3 							{ font-size: 1.50em;	}
 h4 							{ font-size: 1.25em;	}
 h5							{ font-size: 1.00em;	}
-footer, footer a			{ font-size: 1.00em;	}
+footer, footer a			{ font-size: 0.75em;	}
 
 /* font sizes for custom classes */
 .nav a  					{ font-size: 0.8em;	}
@@ -210,10 +210,7 @@ footer, footer a			{ font-size: 1.00em;	}
 			color: #bbb;
 		}
 		footer a {
-			color: #ddd;
-		}
-		footer a:hover {
-			color: #ff8200;
+			color: #FF8200;
 		}	
 		
 	/* @end */
@@ -912,19 +909,11 @@ footer, footer a			{ font-size: 1.00em;	}
 			flex-basis: 40%
 		}
 
-		/* flex child constrained to about 33% of available space */
+		/* flex child constrained to about 3	3% of available space */
 		.flex-child-33p {
 			height: 100%;
 			flex: 1;
 			flex-basis: 33%; /* start at 33% width */
-			min-width: 120px; /* force 2 columns width on ts screens */
-		}
-		
-		/* flex child constrained to about 25% of available space */
-		.flex-child-25p {
-			height: 100%;
-			flex: 1;
-			flex-basis: 25%; /* start at 33% width */
 			min-width: 120px; /* force 2 columns width on ts screens */
 		}
 		
@@ -941,8 +930,7 @@ footer, footer a			{ font-size: 1.00em;	}
 		.flex-child-60p img,
 		.flex-child-50p img,
 		.flex-child-40p img,
-		.flex-child-33p img,
-		.flex-child-25p img {
+		.flex-child-33p img {
 			margin: 0;
 			padding: 0;
 			width: 100%;
@@ -1803,79 +1791,10 @@ label {
 
 /* @end */
 
-/* @group footer */
-
-/**************************************
-**** footer stuff *******************
-**************************************/
-footer li {
-  list-style: none;
-  margin-bottom: 0px;
-}
-
-.footer-main-category {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 0.8em;
-  color: #ddd;
-}
-
-a.footer-sub-category  {
-	font-size: 1.0em;
-	text-decoration: none;
-	color: #ddd;
-	border: none;
-	line-height: 1.0em;
-	height: 1.0em;
-	text-transform: capitalize;
-	font-weight: 400;
-}
-.footer-main-category > a  {
-  font-weight: 700;
-  color: #ddd;
-}
-
-.footer-social {
-	font-size: 1.3em;
-	margin: 0 0.5em;
-	color: #222;
-	background-color: #ddd;
-	border-radius: 50%;
-	width: 1.5em;
-	height: 1.5em;
-	text-align: center;
-}
-
-.footer-social:hover {
-	color: #222;
-	background-color: #ff8200;
-}
-
-.footer-text-min {
-  font-size: 0.6em;
-}
-
-.flex-child-85p {
-  height: 100%;
-  flex: 1;
-  flex-basis: 85%; /* start at 80% width */
-}
-
-.flex-child-15p {
-  height: 100%;
-  flex: 1;
-  flex-basis: 15%; /* start at 15% width */
-}
 
 
-@media(max-aspect-ratio:1/1) and (max-width:480px) {
-  .footer-sub-category {
-    display: none;
-  }
-}
 
-/* @end */
+
 
 
 
