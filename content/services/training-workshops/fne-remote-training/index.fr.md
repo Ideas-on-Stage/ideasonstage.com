@@ -25,7 +25,7 @@ showtoc		= true
 		seller 		= "Eventbrite"
 		url 			= "https://www.eventbrite.fr/e/billets-revolutionnez-vos-presentations-formation-en-ligne-1-jour-105048801794"
 		validfrom 	= "2020-05-12"
-		button 		= "Register on Eventbrite"
+		button 		= "Inscrivez-vous sur Eventbrite"
 [[events]]
 	name		= "Business Presentation Revolution essentials 1 Day - Online Training - English"
 	description	= "Our flagship course The Business Presentation Revolution redefines what an effective corporate presentation is."
@@ -67,7 +67,7 @@ showtoc		= true
 		seller 		= "Eventbrite"
 		url 			= "https://www.eventbrite.fr/e/billets-revolutionnez-vos-presentations-formation-en-ligne-2-jours-105049178922"
 		validfrom 	= "2020-05-12"
-		button 		= "Register on Eventbrite"
+		button 		= "Inscrivez-vous sur Eventbrite"
 [[events]]
 	name		= "Virtual Meeting Revolution 2 jours - formation en ligne"
 	description	= "Une formation inter entreprises en quatre ateliers pour aider tout travailleur à distance, enseignant ou dirigeant à préparer et à organiser des réunions en ligne efficaces."
@@ -88,7 +88,7 @@ showtoc		= true
 		seller 		= "Eventbrite"
 		url 			= "https://www.eventbrite.fr/e/billets-virtual-meeting-revolution-formation-en-ligne-2-jours-105049245120"
 		validfrom 	= "2020-05-12"
-		button 		= "Register on Eventbrite"
+		button 		= "Inscrivez-vous sur Eventbrite"
 [[events]]
 	name		= "Virtual Meeting Revolution 2 jours - formation en ligne"
 	description	= "Une formation inter entreprises en quatre ateliers pour aider tout travailleur à distance, enseignant ou dirigeant à préparer et à organiser des réunions en ligne efficaces."
@@ -109,7 +109,7 @@ showtoc		= true
 		seller 		= "Eventbrite"
 		url 			= "https://www.eventbrite.fr/e/billets-virtual-meeting-revolution-formation-en-ligne-2-jours-105049423654"
 		validfrom 	= "2020-05-12"
-		button 		= "Register on Eventbrite"
+		button 		= "Inscrivez-vous sur Eventbrite"
 [[events]]
 	name		= "Révolutionnez vos présentations 2 jours - formation en ligne"
 	description	= "Notre cours phare Révolutionnez vos présentations ! redéfinit ce qu’est une présentation efficace en entreprise."
@@ -130,7 +130,7 @@ showtoc		= true
 		seller 		= "Eventbrite"
 		url 			= "https://www.eventbrite.fr/e/billets-revolutionnez-vos-presentations-formation-en-ligne-2-jours-105049485840"
 		validfrom 	= "2020-05-12"
-		button 		= "Register on Eventbrite"
+		button 		= "Inscrivez-vous sur Eventbrite"
 		
 +++
 Se former gratuitement depuis son espace de télétravail, c’est aujourd’hui accessible à toute personne en situation d’activité partielle, grâce au dispositif exceptionnel [FNE-Formation](http://idf.direccte.gouv.fr/COVID-19-mobilisation-du-FNE-Formation-pour-les-salaries-en-activite-partielle), auquel toutes les entreprises sont désormais éligibles. Nous vous simplifions la tâche en vous proposant des programmes de formation à distance et flexibles (voir ci-dessous).
