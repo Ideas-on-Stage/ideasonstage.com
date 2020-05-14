@@ -19,51 +19,52 @@
 
 /* @group FONT FAMILIES */
 
-/* This is where ALL font families are declared */
-
-body, a {
-  	font-family: "Whitney SSm A", "Whitney SSm B";
-  	font-style: normal;
-  	font-weight: 400;
-}
-
-b, strong, blockquote {
-  	font-family: "Whitney SSm A", "Whitney SSm B";
-  	font-style: normal;
-  	font-weight: 700;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-big {
-    font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-}
-
-.style-text-intro {
-  	font-family: "Whitney SSm A", "Whitney SSm B";
-  	font-style: normal;
-  	font-weight: 400;	
-}
-
-.navbar-inverse .nav>li a {
-	font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-weight: 700;
-}
-
-.button-primary, .button-secondary {
-    font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-}
-
-#TableOfContents > ul > li > a {
-	font-weight: 700;
-}
+	/* This is where ALL font families are declared */
+	
+	body, a {
+	  	font-family: "Whitney SSm A", "Whitney SSm B";
+	  	font-style: normal;
+	  	font-weight: 400;
+	}
+	
+	b, strong, blockquote {
+	  	font-family: "Whitney SSm A", "Whitney SSm B";
+	  	font-style: normal;
+	  	font-weight: 700;
+	}
+	
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	big {
+	    font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+	    font-weight: 700;
+	}
+	
+	.style-text-intro {
+	  	font-family: "Whitney SSm A", "Whitney SSm B";
+	  	font-style: normal;
+	  	font-weight: 400;	
+	}
+	
+	.navbar-inverse .nav>li a {
+		font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+		font-style: normal;
+		font-weight: 700;
+	}
+	
+	.button-primary, .button-secondary {
+	    font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+	    font-weight: 700;
+	}
+	
+	#TableOfContents > ul > li > a {
+		/* first level of table of contents bold */
+		font-weight: 700;
+	}
 
 /* @end */
 
@@ -71,57 +72,59 @@ big {
 
 /* @group FONT SIZES */
 
-/* This is where ALL font sizes are declared */
+	/* This is where ALL font sizes are declared */
 
-/* font sizes for standard tags */
-body, a, blockquote			{ font-size: 1.50vw;	}
-h1							{ font-size: 2.50em;	}
-h2							{ font-size: 2.00em;	}
-h3 							{ font-size: 1.50em;	}
-h4 							{ font-size: 1.25em;	}
-h5							{ font-size: 1.00em;	}
-footer, footer a			{ font-size: 0.75em;	}
-
-/* font sizes for custom classes */
-.nav a  					{ font-size: 0.8em;	}
-.flex-404 .error-box h1		{ font-size: 2.00em;	}
-.flex-404 .error-box h2 		{ font-size: 1.25em;	}
-.form-control-nav 			{ font-size: 90%;		}
-.people-box-name				{ font-size: 1.00em;	}
-.people-box-title			{ font-size: 0.75em;	}
-.style-slider-title 			{ font-size: 2.50em;	}
-.style-slider-subtitle		{ font-size: 1.50em;	}
-.thumbnail-caption h3 		{ font-size: 0.75em;	}
-.testimonials .item .testimonial .text p				{ font-size: 14px;	}  
-.testimonials .item .testimonial .icon				{ font-size: 24px;	}
-.testimonials .item .testimonial .name-picture h4	{ font-size: 1em;	}
-.testimonials .item .testimonial .name-picture h5 	{ font-size: 14px;	}
-.testimonials .item .testimonial .name-picture p		{ font-size: 12px;	}
-.timeline-title				{ font-size: 1.50em;	}
-.timeline-text				{ font-size: 0.80em;	}
-.style-section-title-main 	{ font-size: 2.00em;	}
-.style-module-text h3		{ font-size: 2.00em;	}
-#content-table h2 			{ font-size: 1em;		}
-#content-table a				{ font-size: 0.75em;	}
-
-/* adjust for small tall smartphone screens */
-@media(max-aspect-ratio:1/1) and (max-width:480px) {
-
-	body, a, blockquote 			{ font-size: 4vw;		}
-	.nav a  					{ font-size: 12px;		}
-	.style-slider-title 			{ font-size: 1.50em;	}	
-	.style-slider-subtitle		{ font-size: 1.00em;	}
+	/* font sizes for standard tags */
+	body, a, blockquote			{ font-size: 1.50vw;	}
+	h1							{ font-size: 2.50em;	}
+	h2							{ font-size: 2.00em;	}
+	h3 							{ font-size: 1.50em;	}
+	h4 							{ font-size: 1.25em;	}
+	h5							{ font-size: 1.00em;	}
+	footer, footer a			{ font-size: 0.75em;	}
 	
-}
-
-/* adjust for very large screens (>1280px wide) */
-@media(min-width:1281px) {
+	/* font sizes for custom classes */
+	.nav a  					{ font-size: 0.8em;	}
+	.flex-404 .error-box h1		{ font-size: 2.00em;	}
+	.flex-404 .error-box h2 		{ font-size: 1.25em;	}
+	.form-control-nav 			{ font-size: 90%;		}
+	.people-box-name				{ font-size: 1.00em;	}
+	.people-box-title			{ font-size: 0.75em;	}
+	.style-slider-title 			{ font-size: 2.50em;	}
+	.style-slider-subtitle		{ font-size: 1.50em;	}
+	.thumbnail-caption h3 		{ font-size: 0.75em;	}
+	.testimonials .item .testimonial .text p				{ font-size: 14px;	}  
+	.testimonials .item .testimonial .icon				{ font-size: 24px;	}
+	.testimonials .item .testimonial .name-picture h4	{ font-size: 1em;	}
+	.testimonials .item .testimonial .name-picture h5 	{ font-size: 14px;	}
+	.testimonials .item .testimonial .name-picture p		{ font-size: 12px;	}
+	.timeline-title				{ font-size: 1.50em;	}
+	.timeline-text				{ font-size: 0.80em;	}
+	.style-section-title-main 	{ font-size: 2.00em;	}
+	.style-module-text h3		{ font-size: 2.00em;	}
+	#content-table h2 			{ font-size: 1em;		}
+	#content-table a				{ font-size: 0.75em;	}
 	
-	body, a, blockquote			{ font-size: 20px;		}
+	/* adjust for small tall smartphone screens */
+	@media(max-aspect-ratio:1/1) and (max-width:480px) {
 	
-}
+		body, a, blockquote 			{ font-size: 4vw;		}
+		.nav a  					{ font-size: 12px;		}
+		.style-slider-title 			{ font-size: 1.50em;	}	
+		.style-slider-subtitle		{ font-size: 1.00em;	}
+		
+	}
+	
+	/* adjust for very large screens (>1280px wide) */
+	@media(min-width:1281px) {
+		
+		body, a, blockquote			{ font-size: 20px;		}
+		
+	}
 
 /* @end */
+
+
  
 /* @group STYLES */
 
@@ -1752,42 +1755,42 @@ label {
 
 /* @group 404 */
 
-/**************************************
-**** 404 page stuff *******************
-**************************************/
-
-.flex-404 {
-	display: flex;
-	flex-flow: row wrap;
-	height: 90vh;
-	width: 100%;
-	background:#222;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-}
-
-.flex-404 > * { flex: 1 auto; }
-
-.flex-404 img {
-	height: 40%;
+	/**************************************
+	**** 404 page stuff *******************
+	**************************************/
+	
+	.flex-404 {
+		display: flex;
+		flex-flow: row wrap;
+		height: 90vh;
+		width: 100%;
+		background:#222;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
 	}
-.flex-404 .error-box {
-	margin: 0 20px;
-	top: 0;
-	display: flex;
-	flex-direction: column;
-	align-items: stretch;
-}
-
-.flex-404 .error-box h1 {
-	text-align: center;
-}
- 
-.flex-404 .error-box h2 {
-	text-align: center;
-	font-weight: 400;
-}
+	
+	.flex-404 > * { flex: 1 auto; }
+	
+	.flex-404 img {
+		height: 40%;
+		}
+	.flex-404 .error-box {
+		margin: 0 20px;
+		top: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+	}
+	
+	.flex-404 .error-box h1 {
+		text-align: center;
+	}
+	 
+	.flex-404 .error-box h2 {
+		text-align: center;
+		font-weight: 400;
+	}
 
 /* @end */
 

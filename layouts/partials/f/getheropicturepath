@@ -2,7 +2,8 @@
 	
 	f/getheropicturepath
 	
-	Gets full path to hero picture for pages files.
+	Gets full relative path to hero picture for pages.
+	Offers the advantage of completing the path if only the image name is specified in the parameter, and also looks for a default hero.jpg image first.
 	
 	Arguments:
 	- . as .Page object
