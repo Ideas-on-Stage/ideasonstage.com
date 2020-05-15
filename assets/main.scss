@@ -1864,12 +1864,6 @@ a.footer-sub-category  {
   font-size: 0.6em;
 }
 
-.flex-child-85p {
-  height: 100%;
-  flex: 1;
-  flex-basis: 85%; /* start at 80% width */
-}
-
 .flex-child-15p {
   height: 100%;
   display: flex;
@@ -1880,6 +1874,10 @@ a.footer-sub-category  {
 @media(max-aspect-ratio:1/1) and (max-width:480px) {
   .footer-sub-category {
     display: none;
+  }
+
+  .footer-text-min {
+	  flex-grow: 2;
   }
 }
 

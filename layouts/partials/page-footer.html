@@ -3,7 +3,7 @@
 		    	<div class= "footer-nav flex-parent-row">
 		    	  <div class="flex-child-25p">
 		    	    <ul class="footer-main-category padding-none">
-		    	      {{ with .Site.Params.navigation.service }}{{ . }}{{ end }}
+					  {{ with .Site.Params.navigation.service }}<a href="/#services">{{ . }}</a></li>{{ end }}
 		    	       {{- range .Site.Params.navigation.items }}
                          <li>
 	              		   <a class="footer-sub-category" href="{{ .url }}">{{ .name }}</a>
@@ -56,7 +56,7 @@
 		        		{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
 		        		{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
 			        </div>
-			        <div class="flex-child-15p ">
+			        <div class="flex-child-15p paddingt-small">
 					    {{ range .Site.Params.Social.Items }}
 		    	      <a class="footer-social" href="{{ .url }}"><i class="fa fa-{{ .icon }} fa-2"></i></a>
 					 {{ end }}
