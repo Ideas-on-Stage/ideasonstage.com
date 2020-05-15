@@ -1,8 +1,8 @@
 			{{ "<!-- partials:page-footer.html:start -->" | safeHTML }}
-		    <div class="layout-content">
+		    <div class="layout-content paddingt-none paddingb-none">
 		    	<div class= "footer-nav flex-parent-row">
 		    	  <div class="flex-child-25p">
-		    	    <ul class="footer-main-category">
+		    	    <ul class="footer-main-category padding-none">
 		    	      {{ with .Site.Params.navigation.service }}{{ . }}{{ end }}
 		    	       {{- range .Site.Params.navigation.items }}
                          <li>
@@ -12,7 +12,7 @@
 		    	    </ul>
 		    	  </div>
 		    	 <div class="flex-child-25p">
-		    	    <ul class="footer-main-category">
+		    	    <ul class="footer-main-category padding-none">
 		    	      {{ with .Site.Params.navigation.resource }}{{ . }}{{ end }}
 		    	       {{- range .Site.Params.navigation.resources }}
                          <li>
@@ -23,35 +23,49 @@
 		    	  </div>
 		    	{{- range .Site.Params.navigation.housekeeping }} 
 		    	 <div class="flex-child-25p">
-		    	    <ul class="footer-main-category">
+		    	    <ul class="footer-main-category padding-none">
 		    	      <a href="{{ .url }}">{{ .name }}</a></li>
 		    	    </ul>
 		    	  </div>
 		    	{{ end }}  
 		    	</div>
 		<!-- Social Icons row-->
+<!--
 		    	<div class= "flex-parent-row flex-justify-center paddingt-medium">
 		    	     {{ range .Site.Params.Social.Items }}
 		    	      <a class="footer-social" href="{{ .url }}"><i class="fa fa-{{ .icon }} fa-2"></i></a>
 		    	     {{ end }}
 		    	</div>
+
+-->
+
 		<!-- Logo row-->
-		    	<div class= "flex-parent-row flex-justify-center  paddingv-medium">
+<!--
+		<div class= "flex-parent-row flex-justify-center  paddingv-medium">
 		    	   <div>
 		    	     <a href="{{ .Site.BaseURL }}" class="flex-align-center">
 		    	      <img src="{{ .Site.Params.navigation.brand_ball }}" class="iosnavbar-brand" alt="Ideas on Stage">  
 		    	    </a>
 		    	   </div>
-		    	</div>
-		        <div class="flex-parent-row">
-					<div class="footer-text-min flex-child-85p">
+				</div>
+-->				
+		        <div class="flex-parent-row paddingv-small flex-align-end">
+					<div class="footer-text-min flex-child-60p">
 		        		{{ with .Site.Copyright }}{{ . }}{{ end }} {{ with .Site.Params.year }}{{ . }}{{ end }}. 
 		        		{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
 		        		{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
 		        		{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
 			        </div>
-			        <div class="flex-child-15p">
-			          <a href="{{ .Site.BaseURL }}#page-top"><i class="fa fa-chevron-up fa-lg"></i></a>
+			        <div class="flex-child-15p ">
+					    {{ range .Site.Params.Social.Items }}
+		    	      <a class="footer-social" href="{{ .url }}"><i class="fa fa-{{ .icon }} fa-2"></i></a>
+					 {{ end }}
+<!-- Back to top arrow -->
+<!--
+						<a href="{{ .Site.BaseURL }}#page-top"><i class="fa fa-chevron-up fa-lg"></i></a>
+
+-->					 
+
 			        </div>
 		        </div>
 		    </div>

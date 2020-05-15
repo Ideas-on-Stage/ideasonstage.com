@@ -1847,6 +1847,14 @@ a.footer-sub-category  {
 	text-align: center;
 }
 
+.footer-social:first-child {
+  margin-left: 0px;
+}
+
+.footer-social:last-child {
+  margin-right: 0px;
+}
+
 .footer-social:hover {
 	color: #222;
 	background-color: #ff8200;
@@ -1864,7 +1872,7 @@ a.footer-sub-category  {
 
 .flex-child-15p {
   height: 100%;
-  flex: 1;
+  display: flex;
   flex-basis: 15%; /* start at 15% width */
 }
 
