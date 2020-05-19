@@ -6,8 +6,10 @@
 	</div>
 {{- end }}
 {{- $style := .Params.style }}
+{{- $atleastone := false }}
 {{- range $.Page.Params.events }}
 	{{- if ge .startdate (now.Format "2006-01-02") }}
+	{{- $atleastone = true }}
 	<div class="flex-parent-row flex-column-ontall">
 		<div class="flex-child-40p layout-shortcode-child ">
 			<img src="{{ .image }}">
@@ -23,6 +25,11 @@
 		</div>
 	</div>
 	{{- end }}
+{{- end }}
+{{- if not $atleastone }}
+	<div class="flex-parent-row flex-column-ontall flex-justify-center">
+		<p>{{ site.Params.events.empty }}</p>
+	</div>
 {{- end }}
 </div>
 {{ "<!-- shortcodes:events.html:end -->" | safeHTML }}

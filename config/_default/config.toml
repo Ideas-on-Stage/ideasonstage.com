@@ -178,25 +178,6 @@ theme        			= "hugo-creative-theme-master"
 		enable 			= true
 		title 			= "Testimonials"
 		subtitle			= "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
-
-	# ------------------------------		
-	# Events
-	[params.events_tabs]
-		# Presentation Training Tabs (top tabs with dates in the Training page)
-		# buttondate if true show date in button name
-		# buttonplace if true show location in button name
-		language		= "Language: "
-		date		= "Date: "
-		location		= "Location: "
-		address		= "Address: "
-		duration	= "Duration: "
-		time_start	= "Start Time: "
-		time_end	= "End Time: "
-		trainer		= "Trainer: "				
-		buttonText	= "Register Now "
-		buttondate	= true
-		buttonplace	= false	
-		price		= "Price: "		
 	
 	# ------------------------------		
 	# Contact
@@ -230,6 +211,11 @@ theme        			= "hugo-creative-theme-master"
 			question2 = "I am looking for help for a presentation I have to give"
 			question3 = "I am organizing an event and would like to know how you can help"
 			question4 = "Other..."
+
+	# ------------------------------
+	# Events list
+	[params.events]
+		empty		= "No new event scheduled."
 	
 	# ------------------------------		
 	# Subscribe to our news
@@ -267,9 +253,8 @@ theme        			= "hugo-creative-theme-master"
 	# News
 	# Define the number of posts/news items per page
 	[params.news]
-		more		= "Continue reading"
+		more		= "Continue Reading"
 		by	 		= "by"
-		title 		= "Stories"
 		
 	# ------------------------------
 	[params.organization]
@@ -436,36 +421,6 @@ theme        			= "hugo-creative-theme-master"
 				url		= "https://www.ideasonstage.it"
 	
 	# ------------------------------		
-	# References
-	[languages.fr.references]
-		title = "Références"
-
-	# ------------------------------		
-	# Testimonials
-	[languages.fr.testimonials]
-		enable 		= true    		
-		title 		= "Témoignages"
-		subtitle		= "Nous avons travaillé avec de nombreux clients ; voici quelques exemples de ce que nos clients disent de nous."
-    				
-	# ------------------------------		
-	# Presentation Training Tabs (top tabs with dates in the Training page)
-	# buttondate if true show date in button name
-	# buttonplace if true show location in button name
-	[languages.fr.events_tabs]
-		language	= "Language: "
-		date		= "Date: "
-		location	= "Location: "
-		address		= "Address: "
-		duration	= "Duration: "
-		time_start	= "Start Time: "
-		time_end	= "End Time: "
-		trainer		= "Trainer: "				
-		buttonText	= "Register Now "
-		buttondate	= true
-		buttonplace	= false	
-		price		= "Price: "			        
-	
-	# ------------------------------		
 	# Contact section
 	[languages.fr.contact]
         enable = true
@@ -493,6 +448,36 @@ theme        			= "hugo-creative-theme-master"
 			text = "Votre message *"
 			warning = "S'il vous plaît entrer un message."
 
+	# ------------------------------
+	# Events list
+	[languages.fr.events]
+		empty		= "Pas d'événement planifié."
+
+	# ------------------------------
+	# Map
+	[languages.fr.map]
+		enable		= true
+		title		= "Où nous trouver"
+		address		= "138 avenue des Champs Élysées — 75008 Paris, France — Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
+		bgimage		= "/img/triumph.jpg"
+
+	# ------------------------------		
+	# News
+	[languages.fr.news]
+		more = "continuer à lire"
+		by	 = "par"
+
+	# ------------------------------		
+	# References
+	[languages.fr.references]
+		title = "Références"
+
+	# ------------------------------		
+	# Revolution
+	[languages.fr.revolution]
+		more		= "Regarder l'épisode"
+	    episodes	= "Épisodes précédents"
+
 	# ------------------------------		
 	# Subscribe to our news
 	[languages.fr.subscribe]
@@ -508,28 +493,14 @@ theme        			= "hugo-creative-theme-master"
 			warning = "Veuillez entre votre adresse email."
 
 	# ------------------------------		
-	# News
-	[languages.fr.news]
-		more = "continuer à lire"
-		by	 = "par"
-		title = "Conseils"
-
-	# ------------------------------
-	# Map
-	[languages.fr.map]
-		enable		= true
-		title		= "Où nous trouver"
-		address		= "138 avenue des Champs Élysées — 75008 Paris, France — Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
-		bgimage		= "/img/triumph.jpg"
-
-	# ------------------------------		
-	# Revolution
-	[languages.fr.revolution]
-		more		= "Regarder l'épisode"
-	    episodes	= "Épisodes précédents"
+	# Testimonials
+	[languages.fr.testimonials]
+		enable 		= true    		
+		title 		= "Témoignages"
+		subtitle		= "Nous avons travaillé avec de nombreux clients ; voici quelques exemples de ce que nos clients disent de nous."
 			
 	# ------------------------------		
-	# Enable and disable widgets for the right sidebar
+	# Widgets Enable and disable widgets for the right sidebar
 	[languages.fr.widgets]
 	    categories = false
 	    tags = false
@@ -640,25 +611,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.es.testimonials]
 		enable = true	
 		title = "Testimonios"
-		subtitle = "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
-				
-	# ------------------------------		
-	# Presentation Training Tabs (top tabs with dates in the Training page)
-	# buttondate if true show date in button name
-	# buttonplace if true show location in button name
-	[languages.es.events_tabs]
-		language	= "Idioma: "
-		date		= "Fecha: "
-		location	= "Lugar: "
-		address		= "Dirección: "
-		duration	= "Duración: "
-		time_start	= "Hora Comienzo: "
-		time_end	= "Hora Fin: "
-		trainer		= "Formador: "				
-		buttonText	= "Inscríbete ahora "
-		buttondate	= true
-		buttonplace	= false		
-		price		= "Precio: "		
+		subtitle = "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."	
 	
 	# ------------------------------		
 	# Contact section
@@ -697,7 +650,6 @@ theme        			= "hugo-creative-theme-master"
 	[languages.es.news]
 		more = "Continuar leyendo"
 		by	 = "por"
-		title = "Noticias"
 		
 	# ------------------------------		
 	# Revolution
@@ -804,31 +756,12 @@ theme        			= "hugo-creative-theme-master"
 
 	# ------------------------------		
 	# Testimonials
+	# All testimonials are defined in their own files. You can find testimonials 
+	# at '/data/testimonials'.
 	[languages.it.testimonials]
 		enable = true
-			 # All testimonials are defined in their own files. You can find testimonials 
-			 # at '/data/testimonials'.
-		
 		title = "Testimonianze"
-		subtitle = "Abbiamo lavorato con moltissimi clienti nel corso degli anni e ci piace sapere quali siano le loro opinioni dopo ciascuna collaborazione. A seguire un esempio di quello che i nostri clienti dicono di noi."
-	    		
-	# ------------------------------		
-	# Presentation Training Tabs (top tabs with dates in the Training page)
-	# buttondate if true show date in button name
-	# buttonplace if true show location in button name
-	[languages.it.events_tabs]
-		language	= "Lingua: "
-		date		= "Data: "
-		location	= "Location: "
-		address		= "Indirizzo: "
-		duration	= "Durata: "
-		time_start	= "Orario d’Inizio: "
-		time_end	= "Orario della fine: "
-		trainer		= "Trainer: "				
-		buttonText	= "Registrati Ora "
-		buttondate	= true
-		buttonplace	= false	
-		price		= "Prezzo: "		        
+		subtitle = "Abbiamo lavorato con moltissimi clienti nel corso degli anni e ci piace sapere quali siano le loro opinioni dopo ciascuna collaborazione. A seguire un esempio di quello che i nostri clienti dicono di noi."        
 	
 	# ------------------------------		
 	# Contact section
@@ -868,7 +801,6 @@ theme        			= "hugo-creative-theme-master"
 	[languages.it.news]
 		more	= "continua la lettura"
 		by	 	= "da"
-		title 	= "Notizie"
 
 	# ------------------------------		
 	# Enable and disable widgets for the right sidebar

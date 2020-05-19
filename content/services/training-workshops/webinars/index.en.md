@@ -104,7 +104,7 @@ Here is the schedule, together with links to our EventBrite pages so you can sig
 
 Timing: every Thursday from 4.00pm-5.00pm CET (Paris time) / 3.00pm-4.00pm GMT (London) / 7.00am PST (California) except the first which is 8.00am PST
 
-{{< events title="Upcoming Events" >}}
+{{< events title="Upcoming Events" style="bg-lightgray" >}}
 
 (If you have ideas for other webinars linked to online meetings and remote work, and if these webinars prove very popular, we might add more later.) 
 

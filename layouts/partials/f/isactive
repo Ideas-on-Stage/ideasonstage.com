@@ -5,11 +5,14 @@
 	Test if page is currently active or not based on .date, .expirydate and .draft
 
 	Parameters:
-	- . as object containing .date and .expirydate properties
+	- . as object containing .date, .expirydate and .draft properties (all are optional)
 	
 	Returns:
-	- true if .date is greater than or equal to today or is not set AND .expirydate is less than today or is not set
-	- else false (before .date or .expirydate reached)
+	- true if
+		.date is today or after today or is not set
+		AND .expirydate is before today or is not set
+		AND .draft is not true or is not set
+	- else false (either draft, before .date or .expirydate reached)
 	
  --> */}}
 
@@ -20,4 +23,4 @@
 	{{ end }}
 {{ end }}
 
-{{- return $result }}
+{{ return $result }}

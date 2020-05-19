@@ -79,7 +79,15 @@ picture			= "ouaibinarre.jpg"
 	starttime	= "2020-04-21T16:00:00+02:00"
 	endtime		= "2020-04-21T17:00:00+02:00"
 	thumbnailurl= "2020-04-21-virtual-setup.jpg"
-	uploaddate	= "2020-04-22"	
+	uploaddate	= "2020-04-22"
+[[videoobjects]]
+	embedurl		= "8z_z2gM7i-Y"
+	description	= "Comment animer les réunions virtuelles"
+	name		= "Virtual Facilitation"
+	starttime	= "2020-04-28T16:00:00+02:00"
+	endtime		= "2020-04-28T17:00:00+02:00"
+	thumbnailurl= "2020-04-28-virtual-facilitation.jpg"
+	uploaddate	= "2020-04-29"
 +++
 
 ## Virtual Meeting Revolution - Webinaires Gratuits

@@ -1,6 +1,6 @@
 {{ "<!-- partials:page-content.html:start -->" | safeHTML }}
 <div class="layout-content">
-{{- if or (.Params.showtoc) (eq "guides" .Section) }}
+{{- if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
 	<div class="flex-parent-row flex-column-reverse-ontall">
 		<aside id="content-table" class="flex-child-33p layout-sticky flex-hide-ontall">
 			<div class="scroller">

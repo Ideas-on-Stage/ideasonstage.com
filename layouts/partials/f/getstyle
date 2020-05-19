@@ -1,7 +1,9 @@
 {{/* <!--
 	
 	f/getstyle
-
+	
+	Get style parameter from .Params.style for page objects, from .style for other objects such as data objects.
+	
 	Parameters:
 	- . as .Page or .Data object
 	
