@@ -1295,6 +1295,9 @@ nav ul.iosmenu>li>a {
   line-height: 20px;
   border: none;
 }
+nav ul.iosmenu>li>a:first-child {
+  padding: 15px 0.9em 15px 0;	
+}
 
 nav ul.iosmenu>li>ul>li>a {
   padding: 5px 15px;

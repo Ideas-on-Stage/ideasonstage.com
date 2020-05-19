@@ -24,10 +24,30 @@
 		    	{{- range .Site.Params.navigation.housekeeping }} 
 		    	 <div class="flex-child-25p">
 		    	    <ul class="footer-main-category padding-none">
-		    	      <a href="{{ .url }}">{{ .name }}</a></li>
+					  <a href="{{ .url }}">{{ .name }}</a></li>
+					 {{ with $.Site.Params.email }} 
+					  <li>
+						<a class="footer-sub-category" href="mailto:{{ . }}">{{ . }}</a>
+					</li>  
+					{{- end }}
+					{{ with $.Site.Params.location.telephone }} 
+					  <li>
+						<a class="footer-sub-category" href="tel:{{ . }}">{{ . }}</a>
+					</li>  
+					{{- end }}
 		    	    </ul>
 		    	  </div>
-		    	{{ end }}  
+				{{ end }}
+				<div class="flex-child-25p">
+		    	    <ul class="footer-main-category padding-none">
+		    	      {{ with .Site.Params.navigation.company }}{{ . }}{{ end }}
+		    	       {{- range .Site.Params.navigation.companyitems }}
+                         <li>
+	              		   <a class="footer-sub-category" href="{{ .url }}">{{ .name }}</a>
+	    				 </li>  
+	      			   {{- end }}
+		    	    </ul>
+		    	  </div>  
 		    	</div>
 		<!-- Social Icons row-->
 <!--

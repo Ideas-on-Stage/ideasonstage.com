@@ -109,6 +109,7 @@ theme        			= "hugo-creative-theme-master"
 		language			= "Language"
 		resource		= "Resources"
 		service			= "Services"
+		company			= "About Us"
 		languageicon	= "/img/globe.svg"
 		languageiconhover ="/img/globe_hover.svg"
 
@@ -144,7 +145,8 @@ theme        			= "hugo-creative-theme-master"
 			[params.navigation.housekeeping.001]
 				name			= "Contact"
 				url				= "#contact"
-			[params.navigation.housekeeping.002]
+		[params.navigation.companyitems]		
+			[params.navigation.companyitems.001]
 				name			= "Team"
 				url				= "/team/"
 
@@ -381,6 +383,7 @@ theme        			= "hugo-creative-theme-master"
 		language			= "Langue"
 		resource		= "Ressources"
 		service			= "Services"
+		company			= "À propos"
 		languageicon	= "/img/globe.svg"
 		languageiconhover ="/img/globe_hover.svg"
 
@@ -416,9 +419,10 @@ theme        			= "hugo-creative-theme-master"
 			[languages.fr.navigation.housekeeping.001]
 				name			= "Contact"
 				url				= "#contact"
-			[languages.fr.navigation.housekeeping.002]
+		[languages.fr.navigation.companyitems]		
+			[languages.fr.navigation.companyitems.001]
 				name			= "Équipe"
-				url				= "/equipe/"
+				url				= "/equipe/"	
 
 		[languages.fr.navigation.languages]
 			[languages.fr.navigation.languages.001]
@@ -546,6 +550,8 @@ theme        			= "hugo-creative-theme-master"
 	cookies			= "No usamos cookies."
 	footer_desc		= "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
 	favicon			= "/img/ios_favicon.ico"
+
+	tableofcontents	= "Tabla de contenidos"
 			
 	#form id for Incognito form
 	pcsform = "ey1NdOq0XU6iS7d67aNhQQ"
@@ -577,6 +583,7 @@ theme        			= "hugo-creative-theme-master"
 		brand_logo		= "/img/ideas-on-stage.svg"
 		resource		= "Recursos"
 		service			= "Servicios"
+		company			= "Nosotros"
 		language			= "Idioma"
 		languageicon	= "/img/globe.svg"
 		languageiconhover ="/img/globe_hover.svg"
@@ -599,12 +606,16 @@ theme        			= "hugo-creative-theme-master"
 			[languages.es.navigation.resources.001]
 				name			= "Videos"
 				url				= "/revolution/"
+			[languages.es.navigation.resources.002]
+				name			= "Guías"
+				url				= "/guias/"
 			
 		[languages.es.navigation.housekeeping]
 			[languages.es.navigation.housekeeping.001]
 				name			= "Contacto"
 				url				= "#contact"
-			[languages.es.navigation.housekeeping.002]
+		[languages.es.navigation.companyitems]		
+			[languages.es.navigation.companyitems.001]
 				name			= "Equipo"
 				url				= "/equipo/"
 	
@@ -748,6 +759,7 @@ theme        			= "hugo-creative-theme-master"
 		language			= "Lingue"
 		resource		= "Risorse"
 		service			= "Servizi"
+		company			= "Chi siamo"
 		languageicon	= "/img/globe.svg"
 		languageiconhover ="/img/globe_hover.svg"
 		
@@ -769,7 +781,8 @@ theme        			= "hugo-creative-theme-master"
 			[languages.it.navigation.housekeeping.001]
 				name			= "Contatti"
 				url				= "#contact"
-			[languages.it.navigation.housekeeping.002]
+		[languages.it.navigation.companyitems]
+			[languages.it.navigation.companyitems.001]
 				name			= "Il Team"
 				url				= "/equipo/"
 		
@@ -783,9 +796,6 @@ theme        			= "hugo-creative-theme-master"
 			[languages.it.navigation.languages.003]
 				name	= "English"
 				url		= "https://www.ideasonstage.com"
-			[languages.it.navigation.languages.004]
-				name	= "Italiano"
-				url		= "https://www.ideasonstage.it"
 	
 	# ------------------------------		
 	# References
