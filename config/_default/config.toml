@@ -317,6 +317,14 @@ theme        			= "hugo-creative-theme-master"
 	
 	#News
 	activenews = true
+
+[languages.en.location]
+		addresscountry	= "UK"
+		addresslocality	= ""
+		addressregion	= " "
+		postalcode		= " "
+		streetaddress	= ""
+		telephone		= ""
 		
 
 
@@ -453,6 +461,16 @@ theme        			= "hugo-creative-theme-master"
 	[languages.fr.events]
 		empty		= "Pas d'événement planifié."
 
+	# ------------------------------
+	# Location
+	[languages.fr.location]
+		addresscountry	= "France"
+		addresslocality	= "Paris"
+		addressregion	= "Île de France"
+		postalcode		= "75008"
+		streetaddress	= "138 avenue des Champs Élysées"
+		telephone		= "+33183750544"
+	
 	# ------------------------------
 	# Map
 	[languages.fr.map]
@@ -601,6 +619,14 @@ theme        			= "hugo-creative-theme-master"
 				name	= "Italiano"
 				url		= "https://www.ideasonstage.it"
 
+	# Location
+	[languages.es.location]
+		addresscountry	= "España"
+		addresslocality	= "Barcelona"
+		addressregion	= ""
+		postalcode		= ""
+		streetaddress	= ""
+		telephone		= "+34684607409"
 	# ------------------------------		
 	# References
 	[languages.es.references]
@@ -807,6 +833,16 @@ theme        			= "hugo-creative-theme-master"
 	[languages.it.widgets]
 	    categories = false
 	    tags = false
-	    search = true		
+	    search = true	
+
+	# ------------------------------		
+	# Enable and disable widgets for the right sidebar
+	[languages.it.location]
+		addresscountry	= "Italy"
+		addresslocality	= "Milano"
+		addressregion	= ""
+		postalcode		= ""
+		streetaddress	= ""
+		telephone		= "+393348829385"
 			
 		
