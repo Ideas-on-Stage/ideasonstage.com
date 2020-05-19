@@ -109,7 +109,7 @@ theme        			= "hugo-creative-theme-master"
 		language			= "Language"
 		resource		= "Resources"
 		service			= "Services"
-		company			= "About Us"
+		company			= "About"
 		languageicon	= "/img/globe.svg"
 		languageiconhover ="/img/globe_hover.svg"
 
