@@ -1,34 +1,7 @@
 {{ "<!-- partials:testimonials.html:start -->" | safeHTML }}
 {{- if gt (len .Site.Data.testimonials) 0 }}
 		<section id="testimonials" class="bg-lightgrey">
-            <div class="layout-content">
-                <div class="flex-parent-scroll iostestimonials">
-                    {{- range .Site.Data.testimonials }}
-                    {{- if .showonhome }}
-                    {{- if eq $.Site.Params.languagecode .language }}
-                    <div class="flex-child-scroll iostestimonial-item">
-                        <div class="iostestimonial">
-                            <div class="text">
-                                <p>{{ .text }}</p>
-                            </div>
-                            <div class="bottom">
-                                <div class="name-picture">
-                                    <img class="" alt="{{ .name }}" src="{{ .avatar }}">
-                                    <h4>{{ .name }}</h4>
-                                    <p>{{ .position }}</p>
-                                </div>
-                            </div>
-                            
-                        </div>
-
-                    </div>		                    
-                    {{- end }}
-                    {{- end }}
-                    {{- end }} 
-                </div>
-            </div>
- <!--
-           <div class="layout-content">
+		    <div class="layout-content">
                <ul class="owl-carousel testimonials same-height-row">
                     {{- range .Site.Data.testimonials }}
                     {{- if .showonhome }}
@@ -52,8 +25,6 @@
                     {{- end }}
                 </ul>
 		    </div>
- -->           
- 
 		</section>
 {{- end }}
 {{ "<!-- partials:testimonials.html:end -->" | safeHTML }}

@@ -99,6 +99,11 @@
 	.testimonials .item .testimonial .name-picture h4	{ font-size: 1em;	}
 	.testimonials .item .testimonial .name-picture h5 	{ font-size: 14px;	}
 	.testimonials .item .testimonial .name-picture p		{ font-size: 12px;	}
+	.iostestimonials .iostestimonial-item .iostestimonial .text p				{ font-size: 14px;	}  
+	.iostestimonials .iostestimonial-item .iostestimonial .icon				{ font-size: 24px;	}
+	.iostestimonials .iostestimonial-item .iostestimonial .name-picture h4	{ font-size: 1em;	}
+	.iostestimonials .iostestimonial-item .iostestimonial .name-picture h5 	{ font-size: 14px;	}
+	.iostestimonials .iostestimonial-item .iostestimonial .name-picture p		{ font-size: 12px;	}
 	.timeline-title				{ font-size: 1.50em;	}
 	.timeline-text				{ font-size: 0.80em;	}
 	.style-section-title-main 	{ font-size: 2.00em;	}
@@ -873,6 +878,7 @@
 			justify-content: space-between;
 			flex-wrap: wrap;
 			width: 100%;
+			align-items: center;
 		}
 		
 		/* flex column */
@@ -883,6 +889,20 @@
 			justify-content: space-between;
 			height: 100%;
 			width: 100%;
+		}
+
+		/* flex horizontal scroll classes (used in the testimonials and references */
+		.flex-parent-scroll {
+			display: flex;
+			width: 100%;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			overflow-x: scroll;
+		}
+
+		.flex-child-scroll {
+			
+			height: auto;
 		}
 		
 		/* standard flex child */
@@ -1557,26 +1577,82 @@ img::selection {
     color: #fff;
     background: 0 0;
 }
+/* References */
+.reference-item {
+	background-color: transparent;
+	height: auto;
+	width: 16%;
+	padding: 0 0.6em;
+}
+
+.reference-item > img {
+	width: 9em;
+}
 
 /* Testimonials */
 
 #testimonials {
   margin-top: 6px;
 }
+.iostestimonials {
+	padding: 0;
+  }
 
+.iostestimonials .iostestimonial-item {
+	flex-basis: 35%;
+}  
+
+.iostestimonials .iostestimonial-item .iostestimonial {
+	padding: 1.0em;
+}
+
+.iostestimonials .iostestimonial-item .iostestimonial .text {
+	color: #222; 
+/*	margin-bottom: 1.5em; */
+	width: 20vw;
+}
+
+.iostestimonials .iostestimonial-item .iostestimonial .bottom {
+ 	left: 0;
+  	bottom: 0;
+ 	width: 100%;
+  	padding: 0 1.0em;
+ 	height: 2.5em;
+}
+
+.iostestimonials .iostestimonial-item .iostestimonial .name-picture {
+	float: right;
+	width: 100%;
+	text-align: right;
+  }
+
+.testimonials .item .testimonial .name-picture h4,
+.testimonials .item .testimonial .name-picture p {
+	color: #222;
+	margin: 0;
+}
+
+.iostestimonials .iostestimonial-item .iostestimonial .name-picture img {
+	float: right;
+	width: 60px;
+	border-radius: 30px;
+	margin-left: 10px;
+}
+
+
+/*
 .testimonials {
   padding: 0;
 }
 
 .testimonials .item {
-  list-style-type: none;
   margin: 0 5px;
   padding-bottom: 60px;
-  box-sizing: border-box;
+  width: 22vw;
 }
 .testimonials .item .testimonial {
   position: relative;
-  padding: 20px;
+  padding: 1.0em;
 }
 .testimonials .item .testimonial:before,
 .testimonials .item .testimonial:after {
@@ -1595,9 +1671,8 @@ img::selection {
   clear: both;
 }
 .testimonials .item .testimonial .text {
-  color: #222; 
-/*  color: #fff;	*/
-  margin-bottom: 30px;
+  color: #222;
+  margin-bottom: 1.5em;
 }
 
 .testimonials .item .testimonial .bottom {
@@ -1607,7 +1682,7 @@ img::selection {
   width: 100%;
   box-sizing: border-box;
   padding: 20px;
-  height: 50px;
+  height: 2.5em;
 }
 .testimonials .item .testimonial .icon {
   color: #FF8200;
@@ -1640,7 +1715,7 @@ img::selection {
   border-radius: 30px;
   margin-left: 10px;
 }
-
+*/
 /* End of testimonials */
 
 #categoryMenu h3 {
