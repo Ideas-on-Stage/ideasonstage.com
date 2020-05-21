@@ -1,7 +1,7 @@
 +++
 draft 			= false
-title 			= "Formations à l'art de présenter"
-description		= "Changez votre vision des présentations"
+title 			= "Formations et Webinaires"
+description		= "Formation en prise de parole en public, présentation PowerPoint et conduite de réunions en ligne pour les grandes entreprises."
 url		 		= "/formation-presentations/"
 schema			= "Carousel"
 thumbnail		= "thumbnail.jpg"

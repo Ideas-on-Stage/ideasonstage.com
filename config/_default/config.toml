@@ -109,7 +109,7 @@ theme        			= "hugo-creative-theme-master"
 		language			= "Language"
 		resource		= "Resources"
 		service			= "Services"
-		company			= "About Us"
+		company			= "About"
 		languageicon	= "/img/globe.svg"
 		languageiconhover ="/img/globe_hover.svg"
 
@@ -145,10 +145,12 @@ theme        			= "hugo-creative-theme-master"
 			[params.navigation.housekeeping.001]
 				name			= "Contact"
 				url				= "#contact"
-		[params.navigation.companyitems]		
-			[params.navigation.companyitems.001]
-				name			= "Team"
-				url				= "/team/"
+		[[params.navigation.companyitems]]
+			name			= "Ideas on Stage"
+			url				= "/about/"
+		[[params.navigation.companyitems]]
+			name			= "Team"
+			url				= "/team/"
 
 		[params.navigation.languages]
 					
@@ -404,10 +406,13 @@ theme        			= "hugo-creative-theme-master"
 			[languages.fr.navigation.housekeeping.001]
 				name			= "Contact"
 				url				= "#contact"
-		[languages.fr.navigation.companyitems]		
-			[languages.fr.navigation.companyitems.001]
-				name			= "Équipe"
-				url				= "/equipe/"	
+				
+		[[languages.fr.navigation.companyitems]]	
+			name			= "Ideas on Stage"
+			url				= "/apropos/"
+		[[languages.fr.navigation.companyitems]]
+			name			= "Équipe"
+			url				= "/equipe/"	
 
 		[languages.fr.navigation.languages]
 			[languages.fr.navigation.languages.001]

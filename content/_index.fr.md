@@ -68,6 +68,14 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 
 [services]
 	[[services.list]]
+		sectionid	= "presentations-training"
+		title		= "Formations et Webinaires"
+		description	= "Découvrez nos formations en ligne et en présentiel."
+		picture		= "/training.jpg"
+		style		= "bg-black"
+		layout		= "inserts/module-picture-textright.html"
+		url			= "/formation-presentations/"
+	[[services.list]]
 		sectionid	= "du-bureau-au-travail-a-distance"
 		title		= "Communauté de travail en ligne"
 		description	= "Créez et animez une communauté de travail en ligne pour booster le moral et la productivité de vos employés."
@@ -99,14 +107,7 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
 		url			= "/services/agence-creation-presentation-powerpoint/"
-	[[services.list]]
-		sectionid	= "presentations-training"
-		title		= "Formations à l'art&nbsp;de&nbsp;présenter"
-		description	= "Découvrez nos formations à l'art de présenter, de «&nbsp;The Business Presentation Revolution&nbsp;» à «&nbsp;Women&nbsp;on&nbsp;Stage&nbsp;»."
-		picture		= "/img/inserts/home-presentations-training.jpg"
-		style		= "bg-lightgrey"
-		layout		= "inserts/module-texttop-picture.html"
-		url			= "/formation-presentations/"
+
 +++
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.
 
