@@ -1,0 +1,17 @@
+[en]
+	title		= "Team"
+	layout		= "inserts/module-half-text-picture.html"
+	style		= "bg-lightgray"
+	picture		= "/img/inserts/team.jpg"
+	url			= "/team/"
+	description	= "Our international team can help you in English, French, Spanish and Italian."
+	button		= "Discover our team"
+
+[fr]
+	title		= "Équipe"
+	layout		= "inserts/module-half-text-picture.html"
+	style		= "bg-lightgray"
+	picture		= "/img/inserts/team.jpg"
+	url			= "/equipe/"
+	description	= "Notre équipe internationale peut vous accompagner en français, anglais, espagnol et italien."
+	button		= "Découvrez notre équipe"
