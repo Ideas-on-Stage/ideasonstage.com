@@ -1416,7 +1416,9 @@ nav.iosnavbar ul.iosmenu li {
   width: 100%;
 }
 
-nav ul.iosmenu>li>a {
+nav ul.iosmenu>li>a,
+nav ul.iosmenu>li>a:first-child,
+nav ul.iosmenu>li>label {
   padding: 5px 10px;
   color: #ddd;
   text-align: left;

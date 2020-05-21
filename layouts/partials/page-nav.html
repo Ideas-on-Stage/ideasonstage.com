@@ -57,7 +57,7 @@
 	<li><a class="iosnavbar-separator" href="#">|</a></li>
     <li>
      <!-- Languages  Drop Down -->
-      <label for="drop-3" class="menutoggle">
+      <label for="drop-4" class="menutoggle">
         <img class="iosnavbar-langicon" src="{{ .Site.Params.navigation.languageicon }}">
         <img class="iosnavbar-langicon-hover" src="{{ .Site.Params.navigation.languageiconhover }}">
         {{ with .Language.LanguageName }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></label>
@@ -65,7 +65,7 @@
         <img class="iosnavbar-langicon" src="{{ .Site.Params.navigation.languageicon }}">
         <img class="iosnavbar-langicon-hover" src="{{ .Site.Params.navigation.languageiconhover }}">
         {{ with .Language.LanguageName  }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></a>
-      <input type="checkbox" id="drop-3"/>
+      <input type="checkbox" id="drop-4"/>
       <ul>
        {{ range .Site.Params.navigation.languages }}
          {{ $scratch := newScratch }}
