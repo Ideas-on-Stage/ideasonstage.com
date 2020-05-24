@@ -856,8 +856,12 @@
 		.layout-sticky {
 			position: sticky;
 			top: {{ site.Params.navigation.height }};
-			z-index: 100;
-			
+			z-index: 100;	
+		}
+		.layout-double-sticky {
+			position: sticky;
+			top: {{ site.Params.navigation.height }} + 40px ;
+			z-index: 100;	
 		}
 	/* @end */
 
@@ -878,7 +882,6 @@
 			justify-content: space-between;
 			flex-wrap: wrap;
 			width: 100%;
-			align-items: center;
 		}
 		
 		/* flex column */
@@ -899,6 +902,7 @@
 			flex-wrap: nowrap;
 			overflow-x: scroll;
 			padding-bottom: 2.0em;
+			align-items: center;
 		}
 
 		.flex-child-scroll {
