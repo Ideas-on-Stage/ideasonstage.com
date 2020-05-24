@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Préparer et animer des réunions virtuelles réussies"
-tags = ["RéunionsVirtuelles", "Animation", "télétravail."]
+tags = ["Réunions Virtuelles", "Animation", "Télétravail"]
 news = ["general"]
 date = "2020-04-30"
 author = "Phil Waknell"

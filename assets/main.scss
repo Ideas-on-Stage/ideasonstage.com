@@ -109,7 +109,10 @@
 	.style-section-title-main 	{ font-size: 2.00em;	}
 	.style-module-text h3		{ font-size: 2.00em;	}
 	#content-table h2 			{ font-size: 1em;		}
-	#content-table a				{ font-size: 0.75em;	}
+	#content-table a			{ font-size: 0.75em;	}
+	#sidebar h2 				{ font-size: 1em;		}
+	#sidebar li				{ font-size: 1em;	}
+	#sidebar a					{ font-size: 1em;		}
 	
 	/* adjust for small tall smartphone screens */
 	@media(max-aspect-ratio:1/1) and (max-width:480px) {
@@ -366,6 +369,62 @@
 		#content-table li > ul > li {
 			padding: 0 0 0 10px;
 		}
+
+		/* side bar is the style for the side bar in the news pages*/
+
+		#sidebar {
+			padding-right: 4vw;
+		}
+
+		#sidebar h2 {
+			margin-top: 0;
+			background-color: #ddd;
+			color: #222;
+			padding: 1vw;
+			margin: 4px 0;
+			text-align: center;
+		}
+
+		#sidebar ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+		
+		#sidebar li {
+			margin: 4px 0;
+			padding: 0.5vw 1vw;
+			background-color: #fff;
+			line-height: 1;
+		}
+
+		#sidebar a {
+			text-transform: capitalize;
+			width: 100%;
+			border-bottom: none;
+			color: #222;
+		}
+
+		#sidebar a:hover {
+			color: #ff8200;
+		}
+
+		.sidebar-box {
+			background-color: #ddd;
+			padding-bottom: 1vw;
+			margin-bottom: 1vw;
+		}
+
+		.sidebar-narrow-field {
+			width: 80%;
+			margin-left: 10%;
+		}
+
+		#sidebar .button-primary {
+			margin: 0;
+			padding: 0.2em 2vw;
+			font-size: 0.8em;
+		}
 		
 		#team-member .style-person-title {
 			font-size: 1.5em;
@@ -374,6 +433,7 @@
 			text-transform: uppercase;
 		}
 		
+
 	/* @end */
 	
 	/* @group STYLES CUSTOM CLASSES */
@@ -1678,82 +1738,6 @@ img::selection {
 	}
 }
 
-/*
-.testimonials {
-  padding: 0;
-}
-
-.testimonials .item {
-  margin: 0 5px;
-  padding-bottom: 60px;
-  width: 22vw;
-}
-.testimonials .item .testimonial {
-  position: relative;
-  padding: 1.0em;
-}
-.testimonials .item .testimonial:before,
-.testimonials .item .testimonial:after {
-  content: " ";
-  display: table;
-}
-.testimonials .item .testimonial:after {
-  clear: both;
-}
-.testimonials .item .testimonial:before,
-.testimonials .item .testimonial:after {
-  content: " ";
-  display: table;
-}
-.testimonials .item .testimonial:after {
-  clear: both;
-}
-.testimonials .item .testimonial .text {
-  color: #222;
-  margin-bottom: 1.5em;
-}
-
-.testimonials .item .testimonial .bottom {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 20px;
-  height: 2.5em;
-}
-.testimonials .item .testimonial .icon {
-  color: #FF8200;
-  float: left;
-  width: 20%;
-}
-.testimonials .item .testimonial .name-picture {
-  float: right;
-  width: 100%;
-  text-align: right;
-}
-
-.testimonials .item .testimonial .name-picture h4 {
-	color: #222;
-	margin: 0;
-}
- 
-.testimonials .item .testimonial .name-picture h5 {
-  text-transform: uppercase;
-  color: #222;
-  letter-spacing: 0.08em;
-}
-.testimonials .item .testimonial .name-picture p {
-  color: #222;
-  margin: 0;
-}
-.testimonials .item .testimonial .name-picture img {
-  float: right;
-  width: 60px;
-  border-radius: 30px;
-  margin-left: 10px;
-}
-*/
 /* End of testimonials */
 
 #categoryMenu h3 {
@@ -2026,6 +2010,32 @@ a.footer-sub-category  {
 	opacity: 0.4;
   }
 /* @end */
+
+/* @news section stuff */
+
+ul.post-tag {
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+.post-tag >li {
+	background-color: #ddd;
+	padding: 0 0.4em;
+	margin: 0 0.2em 0.2em 0.2em;
+	float: left;
+	text-transform: uppercase;
+}
+.post-tag >li>a:hover {
+	color: #ff8200;
+}
+.post-tag >li:first-of-type {
+	margin: 0 0.2em 0 0;
+}
+.post-tag>li>a {
+	color: #222;
+	font-size: 0.8em;
+	border-bottom: none;
+}
 
 
 

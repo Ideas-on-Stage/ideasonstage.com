@@ -1,6 +1,6 @@
 baseURL 				= "https://www.ideasonstage.com"
 DefaultContentLanguage	= "en"
-paginate				= 5
+paginate				= 8
 paginatePath			= "newspage"
 canonifyurls				= false
 title         			= "Ideas on Stage"
@@ -43,6 +43,7 @@ theme        			= "hugo-creative-theme-master"
 	#News
 	activenews 			= true
 	viewMorePostLink	= "/news/"
+		
 	
 	# ------------------------------		
 	# Enable / Disable algolia search
@@ -257,6 +258,7 @@ theme        			= "hugo-creative-theme-master"
 	[params.news]
 		more		= "Continue Reading"
 		by	 		= "by"
+		sbcategorytitle 	= "Top Categories"
 		
 	# ------------------------------
 	[params.organization]

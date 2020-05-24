@@ -1,42 +1,46 @@
 {{/* <!-- no hero for single news page --> */}}
 {{ define "main" }}
 	{{ "<!-- news:single.html:main:start -->" | safeHTML }}
-	<article>
-        <div class="container paddingt-medium">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-					<h1>{{ .Title }}</h1>
+	<div class="layout-content">
+		<div class="flex-parent-row flex-column-reverse-ontall">
+			<aside id="sidebar" class="flex-child-33p layout-double-sticky flex-hide-ontall">
+				<div class="scroller">
+					{{ partial "inserts/sidebar-top-categories.html" . }}
+					{{ partial "inserts/sidebar-newsletter.html" . }}
 				</div>
-			</div>
-			<div class="row">
-			    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                    <p class="text-muted  mb-small">
-                    {{ if isset .Params "author" }}
-					  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a> — 
-					{{ end }}
-						<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate" .Date }}</time> 
-					</p>
-			    </div> <!-- /#blog-post -->
-			</div> <!-- /.row -->
-			<div class="row paddingt-tiny">
-				<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">					
-                    <div id="post-content">
-                      {{ with .Content }}{{ . }}{{ end }}
-                    </div>
-                    <!-- /#post-content -->
-                    {{ if .Site.DisqusShortname }}
-                    <div id="comments">
-                        {{ template "_internal/disqus.html" . }}
-                    </div>
-                    {{ end }}        
-                </div>
-            </div> <!-- /.row -->
-			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-					<hr>
-				</div>
-			</div>
-        </div> <!-- /.container -->
-    </article> <!-- /#content -->
+			</aside>
+			<article class="flex-child-67p">
+					<div class="flex-parent-row paddingv-small">
+						<ul class="post-tag">
+							{{ range (.GetTerms "tags") }}
+								<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+						   {{ end }}
+						</ul>
+					</div> <!-- /.flex-parent-row -->
+					<div class="flex-parent-row">
+						<h1>{{ .Title }}</h1>
+					</div> <!-- /.flex-parent-row -->
+					<div class="flex-parent-row">
+							<p class="text-muted  mb-small">
+							{{ if isset .Params "author" }}
+							  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a> — 
+							{{ end }}
+								<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate" .Date }}</time> 
+							</p>
+					</div> <!-- /.flex-parent-row -->
+					<div class="flex-parent-row paddingt-tiny">			
+							<div id="post-content">
+							  {{ with .Content }}{{ . }}{{ end }}
+							</div>
+							<!-- /#post-content -->
+							{{ if .Site.DisqusShortname }}
+							<div id="comments">
+								{{ template "_internal/disqus.html" . }}
+							</div>
+							{{ end }}        
+					</div> <!-- /.flex-parent-row -->
+			</article> <!-- /#content -->
+		</div>
+	</div>		
    	{{ "<!-- news:single.html:main:end -->" | safeHTML }}
 {{ end }}
