@@ -5,7 +5,7 @@ description	= "Todo lo que siempre quisisite saber para triunfar como ponente TE
 categories	= [ "TEDx Events" ]
 url			= "/ultimate-tedx-speaker-guide/"
 picture		= "tedx-speaker.jpg"
-summary		= "¿Te han propuesto ser ponente para dar una charla TED o TEDx? ¡Enhorabuena! ¿O a lo mejor estás interesado en organizar uno de esos eventos?. En cualquiera de esos casos esta guía es para ti: Todo lo que siempre quisiste saber para triunfar como ponente TED y no te atreviste a preguntar."
+summary		= "¿Te han propuesto ser ponente para dar una charla TED o TEDx?¡Enhorabuena!¿O a lo mejor estás interesado en organizar uno de esos eventos?. En cualquiera de esos casos esta guía es para ti: todo lo que siempre quisiste saber para triunfar como ponente TED y no te atreviste a preguntar."
 +++
 
 ## ¿Por qué una guía para ponentes TED?
@@ -16,8 +16,8 @@ Nos hemos dado cuenta de que muchos ponentes se hacen las mismas preguntas, y po
 ### Condiciones de uso de esta guía
 Puedes utilizar esta guía libremente; a cambio sólo te pedimos que cites su origen y añadas un link bien visible a esta página en los siguientes casos:
 
-* En el contexto de un evento TEDx: puedes distribuir la guía libremente a los ponentes, incluso en formato impreso (si quieres una copia en PDF de esta guía déjanos un mensaje al final de esta página)
-* Si utilizas algún extracto con fines no comerciales (notas para estudiantes, blogs personales, etc...)
+* En el contexto de un evento TEDx: puedes distribuir la guía libremente a los ponentes, incluso en formato impreso (si quieres una copia en PDF de esta guía déjanos un mensaje al final de esta página).
+* Si utilizas algún extracto con fines no comerciales (notas para estudiantes, blogs personales, etc...).
 * Para fines educativos.
 
 Si estás organizando un congreso: puedes contactar con nosotros en info@ideasonstage.com y crearemos una versión a medida de la guía para que la distribuyas a los participantes, sin referencias a TED o TEDx, y con tu propio branding.
@@ -28,7 +28,7 @@ Cualquier uso comercial de este documento sin nuestro consentimiento, está tota
 Esta guía definitiva del ponente TEDx no habría sido posible sin la ayuda de mis colegas, Phil, Marion, Michael y Ricardo, directores de presentaciones certificados todos ellos y mejores 'coaches de presentaciones' que yo. También nos gustaría dar las gracias a todos los organizadores que ya han confiado en nosotros, y siguen haciéndolo, para organizar sus eventos TEDx y otros eventos.
 
 ## El camino para construir tu charla TEDx
-Una vez pasado el momento de euforia, y con los pies en la tierra, ¿cuál es el siguiente paso?¿por dónde empezar?
+Una vez pasado el momento de euforia, y con los pies en la tierra, ¿cuál es el siguiente paso?, ¿por dónde empezar?
 
 En primer lugar, asegúrate de que estás disponible en la fecha del evento y de que puedes participar. No hay nada peor para el organizador de un evento que un ponente que abandona el barco a mitad del proceso de preparación, especialmente si ya se ha anunciado el programa. Confirma tu participación a los organizadores cuando estés completamente seguro de que puedes y quieres participar.
 
@@ -38,13 +38,13 @@ En primer lugar, asegúrate de que estás disponible en la fecha del evento y de
 
 ¿Así que estás seguro de que quieres participar como ponente en el TEDx? ¡Estupendo! Comienza enviando un email a los organizadores incluyendo 3 informaciones clave y 4 preguntas:
 
-* La confirmación de tu participación en el evento
+* La confirmación de tu participación en el evento.
 * El motivo por el que vas a participar: menciona cuál es el tema sobre el que quieres hablar, y pide a los organizadores que confirmen su aprobación.
-* Tu biografía resumida: ¿Quién eres?¿Cuál es tu historia?¿Qué te hace especial/original?¿Por qué quieres exponer en un TED? No es necesario que escribas una novela; 10 líneas es más que suficiente. Especifíca claramente tu ocupación (CEO de..., inventor chiflado, Futurólogo, ...) porque esto es lo que aparecerá en el programa y el sitio web del evento.
+* Tu biografía resumida: ¿quién eres?, ¿cuál es tu historia?, ¿qué te hace especial/original?, ¿por qué quieres exponer en un TED? No es necesario que escribas una novela; 10 líneas es más que suficiente. Especifíca claramente tu ocupación (CEO de..., inventor chiflado, Futurólogo, ...), porque esto es lo que aparecerá en el programa y el sitio web del evento.
 * Pregunta cuánto tiempo tienes asignado para tu charla: una de las reglas de oro de una presentación TED es respetar el tiempo asignado y no excederse nunca. La duración de la charla la fijan los organizadores y es habitual que las duraciones sean de 5, 6, 10, 12, 15 y 18 minutos.
-* Pregunta cuál es el formato para la presentación. ¿PowerPoint, Keynote, Prezi, otro?¿Formato 4:3 o 16:9?¿Fondo claro u oscuro?¿Existe alguna plantilla de referencia?
-* Pregunta por las fechas para el coaching de ponentes. Si los organizadores son competentes deberían contar en sus filas o en las de algún partner con varios directores de presentaciones o coaches de ponentes para ayudarte a preparar tu charla. Acuerda con ellos las fechas de ensayo tan pronto como te sea posible. Te recomendamos encarecidamente que aceptes su ayuda ya que te ayudarán a que tu charla tenga más impacto y sea más dinámica y memorable. Lo que aprendas no sólo te será útil para ese evento en concreto, sino para tu propia carrera profesional.
-* Solicita el documento de autorización: es el "contrato" mediante el cual te comprompetes a respetar la reglas del TEDx. Si los organizadores no te lo han enviado, pídeselo, tienen la obligación de hacerlo.
+* Pregunta cuál es el formato para la presentación: ¿PowerPoint, Keynote, Prezi, otro?, ¿formato 4:3 o 16:9?, ¿fondo claro u oscuro?, ¿existe alguna plantilla de referencia?
+* Pregunta por las fechas para el coaching de ponentes. Si los organizadores son competentes deberían contar en sus filas o en las de algún partner con varios directores de presentaciones o coaches de ponentes para ayudarte a preparar tu charla. Acuerda con ellos las fechas de ensayo tan pronto como te sea posible. Te recomendamos encarecidamente que aceptes su ayuda ya que conseguirán que tu charla tenga más impacto y sea más dinámica y memorable. Lo que aprendas no sólo te será útil para ese evento en concreto, sino para tu propia carrera profesional.
+* Solicita el documento de autorización: es el "contrato" mediante el cual te comprometes a respetar la reglas del TEDx. Si los organizadores no te lo han enviado, pídeselo, tienen la obligación de hacerlo.
 
 Si envías toda la información desde el primer momento empezarás con buen pie tu andadura en el TEDx y los organizadores quedarán gratamente sorprendidos de tu profesionalidad.
 
@@ -54,11 +54,11 @@ Una vez hayas confirmado tu participación los organizadores deberían ponerse e
 
 * Tus preparativos de viaje y alojamiento, en caso de que sean necesarios.
 * Las fechas y lugar para la preparación de tu charla con el director o coach de ponentes. Los ensayos para congresos locales a menudo se organizan en espacios específicos como salas de reuniones o anfiteatros. Sin embargo, para congresos nacionales o internacionales es frecuente que las limitaciones geográficas sólo permitan las sesiones de coaching remotas mediante videoconferencia (con plataformas como Zoom, Skype, Facetime o Teams) e intercambios por email.
-* A qué hora tienes que presentarte el día del evento y si tendrás la posibilidad de ensayar en el escenario o el espacio en el que vaya a tener lugar el evento (esto es muy recomendable; si el organizador no lo menciona, ¡hazlo tú!)
+* A qué hora tienes que presentarte el día del evento y si tendrás la posibilidad de ensayar en el escenario o el espacio en el que vaya a tener lugar el evento (esto es muy recomendable; si el organizador no lo menciona, ¡hazlo tú!).
 
 ## Antes del primer ensayo
 
-Si has acordado una fecha para tu primera sesión con tu director/coach, o al menos tienes una idea de cuándo la tendrás, antes de este primer ensayo hay varias cosas que tienes que hacer.
+Si has acordado una fecha para tu primera sesión con tu director/coach, o al menos tienes una idea de cuándo la tendrás, hay varias cosas que tienes que hacer antes de este primer ensayo.
 
 Si no estás familiarizado con TED o los eventos TEDx lo primero que tienes que hacer es ir a TED.com y echar un vistazo a algunos videos para comprender por qué este congreso tiene tan buena reputación. Aquí tienes algunos enlaces en inglés y español que te darán algunas pistas sobre el estilo y la calidad de las charlas.
 
@@ -85,27 +85,27 @@ Si no estás familiarizado con TED o los eventos TEDx lo primero que tienes que 
 
 Envía el título de tu charla: los organizadores necesitan esa información para incluirla en la web del evento y en el programa impreso. Busca un título original y evita títulos generalistas o poco específicos. Intenta buscar algo que atraiga la atención; quizá una pregunta, o un eslogan. Es bastante frecuente que este punto sea problemático en este momento ya que es posible que todavía estés dando forma a la charla.
 
-Envía el guión o borrador de slides de tu charla. Compártelo con tu director o coach de presentaciones antes de tu primer ensayo. De este modo el coach podrá prepararse y darte mejores consejos durante la sesión. Al coach le resultará más difícil preparar la sesión si no tiene una idea clara de en qué momento  de la preparación de tu charla estás. Es posible que el coach organice una entrevista inicial para ayudarte a estructurar tus ideas a visualizar las slides. Si no sabes cómo hacer esto, la siguiente sección te dará algunas pistas.
+Envía el guión o borrador de slides de tu charla. Compártelo con tu director o coach de presentaciones antes de tu primer ensayo. De este modo el coach podrá prepararse y darte mejores consejos durante la sesión. Al coach le resultará más difícil preparar la sesión si no tiene una idea clara de en qué momento  de la preparación de tu charla estás. Es posible que el coach organice una entrevista inicial para ayudarte a estructurar tus ideas y a visualizar las slides. Si no sabes cómo hacer esto, la siguiente sección te dará algunas pistas.
 
 ## Crea tu presentación
 Una buena presentación se sustenta en tres pilares cuyo objetivo es amplificar el mensaje de la presentación:
 
 
-* Un historia atractiva y bien estructurada .
+* Un historia atractiva y bien estructurada.
 * Elementos visuales impactantes.
 * Un ponente que se expresa con pasión y con claridad.
 
 Antes de meterte de lleno en los detalles de tu presentación, no olvides tener en cuenta las expectativas de los organizadores y de la audiencia, y el contexto:
 
 * ¿Cuál es el contexto actual?¿Ha ocurrido algo recientemente que pueda alterar la percepción de tu presentación?
-* Revisa las razones por las que los organizadores te han invitado. ¿Cuáles son su expectativas respecto al tema del que vas a hablar?
-* Pregúntate a ti mismo cuál es el cambio que te gustaría ver en el público. Una manera de acotar esto es completar la frase: "Al finalizar mi charla, quiero que el público..." ¿done en un crowd-funding?¿divulgue mi iniciativa?¿comprenda mejor la física cuántica?¿Comprenda la importancia de la exploración espacial? Hay tantos objetivos como charlas, algunos más ambiciosos que otros. En general, cuánto más concreto y "accionable" sea tu objetivo, más impacto crearás con tu charla. Lo más importante es que tengas un objetivo claro y definido para tu charla.
+* Revisa las razones por las que los organizadores te han invitado. ¿Cuáles son sus expectativas respecto al tema del que vas a hablar?
+* Pregúntate a ti mismo cuál es el cambio que te gustaría ver en el público. Una manera de acotar esto es completar la frase: "Al finalizar mi charla, quiero que el público..." ¿done en un crowd-funding?, ¿divulgue mi iniciativa?, ¿comprenda mejor la física cuántica?, ¿comprenda la importancia de la exploración espacial? Hay tantos objetivos como charlas, algunos más ambiciosos que otros. En general, cuánto más concreto y "accionable" sea tu objetivo, más impacto crearás con tu charla. Lo más importante es que tengas un objetivo claro y definido para tu charla.
 
 Hay un buen puñado de libros en el mercado sobre cómo hacer presentaciones, y es imposible explicar todos los detalles en este documento sin convertirlo en un libro de 500 páginas (que nadie leería). En vez de eso he optado por lo siguiente: para cada tema mencionado a continuación he incluido algunos consejos para ayudarte a crear una presentación estilo TED.
 
 ### Tu historia
 
-Visualiza tu historia dentro del tiempo que te han asignado los organizadores. Si escribes el texto de tu charla, una buena manera de estimar la duración de tu charla es contar el número de palabras y dividirlo por 150. El resultado serán los minutos que necesitarás para tu dar tu charla cómodamente y con un ritmo razonable. Si intentas ir más rápido, perderás claridad y hablarás demasiado rápido para el público. 150 palabras por minuto es una media razonable para la mayoría de ponentes. Sin embargo tienes que tener en cuenta tu propio ritmo al hablar; puede ocurrir que tu ritmo natural sea más pausado y que tu media sean 120 palabras por minuto. Si quieres afinar, grábate exponiendo un tema durante medio minuto y después cuenta el número de palabras para calcular tu ritmo natural.
+Visualiza tu historia dentro del tiempo que te han asignado los organizadores. Si escribes el texto de tu charla, una buena manera de estimar su duración es contar el número de palabras y dividirlo por 150. El resultado serán los minutos que necesitarás para dar tu charla cómodamente y con un ritmo razonable. Si intentas ir más rápido, perderás claridad y hablarás demasiado rápido para el público. 150 palabras por minuto es una media razonable para la mayoría de ponentes. Sin embargo tienes que tener en cuenta tu propio ritmo al hablar; puede ocurrir que tu ritmo natural sea más pausado y que tu media sean 120 palabras por minuto. Si quieres afinar, grábate exponiendo un tema durante medio minuto y después cuenta el número de palabras para calcular tu ritmo natural.
 
 En la lista siguiente tienes 9 ingredientes que te ayudarán a contar una gran historia.
 
@@ -182,7 +182,7 @@ Crear buenos apoyos visuales para una charla TED no es tan difícil, y tu direct
 * Elige fondos oscuros frente a fondos claros: la iluminación suele estar atenuada y los fondos brillantes son más agresivos visualmente y cansan la vista con más facilidad. Además, los fondos oscuros evitarán que el operador de cámara tenga que elegir entre dar visibilidad a tus slides o a ti.
 * Incluye pocas palabras: una frase o una sola idea por slide. De vez en cuando puedes romper esta regla, pero no lo hagas demasiado. No olvides que si se lo pones fácil al público, éste te lo pondrá fácil a ti.
 * Utiliza tipografías sans serif en vez de serif: tipografías como Arial, Helvetica, Futura, Avenir o Gill sans... Estas tipografías son más fáciles de leer que las tipografías serif como Times o Palatino.
-* Utiliza slide únicamente cuando las necesites: no hay ningún problema en utilizar slides sólo en una parte de tu presentación, cuando realmente sean necesarias.
+* Utiliza slides únicamente cuando las necesites: no hay ningún problema en utilizar slides sólo en una parte de tu presentación, cuando realmente sean necesarias.
 * Intenta conseguir imágenes bellas y de buena calidad. Aportarán emoción y estética a tu charla. Asegúrate de que cuentas con los derechos de uso de estas imágenes, ya sea comprándolas en un banco de imágenes u obteniendo permiso del autor de la fotografía. Además de no ser ético, corres el riesgo de que TED no cuelgue tu charla online.
 * Utiliza gráficos lo más simples posible.
 * Si utilizas videos asegúrate de que funcionan.
@@ -202,7 +202,7 @@ Estas son algunas ideas para ayudarte a ensayar mejor:
 Nunca se ensaya demasiado: ¡los mejores ponentes TEDx ensayan muchísimo!
 
 ## El día T
-Ya has completado tus ensayos. Ya estás listo para dar tu charla TED y brillar como una estrella sobre el escenario. No queda nada por hacer ¿verdad? Bueno, pues lo cierto es que... sí lo hay.
+Ya has completado tus ensayos. Ya estás listo para dar tu charla TED y brillar como una estrella sobre el escenario. No queda nada por hacer, ¿verdad? Bueno, pues lo cierto es que... sí lo hay.
 
 ![TEDx Tours sur scène](tedx-tours-onstage.jpg)
 
@@ -216,7 +216,7 @@ Aquí tienes algunos consejos sobre vestimenta que pueden serte útiles (adápta
 * No vayas demasiado bien vestido: no aparezcas vestido para una ceremonia de premios o para cruzar la alfombra roja; esto te separaría del resto de ponentes y transmitiría una imagen de arrogancia que probablemente causaría el rechazo del público.
 * En el otro extremo, no vayas hecho un desastre. Principalmente por tu credibilidad. Unos vaqueros y una camiseta sólo funcionarán si encajan contigo y tu ocupación.
 * Evita las prendas con cuadros o a rayas. Este tipo de prendas no suelen quedar bien en cámara
-* Utiliza un cinturón, o algo que donde poder colgar el transmisor del micrófono. Este transmisor suele ser una pequeña caja del tamaño de una cajetilla de cigarrillos. Los hombres suelen tenerlo más fácil ya que los pantalones suelen tener bolsillos traseros, pero los vestidos pueden ser más problemáticos. No querrás ser la persona que tenga ceñirse el transmisor a la ropa interior ¿verdad?. Ah! olvídate de las mallas.
+* Viste con cinturón, o algo donde poder colgar el transmisor del micrófono. Este transmisor suele ser una pequeña caja del tamaño de una cajetilla de cigarrillos. Los hombres suelen tenerlo más fácil ya que los pantalones suelen tener bolsillos traseros, pero los vestidos pueden ser más problemáticos. No querrás ser la persona que tenga ceñirse el transmisor a la ropa interior, ¿verdad?. ¡Ah! olvídate de las mallas.
 * Piensa en algún lugar en el que enganchar un micrófono de corbata si ese es el tipo de micrófono que se usará en el evento. Las solapas suelen funcionar bien, o incluso el cuello de una camisa si es holgado.
 * Evita las prendas ajustadas o muy enrevesadas.
 * No lleves pendientes muy grandes, pueden tintinear sobre el micrófono y provocar un ruido no deseado.
@@ -230,7 +230,7 @@ Si no has podido hacerlo hasta ahora, es posible que tengas la oportunidad de en
 
 * Sitúate y oriéntate: memoriza la posición de la pantalla detrás tuyo y la posición de los monitores de presentador (si los hay). Identifica la parte más iluminada del escenario. Con frecuencia los organizadores de TEDx sitúan un gran círculo rojo en el suelo para que se sitúen en él los ponentes. La iluminación del escenario estará centrada en este punto. Ten esto en cuenta sobre todo si el evento va a ser filmado.
 
-* Ensaya imaginando que el público está ahí. No olvides mirar a todas las zonas de la sala mientras ensayas. Si el auditorio está oscurecido y el escenario muy iluminado es muy posible que no distingas al público. Esto no representa un problema al ensayar en una sala vacía, pero es muy diferente durante el evento en sí. A algunos ponentes no ver al público les reconforta, pero en general creemos que es preferible poder ver al público. A fin de cuentas no eres un actor en una obra, sino un mensajero teniendo una conversación con cada una de las personas que del público. Ver sus ojos es una gran ayuda para tener el feed-back del público en tiempo real.
+* Ensaya imaginando que el público está ahí. No olvides mirar a todas las zonas de la sala mientras ensayas. Si el auditorio está oscurecido y el escenario muy iluminado es muy posible que no distingas a la gente. Esto no representa un problema al ensayar en una sala vacía, pero es muy diferente durante el evento en sí. A algunos ponentes no ver al público les reconforta, pero en general creemos que es preferible poder verlo. A fin de cuentas no eres un actor en una obra, sino un mensajero teniendo una conversación con cada una de las personas de la audiencia. Ver sus ojos es una gran ayuda para tener su feed-back en tiempo real.
 
 ### Antes de entrar en el escenario
 Tras completar el ensayo definitivo llega el que es, posiblemente, el momento de mayor estrés: la espera (¿sabías que la mayoría de la gente prefiere hacer algo sin propósito antes que no hacer nada en absoluto?) Así que aquí tienes algunos trucos que te ayudarán a sobrellevar este difícil momento:
@@ -243,8 +243,8 @@ Tras completar el ensayo definitivo llega el que es, posiblemente, el momento de
 * No te quedes aislado. Preséntate y charla con otros ponentes, asistentes y organizadores.
 
 ![TEDx Tours sur scène](tedx-tours-onstage.jpg)
-### Ya está, eres un ponente TED!
-La espera ha terminado. Ve a la sala a maquillarte si no lo has hecho aún. El ponente anterior terminady el maestro de ceremonias entra en el escenario, da las gracias al ponente que acaba de terminar y comienza a presentarte. ¡Es tu momento! ¡Eres un ponente TED!
+### Ya está, ¡eres un ponente TED!
+La espera ha terminado. Ve a la sala a maquillarte si no lo has hecho aún. El ponente anterior termina y el maestro de ceremonias entra en el escenario, da las gracias al ponente que acaba de terminar y comienza a presentarte. ¡Es tu momento! ¡Eres un ponente TED!
 
 ### ¿Y después?
 A menudo ser un ponente TED abre nuevos horizontes. Algunas personas dicen que les ha cambiado la vida. Comparte e interactúa con el público. Disfruta.
@@ -253,6 +253,10 @@ A menudo ser un ponente TED abre nuevos horizontes. Algunas personas dicen que l
 En Ideas on Stage, creemos firmemente que una gran presentación puede cambiar el mundo. Esperamos que esta guía te resulte útil y te ayude a conseguir que tu charla TED sea un momento inolvidable.
 
 ![TEDx Saclay remerciements](tedx-saclay-thankyou.jpg)
+
+### Sobre el Autor
+
+El autor de esta guía es Pierre Morsa, y ha sido traducida por Ricardo Bonis. Su contenido se basa en varios años de experiencia en la preparación de los ponentes de una gran cantidad de eventos TEDx. Está dirigida a ponentes de eventos TEDx y de otros eventos en general, y su fin es ayudar a prepararse como un profesional. Si tienes algún comentario, consejo para añadir, o preguntas, envíanoslas a ricardo.bonis@ideasonstage.com
 
 ### Historial de versiones
 * 17 May. 2020: primera versión en español.

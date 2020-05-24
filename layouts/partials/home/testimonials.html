@@ -2,7 +2,7 @@
 {{- if gt (len .Site.Data.testimonials) 0 }}
 		<section id="testimonials" class="bg-lightgrey">
             <div class="layout-content">
-                <div class="flex-parent-scroll iostestimonials">
+                <div class="flex-parent-scroll iostestimonials ios-scrollbar">
                     {{- range .Site.Data.testimonials }}
                     {{- if .showonhome }}
                     {{- if eq $.Site.Params.languagecode .language }}

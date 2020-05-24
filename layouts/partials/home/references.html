@@ -1,7 +1,7 @@
 {{ "<!-- partials:aboutreferences_new:start -->" | safeHTML }}
 <section id="references" class="bg-white">
     <div class="layout-content">
-        <div class="flex-parent-scroll">
+        <div class="flex-parent-scroll ios-scrollbar">
             {{- $.Scratch.Set "count" 0 }}
             {{- range .Site.Data.references }}
                 {{- if .showonhome }}

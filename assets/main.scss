@@ -898,12 +898,20 @@
 			flex-direction: row;
 			flex-wrap: nowrap;
 			overflow-x: scroll;
+			padding-bottom: 2.0em;
 		}
 
 		.flex-child-scroll {
 			
 			height: auto;
 		}
+
+		
+	@media(max-aspect-ratio:1/1) and (max-width:480px) {
+		.flex-parent-scroll {
+			padding-bottom: 1.0em;
+		}
+	}	
 		
 		/* standard flex child */
 		.flex-child {
@@ -1577,17 +1585,30 @@ img::selection {
     color: #fff;
     background: 0 0;
 }
+
+
+
 /* References */
+
 .reference-item {
 	background-color: transparent;
 	height: auto;
-	width: 16%;
-	padding: 0 0.6em;
+	width: 13.8vw;
+	padding: 0;
+	max-width: 207px;
 }
 
 .reference-item > img {
-	width: 9em;
+	width: 13.8vw;
+	max-width: 207px;
 }
+
+@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	.reference-item, .reference-item > img  {
+		width: 34.4vw;
+	}
+}
+
 
 /* Testimonials */
 
@@ -1599,7 +1620,6 @@ img::selection {
   }
 
 .iostestimonials .iostestimonial-item {
-	flex-basis: 35%;
 }  
 
 .iostestimonials .iostestimonial-item .iostestimonial {
@@ -1609,7 +1629,9 @@ img::selection {
 .iostestimonials .iostestimonial-item .iostestimonial .text {
 	color: #222; 
 /*	margin-bottom: 1.5em; */
-	width: 20vw;
+	width: 30vw;
+	max-width: 410px;
+	padding-right: 12px;
 }
 
 .iostestimonials .iostestimonial-item .iostestimonial .bottom {
@@ -1639,6 +1661,18 @@ img::selection {
 	margin-left: 10px;
 }
 
+@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	.iostestimonials .iostestimonial-item {
+		width: 67vw;
+	}
+	.iostestimonials .iostestimonial-item .iostestimonial .text {
+		width: 67vw;
+		padding: 0 15px;
+	}
+	.iostestimonials {
+		padding-bottom: 1.0em;
+	}
+}
 
 /*
 .testimonials {
@@ -1967,6 +2001,27 @@ a.footer-sub-category  {
 
 /* @end */
 
+/* horizontal scrollbar */
+
+.ios-scrollbar::-webkit-scrollbar {
+	height: 0.4em;
+  }
+  
+  /* Track */
+  .ios-scrollbar::-webkit-scrollbar-track {
+
+	border-radius: 10px;
+	background: #ddd;
+	opacity: 0.5;
+  }
+   
+  /* Handle */
+  .ios-scrollbar::-webkit-scrollbar-thumb {
+	background: #222; 
+	border-radius: 10px;
+	opacity: 0.4;
+  }
+/* @end */
 
 
 
