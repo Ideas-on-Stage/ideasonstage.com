@@ -1,7 +1,7 @@
 +++
 draft		= false 
 title		= "EDF InnovDay UNITEP 2017"
-tags		= ["Coaching","Paris","Lyon","Client"]
+tags		= ["Coaching","Paris","Lyon","Client","Innovation","Pitch"]
 news		= ["general"]
 date		= "2017-10-06"
 author		= "Pierre Morsa"

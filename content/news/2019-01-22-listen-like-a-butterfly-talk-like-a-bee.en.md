@@ -1,7 +1,7 @@
 +++
 draft = "false"
 title = "Listen like a butterfly, talk like a bee"
-tags = ["Public Speaking", "Debate", "Muhammad Ali"]
+tags = ["Public Speaking", "Debate", "Muhammad Ali","Tips"]
 news = ["general"]
 date = "2019-01-22"
 author = "Pierre Morsa"

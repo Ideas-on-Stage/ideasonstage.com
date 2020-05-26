@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Bonjour les Champs Élysées !"
-tags = ["Public Speaking", "News"]
+tags = ["Public Speaking", "News","Ideas on Stage"]
 news = ["general"]
 date = "2019-06-11"
 author = "Pierre Morsa"

@@ -377,11 +377,10 @@
 		}
 
 		#sidebar h2 {
-			margin-top: 0;
 			background-color: #ddd;
 			color: #222;
 			padding: 1vw;
-			margin: 4px 0;
+			margin: .2em 0;
 			text-align: center;
 		}
 
@@ -920,7 +919,8 @@
 		}
 		.layout-double-sticky {
 			position: sticky;
-			top: {{ site.Params.navigation.height }} + 40px ;
+			/* top: {{ site.Params.navigation.height }} + 40px ; */
+			top: calc({{ site.Params.navigation.height }} + 1.6em + .4vw);
 			z-index: 100;	
 		}
 	/* @end */
@@ -2037,6 +2037,7 @@ ul.post-tag {
 	border-bottom: none;
 }
 
-
-
-
+.row-tag {
+	padding-bottom: 0.2em;
+	margin-top: .2em;
+}

@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "“Others Too”: Zoom's Terrible Communication Misstep"
-tags = ["Public Relations", "Communication", "Crisis Management"]
+tags = ["Public Relations", "Communication", "Crisis Management","Business"]
 news = ["general"]
 date = "2019-07-16"
 author = "Pierre Morsa"

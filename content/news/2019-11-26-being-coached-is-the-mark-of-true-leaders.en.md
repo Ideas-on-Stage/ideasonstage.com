@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Being coached is the mark of true leaders"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Coaching"]
 news = ["general"]
 date = "2019-11-26"
 author = "Pierre Morsa"

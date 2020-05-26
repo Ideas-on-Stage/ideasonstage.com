@@ -1,7 +1,7 @@
 +++
 draft		= false
 title		= "Taking Female Leadership by the Reins"
-tags		= ["Women","Event","Retreat","Training","Canada"]
+tags		= ["Women","Events","Retreat","Training","Canada"]
 news	= ["general"] 
 date		= "2017-09-04"
 author	= "Rose Bloomfield"

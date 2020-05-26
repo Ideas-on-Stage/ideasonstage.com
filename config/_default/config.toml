@@ -43,14 +43,6 @@ theme        			= "hugo-creative-theme-master"
 	#News
 	activenews 			= true
 	viewMorePostLink	= "/news/"
-		
-	
-	# ------------------------------		
-	# Enable / Disable algolia search
-	algolia_search		= false
-	algolia_appId		= "GMTISKBCI2"
-	algolia_apiKey		= "14fc70c1da865e95a8aea61a7a001f56"
-	algolia_indexName	= "IoS_en"
 
 	# ------------------------------
 	# Buttons

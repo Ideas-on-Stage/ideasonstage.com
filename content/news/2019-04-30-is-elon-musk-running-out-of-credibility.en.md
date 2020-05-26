@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Is Elon Musk running out of credibility?"
-tags = ["Public Speaking", "Debate"]
+tags = ["Public Speaking", "Debate","Business"]
 news = ["general"]
 date = "2019-04-30"
 author = "Pierre Morsa"

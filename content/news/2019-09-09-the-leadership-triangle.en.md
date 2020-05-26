@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "The leadership Triangle"
-tags = [ "Public Speaking", "Leadership" ]
+tags = [ "Public Speaking", "Leadership","Business"]
 news = ["general"]
 date = "2019-09-09"
 author = "Joe Ross and Michael Rickwood"

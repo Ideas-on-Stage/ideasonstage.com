@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Public Speaking Coaching With Virtual Reality in Paris"
-tags = ["Public Speaking", "Virtual Reality" ]
+tags = ["Public Speaking", "Virtual Reality", "Training", "Coaching"]
 news = ["general"]
 date = "2019-06-04"
 author = "Pierre Morsa"

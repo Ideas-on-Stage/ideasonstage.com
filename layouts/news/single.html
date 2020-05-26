@@ -3,14 +3,14 @@
 	{{ "<!-- news:single.html:main:start -->" | safeHTML }}
 	<div class="layout-content">
 		<div class="flex-parent-row flex-column-reverse-ontall">
-			<aside id="sidebar" class="flex-child-33p layout-double-sticky flex-hide-ontall">
+			<aside id="sidebar" class="flex-child-33p layout-double-sticky">
 				<div class="scroller">
 					{{ partial "inserts/sidebar-top-categories.html" . }}
 					{{ partial "inserts/sidebar-newsletter.html" . }}
 				</div>
 			</aside>
 			<article class="flex-child-67p">
-					<div class="flex-parent-row paddingv-small">
+					<div class="flex-parent-row row-tag">
 						<ul class="post-tag">
 							{{ range (.GetTerms "tags") }}
 								<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>

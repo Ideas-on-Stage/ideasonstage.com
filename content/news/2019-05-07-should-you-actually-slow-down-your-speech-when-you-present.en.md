@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Should you actually slow down your speech when you present?"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Tips"]
 news = ["general"]
 date = "2019-05-07"
 author = "Pierre Morsa"

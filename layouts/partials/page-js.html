@@ -2,29 +2,31 @@
 
 {{ "<!-- jQuery required for form validation -->" | safeHTML }}
 <script src="/js/jquery.js"></script>
+
 {{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
 <script src="/js/bootstrap.min.js"></script>
-{{ "<!-- Contact Form JavaScript -->" | safeHTML }}
-<!--
-<script src="/js/jqBootstrapValidation.js"></script>
--->
 
+{{ "<!-- Contact Form JavaScript -->" | safeHTML }}
 <script src="/js/ios-form-plugin.js"></script>
 
 
 {{ "<!-- Owl Carousel JavaScript -->" | safeHTML }}
 <!-- 
 <script src="/js/owl.carousel.min.js"></script>
+-->
 <script src="/js/front.js"></script>
 
+
+{{ "<!-- Search bits JavaScript -->" | safeHTML }}
+<!--
+<script src="/js/fuse.js"></script> <!-- downloaded from fusejs.io -->
+<!--
+<script src="/js/fastsearch.js"></script>
 -->
+
+
 {{ "<!-- Form submission JavaScript -->" | safeHTML }}
-
-
-
 <!-- This one calls the form plugin -->
-
-
 <script>
 $(function() {
   $('form[data-autosubmit]').autosubmit();
@@ -32,8 +34,4 @@ $(function() {
 </script>
 
 {{ "<!-- partials:page-js.html:end -->" | safeHTML }}
-
-
-
-{{ "<!-- Form validation JavaScript -->" | safeHTML }}
 

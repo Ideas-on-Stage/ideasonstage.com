@@ -26,6 +26,7 @@
 	{{ $thumbtest := add .File.Dir "hero.jpg" }}
 	{{ if and (eq .Section "team") (.IsPage) }}
 		{{/* <!-- temporary workaround not to show hero on team member page --> */}}
+	{{ else if (eq .Section "tags") }}
 	{{ else if (fileExists $thumbtest) }}
 		{{/* <!-- then a file named hero.jpg exists, use it --> */}}
 	  	{{ $picture = "hero.jpg" }}

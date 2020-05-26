@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Is there a drug to get rid of my fear of public speaking?"
-tags = ["Public Speaking", "Fear"]
+tags = ["Public Speaking", "Fear", "Stage fright"]
 news = ["general"]
 date = "2019-03-26"
 author = "Pierre Morsa"

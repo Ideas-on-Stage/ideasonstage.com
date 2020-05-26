@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "L'adulte et l'enfant gâté"
-tags = ["Public Speaking", "Debate"]
+tags = ["Prise de parole en public", "Débat"]
 news = ["general"]
 date = "2019-09-17"
 author = "Pierre Morsa"

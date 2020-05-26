@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Use eye contact to stop moving around on stage"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Body Language", "Tips"]
 news = ["general"]
 date = "2019-10-01"
 author = "Pierre Morsa"

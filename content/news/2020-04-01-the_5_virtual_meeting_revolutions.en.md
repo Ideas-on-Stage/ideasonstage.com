@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "The 5 Virtual Meeting Revolutions"
-tags = ["VirtualMeetingRevolution", "remotepresentation", "remotemeeting"]
+tags = ["Virtual Meeting Revolution", "Remote","Presentation","Meeting"]
 news = ["general"]
 date = "2020-04-01"
 author = "Phil Waknell"

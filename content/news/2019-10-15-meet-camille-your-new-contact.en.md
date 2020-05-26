@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Meet Camille, your new contact"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Business"]
 news = ["general"]
 date = "2019-10-15"
 author = "Camille Spokojny"
