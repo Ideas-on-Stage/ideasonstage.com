@@ -22,10 +22,6 @@ theme        			= "hugo-creative-theme-master"
 [taxonomies]
 	category 			= "categories"
 	tag					= "tags"
-    
-[outputs]
-	home 				= [ "HTML", "JSON" ]
-	page 				= [ "HTML" ]
 
 [params]
 	author				= "Ideas on Stage"

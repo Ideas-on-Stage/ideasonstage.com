@@ -37,7 +37,7 @@
 	      {{- end }}
       </ul>
     </li>
-     <!-- Contact Menu -->
+     <!-- Contact & Team Menus -->
     {{- range .Site.Params.navigation.housekeeping }}
     <li><a class="page-scroll" href="{{ .url }}">{{ .name }}</a></li>
     {{- end }}
@@ -52,17 +52,6 @@
          <a href="{{ .url }}">{{ .name }}</a>
          </li>
          {{- end }}
-       </ul>
-     </li> 
-     <!-- Search Dropdown -->
-     <li>
-       <label for="drop-5" class="menutoggle"><i class="fa fa-search"></i></label>
-       <a href="#"><i class="fa fa-search"></i></a>
-       <input type="checkbox" id="drop-5"/>
-       <ul>
-         <li id="fastSearch">
-          <input id="searchInput" tabindex="0">
-         </li>
        </ul>
      </li> 
 	<li><a class="iosnavbar-separator" href="#">|</a></li>

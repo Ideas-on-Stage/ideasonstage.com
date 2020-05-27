@@ -7,6 +7,8 @@ schema			= "Website"
 
 insertsbottom	= [ "revolution" ]
 
+outputs			= ["html","rss","json"]
+
 [slider]
 	[[slider.list]]
 		bgimage ="/hero.jpg"
@@ -59,7 +61,6 @@ insertsbottom	= [ "revolution" ]
 		style		= "bg-lightgrey"
 		layout		= "inserts/module-texttop-picture.html"
 		url			= "/formacion-presentaciones/"
-					
 +++
 En Ideas on Stage ayudamos a líderes de todo el mundo a hacer presentaciones impactantes, a crear eventos que inspiren y a fortalecer sus organizaciones gracias a nuestro acompañamiento y formación para hablar y presentar en público.
 
