@@ -263,11 +263,6 @@ theme        			= "hugo-creative-theme-master"
 	    episodes	= "Previous episodes"
 
 	# ------------------------------		
-	# Enable and disable widgets for the right sidebar
-	[params.widgets]
-	    categories = false
-	    tags = false
-	    search = true
 	    
     # ------------------------------	
 	# Social items for footer or other elements
@@ -345,13 +340,6 @@ theme        			= "hugo-creative-theme-master"
 	#News
 	activenews		= true
 	monthtrans		= "mois.yaml"
-	
-	# ------------------------------		
-	# Enable / Disable algolia search
-	algolia_search    = false
-	algolia_appId     = "GMTISKBCI2"
-	algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
-	algolia_indexName = "IoS_fr"
 	
 	# ------------------------------
 	# Buttons
@@ -517,14 +505,7 @@ theme        			= "hugo-creative-theme-master"
 		enable 		= true    		
 		title 		= "Témoignages"
 		subtitle		= "Nous avons travaillé avec de nombreux clients ; voici quelques exemples de ce que nos clients disent de nous."
-			
-	# ------------------------------		
-	# Widgets Enable and disable widgets for the right sidebar
-	[languages.fr.widgets]
-	    categories = false
-	    tags = false
-	    search = true		
-		
+	
 		
 		
 ##################
@@ -550,12 +531,6 @@ theme        			= "hugo-creative-theme-master"
 	#News
 	activenews		= false
 	monthtrans		= "mois.es.yaml"
-
-	# Enable / Disable algolia search
-  	algolia_search    = false
-  	algolia_appId     = "GMTISKBCI2"
- 	algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
-  	algolia_indexName = "IoS_es"
 
 	# ------------------------------
 	# Buttons
@@ -688,12 +663,8 @@ theme        			= "hugo-creative-theme-master"
 		more		= "Ver el episodio"
 		episodes	= "Episodios"
 			
-	# ------------------------------		
-	# Enable and disable widgets for the right sidebar
-	[languages.es.widgets]
-	    categories = false
-	    tags = false
-	    search = true		
+	
+	
 
 	
 	
@@ -717,12 +688,7 @@ theme        			= "hugo-creative-theme-master"
 	#News
 	activenews 		= true
 	monthtrans 		= "moisit.yaml"
-	
-	# Enable / Disable algolia search
-  	algolia_search    = false
-  	algolia_appId     = "GMTISKBCI2"
- 	algolia_apiKey    = "14fc70c1da865e95a8aea61a7a001f56"
-  	algolia_indexName = "IoS_it"
+
 
 
 	# ------------------------------
@@ -837,12 +803,6 @@ theme        			= "hugo-creative-theme-master"
 		by	 	= "da"
 		sbcategorytitle = "Top categories"
 
-	# ------------------------------		
-	# Enable and disable widgets for the right sidebar
-	[languages.it.widgets]
-	    categories = false
-	    tags = false
-	    search = true	
 
 	# ------------------------------		
 	# Enable and disable widgets for the right sidebar

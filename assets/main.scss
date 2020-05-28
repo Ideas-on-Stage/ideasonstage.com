@@ -2106,8 +2106,8 @@ ul.post-tag {
 	height: 31px;
 	font-size: .8em;
 	color: #ddd;
-	font-weight: bold;
-	background-color: #222;
+	font-weight: normal;
+	background-color: #555;
 	border-radius: 3px 3px 0px 0px;
 	border: none;
 	outline: none;
@@ -2123,7 +2123,8 @@ ul.post-tag {
   #searchResults li { 
 	list-style: none; 
 	margin-left: 0em;
-	background-color: #222; 
-	border-bottom: 1px dotted #000;
+	background-color: #555; 
+	border-bottom: 1px dotted #ddd;
   }
 	#searchResults li .title { font-size: 0.8em; margin-bottom: 10px; display: inline-block;}
+	#searchResults li .sc { font-size: 0.8em; text-transform: none; font-weight: normal;}

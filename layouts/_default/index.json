@@ -1,5 +1,22 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range .Site.RegularPages -}}
-    {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "categories" .Params.categories "contents" .Plain "permalink" .Permalink  "author" .Params.author) -}}
+    {{ $titleStr := "" }}
+    {{ with .Title }}{{ $titleStr = . }}{{ end }}
+    {{ with .Params.name }}{{ $titleStr = . }}{{ end }}
+
+    {{ $tagsStr := "" }}
+    {{ with .Params.tags }}{{ $tagsStr = . }}{{ end }}
+    {{ with .Params.categories }}{{ $tagsStr = . }}{{ end }}
+
+    {{ $authorStr := "" }}
+    {{ with .Params.author }}{{ $authorStr = . }}{{ end }}
+
+    {{ $description := "" }}
+    {{ with .Params.description }}{{ $description = . }}{{ end }}
+
+    {{ $summary := "" }}
+    {{ with .Params.summary }}{{ $summary = . }}{{ end }}
+
+    {{- $.Scratch.Add "index" (dict "title" $titleStr "tags" $tagsStr "contents" .Plain "permalink" .Permalink "author" $authorStr "description" $description "summary" $summary) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}
