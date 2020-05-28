@@ -26,9 +26,10 @@
     </script>
 
 {{ "<!-- Search bits JavaScript -->" | safeHTML }}
-
-    <script src="/js/fuse.js"></script> <!-- downloaded from fusejs.io -->
-    <script src="/js/fastsearch.js"></script>
+<!--
+  <script src="/js/fuse.js"></script> 
+  <script src="/js/fastsearch.js"></script>
+-->
 
 <!-- /* Captcha Code */ -->
 
@@ -40,11 +41,11 @@
       var why = "";
       
       if(document.getElementById('CaptchaInput').value == ""){
-      why += "- Please Enter CAPTCHA Code.\n";
+      why += "{{ .Site.Params.contact.missingcaptcha }}";
       }
       if(document.getElementById('CaptchaInput').value != ""){
       if(ValidCaptcha(document.getElementById('CaptchaInput').value) == false){
-      why += "- The CAPTCHA Code Does Not Match.\n";
+      why += "{{ .Site.Params.contact.wrongcaptcha }}";
       }
       }
       if(why != ""){

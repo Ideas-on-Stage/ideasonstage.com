@@ -2,10 +2,10 @@
 	{{ "<!-- tags:tag.html.html:start -->" | safeHTML }}
 	<div class="layout-content">
 		<div class="flex-parent-row flex-column-reverse-ontall">
-			<aside id="sidebar" class="flex-child-33p layout-sticky flex-hide-ontall">
+			<aside id="sidebar" class="flex-child-33p layout-sticky">
 				<div class="scroller">
-					{{ partial "inserts/sidebar-top-categories.html" . }}
-					{{ partial "inserts/sidebar-newsletter.html" . }}
+					{{ partial "sidebar/sidebar-top-categories.html" . }}
+					{{ partial "sidebar/sidebar-newsletter.html" . }}
 				</div>
 			</aside>
 			<article id="content-main" class="flex-child-67p">

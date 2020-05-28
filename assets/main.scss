@@ -2114,7 +2114,12 @@ ul.post-tag {
 	text-align: left;
 	display: inline-block;
   }
-  
+
+  #searchResults {
+	  display: block;
+	  top: 0px;
+  }
+ 
   #searchResults li { 
 	list-style: none; 
 	margin-left: 0em;
@@ -2122,7 +2127,3 @@ ul.post-tag {
 	border-bottom: 1px dotted #000;
   }
 	#searchResults li .title { font-size: 0.8em; margin-bottom: 10px; display: inline-block;}
-  
-  #searchResults { visibility: inherit; display: inline-block; width: 320px; }
-  #searchResults a { text-decoration: none !important; padding: 10px; display: inline-block; }
-	#searchResults a:hover, a:focus { outline: 0; background-color: #ff8200; color: #fff; }
