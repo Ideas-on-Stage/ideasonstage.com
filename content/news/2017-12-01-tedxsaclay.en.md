@@ -1,7 +1,7 @@
 +++
 draft		= false
 title		= "TEDx Saclay – Worth all the Applause"
-tags		= ["France","TEDx","Event"]
+tags		= ["France","TEDx","Events"]
 news		= ["general"] 
 date		= "2017-12-01"
 author		= "Rose Bloomfield"

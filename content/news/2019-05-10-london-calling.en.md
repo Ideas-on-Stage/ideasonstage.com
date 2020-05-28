@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Our upcoming events in London"
-tags = ["london", "events"]
+tags = ["London", "Events"]
 news = ["general"]
 date = "2019-05-14"
 author = "The Ideas on Stage team"

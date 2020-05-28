@@ -7,6 +7,8 @@ schema			= "Website"
 
 insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 
+outputs			= ["html","rss","json"]
+
 [slider]
 	[[slider.list]]
 		bgimage 	= "/formation-presentations/webinaires/ouaibinarre.jpg"
@@ -107,7 +109,6 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
 		url			= "/services/agence-creation-presentation-powerpoint/"
-
 +++
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.
 

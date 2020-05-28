@@ -5,6 +5,9 @@ description		= "Regala delle Presentazioni incredibili con gli Specialisti della
 picture			= "/img/ideas-on-stage.png"
 schema			= "Website"
 
+
+outputs			= ["html","rss","json"]
+
 [slider]
 	[[slider.list]]
 		bgimage ="hero.jpg"
@@ -58,6 +61,7 @@ schema			= "Website"
 		style		= "bg-lightgrey"
 		layout		= "inserts/module-texttop-picture.html"
 		url			= "/training-workshops/the-business-presentation-revolution/"		
+
 +++
 Le Business Presentation eccezionali sono un vantaggio competitivo unico per le aziende. Ma ci siamo resi conto che la maggior parte delle presentazioni non riescono neanche a suscitare il minimo interesse nell’ audience. È per questo che abbiamo creato Ideas on Stage nel 2010, per aiutare i nostri clienti a dare al proprio pubblico le migliori presentazioni al mondo.
 

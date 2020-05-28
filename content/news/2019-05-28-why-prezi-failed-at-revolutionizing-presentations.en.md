@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Why Prezi failed at revolutionizing presentations"
-tags = ["PowerPoint", "Prezi", "TEDx"]
+tags = ["PowerPoint", "Prezi", "TEDx", "Presentation", "Slides"]
 news = ["general"]
 date = "2019-05-28"
 author = "Pierre Morsa"

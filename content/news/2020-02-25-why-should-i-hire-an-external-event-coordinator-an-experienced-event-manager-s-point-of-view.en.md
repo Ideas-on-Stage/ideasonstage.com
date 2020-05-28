@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Why should I hire an external event coordinator? An experienced event manager's point of view"
-tags = ["Event", "Business Event", "Project Management"]
+tags = ["Events", "Business Event", "Project Management", "Business"]
 news = ["general"]
 date = "2020-02-25"
 author = "Pierre Morsa"

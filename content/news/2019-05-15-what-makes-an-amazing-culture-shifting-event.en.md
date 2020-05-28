@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "What Makes an Amazing, Culture-Shifting Event?"
-tags = ["events", "amazing", "culture", "shift", "how", "tips", "learning", "study"]
+tags = ["Events", "Culture Shift", "Tips", "Learning", "Case Study"]
 news = ["general"]
 date = "2019-05-15"
 author = "Rose Bloomfield"

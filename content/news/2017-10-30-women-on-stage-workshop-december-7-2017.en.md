@@ -1,7 +1,7 @@
 +++
 draft		= false
 title		= "The Women on Stage Workshop Returns Dec 7"
-tags		= ["Coaching","Paris","Lyon","Client"]
+tags		= ["Coaching","Paris","Lyon","Client","Women","Business"]
 news		= ["general"]
 date		= "2017-10-30"
 author		= "Marion Chapsal"

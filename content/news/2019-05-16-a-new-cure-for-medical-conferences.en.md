@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "A New Cure for Medical Conferences"
-tags = ["conference", "events", "medical", "doctor", "tips", "interview", "learning", "new", "cure", "expert", ""]
+tags = ["Conference", "Events", "medical", "doctor", "Tips", "Interview", "learning", "expert"]
 news = ["general"]
 date = "2019-05-16"
 author = "Phil Waknell"

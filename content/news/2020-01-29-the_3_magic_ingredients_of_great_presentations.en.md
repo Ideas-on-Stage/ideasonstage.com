@@ -1,7 +1,7 @@
 +++
 draft = false
 title = " The 3 Magic Ingredients of Great Presentations"
-tags = ["TEDxSaclay", "Present", "Presentation", "TED", "Inspire", "PublicSpeaking", "Brainstorm", "Method", "Technique", "Tip"]
+tags = ["TEDxSaclay", "Presenting", "Presentations", "TEDx", "Inspire", "Public Speaking", "Brainstorm", "Method", "Technique", "Tips"]
 news = ["general"]
 date = "2020-01-29"
 author = "Phil Waknell"

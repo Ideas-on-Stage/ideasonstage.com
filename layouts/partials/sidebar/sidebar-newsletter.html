@@ -1,0 +1,28 @@
+{{ "<!-- partials:inserts:sidebar-newsletter.html:start -->" | safeHTML }}
+<div class="sidebar-box">
+	<h2>{{ with .Site.Params.subscribe.subtitle }}{{ . | markdownify }}{{ end }}</h2>
+	<form action="https://hooks.zapier.com/hooks/catch/607769/oy07yvs/" method="POST" name="newsForm" id="ioscontactForm" data-autosubmit>
+		<div class="iosform-group">
+			<input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
+			<input type="hidden" name="_lang" value="{{ .Site.Params.LanguageCode }}">
+		</div>
+		<div class="iosform-group sidebar-narrow-field">
+			<input type="email" id="email" name="email" class="iosform-control" placeholder="{{ with .Site.Params.subscribe.form.email.text }}{{ . | markdownify }}{{ end }}" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('{{ with .Site.Params.subscribe.form.email.warning }}{{ .  | markdownify }}{{ end }}');" required>
+		</div>
+		<div class="iosform-group" id="fooDiv">
+			<label for="foo">Leave this field blank</label>
+			<input type="text" name="foo" id="foo">
+			<script>
+				(function () {
+					var e = document.getElementById("fooDiv");
+					e.parentNode.removeChild(e);
+				})();
+			</script>
+		</div>	
+		<div class="clearfix"></div>
+		<div class="iosform-button">
+			<input type="submit" value="{{ with .Site.Params.subscribe.buttonText }}{{ . | markdownify }}{{ end }}" class="button-primary" success="{{ with .Site.Params.subscribe.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.subscribe.wait }}{{ . }}{{ end }}">    
+		</div>     
+	</form>
+</div>	
+{{ "<!-- partials:inserts:sidebar-newsletter.html:end -->" | safeHTML }}

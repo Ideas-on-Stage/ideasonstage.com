@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "The 7 deadly sins of slide design"
-tags = ["Public Speaking", "Debate", "TEDx", "Fear", "Prise de parole en public", "Débat", "Peur"]
+tags = ["Public Speaking", "Debate", "TEDx", "Fear","Slides", "Presentations"]
 news = ["general"]
 date = "2019-04-23"
 author = "Pierre Morsa"

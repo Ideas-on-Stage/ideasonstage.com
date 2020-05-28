@@ -1,7 +1,7 @@
 +++
 draft = true
 title = "How to use presentations effectively during sales meetings"
-tags = ["Public Speaking", "Sales"]
+tags = ["Public Speaking", "Sales", "Presentations", "Business"]
 news = ["general"]
 date = "2020-05-05"
 author = "Pierre Morsa"

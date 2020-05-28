@@ -1,7 +1,7 @@
 +++
 draft		= false
 title		= "3 presentation lessons from The Darkest Hour"
-tags		= ["News","Presentations","Tips"]
+tags		= ["Presentations","Tips"]
 news		= ["general"]
 date		= "2018-02-16"
 author		= "Marion Chapsal"

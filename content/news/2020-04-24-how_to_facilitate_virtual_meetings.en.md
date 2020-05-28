@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "How to facilitate virtual meetings"
-tags = ["VirtualMeetings", "FacilitateMeetings", "RemotePresentation."]
+tags = ["Remote", "Meetings", "Presentations"]
 news = ["general"]
 date = "2020-04-24"
 author = "Phil Waknell"

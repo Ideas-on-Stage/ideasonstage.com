@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "12 Tips for an Amazing Event: Don’t Just Sit There, DO Something"
-tags = ["Public Speaking", "Events"]
+tags = ["Public Speaking", "Events", "Tips"]
 news = ["general"]
 date = "2019-09-24"
 author = "Rose Bloomfield"

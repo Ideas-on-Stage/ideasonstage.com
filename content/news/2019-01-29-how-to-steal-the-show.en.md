@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "How to steal the show"
-tags = ["Public Speaking", "Training", "Krauthammer", "Presentations"]
+tags = ["Public Speaking", "Training", "Krauthammer", "Presentations","Business"]
 news = ["general"]
 date = "2019-01-29"
 author = "Pierre Morsa"

@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "How to use slides effectively in online meetings"
-tags = ["OnlineMeetings", "Slides", "SlideDeck", "EffectiveSlides", "VirtualMeeting."]
+tags = ["Remote", "Meetings", "Slides", "SlideDeck", "Virtual Meeting"]
 news = ["general"]
 date = "2020-04-10"
 author = "Phil Waknell"

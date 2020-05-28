@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "In presentations, don’t do a flash back, do a flash present"
-tags = ["Public Speaking", "Storytelling"]
+tags = ["Public Speaking", "Storytelling", "Tips"]
 news = ["general"]
 date = "2019-03-19"
 author = "Pierre Morsa"

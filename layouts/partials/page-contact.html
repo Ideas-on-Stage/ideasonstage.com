@@ -22,7 +22,21 @@
 			            </div>
 			            <div class="iosform-group">  
 			             <textarea id="message" name="message" class="iosform-control" placeholder="{{ with .Site.Params.contact.form.message.text }}{{ . | markdownify }}{{ end }}" oninvalid="alert('{{ with .Site.Params.contact.form.message.warning }}{{ .  | markdownify }}{{ end }}');" required></textarea>      
-			            </div>
+						</div>
+						<div class="iosform-group">
+							<div class="capbox">
+
+								<div id="CaptchaDiv"></div>
+								
+								<div class="capbox-inner">
+								{{ .Site.Params.contact.captcha }}<br>
+								
+								<input type="hidden" id="txtCaptcha">
+								<input type="text" name="CaptchaInput" id="CaptchaInput" size="15"><br>
+								
+								</div>
+								</div>
+						</div>
 			            <div class="iosform-button">
 			              <input type="submit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="button-primary" success="{{ with .Site.Params.contact.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}">    
 			            </div>     

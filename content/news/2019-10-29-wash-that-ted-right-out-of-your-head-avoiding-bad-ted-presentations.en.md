@@ -10,7 +10,7 @@ language = "en"
 +++
 The days of the expert or reliable narrator are over. We have entered the “Disinformation Age” where fake news, conspiracy stories, and meme warfare rule. 
 
-One of the most prominent casualties, at least from a presentation perspective, is the TED-like style, top down, subject matter expert : the teacher or preacher schooling their passively sitting and listening students.
+One of the most prominent casualties, at least from a presentation perspective, is the TED-like style, top down, subject matter expert: the teacher or preacher schooling their passively sitting and listening students.
 
 We see trust move from the command and control leadership style and morph into something vastly flatter, decentralized/distributed, and perhaps even autonomously self-organizing. 
 

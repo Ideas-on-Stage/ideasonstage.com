@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Put your most nervous speakers early in the program"
-tags = ["Public Speaking", "TEDx", "Fear"]
+tags = ["Public Speaking", "TEDx", "Fear", "Events"]
 news = ["general"]
 date = "2019-07-09"
 author = "Pierre Morsa"

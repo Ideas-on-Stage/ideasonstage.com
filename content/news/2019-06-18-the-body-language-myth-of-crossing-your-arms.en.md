@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "The body language myth of crossing your arms"
-tags = ["Public Speaking", "Body language"]
+tags = ["Public Speaking", "Body language", "Presenting"]
 news = ["general"]
 date = "2019-06-18"
 author = "Pierre Morsa"

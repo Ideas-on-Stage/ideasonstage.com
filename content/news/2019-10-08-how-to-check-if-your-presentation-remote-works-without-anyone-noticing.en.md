@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "How to Check If Your Presentation Remote Works Without Anyone Noticing"
-tags = ["Public Speaking", "Slides", "PowerPoint" ]
+tags = ["Public Speaking", "Slides", "PowerPoint", "Presentations", "Tips"]
 news = ["general"]
 date = "2019-10-08"
 author = "Pierre Morsa"

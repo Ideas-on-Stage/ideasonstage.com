@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Don't Inform, Transform"
-tags = ["Presentation", "Tips", "Transform", "Prepare", "Objective", "Meeting", "Impact", "Efficient"]
+tags = ["Presentations", "Tips", "Transform", "Prepare", "Objective", "Meetings", "Impact", "Efficient"]
 news = ["general"]
 date = "2019-01-07"
 author = "Phil Waknell"

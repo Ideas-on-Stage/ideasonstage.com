@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "5 Speaking Lessons from President Macron"
-tags = ["Speaking", "Lessons", "President", "French", "Macron", "Talk", "Technique", "Tips", "Learning", "Present", "Tech", "Station F", "Paris", "Politics", ""]
+tags = ["Public Speaking", "Lessons", "President", "French", "Macron", "Talk", "Technique", "Tips", "Learning", "Presenting", "Tech", "Station F", "Paris", "Politics", ""]
 news = ["general"]
 date = "2018-10-10"
 author = "Phil Waknell"

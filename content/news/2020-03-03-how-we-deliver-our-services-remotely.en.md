@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "How we deliver our services remotely"
-tags = ["Remote Work"]
+tags = ["Remote Work","Remote"]
 news = ["general"]
 date = "2020-03-03"
 author = "Pierre Morsa"

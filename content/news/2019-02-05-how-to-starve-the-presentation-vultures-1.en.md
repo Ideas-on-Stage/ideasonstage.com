@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "How to starve the presentation vultures (part 1)"
-tags = ["Public Speaking", "Fear"]
+tags = ["Public Speaking", "Fear", "Business"]
 news = ["general"]
 date = "2019-02-05"
 author = "Pierre Morsa"

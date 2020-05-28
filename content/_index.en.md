@@ -6,6 +6,8 @@ picture			= "/img/ideas-on-stage.png"
 schema			= "Website"
 
 insertsbottom	= [ "revolution", "news" ]
+
+outputs			= ["html","rss","json"]
 			
 [slider]
 	[[slider.list]]

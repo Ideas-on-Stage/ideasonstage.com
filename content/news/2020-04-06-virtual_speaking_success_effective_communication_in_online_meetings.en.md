@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Virtual Speaking Success: Effective communication in online meetings"
-tags = ["Communication", "OnlineMeeting", "VirtualMeetingRevolution", "PublicSpeaking"]
+tags = ["Meeting","Remote", "Virtual Meeting Revolution", "Public Speaking"]
 news = ["general"]
 date = "2020-04-06"
 author = "Michael Rickwood"

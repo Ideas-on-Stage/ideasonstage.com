@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "The adult and the spoiled kid"
-tags = ["Prise de parole en public", "Débat"]
+tags = ["Public Speaking", "Debate"]
 news = ["general"]
 date = "2019-09-17"
 author = "Pierre Morsa"

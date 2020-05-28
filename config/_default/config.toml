@@ -1,6 +1,6 @@
 baseURL 				= "https://www.ideasonstage.com"
 DefaultContentLanguage	= "en"
-paginate				= 5
+paginate				= 8
 paginatePath			= "newspage"
 canonifyurls				= false
 title         			= "Ideas on Stage"
@@ -20,12 +20,7 @@ theme        			= "hugo-creative-theme-master"
     news				= "/news/:year/:month/:day/:filename/"
 
 [taxonomies]
-	category 			= "categories"
 	tag					= "tags"
-    
-[outputs]
-	home 				= [ "HTML", "JSON" ]
-	page 				= [ "HTML" ]
 
 [params]
 	author				= "Ideas on Stage"
@@ -43,13 +38,6 @@ theme        			= "hugo-creative-theme-master"
 	#News
 	activenews 			= true
 	viewMorePostLink	= "/news/"
-	
-	# ------------------------------		
-	# Enable / Disable algolia search
-	algolia_search		= false
-	algolia_appId		= "GMTISKBCI2"
-	algolia_apiKey		= "14fc70c1da865e95a8aea61a7a001f56"
-	algolia_indexName	= "IoS_en"
 
 	# ------------------------------
 	# Buttons
@@ -190,6 +178,9 @@ theme        			= "hugo-creative-theme-master"
 		buttonText	= "Send message"
 		wait		= "Please Wait..."
 		success 	= "Thank you, we'll get back to you shortly."
+		captcha		= "Type the number:"
+		missingcaptcha =" Please Enter CAPTCHA Code.\n"
+		wrongcaptcha = "The CAPTCHA Code Does Not Match.\n"
 		
 		# 'warning' defines error messages for invalid inputs
 		[params.contact.form.name]
@@ -257,6 +248,7 @@ theme        			= "hugo-creative-theme-master"
 	[params.news]
 		more		= "Continue Reading"
 		by	 		= "by"
+		sbcategorytitle 	= "Top Categories"
 		
 	# ------------------------------
 	[params.organization]
@@ -443,6 +435,9 @@ theme        			= "hugo-creative-theme-master"
 		buttonText = "Envoyer"
 		wait	= "Veuillez patienter..."
 		success = "Merci, nous vous répondrons rapidement."
+		captcha		= "Tapez le nombre:"
+		missingcaptcha =" Veuillez entrer le code CAPTCHA.\n"
+		wrongcaptcha = "Le code CAPTCHA ne correspond pas.\n"
 		
 		# 'warning' defines error messages for invalid inputs
 		[languages.fr.contact.form.name]
@@ -654,6 +649,9 @@ theme        			= "hugo-creative-theme-master"
 		buttonText = "Enviar mensaje"
 		wait	= "Por favor, espera un instante..."
 		success = "Gracias, en breve nos pondremos en contacto contigo."
+		captcha = "Introduce el número"
+		missingcaptcha ="Introduzca el código CAPTCHA.\n"
+		wrongcaptcha = "El código CAPTCHA no coincide.\n"
 		
 		# 'warning' defines error messages for invalid inputs
 		[languages.es.contact.form.name]
@@ -804,6 +802,9 @@ theme        			= "hugo-creative-theme-master"
 		buttonText = "Invia il messaggio"
 		wait	= "Please Wait..."
 		success = "Grazie."
+		captcha = "Inserisci il numero"
+		missingcaptcha ="Inserisci il code CAPTCHA.\n"
+		wrongcaptcha = "Il code CAPTCHA non corrisponde.\n"
 		
 		# 'warning' defines error messages for invalid inputs
 		[languages.it.contact.form.name]

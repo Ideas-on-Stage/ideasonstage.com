@@ -2,7 +2,7 @@
 +++
 draft = false
 title = "Establish a Connection First"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Tips"]
 news = ["general"]
 date = "2019-11-12"
 author = "Pierre Morsa"

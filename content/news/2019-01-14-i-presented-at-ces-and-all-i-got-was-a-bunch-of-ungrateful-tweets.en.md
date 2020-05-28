@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "I presented at CES and all I got was a bunch of ungrateful tweets"
-tags = ["Presentation", "Public Speaking", "CES", "Coaching"]
+tags = ["Presentations", "Public Speaking", "CES", "Coaching"]
 news = ["general"]
 date = "2019-01-15"
 author = "Pierre Morsa"

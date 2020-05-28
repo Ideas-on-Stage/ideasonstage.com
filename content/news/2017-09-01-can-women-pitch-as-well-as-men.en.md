@@ -1,7 +1,7 @@
 +++
 draft		= false
 title		= "Can Women Pitch As Well As Men?"
-tags		= ["Women","Entrepreneur","Event","Pitch","Paris"]
+tags		= ["Women","Entrepreneur","Events","Pitch","Paris","Business"]
 news	= ["general"] 
 date		= "2017-09-01"
 author	= "Rose Bloomfield"

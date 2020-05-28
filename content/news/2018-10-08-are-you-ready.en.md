@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Are you ready?"
-tags = ["speaking; event design; presentation; coaching; montage; video; promo"]
+tags = ["Public Speaking","Events","Presentation","Coaching","Video"]
 news = ["general"]
 date = "2018-10-08"
 author = "Rose Bloomfield"

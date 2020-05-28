@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "What Business Can Learn From TED"
-tags = ["TED", "TEDx", "business presentation", "tips"]
+tags = ["TED", "TEDx", "Business Presentation", "Tips","Presentations","Business"]
 news = ["general"]
 date = "2018-04-10"
 author = "Phil Waknell"

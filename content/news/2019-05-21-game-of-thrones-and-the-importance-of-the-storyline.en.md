@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Game of Thrones and the importance of the storyline"
-tags = ["Public Speaking", "Storyline", "Storytelling", "Presentation"]
+tags = ["Public Speaking", "Storyline", "Storytelling", "Presentations"]
 news = ["general"]
 date = "2019-05-21"
 author = "Pierre Morsa"

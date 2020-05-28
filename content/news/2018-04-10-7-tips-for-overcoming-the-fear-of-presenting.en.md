@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "7 Tips for Overcoming the Fear of Presenting"
-tags = ["stage fright", "presenting", "fear"]
+tags = ["Stage fright", "Presenting", "Fear","Public Speaking"]
 news = ["general"]
 date = "2018-04-09"
 author = "Michael Rickwood"
