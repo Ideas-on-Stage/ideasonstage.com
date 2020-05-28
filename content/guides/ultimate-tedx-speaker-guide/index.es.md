@@ -215,7 +215,7 @@ Aquí tienes algunos consejos sobre vestimenta que pueden serte útiles (adápta
 
 * No vayas demasiado bien vestido: no aparezcas vestido para una ceremonia de premios o para cruzar la alfombra roja; esto te separaría del resto de ponentes y transmitiría una imagen de arrogancia que probablemente causaría el rechazo del público.
 * En el otro extremo, no vayas hecho un desastre. Principalmente por tu credibilidad. Unos vaqueros y una camiseta sólo funcionarán si encajan contigo y tu ocupación.
-* Evita las prendas con cuadros o a rayas. Este tipo de prendas no suelen quedar bien en cámara
+* Evita las prendas con cuadros o a rayas. Este tipo de prendas no suelen quedar bien en cámara.
 * Viste con cinturón, o algo donde poder colgar el transmisor del micrófono. Este transmisor suele ser una pequeña caja del tamaño de una cajetilla de cigarrillos. Los hombres suelen tenerlo más fácil ya que los pantalones suelen tener bolsillos traseros, pero los vestidos pueden ser más problemáticos. No querrás ser la persona que tenga ceñirse el transmisor a la ropa interior, ¿verdad?. ¡Ah! olvídate de las mallas.
 * Piensa en algún lugar en el que enganchar un micrófono de corbata si ese es el tipo de micrófono que se usará en el evento. Las solapas suelen funcionar bien, o incluso el cuello de una camisa si es holgado.
 * Evita las prendas ajustadas o muy enrevesadas.

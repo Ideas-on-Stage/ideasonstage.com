@@ -921,7 +921,7 @@
 			position: sticky;
 			/* top: {{ site.Params.navigation.height }} + 40px ; */
 			top: calc({{ site.Params.navigation.height }} + 1.6em + .4vw);
-			z-index: 100;	
+			z-index: 99;	
 		}
 	/* @end */
 

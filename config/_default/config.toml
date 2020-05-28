@@ -484,6 +484,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.fr.news]
 		more = "continuer à lire"
 		by	 = "par"
+		sbcategorytitle = "Top catégories"
 
 	# ------------------------------		
 	# References
@@ -679,6 +680,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.es.news]
 		more = "Continuar leyendo"
 		by	 = "por"
+		sbcategorytitle = "Top categorías"
 		
 	# ------------------------------		
 	# Revolution
@@ -833,6 +835,7 @@ theme        			= "hugo-creative-theme-master"
 	[languages.it.news]
 		more	= "continua la lettura"
 		by	 	= "da"
+		sbcategorytitle = "Top categories"
 
 	# ------------------------------		
 	# Enable and disable widgets for the right sidebar
