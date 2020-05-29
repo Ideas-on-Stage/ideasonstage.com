@@ -17,6 +17,6 @@
     {{ $summary := "" }}
     {{ with .Params.summary }}{{ $summary = . }}{{ end }}
 
-    {{- $.Scratch.Add "index" (dict "title" $titleStr "tags" $tagsStr "contents" .Plain "permalink" .Permalink "author" $authorStr "description" $description "summary" $summary) -}}
+    {{- $.Scratch.Add "index" (dict "title" $titleStr "tags" $tagsStr "contents" .Plain "permalink" .RelPermalink "author" $authorStr "description" $description "summary" $summary) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

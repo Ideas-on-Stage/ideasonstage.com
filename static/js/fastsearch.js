@@ -1,9 +1,6 @@
 var fuse; // holds our search engine
 var firstRun = true; // allow us to delay loading json data unless search activated
 var list = document.getElementById('searchResults'); // targets the <ul>
-//var first = list.firstChild; // first child of search list
-//var last = list.lastChild; // last child of search list
-var maininput = document.getElementById('searchInput'); // input box for search
 var resultsAvailable = false; // Did we get any search results?
 
 // ==========================================
@@ -11,10 +8,14 @@ var resultsAvailable = false; // Did we get any search results?
 // 
 //
 document.getElementById("searchInput").addEventListener("focus", function() {
-  if(firstRun) {
+  //if(sessionStorage.getItem("firstrun") === null)
+  //  sessionStorage.setItem("firstrun", "true"); // for the first time
+  //if(sessionStorage.getItem("firstrun") == "true") {
+  if (firstRun) {
     loadSearch(); // loads our json data and builds fuse.js search index
-    firstRun = false; // let's never do this again
-  }
+    firstRun = false;
+  }  
+  //  sessionStorage.setItem("firstrun", "false"); // let's never do this again
 }); 
 
 
