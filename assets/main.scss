@@ -112,7 +112,7 @@
 	#content-table a			{ font-size: 0.75em;	}
 	#sidebar h2 				{ font-size: 1em;		}
 	#sidebar li				{ font-size: 1em;	}
-	#sidebar a					{ font-size: 1em;		}
+	#sidebar a					{ font-size: 0.8em;		}
 	
 	/* adjust for small tall smartphone screens */
 	@media(max-aspect-ratio:1/1) and (max-width:480px) {
@@ -377,7 +377,7 @@
 		}
 
 		#sidebar h2 {
-			background-color: #ddd;
+			background-color: #eee;
 			color: #222;
 			padding: 1vw;
 			margin: .2em 0;
@@ -388,11 +388,12 @@
 			list-style-type: none;
 			padding: 0;
 			margin: 0;
+			margin-bottom: 1em;
 		}
 		
 		#sidebar li {
-			margin: 4px 0;
-			padding: 0.5vw 1vw;
+			margin: 0.2em 0;
+			padding: 0.2em 1vw;
 			background-color: #fff;
 			line-height: 1;
 		}
@@ -409,7 +410,7 @@
 		}
 
 		.sidebar-box {
-			background-color: #ddd;
+			background-color: #eee;
 			padding-bottom: 1vw;
 			margin-bottom: 1vw;
 		}
@@ -1102,6 +1103,11 @@
 			justify-content: space-between;
 		}
 
+		.flex-justify-space-around {
+			/* add even space between items */
+			justify-content: space-around;
+		}
+
 		.flex-wrap-no {
 			/* disable wrap */
 			flex-wrap: nowrap;
@@ -1267,6 +1273,8 @@
 	
 	.margin-tiny 		{	margin: 20px;			}
 	.margin-none 		{	margin: 0px;			}
+
+	.centered 			{ text-align: center; width:100%;}
 	
 	@media(max-aspect-ratio:1/1) and (max-width:480px) {
 	
@@ -2071,7 +2079,7 @@ ul.post-tag {
 	margin:0;
 }
 .post-tag >li {
-	background-color: #ddd;
+	background-color: #eee;
 	padding: 0 0.4em;
 	margin: 0 0.2em 0.2em 0.2em;
 	float: left;
@@ -2106,8 +2114,8 @@ ul.post-tag {
 	height: 31px;
 	font-size: .8em;
 	color: #ddd;
-	font-weight: bold;
-	background-color: #222;
+	font-weight: normal;
+	background-color: #555;
 	border-radius: 3px 3px 0px 0px;
 	border: none;
 	outline: none;
@@ -2123,7 +2131,68 @@ ul.post-tag {
   #searchResults li { 
 	list-style: none; 
 	margin-left: 0em;
-	background-color: #222; 
-	border-bottom: 1px dotted #000;
+	background-color: #555; 
+	border-bottom: 1px dotted #ddd;
   }
 	#searchResults li .title { font-size: 0.8em; margin-bottom: 10px; display: inline-block;}
+	#searchResults li .sc { font-size: 0.8em; text-transform: none; font-weight: normal;}
+
+	/* @group revolution */
+
+/**************************************
+**** revolution page stuff ************
+**************************************/
+.revolution-social {
+	text-align: center;	
+}
+.revolution-social > a > img {
+	width: 3em;
+	height: 3em;
+}
+
+.revolution-box {
+	height: 100%;
+	flex: 1;
+	flex-basis: 33%; /* start at 33% width */
+	min-width: 250px;
+	padding: 00.5em;
+	position: relative;
+	margin-bottom: 2em;
+}
+.revolution-thumb-frame {
+	height: 100%;
+	position:relative;
+}
+
+.revolution-thumb-frame:hover .revolution-overlay .revolution-overlay-title {
+	color: #ff8200;
+}
+
+.revolution-thumb {
+	width:100%;
+}
+.revolution-overlay {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-left: 0.3em;
+	padding-bottom: 0.1em;
+	padding-top: 1.5em;
+	background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0.9));
+
+}
+.revolution-overlay-title {
+	font-size: 1.2em;
+	font-weight: 700;
+	text-align: left;
+	bottom: 0;
+	color: #fff;
+}
+.revolution-summary {
+	font-size: 1em;
+	color: #222;
+	padding-top:0.1em;
+	padding-left: 0.3em;
+	padding-righ: 0.3em;
+}

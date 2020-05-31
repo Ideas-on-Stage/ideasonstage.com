@@ -24,94 +24,58 @@
 {{ end }}
 {{ define "main" }}
 	{{ "<!-- revolution:list.html:start -->" | safeHTML }}
-	<div class="container margint-medium" >
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">	
+	<div class="layout-content">
+		<div class="flex-parent-row paddingt-none paddingb-medium">
+			<div class="layout-module-column-text style-module-text ">	
 				{{ with .Content }}{{ . | markdownify }}{{ end }}
 			</div>
-		</div>				
-	</div>
-	<div class="container">
-		<div class="row paddingt-large">
-			<div class="col-sm-10 col-sm-offset-1">
-				<div class="col-xs-4 text-center">
-					<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="youtube.svg" alt="youtube" style="margin-bottom: 5px; width:50px;"><br>YouTube</a>
+			<div class="flex-parent-row paddingt-none paddingb-none flex-justify-space-around">
+				<div class="flex-child revolution-social">
+					<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="youtube.svg" alt="youtube"><br>YouTube</a>
 				</div>
-				<div class="col-xs-4 text-center">
-					<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"><img src="itunes.svg" alt="iTunes" style="margin-bottom: 5px; width:50px;"><br>iTunes</a>
+				<div class="flex-child revolution-social">
+					<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"><img src="itunes.svg" alt="iTunes"><br>iTunes</a>
 				</div>
-				<div class="col-xs-4 text-center">
-					<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="linkedin.svg" alt="linkedin" style="margin-bottom: 5px; width:50px;"><br>Linkedin</a>
+				<div class="flex-child revolution-social">
+					<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="linkedin.svg" alt="linkedin"><br>Linkedin</a>
 				</div>
 			</div>
 		</div>
-		<div class="row paddingt-huge">
-			<div class="colx-xs-12 text-center">
-				<h2>{{ .Site.Params.revolution.episodes }}</h2>
-			</div>
+		<div class="flex-parent-row paddingv-medium">
+			<h2 class="centered">{{ .Site.Params.revolution.episodes }}</h2>		
 		</div>
-	</div>
-	{{ $scratch := newScratch }}
-	{{ $scratch.Set "first" "true" }}
-	{{ $scratch.Set "content" .Content }}
-	{{ $paginator := .Paginate (where .Site.RegularPages "Type" "revolution") 5 }}
-	{{ $pagenumber := .Paginator.PageNumber }}
-	{{ range $paginator.Pages }}
-		{{ if (and (eq ($scratch.Get "first") "true") (lt $pagenumber "2")) }}
-			{{ $scratch.Set "first" "false" }}
-		{{ else }}
-			{{/* <!-- generate normal list entry --> */}}
-            <div class="container" >
-                <section class="post paddingt-small paddingb-medium">
-                    <div class="row">
-                        <div class="col-sm-4 col-sm-offset-1">
-                          <div class="image margint-small">
-                              <a href="{{ .RelPermalink }}">
-                                  <img src="{{ .RelPermalink }}thumbnail.jpg" class="img-responsive" alt="">
-                              </a>
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="{{ .RelPermalink }}"><h3 class="margint-small">{{ .Title }}</h3></a>
-                        	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-								{{ partial "f/getdate" .Date }}
-                        	</time>
-                            <p>{{ .Description }}</p>
-                            <a href="{{ .RelPermalink }}" class="button-secondary">{{ .Site.Params.revolution.more }}</a>
-                        </div>
-                    </div>
-                </section>
-				<div class="row">
-					<div class="col-sm-10 col-sm-offset-1">
-						<hr>
-					</div>
-				</div>
-			</div><!-- container -->
-        {{ end }}
+		<div class="flex-parent-row paddingv-medium">
+			{{ $scratch := newScratch }}
+			{{ $scratch.Set "first" "true" }}
+			{{ $scratch.Set "content" .Content }}
+			{{ range (where .Site.RegularPages "Type" "revolution") }}
+				{{ if (eq ($scratch.Get "first") "true") }}
+					{{ $scratch.Set "first" "false" }}
+				{{ else }}				
+					<a class="revolution-box" href="{{ .RelPermalink }}">
+						<div class="revolution-thumb-frame">
+							<div class="revolution-thumb">
+								<img src="{{ .RelPermalink }}thumbnail.jpg" class="img-responsive" alt="">
+							</div>
+							<div class="revolution-overlay">
+								<div class="revolution-overlay-title">
+									{{ .Title }}
+								</div>
+							</div>
+						</div>
+						
+						<div class="revolution-summary">
+							{{ .Description }}
+						</div>
+					</a>
+				{{ end }}
+			{{ end }}
 
-	{{ end }}
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">					
-				<ul class="pager">
-                    {{ if .Paginator.HasPrev }}
-                    <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}" class="button-secondary">{{ .Site.Params.buttons.previous }}</a></li>
-                    {{ else }}
-<!-- this code greys out the "Newer" button in the first page                            
-                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
--->                            
-                    {{ end }}
-
-                    {{ if .Paginator.HasNext }}
-                    <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}" class="button-secondary">{{ .Site.Params.buttons.next }}</a></li>
-                    {{ else }}
-<!-- this code greys out the "Older" button in the first page   
-                    <li class="next disabled"><a href="#">Older &rarr;</a></li>
--->
-                    {{ end }}
-                </ul>
-			</div>
 		</div>
 	</div>
+	</div>
+	
+
+	
 	{{ "<!-- revolution:list.html:end -->" | safeHTML }}
 {{ end }}

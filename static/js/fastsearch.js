@@ -1,9 +1,6 @@
 var fuse; // holds our search engine
 var firstRun = true; // allow us to delay loading json data unless search activated
 var list = document.getElementById('searchResults'); // targets the <ul>
-//var first = list.firstChild; // first child of search list
-//var last = list.lastChild; // last child of search list
-var maininput = document.getElementById('searchInput'); // input box for search
 var resultsAvailable = false; // Did we get any search results?
 
 // ==========================================
@@ -11,10 +8,14 @@ var resultsAvailable = false; // Did we get any search results?
 // 
 //
 document.getElementById("searchInput").addEventListener("focus", function() {
-  if(firstRun) {
+  //if(sessionStorage.getItem("firstrun") === null)
+  //  sessionStorage.setItem("firstrun", "true"); // for the first time
+  //if(sessionStorage.getItem("firstrun") == "true") {
+  if (firstRun) {
     loadSearch(); // loads our json data and builds fuse.js search index
-    firstRun = false; // let's never do this again
-  }
+    firstRun = false;
+  }  
+  //  sessionStorage.setItem("firstrun", "false"); // let's never do this again
 }); 
 
 
@@ -53,14 +54,17 @@ function loadSearch() {
 
     var options = { // fuse.js options; check fuse.js website for details
       shouldSort: true,
+      findAllMatches: true,
       location: 0,
       distance: 100,
       threshold: 0.4,
-      minMatchCharLength: 2,
+      minMatchCharLength: 3,
       keys: [
-        'title',
-        'permalink',
-        'summary'
+        {name:"title",weight:8},
+        {name:"description",weight:6},
+        {name:"tags",weight:6},
+        {name:"summary",weight:5},
+        {name:"contents", weight:1}
         ]
     };
     fuse = new Fuse(data, options); // build the index from the json file
@@ -82,10 +86,7 @@ function executeSearch(term) {
     searchitems = '';
   } else { // build our html 
     for (let item in results.slice(0,5)) { // only show first 5 results
-      searchitems = searchitems + '<li><a href="' + results[item].permalink + '" tabindex="0">;
-      /*
-      searchitems = searchitems + '<li><a href="' + results[item].Permalink + '" tabindex="0">' + '<span class="title">' + results[item].Title + '</span><br /> <span class="sc">'+ results[item].section +'</span> — ' + results[item].date + ' — <em>' + results[item].desc + '</em></a></li>';
-      */
+      searchitems += '<li><a href="' + results[item].item.permalink + '" tabindex="0">' + '<span class="title">' + results[item].item.title + '</span><br /><span class="sc">'+ results[item].item.description +'</span></a></li>';
     }
     resultsAvailable = true;
   }

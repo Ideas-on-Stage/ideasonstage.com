@@ -11,7 +11,6 @@ Have you seen Gary Oldman in his interpretation of Churchill in the latest biopi
 
 **Here are 3 takeaways from the movie, which you can immediately apply for your next keynote, sales meeting or investor pitch.**
 
-<br>
 #### 1.	Sit down and listen.
  
 <br> 
@@ -36,7 +35,6 @@ So, during the Christmas holidays, he collected feedback and stories from his te
 
 *"Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen.”—Winston Churchill*
 
-<br>
 #### 2.	Prepare to sweat. 
 
 
@@ -48,7 +46,7 @@ As we coach CEOs, start-up entrepreneurs, doctors and TEDx speakers, we are ofte
 
 It’s a performance. It involves your whole brain, your whole body. Your full presence. That’s why leaders seek out seasoned presentation coaches for this delicate mental, emotional and physical preparation.
 
-<br>
+
 #### 3.	Embrace imperfection and fear.
 
 Churchill wasn’t born a master orator—he overcame a childhood lisp by painstakingly practicing enunciation. He also always took his notes with him and would sometimes appear to stumble or hesitate, all in order to make a calculated effect.
@@ -59,7 +57,7 @@ During our coaching sessions and workshops, we pay attention to vulnerability. W
 
 *Speaking in public doesn’t require you to be fearless. It requires you to speak through the fear.* 
 
-<br>
+
 #### Call to Action:
 
 Next time you find yourself getting prepared to give a presentation, remember these 3 simple tips from The Darkest Hour and prepare to give your finest talk yet:

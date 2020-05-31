@@ -26,13 +26,12 @@
     </script>
 
 {{ "<!-- Search bits JavaScript -->" | safeHTML }}
-<!--
+
   <script src="/js/fuse.js"></script> 
   <script src="/js/fastsearch.js"></script>
--->
 
 <!-- /* Captcha Code */ -->
-
+<!-- 
 <script type="text/javascript">
 
       // Captcha Script
@@ -84,9 +83,10 @@
       }
       </script>
 -->
-    
 
 <!-- End Captcha Code -->
+
+<script src="https://www.google.com/recaptcha/api.js?hl={{ .Site.LanguageCode }}" async defer></script>
 
 {{ "<!-- partials:page-js.html:end -->" | safeHTML }}
 
