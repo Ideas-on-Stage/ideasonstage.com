@@ -5,7 +5,7 @@
         var form = $(this);
         var formtype = form.prop('name');
         var submitButton = $('input[type=submit]', form);
-        if (formtype == "newsForm") {     // Check if the form is the newsletter subscription, if so submit without checking captcha
+        if (formtype == "newsForm") {
           $.ajax({
             type: 'POST',
                 url: form.prop('action'),
@@ -29,9 +29,8 @@
             // Optionally alert the user of an error here...
           });
         } 
-        else {                          // This is the contact form with the captcha
-          var response = grecaptcha.getResponse(); // validate the captcha result.
-          if (response.length !== 0) {
+        else {
+          if(checkform(form) == true){
             $.ajax({
               type: 'POST',
                   url: form.prop('action'),
@@ -54,10 +53,7 @@
             }).fail(function(data) {
               // Optionally alert the user of an error here...
             });
-          }
-          else {
-            alert("{{ .Site.params.contact.wrongcaptcha }}");
-          }
+          }  
         }
           
         

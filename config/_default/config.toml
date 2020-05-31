@@ -178,7 +178,7 @@ theme        			= "hugo-creative-theme-master"
 		buttonText	= "Send message"
 		wait		= "Please Wait..."
 		success 	= "Thank you, we'll get back to you shortly."
-		captcha		= "Type the number:"
+		recaptchasitekey	= "6LdPO_4UAAAAAOkPGjWhZSJaqJKKR4XOrf8Xyfs0"
 		missingcaptcha =" Please Enter CAPTCHA Code.\n"
 		wrongcaptcha = "The CAPTCHA Code Does Not Match.\n"
 		
@@ -249,6 +249,7 @@ theme        			= "hugo-creative-theme-master"
 		more		= "Continue Reading"
 		by	 		= "by"
 		sbcategorytitle 	= "Top Categories"
+		related		= "See Also"
 		
 	# ------------------------------
 	[params.organization]
@@ -423,7 +424,7 @@ theme        			= "hugo-creative-theme-master"
 		buttonText = "Envoyer"
 		wait	= "Veuillez patienter..."
 		success = "Merci, nous vous répondrons rapidement."
-		captcha		= "Tapez le nombre:"
+		recaptchasitekey	= "6LcHff4UAAAAAJOGp7-jMBjBd70L_WuN_YZFAO6q"
 		missingcaptcha =" Veuillez entrer le code CAPTCHA.\n"
 		wrongcaptcha = "Le code CAPTCHA ne correspond pas.\n"
 		
@@ -473,6 +474,7 @@ theme        			= "hugo-creative-theme-master"
 		more = "continuer à lire"
 		by	 = "par"
 		sbcategorytitle = "Top catégories"
+		related		= "Voir également"
 
 	# ------------------------------		
 	# References
@@ -625,7 +627,7 @@ theme        			= "hugo-creative-theme-master"
 		buttonText = "Enviar mensaje"
 		wait	= "Por favor, espera un instante..."
 		success = "Gracias, en breve nos pondremos en contacto contigo."
-		captcha = "Introduce el número"
+		recaptchasitekey	= "6Lcnff4UAAAAAG8RHxmsXXggu-WaRriMcsYB5rgG"
 		missingcaptcha ="Introduzca el código CAPTCHA.\n"
 		wrongcaptcha = "El código CAPTCHA no coincide.\n"
 		
@@ -656,6 +658,7 @@ theme        			= "hugo-creative-theme-master"
 		more = "Continuar leyendo"
 		by	 = "por"
 		sbcategorytitle = "Top categorías"
+		related		= "También te puede interesar"
 		
 	# ------------------------------		
 	# Revolution
@@ -770,7 +773,7 @@ theme        			= "hugo-creative-theme-master"
 		buttonText = "Invia il messaggio"
 		wait	= "Please Wait..."
 		success = "Grazie."
-		captcha = "Inserisci il numero"
+		recaptchasitekey	= "6LdPO_4UAAAAAOkPGjWhZSJaqJKKR4XOrf8Xyfs0"
 		missingcaptcha ="Inserisci il code CAPTCHA.\n"
 		wrongcaptcha = "Il code CAPTCHA non corrisponde.\n"
 		
@@ -802,6 +805,7 @@ theme        			= "hugo-creative-theme-master"
 		more	= "continua la lettura"
 		by	 	= "da"
 		sbcategorytitle = "Top categories"
+		related		= "Guarda anche"
 
 
 	# ------------------------------		

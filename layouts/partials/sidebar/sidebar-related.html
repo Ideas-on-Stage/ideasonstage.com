@@ -1,0 +1,11 @@
+{{ "<!-- partials:inserts:sidebar-related.html:start -->" | safeHTML }}
+{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ with $related }}
+<h2>{{ $.Site.Params.news.related }}</h2>
+<ul>
+	{{ range . }}
+	<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+	{{ end }}
+</ul>
+{{ end }}
+{{ "<!-- partials:inserts:sidebar-related.html:end -->" | safeHTML }}
