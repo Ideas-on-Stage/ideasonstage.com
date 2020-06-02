@@ -2,7 +2,7 @@
 {{ if .Site.Params.subscribe.enable }}
 	<div class="sidebar-box">
 		<h2>{{ with .Site.Params.subscribe.subtitle }}{{ . | markdownify }}{{ end }}</h2>
-		<form action="https://hooks.zapier.com/hooks/catch/607769/oy07yvs/" method="POST" name="newsForm" id="ioscontactForm" data-autosubmit>
+		<form action="{{ .RelPermalink }}" method="POST" name="newsForm" id="ioscontactForm" netlify netlify-honeypot="bot-field" data-autosubmit>
 			<div class="iosform-group">
 				<input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
 				<input type="hidden" name="_lang" value="{{ .Site.Params.LanguageCode }}">
