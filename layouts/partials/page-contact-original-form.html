@@ -7,10 +7,7 @@
 						 {{ with .Site.Params.contact.contactphone }}<p>{{ . | safeHTML }}</p>{{ end }}
 		            </div>
 		            <div class="layout-content-narrow">
-					  <!-- Original form header
-						  <form action="https://hooks.zapier.com/hooks/catch/607769/43m9eq/" method="POST" netlify netlify-honeypot="bot-field" name="sentMessage" id="ioscontactForm" data-autosubmit>
-					  -->
-						<form action="{{ .RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+		              <form action="https://hooks.zapier.com/hooks/catch/607769/43m9eq/" method="POST" name="sentMessage" id="ioscontactForm" data-autosubmit>
 			            <div class="iosform-group">
 			              <input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
 			            </div>
@@ -26,9 +23,24 @@
 			            <div class="iosform-group">  
 			             <textarea id="message" name="message" class="iosform-control" placeholder="{{ with .Site.Params.contact.form.message.text }}{{ . | markdownify }}{{ end }}" oninvalid="alert('{{ with .Site.Params.contact.form.message.warning }}{{ .  | markdownify }}{{ end }}');" required></textarea>      
 						</div>
-<!-- Google's recaptcha code 
-						<div class="g-recaptcha" data-sitekey="{{ .Site.Params.contact.recaptchasitekey }}"></div>	
--->											
+						<div class="g-recaptcha" data-sitekey="{{ .Site.Params.contact.recaptchasitekey }}"></div>
+					<!-- Old Captcha Code
+					<div class="iosform-group">
+							<div class="capbox">
+
+								<div id="CaptchaDiv"></div>
+								
+								<div class="capbox-inner">
+								{{ .Site.Params.contact.captcha }}<br>
+								
+								<input type="hidden" id="txtCaptcha">
+								<input type="text" name="CaptchaInput" id="CaptchaInput" size="15"><br>
+								
+								</div>
+								</div>
+						</div>
+					-->	
+						
 			            <div class="iosform-button">
 			              <input type="submit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="button-primary" success="{{ with .Site.Params.contact.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}">    
 			            </div>     
