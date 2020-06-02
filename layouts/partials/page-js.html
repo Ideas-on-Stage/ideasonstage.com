@@ -32,7 +32,7 @@
   $("form").submit(function(e) {
     e.preventDefault();
     var $form = $(this);
-    var submitButton = $('input[type=submit]', form);
+    var submitButton = $('input[type=submit]', this);
 
     $.post($form.attr("action"), $form.serialize()).done(function(data) {
         var successMessage = submitButton.attr("success");
