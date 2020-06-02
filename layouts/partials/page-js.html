@@ -8,24 +8,42 @@
 <!-- 
 <script src="/js/bootstrap.min.js"></script>
 -->
-
+<script src="/js/front.js"></script>
 
 {{ "<!-- Contact Form JavaScript -->" | safeHTML }}
-<script src="/js/ios-form-plugin.js"></script>
+<!--
+  <script src="/js/ios-form-plugin.js"></script>
+-->
 
 
-<script src="/js/front.js"></script>
 
 {{ "<!-- Form submission JavaScript -->" | safeHTML }}
 <!-- This one calls the form plugin -->
-    <script>
+<!--
+ <script>
     $(function() {
       $('form[data-autosubmit]').autosubmit();
     });
     
     </script>
+-->
+   
+<script>
+  $("form").submit(function(e) {
+    e.preventDefault();
+    var $form = $(this);
+    var submitButton = $('input[type=submit]', form);
 
-    
+    $.post($form.attr("action"), $form.serialize()).done(function(data) {
+        var successMessage = submitButton.attr("success");
+        submitButton.prop('value', successMessage);
+        alert(submitButton.attr('success'));
+        submitButton.prop('disabled', true);
+    }).fail(function(data) {
+      // Optionally alert the user of an error here...
+    });
+  });    
+</script>
 
 {{ "<!-- Search bits JavaScript -->" | safeHTML }}
 
