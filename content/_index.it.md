@@ -2,7 +2,7 @@
 draft 			= false
 title	 		= "Regala delle Presentazioni Incredibili"
 description		= "Regala delle Presentazioni incredibili con gli Specialisti della Business Presentation."
-picture			= "/img/ideas-on-stage.png"
+picture			= "/img/ideas-on-stage.svg"
 schema			= "Website"
 
 

@@ -2,7 +2,7 @@
 draft	 		= false
 title 			= "Ideas on Stage | Coaching prise de parole et gestion d'événements"
 description		= "Agence internationale spécialisée dans la création de présentations, la formation et le coaching en prise de parole en public et les événements d'entreprise. Nous sommes présents aux États-Unis et en Europe."
-picture			= "/img/ideas-on-stage.png"
+picture			= "/img/ideas-on-stage.svg"
 schema			= "Website"
 
 insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
