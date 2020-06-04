@@ -4,30 +4,7 @@
 <script src="/js/jquery.js"></script>
 
 
-{{ "<!-- Bootstrap Core JavaScript -->" | safeHTML }}
-<!-- 
-<script src="/js/bootstrap.min.js"></script>
--->
-<script src="/js/front.js"></script>
-
-{{ "<!-- Contact Form JavaScript -->" | safeHTML }}
-<!--
-  <script src="/js/ios-form-plugin.js"></script>
--->
-
-
-
-{{ "<!-- Form submission JavaScript -->" | safeHTML }}
-<!-- This one calls the form plugin -->
-<!--
- <script>
-    $(function() {
-      $('form[data-autosubmit]').autosubmit();
-    });
-    
-    </script>
--->
-   
+<!-- jquery contact form event handler   --> 
 <script>
   $("form").submit(function(e) {
     e.preventDefault();
@@ -45,17 +22,10 @@
   });    
 </script>
 
-{{ "<!-- Search bits JavaScript -->" | safeHTML }}
+{{ "<!-- Search Management JavaScript -->" | safeHTML }}
 
-  <script src="/js/fuse.js"></script> 
-  <script src="/js/fastsearch.js"></script>
-
-<!-- /* Captcha Code */ -->
-<script src="https://www.google.com/recaptcha/api.js?hl={{ .Site.LanguageCode }}" async defer></script>
-
-<!-- End Captcha Code -->
-
-
+  <script src="/js/fuse.js"></script>           <!-- This is acts as the search engine.-->
+  <script src="/js/fastsearch.js"></script>     <!-- Handling of events to create the index and show results-->
 
 {{ "<!-- partials:page-js.html:end -->" | safeHTML }}
 
