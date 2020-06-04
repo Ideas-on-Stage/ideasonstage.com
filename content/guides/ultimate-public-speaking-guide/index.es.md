@@ -15,57 +15,57 @@ Para preparar a los ponentes, utilizamos técnicas clásicas para hablar en púb
 ## Técnicas básicas para hablar en público
 Hablar en público se basa en técnicas de oratoria, inspiradas en el mundo del teatro. Es una práctica antigua, construida durante varios milenios. Los griegos son probablemente los primeros en formalizar los códigos. Estas técnicas te darán presencia y facilidad en el escenario. Es necesario dominarlos, pero deben complementarse con narración de cuentos y técnicas visuales para un discurso completo y efectivo.
 
-Las técnicas de hablar en público cubren principalmente la postura, la respiración, la voz, la mirada y el lenguaje corporal. En esta guía te xplicamos paso a paso cómo trabajar cada uno de estos elementos.
+Las técnicas de hablar en público cubren principalmente la postura, la respiración, la voz, la mirada y el lenguaje corporal. Explicaremos paso a paso cómo trabajar cada uno de estos elementos.
 
-### Postura: anclado, no congelado
-La postura es el primer elemento para hablar con éxito. Una postura segura y estable, voluntaria pero no tensa, fortalecerá tu presencia en el escenario y proyectará una imagen positiva. Por el contrario, una postura cerrada y débil, con movimientos parásitos, proyectará una imagen de falta de confianza en tí mismo que sólo conseguirá un impacto negativo en tu discurso. Veamos cómo adoptar una buena postura.
+### Posture : ancré mais pas figé
+La posture est le premier élément d’une prise de parole réussie. Une posture confiante et stable, volontaire mais non tendue, renforcera votre présence sur scène, et projettera une image positive. À l’inverse, une posture fermée, faible, avec des mouvements parasites projettera une image de manque de confiance en soi qui ne pourra qu’impacter négativement votre discours. Nous allons voir ensemble comment adopter une bonne posture. 
 
-![Postura para hablar en publico](posture.jpg)
+![Posture pour la prise de parole](posture.jpg)
 
-Todo comienza en los pies. Estos deben colocarse planos, bien "arraigados en el suelo", separados aproximadamente por el ancho de la cadera. Esta posición debería permitirte sentirte completamente estable, incluso si te empujaran ligeramente.
+Tout part des pieds. Ceux-ci doivent être posés bien à plat, bien « ancrés dans le sol », écartés d’environ la largeur du bassin. Dans cette position, ils doivent vous permettre d’être complètement stable, même si vous étiez légèrement poussé.
 
-Las piernas tienen que estar estiradas, soportando el peso del cuerpo, pero sin bloquear las rodillas. Si comenzaras a caminar, el movimiento debería parecer natural.
+Les jambes sont droites, toniques, sans être trop tendues. Si vous deviez commencer à marcher, le mouvement doit sembler naturel.
 
-Las caderas, el pecho y los hombros tienen que estar alineados sobre los pies. Nuevamente, se trata de buscar que el cuerpo esté estirado, pero sin estar rígido ni añadir tensiones innecesarias. Desde esta posición tienes que poder moverte con facilidad y naturalidad.
+Les hanches, le buste et les épaules sont bien droits, alignés au-dessus des pieds. De nouveau, il faut être bien droit, être tonique, mais sans être rigide. Il faut pouvoir se déplacer et bouger avec aisance et naturel.
 
-La cabeza está recta, como si un hilo tirara de la parte superior del cráneo hacia arriba. La sensación debe ser como si la cabeza "flotara" sobre el cuello sin sentir tensión en el cuello o los hombros. Una buena alineación pecho - cuello - cabeza es crítica par conseguir uan respiración libre.
+La tête est droite, comme si un fil tirait le sommet du crâne vers le haut. Le plus important est d’avoir un bon alignement buste - cou - tête, car cela facilite la respiration.
 
-Para trabajar la postura, comienza colocando los pies planos sobre el suelo, luego ve subiendo por el resto del cuerpo prestando atención a cada parte: piernas y rodillas, caderas, pecho, hombros, cuello, y finalmente la cabeza. Tómate el tiempo que necesites para adoptar esta postura y sentirla; ve poco a poco al principio e identifica dónde sientes más tensión. Mantén tus brazos relajados a los lados del cuerpo. Olvídate de esta postura y muévete un poco, e intenta volver a esta postura de nuevo hasta que se vuelva natural.
+Pour maîtriser la posture, commencez par la pose des pieds à plat, puis remontez : les jambes, les hanches, le buste, les épaules et enfin la tête. Prenez le temps d’adopter cette pose et de bien la ressentir pendant quelques minutes. Gardez les bras simplement le long du corps, relâchés. Quittez la posture, relaxez-vous, déplacez-vous un peu et recommencez jusqu’à ce que la prise de la posture devienne naturelle.
 
-Si eres de esas personas que se mueven constantemente en el escenario te damos algún consejo en la sección "Solución de problemas comunes relacionados con el habla".
+Si vous faites partie de ces personnes qui bougent sans arrêt sur scène, que ce soit sur place ou de gauche à droite, nous vous donnerons un truc dans la section « résoudre les problèmes courants liés à la prise de parole ».
 
-### Respiración
-La respiración tranquila, rítmica y profunda proporciona energía a la voz. Con práctica, también te ayudará a controlar el estrés.
+### Respiration
+Une respiration calme, posée et profonde donnera de l’énergie à la voix. Avec de la pratique, elle vous aidera également à gérer votre stress.
 
-La respiración está conectada con la postura por una simple razón mecánica: es más fácil respirar cuando tu cuerpo está libre de tensiones inncesarias que cuando estás en tensión. El aire fluye sin esfuerzo desde la nariz y la boca hasta los pulmones.
+La respiration est connectée à la posture pour une raison mécanique toute simple : il est plus facile de respirer lorsqu’on se tient bien droit que lorsqu’on est courbé. L’air passe sans effort du nez et de la bouche aux poumons.
 
-![Respiración](breathing.jpg)
+![Respiration](breathing.jpg)
 
-Para trabajar la respiración, comienza alineando tu postura como explicamos más arriba. Cierra los ojos. Si tienes problemas de equilibrio, puedes mantener los ojos abiertos, pero concéntrate en la respiración, en lo que sientes durante el ejercicio..
+Pour travailler la respiration, commencez par adopter une posture ancrée. Fermez les yeux. Si vous avez des problèmes d’équilibre, vous pouvez garder les yeux ouverts, mais focalisez-vous sur la respiration, sur ce que vous ressentez durant l’exercice.
 
-El primer ejercicio consiste en respirar lentamente, con calma pero rítmicamente, inhalando profundamente y luego exhalando profundamente. Imagina que el aire desciende hasta el fondo de los pulmones, casi hasta el fondo del abdomen. Esto pondrán a funcionar todos los músculos involucrados en la respiración, incluidos los músculos abdominales, no sólo la caja torácica. Repite este ejercicio durante aproximadamente 20 respiraciones, o hasta que la respiración se vuelva muy fácil, sin esfuerzo. Para sentir mejor la respiración, puedes colocar una mano sobre el vientre; a medida que tu respiración sea más profunda, notarás cómo el vientre se mueve y desplaza tu mano.
+Le premier exercice consiste à respirer lentement, calmement, en inspirant profondément, puis en expirant profondément. Imaginez que l’air descend tout en bas de vos poumons, presque dans le bas de votre ventre. Cela fera travailler tous les muscles, y compris abdominaux, et pas seulement la cage thoracique. Répétez cet exercice pendant une vingtaine de respirations, ou jusqu’à ce que la respiration devienne très facile, sans effort. Pour mieux ressentir la respiration, vous pouvez placer une main sur le ventre.
 
-Luego trata de variar la respiración. Disminuye la velocidad tanto como te sea posible. O, por el contrario, acelérala voluntariamente. Tomate tiempo para sentir el impacto que la respiración lenta o rápida tiene en ti. Busca el ritmo que te resulte más natural, el ritmo con el que te sientas más cómodo. Continúa inhalando y exhalando profundamente, pero sin forzarlo, la respiración debe resultar "fácil" y no forzada.
+Ensuite, essayez de varier la respiration. Ralentissez-là le plus possible. Ou au contraire, accélérez-la volontairement. Prenez le temps de bien ressentir l’impact qu’une respiration lente ou rapide peut avoir sur vous. Cherchez le rythme qui vous semble le plus naturel pour vous, celui où vous vous sentez le plus à l’aise. Continuant d’inspirer et expirer profondément, mais sans exagération, votre respiration doit rester normale et non exagérée.
 
-El siguiente ejercicio se centra en controlar el flujo de aire. Inhala normalmente, luego exhala produciendo el sonido "mmmmmm". Presta atención a mantener una respiración rítmica, sin bloquear al coger aire, ni extendiendo el sonido más allá de la capacidad de la respiración. Repite el ejercicio alternando con otros sonidos como "uuuuuu" y "aaaaaa". Repite hasta que puedas emitir sonidos soportados por la respiración de forma natural y continua.
+L’exercice suivant consiste à apprendre à gérer le flux d’air. Inspirez normalement, puis expirez en faisant le son « mmmmmm ». Répétez l’exercice en alternant avec d’autres sons comme « aaaaa » et « ooooo ». Répétez jusqu’à pouvoir émettre les sons naturellement, de manière continue, sans devoir reprendre votre respiration trop souvent.
 
-### Voz
-Resumiendo mucho podríamos decir que hay dos "extremos" en las voces: la voz en el pecho y la voz en la cabeza. Una voz en el pecho será más profunda, pero también será más difícil de "proyectar", es decir, de hacer que llegue a la audiencia. Una voz de cabeza es más fácil de amplificar y proyectar, pero exagerada será demasiado aguda y desagradable de escuchar. Para sentir la diferencia, coloca una mano en tu pecho y la otra en la parte superior de tu cabeza. Comienza haciendo un sonido bastante bajo ("mmmmmm" o "oooooo"), sin llegar a "enterrarlo" completamente en el pecho. Deberías sentir vibrar el pecho. Es la resonancia de la caja torácica, al igual que la caja de una guitarra. Luego prueba a hacer un sonido más agudo, como si quisieras proyectar el aire por la parte superior de tu cabeza. Deberías sentir los huesos en tu cabeza vibrar. Intenta variar el tono entre graves y agudos, dependiendo de las capacidades de tu voz, para sentir las vibraciones de los diferentes resonadores que la naturaleza nos ha conferido.
+### Voix
+Pour schématiser, il existe deux types de voix : les voix de poitrine et les voix de tête. Une voix de poitrine sera plus grave, mais sera également plus difficile à faire « projeter », c’est-à-dire lui faire atteindre le public. Une voix de tête est plus facile à amplifier et à projeter, mais exagérée elle sera trop aigüe et désagréable à écouter. Pour ressentir la différence, placez une main sur votre poitrine et l’autre sur le sommet de votre crâne. Commencez par émettre un son plutôt grave (le son « oooo » est plutôt grave). Vous devriez ressentir votre poitrine vibrer. C’est l’effet amplificateur de la cage thoracique, exactement comme la caisse de résonance d’une guitare. Ensuite, émettez un son plus aigu, comme « iiiii ». Vous devriez ressentir les os de votre tête vibrer. Essayez de varier la tonalité entre le grave et l’aigu, en fonction des capacités de votre voix, pour ressentir les vibrations des différentes caisses de résonance dont la nature nous a dotés.
 
-No se trata de convertirnos en cantantes. Para hablar en público, te recomendamos que trabajes para reforzar tu "timbre natural". Todos tenemos una voz con un timbre particular. No tiene sentido querer cambiar el timbre natural: en el mejor de los casos, no lograremos nada, y en el peor de los casos, nuestra voz sonará totalmente artificial, e incluso podemos dañarla permanentemente. No puedes pedirle a un tenor que cante como un bajo. Lo más práctico es aprender a aprovechar al máximo nuestra voz aprendiendo a utilizarla adecuadamente.
+Nous ne cherchons pas à devenir des chanteurs. Pour la prise de parole, nous vous conseillons de travailler sur l’amplification de votre « timbre naturel ». Nous avons tous une voix avec un timbre naturel particulier. Il ne sert à rien de vouloir le changer le timbre de base. Au mieux, cela n’apportera rien. Au pire, notre voix semblera totalement artificielle. On ne peut pas demander à un ténor de chanter comme un baryton. Le mieux est d’apprendre à tirer le meilleur parti de ce que la nature nous a donné comme voix en apprenant à l’amplifier et à la « projeter » efficacement vers le public.
 
-Para trabajar en tu timbre natural, habla con la sensación de que el sonido sale de la parte frontal de la boca en lugar de la parte posterior de la garganta. Utiliza tus manos para sentir las vibraciones, el objetivo es dotar a tu voz de amplitud y claridad utilizando los resonadores. El trabajo de la voz es altamente especializado y complejo como para cubrirlo en un artículo, y en la mayoría de los casos, la ayuda de un coach de voz es determinante.
+Pour travailler votre timbre naturel, parlez en ayant l’impression de faire sortir le son de l’avant de votre bouche plutôt que de l’arrière de votre gorge. Utilisez vos mains pour ressentir les vibrations, l’objectif étant d’amplifier au maximum votre voix en utilisant celles-ci. Cette partie est probablement celle qui ne peut pas se maîtriser via un article, et qui demande absolument l’aide d’un professionnel.
 
-![Voz](voice.jpg)
+![Voix](voice.jpg)
 
-Por último, algunas personas también tienen voces mucho más fuertes que otras. Si tu voz es particularmente suave, puedes usar un micrófono incluso si la sala en la que vas a hablar no es muy grande (para unas 20 personas); es importante que tu voz no suene forzada ya que será desagradable para el público.
+Enfin, certaines personnes ont également des voix beaucoup plus fortes que d’autres personnes. Si votre voix est particulièrement douce, nous vous conseillons d’utiliser un micro même lorsque la salle n’est pas très grande (à partir d’une vingtaine de personnes). De nouveau, trop forcer sur votre voix s’entendra et sera désagréable pour le public.
 
-### Mirada
-La mirada es un elemento esencial para hablar en público. De hecho, nos permite establecer una conexión con el público. Una conexión efectiva te proporcionará energía, autenticidad y reforzará tu voz. La mirada también es el elemento "mágico" que permite evitar los movimientos parásitos, hablar demasiado rápido y eliminar el "eeeh", como veremos más adelante.
+### Regard
+Le regard est un élément essentiel de la prise de parole. En effet, c’est lui qui permet d’établir une connexion avec le public. Une connexion efficace vous donnera énergie, authenticité et force dans la voix. Le regard est également l’élément « magique » qui permet d’éviter les mouvements parasites, de parler trop vite et d’éliminer les « euh » comme nous le verrons plus loin.
 
-La mirada tiene que ser individual y abarcar a toda la audiencia. Individual, porque cuando miras en una dirección, te estás dirigiendo a una persona específica. Incluyendo a toda la audiencia, porque hay que cambiar de "interlocutor" con bastante frecuencia, pero no demasiado. Vamos a explicar cómo combinar estos dos aspectos para establecer la conexión visual más efectiva posible.
+Le regard doit à la fois être individuel et englobant tout le public. Individuel, car lorsque vous regardez dans une direction, vous adressez à une personne précise. Englobant tout le public, car il faut changer de personne assez souvent, mais pas trop. Nous allons expliquer comment combiner ces deux aspects pour établir la connexion visuelle la plus efficace possible.
 
-![Mirada](eye-contact.jpg)
+![Regard](eye-contact.jpg)
 
 Pour cet exercice, vous n’avez pas probablement pas d’audience devant laquelle vous entraîner. Nous vous recommandons donc de placer deux rangées de Post-its devant vous, sur un mur, qui représentera les personnes de l’auditoire. Commencez par regarder un des Post-its, qui représente une personne. **Adressez-lui une phrase complète. Ne changez pas de post-it avant d’avoir fini votre phrase.** Ensuite, sélectionnez un autre post-it et récitez-lui une autre phrase. 
 
@@ -75,7 +75,7 @@ Au début cela paraîtra artificiel, mais avec l’entraînement cela va devenir
 
 Dans une petite salle, avec juste quelques personnes face à vous, il est important de s’adresser à chacune d’entre elles. Dans des salles plus grandes, à partir de 20 personnes ou plus, c’est plus difficile de s’adresse à tout le monde, mais veillez à au moins regarder dans toutes les directions. Dans les grandes salles, face à des centaines ou des milliers de personnes, il faut s’assurer de regarder à gauche, au centre, à droite, les premiers rangs comme les rangs du fond (ou les balcons s’il y en a). Lorsque vous êtes très éloigné du public, celui-ci ne sait pas si vous le regardez vraiment directement, mais faites comme si vous vouliez établir cette connexion visuelle avec une des personnes de la foule.
 
-### Gestos
+### Gestuelle
 Une bonne gestuelle vous donnera de l’aisance sur scène et renforcera les passages clés de votre discours. La gestuelle, c’est beaucoup plus simple qu’il n’y paraît. 
 
 Une bonne gestuelle est naturelle, ouverte et expressive. Naturelle, car elle correspond à votre style. Si vous êtes plutôt expansif, vous pouvez faire de grands et nombreux gestes. Si vous êtes plutôt réservé, une gestuelle posée mais efficace est tout à fait adaptée. Le pire est d’essayer d’adapter une gestuelle qui ne correspond pas à notre style naturel. Elle est aussi ouverte, tournée vers le public, et ne cachant pas l’orateur. Enfin, elle est expressive : elle ponctue, illustre et renforce le discours.
