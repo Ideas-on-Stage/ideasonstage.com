@@ -1355,6 +1355,8 @@
   padding: 0;
   color: #FF8200;
   float: left;
+  width: 13em;
+  min-width: 120px;
 }
 
 /* definition of the "burger" */
@@ -1468,10 +1470,7 @@ li:hover .iosnavbar-langicon-hover {
 
 nav.iosnavbar input[type=checkbox] { margin-top: 0; }
 
-.iosnavbar-brand { 
-  width: 15em;
-  min-width: 120px;
-}
+
 
 
 @media all and (min-width : 481px) {

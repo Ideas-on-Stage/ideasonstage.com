@@ -11,7 +11,7 @@
 			<article id="content-main" class="flex-child-67p">
 				{{ range (.Paginator 8).Pages }}
 			<section class="post ">
-                <div class="flex-parent-row paddingt-none paddingb-huge">
+                <div class="flex-parent-row paddingt-none paddingb-none">
 					<div class= "row-tag">
 						<ul class="post-tag">
 							{{ range (.GetTerms "tags") }}
@@ -19,8 +19,8 @@
 						   {{ end }}
 						</ul>
 					</div>
-					
-                   
+				</div>
+				<div class="flex-parent-row paddingt-tiny paddingb-huge">                   
                         <a href="{{ .RelPermalink }}">
                         	<h2>{{ .Title }}</h2>
                         </a>
