@@ -21,6 +21,16 @@ outputs			= ["html","rss","json"]
 		date		= "2020-03-05"
 		expirydate	= "2020-04-24"
 	[[slider.list]]
+		bgimage		= "/img/news/black-white-heart.jpg"
+		title		= "LET'S END DISCRIMINATION"
+		description	= ""
+		button		= "Read Our Statement"
+		buttonlink	= "/news/2020/06/05/2020-06-05-let-s-end-discrimination/"
+		color		= "text-white"
+		opacity		= "30"
+		date		= "2020-06-05"
+		expirydate	= "2020-06-19"
+	[[slider.list]]
 		bgimage		= "/how-to-deliver-presentations-remotely/remote-presentations.jpg"
 		title		= "HOW TO DELIVER PRESENTATIONS REMOTELY"
 		description	= "A complete guide on how to deliver great presentations remotely"

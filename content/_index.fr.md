@@ -21,6 +21,16 @@ outputs			= ["html","rss","json"]
 		date		= "2020-03-05"
 		expirydate	= "2020-04-29"
 	[[slider.list]]
+		bgimage		= "/img/news/black-white-heart.jpg"
+		title		= "METTONS FIN À LA DISCRIMINATION"
+		description	= ""
+		button		= "Lire Notre Tribune"
+		buttonlink	= "/news/2020/06/05/2020-06-05-mettons-fin-a-la-discrimination/"
+		color		= "text-white"
+		opacity		= "30"
+		date		= "2020-06-05"
+		expirydate	= "2020-06-19"
+	[[slider.list]]
 		bgimage 	= "/services/formations-ateliers/fne-formation-distance/hero.jpg"
 		title 		= "FORMATIONS FNE GRATUITES"
 		description = "Suivez une formation 100% prise en charge par le dispositif FNE"
