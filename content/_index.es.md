@@ -11,6 +11,16 @@ outputs			= ["html","rss","json"]
 
 [slider]
 	[[slider.list]]
+		bgimage		= "/img/news/black-white-heart.jpg"
+		title		= "ACABEMOS CON LA DISCRIMINACIÓN"
+		description	= ""
+		button		= "Lee nuestra declaración"
+		buttonlink	= "/news/2020/06/05/2020-06-05-let-s-end-discrimination/"
+		color		= "text-white"
+		opacity		= "30"
+		date		= "2020-06-05"
+		expirydate	= "2020-06-19"
+	[[slider.list]]
 		bgimage ="/hero.jpg"
 		title = "AGENCIA DE PRESENTACIONES · EVENTOS CORPORATIVOS · PUBLIC SPEAKING"
 	[[slider.list]]
@@ -27,6 +37,8 @@ outputs			= ["html","rss","json"]
 		button = "Saber más"
 		buttonlink = "https://www.ideasonstage.com/presentations-training/women-on-stage/"
 		color = "text-white"
+		date		= "2020-05-05"
+		expirydate	= "2020-05-19"
 
 [services]
 	[[services.list]]
