@@ -33,7 +33,7 @@ No poder acceder a la videoconferencia debido a problemas técnicos es la razón
 
 > Pro tip: solicita a los participantes que prueben su audio y video *antes* de la reunión. La razón principal por la cual la mayoría de las videoconferencias no comienzan a tiempo es que el audio y el video no funcionan correctamente . Para hacerlo en Zoom, ve al ícono del micrófono en la parte inferior izquierda, haz clic en la flecha hacia que está justo al lado y selecciona "test speaker and microphone".
 
-![Zoom Test Speakers and Microphone](/how-to-deliver-presentations-remotely/zoom-test-speakers-microphone.png)
+![Zoom Test Speakers and Microphone](/como-hacer-presentaciones-de-forma-remota/zoom-test-speakers-microphone.png)
 
 ## Dar la Bienvenida a los Participantes
 Si los participantes ya se conocen, podéis poneros manos a la obra rápidamente. De lo contrario, asegúrate de que las personas estén listas para comenzar y no interrumpan la sesión. No hay nada más molesto para los participantes que tener que escuchar la introducción varias veces a causa de los participantes rezagados o de las personas que interrumpen porque tienen un problema técnico.
@@ -43,7 +43,7 @@ Puedes usar cualquier software de presentación que sea de tu agrado. En esta gu
 
 Comienza compartiendo tu pantalla en Zoom. La opción más sencilla es compartir toda la pantalla. Para hacerlo, haz clic en el botón "Compartir pantalla" en la parte inferior de la ventana de Zoom, luego seleccione "Desktop 1" o el nombre que sea para toda la pantalla.
 
-![Zoom Share Screen](/how-to-deliver-presentations-remotely/zoom-share-desktop.png)
+![Zoom Share Screen](/como-hacer-presentaciones-de-forma-remota/zoom-share-desktop.png)
 
 Luego, inicia la Presentación de diapositivas en PowerPoint, para que los participantes puedan ver tus diapositivas a pantalla completa (es posible que tengas que hacer clic en la presentación nuevamente para enfocarte en PowerPoint). Si deseas utilizar la vista de presentador de PowerPoint y ver tus notas, necesitarás dos pantallas, por ejemplo, un ordenador portátil conectado a un monitor externo o televisor.
 
@@ -54,15 +54,15 @@ Con Zoom y PowerPoint tienes dos opciones diferentes para hacer anotaciones en v
 
 En PowerPoint: mueve el ratón a la esquina inferior izquierda. Aparecerá una serie de iconos. Al hacer clic en el icono del lápiz, aparecerá un menú emergente con varias opciones para resaltar partes específicas de la diapositiva.
 
-![PowerPoint Slide Show Options](/how-to-deliver-presentations-remotely/powerpoint-slideshow-options.png)
+![PowerPoint Slide Show Options](/como-hacer-presentaciones-de-forma-remota/powerpoint-slideshow-options.png)
 
-![PowerPoint Annotation Menu](/how-to-deliver-presentations-remotely/powerpoint-annotation-menu.png)
+![PowerPoint Annotation Menu](/como-hacer-presentaciones-de-forma-remota/powerpoint-annotation-menu.png)
 
 En Zoom: en la paleta de herramientas flotantes de Zoom, haz clic en el icono del lápiz "Anotar". Aparecerá una segunda paleta flotante, la paleta de anotaciones, justo debajo de la principal, que te brinda opciones para hacer anotaciones en parte de la pantalla.
 
-![Zoom Palette](/how-to-deliver-presentations-remotely/zoom-palette.png)
+![Zoom Palette](/como-hacer-presentaciones-de-forma-remota/zoom-palette.png)
 
-![Zoom Annotation Palette](/how-to-deliver-presentations-remotely/zoom-annotation-palette.png)
+![Zoom Annotation Palette](/como-hacer-presentaciones-de-forma-remota/zoom-annotation-palette.png)
 
 ¿Cuál de las dos opciones es mejor? Estas son las principales diferencias entre ambas:
 
