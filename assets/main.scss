@@ -963,7 +963,7 @@
 			flex-wrap: nowrap;
 			overflow-x: scroll;
 			padding-bottom: 2.0em;
-			align-items: center;
+			align-items: flex-start;
 		}
 
 		.flex-child-scroll {
@@ -2152,7 +2152,10 @@ ul.post-tag {
 .revolution-box {
 	height: 100%;
 	flex: 1;
-	flex-basis: 33%; /* start at 33% width */
+	flex-basis:33%;
+	width: 33%;
+	max-width: 50%;
+	//flex-basis: 33%;	/* start at 33% width */
 	min-width: 250px;
 	padding: 00.5em;
 	position: relative;
@@ -2194,4 +2197,9 @@ ul.post-tag {
 	padding-top:0.1em;
 	padding-left: 0.3em;
 	padding-righ: 0.3em;
+}
+@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	.revolution-box {
+		max-width: 100%;
+	}
 }
