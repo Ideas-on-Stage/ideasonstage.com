@@ -8,6 +8,7 @@ showtoc		= true
 [[events]]
 	name		= "Révolutionnez vos présentations format court 1 jour - formation en ligne"
 	description	= "Notre cours phare Révolutionnez vos présentations ! redéfinit ce qu’est une présentation efficace en entreprise."
+	draft		= true
 	duration	= "T4:30"
 	startdate	= "2020-06-08T10:30:00+02:00"
 	enddate		= "2020-06-08T17:30:00+02:00"
@@ -29,6 +30,7 @@ showtoc		= true
 [[events]]
 	name		= "Business Presentation Revolution essentials 1 Day - Online Training - English"
 	description	= "Our flagship course The Business Presentation Revolution redefines what an effective corporate presentation is."
+	draft		= true
 	duration	= "T4:30"
 	startdate	= "2020-06-09T10:30:00+02:00"
 	enddate		= "2020-06-09T17:30:00+02:00"
@@ -50,6 +52,7 @@ showtoc		= true
 [[events]]
 	name		= "Révolutionnez vos présentations 2 jours - formation en ligne"
 	description	= "Notre cours phare Révolutionnez vos présentations ! redéfinit ce qu’est une présentation efficace en entreprise."
+	draft		= true
 	duration	= "T8H"
 	startdate	= "2020-06-11T10:30:00+02:00"
 	enddate		= "2020-06-12T16:30:00+02:00"
@@ -71,6 +74,7 @@ showtoc		= true
 [[events]]
 	name		= "Virtual Meeting Revolution 2 jours - formation en ligne"
 	description	= "Une formation inter entreprises en quatre ateliers pour aider tout travailleur à distance, enseignant ou dirigeant à préparer et à organiser des réunions en ligne efficaces."
+	draft		= true
 	duration	= "T6H"
 	startdate	= "2020-06-17T10:30:00+02:00"
 	enddate		= "2020-06-18T15:30:00+02:00"
@@ -92,6 +96,7 @@ showtoc		= true
 [[events]]
 	name		= "Virtual Meeting Revolution 2 jours - formation en ligne"
 	description	= "Une formation inter entreprises en quatre ateliers pour aider tout travailleur à distance, enseignant ou dirigeant à préparer et à organiser des réunions en ligne efficaces."
+	draft		= true
 	duration	= "T6H"
 	startdate	= "2020-06-22T10:30:00+02:00"
 	enddate		= "2020-06-23T15:30:00+02:00"
@@ -113,6 +118,7 @@ showtoc		= true
 [[events]]
 	name		= "Révolutionnez vos présentations 2 jours - formation en ligne"
 	description	= "Notre cours phare Révolutionnez vos présentations ! redéfinit ce qu’est une présentation efficace en entreprise."
+	draft		= true
 	duration	= "T8H"
 	startdate	= "2020-06-29T10:30:00+02:00"
 	enddate		= "2020-06-30T16:30:00+02:00"

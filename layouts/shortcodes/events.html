@@ -8,7 +8,7 @@
 {{- $style := .Params.style }}
 {{- $atleastone := false }}
 {{- range $.Page.Params.events }}
-	{{- if ge .startdate (now.Format "2006-01-02") }}
+	{{- if and (ge .startdate (now.Format "2006-01-02")) (not .draft) }}
 	{{- $atleastone = true }}
 	<div class="flex-parent-row flex-column-ontall">
 		<div class="flex-child-40p layout-shortcode-child ">
