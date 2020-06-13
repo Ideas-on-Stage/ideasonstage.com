@@ -24,7 +24,7 @@
 	body, a {
 	  	font-family: "Whitney SSm A", "Whitney SSm B";
 	  	font-style: normal;
-	  	font-weight: 400;
+	  	font-weight: 500;
 	}
 	
 	b, strong, blockquote {
@@ -40,29 +40,35 @@
 	h5,
 	h6,
 	big {
-	    font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+	    font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
 	    font-weight: 700;
 	}
+
+	/* Specific fonts - try to limit it */
 	
 	.style-text-intro {
 	  	font-family: "Whitney SSm A", "Whitney SSm B";
 	  	font-style: normal;
-	  	font-weight: 400;	
+	  	font-weight: 500;	
 	}
 	
 	.navbar-inverse .nav>li a {
-		font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+		font-family: "Gotham SSm A", "Gotham SSm B";
 		font-style: normal;
 		font-weight: 700;
 	}
 	
 	.button-primary, .button-secondary {
-	    font-family: "Gotham A", "Gotham B", 'Gotham Bold', Helvetica, Arial, sans-serif;
+	    font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
 	    font-weight: 700;
 	}
 	
 	#TableOfContents > ul > li > a {
 		/* first level of table of contents bold */
+	  	font-family: "Whitney SSm A", "Whitney SSm B";
+	  	font-style: normal;
 		font-weight: 700;
 	}
 
