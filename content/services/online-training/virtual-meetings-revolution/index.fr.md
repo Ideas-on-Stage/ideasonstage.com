@@ -2,16 +2,19 @@
 draft		= false
 title		= "Comment animer vos réunions professionnelles en ligne"
 description = "Comment faire une réunion en ligne efficace ? De quel matériel avez-vous besoin ? Comment créer du lien avec les participants pendant la réunion ?"
-url	 		= "/presentations-training/virtual-meetings-revolution/"
+url	 		= "/formation-en-ligne/comment-animer-vos-réunions-professionnelles-en-ligne/"
 picture		= "image.jpg"
 schema		= "Course"
+
+insertsbottom = [ "webinars", "guideremotepresentations" ]
+
 [contact]
 	title	= "Réservez une session de formation"
 	subtitle= "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
 	
 [slider]
 	[[slider.list]]
-		bgimage		= "/presentations-training/virtual-meetings-revolution/virtual-meeting.jpg"
+		bgimage		= "virtual-meeting.jpg"
 		title		= "COMMENT ANIMER VOS RÉUNIONS PROFESSIONNELLES EN LIGNE"
 		description	= "Apprenez à mener des réunions en ligne efficaces avec nos formateurs experts"
 		button		= "Réservez une session"
@@ -61,20 +64,13 @@ Apprenez à mener vos réunions professionnelles en ligne avec brio. Cette forma
 
 {{< space-medium style="bg-white" >}}
 
-Certains participants peuvent appréhender l’idée de passer toute une journée dans un cours en ligne. L’expérience démontre qu’à la fin de cette journée, ils n’ont pas vu le temps passer, et ils n’ont eu aucun mal à y prêter leur pleine attention. Pourquoi ? La journée est très aérée, avec des modules assez courts, des exercices et plusieurs pauses, et à aucun moment nous ne leur demandons de passer plus d’une heure devant leur écran. Le cours est interactif, avec des exercices en sous-groupes, et l’utilisation de l’interaction virtuelle (par chat / messagerie instantanée, etc.) pendant les modules plénières. Alterner la parole entre deux formateurs permet de rendre la pédagogie plus dynamique, et parfois plus ludique. En tant que spécialistes de la présentation et donc de l’attention, les formateurs sont très expérimentés à l’exercice de maintenir l’écoute à tout moment.
-
-Nous assistons à de plus en plus de réunions en ligne, qui peuvent s’avérer fatigantes et peu efficaces.
-La formation Révolutionnez vos réunions en ligne vous propose une toute nouvelle approche qui rendra tout le monde plus productif, pour que chaque réunion virtuelle soit un réel succès.
-
+## Profitez de notre expérience du travail à distance
 Chez Ideas on Stage, nous travaillons et formons à distance depuis nos débuts en 2010, réunissant une équipe internationale et travaillant avec des clients du monde entier dans le confort de nos bureaux à domicile. Nous avons donc beaucoup appris sur ce qui fonctionne — et ce qui ne fonctionne pas — dans les réunions virtuelles.
 
 Que ce soit pour une réunion de décision, de collaboration ou d’équipe, ou un webinaire, notre cours Virtual Meeting Revolution vous donnera une méthode complète pour imaginer, préparer et réussir vos réunions en ligne.
 
+## Des méthodes à l'efficacité démontrée
 Les cinq étapes sont les mêmes que dans notre cours sur la préparation des présentations, mais les activités dans chaque partie sont bien différentes :
-
-## Une formation 100% en ligne
-
-Quoi de mieux pour montrer comment réussir des réunions virtuelles que de faire un cours totalement en ligne ? Toute une journée, cela peut en effrayer certains, mais nous démontrons qu’il est tout à fait possible de maintenir l’écoute et l’attention en ligne pendant une journée, si elle est bien organisée.Nous avons utilisé la méthode en 5 étapes que nous enseignons pour imaginer cette journée, constituée de quelques courts modules interactifs en mode « plénière », d’exercices en sous-groupes, de lecture individuelle – et de pauses.Ainsi, les participants ne voient pas le temps passer, et découvrent non seulement une méthode complète et une nouvelle approche aux réunions, mais également un exemple de ce qui est possible.
 
 1. Fondation : Comprendre le contexte, établir des objectifs clairs et choisir les participants
 2. Idéation : Concevoir les éléments de votre réunion pour atteindre vos objectifs
@@ -82,11 +78,23 @@ Quoi de mieux pour montrer comment réussir des réunions virtuelles que de fair
 4. Illustration : Créer des supports visuels efficaces pour la réunion, ainsi que des documents
 5. Connexion : Parler de façon à maintenir l’attention de tous, et animer la réunion comme un pro
 
+## Vous ne verrez pas le temps passer
+La journée de formation est très aérée, avec des modules assez courts, des exercices et plusieurs pauses. Vous ne passerez jamais plus d’une heure devant votre écran. À la fin de la journée, vous n'aurez pas vu le temps passer.
+
+## Un maximum d'interactivité
+Le cours est interactif, avec des exercices en sous-groupes, et l’utilisation de l’interaction virtuelle (par chat / messagerie instantanée, etc.) pendant les modules plénières. Alterner la parole entre deux formateurs permet de rendre la pédagogie plus dynamique, et parfois plus ludique. En tant que spécialistes de la présentation et donc de l’attention, les formateurs sont très expérimentés à l’exercice de maintenir l’écoute à tout moment.
+
+Nous assistons à de plus en plus de réunions en ligne, qui peuvent s’avérer fatigantes et peu efficaces.
+La formation Révolutionnez vos réunions en ligne vous propose une toute nouvelle approche qui rendra tout le monde plus productif, pour que chaque réunion virtuelle soit un réel succès.
+
+## Une formation 100% en ligne
+
+Quoi de mieux pour montrer comment réussir des réunions virtuelles que de faire un cours totalement en ligne ? Toute une journée, cela peut en effrayer certains, mais nous démontrons qu’il est tout à fait possible de maintenir l’écoute et l’attention en ligne pendant une journée, si elle est bien organisée.Nous avons utilisé la méthode en 5 étapes que nous enseignons pour imaginer cette journée, constituée de quelques courts modules interactifs en mode « plénière », d’exercices en sous-groupes, de lecture individuelle – et de pauses.Ainsi, les participants ne voient pas le temps passer, et découvrent non seulement une méthode complète et une nouvelle approche aux réunions, mais également un exemple de ce qui est possible.
+
 Cette formation, disponible à distance, mêle théorie et exercices pratiques, pour un apprentissage complet de nos méthodologies. Le programme peut être réalisé en 4 modules de 90 minutes chacun, sur plusieurs jours, ou en une journée de formation complète (exemple de programme ci-dessous). 
 
 ## Informations pratiques
 
 Ce cours vise 6-8 participants à la fois, avec des exercices pratiques en sous-groupes. Si vous souhaitez proposer Virtual Meeting Revolution à davantage de participants, nous pouvons également proposer ce cours en mode ‘webinaire’, en 4 modules de 90 minutes, en remplaçant les exercices par des séances de questions-réponses avec le formateur, permettant de former plus d’apprenants. 
 
-{{< /space-medium >}}
 Pour en savoir plus sur notre formation « Virtual Meeting Revolution », contactez-nous via le formulaire ci-dessous.

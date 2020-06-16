@@ -21,11 +21,13 @@
 					{{ partial "page-content.html" . }}
 					{{/* <!-- can use page specific main content, for example guides --> */}}
 				{{ end }}
-				{{ partial "page-inserts-bottom.html" . }}
 			</div>
 		</main>
 		<aside>
 	        {{ partial "page-contact.html" . }}
+			<div class="layout-module-wrapper">
+				{{ partial "page-inserts-bottom.html" . }}
+			</div>
 		</aside>
 		<footer>
 	        {{ partial "page-footer.html" . }}

@@ -462,13 +462,13 @@
 			text-align: center;
 		}
 		
-		.style-text-agenda-item-title {
+		.style-agenda-item-title {
 			color: {{ site.Params.colors.blue }};
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
 		
-		.style-text-agenda-item-description {
+		.style-agenda-item-description {
 			color: {{ site.Params.colors.midgray }};
 			margin-top: 0;
 		}

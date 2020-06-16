@@ -1,0 +1,8 @@
+[fr]
+	title		= "Comment présenter à distance"
+	layout		= "inserts/module-half-text-picture.html"
+	style		= "bg-lightgray"
+	picture		= "/comment-presenter-a-distance/remote-presentations.jpg"
+	url			= "/comment-presenter-a-distance/"
+	description	= "Notre guide avec nos conseils pour mieux présenter à distance."
+	button		= "Lire le guide"
