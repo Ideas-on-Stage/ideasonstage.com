@@ -2,7 +2,7 @@
 draft		= false
 title		= "Comment animer vos réunions professionnelles en ligne"
 description = "Comment faire une réunion en ligne efficace ? De quel matériel avez-vous besoin ? Comment créer du lien avec les participants pendant la réunion ?"
-url	 		= "/formation-en-ligne/comment-animer-vos-réunions-professionnelles-en-ligne/"
+url	 		= "/formations-en-ligne/comment-animer-vos-réunions-professionnelles-en-ligne/"
 picture		= "image.jpg"
 schema		= "Course"
 
@@ -22,8 +22,8 @@ insertsbottom = [ "webinars", "guideremotepresentations" ]
 		color		= "text-white" 
 		opacity		= "50"
 +++  
- 
-{{< text-centered title="Virtual Meetings Revolution" category="Formation en ligne" >}}
+
+{{< text-centered title="Révolutionnez vos réunions en ligne" category="Formation en ligne" >}}
 Apprenez à mener vos réunions professionnelles en ligne avec brio. Cette formation n'est pas une série de vidéos, mais un cours à distance donné en direct par un de nos experts. Ils vous révéleront les secrets de la préparation et de l'animation. Ils vous encourageront et vous donneront des conseils personnalisés.
 {{< /text-centered >}}
  

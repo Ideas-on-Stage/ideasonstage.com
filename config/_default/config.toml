@@ -103,22 +103,21 @@ theme        			= "hugo-creative-theme-master"
 		languageicon	= "/img/globe.svg"
 		languageiconhover ="/img/globe_hover.svg"
 
-		[params.navigation.items]
-			[params.navigation.items.001]
-				name		 	= "Public Speaking Coaching"
-				url			 	= "/public-speaking-coaching/"
-			[params.navigation.items.002]
-				name		 	= "Presentation Design"
-				url			 	= "/services/powerpoint-presentation-design-agency/"
-			[params.navigation.items.003]
-				name		 	= "Communication Consulting"
-				url			 	= "/services/communication-consulting/"
-			[params.navigation.items.004]
-				name		 	= "Business Events"
-				url			 	= "/business-events/"
-			[params.navigation.items.005]
-				name		 	= "Training & Workshops"
-				url			 	= "/presentations-training/"
+		[[params.navigation.items]]
+			name		 	= "Public Speaking Coaching"
+			url			 	= "/public-speaking-coaching/"
+		[[params.navigation.items]]
+			name		 	= "Presentation Design"
+			url			 	= "/services/powerpoint-presentation-design-agency/"
+		[[params.navigation.items]]
+			name		 	= "Communication Consulting"
+			url			 	= "/services/communication-consulting/"
+		[[params.navigation.items]]
+			name		 	= "Business Events"
+			url			 	= "/business-events/"
+		[[params.navigation.items]]
+			name		 	= "Training & Workshops"
+			url			 	= "/presentations-training/"
 				
 		[params.navigation.resources]
 				[params.navigation.resources.001]
@@ -366,22 +365,24 @@ theme        			= "hugo-creative-theme-master"
 		languageicon	= "/img/globe.svg"
 		languageiconhover ="/img/globe_hover.svg"
 
-		[languages.fr.navigation.items]
-			[languages.fr.navigation.items.001]
-				name		 	= "Coaching prise de parole"
-				url			 	= "/coaching-prise-de-parole-en-public/"
-			[languages.fr.navigation.items.002]
-				name		 	= "Création de présentations"
-				url			 	= "/services/agence-creation-presentation-powerpoint/"
-			[languages.fr.navigation.items.003]
-				name		 	= "Conseil en communication"
-				url			 	= "/services/conseil-communication/"
-			[languages.fr.navigation.items.004]
-				name		 	= "Support événementiel"
-				url			 	= "/evenements-entreprise/"
-			[languages.fr.navigation.items.005]
-				name		 	= "Formations à l'art de présenter"
-				url			 	= "/formation-presentations/"
+		[[languages.fr.navigation.items]]
+			name		 	= "Coaching prise de parole"
+			url			 	= "/coaching-prise-de-parole-en-public/"
+		[[languages.fr.navigation.items]]
+			name		 	= "Création de présentations"
+			url			 	= "/services/agence-creation-presentation-powerpoint/"
+		[[languages.fr.navigation.items]]
+			name		 	= "Conseil en communication"
+			url			 	= "/services/conseil-communication/"
+		[[languages.fr.navigation.items]]
+			name		 	= "Support événementiel"
+			url			 	= "/evenements-entreprise/"
+		[[languages.fr.navigation.items]]
+			name		 	= "Formations en ligne"
+			url			 	= "/formations-en-ligne/"
+		[[languages.fr.navigation.items]]
+			name		 	= "Formations et ateliers"
+			url			 	= "/formations-ateliers/"
 				
 		[languages.fr.navigation.resources]				
 			[languages.fr.navigation.resources.001]
@@ -559,19 +560,18 @@ theme        			= "hugo-creative-theme-master"
 		languageicon	= "/img/globe.svg"
 		languageiconhover ="/img/globe_hover.svg"
 
-		[languages.es.navigation.items]	
-			[languages.es.navigation.items.001]
-				name		 	= "Creación de presentaciones"
-				url			 	= "/servicios/creacion-presentaciones-powerpoint/"
-			[languages.es.navigation.items.002]
-				name		 	= "Eventos corporativos"
-				url			 	= "/eventos-corporativos/"
-			[languages.es.navigation.items.003]
-				name		 	= "Public Speaking"
-				url			 	= "/public-speaking-coaching/"
-			[languages.es.navigation.items.004]
-				name		 	= "Formación"
-				url			 	= "/formacion-presentaciones/"
+		[[languages.es.navigation.items]]	
+			name		 	= "Creación de presentaciones"
+			url			 	= "/servicios/creacion-presentaciones-powerpoint/"
+		[[languages.es.navigation.items]]	
+			name		 	= "Eventos corporativos"
+			url			 	= "/eventos-corporativos/"
+		[[languages.es.navigation.items]]	
+			name		 	= "Public Speaking"
+			url			 	= "/public-speaking-coaching/"
+		[[languages.es.navigation.items]]	
+			name		 	= "Formación"
+			url			 	= "/formacion-presentaciones/"
 				
 		[languages.es.navigation.resources]
 			[languages.es.navigation.resources.001]
@@ -719,19 +719,18 @@ theme        			= "hugo-creative-theme-master"
 		languageicon	= "/img/globe.svg"
 		languageiconhover ="/img/globe_hover.svg"
 		
-		[languages.it.navigation.items]
-			[languages.it.navigation.items.001]
-				name		 	= "Presentation Creation Agency"
-				url			 	= "/servizi/creazione-presentazioni-powerpoint/"
-			[languages.it.navigation.items.002]
-				name		 	= "Eventi Corporate"
-				url			 	= "/eventi-corporate/"
-			[languages.it.navigation.items.003]
-				name		 	= "Public Speaking"
-				url			 	= "/public-speaking-coaching/"
-			[languages.it.navigation.items.004]
-				name		 	= "Training"
-				url			 	= "/training-workshops/the-business-presentation-revolution/"
+		[[languages.es.navigation.items]]	
+			name		 	= "Presentation Creation Agency"
+			url			 	= "/servizi/creazione-presentazioni-powerpoint/"
+		[[languages.es.navigation.items]]	
+			name		 	= "Eventi Corporate"
+			url			 	= "/eventi-corporate/"
+		[[languages.es.navigation.items]]	
+			name		 	= "Public Speaking"
+			url			 	= "/public-speaking-coaching/"
+		[[languages.es.navigation.items]]	
+			name		 	= "Training"
+			url			 	= "/training-workshops/the-business-presentation-revolution/"
 				
 		[languages.it.navigation.housekeeping]
 			[languages.it.navigation.housekeeping.001]
