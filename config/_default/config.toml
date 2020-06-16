@@ -366,23 +366,23 @@ theme        			= "hugo-creative-theme-master"
 		languageiconhover ="/img/globe_hover.svg"
 
 		[[languages.fr.navigation.items]]
-			name		 	= "Coaching prise de parole"
-			url			 	= "/coaching-prise-de-parole-en-public/"
-		[[languages.fr.navigation.items]]
-			name		 	= "Création de présentations"
-			url			 	= "/services/agence-creation-presentation-powerpoint/"
-		[[languages.fr.navigation.items]]
 			name		 	= "Conseil en communication"
 			url			 	= "/services/conseil-communication/"
 		[[languages.fr.navigation.items]]
-			name		 	= "Support événementiel"
-			url			 	= "/evenements-entreprise/"
+			name		 	= "Coaching prise de parole"
+			url			 	= "/coaching-prise-de-parole-en-public/"
+		[[languages.fr.navigation.items]]
+			name		 	= "Formations et ateliers"
+			url			 	= "/formations-ateliers/"
 		[[languages.fr.navigation.items]]
 			name		 	= "Formations en ligne"
 			url			 	= "/formations-en-ligne/"
 		[[languages.fr.navigation.items]]
-			name		 	= "Formations et ateliers"
-			url			 	= "/formations-ateliers/"
+			name		 	= "Création de présentations"
+			url			 	= "/services/agence-creation-presentation-powerpoint/"
+		[[languages.fr.navigation.items]]
+			name		 	= "Support événementiel"
+			url			 	= "/evenements-entreprise/"
 				
 		[languages.fr.navigation.resources]				
 			[languages.fr.navigation.resources.001]

@@ -1,7 +1,7 @@
 +++
 draft		= false
 title		= "Formation individuelle en ligne à la prise de parole en public"
-description = "Comment faire une réunion en ligne efficace ? De quel matériel avez-vous besoin ? Comment créer du lien avec les participants pendant la réunion ?"
+description = "Votre programme personnalisé de formation à la prise de parole. Formation à distance donnée en direct par un de nos experts."
 url	 		= "/formations-en-ligne/formation-individuelle-prise-de-parole-en-ligne/"
 picture		= "image.jpg"
 schema		= "Course"
