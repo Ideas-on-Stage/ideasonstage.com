@@ -1,0 +1,10 @@
+{{ "<!-- shortcodes:agenda-item.html:start -->" | safeHTML }}
+<div class="layout-shortcode-child padding-tiny">
+	{{- if .Params.title }}
+	<p class="style-text-agenda-item-title text-center">{{ .Params.title }}</p>
+	{{- end }}
+	{{- if .Params.description }}
+	<p class="style-text-agenda-item-description text-center">{{ .Params.description | markdownify }}</p>
+	{{- end  }}
+</div>
+{{ "<!-- shortcodes:agenda-item.html:end -->" | safeHTML }}

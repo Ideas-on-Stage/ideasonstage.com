@@ -68,6 +68,8 @@ theme        			= "hugo-creative-theme-master"
 		darkgray		= "#222"
 		lightgray		= "#eee"
 		midgray			= "#888"
+		blue				= "#00A3E0"
+		orange			= "#FF8200"
 				
 	# ------------------------------
 	# Layout
