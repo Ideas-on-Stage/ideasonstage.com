@@ -2,6 +2,7 @@
 			{{ "<!-- partials:page-slider.html:start -->" | safeHTML }}
 			<div class="heroslider layout-hero">
 				{{- $.Scratch.Set "counter" 0 }}
+				{{- $slidercount := len .Params.slider.list }}
 				{{- range .Params.slider.list }}
 					{{- if (partial "f/isactive" .) }}
 						{{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
@@ -15,9 +16,14 @@
 							<img src="{{ .bgimage }}" alt="">
 						</div>
 						<div class= "layout-absolute layout-hero" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>					
-							<div class="flex-parent-column flex-justify-center flex-align-center">  
+							<div class="flex-parent-column flex-justify-center flex-align-center">
+								{{- if gt $slidercount 1 }}
 				    			<h2 class="style-slider-title">{{ .title | safeHTML }}
 								</h2>
+								{{- else }}{{/* <!-- use h1 if only one slider --> */}}
+				    			<h1 class="style-slider-title">{{ .title | safeHTML }}
+								</h1>
+								{{- end }}
 								{{- if .description }}
 								<p class="style-slider-subtitle">{{ .description }}</p>
 								{{- end }}
@@ -42,12 +48,14 @@
 			       <label for="heroslider-{{$.Scratch.Get "counter"}}"></label>
 				{{- end }}{{- end }}
 				</div>
+				{{- if gt $slidercount 1 }}
 				<div class="heroslider__nav">
 				{{- $.Scratch.Set "counter" 0 }}
 				{{- range .Params.slider.list }}{{- if (partial "f/isactive" .) }}
 					{{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
 					<label for="heroslider-{{$.Scratch.Get "counter"}}"></label>
 				{{- end }}{{- end }}
-				</div>	 
+				</div>
+				{{- end }}
 			</div>
 			{{ "<!-- partials:page-slider.html:end -->" | safeHTML }}
