@@ -5,6 +5,7 @@ description		= "Formation en prise de parole en public, présentation PowerPoint
 url		 		= "/formations-ateliers/"
 schema			= "Carousel"
 thumbnail		= "thumbnail.jpg"
+weight			= 30
 +++
 ## Changez votre vision des présentations
 

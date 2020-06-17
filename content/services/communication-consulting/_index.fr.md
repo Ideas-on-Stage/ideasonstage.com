@@ -4,6 +4,7 @@ title 			= "Conseil en communication"
 description		= "Impressionnez votre auditoire avec une présentation PowerPoint de qualité professionnelle. Nos services sont utilisés par les plus grandes marques."
 url				= "/services/conseil-communication/"
 thumbnail		= "thumbnail.jpg"
+weight			= 10
 +++
 ## De l’idée à la communication persuasive
 

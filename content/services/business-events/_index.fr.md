@@ -4,6 +4,7 @@ title 			= "Support Événementiel"
 description		= "Un ensemble de services pour aider votre agence événementielle ou votre entreprise à réaliser un événement mémorable"
 picture			= "business-events.jpg"
 url 				= "/evenements-entreprise/"
+weight			= 60
 insertsbottom	= [	"codingandbricks", "guideevents" ]
 +++
 

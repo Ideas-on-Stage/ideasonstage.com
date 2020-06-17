@@ -6,6 +6,7 @@ url 				= "/services/agence-creation-presentation-powerpoint/"
 
 schema			= "Service"
 provider		= "ideasonstage"
+weight			= 50
 
 urlredirect		= ""
 gallerytitle    = ""

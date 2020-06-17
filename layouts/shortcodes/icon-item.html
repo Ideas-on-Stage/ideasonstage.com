@@ -4,7 +4,7 @@
 	<img src="{{ .Params.icon }}">
 	</div>
 	<div class="paddingh-small">
-	<p class="style-text-icon text-center">{{ .Params.description }}</p>
+	<p class="style-text-icon text-center">{{ .Params.description | markdownify }}</p>
 	</div>
 </div>
 {{ "<!-- shortcodes:icon-item.html:end -->" | safeHTML }}

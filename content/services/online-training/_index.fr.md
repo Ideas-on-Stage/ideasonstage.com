@@ -5,6 +5,7 @@ description		= "Formations en ligne à la prise de parole en public, présentati
 url		 		= "/formations-en-ligne/"
 schema			= "Carousel"
 thumbnail		= "thumbnail.jpg"
+weight			= 40
 
 [slider]
 	[[slider.list]]
@@ -31,7 +32,7 @@ Intéressé(e) ? Contactez-nous pour échanger sur vos objectifs de formation, n
 - Depuis le 2 juin 2020, les formations peuvent être réalisées tant à distance qu’en présentiel. 
 - La date limite de dépôt des demandes de financement FNE-formation pour les entreprises ayant recours au chômage partiel a été levée. Les entreprises peuvent poursuivre leurs demandes de financement.
 - Les entreprises en activité partielle peuvent désormais faire des demandes mixtes. Elles peuvent ainsi utiliser le FNE pour former les collaborateurs en activité partielle et ceux qui travaillent à temps plein.
-- 100 % des coûts pédagogiques ****sont pris en charge par le FNE-formation. Les frais annexes comme les coûts d’hébergement et de transport peuvent également être pris en charge.
+- 100 % des coûts pédagogiques sont pris en charge par le FNE-formation. Les frais annexes comme les coûts d’hébergement et de transport peuvent également être pris en charge.
 
 ## Notre offre de formation à distance
 
