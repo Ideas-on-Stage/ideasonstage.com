@@ -2,7 +2,15 @@
 		{{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
 		<header id="hero">
 			{{- $heropath := partial "f/getheropicturepath" . }}
+			{{- $slidercount := 0 }}
 			{{- if isset .Params "slider" }}
+				{{- range .Params.slider.list }} {{/* <!-- test if at least one slide active --> */}}
+					{{- if (partial "f/isactive" .) }}
+						{{- $slidercount = add $slidercount 1 }}
+					{{- end }}
+				{{- end }}
+			{{- end }}
+			{{- if gt $slidercount 0 }}
 				{{ partial "page-slider.html" . }}
 			{{- else if $heropath }}
 				{{/* <!-- if pic exists, create hero area --> */}}

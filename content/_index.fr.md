@@ -11,6 +11,9 @@ outputs			= ["html","rss","json"]
 
 [slider]
 	[[slider.list]]
+		draft		= true
+		date		= "2020-03-05"
+		expirydate	= "2020-04-29"
 		bgimage 	= "/formation-presentations/webinaires/ouaibinarre.jpg"
 		title 		= "VIRTUAL MEETINGS REVOLUTION"
 		description = "Une série de webinaires gratuits"
@@ -18,9 +21,9 @@ outputs			= ["html","rss","json"]
 		buttonlink	= "/formation-presentations/webinaires/"
 		color		= "text-white"	
 		opacity		= "30"
-		date		= "2020-03-05"
-		expirydate	= "2020-04-29"
 	[[slider.list]]
+		date		= "2020-06-05"
+		expirydate	= "2020-06-19"
 		bgimage		= "/img/news/black-white-heart.jpg"
 		title		= "METTONS FIN À LA DISCRIMINATION"
 		description	= ""
@@ -28,9 +31,9 @@ outputs			= ["html","rss","json"]
 		buttonlink	= "/news/2020/06/05/2020-06-05-mettons-fin-a-la-discrimination/"
 		color		= "text-white"
 		opacity		= "30"
-		date		= "2020-06-05"
-		expirydate	= "2020-06-19"
 	[[slider.list]]
+		date		= "2020-05-12"
+		expirydate	= "2020-06-29"
 		bgimage 	= "/services/formations-ateliers/fne-formation-distance/hero.jpg"
 		title 		= "FORMATIONS FNE GRATUITES"
 		description = "Suivez une formation 100% prise en charge par le dispositif FNE"
@@ -38,9 +41,8 @@ outputs			= ["html","rss","json"]
 		buttonlink	= "/services/formations-ateliers/fne-formation-distance/"
 		color		= "text-white"	
 		opacity		= "30"
-		date		= "2020-05-12"
-		expirydate	= "2020-06-29"
 	[[slider.list]]
+		date		= "2020-04-29"
 		bgimage 	= "/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
 		title 		= "GUIDE DE LA PRISE DE PAROLE EN PUBLIC"
 		description = "Notre guide pour maîtriser les techniques de l'art oratoire."
@@ -48,20 +50,20 @@ outputs			= ["html","rss","json"]
 		buttonlink	= "/guide-ultime-prise-de-parole-en-public/"
 		color		= "text-white"	
 		opacity		= "30"
-		date		= "2020-04-29"
 	[[slider.list]]
 		draft		= true
+		date 		= "2019-11-04"
 		bgimage		= "hero.jpg"
 		title		= "CRÉATION DE PRÉSENTATIONS · SUPPORT ÉVÉNEMENTIEL · COACHING ET FORMATION À LA PRISE DE PAROLE"
-		date 		= "2019-11-04"
 	[[slider.list]]
+		draft		= true
+		expirydate	= "2019-11-04"
 		bgimage		= "slider1-min.jpg"
 		title		= "PETIT-DÉJEUNER<br />« LE LEADERSHIP A-T-IL UN GENRE ? »"
 		description = "Le 5 novembre, Champs-Élysées, Paris"
 		button		= "Inscrivez-vous"
 		buttonlink	= "https://www.eventbrite.fr/e/inscription-morning-inspiration-par-ideas-on-stage-columbus-consulting-71763379199"
 		color		= "text-white"
-		expirydate	= "2019-11-04"
 	[[slider.list]]
 		bgimage		= "slider2-min.jpg"
 		title		= "WOMEN ON STAGE 2.0"
@@ -70,13 +72,14 @@ outputs			= ["html","rss","json"]
 		buttonlink	= "/formation-presentations/women-on-stage/"
 		color 		= "text-white"
 	[[slider.list]]
+		draft		= true
+		expirydate	= "2019-11-04"
 		bgimage		= "slider3-min.jpg"
 		title		= "THE BUSINESS PRESENTATION REVOLUTION"
 		description	= "Episode 9: Il était une fois le storytelling d’entreprise"
 		button		= "Regarder l'Épisode"
 		buttonlink	= "/revolution/episode-00009/"
 		color		= "text-white"
-		expirydate	= "2019-11-04"
 
 [services]
 	[[services.list]]
@@ -86,7 +89,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/training.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		url			= "/formation-presentations/"
+		url			= "/formations-ateliers/"
 	[[services.list]]
 		sectionid	= "du-bureau-au-travail-a-distance"
 		title		= "Communauté de travail en ligne"
