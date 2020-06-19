@@ -1,5 +1,5 @@
 +++
-draft		= false
+draft		= true
 title		= "Présentation Zen en Entreprise"
 description = "La formation Présentation Zen en Entreprise officielle, donnée exclusivement par Ideas on Stage."
 picture		= "hero.jpg"
