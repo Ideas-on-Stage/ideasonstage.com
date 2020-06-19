@@ -34,7 +34,7 @@ outputs			= ["html","rss","json"]
 	[[slider.list]]
 		date		= "2020-05-12"
 		expirydate	= "2020-06-29"
-		bgimage 	= "/services/formations-ateliers/fne-formation-distance/hero.jpg"
+		bgimage 	= "/formations-en-ligne/fne.jpg"
 		title 		= "FORMATIONS FNE GRATUITES"
 		description = "Suivez une formation 100% prise en charge par le dispositif FNE"
 		button 		= "Inscrivez-vous"
