@@ -34,7 +34,7 @@ Facilitez-vous la vie et réalisez des économies. Notre système d'abonnement a
 
 {{< space-medium style="bg-white" >}}
 
-Utilisez vos crédits librement pour n'importe lequel de nos services. Avec les crédits, vous avez une flexibilité maximum pour optimiser votre budget. **Une remise supplémentaire de 10% est accordée pour tout abonnement pris sur 2 ans** ; par exemple la remise sur la formule découverte passe de 5 % à 15 %, la remise sur la formule entreprise passe de 40 % à 50 %.
+Utilisez vos crédits librement pour n'importe lequel de nos services. Avec les crédits, vous avez une flexibilité maximum pour optimiser votre budget. **Une remise supplémentaire de 5 % est accordée pour tout abonnement pris sur 2 ans et 10 % pour tout abonnement de 3 ans** ; par exemple la remise sur la formule découverte passe de 5 % à 15 %, la remise sur la formule entreprise passe de 40 % à 50 %.
 
 |Découverte|Personnel|Premium|Pro|Entreprise|
 |:--------:|:-------:|:-----:|:-:|:--------:|
