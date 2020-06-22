@@ -1,7 +1,7 @@
 +++
 draft		= false
 name		= "Joe Ross"
-picture		= "ismael-salmeron.jpg"
+picture		= "joe-ross.jpg"
 position 	= "Chief Strategy Officer"
 url			= "/equipe/joe-ross/"
 weight		= 160
@@ -12,4 +12,4 @@ Joe est un écrivain et communiquant très expérimenté qui enseigne à l’Éc
 
 
 
-[pic1]: /img/logos/linkedin.png
+[pic1]: /img/socialnetworks/linkedin.png
