@@ -3,7 +3,7 @@ draft		= false
 title		= "Virtual Meetings Revolution Training"
 description = "What is the best way to deliver an efficient meeting online? What gear do you need? How can you engage your audience during a virtual meeting?"
 url	 		= "/presentations-training/virtual-meetings-revolution/"
-picture		= "image.jpg"
+picture		= "virtual-meeting.jpg"
 schema		= "Course"
 +++
 
