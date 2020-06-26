@@ -11,7 +11,7 @@ url		 		= "/abonnement-prioritaire/"
 +++
 
 {{< text-centered title="Économisez jusqu'à 50 % en vous abonnant à nos services" category="Abonnement Prioritaire" >}}
-Facilitez-vous la vie et réalisez des économies. Notre système d'abonnement annuel vous offre à la fois la solution la plus flexible pour accéder à tous nos services tout en bénéficiant de remises allant jusqu'à 40 %. Profitez de 10 % de remise supplémentaire pour tout abonnement de 2 ans.
+Facilitez-vous la vie et réalisez des économies. Notre système d'abonnement annuel vous offre à la fois la solution la plus flexible pour accéder à tous nos services tout en bénéficiant de remises allant jusqu'à 40 %. Profitez de 5 % de remise supplémentaire pour tout abonnement de 2 ans et 10 % de remise supplémentaire pour un abonnement de 3 ans.
 {{< /text-centered >}}
 
 {{< icon-list style="bg-lightgray" >}}
