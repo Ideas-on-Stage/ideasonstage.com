@@ -1,7 +1,7 @@
 +++
 draft 			= false
 title 			= "Business Events"
-description		= "Whether you are a leader in a major corporation or running your own business, speak like the leader everyone wants to follow."
+description		= "A complete set of services to support event organizers: project management, masters of ceremonies, creative workshops"
 picture			= "business-events.jpg"
 url 				= "/business-events/"
 +++

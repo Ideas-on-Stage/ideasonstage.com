@@ -10,7 +10,7 @@ url		 		= "/abonnement-prioritaire/"
 	
 +++
 
-{{< text-centered title="Économisez jusqu'à 50 % en vous abonnant à nos services" category="Abonnement Prioritaire" >}}
+{{< text-centered title="Économisez jusqu'à 50 % en vous abonnant à nos services" >}}
 Facilitez-vous la vie et réalisez des économies. Notre système d'abonnement annuel vous offre à la fois la solution la plus flexible pour accéder à tous nos services tout en bénéficiant de remises allant jusqu'à 40 %. Profitez de 5 % de remise supplémentaire pour tout abonnement de 2 ans et 10 % de remise supplémentaire pour un abonnement de 3 ans.
 {{< /text-centered >}}
 
@@ -26,7 +26,7 @@ Facilitez-vous la vie et réalisez des économies. Notre système d'abonnement a
  
 {{< icon-list title="Choisissez la formule adaptée à vos besoins" style="bg-lightgray" >}}
 	{{< icon-item icon="star.svg" description="Découverte<br>**10 crédits**<br>Économisez 5 %<br>~~5 000 €~~<br>4 750 €" >}}
-	{{< icon-item icon="star.svg" description="Personnel<br>**20 crédits**<br>Économisez 10 %<br>~~10 000 €~~<br>9 000 €" >}}
+	{{< icon-item icon="star.svg" description="Starter<br>**50 crédits**<br>Économisez 10 %<br>~~25 000 €~~<br>22 500 €" >}}
 	{{< icon-item icon="star.svg" description="Premium<br>**100 crédits**<br>Économisez 20 %<br>~~50 000 €~~<br>40 000 €" >}}
 	{{< icon-item icon="star.svg" description="Pro<br>**200 crédits**<br>Économisez 25 %<br>~~100 000 €~~<br>75 000 €" >}}
 	{{< icon-item icon="star.svg" description="Entreprise<br>**500 crédits**<br>Économisez 40 %<br>~~250 000 €~~<br>150 000 €" >}}
@@ -36,12 +36,12 @@ Facilitez-vous la vie et réalisez des économies. Notre système d'abonnement a
 
 Utilisez vos crédits librement pour n'importe lequel de nos services. Avec les crédits, vous avez une flexibilité maximum pour optimiser votre budget. **Une remise supplémentaire de 5 % est accordée pour tout abonnement pris sur 2 ans et 10 % pour tout abonnement de 3 ans** ; par exemple la remise sur la formule découverte passe de 5 % à 15 %, la remise sur la formule entreprise passe de 40 % à 50 %.
 
-|Découverte|Personnel|Premium|Pro|Entreprise|
+|Découverte|Starter|Premium|Pro|Entreprise|
 |:--------:|:-------:|:-----:|:-:|:--------:|
-|10 crédits|20 crédits|100 crédits|200 crédits|500 crédits|
+|10 crédits|50 crédits|100 crédits|200 crédits|500 crédits|
 |**Économisez 5 %**|**Économisez 10 %**|**Économisez 20 %**|**Économisez 25 %**|**Économisez 40 %**|
-|~~5 000 €~~<br>4 750 €|~~10 000 €~~<br>9 000 €|~~50 000 €~~<br>40 000 €|~~100 000 €~~<br>70  000 €|~~250 000 €~~<br>150 000 €|
-|Équivaut à<br>50 slides<br>*ou*<br>10 h de coaching<br>*ou*<br>10 h de conseil<br>*ou*<br>2 jours de formation|Équivaut à<br>100 slides<br>*ou*<br>20 h de coaching<br>*ou*<br>20 h de conseil<br>*ou*<br>4 jours de formation|Équivaut à<br>500 slides<br>*ou*<br>100 h de coaching<br>*ou*<br>100 h de conseil<br>*ou*<br>20 jours de formation|Équivaut à<br>1 000 slides<br>*ou*<br>200 h de coaching<br>*ou*<br>200 h de conseil<br>*ou*<br>40 jours de formation|Équivaut à<br>2 500 slides<br>*ou*<br>500 h de coaching<br>*ou*<br>500 h de conseil<br>*ou*<br>100 jours de formation|
+|~~5 000 €~~<br>4 750 €|~~25 000 €~~<br>22 500 €|~~50 000 €~~<br>40 000 €|~~100 000 €~~<br>70  000 €|~~250 000 €~~<br>150 000 €|
+|Équivaut à<br>50 slides<br>*ou*<br>10 h de coaching<br>*ou*<br>10 h de conseil<br>*ou*<br>2 jours de formation|Équivaut à<br>250 slides<br>*ou*<br>50 h de coaching<br>*ou*<br>50 h de conseil<br>*ou*<br>10 jours de formation|Équivaut à<br>500 slides<br>*ou*<br>100 h de coaching<br>*ou*<br>100 h de conseil<br>*ou*<br>20 jours de formation|Équivaut à<br>1 000 slides<br>*ou*<br>200 h de coaching<br>*ou*<br>200 h de conseil<br>*ou*<br>40 jours de formation|Équivaut à<br>2 500 slides<br>*ou*<br>500 h de coaching<br>*ou*<br>500 h de conseil<br>*ou*<br>100 jours de formation|
 
 Quelle que soit la formule prise, vos crédits restent valables pendant 2 ans après la date d'achat.
 

@@ -69,7 +69,8 @@
 -->				
 		        <div class="flex-parent-row paddingv-small flex-align-end">
 					<div class="footer-text-min flex-child-60p">
-		        		{{ with .Site.Copyright }}{{ . }}{{ end }} {{ with .Site.Params.year }}{{ . }}{{ end }}. 
+						{{/* <!-- PMO 2020-07-01 Replaced site.Params.Year with now.Year for auto update of current year in copyright --> */}}
+		        		{{ with .Site.Copyright }}{{ . }}{{ end }} {{ now.Year }}. 
 		        		{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
 		        		{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
 		        		{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
