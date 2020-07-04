@@ -2307,3 +2307,26 @@ ul.post-tag {
 		max-width: 100%;
 	}
 }
+
+/* @group Agenda Collapsible Styling */
+input[type='checkbox'] {
+	display: none;
+  }
+
+  .agenda-toggle {
+	display: block;  
+	font-weight: 500;
+	cursor: pointer;
+  }
+
+  .collapsible-content {
+	max-height: 0px;
+	overflow: hidden;
+  
+	transition: max-height .25s ease-in-out;
+  }
+  .agenda-toggle:checked + .agenda-toggle + .collapsible-content {
+	max-height: 100vh;
+  }
+/* @end */
+
