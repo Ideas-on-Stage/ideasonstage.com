@@ -1,4 +1,7 @@
+{{ "<!-- shortcodes:agenda-item.html:start -->" | safeHTML }}
 <div class="layout-shortcode-child padding-tiny">
+	{{ $title :="" }}
+	{{ if .Params.title }} {{ $title := . }}{{ end }}
 	{{ if .Params.description }}
 		{{- if $.Params.title }}
 			<input id="collapsible_{{ $.Params.title }}" class="agenda-toggle" type="checkbox">
