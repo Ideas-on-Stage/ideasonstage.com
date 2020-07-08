@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Business Events"
+title 			= "Event Support"
 description		= "A complete set of services to support event organizers: project management, masters of ceremonies, creative workshops"
 picture			= "business-events.jpg"
 url 				= "/business-events/"

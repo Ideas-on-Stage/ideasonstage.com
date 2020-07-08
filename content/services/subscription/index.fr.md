@@ -27,8 +27,8 @@ Facilitez-vous la vie et réalisez des économies. Notre système d'abonnement a
 {{< icon-list title="Choisissez la formule adaptée à vos besoins" style="bg-lightgray" >}}
 	{{< icon-item icon="star.svg" description="Découverte<br>**10 crédits**<br>Économisez 5 %<br>~~5 000 €~~<br>4 750 €" >}}
 	{{< icon-item icon="star.svg" description="Starter<br>**50 crédits**<br>Économisez 10 %<br>~~25 000 €~~<br>22 500 €" >}}
-	{{< icon-item icon="star.svg" description="Premium<br>**100 crédits**<br>Économisez 20 %<br>~~50 000 €~~<br>40 000 €" >}}
-	{{< icon-item icon="star.svg" description="Pro<br>**200 crédits**<br>Économisez 25 %<br>~~100 000 €~~<br>75 000 €" >}}
+	{{< icon-item icon="star.svg" description="Pro<br>**100 crédits**<br>Économisez 20 %<br>~~50 000 €~~<br>40 000 €" >}}
+	{{< icon-item icon="star.svg" description="Équipe<br>**200 crédits**<br>Économisez 25 %<br>~~100 000 €~~<br>75 000 €" >}}
 	{{< icon-item icon="star.svg" description="Entreprise<br>**500 crédits**<br>Économisez 40 %<br>~~250 000 €~~<br>150 000 €" >}}
 {{< /icon-list >}}
 
@@ -36,7 +36,7 @@ Facilitez-vous la vie et réalisez des économies. Notre système d'abonnement a
 
 Utilisez vos crédits librement pour n'importe lequel de nos services. Avec les crédits, vous avez une flexibilité maximum pour optimiser votre budget. **Une remise supplémentaire de 5 % est accordée pour tout abonnement pris sur 2 ans et 10 % pour tout abonnement de 3 ans** ; par exemple la remise sur la formule découverte passe de 5 % à 15 %, la remise sur la formule entreprise passe de 40 % à 50 %.
 
-|Découverte|Starter|Premium|Pro|Entreprise|
+|Découverte|Starter|Pro|Équipe|Entreprise|
 |:--------:|:-------:|:-----:|:-:|:--------:|
 |10 crédits|50 crédits|100 crédits|200 crédits|500 crédits|
 |**Économisez 5 %**|**Économisez 10 %**|**Économisez 20 %**|**Économisez 25 %**|**Économisez 40 %**|

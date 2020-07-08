@@ -29,3 +29,4 @@ To maximize the impact of your delivery you can use our Executive Coaching servi
 Contacting us is risk-free. Simply send us a message with the contact form and we will get back to you quickly.
 
 [pic1]: strategy.jpg
+

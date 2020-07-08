@@ -5,6 +5,7 @@ description		= "Change the culture of presentations in your company"
 url 				= "/presentations-training/"
 schema			= "Carousel"
 thumbnail		= "thumbnail.jpg"
+weight			= 30
 +++
 ## Change the culture of presentations in your company
 
