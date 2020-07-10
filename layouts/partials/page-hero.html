@@ -29,11 +29,15 @@
 				</div>
 			{{- else if .Title -}}
 				{{/* <!-- else if title exists, create title area --> */}}
+				{{- if and (eq .Section "news") (.IsPage) }}
+					{{/* <!-- no title for news pages (ideally should be replaced by a parameter) --> */}}
+				{{- else }}
 			    <div class="layout-page-title style-page-title">
 		        	<h1>
 			            {{ with .Title }}{{ . | markdownify  }}{{ end }}
 		            </h1>
 			    </div>
+				{{- end }}
 			{{- end }}
 		</header>
 		{{ "<!-- partials:page-hero.html:end -->" | safeHTML }}
