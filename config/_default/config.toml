@@ -719,16 +719,16 @@ theme        			= "hugo-creative-theme-master"
 		languageicon	= "/img/globe.svg"
 		languageiconhover ="/img/globe_hover.svg"
 		
-		[[languages.es.navigation.items]]	
+		[[languages.it.navigation.items]]	
 			name		 	= "Presentation Creation Agency"
 			url			 	= "/servizi/creazione-presentazioni-powerpoint/"
-		[[languages.es.navigation.items]]	
+		[[languages.it.navigation.items]]	
 			name		 	= "Eventi Corporate"
 			url			 	= "/eventi-corporate/"
-		[[languages.es.navigation.items]]	
+		[[languages.it.navigation.items]]	
 			name		 	= "Public Speaking"
 			url			 	= "/public-speaking-coaching/"
-		[[languages.es.navigation.items]]	
+		[[languages.it.navigation.items]]	
 			name		 	= "Training"
 			url			 	= "/training-workshops/the-business-presentation-revolution/"
 				
