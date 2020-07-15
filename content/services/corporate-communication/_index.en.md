@@ -8,7 +8,7 @@ weight			= 10
 pages			= "bottom"
 +++
 
-{{< text-centered title="A different approach to coroprate communication" >}}
+{{< text-centered title="A different approach to corporate communication" >}}
 Our corporate communication strategy consulting branch offers all necessary services for your organizational, management and internal communication needs. Our approach emphasizes the use of human communication to deliver effective messages.
 {{< /text-centered >}}
 
@@ -27,7 +27,7 @@ A great communication strategy will unify your corporate vision around a clear m
 {{< /text-centered >}}
 
 {{< text-centered category="Organizational And Management Communication" title="Bring structure and coherence" >}}
-Once we have a clear overall communication strategy in place; we work with you to execute that vision at the organizational and managment levels. This is our inside and outside approach to help you achieve communication excellence. Our difference is our ability to execute the strategy.<br>Our team has years of experience working with C-level executives and are themselves active as public speakers and coaches. We have helped many organizations transform the way they communicate around a simpler, more concrete method of communication. This, in turn, has helped them transform their organizations better and faster.
+Once we have a clear overall communication strategy in place; we work with you to execute that vision at the organizational and management levels. This is our inside and outside approach to help you achieve communication excellence. Our difference is our ability to execute the strategy.<br>Our team has years of experience working with C-level executives and are themselves active as public speakers and coaches. We have helped many organizations transform the way they communicate around a simpler, more concrete method of communication. This, in turn, has helped them transform their organizations better and faster.
 {{< /text-centered >}}
  
 {{< icon-list title="Top reasons why people use our corporate communication services" style="bg-lightgray" >}}
