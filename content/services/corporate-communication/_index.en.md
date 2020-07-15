@@ -35,7 +35,7 @@ Once we have a clear overall communication strategy in place; we work with you t
 	{{< icon-item icon="launch.svg" description="Launches and Rollouts" >}}
 	{{< icon-item icon="csr.svg" description="Corporate and Social Responsibility" >}}
 	{{< icon-item icon="transformation.svg" description="Organizational Transformation Plan" >}}
-	{{< icon-item icon="certificate.svg" description="ESG compliance communication" >}}
+	{{< icon-item icon="certificate.svg" description="ESG communication" >}}
 {{< /icon-list >}}
 
 {{< image-wide src="corporate-office.jpg" alt="Corporate Communication" >}}
@@ -43,4 +43,3 @@ Once we have a clear overall communication strategy in place; we work with you t
 {{< text-centered title="Human Based Communication" >}}
 Companies like Apple and Google have demonstrated the profound positive impact that great corporate communication, and in particular great interpersonal corporate communication, can have on the performance of a company. Our approach, based on interpersonal relationship and direct communication is proven to deliver results and accelerate the cultural shift in companies.
 {{< /text-centered >}}
-
