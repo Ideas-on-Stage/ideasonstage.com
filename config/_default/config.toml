@@ -110,8 +110,8 @@ theme        			= "hugo-creative-theme-master"
 			name		 	= "Presentation Design"
 			url			 	= "/services/powerpoint-presentation-design-agency/"
 		[[params.navigation.items]]
-			name		 	= "Communication Consulting"
-			url			 	= "/services/communication-consulting/"
+			name		 	= "Corporate Communication"
+			url			 	= "/corporate-communication/"
 		[[params.navigation.items]]
 			name		 	= "Business Events"
 			url			 	= "/business-events/"
