@@ -11,6 +11,8 @@ outputs			= ["html","rss","json"]
 			
 [slider]
 	[[slider.list]]
+		date		= "2020-03-05"
+		expirydate	= "2020-04-24"
 		bgimage		= "/presentations-training/webinars/ouaibinarre.jpg"
 		title		= "VIRTUAL MEETING REVOLUTION"
 		description	= "A free webinar series"
@@ -18,9 +20,9 @@ outputs			= ["html","rss","json"]
 		buttonlink	= "/presentations-training/webinars/"
 		color		= "text-white"
 		opacity		= "30"
-		date		= "2020-03-05"
-		expirydate	= "2020-04-24"
 	[[slider.list]]
+		date		= "2020-06-05"
+		expirydate	= "2020-06-19"
 		bgimage		= "/img/news/black-white-heart.jpg"
 		title		= "LET'S END DISCRIMINATION"
 		description	= ""
@@ -28,9 +30,17 @@ outputs			= ["html","rss","json"]
 		buttonlink	= "/news/2020/06/05/2020-06-05-let-s-end-discrimination/"
 		color		= "text-white"
 		opacity		= "30"
-		date		= "2020-06-05"
-		expirydate	= "2020-06-19"
 	[[slider.list]]
+		date		= "2020-07-18"
+		bgimage		= "/corporate-communication/corporate-communication-hero.jpg"
+		title		= "CORPORATE COMMUNICATION"
+		description	= "Improve your management and organizational communication"
+		button		= "Learn More"
+		buttonlink	= "/corporate-communication/"
+		color		= "text-white"
+		opacity		= "30"
+	[[slider.list]]
+		date		= "2020-04-24"
 		bgimage		= "/how-to-deliver-presentations-remotely/remote-presentations.jpg"
 		title		= "HOW TO DELIVER PRESENTATIONS REMOTELY"
 		description	= "A complete guide on how to deliver great presentations remotely"
@@ -38,11 +48,11 @@ outputs			= ["html","rss","json"]
 		buttonlink	= "/how-to-deliver-presentations-remotely/"
 		color		= "text-white"
 		opacity		= "30"
-		date		= "2020-04-24"
 	[[slider.list]]
+		date 		= "2019-11-04"
+		draft		= true
 		bgimage		= "hero.jpg"
 		title		= "PUBLIC SPEAKING COACHING AND TRAINING · BUSINESS EVENTS · PRESENTATION CREATION"
-		date 		= "2019-11-04"
 	[[slider.list]]
 		bgimage		= "slider2-min.jpg"
 		title		= "WOMEN ON STAGE 2.0"
@@ -51,13 +61,13 @@ outputs			= ["html","rss","json"]
 		buttonlink	= "/presentations-training/women-on-stage/"
 		color		= "text-white"
 	[[slider.list]]
+		expirydate	= "2019-11-04"
 		bgimage		= "slider3-min.jpg"
 		title		= "THE BUSINESS PRESENTATION REVOLUTION"
 		description = "Episode 9: Once Upon a Business Story"
 		button		= "Watch now"
 		buttonlink	= "/revolution/episode-00009/"
 		color		= "text-white"	
-		expirydate	= "2019-11-04"
 
 [services]
 	[[services.list]]
