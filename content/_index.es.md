@@ -1,7 +1,7 @@
 +++
 draft 			= false
 title 			= "Agencia de Presentaciones | Entrenamiento y formación para hablar en público"
-description		= "Ideas on Stage es el especialista global en presentaciones de negocios. Ofrecemos nuestros servicios en Europa y América, en inglés, francés, español e italiano."
+description		= "Agencia europea especializada en coaching y formación en oratoria y hablar en público para ejecutivos y empresas. Aprende técnicas para comunicar con eficacia."
 picture			= "/img/ideas-on-stage.svg"
 schema			= "Website"
 
@@ -22,7 +22,7 @@ outputs			= ["html","rss","json"]
 		expirydate	= "2020-06-19"
 	[[slider.list]]
 		bgimage ="/hero.jpg"
-		title = "AGENCIA DE PRESENTACIONES · EVENTOS CORPORATIVOS · PUBLIC SPEAKING"
+		title = "AGENCIA DE PRESENTACIONES · EVENTOS CORPORATIVOS · HABLAR EN PÚBLICO / ORATORIA"
 	[[slider.list]]
 		bgimage ="slider3-min.jpg"
 		title = "THE BUSINESS PRESENTATION REVOLUTION"
@@ -59,7 +59,7 @@ outputs			= ["html","rss","json"]
 		url			= "/eventos-corporativos/"
 	[[services.list]]
 		sectionid	= "public-speaking-coaching"
-		title		= "Public Speaking"
+		title		= "Hablar en Público"
 		description	= "Muestra tu mejor versión sobre el escenario."
 		picture		= "/img/inserts/home-public-speaking-coaching.jpg"
 		style		= "bg-black"
@@ -74,6 +74,6 @@ outputs			= ["html","rss","json"]
 		layout		= "inserts/module-texttop-picture.html"
 		url			= "/formacion-presentaciones/"
 +++
-En Ideas on Stage ayudamos a líderes de todo el mundo a hacer presentaciones impactantes, a crear eventos que inspiren y a fortalecer sus organizaciones gracias a nuestro acompañamiento y formación para hablar y presentar en público.
+En Ideas on Stage ayudamos a líderes de todo el mundo a hacer presentaciones impactantes, a crear eventos que inspiren y a fortalecer sus organizaciones gracias a nuestro acompañamiento y cursos para hablar en público y hacer presentaciones.
 
 Con nuestro equipo de expertos en comunicación ofrecemos una amplia gama de servicios de presentación en Europa (España, Francia, Reino Unido, Italia) y América.

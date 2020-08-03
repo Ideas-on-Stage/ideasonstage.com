@@ -526,7 +526,7 @@ theme        			= "hugo-creative-theme-master"
 	googleAnalytics = "UA-30695118-3"
 	rights			= "Todos los derechos reservados"
 	cookies			= "No usamos cookies."
-	footer_desc		= "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
+	footer_desc		= "Ideas on Stage Spain<br>Barcelona."
 	favicon			= "/img/ios_favicon.ico"
 
 	tableofcontents	= "Tabla de contenidos"
