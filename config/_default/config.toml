@@ -367,7 +367,7 @@ theme        			= "hugo-creative-theme-master"
 
 		[[languages.fr.navigation.items]]
 			name		 	= "Conseil en communication"
-			url			 	= "/services/conseil-communication/"
+			url			 	= "/conseil-communication/"
 		[[languages.fr.navigation.items]]
 			name		 	= "Coaching prise de parole"
 			url			 	= "/coaching-prise-de-parole-en-public/"
