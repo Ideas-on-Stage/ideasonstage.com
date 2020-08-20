@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		="Rose Bloomfield | Directora de Presentaciones"
+description	="Rose Bloomfiled es la representante de Ideas on Stage en Estados Unidos"
 name		= "Rose Bloomfield"
 picture		= "rose-bloomfield.jpg"
 position 	= "Directora de Presentaciones"

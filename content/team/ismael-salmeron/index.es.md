@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		="Ismael Salmerón | Diseñador en Design Center"
+description	="Ismael Salmerón trabaja en nuestro Centro de Diseño en Barcelona como diseñador gráfico y técnico de video"
 name		= "Ismael Salmerón"
 picture		= "ismael-salmeron.jpg"
 position 	= "Diseñador en Design Center"

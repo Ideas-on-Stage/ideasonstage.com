@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		="Phil Waknell | Chief Inspiration Officer"
+description	="Phil Waknell es uno de los socios fundadores de Ideas on Stage ubicado en París"
 name		= "Phil Waknell"
 picture		= "phil-waknell.jpg"
 position 	= "Chief Inspiration Officer"

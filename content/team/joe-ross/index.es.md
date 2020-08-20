@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		="Joe Ross | Director de Estrategia"
+description	="Joe Ross es el director de estrategia en nuestros proyectos corporativos, ubicado en París"
 name		= "Joe Ross"
 picture		= "joe-ross.jpg"
 position 	= "Director de Estrategia"

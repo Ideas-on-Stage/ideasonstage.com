@@ -3,7 +3,7 @@ draft 		= "false"
 title 		= "Evento de negocios increíble"
 date		= "2019-09-09"
 cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description = "Tres consejos sobre cómo crear un evento de negocios increíble."
+description = "Organizar un evento requiere una enorme dedicación de esfuerzo, tiempo y dinero. Sácale el máximo partido con estos tres consejos."
 
 schema			= "VideoObject"
 embedurl			= "pCERROM6an0"

@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		="Pierre Morsa | Co-founder - Creative Cat"
+description	="Pierre Morsa es uno de los socios fundadores de Ideas on Stage y director creativo ubicado en Francia"
 name		= "Pierre Morsa"
 picture		= "pierre-morsa.jpg"
 position 	= "Co-founder - Creative Cat"

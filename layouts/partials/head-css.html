@@ -8,7 +8,10 @@
 		
 		{{ "<!-- Custom Fonts -->" | safeHTML }}
 		<link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
+		
 		<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6201816/7621392/css/fonts.css" />
+		
+		
 		
 		{{ "<!-- Site CSS -->" | safeHTML }}
 		{{- $style := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
@@ -16,6 +19,9 @@
 		
 		
 		{{ "<!-- Carousel CSS -->" | safeHTML }}
+		<!-- 
 		<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css">
 		<link href="/css/owl.theme.css" rel="stylesheet" type="text/css">
+		-->
+		
 		{{ "<!-- partials:head-css.html:end -->" | safeHTML }}

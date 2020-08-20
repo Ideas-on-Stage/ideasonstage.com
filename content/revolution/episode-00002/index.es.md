@@ -3,7 +3,7 @@ draft 		= "false"
 title 		= "Superar los nervios"
 date		= "2019-01-19"
 cast		= [ "Phil Waknell", "Rose Bloomfield" ]
-description	= "Rose pregunta a Phil cómo superar el miedo antes de una presentación importante, y convertirlo en energía positiva sobre el escenario. Descubre los consejos de nuestro Chief Inspiration Officer para encontrar tu zen interior antes de un gran evento."
+description	= "Descubre cómo superar el miedo antes de una presentación importante, y convertirlo en energía positiva sobre el escenario"
 
 schema			= "VideoObject"
 embedurl			= "7ownq_fi8eU"

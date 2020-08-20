@@ -1,9 +1,9 @@
 +++
 draft 		= false
 title 		= "La guía definitiva del ponente TEDx"
-description	= "Todo lo que siempre quisisite saber para triunfar como ponente TED"
+description	= "En esta guía compartimos odo lo que siempre quisisite saber para triunfar como ponente en un evento TED"
 categories	= [ "TEDx Events" ]
-url			= "/ultimate-tedx-speaker-guide/"
+url			= "/guias/ultimate-tedx-speaker-guide/"
 picture		= "tedx-speaker.jpg"
 summary		= "¿Te han propuesto ser ponente para dar una charla TED o TEDx?¡Enhorabuena!¿O a lo mejor estás interesado en organizar uno de esos eventos?. En cualquiera de esos casos esta guía es para ti: todo lo que siempre quisiste saber para triunfar como ponente TED y no te atreviste a preguntar."
 +++

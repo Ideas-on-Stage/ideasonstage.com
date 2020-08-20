@@ -1,6 +1,7 @@
 +++
 draft	= false
 title	= "Equipo"
+description = "Un grupo multidisciplinar de expertos en presentaciones de todo el mundo, con amplia y variada experiencia empresarial y artística"
 url		= "/equipo/"
 +++
 

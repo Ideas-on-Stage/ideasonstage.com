@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		="Michael Rickwood | Director de Coaching"
+description	="Michael Rickwood es uno de nuestros coaches director de presentaciones, ubicado en París"
 name		= "Michael Rickwood"
 picture		= "michael-rickwood.jpg"
 position 	= "Director de Coaching"

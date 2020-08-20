@@ -1,7 +1,7 @@
 +++
 draft 			= false
-title 			= "Agencia de Presentaciones | Entrenamiento y formación para hablar en público"
-description		= "Agencia europea especializada en coaching y formación en oratoria y hablar en público para ejecutivos y empresas. Aprende técnicas para comunicar con eficacia."
+title 			= "Presentaciones, coaching y formación para hablar en público"
+description		= "Especialista europeo en formación y coaching para hablar en público y oratoria, y preparación de presentaciones efectivas e impactantes"
 picture			= "/img/ideas-on-stage.svg"
 schema			= "Website"
 
@@ -15,7 +15,7 @@ outputs			= ["html","rss","json"]
 		title		= "ACABEMOS CON LA DISCRIMINACIÓN"
 		description	= ""
 		button		= "Lee nuestra declaración"
-		buttonlink	= "/news/2020/06/05/2020-06-05-let-s-end-discrimination/"
+		buttonlink	= "/noticias/2020/06/05/2020-06-05-let-s-end-discrimination/"
 		color		= "text-white"
 		opacity		= "30"
 		date		= "2020-06-05"
@@ -64,7 +64,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-public-speaking-coaching.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		url			= "/public-speaking-coaching/"
+		url			= "/coaching-para-hablar-en-publico/"
 	[[services.list]]
 		sectionid	= "presentations-training"
 		title		= "Formación"

@@ -1,7 +1,7 @@
 +++
 draft 			= false
-title 			= "Creación de Presentaciones en PowerPoint"
-description		= "Añade un diseño profesional a tus slides para deslumbrar a tu público en tu presentación."
+title 			= "Agencia de Diseño de Presentaciones en PowerPoint"
+description		= "Servicio de agencia de diseño de slides profesionales para empresas y particulares. Descuentos por volumen"
 url 				= "/servicios/creacion-presentaciones-powerpoint/"
 
 schema			= "Service"

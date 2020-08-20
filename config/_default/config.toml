@@ -568,10 +568,10 @@ theme        			= "hugo-creative-theme-master"
 			url			 	= "/eventos-corporativos/"
 		[[languages.es.navigation.items]]	
 			name		 	= "Public Speaking"
-			url			 	= "/public-speaking-coaching/"
+			url			 	= "/coaching-para-hablar-en-publico/"
 		[[languages.es.navigation.items]]	
 			name		 	= "Formación"
-			url			 	= "/formacion-presentaciones/"
+			url			 	= "/formacion-para-hablar-en-publico/"
 				
 		[languages.es.navigation.resources]
 			[languages.es.navigation.resources.001]
@@ -587,6 +587,9 @@ theme        			= "hugo-creative-theme-master"
 				url				= "#contact"
 		[languages.es.navigation.companyitems]		
 			[languages.es.navigation.companyitems.001]
+				name			= "Ideas on Stage"
+				url				= "/acerca-de-nosotros/"
+			[languages.es.navigation.companyitems.002]
 				name			= "Equipo"
 				url				= "/equipo/"
 	

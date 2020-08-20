@@ -3,7 +3,7 @@ draft 		= "false"
 title 		= "Érase una vez una historia empresarial"
 date		= "2019-10-01"
 cast		= [ "Rose Bloomfield", "Pierre Morsa" ]
-description = "Érase una vez una historia empresarial."
+description = "Te damos algunos consejos sobre cómo aplicar las técnicas de storytelling en tus presentaciones de negocios"
 
 schema			= "VideoObject"
 embedurl			= "sQqx-u0LrO0"

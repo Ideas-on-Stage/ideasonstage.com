@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		="Ricardo Bonis | Director España y Latinoamérica"
+description	="Ricardo Bonis es director en España. Especialista en coaching para hablar en público y creación de presentaciones"
 name		= "Ricardo Bonis"
 picture		= "ricardo-bonis.jpg"
 position 	= "Director España & LatAm"

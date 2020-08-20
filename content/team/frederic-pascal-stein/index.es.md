@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		="Frédéric-Pascal Stein | Director de Presentaciones"
+description	="Fréderic-Pascal Stein es uno de nuestros coaches director de presentaciones"
 name		= "Frédéric-Pascal Stein"
 picture		= "frederic-pascal-stein.jpg"
 position 	= "Director de Presentaciones"

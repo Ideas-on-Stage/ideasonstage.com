@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		="Marine Bénard | Coordinadora de Eventos"
+description	="Marine Bénard | Coordinadora de Eventos"
 name		= "Marine Bénard"
 picture		= "marine-benard.jpg"
 position 	= "Coordinadora de Eventos"

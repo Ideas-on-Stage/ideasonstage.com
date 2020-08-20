@@ -1,8 +1,8 @@
 +++
 draft			= false
 title			= "Coaching TEDx"
-description		= "El público de los eventos TED tienes unas altas expectativas. Aprende a sobrepasarlas con nuestra ayuda."
-url				= "/public-speaking-coaching/tedx-coaching/"
+description		= "Preparar adecuadamente a los ponentes de un evento TED es la clave para superar las altas expectativas del público"
+url				= "/coaching-para-hablar-en-publico/tedx-coaching//"
 picture			= "tedx-saclay.jpg"
 weight			= 1
 

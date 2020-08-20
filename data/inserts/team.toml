@@ -15,3 +15,12 @@
 	url			= "/equipe/"
 	description	= "Notre équipe internationale peut vous accompagner en français, anglais, espagnol et italien."
 	button		= "Découvrez notre équipe"
+	
+[es]
+	title		= "Equipo"
+	layout		= "inserts/module-half-text-picture.html"
+	style		= "bg-lightgray"
+	picture		= "/img/inserts/team.jpg"
+	url			= "/equipo/"
+	description	= "Nuestro equipo internacional puede ayudarte en español, inglés, francés e italiano."
+	button		= "Descubre nuestro equipo"

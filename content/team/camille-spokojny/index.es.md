@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		= "Camille Spokojny | Directora de Clientes y Partners"
+description	= "Camille Spokojny es nuestra directora de Clientes y Partners en Francia"
 name		= "Camille Spokojny"
 position 	= "Directora de Clientes y Partners"
 url			= "/equipo/camille-spokojny/"

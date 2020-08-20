@@ -3,7 +3,7 @@ draft 		= "false"
 title 		= "Transformación"
 date		= "2019-01-07"
 cast		= [ "Phil Waknell", "Rose Bloomfield" ]
-description	= "Las presentaciones son para transformar, no para informar. Descubre cuál es la pregunta más importante que tienes que hacerte para conseguir que tu presentación sea un éxito. Invitado: Phil Waknell"
+description	= "Descubre cuál es la pregunta más importante que tienes que hacerte para conseguir que tu presentación sea un éxito"
 
 schema			= "VideoObject"
 embedurl			= "dUXonT_Vom8"

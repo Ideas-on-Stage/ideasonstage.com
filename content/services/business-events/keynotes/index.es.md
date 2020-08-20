@@ -1,7 +1,7 @@
 +++
 draft 		= false
 title 		= "Keynotes"
-description = "Nuestros experimentados speakers sorprenderán a tu público con charlas inspiradoras e inolvidables."
+description = "Aumenta el impacto de tu evento con una charla inolvidable con uno de nuestros speakers"
 picture		= "keynotes.jpg"
 url	 		= "/eventos-corporativos/keynotes/"
 +++

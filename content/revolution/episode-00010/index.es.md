@@ -3,7 +3,7 @@ draft 		= "false"
 title 		= "4 Tempos"
 date		= "2019-11-05"
 cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description = "La monotonía es la asesina de la atención, y es una de las quejas más frecuentes en las presentaciones. ¿Cómo vencerla sin sonar ridículo? Te damos la bienvenida a los 4 Tempos, un esquema muy sencillo para añadir color a tus mensajes clave."
+description = "Te presentamos un modelo para eliminar la monotonía de tus presentaciones. Captura la atención de tu audiencia"
 
 schema			= "VideoObject"
 embedurl			= "JkbvYqYEeo8"

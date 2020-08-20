@@ -59,3 +59,17 @@ https://www.ideasonstage.fr/services/formations-ateliers/fne-formation-distance/
 # --------
 # /img/* to /img/*
 /img/* /img/:splat 301!
+
+# --------
+# Redirections for the ES page
+https://www.ideasonstage.es/public-speaking-coaching/	https://www.ideasonstage.es/coaching-para-hablar-en-publico/	301!
+https://www.ideasonstage.es/public-speaking-coaching/executive-coaching/	https://www.ideasonstage.es/coaching-para-hablar-en-publico/ejecutivos-presencia-liderazgo/	301!
+https://www.ideasonstage.es/public-speaking-coaching/media-training/	https://www.ideasonstage.es/coaching-para-hablar-en-publico/media-training	301!
+https://www.ideasonstage.es/public-speaking-coaching/tedx-coaching/	https://www.ideasonstage.es/coaching-para-hablar-en-publico/tedx-coaching/	301!
+https://www.ideasonstage.es/como-hacer-presentaciones-de-forma-remota/	https://www.ideasonstage.es/guias/como-hacer-presentaciones-de-forma-remota/ 301!
+https://www.ideasonstage.es/formacion-presentaciones/	https://www.ideasonstage.es/formacion-para-hablar-en-publico/	301!
+https://www.ideasonstage.es/formacion-presentaciones/pitch-para-startups/	https://www.ideasonstage.es/formacion-para-hablar-en-publico/pitch-para-startups/	301!
+https://www.ideasonstage.es/formacion-presentaciones/presentation-zen-para-empresas/	https://www.ideasonstage.es/formacion-para-hablar-en-publico/presentation-zen-para-empresas/	301!
+https://www.ideasonstage.es/formacion-presentaciones/the-business-presentation-revolution/	https://www.ideasonstage.es/formacion-para-hablar-en-publico/curso-mejorar-presentaciones/	301!
+https://www.ideasonstage.es/formacion-presentaciones/women-on-stage/	https://www.ideasonstage.es/formacion-para-hablar-en-publico/women-on-stage/	301!
+https://www.ideasonstage.es/ultimate-tedx-speaker-guide/	https://www.ideasonstage.es/guias/ultimate-tedx-speaker-guide/	301!

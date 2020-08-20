@@ -1,7 +1,7 @@
 +++
 draft 		= false
 title 		= "Diseño de Eventos"
-description	= "Deja atrás las interminables maratones de PowerPoint y convierte tus eventos en una experiencia interactiva e inolvidable."
+description	= "Nos ocupamos de todos los detalles para que tu evento sea una experiencia interactiva, original e inolvidable para todos los asistentes"
 picture		= "event-design.jpg"
 url 			= "/eventos-corporativos/diseno-eventos/"
 +++

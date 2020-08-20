@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		="Vanessa Querville | Directora de Pitches"
+description	="Vanessa Querville es uno de nuestros coaches director de presentaciones, ubicada en París"
 name		= "Vanessa Querville"
 picture		= "vanessa-querville.jpg"
 position 	= "Directora de Pitches"

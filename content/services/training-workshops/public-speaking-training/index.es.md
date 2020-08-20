@@ -1,8 +1,8 @@
 +++
 draft		= false
-title		= "The Business Presentation Revolution"
-description = "Las presentaciones de tu equipo no volverán a ser las mismas gracias a nuestra formación de referencia."
-url	 		= "/formacion-presentaciones/the-business-presentation-revolution/"
+title		= "Revoluciona tus presentaciones"
+description = "Con nuestro curso de referencia as presentaciones de tu equipo aumentarán su eficacia e impacto desde el primer día"
+url	 		= "/formacion-para-hablar-en-publico/the-business-presentation-revolution/"
 picture		= "image.jpg"
 schema		= "Course"
 +++
@@ -13,8 +13,6 @@ Las presentaciones son una constante en el mundo empresarial, y la mayoría de e
 
 La formación Business Presentation Revolution, acompañada por el libro del mismo nombre, está basada en nuestro exclusivo método de presentaciones pSCORE. Impartimos este curso regularmente en empresas líderes, y también forma parte del programa de HEC Paris Executive MBA.
 
-
-![bpr][pic1]
 
 Este curso cubre los cuatro pasos clave de nuestro método de Presentación ***pSCORE***:
 
@@ -33,4 +31,3 @@ Muchas empresas optan por combinar la formación Business Presentation Revolutio
 
 Para saber más sobre la formación Business Presentation Revolution y cómo puede ayudar a tus equipos a presentar de manera más eficaz, por favor rellena nuestro formulario de contacto.
 
-[pic1]: image.jpg

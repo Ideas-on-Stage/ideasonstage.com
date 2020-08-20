@@ -1,5 +1,7 @@
 +++
 draft		= false
+title		= "Edoardo Sala | Director de Presentaciones en Italia"
+description	= "Edoardo Sala es el representante de Ideas on Stage en  Italia"
 name		= "Edoardo Sala"
 picture		= "edoardo-sala.jpg"
 position 	= "Director de Presentaciones en Italia"

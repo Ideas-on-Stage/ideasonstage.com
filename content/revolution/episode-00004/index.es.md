@@ -3,7 +3,7 @@ draft 		= "false"
 title 		= "Poner el caballo delante del carro"
 date		= "2019-03-05"
 cast		= [ "Phil Waknell", "Rose Bloomfield" ]
-description	= "¿Puedes responder a esta pregunta honestamente? Si te acabaras de enterar de que tienes que hacer una presentación de 15 minutos mañana, ¿cómo te prepararías?"
+description	= "Si te acabaras de enterar de que tienes que hacer una presentación de 15 minutos mañana, ¿cómo te prepararías?"
 
 schema			= "VideoObject"
 embedurl			= "LVu6yIu8VGw"

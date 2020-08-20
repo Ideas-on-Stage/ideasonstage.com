@@ -3,7 +3,7 @@ draft 		= "false"
 title 		= "Estrés del momento"
 date		= "2019-06-04"
 cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description = "Aprender a gestionar el estrés previo a una presentación."
+description = "El estrés y los nervios antes de una presentación son inevitables. Este video te da pistas para reducirlos"
 
 schema			= "VideoObject"
 embedurl			= "Rh3MPWz-lQU"
