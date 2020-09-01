@@ -15,7 +15,7 @@ Have you seen Gary Oldman in his interpretation of Churchill in the latest biopi
  
 <br> 
 <figure>
-  <img src="/img/news/2018-02-16-main.jpg"  />
+  <img src="/img/news/2018-02-16-banner.jpg"  />
   <figcaption>
       <p style="text-align: center;"><em>© Working Title Films—<a href="https://twitter.com/Working_Title"  target="_blank">@Working_Title</a></em></p>
   </figcaption>
