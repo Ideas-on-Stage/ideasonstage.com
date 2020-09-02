@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Game of Thrones et l'importance de la trame"
-tags = ["Prise de parole en public", "Storyline", "Storytelling", "Présentation"]
+tags = ["Prise de parole en public", "Storyline", "Storytelling", "Présentations"]
 news = ["general"]
 date = "2019-05-21"
 author = "Pierre Morsa"

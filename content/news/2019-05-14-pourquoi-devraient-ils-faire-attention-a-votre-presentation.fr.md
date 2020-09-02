@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Pourquoi devraient-ils faire attention à votre présentation ?"
-tags = ["Prise de parole en public", "Présentation"]
+tags = ["Prise de parole en public", "Présentations"]
 news = ["general"]
 date = "2019-05-14"
 author = "Pierre Morsa"

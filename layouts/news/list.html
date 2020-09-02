@@ -25,8 +25,22 @@
                         	<h2>{{ .Title }}</h2>
                         </a>
                         <p>
-                          	{{ if isset .Params "author" }}
-                          		{{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.companyitems "002").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a> — 
+							{{ if isset .Params "author" }}
+								{{ .Site.Params.news.by }} 
+								{{ $scratch := newScratch }}
+								{{ $scratch.Set "author" "/team/" }}
+								{{ $author := .Params.author | urlize }}
+								{{ $scratch.Add "author" $author }}
+								{{ $authorname := .Params.author }}
+								{{ with .Site.GetPage ($scratch.Get "author") }}
+									{{ if ne .Params.draft "true" }}
+										<a href="{{ (index .Site.Params.navigation.companyitems "002").url }}{{ $author }}">{{ $authorname }}</a> —
+									{{ else }}
+										{{ .Params.author }} -
+									{{ end }}
+								{{ else }} 
+									{{ .Params.author }} -
+								{{ end }}
                           	{{ end }}
                           	{{ if isset .Params "categories" }}
                           		{{ if gt (len .Params.categories) 0 }}

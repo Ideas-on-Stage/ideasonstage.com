@@ -24,7 +24,20 @@
 					<div class="flex-parent-row">
 							<p class="text-muted  mb-small">
 							{{ if isset .Params "author" }}
-							  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.companyitems "002").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a> — 
+							  {{ .Site.Params.news.by }} 
+							  {{ $scratch := newScratch }}
+							  {{ $scratch.Set "author" "/team/" }}
+							  {{ $author := .Params.author | urlize }}
+							  {{ $scratch.Add "author" $author }}
+							  {{ with .Site.GetPage ($scratch.Get "author") }}
+								{{ if ne .Params.draft "true" }}
+									<a href="{{ (index .Site.Params.navigation.companyitems "002").url }}{{ $author }}">{{ $.Params.author }}</a> —
+								{{ else }}
+									{{ .Params.author }} -
+								{{ end }}
+							  {{ else }} 
+							  	{{ .Params.author }} -
+							  {{ end }}
 							{{ end }}
 								<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate" .Date }}</time> 
 							</p>

@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Capter l'attention lors de réunions virtuelles"
-tags = ["communication", "RéunionVirtuelle", "ArtOratoire", "présentation."]
+tags = ["communication", "RéunionVirtuelle", "ArtOratoire", "Présentations"]
 news = ["general"]
 date = "2020-04-08"
 author = "Michael Rickwood"

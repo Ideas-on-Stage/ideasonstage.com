@@ -1,4 +1,3 @@
-
 +++
 draft = false
 title = "Commencez par établir une connexion avec le public"

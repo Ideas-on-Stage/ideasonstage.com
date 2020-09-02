@@ -1,4 +1,3 @@
-
 +++
 draft = false
 title = "Establish a Connection First"
