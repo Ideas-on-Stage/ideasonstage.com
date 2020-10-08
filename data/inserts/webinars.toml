@@ -2,8 +2,8 @@
 	title		= "Virtual Meeting Revolution Webinars"
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-dark"
-	picture		= "/presentations-training/webinars/webinar3.jpg"
-	url			= "/presentations-training/webinars/"
+	picture		= "/online-training/webinars/webinar3.jpg"
+	url			= "/online-training/webinars/"
 	description	= "A series of webinars to learn how to do meetings online."
 
 [fr]
