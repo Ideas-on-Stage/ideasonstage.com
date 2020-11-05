@@ -107,17 +107,20 @@ theme        			= "hugo-creative-theme-master"
 			name		 	= "Public Speaking Coaching"
 			url			 	= "/public-speaking-coaching/"
 		[[params.navigation.items]]
-			name		 	= "Presentation Design"
-			url			 	= "/services/powerpoint-presentation-design-agency/"
-		[[params.navigation.items]]
 			name		 	= "Corporate Communication"
 			url			 	= "/corporate-communication/"
 		[[params.navigation.items]]
-			name		 	= "Business Events"
-			url			 	= "/business-events/"
-		[[params.navigation.items]]
 			name		 	= "Training & Workshops"
 			url			 	= "/presentations-training/"
+		[[params.navigation.items]]
+			name		 	= "Online Training"
+			url			 	= "/online-training/"
+		[[params.navigation.items]]
+			name		 	= "Presentation Design"
+			url			 	= "/services/powerpoint-presentation-design-agency/"
+		[[params.navigation.items]]
+			name		 	= "Business Events"
+			url			 	= "/business-events/"
 				
 		[params.navigation.resources]
 				[params.navigation.resources.001]
