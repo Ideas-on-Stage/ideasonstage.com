@@ -1,5 +1,5 @@
 +++
-draft		= false
+draft		= true
 name		= "Camille Spokojny"
 position 	= "Client & Partner Director"
 url			= "/team/camille-spokojny/"

@@ -1,5 +1,5 @@
 +++
-draft		= false
+draft		= true
 title		= "Camille Spokojny | Directora de Clientes y Partners"
 description	= "Camille Spokojny es nuestra directora de Clientes y Partners en Francia"
 name		= "Camille Spokojny"
