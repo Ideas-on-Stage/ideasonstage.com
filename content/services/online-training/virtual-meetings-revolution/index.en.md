@@ -28,11 +28,11 @@ Our Virtual Meeting Revolution training offers a completely new approach to make
 {{< image-wide src="online-meeting.jpg" alt="Online Meeting" >}}
 
 {{< agenda-list style="bg-lightgray" title="A 5-step method for imagining and leading a successful online meeting">}}
-	{{< agenda-item title="1. Foundation" description="Understand the context, set clear objectives and choose the right participants." >}}
-    {{< agenda-item title="2. Ideation" description="Controlled brainstorming to find the right ingredients for your meeting to achieve its objectives." >}}
-    {{< agenda-item title="3. Creation" description="Arrange the ingredients in a clear agenda that maximizes attention and interaction." >}}
-    {{< agenda-item title="4. Illustration" description="Prepare effective visual aids (slides) and documents to support your online meeting." >}}
-    {{< agenda-item title="5. Connection" description="Speak to gain and keep attention, and lead your online meeting professionally." >}}
+	{{< agenda-item-checked title="1. Foundation" description="Understand the context, set clear objectives and choose the right participants." >}}
+    {{< agenda-item-checked title="2. Ideation" description="Controlled brainstorming to find the right ingredients for your meeting to achieve its objectives." >}}
+    {{< agenda-item-checked title="3. Creation" description="Arrange the ingredients in a clear agenda that maximizes attention and interaction." >}}
+    {{< agenda-item-checked title="4. Illustration" description="Prepare effective visual aids (slides) and documents to support your online meeting." >}}
+    {{< agenda-item-checked title="5. Connection" description="Speak to gain and keep attention, and lead your online meeting professionally." >}}
 {{< /agenda-list >}}
 
 {{< image-wide src="zoom-meeting.jpg" alt="Zoom Meeting" >}}
@@ -73,7 +73,7 @@ The Virtual Meeting Revolution course can accept up to 30 participants, with two
 We run our courses using Zoom, unless you prefer to use your own standard video meeting technology.
 
 
-Big groups? No problem!
+### Big groups? No problem!
 
 If you have more than 30 people to train, or you simply want to share the learning as widely as possible in your organization, we can run Virtual Meeting Revolution as a series of interactive webinars. Although participant microphones will mostly be muted in large-group webinars to preserve sound quality, we still make these sessions as interactive and entertaining as possible, using chat and polls for example, and taking participant questions regularly.
 
