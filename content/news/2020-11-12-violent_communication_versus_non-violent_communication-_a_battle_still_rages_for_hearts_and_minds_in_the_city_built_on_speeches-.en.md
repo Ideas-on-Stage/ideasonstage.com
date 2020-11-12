@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Violent Communication versus non-Violent Communication. A battle still rages for hearts and minds in the city built on speeches."
 news = ["general"]
 date = "2020-11-12"
