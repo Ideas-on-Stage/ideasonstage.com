@@ -8,6 +8,8 @@ banner = "/img/news/abraham_lincoln.png"
 +++
 **Let the US election of 2020 be a lesson to all leaders of tomorrow.**
 
+![](/img/news/abraham_lincoln.png)
+
 I am a frequent visitor to Washington DC. Having a key client on Pennsylvania Avenue, I have had the pleasure of getting to know the city and its people, working the day and socializing the night, breathing the atmosphere and drinking its politics. Washington DC is a city built on inspiration; it is built on speeches. There is a litany of references: Martin Luther King’s 1963 ‘I have a dream’ speech, Franklin D. Roosevelt’s inauguration (‘The only thing we have to fear is fear itself’) and Ronald Reagan’s Challenger disaster speech… the list goes on. There are hundreds.
 
 Right now, in Washington, in November 2020, a battle rages.
