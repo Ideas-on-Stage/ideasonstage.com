@@ -1,12 +1,12 @@
 +++
 draft = false
-title = "Violent Communication versus non-Violent Communication. A battle still rages for hearts and minds in the city built on speeches."
+title = "Violent Communication versus non-Violent Communication."
 news = ["general"]
 date = "2020-11-12"
 author = "Michael Rickwood"
 banner = "/img/news/abraham_lincoln.png"
 +++
-**Let the US election of 2020 be a lesson to all leaders of tomorrow.**
+**A battle still rages for hearts and minds in the city built on speeches. Let the US election of 2020 be a lesson to all leaders of tomorrow.**
 
 ![](/img/news/abraham_lincoln.png)
 
