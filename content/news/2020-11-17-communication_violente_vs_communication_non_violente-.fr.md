@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Communication Violente VS Communication non violente."
+title = "Communication Violente VS Communication non violente"
 news = ["general"]
 date = "2020-11-12"
 author = "Michael Rickwood"
