@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Communication Violente VS Communication non violente."
 news = ["general"]
 date = "2020-11-12"
