@@ -47,7 +47,28 @@ picture			= "ouaibinarre.jpg"
 		url 			= "https://www.eventbrite.fr/e/virtual-facilitation-preparing-and-leading-successful-online-meetings-free-webinar-registration-100936094576"
 		validfrom 	= "2020-04-01"
 		button 		= "Register on Eventbrite"
-
+[[events]]
+	name		= "How To Master Q&A Sessions"
+	description	= "A free webinar about answering difficult questions"
+	duration	= "T1H"
+	startdate	= "2020-11-19T16:00:00+01:00"
+	enddate		= "2020-11-19T17:00:00+01:00"
+	eventattendancemode = "OnlineEventAttendanceMode"
+	eventstatus	= "EventScheduled"
+	image		= "2020-11-19-qa-session.jpg"
+	isaccessibleforfree = true
+	location		= "zoom"
+	organizer	= "ideasonstage"
+	performer	= "Michael Rickwood"
+	[[events.offers]]
+		availability = "OnlineOnly"
+		price 		= "0"
+		pricecurrency = "USD"
+		seller 		= "Eventbrite"
+		url 			= "https://www.eventbrite.fr/e/how-to-master-qa-sessions-free-webinar-registration-128864231385"
+		validfrom 	= "2020-11-16"
+		button 		= "Register on Eventbrite"
+		
 [[videoobjects]]
 	name		= "Virtual Meeting Revolution"
 	description	= "Key success factors for online meetings"
@@ -101,5 +122,7 @@ Thankfully there is a solution. At Ideas on Stage we aren’t only presentation 
 Our Virtual Meeting Revolution online course has been in great demand recently, for obvious reasons, but there are many who need this learning around the world. So we’ve decided to run a series of free webinars that aim to help any remote worker, teacher or leader to prepare and run effective online meetings.
 
 Inspiration has healing power for the mind like rest and nutrition for the body. With these webinars, we aim to inspire you so that you can inspire your teams, your students, your communities, and maintain a sense of connection in these challenging times.
+
+{{< events title="Next Webinars" >}}
 
 {{< videoobjects title="Past Webinars" >}}

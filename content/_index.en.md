@@ -12,12 +12,12 @@ outputs			= ["html","rss","json"]
 [slider]
 	[[slider.list]]
 		date		= "2020-03-05"
-		expirydate	= "2020-04-24"
-		bgimage		= "/presentations-training/webinars/ouaibinarre.jpg"
+		expirydate	= "2020-11-30"
+		bgimage		= "/online-training/webinars/ouaibinarre.jpg"
 		title		= "VIRTUAL MEETING REVOLUTION"
 		description	= "A free webinar series"
 		button		= "Learn More"
-		buttonlink	= "/presentations-training/webinars/"
+		buttonlink	= "/online-training/webinars/"
 		color		= "text-white"
 		opacity		= "30"
 	[[slider.list]]

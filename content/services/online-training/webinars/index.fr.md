@@ -47,7 +47,28 @@ picture			= "ouaibinarre.jpg"
 		url = "https://www.eventbrite.fr/e/inscription-virtual-facilitation-preparer-et-animer-des-reunions-virtuelles-reussies-webinaire-gratuit-100933442644"
 		validfrom = "2020-04-01"
 		button = "Inscrivez-vous sur Eventbrite"
-				
+[[events]]
+	name		= "Comment maîtriser les sessions de questions-réponses"
+	description	= "Un webinaire gratuit pour apprendre à répondre aux questions difficiles"
+	duration	= "T1H"
+	startdate	= "2020-11-24T16:00:00+01:00"
+	enddate		= "2020-11-24T17:00:00+01:00"
+	eventattendancemode = "OnlineEventAttendanceMode"
+	eventstatus	= "EventScheduled"
+	image		= "2020-11-24-qa-session.jpg"
+	isaccessibleforfree = true
+	location		= "zoom"
+	organizer	= "ideasonstage"
+	performer	= "Michael Rickwood"
+	[[events.offers]]
+		availability = "OnlineOnly"
+		price 		= "0"
+		pricecurrency = "USD"
+		seller 		= "Eventbrite"
+		url 			= "https://www.eventbrite.fr/e/inscription-comment-maitriser-les-sessions-de-questions-reponses-webinaire-gratuit-129284735123"
+		validfrom 	= "2020-11-16"
+		button 		= "Inscrivez-vous sur Eventbrite"
+						
 [[videoobjects]]
 	embedurl		= "IknE6ibOYpw"
 	description	= "Les clés pour réussir vos réunions virtuelles"
@@ -101,5 +122,7 @@ Heureusement, il existe une solution. Chez Ideas on Stage, nous ne sommes pas se
 Notre formation en ligne « Virtual Meeting Revolution » a été très demandée récemment, pour des raisons évidentes, mais nombreux sont ceux qui ont besoin de cet apprentissage dans le monde entier. Nous avons donc décidé d'organiser une série de webinaires gratuits qui visent à aider tout travailleur à distance, enseignant ou dirigeant à préparer et à organiser des réunions en ligne efficaces.
 
 L'inspiration a un pouvoir de guérison sur l'esprit tout comme le repos et la nutrition sur le corps. Avec ces webinaires, nous visons à vous inspirer afin que vous puissiez ensuite inspirer vos équipes, vos étudiants, vos communautés et maintenir un sentiment de connexion et de partage en ces temps difficiles.
+
+{{< events title="Prochains webinaires" >}}
 
 {{< videoobjects title="Webinaires précédents" >}}

@@ -11,14 +11,14 @@ outputs			= ["html","rss","json"]
 
 [slider]
 	[[slider.list]]
-		draft		= true
+		draft		= false
 		date		= "2020-03-05"
-		expirydate	= "2020-04-29"
-		bgimage 	= "/formation-presentations/webinaires/ouaibinarre.jpg"
+		expirydate	= "2020-11-30"
+		bgimage 	= "/formations-en-ligne/webinaires/ouaibinarre.jpg"
 		title 		= "VIRTUAL MEETINGS REVOLUTION"
 		description = "Une série de webinaires gratuits"
 		button 		= "Inscrivez-vous"
-		buttonlink	= "/formation-presentations/webinaires/"
+		buttonlink	= "/formations-en-ligne/webinaires/"
 		color		= "text-white"	
 		opacity		= "30"
 	[[slider.list]]
