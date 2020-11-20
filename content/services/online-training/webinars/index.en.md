@@ -109,6 +109,15 @@ picture			= "ouaibinarre.jpg"
 	endtime		= "2020-04-23T17:00:00+02:00"
 	thumbnailurl= "2020-04-23-virtual-facilitation.jpg"
 	uploaddate	= "2020-04-24"
+[[videoobjects]]
+	name		= "Mastering Q&A"
+	description	= "How to answer difficult questions"
+	embedurl		= "L3Xj77f1jE8"
+	starttime	= "2020-11-19T16:00:00+02:00"
+	endtime		= "2020-11-19T16:30:00+02:00"
+	thumbnailurl= "2020-11-19-qa-session.jpg"
+	uploaddate	= "2020-11-20"
+	
 +++
 
 ## Virtual Meeting Revolution - Free Webinar Series
