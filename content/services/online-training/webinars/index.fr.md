@@ -76,7 +76,7 @@ picture			= "ouaibinarre.jpg"
 	enddate		= "2020-12-08T14:30:00+01:00"
 	eventattendancemode = "OnlineEventAttendanceMode"
 	eventstatus	= "EventScheduled"
-	image		= "webinar3.jpg"
+	image		= "2020-12-08-sept-peches-capitaux-presentations-en-ligne.jpg"
 	isaccessibleforfree = true
 	location		= "zoom"
 	organizer	= "ideasonstage"
@@ -131,7 +131,7 @@ picture			= "ouaibinarre.jpg"
 		url 			= ""
 		validfrom 	= "2020-11-23"
 		button 		= ""
-						
+					
 [[videoobjects]]
 	embedurl		= "IknE6ibOYpw"
 	description	= "Les clés pour réussir vos réunions virtuelles"
@@ -172,6 +172,15 @@ picture			= "ouaibinarre.jpg"
 	endtime		= "2020-04-28T17:00:00+02:00"
 	thumbnailurl= "2020-04-28-virtual-facilitation.jpg"
 	uploaddate	= "2020-04-29"
+[[videoobjects]]
+	embedurl		= "gP36LbABT60"
+	description	= "Comment maîtriser les sessions de questions-réponses"
+	name		= "Questions-réponses"
+	starttime	= "2020-11-24T13:30:00+02:00"
+	endtime		= "2020-11-24T14:30:00+02:00"
+	thumbnailurl= "2020-11-24-qa-session.jpg"
+	uploaddate	= "2020-11-25"
+
 +++
 
 ## Virtual Meeting Revolution - Webinaires Gratuits

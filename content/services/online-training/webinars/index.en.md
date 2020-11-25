@@ -76,7 +76,7 @@ picture			= "ouaibinarre.jpg"
 	enddate		= "2020-12-03T17:00:00+01:00"
 	eventattendancemode = "OnlineEventAttendanceMode"
 	eventstatus	= "EventScheduled"
-	image		= "webinar3.jpg"
+	image		= "2020-12-03-seven-deadly-sins.jpg"
 	isaccessibleforfree = true
 	location		= "zoom"
 	organizer	= "ideasonstage"
@@ -122,7 +122,7 @@ picture			= "ouaibinarre.jpg"
 	isaccessibleforfree = true
 	location		= "zoom"
 	organizer	= "ideasonstage"
-	performer	= "Phil Wankell"
+	performer	= "Phil Waknell"
 	[[events.offers]]
 		availability = "OnlineOnly"
 		price 		= "0"
