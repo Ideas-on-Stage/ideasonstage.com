@@ -130,7 +130,7 @@ picture			= "ouaibinarre.jpg"
 		seller 		= "Eventbrite"
 		url 			= "https://ideasonstage-tedifiez-vos-presentations.eventbrite.fr"
 		validfrom 	= "2020-11-23"
-		button 		= ""
+		button 		= "Inscrivez-vous sur Eventbrite"
 					
 [[videoobjects]]
 	embedurl		= "IknE6ibOYpw"
