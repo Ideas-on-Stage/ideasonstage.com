@@ -121,17 +121,19 @@ theme        			= "hugo-creative-theme-master"
 		[[params.navigation.items]]
 			name		 	= "Business Events"
 			url			 	= "/business-events/"
-				
-		[params.navigation.resources]
-				[params.navigation.resources.001]
-					name			= "Videos"
-					url				= "/revolution/"
-				[params.navigation.resources.002]
-					name			= "News"
-					url				= "/news/"
-				[params.navigation.resources.003]
-					name			= "Guides"
-					url				= "/guides/"
+
+		[[params.navigation.resources]]
+			name			= "Videos"
+			url				= "/revolution/"
+		[[params.navigation.resources]]
+			name			= "Webinars"
+			url				= "/online-training/webinars/"
+		[[params.navigation.resources]]
+			name			= "News"
+			url				= "/news/"
+		[[params.navigation.resources]]
+			name			= "Guides"
+			url				= "/guides/"
 
 		[params.navigation.housekeeping]
 			[params.navigation.housekeeping.001]
@@ -386,17 +388,19 @@ theme        			= "hugo-creative-theme-master"
 		[[languages.fr.navigation.items]]
 			name		 	= "Support événementiel"
 			url			 	= "/evenements-entreprise/"
-				
-		[languages.fr.navigation.resources]				
-			[languages.fr.navigation.resources.001]
-				name			= "Vidéos"
-				url				= "/revolution/"
-			[languages.fr.navigation.resources.002]
-				name			= "Articles"
-				url				= "/news/"
-			[languages.fr.navigation.resources.003]
-				name			= "Guides"
-				url				= "/guides/"
+
+		[[languages.fr.navigation.resources]]			
+			name			= "Vidéos"
+			url				= "/revolution/"
+		[[languages.fr.navigation.resources]]			
+			name			= "Webinaires"
+			url				= "/formations-en-ligne/webinaires/"
+		[[languages.fr.navigation.resources]]
+			name			= "Articles"
+			url				= "/news/"
+		[[languages.fr.navigation.resources]]
+			name			= "Guides"
+			url				= "/guides/"
 					
 		[languages.fr.navigation.housekeeping]
 			[languages.fr.navigation.housekeeping.001]
