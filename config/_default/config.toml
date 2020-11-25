@@ -129,7 +129,7 @@ theme        			= "hugo-creative-theme-master"
 			name			= "Webinars"
 			url				= "/online-training/webinars/"
 		[[params.navigation.resources]]
-			name			= "News"
+			name			= "Articles"
 			url				= "/news/"
 		[[params.navigation.resources]]
 			name			= "Guides"
