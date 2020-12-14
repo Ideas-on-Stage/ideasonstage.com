@@ -16,7 +16,7 @@ Here are some of the tips we’ve learned (often the hard way) on how to use Zoo
 
 
 
-#### **BEFORE**
+### **BEFORE**
 
 **Set up parameters**
 
@@ -44,7 +44,7 @@ It’s also important to remember that on YouTube, Zoom will superimpose its wat
 
 
 
-#### **DURING**
+### **DURING**
 
 **Co-pilot / Mod**
 
@@ -72,7 +72,7 @@ To spotlight the speaker, a host or co-host simply goes to their name in the lis
 
 
 
-#### **AFTER**
+### **AFTER**
 
 **Edit recording**
 
