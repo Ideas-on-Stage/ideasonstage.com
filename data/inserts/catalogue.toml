@@ -3,7 +3,7 @@
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-lightgray"
 	picture		= "/img/inserts/catalogue.jpg"
-	url			= "/guides/ideasonstage-catalogue-fr.pdf"
+	url			= "/guides/ideasonstage-catalogue-en.pdf"
 	description	= "Download our pdf catalogue."
 
 [fr]

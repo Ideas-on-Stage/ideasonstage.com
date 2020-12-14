@@ -139,6 +139,14 @@ picture			= "ouaibinarre.jpg"
 	endtime		= "2020-11-19T16:30:00+02:00"
 	thumbnailurl= "2020-11-19-qa-session.jpg"
 	uploaddate	= "2020-11-20"
+[[videoobjects]]
+	name		= "Pro Tips for Zoom Presenters"
+	description	= "Learn the secrets to become a pro at virtual presentations"
+	embedurl		= "EETpdF1Ap80"
+	startdate	= "2020-12-10T16:00:00+01:00"
+	enddate		= "2020-12-10T17:00:00+01:00"
+	thumbnailurl= "2020-12-10-pro-tips-zoom-presenters.jpg"
+	uploaddate	= "2020-12-11"
 	
 +++
 

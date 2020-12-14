@@ -138,7 +138,15 @@ picture			= "ouaibinarre.jpg"
 	endtime		= "2020-11-24T14:30:00+02:00"
 	thumbnailurl= "2020-11-24-qa-session.jpg"
 	uploaddate	= "2020-11-25"
-
+[[videoobjects]]
+	embedurl		= "UhA1Uf6Hp3I"
+	description	= "Les 7 erreurs à éviter lors de vos présentations en ligne"
+	name		= "Les 7 péchés capitaux des présentations"
+	starttime	= "2020-12-08T13:30:00+01:00"
+	endtime		= "2020-12-08T14:30:00+01:00"
+	thumbnailurl= "2020-12-08-sept-peches-capitaux-presentations-en-ligne.jpg"
+	uploaddate	= "2020-12-08"
+	
 +++
 
 ## Virtual Meeting Revolution - Webinaires Gratuits
