@@ -6,8 +6,6 @@ date = "2020-12-14"
 author = "Phil Waknell"
 banner = "/img/news/pro_tips_for_zoom.jpeg"
 +++
-
-
 ![](/img/news/pro_tips_for_zoom.jpeg)
 
 Zoom has become one of those tools that most people use, but how many of us have actually followed a training course on how to use Zoom properly? Not so many.
@@ -18,7 +16,7 @@ Here are some of the tips we’ve learned (often the hard way) on how to use Zoo
 
 
 
-**BEFORE**
+#### **BEFORE**
 
 **Set up parameters**
 
@@ -44,7 +42,9 @@ When streaming to YouTube, and (unless you change the setting) in your recording
 
 It’s also important to remember that on YouTube, Zoom will superimpose its watermark in the bottom-right of the screen, so it’s best to avoid using this part for anything important or text-based. Using the very bottom of the screen isn’t always good anyway, because anyone watching on YouTube and mousing-over the video window will find that their video controls will overlay over the bottom of the screen, hiding whatever is there.
 
-**DURING**
+
+
+#### **DURING**
 
 **Co-pilot / Mod**
 
@@ -70,7 +70,9 @@ It’s also very important, when one person is going to speak for some time, e.g
 
 To spotlight the speaker, a host or co-host simply goes to their name in the list of participants and clicks More, then Spotlight. The spotlight can be canceled in the same way.
 
-**AFTER**
+
+
+#### **AFTER**
 
 **Edit recording**
 
