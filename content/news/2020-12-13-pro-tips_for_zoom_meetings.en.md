@@ -92,10 +92,6 @@ Slides are not documents, documents are not slides, and people forget most of wh
 
 If you’re using Zoom for a business meeting, you may want to share a summary of the meeting and any decisions that were taken. If you’re using it for a training course, as we often do, you may want to share a detailed course workbook which gives them your full methodology, so they are not reliant on their memory if they need to apply your methods many months after your online course.
 
-
-
-
-
 These are just some of the ‘pro tips’ we can share on using Zoom. Many of these are also valid in Teams or other platforms. If you’d like our advice or help to imagine, create and deliver your webinars or online events, we’d be delighted to hear from you: just fill in the contact form below.
 
 And don’t forget to follow us on LinkedIn to be the first to hear about our upcoming webinars and events; and subscribe to us on YouTube for access to all our past webinars and videos. There’s a gold-mine of useful presentation and meeting tips in there, so go digging!
