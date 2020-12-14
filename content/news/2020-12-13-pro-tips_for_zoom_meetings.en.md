@@ -1,6 +1,6 @@
 +++
-draft = "true"
-title = "Pro-Tips for Zoom Meetings"
+draft = false
+title = "Pro Tips for Zoom Meetings"
 news = ["general"]
 date = "2020-12-14"
 author = "Phil Waknell"
