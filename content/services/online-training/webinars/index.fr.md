@@ -146,7 +146,15 @@ picture			= "ouaibinarre.jpg"
 	endtime		= "2020-12-08T14:30:00+01:00"
 	thumbnailurl= "2020-12-08-sept-peches-capitaux-presentations-en-ligne.jpg"
 	uploaddate	= "2020-12-08"
-	
+[[videoobjects]]
+	embedurl		= "afL1imveiUE"
+	description	= "Conseils de pros pour les présentations Zoom"
+	name		= "Découvrez les secrets pour devenir un pro des présentations Zoom"
+	starttime	= "2020-12-15T13:30:00+01:00"
+	endtime		= "2020-12-15T14:30:00+01:00"
+	thumbnailurl	= "2020-12-15-secrets-de-pro-zoom.jpg"
+	uploaddate	= "2020-12-15"
+
 +++
 
 ## Virtual Meeting Revolution - Webinaires Gratuits

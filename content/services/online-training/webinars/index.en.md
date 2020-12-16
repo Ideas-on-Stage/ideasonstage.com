@@ -143,10 +143,18 @@ picture			= "ouaibinarre.jpg"
 	name		= "Pro Tips for Zoom Presenters"
 	description	= "Learn the secrets to become a pro at virtual presentations"
 	embedurl		= "EETpdF1Ap80"
-	startdate	= "2020-12-10T16:00:00+01:00"
-	enddate		= "2020-12-10T17:00:00+01:00"
+	starttime	= "2020-12-10T16:00:00+01:00"
+	endtime		= "2020-12-10T17:00:00+01:00"
 	thumbnailurl= "2020-12-10-pro-tips-zoom-presenters.jpg"
 	uploaddate	= "2020-12-11"
+[[videoobjects]]
+	name		= "7 deadly sins on online presenting"
+	description	= "What not to do during an online presentation"
+	embedurl		= "avh91AoOiOQ"
+	starttime	= "2020-12-03T16:00:00+01:00"
+	endtime		= "2020-12-03T17:00:00+01:00"
+	thumbnailurl= "2020-12-03-seven-deadly-sins.jpg"
+	uploaddate	= "2020-12-15"
 	
 +++
 
