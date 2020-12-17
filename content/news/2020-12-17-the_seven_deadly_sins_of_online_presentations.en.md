@@ -14,6 +14,8 @@ Online presenting is the new normal. From the conversations we’ve had with bot
 
 These 7 sins or not deadly, nor are they exhaustive. But it is a starting point in which we can make the experience of online presentations just that little bit less painful.
 
+![](/img/news/linkedin_banner.002.jpeg)
+
 ### **Sin Number 1 - Pointless Presentations**
 
 Yes it’s true that pointless presentations hurt productivity in an office setting and online the hurt is no less painful. One question we can ask is, do we always need to be at every meeting? 
@@ -51,8 +53,6 @@ Monotony and online don’t mix. It’s a boredom cocktail. And in the words of 
 ### **Sin Number 7 – Bad Audience**
 
 Now it might seem a little surprising here, but I wanted to shift the focus to badly behaved audiences. The people who never switch their camera on in business meetings, webinar attendees who don’t mute themselves, those who are clearly not paying attention and doing something else (careful you might get a question). Try to remain attentive (it’s hard enough for a host keeping the energy up via a screen) and watch out for home deliveries where you have to leave for several minutes and you miss something. 
-
-
 
 **So there you have it. 7 sins we’ve encountered with the heavy disruption of taking business communication online. Keeping it virtuous in the virtual on a daily basis, one webinar at a time, to make it a more effective and less painful experience for everyone.** 
 
