@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Les 7 péchés capitaux des présentations en ligne"
 news = ["general"]
 date = "2020-12-09"
