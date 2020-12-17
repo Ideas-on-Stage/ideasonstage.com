@@ -94,8 +94,10 @@
 	.nav a  					{ font-size: 0.8em;		}
 	.flex-404 .error-box h1		{ font-size: 2.00em;	}
 	.flex-404 .error-box h2 		{ font-size: 1.25em;	}
+  	.footer-main-category		{ font-size: 0.8em;		}
+  	.footer-sub-category		{ font-size: 0.75em;	}
 	.form-control-nav 			{ font-size: 90%;		}
-	.people-box-name				{ font-size: 1.00em;	}
+	.people-box-name				{ font-size: 1em;		}
 	.people-box-title			{ font-size: 0.75em;	}
 	.style-slider-title 			{ font-size: 2.50em;	}
 	.style-slider-subtitle		{ font-size: 1.50em;	}
@@ -1514,6 +1516,7 @@ nav ul.iosmenu>li>ul>li>a {
   font-size: 0.8em;
   background-color: transparent;
   line-height: 20px;
+  font-weight: 400;
 }
 nav ul.iosmenu>li>ul>li:hover { color: #ff8200; }
 
@@ -2085,24 +2088,20 @@ footer li {
 .footer-main-category {
   text-transform: uppercase;
   font-weight: 700;
-  font-style: normal;
-  font-size: 0.8em;
   color: #ddd;
 }
 
 a.footer-sub-category  {
-	font-size: 1.0em;
-	text-decoration: none;
 	color: #ddd;
 	border: none;
 	line-height: 1.0em;
 	height: 1.0em;
-	text-transform: capitalize;
 	font-weight: 400;
 }
+
 .footer-main-category > a  {
-  font-weight: 700;
-  color: #ddd;
+	font-weight: 700;
+	color: #ddd;
 }
 
 .footer-social {

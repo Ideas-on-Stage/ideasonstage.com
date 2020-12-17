@@ -141,7 +141,7 @@ theme        			= "hugo-creative-theme-master"
 				url				= "#contact"
 		[params.navigation.companyitems]
 			[params.navigation.companyitems.001]
-				name			= "Ideas on Stage"
+				name			= "Ideas on Stage"
 				url				= "/about/"
 			[params.navigation.companyitems.002]
 				name			= "Team"
