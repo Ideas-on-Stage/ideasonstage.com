@@ -155,6 +155,14 @@ picture			= "ouaibinarre.jpg"
 	endtime		= "2020-12-03T17:00:00+01:00"
 	thumbnailurl= "2020-12-03-seven-deadly-sins.jpg"
 	uploaddate	= "2020-12-15"
+[[videoobjects]]
+	name		= "How TED Can Change Your Business Presentations Forever"
+	description	= "A free webinar about using TED style presentations to grow your business"
+	embedurl		= "cMDUNQS33a0"
+	starttime	= "2020-12-17T16:00:00+01:00"
+	endtime		= "2020-12-17T17:00:00+01:00"
+	thumbnailurl= "2020-12-17-ted-can-change-your-business-presentations.jpg"
+	uploaddate	= "2020-12-17"	
 	
 +++
 
