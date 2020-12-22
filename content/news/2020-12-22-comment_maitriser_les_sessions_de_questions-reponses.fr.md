@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Comment maîtriser les sessions de questions-réponses"
 news = ["general"]
 date = "2020-11-25"
