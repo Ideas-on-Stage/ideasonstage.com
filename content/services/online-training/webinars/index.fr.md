@@ -154,6 +154,14 @@ picture			= "ouaibinarre.jpg"
 	endtime		= "2020-12-15T14:30:00+01:00"
 	thumbnailurl	= "2020-12-15-secrets-de-pro-zoom.jpg"
 	uploaddate	= "2020-12-15"
+[[videoobjects]]
+	embedurl		= "02a7uvT3LGA"
+	description	= "Comment TED peut changer à tout jamais vos présentations d'entreprise"
+	name		= "Comment les présentations style TED peuvent vous aider à faire croître votre entreprise"
+	starttime	= "2020-12-22T13:30:00+01:00"
+	endtime		= "2020-12-22T14:30:00+01:00"
+	thumbnailurl	= "2020-12-22-ted-peut-changer-vos-presentations-en-entreprise.jpg"
+	uploaddate	= "2020-12-22"
 
 +++
 
