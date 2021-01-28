@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "DISCOURS D'INAUGURATION DE BIDEN : RENVERSER LE CARNAGE AMÉRICAIN"
+title = "Discours d'inauguration de Biden : renverser le carnage américain"
 news = ["general"]
 date = "2021-01-26"
 author = "Michael Rickwood"
@@ -72,3 +72,5 @@ La cérémonie d’inauguration du 20 janvier dernier avait des airs de fin de g
 Les luttes demeurent cependant, mais les progrès vont de l’avant, collectivement, douloureusement pour s'attaquer plus efficacement aux problèmes de l'Amérique, ensemble.
 
 Et il n'y a rien de tel qu'un bon discours pour commencer !
+
+![](/img/news/american-building.jpg)
