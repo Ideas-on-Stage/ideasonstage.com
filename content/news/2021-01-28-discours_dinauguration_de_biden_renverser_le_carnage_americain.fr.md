@@ -21,7 +21,7 @@ Ajoutons aussi que le but de tout discours persuasif est d’amener de votre cô
 
 Dans cet article, j’ai choisi quelques passages qui semblaient séduire la majorité du public de Biden.
 
-> \> C’est la Journée des Amériques, la Journée de la démocratie, une journée d’histoire et d’espoir, de renouveau et de détermination.
+> \> « C’est la Journée des Amériques, la Journée de la démocratie, une journée d’histoire et d’espoir, de renouveau et de détermination. »
 
 Cela s’adresse à tout citoyen qui reconnaît la démocratie américaine et valorise les libertés qu’elle défend. Il convient de noter qu'il y a des hostiles qui ne croient pas à la démocratie.
 
