@@ -552,6 +552,10 @@
 		    border-style: none;
 		    text-transform: uppercase;
 		}
+		
+		.bg-primary .button-secondary {
+			color: white !important;
+		}
 			
 		/* adapt to tall smartphone screens */
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {

@@ -5,7 +5,7 @@ description		= "International agency specialized in Presentation Creation, Busin
 picture			= "/img/ideas-on-stage.svg"
 schema			= "Website"
 
-insertsbottom	= [ "revolution", "news" ]
+insertsbottom	= [ "catalogue", "presentationscore", "revolution", "news" ]
 
 outputs			= ["html","rss","json"]
 			
