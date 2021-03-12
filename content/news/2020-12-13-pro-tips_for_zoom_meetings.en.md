@@ -3,7 +3,7 @@ draft = false
 title = "Pro Tips for Zoom Meetings"
 news = ["general"]
 date = "2020-12-14"
-author = "Phil Waknell"
+author = "Marine Bénard"
 banner = "/img/news/pro_tips_for_zoom.jpeg"
 +++
 ![](/img/news/pro_tips_for_zoom.jpeg)
