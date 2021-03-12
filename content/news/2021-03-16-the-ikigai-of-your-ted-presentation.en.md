@@ -18,7 +18,7 @@ If you ever want to speak at TED or TEDx event, you should find the ikigai of yo
 * What you can be paid for, or in the case of TEDx, what you can be invited for.
 * What the world needs, so that the topic reaches a wide audience.
 
-It is fairly close, yet different, to the three stakes that you should have in any presentation (what matters to you, what matters to the audience, what matters to people outside). By looking for the ikigai, you can avoid potential pitfalls such as
+It is fairly close, yet different, to [the three stakes that you should have in any presentation (what matters to you, what matters to the audience, what matters to people outside)](/news/2019-03-05-triple-stakes-of-great-presentations/). By looking for the ikigai, you can avoid potential pitfalls such as
 
 * Focusing only on your personal anecdotes or being too self-centered.
 * Speaking about topics that are beyond your area of expertise. I once had a well-known speaker who spoke about the vagus nerve. When I asked what it was, she told me with great aplomb that she didn’t know and didn’t care. I was not impressed.

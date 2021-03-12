@@ -19,7 +19,7 @@ Si jamais vous souhaitez prendre la parole lors d’un évènement TED ou TEDx, 
 * Ce pour quoi vous pouvez être payé, ou dans le cas de TEDx, ce pour quoi vous pouvez être invité.
 * Ce dont le monde a besoin, afin que le sujet touche un large public.
 
-Il est assez proche, mais différent, des trois enjeux que vous devriez avoir dans toute présentation (ce qui compte pour vous, ce qui compte pour votre auditoire, ce qui compte pour les personnes externes). 
+Il est assez proche, mais différent, [des trois enjeux que vous devriez avoir dans toute présentation (ce qui compte pour vous, ce qui compte pour votre auditoire, ce qui compte pour les personnes externes)](/news/2019-03-05-les-trois-enjeux-des-presentations/). 
 
 En recherchant votre ikigai, vous pouvez éviter les pièges potentiels tels que :
 
