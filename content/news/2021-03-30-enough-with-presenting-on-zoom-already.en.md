@@ -2,7 +2,7 @@
 draft = false
 date = "2021-03-30"
 title = "Enough with Presenting On Zoom Already!"
-author = "Pierre Morsa"
+author = "Michael Rickwood"
 tags = [ "Public Speaking", "Zoom" ]
 news = [ "general" ]
 banner = "/img/news/no-more-zoom.jpg"
