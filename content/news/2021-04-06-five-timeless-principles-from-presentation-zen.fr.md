@@ -1,13 +1,13 @@
 +++
-draft = true
-date = "2021-03-23"
+draft = false
+date = "2021-04-06"
 title = "5 principes intemporels de Présentation Zen"
 author = "Pierre Morsa"
 tags = [ "Prise de parole en public" ]
 news = [ "general" ]
 banner = "/img/news/presentation-zen.jpg"
 language = "fr"
-url = "/news/2021-03-23/five-timeless-principles-of-presentation-zen/"
+url = "/news/2021-04-06/cinq-principes-intemporels-de-presentation-zen/"
 +++
 
 Lors de sa première publication, le premier livre de Garr Reynolds, Presentation Zen, a eu l’effet d’une tempête dans le monde traditionnel des présentations. Cette révolution des présentations a touché un public plus large d'enthousiastes. Nous proposons de revenir sur cinq principes essentiels de ce livre qui ont résisté à l'épreuve du temps et qui peuvent encore être considérés comme les meilleures pratiques de présentation aujourd'hui.

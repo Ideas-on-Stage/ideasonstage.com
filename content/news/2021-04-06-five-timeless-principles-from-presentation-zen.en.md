@@ -1,13 +1,13 @@
 +++
-draft = true
-date = "2021-03-23"
+draft = false
+date = "2021-04-06"
 title = "5 timeless principles from Presentation Zen"
 author = "Pierre Morsa"
 tags = [ "Public Speaking" ]
 news = [ "general" ]
 banner = "/img/news/presentation-zen.jpg"
 language = "en"
-url = "/news/2021-03-23/five-timeless-principles-of-presentation-zen/"
+url = "/news/2021-04-06/five-timeless-principles-of-presentation-zen/"
 +++
 
 When it was first published, Garr Reynolds’ first book Presentation Zen took the traditional world of presentations by storm. It brought the presentation revolution to a wider audience of enthusiasts. We propose to revisit five essential principles from the book that have stood the test of time and can still be considered as best presentation practices today.

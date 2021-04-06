@@ -5,7 +5,7 @@ title = "The Ikigai of Your TED Presentation"
 author = "Pierre Morsa"
 tags = [ "Public Speaking", "TEDx" ]
 news = [ "general" ]
-banner = ""
+banner = "/img/news/tedx-tours-fusee.jpg"
 language = "en"
 +++
 

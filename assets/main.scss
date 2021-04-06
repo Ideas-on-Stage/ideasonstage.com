@@ -164,6 +164,7 @@
 		}
 
 		body {
+			margin: 0;
 			scroll-padding-top: {{ site.Params.navigation.height }};
 		  	line-height: 1.6;
 		  	color: {{ site.Params.colors.text }};

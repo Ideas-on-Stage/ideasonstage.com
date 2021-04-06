@@ -17,4 +17,11 @@
 		{{- $style := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
 		
+		
+		{{ "<!-- Carousel CSS -->" | safeHTML }}
+		<!-- 
+		<link href="/css/owl.carousel.css" rel="stylesheet" type="text/css">
+		<link href="/css/owl.theme.css" rel="stylesheet" type="text/css">
+		-->
+		
 		{{ "<!-- partials:head-css.html:end -->" | safeHTML }}
