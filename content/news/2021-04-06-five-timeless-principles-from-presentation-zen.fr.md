@@ -10,6 +10,8 @@ language = "fr"
 url = "/news/2021-04-06/cinq-principes-intemporels-de-presentation-zen/"
 +++
 
+![Présentation Zen](/img/news/presentation-zen.jpg)
+
 Lors de sa première publication, le premier livre de Garr Reynolds, Presentation Zen, a eu l’effet d’une tempête dans le monde traditionnel des présentations. Cette révolution des présentations a touché un public plus large d'enthousiastes. Nous proposons de revenir sur cinq principes essentiels de ce livre qui ont résisté à l'épreuve du temps et qui peuvent encore être considérés comme les meilleures pratiques de présentation aujourd'hui.
 
 * Papier et crayon. Il existe de nombreuses théories qui tentent d'expliquer le fonctionnement de la créativité, mais une chose est sûre : aucune d'entre elles ne vous conseille de vous mettre devant votre ordinateur, de lancer PowerPoint et de commencer à rédiger bullet points après bullet points. Au contraire, PowerPoint va tuer votre créativité et votre concentration en vous détournant de l'essentiel. C'est pourquoi Garr Reynolds et la plupart des créatifs commencent leur processus avec un stylo et du papier. Un iPad Pro avec un crayon Apple ? Pourquoi pas, mais seulement si vous êtes suffisamment à l'aise pour l'utiliser. Le fait de devoir constamment vous interrompre pour trouver « comment diable faire ça » est un tueur de créativité certain.

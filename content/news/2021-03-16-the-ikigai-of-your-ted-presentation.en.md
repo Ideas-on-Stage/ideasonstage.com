@@ -26,3 +26,5 @@ It is fairly close, yet different, to [the three stakes that you should have in 
 * Speaking about stuff that no one cares about. Some topics may be of great interest to you, but not to a larger audience.
 
 So, is your goal to be invited to speak at a TED event? Then ask yourself, “what is the ikigai of my presentation?”
+
+![TEDx Tours](/img/news/tedx-tours-fusee.jpg)

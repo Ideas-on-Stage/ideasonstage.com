@@ -28,3 +28,5 @@ En recherchant votre ikigai, vous pouvez éviter les pièges potentiels tels que
 * Choisir un sujet pour lequel aucun organisateur de TEDx ne voudra vous inviter. Certains sujets sont trop sensibles, inacceptables ou simplement interdits.
 
 Parler de choses dont personne ne se soucie. Certains sujets peuvent vous intéresser, mais pas un public plus large. Votre objectif est-il d’être invité à parler lors d’un évènement TED ? Alors posez-vous la question suivante : « Quel est l’ikigai de ma présentation ? ».
+
+![TEDx Tours](/img/news/tedx-tours-fusee.jpg)
