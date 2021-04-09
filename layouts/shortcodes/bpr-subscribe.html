@@ -1,0 +1,21 @@
+<div class="layout-shortcode bg-lightgray">
+    <div class="layout-module-column-text style-module-text">
+      <h2 class="section-heading">
+	  	Sign up
+	  </h2>
+	  <p>Yes, I believe business presentations should be powerful, so please send me the introduction to Business Presentation Revolution and regular news about publication and presentation advice (and never, ever share my email address with anyone else!)</p>
+    </div>
+    <div class="layout-content-narrow">
+		<form action="{{ $.Page.RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="magicwandForm" id="magicwandForm">
+        <div class="iosform-group">
+          <input type="hidden" name="_subject" value="Form sent from page: {{ $.Page.Permalink }}">
+        </div>
+        <div class="iosform-group">
+          <input type="email" id="email" name="email" class="iosform-control" placeholder="{{ with .Site.Params.contact.form.email.text }}{{ . | markdownify }}{{ end }}" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('{{ with .Site.Params.contact.form.email.warning }}{{ .  | markdownify }}{{ end }}');" required>
+        </div>
+        <div class="iosform-button">
+          <input type="submit" value="Sign Up" class="button-primary" success="Congratulations, you will receive an email shortly." wait="Wait...">    
+        </div>
+      </form>
+    </div>
+</div>	{{ "<!-- layout-content end -->" | safeHTML }}
