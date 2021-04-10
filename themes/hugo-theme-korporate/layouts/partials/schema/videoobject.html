@@ -1,0 +1,22 @@
+{{/* <!--
+	Official Google rich snippet type: yes
+ --> */}}
+ {{- $embedurl := .Params.embedurl -}}
+ {{- $firstchars := substr $embedurl 0 4 }}
+ {{- if ne $firstchars "http" }}
+ 	{{- $embedurl = add "https://www.youtube.com/embed/" $embedurl }}
+ {{- end }}
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org/"
+	, "@type": "VideoObject"
+	, "embedUrl": {{ $embedurl }}
+	, "name": {{ .Title }}
+	, "description": {{ .Params.description }}
+	{{ with .Params.starttime }}, "startTime": {{ . }}{{ end }}
+	{{ with .Params.endtime }}, "endTime": {{ . }}{{ end }}
+	, "thumbnailUrl": {{ add .Permalink "thumbnail.jpg" }}
+	, "transcript": {{ .Content }}
+	, "uploadDate": {{ .Params.date }}
+}
+</script>

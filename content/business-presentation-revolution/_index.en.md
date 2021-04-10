@@ -5,7 +5,7 @@ description		= "Are you tired of boring, ineffective presentations? Do you want 
 weight			= 1
 categories		= [ ]
 showrefs		= false
-showpageslist	= false
+hidepagelist		= true
 urlredirect		= ""
 url 				= "/business-presentation-revolution/"
 +++

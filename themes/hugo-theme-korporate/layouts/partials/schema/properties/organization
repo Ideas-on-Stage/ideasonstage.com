@@ -1,0 +1,8 @@
+{{- $data := "" }}
+{{- if . -}}
+	{{- $data = index site.Data.schema.organizations . -}}
+{{- else -}}
+	{{- $data = index site.Data.schema.organizations "ideasonstage" -}}
+{{- end -}}
+
+{ "@type": "{{ $data.type }}", "name": "{{ $data.name }}", "url": "{{ $data.url }}" }

@@ -1,0 +1,16 @@
+{{/* <!-- 
+ 	
+Inserts a single icon
+Used inside icon-list
+
+Example: 	
+ 
+{{< icon-list-item icon="identity.svg" description="Reinforce your identity" >}}
+
+--> */}}
+<div class="flex-child-20p">
+	<div class="style-icon paddingh-medium">
+		<img src="/icons/{{ .Params.icon }}">
+	</div>
+	<p class="style-text-icon">{{ .Params.description | markdownify }}</p>
+</div>

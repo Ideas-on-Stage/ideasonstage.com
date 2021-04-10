@@ -1,0 +1,19 @@
+{{/* <!--
+	
+	f/ispage
+	
+	Test if object is a page or list page object. Useful to determine if the object passed as argument is a page or a data file.
+	
+	Returns:
+	- true if page or list page (node), 
+	- false if not
+	
+ --> */}}
+ 
+{{ $result := false }}
+{{ if or .IsPage .IsNode }}
+	{{ $result = true }}
+{{ else }}
+	{{ $result = false }}
+{{ end }}
+{{ return $result }}

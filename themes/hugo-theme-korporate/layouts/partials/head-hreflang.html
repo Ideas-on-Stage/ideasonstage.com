@@ -1,0 +1,8 @@
+
+		{{ "<!-- partials:head-hreflang.html:start -->" | safeHTML }}
+{{- if .IsTranslated }}
+    {{- range .AllTranslations }}
+		<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+    {{- end}}
+{{- end }}
+		{{ "<!-- partials:head-hreflang.html:end -->" | safeHTML }}

@@ -1,0 +1,11 @@
+{{ "<!-- partials:inserts:module-picture-textright.html:start -->" | safeHTML }}
+<div class="layout-module module-image-left-text-right">
+	<div class="layout-module-content module-image-left-text-right image {{ partial "f/getstyle" . }}" {{ with .Params.bgcolor }}style="background-color : {{ . }};"{{ end }}>
+		{{ partial "e/link-picture.html" . }}
+	</div>
+	<div class="layout-module-content module-image-left-text-right text {{ partial "f/getstyle" . }}" {{ with .Params.bgcolor }}style="background-color : {{ . }};"{{ end }}>
+		{{ partial "e/link-title-description.html" . }}
+		{{ partial "e/button-secondary-text-only.html" . }}
+	</div>
+</div>
+{{ "<!-- partials:inserts:module-picture-textright.html:end -->" | safeHTML }}

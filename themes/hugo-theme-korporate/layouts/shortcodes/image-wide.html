@@ -1,0 +1,10 @@
+{{/* <!-- 
+ 	image-wide shortcode
+ 	
+ 	Inserts image, but with Creates a row of 3 images side by side.
+ 	Becomes 2 images side by side on ts (tall small) screens
+ 	So the ideal number of images is 6 or a multiple of 6
+ --> */}}
+<div class="layout-shortcode-img">
+	<img src="{{ .Params.src }}" {{ with .Params.alt }}alt="{{ . }}"{{ end }}>
+</div>

@@ -1,0 +1,13 @@
+{{ "<!-- partials:inserts:link-picture1-text2.html:start -->" | safeHTML }}
+<div class="layout-content {{ partial "f/getstyle" . }}">
+	<div class="flex-parent-row flex-column-reverse-ontall">
+    	<div class="flex-child 40p flex-child-image-left">
+			{{ partial "e/link-picture.html" . }}
+    	</div>
+		<div class="flex-child 60p flex-child-text-right">
+			{{ partial "e/link-title-description.html" . }}
+			{{ partial "e/button-secondary.html" . }}
+		</div>
+    </div>
+</div>
+{{ "<!-- partials:inserts:link-picture1-text2.html:end -->" | safeHTML }}

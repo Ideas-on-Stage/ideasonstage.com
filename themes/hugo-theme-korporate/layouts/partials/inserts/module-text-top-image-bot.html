@@ -1,0 +1,11 @@
+{{ "<!-- partials:inserts:module-text-top-image-bot:start -->" | safeHTML }}
+<div class="layout-module module-text-top-image-bot {{ if eq .halfwidth true }}halfwidth{{ end }}">
+	<div class="layout-module-content module-text-top-image-bot text {{ partial "f/getstyle" . }}" {{ with .Params.bgcolor }}style="background-color : {{ . }};"{{ end }}>
+		{{ partial "e/link-title-description.html" . }}
+		{{ partial "e/button-secondary.html" . }}
+	</div>
+	<div class="layout-module-content module-text-top-image-bot image {{ partial "f/getstyle" . }}" {{ with .Params.bgcolor }}style="background-color : {{ . }};"{{ end }}>
+		{{ partial "e/link-picture.html" . }}
+	</div>
+</div>
+{{ "<!-- partials:inserts:module-text-top-image-bot.html:end -->" | safeHTML }}

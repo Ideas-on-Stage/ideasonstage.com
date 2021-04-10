@@ -1,0 +1,38 @@
+
+		{{ "<!-- partials:page-slider-css.html:start -->" | safeHTML }}
+		{{- if isset .Params "slider" }}
+		{{ "<!-- Custom CSS for Slider -->" | safeHTML }}
+		<link href="/css/sliderhome.css" rel="stylesheet" type="text/css">
+		<style>
+		{{- $.Scratch.Set "counter" 0 }}
+		{{- $.Scratch.Set "counternext" 0 }}
+		{{- range .Params.slider }}
+			{{/* <!-- makes next button visible for child +1 --> */}}
+			{{- $.Scratch.Set "counternext" (add ($.Scratch.Get "counter") 1) }}
+			.heroslider > input[type="radio"]:nth-child({{($.Scratch.Get "counter")}}):checked ~ .heroslider__next > label:nth-child({{($.Scratch.Get "counternext")}}) {
+			    visibility: visible;
+			  opacity: 1 !important;
+			  z-index: 3;
+			}
+			{{/* <!-- makes previous button visible for child -1 --> */}}
+			{{- if ne 0 ($.Scratch.Get "counter") }}
+			.heroslider > input[type="radio"]:nth-child({{($.Scratch.Get "counternext")}}):checked ~ .heroslider__prev > label:nth-child({{($.Scratch.Get "counter")}}) {
+			    visibility: visible;
+			  opacity: 1 !important;
+			  z-index: 3;
+			}
+			{{- end }}
+			{{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+			.heroslider > input[type="radio"]:nth-child({{($.Scratch.Get "counter")}}):checked ~ .heroslider__items .heroslider__item:nth-child({{($.Scratch.Get "counter")}}) {
+			  visibility: visible;
+			  opacity: 1;
+			}
+			.heroslider > input[type="radio"]:nth-child({{($.Scratch.Get "counter")}}):checked ~ .heroslider__nav > label:nth-child({{($.Scratch.Get "counter")}}) {
+			  background: #ccc;
+			  cursor: default;
+			  pointer-events: none;
+			}
+		{{- end }}
+		</style>
+		{{- end }}
+		{{ "<!-- partials:page-slider-css.html:end -->" | safeHTML }}

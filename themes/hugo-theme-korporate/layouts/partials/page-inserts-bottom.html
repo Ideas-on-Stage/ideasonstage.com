@@ -1,0 +1,13 @@
+{{ "<!-- partials:page-inserts-bottom.html:start -->" | safeHTML }}
+<section id="inserts-bottom"  class="layout-module-container">
+	{{- range .Params.insertsbottom }}
+		{{- $insertalllang := index site.Data.inserts . }}
+		{{- if $insertalllang }}
+			{{- $insert := index $insertalllang site.Params.LanguageCode }}
+			{{- if $insert }}
+				{{ partial $insert.layout $insert }}
+			{{- end }}
+		{{- end }}
+	{{- end }}
+</section>
+{{ "<!-- partials:page-inserts-bottom.html:end -->" | safeHTML }}

@@ -1,0 +1,50 @@
+{{ "<!-- shortcodes:videoobjects.html:start -->" | safeHTML }}
+
+{{ "<!-- shortcodes:videoobjects.html:start -->" | safeHTML }}
+
+<div class="layout-shortcode-child">
+	{{- if .Params.title }}
+		<div class="layout-shortcode-child">
+			<h3 class="text-center">{{ .Params.title }}</h3>
+		</div>
+	{{- end }}
+</div>
+<div class="flex-parent-row paddingv-tiny">	
+	{{ range $.Page.Params.videoobjects }}		
+			<div class="revolution-box">
+				<div class="revolution-thumb-frame">
+					<div class="revolution-thumb">
+						<iframe src="https://www.youtube.com/embed/{{ .embedurl }}" allowfullscreen title="YouTube Video" style="position: relative; width: 100%; height: 200px; border:0;"></iframe>
+					</div>
+				</div>
+				
+				<div class="revolution-summary">
+					<h4 class="margin-none">{{ .name }}</h4>
+		    		<p>{{ .description }}<br />
+					{{ partial "f/getdatetime" .uploaddate }}<br />
+				</div>
+			</div>
+	{{ end }}
+</div>
+
+<div class="layout-shortcode flex-justify-center {{ with .Params.style }}{{ . }}{{ end }}">
+{{- if .Params.title }}
+	<div class="layout-shortcode-child">
+		<h3 class="text-center">{{ .Params.title }}</h3>
+	</div>
+{{- end }}
+{{- range $.Page.Params.videoobjects }}
+	<div class="flex-parent-row flex-column-ontall">
+		<div class="layout-shortcode-child flex-child-40p flex-child-40p flex-child-youtube">
+			<div class="" style="position: relative; padding-bottom: 56.25%">
+				<iframe src="https://www.youtube.com/embed/{{ .embedurl }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+			</div>
+		</div>
+		<div class="layout-shortcode-child flex-child-60p">
+			<h4 class="margin-none">{{ .name }}</h4>
+		    <p>{{ .description }}<br />
+			{{ partial "f/getdatetime" .uploaddate }}<br />
+		</div>
+	</div>
+{{- end }}
+{{ "<!-- shortcodes:videoobjects.html:end -->" | safeHTML }}

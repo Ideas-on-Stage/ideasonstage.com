@@ -1,0 +1,8 @@
+{{- $data := . }}
+{{- if (partial "f/ispage" .) }}
+	{{- $data = .Params }}
+{{- end }}
+<a href="{{ partial "f/geturl" . }}">{{ partial "e/title.html" . }}</a>
+{{- if $data.description }}
+	<a href="{{ partial "f/geturl" . }}"><p>{{ with $data.description }}{{ . | safeHTML }}{{ end }}</p></a>
+{{- end }}

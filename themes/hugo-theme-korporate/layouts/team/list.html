@@ -1,0 +1,22 @@
+{{ define "main" }}
+	{{ "<!-- team:list.html:main:start -->" | safeHTML }}
+	<section id="team-members">
+		<div class="style-text-intro">
+			{{ partial "page-content.html" . }}
+		</div>
+    	<div class="layout-content">
+		 	<div class="flex-parent-row flex-column-ontall flex-justify-start">
+				{{- range .Pages.ByWeight }}
+       			<div class="flex-basis-33p">
+	   				<a href="{{ .RelPermalink }}" class="people-box">
+	   					<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}">	
+						<h2 class="people-box-name">{{ .Params.name }}</h2>
+						<p class="people-box-title">{{ .Params.position }}</p>
+	   				</a>
+	   			</div>
+				{{- end}}
+	        </div> <!--end col -->
+	    </div>
+	</section>
+	{{ "<!-- team:list.html:main:end -->" | safeHTML }}
+{{ end }}

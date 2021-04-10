@@ -1,0 +1,65 @@
+{{/* <!--
+	
+	f/getthumbnailpicturepath
+	
+	Gets full path to thumbnail picture for page and data files.
+	Use it to get the right thumbnail pic in inserts.
+	
+	Arguments:
+	- . as .Page object or . as Data object
+	
+	Process:
+	- If page:
+		- tries to use thumbnail.jpg, then .Params.picture
+		- completes path with .RelPermalink if only picture name specified.
+	- If data from a /data file:
+		- tries to use .picture
+		- completes path with .url if only picture name specified, eg. "pic.jpg"
+	
+	Returns:
+	- relative path to thumbnail picture, empty string if not found.
+
+ --> */}}
+
+{{ $imgpath := "" }}
+{{ $picture := "" }}
+{{ $found := false }}
+{{ if partial "f/ispage" . }}
+	{{/* <!-- then this is a page, check for thumbnail.jpg in same directory --> */}}
+	{{ $thumbtest := add .File.Dir "thumbnail.jpg" }}
+	{{ if fileExists $thumbtest }}
+		{{/* <!-- then a file named thumbnail.jpg exists, use it --> */}}
+	  	{{ $picture = "thumbnail.jpg" }}
+		{{ $found = true }}
+	{{ else if .Params.picture }}
+		{{/* <!-- else if .picture exists in front matter, use it --> */}}
+		{{ $picture = .Params.picture }}
+		{{ $found = true }}
+	{{ end }}
+{{ else if (isset . "picture") }}
+	{{/* <!-- else this is a site.Data file, use .picture attribute --> */}}
+	{{ $picture = .picture }}
+	{{ $found = true }}
+{{ end }}
+
+{{ if $found }}
+	{{ $firstchar := substr $picture 0 1 }}
+	{{ $firstfour := substr $picture 0 4 }}
+	{{ if eq "/" $firstchar }}
+		{{/* <!-- if starts with / then .picture contains rel path to img --> */}}
+		{{ $imgpath = $picture }}
+	{{ else if eq "http" $firstfour }}
+		{{/* <!-- if starts with / then .picture contains abs path to img --> */}}
+		{{ $imgpath = $picture }}
+	{{ else }}
+		{{/* <!-- else .picture contains name of img, add path --> */}}
+		{{ if .RelPermalink }}
+			{{ $imgpath = path.Join .RelPermalink $picture }}
+		{{ else if (isset . "url") }}
+			{{ $imgpath = path.Join .url $picture }}
+		{{ else }}
+			{{ $imgpath = path.Join .RelPermalink $picture }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+{{ return $imgpath }}

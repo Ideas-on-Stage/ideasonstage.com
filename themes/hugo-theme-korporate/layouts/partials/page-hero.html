@@ -1,0 +1,30 @@
+{{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
+<header id="hero">
+	{{- $heropath := partial "f/getheropicturepath" . }}
+	{{- if isset .Params "slider" }}
+		{{ partial "page-slider.html" . }}
+	{{- else if $heropath }}
+		{{/* <!-- if pic exists, create hero area --> */}}
+		<div class="layout-hero">
+			{{ with .Params -}}
+				<img src="{{ $heropath }}">
+			{{- end -}}
+			{{/* <!-- adding layout-hero div corrects bug on browsers where sticky doesn't work --> */}}
+			<div class="layout-hero layout-absolute">
+			    <div class="layout-page-title style-page-title-overlay">
+		        	<h1>
+			            {{- with .Title }}{{ . | markdownify  }}{{ end -}}
+		            </h1>
+			    </div>
+			</div>
+		</div>
+	{{- else if .Title -}}
+		{{/* <!-- else if title exists, create title area --> */}}
+	    <div class="layout-page-title style-page-title">
+	    	<h1>
+	            {{ with .Title }}{{ . | markdownify  }}{{ end }}
+	        </h1>
+	    </div>
+	{{- end }}
+</header>
+{{ "<!-- partials:page-hero.html:end -->" | safeHTML }}

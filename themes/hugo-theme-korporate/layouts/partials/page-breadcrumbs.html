@@ -1,0 +1,33 @@
+{{ "<!-- partials:page-breadcrumbs.html:start -->" | safeHTML }}
+{{- if (not .IsHome) }}
+{{- if (not .Parent.IsHome) }} {{/* <!-- show only if 2 levels of depth --> */}}
+<section id="breadcrumbs" class="layout-sticky block">
+	<div class="layout-content-width">
+		<ol>
+			{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+		</ol>
+	</div>
+</section>
+{{- end }}
+{{- end }}
+
+{{- define "breadcrumbnav" }}
+	{{- if .p1.Parent }}
+		{{- template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
+	{{- else if not .p1.IsHome }}
+		{{- template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
+	{{- end }}
+	{{- if .p1.IsHome }}
+		<li>
+			<a href="{{ .p1.RelPermalink }}"><span class="fa fa-home"></span></a>
+		</li>
+	{{- else if eq .p1 .p2 }}
+		<li{{ if eq .p1 .p2 }} class="active"{{ end }}>
+			{{/* .p1.Title }} {{ <!-- currently active page --> */}}
+		</li>
+	{{- else }}
+		<li><span class="fa fa-angle-right arrow"></span></li>
+		<li><a href="{{ .p1.RelPermalink }}">{{ .p1.Title }}</a></li>
+	{{- end }}
+{{- end }}
+{{ "<!-- partials:page-breadcrumbs.html:end -->" | safeHTML }}

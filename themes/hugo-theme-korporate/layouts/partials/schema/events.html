@@ -1,0 +1,42 @@
+{{/* <!--
+	Official Google Structured data type: no
+	
+	Do not replace address with address-ios partial, as actual address may change.
+	DO NOT USE YET, IMPLEMENTATION NOT FINISHED
+ --> */}}
+		{{- range .Params.events }}{{ if gt .startdate (now.Format "2006-01-02") }}
+		<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org"
+		  , "@type": "Event"
+		  , "description": {{ .description }}
+		  , "duration": {{ .duration }}
+		  , "endDate": {{ .enddate }}
+		  , "eventAttendanceMode": {{ .eventattendancemode }}
+		  , "eventStatus": {{ .eventstatus }}
+		  , "image": {{ .image }}
+		  , "location": {{ partial "schema/properties/location" .location | safeJS }}
+		  , "name": {{ .name }}
+		  , "organizer": {{ (partial "schema/properties/organization" .organizer) | safeJS }}
+		  , "performer": {{ .performer }}
+		  , "startDate": {{ .startdate }}
+		  , "offers" : [
+			{{- $permalink := .Permalink }}
+			{{- $counter := 0 }}
+			{{- range .offers }}
+				{{- if ne 0 $counter }},{{ end }}
+				  {
+					"@type": "Offer"
+					, "url": {{ .url }}
+					, "priceCurrency": {{ .pricecurrency }}
+					, "price": {{ .price }}
+					, "availability": {{ .availability }}
+					, "seller": {{ (partial "schema/properties/organization" .seller) | safeJS }}
+					, "validFrom": {{ .validfrom }}
+				  }
+				{{- $counter = add $counter 1 }}
+			{{- end }}
+		  ]
+		}
+		</script>
+		{{- end }}{{ end }}

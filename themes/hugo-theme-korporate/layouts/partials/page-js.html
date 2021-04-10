@@ -1,0 +1,30 @@
+{{ "<!-- partials:page-js.html:start -->" | safeHTML }}
+<div id="javascript">
+
+	{{ "<!-- jQuery required for form validation -->" | safeHTML }}
+	<script src="/js/jquery.js"></script>
+	
+	{{ "<!-- Contact Form JavaScript -->" | safeHTML }}	   
+	<script>
+	  $("form").submit(function(e) {
+	    e.preventDefault();
+	    var $form = $(this);
+	    var submitButton = $('input[type=submit]', this);
+	
+	    $.post($form.attr("action"), $form.serialize()).done(function(data) {
+	        var successMessage = submitButton.attr("success");
+	        submitButton.prop('value', successMessage);
+	        alert(submitButton.attr('success'));
+	        submitButton.prop('disabled', true);
+	    }).fail(function(data) {
+	      // Optionally alert the user of an error here...
+	    });
+	  });    
+	</script>
+	
+</div>
+
+{{ "<!-- partials:page-js.html:end -->" | safeHTML }}
+
+
+

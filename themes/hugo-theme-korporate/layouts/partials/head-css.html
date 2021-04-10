@@ -1,0 +1,10 @@
+{{ "<!-- partials:head-css.html:start -->" | safeHTML }}
+
+{{ "<!-- Site CSS -->" | safeHTML }}
+{{- $style := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+{{ "<!-- Custom Fonts CSS -->" | safeHTML }}
+<link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+
+{{ "<!-- partials:head-css.html:end -->" | safeHTML }}

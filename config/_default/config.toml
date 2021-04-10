@@ -5,7 +5,7 @@ paginatePath			= "newspage"
 canonifyurls				= false
 title         			= "Ideas on Stage"
 copyright				= "© Ideas on Stage 2015 - "
-theme        			= "hugo-creative-theme-master"
+theme        			= "hugo-theme-korporate"
 
 [markup]
 	[markup.goldmark]
@@ -134,7 +134,10 @@ theme        			= "hugo-creative-theme-master"
 		[[params.navigation.resources]]
 			name			= "Guides"
 			url				= "/guides/"
-
+		[[params.navigation.resources]]
+			name		 	= "Business Presentation Revolution"
+			url			 	= "/business-presentation-revolution/"
+			
 		[params.navigation.housekeeping]
 			[params.navigation.housekeeping.001]
 				name			= "Contact"

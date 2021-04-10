@@ -1,0 +1,9 @@
+e is short for "elements"
+
+The elements folder contains very short snippets of common HTML/Hugo code that can be reused in multiple pages to help reduce the maintenance costs.
+
+Try to limit these snippets to a single html <tag></tag> element, for example:
+- <img>
+- <a>...</a>
+- <p>...</p>
+- <div>...</div>

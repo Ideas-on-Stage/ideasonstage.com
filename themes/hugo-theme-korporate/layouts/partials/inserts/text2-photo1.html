@@ -1,0 +1,12 @@
+{{ "<!-- partials:inserts:text2-photo1.html:start -->" | safeHTML }}
+<div class="layout-content {{ partial "f/getstyle" . }}">
+	<div class="flex-parent-row flex-column-ontall">
+        <div class="flex-child 60p flex-child-text-left">
+			{{ partial "e/title-description.html" . }}
+		</div>
+		<div class="flex-child 40p flex-child-image-right">
+			{{ partial "e/photograph.html" . }}
+		</div>
+	</div>
+</div>
+{{ "<!-- partials:inserts:text2-photo1.html:end -->" | safeHTML }}

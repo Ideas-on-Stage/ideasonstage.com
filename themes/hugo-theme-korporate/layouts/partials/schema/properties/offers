@@ -1,0 +1,3 @@
+[ {{ $counter := 0 }}{{ range .Params.offers }}{{ if ne 0 $counter }},{{ end -}}
+ { "@type": "Offer", "url": {{ .url }}, "priceCurrency": {{ .pricecurrency }}, "price": {{ .price }}, "availability": {{ .availability }}, "seller": {{ (partial "schema/properties/organization" .) | safeJS }} }
+  {{- $counter = add $counter 1 }}{{ end }} ]

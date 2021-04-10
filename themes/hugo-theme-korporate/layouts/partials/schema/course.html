@@ -1,0 +1,16 @@
+{{/* <!--
+	Official Google Structured data type: yes
+	
+	!!! Only use Course for real training courses, not webinars or short events.
+	Using course for "non real" courses can trigger manual action from Google.
+ --> */}}
+ {{- $permalink := .Permalink -}}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org"
+    , "@type": "Course"
+    , "name": {{ .Title }}
+    , "description": {{ .Params.description }}
+    , "provider": {{ (partial "schema/properties/organization" .Params.provider) | safeJS }}
+}
+</script>

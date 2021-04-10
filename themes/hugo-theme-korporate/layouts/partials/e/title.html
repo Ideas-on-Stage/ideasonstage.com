@@ -1,0 +1,7 @@
+{{- $data := . }}
+{{- if (partial "f/ispage" .) }}
+	{{- $data = .Params }}
+{{- end }}
+{{- if $data.title }}
+	<h3>{{ with $data.title | safeHTML }}{{ . }}{{ end }}</h3>
+{{- end }}
