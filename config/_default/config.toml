@@ -134,9 +134,9 @@ theme        			= "hugo-theme-korporate"
 		[[params.navigation.resources]]
 			name			= "Guides"
 			url				= "/guides/"
-		[[params.navigation.resources]]
-			name		 	= "Business Presentation Revolution"
-			url			 	= "/business-presentation-revolution/"
+#		[[params.navigation.resources]]
+#			name		 	= "Business Presentation Revolution"
+#			url			 	= "/business-presentation-revolution/"
 			
 		[params.navigation.housekeeping]
 			[params.navigation.housekeeping.001]
