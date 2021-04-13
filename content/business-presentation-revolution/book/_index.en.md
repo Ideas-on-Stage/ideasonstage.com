@@ -8,6 +8,7 @@ showrefs		= false
 hidepagelist		= true
 urlredirect		= ""
 url 				= "/business-presentation-revolution/book/"
+disallowbots		= true
 +++
 
 Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution.
