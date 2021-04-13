@@ -28,4 +28,4 @@ Many companies choose to combine The Business Presentation Revolution with some 
 
 To find out more about The Business Presentation Revolution and how it can help your teams to present more effectively, please fill in our contact form below.
 
-[pic1]: image.jpg
+[pic1]: public-speaking-training.jpg

@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Business Presentation Revolution"
+title 			= "Business Presentation Revolution Book"
 description		= "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution."
 weight			= 1
 categories		= [ ]
@@ -13,7 +13,7 @@ disallowbots		= true
 
 Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution.
 
-Launching on July 14th, 2021, Business Presentation Revolution turns the conventional wisdom on its head, and provides a simple, proven method for producing a delivering powerful presentations, online, on stage or in the boardroom. Author Phil Waknell has spent the last 11 years helping business leaders to stand out, and now you can learn and apply these techniques, transform your audiences, and achieve your objectives through high-impact presentations.
+Launching on July 14th, 2021, the Business Presentation Revolution book turns the conventional wisdom on its head, and provides a simple, proven method for producing a delivering powerful presentations, online, on stage or in the boardroom. Author Phil Waknell has spent the last 11 years helping business leaders to stand out, and now you can learn and apply these techniques, transform your audiences, and achieve your objectives through high-impact presentations.
 
 Why wait until July? Join the revolution now, and get the introduction completely free! Simply enter your email address below, and we’ll send you the introduction, containing an overview of the Presentation SCORE Method (or pSCORE) and the five major revolutions that will make your presentations stand out and shine. You’ll also be the first to hear about exclusive online events, offers and additional online materials that will help you to become the best presenter you can be.
 
