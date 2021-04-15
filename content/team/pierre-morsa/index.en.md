@@ -16,3 +16,4 @@ He was interviewed in the documentary “Le pouvoir des mots” for the Canadian
 He teaches brand storytelling and political storytelling at EFAP and EGE. He has a Master in Business Economics from HEC Liège.
 
 He [has a personal blog](https://www.pierremorsa.com/), in French.
+
