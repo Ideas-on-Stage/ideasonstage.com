@@ -23,13 +23,14 @@ Launching on July 14th, 2021, the Business Presentation Revolution book turns th
 
 {{% bpr-subscribe %}}
 
+Business presentations need a revolution, and the revolution needs you. You won’t regret it – and your audiences will thank you.
 Don’t keep it to yourself! Tell your colleagues, tell your pets, tell the world! Simply click on the links below to share this page so your networks can also join the revolution and help fix presentations for good!
 
 {{% bpr-automessages %}}
 
 ## About Business Presentation Revolution
 
-Business Presentation Revolution will be published by Rethink Press on July 14th, 2021 – a suitably revolutionary date. It will be available as a paperback and an e-book, and later as an audiobook, narrated by author Phil Waknell.
+Business Presentation Revolution will be published on July 14th, 2021 – a suitably revolutionary date. It will be available as a paperback and an e-book, and later as an audiobook, narrated by author Phil Waknell.
 
 It features techniques and methods developed and honed by Phil and his colleagues at Ideas on Stage, working with thousands of business presenters, entrepreneurs and TED speakers over the last 11 years.
 
