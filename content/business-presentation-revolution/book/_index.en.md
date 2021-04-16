@@ -15,7 +15,7 @@ disallowbots		= true
 
 Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution.
 
-Launching on July 14th, 2021, Business Presentation Revolution book turns the conventional wisdom on its head, and provides a simple, proven method for producing and delivering powerful presentations, online, on stage or in the boardroom.
+Launching on July 14th, 2021, Business Presentation Revolution by Phil Waknell turns the conventional wisdom on its head, and provides a simple, proven method for producing and delivering powerful presentations, online, on stage or in the boardroom.
 
 {{% bpr-subscribe %}}
 
