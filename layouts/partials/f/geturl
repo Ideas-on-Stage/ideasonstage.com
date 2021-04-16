@@ -18,6 +18,8 @@
 {{ $result := "" }}
 {{ if partial "f/ispage" . }}
 	{{ $result = .RelPermalink }}
+{{ else if isset . "link" }}
+	{{ $result = .link }}
 {{ else }}
 	{{/* <!-- else this is a site.Data file --> */}}
 	{{ $result = .url }}
