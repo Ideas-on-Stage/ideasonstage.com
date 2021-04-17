@@ -226,6 +226,10 @@
 			border-bottom: dotted 1px {{ site.Params.colors.link_hover }};
 		}
 	
+		a img {
+			border: none;
+		}
+		
 		footer {
 			background-color: #222;
 			color: #bbb;

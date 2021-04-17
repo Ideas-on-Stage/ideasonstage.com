@@ -5,23 +5,25 @@
 /* @group GLOBAL SCSS VARIABLES */
 
 	$debug: false;
+
+	$module-space: 4px;
+	$module-height: 33vw;
+	$module-height_ts: 140vw;
 	
-	$module-space-vertical: 5vw;
-	$module-space: {{ site.Params.modules.space }};
-	$module-space-2: {{ site.Params.modules.space }} * 2;
-	$module-space-3: {{ site.Params.modules.space }} * 3;
-	$module-space-4: {{ site.Params.modules.space }} * 4;
-	$module-height: {{ site.Params.modules.height }};
-	$module-height_ts: {{ site.Params.modules.height_ts }};
-	
-	$navbar-height : {{ site.Params.navbar.height }};
-	
+	$navbar-height : 52px;
+
 	$spacing-base: 24px;
 	$spacing-xl:	 96px;
 	$spacing-l:	48px;
 	$spacing-s:	12px;
 	$spacing-xs: 6px;
-	
+		
+	/* override with values defined in Hugo config file */
+	{{ with site.Params.modules.space }}$module-space: {{ . }};{{ end }}
+	{{ with site.Params.modules.height }}$module-height: {{ . }};{{ end }}
+	{{ with site.Params.modules.height_ts }}$module-height_ts: {{ . }};{{ end }}	
+	{{ with site.Params.navbar.height }}$navbar-height : {{ . }};{{ end }}
+		
 /* @end */
 
 /* @group FONT SIZES */
