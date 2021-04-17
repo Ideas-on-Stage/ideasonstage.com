@@ -38,5 +38,3 @@ You might also like to check out our [Business Presentation Revolution training 
 If you’d like to hear more about why we need a revolution, why the world needs another presentation book, and why Phil wrote Business Presentation Revolution, you’ll find the answers in this video podcast also featuring the head of Ideas on Stage USA, Rose Bloomfield.
 
 {{% youtube yHyLiVrM-J8 %}}
-
-{{% bpr-social %}}
