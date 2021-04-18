@@ -21,10 +21,6 @@ Launching on July 14th, 2021, Business Presentation Revolution by Phil Waknell t
 
 **Business presentations need a revolution, and the revolution needs you. You won’t regret it – and your audiences will thank you.**
 
-Don’t keep it to yourself! Tell your colleagues, tell your pets, tell the world! Simply click on the links below to share this page so your networks can also join the revolution and help fix presentations for good!
-
-{{% bpr-automessages %}}
-
 ## About Business Presentation Revolution
 
 Business Presentation Revolution will be published on July 14th, 2021 – a suitably revolutionary date. It will be available as a paperback and an e-book, and later as an audiobook, narrated by author Phil Waknell.
@@ -38,3 +34,5 @@ You might also like to check out our [Business Presentation Revolution training 
 If you’d like to hear more about why we need a revolution, why the world needs another presentation book, and why Phil wrote Business Presentation Revolution, you’ll find the answers in this video podcast also featuring the head of Ideas on Stage USA, Rose Bloomfield.
 
 {{% youtube yHyLiVrM-J8 %}}
+
+If you need help making your next presentation or business event a success, let us know. [You can find more details on our services here](https://www.ideasonstage.com/services/), or contact us using the form below.

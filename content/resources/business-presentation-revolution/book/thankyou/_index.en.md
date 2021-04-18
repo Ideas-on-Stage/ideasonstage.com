@@ -17,7 +17,7 @@ Congratulations on joining the Business Presentation Revolution! Please check yo
 
 You should also receive another email, asking you to confirm that you’d like to receive presentation tips and advice, and news about the book launch, webinars, etc. We’d love you to stay in touch so please click to confirm this. Of course you can unsubscribe at any time, so it’s up to us to give you useful content (without overloading your inbox) so you see the benefits. And naturally, we will not share your contact details with anyone outside Ideas on Stage.
 
-Now, as a Business Presentation Revolutionary, we hope we can count on you to convince others to join the revolution. Wouldn’t the world be a better place if every presentation was effective, interesting and enjoyable?
+Now, as a Business Presentation Revolutionary, we hope we can count on you to convince others to join the revolution. Wouldn’t the world be a better place if every presentation were effective, interesting and enjoyable?
 
 So please tell your colleagues, tell your pets, tell the world! Simply click on the links below to share this page so your networks can also join the revolution and help fix presentations for good!
 
