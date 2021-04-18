@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Business Presentation Revolution Book"
+title 			= "Podcasts"
 description		= "Do you enjoy listening to podcasts? Are you interested in leadership and communication? Then you might enjoy the Ideas on Stage Podcast."
 weight			= 1
 categories		= [ ]
