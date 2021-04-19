@@ -30,3 +30,5 @@ Thanks for sharing, we wish you happy reading, and as a last thank-you, here’s
  If you need help making your next presentation or business event a success, let us know. [You can find more details on our services here](https://www.ideasonstage.com/services/), or contact us using the form below.
  
 {{% bpr-social %}}
+
+ 
