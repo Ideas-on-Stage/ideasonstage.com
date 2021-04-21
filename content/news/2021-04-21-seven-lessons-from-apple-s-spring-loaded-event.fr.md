@@ -11,6 +11,8 @@ pushtoli = "today at 09:30"
 url = "/news/2021-04-21/sept-lecons-evenement-spring-loaded-apple/"
 +++
 
+![Apple Spring Loaded](/img/news/apple-spring-loaded.jpg)
+
 Hier, tout le monde parlait de l’événement d’Apple « Spring-loaded » sur les réseaux sociaux, et pour une bonne raison : il était tout simplement incroyable. Tout était parfait : les produits, les intervenants, les lieux, la scénographie, la réalisation. Les employés d’Apple doivent se sentir incroyablement fiers aujourd’hui après un tel événement. J’ai identifié sept éléments qui séparent Apple de ses concurrents.
 
 1. **Coaching**. Faites-vous coacher avant de prendre la parole. Si vous regardez la vidéo, la diction, la voix, la posture, le langage corporel de chaque intervenant est impeccable. Je suis toujours étonné lorsque, par exemple, je vais voir une société de conseil qui me dit que « les associés n’ont pas besoin d’être coachés ». La vérité, c’est que la plupart des associés ont désespérément besoin d’être coachés.

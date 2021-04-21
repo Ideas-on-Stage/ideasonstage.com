@@ -11,6 +11,8 @@ pushtoli = "today at 17:00"
 url = "/news/2021-04-21/seven-lessons-from-apple-spring-loaded-event/"
 +++
 
+![Apple Spring Loaded](/img/news/apple-spring-loaded.jpg)
+
 Apple’s Spring-loaded event was the talk of the internet town yesterday, and for a good reason: it was mind-blowingly great. Everything was perfect: the products, the speakers, the locations, the scenography, the production. How proud Apple employees must feel today after such a great event. I have identified seven elements that set Apple apart from its competitors.
 
 1. **Coaching**. Get public speaking coaching. If you look at the video, the delivery of each speaker is impeccable: their diction, their voice, their posture, their body language. It always amazes me when I go, for example, to some top consulting firm only to be told, “Partners don’t need to be coached.” Here is the truth: most of your partners desperately need to be coached.
