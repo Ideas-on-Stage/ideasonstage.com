@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Whose Presentation Is It Anyway?"
 news = ["general"]
 date = "2021-04-21"
