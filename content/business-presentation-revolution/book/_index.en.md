@@ -2,8 +2,6 @@
 draft 			= false
 title 			= "Business Presentation Revolution Book"
 description		= "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution."
-weight			= 1
-categories		= [ ]
 showrefs		= false
 hidepagelist		= true
 urlredirect		= ""
