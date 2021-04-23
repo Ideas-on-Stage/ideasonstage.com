@@ -1,6 +1,6 @@
 +++
 draft = true
-date = "2021-04-27"
+date = "2021-05-04"
 title = "Emotion or information: why do people buy?"
 author = "Pierre Morsa"
 tags = [ "Public Speaking" ]

@@ -6,18 +6,17 @@
 
 	$debug: false;
 
+	/* default values */
 	$module-space: 4px;
 	$module-height: 33vw;
-	$module-height_ts: 140vw;
-	
+	$module-height_ts: 140vw;	
 	$navbar-height : 52px;
-
 	$spacing-base: 24px;
 	$spacing-xl:	 96px;
 	$spacing-l:	48px;
 	$spacing-s:	12px;
 	$spacing-xs: 6px;
-		
+
 	/* override with values defined in Hugo config file */
 	{{ with site.Params.modules.space }}$module-space: {{ . }};{{ end }}
 	{{ with site.Params.modules.height }}$module-height: {{ . }};{{ end }}
@@ -43,11 +42,10 @@
 	$font-size-xxxs: 0.5em;
 
 	/* font sizes for standard tags */
-	body, blockquote						{ font-size: $font-size-base;	}
-	a									{ font-size: $font-size-m;		}
+	body, blockquote	, a					{ font-size: $font-size-base;	}
 	h1,	a h1							{ font-size: $font-size-xxxl;	}
-	h2									{ font-size: $font-size-xxl;		}
-	h3 									{ font-size: $font-size-xl;		}
+	h2, a h2							{ font-size: $font-size-xxl;		}
+	h3, a h3							{ font-size: $font-size-xl;		}
 	h4, a h4 							{ font-size: $font-size-l;		}
 	footer, footer ul					{ font-size: $font-size-s;		}
 
