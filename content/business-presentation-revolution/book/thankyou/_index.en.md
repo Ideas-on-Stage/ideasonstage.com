@@ -9,6 +9,9 @@ hidepagelist		= true
 urlredirect		= ""
 url 				= "/business-presentation-revolution/book/thankyou/"
 disallowbots		= true
+
+insertstop		= [ "catalogue", "news" ]
+
 +++
 
 ## Welcome to the Revolution
