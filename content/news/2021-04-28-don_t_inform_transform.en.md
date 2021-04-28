@@ -34,4 +34,4 @@ Yet far too many businesspeople still approach a presentation with the sole aim 
 
 For more on why presentations should rhyme with transformation, check out Phil’s TEDx talk below.
 
-{{< youtube https://www.youtube.com/watch?v=yoD8RMq2OkU >}}
+https://www.youtube.com/watch?v=yoD8RMq2OkU
