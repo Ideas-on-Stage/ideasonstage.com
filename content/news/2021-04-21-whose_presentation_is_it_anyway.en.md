@@ -22,4 +22,4 @@ The audience is the first magic ingredient of every presentation. It should be p
 
 **After all, it’s not your presentation – it’s theirs.**
 
-*This article contains extracts from Business Presentation Revolution, by Phil Waknell, published in July 2021. Download the introduction free at <http://book.businesspresentationrevolution.com> and join the revolution!*
+*This article contains extracts from Business Presentation Revolution, by Phil Waknell, published in July 2021. Download the introduction free at <https://www.ideasonstage.com/business-presentation-revolution/book/> and join the revolution!*
