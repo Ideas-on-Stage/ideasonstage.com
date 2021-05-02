@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Virtual Meeting Revolution Webinars"
+title 			= "Ideas on Stage Webinars"
 description		= "A free Webinar series to become a better presenter."
 url	 			= "/online-training/webinars/"
 picture			= "ouaibinarre.jpg"

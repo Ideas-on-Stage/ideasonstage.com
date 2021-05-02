@@ -1,6 +1,7 @@
 +++
 draft	= false
 title	= "The Business Presentation Revolution"
+url		= "/revolution/"
 +++
 
 Votre dose d'inspiration pour faire de meilleures présentations ! Ce podcast est constitué de courtes vidéos dans lesquelles nous partageons trucs et astuces sur l'art de présenter : comment se préparer, parler, établir une connexion avec le public, créer de bonnes diapositives PowerPoint, et bien plus.

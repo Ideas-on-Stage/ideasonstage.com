@@ -1,6 +1,7 @@
 +++
 draft	= false
 title	= "The Business Presentation Revolution"
+url		= "/revolution/"
 
 insertsbottom 	= [
 	"presentation-training-20",
