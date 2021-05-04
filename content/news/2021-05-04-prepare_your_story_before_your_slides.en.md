@@ -18,7 +18,7 @@ So let’s make three things very clear.
 * **Your slides are not a document**, to be shared offline as well as shown during your presentation. If you need to share something before or afterwards, send a proper standalone document, not a set of incomplete bullet-points that could be (mis)understood in many ways.
 * **You’re not there to comment on your slides.** Your slides exist to illustrate and reinforce what you say, so your audience can understand it more clearly, and remember it for longer.
 
-So we need to stop putting the cart before the horse. When we prepare a presentation, we first prepare the storyline so we know what we are going to say to the audience, and then we can ask ourselves whether, at some points, the audience will benefit from some visual aids. 
+So we need to stop [putting the cart before the horse](https://youtu.be/Vx78LJvHXyA). When we prepare a presentation, we first prepare the storyline so we know what we are going to say to the audience, and then we can ask ourselves whether, at some points, the audience will benefit from some visual aids. 
 
 ![](/img/news/bpr_overview_slides_en.004.jpeg)
 
