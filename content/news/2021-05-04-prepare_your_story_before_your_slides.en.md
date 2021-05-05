@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = " Prepare your story before your slides"
 news = ["general"]
 date = "2021-05-05"
