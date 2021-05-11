@@ -30,4 +30,4 @@ Yet still there are things that need to be changed. I have tried to collect them
 
 **Pressure to be perfect.** What’s theone thing behind most modern presenters anxiety? The raising of the bar of presentations from both the professional and the entertainment world. This has created a lot of pressure for the modern presenter, especially now much is being filmed and distributed online. Whether you are an executive, a start-up or an academic, being able to stand up and speak is an important career skill. But rest assured, no one can be better at you than you. So don’t compare yourself to others.
 
-**The solution is Revolution 5 –Aim not for perfect but personal.**
+**The solution is Revolution 5 – Aim not for perfect but personal.**
