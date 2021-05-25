@@ -26,4 +26,4 @@ I invite you to throw away the idea that you need slides. By default, assume tha
 
 But if slides are optional, a strong storyline is necessary. Prepare your story first, and then, if it will help your audience, by all means prepare some visual aids. You’ll be amazed how big a difference this simple process change can make. Often the smallest revolutions are the most important.
 
-*This article contains extracts from Business Presentation Revolution, by Phil Waknell, published in July 2021. Download the introduction free at <http://book.businesspresentationrevolution.com> and join the revolution!*
+*This article contains extracts from Business Presentation Revolution, by Phil Waknell, published in July 2021. Download the introduction free at <https://www.ideasonstage.com/business-presentation-revolution/book/> and join the revolution!*
