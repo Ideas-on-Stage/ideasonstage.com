@@ -22,6 +22,4 @@ The context should also guide your slide design choices. If you are selling your
 
 I think a lot of what I write here is common sense, practiced by many business professionals, but post-TED does present new challenges for business. By all means use TED for inspiration and to see examples of powerful presentations, but when applying that to your business presentations, remember your **boundaries**, and take care to adapt to the **context**.
 
-**When there is so much noise in our content-rich world, it’s all the more important to strike the right tone.** 
-
-To get an in-depth look in to what works for Business Presentations, read our upcoming book Business Presentation Revolution by Phil Waknell. Get the introduction free today at <http://book.businesspresentationrevolution.com>
+**When there is so much noise in our content-rich world, it’s all the more important to strike the right tone.**
