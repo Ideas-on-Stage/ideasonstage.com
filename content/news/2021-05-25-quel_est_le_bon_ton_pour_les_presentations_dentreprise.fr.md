@@ -1,0 +1,25 @@
++++
+draft = false
+title = "Quel est le bon ton pour les présentations d'entreprise ?"
+news = ["general"]
+date = "2021-05-25"
+author = "Michael Rickwood"
+banner = "/img/news/the_right_tone_of_business_presentations.jpeg"
++++
+TED nous a offert un soulagement qui a été le bienvenu dans un contexte de mort par PowerPoint. Plus courtes, plus personnelles, plus visuelles et plus mémorables, les conférences se comptent par milliers et nous offrent une plateforme d'apprentissage aussi impressionnante que Wikipedia. Les entreprises en ont bénéficié de manière miraculeuse. Garr Reynolds, auteur de Presentation Zen, a un jour inventé une expression géniale : la "TED-ification des présentations commerciales". 
+
+Grâce en partie à TED, mais aussi dans une certaine mesure aux présentations originales de Steve Jobs, nous bénéficions tous de présentations professionnelles plus simples, plus claires, plus originales, plus pertinentes et, si j'ose dire, plus divertissantes. Cependant, avec la familiarité vient le mépris et la nouvelle normalité apporte des défis. Il y a deux points essentiels dont nous devons nous souvenir lorsque nous faisons des présentations en entreprise : les limites et le contexte. 
+
+![](/img/news/the_right_tone_of_business_presentations.jpeg)
+
+Il existe des milliers de conférences TED ratées, mais même les plus grandes comportent des éléments qui ne peuvent être reproduits dans un contexte professionnel. Lorsque j'ai commencé à travailler dans le monde des affaires il y a 15 ans ici à Paris, la plupart des gens avaient pour habitude de séparer leur vie privée de leur vie professionnelle, parfois à tel point que la plupart des gens ne s'intéressaient guère à leur travail quotidien et réservaient leurs passions pour les soirées et les week-ends. Aujourd'hui, le paysage change, et je crois que c'est pour le mieux, car les gens apportent leur créativité au sein de leur travail. Mais il faut trouver un équilibre délicat. Ce que TED a encouragé, c'est la connexion entre l'orateur et l’auditoire, et cette connexion nécessite de la vulnérabilité, ce qui est célébré lors des événements TED. Toutefois, lors de présentations dans un contexte professionnel, tout en encourageant la transparence, l'inspiration, l'humour et la convivialité, vous devez éviter de franchir la frontière qui vous sépare de vos affaires personnelles.
+
+Je me souviens avoir animé un atelier dans une grande entreprise pharmaceutique il y a six ans. J'ai invité les participants à partager certaines de leurs histoires personnelles dans le cadre de l'atelier, comme un exercice d'expression orale. Alors que certains sont restés dans les limites personnelles appropriées, d'autres ne l'ont pas fait, et cela s'est lentement transformé en un exercice qui n'était pas approprié au contexte. Après avoir réalisé l'erreur, j'ai mis fin à la session en douceur. Il est vrai qu'à TED, les gens partagent des choses très personnelles ; en revanche, dans le monde des affaires, nous devons être très sélectifs. Je remarque que cela se produit également sur Clubhouse. Il s'agit souvent d'un lieu où les professionnels se rassemblent pour échanger des idées, créer un réseau et/ou vendre leurs services de conseil ou de coaching dans des salles consacrées à des sujets professionnels. Mais trop souvent, les participants deviennent trop personnels dans ces salles, vendant parfois leurs compétences ou leur expertise sur le dos d'une profonde douleur traumatique, la portant comme une médaille. Les présentations commerciales doivent être efficaces, claires et avoir un attrait émotionnel, mais les présentations commerciales et les argumentaires de vente ont vraiment besoin de limites. 
+
+Un autre problème est le non-respect du formalisme, notamment en ce qui concerne le langage : l'utilisation d'argot, de blasphèmes et de termes trop familiers, par exemple. Vous devez également éviter les contenus qui ne sont pas adaptés au contexte. De nombreuses cultures et organisations désapprouveront cette pratique. Raconter une blague qui ne convient pas pour faire rire à bon compte, ou parler de sa gueule de bois, n'est pas professionnel. Quels exemples et analogies utilisez-vous ? Sont-ils appropriés ? 
+
+Le contexte doit également guider vos choix de conception de diapositives. Si vous vendez vos services à Chanel ou à L'Oréal, je ne mettrais pas de personnages de dessins animés sur vos diapositives. Si vous faites une présentation à la Banque Mondiale sur le thème du développement de parcs éoliens aux Seychelles, devez-vous montrer une image de Love Island pour cadrer le contexte ? 
+
+Je pense qu'une grande partie de ce que j'écris ici relève du bon sens et est pratiquée par de nombreux professionnels, mais l'après-TED présente de nouveaux défis pour les entreprises. Utilisez TED pour vous inspirer et pour voir des exemples de présentations puissantes, mais lorsque vous appliquez cela à vos présentations professionnelles, n'oubliez pas vos limites et veillez à vous adapter au contexte.
+
+**Quand il y a autant de bruit dans ce monde riche en contenu, il est d'autant plus important de trouver le bon ton.**
