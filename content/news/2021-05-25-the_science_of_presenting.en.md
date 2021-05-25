@@ -1,14 +1,16 @@
 +++
-draft = "true"
+draft = false
 title = " The science of presenting"
 news = ["general"]
 date = "2021-05-26"
 author = "Phil Waknell"
-banner = "/img/news/audio-2941753_1280.jpg"
+banner = "/img/news/istock_32711818_medium.jpg"
 +++
 I’m not a motor mechanic. I don’t play with my car’s engine, hoping to make it run better, because I don’t understand how it works in detail. I leave that to experts who are professionally trained and experienced.
 
 The human brain is far more complex than an engine, and we know far less about how it works. Trying to present without learning a little about how the brain works is like throwing a spanner into a car and hoping it will fix the brakes.
+
+![](/img/news/istock_32711818_medium.jpg)
 
 Don’t worry, I’m not going to get all neurological here. I’m just going to give you a few highlights about what presenters need to know. I believe this is required knowledge for giving presentations because when you present, you’re trying to change what’s in your audience’s brains in some way. The following points are my own conclusions based on reading many books and papers, as well as my own experience. If you need to see the science behind these simple statements, I recommend the excellent *Brain Rules* by Dr. John Medina and anything by Richard Wiseman or Richard Mayer.
 
