@@ -4,11 +4,13 @@ title = "La science de la présentation"
 news = ["general"]
 date = "2021-05-26"
 author = "Phil Waknell"
-banner = "/img/news/audio-2941753_1280.jpg"
+banner = "/img/news/istock_32711818_medium.jpg"
 +++
 Je ne suis pas un mécanicien automobile. Je ne joue pas avec le moteur de ma voiture dans l'espoir de le faire fonctionner mieux, car je ne comprends pas son fonctionnement en détail. Je laisse cela aux experts, qui sont formés et expérimentés.
 
 Le cerveau humain est beaucoup plus complexe qu'un moteur, et nous en savons beaucoup moins sur son fonctionnement. Essayer de faire une présentation sans en savoir un peu plus sur le fonctionnement du cerveau, c'est comme jeter une clé à molette dans une voiture en espérant qu'elle réparera les freins.
+
+![](/img/news/istock_32711818_medium.jpg)
 
 Ne vous inquiétez pas, je ne vais pas faire un exposé de neurologie ici. Je vais simplement vous donner quelques informations sur ce que les présentateurs doivent savoir. Je pense qu'il s'agit de connaissances indispensables car lorsque vous faites une présentation vous essayez de modifier d'une manière ou d'une autre ce qui se trouve dans le cerveau de votre auditoire. Les points suivants sont mes propres conclusions basées sur la lecture de nombreux livres et articles, ainsi que sur ma propre expérience. Si vous avez besoin de voir la science derrière ces simples déclarations, je vous recommande l'excellent *Brain Rules* du Dr John Medina et tout ce qui est écrit par Richard Wiseman ou Richard Mayer.
 
