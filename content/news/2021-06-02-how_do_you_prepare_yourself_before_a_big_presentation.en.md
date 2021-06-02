@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "How do you prepare yourself before a big presentation?"
 news = ["general"]
 date = "2021-06-02"
