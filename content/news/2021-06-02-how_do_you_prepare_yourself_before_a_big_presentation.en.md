@@ -6,6 +6,8 @@ date = "2021-06-02"
 author = "Phil Waknell"
 banner = "/img/news/how_to_prepare_a_presentation_copie.jpeg"
 +++
+*In this extract from [Business Presentation Revolution](http://book.businesspresentationrevolution.com), published on July 14th 2021, I answer the important question: how do you prepare yourself before a big presentation?*
+
 Before you take the stage, you need to be comfortable. Audiences don’t appreciate speakers who haven’t prepared properly, don’t know their presentation well enough, and are visibly worrying about what to say next.
 
 ![](/img/news/how_to_prepare_a_presentation_copie.jpeg)
