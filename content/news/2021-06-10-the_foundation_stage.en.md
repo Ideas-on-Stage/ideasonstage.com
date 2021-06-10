@@ -1,6 +1,6 @@
 +++
-draft = "true"
-title = "The Foundation stage"
+draft = false
+title = "pSCORE Stage 1: Foundation"
 news = ["general"]
 date = "2021-06-10"
 author = "Phil Waknell"
