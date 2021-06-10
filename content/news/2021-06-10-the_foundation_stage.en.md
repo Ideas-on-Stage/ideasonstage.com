@@ -26,7 +26,9 @@ The first step to reaching that point, though, is to forget about what you want 
 
 By focusing on your audience right from the start, instead of on yourself, you are laying the foundation for a successful presentation. As much as possible, try not to think of your audience’s needs through the prism of your own situation. You’ll have plenty of time to think about your own objectives and messages later in the process.
 
-## Transformational
+
+
+## Transformational Objectives
 
 Fixing the presentation problem and joining the Business Presentation Revolution does not only mean creating and delivering better presentations. It also means knowing when to present – and when not to.
 
@@ -40,10 +42,10 @@ To set your transformational objectives, simply complete this sentence:
 
 Make sure the verb in the last part of the sentence is a ‘feeling’ or ‘doing’ verb. If you find yourself with the verb “know” (or something similar), ask yourself ***why*** they need to know this – and then complete the sentence again with the real objective.
 
+
+
 ## Summary
 
 The Foundation stage may not take long, but it is time too few presenters choose to spend. If you understand your audience, their burning needs and the context, and choose a few transformational objectives, then you are ready to start preparing your presentation. If not, you are shooting at an invisible target with both hands tied behind your back. Business productivity requires efficiency, but the Foundation stage is not a corner you can cut: it is the fastest path to success.
-
-If you already understand that it’s your audience’s presentation, not yours, and you should personalize it for them based on who they are, their burning needs and the context, you are one step ahead of most presenters. If you also understand that presentations are not good ways to inform people, but powerful ways to transform them, you are ten steps ahead.
 
 *Find out more about the Foundation stage, and the four other stages of the pSCORE Method, in the book Business Presentation Revolution, published in July 2021. [Get the overview free today](http://book.businesspresentationrevolution.com), and discover a better way of presenting that your audiences will love.*
