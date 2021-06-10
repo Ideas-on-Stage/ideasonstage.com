@@ -4,7 +4,7 @@ title = "The Foundation stage"
 news = ["general"]
 date = "2021-06-10"
 author = "Phil Waknell"
-banner = "/img/news/Phil Waknell - TEDx Saclay 2019.jpg"
+banner = "/img/news/foundation.jpeg"
 +++
 *Business Presentation Revolution outlines the five stages of the Presentation SCORE Method, or pSCORE, giving you a simple, proven process to follow to prepare and deliver successful presentations every time.*
 
@@ -12,7 +12,13 @@ banner = "/img/news/Phil Waknell - TEDx Saclay 2019.jpg"
 
 If you build a house on sand, it will not be stable; likewise, if you start to prepare a presentation without understanding its context or its audience, you will be setting yourself up for failure. Even if you only spend a few minutes on your foundation, those will be the most important minutes you spend on your presentation.
 
-By the end of the Foundation stage, you’ll have a clear transformational objective for your presentation and a good understanding of your audience, and you’ll be ready to begin thinking about what to say.The first step to reaching that point, though, is to forget about what you want to say. Put that to one side for now and focus on your audience, their burning needs and the context in which your presentation will happen – the ABC of presentation preparation:
+By the end of the Foundation stage, you’ll have a clear transformational objective for your presentation and a good understanding of your audience, and you’ll be ready to begin thinking about what to say.
+
+![](/img/news/foundation.jpeg)
+
+## Start With ABC
+
+The first step to reaching that point, though, is to forget about what you want to say. Put that to one side for now and focus on your audience, their burning needs and the context in which your presentation will happen – the ABC of presentation preparation:
 
 * **Audience:** a clear and detailed understanding of the people who will watch and listen to your presentation.
 * **Burning needs:** knowing what keeps these people awake at night, their problems and their objectives.
