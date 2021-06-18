@@ -50,6 +50,8 @@ For example, still using the example of a CEO of a 1000-person company:
 * They believe you will announce job losses (speculation).
 * They believe the company strategy is crazy (judgment).
 
+
+
 3. **What do they feel?**
 
 This is their emotional state as it relates to your presentation, before you begin.
