@@ -50,8 +50,6 @@ Par exemple, toujours dans l'exemple d'un PDG d'une entreprise de 1000 personnes
 * Ils pensent que vous allez annoncer des suppressions d'emplois (spéculation).
 * Ils pensent que la stratégie de l'entreprise est folle (jugement).
 
-
-
 3. **Que ressentent-ils ?**
 
 Il s'agit de leur état émotionnel par rapport à votre présentation, avant que vous ne commenciez.
@@ -76,7 +74,7 @@ C'est là qu'intervient la colonne du milieu : la colonne de la transformation. 
 
 Une fois que vous avez rempli votre colonne Transformation avec des notes autocollantes sur la façon dont vous pouvez changer ce que votre auditoire sait, croit, ressent et fait, placez ces notes autocollantes dans un ordre logique, comme des jalons, et vous obtiendrez une première version de la structure de votre présentation.
 
-Les étapes Fondation et Idéation vous mettront sur la voie du succès si vous prenez le temps de les réaliser ; pourtant, la plupart des présentateurs ne font pas cet effort. Si vos objectifs valent la peine de prendre le temps de les présenter à votre auditoire, ils valent aussi le temps de la préparation. Si vous réussissez votre préparation, vous réussirez probablement votre présentation.
+*Les étapes Fondation et Idéation vous mettront sur la voie du succès si vous prenez le temps de les réaliser ; pourtant, la plupart des présentateurs ne font pas cet effort. Si vos objectifs valent la peine de prendre le temps de les présenter à votre auditoire, ils valent aussi le temps de la préparation. Si vous réussissez votre préparation, vous réussirez probablement votre présentation.*
 
 Vous trouverez plus d'informations sur le Parcours de Transformation de l’Auditoire [ici](https://www.ideasonstage.fr/services/conseil-communication/parcours-transformation-auditoire/), ainsi qu'un modèle téléchargeable. Vous pouvez également en apprendre davantage sur ce sujet dans le discours TEDx ci-dessous.
 
