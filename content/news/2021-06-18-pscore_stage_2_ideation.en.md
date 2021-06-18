@@ -38,17 +38,17 @@ For example, they may know the sales figures this quarter are 30% down versus la
 
 This includes things they think they know but which we cannot put in the ‘know’ section for one of the following reasons:
 
-* * They are wrong.
-  * They aren’t sure.
-  * They are speculating about what might happen.
-  * They are making a judgment.
+* They are wrong.
+* They aren’t sure.
+* They are speculating about what might happen.
+* They are making a judgment.
 
 For example, still using the example of a CEO of a 1000-person company:
 
-* * They believe you will take a bonus despite the poor results (wrong).
-  * They believe you’ve been looking for an excuse to reduce headcount (unsure).
-  * They believe you will announce job losses (speculation).
-  * They believe the company strategy is crazy (judgment).
+* They believe you will take a bonus despite the poor results (wrong).
+* They believe you’ve been looking for an excuse to reduce headcount (unsure).
+* They believe you will announce job losses (speculation).
+* They believe the company strategy is crazy (judgment).
 
 3. **What do they feel?**
 
