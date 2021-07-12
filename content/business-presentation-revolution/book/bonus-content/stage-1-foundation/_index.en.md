@@ -12,7 +12,7 @@ The additional resources for this stage should help you to create a strong found
 
 ## Useful Articles
 
-[An overview of the Foundation stage](https://www.ideasonstage.com/news/2021/06/10/2021-06-10-the_foundation_stage/)
+* [An overview of the Foundation stage](https://www.ideasonstage.com/news/2021/06/10/2021-06-10-the_foundation_stage/)
 
 ## Video Resources
 

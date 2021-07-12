@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Business Presentation Revolution Book"
+title 			= "Business Presentation Revolution - The Book"
 description		= "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution."
 showrefs		= false
 hidepagelist		= true
@@ -9,26 +9,48 @@ url 				= "/business-presentation-revolution/book/"
 disallowbots		= true
 +++
 
-## Business Presentation Revolution Book
+## Business Presentation Revolution – The Book
 
 Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution.
 
-Launching on July 14th, 2021, Business Presentation Revolution by Phil Waknell turns the conventional wisdom on its head, and provides a simple, proven method for producing and delivering powerful presentations, online, on stage or in the boardroom.
+Written by Phil Waknell, co-founder and Chief Inspiration Officer at Ideas on Stage, this book turns the conventional wisdom on its head, and provides a simple, proven method for producing and delivering powerful presentations, online, on stage or in the boardroom.
+
+Business Presentation Revolution is available as a paperback from all good booksellers, and as an e-book from Amazon.
+
+{{% picture1-text2 picture="bpr-book.jpg" %}}> “The business world needs leaders, and leaders need this book.” <br />– Garr Reynolds, author of Presentation Zen{{% /picture1-text2 %}}
 
 {{% bpr-subscribe %}}
 
-**Business presentations need a revolution, and the revolution needs you. You won’t regret it – and your audiences will thank you.**
 
 ## About Business Presentation Revolution
 
-Business Presentation Revolution will be published on July 14th, 2021 – a suitably revolutionary date. It will be available as a paperback and an e-book, and later as an audiobook, narrated by author Phil Waknell.
-
-It features techniques and methods developed and honed by Phil and his colleagues at Ideas on Stage, working with thousands of business presenters, entrepreneurs and TED speakers over the last 11 years.
-
 Covering all stages of the presentation process, from a blank page through to successful delivery in front of your audience, Business Presentation Revolution is packed with stories, techniques and actionable presentation tips that will help you to make a difference every time you speak.
 
-You might also like to check out our [Business Presentation Revolution training courses](/presentations-training/the-business-presentation-revolution/) and keynotes, bringing these methods to life and inspiring your teams to revolutionize their own presentations.
+You might also like to check out our [Business Presentation Revolution training courses](https://www.ideasonstage.com/presentations-training/the-business-presentation-revolution/) and keynotes, bringing these methods to life and inspiring your teams to revolutionize their own presentations.
 
-If you’d like to hear more about why we need a revolution, why the world needs another presentation book, and why Phil wrote Business Presentation Revolution, you’ll find the answers in this video podcast also featuring the head of Ideas on Stage USA, Rose Bloomfield.
+## Praise for Business Presentation Revolution
 
-{{% youtube yHyLiVrM-J8 %}}
+> "Are you wondering how to enchant your audience? How to make a stronger impact in your next presentations? Phil's methodology is clear and priceless.
+Read this book and learn from probably the most enthusiastic and passionate business presentation specialist!" 
+<br />- Catherine Marchand, Executive VP, Merchandising & Design, Lacoste
+
+> "I used to waste days preparing business presentations, thinking there must be a better way. Thanks to Phil and his methods, I spend less time for better results. What a liberation!" 
+<br />- Nicolas Beau, Global Head, Watch and Fine Jewelry Business Development, CHANEL
+
+> "Many business-critical ideas are expressed poorly, hence they are hardly heard and change little. Phil Waknell's book is set to repair this injustice. If you need to lead through ideas, this book is for you." 
+<br />- Isaac Getz, Professor, ESCP Business School, and author of Freedom, Inc. and Leadership Without Ego
+
+> "The business world needs leaders, and leaders need this book. Phil Waknell will absolutely change the way you present. A surefire method for presentation success." 
+<br />- Garr Reynolds, author, Presentation Zen
+
+> "Edgar Morin said that the complex is something we cannot explain. When explained, the complex becomes evident. It is this process of transforming complexity into simplicity in communication that I've found in this book. And the only word to correctly describe this process is truly 'art'." 
+<br />- Paulo Magalhães, Founder and President, Common Home of Humanity
+
+> "When the Beatles sang about revolution and wanting to change the world, they might have had Phil Waknell's excellent new book, Business Presentation Revolution, in mind! Waknell, the Chief Inspiration Officer of presentation company Ideas on Stage, pulls back the curtain to reveal how you can capture hearts and minds, change the world - and, yes, even start a revolution by enhancing your public speaking skills using his powerful and revolutionary methods." 
+<br />- Todd Cherches, CEO of BigBlueGumball, and author of VisuaLeadership: Leveraging the Power of Visual Thinking in Leadership and in Life
+
+> "I've had the privilege of working with Phil for the past five years - his know-how and methodology are both essential and inspirational. Welcome to the revolution!" 
+<br />- Christopher Bailey, CEO, Colombus Consulting
+
+> "I wholeheartedly share the purpose of this book, to improve the way we do presentations. This book summarizes more than a decade of Phil's experience as a presentation coach, and the tools revealed in this book will make your presentations more effective and enjoyable - not only for you, but, most importantly, for your audience. As Founder of the WikiStage Conferences, if I could make all of our speakers read this book and prepare their talks based on it, I would do it. This is a revolution worth joining." 
+<br />- Johannes Bittel, Founder, WikiStage.org

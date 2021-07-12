@@ -11,6 +11,8 @@ disallowbots		= true
 
 At Ideas on Stage, we have been revolutionizing presentations since 2010. Discover our most popular training and coaching services, and inspiring keynotes and webinars, together with a full set of resources including the book, short videos, and our podcast about better presenting.
 
+{{% link-picture1-text2 link="/business-presentation-revolution/book/" title="Book" picture="thumbnail.jpg" %}}Business Presentation Revolution, written by our co-founder and Chief Inspiration Officer Phil Waknell, will change the way you think about presentations. Find out more about this ground-breaking book.{{% /link-picture1-text2 %}} 
+
 {{% link-picture1-text2 link="/presentations-training/the-business-presentation-revolution/" title="Training" picture="/presentations-training/the-business-presentation-revolution/thumbnail.jpg" %}}Our flagship presentation training course, delivered in person or online.{{% /link-picture1-text2 %}}
 
 {{% link-picture1-text2 link="/public-speaking-coaching/" title="Coaching" picture="/public-speaking-coaching/wikistage-wbg-2015.jpg" %}}Individual speaker coaching to help you revolutionize the way you present, with our experienced presentation coaching specialists.{{% /link-picture1-text2 %}}
@@ -20,8 +22,6 @@ At Ideas on Stage, we have been revolutionizing presentations since 2010. Discov
 {{% link-picture1-text2 link="/online-training/webinars/" title="Webinars" picture="/online-training/webinars/thumbnail.jpg" %}}Watch our webinars.{{% /link-picture1-text2 %}} 
 
 {{% link-picture1-text2 link="/business-events/keynotes/" title="Keynotes" picture="/business-events/keynotes/thumbnail.jpg" %}}Book one of our professional speakers to inspire your audiences online, or at conferences and business meetings.{{% /link-picture1-text2 %}}
-
-{{% link-picture1-text2 link="/business-presentation-revolution/book/" title="Book" picture="thumbnail.jpg" %}}Business Presentation Revolution, by our co-founder and Chief Inspiration Officer Phil Waknell, will be available in July 2021 – get the introduction free now on our book page.{{% /link-picture1-text2 %}} 
 
 {{% link-picture1-text2 link="/revolution/" title="Videos" picture="/revolution/thumbnail.jpg" %}}Short videos featuring important presentation tips.{{% /link-picture1-text2 %}} 
 
