@@ -27,9 +27,6 @@ Here are downloadable storyline outlines with examples, together with a printabl
 * [3.3. Storyline 3: Proposal](bpr-bonus-3-3-storyline-3-proposal-pdf.zip)
 * [3.4. Storyline 4: Recommendation](bpr-bonus-3-4-storyline-4-recommendation-pdf.zip)
 * [3.5. Storyline 5: Executive Committee](bpr-bonus-3-5-storyline-5-executive-committee-pdf.zip)
-* [3.6. Storyline 6: Project Presentation]()
-* [3.7. Storyline 7: Product Launch]()
-* [8.8. Storyline 8: Investor Pitch]()
 
 ## Stage 4: Illustration
 
