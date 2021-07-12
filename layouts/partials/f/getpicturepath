@@ -36,7 +36,7 @@
 		{{ $found = true }}
 	{{ end }}
 {{ else if (isset . "picture") }}
-	{{/* <!-- else this is a site.Data file, use .picture property --> */}}
+	{{/* <!-- else it can be a data or shortcode file, use .picture property --> */}}
 	{{ $picture = .picture }}
 	{{ $found = true }}
 {{ end }}
