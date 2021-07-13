@@ -15,7 +15,7 @@ schema			= "Course"
 Prochaine date : **Jeudi 23 janvier 2020**  - (en anglais) <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="button-primary btn-register">Inscrivez-vous</a>
 -->
 
-![Lorsque vous parlez avec votre équipe](women-on-stage-01.jpg)
+![Lorsque vous parlez avec votre équipe](women-on-stage-02.jpg)
 
 Confiance. Présence. Leadership. Au cours de cette formation de développement professionnel, les participantes apprendront les fondamentaux d’une présentation réussie tout en abordant certaines problématiques rencontrées par les femmes lorsqu'elles prennent la parole.
 
@@ -30,7 +30,7 @@ Sur un ou deux jours (selon la demande), nous proposons aux participantes des te
 Initié par Marion Chapsal, *Women on Stage* devient *« 2.0 »* grâce à deux nouveaux porte-paroles : [Rose Bloomfield](https://www.ideasonstage.fr/equipe/rose-bloomfield/) et [Frédéric-Pascal Stein](https://www.ideasonstage.fr/equipe/frederic-pascal-stein/). La vie n’est pas un club réservé aux femmes. C’est la raison pour laquelle nous avons créé un espace de travail équilibré, animé par un homme et une femme, qui facilitera les discussions et les exercices pratiques tout en sensibilisant et en développant les compétences orales. Rose et Frédéric-Pascal associent de manière dynamique expérience professionnelle et expertise en communication, leur permettant ainsi de s’adapter aux besoins et au niveau de chaque groupe.
 
 
-![Lors d'une présentation à une conférence](women-on-stage-02.jpg)
+![Lors d'une présentation à une conférence](women-on-stage-03.jpg)
 
 ## Pourquoi Women on Stage ? 
 
@@ -46,7 +46,7 @@ Nous avons le choix : attendre encore une décennie ou plus pour que nos paroles
 
 Vous a-t-on déjà coupé l’herbe sous le pied au moment d’exprimer vos idées ? Vous êtes-vous déjà sentie dans une impasse en tant que manager ? Avez-vous eu du mal à faire confiance à votre voix pour susciter engagement ou implication ?
 
-![Les défis féminins](women-on-stage-03.jpg)
+![Les défis féminins](women-on-stage-04.jpg)
 
 Trop de femmes, actives, fortes, impliquées et haut placées luttent encore pour être reconnues et entendues. Trop de femmes hésitent encore avant de partager leur point de vue, sentant leur gorge se serrer et manquant d’air au moment de s’exprimer. Trop de femmes n’osent pas agir, prendre de décisions, s’habiller ou s’exprimer librement, de peur d’être critiquées ou sanctionnées. Pourquoi ?
 
@@ -60,7 +60,7 @@ Trop de femmes, actives, fortes, impliquées et haut placées luttent encore pou
 
 Cet atelier ne repose pas sur l'idée que les femmes seraient des victimes, mais simplement que **toute évolution repose sur une prise de conscience**. Nous devons identifier les défis et les obstacles auxquels nous sommes confrontées pour pouvoir les surmonter et atteindre un équilibre satisfaisant, libérateur et fructueux. Pour aller plus loin, rejoignez-nous. 
 
-![Woman asking a question](women-on-stage-04.jpg)
+<!-- ![Woman asking a question](women-on-stage-04.jpg) -->
 
 *Women on Stage 2.0 est votre accélérateur personnel pour devenir plus visible, présente et libre.*
 
