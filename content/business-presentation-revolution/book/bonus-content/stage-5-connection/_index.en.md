@@ -62,4 +62,4 @@ In addition to Business Presentation Revolution, we recommend reading other usef
 
 A final word on the Connection stage: be aware that most of the good speakers you see online, at TED conferences or at big events have probably prepared with a specialist presentation coach. Whether you need to up your game, or just need a little help to make your next presentation a resounding success, contact us using the form below. We’d be delighted to hear from you.
 
-[Click here to go back to the main Business Presentation Revolution Bonus Resources page](https://www.ideasonstage.com/business-presentation-revolution/bookcontent/)
+[Click here to go back to the main Business Presentation Revolution Bonus Resources page](/business-presentation-revolution/book/bonus-content/)

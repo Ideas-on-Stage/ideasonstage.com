@@ -52,4 +52,4 @@ In addition to Business Presentation Revolution, we recommend reading other usef
 * [Presentation Zen, by Garr Reynolds](https://www.amazon.com/Presentation-Zen-Simple-Design-Delivery/dp/0135800919/ref=sr_1_1)
 * [TED Talks, by Chris Anderson](https://www.amazon.com/TED-Talks-Official-Public-Speaking/dp/1328710289)
 
-[Click here to go back to the main Business Presentation Revolution Bonus Resources page](https://www.ideasonstage.com/business-presentation-revolution/bookcontent/)
+[Click here to go back to the main Business Presentation Revolution Bonus Resources page](/business-presentation-revolution/book/bonus-content/)

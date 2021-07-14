@@ -50,4 +50,4 @@ In addition to Business Presentation Revolution, we recommend reading other usef
 * [VisuaLeadership, by Todd Cherches](https://www.amazon.com/VisuaLeadership-Leveraging-Visual-Thinking-Leadership/dp/1642933376/)
 * [Better Presentations, by Jonathan Schwabish](https://www.amazon.com/Better-Presentations-Guide-Scholars-Researchers/dp/0231175213/)
 
-[Click here to go back to the main Business Presentation Revolution Bonus Resources page](https://www.ideasonstage.com/business-presentation-revolution/bookcontent/)
+[Click here to go back to the main Business Presentation Revolution Bonus Resources page](/business-presentation-revolution/book/bonus-content/)

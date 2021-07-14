@@ -26,4 +26,4 @@ There is a set of 20 questions to answer about your Audience, their Burning Need
 
 {{% bpr-form-bonus-download %}}
 
-[Click here to go back to the main Business Presentation Revolution Bonus Resources page](https://www.ideasonstage.com/business-presentation-revolution/bookcontent/)
+[Click here to go back to the main Business Presentation Revolution Bonus Resources page](/business-presentation-revolution/book/bonus-content/)

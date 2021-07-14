@@ -40,4 +40,4 @@ In addition to Business Presentation Revolution, we recommend reading other usef
 * [The Art of Thought, by Graham Wallas](https://www.amazon.com/Art-Thought-Graham-Wallas/dp/1910146056/ref=sr_1_1)
 * [Presentation Zen, by Garr Reynolds](https://www.amazon.com/Presentation-Zen-Simple-Design-Delivery/dp/0135800919/ref=sr_1_1)
 
-[Click here to go back to the main Business Presentation Revolution Bonus Resources page](https://www.ideasonstage.com/business-presentation-revolution/bookcontent/)
+[Click here to go back to the main Business Presentation Revolution Bonus Resources page](/business-presentation-revolution/book/bonus-content/)
