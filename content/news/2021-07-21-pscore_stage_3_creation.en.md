@@ -10,9 +10,11 @@ banner = "/img/news/creation.jpeg"
 
 *In this extract from Business Presentation Revolution, author Phil Waknell outlines the third stage: Creation.*
 
-In the first and second stages, you should already have studied your Audience, their Burning needs and the Context (ABC), set one or more objectives for transforming what your audience believes, feels and/or does, and found all the raw materials necessary to achieve those objectives. In the Creation phase, you mix all these ingredients together using the art of storytelling, ending up with a compelling storyline for your presentation.The key revolution here is that you need to create your storyline before you start producing any slides. Too many presenters move straight ahead and open PowerPoint, producing many slides but without thinking about what they’re going to say. Slides exist to illustrate what you’re saying: you’re not there to comment on slides.
+In the first and second stages, you should already have studied your Audience, their Burning needs and the Context (ABC), set one or more objectives for transforming what your audience believes, feels and/or does, and found all the raw materials necessary to achieve those objectives. In the Creation phase, you mix all these ingredients together using the art of storytelling, ending up with a compelling storyline for your presentation.
 
 ![](/img/news/creation.jpeg)
+
+The key revolution here is that you need to create your storyline before you start producing any slides. Too many presenters move straight ahead and open PowerPoint, producing many slides but without thinking about what they’re going to say. Slides exist to illustrate what you’re saying: you’re not there to comment on slides.
 
 Instead, we’ll apply the art of storytelling. Even if your sales targets have nothing to do with fantasy or your product’s advertised features aren’t just a fairy-tale, storytelling is the most effective way to get your message across to your audience.
 
@@ -39,21 +41,13 @@ Here’s a summary of the steps to follow in the Creation phase, as explained in
  **\- What next?** Now they understand what you are saying and why it is important to them, what do you need from them?
 
 2. **Clear and Related**: Choose a structure that suits your objectives and the ABC of your presentation.
-
 3. Take the content ideas from your Ideation brainstorm and plug them into the structure you chose. Discard what you don’t need and fill in any gaps.
-
 4. **Original and Enjoyable**: If you wish, build in a concept or theme that makes the presentation more memorable.
-
 5. Include some anecdotes or examples to make your key messages stick and keep your audience’s attention.
-
 6. Wake up your audience and turn over the hourglass of their attention with a **MAGIQ Moment**: something you say, show or do that Makes A Great Impression Quickly.
-
 7. Use your elevator pitch as the basis for a **conclusion** that reminds your audience of your key messages, explains why they are important and relevant to them, and tells them what you want them to remember, believe, feel and/or do afterwards: the “What?” the “So what?” and the “What next?”
-
 8. If you have a big enough audience, prepare a powerful last line and finish with a simple “Thank you” to make them want to clap and to give them their cue.
-
 9. Prepare an **introduction** that creates an emotional reaction in your audience and makes them feel like they want to listen. Then, and only then, consider adding an agenda.
-
 10. Finally, make sure your presentation is a personal talk from you to your audience. If someone else could deliver it, or if you could deliver it to another audience, it’s not personal enough.
 
 Following these steps will put you way ahead of most presenters and ensure your storyline grabs their attention, and keeps it until the end, communicating your key messages memorably. This matters because attention leads to action, and only an attentive audience can help you achieve your transformational objectives.
