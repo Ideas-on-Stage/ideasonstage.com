@@ -32,9 +32,11 @@ Here’s a summary of the steps to follow in the Creation phase, as explained in
 
 1. **Simple**: After completing the Foundation and Ideation phases, create a seventy-word ‘elevator pitch’, answering the questions: “What? So what? What next?” This will help you identify your key messages and provides a good first draft of your conclusion.
 
-* **What?** What are the key messages they should remember?
-* **So what?** Why are these messages important to them?
-* **What next?** Now they understand what you are saying and why it is important to them, what do you need from them?
+ **\- What?** What are the key messages they should remember?
+
+ **\- So what?** Why are these messages important to them?
+
+ **\- What next?** Now they understand what you are saying and why it is important to them, what do you need from them?
 
 2. **Clear and Related**: Choose a structure that suits your objectives and the ABC of your presentation.
 
