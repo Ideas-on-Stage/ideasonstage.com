@@ -7,8 +7,10 @@ url			= "/team/andrea-pacini/"
 weight		= 210
 schema		= "person"
 +++
-Andrea has an extensive sales experience in a large organisation in London, driving innovation and business development projects with major UK clients.
+Andrea is our Presentation Director for the UK.
 
-Always passionate about the power of great presentations, he was the founder of Absolute Presentations, an agency based in London that specialised in helping small entrepreneurs create and deliver engaging business presentations. 
+Since he joined Ideas on Stage, he has worked with many business leaders, including clients like General Assembly, Fiverr, ISTAO Business School, as well as TEDx speakers. Andrea is also the main voice of the Ideas on Stage Podcast.
 
-In 2019, he decided to join the Business Presentation Revolution by becoming part of the Ideas on Stage family as Presentation Director for the UK.
+He specialises in working with established business owners who want to grow their business and increase their influence through great presenting.
+
+Andrea is on a mission to change the way people think about presenting. He is a big advocate of business as a force for good and his 10-year vision is to help 1,000 purpose-driven entrepreneurs share their message, make an impact and be memorable.
