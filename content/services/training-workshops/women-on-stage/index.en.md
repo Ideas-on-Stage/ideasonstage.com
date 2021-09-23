@@ -13,7 +13,7 @@ schema		= "Course"
 
 <!-- Next date: **Thursday, January 23, 2020** - (English)   <a href="https://www.eventbrite.fr/e/women-on-stage-20-in-english-registration-75677839455" target="_blank" class="button-primary button-register">Click here to read full event details</a> -->
 
-![When speaking with your team](women-on-stage-02.jpg)
+![When speaking with your team](women-on-stage-01.jpg)
 
 Authenticity. Confidence. Leadership. In this professional development training participants will learn the fundamentals of what makes a successful presentation while addressing the specific challenges women face when speaking up.
 
@@ -27,7 +27,7 @@ Across one or two days (depending on group request), we will offer participants 
 
 Originally brought to life by Marion Chapsal, today *Women on Stage “goes 2.0”* with two new torchbearers: [Rose Bloomfield](https://www.ideasonstage.com/team/rose-bloomfield/) and [Frédéric-Pascal Stein](https://www.ideasonstage.com/team/frederic-pascal-stein/). Life is not a women’s only club. Which is why we have created a balanced work space with both male and female facilitation of an agenda rich with discussion and hands-on exercises that will raise awareness and develop speaking skills. Rose and Frédéric-Pascal provide a dynamic blend of professional experience and communication expertise allowing them to adapt to the needs and level of each group.
 
-![When presenting at a conference](women-on-stage-03.jpg)
+![When presenting at a conference](women-on-stage-02.jpg)
 
 ## Why Women on Stage?
 
@@ -43,7 +43,7 @@ We have a choice: wait another decade or more for our words and actions to slowl
 
 Have you felt cut off when speaking in a meeting? Have you felt caught in the double bind of how to act as a leader? Have you struggled with trusting your voice to rally engagement and buy-in?
 
-![Challenges Women Face](women-on-stage-04.jpg)
+![Challenges Women Face](women-on-stage-03.jpg)
 
 Too many strong, accomplished, top-tier professional women are still struggling to be heard. Too many women still hesitate before sharing their point of view, feeling their throat tighten and breath shorten in the same moment they would otherwise speak. And too many women don’t act, or make the intuitive decision, dress authentically, or express themselves freely for fear of being criticised—or worse, dismissed. But why?
 
@@ -54,7 +54,7 @@ Too many strong, accomplished, top-tier professional women are still struggling 
 
 This workshop is not built upon the idea that women are victims, but we do believe that we must begin with awareness of the challenges and blocks we face so we can move through acceptance and into fulfilling, liberating, fruitful balance. To go deeper, join the discussion. 
 
-<!-- ![Woman asking a question](women-on-stage-04.jpg) -->
+![Woman asking a question](women-on-stage-04.jpg)
 
 “**Women on Stage 2.0** *is your personal accelerator program to become more visible, present and free.”*
 
