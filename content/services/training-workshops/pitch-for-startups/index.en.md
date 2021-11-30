@@ -1,5 +1,6 @@
 +++
 draft		= false
+weight      = 30
 title		= "Startups on Stage"
 description = "Learn to deliver a killer pitch from experienced coaches who've worked with hundreds of start-ups."
 url 			= "/presentations-training/pitch-for-startups/"

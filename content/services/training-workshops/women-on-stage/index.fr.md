@@ -1,5 +1,6 @@
 +++
 draft			= false
+weight			= 10
 title			= "Women on Stage 2.0"
 description		= "Women On Stage 2.0 est un atelier de prise de parole en public et de développement professionnel dédié aux femmes dirigeantes qui souhaitent faire entendre leur voix, être source d’inspiration et prendre la parole avec confiance."
 url		 		= "/formation-presentations/women-on-stage/"

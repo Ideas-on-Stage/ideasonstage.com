@@ -1,5 +1,6 @@
 +++
 draft		= false
+weight			= 30
 title		= "Pitch pour Startups"
 description = "Apprenez les secrets du pitch, par une équipe de coachs qui a collaboré avec des centaines de startups."
 url 			= "/formation-presentations/pitch-pour-startups/"
