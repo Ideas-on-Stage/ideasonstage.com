@@ -1,7 +1,7 @@
 +++
 draft = false
 date = "2021-12-07"
-title = "Boris Jonson’s Peppa Pig Moment"
+title = "Boris Johnson’s Peppa Pig Moment"
 author = "Michael Rickwood"
 tags = [ "Public Speaking", "Debate" ]
 news = [ "general" ]
