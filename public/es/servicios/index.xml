@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Servicios on Ideas on Stage</title>
+    <link>https://www.ideasonstage.es/servicios/</link>
+    <description>Recent content in Servicios on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <copyright>© Ideas on Stage 2015 - </copyright><atom:link href="https://www.ideasonstage.es/servicios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agencia de Diseño de Presentaciones en PowerPoint</title>
+      <link>https://www.ideasonstage.es/servicios/creacion-presentaciones-powerpoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.es/servicios/creacion-presentaciones-powerpoint/</guid>
+      <description>Creación de Presentaciones Tanto si es una propuesta, una presentación de ventas, un lanzamiento de producto, la presentación de un informe, una conferencia, un evento off-site o cualquier otro tipo de presentación, tu público se merece una presentación profesional, efectiva e inolvidable.
+ Centrado en Empresas Nuestro equipo de Creación de Presentaciones está dirigido por antiguos ejecutivos que pueden ayudar a convertir conceptos complejos en sencillas ilustraciones. Son expertos en conseguir despertar el interés de la audiencia para que logres tus objetivos.</description>
+    </item>
+    
+  </channel>
+</rss>

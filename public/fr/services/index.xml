@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Services on Ideas on Stage</title>
+    <link>https://www.ideasonstage.fr/services/</link>
+    <description>Recent content in Services on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage 2015 - </copyright><atom:link href="https://www.ideasonstage.fr/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agence de création de présentations PowerPoint</title>
+      <link>https://www.ideasonstage.fr/services/agence-creation-presentation-powerpoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.fr/services/agence-creation-presentation-powerpoint/</guid>
+      <description>De l&amp;rsquo;idée à la présentation persuasive De bons visuels peuvent décupler l’impact de vos mots. Après avoir terminé votre script, nous en prenons les idées clés et nous créons des visuels spectaculaires pour clarifier et renforcer vos messages.
+La première étape est de créer un storyboard visuel, avec les idées d’illustrations. Puis, avec votre accord, notre équipe interne de designers transformera ces croquis en une présentation PowerPoint ou Keynote qui marquera votre auditoire.</description>
+    </item>
+    
+    <item>
+      <title>Abonnement prioritaire</title>
+      <link>https://www.ideasonstage.fr/abonnement-prioritaire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.fr/abonnement-prioritaire/</guid>
+      <description>Économisez jusqu&amp;#39;à 50 % en vous abonnant à nos services  Facilitez-vous la vie et réalisez des économies. Notre système d&amp;rsquo;abonnement annuel vous offre à la fois la solution la plus flexible pour accéder à tous nos services tout en bénéficiant de remises allant jusqu&amp;rsquo;à 40 %. Profitez de 5 % de remise supplémentaire pour tout abonnement de 2 ans et 10 % de remise supplémentaire pour un abonnement de 3 ans.</description>
+    </item>
+    
+    <item>
+      <title>Communauté de travail en ligne</title>
+      <link>https://www.ideasonstage.fr/du-bureau-au-travail-a-distance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.fr/du-bureau-au-travail-a-distance/</guid>
+      <description>Ce service vous aidera à passer d’un environnement de travail au bureau à un environnement de travail à distance en dix jours. Nous vous aiderons à créer une communauté de travail en ligne avec des effets positifs à long terme sur la productivité et le moral de vos effectifs.
+Propulsés dans un environnement de travail à distance, les managers et les employés auront instinctivement tendance à reproduire leur environnement de travail traditionnel.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -119,7 +119,7 @@ theme        			= "hugo-theme-korporate"
 			name		 	= "Presentation Design"
 			url			 	= "/services/powerpoint-presentation-design-agency/"
 		[[params.navigation.items]]
-			name		 	= "Business Events"
+			name		 	= "Event Support"
 			url			 	= "/business-events/"
 
 		[[params.navigation.resources]]
