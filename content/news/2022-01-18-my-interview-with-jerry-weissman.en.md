@@ -5,8 +5,7 @@ title = "My Interview with Jerry Weissman"
 author = "Pierre Morsa"
 tags = [ "Public Speaking" ]
 news = [ "general" ]
-banner = "/img/news/jerry-weissman-interview.jpg”
-"
+banner = "/img/news/jerry-weissman-interview.jpg"
 language = "en"
 +++
 
