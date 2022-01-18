@@ -2,7 +2,7 @@
 draft = false
 date = "2022-01-18"
 title = "My Interview with Jerry Weissman"
-author = "Pierre Morsa"
+author = "Michael Rickwood"
 tags = [ "Public Speaking" ]
 news = [ "general" ]
 banner = "/img/news/jerry-weissman-interview.jpg"
