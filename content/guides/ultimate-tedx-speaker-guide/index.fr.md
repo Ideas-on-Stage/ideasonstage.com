@@ -58,26 +58,26 @@ Vous avez fixé la date de votre première séance de travail avec le coach, ou 
 
 Si vous ne connaissez pas TED ou TEDx, la première chose à faire est de visiter TED.com et de visionner quelques vidéos pour comprendre pourquoi cet événement est si réputé. Voici quelques liens, en français et en anglais, vers des « TED Talks », qui vous donneront un bon aperçu du style et de la qualité des interventions.
 
-	Karim Noui : pourquoi nous ne savons rien de l'univers... et tant mieux !
-	{{< youtube Cks4-KofkR0 >}}
+Karim Noui : pourquoi nous ne savons rien de l'univers... et tant mieux !
+{{< youtube Cks4-KofkR0 >}}
 	
-	Jean-Gabriel Causse : le pouvoir des couleurs
-	{{< youtube Nxpl7judCwY >}}
+Jean-Gabriel Causse : le pouvoir des couleurs
+{{< youtube Nxpl7judCwY >}}
 	
-	Sarah Kaminsky : mon père ce faussaire
-	{{< youtube aFsgpzxuEU4 >}}
+Sarah Kaminsky : mon père ce faussaire
+{{< youtube aFsgpzxuEU4 >}}
 	
-	Al Gore : new thinking on the climate crisis
-	{{< ted al_gore_new_thinking_on_the_climate_crisis >}}
+Al Gore : new thinking on the climate crisis
+{{< ted al_gore_new_thinking_on_the_climate_crisis >}}
 	
-	Elizabeth Gilbert : your elusive creative genius
-	{{< ted elizabeth_gilbert_your_elusive_creative_genius >}}
+Elizabeth Gilbert : your elusive creative genius
+{{< ted elizabeth_gilbert_your_elusive_creative_genius >}}
 	
-	Seth Godin : how to get your ideas to spread
-	{{< ted seth_godin_how_to_get_your_ideas_to_spread >}}
+Seth Godin : how to get your ideas to spread
+{{< ted seth_godin_how_to_get_your_ideas_to_spread >}}
 	
-	Hans Rosling : Asia’s rise how and when
-	{{< ted hans_rosling_asia_s_rise_how_and_when >}}
+Hans Rosling : Asia’s rise how and when
+{{< ted hans_rosling_asia_s_rise_how_and_when >}}
 	
 Fournissez le titre de votre Talk : les organisateurs ont besoin de préparer le site web et d’imprimer les programmes. Pour cela, ils auront besoin du titre de votre Talk. N’utilisez pas un titre générique, utilisez un titre accrocheur, qui pose une question, ou un slogan. Bien souvent, c’est un point qui pose problème car à ce stade vous ne connaissez probablement pas encore votre titre.
 
