@@ -80,7 +80,7 @@ Al Gore: new thinking on the climate crisis
 {{< ted al_gore_new_thinking_on_the_climate_crisis >}}
 
 Sarah Kay: If I Should Have a Daughter
-{{< sarah_kay_if_i_should_have_a_daughter >}}
+{{< ted sarah_kay_if_i_should_have_a_daughter >}}
 	
 Seth Godin: how to get your ideas to spread
 {{< ted seth_godin_the_tribes_we_lead >}}
