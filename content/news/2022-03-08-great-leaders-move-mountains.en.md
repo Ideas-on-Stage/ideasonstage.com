@@ -1,6 +1,6 @@
 +++
 draft = false
-date = "2022-03-08"
+date = "2022-03-02"
 title = "Great Leaders Move Mountains"
 author = "Pierre Morsa"
 tags = [ "Leadership" ]
