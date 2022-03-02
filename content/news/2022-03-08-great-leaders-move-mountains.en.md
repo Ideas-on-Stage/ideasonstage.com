@@ -22,7 +22,7 @@ In just a few sentences, the people listened, stood, raised their fists and shou
 Zelenskiy’s video appeal to Russian citizens, spoken clearly and convincingly in Russian, was a powerful example of transformational communication, aimed at the hearts of Russian citizens, with a clear audience and objective in mind, addressing the beliefs they had been fed by Russian media, and with clear calls to action. This may go down in time as one of the strongest presentations of the century.
 
 
-{{% youtube Fwzb_JX7u04& %}}
+{{< youtube Fwzb_JX7u04 >}}
 
 
 Now go back 3 years to the election of Volodymyr Zelenskiy and for those of us outside of Ukraine and not in the details of their politics, it seemed a bit doubtful that a rank outsider Netflix Actor/Comedian could really have been a credible presidential candidate. Perhaps Vladimir Putin was counting on a soft and easy target who would cede easily to pressure later on down the line. 
