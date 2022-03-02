@@ -2,7 +2,7 @@
 draft = false
 date = "2022-03-02"
 title = "Great Leaders Move Mountains"
-author = "Pierre Morsa"
+author = "Michael Rickwood"
 tags = [ "Leadership" ]
 news = [ "general" ]
 banner = "/img/news/zelenskiy.jpg"
