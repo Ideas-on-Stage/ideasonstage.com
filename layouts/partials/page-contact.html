@@ -39,7 +39,7 @@
 						<div class="g-recaptcha" data-sitekey="{{ .Site.Params.contact.recaptchasitekey }}"></div>	
 -->											
 			            <div class="iosform-button">
-			              <input type="submit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="button-primary" success="{{ with .Site.Params.contact.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}">    
+			              <input type="submit" id="contactsubmit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="button-primary" success="{{ with .Site.Params.contact.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}">    
 			            </div>     
 			          </form>
 		            </div>
