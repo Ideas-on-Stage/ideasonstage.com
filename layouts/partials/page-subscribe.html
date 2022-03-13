@@ -7,13 +7,13 @@
 					  <p>{{ with .Site.Params.subscribe.subtitle }}{{ . | markdownify }}{{ end }}</p>
 		            </div>
 		            <div class="layout-content-narrow">
-		              <form action="{{ .RelPermalink }}" method="POST" name="newsForm" id="ioscontactForm" netlify netlify-honeypot="bot-field">
+		              <form action="{{ .RelPermalink }}" method="POST" name="newsForm" id="nlsubscribeform" netlify netlify-honeypot="bot-field">
 			            <div class="iosform-group">
 			              <input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
 			              <input type="hidden" name="_lang" value="{{ .Site.Params.LanguageCode }}">
 			            </div>
 			            <div class="iosform-group">
-			              <input type="email" id="email" name="email" class="iosform-control" placeholder="{{ with .Site.Params.subscribe.form.email.text }}{{ . | markdownify }}{{ end }}" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('{{ with .Site.Params.subscribe.form.email.warning }}{{ .  | markdownify }}{{ end }}');" required>
+			              <input type="email" id="nlsubscribeemail" name="email" class="iosform-control" placeholder="{{ with .Site.Params.subscribe.form.email.text }}{{ . | markdownify }}{{ end }}" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('{{ with .Site.Params.subscribe.form.email.warning }}{{ .  | markdownify }}{{ end }}');" required>
 			            </div>
 			            <div class="form-group" id="fooDiv">
 						<label for="foo">Leave this field blank</label>
