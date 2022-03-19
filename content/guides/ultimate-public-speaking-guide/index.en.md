@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "The Ultimate Public Speaking Guide"
+title 			= "The ultimate guide to Public speaking"
 description		= "Get rid of your fear of speaking in public and learn the best techniques to become a great orator."
 categories		= [ "public Speaking" ]
 url 				= "/ultimate-public-speaking-guide/"
@@ -19,7 +19,7 @@ Public speaking is very connected to the oral arts of theater. It’s an ancient
 
 These delivery techniques mainly cover the elements of posture, breath, voice, eye contact and gesture. We will explain step by step how to become a great speaker.
 
-### Posture
+### Posture: Grounded but Not Fixed
 
 Posture is the first element of successful delivery. A confident and stable posture, committed but not tense, will reinforce your presence on stage and will project a positive image of yourself. On the other hand, a closed and weak posture, with repetitive gestures linked to stress, will show a lack of confidence which can negatively impact your speech. 
 
@@ -98,7 +98,7 @@ Before we explain how to practice gestures, here are some gestures to avoid:
 * **Don’t point your finger (whatever the finger)**. This is a gesture that is considered inappropriate in many cultures. If you need to point at a direction, do it with your whole hand, palm open. 
 
 <br />
-{{% youtube P9C8xl4RPU %}}
+{{% youtube -P9C8xl4RPU %}}
 
 In order to practice gestures, start by adopting a rooted stance. Find your breathing rhythm. Let your hands hang by your side. Imagine that you’re establishing eye contact with your audience. This position feels awkward and exposed. Why? Because this position feels vulnerable, without any psychological protection. It feels “naked.” Paradoxically, someone watching you from the audience will perceive you as confident and relaxed. This is called the comfort zone paradox: as you open your body, you feel less protected, but you look more accessible and confident. When you close your body language with closed gestures such as crossed arms, you feel more protected but look aloof and insecure.
 
