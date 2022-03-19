@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "The ultimate guide to Public speaking"
+title 			= "The Ultimate Public Speaking Guide"
 description		= "Get rid of your fear of speaking in public and learn the best techniques to become a great orator."
 categories		= [ "public Speaking" ]
 url 				= "/ultimate-public-speaking-guide/"
@@ -9,6 +9,7 @@ summary			= "This guide will give you all the tools necessary to help you succee
 +++
 
 ## Who are we?
+
 Ideas on Stage is an agency specialized in corporate presentations with over 13 years of experience. We have collectively coached and trained thousands of speakers in all industries. We have an enormous amount of experience in preparing TED style presentations with over 300 TEDx speakers coached in dozens of TED events in France, the UK and the United States. 
 
 To prepare our speakers, we use traditional public speaking techniques, but also use new technologies during our coaching sessions such as virtual reality tools. We also use the most recent methods of visual creation and storytelling. 
