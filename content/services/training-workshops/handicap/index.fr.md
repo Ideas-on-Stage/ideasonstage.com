@@ -11,7 +11,12 @@ Il vous suffit de nous informer si une ou plusieurs des personnes à former pré
 
 Si nécessaire, nous validerons avec vous qu'ils peuvent accéder aux locaux où se déroulera la formation.
 
-### Dans nos locaux
+## Dans nos locaux
 Si des personnes en situation de handicap participent à une formation organisée dans nos locaux, il suffit de nous en avertir, et nous prendrons les dispositions nécessaires pour pouvoir les accueillir.
 
 Nos locaux présentent un escalier qui, en raison du caractère historique du bâtiment, ne peuvent pas être aménagés. Si une personne à mobilité réduite souhaite participer à la formation, nous prendrons les dispositions nécessaires pour organiser la formation dans des locaux accessibles aux personnes à mobilité réduite.
+
+## En savoir plus
+
+Nous ferons tout notre possible pour accueillir tous les participants. Si vous souhaitez en savoir plus ou si vous avez une question plus précise sur les modalités d'accueil, vous pouvez nous contacter avec le formulaire ci-dessous.
+ 
