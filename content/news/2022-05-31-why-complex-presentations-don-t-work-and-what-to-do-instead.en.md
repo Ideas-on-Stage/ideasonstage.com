@@ -96,7 +96,7 @@ If you follow these rules and simplify your message, your audience will follow, 
 
 How confident are you and your team with your own presenting skills? If you want to assess your ability to follow the key principles of powerful presentations, [please take the **Confident Presenter Scorecard**](https://www.ideasonstage.com/score/).*
 
-*By answering simple Yes/No questions, you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll also get a free pdf copy of our best-selling book* ***Business Presentation Revolution****.*
+*By answering simple Yes/No questions, you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll also get a free pdf copy of our best-selling book **Business Presentation Revolution**.*
 
 
 
