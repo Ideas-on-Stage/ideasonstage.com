@@ -5,7 +5,7 @@ title = "Three Ways To Simplify Your Presentations"
 author = "Andrea Pacini"
 tags = [ "Public Speaking" ]
 news = [ "general" ]
-banner = "/img/news/five-key-principles.jpg"
+banner = "/img/news/message-delivery-visuals.jpg"
 language = "en"
 +++
 
