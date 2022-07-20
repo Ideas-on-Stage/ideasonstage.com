@@ -1,12 +1,12 @@
 +++
 draft = false
-date = "2022-07-19"
 title = "Being Confident At Public Speaking: The Three Things You Need To Know"
+news = ["general"]
+date = "2022-07-19"
 author = "Andrea Pacini"
-tags = [ "Public Speaking" ]
-news = [ "general" ]
 banner = "/img/news/simple-success-opportunities.jpg"
 language = "en"
+tags = ["Public Speaking"]
 +++
 
 Many business leaders and professionals wrongly believe that being confident at public speaking comes naturally to some people. Perhaps they are born with confidence?
@@ -17,13 +17,12 @@ As a result, most untrained business leaders don’t feel confident presenting a
 
 Over the years I’ve heard all sorts of reasons why people don’t like presenting. For example:
 
-
-        *“I don’t like to be the front man”*
-        *“I get very nervous when presenting”*
-        *“I have an internal panic before a presentation”*
-        *“I hate webinars”*
-        *“I’m petrified by the idea of having to sell something during a presentation”* 
-        *“Presenting makes me feel out of my comfort zone”*
+* “I don’t like to be the front man”*
+* “I get very nervous when presenting”*
+* “I have an internal panic before a presentation”*
+* “I hate webinars”*
+* “I’m petrified by the idea of having to sell something during a presentation”* 
+* “Presenting makes me feel out of my comfort zone”*
 
 Perhaps some of those thoughts have come into your head before a presentation?
 
@@ -97,16 +96,13 @@ By taking small steps, and pushing our boundaries to take risks we can grow in c
 The two things you can do to work on confidence are:
 
 
-    1. Take any opportunity to practise your presentation skills
+1. Take any opportunity to practise your presentation skills
 
+The more you present, the better you get at it. It’s like learning how to play an instrument or how to play a new sport. Practice makes a difference. 
 
-        The more you present, the better you get at it. It’s like learning how to play an instrument or how to play a new sport. Practice makes a difference. 
+2. Practise your presenting the right way and learn from others
 
-
-    2. Practise your presenting the right way and learn from others
-
-
-        You will make progress more quickly if you lay down the foundations of effective presenting from the start. This instils good practice and will help to develop confidence the right way. If you want to learn how to play the violin but you don’t lay down strong foundations at the start (the correct fingering and technique) it doesn’t matter how much you practise. Without getting the basics right you will just be reinforcing bad technique and will make much slower progress.
+You will make progress more quickly if you lay down the foundations of effective presenting from the start. This instils good practice and will help to develop confidence the right way. If you want to learn how to play the violin but you don’t lay down strong foundations at the start (the correct fingering and technique) it doesn’t matter how much you practise. Without getting the basics right you will just be reinforcing bad technique and will make much slower progress.
 
 
 ## Summary
