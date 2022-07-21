@@ -16,12 +16,12 @@ As a result, most untrained business leaders don’t feel confident presenting a
 
 Over the years I’ve heard all sorts of reasons why people don’t like presenting. For example:
 
-* “I don’t like to be the front man”*
-* “I get very nervous when presenting”*
-* “I have an internal panic before a presentation”*
-* “I hate webinars”*
-* “I’m petrified by the idea of having to sell something during a presentation”* 
-* “Presenting makes me feel out of my comfort zone”*
+* “I don’t like to be the front man”
+* “I get very nervous when presenting”
+* “I have an internal panic before a presentation”
+* “I hate webinars”
+* “I’m petrified by the idea of having to sell something during a presentation”
+* “Presenting makes me feel out of my comfort zone”
 
 Perhaps some of those thoughts have come into your head before a presentation?
 
