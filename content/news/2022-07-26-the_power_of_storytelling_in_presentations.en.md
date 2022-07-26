@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "The Power Of Storytelling In Presentations"
 news = ["general"]
 date = "2022-08-16"
@@ -98,7 +98,7 @@ Think of your presentation as a seesaw. A seesaw is parallel to the ground only 
 
 A seesaw parallel to the ground is equivalent to a presentation with an equal mix of logic and emotion. Depending on the context, you may want to shift the balance either towards your logical arguments or towards your emotional arguments.
 
-![seesaw_logic_emotion](/img/news/seesaw.001.jpeg "seesaw_logic_emotion")
+![seesaw_logic_emotion](/img/news/seesaw.001.jpeg)
 
 What you never want to do is have a presentation that relies on logic alone.
 
