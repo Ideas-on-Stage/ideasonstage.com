@@ -1,6 +1,7 @@
 +++
 draft = false
 title = "The Power Of Storytelling In Presentations"
+tags = ["Public Speaking"]
 news = ["general"]
 date = "2022-08-16"
 author = "Andrea Pacini"
