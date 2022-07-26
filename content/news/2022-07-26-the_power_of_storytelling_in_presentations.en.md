@@ -12,13 +12,11 @@ Many business owners, leaders and professionals make the mistake of only sharing
 
 You don’t want to be a boring presenter. As Dr John Medina says in his brilliant book *Brain Rules*, “the brain doesn’t pay attention to boring things.” 
 
-In a previous article I explored how to simplify your presentations, to ensure that you keep your message, your visuals and your delivery as simple as possible.
+In a **previous article** I explored how to simplify your presentations, to ensure that you keep your message, your visuals and your delivery as simple as possible.
 
-Another technique I looked at was how to use the Rule of Three to present a clear message.
+Another technique I looked at was how to use the **Rule of Three** to present a clear message.
 
-To take your presentation to the next level, you should also make your presentations Original and Enjoyable — two further principles from the Presentation SCORE method. Let’s look at how to spice things and add some colour.
-
-
+To take your presentation to the next level, you should also make your presentations Original and Enjoyable — two further principles from the **Presentation SCORE method.** Let’s look at how to spice things and add some colour.
 
 ## Let me tell you a story
 
@@ -31,8 +29,6 @@ In my experience, most business presentations are made up of 99 percent facts an
 In his book *Lend Me Your Ears*, Professor Max Atkinson describes a study he made of audience reactions to presentations. He positioned one camera on the speaker and the other on the audience. The study found that whenever a speaker used the phrase ‘for example’ it grabbed people’s attention. They tended to lift their heads or eyes in anticipation of what was to come.
 
 With that in mind, tell more stories! This is one of the most powerful ways to make your presentations more original and enjoyable. 
-
-
 
 ## Storytelling examples
 
@@ -84,8 +80,6 @@ Diana said: “MUD Jeans is a company that specialises in renting jeans. As a cl
 
 Diana’s choice of Food Float was excellent because it was relevant both to her audience and her message. Her presentation was for an audience in Dorking. The choice of a local example meant something to her audience — and also helped to explain what the circular economy is. 
 
-
-
 ## What stories can you tell?
 
 The examples above provide some insight into how stories can help to bring a presentation to life. 
@@ -102,9 +96,11 @@ The exact proportion of that mix will be different for each audience, which will
 
 Think of your presentation as a seesaw. A seesaw is parallel to the ground only when nobody is using it. As soon as two kids start playing with it, the seesaw starts going up and down. 
 
-A seesaw parallel to the ground is equivalent to a presentation with an equal mix of logic and emotion. Depending on the context, you may want to shift the balance either towards your logical arguments or towards your emotional arguments.![](https://lh6.googleusercontent.com/GJliBWTsUwvG74a_QKOVHDczPcK4ajdMx19NnaOBHBMVyB7BnidSyOQMGwRsrEh8-4x72H_WB4zmYMt4wFxeH0v7C1bE3-mG60jF0buLAQi6rmdvZ-jicoYRQ8gbNRfnzc-u2pkCSRPvaONVKfU)What you never want to do is have a presentation that relies on logic alone.
+A seesaw parallel to the ground is equivalent to a presentation with an equal mix of logic and emotion. Depending on the context, you may want to shift the balance either towards your logical arguments or towards your emotional arguments.
 
+![seesaw_logic_emotion](/img/news/seesaw.001.jpeg "seesaw_logic_emotion")
 
+What you never want to do is have a presentation that relies on logic alone.
 
 ## Summary
 
@@ -120,6 +116,6 @@ The relative weight of facts versus stories is up to you. But I would recommend 
 
 I love to hear from people who have read my articles and improved their presentations. Please get in touch with feedback and feel free to share any articles with your friends and colleagues.
 
-Another resource we offer to help you improve your presentations is the Confident Presenter Scorecard.
+Another resource we offer to help you improve your presentations is the [Confident Presenter Scorecard.](https://presentationscorecard.scoreapp.com/)
 
 After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. When you complete the scorecard you’ll receive a free pdf copy of our best-selling book **Business Presentation Revolution.**
