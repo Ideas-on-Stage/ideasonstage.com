@@ -67,7 +67,7 @@ A couple of doctors from GOSH met for lunch to share their frustrations at the h
 
 Nishita recalled that as they were having lunch, they shared a fondness for motor racing and shifted their attention to the Formula 1 race on TV. By pure serendipity, they observed the moment the Ferrari team completed a pit stop in under 7 seconds. They observed the precision and teamwork from a team of pit crew technicians—working together to optimise the car on the track—and realised the pit stop was a bit like their handover process. 
 
-So the doctors and their team travelled to the Ferrari HQ in Italy to learn more about this handover process. From this transfer of knowledge, the doctors designed a new handover protocol with more sophisticated procedures and better coordinated teamwork. As a result, they achieved a 20 percent improvement in patient safety, saving childrens’ lives.
+So the doctors and their team travelled to the Ferrari HQ in Italy to learn more about this handover process. From this transfer of knowledge, the doctors designed a new handover protocol with more sophisticated procedures and better coordinated teamwork. As a result, they achieved a 20 percent improvement in patient safety, saving children's lives.
 
 **Diana Hudson — Director of the social enterprise Creative Exchange UK**
 
