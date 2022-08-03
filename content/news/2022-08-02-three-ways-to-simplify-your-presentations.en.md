@@ -1,19 +1,18 @@
 +++
 draft = false
-date = "2022-08-02"
 title = "Three Ways To Simplify Your Presentations"
+tags = ["Public Speaking"]
+news = ["general"]
+date = "2022-08-02"
 author = "Andrea Pacini"
-tags = [ "Public Speaking" ]
-news = [ "general" ]
 banner = "/img/news/message-delivery-visuals.jpg"
 language = "en"
 +++
-
 Many business owners, leaders and professionals give presentations that are too complex. The consequence is that the audience fails to grasp the message and will not take the desired action.
 
 I believe that the more you say, the less your audience will remember. So you need to keep your presentations short, simple and to the point.
 
-Keeping it simple is one of the five key factors behind any powerful presentation. If you are interested in learning more about the others, I have written about them [here](2022-07-26-the-five-key-principles-for-powerful-presentations).
+Keeping it simple is one of the five key factors behind any powerful presentation. If you are interested in learning more about the others, I have written about them [here](https://www.ideasonstage.com/news/2022/07/26/2022-07-26-the-five-key-principles-for-powerful-presentations/).
 
 In 1996 Guinness released their slightly surreal ‘Fish on a Bicycle’ advert. It finished with the slogan “a woman needs a man like a fish needs a bicycle” over a shot of a fish riding a bike.
 
@@ -25,7 +24,6 @@ Eliminate the unnecessary so the necessary can flourish. This will make it more 
 
 So how do you put all this into practice? Here are three tips to make your presentations simple yet effective.
 
-
 ## Tip 1: Simplify Your Message
 
 At Ideas on Stage we previously worked with Luc Bretones, a former Executive Vice President at Orange. He once said: “I only remember one thing from a pitch, just tell me what I need to know.” 
@@ -36,13 +34,11 @@ Think about your next presentation: what’s your one thing? If you were to summ
 
 A useful exercise is to distil what you want to say down to 70 words (or to a 30-second pitch) using the following guidelines:
 
-
-- WHAT: What exactly do you want to tell your audience?
-- SO WHAT: Why should they care? 
-- WHAT NEXT: What action do you want the audience to take afterwards?
+* WHAT: What exactly do you want to tell your audience?
+* SO WHAT: Why should they care? 
+* WHAT NEXT: What action do you want the audience to take afterwards?
 
 If you cannot edit your message down to 70 words then your message is not simple enough.
-
 
 ## Tip 2: Simplify Your Visuals
 
@@ -54,23 +50,20 @@ Billboard adverts rarely contain many words. The best are usually just a big ima
 
 Take the same ideas and adapt them for your slides. Instead of using lots of words, try these suggestions:
 
-
-- Show an image or an icon that illustrates your point
-- Combine an image with a few words
-- Show just a few words or a big number 
+* Show an image or an icon that illustrates your point
+* Combine an image with a few words
+* Show just a few words or a big number 
 
 Another way to think about it is to apply the **three-second rule.** Every time you show a slide, it should be so intuitive that your audience is able to understand the message in no more than three seconds. 
 
 Think of your slides as visual aids to support, reinforce and amplify your message. You are the presentation, not your slides. 
 
-
 ## Tip 3: Simplify Your Delivery
 
 The next area to consider is the language you use. There are two golden rules:
 
-
-- Use simple words 
-- Avoid verbal fillers 
+* Use simple words 
+* Avoid verbal fillers 
 
 **Use simple words**
 
@@ -91,12 +84,8 @@ These ‘unwords’ add zero meaning to your message and reduce your credibility
 
 There are two effective ways to eliminate verbal fillers from your vocabulary:
 
-
 1. Awareness. Work out whether you use verbal fillers and, if so, which ones. Try recording yourself and then count how many times you use filler words. Alternatively, work with a presentation coach who will pick up on this for you.
-
-
 2. Preparation. Once you are aware of your own verbal fillers, rehearse, rehearse, rehearse! The more you practise, the easier it will be. 
-
 
 ## Putting Simplicity into Practice
 
@@ -108,28 +97,20 @@ After learning the tools and techniques to simplify their message and style, the
 
 Jessie and Sebastian later told me they had used the tools for two big presentations soon after we met. They were able to create more impactful messaging and visuals and improved their delivery which helped them to win new business.
 
-
 ## Summary
 
 The simpler you can make your presentation, the stronger and more impactful it will be.
 
 There are three key areas to work on:
 
-
-- Simplify your message. Start by summing up the key idea in 70 words or less.
-
-
-- Simplify your visuals. Every slide should be digestible in three seconds. Don’t use lots of words. All you need is a key image and a few words.
-
-
-- Simply your delivery. Use simple words and avoid verbal fillers.
-
+* Simplify your message. Start by summing up the key idea in 70 words or less.
+* Simplify your visuals. Every slide should be digestible in three seconds. Don’t use lots of words. All you need is a key image and a few words.
+* Simply your delivery. Use simple words and avoid verbal fillers.
 
 ## Feedback
 
 Please comment, get in touch or share the article with any colleagues or friends who might benefit from the ideas. If this article has helped you, please let me know and give me some feedback.
 
-If you want to improve your presentation skills further try out the [**Confident Presenter Scorecard.**](https://presentationscorecard.scoreapp.com/) 
+If you want to improve your presentation skills further try out the **[Confident Presenter Scorecard.](https://presentationscorecard.scoreapp.com/)** 
 
 You’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll also get a free pdf copy of our best-selling book **Business Presentation Revolution.**
-
