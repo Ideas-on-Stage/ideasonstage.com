@@ -110,7 +110,7 @@ People often push back about the Rule of Three and tell me they have more than t
 
 If you’re thinking the same, ask yourself the following:
 
-1. Do you really need to include everything? Are those nine points of equal importance? Of course not. Often, it’s better to explain three things that someone will comprehend rather than overwhelming them with too much information. Remember, [if everything is important, nothing is important](/news/2022-08-02-three-ways-to-simplify-your-presentations). 
+1. Do you really need to include everything? Are those nine points of equal importance? Of course not. Often, it’s better to explain three things that someone will comprehend rather than overwhelming them with too much information. Remember, [if everything is important, nothing is important](https://www.ideasonstage.com/news/2022/08/02/2022-08-02-three-ways-to-simplify-your-presentations/). 
 2. If there really are nine important points, can they be grouped into three sections? Perhaps there are patterns and points of connection? Try combining certain elements so you can still stick to the Rule of Three.
 
 ## Putting it into Practice
