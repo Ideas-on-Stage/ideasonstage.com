@@ -1,20 +1,18 @@
 +++
 draft = false
-date = "2022-08-09"
 title = "How To Present A Clear Message To Any Audience: The Rule of Three"
+tags = ["Public Speaking"]
+news = ["general"]
+date = "2022-08-09"
 author = "Andrea Pacini"
-tags = [ "Public Speaking" ]
-news = [ "general" ]
 banner = "/img/news/message-123.jpg"
 language = "en"
 +++
-
 Have you ever had this experience: it becomes increasingly obvious to you during a presentation that the structure isn’t clear enough? You’re losing the audience (which might be clients, colleagues, the board, partners or investors).
 
 If so, you are not alone. Most business leaders and professionals struggle with this. 
 
 Fortunately, there is one simple yet powerful communication technique that will help you: the Rule of Three.
-
 
 ## The Rule of Three
 
@@ -28,49 +26,54 @@ More recent scientific research brings that figure down to three or four pieces 
 
 The advert which launched the original BBC Three channel featured a song by Bob Durough in which he sings: “Three is a magic number”. There is something so right about things that come in threes. They are effective and satisfying.
 
-
 ## Three in Everyday Life
 
 Threes are deeply embedded in our culture as easy ways to remember things. Once you realise it you’ll notice threes everywhere.
 
+* Good stories have a beginning, middle and end
+* Most plays have three acts
+* Films and books come in trilogies
+* Some of the best marketing slogans use just three words
 
-- Good stories have a beginning, middle and end
-- Most plays have three acts
-- Films and books come in trilogies
-- Some of the best marketing slogans use just three words:
+  **Just Do It** (Nike)
 
-        **Just Do It** (Nike)
-        **I’m loving it** (McDonald’s)
-        **Every little helps** (Tesco)
-        **Taste the difference** (Sainsbury’s) 
+  **I’m loving it** (McDonald’s)
 
-- The UK government used the power of three for their Covid slogans
+  **Every little helps** (Tesco)
 
-        **Stay at Home, Protect the NHS, Save Lives**
-        **Hands, Face, Space**
+  **Taste the difference** (Sainsbury’s) 
 
-- Some of the most powerful political statements use three
 
-        **Liberté, Égalité, Fraternité** (the national motto of France)
-        **Life, liberty, and the pursuit of happiness** (the well-known phrase from the United States’ Declaration of Independence)
-        **Government of the people, by the people, for the people** (Abraham Lincoln’s Gettysburg Address)
-        **Our priorities are Education, Education, Education** (Tony Blair)
+* The UK government used the power of three for their Covid slogans
 
-- Fairy tales often use three for maximum impact
+  ```
+    **Stay at Home, Protect the NHS, Save Lives**
+    **Hands, Face, Space**
+  ```
+* Some of the most powerful political statements use three
 
-        **The Three Musketeers**
-        **The Three Little Pigs**
+  ```
+    **Liberté, Égalité, Fraternité** (the national motto of France)
+    **Life, liberty, and the pursuit of happiness** (the well-known phrase from the United States’ Declaration of Independence)
+    **Government of the people, by the people, for the people** (Abraham Lincoln’s Gettysburg Address)
+    **Our priorities are Education, Education, Education** (Tony Blair)
+  ```
+* Fairy tales often use three for maximum impact
 
-- Many businesses use a three-tier pricing structure. You often come across **bronze, silver and gold** price points or service levels. It’s no coincidence that we use the same system for first, second and third in sporting events. No one cares who came fourth.
+  ```
+    **The Three Musketeers**
+    **The Three Little Pigs**
+  ```
+* Many businesses use a three-tier pricing structure. You often come across **bronze, silver and gold** price points or service levels. It’s no coincidence that we use the same system for first, second and third in sporting events. No one cares who came fourth.
+* The rule of three is often used to great effect in comedy. Comedies often have three characters (like the old **Englishman, Irishman and Scotsman** routines). The first two examples are sensible and the third is ridiculous. 
+* Using three words or three phrases for maximum impact appears in all sorts of other areas of life. Here are some other famous examples:
 
-- The rule of three is often used to great effect in comedy. Comedies often have three characters (like the old **Englishman, Irishman and Scotsman** routines). The first two examples are sensible and the third is ridiculous. 
-
-- Using three words or three phrases for maximum impact appears in all sorts of other areas of life. Here are some other famous examples:
-
-        **Ready, steady, go** 
-        **The truth, the whole truth, and nothing but the truth**
-        **Sex, drugs & rock n' roll**
-        **See it, say it, sorted** (British Transport Police) 
+  ```
+    **Ready, steady, go** 
+    **The truth, the whole truth, and nothing but the truth**
+    **Sex, drugs & rock n' roll**
+    **See it, say it, sorted** (British Transport Police) 
+  ```
 
 ## Applying the Rule of Three to Presentations
 
@@ -82,18 +85,16 @@ If you aren’t doing this, and paying attention to the way you structure your p
 
 To help you understand how you can apply the magic number three to your presentations, here are some examples I’ve come across in a business context. Feel free to adapt these for your own use.
 
-
-- The three priorities we’ll use to achieve the sales target for the next quarter 
-- Three reasons to buy your product or service  
-- Problem, Solution, Call to action  
-- Three benefits to your solution 
-- Three reasons why the board should approve the budget for your project 
-- Three reasons to hire you 
-- Context, Actions, Results 
-- Three reasons to invest in your startup 
+* The three priorities we’ll use to achieve the sales target for the next quarter 
+* Three reasons to buy your product or service  
+* Problem, Solution, Call to action  
+* Three benefits to your solution 
+* Three reasons why the board should approve the budget for your project 
+* Three reasons to hire you 
+* Context, Actions, Results 
+* Three reasons to invest in your startup 
 
 ![Message 1 2 3](/img/news/message-123.jpg)
-
 
 ## Sticking to Three
 
@@ -101,11 +102,8 @@ People often push back about the Rule of Three and tell me they have more than t
 
 If you’re thinking the same, ask yourself the following:
 
-
 1. Do you really need to include everything? Are those nine points of equal importance? Of course not. Often, it’s better to explain three things that someone will comprehend rather than overwhelming them with too much information. Remember, [if everything is important, nothing is important](/news/2022-08-02-three-ways-to-simplify-your-presentations). 
-
 2. If there really are nine important points, can they be grouped into three sections? Perhaps there are patterns and points of connection? Try combining certain elements so you can still stick to the Rule of Three.
-
 
 ## Putting it into Practice
 
@@ -117,31 +115,29 @@ Alan broke the one-hour presentation down into three key messages which had some
 
 **Key message 1: If you fail to prepare, you prepare to fail** 
 
-- Spend time planning before jumping into hiring 
-- A clear process for your next hire
-- The power of an Org Chart 
+* Spend time planning before jumping into hiring 
+* A clear process for your next hire
+* The power of an Org Chart 
 
 **Key message 2: Treat your employees like you treat customers**
 
-- Stand out to people who aren’t looking for a job 
-- Think about them not you
-- Purpose, team and values in hiring
+* Stand out to people who aren’t looking for a job 
+* Think about them not you
+* Purpose, team and values in hiring
 
 **Key message 3: Think retention first, recruitment second**
 
-- Hire potential vs credentials
-- Capturing your values 
-- Have a retention plan
+* Hire potential vs credentials
+* Capturing your values 
+* Have a retention plan
 
 The beauty of this technique is that it works all the time. Regardless of how long your presentation is — 5 minutes, 30 minutes or an hour — you can always structure your content into three parts. 
 
 I use the Rule of Three myself when I’m running group workshops for our clients. The course comprises five online sessions of three hours each. I like to structure the whole workshop into three parts across those 15 hours like this:
 
-
-- How to craft a captivating message 
-- How to reinforce your message with powerful visuals 
-- How to deliver your message with confidence
-
+* How to craft a captivating message 
+* How to reinforce your message with powerful visuals 
+* How to deliver your message with confidence
 
 ## The Rule of Three in Real Life
 
@@ -155,7 +151,6 @@ Similarly, bookies and gamblers place greater weight on teams that have won thre
 
 The study concluded that punters would be well advised to bet against teams that have won three games in a row and back teams that have lost three games in a row (in order to beat the market).
 
-
 ## Summary
 
 If you try to deliver too many points to your audience you will lose them along the way.
@@ -167,13 +162,11 @@ The Rule of Three is widely deployed in literature, comedy and politics. It find
 Using the Rule of Three in your presentations is highly effective. Any presentation can be restructured to conform to three sections. 
 
 Even if you have more points to make, still try to structure your presentation in three parts. 
- 
 
 ## Feedback
 
 If you enjoyed this article, I would love to hear from you. Please get in touch or share the article with any colleagues or friends who might benefit from the ideas.
 
-If you want to improve your presentation skills further try out the [**Confident Presenter Scorecard.**](https://presentationscorecard.scoreapp.com/) 
+If you want to improve your presentation skills further try out the **[Confident Presenter Scorecard.](https://presentationscorecard.scoreapp.com/)** 
 
 After filling in some simple yes or no answers you’ll receive an instant score plus suggestions for improvement. It takes less than 3 minutes. You’ll also receive a free pdf copy of our best-selling book **Business Presentation Revolution.**
-
