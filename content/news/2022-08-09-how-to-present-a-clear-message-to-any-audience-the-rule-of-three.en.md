@@ -46,34 +46,42 @@ Threes are deeply embedded in our culture as easy ways to remember things. Once 
 
 * The UK government used the power of three for their Covid slogans
 
-  ```
-    **Stay at Home, Protect the NHS, Save Lives**
-    **Hands, Face, Space**
-  ```
+  **Stay at Home, Protect the NHS, Save Lives**
+
+  **Hands, Face, Space**
+
+
 * Some of the most powerful political statements use three
 
-  ```
-    **Liberté, Égalité, Fraternité** (the national motto of France)
-    **Life, liberty, and the pursuit of happiness** (the well-known phrase from the United States’ Declaration of Independence)
-    **Government of the people, by the people, for the people** (Abraham Lincoln’s Gettysburg Address)
-    **Our priorities are Education, Education, Education** (Tony Blair)
-  ```
+  **Liberté, Égalité, Fraternité** (the national motto of France)
+
+  **Life, liberty, and the pursuit of happiness** (the well-known phrase from the United States’ Declaration of Independence)
+
+  **Government of the people, by the people, for the people** (Abraham Lincoln’s Gettysburg Address)
+
+  **Our priorities are Education, Education, Education** (Tony Blair)
+
+
 * Fairy tales often use three for maximum impact
 
-  ```
-    **The Three Musketeers**
-    **The Three Little Pigs**
-  ```
+  **The Three Musketeers**
+
+  **The Three Little Pigs**
+
+
 * Many businesses use a three-tier pricing structure. You often come across **bronze, silver and gold** price points or service levels. It’s no coincidence that we use the same system for first, second and third in sporting events. No one cares who came fourth.
 * The rule of three is often used to great effect in comedy. Comedies often have three characters (like the old **Englishman, Irishman and Scotsman** routines). The first two examples are sensible and the third is ridiculous. 
 * Using three words or three phrases for maximum impact appears in all sorts of other areas of life. Here are some other famous examples:
 
-  ```
-    **Ready, steady, go** 
-    **The truth, the whole truth, and nothing but the truth**
-    **Sex, drugs & rock n' roll**
-    **See it, say it, sorted** (British Transport Police) 
-  ```
+  Ready, steady, go 
+
+  The truth, the whole truth, and nothing but the truth
+
+  Sex, drugs & rock n' roll
+
+  See it, say it, sorted (British Transport Police) 
+
+
 
 ## Applying the Rule of Three to Presentations
 
