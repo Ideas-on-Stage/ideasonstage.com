@@ -73,13 +73,13 @@ Threes are deeply embedded in our culture as easy ways to remember things. Once 
 * The rule of three is often used to great effect in comedy. Comedies often have three characters (like the old **Englishman, Irishman and Scotsman** routines). The first two examples are sensible and the third is ridiculous. 
 * Using three words or three phrases for maximum impact appears in all sorts of other areas of life. Here are some other famous examples:
 
-  Ready, steady, go 
+  **Ready, steady, go** 
 
-  The truth, the whole truth, and nothing but the truth
+  **The truth, the whole truth, and nothing but the truth**
 
-  Sex, drugs & rock n' roll
+  **Sex, drugs & rock n' roll**
 
-  See it, say it, sorted (British Transport Police) 
+  **See it, say it, sorted** (British Transport Police) 
 
 
 
