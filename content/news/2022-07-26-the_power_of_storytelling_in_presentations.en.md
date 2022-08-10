@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "The Power Of Storytelling In Presentations"
+title = "The Power of Storytelling in Presentations"
 tags = ["Public Speaking"]
 news = ["general"]
 date = "2022-08-16"
@@ -59,15 +59,15 @@ The story was an extremely powerful and personal way to explain her own relation
 
 TEDx invited Nishita to talk about *The Magic of Unlikely Alliances*. She approached me to help ensure she was fully prepared to give a fantastic presentation. 
 
-She wanted to nudge everyone to form diverse collaborations and to harness the true potential of diversity of thought.
+She wanted to nudge everyone to form diverse collaborations and to harness the potential of diversity of thought.
 
-Nishita discussed an unlikely partnership between Great Ormond Street Hospital (GOSH) and the Ferrari Formula 1 race team.
+Nishita discussed an unlikely collaboration between Great Ormond Street Hospital (GOSH) and the Ferrari Formula 1 race team.
 
-A couple of doctors from GOSH met for lunch to share their frustrations at the high error rates when transferring critically ill infants from the operating theatre to the intensive care unit.
+She referenced a story about a couple of doctors from GOSH sharing their frustrations at the high error rates when transferring critically ill infants from the operating theatre to the intensive care unit.
 
-Nishita recalled that as they were having lunch, they shared a fondness for motor racing and shifted their attention to the Formula 1 race on TV. By pure serendipity, they observed the moment the Ferrari team completed a pit stop in under 7 seconds. They observed the precision and teamwork from a team of pit crew technicians—working together to optimise the car on the track—and realised the pit stop was a bit like their handover process. 
+Nishita recalled that as they were having lunch, they shifted their attention to the TV, which was showing the Formula 1 race. By pure serendipity, they observed the moment the Ferrari team completed a pit stop in under 7 seconds. They observed the precision and teamwork from a team of pit crew technicians—working together to optimise the car for the track—and in that moment, they realised the uncanny similarity between the pit stop and their handover process. 
 
-So the doctors and their team travelled to the Ferrari HQ in Italy to learn more about this handover process. From this transfer of knowledge, the doctors designed a new handover protocol with more sophisticated procedures and better coordinated teamwork. As a result, they achieved a 20 percent improvement in patient safety, saving children's lives.
+So the doctors and their team travelled to the Ferrari HQ in Italy to learn more about this handover process. From this transfer of knowledge, the doctors designed a new handover protocol with more sophisticated procedures and better coordinated teamwork. As a result, they achieved a 20 percent improvement in patient safety, saving childrens’ lives.
 
 **Diana Hudson — Director of the social enterprise Creative Exchange UK**
 
