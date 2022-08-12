@@ -13,11 +13,11 @@ Many business owners, leaders and professionals make the mistake of only sharing
 
 You don’t want to be a boring presenter. As Dr John Medina says in his brilliant book *Brain Rules*, “the brain doesn’t pay attention to boring things.” 
 
-In a **previous article** I explored how to simplify your presentations, to ensure that you keep your message, your visuals and your delivery as simple as possible.
+In a [previous article](https://www.ideasonstage.com/news/2022/08/02/2022-08-02-three-ways-to-simplify-your-presentations/) I explored how to simplify your presentations, to ensure that you keep your message, your visuals and your delivery as simple as possible.
 
-Another technique I looked at was how to use the **Rule of Three** to present a clear message.
+Another technique I looked at was how to use the **[Rule of Three](https://www.ideasonstage.com/news/2022/08/09/2022-08-09-how-to-present-a-clear-message-to-any-audience-the-rule-of-three/)** to present a clear message.
 
-To take your presentation to the next level, you should also make your presentations Original and Enjoyable — two further principles from the **Presentation SCORE method.** Let’s look at how to spice things and add some colour.
+To take your presentation to the next level, you should also make your presentations Original and Enjoyable — two further principles from the **[Presentation SCORE method](https://www.ideasonstage.com/news/2022/07/26/2022-07-26-the-five-key-principles-for-powerful-presentations/).** Let’s look at how to spice things and add some colour.
 
 ## Let me tell you a story
 
