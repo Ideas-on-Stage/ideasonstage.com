@@ -39,7 +39,7 @@ Before you do anything else, you need to take some time and ask yourself some qu
 
 My colleague Phil Waknell has an excellent and more detailed summary of the sorts of questions you might want to consider in his book *Business Presentation Revolution*. 
 
-However, here is a summary of some of the questions I think are the most important.
+However, here’s a summary of some of the most important questions.
 
 **Audience**
 
@@ -62,9 +62,9 @@ However, here is a summary of some of the questions I think are the most importa
 
 Phil shares a great story in *Business Presentation Revolution* that illustrates the importance of putting the audience first.
 
-He recalls a woman called Marie who was invited by a business association in Poland to give a talk about leadership. It was one her first international speaking opportunities, so she worked really hard on her preparation, thinking about her messaging and designing some great slides.
+He recalls a woman called Marie who was invited by a business association in Poland to give a talk about leadership. It was one of her first international speaking opportunities, so she worked really hard on her preparation, thinking about her messaging and designing some great slides.
 
-Marie arrived the day before the conference and then arrived 30 minutes before the start of her presentation so she had some time to set things up. When she was about to connect her laptop to the screen, she realised there was no screen. 
+Marie arrived the day before the conference and then went to the venue 30 minutes before the start of her presentation so she had some time to set things up. When she was about to connect her laptop to the screen, she realised there was no screen. 
 
 She called the hotel facilities manager for support. Rather than helping her out, the manager started laughing.
 
