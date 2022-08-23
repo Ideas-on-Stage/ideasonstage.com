@@ -37,7 +37,7 @@ ABC stands for Audience, Burning needs, Context. 
 
 Before you do anything else, you need to take some time and ask yourself some questions about these three areas.
 
-My colleague Phil Waknell has an excellent and more detailed summary of the sorts of questions you might want to consider in his book *Business Presentation Revolution*. 
+My colleague Phil Waknell has an excellent and more detailed summary of the sorts of questions you might want to consider in his book [Business Presentation Revolution.](https://www.ideasonstage.com/business-presentation-revolution/book/) 
 
 However, here’s a summary of some of the most important questions.
 
