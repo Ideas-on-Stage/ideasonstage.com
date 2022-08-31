@@ -9,9 +9,9 @@ banner = "/img/news/lightbulb.jpeg"
 +++
 <!--StartFragment-->
 
-Right now there's someone in the world having a great idea; their own lightbulb moment which could change the world. It could be an idea with the potential to make them a billionaire. 
+Right now there's someone in the world having a great idea; their own lightbulb moment which could change the world. 
 
-Many entrepreneurs, business owners and leaders assume that their ideas are the most important thing. They wrongly believe that their idea, whether that be a product, service, project or business, is all that matters. 
+Many entrepreneurs, business owners and leaders assume that their ideas are the most important thing. They believe that their idea, whether that be a product, service, project or business, is all that matters. 
 
 They focus on creating and working on their concepts without giving sufficient thought to articulating them.
 
