@@ -89,7 +89,7 @@ There are two effective ways to eliminate verbal fillers from your vocabulary:
 
 ## Putting Simplicity into Practice
 
-I previously worked with Jessie and Sebastian Woelke from NO PLANET B, a purpose-driven business that makes certified natural, vegan and cruelty free cosmetics.
+I previously worked with Jessie and Sebastian Wölke from NO PLANET B, an upcycling beauty brand that makes natural, vegan and microplastic-free cosmetics, with no animal testing. 
 
 They knew they were confident speakers but their presentations were too long and lacked focus. By their own admission, they used to spend hours tweaking slides on PowerPoint.
 
