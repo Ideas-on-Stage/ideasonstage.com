@@ -4,7 +4,7 @@ title = "Interaction avec le grand public"
 news = ["general"]
 date = "2022-09-02"
 author = "Phil Waknell"
-banner = "/img/news/audio-2941753_1280.jpg"
+banner = "/img/news/quiz.jpg"
 +++
 Alors que nous sortons d'une longue période de télétravail et de réunions en ligne, de plus en plus d'organisations réunissent à nouveau les gens. Certaines grandes entreprises ont du mal à faire revenir les gens au bureau, mais il existe une chose sur laquelle tout le monde semble s'accorder : Zoom ne peut pas remplacer les conférences ou les événements en face à face.
 
