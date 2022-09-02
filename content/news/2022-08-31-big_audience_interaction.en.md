@@ -4,7 +4,7 @@ title = "Big Audience Interaction"
 news = ["general"]
 date = "2022-08-31"
 author = "Phil Waknell"
-banner = "/img/news/audio-2941753_1280.jpg"
+banner = "/img/news/quiz.jpg"
 +++
 As we emerge from a long period of working from home and online meetings, more and more organizations are bringing people back together. Some big firms are having difficulty forcing people back into the office, but one thing everyone seems to agree on is that Zoom is no substitute for face-to-face conferences or conventions.
 
