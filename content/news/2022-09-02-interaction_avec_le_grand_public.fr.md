@@ -46,7 +46,7 @@ L'interaction avec un auditoire n'implique pas toujours qu'il fasse quelque chos
 
 Dans une réunion du conseil d'administration, la surprise est rarement une bonne chose. Avec un grand auditoire, elle peut devenir votre meilleure amie. Récemment, par exemple, nous avons organisé une conférence sur le thème des "agents secrets". Dès le début, le Vice-Président est monté sur scène avec des lunettes noires, il s'est adressé aux participants comme s'ils étaient dans un camp d'entraînement pour agents secrets et leur a donné une première mission : trouver leur propre paire de lunettes de soleil, cachée quelque part dans la salle. Finalement, quelqu'un a pensé à regarder sous sa chaise, où (avant son arrivée) les organisateurs avaient soigneusement scotché une paire de lunettes de soleil. Et alors tous ont compris, ont trouvé leur propre paire, et les ont mises. C'était une façon amusante de commencer la conférence, de rassembler tout le monde et d'établir un thème pour l'ensemble de l'événement.
 
-**6/ Prendre (ou poser) des questions**
+**6/ Répondez aux questions (ou posez-les)**
 
 En règle générale, plus l‘auditoire est nombreux, moins les gens ont envie de poser des questions ! De plus, vous pouvez constater que parmi ceux qui osent, il y en a toujours un qui profite de l'occasion pour livrer un monologue dès qu'il a le micro à main, au lieu de poser une question. Pour éviter ce genre de situations, nous trouvons que des applications comme Beekast sont très puissantes, puisqu’elles permettent à chacun de poster des questions de manière anonyme si vous activez cette option, et elles vous permettent en tant qu'orateur (ou au maître de cérémonie si vous en avez un) de choisir les meilleures questions et les plus appropriées.
 
