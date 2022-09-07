@@ -1,8 +1,8 @@
 +++
-draft = "true"
+draft = false
 title = "Interaction avec le grand public"
 news = ["general"]
-date = "2022-09-02"
+date = "2022-09-07"
 author = "Phil Waknell"
 banner = "/img/news/quiz.jpg"
 +++
@@ -31,6 +31,8 @@ Vous pouvez également poser plusieurs questions d'affilée pour faire passer un
 **2/ Faites-les bouger**
 
 Inciter les gens à se lever pour voter est une chose, mais vous pouvez aussi leur demander de bouger simplement pour faire circuler leur énergie et réveiller leur esprit. Je me souviens d'une occasion particulièrement mémorable où ma collègue Rose Bloomfield s'est rendu compte qu'un orateur avant elle avait profondément ennuyé l‘auditoire. Dès le début de son intervention, elle a donc demandé à tout le monde de se lever, de tendre les mains vers le haut et de respirer profondément à plusieurs reprises. En tant que membre de cet auditoire, je me suis senti non seulement plein d’énergies, mais aussi reconnaissant d'avoir eu l'occasion de m'étirer et de me réveiller un peu. Il n'est pas naturel pour l'être humain de rester assis pendant longtemps, surtout lorsqu'il s'ennuie.
+
+![](/img/news/quiz.jpg)
 
 **3/ Faites-les échanger**
 
