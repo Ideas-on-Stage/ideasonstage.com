@@ -32,6 +32,8 @@ At this point, almost everyone will sit down, and they will be listening careful
 
 Getting people to stand up just to vote is one thing, but you can also ask them to move simply to get their juices flowing and wake up their minds. I remember a particularly memorable occasion when my colleague Rose Bloomfield realised that a prior speaker had bored the audience intensely, so right at the start of her talk, she asked everybody to stand up, stretch their hands upwards, and breathe deeply a few times. As a member of that audience, I felt not only energised, but grateful for the opportunity to stretch and wake up a little. It isn’t natural for humans to sit still for a long time, especially when bored.
 
+![](/img/news/quiz.jpg)
+
 **3/ Make them exchange**
 
 Another possibility is to ask the audience to pair up and chat with the person next to them. The key here is to delimit the subject clearly so their conversation does not take too long, otherwise you will end up stopping them while they are in full flow, and they may resent that.
