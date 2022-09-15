@@ -1,7 +1,7 @@
 +++
 draft = "true"
 title = "Why Rehearsing Leads to More Confidence"
-tags = ["Public"]
+tags = ["Public Speaking"]
 news = ["general"]
 date = "2022-09-13"
 author = "Andrea Pacini"
