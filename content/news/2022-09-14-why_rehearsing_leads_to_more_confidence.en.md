@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Why Rehearsing Leads to More Confidence"
 tags = ["Public Speaking"]
 news = ["general"]
