@@ -9,6 +9,8 @@ banner = "/img/news/stressed_person.jpeg"
 +++
 <!--StartFragment-->
 
+![stress person](/img/news/stressed_person_1_.jpeg)
+
 It’s almost pointless asking if you feel nervous before a presentation. It would be strange if you didn’t. The vast majority of people are afraid of public speaking. It’s perfectly normal to have a fear of public speaking, also known by its technical name of glossophobia.
 
 Research shows that more than 75 percent of the population has some level of public speaking anxiety. So you’re in good company.
@@ -74,10 +76,6 @@ If this article has helped you please get in touch to let me know. If you feel a
 If you want to improve your presentation skills further try out the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/).
 
 After answering a series of simple yes/no questions you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of our best-selling book **Business Presentation Revolution**.
-
-
-
-
 
 *Photo by Craig Adderley from Pexels* 
 
