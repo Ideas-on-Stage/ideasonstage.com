@@ -5,7 +5,7 @@ tags = ["Public Speaking"]
 news = ["general"]
 date = "2022-09-20"
 author = "Andrea Pacini"
-banner = "/img/news/stressed_person.jpeg"
+banner = "/img/news/stressed_person_1_.jpeg"
 +++
 <!--StartFragment-->
 
