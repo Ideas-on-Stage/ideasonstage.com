@@ -49,7 +49,7 @@ Here’s a clear presentation structure:
 
 1. **Opening** 
 
-This is the introduction to your presentation. Note I say *the* introduction, not your introduction. Most presenters make the mistake of introducing themselves at the start of a presentation.
+This is the introduction to your presentation. Note I say *the* introduction, not *your* introduction. Most presenters make the mistake of introducing themselves at the start of a presentation.
 
 When you start by introducing yourself you’ll never capture the audience’s attention. No one cares that much about you (or me). They only care about themselves.  
 
@@ -117,11 +117,9 @@ This is similar to the question I asked you for the Recap section. Remember: rep
 
 A great way to end a presentation is to follow the *What - So what - What next* format as follows:
 
-**What:** What’s the one thing the audience needs to remember? 
-
-**So what:** Why should they care? Why is it important to them? 
-
-**What next:** Now that they care, what do you want them to believe, feel or do? 
+* **What:**  What’s the one thing the audience needs to remember? 
+* **So what:** Why should they care? Why is it important to them? 
+* **What next:** Now that they care, what do you want them to believe, feel or do? 
 
 ## A real life example 
 
@@ -158,7 +156,7 @@ However, a simple and effective structure which always works is to break it down
 * Q&A: the moment you offer to take any questions 
 * What - So what - What next: your closing remarks when you tell the audience the one thing you would like them to remember
 
-Feedback 
+## Feedback 
 
 If this article has helped you please get in touch to let me know. If you feel any colleagues or friends might also benefit from reading it, feel free to share it.
 
