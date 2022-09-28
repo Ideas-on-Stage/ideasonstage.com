@@ -168,6 +168,6 @@ After answering a series of simple yes/no questions you’ll get an instant scor
 
 
 
-*IPhoto by Marco Bianchetti on Unsplash*
+*Photo by Marco Bianchetti on Unsplash*
 
 <!--EndFragment-->
