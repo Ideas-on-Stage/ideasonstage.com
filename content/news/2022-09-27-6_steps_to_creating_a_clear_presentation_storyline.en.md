@@ -164,4 +164,10 @@ If you want to improve your presentation skills further try out the [Confident P
 
 After answering a series of simple yes/no questions you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of our best-selling book **Business Presentation Revolution.**
 
+
+
+
+
+*IPhoto by Marco Bianchetti on Unsplash*
+
 <!--EndFragment-->
