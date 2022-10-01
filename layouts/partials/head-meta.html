@@ -7,5 +7,6 @@
 <meta name="title" property="og:title" content="{{ .Title }}">
 <meta name ="url" property="og:url" content ="{{ .Permalink }}">
 {{ if .Params.picture }}<meta name ="image" property="og:image" content="{{ partial "f/getpicturepath" . }}">{{ end }}
+{{ if .Params.picture }}<link rel="image_src" href="{{ partial "f/getpicturepath" . }}">{{ end }}
 {{ if eq .Params.disallowbots true }}<meta name="robots" content="noindex">{{ end }}
 {{ "<!-- partials:head-meta.html:end -->" | safeHTML }}
