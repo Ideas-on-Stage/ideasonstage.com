@@ -8,6 +8,7 @@ author = "Pierre Morsa"
 banner = "/img/news/tedx-tours-2019-3.jpg"
 language = "fr"
 slug = "2020-03-30-top-5-presentations-tedx-en-nombre-de-vues"
+picture = "/img/news/tedx-tours-2019-3.jpg"
 +++
 
 Nous avons collaboré avec de nombreux événements TEDx au fil des années, et certaines présentations ont accumulé des centaines de milliers de vues sur YouTube, certaines dépassant même le million. Pour vous inspirer, voici le top 5 des présentations des événements auxquels nous avons contribué, en nombre de vues.
