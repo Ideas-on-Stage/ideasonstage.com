@@ -30,7 +30,7 @@ Ne serait-il pas agréable d'avoir une petite checklist d'actions pour nous aide
 
 **R**approcher
 
-**K**onnecter
+**K**onnecter*
 
 Le **C** est pour **Centrez-vous**. Pendant que vous êtes dans les coulisses ou que vous attendez dans le public pour monter sur scène (ou pour prendre la parole dans votre salle de réunion), prenez un moment pour vous centrer et vous concentrer. Prenez quelques respirations profondes et cherchez à calmer votre environnement autour de vous. Calmez-vous en vous désengageant de la conversation avec vos pairs et essayez de garder votre cerveau alerte mais calme. 
 
@@ -66,4 +66,4 @@ Et bien sûr, j'ai beaucoup à partager sur ce sujet, mais mes trois minutes son
 
 Je vous remercie.
 
-\*\ *Je sais que ça devrait être Connectez, mais c'est plus facile de se souvenir de C-SPARK que de C-SPARC. Bref, licence poétique !*
+\**Je sais que ça devrait être Connectez, mais c'est plus facile de se souvenir de C-SPARK que de C-SPARC. Bref, licence poétique !*
