@@ -6,7 +6,7 @@ date = "2022-09-28"
 author = "Michael Rickwood"
 banner = "/img/news/be_water_my_friend.jpeg"
 +++
-**How a famous Bruce Lee quote can help presenters conquer fear by surrendering the outcome** 
+**How a famous Bruce Lee quote can help presenters conquer fear by surrendering the outcome.**
 
 ![](/img/news/be_water_my_friend.jpeg)
 
