@@ -8,6 +8,8 @@ banner = "/img/news/c-spark.png"
 +++
 Of the three million articles written about public speaking, isn’t it refreshing to read something useful in under three minutes? I think so, or at least that is what I would appreciate. So here are my three minutes’ worth for you.
 
+![](/img/news/c-spark.png)
+
 It’s high time to get live presentations kicking again. But can we go back to them seamlessly like before? It can be a little daunting after such a long spell presenting virtually. We’re so used to seeing a wall of participants with cameras off and hearing the sound of compressed silence when we take a pause for thought. It’s now time to dust off our soft skills and get back in the ring in front of live audiences with clicker in hand, slides behind us and a sea of people waiting to be wowed. 
 
 So, when you have to take the stage, what’s the hardest part? 
