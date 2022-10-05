@@ -30,7 +30,7 @@ So how can you be like water when you present? There are three things I will tak
 
 **Water can flow or it can crash.** This is the power that we have to follow our impulses when the moment allows for it. To increase our energy output when we crescendo, use a pause to get the audience hooked, adapt our rhythm in the moment and play with the timing. 
 
-Bruce Lee was also quoted saying this: “**Staying 'calm' in any situation, be it when you are angry, sad or under pressure is indeed a super power “**.
+Bruce Lee was also quoted saying this: “**Staying 'calm' in any situation, be it when you are angry, sad or under pressure is indeed a super power**“.
 
 This is indeed an advanced state of being, fodder even for all the greatest leaders. If things start to go wrong and you can keep calm it will earn you respect. Calm is indeed difficult for some of us but it can be attained with daily work, particularly around meditation and the breath. Like all disciplines, such as learning Kung Fu or Jeet Kune Do, it’s always better to learn from a master than just read an article. That’s why working with a coach will help you unlock all this potential when you get on stage. Surrender the outcome, let your true self permeate and follow your impulses to make an impact. 
 
