@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "PSCORE ÉTAPE 4 : ILLUSTRATION"
+title = "pSCORE Étape 4 : illustration"
 news = ["general"]
 date = "2021-07-22"
 author = "Phil Waknell"
