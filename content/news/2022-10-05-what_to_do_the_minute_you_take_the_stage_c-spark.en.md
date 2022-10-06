@@ -38,7 +38,7 @@ The next five items are when you get out there on the floor: 
 
 **Scan (your surroundings).** 
 
-As you take your mark, take it all in**.** Presence is externalizing your attention and reacting to external stimulus. Take in the audience, the sound, the vibe. Don’t cut yourself off from it by fretting inwards. Look at the audience as you make your way over. 
+As you take your mark, take it all in. Presence is externalizing your attention and reacting to external stimulus. Take in the audience, the sound, the vibe. Don’t cut yourself off from it by fretting inwards. Look at the audience as you make your way over. 
 
 **Plant deep (plant yourself and take a breath).** 
 
@@ -52,7 +52,7 @@ The last two are a combination:
 
 **Reach out & Konnect.** 
 
-With anopen handgesture, **Reach out** to someone specific in the audience, **Konnect** with your eyes with them and proceed to speak your first idea to them. Repeat for the following idea/line with another person and **Reach out** and **Konnect**. This should give you forward momentum and energy. Continue this throughout the presentation. Pause between your phrases.
+With an open handgesture, **Reach out** to someone specific in the audience, **Konnect** with your eyes with them and proceed to speak your first idea to them. Repeat for the following idea/line with another person and **Reach out** and **Konnect**. This should give you forward momentum and energy. Continue this throughout the presentation. Pause between your phrases.
 
 There you have it. Under three minutes. But these techniques might take you three days, or three months to perfect. 
 
