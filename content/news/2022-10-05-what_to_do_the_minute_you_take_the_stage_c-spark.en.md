@@ -52,7 +52,7 @@ The last two are a combination:
 
 **Reach out & Konnect.** 
 
-With an open handgesture, **Reach out** to someone specific in the audience, **Konnect** with your eyes with them and proceed to speak your first idea to them. Repeat for the following idea/line with another person and **Reach out** and **Konnect**. This should give you forward momentum and energy. Continue this throughout the presentation. Pause between your phrases.
+With an open hand gesture, **Reach out** to someone specific in the audience, **Konnect** with your eyes with them and proceed to speak your first idea to them. Repeat for the following idea/line with another person and **Reach out** and **Konnect**. This should give you forward momentum and energy. Continue this throughout the presentation. Pause between your phrases.
 
 There you have it. Under three minutes. But these techniques might take you three days, or three months to perfect. 
 
