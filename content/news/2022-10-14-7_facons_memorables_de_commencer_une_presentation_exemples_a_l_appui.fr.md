@@ -144,8 +144,8 @@ Quel que soit le type d'introduction que vous utilisez, le temps passé à trava
 
 N'hésitez pas à commenter, à nous contacter ou à partager cet article avec vos collègues ou amis qui pourraient bénéficier de ces idées. Si cet article vous a aidé, faites-le moi savoir et donnez-moi votre avis.
 
-Si vous souhaitez améliorer vos compétences en matière de présentation, essayez la carte de score du présentateur confiant. 
+Si vous souhaitez améliorer vos compétences en matière de présentation, essayez [The Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/) (en anglais).
 
-Vous obtiendrez un score instantané et des suggestions d'amélioration. Cela prend moins de 3 minutes. Une fois que vous aurez rempli la carte de score, vous recevrez également une copie gratuite en pdf de notre livre à succès Business Presentation Revolution.
+Vous obtiendrez une évaluation instantanée et des suggestions d'amélioration. Cela prend moins de 3 minutes. Une fois que vous aurez rempli cette évaluation, vous recevrez également une copie gratuite en pdf de notre livre *Business Presentation Revolution*.
 
 *Crédit photo : AbsolutVision sur Unsplash*
