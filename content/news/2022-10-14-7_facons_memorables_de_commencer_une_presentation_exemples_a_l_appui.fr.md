@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "7 façons mémorables de commencer une présentation (exemples à l’appui)"
 news = ["general"]
 date = "2022-10-04"
