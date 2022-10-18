@@ -25,10 +25,6 @@ In this article I’m going to explore the power of analogies to help you commun
 
 An analogy is a comparison between one thing and another—usually, to clarify or explain something.
 
-A is like B is an analogy. 
-
-*This* is like *that* is an analogy. 
-
 Using analogies is a powerful way to help an audience understand an unfamiliar concept. By linking something they don’t know with something they do, you create a connection for them. 
 
 The best way to explain something new is to connect it to something the audience already knows.
