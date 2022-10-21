@@ -32,9 +32,6 @@ L’esprit de TEDx, c’est de partager des idées passionnantes avec l’audito
 - L’événement peut être retransmis en direct dans d’autres lieux sous certaines conditions.
 - Un webcast en direct de l’événement doit être gratuit et ne peut pas être diffusé à la télévision, à la radio…
 
-/tedx-tours-2019-1.jpg
-TEDx Tours 2018
-
 Nous allons maintenant vous guider pas à pas dans les étapes nécessaires pour organiser votre propre événement TEDx.
 
 ## 1. Faire la demande de licence TEDx
