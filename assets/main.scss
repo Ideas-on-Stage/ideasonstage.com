@@ -1081,7 +1081,6 @@
 			height: 100%;
 			flex: 1;
 			flex-basis: 33%; /* start at 33% width */
-			min-width: 120px; /* force 2 columns width on ts screens */
 		}
 		
 		/* flex child constrained to about 25% of available space */
