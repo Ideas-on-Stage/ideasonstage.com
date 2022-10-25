@@ -19,8 +19,6 @@ If so, [this is the event](https://www.eventbrite.co.uk/e/leadership-and-communi
 
 O﻿n 6th December 2022 I'm hosting a free, live web class in collaboration with the one and only Carmine Gallo, the bestselling author of *Talk Like TED*. You’ll learn strategies based on his new book, *The Bezos Blueprint*.
 
-
-
 H﻿ere's what Carmine will cover: 
 
 * How to speak so others will listen
@@ -29,13 +27,9 @@ H﻿ere's what Carmine will cover:
 * How to use the three-act structure to pitch an idea
 * How Jeff Bezos created a writing culture at Amazon to fuel the company’s success
 
-
-
 **The Speaker**
 
 Carmine Gallo is a communication coach for the world’s most admired brands. He’s a Harvard instructor, leadership advisor, and bestselling author whose books have been translated into more than 40 languages. He has worked directly with entrepreneurs and CEOs who run companies that touch your life every day: Intel, Amazon Web Services, Google, LinkedIn, Pfizer, Walmart, and many other brands. Carmine also writes monthly columns as a senior contributor for Forbes, Harvard Business Review, and Inc Magazine.
-
-
 
 **I﻿deal for**
 
@@ -43,8 +37,6 @@ T﻿his event is ideal for established business owners, leaders and their teams 
 
 * Seriously motivated to become the best presenters they can be
 * Ready to take action to get the results they want
-
-
 
 **Bonus**
 
@@ -54,13 +46,9 @@ T﻿he free ticket includes:
 * A pdf copy of the bestselling book [Business Presentation Revolution](https://www.amazon.co.uk/Business-Presentation-Revolution-Inspire-Action/dp/1781336091/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1666193713&sr=8-1)
 * Opportunity to book your free one-hour consultation with us after the web class (bespoke, complimentary, no-obligatory help)
 
-
-
 *W﻿hen:* Tuesday 6th December 2022 at 6-7pm CET.
 
 *W﻿here:* Zoom 
-
-
 
 **What They Say About Carmine Gallo’s Book, The Bezos Blueprint**
 
@@ -70,8 +58,6 @@ T﻿he free ticket includes:
 
 “A rewarding and informative take on how to craft a convincing message.” – Publishers Weekly
 
-
-
 **R﻿egister today for free**
 
 I﻿f you'd like to attend, [here is a link](https://www.eventbrite.co.uk/e/leadership-and-communication-tactics-to-fuel-your-success-registration-441473538237?aff=ebdsoporgprofile) to the registration page.
@@ -79,7 +65,3 @@ I﻿f you'd like to attend, [here is a link](https://www.eventbrite.co.uk/e/lead
 I﻿ hope to see you there! 
 
 Andrea Pacini
-
-
-
-**R﻿egister today for free**
