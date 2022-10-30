@@ -385,16 +385,32 @@ Le jour J, plusieurs missions doivent être remplies :
 
 ### 8.2. Gestion générale pendant l’événement
 
-| **Gestion des intervenants**                           | **Gestion du public**                                                                                                         | **Gestion technique audiovisuelle**                                    |
-| ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Répétitions > ordre de passage                         | Dispositif d’accueil (contrôle des titres d’accès, gestion des flux selon les titres d’accès, remise de goodies ou documents) | Équiper les intervenants de micros                                     |
-| Micros                                                 | Placement en salle                                                                                                            | Gérer le son en régie                                                  |
-| Slides (passage des slides, modifications éventuelles) | Restauration/Collation                                                                                                        | Captation vidéo (réalisateur en régie + cadreurs derrière les caméras) |
-| Entrée/sortie de scène                                 | Sécurité                                                                                                                      | Passage/Diffusion des slides                                           |
-| Rassurer/coacher les intervenants                      |                                                                                                                               | Gestion du timer et des retours-écrans                                 |
-| Maquillage                                             |                                                                                                                               | Topeur => planning, storyboard                                         |
-| Présence en loges pour toute demande                   |                                                                                                                               |                                                                        |
-| Gestion des repas/collations                           |                                                                                                                               |                                                                        |
+**Gestion des intervenants** :
+
+- Répétitions > ordre de passage
+- Micros
+- Slides (passage des slides, modifications éventuelles)
+- Entrée/sortie de scène
+- Rassurer/coacher les intervenants
+- Maquillage
+- Présence en loges pour toute demande
+- Gestion des repas/collations
+
+**Gestion du public** :
+
+- Dispositif d’accueil (contrôle des titres d’accès, gestion des flux selon les titres d’accès, remise de goodies ou documents)
+- Placement en salle
+- Restauration/Collation
+- Sécurité
+
+**Gestion technique audiovisuelle** :
+
+- Équiper les intervenants de micros
+- Gérer le son en régie
+- Captation vidéo (réalisateur en régie + cadreurs derrière les caméras)
+- Passage/Diffusion des slides
+- Gestion du timer et des retours-écrans
+- Topeur => planning, storyboard
 
 ### 8.3. La conférence en elle-même
 
