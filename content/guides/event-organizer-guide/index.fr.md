@@ -23,7 +23,9 @@ Comme nous le faisons pour les formations et le coaching que nous encadrons, nou
 Nous veillerons à ce que votre événement soit non seulement mémorable pour les participants, mais atteigne également vos objectifs en harmonie avec votre culture d’entreprise.
 
 ## Définissez précisément l’événement
-Quand ? Où ? Pourquoi ? Comment ? Avec qui ? Répondre à toutes ces questions vous aidera à fixer les objectifs stratégiques tout en déterminant le contenu de votre événement. Vouloir organiser un événement, c’est bien. Mais savoir pourquoi et créer un événement qui a du sens, c’est mieux ! Dans tout projet, les fondations sont capitales. Mal définir le cadre et les objectifs attendus est l’une des erreurs les plus fréquentes. Elle mène inévitablement à des oublis et un retour sur investissement moindre. Pour éviter cette situation, posez le cadre en appliquant la règle des 5 W :
+Quand ? Où ? Pourquoi ? Comment ? Avec qui ? Répondre à toutes ces questions vous aidera à fixer les objectifs stratégiques tout en déterminant le contenu de votre événement. Vouloir organiser un événement, c’est bien. Mais savoir pourquoi et créer un événement qui a du sens, c’est mieux ! Dans tout projet, les fondations sont capitales. Mal définir le cadre et les objectifs attendus est l’une des erreurs les plus fréquentes. Elle mène inévitablement à des oublis et un retour sur investissement moindre. Pour éviter cette situation, posez le cadre en appliquant la règle des 5 W.
+
+> Vous voulez organiser un événement style TEDx ? Consultez notre [guide comment organiser un événement TEDx](https://www.ideasonstage.fr/comment-organiser-un-evenement-tedx/).
 
 ### Quoi : what?
 Quel type d’événement souhaitez-vous organiser ?
@@ -148,6 +150,8 @@ Rien de mieux pour marquer les esprits qu’un lieu qui sort de l’ordinaire. U
 - Y a-t-il une équipe de nettoyage ? Du personnel de sécurité ?
 
 Vous devez prévoir du temps pour vous rendre sur le lieu et faire un repérage en détail : du parking au hall d’accueil et des espaces d’événement aux installations sanitaires. Cette visite vous donnera peut-être des arguments de négociation avant même d’accepter définitivement.
+
+> Pourquoi ne pas proposer un [atelier LEGO ou LEGO Serious Play](https://www.ideasonstage.fr/evenements-entreprise/ateliers-lego-serious-play/) à vos employés pour animer votre événement ? Ludiques et rafraîchissants, ces ateliers améliorent la cohésion d'équipe et la collaboration. [Cliquez ici pour en savoir plus](https://www.ideasonstage.fr/evenements-entreprise/ateliers-lego-serious-play/).
 
 ## Choisir ses prestataires
 

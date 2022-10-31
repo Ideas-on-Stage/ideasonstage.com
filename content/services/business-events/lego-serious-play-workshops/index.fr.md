@@ -10,7 +10,7 @@ url 			= "/evenements-entreprise/ateliers-lego-serious-play/"
 
 Le LEGO est universellement reconnu par les spécialistes des sciences cognitives comme un outil exceptionnel pour libérer la créativité et l'originalité des personnes. Notre partenaire Coding & Bricks propose un programme adapté pour les entreprises pour mettre les célèbres petites briques colorées au service de leurs problématiques. Que ce soit pour organiser une activité lors d'un séminaire d'entreprise, pour aider à résoudre des problèmes précis, améliorer la communication ou libérer la créativité, les ateliers LEGO Serious Play de Coding & Bricks donneront un sérieux coup de fouet au dynamisme de votre entreprise.
 
-Intéressés ? Pour en savoir plus, rendez-vous [sur le site de Coding & Bricks](https://www.codingandbricks.com)
+> Pour en savoir plus sur les ateliers LEGO et LEGO Serious Play, rendez-vous [sur le site de Coding & Bricks](https://www.codingandbricks.com)
 
 ### Ateliers LEGO Serious Play
 
@@ -42,6 +42,6 @@ Les équipes doivent réaliser un modèle LEGO® en suivant un plan, mais ce n�
 
 Dans cette activité, chaque équipe doit résoudre des énigmes et différents problèmes en utilisant les briques LEGO®. Proche de l’esprit « Escape Game », cette activité a l’avantage de pouvoir être organisée pour de grands groupes et de ne pas nécessiter de lieu spécial.
 
-Intéressés ? Pour en savoir plus, rendez-vous [sur le site de Coding & Bricks](https://www.codingandbricks.com)
+> Intéressés ? Pour en savoir plus, rendez-vous [sur le site de Coding & Bricks](https://www.codingandbricks.com)
 
 ![Atelier LEGO Serious Play](lego-serious-play-3.jpg)

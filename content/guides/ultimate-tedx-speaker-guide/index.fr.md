@@ -12,6 +12,8 @@ Parce que nous nous sommes rendus compte que beaucoup de Speakers se posaient le
 
 ![TEDx WBG World Bank Group](tedx-wbg.jpg)
 
+> Si vous souhaitez organiser un événement TEDx, consultez notre [guide comment organiser un événement TEDx.](https://www.ideasonstage.fr/comment-organiser-un-evenement-tedx/)
+
 ### Usages autorisés du guide ultime du TEDx Speaker
 Vous pouvez utiliser ce guide librement à condition d’en citer la source et de créer un lien web visible vers cette page dans les cas suivants :
 
@@ -189,6 +191,8 @@ Voici quelques conseils pour vous aider à mieux répéter :
 *	Faites attention à ne pas parler trop vite. N’hésitez pas à ralentir votre débit ou à faire des pauses pour renforcer l’effet dramatique.
 *	Enregistrez-vous. Je sais, vous n’en avez pas envie, mais c’est la meilleure façon de s’améliorer !
 Nous ne le répéterons jamais assez : les meilleurs TEDx Speakers ont tous répété !
+
+> Pour en apprendre plus sur l'art oratoire, vous pouvez consulter notre [guide sur la prise de parole en public](https://www.ideasonstage.fr/guide-ultime-prise-de-parole-en-public/).
 
 ## Le jour T…
 Vous venez de terminer les répétitions. Vous êtes fin prêt pour être TEDx Speaker et être la star sur scène. Vous n’avez donc plus rien à faire… et bien pas tout à fait. Il vous reste encore quelques étapes avant le grand moment.

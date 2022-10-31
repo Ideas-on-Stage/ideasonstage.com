@@ -16,6 +16,8 @@ Les conférences traditionnelles pourraient réaliser bien plus avec un petit pe
 
 Nous vous aiderons à choisir un thème et un fil conducteur pour capturer l'attention de votre public, et nous ajouterons notre touche pour transformer votre événement en une expérience inoubliable. Nous pouvons également vous aider à sélectionner les intervenants appropriés.
 
+> Vous organisez un événement pour votre entreprise mais vous ne savez pas par où commencer ? [Consultez notre guide de l'organisateur d'événements](https://www.ideasonstage.fr/guide-organisateur-evenement-entreprise/).
+
 Avec notre service de conception d'événements vous aurez :
 
 * Un scénario global pour votre événement qui liera ensemble les interventions individuelles, les ateliers et les activités, donnant au tout une valeur bien supérieure.
@@ -23,7 +25,7 @@ Avec notre service de conception d'événements vous aurez :
 
 Nous ne nous occupons pas de la logistique des événements.
 
-Une fois la conception de l'événement terminée nous pouvons vous aider à préparer les intervenants avec notre service de coaching des orateurs. 
+Une fois la conception de l'événement terminée nous pouvons vous aider à préparer les intervenants avec notre [service de coaching des orateurs](https://www.ideasonstage.fr/coaching-prise-de-parole-en-public/). Nous pouvons également vous proposer des [ateliers LEGO et LEGO Serious Play avec notre partenaire Coding & Bricks](https://www.ideasonstage.fr/evenements-entreprise/ateliers-lego-serious-play/).
 
 Pour concevoir un événement exceptionnel contactez-nous avec le formulaire ci-dessous.
 

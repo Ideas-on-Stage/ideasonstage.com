@@ -34,6 +34,8 @@ L’esprit de TEDx, c’est de partager des idées passionnantes avec l’audito
 
 Nous allons maintenant vous guider pas à pas dans les étapes nécessaires pour organiser votre propre événement TEDx.
 
+> Vous souhaitez organiser un événement dans votre entreprise ? Consultez notre [guide pratique de l'organisateur d'événements](https://www.ideasonstage.fr/guide-organisateur-evenement-entreprise/).
+
 ## 1. Faire la demande de licence TEDx
 
 ### 1.1. Créer une association pour votre TEDx
@@ -188,6 +190,8 @@ Au-delà des sujets formellement interdits, évitez les intervenants connus pour
 
 Un programme équilibré créera des moments de détente et d’expérience. À d’autres moments, il fera réfléchir et à d’autres il fera rire. Il changera la perception du monde des participants. L’ordre exact ne pourra être établi qu’après avoir fini la préparation des intervenants.
 
+> Pour vous aider à préparer vos intervenants, vous pouvez consulter notre [guide ultime du TEDx Speaker.](https://www.ideasonstage.fr/guide-tedx-speaker/)
+
 ## 4. Constituer son budget et rechercher des partenaires
 
 Un événement TEDx, aussi simple soit-il, engendre des coûts quoiqu’il arrive. Pour couvrir ces dépenses, il existe deux sources principales de revenu : la billetterie et le partenariat. Concentrons-nous ici sur la deuxième source.
@@ -314,6 +318,8 @@ Dans la préparation de votre événement, il faut aussi penser à travailler la
 
 **Les intervenants doivent être préparés et coachés au moins 2 mois avant l’événement**. Nous ne le dirons jamais assez : **n’acceptez aucun intervenant qui refuse de suivre la procédure de préparation, surtout s’il est célèbre**. Ils ont toutes les chances de rater leur intervention et de créer une déception vis-à-vis du public.
 
+> Vous voulez une préparation de qualité pour vos speakers ? [Consultez nos formules de sponsorship et de coaching des intervenants pour votre événement](https://www.ideasonstage.fr/coaching-prise-de-parole-en-public/coaching-tedx/).
+
 La préparation se déroule en plusieurs étapes :
 
 - Définir l’idée clé et le fil conducteur.
@@ -365,6 +371,8 @@ Il peut s’agir d’une fresque géante, d’un mur de post-it à compléter, d
 ## 8. Le déroulé typique d’un événement TEDx
 
 Après avoir analysé et travaillé sur tous les points précédents, il est temps de se projeter et de préparer le planning du jour de votre événement TEDx.
+
+> Nous pouvons vous aider à organiser la journée de votre événement TEDx. [Consultez nos formules de support événementiel](https://www.ideasonstage.fr/evenements-entreprise/).
 
 ### 8.1. Construire le déroulé de la journée
 
