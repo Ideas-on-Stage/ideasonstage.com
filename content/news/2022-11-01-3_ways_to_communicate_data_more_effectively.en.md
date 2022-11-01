@@ -4,7 +4,7 @@ title = "3 Ways To Communicate Data More Effectively"
 tags = ["P﻿ublic Speaking"]
 news = ["general"]
 date = "2022-11-01"
-author = "Andrea Pacinii"
+author = "Andrea Pacini"
 banner = "/img/news/1_2_3.jpeg"
 +++
 ![1 2 3](/img/news/169.png)
