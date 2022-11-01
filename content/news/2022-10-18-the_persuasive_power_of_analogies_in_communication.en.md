@@ -9,7 +9,7 @@ banner = "/img/news/a_b.001.jpeg"
 +++
 <!--StartFragment-->
 
-![A = B](/img/news/169.jpg)
+![A = B](/img/news/169_1_.png)
 
 One of the hardest lessons to learn in communication is the art of keeping things simple.
 
