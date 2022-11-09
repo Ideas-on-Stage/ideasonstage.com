@@ -4,11 +4,9 @@ title = "Le pouvoir persuasif des analogies dans la communication"
 news = ["general"]
 date = "2022-10-25"
 author = "Andrea Pacini"
-banner = "/img/news/169.jpg"
+banner = "/img/news/169_1_.png"
 +++
-
-
-![](/img/news/169.jpg)
+![](/img/news/169_1_.png)
 
 L'une des leçons les plus difficiles à apprendre en communication est l'art de garder les choses simples.
 
