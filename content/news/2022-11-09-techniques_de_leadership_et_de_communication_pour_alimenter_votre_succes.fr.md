@@ -22,8 +22,8 @@ Voici les sujets que Carmine abordera :
 
 * Comment parler pour que les autres écoutent.
 * Comment simplifier votre message en utilisant des mots courts pour parler de choses complexes.
-* Comment ajouter des astuces d'expression comme les métaphores, les analogies et les symboles pour améliorer votre message.
-* Comment utiliser la structure en trois actes pour présenter une idée ?
+* Comment recourir à des astuces d'expression comme les métaphores, les analogies et les symboles pour améliorer votre message.
+* Comment utiliser la structure en trois actes pour présenter une idée.
 * Comment Jeff Bezos a créé une culture de l'écriture chez Amazon pour alimenter le succès de l'entreprise.
 
 #### **L’invité**
