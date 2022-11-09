@@ -26,18 +26,18 @@ Voici les sujets que Carmine abordera :
 * Comment utiliser la structure en trois actes pour présenter une idée ?
 * Comment Jeff Bezos a créé une culture de l'écriture chez Amazon pour alimenter le succès de l'entreprise.
 
-**L’invité**
+#### **L’invité**
 
 Carmine Gallo est un coach en communication pour les marques les plus admirées au monde. Il est professeur à Harvard, conseiller en leadership et auteur à succès dont les livres ont été traduits dans plus de 40 langues. Il a travaillé directement avec des entrepreneurs et des PDG à la tête d'entreprises que vous connaissez bien : Intel, Amazon Web Services, Google, LinkedIn, Pfizer, Walmart, et de nombreuses autres marques. Carmine écrit également des chroniques mensuelles en tant que contributeur principal pour Forbes, Harvard Business Review et Inc Magazine.
 
-**Un événement pour …**
+#### **Un événement pour …**
 
 Cet événement est idéal pour les PDG, les leaders et leurs équipes qui sont :
 
 * sérieusement motivés pour devenir les meilleurs présentateurs
 * prêts à passer à l'action pour obtenir les résultats souhaités
 
-**Bonus**
+#### **Bonus**
 
 Le billet -gratuit- comprend :
 
@@ -51,7 +51,7 @@ Le billet -gratuit- comprend :
 
 *L﻿angue :* En anglais
 
-**Ce qu'ils disent du livre de Carmine Gallo, *« The Bezos Blueprint »***
+#### **Ce qu'ils disent du livre de Carmine Gallo, *« The Bezos Blueprint »***
 
 « Carmine Gallo examine plus de deux décennies de lettres de Bezos pour révéler les stratégies d'écriture et de communication qui devraient être enseignées à tous ceux qui ont une histoire à raconter. » - Marc Randolph, cofondateur et premier PDG de Netflix
 
@@ -59,7 +59,7 @@ Le billet -gratuit- comprend :
 
 « Un point de vue enrichissant et instructif sur la façon d'élaborer un message convaincant ». - Publishers Weekly
 
-**Inscrivez-vous gratuitement dès aujourd'hui**
+#### **Inscrivez-vous gratuitement dès aujourd'hui**
 
 Si vous souhaitez participer, [voici un lien vers la page d'inscription](https://www.eventbrite.co.uk/e/leadership-and-communication-tactics-to-fuel-your-success-registration-441473538237?aff=ebdsoporgprofile).
 
