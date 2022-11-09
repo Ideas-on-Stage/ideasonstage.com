@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Techniques de leadership et de communication pour alimenter votre succès"
 news = ["general"]
 date = "2022-10-24"
