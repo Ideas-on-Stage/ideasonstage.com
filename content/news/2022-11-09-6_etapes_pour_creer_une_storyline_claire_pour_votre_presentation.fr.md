@@ -1,6 +1,6 @@
 +++
-draft = "true"
-title = "6 étapes pour créer une storyline claire pour votre présentation"
+draft = false
+title = "6 étapes pour créer une trame (storyline) claire pour votre présentation"
 news = ["general"]
 date = "2022-09-27"
 author = "Andrea Pacini"
@@ -10,7 +10,7 @@ Les meilleurs films, émissions de télévision et romans sont ceux dont l'intri
 
 Cependant, la plupart des chefs d'entreprise, des dirigeants et des professionnels ne prêtent pas suffisamment attention à la manière dont ils structurent leurs présentations. Ils ne parviennent pas à développer une trame narrative claire.
 
-J'ai rencontré de nombreux présentateurs qui improvisent leur présentation autour de quelques diapositives. Leur « scénario » ressemble plutôt à une séquence de diapositives prévisibles que nous avons tous vus un million de fois auparavant. Il y a une diapositive de titre, une diapositive d'ordre du jour, puis une série d'autres diapositives.
+J'ai rencontré de nombreux présentateurs qui improvisent leur présentation autour de quelques diapositives. Leur trame ressemble plutôt à une séquence de diapositives prévisibles que nous avons tous déjà vus un million de fois. Il y a une diapositive de titre, une diapositive d'ordre du jour, puis une série d'autres diapositives.
 
 Lorsque les diapositives ne suivent aucune structure, il est peu probable que l'auditoire soit pleinement engagé. Lorsque les participants quittent la réunion, ils ne comprennent pas ce qui a été dit, ils ne s'en souviennent pas et n'agissent pas. Les messages clés ne sont pas clairs.
 
@@ -32,9 +32,9 @@ De la même manière, la structure d'une présentation et la façon dont vous la
 
 Selon Matt Abrahams, maître de conférences en comportement organisationnel à la Graduate School of Business de l'université de Stanford, « les gens retiennent les informations structurées avec en moyenne 40% de fiabilité et de précision de plus que les informations présentées de manière plus libre. »
 
-#### **Quel est la meilleure storyline ?**
+#### **Quel est la meilleure trame ?**
 
-En fonction des besoins de votre auditoire et de ce que vous essayez d'atteindre, il existe différents scénarios qui fonctionnent mieux que d'autres. 
+En fonction des besoins de votre auditoire et de ce que vous essayez d'atteindre, il existe différentes trames qui fonctionnent mieux que d'autres.
 
 Cependant, il existe une structure qui fonctionne tout le temps. Il s'agit d'une structure en six étapes que vous pouvez appliquer à tout type de présentation, quel que soit le contexte, l’auditoire ou ses besoins.
 
@@ -46,21 +46,21 @@ Examinons cette structure plus en détail et décortiquons-la.
 
 **1/ Ouverture** 
 
-C'est l'introduction de votre présentation. Notez que je dis l'introduction, pas votre introduction. La plupart des présentateurs font l'erreur de se présenter au début de leur présentation.
+C'est l'introduction de votre présentation. Notez que je dis l'introduction, pas « votre » introduction. La plupart des présentateurs font l'erreur de se présenter au début de leur présentation.
 
 Si vous commencez par vous présenter, vous n'arriverez jamais à capter l'attention de l’auditoire. Personne ne s'intéresse vraiment à vous (ou à moi). Ils ne s'intéressent qu'à eux-mêmes.  
 
-Une meilleure façon de commencer est de parler de l’auditoire et de l'impliquer. Vous devez leur dire pourquoi ils doivent s'intéresser à votre présentation. Quel est l'intérêt pour eux ? Pourquoi devraient-ils vous écouter ?
+La meilleure façon de commencer est de parler de l’auditoire et de l'impliquer. Vous devez leur dire pourquoi ils doivent s'intéresser à votre présentation. Quel est l'intérêt pour eux ? Pourquoi devraient-ils vous écouter ?
 
 Maintenant que vous avez capté l'attention de votre auditoire et que vous l'avez valorisé, vous pouvez vous présenter.
 
 **2/ Corps principal - Trois messages clés** 
 
-Le corps principal de votre présentation doit contenir vos trois messages clés et les points d'appui pertinents. C'est là que, en plus de partager des informations, des faits et des chiffres, vous devez inclure des histoires, des exemples et des analogies.
+Le corps principal de votre présentation doit contenir vos trois messages clés et des références pertinentes. C'est là que, en plus de partager des informations, des faits et des chiffres, vous devez inclure des histoires, des exemples et des analogies.
 
 Ce sont ces anecdotes personnelles qui rendront vos présentations plus originales et plus agréables.
 
-L'utilisation de la règle de trois pour faire passer vos idées est incroyablement puissante, comme je l'ai déjà expliqué ici. L'article comprend également l'exemple d'un de nos clients.
+L'utilisation de la règle de trois pour faire passer vos idées est incroyablement puissante. Retrouvez plus bas un exemple avec l'un de nos clients.
 
 **3/ Récapitulatif**  
 
@@ -68,9 +68,9 @@ Vous avez délivré vos trois messages clés dans le corps principal de la prés
 
 Ne vous inquiétez pas du fait que vous répétez ce que vous leur avez déjà dit. La répétition est une bonne chose en communication.
 
-Si vous avez un message important à faire passer et que vous le dites une fois à votre auditoire, il l'oubliera. Si vous le leur répétez deux ou trois fois au cours d'une présentation, ils le retiendront.
+Si vous avez un message important à faire passer et que vous le dites une fois à votre auditoire, il l'oubliera. Si vous le lui répétez deux ou trois fois au cours d'une présentation, il le retiendra.
 
-L'important est de mélanger la présentation et d'utiliser des mots et des phrases différents. Ce serait ennuyeux si votre récapitulatif était une répétition identique des mêmes phrases. Si vous délivrez le même message de différentes manières, c'est une bonne répétition.
+L'important est de reformuler la présentation et d'utiliser des mots et des phrases différents. Ce serait ennuyeux si votre récapitulatif était une répétition identique des mêmes phrases. Si vous délivrez le même message de différentes manières, c'est une bonne répétition.
 
 Le but de la récapitulation est de se concentrer sur la seule chose que vous voulez que votre auditoire retienne de votre présentation. 
 
@@ -78,13 +78,13 @@ Faites en sorte que votre récapitulatif soit aussi bref que possible. Lorsque v
 
 **4/ Les prochaines étapes** 
 
-La plupart des présentateurs ne disent pas clairement à l’auditoire ce qu'ils veulent qu'il fasse après la présentation一ou ne sont pas assez précis sur les actions. 
+La plupart des présentateurs ne disent pas clairement à l’auditoire ce qu'ils veulent qu'il fasse après la présentation - ou ne sont pas assez précis sur les actions.
 
 N'oubliez pas : une présentation n'est pas un exercice de lecture des pensées. Vous ne pouvez pas attendre de votre auditoire qu'il sache ce que vous voulez qu'il fasse. Vous devez l'expliquer clairement et lui dire quelle action il doit entreprendre.
 
-Voulez-vous qu'il exprime son intérêt pour un appel de découverte ? Dites-le-lui.
+Voulez-vous qu'il exprime son intérêt pour un premier échange ? Dites-le-lui.
 
-Vous voulez qu'il commence à collaborer avec vous ? Dites-le lui. 
+Voulez-vous qu'il commence à collaborer avec vous ? Dites-le lui.
 
 Voulez-vous qu'il accepte d'avoir une conversation plus approfondie avec votre équipe technique ? Dites-le lui. 
 
@@ -94,7 +94,7 @@ Une autre erreur courante des présentateurs est d'inclure les questions et rép
 
 Ils terminent leur présentation de manière hésitante et disent ensuite quelque chose comme : « Hum... ok... c'est tout pour aujourd'hui... Avez-vous des questions ? »
 
-Rendez vous service et ne faites pas cela ! Vous ne devez jamais terminer une présentation par une session de questions-réponses. 
+Rendez-vous service et ne faites pas cela ! Vous ne devez jamais terminer une présentation par une session de questions-réponses.
 
 Une présentation doit se terminer selon vos propres termes, avec votre propre conclusion. Le dernier point que vous abordez doit être l'énoncé de votre message clé et la raison pour laquelle les participants doivent s'y intéresser. 
 
@@ -134,7 +134,7 @@ Il m'a dit qu'il se sentait beaucoup plus confiant et habilité à être un visa
 
 #### **Résumé**
 
-Le fait d'avoir un scénario clair rehaussera vos présentations et garantira que votre auditoire comprendra votre message clé.
+Le fait d'avoir une trame claire rehaussera vos présentations et garantira que votre auditoire comprendra votre message clé.
 
 Une présentation composée d'une série de diapositives ne constitue pas un scénario, quelle que soit la quantité de travail qu'elle a exigée.
 
