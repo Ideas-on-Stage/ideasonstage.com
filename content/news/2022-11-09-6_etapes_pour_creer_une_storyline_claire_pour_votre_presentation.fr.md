@@ -6,6 +6,8 @@ date = "2022-09-27"
 author = "Andrea Pacini"
 banner = "/img/news/steps.jpeg"
 +++
+![](/img/news/steps.jpeg)
+
 Les meilleurs films, émissions de télévision et romans sont ceux dont l'intrigue est la meilleure. Il en va de même pour les présentations. Une narration puissante peut vous aider à donner vie à votre présentation et à la rendre mémorable et réussie. 
 
 Cependant, la plupart des chefs d'entreprise, des dirigeants et des professionnels ne prêtent pas suffisamment attention à la manière dont ils structurent leurs présentations. Ils ne parviennent pas à développer une trame narrative claire.
