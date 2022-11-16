@@ -14,7 +14,7 @@
 						<img src="{{ .picture }}" class="style-photograph" alt="{{ .name }}">
 					{{- end }}
 		        </div>
-		        <div class="flex-child-67p flex-child-text-right">
+		        <div class="flex-child-67p flex-child-text-right flex-child-img-notfullwidth">
 					<h1>{{ .Params.name }}</h1>
 					<p class="style-person-title">{{ .Params.position }}</p>
 					{{ with .Content }}{{ . | markdownify }}{{ end }}

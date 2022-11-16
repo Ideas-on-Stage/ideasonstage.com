@@ -1133,6 +1133,14 @@
 		.flex-child-text-right {
 			padding-left: 2vw;
 		}
+		
+		.logo {
+			display: block;
+			margin: 0;
+			padding: 0;
+			width: 32px;
+			height: 32px;
+		}
 
 		
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
