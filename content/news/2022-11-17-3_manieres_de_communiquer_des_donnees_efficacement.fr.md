@@ -108,7 +108,7 @@ Le problème est que les données en elles-mêmes peuvent être ennuyeuses et di
 
 De nombreux présentateurs ne parviennent pas à communiquer les données de manière à les rendre intéressantes.
 
-La façon de rendre les données vivantes est de les rendre attachantes. 
+La façon de rendre les données vivantes et attachantes. 
 
 Il est bon de mettre les données en perspective en les reliant à la **taille**, au **temps** ou à des **choses** que l’auditoire comprend.
 
