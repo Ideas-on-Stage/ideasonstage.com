@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "3 manières de communiquer des données efficacement"
 news = ["general"]
 date = "2022-11-01"
@@ -50,7 +50,7 @@ Ils ont souhaité aider l’auditoire à visualiser l'ampleur de cette distance.
 
 C'était une façon convaincante de faire vivre les 250 000 miles d'une manière réaliste. Tous les Britanniques peuvent comprendre ce que cela représente de conduire 400 fois entre Lands End et John o'Groats.
 
-N'oubliez pas : il est toujours question de l’auditoire. **J'ai d’ailleurs déjà partagé ICI la façon de faire une présent**ation en fonction de son auditoire. 
+N'oubliez pas : il est toujours question de l’auditoire. J'avais d’ailleurs déjà partagé [dans un précédent article](https://www.ideasonstage.fr/news/2022/08/23/2022-11-17-comment_rendre_votre_message_pertinent_pour_votre_auditoire/) la façon de faire une présentation en fonction de son auditoire.
 
 **Relier les données au temps**
 
