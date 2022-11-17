@@ -114,7 +114,7 @@ Il est bon de mettre les données en perspective en les reliant à la **taille**
 
 Si vous apprenez à bien présenter les données, vos présentations commerciales seront plus efficaces et vous en récolterez les fruits.
 
-**Commentaires**
+#### **Commentaires**
 
 Si vous avez apprécié cet article, j'aimerais connaître votre avis. N'hésitez pas à le commenter ou à me contacter. Si vous connaissez un collègue ou un ami à qui des conseils de présentation pourraient être utiles, partagez cet article avec lui. 
 
