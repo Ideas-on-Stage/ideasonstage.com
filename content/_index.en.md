@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Presentation Creation | Business Events | Public Speaking Coaching and Training"
+title 			= "Public Speaking Coaching and Training, Presentation Creation"
 description		= "International agency specialized in Presentation Creation, Business Events and Public Speaking Coaching and Training. We cover North America and Europe."
 picture			= "/img/ideas-on-stage.svg"
 schema			= "Website"

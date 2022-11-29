@@ -958,6 +958,11 @@
     <loc>https://www.ideasonstage.es/guias/ultimate-tedx-speaker-guide/</loc>
     <xhtml:link
                 rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/tedx-speaker-guide/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="https://www.ideasonstage.fr/guide-tedx-speaker/"
                 />
@@ -975,6 +980,11 @@
   
   <url>
     <loc>https://www.ideasonstage.es/guia-definitiva-hablar-en-publico/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/ultimate-public-speaking-guide/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"

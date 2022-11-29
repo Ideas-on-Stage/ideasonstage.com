@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <copyright>© Ideas on Stage 2015 - </copyright>
-    <lastBuildDate>Wed, 21 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Nov 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.ideasonstage.fr/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -138,55 +138,55 @@
 		&lt;div class=&#34;flex-parent-row flex-justify-center&#34;&gt;
 			
 	&lt;!-- shortcodes:icon-item.html:start --&gt;
-&lt;div class=&#34;flex-child-20p&#34;&gt;
-	&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
-	&lt;img src=&#34;instructor.svg&#34;&gt;
+	&lt;div class=&#34;flex-child-20p&#34;&gt;
+		&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
+		&lt;img src=&#34;instructor.svg&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;paddingh-small&#34;&gt;
+		&lt;p class=&#34;style-text-icon text-center&#34;&gt;Cours en présentiel avec un de nos formateurs experts&lt;/p&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class=&#34;paddingh-small&#34;&gt;
-	&lt;p class=&#34;style-text-icon text-center&#34;&gt;Cours en présentiel avec un de nos formateurs experts&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- shortcodes:icon-item.html:end --&gt;
+	&lt;!-- shortcodes:icon-item.html:end --&gt;
 	&lt;!-- shortcodes:icon-item.html:start --&gt;
-&lt;div class=&#34;flex-child-20p&#34;&gt;
-	&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
-	&lt;img src=&#34;duration-7h.svg&#34;&gt;
+	&lt;div class=&#34;flex-child-20p&#34;&gt;
+		&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
+		&lt;img src=&#34;duration-7h.svg&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;paddingh-small&#34;&gt;
+		&lt;p class=&#34;style-text-icon text-center&#34;&gt;7h de formation sur une journée&lt;/p&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class=&#34;paddingh-small&#34;&gt;
-	&lt;p class=&#34;style-text-icon text-center&#34;&gt;7h de formation sur une journée&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- shortcodes:icon-item.html:end --&gt;
+	&lt;!-- shortcodes:icon-item.html:end --&gt;
 	&lt;!-- shortcodes:icon-item.html:start --&gt;
-&lt;div class=&#34;flex-child-20p&#34;&gt;
-	&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
-	&lt;img src=&#34;group.svg&#34;&gt;
+	&lt;div class=&#34;flex-child-20p&#34;&gt;
+		&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
+		&lt;img src=&#34;group.svg&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;paddingh-small&#34;&gt;
+		&lt;p class=&#34;style-text-icon text-center&#34;&gt;6 à 8 participants en présentiel&lt;/p&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class=&#34;paddingh-small&#34;&gt;
-	&lt;p class=&#34;style-text-icon text-center&#34;&gt;6 à 8 participants en présentiel&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- shortcodes:icon-item.html:end --&gt;
+	&lt;!-- shortcodes:icon-item.html:end --&gt;
 	&lt;!-- shortcodes:icon-item.html:start --&gt;
-&lt;div class=&#34;flex-child-20p&#34;&gt;
-	&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
-	&lt;img src=&#34;exercises.svg&#34;&gt;
+	&lt;div class=&#34;flex-child-20p&#34;&gt;
+		&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
+		&lt;img src=&#34;exercises.svg&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;paddingh-small&#34;&gt;
+		&lt;p class=&#34;style-text-icon text-center&#34;&gt;Exercices pratiques adaptables à votre entreprise&lt;/p&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class=&#34;paddingh-small&#34;&gt;
-	&lt;p class=&#34;style-text-icon text-center&#34;&gt;Exercices pratiques adaptables à votre entreprise&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- shortcodes:icon-item.html:end --&gt;
+	&lt;!-- shortcodes:icon-item.html:end --&gt;
 	&lt;!-- shortcodes:icon-item.html:start --&gt;
-&lt;div class=&#34;flex-child-20p&#34;&gt;
-	&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
-	&lt;img src=&#34;guide.svg&#34;&gt;
+	&lt;div class=&#34;flex-child-20p&#34;&gt;
+		&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
+		&lt;img src=&#34;guide.svg&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;paddingh-small&#34;&gt;
+		&lt;p class=&#34;style-text-icon text-center&#34;&gt;Guide de référence pour chaque participant&lt;/p&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class=&#34;paddingh-small&#34;&gt;
-	&lt;p class=&#34;style-text-icon text-center&#34;&gt;Guide de référence pour chaque participant&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- shortcodes:icon-item.html:end --&gt;
+	&lt;!-- shortcodes:icon-item.html:end --&gt;
 
 		&lt;/div&gt;
 	&lt;/div&gt;
@@ -204,49 +204,49 @@
 	
 
 	&lt;div class=&#34;layout-shortcode-child padding-tiny&#34;&gt;
-	
-			&lt;input id=&#34;collapsible_Module 1 : MESSAGE&#34; class=&#34;agenda-toggle&#34; type=&#34;checkbox&#34;&gt;
-			&lt;label for=&#34;collapsible_Module 1 : MESSAGE&#34; class=&#34;agenda-toggle style-agenda-item-title text-center&#34;&gt;Module 1 : MESSAGE &lt;i class=&#34;fa fa-chevron-down&#34;&gt;&lt;/i&gt;&lt;/label&gt;
-		&lt;div class=&#34;collapsible-content&#34;&gt;
-			&lt;p class=&#34;style-agenda-item-description text-center agenda-content-inner&#34;&gt;Les défauts des présentations traditionnelles en entreprise&lt;br&gt;Facteurs clés de succès d&amp;rsquo;une prise de parole réussie&lt;br&gt;Introduction à la méthode pSCORE&lt;br&gt;Identifier l&amp;rsquo;auditoire, les besoins et le contexte (technique ABC)&lt;br&gt;Définier l&amp;rsquo;objectif de sa prise de parole&lt;br&gt;Choisir les messages clés de la présentation&lt;/p&gt;
-		&lt;/div&gt;	
 		
-		
-&lt;/div&gt;
-&lt;!-- shortcodes:agenda-item.html:end --&gt;
+				&lt;input id=&#34;collapsible_Module 1 : MESSAGE&#34; class=&#34;agenda-toggle&#34; type=&#34;checkbox&#34;&gt;
+				&lt;label for=&#34;collapsible_Module 1 : MESSAGE&#34; class=&#34;agenda-toggle style-agenda-item-title text-center&#34;&gt;Module 1 : MESSAGE &lt;i class=&#34;fa fa-chevron-down&#34;&gt;&lt;/i&gt;&lt;/label&gt;
+			&lt;div class=&#34;collapsible-content&#34;&gt;
+				&lt;p class=&#34;style-agenda-item-description text-center agenda-content-inner&#34;&gt;Les défauts des présentations traditionnelles en entreprise&lt;br&gt;Facteurs clés de succès d&amp;rsquo;une prise de parole réussie&lt;br&gt;Introduction à la méthode pSCORE&lt;br&gt;Identifier l&amp;rsquo;auditoire, les besoins et le contexte (technique ABC)&lt;br&gt;Définier l&amp;rsquo;objectif de sa prise de parole&lt;br&gt;Choisir les messages clés de la présentation&lt;/p&gt;
+			&lt;/div&gt;	
+			
+			
+	&lt;/div&gt;
+	&lt;!-- shortcodes:agenda-item.html:end --&gt;
 	&lt;div class=&#34;layout-shortcode-child padding-tiny&#34;&gt;
-	
-			&lt;input id=&#34;collapsible_Module 2 : DISCOURS&#34; class=&#34;agenda-toggle&#34; type=&#34;checkbox&#34;&gt;
-			&lt;label for=&#34;collapsible_Module 2 : DISCOURS&#34; class=&#34;agenda-toggle style-agenda-item-title text-center&#34;&gt;Module 2 : DISCOURS &lt;i class=&#34;fa fa-chevron-down&#34;&gt;&lt;/i&gt;&lt;/label&gt;
-		&lt;div class=&#34;collapsible-content&#34;&gt;
-			&lt;p class=&#34;style-agenda-item-description text-center agenda-content-inner&#34;&gt;Le pitch ascenseur, une forme de prise de parole pour clarifier vos messages clés&lt;br&gt;Définir la structure du discours&lt;br&gt;Mettre en valeur les messages clés pour rendre sa prise de parole en public plus originale et entrainante&lt;/p&gt;
-		&lt;/div&gt;	
 		
-		
-&lt;/div&gt;
-&lt;!-- shortcodes:agenda-item.html:end --&gt;
+				&lt;input id=&#34;collapsible_Module 2 : DISCOURS&#34; class=&#34;agenda-toggle&#34; type=&#34;checkbox&#34;&gt;
+				&lt;label for=&#34;collapsible_Module 2 : DISCOURS&#34; class=&#34;agenda-toggle style-agenda-item-title text-center&#34;&gt;Module 2 : DISCOURS &lt;i class=&#34;fa fa-chevron-down&#34;&gt;&lt;/i&gt;&lt;/label&gt;
+			&lt;div class=&#34;collapsible-content&#34;&gt;
+				&lt;p class=&#34;style-agenda-item-description text-center agenda-content-inner&#34;&gt;Le pitch ascenseur, une forme de prise de parole pour clarifier vos messages clés&lt;br&gt;Définir la structure du discours&lt;br&gt;Mettre en valeur les messages clés pour rendre sa prise de parole en public plus originale et entrainante&lt;/p&gt;
+			&lt;/div&gt;	
+			
+			
+	&lt;/div&gt;
+	&lt;!-- shortcodes:agenda-item.html:end --&gt;
 	&lt;div class=&#34;layout-shortcode-child padding-tiny&#34;&gt;
-	
-			&lt;input id=&#34;collapsible_Module 3 : PRÉSENTATION POWERPOINT&#34; class=&#34;agenda-toggle&#34; type=&#34;checkbox&#34;&gt;
-			&lt;label for=&#34;collapsible_Module 3 : PRÉSENTATION POWERPOINT&#34; class=&#34;agenda-toggle style-agenda-item-title text-center&#34;&gt;Module 3 : PRÉSENTATION POWERPOINT &lt;i class=&#34;fa fa-chevron-down&#34;&gt;&lt;/i&gt;&lt;/label&gt;
-		&lt;div class=&#34;collapsible-content&#34;&gt;
-			&lt;p class=&#34;style-agenda-item-description text-center agenda-content-inner&#34;&gt;Comprendre la différence entre une présentation PowerPoint « diapositives » et une présentation PowerPoint « document »&lt;br&gt;Quels documents distribuer avant ou après une prise de parole en public ?&lt;br&gt;La méthode pSCORE appliquée aux présentations PowerPoint&lt;br&gt;Les particularités des réunions en ligne : quelles techniques spécifiques appliquer ?&lt;/p&gt;
-		&lt;/div&gt;	
 		
-		
-&lt;/div&gt;
-&lt;!-- shortcodes:agenda-item.html:end --&gt;
+				&lt;input id=&#34;collapsible_Module 3 : PRÉSENTATION POWERPOINT&#34; class=&#34;agenda-toggle&#34; type=&#34;checkbox&#34;&gt;
+				&lt;label for=&#34;collapsible_Module 3 : PRÉSENTATION POWERPOINT&#34; class=&#34;agenda-toggle style-agenda-item-title text-center&#34;&gt;Module 3 : PRÉSENTATION POWERPOINT &lt;i class=&#34;fa fa-chevron-down&#34;&gt;&lt;/i&gt;&lt;/label&gt;
+			&lt;div class=&#34;collapsible-content&#34;&gt;
+				&lt;p class=&#34;style-agenda-item-description text-center agenda-content-inner&#34;&gt;Comprendre la différence entre une présentation PowerPoint « diapositives » et une présentation PowerPoint « document »&lt;br&gt;Quels documents distribuer avant ou après une prise de parole en public ?&lt;br&gt;La méthode pSCORE appliquée aux présentations PowerPoint&lt;br&gt;Les particularités des réunions en ligne : quelles techniques spécifiques appliquer ?&lt;/p&gt;
+			&lt;/div&gt;	
+			
+			
+	&lt;/div&gt;
+	&lt;!-- shortcodes:agenda-item.html:end --&gt;
 	&lt;div class=&#34;layout-shortcode-child padding-tiny&#34;&gt;
-	
-			&lt;input id=&#34;collapsible_Module 4 : PRISE DE PAROLE EN PUBLIC&#34; class=&#34;agenda-toggle&#34; type=&#34;checkbox&#34;&gt;
-			&lt;label for=&#34;collapsible_Module 4 : PRISE DE PAROLE EN PUBLIC&#34; class=&#34;agenda-toggle style-agenda-item-title text-center&#34;&gt;Module 4 : PRISE DE PAROLE EN PUBLIC &lt;i class=&#34;fa fa-chevron-down&#34;&gt;&lt;/i&gt;&lt;/label&gt;
-		&lt;div class=&#34;collapsible-content&#34;&gt;
-			&lt;p class=&#34;style-agenda-item-description text-center agenda-content-inner&#34;&gt;Les principes d’une prise de parole en public réussie&lt;br&gt;Les techniques de l&amp;rsquo;art oratoire : voix, posture, respiration, regard, gestuelle, déplacement, élocution, présence, interaction avec le public.&lt;br&gt;Exercices pratiques avec conseils et encouragement du formateur.&lt;br&gt;Programme d&amp;rsquo;amélioration pour chaque participant&lt;br&gt;Résumé du cours, prochaines étapes, liste de lecture&lt;/p&gt;
-		&lt;/div&gt;	
 		
-		
-&lt;/div&gt;
-&lt;!-- shortcodes:agenda-item.html:end --&gt;
+				&lt;input id=&#34;collapsible_Module 4 : PRISE DE PAROLE EN PUBLIC&#34; class=&#34;agenda-toggle&#34; type=&#34;checkbox&#34;&gt;
+				&lt;label for=&#34;collapsible_Module 4 : PRISE DE PAROLE EN PUBLIC&#34; class=&#34;agenda-toggle style-agenda-item-title text-center&#34;&gt;Module 4 : PRISE DE PAROLE EN PUBLIC &lt;i class=&#34;fa fa-chevron-down&#34;&gt;&lt;/i&gt;&lt;/label&gt;
+			&lt;div class=&#34;collapsible-content&#34;&gt;
+				&lt;p class=&#34;style-agenda-item-description text-center agenda-content-inner&#34;&gt;Les principes d’une prise de parole en public réussie&lt;br&gt;Les techniques de l&amp;rsquo;art oratoire : voix, posture, respiration, regard, gestuelle, déplacement, élocution, présence, interaction avec le public.&lt;br&gt;Exercices pratiques avec conseils et encouragement du formateur.&lt;br&gt;Programme d&amp;rsquo;amélioration pour chaque participant&lt;br&gt;Résumé du cours, prochaines étapes, liste de lecture&lt;/p&gt;
+			&lt;/div&gt;	
+			
+			
+	&lt;/div&gt;
+	&lt;!-- shortcodes:agenda-item.html:end --&gt;
 
 &lt;/div&gt;
 &lt;!-- shortcodes:agenda-list.html:end --&gt;
@@ -264,55 +264,55 @@
 		&lt;div class=&#34;flex-parent-row flex-justify-center&#34;&gt;
 			
 	&lt;!-- shortcodes:icon-item.html:start --&gt;
-&lt;div class=&#34;flex-child-20p&#34;&gt;
-	&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
-	&lt;img src=&#34;star.svg&#34;&gt;
+	&lt;div class=&#34;flex-child-20p&#34;&gt;
+		&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
+		&lt;img src=&#34;star.svg&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;paddingh-small&#34;&gt;
+		&lt;p class=&#34;style-text-icon text-center&#34;&gt;Formation donnée à HEC Executive Edu. et EM Lyon&lt;/p&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class=&#34;paddingh-small&#34;&gt;
-	&lt;p class=&#34;style-text-icon text-center&#34;&gt;Formation donnée à HEC Executive Edu. et EM Lyon&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- shortcodes:icon-item.html:end --&gt;
+	&lt;!-- shortcodes:icon-item.html:end --&gt;
 	&lt;!-- shortcodes:icon-item.html:start --&gt;
-&lt;div class=&#34;flex-child-20p&#34;&gt;
-	&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
-	&lt;img src=&#34;star.svg&#34;&gt;
+	&lt;div class=&#34;flex-child-20p&#34;&gt;
+		&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
+		&lt;img src=&#34;star.svg&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;paddingh-small&#34;&gt;
+		&lt;p class=&#34;style-text-icon text-center&#34;&gt;Des formateurs expérimentés et à l&amp;rsquo;écoute&lt;/p&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class=&#34;paddingh-small&#34;&gt;
-	&lt;p class=&#34;style-text-icon text-center&#34;&gt;Des formateurs expérimentés et à l&amp;rsquo;écoute&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- shortcodes:icon-item.html:end --&gt;
+	&lt;!-- shortcodes:icon-item.html:end --&gt;
 	&lt;!-- shortcodes:icon-item.html:start --&gt;
-&lt;div class=&#34;flex-child-20p&#34;&gt;
-	&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
-	&lt;img src=&#34;star.svg&#34;&gt;
+	&lt;div class=&#34;flex-child-20p&#34;&gt;
+		&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
+		&lt;img src=&#34;star.svg&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;paddingh-small&#34;&gt;
+		&lt;p class=&#34;style-text-icon text-center&#34;&gt;Des modules courts, adaptables selon vos besoins&lt;/p&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class=&#34;paddingh-small&#34;&gt;
-	&lt;p class=&#34;style-text-icon text-center&#34;&gt;Des modules courts, adaptables selon vos besoins&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- shortcodes:icon-item.html:end --&gt;
+	&lt;!-- shortcodes:icon-item.html:end --&gt;
 	&lt;!-- shortcodes:icon-item.html:start --&gt;
-&lt;div class=&#34;flex-child-20p&#34;&gt;
-	&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
-	&lt;img src=&#34;star.svg&#34;&gt;
+	&lt;div class=&#34;flex-child-20p&#34;&gt;
+		&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
+		&lt;img src=&#34;star.svg&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;paddingh-small&#34;&gt;
+		&lt;p class=&#34;style-text-icon text-center&#34;&gt;De nombreux exercices pratiques&lt;/p&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class=&#34;paddingh-small&#34;&gt;
-	&lt;p class=&#34;style-text-icon text-center&#34;&gt;De nombreux exercices pratiques&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- shortcodes:icon-item.html:end --&gt;
+	&lt;!-- shortcodes:icon-item.html:end --&gt;
 	&lt;!-- shortcodes:icon-item.html:start --&gt;
-&lt;div class=&#34;flex-child-20p&#34;&gt;
-	&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
-	&lt;img src=&#34;star.svg&#34;&gt;
+	&lt;div class=&#34;flex-child-20p&#34;&gt;
+		&lt;div class=&#34;style-icon paddingh-medium&#34;&gt;
+		&lt;img src=&#34;star.svg&#34;&gt;
+		&lt;/div&gt;
+		&lt;div class=&#34;paddingh-small&#34;&gt;
+		&lt;p class=&#34;style-text-icon text-center&#34;&gt;Organisme de formation Datadock&lt;/p&gt;
+		&lt;/div&gt;
 	&lt;/div&gt;
-	&lt;div class=&#34;paddingh-small&#34;&gt;
-	&lt;p class=&#34;style-text-icon text-center&#34;&gt;Organisme de formation Datadock&lt;/p&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
-&lt;!-- shortcodes:icon-item.html:end --&gt;
+	&lt;!-- shortcodes:icon-item.html:end --&gt;
 
 		&lt;/div&gt;
 	&lt;/div&gt;
@@ -352,7 +352,10 @@
 À partir de ce travail de réflexion et d’imagination, la maîtrise d’œuvre devient ensuite une partie indispensable pour la réussite de l’événement. Nous allons assembler et contrôler toute la mise en place des différents éléments artistiques, matériels, humains, règlementaires et budgétaires, et assurer la cohérence globale, tout en respectant le planning idéalement conçu.&lt;/p&gt;
 &lt;p&gt;Nous veillerons à ce que votre événement soit non seulement mémorable pour les participants, mais atteigne également vos objectifs en harmonie avec votre culture d’entreprise.&lt;/p&gt;
 &lt;h2 id=&#34;définissez-précisément-lévénement&#34;&gt;Définissez précisément l’événement&lt;/h2&gt;
-&lt;p&gt;Quand ? Où ? Pourquoi ? Comment ? Avec qui ? Répondre à toutes ces questions vous aidera à fixer les objectifs stratégiques tout en déterminant le contenu de votre événement. Vouloir organiser un événement, c’est bien. Mais savoir pourquoi et créer un événement qui a du sens, c’est mieux ! Dans tout projet, les fondations sont capitales. Mal définir le cadre et les objectifs attendus est l’une des erreurs les plus fréquentes. Elle mène inévitablement à des oublis et un retour sur investissement moindre. Pour éviter cette situation, posez le cadre en appliquant la règle des 5 W :&lt;/p&gt;
+&lt;p&gt;Quand ? Où ? Pourquoi ? Comment ? Avec qui ? Répondre à toutes ces questions vous aidera à fixer les objectifs stratégiques tout en déterminant le contenu de votre événement. Vouloir organiser un événement, c’est bien. Mais savoir pourquoi et créer un événement qui a du sens, c’est mieux ! Dans tout projet, les fondations sont capitales. Mal définir le cadre et les objectifs attendus est l’une des erreurs les plus fréquentes. Elle mène inévitablement à des oublis et un retour sur investissement moindre. Pour éviter cette situation, posez le cadre en appliquant la règle des 5 W.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Vous voulez organiser un événement style TEDx ? Consultez notre &lt;a href=&#34;https://www.ideasonstage.fr/comment-organiser-un-evenement-tedx/&#34;&gt;guide comment organiser un événement TEDx&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;quoi-what&#34;&gt;Quoi : what?&lt;/h3&gt;
 &lt;p&gt;Quel type d’événement souhaitez-vous organiser ?
 Est-il interne ou externe ?
@@ -451,6 +454,9 @@ Si tout ou partie de votre événement se déroule à l’extérieur, envisagez 
 &lt;li&gt;Y a-t-il une équipe de nettoyage ? Du personnel de sécurité ?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Vous devez prévoir du temps pour vous rendre sur le lieu et faire un repérage en détail : du parking au hall d’accueil et des espaces d’événement aux installations sanitaires. Cette visite vous donnera peut-être des arguments de négociation avant même d’accepter définitivement.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pourquoi ne pas proposer un &lt;a href=&#34;https://www.ideasonstage.fr/evenements-entreprise/ateliers-lego-serious-play/&#34;&gt;atelier LEGO ou LEGO Serious Play&lt;/a&gt; à vos employés pour animer votre événement ? Ludiques et rafraîchissants, ces ateliers améliorent la cohésion d&amp;rsquo;équipe et la collaboration. &lt;a href=&#34;https://www.ideasonstage.fr/evenements-entreprise/ateliers-lego-serious-play/&#34;&gt;Cliquez ici pour en savoir plus&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;choisir-ses-prestataires&#34;&gt;Choisir ses prestataires&lt;/h2&gt;
 &lt;p&gt;Plusieurs prestataires seront nécessaires, selon la configuration et la taille de votre événement. Voici certaines règles pour sélectionner les meilleurs :&lt;/p&gt;
 &lt;ul&gt;
@@ -685,7 +691,7 @@ Prochaine date : **Jeudi 23 janvier 2020**  - (en anglais) &lt;a href=&#34;https
 &lt;/ol&gt;
 &lt;p&gt;Sur un ou deux jours (selon la demande), nous proposons aux participantes des techniques de présentation conçues par &lt;a href=&#34;https://www.ideasonstage.fr/revolution/&#34;&gt;Ideas on Stage&lt;/a&gt; ainsi qu&amp;rsquo;un accompagnement personnalisé dans un environnement de groupe bienveillant. Nous constatons que les participantes s’épanouissent davantage au sein d’un petit groupe en partageant leurs points de vue et en observant les progrès des autres plutôt qu’en travaillant individuellement avec un coach. S’entraîner avec un public, même restreint, aide à surmonter le stress lié à toute prise de parole, à faire face aux critiques ou à l&amp;rsquo;échec et à prendre des risques. C’est ainsi que se construit la confiance nécessaire pour s’exprimer en public avec succès lorsque les opportunités se présentent.&lt;/p&gt;
 &lt;p&gt;Initié par Marion Chapsal, &lt;em&gt;Women on Stage&lt;/em&gt; devient &lt;em&gt;« 2.0 »&lt;/em&gt; grâce à deux nouveaux porte-paroles : &lt;a href=&#34;https://www.ideasonstage.fr/equipe/rose-bloomfield/&#34;&gt;Rose Bloomfield&lt;/a&gt; et &lt;a href=&#34;https://www.ideasonstage.fr/equipe/frederic-pascal-stein/&#34;&gt;Frédéric-Pascal Stein&lt;/a&gt;. La vie n’est pas un club réservé aux femmes. C’est la raison pour laquelle nous avons créé un espace de travail équilibré, animé par un homme et une femme, qui facilitera les discussions et les exercices pratiques tout en sensibilisant et en développant les compétences orales. Rose et Frédéric-Pascal associent de manière dynamique expérience professionnelle et expertise en communication, leur permettant ainsi de s’adapter aux besoins et au niveau de chaque groupe.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;women-on-stage-03.jpg&#34; alt=&#34;Lors d&amp;rsquo;une présentation à une conférence&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;women-on-stage-03.jpg&#34; alt=&#34;Lors d&amp;amp;rsquo;une présentation à une conférence&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;pourquoi-women-on-stage-&#34;&gt;Pourquoi Women on Stage ?&lt;/h2&gt;
 &lt;p&gt;Le début du XXIe siècle est marqué par une explosion du féminin dans l’univers social et professionnel. Parité, égalité des salaires, règles grammaticales relatives aux genres, mouvement #metoo, publications scientifiques, articles de presse mettant en avant des dirigeantes et entrepreneuses…le monde entier met les femmes en lumière. Plus que jamais, il est temps qu’elles prennent la parole pour partager fièrement leurs histoires et leur voix avec le monde entier.&lt;/p&gt;
 &lt;p&gt;L’idée qu’hommes et femmes soient « égaux » n’est pas une nouveauté. Ce qui est nouveau c’est le changement de perception de la société : &lt;strong&gt;être une femme n’est pas équivalent à être un homme, mais redevient une spécificité, une identité et une force&lt;/strong&gt;.&lt;/p&gt;
@@ -962,7 +968,7 @@ Prochaine date : **Jeudi 23 janvier 2020**  - (en anglais) &lt;a href=&#34;https
 &lt;p&gt;Il enseigne le storytelling de marque et le storytelling politique à l’EFAP et l&amp;rsquo;EGE. Il a un diplôme d’ingénieur commercial de HEC Liège.&lt;/p&gt;
 &lt;p&gt;Pierre tient un &lt;a href=&#34;https://www.pierremorsa.com/&#34;&gt;blog personnel&lt;/a&gt;, en français.&lt;/p&gt;
 &lt;h2 id=&#34;missions-remarquables&#34;&gt;Missions remarquables&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;unesco.jpg&#34; alt=&#34;Mission pour l&amp;rsquo;UNESCO&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;unesco.jpg&#34; alt=&#34;Mission pour l&amp;amp;rsquo;UNESCO&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;UNESCO : écriture du script du forum sur la biodiversité&lt;/strong&gt;. Préparation des sessions avec des intervenants prestigieux dont Nicolas Hulot, Président d’honneur de la Fondation Nicolas Hulot pour la Nature et l’Homme, Peter Thomson, Envoyé du Secrétaire général des Nations Unies pour l&amp;rsquo;océan, Wasfia Nazreen, Alpiniste et militante écologique, Basile Van Havre, Coprésident du Groupe de travail à composition non limitée responsable de l’élaboration du prochain Cadre mondial de la biodiversité pour l&amp;rsquo;après 2020 de la Convention sur la diversité biologique, Hindou Oumarou Ibrahim, Représentante des peuples autochtones du Lac Tchad, Avocate des Objectifs de développement durable du Secrétaire général des Nations Unies, Arnaud Lallement, Chef cuisinier Chiefs4thePlanet, Jesse H. Ausubel, Directeur du Programme de l&amp;rsquo;environnement humain, Université Rockefeller, Maya Gabeira, Surfeuse de grandes vagues, détentrice de deux records du monde, ambassadrice Oceana, Romain Troublé, Directeur général, Fondation Tara Océan, Ana Maria Hernandez Salgar, Présidente de la Plateforme intergouvernementale science-politique sur la biodiversité et les services écosystémiques (IPBES). Collaboration avec les journalistes Dominique Laresche, TV5 Monde, David Eades, BBC et Hala Gorani, CNN.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;yann-arthus-bertrand-ted-2009.jpg&#34; alt=&#34;Yann Arthus Bertrand — TED&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Collaboration avec Yann Arthus Bertrand pour TED 2009&lt;/strong&gt;. Écriture du script de la présentation, répétition, création des visuels. Par la suite, collaboration pour plusieurs événements importants.&lt;/p&gt;
@@ -1018,9 +1024,8 @@ Prochaine date : **Jeudi 23 janvier 2020**  - (en anglais) &lt;a href=&#34;https
       
       <guid>https://www.ideasonstage.fr/equipe/joe-ross/</guid>
       <description>&lt;p&gt;Joe est un écrivain et communiquant très expérimenté qui enseigne à l’École Polytechnique. Avec beaucoup d’expérience dans le secteur public, les entreprises et différents « think-tanks » aux Etats-Unis et en Europe, et avec plusieurs publications à son nom, y compris un rapport pour le gouvernement français sur l’économie positive en tant que co-auteur avec Jacques Attali, Joe comprend le métier et la communication et fusionne les deux pour créer des stratégies de communication efficaces.
-&lt;br&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.linkedin.com/in/joe-ross-5b89941a/&#34;&gt;&lt;img src=&#34;https://www.ideasonstage.fr/img/socialnetworks/linkedin.png&#34; alt=&#34;linkedin&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+&lt;br&gt;&lt;/p&gt;
+&lt;div class=&#34;logo&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/joe-ross-5b89941a/&#34;&gt;&lt;img src=&#34;https://www.ideasonstage.fr/img/socialnetworks/linkedin.png&#34;&gt;&lt;/a&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

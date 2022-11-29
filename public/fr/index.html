@@ -3,12 +3,12 @@
 <!-- index.html -->
 <html lang="fr">
     <head>
-	<meta name="generator" content="Hugo 0.82.0" />
+	<meta name="generator" content="Hugo 0.107.0">
         
 		<!-- partials:home:head.html:start -->
 		
 		<!-- partials:head-title.html:start -->
-		<title>Ideas on Stage | Coaching prise de parole et gestion d&#39;événements</title>
+		<title>Ideas on Stage | Coaching prise de parole et gestion d&#39;événements | Ideas on Stage</title>
 		<!-- partials:head-title.html:end -->
 		
 		<!-- partials:head-schema.html:start -->
@@ -31,7 +31,7 @@
 			"description": "Agence internationale spécialisée dans la création de présentations, la formation et le coaching en prise de parole en public et les événements d'entreprise. Nous sommes présents aux États-Unis et en Europe.",
 			"dateCreated": "2010-04-30",
 			"datePublished": "2010-04-30",
-			"dateModified": "2022-01-04T09:16:49.980222+01:00",
+			"dateModified": "2022-11-29T11:20:46.167906+01:00",
 			"inLanguage": "fr",
 			"name": "Ideas on Stage",
 			"provider": { "@type": "Organization", "name": "Ideas on Stage", "url": "https://www.ideasonstage.com" },
@@ -48,6 +48,7 @@
 <meta name="title" property="og:title" content="Ideas on Stage | Coaching prise de parole et gestion d&#39;événements">
 <meta name ="url" property="og:url" content ="https://www.ideasonstage.fr/">
 <meta name ="image" property="og:image" content="/img/ideas-on-stage.svg">
+<link rel="image_src" href="/img/ideas-on-stage.svg">
 
 <!-- partials:head-meta.html:end -->
 		
@@ -765,13 +766,13 @@
 					  <p>Inscrivez-vous pour recevoir nos conseils directement dans votre boîte aux lettres.</p>
 		            </div>
 		            <div class="layout-content-narrow">
-		              <form action="/" method="POST" name="newsForm" id="ioscontactForm" netlify netlify-honeypot="bot-field">
+		              <form action="/" method="POST" name="newsForm" id="nlsubscribeform" netlify netlify-honeypot="bot-field">
 			            <div class="iosform-group">
 			              <input type="hidden" name="_subject" value="Form sent from page: https://www.ideasonstage.fr/">
 			              <input type="hidden" name="_lang" value="fr">
 			            </div>
 			            <div class="iosform-group">
-			              <input type="email" id="email" name="email" class="iosform-control" placeholder="Votre Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entre votre adresse email.');" required>
+			              <input type="email" id="nlsubscribeemail" name="email" class="iosform-control" placeholder="Votre Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entre votre adresse email.');" required>
 			            </div>
 			            <div class="form-group" id="fooDiv">
 						<label for="foo">Leave this field blank</label>
@@ -904,7 +905,7 @@
 						</div>
 											
 			            <div class="iosform-button">
-			              <input type="submit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">    
+			              <input type="submit" id="contactsubmit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">    
 			            </div>     
 			          </form>
 		            </div>

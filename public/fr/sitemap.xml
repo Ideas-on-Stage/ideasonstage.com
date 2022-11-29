@@ -591,7 +591,7 @@
   
   <url>
     <loc>https://www.ideasonstage.fr/news/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -611,7 +611,7 @@
   
   <url>
     <loc>https://www.ideasonstage.fr/</loc>
-    <lastmod>2021-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-11-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -632,6 +632,81 @@
                 hreflang="fr"
                 href="https://www.ideasonstage.fr/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/11/22/2022-11-25-ne_laissez_pas_l_authenticite_vous_freiner/</loc>
+    <lastmod>2022-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/11/15/2022-11-22-comment_donner_vie_a_des_etudes_de_cas_ennuyeuses_-_en_4_etapes_faciles/</loc>
+    <lastmod>2022-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/11/08/2022-11-28-comment_rendre_vos_presentations_plus_interactives/</loc>
+    <lastmod>2022-11-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/11/01/2022-11-17-3_manieres_de_communiquer_des_donnees_efficacement/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/10/25/2022-10-25-le_pouvoir_persuasif_des_analogies_dans_la_communication/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/10/24/2022-11-09-techniques_de_leadership_et_de_communication_pour_alimenter_votre_succes/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/10/11/2022-10-17-7_facons_damener_votre_auditoire_a_letape_suivante/</loc>
+    <lastmod>2022-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/10/05/2022-10-05-que_faire_a_la_minute_ou_vous_montez_sur_scene_c-spark/</loc>
+    <lastmod>2022-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/10/04/2022-10-05-sois_de_leau_mon_ami/</loc>
+    <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/10/04/2022-10-14-7_facons_memorables_de_commencer_une_presentation_exemples_a_l_appui/</loc>
+    <lastmod>2022-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/09/27/2022-11-09-6_etapes_pour_creer_une_storyline_claire_pour_votre_presentation/</loc>
+    <lastmod>2022-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/09/20/2022-11-15-mais_qu_est-ce_que_l_image_de_marque_personnelle_personal_branding/</loc>
+    <lastmod>2022-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/09/07/2022-09-02-interaction_avec_le_grand_public/</loc>
+    <lastmod>2022-09-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2022/08/23/2022-11-17-comment_rendre_votre_message_pertinent_pour_votre_auditoire/</loc>
+    <lastmod>2022-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2021/07/23/2022-10-05-pscore_etape_5_connexion/</loc>
+    <lastmod>2021-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -800,7 +875,7 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.fr/news/2020/11/12/2020-11-17-communication_violente_vs_communication_non_violente/</loc>
+    <loc>https://www.ideasonstage.fr/news/2020/11/12/2020-11-17-communication_violente_vs_communication_non_violente-/</loc>
     <lastmod>2020-11-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -1020,6 +1095,16 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/tags/%C3%A9v%C3%A9nement/</loc>
+    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/%C3%A9v%C3%A9nement-entreprise/</loc>
+    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/tags/gestion-de-projet/</loc>
     <lastmod>2020-02-25T00:00:00+00:00</lastmod>
   </url>
@@ -1037,16 +1122,6 @@
                 hreflang="fr"
                 href="https://www.ideasonstage.fr/news/2020-02-25-pourquoi-faire-appel-a-un-organisateur-evenements-externe/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.fr/tags/%C3%A9v%C3%A9nement/</loc>
-    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.fr/tags/%C3%A9v%C3%A9nement-entreprise/</loc>
-    <lastmod>2020-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1365,26 +1440,6 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.fr/news/2019/09/09/2019-09-09-le-triangle-du-leadership/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.fr/tags/leadership/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/tags/leadership/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.fr/tags/leadership/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.ideasonstage.fr/revolution/episode-00008/</loc>
     <lastmod>2019-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -1405,8 +1460,33 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/news/2019/09/09/2019-09-09-le-triangle-du-leadership/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/tags/leadership/</loc>
+    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/tags/leadership/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/tags/leadership/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/news/2019/09/02/2019-09-02-un-stage-etudiant-chez-ideas-on-stage/</loc>
     <lastmod>2019-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/news/2019/07/16/2019-07-16-les-autres-aussi-l-erreur-fatale-de-communication-de-zoom/</loc>
+    <lastmod>2019-07-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1416,11 +1496,6 @@
   
   <url>
     <loc>https://www.ideasonstage.fr/tags/relations-publiques/</loc>
-    <lastmod>2019-07-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.fr/news/2019/07/16/2019-07-16-les-autres-aussi-l-erreur-fatale-de-communication-de-zoom/</loc>
     <lastmod>2019-07-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -1455,7 +1530,7 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.fr/news/2019/06/18/2019-06-18-langage-corporel-le-mythe-des-bras-croises/</loc>
+    <loc>https://www.ideasonstage.fr/news/2019/06/18/2019-06-18-langage-corporel--le-mythe-des-bras-croises/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -1945,12 +2020,12 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.fr/tags/mohammed-ali/</loc>
+    <loc>https://www.ideasonstage.fr/news/2019/01/22/2019-01-22-ecoute-comme-un-papillon-parle-comme-une-abeille/</loc>
     <lastmod>2019-01-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.fr/news/2019/01/22/2019-01-22-ecoute-comme-un-papillon-parle-comme-une-abeille/</loc>
+    <loc>https://www.ideasonstage.fr/tags/mohammed-ali/</loc>
     <lastmod>2019-01-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -2040,6 +2115,11 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/news/2018/10/10/2018-10-10-cinq-lec%CC%A7ons-de-com-du-pre%CC%81sident-macron/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/tags/macron/</loc>
     <lastmod>2018-10-10T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -2107,11 +2187,6 @@
                 hreflang="fr"
                 href="https://www.ideasonstage.fr/tags/technique/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.fr/news/2018/10/10/2018-10-10-cinq-lec%CC%A7ons-de-com-du-pre%CC%81sident-macron/</loc>
-    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -2350,6 +2425,25 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/apropos/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.ideasonstage.es/acerca-de-nosotros/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/apropos/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/abonnement-prioritaire/</loc>
     <xhtml:link
                 rel="alternate"
@@ -2361,6 +2455,10 @@
                 hreflang="fr"
                 href="https://www.ideasonstage.fr/abonnement-prioritaire/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/formation-ateliers/handicap/</loc>
   </url>
   
   <url>
@@ -2427,6 +2525,10 @@
                 hreflang="fr"
                 href="https://www.ideasonstage.fr/formations-en-ligne/comment-animer-vos-r%C3%A9unions-professionnelles-en-ligne/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.fr/comment-organiser-un-evenement-tedx/</loc>
   </url>
   
   <url>
@@ -2511,6 +2613,30 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.fr/equipe/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/team/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.ideasonstage.es/equipo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://www.ideasonstage.it/team/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/equipe/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.fr/formations-en-ligne/formation-groupe-prise-de-parole-en-ligne/</loc>
   </url>
   
@@ -2520,6 +2646,11 @@
   
   <url>
     <loc>https://www.ideasonstage.fr/guide-ultime-prise-de-parole-en-public/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/ultimate-public-speaking-guide/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -2534,6 +2665,11 @@
   
   <url>
     <loc>https://www.ideasonstage.fr/guide-tedx-speaker/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/tedx-speaker-guide/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -2708,49 +2844,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://www.ideasonstage.fr/women/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.fr/apropos/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.es/acerca-de-nosotros/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.fr/apropos/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.fr/equipe/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/team/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.es/equipo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/"
                 />
   </url>
   

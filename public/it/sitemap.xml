@@ -457,6 +457,11 @@
     <loc>https://www.ideasonstage.it/ultimate-tedx-speaker-guide/</loc>
     <xhtml:link
                 rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/tedx-speaker-guide/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="https://www.ideasonstage.fr/guide-tedx-speaker/"
                 />
@@ -689,6 +694,20 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.it/testimonial/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.fr/testimonial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://www.ideasonstage.it/testimonial/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.it/training-workshops/</loc>
     <xhtml:link
                 rel="alternate"
@@ -709,20 +728,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="https://www.ideasonstage.it/training-workshops/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.it/testimonial/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.fr/testimonial/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/testimonial/"
                 />
   </url>
   
