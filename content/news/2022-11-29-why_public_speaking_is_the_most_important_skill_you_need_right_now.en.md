@@ -37,13 +37,13 @@ When we procrastinate, we’re in a permanent state of wanting to do things but 
 
 We come across procrastinators all the time. They say things like:
 
-    ‘I’d love to have a child but now is not the right time. I’ll wait for the perfect time.’          
+           ‘I’d love to have a child but now is not the right time. I’ll wait for the perfect time.’          
 
-     ‘One day I’d like to travel to Southeast Asia but now is not the right time. I’ll wait for the perfect time.’ 
+            ‘One day I’d like to travel to Southeast Asia but now is not the right time. I’ll wait for the perfect time.’ 
 
-     ‘I’d love to learn how to play the piano but it doesn't fit in with my life at the moment. I’ll do it next year.’
+            ‘I’d love to learn how to play the piano but it doesn't fit in with my life at the moment. I’ll do it next year.’
 
-     ‘I need to improve my presentation skills but it’s not the main priority. I’ll wait until things change.’
+            ‘I need to improve my presentation skills but it’s not the main priority. I’ll wait until things change.’
 
 The truth is, the perfect time will never arrive. There will never be a perfect time. Perfection is an unachievable ideal.
 
