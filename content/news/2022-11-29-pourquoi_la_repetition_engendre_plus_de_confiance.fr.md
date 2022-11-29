@@ -2,7 +2,7 @@
 draft = false
 title = "Pourquoi la répétition engendre plus de confiance ?"
 news = ["general"]
-date = "2022-11-13"
+date = "2022-09-13"
 author = "Andrea Pacini"
 banner = "/img/news/rehearsal.001.jpeg"
 +++
