@@ -2,7 +2,7 @@
 draft = false
 title = "Le pouvoir persuasif des analogies dans la communication"
 news = ["general"]
-date = "2022-10-25"
+date = "2022-10-18"
 author = "Andrea Pacini"
 banner = "/img/news/169_1_.png"
 +++
