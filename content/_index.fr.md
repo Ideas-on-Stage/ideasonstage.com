@@ -12,13 +12,13 @@ outputs			= ["html","rss","json"]
 [slider]
 	[[slider.list]]
 		draft		= false
-		date		= "2020-03-05"
-		expirydate	= "2020-11-30"
-		bgimage 	= "/formations-en-ligne/webinaires/ouaibinarre.jpg"
-		title 		= "VIRTUAL MEETINGS REVOLUTION"
-		description = "Une série de webinaires gratuits"
-		button 		= "Inscrivez-vous"
-		buttonlink	= "/formations-en-ligne/webinaires/"
+		date		= "2022-11-29"
+		expirydate	= "2023-06-30"
+		bgimage 	= "/comment-organiser-un-evenement-tedx/tedx-saclay-01.jpg"
+		title 		= "COMMENT ORGANISER UN ÉVÈNEMENT TEDX"
+		description = "Le guide complet pour organiser un évènement TEDx, par l'équipe qui a accompagné des centaines de speakers en France, aux États-Unis et en Angleterre."
+		button 		= "Lire le guide"
+		buttonlink	= "/comment-organiser-un-evenement-tedx/"
 		color		= "text-white"	
 		opacity		= "30"
 	[[slider.list]]
@@ -83,22 +83,6 @@ outputs			= ["html","rss","json"]
 
 [services]
 	[[services.list]]
-		sectionid	= "presentations-training"
-		title		= "Formations et Webinaires"
-		description	= "Découvrez nos formations en ligne et en présentiel."
-		picture		= "/training.jpg"
-		style		= "bg-black"
-		layout		= "inserts/module-picture-textright.html"
-		url			= "/formations-ateliers/"
-	[[services.list]]
-		sectionid	= "du-bureau-au-travail-a-distance"
-		title		= "Communauté de travail en ligne"
-		description	= "Créez et animez une communauté de travail en ligne pour booster le moral et la productivité de vos employés."
-		picture		= "/du-bureau-au-travail-a-distance/remote-work.jpg"
-		style		= "bg-black"
-		layout		= "inserts/module-picture-textright.html"
-		url			= "/du-bureau-au-travail-a-distance/"
-	[[services.list]]
 		sectionid	= "public-speaking-coaching"
 		title		= "Coaching prise de parole"
 		description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène."
@@ -106,6 +90,14 @@ outputs			= ["html","rss","json"]
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
 		url			= "/coaching-prise-de-parole-en-public/"	
+	[[services.list]]
+		sectionid	= "presentations-training"
+		title		= "Formations et Webinaires"
+		description	= "Découvrez nos formations en ligne et en présentiel."
+		picture		= "/training.jpg"
+		style		= "bg-black"
+		layout		= "inserts/module-picture-textright.html"
+		url			= "/formations-ateliers/"
 	[[services.list]]
 		sectionid	= "business-events"
 		title		= "Support événementiel"
