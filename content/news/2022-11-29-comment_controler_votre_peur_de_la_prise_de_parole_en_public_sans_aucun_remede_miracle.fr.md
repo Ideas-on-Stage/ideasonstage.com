@@ -6,6 +6,8 @@ date = "2022-09-20"
 author = "Andrea Pacini"
 banner = "/img/news/stressed_person_1_.jpeg"
 +++
+![](/img/news/stressed_person_1_.jpeg)
+
 Il est presque inutile de vous demander si vous vous sentez nerveux avant une présentation. Il serait étrange que vous ne le soyez pas. La grande majorité des gens ont peur de parler en public. Il est parfaitement normal d'avoir cette peur, également connue sous le nom de glossophobie.
 
 Les recherches montrent que plus de 75 % de la population présente un certain niveau d'anxiété à l'idée de parler en public. Vous n’êtes donc pas seul(e).
