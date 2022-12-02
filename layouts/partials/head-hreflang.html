@@ -2,7 +2,7 @@
 		{{ "<!-- partials:head-hreflang.html:start -->" | safeHTML }}
 {{- if .IsTranslated }}
     {{- range .AllTranslations }}
-		<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
+		<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
     {{- end}}
 {{- end }}
 		{{ "<!-- partials:head-hreflang.html:end -->" | safeHTML }}
