@@ -1,6 +1,7 @@
 +++
 draft	= false
 title	= "Équipe"
+description = "Découvrez l'équipe d'Ideas on Stage"
 url		= "/equipe/"
 +++
 

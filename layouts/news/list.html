@@ -21,51 +21,51 @@
 					</div>
 				</div>
 				<div class="flex-parent-row paddingt-tiny paddingb-huge">                   
-                        <a href="{{ .RelPermalink }}">
-                        	<h2>{{ .Title }}</h2>
-                        </a>
-                        <p>
-							{{ if isset .Params "author" }}
-								{{ .Site.Params.news.by }} 
-								{{ $scratch := newScratch }}
-								{{ $scratch.Set "author" "/team/" }}
-								{{ $author := .Params.author | urlize }}
-								{{ $scratch.Add "author" $author }}
-								{{ $authorname := .Params.author }}
-								{{ with .Site.GetPage ($scratch.Get "author") }}
-									{{ if ne .Params.draft "true" }}
-										<a href="{{ (index .Site.Params.navigation.companyitems "002").url }}{{ $author }}">{{ $authorname }}</a> —
-									{{ else }}
-										{{ .Params.author }} -
-									{{ end }}
-								{{ else }} 
+                    <a href="{{ .RelPermalink }}">
+                    	<h2>{{ .Title }}</h2>
+                    </a>
+                    <p>
+						{{ if isset .Params "author" }}
+							{{ .Site.Params.news.by }} 
+							{{ $scratch := newScratch }}
+							{{ $scratch.Set "author" "/team/" }}
+							{{ $author := .Params.author | urlize }}
+							{{ $scratch.Add "author" $author }}
+							{{ $authorname := .Params.author }}
+							{{ with .Site.GetPage ($scratch.Get "author") }}
+								{{ if ne .Params.draft "true" }}
+									<a href="{{ (index .Site.Params.navigation.companyitems "002").url }}{{ $author }}">{{ $authorname }}</a> —
+								{{ else }}
 									{{ .Params.author }} -
 								{{ end }}
+							{{ else }} 
+								{{ .Params.author }} -
+							{{ end }}
+                      	{{ end }}
+                      	{{ if isset .Params "categories" }}
+                      		{{ if gt (len .Params.categories) 0 }}
+                      			in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
                           	{{ end }}
-                          	{{ if isset .Params "categories" }}
-                          		{{ if gt (len .Params.categories) 0 }}
-                          			in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
-                              	{{ end }}
-                          	{{ end }}
-					        <a href="{{ .Permalink }}">
-					        	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-									{{ partial "f/getdate" .Date }}
-					        	</time>
-					        </a>
-						</p>
-						<div class="image">
-                            <a href="{{ .RelPermalink }}">
-                                {{ if .Params.banner }}
-                                	<img src="{{ .Params.banner }}" class="img-responsive" alt="">
-                                {{ else }}
-                                	<img src="/news/img/placeholder.png" class="img-responsive" alt="">
-                                {{ end }}
-                            </a>
-                        </div>
-						<p>{{ .Summary }}</p>
-                        <p class="marginv-none">
-                           	<a href="{{ .RelPermalink }}" class="button-secondary">{{ .Site.Params.news.more }}</a>
-                        </p>
+                      	{{ end }}
+				        <a href="{{ .Permalink }}">
+				        	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+								{{ partial "f/getdate" .Date }}
+				        	</time>
+				        </a>
+					</p>
+					<div class="image">
+                        <a href="{{ .RelPermalink }}">
+                            {{ if .Params.banner }}
+                            	<img src="{{ .Params.banner }}" class="img-responsive" alt="">
+                            {{ else }}
+                            	<img src="/news/img/placeholder.png" class="img-responsive" alt="">
+                            {{ end }}
+                        </a>
+                    </div>
+					<p>{{ .Summary }}</p>
+                    <p class="marginv-none">
+                       	<a href="{{ .RelPermalink }}" class="button-secondary">{{ .Site.Params.news.more }}</a>
+                    </p>
                 </div>
             </section>
 			{{ end }}
@@ -76,18 +76,10 @@
 	                <ul class="pager">
 	                    {{ if .Paginator.HasPrev }}
 	                    <li class="previous"><a href="{{ .Paginator.Prev.URL }}" class="button-secondary">&larr; {{ .Site.Params.news.prev }}</a></li>
-	                    {{ else }}
-	<!-- this code greys out the "Newer" button in the first page                            
-	                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-	-->                            
 	                    {{ end }}
 	
 	                    {{ if .Paginator.HasNext }}
 	                    <li class="next"><a href="{{ .Paginator.Next.URL }}" class="button-secondary">{{ .Site.Params.news.next }} &rarr;</a></li>
-	                    {{ else }}
-	<!-- this code greys out the "Older" button in the first page   
-	                    <li class="next disabled"><a href="#">Older &rarr;</a></li>
-	-->
 	                    {{ end }}
 	                </ul>
 				</div>

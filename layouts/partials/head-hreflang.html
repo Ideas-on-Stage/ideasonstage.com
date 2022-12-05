@@ -1,8 +1,7 @@
-
-		{{ "<!-- partials:head-hreflang.html:start -->" | safeHTML }}
-{{- if .IsTranslated }}
-    {{- range .AllTranslations }}
-		<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
-    {{- end}}
-{{- end }}
-		{{ "<!-- partials:head-hreflang.html:end -->" | safeHTML }}
+{{ "<!-- partials:head-hreflang.html:start -->" | safeHTML }}
+	{{- if .IsTranslated }}
+	    {{- range .AllTranslations }}
+			<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
+	    {{- end}}
+	{{- end }}
+{{ "<!-- partials:head-hreflang.html:end -->" | safeHTML }}
