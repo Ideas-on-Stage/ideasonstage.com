@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "A Better Way To Think About Slide Design "
 tags = ["Public Speaking"]
 news = ["general"]
