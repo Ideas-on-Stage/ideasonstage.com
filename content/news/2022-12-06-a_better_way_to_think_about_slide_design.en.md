@@ -65,7 +65,7 @@ What you say during a presentation (your words), what you show (your slides) and
 
 Slides and documents are different and should be used for different purposes. 
 
-Confident presenters always keep their slides simple and visual. If the audience requires more detail, they will have a handout prepared which they can distribute before, during or after the presentation (depending on the context). 
+Confident presenters *always* keep their slides simple and visual. If the audience requires more detail, they will have a handout prepared which they can distribute before, during or after the presentation (depending on the context). 
 
 The handout includes all the information and details, the slides remain simple. 
 
@@ -79,6 +79,8 @@ In summary, remember these three tips about slide design:
 2. Keep them visual without too much text (think billboards) 
 3. Reserve handouts for more details
 
+
+
 ## What next  
 
 If you found this article helpful, feel free to share your thoughts using the contact form below. 
@@ -89,6 +91,4 @@ If you want to assess your current presentation skills, take the [Confident Pres
 
 After answering a series of simple yes/no questions you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of our best-selling book **Business Presentation Revolution.**
 
-*Image: Vahe Martirosyan, Pasadena, Norton Simon Museum, [Picasso P. The Bull, 1946](https://flic.kr/p/PXpxQS).* 
-
-*Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0). [Creative Commons License ](https://creativecommons.org/licenses/by-sa/2.0/legalcode)*
+*Image: Vahe Martirosyan, Pasadena, Norton Simon Museum, [Picasso P. The Bull, 1946](https://flic.kr/p/PXpxQS). Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0). [Creative Commons License ](https://creativecommons.org/licenses/by-sa/2.0/legalcode)*
