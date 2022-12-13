@@ -50,6 +50,6 @@ If you’d like to learn more about the three qualities great communicators have
 
 
 
-<iframe width="650" height="315" src="https://www.youtube.com/embed/Nag_Q2jVXTk" title="Leadership and Communication Tactics to Fuel Your Success" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="550" height="315" src="https://www.youtube.com/embed/Nag_Q2jVXTk" title="Leadership and Communication Tactics to Fuel Your Success" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you want to become a more confident presenter, take the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/). Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes.
