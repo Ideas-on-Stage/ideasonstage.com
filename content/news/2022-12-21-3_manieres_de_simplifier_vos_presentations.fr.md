@@ -65,7 +65,7 @@ Considérez vos diapositives comme des aides visuelles destinées à soutenir, r
 Le prochain élément à prendre en compte est le langage que vous utilisez. Il existe deux règles d'or :
 
 * Utilisez des mots simples
-* Évitez les remplissages verbaux
+* Évitez les tics de langage
 
 **Utilisez des mots simples**
 
@@ -77,9 +77,9 @@ Carmine Gallo, l'un des meilleurs experts mondiaux en communication, a réalisé
 
 Ce lancement de l'iPhone a été considéré comme un moment historique pour Apple et reste dans les mémoires jusqu'à aujourd'hui. La technologie qu'il lançait était révolutionnaire, mais le langage était simple.
 
-**Évitez les compléments verbaux**
+**Évitez les tics de langage**
 
-Les « bouche-trous », ou mots de remplissage, sont des phrases que les gens lancent pour gagner du temps. Ce sont des mots et des sons comme « vous savez », « en fait », « hum », « euh ».
+Les tics de langage sont des mots et des sons comme « vous savez », « en fait », « hum », « euh » que les gens lancent pour gagner du temps.
 
 Ces « non-mots » n'ajoutent aucune signification à votre message et réduisent votre crédibilité. Ils vous font paraître mal préparé, mal à l'aise et moins crédible.
 
@@ -87,7 +87,7 @@ Il existe deux moyens efficaces d'éliminer ces mots de votre vocabulaire :
 
 1/ La prise de conscience. Déterminez si vous utilisez des éléments de remplissage et, le cas échéant, lesquels. Essayez de vous enregistrer, puis comptez combien de fois vous utilisez ces mots. Vous pouvez également travailler avec un coach en présentation qui repérera ces éléments pour vous.
 
-2/ La préparation. Une fois que vous avez pris conscience de vos tiques de langage, répétez, répétez, répétez ! Plus vous vous exercerez, plus ce sera facile.
+2/ La préparation. Une fois que vous avez pris conscience de vos tics de langage, répétez, répétez, répétez ! Plus vous vous exercerez, plus ce sera facile.
 
 #### **Mettre la simplicité en pratique**
 
@@ -107,7 +107,7 @@ Il y a trois domaines clés sur lesquels vous devez travailler :
 
 * Simplifiez votre message. Commencez par résumer l'idée clé en 70 mots ou moins.
 * Simplifiez vos visuels. Chaque diapositive doit pouvoir être digérée en trois secondes. N'utilisez pas beaucoup de mots. Il suffit d'une image clé et de quelques mots.
-* Simplifiez votre discours. Utilisez des mots simples et évitez les remplissages verbaux.
+* Simplifiez votre discours. Utilisez des mots simples et évitez les tics de langage.
 
 #### **Commentaires**
 
