@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "3 manières de simplifier vos présentations"
 news = ["general"]
 date = "2022-08-02"
