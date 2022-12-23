@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Le pouvoir de la narration dans les présentations"
 news = ["general"]
 date = "2022-08-16"
@@ -12,11 +12,11 @@ De nombreux chefs d'entreprises, dirigeants et professionnels font l'erreur de n
 
 Vous ne voulez pas être un présentateur ennuyeux. Comme le dit le Dr John Medina dans son brillant ouvrage *« Brain Rules »*, « le cerveau ne prête pas attention aux choses ennuyeuses ». 
 
-**Dans un article précédent, j'ai détaillé comment simplifier vos présentations pour vous assurer que votre message, vos visuels et votre prise de parole sont aussi simples que possible.**
+[Dans un article précédent](https://www.ideasonstage.fr/news/2022/08/02/2022-12-21-3_manieres_de_simplifier_vos_presentations/), j'ai détaillé comment simplifier vos présentations pour vous assurer que votre message, vos visuels et votre prise de parole sont aussi simples que possible.
 
-J'ai également examiné comment utiliser la règle des trois pour présenter un message clair.
+J'ai également examiné comment utiliser [la règle de trois](https://www.ideasonstage.fr/news/2022/08/09/2022-12-22-comment_presenter_un_message_clair_a_tout_auditoire_la_regle_de_trois/) pour présenter un message clair.
 
-**Pour passer au niveau supérieur, vous devez également rendre vos présentations originales et agréables - deux autres principes de la méthode Presentation SCORE. Voyons comment pimenter les choses et ajouter de la couleur.**
+Pour passer au niveau supérieur, vous devez également rendre vos présentations originales et agréables - deux autres principes de la [méthode Presentation SCORE](https://www.ideasonstage.fr/news/2022/07/26/2022-12-05-les_5_principes_cles_pour_des_presentations_percutantes/). Voyons comment pimenter les choses et ajouter de la couleur.
 
 #### **Laissez-moi vous raconter une histoire**
 
