@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = true
 title = "Souffrez-vous de la malédiction de la connaissance ?"
 news = ["general"]
 date = "2022-09-06"
@@ -88,7 +88,7 @@ Demandez-vous si votre auditoire saura de quoi vous parlez. Il n'y a rien de mal
 
 Un bon moyen d'éviter la malédiction du savoir est de se concentrer sur des concepts concrets plutôt qu'abstraits. Introduisez des exemples réels qui donneront vie à vos idées. Racontez des histoires pour illustrer vos points clés.
 
-Dans un article précédent, j'ai examiné en détail comment utiliser des histoires pour rendre vos présentations plus percutantes. Les gens se souviennent des anecdotes et des exemples bien plus facilement que des concepts abstraits.
+[Dans un précédent article](https://www.ideasonstage.fr/news/2022/08/16/2022-12-02-le_pouvoir_de_la_narration_dans_les_presentations/), j'ai examiné en détail comment utiliser des histoires pour rendre vos présentations plus percutantes. Les gens se souviennent des anecdotes et des exemples bien plus facilement que des concepts abstraits.
 
 Racontez des histoires et votre auditoire comprendra vos idées, s'en souviendra et les mettra en pratique.  
 
