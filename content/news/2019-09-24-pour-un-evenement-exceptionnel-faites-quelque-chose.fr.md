@@ -10,7 +10,13 @@ language = "fr"
 +++
 Comment créer un événement exceptionnel ? Pour moi c’est un peu comme la pâte à cookies : les petits morceaux de sucre croquants mélangés au beurre, le parfum exotique de la vanille se fondant dans la puissance de l’arôme des pépites de chocolat noir. Avant même d’avoir commencé à faire dorer les cookies, mon « événement », je sais que les ingrédients sont être essentiels pour réussir la recette. Créer un événement, c’est très similaire. Tout dépend de ce que l’on y met pendant la préparation pour obtenir un excellent résultat. Et pour créer un événement mémorable, il faut avoir quatre ingrédients clés :
 
-1. But 2. Équipe 3. Créativité 4. Action 
+1/ But
+
+2/ Équipe
+
+3﻿/ Créativité
+
+4﻿/ Action
 
 ![Rose on Stage ](/img/news/rose-on-stage.jpg)
 
@@ -44,6 +50,7 @@ Cela ne veut pas dire que les personnes ne doivent jamais s’asseoir ou être a
 **8 —** Jeu: demandez aux participants d’improviser un sketch, d’enregistrer une vidéo ou d’écrire une chanson conformément au but de l’événement. Penser différemment et le partager crée de nouvelles synergies, instaure la confiance entre les groupes et libère de nouvelles idées.
 
 ## Rendez-le mémorable avec de l’inattendu
+
 Nous avons vu des sociétés traditionnelles accueillir des conférences technologiques et des équipes pharmaceutiques présenter leurs résultats de manière originale, créant un moment de surprise et d’émerveillement dans l’auditoire. Cela fait toute la différence. Voici quelques conseils pour pimenter votre événement :
 
 **9 —** Thème : donner un thème unificateur à votre événement va lui donner plus de sens. Nous avons travaillé sur un événement appelé « SHIFT », dont l’objectif était de changer la culture de la société pour la rendre plus efficace, connectée et centrée sur le client. Ils ont utilisé des activités comme tester une Tesla et un simulateur de Formule 1 pendant les pauses.
@@ -59,4 +66,3 @@ En résumé, les événements peuvent être merveilleux, pleins de sens et crée
 Gardez à l’esprit les quatre ingrédients essentiels pour rendre votre événement exceptionnel : but, équipe, créativité et action.
 
 Si vous voulez savoir comment nous pouvons vous aider à rendre votre prochain événement inoubliable, vous pouvez nous contacter à info@ideasonstage.com.
-
