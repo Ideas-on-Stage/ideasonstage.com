@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 title = "Souffrez-vous de la malédiction de la connaissance ?"
 news = ["general"]
 date = "2022-09-06"
@@ -28,7 +28,7 @@ Quel était le problème ? La malédiction de la connaissance. 
 
 Dans *« Made to Stick »*, les auteurs citent une étude de l'université de Stanford connue sous le nom de *Tappers and Listeners*. En 1990, Elizabeth Newton, étudiante en psychologie, a demandé à une série de personnes de taper les rythmes de chansons célèbres sur une table. Elle a invité une autre série de personnes à deviner les chansons.
 
-Avant le début de l'expérience, les « tapeurs » ont estimé que les « auditeurs » devineraient correctement les chansons dans 50% des cas. En fait, ils ont identifié les chansons correctement dans seulement 2,5% des cas.
+Avant le début de l'expérience, les « tapeurs » ont estimé que les « auditeurs » devineraient facilement les chansons dans 50% des cas. En fait, ils ont identifié les chansons correctement dans seulement 2,5% des cas.
 
 Comment cela se fait-il ? Les tapeurs avaient les chansons en tête tout le temps et ne pouvaient pas comprendre comment les auditeurs n’arrivaient pas les identifier. Mais ce que les auditeurs ont entendu aurait tout aussi bien pu être du morse.
 
