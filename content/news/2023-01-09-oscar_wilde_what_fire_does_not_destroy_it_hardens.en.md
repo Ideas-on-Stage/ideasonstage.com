@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Oscar Wilde: “What fire does not destroy, it hardens”"
 news = ["general"]
 date = "2023-01-09"
