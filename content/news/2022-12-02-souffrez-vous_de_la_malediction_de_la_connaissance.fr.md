@@ -80,7 +80,7 @@ Diana m'a dit qu'elle avait remarqué qu'elle était devenue plus efficace dans 
 
 Maintenant qu'elle est mieux structurée, Diana dit : « Je me sens beaucoup plus en contrôle. Si j'avais essayé de m'améliorer toute seule, je ne serais pas arrivée à ce que je suis aujourd'hui. »
 
-#### **Comment cela s'applique-t-il à moi ?**
+#### **Comment cela s'applique-t-il à ma situation ?**
 
 La prochaine fois que vous devez faire une présentation, prenez le temps de réfléchir à la manière dont vous allez communiquer vos messages clés. Supposez-vous que votre auditoire a plus de connaissances qu'il n'en a lui-même ? Quel est le bon niveau de présentation pour que chacun puisse adhérer à ce que vous dites ?
 
