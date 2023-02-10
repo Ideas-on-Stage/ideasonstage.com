@@ -20,5 +20,3 @@ Desde su creación, en Ideas on Stage hemos trabajado con startups, incubadores 
 Tras nuestro coaching, muchas startups han levantado millones de euros, convencido a clientes y ganado competiciones de pitching a ambos lados del Atlántico. Nuestro equipo aportará su experiencia y habilidades a tus startups, ayudándoles a crear pitches efectivos y brillantes.
 
 Si quieres recibir el mejor apoyo para el pitch de tu startup o si quieres organizar un taller para un grupo de startups, puedes ponerte en contacto con nosotro usando el formulario.
-
-[pic1]: /img/training-workshops/pitch-for-startups/pitch.jpg

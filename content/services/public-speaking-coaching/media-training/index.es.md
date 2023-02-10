@@ -12,8 +12,6 @@ Entras a un caluroso estudio deslumbrado por los focos, te sientas frente a un p
 
 Hablar frente a una cámara o público en vivo es una actividad estresante, incluso para los oradores más experimentados; y cuando cada palabra, cada pausa y cada momento son observados y analizados al milímetro, el impacto potencial para ti y tu empresa - positivo o negativo - puede ser enorme. Enfrentarse al público o a un periodistas sin preparación profesional supone un gran riesgo. Sin embargo, para un orador bien preparado es una oportunidad única para brillar.
 
-![media-training][pic1]
-
 El servicio de entrenamiento frente a los medios de Ideas on Stage está diseñado para preparar intervenciones en televisión y radio, o entrevistas en conferencias. Utilizamos técnicas probadas para ayudar a nuestros clientes a colocar sus mensajes, a mejorar su capacidad de escucha, a ser conscientes de la cámara y a desarrollar una mayor presencia en escena.
 
 Nuestros experimentados coaches se adaptarán a tu ritmo y disponibilidad de tiempo para que aprendas:
@@ -26,4 +24,3 @@ Nuestros experimentados coaches se adaptarán a tu ritmo y disponibilidad de tie
 
 Tu próxima aparición pública o ante los medios no tiene porqué ser un calvario. Contacta con nostros usando el formulario y te prepararemos para deslumbrar al público. Todas las peticiones son gestionadas directamente por nuestro equipo para garantizar la máxima confidencialidad.
 
-[pic1]: media-training.jpg

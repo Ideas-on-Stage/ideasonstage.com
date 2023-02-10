@@ -12,8 +12,6 @@ Juste après vous être fait maquiller, vous vous asseyez dans un siège face à
 
 Parler face à la caméra est stressant, même pour les intervenants les plus habitués. Chaque mot, chaque pause et chaque moment sont observés et analysés. L'impact potentiel sur vous et votre entreprise — positif ou négatif — peut être énorme. Faire face à un journaliste sans préparation professionnelle est un risque que personne ne peut courir, mais en étant bien préparé vous avez une opportunité unique de briller. 
 
-![media-training][pic1]
-
 Le service de Media Training d'Ideas on Stage est destiné à préparer les dirigeants pour les interviews à la télévision et à la radio. Définissez vos messages clés, développez votre présence face à la caméra et prenez la parole avec assurance. Découvrez comment faire face aux questions les plus difficiles.
 
 En travaillant avec notre équipe de Coachs, vous apprendrez :
@@ -26,4 +24,3 @@ En travaillant avec notre équipe de Coachs, vous apprendrez :
 
 Si vous devez vous préparer pour une intervention radiophonique ou télévisée contactez-nous avec le formulaire ci-dessous et nous vous contacterons rapidement. Ces demandes sont reçues directement par notre équipe de Coachs pour garantir le plus haut niveau de confidentialité possible.
 
-[pic1]: /img/public-speaking-coaching/media-training/media-training.jpg
