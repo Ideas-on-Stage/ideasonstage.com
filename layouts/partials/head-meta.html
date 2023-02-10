@@ -3,7 +3,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" property="og:author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
-<meta name="description" property="og:description"  content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Params.name }} | {{ .Params.position }} | Ideas on Stage{{ end }}">
+<meta name="description" property="og:description"  content="{{ if .Description }}{{ .Description }}{{ else if .Params.author }}{{ .Params.title }} | {{ .Params.author }}{{ else }}{{ .Params.name }} | {{ .Params.position }} | Ideas on Stage{{ end }}">
 <meta name="title" property="og:title" content="{{ .Title }}">
 <meta name ="url" property="og:url" content ="{{ .Permalink }}">
 {{ if .Params.picture }}<meta name ="image" property="og:image" content="{{ partial "f/getpicturepath" . }}">{{ end }}
