@@ -13,3 +13,10 @@
 	picture		= "/img/inserts/catalogue.jpg"
 	url			= "/guides/ideasonstage-catalogue-fr.pdf"
 	description	= "Téléchargez notre catalogue de services au format pdf."
+[es]
+	title		= "Catálogo PDF"
+	layout		= "inserts/module-half-text-picture.html"
+	style		= "bg-lightgray"
+	picture		= "/img/inserts/catalogue.jpg"
+	url			= "/guides/ideasonstage-catalogue-es.pdf"
+	description	= "Descarga nuestro catálogo de servicios en formato pdf."

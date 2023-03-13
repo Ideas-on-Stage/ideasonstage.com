@@ -5,7 +5,7 @@ description		= "Especialista europeo en formación y coaching para hablar en pú
 picture			= "/img/ideas-on-stage.svg"
 schema			= "Website"
 
-insertsbottom	= [ "revolution" ]
+insertsbottom	= [ "catalogue","revolution" ]
 
 outputs			= ["html","rss","json"]
 

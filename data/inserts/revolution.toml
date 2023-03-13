@@ -15,9 +15,9 @@
 	description	= "Une série de courtes vidéos pour apprendre à mieux présenter, disponibles sur YouTube et iTunes."
 
 [es]
-	title		= "The Business Presentation Revolution Videos"
-	layout		= "inserts/module-picture-textleft.html"
+	title		= "Videos The Business Presentation Revolution"
+	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-primary"
 	picture		= "/img/inserts/revolution-hand-clicker.jpg"
 	url			= "/revolution/"
-	description = "Descubre los mejores consejos para presentar con nuestra nueva serie de videos: The Business Presentation Revolution."
+	description = "Los mejores consejos para presentar con nuestra nueva serie: The Business Presentation Revolution."
