@@ -7,6 +7,8 @@ date = "2023-03-14"
 author = "Andrea Pacini"
 banner = "/img/news/garr_image_for_article.jpeg"
 +++
+![**Zen and the Art of Presenting with Impact**", featuring renowned speaker **Garr Reynolds**.](/img/news/garr_image_for_article.jpeg)
+
 On the 7th of March, more than 200 business leaders attended our virtual event, "**Zen and the Art of Presenting with Impact**", featuring renowned speaker **Garr Reynolds**. 
 
 Garr covered three key principles: 
