@@ -35,6 +35,12 @@ If you missed the event, you can watch the full recording below to gain valuable
 
 If you want to become a more confident presenter, take the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/). Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes.
 
+
+
+
+
+
+
 **Draft notes:** 
 
 08:35 – 08:45
