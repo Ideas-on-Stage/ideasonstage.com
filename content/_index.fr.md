@@ -11,7 +11,7 @@ outputs			= ["html","rss","json"]
 
 [slider]
 	[[slider.list]]
-		draft		= false
+		draft		= true
 		date		= "2022-11-29"
 		expirydate	= "2023-06-30"
 		bgimage 	= "/comment-organiser-un-evenement-tedx/tedx-saclay-01.jpg"
