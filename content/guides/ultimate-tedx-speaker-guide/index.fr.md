@@ -8,6 +8,9 @@ picture		= "tedx-speaker.jpg"
 summary		= "Félicitations, vous venez d'être sélectionné pour être speaker à un événement TED ou TEDx ! Ce guide vous donnera tous les conseils nécessaires pour réussir votre intervention. Vous pouvez tout lire dans l’ordre, mais ce n’est pas obligatoire. Si vous êtes pressé, vous pouvez sauter directement à la partie qui vous intéresse."
 +++
 ## Pourquoi le guide ultime du TEDx Speaker ?
+
+> Ideas on Stage est une entreprise indépendante de TED et TEDx. Cette page nous permet de partager l'expérience accumulée.
+
 Parce que nous nous sommes rendus compte que beaucoup de Speakers se posaient les mêmes questions. Nous avons donc décidé de créer un guide pratique et sans blabla pour les aider à préparer leur TED Talk.
 
 ![TEDx WBG World Bank Group](tedx-wbg.jpg)

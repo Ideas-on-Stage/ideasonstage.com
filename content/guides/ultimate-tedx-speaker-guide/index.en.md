@@ -10,6 +10,8 @@ summary		= "Congratulations, you’ve just been contacted to be a speaker at a T
 
 Congratulations, you’ve just been contacted to speak at a TED or TEDx event! Or you’re embarking upon organizing one yourself. If either of these scenarios are true, this guide was made for you. We have compiled everything that you need to know about how to be or train a successful public speaker for TED without needing to ask.
 
+> Ideas on Stage is a company independent from TED and TEDx. This page shares the knowledge we have accumulated over the years.
+
 ## Why an ultimate TED Speaker guide?
 
 We have come to realize that a lot of speakers ask themselves the same questions. Therefore, we decided to create a practical guide without any bla bla bla to help you prepare your speakers or your TED talk.

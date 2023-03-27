@@ -1,5 +1,5 @@
 +++
-draft			= false
+draft			= true
 title			= "TEDx Coaching"
 description		= "TEDx audiences have high expectations. Learn how Ideas on Stage can help you surpass them."
 url				= "/public-speaking-coaching/tedx-coaching/"

@@ -6,5 +6,12 @@ https://www.ideasonstage.com/uk/bpr-pdf https://mailchi.mp/7b5193d808cb/bpr-pdf 
 https://www.ideasonstage.com/uk/value-bundle https://mailchi.mp/5975bea9212e/value-bundle 301!
 
 # --------
+# TEDx Redirects
+https://www.ideasonstage.com/public-speaking-coaching/tedx-coaching/ https://www.ideasonstage.com/public-speaking-coaching/executive-coaching/ 301!
+https://www.ideasonstage.fr/coaching-prise-de-parole-en-public/coaching-tedx/ https://www.ideasonstage.fr/coaching-prise-de-parole-en-public/coaching-de-dirigeants/ 301!
+https://www.ideasonstage.es/coaching-para-hablar-en-publico/tedx-coaching/ https://www.ideasonstage.es/coaching-para-hablar-en-publico/ejecutivos-presencia-liderazgo/ 301!
+https://www.ideasonstage.it/public-speaking-coaching/tedx-coaching/ https://www.ideasonstage.it/public-speaking-coaching/executive-coaching/ 301!
+
+# --------
 # /img/* to /img/*
 /img/* /img/:splat 301!
