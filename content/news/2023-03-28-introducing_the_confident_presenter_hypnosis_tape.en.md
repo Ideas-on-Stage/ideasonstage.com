@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "Introducing the \"Confident Presenter Hypnosis Tape” "
 tags = ["Public Speaking"]
 news = ["general"]
