@@ -9,7 +9,7 @@ summary		= "Félicitations, vous venez d'être sélectionné pour être speaker 
 +++
 ## Pourquoi le guide ultime du TEDx Speaker ?
 
-> Ideas on Stage est une entreprise indépendante de TED et TEDx. Cette page nous permet de partager l'expérience accumulée.
+> Cet article est le résultat de travaux de recherche indépendants menés par Ideas on Stage. TED et TEDx sont des marques déposées de TED Conferences LLC. Ideas on Stage est une entreprise indépendante. Elle n'est pas affiliée à TED ou TEDx.
 
 Parce que nous nous sommes rendus compte que beaucoup de Speakers se posaient les mêmes questions. Nous avons donc décidé de créer un guide pratique et sans blabla pour les aider à préparer leur TED Talk.
 

@@ -10,7 +10,7 @@ summary = "Ce guide vous donnera tous les conseils nécessaires pour organiser v
 
 ## Qu’est-ce qu’un événement TEDx ?
 
-> Ideas on Stage est une entreprise indépendante de TED et TEDx. Cette page nous permet de partager l'expérience accumulée.
+> Cet article est le résultat de travaux de recherche indépendants menés par Ideas on Stage. TED et TEDx sont des marques déposées de TED LLC. Ideas on Stage est une entreprise indépendante. Elle n'est pas affiliée à TED ou TEDx.
 
 Les événements TEDx ont révolutionné le monde des conférences par la qualité et le style des présentations réalisées sur scène. Un événement TEDx est général organisé sur une demi-journée ou une soirée, pendant laquelle plusieurs intervenants se succèdent sur scène selon un programme ou un thème prédéfini.
 
