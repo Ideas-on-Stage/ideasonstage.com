@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Introducing the \"Confident Presenter Hypnosis Tape” "
+title = "Introducing the \"Confident Presenter Hypnosis Tape\""
 tags = ["Public Speaking"]
 news = ["general"]
 date = "2023-04-01"
