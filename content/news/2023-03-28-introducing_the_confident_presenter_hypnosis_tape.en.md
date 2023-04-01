@@ -7,7 +7,7 @@ date = "2023-04-01"
 author = "Andrea Pacini"
 banner = "/img/news/april_fool_2023_image.001.jpeg"
 +++
-![The Confident Presenter Hypnosis Tape](/img/news/april_fool_2023_image.001.jpeg)
+![Image of an old tape with a title "The Confident Presenter Hypnosis Tape"](/img/news/april_fool_2023_image.001.jpeg)
 
 *The latest innovation from Ideas on Stage that will revolutionise the world of public speaking!*
 
