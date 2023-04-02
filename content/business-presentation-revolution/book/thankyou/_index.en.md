@@ -8,7 +8,7 @@ showrefs		= false
 hidepagelist		= true
 urlredirect		= ""
 url 				= "/business-presentation-revolution/book/thankyou/"
-disallowbots		= true
+ni				= true
 
 insertstop		= [ "catalogue", "news" ]
 

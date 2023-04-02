@@ -6,7 +6,7 @@ showrefs		= false
 hidepagelist		= true
 urlredirect		= ""
 url 				= "/business-presentation-revolution/book/"
-disallowbots		= true
+ni				= true
 +++
 
 ## Business Presentation Revolution – The Book

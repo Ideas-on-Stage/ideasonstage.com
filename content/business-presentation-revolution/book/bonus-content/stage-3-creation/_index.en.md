@@ -1,7 +1,7 @@
 +++
 draft 			= false
 title 			= "Business Presentation Revolution – Stage 3: Creation"
-disallowbots		= true
+ni				= true
 +++
 
 In the Creation stage, you take the ingredients you found in the Ideation stage, and use the art of storytelling to build a compelling storyline that grabs your audience’s attention, resets it regularly, and communicates your key messages memorably.

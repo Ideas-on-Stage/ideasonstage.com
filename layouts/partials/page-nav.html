@@ -41,19 +41,6 @@
     {{- range .Site.Params.navigation.housekeeping }}
     <li><a class="page-scroll" href="{{ .url }}">{{ .name }}</a></li>
     {{- end }}
-    <li>
-      <!-- Company  Drop Down -->
-       <label for="drop-3" class="menutoggle">{{ with .Site.Params.navigation.company }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></label>
-       <a href="#">{{ with .Site.Params.navigation.company }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></a>
-       <input type="checkbox" id="drop-3"/>
-       <ul>
-         {{- range .Site.Params.navigation.companyitems }}
-         <li>
-         <a href="{{ .url }}">{{ .name }}</a>
-         </li>
-         {{- end }}
-       </ul>
-     </li> 
      <!-- Search Dropdown -->
       <li>
        <label for="drop-5" class="menutoggle"><i class="fa fa-search"></i></label>
@@ -66,8 +53,7 @@
          <li>
           <ul id="searchResults">
           </ul>
-         </li> 
-          
+         </li>
        </ul>
      </li> 
      

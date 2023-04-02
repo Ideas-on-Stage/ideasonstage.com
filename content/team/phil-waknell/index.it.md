@@ -5,6 +5,7 @@ picture		= "phil-waknell.jpg"
 position 	= "Chief Inspiration Officer"
 url			= "/team/phil-waknell/"
 weight		= 110
+ni          = true
 +++
 Phil Waknell è uno dei maggiori esperti Europei nella nuova arte della presentazione e parla regolarmente in numerose conferenze relativamente al miglioramento della business communication. Insegna tecniche di Business Presentation alla HEC di Parigi, una delle migliori scuole di Business d’Europa, ed è l’autore di The Business Presentation Revolution. 
 

@@ -1,7 +1,7 @@
 +++
 draft 			= false
 title 			= "Business Presentation Revolution – Stage 5: Connection"
-disallowbots		= true
+ni				= true
 +++
 
 By the time you reach the Connection stage, you should know what you’re going to say, and – if appropriate – you should have suitable visual aids to illustrate your storyline. In the Connection stage, you prepare to deliver your presentation comfortably and convincingly.

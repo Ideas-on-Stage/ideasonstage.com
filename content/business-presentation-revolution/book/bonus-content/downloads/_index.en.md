@@ -1,7 +1,7 @@
 +++
 draft 			= false
 title 			= "Business Presentation Revolution – Downloads"
-disallowbots		= true
+ni				= true
 +++
 
 Thanks for filling in our form. On this page you can now download all our Business Presentation Revolution guides, templates and checklists.

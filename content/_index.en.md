@@ -71,14 +71,6 @@ outputs			= ["html","rss","json"]
 
 [services]
 	[[services.list]]
-		sectionid	= "from-office-to-remote-work"
-		title		= "Online Work Community"
-		description	= "Create and animate an online work community to boost your employees' morale and productivity."
-		picture		= "/from-office-to-remote-work/remote-work.jpg"
-		style		= "bg-black"
-		layout		= "inserts/module-picture-textright.html"
-		url			= "/from-office-to-remote-work/"
-	[[services.list]]
 		sectionid	= "public-speaking-coaching"
 		title		= "Public Speaking Coaching"
 		description	= "We offer coaching for public speaking, media training, stage presence and delivery."

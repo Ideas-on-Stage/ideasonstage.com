@@ -151,7 +151,6 @@ theme        			= "hugo-theme-korporate"
 				url				= "/team/"
 
 		[params.navigation.languages]
-					
 			[params.navigation.languages.001]
 				name	= "Français"
 				url		= "https://www.ideasonstage.fr"

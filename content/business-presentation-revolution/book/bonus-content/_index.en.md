@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "Business Presentation Revolution – Bonus Content"
 hidepagelist		= true
-disallowbots		= true
+ni				= true
 +++
 
 ## Business Presentation Revolution – Bonus Content
