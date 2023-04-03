@@ -8,7 +8,7 @@ banner = "/img/news/if_you_surrendered_to_the_air_you_could_ride_it.jpeg"
 +++
 **How can the element of Air, and its properties, help us to become better presenters?**
 
-![](/img/news/if_you_surrendered_to_the_air_you_could_ride_it.jpeg)
+![Picture courtesy of Pixabay](/img/news/if_you_surrendered_to_the_air_you_could_ride_it.jpeg)
 
 This quotation from late American novelist Toni Morrison, known for her critically acclaimed novels *Song of Solomon* and *Beloved* (the latter of which won her the Pulitzer prize), is a perfect introduction to the notion of harnessing the air. This line from *Song of Solomon* alludes that to take to the skies, to be carried by the air, comes at a cost. To be able to fly, you have to let go of the things that weigh you down. 
 
