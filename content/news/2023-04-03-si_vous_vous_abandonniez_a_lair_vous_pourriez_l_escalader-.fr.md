@@ -16,7 +16,7 @@ Mais l'air et le vent qui nous entourent sont incertains, parfois calmes et parf
 
 J'ajouterais encore, pour nous les habitants sur le sol terrien, que voler est impossible. Pourtant, l'aérodynamisme nous a permis de réaliser l'impossible grâce à l'ingéniosité et au design. Nous avons construit des machines volantes qui défient la gravité. C'est pourquoi, pour exploiter l'air, nous ne pouvons pas choisir de vivre une existence à faible résistance, mais acceptons que, parfois, nous devons essayer de prendre notre envol et de tenter quelque chose de nouveau.
 
-Alors, à partir de tout ceci, comment pouvons-nous exploiter la possibilité de prendre l'air pour ***présenter*** ? Voici 3 concepts de l’air :
+Alors, à partir de tout ceci, comment pouvons-nous exploiter la possibilité de prendre l'air pour ***présenter*** ? Voici 4 concepts de l’air :
 
 1. **L’air consiste à adopter l'innovation en tant que présentateur.**
 
