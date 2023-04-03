@@ -16,7 +16,7 @@ But the air and wind around us are uncertain, at times calm and at others volati
 
 I would further add, for us land dwellers, flying is impossible. Yet aerodynamics have allowed us to achieve the impossible though ingenuity and design. We have built flying machines that defy gravity. That is why to harness the air we cannot choose to live a low-resistance existence but accept that sometimes, sometimes, we need to try to take flight and try something new. 
 
-So from all of this, how can we harness the possibility of taking to the air for ***presenting***? Here are 3 concept ideas for Air: 
+So from all of this, how can we harness the possibility of taking to the air for ***presenting***? Here are 4 concept ideas for Air: 
 
 1. **Air is about embracing innovation** **as a presenter.**
 
