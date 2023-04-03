@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Si vous vous abandonniez à l'air, vous pourriez l’escalader."
+title = "Si on laisse le vent nous emporter, alors on peut voler"
 news = ["general"]
 date = "2023-04-03"
 author = "Michael Rickwood"
