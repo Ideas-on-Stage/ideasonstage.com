@@ -1,6 +1,6 @@
 +++
 draft 		= false
-title 		= "La guía definitiva del ponente TEDx"
+title 		= "La guía definitiva del ponente"
 description	= "En esta guía compartimos odo lo que siempre quisisite saber para triunfar como ponente en un evento TED"
 categories	= [ "TEDx Events" ]
 url			= "/guias/ultimate-tedx-speaker-guide/"

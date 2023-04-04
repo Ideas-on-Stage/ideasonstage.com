@@ -1,7 +1,7 @@
 +++
 draft 		= false
-title 		= "Ultimate TEDx Speaker Guide"
-description	= "Everything that you wanted to know about being a TED speaker without needing to ask."
+title 		= "Ultimate Inspiring Speaker Guide"
+description	= "Everything that you wanted to know about being a TEDx speaker without needing to ask."
 categories	= [ "TEDx Events" ]
 url			= "/tedx-speaker-guide/"
 picture		= "tedx-speaker.jpg"

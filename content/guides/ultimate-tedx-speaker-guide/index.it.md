@@ -1,6 +1,6 @@
 +++
 draft 		= false
-title 		= "La guida definitiva di TEDx"
+title 		= "La guida definitiva di Speaker"
 description	= "Tutto quello che avreste voluto sapere sull’essere un TEDx speaker ma non avete mai osato chiedere."
 categories	= [ "TEDx Events" ]
 showrefs	= false

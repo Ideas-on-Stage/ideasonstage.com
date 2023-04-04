@@ -1,6 +1,6 @@
 +++
 draft 		= false
-title 		= "Le guide ultime du TEDx Speaker"
+title 		= "Le guide ultime du Speaker inspirant"
 description	= "Tout ce que vous avez toujours voulu savoir pour devenir un TEDx Speaker."
 categories	= [ "Guides" ]
 url			= "/guide-tedx-speaker/"
