@@ -41,21 +41,13 @@ Voici un résumé des étapes à suivre dans la phase de création, comme expliq
 **\- Et ensuite ?** Maintenant qu'ils ont compris ce que vous dites et pourquoi c'est important pour eux, qu'attendez-vous d'eux ?
 
 2. **Clair et relié** : choisissez une structure qui convient à vos objectifs et à l'ABC de votre présentation.
-
 3. Prenez les idées issues de votre brainstorming et insérez-les dans la structure que vous avez choisie. Jetez ce dont vous n'avez pas besoin et comblez les lacunes.
-
-4. **Original et agréable** : si vous le souhaitez, intégrez un concept ou un thème qui rendra la présentation plus mémorable.
-
+4. **Original et entraînant** : si vous le souhaitez, intégrez un concept ou un thème qui rendra la présentation plus mémorable.
 5. Incluez des anecdotes ou des exemples pour faire passer vos messages clés et retenir l'attention de votre auditoire.
-
 6. Réveillez votre auditoire et retournez le sablier de son attention avec un **moment MAGIQ** : quelque chose que vous dites, que vous montrez ou que vous faites qui fait rapidement une grande impression.
-
 7. Utilisez votre « elevator pitch » comme base d'une **conclusion** qui rappelle à votre auditoire vos messages clés, qui explique pourquoi ces messages sont importants et pertinents pour lui, et qui présente ce que vous voulez qu'il se rappelle, qu’il croit, qu’il ressente et/ou fasse par la suite : le « Quoi ? », le « Et alors ? » et le « Et après ? ».
-
 8. Si votre auditoire est suffisamment nombreux, préparez une dernière phrase percutante et terminez par un simple « Merci » pour leur donner envie d'applaudir et pour leur donner la parole.
-
 9. Préparez une **introduction** qui crée une réaction émotionnelle chez votre auditoire et lui donne envie d'écouter. Ensuite, et seulement ensuite, pensez à ajouter un ordre du jour.
-
 10. Enfin, veillez à ce que votre présentation soit un discours personnel. Si quelqu'un d'autre pourrait délivrer le même discours, ou si vous pourriez le faire devant un autre auditoire, ce n'est pas assez personnel.
 
 En suivant ces étapes, vous aurez une longueur d'avance sur la plupart des présentateurs et vous vous assurerez que votre scénario capte l’attention de votre auditoire et la conserve jusqu'à la fin, en communiquant vos messages clés de manière mémorable. C'est important car l'attention mène à l'action, et seul un auditoire attentif peut vous aider à atteindre vos objectifs de transformation.
