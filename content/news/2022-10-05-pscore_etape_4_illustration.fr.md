@@ -28,7 +28,7 @@ Vos diapositives doivent suivre les cinq critères de réussite appelés « SCO
 * **Clair** : Tout est facile à lire et à comprendre sur un écran de smartphone, en termes de taille et de contraste.
 * **Original** : Vos diapositives sont nouvelles et se distinguent de celles des concurrents et des autres intervenants.
 * **Relatif** : Ce que vous montrez est lié à ce que vous dites à ce moment-là.
-* **Agréable** : Vos diapositives sont bien conçues et attrayantes, de sorte que votre auditoire prend plaisir à découvrir chaque nouvelle diapositive.
+* **Entraînant** : Vos diapositives sont bien conçues et attrayantes, de sorte que votre auditoire prend plaisir à découvrir chaque nouvelle diapositive.
 
 Vous devrez peut-être aussi distribuer des documents. Quelle que soit la qualité de vos diapositives, l'auditoire oubliera vite ce que vous dites et ce que vous montrez. Il peut donc être judicieux de leur donner quelque chose à lire avant votre présentation et de laisser quelque chose derrière vous - mais pas un affreux « diapocument » qui n'est ni une bonne diapositive ni un bon document.
 
