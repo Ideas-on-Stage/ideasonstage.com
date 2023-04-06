@@ -26,22 +26,20 @@ N'oubliez pas vos objectifs de transformation. Que voulez-vous que votre auditoi
 
 Voici un bref résumé des points clés de cette étape finale si importante :
 
-  1. Les bons orateurs utilisent la méthode pSCORE lorsqu'ils parlent :
+1. Les bons orateurs utilisent la méthode pSCORE lorsqu'ils parlent :
 
 * **Simple** : utilisez des phrases courtes et un langage clair, avec des pauses régulières.
 * **Clair** : assurez-vous que votre auditoire peut entendre et comprendre chaque syllabe.
 * **Original** : trouvez votre propre style, acceptez-le et affinez-le.
 * **Relié** : créez une connexion par l'interaction, le contact visuel et les gestes.
-* **Agréable** : préparez-vous bien pour paraître à l'aise, montrez votre passion et variez votre ton et votre rythme.
+* **Entraînant** : préparez-vous bien pour paraître à l'aise, montrez votre passion et variez votre ton et votre rythme.
 
   2. À l'approche du grand jour, concentrez-vous sur les 3 S :
-
 * **Sérénité** : répétez votre présentation plusieurs fois, en vous concentrant particulièrement sur l'introduction et la conclusion, et préparez des fiches pense-bête.
 * **Scène** : apprenez à connaître le lieu où vous ferez votre présentation.
 * **Soutien** : établissez des contacts avec les techniciens et la régie et informez-les, afin qu'ils sachent ce dont vous avez besoin et puissent vous aider à réussir.
 
   3. Le jour J, arrivez tôt, essayez de saluer quelques membres de l’auditoire avant de commencer, évitez le café, préparez-vous physiquement et gérez bien votre temps.
-
   4. Après la présentation, distribuez vos documents, demandez des commentaires et notez ce que vous pourriez faire différemment la prochaine fois.
 
 Par-dessus tout, considérez chaque présentation comme une occasion de vous exercer et de vous améliorer. Personne n'est né grand présentateur. Si vous êtes étonné par le professionnalisme des orateurs de TED, de WikiStage ou de certains grands lancements de produits en ligne, et que vous avez l'impression de ne pas être encore au même niveau, rappelez-vous que ces présentateurs ont dû travailler dur pour devenir aussi bons, et qu'ils ont généralement des spécialistes de la présentation pour les aider.
