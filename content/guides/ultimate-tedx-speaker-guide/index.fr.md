@@ -9,8 +9,6 @@ summary		= "Félicitations, vous venez d'être sélectionné pour être speaker 
 +++
 ## Pourquoi le guide ultime du TEDx Speaker ?
 
-> Cet article est le résultat de travaux de recherche indépendants menés par Ideas on Stage. TED et TEDx sont des marques déposées de TED Conferences LLC. Ideas on Stage est une entreprise indépendante. Elle n'est pas affiliée à TED ou TEDx.
-
 Parce que nous nous sommes rendus compte que beaucoup de Speakers se posaient les mêmes questions. Nous avons donc décidé de créer un guide pratique et sans blabla pour les aider à préparer leur TED Talk.
 
 ![TEDx WBG World Bank Group](tedx-wbg.jpg)
@@ -20,13 +18,17 @@ Parce que nous nous sommes rendus compte que beaucoup de Speakers se posaient le
 ### Usages autorisés du guide ultime du TEDx Speaker
 Vous pouvez utiliser ce guide librement à condition d’en citer la source et de créer un lien web visible vers cette page dans les cas suivants :
 
-*	Dans le cadre d’un événement TEDx : vous pouvez librement le distribuer à vos Speakers, y compris au format imprimé (si vous en voulez une copie au format pdf laissez-moi un message à la fin de l’article).
-*	Utilisation d’extraits à des fins non commerciales (mémoire d’étudiant, blog personnel, …) : vous pouvez utiliser des extraits.
-*	Par le milieu de l’éducation.
+* Dans le cadre d’un événement TEDx : vous pouvez librement le distribuer à vos Speakers, y compris au format imprimé (si vous en voulez une copie au format pdf laissez-moi un message à la fin de l’article).
+* Utilisation d’extraits à des fins non commerciales (mémoire d’étudiant, blog personnel, …) : vous pouvez utiliser des extraits.
+* Par le milieu de l’éducation.
 
 Si vous êtes organisateur de conférence : vous pouvez nous contacter à info@ideasonstage.com pour que nous réalisions une version personnalisée de ce guide à distribuer à vos intervenants, sans référence à TED ou TEDx et avec votre branding.
 
 Toute utilisation dans un cadre commercial sans accord de notre part est strictement interdite.
+
+<aside><blockquote>
+Cet article est le résultat de travaux de recherche indépendants menés par Ideas on Stage. TED et TEDx sont des marques déposées de TED LLC. Ideas on Stage est une entreprise indépendante. Elle n'est pas affiliée à TED ou TEDx.
+</blockquote></aside>
 
 ### Remerciements
 L’écriture du guide ultime du TEDx Speaker n’aurait pas été possible sans l’aide de mes collègues, Phil, Marion et Michael, tous Directeurs de Présentation certifiés extraordinaires, et bien meilleur Coachs que moi-même. Nous remercions également tous les organisateurs de conférences qui nous ont fait confiance et qui nous font confiance.

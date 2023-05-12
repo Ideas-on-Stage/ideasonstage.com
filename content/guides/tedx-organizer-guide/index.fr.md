@@ -10,8 +10,6 @@ summary = "Ce guide vous donnera tous les conseils nécessaires pour organiser v
 
 ## Qu’est-ce qu’un événement TEDx ?
 
-> Cet article est le résultat de travaux de recherche indépendants menés par Ideas on Stage. TED et TEDx sont des marques déposées de TED LLC. Ideas on Stage est une entreprise indépendante. Elle n'est pas affiliée à TED ou TEDx.
-
 Les événements TEDx ont révolutionné le monde des conférences par la qualité et le style des présentations réalisées sur scène. Un événement TEDx est général organisé sur une demi-journée ou une soirée, pendant laquelle plusieurs intervenants se succèdent sur scène selon un programme ou un thème prédéfini.
 
 Des événements TEDx ont lieu partout dans le monde, depuis 2009, de manière indépendante pour toucher toutes les communautés. Chaque conférence TEDx est rattachée à l’organisation nord-américaine TED, qui se consacre à la diffusion « d’idées qui valent la peine d’être partagées », comme son slogan l’indique.
@@ -39,6 +37,10 @@ Nous allons maintenant vous guider pas à pas dans les étapes nécessaires pour
 > Vous souhaitez organiser un événement dans votre entreprise ? Consultez notre [guide pratique de l'organisateur d'événements](https://www.ideasonstage.fr/guide-organisateur-evenement-entreprise/).
 
 ## 1. Faire la demande de licence TEDx
+
+<aside><blockquote>
+Cet article est le résultat de travaux de recherche indépendants menés par Ideas on Stage. TED et TEDx sont des marques déposées de TED LLC. Ideas on Stage est une entreprise indépendante. Elle n'est pas affiliée à TED ou TEDx.
+</blockquote></aside>
 
 ### 1.1. Créer une association pour votre TEDx
 
