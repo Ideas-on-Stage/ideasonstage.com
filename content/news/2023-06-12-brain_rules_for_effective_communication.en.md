@@ -1,7 +1,7 @@
 +++
 draft = "true"
 title = "Brain Rules for Effective Communication"
-tags = ["Public Speaking"]
+tags = ["Events"]
 news = ["general"]
 date = "2023-06-12"
 author = "Andrea Pacini"
