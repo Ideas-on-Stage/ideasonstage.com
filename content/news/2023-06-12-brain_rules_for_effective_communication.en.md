@@ -1,13 +1,13 @@
 +++
-draft = "true"
+draft = false
 title = "Brain Rules for Effective Communication"
 tags = ["Events"]
 news = ["general"]
-date = "2023-06-12"
+date = "2023-06-13"
 author = "Andrea Pacini"
 banner = "/img/news/medina_image_websie.jpeg"
 +++
-![Brain Rules for Effective Communication Audience](/img/news/medina_image_websie.jpeg)
+![Audience on Zoom of the event Brain Rules for Effective Communication](/img/news/medina_image_websie.jpeg)
 
 On June 6, 2023, we hosted a special event, **Brain Rules for Effective Communication.** The event featured the esteemed guest speaker, **Dr. John Medina**, renowned author of the New York Times bestseller **Brain Rules.** In this article, I highlight the key takeaways from Dr. Medina's thought-provoking presentation.
 
