@@ -9,7 +9,7 @@ banner = "/img/news/seth_godiin.jpeg"
 +++
 ![Andrea Pacini and Seth Godin ](/img/news/seth_godiin.jpeg "Seth Godin on How to Get Your Ideas to Spread - The Ideas on Stage Podcast")
 
-In this episode of the Ideas on Stage podcast we spoke with the legendary Seth Godin. 
+In this episode of the Ideas on Stage podcast we spoke with the legendary **Seth Godin.** 
 
 Seth Godin is the author of 20 books that have been bestsellers around the world and have been translated into more than 35 languages. He’s also the founder of the altMBA and The Akimbo Workshops, online seminars that have transformed the work of thousands of people.
 
@@ -59,7 +59,7 @@ I hope you enjoy it!
 
 {{% youtube 0GnxSS0n-L4 %}}
 
-Want to learn more? 
+**Want to learn more?** 
 
 * Get a free PDF copy of the best-selling book [Business Presentation Revolution](https://drive.google.com/file/d/1tj9xbHz07hziq0cWiiRFVBD2Xif0VyZ1/view?usp=sharing)
 * Take the [Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
