@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Zen and The Art of Presenting with Impact "
-tags = ["Public Speaking"]
+tags = ["Events"]
 news = ["general"]
 date = "2023-03-14"
 author = "Andrea Pacini"
