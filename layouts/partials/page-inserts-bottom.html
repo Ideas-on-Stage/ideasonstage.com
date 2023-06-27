@@ -3,7 +3,7 @@
 {{- range .Params.insertsbottom }}
 	{{- $insertalllang := index site.Data.inserts . }}
 	{{- if $insertalllang }}
-		{{- $insert := index $insertalllang site.Params.LanguageCode }}
+		{{- $insert := index $insertalllang site.LanguageCode }}
 		{{- if $insert }}
 			{{ partial $insert.layout $insert }}
 		{{- end }}
