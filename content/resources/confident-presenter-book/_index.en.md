@@ -83,7 +83,7 @@ To enhance the value of your episode, Andrea can offer a special digital gift fo
 > "This book is full of practical advice to kickstart your journey to becoming a confident and engaging communicator."
 <br /><i>—Rachel Schofield, Career Coach and former BBC presenter</i>
 
-## Inspire your audience. Increase your influence. Make an impact. Get the book today.
+## Inspire your audience. Increase your influence. Make an impact.
 
 {{% call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" %}}
 
