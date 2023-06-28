@@ -6,6 +6,7 @@ showrefs		= false
 hidepagelist		= true
 urlredirect		= ""
 ni				= true
+
 +++
 
 {{% picture1-text2 picture="confident-presenter-book-2.png" %}}
@@ -13,12 +14,12 @@ ni				= true
  
 Learn the five key principles to communicate a compelling message that inspires action, growth and impact.
 
-> "This book is full of practical advice to kickstart your journey to becoming a confident and engaging communicator."
-<br /><i>—Rachel Schofield, Career Coach and former BBC presenter</i>
+> "Improving your presentation skills can change your life forever, and this book will give you the power to make that change."
+<br /><i>—Garr Reynolds, Author of Presentation Zen</i>
 
 {{% /picture1-text2 %}}
 
-<a href="https://www.amazon.com/Business-Presentation-Revolution-Inspire-Action/dp/1781336091/" target="_blank"><img src="amazon-button.png" /></a>
+{{% call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" %}}
 
 ### Sign up below to be the first to know when the book is available!
 
@@ -74,15 +75,22 @@ As the host of the Ideas on Stage podcast, Andrea understands what makes a great
 
 To enhance the value of your episode, Andrea can offer a special digital gift for your listeners.
 
+{{% call-to-action button="BOOK ANDREA NOW" link="mailto:support.uk@ideasonstage.com" %}}
+
 > "This book is the ultimate roadmap to what makes a memorable presentation. It’s the book I wish I had read when I started my career as a professional keynote speaker." 
 <br /><i>—Mark Leruste, bestselling author of Glow in the Dark</i>
 
-
-> "‘Confident Presenter’ will help every reader to deliver their messages with greater poise, presence, and power."
-<br /><i>—Todd Cherches, author of VisuaLeadership</i>
+> "This book is full of practical advice to kickstart your journey to becoming a confident and engaging communicator."
+<br /><i>—Rachel Schofield, Career Coach and former BBC presenter</i>
 
 ## Inspire your audience. Increase your influence. Make an impact. Get the book today.
 
-<a href="https://www.amazon.com/Business-Presentation-Revolution-Inspire-Action/dp/1781336091/" target="_blank"><img src="amazon-button.png" /></a>
+{{% call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" %}}
+
+{{% call-to-action style="bg-lightgray" title="What is your Presentation Score?" subtitle="Discover your presentation score and increase your ability to influence." button="TAKE THE PRESENTER SCORECARD" link="https://presentationscorecard.scoreapp.com" %}}
+
+
+
+
 
 

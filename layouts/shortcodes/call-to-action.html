@@ -5,6 +5,11 @@
 		<h3 class="text-center">{{ .Params.title }}</h3>
 	</div>
 	{{- end }}
+	{{- if .Params.subtitle }}
+	<div class="layout-shortcode-child">
+		<p class="text-center">{{ .Params.subtitle }}</p>
+	</div>
+	{{- end }}
 	{{- if .Params.button }}
 	<div class="layout-shortcode-child text-center">
 		<a href="{{ .Params.link }}" class="button-primary">{{ .Params.button }}</a>
