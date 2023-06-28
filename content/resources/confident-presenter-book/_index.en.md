@@ -26,7 +26,7 @@ Learn the five key principles to communicate a compelling message that inspires 
 The book is set to launch on July 18. On that day, you'll have the opportunity to purchase the book for just 0.99 GBP/EUR/USD. As a bonus, you'll also gain access to two complimentary training courses worth £250.
 
 <section id="register-now">
-	<div class="layout-content">
+	<div class="layout-shortcode">
 		<div class="layout-content-narrow">
 			<form action="{{ .RelPermalink }}" method="POST" name="registerForm" id="registerform" data-netlify="true">
 				<div class="iosform-group">
@@ -45,7 +45,7 @@ The book is set to launch on July 18. On that day, you'll have the opportunity t
 				</div>     
 			</form>
 		</div>
-	</div>    
+	</div>
 </section>
 
 ## An idea needs wings, and that means a strong, well-delivered presentation.
