@@ -22,7 +22,36 @@ Learn the five key principles to communicate a compelling message that inspires 
 {{% call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" %}}
 
 
-{{% call-to-action style="bg-lightgray" title="Discover your presentation score" subtitle="To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book. After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. It’s free, easy and takes less than three minutes to complete." picture="/img/inserts/meter-orange.png" button="TAKE THE TEST NOW" link="https://presentationscorecard.scoreapp.com" %}}
+### Discover your presentation score
+
+{{% call-to-action style="bg-lightgray" title="Discover your presentation score" subtitle="To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book. After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. It’s free, easy and takes less than three minutes to complete." button="TAKE THE TEST NOW" link="https://presentationscorecard.scoreapp.com" %}}
+
+### Sign up below to be the first to know when the book is available!
+
+The book is set to launch on July 18. On that day, you'll have the opportunity to purchase the book for just 0.99 GBP/EUR/USD. As a bonus, you'll also gain access to two complimentary training courses worth £250.
+
+<section id="register-now">
+	<div class="layout-shortcode">
+		<div class="layout-content-narrow">
+			<form action="{{ .RelPermalink }}" method="POST" name="registerForm" id="registerform" data-netlify="true">
+				<div class="iosform-group">
+					<input type="email" id="registeremail" name="email" class="iosform-control" placeholder="Email" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('{{ with .Site.Params.subscribe.form.email.warning }}{{ .  | markdownify }}{{ end }}');" required>
+				</div>
+				<div class="iosform-group">
+					<input type="text" id="registernamefirst" name="First Name" class="iosform-control" placeholder="First Name" required>       
+				</div>
+				<div class="iosform-group">
+					<input type="text" id="registernamelast" name="Last Name" class="iosform-control" placeholder="Last Name" required>            
+				</div>
+				<div class="clearfix">
+				</div>
+				<div class="iosform-button">
+					<input type="submit" value="Register Now" class="button-primary" success="Success" wait="Wait…">    
+				</div>     
+			</form>
+		</div>
+	</div>
+</section>
 
 ## An idea needs wings, and that means a strong, well-delivered presentation.
 

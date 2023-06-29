@@ -5,6 +5,11 @@
 		<h3 class="text-center">{{ .Params.title }}</h3>
 	</div>
 	{{- end }}
+	{{- with .Params.picture }}
+	<div class="layout-shortcode-child flex-align-self-center">
+		<img src="{{ . }}" class="center" height="192px">
+	</div>
+	{{- end }}
 	{{- if .Params.subtitle }}
 	<div class="layout-shortcode-child">
 		<p class="text-center">{{ .Params.subtitle }}</p>
