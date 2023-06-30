@@ -137,6 +137,9 @@ theme        			= "hugo-theme-korporate"
 		[[params.navigation.resources]]
 			name		 	= "Business Presentation Revolution"
 			url			 	= "/business-presentation-revolution/"
+		[[params.navigation.resources]]
+			name			= "Confident Presenter Book"
+			url				= "/resources/confident-presenter-book/"
 			
 		[params.navigation.housekeeping]
 			[params.navigation.housekeeping.001]
