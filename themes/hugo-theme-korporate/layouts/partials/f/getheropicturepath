@@ -9,27 +9,41 @@
 	- . as .Page object
 	
 	Process:
-	- If page:
-		- Tries to use file named hero.jpg, else try to use .Params.picture
-		- completes path with .RelPermalink if only picture name specified.
+	- If argument is a valid .Page object:
+		- if a file named hero.jpg exists in page directory, select it
+		- else if a picture is specified in .Params.picture, select it
+	- If path
+		- starts with "http" then it's an absolute path, return it
+		- starts with "/" then it's a relative path, return it
+		- else it's only the picture name, add relative path
 		
 	Returns:
-	- full relative path to hero pic, or empty string if not found.
+	- (absolute "https://…" or relative "/…" path) to (hero pic or .Params.picture)
+	- or empty string if not found.
 
  --> */}}
 
 {{ $imgpath := "" }}
 {{ $picture := "" }}
 {{ $found := false }}
+{{ $thumbtest := "filenotfound" }}
+
+
+{{/* <!-- 1. Get hero.jpg or .Params.picture --> */}}	
 {{ if partial "f/ispage" . }}
 	{{/* <!-- then this is a page, check for hero.jpg in same directory --> */}}
-	{{ $thumbtest := add .File.Dir "hero.jpg" }}
+	{{ if .File }}
+		{{ $thumbtest = .File.Dir }}		
+  {{ else }}
+    {{ $thumbtest = "filenotfound" }}
+	{{ end }}
+	{{ $thumbtest = add $thumbtest "hero.jpg" }}
 	{{ if and (eq .Section "team") (.IsPage) }}
 		{{/* <!-- temporary workaround not to show hero on team member page --> */}}
 	{{ else if (eq .Section "tags") }}
 	{{ else if (fileExists $thumbtest) }}
 		{{/* <!-- then a file named hero.jpg exists, use it --> */}}
-	  	{{ $picture = "hero.jpg" }}
+	  {{ $picture = "hero.jpg" }}
 		{{ $found = true }}
 	{{ else if .Params.picture }}
 		{{/* <!-- else if .picture exists, use it --> */}}
@@ -38,6 +52,7 @@
 	{{ end }}
 {{ end }}
 
+{{/* <!-- 2. If found, complete path if necessary --> */}}	
 {{ if $found }}
 	{{ $firstchar := substr $picture 0 1 }}
 	{{ $firstfour := substr $picture 0 4 }}
@@ -52,4 +67,6 @@
 		{{ $imgpath = path.Join .RelPermalink $picture }}
 	{{ end }}
 {{ end }}
+
+{{/* <!-- 3. Return result --> */}}	
 {{ return $imgpath }}
