@@ -2,7 +2,7 @@
 <section id="services">
 	{{- with site.GetPage "/services" }}
     <div class="layout-module text-center paddingt-small">
-		{{ with .Title }}<h2 class="style-section-title-main">{{ . | markdownify }}</h2>{{ end }}
+		{{ with .Title }}<h1 class="style-section-title-main">{{ . | markdownify }}</h1>{{ end }}
 	</div>
 	{{- end }}
 	{{- range .Params.services.list -}}

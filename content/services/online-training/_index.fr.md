@@ -17,7 +17,7 @@ weight			= 40
 		opacity		= "40"
 +++
 
-Se former gratuitement depuis son espace de télétravail, c’est aujourd’hui accessible à toute personne en situation d’activité partielle, grâce au dispositif exceptionnel [FNE-Formation](http://idf.direccte.gouv.fr/COVID-19-mobilisation-du-FNE-Formation-pour-les-salaries-en-activite-partielle), auquel toutes les entreprises sont désormais éligibles. Nous vous simplifions la tâche en vous proposant des programmes de formation à distance et flexibles (voir ci-dessous).
+Se former gratuitement depuis son espace de télétravail, c’est aujourd’hui accessible à toute personne en situation d’activité partielle, grâce au dispositif exceptionnel FNE-Formation, auquel toutes les entreprises sont désormais éligibles. Nous vous simplifions la tâche en vous proposant des programmes de formation à distance et flexibles (voir ci-dessous).
 
 > Salariés en activité partielle, parlez-en à votre manager ou responsable de formation. Responsables de formation, adressez-vous à votre DIRECCTE afin de vous familiariser avec le processus (très simplifié) de demande de subvention. 
 
@@ -25,7 +25,7 @@ Votre formation chez Ideas on Stage ne coûtera rien à votre employeur ! Le dis
 
 En-dessous de 1500€ TTC par salarié, la DIRECCTE donne son accord. Au-delà de 1500€ TTC/salarié, le dossier fera l’objet d’une instruction plus détaillée.
 
-Intéressé(e) ? Contactez-nous pour échanger sur vos objectifs de formation, nous établirons un devis sur mesure et pourrons vous aider dans vos démarches de demande de subvention. Après avoir signé la convention entre votre entreprise et votre DIRECCTE ([voir modèle de convention ici](https://travail-emploi.gouv.fr/IMG/pdf/convention-formation-fne-formation.pdf)), vous pourrez joindre notre devis à une demande de subvention ([téléchargeable ici](https://travail-emploi.gouv.fr/IMG/pdf/demande-subvention-fne-formation.pdf)). Une fois cette demande complétée, transmettez ces deux documents à votre DIRECCTE, et c’est tout ! Vous êtes prêts à démarrer la formation !
+Intéressé(e) ? Contactez-nous pour échanger sur vos objectifs de formation, nous établirons un devis sur mesure et pourrons vous aider dans vos démarches de demande de subvention. Après avoir signé la convention entre votre entreprise et votre DIRECCTE, vous pourrez joindre notre devis à une demande de subvention. Une fois cette demande complétée, transmettez ces deux documents à votre DIRECCTE, et c’est tout ! Vous êtes prêts à démarrer la formation !
 
 **Nouvelles informations au 02/06/2030**
 

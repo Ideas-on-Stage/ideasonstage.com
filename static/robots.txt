@@ -1,3 +1,4 @@
 user-agent: *
+sitemap: /sitemap.xml
 disallow: /business-presentation-revolution/
 disallow: /business-presentation-revolution/book/
