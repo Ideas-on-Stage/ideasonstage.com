@@ -70,20 +70,13 @@
         {{ with .Language.LanguageName  }}{{ . }}{{ end }} <i class="fa fa-chevron-down"></i></a>
       <input type="checkbox" id="drop-4"/>
       <ul>
-       {{ range .Site.Params.navigation.languages }}
-         {{ $scratch := newScratch }}
-         {{ $scratch.Set "url" .url }}
-         {{ $scratch.Set "name" .name }}
-         {{ if $.Page.IsTranslated }}
-           {{ range $.Page.Translations }}
-             {{ $lang := .Language.LanguageName }}
-             {{ if eq ($scratch.Get "name") .Language.LanguageName }}
-               {{ $scratch.Set "url" .Permalink }}
-             {{ end }}
-           {{ end }}
-         {{ end }}
-         <li><a class="iosnavbar-dropdownlang" href="{{ $scratch.Get "url" }}">{{ $scratch.Get "name" }}</a></li>
-       {{ end }}
+				{{- if .IsTranslated }}
+					{{- range .AllTranslations }}
+						{{- if ne site.LanguageCode .Lang -}}
+         			<li><a class="iosnavbar-dropdownlang" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+				 		{{- end -}}
+				  {{- end}}
+				{{- end }}	
       </ul>    
     </li>
   </ul>

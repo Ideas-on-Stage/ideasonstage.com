@@ -1,7 +1,14 @@
 {{ "<!-- partials:head-hreflang.html:start -->" | safeHTML }}
+	{{- if .Paginator -}}
+		<link href="{{ absURL .Paginator.URL }}" hreflang="{{ site.LanguageCode }}" rel="canonical" />
+	{{- else -}}
+		<link href="{{ .Permalink }}" hreflang="{{ site.LanguageCode }}" rel="canonical" />
+	{{- end -}}
 	{{- if .IsTranslated }}
-	    {{- range .AllTranslations }}
-			<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
-	    {{- end}}
+	  {{- range .AllTranslations }}
+	    {{- if ne site.LanguageCode .Lang -}}
+				<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
+			{{- end -}}
+	  {{- end}}
 	{{- end }}
 {{ "<!-- partials:head-hreflang.html:end -->" | safeHTML }}
