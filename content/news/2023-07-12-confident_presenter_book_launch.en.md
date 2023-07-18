@@ -7,6 +7,8 @@ date = "2023-07-18"
 author = "Michael Rickwood"
 banner = "/img/news/image_book_article.jpeg"
 +++
+![Confident Presenter - Andrea Pacini](/img/news/image_book_article.jpeg "Confident Presenter - Andrea Pacini")
+
 <div style="margin: 5px 0;">
   <p><span style="font-weight: 400;">Business owners, leaders and their teams looking to become more credible, confident and convincing presenters now have a powerful resource at their disposal: </span><strong>Confident Presenter: Inspire Your Audience, Increase Your Influence, Make an Impact</strong><span style="font-weight: 400;"> by my colleague, </span><strong>Andrea Pacini </strong><span style="font-weight: 400;">who has worked hard to produce an accessible and hands on read to help boost that confidence level for entrepreneurs, team players and leaders.&nbsp;</span></p>
   <p><span style="font-weight: 400;">Confidence in presenting is not just a matter of innate talent or delivery skills. It goes beyond that &ndash; it's about crafting a message that captivates, engages and inspires action. In 'Confident Presenter', Andrea shares his wealth of expertise to help readers communicate with power and impact.</span></p>
