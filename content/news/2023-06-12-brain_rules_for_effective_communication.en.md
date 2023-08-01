@@ -43,4 +43,4 @@ If you missed the event, you can watch the full recording below and discover the
 
 Dr. John Medina's talk "Brain Rules for Effective Communication" shed light on the fascinating workings of our brain and the importance of understanding how it processes information. By using storytelling, making your narratives about the audience, and including hooks, you can elevate your communication skills and leave a lasting impact on your audience. 
 
-If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes.
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
