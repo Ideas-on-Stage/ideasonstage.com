@@ -23,8 +23,6 @@ In 2018, he was inducted into the Marketing Hall of Fame. More than 20,000 peopl
 
 In this episode we talked about how to get your ideas to spread.
 
-
-
 **Key Takeaways**
 
 * Why ideas spread
@@ -33,15 +31,11 @@ In this episode we talked about how to get your ideas to spread.
 * The right way to use PowerPoint
 * The power of concise communication
 
-
-
 **Books and authors recommended by Seth:**
 
 * The Art of Possibility, Rosamund Stone Zander and Benjamin Zander 
 * Garr Reynolds 
 * Nancy Duarte 
-
-
 
 **Available on:** 
 
@@ -53,16 +47,12 @@ In this episode we talked about how to get your ideas to spread.
 
 [Spotify](https://open.spotify.com/episode/2PfZLB5GabnhuOqvEIjV1z?si=g3bqG5p-SwuafqbJQPvBrQ)
 
-
-
 I hope you enjoy it!
 
 {{% youtube 0GnxSS0n-L4 %}}
 
-
-
 **Want to learn more?** 
 
-* Get a free PDF copy of the best-selling book [Business Presentation Revolution](https://drive.google.com/file/d/1tj9xbHz07hziq0cWiiRFVBD2Xif0VyZ1/view?usp=sharing)
-* Take the [Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
-* Attend our free, [live masterclass](http://ideasonstageuk.eventbrite.com) on all things presentation skills
+* Read the [Confident Presenter](https://amzn.eu/d/bKswMEe) book 
+* To make the most of the book, take the [Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes 
+* Attend our free, [live masterclass](http://ideasonstageuk.eventbrite.com/) on all things presentation skills
