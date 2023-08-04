@@ -147,9 +147,7 @@ Whichever type of introduction you use, time spent working on an opening is alwa
 
 Please comment, get in touch or share the article with any colleagues or friends who might benefit from the ideas. If this article has helped you, please let me know and give me some feedback.
 
-If you want to improve your presentation skills further try out the [Confident Presenter Scorecard. ](https://presentationscorecard.scoreapp.com/)
-
-You’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll also get a free pdf copy of our best-selling book **Business Presentation Revolution**.
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
 
 *Photo by AbsolutVision on Unsplash*
 
