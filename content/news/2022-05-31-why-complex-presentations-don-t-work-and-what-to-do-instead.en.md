@@ -1,14 +1,13 @@
 +++
 draft = false
-date = "2022-05-31"
 title = "Why complex presentations don't work (and what to do instead)"
+tags = ["Public Speaking"]
+news = ["general"]
+date = "2022-05-31"
 author = "Andrea Pacini"
-tags = [ "Public Speaking" ]
-news = [ "general" ]
 banner = "/img/news/boring-speaker.jpg"
 language = "en"
 +++
-
 The most successful messages are the simplest. The best writing gets to the point. The greatest speeches are concise and direct.
 
 However, too many business leaders fall into the trap of giving presentations which are overly complex and technical. They navigate their audience down side roads and off on tangents. 
@@ -23,10 +22,10 @@ Because they know so much about their subjects, they are inclined to include too
 There is also a tendency to resort to jargon, acronyms and industry-specific terminology.
 
 As a result, the audience:
- 
-- can’t follow, understand or remember
-- is left confused
-- doesn’t take action
+
+* can’t follow, understand or remember
+* is left confused
+* doesn’t take action
 
 ## Too Much Technology
 
@@ -57,7 +56,7 @@ He said afterwards: “I feel much more confident about our message and ready to
 ## Three Tips to Improve
 
 So what can you do to change your presentation style and get to the point? Here are three practical tips:
- 
+
 1. Start by summarizing your core idea in 70 words (which should take 30 seconds to deliver). If you can’t communicate it in that short time, your message is too complex. You need to make it simpler.
 2. Follow the Rule of Three. Include just three key messages. It is the same tactic which media trainers tell their clients for TV interviews. Stick to the three points you want to get across. This is very effective and also gives your presentation a good balance and rhythm.
 3. Use simple words where possible. Using fancy language does not make you sound more clever. It just distorts what you are trying to communicate. The best writing is often the simplest. The best speakers adopt the same tactic and use the least number of words to convey their points.
@@ -73,7 +72,7 @@ What’s your objective when presenting? Maybe you want to sell a product, servi
 Whatever it is, you want to take your audience on a journey from A to B. They will start at point A where they don’t know, believe, or feel what you want them to—and travel with you to point B where they do.
 
 If your message is too complex, this is what it looks like when trying to take your audience from A to B. 
- 
+
 ![A to B complex](/img/news/a-b-squiggly.jpg)
 
 It would be like me shouting a foreign language at you and hoping you will understand.
@@ -81,7 +80,7 @@ It would be like me shouting a foreign language at you and hoping you will under
 If you simplify your message, this is what it looks like: 
 
 ![A to B straight](/img/news/a-b-straight.jpg)
- 
+
 Achieving your objective will be much easier. 
 
 ## Summary
@@ -94,9 +93,4 @@ If you follow these rules and simplify your message, your audience will follow, 
 
 *If you enjoyed this article, I would love to hear your feedback. Please get in touch using the form below. If you know a colleague or friend who might benefit from some presentation tips please forward this article to them.*
 
-How confident are you and your team with your own presenting skills? If you want to assess your ability to follow the key principles of powerful presentations, [please take the **Confident Presenter Scorecard**](https://www.ideasonstage.com/score/).*
-
-*By answering simple Yes/No questions, you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll also get a free pdf copy of our best-selling book **Business Presentation Revolution**.*
-
-
-
+How confident are you and your team with your own presenting skills? If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
