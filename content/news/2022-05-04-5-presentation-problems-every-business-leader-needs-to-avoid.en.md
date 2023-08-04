@@ -1,14 +1,13 @@
 +++
 draft = false
-date = "2022-05-04"
 title = "5 Presentation Problems Every Business Leader Needs To Avoid"
+tags = ["Public Speaking"]
+news = ["general"]
+date = "2022-05-04"
 author = "Andrea Pacini"
-tags = [ "Public Speaking" ]
-news = [ "general" ]
 banner = "/img/news/woman-on-stage.jpg"
 language = "en"
 +++
-
 Think about how technology has evolved over the last 20 years or so. Think about the tools we can use today to communicate our ideas to the world. Now, compare that with the tools we had a few years ago. Today in most industries we have more competition—not only from a business perspective but also from a communication perspective.
 
 The tools we have today are designed to empower people—lots of people—to share their message with the world.
@@ -26,13 +25,13 @@ Business owners, leaders and their teams who struggle to present a compelling me
 ## 1. Their message is too complex
 
 They know so much about their subject and are so close to it that they think that everything is important. So they think they need to communicate *everything*. But from the audience’s perspective, if everything is important, nothing is important. Most business leaders include too much information in their presentations. They overpack their message and find it hard to simplify it.
- 
+
 They think their message is simple and clear but the audience thinks it’s confusing. And in communication if you confuse you lose—you lose your audience and their attention.
- 
+
 Because of that, the audience doesn’t understand their message, doesn’t remember it and they don’t act.
 
 ## 2. They follow an uncertain process
- 
+
 So many presenters tell me, “I’ve been presenting for a long time but every time I do, I don’t know if I’m doing it right. I don’t know if the process I’m following is correct.” They lack confidence not in themselves but in the process. Audience analysis, brainstorming, storyline, slide design, rehearsing. There is a structured way of thinking about presenting. Not following a proven process creates discomfort in front of an audience.
 
 ## 3. They miss out on important opportunities
@@ -53,7 +52,7 @@ Think of a presentation as a present. If I want to give you a present, it’s yo
 
 What do you want your audience to do? What’s the immediate next step you want your audience to take? So many presenters aren’t specific enough when it comes to their call to action.
 
-Let’s take the example of a webinar where the aim is for the audience to express their interest in a discovery call. Most presenters say something like “If you think you need a bit of help on[their area of expertise], then I’m happy to offer a 30-minute discovery call.”
+Let’s take the example of a webinar where the aim is for the audience to express their interest in a discovery call. Most presenters say something like “If you think you need a bit of help on\[their area of expertise], then I’m happy to offer a 30-minute discovery call.”
 
 The problem is, even if somebody in the audience wants a discovery call, they don’t know what they need to do. They don’t know how to signal their interest. As a result, they won’t do it. The call to action isn’t specific.
 
@@ -62,7 +61,7 @@ Instead, you could say something like “If you’d like to learn more about how
 In this case people know what they have to do to signal their interest. They simply need to type YES in the chat. It’s a small change that makes a huge difference.
 
 ## In summary
- 
+
 In this article we covered the five key problems business leaders face when giving presentations.
 
 The consequence of this isn’t good.
@@ -73,6 +72,6 @@ But it doesn’t have to be that way…
 
 And this leads to a different story which will need another article.
 
-PS: If you want to become one of the best presenters in your industry, take the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/) to assess how you currently stand on following the 5 principles of powerful presentations. Free of charge—no strings attached in less than 3 minutes.
+PS: If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
 
 ![Woman on Stage](/img/news/woman-on-stage.jpg)
