@@ -42,15 +42,11 @@ Threes are deeply embedded in our culture as easy ways to remember things. Once 
   **Every little helps** (Tesco)
 
   **Taste the difference** (Sainsbury’s) 
-
-
 * The UK government used the power of three for their Covid slogans
 
   **Stay at Home, Protect the NHS, Save Lives**
 
   **Hands, Face, Space**
-
-
 * Some of the most powerful political statements use three
 
   **Liberté, Égalité, Fraternité** (the national motto of France)
@@ -60,15 +56,11 @@ Threes are deeply embedded in our culture as easy ways to remember things. Once 
   **Government of the people, by the people, for the people** (Abraham Lincoln’s Gettysburg Address)
 
   **Our priorities are Education, Education, Education** (Tony Blair)
-
-
 * Fairy tales often use three for maximum impact
 
   **The Three Musketeers**
 
   **The Three Little Pigs**
-
-
 * Many businesses use a three-tier pricing structure. You often come across **bronze, silver and gold** price points or service levels. It’s no coincidence that we use the same system for first, second and third in sporting events. No one cares who came fourth.
 * The rule of three is often used to great effect in comedy. Comedies often have three characters (like the old **Englishman, Irishman and Scotsman** routines). The first two examples are sensible and the third is ridiculous. 
 * Using three words or three phrases for maximum impact appears in all sorts of other areas of life. Here are some other famous examples:
@@ -80,8 +72,6 @@ Threes are deeply embedded in our culture as easy ways to remember things. Once 
   **Sex, drugs & rock n' roll**
 
   **See it, say it, sorted** (British Transport Police) 
-
-
 
 ## Applying the Rule of Three to Presentations
 
@@ -175,6 +165,4 @@ Even if you have more points to make, still try to structure your presentation i
 
 If you enjoyed this article, I would love to hear from you. Please get in touch or share the article with any colleagues or friends who might benefit from the ideas.
 
-If you want to improve your presentation skills further try out the **[Confident Presenter Scorecard.](https://presentationscorecard.scoreapp.com/)** 
-
-After filling in some simple yes or no answers you’ll receive an instant score plus suggestions for improvement. It takes less than 3 minutes. You’ll also receive a free pdf copy of our best-selling book **Business Presentation Revolution.**
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
