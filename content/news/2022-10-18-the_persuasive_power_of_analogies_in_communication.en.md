@@ -89,8 +89,6 @@ Use analogies to communicate concepts and ideas which are complex, technical or 
 
 I love to hear from people who’ve read my articles and improved their presentations. Please get in touch with feedback and feel free to share any articles with your friends and colleagues.
 
-Another resource we offer to help you improve your presentations is the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/).
-
-After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. When you complete the scorecard you’ll receive a free pdf copy of our best-selling book **Business Presentation Revolution**.
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
 
 <!--EndFragment-->
