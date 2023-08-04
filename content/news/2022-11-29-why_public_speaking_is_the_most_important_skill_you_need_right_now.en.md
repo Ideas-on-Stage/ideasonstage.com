@@ -95,8 +95,4 @@ Start your journey now. 
 
 ## What next 
 
-You can start your journey to becoming the best presenter you can be by taking the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/). 
-
-Answer simple Yes/No questions and you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. 
-
-Once you complete the scorecard, you’ll also get a free pdf copy of our best-selling book **Business Presentation Revolution**.
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
