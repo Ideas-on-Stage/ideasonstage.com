@@ -108,6 +108,6 @@ Presenting and public speaking are key tools in growing your business, increasin
 ## Feedback
 
 If this article resonates with you and has helped you, please offer some feedback. If you have colleagues or friends who might benefit from the ideas please share the article.
-If you want to improve your presentation skills further try out the **[Confident Presenter Scorecard.](https://presentationscorecard.scoreapp.com/)**
 
-After answering a series of simple yes/no questions you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of our best-selling book **Business Presentation Revolution.**
+
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
