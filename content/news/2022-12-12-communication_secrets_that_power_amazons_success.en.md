@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Communication Secrets that Power Amazon's Success"
-tags = ["Public Speaking"]
+tags = ["Events"]
 news = ["general"]
 date = "2022-12-12"
 author = "Andrea Pacini"
@@ -50,4 +50,4 @@ If you’d like to learn more about the three qualities great communicators have
 
 {{% youtube Nag_Q2jVXTk %}}
 
-If you want to become a more confident presenter, take the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/). Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes.
+If you want to become a more confident presenter, take the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/). Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
