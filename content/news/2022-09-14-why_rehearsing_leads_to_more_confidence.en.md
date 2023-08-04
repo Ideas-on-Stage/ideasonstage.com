@@ -122,28 +122,8 @@ The more rehearsals you can do the more confident you’ll be—and the better y
 
 If this article resonates with you and has helped you, feel free to offer some feedback. I always welcome opinions, thoughts and questions. If you have colleagues or friends who might benefit from the ideas please share the article.
 
-If you want to improve your presentation skills further try out the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/).
-
-After answering a series of simple yes/no questions you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of our best-selling book **Business Presentation Revolution.**
-
-
-
-
-
-
-
-
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
 
 Photo by Soundtrap on Unsplash
-
-
-
-
-
-
-
-
-
-
 
 <!--EndFragment-->
