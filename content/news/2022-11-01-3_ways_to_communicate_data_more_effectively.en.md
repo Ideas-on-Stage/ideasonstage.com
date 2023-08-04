@@ -123,6 +123,4 @@ If you can learn how to present data well your business presentations will be mo
 
 If you enjoyed this article, I would love to hear your feedback. Feel free to comment or get in touch. If you know a colleague or friend who might benefit from some presentation tips, please share the article with them. 
 
-How confident are you and your team with your own presentation skills? If you want to assess your ability to follow the key principles of powerful presentations, please take the **[Confident Presenter Scorecard.](https://presentationscorecard.scoreapp.com/)** 
-
-By answering simple Yes/No questions, you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll also get a free pdf copy of our best-selling book **Business Presentation Revolution.**
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
