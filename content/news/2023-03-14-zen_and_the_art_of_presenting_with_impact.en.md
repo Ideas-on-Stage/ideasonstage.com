@@ -29,9 +29,7 @@ To summarise, Garr stressed the importance of preparing with Restraint, designin
 
 If you missed the event, you can watch the full recording below to gain valuable insights on presenting with impact.
 
-
-
 {{% youtube LtsFTX2KmeY %}}
 
 \
-If you want to become a more confident presenter, take the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/). Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes.
+If you want to become a more confident presenter, take the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/). Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
