@@ -79,16 +79,12 @@ In summary, remember these three tips about slide design:
 2. Keep them visual without too much text (think billboards) 
 3. Reserve handouts for more details
 
-
-
 ## What next  
 
 If you found this article helpful, feel free to share your thoughts using the contact form below. 
 
 Please share the article with any friends or colleagues who might also benefit from it. 
 
-If you want to assess your current presentation skills, take the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/).
-
-After answering a series of simple yes/no questions you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of our best-selling book **Business Presentation Revolution.**
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
 
 *Image: Vahe Martirosyan, Pasadena, Norton Simon Museum, [Picasso P. The Bull, 1946](https://flic.kr/p/PXpxQS). Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0). [Creative Commons License ](https://creativecommons.org/licenses/by-sa/2.0/legalcode)*
