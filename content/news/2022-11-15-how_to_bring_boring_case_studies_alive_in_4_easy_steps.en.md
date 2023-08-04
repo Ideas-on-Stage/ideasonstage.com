@@ -144,6 +144,4 @@ From now on, whenever you want to include a story in a presentation, apply that 
 
 If this article has helped you please get in touch to let me know. If you feel any colleagues or friends might also benefit from reading it, feel free to share it.
 
-If you want to improve your presentation skills further try out the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/).
-
-After answering a series of simple yes/no questions you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of our best-selling book **Business Presentation Revolution**.
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
