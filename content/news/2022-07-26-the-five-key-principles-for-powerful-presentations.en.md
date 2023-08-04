@@ -1,14 +1,13 @@
 +++
 draft = false
-date = "2022-07-26"
 title = "The Five Key Principles For Powerful Presentations"
+tags = ["Public Speaking"]
+news = ["general"]
+date = "2022-07-26"
 author = "Andrea Pacini"
-tags = [ "Public Speaking" ]
-news = [ "general" ]
 banner = "/img/news/five-key-principles.jpg"
 language = "en"
-+++ 
-
++++
 Most business leaders fail to follow set principles for creating and delivering their presentations. In not doing so they are making a fundamental mistake.
 
 Some think it’s primarily about creating slides on PowerPoint. They think if they get a decent deck together then they are good to go.
@@ -24,9 +23,8 @@ If you wanted to learn how to play a new musical instrument, you would spend tim
 To master a new sport you would need to know the rules of the game and the basic techniques. For racket sports and golf, for example, you would work on your swing. All of that is more important than having the latest equipment.
 
 Why is it that if we want to learn or get better at presenting, we ignore the fundamental principles of communication? 
- 
-Those who ignore the fundamental principles will continue to deliver presentations that waste their own time and that of the audience. Plus, there will be no desired action from the audience and the objectives will not be achieved.
 
+Those who ignore the fundamental principles will continue to deliver presentations that waste their own time and that of the audience. Plus, there will be no desired action from the audience and the objectives will not be achieved.
 
 ## Principles First; PowerPoint Last
 
@@ -44,7 +42,6 @@ No one is going to come up to you in ten years’ time and say, “Great present
 
 If you follow the right principles consistently, you will become the presenter everyone remembers. Your presentations will give you a competitive advantage which will allow you to achieve your personal and professional objectives.
 
-
 ## The Five Key Principles
 
 There are five principles for powerful presentations. Remember the word **SCORE**. Just like in football you want to **SCORE** when you give a presentation: 
@@ -60,12 +57,12 @@ There are five principles for powerful presentations. Remember the word **SCORE*
 **RELATED:** Think about your audience and relate everything back to them. Think of it as the audience’s presentation. Make it relevant and useful for your audience. 
 
 **ENJOYABLE:** If the audience enjoys your talk, they will pay more attention, remember more and take action. 
- 
+
 The magic happens when you apply these five principles to each of the three key arts of presenting. The three arts are:
 
-- **Your message:** what you say  
-- **Your delivery:** how you say it 
-- **Your visuals:** what you show when you say it 
+* **Your message:** what you say  
+* **Your delivery:** how you say it 
+* **Your visuals:** what you show when you say it 
 
 ![Message Delivery Visuals](/img/news/message-delivery-visuals.jpg)
 
@@ -83,7 +80,6 @@ We helped Bryan to learn how to adopt a framework to put together a presentation
 
 Bryan’s feedback was that he felt far more confident after sticking to a framework. He is now regularly delivering great presentations with great confidence, drawing on his toolbox which gives him consistency.
 
-
 ## Seven Steps For Better Presentations
 
 How do you apply all this in practice? For your next presentation, here are seven steps you need to follow to be better prepared. If you follow these your presentations will improve dramatically. 
@@ -92,38 +88,31 @@ How do you apply all this in practice? For your next presentation, here are seve
 
 Your presentations must ***relate to your audience.*** Before opening up PowerPoint or thinking about your key messages, ask yourself some questions about your audience. What are their needs? What is the context of the presentation?
 
-
 2. Define a clear objective
 
 What do you want your audience to believe, feel or do after your presentation? Tailor your presentation accordingly.
-
 
 3. Brainstorm to identify your key messages
 
 Forget about technology, go analogue: pen and paper, whiteboards, flipcharts. 
 
-
 4. Simplify your message
 
 Your message needs to be ***simple*** for the audience to understand. What is the key message your audience really needs to take away from your presentation? Write it down in a maximum of 70 words.
-
 
 5. Develop a ***clear*** storyline
 
 Translate the ideas from the previous brainstorming session into a storyline that makes it easy for the audience to follow you and remember what you say. 
 
-
 6. Make it ***original*** and ***enjoyable***
 
 Tell them stories. People remember examples and anecdotes far better than naked facts and figures.
-
 
 7. Rehearse
 
 Rehearse a few times before the actual presentation and you’ll shine. 
 
 Follow these steps consistently and you will become the best presenter you can be. 
-
 
 ## Rooted In Science
 
@@ -134,7 +123,6 @@ Science can tell us what works and what doesn’t when we communicate our ideas.
 The principles outlined in this article are rooted in what science tells us.
 
 If you want to delve more deeply into the science behind presenting, I interviewed [Dr John Medina (author of Brain Rules) on the Ideas on Stage podcast.](https://youtu.be/JCW9tsxuWyA)
- 
 
 ## Summary
 
@@ -152,12 +140,8 @@ Bring everything back to the audience and what you want to achieve, brainstorm g
 
 Once you have a system in place, use it every time to make better presentations, and you will achieve your personal and business goals.
 
-
-## Feedback 
+## Feedback
 
 If this article has helped you please get in touch to let me know. If you feel any colleagues or friends might also benefit from reading it, feel free to share the article.
 
-If you want to improve your presentation skills further try out the [**Confident Presenter Scorecard.**](https://presentationscorecard.scoreapp.com/)
-
-After answering a series of simple yes/no questions you’ll get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of our best-selling book **Business Presentation Revolution.**
-
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
