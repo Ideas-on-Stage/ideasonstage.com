@@ -100,8 +100,6 @@ When you communicate a message which is related to your audience, they will beli
 
 My hope when writing these articles is that business leaders will put the advice into action and improve their presentations. Please let me know if you’ve had a chance to deliver a presentation where you put the audience first. Let me know any feedback and please share the articles with friends and colleagues.
 
-Another resource we offer to help you improve your presentations is the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/).
-
-After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. When you complete the scorecard you’ll also receive a free pdf copy of our best-selling book **Business Presentation Revolution**.
+If you want to become a more confident presenter, take the **[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)**. Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.
 
 <!--EndFragment-->
