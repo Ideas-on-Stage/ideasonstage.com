@@ -4,6 +4,11 @@ https://www.ideasonstage.fr/* https://www.ideasonstage.com/fr/:splat 301!
 https://www.ideasonstage.es/* https://www.ideasonstage.com/es/:splat 301!
 
 # --------
+# Preferred language redirects
+/  /fr/  302  Language=fr
+/  /es/  302  Language=es
+
+# --------
 # UK Andrea's stuff redirects
 https://www.ideasonstage.com/score/	https://presentationscorecard.scoreapp.com/ 301!
 https://www.ideasonstage.com/uk/masterclass http://ideasonstageuk.eventbrite.com 301!
