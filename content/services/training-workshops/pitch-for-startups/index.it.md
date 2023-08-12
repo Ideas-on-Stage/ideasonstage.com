@@ -2,7 +2,7 @@
 draft		= false
 title		= "Startup Pitch"
 description = "Impara a dare un killer pitch da coach esperti che hanno lavorato con centinaia di startup."
-url	 		= "/presentations-training/pitch-for-startups/"
+url	 		= "/it/presentations-training/pitch-for-startups/"
 picture		= "image.jpg"
 schema		= "Course"
 +++

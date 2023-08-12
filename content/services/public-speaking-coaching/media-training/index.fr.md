@@ -2,7 +2,7 @@
 draft 		= false
 title 		= "Media Training"
 description	= "Media Training professionnel pour préparer les dirigeants à faire face à la caméra."
-url	 		= "/coaching-prise-de-parole-en-public/media-training/"
+url	 		= "/fr/coaching-prise-de-parole-en-public/media-training/"
 picture		= "media-training.jpg"
 +++
 

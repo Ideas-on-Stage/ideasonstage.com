@@ -3,7 +3,7 @@ draft 		= false
 title 		= "Inspiring Keynotes"
 description = "I nostri speaker sorprenderanno la vostra audience con delle TED-style presentation stimolanti e memorabili."
 picture		= "keynotes.jpg"
-url 			= "/eventi-corporate/keynotes/"
+url 			= "/it/eventi-corporate/keynotes/"
 +++
 
 ## Una presentazione ispirata o un seminario per stupire il tuo pubblico o motivare il tuo team

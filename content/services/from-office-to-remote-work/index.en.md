@@ -1,5 +1,5 @@
 +++
-draft 			= false
+draft 			= true
 title 			= "Online Work Community"
 description		= "Create and animate an online work community to boost your employees' morale and productivity."
 picture			= "remote-work.jpg"

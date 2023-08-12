@@ -2,5 +2,5 @@
 draft 			= false
 title 			= "Servizi"
 description		= ""
-url 				= "/servizi/"
+url 				= "/it/servizi/"
 +++

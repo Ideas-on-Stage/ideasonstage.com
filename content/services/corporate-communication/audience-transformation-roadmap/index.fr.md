@@ -3,7 +3,7 @@ draft			= false
 title			= "Parcours de Transformation de l’Auditoire™"
 description 	= "Le Parcours de Transformation de l’Auditoire™ est un outil simple et efficace créé par Ideas on Stage pour identifier les messages clés à inclure dans votre présentation."
 picture			= "atr_from_iOS.jpg"
-url	 			= "/services/conseil-communication/parcours-transformation-auditoire/"
+url	 			= "/fr/services/conseil-communication/parcours-transformation-auditoire/"
 +++
 
 La plupart des gens font des présentations pour partager des informations, ce qui est une perte de temps pour tout le monde car nous oublions la plupart de ce que nous entendons très rapidement.

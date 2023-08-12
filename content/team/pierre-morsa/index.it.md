@@ -3,7 +3,7 @@ draft		= false
 name		= "Pierre Morsa"
 picture		= "pierre-morsa.jpg"
 position 	= "Co-founder"
-url			= "/team/pierre-morsa/"
+url			= "/it/team/pierre-morsa/"
 weight		= 100
 sameas		= ["https://www.pierremorsa.com","https://www.linkedin.com/in/pierremorsa/"]
 +++

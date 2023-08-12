@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "Guía práctica para hacer presentaciones de forma remota"
 description		= "Guía paso a paso para hacer presentaciones remotas profesionales y efectivas mediante videoconferencia"
-url				= "/guias/como-hacer-presentaciones-de-forma-remota/"
+url				= "/es/guias/como-hacer-presentaciones-de-forma-remota/"
 picture		 	= "remote-presentations.jpg"
 summary			= "Todo lo que necesitas para hacer presentaciones excelentes de forma remota: equipo, software, configuración, animación. Hemos creado esta guía basándonos en diez años de experiencia preparando presentaciones profesionales remotas para nuestros clientes. (Nota: no obtenemos ningún beneficio económico o material con el software o hardware que recomendamos en este artículo. Los recomendamos según nuestra experiencia, y entendemos que hay muchas otras soluciones que podrían ser adecuadas.)"
 insertsbottom	= [ "revolution" ]

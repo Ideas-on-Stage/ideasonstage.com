@@ -1,9 +1,9 @@
 +++
-draft			= false
+draft			= true
 weight			= 10
 title			= "Women on Stage 2.0"
 description		= "Women On Stage 2.0 est un atelier de prise de parole en public et de développement professionnel dédié aux femmes dirigeantes qui souhaitent faire entendre leur voix, être source d’inspiration et prendre la parole avec confiance."
-url		 		= "/formation-presentations/women-on-stage/"
+url		 		= "/fr/formation-presentations/women-on-stage/"
 picture			= "image.jpg"
 schema			= "Course"
 +++
@@ -26,9 +26,9 @@ Confiance. Présence. Leadership. Au cours de cette formation de développement 
 2. **Se sentir plus à l'aise avec leur image quand elles s'expriment en public** 
 3. **Développer leur leadership** (agir avec spontanéité et confiance en soi)
 
-Sur un ou deux jours (selon la demande), nous proposons aux participantes des techniques de présentation conçues par [Ideas on Stage](https://www.ideasonstage.fr/revolution/) ainsi qu'un accompagnement personnalisé dans un environnement de groupe bienveillant. Nous constatons que les participantes s’épanouissent davantage au sein d’un petit groupe en partageant leurs points de vue et en observant les progrès des autres plutôt qu’en travaillant individuellement avec un coach. S’entraîner avec un public, même restreint, aide à surmonter le stress lié à toute prise de parole, à faire face aux critiques ou à l'échec et à prendre des risques. C’est ainsi que se construit la confiance nécessaire pour s’exprimer en public avec succès lorsque les opportunités se présentent.
+Sur un ou deux jours (selon la demande), nous proposons aux participantes des techniques de présentation conçues par [Ideas on Stage](https://www.ideasonstage.com/fr/revolution/) ainsi qu'un accompagnement personnalisé dans un environnement de groupe bienveillant. Nous constatons que les participantes s’épanouissent davantage au sein d’un petit groupe en partageant leurs points de vue et en observant les progrès des autres plutôt qu’en travaillant individuellement avec un coach. S’entraîner avec un public, même restreint, aide à surmonter le stress lié à toute prise de parole, à faire face aux critiques ou à l'échec et à prendre des risques. C’est ainsi que se construit la confiance nécessaire pour s’exprimer en public avec succès lorsque les opportunités se présentent.
 
-Initié par Marion Chapsal, *Women on Stage* devient *« 2.0 »* grâce à deux nouveaux porte-paroles : [Rose Bloomfield](https://www.ideasonstage.fr/equipe/rose-bloomfield/) et [Frédéric-Pascal Stein](https://www.ideasonstage.fr/equipe/frederic-pascal-stein/). La vie n’est pas un club réservé aux femmes. C’est la raison pour laquelle nous avons créé un espace de travail équilibré, animé par un homme et une femme, qui facilitera les discussions et les exercices pratiques tout en sensibilisant et en développant les compétences orales. Rose et Frédéric-Pascal associent de manière dynamique expérience professionnelle et expertise en communication, leur permettant ainsi de s’adapter aux besoins et au niveau de chaque groupe.
+Initié par Marion Chapsal, *Women on Stage* devient *« 2.0 »* grâce à deux nouveaux porte-paroles : [Rose Bloomfield](https://www.ideasonstage.com/fr/equipe/rose-bloomfield/) et [Frédéric-Pascal Stein](https://www.ideasonstage.com/fr/equipe/frederic-pascal-stein/). La vie n’est pas un club réservé aux femmes. C’est la raison pour laquelle nous avons créé un espace de travail équilibré, animé par un homme et une femme, qui facilitera les discussions et les exercices pratiques tout en sensibilisant et en développant les compétences orales. Rose et Frédéric-Pascal associent de manière dynamique expérience professionnelle et expertise en communication, leur permettant ainsi de s’adapter aux besoins et au niveau de chaque groupe.
 
 
 ![Lors d'une présentation à une conférence](women-on-stage-03.jpg)

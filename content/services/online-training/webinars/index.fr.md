@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "Webinaires Virtual Meeting Revolution"
 description		= "Une série de webinaires gratuits pour mieux présenter."
-url	 			= "/formations-en-ligne/webinaires/"
+url	 			= "/fr/formations-en-ligne/webinaires/"
 picture			= "ouaibinarre.jpg"
 
 [[events]]

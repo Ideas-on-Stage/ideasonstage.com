@@ -3,7 +3,7 @@ draft 		= false
 title 		= "Event Design"
 description	= "Basta con le solite, noiosissime maratone di slide - lascia che i nostri esperti rendano i tuoi meeting divertenti, interattivi e memorabili."
 picture		= "event-design.jpg"
-url	 		= "/eventi-corporate/event-design/"
+url	 		= "/it/eventi-corporate/event-design/"
 +++
 
 ## “Abbastanza bene” non è mai abbastanza.

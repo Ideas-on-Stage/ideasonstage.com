@@ -6,7 +6,7 @@ news = ["general"]
 date = "2020-03-03"
 author = "Pierre Morsa"
 banner = "/img/news/edoardo-delivering-remote-coaching.jpg"
-url = "/news/2020-03-03-notre-organisation-de-teletravail"
+url = "/fr/news/2020-03-03-notre-organisation-de-teletravail"
 language = "fr"
 +++
 Avec la crise sanitaire actuelle, le travail à distance n’est peut-être plus un choix, mais une mesure de précaution. Comment faisons-nous cela chez Ideas on Stage ?

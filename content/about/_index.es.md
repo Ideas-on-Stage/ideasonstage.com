@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "Acerca de Ideas on Stage"
 description		= "Creación de presentaciones, eventos corporativos, formación y coaching para hablar en público"
-url 				= "/acerca-de-nosotros/"
+url 				= "/es/acerca-de-nosotros/"
 insertsbottom	= [ "team" ]
 +++
 En Ideas on Stage tenemos como propósito ayudar a los líderes de todo el mundo a hacer presentaciones extraordinarias, crear eventos que inspiren y muevan al cambio, y fortalecer sus compañías mediante la formación y coaching para hablar en público. En un mundo plagado de presentaciones insufribles y aburridas y de reuniones interminables, le ayudaremos a destacar y a brillar.

@@ -3,7 +3,7 @@ draft		= false
 title		= "Presentation Zen para Empresas"
 description = "El curso oficial de Presentation Zen for Business, impartido en exclusiva por Ideas on Stage."
 picture		= "hero.jpg"
-url	 		= "/formacion-para-hablar-en-publico/presentation-zen-para-empresas/"
+url	 		= "/es/formacion-para-hablar-en-publico/presentation-zen-para-empresas/"
 schema		= "Course"
 +++
 

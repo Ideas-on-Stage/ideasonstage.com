@@ -3,7 +3,7 @@ draft		= true
 type		= "pzen"
 title		= "Presentation Zen for Business"
 description = "Il workshop ufficiale di  Presentation Zen for Business,dato in esclusiva da Ideas on Stage.<br><br><br>"
-url 			= "/presentations-training/presentation-zen-for-business/"
+url 			= "/it/presentations-training/presentation-zen-for-business/"
 picture		= "image.jpg"
 schema		= "Course"
 

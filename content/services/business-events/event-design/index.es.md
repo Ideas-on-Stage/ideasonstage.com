@@ -3,7 +3,7 @@ draft 		= false
 title 		= "Diseño de Eventos"
 description	= "Nos ocupamos de todos los detalles para que tu evento sea una experiencia interactiva, original e inolvidable para todos los asistentes"
 picture		= "event-design.jpg"
-url 			= "/eventos-corporativos/diseno-eventos/"
+url 			= "/es/eventos-corporativos/diseno-eventos/"
 +++
 
 ## "Suficiente" no es suficiente.

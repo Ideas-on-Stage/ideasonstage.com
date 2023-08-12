@@ -1,13 +1,13 @@
 {{ "<!-- _default:baseof.html:start -->" | safeHTML }}
 	<!DOCTYPE html>
 	<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-	    <head>
+    <head>
 			{{- block "head" . }}
 				{{/* <!-- page specific head info, for example a common schema --> */}}
 			{{- end }}
-	        {{- partial "head.html" . }}
+      {{- partial "head.html" . }}
 		</head>
-	    <body id="page-top" class="layout-page">
+    <body id="page-top" class="layout-page">
 			{{ partial "page-nav.html" . }}
 			<main role="main">
 				{{ block "hero" . }}
@@ -24,13 +24,13 @@
 				</div>
 			</main>
 			<aside>
-		        {{ partial "page-contact.html" . }}
+		    {{ partial "page-contact.html" . }}
 				<div class="layout-module-wrapper">
 					{{ partial "page-inserts-bottom.html" . }}
 				</div>
 			</aside>
 			<footer>
-		        {{ partial "page-footer.html" . }}
+		    {{ partial "page-footer.html" . }}
 			</footer>
 			{{ partial "page-js.html" . }}
 		</body>

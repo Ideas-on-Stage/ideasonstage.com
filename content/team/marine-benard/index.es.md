@@ -5,7 +5,7 @@ description	="Marine Bénard | Coordinadora de Eventos"
 name		= "Marine Bénard"
 picture		= "marine-benard.jpg"
 position 	= "Coordinadora de Eventos"
-url			= "/equipo/marine-benard/"
+url			= "/es/equipo/marine-benard/"
 weight		= 200
 +++
 Marine es experta en gestión y organización de eventos, con múltiples años de experiencia organizando congresos profesionales, eventos públicos y privados, así como conferencias TEDx.

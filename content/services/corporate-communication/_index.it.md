@@ -2,7 +2,7 @@
 draft 			= true
 title 			= "Creazione di Presentazioni in PowerPoint"
 description		= "Potenzia le tue presentazioni e stupisci la tua audience con delle slide disegnate professionalmente."
-url				= "/servizi/communication-consulting/"
+url				= "/it/servizi/communication-consulting/"
 thumbnail		= "thumbnail.jpg"
 +++
 ## Presentation Design

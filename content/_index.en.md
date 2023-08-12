@@ -54,13 +54,6 @@ outputs			= ["html","rss","json"]
 		bgimage		= "hero.jpg"
 		title		= "PUBLIC SPEAKING COACHING AND TRAINING · BUSINESS EVENTS · PRESENTATION CREATION"
 	[[slider.list]]
-		bgimage		= "slider2-min.jpg"
-		title		= "WOMEN ON STAGE 2.0"
-		description = "Your personal accelerator program to become more visible, present and free when presenting"
-		button		= "Learn more"
-		buttonlink	= "/presentations-training/women-on-stage/"
-		color		= "text-white"
-	[[slider.list]]
 		expirydate	= "2019-11-04"
 		bgimage		= "slider3-min.jpg"
 		title		= "THE BUSINESS PRESENTATION REVOLUTION"

@@ -2,7 +2,7 @@
 draft 			= true
 title 			= "Servizi"
 description		= ""
-url 				= "/servizi/"
+url 				= "/it/servizi/"
 +++
 
 Le Business Presentation eccezionali sono un vantaggio competitivo unico per le aziende. Ma ci siamo resi conto che la maggior parte delle presentazioni non riescono neanche a suscitare il minimo interesse nell’ audience. È per questo che abbiamo creato Ideas on Stage nel 2010, per aiutare i nostri clienti a dare al proprio pubblico le migliori presentazioni al mondo.

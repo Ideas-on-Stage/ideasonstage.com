@@ -7,7 +7,7 @@ tags = [ "Prise de parole en public" ]
 news = [ "general" ]
 banner = "/img/news/presentation-zen.jpg"
 language = "fr"
-url = "/news/2021-04-06/cinq-principes-intemporels-de-presentation-zen/"
+url = "/fr/news/2021-04-06/cinq-principes-intemporels-de-presentation-zen/"
 +++
 
 ![Présentation Zen](/img/news/presentation-zen.jpg)

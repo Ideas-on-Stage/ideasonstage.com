@@ -35,7 +35,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
-		url			= "/servizi/creazione-presentazioni-powerpoint/"
+		url			= "/it/servizi/creazione-presentazioni-powerpoint/"
 	[[services.list]]
 		sectionid	= "business-events"
 		title		= "Eventi Corporate"
@@ -43,7 +43,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-business-events.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		url			= "/eventi-corporate/"
+		url			= "/it/eventi-corporate/"
 	[[services.list]]
 		sectionid	= "public-speaking-coaching"
 		title		= "Public Speaking"
@@ -51,7 +51,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-public-speaking-coaching.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		url			= "/public-speaking-coaching/"
+		url			= "/it/public-speaking-coaching/"
 		itemtype	= "Service"
 	[[services.list]]
 		sectionid	= "presentations-training"
@@ -60,7 +60,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-presentations-training.jpg"
 		style		= "bg-lightgrey"
 		layout		= "inserts/module-texttop-picture.html"
-		url			= "/training-workshops/the-business-presentation-revolution/"		
+		url			= "/it/training-workshops/the-business-presentation-revolution/"		
 
 +++
 Le Business Presentation eccezionali sono un vantaggio competitivo unico per le aziende. Ma ci siamo resi conto che la maggior parte delle presentazioni non riescono neanche a suscitare il minimo interesse nell’ audience. È per questo che abbiamo creato Ideas on Stage nel 2010, per aiutare i nostri clienti a dare al proprio pubblico le migliori presentazioni al mondo.

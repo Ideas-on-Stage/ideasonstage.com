@@ -2,7 +2,7 @@
 draft		= false
 title		= "Comment animer vos réunions professionnelles en ligne"
 description = "Comment faire une réunion en ligne efficace ? De quel matériel avez-vous besoin ? Comment créer du lien avec les participants pendant la réunion ?"
-url	 		= "/formations-en-ligne/comment-animer-vos-réunions-professionnelles-en-ligne/"
+url	 		= "/fr/formations-en-ligne/comment-animer-vos-réunions-professionnelles-en-ligne/"
 picture		= "image.jpg"
 schema		= "Course"
 

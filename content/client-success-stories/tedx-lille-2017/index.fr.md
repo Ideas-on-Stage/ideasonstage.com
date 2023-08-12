@@ -5,7 +5,7 @@ description	= "Ideas on Stage est partenaire des événements TEDx Lille depuis 
 weight		= 1
 categories	= [ "Coaching Prise de Parole en Public" ]
 showrefs	= false
-url		 	= "/coaching-prise-de-parole-en-public/coaching-tedx/evenements/tedx-lille-2017/"
+url		 	= "/fr/coaching-prise-de-parole-en-public/coaching-tedx/evenements/tedx-lille-2017/"
 picture		= "tedx-lille-2017.jpg"
 +++
 ## Coaching TEDx Lille

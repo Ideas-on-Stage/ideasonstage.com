@@ -1,9 +1,9 @@
 +++
-draft 			= false
+draft 			= true
 title 			= "Communauté de travail en ligne"
 description		= "Créez et animez une communauté de travail en ligne."
 picture			= "remote-work.jpg"
-url 				= "/du-bureau-au-travail-a-distance/"
+url 				= "/fr/du-bureau-au-travail-a-distance/"
 +++
 **Ce service vous aidera à passer d’un environnement de travail au bureau à un environnement de travail à distance en dix jours. Nous vous aiderons à créer une communauté de travail en ligne avec des effets positifs à long terme sur la productivité et le moral de vos effectifs.**
 

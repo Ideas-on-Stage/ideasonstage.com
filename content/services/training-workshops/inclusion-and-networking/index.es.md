@@ -2,7 +2,7 @@
 draft			= true
 title			= "Liderazgo Colaborativo"
 description 	= "Overcome gender bias and information silos in your company, and boost your performance."
-url 				= "/formacion-presentaciones/inclusion-and-networking/"
+url 				= "/es/formacion-presentaciones/inclusion-and-networking/"
 picture			= "image.jpg"
 schema			= "Course"
 +++

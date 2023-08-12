@@ -3,7 +3,7 @@ draft		= false
 name		= "Edoardo Sala"
 picture		= "edoardo-sala.jpg"
 position 	= "Italy Presentation Director"
-url			= "/team/edoardo-sala/"
+url			= "/it/team/edoardo-sala/"
 weight		= 10
 +++
 Dopo gli studi classici Edoardo ha seguito la sua passione per l’arte ed il teatro. 

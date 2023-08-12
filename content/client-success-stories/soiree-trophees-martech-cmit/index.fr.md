@@ -7,7 +7,7 @@ categories	= [ "Prise de parole", "Événements", "Startups" ]
 showrefs	= false
 redirect	= false
 redirectlink= ""
-url		 	= "/success-stories-clients/soiree-trophees-martech-cmit/"
+url		 	= "/fr/success-stories-clients/soiree-trophees-martech-cmit/"
 picture		= "cmit_story.jpg"
 +++
 

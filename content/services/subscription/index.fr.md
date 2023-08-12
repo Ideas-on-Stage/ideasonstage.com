@@ -1,8 +1,8 @@
 +++
-draft 			= false
+draft 			= true
 title 			= "Abonnement prioritaire"
 description		= "Économisez jusqu'à 50 % en vous abonnant et bénéficiez immédiatement de tous nos services."
-url		 		= "/abonnement-prioritaire/"
+url		 		= "/fr/abonnement-prioritaire/"
  
 [contact]
 	title	= "Abonnez-vous et profitez immédiatement de tous nos services"

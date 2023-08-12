@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "Creazione di Presentazioni in PowerPoint"
 description		= "Potenzia le tue presentazioni e stupisci la tua audience con delle slide disegnate professionalmente."
-url 				= "/servizi/creazione-presentazioni-powerpoint/"
+url 				= "/it/servizi/creazione-presentazioni-powerpoint/"
 
 schema			= "Service"
 provider		= "ideasonstage"

@@ -7,7 +7,7 @@ date = "2020-10-20"
 author = "Pierre Morsa"
 banner = "/img/news/hans_rosling_sword.jpg"
 language = "fr"
-url = "/news/2020-10-20-liberez-le-hans-rosling-en-vous/"
+url = "/fr/news/2020-10-20-liberez-le-hans-rosling-en-vous/"
 +++
 
 Si vous avez déjà parlé avec moi de mes intervenants TEDx favoris, alors j’ai certainement mentionné le regretté Hans Rösling, un de mes présentateurs TED préférés. Sur le papier, il ne semblait pourtant pas partir avec beaucoup d’avantages ; il parlait anglais avec un très fort accent étranger, et ses sujets de prédilection étaient les statistiques et la démographie, des mots qui sont en général associés avec le concept de sommeil profond plutôt que celui de présentation intéressante.
