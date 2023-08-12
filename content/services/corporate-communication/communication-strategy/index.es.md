@@ -3,7 +3,7 @@ draft	 		= false
 title 			= "Presentaciones Estratégicas"
 description		= "Te ayudamos a encontrar el ángulo adecuado con tu público para que tu presentación sea un éxito."
 picture			= "strategy.jpg"
-url				= "/es/servicios/communication-consulting/communication-strategy/"
+url				= "/servicios/communication-consulting/communication-strategy/"
 +++
 
 ## Desarrolla una presentación sólida para trasladar tus ideas y convencer a tu público, ya sean clientes, socios o medios de comunicación.

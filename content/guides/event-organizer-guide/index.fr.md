@@ -7,7 +7,7 @@ categories		= [ "Événements d'entreprise" ]
 showrefs		= false
 showpageslist 	= true
 urlredirect		= ""
-url 				= "/fr/guide-organisateur-evenement-entreprise/"
+url 				= "/guide-organisateur-evenement-entreprise/"
 picture		 	= "organisateur-evenement.jpg"
 summary			= "Nous avons rassemblé ici ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables… et faire de l’événementiel un véritable atout stratégique ! Les événements se présentent sous différentes formes et formats, mais les principes de base de l’organisation sont les mêmes pour tous. La clé d’un événement réussi est de s’assurer qu’il est bien planifié et qu’il répond en tous points aux besoins de votre cible."
 +++
@@ -25,7 +25,7 @@ Nous veillerons à ce que votre événement soit non seulement mémorable pour l
 ## Définissez précisément l’événement
 Quand ? Où ? Pourquoi ? Comment ? Avec qui ? Répondre à toutes ces questions vous aidera à fixer les objectifs stratégiques tout en déterminant le contenu de votre événement. Vouloir organiser un événement, c’est bien. Mais savoir pourquoi et créer un événement qui a du sens, c’est mieux ! Dans tout projet, les fondations sont capitales. Mal définir le cadre et les objectifs attendus est l’une des erreurs les plus fréquentes. Elle mène inévitablement à des oublis et un retour sur investissement moindre. Pour éviter cette situation, posez le cadre en appliquant la règle des 5 W.
 
-> Vous voulez organiser un événement style TEDx ? Consultez notre [guide comment organiser un événement TEDx](https://www.ideasonstage.com/fr/comment-organiser-un-evenement-tedx/).
+> Vous voulez organiser un événement style TEDx ? Consultez notre [guide comment organiser un événement TEDx](https://www.ideasonstage.fr/comment-organiser-un-evenement-tedx/).
 
 ### Quoi : what?
 Quel type d’événement souhaitez-vous organiser ?
@@ -151,7 +151,7 @@ Rien de mieux pour marquer les esprits qu’un lieu qui sort de l’ordinaire. U
 
 Vous devez prévoir du temps pour vous rendre sur le lieu et faire un repérage en détail : du parking au hall d’accueil et des espaces d’événement aux installations sanitaires. Cette visite vous donnera peut-être des arguments de négociation avant même d’accepter définitivement.
 
-> Pourquoi ne pas proposer un [atelier LEGO ou LEGO Serious Play](https://www.ideasonstage.com/fr/evenements-entreprise/ateliers-lego-serious-play/) à vos employés pour animer votre événement ? Ludiques et rafraîchissants, ces ateliers améliorent la cohésion d'équipe et la collaboration. [Cliquez ici pour en savoir plus](https://www.ideasonstage.com/fr/evenements-entreprise/ateliers-lego-serious-play/).
+> Pourquoi ne pas proposer un [atelier LEGO ou LEGO Serious Play](https://www.ideasonstage.fr/evenements-entreprise/ateliers-lego-serious-play/) à vos employés pour animer votre événement ? Ludiques et rafraîchissants, ces ateliers améliorent la cohésion d'équipe et la collaboration. [Cliquez ici pour en savoir plus](https://www.ideasonstage.fr/evenements-entreprise/ateliers-lego-serious-play/).
 
 ## Choisir ses prestataires
 

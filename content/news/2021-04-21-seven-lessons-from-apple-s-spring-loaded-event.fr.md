@@ -8,7 +8,7 @@ news = [ "general" ]
 banner = "/img/news/apple-spring-loaded.jpg"
 language = "fr"
 pushtoli = "today at 09:30"
-url = "/fr/news/2021-04-21/sept-lecons-evenement-spring-loaded-apple/"
+url = "/news/2021-04-21/sept-lecons-evenement-spring-loaded-apple/"
 +++
 
 ![Apple Spring Loaded](/img/news/apple-spring-loaded.jpg)

@@ -187,7 +187,7 @@ If you have received feedback that your voice is monotonous or lacks dynamics, w
 <br />
 {{% youtube 3nMIo1mGcLc %}}
 
-[This video is part of our series The Business Presentation Revolution.](https://www.ideasonstage.com/fr/revolution/)
+[This video is part of our series The Business Presentation Revolution.](https://www.ideasonstage.fr/revolution/)
 
 ## To go further
 

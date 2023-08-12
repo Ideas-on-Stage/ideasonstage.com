@@ -7,7 +7,7 @@ date = "2020-10-06"
 author = "Pierre Morsa"
 banner = "/img/news/coffee-heart.jpg"
 language = "fr"
-url = "/fr/news/2020-10-06-faut-il-apprendre-sa-presentation-par-coeur/"
+url = "/news/2020-10-06-faut-il-apprendre-sa-presentation-par-coeur/"
 +++
 
 Beaucoup de personnes pensent que pour faire une bonne présentation TEDx, ils ou elles doivent apprendre leur texte par cœur. Notre expérience de coach montre que c’est une bonne idée seulement SI :

@@ -2,7 +2,7 @@
 draft		= false
 title		= "La Business Presentation Revolution"
 description = "Grazie ai nostri seminari, le presentazioni del tuo team non saranno più le stesse."
-url 			= "/it/training-workshops/the-business-presentation-revolution/"
+url 			= "/training-workshops/the-business-presentation-revolution/"
 picture		= "image.jpg"
 schema		= "Course"
 +++

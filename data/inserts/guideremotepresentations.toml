@@ -3,6 +3,6 @@
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-lightgray"
 	picture		= "/comment-presenter-a-distance/remote-presentations.jpg"
-	url			= "/fr/comment-presenter-a-distance/"
+	url			= "/comment-presenter-a-distance/"
 	description	= "Notre guide gratuit."
 	button		= "Lire le guide"

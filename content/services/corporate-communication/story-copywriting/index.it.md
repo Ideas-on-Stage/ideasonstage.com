@@ -3,7 +3,7 @@ draft 			= false
 title	 		= "Storytelling & Copywriting"
 description		= "Insieme ai nostri creativi, esperti di business storytelling, crea una narrativa per accattivarti l’audience e fare in modo che i tuoi messaggi rimangano per sempre."
 picture			= "story-copywriting.jpg"
-url				= "/it/servizi/communication-consulting/story-copywriting/"
+url				= "/servizi/communication-consulting/story-copywriting/"
 +++
 
 ## Perché ci ricordiamo una storia sentita molto tempo fa, ma dimentichiamo facilmente le presentazioni del giorno prima?

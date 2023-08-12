@@ -3,7 +3,7 @@ draft		= false
 weight			= 1
 title		= "Formation prise de parole en public"
 description = "Storytelling, présentation PowerPoint, art oratoire : la formation en prise de parole en public la plus complète."
-url	 		= "/fr/formations-ateliers/formation-prise-de-parole-en-public/"
+url	 		= "/formations-ateliers/formation-prise-de-parole-en-public/"
 picture		= "image.jpg"
 schema		= "Course"
 

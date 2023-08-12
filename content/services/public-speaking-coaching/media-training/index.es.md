@@ -2,7 +2,7 @@
 draft 		= false
 title 		= "Entrenamiento ante los medios"
 description	= "Entrenamiento y acompañamiento profesional para hablar en públcio en conferencias de prensa y entrevistas en los medios"
-url	 		= "/es/coaching-para-hablar-en-publico/media-training/"
+url	 		= "/coaching-para-hablar-en-publico/media-training/"
 picture		= "media-training.jpg"
 +++
 

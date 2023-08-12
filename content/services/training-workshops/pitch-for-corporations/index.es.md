@@ -3,7 +3,7 @@ draft		= true
 title		= "Reinicia tu empresa"
 description = "¿Cuánto más creativo y ágil sería tu equipo si fuera una startup? Descúbrelo con este innovador y entretenido taller."
 categories	= [ "Training & Workshops" ]
-url 			= "/es/formacion-para-hablar-en-publico/reinicia-tu-empresa/"
+url 			= "/formacion-para-hablar-en-publico/reinicia-tu-empresa/"
 picture		= "image.jpg"
 schema		= "Course"
 +++

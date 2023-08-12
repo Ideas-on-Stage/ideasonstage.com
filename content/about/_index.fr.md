@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "À propos d'Ideas on Stage"
 description		= "Agence spécialisée en présentation et en prise de parole en public pour les grands groupes internationaux."
-url		 		= "/fr/apropos/"
+url		 		= "/apropos/"
 insertsbottom	= [ "team", "catalogue" ]
 +++
 

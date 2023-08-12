@@ -1,10 +1,14 @@
 {{ "<!-- partials:head-hreflang.html:start -->" | safeHTML }}
 	{{- if .Paginator -}}
-		<link href="{{ absURL .Paginator.URL }}" rel="canonical" />
+		<link href="{{ absURL .Paginator.URL }}" hreflang="{{ site.LanguageCode }}" rel="canonical" />
 	{{- else -}}
-		<link href="{{ .Permalink }}" rel="canonical" />
+		<link href="{{ .Permalink }}" hreflang="{{ site.LanguageCode }}" rel="canonical" />
 	{{- end -}}
-  {{- range .AllTranslations }}
-		<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
-  {{- end}}
+	{{- if .IsTranslated }}
+	  {{- range .AllTranslations }}
+	    {{- if ne site.LanguageCode .Lang -}}
+				<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
+			{{- end -}}
+	  {{- end}}
+	{{- end }}
 {{ "<!-- partials:head-hreflang.html:end -->" | safeHTML }}

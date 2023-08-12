@@ -3,7 +3,7 @@ draft 		= false
 title 		= "Conférenciers"
 description = "Les conférences de nos intervenants émerveilleront votre audience."
 picture		= "keynotes.jpg"
-url 			= "/fr/evenements-entreprise/conferenciers/"
+url 			= "/evenements-entreprise/conferenciers/"
 +++
 
 ## Inspirez vos employés avec une conférence sur l'art de présenter

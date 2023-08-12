@@ -2,7 +2,7 @@
 draft			= false
 title			= "Accueil des personnes en situation de handicap"
 description	 	= "Comment facilitons-nous l'accueil des personnes en situation de handicap ?"
-url	 			= "/fr/formation-ateliers/handicap/"
+url	 			= "/formation-ateliers/handicap/"
 schema			= "Course"
 +++
 

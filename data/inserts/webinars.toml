@@ -11,5 +11,5 @@
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-dark"
 	picture		= "/formations-en-ligne/webinaires/webinar3.jpg"
-	url			= "/fr/formations-en-ligne/webinaires/"
+	url			= "/formations-en-ligne/webinaires/"
 	description	= "Une série de webinaire pour apprendre à gérer des réunions efficaces en ligne."

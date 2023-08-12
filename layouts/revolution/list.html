@@ -3,7 +3,7 @@
 	{{ $content := .Content }}
 	{{ range first 1 .Pages }}
 		{{/* <!-- generate hero with newest video --> */}}
-   	<section id="hero">
+	     <section id="hero">
 			<div class="layout-screen-partial">
 				<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 					<img src="{{ .RelPermalink }}image.jpg">
@@ -11,18 +11,17 @@
 				<div class="layout-relative flex-parent-column">
 					<div class="flex-child-text text-center">
 						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
-					    <h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
-					  </a>
+					    	<h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
+					    </a>
 						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">
 							{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
 						</a>
 					</div>
-		    </div>
+		    	</div>
 			</div>
 		</section>
 	{{ end }}
 {{ end }}
-
 {{ define "main" }}
 	{{ "<!-- revolution:list.html:start -->" | safeHTML }}
 	<div class="layout-content">
@@ -71,8 +70,12 @@
 					</a>
 				{{ end }}
 			{{ end }}
+
 		</div>
 	</div>
 	</div>
+	
+
+	
 	{{ "<!-- revolution:list.html:end -->" | safeHTML }}
 {{ end }} 

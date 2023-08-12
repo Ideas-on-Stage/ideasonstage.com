@@ -1,7 +1,7 @@
 +++
 draft	= false
 title	= "The Business Presentation Revolution"
-url		= "/fr/revolution/"
+url		= "/revolution/"
 description = "The Business Presentation Revolution est la méthode la plus complète pour apprendre à créer des présentations professionnelles."
 +++
 

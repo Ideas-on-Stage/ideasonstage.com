@@ -151,8 +151,8 @@
 		/* define the styling of standard tags */
 		
 		a {
-		  line-height: 1.6;
-		  color: {{ site.Params.colors.text }};
+		  	line-height: 1.6;
+		  	color: {{ site.Params.colors.text }};
 		}
 		
 		blockquote {
@@ -623,7 +623,12 @@
 	width: 50%;
 	box-sizing: border-box;
 }
-
+.pm-block-width-content-half {
+	
+}
+.pm-block-width—content-narrow {
+	
+}
 
 /* 2. add fixed height or ratio to div */
 .pm-block-height-screen-full {

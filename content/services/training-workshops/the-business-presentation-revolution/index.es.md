@@ -2,7 +2,7 @@
 draft		= false
 title		= "Revoluciona tus presentaciones"
 description = "Con nuestro curso de referencia as presentaciones de tu equipo aumentarán su eficacia e impacto desde el primer día"
-url	 		= "/es/formacion-para-hablar-en-publico/the-business-presentation-revolution/"
+url	 		= "/formacion-para-hablar-en-publico/the-business-presentation-revolution/"
 picture		= "image.jpg"
 schema		= "Course"
 +++

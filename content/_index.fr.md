@@ -14,11 +14,11 @@ outputs			= ["html","rss","json"]
 		draft		= true
 		date		= "2022-11-29"
 		expirydate	= "2023-06-30"
-		bgimage 	= "/fr/comment-organiser-un-evenement-tedx/tedx-saclay-01.jpg"
+		bgimage 	= "/comment-organiser-un-evenement-tedx/tedx-saclay-01.jpg"
 		title 		= "COMMENT ORGANISER UN ÉVÈNEMENT TEDX"
 		description = "Le guide complet pour organiser un évènement TEDx, par l'équipe qui a accompagné des centaines de speakers en France, aux États-Unis et en Angleterre."
 		button 		= "Lire le guide"
-		buttonlink	= "/fr/comment-organiser-un-evenement-tedx/"
+		buttonlink	= "/comment-organiser-un-evenement-tedx/"
 		color		= "text-white"	
 		opacity		= "30"
 	[[slider.list]]
@@ -28,26 +28,26 @@ outputs			= ["html","rss","json"]
 		title		= "METTONS FIN À LA DISCRIMINATION"
 		description	= ""
 		button		= "Lire Notre Tribune"
-		buttonlink	= "/fr/news/2020/06/05/2020-06-05-mettons-fin-a-la-discrimination/"
+		buttonlink	= "/news/2020/06/05/2020-06-05-mettons-fin-a-la-discrimination/"
 		color		= "text-white"
 		opacity		= "30"
 	[[slider.list]]
 		date		= "2020-05-12"
 		expirydate	= "2020-06-29"
-		bgimage 	= "/fr/formations-en-ligne/fne.jpg"
+		bgimage 	= "/formations-en-ligne/fne.jpg"
 		title 		= "FORMATIONS FNE GRATUITES"
 		description = "Suivez une formation 100% prise en charge par le dispositif FNE"
 		button 		= "Inscrivez-vous"
-		buttonlink	= "/fr/services/formations-ateliers/fne-formation-distance/"
+		buttonlink	= "/services/formations-ateliers/fne-formation-distance/"
 		color		= "text-white"	
 		opacity		= "30"
 	[[slider.list]]
 		date		= "2020-04-29"
-		bgimage 	= "/fr/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
+		bgimage 	= "/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
 		title 		= "GUIDE DE LA PRISE DE PAROLE EN PUBLIC"
 		description = "Notre guide pour maîtriser les techniques de l'art oratoire."
 		button 		= "Lisez le guide"
-		buttonlink	= "/fr/guide-ultime-prise-de-parole-en-public/"
+		buttonlink	= "/guide-ultime-prise-de-parole-en-public/"
 		color		= "text-white"	
 		opacity		= "30"
 	[[slider.list]]
@@ -69,7 +69,7 @@ outputs			= ["html","rss","json"]
 		title		= "WOMEN ON STAGE 2.0"
 		description = "Votre accélérateur personnel pour devenir plus visible, présente et libre lors de vos présentations"
 		button		= "Plus d'informations"
-		buttonlink	= "/fr/formation-presentations/women-on-stage/"
+		buttonlink	= "/formation-presentations/women-on-stage/"
 		color 		= "text-white"
 	[[slider.list]]
 		draft		= true
@@ -78,7 +78,7 @@ outputs			= ["html","rss","json"]
 		title		= "THE BUSINESS PRESENTATION REVOLUTION"
 		description	= "Episode 9: Il était une fois le storytelling d’entreprise"
 		button		= "Regarder l'Épisode"
-		buttonlink	= "/fr/revolution/episode-00009/"
+		buttonlink	= "/revolution/episode-00009/"
 		color		= "text-white"
 
 [services]
@@ -89,7 +89,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-public-speaking-coaching.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		url			= "/fr/coaching-prise-de-parole-en-public/"	
+		url			= "/coaching-prise-de-parole-en-public/"	
 	[[services.list]]
 		sectionid	= "presentations-training"
 		title		= "Formations et Webinaires"
@@ -97,7 +97,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/training.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		url			= "/fr/formations-ateliers/"
+		url			= "/formations-ateliers/"
 	[[services.list]]
 		sectionid	= "business-events"
 		title		= "Support événementiel"
@@ -105,7 +105,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-business-events.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		url			= "/fr/evenements-entreprise/"
+		url			= "/evenements-entreprise/"
 	[[services.list]]
 		sectionid	= "presentation-creation"
 		title		= "Création de présentations"
@@ -113,7 +113,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
-		url			= "/fr/services/agence-creation-presentation-powerpoint/"
+		url			= "/services/agence-creation-presentation-powerpoint/"
 +++
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.
 

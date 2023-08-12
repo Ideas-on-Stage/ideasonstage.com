@@ -1,13 +1,13 @@
 {{ define "main" }}
 	{{ "<!-- _default:list.html:main:start -->" | safeHTML }}
 	{{ if not (isset .Params "pages") }}
-		{{ partial "page-list.html" . }}
-	{{ else if eq "top" .Params.pages }}
-		{{ partial "page-list.html" . }}
+	{{ partial "page-list.html" . }}
+	{{ else if eq "top" .Params.pages  }}
+	{{ partial "page-list.html" . }}
 	{{ end }}
 	{{ partial "page-content.html" . }}
 	{{ if eq "bottom" .Params.pages  }}
-		{{ partial "page-list.html" . }}
+	{{ partial "page-list.html" . }}
 	{{ end }}
 	{{ "<!-- _default:list.html:main:end -->" | safeHTML }}
 {{ end }}

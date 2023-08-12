@@ -3,7 +3,7 @@ draft		= false
 name		= "Edoardo Sala"
 picture		= "edoardo-sala.jpg"
 position 	= "Directeur de présentation Italie"
-url			= "/fr/equipe/edoardo-sala/"
+url			= "/equipe/edoardo-sala/"
 weight		= 180
 +++
 

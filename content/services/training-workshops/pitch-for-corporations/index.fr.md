@@ -3,7 +3,7 @@ draft		= true
 title		= "Rebootez votre entreprise"
 description = "Si votre équipe était une Startup, à quel point serait-elle plus agile et créative ? Découvrez-le avec cet atelier ludique et interactif."
 categories	= [ "Formations et Ateliers" ]
-url	 		= "/fr/formation-presentations/rebootez-votre-entreprise/"
+url	 		= "/formation-presentations/rebootez-votre-entreprise/"
 picture		= "image.jpg"
 schema		= "Course"
 +++

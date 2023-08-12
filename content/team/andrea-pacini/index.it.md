@@ -3,7 +3,7 @@ draft		= false
 name		= "Andrea Pacini"
 picture		= "andrea-pacini.jpg"
 position 	= "UK Presentation Director"
-url			= "/it/team/andrea-pacini/"
+url			= "/team/andrea-pacini/"
 weight		= 210
 +++
 Andrea porta con sé una lunga esperienza in una multinazionale di Londra, in cui si è occupato di vendite, innovazione e sviluppo commerciale con dei grandi clienti nel Regno Unito.

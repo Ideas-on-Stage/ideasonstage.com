@@ -2,7 +2,7 @@
 draft 		= false
 title 		= "Coaching en prise de parole pour dirigeants"
 description	= "Développez votre présence sur scène. Devenez un leader charismatique."
-url 			= "/fr/coaching-prise-de-parole-en-public/coaching-de-dirigeants/"
+url 			= "/coaching-prise-de-parole-en-public/coaching-de-dirigeants/"
 picture		= "public-speaking-coaching-10.jpg"
 +++
 

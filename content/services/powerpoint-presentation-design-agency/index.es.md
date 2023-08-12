@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "Agencia de Diseño de Presentaciones en PowerPoint"
 description		= "Servicio de agencia de diseño de slides profesionales para empresas y particulares. Descuentos por volumen"
-url 				= "/es/servicios/creacion-presentaciones-powerpoint/"
+url 				= "/servicios/creacion-presentaciones-powerpoint/"
 
 schema			= "Service"
 provider		= "ideasonstage"

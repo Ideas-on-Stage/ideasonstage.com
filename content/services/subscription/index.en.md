@@ -1,5 +1,5 @@
 +++
-draft 			= true
+draft 			= false
 title 			= "Priority Subscription"
 description		= "Save up to 50% with a subscription and get immediate access to all our services."
 url		 		= "/priority-subscription/"

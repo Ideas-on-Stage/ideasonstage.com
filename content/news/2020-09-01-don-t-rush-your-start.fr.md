@@ -7,7 +7,7 @@ date = "2020-09-01"
 author = "Pierre Morsa"
 banner = "/img/news/rush-presentation.jpg"
 language = "fr"
-url = "/fr/news/2020-09-01-ne-demarrez-pas-votre-presentation-trop-vite/"
+url = "/news/2020-09-01-ne-demarrez-pas-votre-presentation-trop-vite/"
 +++
 
 De nombreux intervenants ont tendance à se précipiter pour démarrer leur présentation. Lors des conférences et des événements, ils commencent à parler avant même d’avoir mis un pied sur la scène, et parlent pendant qu’ils marchent vers son centre, ou dès que le maître de cérémonie leur cède la place. Cela donne l’impression qu’ils souffrent du syndrome de l’imposteur, qu’ils manquent de confiance et qu’ils ne sont pas sûrs qu’ils devraient se trouver sur scène.

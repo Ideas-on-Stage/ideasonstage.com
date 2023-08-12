@@ -7,7 +7,7 @@ date = "2019-05-15"
 author = "Phil Waknell"
 banner = "/img/news/image_preview.jpg"
 +++
-La plupart des conférences sont assez ennuyeuses. Même [les conférences techniques](https://www.ideasonstage.com/fr/news/2019/01/15/2019-01-14-jai-fait-une-présentation-au-ces/) les plus connues ne parviennent pas à stimuler leur public. Mais les conférences médicales peuvent être parmi les pires. Ideas on Stage annonce un nouveau partenariat avec [Doctors 2.0 & You](http://www.doctors20.com) pour faire passer les événements médicaux au niveau supérieur.
+La plupart des conférences sont assez ennuyeuses. Même [les conférences techniques](https://www.ideasonstage.fr/news/2019/01/15/2019-01-14-jai-fait-une-présentation-au-ces/) les plus connues ne parviennent pas à stimuler leur public. Mais les conférences médicales peuvent être parmi les pires. Ideas on Stage annonce un nouveau partenariat avec [Doctors 2.0 & You](http://www.doctors20.com) pour faire passer les événements médicaux au niveau supérieur.
 
 ![](https://paper-attachments.dropbox.com/s_FD961B791442C7362D6B5E501329E0C9DADE0550BEBB6EFB1CAA4BB4D494431C_1557960861053_image.png)
 

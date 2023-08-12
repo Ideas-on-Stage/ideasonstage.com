@@ -4,7 +4,7 @@
 draft	= false
 title	= "Cookies"
 type	= "cookies"
-url		= "/fr/cookies/"
+url		= "/cookies/"
 +++
 
 Pour que ce site fonctionne correctement nous utilisons des fichiers stockés sur votre appareil appelés cookies. La plupart des sites le font. 

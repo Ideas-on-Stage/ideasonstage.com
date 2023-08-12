@@ -7,7 +7,7 @@ date = "2019-12-10"
 author = "Pierre Morsa"
 banner = "/img/news/dave-paradi.jpg"
 language = "fr"
-url = "/fr/news/2019-12-10-trois-problemes-plus-frequents-presentation-powerpoint/"
+url = "/news/2019-12-10-trois-problemes-plus-frequents-presentation-powerpoint/"
 +++
 
 Dave Paradi, un expert des présentations PowerPoint, a publié les résultats de son étude « annoying PowerPoint ». Nous n’allons pas discuter de tous les résultats ici, mais ce qui est clair c’est que le top 3 n’a pas beaucoup changé depuis plusieurs années. Vous pourriez probablement les deviner simplement en vous demandant « qu’est-ce que je n’aime pas dans les présentations PowerPoint ? » Le top 3 des problèmes est :

@@ -2,7 +2,7 @@
 draft		= false
 title		= "Formation en ligne à la prise de parole en public"
 description = "Formation de groupe à la prise de parole en public en entreprise. Formation à distance donnée en direct par un de nos experts."
-url	 		= "/fr/formations-en-ligne/formation-groupe-prise-de-parole-en-ligne/"
+url	 		= "/formations-en-ligne/formation-groupe-prise-de-parole-en-ligne/"
 picture		= "image.jpg"
 schema		= "Course"
 

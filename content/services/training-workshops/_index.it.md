@@ -2,7 +2,7 @@
 draft = false 
 title = "Training & Workshops" 
 description = "" 
-url = "/it/training-workshops/" 
+url = "/training-workshops/" 
 schema = "Carousel" 
 thumbnail = "thumbnail.jpg" 
 +++

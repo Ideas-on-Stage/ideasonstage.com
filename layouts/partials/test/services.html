@@ -1,0 +1,14 @@
+{{ "<!-- partials:home:services:start -->" | safeHTML }}
+<section id="services">
+	{{- with site.GetPage "/services" }}
+    <div class="layout-module text-center paddingt-small">
+		{{ with .Title }}<h2 class="style-section-title-main">{{ . | markdownify }}</h2>{{ end }}
+	</div>
+	{{- end }}
+	{{- range .Params.services.list -}}
+		<div>
+			{{ partial .layout . }}
+		</div>
+	{{- end -}}
+</section>
+{{ "<!-- partials:home:services:end -->" | safeHTML }}

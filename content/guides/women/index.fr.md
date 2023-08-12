@@ -1,10 +1,10 @@
 +++
-draft 		= true
+draft 		= false
 title 		= "Women, une série de kakemonos célébrant les femmes qui ont changé le monde"
 description	= "Une série de kakemonos avec des citations inspirantes de femmes audacieuses qui ont osé changer le monde."
 categories	= [ "Women on Stage" ]
 showrefs	= false
-url			= "/fr/women/"
+url			= "/women/"
 picture		= "women.jpg"
 summary		= "Nous avons créé une série de kakémonos pour célébrer les femmes qui ont changé le monde. Vous pouvez les télécharger et les imprimer librement pour votre propre usage. Toutes les images sont dans le domaine public. Si vous souhaitez les imprimer, le format recommandé est de 80 cm x 200 cm (environ 31,49 pouces par 78,7 pouces) ou moins en conservant les mêmes proportions (par exemple 40 cm x 100 cm). L'espace colorimétrique est FOGRA 39 et le fond perdu est de 1 mm de chaque côté."
 +++

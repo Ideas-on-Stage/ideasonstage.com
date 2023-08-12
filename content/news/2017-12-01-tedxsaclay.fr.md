@@ -17,7 +17,7 @@ Cette année encore, le [programme des intervenants](https://tedxsaclay.com/2017
 
 ## Le partenariat Ideas on Stage
 
-Ideas on Stage, spécialiste des présentations business et partenaire officiel TEDx oeuvre main dans la main avec les organisateurs du TEDxSaclay depuis son lancement en 2014. De l'idée à la scène, Ideas on Stage coache les intervenants pour les aider à délivrer un message clair et puissant, illustré par des slides conçues ou revues par nos soins, et renforcé par notre coaching sur l'art oratoire. En tant que partenaire TEDx, nous offrons notre aide à différents niveaux selon les besoins des organisateurs : du simple coaching des orateurs à la création des supports visuels jusqu'au support complet pour la création et l'animation de votre TEDx. Des questions ? Vous trouverez plus de réponses sur nos offres [ici](https://www.ideasonstage.com/fr/coaching-prise-de-parole-en-public/tedx/).
+Ideas on Stage, spécialiste des présentations business et partenaire officiel TEDx oeuvre main dans la main avec les organisateurs du TEDxSaclay depuis son lancement en 2014. De l'idée à la scène, Ideas on Stage coache les intervenants pour les aider à délivrer un message clair et puissant, illustré par des slides conçues ou revues par nos soins, et renforcé par notre coaching sur l'art oratoire. En tant que partenaire TEDx, nous offrons notre aide à différents niveaux selon les besoins des organisateurs : du simple coaching des orateurs à la création des supports visuels jusqu'au support complet pour la création et l'animation de votre TEDx. Des questions ? Vous trouverez plus de réponses sur nos offres [ici](https://www.ideasonstage.fr/coaching-prise-de-parole-en-public/tedx/).
 
 
 <figure>

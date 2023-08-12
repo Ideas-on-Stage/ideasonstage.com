@@ -3,7 +3,7 @@ draft 			= false
 title 			= "Apoyo en eventos"
 description		= "Te ayudamos a que la pieza clave de la organización de eventos, los ponentes, destaquen por su eficacia y profesionalidad"
 picture			= "business-events.jpg"
-url 				= "/es/eventos-corporativos/"
+url 				= "/eventos-corporativos/"
 +++
 
 ## Eventos y Conferencias

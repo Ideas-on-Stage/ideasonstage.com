@@ -2,7 +2,7 @@
 draft 		= false
 title 		= "Coaching ejecutivo para hablar en público"
 description	= "Habla en público como el líder al que todos quieren seguir, añade técnicas de oratoria a tu estilo ejecutivo y aumenta tu presencia e impacto"
-url 			= "/es/coaching-para-hablar-en-publico/ejecutivos-presencia-liderazgo/"
+url 			= "/coaching-para-hablar-en-publico/ejecutivos-presencia-liderazgo/"
 picture		= "public-speaking-coaching-10.jpg"
 +++
 

@@ -2,7 +2,7 @@
 draft			= true
 title			= "TEDx Coaching"
 description		= "Il pubblico di TEDx ha delle grandi aspettative. Scopri come Ideas on Stage può aiutarti a superarle."
-url				= "/it/public-speaking-coaching/tedx-coaching/"
+url				= "/public-speaking-coaching/tedx-coaching/"
 picture			= "tedx-saclay.jpg"
 weight			= 1
 

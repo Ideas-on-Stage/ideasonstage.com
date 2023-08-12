@@ -34,7 +34,7 @@ Voici quelques conseils pratiques pour vous aider à contrôler et à minimiser 
 
 #### **L'importance de la répétition**
 
-Les conseils ci-dessus vous aideront tous à calmer vos nerfs avant une présentation. Cependant, un autre moyen très efficace de réduire l'anxiété est de s'assurer que vous avez bien répété. J'ai examiné l'importance des répétitions dans un article précédent, que vous pourrez lire [ici](https://www.ideasonstage.com/fr/news/2022/09/13/2022-11-29-pourquoi_la_repetition_engendre_plus_de_confiance/).
+Les conseils ci-dessus vous aideront tous à calmer vos nerfs avant une présentation. Cependant, un autre moyen très efficace de réduire l'anxiété est de s'assurer que vous avez bien répété. J'ai examiné l'importance des répétitions dans un article précédent, que vous pourrez lire [ici](https://www.ideasonstage.fr/news/2022/09/13/2022-11-29-pourquoi_la_repetition_engendre_plus_de_confiance/).
 
 La meilleure façon de maîtriser vos nerfs est de savoir de quoi vous parlez. 
 

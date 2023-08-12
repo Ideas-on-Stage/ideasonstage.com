@@ -7,7 +7,7 @@ tags = [ "Prise de parole en public", "TEDx" ]
 news = [ "general" ]
 banner = "/img/news/tedx-tours-fusee.jpg"
 language = "fr"
-url = "/fr/news/2021-03-16-l-ikigai-de-votre-presentation-ted/"
+url = "/news/2021-03-16-l-ikigai-de-votre-presentation-ted/"
 +++
 
 Ikigai est un concept japonais qui signifie « une raison d’être ». Ikigai est l’intersection entre ce que vous aimez, ce pour quoi vous êtes bon, ce pour quoi vous pouvez être payé et ce dont le monde a besoin.

@@ -5,7 +5,7 @@ description	="Phil Waknell es uno de los socios fundadores de Ideas on Stage ubi
 name		= "Phil Waknell"
 picture		= "phil-waknell.jpg"
 position 	= "Chief Inspiration Officer"
-url			= "/es/equipo/phil-waknell/"
+url			= "/equipo/phil-waknell/"
 weight		= 110
 ni          = true
 +++

@@ -70,6 +70,6 @@ Pour résumer :
 * Transmettez votre passion en adoptant le style d'un animateur radio, en vous connectant à votre objectif, en vous montrant attentif et en interagissant régulièrement avec les participants pour maintenir leur attention ;
 * Intégrez la variation dans votre façon de parler et raccourcissez vos phrases.
 
-Vous trouverez plus de détails sur la prise de parole dans les réunions virtuelles dans le webinaire ci-dessous. Si vous trouvez cela utile, consultez nos autres webinaires [Virtual Meeting Revolution](https://www.ideasonstage.com/fr/formation-presentations/webinaires/) et n'hésitez pas à nous contacter si vous souhaitez de l'aide pour préparer votre prochaine réunion ou présentation en ligne.
+Vous trouverez plus de détails sur la prise de parole dans les réunions virtuelles dans le webinaire ci-dessous. Si vous trouvez cela utile, consultez nos autres webinaires [Virtual Meeting Revolution](https://www.ideasonstage.fr/formation-presentations/webinaires/) et n'hésitez pas à nous contacter si vous souhaitez de l'aide pour préparer votre prochaine réunion ou présentation en ligne.
 
 {{< youtube 01TMHcrGOqg >}}

@@ -2,7 +2,7 @@
 draft		= false
 title		= "Pitch para Startups"
 description = "Aprende a hacer un pitch ganador con este curso impartido por coaches que han trabajado con cientos de startups"
-url	 		= "/es/formacion-para-hablar-en-publico/pitch-para-startups/"
+url	 		= "/formacion-para-hablar-en-publico/pitch-para-startups/"
 picture		= "image.jpg"
 schema		= "Course"
 +++

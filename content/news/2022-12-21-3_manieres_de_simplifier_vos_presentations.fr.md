@@ -10,7 +10,7 @@ De nombreux chefs d'entreprises, dirigeants et professionnels font des présenta
 
 Je pense que plus vous en dites, moins votre auditoire s'en souviendra. Il faut donc que vos présentations soient courtes, simples et directes.
 
-La simplicité est l'un des cinq facteurs clés de toute présentation efficace. Si vous souhaitez en savoir plus sur les autres facteurs, je les ai décrits **[ICI](https://www.ideasonstage.com/fr/news/2022/07/26/2022-12-05-les_5_principes_cles_pour_des_presentations_percutantes/)**.
+La simplicité est l'un des cinq facteurs clés de toute présentation efficace. Si vous souhaitez en savoir plus sur les autres facteurs, je les ai décrits **[ICI](https://www.ideasonstage.fr/news/2022/07/26/2022-12-05-les_5_principes_cles_pour_des_presentations_percutantes/)**.
 
 En 1996, Guinness a lancé sa publicité un peu surréaliste intitulée « Fish on a Bicycle ». Elle se terminait par le slogan « une femme a besoin d'un homme comme un poisson a besoin d'un vélo » avec la photo d'un poisson sur un vélo.
 

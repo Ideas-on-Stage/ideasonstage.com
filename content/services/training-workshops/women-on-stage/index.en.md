@@ -1,5 +1,5 @@
 +++
-draft		= true
+draft		= false
 weight		= 10
 title		= "Women on Stage 2.0"
 description = "Women On Stage 2.0 is a public speaking and professional development workshop dedicated to women leaders and executives who want to speak up, inspire and present with confidence."

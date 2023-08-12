@@ -3,7 +3,7 @@ draft 		= false
 title 		= "Keynotes"
 description = "Aumenta el impacto de tu evento con una charla inolvidable con uno de nuestros speakers"
 picture		= "keynotes.jpg"
-url	 		= "/es/eventos-corporativos/keynotes/"
+url	 		= "/eventos-corporativos/keynotes/"
 +++
 
 ## Una keynote o un taller inspiradores para sorprender a tu público o motivar a tu equipo

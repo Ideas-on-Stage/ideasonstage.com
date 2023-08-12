@@ -3,7 +3,7 @@ draft 			= false
 title	 		= "Storytelling & Copywriting"
 description		= "Construye una narrativa para cautivar a tu público."
 picture			= "story-copywriting.jpg"
-url				= "/es/servicios/communication-consulting/story-copywriting/"
+url				= "/servicios/communication-consulting/story-copywriting/"
 +++
 
 ## ¿Porqué recordamos las historias, pero olvidamos la presentación de ayer?

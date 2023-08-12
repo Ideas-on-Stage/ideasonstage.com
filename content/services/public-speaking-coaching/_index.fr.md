@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "Coaching prise de parole en public"
 description		= "Développez votre éloquence et votre présence sur scène. Devenez un leader charismatique."
-url 				= "/fr/coaching-prise-de-parole-en-public/"
+url 				= "/coaching-prise-de-parole-en-public/"
 picture		 	= "wikistage-wbg-2015.jpg"
 weight			= 20
 +++

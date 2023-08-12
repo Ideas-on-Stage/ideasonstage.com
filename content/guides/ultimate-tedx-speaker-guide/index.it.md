@@ -4,7 +4,7 @@ title 		= "La guida definitiva di Speaker"
 description	= "Tutto quello che avreste voluto sapere sull’essere un TEDx speaker ma non avete mai osato chiedere."
 categories	= [ "TEDx Events" ]
 showrefs	= false
-url			= "/it/ultimate-tedx-speaker-guide/"
+url			= "/ultimate-tedx-speaker-guide/"
 picture		= "tedx-speaker.jpg"
 +++
 

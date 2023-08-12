@@ -1,5 +1,5 @@
 +++
-draft		= true
+draft		= false
 name		= "Laura Díaz de Entresotos"
 picture		= "laura-diaz-de-entresotos.jpg"
 position 	= "Presentation Director"

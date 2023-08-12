@@ -3,7 +3,7 @@ draft 		= false
 title 		= "Maestro di Cerimonie"
 description = "Dai il giusto ritmo al tuo evento con un esperto Maestro di Cerimonie, intrattenendo l’audience e aiutando i tuoi speaker a brillare."
 picture		= "image.jpg"
-url 			= "/it/eventi-corporate/master-of-ceremonies/"
+url 			= "/eventi-corporate/master-of-ceremonies/"
 +++
 
 ## Un Maestro di Cerimonie per il tuo evento.

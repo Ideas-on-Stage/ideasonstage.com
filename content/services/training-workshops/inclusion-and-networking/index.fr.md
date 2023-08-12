@@ -2,7 +2,7 @@
 draft			= true
 title			= "Leadership collaboratif"
 description	 	= "Dépassez les stéréotypes culturels, brisez les silos de votre entreprise et décuplez la performance de votre entreprise."
-url	 			= "/fr/formation-presentations/inclusion-et-networking/"
+url	 			= "/formation-presentations/inclusion-et-networking/"
 picture			= "image.jpg"
 schema			= "Course"
 +++

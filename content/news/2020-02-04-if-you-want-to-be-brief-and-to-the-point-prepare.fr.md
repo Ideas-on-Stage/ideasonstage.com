@@ -7,7 +7,7 @@ date = "2020-02-04"
 author = "Pierre Morsa"
 banner = "/img/news/christmas-lights-nightmare.jpg"
 language = "fr"
-url = "/fr/news/2020-02-04-si-vous-voulez-etre-clair-et-concis-preparez-vous/"
+url = "/news/2020-02-04-si-vous-voulez-etre-clair-et-concis-preparez-vous/"
 +++
 
 Il y a quelques mois, j’ai enregistré un épisode pour notre série de vidéos « The Business Presentation Revolution ». Au début, mon contenu était trop long pour tenir dans le temps de 3 ou 4 minutes que nous avions prévu. En regardant mon script, je me rendis compte que de nombreuses phrases pouvaient être simplifiées, que certains détails n’étaient pas nécessaires et que la structure pouvait être moins tarabiscotée.

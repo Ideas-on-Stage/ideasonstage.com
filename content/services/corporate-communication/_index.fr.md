@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "Conseil en communication"
 description		= "Améliorez votre communication d'entreprise avec nos services de conseil."
-url				= "/fr/conseil-communication/"
+url				= "/conseil-communication/"
 thumbnail		= "thumbnail.jpg"
 weight			= 10
 pages			= "bottom"

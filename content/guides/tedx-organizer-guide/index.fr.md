@@ -3,7 +3,7 @@ draft = false
 title = "Comment organiser un événement TEDx ? Guide complet"
 description = "Tout pour organiser un événement TEDx réussi, par l'équipe qui a accompagné des dizaines d'événements TEDx, en France, aux États-Unis et en Angleterre."
 categories = [ "Prise de parole en public", "TEDx" ]
-url = "/fr/comment-organiser-un-evenement-tedx/"
+url = "/comment-organiser-un-evenement-tedx/"
 picture = "tedx-saclay-03.jpg"
 summary = "Ce guide vous donnera tous les conseils nécessaires pour organiser votre événement TEDx, que ce soit en tant que bénévole ou pour votre entreprise. Si vous êtes déjà expérimenté, nous espérons que vous y découvrirez des conseils utiles."
 +++
@@ -34,7 +34,7 @@ L’esprit de TEDx, c’est de partager des idées passionnantes avec l’audito
 
 Nous allons maintenant vous guider pas à pas dans les étapes nécessaires pour organiser votre propre événement TEDx.
 
-> Vous souhaitez organiser un événement dans votre entreprise ? Consultez notre [guide pratique de l'organisateur d'événements](https://www.ideasonstage.com/fr/guide-organisateur-evenement-entreprise/).
+> Vous souhaitez organiser un événement dans votre entreprise ? Consultez notre [guide pratique de l'organisateur d'événements](https://www.ideasonstage.fr/guide-organisateur-evenement-entreprise/).
 
 ## 1. Faire la demande de licence TEDx
 
@@ -194,7 +194,7 @@ Au-delà des sujets formellement interdits, évitez les intervenants connus pour
 
 Un programme équilibré créera des moments de détente et d’expérience. À d’autres moments, il fera réfléchir et à d’autres il fera rire. Il changera la perception du monde des participants. L’ordre exact ne pourra être établi qu’après avoir fini la préparation des intervenants.
 
-> Pour vous aider à préparer vos intervenants, vous pouvez consulter notre [guide ultime du TEDx Speaker.](https://www.ideasonstage.com/fr/guide-tedx-speaker/)
+> Pour vous aider à préparer vos intervenants, vous pouvez consulter notre [guide ultime du TEDx Speaker.](https://www.ideasonstage.fr/guide-tedx-speaker/)
 
 ## 4. Constituer son budget et rechercher des partenaires
 
@@ -322,7 +322,7 @@ Dans la préparation de votre événement, il faut aussi penser à travailler la
 
 **Les intervenants doivent être préparés et coachés au moins 2 mois avant l’événement**. Nous ne le dirons jamais assez : **n’acceptez aucun intervenant qui refuse de suivre la procédure de préparation, surtout s’il est célèbre**. Ils ont toutes les chances de rater leur intervention et de créer une déception vis-à-vis du public.
 
-> Vous voulez une préparation de qualité pour vos speakers ? [Consultez nos formules de sponsorship et de coaching des intervenants pour votre événement](https://www.ideasonstage.com/fr/coaching-prise-de-parole-en-public/coaching-tedx/).
+> Vous voulez une préparation de qualité pour vos speakers ? [Consultez nos formules de sponsorship et de coaching des intervenants pour votre événement](https://www.ideasonstage.fr/coaching-prise-de-parole-en-public/coaching-tedx/).
 
 La préparation se déroule en plusieurs étapes :
 
@@ -331,7 +331,7 @@ La préparation se déroule en plusieurs étapes :
 - Répéter. Répéter. Répéter.
 - Répétition générale le jour ou la veille de l’événement.
 
-Le travail de préparation se déroule souvent en collaboration avec l’intervenant, le responsable intervenants et le coach. À ce sujet, vous pouvez vous référer à notre [guide du speaker TEDx](https://www.ideasonstage.com/fr/guide-tedx-speaker/).
+Le travail de préparation se déroule souvent en collaboration avec l’intervenant, le responsable intervenants et le coach. À ce sujet, vous pouvez vous référer à notre [guide du speaker TEDx](https://www.ideasonstage.fr/guide-tedx-speaker/).
 
 En général, la première version de l’idée clé et du fil conducteur sont travaillés par l’intervenant et le responsable intervenants. Ensuite, le coach commence à intervenir dans le processus de préparation.
 
@@ -376,7 +376,7 @@ Il peut s’agir d’une fresque géante, d’un mur de post-it à compléter, d
 
 Après avoir analysé et travaillé sur tous les points précédents, il est temps de se projeter et de préparer le planning du jour de votre événement TEDx.
 
-> Nous pouvons vous aider à organiser la journée de votre événement TEDx. [Consultez nos formules de support événementiel](https://www.ideasonstage.com/fr/evenements-entreprise/).
+> Nous pouvons vous aider à organiser la journée de votre événement TEDx. [Consultez nos formules de support événementiel](https://www.ideasonstage.fr/evenements-entreprise/).
 
 ### 8.1. Construire le déroulé de la journée
 

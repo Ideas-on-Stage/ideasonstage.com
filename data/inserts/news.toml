@@ -12,6 +12,6 @@
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-lightgrey"
 	picture		= "/img/inserts/home-news.png"
-	url			= "/fr/news/"
+	url			= "/news/"
 	description	= "Notre blog sur l'art de présenter en public. Découvrez notre point de vue sur le CES, Apple et la communication d'entreprise en général."
 	button		= "Lire les articles"
