@@ -3,6 +3,6 @@
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-lightgray"
 	picture		= "https://www.ideasonstage.fr/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
-	url			= "/guide-ultime-prise-de-parole-en-public/"
+	url			= "/fr/guide-ultime-prise-de-parole-en-public/"
 	description	= "Nos conseils pour devenir un grand orateur."
 	button		= "Lire le guide"

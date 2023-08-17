@@ -1,7 +1,0 @@
-[en]
-	title		= "Book A Remote Training Session For Your Company"
-	layout		= "inserts/module-calltoaction.html"
-	style		= "bg-dark"
-	url			= "/evenements-entreprise/ateliers-lego-serious-play/"
-	button		= "Book A Training Session"
-	button2		= "Get A Corporate Subscription"

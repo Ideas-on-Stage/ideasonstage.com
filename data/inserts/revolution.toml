@@ -11,7 +11,7 @@
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-primary"
 	picture		= "/img/inserts/revolution-hand-clicker.jpg"
-	url			= "/revolution/"
+	url			= "/fr/revolution/"
 	description	= "Une série de courtes vidéos pour apprendre à mieux présenter, disponibles sur YouTube et iTunes."
 
 [es]
@@ -19,5 +19,5 @@
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-primary"
 	picture		= "/img/inserts/revolution-hand-clicker.jpg"
-	url			= "/revolution/"
+	url			= "/es/revolution/"
 	description = "Los mejores consejos para presentar con nuestra nueva serie: The Business Presentation Revolution."
