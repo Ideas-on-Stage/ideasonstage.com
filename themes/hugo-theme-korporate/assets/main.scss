@@ -18,10 +18,10 @@
 	$spacing-xs: 6px;
 
 	/* override with values defined in Hugo config file */
-	{{ with site.Params.modules.space }}$module-space: {{ . }};{{ end }}
-	{{ with site.Params.modules.height }}$module-height: {{ . }};{{ end }}
-	{{ with site.Params.modules.height_ts }}$module-height_ts: {{ . }};{{ end }}	
-	{{ with site.Params.navbar.height }}$navbar-height : {{ . }};{{ end }}
+	{{ with site.Params.layout.module.space }}$module-space: {{ . }};{{ end }}
+	{{ with site.Params.layout.module.height }}$module-height: {{ . }};{{ end }}
+	{{ with site.Params.layout.module.height_ts }}$module-height_ts: {{ . }};{{ end }}	
+	{{ with site.Params.layout.navbar.height }}$navbar-height : {{ . }};{{ end }}
 		
 /* @end */
 

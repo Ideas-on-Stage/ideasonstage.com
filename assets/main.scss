@@ -170,7 +170,7 @@
 
 		body {
 			margin: 0;
-			scroll-padding-top: {{ site.Params.navigation.height }};
+			scroll-padding-top: {{ site.Params.layout.navigation.height }};
 		  	line-height: 1.6;
 		  	color: {{ site.Params.colors.text }};
 		}
@@ -292,7 +292,7 @@
 		#content-main > h2 {
 			/* The > sign ensures only direct children are affected */
 			/* use padding-top size of top bar to position text properly when clicking on anchor, for example anchor link in table of contents */
-			padding-top: {{ site.Params.navigation.height }};
+			padding-top: {{ site.Params.layout.navigation.height }};
 			margin-bottom: 0.5em;
 		}
 	
@@ -300,7 +300,7 @@
 		#content-main > h4 {
 			/* The > sign ensures only direct children are affected */
 			/* use padding-top size of top bar to position text properly when clicking on anchor, for example anchor link in table of contents */
-			padding-top: {{ site.Params.navigation.height }};
+			padding-top: {{ site.Params.layout.navigation.height }};
 			margin-top: -1em;
 			margin-bottom: 0.5em;
 		}
@@ -658,7 +658,7 @@
 		/* main page title layout */
 		.layout-page-title {
 			position: sticky;
-			top: {{ site.Params.navigation.height }};
+			top: {{ site.Params.layout.navigation.height }};
 			z-index: 100;
 			display: flex;
 			justify-content: center;
@@ -673,14 +673,14 @@
 		.layout-screen-full {
 			margin: 0;
 			padding: 0;
-			height: calc(100vh - {{ site.Params.navigation.height }});
+			height: calc(100vh - {{ site.Params.layout.navigation.height }});
 			width: 100vw;
 		}
 		
 		.layout-screen-full img {
 			margin: 0;
 			padding: 0;
-			height: calc(100vh - {{ site.Params.navigation.height }});
+			height: calc(100vh - {{ site.Params.layout.navigation.height }});
 			width: 100vw;
 			object-fit: cover;
 		}
@@ -729,31 +729,31 @@
 
 		/* enclose all modules in one layout-module-wrapper div */		
 		.layout-module-wrapper {
-			padding: {{ site.Params.modules.padding }};
+			padding: {{ site.Params.layout.module.padding }};
 		}
 		
 		/* use to start a full width module */
 		.layout-module {
 			width: 100%;
-			padding: {{ site.Params.modules.padding }};
+			padding: {{ site.Params.layout.module.padding }};
 		}
 		
 		/* use to start a half width module */
 		.layout-module-half {
 			width: 50%;
-			padding: {{ site.Params.modules.padding }};
+			padding: {{ site.Params.layout.module.padding }};
 		}
 		
 		/* use to create module div with pic on left, text on right */
 		.layout-module-row {
-			height: {{ site.Params.modules.height }};
+			height: {{ site.Params.layout.module.height }};
 			width: 100%;
 			display: flex;
 			flex-direction: row;
 		}
 			/* use to create inner div with the pic on left */
 			.layout-module-row-image {
-				height: {{ site.Params.modules.height }};
+				height: {{ site.Params.layout.module.height }};
 				width: 64%;
 			}
 			.layout-module-row-image img {
@@ -778,7 +778,7 @@
 			
 		/* use to create module div with text on top, image below */
 		.layout-module-column {
-			height: {{ site.Params.modules.height }};
+			height: {{ site.Params.layout.module.height }};
 			width: 100%;
 			display: flex;
 			flex-direction: column;
@@ -808,14 +808,14 @@
 
 		/* use to create module div with pic in background, text on top */
 		.layout-module-image-back-text-top {
-			height: {{ site.Params.modules.height }};
+			height: {{ site.Params.layout.module.height }};
 			width: 100%;
 			display: relative;
 		}
 			/* use to create inner div with the pic in background */
 			.layout-module-image-back {
 				position: absolute;
-				height: {{ site.Params.modules.height }};
+				height: {{ site.Params.layout.module.height }};
 			}
 			.layout-module-image-back img {
 				height: 100%;
@@ -830,7 +830,7 @@
 				width: 100%; /* make half width modules full width on ts screens */
 			}
 			.layout-module-row {
-				height: {{ site.Params.modules.height_ts }};
+				height: {{ site.Params.layout.module.height_ts }};
 				width: 100%;
 				flex-direction: column-reverse;
 				justify-content: space-between;
@@ -855,7 +855,7 @@
 			}
 	
 			.layout-module-column {
-				height: {{ site.Params.modules.height_ts }};
+				height: {{ site.Params.layout.module.height_ts }};
 			}
 			.layout-module-column-text {
 				padding: 8vw;
@@ -865,11 +865,11 @@
 			}
 			
 			.layout-module-image-back-text-top {
-				height: {{ site.Params.modules.height_ts }};
+				height: {{ site.Params.layout.module.height_ts }};
 			}
 			.layout-module-image-back {
 				position: absolute;
-				height: {{ site.Params.modules.height_ts }};
+				height: {{ site.Params.layout.module.height_ts }};
 			}
 		}
 	
@@ -992,13 +992,12 @@
 		
 		.layout-sticky {
 			position: sticky;
-			top: {{ site.Params.navigation.height }};
+			top: {{ site.Params.layout.navigation.height }};
 			z-index: 100;	
 		}
 		.layout-double-sticky {
 			position: sticky;
-			/* top: {{ site.Params.navigation.height }} + 40px ; */
-			top: calc({{ site.Params.navigation.height }} + 1.6em + .4vw);
+			top: calc({{ site.Params.layout.navigation.height }} + 1.6em + .4vw);
 			z-index: 99;	
 		}
 	/* @end */
@@ -1495,7 +1494,7 @@
 
 /* Adjust logo positioning */
 .iosnavbar-brand {
-  height: {{ site.Params.navigation.height }};
+  height: {{ site.Params.layout.navigation.height }};
   /* height: 52px; */
   padding: 0;
   color: #FF8200;
@@ -1562,7 +1561,7 @@ nav ul.iosmenu>li>ul>li:hover { color: #ff8200; }
 nav ul.iosmenu ul {
   display: none;
   position: absolute;
-  top: {{ site.Params.navigation.height }}-2;
+  top: {{ site.Params.layout.navigation.height }}-2;
   background-color: rgba(34,34,34,1);
   padding: 0;
 }

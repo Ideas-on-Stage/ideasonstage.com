@@ -27,7 +27,7 @@
 
 /* Adjust logo positioning */
 .iosnavbar-brand {
-  height: {{ site.Params.navigation.height }};
+  height: {{ site.Params.layout.navigation.height }};
   /* height: 52px; */
   padding: 0;
   color: #FF8200;
