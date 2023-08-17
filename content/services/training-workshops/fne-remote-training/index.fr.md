@@ -2,7 +2,7 @@
 draft		= true
 title		= "FNE Formation à distance gratuite"
 description = "Formez-vous gratuitement en télétravail grâce au FNE Formation. Apprenez à mieux présenter et à conduire des réunions en ligne."
-url	 		= "/services/formations-ateliers/fne-formation-distance/"
+url	 		= "/fr/services/formations-ateliers/fne-formation-distance/"
 showtoc		= true
 
 [[events]]

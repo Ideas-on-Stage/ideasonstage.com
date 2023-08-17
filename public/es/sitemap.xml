@@ -3,31 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.ideasonstage.es/coaching-para-hablar-en-publico/tedx-coaching/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/public-speaking-coaching/tedx-coaching/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.fr/coaching-prise-de-parole-en-public/coaching-tedx/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/public-speaking-coaching/tedx-coaching/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.es/coaching-para-hablar-en-publico/tedx-coaching/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.es/client-success-stories/</loc>
+    <loc>https://www.ideasonstage.com/es/client-success-stories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -36,22 +12,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/success-stories-clients/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/client-success-stories/"
+                href="https://www.ideasonstage.com/fr/success-stories-clients/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/client-success-stories/"
+                href="https://www.ideasonstage.com/es/client-success-stories/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/equipo/ricardo-bonis/</loc>
+    <loc>https://www.ideasonstage.com/es/equipo/ricardo-bonis/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -60,22 +31,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/ricardo-bonis/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/ricardo-bonis/"
+                href="https://www.ideasonstage.com/fr/equipe/ricardo-bonis/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/equipo/ricardo-bonis/"
+                href="https://www.ideasonstage.com/es/equipo/ricardo-bonis/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/equipo/laura-diaz-de-entresotos/</loc>
+    <loc>https://www.ideasonstage.com/es/equipo/laura-diaz-de-entresotos/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -84,22 +50,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/laura-diaz-de-entresotos/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/laura-diaz-de-entresotos/"
+                href="https://www.ideasonstage.com/fr/equipe/laura-diaz-de-entresotos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/equipo/laura-diaz-de-entresotos/"
+                href="https://www.ideasonstage.com/es/equipo/laura-diaz-de-entresotos/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/equipo/pierre-morsa/</loc>
+    <loc>https://www.ideasonstage.com/es/equipo/pierre-morsa/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -108,46 +69,18 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/pierre-morsa/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/pierre-morsa/"
+                href="https://www.ideasonstage.com/fr/equipe/pierre-morsa/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/equipo/pierre-morsa/"
+                href="https://www.ideasonstage.com/es/equipo/pierre-morsa/"
                 />
   </url>
   
-  <url>
-    <loc>https://www.ideasonstage.es/equipo/phil-waknell/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/team/phil-waknell/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/phil-waknell/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/phil-waknell/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.es/equipo/phil-waknell/"
-                />
-  </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/equipo/michael-rickwood/</loc>
+    <loc>https://www.ideasonstage.com/es/equipo/michael-rickwood/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -156,22 +89,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/michael-rickwood/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/michael-rickwood/"
+                href="https://www.ideasonstage.com/fr/equipe/michael-rickwood/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/equipo/michael-rickwood/"
+                href="https://www.ideasonstage.com/es/equipo/michael-rickwood/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/equipo/joe-ross/</loc>
+    <loc>https://www.ideasonstage.com/es/equipo/joe-ross/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -180,46 +108,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/joe-ross/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/joe-ross/"
+                href="https://www.ideasonstage.com/fr/equipe/joe-ross/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/equipo/joe-ross/"
+                href="https://www.ideasonstage.com/es/equipo/joe-ross/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/equipo/vanessa-querville/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/team/vanessa-querville/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/vanessa-querville/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/vanessa-querville/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.es/equipo/vanessa-querville/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.es/equipo/edoardo-sala/</loc>
+    <loc>https://www.ideasonstage.com/es/equipo/edoardo-sala/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -228,65 +127,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/edoardo-sala/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/edoardo-sala/"
+                href="https://www.ideasonstage.com/fr/equipe/edoardo-sala/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/equipo/edoardo-sala/"
+                href="https://www.ideasonstage.com/es/equipo/edoardo-sala/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/equipo/rose-bloomfield/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/team/rose-bloomfield/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/rose-bloomfield/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/rose-bloomfield/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.es/equipo/rose-bloomfield/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.es/equipo/frederic-pascal-stein/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/team/frederic-pascal-stein/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/frederic-pascal-stein/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.es/equipo/frederic-pascal-stein/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.es/equipo/marine-benard/</loc>
+    <loc>https://www.ideasonstage.com/es/equipo/marine-benard/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -295,17 +146,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/marine-benard/"
+                href="https://www.ideasonstage.com/fr/equipe/marine-benard/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/equipo/marine-benard/"
+                href="https://www.ideasonstage.com/es/equipo/marine-benard/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/equipo/andrea-pacini/</loc>
+    <loc>https://www.ideasonstage.com/es/equipo/andrea-pacini/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -314,22 +165,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/andrea-pacini/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/andrea-pacini/"
+                href="https://www.ideasonstage.com/fr/equipe/andrea-pacini/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/equipo/andrea-pacini/"
+                href="https://www.ideasonstage.com/es/equipo/andrea-pacini/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/equipo/ismael-salmeron/</loc>
+    <loc>https://www.ideasonstage.com/es/equipo/ismael-salmeron/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -338,17 +184,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/ismael-salmeron/"
+                href="https://www.ideasonstage.com/fr/equipe/ismael-salmeron/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/equipo/ismael-salmeron/"
+                href="https://www.ideasonstage.com/es/equipo/ismael-salmeron/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/news/2020/06/05/2020-06-05-let-s-end-discrimination/</loc>
+    <loc>https://www.ideasonstage.com/es/news/2020/06/05/2020-06-05-let-s-end-discrimination/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -358,17 +204,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/news/2020/06/05/2020-06-05-let-s-end-discrimination/"
+                href="https://www.ideasonstage.com/es/news/2020/06/05/2020-06-05-let-s-end-discrimination/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/tags/noticias/</loc>
+    <loc>https://www.ideasonstage.com/es/tags/noticias/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/noticias/</loc>
+    <loc>https://www.ideasonstage.com/es/noticias/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -378,17 +224,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/news/"
+                href="https://www.ideasonstage.com/fr/news/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/noticias/"
+                href="https://www.ideasonstage.com/es/noticias/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/</loc>
+    <loc>https://www.ideasonstage.com/es/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -398,22 +244,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/"
+                href="https://www.ideasonstage.com/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/"
+                href="https://www.ideasonstage.com/es/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/tags/</loc>
+    <loc>https://www.ideasonstage.com/es/tags/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -423,22 +264,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/tags/"
+                href="https://www.ideasonstage.com/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/tags/"
+                href="https://www.ideasonstage.com/es/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/revolution/episode-00010/</loc>
+    <loc>https://www.ideasonstage.com/es/revolution/episode-00010/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -448,17 +284,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/revolution/episode-00010/"
+                href="https://www.ideasonstage.com/fr/revolution/episode-00010/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/revolution/episode-00010/"
+                href="https://www.ideasonstage.com/es/revolution/episode-00010/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/revolution/</loc>
+    <loc>https://www.ideasonstage.com/es/revolution/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -468,17 +304,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/revolution/"
+                href="https://www.ideasonstage.com/fr/revolution/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/revolution/"
+                href="https://www.ideasonstage.com/es/revolution/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/revolution/episode-00009/</loc>
+    <loc>https://www.ideasonstage.com/es/revolution/episode-00009/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -488,17 +324,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/revolution/episode-00009/"
+                href="https://www.ideasonstage.com/fr/revolution/episode-00009/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/revolution/episode-00009/"
+                href="https://www.ideasonstage.com/es/revolution/episode-00009/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/revolution/episode-00008/</loc>
+    <loc>https://www.ideasonstage.com/es/revolution/episode-00008/</loc>
     <lastmod>2019-09-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -508,17 +344,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/revolution/episode-00008/"
+                href="https://www.ideasonstage.com/fr/revolution/episode-00008/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/revolution/episode-00008/"
+                href="https://www.ideasonstage.com/es/revolution/episode-00008/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/revolution/episode-00007/</loc>
+    <loc>https://www.ideasonstage.com/es/revolution/episode-00007/</loc>
     <lastmod>2019-06-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -528,17 +364,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/revolution/episode-00007/"
+                href="https://www.ideasonstage.com/fr/revolution/episode-00007/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/revolution/episode-00007/"
+                href="https://www.ideasonstage.com/es/revolution/episode-00007/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/revolution/episode-00006/</loc>
+    <loc>https://www.ideasonstage.com/es/revolution/episode-00006/</loc>
     <lastmod>2019-05-17T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -548,17 +384,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/revolution/episode-00006/"
+                href="https://www.ideasonstage.com/fr/revolution/episode-00006/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/revolution/episode-00006/"
+                href="https://www.ideasonstage.com/es/revolution/episode-00006/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/revolution/episode-00005/</loc>
+    <loc>https://www.ideasonstage.com/es/revolution/episode-00005/</loc>
     <lastmod>2019-05-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -568,17 +404,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/revolution/episode-00005/"
+                href="https://www.ideasonstage.com/fr/revolution/episode-00005/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/revolution/episode-00005/"
+                href="https://www.ideasonstage.com/es/revolution/episode-00005/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/revolution/episode-00004/</loc>
+    <loc>https://www.ideasonstage.com/es/revolution/episode-00004/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -588,17 +424,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/revolution/episode-00004/"
+                href="https://www.ideasonstage.com/fr/revolution/episode-00004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/revolution/episode-00004/"
+                href="https://www.ideasonstage.com/es/revolution/episode-00004/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/revolution/episode-00003/</loc>
+    <loc>https://www.ideasonstage.com/es/revolution/episode-00003/</loc>
     <lastmod>2019-02-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -608,17 +444,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/revolution/episode-00003/"
+                href="https://www.ideasonstage.com/fr/revolution/episode-00003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/revolution/episode-00003/"
+                href="https://www.ideasonstage.com/es/revolution/episode-00003/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/revolution/episode-00002/</loc>
+    <loc>https://www.ideasonstage.com/es/revolution/episode-00002/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -628,17 +464,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/revolution/episode-00002/"
+                href="https://www.ideasonstage.com/fr/revolution/episode-00002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/revolution/episode-00002/"
+                href="https://www.ideasonstage.com/es/revolution/episode-00002/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/revolution/episode-00001/</loc>
+    <loc>https://www.ideasonstage.com/es/revolution/episode-00001/</loc>
     <lastmod>2019-01-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -648,17 +484,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/revolution/episode-00001/"
+                href="https://www.ideasonstage.com/fr/revolution/episode-00001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/revolution/episode-00001/"
+                href="https://www.ideasonstage.com/es/revolution/episode-00001/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/acerca-de-nosotros/</loc>
+    <loc>https://www.ideasonstage.com/es/acerca-de-nosotros/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -667,17 +503,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/apropos/"
+                href="https://www.ideasonstage.com/fr/apropos/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/acerca-de-nosotros/"
+                href="https://www.ideasonstage.com/es/acerca-de-nosotros/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/servicios/creacion-presentaciones-powerpoint/</loc>
+    <loc>https://www.ideasonstage.com/es/servicios/creacion-presentaciones-powerpoint/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -686,22 +522,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/services/agence-creation-presentation-powerpoint/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/servizi/creazione-presentazioni-powerpoint/"
+                href="https://www.ideasonstage.com/fr/services/agence-creation-presentation-powerpoint/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/servicios/creacion-presentaciones-powerpoint/"
+                href="https://www.ideasonstage.com/es/servicios/creacion-presentaciones-powerpoint/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/eventos-corporativos/</loc>
+    <loc>https://www.ideasonstage.com/es/eventos-corporativos/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -710,22 +541,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/evenements-entreprise/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/eventi-corporate/"
+                href="https://www.ideasonstage.com/fr/evenements-entreprise/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/eventos-corporativos/"
+                href="https://www.ideasonstage.com/es/eventos-corporativos/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/coaching-para-hablar-en-publico/ejecutivos-presencia-liderazgo/</loc>
+    <loc>https://www.ideasonstage.com/es/coaching-para-hablar-en-publico/ejecutivos-presencia-liderazgo/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -734,22 +560,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/coaching-prise-de-parole-en-public/coaching-de-dirigeants/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/public-speaking-coaching/executive-coaching/"
+                href="https://www.ideasonstage.com/fr/coaching-prise-de-parole-en-public/coaching-de-dirigeants/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/coaching-para-hablar-en-publico/ejecutivos-presencia-liderazgo/"
+                href="https://www.ideasonstage.com/es/coaching-para-hablar-en-publico/ejecutivos-presencia-liderazgo/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/coaching-para-hablar-en-publico/</loc>
+    <loc>https://www.ideasonstage.com/es/coaching-para-hablar-en-publico/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -758,22 +579,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/coaching-prise-de-parole-en-public/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/public-speaking-coaching/"
+                href="https://www.ideasonstage.com/fr/coaching-prise-de-parole-en-public/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/coaching-para-hablar-en-publico/"
+                href="https://www.ideasonstage.com/es/coaching-para-hablar-en-publico/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/cookies/</loc>
+    <loc>https://www.ideasonstage.com/es/cookies/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -782,22 +598,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/cookies/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/cookies/"
+                href="https://www.ideasonstage.com/fr/cookies/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/cookies/"
+                href="https://www.ideasonstage.com/es/cookies/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/eventos-corporativos/diseno-eventos/</loc>
+    <loc>https://www.ideasonstage.com/es/eventos-corporativos/diseno-eventos/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -805,18 +616,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/eventi-corporate/event-design/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/eventos-corporativos/diseno-eventos/"
+                href="https://www.ideasonstage.com/es/eventos-corporativos/diseno-eventos/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/coaching-para-hablar-en-publico/media-training/</loc>
+    <loc>https://www.ideasonstage.com/es/coaching-para-hablar-en-publico/media-training/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -825,22 +631,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/coaching-prise-de-parole-en-public/media-training/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/public-speaking-coaching/media-training/"
+                href="https://www.ideasonstage.com/fr/coaching-prise-de-parole-en-public/media-training/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/coaching-para-hablar-en-publico/media-training/"
+                href="https://www.ideasonstage.com/es/coaching-para-hablar-en-publico/media-training/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/equipo/</loc>
+    <loc>https://www.ideasonstage.com/es/equipo/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -849,22 +650,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/equipe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/team/"
+                href="https://www.ideasonstage.com/fr/equipe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/equipo/"
+                href="https://www.ideasonstage.com/es/equipo/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/formacion-para-hablar-en-publico/</loc>
+    <loc>https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -873,22 +669,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/formations-ateliers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/training-workshops/"
+                href="https://www.ideasonstage.com/fr/formations-ateliers/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/formacion-para-hablar-en-publico/"
+                href="https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/guias/como-hacer-presentaciones-de-forma-remota/</loc>
+    <loc>https://www.ideasonstage.com/es/guias/como-hacer-presentaciones-de-forma-remota/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -897,17 +688,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/comment-presenter-a-distance/"
+                href="https://www.ideasonstage.com/fr/comment-presenter-a-distance/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/guias/como-hacer-presentaciones-de-forma-remota/"
+                href="https://www.ideasonstage.com/es/guias/como-hacer-presentaciones-de-forma-remota/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/guias/</loc>
+    <loc>https://www.ideasonstage.com/es/guias/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -916,22 +707,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/guides/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/guides/"
+                href="https://www.ideasonstage.com/fr/guides/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/guias/"
+                href="https://www.ideasonstage.com/es/guias/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/eventos-corporativos/keynotes/</loc>
+    <loc>https://www.ideasonstage.com/es/eventos-corporativos/keynotes/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -940,22 +726,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/evenements-entreprise/conferenciers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/eventi-corporate/keynotes/"
+                href="https://www.ideasonstage.com/fr/evenements-entreprise/conferenciers/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/eventos-corporativos/keynotes/"
+                href="https://www.ideasonstage.com/es/eventos-corporativos/keynotes/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/guias/ultimate-tedx-speaker-guide/</loc>
+    <loc>https://www.ideasonstage.com/es/guias/ultimate-tedx-speaker-guide/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -964,22 +745,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/guide-tedx-speaker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/ultimate-tedx-speaker-guide/"
+                href="https://www.ideasonstage.com/fr/guide-tedx-speaker/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/guias/ultimate-tedx-speaker-guide/"
+                href="https://www.ideasonstage.com/es/guias/ultimate-tedx-speaker-guide/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/guia-definitiva-hablar-en-publico/</loc>
+    <loc>https://www.ideasonstage.com/es/guia-definitiva-hablar-en-publico/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -988,17 +764,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/guide-ultime-prise-de-parole-en-public/"
+                href="https://www.ideasonstage.com/fr/guide-ultime-prise-de-parole-en-public/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/guia-definitiva-hablar-en-publico/"
+                href="https://www.ideasonstage.com/es/guia-definitiva-hablar-en-publico/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/eventos-corporativos/maestro-de-ceremonias/</loc>
+    <loc>https://www.ideasonstage.com/es/eventos-corporativos/maestro-de-ceremonias/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1007,22 +783,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/evenements-entreprise/animation-evenements/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/eventi-corporate/master-of-ceremonies/"
+                href="https://www.ideasonstage.com/fr/evenements-entreprise/animation-evenements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/eventos-corporativos/maestro-de-ceremonias/"
+                href="https://www.ideasonstage.com/es/eventos-corporativos/maestro-de-ceremonias/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/formacion-para-hablar-en-publico/pitch-para-startups/</loc>
+    <loc>https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/pitch-para-startups/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1031,26 +802,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/formation-presentations/pitch-pour-startups/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/presentations-training/pitch-for-startups/"
+                href="https://www.ideasonstage.com/fr/formation-presentations/pitch-pour-startups/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/formacion-para-hablar-en-publico/pitch-para-startups/"
+                href="https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/pitch-para-startups/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/formacion-para-hablar-en-publico/presentation-zen-para-empresas/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.es/formacion-para-hablar-en-publico/the-business-presentation-revolution/</loc>
+    <loc>https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/the-business-presentation-revolution/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1059,22 +821,17 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/formations-ateliers/formation-prise-de-parole-en-public/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/training-workshops/the-business-presentation-revolution/"
+                href="https://www.ideasonstage.com/fr/formations-ateliers/formation-prise-de-parole-en-public/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/formacion-para-hablar-en-publico/the-business-presentation-revolution/"
+                href="https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/the-business-presentation-revolution/"
                 />
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.es/servicios/</loc>
+    <loc>https://www.ideasonstage.com/es/servicios/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -1083,41 +840,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.fr/services/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/servizi/"
+                href="https://www.ideasonstage.com/fr/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://www.ideasonstage.es/servicios/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.es/formacion-para-hablar-en-publico/women-on-stage/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/presentations-training/women-on-stage/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.fr/formation-presentations/women-on-stage/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://www.ideasonstage.it/presentations-training/women-on-stage/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.es/formacion-para-hablar-en-publico/women-on-stage/"
+                href="https://www.ideasonstage.com/es/servicios/"
                 />
   </url>
   

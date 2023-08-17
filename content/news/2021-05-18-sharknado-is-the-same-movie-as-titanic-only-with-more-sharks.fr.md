@@ -7,7 +7,7 @@ tags = [ "Prise de parole en public" ]
 news = [ "general" ]
 banner = "/img/news/sharknado-titanic-iceberg.jpg"
 language = "fr"
-url = "/news/2021-05-18/sharknado-est-le-meme-filme-que-titanic-mais-avec-des-requins/"
+url = "/fr/news/2021-05-18/sharknado-est-le-meme-filme-que-titanic-mais-avec-des-requins/"
 +++
 
 ![Sharknado Titanic Iceberg](/img/news/sharknado-titanic-iceberg.jpg)

@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "Formations et ateliers"
 description		= "Formation en prise de parole en public, présentation PowerPoint et conduite de réunions en ligne pour les grandes entreprises."
-url		 		= "/formations-ateliers/"
+url		 		= "/fr/formations-ateliers/"
 schema			= "Carousel"
 thumbnail		= "thumbnail.jpg"
 weight			= 30

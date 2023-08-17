@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "Comment présenter à distance"
 description		= "Un guide complet pour donner de superbes présentations à distance en utilisant un logiciel de vidéoconférence."
-url				= "/comment-presenter-a-distance/"
+url				= "/fr/comment-presenter-a-distance/"
 picture		 	= "remote-presentations.jpg"
 summary			= "Ce dont vous avez besoin pour réaliser de superbes présentations à distance : équipement, logiciel, configuration, animation. Nous avons rédigé ce guide sur la base de dix années d’expérience de présentations professionnelles données à distance à nos clients. Nous ne gagnons pas d’argent sur les logiciels ou le matériel que nous recommandons dans cet article. Nous les recommandons en fonction de notre expérience, mais il existe de nombreuses autres solutions qui pourraient tout aussi bien fonctionner."
 insertsbottom	= [ "webinars", "revolution" ]

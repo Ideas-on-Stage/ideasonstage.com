@@ -7,7 +7,7 @@ date = "2020-03-30"
 author = "Pierre Morsa"
 banner = "/img/news/tedx-tours-2019-3.jpg"
 language = "fr"
-slug = "2020-03-30-top-5-presentations-tedx-en-nombre-de-vues"
+slug = "/fr/2020-03-30-top-5-presentations-tedx-en-nombre-de-vues"
 picture = "/img/news/tedx-tours-2019-3.jpg"
 +++
 

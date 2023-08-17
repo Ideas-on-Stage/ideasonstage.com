@@ -28,17 +28,8 @@ outputs			= ["html","rss","json"]
 		title = "THE BUSINESS PRESENTATION REVOLUTION"
 		description = "Episodio 9: Érase una vez una historia empresarial"
 		button = "Ver ahora"
-		buttonlink = "/revolution/episode-00009/"
+		buttonlink = "/es/revolution/episode-00009/"
 		color ="text-white"	
-	[[slider.list]]
-		bgimage ="slider2-min.jpg"
-		title = "WOMEN ON STAGE 2.0"
-		description = "Your personal accelerator program to become more visible, present and free when presenting"
-		button = "Saber más"
-		buttonlink = "https://www.ideasonstage.com/presentations-training/women-on-stage/"
-		color = "text-white"
-		date		= "2020-05-05"
-		expirydate	= "2020-05-19"
 
 [services]
 	[[services.list]]
@@ -48,7 +39,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-presentation-creation-agency.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-texttop-picture.html"
-		url			= "/servicios/creacion-presentaciones-powerpoint/"
+		url			= "/es/servicios/creacion-presentaciones-powerpoint/"
 	[[services.list]]
 		sectionid	= "business-events"
 		title		= "Eventos Corporativos"
@@ -56,7 +47,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-business-events.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		url			= "/eventos-corporativos/"
+		url			= "/es/eventos-corporativos/"
 	[[services.list]]
 		sectionid	= "public-speaking-coaching"
 		title		= "Hablar en Público"
@@ -64,7 +55,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-public-speaking-coaching.jpg"
 		style		= "bg-black"
 		layout		= "inserts/module-picture-textright.html"
-		url			= "/coaching-para-hablar-en-publico/"
+		url			= "/es/coaching-para-hablar-en-publico/"
 	[[services.list]]
 		sectionid	= "presentations-training"
 		title		= "Formación"
@@ -72,7 +63,7 @@ outputs			= ["html","rss","json"]
 		picture		= "/img/inserts/home-presentations-training.jpg"
 		style		= "bg-lightgrey"
 		layout		= "inserts/module-texttop-picture.html"
-		url			= "/formacion-para-hablar-en-publico/"
+		url			= "/es/formacion-para-hablar-en-publico/"
 +++
 En Ideas on Stage ayudamos a líderes de todo el mundo a hacer presentaciones impactantes, a crear eventos que inspiren y a fortalecer sus organizaciones gracias a nuestro acompañamiento y cursos para hablar en público y hacer presentaciones.
 

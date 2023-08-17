@@ -1,3 +1,0 @@
-user-agent: *
-disallow: /business-presentation-revolution/
-disallow: /business-presentation-revolution/book/

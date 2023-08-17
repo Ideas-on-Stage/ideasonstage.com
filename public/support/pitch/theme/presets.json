@@ -1,0 +1,18 @@
+{
+  "Presets": [
+    {
+      "Name": "Default",
+      "TitleFont": "",
+      "BodyFont": "",
+      "Appearance": "dark",
+      "DarkBodyTextColor": "#000000",
+      "LightBodyTextColor": "#ffffff",
+      "DarkTitleTextColor": "#000000",
+      "LightTitleTextColor": "#ffffff",
+      "DarkBackgroundColor": "#000000",
+      "LightBackgroundColor": "#ffffff",
+      "DarkAccent1": "#fc6d08",
+      "LightAccent1": "#FC6D08"
+    }
+  ]
+}

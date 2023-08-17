@@ -2,7 +2,7 @@
 draft			= true
 title			= "Coaching TEDx"
 description		= "Preparar adecuadamente a los ponentes de un evento TED es la clave para superar las altas expectativas del público"
-url				= "/coaching-para-hablar-en-publico/tedx-coaching//"
+url				= "/es/coaching-para-hablar-en-publico/tedx-coaching//"
 picture			= "tedx-saclay.jpg"
 weight			= 1
 

@@ -7,5 +7,5 @@ categories		= [ ]
 showrefs		= false
 showpageslist	= true
 urlredirect		= ""
-url		 		= "/success-stories-clients/"
+url		 		= "/fr/success-stories-clients/"
 +++

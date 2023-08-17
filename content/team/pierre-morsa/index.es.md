@@ -5,7 +5,7 @@ description	="Pierre Morsa es uno de los socios fundadores de Ideas on Stage y d
 name		= "Pierre Morsa"
 picture		= "pierre-morsa.jpg"
 position 	= "Co-founder"
-url			= "/equipo/pierre-morsa/"
+url			= "/es/equipo/pierre-morsa/"
 weight		= 100
 sameas		= ["https://www.pierremorsa.com","https://www.linkedin.com/in/pierremorsa/"]
 +++

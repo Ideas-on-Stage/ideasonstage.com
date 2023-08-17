@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tests on Ideas on Stage</title>
+    <link>https://www.ideasonstage.com/test/</link>
+    <description>Recent content in Tests on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage 2015 - </copyright><atom:link href="https://www.ideasonstage.com/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business Presentation Revolution</title>
+      <link>https://www.ideasonstage.com/test/page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/test/page/</guid>
+      <description>At Ideas on Stage, we have been revolutionizing presentations since 2010. Discover our most popular training and coaching services, and inspiring keynotes and webinars, together with a full set of resources including the book, short videos, and our podcast about better presenting.
+Book Business Presentation Revolution, written by our co-founder and Chief Inspiration Officer Phil Waknell, will change the way you think about presentations. Find out more about this ground-breaking book.</description>
+    </item>
+    
+  </channel>
+</rss>

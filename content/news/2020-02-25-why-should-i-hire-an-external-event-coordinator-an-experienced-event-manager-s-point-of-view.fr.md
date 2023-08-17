@@ -7,7 +7,7 @@ date = "2020-02-25"
 author = "Pierre Morsa"
 banner = "/img/news/event-crowd.jpg"
 language = "fr"
-url = "/news/2020-02-25-pourquoi-faire-appel-a-un-organisateur-evenements-externe/"
+url = "/fr/news/2020-02-25-pourquoi-faire-appel-a-un-organisateur-evenements-externe/"
 +++
 Beaucoup de gens pensent que l’organisation d’un événement est à la portée de tous. Mais est-ce vrai ? Si vous souhaitez en organiser un pour votre entreprise, il existe de nombreux enjeux, notamment la réputation de votre entreprise ou la satisfaction de vos invités. Si vous ne voulez prendre aucun risque et faire bonne impression, il est important de mettre en place une équipe dédiée à votre projet.
 
@@ -33,6 +33,6 @@ R : Même si vous avez le temps et l’expérience, il est indéniable que la g
 
 *Merci beaucoup, Marine, d’avoir pris le temps de partager votre expertise et la façon dont vous avez accompagné nos clients dans la conception et l’organisation de leurs événements.*
 
-Vous voulez en savoir davantage sur la manière de concevoir un événement exceptionnel ? [Retrouvez ici nos 12 précieux conseils](https://www.ideasonstage.fr/news/2019/09/24/2019-09-24-pour-un-evenement-exceptionnel-faites-quelque-chose/).
+Vous voulez en savoir davantage sur la manière de concevoir un événement exceptionnel ? [Retrouvez ici nos 12 précieux conseils](https://www.ideasonstage.com/fr/news/2019/09/24/2019-09-24-pour-un-evenement-exceptionnel-faites-quelque-chose/).
 
 ![Foule événement](/img/news/event-crowd.jpg)

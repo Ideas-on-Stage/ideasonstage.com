@@ -7,7 +7,7 @@ date = "2020-07-07"
 author = "Pierre Morsa"
 banner = "/img/news/tempest.jpg"
 language = "fr"
-url = "/news/2020-07-07-comment-desactiver-toutes-les-animations-presentation-powerpoint"
+url = "/fr/news/2020-07-07-comment-desactiver-toutes-les-animations-presentation-powerpoint"
 +++
 
 Est-ce que les animations dans les présentations vous donnent le mal de mer ? Il ne faut pas abuser des animations dans PowerPoint. Utilisées avec parcimonie, elles apportent dynamisme et aident à comprendre le message, mais trop d’animations rendent la présentation pénible à regarder en mode présentateur. 

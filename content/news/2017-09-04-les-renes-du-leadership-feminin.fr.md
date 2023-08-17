@@ -7,7 +7,7 @@ date		= "2017-09-04"
 author		= "Rose Bloomfield"
 banner		= "img/news/horse_field_thumb.jpg"
 +++
-En cette rentrée 2017, un événement a retenu notre attention. C'est à [Wisteria Acres](http://www.wisteriaacres.com), au Canada, que [Marion Chapsal](https://www.ideasonstage.fr/equipe/marion-chapsal/) et [Evelyn McKelvie](https://www.linkedin.com/in/evelynmckelvie/) vont animer, pour un groupe de huit participantes, un week-end dédié à la prise de parole en public – avec, vous l'aurez compris, le cheval au centre de cette prise de rênes.
+En cette rentrée 2017, un événement a retenu notre attention. C'est à [Wisteria Acres](http://www.wisteriaacres.com), au Canada, que [Marion Chapsal](https://www.ideasonstage.com/fr/equipe/marion-chapsal/) et [Evelyn McKelvie](https://www.linkedin.com/in/evelynmckelvie/) vont animer, pour un groupe de huit participantes, un week-end dédié à la prise de parole en public – avec, vous l'aurez compris, le cheval au centre de cette prise de rênes.
 
 ![horse_field][pic1]
 

@@ -3,7 +3,7 @@ draft 			= false
 title 			= "Présentations stratégiques"
 description		= "Nous vous créons une présentation pour répondre à des enjeux forts, de l'idée jusqu'à la scène."
 picture			= "strategy.jpg"
-url		 		= "/services/conseil-communication/strategie-communication/"
+url		 		= "/fr/services/conseil-communication/strategie-communication/"
 +++
 
 ## Nous vous créons une présentation pour répondre à des enjeux forts, quel que soit le public

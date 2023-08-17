@@ -3,7 +3,7 @@ draft		= false
 name		= "Phil Waknell"
 picture		= "phil-waknell.jpg"
 position 	= "Chief Inspiration Officer"
-url			= "/equipe/phil-waknell/"
+url			= "/fr/equipe/phil-waknell/"
 weight		= 110
 ni          = true
 +++
