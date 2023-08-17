@@ -151,16 +151,12 @@ theme        						= "hugo-theme-korporate"
 		[params.navigation.languages]
 			[params.navigation.languages.001]
 				name	= "Français"
-				url		= "https://www.ideasonstage.fr"
+				url		= "https://www.ideasonstage.com/fr/"
 				flag	= "flag_fr.svg"
 			[params.navigation.languages.002]
 				name	= "Español"
 				flag	= "flag_es.svg"
-				url		= "https://www.ideasonstage.es"
-			[params.navigation.languages.004]
-				name	= "Italiano"
-				url		= "https://www.ideasonstage.it"
-				flag	= "flag_it.svg"
+				url		= "https://www.ideasonstage.com/es/"
 	
 	# ------------------------------		
 	# References
@@ -376,35 +372,35 @@ theme        						= "hugo-theme-korporate"
 	
 			[[languages.fr.params.navigation.items]]
 				name		 	= "Conseil en communication"
-				url			 	= "/conseil-communication/"
+				url			 	= "/fr/conseil-communication/"
 			[[languages.fr.params.navigation.items]]
 				name		 	= "Coaching prise de parole"
-				url			 	= "/coaching-prise-de-parole-en-public/"
+				url			 	= "/fr/coaching-prise-de-parole-en-public/"
 			[[languages.fr.params.navigation.items]]
 				name		 	= "Formations et ateliers"
-				url			 	= "/formations-ateliers/"
+				url			 	= "/fr/formations-ateliers/"
 			[[languages.fr.params.navigation.items]]
 				name		 	= "Formations en ligne"
-				url			 	= "/formations-en-ligne/"
+				url			 	= "/fr/formations-en-ligne/"
 			[[languages.fr.params.navigation.items]]
 				name		 	= "Création de présentations"
-				url			 	= "/services/agence-creation-presentation-powerpoint/"
+				url			 	= "/fr/services/agence-creation-presentation-powerpoint/"
 			[[languages.fr.params.navigation.items]]
 				name		 	= "Support événementiel"
-				url			 	= "/evenements-entreprise/"
+				url			 	= "/fr/evenements-entreprise/"
 	
 			[[languages.fr.params.navigation.resources]]			
 				name			= "Vidéos"
-				url				= "/revolution/"
+				url				= "/fr/revolution/"
 			[[languages.fr.params.navigation.resources]]			
 				name			= "Webinaires"
-				url				= "/formations-en-ligne/webinaires/"
+				url				= "/fr/formations-en-ligne/webinaires/"
 			[[languages.fr.params.navigation.resources]]
 				name			= "Articles"
-				url				= "/news/"
+				url				= "/fr/news/"
 			[[languages.fr.params.navigation.resources]]
 				name			= "Guides"
-				url				= "/guides/"
+				url				= "/fr/guides/"
 						
 			[languages.fr.params.navigation.housekeeping]
 				[languages.fr.params.navigation.housekeeping.001]
@@ -414,21 +410,18 @@ theme        						= "hugo-theme-korporate"
 			[languages.fr.params.navigation.companyitems]
 				[languages.fr.params.navigation.companyitems.001]	
 					name			= "Ideas on Stage"
-					url				= "/apropos/"
+					url				= "/fr/apropos/"
 				[languages.fr.params.navigation.companyitems.002]
 					name			= "Équipe"
-					url				= "/equipe/"	
+					url				= "/fr/equipe/"	
 	
 			[languages.fr.params.navigation.languages]
 				[languages.fr.params.navigation.languages.001]
 					name	= "Español"
-					url		= "https://www.ideasonstage.es"
+					url		= "https://www.ideasonstage.com/es/"
 				[languages.fr.params.navigation.languages.002]
 					name	= "English"
-					url		= "https://www.ideasonstage.com"
-				[languages.fr.params.navigation.languages.003]
-					name	= "Italiano"
-					url		= "https://www.ideasonstage.it"
+					url		= "https://www.ideasonstage.com/"
 		
 		# ------------------------------		
 		# Contact section
@@ -577,24 +570,24 @@ theme        						= "hugo-theme-korporate"
 	
 			[[languages.es.params.navigation.items]]	
 				name		 	= "Creación de presentaciones"
-				url			 	= "/servicios/creacion-presentaciones-powerpoint/"
+				url			 	= "/es/servicios/creacion-presentaciones-powerpoint/"
 			[[languages.es.params.navigation.items]]	
 				name		 	= "Eventos corporativos"
-				url			 	= "/eventos-corporativos/"
+				url			 	= "/es/eventos-corporativos/"
 			[[languages.es.params.navigation.items]]	
 				name		 	= "Public Speaking"
-				url			 	= "/coaching-para-hablar-en-publico/"
+				url			 	= "/es/coaching-para-hablar-en-publico/"
 			[[languages.es.params.navigation.items]]	
 				name		 	= "Formación"
-				url			 	= "/formacion-para-hablar-en-publico/"
+				url			 	= "/es/formacion-para-hablar-en-publico/"
 					
 			[languages.es.params.navigation.resources]
 				[languages.es.params.navigation.resources.001]
 					name			= "Videos"
-					url				= "/revolution/"
+					url				= "/es/revolution/"
 				[languages.es.params.navigation.resources.002]
 					name			= "Guías"
-					url				= "/guias/"
+					url				= "/es/guias/"
 				
 			[languages.es.params.navigation.housekeeping]
 				[languages.es.params.navigation.housekeeping.001]
@@ -603,21 +596,18 @@ theme        						= "hugo-theme-korporate"
 			[languages.es.params.navigation.companyitems]		
 				[languages.es.params.navigation.companyitems.001]
 					name			= "Ideas on Stage"
-					url				= "/acerca-de-nosotros/"
+					url				= "/es/acerca-de-nosotros/"
 				[languages.es.params.navigation.companyitems.002]
 					name			= "Equipo"
-					url				= "/equipo/"
+					url				= "/es/equipo/"
 		
 			[languages.es.params.navigation.languages]
 				[languages.es.params.navigation.languages.001]
 					name	= "Français"
-					url		= "https://www.ideasonstage.fr"
+					url		= "https://www.ideasonstage.com/fr/"
 				[languages.es.params.navigation.languages.002]
 					name	= "English"
 					url		= "https://www.ideasonstage.com"
-				[languages.es.params.navigation.languages.003]
-					name	= "Italiano"
-					url		= "https://www.ideasonstage.it"
 	
 		# Location
 		[languages.es.params.location]

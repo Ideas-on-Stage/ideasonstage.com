@@ -3,21 +3,14 @@
 
 [[redirects]]
 	from			= "/"
-	to				= "https://www.ideasonstage.es/"
+	to				= "https://www.ideasonstage.com/es/"
 	status			= 301
 	force			= false
 	conditions		= {Language = ["es"], Country = ["ES"]}
 
 [[redirects]]
 	from			= "/"
-	to				= "https://www.ideasonstage.fr/"
+	to				= "https://www.ideasonstage.com/fr/"
 	status			= 301
 	force			= false
 	conditions		= {Language = ["fr"], Country = ["FR"]}
-	
-[[redirects]]
-	from			= "/"
-	to				= "https://www.ideasonstage.it/"
-	status			= 301
-	force			= false
-	conditions		= {Language = ["it"], Country = ["IT"]}
