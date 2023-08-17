@@ -1,42 +1,73 @@
+# redirect .es and .fr
+[[redirects]]
+	from			= "https://catalogue.ideasonstage.es/*"	
+	to				= "https://www.ideasonstage.com/es/:splat"
+	status		= 301
+	force			= true
+	from			= "https://catalogue.ideasonstage.fr/*"	
+	to				= "https://www.ideasonstage.com/fr/:splat"
+	status		= 301
+	force			= true
 
 # redirect catalogue
 [[redirects]]
 	from			= "https://catalogue.ideasonstage.com/*"	
 	to				= "https://www.ideasonstage.com/guides/ideasonstage-catalogue-en.pdf"
-	status			= 301
+	status		= 301
 	force			= true	
 [[redirects]]
 	from			= "https://catalogue.ideasonstage.com/fr/*"
 	to				= "https://www.ideasonstage.com/fr/guides/ideasonstage-catalogue-fr.pdf"
-	status			= 301
+	status		= 301
 	force			= true
 	
 # redirect in (linkedin)
 [[redirects]]
 	from			= "https://www.ideasonstage.com/in/"
 	to				= "https://www.linkedin.com/company/ideas-on-stage/"
-	status			= 301
+	status		= 301
 	force			= true
 [[redirects]]
 	from			= "https://in.ideasonstage.com/*"
 	to				= "https://www.linkedin.com/company/ideas-on-stage/"
-	status			= 301
+	status		= 301
 	force			= true
 [[redirects]]
 	from			= "https://in.ideasonstage.com/fr/*"
 	to				= "https://www.linkedin.com/company/ideas-on-stage/"
-	status			= 301
+	status		= 301
 	force			= true
 		
 # redirect revolution
 [[redirects]]
 	from			= "https://revolution.ideasonstage.com/*"
 	to				= "https://www.ideasonstage.com/revolution/"
-	status			= 301
+	status		= 301
 	force			= true
 [[redirects]]
 	from			= "https://revolution.ideasonstage.com/fr/*"
 	to				= "https://www.ideasonstage.com/fr/revolution/"
-	status			= 301
+	status		= 301
 	force			= true	
-	
+
+# UK Andrea's stuff redirects
+[[redirects]]
+	from			= "https://www.ideasonstage.com/score/"
+	to				= "https://presentationscorecard.scoreapp.com/"
+	status		= 301
+	force			= true
+[[redirects]]
+	from			= "https://www.ideasonstage.com/uk/masterclass/"
+	to				= "http://ideasonstageuk.eventbrite.com/"
+	status		= 301
+	force			= true
+[[redirects]]
+	from			= "https://www.ideasonstage.com/uk/bpr-pdf/"
+	to				= "https://mailchi.mp/7b5193d808cb/bpr-pdf"
+	status		= 301
+	force			= true
+[[redirects]]
+	from			= "https://www.ideasonstage.com/uk/value-bundle/"
+	to				= " https://mailchi.mp/5975bea9212e/value-bundle 301!"
+	status		= 301
+	force			= true

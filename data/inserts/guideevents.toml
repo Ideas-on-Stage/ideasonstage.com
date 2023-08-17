@@ -2,7 +2,7 @@
 	title		= "Guide de l'organisateur d'événements"
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-lightgray"
-	picture		= "/guide-organisateur-evenement-entreprise/organisateur-evenement.jpg"
+	picture		= "/fr/guide-organisateur-evenement-entreprise/organisateur-evenement.jpg"
 	url			= "/fr/guide-organisateur-evenement-entreprise/"
 	description	= "Notre guide pour vous aider à organiser vos événements d'entreprise."
 	button		= "Lire le guide"
