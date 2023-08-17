@@ -18,11 +18,12 @@
                 <li>
                     <a class="page-scroll" href="{{ .Site.BaseURL }}#services">{{ with .Site.Params.navigation.links.services }}{{ . }}{{ end }}</a>
                 </li>
-                {{ if .Site.Params.activenews }}
                 <li>
-                    <a class="page-scroll" href="{{ .Site.BaseURL }}news">{{ with .Site.Params.navigation.links.news }}{{ . }}{{ end }}</a>
-                </li>   
-                {{ end }}             
+										{{ if .Site.Params.navigation.links.news }}{{ . }}{{ end }}
+                    <a class="page-scroll" href="{{ .Site.BaseURL }}news">{{ with .Site.Params.navigation.links.news }}{{ . }}{{ end }}
+										</a>
+										{{ end }}
+                </li>
                 
                 <li>
                     <a class="page-scroll" href="{{ .Site.BaseURL }}#contact">{{ with .Site.Params.navigation.links.contact }}{{ . }}{{ end }}</a>

@@ -1,11 +1,11 @@
 baseURL					 				= "https://www.ideasonstage.com/"
+canonifyurls							= false
+copyright								= "© Ideas on Stage 2015 - "
 DefaultContentLanguage		= "en"
 paginate								= 8
 paginatePath						= "newspage"
-canonifyurls							= false
-title         						= "Ideas on Stage"
-copyright								= "© Ideas on Stage 2015 - "
 theme        						= "hugo-theme-korporate"
+title         						= "Ideas on Stage"
 
 [markup]
 	[markup.goldmark]
@@ -24,15 +24,8 @@ theme        						= "hugo-theme-korporate"
 [params]
 	author								= "Ideas on Stage"
 	email 									= "info@ideasonstage.com"
-	year									= "2019"
-	cookieslink						= "cookies/"
 	favicon								= "/img/ios_favicon.ico"
-		
-	# ---------------------		
-	#News
-	activenews			 			= true
-	viewMorePostLink			= "/news/"
-
+	
 	# ---------------------
 	# Buttons
 	[params.buttons]
@@ -78,6 +71,15 @@ theme        						= "hugo-theme-korporate"
 			height						= "52px"
 
 	# ---------------------
+	# Layout
+	[params.navigation]
+		brand 						= "Ideas on Stage"
+		brand_logo					= "/img/ideas-on-stage.svg"
+		brand_ball					= "/img/ideas-on-stage-ball.svg"
+		languageicon				= "/img/globe.svg"
+		languageiconhover = "/img/globe_hover.svg"
+
+	# ---------------------
 	[params.organization]
 		logo									= "/img/ideas-on-stage.svg"
 		name								= "Ideas on Stage"
@@ -113,9 +115,7 @@ theme        						= "hugo-theme-korporate"
 		rights							= "All Rights Reserved"
 		cookies							= "We fully respect your privacy. We don't use cookies or scripts to track you."
 		footer_desc					= "Ideas on Stage – SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 – N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
-		activenews					= true
 		tableofcontents			= "Table of Contents"
-
 	
 		# -------------------
 		# Buttons
@@ -177,23 +177,19 @@ theme        						= "hugo-theme-korporate"
 		# -------------------
 		# Map
 		[languages.en.params.map]
-				enable						= false
-				title						= "Where to find us"
-				subtitle					= "138 avenue des Champs Élysées — 75008 Paris. Stations de métro Charles de Gaulle Étoile ou George V."
+			enable							= false
+			title							= "Where to find us"
+			address						= ""
+			bgimage						= ""
 
 		# -------------------
 		# Navigation
 		[languages.en.params.navigation]
 			title							= "Navigation"
-			brand 						= "Ideas on Stage"
-			brand_logo					= "/img/ideas-on-stage.svg"
-			brand_ball					= "/img/ideas-on-stage-ball.svg"
 			language						= "Language"
 			resource					= "Resources"
 			service						= "Services"
 			company						= "About"
-			languageicon				= "/img/globe.svg"
-			languageiconhover 	="/img/globe_hover.svg"
 	
 			[[languages.en.params.navigation.items]]
 				name		 				= "Public Speaking Coaching"
@@ -258,21 +254,22 @@ theme        						= "hugo-theme-korporate"
 		# -------------------
 		# News
 		[languages.en.params.news]
+			viewMorePostLink	= "/news/"
 			more							= "Continue Reading"
 			by	 							= "by"
 			sbcategorytitle 		= "Top Categories"
 			related						= "See Also"
+
+		# -------------------		
+		# References
+		[languages.en.params.references]
+			title 							= "References"
 		
 		# -------------------
 		# Revolution
 		[languages.en.params.revolution]
 			more							= "Watch Episode"
 		  episodes					= "Previous episodes"
-
-		# -------------------		
-		# References
-		[languages.en.params.references]
-			title 							= "References"
 
 		# -------------------		
 		# Subscribe to our news
@@ -315,9 +312,7 @@ theme        						= "hugo-theme-korporate"
 		cookies							= "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
 		footer_desc					= "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
 		favicon							= "/img/ios_favicon.ico"
-	
 		tableofcontents			= "Table des matières"
-		activenews					= true
 		monthtrans					= "mois.yaml"
 	
 		# -------------------
@@ -389,14 +384,10 @@ theme        						= "hugo-theme-korporate"
 		# Navigation
 		[languages.fr.params.navigation]
 			title							= "Navigation"
-			brand 						= "Ideas on Stage"
-			brand_logo					= "/img/ideas-on-stage.svg"
 			language						= "Langue"
 			resource					= "Ressources"
 			service						= "Services"
 			company						= "À propos"
-			languageicon				= "/img/globe.svg"
-			languageiconhover ="/img/globe_hover.svg"
 	
 			[[languages.fr.params.navigation.items]]
 				name		 				= "Conseil en communication"
@@ -454,6 +445,7 @@ theme        						= "hugo-theme-korporate"
 		# -------------------		
 		# News
 		[languages.fr.params.news]
+			viewMorePostLink	= "/news/"
 			more 							= "continuer à lire"
 			by	 							= "par"
 			sbcategorytitle		= "Top catégories"
@@ -509,9 +501,6 @@ theme        						= "hugo-theme-korporate"
 		footer_desc					= "Ideas on Stage Spain<br>Barcelona."
 		favicon							= "/img/ios_favicon.ico"	
 		tableofcontents			= "Tabla de contenidos"
-
-		#News
-		activenews					= false
 		monthtrans					= "mois.es.yaml"
 	
 		# -------------------
@@ -566,19 +555,23 @@ theme        						= "hugo-theme-korporate"
 			postalcode					= ""
 			streetaddress			= ""
 			telephone					= "+34684607409"
+
+		# -------------------
+		# Map
+		[languages.es.params.map]
+			enable							= false
+			title							= ""
+			address						= ""
+			bgimage						= ""
 			
 		# -------------------		
 		# Navigation
 		[languages.es.params.navigation]
 			title							= "Navigation"
-			brand							= "Ideas on Stage"
-			brand_logo					= "/img/ideas-on-stage.svg"
 			resource					= "Recursos"
 			service						= "Servicios"
 			company						= "Nosotros"
 			language						= "Idioma"
-			languageicon				= "/img/globe.svg"
-			languageiconhover ="/img/globe_hover.svg"
 	
 			[[languages.es.params.navigation.items]]	
 				name		 				= "Creación de presentaciones"
@@ -624,6 +617,7 @@ theme        						= "hugo-theme-korporate"
 		# -------------------
 		# News
 		[languages.es.params.news]
+			viewMorePostLink	= "/news/"
 			more 							= "Continuar leyendo"
 			by	 							= "por"
 			sbcategorytitle 		= "Top categorías"
@@ -633,6 +627,17 @@ theme        						= "hugo-theme-korporate"
 		# References
 		[languages.es.params.references]
 			title 							= "References"
+		
+		# -------------------
+		# Revolution
+		[languages.es.params.revolution]
+			more							= "Ver el episodio"
+			episodes					= "Episodios"
+				
+		# -------------------		
+		# Subscribe to our news
+		[languages.es.params.subscribe]
+	    enable			 				= false
 	
 		# -------------------		
 		# Testimonials
@@ -641,14 +646,4 @@ theme        						= "hugo-theme-korporate"
 			title 							= "Testimonios"
 			subtitle 					= "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."	
 				
-		# -------------------		
-		# Subscribe to our news
-		[languages.es.params.subscribe]
-	    enable			 				= false
-				
-		# -------------------
-		# Revolution
-		[languages.es.params.revolution]
-			more							= "Ver el episodio"
-			episodes					= "Episodios"
 			
