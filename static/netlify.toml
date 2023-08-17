@@ -1,11 +1,17 @@
-# redirect .es and .fr
+# redirect .es .fr .it
 [[redirects]]
 	from			= "https://www.ideasonstage.es/*"	
 	to				= "https://www.ideasonstage.com/es/:splat"
 	status		= 301
 	force			= true
+[[redirects]]
 	from			= "https://www.ideasonstage.fr/*"	
 	to				= "https://www.ideasonstage.com/fr/:splat"
+	status		= 301
+	force			= true
+[[redirects]]
+	from			= "https://www.ideasonstage.it/*"	
+	to				= "https://www.ideasonstage.com/"
 	status		= 301
 	force			= true
 
