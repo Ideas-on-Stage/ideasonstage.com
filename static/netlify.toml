@@ -18,16 +18,16 @@
 # redirect language (only from homepage, don't redirect on subpages)
 [[redirects]]
 	from				= "/"
-	to					= "https://www.ideasonstage.com/es/"
+	to					= "/es/"
 	status			= 301
-	force				= false
-	conditions	= {Language = ["es"], Country = ["ES"]}
+	force				= true
+	conditions	= {Language = ["es"]}
 [[redirects]]
 	from				= "/"
-	to					= "https://www.ideasonstage.com/fr/"
+	to					= /fr/"
 	status			= 301
-	force				= false
-	conditions	= {Language = ["fr"], Country = ["FR"]}
+	force				= true
+	conditions	= {Language = ["fr"]}
 
 # redirect catalogue
 [[redirects]]
@@ -52,11 +52,6 @@
 	to					= "https://www.linkedin.com/company/ideas-on-stage/"
 	status			= 301
 	force				= true
-[[redirects]]
-	from				= "https://in.ideasonstage.com/fr/*"
-	to					= "https://www.linkedin.com/company/ideas-on-stage/"
-	status			= 301
-	force				= true
 		
 # redirect revolution
 [[redirects]]
@@ -73,6 +68,11 @@
 # UK Andrea's stuff redirects
 [[redirects]]
 	from				= "https://www.ideasonstage.com/score/"
+	to					= "https://presentationscorecard.scoreapp.com/"
+	status			= 301
+	force				= true
+[[redirects]]
+	from				= "https://www.ideasonstage.com/uk/score/"
 	to					= "https://presentationscorecard.scoreapp.com/"
 	status			= 301
 	force				= true

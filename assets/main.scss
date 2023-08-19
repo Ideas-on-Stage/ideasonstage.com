@@ -82,61 +82,59 @@
 	/* This is where ALL font sizes are declared */
 
 	/* font sizes for standard tags */
-	body, a, blockquote			{ font-size: 1.50vw;	}
-	h1							{ font-size: 2.00em;	}
-	h2							{ font-size: 1.75em;	}
-	h3 							{ font-size: 1.50em;	}
-	h4 							{ font-size: 1.25em;	}
-	h5							{ font-size: 1.00em;	}
-	footer, footer a			{ font-size: 1.00em;	}
+	body, a, blockquote				{ font-size: 1.50vw;	}
+	h1												{ font-size: 2.00em;	}
+	h2												{ font-size: 1.75em;	}
+	h3					 							{ font-size: 1.50em;	}
+	h4 												{ font-size: 1.25em;	}
+	h5												{ font-size: 1.00em;	}
+	footer, footer a					{ font-size: 1.00em;	}
 	
 	/* font sizes for custom classes */
-	.nav a  					{ font-size: 0.8em;		}
+	.button-primary						{ font-size:  1.50vw;	}
+	.nav a 				 						{ font-size: 0.8em;		}
 	.flex-404 .error-box h1		{ font-size: 2.00em;	}
 	.flex-404 .error-box h2 		{ font-size: 1.25em;	}
-  	.footer-main-category		{ font-size: 0.8em;		}
-  	.footer-sub-category		{ font-size: 0.75em;	}
-	.form-control-nav 			{ font-size: 90%;		}
-	.people-box-name				{ font-size: 1em;		}
-	.people-box-title			{ font-size: 0.75em;	}
-	.style-slider-title 			{ font-size: 2.50em;	}
-	.style-slider-subtitle		{ font-size: 1.50em;	}
-	.thumbnail-caption h3 		{ font-size: 0.75em;	}
-	.testimonials .item .testimonial .text p				{ font-size: 14px;	}  
-	.testimonials .item .testimonial .icon				{ font-size: 24px;	}
-	.testimonials .item .testimonial .name-picture h4	{ font-size: 1em;	}
+  .footer-main-category			{ font-size: 0.8em;		}
+  .footer-sub-category			{ font-size: 0.75em;	}
+	.form-control-nav 					{ font-size: 90%;  		}
+	.people-box-name						{ font-size: 1em;		  }
+	.people-box-title					{ font-size: 0.75em;	}
+	.style-slider-title 				{ font-size: 2.50em;	}
+	.style-slider-subtitle			{ font-size: 1.50em;	}
+	.thumbnail-caption h3 			{ font-size: 0.75em;	}
+	.testimonials .item .testimonial .text p						{ font-size: 14px;	}  
+	.testimonials .item .testimonial .icon							{ font-size: 24px;	}
+	.testimonials .item .testimonial .name-picture h4	{ font-size: 1em;		}
 	.testimonials .item .testimonial .name-picture h5 	{ font-size: 14px;	}
 	.testimonials .item .testimonial .name-picture p		{ font-size: 12px;	}
-	.iostestimonials .iostestimonial-item .iostestimonial .text p			{ font-size: 14px;	}  
-	.iostestimonials .iostestimonial-item .iostestimonial .icon				{ font-size: 24px;	}
-	.iostestimonials .iostestimonial-item .iostestimonial .name-picture h4	{ font-size: 1em;	}
+	.iostestimonials .iostestimonial-item .iostestimonial .text p						{ font-size: 14px;	}  
+	.iostestimonials .iostestimonial-item .iostestimonial .icon							{ font-size: 24px;	}
+	.iostestimonials .iostestimonial-item .iostestimonial .name-picture h4		{ font-size: 1em;		}
 	.iostestimonials .iostestimonial-item .iostestimonial .name-picture h5 	{ font-size: 14px;	}
-	.iostestimonials .iostestimonial-item .iostestimonial .name-picture p	{ font-size: 12px;	}
-	.timeline-title				{ font-size: 1.50em;	}
-	.timeline-text				{ font-size: 0.80em;	}
+	.iostestimonials .iostestimonial-item .iostestimonial .name-picture p		{ font-size: 12px;	}
+	.timeline-title						{ font-size: 1.50em;	}
+	.timeline-text							{ font-size: 0.80em;	}
 	.style-section-title-main 	{ font-size: 2.00em;	}
-	.style-module-text h3		{ font-size: 2.00em;	}
-	#content-table h2 			{ font-size: 1em;		}
-	#content-table a				{ font-size: 0.75em;	}
-	#sidebar h2 				{ font-size: 1em;		}
-	#sidebar li					{ font-size: 1em;		}
-	#sidebar a					{ font-size: 0.8em;		}
+	.style-module-text h3			{ font-size: 2.00em;	}
+	#content-table h2 					{ font-size: 1em;			}
+	#content-table a						{ font-size: 0.75em;	}
+	#sidebar h2				 				{ font-size: 1em;			}
+	#sidebar li								{ font-size: 1em;			}
+	#sidebar a								{ font-size: 0.8em;		}
 	
 	/* adjust for small tall smartphone screens */
-	@media(max-aspect-ratio:1/1) and (max-width:480px) {
-	
-		body, a, blockquote 			{ font-size: 4vw;		}
-		.nav a  					{ font-size: 12px;		}
+	@media(max-aspect-ratio:1/1) and (max-width:480px) {	
+		body, a, blockquote 			{ font-size: 4vw;			}
+		.button-primary					{ font-size: 4vw;			}
+		.nav a			  					{ font-size: 12px;		}
 		.style-slider-title 			{ font-size: 1.50em;	}	
 		.style-slider-subtitle		{ font-size: 1.00em;	}
-		
 	}
 	
 	/* adjust for very large screens (>1280px wide) */
 	@media(min-width:1281px) {
-		
-		body, a, blockquote			{ font-size: 20px;		}
-		
+		body, a, blockquote			{ font-size: 20px;		}		
 	}
 
 /* @end */
@@ -551,14 +549,14 @@
 		
 		.button-primary {
 			margin: 1vw 0;
-		    padding: 1vw 2vw;
+		  padding: 1vw 2vw;
 			color: {{ site.Params.buttons.primary.color }} !important;
 			background-color: {{ site.Params.buttons.primary.bg_color }};
 			border: none;
-		    border-radius: 5px;
-		    border-color: none;
-		    border-style: none;
-		    text-transform: uppercase;
+		  border-radius: 5px;
+		  border-color: none;
+		  border-style: none;
+		  text-transform: uppercase;
 		}
 		
 		.button-secondary {
@@ -634,6 +632,7 @@
 			width: 50vw;
 			min-width: 410px;
 			max-width:800px; /* prevents text area from getting unpleasantly wide */
+			box-sizing: border-box;
 		}
 		
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
@@ -782,29 +781,32 @@
 			width: 100%;
 			display: flex;
 			flex-direction: column;
+			box-sizing: border-box;
 		}
-			/* use to create inner div with text on top */
-			.layout-module-column-text {
-				position: relative;	/* enables z-index */
-				z-index: 10; /* if text overflows, it will go over picture below */
-				padding: 2vw 4vw;
-				margin: auto;
-				height: 50%;
-				width: 100%;
-				text-align: center;
-			}
-			
-			/* use to create inner div with image on bottom */
-			.layout-module-column-image {
-				height: 50%; /* without this, image size can overflow from module */
-				width: 100%;
-			}
-			.layout-module-column-image img {	
-				height: 100%;
-				width: 100%;
-				object-fit: contain; /* image is never distorted, crop if necessary */
-				object-position: 50% 100%; /* anchor on bottom, horizontal center */
-			}
+		
+		/* use to create inner div with text on top */
+		.layout-module-column-text {
+			position: relative;	/* enables z-index */
+			z-index: 10; /* if text overflows, it will go over picture below */
+			padding: 2vw 4vw;
+			margin: auto;
+			height: 50%;
+			width: 100%;
+			text-align: center;
+			box-sizing: border-box;
+		}
+		
+		/* use to create inner div with image on bottom */
+		.layout-module-column-image {
+			height: 50%; /* without this, image size can overflow from module */
+			width: 100%;
+		}
+		.layout-module-column-image img {	
+			height: 100%;
+			width: 100%;
+			object-fit: contain; /* image is never distorted, crop if necessary */
+			object-position: 50% 100%; /* anchor on bottom, horizontal center */
+		}
 
 		/* use to create module div with pic in background, text on top */
 		.layout-module-image-back-text-top {
@@ -1780,6 +1782,7 @@ nav ul.iosmenu ul {
 /*PMO Added for forms - height of free text field*/
 section#contact .iosform-group textarea.iosform-control {
     height: 133px;
+		box-sizing: border-box;
 }
 
 section#contact .text-danger {
@@ -1982,6 +1985,7 @@ label {
   -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	box-sizing: border-box;
 }
 .iosform-control-nav {
   box-shadow: none;

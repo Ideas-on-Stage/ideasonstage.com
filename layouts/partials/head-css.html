@@ -1,15 +1,17 @@
 {{ "<!-- partials:head-css.html:start -->" | safeHTML }}
 
 {{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
-{{/* <!— <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"> —> */}}
-<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+{{ if eq true site.Params.css.enablebootstrap }}
+	{{/* <!— <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"> —> */}}
+	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+{{ end }}
 
 {{ "<!-- Custom Fonts -->" | safeHTML }}
-<link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6201816/7621392/css/fonts.css" />
+{{ with site.Params.css.fontawesome }}<link rel="stylesheet" href="{{ . }}" type="text/css">{{ end }}
+{{ with site.Params.css.typography }}<link rel="stylesheet" href="{{ . }}" type="text/css" />{{ end }}
 
 {{ "<!-- Site CSS -->" | safeHTML }}
-{{- $style := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
+{{- $style := resources.Get site.Params.css.main | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 {{ "<!-- partials:head-css.html:end -->" | safeHTML }}

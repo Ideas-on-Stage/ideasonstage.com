@@ -35,15 +35,7 @@ title         						= "Ideas on Stage"
 		[params.buttons.secondary]
 			color							= "#00A3E0"
 			bg_color						= "none"
-
-	# ---------------------
-	# CSS
-	[params.css]
-		main								= "main.scss"
-		enablebootstrap			= false
-		typography					= "https://cloud.typography.com/6201816/7621392/css/fonts.css"
-		fontawesome					= "/css/font-awesome.min.css"
-
+		
 	# ---------------------
 	# Colors
 	[params.colors]
@@ -191,44 +183,6 @@ title         						= "Ideas on Stage"
 			bgimage						= ""
 
 		# -------------------
-		# Menu main
-		[languages.en.menu]
-			[[languages.en.menu.main]]
-				name						= "Corporate Communication"
-				pageRef	 				= "/corporate-communication/"
-				weight					= 10
-			[[languages.en.menu.main]]
-				name		 				= "Public Speaking Coaching"
-				pageRef 				= "/public-speaking-coaching/"
-				weight					= 20
-			[[languages.en.menu.main]]
-				name						= "Presentations Training"
-				pageRef 				= "/presentations-training/"
-				weight					= 30
-			[[languages.en.menu.main]]
-				name						= "Creative Workshops"
-				pageRef 				= "/creative-workshops/"
-				weight					= 40
-			[[languages.en.menu.main]]
-				name		 				= "Contact"
-				pageRef					= "#contact"
-				weight					= 100
-			[[languages.en.menu.main]]
-				name		 				= "Language"
-				pre							= ""
-				weight					= 100
-			[[languages.en.menu.main]]
-				parent					= "Language"
-				name		 				= "Français"
-				pageRef					= "/fr/"
-				weight					= 110
-			[[languages.en.menu.main]]
-				parent					= "Language"
-				name		 				= "Español"
-				pageRef					= "/es/"
-				weight					= 120
-
-		# -------------------
 		# Navigation
 		[languages.en.params.navigation]
 			title							= "Navigation"
@@ -236,7 +190,7 @@ title         						= "Ideas on Stage"
 			resource					= "Resources"
 			service						= "Services"
 			company						= "About"
-				
+	
 			[[languages.en.params.navigation.items]]
 				name		 				= "Public Speaking Coaching"
 				url			 				= "/public-speaking-coaching/"
