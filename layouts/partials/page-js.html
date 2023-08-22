@@ -3,8 +3,7 @@
 {{ "<!-- jQuery required for form validation -->" | safeHTML }}
 <script src="/js/jquery.js"></script>
 
-
-<!-- jquery contact form event handler   --> 
+{{ "<!-- jQuery contact form event handler -->" | safeHTML }}
 <script>
   $("form").submit(function(e) {
     e.preventDefault();
@@ -22,9 +21,8 @@
   });    
 </script>
 
-{{ "<!-- Search Management JavaScript -->" | safeHTML }}
-   
+{{ "<!-- Search Management JavaScript -->" | safeHTML }}   
   <script src="/js/fuse.js"></script>           
   <script src="/js/fastsearch.js"></script> 
-
+  
 {{ "<!-- partials:page-js.html:end -->" | safeHTML }}

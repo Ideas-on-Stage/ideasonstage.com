@@ -12,7 +12,7 @@
 			{{- end }}
 			{{- if gt $slidercount 0 }}
 				{{ partial "page-slider.html" . }}
-			{{- else if eq true .Params.enablehero }}
+			{{- else if $heropath }}
 				{{/* <!-- if pic exists, create hero area --> */}}
 				<div class="layout-hero">
 					{{ with .Params -}}

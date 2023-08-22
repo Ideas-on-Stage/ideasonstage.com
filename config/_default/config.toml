@@ -81,11 +81,11 @@ title         						= "Ideas on Stage"
 	# ---------------------
 	# Layout
 	[params.navigation]
-		brand 						= "Ideas on Stage"
-		brand_logo					= "/img/ideas-on-stage.svg"
-		brand_ball					= "/img/ideas-on-stage-ball.svg"
-		languageicon				= "/img/globe.svg"
-		languageiconhover = "/img/globe_hover.svg"
+		brand 							= "Ideas on Stage"
+		brand_logo						= "/img/ideas-on-stage.svg"
+		brand_ball						= "/img/ideas-on-stage-ball.svg"
+		languageicon					= "/img/globe.svg"
+		languageiconhover 		= "/img/globe_hover.svg"
 
 	# ---------------------
 	[params.organization]

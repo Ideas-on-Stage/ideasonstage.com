@@ -1,9 +1,10 @@
 {{ "<!-- partials:head-css.html:start -->" | safeHTML }}
 
-{{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
 {{ if eq true site.Params.css.enablebootstrap }}
-	{{/* <!— <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"> —> */}}
+	{{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
 	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+{{ else }}
+	{{ "<!-- Bootstrap disabled -->" | safeHTML }}
 {{ end }}
 
 {{ "<!-- Custom Fonts -->" | safeHTML }}

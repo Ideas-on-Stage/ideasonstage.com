@@ -6,9 +6,11 @@
 	</div>
 	{{- end }}
 	{{- range .Params.services.list -}}
-		<div>
-			{{ partial .layout . }}
-		</div>
+		{{- if ne true .draft }}
+			<div>
+				{{ partial .layout . }}
+			</div>
+		{{- end -}}
 	{{- end -}}
 </section>
 {{ "<!-- partials:home:services:end -->" | safeHTML }}

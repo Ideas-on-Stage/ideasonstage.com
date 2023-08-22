@@ -1,7 +1,7 @@
 +++
 draft	 		= false
 title 			= "Coaching prise de parole et gestion d'événements"
-description		= "Agence internationale spécialisée dans la création de présentations, la formation et le coaching en prise de parole en public et les événements d'entreprise. Nous sommes présents aux États-Unis et en Europe."
+description		= "Agence internationale spécialisée formation et coaching en prise de parole en public et création de présentations. Nous sommes présents aux États-Unis et en Europe."
 picture			= "/img/ideas-on-stage.svg"
 schema			= "Website"
 
