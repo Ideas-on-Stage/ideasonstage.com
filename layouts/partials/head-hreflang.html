@@ -4,9 +4,7 @@
 	{{- else -}}
 		<link href="{{ .Permalink }}" rel="canonical" />
 	{{- end -}}
-	{{- if .IsTranslated }}
-	  {{- range .AllTranslations }}
-			<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
-	  {{- end}}
-	{{- end }}
+  {{- range .AllTranslations }}
+		<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
+  {{- end}}
 {{ "<!-- partials:head-hreflang.html:end -->" | safeHTML }}
