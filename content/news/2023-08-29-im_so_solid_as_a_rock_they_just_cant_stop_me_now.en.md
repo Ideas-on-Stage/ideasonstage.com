@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "“I'm so solid as a rock, they just can't stop me now!”"
 news = ["general"]
 date = "2023-08-29"
