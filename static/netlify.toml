@@ -21,13 +21,13 @@
 	to					= "/es/"
 	status			= 301
 	force				= true
-	conditions	= {Language = ["es"]}
+	conditions	= { Language = ["es"] }
 [[redirects]]
 	from				= "/"
-	to					= /fr/"
+	to					= "/fr/"
 	status			= 301
 	force				= true
-	conditions	= {Language = ["fr"]}
+	conditions	= { Language = ["fr"] }
 
 # redirect catalogue
 [[redirects]]
@@ -88,6 +88,6 @@
 	force				= true
 [[redirects]]
 	from				= "https://www.ideasonstage.com/uk/value-bundle/"
-	to					= " https://mailchi.mp/5975bea9212e/value-bundle 301!"
+	to					= "https://mailchi.mp/5975bea9212e/value-bundle/"
 	status			= 301
 	force				= true

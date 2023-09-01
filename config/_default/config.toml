@@ -116,6 +116,7 @@ title         						= "Ideas on Stage"
 [languages.en]
 	languageName						= "English"
 	languageCode 					= "en"
+	country								= "United States"
 	weight								= "1"
 	
 	[languages.en.params]
@@ -350,6 +351,7 @@ title         						= "Ideas on Stage"
 [languages.fr]
 	languageName						= "Français"
 	languageCode 					= "fr"
+	country								= "France"
 	weight 								= "2"
 	
 	[languages.fr.params]
@@ -538,6 +540,7 @@ title         						= "Ideas on Stage"
 [languages.es]
 	languageName						= "Español"
 	languageCode 					= "es"
+	country								= "España"
 	weight 								= "3"
 	
 	[languages.es.params]
