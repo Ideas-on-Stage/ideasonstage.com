@@ -12,7 +12,7 @@ A few weeks ago I conducted a training where we approached various topics for di
 
 Firstly let’s dig a little in to what the Double Bind Theory means. There are two layers/meanings as far as I am aware. 
 
-The first meaning is that a Double Bind is a psychological construct that limits people’s capacity to make decisions, therefore restricting their ability to take any kind of action at all. Usually because the decision is a very tough one, or overwhelming. Another way of putting it is a **Catch 22** situationwhere you are paralyzed between a rock and hard place. So, if you’re damned if you do and damned if you don’t, you’re in a Double Bind. 
+The first meaning is that a Double Bind is a psychological construct that limits people’s capacity to make decisions, therefore restricting their ability to take any kind of action at all. Usually because the decision is a very tough one, or overwhelming. Another way of putting it is a **Catch 22** situation where you are paralyzed between a rock and hard place. So, if you’re damned if you do and damned if you don’t, you’re in a Double Bind. 
 
 To give an example: Imagine that you want to end a relationship because the current one is unfulfilling, however the fear of looking for a new one and jumping in to the unknown keeps you stuck. Stuck between dissatisfaction and the unknown, you stay with the status quo and do nothing by choosing what might appear to be the lesser of two evils. A Double Bind.
 
@@ -20,7 +20,7 @@ This kind of scenario requires careful thought, and you may do well to bring in 
 
 The second level of meaning for Double Bind is around communication, particularly in relationships (both personal and professional) and so a Double Bind refers to a set of mixed messages from a superior, caregiver or partner. It comes from the social scientist Gregory Bateson’s theory on schizophrenia being caused by confusing and contradictory messaging from narcissistic/perfectionist parents. So while the parents’ words might be nurturing, if their behaviour is the opposite, the child is in a constant state of confusion. When a child can never get it right, whatever they do, this is very damaging to their development. 
 
-Let’s imagine a work example: a superior may have given the impression to a subordinate that the deadline wasn’t important, so it gets missed, and then all hell breaks loose because it **was** missed. Then the guilty party feels like they’ve been led in to a trap or they feel bad because they should have somehow anticipated or read the situation better. The communication was not clear. Whose fault was it? 
+Let’s imagine a work example: a superior may have given the impression to a subordinate that the deadline wasn’t important, so it gets missed, and then all hell breaks loose because it was missed. Then the guilty party feels like they’ve been led in to a trap or they feel bad because they should have somehow anticipated or read the situation better. The communication was not clear. Whose fault was it? 
 
 So let’s apply this to the role female leaders feel they are expected to portray at work. There is a pull in one direction for women to appear approachable, non-assertive and empathetic (because this is historically what is expected of them), and the pull in the other extreme when women feel the need to be more assertive to get a significant reaction or a work need met. Either way, the critics’ knives are out: she’s either too soft or too assertive so it’s very hard to walk the tightrope between these traps.
 
