@@ -11,13 +11,15 @@
 			{{ partial "page-hero.html" . }}
 			<div class="layout-module-wrapper">
 				{{ partial "page-inserts-top.html" . }}
-				{{ partial "home/services.html" . }}
-				{{ partial "home/content.html" . }}
+				<section id="content-main" class="layout-content style-text-intro">
+					{{ .Content }}
+				</section>
 				{{ partial "home/references.html" . }}
+				{{ partial "home/services.html" . }}
+		    {{ partial "page-inserts-bottom.html" . }}
 			</div>
 		</main>
 		<aside>
-		  {{ partial "page-inserts-bottom.html" . }}
 	 		{{ partial "page-subscribe.html" . }}
 	 	  {{ partial "home/testimonials.html" . }}
 	 	  {{ partial "page-contact.html" . }}

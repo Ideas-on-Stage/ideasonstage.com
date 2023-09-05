@@ -74,6 +74,7 @@ title         						= "Ideas on Stage"
 		[params.layout.module]
 			padding						= "0.2vw"
 			height						= "36vw"
+			height_big				= "56vw"
 			height_ts					= "140vw" # ts is for tall small screens on smartphones
 		[params.layout.navigation]
 			height						= "52px"
@@ -116,10 +117,10 @@ title         						= "Ideas on Stage"
 [languages.en]
 	languageName						= "English"
 	languageCode 					= "en"
-	country								= "United States"
 	weight								= "1"
 	
 	[languages.en.params]
+		country							= "United States"
 		googleAnalytics			= "UA-30695118-1"
 		rights							= "All Rights Reserved"
 		cookies							= "We fully respect your privacy. We don't use cookies or scripts to track you."
@@ -248,14 +249,8 @@ title         						= "Ideas on Stage"
 				name						= "Training & Workshops"
 				url			 				= "/presentations-training/"
 			[[languages.en.params.navigation.items]]
-				name		 				= "Online Training"
-				url			 				= "/online-training/"
-			[[languages.en.params.navigation.items]]
-				name		 				= "Presentation Design"
+				name		 				= "Presentation Creation"
 				url			 				= "/services/powerpoint-presentation-design-agency/"
-			[[languages.en.params.navigation.items]]
-				name		 				= "Event Support"
-				url							= "/business-events/"
 	
 			[[languages.en.params.navigation.resources]]
 				name						= "Videos"
@@ -351,10 +346,10 @@ title         						= "Ideas on Stage"
 [languages.fr]
 	languageName						= "Français"
 	languageCode 					= "fr"
-	country								= "France"
 	weight 								= "2"
 	
 	[languages.fr.params]
+		country							= "France"
 		googleAnalytics			= "UA-30695118-2"
 		rights							= "Tous droits réservés"
 		cookies							= "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
@@ -444,17 +439,11 @@ title         						= "Ideas on Stage"
 				name		 				= "Coaching prise de parole"
 				url			 				= "/fr/coaching-prise-de-parole-en-public/"
 			[[languages.fr.params.navigation.items]]
-				name		 				= "Formations et ateliers"
+				name		 				= "Formations en présentations"
 				url						 	= "/fr/formations-ateliers/"
-			[[languages.fr.params.navigation.items]]
-				name					 	= "Formations en ligne"
-				url						 	= "/fr/formations-en-ligne/"
 			[[languages.fr.params.navigation.items]]
 				name					 	= "Création de présentations"
 				url			 				= "/fr/services/agence-creation-presentation-powerpoint/"
-			[[languages.fr.params.navigation.items]]
-				name		 				= "Support événementiel"
-				url			 				= "/fr/evenements-entreprise/"
 	
 			[[languages.fr.params.navigation.resources]]			
 				name						= "Vidéos"
@@ -540,10 +529,10 @@ title         						= "Ideas on Stage"
 [languages.es]
 	languageName						= "Español"
 	languageCode 					= "es"
-	country								= "España"
 	weight 								= "3"
 	
 	[languages.es.params]
+		country							= "España"
 		googleAnalytics 			= "UA-30695118-3"
 		rights							= "Todos los derechos reservados"
 		cookies							= "No usamos cookies."
@@ -623,17 +612,14 @@ title         						= "Ideas on Stage"
 			language						= "Idioma"
 	
 			[[languages.es.params.navigation.items]]	
-				name		 				= "Creación de presentaciones"
-				url			 				= "/es/servicios/creacion-presentaciones-powerpoint/"
-			[[languages.es.params.navigation.items]]	
-				name		 				= "Eventos corporativos"
-				url			 				= "/es/eventos-corporativos/"
-			[[languages.es.params.navigation.items]]	
-				name		 				= "Public Speaking"
+				name		 				= "Coaching para hablar en pùblico"
 				url			 				= "/es/coaching-para-hablar-en-publico/"
 			[[languages.es.params.navigation.items]]	
-				name		 				= "Formación"
+				name		 				= "Formación presentaciones"
 				url			 				= "/es/formacion-para-hablar-en-publico/"
+			[[languages.es.params.navigation.items]]	
+				name		 				= "Creación de presentaciones"
+				url			 				= "/es/servicios/creacion-presentaciones-powerpoint/"
 					
 			[languages.es.params.navigation.resources]
 				[languages.es.params.navigation.resources.001]

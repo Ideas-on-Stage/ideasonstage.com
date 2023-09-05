@@ -48,21 +48,22 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 [services]
 	[[services.list]]
 		sectionid		= "public-speaking-coaching"
-		title				= "Coaching prise de parole"
+		title				= "Coaching en prise de parole"
 		description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène."
-		picture			= "/img/inserts/home-public-speaking-coaching.jpg"
+		picture			= "/img/inserts/home-business-events.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/fr/coaching-prise-de-parole-en-public/"	
 	[[services.list]]
 		sectionid		= "presentations-training"
-		title				= "Formations et Webinaires"
-		description	= "Découvrez nos formations en ligne et en présentiel."
+		title				= "Formations en art oratoire et présentations"
+		description	= "Découvrez nos formations à la prise de parole en ligne et en présentiel."
 		picture			= "/training.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/fr/formations-ateliers/"
 	[[services.list]]
+		draft				= true
 		sectionid		= "business-events"
 		title				= "Support événementiel"
 		description	= "Un ensemble de services pour faciliter l'organisation des événements. Maîtres de cérémonie, coaching en prise de parole, ateliers créatifs, gestion de projet."

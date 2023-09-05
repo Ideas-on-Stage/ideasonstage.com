@@ -11,6 +11,15 @@ insertsbottom	= [ "catalogue","revolution" ]
 
 [slider]
 	[[slider.list]]
+		date				= "2023-09-05"
+		bgimage 		= "/es/guia-definitiva-hablar-en-publico/public-speaking.jpg"
+		title 				= "LA GUÍA PARA HABLAR EN PÚBLICO"
+		description = "Las técnicas necesarias para conseguir una comunicación oral efectiva."
+		button 			= "Leer el guía"
+		buttonlink		= "/es/guia-definitiva-hablar-en-publico/"
+		color				= "text-white"	
+		opacity			= "30"
+	[[slider.list]]
 		draft				= true
 		date				= "2020-06-05"
 		expirydate	= "2020-06-19"
@@ -36,6 +45,22 @@ insertsbottom	= [ "catalogue","revolution" ]
 
 [services]
 	[[services.list]]
+		sectionid		= "public-speaking-coaching"
+		title				= "Coaching Hablar en Público"
+		description	= "Muestra tu mejor versión sobre el escenario."
+		picture			= "/img/inserts/home-business-events.jpg"
+		style				= "bg-black"
+		layout				= "inserts/module-picture-textright.html"
+		url					= "/es/coaching-para-hablar-en-publico/"
+	[[services.list]]
+		sectionid		= "presentations-training"
+		title				= "Formación Presentaciones"
+		description	= "Cambia la cultura de las presentaciones en tu organización."
+		picture			= "/training.jpg"
+		style				= "bg-black"
+		layout				= "inserts/module-picture-textright.html"
+		url					= "/es/formacion-para-hablar-en-publico/"
+	[[services.list]]
 		sectionid		= "presentation-creation"
 		title				= "Agencia de Presentaciones"
 		description	= "Una gran historia. Las mejores slides"
@@ -44,6 +69,7 @@ insertsbottom	= [ "catalogue","revolution" ]
 		layout				= "inserts/module-texttop-picture.html"
 		url					= "/es/servicios/creacion-presentaciones-powerpoint/"
 	[[services.list]]
+		draft 			= true
 		sectionid		= "business-events"
 		title				= "Eventos Corporativos"
 		description	= "Rompe con la rutina. Sorprende a tus invitados."
@@ -51,22 +77,6 @@ insertsbottom	= [ "catalogue","revolution" ]
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/es/eventos-corporativos/"
-	[[services.list]]
-		sectionid		= "public-speaking-coaching"
-		title				= "Hablar en Público"
-		description	= "Muestra tu mejor versión sobre el escenario."
-		picture			= "/img/inserts/home-public-speaking-coaching.jpg"
-		style				= "bg-black"
-		layout				= "inserts/module-picture-textright.html"
-		url					= "/es/coaching-para-hablar-en-publico/"
-	[[services.list]]
-		sectionid		= "presentations-training"
-		title				= "Formación"
-		description	= "Cambia la cultura de las presentaciones en tu organización."
-		picture			= "/img/inserts/home-presentations-training.jpg"
-		style				= "bg-lightgrey"
-		layout				= "inserts/module-texttop-picture.html"
-		url					= "/es/formacion-para-hablar-en-publico/"
 +++
 En Ideas on Stage ayudamos a líderes de todo el mundo a hacer presentaciones impactantes, a crear eventos que inspiren y a fortalecer sus organizaciones gracias a nuestro acompañamiento y cursos para hablar en público y hacer presentaciones.
 

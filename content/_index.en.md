@@ -95,11 +95,11 @@ insertsbottom		= [ "catalogue", "presentationscore", "revolution", "news" ]
 		url					= "/business-events/"
 	[[services.list]]
 		sectionid		= "presentations-training"
-		title				= "Training & Workshops"
+		title				= "Presentations Training"
 		description	= "Discover our presentation training programs to become a better speaker."
-		picture			= "/img/inserts/home-presentations-training.jpg"
-		style				= "bg-lightgrey"
-		layout				= "inserts/module-texttop-picture.html"
+		picture			= "/training.jpg"
+		style				= "bg-black"
+		layout				= "inserts/module-picture-textright.html"
 		url					= "/presentations-training/"
 	[[services.list]]
 		sectionid		= "presentation-creation"

@@ -826,6 +826,10 @@
 			}
 			/* use layout-module-column-text above to create text div */
 			
+		.layout-module-big {
+		height: {{ site.Params.layout.module.height_big }};
+		}
+			
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
 			
 			.layout-module-half {
