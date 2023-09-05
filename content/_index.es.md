@@ -13,9 +13,9 @@ insertsbottom	= [ "catalogue","revolution" ]
 	[[slider.list]]
 		date				= "2023-09-05"
 		bgimage 		= "/es/guia-definitiva-hablar-en-publico/public-speaking.jpg"
-		title 				= "LA GUÍA PARA HABLAR EN PÚBLICO"
-		description = "Las técnicas necesarias para conseguir una comunicación oral efectiva."
-		button 			= "Leer el guía"
+		title 				= "LA GUÍA DEFINITIVA PARA HABLAR EN PÚBLICO"
+		description = "Usa estas técnicas para comunicarte de forma efectiva."
+		button 			= "Leer la guía"
 		buttonlink		= "/es/guia-definitiva-hablar-en-publico/"
 		color				= "text-white"	
 		opacity			= "30"
@@ -63,7 +63,7 @@ insertsbottom	= [ "catalogue","revolution" ]
 	[[services.list]]
 		sectionid		= "presentation-creation"
 		title				= "Agencia de Presentaciones"
-		description	= "Una gran historia. Las mejores slides"
+		description	= "Una gran historia ilustrada con las mejores slides."
 		picture			= "/img/inserts/home-presentation-creation-agency.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-texttop-picture.html"

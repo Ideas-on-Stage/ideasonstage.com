@@ -557,7 +557,7 @@ title         						= "Ideas on Stage"
 			subtitle  					= "¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible"
 			contactemail 			= "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
 			buttonText 				= "Enviar mensaje"
-			wait							= "Por favor, espera un instante..."
+			wait							= "Un momento ..."
 			success 					= "Gracias, en breve nos pondremos en contacto contigo."
 			recaptchasitekey	= "6Lcnff4UAAAAAG8RHxmsXXggu-WaRriMcsYB5rgG"
 			missingcaptcha 		= "Introduzca el código CAPTCHA.\n"
@@ -679,6 +679,6 @@ title         						= "Ideas on Stage"
 		[languages.es.params.testimonials]
 			enable 						= true	
 			title 							= "Testimonios"
-			subtitle 					= "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."	
+			subtitle 					= "Hemos trabajado con muchos clientes a lo largo de los años, y siempre nos encanta conocer sus impresiones después de cada colaboración. He aquí una muestra de lo que nuestros clientes dicen de nosotros."	
 				
 			
