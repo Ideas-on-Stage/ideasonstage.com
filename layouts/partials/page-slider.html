@@ -1,9 +1,10 @@
 {{ "<!-- partials:page-slider.html:start -->" | safeHTML }}
 <div class="heroslider layout-hero">
 	{{- $.Scratch.Set "counter" 0 }}
-	{{- $slidercount := len .Params.slider.list }}
+	{{- $slidercount := 0 }}
 	{{- range .Params.slider.list }}
 		{{- if (partial "f/isactive" .) }}
+			{{ $slidercount = add $slidercount 1 }}
 			{{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
 		<input type="radio" id="heroslider-{{$.Scratch.Get "counter"}}" name="heroslider[]" {{ if eq 1 ($.Scratch.Get "counter") }}checked{{ end }}>
 		{{- end }}

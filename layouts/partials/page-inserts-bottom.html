@@ -1,13 +1,17 @@
 {{ "<!-- partials:page-inserts-bottom.html:start -->" | safeHTML }}
-<section id="inserts-bottom" class="flex-parent-row">
-{{- range .Params.insertsbottom }}
-	{{- $insertalllang := index site.Data.inserts . }}
-	{{- if $insertalllang }}
-		{{- $insert := index $insertalllang site.LanguageCode }}
-		{{- if $insert }}
-			{{ partial $insert.layout $insert }}
+{{ if .Params.insertsbottom }}
+	<section id="inserts-bottom" class="layout-module-wrapper flex-parent-row">
+	{{- range .Params.insertsbottom }}
+		{{- $insertalllang := index site.Data.inserts . }}
+		{{- if $insertalllang }}
+			{{- $insert := index $insertalllang site.LanguageCode }}
+			{{- if $insert }}
+				{{ partial $insert.layout $insert }}
+			{{- end }}
 		{{- end }}
 	{{- end }}
-{{- end }}
-</section>
+	</section>
+{{ else }}
+{{ "<!-- No bottom inserts -->" | safeHTML }}
+{{ end }}
 {{ "<!-- partials:page-inserts-bottom.html:end -->" | safeHTML }}

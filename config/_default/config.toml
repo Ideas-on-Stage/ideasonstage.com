@@ -65,6 +65,8 @@ title         						= "Ideas on Stage"
 	# ---------------------
 	# Layout
 	[params.layout]
+		[params.layout.navigation]
+			height						= "52px"
 		[params.layout.page]
 			[params.layout.page.padding]
 				top							= "52px"
@@ -72,12 +74,10 @@ title         						= "Ideas on Stage"
 				bottom					= "0"
 				left							= "0"			
 		[params.layout.module]
-			padding						= "0.2vw"
+			padding						= "0.5vw"
 			height						= "36vw"
 			height_big				= "56vw"
 			height_ts					= "140vw" # ts is for tall small screens on smartphones
-		[params.layout.navigation]
-			height						= "52px"
 
 	# ---------------------
 	# Layout
