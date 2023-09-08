@@ -4,7 +4,7 @@
 	{{ range first 1 .Pages }}
 		{{/* <!-- generate hero with newest video --> */}}
 	     <section id="hero">
-			<div class="layout-screen-partial">
+			<div class="layout-hero">
 				<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 					<img src="{{ .RelPermalink }}image.jpg">
 				</a>
