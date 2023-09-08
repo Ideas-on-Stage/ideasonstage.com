@@ -731,6 +731,7 @@
 			padding-right: {{ site.Params.layout.module.padding.right }};
 			padding-bottom: {{ site.Params.layout.module.padding.bottom }};
 			padding-left: {{ site.Params.layout.module.padding.left }};
+			box-sizing: border-box;
 		}
 		
 		/* 2a. use this to start a full width module div */
@@ -740,6 +741,7 @@
 			padding-right: {{ site.Params.layout.module.padding.right }};
 			padding-bottom: {{ site.Params.layout.module.padding.bottom }};
 			padding-left: {{ site.Params.layout.module.padding.left }};
+			box-sizing: border-box;
 		}
 		
 		/* 2b. or use this to start a half width module div */
@@ -749,6 +751,7 @@
 			padding-right: {{ site.Params.layout.module.padding.right }};
 			padding-bottom: {{ site.Params.layout.module.padding.bottom }};
 			padding-left: {{ site.Params.layout.module.padding.left }};
+			box-sizing: border-box;
 		}
 		
 		/* use to create module div with pic on left, text on right */
@@ -791,30 +794,28 @@
 			flex-direction: column;
 			box-sizing: border-box;
 		}
-		
-		/* use to create inner div with text on top */
-		.layout-module-column-text {
-			position: relative;	/* enables z-index */
-			z-index: 10; /* if text overflows, it will go over picture below */
-			padding: 2vw 4vw;
-			margin: auto;
-			height: 50%;
-			width: 100%;
-			text-align: center;
-			box-sizing: border-box;
-		}
-		
-		/* use to create inner div with image on bottom */
-		.layout-module-column-image {
-			height: 50%; /* without this, image size can overflow from module */
-			width: 100%;
-		}
-		.layout-module-column-image img {	
-			height: 100%;
-			width: 100%;
-			object-fit: contain; /* image is never distorted, crop if necessary */
-			object-position: 50% 100%; /* anchor on bottom, horizontal center */
-		}
+			/* use to create inner div with text on top */
+			.layout-module-column-text {
+				position: relative;	/* enables z-index */
+				z-index: 10; /* if text overflows, it will go over picture below */
+				padding: 2vw 4vw;
+				margin: auto;
+				height: 50%;
+				width: 100%;
+				text-align: center;
+				box-sizing: border-box;
+			}		
+			/* use to create inner div with image on bottom */
+			.layout-module-column-image {
+				height: 50%; /* without this, image size can overflow from module */
+				width: 100%;
+			}
+			.layout-module-column-image img {	
+				height: 100%;
+				width: 100%;
+				object-fit: contain; /* image is never distorted, crop if necessary */
+				object-position: 50% 100%; /* anchor on bottom, horizontal center */
+			}
 
 		/* use to create module div with pic in background, text on top */
 		.layout-module-image-back-text-top {
@@ -1124,6 +1125,7 @@
 		.flex-child-33p {
 			height: 100%;
 			flex: 1;
+			flex-grow: 0;
 			flex-basis: 33%; /* start at 33% width */
 			box-sizing: border-box;
 		}

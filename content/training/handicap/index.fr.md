@@ -1,9 +1,9 @@
 +++
-draft			= false
-title			= "Accueil des personnes en situation de handicap"
-description	 	= "Comment facilitons-nous l'accueil des personnes en situation de handicap ?"
-url	 			= "/fr/formation-ateliers/handicap/"
-schema			= "Course"
+draft				= false
+title				= "Accueil des personnes en situation de handicap"
+description	= "Comment facilitons-nous l'accueil des personnes en situation de handicap ?"
+picture			= "image.jpg"
+url	 				= "/fr/formations-prise-de-parole-en-public/handicap/"
 +++
 
 ## Dans vos locaux

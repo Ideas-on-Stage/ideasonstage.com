@@ -1,11 +1,11 @@
 +++
-draft		= false
+draft				= false
 weight			= 1
-title		= "Formation prise de parole en public"
+title				= "Business Presentation Revolution"
 description = "Storytelling, présentation PowerPoint, art oratoire : la formation en prise de parole en public la plus complète."
-url	 		= "/fr/formations-ateliers/formation-prise-de-parole-en-public/"
-picture		= "image.jpg"
-schema		= "Course"
+url	 				= "/fr/formations-prise-de-parole-en-public/business-presentation-revolution/"
+picture			= "image.jpg"
+schema			= "Course"
 
 [contact]
 	title	= "Réservez une session de formation"

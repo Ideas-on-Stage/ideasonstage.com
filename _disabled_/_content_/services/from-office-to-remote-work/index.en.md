@@ -1,10 +1,11 @@
 +++
-draft 			= false
-title 			= "Online Work Community"
-description		= "Create and animate an online work community to boost your employees' morale and productivity."
+draft 			= true
+title 				= "Online Work Community"
+description	= "Create and animate an online work community to boost your employees' morale and productivity."
 picture			= "remote-work.jpg"
-url 				= "/from-office-to-remote-work/"
+url 					= "/from-office-to-remote-work/"
 +++
+
 **This service will help you create an attractive remote-based work environment for your employees. We will create an online work community whose benefits will have long-lasting positive effects on the productivity and morale of your workforce.**
 
 Propelled into a remote work environment, managers and employees will instinctively try to replicate their traditional work environment. But they soon realize the differences: no face-to-face meetings, no informal talk at the coffee machine, impossibility to check what every employee does every single minute.

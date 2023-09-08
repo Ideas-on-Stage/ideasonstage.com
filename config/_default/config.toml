@@ -448,8 +448,8 @@ title         						= "Ideas on Stage"
 				name		 				= "Coaching prise de parole"
 				url			 				= "/fr/coaching-prise-de-parole-en-public/"
 			[[languages.fr.params.navigation.items]]
-				name		 				= "Formations en présentations"
-				url						 	= "/fr/formations-ateliers/"
+				name		 				= "Formations prise de parole"
+				url						 	= "/fr/formations-prise-de-parole-en-public/"
 			[[languages.fr.params.navigation.items]]
 				name					 	= "Création de présentations"
 				url			 				= "/fr/services/agence-creation-presentation-powerpoint/"

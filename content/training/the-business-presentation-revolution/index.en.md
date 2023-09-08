@@ -1,11 +1,11 @@
 +++
-draft		= false
-weight = 1
-title		= "The Business Presentation Revolution Training"
+draft				= false
+weight 			= 1
+title				= "The Business Presentation Revolution Training"
 description = "Thanks to our signature training course, your team's presentations will never be the same again."
-url 			= "/presentations-training/the-business-presentation-revolution/"
-picture		= "image.jpg"
-schema		= "Course"
+url 					= "/presentations-training/the-business-presentation-revolution/"
+picture			= "image.jpg"
+schema			= "Course"
 +++
 
 ## Train your teams to give TED-quality business presentations

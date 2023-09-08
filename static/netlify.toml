@@ -1,3 +1,6 @@
+# !!! TEST A REDIRECTION AFTER MODIFYING THE FILE TO BE SURE IT'S CORRECT
+# 1 mistake and the whole file may be ignored by Netlify
+
 # redirect .es .fr .it
 [[redirects]]
 	from				= "https://www.ideasonstage.es/*"	
@@ -89,5 +92,13 @@
 [[redirects]]
 	from				= "https://www.ideasonstage.com/uk/value-bundle/"
 	to					= "https://mailchi.mp/5975bea9212e/value-bundle/"
+	status			= 301
+	force				= true
+	
+# Temporary page redirects, url change
+
+[[redirects]]
+	from				= "https://www.ideasonstage.com/fr/formations-ateliers/*"
+	to					= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/:splat"
 	status			= 301
 	force				= true

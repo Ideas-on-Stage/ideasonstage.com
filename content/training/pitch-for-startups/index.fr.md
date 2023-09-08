@@ -3,7 +3,7 @@ draft		= false
 weight			= 30
 title		= "Pitch pour Startups"
 description = "Apprenez les secrets du pitch, par une équipe de coachs qui a collaboré avec des centaines de startups."
-url 			= "/fr/formation-presentations/pitch-pour-startups/"
+url 			= "/fr/formations-prise-de-parole-en-public/pitch-pour-startups/"
 picture		= "image.jpg"
 schema		= "Course"
 +++

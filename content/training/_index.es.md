@@ -1,8 +1,8 @@
 +++
 draft 			= false
-title 			= "Formación"
-description		= "Cambia la cultura de las presentaciones en tu empresa con  los mejores cursos para hablar en público y hacer presentaciones"
-url	 			= "/es/formacion-para-hablar-en-publico/"
+title 				= "Formación"
+description	= "Cambia la cultura de las presentaciones en tu empresa con  los mejores cursos para hablar en público y hacer presentaciones"
+url	 				= "/es/formacion-para-hablar-en-publico/"
 schema			= "Carousel"
 thumbnail		= "thumbnail.jpg"
 +++

@@ -55,13 +55,13 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/fr/coaching-prise-de-parole-en-public/"	
 	[[services.list]]
-		sectionid		= "presentations-training"
-		title				= "Formations en art oratoire et présentations"
-		description	= "Découvrez nos formations à la prise de parole en ligne et en présentiel."
+		sectionid		= "public-speaking-training"
+		title				= "Formations prise de parole en public"
+		description	= "Découvrez nos formations à la prise de parole en ligne et en présentiel. Organisme référencé Datadock et certifié Qualiopi"
 		picture			= "/training.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
-		url					= "/fr/formations-ateliers/"
+		url					= "/fr/formations-prise-de-parole-en-public/"
 	[[services.list]]
 		draft				= true
 		sectionid		= "business-events"

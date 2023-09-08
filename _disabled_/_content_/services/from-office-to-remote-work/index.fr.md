@@ -1,10 +1,11 @@
 +++
-draft 			= false
-title 			= "Communauté de travail en ligne"
-description		= "Créez et animez une communauté de travail en ligne."
+draft 			= true
+title 				= "Communauté de travail en ligne"
+description	= "Créez et animez une communauté de travail en ligne."
 picture			= "remote-work.jpg"
-url 				= "/fr/du-bureau-au-travail-a-distance/"
+url 					= "/fr/du-bureau-au-travail-a-distance/"
 +++
+
 **Ce service vous aidera à passer d’un environnement de travail au bureau à un environnement de travail à distance en dix jours. Nous vous aiderons à créer une communauté de travail en ligne avec des effets positifs à long terme sur la productivité et le moral de vos effectifs.**
 
 Propulsés dans un environnement de travail à distance, les managers et les employés auront instinctivement tendance à reproduire leur environnement de travail traditionnel. Mais ils vont vite se rendre compte des différences : pas de rencontres en face à face, pas de discussions informelles à la machine à café, impossibilité de vérifier ce que chaque employé fait de son temps.
