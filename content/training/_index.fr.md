@@ -15,14 +15,16 @@ insertsbottom = [ "guidepublicspeaking", "guideremotepresentations" ]
 
 Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon présentateur — et que même les orateurs talentueux peuvent devenir encore meilleurs. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.
 
+En 2010, Ideas on Stage a été le premier acteur à amener une méthode de présentation moderne et complète, basée sur l'état de l'art. Cette méthode combine les trois piliers d'une bonne présentation : storytelling, visuels et art oratoire, pour communiquer efficacement son message.
+
 {{< icon-list style="bg-lightgray" >}}
-	{{< icon-item-big icon="logo-datadock.png" description="Référencé Datadock" >}}
+	{{< icon-item-big icon="logo-datadock.png" description="Référencé Datadock" style="border" >}}
 	{{< icon-item-big icon="logo-qualiopi.png" description="Certifié Qualiopi" >}}
 {{< /icon-list >}}
 
 Ideas on Stage est un organisme de formation officiel référencé [Datadock](https://www.data-dock.fr) et certifié [Qualiopi](https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation).
 
-En 2010, Ideas on Stage a été le premier acteur à amener une méthode de présentation moderne et complète, basée sur l'état de l'art. Cette méthode combine les trois piliers d'une bonne présentation : storytelling, visuels et art oratoire, pour communiquer efficacement son message.
+Nous vous fournirons automatiquement tous les documents nécessaires, et si vous le souhaitez nous vous assisterons dans les démarches administratives : devis, convention de formation, plan pédagogique, pré-requis, feuille de présence, évaluation post-formation, certificat de réalisation, prise en charge de la formation par votre OPCO.
 
 {{< text2-picture1 picture="/img/inserts/presentation-training-10.jpg" title="Méthodes modernes, formateurs expérimentés" >}}
 Les méthodes et techniques que nous enseignons sont celles que nous utilisons chaque jour pour créer des présentations mémorables pour les dirigeants d’entreprise. Nos formateurs ont tous plusieurs années d’expérience des présentations de haut niveau. Vous apprendrez avec de vrais experts.

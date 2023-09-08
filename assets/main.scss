@@ -1445,7 +1445,12 @@
 		.margint-large 		{	margin-top: 18px;		}
 	
 	}
-
+	
+	.border {
+		border: 1px solid #888;
+		box-sizing: border-box;
+	}
+	
 /* @end */
 
 
