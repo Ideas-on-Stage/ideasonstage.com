@@ -74,10 +74,19 @@ title         						= "Ideas on Stage"
 				bottom					= "0"
 				left							= "0"			
 		[params.layout.module]
-			padding						= "0.5vw"
 			height						= "36vw"
 			height_big				= "56vw"
 			height_ts					= "140vw" # ts is for tall small screens on smartphones
+			[params.layout.module.padding]
+				top							= "0.5vw"
+				right						= "0.5vw"
+				bottom					= "0.5vw"
+				left							= "0.5vw"
+			[params.layout.module.padding_ts]
+				top							= "1vw"
+				right						= "0"
+				bottom					= "1vw"
+				left							= "0"
 
 	# ---------------------
 	# Layout

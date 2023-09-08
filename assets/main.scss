@@ -78,7 +78,6 @@
 
 /* @group FONT SIZES */
 
-
 	/* This is where ALL font sizes are declared */
 
 	/* font sizes for standard tags */
@@ -726,21 +725,30 @@
 	
 		/* constant height page modules */
 
-		/* enclose all modules in one layout-module-wrapper div */		
+		/* 1. enclose all modules in one layout-module-wrapper div */		
 		.layout-module-wrapper {
-			padding: {{ site.Params.layout.module.padding }};
+			padding-top: {{ site.Params.layout.module.padding.top }};
+			padding-right: {{ site.Params.layout.module.padding.right }};
+			padding-bottom: {{ site.Params.layout.module.padding.bottom }};
+			padding-left: {{ site.Params.layout.module.padding.left }};
 		}
 		
-		/* use to start a full width module */
+		/* 2a. use this to start a full width module div */
 		.layout-module {
 			width: 100%;
-			padding: {{ site.Params.layout.module.padding }};
+			padding-top: {{ site.Params.layout.module.padding.top }};
+			padding-right: {{ site.Params.layout.module.padding.right }};
+			padding-bottom: {{ site.Params.layout.module.padding.bottom }};
+			padding-left: {{ site.Params.layout.module.padding.left }};
 		}
 		
-		/* use to start a half width module */
+		/* 2b. or use this to start a half width module div */
 		.layout-module-half {
 			width: 50%;
-			padding: {{ site.Params.layout.module.padding }};
+			padding-top: {{ site.Params.layout.module.padding.top }};
+			padding-right: {{ site.Params.layout.module.padding.right }};
+			padding-bottom: {{ site.Params.layout.module.padding.bottom }};
+			padding-left: {{ site.Params.layout.module.padding.left }};
 		}
 		
 		/* use to create module div with pic on left, text on right */
@@ -832,8 +840,26 @@
 			
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
 			
+			.layout-module-wrapper {
+				padding-top: {{ site.Params.layout.module.padding_ts.top }};
+				padding-right: {{ site.Params.layout.module.padding_ts.right }};
+				padding-bottom: {{ site.Params.layout.module.padding_ts.bottom }};
+				padding-left: {{ site.Params.layout.module.padding_ts.left }};
+			}
+			
+			.layout-module {
+				padding-top: {{ site.Params.layout.module.padding_ts.top }};
+				padding-right: {{ site.Params.layout.module.padding_ts.right }};
+				padding-bottom: {{ site.Params.layout.module.padding_ts.bottom }};
+				padding-left: {{ site.Params.layout.module.padding_ts.left }};				
+			}
+			
 			.layout-module-half {
 				width: 100%; /* make half width modules full width on ts screens */
+				padding-top: {{ site.Params.layout.module.padding_ts.top }};
+				padding-right: {{ site.Params.layout.module.padding_ts.right }};
+				padding-bottom: {{ site.Params.layout.module.padding_ts.bottom }};
+				padding-left: {{ site.Params.layout.module.padding_ts.left }};				
 			}
 			.layout-module-row {
 				height: {{ site.Params.layout.module.height_ts }};
