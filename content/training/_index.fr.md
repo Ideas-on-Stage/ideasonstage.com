@@ -17,9 +17,9 @@ Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon prése
 
 En 2010, Ideas on Stage a été le premier acteur à amener une méthode de présentation moderne et complète, basée sur l'état de l'art. Cette méthode combine les trois piliers d'une bonne présentation : storytelling, visuels et art oratoire, pour communiquer efficacement son message.
 
-{{< icon-list style="bg-lightgray" >}}
+{{< icon-list style="" >}}
 	{{< icon-item-big icon="logo-datadock.png" description="Référencé Datadock" style="border" >}}
-	{{< icon-item-big icon="logo-qualiopi.png" description="Certifié Qualiopi" >}}
+	{{< icon-item-big icon="logo-qualiopi.png" description="Certifié Qualiopi" style="border" >}}
 {{< /icon-list >}}
 
 Ideas on Stage est un organisme de formation officiel référencé [Datadock](https://www.data-dock.fr) et certifié [Qualiopi](https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation).

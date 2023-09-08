@@ -1,4 +1,4 @@
-{{ "<!-- shortcodes:icon-item.html:start -->" | safeHTML }}
+{{ "<!-- shortcodes:icon-item-big.html:start -->" | safeHTML }}
 <div class="flex-child-33p">
 	<div class="style-icon paddingh-medium {{ with .Params.style }}{{ . }}{{ end }}">
 	<img src="{{ .Params.icon }}" alt= "{{ .Params.description | markdownify }}">
@@ -7,4 +7,4 @@
 	<p class="style-text-icon text-center">{{ .Params.description | markdownify }}</p>
 	</div>
 </div>
-{{ "<!-- shortcodes:icon-item.html:end -->" | safeHTML }}
+{{ "<!-- shortcodes:icon-item-big.html:end -->" | safeHTML }}
