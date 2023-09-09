@@ -3,11 +3,12 @@ draft				= false
 title				= "Accueil des personnes en situation de handicap"
 description	= "Comment facilitons-nous l'accueil des personnes en situation de handicap ?"
 picture			= "image.jpg"
+enablehero		= true
 url	 				= "/fr/formations-prise-de-parole-en-public/handicap/"
 +++
 
 ## Dans vos locaux
-Il vous suffit de nous informer si une ou plusieurs des personnes à former présentent un handicap dont il faut tenir compte. Nous adapterons les modalités d'organisation de la formation pour pouvoir les accueillir au mieux. Notre référent handicap à informer est Vanessa Querville.
+Il vous suffit de nous informer si une ou plusieurs des personnes à former présentent un handicap dont il faut tenir compte. Nous adapterons les modalités d'organisation de la formation pour pouvoir les accueillir au mieux. Notre référent handicap à informer est Pierre Morsa.
 
 Si nécessaire, nous validerons avec vous qu'ils peuvent accéder aux locaux où se déroulera la formation.
 
@@ -20,3 +21,4 @@ Nos locaux présentent un escalier qui, en raison du caractère historique du b�
 
 Nous ferons tout notre possible pour accueillir tous les participants. Si vous souhaitez en savoir plus ou si vous avez une question plus précise sur les modalités d'accueil, vous pouvez nous contacter avec le formulaire ci-dessous.
  
+Page mise à jour le 2023-09-09.

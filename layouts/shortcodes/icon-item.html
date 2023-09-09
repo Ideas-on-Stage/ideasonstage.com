@@ -1,6 +1,6 @@
 {{ "<!-- shortcodes:icon-item.html:start -->" | safeHTML }}
 <div class="flex-child-20p">
-	<div class="style-icon paddingh-medium">
+	<div class="style-icon paddingh-medium {{ with .Params.style }}{{ . }}{{ end }}">
 	<img src="{{ .Params.icon }}" alt= "{{ .Params.description | markdownify }}">
 	</div>
 	<div class="paddingh-small">
