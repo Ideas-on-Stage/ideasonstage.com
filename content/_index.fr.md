@@ -6,7 +6,7 @@ outputs			= ["html","rss","json"]
 picture			= "/img/ideas-on-stage.svg"
 schema			= "Website"
 
-insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
+insertsbottom	= [ "codingandbricks", "news" ]
 
 [slider]
 	[[slider.list]]
@@ -35,7 +35,7 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 		bgimage 		= "/fr/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
 		title 				= "GUIDE DE LA PRISE DE PAROLE EN PUBLIC"
 		description = "Notre guide pour maîtriser les techniques de l'art oratoire."
-		button 			= "Lisez le guide"
+		button 			= "LIRE LE GUIDE"
 		buttonlink		= "/fr/guide-ultime-prise-de-parole-en-public/"
 		color				= "text-white"	
 		opacity			= "30"
@@ -57,7 +57,7 @@ insertsbottom	= [ "revolution", "codingandbricks", "catalogue", "news" ]
 	[[services.list]]
 		sectionid		= "public-speaking-training"
 		title				= "Formations prise de parole en public"
-		description	= "Découvrez nos formations à la prise de parole en ligne et en présentiel. Organisme référencé Datadock et certifié Qualiopi"
+		description	= "Découvrez nos formations à la prise de parole en ligne et en présentiel. Organisme référencé Datadock et certifié Qualiopi."
 		picture			= "/training.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"

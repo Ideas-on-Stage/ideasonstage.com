@@ -6,9 +6,19 @@ outputs			= ["html","rss","json"]
 picture			= "/img/ideas-on-stage.svg"
 schema			= "Website"
 
-insertsbottom		= [ "catalogue", "presentationscore", "revolution", "news" ]
+insertsbottom		= [ "presentationscore", "news" ]
 
 [slider]
+	[[slider.list]]
+		draft				= false
+		date				= "2023-09-09"
+		bgimage 		= "/ultimate-public-speaking-guide/public-speaking.jpg"
+		title 				= "PUBLIC SPEAKING GUIDE"
+		description = "Our guide to master the art of public speaking."
+		button 			= "READ OUR GUIDE"
+		buttonlink		= "/ultimate-public-speaking-guide/"
+		color				= "text-white"	
+		opacity			= "30"
 	[[slider.list]]
 		draft				= true
 		date				= "2020-03-05"
@@ -22,17 +32,6 @@ insertsbottom		= [ "catalogue", "presentationscore", "revolution", "news" ]
 		opacity			= "30"
 	[[slider.list]]
 		draft				= true
-		date				= "2021-07-12"
-		expirydate	= "2021-09-12"
-		bgimage			= "/business-presentation-revolution/hero.jpg"
-		title				= "BUSINESS PRESENTATION REVOLUTION"
-		description	= "Find out more about the ground-breaking book written by our co-founder and Chief Inspiration Officer Phil Waknell."
-		button			= "Get the Book"
-		buttonlink		= "/business-presentation-revolution/book/"
-		color				= "text-white"
-		opacity			= "30"
-	[[slider.list]]
-		draft				= false
 		date				= "2020-07-18"
 		bgimage			= "/corporate-communication/corporate-communication-hero.jpg"
 		title				= "CORPORATE COMMUNICATION"
