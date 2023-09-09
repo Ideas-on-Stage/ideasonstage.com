@@ -1,15 +1,10 @@
 {{ "<!-- partials:head-css.html:start -->" | safeHTML }}
 
-{{ if eq true site.Params.css.enablebootstrap }}
-	{{ "<!-- Bootstrap Core CSS -->" | safeHTML }}
-	<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
-{{ else }}
-	{{ "<!-- Bootstrap disabled -->" | safeHTML }}
-{{ end }}
-
 {{ "<!-- Custom Fonts -->" | safeHTML }}
-{{ with site.Params.css.fontawesome }}<link rel="stylesheet" href="{{ . }}" type="text/css">{{ end }}
-{{ with site.Params.css.typography }}<link rel="stylesheet" href="{{ . }}" type="text/css" />{{ end }}
+{{ $fontawesome := resources.Get "font-awesome.min.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $fontawesome.RelPermalink }}" type="text/css">
+{{ $typography := resources.Get "typography.css" | resources.Minify }}
+	<link rel="stylesheet" href="{{ $typography.RelPermalink }}" type="text/css" />
 
 {{ "<!-- Site CSS -->" | safeHTML }}
 {{- $style := resources.Get site.Params.css.main | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
