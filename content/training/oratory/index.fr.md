@@ -1,8 +1,8 @@
 +++
-draft				= false
+draft				= true
 weight			= 1
-title				= "Business Presentation Revolution"
-description = "Storytelling, présentation PowerPoint, art oratoire : la formation en prise de parole en public la plus complète."
+title				= "Formation art oratoire"
+description = "La formation en art oratoire la plus complète. Apprenez à vous exprimer avec aisance sur scène."
 url	 				= "/fr/formations-prise-de-parole-en-public/business-presentation-revolution/"
 picture			= "image.jpg"
 schema			= "Course"

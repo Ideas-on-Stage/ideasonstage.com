@@ -98,7 +98,16 @@
 # Temporary page redirects, url change
 
 [[redirects]]
+	from				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/business-presentation-revolution/"
+	to					= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-art-oratoire/"
+	status			= 301
+	force				= true
+
+[[redirects]]
 	from				= "https://www.ideasonstage.com/fr/formations-ateliers/*"
 	to					= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/:splat"
 	status			= 301
 	force				= true
+
+	
+

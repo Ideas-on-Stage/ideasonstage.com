@@ -1,9 +1,10 @@
 <div class="layout-shortcode-child padding-tiny">
 	{{ if .Params.description }}
 		{{- if $.Params.title }}
-			<div class="style-agenda-item-title text-center">{{ $.Params.title }}</div>
+			<input id="collapsible_{{ $.Params.title }}" class="agenda-toggle" type="checkbox">
+			<label for="collapsible_{{ $.Params.title }}" class="agenda-toggle style-agenda-item-title text-center">{{ $.Params.title }} <i class="fa fa-chevron-down"></i></label>
 		{{- end }}
-		<div class="">
+		<div class="collapsible-content">
 			<p class="style-agenda-item-description text-center agenda-content-inner">{{ .Params.description | markdownify }}</p>
 		</div>	
 		

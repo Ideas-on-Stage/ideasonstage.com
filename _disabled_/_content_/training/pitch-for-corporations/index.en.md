@@ -1,5 +1,5 @@
 +++
-draft			= false
+draft			= true
 weight          = 20
 title			= "Reboot your company"
 description 	= "If your team were a startup, how much more creative and agile would they be? Find out with this fun, innovative workshop."
