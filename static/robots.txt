@@ -1,3 +1,4 @@
 user-agent: *
-sitemap: /sitemap.xml
+Allow: /
 
+Sitemap: https://www.ideasonstage.com/sitemap.xml
