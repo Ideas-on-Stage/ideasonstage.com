@@ -194,86 +194,6 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.com/es/news/2020/06/05/2020-06-05-let-s-end-discrimination/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/news/2020/06/05/2020-06-05-let-s-end-discrimination/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.com/es/news/2020/06/05/2020-06-05-let-s-end-discrimination/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.com/es/tags/noticias/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.com/es/noticias/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.com/fr/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.com/es/noticias/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.com/es/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.com/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.com/es/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.com/es/tags/</loc>
-    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.com/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.com/es/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.ideasonstage.com/es/revolution/episode-00010/</loc>
     <lastmod>2019-11-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -290,6 +210,26 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://www.ideasonstage.com/es/revolution/episode-00010/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.com/es/</loc>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.com/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.ideasonstage.com/es/"
                 />
   </url>
   
@@ -669,7 +609,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.com/fr/formations-ateliers/"
+                href="https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -802,31 +742,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.com/fr/formation-presentations/pitch-pour-startups/"
+                href="https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/pitch-pour-startups/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
                 href="https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/pitch-para-startups/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/the-business-presentation-revolution/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/presentations-training/the-business-presentation-revolution/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.com/fr/formations-ateliers/formation-prise-de-parole-en-public/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/the-business-presentation-revolution/"
                 />
   </url>
   
@@ -846,6 +767,25 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://www.ideasonstage.com/es/servicios/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.com/es/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.com/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.ideasonstage.com/es/tags/"
                 />
   </url>
   

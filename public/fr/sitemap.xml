@@ -3,25 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.ideasonstage.com/fr/formations-ateliers/formation-prise-de-parole-en-public/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/presentations-training/the-business-presentation-revolution/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/the-business-presentation-revolution/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.com/fr/formations-ateliers/formation-prise-de-parole-en-public/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.ideasonstage.com/fr/guide-organisateur-evenement-entreprise/</loc>
     <xhtml:link
                 rel="alternate"
@@ -120,26 +101,7 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.com/fr/formations-ateliers/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/presentations-training/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.com/fr/formations-ateliers/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.com/fr/formation-presentations/pitch-pour-startups/</loc>
+    <loc>https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/pitch-pour-startups/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -153,7 +115,26 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.ideasonstage.com/fr/formation-presentations/pitch-pour-startups/"
+                href="https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/pitch-pour-startups/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ideasonstage.com/presentations-training/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://www.ideasonstage.com/es/formacion-para-hablar-en-publico/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/"
                 />
   </url>
   
@@ -383,16 +364,11 @@
   
   <url>
     <loc>https://www.ideasonstage.com/fr/news/</loc>
-    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="https://www.ideasonstage.com/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://www.ideasonstage.com/es/noticias/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -402,8 +378,13 @@
   </url>
   
   <url>
+    <loc>https://www.ideasonstage.com/fr/news/2023/09/04/2023-09-05-aller_au_bout_de_la_theorie_de_la_double_contrainte/</loc>
+    <lastmod>2023-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.ideasonstage.com/fr/</loc>
-    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -419,6 +400,11 @@
                 hreflang="fr"
                 href="https://www.ideasonstage.com/fr/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.ideasonstage.com/fr/news/2023/08/29/2023-08-29-je_suis_solide_comme_un_roc_ils_ne_peuvent_plus_marreter_maintenant_-_rihanna/</loc>
+    <lastmod>2023-08-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -2270,7 +2256,7 @@
   </url>
   
   <url>
-    <loc>https://www.ideasonstage.com/fr/formation-ateliers/handicap/</loc>
+    <loc>https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/handicap/</loc>
   </url>
   
   <url>
@@ -2349,20 +2335,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://www.ideasonstage.com/fr/comment-presenter-a-distance/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ideasonstage.com/fr/du-bureau-au-travail-a-distance/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ideasonstage.com/from-office-to-remote-work/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.ideasonstage.com/fr/du-bureau-au-travail-a-distance/"
                 />
   </url>
   
