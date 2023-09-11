@@ -1,4 +1,0 @@
-user-agent: *
-Allow: /
-
-Sitemap: https://www.ideasonstage.com/sitemap.xml
