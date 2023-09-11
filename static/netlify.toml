@@ -40,7 +40,7 @@
 	force				= true	
 [[redirects]]
 	from				= "https://catalogue.ideasonstage.com/fr/*"
-	to					= "https://www.ideasonstage.com/fr/guides/ideasonstage-catalogue-fr.pdf"
+	to					= "https://www.ideasonstage.com/guides/ideasonstage-catalogue-fr.pdf"
 	status			= 301
 	force				= true
 	
@@ -108,6 +108,3 @@
 	to					= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/:splat"
 	status			= 301
 	force				= true
-
-	
-

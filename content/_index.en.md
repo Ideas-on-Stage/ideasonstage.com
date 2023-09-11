@@ -72,7 +72,7 @@ insertsbottom		= [ "presentationscore", "news" ]
 		description = "Episode 9: Once Upon a Business Story"
 		button			= "Watch now"
 		buttonlink		= "/revolution/episode-00009/"
-		color				= "text-white"	
+		color				= "text-white"
 
 [services]
 	[[services.list]]
