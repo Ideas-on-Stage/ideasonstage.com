@@ -18,20 +18,6 @@
 	status			= 301
 	force				= true
 
-# redirect language (only from homepage, don't redirect on subpages)
-[[redirects]]
-	from				= "/"
-	to					= "/es/"
-	status			= 301
-	force				= true
-	conditions	= { Language = ["es"] }
-[[redirects]]
-	from				= "/"
-	to					= "/fr/"
-	status			= 301
-	force				= true
-	conditions	= { Language = ["fr"] }
-
 # redirect catalogue
 [[redirects]]
 	from				= "https://catalogue.ideasonstage.com/*"	
@@ -99,7 +85,13 @@
 
 [[redirects]]
 	from				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/business-presentation-revolution/"
-	to					= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-art-oratoire/"
+	to					= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/"
+	status			= 301
+	force				= true
+
+[[redirects]]
+	from				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-prise-de-parole-en-public/"
+	to					= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/"
 	status			= 301
 	force				= true
 
@@ -108,3 +100,4 @@
 	to					= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/:splat"
 	status			= 301
 	force				= true
+
