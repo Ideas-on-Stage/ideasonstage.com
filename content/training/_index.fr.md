@@ -47,26 +47,18 @@ Nous proposons plusieurs modules de formation :
 
 Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise en pratique immédiate autour d'études de cas pertinents par rapport à votre cœur de métier. Ces modules sont habituellement d'une durée d'une journée. Si vous le souhaitez, nous pouvons les combiner en une formation de deux ou trois jours.
 
-En fonction de votre secteur d'activité et de votre département, nous adapterons les études de cas et les exemples de la formation pour la rendre pertinente par rapport à votre métier, par exemple :
-
-- Réalisation et soutenance de propositions commerciales.
-- Évènement interne pour les employés ou les fournisseurs.
-- Présentations scientifiques médicales lors de congrès.
-- Présentations inspirantes « à la TED ».
-- Présentations commerciales de nouveaux produits.
-- Présentations techniques de services internet, de matériel, de logiciel, de cybersécurité, …
-- Présentations lors de comités exécutifs : défense de budgets, de stratégie, lancement d'un plan de transformation, lancement de projets internes, …
-
 {{< agenda-list style="bg-lightgray" title="Module Storytelling">}}
 	{{< agenda-item title="PRÉREQUIS" description="Choisir un cas concret à présenter lors de la formation." >}}
 	{{< agenda-item title="INTRODUCTION" description="Les défauts des présentations traditionnelles en entreprise<br>Facteurs clés de succès d'une prise de parole réussie." >}}
-	{{< agenda-item title="ABC" description="Identifier l'Auditoire, les Besoins et le Contexte (technique ABC)" >}}
+	{{< agenda-item title="ABC" description="Identifier l'Auditoire, les Besoins et le Contexte (technique ABC). Comment segmenter votre auditoire et ses besoins pour mieux cibler vos messages." >}}
 	{{< agenda-item title="OBJECTIF DE TRANSFORMATION" description="Pourquoi présentez-vous ? Quel est le changement que vous voulez voir dans votre auditoire ?" >}}
 	{{< agenda-item title="PTA" description="Parcours de Transformation de L'auditoire. Identifiez les messages clés pour transformer les connaissances, les croyances, les émotions et les actions de votre auditoire." >}}
 	{{< agenda-item title="STRUCTURE" description="Choisissez un fil narratif simple et adapté à votre présentation. Identifiez votre introduction, développement et conclusion. Apprenez à sélectionner vos messages en fonction de l'objectif fixé et du temps disponible." >}}
 	{{< agenda-item title="HISTOIRE" description="Comment utiliser les techniques de storytelling pour mettre en valeur vos messages clés et rendre votre histoire captivante. Accrochez l'attention, développez vos arguments et terminez en beauté." >}}
 	{{< agenda-item title="ÉTUDE DE CAS" description="En plus des exercices réalisés tout au long de la journée, la formation se termine par la mise en œuvre des techniques de storytelling sur base d'un cas concret." >}}
 {{< /agenda-list >}}
+
+{{< image-wide src="/img/content-wide/applause.jpg" alt="Gros plan mains qui applaudissent" >}}
 
 {{< agenda-list style="bg-lightgray" title="Module Visuels (PowerPoint)">}}
 	{{< agenda-item title="PRÉREQUIS" description="Savoir utiliser PowerPoint pour construire des diapositives simples. Cette formation n'est pas une formation PowerPoint, elle se focalise sur la création et la structuration des diapositives." >}}
@@ -80,6 +72,8 @@ En fonction de votre secteur d'activité et de votre département, nous adaptero
 	{{< agenda-item title="EN LIGNE" description="Les particularités des réunions en ligne : quels points d'attention pour les diapositives ?" >}}
 	{{< agenda-item title="ÉTUDE DE CAS" description=" En plus des exercices de la journée, les participants termineront la formation par la création d'un support PowerPoint mettant en œuvre les techniques apprises lors de la formation." >}}
 {{< /agenda-list >}}
+
+{{< image-wide src="/img/content-wide/presenter-001.jpg" alt="Intervenant en train de réaliser une présentation" >}}
 
 {{< agenda-list style="bg-lightgray" title="Module Art Oratoire">}}
 	{{< agenda-item title="PRÉPARATION" description="Importance de la préparation dans la réussite de la prise de parole. Revue des techniques essentielles de préparation du fond." >}}
@@ -95,7 +89,19 @@ En fonction de votre secteur d'activité et de votre département, nous adaptero
 	{{< agenda-item title="ÉTUDE DE CAS" description="En plus des exercices réalisés tout au long de la journée, ce dernier exercice voit chaque participant prendre la parole pour mettre en œuvre les techniques apprises sur base d'un cas concret." >}}
 {{< /agenda-list >}}
 
-{{< icon-list title="Organisme de formation depuis 2010" style="" >}}
+{{% call-to-action button="Demander un devis" link="#contact" %}}
+
+En fonction de votre secteur d'activité et de votre département, nous adapterons les études de cas et les exemples de la formation pour la rendre pertinente par rapport à votre métier, par exemple :
+
+- Réalisation et soutenance de propositions commerciales.
+- Évènement interne pour les employés ou les fournisseurs.
+- Présentations scientifiques médicales lors de congrès.
+- Présentations inspirantes « à la TED ».
+- Présentations commerciales de nouveaux produits.
+- Présentations techniques de services internet, de matériel, de logiciel, de cybersécurité, …
+- Présentations lors de comités exécutifs : défense de budgets, de stratégie, lancement d'un plan de transformation, lancement de projets internes, …
+
+{{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
 	{{< icon-item-big icon="logo-datadock.png" description="Référencé Datadock" style="border spacing" >}}
 	{{< icon-item-big icon="logo-qualiopi.png" description="Certifié Qualiopi" style="border spacing" >}}
 {{< /icon-list >}}
