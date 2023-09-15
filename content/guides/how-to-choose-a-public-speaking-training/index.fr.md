@@ -1,11 +1,14 @@
 +++
-draft = false
-date = "2023-03-29"
-title = "Comment choisir sa formation de prise de parole en public ?"
+draft 			= false
+date 				= "2023-03-29"
+title 				= "8 critères pour choisir sa formation de prise de parole en public"
 description = "Un guide pour vous aider à choisir la bonne formation de prise de parole en public pour votre entreprise, avec une fiche d'évaluation gratuite."
-summary = "Vous trouverez une liste de tous les critères d'évaluation pour bien choisir une formation de prise de parole en public pour votre entreprise : certification, compétences, méthode, équipe, pédagogie. En prime, vous trouverez une fiche d'évaluation gratuite avec tous les critères."
-url = "/fr/comment-choisir-sa-formation-de-prise-de-parole-en-public/"
-picture = "public-speaking-training.jpg"
+summary 		= "Vous trouverez une liste de tous les critères d'évaluation pour bien choisir une formation de prise de parole en public pour votre entreprise : certification, compétences, méthode, équipe, pédagogie. En prime, vous trouverez une fiche d'évaluation gratuite avec tous les critères."
+url 					= "/fr/comment-choisir-sa-formation-de-prise-de-parole-en-public/"
+picture 		= "public-speaking-training.jpg"
+weight			= 20
+
+insertsbottom = [ "public-speaking-training", "public-speaking-coaching" ]
 +++
 
 Cet article explique les critères importants pour choisir une formation en prise de parole en public moderne et qui réponde aux besoins des entreprises. Il vaut mieux faire appel à un organisme de formation ayant une équipe d’experts employés à temps plein et avec une vraie connaissance du fonctionnement du monde de l’entreprise.
@@ -14,14 +17,14 @@ Que vous soyez un cadre dirigeant devant présenter sa nouvelle stratégie, un c
 
 Cet article passe en revue les critères clés pour choisir la meilleure formation en prise de parole en public :
 
-- **Certification** : choisir un organisme de formation certifié Qualiopi. De plus, il pourra vous accompagner et vous conseiller dans les démarches de préparation et de prise en charge de la formation.
-- **Compétences** : la formation couvre toutes les compétences requises pour les présentations en entreprise — message, histoire, visuels et art oratoire. Une formation aux techniques théâtrales est une bonne chose, mais ce n’est pas suffisant.
-- **Méthode** : plus qu’un ensemble de compétences, la formation enseigne une méthode complète pour créer sa présentation de A à Z, depuis l’idée jusqu’à la scène.
-- **Entreprise** : la formation est conçue pour répondre aux besoins spécifiques de l’entreprise — réponses à des appels d’offres, présentation face aux employés, présentation lors de comités de direction, etc.
-- **Équipe** : elle est donnée par des formateurs dont le cœur de métier est de créer des présentations pour les entreprises et de coacher des dirigeants.
-- **Pédagogie** : une formation en prise de parole efficace proposera un bon équilibre entre théorie et exercices pratiques. Elle sera illustrée de nombreux exemples et cas concrets.
-- **International** : si vous devez présenter en anglais ou dans d’autres langues, le prestataire peut-il vous accompagner dans votre développement international ?
-- **Sur-mesure** : le prestataire peut adapter le contenu de la formation en fonction des spécificités de votre entreprise.
+1. **Certification** : choisir un organisme de formation certifié Qualiopi. De plus, il pourra vous accompagner et vous conseiller dans les démarches de préparation et de prise en charge de la formation.
+2. **Compétences** : la formation couvre toutes les compétences requises pour les présentations en entreprise — message, histoire, visuels et art oratoire. Une formation aux techniques théâtrales est une bonne chose, mais ce n’est pas suffisant.
+3. **Méthode** : plus qu’un ensemble de compétences, la formation enseigne une méthode complète pour créer sa présentation de A à Z, depuis l’idée jusqu’à la scène.
+4. **Entreprise** : la formation est conçue pour répondre aux besoins spécifiques de l’entreprise — réponses à des appels d’offres, présentation face aux employés, présentation lors de comités de direction, etc.
+5. **Équipe** : elle est donnée par des formateurs dont le cœur de métier est de créer des présentations pour les entreprises et de coacher des dirigeants.
+6. **Pédagogie** : une formation en prise de parole efficace proposera un bon équilibre entre théorie et exercices pratiques. Elle sera illustrée de nombreux exemples et cas concrets.
+7. **International** : si vous devez présenter en anglais ou dans d’autres langues, le prestataire peut-il vous accompagner dans votre développement international ?
+8. **Sur-mesure** : le prestataire peut adapter le contenu de la formation en fonction des spécificités de votre entreprise.
 
 
 ## Certification Qualiopi

@@ -1,11 +1,13 @@
 +++
-draft 		= false
-title 		= "Le guide ultime du Speaker TEDx"
-description	= "Tout ce que vous avez toujours voulu savoir pour devenir un TEDx Speaker."
-categories	= [ "Guides" ]
-url			= "/fr/guide-tedx-speaker/"
-picture		= "tedx-speaker.jpg"
-summary		= "Félicitations, vous venez d'être sélectionné pour être speaker à un événement TED ou TEDx ! Ce guide vous donnera tous les conseils nécessaires pour réussir votre intervention. Vous pouvez tout lire dans l’ordre, mais ce n’est pas obligatoire. Si vous êtes pressé, vous pouvez sauter directement à la partie qui vous intéresse."
+draft 				= false
+title 					= "Le guide ultime du Speaker TEDx"
+description		= "Tout ce que vous avez toujours voulu savoir pour devenir un TEDx Speaker."
+categories		= [ "Guides" ]
+url						= "/fr/guide-tedx-speaker/"
+picture				= "tedx-speaker.jpg"
+summary				= "Félicitations, vous venez d'être sélectionné pour être speaker à un événement TED ou TEDx ! Ce guide vous donnera tous les conseils nécessaires pour réussir votre intervention. Vous pouvez tout lire dans l’ordre, mais ce n’est pas obligatoire. Si vous êtes pressé, vous pouvez sauter directement à la partie qui vous intéresse."
+weight				= 30
+insertsbottom = [ "public-speaking-training", "public-speaking-coaching" ]
 +++
 ## Pourquoi le guide ultime du TEDx Speaker ?
 
