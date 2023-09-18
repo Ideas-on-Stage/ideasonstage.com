@@ -1,15 +1,14 @@
 +++
-draft 				= false
-title 					= "Le guide pratique de l'organisateur d'événements"
-description		= "Tout ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables."
-categories		= [ "Événements d'entreprise" ]
-showrefs			= false
-showpageslist 	= true
-urlredirect		= ""
-url		 				= "/fr/guide-organisateur-evenement-entreprise/"
-picture			 	= "organisateur-evenement.jpg"
-summary				= "Nous avons rassemblé ici ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables… et faire de l’événementiel un véritable atout stratégique ! Les événements se présentent sous différentes formes et formats, mais les principes de base de l’organisation sont les mêmes pour tous. La clé d’un événement réussi est de s’assurer qu’il est bien planifié et qu’il répond en tous points aux besoins de votre cible."
+draft 			= false
+title 				= "Le guide pratique de l'organisateur d'événements"
+description	= "Tout ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables."
+categories	= [ "Événements d'entreprise" ]
+showrefs		= false
+url		 			= "/fr/guide-organisateur-evenement-entreprise/"
+picture			= "organisateur-evenement.jpg"
+summary			= "Nous avons rassemblé ici ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables… et faire de l’événementiel un véritable atout stratégique ! Les événements se présentent sous différentes formes et formats, mais les principes de base de l’organisation sont les mêmes pour tous. La clé d’un événement réussi est de s’assurer qu’il est bien planifié et qu’il répond en tous points aux besoins de votre cible."
 weight				= 60
+
 insertsbottom = [ "public-speaking-training", "public-speaking-coaching" ]
 +++
 

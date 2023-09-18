@@ -6,7 +6,7 @@ url		 				= "/fr/formations-prise-de-parole-en-public/"
 picture				= "training.jpg"
 enablehero			= true
 schema				= "course"
-pages					= "bottom"
+hidepagelist		= true
 weight				= 30
 insertsbottom = [ "guidepublicspeaking", "guideremotepresentations" ]
 
@@ -25,17 +25,7 @@ insertsbottom = [ "guidepublicspeaking", "guideremotepresentations" ]
 
 ## Changez votre vision des présentations
 
-Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon présentateur — et que même les orateurs talentueux peuvent devenir encore meilleurs. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.
-
-{{< picture1-text2 picture="three-circles-fr.svg" title="Une formation en prise de parole en public complète et moderne" style="border" >}}
-En 2010, Ideas on Stage a été le premier acteur à amener une méthode de présentation moderne et complète, basée sur l'état de l'art. Cette méthode combine les trois piliers d'une bonne présentation : histoire, visuels et art oratoire, pour communiquer efficacement son message.
-
-Le « **storytelling** » apporte les outils pour identifier les messages clés et les structurer en une histoire passionnante et simple à suivre.  
-
-Les **visuels** sont utilisés pour renforcer et clarifier le message verbal au lieu de le dupliquer.
-
-Enfin, les techniques d'**art oratoire** permettent à l'intervenant de maîtriser son stress et de prendre la parole avec naturel et aisance.
-{{< /picture1-text2 >}}
+Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateur. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.
 
 Nous proposons plusieurs modules de formation :
 
@@ -45,7 +35,14 @@ Nous proposons plusieurs modules de formation :
 
 > Nous réalisons également d'autres formations spécialisées et sur-mesure en fonction de vos besoins spécifiques. Négociation, réunions difficiles, intervention lors de conférences, posture de leadership sur scène, …
 
-Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise en pratique immédiate autour d'études de cas pertinents par rapport à votre cœur de métier. Ces modules sont habituellement d'une durée d'une journée. Si vous le souhaitez, nous pouvons les combiner en une formation de deux ou trois jours.
+Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise en pratique immédiate autour d'études de cas basées sur votre cœur de métier. Ces modules sont d'une durée d'une journée. Si vous le souhaitez, nous pouvons les combiner en une formation de deux ou trois jours.
+
+{{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
+	{{< icon-item-big icon="logo-datadock.png" description="Référencé Datadock" style="border spacing" >}}
+	{{< icon-item-big icon="logo-qualiopi.png" description="Certifié Qualiopi" style="border spacing" >}}
+{{< /icon-list >}}
+
+{{< image-wide src="/img/image-wide/meeting-002.jpg" alt="Storytelling" >}}
 
 {{< agenda-list style="bg-lightgray" title="Module Storytelling">}}
 	{{< agenda-item title="PRÉREQUIS" description="Choisir un cas concret à présenter lors de la formation." >}}
@@ -58,7 +55,7 @@ Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise e
 	{{< agenda-item title="ÉTUDE DE CAS" description="En plus des exercices réalisés tout au long de la journée, la formation se termine par la mise en œuvre des techniques de storytelling sur base d'un cas concret." >}}
 {{< /agenda-list >}}
 
-{{< image-wide src="/img/content-wide/applause.jpg" alt="Gros plan mains qui applaudissent" >}}
+{{< image-wide src="/img/image-wide/applause.jpg" alt="Gros plan mains qui applaudissent" >}}
 
 {{< agenda-list style="bg-lightgray" title="Module Visuels (PowerPoint)">}}
 	{{< agenda-item title="PRÉREQUIS" description="Savoir utiliser PowerPoint pour construire des diapositives simples. Cette formation n'est pas une formation PowerPoint, elle se focalise sur la création et la structuration des diapositives." >}}
@@ -73,7 +70,7 @@ Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise e
 	{{< agenda-item title="ÉTUDE DE CAS" description=" En plus des exercices de la journée, les participants termineront la formation par la création d'un support PowerPoint mettant en œuvre les techniques apprises lors de la formation." >}}
 {{< /agenda-list >}}
 
-{{< image-wide src="/img/content-wide/presenter-001.jpg" alt="Intervenant en train de réaliser une présentation" >}}
+{{< image-wide src="/img/image-wide/presenter-001.jpg" alt="Intervenant en train de réaliser une présentation" >}}
 
 {{< agenda-list style="bg-lightgray" title="Module Art Oratoire">}}
 	{{< agenda-item title="PRÉPARATION" description="Importance de la préparation dans la réussite de la prise de parole. Revue des techniques essentielles de préparation du fond." >}}
@@ -91,6 +88,16 @@ Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise e
 
 {{% call-to-action button="Demander un devis" link="#contact" %}}
 
+{{< picture1-text2 picture="three-circles-fr.svg" title="Une formation en prise de parole en public complète et moderne" style="border" >}}
+En 2010, Ideas on Stage a été le premier acteur à amener une méthode de présentation moderne et complète, basée sur l'état de l'art. Cette méthode combine les trois piliers d'une bonne présentation : histoire, visuels et art oratoire, pour communiquer efficacement son message.
+
+Le « **storytelling** » apporte les outils pour identifier les messages clés et les structurer en une histoire passionnante et simple à suivre.  
+
+Les **visuels** sont utilisés pour renforcer et clarifier le message verbal au lieu de le dupliquer.
+
+Enfin, les techniques d'**art oratoire** permettent à l'intervenant de maîtriser son stress et de prendre la parole avec naturel et aisance.
+{{< /picture1-text2 >}}
+
 En fonction de votre secteur d'activité et de votre département, nous adapterons les études de cas et les exemples de la formation pour la rendre pertinente par rapport à votre métier, par exemple :
 
 - Réalisation et soutenance de propositions commerciales.
@@ -101,14 +108,7 @@ En fonction de votre secteur d'activité et de votre département, nous adaptero
 - Présentations techniques de services internet, de matériel, de logiciel, de cybersécurité, …
 - Présentations lors de comités exécutifs : défense de budgets, de stratégie, lancement d'un plan de transformation, lancement de projets internes, …
 
-{{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
-	{{< icon-item-big icon="logo-datadock.png" description="Référencé Datadock" style="border spacing" >}}
-	{{< icon-item-big icon="logo-qualiopi.png" description="Certifié Qualiopi" style="border spacing" >}}
-{{< /icon-list >}}
-
-Ideas on Stage est un organisme de formation officiel depuis 2010, référencé [Datadock](https://www.data-dock.fr) et certifié [Qualiopi](https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation).
-
-En tant qu'organisme de formation, nous pouvons vous assister dans les démarches administratives. Nous vous fournirons automatiquement tous les documents nécessaires, et si vous le souhaitez nous vous assisterons dans les démarches administratives : devis, convention de formation, plan pédagogique, pré-requis, feuille de présence, évaluation post-formation, certificat de réalisation, prise en charge de la formation par votre OPCO.
+Ideas on Stage est un organisme de formation officiel depuis 2010, référencé [Datadock](https://www.data-dock.fr) et certifié [Qualiopi](https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation). En tant qu'organisme de formation, nous pouvons vous assister dans les démarches administratives. Nous vous fournirons automatiquement tous les documents nécessaires, et si vous le souhaitez nous vous assisterons dans les démarches administratives : devis, convention de formation, plan pédagogique, pré-requis, feuille de présence, évaluation post-formation, certificat de réalisation, prise en charge de la formation par votre OPCO.
 
 {{< text2-picture1 picture="/img/inserts/presentation-training-10.jpg" title="Méthodes modernes, formateurs expérimentés" >}}
 Les méthodes et techniques que nous enseignons sont celles que nous utilisons chaque jour pour créer des présentations mémorables pour les dirigeants d’entreprise. Nos formateurs ont tous plusieurs années d’expérience des présentations de haut niveau. Vous apprendrez avec de vrais experts.

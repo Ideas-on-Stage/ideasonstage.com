@@ -1,11 +1,11 @@
 +++
 draft 			= false
-title 			= "Business Presentation Revolution"
-description		= "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution."
+title 				= "Business Presentation Revolution"
+description	= "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution."
 weight			= 1
-categories		= [ ]
-hidepagelist		= true
-url 				= "/business-presentation-revolution/"
+categories	= [ ]
+hidepagelist	= true
+url 					= "/business-presentation-revolution/"
 ni      		= true
 +++
 

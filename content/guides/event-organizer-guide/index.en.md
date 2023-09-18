@@ -1,13 +1,11 @@
 +++
 draft 			= false
-title 			= "The event organizer's guide"
-description		= "The keys to organize a successful business event. Eliminate unforeseen events, omissions and last-minute panic and turn event management into a strategic asset for your company."
+title 				= "The event organizer's guide"
+description	= "The keys to organize a successful business event. Eliminate unforeseen events, omissions and last-minute panic and turn event management into a strategic asset for your company."
 weight			= 1
-categories		= [ "Business Events" ]
+categories	= [ "Business Events" ]
 showrefs		= false
-showpageslist 	= true
-urlredirect		= ""
-url 				= "/event-organizer-guide/"
+url 					= "/event-organizer-guide/"
 picture		 	= "organisateur-evenement.jpg"
 summary			= "This guide will give you the keys to organize a successful business event. Each step of the organization process is explained. Eliminate unforeseen circumstances, omissions and last-minute panic and turn event management into a strategic asset for your company. Events come in all shapes and sizes, but the principles of organization are always the same. The key to a successful event is making sure it’s well planned and that it meets all of your targeted expectations."
 +++
