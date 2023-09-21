@@ -13,7 +13,7 @@ At Ideas on Stage, we have been revolutionizing presentations since 2010. Discov
 
 {{% link-picture1-text2 link="/business-presentation-revolution/book/" title="Book" picture="thumbnail.jpg" %}}Business Presentation Revolution, written by our co-founder and Chief Inspiration Officer Phil Waknell, will change the way you think about presentations. Find out more about this ground-breaking book.{{% /link-picture1-text2 %}} 
 
-{{% link-picture1-text2 link="/presentations-training/the-business-presentation-revolution/" title="Training" picture="/presentations-training/the-business-presentation-revolution/thumbnail.jpg" %}}Our flagship presentation training course, delivered in person or online.{{% /link-picture1-text2 %}}
+{{% link-picture1-text2 link="/presentations-training/" title="Training" picture="/presentations-training/thumbnail.jpg" %}}Our flagship presentation training course, delivered in person or online.{{% /link-picture1-text2 %}}
 
 {{% link-picture1-text2 link="/public-speaking-coaching/" title="Coaching" picture="/public-speaking-coaching/wikistage-wbg-2015.jpg" %}}Individual speaker coaching to help you revolutionize the way you present, with our experienced presentation coaching specialists.{{% /link-picture1-text2 %}}
 
