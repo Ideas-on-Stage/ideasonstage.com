@@ -72,6 +72,6 @@ Lors de la formation en prise de parole en public, nous utiliserons la méthode 
 Rien ne vaut la pratique pour gagner en confiance. C'est pourquoi nous vous donnerons des exercices individuels à effecteur entre les séances pour un apprentissage concret.
 
 ## Un guide complet de la prise de parole
-Pour les personnes qui ne peuvent pas suivre de formation, nous avons mis en ligne un guide complet et gratuit de la prise de parole en public. [Cliquez ici pour le consulter](/guide-ultime-prise-de-parole-en-public/).
+Pour les personnes qui ne peuvent pas suivre de formation, nous avons mis en ligne un guide complet et gratuit de la prise de parole en public. [Cliquez ici pour le consulter](/fr/guide-ultime-prise-de-parole-en-public/).
 
 Utilisez le formulaire ci-dessous pour réserver dès à présent votre formation individuelle à la prise de parole.

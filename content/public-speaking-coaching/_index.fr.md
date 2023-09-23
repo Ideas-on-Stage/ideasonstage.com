@@ -49,7 +49,7 @@ Nous adaptons le programme de coaching aux forces et opportunités d’améliora
 * Confort : nous donnons des conseils, des outils et des exercices pour votre préparation mentale et physique. Vous apprendrez à utiliser vos émotions de manière positive pour avoir plus d’énergie et de dynamisme.
 * Encouragement : même les présentateurs les plus expérimentés ont besoin d’être en confiance lorsqu’ils sont sur scène. Les conseils et les encouragements de votre coach seront essentiels pour aborder le moment crucial avec sérénité.
 
-Plus les enjeux sont importants, plus la préparation est essentielle. [Pour en savoir plus sur la prise de parole en public, vous pouvez consulter notre guide.](/guide-ultime-prise-de-parole-en-public/)
+Plus les enjeux sont importants, plus la préparation est essentielle. [Pour en savoir plus sur la prise de parole en public, vous pouvez consulter notre guide.](/fr/guide-ultime-prise-de-parole-en-public/)
 
 {{< image-wide src="/img/image-wide/working-002.jpg" alt="Coaching" >}}
 

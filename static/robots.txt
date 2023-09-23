@@ -1,4 +1,15 @@
-user-agent: *
+User-agent: *
 Allow: /
 
+User-agent: Googlebot
+Disallow: /tags/*
+
+User-agent: Googlebot
+Disallow: /fr/tags/*
+
+User-agent: Googlebot
+Disallow: /es/tags/*
+
 Sitemap: https://www.ideasonstage.com/sitemap.xml
+Sitemap: https://www.ideasonstage.com/fr/sitemap.xml
+Sitemap: https://www.ideasonstage.com/es/sitemap.xml
