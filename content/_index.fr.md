@@ -1,11 +1,10 @@
 +++
-draft	 			= false
-title 				= "Coaching prise de parole et gestion d'événements"
-description	= "Agence internationale spécialisée formation et coaching en prise de parole en public et création de présentations. Nous sommes présents aux États-Unis et en Europe."
-outputs			= ["html","rss","json"]
-picture			= "/img/ideas-on-stage.svg"
-schema			= "Website"
-
+draft	 				= false
+title 					= "Coaching prise de parole et gestion d'événements"
+description		= "Agence internationale spécialisée formation et coaching en prise de parole en public et création de présentations. Nous sommes présents aux États-Unis et en Europe."
+outputs				= ["html","rss","json"]
+picture				= "/img/ideas-on-stage.svg"
+schema				= "Website"
 insertsbottom	= [ "codingandbricks", "news" ]
 
 [slider]

@@ -1,13 +1,11 @@
 +++
-draft 			= false
-title 				= "Presentaciones, coaching y formación para hablar en público"
-description	= "Especialista europeo en formación y coaching para hablar en público y oratoria, y preparación de presentaciones efectivas e impactantes"
-outputs			= ["html","rss","json"]
-picture			= "/img/ideas-on-stage.svg"
-schema			= "Website"
-
+draft		 			= false
+title 					= "Presentaciones, coaching y formación para hablar en público"
+description		= "Especialista europeo en formación y coaching para hablar en público y oratoria, y preparación de presentaciones efectivas e impactantes"
+outputs				= ["html","rss","json"]
+picture				= "/img/ideas-on-stage.svg"
+schema				= "Website"
 insertsbottom	= [ "catalogue","revolution" ]
-
 
 [slider]
 	[[slider.list]]

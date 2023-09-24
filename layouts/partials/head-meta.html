@@ -20,6 +20,9 @@
 {{ if .Params.picture }}
 	<link rel="image_src" href="{{ partial "f/getpicturepath" . }}">
 {{ end }}
+{{ with .Params.mastodon }}
+	<link rel="me" href="{{ . }}">
+{{ end }}
 {{ if eq .Params.ni true }}
 	<meta name="robots" content="noindex">
 {{ end }}
