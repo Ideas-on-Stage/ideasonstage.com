@@ -1,45 +1,58 @@
 
-		{{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
-		<header id="hero">
-			{{- $heropath := partial "f/getheropicturepath" . }}
-			{{- $slidercount := 0 }}
-			{{- if isset .Params "slider" }}
-				{{- range .Params.slider.list }} {{/* <!-- test if at least one slide active --> */}}
-					{{- if (partial "f/isactive" .) }}
-						{{- $slidercount = add $slidercount 1 }}
-					{{- end }}
-				{{- end }}
+{{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
+<header id="hero">
+
+	{{- $heropath := partial "f/getheropicturepath" . }}
+	{{- $slidercount := 0 }}
+	{{- if isset .Params "slider" }}
+		{{- range .Params.slider.list }} {{/* <!-- test if at least one slide active --> */}}
+			{{- if (partial "f/isactive" .) }}
+				{{- $slidercount = add $slidercount 1 }}
 			{{- end }}
-			{{- if gt $slidercount 0 }}
-				{{ partial "page-slider.html" . }}
-			{{- else if eq true .Params.enablehero }}
-				{{/* <!-- if pic exists, create hero area --> */}}
-				<div class="layout-hero">
-					{{ with .Params -}}
-						<img src="{{ $heropath }}">
-					{{- end -}}
-					{{/* <!-- adding layout-hero div corrects bug on browsers where sticky doesn't work --> */}}
-					<div class="layout-hero layout-absolute">
-					    <div class="layout-page-title style-page-title-overlay">
-				        	<h1>
-					            {{- with .Title }}{{ . | markdownify  }}{{ end -}}
-				            </h1>
-					    </div>
-					</div>
-				</div>
-			{{- else if .Title -}}
-				{{/* <!-- else if title exists, create title area --> */}}
-				{{- if and (eq .Section "news") (.IsPage) }}
-					{{/* <!-- no title for news pages (ideally should be replaced by a parameter) --> */}}
-				{{ else if and (eq .Section "team") (.IsPage) }}
-					{{/* <!-- no title for team member  pages (ideally should be replaced by a parameter) --> */}}
-				{{- else }}
-			    <div class="layout-page-title style-page-title">
-		        	<h1>
-			            {{ with .Title }}{{ . | markdownify  }}{{ end }}
-		            </h1>
-			    </div>
-				{{- end }}
-			{{- end }}
-		</header>
-		{{ "<!-- partials:page-hero.html:end -->" | safeHTML }}
+		{{- end }}
+	{{- end }}
+	
+	{{- if gt $slidercount 0 }}
+		{{ partial "page-slider.html" . }}
+		
+	{{- else if eq true .Params.enablehero }}
+		{{/* <!-- if pic exists, create hero area --> */}}
+		<div class="layout-hero">
+			{{ with .Params -}}
+				<img src="{{ $heropath }}">
+			{{- end -}}
+			{{/* <!-- adding layout-hero div corrects bug on browsers where sticky doesn't work --> */}}
+			<div class="layout-hero layout-absolute">
+			  <div class="layout-page-title style-page-title-overlay">
+					{{ if eq true $.Page.Params.Hidetitle }}
+						<h1>
+				 	{{ else }}
+				 		<h2>
+					{{ end }}
+			    {{- with .Title }}{{ . | markdownify  }}{{ end -}}
+					{{ if eq true $.Page.Params.Hidetitle }}
+						</h1>
+				 	{{ else }}
+				 		</h2>
+					{{ end }}
+			  </div>
+			</div>
+		</div>
+		
+	{{- else if .Title -}}
+		{{/* <!-- else if title exists, create title area --> */}}
+		{{- if and (eq .Section "news") (.IsPage) }}
+			{{/* <!-- no title for news pages (ideally should be replaced by a parameter) --> */}}
+		{{ else if and (eq .Section "team") (.IsPage) }}
+			{{/* <!-- no title for team member  pages (ideally should be replaced by a parameter) --> */}}
+		{{- else }}
+			<div class="layout-page-title style-page-title">
+				<h1>
+	        {{ with .Title }}{{ . | markdownify  }}{{ end }}
+		 		</h1>
+	    </div>
+		{{- end }}
+		
+	{{- end }}
+</header>
+{{ "<!-- partials:page-hero.html:end -->" | safeHTML }}

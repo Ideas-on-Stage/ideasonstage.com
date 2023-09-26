@@ -205,19 +205,19 @@ title         						= "Ideas on Stage"
 		# Menu main
 		[languages.en.menu]
 			[[languages.en.menu.main]]
-				name						= "Corporate Communication"
+				name						= "Communication"
 				pageRef	 				= "/corporate-communication/"
 				weight					= 10
 			[[languages.en.menu.main]]
-				name		 				= "Public Speaking Coaching"
+				name		 				= "Coaching"
 				pageRef 				= "/public-speaking-coaching/"
 				weight					= 20
 			[[languages.en.menu.main]]
-				name						= "Presentations Training"
+				name						= "Training"
 				pageRef 				= "/presentations-training/"
 				weight					= 30
 			[[languages.en.menu.main]]
-				name						= "Creative Workshops"
+				name						= "Workshops"
 				pageRef 				= "/creative-workshops/"
 				weight					= 40
 			[[languages.en.menu.main]]
@@ -249,17 +249,14 @@ title         						= "Ideas on Stage"
 			company						= "About"
 				
 			[[languages.en.params.navigation.items]]
-				name		 				= "Public Speaking Coaching"
-				url			 				= "/public-speaking-coaching/"
-			[[languages.en.params.navigation.items]]
-				name						= "Corporate Communication"
+				name						= "Consulting"
 				url			 				= "/corporate-communication/"
 			[[languages.en.params.navigation.items]]
-				name						= "Training & Workshops"
-				url			 				= "/presentations-training/"
+				name		 				= "Coaching"
+				url			 				= "/public-speaking-coaching/"
 			[[languages.en.params.navigation.items]]
-				name		 				= "Presentation Creation"
-				url			 				= "/services/powerpoint-presentation-design-agency/"
+				name						= "Training"
+				url			 				= "/presentations-training/"
 	
 			[[languages.en.params.navigation.resources]]
 				name						= "Videos"
@@ -442,17 +439,14 @@ title         						= "Ideas on Stage"
 			company						= "À propos"
 	
 			[[languages.fr.params.navigation.items]]
-				name		 				= "Conseil en communication"
+				name		 				= "Conseil"
 				url			 				= "/fr/conseil-communication/"
 			[[languages.fr.params.navigation.items]]
-				name		 				= "Coaching prise de parole"
+				name		 				= "Coaching"
 				url			 				= "/fr/coaching-prise-de-parole-en-public/"
 			[[languages.fr.params.navigation.items]]
-				name		 				= "Formations prise de parole"
+				name		 				= "Formation"
 				url						 	= "/fr/formations-prise-de-parole-en-public/"
-			[[languages.fr.params.navigation.items]]
-				name					 	= "Création de présentations"
-				url			 				= "/fr/services/agence-creation-presentation-powerpoint/"
 	
 			[[languages.fr.params.navigation.resources]]			
 				name						= "Vidéos"
@@ -621,13 +615,13 @@ title         						= "Ideas on Stage"
 			language						= "Idioma"
 	
 			[[languages.es.params.navigation.items]]	
-				name		 				= "Coaching para hablar en pùblico"
+				name		 				= "Coaching"
 				url			 				= "/es/coaching-para-hablar-en-publico/"
 			[[languages.es.params.navigation.items]]	
-				name		 				= "Formación presentaciones"
+				name		 				= "Formación"
 				url			 				= "/es/formacion-para-hablar-en-publico/"
 			[[languages.es.params.navigation.items]]	
-				name		 				= "Creación de presentaciones"
+				name		 				= "Creación"
 				url			 				= "/es/servicios/creacion-presentaciones-powerpoint/"
 					
 			[languages.es.params.navigation.resources]

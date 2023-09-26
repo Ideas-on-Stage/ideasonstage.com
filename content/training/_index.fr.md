@@ -9,6 +9,7 @@ schema				= "course"
 hidepagelist		= true
 weight				= 30
 insertsbottom = [ "guidepublicspeaking", "guideremotepresentations" ]
+hidetitle			= true
 
 [slider]
 	[[slider.list]]
