@@ -24,16 +24,16 @@
 			{{/* <!-- adding layout-hero div corrects bug on browsers where sticky doesn't work --> */}}
 			<div class="layout-hero layout-absolute">
 			  <div class="layout-page-title style-page-title-overlay">
-					{{ if eq true $.Page.Params.Hidetitle }}
-						<h1>
+					{{ if eq true $.Page.Params.Heroh2 }}
+						<h2>{{ "<!-- picture and h1 -->" | safeHTML }}
 				 	{{ else }}
-				 		<h2>
+				 		<h1>{{ "<!-- picture and h2 -->" | safeHTML }}
 					{{ end }}
 			    {{- with .Title }}{{ . | markdownify  }}{{ end -}}
-					{{ if eq true $.Page.Params.Hidetitle }}
-						</h1>
+					{{ if eq true $.Page.Params.Heroh2 }}
+						</h2>
 				 	{{ else }}
-				 		</h2>
+				 		</h1>
 					{{ end }}
 			  </div>
 			</div>

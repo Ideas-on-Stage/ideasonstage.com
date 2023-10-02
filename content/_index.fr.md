@@ -6,7 +6,7 @@ outputs				= ["html","rss","json"]
 picture				= "/img/ideas-on-stage.svg"
 schema				= "Website"
 insertsbottom	= [ "codingandbricks", "news" ]
-hidetitle			= false
+heroh2				= true
 
 [slider]
 	[[slider.list]]

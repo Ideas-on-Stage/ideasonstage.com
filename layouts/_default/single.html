@@ -1,5 +1,8 @@
 {{ define "main" }}
 	{{ "<!-- _default:single.html:main:start -->" | safeHTML }}
-	{{ partial "page-content.html" . }}
+	<div class="layout-module-wrapper">
+		{{ partial "page-inserts-top.html" . }}
+		{{ partial "page-content.html" . }}
+	</div>
 	{{ "<!-- _default:single.html:main:end -->" | safeHTML }}
 {{ end }}

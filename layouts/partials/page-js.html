@@ -5,7 +5,7 @@
 <script src="{{ $jsjquery.RelPermalink }}"></script>
 
 {{ "<!-- jQuery - Contact form event handler -->" | safeHTML }}
-<script>
+<script type="text/javascript">
   $("form").submit(function(e) {
     e.preventDefault();
     var $form = $(this);
@@ -24,8 +24,8 @@
 
 {{ "<!-- Search Management JavaScript, as resources to minify js -->" | safeHTML }}   
 {{ $jsfuse := resources.Get "fuse.js" | resources.Minify }}
-{{ $jsfs := resources.Get "fastsearch.js" | resources.Minify }}
 <script src="{{ $jsfuse.RelPermalink }}"></script>           
+{{ $jsfs := resources.Get "fastsearch.js" | resources.Minify }}
 <script src="{{ $jsfs.RelPermalink }}"></script> 
 
 {{ "<!-- partials:page-js.html:end -->" | safeHTML }}

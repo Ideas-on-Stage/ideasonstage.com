@@ -15,13 +15,13 @@
 				{{/* <!-- can use page specific hero, for example to show a video --> */}}
 			{{ end }}
 			{{ partial "page-breadcrumbs.html" . }}
-			<div class="layout-module-wrapper">
-				{{ partial "page-inserts-top.html" . }}
-				{{ block "main" . }}
+			{{ block "main" . }}
+				<div class="layout-module-wrapper">
+					{{ partial "page-inserts-top.html" . }}
 					{{ partial "page-content.html" . }}
 					{{/* <!-- can use page specific main content, for example guides --> */}}
-				{{ end }}
-			</div>
+				</div>
+			{{ end }}
 		</main>
 		<aside>
 			{{ partial "page-inserts-bottom.html" . }}
