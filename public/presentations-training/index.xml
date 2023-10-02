@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Training &amp; Workshops on Ideas on Stage</title>
+    <link>https://www.ideasonstage.com/presentations-training/</link>
+    <description>Recent content in Training &amp; Workshops on Ideas on Stage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage 2015 - </copyright><atom:link href="https://www.ideasonstage.com/presentations-training/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Startups on Stage</title>
+      <link>https://www.ideasonstage.com/presentations-training/pitch-for-startups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ideasonstage.com/presentations-training/pitch-for-startups/</guid>
+      <description>Everything comes down to the pitch As a startup you spend a lot of time testing, developing and improving your product and idea, but are you able to pitch effectively in front of an angel investor, venture capitalist or even to your clients?
+Pitching is critical to the success of any startup, because no matter how great your idea, product or service, you still have to convince investors, clients and/or bankers to trust you with their money.</description>
+    </item>
+    
+  </channel>
+</rss>

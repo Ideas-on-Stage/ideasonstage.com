@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 780 780" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1643,0)">
+        <g transform="matrix(0.738636,0,0,0.902778,428.832,1011.11)">
+            <rect id="Artboard2" x="1643.8" y="-1120" width="1056" height="864" style="fill:none;"/>
+            <g id="Artboard21" serif:id="Artboard2">
+                <g transform="matrix(1.35385,0,0,1.10769,-580.572,-1120)">
+                    <path d="M2153,132.124C2153,125.433 2147.57,120 2140.88,120L1925.12,120C1918.43,120 1913,125.433 1913,132.124L1913,167.903C1913,174.595 1918.43,180.027 1925.12,180.027L2140.88,180.027C2147.57,180.027 2153,174.595 2153,167.903L2153,132.124Z" style="fill:rgb(18,145,216);"/>
+                </g>
+                <g transform="matrix(1.35385,0,0,1.10769,-339.05,-1140.28)">
+                    <g transform="matrix(30,0,0,30,1922.37,179.697)">
+                    </g>
+                    <text x="1785.21px" y="179.697px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:30px;fill:rgb(235,235,235);">Pr<tspan x="1816.35px 1834.68px " y="179.697px 179.697px ">ob</tspan>lème</text>
+                </g>
+                <g transform="matrix(1.35385,0,0,1.10769,-580.865,-854.184)">
+                    <path d="M2153,132.124C2153,125.433 2147.57,120 2140.88,120L1925.12,120C1918.43,120 1913,125.433 1913,132.124L1913,167.903C1913,174.595 1918.43,180.027 1925.12,180.027L2140.88,180.027C2147.57,180.027 2153,174.595 2153,167.903L2153,132.124Z" style="fill:rgb(18,145,216);"/>
+                </g>
+                <g transform="matrix(1.35385,0,0,1.10769,-581.158,-588.308)">
+                    <path d="M2153,132.124C2153,125.433 2147.57,120 2140.88,120L1925.12,120C1918.43,120 1913,125.433 1913,132.124L1913,167.903C1913,174.595 1918.43,180.027 1925.12,180.027L2140.88,180.027C2147.57,180.027 2153,174.595 2153,167.903L2153,132.124Z" style="fill:rgb(18,145,216);"/>
+                </g>
+                <g transform="matrix(1.35385,0,0,1.10769,-339.343,-874.469)">
+                    <g transform="matrix(30,0,0,30,1912.66,179.697)">
+                    </g>
+                    <text x="1794.91px" y="179.697px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:30px;fill:rgb(235,235,235);">Solution</text>
+                </g>
+                <g transform="matrix(1.35385,0,0,1.10769,-339.636,-608.592)">
+                    <g transform="matrix(30,0,0,30,1964.29,179.697)">
+                    </g>
+                    <text x="1743.28px" y="179.697px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:30px;fill:rgb(235,235,235);">Appel à l&apos;action</text>
+                </g>
+                <g transform="matrix(5.05713e-17,0.675729,-1.65178,8.2753e-17,2658.39,-2168.76)">
+                    <path d="M1896.29,303.195L1896.29,285.983L2043.82,285.983L2043.82,270L2093,294.589L2043.82,319.178L2043.82,303.195L1896.29,303.195Z" style="fill:rgb(235,235,235);"/>
+                </g>
+                <g transform="matrix(5.05713e-17,0.675729,-1.65178,8.2753e-17,2656.39,-1902.92)">
+                    <path d="M1896.29,303.195L1896.29,285.983L2043.82,285.983L2043.82,270L2093,294.589L2043.82,319.178L2043.82,303.195L1896.29,303.195Z" style="fill:rgb(235,235,235);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

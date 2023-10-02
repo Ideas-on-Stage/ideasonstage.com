@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Name": "IoS",
+  "Author": "Pierre Morsa",
+  "ShortDescription": "Ideas on Stage Theme",
+  "LongDescription": "",
+  "Css": "theme.css",
+  "TitleFont": "",
+  "BodyFont": "",
+  "CssClasses": "variable-size-headings",
+  "Layouts": []
+}

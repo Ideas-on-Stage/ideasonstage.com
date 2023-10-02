@@ -447,6 +447,9 @@ title         						= "Ideas on Stage"
 			[[languages.fr.params.navigation.items]]
 				name		 				= "Formation"
 				url						 	= "/fr/formations-prise-de-parole-en-public/"
+			[[languages.fr.params.navigation.items]]
+				name		 				= "Ateliers"
+				url						 	= "/fr/ateliers-evenement-entreprise/"
 	
 			[[languages.fr.params.navigation.resources]]			
 				name						= "Vidéos"

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 781 780" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2483,0)">
+        <g transform="matrix(0.738636,0,0,0.902778,1268.92,1011.11)">
+            <rect id="information-emotion-action" x="1643.8" y="-1120" width="1056" height="864" style="fill:none;"/>
+            <g id="information-emotion-action1" serif:id="information-emotion-action">
+                <g transform="matrix(1.35385,0,0,1.10769,-1717.93,-1120)">
+                    <path d="M2888.1,389.986L3051.6,389.986L3231.61,750L2888.1,750L2888.1,389.986ZM2893.1,394.986L2893.1,745L3223.52,745L3048.51,394.986L2893.1,394.986Z" style="fill:rgb(235,235,235);"/>
+                </g>
+                <g transform="matrix(1.35385,0,0,1.10769,-1717.93,-1120)">
+                    <path d="M2858.08,750L2511.61,750L2691.62,389.986L2858.08,389.986L2858.08,750ZM2853.08,745L2853.08,394.986L2694.71,394.986C2694.71,394.986 2519.7,745 2519.7,745L2853.08,745Z" style="fill:rgb(235,235,235);"/>
+                </g>
+                <g transform="matrix(1.35385,0,0,1.10769,-1717.93,-1120)">
+                    <path d="M2706.62,359.973L2871.61,30L3036.6,359.973L2706.62,359.973Z" style="fill:rgb(252,109,8);"/>
+                    <path d="M2706.62,359.973L2871.61,30L3036.6,359.973L2706.62,359.973ZM2714.71,354.973C2714.71,354.973 3028.51,354.973 3028.51,354.973C3028.51,354.973 2871.61,41.18 2871.61,41.18L2714.71,354.973Z" style="fill:rgb(235,235,235);"/>
+                </g>
+                <g transform="matrix(1.35385,0,0,1.10769,-339.555,-987.202)">
+                    <g transform="matrix(32,0,0,32,1902.96,179.697)">
+                    </g>
+                    <text x="1804.62px" y="179.697px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:32px;fill:rgb(235,235,235);">Action</text>
+                </g>
+                <g transform="matrix(1.35385,0,0,1.10769,-499.799,-608.592)">
+                    <g transform="matrix(30,0,0,30,1912.66,179.697)">
+                    </g>
+                    <text x="1747.21px" y="179.697px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:30px;fill:rgb(235,235,235);">Information</text>
+                </g>
+                <g transform="matrix(1.35385,0,0,1.10769,-178.715,-608.592)">
+                    <g transform="matrix(30,0,0,30,1913.47,179.697)">
+                    </g>
+                    <text x="1794.1px" y="179.697px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:30px;fill:rgb(235,235,235);">Émotion</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
