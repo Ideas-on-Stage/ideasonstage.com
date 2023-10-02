@@ -101,3 +101,8 @@
 	status			= 301
 	force				= true
 
+[[redirects]]
+	from				= "https://www.ideasonstage.com/corporate-communication/*"
+	to					= "https://www.ideasonstage.com/communication-consulting/:splat"
+	status			= 301
+	force				= true

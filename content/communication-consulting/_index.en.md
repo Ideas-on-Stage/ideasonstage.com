@@ -1,8 +1,8 @@
 +++
 draft 			= false
-title 			= "Corporate Communication"
+title 			= "Communication Consulting"
 description		= "Improve your corporate communication strategy with our consulting services."
-url				= "/corporate-communication/"
+url				= "/communication-consulting/"
 thumbnail		= "thumbnail.jpg"
 weight			= 10
 pages			= "bottom"
@@ -12,7 +12,7 @@ pages			= "bottom"
 Our corporate communication strategy consulting branch offers all necessary services for your organizational, management and internal communication needs. Our approach emphasizes the use of human communication to deliver effective messages.
 {{< /text-centered >}}
 
-{{< image-wide src="corporate-communication.jpg" alt="Corporate Communication" >}}
+{{< image-wide src="/communication-consulting/corporate-communication.jpg" alt="Corporate Communication" >}}
 
 {{< icon-list title="Key benefits" style="bg-lightgray" >}}
 	{{< icon-item icon="identity.svg" description="Reinforce your identity" >}}

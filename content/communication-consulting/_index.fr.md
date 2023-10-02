@@ -12,7 +12,7 @@ pages			= "bottom"
 Notre offre de conseil en stratégie de communication d'entreprise propose tous les services nécessaires pour vos besoins en matière d'organisation, de gestion et de communication interne. Notre approche met l'accent sur l'utilisation d’une communication humaine pour délivrer des messages efficaces.
 {{< /text-centered >}}
 
-{{< image-wide src="corporate-communication.jpg" alt="Communication d'entreprise" >}}
+{{< image-wide src="/communication-consulting/corporate-communication.jpg" alt="Communication d'entreprise" >}}
 
 {{< icon-list title="Bénéfices clés" style="bg-lightgray" >}}
 	{{< icon-item icon="identity.svg" description="Identité renforcée" >}}

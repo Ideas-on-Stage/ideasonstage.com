@@ -206,7 +206,7 @@ title         						= "Ideas on Stage"
 		[languages.en.menu]
 			[[languages.en.menu.main]]
 				name						= "Communication"
-				pageRef	 				= "/corporate-communication/"
+				pageRef	 				= "/communication-consulting/"
 				weight					= 10
 			[[languages.en.menu.main]]
 				name		 				= "Coaching"
@@ -249,14 +249,14 @@ title         						= "Ideas on Stage"
 			company						= "About"
 				
 			[[languages.en.params.navigation.items]]
-				name						= "Consulting"
-				url			 				= "/corporate-communication/"
+				name						= "Training"
+				url			 				= "/presentations-training/"
 			[[languages.en.params.navigation.items]]
 				name		 				= "Coaching"
 				url			 				= "/public-speaking-coaching/"
 			[[languages.en.params.navigation.items]]
-				name						= "Training"
-				url			 				= "/presentations-training/"
+				name						= "Consulting"
+				url			 				= "/communication-consulting/"
 	
 			[[languages.en.params.navigation.resources]]
 				name						= "Videos"
@@ -618,11 +618,11 @@ title         						= "Ideas on Stage"
 			language						= "Idioma"
 	
 			[[languages.es.params.navigation.items]]	
-				name		 				= "Coaching"
-				url			 				= "/es/coaching-para-hablar-en-publico/"
-			[[languages.es.params.navigation.items]]	
 				name		 				= "Formación"
 				url			 				= "/es/formacion-para-hablar-en-publico/"
+			[[languages.es.params.navigation.items]]	
+				name		 				= "Coaching"
+				url			 				= "/es/coaching-para-hablar-en-publico/"
 			[[languages.es.params.navigation.items]]	
 				name		 				= "Creación"
 				url			 				= "/es/servicios/creacion-presentaciones-powerpoint/"

@@ -1,6 +1,6 @@
 +++
 draft 					= false
-title		 				= "International Agency - Public Speaking Coaching and Training"
+title		 				= "International Agency - Public Speaking Training and Coaching"
 description			= "International agency specialized in Public Speaking Coaching and Training and Presentation Creation. We cover North America and Europe."
 outputs					= ["html","rss","json"]
 picture					= "/img/ideas-on-stage.svg"
@@ -34,11 +34,11 @@ hidetitle				= false
 	[[slider.list]]
 		draft				= true
 		date				= "2020-07-18"
-		bgimage			= "/corporate-communication/corporate-communication-hero.jpg"
-		title				= "CORPORATE COMMUNICATION"
+		bgimage			= "/communication-consulting/corporate-communication-hero.jpg"
+		title				= "COMMUNICATION CONSULTING"
 		description	= "Improve your management and organizational communication"
 		button			= "Learn More"
-		buttonlink		= "/corporate-communication/"
+		buttonlink		= "/communication-consulting/"
 		color				= "text-white"
 		opacity			= "30"
 	[[slider.list]]
