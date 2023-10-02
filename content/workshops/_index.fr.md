@@ -36,3 +36,7 @@ Plus qu’un atelier, cette activité marquera durablement les esprits de votre 
 	{{< icon-item icon="/img/icons/group.svg" description="Renforcement des équipes" >}}
 	{{< icon-item icon="/img/icons/performance.svg" description="Amélioration des performances" >}}
 {{< /icon-list >}}
+
+{{< text-centered title="Une équipe expérimentée" >}}
+Notre équipe a animé de nombreux ateliers pour les grandes entreprises. Nous croyons en la force de la diversité de ses talents et de ses profils : ses membres ont été consultants en management, acteurs, vendeurs, écrivains. Cela nous donne la possibilité de créer des ateliers surprenants et originaux.
+{{< /text-centered >}}

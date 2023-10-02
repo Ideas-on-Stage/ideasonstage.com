@@ -439,14 +439,14 @@ title         						= "Ideas on Stage"
 			company						= "À propos"
 	
 			[[languages.fr.params.navigation.items]]
-				name		 				= "Conseil"
-				url			 				= "/fr/conseil-communication/"
+				name		 				= "Formation"
+				url						 	= "/fr/formations-prise-de-parole-en-public/"
 			[[languages.fr.params.navigation.items]]
 				name		 				= "Coaching"
 				url			 				= "/fr/coaching-prise-de-parole-en-public/"
 			[[languages.fr.params.navigation.items]]
-				name		 				= "Formation"
-				url						 	= "/fr/formations-prise-de-parole-en-public/"
+				name		 				= "Conseil"
+				url			 				= "/fr/conseil-communication/"
 			[[languages.fr.params.navigation.items]]
 				name		 				= "Ateliers"
 				url						 	= "/fr/ateliers-evenement-entreprise/"
