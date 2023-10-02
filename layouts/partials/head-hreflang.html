@@ -4,7 +4,12 @@
 	{{- else -}}
 		<link href="{{ .Permalink }}" rel="canonical" />
 	{{- end -}}
+	{{ $language := .Language.Lang }}
   {{- range .AllTranslations }}
+  	{{ if and (eq $language .Lang) ($.Page.Paginator) }}
+		<link href="{{ absURL .Paginator.URL }}" hreflang="{{ .Lang }}" rel="alternate" />
+  	{{ else }}
 		<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
+		{{ end }}
   {{- end}}
 {{ "<!-- partials:head-hreflang.html:end -->" | safeHTML }}

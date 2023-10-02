@@ -24,6 +24,6 @@ Every presentation should be made to measure for a specific audience. Likewise, 
 Our results-oriented approach is aimed at creating a permanent change in the way you and your team present. Our courses are very hands-on so participants learn AND adopt our new techniques. We give detailed handouts to guide participants through the creation of their next presentations. And we can add one-to-one coaching for participants in the weeks after the course, to help them to prepare and rehearse as they use these new methods. Our courses are only the beginning of the journey.
 {{< /text2-picture1 >}}
 
-{{< picture1-text2 picture="/img/ted-01.jpg" title="Business communication, TED-style" >}}
+{{< picture1-text2 picture="training.jpg" title="Business communication, TED-style" >}}
 Board presentations are not stage shows, but business can learn much from TED and Apple presentations. As a leader in this new style of presenting, with hundreds of talks behind us at TED(x) events all over the world, Ideas on Stage helps you to apply some TED-style magic to your business communication.
 {{< /picture1-text2 >}}

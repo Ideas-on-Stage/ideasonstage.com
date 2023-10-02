@@ -1,6 +1,7 @@
 +++
 draft	= false
 title	= "The Business Presentation Revolution"
+description = "Introducing The Business Presentation Revolution Podcast: your regular dose of Presentation Inspiration."
 url		= "/revolution/"
 
 insertsbottom 	= [

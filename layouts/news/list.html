@@ -9,7 +9,7 @@
 				</div>
 			</aside>
 			<article id="content-main" class="flex-child-67p">
-				{{ range (.Paginator 8).Pages }}
+				{{ range (.Paginator).Pages }}
 			<section class="post ">
                 <div class="flex-parent-row paddingt-none paddingb-none">
 					<div class= "row-tag">
@@ -75,11 +75,11 @@
 				<div>
 	                <ul class="pager">
 	                    {{ if .Paginator.HasPrev }}
-	                    <li class="previous"><a href="{{ .Paginator.Prev.URL }}" class="button-secondary">&larr; {{ .Site.Params.news.prev }}</a></li>
+	                    <li class="previous"><a href="{{ .Paginator.Prev.URL }}" class="button-secondary">&larr; {{ site.Params.buttons.previous }}</a></li>
 	                    {{ end }}
 	
 	                    {{ if .Paginator.HasNext }}
-	                    <li class="next"><a href="{{ .Paginator.Next.URL }}" class="button-secondary">{{ .Site.Params.news.next }} &rarr;</a></li>
+	                    <li class="next"><a href="{{ .Paginator.Next.URL }}" class="button-secondary">{{ site.Params.buttons.next }} &rarr;</a></li>
 	                    {{ end }}
 	                </ul>
 				</div>

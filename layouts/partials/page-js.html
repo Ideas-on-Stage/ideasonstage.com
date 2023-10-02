@@ -1,7 +1,8 @@
  {{ "<!-- partials:page-js.html:start -->" | safeHTML }}
 
 {{ "<!-- jQuery - Required for form validation -->" | safeHTML }}
-<script src="/js/jquery.js"></script>
+{{ $jsjquery := resources.Get "jquery.js" | resources.Minify }}
+<script src="{{ $jsjquery.RelPermalink }}"></script>
 
 {{ "<!-- jQuery - Contact form event handler -->" | safeHTML }}
 <script>
@@ -21,8 +22,10 @@
   });    
 </script>
 
-{{ "<!-- Search Management JavaScript -->" | safeHTML }}   
-<script src="/js/fuse.js"></script>           
-<script src="/js/fastsearch.js"></script> 
+{{ "<!-- Search Management JavaScript, as resources to minify js -->" | safeHTML }}   
+{{ $jsfuse := resources.Get "fuse.js" | resources.Minify }}
+{{ $jsfs := resources.Get "fastsearch.js" | resources.Minify }}
+<script src="{{ $jsfuse.RelPermalink }}"></script>           
+<script src="{{ $jsfs.RelPermalink }}"></script> 
 
 {{ "<!-- partials:page-js.html:end -->" | safeHTML }}

@@ -1,7 +1,7 @@
 +++
 draft 			= false
 title 				= "Services"
-description	= "Presentation creation, business events, public speaking training and coaching"
+description	= "A complete set of services to shine on stage: public speaking training and coaching, communication consulting"
 url 					= "/services/"
 +++
 
