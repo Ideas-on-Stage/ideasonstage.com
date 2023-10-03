@@ -3,7 +3,7 @@ draft 			= false
 title 			= "Presentation Strategy"
 description		= "Choose the right angle for your audience to ensure your presentation is a complete success."
 picture			= "strategy.jpg"
-url				= "/services/communication-consulting/communication-strategy/"
+url				= "/communication-consulting/communication-strategy/"
 +++
 
 ## Get a powerful presentation to sell your value and convince your audience, be they clients, partners or the media

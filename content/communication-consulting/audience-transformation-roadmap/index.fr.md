@@ -3,7 +3,7 @@ draft			= false
 title			= "Parcours de Transformation de l’Auditoire™"
 description 	= "Le Parcours de Transformation de l’Auditoire™ est un outil simple et efficace créé par Ideas on Stage pour identifier les messages clés à inclure dans votre présentation."
 picture			= "atr_from_iOS.jpg"
-url	 			= "/fr/services/conseil-communication/parcours-transformation-auditoire/"
+url	 			= "/fr/conseil-communication/parcours-transformation-auditoire/"
 +++
 
 La plupart des gens font des présentations pour partager des informations, ce qui est une perte de temps pour tout le monde car nous oublions la plupart de ce que nous entendons très rapidement.
@@ -52,6 +52,6 @@ Nous avons inventé cette technique, et nous sommes souvent étonnés de voir à
 
 Si vous souhaitez l’aide d’un facilitateur expérimenté pour vous aider à organiser une session de brainstorming en utilisant ce Parcours de Transformation de l’Auditoire™, l’équipe Ideas on Stage se fera un plaisir de vous aider. Disponible en anglais, français, espagnol, italien et allemand.
 
-Pour une version agrandie du Parcours de Transformation de l’Auditoire™, téléchargez simplement notre guide [ici](./ATR_template_Ideas_on_Stage.pdf).
+Pour une version agrandie du Parcours de Transformation de l’Auditoire™, téléchargez simplement notre guide [ici](/files/ATR_template_Ideas_on_Stage.pdf).
 
 Avez-vous essayé d’utiliser le Parcours de Transformation de l’Auditoire™  ? Nous serions ravis d’avoir vos remarques et votre retour d’expérience. N’hésitez pas à nous écrire via le formulaire ci-dessous.
