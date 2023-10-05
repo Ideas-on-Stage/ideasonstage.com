@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "If there was a Nobel Prize for public speaking, who would win?"
+title = "Nobel Prize for public speaking"
 news = ["general"]
 date = "2023-10-05"
 author = "Pierre Morsa"
