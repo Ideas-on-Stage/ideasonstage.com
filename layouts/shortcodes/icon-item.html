@@ -3,7 +3,7 @@
 	
 	<div class="style-icon paddingh-medium {{ with .Params.style }}{{ . }}{{ end }}">
 	{{ with .Params.url }}
-		<a href="url">
+		<a href="{{ . }}">
 	{{ end }}
 	<img src="{{ .Params.icon }}" alt= "{{ .Params.description | markdownify }}">
 	{{ with .Params.url }}
