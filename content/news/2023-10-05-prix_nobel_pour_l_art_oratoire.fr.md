@@ -8,7 +8,7 @@ banner = "/img/news/istock-472239938.jpg"
 +++
 ![](/img/news/istock-472239938.jpg)
 
-C’est la période de l’année où les Prix Nobel sont décernés, et de fantastiques personnes ont déjà remporté cette prestigieuse récompense. Nous nous sommes donc demandé : s’il existait un Prix Nobel pour l’art oratoire, qui gagnerait ? Nous sommes conscients qu’il s’agit de récompenser une compétence plutôt qu’un résultat, mais nous avons quand même trouvé l’exercice intéressant. Voici les nominations de chaque membre de notre équipe.
+C’est la période de l’année où les Prix Nobel sont décernés, et de fantastiques personnes ont déjà remporté cette prestigieuse récompense. Nous nous sommes donc demandé : s’il existait un Prix Nobel pour l’art oratoire, qui gagnerait ? Si vous étiez juge, qui désigneriez-vous comme orateur exceptionnel ? Et qui nos experts en présentation nommeraient-ils ? Découvrez les nominés de notre équipe.
 
 **Pierre :** Joe Biden. Oui, techniquement, il existe de meilleurs orateurs que Joe Biden. Mais la grande différence est la suivante : Joe Biden s’appuie sur des réalisations pour étayer sa rhétorique. Et je choisirai toujours un bon orateur avec du contenu plutôt qu'un fantastique orateur avec des promesses vides de sens.
 
