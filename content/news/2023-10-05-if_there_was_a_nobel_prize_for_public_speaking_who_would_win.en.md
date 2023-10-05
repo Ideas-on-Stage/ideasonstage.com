@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Nobel Prize for public speaking"
+title = "Nobel Prize for Public Speaking"
 news = ["general"]
 date = "2023-10-05"
 author = "Pierre Morsa"
@@ -8,7 +8,7 @@ banner = "/img/news/istock-472239938.jpg"
 +++
 ![](/img/news/istock-472239938.jpg)
 
-It's the time of year when Nobel prizes are awarded, and some fantastic people already won the prestigious prize. So we asked ourselves: if there were a Nobel Prize for public speaking, who would win? We realize that this is awarding a prize to a skill rather than a result, but we still found the exercise interesting. Here are the nominations of each member of our team:
+It's the time of year when Nobel Prizes are awarded, and some fantastic people already won the prestigious prize. So we asked ourselves: if there were a Nobel Prize for public speaking, who would win? We realize that this is awarding a prize to a skill rather than a result, but we still found the exercise interesting. Here are the nominations of each member of our team:
 
 **Pierre:** Joe Biden. Yes, technically there are better orators than Joe Biden. But the big difference is: Joe Biden has accomplishments to back his rhetoric. And I'll always pick a good speaker with substance over a fantastic speaker with empty promises.
 
