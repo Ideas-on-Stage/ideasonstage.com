@@ -6,7 +6,7 @@ url						= "/resources/podcast/"
 ni						= true
 +++
 
-![Ideas on Stage Podcast](/resources/podcast/RVOimwZI.jpeg)
+{{< img src="/resources/podcast/RVOimwZI.jpeg" class="centered" width="250px" >}}
 
 Do you enjoy listening to podcasts? Are you interested in leadership and communication? Then you might enjoy the Ideas on Stage Podcast.
 

@@ -276,6 +276,9 @@ title         						= "Ideas on Stage"
 			[[languages.en.params.navigation.resources]]
 				name						= "Confident Presenter Book"
 				url							= "/resources/confident-presenter-book/"
+			[[languages.en.params.navigation.resources]]
+				name						= "Podcast"
+				url							= "/resources/podcast/"
 				
 			[languages.en.params.navigation.housekeeping]
 				[languages.en.params.navigation.housekeeping.001]
