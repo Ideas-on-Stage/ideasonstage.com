@@ -14,10 +14,6 @@ Once or twice a month, we publish a new discussion about leadership, communicati
 
 You can find the Ideas on Stage Podcast on all major platforms, using the links below.
 
-
-
-[LIST OF PODCAST SITES AND ICONS]
-
 {{< icon-list title="Podcast links" style="" >}}
 	{{< icon-item icon="/resources/podcast/ts8Run07.png" description="iTunes" url="https://podcasts.apple.com/us/podcast/ideas-on-stage-the-leadership-communication-podcast/id1506050111?uo=4">}}
 	{{< icon-item icon="/resources/podcast/p7j4zikA.png" description="Google" url="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw==" >}}
