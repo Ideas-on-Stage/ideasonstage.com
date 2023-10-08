@@ -1,6 +1,7 @@
 {{- $src := .Get "src" -}}
 {{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
 {{ $class := .Get "class" }}
 <div class="{{ $class }}">
-<img src="{{ $src }}" {{ with $width }}width="{{ . }}"{{ end }} />
+<img src="{{ $src }}" {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }} />
 </div>

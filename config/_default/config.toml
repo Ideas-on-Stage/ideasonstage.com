@@ -205,21 +205,17 @@ title         						= "Ideas on Stage"
 		# Menu main
 		[languages.en.menu]
 			[[languages.en.menu.main]]
-				name						= "Communication"
-				pageRef	 				= "/communication-consulting/"
+				name						= "Training"
+				pageRef 				= "/training/"
 				weight					= 10
 			[[languages.en.menu.main]]
 				name		 				= "Coaching"
 				pageRef 				= "/public-speaking-coaching/"
 				weight					= 20
 			[[languages.en.menu.main]]
-				name						= "Training"
-				pageRef 				= "/presentations-training/"
+				name						= "Consulting"
+				pageRef	 				= "/communication-consulting/"
 				weight					= 30
-			[[languages.en.menu.main]]
-				name						= "Workshops"
-				pageRef 				= "/creative-workshops/"
-				weight					= 40
 			[[languages.en.menu.main]]
 				name		 				= "Contact"
 				pageRef					= "#contact"

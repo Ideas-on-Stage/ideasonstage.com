@@ -4,12 +4,13 @@
 
 	  <div class="iosnavbar-header">
 	    	<div class="iosnavbar-brand">
-				{{ if eq "en" .Site.LanguageCode }}
-	    		<a class="page-scroll" href="{{ .Site.BaseURL }}">
-				{{ else }}
-	    		<a class="page-scroll" href="{{ .Site.BaseURL }}{{ .Site.LanguageCode }}/">
-				{{ end }}
-	    	<img src="{{ .Site.Params.navigation.brand_logo }}" alt="Ideas on Stage" class="iosnavbar-brand"></a>
+					{{ $home := .Site.BaseURL }}
+					{{ if ne "en" .Site.LanguageCode }}
+						{{ $home = printf "%s%s/" $home .Site.LanguageCode }}	
+					{{ end }}
+		    	<a class="page-scroll" href="{{ $home }}">
+		    		<img src="{{ .Site.Params.navigation.brand_logo }}" alt="Ideas on Stage" class="iosnavbar-brand">
+					</a>
 	  		</div>
 	  </div>
 	  
@@ -50,7 +51,7 @@
 					</li>
 				</ul>
 	    </li> 
-	     
+	    
 			<li>
 				<a class="iosnavbar-separator" href="#">|</a>
 			</li>
