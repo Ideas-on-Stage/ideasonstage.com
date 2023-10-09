@@ -1123,7 +1123,7 @@
 
 		/* flex child constrained to about 25% of available space */
 		.flex-child-20p {
-			height: 100%;
+			/* height: 100%; */
 			flex: 1;
 			flex-grow: 0;
 			flex-basis: 20%; /* start at 20% width */
