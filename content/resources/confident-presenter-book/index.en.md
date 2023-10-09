@@ -48,7 +48,7 @@ To get in touch or find out more, check out his [LinkedIn profile](https://www.l
 
 ## Want to book Andrea on your podcast? 
 
-![Andrea talking](andrea-talking.png)
+![Andrea talking](andrea-talking.jpg)
 
 As the host of the Ideas on Stage podcast, Andrea understands what makes a great guest and how to provide a lot of value to your audience.
 

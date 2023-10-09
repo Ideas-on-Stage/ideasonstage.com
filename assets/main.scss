@@ -1176,6 +1176,7 @@
 
 		
 		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+			.flex-child-33p,
 			.flex-child-25p,
 			.flex-child-20p {
 				flex-basis: 50%;
