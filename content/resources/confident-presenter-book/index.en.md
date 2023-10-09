@@ -1,11 +1,10 @@
 +++
 draft 			= false
-title 			= "Confident Presenter Book"
+title 					= "Confident Presenter Book"
 description		= "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."
-showrefs		= false
-hidepagelist		= true
+showrefs			= false
 urlredirect		= ""
-ni				= true
+ni						= true
 
 +++
 
@@ -17,6 +16,8 @@ Learn the five key principles to communicate a compelling message that inspires 
 > "Improving your presentation skills can change your life forever, and this book will give you the power to make that change."
 <br /><i>—Garr Reynolds, Author of Presentation Zen</i>
 
+Now Officially Included in New York University’s Business Communication Courses
+
 {{% /picture1-text2 %}}
 
 {{% call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" %}}
@@ -27,6 +28,7 @@ Learn the five key principles to communicate a compelling message that inspires 
 ## An idea needs wings, and that means a strong, well-delivered presentation.
 
 {{% picture1-text2 picture="andrea-pacini.jpg" %}}
+
 ### Meet the Author
 
 Andrea Pacini is a presentation coach and Head of Ideas on Stage UK.
@@ -42,6 +44,7 @@ Andrea is on a mission to stop great ideas from failing just because of the way 
 To get in touch or find out more, check out his [LinkedIn profile](https://www.linkedin.com/in/apacini/). 
 {{% /picture1-text2 %}}
 
+{{% gallery-5 pic1="/resources/confident-presenter-book/reader1.jpg" pic2="/resources/confident-presenter-book/reader2.jpg"  pic3="/resources/confident-presenter-book/reader3.jpg"  pic4="/resources/confident-presenter-book/reader4.jpg"  pic5="/resources/confident-presenter-book/reader5.jpg" %}}
 
 ## Want to book Andrea on your podcast? 
 
