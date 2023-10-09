@@ -2,6 +2,7 @@
 draft				= false
 title				= "Supports de formation"
 url	 				= "/fr/formations-prise-de-parole-en-public/supports/"
+enablehero		= true
 ni					= true
 +++
 
