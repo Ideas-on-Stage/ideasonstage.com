@@ -44,7 +44,7 @@ Andrea is on a mission to stop great ideas from failing just because of the way 
 To get in touch or find out more, check out his [LinkedIn profile](https://www.linkedin.com/in/apacini/). 
 {{% /picture1-text2 %}}
 
-{{% gallery-5 pic1="/resources/confident-presenter-book/reader1.jpg" pic2="/resources/confident-presenter-book/reader2.jpg"  pic3="/resources/confident-presenter-book/reader3.jpg"  pic4="/resources/confident-presenter-book/reader4.jpg"  pic5="/resources/confident-presenter-book/reader5.jpg" %}}
+{{% gallery "/resources/confident-presenter-book/reader1.jpg" "/resources/confident-presenter-book/reader2.jpg" "/resources/confident-presenter-book/reader3.jpg" "/resources/confident-presenter-book/reader4.jpg" "/resources/confident-presenter-book/reader5.jpg" "/resources/confident-presenter-book/reader6.jpg" %}}
 
 ## Want to book Andrea on your podcast? 
 

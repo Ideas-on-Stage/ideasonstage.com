@@ -916,8 +916,9 @@
 		.layout-shortcode-img {
 			padding: 0;
 			margin: 0 -2vw;
-			line-height: 1;
+			line-height: 0.8;
 			border: 0;
+			box-sizing: border-box;
 		}
 		
 		.layout-shortcode-img img {
@@ -1105,16 +1106,15 @@
 
 		/* flex child constrained to about 33% of available space */
 		.flex-child-33p {
-			height: 100%;
+			/*height: 100%;*/
 			flex: 1;
-			flex-grow: 0;
-			flex-basis: 33%; /* start at 33% width */
+			flex-basis: 33.333%; /* start at 33% width */
 			box-sizing: border-box;
 		}
 		
 		/* flex child constrained to about 25% of available space */
 		.flex-child-25p {
-			height: 100%;
+			/*height: 100%;*/
 			flex: 1;
 			flex-basis: 25%; /* start at 25% width */
 			min-width: 120px; /* force 2 columns width on ts screens */
@@ -1132,7 +1132,7 @@
 		
 		/* flex child constrained to about 67% of available space */
 		.flex-child-67p {
-			height: 100%;
+			/*height: 100%;*/
 			flex: 1;
 			flex-grow: 0;
 			flex-basis: 67%; /* start at 67% width */
