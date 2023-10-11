@@ -115,3 +115,15 @@
 	to					= "https://www.ideasonstage.com/files/ATR_template_Ideas_on_Stage.pdf"
 	status			= 301
 	force				= true
+
+
+[[redirects]]
+	from				= "https://www.ideasonstage.com/fr/services/conseil-communication/storytelling-et-ecriture/"
+	to					= "https://www.ideasonstage.com/fr/conseil-communication/storytelling-et-ecriture/"
+	status			= 301
+	force				= true
+	
+
+
+
+
