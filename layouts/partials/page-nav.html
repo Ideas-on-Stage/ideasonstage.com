@@ -2,38 +2,42 @@
 <nav class="iosnavbar">
 	<div class="layout-content-width">
 
-	  <div class="iosnavbar-header">
-	    	<div class="iosnavbar-brand">
-					{{ $home := .Site.BaseURL }}
-					{{ if ne "en" .Site.LanguageCode }}
-						{{ $home = printf "%s%s/" $home .Site.LanguageCode }}	
-					{{ end }}
-		    	<a class="page-scroll" href="{{ $home }}">
-		    		<img src="{{ .Site.Params.navigation.brand_logo }}" alt="Ideas on Stage" class="iosnavbar-brand">
-					</a>
-	  		</div>
-	  </div>
+	  <!-- logo -->
+  	<div class="iosnavbar-brand">
+			{{ $home := .Site.BaseURL }}
+			{{ if ne "en" .Site.LanguageCode }}
+				{{ $home = printf "%s%s/" $home .Site.LanguageCode }}	
+			{{ end }}
+    	<a class="page-scroll" href="{{ $home }}">
+    		<img src="{{ .Site.Params.navigation.brand_logo }}" alt="Ideas on Stage" class="iosnavbar-brand">
+			</a>
+		</div>
 	  
-		<label for="drop" class="menutoggle iosnavbar-icon">&#9776</label>
+	  <!-- burger menu on ts screens -->
+		<label for="drop" class="menutoggle iosnavbar-burger">&#9776</label>
 	  <input type="checkbox" id="drop" />
 	
 	  <!-- iosmenu start -->
-		<ul class="iosmenu">
+		<ul class="iosnavbar-menu">
 				
 	    <!-- Services Drop Down -->
 	    {{- range .Site.Params.navigation.items }}
-	    	<li>
+	    	<li class="iosnavbar-menu-item">
 		    	<a class="page-scroll" href="{{ .url }}">{{ .name }}</a>
 		  	</li>  
 		  {{- end }}
 							
 	     <!-- Contact Menu -->
 	    {{- range .Site.Params.navigation.housekeeping }}
-	    	<li><a class="page-scroll" href="{{ .url }}">{{ .name }}</a></li>
+	    	<li class="iosnavbar-menu-item">
+					<a class="page-scroll" href="{{ .url }}">
+						{{ .name }}
+					</a>
+				</li>
 	    {{- end }}
 			
 	    <!-- Search Dropdown -->
-	    <li>
+	    <li class="iosnavbar-menu-item">
 				<label for="drop-5" class="menutoggle">
 					<i class="fa fa-search"></i>
 				</label>
@@ -41,39 +45,39 @@
 					<i class="fa fa-search"></i>
 				</a>
 				<input type="checkbox" id="drop-5"/>
-				<ul>
-					<li id="fastSearch">
+				<ul class="iosnavbar-menu-dropdown">
+					<li id="fastSearch" class="iosnavbar-menu-dropdown-item">
 						<input id="searchInput" tabindex="0">
 					</li>
-					<li>
+					<li  class="iosnavbar-menu-dropdown-item">
 						<ul id="searchResults">
 						</ul>
 					</li>
 				</ul>
 	    </li> 
 	    
-			<li>
-				<a class="iosnavbar-separator" href="#">|</a>
-			</li>
-	    
 	    <!-- Languages  Drop Down -->
-			<li>
+			<li class="iosnavbar-menu-item">
 				<label for="drop-4" class="menutoggle">
 					<i class="fa fa-globe"></i>
 	        {{ with .Language.LanguageName }}{{ . }}{{ end }}
 					<i class="fa fa-chevron-down"></i>
 				</label>
-	      <a class="iosnavbar-lang" href="#">
+					<a href="#">
 					<i class="fa fa-globe"></i>
 					{{ with .Language.LanguageName  }}{{ . }}{{ end }}
 					<i class="fa fa-chevron-down"></i>
-				</a>
+					</a>
 	      <input type="checkbox" id="drop-4"/>
-	      <ul>
+	      <ul class="iosnavbar-menu-dropdown">
 					{{- if .IsTranslated }}
 						{{- range .AllTranslations }}
 							{{- if ne (site.LanguageCode | lower) (.Lang | lower) -}}
-	         			<li><a class="iosnavbar-dropdownlang" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+	         			<li class="iosnavbar-menu-dropdown-item">
+					 				<a href="{{ .Permalink }}">
+					 					{{ .Language.LanguageName }}
+					 				</a>
+					 			</li>
 					 		{{- end -}}
 					  {{- end}}
 					{{- end }}	
