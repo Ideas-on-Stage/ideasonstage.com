@@ -20,14 +20,14 @@
 	  <!-- iosmenu start -->
 		<ul class="iosnavbar-menu">
 				
-	    <!-- Services Drop Down -->
+	    <!-- Services Menu Items -->
 	    {{- range .Site.Params.navigation.items }}
 	    	<li class="iosnavbar-menu-item">
 		    	<a class="page-scroll" href="{{ .url }}">{{ .name }}</a>
 		  	</li>  
 		  {{- end }}
 							
-	     <!-- Contact Menu -->
+	     <!-- Contact Menu Item -->
 	    {{- range .Site.Params.navigation.housekeeping }}
 	    	<li class="iosnavbar-menu-item">
 					<a class="page-scroll" href="{{ .url }}">

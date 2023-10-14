@@ -54,8 +54,6 @@
   z-index: 1;
   transition: opacity 1s;
   -webkit-transition: opacity 1s;
-  animation-name: zoomout;
-  animation-duration: 3s;
 }
 
 /* previous and next buttons */
@@ -134,13 +132,5 @@
   margin: 0 .125%;
   width: 20px;
   height: 20px;
-}
-
-
-
-@keyframes zoomout {
-  from {transform: scale(1.1);
-  }
-  to {transform: scale(1);}
 }
 

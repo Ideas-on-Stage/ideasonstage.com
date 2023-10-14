@@ -202,40 +202,6 @@ title         						= "Ideas on Stage"
 			bgimage						= ""
 
 		# -------------------
-		# Menu main
-		[languages.en.menu]
-			[[languages.en.menu.main]]
-				name						= "Training"
-				pageRef 				= "/training/"
-				weight					= 10
-			[[languages.en.menu.main]]
-				name		 				= "Coaching"
-				pageRef 				= "/public-speaking-coaching/"
-				weight					= 20
-			[[languages.en.menu.main]]
-				name						= "Consulting"
-				pageRef	 				= "/communication-consulting/"
-				weight					= 30
-			[[languages.en.menu.main]]
-				name		 				= "Contact"
-				pageRef					= "#contact"
-				weight					= 100
-			[[languages.en.menu.main]]
-				name		 				= "Language"
-				pre							= ""
-				weight					= 100
-			[[languages.en.menu.main]]
-				parent					= "Language"
-				name		 				= "Français"
-				pageRef					= "/fr/"
-				weight					= 110
-			[[languages.en.menu.main]]
-				parent					= "Language"
-				name		 				= "Español"
-				pageRef					= "/es/"
-				weight					= 120
-
-		# -------------------
 		# Navigation
 		[languages.en.params.navigation]
 			title							= "Navigation"
@@ -418,40 +384,6 @@ title         						= "Ideas on Stage"
 			bgimage						= ""
 
 		# -------------------
-		# Menu main
-		[languages.en-gb.menu]
-			[[languages.en-gb.menu.main]]
-				name						= "Training"
-				pageRef 				= "/training/"
-				weight					= 10
-			[[languages.en-gb.menu.main]]
-				name		 				= "Coaching"
-				pageRef 				= "/public-speaking-coaching/"
-				weight					= 20
-			[[languages.en-gb.menu.main]]
-				name						= "Consulting"
-				pageRef	 				= "/communication-consulting/"
-				weight					= 30
-			[[languages.en-gb.menu.main]]
-				name		 				= "Contact"
-				pageRef					= "#contact"
-				weight					= 100
-			[[languages.en-gb.menu.main]]
-				name		 				= "Language"
-				pre							= ""
-				weight					= 100
-			[[languages.en-gb.menu.main]]
-				parent					= "Language"
-				name		 				= "Français"
-				pageRef					= "/fr/"
-				weight					= 110
-			[[languages.en-gb.menu.main]]
-				parent					= "Language"
-				name		 				= "Español"
-				pageRef					= "/es/"
-				weight					= 120
-
-		# -------------------
 		# Navigation
 		[languages.en-gb.params.navigation]
 			title							= "Navigation"
@@ -496,6 +428,7 @@ title         						= "Ideas on Stage"
 				[languages.en-gb.params.navigation.housekeeping.001]
 					name					= "Contact"
 					url						= "#contact"
+					
 			[languages.en-gb.params.navigation.companyitems]
 				[languages.en-gb.params.navigation.companyitems.001]
 					name					= "Ideas on Stage"

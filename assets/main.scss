@@ -1585,7 +1585,7 @@
   position: absolute;
   top: {{ site.Params.layout.navigation.height }} - 2;
 	margin-left: -1em;
-  background-color: rgba(34,34,34,1);
+	background-color: rgba(34,34,34,1);
   padding: 0;
 	box-sizing: border-box;
 	flex-direction: column;
@@ -1595,7 +1595,7 @@
 /* menu dropdown item */
 .iosnavbar-menu-dropdown-item {
   float: none;
-  display: list-item;
+	display: list-item;
   position: relative;
 	list-style: none;
   padding: 5px 15px;
@@ -1817,7 +1817,7 @@ img::selection {
 }
 
 
-/* Testimonials */
+/* @group Testimonials */
 
 #testimonials {
   margin-top: 6px;
@@ -1881,7 +1881,7 @@ img::selection {
 	}
 }
 
-/* End of testimonials */
+/* @end */
 
 #categoryMenu h3 {
   padding: 20px;
@@ -2171,7 +2171,7 @@ a.footer-sub-category  {
 }
 
 
-@media(max-aspect-ratio:1/1) and (max-width:480px) {
+@media (max-aspect-ratio:1/1) and (max-width:480px) {
 
   .footer-text-min {
 	  flex-grow: 2;
@@ -2233,14 +2233,10 @@ ul.post-tag {
 	margin-top: .2em;
 }
 
-/* @Search Styling */
-
-#fastSearch { 
-
-  }      
+/* @group Search box */
   
-  #fastSearch > input {
-	margin-top: 0.5em;
+#fastSearch > input {
+	margin: 0;
 	padding: 0.5em 0.5em;
 	width: 90%;
 	height: 24px;
@@ -2253,24 +2249,44 @@ ul.post-tag {
 	outline: none;
 	text-align: left;
 	display: inline-block;
-  }
+}
 
-  #searchResults {
-	  display: block;
-	  top: 0px;
-		padding: 0;
-  }
- 
-  #searchResults li { 
+#searchResults {
+  display: block;
+  top: 0px;
+	padding: 0;
+	border: 0;
+}
+
+#searchResults a {
+	border: 0;
+}
+
+#searchResults li { 
 	list-style: none; 
 	margin-left: 0em;
 	background-color: #555; 
-	border-bottom: 1px dotted #ddd;
-  }
-	#searchResults li .title { font-size: 0.8em; margin-bottom: 10px; display: inline-block;}
-	#searchResults li .sc { font-size: 0.8em; text-transform: none; font-weight: normal;}
+}
+  
+#searchResults li .title{
+	font-size: 0.8em; 
+	display: inline-block;
+}
+	
+#searchResults li .sc {
+	font-size: 0.8em;
+	text-transform: none;
+	font-weight: normal;
+}
 
-	/* @group revolution */
+@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	
+}
+/* @end */
+
+
+
+/* @group revolution */
 
 /**************************************
 **** revolution page stuff ************
@@ -2372,4 +2388,141 @@ input[type='checkbox'] {
 	max-height: 100vh;
   }
 /* @end */
+
+
+/**
+ * heroslider.sass
+ * based on Carousel.sass by
+ * @author: Dang Van Thanh
+ * @github: https://github.com/dangvanthanh/heroslider.sass
+ * @description: A Simple heroslider Pure CSS Using Sass
+ * @version: 1.0.0
+ */
+
+/* Note: css based on the number of slider items is generated dynamically by Hugo in the head-page-slider-css.html template */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.heroslider {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.heroslider > input[type="radio"] {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  top: 0;
+}
+.heroslider > input[type="radio"]:checked ~ .heroslider__items .heroslider__item,
+.heroslider > input[type="radio"]:checked ~ .heroslider__prev > label,
+.heroslider > input[type="radio"]:checked ~ .heroslider__next > label {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.heroslider__items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  position: relative;
+}
+
+.heroslider__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+
+/* previous and next buttons */
+
+.heroslider__prev > label, .heroslider__next > label {
+  border: 0px solid #fff;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  opacity: 0;
+  z-index: 2;
+}
+
+.heroslider__prev > label:hover, .heroslider__prev > label:focus, .heroslider__next > label:hover, .heroslider__next > label:focus {
+  opacity: 0.8;
+  
+}
+.heroslider__prev > label:before, .heroslider__prev > label:after, .heroslider__next > label:before, .heroslider__next > label:after {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+
+.heroslider__prev > label:before, .heroslider__next > label:before {
+  background: linear-gradient(to top, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%), linear-gradient(to left, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%);
+  width: 50%;
+  height: 50%;
+  top: 25%;
+}
+
+.heroslider__prev > label {
+  left: 2%;
+}
+
+.heroslider__prev > label:before {
+  left: 35%;
+  top: 25%;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.heroslider__next > label {
+  right: 2%;
+
+}
+.heroslider__next > label:before {
+  left: 10%;
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+}
+
+.heroslider__nav {
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  z-index: 3;
+}
+.heroslider__nav > label {
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 .125%;
+  width: 20px;
+  height: 20px;
+}
 
