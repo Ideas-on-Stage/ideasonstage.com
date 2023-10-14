@@ -3,9 +3,10 @@
   <div class="layout-content">
     <div class="flex-parent-scroll ios-scrollbar">
       {{- $.Scratch.Set "count" 0 }}
+			{{ $languageshort := substr site.LanguageCode 0 2 }}
       {{- range .Site.Data.references }}
         {{- if .showonhome }}
-          {{- if eq site.LanguageCode .language }}
+          {{- if eq $languageshort .language }}
 	          {{- $.Scratch.Add "count" 1 }}
 	          <div class="flex-child-scroll">
 	            <div class="reference-item" style="background-color: transparent;">

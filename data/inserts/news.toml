@@ -15,3 +15,12 @@
 	url			= "/fr/news/"
 	description	= "Notre blog sur l'art de présenter en public. Découvrez notre point de vue sur le CES, Apple et la communication d'entreprise en général."
 	button		= "Lire les articles"
+
+[en-GB]
+	title		= "News"
+	layout		= "inserts/module-half-text-picture.html"
+	style		= "bg-lightgrey"
+	picture		= "/img/inserts/home-news.png"
+	url			= "/news/"
+	description	= "Our corporate blog about the art of presenting in public. Discover what we think about the CES, Apple, and corporate and political communication in general."
+	button		= "Read articles"
