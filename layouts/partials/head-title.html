@@ -1,12 +1,14 @@
 {{ "<!-- partials:head-title.html:start -->" | safeHTML }}
 <title>
-	{{ if .Title }}
-		{{ printf "%s | %s %s" .Params.Title site.Title site.Params.Country | truncate 70 }}
+	{{ if .IsHome }}
+		{{ printf "%s %s | %s" site.Title site.Params.Country .Title }}
+	{{ else if .Title }}
+		{{ (printf "%s | %s %s" .Params.Title site.Title site.Params.Country) | truncate 70 }}
 	{{ else }}
 		{{ if .Params.position }}
-			{{ printf "%s | %s | %s" .Params.name .Params.position site.Title site.Params.Country | truncate 70 }}
+			{{ (printf "%s | %s | %s" .Params.name .Params.position site.Title) | truncate 70}}
 		{{ else }}
-			{{ printf "%s | %s %s" .Params.name site.Title site.Params.Country | truncate 70 }}
+			{{ (printf "%s | %s %s" .Params.name site.Title site.Params.Country) | truncate 70 }}
 		{{ end }}
 	{{ end }}
 </title>

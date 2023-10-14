@@ -120,7 +120,7 @@ title         						= "Ideas on Stage"
 
 
 ################################
-# ENGLISH DEFAULT
+# ENGLISH US
 ################################
 
 [languages.en]
@@ -129,7 +129,7 @@ title         						= "Ideas on Stage"
 	weight								= "1"
 	
 	[languages.en.params]
-		country							= "United States"
+		country							= "USA"
 		googleAnalytics			= "UA-30695118-1"
 		rights							= "All Rights Reserved"
 		cookies							= "We fully respect your privacy. We don't use cookies or scripts to track you."
@@ -186,7 +186,7 @@ title         						= "Ideas on Stage"
 		# -------------------
 		# Location	
 		[languages.en.params.location]
-			addresscountry		= "United States"
+			addresscountry		= "USA"
 			addresslocality		= ""
 			addressregion			= ""
 			postalcode					= ""
@@ -287,18 +287,7 @@ title         						= "Ideas on Stage"
 				[languages.en.params.navigation.companyitems.002]
 					name					= "Team"
 					url						= "/team/"
-	
-			[languages.en.params.navigation.languages]
-				[languages.en.params.navigation.languages.001]
-					name					= "Français"
-					url						= "https://www.ideasonstage.com/fr/"
-					flag						= "flag_fr.svg"
-				[params.navigation.languages.002]
-					name					= "Español"
-					flag						= "flag_es.svg"
-					url						= "https://www.ideasonstage.com/es/"
-
-	
+		
 		# -------------------
 		# News
 		[languages.en.params.news]
@@ -343,6 +332,222 @@ title         						= "Ideas on Stage"
 			title 							= "Testimonials"
 			subtitle						= "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
 
+
+
+
+################################
+# ENGLISH UK
+################################
+
+[languages.en-gb]
+	languageName						= "English UK"
+	languageCode 					= "en-GB"
+	weight								= "4"
+	
+	[languages.en-gb.params]
+		country							= "UK"
+		googleAnalytics			= "UA-30695118-1"
+		rights							= "All Rights Reserved"
+		cookies							= "We fully respect your privacy. We don't use cookies or scripts to track you."
+		footer_desc					= "Ideas on Stage – SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 – N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
+		tableofcontents			= "Table of Contents"
+	
+		# -------------------
+		# Buttons
+		[languages.en-gb.params.buttons]
+			default						= "Learn More"
+			next							= "Older"
+			previous					= "Newer"
+			back							= "Back"
+					
+		# -------------------		
+		# Contact
+		[languages.en-gb.params.contact]
+	    enable						 	= true
+			title 							= "Contact us"
+			subtitle  					= "Any questions? Use the form below and we'll get back to you shortly"
+			buttonText				= "Send message"
+			wait							= "Please Wait..."
+			success 					= "Thank you, we'll get back to you shortly."
+			recaptchasitekey	= "6LdPO_4UAAAAAOkPGjWhZSJaqJKKR4XOrf8Xyfs0"
+			missingcaptcha 		=" Please Enter CAPTCHA Code.\n"
+			wrongcaptcha 			= "The CAPTCHA Code Does Not Match.\n"
+			
+			# 'warning' defines error messages for invalid inputs
+			[languages.en-gb.params.contact.form.name]
+				text 						= "Your Name *"
+				warning 				= "Please enter your name."
+	
+			[languages.en-gb.params.contact.form.email]
+				text 						= "Your Email *"
+				warning 				= "Please enter a valid email address."
+	
+			[languages.en-gb.params.contact.form.phone]
+				text 						= "Your Phone (optional)"
+				warning 				= "Please enter a valid phone number."
+	
+			[languages.en-gb.params.contact.form.country]
+				text						= "Your country of residence (optional)"
+				warning 				= "Please enter your country of residence."
+	
+			[languages.en-gb.params.contact.form.message]
+				text 						= "Let us know how we can help you *"
+				warning 				= "Please enter a message."
+			
+		# -------------------
+		# Events list
+		[languages.en-gb.params.events]
+			empty							= "No new event scheduled."
+	
+		# -------------------
+		# Location	
+		[languages.en-gb.params.location]
+			addresscountry		= "UK"
+			addresslocality		= ""
+			addressregion			= ""
+			postalcode					= ""
+			streetaddress			= ""
+			telephone					= ""
+
+		# -------------------
+		# Map
+		[languages.en-gb.params.map]
+			enable							= false
+			title							= "Where to find us"
+			address						= ""
+			bgimage						= ""
+
+		# -------------------
+		# Menu main
+		[languages.en-gb.menu]
+			[[languages.en-gb.menu.main]]
+				name						= "Training"
+				pageRef 				= "/training/"
+				weight					= 10
+			[[languages.en-gb.menu.main]]
+				name		 				= "Coaching"
+				pageRef 				= "/public-speaking-coaching/"
+				weight					= 20
+			[[languages.en-gb.menu.main]]
+				name						= "Consulting"
+				pageRef	 				= "/communication-consulting/"
+				weight					= 30
+			[[languages.en-gb.menu.main]]
+				name		 				= "Contact"
+				pageRef					= "#contact"
+				weight					= 100
+			[[languages.en-gb.menu.main]]
+				name		 				= "Language"
+				pre							= ""
+				weight					= 100
+			[[languages.en-gb.menu.main]]
+				parent					= "Language"
+				name		 				= "Français"
+				pageRef					= "/fr/"
+				weight					= 110
+			[[languages.en-gb.menu.main]]
+				parent					= "Language"
+				name		 				= "Español"
+				pageRef					= "/es/"
+				weight					= 120
+
+		# -------------------
+		# Navigation
+		[languages.en-gb.params.navigation]
+			title							= "Navigation"
+			language						= "Language"
+			resource					= "Resources"
+			service						= "Services"
+			company						= "About"
+				
+			[[languages.en-gb.params.navigation.items]]
+				name						= "Training"
+				url			 				= "/presentations-training/"
+			[[languages.en-gb.params.navigation.items]]
+				name		 				= "Coaching"
+				url			 				= "/public-speaking-coaching/"
+			[[languages.en-gb.params.navigation.items]]
+				name						= "Consulting"
+				url			 				= "/communication-consulting/"
+	
+			[[languages.en-gb.params.navigation.resources]]
+				name						= "Videos"
+				url							= "/revolution/"
+			[[languages.en-gb.params.navigation.resources]]
+				name						= "Webinars"
+				url							= "/online-training/webinars/"
+			[[languages.en-gb.params.navigation.resources]]
+				name						= "Articles"
+				url							= "/news/"
+			[[languages.en-gb.params.navigation.resources]]
+				name						= "Guides"
+				url							= "/guides/"
+			[[languages.en-gb.params.navigation.resources]]
+				name		 				= "Business Presentation Revolution"
+				url			 				= "/business-presentation-revolution/"
+			[[languages.en-gb.params.navigation.resources]]
+				name						= "Confident Presenter Book"
+				url							= "/resources/confident-presenter-book/"
+			[[languages.en-gb.params.navigation.resources]]
+				name						= "Podcast"
+				url							= "/resources/podcast/"
+				
+			[languages.en-gb.params.navigation.housekeeping]
+				[languages.en-gb.params.navigation.housekeeping.001]
+					name					= "Contact"
+					url						= "#contact"
+			[languages.en-gb.params.navigation.companyitems]
+				[languages.en-gb.params.navigation.companyitems.001]
+					name					= "Ideas on Stage"
+					url						= "/about/"
+				[languages.en-gb.params.navigation.companyitems.002]
+					name					= "Team"
+					url						= "/team/"
+		
+		# -------------------
+		# News
+		[languages.en-gb.params.news]
+			viewMorePostLink	= "/news/"
+			more							= "Continue Reading"
+			by	 							= "by"
+			sbcategorytitle 		= "Top Categories"
+			related						= "See Also"
+
+		# -------------------		
+		# References
+		[languages.en-gb.params.references]
+			title 							= "References"
+		
+		# -------------------
+		# Revolution
+		[languages.en-gb.params.revolution]
+			more							= "Watch Episode"
+		  episodes					= "Previous episodes"
+
+		# -------------------		
+		# Subscribe to our news
+		[languages.en-gb.params.subscribe]
+	    enable					 		= true
+			title 							= "Subscribe to our monthly news"
+			subtitle  					= "Get the best tips on presentations every month."
+			contactemail				= "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
+			buttonText				= "Subscribe"
+			wait							= "Please Wait..."
+			success 					= "Thank you, stay tuned for good news!"
+	
+			[languages.en-gb.params.subscribe.form.email]
+				text						= "Your Email *"
+				warning 				= "Please enter your email address."
+			
+		# -------------------		
+		# Testimonials
+		[languages.en-gb.params.testimonials]
+			# All testimonials are defined in their own files. You can find testimonials 
+			# at '/data/testimonials'.
+			enable 						= true
+			title 							= "Testimonials"
+			subtitle						= "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
+			
 
 
 ################################
@@ -476,15 +681,7 @@ title         						= "Ideas on Stage"
 				[languages.fr.params.navigation.companyitems.002]
 					name					= "Équipe"
 					url						= "/fr/equipe/"	
-	
-			[languages.fr.params.navigation.languages]
-				[languages.fr.params.navigation.languages.001]
-					name					= "Español"
-					url						= "https://www.ideasonstage.com/es/"
-				[languages.fr.params.navigation.languages.002]
-					name					= "English"
-					url						= "https://www.ideasonstage.com/"
-			
+
 		# -------------------		
 		# News
 		[languages.fr.params.news]
@@ -646,14 +843,6 @@ title         						= "Ideas on Stage"
 				[languages.es.params.navigation.companyitems.002]
 					name					= "Equipo"
 					url						= "/es/equipo/"
-		
-			[languages.es.params.navigation.languages]
-				[languages.es.params.navigation.languages.001]
-					name					= "Français"
-					url						= "https://www.ideasonstage.com/fr/"
-				[languages.es.params.navigation.languages.002]
-					name					= "English"
-					url						= "https://www.ideasonstage.com/"
 
 		# -------------------
 		# News

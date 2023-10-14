@@ -1,15 +1,22 @@
 {{ "<!-- partials:head-hreflang.html:start -->" | safeHTML }}
-	{{- if .Paginator -}}
-		<link href="{{ absURL .Paginator.URL }}" rel="canonical" />
-	{{- else -}}
-		<link href="{{ .Permalink }}" rel="canonical" />
-	{{- end -}}
-	{{ $language := .Language.Lang }}
+	{{ $isnothome := ne .IsHome true }}
+	{{ $language := .Language.Lang | lower }}
+	{{ $languageshort := substr $language 0 2  }}
   {{- range .AllTranslations }}
-  	{{ if and (eq $language .Lang) ($.Page.Paginator) }}
-		<link href="{{ absURL .Paginator.URL }}" hreflang="{{ .Lang }}" rel="alternate" />
+  	{{ if and (and (eq $language (.Lang | lower)) ($.Page.Paginator)) $isnothome }}
+  		{{ "<!-- alternate pagination link -->" | safeHTML }}
+			<link href="{{ absURL .Paginator.URL }}" hreflang="{{ .Lang }}" rel="alternate" />
+			{{ if eq $languageshort (.Lang | lower) }}
+  			{{ "<!-- canonical pagination link -->" | safeHTML }}
+				<link href="{{ absURL .Paginator.URL }}" rel="canonical" />
+			{{ end }}
   	{{ else }}
-		<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
+  		{{ "<!-- alternate std link -->" | safeHTML }}
+			<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
+			{{ if eq $languageshort (.Lang | lower) }}
+  			{{ "<!-- canonical std link -->" | safeHTML }}
+				<link href="{{ .Permalink }}" rel="canonical" />
+			{{ end }}
 		{{ end }}
   {{- end}}
 {{ "<!-- partials:head-hreflang.html:end -->" | safeHTML }}

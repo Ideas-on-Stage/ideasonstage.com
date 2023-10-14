@@ -72,7 +72,7 @@
 	      <ul>
 					{{- if .IsTranslated }}
 						{{- range .AllTranslations }}
-							{{- if ne site.LanguageCode .Lang -}}
+							{{- if ne (site.LanguageCode | lower) (.Lang | lower) -}}
 	         			<li><a class="iosnavbar-dropdownlang" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
 					 		{{- end -}}
 					  {{- end}}

@@ -465,6 +465,7 @@
 		.style-photograph {
 			border: 8px solid #fff;
 			box-shadow: 2px 2px 8px #aaa;
+			box-sizing: border-box;
 		}
 		
 		.style-text-intro {
@@ -1106,7 +1107,7 @@
 
 		/* flex child constrained to about 33% of available space */
 		.flex-child-33p {
-			/*height: 100%;*/
+			height: 100%;
 			flex: 1;
 			flex-basis: 33.333%; /* start at 33% width */
 			box-sizing: border-box;
@@ -1135,7 +1136,7 @@
 			/*height: 100%;*/
 			flex: 1;
 			flex-grow: 0;
-			flex-basis: 67%; /* start at 67% width */
+			flex-basis: 66.666%; /* start at 67% width */
 			box-sizing: border-box;
 		}
 
@@ -1446,6 +1447,9 @@
 	
 	}
 	
+	.height-auto {
+		height: auto;
+	}
 	.border {
 		border: 1px solid #888;
 		box-sizing: border-box;
