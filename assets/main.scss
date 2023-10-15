@@ -1535,6 +1535,10 @@
   min-width: 120px;
 }
 
+.iosnavbar-buffer {
+	height: {{ site.Params.layout.navigation.height }};
+}
+
 /* definition of the "burger" */
 .iosnavbar-burger {
   height: 1.2em;
@@ -1681,9 +1685,6 @@
 		box-sizing: border-box;
 	}
 
-	.iosnavbar-buffer {
-		height: {{ site.Params.layout.navigation.height }};
-	}
 }
 
 /* @end */
