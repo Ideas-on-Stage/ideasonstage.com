@@ -9,9 +9,20 @@ mastodon				= "https://mastodon.social/@pmorsa"
 insertsbottom		= [ "presentationscore", "news" ]
 hidetitle				= false
 
+[cta]
+		picture 		= "/ultimate-public-speaking-guide/public-speaking.jpg"
+		title 				= "PUBLIC SPEAKING GUIDE"
+		level				= "h2"
+		description = "Our guide to master the art of public speaking."
+		color				= "text-white"	
+		opacity			= "30"
+		[cta.button]
+			text 			= "READ OUR GUIDE"
+			link				= "/ultimate-public-speaking-guide/"			
+
 [slider]
 	[[slider.list]]
-		draft				= false
+		draft				= true
 		date				= "2023-09-09"
 		bgimage 		= "/ultimate-public-speaking-guide/public-speaking.jpg"
 		title 				= "PUBLIC SPEAKING GUIDE"

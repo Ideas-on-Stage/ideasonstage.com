@@ -11,17 +11,16 @@ weight				= 30
 insertsbottom = [ "guidepublicspeaking", "guideremotepresentations" ]
 hidetitle			= true
 
-[slider]
-	[[slider.list]]
-		draft				= false
-		date				= "2023-09-09"
-		bgimage 		= "training.jpg"
-		title 				= "FORMATIONS PRISE DE PAROLE EN PUBLIC"
-		description = "Un ensemble complet de modules de formation pour prendre la parole en public, par de vrais spécialistes des présentations en entreprise."
-		button 			= "NOUS CONTACTER"
-		buttonlink		= "#contact"
-		color				= "text-white"	
-		opacity			= "30"
+[cta]
+	picture			= "training.jpg"
+	title 				= "Formations prise de parole en public"
+	level				= "h1"
+	description = "Un ensemble complet de formations pour prendre la parole en public, données par des spécialistes des présentations en entreprise."
+	color				= "text-white"	
+	opacity			= "35"
+	[cta.button]
+		text	 		= "NOUS CONTACTER"
+		link				= "#contact"	
 +++
 
 ## Changez votre vision des présentations

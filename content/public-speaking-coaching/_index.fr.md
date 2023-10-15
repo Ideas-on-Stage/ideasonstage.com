@@ -7,6 +7,7 @@ picture		 		= "wikistage-wbg-2015.jpg"
 enablehero			= true
 weight				= 20
 hidepagelist		= true
+	
 +++
 
 La prise de parole, ou art oratoire, est un ensemble de techniques qui permettent de communiquer son message efficacement face à un auditoire, que celui-ci soit constitué d’une ou de plusieurs milliers de personnes. Parmi les techniques clés de la prise de parole, on peut citer :

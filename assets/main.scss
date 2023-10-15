@@ -2387,8 +2387,12 @@ input[type='checkbox'] {
   .agenda-toggle:checked + .agenda-toggle + .collapsible-content {
 	max-height: 100vh;
   }
+  
 /* @end */
 
+
+
+/* @group Slider */
 
 /**
  * heroslider.sass
@@ -2414,18 +2418,32 @@ input[type='checkbox'] {
   position: relative;
   overflow: hidden;
 }
+
 .heroslider > input[type="radio"] {
   position: absolute;
   left: 0;
   opacity: 0;
   top: 0;
 }
+
 .heroslider > input[type="radio"]:checked ~ .heroslider__items .heroslider__item,
 .heroslider > input[type="radio"]:checked ~ .heroslider__prev > label,
 .heroslider > input[type="radio"]:checked ~ .heroslider__next > label {
   visibility: hidden;
   opacity: 0;
 }
+
+/* make first item visible by default */					
+.heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__items .heroslider__item:nth-child(1) {
+  visibility: visible;
+  opacity: 1;
+}
+.heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__nav > label:nth-child(1) {
+  background: #ccc;
+  cursor: default;
+  pointer-events: none;
+}
+/* end make first item visible by default */
 
 .heroslider__items {
   margin: 0;
@@ -2525,4 +2543,6 @@ input[type='checkbox'] {
   width: 20px;
   height: 20px;
 }
+
+/* @end */
 

@@ -6,7 +6,17 @@ outputs				= ["html","rss","json"]
 picture				= "/img/ideas-on-stage.svg"
 schema				= "Website"
 insertsbottom	= [ "codingandbricks", "news" ]
-heroh2				= true
+
+[cta]
+		picture 		= "/fr/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
+		title 				= "GUIDE DE LA PRISE DE PAROLE EN PUBLIC"
+		level				= "h2"
+		description = "Notre guide pour maîtriser les techniques de l'art oratoire."
+		color				= "text-white"	
+		opacity			= "30"
+		[cta.button]
+			text 			= "LIRE LE GUIDE"
+			link				= "/fr/guide-ultime-prise-de-parole-en-public/"
 
 [slider]
 	[[slider.list]]
@@ -21,17 +31,8 @@ heroh2				= true
 		color				= "text-white"	
 		opacity			= "30"
 	[[slider.list]]
-		date				= "2020-06-05"
-		expirydate	= "2020-06-19"
-		bgimage			= "/img/news/black-white-heart.jpg"
-		title				= "METTONS FIN À LA DISCRIMINATION"
-		description	= ""
-		button			= "Lire Notre Tribune"
-		buttonlink		= "/fr/news/2020/06/05/2020-06-05-mettons-fin-a-la-discrimination/"
-		color				= "text-white"
-		opacity			= "30"
-	[[slider.list]]
-		date		= "2020-04-29"
+		draft				= true
+		date				= "2020-04-29"
 		bgimage 		= "/fr/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
 		title 				= "GUIDE DE LA PRISE DE PAROLE EN PUBLIC"
 		description = "Notre guide pour maîtriser les techniques de l'art oratoire."
