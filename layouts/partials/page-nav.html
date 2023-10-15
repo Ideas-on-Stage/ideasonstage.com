@@ -23,14 +23,16 @@
 	    <!-- Services Menu Items -->
 	    {{- range .Site.Params.navigation.items }}
 	    	<li class="iosnavbar-menu-item">
-		    	<a class="page-scroll" href="{{ .url }}">{{ .name }}</a>
+		    	<a class="page-scroll" href="{{ .url }}">
+						{{ .name }}
+					</a>
 		  	</li>  
 		  {{- end }}
-							
+			
 	     <!-- Contact Menu Item -->
-	    {{- range .Site.Params.navigation.housekeeping }}
+		 	{{- range .Site.Params.navigation.housekeeping }}
 	    	<li class="iosnavbar-menu-item">
-					<a class="page-scroll" href="{{ .url }}">
+					<a class="page-scroll" href="{{ .url }}" onclick="getElementById('drop').checked = false">
 						{{ .name }}
 					</a>
 				</li>

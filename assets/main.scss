@@ -1656,12 +1656,12 @@
 		left: 0;
 		width: 100%;
 		flex-direction: column;
-		height: 100vh;
+		height: auto;
 		align-items: center;
 	}
 
 	.iosnavbar-menu-item {
-		padding: 0.5em;
+		padding: 0.20em;
 		align-items: center;
 		flex-direction: column;
 	}
@@ -1679,6 +1679,10 @@
 		margin: 0;
 		padding: 1em 0 0 0;
 		box-sizing: border-box;
+	}
+
+	.iosnavbar-buffer {
+		height: {{ site.Params.layout.navigation.height }};
 	}
 }
 
