@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "About Ideas on Stage"
+title 			= "About"
 description		= "Presentation creation, business events, public speaking training and coaching"
 url 				= "/about/"
 insertsbottom	= [ "team", "catalogue" ]

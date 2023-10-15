@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "À propos d'Ideas on Stage"
+title 			= "À propos"
 description		= "Agence spécialisée en présentation et en prise de parole en public pour les grands groupes internationaux."
 url		 		= "/fr/apropos/"
 insertsbottom	= [ "team", "catalogue" ]
