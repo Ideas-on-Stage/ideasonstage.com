@@ -1,6 +1,6 @@
 +++
 draft	 				= false
-title 					= "Agence de communication internationale - formation et coaching en prise de parole en public"
+title 					= "Formation et coaching en prise de parole - Agence de communication internationale"
 description		= "Agence internationale spécialisée formation et coaching en prise de parole en public et création de présentations. Nous sommes présents aux États-Unis et en Europe."
 outputs				= ["html","rss","json"]
 picture				= "/img/ideas-on-stage.svg"

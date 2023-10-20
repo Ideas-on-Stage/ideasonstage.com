@@ -1,6 +1,6 @@
 +++
 draft 					= false
-title		 				= "International Communication Agency - Public Speaking Training and Coaching"
+title		 				= "Public Speaking Coaching and Training - International Communication Agency"
 description			= "International agency specialized in Public Speaking Coaching and Training and Presentation Creation. We cover North America and Europe."
 outputs					= ["html","rss","json"]
 picture					= "/img/ideas-on-stage.svg"
