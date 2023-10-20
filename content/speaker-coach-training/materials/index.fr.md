@@ -1,7 +1,7 @@
 +++
 draft				= false
 title				= "Supports de formation Speaker Coach"
-url	 				= "/fr/formation-speaker-coaching/supports/"
+url	 				= "/fr/formation-coach-speaker/supports/"
 enablehero		= true
 ni					= true
 +++
@@ -40,9 +40,9 @@ Cette page vous permet d'accéder aux différents documents de la formation Spea
 
 ## Journée 3 : coach
 
-[Accéder au document](/fr/formation-speaker-coaching/supports/trn-scc-4d-fr-3-processus-de-coaching.pdf)
+[Accéder au document](/fr/formation-coach-speaker/supports/trn-scc-4d-fr-3-processus-de-coaching.pdf)
 
-[Exemple de document Excel de suivi du coaching](/fr/formation-speaker-coaching/supports/suivi-coaching-example.xlsx.zip)
+[Exemple de document Excel de suivi du coaching](/fr/formation-coach-speaker/supports/suivi-coaching-example.xlsx.zip)
 
-[Grille d'analyse pour le coaching](/fr/formation-speaker-coaching/supports/grille-analyse-coaching.xlsx.zip)
+[Grille d'analyse pour le coaching](/fr/formation-coach-speaker/supports/grille-analyse-coaching.xlsx.zip)
 
