@@ -2,14 +2,16 @@
 <title>
 	{{ if .IsHome }}
 		{{ printf "%s %s | %s" site.Title site.Params.Country .Title }}
-	{{ else if .Title }}
+	{{ else if .Params.Title }}
 		{{ (printf "%s | %s %s" .Params.Title site.Title site.Params.Country) | truncate 70 }}
+	{{ else if and .Params.position .Params.Name }}
+		{{ (printf "%s - %s | %s %s" .Params.name .Params.position site.Title site.Params.Country) | truncate 70 }}
+	{{ else if .Params.name }}
+		{{ (printf "%s | %s %s" .Params.name site.Title site.Params.Country) | truncate 70 }}
+	{{ else if eq "404" .Page.Kind }}
+		{{ (printf "404 Page Not Found") | truncate 70 }}
 	{{ else }}
-		{{ if .Params.position }}
-			{{ (printf "%s | %s | %s" .Params.name .Params.position site.Title) | truncate 70}}
-		{{ else }}
-			{{ (printf "%s | %s %s" .Params.name site.Title site.Params.Country) | truncate 70 }}
-		{{ end }}
+		{{ (printf "%s %s" site.Title site.Params.Country) | truncate 70 }}
 	{{ end }}
 </title>
 {{ "<!-- partials:head-title.html:end -->" | safeHTML }}

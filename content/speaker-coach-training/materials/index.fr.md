@@ -45,4 +45,3 @@ Cette page vous permet d'accéder aux différents documents de la formation Spea
 [Exemple de document Excel de suivi du coaching](/fr/formation-coach-speaker/supports/suivi-coaching-example.xlsx.zip)
 
 [Grille d'analyse pour le coaching](/fr/formation-coach-speaker/supports/grille-analyse-coaching.xlsx.zip)
-
