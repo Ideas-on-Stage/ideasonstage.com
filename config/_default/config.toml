@@ -127,7 +127,7 @@ title         						= "Ideas on Stage"
 	languageName						= "English"
 	languageCode 					= "en"
 	weight								= "1"
-	
+
 	[languages.en.params]
 		country							= "USA"
 		googleAnalytics			= "UA-30695118-1"

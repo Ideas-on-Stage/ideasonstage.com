@@ -1,7 +1,7 @@
 +++
 draft 				= false
 title 					= "Formations prise de parole en public"
-description		= "Formation en prise de parole en public, présentation PowerPoint et conduite de réunions en ligne pour les grandes entreprises."
+description		= "La formation en prise de parole en public pour les entreprises la plus complète du marché. Message, Storytelling, Visuels et Art Oratoire."
 url		 				= "/fr/formations-prise-de-parole-en-public/"
 picture				= "training.jpg"
 enablehero			= false

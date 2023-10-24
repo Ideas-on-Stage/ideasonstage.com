@@ -1,8 +1,8 @@
 +++
-draft 			= false
-title 			= "À propos"
+draft 				= false
+title 					= "À propos"
 description		= "Agence spécialisée en présentation et en prise de parole en public pour les grands groupes internationaux."
-url		 		= "/fr/apropos/"
+url		 				= "/fr/apropos/"
 insertsbottom	= [ "team", "catalogue" ]
 +++
 

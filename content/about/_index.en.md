@@ -1,8 +1,8 @@
 +++
-draft 			= false
-title 			= "About"
+draft 				= false
+title 					= "About"
 description		= "Presentation creation, business events, public speaking training and coaching"
-url 				= "/about/"
+url 						= "/about/"
 insertsbottom	= [ "team", "catalogue" ]
 +++
 
