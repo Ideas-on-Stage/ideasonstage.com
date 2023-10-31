@@ -23,7 +23,7 @@
 {{ $imgpath := "" }}
 {{ $picture := "" }}
 {{ $found := false }}
-{{ if partial "f/ispage" . }}
+{{ if .Params }}
 	{{/* <!-- then this is a page, check for thumbnail.jpg in same directory --> */}}
 	{{ $thumbtest := add .File.Dir "thumbnail.jpg" }}
 	{{ if fileExists $thumbtest }}

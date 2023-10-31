@@ -53,7 +53,7 @@
 	{{/* <!-- if enablehero is true --> */}}
 	{{- else if eq true .Params.enablehero }}
 		<div class="layout-hero">
-			<img src="{{ $heropath }}">
+			<img src="{{ $heropath }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
 			<div class="layout-hero layout-absolute">
 			  <div class="layout-page-title style-page-title-overlay">
 					{{ if eq true $.Page.Params.Heroh2 }}

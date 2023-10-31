@@ -1,5 +1,16 @@
+{{/* <!-- 
+ 	icon-item shortcode
+ 	
+ 	Inserts an icon within an icon-list shortcode
+
+ 	size: size of the icon, 20p, 25p, 33p, etc.
+ 	style: style for the icon
+ 	icon: icon to use
+ 	url: link for the icon 	
+ --> */}}
+
 {{ "<!-- shortcodes:icon-item.html:start -->" | safeHTML }}
-<div class="flex-child-20p">
+<div class="flex-child-{{ with .Params.size }}{{ . }}{{ else }}20p{{ end }}">
 	
 	<div class="style-icon paddingh-medium {{ with .Params.style }}{{ . }}{{ end }}">
 	{{ with .Params.url }}

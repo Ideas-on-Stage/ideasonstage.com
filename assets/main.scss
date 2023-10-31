@@ -1098,6 +1098,7 @@
 		.flex-child-50p {
 			height: 100%;
 			flex: 1;
+			flex-grow: 0;
 			flex-basis: 50%; /* start at 60% width */
 			box-sizing: border-box;
 		}
@@ -1106,6 +1107,7 @@
 		.flex-child-40p {
 			height: 100%;
 			flex: 1;
+			flex-grow: 0;
 			flex-basis: 40%;
 			box-sizing: border-box;
 		}
@@ -1114,6 +1116,7 @@
 		.flex-child-33p {
 			height: 100%;
 			flex: 1;
+			flex-grow: 0;
 			flex-basis: 33.333%; /* start at 33% width */
 			box-sizing: border-box;
 		}
@@ -1122,6 +1125,7 @@
 		.flex-child-25p {
 			/*height: 100%;*/
 			flex: 1;
+			flex-grow: 0;
 			flex-basis: 25%; /* start at 25% width */
 			min-width: 120px; /* force 2 columns width on ts screens */
 			box-sizing: border-box;
@@ -1181,7 +1185,9 @@
 		}
 
 		
-		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+		@media (max-aspect-ratio:1/1) and (max-width:480px) {
+			
+			/* on ts screens, use a width of 50% for these sizes */
 			.flex-child-33p,
 			.flex-child-25p,
 			.flex-child-20p {

@@ -11,7 +11,7 @@
  --> */}}
 
 {{- $data := . }}
-{{- if .Params }}
+{{- if (partial "f/ispage" .) }}
 	{{- $data = .Params }}
 {{- end }}
 {{ return $data }}

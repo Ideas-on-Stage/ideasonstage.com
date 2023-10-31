@@ -23,8 +23,6 @@ hidetitle			= true
 		link				= "#contact"	
 +++
 
-## Changez votre vision des présentations
-
 Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateur. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.
 
 Nous proposons plusieurs modules de formation :
@@ -38,13 +36,17 @@ Nous proposons plusieurs modules de formation :
 Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise en pratique immédiate autour d'études de cas basées sur votre cœur de métier. Ces modules sont d'une durée d'une journée. Si vous le souhaitez, nous pouvons les combiner en une formation de deux ou trois jours.
 
 {{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
-	{{< icon-item-big icon="logo-datadock.png" description="Référencé Datadock" style="border spacing" >}}
-	{{< icon-item-big icon="logo-qualiopi.png" description="Certifié Qualiopi" style="border spacing" >}}
+	{{< icon-item icon="logo-datadock.png" size= "33p" description="Référencé Datadock" style="border spacing" >}}
+	{{< icon-item icon="logo-qualiopi.png" size="33p" description="Certifié Qualiopi" style="border spacing" >}}
 {{< /icon-list >}}
+
+## Module Storytelling
+
+Le module storytelling est un module star de nos formations. Unique en son genre, pensé pour les besoins des entreprises, il vous apprendra comment construire votre discours pour convaincre votre auditoire, depuis l'identification des messages clés jusqu'à la création d'une histoire captivante.
 
 {{< image-wide src="/img/image-wide/meeting-002.jpg" alt="Storytelling" >}}
 
-{{< agenda-list style="bg-lightgray" title="Module Storytelling">}}
+{{< agenda-list style="bg-lightgray" title="Objectifs pédagogiques storytelling">}}
 	{{< agenda-item title="PRÉREQUIS" description="Choisir un cas concret à présenter lors de la formation." >}}
 	{{< agenda-item title="INTRODUCTION" description="Les défauts des présentations traditionnelles en entreprise<br>Facteurs clés de succès d'une prise de parole réussie." >}}
 	{{< agenda-item title="ABC" description="Identifier l'Auditoire, les Besoins et le Contexte (technique ABC). Comment segmenter votre auditoire et ses besoins pour mieux cibler vos messages." >}}
@@ -55,9 +57,13 @@ Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise e
 	{{< agenda-item title="ÉTUDE DE CAS" description="En plus des exercices réalisés tout au long de la journée, la formation se termine par la mise en œuvre des techniques de storytelling sur base d'un cas concret." >}}
 {{< /agenda-list >}}
 
+## Module Visuels PowerPoint
+
+Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoint. Lors de cette formation vous apprendrez comment utiliser PowerPoint pour créer des diapositives qui vont renforcer et clarifier votre discours oral. Vous apprendrez quel type de diapositive créer en fonction de l'utilisation de la présentation. Vous serez formés aux techniques de base du design pour créer des slides à fort impact visuel : simplicité, structure, choix des éléments. Enfin, vous verrez comment utiliser PowerPoint pour gagner du temps.
+
 {{< image-wide src="/img/image-wide/applause.jpg" alt="Gros plan mains qui applaudissent" >}}
 
-{{< agenda-list style="bg-lightgray" title="Module Visuels (PowerPoint)">}}
+{{< agenda-list style="bg-lightgray" title="Objectifs pédagogiques visuels PowerPoint">}}
 	{{< agenda-item title="PRÉREQUIS" description="Savoir utiliser PowerPoint pour construire des diapositives simples. Cette formation n'est pas une formation PowerPoint, elle se focalise sur la création et la structuration des diapositives." >}}
 	{{< agenda-item title="INTRODUCTION" description="Savoir utiliser PowerPoint pour construire des diapositives simples. Cette formation n'est pas une formation PowerPoint, elle se focalise sur la création et la structuration des diapositives.<br>Quel est le problème des présentations PowerPoint classiques ?" >}}
 	{{< agenda-item title="PRÉSENTATION VS. DOCUPOINT" description="Comprendre la différence entre une présentation PowerPoint « diapositives » et une présentation PowerPoint « document ».<br>Partir de l'essentiel : que faut-il mettre au minimum sur une diapositive ? Que ne faut-il éviter de mettre sur une diapositive ?" >}}
@@ -70,9 +76,14 @@ Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise e
 	{{< agenda-item title="ÉTUDE DE CAS" description=" En plus des exercices de la journée, les participants termineront la formation par la création d'un support PowerPoint mettant en œuvre les techniques apprises lors de la formation." >}}
 {{< /agenda-list >}}
 
+
+## Module Art Oratoire
+
+Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations.
+
 {{< image-wide src="/img/image-wide/presenter-001.jpg" alt="Intervenant en train de réaliser une présentation" >}}
 
-{{< agenda-list style="bg-lightgray" title="Module Art Oratoire">}}
+{{< agenda-list style="bg-lightgray" title="Objectifs pédagogiques art oratoire">}}
 	{{< agenda-item title="PRÉPARATION" description="Importance de la préparation dans la réussite de la prise de parole. Revue des techniques essentielles de préparation du fond." >}}
 	{{< agenda-item title="POSTURE" description="Travailler sa posture corporelle et son ancrage pour gagner en présence." >}}
 	{{< agenda-item title="RESPIRATION" description="Apprendre à gérer sa respiration pour gagner en force et calmer son stress." >}}

@@ -1,1 +1,2 @@
-<img src="{{ partial "f/getpicturepath" . }}">
+{{ $data := partial "f/getdata" . }}
+<img src="{{ partial "f/getpicturepath" . }}" {{ with $data.title }}alt="{{ . }}"{{ end }}>
