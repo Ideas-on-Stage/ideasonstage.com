@@ -4,6 +4,10 @@
 		{{ printf "%s %s | %s" site.Title site.Params.Country .Title }}
 	{{ else if .Params.Title }}
 		{{ (printf "%s | %s %s" .Params.Title site.Title site.Params.Country) | truncate 70 }}
+		{{/* <!-- Add page number if >= page 2 --> */}}
+		{{ if ge .Paginator.PageNumber 2 }}
+			| Page {{ .Paginator.PageNumber }}
+		{{ end }}
 	{{ else if and .Params.position .Params.Name }}
 		{{ (printf "%s - %s | %s %s" .Params.name .Params.position site.Title site.Params.Country) | truncate 70 }}
 	{{ else if .Params.name }}
@@ -15,8 +19,3 @@
 	{{ end }}
 </title>
 {{ "<!-- partials:head-title.html:end -->" | safeHTML }}
-
-{{/* <!-- 
-	Creates normal title
-	.Params.position is used for team member pages
- --> */}}
