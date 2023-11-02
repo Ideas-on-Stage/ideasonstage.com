@@ -5,7 +5,7 @@
 	    <p>{{ .Inner | markdownify }}</p>
 	</div>
 	<div class="layout-shortcode-child flex-child-60p">
-		<img src="{{ .Params.picture }}">
+		<img src="{{ .Params.picture }}" alt="{{ .Params.title }}">
 	</div>
 </div>
 {{ "<!-- shortcodes:text1-picture2.html:end -->" | safeHTML }}

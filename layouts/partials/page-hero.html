@@ -23,7 +23,7 @@
 		{{/* <!-- if pic exists, create hero area --> */}}
 		<div class="layout-hero">
 			<div class="layout-absolute layout-hero">
-				<img src="{{ .Params.cta.Picture }}">
+				<img src="{{ .Params.cta.Picture }}" alt="{{ .Params.cta.title }}">
 			</div>
 			{{/* <!-- adding layout-hero div corrects bug on browsers where sticky doesn't work --> */}}
 			<div class= "layout-absolute layout-hero" {{ with .Params.cta.opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>	

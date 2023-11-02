@@ -195,7 +195,7 @@ This guide contains many elements to give a great talk and win over your audienc
 
 ### Developing a Strong Message and Speech
 
-You can be an excellent speaker, but if you have nothing to say the audience will resent the fact you made them waste their time. That’s why you should always start your preparation by identifying your key messages. To help you, we have developed a tool called the ["Audience Transformation Roadmap"](/services/communication-consulting/audience-transformation-roadmap/). It’s a powerful tool that allows you to identify all key messages in order to convince your audience.
+You can be an excellent speaker, but if you have nothing to say the audience will resent the fact you made them waste their time. That’s why you should always start your preparation by identifying your key messages. To help you, we have developed a tool called the ["Audience Transformation Roadmap"](/communication-consulting/audience-transformation-roadmap/). It’s a powerful tool that allows you to identify all key messages in order to convince your audience.
 
 ### Use of Visuals 
 

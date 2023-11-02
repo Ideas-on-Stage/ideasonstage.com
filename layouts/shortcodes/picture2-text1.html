@@ -1,7 +1,7 @@
 {{ "<!-- shortcodes:picture2-text1.html:start -->" | safeHTML }}
 <div class="layout-shortcode flex-column-ontall {{ with .Params.style }}{{ . }}{{ end }}">
 	<div class="layout-shortcode-child flex-child-60p">
-		<img src="{{ .Params.picture }}">
+		<img src="{{ .Params.picture }}" alt="{{ .Params.title }}">
 	</div>
 	<div class="layout-shortcode-child flex-child-40p">
 	    <h3 class="">{{ .Params.title }}</h3>

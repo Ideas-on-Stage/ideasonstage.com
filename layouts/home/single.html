@@ -1,0 +1,33 @@
+<!-- index.html is used to build the home page -->
+<!DOCTYPE html>
+{{ "<!-- index.html -->" | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+  <head>
+    {{ partial "home/head.html" . }}
+  </head>
+  <body id="page-top" class="layout-page">
+    {{ partial "page-nav.html" . }}
+		<main role="main">
+			{{ partial "home/title.html" . }}
+			{{ partial "page-hero.html" . }}
+			<div class="layout-module-wrapper">
+				{{ partial "page-inserts-top.html" . }}
+				{{ partial "home/services.html" . }}
+				{{ partial "home/content.html" . }}
+				{{ partial "home/references.html" . }}
+			</div>
+		</main>
+		<aside>
+		  {{ partial "page-inserts-bottom.html" . }}
+	 	  {{ partial "home/testimonials.html" . }}
+	 	  {{ partial "page-contact.html" . }}
+	 		{{ if eq .Site.Params.map.enable true }}
+	 			{{ partial "page-address.html" . }}
+	 		{{ end }}
+	 	</aside>
+	 	<footer>
+	    {{ partial "page-footer.html" . }}
+	 	</footer>
+	  {{ partial "page-js.html" . }}
+  </body>
+</html>

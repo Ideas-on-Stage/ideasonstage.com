@@ -6,7 +6,6 @@ weight			= 1
 categories	= [ ]
 hidepagelist	= true
 url 					= "/business-presentation-revolution/"
-ni      		= true
 +++
 
 At Ideas on Stage, we have been revolutionizing presentations since 2010. Discover our most popular training and coaching services, and inspiring keynotes and webinars, together with a full set of resources including the book, short videos, and our podcast about better presenting.

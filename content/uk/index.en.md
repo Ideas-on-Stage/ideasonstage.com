@@ -2,12 +2,13 @@
 draft 					= false
 title		 				= "International Communication Agency - Public Speaking Training and Coaching"
 description			= "International agency specialized in Public Speaking Coaching and Training and Presentation Creation. We cover North America and Europe."
-outputs					= ["html","rss","json"]
+outputs					= ["html"]
 picture					= "/img/ideas-on-stage.svg"
 schema					= "Website"
 mastodon				= "https://mastodon.social/@pmorsa"
 insertsbottom		= [ "presentationscore", "news" ]
 hidetitle				= false
+type						= "home"
 
 [slider]
 	[[slider.list]]
