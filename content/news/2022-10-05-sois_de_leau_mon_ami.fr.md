@@ -2,7 +2,7 @@
 draft = false
 title = "« Sois de l'eau mon ami »"
 news = ["general"]
-date = "2022-10-04"
+date = "2022-09-28"
 author = "Michael Rickwood"
 banner = "/img/news/be_water_my_friend.jpeg"
 +++
