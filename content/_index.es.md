@@ -1,7 +1,7 @@
 +++
 draft		 			= false
 title 					= "Agencia internacional - coaching y formación para hablar en público"
-headtitle 			= "Agencia internacional - coaching formación hablar en público"
+headtitle 			= "Agencia internacional - coaching formación hablar en público | España"
 description		= "Especialista europeo en formación y coaching para hablar en público y oratoria, y preparación de presentaciones efectivas e impactantes"
 outputs				= ["html","rss","json"]
 picture				= "/img/ideas-on-stage.svg"

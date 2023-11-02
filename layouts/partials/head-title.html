@@ -1,8 +1,8 @@
 {{ "<!-- partials:head-title.html:start -->" | safeHTML }}
 <title>
-	{{ if .IsHome }}
+	{{ if or .IsHome (eq "home" .Type) }}
 		{{ if .Params.headtitle }}
-			{{ (printf "%s | %s" .Params.headtitle site.Params.Country) | truncate 70 }}
+			{{ (printf "%s" .Params.headtitle) | truncate 70 }}
 		{{ else }}
 			{{ (printf "%s | %s" .Title site.Params.Country) | truncate 70 }}
 		{{ end }}
