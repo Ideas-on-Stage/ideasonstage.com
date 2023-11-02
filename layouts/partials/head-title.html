@@ -1,7 +1,7 @@
 {{ "<!-- partials:head-title.html:start -->" | safeHTML }}
 <title>
 	{{ if .IsHome }}
-		{{ printf "%s %s | %s" site.Title site.Params.Country .Title }}
+		{{ (printf "%s | %s" .Title site.Params.Country) | truncate 70 }}
 	{{ else if .Params.Title }}
 		{{ (printf "%s | %s %s" .Params.Title site.Title site.Params.Country) | truncate 70 }}
 		{{ if .Paginator }}
