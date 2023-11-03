@@ -43,11 +43,9 @@ Dans cet épisode, nous vous expliquons comment faire connaître vos idées.
 * [Podcasts Google](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/MTkyZDUzOGMtYWMzMC00NmFkLThhOTMtZWFlZjMzMWY2NTc2?sa=X&ved=0CAUQkfYCahcKEwiokOjQgs__AhUAAAAAHQAAAAAQNg)
 * [Spotify](https://open.spotify.com/episode/2PfZLB5GabnhuOqvEIjV1z?si=g3bqG5p-SwuafqbJQPvBrQ)
 
-
-
 J'espère que cet épisode vous plaira !
 
-{{% youtube https://youtu.be/0GnxSS0n-L4 %}}
+{{%youtube0GnxSS0n-L4%}}
 
 **Envie d’en savoir plus ?**
 
