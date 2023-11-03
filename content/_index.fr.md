@@ -65,14 +65,23 @@ insertsbottom	= [ "codingandbricks", "news" ]
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/fr/formations-prise-de-parole-en-public/"
 	[[services.list]]
-		draft				= true
-		sectionid		= "business-events"
-		title				= "Support événementiel"
-		description	= "Un ensemble de services pour faciliter l'organisation des événements. Maîtres de cérémonie, coaching en prise de parole, ateliers créatifs, gestion de projet."
-		picture			= "/img/inserts/home-business-events.jpg"
+		draft				= false
+		sectionid		= "conseil-communication-entreprise"
+		title				= "Conseil en communication"
+		description	= "Découvrez une approche différente de la communication d'entreprise."
+		picture			= "/img/communication-consulting.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
-		url					= "/fr/evenements-entreprise/"
+		url					= "/fr/conseil-communication/"
+	[[services.list]]
+		draft				= false
+		sectionid		= "ateliers-entreprise-creatifs"
+		title				= "Ateliers créatifs"
+		description	= "Des activités de team building et de développement des compétences pour vos évènements d'entreprise."
+		picture			= "/img/creative-workshops.jpg"
+		style				= "bg-black"
+		layout				= "inserts/module-picture-textright.html"
+		url					= "/fr/conseil-communication/"
 	[[services.list]]
 		sectionid		= "presentation-creation"
 		title				= "Création de présentations"

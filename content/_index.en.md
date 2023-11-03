@@ -114,6 +114,14 @@ hidetitle				= false
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/presentations-training/"
 	[[services.list]]
+		sectionid		= "communication-consulting"
+		title				= "Communication consulting"
+		description	= "A different approach to corporate communication."
+		picture			= "/img/communication-consulting.jpg"
+		style				= "bg-black"
+		layout				= "inserts/module-picture-textright.html"
+		url					= "/communication-consulting/"
+	[[services.list]]
 		sectionid		= "presentation-creation"
 		title				= "Presentation Creation"
 		description	= "We help you define your messages and strategy, then we write the story, create the slides and coach you."
