@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "CONFIDENT PRESENTER : LANCEMENT DU LIVRE"
+title = "Confident Presenter : lancement du livre (en anglais)"
 news = ["general"]
 date = "2023-07-18"
 author = "Michael Rickwood"
