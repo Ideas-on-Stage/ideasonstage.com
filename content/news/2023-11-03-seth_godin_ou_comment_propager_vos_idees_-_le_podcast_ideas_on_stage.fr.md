@@ -45,7 +45,7 @@ Dans cet épisode, nous vous expliquons comment faire connaître vos idées.
 
 J'espère que cet épisode vous plaira !
 
-{{%youtube0GnxSS0n-L4%}}
+{{% youtube 0GnxSS0n-L4 %}}
 
 **Envie d’en savoir plus ?**
 
