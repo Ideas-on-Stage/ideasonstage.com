@@ -1,0 +1,13 @@
+{{ "<!-- shortcodes:link-picture-1-text2.html:start -->" | safeHTML }}
+<div class="layout-shortcode flex-column-ontall {{ with .Params.style }}{{ . }}{{ end }}">
+	<div class="layout-shortcode-child flex-child-40p">
+		{{ partial "e/link-picture.html" .Params }}
+	</div>
+	<div class="layout-shortcode-child flex-child-60p">
+	    <a href="{{ .Params.link }}">
+	    	<h3 class="">{{ .Params.title }}</h3>
+	    </a>
+	    <p>{{ .Inner | markdownify }}</p>
+	</div>
+</div>
+{{ "<!-- shortcodes:link-picture-1-text2.html:end -->" | safeHTML }}

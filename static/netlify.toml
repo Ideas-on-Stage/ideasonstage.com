@@ -116,14 +116,28 @@
 	status			= 301
 	force				= true
 
-
 [[redirects]]
 	from				= "https://www.ideasonstage.com/fr/services/conseil-communication/storytelling-et-ecriture/"
 	to					= "https://www.ideasonstage.com/fr/conseil-communication/storytelling-et-ecriture/"
 	status			= 301
 	force				= true
+
+[[redirects]]
+	from				= "https://www.ideasonstage.com/services/*"
+	to					= "https://www.ideasonstage.com/:splat"
+	status			= 301
+	force				= true
 	
+[[redirects]]
+	from				= "https://www.ideasonstage.com/fr/services/*"
+	to					= "https://www.ideasonstage.com/fr/:splat"
+	status			= 301
+	force				= true
 
-
+[[redirects]]
+	from				= "https://www.ideasonstage.com/es/services/*"
+	to					= "https://www.ideasonstage.com/es/:splat"
+	status			= 301
+	force				= true
 
 

@@ -572,7 +572,7 @@ title         						= "Ideas on Stage"
 				url			 				= "/es/coaching-para-hablar-en-publico/"
 			[[languages.es.params.navigation.items]]	
 				name		 				= "Creación"
-				url			 				= "/es/servicios/creacion-presentaciones-powerpoint/"
+				url			 				= "/es/creacion-presentaciones-powerpoint/"
 					
 			[languages.es.params.navigation.resources]
 				[languages.es.params.navigation.resources.001]

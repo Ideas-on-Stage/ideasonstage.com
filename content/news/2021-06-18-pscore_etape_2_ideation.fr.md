@@ -76,6 +76,6 @@ Une fois que vous avez rempli votre colonne Transformation avec des notes autoco
 
 *Les étapes Fondation et Idéation vous mettront sur la voie du succès si vous prenez le temps de les réaliser ; pourtant, la plupart des présentateurs ne font pas cet effort. Si vos objectifs valent la peine de prendre le temps de les présenter à votre auditoire, ils valent aussi le temps de la préparation. Si vous réussissez votre préparation, vous réussirez probablement votre présentation.*
 
-Vous trouverez plus d'informations sur le Parcours de Transformation de l’Auditoire [ici](https://www.ideasonstage.com/fr/services/conseil-communication/parcours-transformation-auditoire/), ainsi qu'un modèle téléchargeable. Vous pouvez également en apprendre davantage sur ce sujet dans le discours TEDx ci-dessous.
+Vous trouverez plus d'informations sur le Parcours de Transformation de l’Auditoire [ici](https://www.ideasonstage.com/fr/conseil-communication/parcours-transformation-auditoire/), ainsi qu'un modèle téléchargeable. Vous pouvez également en apprendre davantage sur ce sujet dans le discours TEDx ci-dessous.
 
 {{< youtube yoD8RMq2OkU >}}

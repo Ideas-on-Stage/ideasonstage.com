@@ -128,7 +128,7 @@ hidetitle				= false
 		picture			= "/img/inserts/home-presentation-creation-agency.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-texttop-picture.html"
-		url					= "/services/powerpoint-presentation-design-agency/"
+		url					= "/powerpoint-presentation-design-agency/"
 
 +++
 

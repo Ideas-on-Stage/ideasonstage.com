@@ -1,8 +1,8 @@
 +++
-draft 			= false
-title 			= "Agence de création de présentations PowerPoint"
+draft 				= false
+title 					= "Agence de création de présentations PowerPoint"
 description		= "Impressionnez votre auditoire avec une présentation PowerPoint de qualité professionnelle. Nos services sont utilisés par les plus grandes marques."
-url 				= "/fr/services/agence-creation-presentation-powerpoint/"
+url 						= "/fr/agence-creation-presentation-powerpoint/"
 
 schema			= "Service"
 provider		= "ideasonstage"

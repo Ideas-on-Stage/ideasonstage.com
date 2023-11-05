@@ -89,7 +89,7 @@ insertsbottom	= [ "codingandbricks", "news" ]
 		picture			= "/img/inserts/home-presentation-creation-agency.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-texttop-picture.html"
-		url					= "/fr/services/agence-creation-presentation-powerpoint/"
+		url					= "/fr/agence-creation-presentation-powerpoint/"
 +++
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.
 

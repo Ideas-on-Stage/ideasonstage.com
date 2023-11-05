@@ -15,7 +15,7 @@ The additional resources for this stage should help you to use the pSCORE method
 * [An overview of the Ideation phase](https://www.ideasonstage.com/news/2021/06/18/2021-06-18-pscore_stage_2_ideation/)
 * [Don’t inform – transform!](https://www.ideasonstage.com/news/2019/01/07/2019-01-07-dont-inform-transform/)
 * [Is the Pyramid Principle outdated?](https://www.ideasonstage.com/news/2019/04/16/2019-04-16-is-barbara-minto-s-pyramid-principle-outdated/)
-* [The Audience Transformation Roadmap](https://www.ideasonstage.com/services/communication-consulting/audience-transformation-roadmap/)
+* [The Audience Transformation Roadmap](https://www.ideasonstage.com/communication-consulting/audience-transformation-roadmap/)
 
 ## Video Resources
 

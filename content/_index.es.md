@@ -66,7 +66,7 @@ insertsbottom	= [ "catalogue","revolution" ]
 		picture			= "/img/inserts/home-presentation-creation-agency.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-texttop-picture.html"
-		url					= "/es/servicios/creacion-presentaciones-powerpoint/"
+		url					= "/es/creacion-presentaciones-powerpoint/"
 	[[services.list]]
 		draft 			= true
 		sectionid		= "business-events"

@@ -78,6 +78,6 @@ Once you’ve filled your Transformation Column with sticky notes about how you 
 
 *The Foundation and Ideation stages will set you up for success if you take the time to complete them; yet, most presenters don’t make the effort. If your objectives are worth taking time to present to your audience, they are also worth the preparation time. If you ace your preparation, you are likely to ace your presentation.*
 
-You can find more information about the Audience Transformation Roadmap [here](https://www.ideasonstage.com/services/communication-consulting/audience-transformation-roadmap/), as well as a downloadable template. You can also learn more about it in the TEDx talk below.
+You can find more information about the Audience Transformation Roadmap [here](https://www.ideasonstage.com/communication-consulting/audience-transformation-roadmap/), as well as a downloadable template. You can also learn more about it in the TEDx talk below.
 
 {{< youtube yoD8RMq2OkU >}}

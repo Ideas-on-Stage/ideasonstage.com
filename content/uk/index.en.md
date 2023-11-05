@@ -103,15 +103,7 @@ type						= "home"
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/presentations-training/"
-	[[services.list]]
-		sectionid		= "presentation-creation"
-		title				= "Presentation Creation"
-		description	= "We help you define your messages and strategy, then we write the story, create the slides and coach you."
-		picture			= "/img/inserts/home-presentation-creation-agency.jpg"
-		style				= "bg-black"
-		layout				= "inserts/module-texttop-picture.html"
-		url					= "/services/powerpoint-presentation-design-agency/"
-
+		
 +++
 
 Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.
