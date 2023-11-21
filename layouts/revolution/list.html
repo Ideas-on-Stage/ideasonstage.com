@@ -3,21 +3,23 @@
 	{{ $content := .Content }}
 	{{ range first 1 .Pages }}
 		{{/* <!-- generate hero with newest video --> */}}
-	     <section id="hero">
-			<div class="layout-hero">
-				<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
+    <section id="highlight">
+			<div class="layout-module-hero">
+				<div class="layout-module-layer">
 					<img src="{{ .RelPermalink }}image.jpg">
-				</a>
-				<div class="layout-relative flex-parent-column">
-					<div class="flex-child-text text-center">
-						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
+				</div>
+				<div class="layout-module-layer">
+					<div class="flex-parent-column">
+						<div class="flex-child-text text-center">
+							<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 					    	<h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
 					    </a>
-						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">
-							{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
-						</a>
+							<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">
+								{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
+							</a>
+						</div>
 					</div>
-		    	</div>
+				</div>
 			</div>
 		</section>
 	{{ end }}
@@ -73,9 +75,6 @@
 
 		</div>
 	</div>
-	</div>
-	
-
 	
 	{{ "<!-- revolution:list.html:end -->" | safeHTML }}
 {{ end }} 

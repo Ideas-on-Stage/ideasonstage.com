@@ -21,12 +21,12 @@
 	{{/* <!-- if call to action exists --> */}}
 	{{- else if isset .Params "cta" }}
 		{{/* <!-- if pic exists, create hero area --> */}}
-		<div class="layout-hero">
-			<div class="layout-absolute layout-hero">
+		<div class="layout-module-hero">
+			<div class="layout-module-layer">
 				<img src="{{ .Params.cta.Picture }}" alt="{{ .Params.cta.title }}">
 			</div>
 			{{/* <!-- adding layout-hero div corrects bug on browsers where sticky doesn't work --> */}}
-			<div class= "layout-absolute layout-hero" {{ with .Params.cta.opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>	
+			<div class= "layout-module-layer" {{ with .Params.cta.opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>	
 				<div class="flex-parent-column flex-justify-center flex-align-center">
 					{{ if eq "h2" .Params.cta.level }}
 						<h2 class="style-slider-title">{{ "<!-- picture and h1 -->" | safeHTML }}
@@ -52,9 +52,11 @@
 		</div>
 	{{/* <!-- if enablehero is true --> */}}
 	{{- else if eq true .Params.enablehero }}
-		<div class="layout-hero">
-			<img src="{{ $heropath }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
-			<div class="layout-hero layout-absolute">
+		<div class="layout-module-hero">
+			<div class="layout-module-layer">
+				<img src="{{ $heropath }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
+			</div>
+			<div class="layout-module-layer">
 			  <div class="layout-page-title style-page-title-overlay">
 					{{ if eq true $.Page.Params.Heroh2 }}
 						<h2>{{ "<!-- picture and h1 -->" | safeHTML }}

@@ -1,7 +1,7 @@
 {{ "<!-- partials:home:testimonials.html:start -->" | safeHTML }}
 {{- if gt (len .Site.Data.testimonials) 0 }}
 	<section id="testimonials" class="bg-lightgrey">
-    <div class="layout-content">
+    <div class="layout-content-width">
       <div class="flex-parent-scroll iostestimonials ios-scrollbar">
         {{- range .Site.Data.testimonials }}
           {{- if .showonhome }}

@@ -9,7 +9,7 @@
   {{ end }}
   {{ if (gt ($.Scratch.Get "show") 0) }}
 		<section id="testimonials" class="bg-lightgrey">
-		  <div class="layout-content">
+		  <div class="layout-content-width">
 		    <ul class="owl-carousel testimonials same-height-row">
 		      {{- range .Site.Data.testimonials }}
 		        {{- if and (.showonpage) ( eq ($title) (.category)) (eq $.Site.Params.languagecode .language) }}
