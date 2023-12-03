@@ -25,7 +25,7 @@
 	  font-weight: 700;
 	}
 	
-	h1, h2, h3, h4, big {
+	h1, h2, h3, h4, h5, h6, big {
 	  font-family: "Gotham SSm A", "Gotham SSm B";
 		font-style: normal;
 	  font-weight: 700;
@@ -547,7 +547,6 @@
 
 /* @group BUTTONS */
 	
-	/* use to create a primary button */
 	.button-primary {
 		margin: 1vw 0;
 	  padding: 1vw 2vw;
@@ -560,7 +559,6 @@
 	  text-transform: uppercase;
 	}
 	
-	/* use to create a secondary button */
 	.button-secondary {
 	    padding: 0px;
 		color: {{ site.Params.buttons.secondary.color }} !important;
@@ -672,21 +670,6 @@
 	
 	/* @group .LAYOUT-MODULE */
 	
-		/*
-		Modules are containers with predefined sizes.
-		.layout-module	 standard module
-		.layout-module-half standard module, half width
-		.layout-module-screen-full full screen module
-		.layout-module-hero hero module
-		
-		To add a gap between modules, wrap them in a .layout-module-wrapper div
-		
-		Inside modules, you have the following predefined layouts:
-		.layout-module-row to display an image and text side by side
-		.layout-module-column to display image and text in a column
-		.layout-module-layer to layer elements on top of each other (eg an image in the back, text on top)
-		*/
-		
 		/* full screen layout module */
 		.layout-module-screen-full {
 			height: calc(100vh - {{ site.Params.layout.navigation.height }});
@@ -717,10 +700,11 @@
 			padding-right: {{ site.Params.layout.module.padding.right }};
 			padding-bottom: {{ site.Params.layout.module.padding.bottom }};
 			padding-left: {{ site.Params.layout.module.padding.left }};
-		}	
+		}
+		
+		/* If module is enclosed in a layout-module-wrapper div, add padding */
 		.layout-module-wrapper .layout-module,
 		.layout-module-wrapper .layout-module-half {
-			/* If module is enclosed in a layout-module-wrapper div, add padding */
 			padding-top: {{ site.Params.layout.module.padding.top }};
 			padding-right: {{ site.Params.layout.module.padding.right }};
 			padding-bottom: {{ site.Params.layout.module.padding.bottom }};
@@ -1366,35 +1350,28 @@
 	
 	/* text color helper classes */
 	
-	.text-primary			{ color: #FF8200;								}
-	.text-faded 			{ color: rgba(255,255,255,.7);		}
-	.text-blue	 				{	color: rgb(51,53,65);					}
-	.text-white				{	color: #fff;										}
-	.text-gray 				{	color: #888;										}
-	.text-dark 				{	color: #222;										}
+	.text-primary		{ color: #FF8200;								}
+	.text-faded 		{ color: rgba(255,255,255,.7);		}
+	.text-blue	 			{	color: rgb(51,53,65);					}
+	.text-white			{	color: #fff;										}
+	.text-gray 			{	color: #888;										}
+	.text-dark 			{	color: #222;										}
 	
 	/* padding helper classes */
-
-	.padding-huge	 		{	padding: 80px;								}
-	.padding-large 		{	padding: 60px;								}
-	.padding-medium 	{	padding: 40px;								}
-	.padding-small			{	padding: 20px;								}
-	.padding-tiny 		{	padding: 10px;								}
-	.padding-none 		{	padding: 0px;									}
 	
-	.paddingt-huge 		{	padding-top: 80px;						}
-	.paddingt-large 		{	padding-top: 60px;						}
-	.paddingt-medium 	{	padding-top: 40px;						}
-	.paddingt-small 		{	padding-top: 20px;						}
-	.paddingt-tiny 		{	padding-top: 10px;						}
-	.paddingt-none 		{	padding-top: 0px;							}
+	.paddingt-huge 		{	padding-top: 80px;					}
+	.paddingt-large 		{	padding-top: 60px;					}
+	.paddingt-medium 	{	padding-top: 40px;					}
+	.paddingt-small 		{	padding-top: 20px;					}
+	.paddingt-tiny 		{	padding-top: 10px;					}
+	.paddingt-none 		{	padding-top: 0px;						}
 	
-	.paddingb-huge 		{	padding-bottom: 80px;					}
-	.paddingb-large 		{	padding-bottom: 60px;					}
-	.paddingb-medium 	{	padding-bottom: 40px;					}
-	.paddingb-small 		{	padding-bottom: 20px;					}
-	.paddingb-tiny 		{	padding-bottom: 10px;					}
-	.paddingb-none 		{	padding-bottom: 0px;					}
+	.paddingb-huge 		{	padding-bottom: 80px;				}
+	.paddingb-large 		{	padding-bottom: 60px;				}
+	.paddingb-medium 	{	padding-bottom: 40px;				}
+	.paddingb-small 		{	padding-bottom: 20px;				}
+	.paddingb-tiny 		{	padding-bottom: 10px;				}
+	.paddingb-none 		{	padding-bottom: 0px;				}
 	
 	.paddingv-huge {
 		padding-top: 80px;
@@ -1421,114 +1398,89 @@
 		padding-bottom: 0;
 	}
 
-	.paddingh-huge {
-		padding-left: 80px;
-		padding-right: 80px;
-	}
-	.paddingh-large {
-		padding-left: 60px;
-		padding-right: 60px;
-	}
-	.paddingh-medium {
-		padding-left: 40px;
-		padding-right: 40px;
-	}
-	.paddingh-small	{
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.paddingh-tiny {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	.paddingh-none {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-									
+	.paddingh-huge		{	padding-left: 80px;
+							padding-right: 80px;	}
+	.paddingh-large		{	padding-left: 60px;
+							padding-right: 60px;	}
+	.paddingh-medium	{	padding-left: 40px;
+							padding-right: 40px;	}
+	.paddingh-small		{	padding-left: 20px;
+							padding-right: 20px;	}
+	.paddingh-tiny		{	padding-left: 10px;
+							padding-right: 10px;	}
+	.paddingh-none		{	padding-left: 0px;
+							padding-right: 0px;		}
+								
+	.padding-huge	 	{	padding: 80px;			}
+	.padding-large 		{	padding: 60px;			}
+	.padding-medium 	{	padding: 40px;			}
+	.padding-small		{	padding: 20px;			}
+	.padding-tiny 		{	padding: 10px;			}
+	.padding-none 		{	padding: 0px;			}
+	
 	/* margin helper classes */
-
 	
-	.margin-huge 		{	margin: 80px;			}
-	.margin-large 		{	margin: 60px;			}
-	.margin-medium 	{	margin: 40px;			}
-	.margin-small 		{	margin: 20px;			}
-	.margin-tiny 		{	margin: 10px;			}
-	.margin-none 		{	margin: 0px;			}
-
-	.margint-huge 		{	margin-top: 80px;			} 
-	.margint-large			{	margin-top: 60px;			} 
-	.margint-medium 	{	margin-top: 40px;			} 
-	.margint-small			{	margin-top: 20px;			}
-	.margint-tiny 		{	margin-top: 10px;			}
-	.margint-none 		{	margin-top: 0px;			}
+	.margint-huge 		{	margin-top: 80px;		} 
+	.margint-large		{	margin-top: 60px;		} 
+	.margint-medium 	{	margin-top: 40px;		} 
+	.margint-small		{	margin-top: 20px;		}
+	.margint-tiny 		{	margin-top: 10px;		}
+	.margint-none 		{	margin-top: 0px;		}
 	
-	.marginb-huge			{	margin-bottom: 80px;	}
+	.marginb-huge		{	margin-bottom: 80px;	}
 	.marginb-large 		{	margin-bottom: 60px;	}
 	.marginb-medium	 	{	margin-bottom: 40px;	}
 	.marginb-small 		{	margin-bottom: 20px;	}
 	.marginb-tiny 		{	margin-bottom: 10px;	}
-	.marginb-none			{	margin-bottom: 0px;		}
+	.marginb-none		{	margin-bottom: 0px;		}
 	
-	.marginh-huge {
-		margin-left: 80px;
-		margin-right: 80px;
-	}
-	.marginh-large {
-		margin-left: 60px;
-		margin-right: 60px;
-	}
-	.marginh-medium	{
-		margin-left: 40px;
-		margin-right: 40px;
-	}
-	.marginh-small {
-		margin-left: 20px;
-		margin-right: 20px;
-	}
-	.marginh-tiny {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-	.marginh-none {
-		margin-left: 0px;
-		margin-right: 0px;
-	}
+	.marginh-huge 		{	margin-left: 80px;
+							margin-right: 80px;		}
+	.marginh-large 		{	margin-left: 60px;
+							margin-right: 60px;		}
+	.marginh-medium		{	margin-left: 40px;
+							margin-right: 40px;		}
+	.marginh-small 		{	margin-left: 20px;
+							margin-right: 20px;		}
+	.marginh-tiny 		{	margin-left: 10px;
+							margin-right: 10px;		}
+	.marginh-none 		{	margin-left: 0px;
+							margin-right: 0px;		}
 	
-	.marginv-huge {
-		margin-top: 80px;
-		margin-bottom: 80px;
-	}
-	.marginv-large	 {
-		margin-top: 60px;
-		margin-bottom: 60px;
-	}
-	.marginv-medium {
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-	.marginv-small	 {
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
-	.marginv-tiny	{
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
-	.marginv-none {
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
+	.marginv-huge		{	margin-top: 80px;
+							margin-bottom: 80px;	}
+	.marginv-large		{	margin-top: 60px;
+							margin-bottom: 60px;	}
+	.marginv-medium		{	margin-top: 40px;
+							margin-bottom: 40px;	}
+	.marginv-small		{	margin-top: 20px;
+							margin-bottom: 20px;	}
+	.marginv-tiny		{	margin-top: 10px;
+							margin-bottom: 10px;	}
+	.marginv-none 		{	margin-top: 0px;
+							margin-bottom: 0px;		}
+	
+	.margin-huge 		{	margin: 80px;			}
+	.margin-large 		{	margin: 60px;			}
+	.margin-medium 		{	margin: 40px;			}
+	.margin-small 		{	margin: 20px;			}
+	.margin-tiny 		{	margin: 10px;			}
+	.margin-none 		{	margin: 0px;			}
 
-	.centered {
-		text-align: center;
-		width:100%;
+	.centered 			{ text-align: center; width:100%;}
+		
+	@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	
+		.paddingt-large		{	padding-top: 18px;		}
+		.paddingt-medium	{	padding-top: 12px;		}
+		
+		.margint-large 		{	margin-top: 18px;		}
+	
 	}
 	
 	.height-auto {
 		height: auto;
 	}
-	
 	.border {
 		border: 1px solid #888;
 		box-sizing: border-box;
@@ -1538,14 +1490,6 @@
 		margin: 1vw;
 		padding: 1vw;
 		box-sizing: border-box;
-	}
-		
-	@media(max-aspect-ratio:1/1) and (max-width:480px) {
-	
-		.paddingt-large		{	padding-top: 18px;		}
-		.paddingt-medium	{	padding-top: 12px;		}
-		.margint-large 		{	margin-top: 18px;			}
-	
 	}
 	
 /* @end */
@@ -2015,6 +1959,59 @@ img::selection {
 
 
 
+/* @group CAPTCHA */
+
+.capbox {
+	
+	
+	border: #ff8200 0px solid;
+	border-width: 1px 1px 1px 1px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: inline-block;
+	padding: 5px 8px 5px 8px;
+	border-radius: 4px 4px 4px 4px;
+	}
+
+.capbox-inner {
+	font-size: 14px;
+	color: #555;
+	margin: 0px auto 0px auto;
+	padding: 3px 10px 5px 10px;
+	border-radius: 4px;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+#CaptchaDiv {
+	color: #222;
+	font: normal 25px Impact, Charcoal, arial, sans-serif;
+	font-style: italic;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	user-select: none;
+	display: inline-block;
+	padding: 3px 14px 3px 8px;
+	margin-right: 4px;
+	border-radius: 4px;
+	}
+
+#CaptchaInput {
+	border: #555 1px solid;
+	margin: 3px 0px 1px 0px;
+	width: 100%;
+	}
+
+/* @end CAPTCHA */
+
+
+
 /* @group 404 */
 
 	/**************************************
@@ -2126,25 +2123,26 @@ a.footer-sub-category  {
 
 /* @end */
 
-/* @group Horizontal scrollbar */
+/* horizontal scrollbar */
 
 .ios-scrollbar::-webkit-scrollbar {
 	height: 0.4em;
-}
+  }
   
-/* Track */
-.ios-scrollbar::-webkit-scrollbar-track {
+  /* Track */
+  .ios-scrollbar::-webkit-scrollbar-track {
+
 	border-radius: 10px;
 	background: #ddd;
 	opacity: 0.5;
-}
+  }
    
-/* Handle */
-.ios-scrollbar::-webkit-scrollbar-thumb {
+  /* Handle */
+  .ios-scrollbar::-webkit-scrollbar-thumb {
 	background: #222; 
 	border-radius: 10px;
 	opacity: 0.4;
-}
+  }
 /* @end */
 
 /* @news section stuff */
