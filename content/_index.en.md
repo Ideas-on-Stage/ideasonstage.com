@@ -96,6 +96,7 @@ hidetitle				= false
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/public-speaking-coaching/"
+		button			= "Discover our public speaking coaching services"
 	[[services.list]]
 		draft				= true
 		sectionid		= "business-events"
@@ -113,14 +114,16 @@ hidetitle				= false
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/presentations-training/"
+		button			= "Learn more about our public speaking training offer"
 	[[services.list]]
 		sectionid		= "communication-consulting"
 		title				= "Communication consulting"
-		description	= "A different approach to corporate communication."
+		description	= "A human-centric vision of corporate communication."
 		picture			= "/img/communication-consulting.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/communication-consulting/"
+		button			= "Discover our approach to corporate communication"
 	[[services.list]]
 		sectionid		= "presentation-creation"
 		title				= "Presentation Creation"
@@ -129,6 +132,7 @@ hidetitle				= false
 		style				= "bg-black"
 		layout				= "inserts/module-texttop-picture.html"
 		url					= "/powerpoint-presentation-design-agency/"
+		button			= "Ask a price quote for our design services"
 
 +++
 
