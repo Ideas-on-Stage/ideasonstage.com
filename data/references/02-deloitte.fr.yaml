@@ -1,10 +1,10 @@
 modalID: 11
 language : fr
 title: Keynote Inspirant
-logo: pwc-logo.png
-img: pwc-logo.jpg
+logo: deloitte-logo.png
+img: deloitte-logo.jpg
 client: PWC
-showonhome: false
+showonhome: true
 clientlink: "/fr/evenements-entreprise/animation-evenements/"
 kind: "Animation d'événements"
 category: Animation d'événements

@@ -1,22 +1,20 @@
 {{ "<!-- partials:home:references:start -->" | safeHTML }}
 <section id="references" class="bg-white">
-  <div class="layout-content">
-    <div class="flex-parent-scroll ios-scrollbar">
-      {{- $.Scratch.Set "count" 0 }}
-			{{ $languageshort := substr site.LanguageCode 0 2 }}
-      {{- range .Site.Data.references }}
-        {{- if .showonhome }}
-          {{- if eq $languageshort .language }}
-	          {{- $.Scratch.Add "count" 1 }}
-	          <div class="flex-child-scroll">
-	            <div class="reference-item" style="background-color: transparent;">
-	              <img src="/img/logos/{{ .logo }}" alt="{{ .logo }}">
-	            </div>
-	          </div>
-	        {{- end }}
-	      {{- end }}
+  <div class="flex-parent-row">
+    {{- $.Scratch.Set "count" 0 }}
+		{{ $languageshort := substr site.LanguageCode 0 2 }}
+    {{- range .Site.Data.references }}
+      {{- if .showonhome }}
+        {{- if eq $languageshort .language }}
+          {{- $.Scratch.Add "count" 1 }}
+          <div class="flex-child-16p">
+						<div class="margin-tiny border">
+							<img src="/img/logos/{{ .logo }}" alt="{{ .logo }}">
+						</div>
+          </div>
+        {{- end }}
       {{- end }}
-		</div>
-  </div>
+    {{- end }}
+	</div>
 </section>
 {{ "<!-- partials:home:references:end -->" | safeHTML }}

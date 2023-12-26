@@ -1,8 +1,7 @@
-modalID: 18
-language : fr
+language: fr
 title: EM Lyon
-logo: em-lyon_ref.svg
-img: em-lyon_ref.svg
+logo: em-lyon-logo.png
+img: em-lyon-logo.png
 client: EM Lyon
 showonhome: true
 kind: "Event Animation"

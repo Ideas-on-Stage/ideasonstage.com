@@ -8,39 +8,17 @@ picture				= "/img/ideas-on-stage.svg"
 schema				= "Website"
 insertsbottom	= [ "catalogue","revolution" ]
 
-[slider]
-	[[slider.list]]
+[cta]
 		date				= "2023-09-05"
-		bgimage 		= "/es/guia-definitiva-hablar-en-publico/public-speaking.jpg"
+		picture 		= "/es/guia-definitiva-hablar-en-publico/public-speaking.jpg"
 		title 				= "LA GUÍA DEFINITIVA PARA HABLAR EN PÚBLICO"
 		description = "Usa estas técnicas para comunicarte de forma efectiva."
-		button 			= "Leer la guía"
-		buttonlink		= "/es/guia-definitiva-hablar-en-publico/"
 		color				= "text-white"	
 		opacity			= "30"
-	[[slider.list]]
-		draft				= true
-		date				= "2020-06-05"
-		expirydate	= "2020-06-19"
-		bgimage			= "/img/news/black-white-heart.jpg"
-		title				= "ACABEMOS CON LA DISCRIMINACIÓN"
-		description	= ""
-		button			= "Lee nuestra declaración"
-		buttonlink		= "/noticias/2020/06/05/2020-06-05-let-s-end-discrimination/"
-		color				= "text-white"
-		opacity			= "30"
-	[[slider.list]]
-		draft				= true
-		bgimage 		= "/img/hero.jpg"
-		title 				= "AGENCIA DE PRESENTACIONES · EVENTOS CORPORATIVOS · HABLAR EN PÚBLICO / ORATORIA"
-	[[slider.list]]
-		draft				= true
-		bgimage 		= "slider3-min.jpg"
-		title 				= "THE BUSINESS PRESENTATION REVOLUTION"
-		description = "Episodio 9: Érase una vez una historia empresarial"
-		button 			= "Ver ahora"
-		buttonlink		= "/es/revolution/episode-00009/"
-		color 				= "text-white"	
+		[cta.button]
+			text 			= "Leer la guía"
+			link				= "/es/guia-definitiva-hablar-en-publico/"
+		
 
 [services]
 	[[services.list]]

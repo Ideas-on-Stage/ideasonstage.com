@@ -1,9 +1,10 @@
-language: es
-title: EM Lyon
-logo: em-lyon-logo.png
-img: em-lyon-logo.png
-client: EM Lyon
-showonhome: true
+modalID: 18
+language : en
+title: Centifolia
+logo: centifolia.jpg
+img: centifolia.jpg
+client: Centifolia
+showonhome: false
 kind: "Event Animation"
 category: "Event Animation"
 clientLink: "#"
