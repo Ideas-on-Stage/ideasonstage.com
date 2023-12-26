@@ -221,6 +221,9 @@ title         						= "Ideas on Stage"
 				url			 				= "/communication-consulting/"
 	
 			[[languages.en.params.navigation.resources]]
+				name						= "References"
+				url							= "/references/"
+			[[languages.en.params.navigation.resources]]
 				name						= "Videos"
 				url							= "/revolution/"
 			[[languages.en.params.navigation.resources]]
@@ -407,6 +410,9 @@ title         						= "Ideas on Stage"
 				url						 	= "/fr/ateliers-evenement-entreprise/"
 	
 			[[languages.fr.params.navigation.resources]]			
+				name						= "Références"
+				url							= "/fr/references/"
+			[[languages.fr.params.navigation.resources]]			
 				name						= "Vidéos"
 				url							= "/fr/revolution/"
 			[[languages.fr.params.navigation.resources]]			
@@ -574,11 +580,13 @@ title         						= "Ideas on Stage"
 				name		 				= "Creación"
 				url			 				= "/es/creacion-presentaciones-powerpoint/"
 					
-			[languages.es.params.navigation.resources]
-				[languages.es.params.navigation.resources.001]
+			[[languages.es.params.navigation.resources]]			
+				name						= "Referencias"
+				url							= "/es/referencias/"
+			[[languages.es.params.navigation.resources]]			
 					name					= "Videos"
 					url						= "/es/revolution/"
-				[languages.es.params.navigation.resources.002]
+			[[languages.es.params.navigation.resources]]			
 					name					= "Guías"
 					url						= "/es/guias/"
 				

@@ -4,6 +4,7 @@ logo: edf-logo.png
 img: edf_ref.png
 client: EDF
 showonhome: true
+showonrefs: true 
 clientlink: "/coaching-prise-de-parole-en-public/coaching-prise-de-parole-en-public/"
 kind: "Coaching prise de parole en public"
 category: Coaching prise de parole en public

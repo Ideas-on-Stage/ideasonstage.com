@@ -1085,6 +1085,15 @@
 			max-width: 100%;
 			box-sizing: border-box;
 		}
+
+		/* flex child constrained to about 60% of available space */
+		.flex-child-80p {
+			height: 100%;
+			flex: 1;
+			flex-grow: 0;
+			flex-basis: 80%; /* start at 60% width */
+			box-sizing: border-box;
+		}
 		
 		/* flex child constrained to about 60% of available space */
 		.flex-child-60p {

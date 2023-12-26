@@ -4,6 +4,7 @@ logo: iff-logo.png
 img: iff-logo.png
 client: Internation Flavors and Fragances
 showonhome: true
+showonrefs: true 
 clientlink: "/training-workshops/business-presentation-revolution/"
 kind: "Business Presentation Revolution"
 category: "Formación en presentaciones"

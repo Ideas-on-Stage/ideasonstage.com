@@ -4,6 +4,7 @@ logo: google-logo.png
 img: google-logo.png
 client: Google
 showonhome: true
+showonrefs: false 
 clientlink: "/fr/agence-creation-presentations/strategie-de-presentation/"
 kind: "Présentations stratégiques"
 category: Présentations stratégiques

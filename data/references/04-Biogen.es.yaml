@@ -4,6 +4,7 @@ logo: biogen-logo.png
 img: biogen-logo.png
 client: Biogen France
 showonhome: true
+showonrefs: true 
 clientlink: "/public-speaking-coaching/public-speaking-coaching/"
 kind: "Coaching para hablar en público"
 category: Coaching de speakers

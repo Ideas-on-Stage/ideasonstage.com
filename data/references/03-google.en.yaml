@@ -4,6 +4,7 @@ logo: google-logo.png
 img: google-logo.png
 client: Google
 showonhome: true
+showonrefs: true
 kind: "Presentation Strategy"
 clientlink: "/presentation-creation-agency/presentation-strategy/"
 category: Presentation Strategy
