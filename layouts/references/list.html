@@ -1,9 +1,11 @@
 {{ define "main" }}
-	{{ partial "home/references.html" . }}
 	{{ "<!-- references:single.html:main:start -->" | safeHTML }}
 	<section id="references" class="bg-white">
+		<div class="layout-module-wrapper">
+			{{ partial "home/references.html" . }}
+		</div>
 		<div class="layout-content">
-	    {{- $.Scratch.Set "count" 0 }}
+			{{- $.Scratch.Set "count" 0 }}
 			{{ $languageshort := substr site.LanguageCode 0 2 }}
 	    {{- range .Site.Data.references }}
 				{{ if eq true .showonrefs }}
