@@ -12,6 +12,21 @@ weight			= 30
 
 At Ideas on Stage, we believe that everybody has the potential to become a successful presenter – and that even talented speakers have the potential to improve. Why’s that? Because we’ve helped thousands of presenters to become more comfortable, confident and convincing, across a wide range of clients at all levels of business and experience.
 
+{{< icon-list title="Our references" >}}
+	{{< icon-item icon="/img/logos/disney-logo.png" size= "16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/salesforce-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/deloitte-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/nestle-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/the-world-bank-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/em-lyon-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/colombus-consulting-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/business-france-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/bpce-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/bouygues-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/edf-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/colas-logo.png" size="16p" style="border spacing" >}}
+{{< /icon-list >}}
+
 {{< text2-picture1 picture="/img/inserts/presentation-training-10.jpg" title="Proven methods, experienced trainers" >}}
 The methods and techniques we teach are the ones we use every day to produce memorable presentations for business leaders, so we know they work. Our trainers all have many years of experience of high-level presentations so you are learning from true experts.
 {{< /text2-picture1 >}}
