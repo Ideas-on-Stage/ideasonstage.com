@@ -40,6 +40,21 @@ Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise e
 	{{< icon-item icon="logo-qualiopi.png" size="33p" description="Certifié Qualiopi" style="border spacing" >}}
 {{< /icon-list >}}
 
+{{< icon-list title="Nos références" >}}
+	{{< icon-item icon="/img/logos/disney-logo.png" size= "16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/salesforce-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/deloitte-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/nestle-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/the-world-bank-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/em-lyon-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/colombus-consulting-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/business-france-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/bpce-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/bouygues-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/edf-logo.png" size="16p" style="border spacing" >}}
+	{{< icon-item icon="/img/logos/colas-logo.png" size="16p" style="border spacing" >}}
+{{< /icon-list >}}
+
 ## Module Storytelling
 
 Le module storytelling est un module star de nos formations. Unique en son genre, pensé pour les besoins des entreprises, il vous apprendra comment construire votre discours pour convaincre votre auditoire, depuis l'identification des messages clés jusqu'à la création d'une histoire captivante.
