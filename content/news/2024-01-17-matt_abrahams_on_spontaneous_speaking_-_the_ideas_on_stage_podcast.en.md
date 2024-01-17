@@ -9,29 +9,17 @@ banner = "/img/news/mattabrahams.webp"
 +++
 ![Matt Abrahams and Andrea Pacini](/img/news/mattabrahams.webp "Matt Abrahams and Andrea Pacini")
 
-
-
 In this episode of the Ideas on Stage podcast we spoke with Matt Abrahams. 
-
-
 
 Matt Abrahams is a leading expert in communication with decades of experience as an educator, author, podcast host, and coach. As a Lecturer in Organizational Behavior at Stanford University’s Graduate School of Business, he teaches popular classes in strategic communication and effective virtual presenting. He received Stanford GSB’s Alumni Teaching Award in recognition of his teaching students around the world.
 
- 
-
 His online talks garner millions of views and he hosts the popular, award-winning podcast Think Fast, Talk Smart The Podcast. His new book Think Faster, Talk Smarter: How to Speak Successfully When You’re Put on the Spot provides tangible, actionable skills to help even the most anxious of speakers succeed when speaking spontaneously, such as navigating Q&A sessions, shining in job interviews, providing effective feedback, making small talk, fixing faux pas, persuading others.
-
-
 
 In this episode we talked about spontaneous speaking. \
 \
 **Transcript**
 
-
-
 **Andrea Pacini:** "Matt, can you talk about how we can become better communicators?"
-
-
 
 **Matt Abrahams:** "We can all put in work to become more confident, clear, and compelling communicators. It takes three things: repetition, reflection, and feedback. Practice is essential, along with reflecting on what needs change and leaning into strengths, and getting feedback from trusted sources."
 
@@ -83,44 +71,24 @@ In this episode we talked about spontaneous speaking. \
 
 **Matt Abrahams:** "The key takeaway is that everyone can work on becoming more confident, clear, and compelling communicators. It's a process that involves practice, reflection, and getting feedback."
 
-
-
 **Books recommended by Matt:** 
 
 * Made to Stick by Dan Heath and Chip Heath 
 * Improv Wisdom by Patricia Ryan Madson 
 
-
-
 **Available on:** 
-
-
 
 **[YouTube](https://youtu.be/9uJ43WIQ9Hw)**
 
-
-
 **[Apple Podcasts](https://podcasts.apple.com/gb/podcast/ideas-on-stage-podcast/id1618778519)**
-
-
 
 **[Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw?sa=X&ved=0CAMQ4aUDahcKEwjwpZ3SsIyDAxUAAAAAHQAAAAAQAQ)**
 
-
-
 **[Spotify](https://open.spotify.com/show/553zZntpVVa4ejnASoFOTt)**
-
-
 
 **I hope you enjoy it!**
 
-
-
 {{% youtube 9uJ43WIQ9Hw %}}
-
-
-
-
 
 **Want to learn more?** 
 
