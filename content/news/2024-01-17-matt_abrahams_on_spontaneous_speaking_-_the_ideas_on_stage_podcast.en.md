@@ -15,8 +15,6 @@ In this episode of the Ideas on Stage podcast we spoke with Matt Abrahams. 
 
 Matt Abrahams is a leading expert in communication with decades of experience as an educator, author, podcast host, and coach. As a Lecturer in Organizational Behavior at Stanford University’s Graduate School of Business, he teaches popular classes in strategic communication and effective virtual presenting. He received Stanford GSB’s Alumni Teaching Award in recognition of his teaching students around the world.
 
- 
-
 His online talks garner millions of views and he hosts the popular, award-winning podcast *Think Fast, Talk Smart The Podcast*. His new book *Think Faster, Talk Smarter: How to Speak Successfully When You’re Put on the* *Spot* provides tangible, actionable skills to help even the most anxious of speakers succeed when speaking spontaneously, such as navigating Q&A sessions, shining in job interviews, providing effective feedback, making small talk, fixing faux pas, persuading others.
 
 
