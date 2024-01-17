@@ -17,7 +17,7 @@ Matt Abrahams is a leading expert in communication with decades of experience as
 
  
 
-His online talks garner millions of views and he hosts the popular, award-winning podcast ***Think Fast, Talk Smart The Podcast*.** His new book ***Think Faster, Talk Smarter: How to Speak Successfully When You’re Put on the* *Spot*** provides tangible, actionable skills to help even the most anxious of speakers succeed when speaking spontaneously, such as navigating Q&A sessions, shining in job interviews, providing effective feedback, making small talk, fixing faux pas, persuading others.
+His online talks garner millions of views and he hosts the popular, award-winning podcast *Think Fast, Talk Smart The Podcast*. His new book *Think Faster, Talk Smarter: How to Speak Successfully When You’re Put on the* *Spot* provides tangible, actionable skills to help even the most anxious of speakers succeed when speaking spontaneously, such as navigating Q&A sessions, shining in job interviews, providing effective feedback, making small talk, fixing faux pas, persuading others.
 
 
 
