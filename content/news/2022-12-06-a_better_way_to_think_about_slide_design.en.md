@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "A Better Way To Think About Slide Design "
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Andrea Pacini"]
 news = ["general"]
 date = "2022-12-06"
 author = "Andrea Pacini"
