@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "7 Memorable Ways to Open a Presentation (With Examples)"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Andrea Pacini"]
 news = ["general"]
 date = "2022-10-04"
 author = "Andrea Pacini"
