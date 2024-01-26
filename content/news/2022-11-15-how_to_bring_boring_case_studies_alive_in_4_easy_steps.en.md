@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "How To Bring Boring Case Studies Alive – In 4 Easy Steps"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Andrea Pacini"]
 news = ["general"]
 date = "2022-11-15"
 author = "Andrea Pacini"
