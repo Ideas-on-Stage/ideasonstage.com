@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Your Idea Is Worthless Unless You Can Communicate It"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Andrea Pacini"]
 news = ["general"]
 date = "2022-08-30"
 author = "Andrea Pacini"
