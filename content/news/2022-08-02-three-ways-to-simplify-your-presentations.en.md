@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Three Ways To Simplify Your Presentations"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Andrea Pacini"]
 news = ["general"]
 date = "2022-08-02"
 author = "Andrea Pacini"
