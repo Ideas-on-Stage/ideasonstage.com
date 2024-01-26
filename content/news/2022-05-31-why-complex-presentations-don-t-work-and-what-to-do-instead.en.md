@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Why complex presentations don't work (and what to do instead)"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Andrea Pacini"]
 news = ["general"]
 date = "2022-05-31"
 author = "Andrea Pacini"
