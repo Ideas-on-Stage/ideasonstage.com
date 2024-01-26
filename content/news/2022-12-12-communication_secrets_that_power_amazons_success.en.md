@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Communication Secrets that Power Amazon's Success"
-tags = ["Events"]
+tags = ["Events", "Andrea Pacini"]
 news = ["general"]
 date = "2022-12-12"
 author = "Andrea Pacini"
