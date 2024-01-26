@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "The Five Key Principles For Powerful Presentations"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Andrea Pacini"]
 news = ["general"]
 date = "2022-07-26"
 author = "Andrea Pacini"
