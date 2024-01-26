@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "How To Present A Clear Message To Any Audience: The Rule of Three"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Andrea Pacini"]
 news = ["general"]
 date = "2022-08-09"
 author = "Andrea Pacini"
