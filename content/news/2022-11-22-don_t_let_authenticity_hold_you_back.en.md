@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Don’t Let ‘Authenticity’ Hold You Back"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Andrea Pacini"]
 news = ["general"]
 date = "2022-11-22"
 author = "Andrea Pacini"
