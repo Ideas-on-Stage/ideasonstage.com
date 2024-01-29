@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "How To Make Your Message Relevant To Your Audience"
-tags = ["Public Speaking", "Andrea Pacini"]
+tags = ["Public Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-08-23"
 author = "Andrea Pacini"
