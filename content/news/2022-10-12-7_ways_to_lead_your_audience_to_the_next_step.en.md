@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "7 Ways To Lead Your Audience To The Next Step"
-tags = ["Public Speaking", "Andrea Pacini"]
+tags = ["Public Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-10-11"
 author = "Andrea Pacini"
