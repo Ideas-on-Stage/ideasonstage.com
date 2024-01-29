@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "The Persuasive Power of Analogies in Communication"
-tags = ["Public Speaking", "Andrea Pacini"]
+tags = ["Public Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-10-18"
 author = "Andrea Pacini"
