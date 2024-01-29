@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Being Confident At Public Speaking: The Three Things You Need To Know"
-tags = ["Public Speaking", "Andrea Pacini"]
+tags = ["Public Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-07-19"
 author = "Andrea Pacini"
