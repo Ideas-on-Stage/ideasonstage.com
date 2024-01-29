@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "6 Steps To Creating A Clear Presentation Storyline"
-tags = ["Public Speaking", "Andrea Pacini"]
+tags = ["Public Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-09-27"
 author = "Andrea Pacini"
