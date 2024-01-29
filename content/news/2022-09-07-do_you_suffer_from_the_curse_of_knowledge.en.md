@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Do You Suffer From The Curse Of Knowledge? "
-tags = ["Public Speaking", "Andrea Pacini"]
+tags = ["Public Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-09-06"
 author = "Andrea Pacini"
