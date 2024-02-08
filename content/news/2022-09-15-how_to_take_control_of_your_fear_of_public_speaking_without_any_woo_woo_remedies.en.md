@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "How To Take Control Of Your Fear of Public Speaking (Without Any “Woo Woo” Remedies) "
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-09-20"
 author = "Andrea Pacini"

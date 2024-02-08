@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "How To Make Your Presentations More Interactive "
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-11-08"
 author = "Andrea Pacini"

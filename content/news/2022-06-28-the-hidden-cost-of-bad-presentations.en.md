@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "The Hidden Cost Of Bad Presentations — How To Avoid Losing Business"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-06-28"
 author = "Andrea Pacini"

@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "3 Ways To Communicate Data More Effectively"
-tags = ["P﻿ublic Speaking"]
+tags = ["P﻿ublic Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-11-01"
 author = "Andrea Pacini"

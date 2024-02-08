@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Public Speaking: A Proven Process to Build Your Confidence"
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-06-09"
 author = "Andrea Pacini"

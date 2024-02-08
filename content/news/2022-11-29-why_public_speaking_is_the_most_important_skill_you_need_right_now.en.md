@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Why Public Speaking Is The Most Important Skill You Need Right Now "
-tags = ["Public Speaking"]
+tags = ["Public Speaking", "Confident Presenter"]
 news = ["general"]
 date = "2022-11-29"
 author = "Andrea Pacini"
