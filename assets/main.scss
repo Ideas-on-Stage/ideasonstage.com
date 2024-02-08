@@ -14,22 +14,22 @@
 	/* This is where ALL font families are declared */
 	
 	body, a {
-	  font-family: "Whitney SSm A", "Whitney SSm B";
-	  font-style: normal;
-	  font-weight: 500;
-	}
+    font-family: "Whitney SSm A", "Whitney SSm B";
+    font-style: normal;
+    font-weight: 500;
+  }
 	
 	b, strong, blockquote {
-	  font-family: "Whitney SSm A", "Whitney SSm B";
-	  font-style: normal;
-	  font-weight: 700;
-	}
+    font-family: "Whitney SSm A", "Whitney SSm B";
+    font-style: normal;
+    font-weight: 700;
+  }
 	
 	h1, h2, h3, h4, big {
-	  font-family: "Gotham SSm A", "Gotham SSm B";
-		font-style: normal;
-	  font-weight: 700;
-	}
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-style: normal;
+    font-weight: 700;
+  }
 
 	/* Specific fonts - try to limit it */
 	
@@ -61,66 +61,66 @@
 	/* This is where ALL font sizes are declared */
 
 	/* font sizes for standard tags */
-	body, a, blockquote								{ font-size: 1.50vw;	}
-	h1																{ font-size: 2.00em;	}
-	h2																{ font-size: 1.75em;	}
-	h3									 							{ font-size: 1.50em;	}
-	h4 																{ font-size: 1.25em;	}
-	h5																{ font-size: 1.00em;	}
-	footer, footer a									{ font-size: 1.00em;	}
+	body, a, blockquote				      	{ font-size: 1.50vw;	}
+	h1									              { font-size: 2.00em;	}
+	h2						      			        { font-size: 1.75em;	}
+	h3			      				        		{ font-size: 1.50em;	}
+	h4       							        		{ font-size: 1.25em;	}
+	h5									              { font-size: 1.00em;	}
+	footer, footer a	      				  { font-size: 1.00em;	}
 	
 	/* font sizes for custom classes */
-	.button-primary										{ font-size: 1.50vw;	}
-	.nav a 								 						{ font-size: 0.8em;		}
-	.flex-404 .error-box h1						{ font-size: 2.00em;	}
-	.flex-404 .error-box h2 						{ font-size: 1.25em;	}
-  .footer-main-category							{ font-size: 0.8em;		}
-  .footer-sub-category							{ font-size: 0.8em;		}
-	.form-control-nav 									{ font-size: 90%;  		}
+	.button-primary      						  { font-size: 1.50vw;	}
+	.nav a       								      { font-size: 0.80em;	}
+	.flex-404 .error-box h1		      	{ font-size: 2.00em;	}
+	.flex-404 .error-box h2       			{ font-size: 1.25em;	}
+    .footer-main-category	      		{ font-size: 0.8em;		}
+    .footer-sub-category		      	{ font-size: 0.8em;		}
+	.form-control-nav 		      			  { font-size: 90%;  		}
 	.iosnavbar-menu-item,
-	.iosnavbar-menu-item a						{ font-size: 0.9em;		}
+	.iosnavbar-menu-item a			      { font-size: 0.9em;		}
 	.iosnavbar-menu-dropdown-item,
-	.iosnavbar-menu-dropdown-item a		{ font-size: 1em;			}
-	.iostestimonial .text p						{ font-size: 14px;		}  
-	.iostestimonial .icon							{ font-size: 24px;		}
-	.iostestimonial .name-picture h4		{ font-size: 1em;			}
+	.iosnavbar-menu-dropdown-item a		{ font-size: 1em;		  }
+	.iostestimonial .text p		    		{ font-size: 14px;		}  
+	.iostestimonial .icon				      { font-size: 24px;		}
+	.iostestimonial .name-picture h4		{ font-size: 1em;		  }
 	.iostestimonial .name-picture h5 	{ font-size: 14px;		}
-	.iostestimonial .name-picture p		{ font-size: 12px;		}
-	.people-box-name										{ font-size: 1em;		  }
-	.people-box-title									{ font-size: 0.75em;	}
-	.style-slider-title 								{ font-size: 2.50em;	}
-	.style-slider-subtitle							{ font-size: 1.50em;	}
-	.thumbnail-caption h3				 			{ font-size: 0.75em;	}
-	.text-base												{ font-size: 1.00em;	}
-	.testimonial .text p								{ font-size: 14px;		}  
-	.testimonial .icon									{ font-size: 24px;		}
-	.testimonial .name-picture h4			{ font-size: 1em;			}
-	.testimonial .name-picture h5 			{ font-size: 14px;		}
-	.testimonial .name-picture p				{ font-size: 12px;		}
-	.timeline-title										{ font-size: 1.50em;	}
-	.timeline-text											{ font-size: 0.80em;	}
-	.style-section-title-main 					{ font-size: 2.00em;	}
-	.style-module-text h3							{ font-size: 2.00em;	}
-	#content-table h2 									{ font-size: 1em;			}
-	#content-table a										{ font-size: 0.75em;	}
-	#sidebar h2								 				{ font-size: 1em;			}
-	#sidebar li												{ font-size: 1em;			}
-	#sidebar a												{ font-size: 0.8em;		}
+	.iostestimonial .name-picture p		{ font-size: 12px;    }
+	.people-box-name						        { font-size: 1em;	  	}
+	.people-box-title					        { font-size: 0.75em;	}
+	.style-slider-title       					{ font-size: 2.50em;	}
+	.style-slider-subtitle		      		{ font-size: 1.50em;	}
+	.thumbnail-caption h3      	 			{ font-size: 0.75em;	}
+	.text-base							          { font-size: 1.00em;	}
+	.testimonial .text p		    		    { font-size: 14px;		}  
+	.testimonial .icon				          { font-size: 24px;		}
+	.testimonial .name-picture h4	    { font-size: 1em;	  	}
+	.testimonial .name-picture h5 	  	{ font-size: 14px;		}
+	.testimonial .name-picture p		  	{ font-size: 12px;		}
+	.timeline-title						        { font-size: 1.50em;	}
+	.timeline-text						          { font-size: 0.80em;	}
+	.style-section-title-main 			    { font-size: 2.00em;	}
+	.style-module-text h3				      { font-size: 2.00em;	}
+	#content-table h2 					        { font-size: 1em;		  }
+	#content-table a						        { font-size: 0.75em;	}
+	#sidebar h2							          { font-size: 1em;		  }
+	#sidebar li							          { font-size: 1em;  		}
+	#sidebar a							          { font-size: 0.8em;		}
 	
 	/* adjust for small tall smartphone screens */
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {	
-		body, a, blockquote 							{ font-size: 4vw;			}
-		.button-primary									{ font-size: 4vw;			}
-		.iosnavbar-menu-item						{ font-size: 1.25em;	}
-		.iosnavbar-menu-dropdown-item	a	{ font-size: 1.25em;	}
-		.style-slider-title 							{ font-size: 1.50em;	}	
-		.style-slider-subtitle						{ font-size: 1.00em;	}
+		body, a, blockquote 				      { font-size: 4vw;		  }
+		.button-primary					        { font-size: 4vw;		  }
+		.iosnavbar-menu-item			      { font-size: 1.25em;	}
+		.iosnavbar-menu-dropdown-item a	{ font-size: 1.25em;	}
+		.style-slider-title			    		{ font-size: 1.50em;	}	
+		.style-slider-subtitle				    { font-size: 1.00em;	}
 	}
 	
 	/* adjust for very large screens (>1280px wide) 
 		so that text does not become too big */
 	@media(min-width:1281px) {
-		body, a, blockquote							{ font-size: 20px;		}		
+		body, a, blockquote					    { font-size: 20px;		}		
 	}
 
 /* @end */
@@ -206,7 +206,7 @@
 		margin: 0;
 		margin-block-start: 0em;
 		margin-block-end: 0em;
-	  text-transform: uppercase;
+    text-transform: uppercase;
 	}
 	
 	h2,
@@ -262,10 +262,9 @@
 		padding: 0 2vw;
 	}
 
-	@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 	
-		/* adjust for tall viewport */
-	
+		/* adjust for tall viewport */	
 		#breadcrumbs ol {
 		padding: 2vw 0;
 		}
@@ -273,7 +272,6 @@
 	}
 
 	/* #content-main is the section that displays the .Content of most pages */
-
 	#content-main > h1,
 	#content-main > h5 {
 		/* highlight h1 and h5 in red to show they should not be used in content */
@@ -339,7 +337,7 @@
 		border-right: 1px solid #888;
 	}
 			
-	@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 
 		#content-main th {
 			min-width: 50px;
@@ -514,20 +512,20 @@
 /* @group STYLES SLIDER */
 
 	.style-slider-title {
-	  margin: 1vw 8vw 0 8vw;
-	  line-height: 1.2;
-	  color: white; 
-	  text-align: center;
+    margin: 1vw 8vw 0 8vw;
+    line-height: 1.2;
+    color: white; 
+    text-align: center;
 	}
 	
 	.style-slider-subtitle {
-	  margin: 1vw 8vw;
-	  line-height: 1.2;
-	  color: rgba(255, 255, 255, 0.8); 
-	  text-align: center;
+    margin: 1vw 8vw;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.8); 
+    text-align: center;
 	}
 	
-	@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 	
 		/* adjust for tall viewport */
 	
@@ -550,26 +548,26 @@
 	/* use to create a primary button */
 	.button-primary {
 		margin: 1vw 0;
-	  padding: 1vw 2vw;
+    padding: 1vw 2vw;
 		color: {{ site.Params.buttons.primary.color }} !important;
 		background-color: {{ site.Params.buttons.primary.bg_color }};
 		border: none;
-	  border-radius: 5px;
-	  border-color: none;
-	  border-style: none;
-	  text-transform: uppercase;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+    text-transform: uppercase;
 	}
 	
 	/* use to create a secondary button */
 	.button-secondary {
-	    padding: 0px;
+	  padding: 0px;
 		color: {{ site.Params.buttons.secondary.color }} !important;
 		background-color: {{ site.Params.buttons.secondary.bg_color }};
 		border: none;
-	    border-radius: 3px;
-	    border-color: none;
-	    border-style: none;
-	    text-transform: uppercase;
+	  border-radius: 3px;
+	  border-color: none;
+	  border-style: none;
+	  text-transform: uppercase;
 	}
 	
 	.bg-primary .button-secondary {
@@ -578,7 +576,7 @@
 	}
 		
 	/* adapt to tall smartphone screens */
-	@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		
 		.button-primary {
 			padding: 2vw 6vw;
@@ -636,7 +634,7 @@
 			box-sizing: border-box;
 		}
 		
-		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+		@media (max-aspect-ratio:1/1) and (max-width:480px) {
 
 			.layout-content {
 				margin: 4vw auto;
@@ -816,7 +814,7 @@
 		height: {{ site.Params.layout.module.height_big }};
 		}
 			
-		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+		@media (max-aspect-ratio:1/1) and (max-width:480px) {
 			
 			.layout-module-wrapper {
 				padding-top: {{ site.Params.layout.module.padding_ts.top }};
@@ -926,14 +924,13 @@
 			line-height: 0.8;
 			border: 0;
 			box-sizing: border-box;
-		}
-		
+		}		
 		.layout-shortcode-img img {
 			width: 100%;
 			height: 100%;
 		}
 
-		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+		@media (max-aspect-ratio:1/1) and (max-width:480px) {
 			
 			.layout-shortcode {
 				padding: 2vw;
@@ -987,7 +984,7 @@
 			max-width: 100%;
 		}
 
-		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+		@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		
 			.layout-storyline-left {
 				padding: 4vw 2vw;
@@ -1070,7 +1067,7 @@
 			height: auto;
 		}
 		
-		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+		@media (max-aspect-ratio:1/1) and (max-width:480px) {
 			.flex-parent-scroll {
 				padding-bottom: 1.0em;
 			}
@@ -1281,7 +1278,7 @@
 			flex-wrap: wrap;
 		}
 		
-		@media(max-aspect-ratio:1/1) and (max-width:480px) {
+		@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		
 			/* change flex-direction to column on tall smartphone screens */
 			.flex-column-ontall {
@@ -1395,35 +1392,35 @@
 	
 	/* text color helper classes */
 	
-	.text-primary			{ color: #FF8200;								}
+	.text-primary			{ color: #FF8200;			      		}
 	.text-faded 			{ color: rgba(255,255,255,.7);		}
-	.text-blue	 				{	color: rgb(51,53,65);					}
-	.text-white				{	color: #fff;										}
-	.text-gray 				{	color: #888;										}
-	.text-dark 				{	color: #222;										}
-	
+	.text-blue	 		  	{ color: rgb(51,53,65);        	}
+	.text-white				{ color: #fff;        						}
+	.text-gray 				{ color: #888;					        	}
+	.text-dark 				{ color: #222;        						}
+	                  
 	/* padding helper classes */
 
-	.padding-huge	 		{	padding: 80px;								}
-	.padding-large 		{	padding: 60px;								}
-	.padding-medium 	{	padding: 40px;								}
-	.padding-small			{	padding: 20px;								}
-	.padding-tiny 		{	padding: 10px;								}
-	.padding-none 		{	padding: 0px;									}
+	.padding-huge	 		{ padding: 80px;			      		}
+	.padding-large    { padding: 60px;      				  	}
+	.padding-medium   { padding: 40px;		        		}
+	.padding-small			{ padding: 20px;      					}
+	.padding-tiny 		{ padding: 10px;			      		}
+	.padding-none 		{ padding: 0px;		      				}
 	
-	.paddingt-huge 		{	padding-top: 80px;						}
-	.paddingt-large 		{	padding-top: 60px;						}
-	.paddingt-medium 	{	padding-top: 40px;						}
-	.paddingt-small 		{	padding-top: 20px;						}
-	.paddingt-tiny 		{	padding-top: 10px;						}
-	.paddingt-none 		{	padding-top: 0px;							}
+	.paddingt-huge 		{ padding-top: 80px;    				}
+	.paddingt-large 		{ padding-top: 60px;    				}
+	.paddingt-medium 	{ padding-top: 40px;	    			}
+	.paddingt-small 		{ padding-top: 20px;	    			}
+	.paddingt-tiny 		{ padding-top: 10px;	    			}
+	.paddingt-none 		{ padding-top: 0px;				    	}
 	
-	.paddingb-huge 		{	padding-bottom: 80px;					}
-	.paddingb-large 		{	padding-bottom: 60px;					}
-	.paddingb-medium 	{	padding-bottom: 40px;					}
-	.paddingb-small 		{	padding-bottom: 20px;					}
-	.paddingb-tiny 		{	padding-bottom: 10px;					}
-	.paddingb-none 		{	padding-bottom: 0px;					}
+	.paddingb-huge 		{ padding-bottom: 80px;		    	}
+	.paddingb-large 		{ padding-bottom: 60px;  				}
+	.paddingb-medium 	{ padding-bottom: 40px;		  		}
+	.paddingb-small 		{ padding-bottom: 20px;			  	}
+	.paddingb-tiny 		{ padding-bottom: 10px;	  			}
+	.paddingb-none 		{ padding-bottom: 0px;		  		}
 	
 	.paddingv-huge {
 		padding-top: 80px;
@@ -1478,30 +1475,30 @@
 	/* margin helper classes */
 
 	
-	.margin-huge 		{	margin: 80px;			}
-	.margin-large 		{	margin: 60px;			}
-	.margin-medium 	{	margin: 40px;			}
-	.margin-small 		{	margin: 20px;			}
-	.margin-tiny 		{	margin: {{ site.Params.layout.module.padding.top }}			}
-	.margin-none 		{	margin: 0px;			}
+	.margin-huge 		{ margin: 80px;    			}
+	.margin-large 		{ margin: 60px;	    		}
+	.margin-medium 	{ margin: 40px;	    		}
+	.margin-small 		{ margin: 20px;		    	}
+	.margin-tiny 		{ margin: {{ site.Params.layout.module.padding.top }}		}
+	.margin-none 		{ margin: 0px;		    	}
 
-@media(max-aspect-ratio:1/1) and (max-width:480px) {
-	.margin-tiny 		{	margin: {{ site.Params.layout.module.padding_ts.top }}			}	
-}
+    @media (max-aspect-ratio:1/1) and (max-width:480px) {
+        .margin-tiny 		{ margin: {{ site.Params.layout.module.padding_ts.top }}		
+    }
 
-	.margint-huge 		{	margin-top: 80px;			} 
-	.margint-large			{	margin-top: 60px;			} 
-	.margint-medium 	{	margin-top: 40px;			} 
-	.margint-small			{	margin-top: 20px;			}
-	.margint-tiny 		{	margin-top: 10px;			}
-	.margint-none 		{	margin-top: 0px;			}
+	.margint-huge 	{ margin-top: 80px;	  	} 
+	.margint-large		{ margin-top: 60px;	  	} 
+	.margint-medium { margin-top: 40px;	  	} 
+	.margint-small		{ margin-top: 20px;	  	}
+	.margint-tiny 	{ margin-top: 10px;  		}
+	.margint-none 	{ margin-top: 0px;		  }
 	
-	.marginb-huge			{	margin-bottom: 80px;	}
-	.marginb-large 		{	margin-bottom: 60px;	}
-	.marginb-medium	 	{	margin-bottom: 40px;	}
-	.marginb-small 		{	margin-bottom: 20px;	}
-	.marginb-tiny 		{	margin-bottom: 10px;	}
-	.marginb-none			{	margin-bottom: 0px;		}
+	.marginb-huge		{ margin-bottom: 80px;	}
+	.marginb-large 	{ margin-bottom: 60px;	}
+	.marginb-medium	{ margin-bottom: 40px;	}
+	.marginb-small 	{ margin-bottom: 20px;	}
+	.marginb-tiny 	{ margin-bottom: 10px;	}
+	.marginb-none		{ margin-bottom: 0px;	  }
 	
 	.marginh-huge {
 		margin-left: 80px;
@@ -1572,12 +1569,12 @@
 		padding: 1vw;
 		box-sizing: border-box;
 	}
-		
-	@media(max-aspect-ratio:1/1) and (max-width:480px) {
-	
+
+    @media (max-aspect-ratio:1/1) and (max-width:480px) {
+        
 		.paddingt-large		{	padding-top: 18px;		}
 		.paddingt-medium	{	padding-top: 12px;		}
-		.margint-large 		{	margin-top: 18px;			}
+		.margint-large 		{	margin-top: 18px;	  	}
 	
 	}
 	

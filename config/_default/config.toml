@@ -1,8 +1,8 @@
-baseURL					 				= "https://www.ideasonstage.com/"
+baseURL					 		  	= "https://www.ideasonstage.com/"
 canonifyurls							= false
-copyright								= "© Ideas on Stage 2015 - "
-DefaultContentLanguage		= "en"
-paginate								= 8
+copyright						  	= "© Ideas on Stage 2015 - "
+DefaultContentLanguage  = "en"
+paginate					  		= 8
 paginatePath						= "newspage"
 theme        						= "hugo-theme-korporate"
 title         						= "Ideas on Stage"
@@ -16,30 +16,30 @@ title         						= "Ideas on Stage"
 	    endLevel 					= 3		# end level for table of contents
       		
 [Permalinks]
-  news									= "/news/:year/:month/:day/:filename/"
+  news							  	= "/news/:year/:month/:day/:filename/"
 
 [taxonomies]
-	tag										= "tags"
+	tag				    				= "tags"
 
 [params]
-	author								= "Ideas on Stage"
-	email 									= "info@ideasonstage.com"
-	favicon								= "/img/ios_favicon.ico"
+	author				  			= "Ideas on Stage"
+	email 					    		= "info@ideasonstage.com"
+	favicon					  		= "/img/ios_favicon.ico"
 	
 	# ---------------------
 	# Buttons
 	[params.buttons]
 		[params.buttons.primary]					
-			color							= "white"
-			bg_color						= "#FF8200"
+			color			    		= "white"
+			bg_color  					= "#FF8200"
 		[params.buttons.secondary]
-			color							= "#00A3E0"
-			bg_color						= "none"
+			color				    	= "#00A3E0"
+			bg_color				  	= "none"
 
 	# ---------------------
 	# CSS
 	[params.css]
-		main								= "main.scss"
+		main					    	= "main.scss"
 		enablebootstrap			= false
 		typography					= "https://cloud.typography.com/6201816/7621392/css/fonts.css"
 		fontawesome					= "/css/font-awesome.min.css"
@@ -47,75 +47,75 @@ title         						= "Ideas on Stage"
 	# ---------------------
 	# Colors
 	[params.colors]
-		link_hover						= "#FF8200"
-		text								= "#444"
-		text_inv						= "white"
-		title_h1							= "black"
-		title_h2							= "black"
-		title_h3							= "black"
-		title_h4							= "black"
-		time								= "#aaa"
-		blockquote						= "#00A3E0"		
-		darkgray						= "#222"
-		lightgray						= "#eee"
-		midgray							= "#888"
-		blue									= "#00A3E0"
-		orange							= "#FF8200"
+		link_hover				  	= "#FF8200"
+		text				    		= "#444"
+		text_inv		    		= "white"
+		title_h1				  		= "black"
+		title_h2			  			= "black"
+		title_h3		  				= "black"
+		title_h4			  			= "black"
+		time			  	  		= "#aaa"
+		blockquote				  	= "#00A3E0"		
+		darkgray			  		= "#222"
+		lightgray		  			= "#eee"
+		midgray		  				= "#888"
+		blue			    				= "#00A3E0"
+		orange			  			= "#FF8200"
 				
 	# ---------------------
 	# Layout
 	[params.layout]
 		[params.layout.navigation]
-			height						= "52px"
+			height					  = "52px"
 		[params.layout.page]
 			[params.layout.page.padding]
-				top							= "52px"
-				right						= "0"
-				bottom					= "0"
-				left							= "0"			
+				top					    = "52px"
+				right				    = "0"
+				bottom				  = "0"
+				left					    = "0"			
 		[params.layout.module]
-			height						= "36vw"
+			height					  = "36vw"
 			height_big				= "56vw"
-			height_ts					= "140vw" # ts is for tall small screens on smartphones
+			height_ts				  = "140vw" # ts is for tall small screens on smartphones
 			[params.layout.module.padding]
-				top							= "0.5vw"
-				right						= "0.5vw"
-				bottom					= "0.5vw"
-				left							= "0.5vw"
+				top					    = "0.5vw"
+				right				    = "0.5vw"
+				bottom		    	= "0.5vw"
+				left					    = "0.5vw"
 			[params.layout.module.padding_ts]
-				top							= "1vw"
-				right						= "0"
-				bottom					= "1vw"
-				left							= "0"
+				top					    = "1vw"
+				right				    = "0"
+				bottom		    	= "1vw"
+				left					    = "0"
 
 	# ---------------------
 	# Layout
 	[params.navigation]
-		brand 							= "Ideas on Stage"
-		brand_logo						= "/img/ideas-on-stage.svg"
-		brand_ball						= "/img/ideas-on-stage-ball.svg"
+		brand 						  = "Ideas on Stage"
+		brand_logo				  	= "/img/ideas-on-stage.svg"
+		brand_ball				  	= "/img/ideas-on-stage-ball.svg"
 		languageicon					= "/img/globe.svg"
-		languageiconhover 		= "/img/globe_hover.svg"
+		languageiconhover 	  = "/img/globe_hover.svg"
 
 	# ---------------------
 	[params.organization]
-		logo									= "/img/ideas-on-stage.svg"
-		name								= "Ideas on Stage"
-		sameas							= [ "https://www.linkedin.com/company/ideas-on-stage/", "https://www.youtube.com/user/IdeasOnStage", "https://twitter.com/ideasonstage", "https://www.pierremorsa.com/ideas-on-stage/" ]
+		logo					    		= "/img/ideas-on-stage.svg"
+		name		    				= "Ideas on Stage"
+		sameas			  			= [ "https://www.linkedin.com/company/ideas-on-stage/", "https://www.youtube.com/user/IdeasOnStage", "https://twitter.com/ideasonstage", "https://www.pierremorsa.com/ideas-on-stage/" ]
 	    
   # ---------------------	
 	# Social items for footer or other elements
 	[params.social]
 		[params.social.items]
 			[params.social.items.001]
-			   icon 					= "facebook"
-			   url							= "https://www.facebook.com/ideasonstage"
+			   icon 			  	= "facebook"
+			   url			    		= "https://www.facebook.com/ideasonstage"
 			[params.social.items.002]
-			   icon 					= "linkedin"
-			   url							= "https://www.linkedin.com/company/ideas-on-stage/"
+			   icon 				  = "linkedin"
+			   url					    = "https://www.linkedin.com/company/ideas-on-stage/"
 			[params.social.items.003]
-			   icon 					= "youtube"
-			   url							= "https://www.youtube.com/user/IdeasOnStage/"
+			   icon 			  	= "youtube"
+			   url			    		= "https://www.youtube.com/user/IdeasOnStage/"
 
 
 
@@ -126,57 +126,57 @@ title         						= "Ideas on Stage"
 [languages.en]
 	languageName						= "English"
 	languageCode 					= "en"
-	weight								= "1"
+	weight  							= "1"
 
 	[languages.en.params]
-		country							= "USA"
-		googleAnalytics			= "UA-30695118-1"
-		rights							= "All Rights Reserved"
-		cookies							= "We fully respect your privacy. We don't use cookies or scripts to track you."
-		footer_desc					= "Ideas on Stage – SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 – N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
-		tableofcontents			= "Table of Contents"
+		country  						= "USA"
+		googleAnalytics  	  = "UA-30695118-1"
+		rights  						= "All Rights Reserved"
+		cookies	  					= "We fully respect your privacy. We don't use cookies or scripts to track you."
+		footer_desc  				= "Ideas on Stage – SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 – N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
+		tableofcontents  		= "Table of Contents"
 	
 		# -------------------
 		# Buttons
 		[languages.en.params.buttons]
-			default						= "Learn More"
-			next							= "Older"
-			previous					= "Newer"
-			back							= "Back"
+			default  					= "Learn More"
+			next    					= "Older"
+			previous  				= "Newer"
+			back    					= "Back"
 					
 		# -------------------		
 		# Contact
 		[languages.en.params.contact]
-	    enable						 	= true
-			title 							= "Contact us"
-			subtitle  					= "Any questions? Use the form below and we'll get back to you shortly"
+	    enable					 	  = true
+			title 					    = "Contact us"
+			subtitle  				  = "Any questions? Use the form below and we'll get back to you shortly"
 			buttonText				= "Send message"
-			wait							= "Please Wait..."
-			success 					= "Thank you, we'll get back to you shortly."
-			recaptchasitekey	= "6LdPO_4UAAAAAOkPGjWhZSJaqJKKR4XOrf8Xyfs0"
-			missingcaptcha 		=" Please Enter CAPTCHA Code.\n"
+			wait					    = "Please Wait..."
+			success 				  = "Thank you, we'll get back to you shortly."
+			recaptchasitekey  = "6LdPO_4UAAAAAOkPGjWhZSJaqJKKR4XOrf8Xyfs0"
+			missingcaptcha 	  =" Please Enter CAPTCHA Code.\n"
 			wrongcaptcha 			= "The CAPTCHA Code Does Not Match.\n"
 			
 			# 'warning' defines error messages for invalid inputs
 			[languages.en.params.contact.form.name]
-				text 						= "Your Name *"
-				warning 				= "Please enter your name."
+				text 				    = "Your Name *"
+				warning 			  = "Please enter your name."
 	
 			[languages.en.params.contact.form.email]
-				text 						= "Your Email *"
-				warning 				= "Please enter a valid email address."
+				text 				    = "Your Email *"
+				warning 			  = "Please enter a valid email address."
 	
 			[languages.en.params.contact.form.phone]
-				text 						= "Your Phone (optional)"
-				warning 				= "Please enter a valid phone number."
+				text 				    = "Your Phone (optional)"
+				warning 			  = "Please enter a valid phone number."
 	
 			[languages.en.params.contact.form.country]
-				text						= "Your country of residence (optional)"
-				warning 				= "Please enter your country of residence."
+				text				    = "Your country of residence (optional)"
+				warning 		  	= "Please enter your country of residence."
 	
 			[languages.en.params.contact.form.message]
-				text 						= "Let us know how we can help you *"
-				warning 				= "Please enter a message."
+				text 		    		= "Let us know how we can help you *"
+				warning 	  		= "Please enter a message."
 			
 		# -------------------
 		# Events list
