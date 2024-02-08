@@ -1479,12 +1479,14 @@
 	.margin-large 		{ margin: 60px;	    		}
 	.margin-medium 	{ margin: 40px;	    		}
 	.margin-small 		{ margin: 20px;		    	}
-	.margin-tiny 		{ margin: {{ site.Params.layout.module.padding.top }}		}
+	.margin-tiny 		{ margin: {{ site.Params.layout.module.padding.top }};		}
 	.margin-none 		{ margin: 0px;		    	}
 
-    @media (max-aspect-ratio:1/1) and (max-width:480px) {
-        .margin-tiny 		{ margin: {{ site.Params.layout.module.padding_ts.top }}		
+  @media (max-aspect-ratio:1/1) and (max-width:480px) {
+    .margin-tiny 	{
+      margin: {{ site.Params.layout.module.padding_ts.top }};
     }
+  }
 
 	.margint-huge 	{ margin-top: 80px;	  	} 
 	.margint-large		{ margin-top: 60px;	  	} 
