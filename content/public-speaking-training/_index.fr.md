@@ -37,8 +37,10 @@ Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise e
 
 {{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
 	{{< icon-item icon="logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
-	{{< icon-item icon="logo-qualiopi.png" size="25p" description="Certifié Qualiopi" style="border spacing" >}}
+	{{< icon-item icon="logo-qualiopi.png" size="25p" description="Certifié Qualiopi" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
 {{< /icon-list >}}
+
+[Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)
 
 {{< icon-list title="Nos références" >}}
 	{{< icon-item icon="/img/logos/disney-logo.png" size= "16p" style="border spacing" >}}
