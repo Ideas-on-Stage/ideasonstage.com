@@ -42,6 +42,8 @@ Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise e
 
 [Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)
 
+[Vous pouvez également consulter le certificat délivré par l'organisme de certification Alticert en cliquant ici.](/files/certificat-qualiopi-alticert.pdf)
+
 {{< icon-list title="Nos références" >}}
 	{{< icon-item icon="/img/logos/disney-logo.png" size= "16p" style="border spacing" >}}
 	{{< icon-item icon="/img/logos/salesforce-logo.png" size="16p" style="border spacing" >}}
