@@ -94,9 +94,9 @@ Maegan Stephens and I are both on social media platforms like LinkedIn, Facebook
 
 [YouTube](https://youtu.be/kx5VshCon0I)
 
-[Apple Podcasts](https://podcasts.apple.com/us/podcast/ideas-on-stage-podcast/id1506050111)
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/56-nicole-lowenbraun-on-adaptive-listening-the-ideas/id1506050111?i=1000645292430)
 
-[Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/MTU0Y2Q3MzMtMmE5Mi00MWI5LTgyMjktMTI2NWMzOGQ1Njdk?sa=X&ved=0CAUQkfYCahcKEwiw-7Cz1qqEAxUAAAAAHQAAAAAQAQ)
+[](https://podcasts.apple.com/us/podcast/56-nicole-lowenbraun-on-adaptive-listening-the-ideas/id1506050111?i=1000645292430)[Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/MTU0Y2Q3MzMtMmE5Mi00MWI5LTgyMjktMTI2NWMzOGQ1Njdk?sa=X&ved=0CAUQkfYCahcKEwiw-7Cz1qqEAxUAAAAAHQAAAAAQAQ)
 
 [Spotify](https://open.spotify.com/episode/72xdr7gHXn7UTR1Yzl4mee)
 
