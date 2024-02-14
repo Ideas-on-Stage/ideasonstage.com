@@ -11,31 +11,23 @@ banner = "/img/news/copy_of_template_for_youtube_thumbnail.jpg"
 
 In this episode of the Ideas on Stage podcast we spoke with Nicole Lowenbraun.
 
-
-
 Nicole offers a unique perspective on why what you say and how you say it matters, because she’s equal parts speech-language pathologist and business communication expert. Nicole has coached and written for thousands of clients, most of whom top the Fortune 100, with a focus on helping clients find their most authentic and powerful voice.
 
- 
+
 
 After decades of helping others master their expressive communication skills, Nicole realized the business community (herself, included) was widely neglecting the receptive side of communication – listening. She’s now committed to teaching the world the value of improving both sides of the communication equation and continues to nurture her own skills as a writer, speaker, and listener.
 
- 
+
 
 With a Master’s in Communication Disorders, Nicole is passionate about fostering more inclusive communication in the workplace, especially with neurodiverse populations. Nicole believes that acceptance of communication differences and a commitment to constant progress is the key to a happier future of work, regardless of industry, role, or experience.
 
- 
+
 
 Nicole lives in Brooklyn with her plants and is a proud “pizza bagel”: half Italian-Catholic, half Polish-Jewish. She puts the Star of David on top of her Christmas tree.
 
-
-
 In this episode we talked about how to improve our listening skills. 
 
-
-
 **Transcript**
-
-
 
 **Can you share how your background influences how you communicate and listen?**
 
@@ -102,15 +94,9 @@ Maegan Stephens and I are both on social media platforms like LinkedIn, Facebook
 
 [YouTube](https://youtu.be/kx5VshCon0I)
 
-
-
 [Apple Podcasts](https://podcasts.apple.com/us/podcast/ideas-on-stage-podcast/id1506050111)
 
-
-
 [Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/MTU0Y2Q3MzMtMmE5Mi00MWI5LTgyMjktMTI2NWMzOGQ1Njdk?sa=X&ved=0CAUQkfYCahcKEwiw-7Cz1qqEAxUAAAAAHQAAAAAQAQ)
-
-
 
 [Spotify](https://open.spotify.com/episode/72xdr7gHXn7UTR1Yzl4mee)
 
