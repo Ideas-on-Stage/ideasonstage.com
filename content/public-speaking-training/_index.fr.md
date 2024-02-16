@@ -147,3 +147,8 @@ Les méthodes et techniques que nous enseignons sont celles que nous utilisons c
 {{< picture1-text2 picture="/img/inserts/presentation-training-12.jpg" title="Un changement dans la durée" >}}
 Notre approche changera votre façon de présenter de manière durable. Nos formations sont remplies d’exercices et de mises en situation. Nous donnons un guide détaillé à chaque participant, qu’il pourra utiliser pour l’aider lors de la préparation de ses présentations. Et nous pouvons compléter la formation avec du coaching individualisé dans les semaines suivant la formation.
 {{< /picture1-text2 >}}
+
+{{< text2-picture1 picture="accessibilite.jpg" title="Accueil des personnes en situation de handicap" >}}
+N'hésitez pas à nous dire si vous avez des personnes nécessitant un aménagement de la formation, que ce soit pour des raisons d'accessibilité ou autre. Nous mettrons tout en œuvre pour rendre nos formations accessibles au plus grand nombre. [Vous pouvez consulter notre page pour en savoir plus sur notre référent handicap.](/fr/formations-prise-de-parole-en-public/handicap/)
+{{< /text2-picture1 >}}
+
