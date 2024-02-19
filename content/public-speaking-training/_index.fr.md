@@ -103,6 +103,7 @@ Le module art oratoire couvre toutes les techniques de communication verbale et 
 {{< image-wide src="/img/image-wide/presenter-001.jpg" alt="Intervenant en train de réaliser une présentation" >}}
 
 {{< agenda-list style="bg-lightgray" title="Objectifs pédagogiques art oratoire">}}
+	{{< agenda-item title="PRÉREQUIS" description="Pas de prérequis." >}}
 	{{< agenda-item title="PRÉPARATION" description="Importance de la préparation dans la réussite de la prise de parole. Revue des techniques essentielles de préparation du fond." >}}
 	{{< agenda-item title="POSTURE" description="Travailler sa posture corporelle et son ancrage pour gagner en présence." >}}
 	{{< agenda-item title="RESPIRATION" description="Apprendre à gérer sa respiration pour gagner en force et calmer son stress." >}}
