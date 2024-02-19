@@ -35,6 +35,8 @@ Nous proposons plusieurs modules de formation :
 
 Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise en pratique immédiate autour d'études de cas basées sur votre cœur de métier. Ces modules sont d'une durée d'une journée. Si vous le souhaitez, nous pouvons les combiner en une formation de deux ou trois jours.
 
+Nos formations sont données uniquement en intra-entreprises.
+
 {{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
 	{{< icon-item icon="logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
 	{{< icon-item icon="logo-qualiopi.png" size="25p" description="Certifié Qualiopi" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
