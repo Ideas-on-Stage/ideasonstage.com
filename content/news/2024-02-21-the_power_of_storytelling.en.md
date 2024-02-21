@@ -1,6 +1,6 @@
 +++
-draft = "true"
-title = "The Power of Storytelling"
+draft = false
+title = "The Power of Storytelling "
 tags = ["Building Brand Loyalty and Customer Connection"]
 news = ["general"]
 date = ""
