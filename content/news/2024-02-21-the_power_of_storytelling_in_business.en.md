@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "The Power of Storytelling in Business"
-tags = ["Building Brand Loyalty and Customer Connection"]
+tags = ["Business"]
 news = ["general"]
 date = ""
 author = "Joe Ross"
