@@ -5,7 +5,7 @@ tags = ["Event"]
 news = ["general"]
 date = "2024-02-28"
 author = "Michael Rickwood"
-banner = "/img/news/michael_vivatechnology.png"
+banner = "/img/news/istock-1535525091.jpg"
 +++
 Often at Ideas on Stage, we work with leaders, experts, inspirers, and entrepreneurs to spread their message both Inside and outside of their organizations to drive forward transformation and inspiration. 
 
