@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "3 tips to becoming an awesome event host"
+title = "3 Tips to Becoming an Awesome Event Host"
 tags = ["Events Coaching"]
 news = ["general"]
 date = "2024-02-28"
