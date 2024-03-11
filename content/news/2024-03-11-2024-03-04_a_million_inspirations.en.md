@@ -1,6 +1,6 @@
 +++
 draft = "true"
-title = "2024-03-04 A Million Inspirations"
+title = "A Million Inspirations"
 tags = ["TedX"]
 news = ["general"]
 date = "2024-03-11"
