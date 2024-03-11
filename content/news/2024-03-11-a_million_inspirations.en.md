@@ -111,6 +111,8 @@ It’s a good mantra. And I still haven’t succeeded in ridding the world of ba
 
 But they say that the aim of a leader is not to produce followers, but to produce more leaders. So my hope is that some of the million viewers of this talk will not only use it to deliver better presentations, but also inspire others to transform their own presentations, and then together we can truly make a difference.
 
-
-
 https://www.ted.com/talks/phil_waknell_the_3_magic_ingredients_of_amazing_presentations
+
+![Photo of Phil by Lionel Faucher shared under CC license](/img/news/uly_1bie.jpeg)
+
+{{< youtube https://www.ted.com/talks/phil_waknell_the_3_magic_ingredients_of_amazing_presentations >}}
