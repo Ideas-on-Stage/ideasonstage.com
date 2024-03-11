@@ -5,11 +5,9 @@ tags = ["TedX"]
 news = ["general"]
 date = "2024-03-11"
 author = "Phil Waknell"
-banner = "https://www.ted.com/talks/phil_waknell_the_3_magic_ingredients_of_amazing_presentations?hasProgress=true"
+banner = "/img/news/ykie6lqq.jpeg"
 +++
 Photo of Phil by Lionel Faucher shared under CC license
-
-
 
 Four years ago, my talk at TEDxSaclay, The 3 Magic Ingredients of Amazing Presentations, was published on YouTube and then on TED.com. It’s now been viewed by a million people, which seems significant, until you think that any kind of cheap TV game show in a medium-sized country will reach more than that in a minute. It took me four years.
 
@@ -83,8 +81,6 @@ I feel sorry that this person saw the talk too late – but I hope they didn’t
 
 Not sure whether to laugh or cry. Perhaps both statements are true!
 
- 
-
 **And finally, the gold.**
 
 The gold is not just people saying the talk is fantastic or they love the Audience Transformation Roadmap (or my suit). The gold is feedback from people who have actually used it, or even better, shared it.
@@ -116,3 +112,7 @@ And of course, you can share it with friends too. A successful TED(x) talk is on
 It’s a good mantra. And I still haven’t succeeded in ridding the world of bad presentations, despite hitting a million views on this talk, writing a bestselling book, training thousands of professionals and entrepreneurs, and working on customer presentations and teaching at business schools for 14 years now.
 
 But they say that the aim of a leader is not to produce followers, but to produce more leaders. So my hope is that some of the million viewers of this talk will not only use it to deliver better presentations, but also inspire others to transform their own presentations, and then together we can truly make a difference.
+
+
+
+https://www.ted.com/talks/phil_waknell_the_3_magic_ingredients_of_amazing_presentations?hasProgress=true
