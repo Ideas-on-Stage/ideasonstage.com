@@ -7,7 +7,7 @@ date = "2024-03-11"
 author = "Phil Waknell"
 banner = "/img/news/ykie6lqq.jpeg"
 +++
-Four years ago, my talk at TEDxSaclay, The 3 Magic Ingredients of Amazing Presentations, was published on YouTube and then on TED.com. It’s now been viewed by a million people, which seems significant, until you think that any kind of cheap TV game show in a medium-sized country will reach more than that in a minute. It took me four years.
+Four years ago, my talk at TEDxSaclay, The 3 Magic Ingredients of Amazing Presentations, was published on YouTube and then on TED.com. It’s now been viewed by a million people, which seems significant, until you think that any kind of cheap TV game show in a medium-sized country will reach more than that in a minute. It took me four years.Four years ago, my talk at TEDxSaclay, The 3 Magic Ingredients of Amazing Presentations, was published on YouTube and then on TED.com. It’s now been viewed by a million people, which seems significant, until you think that any kind of cheap TV game show in a medium-sized country will reach more than that in a minute. It took me four years.
 
 But then I also happened to look back this weekend on some excellent talks by well-known speakers from four or more years ago. How many views? Just a few hundred. So maybe a million isn’t such a small achievement.
 
@@ -113,8 +113,8 @@ But they say that the aim of a leader is not to produce followers, but to produc
 
 https://www.ted.com/talks/phil_waknell_the_3_magic_ingredients_of_amazing_presentations
 
-![Photo of Phil by Lionel Faucher shared under CC license](/img/news/uly_1bie.jpeg)
-
-
+![]()
 
 {{< youtube https://www.youtube.com/watch?v=mm-hLBcEJt8 >}}
+
+{{< youtube undefined >}}
