@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "A Million Inspirations"
 tags = ["TedX"]
 news = ["general"]
