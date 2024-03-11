@@ -115,4 +115,6 @@ https://www.ted.com/talks/phil_waknell_the_3_magic_ingredients_of_amazing_presen
 
 ![Photo of Phil by Lionel Faucher shared under CC license](/img/news/uly_1bie.jpeg)
 
-{{< youtube https://www.ted.com/talks/phil_waknell_the_3_magic_ingredients_of_amazing_presentations >}}
+{{< youtube https://www.ted.com/talks/phil_wa
+
+{{< youtube https://www.youtube.com/watch?v=mm-hLBcEJt8 >}}
