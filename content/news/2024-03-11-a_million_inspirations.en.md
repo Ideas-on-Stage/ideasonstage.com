@@ -43,11 +43,11 @@ Yes, keeping people’s attention should be a primary objective of any presentat
 
  **But then, the bad.**
 
-I got bored and had a hard time paying attention.
+*I got bored and had a hard time paying attention.*
 
 You can’t please everyone – that’s the first rule of presenting. Of course I’d love it if everyone felt I were their hero, but that’s just not possible. Everyone is entitled to their opinion, and given that young people are now used to TikTok and Instagram reels, this is frankly a long talk to pay attention to, but I wanted to share the ATR and this was the fastest and least boring way I found to do so.
 
-This video is a bit long to show to teenagers, but the ideas inside of it are SUPER potent. The ATR is a magical tool. Thanks for sharing!    
+*This video is a bit long to show to teenagers, but the ideas inside of it are SUPER potent. The ATR is a magical tool. Thanks for sharing!*    
 
 Not really a negative comment, but it does make the point that 14 minutes can be long for teenagers nowadays. As it happens, I rehearsed this talk for 12 minutes, and I didn’t actually say more than I had planned – I just spoke more slowly on stage, because the technical team failed to start the countdown timer, meaning I had no idea whether I was on schedule or not. I wasn’t. But I have also had feedback from non-native speakers of English who are grateful I spoke that slowly. Anyhow, even 12 minutes would be too long for many teenagers. Who’d be a schoolteacher?
 
@@ -110,3 +110,7 @@ And of course, you can share it with friends too. A successful TED(x) talk is on
 It’s a good mantra. And I still haven’t succeeded in ridding the world of bad presentations, despite hitting a million views on this talk, writing a bestselling book, training thousands of professionals and entrepreneurs, and working on customer presentations and teaching at business schools for 14 years now.
 
 But they say that the aim of a leader is not to produce followers, but to produce more leaders. So my hope is that some of the million viewers of this talk will not only use it to deliver better presentations, but also inspire others to transform their own presentations, and then together we can truly make a difference.
+
+
+
+https://www.ted.com/talks/phil_waknell_the_3_magic_ingredients_of_amazing_presentations
