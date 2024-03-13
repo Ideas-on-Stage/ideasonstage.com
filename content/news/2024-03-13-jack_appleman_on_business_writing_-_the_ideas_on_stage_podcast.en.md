@@ -67,11 +67,10 @@ Start with something positive or something they've done well to show you're on t
 
 Yes, speaking one-on-one with your reader is key. Even if your audience is broad, personalising your message as if speaking to an individual makes it more engaging. This approach helps the reader connect with your message on a personal level, making it more impactful.
 
-**Books recommended by Nicole:** 
+**Books recommended by Jack:** 
 
-\* Leading in English by D. Vincent Varallo, Joerg Schmitz, Stephan M. Mardyks 
-
-\* Smart Brevity by Roy Schwartz, Mike Allen, Jim VandeHei 
+* Leading in English by D. Vincent Varallo, Joerg Schmitz, Stephan M. Mardyks 
+* Smart Brevity by Roy Schwartz, Mike Allen, Jim VandeHei 
 
 **Available on:** 
 
