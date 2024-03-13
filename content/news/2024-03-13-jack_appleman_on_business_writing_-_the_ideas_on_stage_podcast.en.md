@@ -9,7 +9,7 @@ banner = "/img/news/1.jpg"
 +++
 ![Andrea Pacini and Jack Appleman](/img/news/1.jpg "Andrea and Jack")
 
-In this episode of the Ideas on Stage podcast I spoke with Jack Appleman. 
+In this episode of the Ideas on Stage podcast we spoke with Jack Appleman. 
 
 Jack Appleman, prominent business writing coach, professor and author of 10 Steps to Successful Business Writing—2nd edition (2018, ATD Press), is driven by the belief that working professionals can dramatically improve their writing by following straightforward techniques. His writing training for organizations including Bayer, Wells Fargo and HBO have helped thousands of individuals achieve better results from their writing.
 
