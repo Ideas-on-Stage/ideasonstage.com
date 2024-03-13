@@ -11,19 +11,11 @@ banner = "/img/news/1.jpg"
 
 In this episode of the Ideas on Stage podcast I spoke with Jack Appleman. 
 
-
-
 Jack Appleman, prominent business writing coach, professor and author of 10 Steps to Successful Business Writing—2nd edition (2018, ATD Press), is driven by the belief that working professionals can dramatically improve their writing by following straightforward techniques. His writing training for organizations including Bayer, Wells Fargo and HBO have helped thousands of individuals achieve better results from their writing.
-
- 
 
 As president of Successful Business Writing, Jack has been a frequent speaker and has published many articles on the importance of good writing and communication. A professor for more than 20 years, he teaches Business Communications at New York University. Jack is also a doctoral candidate at the State University of New York at Albany, exploring the link between employee-manager communication and workplace engagement in pursuit of his Ph.D. in Organizational Communication.
 
-
-
 In this episode we talked about persuasive business writing. 
-
-
 
 **Transcript**
 
@@ -74,8 +66,6 @@ Start with something positive or something they've done well to show you're on t
 **You recommend that we write in a way that feels like we're talking to just one person.**
 
 Yes, speaking one-on-one with your reader is key. Even if your audience is broad, personalising your message as if speaking to an individual makes it more engaging. This approach helps the reader connect with your message on a personal level, making it more impactful.
-
-
 
 **Books recommended by Nicole:** 
 
