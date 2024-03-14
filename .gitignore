@@ -4,11 +4,12 @@ data/testimonials/09 -François-Marchessaux.yaml
 data/testimonials/09 -François-Marchessaux.it (Conflicto de codificación Unicode).yaml
 static/pictures/testimonials/.DS_Store
 static/.DS_Store
-.DS_Store
+*.DS_Store
 public/fr/tags/événement (Conflicto de codificación Unicode) (Conflicto de codificación Unicode)/index.html
 public/fr/tags/événement (Conflicto de codificación Unicode) (Conflicto de codificación Unicode) (Conflicto de codificación Unicode)/index.html
 layouts/partials/.DS_Store
 layouts/partials/.DS_Store
+isableFastRender/*
 resources/_gen/assets/scss/main.scss_79503773dd9d67198b9f1859d1247792.content
 isableFastRenger/it/ultimate-tedx-speaker-guide/tedx-wbg.jpg
 isableFastRenger/it/ultimate-tedx-speaker-guide/tedx-tours-rehearsal.jpg
