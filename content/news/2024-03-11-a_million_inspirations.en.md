@@ -7,7 +7,9 @@ date = "2024-03-11"
 author = "Phil Waknell"
 banner = "/img/news/ykie6lqq.jpeg"
 +++
-Four years ago, my talk at TEDxSaclay, The 3 Magic Ingredients of Amazing Presentations, was published on YouTube and then on TED.com. It’s now been viewed by a million people, which seems significant, until you think that any kind of cheap TV game show in a medium-sized country will reach more than that in a minute. It took me four years.Four years ago, my talk at TEDxSaclay, The 3 Magic Ingredients of Amazing Presentations, was published on YouTube and then on TED.com. It’s now been viewed by a million people, which seems significant, until you think that any kind of cheap TV game show in a medium-sized country will reach more than that in a minute. It took me four years.
+![](/img/news/ykie6lqq.jpeg)
+
+Four years ago, my talk at TEDxSaclay, The 3 Magic Ingredients of Amazing Presentations, was published on YouTube and then on TED.com. It’s now been viewed by a million people, which seems significant, until you think that any kind of cheap TV game show in a medium-sized country will reach more than that in a minute. It took me four years.
 
 But then I also happened to look back this weekend on some excellent talks by well-known speakers from four or more years ago. How many views? Just a few hundred. So maybe a million isn’t such a small achievement.
 
