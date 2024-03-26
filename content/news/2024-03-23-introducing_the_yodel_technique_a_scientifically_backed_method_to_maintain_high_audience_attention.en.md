@@ -3,7 +3,7 @@ draft = true
 title = "Introducing the YODEL Technique™: A Scientifically Backed Method to Maintain High Audience Attention"
 tags = ["Public Speaking"]
 news = ["general"]
-date = "2024-03-25"
+date = "2024-03-26"
 author = "Phil Waknell, Andrea Pacini"
 banner = "/img/news/169_yodel.png"
 +++
