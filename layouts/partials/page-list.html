@@ -1,9 +1,19 @@
 {{ "<!-- partials:page-list.html:start -->" | safeHTML }}
 <section id="content-list">
 {{- if ne true .Params.hidepagelist }}
-{{- range .Pages }}
-	{{- partial "inserts/link-picture2-text1.html" . }}
-{{- end }}
+  {{- if ne true .Params.simplelist }}
+    {{- range .Pages }}
+    	{{- partial "inserts/link-picture2-text1.html" . }}
+    {{- end }}
+  {{ else }}
+    <div class="layout-content">
+      {{- range .Pages }}
+        <p>
+          {{ partial "e/link-title-description.html" . }}
+        </p>
+      {{- end }}
+    </div>
+  {{ end }}
 {{- end }}
 </section>
 {{ "<!-- partials:page-list.html:end -->" | safeHTML }}

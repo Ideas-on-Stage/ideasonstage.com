@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="Artboard1" x="0" y="0" width="1920" height="1080" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect id="Artboard11" serif:id="Artboard1" x="0" y="0" width="1920" height="1080"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <g transform="matrix(1.02128,0,0,1.03846,-20.4255,-20.7692)">
+            <path d="M1900,43.169C1900,30.382 1889.44,20 1876.44,20L43.559,20C30.557,20 20,30.382 20,43.169L20,1036.83C20,1049.62 30.557,1060 43.559,1060L1876.44,1060C1889.44,1060 1900,1049.62 1900,1036.83L1900,43.169ZM1898.53,43.169L1898.53,1036.83C1898.53,1048.82 1888.63,1058.56 1876.44,1058.56C1876.44,1058.56 43.559,1058.56 43.559,1058.56C31.367,1058.56 21.469,1048.82 21.469,1036.83L21.469,43.169C21.469,31.179 31.367,21.444 43.559,21.444L1876.44,21.444C1888.63,21.444 1898.53,31.179 1898.53,43.169Z" style="fill:rgb(117,117,117);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-80,0)">
+            <g transform="matrix(1,0,0,1.04545,-120,-44.5455)">
+                <path d="M600,100L600,980L600,100Z" style="fill:rgb(117,117,117);"/>
+                <g transform="matrix(1,-0,-0,0.956522,200,42.6087)">
+                    <path d="M409,78L400,60L391,78C395.5,73.5 404.5,73.5 409,78Z" style="fill:rgb(117,117,117);"/>
+                    <path d="M400,74.4L400,980L400,60" style="fill:none;stroke:rgb(117,117,117);stroke-width:2px;"/>
+                </g>
+            </g>
+            <g transform="matrix(1.77865e-16,2.90476,-1.38636,8.48903e-17,1838.64,-762.857)">
+                <path d="M600,100L600,980L600,100Z" style="fill:rgb(117,117,117);"/>
+                <g transform="matrix(2.108e-17,-0.721311,0.344262,4.41676e-17,262.623,1268.52)">
+                    <path d="M1602,989L1620,980L1602,971C1606.5,975.5 1606.5,984.5 1602,989Z" style="fill:rgb(117,117,117);"/>
+                    <path d="M1605.6,980L400,980L1620,980" style="fill:none;stroke:rgb(117,117,117);stroke-width:2px;"/>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1.38636,0,0,1.02273,-320.909,-11.7045)">
+            <path d="M520,695.889C520,695.889 552.182,706.594 577.705,754.556C606.501,808.669 668.427,901.222 772.459,901.222C822.391,901.222 946.227,882.582 1026.26,695.889L520,695.889Z" style="fill:rgb(18,145,216);fill-opacity:0.21;"/>
+        </g>
+        <g transform="matrix(1.00044,-2.41489e-18,-2.41489e-18,0.985746,-0.174235,9.97787)">
+            <path d="M400,700L1101.55,700" style="fill:none;stroke:rgb(18,145,216);stroke-width:3.02px;stroke-dasharray:9.06,6.04,0,0;"/>
+        </g>
+        <g transform="matrix(1.38636,0,0,1.02273,-320.909,-11.7045)">
+            <path d="M520,695.889C520,695.889 552.182,706.594 577.705,754.556C606.501,808.669 668.427,901.222 772.459,901.222C836.158,901.222 1020.13,870.886 1080,500C1115.34,281.054 1331.43,164.822 1400,130" style="fill:none;stroke:rgb(252,109,8);stroke-width:2.46px;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,126.944,-64.48)">
+            <text x="90px" y="180px" style="font-family:'iAWriterQuattroS-Regular', 'iA Writer Quattro S';font-size:48px;">Quality</text>
+        </g>
+        <g transform="matrix(1,0,0,1,980.848,860)">
+            <text x="90px" y="180px" style="font-family:'iAWriterQuattroS-Regular', 'iA Writer Quattro S';font-size:48px;">Number of rehearsals</text>
+        </g>
+        <g transform="matrix(1,0,0,1,106.425,204.54)">
+            <text x="619.267px" y="584.362px" style="font-family:'iAWriterQuattroS-Regular', 'iA Writer Quattro S';font-size:48px;">Dip</text>
+        </g>
+    </g>
+</svg>
