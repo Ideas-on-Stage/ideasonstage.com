@@ -9,7 +9,7 @@ banner = "/img/news/matt_event.jpeg"
 +++
 ![Andrea, Phil and Matt Abrahams](/img/news/matt_event.jpeg "Andrea, Phil and Matt")
 
-We recently hosted a special event with **Matt Abraham**s, a well-known Stanford lecturer and the author of ‘**Think Faster, Talk Smarter**,’ as our special guest. The focus was on spontaneous speaking, an essential skill for effective communication today. Over 180 people signed up for the event, getting a chance to ask Matt their questions directly.
+We recently hosted a special event with **Matt Abrahams**, a well-known Stanford lecturer and the author of ‘**Think Faster, Talk Smarter**,’ as our special guest. The focus was on spontaneous speaking, an essential skill for effective communication today. Over 180 people signed up for the event, getting a chance to ask Matt their questions directly.
 
 Here's a quick overview of the main topics we covered during our chat.
 
