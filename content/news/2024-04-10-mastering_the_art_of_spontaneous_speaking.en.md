@@ -65,10 +65,10 @@ Focus on getting your message across rather than sounding perfect. Using repetit
 
 Yes, listening is crucial. Paying close attention to what's being said helps you respond more effectively. Don’t just wait for your turn to speak but really understand the conversation.
 
-If you're interested in getting more insights from Matt Abrahams on improving your spontaneous speaking skills, make sure to check out the event recording below. This is a great resource to help you speak more clearly and confidently on the fly.\
-\
-{{% youtube iZ70IkVXOs0 %}}\
-\
+If you're interested in getting more insights from Matt Abrahams on improving your spontaneous speaking skills, make sure to check out the event recording below. This is a great resource to help you speak more clearly and confidently on the fly.
+
+{{% youtube iZ70IkVXOs0 %}}
+
 **Want to learn more?** 
 
 * Read the [Confident Presenter](https://amzn.eu/d/bKswMEe) book and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
