@@ -71,6 +71,6 @@ If you're interested in getting more insights from Matt Abrahams on improving yo
 
 **Want to learn more?** 
 
-* Read the [Confident Presenter](https://amzn.eu/d/bKswMEe) book and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
+* Read the [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) book and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
 * To make the most of the book, take the [Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
 * Attend our free, [live masterclass](http://ideasonstageuk.eventbrite.com/) on all things presentation skills
