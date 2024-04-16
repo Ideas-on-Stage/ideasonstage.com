@@ -4,7 +4,7 @@ title = "Visuels"
 
 Objectif pédagogique : 
 
-- Apprendre comment construire une présentation PowerPOint qui applique les bons principes de communication : structure, contenu, style.
+- Apprendre comment construire une présentation PowerPoint qui applique les bons principes de communication : structure, contenu, style.
 - Ce n'est pas une formation pour apprendre à utiliser PowerPoint, mais plutôt à communiquer efficacement avec PowerPoint.
 
 Méthode et moyens : 
