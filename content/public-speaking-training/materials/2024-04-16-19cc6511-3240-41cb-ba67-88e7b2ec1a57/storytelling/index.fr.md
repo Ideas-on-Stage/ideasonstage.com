@@ -71,7 +71,7 @@ Présenter l’agenda et les objectifs de la journée.
 
 {{% include "/static/training/message.fr.md" %}}
 
-
+ 
 ## Structure
 
 Une histoire a toujours au minimum trois parties : un début, un milieu et une fin. Une bonne structure accroche l’attention et rend la présentation simple à suivre et à comprendre.

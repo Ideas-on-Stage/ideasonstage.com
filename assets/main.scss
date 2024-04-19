@@ -164,7 +164,6 @@
 	blockquote {
     margin: 0;
     padding: 1vw;
-    background: #f5f5f5;
 		color: {{ site.Params.colors.blockquote }};    
 	}
 	
@@ -309,6 +308,11 @@
 		margin-bottom: 0;
 	}
 	
+	#content-main > blockquote {
+    background: #f5f5f5;
+    border-radius: 8px;
+  } 
+  
 	/* ensures img are displayed full content width */
 	#content-main > p > img {
 		display: block;
@@ -317,10 +321,12 @@
 		width: auto;
 		height: auto;
 		max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
 	}
 	
 	#content-main table {
-		border: 1px solid #BBB;
+		border: 1px solid #ddd;
     border-collapse: collapse;
 	}
 	#content-main thead {
@@ -330,13 +336,13 @@
 		padding: 1vw;
 		width: auto;
 		min-width: 120px; /* small columns will have the same size */
-		border: 1px solid #AAA;
+		border: 1px solid #ddd;
 		text-align: center;
 	}
 	#content-main td {
 		padding: 1vw;
 		width: auto;
-		border: 1px solid #AAA;
+		border: 1px solid #ddd;
 	}
 			
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {

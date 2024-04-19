@@ -6,6 +6,8 @@ showtoc  = true
 
 ## Introduction
 
+PowerPoint est devenu tellement utilisé qu'il est devenu synonyme de présentation en entreprise. Mais notre conception d'une bonne présentation va bien plus loin.
+
 **Durée** : 7h.
 
 **Objectif pédagogique :**
@@ -32,7 +34,6 @@ showtoc  = true
 - Avoir un ordinateur portable avec PowerPoint installé.
 - Avoir un cas concret de présentation à donner, qui servira d'étude de cas lors de certains exercices pratiques.
 
-PowerPoint est devenu tellement utilisé qu'il est devenu synonyme de présentation en entreprise. Mais notre conception d'une bonne présentation va bien plus loin.
 
 ### Les trois piliers d'une bonne présentation
 
