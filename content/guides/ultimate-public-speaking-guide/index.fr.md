@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 				= "Le guide ultime de la prise de parole en public"
+title 				= "Le guide illustré de la prise de parole en public"
 description	= "Techniques d'art oratoire, gestion du stress, résolution des problèmes fréquents : comment prendre la parole en public avec aisance."
 categories	= [ "Prise de parole en public" ]
 url 					= "/fr/guide-ultime-prise-de-parole-en-public/"
@@ -23,7 +23,7 @@ Les techniques de l’art oratoire couvrent principalement la posture, la respir
 ### Posture : ancré mais pas figé
 La posture est le premier élément d’une prise de parole réussie. Une posture confiante et stable, volontaire mais non tendue, renforcera votre présence sur scène, et projettera une image positive. À l’inverse, une posture fermée, faible, avec des mouvements parasites projettera une image de manque de confiance en soi qui ne pourra qu’impacter négativement votre discours. Nous allons voir ensemble comment adopter une bonne posture. 
 
-![Posture pour la prise de parole](posture.jpg)
+![Posture pour la prise de parole](appuis.fr.svg)
 
 Tout part des pieds. Ceux-ci doivent être posés bien à plat, bien « ancrés dans le sol », écartés d’environ la largeur du bassin. Dans cette position, ils doivent vous permettre d’être complètement stable, même si vous étiez légèrement poussé.
 
@@ -33,16 +33,22 @@ Les hanches, le buste et les épaules sont bien droits, alignés au-dessus des p
 
 La tête est droite, comme si un fil tirait le sommet du crâne vers le haut. Le plus important est d’avoir un bon alignement buste - cou - tête, car cela facilite la respiration.
 
+![Posture](posture.jpg)
+
 Pour maîtriser la posture, commencez par la pose des pieds à plat, puis remontez : les jambes, les hanches, le buste, les épaules et enfin la tête. Prenez le temps d’adopter cette pose et de bien la ressentir pendant quelques minutes. Gardez les bras simplement le long du corps, relâchés. Quittez la posture, relaxez-vous, déplacez-vous un peu et recommencez jusqu’à ce que la prise de la posture devienne naturelle.
+
+Évitez d'écarter trop les pieds pour ne pas prendre la posture du « cowboy ».
 
 Si vous faites partie de ces personnes qui bougent sans arrêt sur scène, que ce soit sur place ou de gauche à droite, nous vous donnerons un truc dans la section « résoudre les problèmes courants liés à la prise de parole ».
 
 ### Respiration
 Une respiration calme, posée et profonde donnera de l’énergie à la voix. Avec de la pratique, elle vous aidera également à gérer votre stress.
 
+![Respiration](breathing.jpg)
+
 La respiration est connectée à la posture pour une raison mécanique toute simple : il est plus facile de respirer lorsqu’on se tient bien droit que lorsqu’on est courbé. L’air passe sans effort du nez et de la bouche aux poumons.
 
-![Respiration](breathing.jpg)
+![Respiration thoracique et abdominale](respiration.fr.svg)
 
 Pour travailler la respiration, commencez par adopter une posture ancrée. Fermez les yeux. Si vous avez des problèmes d’équilibre, vous pouvez garder les yeux ouverts, mais focalisez-vous sur la respiration, sur ce que vous ressentez durant l’exercice.
 

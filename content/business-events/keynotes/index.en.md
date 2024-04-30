@@ -1,5 +1,5 @@
 +++
-draft 		= false
+draft 		= true
 title 		= "Inspiring Keynotes"
 description = "Our experienced speakers will amaze your audience with inspiring and memorable TED-quality talks."
 picture		= "keynotes.jpg"

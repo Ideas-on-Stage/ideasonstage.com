@@ -1,5 +1,5 @@
 +++
-draft		= false
+draft		= true
 weight			= 30
 title		= "Formation pitch pour Startups"
 description = "Apprenez les secrets du pitch, par une équipe de coachs qui a collaboré avec des centaines de startups."

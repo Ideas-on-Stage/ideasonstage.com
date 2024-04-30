@@ -1,5 +1,5 @@
 +++
-draft 		= false
+draft 		= true
 title 		= "Diseño de Eventos"
 description	= "Nos ocupamos de todos los detalles para que tu evento sea una experiencia interactiva, original e inolvidable para todos los asistentes"
 picture		= "event-design.jpg"

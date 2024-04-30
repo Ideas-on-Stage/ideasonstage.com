@@ -1,5 +1,5 @@
 +++
-draft 		= false
+draft 		= true
 title 		= "Keynotes"
 description = "Aumenta el impacto de tu evento con una charla inolvidable con uno de nuestros speakers"
 picture		= "keynotes.jpg"

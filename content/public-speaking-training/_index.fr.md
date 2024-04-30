@@ -25,6 +25,8 @@ hidetitle			= true
 
 Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateur. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.
 
+Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais experts, reconnus dans le monde de l'entreprise.
+
 Nous proposons plusieurs modules de formation :
 
 - Art oratoire : maîtriser les techniques de prise de parole : posture, respiration, contact visuel, voix, élocution, mouvements, gestuelle, langage corporel (non verbal).
@@ -152,6 +154,6 @@ Notre approche changera votre façon de présenter de manière durable. Nos form
 {{< /picture1-text2 >}}
 
 {{< text2-picture1 picture="accessibilite.jpg" title="Accueil des personnes en situation de handicap" >}}
-N'hésitez pas à nous dire si vous avez des personnes nécessitant un aménagement de la formation, que ce soit pour des raisons d'accessibilité ou autre. Nous mettrons tout en œuvre pour rendre nos formations accessibles au plus grand nombre. [Vous pouvez consulter notre page pour en savoir plus sur notre référent handicap.](/fr/formations-prise-de-parole-en-public/handicap/)
+N'hésitez pas à nous dire si vous avez des personnes nécessitant un aménagement de la formation, que ce soit pour des raisons d'accessibilité ou autre. Nous mettrons tout en œuvre pour rendre nos formations accessibles au plus grand nombre. [Vous pouvez consulter notre page pour en savoir plus sur notre référent handicap.](/fr/handicap/)
 {{< /text2-picture1 >}}
 

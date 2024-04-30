@@ -9,15 +9,15 @@ schema				= "Website"
 insertsbottom	= [ "catalogue","revolution" ]
 
 [cta]
-		date				= "2023-09-05"
-		picture 		= "/es/guia-definitiva-hablar-en-publico/public-speaking.jpg"
-		title 				= "LA GUÍA DEFINITIVA PARA HABLAR EN PÚBLICO"
-		description = "Usa estas técnicas para comunicarte de forma efectiva."
-		color				= "text-white"	
-		opacity			= "30"
-		[cta.button]
-			text 			= "Leer la guía"
-			link				= "/es/guia-definitiva-hablar-en-publico/"
+	date				= "2023-09-05"
+	picture 		= "/es/guia-definitiva-hablar-en-publico/public-speaking.jpg"
+	title 				= "LA GUÍA DEFINITIVA PARA HABLAR EN PÚBLICO"
+	description = "Usa estas técnicas para comunicarte de forma efectiva."
+	color				= "text-white"	
+	opacity			= "30"
+	[cta.button]
+		text 			= "Leer la guía"
+		link				= "/es/guia-definitiva-hablar-en-publico/"
 		
 [services]
 	[[services.list]]

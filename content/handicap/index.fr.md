@@ -4,7 +4,6 @@ title				= "Accueil des personnes en situation de handicap"
 description	= "Comment facilitons-nous l'accueil des personnes en situation de handicap ?"
 picture			= "image.jpg"
 enablehero		= true
-url	 				= "/fr/formations-prise-de-parole-en-public/handicap/"
 +++
 
 ## Dans vos locaux

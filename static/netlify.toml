@@ -54,7 +54,9 @@
 	status			= 301
 	force				= true	
 
+
 # UK Andrea's stuff redirects
+
 [[redirects]]
 	from				= "https://www.ideasonstage.com/score/"
 	to					= "https://presentationscorecard.scoreapp.com/"
@@ -80,6 +82,7 @@
 	to					= "https://mailchi.mp/5975bea9212e/value-bundle/"
 	status			= 301
 	force				= true
+
 	
 # Temporary page redirects, url change
 

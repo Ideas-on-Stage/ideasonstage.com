@@ -9,15 +9,15 @@ schema				= "Website"
 insertsbottom	= [ "codingandbricks", "news" ]
 
 [cta]
-		picture 		= "/fr/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
-		title 				= "GUIDE DE LA PRISE DE PAROLE EN PUBLIC"
-		level				= "h2"
-		description = "Notre guide pour maîtriser les techniques de l'art oratoire."
-		color				= "text-white"	
-		opacity			= "30"
-		[cta.button]
-			text 			= "LIRE LE GUIDE"
-			link				= "/fr/guide-ultime-prise-de-parole-en-public/"
+	picture 		= "/fr/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
+	title 				= "GUIDE DE LA PRISE DE PAROLE EN PUBLIC"
+	level				= "h2"
+	description = "Notre guide pour maîtriser les techniques de l'art oratoire."
+	color				= "text-white"	
+	opacity			= "30"
+	[cta.button]
+		text 			= "LIRE LE GUIDE"
+		link				= "/fr/guide-ultime-prise-de-parole-en-public/"
 
 [services]
 	[[services.list]]
@@ -53,15 +53,7 @@ insertsbottom	= [ "codingandbricks", "news" ]
 		picture			= "/img/creative-workshops.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
-		url					= "/fr/conseil-communication/"
-	[[services.list]]
-		sectionid		= "presentation-creation"
-		title				= "Création de présentations"
-		description	= "Nous aidons les dirigeants à communiquer efficacement. Nous vous aidons à définir vos messages et votre stratégie, nous écrivons l'histoire, préparons les slides et vous préparons à prendre la parole en public."
-		picture			= "/img/inserts/home-presentation-creation-agency.jpg"
-		style				= "bg-black"
-		layout				= "inserts/module-texttop-picture.html"
-		url					= "/fr/agence-creation-presentation-powerpoint/"
+		url					= "/fr/ateliers-evenement-entreprise/"
 +++
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.
 
