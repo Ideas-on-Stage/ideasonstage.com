@@ -1,6 +1,6 @@
 {{ "<!-- partials:home:references:start -->" | safeHTML }}
 <section id="references" class="bg-white">
-  <div class="flex-parent-row">
+  <div class="flex-parent flex-parent-row">
     {{- $.Scratch.Set "count" 0 }}
 		{{ $languageshort := substr site.LanguageCode 0 2 }}
     {{- range .Site.Data.references }}

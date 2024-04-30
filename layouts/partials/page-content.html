@@ -1,7 +1,7 @@
 {{ "<!-- partials:page-content.html:start -->" | safeHTML }}
 <div class="layout-content">
 	{{- if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
-		<div class="flex-parent-row flex-column-reverse-ontall">
+		<div class="flex-parent flex-parent-row flex-column-reverse-ontall">
 			<article id="content-main" class="flex-child">
 				{{ with .Params.summary }}<p>{{ . }}</p>{{ end }} 
 				<h2>{{ site.Params.tableofcontents }}</h2>

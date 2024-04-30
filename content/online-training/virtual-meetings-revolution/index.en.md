@@ -9,16 +9,7 @@ schema		= "Course"
 [contact]
 	title	= "Book a training session"
 	subtitle= "Contact us using the form below and we will get back to you within a working day."
-	
-[slider]
-	[[slider.list]]
-		bgimage		= "virtual-meeting.jpg"
-		title		= "BRING YOUR VIRTUAL MEETINGS TO LIFE"
-		description	= "Learn how to run effective online meetings with our expert trainers"
-		button		= "Book a session"
-		buttonlink	= "#contact"
-		color		= "text-white" 
-		opacity		= "50"
+
 +++
 
 We all spend much of our working time in meetings, and we know how inefficient they usually are. Now most of those meetings are online, and they’re no better: in fact, they are even more tiring.

@@ -9,7 +9,7 @@
 					<img src="{{ .RelPermalink }}image.jpg">
 				</div>
 				<div class="layout-module-layer">
-					<div class="flex-parent-column">
+					<div class="flex-parent flex-column">
 						<div class="flex-child-text text-center">
 							<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 					    	<h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
@@ -27,11 +27,11 @@
 {{ define "main" }}
 	{{ "<!-- revolution:list.html:start -->" | safeHTML }}
 	<div class="layout-content">
-		<div class="flex-parent-row paddingt-none paddingb-medium">
+		<div class="flex-parent flex-parent-row paddingt-none paddingb-medium">
 			<div class="layout-module-column-text style-module-text ">	
 				{{ with .Content }}{{ . | markdownify }}{{ end }}
 			</div>
-			<div class="flex-parent-row paddingt-none paddingb-none flex-justify-space-around">
+			<div class="flex-parent flex-parent-row paddingt-none paddingb-none flex-justify-space-around">
 				<div class="flex-child revolution-social">
 					<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="youtube.svg" alt="youtube"><br>YouTube</a>
 				</div>
@@ -43,10 +43,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="flex-parent-row paddingv-medium">
+		<div class="flex-parent flex-parent-row paddingv-medium">
 			<h2 class="centered">{{ .Site.Params.revolution.episodes }}</h2>		
 		</div>
-		<div class="flex-parent-row paddingv-medium">
+		<div class="flex-parent flex-parent-row paddingv-medium">
 			{{ $scratch := newScratch }}
 			{{ $scratch.Set "first" "true" }}
 			{{ $scratch.Set "content" .Content }}

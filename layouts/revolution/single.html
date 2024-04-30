@@ -1,7 +1,7 @@
 {{ define "main" }}
 	{{ "<!-- revolution:single.html:start -->" | safeHTML }}
 	<div class="layout-content">
-		<div class="flex-parent-row flex-column-reverse-ontall">
+		<div class="flex-parent flex-parent-row flex-column-reverse-ontall">
 			<aside id="sidebar" class="flex-child-33p layout-double-sticky">
 				<div class="scroller">
 					{{ partial "sidebar/sidebar-top-categories.html" . }}
@@ -9,27 +9,27 @@
 				</div>
 			</aside>
 			<article class="flex-child-67p">
-					<div class="flex-parent-row row-tag">
-						<ul class="post-tag">
-							{{ range (.GetTerms "tags") }}
-								<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-						   {{ end }}
-						</ul>
-					</div> <!-- /.flex-parent-row -->
-					<div class="flex-parent-row">
-						<p class="text-muted  mb-small">
-							{{ if isset .Params "author" }}
-							  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
-							  {{ end }}
-								<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate" .Date }}</time> 
-							</p>
-					</div>
-					<div class="flex-parent-row paddingt-tiny">
-						<div id="post-content">
-							{{ with .Content }}{{ . }}{{ end }}
-						  </div>
-					</div> <!-- /.flex-parent-row -->
-			</article> <!-- /#content -->
+				<div class="flex-parent flex-parent-row row-tag">
+					<ul class="post-tag">
+						{{ range (.GetTerms "tags") }}
+							<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+					   {{ end }}
+					</ul>
+				</div>
+				<div class="flex-parent flex-parent-row">
+					<p class="text-muted  mb-small">
+						{{ if isset .Params "author" }}
+						  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
+						  {{ end }}
+							<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate" .Date }}</time> 
+						</p>
+				</div>
+				<div class="flex-parent-row paddingt-tiny">
+					<div id="post-content">
+						{{ with .Content }}{{ . }}{{ end }}
+					  </div>
+				</div>
+			</article>
 		</div>
 	</div>
 	{{ "<!-- revolution:single.html:end -->" | safeHTML }}

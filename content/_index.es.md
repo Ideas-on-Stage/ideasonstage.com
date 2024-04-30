@@ -19,7 +19,6 @@ insertsbottom	= [ "catalogue","revolution" ]
 			text 			= "Leer la guía"
 			link				= "/es/guia-definitiva-hablar-en-publico/"
 		
-
 [services]
 	[[services.list]]
 		sectionid		= "public-speaking-coaching"

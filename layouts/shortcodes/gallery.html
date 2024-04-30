@@ -75,7 +75,7 @@
 {{ if gt $len 0  }}
 <div class="layout-shortcode">
 	<div class="layout-shortcode-child">
-		<div class="flex-parent-row">
+		<div class="flex-parent flex-parent-row">
 			{{- range .Params }}
 			<div class="{{ $class }} height-auto"><img src="{{ . }}"></div>
 			{{- end }}

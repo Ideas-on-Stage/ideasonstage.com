@@ -43,6 +43,7 @@
 	  font-family: "Gotham SSm A", "Gotham SSm B";
 		font-style: normal;
 	  font-weight: 700;
+    text-transform: uppercase;
 	}
 	
 	#TableOfContents > ul > li > a {
@@ -72,10 +73,8 @@
 	/* font sizes for custom classes */
 	.button-primary      						  { font-size: 1.50vw;	}
 	.nav a       								      { font-size: 0.80em;	}
-	.flex-404 .error-box h1		      	{ font-size: 2.00em;	}
-	.flex-404 .error-box h2       			{ font-size: 1.25em;	}
-    .footer-main-category	      		{ font-size: 0.8em;		}
-    .footer-sub-category		      	{ font-size: 0.8em;		}
+  .footer-main-category	        		{ font-size: 0.8em;		}
+  .footer-sub-category	  	      	{ font-size: 0.8em;		}
 	.form-control-nav 		      			  { font-size: 90%;  		}
 	.iosnavbar-menu-item,
 	.iosnavbar-menu-item a			      { font-size: 0.9em;		}
@@ -88,8 +87,6 @@
 	.iostestimonial .name-picture p		{ font-size: 12px;    }
 	.people-box-name						        { font-size: 1em;	  	}
 	.people-box-title					        { font-size: 0.75em;	}
-	.style-slider-title       					{ font-size: 2.50em;	}
-	.style-slider-subtitle		      		{ font-size: 1.50em;	}
 	.thumbnail-caption h3      	 			{ font-size: 0.75em;	}
 	.text-base							          { font-size: 1.00em;	}
 	.testimonial .text p		    		    { font-size: 14px;		}  
@@ -113,8 +110,6 @@
 		.button-primary					        { font-size: 4vw;		  }
 		.iosnavbar-menu-item			      { font-size: 1.25em;	}
 		.iosnavbar-menu-dropdown-item a	{ font-size: 1.25em;	}
-		.style-slider-title			    		{ font-size: 1.50em;	}	
-		.style-slider-subtitle				    { font-size: 1.00em;	}
 	}
 	
 	/* adjust for very large screens (>1280px wide) 
@@ -285,27 +280,27 @@
 
 	#content-main > h3,
 	#content-main > h4 {
-		/* The > sign ensures only direct children are affected */
-		/* use padding-top size of top bar to position text properly when clicking on anchor, for example anchor link in table of contents */
 		padding-top: {{ site.Params.layout.navigation.height }};
 		margin-top: 1em;
 		margin-bottom: 0.5em;
 	}
 	
-	/* remove top margin from first element of content */
 	#content-main p:first-child,
 	#content-main h2:first-child,
 	#content-main h3:first-child,
 	#content-main h4:first-child {
+    /* remove top margin from first element of content */
+    margin-top: 0;
 		padding-top: 0;
 	}
 	
-	/* remove bottom margin from last element of content */
 	#content-main p:last-child,
 	#content-main h2:last-child,
 	#content-main h3:last-child,
 	#content-main h4:last-child {
+    /* remove bottom margin from last element of content */
 		margin-bottom: 0;
+    padding-bottom: 0;
 	}
 	
 	#content-main > blockquote {
@@ -465,7 +460,7 @@
 		color: #fff;
 		background-color: #222;
 	}
-		
+			
 	/* style for photograph styled pictures */
 	.style-photograph {
 		border: 8px solid #fff;
@@ -517,40 +512,6 @@
 
 
 
-/* @group STYLES SLIDER */
-
-	.style-slider-title {
-    margin: 1vw 8vw 0 8vw;
-    line-height: 1.2;
-    color: white; 
-    text-align: center;
-	}
-	
-	.style-slider-subtitle {
-    margin: 1vw 8vw;
-    line-height: 1.2;
-    color: rgba(255, 255, 255, 0.8); 
-    text-align: center;
-	}
-	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
-	
-		/* adjust for tall viewport */
-	
-		.style-slider-title {
-			margin: 2vw 8vw 0 8vw;
-		}
-		
-		.style-slider-subtitle {
-			margin: 2vw 8vw;
-		}
-		
-	}
-
-/* @end */
-
-
-
 /* @group BUTTONS */
 	
 	/* use to create a primary button */
@@ -563,7 +524,6 @@
     border-radius: 5px;
     border-color: none;
     border-style: none;
-    text-transform: uppercase;
 	}
 	
 	/* use to create a secondary button */
@@ -575,7 +535,6 @@
 	  border-radius: 3px;
 	  border-color: none;
 	  border-style: none;
-	  text-transform: uppercase;
 	}
 	
 	.bg-primary .button-secondary {
@@ -1038,27 +997,26 @@
 	/* .layout- are defined for a precise use, .flex- is more generic */
 	
 	/* @group flex standard */
-	
-		/* flex row that wraps if too large */
-		.flex-parent-row {
+
+		/* flex parent that wraps if too large */
+		.flex-parent {
 			display: flex;
-			flex-direction: row;
+      flex-direction: row;
 			align-items: stretch;
 			justify-content: space-between;
-			flex-wrap: wrap;
-			width: 100%;
-		}
-		
-		/* flex column */
-		.flex-parent-column {
-			display: flex;
-			flex-direction: column;
-			align-items: stretch;
-			justify-content: space-between;
-			height: 100%;
 			width: 100%;
 		}
 
+		.flex-parent-row {
+      flex-direction: row;
+			flex-wrap: wrap;
+    }
+    
+    .flex-column {
+      flex-direction: column;
+			height: 100%;
+    }
+  		
 		/* flex horizontal scroll classes (used in the testimonials and references */
 		.flex-parent-scroll {
 			display: flex;
@@ -1070,8 +1028,7 @@
 			align-items: flex-start;
 		}
 
-		.flex-child-scroll {
-			
+		.flex-child-scroll {			
 			height: auto;
 		}
 		
@@ -1483,12 +1440,24 @@
 	/* margin helper classes */
 
 	
-	.margin-huge 		{ margin: 80px;    			}
-	.margin-large 		{ margin: 60px;	    		}
-	.margin-medium 	{ margin: 40px;	    		}
-	.margin-small 		{ margin: 20px;		    	}
-	.margin-tiny 		{ margin: {{ site.Params.layout.module.padding.top }};		}
-	.margin-none 		{ margin: 0px;		    	}
+	.margin-huge {
+    margin: 80px;
+  }
+	.margin-large 	{
+    margin: 60px;
+  }
+	.margin-medium { 
+    margin: 40px;
+  }
+	.margin-small 	{
+    margin: 20px;
+  }
+	.margin-tiny {
+    margin: {{ site.Params.layout.module.padding.top }};	
+  }
+	.margin-none { 
+    margin: 0px;
+  }
 
   @media (max-aspect-ratio:1/1) and (max-width:480px) {
     .margin-tiny 	{
@@ -2055,49 +2024,6 @@ img::selection {
 
 
 
-/* @group 404 */
-
-	/**************************************
-	**** 404 page stuff *******************
-	**************************************/
-	
-	.flex-404 {
-		display: flex;
-		flex-flow: row wrap;
-		height: 90vh;
-		width: 100%;
-		background:#222;
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-	}
-	
-	.flex-404 > * { flex: 1 auto; }
-	
-	.flex-404 img {
-		height: 40%;
-		}
-	.flex-404 .error-box {
-		margin: 0 20px;
-		top: 0;
-		display: flex;
-		flex-direction: column;
-		align-items: stretch;
-	}
-	
-	.flex-404 .error-box h1 {
-		text-align: center;
-	}
-	 
-	.flex-404 .error-box h2 {
-		text-align: center;
-		font-weight: 400;
-	}
-
-/* @end */
-
-
-
 /* @group FOOTER */
 
 /**************************************
@@ -2374,160 +2300,3 @@ input[type='checkbox'] {
   }
   
 /* @end */
-
-
-
-/* @group Slider */
-
-/**
- * heroslider.sass
- * based on Carousel.sass by
- * @author: Dang Van Thanh
- * @github: https://github.com/dangvanthanh/heroslider.sass
- * @description: A Simple heroslider Pure CSS Using Sass
- * @version: 1.0.0
- */
-
-/* Note: css based on the number of slider items is generated dynamically by Hugo in the head-page-slider-css.html template */
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-
-.heroslider {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-.heroslider > input[type="radio"] {
-  position: absolute;
-  left: 0;
-  opacity: 0;
-  top: 0;
-}
-
-.heroslider > input[type="radio"]:checked ~ .heroslider__items .heroslider__item,
-.heroslider > input[type="radio"]:checked ~ .heroslider__prev > label,
-.heroslider > input[type="radio"]:checked ~ .heroslider__next > label {
-  visibility: hidden;
-  opacity: 0;
-}
-
-/* make first item visible by default */					
-.heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__items .heroslider__item:nth-child(1) {
-  visibility: visible;
-  opacity: 1;
-}
-.heroslider > input[type="radio"]:nth-child(1):checked ~ .heroslider__nav > label:nth-child(1) {
-  background: #ccc;
-  cursor: default;
-  pointer-events: none;
-}
-/* end make first item visible by default */
-
-.heroslider__items {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  width: 100%;
-  position: relative;
-}
-
-.heroslider__item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  z-index: 1;
-  transition: opacity 1s;
-  -webkit-transition: opacity 1s;
-}
-
-/* previous and next buttons */
-
-.heroslider__prev > label, .heroslider__next > label {
-  border: 0px solid #fff;
-  background-color: rgba(0,0,0,0.1);
-  border-radius: 50%;
-  cursor: pointer;
-  display: block;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transition: all .3s ease;
-  -webkit-transition: all .3s ease;
-  opacity: 0;
-  z-index: 2;
-}
-
-.heroslider__prev > label:hover, .heroslider__prev > label:focus, .heroslider__next > label:hover, .heroslider__next > label:focus {
-  opacity: 0.8;
-  
-}
-.heroslider__prev > label:before, .heroslider__prev > label:after, .heroslider__next > label:before, .heroslider__next > label:after {
-  content: "";
-  position: absolute;
-  width: inherit;
-  height: inherit;
-}
-
-.heroslider__prev > label:before, .heroslider__next > label:before {
-  background: linear-gradient(to top, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%), linear-gradient(to left, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%);
-  width: 50%;
-  height: 50%;
-  top: 25%;
-}
-
-.heroslider__prev > label {
-  left: 2%;
-}
-
-.heroslider__prev > label:before {
-  left: 35%;
-  top: 25%;
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-
-.heroslider__next > label {
-  right: 2%;
-
-}
-.heroslider__next > label:before {
-  left: 10%;
-  transform: rotate(315deg);
-  -webkit-transform: rotate(315deg);
-}
-
-.heroslider__nav {
-  position: absolute;
-  bottom: 3%;
-  left: 0;
-  text-align: center;
-  width: 100%;
-  z-index: 3;
-}
-.heroslider__nav > label {
-  border: 1px solid #ccc;
-  background: rgba(255, 255, 255, 0.3);
-  display: inline-block;
-  border-radius: 50%;
-  cursor: pointer;
-  margin: 0 .125%;
-  width: 20px;
-  height: 20px;
-}
-
-/* @end */
-

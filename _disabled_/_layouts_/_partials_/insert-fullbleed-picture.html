@@ -1,7 +1,0 @@
-{{ "<!-- partials:insert-fullbleed-picture.html:start -->" | safeHTML }}
- <section>
-	<div class="layout-screen-partial {{ .style }}">
-		<img src="{{ if .link }}{{ .picture }}{{ else }}{{ .url }}{{ .picture }}{{ end }}" class="layout-header-img">
-	</div>
-</section>
-{{ "<!-- partials:insert-fullbleed-picture.html:end -->" | safeHTML }}

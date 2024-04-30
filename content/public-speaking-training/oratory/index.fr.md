@@ -10,16 +10,6 @@ schema			= "Course"
 [contact]
 	title	= "Réservez une session de formation"
 	subtitle= "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
-	
-[slider]
-	[[slider.list]]
-		bgimage		= "hero.jpg"
-		title		= "FORMATION PRISE DE PAROLE EN PUBLIC"
-		description	= "Formez vos équipes à donner des présentations percutantes. Développez les qualités de communication de vos cadres et de vos équipes de vente."
-		button		= "Réservez une session"
-		buttonlink	= "#contact"
-		color		= "text-white" 
-		opacity		= "50"
 
 insertsbottom = [ "revolution", "guidepublicspeaking" ]
 +++

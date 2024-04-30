@@ -10,7 +10,7 @@
 {{- define "main" }}
 	{{ "<!-- team:single.html:main:start -->" | safeHTML }}
 	<section id="team-member" class="layout-content">
-	  <div class="flex-parent-row flex-column-ontall">
+	  <div class="flex-parent flex-parent-row flex-column-ontall">
 	    <div class="flex-child-33p">  		
 				{{ with .Params -}}
 					<img src="{{ .picture }}" class="style-photograph" alt="{{ .name }}">

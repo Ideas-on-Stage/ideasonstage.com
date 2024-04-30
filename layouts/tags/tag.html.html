@@ -1,7 +1,7 @@
 {{ define "main" }}
 	{{ "<!-- tags:tag.html.html:start -->" | safeHTML }}
 	<div class="layout-content">
-		<div class="flex-parent-row flex-column-reverse-ontall">
+		<div class="flex-parent flex-parent-row flex-column-reverse-ontall">
 			<aside id="sidebar" class="flex-child-33p layout-double-sticky">
 				<div class="scroller">
 					{{ partial "sidebar/sidebar-top-categories.html" . }}
@@ -11,7 +11,7 @@
 			<article id="content-main" class="flex-child-67p">
 				{{ range (.Paginator 8).Pages }}
 					<section class="post">
-						<div class="flex-parent-row paddingt-none paddingb-none">
+						<div class="flex-parent flex-parent-row paddingt-none paddingb-none">
 							<div class= "row-tag">
 								<ul class="post-tag">
 									{{ range (.GetTerms "tags") }}
@@ -20,7 +20,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="flex-parent-row paddingt-none paddingb-huge">		
+						<div class="flex-parent flex-parent-row paddingt-none paddingb-huge">		
 							<a href="{{ .RelPermalink }}">
 								<h2 class="margint-small">{{ .Title }}</h2>
 							</a>
@@ -71,7 +71,7 @@
 				{{ end }}
 			
 			{{/* <!-- add pagination buttons --> */}}
-			<div class="flex-parent-row">
+			<div class="flex-parent-ro">
 				<div>
 	                <ul class="pager">
 	                    {{ if .Paginator.HasPrev }}

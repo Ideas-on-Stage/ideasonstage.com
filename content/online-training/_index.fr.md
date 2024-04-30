@@ -6,15 +6,6 @@ url		 		= "/fr/formations-en-ligne/"
 schema			= "Carousel"
 thumbnail		= "thumbnail.jpg"
 weight			= 40
-
-[slider]
-	[[slider.list]]
-		expirydate	= "2020-07-01"
-		bgimage		= "fne.jpg"
-		title		= "FORMATIONS EN LIGNE ÉLIGIBLES FNE"
-		description	= "Toutes nos formations en ligne sont éligibles au FNE. Plus d'informations en bas de cette page."
-		color		= "text-white" 
-		opacity		= "40"
 +++
 
 Se former gratuitement depuis son espace de télétravail, c’est aujourd’hui accessible à toute personne en situation d’activité partielle, grâce au dispositif exceptionnel FNE-Formation, auquel toutes les entreprises sont désormais éligibles. Nous vous simplifions la tâche en vous proposant des programmes de formation à distance et flexibles (voir ci-dessous).

@@ -1,11 +1,12 @@
 +++
 draft 			= false
-title 				= "Training & Workshops"
+title 				= "Public Speaking Training"
 description	= "Change the culture of presentations in your company"
 url 					= "/presentations-training/"
 schema			= "course"
 thumbnail		= "thumbnail.jpg"
 weight			= 30
+pages				= "bottom"
 +++
 
 ## Change the culture of presentations in your company

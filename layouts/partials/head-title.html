@@ -1,25 +1,32 @@
 {{ "<!-- partials:head-title.html:start -->" | safeHTML }}
 <title>
 	{{ if or .IsHome (eq "home" .Type) }}
+    {{/* <!-- Home page title --> */}}
 		{{ if .Params.headtitle }}
 			{{ (printf "%s" .Params.headtitle) | truncate 70 }}
 		{{ else }}
 			{{ (printf "%s | %s" .Title site.Params.Country) | truncate 70 }}
 		{{ end }}
 	{{ else if .Params.Title }}
+    {{/* <!-- Front matter title if defined for page --> */}}
 		{{ (printf "%s | %s %s" .Params.Title site.Title site.Params.Country) | truncate 70 }}
 		{{ if .Paginator }}
 			{{ if ge .Paginator.PageNumber 2 }}
+        {{/* <!-- Add page number for multiple pages --> */}}
 				| Page {{ .Paginator.PageNumber }}
 			{{ end }}
 		{{ end }}
 	{{ else if and .Params.position .Params.Name }}
+    {{/* <!-- Team member page --> */}}
 		{{ (printf "%s - %s | %s %s" .Params.name .Params.position site.Title site.Params.Country) | truncate 70 }}
 	{{ else if .Params.name }}
+    {{/* <!-- Team member page with name only --> */}}
 		{{ (printf "%s | %s %s" .Params.name site.Title site.Params.Country) | truncate 70 }}
 	{{ else if eq "404" .Page.Kind }}
+    {{/* <!-- 404 page --> */}}
 		{{ (printf "404 Page Not Found") | truncate 70 }}
 	{{ else }}
+    {{/* <!-- Else use country name only --> */}}
 		{{ (printf "%s %s" site.Title site.Params.Country) | truncate 70 }}
 	{{ end }}
 </title>

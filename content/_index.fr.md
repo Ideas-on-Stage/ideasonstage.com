@@ -19,34 +19,6 @@ insertsbottom	= [ "codingandbricks", "news" ]
 			text 			= "LIRE LE GUIDE"
 			link				= "/fr/guide-ultime-prise-de-parole-en-public/"
 
-[slider]
-	[[slider.list]]
-		draft				= true
-		date				= "2022-11-29"
-		expirydate	= "2023-06-30"
-		bgimage 		= "/fr/comment-organiser-un-evenement-tedx/tedx-saclay-01.jpg"
-		title 				= "COMMENT ORGANISER UN ÉVÈNEMENT TEDX"
-		description = "Le guide complet pour organiser un évènement TEDx, par l'équipe qui a accompagné des centaines de speakers en France, aux États-Unis et en Angleterre."
-		button 			= "Lire le guide"
-		buttonlink		= "/fr/comment-organiser-un-evenement-tedx/"
-		color				= "text-white"	
-		opacity			= "30"
-	[[slider.list]]
-		draft				= true
-		date				= "2020-04-29"
-		bgimage 		= "/fr/guide-ultime-prise-de-parole-en-public/public-speaking.jpg"
-		title 				= "GUIDE DE LA PRISE DE PAROLE EN PUBLIC"
-		description = "Notre guide pour maîtriser les techniques de l'art oratoire."
-		button 			= "LIRE LE GUIDE"
-		buttonlink		= "/fr/guide-ultime-prise-de-parole-en-public/"
-		color				= "text-white"	
-		opacity			= "30"
-	[[slider.list]]
-		draft				= true
-		date 				= "2019-11-04"
-		bgimage			= "hero.jpg"
-		title				= "CRÉATION DE PRÉSENTATIONS · SUPPORT ÉVÉNEMENTIEL · COACHING ET FORMATION À LA PRISE DE PAROLE"
-
 [services]
 	[[services.list]]
 		sectionid		= "public-speaking-coaching"

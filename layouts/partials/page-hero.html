@@ -4,22 +4,8 @@
 	{{/* <!-- get hero picture if there is one available --> */}}
 	{{- $heropath := partial "f/getheropicturepath" . }}
 
-	{{/* <!-- test if there is at least one slide active --> */}}
-	{{- $slidercount := 0 }}
-	{{- if isset .Params "slider" }}
-		{{- range .Params.slider.list }} {{/* <!-- test if at least one slide active --> */}}
-			{{- if (partial "f/isactive" .) }}
-				{{- $slidercount = add $slidercount 1 }}
-			{{- end }}
-		{{- end }}
-	{{- end }}
-	
-	{{/* <!-- if there is at least one slide active use it as hero --> */}}
-	{{- if gt $slidercount 0 }}
-		{{ partial "page-slider.html" . }}
-
 	{{/* <!-- if call to action exists --> */}}
-	{{- else if isset .Params "cta" }}
+	{{- if isset .Params "cta" }}
 		{{/* <!-- if pic exists, create hero area --> */}}
 		<div class="layout-module-hero">
 			<div class="layout-module-layer">
@@ -27,11 +13,11 @@
 			</div>
 			{{/* <!-- adding layout-hero div corrects bug on browsers where sticky doesn't work --> */}}
 			<div class= "layout-module-layer" {{ with .Params.cta.opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>	
-				<div class="flex-parent-column flex-justify-center flex-align-center">
+				<div class="flex-parent flex-column flex-justify-center flex-align-center">
 					{{ if eq "h2" .Params.cta.level }}
-						<h2 class="style-slider-title">{{ "<!-- picture and h1 -->" | safeHTML }}
+						<h2 class="text-white">{{ "<!-- picture and h1 -->" | safeHTML }}
 				 	{{ else }}
-				 		<h1 class="style-slider-title">{{ "<!-- picture and h2 -->" | safeHTML }}
+				 		<h1 class="text-white">{{ "<!-- picture and h2 -->" | safeHTML }}
 					{{ end }}
 			    {{- with .Params.cta.title }}
 						{{ . | markdownify  }}
@@ -42,7 +28,7 @@
 				 		</h1>
 					{{ end }}
 					{{- with .Params.cta.description }}
-						<p class="style-slider-subtitle">{{ . }}</p>
+						<p class="text-white">{{ . }}</p>
 					{{- end }}
 					{{- with .Params.cta.button }}
 						<a href="{{ .link }}" class="button-primary">{{ .text }}</a>

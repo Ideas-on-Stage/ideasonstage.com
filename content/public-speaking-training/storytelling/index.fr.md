@@ -11,16 +11,6 @@ insertsbottom = [ "revolution", "guidepublicspeaking" ]
 [contact]
 	title	= "Réservez une session de formation"
 	subtitle= "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
-	
-[slider]
-	[[slider.list]]
-		bgimage		= "hero.jpg"
-		title		= "FORMATION EN LIGNE À LA PRISE DE PAROLE EN PUBLIC"
-		description	= "Formation de groupe pour les entreprises, donnée en direct par un de nos experts."
-		button		= "Réservez une session"
-		buttonlink	= "#contact"
-		color		= "text-white" 
-		opacity		= "50"
 +++  
 
 |Section|Durée|Contenu, Objectif pédagogique, Méthodes et moyens,Méthode d'évaluation,Adaptation aux besoins|

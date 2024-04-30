@@ -3,7 +3,9 @@
 {{- if ne true .Params.hidepagelist }}
   {{- if ne true .Params.simplelist }}
     {{- range .Pages }}
-    	{{- partial "inserts/link-picture2-text1.html" . }}
+			{{ if (isset .Params "title") }}
+    		{{- partial "inserts/link-picture2-text1.html" . }}
+			{{ end }}
     {{- end }}
   {{ else }}
     <div class="layout-content">

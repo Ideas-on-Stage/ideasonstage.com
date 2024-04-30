@@ -11,16 +11,6 @@ insertsbottom = [ "webinars", "guideremotepresentations" ]
 [contact]
 	title	= "Réservez une session de formation"
 	subtitle= "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
-	
-[slider]
-	[[slider.list]]
-		bgimage		= "virtual-meeting.jpg"
-		title		= "COMMENT ANIMER VOS RÉUNIONS PROFESSIONNELLES EN LIGNE"
-		description	= "Apprenez à mener des réunions en ligne efficaces avec nos formateurs experts"
-		button		= "Réservez une session"
-		buttonlink	= "#contact"
-		color		= "text-white" 
-		opacity		= "50"
 +++  
 
 {{< text-centered title="Révolutionnez vos réunions en ligne" category="Formation en ligne" >}}

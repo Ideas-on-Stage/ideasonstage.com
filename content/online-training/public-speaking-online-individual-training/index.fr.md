@@ -11,16 +11,6 @@ insertsbottom = [ "revolution", "guidepublicspeaking" ]
 [contact]
 	title	= "Réservez une session de formation"
 	subtitle= "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
-	
-[slider]
-	[[slider.list]]
-		bgimage		= "hero.jpg"
-		title		= "FORMATION INDIVIDUELLE EN LIGNE À LA PRISE DE PAROLE EN PUBLIC"
-		description	= "Suivez votre programme personnalisé établi avec l'aide de nos experts."
-		button		= "Réservez une session"
-		buttonlink	= "#contact"
-		color		= "text-white" 
-		opacity		= "50"
 +++  
 
 {{< text-centered category="Formation en ligne" title="Votre formation sur mesure pour maîtriser la prise de parole en public" >}}

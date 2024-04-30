@@ -1,6 +1,6 @@
 {{ "<!-- partials:page-footer.html:start -->" | safeHTML }}
 <div class="layout-content paddingt-none paddingb-none">
-	<div class= "footer-nav flex-parent-row">
+	<div class= "footer-nav flex-parent flex-parent-row">
 	  <div class="flex-child-25p">
 	    <ul class="footer-main-category padding-none">
 				{{ with .Site.Params.navigation.service }}<a href="/#services">{{ . }}</a></li>{{ end }}
@@ -48,7 +48,7 @@
 	  </div>  
 	</div>
 
-	<div class="flex-parent-row paddingv-small flex-align-end">
+	<div class="flex-parent flex-parent-row paddingv-small flex-align-end">
 		<div class="footer-text-min flex-child-60p">
     	{{ with .Site.Copyright }}{{ . }}{{ end }} {{ now.Year }}. 
     	{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />

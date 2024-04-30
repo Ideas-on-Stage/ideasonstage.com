@@ -8,7 +8,7 @@
 {{ if ne 2 (len $columns) }}
 	Shortcode content is not two columns. The second column content is separated by "---"
 {{ else }}
-	<div class="flex-parent-row flex-column-ontall">
+	<div class="flex-parent flex-parent-row flex-column-ontall">
 		<div class="layout-shortcode-child flex-child 50p">
 			{{ (index $columns 0) | markdownify }}
 		</div>
