@@ -23,32 +23,55 @@ hidetitle			= true
 		link				= "#contact"	
 +++
 
+## Pourquoi choisir Ideas on Stage ?
+
+- Ideas on Stage est un vrai spécialiste de la prise de parole en entreprise : cela fait plus de 14 ans que nos équipes forment et coachent les cadres et les dirigeants à la prise de parole. L'art de créer et de donner des présentations est notre cœur de métier.
+- Nous avons développé une méthodologie unique, spécifiquement pour répondre aux besoins des présentations en entreprise. Nos clients disent « enfin une méthode efficace ! »
+- Notre équipe de formateurs certifiés est entraînée à l'utilisation et l'enseignement de notre méthodologie. Nous ne faisons pas appel à des formateurs non certifiés.
+- Nos supports de formation sont disponibles sur Internet et régulièrement mis à jour avec du nouveau contenu et de nouveaux exercices.
+- Chaque participant reçoit un cahier d'exercices imprimé complet.
+- Nous respectons chaque personne, nous laissons les différences s'exprimer pour que chacun puisse trouver le « style » qui lui correspond.
+- Nous avons un portefeuille de clients et de grandes écoles qui peuvent attester de la qualité de nos formations.
+
 Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateur. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.
 
 Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais experts, reconnus dans le monde de l'entreprise.
 
-Nous proposons plusieurs modules de formation :
+{{< image-wide src="/img/image-wide/working-001.jpg" alt="Storytelling" >}}
 
-- Art oratoire : maîtriser les techniques de prise de parole : posture, respiration, contact visuel, voix, élocution, mouvements, gestuelle, langage corporel (non verbal).
-- Storytelling : audience, besoins, contextes, messages, structure, rendre l'histoire originale et captivante.
-- Visuels : simplicité, clarté, impact, complémentarité par rapport à l'histoire qui est racontée.
+{{< agenda-list style="bg-lightgray" title="Formation storytelling">}}
+	{{< agenda-item description="Le module storytelling est un module star de nos formations. Unique en son genre, pensé pour les besoins des entreprises, il vous apprendra comment construire votre discours pour convaincre votre auditoire, depuis l'identification des messages clés jusqu'à la création d'une histoire captivante." >}}
+	{{% call-to-action button="En savoir plus" link="/fr/formations-prise-de-parole-en-public/formation-storytelling/" %}}
+{{< /agenda-list >}}
 
-> Nous réalisons également d'autres formations spécialisées et sur-mesure en fonction de vos besoins spécifiques. Négociation, réunions difficiles, intervention lors de conférences, posture de leadership sur scène, …
+{{< space-medium style="bg-white" >}}
 
-Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise en pratique immédiate autour d'études de cas basées sur votre cœur de métier. Ces modules sont d'une durée d'une journée. Si vous le souhaitez, nous pouvons les combiner en une formation de deux ou trois jours.
+{{< image-wide src="/img/image-wide/applause.jpg" alt="Gros plan mains qui applaudissent" >}}
 
-Nos formations sont données uniquement en intra-entreprises.
+{{< agenda-list style="bg-lightgray" title="Formation Visuels PowerPoint">}}
+	{{< agenda-item title="" description="Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoint. Lors de cette formation vous apprendrez comment utiliser PowerPoint pour créer des diapositives qui vont renforcer et clarifier votre discours oral. Vous apprendrez quel type de diapositive créer en fonction de l'utilisation de la présentation. Vous serez formés aux techniques de base du design pour créer des slides à fort impact visuel : simplicité, structure, choix des éléments. Enfin, vous verrez comment utiliser PowerPoint pour gagner du temps." >}}
+	{{% call-to-action button="En savoir plus" link="/fr/formations-prise-de-parole-en-public/formation-visuels-powerpoint/" %}}
+{{< /agenda-list >}}
+
+{{< space-medium style="bg-white" >}}
+
+{{< image-wide src="/img/image-wide/presenter-001.jpg" alt="Intervenant en train de réaliser une présentation" >}}
+
+{{< agenda-list style="bg-lightgray" title="Formation Art Oratoire">}}
+	{{< agenda-item title="" description="Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations." >}}
+	{{% call-to-action button="En savoir plus" link="/fr/formations-prise-de-parole-en-public/formation-art-oratoire/" %}}
+{{< /agenda-list >}}
+
+{{< space-medium style="bg-white" >}}
 
 {{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
 	{{< icon-item icon="logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
 	{{< icon-item icon="logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
+	{{< agenda-item description="[Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)" >}}
+	{{< agenda-item description="[Vous pouvez également consulter le certificat délivré par l'organisme de certification Alticert en cliquant ici.](/files/certificat-qualiopi-alticert.pdf)" >}}
 {{< /icon-list >}}
 
-[Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)
-
-[Vous pouvez également consulter le certificat délivré par l'organisme de certification Alticert en cliquant ici.](/files/certificat-qualiopi-alticert.pdf)
-
-{{< icon-list title="Nos références" >}}
+{{< icon-list title="Quelques références" >}}
 	{{< icon-item icon="/img/logos/disney-logo.png" size= "16p" style="border spacing" >}}
 	{{< icon-item icon="/img/logos/salesforce-logo.png" size="16p" style="border spacing" >}}
 	{{< icon-item icon="/img/logos/deloitte-logo.png" size="16p" style="border spacing" >}}
@@ -63,65 +86,13 @@ Nos formations sont données uniquement en intra-entreprises.
 	{{< icon-item icon="/img/logos/colas-logo.png" size="16p" style="border spacing" >}}
 {{< /icon-list >}}
 
-## Module Storytelling
+> Nous réalisons également d'autres formations spécialisées et sur-mesure en fonction de vos besoins spécifiques. Négociation, réunions difficiles, intervention lors de conférences, posture de leadership sur scène, …
 
-Le module storytelling est un module star de nos formations. Unique en son genre, pensé pour les besoins des entreprises, il vous apprendra comment construire votre discours pour convaincre votre auditoire, depuis l'identification des messages clés jusqu'à la création d'une histoire captivante.
+Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise en pratique immédiate autour d'études de cas basées sur votre cœur de métier. Ces modules sont d'une durée d'une journée. Si vous le souhaitez, nous pouvons les combiner en une formation de deux ou trois jours.
 
-{{< image-wide src="/img/image-wide/meeting-002.jpg" alt="Storytelling" >}}
-
-{{< agenda-list style="bg-lightgray" title="Objectifs pédagogiques storytelling">}}
-	{{< agenda-item title="PRÉREQUIS" description="Choisir un cas concret à présenter lors de la formation." >}}
-	{{< agenda-item title="INTRODUCTION" description="Les défauts des présentations traditionnelles en entreprise<br>Facteurs clés de succès d'une prise de parole réussie." >}}
-	{{< agenda-item title="ABC" description="Identifier l'Auditoire, les Besoins et le Contexte (technique ABC). Comment segmenter votre auditoire et ses besoins pour mieux cibler vos messages." >}}
-	{{< agenda-item title="OBJECTIF DE TRANSFORMATION" description="Pourquoi présentez-vous ? Quel est le changement que vous voulez voir dans votre auditoire ?" >}}
-	{{< agenda-item title="PTA" description="Parcours de Transformation de L'auditoire. Identifiez les messages clés pour transformer les connaissances, les croyances, les émotions et les actions de votre auditoire." >}}
-	{{< agenda-item title="STRUCTURE" description="Choisissez un fil narratif simple et adapté à votre présentation. Identifiez votre introduction, développement et conclusion. Apprenez à sélectionner vos messages en fonction de l'objectif fixé et du temps disponible." >}}
-	{{< agenda-item title="HISTOIRE" description="Comment utiliser les techniques de storytelling pour mettre en valeur vos messages clés et rendre votre histoire captivante. Accrochez l'attention, développez vos arguments et terminez en beauté." >}}
-	{{< agenda-item title="ÉTUDE DE CAS" description="En plus des exercices réalisés tout au long de la journée, la formation se termine par la mise en œuvre des techniques de storytelling sur base d'un cas concret." >}}
-{{< /agenda-list >}}
-
-## Module Visuels PowerPoint
-
-Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoint. Lors de cette formation vous apprendrez comment utiliser PowerPoint pour créer des diapositives qui vont renforcer et clarifier votre discours oral. Vous apprendrez quel type de diapositive créer en fonction de l'utilisation de la présentation. Vous serez formés aux techniques de base du design pour créer des slides à fort impact visuel : simplicité, structure, choix des éléments. Enfin, vous verrez comment utiliser PowerPoint pour gagner du temps.
-
-{{< image-wide src="/img/image-wide/applause.jpg" alt="Gros plan mains qui applaudissent" >}}
-
-{{< agenda-list style="bg-lightgray" title="Objectifs pédagogiques visuels PowerPoint">}}
-	{{< agenda-item title="PRÉREQUIS" description="Savoir utiliser PowerPoint pour construire des diapositives simples. Cette formation n'est pas une formation PowerPoint, elle se focalise sur la création et la structuration des diapositives." >}}
-	{{< agenda-item title="INTRODUCTION" description="Savoir utiliser PowerPoint pour construire des diapositives simples. Cette formation n'est pas une formation PowerPoint, elle se focalise sur la création et la structuration des diapositives.<br>Quel est le problème des présentations PowerPoint classiques ?" >}}
-	{{< agenda-item title="PRÉSENTATION VS. DOCUPOINT" description="Comprendre la différence entre une présentation PowerPoint « diapositives » et une présentation PowerPoint « document ».<br>Partir de l'essentiel : que faut-il mettre au minimum sur une diapositive ? Que ne faut-il éviter de mettre sur une diapositive ?" >}}
-	{{< agenda-item title="TITRE" description="Créer un titre clair et impactant. Quand et pourquoi ajouter un sous-titre." >}}
-	{{< agenda-item title="CONTENU" description="Sélectionner le contenu le plus approprié pour communiquer votre message : images, données, schémas, tableaux, graphiques…" >}}
-	{{< agenda-item title="SIMPLICITÉ" description="Clarifier vos tableaux, schémas et graphiques pour en augmenter l'impact et la lisibilité, en particulier pour la présentation de chiffres." >}}
-	{{< agenda-item title="SUPPORTS" description="Quels documents distribuer avant ou après une prise de parole en public ?" >}}
-	{{< agenda-item title="DESIGN" description="Comment harmoniser police de caractères, couleurs et éléments graphiques ?" >}}
-	{{< agenda-item title="EN LIGNE" description="Les particularités des réunions en ligne : quels points d'attention pour les diapositives ?" >}}
-	{{< agenda-item title="ÉTUDE DE CAS" description=" En plus des exercices de la journée, les participants termineront la formation par la création d'un support PowerPoint mettant en œuvre les techniques apprises lors de la formation." >}}
-{{< /agenda-list >}}
+Nos formations sont données uniquement en intra-entreprises.
 
 
-## Module Art Oratoire
-
-Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations.
-
-{{< image-wide src="/img/image-wide/presenter-001.jpg" alt="Intervenant en train de réaliser une présentation" >}}
-
-{{< agenda-list style="bg-lightgray" title="Objectifs pédagogiques art oratoire">}}
-	{{< agenda-item title="PRÉREQUIS" description="Pas de prérequis." >}}
-	{{< agenda-item title="PRÉPARATION" description="Importance de la préparation dans la réussite de la prise de parole. Revue des techniques essentielles de préparation du fond." >}}
-	{{< agenda-item title="POSTURE" description="Travailler sa posture corporelle et son ancrage pour gagner en présence." >}}
-	{{< agenda-item title="RESPIRATION" description="Apprendre à gérer sa respiration pour gagner en force et calmer son stress." >}}
-	{{< agenda-item title="REGARD" description="Travail du regard comme point de connexion avec l'auditoire pour établir un conversation, un échange." >}}
-	{{< agenda-item title="VOIX" description="Élocution, vitesse, projection de la voix, intonation. Apprendre à garder une voix naturelle pour convaincre. Apprendre à faire des pauses." >}}
-	{{< agenda-item title="LANGAGE VERBAL VS. NON VERBAL" description="Déconstruire le mythe de Mehrabian et redonner sa juste valeur aux différents types de langage." >}}
-	{{< agenda-item title="GESTUELLE" description="Quels sont les gestes à faire ? Quels sont les gestes à éviter ? Comment utiliser les gestes miroir ? Comment adapter sa gestuelle à un contexte international ?" >}}
-	{{< agenda-item title="MOUVEMENT" description="Comment se déplacer avec intention." >}}
-	{{< agenda-item title="COHÉRENCE" description="Comment trouver votre style, cohérent avec votre voix et vous-même." >}}
-	{{< agenda-item title="STRESS" description="Comprendre la source du stress lors d'une présentation en public. Apprendre à gérer le stress en fonction de votre personnalité." >}}
-	{{< agenda-item title="ÉTUDE DE CAS" description="En plus des exercices réalisés tout au long de la journée, ce dernier exercice voit chaque participant prendre la parole pour mettre en œuvre les techniques apprises sur base d'un cas concret." >}}
-{{< /agenda-list >}}
-
-{{% call-to-action button="Demander un devis" link="#contact" %}}
 
 {{< picture1-text2 picture="three-circles-fr.svg" title="Une formation en prise de parole en public complète et moderne" style="border" >}}
 En 2010, Ideas on Stage a été le premier acteur à amener une méthode de présentation moderne et complète, basée sur l'état de l'art. Cette méthode combine les trois piliers d'une bonne présentation : histoire, visuels et art oratoire, pour communiquer efficacement son message.

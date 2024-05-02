@@ -1,0 +1,27 @@
+{{ "<!-- partials:page-training:start -->" | safeHTML }}
+<section id="training-bar">
+  <div class="flex-parent flex-column flex-justify-center bg-lightgray">
+		<div class="flex-child paddingh-small paddingt-small paddingb-tiny">
+			<h2 class="margin-none">Fiche récapitulative de la formation</h2>
+		</div>
+		<div class="flex-child paddingh-small ">
+			{{ with .Params.duration }}<p class="margin-none">Durée : {{ . }}</p>{{ end }}
+		</div>
+		<div class="flex-child paddingh-small paddingt-tiny">
+			{{ with .Params.price }}<p class="margin-none">Prix : {{ . }}</p>{{ end }}
+		</div>
+		<div class="flex-child paddingh-small paddingt-tiny">
+			{{ with .Params.attendees }}<p class="margin-none">Participants : {{ . }}</p>{{ end }}
+		</div>
+		<div class="flex-child paddingh-small paddingt-tiny">
+			{{ with .Params.format }}<p class="margin-none">Format : {{ . }}</p>{{ end }}
+		</div>
+		<div class="flex-child paddingh-small paddingt-tiny paddingb-small">
+			{{ with .Params.locations }}<p class="margin-none">Où : {{ . }}</p>{{ end }}
+		</div>
+		<div class="flex-child centered">
+			<a href="#contact" class="button-primary">Réserver une formation</a>
+		</div>
+	</div>
+</section>
+{{ "<!-- partials:page-training:end -->" | safeHTML }}

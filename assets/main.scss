@@ -103,6 +103,7 @@
 	#sidebar h2							          { font-size: 1em;		  }
 	#sidebar li							          { font-size: 1em;  		}
 	#sidebar a							          { font-size: 0.8em;		}
+	#sidebar p							          { font-size: 0.8em;		}
 	
 	/* adjust for small tall smartphone screens */
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {	
@@ -339,7 +340,11 @@
 		width: auto;
 		border: 1px solid #ddd;
 	}
-			
+
+	#content-main li {
+		
+	}
+	
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 
 		#content-main th {
@@ -391,11 +396,9 @@
 	}
 
 	#sidebar h2 {
-		background-color: #eee;
 		color: #222;
-		padding: 1vw;
-		margin: .2em 0;
-		text-align: center;
+		margin: 0;
+		text-align: left;
 	}
 
 	#sidebar ul {
