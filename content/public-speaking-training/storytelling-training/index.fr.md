@@ -15,7 +15,7 @@ locations		= "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou 
 	subtitle= "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
 +++  
 
-Cette formation est dédiée à la partie histoire. Nous allons découvrir comment utiliser les techniques de storytelling pour créer de meilleures présentations. Cette formation est particulièrement adaptée pour les présentations en entreprise, comme les présentations devant un comité ou les présentations commerciales.
+Cette formation explique comment utiliser les techniques de storytelling pour créer de meilleures présentations. Cette formation est particulièrement adaptée pour les présentations en entreprise, comme les présentations devant un comité ou les présentations commerciales.
 
 {{< image-wide src="/img/image-wide/storytelling.jpg" alt="Formation Storytelling" >}}
 
