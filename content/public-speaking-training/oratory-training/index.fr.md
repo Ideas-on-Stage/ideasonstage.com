@@ -37,7 +37,7 @@ Ce module est dédié à l’art oratoire et apprendra aux participants comment 
 
 {{< space-medium style="bg-white" >}}
 
-{{< agenda-list style="bg-lightgray" title="Programme détaillé" >}}
+{{< agenda-list style="bg-lightgray" title="Programme" >}}
 	{{< agenda-item title="Introduction" description="Les trois piliers d’une bonne présentation<br>Agenda et objectifs<br>Vos attentes" >}}
 	{{< agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
 	{{< agenda-item title="Vrai ou faux ?" description="Démasquer les mythes pour mieux comprendre ce qui fait un bon orateur." >}}
