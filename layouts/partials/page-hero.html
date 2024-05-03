@@ -15,9 +15,9 @@
 			<div class= "layout-module-layer" {{ with .Params.cta.opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>	
 				<div class="flex-parent flex-column flex-justify-center flex-align-center">
 					{{ if eq "h2" .Params.cta.level }}
-						<h2 class="text-white">{{ "<!-- picture and h1 -->" | safeHTML }}
+						<h2 class="text-white text-center">{{ "<!-- picture and h1 -->" | safeHTML }}
 				 	{{ else }}
-				 		<h1 class="text-white">{{ "<!-- picture and h2 -->" | safeHTML }}
+				 		<h1 class="text-white text-center">{{ "<!-- picture and h2 -->" | safeHTML }}
 					{{ end }}
 			    {{- with .Params.cta.title }}
 						{{ . | markdownify  }}
@@ -28,7 +28,7 @@
 				 		</h1>
 					{{ end }}
 					{{- with .Params.cta.description }}
-						<p class="text-white">{{ . }}</p>
+						<p class="text-white text-center">{{ . }}</p>
 					{{- end }}
 					{{- with .Params.cta.button }}
 						<a href="{{ .link }}" class="button-primary">{{ .text }}</a>
@@ -45,9 +45,9 @@
 			<div class="layout-module-layer">
 			  <div class="layout-page-title style-page-title-overlay">
 					{{ if eq true $.Page.Params.Heroh2 }}
-						<h2>{{ "<!-- picture and h1 -->" | safeHTML }}
+						<h2 class="text-center">{{ "<!-- picture and h1 -->" | safeHTML }}
 				 	{{ else }}
-				 		<h1>{{ "<!-- picture and h2 -->" | safeHTML }}
+				 		<h1 class="text-center">{{ "<!-- picture and h2 -->" | safeHTML }}
 					{{ end }}
 			    {{- with .Title }}{{ . | markdownify  }}{{ end -}}
 					{{ if eq true $.Page.Params.Heroh2 }}

@@ -23,15 +23,6 @@ hidetitle				= false
 
 [services]
 	[[services.list]]
-		sectionid		= "public-speaking-coaching"
-		title				= "Public Speaking Coaching"
-		description	= "We offer coaching for public speaking, media training, stage presence and delivery."
-		picture			= "/img/inserts/home-business-events.jpg"
-		style				= "bg-black"
-		layout				= "inserts/module-picture-textright.html"
-		url					= "/public-speaking-coaching/"
-		button			= "Discover our public speaking coaching services"
-	[[services.list]]
 		draft				= true
 		sectionid		= "business-events"
 		title				= "Business Events"
@@ -40,6 +31,15 @@ hidetitle				= false
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/business-events/"
+	[[services.list]]
+		sectionid		= "public-speaking-coaching"
+		title				= "Public Speaking Coaching"
+		description	= "We offer coaching for public speaking, media training, stage presence and delivery."
+		picture			= "/img/inserts/home-business-events.jpg"
+		style				= "bg-black"
+		layout				= "inserts/module-picture-textright.html"
+		url					= "/public-speaking-coaching/"
+		button			= "Discover our public speaking coaching services"
 	[[services.list]]
 		sectionid		= "presentations-training"
 		title				= "Presentations Training"

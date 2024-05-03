@@ -21,14 +21,6 @@ insertsbottom	= [ "catalogue","revolution" ]
 		
 [services]
 	[[services.list]]
-		sectionid		= "public-speaking-coaching"
-		title				= "Coaching Hablar en Público"
-		description	= "Muestra tu mejor versión sobre el escenario."
-		picture			= "/img/inserts/home-business-events.jpg"
-		style				= "bg-black"
-		layout				= "inserts/module-picture-textright.html"
-		url					= "/es/coaching-para-hablar-en-publico/"
-	[[services.list]]
 		sectionid		= "presentations-training"
 		title				= "Formación Presentaciones"
 		description	= "Cambia la cultura de las presentaciones en tu organización."
@@ -36,6 +28,14 @@ insertsbottom	= [ "catalogue","revolution" ]
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/es/formacion-para-hablar-en-publico/"
+	[[services.list]]
+		sectionid		= "public-speaking-coaching"
+		title				= "Coaching Hablar en Público"
+		description	= "Muestra tu mejor versión sobre el escenario."
+		picture			= "/img/inserts/home-business-events.jpg"
+		style				= "bg-black"
+		layout				= "inserts/module-picture-textright.html"
+		url					= "/es/coaching-para-hablar-en-publico/"
 	[[services.list]]
 		sectionid		= "presentation-creation"
 		title				= "Agencia de Presentaciones"

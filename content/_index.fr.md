@@ -21,14 +21,6 @@ insertsbottom	= [ "codingandbricks", "news" ]
 
 [services]
 	[[services.list]]
-		sectionid		= "public-speaking-coaching"
-		title				= "Coaching en prise de parole"
-		description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène."
-		picture			= "/img/inserts/home-business-events.jpg"
-		style				= "bg-black"
-		layout				= "inserts/module-picture-textright.html"
-		url					= "/fr/coaching-prise-de-parole-en-public/"	
-	[[services.list]]
 		sectionid		= "public-speaking-training"
 		title				= "Formations prise de parole en public"
 		description	= "Découvrez nos formations à la prise de parole en ligne et en présentiel. Organisme référencé Datadock et certifié Qualiopi."
@@ -36,6 +28,14 @@ insertsbottom	= [ "codingandbricks", "news" ]
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"
 		url					= "/fr/formations-prise-de-parole-en-public/"
+	[[services.list]]
+		sectionid		= "public-speaking-coaching"
+		title				= "Coaching en prise de parole"
+		description	= "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène."
+		picture			= "/img/inserts/home-business-events.jpg"
+		style				= "bg-black"
+		layout				= "inserts/module-picture-textright.html"
+		url					= "/fr/coaching-prise-de-parole-en-public/"	
 	[[services.list]]
 		draft				= false
 		sectionid		= "conseil-communication-entreprise"
