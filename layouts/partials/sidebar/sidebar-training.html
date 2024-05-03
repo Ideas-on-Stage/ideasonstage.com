@@ -1,10 +1,13 @@
-{{ "<!-- partials:page-training:start -->" | safeHTML }}
+{{ "<!-- partials:sidebar:sidebar-training:start -->" | safeHTML }}
 <section id="training-bar">
-  <div class="flex-parent flex-column flex-justify-center bg-lightgray">
+  <div class="flex-parent flex-column flex-justify-center bg-lightgray paddingb-small">
 		<div class="flex-child paddingh-small paddingt-small paddingb-tiny">
 			<h2 class="margin-none">Fiche récapitulative de la formation</h2>
 		</div>
 		<div class="flex-child paddingh-small ">
+			{{ with .Params.title }}<p class="margin-none">Intitulé : {{ . }}</p>{{ end }}
+		</div>
+		<div class="flex-child paddingh-small paddingt-tiny">
 			{{ with .Params.duration }}<p class="margin-none">Durée : {{ . }}</p>{{ end }}
 		</div>
 		<div class="flex-child paddingh-small paddingt-tiny">
@@ -24,4 +27,4 @@
 		</div>
 	</div>
 </section>
-{{ "<!-- partials:page-training:end -->" | safeHTML }}
+{{ "<!-- partials:sidebar:sidebar-training:end -->" | safeHTML }}

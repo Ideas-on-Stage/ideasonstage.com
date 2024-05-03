@@ -23,7 +23,7 @@ insertsbottom	= [ "codingandbricks", "news" ]
 	[[services.list]]
 		sectionid		= "public-speaking-training"
 		title				= "Formations prise de parole en public"
-		description	= "Découvrez nos formations à la prise de parole en ligne et en présentiel. Organisme référencé Datadock et certifié Qualiopi."
+		description	= "Découvrez nos formations en prise de parole. Organisme certifié Qualiopi."
 		picture			= "/img/training.jpg"
 		style				= "bg-black"
 		layout				= "inserts/module-picture-textright.html"

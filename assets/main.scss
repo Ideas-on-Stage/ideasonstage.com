@@ -392,6 +392,7 @@
 
 	#sidebar {
 		padding-right: 4vw;
+		padding-bottom: 4vw;
 		box-sizing: border-box;
 	}
 
@@ -444,6 +445,15 @@
 		font-size: 0.8em;
 	}
 	
+	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+
+		#sidebar {
+			padding-top: 4vw;
+			padding-right: 0;
+		}
+	
+	}
+
 	#team-member .style-person-title {
 		font-size: 1.5em;
 		margin-top: 0;
@@ -990,6 +1000,16 @@
 			top: calc({{ site.Params.layout.navigation.height }} + 1.6em + .4vw);
 			z-index: 99;	
 		}
+		
+		@media (max-aspect-ratio:1/1) and (max-width:480px) {
+		
+			.layout-double-sticky {
+				position: relative;
+				top: 0;
+			}
+		
+		}
+		
 	/* @end */
 
 /* @end */
