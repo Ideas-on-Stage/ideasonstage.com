@@ -1,6 +1,7 @@
 +++
-title    = "Formation Visuels PowerPoint"
-showtoc  = true
+title    		= "Formation Visuels PowerPoint"
+showtoc  		= true
+ni					= true
 +++
 
 

@@ -1,6 +1,7 @@
 +++
-title    = "Formation Storytelling"
-showtoc  = true
+title    		= "Formation Storytelling"
+showtoc  		= true
+ni					= true
 +++
 
 Prérequis : avoir un sujet pour créer une histoire. Cela peut être une présentation que vous devez donner, ou un sujet qui vous intéresse.
@@ -93,7 +94,7 @@ Il existe un nombre infini de structures possibles. Nous allons donc proposer ic
 
 D'autres structures simples que vous pouvez utiliser sont par exemple :
 
-- Recommendation, explication/démonstration, appel à l'action
+- Recommandation, explication/démonstration, appel à l'action
 - Ligne du temps
 - Questions/réponses ou Objections/réponses
 

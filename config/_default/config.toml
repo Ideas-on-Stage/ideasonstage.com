@@ -410,6 +410,9 @@ title         						= "Ideas on Stage"
 				url						 	= "/fr/ateliers-evenement-entreprise/"
 	
 			[[languages.fr.params.navigation.resources]]			
+				name						= "Politique RSE"
+				url							= "/fr/rse/"
+			[[languages.fr.params.navigation.resources]]			
 				name						= "Références"
 				url							= "/fr/references/"
 			[[languages.fr.params.navigation.resources]]			

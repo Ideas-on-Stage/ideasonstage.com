@@ -114,6 +114,18 @@
 # Temporary for duplicate different from Google canonical problem
 
 [[redirects]]
+	from				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/handicap/"
+	to					= "https://www.ideasonstage.com/rse/"
+	status			= 301
+	force				= true
+
+[[redirects]]
+	from				= "https://www.ideasonstage.com/fr/handicap/"
+	to					= "https://www.ideasonstage.com/rse/"
+	status			= 301
+	force				= true
+
+[[redirects]]
 	from				= "https://www.ideasonstage.com/services/communication-consulting/audience-transformation-roadmap/ATR_template_Ideas_on_Stage.pdf"
 	to					= "https://www.ideasonstage.com/files/ATR_template_Ideas_on_Stage.pdf"
 	status			= 301

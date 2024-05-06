@@ -1,6 +1,7 @@
 +++
-title  = "Formation Art Oratoire"
-showtoc  = true
+title  			= "Formation Art Oratoire"
+showtoc  		= true
+ni					= true
 +++
 
 ## Introduction
