@@ -2,7 +2,7 @@
 draft				= false
 title				= "Formation Storytelling"
 description = "Formation aux techniques de storytelling pour apprendre à convaincre son auditoire."
-url	 				= "/fr/formations-prise-de-parole-en-public/formation-storytelling/"
+url	 				= "/fr/formation-storytelling/"
 type				= "training"
 format			= "Intra-entreprise"
 duration		= "7 h"

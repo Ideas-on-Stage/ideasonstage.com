@@ -2,7 +2,7 @@
 draft				= false
 title				= "Formation art oratoire"
 description = "La formation en art oratoire la plus complète. Apprenez à vous exprimer avec aisance sur scène."
-url	 				= "/fr/formations-prise-de-parole-en-public/formation-art-oratoire/"
+url	 				= "/fr/formation-art-oratoire/"
 type				= "training"
 format			= "Intra-entreprise"
 duration		= "7 h"

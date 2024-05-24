@@ -2,7 +2,7 @@
 draft				= false
 title				= "Formation Visuels PowerPoint"
 description = "Formation intra-entreprise pour apprendre à convaincre avec des visuels PowerPoint."
-url	 				= "/fr/formations-prise-de-parole-en-public/formation-visuels-powerpoint/"
+url	 				= "/fr/formation-presentations-powerpoint/"
 type				= "training"
 format			= "Intra-entreprise"
 duration		= "7 h"

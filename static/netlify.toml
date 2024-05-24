@@ -125,6 +125,27 @@
 	status			= 301
 	force				= true
 
+# Redirect of training pages
+
+[[redirects]]
+	from				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-storytelling/"
+	to					= "https://www.ideasonstage.com//fr/formation-storytelling/"
+	status			= 301
+	force				= true
+
+[[redirects]]
+	from				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-art-oratoire/"
+	to					= "https://www.ideasonstage.com//fr/formation-art-oratoire/"
+	status			= 301
+	force				= true
+
+[[redirects]]
+	from				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-visuels-powerpoint/"
+	to					= "https://www.ideasonstage.com//fr/formation-presentations-powerpoint/"
+	status			= 301
+	force				= true
+
+
 [[redirects]]
 	from				= "https://www.ideasonstage.com/services/communication-consulting/audience-transformation-roadmap/ATR_template_Ideas_on_Stage.pdf"
 	to					= "https://www.ideasonstage.com/files/ATR_template_Ideas_on_Stage.pdf"
