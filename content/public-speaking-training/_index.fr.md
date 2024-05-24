@@ -41,16 +41,16 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 
 {{< agenda-list style="bg-lightgray" title="Formation storytelling">}}
 	{{< agenda-item description="Le module storytelling est un module star de nos formations. Unique en son genre, pensé pour les besoins des entreprises, il vous apprendra comment construire votre discours pour convaincre votre auditoire, depuis l'identification des messages clés jusqu'à la création d'une histoire captivante." >}}
-	{{% call-to-action button="En savoir plus" link="/fr/formations-prise-de-parole-en-public/formation-storytelling/" %}}
+	{{% call-to-action button="En savoir plus" link="/fr/formation-storytelling/" %}}
 {{< /agenda-list >}}
 
 {{< space-medium style="bg-white" >}}
 
 {{< image-wide src="/img/image-wide/applause.jpg" alt="Gros plan mains qui applaudissent" >}}
 
-{{< agenda-list style="bg-lightgray" title="Formation Visuels PowerPoint">}}
+{{< agenda-list style="bg-lightgray" title="Formation Présentations PowerPoint">}}
 	{{< agenda-item title="" description="Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoint. Lors de cette formation vous apprendrez comment utiliser PowerPoint pour créer des diapositives qui vont renforcer et clarifier votre discours oral. Vous apprendrez quel type de diapositive créer en fonction de l'utilisation de la présentation. Vous serez formés aux techniques de base du design pour créer des slides à fort impact visuel : simplicité, structure, choix des éléments. Enfin, vous verrez comment utiliser PowerPoint pour gagner du temps." >}}
-	{{% call-to-action button="En savoir plus" link="/fr/formations-prise-de-parole-en-public/formation-visuels-powerpoint/" %}}
+	{{% call-to-action button="En savoir plus" link="/fr/formation-presentations-powerpoint/" %}}
 {{< /agenda-list >}}
 
 {{< space-medium style="bg-white" >}}
@@ -59,7 +59,7 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 
 {{< agenda-list style="bg-lightgray" title="Formation Art Oratoire">}}
 	{{< agenda-item title="" description="Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations." >}}
-	{{% call-to-action button="En savoir plus" link="/fr/formations-prise-de-parole-en-public/formation-art-oratoire/" %}}
+	{{% call-to-action button="En savoir plus" link="/fr/formation-art-oratoire/" %}}
 {{< /agenda-list >}}
 
 {{< space-medium style="bg-white" >}}
