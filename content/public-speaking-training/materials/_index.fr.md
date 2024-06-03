@@ -9,4 +9,4 @@ ni					= true
 
 Cette page vous permet d'accéder aux différents supports de formation. Vous pouvez cliquer sur les liens ci-dessous pour y accéder.
 
-[Vous pouvez télécharger la dernière version du cahier d'exercices au format pdf en cliquant sur ce lien.](cahier-exercices-ideas-on-stage.pdf)
+[Vous pouvez télécharger la dernière version du cahier d'exercices au format pdf en cliquant sur ce lien.](/training/cahier-exercices-ideas-on-stage.pdf)
