@@ -42,6 +42,78 @@ Après la formation :
 Note : pour des raisons de sécurité le support PowerPoint n'est pas disponible en ligne.
 
 
+## Timing indicatif des formations
+
+### Formation Storytelling 1 jour
+
+Durée totale : 7h
+
+- Matin : 
+	- Introduction : 9h à 9h30
+	- Message : 9h30 à 10h30
+	- Storytelling partie 1 : 10h30 à 12h
+- Pause : 12h à 13h
+- Après-midi :
+	- Storytelling partie 2 : 13h à 14h30
+	- Visuels (optionnel, sur demande des participants) : 14h30 à 15h00
+	- Art oratoire : 15h à 15h30
+	- Exercice final, y compris préparation : 15h30 à 16h40
+	- Conclusion : 16h40 à 17h00
+
+
+### Formation Présentations PowerPoint 1 jour
+
+Durée totale : 7h
+
+- Matin : 
+	- Introduction : 9h à 9h30
+	- Message : 9h30 à 10h30
+	- Visuels partie 1 : 10h30 à 12h
+- Pause : 12h à 13h
+- Après-midi :
+	- Visuels partie 2 : 13h à 14h30
+	- Art oratoire : 14h30 jusqu'à 15h30
+	- Exercice final, y compris préparation : 15h30 à 16h40
+	- Conclusion : 16h40 à 17h00
+
+
+### Formation Art Oratoire 1 jour
+
+Durée totale : 7h
+
+- Matin : 
+	- Introduction : 9h à 9h30
+	- Message : 9h30 à 10h30
+	- Art oratoire partie 1 : 10h30 à 12h00
+- Pause : 12h à 13h
+- Après-midi :
+	- Visuels : 13h à 14h
+	- Art oratoire partie 2 : 14h jusqu'à 15h30
+	- Exercice final, y compris préparation : 15h30 à 16h40
+	- Conclusion : 16h40 à 17h00
+
+
+### Formation Prise de parole 1 jour
+
+Cette formation couvre les modules message, storytelling et art oratoire sur une journée. Le module visuel peut être abordé à la demande des participants, mais il est optionnel. Durée totale : 7h
+
+- Matin : 
+	- Introduction : 9h à 9h30
+	- Message : 9h30 à 10h30
+	- Storytelling : 10h30 à 12h
+- Pause : 12h à 13h
+- Après-midi :
+	- Visuels (optionnel, sur demande des participants) : 13h à 13h30
+	- Art oratoire : 13h30/14h jusqu'à 15h30
+	- Exercice final, y compris préparation : 15h30 à 16h40
+	- Conclusion : 16h40 à 17h00
+
+
+### Formation Prise de parole 2 jours
+
+Durée totale : 14h
+
+
 ## Révisions
 
 - 2024-06-03 Première version
