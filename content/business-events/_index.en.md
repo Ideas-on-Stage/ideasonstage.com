@@ -1,5 +1,5 @@
 +++
-draft 			= false
+draft 			= true
 title 			= "Event Support"
 description		= "A complete set of services to support event organizers: project management, masters of ceremonies, creative workshops"
 picture			= "business-events.jpg"
