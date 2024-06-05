@@ -1,9 +1,9 @@
 +++
-draft 		= false
+draft 		= true
 title 		= "Master of Ceremonies"
 description	= "Set the right tempo for your event with an experienced Master of Ceremonies, keeping the audience engaged and helping your speakers to shine."
 picture		= "image.jpg"
-url 			= "/corporate-events/master-of-ceremonies/"
+url 		= "/corporate-events/master-of-ceremonies/"
 +++
 
 ## A Master of Ceremonies for your event

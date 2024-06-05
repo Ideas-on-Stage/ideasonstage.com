@@ -1,10 +1,10 @@
 +++
-draft 		= false
+draft 		= true
 title 		= "Animation d'événements"
 description = "Nos maîtres de cérémonie apportent l'étincelle qui éclairera votre public."
 categories	= [ "Corporate Events" ]
 picture		= "image.jpg"
-url 			= "/fr/evenements-entreprise/animation-evenements/"
+url 		= "/fr/evenements-entreprise/animation-evenements/"
 +++
 
 ## Un maître de cérémonie pour votre événement

@@ -1,0 +1,11 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "cd \/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\nhugo server  --buildFuture —cleanDestinationDir"
+    }
+  }
+}

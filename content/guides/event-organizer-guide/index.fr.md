@@ -151,7 +151,7 @@ Rien de mieux pour marquer les esprits qu’un lieu qui sort de l’ordinaire. U
 
 Vous devez prévoir du temps pour vous rendre sur le lieu et faire un repérage en détail : du parking au hall d’accueil et des espaces d’événement aux installations sanitaires. Cette visite vous donnera peut-être des arguments de négociation avant même d’accepter définitivement.
 
-> Pourquoi ne pas proposer un [atelier LEGO ou LEGO Serious Play](https://www.ideasonstage.com/fr/evenements-entreprise/ateliers-lego-serious-play/) à vos employés pour animer votre événement ? Ludiques et rafraîchissants, ces ateliers améliorent la cohésion d'équipe et la collaboration. [Cliquez ici pour en savoir plus](https://www.ideasonstage.com/fr/evenements-entreprise/ateliers-lego-serious-play/).
+> Pourquoi ne pas proposer un [atelier LEGO ou LEGO Serious Play](https://www.ideasonstage.com/fr/ateliers-evenement-entreprise/ateliers-lego-serious-play/) à vos employés pour animer votre événement ? Ludiques et rafraîchissants, ces ateliers améliorent la cohésion d'équipe et la collaboration. [Cliquez ici pour en savoir plus](https://www.ideasonstage.com/fr/ateliers-evenement-entreprise/ateliers-lego-serious-play/).
 
 ## Choisir ses prestataires
 

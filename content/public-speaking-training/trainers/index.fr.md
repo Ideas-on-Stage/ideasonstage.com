@@ -44,6 +44,9 @@ Note : pour des raisons de sécurité le support PowerPoint n'est pas disponible
 
 ## Timing indicatif des formations
 
+Les différentes durées sont indicatives et dépendent du niveau de participation.
+
+
 ### Formation Storytelling 1 jour
 
 Durée totale : 7h
