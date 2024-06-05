@@ -21,8 +21,6 @@ At Ideas on Stage, we have been revolutionizing presentations since 2010. Discov
 
 {{% link-picture1-text2 link="/online-training/webinars/" title="Webinars" picture="/online-training/webinars/thumbnail.jpg" %}}Watch our webinars.{{% /link-picture1-text2 %}} 
 
-{{% link-picture1-text2 link="/business-events/keynotes/" title="Keynotes" picture="/business-events/keynotes/thumbnail.jpg" %}}Book one of our professional speakers to inspire your audiences online, or at conferences and business meetings.{{% /link-picture1-text2 %}}
-
 {{% link-picture1-text2 link="/revolution/" title="Videos" picture="/revolution/thumbnail.jpg" %}}Short videos featuring important presentation tips.{{% /link-picture1-text2 %}} 
 
 {{% link-picture1-text2 link="https://www.youtube.com/watch?v=WOB6leUwZVM&list=PLZzM50I6k_S6jJR8x9Ig2Ho93UUEmObRF" title="Podcast" picture="podcast-thumb.jpg" %}}Do you enjoy listening to podcasts? Are you interested in leadership and communication? Then you will enjoy the Ideas on Stage Podcast.{{% /link-picture1-text2 %}}

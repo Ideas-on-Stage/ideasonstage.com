@@ -34,6 +34,6 @@ If you enjoyed Business Presentation Revolution, please help to spread these ide
 
 If you’d like help revolutionizing your own presentations or preparing a particularly important talk, please contact Ideas on Stage via the form below. We’d love to hear from you. 
 
-Finally, if you’d like to share this with your whole organization and change your company’s presentation culture, why not check out our [training courses](https://www.ideasonstage.com/presentations-training/the-business-presentation-revolution/) and [keynotes](https://www.ideasonstage.com/business-events/keynotes/)?
+Finally, if you’d like to share this with your whole organization and change your company’s presentation culture, why not check out our [training courses](https://www.ideasonstage.com/presentations-training/the-business-presentation-revolution/)?
 
 Revolutionizing your presentations is the smallest investment you can make for the greatest difference to your results, and your career. You won’t regret it. And your audiences will thank you.

@@ -1,5 +1,5 @@
 +++
-draft 		= false
+draft 		= true
 title 		= "Conférenciers"
 description = "Les conférences de nos intervenants émerveilleront votre audience."
 picture		= "keynotes.jpg"
