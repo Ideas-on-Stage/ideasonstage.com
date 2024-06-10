@@ -1,12 +1,12 @@
 +++
-draft				= false
-title				= "Formation Visuels PowerPoint"
-description = "Formation intra-entreprise pour apprendre à convaincre avec des visuels PowerPoint."
-url	 				= "/fr/formation-presentations-powerpoint/"
-type				= "training"
+draft			= false
+title			= "Formation présentations PowerPoint"
+description 	= "Formation intra-entreprise pour apprendre à convaincre avec des visuels PowerPoint."
+url	 			= "/fr/formation-presentations-powerpoint/"
+type			= "training"
 format			= "Intra-entreprise"
 duration		= "7 h"
-price				= "3000 € HTVA"
+price			= "3000 € HTVA"
 attendees		= "4 à 8 personnes"
 locations		= "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
 

@@ -1,11 +1,11 @@
 +++
-draft		= true
+draft			= true
 weight			= 30
-title		= "Formation pitch pour Startups"
-description = "Apprenez les secrets du pitch, par une équipe de coachs qui a collaboré avec des centaines de startups."
+title			= "Formation pitch pour Startups"
+description 	= "Apprenez les secrets du pitch, par une équipe de coachs qui a collaboré avec des centaines de startups."
 url 			= "/fr/formations-prise-de-parole-en-public/pitch-pour-startups/"
-picture		= "image.jpg"
-schema		= "Course"
+picture			= "image.jpg"
+schema			= "Course"
 +++
 
 ## Tout dépend du pitch

@@ -3,10 +3,19 @@
 
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
+    "html",
     "markdown"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/public-speaking-training\/_index.fr.md"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/news\/list.html",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/public-speaking-training\/public-speaking-training-1-day\/index.fr.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/public-speaking-training\/storytelling-training\/index.fr.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/public-speaking-training\/powerpoint-presentations-training\/index.fr.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/public-speaking-training\/pitch-for-startups\/index.en.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/public-speaking-training\/pitch-for-startups\/index.es.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/public-speaking-training\/pitch-for-startups\/index.fr.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/public-speaking-training\/public-speaking-training-2-days\/index.fr.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/public-speaking-training\/oratory-training\/index.fr.md"
   ],
   "workspace.color" : 1
 }
