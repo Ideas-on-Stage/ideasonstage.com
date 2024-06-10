@@ -1,5 +1,5 @@
 +++
-draft = "true"
+draft = false
 title = "How Personal Storytelling Can Transform Your Business, Boost Your Career and Drive Change"
 tags = ["Events"]
 news = ["general"]
@@ -7,6 +7,10 @@ date = "2024-06-10"
 author = "Andrea Pacini"
 banner = "/img/news/website_image_mark_leruste.png"
 +++
+![Andrea and Mark](/img/news/website_image_mark_leruste.png "Andrea and Mark")
+
+
+
 In a recent web class we hosted, **Mark Leruste**, CEO of Storycast and a renowned storytelling expert, shared great insights on the power of personal storytelling. Here's a summary of the key points from the session.
 
 
@@ -49,4 +53,12 @@ If you missed the live session, make sure to check out the recording below. And 
 
 [](https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469)
 
-[](https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469)
+{{% youtube pB6SHX2LqEM %}}
+
+**Want to learn more?** 
+
+* Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
+
+* To make the most of the book, take the [Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
+
+Attend our free, [live masterclass](http://ideasonstageuk.eventbrite.com/) on all things presentation skills[](https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469)
