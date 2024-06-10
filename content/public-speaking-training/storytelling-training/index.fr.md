@@ -37,12 +37,14 @@ Cette formation explique comment utiliser les techniques de storytelling pour cr
 {{< space-medium style="bg-white" >}}
 
 {{< agenda-list style="bg-lightgray" title="Programme" >}}
-	{{< agenda-item title="Introduction" description="Les trois piliers d’une bonne présentation<br>Agenda et objectifs<br>Vos attentes" >}}
-	{{< agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
-	{{< agenda-item title="Structure" description="Choisir une structure<br>Placez les éléments de langage<br>Complétez votre structure<br>Reliez les éléments" >}}
-	{{< agenda-item title="Histoire" description="Commencer fort, terminer en beauté<br>Rester léger<br>Rendre le problème/besoin essentiel<br>Utiliser des anecdotes (mini-histoires)<br>Personnaliser et rendre unique<br>Simplifier les chiffres et les données<br>Utiliser les techniques de rhétorique<br>Emprunter de la crédibilité<br>Combler le fossé de la connaissance<br>Simplifier jusqu’à la perfection<br>Checklist histoire" >}}
-	{{< agenda-item title="Langage verbal" description="Comment utiliser les mots et la voix pour accroître sa présence et convaincre son auditoire." >}}
-	{{< agenda-item title="Exercice final" description="Préparation d'une présentation de 5 minutes et mise en pratique des acquis." >}}
-	{{< agenda-item title="Conclusion" description="Récapitulatif des points clés<br>Évaluation de la formation par les participants" >}}
+{{< agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
+{{< agenda-item title="Lier histoire et présentation" description="Utiliser un « storyboard »<br>La méthode pSCORE" >}}
+{{< agenda-item title="Diapositives de structure" description="Couverture et dernière page<br>Diapositive de section<br>Diapositive d'agenda" >}}
+{{< agenda-item title="Éléments de contenu" description="Titre<br>Texte détaillé<br>Tableaux<br>Graphiques<br>Schémas et pictogrammes<br>Photos<br>Vidéos<br>Autres éléments" >}}
+{{< agenda-item title="Types de diapositive" description="Titre et texte<br>Diapositive avec graphique<br>Diapositive avec schéma<br>Diapositive avec pictogrammes<br>Photo + titre<br>En résumé" >}}
+{{< agenda-item title="Design" description="Police de caractères<br>Couleurs" >}}
+{{< agenda-item title="Checklist finale" description="Votre présentation est-elle pSCORE ?" >}}
+{{< agenda-item title="Exercice final" description="Mise en pratique des acquis lors d'une présentation complète de cinq minutes." >}}
+{{< agenda-item title="Conclusion" description="Récapitulatif des points clés<br>Évaluation de la formation par les participants" >}}
 {{< /agenda-list >}}
 

@@ -64,6 +64,13 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 
 {{< space-medium style="bg-white" >}}
 
+{{< agenda-list style="bg-lightgray" title="Formation Prise de Parole 2 jours">}}
+	{{< agenda-item title="" description="Notre formation phare de prise de parole, qui regroupe les modules Storytelling, Présentations PowerPoint et Art Oratoire." >}}
+	{{% call-to-action button="En savoir plus" link="/fr/formation-prise-de-parole-2-jours/" %}}
+{{< /agenda-list >}}
+
+{{< space-medium style="bg-white" >}}
+
 {{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
 	{{< icon-item icon="logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
 	{{< icon-item icon="logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
