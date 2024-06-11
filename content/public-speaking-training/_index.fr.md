@@ -37,6 +37,24 @@ Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateu
 
 Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais experts, reconnus dans le monde de l'entreprise.
 
+{{< image-wide src="/img/image-wide/public-speaking-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
+
+{{< agenda-list style="bg-lightgray" title="Formation Prise de Parole 2 jours">}}
+	{{< agenda-item title="" description="Notre formation phare de prise de parole en public, qui regroupe les modules Storytelling, Présentations PowerPoint et Art Oratoire. Cette formation s'appuie sur notre expérience unique de conseil en présentation auprès des plus grandes entreprises et des meillures écoles de commerce." >}}
+	{{% call-to-action button="En savoir plus" link="/fr/formation-prise-de-parole-2-jours/" %}}
+{{< /agenda-list >}}
+
+{{< space-medium style="bg-white" >}}
+
+{{< space-medium style="bg-white" >}}
+
+{{< image-wide src="/img/image-wide/presenter-001.jpg" alt="Intervenant en train de réaliser une présentation" >}}
+
+{{< agenda-list style="bg-lightgray" title="Formation Art Oratoire">}}
+	{{< agenda-item title="" description="Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations." >}}
+	{{% call-to-action button="En savoir plus" link="/fr/formation-art-oratoire/" %}}
+{{< /agenda-list >}}
+
 {{< image-wide src="/img/image-wide/working-001.jpg" alt="Storytelling" >}}
 
 {{< agenda-list style="bg-lightgray" title="Formation storytelling">}}
@@ -51,22 +69,6 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 {{< agenda-list style="bg-lightgray" title="Formation Présentations PowerPoint">}}
 	{{< agenda-item title="" description="Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoint. Lors de cette formation vous apprendrez comment utiliser PowerPoint pour créer des diapositives qui vont renforcer et clarifier votre discours oral. Vous apprendrez quel type de diapositive créer en fonction de l'utilisation de la présentation. Vous serez formés aux techniques de base du design pour créer des slides à fort impact visuel : simplicité, structure, choix des éléments. Enfin, vous verrez comment utiliser PowerPoint pour gagner du temps." >}}
 	{{% call-to-action button="En savoir plus" link="/fr/formation-presentations-powerpoint/" %}}
-{{< /agenda-list >}}
-
-{{< space-medium style="bg-white" >}}
-
-{{< image-wide src="/img/image-wide/presenter-001.jpg" alt="Intervenant en train de réaliser une présentation" >}}
-
-{{< agenda-list style="bg-lightgray" title="Formation Art Oratoire">}}
-	{{< agenda-item title="" description="Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations." >}}
-	{{% call-to-action button="En savoir plus" link="/fr/formation-art-oratoire/" %}}
-{{< /agenda-list >}}
-
-{{< space-medium style="bg-white" >}}
-
-{{< agenda-list style="bg-lightgray" title="Formation Prise de Parole 2 jours">}}
-	{{< agenda-item title="" description="Notre formation phare de prise de parole, qui regroupe les modules Storytelling, Présentations PowerPoint et Art Oratoire." >}}
-	{{% call-to-action button="En savoir plus" link="/fr/formation-prise-de-parole-2-jours/" %}}
 {{< /agenda-list >}}
 
 {{< space-medium style="bg-white" >}}
