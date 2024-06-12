@@ -83,7 +83,7 @@ My purpose is to help people tell better stories about the things that inspire t
 
 [YouTube](https://youtu.be/BGL8FX1p8HQ)
 
-[Apple Podcasts](https://podcasts.apple.com/us/podcast/ideas-on-stage-podcast/id1506050111)
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/60-jeremy-connell-waite-on-how-to-tell-better-stories/id1506050111?i=1000658767637)
 
 [Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/OGJiNTRiNTItN2RmNC00ZWI5LWI1YzktNDI0YmQ3N2EwN2Iz?sa=X&ved=0CAUQkfYCahcKEwjY6ua-_9WGAxUAAAAAHQAAAAAQAQ)
 
