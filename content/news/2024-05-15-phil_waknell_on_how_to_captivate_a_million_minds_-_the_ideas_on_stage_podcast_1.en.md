@@ -5,9 +5,9 @@ tags = ["Podcasts"]
 news = ["general"]
 date = "2024-05-15"
 author = "Andrea Pacini"
-banner = "/img/news/copy_of_template_for_youtube_thumbnail.jpg"
+banner = "/img/news/copy_of_template_for_youtube_thumbnail_1_.jpg"
 +++
-![Andrea and Phil](/img/news/copy_of_template_for_youtube_thumbnail.jpg "Andrea and Phil")
+![Andrea and Phil](/img/news/copy_of_template_for_youtube_thumbnail_1_.jpg "Andrea and Phil")
 
 In this episode of the Ideas on Stage podcast we spoke with our very own Phil Waknell. 
 
