@@ -11,11 +11,7 @@ banner = "/img/news/copy_of_template_for_youtube_thumbnail.jpg"
 
 In this episode of the Ideas on Stage podcast we spoke with Jeremy Connell-Waite.
 
-
-
 Jeremy Connell-Waite is passionate about helping others to tell better stories, especially executives and future business leaders in the tech industry. He works as a Communications Designer at IBM where he builds narratives for clients around emerging technologies, write speeches for senior executives and lead a performance coaching program for consultants called Impact Storytelling. 
-
-
 
 In this episode we talked about how to tell better business stories. 
 
@@ -89,7 +85,7 @@ My purpose is to help people tell better stories about the things that inspire t
 
 [Apple Podcasts](https://podcasts.apple.com/us/podcast/ideas-on-stage-podcast/id1506050111)
 
-[Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw?sa=X&ved=0CAMQ4aUDahcKEwjw5LWkvM__AhUAAAAAHQAAAAAQPg)
+[Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/OGJiNTRiNTItN2RmNC00ZWI5LWI1YzktNDI0YmQ3N2EwN2Iz?sa=X&ved=0CAUQkfYCahcKEwjY6ua-_9WGAxUAAAAAHQAAAAAQAQ)
 
 [Spotify](https://open.spotify.com/episode/1Rky9Rna2Px8cwpmjuKRuV)
 
