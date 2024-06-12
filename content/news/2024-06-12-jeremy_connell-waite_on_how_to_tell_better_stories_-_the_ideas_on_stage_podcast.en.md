@@ -82,3 +82,24 @@ AI is the future. It can help us by providing insights into audience preferences
 **You’re clearly very passionate about storytelling and its impact…**
 
 My purpose is to help people tell better stories about the things that inspire them, whether it's climate change, education, or any other cause. I believe storytelling can change the world, and my goal is to empower others to use this powerful tool effectively. Even small groups of people can make a big difference. For example, Greta Thunberg has shown how one person can inspire global action. There's a TED Talk by Erica Chenoweth that highlights it takes just 3.5% of the population to create significant change. It's important to focus on inspiring small groups, like family or teams within organisations, to bring about change. I'm driven by the idea that well-told stories can inspire action and create positive change.
+
+**Available on:** 
+
+[YouTube](https://youtu.be/BGL8FX1p8HQ)
+
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/59-phil-waknell-on-how-to-captivate-a-million-minds/id1506050111?i=1000655665717)
+
+[Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/OTQ0MjY1YWQtNGIxNS00YzZhLWE3M2UtNmJmZWExNTQ3YjZh?sa=X&ved=0CAUQkfYCahcKEwjwwdDnzY-GAxUAAAAAHQAAAAAQAQ)
+
+[Spotify](https://open.spotify.com/episode/1Rky9Rna2Px8cwpmjuKRuV)
+
+\
+**I hope you enjoy it!**
+
+{{% youtube BGL8FX1p8HQ %}}
+
+**Want to learn more?** 
+
+* Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
+* To make the most of the book, take the [Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
+* Attend our free, [live masterclass](http://ideasonstageuk.eventbrite.com/) on all things presentation skills
