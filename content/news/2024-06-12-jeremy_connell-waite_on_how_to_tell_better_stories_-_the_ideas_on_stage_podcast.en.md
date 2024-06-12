@@ -87,9 +87,9 @@ My purpose is to help people tell better stories about the things that inspire t
 
 [YouTube](https://youtu.be/BGL8FX1p8HQ)
 
-[Apple Podcasts](https://podcasts.apple.com/us/podcast/59-phil-waknell-on-how-to-captivate-a-million-minds/id1506050111?i=1000655665717)
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/ideas-on-stage-podcast/id1506050111)
 
-[Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/OTQ0MjY1YWQtNGIxNS00YzZhLWE3M2UtNmJmZWExNTQ3YjZh?sa=X&ved=0CAUQkfYCahcKEwjwwdDnzY-GAxUAAAAAHQAAAAAQAQ)
+[Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw?sa=X&ved=0CAMQ4aUDahcKEwjw5LWkvM__AhUAAAAAHQAAAAAQPg)
 
 [Spotify](https://open.spotify.com/episode/1Rky9Rna2Px8cwpmjuKRuV)
 
