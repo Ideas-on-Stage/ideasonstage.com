@@ -5,23 +5,17 @@ tags = ["Podcasts"]
 news = ["general"]
 date = "2024-02-14"
 author = "Andrea Pacini"
-banner = "/img/news/copy_of_template_for_youtube_thumbnail.jpg"
+banner = "/img/news/copy_of_template_for_youtube_thumbnail_2_.jpg"
 +++
-![Nicole Lowenbraun and Andrea Pacini](/img/news/copy_of_template_for_youtube_thumbnail.jpg "Nicole Lowenbraun and Andrea Pacini")
+![Nicole Lowenbraun and Andrea Pacini](/img/news/copy_of_template_for_youtube_thumbnail_2_.jpg "Nicole Lowenbraun and Andrea Pacini")
 
 In this episode of the Ideas on Stage podcast we spoke with Nicole Lowenbraun.
 
 Nicole offers a unique perspective on why what you say and how you say it matters, because she’s equal parts speech-language pathologist and business communication expert. Nicole has coached and written for thousands of clients, most of whom top the Fortune 100, with a focus on helping clients find their most authentic and powerful voice.
 
-
-
 After decades of helping others master their expressive communication skills, Nicole realized the business community (herself, included) was widely neglecting the receptive side of communication – listening. She’s now committed to teaching the world the value of improving both sides of the communication equation and continues to nurture her own skills as a writer, speaker, and listener.
 
-
-
 With a Master’s in Communication Disorders, Nicole is passionate about fostering more inclusive communication in the workplace, especially with neurodiverse populations. Nicole believes that acceptance of communication differences and a commitment to constant progress is the key to a happier future of work, regardless of industry, role, or experience.
-
-
 
 Nicole lives in Brooklyn with her plants and is a proud “pizza bagel”: half Italian-Catholic, half Polish-Jewish. She puts the Star of David on top of her Christmas tree.
 
