@@ -1,26 +1,25 @@
 +++
-draft 				= false
-title 					= "Formations prise de parole en public"
+draft 			= false
+title 			= "Formations prise de parole en public"
 description		= "La formation en prise de parole en public pour les entreprises la plus complète du marché. Message, Storytelling, Visuels et Art Oratoire."
-url		 				= "/fr/formations-prise-de-parole-en-public/"
-picture				= "training.jpg"
-enablehero			= false
-schema				= "course"
-hidepagelist		= true
-weight				= 30
-insertsbottom = [ "guidepublicspeaking", "guideremotepresentations" ]
-hidetitle			= true
+url		 		= "/fr/formations-prise-de-parole-en-public/"
+picture			= "training.jpg"
+enablehero		= false
+hidepagelist	= true
+weight			= 30
+insertsbottom	= [ "guidepublicspeaking", "guideremotepresentations" ]
+hidetitle		= true
 
 [cta]
-	picture			= "training.jpg"
-	title 				= "Formations prise de parole en public"
-	level				= "h1"
+	picture		= "training.jpg"
+	title 		= "Formations prise de parole en public"
+	level		= "h1"
 	description = "Un ensemble complet de formations pour prendre la parole en public, données par des spécialistes des présentations en entreprise."
-	color				= "text-white"	
-	opacity			= "35"
+	color		= "text-white"	
+	opacity		= "35"
 	[cta.button]
-		text	 		= "NOUS CONTACTER"
-		link				= "#contact"	
+		text	= "NOUS CONTACTER"
+		link	= "#contact"	
 +++
 
 ## Pourquoi choisir Ideas on Stage ?

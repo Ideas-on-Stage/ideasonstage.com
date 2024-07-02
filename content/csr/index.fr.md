@@ -1,8 +1,8 @@
 +++
-draft				= false
-title				= "Notre politique RSE"
-description	= "Découvrez les mesures prises par Ideas on Stage pour limiter son impact sur la planète."
-url					= "/fr/rse/"
+draft			= false
+title			= "Notre politique RSE"
+description		= "Découvrez les mesures prises par Ideas on Stage pour limiter son impact sur la planète."
+url				= "/fr/rse/"
 enablehero		= true
 +++
 

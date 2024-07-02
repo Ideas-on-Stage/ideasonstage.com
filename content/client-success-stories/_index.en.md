@@ -6,6 +6,6 @@ weight			= 4
 categories		= [ ]
 showrefs		= false
 urlredirect		= ""
-url 				= "/client-success-stories/"
+url 			= "/client-success-stories/"
 +++
 

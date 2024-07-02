@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "75f0e9406215ebc6",
+            "id": "9a49c392eb6afeef",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "about/_index.es.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "about/_index.es.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "about/_index.es.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "about/_index.es.md"
+              }
             }
           }
         ]
@@ -140,6 +148,7 @@
   },
   "active": "010b834fbf33071b",
   "lastOpenFiles": [
+    "news/2024-06-10-how_personal_storytelling_can_transform_your_business_boost_your_career_and_drive_change_2.en.md",
     "public-speaking-training/public-speaking-training-2-days/index.fr.md",
     "public-speaking-training/public-speaking-training-2-days",
     "public-speaking-training/untitled folder",
@@ -184,7 +193,6 @@
     "public-speaking-training/materials/2024-04-16-19cc6511-3240-41cb-ba67-88e7b2ec1a57 2/visuals/index.fr.md",
     "public-speaking-training/materials/2024-04-16-19cc6511-3240-41cb-ba67-88e7b2ec1a57 2/oratory/index.fr.md",
     "public-speaking-training/materials/2024-04-16-19cc6511-3240-41cb-ba67-88e7b2ec1a57 2/_index.fr.md",
-    "public-speaking-training/materials/elements/three-pillars/index.fr.md",
-    "public-speaking-training/materials/elements/three-pillars/index.en.md"
+    "public-speaking-training/materials/elements/three-pillars/index.fr.md"
   ]
 }
