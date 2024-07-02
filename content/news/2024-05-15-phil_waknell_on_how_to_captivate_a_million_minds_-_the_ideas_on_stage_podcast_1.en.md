@@ -5,9 +5,9 @@ tags = ["Podcasts"]
 news = ["general"]
 date = "2024-05-15"
 author = "Andrea Pacini"
-banner = "/img/news/copy_of_template_for_youtube_thumbnail.jpg"
+banner = "/img/news/copy_of_template_for_youtube_thumbnail_1_.jpg"
 +++
-![Andrea and Phil](/img/news/copy_of_template_for_youtube_thumbnail.jpg "Andrea and Phil")
+![Andrea and Phil](/img/news/copy_of_template_for_youtube_thumbnail_1_.jpg "Andrea and Phil")
 
 In this episode of the Ideas on Stage podcast we spoke with our very own Phil Waknell. 
 
@@ -87,7 +87,7 @@ The most important thing to remember is to provide real value – think of it as
 
 [Apple Podcasts](https://podcasts.apple.com/us/podcast/59-phil-waknell-on-how-to-captivate-a-million-minds/id1506050111?i=1000655665717)
 
-[Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/OTQ0MjY1YWQtNGIxNS00YzZhLWE3M2UtNmJmZWExNTQ3YjZh?sa=X&ved=0CAUQkfYCahcKEwjwwdDnzY-GAxUAAAAAHQAAAAAQAQ)
+[Google Podcasts ](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/OTQ0MjY1YWQtNGIxNS00YzZhLWE3M2UtNmJmZWExNTQ3YjZh?sa=X&ved=0CAUQkfYCahcKEwi4y9S4g9aGAxUAAAAAHQAAAAAQCg)
 
 [Spotify](https://open.spotify.com/episode/18kUqr5OKaG9ttfJTxLYZw)
 
