@@ -3,13 +3,15 @@
 
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
-    "markdown",
-    "plaintext"
+    "plaintext",
+    "yaml",
+    "markdown"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/_index.md",
     "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/config\/_default\/config.toml",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/business-presentation-revolution\/_index.md"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/data\/references\/01-fedex.en.yaml",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/references\/_index.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/references\/index.md"
   ],
   "workspace.color" : 1
 }
