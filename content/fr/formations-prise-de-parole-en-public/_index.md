@@ -2,7 +2,7 @@
 draft 			= false
 title 			= "Formations prise de parole en public"
 description		= "La formation en prise de parole en public pour les entreprises la plus complète du marché. Message, Storytelling, Visuels et Art Oratoire."
-picture			= "formation.fr.jpg"
+picture			= "formation.jpg"
 enablehero		= false
 hidepagelist	= true
 weight			= 30
