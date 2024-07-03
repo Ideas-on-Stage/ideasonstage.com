@@ -18,8 +18,6 @@ At Ideas on Stage, we have been revolutionizing presentations since 2010. Discov
 
 {{% link-picture1-text2 link="/public-speaking-coaching/media-training/" title="Media Training" picture="/public-speaking-coaching/media-training/media-training.jpg" %}}Specialist coaching to help you prepare to face tough questions, from the media or your employees.{{% /link-picture1-text2 %}}
 
-{{% link-picture1-text2 link="/online-training/webinars/" title="Webinars" picture="/online-training/webinars/thumbnail.jpg" %}}Watch our webinars.{{% /link-picture1-text2 %}} 
-
 {{% link-picture1-text2 link="/revolution/" title="Videos" picture="/revolution/thumbnail.jpg" %}}Short videos featuring important presentation tips.{{% /link-picture1-text2 %}} 
 
 {{% link-picture1-text2 link="https://www.youtube.com/watch?v=WOB6leUwZVM&list=PLZzM50I6k_S6jJR8x9Ig2Ho93UUEmObRF" title="Podcast" picture="podcast-thumb.jpg" %}}Do you enjoy listening to podcasts? Are you interested in leadership and communication? Then you will enjoy the Ideas on Stage Podcast.{{% /link-picture1-text2 %}}

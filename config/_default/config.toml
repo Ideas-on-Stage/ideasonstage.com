@@ -228,9 +228,6 @@ title         			= "Ideas on Stage"
 				name						= "Videos"
 				url							= "/revolution/"
 			[[languages.en.params.navigation.resources]]
-				name						= "Webinars"
-				url							= "/online-training/webinars/"
-			[[languages.en.params.navigation.resources]]
 				name						= "Articles"
 				url							= "/news/"
 			[[languages.en.params.navigation.resources]]
