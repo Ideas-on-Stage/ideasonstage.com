@@ -11,7 +11,7 @@ hidetitle		= true
 translationKey	= "presentations-training"
 
 [cta]
-	picture		= "formation.fr.jpg"
+	picture		= "formation.jpg"
 	title 		= "Formations prise de parole en public"
 	level		= "h1"
 	description = "Un ensemble complet de formations pour prendre la parole en public, données par des spécialistes des présentations en entreprise."
