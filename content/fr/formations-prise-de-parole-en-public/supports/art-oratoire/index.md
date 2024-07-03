@@ -201,7 +201,7 @@ Chacun se focalise sur « sa » voix, celle qui permet à chacun d'exprimer au m
 
 À partir de quelle vitesse parle-t-on trop lentement ? Nous ne parlons pratiquement jamais trop lentement (sauf lorsque nous « faisons le mort » face au stress). Au fil du temps, la vitesse moyenne d’une prise de parole a augmenté. Si nous écoutons aujourd’hui des orateurs comme Martin Luther King ou Jacques Chirac, ils semblent parler plus lentement que tous les orateurs actuels.
 
-{{% youtube "vP4iY1TtS3s" %}}
+{{< youtube "vP4iY1TtS3s" >}}
 
 Puisque notre vitesse maximum est autour de 150 mots par minute, nous pouvons utiliser cette astuce pour déterminer facilement la durée de notre prise de parole : nous prenons le nombre total de mots de notre texte et nous le divisons par 150.
 

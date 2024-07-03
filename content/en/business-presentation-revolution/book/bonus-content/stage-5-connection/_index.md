@@ -34,19 +34,19 @@ In Business Presentation Revolution you’ll find references to several playlist
 
 These videos can help you to go deeper and may also help you to convince your colleagues that they should also take the time to join the Business Presentation Revolution!
 
-{{% youtube ZExgFItoaqA %}}
+{{< youtube ZExgFItoaqA >}}
 
 <br />
 
-{{% youtube -P9C8xl4RPU %}}
+{{< youtube -P9C8xl4RPU >}}
 
 <br />
 
-{{% youtube 1BZaJCshACc %}}
+{{< youtube 1BZaJCshACc >}}
 
 <br />
 
-{{% youtube kDFJlcLyAuE %}}
+{{> youtube kDFJlcLyAuE >}}
 
 ## Downloadable Resources
 

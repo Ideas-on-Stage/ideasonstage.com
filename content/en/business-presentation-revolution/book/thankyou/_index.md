@@ -30,7 +30,7 @@ So please tell your colleagues, tell your pets, tell the world! Simply click on 
 
 Thanks for sharing, we wish you happy reading, and as a last thank-you, here’s an exclusive video from Business Presentation Revolution author Phil Waknell, especially for you.
 
-{{% youtube SvYz_DOWYfc %}}
+{{< youtube SvYz_DOWYfc >}}
 
 {{% bpr-social %}}
  

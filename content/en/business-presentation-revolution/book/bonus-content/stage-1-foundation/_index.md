@@ -18,7 +18,7 @@ The additional resources for this stage should help you to create a strong found
 
 These videos can help you to go deeper and may also help you to convince your colleagues that they should also take the time to join the Business Presentation Revolution!
 
-{{% youtube WOGTFXBOwfk %}}
+{{< youtube WOGTFXBOwfk >}}
 
 ## Templates & Checklists
 

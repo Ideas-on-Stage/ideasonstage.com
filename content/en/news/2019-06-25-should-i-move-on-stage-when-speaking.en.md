@@ -19,7 +19,7 @@ As often, the correct answer is: it depends. It always pains me to see some coac
 
 If we are in a very formal setting, typically a political meeting, it's best no to move too much. If the setting is more informal, like a pitch contest, looking dynamic and energetic is essential, we can move on stage. We could even jump and everybody would be fine with it (although we recommend not to do it Ballmer style).
 
-{{% youtube IGVscYI5XlQ %}}
+{{< youtube IGVscYI5XlQ >}}
 
 We saw some speakers deliver killer speeches sitting down or from behind a lectern, not moving at all. At the opposite end, we saw speakers pace energetically on stage and make a great impression. The key is that their posture was coherent with their style, and that when they moved, it was on *purpose*, not because they could not control their nerves. A good coach will help you understand and build a style that fits your personality, not force you into a predefined stereotypical imaginary "ideal presenter" (a notion I will develop further in another article).
 

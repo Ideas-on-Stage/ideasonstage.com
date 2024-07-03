@@ -48,6 +48,6 @@ For example, Amazon’s mission is to be ‘Earth’s most customer-centric comp
 
 If you’d like to learn more about the three qualities great communicators have, here’s the recording. I hope you enjoy it! 
 
-{{% youtube Nag_Q2jVXTk %}}
+{{< youtube Nag_Q2jVXTk >}}
 
 If you want to become a more confident presenter, take the [Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/). Answer simple Yes/No questions, get an instant score plus suggestions for improvement. It takes less than 3 minutes. Once you complete the scorecard, you’ll receive a free pdf copy of my best-selling book **Confident Presenter**.

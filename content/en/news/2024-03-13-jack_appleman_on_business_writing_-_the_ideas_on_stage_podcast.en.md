@@ -85,7 +85,7 @@ Yes, speaking one-on-one with your reader is key. Even if your audience is broad
 \
 **I hope you enjoy it!**
 
-{{% youtube FuF-F7k6_7I %}}
+{{< youtube FuF-F7k6_7I >}}
 
 **Want to learn more?** 
 

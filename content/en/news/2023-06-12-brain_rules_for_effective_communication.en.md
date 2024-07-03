@@ -37,7 +37,7 @@ Dr. Medina concluded his presentation by sharing three essential rules for effec
 
 If you missed the event, you can watch the full recording below and discover the science behind effective communication.
 
-{{% youtube 1T7omihjn5k %}}
+{{< youtube 1T7omihjn5k >}}
 
 **Conclusion**
 

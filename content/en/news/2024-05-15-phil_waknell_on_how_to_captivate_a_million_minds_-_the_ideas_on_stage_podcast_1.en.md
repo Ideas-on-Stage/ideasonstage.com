@@ -94,7 +94,7 @@ The most important thing to remember is to provide real value – think of it as
 \
 **I hope you enjoy it!**
 
-{{% youtube vCR5eO8qhOI %}}
+{{< youtube vCR5eO8qhOI >}}
 
 **Want to learn more?** 
 

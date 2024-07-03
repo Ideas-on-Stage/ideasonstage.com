@@ -50,19 +50,11 @@ In summary, Dan Roam emphasised the transformative power of visual storytelling.
 
 So, let's grab our pens, draw our stories, and tap into our inner visual language, ready to be unleashed.
 
-
-
 **Missed the event? Watch the full recording**
-
-
 
 If you missed the event, you can watch the full recording below. 
 
-
-
-{{% youtube F1vyBMB-esE %}}
-
-
+{{< youtube F1vyBMB-esE >}}
 
 
 
