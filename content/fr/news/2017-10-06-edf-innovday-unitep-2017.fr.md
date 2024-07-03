@@ -1,11 +1,12 @@
 +++
-draft		= false
-title		= "EDF InnovDay UNITEP 2017"
-tags		= ["Coaching","Paris","Lyon","Client"]
-news		= ["general"]
-date		= "2017-10-06"
-author		= "Pierre Morsa"
-banner		= "/img/news/SolarPanels.jpg"
+draft			= false
+title			= "EDF InnovDay UNITEP 2017"
+tags			= ["Coaching","Paris","Lyon","Client"]
+news			= ["general"]
+date			= "2017-10-06"
+author			= "Pierre Morsa"
+banner			= "/img/news/SolarPanels.jpg"
+translationKey	= "2017-10-06-edf-innovday-unitep-2017"
 +++
 L'innovation est au cœur de la compétitivité des grands groupes ; c'est pourquoi [EDF](https://www.edf.fr/en/the-edf-group) (Électricité de France S.A.) UNITEP a organisé un challenge pour promouvoir et récompenser l'esprit d'innovation qui anime ses équipes.
 

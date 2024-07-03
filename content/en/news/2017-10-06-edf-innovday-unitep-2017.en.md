@@ -1,11 +1,12 @@
 +++
-draft		= false 
-title		= "EDF InnovDay UNITEP 2017"
-tags		= ["Coaching","Paris","Lyon","Client","Innovation","Pitch"]
-news		= ["general"]
-date		= "2017-10-06"
-author		= "Pierre Morsa"
-banner		= "/img/news/SolarPanels_thumb.jpg"
+draft			= false 
+title			= "EDF InnovDay UNITEP 2017"
+tags			= ["Coaching","Paris","Lyon","Client","Innovation","Pitch"]
+news			= ["general"]
+date			= "2017-10-06"
+author			= "Pierre Morsa"
+banner			= "/img/news/SolarPanels_thumb.jpg"
+translationKey	= "2017-10-06-edf-innovday-unitep-2017"
 +++
 Innovation is at the heart of what keeps large companies competitive. This is why [EDF](https://www.edf.fr/en/the-edf-group) (Electricity of France) UNITEP organized a challenge to promote and reward internal innovative projects.
 

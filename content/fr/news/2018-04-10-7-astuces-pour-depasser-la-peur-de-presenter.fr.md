@@ -1,11 +1,12 @@
 +++
-draft = false
-title = "7 astuces pour dépasser la peur de présenter"
-tags = ["stress", "peur", "présentation", "trac"]
-news = ["general"]
-date = "2018-04-09"
-author = "Michael Rickwood"
-banner = "/img/news/7tips_thumb.jpg"
+draft			= false
+title			= "7 astuces pour dépasser la peur de présenter"
+tags			= ["stress", "peur", "présentation", "trac"]
+news			= ["general"]
+date			= "2018-04-09"
+author			= "Michael Rickwood"
+banner			= "/img/news/7tips_thumb.jpg"
+translationKey	= "2018-04-10-7-tips-for-overcoming-the-fear-of-presenting"
 +++
 > La peur n'enlève pas le danger. Acceptez la et améliorez vos présentations).
 

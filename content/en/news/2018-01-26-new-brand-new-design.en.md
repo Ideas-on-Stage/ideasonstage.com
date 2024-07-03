@@ -1,11 +1,12 @@
 +++
-draft		= false
-title		= "New brand, new design"
-news		= ["general"]
-tags		= ["Design","Brand"]
-date		= "2018-01-26"
-author		= "Pierre Morsa"
-banner		= "/img/news/2018-01-26-thumb.jpg"
+draft			= false
+title			= "New brand, new design"
+news			= ["general"]
+tags			= ["Design","Brand"]
+date			= "2018-01-26"
+author			= "Pierre Morsa"
+banner			= "/img/news/2018-01-26-thumb.jpg"
+translationKey	= "2018-01-26-new-brand-new-design"
 +++
 
 ![Santa sees our new brand](/img/news/2018-01-26-banner.jpg)

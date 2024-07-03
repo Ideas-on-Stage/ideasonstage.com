@@ -1,11 +1,12 @@
 +++
-draft		= false
-title		= "Lost in Transition ?"
-tags		= ["Événement","France","Technologie","Futur"]
-news		= ["general"]
-date		= "2017-08-31"
-author		= "Rose Bloomfield"
-banner		= "img/news/bordeaux_thumb.jpg"
+draft			= false
+title			= "Lost in Transition ?"
+tags			= ["Événement","France","Technologie","Futur"]
+news			= ["general"]
+date			= "2017-08-31"
+author			= "Rose Bloomfield"
+banner			= "img/news/bordeaux_thumb.jpg"
+translationKey  = "2017-08-31-lost-in-transition"
 +++
 Cet été, Ideas on Stage en partenariat avec la fine équipe de [Set'Event](https://www.set-event.com) a accompagné une poignée de citoyens bienveillants, concernés et déterminés à donner des présentations riches en contenu lors du 15e anniversaire de l'événement annuel [ACIDD](https://www.acidd.fr), qui s'est tenu à Bordeaux les 28-29 Août. Le thème de l'année : « Lost in Transition : the time of possibilities ». Tout un programme !
 

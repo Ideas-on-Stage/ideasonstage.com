@@ -1,11 +1,12 @@
 +++
-draft		= false
-title		= "Can Women Pitch As Well As Men?"
-tags		= ["Women","Entrepreneur","Events","Pitch","Paris","Business"]
-news	= ["general"] 
-date		= "2017-09-01"
-author	= "Rose Bloomfield"
-banner	= "img/news/be_a_boss_thumb.jpg"
+draft			= false
+title			= "Can Women Pitch As Well As Men?"
+tags			= ["Women","Entrepreneur","Events","Pitch","Paris","Business"]
+news			= ["general"] 
+date			= "2017-09-01"
+author			= "Rose Bloomfield"
+banner			= "img/news/be_a_boss_thumb.jpg"
+translationKey	= "2017-09-01-can-women-pitch-as-well-as-men"
 +++
 It’s a simple fact that most successful startups are run by men. Why? Firstly, there are more men than women who decide - or dare - to start companies. Secondly, men are [more successful at raising funds than women](http://fortune.com/2017/03/13/female-founders-venture-capital/), and even those women who do raise funds end up raising less, on average, than their male counterparts. Having spent two years playing in the Silicon Valley arena myself, I’ve seen this truth first hand both in California and now in France. It’s a sad state of affairs, and it needs to change.
 

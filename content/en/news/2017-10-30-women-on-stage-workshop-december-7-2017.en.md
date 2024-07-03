@@ -1,11 +1,12 @@
 +++
-draft		= false
-title		= "The Women on Stage Workshop Returns Dec 7"
-tags		= ["Coaching","Paris","Lyon","Client","Women","Business"]
-news		= ["general"]
-date		= "2017-10-30"
-author		= "Marion Chapsal"
-banner		= "/img/news/wos_workshop_thumb.jpg"
+draft			= false
+title			= "The Women on Stage Workshop Returns Dec 7"
+tags			= ["Coaching","Paris","Lyon","Client","Women","Business"]
+news			= ["general"]
+date			= "2017-10-30"
+author			= "Marion Chapsal"
+banner			= "/img/news/wos_workshop_thumb.jpg"
+translationKey	= "2017-10-30-women-on-stage-workshop-december-7-2017"
 +++
 This December 7th in an elegant boardroom along the Champs-Elysée something powerful will take place: the beloved Women on Stage workshop will return by popular demand led by [Marion Chapsal](https://www.ideasonstage.com/team/marion-chapsal/), Chief Learning Officer and Speaking Coach. Spaces are limited to allow space for each voice and leader to present and receive personalized feedback.
 

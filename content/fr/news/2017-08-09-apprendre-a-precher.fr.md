@@ -1,11 +1,12 @@
 +++
-draft		= false
-title		= "Apprendre à prêcher"
-tags		= ["France","Entrainement","Religion"]
-news		= ["general"]
-date		= "2017-08-29"
-author		= "Phil Waknell"
-banner		= "img/news/teaching_preaching_thumb.jpg"
+draft			= false
+title			= "Apprendre à prêcher"
+tags			= ["France","Entrainement","Religion"]
+news			= ["general"]
+date			= "2017-08-29"
+author			= "Phil Waknell"
+banner			= "img/news/teaching_preaching_thumb.jpg"
+translationKey	= "2017-08-29-who-teaches-the-preachers"
 +++
 Le besoin de captiver et d'inspirer son public n'est pas réservé aux dirigeants, aux commerciaux ou encore aux entrepreneurs. Depuis des millénaires, bien avant l'apparition de PowerPoint, on ne trouvait pas les orateurs les plus talentueux dans un commerce ou dans bureau, mais dans les lieux de culte.
 

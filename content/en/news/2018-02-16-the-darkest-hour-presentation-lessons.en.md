@@ -1,11 +1,12 @@
 +++
-draft		= false
-title		= "3 presentation lessons from The Darkest Hour"
-tags		= ["Presentations","Tips"]
-news		= ["general"]
-date		= "2018-02-16"
-author		= "Marion Chapsal"
-banner		= "/img/news/2018-02-16-banner.jpg"
+draft			= false
+title			= "3 presentation lessons from The Darkest Hour"
+tags			= ["Presentations","Tips"]
+news			= ["general"]
+date			= "2018-02-16"
+author			= "Marion Chapsal"
+banner			= "/img/news/2018-02-16-banner.jpg"
+translationKey	= "2018-02-16-the-darkest-hour-presentation-lessons"
 +++
 Have you seen Gary Oldman in his interpretation of Churchill in the latest biopic by Joe Wright? If you have not, please go. It’s jaw-dropping. His outstanding performance may very soon win him an Oscar. You will enjoy some of the finest acting and also benefit from precious presentation lessons from the Master Orator.
 

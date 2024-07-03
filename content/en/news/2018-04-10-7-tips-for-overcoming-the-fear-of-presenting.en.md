@@ -1,11 +1,12 @@
 +++
-draft = false
-title = "7 Tips for Overcoming the Fear of Presenting"
-tags = ["Stage fright", "Presenting", "Fear","Public Speaking"]
-news = ["general"]
-date = "2018-04-09"
-author = "Michael Rickwood"
-banner = "/img/news/7tips_thumb.jpg"
+draft			= false
+title			= "7 Tips for Overcoming the Fear of Presenting"
+tags			= ["Stage fright", "Presenting", "Fear","Public Speaking"]
+news			= ["general"]
+date			= "2018-04-09"
+author			= "Michael Rickwood"
+banner			= "/img/news/7tips_thumb.jpg"
+translationKey	= "2018-04-10-7-tips-for-overcoming-the-fear-of-presenting"
 +++
 > Fear doesn't remove the danger. Embrace it and get on top of your presentations.
 

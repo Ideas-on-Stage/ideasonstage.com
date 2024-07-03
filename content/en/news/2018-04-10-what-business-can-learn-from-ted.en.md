@@ -1,11 +1,12 @@
 +++
-draft = false
-title = "What Business Can Learn From TED"
-tags = ["TED", "TEDx", "Business Presentation", "Tips","Presentations","Business"]
-news = ["general"]
-date = "2018-04-10"
-author = "Phil Waknell"
-banner = "/img/news/ted-thumb.jpg"
+draft			= false
+title			= "What Business Can Learn From TED"
+tags			= ["TED", "TEDx", "Business Presentation", "Tips","Presentations","Business"]
+news			= ["general"]
+date			= "2018-04-10"
+author			= "Phil Waknell"
+banner			= "/img/news/ted-thumb.jpg"
+translationKey	= "2018-04-10-what-business-can-learn-from-ted"
 +++
 Today marks the start of TED2018, the latest edition of the world's best-known modern conference. Participants in Vancouver will be treated to high-quality talks from well-prepared speakers, and will leave feeling energized and inspired.
 
