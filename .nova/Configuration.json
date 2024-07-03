@@ -3,38 +3,10 @@
 
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
-    "markdown",
-    "plaintext"
+    "markdown"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/_index.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/data\/inserts\/guideremotepresentations.toml",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/guides\/comment-presenter-a-distance\/index.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/ateliers-evenement-entreprise\/_index.fr.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/supports\/art-oratoire\/index.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/news\/2023-11-03-seth_godin_ou_comment_propager_vos_idees_-_le_podcast_ideas_on_stage.fr.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/news\/2019-06-25-dois-je-bouger-sur-scene-lorsque-je-parle.fr.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/business-presentation-revolution\/book\/thankyou\/_index.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/business-presentation-revolution\/book\/bonus-content\/stage-4-illustration\/_index.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/business-presentation-revolution\/book\/bonus-content\/stage-5-connection\/_index.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/business-presentation-revolution\/book\/bonus-content\/stage-3-creation\/_index.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/business-presentation-revolution\/book\/bonus-content\/stage-1-foundation\/_index.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/business-presentation-revolution\/book\/bonus-content\/stage-2-ideation\/_index.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2019-06-25-should-i-move-on-stage-when-speaking.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2023-11-21-captivate_your_audience_with_visual_storytelling.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2024-06-12-jeremy_connell-waite_on_how_to_tell_better_stories_-_the_ideas_on_stage_podcast.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2023-06-19-seth_godin_on_how_to_get_your_ideas_to_spread_the_ideas_on_stage_podcast.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2022-12-12-communication_secrets_that_power_amazons_success.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2023-12-13-john_roussot_on_personal_mastery_and_professional_excellence_-_the_ideas_on_stage_podcast.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2024-03-23-introducing_the_yodel_technique_a_scientifically_backed_method_to_maintain_high_audience_attention.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2023-03-14-zen_and_the_art_of_presenting_with_impact.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2024-01-17-matt_abrahams_on_spontaneous_speaking_-_the_ideas_on_stage_podcast.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2023-06-12-brain_rules_for_effective_communication.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2024-04-10-mastering_the_art_of_spontaneous_speaking.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2024-05-15-phil_waknell_on_how_to_captivate_a_million_minds_-_the_ideas_on_stage_podcast_1.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2024-02-14-nicole_lowenbraun_on_adaptive_listening_-_the_ideas_on_stage_podcast.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2024-06-10-how_personal_storytelling_can_transform_your_business_boost_your_career_and_drive_change_2.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2024-03-13-jack_appleman_on_business_writing_-_the_ideas_on_stage_podcast.en.md"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/_index.md"
   ],
   "workspace.color" : 1
 }

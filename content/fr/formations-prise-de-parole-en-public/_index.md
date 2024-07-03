@@ -22,16 +22,6 @@ translationKey	= "presentations-training"
 		link	= "#contact"	
 +++
 
-## Pourquoi choisir Ideas on Stage ?
-
-- Ideas on Stage est un vrai spécialiste de la prise de parole en entreprise : cela fait plus de 14 ans que nos équipes forment et coachent les cadres et les dirigeants à la prise de parole. L'art de créer et de donner des présentations est notre cœur de métier.
-- Nous avons développé une méthodologie unique, spécifiquement pour répondre aux besoins des présentations en entreprise. Nos clients disent « enfin une méthode efficace ! »
-- Notre équipe de formateurs certifiés est entraînée à l'utilisation et l'enseignement de notre méthodologie. Nous ne faisons pas appel à des formateurs non certifiés.
-- Nos supports de formation sont disponibles sur Internet et régulièrement mis à jour avec du nouveau contenu et de nouveaux exercices.
-- Chaque participant reçoit un cahier d'exercices imprimé complet.
-- Nous respectons chaque personne, nous laissons les différences s'exprimer pour que chacun puisse trouver le « style » qui lui correspond.
-- Nous avons un portefeuille de clients et de grandes écoles qui peuvent attester de la qualité de nos formations.
-
 Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateur. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.
 
 Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais experts, reconnus dans le monde de l'entreprise.
@@ -45,14 +35,14 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 
 {{< space-medium style="bg-white" >}}
 
-{{< space-medium style="bg-white" >}}
-
 {{< image-wide src="/img/image-wide/presenter-001.jpg" alt="Intervenant en train de réaliser une présentation" >}}
 
 {{< agenda-list style="bg-lightgray" title="Formation Art Oratoire">}}
 	{{< agenda-item title="" description="Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations." >}}
 	{{% call-to-action button="En savoir plus" link="/fr/formation-art-oratoire/" %}}
 {{< /agenda-list >}}
+
+{{< space-medium style="bg-white" >}}
 
 {{< image-wide src="/img/image-wide/working-001.jpg" alt="Storytelling" >}}
 
@@ -71,6 +61,16 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 {{< /agenda-list >}}
 
 {{< space-medium style="bg-white" >}}
+
+## Pourquoi choisir Ideas on Stage ?
+
+- Ideas on Stage est un vrai spécialiste de la prise de parole en entreprise : cela fait plus de 14 ans que nos équipes forment et coachent les cadres et les dirigeants à la prise de parole. L'art de créer et de donner des présentations est notre cœur de métier.
+- Nous avons développé une méthodologie unique, spécifiquement pour répondre aux besoins des présentations en entreprise. Nos clients disent « enfin une méthode efficace ! »
+- Notre équipe de formateurs certifiés est entraînée à l'utilisation et l'enseignement de notre méthodologie. Nous ne faisons pas appel à des formateurs non certifiés.
+- Nos supports de formation sont disponibles sur Internet et régulièrement mis à jour avec du nouveau contenu et de nouveaux exercices.
+- Chaque participant reçoit un cahier d'exercices imprimé complet.
+- Nous respectons chaque personne, nous laissons les différences s'exprimer pour que chacun puisse trouver le « style » qui lui correspond.
+- Nous avons un portefeuille de clients et de grandes écoles qui peuvent attester de la qualité de nos formations.
 
 {{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
 	{{< icon-item icon="logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
@@ -96,11 +96,11 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 
 > Nous réalisons également d'autres formations spécialisées et sur-mesure en fonction de vos besoins spécifiques. Négociation, réunions difficiles, intervention lors de conférences, posture de leadership sur scène, …
 
+## Notre méthodologie
+
 Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise en pratique immédiate autour d'études de cas basées sur votre cœur de métier. Ces modules sont d'une durée d'une journée. Si vous le souhaitez, nous pouvons les combiner en une formation de deux ou trois jours.
 
 Nos formations sont données uniquement en intra-entreprises.
-
-
 
 {{< picture1-text2 picture="trois-cercles.svg" title="Une formation en prise de parole en public complète et moderne" style="border" >}}
 En 2010, Ideas on Stage a été le premier acteur à amener une méthode de présentation moderne et complète, basée sur l'état de l'art. Cette méthode combine les trois piliers d'une bonne présentation : histoire, visuels et art oratoire, pour communiquer efficacement son message.
