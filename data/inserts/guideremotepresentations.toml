@@ -2,7 +2,7 @@
 	title		= "Comment présenter à distance"
 	layout		= "inserts/module-half-text-picture.html"
 	style		= "bg-lightgray"
-	picture		= "/fr/comment-presenter-a-distance/remote-presentations.jpg"
+	picture		= "/fr/comment-presenter-a-distance/presentations-a-distance.jpg"
 	url			= "/fr/comment-presenter-a-distance/"
 	description	= "Notre guide gratuit."
 	button		= "Lire le guide"

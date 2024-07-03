@@ -1,0 +1,185 @@
+# !!! TEST A REDIRECTION AFTER MODIFYING THE FILE TO BE SURE IT'S CORRECT
+# 1 mistake and the whole file may be ignored by Netlify
+
+# redirect .es .fr .it
+[[redirects]]
+	from			= "https://www.ideasonstage.es/*"	
+	to				= "https://www.ideasonstage.com/es/:splat"
+	status			= 301
+	force			= true
+[[redirects]]
+	from			= "https://www.ideasonstage.fr/*"	
+	to				= "https://www.ideasonstage.com/fr/:splat"
+	status			= 301
+	force			= true
+[[redirects]]
+	from			= "https://www.ideasonstage.it/*"	
+	to				= "https://www.ideasonstage.com/"
+	status			= 301
+	force			= true
+
+# redirect catalogue
+[[redirects]]
+	from			= "https://catalogue.ideasonstage.com/*"	
+	to				= "https://www.ideasonstage.com/guides/ideasonstage-catalogue-en.pdf"
+	status			= 301
+	force			= true	
+[[redirects]]
+	from			= "https://catalogue.ideasonstage.com/fr/*"
+	to				= "https://www.ideasonstage.com/guides/ideasonstage-catalogue-fr.pdf"
+	status			= 301
+	force			= true
+	
+# redirect in (linkedin)
+[[redirects]]
+	from			= "https://www.ideasonstage.com/in/"
+	to				= "https://www.linkedin.com/company/ideas-on-stage/"
+	status			= 301
+	force			= true
+[[redirects]]
+	from			= "https://in.ideasonstage.com/*"
+	to				= "https://www.linkedin.com/company/ideas-on-stage/"
+	status			= 301
+	force			= true
+		
+# redirect revolution
+[[redirects]]
+	from			= "https://revolution.ideasonstage.com/*"
+	to				= "https://www.ideasonstage.com/revolution/"
+	status			= 301
+	force			= true
+[[redirects]]
+	from			= "https://revolution.ideasonstage.com/fr/*"
+	to				= "https://www.ideasonstage.com/fr/revolution/"
+	status			= 301
+	force			= true	
+
+
+# UK Andrea's stuff redirects
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/score/"
+	to				= "https://presentationscorecard.scoreapp.com/"
+	status			= 301
+	force			= true
+[[redirects]]
+	from			= "https://www.ideasonstage.com/uk/score/"
+	to				= "https://presentationscorecard.scoreapp.com/"
+	status			= 301
+	force			= true
+[[redirects]]
+	from			= "https://www.ideasonstage.com/uk/masterclass/"
+	to				= "http://ideasonstageuk.eventbrite.com/"
+	status			= 301
+	force			= true
+[[redirects]]
+	from			= "https://www.ideasonstage.com/uk/bpr-pdf/"
+	to				= "https://mailchi.mp/7b5193d808cb/bpr-pdf"
+	status			= 301
+	force			= true
+[[redirects]]
+	from			= "https://www.ideasonstage.com/uk/value-bundle/"
+	to				= "https://mailchi.mp/5975bea9212e/value-bundle/"
+	status			= 301
+	force			= true
+
+	
+# Temporary page redirects, url change
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/business-presentation-revolution/"
+	to				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-prise-de-parole-en-public/"
+	to				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/formations-ateliers/*"
+	to				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/:splat"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/corporate-communication/*"
+	to				= "https://www.ideasonstage.com/communication-consulting/:splat"
+	status			= 301
+	force			= true
+
+
+# Temporary for duplicate different from Google canonical problem
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/handicap/"
+	to				= "https://www.ideasonstage.com/rse/"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/handicap/"
+	to				= "https://www.ideasonstage.com/rse/"
+	status			= 301
+	force			= true
+
+# Redirect of training pages
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-storytelling/"
+	to				= "https://www.ideasonstage.com//fr/formation-storytelling/"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-art-oratoire/"
+	to				= "https://www.ideasonstage.com//fr/formation-art-oratoire/"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-visuels-powerpoint/"
+	to				= "https://www.ideasonstage.com//fr/formation-presentations-powerpoint/"
+	status			= 301
+	force			= true
+
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/services/communication-consulting/audience-transformation-roadmap/ATR_template_Ideas_on_Stage.pdf"
+	to				= "https://www.ideasonstage.com/files/ATR_template_Ideas_on_Stage.pdf"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/evenements-entreprise/ateliers-lego-serious-play/"
+	to				= "https://www.ideasonstage.com/fr/ateliers-evenement-entreprise/ateliers-lego-serious-play/"
+	status			= 301
+	force			= true
+	
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/services/conseil-communication/storytelling-et-ecriture/"
+	to				= "https://www.ideasonstage.com/fr/conseil-communication/storytelling-et-ecriture/"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/services/*"
+	to				= "https://www.ideasonstage.com/:splat"
+	status			= 301
+	force			= true
+	
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/services/*"
+	to				= "https://www.ideasonstage.com/fr/:splat"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/es/services/*"
+	to				= "https://www.ideasonstage.com/es/:splat"
+	status			= 301
+	force			= true
+
+

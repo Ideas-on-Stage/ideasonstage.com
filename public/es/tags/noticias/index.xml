@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Noticias on Ideas on Stage</title>
+    <link>http://localhost:1313/es/tags/noticias/</link>
+    <description>Recent content in Noticias on Ideas on Stage</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <copyright>© Ideas on Stage 2010 - </copyright>
+    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/noticias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acabemos con la discriminación</title>
+      <link>http://localhost:1313/es/noticias/2020-06-05-let-s-end-discrimination/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/noticias/2020-06-05-let-s-end-discrimination/</guid>
+      <description>Los acontecimientos recientes muestran que la discriminación causa muertes, y esto tiene que parar. Muchas minorías, no sólo en Estados Unidos, sino en todo el mundo, sufren injusticias a diario por la sola causa de su color de piel, su género o sus creencias. En Ideas on Stage nuestra posición es sencilla: la discriminación en cualquiera de sus formas, es inaceptable y tenemos que combatirla activamente.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Innovation on Ideas on Stage</title>
+    <link>http://localhost:1313/tags/innovation/</link>
+    <description>Recent content in Innovation on Ideas on Stage</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage 2010 - </copyright>
+    <lastBuildDate>Fri, 06 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/innovation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EDF InnovDay UNITEP 2017</title>
+      <link>http://localhost:1313/news/2017/10/06/2017-10-06-edf-innovday-unitep-2017/</link>
+      <pubDate>Fri, 06 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2017/10/06/2017-10-06-edf-innovday-unitep-2017/</guid>
+      <description>Innovation is at the heart of what keeps large companies competitive. This is why EDF (Electricity of France) UNITEP organized a challenge to promote and reward internal innovative projects.&#xA;For the fourth year in a row, Ideas on Stage collaborated with EDF to coach said Innovators. We helped each group build a strong and original three-minute presentation on their innovation.&#xA;True to our methodology, we worked on developing the four elements of an impactful presentation: message, story, visuals and speaking.</description>
+    </item>
+  </channel>
+</rss>

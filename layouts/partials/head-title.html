@@ -10,10 +10,12 @@
 	{{ else if .Params.Title }}
     {{/* <!-- Front matter title if defined for page --> */}}
 		{{ (printf "%s | %s %s" .Params.Title site.Title site.Params.Country) | truncate 70 }}
-		{{ if .Paginator }}
-			{{ if ge .Paginator.PageNumber 2 }}
-        {{/* <!-- Add page number for multiple pages --> */}}
-				| Page {{ .Paginator.PageNumber }}
+		{{ if .IsSection }}
+			{{ if .Paginator }}
+				{{ if ge .Paginator.PageNumber 2 }}
+		        	{{/* <!-- Add page number for multiple pages --> */}}
+					| Page {{ .Paginator.PageNumber }}
+				{{ end }}
 			{{ end }}
 		{{ end }}
 	{{ else if and .Params.position .Params.Name }}

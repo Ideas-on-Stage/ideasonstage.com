@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Evenement on Ideas on Stage</title>
+    <link>http://localhost:1313/fr/tags/evenement/</link>
+    <description>Recent content in Evenement on Ideas on Stage</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage 2010 - </copyright>
+    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/tags/evenement/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qu’est-ce qui rend un événement incroyable et source d’évolution culturelle ?</title>
+      <link>http://localhost:1313/fr/news/2019/05/15/2019-05-16-qu_est-ce_qui_rend_un_evenement_incroyable_et_source_d_evolution_culturelle/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/news/2019/05/15/2019-05-16-qu_est-ce_qui_rend_un_evenement_incroyable_et_source_d_evolution_culturelle/</guid>
+      <description>Étude de cas de la conférence des Directeurs Généraux de Mövenpick Hotels &amp;amp; Resorts, qui s’est tenue à Regensdorf, en Suisse, en 2018.&#xA;Au matin d’un beau jour de septembre à Paris, j’étais assise avec une collègue dans une élégante salle à manger pour y rencontrer un certain Olivier Chavy, Président de Mövenpick Hotels &amp;amp; Resorts.&#xA;Tout juste 8 heures du matin et nous étions déjà plongés dans les affaires : la vision et les objectifs d’Olivier pour la conférence des Directeurs Généraux prévue au printemps 2018.</description>
+    </item>
+    <item>
+      <title>TEDx Saclay : une réussite trois ans de suite</title>
+      <link>http://localhost:1313/fr/news/2017/12/01/2017-12-01-tedxsaclay/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/news/2017/12/01/2017-12-01-tedxsaclay/</guid>
+      <description>Pour la troisième année, Ideas on Stage est l&amp;rsquo;heureux partenaire de la conférence TEDx Saclay qui a eu lieu le 30 novembre 2017 dans les tous nouveaux locaux de CentraleSupélec sur le plateau de Saclay sur le thème : Au service du Vivant.&#xA;TEDx Saclay Cette année encore, le programme des intervenants est très riche avec des invités prestigieux comme Cédric Villani (mathématicien de renom et député de l&amp;rsquo;Essonne) mais aussi des artistes, des scientifiques, des étudiants, des entrepreneurs et une spécialiste de « e-sport » qui interviennent sur des sujets aussi divers que l&amp;rsquo;astrophysique (Miho Janvier), la lutte contre le cancer (André Choulika), les papillons (Maëlle Vilbert), le blockchain (Anca Petre) ou les jeux vidéos (Kayane).</description>
+    </item>
+  </channel>
+</rss>

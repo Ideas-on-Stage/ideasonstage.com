@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestion De Crise on Ideas on Stage</title>
+    <link>http://localhost:1313/fr/tags/gestion-de-crise/</link>
+    <description>Recent content in Gestion De Crise on Ideas on Stage</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage 2010 - </copyright>
+    <lastBuildDate>Tue, 16 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/tags/gestion-de-crise/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>« Les autres aussi ! » : l&#39;erreur fatale de communication de Zoom</title>
+      <link>http://localhost:1313/fr/news/2019/07/16/2019-07-16-les-autres-aussi-l-erreur-fatale-de-communication-de-zoom/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/news/2019/07/16/2019-07-16-les-autres-aussi-l-erreur-fatale-de-communication-de-zoom/</guid>
+      <description>Vous avez peut-être entendu parler du problème de sécurité découvert dans Zoom, qui permettait aux malandrins d’activer la caméra de l’ordinateur à distance. Zoom est une application utilisée pour faire des vidéoconférences par internet. Elle fonctionne bien et a été largement adoptée par les entreprises et les indépendants cherchant à fournir un service de qualité aux employés travaillant à distance ou sur des sites différents.&#xA;Le problème de sécurité lui-même était facile à corriger, et, à l’heure de cet article, doit déjà être de l’histoire ancienne.</description>
+    </item>
+  </channel>
+</rss>

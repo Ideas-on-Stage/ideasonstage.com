@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TEDxSaclay on Ideas on Stage</title>
+    <link>http://localhost:1313/tags/tedxsaclay/</link>
+    <description>Recent content in TEDxSaclay on Ideas on Stage</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage 2010 - </copyright>
+    <lastBuildDate>Wed, 29 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tedxsaclay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> The 3 Magic Ingredients of Great Presentations</title>
+      <link>http://localhost:1313/news/2020/01/29/2020-01-29-the_3_magic_ingredients_of_great_presentations/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2020/01/29/2020-01-29-the_3_magic_ingredients_of_great_presentations/</guid>
+      <description>Is there a perfect recipe for a successful presentation? No. Partly it depends on the audience and the context: a boardroom presentation shouldn’t look like a TED talk, even if the subject is the same. And different presentations at the same event – a conference, a demo day, an Executive Committee meeting – should also look different from each other, because otherwise none of them will stand out.&#xA;So if there is no magic formula, are there at least some key ingredients we should always include?</description>
+    </item>
+  </channel>
+</rss>

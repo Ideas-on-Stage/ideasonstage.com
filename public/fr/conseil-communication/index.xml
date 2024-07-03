@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conseil en communication on Ideas on Stage</title>
+    <link>http://localhost:1313/fr/conseil-communication/</link>
+    <description>Recent content in Conseil en communication on Ideas on Stage</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage 2010 - </copyright>
+    <atom:link href="http://localhost:1313/fr/conseil-communication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parcours de Transformation de l’Auditoire™</title>
+      <link>http://localhost:1313/fr/conseil-communication/parcours-transformation-auditoire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/conseil-communication/parcours-transformation-auditoire/</guid>
+      <description>La plupart des gens font des présentations pour partager des informations, ce qui est une perte de temps pour tout le monde car nous oublions la plupart de ce que nous entendons très rapidement.&#xA;Si vous voulez partager des informations, distribuez un document écrit à vos collaborateurs et laissez-leur le temps de le lire - puis discutez-en. C’est ainsi qu’Amazon gère les réunions, et cela fonctionne parce que c’est ainsi que le cerveau humain est fait.</description>
+    </item>
+    <item>
+      <title>Présentations stratégiques</title>
+      <link>http://localhost:1313/fr/conseil-communication/strategie-communication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/conseil-communication/strategie-communication/</guid>
+      <description>Nous vous créons une présentation pour répondre à des enjeux forts, quel que soit le public Nous vous aiderons à mettre en forme votre stratégie de communication et à la transformer en une histoire captivante illustrée par des visuels étonnants. Nous vous aiderons à inspirer et à motiver vos employées depuis la scène, à lancer de nouveaux produits ou services, à gagner des ventes très disputées, à construire une présentation d&amp;rsquo;entreprise et bien plus !</description>
+    </item>
+    <item>
+      <title>Storytelling et Écriture</title>
+      <link>http://localhost:1313/fr/conseil-communication/storytelling-et-ecriture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/conseil-communication/storytelling-et-ecriture/</guid>
+      <description>Pourquoi nous souvenons-nous des histoires, mais oublions la présentation d&amp;rsquo;hier ? Votre présentation a été reçue, mais sera-t-elle lue ? Chaque année les entreprises créent des millions de présentations et de documents. Pourtant la plupart sont ennuyeux, difficiles à lire et n&amp;rsquo;ont pas d&amp;rsquo;objectif suffisamment précis. L&amp;rsquo;information est là, mais elle n&amp;rsquo;est pas mémorable. Mais cela peut changer. Les présentations et les documents peuvent être clairs, intéressants et communiquer un message efficacement ; ils ne sont pas voués à amasser la poussière dans un coin.</description>
+    </item>
+  </channel>
+</rss>

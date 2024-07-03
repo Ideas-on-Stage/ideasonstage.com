@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brand on Ideas on Stage</title>
+    <link>http://localhost:1313/tags/brand/</link>
+    <description>Recent content in Brand on Ideas on Stage</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage 2010 - </copyright>
+    <lastBuildDate>Fri, 26 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/brand/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New brand, new design</title>
+      <link>http://localhost:1313/news/2018/01/26/2018-01-26-new-brand-new-design/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2018/01/26/2018-01-26-new-brand-new-design/</guid>
+      <description>I am not a naive man. I have reasonable doubts that Santa does not really exist. So instead of writing a letter that I knew he would not answer I thought it was time to refresh the Ideas on Stage Brand, which hasn’t changed since the creation of the company in 2010.&#xA;We started with the font. We really love Gotham, the masterpiece from Tobias Frere-Jones. Its iconic design is built on a strong lineage of geometric sans serif fonts.</description>
+    </item>
+  </channel>
+</rss>

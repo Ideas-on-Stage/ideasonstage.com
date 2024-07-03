@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Ideas on Stage</title>
+    <link>http://localhost:1313/fr/tags/design/</link>
+    <description>Recent content in Design on Ideas on Stage</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <copyright>© Ideas on Stage 2010 - </copyright>
+    <lastBuildDate>Tue, 10 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/fr/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les trois problèmes les plus fréquents des présentations, d&#39;après Dave Paradi, expert PowerPoint</title>
+      <link>http://localhost:1313/news/2019-12-10-trois-problemes-plus-frequents-presentation-powerpoint/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2019-12-10-trois-problemes-plus-frequents-presentation-powerpoint/</guid>
+      <description>Dave Paradi, un expert des présentations PowerPoint, a publié les résultats de son étude « annoying PowerPoint ». Nous n’allons pas discuter de tous les résultats ici, mais ce qui est clair c’est que le top 3 n’a pas beaucoup changé depuis plusieurs années. Vous pourriez probablement les deviner simplement en vous demandant « qu’est-ce que je n’aime pas dans les présentations PowerPoint ? » Le top 3 des problèmes est :</description>
+    </item>
+    <item>
+      <title>Nouvelle année, nouveau look</title>
+      <link>http://localhost:1313/fr/news/2018/01/26/2018-01-26-new-brand-new-design/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/news/2018/01/26/2018-01-26-new-brand-new-design/</guid>
+      <description>Je ne suis pas naïf. J&amp;rsquo;ai de sérieux doutes sur l&amp;rsquo;existence réelle du Père Noël. Aussi cette année ai-je décidé de ne pas lui écrire une lettre à laquelle il n&amp;rsquo;aurait de toutes façons pas répondu. Au lieu de cela je me suis dit qu&amp;rsquo;il était temps de rafraîchir l&amp;rsquo;image d&amp;rsquo;Ideas on Stage, qui n&amp;rsquo;avait pas changé depuis la création de la société en 2010.&#xA;Nous avons commencé par choisir une nouvelle police de caractères.</description>
+    </item>
+  </channel>
+</rss>

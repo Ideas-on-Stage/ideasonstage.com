@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on Ideas on Stage</title>
+    <link>http://localhost:1313/resources/</link>
+    <description>Recent content in Resources on Ideas on Stage</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage 2010 - </copyright>
+    <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Confident Presenter Book</title>
+      <link>http://localhost:1313/resources/confident-presenter-book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/confident-presenter-book/</guid>
+      <description>Become a more credible, confident and convincing presenter. Learn the five key principles to communicate a compelling message that inspires action, growth and impact.&#xA;&amp;ldquo;Improving your presentation skills can change your life forever, and this book will give you the power to make that change.&amp;rdquo; —Garr Reynolds, Author of Presentation Zen&#xA;Now Officially Included in New York University’s Business Communication Courses&#xA;ORDER NOW Discover your presentation score To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book.</description>
+    </item>
+    <item>
+      <title>The Ideas on Stage Podcast</title>
+      <link>http://localhost:1313/resources/podcast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/podcast/</guid>
+      <description>Do you enjoy listening to podcasts? Are you interested in leadership and communication? Then you might enjoy the Ideas on Stage Podcast.&#xA;Once or twice a month, we publish a new discussion about leadership, communication or both, featuring special guests from around the world: authors, trainers, speakers, business leaders… including renowned experts like Seth Godin, Garr Reynolds, Patti Sanchez, Dr John Medina, Carmine Gallo, Dan Roam.&#xA;You can find the Ideas on Stage Podcast on all major platforms, using the links below.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,5 +1,9 @@
 {
   "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "git pull\ngit add -A\ngit commit -m \\\"Website update.\\\"\ngit push"
+    },
     "run" : {
       "enabled" : true,
       "script" : "cd \/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\nhugo server  --buildFuture —cleanDestinationDir"

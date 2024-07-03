@@ -1,30 +1,30 @@
-baseURL					 		  	= "https://www.ideasonstage.com/"
-canonifyurls							= false
-copyright						  	= "© Ideas on Stage 2015 - "
+baseURL					= "https://www.ideasonstage.com/"
+canonifyurls			= false
+copyright				= "© Ideas on Stage 2010 - "
 DefaultContentLanguage  = "en"
-paginate					  		= 8
-paginatePath						= "newspage"
-theme        						= "hugo-theme-korporate"
-title         						= "Ideas on Stage"
+paginate				= 8
+paginatePath			= "newspage"
+theme        			= "hugo-theme-korporate"
+title         			= "Ideas on Stage"
 
 [markup]
 	[markup.goldmark]
 		[markup.goldmark.renderer]
-      unsafe						= true	# added to allow raw HTML in page .Content
+      unsafe					= true	# added to allow raw HTML in page .Content
 	[markup.tableOfContents]
-	    startLevel					= 2		# start level for table of contents
-	    endLevel 					= 3		# end level for table of contents
+	    startLevel				= 2		# start level for table of contents
+	    endLevel 				= 3		# end level for table of contents
       		
 [Permalinks]
-  news							  	= "/news/:year/:month/:day/:filename/"
+	news					= "/news/:year/:month/:day/:filename/"
 
 [taxonomies]
-	tag				    				= "tags"
+	tag				    	= "tags"
 
 [params]
-	author				  			= "Ideas on Stage"
-	email 					    		= "info@ideasonstage.com"
-	favicon					  		= "/img/ios_favicon.ico"
+	author					= "Ideas on Stage"
+	email 					= "info@ideasonstage.com"
+	favicon					= "/img/ios_favicon.ico"
 	
 	# ---------------------
 	# Buttons
@@ -39,48 +39,48 @@ title         						= "Ideas on Stage"
 	# ---------------------
 	# CSS
 	[params.css]
-		main					    	= "main.scss"
+		main					= "main.scss"
 		enablebootstrap			= false
-		typography					= "https://cloud.typography.com/6201816/7621392/css/fonts.css"
-		fontawesome					= "/css/font-awesome.min.css"
+		typography				= "https://cloud.typography.com/6201816/7621392/css/fonts.css"
+		fontawesome				= "/css/font-awesome.min.css"
 
 	# ---------------------
 	# Colors
 	[params.colors]
-		link_hover				  	= "#FF8200"
-		text				    		= "#444"
-		text_inv		    		= "white"
-		title_h1				  		= "black"
-		title_h2			  			= "black"
-		title_h3		  				= "black"
-		title_h4			  			= "black"
-		time			  	  		= "#aaa"
-		blockquote				  	= "#00A3E0"		
-		darkgray			  		= "#222"
-		lightgray		  			= "#eee"
-		midgray		  				= "#888"
-		blue			    				= "#00A3E0"
-		orange			  			= "#FF8200"
+		link_hover				= "#FF8200"
+		text				    = "#444"
+		text_inv		    	= "white"
+		title_h1				= "black"
+		title_h2			  	= "black"
+		title_h3		  		= "black"
+		title_h4			  	= "black"
+		time			  	  	= "#aaa"
+		blockquote				= "#00A3E0"		
+		darkgray			  	= "#222"
+		lightgray		  		= "#eee"
+		midgray		  			= "#888"
+		blue			    	= "#00A3E0"
+		orange			  		= "#FF8200"
 				
 	# ---------------------
 	# Layout
 	[params.layout]
 		[params.layout.navigation]
-			height					  = "52px"
+			height				= "52px"
 		[params.layout.page]
 			[params.layout.page.padding]
-				top					    = "52px"
-				right				    = "0"
-				bottom				  = "0"
-				left					    = "0"			
+				top				= "52px"
+				right			= "0"
+				bottom			= "0"
+				left			= "0"			
 		[params.layout.module]
-			height					  = "36vw"
-			height_big				= "56vw"
-			height_ts				  = "140vw" # ts is for tall small screens on smartphones
+			height				= "36vw"
+			height_big			= "56vw"
+			height_ts			= "140vw" # ts is for tall small screens on smartphones
 			[params.layout.module.padding]
-				top					    = "0.5vw"
-				right				    = "0.5vw"
-				bottom		    	= "0.5vw"
+				top				= "0.5vw"
+				right			= "0.5vw"
+				bottom		    = "0.5vw"
 				left					    = "0.5vw"
 			[params.layout.module.padding_ts]
 				top					    = "1vw"
@@ -124,9 +124,10 @@ title         						= "Ideas on Stage"
 ################################
 
 [languages.en]
-	languageName						= "English"
-	languageCode 					= "en"
-	weight  							= "1"
+	languageName		= "English"
+	languageCode 		= "en"
+	contentDir			= "content/en"
+	weight  			= "1"
 
 	[languages.en.params]
 		country  						= "USA"
@@ -310,6 +311,7 @@ title         						= "Ideas on Stage"
 [languages.fr]
 	languageName						= "Français"
 	languageCode 					= "fr"
+	contentDir			= "content/fr"
 	weight 								= "2"
 	
 	[languages.fr.params]
@@ -491,6 +493,7 @@ title         						= "Ideas on Stage"
 [languages.es]
 	languageName						= "Español"
 	languageCode 					= "es"
+	contentDir			= "content/es"
 	weight 								= "3"
 	
 	[languages.es.params]

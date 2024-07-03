@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entrepreneur on Ideas on Stage</title>
+    <link>http://localhost:1313/tags/entrepreneur/</link>
+    <description>Recent content in Entrepreneur on Ideas on Stage</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>© Ideas on Stage 2010 - </copyright>
+    <lastBuildDate>Wed, 04 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/entrepreneur/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Helping Startups Pitch for Social Good</title>
+      <link>http://localhost:1313/news/2017/10/04/2017-10-04-helping-startups-pitch-for-social-good/</link>
+      <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2017/10/04/2017-10-04-helping-startups-pitch-for-social-good/</guid>
+      <description>The Sport Social Business Lab, aka SSBL, is an incubator specialized in sport startups for the social good. It is part of the INCO network.&#xA;Sport startups are no different from other startups: without a good pitch, they don&amp;rsquo;t stand a chance to attract investors and grow. This is why the SSBL asked Ideas on Stage to animate a three-hour pitch workshop.&#xA;As an avid sportsman who has been active in the Startup ecosystem since 2010, cofounder Pierre Morsa was uniquely qualified to deliver this workshop.</description>
+    </item>
+    <item>
+      <title>Can Women Pitch As Well As Men?</title>
+      <link>http://localhost:1313/news/2017/09/01/2017-09-01-can-women-pitch-as-well-as-men/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/2017/09/01/2017-09-01-can-women-pitch-as-well-as-men/</guid>
+      <description>It’s a simple fact that most successful startups are run by men. Why? Firstly, there are more men than women who decide - or dare - to start companies. Secondly, men are more successful at raising funds than women, and even those women who do raise funds end up raising less, on average, than their male counterparts. Having spent two years playing in the Silicon Valley arena myself, I’ve seen this truth first hand both in California and now in France.</description>
+    </item>
+  </channel>
+</rss>

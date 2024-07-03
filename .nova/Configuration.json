@@ -3,16 +3,13 @@
 
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
-    "markdown"
+    "markdown",
+    "plaintext"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/public-speaking-training\/_index.fr.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/_index.fr.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/_index.es.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/business-presentation-revolution\/_index.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/business-presentation-revolution\/book\/_index.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/client-success-stories\/_index.en.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/csr\/index.fr.md"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/_index.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/data\/inserts\/guideremotepresentations.toml",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/guides\/comment-presenter-a-distance\/index.md"
   ],
   "workspace.color" : 1
 }

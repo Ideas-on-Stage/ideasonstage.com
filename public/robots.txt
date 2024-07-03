@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.ideasonstage.com/sitemap.xml
+Sitemap: https://www.ideasonstage.com/en/sitemap.xml
+Sitemap: https://www.ideasonstage.com/fr/sitemap.xml
+Sitemap: https://www.ideasonstage.com/es/sitemap.xml
