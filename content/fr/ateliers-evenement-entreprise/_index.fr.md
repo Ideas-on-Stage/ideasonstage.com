@@ -2,9 +2,8 @@
 draft 			= false
 title 			= "Ateliers pour vos évènements d'entreprise"
 description		= "Des ateliers créatifs pour vous aider à lancer vos projets et renforcer les compétences de vos équipes."
-thumbnail		= "thumbnail.jpg"
 pages			= "bottom"
-picture			= "/workshops/workshops.jpg"
+picture			= "workshops.jpg"
 enablehero		= true
 translationKey	= "workshops"
 +++
