@@ -4,14 +4,16 @@
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
     "plaintext",
-    "yaml",
     "markdown"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
     "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/config\/_default\/config.toml",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/data\/references\/01-fedex.en.yaml",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/references\/_index.md",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/references\/index.md"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/_index.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/news\/2018-10-08-are-you-ready.en.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/ressources\/_index.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/ressources\/women\/index.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/resources\/women\/index.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/resources\/_index.md"
   ],
   "workspace.color" : 1
 }
