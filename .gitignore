@@ -7,6 +7,9 @@
 _disabled/
 _disabled/**
 
+public/
+public/**
+
 isableFastRender/**
 
 public/fr/tags/événement (Conflicto de codificación Unicode) (Conflicto de codificación Unicode)/index.html

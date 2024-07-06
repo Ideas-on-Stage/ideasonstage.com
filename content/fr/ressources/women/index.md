@@ -1,5 +1,5 @@
 +++
-draft 		= true
+draft 		= false
 title 		= "Women, une série de kakemonos célébrant les femmes qui ont changé le monde"
 description	= "Une série de kakemonos avec des citations inspirantes de femmes audacieuses qui ont osé changer le monde."
 categories	= [ "Women on Stage" ]
