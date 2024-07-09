@@ -6,7 +6,7 @@ url				= "/how-to-deliver-presentations-remotely/"
 translationKey  = "guides/how-to-deliver-presentations-remotely"
 picture		 	= "remote-presentations.jpg"
 summary			= "What you need to deliver great presentations remotely: gear, software, setup, animation. We wrote this guide based on ten years of experience delivering professional remote presentations to clients. Note: we don’t earn any money on the software or hardware we recommend in this article. We recommend them based on our experience, but there are many other solutions that might work well."
-insertsbottom	= [ "webinars", "revolution" ]
+insertsbottom	= [ "revolution", "news" ]
 +++
 ## A Good Base Setup for Remote Presentations
 Having a good setup is going to make the remote presentation experience much more enjoyable for your audience. While getting the best possible equipment costs thousands of dollars/euros, we think it’s overkill for most people. There are three key elements you need to pay attention to: ease of access, reliability of the conference and clear audio. In addition, having good video quality is going to look more professional, but you definitely don’t need a high-end cam to achieve good results. Here is a setup that works on Mac and Windows PCs and should deliver a completely satisfactory experience to your viewers:

@@ -13,7 +13,7 @@
 	<meta name="description" property="og:description"  content="{{ .Params.name }} | {{ .Params.position }} | Ideas on Stage">
 {{ else if (eq "tags" .Type) }}
 	{{/* <!-- tags page --> */}}
-	<meta name="description" property="og:description"  content="Pages tagged as {{ .Params.title }} | Ideas on Stage">
+	<meta name="description" property="og:description"  content="Tag {{ .Title }}									{{ range (.GetTerms "tags") }}{{ . }}{{ end }} | Ideas on Stage">
 {{ else }}
 	{{ $desc := .Description }}
 	{{ if .IsSection }}
