@@ -19,7 +19,7 @@ slug:
 collections:
   - name: "news_french" # Used in routes, e.g., /admin/collections/blog
     label: "French Article" # Used in the UI
-    folder: "content/news" # The path to the folder where the documents are stored
+    folder: "content/fr/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     extension: "fr.md"
     format: "toml-frontmatter"
@@ -35,7 +35,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "news_english" # Used in routes, e.g., /admin/collections/blog
     label: "English Article" # Used in the UI
-    folder: "content/news" # The path to the folder where the documents are stored
+    folder: "content/en/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     extension: "en.md"
     format: "toml-frontmatter"
@@ -51,7 +51,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "news_spanish" # Used in routes, e.g., /admin/collections/blog
     label: "Spanish Article" # Used in the UI
-    folder: "content/news" # The path to the folder where the documents are stored
+    folder: "content/es/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     extension: "es.md"
     format: "toml-frontmatter"

@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "We're Finalists in the 2024 Learning Excellence Awards"
-tags = ["Presentations"]
+tags = ["Awards"]
 news = ["general"]
 date = "2023-12-07"
 author = "Andrea Pacini"
