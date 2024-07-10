@@ -20,45 +20,36 @@
 	  <!-- iosmenu start -->
 		<ul class="iosnavbar-menu">
 				
-	    <!-- Services Menu Items -->
-	    {{- range .Site.Params.navigation.items }}
-	    	<li class="iosnavbar-menu-item">
-		    	<a class="page-scroll" href="{{ .url }}">
-						{{ .name }}
-					</a>
-		  	</li>  
-		  {{- end }}
-			
-	     <!-- Contact Menu Item -->
-		 	{{- range .Site.Params.navigation.housekeeping }}
-	    	<li class="iosnavbar-menu-item">
-					<a class="page-scroll" href="{{ .url }}" onclick="getElementById('drop').checked = false">
-						{{ .name }}
-					</a>
-				</li>
-	    {{- end }}
-			
-	    <!-- Search Dropdown -->
-	    <li class="iosnavbar-menu-item">
-				<label for="drop-5" class="menutoggle">
-					<i class="fa fa-search"></i>
-				</label>
-				<a href="#">
-					<i class="fa fa-search"></i>
+		<!-- Services Menu Items -->
+		{{- range .Site.Params.navigation.menubar }}
+			<li class="iosnavbar-menu-item">
+				<a class="page-scroll" href="{{ .url }}" onclick="getElementById('drop').checked = false">
+					{{ .name }}
 				</a>
-				<input type="checkbox" id="drop-5"/>
-				<ul class="iosnavbar-menu-dropdown">
-					<li id="fastSearch" class="iosnavbar-menu-dropdown-item">
-						<input id="searchInput" tabindex="0">
-					</li>
-					<li  class="iosnavbar-menu-dropdown-item">
-						<ul id="searchResults">
-						</ul>
-					</li>
-				</ul>
-	    </li> 
-	    
-	    <!-- Languages  Drop Down -->
+			</li>  
+		{{- end }}
+						
+		<!-- Search Dropdown -->
+		<li class="iosnavbar-menu-item">
+			<label for="drop-5" class="menutoggle">
+				<i class="fa fa-search"></i>
+			</label>
+			<a href="#">
+				<i class="fa fa-search"></i>
+			</a>
+			<input type="checkbox" id="drop-5"/>
+			<ul class="iosnavbar-menu-dropdown">
+				<li id="fastSearch" class="iosnavbar-menu-dropdown-item">
+					<input id="searchInput" tabindex="0">
+				</li>
+				<li  class="iosnavbar-menu-dropdown-item">
+					<ul id="searchResults">
+					</ul>
+				</li>
+			</ul>
+		</li> 
+		
+		<!-- Languages  Drop Down -->
 			<li class="iosnavbar-menu-item">
 				<label for="drop-4" class="menutoggle">
 					<i class="fa fa-globe"></i>

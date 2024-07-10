@@ -7,10 +7,10 @@
 		<div class="layout-content">
 			{{- $.Scratch.Set "count" 0 }}
 			{{ $languageshort := substr site.LanguageCode 0 2 }}
-	    {{- range .Site.Data.references }}
+			{{ range .Site.Data.references }}
 				{{ if eq true .showonrefs }}
-		      {{- if eq $languageshort .language }}
-		        {{- $.Scratch.Add "count" 1 }}
+					{{ if eq $languageshort .language }}
+						{{ $.Scratch.Add "count" 1 }}
 						<div class="flex-parent flex-parent-row flex-align-start margint-medium">
 							<div class="flex-child-20p">
 								<div class="margin-small border">
@@ -33,9 +33,37 @@
 								</div>
 							</div>
 						</div>
-		      {{- end }}
 					{{ end }}
-	    {{- end }}
+				{{ end }}
+			{{ end }}
+			{{ range .Pages }}
+				<div class="flex-parent flex-parent-row flex-align-start margint-medium">
+					<div class="flex-child-20p">
+						{{ with .Params.logo }}
+							<div class="margin-small border">
+								<img src="/img/logos/{{ . }}">
+							</div>
+						{{ end }}
+					</div>
+					<div class="flex-child-80p">
+						<div class="margin-small">
+							<h2>{{ .Params.client }}</h2>
+							<p>
+								<a href="{{ .Permalink }}">
+									<b>{{ .Title | markdownify }}</b>
+								</a>
+							</p>
+							<p>
+								<a href="{{ .Permalink }}">
+									{{ with .Description }}
+										{{ . | markdownify }}
+									{{ end }}
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			{{ end }}
 		</div>
 	</section>
 	{{ "<!-- references:list.html:main:end -->" | safeHTML }}

@@ -6,15 +6,16 @@
 <meta name="title" property="og:title" content="{{ .Title }}">
 <meta name ="url" property="og:url" content ="{{ .Permalink }}">
 {{ if and (eq "news" .Type) (.IsPage) }}
-	{{/* <!-- news section page --> */}}
+	{{/* <!-- meta description for news section page --> */}}
 	<meta name="description" property="og:description"  content="{{ .Params.title }} | {{ .Params.author }}">
 {{ else if and (eq "team" .Type) (.IsPage) }}
-	{{/* <!-- team section page --> */}}
+	{{/* <!-- meta description for team section page --> */}}
 	<meta name="description" property="og:description"  content="{{ .Params.name }} | {{ .Params.position }} | Ideas on Stage">
 {{ else if (eq "tags" .Type) }}
-	{{/* <!-- tags page --> */}}
-	<meta name="description" property="og:description"  content="Tag {{ .Title }}									{{ range (.GetTerms "tags") }}{{ . }}{{ end }} | Ideas on Stage">
+	{{/* <!-- meta description for tags page --> */}}
+	<meta name="description" property="og:description"  content="Tag {{ .Title }} | Ideas on Stage">
 {{ else }}
+	{{/* <!-- meta description for other pages --> */}}
 	{{ $desc := .Description }}
 	{{ if .IsSection }}
 		{{ if .Paginator }}
@@ -27,8 +28,6 @@
 {{ end }}
 {{ if .Params.picture }}
 	<meta name ="image" property="og:image" content="{{ partial "f/getpicturepath" . }}">
-{{ end }}
-{{ if .Params.picture }}
 	<link rel="image_src" href="{{ partial "f/getpicturepath" . }}">
 {{ end }}
 {{ with .Params.mastodon }}

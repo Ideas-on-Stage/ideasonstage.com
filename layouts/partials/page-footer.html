@@ -1,46 +1,76 @@
 {{ "<!-- partials:page-footer.html:start -->" | safeHTML }}
 <div class="layout-content paddingt-none paddingb-none">
 	<div class= "footer-nav flex-parent flex-parent-row">
-	  <div class="flex-child-25p">
-	    <ul class="footer-main-category padding-none">
-				{{ with .Site.Params.navigation.service }}<a href="/#services">{{ . }}</a></li>{{ end }}
-	      {{- range .Site.Params.navigation.items }}
-          <li>
-						<a class="footer-sub-category" href="{{ .url }}">{{ .name }}</a>
-			    </li>  
-				{{- end }}
-	    </ul>
-	  </div>
-	 <div class="flex-child-25p">
-	    <ul class="footer-main-category padding-none">
-	      {{ with .Site.Params.navigation.resource }}{{ . }}{{ end }}
-	      {{- range .Site.Params.navigation.resources }}
-          <li>
-            <a class="footer-sub-category" href="{{ .url }}">{{ .name }}</a>
-					</li>  
-			  {{- end }}
-	    </ul>
-	  </div>
-  	{{- range .Site.Params.navigation.housekeeping }} 
-  	  <div class="flex-child-25p">
-  	    <ul class="footer-main-category padding-none">
-					CONTACT
-					<li>
-						<a class="footer-sub-category" href="#contact">email</a>
-					</li>
-				</ul>
-			</div>
-		{{ end }}
+		
 		<div class="flex-child-25p">
-	    <ul class="footer-main-category padding-none">
-	      {{ with .Site.Params.navigation.company }}{{ . }}{{ end }}
-	      {{- range .Site.Params.navigation.companyitems }}
-          <li>
-        	  <a class="footer-sub-category" href="{{ .url }}">{{ .name }}</a>
+			<ul class="footer-main-category padding-none">
+				<li>
+					{{ with .Site.Params.navigation.service }}
+						{{ . }}
+					{{ end }}
+				</li>
+				{{ range .Site.Params.navigation.items }}
+					<li>
+						<a class="footer-sub-category" href="{{ .url }}">
+							{{ .name }}
+						</a>
 					</li>
-			  {{- end }}
-	    </ul>
-	  </div>  
+				{{ end }}
+			</ul>
+		</div>
+		
+		<div class="flex-child-25p">
+			<ul class="footer-main-category padding-none">
+				<li>
+					{{ with .Site.Params.navigation.resource }}
+						{{ . }}
+					{{ end }}
+				</li>
+				{{ range .Site.Params.navigation.resources }}
+					<li>
+						<a class="footer-sub-category" href="{{ .url }}">
+							{{ .name }}
+						</a>
+					</li>
+				{{- end }}
+			</ul>
+		</div>
+
+		<div class="flex-child-25p">
+			<ul class="footer-main-category padding-none">
+				<li>
+					{{ with .Site.Params.navigation.company }}
+						{{ . }}
+					{{ end }}
+				</li>
+				{{ range .Site.Params.navigation.companyitems }}
+					<li>
+						<a class="footer-sub-category" href="{{ .url }}">
+							{{ .name }}
+						</a>
+					</li>
+				{{ end }}
+			</ul>
+		</div>  
+
+		<div class="flex-child-25p">
+			<ul class="footer-main-category padding-none">
+				<li>
+					{{ with .Site.Params.navigation.contact }}
+						{{ . }}
+					{{ end }}
+				</li>
+				<li>
+				{{ range .Site.Params.navigation.contactitems }}
+					<li>
+						<a class="footer-sub-category" href="{{ .url }}">
+							{{ .name }}
+						</a>
+					</li>
+				{{ end }}
+				</li>
+			</ul>
+		</div>
 	</div>
 
 	<div class="flex-parent flex-parent-row paddingv-small flex-align-end">

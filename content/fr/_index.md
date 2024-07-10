@@ -1,7 +1,7 @@
 +++
-draft	 		= false
-title 			= "Formation et coaching en prise de parole - Agence de communication internationale"
-headtitle 		= "Formation coaching en prise de parole - Agence internationale | France"
+draft			= false
+title			= "Formation et coaching en prise de parole - Agence de communication internationale"
+headtitle		= "Formation coaching en prise de parole - Agence internationale | France"
 description		= "Agence internationale spécialisée formation et coaching en prise de parole en public et création de présentations. Nous sommes présents aux États-Unis et en Europe."
 outputs			= ["html","rss","json"]
 picture			= "/img/ideas-on-stage.svg"

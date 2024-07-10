@@ -133,6 +133,5 @@ Notre approche changera votre façon de présenter de manière durable. Nos form
 {{< /picture1-text2 >}}
 
 {{< text2-picture1 picture="accessibilite.jpg" title="Accueil des personnes en situation de handicap" >}}
-N'hésitez pas à nous dire si vous avez des personnes nécessitant un aménagement de la formation, que ce soit pour des raisons d'accessibilité ou autre. Nous mettrons tout en œuvre pour rendre nos formations accessibles au plus grand nombre. [Vous pouvez consulter notre page pour en savoir plus sur notre référent handicap.](/fr/rse/)
+N'hésitez pas à nous dire si vous avez des personnes nécessitant un aménagement de la formation, que ce soit pour des raisons d'accessibilité ou autre. Nous mettrons tout en œuvre pour rendre nos formations accessibles au plus grand nombre. [Vous pouvez consulter notre page pour en savoir plus sur notre référent handicap.](/fr/apropos/rse/)
 {{< /text2-picture1 >}}
-

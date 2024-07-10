@@ -1,7 +1,7 @@
 # !!! TEST A REDIRECTION AFTER MODIFYING THE FILE TO BE SURE IT'S CORRECT
 # 1 mistake and the whole file may be ignored by Netlify
 
-# redirect .es .fr .it
+# PERMANENT redirect .es .fr .it
 [[redirects]]
 	from			= "https://www.ideasonstage.es/*"	
 	to				= "https://www.ideasonstage.com/es/:splat"
@@ -145,7 +145,6 @@
 	status			= 301
 	force			= true
 
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/services/communication-consulting/audience-transformation-roadmap/ATR_template_Ideas_on_Stage.pdf"
 	to				= "https://www.ideasonstage.com/files/ATR_template_Ideas_on_Stage.pdf"
@@ -182,4 +181,23 @@
 	status			= 301
 	force			= true
 
+# 2024-07-09
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/rse/*"
+	to				= "https://www.ideasonstage.com/fr/apropos/rse/:splat"
+	status			= 301
+	force			= true
 
+# 2024-07-09
+[[redirects]]
+from			= "https://www.ideasonstage.com/fr/revolution/*"
+to				= "https://www.ideasonstage.com/fr/ressources/revolution/:splat"
+status			= 301
+force			= true
+
+# 2024-07-09
+[[redirects]]
+from			= "https://www.ideasonstage.com/fr/references/*"
+to				= "https://www.ideasonstage.com/fr/apropos/references/:splat"
+status			= 301
+force			= true

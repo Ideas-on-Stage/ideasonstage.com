@@ -1,25 +1,25 @@
 {{ "<!-- partials:page-list.html:start -->" | safeHTML }}
 <section id="content-list">
-{{- if ne true .Params.hidepagelist }}
-	{{/* <!-- hidepagelist is not true, show list of subpages --> */}}
-  {{- if ne true .Params.simplelist }}
-		{{/* <!-- simplelist = false, create list with picture and text --> */}}
-    {{- range .Pages }}
-			{{ if (isset .Params "title") }}
-				{{/* <!-- Only list pages with a title in front matter --> */}}
-    		{{- partial "inserts/link-picture2-text1.html" . }}
+	{{ if ne true .Params.hidepagelist }}
+		{{/* <!-- hidepagelist is not true, show list of subpages --> */}}
+		{{ if ne true .Params.simplelist }}
+			{{/* <!-- simplelist = false, create list with picture and text --> */}}
+			{{ range .Pages }}
+				{{ if (isset .Params "title") }}
+					{{/* <!-- Only list pages with a title in front matter --> */}}
+					{{ partial "inserts/link-picture2-text1.html" . }}
+				{{ end }}
 			{{ end }}
-    {{- end }}
-  {{ else }}
-		{{/* <!-- simplelist = true, create a simple text list --> */}}
-    <div class="layout-content">
-      {{- range .Pages }}
-        <p>
-          {{ partial "e/link-title-description.html" . }}
-        </p>
-      {{- end }}
-    </div>
-  {{ end }}
-{{- end }}
+		{{ else }}
+			{{/* <!-- simplelist = true, create a simple text list --> */}}
+			<div class="layout-content">
+				{{ range .Pages }}
+					<p>
+						{{ partial "e/link-title-description.html" . }}
+					</p>
+				{{ end }}
+			</div>
+		{{ end }}
+	{{ end }}
 </section>
 {{ "<!-- partials:page-list.html:end -->" | safeHTML }}

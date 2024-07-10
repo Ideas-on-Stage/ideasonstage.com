@@ -3,7 +3,6 @@ draft 			= false
 title 			= "Confident Presenter Book"
 description		= "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."
 showrefs		= false
-ni				= true
 +++
 
 {{% picture1-text2 picture="confident-presenter-book-2.png" %}}

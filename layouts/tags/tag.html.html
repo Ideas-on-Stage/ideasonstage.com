@@ -34,7 +34,7 @@
 									{{ $authorname := .Params.author }}
 									{{ with .Site.GetPage ($scratch.Get "author") }}
 										{{ if ne .Params.draft "true" }}
-											<a href="{{ (index .Site.Params.navigation.companyitems "002").url }}{{ $author }}/">{{ $authorname }}</a> —
+											{{ $authorname }} —
 										{{ else }}
 											{{ .Params.author }} -
 										{{ end }}
