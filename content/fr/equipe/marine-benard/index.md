@@ -5,6 +5,7 @@ picture			= "marine-benard.jpg"
 position	 	= "Coordinatrice événementielle"
 translationKey	= "team/marine-benard"
 weight			= 200
+type			= "team"
 +++
 Marine a étudié la gestion de projets ainsi que l’événementiel et elle bénéficie d’expériences dans l’organisation de salons professionnels et grand public, de réceptions privées et de conférences TEDx.
 

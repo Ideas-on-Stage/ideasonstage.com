@@ -5,7 +5,6 @@ description		= "Are you tired of boring, ineffective presentations? Do you want 
 showrefs		= false
 hidepagelist	= true
 urlredirect		= ""
-url 			= "/business-presentation-revolution/book/"
 +++
 
 ## Business Presentation Revolution – The Book

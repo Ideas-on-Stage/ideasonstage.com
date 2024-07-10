@@ -1,90 +1,37 @@
 {{ "<!-- partials:page-footer.html:start -->" | safeHTML }}
 <div class="layout-content paddingt-none paddingb-none">
 	<div class= "footer-nav flex-parent flex-parent-row">
-		
-		<div class="flex-child-25p">
-			<ul class="footer-main-category padding-none">
-				<li>
-					{{ with .Site.Params.navigation.service }}
-						{{ . }}
+		{{ range .Site.Params.navigation.footer }}		
+			<div class="flex-child-25p">
+				<ul class="footer-main-category padding-none">
+					{{ with .name }}
+						<li>
+							{{ . }}
+						</li>
 					{{ end }}
-				</li>
-				{{ range .Site.Params.navigation.items }}
-					<li>
-						<a class="footer-sub-category" href="{{ .url }}">
-							{{ .name }}
-						</a>
-					</li>
-				{{ end }}
-			</ul>
-		</div>
-		
-		<div class="flex-child-25p">
-			<ul class="footer-main-category padding-none">
-				<li>
-					{{ with .Site.Params.navigation.resource }}
-						{{ . }}
+					{{ range .items }}
+						<li>
+							<a class="footer-sub-category" href="{{ .url }}">
+								{{ .name }}
+							</a>
+						</li>
 					{{ end }}
-				</li>
-				{{ range .Site.Params.navigation.resources }}
-					<li>
-						<a class="footer-sub-category" href="{{ .url }}">
-							{{ .name }}
-						</a>
-					</li>
-				{{- end }}
-			</ul>
-		</div>
-
-		<div class="flex-child-25p">
-			<ul class="footer-main-category padding-none">
-				<li>
-					{{ with .Site.Params.navigation.company }}
-						{{ . }}
-					{{ end }}
-				</li>
-				{{ range .Site.Params.navigation.companyitems }}
-					<li>
-						<a class="footer-sub-category" href="{{ .url }}">
-							{{ .name }}
-						</a>
-					</li>
-				{{ end }}
-			</ul>
-		</div>  
-
-		<div class="flex-child-25p">
-			<ul class="footer-main-category padding-none">
-				<li>
-					{{ with .Site.Params.navigation.contact }}
-						{{ . }}
-					{{ end }}
-				</li>
-				<li>
-				{{ range .Site.Params.navigation.contactitems }}
-					<li>
-						<a class="footer-sub-category" href="{{ .url }}">
-							{{ .name }}
-						</a>
-					</li>
-				{{ end }}
-				</li>
-			</ul>
-		</div>
+				</ul>
+			</div>
+		{{ end }}
 	</div>
-
 	<div class="flex-parent flex-parent-row paddingv-small flex-align-end">
 		<div class="footer-text-min flex-child-60p">
-    	{{ with .Site.Copyright }}{{ . }}{{ end }} {{ now.Year }}. 
-    	{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
-    	{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
-    	{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
-    </div>
-    <div class="flex-child-15p paddingt-small">
-	    {{ range .Site.Params.Social.Items }}
-	      <a class="footer-social" href="{{ .url }}"><i class="fa fa-{{ .icon }} fa-2"></i></a>
+			{{ with .Site.Copyright }}{{ . }}{{ end }} {{ now.Year }}. 
+			{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
+			{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
+			{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
+		</div>
+		<div class="flex-child-15p paddingt-small">
+			{{ range .Site.Params.Social.Items }}
+				<a class="footer-social" href="{{ .url }}"><i class="fa fa-{{ .icon }} fa-2"></i></a>
 			{{ end }}
-    </div>
-  </div>
+		</div>
+	</div>
 </div>
 {{ "<!-- partials:page-footer.html:end -->" | safeHTML }}

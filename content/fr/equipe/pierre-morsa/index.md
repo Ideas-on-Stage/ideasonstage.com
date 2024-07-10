@@ -6,6 +6,7 @@ position 		= "Co-founder"
 translationKey	= "team/pierre-morsa"
 weight			= 100
 sameas			= ["https://www.pierremorsa.com","https://www.linkedin.com/in/pierremorsa/"]
+type			= "team"
 +++
 Pierre Morsa est créateur original de la marque et du concept d'Ideas on Stage en 2009. Il met toute son énergie dans la création de présentations avec quelque chose de spécial. Il essaie de toujours trouver de nouvelles astuces pour surprendre et émerveiller votre public.
 

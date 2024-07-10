@@ -2,7 +2,7 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "git pull\ngit add -A\ngit commit -m \\\"Website update.\\\"\ngit push"
+      "script" : "cd \/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\ngit pull\ngit add -A\ngit commit -m \\\"Website update.\\\"\ngit push"
     },
     "run" : {
       "enabled" : true,

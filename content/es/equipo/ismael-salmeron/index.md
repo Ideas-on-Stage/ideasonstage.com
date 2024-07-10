@@ -7,6 +7,7 @@ picture			= "ismael-salmeron.jpg"
 position 		= "Diseñador en Design Center"
 translationKey	= "team/ismael-salmeron"
 weight			= 220
+type			= "team"
 +++
 Ismael Salmerón es editor de vídeo desde hace más de 20 años. Trabajó en Madrid en una de las grandes empresas de edición y postproducción de España con clientes como Warner Bros., Dreamworks y Paramount Pictures. También ha editado para El Corte Inglés y Canal Club.
 

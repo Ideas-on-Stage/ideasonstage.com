@@ -5,6 +5,7 @@ picture			= "andrea-pacini.jpg"
 position	 	= "Directeur de Présentation UK"
 translationKey	= "team/andrea-pacini"
 weight			= 210
+type			= "team"
 +++
 Andrea a une longue expérience de la vente au sein de grandes entreprises à Londres, gérant l’innovation et le développement de projets auprès de grands comptes basés au Royaume-Uni.
 

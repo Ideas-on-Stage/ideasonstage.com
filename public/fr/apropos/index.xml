@@ -8,5 +8,12 @@
     <language>fr</language>
     <copyright>© Ideas on Stage 2010 - </copyright>
     <atom:link href="http://localhost:1313/fr/apropos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notre politique RSE</title>
+      <link>http://localhost:1313/fr/apropos/rse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/apropos/rse/</guid>
+      <description>Ideas on Stage est une petite entreprise, mais nous tenons à faire notre part pour préserver le futur de notre planète. C&amp;rsquo;est pourquoi nous avons mis en place une politique RSE simple mais efficace. Cette politique agit sur trois axes : social, environnement et économie.&#xA;Vous pouvez télécharger la plaquette de notre politique RSE au format PDF en cliquant sur ce lien.&#xA;Axe social Égalité des salaires : à compétences et niveau égal, tout employé aura la même compensation salariale.</description>
+    </item>
   </channel>
 </rss>

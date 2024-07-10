@@ -7,7 +7,7 @@ categories  	= [ "Business Events" ]
 showrefs		= false
 url 			= "/event-organizer-guide/"
 translationKey  = "guides/event-organizer-guide"
-picture		 	= "organisateur-evenement.jpg"
+picture		 	= "event-organizer.jpg"
 summary			= "This guide will give you the keys to organize a successful business event. Each step of the organization process is explained. Eliminate unforeseen circumstances, omissions and last-minute panic and turn event management into a strategic asset for your company. Events come in all shapes and sizes, but the principles of organization are always the same. The key to a successful event is making sure it’s well planned and that it meets all of your targeted expectations."
 +++
 ## About the author
@@ -28,7 +28,7 @@ What type of event do you want to organize? Is it internal or external? Is the a
 ### WHO?
 Who is the target?
 
-    => Employees, prospects, customers, suppliers, investors, press, general public, VIP…?
+> Employees, prospects, customers, suppliers, investors, press, general public, VIP…?
 
 ### WHY?
 What is the strategic goal?

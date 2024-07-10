@@ -14,7 +14,7 @@ title 					= "Ideas on Stage"
 	[markup.tableOfContents]
 		startLevel	= 2		# start level for table of contents
 		endLevel	= 3		# end level for table of contents
-  			
+			
 [Permalinks]
 	news	= "/news/:year/:month/:day/:filename/"
 
@@ -55,7 +55,7 @@ title 					= "Ideas on Stage"
 		title_h3	= "black"
 		title_h4	= "black"
 		time		= "#aaa"
-		blockquote	= "#00A3E0"		
+		blockquote	= "#00A3E0"
 		darkgray	= "#222"
 		lightgray	= "#eee"
 		midgray		= "#888"
@@ -72,7 +72,7 @@ title 					= "Ideas on Stage"
 				top		= "52px"
 				right	= "0"
 				bottom	= "0"
-				left	= "0"			
+				left	= "0"
 		[params.layout.module]
 			height		= "36vw"
 			height_big	= "56vw"
@@ -102,7 +102,7 @@ title 					= "Ideas on Stage"
 		logo	= "/img/ideas-on-stage.svg"
 		name	= "Ideas on Stage"
 		sameas	= [ "https://www.linkedin.com/company/ideas-on-stage/", "https://www.youtube.com/user/IdeasOnStage", "https://twitter.com/ideasonstage", "https://www.pierremorsa.com/ideas-on-stage/" ]
-		
+
   # ---------------------	
 	# Social items for footer or other elements
 	[params.social]
@@ -204,67 +204,62 @@ title 					= "Ideas on Stage"
 
 		# -------------------
 		# Navigation
-		[languages.en.params.navigation]
-			title		= "Navigation"
-			language	= "Language"
-			resource	= "Resources"
-			service		= "Services"
-			company		= "Ideas on Stage"
-			contact		= "Contact Us"
 
-			[[languages.en.params.navigation.menubar]]
+		[[languages.en.params.navigation.menubar]]
+			name	= "Training"
+			url		= "/presentations-training/"
+		[[languages.en.params.navigation.menubar]]
+			name	= "Coaching"
+			url		= "/public-speaking-coaching/"
+		[[languages.en.params.navigation.menubar]]
+			name	= "Consulting"
+			url		= "/communication-consulting/"
+		[[languages.en.params.navigation.menubar]]
+			name	= "Contact"
+			url		= "#contact"
+
+		[[languages.en.params.navigation.footer]]
+			name = "Services"
+			[[languages.en.params.navigation.footer.items]]
 				name	= "Training"
 				url		= "/presentations-training/"
-			[[languages.en.params.navigation.menubar]]
+			[[languages.en.params.navigation.footer.items]]
 				name	= "Coaching"
 				url		= "/public-speaking-coaching/"
-			[[languages.en.params.navigation.menubar]]
+			[[languages.en.params.navigation.footer.items]]
 				name	= "Consulting"
 				url		= "/communication-consulting/"
-			[[languages.en.params.navigation.menubar]]
-				name	= "Contact"
-				url		= "#contact"
-								
-			[[languages.en.params.navigation.items]]
-				name	= "Training"
-				url		= "/presentations-training/"
-			[[languages.en.params.navigation.items]]
-				name	= "Coaching"
-				url		= "/public-speaking-coaching/"
-			[[languages.en.params.navigation.items]]
-				name	= "Consulting"
-				url		= "/communication-consulting/"
-	
-			[[languages.en.params.navigation.resources]]
+		[[languages.en.params.navigation.footer]]
+				name = "Resources"
+			[[languages.en.params.navigation.footer.items]]
 				name	= "Videos"
 				url		= "/revolution/"
-			[[languages.en.params.navigation.resources]]
-				name	= "Articles"
+			[[languages.en.params.navigation.footer.items]]
+				name	= "Articles and News"
 				url		= "/news/"
-			[[languages.en.params.navigation.resources]]
+			[[languages.en.params.navigation.footer.items]]
 				name	= "Guides"
 				url		= "/guides/"
-			[[languages.en.params.navigation.resources]]
-				name	= "Business Presentation Revolution"
-				url		= "/business-presentation-revolution/"
-			[[languages.en.params.navigation.resources]]
-				name	= "Confident Presenter Book"
-				url		= "/resources/confident-presenter-book/"
-			[[languages.en.params.navigation.resources]]
+			[[languages.en.params.navigation.footer.items]]
+				name	= "Books"
+				url		= "/resources/books/"
+			[[languages.en.params.navigation.footer.items]]
 				name	= "Podcast"
 				url		= "/resources/podcast/"
-				
-			[[languages.en.params.navigation.companyitems]]
+		[[languages.en.params.navigation.footer]]
+				name = "Ideas on Stage"
+			[[languages.en.params.navigation.footer.items]]
 					name	= "About Us"
 					url		= "/about/"
-			[[languages.en.params.navigation.companyitems]]
+			[[languages.en.params.navigation.footer.items]]
 					name	= "Team"
 					url		= "/team/"
-			[[languages.en.params.navigation.companyitems]]
+			[[languages.en.params.navigation.footer.items]]
 					name	= "References"
 					url		= "/references/"
-
-			[[languages.en.params.navigation.contactitems]]
+		[[languages.en.params.navigation.footer]]
+					name = "Contact Us"
+			[[languages.en.params.navigation.footer.items]]
 					name	= "Contact Form"
 					url		= "#contact"
 		
@@ -276,7 +271,7 @@ title 					= "Ideas on Stage"
 			by					= "by"
 			sbcategorytitle		= "Top Categories"
 			related				= "See Also"
-
+		
 		# -------------------		
 		# References
 		[languages.en.params.references]
@@ -418,57 +413,54 @@ title 					= "Ideas on Stage"
 			name	= "Contact"
 			url		= "#contact"
 
-		[languages.fr.params.navigation]
-			title		= "Navigation"
-			language	= "Langue"
-			resource	= "Ressources"
-			service		= "Services"
-			company		= "Ideas on Stage"
-			contact		= "Contactez-nous"
-	
-			[[languages.fr.params.navigation.items]]
+		[[languages.fr.params.navigation.footer]]
+			name		= "Services"
+			[[languages.fr.params.navigation.footer.items]]
 				name	= "Formations prise de parole"
 				url		= "/fr/formations-prise-de-parole-en-public/"
-			[[languages.fr.params.navigation.items]]
+			[[languages.fr.params.navigation.footer.items]]
 				name	= "Coaching prise de parole"
 				url		= "/fr/coaching-prise-de-parole-en-public/"
-			[[languages.fr.params.navigation.items]]
+			[[languages.fr.params.navigation.footer.items]]
 				name	= "Conseil en communication"
 				url		= "/fr/conseil-communication/"
-			[[languages.fr.params.navigation.items]]
+			[[languages.fr.params.navigation.footer.items]]
 				name	= "Ateliers entreprise"
 				url		= "/fr/ateliers-evenement-entreprise/"
-				
-			[[languages.fr.params.navigation.resources]]			
-				name	= "Vidéos"
-				url		= "/fr/ressources/revolution/"
-			[[languages.fr.params.navigation.resources]]
-				name	= "Articles et Nouvelles"
-				url		= "/fr/news/"
-			[[languages.fr.params.navigation.resources]]
-				name	= "Guides Gratuits"
-				url		= "/fr/guides/"
-			[[languages.fr.params.navigation.resources]]
-				name	= "Autres Ressources"
-				url		= "/fr/resources/"
-				
-			[[languages.fr.params.navigation.companyitems]]
+		[[languages.fr.params.navigation.footer]]
+				name	= "Ressources"
+			[[languages.fr.params.navigation.footer.items]]
+					name	= "Vidéos"
+					url		= "/fr/ressources/revolution/"
+			[[languages.fr.params.navigation.footer.items]]
+					name	= "Articles et Nouvelles"
+					url		= "/fr/news/"
+			[[languages.fr.params.navigation.footer.items]]
+					name	= "Guides Gratuits"
+					url		= "/fr/guides/"
+			[[languages.fr.params.navigation.footer.items]]
+					name	= "Autres Ressources"
+					url		= "/fr/ressources/"
+		[[languages.fr.params.navigation.footer]]
+			name		= "Ideas on Stage"
+			[[languages.fr.params.navigation.footer.items]]
 				name	= "À propos de nous"
 				url		= "/fr/apropos/"
-			[[languages.fr.params.navigation.companyitems]]
+			[[languages.fr.params.navigation.footer.items]]
 				name	= "Équipe"
 				url		= "/fr/equipe/"	
-			[[languages.fr.params.navigation.companyitems]]			
+			[[languages.fr.params.navigation.footer.items]]
 				name	= "Références Clients"
 				url		= "/fr/apropos/references/"
-			[[languages.fr.params.navigation.companyitems]]
+			[[languages.fr.params.navigation.footer.items]]
 				name	= "Politique RSE"
 				url		= "/fr/apropos/rse/"
-
-			[[languages.fr.params.navigation.contactitems]]
+		[[languages.fr.params.navigation.footer]]
+			name		= "Contactez-nous"
+			[[languages.fr.params.navigation.footer.items]]
 				name	= "Formulaire"
 				url		= "#contact"
-			[[languages.fr.params.navigation.contactitems]]
+			[[languages.fr.params.navigation.footer.items]]
 				name	= "Email"
 				url		= "mailto:info@ideasonstage.com"
 
@@ -597,55 +589,53 @@ title 					= "Ideas on Stage"
 			
 		# -------------------		
 		# Navigation
-		[languages.es.params.navigation]
-			title		= "Navigation"
-			resource	= "Recursos"
-			service		= "Servicios"
-			company		= "Ideas on Stage"
-			language	= "Idioma"
-			contact		= "Contacto"
 
-			[[languages.es.params.navigation.menubar]]	
+		[[languages.es.params.navigation.menubar]]	
+			name	= "Formación"
+			url		= "/es/formacion-para-hablar-en-publico/"
+		[[languages.es.params.navigation.menubar]]	
+			name	= "Coaching"
+			url		= "/es/coaching-para-hablar-en-publico/"
+		[[languages.es.params.navigation.menubar]]	
+			name	= "Creación"
+			url		= "/es/creacion-presentaciones-powerpoint/"
+		[[languages.es.params.navigation.menubar]]
+			name	= "Contacto"
+			url		= "#contact"
+
+		[[languages.es.params.navigation.footer]]	
+			name	= "Servicios"
+			[[languages.es.params.navigation.footer.items]]	
 				name	= "Formación"
 				url		= "/es/formacion-para-hablar-en-publico/"
-			[[languages.es.params.navigation.menubar]]	
+			[[languages.es.params.navigation.footer.items]]	
 				name	= "Coaching"
 				url		= "/es/coaching-para-hablar-en-publico/"
-			[[languages.es.params.navigation.menubar]]	
+			[[languages.es.params.navigation.footer.items]]	
 				name	= "Creación"
 				url		= "/es/creacion-presentaciones-powerpoint/"
-			[[languages.es.params.navigation.menubar]]
-				name	= "Contacto"
-				url		= "#contact"
-						
-			[[languages.es.params.navigation.items]]	
-				name	= "Formación"
-				url		= "/es/formacion-para-hablar-en-publico/"
-			[[languages.es.params.navigation.items]]	
-				name	= "Coaching"
-				url		= "/es/coaching-para-hablar-en-publico/"
-			[[languages.es.params.navigation.items]]	
-				name	= "Creación"
-				url		= "/es/creacion-presentaciones-powerpoint/"
-					
-			[[languages.es.params.navigation.resources]]			
+		[[languages.es.params.navigation.footer]]	
+			name	= "Recursos"
+			[[languages.es.params.navigation.footer.items]]	
 				name	= "Videos"
 				url		= "/es/revolution/"
-			[[languages.es.params.navigation.resources]]			
+			[[languages.es.params.navigation.footer.items]]	
 				name	= "Guías"
 				url		= "/es/guias/"
-				
-			[[languages.es.params.navigation.companyitems]]
+		[[languages.es.params.navigation.footer]]	
+			name	= "Ideas on Stage"
+			[[languages.es.params.navigation.footer.items]]	
 				name	= "Acerca de nosotros"
 				url		= "/es/acerca-de-nosotros/"
-			[[languages.es.params.navigation.companyitems]]
+			[[languages.es.params.navigation.footer.items]]	
 				name	= "Equipo"
 				url		= "/es/equipo/"
-			[[languages.es.params.navigation.companyitems]]			
+			[[languages.es.params.navigation.footer.items]]	
 				name	= "Referencias"
 				url		= "/es/referencias/"
-
-			[[languages.es.params.navigation.contactitems]]
+		[[languages.es.params.navigation.footer]]	
+			name	= "Contacto"
+			[[languages.es.params.navigation.footer.items]]	
 				name	= "Formulario"
 				url		= "#contact"
 

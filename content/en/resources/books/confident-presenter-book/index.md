@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Confident Presenter Book"
+title 			= "Confident Presenter - The Book"
 description		= "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."
 showrefs		= false
 +++

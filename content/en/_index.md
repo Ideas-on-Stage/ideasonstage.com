@@ -7,7 +7,7 @@ outputs			= ["html","rss","json"]
 picture			= "/img/ideas-on-stage.svg"
 schema			= "Website"
 mastodon		= "https://mastodon.social/@pmorsa"
-insertsbottom	= [ "presentationscore", "news" ]
+insertsbottom	= [ "business-presentation-revolution", "guideevents", "news", "presentationscore" ]
 hidetitle		= false
 translationKey	= "home"
 
@@ -50,15 +50,6 @@ translationKey	= "home"
 		layout			= "inserts/module-picture-textright.html"
 		url				= "/communication-consulting/"
 		button			= "Discover our approach to corporate communication"
-	[[services.list]]
-		sectionid		= "presentation-creation"
-		title			= "Presentation Creation"
-		description		= "We help you define your messages and strategy, then we write the story, create the slides and coach you."
-		picture			= "/img/inserts/home-presentation-creation-agency.jpg"
-		style			= "bg-black"
-		layout			= "inserts/module-texttop-picture.html"
-		url				= "/powerpoint-presentation-design-agency/"
-		button			= "Ask a price quote for our design services"
 
 +++
 

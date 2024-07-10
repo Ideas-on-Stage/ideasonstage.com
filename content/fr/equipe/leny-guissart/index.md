@@ -5,6 +5,7 @@ picture			= "leny-guissart.jpg"
 position	 	= "Formateur Certifié"
 translationKey	= "team/leny-guissart"
 weight			= 1000
+type			= "team"
 +++
 
 Expert en prise de parole en public, Lény Guissart s’appuie sur plusieurs années d’accompagnement de grands groupes (Française des Jeux, Fnac, M6…) dans la création de startups et l’animation de plus de 300 émissions de culture générale pour le groupe RedPill. Il a une formation d’acteur au sein de l’école internationale Jacques Lecoq.

@@ -7,6 +7,7 @@ picture			= "marine-benard.jpg"
 position 		= "Coordinadora de Eventos"
 translationKey	= "team/marine-benard"
 weight			= 200
+type			= "team"
 +++
 Marine es experta en gestión y organización de eventos, con múltiples años de experiencia organizando congresos profesionales, eventos públicos y privados, así como conferencias TEDx.
 

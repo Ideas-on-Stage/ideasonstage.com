@@ -5,6 +5,7 @@ picture			= "antonin-lesson.jpg"
 position	 	= "Formateur Certifié"
 translationKey	= "team/antonin-lesson"
 weight			= 1000
+type			= "team"
 +++
 
 Antonin Lesson a suivi une formation théâtrale approfondie, aussi bien dans la pratique du comédien (Laboratoire de l’Acteur, Cours Simon) que dans la théorie (Master à la Sorbonne Nouvelle).
