@@ -1,15 +1,15 @@
 {{ "<!-- partials:page-page-page-inserts-top.html:start -->" | safeHTML }}
 {{ if .Params.insertstop }}
 	<section id="inserts-top"  class="layout-module-wrapper flex-parent flex-parent-row">
-	{{- range .Params.insertstop }}
-		{{- $insertalllang := index site.Data.inserts . }}
-		{{- if $insertalllang }}
-			{{- $insert := index $insertalllang site.LanguageCode }}
-			{{- if $insert }}
-				{{ partial $insert.layout $insert }}
+		{{- range .Params.insertstop }}
+			{{- $insertalllang := index site.Data.inserts . }}
+			{{- if $insertalllang }}
+				{{- $insert := index $insertalllang site.LanguageCode }}
+				{{- if $insert }}
+					{{ partial $insert.layout $insert }}
+				{{- end }}
 			{{- end }}
 		{{- end }}
-	{{- end }}
 	</section>
 {{ else }}
 	{{ "<!-- no top inserts -->" | safeHTML }}

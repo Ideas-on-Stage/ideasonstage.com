@@ -311,55 +311,56 @@
 		<aside>
 			<!-- partials:page-inserts-bottom.html:start -->
 
-<!-- No bottom inserts -->
+	<!-- No bottom inserts -->
 
 <!-- partials:page-inserts-bottom.html:end -->
 	    <!-- partials:page-contact.html:start -->
-	<section id="contact">
-		<div class="iosnavbar-buffer">
-			<!-- insert gap to avoid contact text covered by nav bar -->	  
-		</div>
-    <div class="layout-content">
-      <div class="centered style-module-text">
-        <h2 class="section-heading">
-					
-						Contacta con nosotros
-					
-				</h2>
-				<p>
-					
-						¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible
-					
-				</p>
+<section id="contact" class="layout-module-wrapper-nogap">
+	<div class="iosnavbar-buffer">
+		<!-- insert gap to avoid contact text covered by nav bar -->	  
+	</div>
+	<div class="layout-content">
+		<div class="centered style-module-text">
+			<h2 class="section-heading">
 				
-       </div>
+					Contacta con nosotros
+				
+			</h2>
+			<p>
+				
+					¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible
+				
+			</p>
+			
 		</div>
-		<div class="layout-content-narrow">
-			<form action="/es/coaching-para-hablar-en-publico/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-	      <div class="iosform-group">
-	        <input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/es/coaching-para-hablar-en-publico/">
-	      </div>
-	      <div class="iosform-group">
-	        <input type="text" id="fname" name="name" class="iosform-control" placeholder="Tu Nombre *" oninvalid="alert('Por favor, escribe tu nombre.');" required>
-	      </div>  
-	      <div class="iosform-group">
-	        <input type="email" id="email" name="email" class="iosform-control" placeholder="Tu Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Por favor, introduce un email válido.');" required>
-	      </div>
-	      <div class="iosform-group">  
-	        <input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Tu teléfono (opcional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Por favor, introduce un número de teléfono válido.');">  
-	      </div>
-				<div class="iosform-group">  
-					<input type="text" id="country" name="country" class="iosform-control" placeholder="Tu páis de residencia (opcional)" oninvalid="alert('Por favor incluya su país de residencia.');">
-	      </div>
-	      <div class="iosform-group">  
-					<textarea id="message" name="message" class="iosform-control" placeholder="Tu Mensaje *" oninvalid="alert('Por favor, escribe un mensaje.');" required></textarea>      
-				</div>
-	      <div class="iosform-button">
-	        <input type="submit" id="contactsubmit" value="Enviar mensaje" class="button-primary" success="Gracias, en breve nos pondremos en contacto contigo." wait="Un momento ...">    
-	      </div>     
-	    </form>
-	  </div>
-	</section><!-- contact end -->
+	</div>
+	<div class="layout-content-narrow">
+		<form action="/es/coaching-para-hablar-en-publico/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+			<div class="iosform-group">
+				<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/es/coaching-para-hablar-en-publico/">
+			</div>
+			<div class="iosform-group">
+				<input type="text" id="fname" name="name" class="iosform-control" placeholder="Tu Nombre *" oninvalid="alert('Por favor, escribe tu nombre.');" required>
+			</div>  
+			<div class="iosform-group">
+				<input type="email" id="email" name="email" class="iosform-control" placeholder="Tu Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Por favor, introduce un email válido.');" required>
+			</div>
+			<div class="iosform-group">  
+				<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Tu teléfono (opcional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Por favor, introduce un número de teléfono válido.');">  
+			</div>
+			<div class="iosform-group">  
+				<input type="text" id="country" name="country" class="iosform-control" placeholder="Tu páis de residencia (opcional)" oninvalid="alert('Por favor incluya su país de residencia.');">
+			</div>
+			<div class="iosform-group">  
+				<textarea id="message" name="message" class="iosform-control" placeholder="Tu Mensaje *" oninvalid="alert('Por favor, escribe un mensaje.');" required></textarea>  	
+			</div>
+			<div class="iosform-button">
+				<input type="submit" id="contactsubmit" value="Enviar mensaje" class="button-primary" success="Gracias, en breve nos pondremos en contacto contigo." wait="Un momento ...">	
+			</div>
+		</form>
+	</div>
+</section><!-- contact end -->
+</div>
 <!-- partials:page-contact.html:end -->
 
 		</aside>

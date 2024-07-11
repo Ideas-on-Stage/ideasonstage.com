@@ -1,0 +1,27 @@
+{{ define "main" }}
+	{{ "<!-- training:list.html:main:start -->" | safeHTML }}
+	<div class="layout-module-wrapper">
+		{{ partial "page-inserts-top.html" . }}
+		{{ if not (isset .Params "pages") }}
+			{{ partial "page-list.html" . }}
+		{{ else if eq "top" .Params.pages  }}
+			{{ partial "page-list.html" . }}
+		{{ end }}
+		<div class="layout-content">
+			<div class="flex-parent flex-parent-row flex-column-ontall paddingb-tiny">
+				<aside id="sidebar" class="flex-child-33p layout-double-sticky">
+					<div class="scroller">
+						{{ partial "sidebar/sidebar-menu.html" . }}
+					</div>
+				</aside>
+				<article id="content-main" class="flex-child-67p">
+					{{ with .Content }}{{ . }}{{ end }}
+				</article>
+			</div>
+		</div>
+		{{ if eq "bottom" .Params.pages  }}
+			{{ partial "page-list.html" . }}
+		{{ end }}
+	</div>
+	{{ "<!-- training:list.html:main:end -->" | safeHTML }}
+{{ end }}

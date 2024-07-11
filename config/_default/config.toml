@@ -65,8 +65,7 @@ title 					= "Ideas on Stage"
 	# ---------------------
 	# Layout
 	[params.layout]
-		[params.layout.navigation]
-			width	= "100%"
+		[params.layout.menubar]
 			height	= "52px"
 		[params.layout.page]
 			padding_top		= "52px"
@@ -74,10 +73,8 @@ title 					= "Ideas on Stage"
 			padding_bottom	= "0"
 			padding_left	= "0"
 		[params.layout.hero]
-			width	= "100%"
 			height	= "60vh"
 		[params.layout.module]
-			width			= "100%"
 			height			= "580px"
 			height_big		= "580px"
 			height_ts		= "140vw" # ts is for tall small screens on smartphones
@@ -85,7 +82,14 @@ title 					= "Ideas on Stage"
 			padding_right	= "0.5vw"
 			padding_bottom	= "0.5vw"
 			padding_left	= "0.5vw"
-
+			
+			[params.layout.module.ts]
+				height			= "140vw"
+				padding_top		= "1vw"
+				padding_right	= "0"
+				padding_bottom	= "1vw"
+				padding_left	= "0"
+		
 			[params.layout.module.padding_ts]
 				top		= "1vw"
 				right	= "0"

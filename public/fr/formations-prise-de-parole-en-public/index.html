@@ -242,7 +242,7 @@
 			
 			<!-- partials/revolution/breadcrumbs.html -->
 			
-	<!-- _default:list.html:main:start -->
+	<!-- training:list.html:main:start -->
 	<div class="layout-module-wrapper">
 		<!-- partials:page-page-page-inserts-top.html:start -->
 
@@ -257,9 +257,56 @@
 <!-- partials:page-list.html:end -->
 
 		
-		<!-- partials:page-content.html:start -->
-<div class="layout-content">
-		<section id="content-main"><p>Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateur. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.</p>
+		<div class="layout-content">
+			<div class="flex-parent flex-parent-row flex-column-ontall paddingb-tiny">
+				<aside id="sidebar" class="flex-child-33p layout-double-sticky">
+					<div class="scroller">
+						<!-- partials:sidebar:sidebar-training:start -->
+<section id="training-bar">
+  <div class="flex-parent flex-column flex-justify-center bg-lightgray paddingb-small">
+		<div class="flex-child paddingh-small paddingt-small paddingb-tiny">
+			<h2 class="margin-none">Liste des formations</h2>
+		</div>
+		
+			<div class="flex-child paddingh-small paddingb-small">
+				<p class="margin-none text">
+				<a href="/fr/formation-prise-de-parole-2-jours/">
+					Formation prise de parole 2 jours
+				</a>
+				</p>
+			</div>
+		
+			<div class="flex-child paddingh-small paddingb-small">
+				<p class="margin-none text">
+				<a href="/fr/formation-art-oratoire/">
+					Formation art oratoire
+				</a>
+				</p>
+			</div>
+		
+			<div class="flex-child paddingh-small paddingb-small">
+				<p class="margin-none text">
+				<a href="/fr/formation-storytelling/">
+					Formation storytelling
+				</a>
+				</p>
+			</div>
+		
+			<div class="flex-child paddingh-small paddingb-small">
+				<p class="margin-none text">
+				<a href="/fr/formation-presentations-powerpoint/">
+					Formation présentations PowerPoint
+				</a>
+				</p>
+			</div>
+		
+	</div>
+</section>
+<!-- partials:sidebar:sidebar-training:end -->
+					</div>
+				</aside>
+				<article id="content-main" class="flex-child-67p">
+					<p>Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateur. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.</p>
 <p>Se former avec Ideas on Stage, c&rsquo;est l&rsquo;assurance de travailler avec de vrais experts, reconnus dans le monde de l&rsquo;entreprise.</p>
 
 <div class="layout-shortcode-img">
@@ -738,13 +785,13 @@
 	</div>
 </div>
 <!-- shortcodes:text2-picture1.html:end -->
- 
-		</section>
-</div>
-<!-- partials:page-content.html:end -->
+
+				</article>
+			</div>
+		</div>
 		
 	</div>
-	<!-- _default:list.html:main:end -->
+	<!-- training:list.html:main:end -->
 
 		</main>
 		<aside>
@@ -793,51 +840,52 @@
 
 <!-- partials:page-inserts-bottom.html:end -->
 	    <!-- partials:page-contact.html:start -->
-	<section id="contact">
-		<div class="iosnavbar-buffer">
-			<!-- insert gap to avoid contact text covered by nav bar -->	  
-		</div>
-    <div class="layout-content">
-      <div class="centered style-module-text">
-        <h2 class="section-heading">
-					
-						Contactez-nous
-					
-				</h2>
-				<p>
-					
-						Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement.
-					
-				</p>
+<section id="contact" class="layout-module-wrapper-nogap">
+	<div class="iosnavbar-buffer">
+		<!-- insert gap to avoid contact text covered by nav bar -->	  
+	</div>
+	<div class="layout-content">
+		<div class="centered style-module-text">
+			<h2 class="section-heading">
 				
-       </div>
+					Contactez-nous
+				
+			</h2>
+			<p>
+				
+					Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement.
+				
+			</p>
+			
 		</div>
-		<div class="layout-content-narrow">
-			<form action="/fr/formations-prise-de-parole-en-public/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-	      <div class="iosform-group">
-	        <input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/fr/formations-prise-de-parole-en-public/">
-	      </div>
-	      <div class="iosform-group">
-	        <input type="text" id="fname" name="name" class="iosform-control" placeholder="Votre nom complet *" oninvalid="alert('Veuillez entrer votre nom complet.');" required>
-	      </div>  
-	      <div class="iosform-group">
-	        <input type="email" id="email" name="email" class="iosform-control" placeholder="Votre email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entrer une adresse e-mail valide.');" required>
-	      </div>
-	      <div class="iosform-group">  
-	        <input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Votre téléphone (optionnel)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Veuillez entrer un numéro de téléphone valide.');">  
-	      </div>
-				<div class="iosform-group">  
-					<input type="text" id="country" name="country" class="iosform-control" placeholder="Votre pays de résidence (optionnel)" oninvalid="alert('Veuillez entrer votre pays de résidence.');">
-	      </div>
-	      <div class="iosform-group">  
-					<textarea id="message" name="message" class="iosform-control" placeholder="Votre message *" oninvalid="alert('S\u0026rsquo;il vous plaît entrer un message.');" required></textarea>      
-				</div>
-	      <div class="iosform-button">
-	        <input type="submit" id="contactsubmit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">    
-	      </div>     
-	    </form>
-	  </div>
-	</section><!-- contact end -->
+	</div>
+	<div class="layout-content-narrow">
+		<form action="/fr/formations-prise-de-parole-en-public/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+			<div class="iosform-group">
+				<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/fr/formations-prise-de-parole-en-public/">
+			</div>
+			<div class="iosform-group">
+				<input type="text" id="fname" name="name" class="iosform-control" placeholder="Votre nom complet *" oninvalid="alert('Veuillez entrer votre nom complet.');" required>
+			</div>  
+			<div class="iosform-group">
+				<input type="email" id="email" name="email" class="iosform-control" placeholder="Votre email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entrer une adresse e-mail valide.');" required>
+			</div>
+			<div class="iosform-group">  
+				<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Votre téléphone (optionnel)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Veuillez entrer un numéro de téléphone valide.');">  
+			</div>
+			<div class="iosform-group">  
+				<input type="text" id="country" name="country" class="iosform-control" placeholder="Votre pays de résidence (optionnel)" oninvalid="alert('Veuillez entrer votre pays de résidence.');">
+			</div>
+			<div class="iosform-group">  
+				<textarea id="message" name="message" class="iosform-control" placeholder="Votre message *" oninvalid="alert('S\u0026rsquo;il vous plaît entrer un message.');" required></textarea>  	
+			</div>
+			<div class="iosform-button">
+				<input type="submit" id="contactsubmit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">	
+			</div>
+		</form>
+	</div>
+</section><!-- contact end -->
+</div>
 <!-- partials:page-contact.html:end -->
 
 		</aside>

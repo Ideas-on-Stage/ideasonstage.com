@@ -9,6 +9,7 @@ weight			= 30
 insertsbottom	= [ "guidepublicspeaking", "guideremotepresentations" ]
 hidetitle		= true
 translationKey	= "presentations-training"
+type			= "training"
 
 [cta]
 	picture		= "formation.jpg"
@@ -19,7 +20,23 @@ translationKey	= "presentations-training"
 	opacity		= "35"
 	[cta.button]
 		text	= "NOUS CONTACTER"
-		link	= "#contact"	
+		link	= "#contact"
+		
+[sidebar]
+	title		= "Liste des formations"
+	[[sidebar.items]]
+		name	= "Formation prise de parole 2 jours"
+		url		= "/fr/formation-prise-de-parole-2-jours/"
+	[[sidebar.items]]
+		name	= "Formation art oratoire"
+		url		= "/fr/formation-art-oratoire/"
+	[[sidebar.items]]
+		name	= "Formation storytelling"
+		url		= "/fr/formation-storytelling/"
+	[[sidebar.items]]
+		name	= "Formation présentations PowerPoint"
+		url		= "/fr/formation-presentations-powerpoint/"
+	
 +++
 
 Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateur. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.
