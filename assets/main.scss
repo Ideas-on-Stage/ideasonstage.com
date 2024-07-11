@@ -9,47 +9,52 @@
 	BLUE # 00a3e0 - Secondary buttons and highlights
 */
 
+:root {
+	--hero-height:	{{ site.Params.layout.hero.height }};
+	--module-height: {{ site.Params.layout.module.height }};
+}
+
 /* @group FONT FAMILIES */
 
 	/* This is where ALL font families are declared */
 	
 	body, a {
-    font-family: "Whitney SSm A", "Whitney SSm B";
-    font-style: normal;
-    font-weight: 500;
-  }
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 500;
+	}
 	
 	b, strong, blockquote {
-    font-family: "Whitney SSm A", "Whitney SSm B";
-    font-style: normal;
-    font-weight: 700;
-  }
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 700;
+	}
 	
 	h1, h2, h3, h4, big {
-    font-family: "Gotham SSm A", "Gotham SSm B";
-    font-style: normal;
-    font-weight: 700;
-  }
+		font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
+		font-weight: 700;
+	}
 
 	/* Specific fonts - try to limit it */
 	
 	.style-text-intro {
-	  font-family: "Whitney SSm A", "Whitney SSm B";
-	  font-style: normal;
-	  font-weight: 500;	
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 500;	
 	}
 	
 	.button-primary, .button-secondary {
-	  font-family: "Gotham SSm A", "Gotham SSm B";
+		font-family: "Gotham SSm A", "Gotham SSm B";
 		font-style: normal;
-	  font-weight: 700;
-    text-transform: uppercase;
+		font-weight: 700;
+		text-transform: uppercase;
 	}
 	
 	#TableOfContents > ul > li > a {
 		/* first level of table of contents bold */
-	  font-family: "Whitney SSm A", "Whitney SSm B";
-	  font-style: normal;
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
 		font-weight: 700;
 	}
 
@@ -62,61 +67,61 @@
 	/* This is where ALL font sizes are declared */
 
 	/* font sizes for standard tags */
-	body, a, blockquote				      	{ font-size: 1.50vw;	}
-	h1									              { font-size: 2.00em;	}
-	h2						      			        { font-size: 1.75em;	}
-	h3			      				        		{ font-size: 1.25em;	}
-	h4       							        		{ font-size: 1.00em;	}
-	h5									              { font-size: 1.00em;	}
-	footer, footer a	      				  { font-size: 1.00em;	}
+	body, a, blockquote	{ font-size: 1.50vw;	}
+	h1					{ font-size: 2.00em;	}
+	h2					{ font-size: 1.75em;	}
+	h3					{ font-size: 1.25em;	}
+	h4					{ font-size: 1.00em;	}
+	h5					{ font-size: 1.00em;	}
+	footer, footer a	{ font-size: 1.00em;	}
 	
 	/* font sizes for custom classes */
-	.button-primary      						  { font-size: 1.50vw;	}
-	.nav a       								      { font-size: 0.80em;	}
-  .footer-main-category	        		{ font-size: 0.8em;		}
-  .footer-sub-category	  	      	{ font-size: 0.8em;		}
-	.form-control-nav 		      			  { font-size: 90%;  		}
+	.button-primary						{ font-size: 1.50vw;	}
+	.nav a								{ font-size: 0.80em;	}
+	.footer-main-category				{ font-size: 0.8em;		}
+	.footer-sub-category				{ font-size: 0.8em;		}
+	.form-control-nav					{ font-size: 90%;		}
 	.iosnavbar-menu-item,
-	.iosnavbar-menu-item a			      { font-size: 0.9em;		}
+	.iosnavbar-menu-item a				{ font-size: 0.9em;		}
 	.iosnavbar-menu-dropdown-item,
-	.iosnavbar-menu-dropdown-item a		{ font-size: 1em;		  }
-	.iostestimonial .text p		    		{ font-size: 14px;		}  
-	.iostestimonial .icon				      { font-size: 24px;		}
-	.iostestimonial .name-picture h4		{ font-size: 1em;		  }
+	.iosnavbar-menu-dropdown-item a		{ font-size: 1em;		}
+	.iostestimonial .text p				{ font-size: 14px;		}
+	.iostestimonial .icon				{ font-size: 24px;		}
+	.iostestimonial .name-picture h4	{ font-size: 1em;		}
 	.iostestimonial .name-picture h5 	{ font-size: 14px;		}
-	.iostestimonial .name-picture p		{ font-size: 12px;    }
-	.people-box-name						        { font-size: 1em;	  	}
-	.people-box-title					        { font-size: 0.75em;	}
-	.thumbnail-caption h3      	 			{ font-size: 0.75em;	}
-	.text-base							          { font-size: 1.00em;	}
-	.testimonial .text p		    		    { font-size: 14px;		}  
-	.testimonial .icon				          { font-size: 24px;		}
-	.testimonial .name-picture h4	    { font-size: 1em;	  	}
-	.testimonial .name-picture h5 	  	{ font-size: 14px;		}
-	.testimonial .name-picture p		  	{ font-size: 12px;		}
-	.timeline-title						        { font-size: 1.50em;	}
-	.timeline-text						          { font-size: 0.80em;	}
-	.style-section-title-main 			    { font-size: 2.00em;	}
-	.style-module-text h3				      { font-size: 2.00em;	}
-	#content-table h2 					        { font-size: 1em;		  }
-	#content-table a						        { font-size: 0.75em;	}
-	#sidebar h2							          { font-size: 1em;		  }
-	#sidebar li							          { font-size: 1em;  		}
-	#sidebar a							          { font-size: 0.8em;		}
-	#sidebar p							          { font-size: 0.8em;		}
+	.iostestimonial .name-picture p		{ font-size: 12px;		}
+	.people-box-name					{ font-size: 1em;	  	}
+	.people-box-title					{ font-size: 0.75em;	}
+	.thumbnail-caption h3				{ font-size: 0.75em;	}
+	.text-base							{ font-size: 1.00em;	}
+	.testimonial .text p				{ font-size: 14px;		}  
+	.testimonial .icon					{ font-size: 24px;		}
+	.testimonial .name-picture h4		{ font-size: 1em;	  	}
+	.testimonial .name-picture h5		{ font-size: 14px;		}
+	.testimonial .name-picture p		{ font-size: 12px;		}
+	.timeline-title						{ font-size: 1.50em;	}
+	.timeline-text						{ font-size: 0.80em;	}
+	.style-section-title-main 			{ font-size: 2.00em;	}
+	.style-module-text h3				{ font-size: 2.00em;	}
+	#content-table h2					{ font-size: 1em;		}
+	#content-table a					{ font-size: 0.75em;	}
+	#sidebar h2							{ font-size: 1em;		}
+	#sidebar li							{ font-size: 1em;		}
+	#sidebar a							{ font-size: 0.8em;		}
+	#sidebar p							{ font-size: 0.8em;		}
 	
 	/* adjust for small tall smartphone screens */
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {	
-		body, a, blockquote 				      { font-size: 4vw;		  }
-		.button-primary					        { font-size: 4vw;		  }
-		.iosnavbar-menu-item			      { font-size: 1.25em;	}
+	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+		body, a, blockquote 			{ font-size: 4vw;		}
+		.button-primary					{ font-size: 4vw;		}
+		.iosnavbar-menu-item			{ font-size: 1.25em;	}
 		.iosnavbar-menu-dropdown-item a	{ font-size: 1.25em;	}
 	}
 	
 	/* adjust for very large screens (>1280px wide) 
 		so that text does not become too big */
 	@media(min-width:1281px) {
-		body, a, blockquote					    { font-size: 20px;		}		
+		body, a, blockquote				{ font-size: 20px;		}
 	}
 
 /* @end */
@@ -131,23 +136,22 @@
 	article,
 	aside,
 	div,
-	section,
-	{
+	section, {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
 	}
 	
 	a {
-	  line-height: 1.6;
-	  color: {{ site.Params.colors.text }};
+		line-height: 1.6;
+		color: {{ site.Params.colors.text }};
 		border-bottom: none;
 		text-decoration: none;
-	  transition: all .35s;
+		transition: all .35s;
 	}	
 	a:hover,
 	a:focus {
-	  color: {{ site.Params.colors.link_hover }};
+		color: {{ site.Params.colors.link_hover }};
 		border-bottom: none;
 		text-decoration: none;
 		transition: all .35s;
@@ -158,9 +162,9 @@
 
 	
 	blockquote {
-    margin: 0;
-    padding: 1vw;
-		color: {{ site.Params.colors.blockquote }};    
+		margin: 0;
+		padding: 1vw;
+		color: {{ site.Params.colors.blockquote }};	
 	}
 	
 	blockquote p {
@@ -177,10 +181,10 @@
 		padding: 0;
 		box-sizing: border-box;
 		scroll-padding-top: {{ site.Params.layout.navigation.height }};
-	  line-height: 1.6;
-	  color: {{ site.Params.colors.text }};
+		line-height: 1.6;
+		color: {{ site.Params.colors.text }};
 	}
-		
+	
 	footer {
 		margin: 0;
 		padding: 50px 0;
@@ -200,7 +204,7 @@
 		margin: 0;
 		margin-block-start: 0em;
 		margin-block-end: 0em;
-    text-transform: uppercase;
+	text-transform: uppercase;
 	}
   
 	h2,
@@ -212,18 +216,18 @@
 	}
 	
 	li {
-	 	margin-top: 0.5em;
-	 	margin-bottom: 0.5em;
-	 	text-align: left;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		text-align: left;
 	}
 	li a {
 		border-bottom: dotted 1px {{ site.Params.colors.link_hover }};
 	}
 		
 	time {
-	 	color: {{ site.Params.colors.time }};
+		color: {{ site.Params.colors.time }};
 	}
-	 	
+
 	p {
 		margin-top: 1em;
 		margin-bottom: 1em;
@@ -290,8 +294,8 @@
 	#content-main h2:first-child,
 	#content-main h3:first-child,
 	#content-main h4:first-child {
-    /* remove top margin from first element of content */
-    margin-top: 0;
+		/* remove top margin from first element of content */
+		margin-top: 0;
 		padding-top: 0;
 	}
 	
@@ -299,16 +303,16 @@
 	#content-main h2:last-child,
 	#content-main h3:last-child,
 	#content-main h4:last-child {
-    /* remove bottom margin from last element of content */
+		/* remove bottom margin from last element of content */
 		margin-bottom: 0;
-    padding-bottom: 0;
+		padding-bottom: 0;
 	}
 	
 	#content-main > blockquote {
-    background: #f5f5f5;
-    border-radius: 8px;
-  } 
-  
+		background: #f5f5f5;
+		border-radius: 8px;
+	} 
+
 	/* ensures img are displayed full content width */
 	#content-main > p > img {
 		display: block;
@@ -317,17 +321,17 @@
 		width: auto;
 		height: auto;
 		max-width: 100%;
-    border: 2px solid #ddd;
-    border-radius: 8px;
+		border: 2px solid #ddd;
+		border-radius: 8px;
 	}
 	
 	#content-main table {
 		border: 1px solid #ddd;
-    border-collapse: collapse;
+		border-collapse: collapse;
 	}
 	#content-main thead {
-    border: none;
-  }
+		border: none;
+	}
 	#content-main th {
 		padding: 1vw;
 		width: auto;
@@ -530,13 +534,13 @@
 	/* use to create a primary button */
 	.button-primary {
 		margin: 1vw 0;
-    padding: 1vw 2vw;
+	padding: 1vw 2vw;
 		color: {{ site.Params.buttons.primary.color }} !important;
 		background-color: {{ site.Params.buttons.primary.bg_color }};
 		border: none;
-    border-radius: 5px;
-    border-color: none;
-    border-style: none;
+		border-radius: 5px;
+		border-color: none;
+		border-style: none;
 	}
 	
 	/* use to create a secondary button */
@@ -545,9 +549,9 @@
 		color: {{ site.Params.buttons.secondary.color }} !important;
 		background-color: {{ site.Params.buttons.secondary.bg_color }};
 		border: none;
-	  border-radius: 3px;
-	  border-color: none;
-	  border-style: none;
+		border-radius: 3px;
+		border-color: none;
+		border-style: none;
 	}
 	
 	.bg-primary .button-secondary {
@@ -578,10 +582,10 @@
 
 		/* wrapper for all content <body> */
 		.layout-page {
-			padding-top: {{ site.Params.layout.page.padding.top }};
-			padding-right: {{ site.Params.layout.page.padding.right }};
-			padding-bottom: {{ site.Params.layout.page.padding.bottom }};
-			padding-left: {{ site.Params.layout.page.padding.left }};
+			padding-top: {{ site.Params.layout.page.padding_top }};
+			padding-right: {{ site.Params.layout.page.padding_right }};
+			padding-bottom: {{ site.Params.layout.page.padding_bottom }};
+			padding-left: {{ site.Params.layout.page.padding_left }};
 		}
 
 		/* wrapper from main content such as .Content */
@@ -673,36 +677,36 @@
 
 		/* hero layout module */
 		.layout-module-hero {
-			height: 70vh;
+			height: var(--hero-height);
 			width: 100%;
 		}
 		
 		/* Use this to create a full width module div */
 		.layout-module {
-			height: {{ site.Params.layout.module.height }};
+			height: var(--module-height);
 			width: 100%;
 		}
 
 		/* Or use this to create a half width module div */
 		.layout-module-half {
-			height: {{ site.Params.layout.module.height }};			
+			height: var(--module-height);			
 			width: 50%;
 		}
 
 		/* Enclose modules in a layout-module-wrapper div to have a gap between them */		
 		.layout-module-wrapper {
-			padding-top: {{ site.Params.layout.module.padding.top }};
-			padding-right: {{ site.Params.layout.module.padding.right }};
-			padding-bottom: {{ site.Params.layout.module.padding.bottom }};
-			padding-left: {{ site.Params.layout.module.padding.left }};
+			padding-top: {{ site.Params.layout.module.padding_top }};
+			padding-right: {{ site.Params.layout.module.padding_right }};
+			padding-bottom: {{ site.Params.layout.module.padding_bottom }};
+			padding-left: {{ site.Params.layout.module.padding_left }};
 		}	
 		.layout-module-wrapper .layout-module,
 		.layout-module-wrapper .layout-module-half {
 			/* If module is enclosed in a layout-module-wrapper div, add padding */
-			padding-top: {{ site.Params.layout.module.padding.top }};
-			padding-right: {{ site.Params.layout.module.padding.right }};
-			padding-bottom: {{ site.Params.layout.module.padding.bottom }};
-			padding-left: {{ site.Params.layout.module.padding.left }};
+			padding-top: {{ site.Params.layout.module.padding_top }};
+			padding-right: {{ site.Params.layout.module.padding_right }};
+			padding-bottom: {{ site.Params.layout.module.padding_bottom }};
+			padding-left: {{ site.Params.layout.module.padding_left }};
 		}
 
 		/* use to create module div with pic on left, text on right */
@@ -780,14 +784,14 @@
 		
 		/* adapt width and height to substract padding if necessary */
 		.layout-module-wrapper .layout-module-layer {
-			width: calc(100% - {{ site.Params.layout.module.padding.left }} * 2 - {{ site.Params.layout.module.padding.right }} * 2);
+			width: calc(100% - {{ site.Params.layout.module.padding_left }} * 2 - {{ site.Params.layout.module.padding_right }} * 2);
 		}
 		.layout-module-wrapper .layout-module-half .layout-module-layer {
-			width: calc(50% - {{ site.Params.layout.module.padding.left }} * 2 - {{ site.Params.layout.module.padding.right }} );
+			width: calc(50% - {{ site.Params.layout.module.padding_left }} * 2 - {{ site.Params.layout.module.padding_right }} );
 		}
 		.layout-module-wrapper .layout-module .layout-module-layer,
 		.layout-module-wrapper .layout-module-half .layout-module-layer {
-			height: calc( {{ site.Params.layout.module.height }} - {{ site.Params.layout.module.padding.top }} - {{ site.Params.layout.module.padding.bottom }} );
+			height: calc( {{ site.Params.layout.module.height }} - {{ site.Params.layout.module.padding_top }} - {{ site.Params.layout.module.padding_bottom }} );
 		}
 				
 		.layout-module-big {
@@ -1024,21 +1028,21 @@
 		/* flex parent that wraps if too large */
 		.flex-parent {
 			display: flex;
-      flex-direction: row;
+  	flex-direction: row;
 			align-items: stretch;
 			justify-content: space-between;
 			width: 100%;
 		}
 
 		.flex-parent-row {
-      flex-direction: row;
+  	flex-direction: row;
 			flex-wrap: wrap;
-    }
-    
-    .flex-column {
-      flex-direction: column;
+	}
+	
+	.flex-column {
+  	flex-direction: column;
 			height: 100%;
-    }
+	}
   		
 		/* flex horizontal scroll classes (used in the testimonials and references */
 		.flex-parent-scroll {
@@ -1380,30 +1384,30 @@
 	
 	/* text color helper classes */
 	
-	.text-primary			{ color: #FF8200;			      		}
+	.text-primary			{ color: #FF8200;			  			}
 	.text-faded 			{ color: rgba(255,255,255,.7);		}
-	.text-blue	 		  	{ color: rgb(51,53,65);        	}
-	.text-white				{ color: #fff;        						}
-	.text-gray 				{ color: #888;					        	}
-	.text-dark 				{ color: #222;        						}
-	                  
+	.text-blue	 		  	{ color: rgb(51,53,65);			}
+	.text-white				{ color: #fff;								}
+	.text-gray 				{ color: #888;								}
+	.text-dark 				{ color: #222;								}
+	  				
 	/* padding helper classes */
 
-	.padding-huge	 		{ padding: 80px;			      		}
-	.padding-large    { padding: 60px;      				  	}
-	.padding-medium   { padding: 40px;		        		}
-	.padding-small			{ padding: 20px;      					}
-	.padding-tiny 		{ padding: 10px;			      		}
-	.padding-none 		{ padding: 0px;		      				}
+	.padding-huge	 		{ padding: 80px;			  			}
+	.padding-large	{ padding: 60px;  					  	}
+	.padding-medium   { padding: 40px;						}
+	.padding-small			{ padding: 20px;  						}
+	.padding-tiny 		{ padding: 10px;			  			}
+	.padding-none 		{ padding: 0px;		  					}
 	
-	.paddingt-huge 		{ padding-top: 80px;    				}
-	.paddingt-large 		{ padding-top: 60px;    				}
-	.paddingt-medium 	{ padding-top: 40px;	    			}
-	.paddingt-small 		{ padding-top: 20px;	    			}
-	.paddingt-tiny 		{ padding-top: 10px;	    			}
-	.paddingt-none 		{ padding-top: 0px;				    	}
+	.paddingt-huge 		{ padding-top: 80px;					}
+	.paddingt-large 		{ padding-top: 60px;					}
+	.paddingt-medium 	{ padding-top: 40px;					}
+	.paddingt-small 		{ padding-top: 20px;					}
+	.paddingt-tiny 		{ padding-top: 10px;					}
+	.paddingt-none 		{ padding-top: 0px;						}
 	
-	.paddingb-huge 		{ padding-bottom: 80px;		    	}
+	.paddingb-huge 		{ padding-bottom: 80px;				}
 	.paddingb-large 		{ padding-bottom: 60px;  				}
 	.paddingb-medium 	{ padding-bottom: 40px;		  		}
 	.paddingb-small 		{ padding-bottom: 20px;			  	}
@@ -1464,28 +1468,28 @@
 
 	
 	.margin-huge {
-    margin: 80px;
+	margin: 80px;
   }
 	.margin-large 	{
-    margin: 60px;
+	margin: 60px;
   }
 	.margin-medium { 
-    margin: 40px;
+	margin: 40px;
   }
 	.margin-small 	{
-    margin: 20px;
+	margin: 20px;
   }
 	.margin-tiny {
-    margin: {{ site.Params.layout.module.padding.top }};	
+	margin: {{ site.Params.layout.module.padding_top }};	
   }
 	.margin-none { 
-    margin: 0px;
+	margin: 0px;
   }
 
   @media (max-aspect-ratio:1/1) and (max-width:480px) {
-    .margin-tiny 	{
-      margin: {{ site.Params.layout.module.padding_ts.top }};
-    }
+	.margin-tiny 	{
+  	margin: {{ site.Params.layout.module.padding_ts.top }};
+	}
   }
 
 	.margint-huge 	{ margin-top: 80px;	  	} 
@@ -1572,8 +1576,8 @@
 		box-sizing: border-box;
 	}
 
-    @media (max-aspect-ratio:1/1) and (max-width:480px) {
-        
+	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+		
 		.paddingt-large		{	padding-top: 18px;		}
 		.paddingt-medium	{	padding-top: 12px;		}
 		.margint-large 		{	margin-top: 18px;	  	}
@@ -1789,7 +1793,7 @@
 }	
 
 .section-heading {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 /* PMO: added thumbnail stuff */
@@ -1808,10 +1812,10 @@
 }
 
 .thumbnail .thumbnail-caption {
-    position: absolute;
-    top: 50%;
-    margin-left: -4px;
-    padding: 4px;
+	position: absolute;
+	top: 50%;
+	margin-left: -4px;
+	padding: 4px;
 	width: 100%;
 }
 
@@ -1829,9 +1833,9 @@
 		max-height: 260px;
 		display: block;
 		text-align: center;
-	    position: relative;
-	    max-width: 650px;
-	    margin: 0px auto 0;
+		position: relative;
+		max-width: 650px;
+		margin: 0px auto 0;
 	}
 	
 	.people-box img {
@@ -1840,7 +1844,7 @@
 		border: 3px solid #fff;
 		border-radius: 50%;
 		margin-left: auto;
-	    margin-right: auto;
+		margin-right: auto;
 		transition: all .35s;
 		filter: grayscale(100%);
 	}
@@ -1859,24 +1863,24 @@
 	.people-box-title {
 		padding: 0;
 		margin: 0;
-	    color: #aaa;
+		color: #aaa;
 	}
 
 /* @end */
 
 .no-gutter > [class*=col-] {
-    padding-right: 0;
-    padding-left: 0;
+	padding-right: 0;
+	padding-left: 0;
 }
 
 /*PMO Added for forms - height of free text field*/
 section#contact .iosform-group textarea.iosform-control {
-    height: 133px;
+	height: 133px;
 		box-sizing: border-box;
 }
 
 section#contact .text-danger {
-    color: #e74c3c;
+	color: #e74c3c;
 }
 
 #success, #success2 {
@@ -1885,14 +1889,14 @@ section#contact .text-danger {
 }
 
 ::selection {
-    text-shadow: none;
-    color: #fff;
-    background: #222;
+	text-shadow: none;
+	color: #fff;
+	background: #222;
 }
 
 img::selection {
-    color: #fff;
-    background: 0 0;
+	color: #fff;
+	background: 0 0;
 }
 
 
@@ -2303,23 +2307,23 @@ ul.post-tag {
 /* @group Agenda Collapsible Styling */
 input[type='checkbox'] {
 	display: none;
-  }
+}
 
-  .agenda-toggle {
+.agenda-toggle {
 	display: block;  
 	font-weight: 500;
 	cursor: pointer;
 	margin-top: 1em;
-  }
+}
 
-  .collapsible-content {
+.collapsible-content {
 	max-height: 0px;
 	overflow: hidden;
   
 	transition: max-height .25s ease-in-out;
-  }
-  .agenda-toggle:checked + .agenda-toggle + .collapsible-content {
+}
+.agenda-toggle:checked + .agenda-toggle + .collapsible-content {
 	max-height: 100vh;
-  }
-  
+}
+
 /* @end */

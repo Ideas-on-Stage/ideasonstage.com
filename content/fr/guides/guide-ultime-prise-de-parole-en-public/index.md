@@ -1,6 +1,6 @@
 +++
 draft 			= false
-title 			= "Prise de parole en public : guide complet et illustré"
+title 			= "Le guide ultime de la prise de parole en public"
 categories		= [ "Prise de parole en public" ]
 description		= "Techniques d'art oratoire, gestion du stress, résolution des problèmes fréquents : comment prendre la parole en public avec aisance."
 url 			= "/fr/guide-ultime-prise-de-parole-en-public/"
