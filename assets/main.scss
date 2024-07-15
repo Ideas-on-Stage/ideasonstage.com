@@ -22,8 +22,8 @@
 	--module-ts-column-gap: {{ site.Params.layout.module.ts.column_gap }}; 
 	--module-ts-row-gap: {{ site.Params.layout.module.ts.row_gap }};
 
-	--logo-width: {{ site.Params.navigation.brand_logo_width }};
 	--logo-height: {{ site.Params.navigation.brand_logo_height }};
+	--logo-offset: {{ site.Params.navigation.brand_logo_offset }};
 }
 
 /* @group FONT FAMILIES */
@@ -94,9 +94,9 @@
 	.footer-sub-category				{ font-size: 0.8em;		}
 	.form-control-nav					{ font-size: 90%;		}
 	.iosnavbar-menu-item,
-	.iosnavbar-menu-item a				{ font-size: 0.9em;		}
+	.iosnavbar-menu-item a				{ font-size: 0.85em;	}
 	.iosnavbar-menu-dropdown-item,
-	.iosnavbar-menu-dropdown-item a		{ font-size: 1em;		}
+	.iosnavbar-menu-dropdown-item a		{ font-size: 0.85em;	}
 	.iostestimonial .text p				{ font-size: 14px;		}
 	.iostestimonial .icon				{ font-size: 24px;		}
 	.iostestimonial .name-picture h4	{ font-size: 1em;		}
@@ -122,13 +122,14 @@
 	#sidebar p							{ font-size: 0.8em;		}
 	#sidebar a							{ font-size: 1em;		}
 	
-	
 	/* adjust for small tall smartphone screens */
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		body, a, blockquote 			{ font-size: 4vw;		}
 		.button-primary					{ font-size: 4vw;		}
-		.iosnavbar-menu-item			{ font-size: 1.25em;	}
-		.iosnavbar-menu-dropdown-item a	{ font-size: 1.25em;	}
+		.iosnavbar-menu-item,
+		.iosnavbar-menu-item a			{ font-size: 1em;	}
+		.iosnavbar-menu-dropdown-item,
+		.iosnavbar-menu-dropdown-item a	{ font-size: 1em;	}
 	}
 	
 	/* adjust for very large screens (>1280px wide) 
@@ -1684,12 +1685,19 @@
 	
 	/* Adjust logo positioning */
 	.iosnavbar-brand {
+		margin-top: calc((var(--menubar-height) - var(--logo-height)) / 2 + var(--logo-offset));
+		height: var(--logo-height);
+		color: #FF8200;
+		float: left;
+	}
+
+	.iosnavbar-brand img {
 		width: var(--logo-width);
 		height: var(--logo-height);
 		color: #FF8200;
 		float: left;
 	}
-	
+		
 	/* burger symbol (replaces normal menu on ts screens) */
 	.iosnavbar-burger {
 		display: none;
@@ -1743,7 +1751,6 @@
 		position: relative;
 		list-style: none;
 		padding: 5px 12px;
-		font-size: 0.8em;
 		background-color: transparent;
 		line-height: 20px;
 		font-weight: 400;
