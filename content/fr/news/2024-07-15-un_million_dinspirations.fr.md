@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "UN MILLION D'INSPIRATIONS"
+title = "Un million d'inspirations"
 news = ["general"]
 date = "2024-03-11"
 author = "Phil Waknell"
