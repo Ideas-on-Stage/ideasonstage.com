@@ -105,6 +105,8 @@ title 					= "Ideas on Stage"
 	[params.navigation]
 		brand				= "Ideas on Stage"
 		brand_logo			= "/img/ideas-on-stage.svg"
+		brand_logo_width	= "210px"
+		brand_logo_height	= "52px"
 		brand_ball			= "/img/ideas-on-stage-ball.svg"
 		languageicon		= "/img/globe.svg"
 		languageiconhover	= "/img/globe_hover.svg"

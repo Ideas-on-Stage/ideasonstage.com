@@ -22,6 +22,8 @@
 	--module-ts-column-gap: {{ site.Params.layout.module.ts.column_gap }}; 
 	--module-ts-row-gap: {{ site.Params.layout.module.ts.row_gap }};
 
+	--logo-width: {{ site.Params.navigation.brand_logo_width }};
+	--logo-height: {{ site.Params.navigation.brand_logo_height }};
 }
 
 /* @group FONT FAMILIES */
@@ -1666,8 +1668,6 @@
 		z-index:1000;
 		border: none;
 		transition: all .35s;
-		margin: 0;
-		padding: 0;
 	}
 	
 	/* Links inside the navbar */
@@ -1684,27 +1684,18 @@
 	
 	/* Adjust logo positioning */
 	.iosnavbar-brand {
-		height: var(--menubar-height);
-		/* height: 52px; */
-		padding: 2px 0 0 0;
+		width: var(--logo-width);
+		height: var(--logo-height);
 		color: #FF8200;
 		float: left;
-		width: 13em;
-		min-width: 120px;
 	}
 	
-	.iosnavbar-buffer {
-		height: var(--menubar-height);
-	}
-	
-	/* definition of the "burger" */
+	/* burger symbol (replaces normal menu on ts screens) */
 	.iosnavbar-burger {
-		height: 1.2em;
-		margin-right: 8px;
-		padding-top:-2px;
+		display: none;
 	}
 	
-	/* menu bar */
+	/* <ul> menu (replaced by burger on ts screens) */
 	.iosnavbar-menu {
 		float: right;
 		padding: 0;
@@ -1718,7 +1709,7 @@
 		gap: 1em;
 	}
 	
-	/* menu bar item, use on <li> */
+	/* <li> menu bar items */
 	.iosnavbar-menu-item {
 		margin: 0;
 		padding: 0;
@@ -1737,7 +1728,7 @@
 		display: none;
 		position: absolute;
 		top: calc(var(--menubar-height) - 2px);
-		margin-left: -1em;
+		margin: 0;
 		background-color: rgba(34,34,34,1);
 		padding: 0;
 		box-sizing: border-box;
@@ -1751,7 +1742,7 @@
 		display: list-item;
 		position: relative;
 		list-style: none;
-		padding: 5px 15px;
+		padding: 5px 12px;
 		font-size: 0.8em;
 		background-color: transparent;
 		line-height: 20px;
@@ -1764,12 +1755,10 @@
 	}
 	
 	.menutoggle, [id^=drop] {
- 	display: none;
- 	margin-bottom: 0;
+		display: none;
 	}
 	
 	.iosnavbar input[type=checkbox] {
-		margin-top: 0;
 	}
 	
 	@media all and (min-width : 481px) {
@@ -1781,10 +1770,6 @@
 	}
 	
 	@media all and (max-width : 480px) {
-	
-		iosnavbar {
-			margin: 0;
-		}
 		
 		.menutoggle + a,
 		.iosnavbar-menu {
@@ -1809,8 +1794,6 @@
 			float: right;
 			display: block;
 			font-size: 1.6em;
-			padding: 3px 0px;
-			background-color: #222;
 		}
 		
 		/* show dropdown */
@@ -1820,12 +1803,13 @@
 	
 		.iosnavbar-menu {
 			position: absolute;
-			top: var(--menubar-height) - 2;
+			top: calc(var(--menubar-height) - 2px);
 			left: 0;
 			width: 100%;
 			flex-direction: column;
 			height: auto;
 			align-items: center;
+			padding-bottom: 16px;
 		}
 	
 		.iosnavbar-menu-item {
