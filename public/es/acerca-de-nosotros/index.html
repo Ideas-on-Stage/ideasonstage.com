@@ -1,7 +1,8 @@
 <!-- _default:baseof.html:start -->
 <!DOCTYPE html>
 <html lang="es">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 			<!-- partials:head.html:start -->
 <!-- partials:head-title.html:start -->
 <title>
@@ -102,7 +103,8 @@
 <!-- partials:head.html:end -->
 
 	</head>
-  <body id="page-top" class="layout-page">
+	
+	<body id="page-top" class="layout-page">
 		<!-- partials:page-nav.html:start -->
 <nav class="iosnavbar">
 	<div class="layout-content-width">
@@ -201,17 +203,21 @@
 		<main role="main">
 			
 				<!-- partials:page-hero.html:start -->
-<header id="hero">
+
+
+
 
 	
-
-	
+		<header id="title" class="layout-module-title">
 			<div class="layout-page-title style-page-title">
 				<h1>
-	        Acerca
-		 		</h1>
-	    </div>
-</header>
+					Acerca
+				</h1>
+			</div>
+		</header>
+	
+		
+
 <!-- partials:page-hero.html:end -->
 
 				
@@ -219,15 +225,14 @@
 			<!-- partials/revolution/breadcrumbs.html -->
 			
 	<!-- _default:list.html:main:start -->
-	<div class="layout-module-wrapper">
-		<!-- partials:page-page-page-inserts-top.html:start -->
+	<!-- partials:page-page-page-inserts-top.html:start -->
 
 	<!-- no top inserts -->
 
 <!-- partials:page-page-page-inserts-top.html:end -->
-		
-			<!-- partials:page-list.html:start -->
-<section id="content-list">
+	
+		<!-- partials:page-list.html:start -->
+<section id="content-list" class="layout-module-group">
 	
 		
 		
@@ -238,9 +243,9 @@
 </section>
 <!-- partials:page-list.html:end -->
 
-		
-		<!-- partials:page-content.html:start -->
-<div class="layout-content">
+	
+	<!-- partials:page-content.html:start -->
+<div class="layout-module-content">
 		<section id="content-main"><p>En Ideas on Stage tenemos como propósito ayudar a los líderes de todo el mundo a hacer presentaciones extraordinarias, crear eventos que inspiren y muevan al cambio, y fortalecer sus compañías mediante la formación y coaching para hablar en público. En un mundo plagado de presentaciones insufribles y aburridas y de reuniones interminables, le ayudaremos a destacar y a brillar.</p>
 <p>Fundamos Ideas on Stage en 2010, convencidos de que las presentaciones eficaces son una ventaja competitiva clave, y lo hicimos ofreciendo una revolucionaria mezcla de storytelling, diseño visual impactante y coaching para ponentes especializado. Nuestra intuición demostró ser correcta: nuestros clientes respondieron de forma entusiasta a nuestra propuesta de presentaciones de alto impacto, se convirtieron en clientes recurrentes, y además se lo contarón a sus amigos.</p>
 <p>Hoy, los expertos en comunicación de Ideas on Stage ofrecen un amplio abanico de servicios para presentaciones y para hablar en público por todo el mundo en español, inglés, francés, italiano y alemán.</p>
@@ -248,89 +253,64 @@
 		</section>
 </div>
 <!-- partials:page-content.html:end -->
-		
-	</div>
+	
 	<!-- _default:list.html:main:end -->
 
 		</main>
 		<aside>
-			<!-- partials:page-inserts-bottom.html:start -->
-
-	<section id="inserts-bottom" class="layout-module-wrapper flex-parent flex-parent-row">
-				<!-- partials:inserts:module-half-text-picture.html:start -->
-<div class="layout-module-half">
-	<div class="layout-module-column bg-lightgray">
-		<div class="layout-module-column-text style-module-text">
-			<a href="/es/equipo/">
-
-	<h3>Equipo</h3>
-	<p>Nuestro equipo internacional puede ayudarte en español, inglés, francés e italiano.</p></a>
-
+			<!-- partials:page-contact.html:start -->
+<section id="contact" class="layout-module-group-nogap">
+	<div class="iosnavbar-buffer">
+		<!-- insert gap to avoid contact text covered by nav bar -->	  
+	</div>
+	<div class="layout-module-content">
+		<div class="centered style-module-text">
+			<h2 class="section-heading">
+				
+					Contacta con nosotros
+				
+			</h2>
+			<p>
+				
+					¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible
+				
+			</p>
 			
-<a href="/es/equipo/" class="button-secondary">Descubre nuestro equipo</a>
-		</div>
-		<div class="layout-module-column-image">
-			<a href="/es/equipo/">
-<img src="/img/inserts/team.jpg" alt="Equipo"></a>
 		</div>
 	</div>
+	<div class="layout-module-content-narrow">
+		<form action="/es/acerca-de-nosotros/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+			<div class="iosform-group">
+				<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/es/acerca-de-nosotros/">
+			</div>
+			<div class="iosform-group">
+				<input type="text" id="fname" name="name" class="iosform-control" placeholder="Tu Nombre *" oninvalid="alert('Por favor, escribe tu nombre.');" required>
+			</div>  
+			<div class="iosform-group">
+				<input type="email" id="email" name="email" class="iosform-control" placeholder="Tu Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Por favor, introduce un email válido.');" required>
+			</div>
+			<div class="iosform-group">  
+				<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Tu teléfono (opcional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Por favor, introduce un número de teléfono válido.');">  
+			</div>
+			<div class="iosform-group">  
+				<input type="text" id="country" name="country" class="iosform-control" placeholder="Tu páis de residencia (opcional)" oninvalid="alert('Por favor incluya su país de residencia.');">
+			</div>
+			<div class="iosform-group">  
+				<textarea id="message" name="message" class="iosform-control" placeholder="Tu Mensaje *" oninvalid="alert('Por favor, escribe un mensaje.');" required></textarea>  	
+			</div>
+			<div class="iosform-button">
+				<input type="submit" id="contactsubmit" value="Enviar mensaje" class="button-primary" success="Gracias, en breve nos pondremos en contacto contigo." wait="Un momento ...">	
+			</div>
+		</form>
+	</div>
+</section><!-- contact end -->
 </div>
-<!-- partials:inserts:module-half-text-picture.html:end -->
-	</section>
-
-<!-- partials:page-inserts-bottom.html:end -->
-	    <!-- partials:page-contact.html:start -->
-	<section id="contact">
-		<div class="iosnavbar-buffer">
-			<!-- insert gap to avoid contact text covered by nav bar -->	  
-		</div>
-    <div class="layout-content">
-      <div class="centered style-module-text">
-        <h2 class="section-heading">
-					
-						Contacta con nosotros
-					
-				</h2>
-				<p>
-					
-						¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible
-					
-				</p>
-				
-       </div>
-		</div>
-		<div class="layout-content-narrow">
-			<form action="/es/acerca-de-nosotros/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-	      <div class="iosform-group">
-	        <input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/es/acerca-de-nosotros/">
-	      </div>
-	      <div class="iosform-group">
-	        <input type="text" id="fname" name="name" class="iosform-control" placeholder="Tu Nombre *" oninvalid="alert('Por favor, escribe tu nombre.');" required>
-	      </div>  
-	      <div class="iosform-group">
-	        <input type="email" id="email" name="email" class="iosform-control" placeholder="Tu Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Por favor, introduce un email válido.');" required>
-	      </div>
-	      <div class="iosform-group">  
-	        <input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Tu teléfono (opcional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Por favor, introduce un número de teléfono válido.');">  
-	      </div>
-				<div class="iosform-group">  
-					<input type="text" id="country" name="country" class="iosform-control" placeholder="Tu páis de residencia (opcional)" oninvalid="alert('Por favor incluya su país de residencia.');">
-	      </div>
-	      <div class="iosform-group">  
-					<textarea id="message" name="message" class="iosform-control" placeholder="Tu Mensaje *" oninvalid="alert('Por favor, escribe un mensaje.');" required></textarea>      
-				</div>
-	      <div class="iosform-button">
-	        <input type="submit" id="contactsubmit" value="Enviar mensaje" class="button-primary" success="Gracias, en breve nos pondremos en contacto contigo." wait="Un momento ...">    
-	      </div>     
-	    </form>
-	  </div>
-	</section><!-- contact end -->
 <!-- partials:page-contact.html:end -->
 
 		</aside>
 		<footer>
-	    <!-- partials:page-footer.html:start -->
-<div class="layout-content paddingt-none paddingb-none">
+			<!-- partials:page-footer.html:start -->
+<div class="layout-module-content paddingt-none paddingb-none">
 	<div class= "footer-nav flex-parent flex-parent-row">
 				
 			<div class="flex-child-25p">
@@ -485,5 +465,6 @@
 <!-- partials:page-js.html:end -->
 
 	</body>
+	
 </html>
 <!-- _default:baseof.html:end -->

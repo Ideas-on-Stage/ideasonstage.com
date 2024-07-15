@@ -1,5 +1,5 @@
 {{ "<!-- shortcodes:call-to-action.html:start -->" | safeHTML }}
-<div class="layout-shortcode-column paddingv-medium {{ with .Params.style }}{{ . }}{{ end }}">
+<div class="layout-shortcode-column flex-gap paddingv-medium {{ with .Params.style }}{{ . }}{{ end }}">
 	{{- if .Params.title }}
 	<div class="layout-shortcode-child">
 		<h3 class="text-center">{{ .Params.title }}</h3>
@@ -16,7 +16,7 @@
 	</div>
 	{{- end }}
 	{{- if .Params.button }}
-	<div class="layout-shortcode-child text-center">
+	<div class="layout-shortcode-child paddingv-tiny text-center">
 		<a href="{{ .Params.link }}" class="button-primary">{{ .Params.button }}</a>
 	</div>
 	{{- end }}

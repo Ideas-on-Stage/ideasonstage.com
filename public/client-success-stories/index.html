@@ -1,7 +1,8 @@
 <!-- _default:baseof.html:start -->
 <!DOCTYPE html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 			<!-- partials:head.html:start -->
 <!-- partials:head-title.html:start -->
 <title>
@@ -90,7 +91,8 @@
 <!-- partials:head.html:end -->
 
 	</head>
-  <body id="page-top" class="layout-page">
+	
+	<body id="page-top" class="layout-page">
 		<!-- partials:page-nav.html:start -->
 <nav class="iosnavbar">
 	<div class="layout-content-width">
@@ -179,17 +181,21 @@
 		<main role="main">
 			
 				<!-- partials:page-hero.html:start -->
-<header id="hero">
+
+
+
 
 	
-
-	
+		<header id="title" class="layout-module-title">
 			<div class="layout-page-title style-page-title">
 				<h1>
-	        Client Success Stories
-		 		</h1>
-	    </div>
-</header>
+					Client Success Stories
+				</h1>
+			</div>
+		</header>
+	
+		
+
 <!-- partials:page-hero.html:end -->
 
 				
@@ -197,15 +203,14 @@
 			<!-- partials/revolution/breadcrumbs.html -->
 			
 	<!-- _default:list.html:main:start -->
-	<div class="layout-module-wrapper">
-		<!-- partials:page-page-page-inserts-top.html:start -->
+	<!-- partials:page-page-page-inserts-top.html:start -->
 
 	<!-- no top inserts -->
 
 <!-- partials:page-page-page-inserts-top.html:end -->
-		
-			<!-- partials:page-list.html:start -->
-<section id="content-list">
+	
+		<!-- partials:page-list.html:start -->
+<section id="content-list" class="layout-module-group">
 	
 		
 		
@@ -214,7 +219,7 @@
 				
 					
 					<!-- partials:inserts:link-picture2-text1.html:start -->
-<div class="layout-content ">
+<div class="layout-module-content ">
 	<div class="flex-parent flex-parent-row flex-column-reverse-ontall">
     	<div class="flex-child-60p flex-child-image-left">
 			<a href="/client-success-stories/martech-trophies-ceremony-by-cmit/">
@@ -237,7 +242,7 @@
 				
 					
 					<!-- partials:inserts:link-picture2-text1.html:start -->
-<div class="layout-content ">
+<div class="layout-module-content ">
 	<div class="flex-parent flex-parent-row flex-column-reverse-ontall">
     	<div class="flex-child-60p flex-child-image-left">
 			<a href="/client-success-stories/tedx-tours-2019/">
@@ -262,76 +267,71 @@
 </section>
 <!-- partials:page-list.html:end -->
 
-		
-		<!-- partials:page-content.html:start -->
-<div class="layout-content">
+	
+	<!-- partials:page-content.html:start -->
+<div class="layout-module-content">
 		<section id="content-main"> 
 		</section>
 </div>
 <!-- partials:page-content.html:end -->
-		
-	</div>
+	
 	<!-- _default:list.html:main:end -->
 
 		</main>
 		<aside>
-			<!-- partials:page-inserts-bottom.html:start -->
-
-<!-- No bottom inserts -->
-
-<!-- partials:page-inserts-bottom.html:end -->
-	    <!-- partials:page-contact.html:start -->
-	<section id="contact">
-		<div class="iosnavbar-buffer">
-			<!-- insert gap to avoid contact text covered by nav bar -->	  
-		</div>
-    <div class="layout-content">
-      <div class="centered style-module-text">
-        <h2 class="section-heading">
-					
-						Contact us
-					
-				</h2>
-				<p>
-					
-						Any questions? Use the form below and we&rsquo;ll get back to you shortly
-					
-				</p>
+			<!-- partials:page-contact.html:start -->
+<section id="contact" class="layout-module-group-nogap">
+	<div class="iosnavbar-buffer">
+		<!-- insert gap to avoid contact text covered by nav bar -->	  
+	</div>
+	<div class="layout-module-content">
+		<div class="centered style-module-text">
+			<h2 class="section-heading">
 				
-       </div>
+					Contact us
+				
+			</h2>
+			<p>
+				
+					Any questions? Use the form below and we&rsquo;ll get back to you shortly
+				
+			</p>
+			
 		</div>
-		<div class="layout-content-narrow">
-			<form action="/client-success-stories/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-	      <div class="iosform-group">
-	        <input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/client-success-stories/">
-	      </div>
-	      <div class="iosform-group">
-	        <input type="text" id="fname" name="name" class="iosform-control" placeholder="Your Name *" oninvalid="alert('Please enter your name.');" required>
-	      </div>  
-	      <div class="iosform-group">
-	        <input type="email" id="email" name="email" class="iosform-control" placeholder="Your Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Please enter a valid email address.');" required>
-	      </div>
-	      <div class="iosform-group">  
-	        <input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Your Phone (optional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Please enter a valid phone number.');">  
-	      </div>
-				<div class="iosform-group">  
-					<input type="text" id="country" name="country" class="iosform-control" placeholder="Your country of residence (optional)" oninvalid="alert('Please enter your country of residence.');">
-	      </div>
-	      <div class="iosform-group">  
-					<textarea id="message" name="message" class="iosform-control" placeholder="Let us know how we can help you *" oninvalid="alert('Please enter a message.');" required></textarea>      
-				</div>
-	      <div class="iosform-button">
-	        <input type="submit" id="contactsubmit" value="Send message" class="button-primary" success="Thank you, we&#39;ll get back to you shortly." wait="Please Wait...">    
-	      </div>     
-	    </form>
-	  </div>
-	</section><!-- contact end -->
+	</div>
+	<div class="layout-module-content-narrow">
+		<form action="/client-success-stories/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+			<div class="iosform-group">
+				<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/client-success-stories/">
+			</div>
+			<div class="iosform-group">
+				<input type="text" id="fname" name="name" class="iosform-control" placeholder="Your Name *" oninvalid="alert('Please enter your name.');" required>
+			</div>  
+			<div class="iosform-group">
+				<input type="email" id="email" name="email" class="iosform-control" placeholder="Your Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Please enter a valid email address.');" required>
+			</div>
+			<div class="iosform-group">  
+				<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Your Phone (optional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Please enter a valid phone number.');">  
+			</div>
+			<div class="iosform-group">  
+				<input type="text" id="country" name="country" class="iosform-control" placeholder="Your country of residence (optional)" oninvalid="alert('Please enter your country of residence.');">
+			</div>
+			<div class="iosform-group">  
+				<textarea id="message" name="message" class="iosform-control" placeholder="Let us know how we can help you *" oninvalid="alert('Please enter a message.');" required></textarea>  	
+			</div>
+			<div class="iosform-button">
+				<input type="submit" id="contactsubmit" value="Send message" class="button-primary" success="Thank you, we&#39;ll get back to you shortly." wait="Please Wait...">	
+			</div>
+		</form>
+	</div>
+</section><!-- contact end -->
+</div>
 <!-- partials:page-contact.html:end -->
 
 		</aside>
 		<footer>
-	    <!-- partials:page-footer.html:start -->
-<div class="layout-content paddingt-none paddingb-none">
+			<!-- partials:page-footer.html:start -->
+<div class="layout-module-content paddingt-none paddingb-none">
 	<div class= "footer-nav flex-parent flex-parent-row">
 				
 			<div class="flex-child-25p">
@@ -504,5 +504,6 @@
 <!-- partials:page-js.html:end -->
 
 	</body>
+	
 </html>
 <!-- _default:baseof.html:end -->

@@ -75,13 +75,15 @@ title 					= "Ideas on Stage"
 		[params.layout.hero]
 			height	= "60vh"
 		[params.layout.module]
-			height			= "580px"
-			height_big		= "580px"
+			height			= "480px"
+			height_big		= "480px"
 			height_ts		= "140vw" # ts is for tall small screens on smartphones
 			padding_top		= "0.5vw"
 			padding_right	= "0.5vw"
 			padding_bottom	= "0.5vw"
 			padding_left	= "0.5vw"
+			column_gap		= "1vw"
+			row_gap			= "1vw"
 			
 			[params.layout.module.ts]
 				height			= "140vw"
@@ -89,6 +91,8 @@ title 					= "Ideas on Stage"
 				padding_right	= "0"
 				padding_bottom	= "1vw"
 				padding_left	= "0"
+				column_gap		= "4vw"
+				row_gap			= "4vw"
 		
 			[params.layout.module.padding_ts]
 				top		= "1vw"

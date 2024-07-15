@@ -1,13 +1,13 @@
 +++
-draft 		= "false"
-title 		= "Événements mémorables"
-date		= "2019-09-09"
-cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description = "Trois conseils pour créer un événement d'entreprise original."
+draft			= "false"
+title			= "Événements mémorables"
+date			= "2019-09-09"
+cast			= [ "Rose Bloomfield", "Michael Rickwood" ]
+description		= "Trois conseils pour créer un événement d'entreprise original."
 translationKey  = "revolution/episode-00008"
-
+type			= "revolution"
 schema			= "VideoObject"
-embedurl			= "GZzfCyAm_No"
+embedurl		= "GZzfCyAm_No"
 +++
 
 {{< youtube GZzfCyAm_No >}}

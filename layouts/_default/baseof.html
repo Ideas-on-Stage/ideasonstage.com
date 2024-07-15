@@ -1,13 +1,15 @@
 {{ "<!-- _default:baseof.html:start -->" | safeHTML }}
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-  <head>
+	
+	<head>
 		{{- block "head" . }}
 			{{/* <!-- page specific head info, for example a common schema --> */}}
 		{{- end }}
 		{{- partial "head.html" . }}
 	</head>
-  <body id="page-top" class="layout-page">
+	
+	<body id="page-top" class="layout-page">
 		{{ partial "page-nav.html" . }}
 		<main role="main">
 			{{ block "hero" . }}
@@ -16,21 +18,20 @@
 			{{ end }}
 			{{ partial "page-breadcrumbs.html" . }}
 			{{ block "main" . }}
-				<div class="layout-module-wrapper">
-					{{ partial "page-inserts-top.html" . }}
-					{{ partial "page-content.html" . }}
-					{{/* <!-- can use page specific main content, for example guides --> */}}
-				</div>
+				{{ partial "page-inserts-top.html" . }}
+				{{ partial "page-content.html" . }}
+				{{ partial "page-inserts-bottom.html" . }}
+				{{/* <!-- can use page specific main content, for example guides --> */}}
 			{{ end }}
 		</main>
 		<aside>
-			{{ partial "page-inserts-bottom.html" . }}
-	    {{ partial "page-contact.html" . }}
+			{{ partial "page-contact.html" . }}
 		</aside>
 		<footer>
-	    {{ partial "page-footer.html" . }}
+			{{ partial "page-footer.html" . }}
 		</footer>
 		{{ partial "page-js.html" . }}
 	</body>
+	
 </html>
 {{ "<!-- _default:baseof.html:end -->" | safeHTML }}

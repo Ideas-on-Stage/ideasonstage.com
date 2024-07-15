@@ -1,12 +1,12 @@
 {{ "<!-- partials:page-subscribe.html -->" | safeHTML }}
 {{ if eq .Site.Params.subscribe.enable true }}
 	<section id="subscribe">
-	  <div class="layout-content">
+	  <div class="layout-module-content">
 		            <div class="layout-module-column-text style-module-text">
 		              <h2 class="section-heading">{{ with .Site.Params.subscribe.title }}{{ . | markdownify }}{{ end }}</h2>
 					  <p>{{ with .Site.Params.subscribe.subtitle }}{{ . | markdownify }}{{ end }}</p>
 		            </div>
-		            <div class="layout-content-narrow">
+		            <div class="layout-module-content-narrow">
 		              <form action="{{ .RelPermalink }}" method="POST" name="newsForm" id="nlsubscribeform" netlify netlify-honeypot="bot-field">
 			            <div class="iosform-group">
 			              <input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
@@ -32,7 +32,7 @@
 			            </div>     
 			          </form>
 		            </div>
-	  </div>	{{ "<!-- layout-content end -->" | safeHTML }}	    
+	  </div>	{{ "<!-- layout-module-content end -->" | safeHTML }}	    
 	</section>{{ "<!-- contact end -->" | safeHTML }}
 {{ end }}
 

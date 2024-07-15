@@ -1,5 +1,5 @@
 {{ "<!-- partials:home:services:start -->" | safeHTML }}
-<section id="services" class="layout-module-wrapper">
+<section id="services" class="layout-module-group">
 	{{- range .Params.services.list -}}
 		{{- if ne true .draft }}
 			<div>

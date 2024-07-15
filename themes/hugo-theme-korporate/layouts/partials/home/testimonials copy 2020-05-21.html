@@ -1,7 +1,7 @@
 {{ "<!-- partials:testimonials.html:start -->" | safeHTML }}
 {{- if gt (len .Site.Data.testimonials) 0 }}
 		<section id="testimonials" class="bg-lightgrey">
-		    <div class="layout-content">
+		    <div class="layout-module-content">
                <ul class="owl-carousel testimonials same-height-row">
                     {{- range .Site.Data.testimonials }}
                     {{- if .showonhome }}

@@ -1,19 +1,17 @@
 {{ "<!-- partials:home:references:start -->" | safeHTML }}
-<section id="references" class="layout-module-wrapper bg-white">
-	<div class="flex-parent flex-parent-row">
-		{{- $.Scratch.Set "count" 0 }}
+<section id="references" class="layout-module-group margin bg-white">
+	<div class="flex-parent flex-parent-row flex-gap">
+		{{ $.Scratch.Set "count" 0 }}
 		{{ $languageshort := substr site.LanguageCode 0 2 }}
-		{{- range .Site.Data.references }}
-			{{- if .showonhome }}
-				{{- if eq $languageshort .language }}
-					{{- $.Scratch.Add "count" 1 }}
-					<div class="flex-child-16p">
-						<div class="margin-tiny border">
-							<img src="/img/logos/{{ .logo }}" alt="{{ .logo }}">
-						</div>
+		{{ range .Site.Data.references }}
+			{{ if .showonhome }}
+				{{ if eq $languageshort .language }}
+					{{ $.Scratch.Add "count" 1 }}
+					<div class="flex-child-16p border">
+						<img src="/img/logos/{{ .logo }}" alt="{{ .logo }}" class="logo" />
 					</div>
-				{{- end }}
-			{{- end }}
+				{{ end }}
+			{{ end }}
 		{{- end }}
 	</div>
 </section>

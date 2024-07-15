@@ -14,11 +14,11 @@ Notre offre de conseil en stratégie de communication d'entreprise propose tous 
 {{< image-wide src="/communication-consulting/corporate-communication.jpg" alt="Communication d'entreprise" >}}
 
 {{< icon-list title="Bénéfices clés" style="bg-lightgray" >}}
-	{{< icon-item icon="identity.svg" description="Identité renforcée" >}}
-	{{< icon-item icon="vision.svg" description="Vision et missions claires" >}}
-	{{< icon-item icon="fast.svg" description="Transformation plus rapide" >}}
-	{{< icon-item icon="group.svg" description="Meilleure coordination des équipes" >}}
-	{{< icon-item icon="performance.svg" description="Amélioration des performances" >}}
+	{{< icon-item icon="identity.svg" description="Identité renforcée" style="icon-small" >}}
+	{{< icon-item icon="vision.svg" description="Vision et missions claires" style="icon-small" >}}
+	{{< icon-item icon="fast.svg" description="Transformation plus rapide" style="icon-small" >}}
+	{{< icon-item icon="group.svg" description="Meilleure coordination des équipes" style="icon-small" >}}
+	{{< icon-item icon="performance.svg" description="Amélioration des performances" style="icon-small" >}}
 {{< /icon-list >}}
 
 {{< text-centered category="Stratégie de communication" title="Réunissez votre entreprise autour d'un message" >}}
@@ -31,11 +31,11 @@ Une fois que nous avons dessiné une stratégie de communication globale claire,
 {{< /text-centered >}}
  
 {{< icon-list title="Principaux usages de nos services de conseil en communication" style="bg-lightgray" >}}
-	{{< icon-item icon="leader.svg" description="Réunion de management" >}}
-	{{< icon-item icon="launch.svg" description="Lancements et déploiements" >}}
-	{{< icon-item icon="csr.svg" description="Responsabilité sociétale des entreprises" >}}
-	{{< icon-item icon="transformation.svg" description="Plan de transformation" >}}
-	{{< icon-item icon="certificate.svg" description="ESG" >}}
+	{{< icon-item icon="leader.svg" description="Réunion de management" style="icon-small" >}}
+	{{< icon-item icon="launch.svg" description="Lancements et déploiements" style="icon-small" >}}
+	{{< icon-item icon="csr.svg" description="Responsabilité sociétale des entreprises" style="icon-small" >}}
+	{{< icon-item icon="transformation.svg" description="Plan de transformation" style="icon-small" >}}
+	{{< icon-item icon="certificate.svg" description="ESG" style="icon-small" >}}
 {{< /icon-list >}}
 
 {{< image-wide src="corporate-office.jpg" alt="Communication d'entreprise" >}}

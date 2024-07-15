@@ -1,7 +1,8 @@
 <!-- _default:baseof.html:start -->
 <!DOCTYPE html>
 <html lang="fr">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 			<!-- partials:head.html:start -->
 <!-- partials:head-title.html:start -->
 <title>
@@ -82,7 +83,8 @@
 <!-- partials:head.html:end -->
 
 	</head>
-  <body id="page-top" class="layout-page">
+	
+	<body id="page-top" class="layout-page">
 		<!-- partials:page-nav.html:start -->
 <nav class="iosnavbar">
 	<div class="layout-content-width">
@@ -178,24 +180,28 @@
 		<main role="main">
 			
 				<!-- partials:page-hero.html:start -->
-<header id="hero">
+
+
+
 
 	
-
-	
+		<header id="title" class="layout-module-title">
 			<div class="layout-page-title style-page-title">
 				<h1>
-	        Formation Storytelling
-		 		</h1>
-	    </div>
-</header>
+					Formation Storytelling
+				</h1>
+			</div>
+		</header>
+	
+		
+
 <!-- partials:page-hero.html:end -->
 
 				
 			
 			<!-- partials/revolution/breadcrumbs.html --> 
 <aside id="breadcrumbs" class="layout-sticky">
-	<div class="layout-content-width">
+	<div class="layout-module-content-width">
 	<!-- partials/revolution/breadcrumbs.html -->
 		<ol>
 			
@@ -212,7 +218,7 @@
 </aside>
 			
 	<!-- training:single.html:main:start -->
-	<div class="layout-content">
+	<div class="layout-module-content">
 		<div class="flex-parent flex-parent-row flex-column-ontall">
 			<aside id="sidebar" class="flex-child-33p layout-double-sticky">
 				<div class="scroller">
@@ -317,25 +323,25 @@
 <!-- shortcodes:agenda-list.html:end -->
 
 <!-- shortcodes:icon-list.html:start -->
-<div class="layout-shortcode-column paddingv-medium bg-lightgray">
+<div class="layout-shortcode-column flex-gap bg-lightgray">
 	<div class="layout-shortcode-child">
 		<h3 class="text-center">Organisme de formation depuis 2010</h3>
 	</div>
 	<div class="layout-shortcode-child">
-		<div class="flex-parent flex-parent-row flex-justify-center">
+		<div class="flex-parent flex-parent-row flex-justify-center flex-gap">
 			
 	
 	
 	<!-- shortcodes:icon-item.html:start -->
 	<div class="flex-child-33p">
 		
-		<div class="style-icon paddingh-medium border spacing">
+		<div class="style-icon border spacing">
 		
 		<img src="/fr/formations-prise-de-parole-en-public/logo-datadock.png" alt= "Référencé Datadock">
 		
 		</div>
-		<div class="paddingh-small">
-		<p class="style-text-icon text-center">Référencé Datadock</p>
+		<div>
+			<p class="style-text-icon text-center">Référencé Datadock</p>
 		</div>
 	</div>
 	<!-- shortcodes:icon-item.html:end -->
@@ -344,7 +350,7 @@
 	<!-- shortcodes:icon-item.html:start -->
 	<div class="flex-child-33p">
 		
-		<div class="style-icon paddingh-medium border spacing">
+		<div class="style-icon border spacing">
 		
 			<a href="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation">
 		
@@ -353,8 +359,8 @@
 			</a>
 		
 		</div>
-		<div class="paddingh-small">
-		<p class="style-text-icon text-center">Certifié Qualiopi au titre des actions de formation</p>
+		<div>
+			<p class="style-text-icon text-center">Certifié Qualiopi au titre des actions de formation</p>
 		</div>
 	</div>
 	<!-- shortcodes:icon-item.html:end -->
@@ -476,63 +482,59 @@
 
 		</main>
 		<aside>
-			<!-- partials:page-inserts-bottom.html:start -->
-
-<!-- No bottom inserts -->
-
-<!-- partials:page-inserts-bottom.html:end -->
-	    <!-- partials:page-contact.html:start -->
-	<section id="contact">
-		<div class="iosnavbar-buffer">
-			<!-- insert gap to avoid contact text covered by nav bar -->	  
-		</div>
-    <div class="layout-content">
-      <div class="centered style-module-text">
-        <h2 class="section-heading">
-					
-						Réservez une session de formation
-					
-				</h2>
-				<p>
-					
-						Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d&rsquo;un jour ouvré.
-					
-				</p>
+			<!-- partials:page-contact.html:start -->
+<section id="contact" class="layout-module-group-nogap">
+	<div class="iosnavbar-buffer">
+		<!-- insert gap to avoid contact text covered by nav bar -->	  
+	</div>
+	<div class="layout-module-content">
+		<div class="centered style-module-text">
+			<h2 class="section-heading">
 				
-       </div>
+					Réservez une session de formation
+				
+			</h2>
+			<p>
+				
+					Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d&rsquo;un jour ouvré.
+				
+			</p>
+			
 		</div>
-		<div class="layout-content-narrow">
-			<form action="/fr/formation-storytelling/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-	      <div class="iosform-group">
-	        <input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/fr/formation-storytelling/">
-	      </div>
-	      <div class="iosform-group">
-	        <input type="text" id="fname" name="name" class="iosform-control" placeholder="Votre nom complet *" oninvalid="alert('Veuillez entrer votre nom complet.');" required>
-	      </div>  
-	      <div class="iosform-group">
-	        <input type="email" id="email" name="email" class="iosform-control" placeholder="Votre email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entrer une adresse e-mail valide.');" required>
-	      </div>
-	      <div class="iosform-group">  
-	        <input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Votre téléphone (optionnel)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Veuillez entrer un numéro de téléphone valide.');">  
-	      </div>
-				<div class="iosform-group">  
-					<input type="text" id="country" name="country" class="iosform-control" placeholder="Votre pays de résidence (optionnel)" oninvalid="alert('Veuillez entrer votre pays de résidence.');">
-	      </div>
-	      <div class="iosform-group">  
-					<textarea id="message" name="message" class="iosform-control" placeholder="Votre message *" oninvalid="alert('S\u0026rsquo;il vous plaît entrer un message.');" required></textarea>      
-				</div>
-	      <div class="iosform-button">
-	        <input type="submit" id="contactsubmit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">    
-	      </div>     
-	    </form>
-	  </div>
-	</section><!-- contact end -->
+	</div>
+	<div class="layout-module-content-narrow">
+		<form action="/fr/formation-storytelling/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+			<div class="iosform-group">
+				<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/fr/formation-storytelling/">
+			</div>
+			<div class="iosform-group">
+				<input type="text" id="fname" name="name" class="iosform-control" placeholder="Votre nom complet *" oninvalid="alert('Veuillez entrer votre nom complet.');" required>
+			</div>  
+			<div class="iosform-group">
+				<input type="email" id="email" name="email" class="iosform-control" placeholder="Votre email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entrer une adresse e-mail valide.');" required>
+			</div>
+			<div class="iosform-group">  
+				<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Votre téléphone (optionnel)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Veuillez entrer un numéro de téléphone valide.');">  
+			</div>
+			<div class="iosform-group">  
+				<input type="text" id="country" name="country" class="iosform-control" placeholder="Votre pays de résidence (optionnel)" oninvalid="alert('Veuillez entrer votre pays de résidence.');">
+			</div>
+			<div class="iosform-group">  
+				<textarea id="message" name="message" class="iosform-control" placeholder="Votre message *" oninvalid="alert('S\u0026rsquo;il vous plaît entrer un message.');" required></textarea>  	
+			</div>
+			<div class="iosform-button">
+				<input type="submit" id="contactsubmit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">	
+			</div>
+		</form>
+	</div>
+</section><!-- contact end -->
+</div>
 <!-- partials:page-contact.html:end -->
 
 		</aside>
 		<footer>
-	    <!-- partials:page-footer.html:start -->
-<div class="layout-content paddingt-none paddingb-none">
+			<!-- partials:page-footer.html:start -->
+<div class="layout-module-content paddingt-none paddingb-none">
 	<div class= "footer-nav flex-parent flex-parent-row">
 				
 			<div class="flex-child-25p">
@@ -717,5 +719,6 @@
 <!-- partials:page-js.html:end -->
 
 	</body>
+	
 </html>
 <!-- _default:baseof.html:end -->

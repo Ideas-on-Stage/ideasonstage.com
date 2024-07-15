@@ -1,13 +1,13 @@
 +++
-draft 		= "false"
-title 		= "Votre public"
-date		= "2019-02-11"
-cast		= [ "Phil Waknell", "Rose Bloomfield" ]
-description	= "L'ingrédient secret de toute présentation est votre public. N'oubliez pas de vous poser ces questions essentielles avant de prendre la parole."
+draft			= "false"
+title			= "Votre public"
+date			= "2019-02-11"
+cast			= [ "Phil Waknell", "Rose Bloomfield" ]
+description		= "L'ingrédient secret de toute présentation est votre public. N'oubliez pas de vous poser ces questions essentielles avant de prendre la parole."
 translationKey  = "revolution/episode-00003"
-
+type			= "revolution"
 schema			= "VideoObject"
-embedurl			= "WOGTFXBOwfk"
+embedurl		= "WOGTFXBOwfk"
 +++
 
 L’ingrédient secret de toute présentation est votre public. N’oubliez pas de vous poser ces questions essentielles avant de prendre la parole.

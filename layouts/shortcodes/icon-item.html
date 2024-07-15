@@ -12,7 +12,7 @@
 {{ "<!-- shortcodes:icon-item.html:start -->" | safeHTML }}
 <div class="flex-child-{{ with .Params.size }}{{ . }}{{ else }}20p{{ end }}">
 	
-	<div class="style-icon paddingh-medium {{ with .Params.style }}{{ . }}{{ end }}">
+	<div class="style-icon {{ with .Params.style }}{{ . }}{{ end }}">
 	{{ with .Params.url }}
 		<a href="{{ . }}">
 	{{ end }}
@@ -21,8 +21,8 @@
 		</a>
 	{{ end }}
 	</div>
-	<div class="paddingh-small">
-	<p class="style-text-icon text-center">{{ .Params.description | markdownify }}</p>
+	<div>
+		<p class="style-text-icon text-center">{{ .Params.description | markdownify }}</p>
 	</div>
 </div>
 {{ "<!-- shortcodes:icon-item.html:end -->" | safeHTML }}

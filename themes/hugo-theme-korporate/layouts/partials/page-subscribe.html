@@ -1,11 +1,11 @@
 {{ "<!-- partials:page-subscribe.html:start -->" | safeHTML }}
 <section id="subscribe">
-	<div class="layout-content">
+	<div class="layout-module-content">
         <div class="layout-module-column-text style-module-text">
           <h2 class="section-heading">{{ with site.Params.subscribe.title }}{{ . | markdownify }}{{ end }}</h2>
 		  <p>{{ with site.Params.subscribe.subtitle }}{{ . | markdownify }}{{ end }}</p>
         </div>
-        <div class="layout-content-narrow">
+        <div class="layout-module-content-narrow">
           <form action="{{ .RelPermalink }}" method="POST" name="newsForm" id="ioscontactForm" netlify netlify-honeypot="bot-field">
             <div class="iosform-group">
               <input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">

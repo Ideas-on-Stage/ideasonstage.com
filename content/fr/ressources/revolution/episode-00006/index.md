@@ -1,13 +1,13 @@
 +++
-draft 		= "false"
-title 		= "Gestuelle"
-date		= "2019-05-17"
-cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description = "Une bonne gestuelle augmentera votre présence sur scène. Apprenez comment utiliser votre corps, vos mains et votre visage pendant une présentation."
+draft			= "false"
+title			= "Gestuelle"
+date			= "2019-05-17"
+cast			= [ "Rose Bloomfield", "Michael Rickwood" ]
+description		= "Une bonne gestuelle augmentera votre présence sur scène. Apprenez comment utiliser votre corps, vos mains et votre visage pendant une présentation."
 translationKey  = "revolution/episode-00006"
-
+type			= "revolution"
 schema			= "VideoObject"
-embedurl			= "-P9C8xl4RPU"
+embedurl		= "-P9C8xl4RPU"
 +++
 
 {{< youtube -P9C8xl4RPU >}}

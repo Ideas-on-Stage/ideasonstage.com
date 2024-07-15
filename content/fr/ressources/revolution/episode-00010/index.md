@@ -1,10 +1,11 @@
 +++
-draft   		= "false"
-title        	= "4 Tempos"
-date            = "2019-11-05"
-cast		    = [ "Rose Bloomfield", "Michael Rickwood" ]
-description     = "La monotonie tue l’attention - et c’est l’une des plaintes les plus fréquentes concernant les présentations. Comment pouvons-nous l’éviter sans paraître ridicule ? Bienvenue dans les « 4 Tempos », un outil simple pour ajouter de la couleur à vos messages clés."
-translationKey  = "revolution/episode-00010"
+draft			= "false"
+title			= "4 Tempos"
+date			= "2019-11-05"
+cast			= [ "Rose Bloomfield", "Michael Rickwood" ]
+description		= "La monotonie tue l’attention - et c’est l’une des plaintes les plus fréquentes concernant les présentations. Comment pouvons-nous l’éviter sans paraître ridicule ? Bienvenue dans les « 4 Tempos », un outil simple pour ajouter de la couleur à vos messages clés."
+translationKey	= "revolution/episode-00010"
+type			= "revolution"
 schema			= "VideoObject"
 embedurl		= "3nMIo1mGcLc"
 +++

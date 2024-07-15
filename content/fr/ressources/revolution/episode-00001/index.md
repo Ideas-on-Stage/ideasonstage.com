@@ -5,9 +5,9 @@ date			= "2019-01-07"
 cast			= [ "Phil Waknell", "Rose Bloomfield" ]
 description		= "Présenter, c'est transformer, pas informer. Découvrez la question essentielle à vous poser pour réussir votre présentation. Invité: Phil Waknell"
 translationKey  = "revolution/episode-00001"
-
+type			= "revolution"
 schema			= "VideoObject"
-embedurl			= "m49x-uOgtZ8"
+embedurl		= "m49x-uOgtZ8"
 +++
 
 Présenter, c’est transformer, pas informer. Découvrez la question essentielle à vous poser pour réussir votre présentation. Invité : Phil Waknell

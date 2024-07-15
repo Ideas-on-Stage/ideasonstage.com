@@ -16,11 +16,13 @@
 			{{ partial "home/references.html" . }}
 			{{ partial "page-inserts-bottom.html" . }}
 			{{ partial "home/testimonials.html" . }}
+		</main>
+		<aside>
 			{{ partial "page-contact.html" . }}
 			{{ if eq .Site.Params.map.enable true }}
 				{{ partial "page-address.html" . }}
 			{{ end }}
-		</main>
+		</aside>
 		<footer>
 			{{ partial "page-footer.html" . }}
 		</footer>

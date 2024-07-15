@@ -2,7 +2,7 @@
 {{- if (not .IsHome) }}
 {{- if (not .Parent.IsHome) }} {{/* <!-- show only if 2 levels of depth --> */}}
 <section id="breadcrumbs" class="layout-sticky block">
-	<div class="layout-content-width">
+	<div class="layout-module-content-width">
 		<ol>
 			{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
 		</ol>

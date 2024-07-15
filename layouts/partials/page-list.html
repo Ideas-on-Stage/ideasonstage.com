@@ -1,5 +1,5 @@
 {{ "<!-- partials:page-list.html:start -->" | safeHTML }}
-<section id="content-list">
+<section id="content-list" class="layout-module-group">
 	{{ if ne true .Params.hidepagelist }}
 		{{/* <!-- hidepagelist is not true, show list of subpages --> */}}
 		{{ if ne true .Params.simplelist }}
@@ -12,7 +12,7 @@
 			{{ end }}
 		{{ else }}
 			{{/* <!-- simplelist = true, create a simple text list --> */}}
-			<div class="layout-content">
+			<div class="layout-module-content">
 				{{ range .Pages }}
 					<p>
 						{{ partial "e/link-title-description.html" . }}

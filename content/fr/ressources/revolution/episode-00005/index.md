@@ -1,13 +1,13 @@
 +++
-draft 		= "false"
-title 		= "Réussir ses slides"
-date		= "2019-05-02"
-cast		= [ "Phil Waknell", "Rose Bloomfield" ]
-description	= "Les idées claires et les messages forts s’appuient sur des slides mémorables. Mais parfois les slides ne sont pas nécessaires. L’ère de « Death by PowerPoint® » est révolue. Prenez 5 minutes pour découvrir 3 étapes clés qui assureront le succès de vos slides."
+draft			= "false"
+title			= "Réussir ses slides"
+date			= "2019-05-02"
+cast			= [ "Phil Waknell", "Rose Bloomfield" ]
+description		= "Les idées claires et les messages forts s’appuient sur des slides mémorables. Mais parfois les slides ne sont pas nécessaires. L’ère de « Death by PowerPoint® » est révolue. Prenez 5 minutes pour découvrir 3 étapes clés qui assureront le succès de vos slides."
 translationKey  = "revolution/episode-00005"
-
+type			= "revolution"
 schema			= "VideoObject"
-embedurl			= "UCwbZXiPC18"
+embedurl		= "UCwbZXiPC18"
 +++
 
 Les idées claires et les messages forts s’appuient sur des slides mémorables. Mais parfois les slides ne sont pas nécessaires.

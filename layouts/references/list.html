@@ -1,10 +1,8 @@
 {{ define "main" }}
 	{{ "<!-- references:list.html:main:start -->" | safeHTML }}
-	<section id="references" class="bg-white">
-		<div class="layout-module-wrapper">
-			{{ partial "home/references.html" . }}
-		</div>
-		<div class="layout-content">
+	{{ partial "home/references.html" . }}
+	<section id="references-details" class="bg-white">
+		<div class="layout-module-content">
 			{{- $.Scratch.Set "count" 0 }}
 			{{ $languageshort := substr site.LanguageCode 0 2 }}
 			{{ range .Site.Data.references }}
@@ -38,7 +36,7 @@
 			{{ end }}
 			{{ range .Pages }}
 				<div class="flex-parent flex-parent-row flex-align-start margint-medium">
-					<div class="flex-child-20p">
+					<div class="flex-child-20p logo">
 						{{ with .Params.logo }}
 							<div class="margin-small border">
 								<img src="/img/logos/{{ . }}">

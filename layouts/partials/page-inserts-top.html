@@ -1,6 +1,6 @@
 {{ "<!-- partials:page-page-page-inserts-top.html:start -->" | safeHTML }}
 {{ if .Params.insertstop }}
-	<section id="inserts-top"  class="layout-module-wrapper flex-parent flex-parent-row">
+	<section id="inserts-top"  class="layout-module-group flex-parent flex-parent-row">
 		{{- range .Params.insertstop }}
 			{{- $insertalllang := index site.Data.inserts . }}
 			{{- if $insertalllang }}

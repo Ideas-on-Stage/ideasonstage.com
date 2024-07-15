@@ -4,19 +4,19 @@
 		<div class="style-text-intro">
 			{{ partial "page-content.html" . }}
 		</div>
-    	<div class="layout-content">
+		<div class="layout-module-content">
 		 	<div class="flex-parent flex-parent-row flex-column-ontall flex-justify-start">
 				{{- range .Pages.ByWeight }}
-       			<div class="flex-child-33p">
-	   				<a href="{{ .RelPermalink }}" class="people-box">
-	   					<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}">	
+				<div class="flex-child-33p">
+					<a href="{{ .RelPermalink }}" class="people-box">
+						<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}">	
 						<h2 class="people-box-name">{{ .Params.name }}</h2>
 						<p class="people-box-title">{{ .Params.position }}</p>
-	   				</a>
-	   			</div>
+					</a>
+				</div>
 				{{- end}}
-	        </div> <!--end col -->
-	    </div>
+			</div> <!--end col -->
+		</div>
 	</section>
 	{{ "<!-- team:list.html:main:end -->" | safeHTML }}
 {{ end }}

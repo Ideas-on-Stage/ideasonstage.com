@@ -1,13 +1,13 @@
 +++
-draft 		= "false"
-title 		= "Gérer son stress"
-date		= "2019-01-19"
-cast		= [ "Phil Waknell", "Rose Bloomfield" ]
-description	= "Rose demande à Phil des conseils pour maîtriser sa peur avant une présentation importante. Découvrez les trucs de notre Chief Inspiration Officer pour être zen avant votre prise de parole en public."
+draft			= "false"
+title			= "Gérer son stress"
+date			= "2019-01-19"
+cast			= [ "Phil Waknell", "Rose Bloomfield" ]
+description		= "Rose demande à Phil des conseils pour maîtriser sa peur avant une présentation importante. Découvrez les trucs de notre Chief Inspiration Officer pour être zen avant votre prise de parole en public."
 translationKey  = "revolution/episode-00002"
-
+type			= "revolution"
 schema			= "VideoObject"
-embedurl			= "DYQ-4Z6WMqM"
+embedurl		= "DYQ-4Z6WMqM"
 +++
 
 Rose demande à Phil des conseils pour maîtriser sa peur avant une présentation importante. Découvrez les trucs de notre Chief Inspiration Officer pour être zen avant votre prise de parole en public.

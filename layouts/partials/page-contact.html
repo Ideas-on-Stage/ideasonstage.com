@@ -1,9 +1,9 @@
 {{ "<!-- partials:page-contact.html:start -->" | safeHTML }}
-<section id="contact" class="layout-module-wrapper-nogap">
+<section id="contact" class="layout-module-group-nogap">
 	<div class="iosnavbar-buffer">
 		{{ "<!-- insert gap to avoid contact text covered by nav bar -->" | safeHTML }}	  
 	</div>
-	<div class="layout-content">
+	<div class="layout-module-content">
 		<div class="centered style-module-text">
 			<h2 class="section-heading">
 				{{ with .Params.contact.title }}
@@ -26,7 +26,7 @@
 			{{ end }}
 		</div>
 	</div>
-	<div class="layout-content-narrow">
+	<div class="layout-module-content-narrow">
 		<form action="{{ .RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
 			<div class="iosform-group">
 				<input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
