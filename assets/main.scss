@@ -1075,7 +1075,8 @@
 		
 		.flex-parent-column {
 			flex-direction: column;
-			justify-content: flex-start;
+			flex-wrap: nowrap;
+			align-items: flex-start;
 		}
 		
 		/* flex horizontal scroll classes (used in the testimonials and references */
@@ -1102,6 +1103,7 @@
 			flex-shrink: 0;
 			max-height: 100%;
 			max-width: 100%;
+			height: auto;
 		}
 
 		/* flex child constrained to 60% of available space */
@@ -1127,13 +1129,17 @@
 		.flex-big-gap .flex-child-67p {
 			flex-basis: calc((100% - var(--module-big-gap)) / 3 * 2 );
 		}
-		
+	
 		/* flex child constrained to 60% of available space */
 		.flex-child-60p {
 			flex-basis: 60%;
+			height: 100%;
 		}
 		.flex-gap .flex-child-60p {
 			flex-basis: calc(var(--module-5c-width) * 3 + var(--module-column-gap) * 2);
+		}
+		.flex-big-gap .flex-child-60p {
+			flex-basis: calc((100% - var(--module-big-gap)) / 5 * 3 );
 		}
 		
 		/* flex child constrained to 50% of available space */
@@ -1152,6 +1158,9 @@
 		.flex-gap .flex-child-40p {
 			flex-basis: calc(var(--module-5c-width) * 2 + var(--module-column-gap) * 1);
 		}		
+		.flex-big-gap .flex-child-40p {
+			flex-basis: calc((100% - var(--module-big-gap)) / 5 * 2 );
+		}
 		
 		/* flex child constrained to 1/3 of available space */
 		.flex-child-33p {
@@ -1197,7 +1206,6 @@
 			margin: 0;
 			padding: 0;
 			width: 100%;
-			height: 100%;
 			object-fit: cover;
 		}
 		
@@ -1236,7 +1244,7 @@
 			.flex-child-50p,
 			.flex-child-40p,
 			.flex-child-33p {
-				flex-basis: 100%;
+
 			}
 			.flex-gap .flex-child-80p,
 			.flex-gap .flex-child-67p,
@@ -1244,15 +1252,14 @@
 			.flex-gap .flex-child-50p,
 			.flex-gap .flex-child-40p,
 			.flex-gap .flex-child-33p {
-				flex-basis: 100%;
 			}
+			
 			.flex-big-gap .flex-child-80p,
 			.flex-big-gap .flex-child-67p,
 			.flex-big-gap .flex-child-60p,
 			.flex-big-gap .flex-child-50p,
 			.flex-big-gap .flex-child-40p,
 			.flex-big-gap .flex-child-33p {
-				flex-basis: 100%;
 			}
 			
 			/* on ts screens, use a width of 50% for these sizes */
@@ -1345,11 +1352,13 @@
 			/* change flex-direction to column on tall smartphone screens */
 			.flex-parent-column-ontall {
 				flex-direction: column;
+				flex-wrap: nowrap;
 			}
 			
 			/* change flex-direction to column-reverse on tall smartphone screens */
 			.flex-parent-column-reverse-ontall {
 				flex-direction: column-reverse;
+				flex-wrap: nowrap;
 			}
 			
 			.flex-hide-ontall {
