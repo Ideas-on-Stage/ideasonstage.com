@@ -4,13 +4,11 @@
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
     "toml",
-    "scss",
-    "html"
+    "scss"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
     "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/config\/_default\/config.toml",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/revolution\/list.html"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss"
   ],
   "workspace.color" : 1
 }

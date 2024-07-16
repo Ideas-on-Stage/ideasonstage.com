@@ -326,6 +326,9 @@
 		margin-bottom: 0.5em;
 	}
 	
+	#content-main li {
+		line-height: 1.6em;
+	}
 	#content-main p:first-child,
 	#content-main h2:first-child,
 	#content-main h3:first-child,
@@ -433,10 +436,6 @@
 
 	/* side bar is the style for the side bar in the news pages*/
 
-	#sidebar {
-		box-sizing: border-box;
-	}
-
 	#sidebar h2 {
 		color: #222;
 		margin: 0;
@@ -471,7 +470,6 @@
 		background-color: #eee;
 		padding-bottom: 1vw;
 		margin-bottom: 1vw;
-		box-sizing: border-box;
 	}
 	
 	.sidebar-narrow-field {
@@ -481,19 +479,10 @@
 
 	#sidebar .button-primary {
 		margin: 0;
-		padding: 0.2em 2vw;
+		padding: 0.8em 1em;
 		font-size: 0.8em;
 	}
 	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
-		
-		#sidebar {
-			padding-top: 4vw;
-			padding-right: 0;
-		}
-		
-	}
-
 	#team-member .style-person-title {
 		font-size: 1.5em;
 		margin-top: 0;
@@ -637,40 +626,36 @@
 		
 		/* use to align menubar, footer, etc. on content */
 		.layout-module-content-width {
-			margin: auto;
-			padding: 0 2vw;
+			margin: 0 auto;
+			padding: 0 0;
 			width: 80vw;
 			max-width: 1200px; /* prevents text area from getting unpleasantly wide */
 		}
 		
 		/* use for narrow content such as forms */
 		.layout-module-content-narrow {
-			margin: 2vw auto;
-			padding: 0 2vw;
+			margin: 0 auto;
+			padding: 2vw 0;
 			width: 50vw;
-			min-width: 410px;
-			max-width:800px; /* prevents text area from getting unpleasantly wide */
-			box-sizing: border-box;
+			max-width: 800px; /* prevents text area from getting unpleasantly wide */
 		}
 		
 		@media (max-aspect-ratio:1/1) and (max-width:480px) {
 			
 			.layout-module-content {
-				padding: 4vw 0;
-				width: calc(100% - 8vw);
-				box-sizing: border-box;
+				padding: 8vw 0;
+				width: calc(100% - var(--module-ts-column-gap) * 2);
 			}
 			
 			.layout-module-content-width {
-				width:90vw;
+				padding: 0 0;
+				width: calc(100% - var(--module-ts-column-gap) * 2);
 			}
 			
 			/* make the narrow content look nice in small screens */
 			.layout-module-content-narrow {
-				margin: 4vw auto;
-				width: 90vw;
-				min-width: 90vw;
-				max-width: 90vw;
+				padding: 8vw 0;
+				width: calc(100% - var(--module-ts-column-gap) * 2);
 			}		
 		}
 		
@@ -1250,7 +1235,6 @@
 			
 			/* on ts screens, use a width of 100% for these sizes */
 			.flex-child-100p,
-			.flex-child-80p,
 			.flex-child-67p,
 			.flex-child-60p,
 			.flex-child-50p,
@@ -1267,6 +1251,14 @@
 				flex-basis: calc((100% - var(--module-ts-column-gap)) / 2);
 			}
 			
+			.flex-child-80p {
+				flex-basis: calc(100%/3*2);
+			}
+			.flex-gap .flex-child-80p,
+		    {
+				flex-basis: calc((var(--module-ts-12c-width) * 8 + var(--module-ts-column-gap) * 7));
+			}
+			
 			/* on ts screens, use a width of 33% for these sizes */
 			.flex-child-20p,
 			.flex-child-16p {
@@ -1274,7 +1266,7 @@
 			}
 			.flex-gap .flex-child-20p,
 			.flex-gap .flex-child-16p {
-				flex-basis: calc((100% - var(--module-ts-column-gap) * 2) / 3);
+				flex-basis: calc((var(--module-ts-12c-width) * 4 + var(--module-ts-column-gap) * 3));
 			}
 			
 		}
