@@ -22,10 +22,12 @@
 	</div>
 	<div class="flex-parent flex-parent-row flex-gap flex-parent-column-ontall margint-small">
 		<div class="flex-child flex-child-80p footer-text">
-			{{ with .Site.Copyright }}{{ . }}{{ end }} {{ now.Year }}. 
-			{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
-			{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
-			{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
+			<p>
+				{{ with .Site.Copyright }}{{ . }}{{ end }} {{ now.Year }}. 
+				{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
+				{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
+				{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
+			</p>
 		</div>
 		<div class="flex-child flex-child-20p">
 			<div class="flex-parent flex-parent-row flex-gap flex-justify-end">
