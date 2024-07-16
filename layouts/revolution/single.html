@@ -1,14 +1,14 @@
 {{ define "main" }}
 	{{ "<!-- revolution:single.html:start -->" | safeHTML }}
 	<div class="layout-module-content">
-		<div class="flex-parent flex-parent-row flex-column-reverse-ontall">
-			<aside id="sidebar" class="flex-child-33p layout-double-sticky">
+		<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall">
+			<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
 				<div class="scroller">
 					{{ partial "sidebar/sidebar-top-categories.html" . }}
 					{{ partial "sidebar/sidebar-newsletter.html" . }}
 				</div>
 			</aside>
-			<article class="flex-child-67p">
+			<article class="flex-child flex-child-67p">
 				<div class="flex-parent flex-parent-row row-tag">
 					<ul class="post-tag">
 						{{ range (.GetTerms "tags") }}

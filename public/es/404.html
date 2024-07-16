@@ -227,7 +227,7 @@
 			
 	<!-- 404.html:main:start -->
 	<section id="404" class="layout-module-screen-full bg-dark">
-		<div class="flex-parent flex-column flex-justify-center flex-align-center padding-medium">
+		<div class="flex-parent flex-parent-column flex-justify-center flex-align-center padding-medium">
 			<img src="/img/404/404.svg" width="20%" alt="">
 			<h1 class="text-center">Oops, something went wrong</h1>
 			<p class="text-center">It seems we forgot our next line.<br>While we gather our thoughts,<br>use the menu on top to find your way around,<br>or drop us a line with the contact form so we can check what went wrong.</p>
@@ -236,7 +236,7 @@
 	<!-- 404.html:main:end -->
 
 		</main>
-		<aside>
+		<aside class="aside">
 			<!-- partials:page-contact.html:start -->
 <section id="contact" class="layout-module-group-nogap">
 	<div class="iosnavbar-buffer">
@@ -287,102 +287,102 @@
 <!-- partials:page-contact.html:end -->
 
 		</aside>
-		<footer>
+		<footer class="footer">
 			<!-- partials:page-footer.html:start -->
-<div class="layout-module-content paddingt-none paddingb-none">
-	<div class= "footer-nav flex-parent flex-parent-row">
-				
-			<div class="flex-child-25p">
-				<ul class="footer-main-category padding-none">
+<div class="layout-module-content">
+	<div class= "flex-parent flex-parent-row flex-gap">
+		
+			<div class="flex-child flex-child-25p margint-small">
+				<ul class="flex-parent flex-parent-column footer-category">
 					
-						<li>
+						<li class="footer-category-main">
 							Servicios
 						</li>
 					
 					
-						<li>
-							<a class="footer-sub-category" href="/es/formacion-para-hablar-en-publico/">
+						<li class="footer-category-sub">
+							<a href="/es/formacion-para-hablar-en-publico/">
 								Formación
 							</a>
 						</li>
 					
-						<li>
-							<a class="footer-sub-category" href="/es/coaching-para-hablar-en-publico/">
+						<li class="footer-category-sub">
+							<a href="/es/coaching-para-hablar-en-publico/">
 								Coaching
 							</a>
 						</li>
 					
-						<li>
-							<a class="footer-sub-category" href="/es/creacion-presentaciones-powerpoint/">
+						<li class="footer-category-sub">
+							<a href="/es/creacion-presentaciones-powerpoint/">
 								Creación
 							</a>
 						</li>
 					
 				</ul>
 			</div>
-				
-			<div class="flex-child-25p">
-				<ul class="footer-main-category padding-none">
+		
+			<div class="flex-child flex-child-25p margint-small">
+				<ul class="flex-parent flex-parent-column footer-category">
 					
-						<li>
+						<li class="footer-category-main">
 							Recursos
 						</li>
 					
 					
-						<li>
-							<a class="footer-sub-category" href="/es/revolution/">
+						<li class="footer-category-sub">
+							<a href="/es/revolution/">
 								Videos
 							</a>
 						</li>
 					
-						<li>
-							<a class="footer-sub-category" href="/es/guias/">
+						<li class="footer-category-sub">
+							<a href="/es/guias/">
 								Guías
 							</a>
 						</li>
 					
 				</ul>
 			</div>
-				
-			<div class="flex-child-25p">
-				<ul class="footer-main-category padding-none">
+		
+			<div class="flex-child flex-child-25p margint-small">
+				<ul class="flex-parent flex-parent-column footer-category">
 					
-						<li>
+						<li class="footer-category-main">
 							Ideas on Stage
 						</li>
 					
 					
-						<li>
-							<a class="footer-sub-category" href="/es/acerca-de-nosotros/">
+						<li class="footer-category-sub">
+							<a href="/es/acerca-de-nosotros/">
 								Acerca de nosotros
 							</a>
 						</li>
 					
-						<li>
-							<a class="footer-sub-category" href="/es/equipo/">
+						<li class="footer-category-sub">
+							<a href="/es/equipo/">
 								Equipo
 							</a>
 						</li>
 					
-						<li>
-							<a class="footer-sub-category" href="/es/referencias/">
+						<li class="footer-category-sub">
+							<a href="/es/referencias/">
 								Referencias
 							</a>
 						</li>
 					
 				</ul>
 			</div>
-				
-			<div class="flex-child-25p">
-				<ul class="footer-main-category padding-none">
+		
+			<div class="flex-child flex-child-25p margint-small">
+				<ul class="flex-parent flex-parent-column footer-category">
 					
-						<li>
+						<li class="footer-category-main">
 							Contacto
 						</li>
 					
 					
-						<li>
-							<a class="footer-sub-category" href="#contact">
+						<li class="footer-category-sub">
+							<a href="#contact">
 								Formulario
 							</a>
 						</li>
@@ -391,21 +391,35 @@
 			</div>
 		
 	</div>
-	<div class="flex-parent flex-parent-row paddingv-small flex-align-end">
-		<div class="footer-text-min flex-child-60p">
+	<div class="flex-parent flex-parent-row flex-gap flex-parent-column-ontall margint-small">
+		<div class="flex-child flex-child-80p footer-text">
 			© Ideas on Stage 2010 -  2024. 
 			Todos los derechos reservados<br />
 			No usamos cookies.</br>
 			Ideas on Stage Spain<br>Barcelona.
 		</div>
-		<div class="flex-child-15p paddingt-small">
+		<div class="flex-child flex-child-20p">
+			<div class="flex-parent flex-parent-row flex-gap flex-justify-end">
 			
-				<a class="footer-social" href="https://www.facebook.com/ideasonstage"><i class="fa fa-facebook fa-2"></i></a>
+				<div class="footer-social">
+					<a class="footer-social-link" href="https://www.facebook.com/ideasonstage">
+						<i class="fa fa-facebook fa-2"></i>
+					</a>
+				</div>
 			
-				<a class="footer-social" href="https://www.linkedin.com/company/ideas-on-stage/"><i class="fa fa-linkedin fa-2"></i></a>
+				<div class="footer-social">
+					<a class="footer-social-link" href="https://www.linkedin.com/company/ideas-on-stage/">
+						<i class="fa fa-linkedin fa-2"></i>
+					</a>
+				</div>
 			
-				<a class="footer-social" href="https://www.youtube.com/user/IdeasOnStage/"><i class="fa fa-youtube fa-2"></i></a>
+				<div class="footer-social">
+					<a class="footer-social-link" href="https://www.youtube.com/user/IdeasOnStage/">
+						<i class="fa fa-youtube fa-2"></i>
+					</a>
+				</div>
 			
+			</div>
 		</div>
 	</div>
 </div>

@@ -1,17 +1,17 @@
 {{ "<!-- partials:page-footer.html:start -->" | safeHTML }}
-<div class="layout-module-content paddingt-none paddingb-none">
-	<div class= "footer-nav flex-parent flex-parent-row">
-		{{ range .Site.Params.navigation.footer }}		
-			<div class="flex-child-25p">
-				<ul class="footer-main-category padding-none">
+<div class="layout-module-content">
+	<div class= "flex-parent flex-parent-row flex-gap">
+		{{ range .Site.Params.navigation.footer }}
+			<div class="flex-child flex-child-25p margint-small">
+				<ul class="flex-parent flex-parent-column footer-category">
 					{{ with .name }}
-						<li>
+						<li class="footer-category-main">
 							{{ . }}
 						</li>
 					{{ end }}
 					{{ range .items }}
-						<li>
-							<a class="footer-sub-category" href="{{ .url }}">
+						<li class="footer-category-sub">
+							<a href="{{ .url }}">
 								{{ .name }}
 							</a>
 						</li>
@@ -20,17 +20,23 @@
 			</div>
 		{{ end }}
 	</div>
-	<div class="flex-parent flex-parent-row paddingv-small flex-align-end">
-		<div class="footer-text-min flex-child-60p">
+	<div class="flex-parent flex-parent-row flex-gap flex-parent-column-ontall margint-small">
+		<div class="flex-child flex-child-80p footer-text">
 			{{ with .Site.Copyright }}{{ . }}{{ end }} {{ now.Year }}. 
 			{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
 			{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
 			{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
 		</div>
-		<div class="flex-child-15p paddingt-small">
+		<div class="flex-child flex-child-20p">
+			<div class="flex-parent flex-parent-row flex-gap flex-justify-end">
 			{{ range .Site.Params.Social.Items }}
-				<a class="footer-social" href="{{ .url }}"><i class="fa fa-{{ .icon }} fa-2"></i></a>
+				<div class="footer-social">
+					<a class="footer-social-link" href="{{ .url }}">
+						<i class="fa fa-{{ .icon }} fa-2"></i>
+					</a>
+				</div>
 			{{ end }}
+			</div>
 		</div>
 	</div>
 </div>

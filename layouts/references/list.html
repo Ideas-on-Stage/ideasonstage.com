@@ -10,12 +10,12 @@
 					{{ if eq $languageshort .language }}
 						{{ $.Scratch.Add "count" 1 }}
 						<div class="flex-parent flex-parent-row flex-align-start margint-medium">
-							<div class="flex-child-20p">
+							<div class="flex-child flex-child-20p">
 								<div class="margin-small border">
 									<img src="/img/logos/{{ .logo }}">
 								</div>
 							</div>
-							<div class="flex-child-80p">
+							<div class="flex-child flex-child-80p">
 								<div class="margin-small">
 									<h2>{{ .client }}</h2>
 									<p><b>{{ .title | markdownify }}</b></p>
@@ -36,14 +36,14 @@
 			{{ end }}
 			{{ range .Pages }}
 				<div class="flex-parent flex-parent-row flex-align-start margint-medium">
-					<div class="flex-child-20p logo">
+					<div class="flex-child flex-child-20p logo">
 						{{ with .Params.logo }}
 							<div class="margin-small border">
 								<img src="/img/logos/{{ . }}">
 							</div>
 						{{ end }}
 					</div>
-					<div class="flex-child-80p">
+					<div class="flex-child flex-child-80p">
 						<div class="margin-small">
 							<h2>{{ .Params.client }}</h2>
 							<p>

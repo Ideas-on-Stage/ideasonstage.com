@@ -12,7 +12,7 @@
 		</div>
 		{{/* <!-- adding layout-hero div corrects bug on browsers where sticky doesn't work --> */}}
 		<div class= "layout-module-layer" {{ with .Params.cta.opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
-			<div class="flex-parent flex-column flex-justify-center flex-align-center">
+			<div class="flex-parent flex-parent-column flex-justify-center flex-align-center">
 				{{ if eq "h2" .Params.cta.level }}
 					<h2 class="text-white text-center">{{ "<!-- picture and h1 -->" | safeHTML }}
 						{{- with .Params.cta.title }}

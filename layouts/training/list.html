@@ -7,13 +7,13 @@
 		{{ partial "page-list.html" . }}
 	{{ end }}
 	<div class="layout-module-content">
-		<div class="flex-parent flex-parent-row flex-column-ontall paddingb-tiny">
-			<aside id="sidebar" class="flex-child-33p layout-double-sticky">
+		<div class="flex-parent flex-parent-row flex-parent-column-ontall paddingb-tiny">
+			<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
 				<div class="scroller">
 					{{ partial "sidebar/sidebar-menu.html" . }}
 				</div>
 			</aside>
-			<article id="content-main" class="flex-child-67p">
+			<article id="content-main" class="flex-child flex-child-67p">
 				{{ with .Content }}{{ . }}{{ end }}
 			</article>
 		</div>

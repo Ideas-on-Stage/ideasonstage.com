@@ -10,18 +10,18 @@
 {{- define "main" }}
 	{{ "<!-- team:single.html:main:start -->" | safeHTML }}
 	<section id="team-member" class="layout-module-content">
-	  <div class="flex-parent flex-parent-row flex-column-ontall">
-	    <div class="flex-child-33p">  		
+		<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-big-gap">
+			<div class="flex-child flex-child-33p">
 				{{ with .Params -}}
 					<img src="{{ .picture }}" class="style-photograph" alt="{{ .name }}">
 				{{- end }}
-		  </div>
-		  <div class="flex-child-67p flex-child-text-right flex-child-img-notfullwidth">
+			</div>
+			<div class="flex-child flex-child-67p">
 				<h1>{{ .Params.name }}</h1>
 				<p class="style-person-title">{{ .Params.position }}</p>
 				{{ with .Content }}{{ . | markdownify }}{{ end }}
-		  </div>
-	  </div>      
+			</div>
+		</div>
 	</section>
 	{{ "<!-- team:single.html:main:end -->" | safeHTML }}
 {{- end }}

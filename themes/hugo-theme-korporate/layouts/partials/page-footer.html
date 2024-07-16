@@ -17,7 +17,7 @@
 		</div>
 	
 	    <div class="layout-module">
-			<div class="layout-module-content text flex-child-60p marginv-small">
+			<div class="layout-module-content text flex-child flex-child-60p marginv-small">
 	    		{{ with .Site.Copyright }}{{ . }}{{ end }}{{ now.Year }}<br />
 	    		{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
 	    		{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}

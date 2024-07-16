@@ -10,11 +10,11 @@
 {{- range $.Page.Params.events }}
 	{{- if and (ge .startdate (now.Format "2006-01-02")) (not .draft) }}
 	{{- $atleastone = true }}
-	<div class="flex-parent flex-parent-row flex-column-ontall">
-		<div class="flex-child-40p layout-shortcode-child ">
+	<div class="flex-parent flex-parent-row flex-parent-column-ontall">
+		<div class="flex-child flex-child-40p layout-shortcode-child ">
 			<img src="{{ .image }}">
 		</div>
-		<div class="flex-child-60p layout-shortcode-child">
+		<div class="flex-child flex-child-60p layout-shortcode-child">
 			<h4 class="margin-none">{{ .name }}</h4>
 		    <p>{{ .description }}<br />
 			{{ partial "f/getdatetime" .startdate }}<br />
@@ -27,7 +27,7 @@
 	{{- end }}
 {{- end }}
 {{- if not $atleastone }}
-	<div class="flex-parent flex-parent-row flex-column-ontall flex-justify-center">
+	<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-justify-center">
 		<p>{{ site.Params.events.empty }}</p>
 	</div>
 {{- end }}

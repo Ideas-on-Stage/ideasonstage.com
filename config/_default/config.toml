@@ -82,6 +82,7 @@ title 					= "Ideas on Stage"
 			padding_right	= "0.5vw"
 			padding_bottom	= "0.5vw"
 			padding_left	= "0.5vw"
+			big_gap			= "4vw"
 			column_gap		= "1vw"
 			row_gap			= "1vw"
 			

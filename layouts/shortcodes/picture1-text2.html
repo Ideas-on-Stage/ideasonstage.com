@@ -1,9 +1,9 @@
 {{ "<!-- shortcodes:picture1-text2.html:start -->" | safeHTML }}
-<div class="layout-shortcode flex-column-ontall flex-gap {{ with .Params.style }}{{ . }}{{ end }}">
-	<div class="layout-shortcode-child flex-child-40p">
+<div class="layout-shortcode flex-parent-column-ontall flex-gap {{ with .Params.style }}{{ . }}{{ end }}">
+	<div class="layout-shortcode-child flex-child flex-child-40p">
 		<img src="{{ .Params.picture }}" alt="{{ .Params.title }}">
 	</div>
-	<div class="layout-shortcode-child flex-child-60p">
+	<div class="layout-shortcode-child flex-child flex-child-60p">
 	    <h3 class="">{{ .Params.title }}</h3>
 	    <p>{{ .Inner | markdownify }}</p>
 	</div>

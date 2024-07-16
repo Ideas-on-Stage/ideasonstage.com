@@ -1,91 +1,91 @@
 {{ define "main" }}
 	{{ "<!-- news:list.html:start -->" | safeHTML }}
 	<div class="layout-module-content">
-		<div class="flex-parent flex-parent-row flex-column-reverse-ontall">
-			<aside id="sidebar" class="flex-child-33p layout-sticky">
+		<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-big-gap">
+			<aside id="sidebar" class="flex-child flex-child-33p layout-sticky">
 				<div class="scroller">
 					{{ partial "sidebar/sidebar-top-categories.html" . }}
 					{{ partial "sidebar/sidebar-newsletter.html" . }}
 				</div>
 			</aside>
-			<article id="content-main" class="flex-child-67p">
+			<article id="content-main" class="flex-child flex-child-67p">
 				{{ range (.Paginator).Pages }}
-			<section class="post ">
-                <div class="flex-parent flex-parent-row paddingt-none paddingb-none">
-					<div class= "row-tag">
-						<ul class="post-tag">
-							{{ range (.GetTerms "tags") }}
-								<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-						   {{ end }}
-						</ul>
+				<section class="post">
+					<div class="flex-parent flex-parent-row paddingt-none paddingb-none">
+						<div class= "row-tag">
+							<ul class="post-tag">
+								{{ range (.GetTerms "tags") }}
+									<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+						   	{{ end }}
+							</ul>
+						</div>
 					</div>
-				</div>
-				<div class="flex-parent flex-parent-row paddingt-tiny paddingb-huge">                   
-                    <a href="{{ .RelPermalink }}">
-                    	<h2>{{ .Title }}</h2>
-                    </a>
-                    <p>
-						{{ if isset .Params "author" }}
-							{{ .Site.Params.news.by }} 
-							{{ $scratch := newScratch }}
-							{{ $scratch.Set "author" "/team/" }}
-							{{ $author := .Params.author | urlize }}
-							{{ $scratch.Add "author" $author }}
-							{{ $authorname := .Params.author }}
-							{{ with .Site.GetPage ($scratch.Get "author") }}
-								{{ if ne .Params.draft "true" }}
-									{{ $authorname }} —
-								{{ else }}
+					<div class="flex-parent flex-parent-row paddingt-tiny paddingb-huge">   				
+						<a href="{{ .RelPermalink }}">
+							<h2>{{ .Title }}</h2>
+						</a>
+						<p>
+							{{ if isset .Params "author" }}
+								{{ .Site.Params.news.by }} 
+								{{ $scratch := newScratch }}
+								{{ $scratch.Set "author" "/team/" }}
+								{{ $author := .Params.author | urlize }}
+								{{ $scratch.Add "author" $author }}
+								{{ $authorname := .Params.author }}
+								{{ with .Site.GetPage ($scratch.Get "author") }}
+									{{ if ne .Params.draft "true" }}
+										{{ $authorname }} —
+									{{ else }}
+										{{ .Params.author }} -
+									{{ end }}
+								{{ else }} 
 									{{ .Params.author }} -
 								{{ end }}
-							{{ else }} 
-								{{ .Params.author }} -
-							{{ end }}
-                      	{{ end }}
-                      	{{ if isset .Params "categories" }}
-                      		{{ if gt (len .Params.categories) 0 }}
-                      			in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
-                          	{{ end }}
-                      	{{ end }}
-				        <a href="{{ .Permalink }}">
-				        	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-								{{ partial "f/getdate" .Date }}
-				        	</time>
-				        </a>
-					</p>
-					<div class="image">
-                        <a href="{{ .RelPermalink }}">
-                            {{ if .Params.banner }}
-                            	<img src="{{ .Params.banner }}" class="img-responsive" alt="">
-                            {{ else }}
-                            	<img src="/news/img/placeholder.png" class="img-responsive" alt="">
-                            {{ end }}
-                        </a>
-                    </div>
-					<p>{{ .Summary }}</p>
-                    <p class="marginv-none">
-                       	<a href="{{ .RelPermalink }}" class="button-secondary">{{ .Site.Params.news.more }}</a>
-                    </p>
-                </div>
-            </section>
-			{{ end }}
+  							{{ end }}
+  							{{ if isset .Params "categories" }}
+  								{{ if gt (len .Params.categories) 0 }}
+  									in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
+  								{{ end }}
+  							{{ end }}
+							<a href="{{ .Permalink }}">
+								<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+									{{ partial "f/getdate" .Date }}
+								</time>
+							</a>
+						</p>
+						<div class="image">
+							<a href="{{ .RelPermalink }}">
+								{{ if .Params.banner }}
+									<img src="{{ .Params.banner }}" class="img-responsive" alt="">
+								{{ else }}
+									<img src="/news/img/placeholder.png" class="img-responsive" alt="">
+								{{ end }}
+							</a>
+						</div>
+						<p>{{ .Summary }}</p>
+						<p class="marginv-none">
+   							<a href="{{ .RelPermalink }}" class="button-secondary">{{ .Site.Params.news.more }}</a>
+						</p>
+					</div>
+				</section>
+				{{ end }}
 			
 			{{/* <!-- add pagination buttons --> */}}
 			<div class="row">
 				<div>
-          <ul class="pager">
-            {{ if .Paginator.HasPrev }}
-            <li class="previous"><a href="{{ .Paginator.Prev.URL }}" class="button-secondary">&larr; {{ site.Params.buttons.previous }}</a></li>
-            {{ end }}
+  		<ul class="pager">
+			{{ if .Paginator.HasPrev }}
+			<li class="previous"><a href="{{ .Paginator.Prev.URL }}" class="button-secondary">&larr; {{ site.Params.buttons.previous }}</a></li>
+			{{ end }}
 
-            {{ if .Paginator.HasNext }}
-            <li class="next"><a href="{{ .Paginator.Next.URL }}" class="button-secondary">{{ site.Params.buttons.next }} &rarr;</a></li>
-            {{ end }}
-          </ul>
+			{{ if .Paginator.HasNext }}
+			<li class="next"><a href="{{ .Paginator.Next.URL }}" class="button-secondary">{{ site.Params.buttons.next }} &rarr;</a></li>
+			{{ end }}
+  		</ul>
 				</div>
 			</div>
 			</article>
 		</div>	
 	</div>
-    {{ "<!-- news:list.html:end -->" | safeHTML }}
+	{{ "<!-- news:list.html:end -->" | safeHTML }}
 {{ end }}
