@@ -1103,6 +1103,11 @@
 			max-height: 100%;
 			max-width: 100%;
 		}
+
+		/* flex child constrained to 60% of available space */
+		.flex-child-100p {
+			flex-basis: 100%; /* start at 60% width */
+		}
 		
 		/* flex child constrained to 60% of available space */
 		.flex-child-80p {

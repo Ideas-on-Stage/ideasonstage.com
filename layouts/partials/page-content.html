@@ -2,7 +2,7 @@
 <div class="layout-module-content">
 	{{- if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
 		<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall">
-			<article id="content-main" class="flex-child">
+			<article id="content-main" class="flex-child flex-child-100p">
 				{{ with .Params.summary }}<p>{{ . }}</p>{{ end }} 
 				<h2>{{ site.Params.tableofcontents }}</h2>
 				{{ with .TableOfContents }}{{ . }}{{ end }} 
