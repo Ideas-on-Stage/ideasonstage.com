@@ -122,11 +122,9 @@
 	.iosnavbar-menu-item a				{ font-size: 0.85em;	}
 	.iosnavbar-menu-dropdown-item,
 	.iosnavbar-menu-dropdown-item a		{ font-size: 0.85em;	}
-	.iostestimonial .text p				{ font-size: 14px;		}
-	.iostestimonial .icon				{ font-size: 24px;		}
-	.iostestimonial .name-picture h4	{ font-size: 1em;		}
-	.iostestimonial .name-picture h5 	{ font-size: 14px;		}
-	.iostestimonial .name-picture p		{ font-size: 12px;		}
+	.iostestimonials-text				{ font-size: 14px;		}
+	.iostestimonials-name				{ font-size: 1em;		}
+	.iostestimonials-position		 	{ font-size: 0.85em;	}
 	.people-box-name					{ font-size: 1em;	  	}
 	.people-box-title					{ font-size: 0.75em;	}
 	.thumbnail-caption h3				{ font-size: 0.75em;	}
@@ -618,8 +616,7 @@
 		
 		/* wrapper from main content such as .Content */
 		.layout-module-content {
-			margin: 0 auto;
-			padding: 2vw 0;
+			margin: 2vw auto;
 			width: 80vw;
 			max-width: 1200px; /* prevents text area from getting unpleasantly wide */
 		}
@@ -627,15 +624,14 @@
 		/* use to align menubar, footer, etc. on content */
 		.layout-module-content-width {
 			margin: 0 auto;
-			padding: 0 0;
+			padding: 0;
 			width: 80vw;
 			max-width: 1200px; /* prevents text area from getting unpleasantly wide */
 		}
 		
 		/* use for narrow content such as forms */
 		.layout-module-content-narrow {
-			margin: 0 auto;
-			padding: 2vw 0;
+			margin: 2vw auto;
 			width: 50vw;
 			max-width: 800px; /* prevents text area from getting unpleasantly wide */
 		}
@@ -721,12 +717,17 @@
 		
 		/* Enclose modules in a layout-module-group div to have a gap between them */		
 		.layout-module-group {
-			width: calc(100% - 2 * var(--module-column-gap));
+			width: calc(100%);
 			display: flex;
 			flex-direction: row; /* to display half modules side by side */
 			flex-wrap: wrap; /* to create additional rows if necessary */
-			margin: var(--module-row-gap) var(--module-column-gap);
+			margin: var(--module-row-gap) 0;
+			padding: 0 var(--module-column-gap);
 			gap: var(--module-row-gap) var(--module-column-gap);
+		}
+		
+		.layout-module-group-nomargin {
+			margin: 0;
 		}
 		
 		.layout-module-group-nogap {
@@ -734,7 +735,8 @@
 			display: flex;
 			flex-direction: row; /* to display half modules side by side */
 			flex-wrap: wrap; /* to create additional rows if necessary */
-			margin: 0;
+			margin: 0; /* to create a layout-module-group without top and bottom margin */
+			padding: 0;
 			gap: 0;
 		}
 		
@@ -817,33 +819,21 @@
 			/* half module layers have a width of 50% */
 			width: 50%;
 		}
-		
-		/* adapt width and height to substract padding if necessary */
-		.layout-module-group .layout-module-layer {
-			width: calc(100% - var(--module-column-gap) * 2);
-		}
-		
+	
 		.layout-module-group .layout-module-half .layout-module-layer {
 			width: calc((100% - var(--module-column-gap) * 3) / 2);
 		}
 		
-		.layout-module-group .layout-module .layout-module-layer,
-		.layout-module-group .layout-module-half .layout-module-layer {
+		.layout-module .layout-module-layer,
+		.layout-module-half .layout-module-layer {
 			height: var(--module-height);
-		}
-		
-		.layout-module-big {
-			height: {{ site.Params.layout.module.height_big }};
 		}
 		
 		@media (max-aspect-ratio:1/1) and (max-width:480px) {
 			
 			.layout-module-group {
-				width: calc(100%);
-				margin-top: var(--module-ts-row-gap);
-				margin-right: 0;
-				margin-bottom: var(--module-ts-row-gap);
-				margin-left: 0;
+				margin: var(--module-ts-row-gap) 0;
+				padding: 0;
 				gap: var(--module-ts-row-gap) var(--module-ts-column-gap);
 			}
 			
@@ -972,51 +962,7 @@
 		}
 		
 	/* @end */
-	
-	/* @group .LAYOUT-STORYLINE */
 		
-		.layout-storyline {
-			/* main wrapper */
-			display: flex;
-			flex-wrap: wrap;
-			flex-direction: row;
-		}
-		
-		.layout-storyline-left {
-			padding: 2vw;
-			width: 50%;
-			border-right: 1px dotted #333;	
-		}
-		
-		.layout-storyline-left img {
-			max-height: 100%;
-			max-width: 100%;
-		}
-		
-		.layout-storyline-right {
-			padding: 2vw;
-			width: 50%;
-		}
-		
-		.layout-storyline-right img {
-			max-height: 100%;
-			max-width: 100%;
-		}
-		
-		@media (max-aspect-ratio:1/1) and (max-width:480px) {
-			
-			.layout-storyline-left {
-				padding: 4vw 2vw;
-			}
-			
-			.layout-storyline-right {
-				padding: 4vw 2vw;
-			}
-			
-		}
-		
-	/* @end */
-	
 	/* @group .LAYOUT HELPER CLASSES */
 		
 		.layout-relative {
@@ -1103,6 +1049,8 @@
 			flex: 1;
 			flex-grow: 0;
 			flex-shrink: 0;
+			margin: 0;
+			padding: 0;
 			max-height: 100%;
 			max-width: 100%;
 		}
@@ -1694,6 +1642,11 @@
 		border: none;
 	}
 	
+	/* use to add buffer on top of link */
+	.iosnavbar-buffer {
+		height: 1px;
+		margin-bottom: calc(var(--menubar-height)); 
+	}
 	/* Adjust logo positioning */
 	.iosnavbar-brand {
 		margin-top: calc((var(--menubar-height) - var(--logo-height)) / 2 + var(--logo-offset));
@@ -1707,11 +1660,6 @@
 		height: var(--logo-height);
 		color: #FF8200;
 		float: left;
-	}
-		
-	/* burger symbol (replaces normal menu on ts screens) */
-	.iosnavbar-burger {
-		display: none;
 	}
 	
 	/* <ul> menu (replaced by burger on ts screens) */
@@ -1779,15 +1727,20 @@
 	.iosnavbar input[type=checkbox] {
 	}
 	
-	@media all and (min-width : 481px) {
+	@media (min-width : 481px) {
 		
 		.iosnavbar ul li:hover > ul {
 			display: inherit;
 		}
+
+		/* burger symbol (replaces normal menu on ts screens) */
+		.iosnavbar-burger {
+			display: none;
+		}
 	
 	}
 	
-	@media all and (max-width : 480px) {
+	@media (max-aspect-ratio:1/1) and (max-width : 480px) {
 		
 		.menutoggle + a,
 		.iosnavbar-menu {
@@ -2005,72 +1958,26 @@
 
 /* @group Testimonials */
 
-	#testimonials {
-		margin-top: 0;
+	.iostestimonials-item {
+		flex-basis: 40vw;
+	}	
+	
+	.iostestimonials-picture img {
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
 	}
 	
-	.iostestimonials {
-		padding: 0;
-	}
-	
-	.iostestimonials .iostestimonial-item {
-		
-	}
-	
-	.iostestimonials .iostestimonial-item .iostestimonial {
-		padding: 1.0em;
-	}
-	
-	.iostestimonials .iostestimonial-item .iostestimonial .text {
-		color: #222; 
-		/*	margin-bottom: 1.5em; */
-		width: 30vw;
-		max-width: 410px;
-		padding-right: 12px;
-	}
-	
-	.iostestimonials .iostestimonial-item .iostestimonial .bottom {
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		padding: 0 1.0em;
-		height: 2.5em;
-	}
-	
-	.iostestimonials .iostestimonial-item .iostestimonial .name-picture {
-		float: right;
-		width: 100%;
-		text-align: right;
-	}
-	
-	.testimonials .item .testimonial .name-picture h4,
-	.testimonials .item .testimonial .name-picture p {
-		color: #222;
+	.iostestimonials-position {
 		margin: 0;
 	}
 	
-	.iostestimonials .iostestimonial-item .iostestimonial .name-picture img {
-		float: right;
-		width: 60px;
-		border-radius: 30px;
-		margin-left: 10px;
-	}
-	
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
-		
-		.iostestimonials .iostestimonial-item {
-			width: 67vw;
+
+		.iostestimonials-item {
+			flex-basis: 70vw;
 		}
-		
-		.iostestimonials .iostestimonial-item .iostestimonial .text {
-			width: 67vw;
-			padding: 0 15px;
-		}
-		
-		.iostestimonials {
-			padding-bottom: 1.0em;
-		}
-		
+
 	}
 
 /* @end */

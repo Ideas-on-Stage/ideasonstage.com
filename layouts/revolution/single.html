@@ -1,7 +1,7 @@
 {{ define "main" }}
 	{{ "<!-- revolution:single.html:start -->" | safeHTML }}
 	<div class="layout-module-content">
-		<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall">
+		<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-big-gap">
 			<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
 				<div class="scroller">
 					{{ partial "sidebar/sidebar-top-categories.html" . }}
@@ -17,7 +17,7 @@
 					</ul>
 				</div>
 				<div class="flex-parent flex-parent-row">
-					<p class="text-muted  mb-small">
+					<p class="text-muted mb-small">
 						{{ if isset .Params "author" }}
 						  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
 						  {{ end }}
