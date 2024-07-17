@@ -11,19 +11,11 @@ banner = "/img/news/copy_of_template_for_youtube_thumbnail-_jd.jpg"
 
 In this episode of the Ideas on Stage podcast we spoke with JD Schramm.  
 
-
-
 A passionate coach and gifted communicator in his own right, JD Schramm treasures the opportunity to bring out the best in those he teaches, advises, or inspires through his speaking, coaching, and educating. Thousands of students at Stanford, Columbia, NYU, and USC have benefited from his hallmark style of teaching and rigorous feedback to help them speak with conviction and write for impact. 
-
-
 
 JD is also an accomplished author; his book Communicate with Mastery gives readers a rich treasure trove of frameworks and tools for leadership communication. 
 
- 
-
 In this episode we talked about how to communicate with mastery. 
-
-
 
 **Transcript**
 
@@ -67,7 +59,7 @@ You covered the topic beautifully, Andrea. I guess the one piece I didn't share 
 
 [YouTube](https://youtu.be/sZyohzA-pPM)
 
-[Apple Podcasts](https://podcasts.apple.com/us/podcast/ideas-on-stage-podcast/id1506050111)[](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/OGJiNTRiNTItN2RmNC00ZWI5LWI1YzktNDI0YmQ3N2EwN2Iz?sa=X&ved=0CAUQkfYCahcKEwjY6ua-_9WGAxUAAAAAHQAAAAAQAQ)
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/61-jd-schramm-on-communicating-with-mastery-the-ideas/id1506050111?i=1000662515758)[](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/OGJiNTRiNTItN2RmNC00ZWI5LWI1YzktNDI0YmQ3N2EwN2Iz?sa=X&ved=0CAUQkfYCahcKEwjY6ua-_9WGAxUAAAAAHQAAAAAQAQ)
 
 [Spotify](https://open.spotify.com/episode/4S1rCGfiOG9PhR6BT3fvkW)
 
