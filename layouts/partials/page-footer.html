@@ -1,8 +1,8 @@
 {{ "<!-- partials:page-footer.html:start -->" | safeHTML }}
-<div class="layout-module-content">
+<div class="layout-module-content marginv-none paddingv-medium">
 	<div class= "flex-parent flex-parent-row flex-gap">
 		{{ range .Site.Params.navigation.footer }}
-			<div class="flex-child flex-child-25p margint-small">
+			<div class="flex-child flex-child-25p">
 				<ul class="flex-parent flex-parent-column footer-category">
 					{{ with .name }}
 						<li class="footer-category-main">
@@ -20,9 +20,9 @@
 			</div>
 		{{ end }}
 	</div>
-	<div class="flex-parent flex-parent-row flex-gap flex-parent-column-ontall margint-small">
+	<div class="flex-parent flex-parent-row flex-gap flex-parent-column-ontall margint-medium">
 		<div class="flex-child flex-child-80p footer-text">
-			<p>
+			<p class="margin-none">
 				{{ with .Site.Copyright }}{{ . }}{{ end }} {{ now.Year }}. 
 				{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
 				{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
