@@ -5,15 +5,13 @@
 			{{ partial "page-content.html" . }}
 		</div>
 		<div class="layout-module-content">
-		 	<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-justify-start">
+		 	<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-justify-start flex-gap">
 				{{- range .Pages.ByWeight }}
-				<div class="flex-child flex-child-33p">
-					<a href="{{ .RelPermalink }}" class="people-box">
-						<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}">	
-						<h2 class="people-box-name">{{ .Params.name }}</h2>
-						<p class="people-box-title">{{ .Params.position }}</p>
-					</a>
-				</div>
+				<a href="{{ .RelPermalink }}" class="flex-child flex-child-33p flex-parent flex-parent-column flex-align-center paddingv-small">
+						<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}" class="teammember-img">	
+						<h2 class="teammember-name">{{ .Params.name }}</h2>
+						<p class="teammember-title">{{ .Params.position }}</p>
+				</a>
 				{{- end}}
 			</div> <!--end col -->
 		</div>

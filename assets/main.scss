@@ -32,6 +32,8 @@
 
 	--logo-height: {{ site.Params.navigation.brand_logo_height }};
 	--logo-offset: {{ site.Params.navigation.brand_logo_offset }};
+	
+	--color-primary: {{ site.Params.colors.orange }};
 }
 
 /* @group FONT FAMILIES */
@@ -111,13 +113,12 @@
 	footer, footer a	{ font-size: 1.00em;	}
 	
 	/* font sizes for custom classes */
-	.button-primary						{ font-size: 1.50vw;	}
-	.nav a								{ font-size: 0.80em;	}
+	.button-primary						{ font-size: 1em;		}
+	.nav a								{ font-size: 0.8em;		}
 	.footer-category-main				{ font-size: 0.8em;		}
 	.footer-category-sub				{ font-size: 0.8em;		}
 	.footer-text			 			{ font-size: 0.75em;	}
 	.footer-social-link					{ font-size: 1.2em;		}
-	.form-control-nav					{ font-size: 90%;		}
 	.iosnavbar-menu-item,
 	.iosnavbar-menu-item a				{ font-size: 0.85em;	}
 	.iosnavbar-menu-dropdown-item,
@@ -125,24 +126,17 @@
 	.iostestimonials-text				{ font-size: 14px;		}
 	.iostestimonials-name				{ font-size: 1em;		}
 	.iostestimonials-position		 	{ font-size: 0.85em;	}
-	.people-box-name					{ font-size: 1em;	  	}
-	.people-box-title					{ font-size: 0.75em;	}
-	.thumbnail-caption h3				{ font-size: 0.75em;	}
-	.text-base							{ font-size: 1.00em;	}
-	.testimonial .text p				{ font-size: 14px;		}  
-	.testimonial .icon					{ font-size: 24px;		}
-	.testimonial .name-picture h4		{ font-size: 1em;	  	}
-	.testimonial .name-picture h5		{ font-size: 14px;		}
-	.testimonial .name-picture p		{ font-size: 12px;		}
-	.timeline-title						{ font-size: 1.50em;	}
-	.timeline-text						{ font-size: 0.80em;	}
 	.style-section-title-main 			{ font-size: 2.00em;	}
 	.style-module-text h3				{ font-size: 2.00em;	}
+	.style-text-icon					{ font-size: 1em;		}
+	.teammember-name					{ font-size: 1em;	  	}
+	.teammember-title					{ font-size: 0.75em;	}
+	.text-base							{ font-size: 1.00em;	}
 	#content-table h2					{ font-size: 1em;		}
 	#content-table a					{ font-size: 0.75em;	}
 	#sidebar h2							{ font-size: 1em;		}
 	#sidebar li							{ font-size: 1em;		}
-	#sidebar p							{ font-size: 0.8em;		}
+	#sidebar p							{ font-size: 1em;		}
 	#sidebar a							{ font-size: 1em;		}
 	
 	/* adjust for small tall smartphone screens */
@@ -1047,6 +1041,7 @@
 		/* standard flex child */
 		.flex-child {
 			flex: 1;
+			flex-basis: auto;
 			flex-grow: 0;
 			flex-shrink: 0;
 			margin: 0;
@@ -1092,89 +1087,89 @@
 			
 			/* flex child constrained to 60% of available space */
 			.flex-child-100p {
-				flex-basis: 100%; /* start at 60% width */
+				width: 100%;
 			}
 			
 			/* flex child constrained to 60% of available space */
 			.flex-child-80p {
-				flex-basis: 80%; /* start at 60% width */
+				width: 80%;
 			}
 			.flex-gap .flex-child-80p {
-				flex-basis: calc(var(--module-5c-width) * 4 + var(--module-column-gap) * 3);
+				width: calc(var(--module-5c-width) * 4 + var(--module-column-gap) * 3);
 			}
 			
 			/* flex child constrained to 2/3 of available space */
 			.flex-child-67p {
-				flex-basis: calc(100% / 12 * 8); /* start at 67% width */
+				width: calc(100% / 12 * 8); /* start at 67% width */
 			}
 			.flex-gap .flex-child-67p {
-				flex-basis: calc(var(--module-12c-width) * 8 + var(--module-column-gap) * 7);
+				width: calc(var(--module-12c-width) * 8 + var(--module-column-gap) * 7);
 			}
 			.flex-big-gap .flex-child-67p {
-				flex-basis: calc((100% - var(--module-big-gap)) / 3 * 2 );
+				width: calc((100% - var(--module-big-gap)) / 3 * 2 );
 			}
 			
 			/* flex child constrained to 60% of available space */
 			.flex-child-60p {
-				flex-basis: 60%;
+				width: 60%;
 			}
 			.flex-gap .flex-child-60p {
-				flex-basis: calc(var(--module-5c-width) * 3 + var(--module-column-gap) * 2);
+				width: calc(var(--module-5c-width) * 3 + var(--module-column-gap) * 2);
 			}
 			.flex-big-gap .flex-child-60p {
-				flex-basis: calc((100% - var(--module-big-gap)) / 5 * 3 );
+				width: calc((100% - var(--module-big-gap)) / 5 * 3 );
 			}
 			
 			/* flex child constrained to 50% of available space */
 			.flex-child-50p {
-				flex-basis: 50%; /* start at 60% width */
+				width: 50%; /* start at 60% width */
 			}
 			.flex-gap .flex-child-50p {
-				flex-basis: calc(var(--module-12c-width) * 6 + var(--module-column-gap) * 5);
+				width: calc(var(--module-12c-width) * 6 + var(--module-column-gap) * 5);
 			}		
 			
 			/* flex child constrained to 40% of available space */
 			.flex-child-40p {
-				flex-basis: 40%;
+				width: 40%;
 				box-sizing: border-box;
 			}
 			.flex-gap .flex-child-40p {
-				flex-basis: calc(var(--module-5c-width) * 2 + var(--module-column-gap) * 1);
+				width: calc(var(--module-5c-width) * 2 + var(--module-column-gap) * 1);
 			}		
 			.flex-big-gap .flex-child-40p {
-				flex-basis: calc((100% - var(--module-big-gap)) / 5 * 2 );
+				width: calc((100% - var(--module-big-gap)) / 5 * 2 );
 			}
 			
 			/* flex child constrained to 1/3 of available space */
 			.flex-child-33p {
-				flex-basis: calc(100% / 3);
+				width: calc(100% / 3);
 			}
 			.flex-gap .flex-child-33p {
-				flex-basis: calc(var(--module-12c-width) * 4 + var(--module-column-gap) * 3);
+				width: calc(var(--module-12c-width) * 4 + var(--module-column-gap) * 3);
 			}
 			.flex-big-gap .flex-child-33p {
-				flex-basis: calc((100% - var(--module-big-gap)) / 3 );
+				width: calc((100% - var(--module-big-gap)) / 3 );
 			}
 			
 			.flex-child-25p {
-				flex-basis: 25%;
+				width: 25%;
 			}
 			.flex-gap .flex-child-25p {
-				flex-basis: calc(var(--module-12c-width) * 3 + var(--module-column-gap) * 2);
+				width: calc(var(--module-12c-width) * 3 + var(--module-column-gap) * 2);
 			}
 			
 			.flex-child-20p {
-				flex-basis: 20%;
+				width: 20%;
 			}
 			.flex-gap .flex-child-20p {
-				flex-basis: calc(var(--module-5c-width));
+				width: calc(var(--module-5c-width));
 			}
 			
 			.flex-child-16p {
-				flex-basis: calc(100% / 6); /* start at 1/6 width */
+				width: calc(100% / 6); /* start at 1/6 width */
 			}
 			.flex-gap .flex-child-16p {
-				flex-basis: calc(var(--module-12c-width) * 2 + var(--module-column-gap) * 1);
+				width: calc(var(--module-12c-width) * 2 + var(--module-column-gap) * 1);
 			}
 					
 		}
@@ -1193,28 +1188,28 @@
 			
 			/* on ts screens, use a width of 50% for these sizes */
 			.flex-child-25p {
-				flex-basis: 50%;
+				width: 50%;
 			}
 			.flex-gap .flex-child-25p {
-				flex-basis: calc((100% - var(--module-ts-column-gap)) / 2);
+				width: calc((100% - var(--module-ts-column-gap)) / 2);
 			}
 			
 			.flex-child-80p {
-				flex-basis: calc(100%/3*2);
+				width: calc(100%/3*2);
 			}
 			.flex-gap .flex-child-80p,
 		    {
-				flex-basis: calc((var(--module-ts-12c-width) * 8 + var(--module-ts-column-gap) * 7));
+				width: calc((var(--module-ts-12c-width) * 8 + var(--module-ts-column-gap) * 7));
 			}
 			
 			/* on ts screens, use a width of 33% for these sizes */
 			.flex-child-20p,
 			.flex-child-16p {
-				flex-basis: calc(100% / 3);
+				width: calc(100% / 3);
 			}
 			.flex-gap .flex-child-20p,
 			.flex-gap .flex-child-16p {
-				flex-basis: calc((var(--module-ts-12c-width) * 4 + var(--module-ts-column-gap) * 3));
+				width: calc((var(--module-ts-12c-width) * 4 + var(--module-ts-column-gap) * 3));
 			}
 			
 		}
@@ -1850,40 +1845,25 @@
 
 	/* used for team members and other people profiles */
 	
-	.people-box {
-		min-height:175px;
-		max-height: 260px;
-		display: block;
-		text-align: center;
-		position: relative;
-		max-width: 650px;
-		margin: 0px auto 0;
-	}
-	
-	.people-box img {
+	img.teammember-img {
 		width: 100px;
 		height: 100px;
-		border: 3px solid #fff;
+		border: 3px solid white;
 		border-radius: 50%;
-		margin-left: auto;
-		margin-right: auto;
 		transition: all .35s;
 		filter: grayscale(100%);
 	}
 	
-	.people-box:hover img {
+	img.teammember-img:hover {
 		border: 3px solid #FF8200;
 		filter: grayscale(0%);
 	}
 	
-	.people-box-name {
-		padding: 0px;
-		margin: 4px;
-		color: #000;
+	.teammember-name {
+		margin: 4px 0;
 	}
 	
-	.people-box-title {
-		padding: 0;
+	.teammember-title {
 		margin: 0;
 		color: #aaa;
 	}
@@ -1929,37 +1909,10 @@
 
 
 
-/* @group References */
-
-	.reference-item {
-		background-color: transparent;
-		height: auto;
-		width: 13.8vw;
-		padding: 0;
-		max-width: 207px;
-	}
-	
-	.reference-item > img {
-		width: 13.8vw;
-		max-width: 207px;
-	}
-	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
-		
-		.reference-item, .reference-item > img  {
-			width: 34.4vw;
-		}
-		
-	}
-
-/* @end */
-
-
-
 /* @group Testimonials */
 
 	.iostestimonials-item {
-		flex-basis: 40vw;
+		flex-basis: 30vw;
 	}	
 	
 	.iostestimonials-picture img {
