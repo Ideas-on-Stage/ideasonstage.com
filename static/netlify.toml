@@ -212,6 +212,6 @@ force			= true
 # 2024-07-23
 [[redirects]]
 from			= "https://www.ideasonstage.com/business-presentation-revolution/book/*"
-to				= "https://www.ideasonstage.com/resources/books/confident-presenter-book/:splat"
+to				= "https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/:splat"
 status			= 301
 force			= true
