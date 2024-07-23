@@ -208,3 +208,10 @@ from			= "https://www.ideasonstage.com/resources/confident-presenter-book/"
 to				= "https://www.ideasonstage.com/resources/books/confident-presenter-book/"
 status			= 301
 force			= true
+
+# 2024-07-23
+[[redirects]]
+from			= "https://www.ideasonstage.com/business-presentation-revolution/book/*"
+to				= "https://www.ideasonstage.com/resources/books/confident-presenter-book/:splat"
+status			= 301
+force			= true
