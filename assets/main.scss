@@ -1984,7 +1984,10 @@
 		background-color: #222;
 		color: #bbb;
 	}
-
+	.footer a {
+		color: var(--color-lightgray);
+	}
+	
 	.footer a:hover {
 		color: var(--color-primary);
 	}	
@@ -2008,6 +2011,7 @@
 	}
 	
 	.footer-social {
+		color: var(--color-darkgray);
 		background-color: #ddd;
 		border-radius: 50%;
 		width: 1.5em;
