@@ -649,7 +649,7 @@
 
 	/* wrapper from main page content, with nice left and right margins */
 	.layout-content {
-		margin: var(--module-row-gap) auto;
+		margin: var(--module-row-gap) auto; /* use auto to center div on page */
 		padding: 2vw 0;
 		width: 80vw;
 		max-width: 1200px; /* prevents text area from getting unpleasantly wide */
@@ -657,7 +657,7 @@
 	
 	/* use to align menubar, footer, etc. on content */
 	.layout-content-width {
-		margin: 0 auto;
+		margin: 0 auto; /* use auto to center div on page */
 		padding: 0;
 		width: 80vw;
 		max-width: 1200px; /* prevents text area from getting unpleasantly wide */
@@ -665,7 +665,7 @@
 	
 	/* use for narrow content such as forms */
 	.layout-content-narrow {
-		margin: 0 auto;
+		margin: 0 auto; /* use auto to center div on page */
 		padding: 0;
 		width: 50vw;
 		max-width: 800px; /* prevents text area from getting unpleasantly wide */
@@ -717,31 +717,31 @@
 	.layout-module {
 		display: flex;
 		height: var(--module-height);
-		width: 100%;
+		width: calc(100% - 0px);
 	}
 	
 	/* Or use this to create a half width module div */
 	.layout-module-half {
 		display: flex;
 		flex-direction: column;
-		width: calc((100% - var(--module-column-gap)) / 2);
+		width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
 	}
 	
 	/* full screen layout module */
 	.layout-module-screen-full {
 		height: calc(100vh - var(--menubar-height));
-		width: 100%;
+		width: calc(100% - 0px);
 	}
 	
 	/* hero layout module */
 	.layout-module-hero {
 		height: var(--hero-height);
-		width: 100%;
+		width: calc(100% - 0px);
 	}
 	
 	/* Enclose modules in a layout-module-group div to have a gap between them */		
 	.layout-module-group {
-		width: calc(100%);
+		width: calc(100% - 0px);
 		display: flex;
 		flex-direction: row; /* to display half modules side by side */
 		flex-wrap: wrap; /* to create additional rows if necessary */
@@ -799,7 +799,6 @@
 		height: 50%; /* without this, image size can overflow from module */
 		width: 100%;
 	}
-	
 	.layout-module-column-image img {	
 		height: 100%;
 		width: 100%;
@@ -813,20 +812,18 @@
 		height: inherit;
 		width: inherit;
 	}
-	
 	.layout-module-layer > img {
 		height: inherit;
 		width: 100%;
 		object-fit: cover;
-	}
-	
+	}	
 	.layout-module-half .layout-module-layer {
 		/* half module layers have a width of 50% */
 		width: 50%;
 	}
 
 	.layout-module-group .layout-module-half .layout-module-layer {
-		width: calc((100% - var(--module-column-gap) * 3) / 2);
+		width: calc( ( 100% - var(--module-column-gap) * 3 ) / 2);
 	}
 	
 	.layout-module .layout-module-layer,

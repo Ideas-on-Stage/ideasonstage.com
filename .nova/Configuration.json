@@ -8,6 +8,7 @@
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
     "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/partials\/inserts\/module-half-text-picture.html",
     "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/partials\/b\/page-content.html"
   ],
   "workspace.color" : 1
