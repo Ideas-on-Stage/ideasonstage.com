@@ -649,7 +649,7 @@
 
 	/* wrapper from main page content, with nice left and right margins */
 	.layout-content {
-		margin: var(--module-row-gap) calc( ( 100% - 80vw ) / 2);
+		margin: var(--module-row-gap) auto;
 		padding: 2vw 0;
 		width: 80vw;
 		max-width: 1200px; /* prevents text area from getting unpleasantly wide */
@@ -657,7 +657,7 @@
 	
 	/* use to align menubar, footer, etc. on content */
 	.layout-content-width {
-		margin: 0 calc( ( 100% - 80vw ) / 2);
+		margin: 0 auto;
 		padding: 0;
 		width: 80vw;
 		max-width: 1200px; /* prevents text area from getting unpleasantly wide */
@@ -665,7 +665,7 @@
 	
 	/* use for narrow content such as forms */
 	.layout-content-narrow {
-		margin: 0 calc( ( 100% - 50vw ) / 2);
+		margin: 0 auto;
 		padding: 0;
 		width: 50vw;
 		max-width: 800px; /* prevents text area from getting unpleasantly wide */
@@ -677,20 +677,20 @@
 			margin: var(--module-ts-row-gap) var(--module-ts-column-gap);
 			padding: 4vw 0;
 			width: calc(100% - var(--module-ts-column-gap) * 2);
-			max-width: 100%;
+			max-width: calc(100% - var(--module-ts-column-gap) * 2);
 		}
 		
 		.layout-content-width {
 			margin: 0 var(--module-ts-column-gap);
 			width: calc(100% - var(--module-ts-column-gap) * 2);
-			max-width: 100%;
+			max-width: calc(100% - var(--module-ts-column-gap) * 2);
 		}
 		
 		/* make the narrow content look nice in small screens */
 		.layout-content-narrow {
 			margin: 0 var(--module-ts-column-gap);
 			width: calc(100% - var(--module-ts-column-gap) * 2 );
-			width: calc(100% - var(--module-ts-column-gap) * 2 );
+			max-width: calc(100% - var(--module-ts-column-gap) * 2 );
 		}
 	}
 	

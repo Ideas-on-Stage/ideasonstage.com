@@ -3,10 +3,12 @@
 
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
-    "scss"
+    "scss",
+    "html"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/partials\/b\/page-content.html"
   ],
   "workspace.color" : 1
 }

@@ -330,7 +330,7 @@ title 					= "Ideas on Stage"
 ################################
 
 [languages.fr]
-	languageName	= "Français"
+	languageName	= "French"
 	languageCode	= "fr"
 	contentDir		= "content/fr"
 	weight			= "2"
