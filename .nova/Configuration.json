@@ -4,11 +4,13 @@
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
     "html",
-    "scss"
+    "scss",
+    "markdown"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
     "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/training\/list.html",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/guides\/guide-ultime-prise-de-parole-en-public\/index.md"
   ],
   "workspace.color" : 1
 }

@@ -941,12 +941,6 @@
 		align-content: stretch;
 	}
 	
-	.layout-shortcode-child {
-		max-width: 100%;
-		flex-grow: 0;
-		flex-shrink: 0;
-	}
-	
 	.layout-shortcode-img {
 		padding: 0;
 		margin: 0 -2vw;
@@ -976,12 +970,6 @@
 		.layout-shortcode-column {
 			padding: 2vw 4vw; /* make it wider than content so background is full width */
 			margin: 0 -4vw; /* but pad content so it stays aligned */
-		}
-		
-		.layout-shortcode-child {
-			flex-grow: 0;
-			flex-shrink: 0;
-			padding: 0;
 		}
 	}
 	
@@ -1076,16 +1064,14 @@
 		padding: 0;
 		max-height: 100%;
 		max-width: 100%;
-	}
-	.flex-parent-row .flex-child {
-		height: 100%; /* supposed to prevent pics from stretching vertically, but to check */
+		height: auto;
 	}
 	.flex-child img {
 		margin: 0;
 		padding: 0;
 		width: 100%;
-		height: 100%;
-		object-fit: cover;
+		height: auto;
+		object-fit: contain;
 	}
 	
 	.flex-child-scroll {
@@ -1137,7 +1123,7 @@
 			width: calc(var(--module-12c-width) * 8 + var(--module-column-gap) * 7);
 		}
 		.flex-big-gap .flex-child-67p {
-			width: calc((100% - var(--module-big-gap)) / 3 * 2 );
+			width: calc( 67% - ( var(--module-big-gap) /2) );
 		}
 		
 		/* flex child constrained to 60% of available space */
@@ -1148,7 +1134,7 @@
 			width: calc(var(--module-5c-width) * 3 + var(--module-column-gap) * 2);
 		}
 		.flex-big-gap .flex-child-60p {
-			width: calc((100% - var(--module-big-gap)) / 5 * 3 );
+			width: calc( 60% - ( var(--module-big-gap) /2) );
 		}
 		
 		/* flex child constrained to 50% of available space */
@@ -1168,7 +1154,7 @@
 			width: calc(var(--module-5c-width) * 2 + var(--module-column-gap) * 1);
 		}		
 		.flex-big-gap .flex-child-40p {
-			width: calc((100% - var(--module-big-gap)) / 5 * 2 );
+			width: calc( 40% - ( var(--module-big-gap) /2) );
 		}
 		
 		/* flex child constrained to 1/3 of available space */
@@ -1179,7 +1165,7 @@
 			width: calc(var(--module-12c-width) * 4 + var(--module-column-gap) * 3);
 		}
 		.flex-big-gap .flex-child-33p {
-			width: calc((100% - var(--module-big-gap)) / 3 );
+			width: calc( 33% - ( var(--module-big-gap) /2) );
 		}
 		
 		.flex-child-25p {
