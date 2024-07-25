@@ -1,9 +1,7 @@
 {{ define "main" }}
 	{{ "<!-- team:list.html:main:start -->" | safeHTML }}
+	{{ partial "b/page-content-home.html" . }}
 	<section id="team-members">
-		<div class="style-text-intro">
-			{{ partial "page-content.html" . }}
-		</div>
 		<div class="layout-content">
 		 	<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-justify-start flex-gap">
 				{{- range .Pages.ByWeight }}

@@ -4,13 +4,13 @@
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
     "html",
-    "scss",
-    "plaintext"
+    "scss"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
     "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/training\/list.html",
     "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/themes\/hugo-theme-korporate\/readme.txt"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/index.html",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/references\/list.html"
   ],
   "workspace.color" : 1
 }
