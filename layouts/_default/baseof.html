@@ -11,17 +11,17 @@
 	
 	<body id="page-top" class="layout-page">
 		{{ partial "page-nav.html" . }}
-		<main role="main">
+		<main id="main" role="main">
 			{{ block "main" . }}
 				{{ partial "b/page-title.html" . }}
 				{{ partial "b/page-breadcrumbs.html" . }}
 				{{ partial "b/page-content.html" . }}
 				{{/* <!-- can use page specific main content, for example guides --> */}}
 			{{ end }}
+			<aside class="aside">
+				{{ partial "page-contact.html" . }}
+			</aside>
 		</main>
-		<aside class="aside">
-			{{ partial "page-contact.html" . }}
-		</aside>
 		<footer class="footer">
 			{{ partial "page-footer.html" . }}
 		</footer>

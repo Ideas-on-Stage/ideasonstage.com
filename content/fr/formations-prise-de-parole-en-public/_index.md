@@ -14,7 +14,7 @@ blocks:
   datafilelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
 - type: "page-content"
 - type: "data-module-list"
-  datafilelist: [ "guidepublicspeaking", "guideremotepresentations"]  
+  datafilelist: [ "guidepublicspeaking", "guideremotepresentations" ]
 
 sidebar:
   title: "Liste des formations"

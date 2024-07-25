@@ -159,7 +159,6 @@
 	#sidebar li							{ font-size: 1em;		}
 	#sidebar p							{ font-size: 1em;		}
 	#sidebar a							{ font-size: 1em;		}
-	
 	/* adjust for small tall smartphone screens */
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		body, a, blockquote 			{ font-size: 4vw;		}
@@ -270,7 +269,7 @@
 	li a {
 		border-bottom: dotted 1px var(--color-link-hover);
 	}
-	
+		
 	time {
 		color: var(--color-time);
 	}
@@ -648,8 +647,8 @@
 
 	/* wrapper from main page content, with nice left and right margins */
 	.layout-content {
-		margin: 4vw calc( ( 100% - 80vw ) / 2);
-		padding: 0;
+		margin: var(--module-row-gap) calc( ( 100% - 80vw ) / 2);
+		padding: 2vw 0;
 		width: 80vw;
 		max-width: 1200px; /* prevents text area from getting unpleasantly wide */
 	}
@@ -664,7 +663,7 @@
 	
 	/* use for narrow content such as forms */
 	.layout-content-narrow {
-		margin: 0 auto;
+		margin: 0 calc( ( 100% - 50vw ) / 2);
 		padding: 0;
 		width: 50vw;
 		max-width: 800px; /* prevents text area from getting unpleasantly wide */
@@ -673,22 +672,24 @@
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		
 		.layout-content {
-			margin: 8vw var(--module-ts-column-gap);
-			padding: 0;
+			margin: var(--module-ts-row-gap) var(--module-ts-column-gap);
+			padding: 4vw 0;
 			width: calc(100% - var(--module-ts-column-gap) * 2);
+			max-width: 100%;
 		}
 		
 		.layout-content-width {
 			margin: 0 var(--module-ts-column-gap);
-			padding: 0;
 			width: calc(100% - var(--module-ts-column-gap) * 2);
+			max-width: 100%;
 		}
 		
 		/* make the narrow content look nice in small screens */
 		.layout-content-narrow {
-			padding: 0;
-			width: calc(100%);
-		}		
+			margin: 0 var(--module-ts-column-gap);
+			width: calc(100% - var(--module-ts-column-gap) * 2 );
+			width: calc(100% - var(--module-ts-column-gap) * 2 );
+		}
 	}
 	
 /* @end */
@@ -748,18 +749,8 @@
 		gap: var(--module-row-gap) var(--module-column-gap);
 	}
 	
-	.layout-module-group-nomargin {
+	.layout-module-group-norowgap {
 		margin: 0;
-	}
-	
-	.layout-module-group-nogap {
-		width: calc(100% - 0);
-		display: flex;
-		flex-direction: row; /* to display half modules side by side */
-		flex-wrap: wrap; /* to create additional rows if necessary */
-		margin: 0; /* to create a layout-module-group without top and bottom margin */
-		padding: 0;
-		gap: 0;
 	}
 	
 	/* use to create module div with pic on left, text on right */
@@ -775,9 +766,9 @@
 	.layout-module-row-image {
 		height: 100%;
 		width: 64%;
-	}
-	
+	}	
 	.layout-module-row-image img {
+		display: block;
 		height: 100%;
 		width: 100%;
 		object-fit: cover;
@@ -849,6 +840,11 @@
 	.layout-module .layout-module-layer,
 	.layout-module-half .layout-module-layer {
 		height: var(--module-height);
+	}
+	
+	/* remove gap for module right after title */
+	.layout-module-title + .layout-module, {
+		margin-top: 0;
 	}
 	
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
@@ -1067,6 +1063,7 @@
 		height: auto;
 	}
 	.flex-child img {
+		display: block; /* to prevent line height from being added to div height */
 		margin: 0;
 		padding: 0;
 		width: 100%;
@@ -1104,12 +1101,12 @@
 		
 		/* flex child constrained to 60% of available space */
 		.flex-child-100p {
-			width: 100%;
+			width: calc(100% - 0);
 		}
 		
 		/* flex child constrained to 60% of available space */
 		.flex-child-80p {
-			width: 80%;
+			width: calc(80% - 0);
 		}
 		.flex-gap .flex-child-80p {
 			width: calc(var(--module-5c-width) * 4 + var(--module-column-gap) * 3);
@@ -1128,7 +1125,7 @@
 		
 		/* flex child constrained to 60% of available space */
 		.flex-child-60p {
-			width: 60%;
+			width: calc(60% - 0);
 		}
 		.flex-gap .flex-child-60p {
 			width: calc(var(--module-5c-width) * 3 + var(--module-column-gap) * 2);
@@ -1139,7 +1136,7 @@
 		
 		/* flex child constrained to 50% of available space */
 		.flex-child-50p {
-			width: 50%; /* start at 60% width */
+			width: calc(50% - 0); /* start at 60% width */
 		}
 		.flex-gap .flex-child-50p {
 			width: calc(var(--module-12c-width) * 6 + var(--module-column-gap) * 5);
@@ -1147,7 +1144,7 @@
 		
 		/* flex child constrained to 40% of available space */
 		.flex-child-40p {
-			width: 40%;
+			width: calc(40% - 0);
 			box-sizing: border-box;
 		}
 		.flex-gap .flex-child-40p {
@@ -1169,14 +1166,14 @@
 		}
 		
 		.flex-child-25p {
-			width: 25%;
+			width: calc(25% - 0);
 		}
 		.flex-gap .flex-child-25p {
 			width: calc(var(--module-12c-width) * 3 + var(--module-column-gap) * 2);
 		}
 		
 		.flex-child-20p {
-			width: 20%;
+			width: calc(20% - 0);
 		}
 		.flex-gap .flex-child-20p {
 			width: calc(var(--module-5c-width));
@@ -1200,12 +1197,12 @@
 		.flex-child-50p,
 		.flex-child-40p,
 		.flex-child-33p {
-			width: 100%;
+			width: calc(100% - 0);
 		}
 		
 		/* on ts screens, use a width of 50% for these sizes */
 		.flex-child-25p {
-			width: 50%;
+			width: calc(50%;)
 		}
 		.flex-gap .flex-child-25p {
 			width: calc((100% - var(--module-ts-column-gap)) / 2);
@@ -1432,7 +1429,8 @@
 	.text-white		{ color: #fff;					}
 	.text-gray		{ color: #888;					}
 	.text-dark		{ color: #222;					}
-
+	.text-red		{ color: red }
+	
 	/* padding helper classes */
 
 	.padding-huge		{ padding: 80px;		}
@@ -2196,10 +2194,9 @@
 	.revolution-box {
 		height: 100%;
 		flex: 1;
-		flex-basis:33%;
+		flex-basis: 33%;
 		width: 33%;
 		max-width: 50%;
-		//flex-basis: 33%;	/* start at 33% width */
 		min-width: 250px;
 		padding: 00.5em;
 		position: relative;
@@ -2210,7 +2207,6 @@
 	.revolution-thumb-frame {
 		height: 100%;
 		position:relative;
-		box-sizing: border-box;
 	}
 	
 	.revolution-thumb-frame:hover .revolution-overlay .revolution-overlay-title {
@@ -2224,6 +2220,7 @@
 	}
 	
 	.revolution-thumb img {
+		display: block; /* to prevent line height from being added to div height */
 		width: 100%;
 		height: 100%;
 	}

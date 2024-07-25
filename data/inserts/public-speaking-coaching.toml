@@ -1,8 +1,0 @@
-[fr]
-	title				= "Coaching prise de parole en public"
-	layout				= "inserts/module-half-text-picture.html"
-	style				=	"bg-black"
-	picture			= "/img/public-speaking-coaching.jpg"
-	url					= "/fr/coaching-prise-de-parole-en-public/"
-	description	= "Un coaching personnalisé pour vous exprimer sur scène avec aisance et sans stress."
-	button			= "EN SAVOIR PLUS"

@@ -7,12 +7,10 @@
 	</head>
 	<body id="page-top" class="layout-page">
 		{{ partial "page-nav.html" . }}
-		<main role="main">
+		<main id="main" role="main">
 			{{ range .Params.blocks }}
 				{{ if eq .type "data-cta" }}
 					{{ partial "b/cta" . }}
-				{{ else if eq .type "page-hero" }}
-				
 				{{ else if eq .type "data-module-list" }}
 					{{ partial "b/modules.html" . }}
 				{{ else if eq .type "data-reference-list" }}
@@ -21,6 +19,8 @@
 					{{ partial "b/testimonials.html" . }}
 				{{ else if eq .type "page-content" }}
 					{{ partial "b/page-content-home" page }}
+				{{ else if eq .type "page-hero" }}
+					{{ partial "b/page-hero" page }}		
 				{{ else if eq .type "page-list" }}
 					{{ partial "b/page-list" page }}
 				{{ else if eq .type "page-title" }}
@@ -31,12 +31,10 @@
 					<p>Unknown block type</p>
 				{{ end }}
 			{{ end }}
+			<aside class="aside">
+				{{ partial "page-contact.html" . }}
+			</aside>
 		</main>
-		<aside class="aside">
-			{{ partial "page-contact.html" . }}
-			{{ if eq .Site.Params.map.enable true }}
-			{{ end }}
-		</aside>
 		<footer class="footer">
 			{{ partial "page-footer.html" . }}
 		</footer class="footer">

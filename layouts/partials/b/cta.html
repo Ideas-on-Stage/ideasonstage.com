@@ -1,4 +1,4 @@
-{{ "<!-- partials:b/cta.html:start -->" | safeHTML }}
+{{ "<!-- partials:b/page-cta.html:start -->" | safeHTML }}
 {{ with .datafile }}
 	{{ $data := index site.Data.cta . }}
 	{{ if $data }}
@@ -36,4 +36,4 @@
 		{{ end }}
 	{{ end }}
 {{ end }}	
-{{ "<!-- partials:b/cta.html:end -->" | safeHTML }}
+{{ "<!-- partials:b/page-cta.html:end -->" | safeHTML }}

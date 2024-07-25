@@ -1,7 +1,8 @@
-{{ define "hero" }}
-	{{ partial "page-hero.html" . }}
+{{ define "main" }}
+	{{ "<!-- revolution:list.html:start -->" | safeHTML }}
+	{{ partial "b/page-title.html" . }}
 	{{ $content := .Content }}
-	{{ range first 1 .Pages }}
+	{{ range first 1 .Pages }}	
 		{{/* <!-- generate hero with newest video --> */}}
 		<section id="highlight">
 			<div class="layout-module-hero">
@@ -23,9 +24,6 @@
 			</div>
 		</section>
 	{{ end }}
-{{ end }}
-{{ define "main" }}
-	{{ "<!-- revolution:list.html:start -->" | safeHTML }}
 	<div class="layout-content">
 		<div class="flex-parent flex-parent-row paddingt-none paddingb-medium">
 			<div class="layout-module-column-text style-module-text ">	
@@ -53,7 +51,7 @@
 			{{ range (where .Site.RegularPages "Type" "revolution") }}
 				{{ if (eq ($scratch.Get "first") "true") }}
 					{{ $scratch.Set "first" "false" }}
-				{{ else }}				
+				{{ else }}
 					<a class="revolution-box" href="{{ .RelPermalink }}">
 						<div class="revolution-thumb-frame">
 							<div class="revolution-thumb">
@@ -74,7 +72,6 @@
 					</a>
 				{{ end }}
 			{{ end }}
-
 		</div>
 	</div>
 	
