@@ -1,4 +1,4 @@
-{{ "<!-- partials:page-subscribe.html -->" | safeHTML }}
+{{ "<!-- partials:b/page-subscribe.html:start -->" | safeHTML }}
 {{ if eq .Site.Params.subscribe.enable true }}
 	<section id="subscribe">
 	  <div class="layout-content">
@@ -35,4 +35,4 @@
 	  </div>	{{ "<!-- layout-content end -->" | safeHTML }}	    
 	</section>{{ "<!-- contact end -->" | safeHTML }}
 {{ end }}
-
+{{ "<!-- partials:b/page-subscribe.html:end -->" | safeHTML }}

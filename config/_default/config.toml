@@ -358,7 +358,7 @@ title 					= "Ideas on Stage"
 		[languages.fr.params.contact]
 			enable				= true
 			title				= "Contactez-nous"
-			subtitle			= "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
+			subtitle			= "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement. Votre demande restera confidentielle et votre email ne sera pas ajouté à une liste de distribution."
 			contactphone		= ""
 			buttonText			= "Envoyer"
 			wait				= "Veuillez patienter..."

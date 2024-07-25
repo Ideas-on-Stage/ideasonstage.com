@@ -3,12 +3,10 @@
 
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
-    "html",
-    "yaml"
+    "scss"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/training\/list.html",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/data\/cta\/public-speaking-training.yaml"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss"
   ],
   "workspace.color" : 1
 }

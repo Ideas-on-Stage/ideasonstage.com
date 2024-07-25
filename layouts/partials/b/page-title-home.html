@@ -1,7 +1,27 @@
 <header>
-	<div class="padding-small bg-dark centered">
+	<div class="bg-dark paddingt-tiny bg-dark centered">
 		<h1 class="text-base">
 			{{- with .Title }}{{ . | markdownify  }}{{ end -}}
 		</h1>
 	</div>
 </header>
+<aside>
+	<nav class="bg-dark">
+		<div class="layout-content-width">
+			<ul class="flex-parent flex-parent-row flex-big-gap flex-justify-center paddingv-tiny">
+			<!-- Languages Drop Down -->
+			{{ if .IsTranslated }}
+				{{ range .AllTranslations }}
+					{{ if ne (site.LanguageCode | lower) (.Lang | lower) -}}
+							<a href="{{ .Permalink }}">
+						<li class="flex-child button-secondary text-small">
+								{{ .Language.LanguageName }}
+						</li>
+							</a>
+					{{ end }}
+				{{ end }}
+			{{ end }}
+			</ul>
+		</div>
+	</nav>
+</aside>
