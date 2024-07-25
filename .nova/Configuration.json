@@ -3,10 +3,19 @@
 
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
-    "scss"
+    "scss",
+    "html",
+    "markdown"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/shortcodes\/call-to-action.html",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/training\/single.html",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/formation-storytelling\/index.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/formation-prise-de-parole-2-jours\/index.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/formation-prise-de-parole-1-jour\/index.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/formation-presentations-powerpoint\/index.md",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/formation-art-oratoire\/index.md"
   ],
   "workspace.color" : 1
 }

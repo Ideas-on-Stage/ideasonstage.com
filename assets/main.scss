@@ -19,8 +19,8 @@
 	--module-row-gap: {{ site.Params.layout.module.row_gap }};
 	--module-big-gap: {{ site.Params.layout.module.big_gap }};
 	
-	--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 );
-	--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 );
+	--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px );
+	--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px );
 
 	--module-ts-height: {{ site.Params.layout.module.ts.height }};
 	--module-ts-column-gap: {{ site.Params.layout.module.ts.column_gap }}; 
@@ -715,17 +715,16 @@
 	
 	/* Use this to create a full width module div */
 	.layout-module {
+		display: flex;
 		height: var(--module-height);
 		width: 100%;
 	}
 	
 	/* Or use this to create a half width module div */
 	.layout-module-half {
-		height: var(--module-height);			
-		width: calc((100% - var(--module-column-gap)) / 2);
 		display: flex;
 		flex-direction: column;
-		box-sizing: border-box;
+		width: calc((100% - var(--module-column-gap)) / 2);
 	}
 	
 	/* full screen layout module */
@@ -757,11 +756,7 @@
 	
 	/* use to create module div with pic on left, text on right */
 	.layout-module-row {
-		height: var(--module-height);
-		width: 100%;
-		display: flex;
 		flex-direction: row;
-		box-sizing: border-box;
 	}
 	
 	/* use to create inner div with the pic on left */
@@ -785,11 +780,7 @@
 	
 	/* use to create module div with text on top, image below */
 	.layout-module-column {
-		height: var(--module-height);
-		width: 100%;
-		display: flex;
 		flex-direction: column;
-		box-sizing: border-box;
 	}
 	
 	/* use to create inner div with text on top */
@@ -801,7 +792,6 @@
 		height: 50%;
 		width: 100%;
 		text-align: center;
-		box-sizing: border-box;
 	}
 	
 	/* use to create inner div with image on bottom */
@@ -868,7 +858,6 @@
 		}
 		
 		.layout-module-half {
-			height: var(--module-ts-height);
 			width: 100%; /* make half width modules full width on ts screens */
 		}
 		
@@ -914,39 +903,19 @@
 
 /* @group LAYOUT-SHORTCODE */
 	
-	.shortcode {
-		margin: 0 -2vw;
-		padding: 2vw;	
-	}
-	
 	.shortcode-certificate {
 		width: 256px;	
 	}
 	
 	.layout-shortcode {
-		display: flex;
 		margin: 0 -2vw;
 		padding: 2vw;
-		flex-wrap: wrap;
-		align-content: stretch;
-	}
-	
-	.layout-shortcode-column {
-		display: flex;
-		flex-direction: column;
-		margin: 0 -2vw;
-		padding: 2vw;
-		align-content: stretch;
 	}
 	
 	.layout-shortcode-img {
-		padding: 0;
 		margin: 0 -2vw;
-		line-height: 0.8;
-		border: 0;
-		box-sizing: border-box;
+		padding: 0;
 	}
-	
 	.layout-shortcode-img img {
 		width: 100%;
 		height: 100%;
@@ -955,20 +924,14 @@
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		
 		.layout-shortcode {
-			padding: 2vw 0;
-			margin: 0 0;
-			flex-direction: column;
+			margin: 0 -4vw;
+			padding: 4vw;
 		}
 		
 		.layout-shortcode-img {
-			padding: 0;
 			margin: 0 -4vw;
 		}
 		
-		.layout-shortcode-column {
-			padding: 2vw 4vw; /* make it wider than content so background is full width */
-			margin: 0 -4vw; /* but pad content so it stays aligned */
-		}
 	}
 	
 /* @end */
@@ -1105,23 +1068,23 @@
 		
 		/* flex child constrained to 60% of available space */
 		.flex-child-100p {
-			width: calc(100% - 0px);
+			width: calc(100% - 0.001px);
 		}
 		
 		/* flex child constrained to 60% of available space */
 		.flex-child-80p {
-			width: calc(80% - 0px);
+			width: calc(80% - 0.001px);
 		}
 		.flex-gap .flex-child-80p {
-			width: calc(var(--module-5c-width) * 4 + var(--module-column-gap) * 3 - 0.001px);
+			width: calc(var(--module-5c-width) * 4 + var(--module-column-gap) * 3 );
 		}
 		
 		/* flex child constrained to 2/3 of available space */
 		.flex-child-67p {
-			width: calc(100% / 12 * 8); /* start at 67% width */
+			width: calc(100% / 12 * 8 - 0.001px); /* start at 67% width */
 		}
 		.flex-gap .flex-child-67p {
-			width: calc(var(--module-12c-width) * 8 + var(--module-column-gap) * 7 - 0.001px);
+			width: calc(var(--module-12c-width) * 8 + var(--module-column-gap) * 7 );
 		}
 		.flex-big-gap .flex-child-67p {
 			width: calc( 67% - var(--module-big-gap) / 2 );
@@ -1129,10 +1092,10 @@
 		
 		/* flex child constrained to 60% of available space */
 		.flex-child-60p {
-			width: calc(60% - 0px);
+			width: calc(60% - 0.001px);
 		}
 		.flex-gap .flex-child-60p {
-			width: calc( var(--module-5c-width) * 3 + var(--module-column-gap) * 2 - 0.001px);
+			width: calc( var(--module-5c-width) * 3 + var(--module-column-gap) * 2 );
 		}
 		.flex-big-gap .flex-child-60p {
 			width: calc( 60% - var(--module-big-gap) / 2 );
@@ -1140,19 +1103,19 @@
 		
 		/* flex child constrained to 50% of available space */
 		.flex-child-50p {
-			width: calc(50% - 0px); /* start at 60% width */
+			width: calc(50% - 0.001px); /* start at 60% width */
 		}
 		.flex-gap .flex-child-50p {
-			width: calc(var(--module-12c-width) * 6 + var(--module-column-gap) * 5 - 0.001px);
+			width: calc(var(--module-12c-width) * 6 + var(--module-column-gap) * 5 );
 		}		
 		
 		/* flex child constrained to 40% of available space */
 		.flex-child-40p {
-			width: calc(40% - 0px);
+			width: calc(40% - 0.001px);
 			box-sizing: border-box;
 		}
 		.flex-gap .flex-child-40p {
-			width: calc(var(--module-5c-width) * 2 + var(--module-column-gap) * 1 - 0.001px);
+			width: calc(var(--module-5c-width) * 2 + var(--module-column-gap) * 1 );
 		}		
 		.flex-big-gap .flex-child-40p {
 			width: calc( 40% - var(--module-big-gap) / 2 );
@@ -1160,20 +1123,20 @@
 		
 		/* flex child constrained to 1/3 of available space */
 		.flex-child-33p {
-			width: calc( (100% / 3) - 0px );
+			width: calc( (100% / 3) - 0.001px );
 		}
 		.flex-gap .flex-child-33p {
-			width: calc(var(--module-12c-width) * 4 + var(--module-column-gap) * 3 - 0.001px);
+			width: calc(var(--module-12c-width) * 4 + var(--module-column-gap) * 3 );
 		}
 		.flex-big-gap .flex-child-33p {
 			width: calc( 33% - var(--module-big-gap) / 2 );
 		}
 		
 		.flex-child-25p {
-			width: calc(25% - 0px);
+			width: calc(25% - 0.001px);
 		}
 		.flex-gap .flex-child-25p {
-			width: calc(var(--module-12c-width) * 3 + var(--module-column-gap) * 2 - 0.001px);
+			width: calc(var(--module-12c-width) * 3 + var(--module-column-gap) * 2 );
 		}
 		
 		.flex-child-20p {
@@ -1184,10 +1147,10 @@
 		}
 		
 		.flex-child-16p {
-			width: calc( (100% / 6) - 0px); /* start at 1/6 width */
+			width: calc( (100% / 6) - 0.001px);
 		}
 		.flex-gap .flex-child-16p {
-			width: calc(var(--module-12c-width) * 2 + var(--module-column-gap) * 1 - 0.001px);
+			width: calc(var(--module-12c-width) * 2 + var(--module-column-gap) * 1 );
 		}
 				
 	}
@@ -1201,33 +1164,34 @@
 		.flex-child-50p,
 		.flex-child-40p,
 		.flex-child-33p {
-			width: calc(100% - 0px);
+			width: calc( 100% - 0.001px );
 		}
 		
 		/* on ts screens, use a width of 50% for these sizes */
 		.flex-child-25p {
-			width: calc(50% - 0px);
+			width: calc( 50% - 0.001px );
 		}
 		.flex-gap .flex-child-25p {
-			width: calc((100% - var(--module-ts-column-gap)) / 2 - 0.001px);
+			width: calc( ( 100% - var(--module-ts-column-gap) ) / 2 );
 		}
 		
+		/* on ts screens, use a width of 66% for these sizes */
 		.flex-child-80p {
-			width: calc(100% / 3 * 2 - 0px);
+			width: calc( 100% / 3 * 2 - 0.001px );
 		}
 		.flex-gap .flex-child-80p,
 		{
-			width: calc((var(--module-ts-12c-width) * 8 + var(--module-ts-column-gap) * 7) - 0.001px);
+			width: calc( var(--module-ts-12c-width) * 8 + var(--module-ts-column-gap) * 7 );
 		}
 		
 		/* on ts screens, use a width of 33% for these sizes */
 		.flex-child-20p,
 		.flex-child-16p {
-			width: calc(100% / 3 - 0px);
+			width: calc( 100% / 3 - 0.001px );
 		}
 		.flex-gap .flex-child-20p,
 		.flex-gap .flex-child-16p {
-			width: calc((var(--module-ts-12c-width) * 4 + var(--module-ts-column-gap) * 3) - 0.001px);
+			width: calc( var(--module-ts-12c-width) * 4 + var(--module-ts-column-gap) * 3 );
 		}
 		
 	}
@@ -1297,13 +1261,13 @@
 		flex-wrap: wrap;
 	}
 	
+	.flex-gap {
+		gap: var(--module-row-gap) var(--module-column-gap);
+	}
 	.flex-big-gap {
 		gap: var(--module-big-gap);
 	}
 	
-	.flex-gap {
-		gap: var(--module-row-gap) var(--module-column-gap);
-	}
 	
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		
@@ -1348,10 +1312,6 @@
 			padding-left: 0;
 			padding-top: 4vw;
 			padding-bottom: 2vw;
-		}
-		
-		.flex-child-youtube {
-			height: 52vw;
 		}
 		
 		.flex-gap {

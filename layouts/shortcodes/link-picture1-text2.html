@@ -1,9 +1,9 @@
 {{ "<!-- shortcodes:link-picture-1-text2.html:start -->" | safeHTML }}
 <div class="layout-shortcode flex-parent flex-parent-row flex-parent-column-ontall flex-gap marginv-medium {{ with .Params.style }}{{ . }}{{ end }}">
-	<div class="layout-shortcode-child flex-child flex-child-40p">
+	<div class="flex-child flex-child-40p">
 		{{ partial "e/link-picture.html" .Params }}
 	</div>
-	<div class="layout-shortcode-child flex-child flex-child-60p">
+	<div class="flex-child flex-child-60p">
 	    <a href="{{ .Params.link }}">
 	    	<h3 class="">{{ .Params.title }}</h3>
 	    </a>

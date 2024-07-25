@@ -1,5 +1,7 @@
 {{ define "main" }}
 	{{ "<!-- training:single.html:main:start -->" | safeHTML }}
+	{{ partial "b/page-title" . }}
+	{{ partial "b/page-breadcrumbs.html" . }}
 	<div class="layout-content">
 		<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-big-gap">
 			<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">

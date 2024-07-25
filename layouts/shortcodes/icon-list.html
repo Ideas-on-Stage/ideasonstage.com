@@ -1,13 +1,15 @@
 {{ "<!-- shortcodes:icon-list.html:start -->" | safeHTML }}
-<div class="layout-shortcode-column flex-gap {{ with .Params.style }}{{ . }}{{ end }}">
-	{{- if .Params.title }}
-	<div class="layout-shortcode-child">
-		{{ with .Params.title }}<h3 class="text-center">{{ . }}</h3>{{ end }}
-	</div>
-	{{- end }}
-	<div class="layout-shortcode-child">
-		<div class="flex-parent flex-parent-row flex-justify-center flex-gap">
-			{{ .Inner }}
+<div class="layout-shortcode {{ with .Params.style }}{{ . }}{{ end }}">
+	<div class="flex-parent flex-parent-column flex-gap">
+		{{- if .Params.title }}
+		<div class="flex-child">
+			{{ with .Params.title }}<h3 class="text-center">{{ . }}</h3>{{ end }}
+		</div>
+		{{- end }}
+		<div class="flex-child">
+			<div class="flex-parent flex-parent-row flex-justify-center flex-gap">
+				{{ .Inner }}
+			</div>
 		</div>
 	</div>
 </div>
