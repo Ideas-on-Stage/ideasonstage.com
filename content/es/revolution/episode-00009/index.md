@@ -1,14 +1,14 @@
-+++
-draft 		= "false"
-title 		= "Érase una vez una historia empresarial"
-date		= "2019-10-01"
-cast		= [ "Rose Bloomfield", "Pierre Morsa" ]
-description = "Te damos algunos consejos sobre cómo aplicar las técnicas de storytelling en tus presentaciones de negocios"
-translationKey  = "revolution/episode-00009"
+---
+draft: "false"
+title: "Érase una vez una historia empresarial"
+date: "2019-10-01"
+cast: [ "Rose Bloomfield", "Pierre Morsa" ]
+description: "Te damos algunos consejos sobre cómo aplicar las técnicas de storytelling en tus presentaciones de negocios"
+translationKey: "revolution/episode-00009"
 
-schema			= "VideoObject"
-embedurl			= "sQqx-u0LrO0"
-+++
+schema: "VideoObject"
+embedurl: "sQqx-u0LrO0"
+---
 
 {{< youtube sQqx-u0LrO0 >}} 
 

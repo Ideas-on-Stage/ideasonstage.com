@@ -1,10 +1,10 @@
-+++
-draft 			= false
-title 			= "Media Training"
-description		= "Media Training professionnel pour préparer les dirigeants à faire face à la caméra."
-picture			= "media-training.jpg"
-translationKey	= "public-speaking-coaching/media-training"
-+++
+---
+draft: false
+title: "Media Training"
+description: "Media Training professionnel pour préparer les dirigeants à faire face à la caméra."
+picture: "media-training.jpg"
+translationKey: "public-speaking-coaching/media-training"
+---
 
 ## Montrez au monde la meilleure version de vous-même
 

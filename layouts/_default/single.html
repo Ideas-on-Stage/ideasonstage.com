@@ -1,6 +1,30 @@
 {{ define "main" }}
 	{{ "<!-- _default:single.html:main:start -->" | safeHTML }}
-	{{ partial "page-inserts-top.html" . }}
-	{{ partial "page-content.html" . }}
+	{{ range page.Params.blocks }}
+		{{ if eq .type "data-cta" }}
+			{{ partial "b/cta" . }}
+		{{ else if eq .type "data-module-list" }}
+			{{ partial "b/modules.html" . }}
+		{{ else if eq .type "data-reference-list" }}
+			{{ partial "b/references.html" . }}
+		{{ else if eq .type "data-testimonial-list" }}
+			{{ partial "b/testimonials.html" . }}
+		{{ else if eq .type "page-breadcrumbs" }}
+			{{ partial "page-breadcrumbs.html" page }}
+		{{ else if eq .type "page-content" }}
+			{{ partial "b/page-content" page }}
+		{{ else if eq .type "page-hero" }}
+			{{ partial "b/page-hero" page }}
+		{{ else if eq .type "page-title" }}
+			{{ partial "b/page-title" page }}
+		{{ else if eq .type "site-location" }}
+			{{ partial "b/location.html" . }}
+		{{ else }}
+			<p>Unknown block type</p>
+		{{ end }}
+	{{ else }}
+		{{ partial "b/page-title" . }}
+		{{ partial "b/page-content.html" . }}
+	{{ end }}
 	{{ "<!-- _default:single.html:main:end -->" | safeHTML }}
 {{ end }}

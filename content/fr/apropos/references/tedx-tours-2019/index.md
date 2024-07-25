@@ -1,13 +1,12 @@
-+++
-draft			= false
-title			= "TEDx Tours 2019"
-description		= "Comment créer un événement TEDx inoubliable, avec Fabien Boutard, curateur de TEDx Tours"
-weight			= 1
-categories		= [ "Prise de parole", "Événements", "TEDx" ]
-picture			= "tedx-tours-2019-1.jpg"
-translationKey	= "client-success-stories/tedx-tours-2019"
-client			= "TEDx Tours"
-+++
+---
+draft: false
+title: "TEDx Tours 2019"
+description: "Comment créer un événement TEDx inoubliable, avec Fabien Boutard, curateur de TEDx Tours"
+categories: [ "Prise de parole", "Événements", "TEDx" ]
+picture: "tedx-tours-2019-1.jpg"
+translationKey: "client-success-stories/tedx-tours-2019"
+client: "TEDx Tours"
+---
 
 ## Comment créer un événement TEDx inoubliable, avec Fabien Boutard, curateur de TEDx Tours
 

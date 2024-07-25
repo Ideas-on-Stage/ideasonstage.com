@@ -1,19 +1,19 @@
-+++
-draft			= false
-title			= "Formation présentations PowerPoint"
-description 	= "Formation intra-entreprise pour apprendre à convaincre avec des visuels PowerPoint."
-url	 			= "/fr/formation-presentations-powerpoint/"
-type			= "training"
-format			= "Intra-entreprise"
-duration		= "7 h"
-price			= "3000 € HTVA"
-attendees		= "4 à 8 personnes"
-locations		= "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
+---
+draft: false
+title: "Formation présentations PowerPoint"
+description: "Formation intra-entreprise pour apprendre à convaincre avec des visuels PowerPoint."
+url: "/fr/formation-presentations-powerpoint/"
+type: "training"
+format: "Intra-entreprise"
+duration: "7 h"
+price: "3000 € HTVA"
+attendees: "4 à 8 personnes"
+locations: "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
 
-[contact]
-	title	= "Réservez une session de formation"
-	subtitle= "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
-+++  
+contact:
+    title: "Réservez une session de formation"
+    subtitle: "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
+---  
 
 PowerPoint est devenu tellement utilisé qu'il est devenu synonyme de présentation en entreprise. Cependant, il est souvent mal utilisé. Lors de cette formation, les participants apprendront ce qu'est une présentation PowerPoint efficace. Ils verront comment utiliser PowerPoint pour créer des diapositives qui vont clarifier et renforcer le discours.
 

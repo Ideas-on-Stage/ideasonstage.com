@@ -1,12 +1,12 @@
-+++
-draft			= false
-name			= "Phil Waknell"
-picture			= "phil-waknell.jpg"
-position	 	= "Chief Inspiration Officer"
-translationKey	= "team/phil-waknell"
-weight			= 110
-type			= "team"
-+++
+---
+draft: false
+name: "Phil Waknell"
+picture: "phil-waknell.jpg"
+position: "Chief Inspiration Officer"
+translationKey: "team/phil-waknell"
+weight: 110
+type: "team"
+---
 L’un des fondateurs d’Ideas on Stage, Phil Waknell est l’un des premiers spécialistes européens de l’art de présenter en entreprise.
 
 Phil intervient régulièrement pour HEC Paris Executive Education ainsi que de nombreuses conférences sur la communication des dirigeants, et il mène des cours de formation en français et en anglais, sa langue natale.

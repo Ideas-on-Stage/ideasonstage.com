@@ -1,12 +1,12 @@
-+++
-draft 			= false
-title 			= "La guía definitiva para hablar en público"
-description		= "Técnicas de oratoria, gestión del estrés, resolución de problemas frecuentes: cómo hablar en público con facilidad."
-categories		= [ "Hablar en Público" ]
-url 			= "/es/guia-definitiva-hablar-en-publico/"
-picture		 	= "public-speaking.jpg"
-summary			= "Esta guía te ofrece los consejos necesarios para hablar en público con éxito, ya sea en una reunión o frente a un público de miles de personas. Hablar en público es un ejercicio estresante para la mayoría de personas. ¿Cómo actuar? ¿Cuáles son los errores que debes evitar? Con esta guía, escrita por profesionaes en comunicación interpersonal, podrás aprender las técnicas necesarias para conseguir una comunicación oral efectiva, y controlar el estrés."
-+++
+---
+draft: false
+title: "La guía definitiva para hablar en público"
+description: "Técnicas de oratoria, gestión del estrés, resolución de problemas frecuentes: cómo hablar en público con facilidad."
+categories: [ "Hablar en Público" ]
+url: "/es/guia-definitiva-hablar-en-publico/"
+picture: "public-speaking.jpg"
+summary: "Esta guía te ofrece los consejos necesarios para hablar en público con éxito, ya sea en una reunión o frente a un público de miles de personas. Hablar en público es un ejercicio estresante para la mayoría de personas. ¿Cómo actuar? ¿Cuáles son los errores que debes evitar? Con esta guía, escrita por profesionaes en comunicación interpersonal, podrás aprender las técnicas necesarias para conseguir una comunicación oral efectiva, y controlar el estrés."
+---
 ## ¿Quiénes somos?
 Ideas on Stage es una empresa especializada en presentaciones de negocios. Hemos entrenado y formado a miles de ponentes. Tenemos una larga experiencia en la preparación de presentaciones estilo TED y TEDx con más de 300 ponentes preparados y docenas de eventos TEDx en Europa y Estados Unidos.
 

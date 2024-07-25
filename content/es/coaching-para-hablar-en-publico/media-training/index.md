@@ -1,10 +1,10 @@
-+++
-draft 			= false
-title 			= "Entrenamiento ante los medios"
-description		= "Entrenamiento y acompañamiento profesional para hablar en públcio en conferencias de prensa y entrevistas en los medios"
-picture			= "media-training.jpg"
-translationKey	= "public-speaking-coaching/media-training"
-+++
+---
+draft: false
+title: "Entrenamiento ante los medios"
+description: "Entrenamiento y acompañamiento profesional para hablar en públcio en conferencias de prensa y entrevistas en los medios"
+picture: "media-training.jpg"
+translationKey: "public-speaking-coaching/media-training"
+---
 
 ## Muéstrale al mundo tu mejor versión
 

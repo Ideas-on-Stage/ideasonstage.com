@@ -12,15 +12,9 @@
 	<body id="page-top" class="layout-page">
 		{{ partial "page-nav.html" . }}
 		<main role="main">
-			{{ block "hero" . }}
-				{{ partial "page-hero.html" . }}
-				{{/* <!-- can use page specific hero, for example to show a video --> */}}
-			{{ end }}
-			{{ partial "page-breadcrumbs.html" . }}
 			{{ block "main" . }}
-				{{ partial "page-inserts-top.html" . }}
-				{{ partial "page-content.html" . }}
-				{{ partial "page-inserts-bottom.html" . }}
+				{{ partial "b/page-title.html" . }}
+				{{ partial "b/page-content.html" . }}
 				{{/* <!-- can use page specific main content, for example guides --> */}}
 			{{ end }}
 		</main>

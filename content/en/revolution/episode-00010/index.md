@@ -1,14 +1,14 @@
-+++
-draft 		= "false"
-title 		= "4 Tempos"
-date		= "2019-11-05"
-cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description = "Monotony kills attention - and it is one of the most frequent complaints about presentations. How can we beat it, without sounding ridiculous? Welcome to the 4 Tempos, a simple tool to help you to add color to your key messages."
-translationKey  = "revolution/episode-00010"
+---
+draft: "false"
+title: "4 Tempos"
+date: "2019-11-05"
+cast: [ "Rose Bloomfield", "Michael Rickwood" ]
+description: "Monotony kills attention - and it is one of the most frequent complaints about presentations. How can we beat it, without sounding ridiculous? Welcome to the 4 Tempos, a simple tool to help you to add color to your key messages."
+translationKey: "revolution/episode-00010"
 
-schema			= "VideoObject"
-embedurl			= "QGvOGt-PkFs"
-+++
+schema: "VideoObject"
+embedurl: "QGvOGt-PkFs"
+---
 
 {{< youtube QGvOGt-PkFs >}}
 

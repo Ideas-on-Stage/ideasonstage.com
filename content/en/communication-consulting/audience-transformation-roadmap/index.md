@@ -1,10 +1,10 @@
-+++
-draft			= false
-title			= "The Audience Transformation Roadmap™"
-description		= "The Audience Transformation Roadmap™ is a simple and powerful tool created by Ideas on Stage to work out what transformations you need to make and what to say to achieve them."
-picture			= "ATR_english.jpeg"
-translationKey	= "communication-consulting/audience-transformation-roadmap"
-+++
+---
+draft: false
+title: "The Audience Transformation Roadmap™"
+description: "The Audience Transformation Roadmap™ is a simple and powerful tool created by Ideas on Stage to work out what transformations you need to make and what to say to achieve them."
+picture: "ATR_english.jpeg"
+translationKey: "communication-consulting/audience-transformation-roadmap"
+---
 
 Most people use presentations to share information, which is a terrible waste of everybody’s time because we forget most of what we hear very quickly. 
 

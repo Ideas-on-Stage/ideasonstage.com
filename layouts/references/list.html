@@ -1,32 +1,35 @@
 {{ define "main" }}
 	{{ "<!-- references:list.html:main:start -->" | safeHTML }}
-	{{ partial "home/references.html" . }}
+	{{ partial "b/references.html" .Params }}
 	<section id="references-details" class="bg-white">
-		<div class="layout-module-content">
-			{{- $.Scratch.Set "count" 0 }}
+		<div class="layout-content">
+			{{ $.Scratch.Set "count" 0 }}
 			{{ $languageshort := substr site.LanguageCode 0 2 }}
-			{{ range .Site.Data.references }}
-				{{ if eq true .showonrefs }}
-					{{ if eq $languageshort .language }}
-						{{ $.Scratch.Add "count" 1 }}
-						<div class="flex-parent flex-parent-row flex-align-start flex-gap margint-medium">
-							<div class="flex-child flex-child-20p border">
-								<img src="/img/logos/{{ .logo }}">
+			{{ range .Params.datafilelist }}
+				{{ $data := index site.Data.references . }}
+				{{ if $data }}
+					{{ $localizeddata := index $data site.LanguageCode }}
+					{{ if $localizeddata }}
+						{{ if $localizeddata.description }}
+							<div class="flex-parent flex-parent-row flex-align-start flex-gap margint-medium">
+								<div class="flex-child flex-child-20p border">
+									<img src="/img/logos/{{ $localizeddata.logo }}">
+								</div>
+								<div class="flex-child flex-child-80p">
+									<h2>{{ $localizeddata.client }}</h2>
+									<p><b>{{ $localizeddata.title | markdownify }}</b></p>
+									{{ with $localizeddata.description }}
+										<p>{{ . | markdownify }}</p>
+									{{ end }}
+									{{ with $localizeddata.imgcontent }}
+										<img src="{{ . }}">
+									{{ end }}
+									{{ with $localizeddata.description2 }}
+										<p>{{ . | markdownify }}</p>
+									{{ end }}
+								</div>
 							</div>
-							<div class="flex-child flex-child-80p">
-								<h2>{{ .client }}</h2>
-								<p><b>{{ .title | markdownify }}</b></p>
-								{{ with .description }}
-									<p>{{ . | markdownify }}</p>
-								{{ end }}
-								{{ with .imgcontent }}
-									<img src="{{ . }}">
-								{{ end }}
-								{{ with .description2 }}
-									<p>{{ . | markdownify }}</p>
-								{{ end }}
-							</div>
-						</div>
+						{{ end }}
 					{{ end }}
 				{{ end }}
 			{{ end }}

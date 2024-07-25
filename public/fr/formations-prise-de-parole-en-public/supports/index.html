@@ -97,7 +97,7 @@
 	<body id="page-top" class="layout-page">
 		<!-- partials:page-nav.html:start -->
 <nav class="iosnavbar">
-	<div class="layout-module-content-width">
+	<div class="layout-content-width">
 		
 		
 		<div class="iosnavbar-brand">
@@ -189,12 +189,9 @@
 <!-- partials:page-nav.html:end -->
 		<main role="main">
 			
-				<!-- partials:page-hero.html:start -->
-
-
-
-
+	<!-- _default:list.html:main:start -->
 	
+		<!-- partials:page-hero.html:start -->
 		<header id="title" class="layout-module-title">
 			<div class="layout-page-title style-page-title">
 				<h1>
@@ -202,16 +199,13 @@
 				</h1>
 			</div>
 		</header>
-	
-		
+			
 
 <!-- partials:page-hero.html:end -->
 
-				
-			
-			<!-- partials/revolution/breadcrumbs.html --> 
+		<!-- partials/revolution/breadcrumbs.html --> 
 <aside id="breadcrumbs" class="layout-sticky">
-	<div class="layout-module-content-width">
+	<div class="layout-content-width">
 	<!-- partials/revolution/breadcrumbs.html -->
 		<ol>
 			
@@ -226,23 +220,14 @@
 		</ol>
 	</div>
 </aside>
-			
-	<!-- _default:list.html:main:start -->
-	<!-- partials:page-page-page-inserts-top.html:start -->
-
-	<!-- no top inserts -->
-
-<!-- partials:page-page-page-inserts-top.html:end -->
-	
-	<!-- partials:page-content.html:start -->
-<div class="layout-module-content">
+		<!-- partials:page-content.html:start -->
+<div class="layout-content">
 		<section id="content-main"><p>Cette page vous permet d&rsquo;accéder aux différents supports de formation. Vous pouvez cliquer sur les liens ci-dessous pour y accéder.</p>
 <p><a href="/training/cahier-exercices-ideas-on-stage.pdf">Vous pouvez télécharger la dernière version du cahier d&rsquo;exercices au format pdf en cliquant sur ce lien.</a></p>
  
 		</section>
 </div>
 <!-- partials:page-content.html:end -->
-	
 		<!-- partials:page-list.html:start -->
 <section id="content-list" class="layout-module-group">
 	
@@ -253,7 +238,7 @@
 				
 					
 					<!-- partials:inserts:link-picture2-text1.html:start -->
-<div class="layout-module-content ">
+<div class="layout-content ">
 	<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-big-gap">
     	<div class="flex-child flex-child-60p">
 			<a href="/fr/formations-prise-de-parole-en-public/supports/art-oratoire/" class="imagelink">
@@ -279,7 +264,7 @@
 				
 					
 					<!-- partials:inserts:link-picture2-text1.html:start -->
-<div class="layout-module-content ">
+<div class="layout-content ">
 	<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-big-gap">
     	<div class="flex-child flex-child-60p">
 			<a href="/fr/formations-prise-de-parole-en-public/supports/storytelling/" class="imagelink">
@@ -305,7 +290,7 @@
 				
 					
 					<!-- partials:inserts:link-picture2-text1.html:start -->
-<div class="layout-module-content ">
+<div class="layout-content ">
 	<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-big-gap">
     	<div class="flex-child flex-child-60p">
 			<a href="/fr/formations-prise-de-parole-en-public/supports/visuels-powerpoint/" class="imagelink">
@@ -343,45 +328,45 @@
 	<div class="iosnavbar-buffer">
 		<!-- insert gap to avoid contact text covered by nav bar -->	  
 	</div>
-	<div class="layout-module-content">
-		<div class="centered style-module-text">
+	<div class="layout-content">
+		<div class="flex-parent flex-parent-column flex-align-center">
 			<h2 class="section-heading">
 				
 					Contactez-nous
 				
 			</h2>
-			<p>
+			<p class="text-center">
 				
 					Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement.
 				
 			</p>
 			
 		</div>
-	</div>
-	<div class="layout-module-content-narrow">
-		<form action="/fr/formations-prise-de-parole-en-public/supports/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-			<div class="iosform-group">
-				<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/fr/formations-prise-de-parole-en-public/supports/">
-			</div>
-			<div class="iosform-group">
-				<input type="text" id="fname" name="name" class="iosform-control" placeholder="Votre nom complet *" oninvalid="alert('Veuillez entrer votre nom complet.');" required>
-			</div>  
-			<div class="iosform-group">
-				<input type="email" id="email" name="email" class="iosform-control" placeholder="Votre email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entrer une adresse e-mail valide.');" required>
-			</div>
-			<div class="iosform-group">  
-				<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Votre téléphone (optionnel)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Veuillez entrer un numéro de téléphone valide.');">  
-			</div>
-			<div class="iosform-group">  
-				<input type="text" id="country" name="country" class="iosform-control" placeholder="Votre pays de résidence (optionnel)" oninvalid="alert('Veuillez entrer votre pays de résidence.');">
-			</div>
-			<div class="iosform-group">  
-				<textarea id="message" name="message" class="iosform-control" placeholder="Votre message *" oninvalid="alert('S\u0026rsquo;il vous plaît entrer un message.');" required></textarea>  	
-			</div>
-			<div class="iosform-button">
-				<input type="submit" id="contactsubmit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">	
-			</div>
-		</form>
+		<div class="layout-content-narrow">
+			<form action="/fr/formations-prise-de-parole-en-public/supports/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+				<div class="iosform-group">
+					<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/fr/formations-prise-de-parole-en-public/supports/">
+				</div>
+				<div class="iosform-group">
+					<input type="text" id="fname" name="name" class="iosform-control" placeholder="Votre nom complet *" oninvalid="alert('Veuillez entrer votre nom complet.');" required>
+				</div>  
+				<div class="iosform-group">
+					<input type="email" id="email" name="email" class="iosform-control" placeholder="Votre email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entrer une adresse e-mail valide.');" required>
+				</div>
+				<div class="iosform-group">
+					<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Votre téléphone (optionnel)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Veuillez entrer un numéro de téléphone valide.');">  
+				</div>
+				<div class="iosform-group">
+					<input type="text" id="country" name="country" class="iosform-control" placeholder="Votre pays de résidence (optionnel)" oninvalid="alert('Veuillez entrer votre pays de résidence.');">
+				</div>
+				<div class="iosform-group">
+					<textarea id="message" name="message" class="iosform-control" placeholder="Votre message *" oninvalid="alert('S\u0026rsquo;il vous plaît entrer un message.');" required></textarea>  	
+				</div>
+				<div class="iosform-button">
+					<input type="submit" id="contactsubmit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">	
+				</div>
+			</form>
+		</div>
 	</div>
 </section><!-- contact end -->
 </div>
@@ -390,7 +375,7 @@
 		</aside>
 		<footer class="footer">
 			<!-- partials:page-footer.html:start -->
-<div class="layout-module-content marginv-none paddingv-medium">
+<div class="layout-content marginv-none paddingv-medium">
 	<div class= "flex-parent flex-parent-row flex-gap">
 		
 			<div class="flex-child flex-child-25p">

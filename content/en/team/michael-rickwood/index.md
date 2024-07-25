@@ -1,11 +1,11 @@
-+++
-draft			= false
-name			= "Michael Rickwood"
-picture			= "michael-rickwood.jpg"
-position	 	= "Chief Coaching Officer"
-translationKey	= "team/michael-rickwood"
-weight			= 120
-+++
+---
+draft: false
+name: "Michael Rickwood"
+picture: "michael-rickwood.jpg"
+position: "Chief Coaching Officer"
+translationKey: "team/michael-rickwood"
+weight: 120
+---
 Initially a classically trained actor with 12 years of experience on stage and screen, Michael swapped his passion for acting in favour of business communication and design in 2011. 
 
 Today, apart from consulting, training and coaching executives from all sectors and industries all over the world including Engie South East Asia in Singapore, French Search Engine Qwant in Paris and the World Bank in Washington DC, Michael also coaches speakers at hugely successful TEDx and WikiStage conferences.

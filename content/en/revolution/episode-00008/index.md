@@ -1,14 +1,14 @@
-+++
-draft 		= "false"
-title 		= "Amazing Events"
-date		= "2019-09-09"
-cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description = "Three tips to create amazing business events."
-translationKey  = "revolution/episode-00008"
+---
+draft: "false"
+title: "Amazing Events"
+date: "2019-09-09"
+cast: [ "Rose Bloomfield", "Michael Rickwood" ]
+description: "Three tips to create amazing business events."
+translationKey: "revolution/episode-00008"
 
-schema			= "VideoObject"
-embedurl			= "LsqWSd_lXxs"
-+++
+schema: "VideoObject"
+embedurl: "LsqWSd_lXxs"
+---
 
 {{< youtube LsqWSd_lXxs >}}
 

@@ -1,2 +1,0 @@
-{{- $data := index site.Data.schema.addresses . -}}
-{ "@type": "{{ $data.type }}", "addressCountry": "{{ $data.addresscountry }}", "addressLocality": "{{ $data.addresslocality }}", "addressRegion": "{{ $data.addressregion }}", "postalCode": "{{ $data.postalcode }}", "streetAddress": "{{ $data.streetaddress }}", "telephone": "{{ $data.telephone }}" } 

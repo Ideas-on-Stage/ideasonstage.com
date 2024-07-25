@@ -1,11 +1,11 @@
-+++
-draft			= false
-name			= "Edoardo Sala"
-picture			= "edoardo-sala.jpg"
-position 		= "Italy Presentation Director"
-translationKey	= "team/edoardo-sala"
-weight			= 180
-+++
+---
+draft: false
+name: "Edoardo Sala"
+picture: "edoardo-sala.jpg"
+position: "Italy Presentation Director"
+translationKey: "team/edoardo-sala"
+weight: 180
+---
 After his diploma in classical studies Edoardo followed his passion for the arts and the theatre.
 
 He graduated at the Drama Centre London, one of the most prestigious Academies of Dramatic Art in Great Britain and worked for many years as a professional actor.

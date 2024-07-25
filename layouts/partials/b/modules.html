@@ -1,0 +1,12 @@
+{{ "<!-- partials:home:modules:start -->" | safeHTML }}
+<section {{ with .sectionid }}id="{{ . }}"{{ end }} class="layout-module-group">
+	{{ range .datafilelist }}
+		{{ $data := index site.Data.modules . }}
+		{{ if $data }}
+			{{ $localizeddata := index $data site.LanguageCode }}
+			{{ if $localizeddata }}
+				{{ partial $localizeddata.layout $localizeddata }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
+</section>

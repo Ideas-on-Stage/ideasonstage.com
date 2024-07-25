@@ -1,12 +1,12 @@
-+++
-draft 			= false
-title 			= "La guía definitiva del ponente"
-description		= "En esta guía compartimos odo lo que siempre quisisite saber para triunfar como ponente en un evento TED"
-translationKey  = "guides/tedx-speaker-guide"
-categories		= [ "TEDx Events" ]
-picture			= "tedx-speaker.jpg"
-summary			= "¿Te han propuesto ser ponente para dar una charla TED o TEDx?¡Enhorabuena!¿O a lo mejor estás interesado en organizar uno de esos eventos?. En cualquiera de esos casos esta guía es para ti: todo lo que siempre quisiste saber para triunfar como ponente TED y no te atreviste a preguntar."
-+++
+---
+draft: false
+title: "La guía definitiva del ponente"
+description: "En esta guía compartimos odo lo que siempre quisisite saber para triunfar como ponente en un evento TED"
+translationKey: "guides/tedx-speaker-guide"
+categories: [ "TEDx Events" ]
+picture: "tedx-speaker.jpg"
+summary: "¿Te han propuesto ser ponente para dar una charla TED o TEDx?¡Enhorabuena!¿O a lo mejor estás interesado en organizar uno de esos eventos?. En cualquiera de esos casos esta guía es para ti: todo lo que siempre quisiste saber para triunfar como ponente TED y no te atreviste a preguntar."
+---
 
 ## ¿Por qué una guía para ponentes TED?
 Nos hemos dado cuenta de que muchos ponentes se hacen las mismas preguntas, y por eso hemos decidido crear una guía práctica y sin rellenos innecesarios para ayudarte a preparar tu charla TED.

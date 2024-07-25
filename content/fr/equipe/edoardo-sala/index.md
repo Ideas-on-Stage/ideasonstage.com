@@ -1,12 +1,12 @@
-+++
-draft			= false
-name			= "Edoardo Sala"
-picture			= "edoardo-sala.jpg"
-position	 	= "Directeur de présentation Italie"
-translationKey	= "team/edoardo-sala"
-weight			= 180
-type			= "team"
-+++
+---
+draft: false
+name: "Edoardo Sala"
+picture: "edoardo-sala.jpg"
+position: "Directeur de présentation Italie"
+translationKey: "team/edoardo-sala"
+weight: 180
+type: "team"
+---
 
 Après avoir obtenu son diplôme d'études classiques, Edoardo se lança dans sa passion pour les arts et le théâtre.
 

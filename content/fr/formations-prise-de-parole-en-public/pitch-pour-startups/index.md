@@ -1,12 +1,12 @@
-+++
-draft			= true
-weight			= 30
-title			= "Formation pitch pour Startups"
-description 	= "Apprenez les secrets du pitch, par une équipe de coachs qui a collaboré avec des centaines de startups."
-translationKey	= "presentations-training/pitch-for-startups"
-picture			= "image.jpg"
-schema			= "Course"
-+++
+---
+draft: true
+weight: 30
+title: "Formation pitch pour Startups"
+description: "Apprenez les secrets du pitch, par une équipe de coachs qui a collaboré avec des centaines de startups."
+translationKey: "presentations-training/pitch-for-startups"
+picture: "image.jpg"
+schema: "Course"
+---
 
 ## Tout dépend du pitch
 Une Startup passe beaucoup de temps à développer, tester et améliorer son produit, mais si elle n'est pas capable de convaincre les investisseurs ou les clients avec un pitch efficace, elle risque de ne pas aller bien loin. L'écosystème des Startups a beaucoup évolué ces dernières années, et les investisseurs n'ont plus la patience d'écouter un pitch médiocre, peu clair et peu convaincant. Pour se démarquer aujourd'hui il faut être incisif, direct et percutant pour capter l'attention de son audience. Une Startup n'a qu'une chance de faire une bonne première impression.

@@ -1,14 +1,14 @@
-+++
-draft			= "false"
-title			= "Vaincre le trac"
-date			= "2019-06-04"
-cast			= [ "Rose Bloomfield", "Michael Rickwood" ]
-description		= "Apprenez à gérer votre stress lors d'une présentation."
-translationKey  = "revolution/episode-00007"
-type			= "revolution"
-schema			= "VideoObject"
-embedurl		= "-_8sswO35r4"
-+++
+---
+draft: "false"
+title: "Vaincre le trac"
+date: "2019-06-04"
+cast: [ "Rose Bloomfield", "Michael Rickwood" ]
+description: "Apprenez à gérer votre stress lors d'une présentation."
+translationKey: "revolution/episode-00007"
+type: "revolution"
+schema: "VideoObject"
+embedurl: "-_8sswO35r4"
+---
 
 {{< youtube -_8sswO35r4 >}}
 

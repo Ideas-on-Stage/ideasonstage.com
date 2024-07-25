@@ -1,11 +1,17 @@
-+++
-draft 			= false
-title 			= "Communication Consulting"
-description		= "Improve your corporate communication strategy with our consulting services."
-translationKey	= "communication-consulting"
-thumbnail		= "thumbnail.jpg"
-pages			= "bottom"
-+++
+---
+draft: false
+title: "Communication Consulting"
+description: "Improve your corporate communication strategy with our consulting services."
+translationKey: "communication-consulting"
+picture: "corporate-office.jpg"
+thumbnail: "thumbnail.jpg"
+
+blocks:
+- type: "page-hero"
+- type: "page-breadcrumbs"
+- type: "page-content"
+- type: "page-list"
+---
 
 {{< text-centered title="A different approach to corporate communication" >}}
 Our corporate communication strategy consulting branch offers all necessary services for your organizational, management and internal communication needs. Our approach emphasizes the use of human communication to deliver effective messages.

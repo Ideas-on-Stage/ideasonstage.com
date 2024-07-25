@@ -1,0 +1,17 @@
+{{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
+{{- if .Title -}}
+	{{ if and (eq .Section "news") (.IsPage) }}
+		{{/* <!-- no title for news pages (ideally should be replaced by a parameter) --> */}}
+	{{ else if and (eq .Section "team") (.IsPage) }}
+		{{/* <!-- no title for team member  pages (ideally should be replaced by a parameter) --> */}}
+	{{ else }}
+		<header id="title" class="layout-module-title">
+			<div class="layout-page-title style-page-title">
+				<h1>
+					{{ with .Title }}{{ . | markdownify }}{{ end }}
+				</h1>
+			</div>
+		</header>
+	{{ end }}		
+{{ end }}
+{{ "<!-- partials:page-hero.html:end -->" | safeHTML }}

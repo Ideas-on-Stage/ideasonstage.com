@@ -1,9 +1,8 @@
-+++
-title	    	= "Support de la formation Visuels PowerPoint"
-showtoc  		= true
-ni				= true
-+++
-
+---
+title: "Support de la formation Visuels PowerPoint"
+showtoc: true
+ni: true
+---
 
 ## Introduction
 

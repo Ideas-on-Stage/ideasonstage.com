@@ -1,0 +1,8 @@
+es:
+    sectionid: "presentation-creation"
+    title: "Agencia de Presentaciones"
+    description: "Una gran historia ilustrada con las mejores slides."
+    picture: "/img/inserts/home-presentation-creation-agency.jpg"
+    style: "bg-black"
+    layout: "inserts/module-texttop-picture.html"
+    url: "/es/creacion-presentaciones-powerpoint/"

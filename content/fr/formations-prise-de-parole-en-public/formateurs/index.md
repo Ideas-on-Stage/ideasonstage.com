@@ -1,9 +1,9 @@
-+++
-title		= "Guide formateurs"
-showtoc		= true
-url			= "/fr/formations-prise-de-parole-en-public/formateurs/"
-ni			= true
-+++
+---
+title: "Guide formateurs"
+showtoc: true
+url: "/fr/formations-prise-de-parole-en-public/formateurs/"
+ni: true
+---
 
 Ce document est une aide pour les formateurs Ideas on Stage.
 

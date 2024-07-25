@@ -1,19 +1,19 @@
-+++
-draft			= false
-title			= "Formation Storytelling"
-description 	= "Formation aux techniques de storytelling pour apprendre à convaincre son auditoire."
-url	 			= "/fr/formation-storytelling/"
-type			= "training"
-format			= "Intra-entreprise"
-duration		= "7 h"
-price			= "3000 € HTVA"
-attendees		= "4 à 8 personnes"
-locations		= "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
+---
+draft: false
+title: "Formation Storytelling"
+description: "Formation aux techniques de storytelling pour apprendre à convaincre son auditoire."
+url: "/fr/formation-storytelling/"
+type: "training"
+format: "Intra-entreprise"
+duration: "7 h"
+price: "3000 € HTVA"
+attendees: "4 à 8 personnes"
+locations: "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
 
-[contact]
-	title	= "Réservez une session de formation"
-	subtitle= "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
-+++  
+contact:
+    title: "Réservez une session de formation"
+    subtitle: "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
+---  
 
 Cette formation explique comment utiliser les techniques de storytelling pour créer de meilleures présentations. Cette formation est particulièrement adaptée pour les présentations en entreprise, comme les présentations devant un comité ou les présentations commerciales.
 

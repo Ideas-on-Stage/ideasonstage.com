@@ -1,15 +1,20 @@
-+++
-draft			= false
-date			= "2023-03-29"
-title			= "8 critères pour choisir sa formation de prise de parole en public"
-description		= "Un guide pour vous aider à choisir la bonne formation de prise de parole en public pour votre entreprise, avec une fiche d'évaluation gratuite."
-summary			= "Vous trouverez une liste de tous les critères d'évaluation pour bien choisir une formation de prise de parole en public pour votre entreprise : certification, compétences, méthode, équipe, pédagogie. En prime, vous trouverez une fiche d'évaluation gratuite avec tous les critères."
-url				= "/fr/comment-choisir-sa-formation-de-prise-de-parole-en-public/"
-picture			= "public-speaking-training.jpg"
-weight			= 20
+---
+draft: false
+date: "2023-03-29"
+title: "8 critères pour choisir sa formation de prise de parole en public"
+description: "Un guide pour vous aider à choisir la bonne formation de prise de parole en public pour votre entreprise, avec une fiche d'évaluation gratuite."
+summary: "Vous trouverez une liste de tous les critères d'évaluation pour bien choisir une formation de prise de parole en public pour votre entreprise : certification, compétences, méthode, équipe, pédagogie. En prime, vous trouverez une fiche d'évaluation gratuite avec tous les critères."
+url: "/fr/comment-choisir-sa-formation-de-prise-de-parole-en-public/"
+picture: "public-speaking-training.jpg"
+weight: 20
 
-insertsbottom = [ "public-speaking-training", "public-speaking-coaching" ]
-+++
+blocks:
+    - type: page-hero
+    - type: page-breadcrumbs
+    - type: page-content
+    - type: data-module-list
+      datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
+---
 
 Cet article explique les critères importants pour choisir une formation en prise de parole en public moderne et qui réponde aux besoins des entreprises. Il vaut mieux faire appel à un organisme de formation ayant une équipe d’experts employés à temps plein et avec une vraie connaissance du fonctionnement du monde de l’entreprise.
 

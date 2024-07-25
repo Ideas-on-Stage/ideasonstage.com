@@ -1,10 +1,10 @@
-+++
-draft			= false
-title			= "Pitch para Startups"
-description		= "Aprende a hacer un pitch ganador con este curso impartido por coaches que han trabajado con cientos de startups"
-translationKey	= "presentations-training/pitch-for-startups"
-picture			= "image.jpg"
-+++
+---
+draft: false
+title: "Pitch para Startups"
+description: "Aprende a hacer un pitch ganador con este curso impartido por coaches que han trabajado con cientos de startups"
+translationKey: "presentations-training/pitch-for-startups"
+picture: "image.jpg"
+---
 
 ## Todo se reduce a un pitch
 

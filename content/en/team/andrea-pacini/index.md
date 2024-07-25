@@ -1,12 +1,12 @@
-+++
-draft			= false
-name			= "Andrea Pacini"
-picture			= "andrea-pacini.jpg"
-position	 	= "UK Presentation Director"
-translationKey	= "team/andrea-pacini"
-weight			= 210
-schema			= "person"
-+++
+---
+draft: false
+name: "Andrea Pacini"
+picture: "andrea-pacini.jpg"
+position: "UK Presentation Director"
+translationKey: "team/andrea-pacini"
+weight: 210
+schema: "person"
+---
 Andrea Pacini, author of the best-selling book [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/), is a presentation coach and Head of Ideas on Stage UK. He specialises in working with business owners, leaders and their teams who want to become more confident presenters.
 
 He has been featured on numerous industry blogs and podcasts and has delivered training sessions at New York University, The Wharton Club, Impact Hub, Rainmaking, General Assembly and The Institute of Directors. He is a mentor at Virgin StartUp, where he helps purpose-driven entrepreneurs launch, grow and scale their businesses through the power of great presenting.

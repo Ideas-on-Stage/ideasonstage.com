@@ -1,10 +1,10 @@
-+++
-draft 			= false
-title	 		= "Storytelling & Copywriting"
-description		= "Construye una narrativa para cautivar a tu público."
-picture			= "story-copywriting.jpg"
-translationKey	= "communication-consulting/story-copywriting/"
-+++
+---
+draft: false
+title: "Storytelling & Copywriting"
+description: "Construye una narrativa para cautivar a tu público."
+picture: "story-copywriting.jpg"
+translationKey: "communication-consulting/story-copywriting/"
+---
 
 ## ¿Porqué recordamos las historias, pero olvidamos la presentación de ayer?
 

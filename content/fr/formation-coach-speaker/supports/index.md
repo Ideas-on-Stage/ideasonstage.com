@@ -1,9 +1,9 @@
-+++
-draft			= false
-title			= "Supports de formation Speaker Coach"
-enablehero		= true
-ni				= true
-+++
+---
+draft: false
+title: "Supports de formation Speaker Coach"
+enablehero: true
+ni: true
+---
 
 Cette page vous permet d'accéder aux différents documents de la formation Speaker Coach.
 

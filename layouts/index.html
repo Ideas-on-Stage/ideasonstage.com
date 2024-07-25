@@ -8,19 +8,33 @@
 	<body id="page-top" class="layout-page">
 		{{ partial "page-nav.html" . }}
 		<main role="main">
-			{{ partial "home/title.html" . }}
-			{{ partial "page-hero.html" . }}
-			{{ partial "page-inserts-top.html" . }}
-			{{ partial "home/services.html" . }}
-			{{ partial "home/content.html" . }}
-			{{ partial "home/references.html" . }}
-			{{ partial "page-inserts-bottom.html" . }}
-			{{ partial "home/testimonials.html" . }}
+			{{ range .Params.blocks }}
+				{{ if eq .type "data-cta" }}
+					{{ partial "b/cta" . }}
+				{{ else if eq .type "page-hero" }}
+				
+				{{ else if eq .type "data-module-list" }}
+					{{ partial "b/modules.html" . }}
+				{{ else if eq .type "data-reference-list" }}
+					{{ partial "b/references.html" . }}
+				{{ else if eq .type "data-testimonial-list" }}
+					{{ partial "b/testimonials.html" . }}
+				{{ else if eq .type "page-content" }}
+					{{ partial "b/content" page }}
+				{{ else if eq .type "page-list" }}
+					{{ partial "b/page-list" page }}
+				{{ else if eq .type "page-title" }}
+					{{ partial "b/page-title-home" page }}
+				{{ else if eq .type "site-location" }}
+					{{ partial "b/location.html" . }}
+				{{ else }}
+					<p>Unknown block type</p>
+				{{ end }}
+			{{ end }}
 		</main>
 		<aside class="aside">
 			{{ partial "page-contact.html" . }}
 			{{ if eq .Site.Params.map.enable true }}
-				{{ partial "page-address.html" . }}
 			{{ end }}
 		</aside>
 		<footer class="footer">

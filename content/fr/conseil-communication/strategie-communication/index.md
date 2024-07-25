@@ -1,10 +1,10 @@
-+++
-draft 			= false
-title 			= "Présentations stratégiques"
-description		= "Nous vous créons une présentation pour répondre à des enjeux forts, de l'idée jusqu'à la scène."
-picture			= "strategy.jpg"
-translationKey	= "communication-consulting/communication-strategy"
-+++
+---
+draft: false
+title: "Présentations stratégiques"
+description: "Nous vous créons une présentation pour répondre à des enjeux forts, de l'idée jusqu'à la scène."
+picture: "strategy.jpg"
+translationKey: "communication-consulting/communication-strategy"
+---
 
 ## Nous vous créons une présentation pour répondre à des enjeux forts, quel que soit le public
 

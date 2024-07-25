@@ -1,15 +1,20 @@
-+++
-draft 			= false
-title 			= "Comment organiser un événement TEDx ? Guide complet"
-description		= "Tout pour organiser un événement TEDx réussi, par l'équipe qui a accompagné des dizaines d'événements TEDx, en France, aux États-Unis et en Angleterre."
-categories 		= [ "Prise de parole en public", "TEDx" ]
-url 			= "/fr/comment-organiser-un-evenement-tedx/"
-picture 		= "tedx-saclay-03.jpg"
-summary 		= "Ce guide vous donnera tous les conseils nécessaires pour organiser votre événement TEDx, que ce soit en tant que bénévole ou pour votre entreprise. Si vous êtes déjà expérimenté, nous espérons que vous y découvrirez des conseils utiles."
-weight			= 40
+---
+draft: false
+title: "Comment organiser un événement TEDx ? Guide complet"
+description: "Tout pour organiser un événement TEDx réussi, par l'équipe qui a accompagné des dizaines d'événements TEDx, en France, aux États-Unis et en Angleterre."
+categories: [ "Prise de parole en public", "TEDx" ]
+url: "/fr/comment-organiser-un-evenement-tedx/"
+picture: "tedx-saclay-03.jpg"
+summary: "Ce guide vous donnera tous les conseils nécessaires pour organiser votre événement TEDx, que ce soit en tant que bénévole ou pour votre entreprise. Si vous êtes déjà expérimenté, nous espérons que vous y découvrirez des conseils utiles."
+weight: 40
 
-insertsbottom	= [ "public-speaking-training", "public-speaking-coaching" ]
-+++
+blocks:
+    - type: page-hero
+    - type: page-breadcrumbs
+    - type: page-content
+    - type: data-module-list
+      datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
+---
 
 ## Qu’est-ce qu’un événement TEDx ?
 

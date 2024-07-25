@@ -1,14 +1,14 @@
-+++
-draft 		= "false"
-title 		= "Showtime Stress"
-date		= "2019-06-04"
-cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description = "Learn how to cope with stress during a presentation."
-translationKey  = "revolution/episode-00007"
+---
+draft: "false"
+title: "Showtime Stress"
+date: "2019-06-04"
+cast: [ "Rose Bloomfield", "Michael Rickwood" ]
+description: "Learn how to cope with stress during a presentation."
+translationKey: "revolution/episode-00007"
 
-schema			= "VideoObject"
-embedurl			= "1BZaJCshACc"
-+++
+schema: "VideoObject"
+embedurl: "1BZaJCshACc"
+---
 
 {{< youtube 1BZaJCshACc >}}
 

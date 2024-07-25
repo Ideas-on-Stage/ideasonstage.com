@@ -7,7 +7,7 @@
 		{{ "<!-- standard alternate link -->" | safeHTML }}
 		<link href="{{ .Permalink }}" hreflang="{{ .Lang }}" rel="alternate" />
 		{{ if eq $languageshort (.Lang | lower) }}
-	    	{{ "<!-- standard canonical link -->" | safeHTML }}
+			{{ "<!-- standard canonical link -->" | safeHTML }}
 			<link href="{{ .Permalink }}" rel="canonical" />
 		{{ end }}
 	{{ else }}

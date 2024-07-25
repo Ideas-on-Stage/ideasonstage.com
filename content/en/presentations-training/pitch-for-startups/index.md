@@ -1,11 +1,10 @@
-+++
-draft			= false
-weight      	= 30
-title			= "Startups on Stage"
-description 	= "Learn to deliver a killer pitch from experienced coaches who've worked with hundreds of start-ups."
-translationKey	= "presentations-training/pitch-for-startups"
-picture			= "image.jpg"
-+++
+---
+draft: false
+title: "Pitch for Startups"
+description: "Learn to deliver a killer pitch from experienced coaches who've worked with hundreds of start-ups."
+picture: "image.jpg"
+translationKey: "presentations-training/pitch-for-startups"
+---
 
 ## Everything comes down to the pitch
 As a startup you spend a lot of time testing, developing and improving your product and idea, but are you able to pitch effectively in front of an angel investor, venture capitalist or even to your clients?

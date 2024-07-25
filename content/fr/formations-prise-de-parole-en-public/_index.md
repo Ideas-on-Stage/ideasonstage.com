@@ -1,43 +1,34 @@
-+++
-draft 			= false
-title 			= "Formations prise de parole en public"
-description		= "La formation en prise de parole en public pour les entreprises la plus complète du marché. Message, Storytelling, Visuels et Art Oratoire."
-picture			= "formation.jpg"
-enablehero		= false
-hidepagelist	= true
-weight			= 30
-insertsbottom	= [ "guidepublicspeaking", "guideremotepresentations" ]
-hidetitle		= true
-translationKey	= "presentations-training"
-type			= "training"
+---
+draft: false
+title: "Formations prise de parole en public"
+description: "La formation en prise de parole en public pour les entreprises la plus complète du marché. Message, Storytelling, Visuels et Art Oratoire."
+picture: "formation.jpg"
+translationKey: "presentations-training"
+type: "training"
 
-[cta]
-	picture		= "formation.jpg"
-	title 		= "Formations prise de parole en public"
-	level		= "h1"
-	description = "Un ensemble complet de formations pour prendre la parole en public, données par des spécialistes des présentations en entreprise."
-	color		= "text-white"	
-	opacity		= "35"
-	[cta.button]
-		text	= "NOUS CONTACTER"
-		link	= "#contact"
-		
-[sidebar]
-	title		= "Liste des formations"
-	[[sidebar.items]]
-		name	= "Formation prise de parole 2 jours"
-		url		= "/fr/formation-prise-de-parole-2-jours/"
-	[[sidebar.items]]
-		name	= "Formation art oratoire"
-		url		= "/fr/formation-art-oratoire/"
-	[[sidebar.items]]
-		name	= "Formation storytelling"
-		url		= "/fr/formation-storytelling/"
-	[[sidebar.items]]
-		name	= "Formation présentations PowerPoint"
-		url		= "/fr/formation-presentations-powerpoint/"
-	
-+++
+blocks:
+- type: "data-cta"
+  datafile: "public-speaking-training"
+- type: "page-breadcrumbs"
+- type: "data-reference-list"
+  datafilelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
+- type: "page-content"
+- type: "data-module-list"
+  datafilelist: [ "guidepublicspeaking", "guideremotepresentations"]  
+
+sidebar:
+  title: "Liste des formations"
+  items:
+  - name: "Formation prise de parole 2 jours"
+    url: "/fr/formation-prise-de-parole-2-jours/"
+  - name: "Formation art oratoire"
+    url: "/fr/formation-art-oratoire/"
+  - name: "Formation storytelling"
+    url: "/fr/formation-storytelling/"
+  - name: "Formation présentations PowerPoint"
+    url: "/fr/formation-presentations-powerpoint/"
+
+---
 
 Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateur. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.
 
@@ -94,21 +85,6 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 	{{< icon-item icon="logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
 	{{< agenda-item description="[Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)" >}}
 	{{< agenda-item description="[Vous pouvez également consulter le certificat délivré par l'organisme de certification Alticert en cliquant ici.](/files/certificat-qualiopi-alticert.pdf)" >}}
-{{< /icon-list >}}
-
-{{< icon-list title="Quelques références" >}}
-	{{< icon-item icon="/img/logos/disney-logo.png" size= "25p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/salesforce-logo.png" size="25p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/deloitte-logo.png" size="25p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/nestle-logo.png" size="25p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/the-world-bank-logo.png" size="25p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/em-lyon-logo.png" size="25p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/colombus-consulting-logo.png" size="25p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/business-france-logo.png" size="25p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/bpce-logo.png" size="25p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/bouygues-logo.png" size="25p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/edf-logo.png" size="25p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/colas-logo.png" size="25p" style="border spacing" >}}
 {{< /icon-list >}}
 
 > Nous réalisons également d'autres formations spécialisées et sur-mesure en fonction de vos besoins spécifiques. Négociation, réunions difficiles, intervention lors de conférences, posture de leadership sur scène, …

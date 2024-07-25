@@ -1,10 +1,10 @@
-+++
-draft 			= false
-title 			= "Ateliers LEGO et LEGO Serious Play pour vos événements d'entreprise"
-description		= "Cultivez votre créativité et votre originalité ! Les ateliers LEGO et LEGO Serious Play de notre partenaire Coding & Bricks vont libérer vos idées."
-picture			= "lego-serious-play-1.jpg"
-translationKey	= "lego-serious-play-workshops"
-+++
+---
+draft: false
+title: "Ateliers LEGO et LEGO Serious Play pour vos événements d'entreprise"
+description: "Cultivez votre créativité et votre originalité ! Les ateliers LEGO et LEGO Serious Play de notre partenaire Coding & Bricks vont libérer vos idées."
+picture: "lego-serious-play-1.jpg"
+translationKey: "lego-serious-play-workshops"
+---
 
 ## Le LEGO pour libérer vos idées
 

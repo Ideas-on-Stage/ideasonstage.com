@@ -1,0 +1,19 @@
+en:
+    sectionid: "communication-consulting"
+    title: "Communication consulting"
+    description: "A human-centric vision of corporate communication."
+    picture: "/img/communication-consulting.jpg"
+    style: "bg-black"
+    layout: "inserts/module-picture-textright.html"
+    url: "/communication-consulting/"
+    button: "Discover our approach to corporate communication"
+
+fr:
+    sectionid: "conseil-communication-entreprise"
+    title: "Conseil en communication"
+    description: "Découvrez une approche différente de la communication d'entreprise."
+    picture: "/img/communication-consulting.jpg"
+    style: "bg-black"
+    layout: "inserts/module-picture-textright.html"
+    url: "/fr/conseil-communication/"
+

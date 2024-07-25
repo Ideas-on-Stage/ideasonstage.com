@@ -1,32 +1,25 @@
-+++
-draft 			= false
-title 			= "Public Speaking Training"
-description		= "Change the culture of presentations in your company"
-schema			= "course"
-thumbnail		= "thumbnail.jpg"
-weight			= 30
-pages			= "bottom"
-translationKey	= "presentations-training"
-+++
+---
+draft: false
+title: "Public Speaking Training"
+description: "Change the culture of presentations in your company"
+schema: "course"
+picture: "training.jpg"
+thumbnail: "thumbnail.jpg"
+pages: "bottom"
+translationKey: "presentations-training"
+
+blocks:
+- type: "page-hero"
+- type: "page-breadcrumbs"
+- type: "data-reference-list"
+  datafilelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
+- type: "page-content"
+- type: "page-list"
+---
 
 ## Change the culture of presentations in your company
 
 At Ideas on Stage, we believe that everybody has the potential to become a successful presenter – and that even talented speakers have the potential to improve. Why’s that? Because we’ve helped thousands of presenters to become more comfortable, confident and convincing, across a wide range of clients at all levels of business and experience.
-
-{{< icon-list title="Our references" >}}
-	{{< icon-item icon="/img/logos/disney-logo.png" size= "16p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/salesforce-logo.png" size="16p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/deloitte-logo.png" size="16p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/nestle-logo.png" size="16p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/the-world-bank-logo.png" size="16p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/em-lyon-logo.png" size="16p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/colombus-consulting-logo.png" size="16p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/business-france-logo.png" size="16p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/bpce-logo.png" size="16p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/bouygues-logo.png" size="16p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/edf-logo.png" size="16p" style="border spacing" >}}
-	{{< icon-item icon="/img/logos/colas-logo.png" size="16p" style="border spacing" >}}
-{{< /icon-list >}}
 
 {{< text2-picture1 picture="/img/inserts/presentation-training-10.jpg" title="Proven methods, experienced trainers" >}}
 The methods and techniques we teach are the ones we use every day to produce memorable presentations for business leaders, so we know they work. Our trainers all have many years of experience of high-level presentations so you are learning from true experts.

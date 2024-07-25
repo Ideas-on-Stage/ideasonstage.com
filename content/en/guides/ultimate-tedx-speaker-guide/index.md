@@ -1,13 +1,13 @@
-+++
-draft 			= false
-title	 		= "Ultimate Inspiring Speaker Guide"
-description		= "Everything that you wanted to know about being a TEDx speaker without needing to ask."
-categories		= [ "TEDx Events" ]
-url				= "/tedx-speaker-guide/"
-translationKey  = "guides/tedx-speaker-guide"
-picture			= "tedx-speaker.jpg"
-summary			= "Congratulations, you’ve just been contacted to be a speaker at a TED or TEDx talk! Or it could be that you have the ambition to organize one yourself. If it’s either of those, this guide was made for you."
-+++
+---
+draft: false
+title: "Ultimate Inspiring Speaker Guide"
+description: "Everything that you wanted to know about being a TEDx speaker without needing to ask."
+categories: [ "TEDx Events" ]
+url: "/tedx-speaker-guide/"
+translationKey: "guides/tedx-speaker-guide"
+picture: "tedx-speaker.jpg"
+summary: "Congratulations, you’ve just been contacted to be a speaker at a TED or TEDx talk! Or it could be that you have the ambition to organize one yourself. If it’s either of those, this guide was made for you."
+---
 
 Congratulations, you’ve just been contacted to speak at a TED or TEDx event! Or you’re embarking upon organizing one yourself. If either of these scenarios are true, this guide was made for you. We have compiled everything that you need to know about how to be or train a successful public speaker for TED without needing to ask.
 

@@ -1,14 +1,14 @@
-+++
-draft 		= "false"
-title 		= "Once upon a business story"
-date		= "2019-10-01"
-cast		= [ "Rose Bloomfield", "Pierre Morsa" ]
-description = "How can you use storytelling in your company? Find out in this video."
-translationKey  = "revolution/episode-00009"
+---
+draft: "false"
+title: "Once upon a business story"
+date: "2019-10-01"
+cast: [ "Rose Bloomfield", "Pierre Morsa" ]
+description: "How can you use storytelling in your company? Find out in this video."
+translationKey: "revolution/episode-00009"
 
-schema			= "VideoObject"
-embedurl			= "RBwa0UOY2vo"
-+++
+schema: "VideoObject"
+embedurl: "RBwa0UOY2vo"
+---
 
 {{< youtube RBwa0UOY2vo >}}
 

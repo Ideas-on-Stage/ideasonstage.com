@@ -1,8 +1,8 @@
-+++
-draft 			= false
-title 			= "Business Presentation Revolution – Stage 1: Foundation"
-ni				= true
-+++
+---
+draft: false
+title: "Business Presentation Revolution – Stage 1: Foundation"
+ni: true
+---
 
 The Foundation stage is amazingly important, yet most presenters don’t take the time to set a strong foundation for their presentations. Too many presentations misunderstand their audiences, ignore their burning needs, and take no account of the context.
 

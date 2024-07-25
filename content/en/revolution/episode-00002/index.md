@@ -1,14 +1,14 @@
-+++
-draft           = "false"
-title           = "Overcoming nerves"
-date            = "2019-01-19"
-cast            = [ "Phil Waknell", "Rose Bloomfield" ]
-description     = "Rose asks Phil how to overcome your fear before a big presentation, and turn it into positive energy on stage. Discover our Chief Inspiration Officer's tips to find your inner zen before a big event."
-translationKey  = "revolution/episode-00002"
+---
+draft: "false"
+title: "Overcoming nerves"
+date: "2019-01-19"
+cast: [ "Phil Waknell", "Rose Bloomfield" ]
+description: "Rose asks Phil how to overcome your fear before a big presentation, and turn it into positive energy on stage. Discover our Chief Inspiration Officer's tips to find your inner zen before a big event."
+translationKey: "revolution/episode-00002"
 
-schema          = "VideoObject"
-embedurl        = "focwumpNq_o"
-+++
+schema: "VideoObject"
+embedurl: "focwumpNq_o"
+---
 
 Rose asks Phil how to overcome your fear before a big presentation, and turn it into positive energy on stage. Discover our Chief Inspiration Officer's tips to find your inner zen before a big event.
 

@@ -1,12 +1,9 @@
-+++
-draft 			= false
-title 			= "Business Presentation Revolution"
-description		= "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution."
-weight			= 1
-categories		= [ ]
-hidepagelist	= true
-translationKey	= "business-presentation-revolution"
-+++
+---
+draft: false
+title: "Business Presentation Revolution"
+description: "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution."
+translationKey: "business-presentation-revolution"
+---
 
 At Ideas on Stage, we have been revolutionizing presentations since 2010. Discover our most popular training and coaching services, and inspiring keynotes and webinars, together with a full set of resources including the book, short videos, and our podcast about better presenting.
 

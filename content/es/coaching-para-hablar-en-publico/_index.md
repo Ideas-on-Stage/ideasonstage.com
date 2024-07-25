@@ -1,10 +1,10 @@
-+++
-draft 			= false
-title 			= "Coaching para hablar en público"
-description		= "Tanto si estás al frente de una gran compañía como si diriges tu propia empresa, habla como el líder al que todos quieren seguir."
-translationKey	= "public-speaking-coaching"
-picture 		= "wikistage-wbg-2015.jpg"
-+++
+---
+draft: false
+title: "Coaching para hablar en público"
+description: "Tanto si estás al frente de una gran compañía como si diriges tu propia empresa, habla como el líder al que todos quieren seguir."
+translationKey: "public-speaking-coaching"
+picture: "wikistage-wbg-2015.jpg"
+---
 
 ## Programas diseñados a medida de las fortalezas y areas de mejora de cada cliente
 

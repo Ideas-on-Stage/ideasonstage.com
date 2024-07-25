@@ -1,14 +1,14 @@
-+++
-draft 		= "false"
-title 		= "La Audiencia"
-date		= "2019-02-11"
-cast		= [ "Phil Waknell", "Rose Bloomfield" ]
-description	= " No olvides hacerte estas preguntas esenciales para asegurarte de que no fallar antes incluso de empezar a hablar"
-translationKey  = "revolution/episode-00003"
+---
+draft: "false"
+title: "La Audiencia"
+date: "2019-02-11"
+cast: [ "Phil Waknell", "Rose Bloomfield" ]
+description: " No olvides hacerte estas preguntas esenciales para asegurarte de que no fallar antes incluso de empezar a hablar"
+translationKey: "revolution/episode-00003"
 
-schema			= "VideoObject"
-embedurl			= "4jYoALR465E"
-+++
+schema: "VideoObject"
+embedurl: "4jYoALR465E"
+---
 
 El ingrediente secreto de cualquier presentación es Tu Audiencia. No olvides hacerte estas preguntas esenciales para asegurarte de que no fallar antes incluso de empezar a hablar.
 

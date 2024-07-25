@@ -1,14 +1,14 @@
-+++
-draft 		    = "false"
-title 		    = "4 Tempos"
-date	      	= "2019-11-05"
-cast    		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description     = "Te presentamos un modelo para eliminar la monotonía de tus presentaciones. Captura la atención de tu audiencia"
-translationKey  = "revolution/episode-00010"
+---
+draft: "false"
+title: "4 Tempos"
+date: "2019-11-05"
+cast: [ "Rose Bloomfield", "Michael Rickwood" ]
+description: "Te presentamos un modelo para eliminar la monotonía de tus presentaciones. Captura la atención de tu audiencia"
+translationKey: "revolution/episode-00010"
 
-schema			= "VideoObject"
-embedurl		= "JkbvYqYEeo8"
-+++
+schema: "VideoObject"
+embedurl: "JkbvYqYEeo8"
+---
 
 {{< youtube JkbvYqYEeo8 >}}
 

@@ -1,20 +1,19 @@
-+++
-draft			= false
-title			= "Formation prise de parole 1 jour"
-description		= "Message, storytelling, présentations PowerPoint et art oratoire."
-url	 			= "/fr/formation-prise-de-parole-1-jour/"
-type			= "training"
-format			= "Intra-entreprise"
-duration		= "7 h"
-price			= "3000 € HTVA"
-attendees		= "4 à 8 personnes"
-locations		= "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
+---
+draft: false
+title: "Formation prise de parole 1 jour"
+description: "Message, storytelling, présentations PowerPoint et art oratoire."
+url: "/fr/formation-prise-de-parole-1-jour/"
+type: "training"
+format: "Intra-entreprise"
+duration: "7 h"
+price: "3000 € HTVA"
+attendees: "4 à 8 personnes"
+locations: "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
 
-[contact]
-	title		= "Réservez une session de formation"
-	subtitle	= "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
-
-+++
+contact:
+    title: "Réservez une session de formation"
+    subtitle: "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
+---
 
 Cette formation condense l'essentiel des modules storytelling, présentations PowerPoint et art oratoire sur une journée. Avec nos formateurs experts, vous apprendrez à utiliser la méthodologie unique d'Ideas on Stage pour créer des présentations en entreprise efficaces et percutantes, et à vous exprimer avec aisance et conviction sur scène.
 

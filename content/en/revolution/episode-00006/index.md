@@ -1,14 +1,14 @@
-+++
-draft 		= "false"
-title 		= "Gestures"
-date		= "2019-05-17"
-cast		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description = "Good gestures can increase your presence on stage. Learn what to do with your body, your hands, your face while you present."
-translationKey  = "revolution/episode-00006"
+---
+draft: "false"
+title: "Gestures"
+date: "2019-05-17"
+cast: [ "Rose Bloomfield", "Michael Rickwood" ]
+description: "Good gestures can increase your presence on stage. Learn what to do with your body, your hands, your face while you present."
+translationKey: "revolution/episode-00006"
 
-schema			= "VideoObject"
-embedurl			= "-P9C8xl4RPU"
-+++
+schema: "VideoObject"
+embedurl: "-P9C8xl4RPU"
+---
 
 {{< youtube -P9C8xl4RPU >}}
 

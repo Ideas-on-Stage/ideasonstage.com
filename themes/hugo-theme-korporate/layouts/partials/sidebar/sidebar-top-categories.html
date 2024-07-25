@@ -1,9 +1,0 @@
-{{ "<!-- partials:inserts:sidebar-top-categories.html:start -->" | safeHTML }}
-<h2>{{ .Site.Params.news.sbcategorytitle }}</h2>
-	<ul>
-		{{ $t := .Site.Taxonomies.tags }}
-		{{ range first 10 $t.ByCount }}
-			<li><a href="{{ .Page.Permalink }}">{{ .Term }} <span>({{ .Count }})</span></a></li>
-		{{ end }}
-	</ul>
-{{ "<!-- partials:inserts:sidebar-top-categories.html:end -->" | safeHTML }}

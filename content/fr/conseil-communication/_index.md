@@ -1,11 +1,10 @@
-+++
-draft 			= false
-title 			= "Conseil en communication"
-description		= "Améliorez votre communication d'entreprise avec nos services de conseil."
-translationKey	= "communication-consulting"
-thumbnail		= "thumbnail.jpg"
-pages			= "bottom"
-+++
+---
+draft: false
+title: "Conseil en communication"
+description: "Améliorez votre communication d'entreprise avec nos services de conseil."
+translationKey: "communication-consulting"
+thumbnail: "thumbnail.jpg"
+---
 
 {{< text-centered title="Une approche différente de la communication d'entreprise" >}}
 Notre offre de conseil en stratégie de communication d'entreprise propose tous les services nécessaires pour vos besoins en matière d'organisation, de gestion et de communication interne. Notre approche met l'accent sur l'utilisation d’une communication humaine pour délivrer des messages efficaces.

@@ -1,9 +1,9 @@
-+++
-draft 			= false
-title 			= "Confident Presenter - The Book"
-description		= "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."
-showrefs		= false
-+++
+---
+draft: false
+title: "Confident Presenter - The Book"
+description: "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."
+showrefs: false
+---
 
 {{% picture1-text2 picture="confident-presenter-book-2.png" %}}
 ## Become a more credible, confident and convincing presenter.

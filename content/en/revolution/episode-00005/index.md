@@ -1,14 +1,14 @@
-+++
-draft 		= "false"
-title 		= "Slide Success"
-date		= "2019-05-02"
-cast		= [ "Phil Waknell", "Rose Bloomfield" ]
-description	= "The days of ‘Death by PowerPoint®’ are over. Powerful visuals come from powerful messages and clear visual ideas. But sometimes slides aren’t necessary. "
-translationKey  = "revolution/episode-00005"
+---
+draft: "false"
+title: "Slide Success"
+date: "2019-05-02"
+cast: [ "Phil Waknell", "Rose Bloomfield" ]
+description: "The days of ‘Death by PowerPoint®’ are over. Powerful visuals come from powerful messages and clear visual ideas. But sometimes slides aren’t necessary. "
+translationKey: "revolution/episode-00005"
 
-schema			= "VideoObject"
-embedurl			= "BHIuJtAfObM"
-+++
+schema: "VideoObject"
+embedurl: "BHIuJtAfObM"
+---
 
 Powerful visuals come from powerful messages and clear visual ideas. But sometimes slides aren’t necessary. The days of ‘Death by PowerPoint®’ are over. Take 5 to discover the 3 simple steps to slide success that will help you achieve your objectives—and leave your audience wanting more—in our new episode of The Business Presentation Revolution podcast, with presentation experts Rose Bloomfield and Phil Waknell.
 

@@ -1,11 +1,11 @@
-+++
-draft 			= false
-title 			= "Guía práctica para hacer presentaciones de forma remota"
-description		= "Guía paso a paso para hacer presentaciones remotas profesionales y efectivas mediante videoconferencia"
-picture		 	= "remote-presentations.jpg"
-summary			= "Todo lo que necesitas para hacer presentaciones excelentes de forma remota: equipo, software, configuración, animación. Hemos creado esta guía basándonos en diez años de experiencia preparando presentaciones profesionales remotas para nuestros clientes. (Nota: no obtenemos ningún beneficio económico o material con el software o hardware que recomendamos en este artículo. Los recomendamos según nuestra experiencia, y entendemos que hay muchas otras soluciones que podrían ser adecuadas.)"
-insertsbottom	= [ "revolution" ]
-+++
+---
+draft: false
+title: "Guía práctica para hacer presentaciones de forma remota"
+description: "Guía paso a paso para hacer presentaciones remotas profesionales y efectivas mediante videoconferencia"
+picture: "remote-presentations.jpg"
+summary: "Todo lo que necesitas para hacer presentaciones excelentes de forma remota: equipo, software, configuración, animación. Hemos creado esta guía basándonos en diez años de experiencia preparando presentaciones profesionales remotas para nuestros clientes. (Nota: no obtenemos ningún beneficio económico o material con el software o hardware que recomendamos en este artículo. Los recomendamos según nuestra experiencia, y entendemos que hay muchas otras soluciones que podrían ser adecuadas.)"
+---
+
 ## Una Buena Configuración Base para Hacer Presentaciones Remotas
 Una buena configuración base hará que la experiencia de presentación remota sea mucho más agradable para la audiencia. Si bien obtener el mejor equipo posible cuesta miles de euros, creemos que en la mayoría de los casos es excesivo. Hay tres elementos clave a los que debes prestar atención: facilidad de acceso, fiabilidad de la conexión y claridad del audio. Además, contar con una buena calidad de video transmitirá una mayor profesionalidad, pero, en cualquier caso, no es imprescindible una cámara de gama alta para conseguir buenos resultados. Aquí tienes una configuración base válida tanto para Mac como Windows, para ofrecer una experiencia completamente satisfactoria a los espectadores:
 

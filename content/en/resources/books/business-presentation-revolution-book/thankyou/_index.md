@@ -1,24 +1,22 @@
-+++
-draft 			= false
-title 			= "Welcome to the Revolution"
-description		= "Thank you for joining the Business Presentation Revolution."
-weight			= 1
-categories		= [ ]
-showrefs		= false
-hidepagelist		= true
-urlredirect		= ""
-url 				= "/business-presentation-revolution/book/thankyou/"
-ni				= true
+---
+draft: false
+title: "Welcome to the Revolution"
+description: "Thank you for joining the Business Presentation Revolution."
+ni: true
 
-insertstop		= [ "catalogue", "news" ]
-
-+++
+blocks:
+    - type: page-title
+    - type: page-breadcrumbs
+    - type: page-content
+    - type: data-module-list
+      datafilelist: [ "catalogue", "news" ]
+---
 
 ## Welcome to the Revolution
 
 Congratulations on joining the Business Presentation Revolution! Please check your email for a link to download the introduction, covering the 5 major revolutions that can help you to change the way you present, and outlining the 5-stage Presentation SCORE Method that you can follow. (If it didn’t arrive, please check your junk mail… sometimes even the most important messages arrive there.) You can also download the book introduction by clicking on the button below.
 
-{{% call-to-action button="Download the Book Introduction" link="https://www.ideasonstage.com/business-presentation-revolution/book/business-presentation-revolution-intro.pdf" %}}
+{{% call-to-action button="Download the Book Introduction" link="https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/business-presentation-revolution-intro.pdf" %}}
 
 You should also receive another email, asking you to confirm that you’d like to receive presentation tips and advice, and news about the book launch, webinars, etc. We’d love you to stay in touch so please click to confirm this. Of course you can unsubscribe at any time, so it’s up to us to give you useful content (without overloading your inbox) so you see the benefits. And naturally, we will not share your contact details with anyone outside Ideas on Stage.
 

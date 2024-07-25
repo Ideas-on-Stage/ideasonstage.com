@@ -1,14 +1,14 @@
-+++
-draft 	     	= "false"
-title 	 	   = "Evento de negocios increíble"
-date    		= "2019-09-09"
-cast    		= [ "Rose Bloomfield", "Michael Rickwood" ]
-description     = "Organizar un evento requiere una enorme dedicación de esfuerzo, tiempo y dinero. Sácale el máximo partido con estos tres consejos."
-translationKey  = "revolution/episode-00008"
+---
+draft: "false"
+title: "Evento de negocios increíble"
+date: "2019-09-09"
+cast: [ "Rose Bloomfield", "Michael Rickwood" ]
+description: "Organizar un evento requiere una enorme dedicación de esfuerzo, tiempo y dinero. Sácale el máximo partido con estos tres consejos."
+translationKey: "revolution/episode-00008"
 
-schema			= "VideoObject"
-embedurl		= "pCERROM6an0"
-+++
+schema: "VideoObject"
+embedurl: "pCERROM6an0"
+---
 
 {{< youtube pCERROM6an0 >}}
 

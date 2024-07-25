@@ -1,0 +1,27 @@
+en:
+    sectionid: "public-speaking-coaching"
+    title: "Public Speaking Coaching"
+    description: "We offer coaching for public speaking, media training, stage presence and delivery."
+    picture: "/img/inserts/home-business-events.jpg"
+    style: "bg-black"
+    layout: "inserts/module-picture-textright.html"
+    url: "/public-speaking-coaching/"
+    button: "Discover our public speaking coaching services"
+
+es:
+    sectionid: "public-speaking-coaching"
+    title: "Coaching Hablar en Público"
+    description: "Muestra tu mejor versión sobre el escenario."
+    picture: "/img/inserts/home-business-events.jpg"
+    style: "bg-black"
+    layout: "inserts/module-picture-textright.html"
+    url: "/es/coaching-para-hablar-en-publico/"
+
+fr:
+    sectionid: "public-speaking-coaching"
+    title: "Coaching en prise de parole"
+    description: "Nous offrons des services de coaching de prise de parole en public, de media training et de présence sur scène."
+    picture: "/img/inserts/home-business-events.jpg"
+    style: "bg-black"
+    layout: "inserts/module-picture-textright.html"
+    url: "/fr/coaching-prise-de-parole-en-public/"    

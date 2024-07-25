@@ -1,0 +1,27 @@
+en:
+    sectionid: "presentations-training"
+    title: "Presentations Training"
+    description: "Discover our presentation training programs to become a better speaker."
+    picture: "/img/training.jpg"
+    style: "bg-black"
+    layout: "inserts/module-picture-textright.html"
+    url: "/presentations-training/"
+    button: "Learn more about our public speaking training offer"
+
+es:
+    sectionid: "presentations-training"
+    title: "Formación Presentaciones"
+    description: "Cambia la cultura de las presentaciones en tu organización."
+    picture: "/img/training.jpg"
+    style: "bg-black"
+    layout: "inserts/module-picture-textright.html"
+    url: "/es/formacion-para-hablar-en-publico/"
+    
+fr:
+    sectionid: "public-speaking-training"
+    title: "Formations prise de parole en public"
+    description: "Découvrez nos formations en prise de parole. Organisme certifié Qualiopi."
+    picture: "/img/training.jpg"
+    style: "bg-black"
+    layout: "inserts/module-picture-textright.html"
+    url: "/fr/formations-prise-de-parole-en-public/"

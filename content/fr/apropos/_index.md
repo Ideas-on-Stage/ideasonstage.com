@@ -1,11 +1,18 @@
-+++
-draft 			= false
-title 			= "À propos"
-description		= "Agence spécialisée en présentation et en prise de parole en public pour les grands groupes internationaux."
-translationKey	= "about"
-pages			= "bottom"
-insertsbottom	= [ "team", "catalogue" ]
-+++
+---
+draft: false
+title: "À propos"
+description: "Agence spécialisée en présentation et en prise de parole en public pour les grands groupes internationaux."
+translationKey: "about"
+
+blocks:
+    - type: page-title
+    - type: page-breadcrumbs
+    - type: site-location
+    - type: page-content
+    - type: page-list
+    - type: data-module-list
+      datafilelist: [ team, catalogue ]
+---
 
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public. Dans un univers de conférences monotones et de réunions sans fin, vous vous démarquerez.
 

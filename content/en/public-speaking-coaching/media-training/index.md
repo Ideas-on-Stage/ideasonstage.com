@@ -1,10 +1,10 @@
-+++
-draft 			= false
-title 			= "Media Training"
-description		= "Professional coaching to prepare leaders for important media or conference appearances."
-picture			= "media-training.jpg"
-translationKey	= "public-speaking-coaching/media-training"
-+++
+---
+draft: false
+title: "Media Training"
+description: "Professional coaching to prepare leaders for important media or conference appearances."
+picture: "media-training.jpg"
+translationKey: "public-speaking-coaching/media-training"
+---
 
 ## Show the world the best version of yourself 
 

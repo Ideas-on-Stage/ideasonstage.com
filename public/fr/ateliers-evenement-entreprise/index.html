@@ -98,7 +98,7 @@
 	<body id="page-top" class="layout-page">
 		<!-- partials:page-nav.html:start -->
 <nav class="iosnavbar">
-	<div class="layout-module-content-width">
+	<div class="layout-content-width">
 		
 		
 		<div class="iosnavbar-brand">
@@ -190,40 +190,37 @@
 <!-- partials:page-nav.html:end -->
 		<main role="main">
 			
-				<!-- partials:page-hero.html:start -->
-
-
-
-
-	<header id="hero" class="layout-module-hero">
-		<div class="layout-module-layer">
-			<img src="/fr/ateliers-evenement-entreprise/workshops.jpg" alt="Ateliers pour vos évènements d&#39;entreprise">
-		</div>
-		<div class="layout-module-layer">
-			<div class="layout-page-title style-page-title-overlay">
-				
-					<h1 class="text-center"><!-- picture and h2 -->
-						Ateliers pour vos évènements d&rsquo;entreprise
-					</h1>
-				
-			</div>
-		</div>
-	</header>
-<!-- partials:page-hero.html:end -->
-
-				
-			
-			<!-- partials/revolution/breadcrumbs.html -->
-			
 	<!-- _default:list.html:main:start -->
-	<!-- partials:page-page-page-inserts-top.html:start -->
-
-	<!-- no top inserts -->
-
-<!-- partials:page-page-page-inserts-top.html:end -->
 	
-	<!-- partials:page-content.html:start -->
-<div class="layout-module-content">
+		
+			<!-- partials:page-hero.html:start -->
+
+	
+<header id="hero" class="layout-module-hero">
+	<div class="layout-module-layer">
+		<img src="/fr/ateliers-evenement-entreprise/workshops.jpg" alt="Ateliers pour vos évènements d&#39;entreprise">
+	</div>
+	<div class="layout-module-layer">
+		<div class="layout-page-title style-page-title-overlay">
+			
+				<h1 class="text-center"><!-- picture and h2 -->
+					Ateliers pour vos évènements d&rsquo;entreprise
+				</h1>
+			
+		</div>
+	</div>
+</header>
+<!-- partials:page-hero.html:end -->
+		
+		
+	
+		
+			<!-- partials/revolution/breadcrumbs.html -->
+		
+	
+		
+			<!-- partials:page-content.html:start -->
+<div class="layout-content">
 		<section id="content-main"><!-- shortcodes:call-to-action.html:start -->
 <div class="layout-shortcode-column flex-gap paddingv-medium ">
 	<div class="layout-shortcode-child">
@@ -390,8 +387,10 @@
 		</section>
 </div>
 <!-- partials:page-content.html:end -->
+		
 	
-		<!-- partials:page-list.html:start -->
+		
+			<!-- partials:page-list.html:start -->
 <section id="content-list" class="layout-module-group">
 	
 		
@@ -401,7 +400,7 @@
 				
 					
 					<!-- partials:inserts:link-picture2-text1.html:start -->
-<div class="layout-module-content ">
+<div class="layout-content ">
 	<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-big-gap">
     	<div class="flex-child flex-child-60p">
 			<a href="/fr/ateliers-evenement-entreprise/ateliers-lego-serious-play/" class="imagelink">
@@ -430,6 +429,7 @@
 </section>
 <!-- partials:page-list.html:end -->
 
+		
 	
 	<!-- _default:list.html:main:end -->
 
@@ -440,45 +440,45 @@
 	<div class="iosnavbar-buffer">
 		<!-- insert gap to avoid contact text covered by nav bar -->	  
 	</div>
-	<div class="layout-module-content">
-		<div class="centered style-module-text">
+	<div class="layout-content">
+		<div class="flex-parent flex-parent-column flex-align-center">
 			<h2 class="section-heading">
 				
 					Contactez-nous
 				
 			</h2>
-			<p>
+			<p class="text-center">
 				
 					Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement.
 				
 			</p>
 			
 		</div>
-	</div>
-	<div class="layout-module-content-narrow">
-		<form action="/fr/ateliers-evenement-entreprise/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-			<div class="iosform-group">
-				<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/fr/ateliers-evenement-entreprise/">
-			</div>
-			<div class="iosform-group">
-				<input type="text" id="fname" name="name" class="iosform-control" placeholder="Votre nom complet *" oninvalid="alert('Veuillez entrer votre nom complet.');" required>
-			</div>  
-			<div class="iosform-group">
-				<input type="email" id="email" name="email" class="iosform-control" placeholder="Votre email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entrer une adresse e-mail valide.');" required>
-			</div>
-			<div class="iosform-group">  
-				<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Votre téléphone (optionnel)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Veuillez entrer un numéro de téléphone valide.');">  
-			</div>
-			<div class="iosform-group">  
-				<input type="text" id="country" name="country" class="iosform-control" placeholder="Votre pays de résidence (optionnel)" oninvalid="alert('Veuillez entrer votre pays de résidence.');">
-			</div>
-			<div class="iosform-group">  
-				<textarea id="message" name="message" class="iosform-control" placeholder="Votre message *" oninvalid="alert('S\u0026rsquo;il vous plaît entrer un message.');" required></textarea>  	
-			</div>
-			<div class="iosform-button">
-				<input type="submit" id="contactsubmit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">	
-			</div>
-		</form>
+		<div class="layout-content-narrow">
+			<form action="/fr/ateliers-evenement-entreprise/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+				<div class="iosform-group">
+					<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/fr/ateliers-evenement-entreprise/">
+				</div>
+				<div class="iosform-group">
+					<input type="text" id="fname" name="name" class="iosform-control" placeholder="Votre nom complet *" oninvalid="alert('Veuillez entrer votre nom complet.');" required>
+				</div>  
+				<div class="iosform-group">
+					<input type="email" id="email" name="email" class="iosform-control" placeholder="Votre email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entrer une adresse e-mail valide.');" required>
+				</div>
+				<div class="iosform-group">
+					<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Votre téléphone (optionnel)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Veuillez entrer un numéro de téléphone valide.');">  
+				</div>
+				<div class="iosform-group">
+					<input type="text" id="country" name="country" class="iosform-control" placeholder="Votre pays de résidence (optionnel)" oninvalid="alert('Veuillez entrer votre pays de résidence.');">
+				</div>
+				<div class="iosform-group">
+					<textarea id="message" name="message" class="iosform-control" placeholder="Votre message *" oninvalid="alert('S\u0026rsquo;il vous plaît entrer un message.');" required></textarea>  	
+				</div>
+				<div class="iosform-button">
+					<input type="submit" id="contactsubmit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">	
+				</div>
+			</form>
+		</div>
 	</div>
 </section><!-- contact end -->
 </div>
@@ -487,7 +487,7 @@
 		</aside>
 		<footer class="footer">
 			<!-- partials:page-footer.html:start -->
-<div class="layout-module-content marginv-none paddingv-medium">
+<div class="layout-content marginv-none paddingv-medium">
 	<div class= "flex-parent flex-parent-row flex-gap">
 		
 			<div class="flex-child flex-child-25p">

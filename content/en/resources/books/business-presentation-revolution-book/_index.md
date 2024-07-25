@@ -1,11 +1,13 @@
-+++
-draft 			= false
-title 			= "Business Presentation Revolution - The Book"
-description		= "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution."
-showrefs		= false
-hidepagelist	= true
-urlredirect		= ""
-+++
+---
+draft: false
+title: "Business Presentation Revolution - The Book"
+description: "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution."
+
+blocks:
+- type: page-title
+- type: page-breadcrumbs
+- type: page-content
+---
 
 ## Business Presentation Revolution – The Book
 

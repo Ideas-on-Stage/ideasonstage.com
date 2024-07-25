@@ -1,17 +1,21 @@
-+++
-draft 			= false
-title 			= "Le guide pratique de l'organisateur d'événements"
-description		= "Tout ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables."
-categories		= [ "Événements d'entreprise" ]
-showrefs		= false
-url		 		= "/fr/guide-organisateur-evenement-entreprise/"
-translationKey  = "guides/event-organizer-guide"
-picture			= "organisateur-evenement.jpg"
-summary			= "Nous avons rassemblé ici ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables… et faire de l’événementiel un véritable atout stratégique ! Les événements se présentent sous différentes formes et formats, mais les principes de base de l’organisation sont les mêmes pour tous. La clé d’un événement réussi est de s’assurer qu’il est bien planifié et qu’il répond en tous points aux besoins de votre cible."
-weight			= 60
+---
+draft: false
+title: "Le guide pratique de l'organisateur d'événements"
+description: "Tout ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables."
+categories: [ "Événements d'entreprise" ]
+showrefs: false
+url: "/fr/guide-organisateur-evenement-entreprise/"
+translationKey: "guides/event-organizer-guide"
+picture: "organisateur-evenement.jpg"
+summary: "Nous avons rassemblé ici ce dont vous avez besoin pour organiser un événement professionnel réussi. Ce guide vous accompagnera à chaque étape de l’organisation, afin de limiter les imprévus, les oublis et les moments de stress indésirables… et faire de l’événementiel un véritable atout stratégique ! Les événements se présentent sous différentes formes et formats, mais les principes de base de l’organisation sont les mêmes pour tous. La clé d’un événement réussi est de s’assurer qu’il est bien planifié et qu’il répond en tous points aux besoins de votre cible."
 
-insertsbottom = [ "public-speaking-training", "public-speaking-coaching" ]
-+++
+blocks:
+    - type: page-hero
+    - type: page-breadcrumbs
+    - type: page-content
+    - type: data-module-list
+      datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
+---
 
 ## À propos de l'auteur
 Marine Bénard est coordinatrice d'événements et chef de projet chez Ideas on Stage, une société spécialisée dans les présentations et les événements d’entreprise. Auparavant, elle a travaillé en agence événementielle et pour un organisateur international de salons, et a aidé à organiser des événements professionnels et grand public de grande renommée. Elle transforme vos conférences et réunions classiques en événements dynamiques et mémorables.

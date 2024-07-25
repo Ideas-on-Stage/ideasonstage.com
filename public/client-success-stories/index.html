@@ -95,7 +95,7 @@
 	<body id="page-top" class="layout-page">
 		<!-- partials:page-nav.html:start -->
 <nav class="iosnavbar">
-	<div class="layout-module-content-width">
+	<div class="layout-content-width">
 		
 		
 		<div class="iosnavbar-brand">
@@ -180,12 +180,9 @@
 <!-- partials:page-nav.html:end -->
 		<main role="main">
 			
-				<!-- partials:page-hero.html:start -->
-
-
-
-
+	<!-- _default:list.html:main:start -->
 	
+		<!-- partials:page-hero.html:start -->
 		<header id="title" class="layout-module-title">
 			<div class="layout-page-title style-page-title">
 				<h1>
@@ -193,22 +190,17 @@
 				</h1>
 			</div>
 		</header>
-	
-		
+			
 
 <!-- partials:page-hero.html:end -->
 
-				
-			
-			<!-- partials/revolution/breadcrumbs.html -->
-			
-	<!-- _default:list.html:main:start -->
-	<!-- partials:page-page-page-inserts-top.html:start -->
-
-	<!-- no top inserts -->
-
-<!-- partials:page-page-page-inserts-top.html:end -->
-	
+		<!-- partials/revolution/breadcrumbs.html -->
+		<!-- partials:page-content.html:start -->
+<div class="layout-content">
+		<section id="content-main"> 
+		</section>
+</div>
+<!-- partials:page-content.html:end -->
 		<!-- partials:page-list.html:start -->
 <section id="content-list" class="layout-module-group">
 	
@@ -216,72 +208,11 @@
 		
 			
 			
-				
-					
-					<!-- partials:inserts:link-picture2-text1.html:start -->
-<div class="layout-module-content ">
-	<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-big-gap">
-    	<div class="flex-child flex-child-60p">
-			<a href="/client-success-stories/martech-trophies-ceremony-by-cmit/" class="imagelink">
-	
-<img src="/client-success-stories/martech-trophies-ceremony-by-cmit/cmit_story.jpg" alt="MarTech Trophies Ceremony by CMIT">
-</a>
-    	</div>
-		<div class="flex-child flex-child-40p">
-			<div class="paddingv-small">
-			<a href="/client-success-stories/martech-trophies-ceremony-by-cmit/">
-
-	<h3>MarTech Trophies Ceremony by CMIT</h3>
-	<p>Discover how startups were prepared before the MarTech Trophies Ceremony by CMIT.</p></a>
-
-			
-<a href="/client-success-stories/martech-trophies-ceremony-by-cmit/" class="button-secondary">Learn More</a>
-			</div>
-		</div>
-    </div>
-</div>
-<!-- partials:inserts:link-picture2-text1.html:end -->
-				
-			
-				
-					
-					<!-- partials:inserts:link-picture2-text1.html:start -->
-<div class="layout-module-content ">
-	<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-big-gap">
-    	<div class="flex-child flex-child-60p">
-			<a href="/client-success-stories/tedx-tours-2019/" class="imagelink">
-	
-<img src="/client-success-stories/tedx-tours-2019/tedx-tours-2019-1.jpg" alt="TEDx Tours 2019">
-</a>
-    	</div>
-		<div class="flex-child flex-child-40p">
-			<div class="paddingv-small">
-			<a href="/client-success-stories/tedx-tours-2019/">
-
-	<h3>TEDx Tours 2019</h3>
-	<p>How to create a great TEDx event, with Fabien Boutard, curator of TEDx Tours</p></a>
-
-			
-<a href="/client-success-stories/tedx-tours-2019/" class="button-secondary">Learn More</a>
-			</div>
-		</div>
-    </div>
-</div>
-<!-- partials:inserts:link-picture2-text1.html:end -->
-				
-			
 		
 	
 </section>
 <!-- partials:page-list.html:end -->
 
-	
-	<!-- partials:page-content.html:start -->
-<div class="layout-module-content">
-		<section id="content-main"> 
-		</section>
-</div>
-<!-- partials:page-content.html:end -->
 	
 	<!-- _default:list.html:main:end -->
 
@@ -292,45 +223,45 @@
 	<div class="iosnavbar-buffer">
 		<!-- insert gap to avoid contact text covered by nav bar -->	  
 	</div>
-	<div class="layout-module-content">
-		<div class="centered style-module-text">
+	<div class="layout-content">
+		<div class="flex-parent flex-parent-column flex-align-center">
 			<h2 class="section-heading">
 				
 					Contact us
 				
 			</h2>
-			<p>
+			<p class="text-center">
 				
 					Any questions? Use the form below and we&rsquo;ll get back to you shortly
 				
 			</p>
 			
 		</div>
-	</div>
-	<div class="layout-module-content-narrow">
-		<form action="/client-success-stories/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-			<div class="iosform-group">
-				<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/client-success-stories/">
-			</div>
-			<div class="iosform-group">
-				<input type="text" id="fname" name="name" class="iosform-control" placeholder="Your Name *" oninvalid="alert('Please enter your name.');" required>
-			</div>  
-			<div class="iosform-group">
-				<input type="email" id="email" name="email" class="iosform-control" placeholder="Your Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Please enter a valid email address.');" required>
-			</div>
-			<div class="iosform-group">  
-				<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Your Phone (optional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Please enter a valid phone number.');">  
-			</div>
-			<div class="iosform-group">  
-				<input type="text" id="country" name="country" class="iosform-control" placeholder="Your country of residence (optional)" oninvalid="alert('Please enter your country of residence.');">
-			</div>
-			<div class="iosform-group">  
-				<textarea id="message" name="message" class="iosform-control" placeholder="Let us know how we can help you *" oninvalid="alert('Please enter a message.');" required></textarea>  	
-			</div>
-			<div class="iosform-button">
-				<input type="submit" id="contactsubmit" value="Send message" class="button-primary" success="Thank you, we&#39;ll get back to you shortly." wait="Please Wait...">	
-			</div>
-		</form>
+		<div class="layout-content-narrow">
+			<form action="/client-success-stories/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+				<div class="iosform-group">
+					<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/client-success-stories/">
+				</div>
+				<div class="iosform-group">
+					<input type="text" id="fname" name="name" class="iosform-control" placeholder="Your Name *" oninvalid="alert('Please enter your name.');" required>
+				</div>  
+				<div class="iosform-group">
+					<input type="email" id="email" name="email" class="iosform-control" placeholder="Your Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Please enter a valid email address.');" required>
+				</div>
+				<div class="iosform-group">
+					<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Your Phone (optional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Please enter a valid phone number.');">  
+				</div>
+				<div class="iosform-group">
+					<input type="text" id="country" name="country" class="iosform-control" placeholder="Your country of residence (optional)" oninvalid="alert('Please enter your country of residence.');">
+				</div>
+				<div class="iosform-group">
+					<textarea id="message" name="message" class="iosform-control" placeholder="Let us know how we can help you *" oninvalid="alert('Please enter a message.');" required></textarea>  	
+				</div>
+				<div class="iosform-button">
+					<input type="submit" id="contactsubmit" value="Send message" class="button-primary" success="Thank you, we&#39;ll get back to you shortly." wait="Please Wait...">	
+				</div>
+			</form>
+		</div>
 	</div>
 </section><!-- contact end -->
 </div>
@@ -339,7 +270,7 @@
 		</aside>
 		<footer class="footer">
 			<!-- partials:page-footer.html:start -->
-<div class="layout-module-content marginv-none paddingv-medium">
+<div class="layout-content marginv-none paddingv-medium">
 	<div class= "flex-parent flex-parent-row flex-gap">
 		
 			<div class="flex-child flex-child-25p">
@@ -433,7 +364,7 @@
 						</li>
 					
 						<li class="footer-category-sub">
-							<a href="/references/">
+							<a href="/about/references/">
 								References
 							</a>
 						</li>

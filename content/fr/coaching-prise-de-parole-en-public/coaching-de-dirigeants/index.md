@@ -1,10 +1,10 @@
-+++
-draft 			= false
-title 			= "Coaching en prise de parole pour dirigeants"
-description		= "Développez votre présence sur scène. Devenez un leader charismatique."
-picture			= "public-speaking-coaching-10.jpg"
-translationKey	= "public-speaking-coaching/executive-coaching"
-+++
+---
+draft: false
+title: "Coaching en prise de parole pour dirigeants"
+description: "Développez votre présence sur scène. Devenez un leader charismatique."
+picture: "public-speaking-coaching-10.jpg"
+translationKey: "public-speaking-coaching/executive-coaching"
+---
 
 ## Soyez un leader sur scène
 

@@ -1,25 +1,56 @@
 {{ define "main" }}
 	{{ "<!-- training:list.html:main:start -->" | safeHTML }}
-	{{ partial "page-inserts-top.html" . }}
-	{{ if not (isset .Params "pages") }}
-		{{ partial "page-list.html" . }}
-	{{ else if eq "top" .Params.pages  }}
-		{{ partial "page-list.html" . }}
-	{{ end }}
-	<div class="layout-module-content">
-		<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-big-gap">
-			<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
-				<div class="scroller">
-					{{ partial "sidebar/sidebar-menu.html" . }}
+	{{ range page.Params.blocks }}
+		{{ if eq .type "data-cta" }}
+			{{ partial "b/cta" . }}
+		{{ else if eq .type "data-module-list" }}
+			{{ partial "b/modules.html" . }}
+		{{ else if eq .type "data-reference-list" }}
+			{{ partial "b/references.html" . }}
+		{{ else if eq .type "data-testimonial-list" }}
+			{{ partial "b/testimonials.html" . }}
+		{{ else if eq .type "page-breadcrumbs" }}
+			{{ partial "b/page-breadcrumbs.html" page }}
+		{{ else if eq .type "page-content" }}
+			<div class="layout-content">
+				<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-big-gap">
+					<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
+						<div class="scroller">
+							{{ partial "sidebar/sidebar-menu.html" page }}
+						</div>
+					</aside>
+					<article id="content-main" class="flex-child flex-child-67p">
+						{{ with page.Content }}{{ . }}{{ end }}
+					</article>
 				</div>
-			</aside>
-			<article id="content-main" class="flex-child flex-child-67p">
-				{{ with .Content }}{{ . }}{{ end }}
-			</article>
+			</div>
+		{{ else if eq .type "page-hero" }}
+			{{ partial "b/page-hero" page }}		
+		{{ else if eq .type "page-list" }}
+			{{ partial "b/page-list" page }}
+		{{ else if eq .type "page-title" }}
+			{{ partial "b/page-title" page }}
+		{{ else if eq .type "site-location" }}
+			{{ partial "b/location.html" . }}
+		{{ else }}
+			<p>Unknown block type</p>
+		{{ end }}
+	{{ else }}
+		{{ partial "b/page-title" . }}
+		{{ partial "b/page-breadcrumbs.html" . }}
+		<div class="layout-content">
+			<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-big-gap">
+				<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
+					<div class="scroller">
+						{{ partial "sidebar/sidebar-menu.html" . }}
+					</div>
+				</aside>
+				<article id="content-main" class="flex-child flex-child-67p">
+					{{ with .Content }}{{ . }}{{ end }}
+				</article>
+			</div>
 		</div>
-	</div>
-	{{ if eq "bottom" .Params.pages  }}
-		{{ partial "page-list.html" . }}
+		{{ partial "b/page-list" page }}
 	{{ end }}
 	{{ "<!-- training:list.html:main:end -->" | safeHTML }}
 {{ end }}

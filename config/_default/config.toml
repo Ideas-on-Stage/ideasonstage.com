@@ -61,7 +61,7 @@ title 					= "Ideas on Stage"
 		midgray		= "#888"
 		blue		= "#00A3E0"
 		orange		= "#FF8200"
-				
+		
 	# ---------------------
 	# Layout
 	[params.layout]
@@ -272,7 +272,7 @@ title 					= "Ideas on Stage"
 					url		= "/team/"
 			[[languages.en.params.navigation.footer.items]]
 					name	= "References"
-					url		= "/references/"
+					url		= "/about/references/"
 		[[languages.en.params.navigation.footer]]
 					name = "Contact Us"
 			[[languages.en.params.navigation.footer.items]]
@@ -648,7 +648,7 @@ title 					= "Ideas on Stage"
 				url		= "/es/equipo/"
 			[[languages.es.params.navigation.footer.items]]	
 				name	= "Referencias"
-				url		= "/es/referencias/"
+				url		= "/es/acerca-de-nosotros/referencias/"
 		[[languages.es.params.navigation.footer]]	
 			name	= "Contacto"
 			[[languages.es.params.navigation.footer.items]]	

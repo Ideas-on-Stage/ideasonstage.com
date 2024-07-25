@@ -1,14 +1,16 @@
-+++
-draft 			= false
-title 			= "Coaching prise de parole en public"
-description		= "Développez votre éloquence et votre présence sur scène. Devenez un leader charismatique."
-translationKey	= "public-speaking-coaching"
-picture			= "wikistage-wbg-2015.jpg"
-enablehero		= true
-weight			= 20
-hidepagelist	= true
-	
-+++
+---
+draft: false
+title: "Coaching prise de parole en public"
+description: "Développez votre éloquence et votre présence sur scène. Devenez un leader charismatique."
+picture: "wikistage-wbg-2015.jpg"
+translationKey: "public-speaking-coaching"
+
+blocks:
+- type: "page-hero"
+- type: "page-breadcrumbs"
+- type: "page-content"
+- type: "page-list"
+---
 
 La prise de parole, ou art oratoire, est un ensemble de techniques qui permettent de communiquer son message efficacement face à un auditoire, que celui-ci soit constitué d’une ou de plusieurs milliers de personnes. Parmi les techniques clés de la prise de parole, on peut citer :
 
@@ -29,11 +31,11 @@ Notre service de coaching en prise de parole est taillé sur mesure. Que vous so
 Notre expérience montre l’importance de la répétition dans la préparation. C’est pourquoi le programme de notre coaching se déroule sur plusieurs séances individuelles. Nous adaptons le programme en fonction des forces et points d’amélioration de chacun, mais ci-dessous vous trouverez un exemple type.
 
 {{< agenda-list style="bg-lightgray" title="Exemple de programme de coaching">}}
-	{{< agenda-item title="ENTRETIEN PRÉLIMINAIRE" description="Définition des attentes, du contexte et des objectifs du coaching. Définition et explication du plan de travail los des séances à venir (le coaching est un travail collaboratif entre coach et intervenant)." >}}
-	{{< agenda-item title="PRÉPARATION" description="L'intervenant rassemble les informations nécessaires pour sa présentation (données, informations, visuels, …) et crée une première version de l'histoire qu'il envoie au coach qui effectue un travail de préparation de la séance 1." >}}
-	{{< agenda-item title="SÉANCE 1 - HISTOIRE" description="Le coach et l'intervenant revoient ensemble les pistes d'amélioration de l'histoire et des visuels utilisés. Si possible, une première répétition « sur scène » est effectuée pour définir le travail sur la partie oratoire." >}}
-	{{< agenda-item title="SÉANCE 2 - PRÉSENCE" description="Sur base de la séance précédente, le coach accompagne l'intervenant pour améliorer sa présence sur scène. Il le conseille pour donner plus d'impact à l'histoire et aux messages clés." >}}
-	{{< agenda-item title="SÉANCE 3 - RÉPÉTITION FINALE" description="Lors de cette dernière séance, le coach travaille pour valider tous les acquis de l'intervenant et s'assurer que tous les automatismes et réflexes sont en place pour la présentation définitive." >}}
+    {{< agenda-item title="ENTRETIEN PRÉLIMINAIRE" description="Définition des attentes, du contexte et des objectifs du coaching. Définition et explication du plan de travail los des séances à venir (le coaching est un travail collaboratif entre coach et intervenant)." >}}
+    {{< agenda-item title="PRÉPARATION" description="L'intervenant rassemble les informations nécessaires pour sa présentation (données, informations, visuels, …) et crée une première version de l'histoire qu'il envoie au coach qui effectue un travail de préparation de la séance 1." >}}
+    {{< agenda-item title="SÉANCE 1 - HISTOIRE" description="Le coach et l'intervenant revoient ensemble les pistes d'amélioration de l'histoire et des visuels utilisés. Si possible, une première répétition « sur scène » est effectuée pour définir le travail sur la partie oratoire." >}}
+    {{< agenda-item title="SÉANCE 2 - PRÉSENCE" description="Sur base de la séance précédente, le coach accompagne l'intervenant pour améliorer sa présence sur scène. Il le conseille pour donner plus d'impact à l'histoire et aux messages clés." >}}
+    {{< agenda-item title="SÉANCE 3 - RÉPÉTITION FINALE" description="Lors de cette dernière séance, le coach travaille pour valider tous les acquis de l'intervenant et s'assurer que tous les automatismes et réflexes sont en place pour la présentation définitive." >}}
 {{< /agenda-list >}}
 
 {{< image-wide src="/img/image-wide/working-001.jpg" alt="Coaching" >}}

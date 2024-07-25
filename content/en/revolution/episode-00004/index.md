@@ -1,14 +1,14 @@
-+++
-draft           = "false"
-title           = "Carts and Horses"
-date            = "2019-03-05"
-cast		= [ "Phil Waknell", "Rose Bloomfield" ]
-description	= "If you just found out you need to give a 15-minute presentation tomorrow, how would you prepare? Would you put the cart before the horse? Most people do."
-translationKey  = "revolution/episode-00004"
+---
+draft: "false"
+title: "Carts and Horses"
+date: "2019-03-05"
+cast: [ "Phil Waknell", "Rose Bloomfield" ]
+description: "If you just found out you need to give a 15-minute presentation tomorrow, how would you prepare? Would you put the cart before the horse? Most people do."
+translationKey: "revolution/episode-00004"
 
-schema			= "VideoObject"
-embedurl			= "Vx78LJvHXyA"
-+++
+schema: "VideoObject"
+embedurl: "Vx78LJvHXyA"
+---
 
 If you just found out you need to give a 15-minute presentation tomorrow, how would you prepare? Would you put the cart before the horse? Most people do. But fear not, the latest episode of the Business Presentation Revolution Podcast is here to help! Take just five minutes to learn about the simple change that will put the horse before the cart, and you in the driver’s seat. Join Rose as she discusses a foolproof process to prepare a presentation with Phil Waknell, Co-Founder and Chief Inspiration Officer at Ideas on Stage.
 

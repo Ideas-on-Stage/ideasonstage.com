@@ -1,14 +1,14 @@
-+++
-draft			= false
-title			= "Phil Waknell | Chief Inspiration Officer"
-description		= "Phil Waknell es uno de los socios fundadores de Ideas on Stage ubicado en París"
-name			= "Phil Waknell"
-picture			= "phil-waknell.jpg"
-position	 	= "Chief Inspiration Officer"
-translationKey	= "team/phil-waknell"
-weight			= 110
-type			= "team"
-+++
+---
+draft: false
+title: "Phil Waknell | Chief Inspiration Officer"
+description: "Phil Waknell es uno de los socios fundadores de Ideas on Stage ubicado en París"
+name: "Phil Waknell"
+picture: "phil-waknell.jpg"
+position: "Chief Inspiration Officer"
+translationKey: "team/phil-waknell"
+weight: 110
+type: "team"
+---
 Phil Waknell es uno de los mayores expertos europeos líderes en el nuevo arte de presentar, y habla habitualmente en grandes corporaciones y conferencias acerca de la necesidad de mejorar la forma en que las compañías se comunican. Da clases de presentaciones de empresa en HEC Paris Executive Education, una de las principales escuelas de negocios en Europa, y es co-autor de 'The Business Presentation Revolution'.
 
 Phil ha ayudado a cientos de empresarios y speakers TED(x) a preparar y exponer presentaciones impactantes; ha entrenado a directivos de múltiples empresas europeas y ha impartido cursos y talleres en eventos por todo el mundo.

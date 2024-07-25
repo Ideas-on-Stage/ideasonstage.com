@@ -1,15 +1,14 @@
-+++
-draft 			= false
-title 			= "The event organizer's guide"
-description	    = "The keys to organize a successful business event. Eliminate unforeseen events, omissions and last-minute panic and turn event management into a strategic asset for your company."
-weight			= 1
-categories  	= [ "Business Events" ]
-showrefs		= false
-url 			= "/event-organizer-guide/"
-translationKey  = "guides/event-organizer-guide"
-picture		 	= "event-organizer.jpg"
-summary			= "This guide will give you the keys to organize a successful business event. Each step of the organization process is explained. Eliminate unforeseen circumstances, omissions and last-minute panic and turn event management into a strategic asset for your company. Events come in all shapes and sizes, but the principles of organization are always the same. The key to a successful event is making sure it’s well planned and that it meets all of your targeted expectations."
-+++
+---
+draft: false
+title: "The event organizer's guide"
+description: "The keys to organize a successful business event. Eliminate unforeseen events, omissions and last-minute panic and turn event management into a strategic asset for your company."
+categories: [ "Business Events" ]
+url: "/event-organizer-guide/"
+translationKey: "guides/event-organizer-guide"
+picture: "event-organizer.jpg"
+summary: "This guide will give you the keys to organize a successful business event. Each step of the organization process is explained. Eliminate unforeseen circumstances, omissions and last-minute panic and turn event management into a strategic asset for your company. Events come in all shapes and sizes, but the principles of organization are always the same. The key to a successful event is making sure it’s well planned and that it meets all of your targeted expectations."
+---
+
 ## About the author
 Marine Bénard is event coordinator and project manager at Ideas on Stage, a company specializing in presentations and corporate events. Previously, she worked for event agencies and an international exhibition company, and helped organize several high-profile events. She turns business conferences and meetings into dynamic, memorable events, working with organizers and senior management to develop agendas, set up the logistical aspects and prepare speakers that make a lasting impact.
 

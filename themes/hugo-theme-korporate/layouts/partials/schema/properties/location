@@ -1,2 +1,0 @@
-{{- $data := index site.Data.schema.locations . -}}
-{ "@type": "{{ $data.type }}", "name": "{{ $data.name }}"{{ with $data.address }}, "address": {{ (partial "schema/properties/address" .) }}{{ end }}{{ with $data.url }}, "url": "{{ $data.url }}"{{ end }} }

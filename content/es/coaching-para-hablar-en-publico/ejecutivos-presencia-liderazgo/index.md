@@ -1,10 +1,10 @@
-+++
-draft 			= false
-title 			= "Coaching ejecutivo para hablar en público"
-description		= "Habla en público como el líder al que todos quieren seguir, añade técnicas de oratoria a tu estilo ejecutivo y aumenta tu presencia e impacto"
-translationKey	= "public-speaking-coaching/executive-coaching"
-picture			= "public-speaking-coaching-10.jpg"
-+++
+---
+draft: false
+title: "Coaching ejecutivo para hablar en público"
+description: "Habla en público como el líder al que todos quieren seguir, añade técnicas de oratoria a tu estilo ejecutivo y aumenta tu presencia e impacto"
+translationKey: "public-speaking-coaching/executive-coaching"
+picture: "public-speaking-coaching-10.jpg"
+---
 
 ## Lidera desde el escenario
 

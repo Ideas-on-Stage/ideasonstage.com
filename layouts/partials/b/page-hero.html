@@ -1,0 +1,23 @@
+{{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
+
+{{/* <!-- get hero picture if there is one available --> */}}
+{{- $heropath := partial "f/getheropicturepath" . }}	
+<header id="hero" class="layout-module-hero">
+	<div class="layout-module-layer">
+		<img src="{{ $heropath }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
+	</div>
+	<div class="layout-module-layer">
+		<div class="layout-page-title style-page-title-overlay">
+			{{ if eq true $.Page.Params.Heroh2 }}
+				<h2 class="text-center">{{ "<!-- picture and h1 -->" | safeHTML }}
+					{{ with .Title }}{{ . | markdownify }}{{ end }}
+				</h2>
+			{{ else }}
+				<h1 class="text-center">{{ "<!-- picture and h2 -->" | safeHTML }}
+					{{ with .Title }}{{ . | markdownify }}{{ end }}
+				</h1>
+			{{ end }}
+		</div>
+	</div>
+</header>
+{{ "<!-- partials:page-hero.html:end -->" | safeHTML }}

@@ -1,0 +1,32 @@
+en:
+    picture: "/ultimate-public-speaking-guide/public-speaking.jpg"
+    title: "PUBLIC SPEAKING GUIDE"
+    level: "h2"
+    description: "Our guide to master the art of public speaking."
+    color: "text-white"	
+    opacity: "30"
+    button:
+        text: "READ OUR GUIDE"
+        link: "/ultimate-public-speaking-guide/"			
+
+es:
+    date: "2023-09-05"
+    picture: "/es/guia-definitiva-hablar-en-publico/hablar-en-publico.es.jpg"
+    title: "LA GUÍA DEFINITIVA PARA HABLAR EN PÚBLICO"
+    description: "Usa estas técnicas para comunicarte de forma efectiva."
+    color: "text-white"	
+    opacity: "30"
+    button:
+        text: "Leer la guía"
+        link: "/es/guia-definitiva-hablar-en-publico/"
+
+fr:
+    picture: "/fr/guide-ultime-prise-de-parole-en-public/prise-de-parole-en-public.fr.jpg"
+    title: "GUIDE DE LA PRISE DE PAROLE EN PUBLIC"
+    level: "h2"
+    description: "Notre guide pour maîtriser les techniques de l'art oratoire."
+    color: "text-white"    
+    opacity: "30"
+    button:
+        text: "LIRE LE GUIDE"
+        link: "/fr/guide-ultime-prise-de-parole-en-public/"

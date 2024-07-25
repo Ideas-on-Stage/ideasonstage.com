@@ -1,14 +1,14 @@
-+++
-draft 		= "false"
-title 		= "Transformación"
-date		= "2019-01-07"
-cast		= [ "Phil Waknell", "Rose Bloomfield" ]
-description	= "Descubre cuál es la pregunta más importante que tienes que hacerte para conseguir que tu presentación sea un éxito"
-translationKey  = "revolution/episode-00001"
+---
+draft: "false"
+title: "Transformación"
+date: "2019-01-07"
+cast: [ "Phil Waknell", "Rose Bloomfield" ]
+description: "Descubre cuál es la pregunta más importante que tienes que hacerte para conseguir que tu presentación sea un éxito"
+translationKey: "revolution/episode-00001"
 
-schema			= "VideoObject"
-embedurl			= "dUXonT_Vom8"
-+++
+schema: "VideoObject"
+embedurl: "dUXonT_Vom8"
+---
 
 Las presentaciones son para transformar, no para informar. Descubre cuál es la pregunta más importante que tienes que hacerte para conseguir que tu presentación sea un éxito. Invitado: Phil Waknell
 

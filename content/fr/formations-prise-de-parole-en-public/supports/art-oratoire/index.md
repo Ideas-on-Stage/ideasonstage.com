@@ -1,8 +1,8 @@
-+++
-title	  		= "Support de la formation Art Oratoire"
-showtoc	  	= true
-ni					= true
-+++
+---
+title: "Support de la formation Art Oratoire"
+showtoc: true
+ni: true
+---
 
 ## Introduction
 

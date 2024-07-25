@@ -1,14 +1,14 @@
-+++
-draft			= "false"
-title			= "Il était une fois le storytelling d’entreprise"
-date			= "2019-10-01"
-cast			= [ "Rose Bloomfield", "Pierre Morsa" ]
-description		= "Découvrez comment utiliser le storytelling en entreprise."
-translationKey	= "revolution/episode-00009"
-type			= "revolution"
-schema			= "VideoObject"
-embedurl		= "kihTh9ap35M"
-+++
+---
+draft: "false"
+title: "Il était une fois le storytelling d’entreprise"
+date: "2019-10-01"
+cast: [ "Rose Bloomfield", "Pierre Morsa" ]
+description: "Découvrez comment utiliser le storytelling en entreprise."
+translationKey: "revolution/episode-00009"
+type: "revolution"
+schema: "VideoObject"
+embedurl: "kihTh9ap35M"
+---
 
 {{< youtube kihTh9ap35M >}}
 

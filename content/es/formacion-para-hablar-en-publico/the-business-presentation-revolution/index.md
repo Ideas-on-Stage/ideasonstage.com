@@ -1,10 +1,10 @@
-+++
-draft			= false
-title			= "Revoluciona tus presentaciones"
-description 	= "Con nuestro curso de referencia as presentaciones de tu equipo aumentarán su eficacia e impacto desde el primer día"
-translationKey	= "presentations-training/the-business-presentation-revolution"
-picture			= "image.jpg"
-+++
+---
+draft: false
+title: "Revoluciona tus presentaciones"
+description: "Con nuestro curso de referencia as presentaciones de tu equipo aumentarán su eficacia e impacto desde el primer día"
+translationKey: "presentations-training/the-business-presentation-revolution"
+picture: "image.jpg"
+---
 
 ## Forma a tus equipos para que hagan presentaciones de calidad TED
 

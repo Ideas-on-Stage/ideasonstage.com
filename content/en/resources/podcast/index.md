@@ -1,10 +1,9 @@
-+++
-draft			= false
-title			= "The Ideas on Stage Podcast"
-description 	= "The Ideas on Stage Podcast"
-url				= "/resources/podcast/"
-ni				= true
-+++
+---
+draft: false
+title: "The Ideas on Stage Podcast"
+description: "The Ideas on Stage Podcast"
+url: "/resources/podcast/"
+---
 
 {{< img src="/resources/podcast/RVOimwZI.jpeg" class="centered" width="250px" >}}
 
