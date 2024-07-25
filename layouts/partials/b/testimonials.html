@@ -1,30 +1,30 @@
 {{ "<!-- partials:home:testimonials.html:start -->" | safeHTML }}	
-<section id="testimonials" class="layout-module-group layout-module-group-norowgap bg-lightgrey">
-	<div class="flex-parent-scroll flex-gap ios-scrollbar">
+<section id="testimonials" class="layout-module-group bg-lightgrey">
+	<div class="testimonials flex-parent flex-parent-scroll flex-gap ios-scrollbar">
 		{{ range .datafilelist }}
 			{{ $data := index site.Data.testimonials . }}
 			{{ if $data }}
 				{{ $localizeddata := index $data site.LanguageCode }}
 				{{ with $localizeddata }}
-					<div class="flex-child iostestimonials-item">
+					<div class="flex-child testimonials-item">
 						<div class="flex-parent flex-parent-column">
 							{{ with .text }}
-								<p class="iostestimonials-text">
+								<p class="testimonials-text">
 									{{ . }}
 								</p>
 							{{ end }}
 							<div class="flex-parent flex-parent-row flex-justify-start flex-gap">
 								{{ if .img }}
-									<div class="flex-child flex-child-20p iostestimonials-picture">
+									<div class="flex-child flex-child-20p testimonials-picture">
 										<img class="" alt="{{ .name }}" src="{{ .img }}">
 									</div>
 								{{ end }}
 								<div class="flex-child flex-child-80p">
 									{{ with .name }}
-										<h4 class="iostestimonials-name">{{ . }}</h4>
+										<h4 class="testimonials-name">{{ . }}</h4>
 									{{ end }}
 									{{ with .position }}
-										<p class="iostestimonials-position">{{ . }}</p>
+										<p class="testimonials-position">{{ . }}</p>
 									{{ end }}
 								</div>
 							</div>

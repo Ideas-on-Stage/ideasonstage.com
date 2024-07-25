@@ -1,8 +1,10 @@
 <header>
 	<div class="bg-dark paddingt-tiny bg-dark centered">
-		<h1 class="text-base">
-			{{- with .Title }}{{ . | markdownify  }}{{ end -}}
-		</h1>
+		<div class="layout-content-width">
+			<h1 class="text-base">
+				{{- with .Title }}{{ . | markdownify  }}{{ end -}}
+			</h1>
+		</div>
 	</div>
 </header>
 <aside>

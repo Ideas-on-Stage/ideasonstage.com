@@ -894,6 +894,10 @@
 			width: 100%;
 			height: inherit;
 		}
+		.layout-module .layout-module-layer,
+		.layout-module-half .layout-module-layer {
+			height: var(--module-ts-height);
+		}
 		
 	}
 	
@@ -1889,24 +1893,30 @@
 
 /* @group Testimonials */
 
-	.iostestimonials-item {
+	.testimonials-item {
 		flex-basis: 30vw;
 	}	
 	
-	.iostestimonials-picture img {
+	.testimonials-picture img {
 		width: 60px;
 		height: 60px;
 		border-radius: 30px;
 	}
 	
-	.iostestimonials-position {
+	.testimonials-position {
 		margin: 0;
 	}
 	
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
-		
-		.iostestimonials-item {
+	
+		.testimonials-item {
 			flex-basis: 70vw;
+		}
+		.testimonials .testimonials-item:first-child {
+			margin-left: 2vw;
+		}
+		.testimonials .testimonials-item:last-child {
+			margin-right: 2vw;
 		}
 		
 	}

@@ -1,4 +1,4 @@
-{{ "<!-- partials:home:modules:start -->" | safeHTML }}
+{{ "<!-- partials:b:modules:start -->" | safeHTML }}
 <section {{ with .sectionid }}id="{{ . }}"{{ end }} class="layout-module-group">
 	{{ range .datafilelist }}
 		{{ $data := index site.Data.modules . }}
@@ -10,3 +10,4 @@
 		{{ end }}
 	{{ end }}
 </section>
+{{ "<!-- partials:b:modules:end -->" | safeHTML }}
