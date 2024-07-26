@@ -1,3 +1,12 @@
+{{ define "main" }}
+	{{ "<!-- home.html:main:start -->" | safeHTML }}
+	{{ partial "b/page-title" . }}
+	{{ partial "b/page-breadcrumbs.html" . }}
+	{{ partial "b/page-content.html" . }}
+	{{ partial "b/page-list" page }}
+	{{ "<!-- home.html:main:end -->" | safeHTML }}
+{{ end }}
+
 {{ define "page-title" }}
 	{{ "<!-- home.html:page-title:start -->" | safeHTML }}
 		{{ partial "b/page-title-home" page }}

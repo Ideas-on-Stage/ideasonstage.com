@@ -5,12 +5,12 @@
 	</div>
 	<div class="layout-module-layer">
 		<div class="layout-module-column-text text-white">	
-   		<h2 class="section-heading">
-	 			{{ with site.Params.map.title }}{{ . | markdownify }}{{ end }}
-	 		</h2>
-   		<p>
-	 			{{ with site.Params.map.address }}{{ . | safeHTML }}{{ end }}
-	 		</p>
+		<h2 class="section-heading">
+				{{ with site.Params.map.title }}{{ . | markdownify }}{{ end }}
+			</h2>
+			<p>
+				{{ with site.Params.map.address }}{{ . | safeHTML }}{{ end }}
+			</p>
 		</div>
 	</div>
 </section>{{ "<!-- map end -->" | safeHTML }}

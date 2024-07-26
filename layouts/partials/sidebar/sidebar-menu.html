@@ -1,17 +1,13 @@
 {{ "<!-- partials/sidebar/sidebar-training:start -->" | safeHTML }}
-<section id="training-bar">
-  <div class="flex-parent flex-parent-column flex-justify-center bg-lightgray paddingb-small">
-		<div class="flex-child paddingh-small paddingt-small paddingb-tiny">
-			<h2 class="margin-none">{{ .Params.sidebar.title }}</h2>
-		</div>
+<section id="sidebar">
+	<div class="flex-parent flex-parent-column flex-justify-center">
+			<h2>{{ .Params.sidebar.title }}</h2>
 		{{ range .Params.sidebar.items }}
-			<div class="flex-child paddingh-small paddingb-small">
 				<p class="margin-none text">
 				{{ with .url }}<a href="{{ . }}">{{ end }}
 					{{ with .name }}{{ . }}{{ end }}
 				{{ with .url }}</a>{{ end }}
 				</p>
-			</div>
 		{{ end }}
 	</div>
 </section>

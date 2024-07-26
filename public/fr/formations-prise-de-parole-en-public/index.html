@@ -2,9 +2,6 @@
 <!DOCTYPE html>
 <html lang="fr">
 	
-	
-		
-	
 	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 		<!-- partials/head.html:start -->
 <!-- partials/head-title.html:start -->
@@ -427,43 +424,33 @@
 		<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
 			<div class="scroller">
 				<!-- partials/sidebar/sidebar-training:start -->
-<section id="training-bar">
-  <div class="flex-parent flex-parent-column flex-justify-center bg-lightgray paddingb-small">
-		<div class="flex-child paddingh-small paddingt-small paddingb-tiny">
-			<h2 class="margin-none">Liste des formations</h2>
-		</div>
+<section id="sidebar">
+	<div class="flex-parent flex-parent-column flex-justify-center">
+			<h2>Liste des formations</h2>
 		
-			<div class="flex-child paddingh-small paddingb-small">
 				<p class="margin-none text">
 				<a href="/fr/formation-prise-de-parole-2-jours/">
 					Formation prise de parole 2 jours
 				</a>
 				</p>
-			</div>
 		
-			<div class="flex-child paddingh-small paddingb-small">
 				<p class="margin-none text">
 				<a href="/fr/formation-art-oratoire/">
 					Formation art oratoire
 				</a>
 				</p>
-			</div>
 		
-			<div class="flex-child paddingh-small paddingb-small">
 				<p class="margin-none text">
 				<a href="/fr/formation-storytelling/">
 					Formation storytelling
 				</a>
 				</p>
-			</div>
 		
-			<div class="flex-child paddingh-small paddingb-small">
 				<p class="margin-none text">
 				<a href="/fr/formation-presentations-powerpoint/">
 					Formation présentations PowerPoint
 				</a>
 				</p>
-			</div>
 		
 	</div>
 </section>
@@ -504,7 +491,7 @@
 		
 		
 		
-		<div class="layout-shortcode-child flex-child paddingv-tiny text-center">
+		<div class="layout-shortcode-child flex-child flex-align-self-center paddingv-tiny text-center">
 			<a href="/fr/formation-prise-de-parole-2-jours/" class="button-primary">En savoir plus</a>
 		</div>
 		
@@ -543,7 +530,7 @@
 		
 		
 		
-		<div class="layout-shortcode-child flex-child paddingv-tiny text-center">
+		<div class="layout-shortcode-child flex-child flex-align-self-center paddingv-tiny text-center">
 			<a href="/fr/formation-art-oratoire/" class="button-primary">En savoir plus</a>
 		</div>
 		
@@ -582,7 +569,7 @@
 		
 		
 		
-		<div class="layout-shortcode-child flex-child paddingv-tiny text-center">
+		<div class="layout-shortcode-child flex-child flex-align-self-center paddingv-tiny text-center">
 			<a href="/fr/formation-storytelling/" class="button-primary">En savoir plus</a>
 		</div>
 		
@@ -621,7 +608,7 @@
 		
 		
 		
-		<div class="layout-shortcode-child flex-child paddingv-tiny text-center">
+		<div class="layout-shortcode-child flex-child flex-align-self-center paddingv-tiny text-center">
 			<a href="/fr/formation-presentations-powerpoint/" class="button-primary">En savoir plus</a>
 		</div>
 		
@@ -883,29 +870,31 @@
 			
 		</div>
 		<div class="layout-content-narrow">
-			<form action="/fr/formations-prise-de-parole-en-public/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-				<div class="iosform-group">
-					<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/fr/formations-prise-de-parole-en-public/">
-				</div>
-				<div class="iosform-group">
-					<input type="text" id="fname" name="name" class="iosform-control" placeholder="Votre nom complet *" oninvalid="alert('Veuillez entrer votre nom complet.');" required>
-				</div>  
-				<div class="iosform-group">
-					<input type="email" id="email" name="email" class="iosform-control" placeholder="Votre email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entrer une adresse e-mail valide.');" required>
-				</div>
-				<div class="iosform-group">
-					<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Votre téléphone (optionnel)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Veuillez entrer un numéro de téléphone valide.');">  
-				</div>
-				<div class="iosform-group">
-					<input type="text" id="country" name="country" class="iosform-control" placeholder="Votre pays de résidence (optionnel)" oninvalid="alert('Veuillez entrer votre pays de résidence.');">
-				</div>
-				<div class="iosform-group">
-					<textarea id="message" name="message" class="iosform-control" placeholder="Votre message *" oninvalid="alert('S\u0026rsquo;il vous plaît entrer un message.');" required></textarea>  	
-				</div>
-				<div class="iosform-button">
-					<input type="submit" id="contactsubmit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">	
-				</div>
-			</form>
+			<div class="flex-parent flex-parent-column flex-justify-center">
+				<form action="/fr/formations-prise-de-parole-en-public/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+					<div class="iosform-group">
+						<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/fr/formations-prise-de-parole-en-public/">
+					</div>
+					<div class="iosform-group">
+						<input type="text" id="fname" name="name" class="iosform-control" placeholder="Votre nom complet *" oninvalid="alert('Veuillez entrer votre nom complet.');" required>
+					</div>  
+					<div class="iosform-group">
+						<input type="email" id="email" name="email" class="iosform-control" placeholder="Votre email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Veuillez entrer une adresse e-mail valide.');" required>
+					</div>
+					<div class="iosform-group">
+						<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Votre téléphone (optionnel)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Veuillez entrer un numéro de téléphone valide.');">  
+					</div>
+					<div class="iosform-group">
+						<input type="text" id="country" name="country" class="iosform-control" placeholder="Votre pays de résidence (optionnel)" oninvalid="alert('Veuillez entrer votre pays de résidence.');">
+					</div>
+					<div class="iosform-group">
+						<textarea id="message" name="message" class="iosform-control" placeholder="Votre message *" oninvalid="alert('S\u0026rsquo;il vous plaît entrer un message.');" required></textarea>  	
+					</div>
+					<div class="iosform-button flex-child flex-align-self-center">
+						<input type="submit" id="contactsubmit" value="Envoyer" class="button-primary" success="Merci, nous vous répondrons rapidement." wait="Veuillez patienter...">	
+					</div>
+				</form>
+			</div>
 		</div>
 	</div>
 </section><!-- contact end -->

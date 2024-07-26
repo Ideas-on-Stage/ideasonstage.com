@@ -1,6 +1,6 @@
 {{ define "main" }}
 	{{ "<!-- references/section.html:main:start -->" | safeHTML }}
-	{{ partial "b/references.html" .Params }}
+	{{ partial "b/data-reference-list.html" .Params }}
 	<section id="references-details" class="bg-white">
 		<div class="layout-content">
 			{{ $.Scratch.Set "count" 0 }}

@@ -2,9 +2,6 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	
-	{{ block "placeholder" . }}
-		{{/* <!-- empty block for when there is nothing to customize --> */}}
-	{{ end }}
 	<head>
 		{{ partial "head.html" . }}
 		{{ block "head" . }}
@@ -20,11 +17,11 @@
 				{{ if eq .type "data-cta" }}
 					{{ partial "b/cta" . }}
 				{{ else if eq .type "data-module-list" }}
-					{{ partial "b/modules.html" . }}
+					{{ partial "b/data-module-list.html" . }}
 				{{ else if eq .type "data-reference-list" }}
-					{{ partial "b/references.html" . }}
+					{{ partial "b/data-reference-list.html" . }}
 				{{ else if eq .type "data-testimonial-list" }}
-					{{ partial "b/testimonials.html" . }}
+					{{ partial "b/data-testimonial-list.html" . }}
 				{{ else if eq .type "page-breadcrumbs" }}
 					{{ partial "b/page-breadcrumbs.html" page }}
 				{{ else if eq .type "page-content" }}
@@ -54,7 +51,7 @@
 						{{ "<!-- _default/baseof.html:page-title:end -->" | safeHTML }}
 					{{ end }}
 				{{ else if eq .type "site-location" }}
-					{{ partial "b/location.html" . }}
+					{{ partial "b/site-location.html" . }}
 				{{ else }}
 					{{ partial "b/error-unknown.html" . }}
 				{{ end }}
@@ -62,12 +59,7 @@
 				{{/* <!-- else use default page layout --> */}}
 				{{ block "main" page }}
 					{{ "<!-- _default/baseof.html:main:start -->" | safeHTML }}
-					{{ partial "b/page-title" . }}
-					{{ partial "b/page-breadcrumbs.html" . }}
-					{{ partial "b/page-content.html" . }}
-					{{ if page.IsSection }}
-						{{ partial "b/page-list" page }}
-					{{ end }}
+					<p class="text-red">Don't forget to define main block</p>
 					{{ "<!-- _default/baseof.html:main:end -->" | safeHTML }}
 				{{ end }}
 			{{ end }}

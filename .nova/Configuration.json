@@ -3,14 +3,10 @@
 
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
-    "scss",
-    "markdown",
-    "html"
+    "scss"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/partials\/page-contact.html",
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/fr\/formations-prise-de-parole-en-public\/_index.md"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss"
   ],
   "workspace.color" : 1
 }

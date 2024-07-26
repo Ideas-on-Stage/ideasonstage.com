@@ -2,7 +2,7 @@
 <h2>{{ .Site.Params.news.sbcategorytitle }}</h2>
 	<ul>
 		{{ $t := .Site.Taxonomies.tags }}
-		{{ range first 10 $t.ByCount }}
+		{{ range first 5 $t.ByCount }}
 			<li><a href="{{ .Page.Permalink }}">{{ .Term }} <span>({{ .Count }})</span></a></li>
 		{{ end }}
 	</ul>

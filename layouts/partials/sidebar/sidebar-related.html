@@ -1,5 +1,5 @@
 {{ "<!-- partials/inserts/sidebar-related.html:start -->" | safeHTML }}
-{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ $related := .Site.RegularPages.Related . | first 3 }}
 {{ with $related }}
 <h2>{{ $.Site.Params.news.related }}</h2>
 <ul>

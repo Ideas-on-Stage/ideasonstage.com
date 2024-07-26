@@ -158,8 +158,8 @@
 	#content-table a					{ font-size: 0.75em;	}
 	#sidebar h2							{ font-size: 1em;		}
 	#sidebar li							{ font-size: 1em;		}
-	#sidebar p							{ font-size: 1em;		}
-	#sidebar a							{ font-size: 1em;		}
+	#sidebar p,
+	#sidebar a							{ font-size: 0.80em;	}
 	/* adjust for small tall smartphone screens */
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		body, a, blockquote 			{ font-size: 4vw;		}
@@ -436,6 +436,7 @@
 	}
 
 	.scroller {
+		padding: 1vw;
 		max-height: 90vh;
 		overflow-y: auto;
 	}
@@ -467,6 +468,10 @@
 
 	/* side bar is the style for the side bar in the news pages*/
 
+	#sidebar {
+		background-color: var(--color-lightgray);
+	}
+	
 	#sidebar h2 {
 		color: #222;
 		margin: 0;
@@ -481,16 +486,15 @@
 	}
 	
 	#sidebar li {
-		margin: 0.2em 0;
-		padding: 0.2em 1vw;
-		background-color: #fff;
-		line-height: 1;
+		margin: 0.5em 0;
+		padding: 0;
 	}
 
 	#sidebar a {
 		text-transform: capitalize;
 		width: 100%;
 		color: #222;
+		line-height: 1.6em;
 	}
 
 	#sidebar a:hover {
@@ -593,6 +597,8 @@
 	
 	/* use to create a primary button */
 	.button-primary {
+		display: block; /* to ensure full height of button calculated for layout */
+		margin: 0 auto;
 		padding: 1vw 2vw;
 		color: var(--color-button-primary) !important;
 		background-color: var(--color-button-primary-bg);
@@ -600,6 +606,7 @@
 		border-radius: 5px;
 		border-color: none;
 		border-style: none;
+		box-sizing: border-box; /* because normal sizing model is shit */
 	}
 	
 	/* use to create a secondary button */
@@ -660,8 +667,8 @@
 
 	/* wrapper from main page content, with nice left and right margins */
 	.layout-content {
-		margin: var(--module-row-gap) auto; /* use auto to center div on page */
-		padding: 2em 0;
+		margin: 3em auto; /* use auto to center div on page */
+		padding: 0;
 		width: 80vw;
 		max-width: 1200px; /* prevents text area from getting unpleasantly wide */
 	}
@@ -685,7 +692,7 @@
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		
 		.layout-content {
-			margin: var(--module-ts-row-gap) var(--module-ts-column-gap);
+			margin: 3em var(--module-ts-column-gap);
 			width: calc(100% - var(--module-ts-column-gap) * 2);
 			max-width: calc(100% - var(--module-ts-column-gap) * 2);
 		}
@@ -1864,7 +1871,7 @@
 	}
 	
 	#contact {
-		scroll-margin-top: calc(var(--menubar-height));
+		scroll-margin-top: calc( var(--menubar-height) * 2 );
 	}
 	
 	/*PMO Added for forms - height of free text field*/
@@ -2002,6 +2009,7 @@
 	}
 	.footer a {
 		color: #bbb;
+		border: none;
 	}
 	
 	.footer a:hover {

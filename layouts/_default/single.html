@@ -1,2 +1,7 @@
-{{ define "placeholder" }}
+{{ define "main" }}
+	{{ "<!-- _default/single.html:main:start -->" | safeHTML }}
+	{{ partial "b/page-title" . }}
+	{{ partial "b/page-breadcrumbs.html" . }}
+	{{ partial "b/page-content.html" . }}
+	{{ "<!-- _default/single.html:main:end -->" | safeHTML }}
 {{ end }}
