@@ -10,8 +10,8 @@
 
  --> */}}
 
-{{- $data := . }}
-{{- if (partial "f/ispage" .) }}
-	{{- $data = .Params }}
-{{- end }}
+{{ $data := . }}
+{{ if (partial "f/ispage" .) }}
+	{{ $data = .Params }}
+{{ end }}
 {{ return $data }}

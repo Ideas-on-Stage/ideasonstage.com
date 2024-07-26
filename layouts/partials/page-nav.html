@@ -1,4 +1,4 @@
-{{ "<!-- partials:page-nav.html:start -->" | safeHTML }}
+{{ "<!-- partials/page-nav.html:start -->" | safeHTML }}
 <nav class="iosnavbar">
 	<div class="layout-content-width">
 		
@@ -21,13 +21,13 @@
 		<ul class="iosnavbar-menu">
 			
 			<!-- Menubar Menu Items -->
-			{{- range .Site.Params.navigation.menubar }}
+			{{ range .Site.Params.navigation.menubar }}
 				<li class="iosnavbar-menu-item">
 					<a class="page-scroll" href="{{ .url }}" onclick="getElementById('drop').checked = false">
 						{{ .name }}
 					</a>
 				</li>  
-			{{- end }}
+			{{ end }}
 				
 			<!-- Search Dropdown -->
 			<li class="iosnavbar-menu-item">
@@ -65,7 +65,7 @@
 				<ul class="iosnavbar-menu-dropdown">
 					{{ if .IsTranslated }}
 						{{ range .AllTranslations }}
-							{{ if ne (site.LanguageCode | lower) (.Lang | lower) -}}
+							{{ if ne (site.LanguageCode | lower) (.Lang | lower) }}
 								<li class="iosnavbar-menu-dropdown-item">
 									<a href="{{ .Permalink }}">
 										{{ .Language.LanguageName }}
@@ -81,4 +81,4 @@
 		
 	</div>
 </nav>
-{{ "<!-- partials:page-nav.html:end -->" | safeHTML }}
+{{ "<!-- partials/page-nav.html:end -->" | safeHTML }}

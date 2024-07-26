@@ -1,43 +1,5 @@
-<!-- index.html is used to build the home page -->
-<!DOCTYPE html>
-{{ "<!-- index.html -->" | safeHTML }}
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-	<head>
-		{{ partial "head.html" . }}
-	</head>
-	<body id="page-top" class="layout-page">
-		{{ partial "page-nav.html" . }}
-		<main id="main" role="main">
-			{{ range .Params.blocks }}
-				{{ if eq .type "data-cta" }}
-					{{ partial "b/cta" . }}
-				{{ else if eq .type "data-module-list" }}
-					{{ partial "b/modules.html" . }}
-				{{ else if eq .type "data-reference-list" }}
-					{{ partial "b/references.html" . }}
-				{{ else if eq .type "data-testimonial-list" }}
-					{{ partial "b/testimonials.html" . }}
-				{{ else if eq .type "page-content" }}
-					{{ partial "b/page-content-home" page }}
-				{{ else if eq .type "page-hero" }}
-					{{ partial "b/page-hero" page }}		
-				{{ else if eq .type "page-list" }}
-					{{ partial "b/page-list" page }}
-				{{ else if eq .type "page-title" }}
-					{{ partial "b/page-title-home" page }}
-				{{ else if eq .type "site-location" }}
-					{{ partial "b/location.html" . }}
-				{{ else }}
-					<p>Unknown block type</p>
-				{{ end }}
-			{{ end }}
-			<aside class="aside">
-				{{ partial "page-contact.html" . }}
-			</aside>
-		</main>
-		<footer class="footer">
-			{{ partial "page-footer.html" . }}
-		</footer class="footer">
-		{{ partial "page-js.html" . }}
-	</body>
-</html>
+{{ define "page-title" }}
+	{{ "<!-- home.html:page-title:start -->" | safeHTML }}
+		{{ partial "b/page-title-home" page }}
+	{{ "<!-- home.html:page-title:end -->" | safeHTML }}
+{{ end }}

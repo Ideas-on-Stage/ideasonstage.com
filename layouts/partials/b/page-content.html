@@ -1,6 +1,6 @@
-{{ "<!-- partials:page-content.html:start -->" | safeHTML }}
+{{ "<!-- partials/b/page-content.html:start -->" | safeHTML }}
 <div class="layout-content">
-	{{- if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
+	{{ if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
 		<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall">
 			<article id="content-main" class="flex-child flex-child-100p">
 				{{ with .Params.summary }}<p>{{ . }}</p>{{ end }} 
@@ -9,10 +9,10 @@
 				{{ with .Content }}{{ . }}{{ end }} 
 			</article>
 		</div>
-	{{- else }}
+	{{ else }}
 		<section id="content-main">
-			{{- with .Content }}{{ . }}{{ end }} 
+			{{ with .Content }}{{ . }}{{ end }} 
 		</section>
-	{{- end }}
+	{{ end }}
 </div>
-{{ "<!-- partials:page-content.html:end -->" | safeHTML }}
+{{ "<!-- partials/b/page-content.html:end -->" | safeHTML }}

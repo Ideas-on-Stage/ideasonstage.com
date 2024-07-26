@@ -7,25 +7,25 @@
 	- recipe, restaurant or movie
 	This is to conform to Google's official supported content types in carousels
  --> */}}
-{{- $permalink := .Permalink -}}
+{{ $permalink := .Permalink }}
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "ItemList",
     "itemListElement":[
-		{{- $counter := 0 -}}
-		{{ range .Pages -}}
-			{{- $subschema := lower .Params.schema }}
-			{{- if and (not .Draft) (or (eq "course" $subschema) (eq "article" $subschema)) -}}
-			{{- if ne 0 $counter }},{{ end -}}
-			{{- $counter = add $counter 1 }}
+		{{ $counter := 0 }}
+		{{ range .Pages }}
+			{{ $subschema := lower .Params.schema }}
+			{{ if and (not .Draft) (or (eq "course" $subschema) (eq "article" $subschema)) }}
+			{{ if ne 0 $counter }},{{ end }}
+			{{ $counter = add $counter 1 }}
 			{
 				"@type": "ListItem",
 				"position": {{ $counter }},
 				"url": {{ .Permalink }}
 			}
-			{{- end -}}
-		{{- end }}
+			{{ end }}
+		{{ end }}
 	]
 }
 </script>

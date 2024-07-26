@@ -1,4 +1,4 @@
-{{ "<!-- partials:inserts:sidebar-related.html:start -->" | safeHTML }}
+{{ "<!-- partials/inserts/sidebar-related.html:start -->" | safeHTML }}
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
 <h2>{{ $.Site.Params.news.related }}</h2>
@@ -8,4 +8,4 @@
 	{{ end }}
 </ul>
 {{ end }}
-{{ "<!-- partials:inserts:sidebar-related.html:end -->" | safeHTML }}
+{{ "<!-- partials/inserts/sidebar-related.html:end -->" | safeHTML }}

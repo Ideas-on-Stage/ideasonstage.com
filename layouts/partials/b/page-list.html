@@ -1,4 +1,4 @@
-{{ "<!-- partials:b/page-list.html:start -->" | safeHTML }}
+{{ "<!-- partials/b/page-list.html:start -->" | safeHTML }}
 <section id="content-list" class="layout-content">
 	{{ range .Pages }}
 		{{ if (isset .Params "title") }}
@@ -7,4 +7,4 @@
 		{{ end }}
 	{{ end }}
 </section>
-{{ "<!-- partials:b/page-list.html:end -->" | safeHTML }}
+{{ "<!-- partials/b/page-list.html:end -->" | safeHTML }}

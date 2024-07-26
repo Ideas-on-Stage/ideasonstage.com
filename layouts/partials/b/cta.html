@@ -1,4 +1,4 @@
-{{ "<!-- partials:b:cta.html:start -->" | safeHTML }}
+{{ "<!-- partials/b/cta.html:start -->" | safeHTML }}
 {{ with .datafile }}
 	{{ $data := index site.Data.cta . }}
 	{{ if $data }}
@@ -13,13 +13,13 @@
 					<div class="flex-parent flex-parent-column flex-justify-center flex-align-center">
 						{{ if eq "h2" .level }}
 							<h2 class="text-white text-center">{{ "<!-- picture and h1 -->" | safeHTML }}
-								{{- with .title }}
+								{{ with .title }}
 									{{ . | markdownify }}
 								{{ end }}
 							</h2>
 						{{ else }}
 							<h1 class="text-white text-center">{{ "<!-- picture and h2 -->" | safeHTML }}
-								{{- with .title }}
+								{{ with .title }}
 									{{ . | markdownify }}
 								{{ end }}
 							</h1>
@@ -36,4 +36,4 @@
 		{{ end }}
 	{{ end }}
 {{ end }}	
-{{ "<!-- partials:b:cta.html:end -->" | safeHTML }}
+{{ "<!-- partials/b/cta.html:end -->" | safeHTML }}

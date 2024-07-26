@@ -1,15 +1,15 @@
 {{ "<!-- shortcodes:events.html:start -->" | safeHTML }}
 <div class="layout-shortcode flex-justify-center {{ with .Params.style }}{{ . }}{{ end }}">
-{{- if .Params.title }}
+{{ if .Params.title }}
 	<div class="layout-shortcode-child">
 		<h3 class="text-center">{{ .Params.title }}</h3>
 	</div>
-{{- end }}
-{{- $style := .Params.style }}
-{{- $atleastone := false }}
-{{- range $.Page.Params.events }}
-	{{- if and (ge .startdate (now.Format "2006-01-02")) (not .draft) }}
-	{{- $atleastone = true }}
+{{ end }}
+{{ $style := .Params.style }}
+{{ $atleastone := false }}
+{{ range $.Page.Params.events }}
+	{{ if and (ge .startdate (now.Format "2006-01-02")) (not .draft) }}
+	{{ $atleastone = true }}
 	<div class="flex-parent flex-parent-row flex-parent-column-ontall">
 		<div class="flex-child flex-child-40p layout-shortcode-child ">
 			<img src="{{ .image }}">
@@ -19,17 +19,17 @@
 		    <p>{{ .description }}<br />
 			{{ partial "f/getdatetime" .startdate }}<br />
 			{{ .performer }}<br />
-			{{- range .offers }}
+			{{ range .offers }}
 			<a href="{{ .url }}" class="button-secondary">{{ .button }}</a>
-			{{- end }}
+			{{ end }}
 		</div>
 	</div>
-	{{- end }}
-{{- end }}
-{{- if not $atleastone }}
+	{{ end }}
+{{ end }}
+{{ if not $atleastone }}
 	<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-justify-center">
 		<p>{{ site.Params.events.empty }}</p>
 	</div>
-{{- end }}
+{{ end }}
 </div>
 {{ "<!-- shortcodes:events.html:end -->" | safeHTML }}

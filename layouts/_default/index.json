@@ -1,5 +1,5 @@
-{{- $.Scratch.Add "index" slice -}}
-{{- range .Site.RegularPages -}}
+{{ $.Scratch.Add "index" slice }}
+{{ range .Site.RegularPages }}
     {{ $titleStr := "" }}
     {{ with .Title }}{{ $titleStr = . }}{{ end }}
     {{ with .Params.name }}{{ $titleStr = . }}{{ end }}
@@ -17,6 +17,6 @@
     {{ $summary := "" }}
     {{ with .Params.summary }}{{ $summary = . }}{{ end }}
 
-    {{- $.Scratch.Add "index" (dict "title" $titleStr "tags" $tagsStr "contents" .Plain "permalink" .RelPermalink "author" $authorStr "description" $description "summary" $summary) -}}
-{{- end -}}
-{{- $.Scratch.Get "index" | jsonify -}}
+    {{ $.Scratch.Add "index" (dict "title" $titleStr "tags" $tagsStr "contents" .Plain "permalink" .RelPermalink "author" $authorStr "description" $description "summary" $summary) }}
+{{ end }}
+{{ $.Scratch.Get "index" | jsonify }}

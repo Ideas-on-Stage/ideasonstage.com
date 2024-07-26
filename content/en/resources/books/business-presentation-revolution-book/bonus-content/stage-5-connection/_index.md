@@ -52,7 +52,7 @@ These videos can help you to go deeper and may also help you to convince your co
 
 Preparing for a presentation can be stressful. Download our pSCORE Guide to Connection for tips on how to find your own style, how to prepare, what to do before your presentation begins, and what speaking success looks and sounds like.
 
-{{% bpr-form-bonus-download %}}
+{{< bpr-form-bonus-download >}}
 
 ## Recommended Reading
 In addition to Business Presentation Revolution, we recommend reading other useful books. In this section, we particularly recommend:

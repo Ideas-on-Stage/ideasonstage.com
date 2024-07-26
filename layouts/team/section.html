@@ -1,0 +1,20 @@
+{{ define "main" }}
+	{{ "<!-- team/section.html:main:start -->" | safeHTML }}
+	{{ partial "b/page-title.html" . }}
+	{{ partial "b/page-breadcrumbs.html" page }}
+	{{ block "page-content" . }}{{ end }}
+	{{ block "page-list" . }}{{ end }}
+	{{ "<!-- team/section.html:main:end -->" | safeHTML }}
+{{ end }}
+
+{{ define "page-content" }}
+	{{ "<!-- team/section.html:page-content:start -->" | safeHTML }}
+	{{ partial "b/page-content-home.html" . }}
+	{{ "<!-- team/section.html:page-content:end -->" | safeHTML }}
+{{ end }}
+
+{{ define "page-list" }}
+	{{ "<!-- team/section.html:page-list:start -->" | safeHTML }}
+	{{ partial "b/page-list-team.html" . }}
+	{{ "<!-- team/section.html:page-list:end -->" | safeHTML }}
+{{ end }}

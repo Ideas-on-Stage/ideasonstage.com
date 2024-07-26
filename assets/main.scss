@@ -331,15 +331,16 @@
 	#content-main > h2 {
 		/* The > sign ensures only direct children are affected */
 		/* use padding-top size of top bar to position text properly when clicking on anchor, for example anchor link in table of contents */
-		padding-top: var(--menubar-height);
+		margin-top: var(--menubar-height);
 		margin-bottom: 0.5em;
+		scroll-margin-top: calc(var(--menubar-height) + 48px);
 	}
-
 	#content-main > h3,
 	#content-main > h4 {
-		padding-top: var(--menubar-height);
+		margin-top: var(--menubar-height);
 		margin-top: 1em;
 		margin-bottom: 0.5em;
+		scroll-margin-top: calc(var(--menubar-height) + 48px);
 	}
 	
 	#content-main li {
@@ -361,6 +362,16 @@
 		/* remove bottom margin from last element of content */
 		margin-bottom: 0;
 		padding-bottom: 0;
+	}
+	
+	#content-main :not(div) + div.layout-shortcode,
+	#content-main :not(div) + div.layout-shortcode-img {
+		margin-top: 3em;
+	}
+
+	#content-main div.layout-shortcode + :not(div),
+	#content-main div.layout-shortcode-img + :not(div) {
+		margin-top: 3em;
 	}
 	
 	#content-main > blockquote {
@@ -650,7 +661,7 @@
 	/* wrapper from main page content, with nice left and right margins */
 	.layout-content {
 		margin: var(--module-row-gap) auto; /* use auto to center div on page */
-		padding: 2vw 0;
+		padding: 2em 0;
 		width: 80vw;
 		max-width: 1200px; /* prevents text area from getting unpleasantly wide */
 	}
@@ -675,7 +686,6 @@
 		
 		.layout-content {
 			margin: var(--module-ts-row-gap) var(--module-ts-column-gap);
-			padding: 4vw 0;
 			width: calc(100% - var(--module-ts-column-gap) * 2);
 			max-width: calc(100% - var(--module-ts-column-gap) * 2);
 		}
@@ -819,7 +829,7 @@
 	}	
 	.layout-module-half .layout-module-layer {
 		/* half module layers have a width of 50% */
-		width: 50%;
+		width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
 	}
 
 	.layout-module-group .layout-module-half .layout-module-layer {
@@ -921,7 +931,7 @@
 		width: 100%;
 		height: 100%;
 	}
-	
+
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		
 		.layout-shortcode {
@@ -1618,11 +1628,6 @@
 		border: none;
 	}
 	
-	/* use to add buffer on top of link */
-	.iosnavbar-buffer {
-		height: 1px;
-		margin-bottom: calc(var(--menubar-height)); 
-	}
 	/* Adjust logo positioning */
 	.iosnavbar-brand {
 		margin-top: calc((var(--menubar-height) - var(--logo-height)) / 2 + var(--logo-offset));
@@ -1858,6 +1863,10 @@
 		padding-left: 0;
 	}
 	
+	#contact {
+		scroll-margin-top: calc(var(--menubar-height));
+	}
+	
 	/*PMO Added for forms - height of free text field*/
 	section#contact .iosform-group textarea.iosform-control {
 		height: 133px;
@@ -1992,7 +2001,7 @@
 		color: #bbb;
 	}
 	.footer a {
-		color: var(--color-lightgray);
+		color: #bbb;
 	}
 	
 	.footer a:hover {

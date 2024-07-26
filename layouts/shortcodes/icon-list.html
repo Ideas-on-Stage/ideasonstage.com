@@ -1,11 +1,11 @@
 {{ "<!-- shortcodes:icon-list.html:start -->" | safeHTML }}
 <div class="layout-shortcode {{ with .Params.style }}{{ . }}{{ end }}">
 	<div class="flex-parent flex-parent-column flex-gap">
-		{{- if .Params.title }}
+		{{ if .Params.title }}
 		<div class="flex-child">
 			{{ with .Params.title }}<h3 class="text-center">{{ . }}</h3>{{ end }}
 		</div>
-		{{- end }}
+		{{ end }}
 		<div class="flex-child">
 			<div class="flex-parent flex-parent-row flex-justify-center flex-gap">
 				{{ .Inner }}

@@ -42,7 +42,7 @@ These videos can help you to go deeper and may also help you to convince your co
 
 The Creation section of the book was already long enough without adding many pages with different storylines. Besides, it’s probably more useful for you to have them in a downloadable format, with examples.
 
-{{% bpr-form-bonus-download %}}
+{{< bpr-form-bonus-download >}}
 
 ## Recommended Reading
 

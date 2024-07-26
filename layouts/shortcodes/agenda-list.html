@@ -1,8 +1,8 @@
 {{ "<!-- shortcodes:agenda-list.html:start -->" | safeHTML }}
 <div class="layout-shortcode {{ with .Params.style }}{{ . }}{{ end }}">
-	{{- if .Params.title }}
+	{{ if .Params.title }}
 		<h3 class="text-center">{{ .Params.title }}</h3>
-	{{- end }}
+	{{ end }}
 	{{ .Inner }}
 </div>
 {{ "<!-- shortcodes:agenda-list.html:end -->" | safeHTML }}

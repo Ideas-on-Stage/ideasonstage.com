@@ -10,8 +10,8 @@
 
  --> */}}
 
-{{- $data := . }}
-{{- if .Params }}
-	{{- $data = .Params }}
-{{- end }}
+{{ $data := . }}
+{{ if .Params }}
+	{{ $data = .Params }}
+{{ end }}
 {{ return $data }}

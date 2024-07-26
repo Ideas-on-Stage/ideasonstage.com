@@ -1,4 +1,4 @@
-{{ "<!-- partials:inserts:sidebar-newsletter.html:start -->" | safeHTML }}
+{{ "<!-- partials/inserts/sidebar-newsletter.html:start -->" | safeHTML }}
 {{ if .Site.Params.subscribe.enable }}
 	<div class="sidebar-box">
 		<h2>{{ with .Site.Params.subscribe.subtitle }}{{ . | markdownify }}{{ end }}</h2>
@@ -27,4 +27,4 @@
 		</form>
 	</div>
 {{ end }}
-{{ "<!-- partials:inserts:sidebar-newsletter.html:end -->" | safeHTML }}
+{{ "<!-- partials/inserts/sidebar-newsletter.html:end -->" | safeHTML }}

@@ -1,5 +1,5 @@
-{{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
-{{- if .Title -}}
+{{ "<!-- partials/b/page-title.html:start -->" | safeHTML }}
+{{ if .Title }}
 	{{ if and (eq .Section "news") (.IsPage) }}
 		{{/* <!-- no title for news pages (ideally should be replaced by a parameter) --> */}}
 	{{ else if and (eq .Section "team") (.IsPage) }}
@@ -14,4 +14,4 @@
 		</header>
 	{{ end }}		
 {{ end }}
-{{ "<!-- partials:page-hero.html:end -->" | safeHTML }}
+{{ "<!-- partials/b/page-title.html:end -->" | safeHTML }}

@@ -1,8 +1,9 @@
+{{ "<!-- partials/b/page-title-home.html:start -->" | safeHTML }}
 <header>
 	<div class="bg-dark paddingt-tiny bg-dark centered">
 		<div class="layout-content-width">
 			<h1 class="text-base">
-				{{- with .Title }}{{ . | markdownify  }}{{ end -}}
+				{{ with .Title }}{{ . | markdownify  }}{{ end }}
 			</h1>
 		</div>
 	</div>
@@ -14,7 +15,7 @@
 			<!-- Languages Drop Down -->
 			{{ if .IsTranslated }}
 				{{ range .AllTranslations }}
-					{{ if ne (site.LanguageCode | lower) (.Lang | lower) -}}
+					{{ if ne (site.LanguageCode | lower) (.Lang | lower) }}
 							<a href="{{ .Permalink }}">
 						<li class="flex-child button-secondary text-small">
 								{{ .Language.LanguageName }}
@@ -27,3 +28,4 @@
 		</div>
 	</nav>
 </aside>
+{{ "<!-- partials/b/page-title-home.html:end -->" | safeHTML }}

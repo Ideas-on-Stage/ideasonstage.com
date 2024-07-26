@@ -1,0 +1,14 @@
+{{ "<!-- partials/b/page-content-training-single.html:start -->" | safeHTML }}
+<div class="layout-content">
+	<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-big-gap">
+		<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
+			<div class="scroller">
+				{{ partial "sidebar/sidebar-training.html" . }}
+			</div>
+		</aside>
+		<article id="content-main" class="flex-child flex-child-67p">
+			{{ with .Content }}{{ . }}{{ end }}
+		</article>
+	</div>
+</div>		
+{{ "<!-- partials/b/page-content-training-single.html:end -->" | safeHTML }}

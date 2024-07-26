@@ -1,7 +1,6 @@
-{{ "<!-- partials:page-hero.html:start -->" | safeHTML }}
-
+{{ "<!-- partials/b/page-hero.html:start -->" | safeHTML }}
 {{/* <!-- get hero picture if there is one available --> */}}
-{{- $heropath := partial "f/getheropicturepath" . }}	
+{{ $heropath := partial "f/getheropicturepath" . }}	
 <header id="hero" class="layout-module-hero">
 	<div class="layout-module-layer">
 		<img src="{{ $heropath }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
@@ -20,4 +19,4 @@
 		</div>
 	</div>
 </header>
-{{ "<!-- partials:page-hero.html:end -->" | safeHTML }}
+{{ "<!-- partials/b/page-hero.html:end -->" | safeHTML }}

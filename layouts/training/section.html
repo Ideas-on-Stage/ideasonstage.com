@@ -1,0 +1,14 @@
+{{ define "main" }}
+	{{ "<!-- training/section.html:main:start -->" | safeHTML }}
+	{{ partial "b/page-title" page }}
+	{{ partial "b/page-breadcrumbs.html" page }}
+	{{ block "page-content" . }}{{ end }}
+	{{ partial "b/page-list" page }}
+	{{ "<!-- training/section.html:main:end -->" | safeHTML }}
+{{ end }}
+
+{{ define "page-content" }}
+	{{ "<!-- training/section.html:page-content:start -->" | safeHTML }}
+	{{ partial "b/page-content-training-section" . }}
+	{{ "<!-- training/section.html:page-content:end -->" | safeHTML }}
+{{ end }}

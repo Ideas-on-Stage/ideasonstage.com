@@ -1,16 +1,16 @@
 <div class="padding-tiny">
 	{{ if .Params.description }}
-		{{- if $.Params.title }}
+		{{ if $.Params.title }}
 			<div class="style-agenda-item-title text-center">{{ $.Params.title }}</div>
-		{{- end }}
+		{{ end }}
 		<div class="">
 			<p class="style-agenda-item-description text-center agenda-content-inner">{{ .Params.description | markdownify }}</p>
 		</div>	
 		
 	{{ else }}
-		{{- if $.Params.title }}
+		{{ if $.Params.title }}
 		<p class="style-agenda-item-title text-center">{{ $.Params.title }}</p>
-		{{- end }}
+		{{ end }}
 	{{ end }}	
 </div>
 {{ "<!-- shortcodes:agenda-item.html:end -->" | safeHTML }}

@@ -39,7 +39,7 @@ These videos can help you to go deeper and may also help you to convince your co
 
 Whether you’re preparing your own slides, or developing a storyboard to give to a specialist slide designer, the storyboard template and slide design checklist mentioned in Business Presentation Revolution can guide you and make the process smooth for everyone involved.
 
-{{% bpr-form-bonus-download %}}
+{{< bpr-form-bonus-download >}}
 
 ## Recommended Reading
 

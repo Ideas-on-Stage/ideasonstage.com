@@ -1,27 +1,19 @@
-{{- define "head" }}
-	{{ "<!-- team:single.html:head:start -->" | safeHTML }}
+{{ define "head" }}
+	{{ "<!-- team/single.html:head:start -->" | safeHTML }}
 	{{/* <!-- use Person schema for team member page --> */}}
-	{{- partial "schema/person.html" . }}
-	{{ "<!-- team:single.html:head:end -->" | safeHTML }}
-{{- end }}
+	{{ partial "schema/person.html" . }}
+	{{ "<!-- team/single.html:head:end -->" | safeHTML }}
+{{ end }}
 
-{{/* <!-- no hero for single team page --> */}}
+{{ define "main" }}
+	{{ "<!-- team/single.html:main:start -->" | safeHTML }}
+	{{ partial "b/page-breadcrumbs.html" page }}
+	{{ block "page-content" . }}{{ end }}
+	{{ "<!-- team/single.html:main:end -->" | safeHTML }}
+{{ end }}
 
-{{- define "main" }}
-	{{ "<!-- team:single.html:main:start -->" | safeHTML }}
-	<section id="team-member" class="layout-content">
-		<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-big-gap">
-			<div class="flex-child flex-child-33p">
-				{{ with .Params -}}
-					<img src="{{ .picture }}" class="style-photograph" alt="{{ .name }}">
-				{{- end }}
-			</div>
-			<div class="flex-child flex-child-67p">
-				<h1>{{ .Params.name }}</h1>
-				<p class="style-person-title">{{ .Params.position }}</p>
-				{{ with .Content }}{{ . | markdownify }}{{ end }}
-			</div>
-		</div>
-	</section>
-	{{ "<!-- team:single.html:main:end -->" | safeHTML }}
-{{- end }}
+{{ define "page-content" }}
+	{{ "<!-- team/single.html:page-content:start -->" | safeHTML }}
+	{{ partial "b/page-content-team-single.html" . }}
+	{{ "<!-- team/single.html:page-content:end -->" | safeHTML }}
+{{ end }}

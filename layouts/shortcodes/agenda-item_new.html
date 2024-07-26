@@ -3,18 +3,18 @@
 	{{ $title :="" }}
 	{{ if .Params.title }} {{ $title := . }}{{ end }}
 	{{ if .Params.description }}
-		{{- if $.Params.title }}
+		{{ if $.Params.title }}
 			<input id="collapsible_{{ $.Params.title }}" class="agenda-toggle" type="checkbox">
 			<label for="collapsible_{{ $.Params.title }}" class="agenda-toggle style-agenda-item-title text-center">{{ $.Params.title }} <i class="fa fa-chevron-down"></i></label>
-		{{- end }}
+		{{ end }}
 		<div class="collapsible-content">
 			<p class="style-agenda-item-description text-center agenda-content-inner">{{ .Params.description | markdownify }}</p>
 		</div>	
 		
 	{{ else }}
-		{{- if $.Params.title }}
+		{{ if $.Params.title }}
 		<p class="style-agenda-item-title text-center">{{ $.Params.title }}</p>
-		{{- end }}
+		{{ end }}
 	{{ end }}	
 </div>
 {{ "<!-- shortcodes:agenda-item.html:end -->" | safeHTML }}

@@ -1,11 +1,11 @@
-{{ "<!-- partials:page-nav.html:start -->" | safeHTML }}
+{{ "<!-- partials/page-nav.html:start -->" | safeHTML }}
 <nav class="">
 	<div class="layout-content-width">
 		<ul class="flex-parent flex-parent-row flex-gap flex-justify-center">
 		<!-- Languages Drop Down -->
 		{{ if .IsTranslated }}
 			{{ range .AllTranslations }}
-				{{ if ne (site.LanguageCode | lower) (.Lang | lower) -}}
+				{{ if ne (site.LanguageCode | lower) (.Lang | lower) }}
 					<li class="flex-child">
 						<a href="{{ .Permalink }}">
 							{{ .Language.LanguageName }}
@@ -17,4 +17,4 @@
 		</ul>
 	</div>
 </nav>
-{{ "<!-- partials:page-nav.html:end -->" | safeHTML }}
+{{ "<!-- partials/page-nav.html:end -->" | safeHTML }}

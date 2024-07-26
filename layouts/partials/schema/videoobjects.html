@@ -1,18 +1,18 @@
 {{/* <!--
 	Official Google rich snippet type: yes
  --> */}}
-	{{- $permalink := .Permalink }}
-	{{- range .Params.videoobjects -}}
-		{{- $embedurl := .embedurl -}}
-		{{- $firstchars := substr $embedurl 0 4 }}
-		{{- if ne $firstchars "http" }}
-			{{- $embedurl = add "https://www.youtube.com/embed/" $embedurl }}
-		{{- end }}
-		{{- $thumbnailurl := .thumbnailurl -}}
-		{{- $firstchars = substr $thumbnailurl 0 4 }}
-		{{- if ne $firstchars "http" }}
-			{{- $thumbnailurl = add $permalink $thumbnailurl }}
-		{{- end }}
+	{{ $permalink := .Permalink }}
+	{{ range .Params.videoobjects }}
+		{{ $embedurl := .embedurl }}
+		{{ $firstchars := substr $embedurl 0 4 }}
+		{{ if ne $firstchars "http" }}
+			{{ $embedurl = add "https://www.youtube.com/embed/" $embedurl }}
+		{{ end }}
+		{{ $thumbnailurl := .thumbnailurl }}
+		{{ $firstchars = substr $thumbnailurl 0 4 }}
+		{{ if ne $firstchars "http" }}
+			{{ $thumbnailurl = add $permalink $thumbnailurl }}
+		{{ end }}
 		<script type="application/ld+json">
 		{
 			"@context": "https://schema.org/"
@@ -26,4 +26,4 @@
 			, "uploadDate": {{ .uploaddate }}
 		}
 		</script>
-	{{- end }}
+	{{ end }}

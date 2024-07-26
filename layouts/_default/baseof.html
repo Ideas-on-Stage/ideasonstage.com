@@ -1,22 +1,75 @@
-{{ "<!-- _default:baseof.html:start -->" | safeHTML }}
+{{ "<!-- _default/baseof.html:start -->" | safeHTML }}
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	
+	{{ block "placeholder" . }}
+		{{/* <!-- empty block for when there is nothing to customize --> */}}
+	{{ end }}
 	<head>
-		{{- block "head" . }}
+		{{ partial "head.html" . }}
+		{{ block "head" . }}
 			{{/* <!-- page specific head info, for example a common schema --> */}}
-		{{- end }}
-		{{- partial "head.html" . }}
+		{{ end }}
 	</head>
 	
 	<body id="page-top" class="layout-page">
 		{{ partial "page-nav.html" . }}
 		<main id="main" role="main">
-			{{ block "main" . }}
-				{{ partial "b/page-title.html" . }}
-				{{ partial "b/page-breadcrumbs.html" . }}
-				{{ partial "b/page-content.html" . }}
-				{{/* <!-- can use page specific main content, for example guides --> */}}
+			{{ range page.Params.blocks }}
+				{{/* <!-- if .blocks defined in Params, then use it to define page layout --> */}}
+				{{ if eq .type "data-cta" }}
+					{{ partial "b/cta" . }}
+				{{ else if eq .type "data-module-list" }}
+					{{ partial "b/modules.html" . }}
+				{{ else if eq .type "data-reference-list" }}
+					{{ partial "b/references.html" . }}
+				{{ else if eq .type "data-testimonial-list" }}
+					{{ partial "b/testimonials.html" . }}
+				{{ else if eq .type "page-breadcrumbs" }}
+					{{ partial "b/page-breadcrumbs.html" page }}
+				{{ else if eq .type "page-content" }}
+					{{ block "page-content" page }}
+						{{ "<!-- _default/baseof.html:page-content:start -->" | safeHTML }}
+						{{ partial "b/page-content" page }}
+						{{ "<!-- _default/baseof.html:page-content:end -->" | safeHTML }}
+					{{ end }}
+				{{ else if eq .type "page-hero" }}
+					{{ partial "b/page-hero" page }}		
+				{{ else if eq .type "page-list" }}
+					{{ if page.IsSection }}
+						{{ block "page-list" page }}
+							{{ "<!-- _default/baseof.html:page-list:start -->" | safeHTML }}
+							{{ partial "b/page-list" page }}
+							{{ "<!-- _default/baseof.html:page-list:end -->" | safeHTML }}
+						{{ end }}
+					{{ else }}
+						{{ "<!-- _default/baseof.html:error-invalid:start -->" | safeHTML }}
+						{{ partial "b/error-invalid.html" . }}
+						{{ "<!-- _default/baseof.html:error-invalid:end -->" | safeHTML }}
+					{{ end }}
+				{{ else if eq .type "page-title" }}
+					{{ block "page-title" page }}
+						{{ "<!-- _default/baseof.html:page-title:start -->" | safeHTML }}
+						{{ partial "b/page-title" page }}
+						{{ "<!-- _default/baseof.html:page-title:end -->" | safeHTML }}
+					{{ end }}
+				{{ else if eq .type "site-location" }}
+					{{ partial "b/location.html" . }}
+				{{ else }}
+					{{ partial "b/error-unknown.html" . }}
+				{{ end }}
+			{{ else }}
+				{{/* <!-- else use default page layout --> */}}
+				{{ block "main" page }}
+					{{ "<!-- _default/baseof.html:main:start -->" | safeHTML }}
+					{{ partial "b/page-title" . }}
+					{{ partial "b/page-breadcrumbs.html" . }}
+					{{ partial "b/page-content.html" . }}
+					{{ if page.IsSection }}
+						{{ partial "b/page-list" page }}
+					{{ end }}
+					{{ "<!-- _default/baseof.html:main:end -->" | safeHTML }}
+				{{ end }}
 			{{ end }}
 			<aside class="aside">
 				{{ partial "page-contact.html" . }}
@@ -29,4 +82,4 @@
 	</body>
 	
 </html>
-{{ "<!-- _default:baseof.html:end -->" | safeHTML }}
+{{ "<!-- _default/baseof.html:end -->" | safeHTML }}

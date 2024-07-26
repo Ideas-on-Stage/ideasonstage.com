@@ -1,8 +1,8 @@
-{{- $data := . }}
-{{- if (partial "f/ispage" .) }}
-	{{- $data = .Params }}
-{{- end }}
+{{ $data := . }}
+{{ if (partial "f/ispage" .) }}
+	{{ $data = .Params }}
+{{ end }}
 {{ partial "e/title.html" . }}
-{{- if $data.description }}
+{{ if $data.description }}
 	<p>{{ with $data.description }}{{ . | safeHTML }}{{ end }}</p>
-{{- end }}
+{{ end }}

@@ -1,11 +1,11 @@
 {{/* <!--
 	Official Google rich snippet type: yes
  --> */}}
- {{- $embedurl := .Params.embedurl -}}
- {{- $firstchars := substr $embedurl 0 4 }}
- {{- if ne $firstchars "http" }}
- 	{{- $embedurl = add "https://www.youtube.com/embed/" $embedurl }}
- {{- end }}
+ {{ $embedurl := .Params.embedurl }}
+ {{ $firstchars := substr $embedurl 0 4 }}
+ {{ if ne $firstchars "http" }}
+ 	{{ $embedurl = add "https://www.youtube.com/embed/" $embedurl }}
+ {{ end }}
 <script type="application/ld+json">
 {
 	"@context": "https://schema.org/"

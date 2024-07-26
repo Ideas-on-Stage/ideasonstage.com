@@ -1,4 +1,4 @@
-{{ "<!-- partials:inserts:sidebar-top-categories.html:start -->" | safeHTML }}
+{{ "<!-- partials/inserts/sidebar-top-categories.html:start -->" | safeHTML }}
 <h2>{{ .Site.Params.news.sbcategorytitle }}</h2>
 	<ul>
 		{{ $t := .Site.Taxonomies.tags }}
@@ -6,4 +6,4 @@
 			<li><a href="{{ .Page.Permalink }}">{{ .Term }} <span>({{ .Count }})</span></a></li>
 		{{ end }}
 	</ul>
-{{ "<!-- partials:inserts:sidebar-top-categories.html:end -->" | safeHTML }}
+{{ "<!-- partials/inserts/sidebar-top-categories.html:end -->" | safeHTML }}

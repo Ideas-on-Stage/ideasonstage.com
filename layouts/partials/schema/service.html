@@ -9,20 +9,20 @@
 	, "@type": "Service"
 	, "name": {{ .Title }}
 	, "description": {{ .Params.description }}
-	{{- if .Params.picture }}
+	{{ if .Params.picture }}
 	, "image": {{ partial "f/getpicturepath" . }}
-	{{- end }}
+	{{ end }}
 	, "brand": {
 	    "@type": "Brand",
 	    "name": {{ site.Params.author }}
 	}
 	, "provider": {{ (partial "schema/properties/organization" .Params.provider) | safeJS }}
-	{{- if .Params.Offers }}
+	{{ if .Params.Offers }}
 	, "offers": [
-		{{- $permalink := .Permalink -}}
-		{{- $counter := 0 -}}
-		{{ range .Params.offers -}}
-			{{- if ne 0 $counter }},{{ end }}
+		{{ $permalink := .Permalink }}
+		{{ $counter := 0 }}
+		{{ range .Params.offers }}
+			{{ if ne 0 $counter }},{{ end }}
 			{
 			    "@type": "Offer",
 			    "url": {{ $permalink }},
@@ -31,9 +31,9 @@
 			    "availability": {{ .availability }},
 			    "seller": {{ (partial "schema/properties/organization" .seller) | safeJS }}
 		    }
-			{{- $counter = add $counter 1 -}}
-		{{- end }}
+			{{ $counter = add $counter 1 }}
+		{{ end }}
 	]
-	{{- end }}
+	{{ end }}
 }
 </script>

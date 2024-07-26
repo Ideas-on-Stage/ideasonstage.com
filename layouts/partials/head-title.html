@@ -1,4 +1,4 @@
-{{ "<!-- partials:head-title.html:start -->" | safeHTML }}
+{{ "<!-- partials/head-title.html:start -->" | safeHTML }}
 <title>
 	{{ if or .IsHome (eq "home" .Type) }}
     {{/* <!-- Home page title --> */}}
@@ -32,4 +32,4 @@
 		{{ (printf "%s %s" site.Title site.Params.Country) | truncate 70 }}
 	{{ end }}
 </title>
-{{ "<!-- partials:head-title.html:end -->" | safeHTML }}
+{{ "<!-- partials/head-title.html:end -->" | safeHTML }}
