@@ -3,10 +3,12 @@
 
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
-    "scss"
+    "scss",
+    "markdown"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
-    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss"
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/content\/en\/resources\/books\/confident-presenter-book\/index.md"
   ],
   "workspace.color" : 1
 }
