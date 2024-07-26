@@ -73,6 +73,13 @@
 		font-weight: 700;
 	}
 
+	/* font for form fields */
+	input, textarea {
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 500;
+	}
+	
 	h1, h2, h3, h4, big {
 		font-family: "Gotham SSm A", "Gotham SSm B";
 		font-style: normal;
@@ -80,7 +87,6 @@
 	}
 
 	/* Specific fonts - try to limit it */
-
 	.style-text-intro {
 		font-family: "Whitney SSm A", "Whitney SSm B";
 		font-style: normal;
@@ -140,6 +146,7 @@
 	.footer-category-sub				{ font-size: 0.8em;		}
 	.footer-text			 			{ font-size: 0.75em;	}
 	.footer-social-link					{ font-size: 1.2em;		}
+	.iosform-control					{ font-size: 0.8em;		}
 	.iosnavbar-menu-item,
 	.iosnavbar-menu-item a				{ font-size: 0.85em;	}
 	.iosnavbar-menu-dropdown-item,
@@ -188,15 +195,11 @@
 
 
 	body {
-		
 		color: var(--color-text);
-		
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
-		
 		scroll-padding-top: var(--menubar-height);
-		
 	}
 	
 	article,
@@ -206,6 +209,7 @@
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
+		scroll-margin-top: calc( var(--menubar-height) * 2 );
 	}
 	
 	a {
@@ -1863,47 +1867,6 @@
 
 
 
-/* @group Contact */
-
-	.no-gutter > [class*=col-] {
-		padding-right: 0;
-		padding-left: 0;
-	}
-	
-	#contact {
-		scroll-margin-top: calc( var(--menubar-height) * 2 );
-	}
-	
-	/*PMO Added for forms - height of free text field*/
-	section#contact .iosform-group textarea.iosform-control {
-		height: 133px;
-		box-sizing: border-box;
-	}
-	
-	section#contact .text-danger {
-		color: #e74c3c;
-	}
-	
-	#success, #success2 {
-		display: none;
-		padding: 10px;
-	}
-	
-	::selection {
-		text-shadow: none;
-		color: #fff;
-		background: #222;
-	}
-	
-	img::selection {
-		color: #fff;
-		background: 0 0;
-	}
-
-/* @end */
-
-
-
 /* @group Testimonials */
 
 	.testimonials-item {
@@ -1945,56 +1908,31 @@
 		border-radius: 4px;
 		display: block;
 		width: 100%;
-		height: 34px;
+		margin: 20px 0;
 		padding: 6px 12px;
-		font-size: 14px;
 		line-height: 1.42857143;
 		color: #555;
 		background-color: #fff;
-		background-image: none;
 		border: 1px solid #ccc;
 		-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
 		-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 		transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 		box-sizing: border-box;
 	}
-	
-	.iosform-control-nav {
-		box-shadow: none;
-		border: 0;
-		border-radius: 0;
-		display: block;
-		padding: 3px 6px ;
-		clear: both;
-		line-height: 1.42857143;
-		color: #666;
-		white-space: nowrap;
-		text-align: left;
-		width: 190px;
-		background-color: rgba(0, 0, 0, 0);
-		color: rgb(102, 102, 102);
-	}
-	
-	.iosform-control-nav:focus:hover {
-		color: var(--color-primary) !important;
-		background-color: transparent;
-		border-color: #000;
-		outline: 0;
-	}
-	
 	.iosform-control:focus {
+		/* highlight active field border */
 		border-color: var(--color-primary);
 		outline: 0;
-		box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 127, 191, 0.6);
 	}
-	.iosform-group {
-		margin-bottom: 20px;
+		
+	input.iosform-control {
+		height: 34px;
 	}
 	
-	.iosform-button {
-		text-align: center;
+	textarea.iosform-control {
+		height: 200px;
 	}
-
+	
 /* @end IOSFORM */
 
 

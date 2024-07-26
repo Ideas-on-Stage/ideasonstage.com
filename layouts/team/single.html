@@ -1,8 +1,8 @@
-{{ define "head" }}
-	{{ "<!-- team/single.html:head:start -->" | safeHTML }}
+{{ define "head-custom" }}
+	{{ "<!-- team/single.html:head-custom:start -->" | safeHTML }}
 	{{/* <!-- use Person schema for team member page --> */}}
 	{{ partial "schema/person.html" . }}
-	{{ "<!-- team/single.html:head:end -->" | safeHTML }}
+	{{ "<!-- team/single.html:head-custom:end -->" | safeHTML }}
 {{ end }}
 
 {{ define "main" }}

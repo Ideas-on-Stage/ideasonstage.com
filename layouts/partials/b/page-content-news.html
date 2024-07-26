@@ -1,0 +1,52 @@
+{{ "<!-- partials/b/page-content-news.html:start -->" | safeHTML }}
+<div class="layout-content">
+	<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-big-gap">
+		<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
+			<div class="scroller">
+				{{ partial "sidebar/sidebar-related.html" . }}
+				{{ partial "sidebar/sidebar-top-categories.html" . }}
+			</div>
+		</aside>
+		<article class="flex-child flex-child-67p">
+			<div class="flex-parent flex-parent-column">
+				<div class="flex-parent flex-parent-row row-tag">
+					<ul class="post-tag">
+						{{ range (.GetTerms "tags") }}
+							<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+						{{ end }}
+					</ul>
+				</div>
+				<div class="flex-parent flex-parent-row">
+					<h1>{{ .Title }}</h1>
+				</div>
+				<div class="flex-parent flex-parent-row">
+					<p class="text-muted  mb-small">
+						{{ if isset .Params "author" }}
+						{{ .Site.Params.news.by }} 
+						{{ $scratch := newScratch }}
+						{{ $scratch.Set "author" "/team/" }}
+						{{ $author := .Params.author | urlize }}
+						{{ $scratch.Add "author" $author }}
+						{{ with .Site.GetPage ($scratch.Get "author") }}
+							{{ if ne .Params.draft "true" }}
+								{{ $.Params.author }} —
+							{{ else }}
+								{{ .Params.author }} -
+							{{ end }}
+						{{ else }} 
+							{{ .Params.author }} -
+						{{ end }}
+						{{ end }}
+						<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate" .Date }}</time> 
+					</p>
+				</div>
+				<div class="flex-parent flex-parent-row paddingv-tiny">			
+					<div id="post-content">
+					{{ with .Content }}{{ . }}{{ end }}
+					</div>
+				</div>
+			</div>
+		</article>
+	</div>
+</div>
+{{ "<!-- partials/b/page-content-news.html:end -->" | safeHTML }}

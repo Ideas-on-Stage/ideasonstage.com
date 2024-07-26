@@ -248,29 +248,31 @@
 			
 		</div>
 		<div class="layout-content-narrow">
-			<form action="/es/404.html" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-				<div class="iosform-group">
-					<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/es/404.html">
-				</div>
-				<div class="iosform-group">
-					<input type="text" id="fname" name="name" class="iosform-control" placeholder="Tu Nombre *" oninvalid="alert('Por favor, escribe tu nombre.');" required>
-				</div>  
-				<div class="iosform-group">
-					<input type="email" id="email" name="email" class="iosform-control" placeholder="Tu Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Por favor, introduce un email válido.');" required>
-				</div>
-				<div class="iosform-group">
-					<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Tu teléfono (opcional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Por favor, introduce un número de teléfono válido.');">  
-				</div>
-				<div class="iosform-group">
-					<input type="text" id="country" name="country" class="iosform-control" placeholder="Tu páis de residencia (opcional)" oninvalid="alert('Por favor incluya su país de residencia.');">
-				</div>
-				<div class="iosform-group">
-					<textarea id="message" name="message" class="iosform-control" placeholder="Tu Mensaje *" oninvalid="alert('Por favor, escribe un mensaje.');" required></textarea>  	
-				</div>
-				<div class="iosform-button">
-					<input type="submit" id="contactsubmit" value="Enviar mensaje" class="button-primary" success="Gracias, en breve nos pondremos en contacto contigo." wait="Un momento ...">	
-				</div>
-			</form>
+			<div class="flex-parent flex-parent-column flex-justify-center">
+				<form action="/es/404.html" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+					<div class="iosform-group">
+						<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/es/404.html">
+					</div>
+					<div class="iosform-group">
+						<input type="text" id="fname" name="name" class="iosform-control" placeholder="Tu Nombre *" oninvalid="alert('Por favor, escribe tu nombre.');" required>
+					</div>  
+					<div class="iosform-group">
+						<input type="email" id="email" name="email" class="iosform-control" placeholder="Tu Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Por favor, introduce un email válido.');" required>
+					</div>
+					<div class="iosform-group">
+						<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Tu teléfono (opcional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Por favor, introduce un número de teléfono válido.');">  
+					</div>
+					<div class="iosform-group">
+						<input type="text" id="country" name="country" class="iosform-control" placeholder="Tu páis de residencia (opcional)" oninvalid="alert('Por favor incluya su país de residencia.');">
+					</div>
+					<div class="iosform-group">
+						<textarea id="message" name="message" class="iosform-control" placeholder="Tu Mensaje *" oninvalid="alert('Por favor, escribe un mensaje.');" required></textarea>  	
+					</div>
+					<div class="iosform-button flex-child flex-align-self-center">
+						<input type="submit" id="contactsubmit" value="Enviar mensaje" class="button-primary" success="Gracias, en breve nos pondremos en contacto contigo." wait="Un momento ...">	
+					</div>
+				</form>
+			</div>
 		</div>
 	</div>
 </section><!-- contact end -->

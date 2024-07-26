@@ -246,29 +246,31 @@
 			
 		</div>
 		<div class="layout-content-narrow">
-			<form action="/404.html" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-				<div class="iosform-group">
-					<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/404.html">
-				</div>
-				<div class="iosform-group">
-					<input type="text" id="fname" name="name" class="iosform-control" placeholder="Your Name *" oninvalid="alert('Please enter your name.');" required>
-				</div>  
-				<div class="iosform-group">
-					<input type="email" id="email" name="email" class="iosform-control" placeholder="Your Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Please enter a valid email address.');" required>
-				</div>
-				<div class="iosform-group">
-					<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Your Phone (optional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Please enter a valid phone number.');">  
-				</div>
-				<div class="iosform-group">
-					<input type="text" id="country" name="country" class="iosform-control" placeholder="Your country of residence (optional)" oninvalid="alert('Please enter your country of residence.');">
-				</div>
-				<div class="iosform-group">
-					<textarea id="message" name="message" class="iosform-control" placeholder="Let us know how we can help you *" oninvalid="alert('Please enter a message.');" required></textarea>  	
-				</div>
-				<div class="iosform-button">
-					<input type="submit" id="contactsubmit" value="Send message" class="button-primary" success="Thank you, we&#39;ll get back to you shortly." wait="Please Wait...">	
-				</div>
-			</form>
+			<div class="flex-parent flex-parent-column flex-justify-center">
+				<form action="/404.html" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+					<div class="iosform-group">
+						<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/404.html">
+					</div>
+					<div class="iosform-group">
+						<input type="text" id="fname" name="name" class="iosform-control" placeholder="Your Name *" oninvalid="alert('Please enter your name.');" required>
+					</div>  
+					<div class="iosform-group">
+						<input type="email" id="email" name="email" class="iosform-control" placeholder="Your Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Please enter a valid email address.');" required>
+					</div>
+					<div class="iosform-group">
+						<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Your Phone (optional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Please enter a valid phone number.');">  
+					</div>
+					<div class="iosform-group">
+						<input type="text" id="country" name="country" class="iosform-control" placeholder="Your country of residence (optional)" oninvalid="alert('Please enter your country of residence.');">
+					</div>
+					<div class="iosform-group">
+						<textarea id="message" name="message" class="iosform-control" placeholder="Let us know how we can help you *" oninvalid="alert('Please enter a message.');" required></textarea>  	
+					</div>
+					<div class="iosform-button flex-child flex-align-self-center">
+						<input type="submit" id="contactsubmit" value="Send message" class="button-primary" success="Thank you, we&#39;ll get back to you shortly." wait="Please Wait...">	
+					</div>
+				</form>
+			</div>
 		</div>
 	</div>
 </section><!-- contact end -->

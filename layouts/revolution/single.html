@@ -1,36 +1,13 @@
 {{ define "main" }}
 	{{ "<!-- revolution/single.html:main:start -->" | safeHTML }}
-	<div class="layout-content">
-		<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-big-gap">
-			<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
-				<div class="scroller">
-					{{ partial "sidebar/sidebar-top-categories.html" . }}
-					{{ partial "sidebar/sidebar-newsletter.html" . }}
-				</div>
-			</aside>
-			<article class="flex-child flex-child-67p">
-				<div class="flex-parent flex-parent-row row-tag">
-					<ul class="post-tag">
-						{{ range (.GetTerms "tags") }}
-							<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-					   {{ end }}
-					</ul>
-				</div>
-				<div class="flex-parent flex-parent-row">
-					<p class="text-muted mb-small">
-						{{ if isset .Params "author" }}
-						  {{ .Site.Params.news.by }} <a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">{{ .Params.author }}</a>
-						  {{ end }}
-							<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate" .Date }}</time> 
-						</p>
-				</div>
-				<div class="flex-parent-row paddingt-tiny">
-					<div id="post-content">
-						{{ with .Content }}{{ . }}{{ end }}
-					  </div>
-				</div>
-			</article>
-		</div>
-	</div>
+	{{ partial "b/page-title.html" . }}
+	{{ partial "b/page-breadcrumbs.html" . }}
+	{{ partial "b/page-content-revolution" . }}	
 	{{ "<!-- revolution/single.html:main:end -->" | safeHTML }}
+{{ end }}
+
+{{ define "page-content" }}
+	{{ "<!-- revolution/single.html:page-content:start -->" | safeHTML }}
+	{{ partial "b/page-content-revolution" . }}
+	{{ "<!-- revolution/single.html:page-content:end -->" | safeHTML }}
 {{ end }}
