@@ -4,10 +4,12 @@
   ],
   "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
     "scss",
-    "toml"
+    "toml",
+    "html"
   ],
   "eablokker.tabsSidebar.config.customTabOrder" : [
     "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/assets\/main.scss",
+    "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/layouts\/partials\/page-nav.html",
     "file:\/\/\/Users\/pmorsa\/Sites\/Hugo\/ideasonstage.com\/config\/_default\/config.toml"
   ],
   "workspace.color" : 1

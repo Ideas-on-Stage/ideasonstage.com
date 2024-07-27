@@ -169,7 +169,7 @@
 	#sidebar p,
 	#sidebar a							{ font-size: 0.80em;	}
 	/* adjust for small tall smartphone screens */
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		body, a, blockquote 			{ font-size: 4vw;		}
 		.button-primary					{ font-size: 4vw;		}
 		.iosnavbar-menu-item,
@@ -317,7 +317,7 @@
 		padding: 0 2vw;
 	}
 
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		/* adjust for tall viewport */	
 		#breadcrumbs ol {
@@ -425,7 +425,7 @@
 		
 	}
 	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		#content-main th {
 			min-width: 50px;
@@ -630,7 +630,7 @@
 	}
 	
 	/* adapt to tall smartphone screens */
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		.button-primary {
 			padding: 2vw 6vw;
@@ -642,6 +642,8 @@
 /* @end */
 
 
+
+/* LAYOUT layout- classes are used to structure the page layout */
 
 /* @group LAYOUT-PAGE */
 	
@@ -676,14 +678,6 @@
 		max-width: 1200px; /* prevents text area from getting unpleasantly wide */
 	}
 	
-	/* use to align menubar, footer, etc. on content */
-	.layout-content-width {
-		margin: 0 auto; /* use auto to center div on page */
-		padding: 0;
-		width: 80vw;
-		max-width: 1200px; /* prevents text area from getting unpleasantly wide */
-	}
-	
 	/* use for narrow content such as forms */
 	.layout-content-narrow {
 		margin: 0 auto; /* use auto to center div on page */
@@ -692,16 +686,10 @@
 		max-width: 800px; /* prevents text area from getting unpleasantly wide */
 	}
 	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		.layout-content {
 			margin: 48px var(--module-ts-column-gap);
-			width: calc(100% - var(--module-ts-column-gap) * 2);
-			max-width: calc(100% - var(--module-ts-column-gap) * 2);
-		}
-		
-		.layout-content-width {
-			margin: 0 var(--module-ts-column-gap);
 			width: calc(100% - var(--module-ts-column-gap) * 2);
 			max-width: calc(100% - var(--module-ts-column-gap) * 2);
 		}
@@ -743,7 +731,6 @@
 	
 	/* Or use this to create a half width module div */
 	.layout-module-half {
-		display: flex;
 		flex-direction: column;
 		width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
 	}
@@ -771,10 +758,6 @@
 		gap: var(--module-row-gap) var(--module-column-gap);
 	}
 	
-	.layout-module-group-norowgap {
-		margin: 0;
-	}
-	
 	/* use to create module div with pic on left, text on right */
 	.layout-module-row {
 		flex-direction: row;
@@ -784,7 +767,7 @@
 	.layout-module-row-image {
 		height: 100%;
 		width: 64%;
-	}	
+	}
 	.layout-module-row-image img {
 		display: block;
 		height: 100%;
@@ -796,7 +779,7 @@
 	/* use to create inner div with text on right */
 	.layout-module-row-text {
 		padding: 4vw;
-		width: 36%; /* width = height for square ratio */
+		width: 36%;
 	}
 	
 	/* use to create module div with text on top, image below */
@@ -857,7 +840,7 @@
 		margin-top: 0;
 	}
 	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		.layout-module-group {
 			margin: var(--module-ts-row-gap) 0;
@@ -885,7 +868,7 @@
 			flex-direction: column-reverse;
 			justify-content: space-between;
 		}
-					
+		
 		.layout-module-row-image {
 			height: 50%;
 			width: 100%;
@@ -943,7 +926,7 @@
 		height: 100%;
 	}
 
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		.layout-shortcode {
 			margin: 0 -4vw;
@@ -982,7 +965,7 @@
 		z-index: 99;	
 	}
 	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		.layout-double-sticky {
 			position: relative;
@@ -1033,7 +1016,7 @@
 		align-items: flex-start;
 	}
 			
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		.flex-parent-scroll {
 			padding-bottom: 1.0em;
 		}
@@ -1174,10 +1157,10 @@
 		.flex-gap .flex-child-16p {
 			width: calc(var(--module-12c-width) * 2 + var(--module-column-gap) * 1 );
 		}
-				
+		
 	}
 	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		/* on ts screens, use a width of 100% for these sizes */
 		.flex-child-100p,
@@ -1291,7 +1274,7 @@
 	}
 	
 	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		/* change flex-direction to column on tall smartphone screens */
 		.flex-parent-column-ontall {
@@ -1511,7 +1494,7 @@
 		margin: 0px;
 	}
 
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		.margin-tiny 	{
 			margin: {{ site.Params.layout.module.padding_ts.top }};
@@ -1601,7 +1584,7 @@
 		box-sizing: border-box;
 	}
 	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		.paddingt-large		{	padding-top: 18px;	}
 		.paddingt-medium	{	padding-top: 12px;	}
@@ -1730,7 +1713,7 @@
 		
 	}
 	
-	@media (max-aspect-ratio:1/1) and (max-width : 480px) {
+	@media (max-width : 480px) {
 		
 		.menutoggle + a,
 		.iosnavbar-menu {
@@ -1799,16 +1782,9 @@
 
 /* @end */
 
-.pager {
-	list-style: none;
-}	
-
-.section-heading {
-	margin-top: 0;
-}
 
 
-/* @group PEOPLE-BOX */
+/* @group TEAMMEMBER */
 
 	/* used for team members and other people profiles */
 	
@@ -1839,7 +1815,7 @@
 
 
 
-/* @group Testimonials */
+/* @group TESTIMONIALS */
 
 	.testimonials-item {
 		flex-basis: 30vw;
@@ -1855,7 +1831,7 @@
 		margin: 0;
 	}
 	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 	
 		.testimonials-item {
 			flex-basis: 70vw;
@@ -1961,7 +1937,7 @@
 		color: #222;		
 	}
 	
-	@media (max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		
 		.footer-text-min {
 			flex-grow: 2;
@@ -2157,7 +2133,7 @@
 		box-sizing: border-box;
 	}
 	
-	@media(max-aspect-ratio:1/1) and (max-width:480px) {
+	@media (max-width:480px) {
 		.revolution-box {
 			max-width: 100%;
 			box-sizing: border-box;
