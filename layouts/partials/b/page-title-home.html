@@ -1,7 +1,7 @@
 {{ "<!-- partials/b/page-title-home.html:start -->" | safeHTML }}
 <header>
 	<div class="bg-dark paddingt-tiny bg-dark centered">
-		<div class="layout-content marginv-none">
+		<div class="l-content marginv-none">
 			<h1 class="text-base">
 				{{ with .Title }}{{ . | markdownify  }}{{ end }}
 			</h1>
@@ -10,7 +10,7 @@
 </header>
 <aside>
 	<nav class="bg-dark">
-		<div class="layout-content marginv-none">
+		<div class="l-content marginv-none">
 			<ul class="flex-parent flex-parent-row flex-big-gap flex-justify-center paddingv-tiny">
 			<!-- Languages Drop Down -->
 			{{ if .IsTranslated }}

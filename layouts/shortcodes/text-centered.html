@@ -1,16 +1,16 @@
-<div class="layout-shortcode-column  padding-medium {{ with .Params.class }}{{ . }}{{ end }}">
+<div class="l-shortcode-column  padding-medium {{ with .Params.class }}{{ . }}{{ end }}">
 {{ if .Params.category }}
-	<div class="layout-shortcode-child">
+	<div class="l-shortcode-child">
 		<h3 class="text-center">{{ .Params.category }}</h3>
 	</div>
 {{ end }}
 {{ if .Params.title }}
-	<div class="layout-shortcode-child">
+	<div class="l-shortcode-child">
 		<h2 class="text-center">{{ .Params.title }}</h2>
 	</div>
 {{ end }}
 {{ if .Inner }}
-	<div class="layout-shortcode-child">
+	<div class="l-shortcode-child">
 		<p class="text-center style-text-intro margin-none">{{ .Inner | markdownify }}</p>
 	</div>
 {{ end }}

@@ -1,13 +1,11 @@
 /*
-	COLORS REFERENCE (IoS official colors)
+	Objectives:
+	- Target only 2 screen sizes to reduce number of layout test cases: @media (max-width:480px) and @media(min-width:481px)
+	- simplify layout by providing "l-module" blocks with known width and height
 	
-	BLACK #000
-	WHITE #fff
-	DARK GRAY #222 - Header, Footer
-	LIGHT GRAY #f2f2f2 - Background, some lines
-	ORANGE #ff8200 - Primary buttons and highlights
-	BLUE # 00a3e0 - Secondary buttons and highlights
 */
+
+/* @group VARIABLES */
 
 :root {
 	
@@ -51,6 +49,8 @@
 	--color-time: {{ site.Params.colors.time }};
 	
 }
+
+
 
 /* @group FONT FAMILIES */
 
@@ -369,13 +369,13 @@
 		padding-bottom: 0;
 	}
 	
-	#content-main :not(div) + div.layout-shortcode,
-	#content-main :not(div) + div.layout-shortcode-img {
+	#content-main :not(div) + div.l-shortcode,
+	#content-main :not(div) + div.l-shortcode-img {
 		margin-top: 48px;
 	}
 
-	#content-main div.layout-shortcode + :not(div),
-	#content-main div.layout-shortcode-img + :not(div) {
+	#content-main div.l-shortcode + :not(div),
+	#content-main div.l-shortcode-img + :not(div) {
 		margin-top: 48px;
 	}
 	
@@ -643,11 +643,11 @@
 
 
 
-/* LAYOUT layout- classes are used to structure the page layout */
+/* LAYOUT l- classes are used to structure the page layout */
 
-/* @group LAYOUT-PAGE */
+/* @group l-PAGE */
 	
-	.layout-page {
+	.l-page {
 		padding-top: {{ site.Params.layout.page.padding_top }};
 		padding-right: {{ site.Params.layout.page.padding_right }};
 		padding-bottom: {{ site.Params.layout.page.padding_bottom }};
@@ -655,7 +655,7 @@
 	}
 	
 	/* main page title layout */
-	.layout-page-title {
+	.l-page-title {
 		position: sticky;
 		top: var(--menubar-height);
 		z-index: 100;
@@ -668,10 +668,10 @@
 
 
 
-/* @group LAYOUT-CONTENT */
+/* @group l-CONTENT */
 
 	/* wrapper from main page content, with nice left and right margins */
-	.layout-content {
+	.l-content {
 		margin: 48px auto; /* use auto to center div on page */
 		padding: 0;
 		width: 80vw;
@@ -679,7 +679,7 @@
 	}
 	
 	/* use for narrow content such as forms */
-	.layout-content-narrow {
+	.l-content-narrow {
 		margin: 0 auto; /* use auto to center div on page */
 		padding: 0;
 		width: 50vw;
@@ -688,14 +688,14 @@
 	
 	@media (max-width:480px) {
 		
-		.layout-content {
+		.l-content {
 			margin: 48px var(--module-ts-column-gap);
 			width: calc(100% - var(--module-ts-column-gap) * 2);
 			max-width: calc(100% - var(--module-ts-column-gap) * 2);
 		}
 		
 		/* make the narrow content look nice in small screens */
-		.layout-content-narrow {
+		.l-content-narrow {
 			margin: 0 var(--module-ts-column-gap);
 			width: calc(100% - var(--module-ts-column-gap) * 2 );
 			max-width: calc(100% - var(--module-ts-column-gap) * 2 );
@@ -704,25 +704,25 @@
 	
 /* @end */
 	
-/* @group LAYOUT-MODULE */
+/* @group l-MODULE */
 	
 	/*
 	Modules are containers with predefined sizes.
-	.layout-module: standard module, fixed height
-	.layout-module-half standard module, fixed height, half-width
-	.layout-module-screen-full full screen module
-	.layout-module-hero hero module, fixed hero height
+	.l-module: standard module, fixed height
+	.l-module-half standard module, fixed height, half-width
+	.l-module-screen-full full screen module
+	.l-module-hero hero module, fixed hero height
 	
-	To add a gap between modules, wrap them in a .layout-module-group div
+	To add a gap between modules, wrap them in a .l-module-group div
 	
 	Inside modules, you have the following predefined layouts:
-	.layout-module-row to display an image and text side by side
-	.layout-module-column to display image and text in a column
-	.layout-module-layer to layer elements on top of each other (eg an image in the back, text on top)
+	.l-module-row to display an image and text side by side
+	.l-module-column to display image and text in a column
+	.l-module-layer to layer elements on top of each other (eg an image in the back, text on top)
 	*/
 	
 	/* Use this to create a full width module div */
-	.layout-module {
+	.l-module {
 		display: flex;
 		height: var(--module-height); /* defines the fixed height of the module */
 		width: calc(100% - 0px);
@@ -730,25 +730,25 @@
 	}
 	
 	/* Or use this to create a half width module div */
-	.layout-module-half {
+	.l-module-half {
 		flex-direction: column;
 		width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
 	}
 	
 	/* full screen layout module */
-	.layout-module-screen-full {
+	.l-module-screen-full {
 		height: calc(100vh - var(--menubar-height));
 		width: calc(100% - 0px);
 	}
 	
 	/* hero layout module */
-	.layout-module-hero {
+	.l-module-hero {
 		height: var(--hero-height);
 		width: calc(100% - 0px);
 	}
 	
-	/* Enclose modules in a layout-module-group div to have a gap between them */		
-	.layout-module-group {
+	/* Enclose modules in a l-module-group div to have a gap between them */		
+	.l-module-group {
 		width: calc(100% - 0px);
 		display: flex;
 		flex-direction: row; /* to display half modules side by side */
@@ -759,16 +759,16 @@
 	}
 	
 	/* use to create module div with pic on left, text on right */
-	.layout-module-row {
+	.l-module-row {
 		flex-direction: row;
 	}
 	
 	/* use to create inner div with the pic on left */
-	.layout-module-row-image {
+	.l-module-row-image {
 		height: 100%;
 		width: 64%;
 	}
-	.layout-module-row-image img {
+	.l-module-row-image img {
 		display: block;
 		height: 100%;
 		width: 100%;
@@ -777,18 +777,18 @@
 	}
 	
 	/* use to create inner div with text on right */
-	.layout-module-row-text {
+	.l-module-row-text {
 		padding: 4vw;
 		width: 36%;
 	}
 	
 	/* use to create module div with text on top, image below */
-	.layout-module-column {
+	.l-module-column {
 		flex-direction: column;
 	}
 	
 	/* use to create inner div with text on top */
-	.layout-module-column-text {
+	.l-module-column-text {
 		position: relative;	/* enables z-index */
 		z-index: 10; /* if text overflows, it will go over picture below */
 		padding: 2vw 4vw;
@@ -799,11 +799,11 @@
 	}
 	
 	/* use to create inner div with image on bottom */
-	.layout-module-column-image {
+	.l-module-column-image {
 		height: 50%; /* without this, image size can overflow from module */
 		width: 100%;
 	}
-	.layout-module-column-image img {	
+	.l-module-column-image img {	
 		height: 100%;
 		width: 100%;
 		object-fit: contain; /* image is never distorted, crop if necessary */
@@ -811,38 +811,38 @@
 	}
 	
 	/* use to layer elements on top of each other, one layer per element */
-	.layout-module-layer {
+	.l-module-layer {
 		position: absolute;
 		height: inherit;
 		width: inherit;
 	}
-	.layout-module-layer > img {
+	.l-module-layer > img {
 		height: inherit;
 		width: 100%;
 		object-fit: cover;
 	}	
-	.layout-module-half .layout-module-layer {
+	.l-module-half .l-module-layer {
 		/* half module layers have a width of 50% */
 		width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
 	}
 
-	.layout-module-group .layout-module-half .layout-module-layer {
+	.l-module-group .l-module-half .l-module-layer {
 		width: calc( ( 100% - var(--module-column-gap) * 3 ) / 2);
 	}
 	
-	.layout-module .layout-module-layer,
-	.layout-module-half .layout-module-layer {
+	.l-module .l-module-layer,
+	.l-module-half .l-module-layer {
 		height: var(--module-height);
 	}
 	
 	/* remove gap for module right after title */
-	.layout-module-title + .layout-module, {
+	.l-module-title + .l-module, {
 		margin-top: 0;
 	}
 	
 	@media (max-width:480px) {
 		
-		.layout-module-group {
+		.l-module-group {
 			margin: var(--module-ts-row-gap) 0;
 			padding: 0;
 			gap: var(--module-ts-row-gap) var(--module-ts-column-gap);
@@ -854,49 +854,49 @@
 			margin-right: var(--module-ts-column-gap);
 		}
 		
-		.layout-module {
+		.l-module {
 			height: var(--module-ts-height);
 		}
 		
-		.layout-module-half {
+		.l-module-half {
 			width: 100%; /* make half width modules full width on ts screens */
 		}
 		
-		.layout-module-row {
+		.l-module-row {
 			height:  var(--module-ts-height);
 			width: 100%;
 			flex-direction: column-reverse;
 			justify-content: space-between;
 		}
 		
-		.layout-module-row-image {
+		.l-module-row-image {
 			height: 50%;
 			width: 100%;
 		}
 		
-		.layout-module-row-text {
+		.l-module-row-text {
 			padding: 8vw;
 			height: 50%;
 			width: 100%;
 			text-align: center;
 		}
 		
-		.layout-module-column {
+		.l-module-column {
 			height: var(--module-ts-height);
 		}
-		.layout-module-column-text {
+		.l-module-column-text {
 			padding: 8vw;
 		}
-		.layout-module-column-image img {
+		.l-module-column-image img {
 			object-fit: cover; /* use cover instead of contain on ts screens */
 		}
 		
-		.layout-module-layer {
+		.l-module-layer {
 			width: 100%;
 			height: inherit;
 		}
-		.layout-module .layout-module-layer,
-		.layout-module-half .layout-module-layer {
+		.l-module .l-module-layer,
+		.l-module-half .l-module-layer {
 			height: var(--module-ts-height);
 		}
 		
@@ -906,34 +906,34 @@
 
 
 
-/* @group LAYOUT-SHORTCODE */
+/* @group l-SHORTCODE */
 	
 	.shortcode-certificate {
 		width: 256px;	
 	}
 	
-	.layout-shortcode {
+	.l-shortcode {
 		margin: 0 -2vw;
 		padding: 2vw;
 	}
 	
-	.layout-shortcode-img {
+	.l-shortcode-img {
 		margin: 0 -2vw;
 		padding: 0;
 	}
-	.layout-shortcode-img img {
+	.l-shortcode-img img {
 		width: 100%;
 		height: 100%;
 	}
 
 	@media (max-width:480px) {
 		
-		.layout-shortcode {
+		.l-shortcode {
 			margin: 0 -4vw;
 			padding: 4vw;
 		}
 		
-		.layout-shortcode-img {
+		.l-shortcode-img {
 			margin: 0 -4vw;
 		}
 		
@@ -944,22 +944,22 @@
 
 
 /* @group LAYOUT HELPER CLASSES */
-		
-	.layout-absolute {
+	
+	.l-h-absolute {
 		position: absolute;
 	}
 	
-	.layout-fixed {
+	.l-h-fixed {
 		position: fixed;
 	}
 	
-	.layout-sticky {
+	.l-h-sticky {
 		position: sticky;
 		top: var(--menubar-height);
 		z-index: 100;	
 	}
 	
-	.layout-double-sticky {
+	.l-h-double-sticky {
 		position: sticky;
 		top: calc(var(--menubar-height) + 1.6em + .4vw);
 		z-index: 99;	
@@ -967,7 +967,7 @@
 	
 	@media (max-width:480px) {
 		
-		.layout-double-sticky {
+		.l-h-double-sticky {
 			position: relative;
 			top: 0;
 		}
@@ -981,7 +981,7 @@
 /* @group FLEX */
 
 	/* .flex- is a series of classes to implement generic flexbox */
-	/* .layout- are defined for a precise use, .flex- is more generic */
+	/* .l- are defined for a precise use, .flex- is more generic */
 	
 	/* flex parent that wraps if too large */
 	.flex-parent {
@@ -1667,13 +1667,13 @@
 	.iosnavbar-menu-dropdown {
 		display: none;
 		position: absolute;
-		top: calc(var(--menubar-height) - 2px);
-		margin: 0;
-		background-color: rgba(34,34,34,1);
+		top: calc(var(--menubar-height) - 8px);
+		margin: 0 -12px;
 		padding: 0;
 		box-sizing: border-box;
 		flex-direction: column;
 		gap: 0.2em;
+		background-color: rgba(34,34,34,1);
 	}
 	
 	/* menu dropdown item */
@@ -1682,6 +1682,7 @@
 		display: list-item;
 		position: relative;
 		list-style: none;
+		margin: 0;
 		padding: 5px 12px;
 		background-color: transparent;
 		line-height: 20px;
@@ -1708,7 +1709,7 @@
 		
 		/* burger symbol (replaces normal menu on ts screens) */
 		.iosnavbar-burger {
-			display: none;
+			display: none; /* hide burger if not  */
 		}
 		
 	}

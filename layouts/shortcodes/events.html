@@ -1,7 +1,7 @@
 {{ "<!-- shortcodes:events.html:start -->" | safeHTML }}
-<div class="layout-shortcode flex-justify-center {{ with .Params.style }}{{ . }}{{ end }}">
+<div class="l-shortcode flex-justify-center {{ with .Params.style }}{{ . }}{{ end }}">
 {{ if .Params.title }}
-	<div class="layout-shortcode-child">
+	<div class="l-shortcode-child">
 		<h3 class="text-center">{{ .Params.title }}</h3>
 	</div>
 {{ end }}
@@ -11,10 +11,10 @@
 	{{ if and (ge .startdate (now.Format "2006-01-02")) (not .draft) }}
 	{{ $atleastone = true }}
 	<div class="flex-parent flex-parent-row flex-parent-column-ontall">
-		<div class="flex-child flex-child-40p layout-shortcode-child ">
+		<div class="flex-child flex-child-40p l-shortcode-child ">
 			<img src="{{ .image }}">
 		</div>
-		<div class="flex-child flex-child-60p layout-shortcode-child">
+		<div class="flex-child flex-child-60p l-shortcode-child">
 			<h4 class="margin-none">{{ .name }}</h4>
 		    <p>{{ .description }}<br />
 			{{ partial "f/getdatetime" .startdate }}<br />

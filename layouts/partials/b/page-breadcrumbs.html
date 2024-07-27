@@ -1,7 +1,7 @@
 {{ "<!-- partials/b/page-breadcrumbs.html:start -->" | safeHTML }}
 {{ if (not .Parent.IsHome) }} {{/* <!-- show only if 2 levels of depth --> */}}
-<aside id="breadcrumbs" class="layout-sticky">
-	<div class="layout-content marginv-none">
+<aside id="breadcrumbs" class="l-h-sticky">
+	<div class="l-content marginv-none">
 	{{ "<!-- partials/revolution/breadcrumbs.html -->" | safeHTML }}
 		<ol>
 			{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
