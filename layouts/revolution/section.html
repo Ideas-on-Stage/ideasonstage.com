@@ -1,11 +1,18 @@
+{{/* <!-- define main only if different from default structure --> */}}
+
 {{ define "main" }}
 	{{ "<!-- revolution/section.html:main:start -->" | safeHTML }}
-	{{ partial "b/page-title.html" . }}
-	{{ partial "b/page-breadcrumbs.html" . }}
-	{{ partial "b/page-list-revolution.html" . }}
+	{{ template "page-title" . }}
+	{{ template "page-list" . }}
 	{{ "<!-- revolution/section.html:main:end -->" | safeHTML }}
 {{ end }}
 
+
+
+{{/* <!-- define custom blocks --> */}}
+
 {{ define "page-list" }}
+	{{ "<!-- revolution/section.html:page-list:start -->" | safeHTML }}
 	{{ partial "b/page-list-revolution.html" . }}
+	{{ "<!-- revolution/section.html:page-list:end -->" | safeHTML }}
 {{ end }}

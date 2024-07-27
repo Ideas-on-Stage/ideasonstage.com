@@ -1,11 +1,8 @@
-{{ define "main" }}
-	{{ "<!-- team/section.html:main:start -->" | safeHTML }}
-	{{ partial "b/page-title.html" . }}
-	{{ partial "b/page-breadcrumbs.html" page }}
-	{{ block "page-content" . }}{{ end }}
-	{{ block "page-list" . }}{{ end }}
-	{{ "<!-- team/section.html:main:end -->" | safeHTML }}
-{{ end }}
+{{/* <!-- define main only if different from default structure --> */}}
+
+
+
+{{/* <!-- define custom blocks --> */}}
 
 {{ define "page-content" }}
 	{{ "<!-- team/section.html:page-content:start -->" | safeHTML }}

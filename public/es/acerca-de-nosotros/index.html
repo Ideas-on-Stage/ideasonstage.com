@@ -228,9 +228,11 @@
 			
 				
 				
+				
 					
-						<!-- _default/baseof.html:page-title:start -->
-						<!-- partials/b/page-title.html:start -->
+					
+	<!-- _default/baseof.html:page-title:define:start -->
+	<!-- partials/b/page-title.html:start -->
 
 	
 		<header id="title" class="layout-module-title">
@@ -244,24 +246,31 @@
 
 <!-- partials/b/page-title.html:end -->
 
-						<!-- _default/baseof.html:page-title:end -->
-					
+	<!-- _default/baseof.html:page-title:define:end -->
+
+				
 				
 			
 				
 				
-					<!-- partials/b/page-breadcrumbs.html:start -->
+				
+					
+					
+	<!-- partials/b/page-breadcrumbs.html:start -->
 
 
 
 <!-- partials/b/page-breadcrumbs.html:end -->
+
+				
 				
 			
 				
 				
+				
 					
-						<!-- _default/baseof.html:page-content:start -->
-						<!-- partials/b/page-content.html:start -->
+					
+	<!-- partials/b/page-content.html:start -->
 
 	<div class="layout-content">
 		
@@ -275,16 +284,18 @@
 	</div>
 
 <!-- partials/b/page-content.html:end -->
-						<!-- _default/baseof.html:page-content:end -->
-					
+
+				
 				
 			
 				
 				
+				
 					
-						
-							<!-- _default/baseof.html:page-list:start -->
-							<!-- partials/b/page-list.html:start -->
+					
+	
+		<!-- _default/baseof.html:page-list:start -->
+		<!-- partials/b/page-list.html:start -->
 <section id="content-list" class="layout-content">
 	
 		
@@ -330,15 +341,21 @@
 </section>
 <!-- partials/b/page-list.html:end -->
 
-							<!-- _default/baseof.html:page-list:end -->
-						
-					
+		<!-- _default/baseof.html:page-list:end -->
+	
+
+				
 				
 			
 				
 				
-					<!-- partials/b/modules:start -->
-<section  class="layout-module-group">
+				
+					
+					
+	<!-- partials/b/modules:start -->
+
+ 
+<section id="modules" class="layout-module-group">
 	
 		
 		
@@ -408,59 +425,63 @@
 	
 </section>
 <!-- partials/b/modules:end -->
+
+				
 				
 			
-			<aside class="aside">
-				<!-- partials/page-contact.html:start -->
+				
+			<!-- partials/page-contact.html:start -->
 <section id="contact">
-	<div class="layout-content">
-		<div class="flex-parent flex-parent-column flex-align-center">
-			<h2 class="section-heading">
+	<aside>
+		<div class="layout-content">
+			<div class="flex-parent flex-parent-column flex-align-center">
+				<h2 class="section-heading">
+					
+						Contacta con nosotros
+					
+				</h2>
+				<p class="text-center">
+					
+						¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible
+					
+				</p>
 				
-					Contacta con nosotros
-				
-			</h2>
-			<p class="text-center">
-				
-					¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible
-				
-			</p>
-			
-		</div>
-		<div class="layout-content-narrow">
-			<div class="flex-parent flex-parent-column flex-justify-center">
-				<form action="/es/acerca-de-nosotros/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
-					<div class="iosform-group">
-						<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/es/acerca-de-nosotros/">
-					</div>
-					<div class="iosform-group">
-						<input type="text" id="fname" name="name" class="iosform-control" placeholder="Tu Nombre *" oninvalid="alert('Por favor, escribe tu nombre.');" required>
-					</div>  
-					<div class="iosform-group">
-						<input type="email" id="email" name="email" class="iosform-control" placeholder="Tu Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Por favor, introduce un email válido.');" required>
-					</div>
-					<div class="iosform-group">
-						<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Tu teléfono (opcional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Por favor, introduce un número de teléfono válido.');">  
-					</div>
-					<div class="iosform-group">
-						<input type="text" id="country" name="country" class="iosform-control" placeholder="Tu páis de residencia (opcional)" oninvalid="alert('Por favor incluya su país de residencia.');">
-					</div>
-					<div class="iosform-group">
-						<textarea id="message" name="message" class="iosform-control" placeholder="Tu Mensaje *" oninvalid="alert('Por favor, escribe un mensaje.');" required></textarea>  	
-					</div>
-					<div class="iosform-button flex-child flex-align-self-center">
-						<input type="submit" id="contactsubmit" value="Enviar mensaje" class="button-primary" success="Gracias, en breve nos pondremos en contacto contigo." wait="Un momento ...">	
-					</div>
-				</form>
+			</div>
+			<div class="layout-content-narrow">
+				<div class="flex-parent flex-parent-column flex-justify-center">
+					<form action="/es/acerca-de-nosotros/" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
+						<div class="iosform-group">
+							<input type="hidden" name="_subject" value="Form sent from page: http://localhost:1313/es/acerca-de-nosotros/">
+						</div>
+						<div class="iosform-group">
+							<input type="text" id="fname" name="name" class="iosform-control" placeholder="Tu Nombre *" oninvalid="alert('Por favor, escribe tu nombre.');" required>
+						</div>  
+						<div class="iosform-group">
+							<input type="email" id="email" name="email" class="iosform-control" placeholder="Tu Email *" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('Por favor, introduce un email válido.');" required>
+						</div>
+						<div class="iosform-group">
+							<input type="tel" id="phone" name="phone" class="iosform-control" placeholder="Tu teléfono (opcional)" pattern="^[0-9-+\s()]*$" oninvalid="alert('Por favor, introduce un número de teléfono válido.');">  
+						</div>
+						<div class="iosform-group">
+							<input type="text" id="country" name="country" class="iosform-control" placeholder="Tu páis de residencia (opcional)" oninvalid="alert('Por favor incluya su país de residencia.');">
+						</div>
+						<div class="iosform-group">
+							<textarea id="message" name="message" class="iosform-control" placeholder="Tu Mensaje *" oninvalid="alert('Por favor, escribe un mensaje.');" required></textarea>  	
+						</div>
+						<div class="iosform-button flex-child flex-align-self-center">
+							<input type="submit" id="contactsubmit" value="Enviar mensaje" class="button-primary" success="Gracias, en breve nos pondremos en contacto contigo." wait="Un momento ...">	
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
-	</div>
+	</aside>
 </section><!-- contact end -->
-</div>
 <!-- partials/page-contact.html:end -->
 
-			</aside>
+			
 		</main>
+			
 		<footer class="footer">
 			<!-- partials/page-footer.html:start -->
 <div class="layout-content marginv-none paddingv-medium">
@@ -601,6 +622,7 @@
 </div>
 <!-- partials/page-footer.html:end -->
 		</footer>
+			
 		 <!-- partials/page-js.html:start -->
 
 <!-- jQuery - Required for form validation -->
@@ -633,7 +655,32 @@
 
 <!-- partials/page-js.html:end -->
 
+		
 	</body>
 	
 </html>
 <!-- _default/baseof.html:end -->
+
+
+
+					
+
+
+
+
+	
+
+	
+
+	
+
+
+
+	
+
+
+
+	
+
+
+

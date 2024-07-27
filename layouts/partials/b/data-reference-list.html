@@ -1,5 +1,8 @@
 {{ "<!-- partials/b/references:start -->" | safeHTML }}
-<section id="references" class="layout-module-group margin bg-white">
+{{ $sectionid := "references" }}
+{{ if .sectionid }}{{ $sectionid = .sectionid }}{{ end }}
+
+<section id="{{ $sectionid }}" class="layout-module-group margin bg-white">
 	<div class="flex-parent flex-parent-row flex-gap flex-justify-start">
 		{{ range .datafilelist }}
 			{{ $data := index site.Data.references . }}

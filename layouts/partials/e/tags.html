@@ -1,0 +1,10 @@
+{{ $tags := .GetTerms "tags" }}
+{{ if $tags }}
+	<div class="flex-parent flex-parent-row row-tag paddingv-tiny">
+		<ul class="post-tag">
+			{{ range (.GetTerms "tags") }}
+				<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+			{{ end }}
+		</ul>
+	</div>
+{{ end }}

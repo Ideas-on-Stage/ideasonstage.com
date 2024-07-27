@@ -1,15 +1,21 @@
+{{/* <!-- define main only if different from default structure --> */}}
+
+{{ define "main" }}
+	{{ "<!-- team/single.html:main:start -->" | safeHTML }}
+	{{ template "page-breadcrumbs" page }}
+	{{ template "page-content" page }}
+	{{ "<!-- team/single.html:main:end -->" | safeHTML }}
+{{ end }}
+
+
+
+{{/* <!-- define custom blocks --> */}}
+
 {{ define "head-custom" }}
 	{{ "<!-- team/single.html:head-custom:start -->" | safeHTML }}
 	{{/* <!-- use Person schema for team member page --> */}}
 	{{ partial "schema/person.html" . }}
 	{{ "<!-- team/single.html:head-custom:end -->" | safeHTML }}
-{{ end }}
-
-{{ define "main" }}
-	{{ "<!-- team/single.html:main:start -->" | safeHTML }}
-	{{ partial "b/page-breadcrumbs.html" page }}
-	{{ block "page-content" . }}{{ end }}
-	{{ "<!-- team/single.html:main:end -->" | safeHTML }}
 {{ end }}
 
 {{ define "page-content" }}

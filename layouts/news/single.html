@@ -1,9 +1,17 @@
+{{/* <!-- define main only if different from default structure --> */}}
+
 {{ define "main" }}
 	{{ "<!-- news/single.html:main:start -->" | safeHTML }}
-	{{ partial "b/page-content-news" . }}
+	{{ template "page-content" . }}
 	{{ "<!-- news/single.html:main:end -->" | safeHTML }}
 {{ end }}
 
+
+
+{{/* <!-- define custom blocks --> */}}
+
 {{ define "page-content" }}
-	{{ partial "b/page-content-news" . }}
+	{{ "<!-- news/single.html:page-content:start -->" | safeHTML }}
+	{{ partial "b/page-content-news-single" . }}
+	{{ "<!-- news/single.html:page-content:end -->" | safeHTML }}
 {{ end }}

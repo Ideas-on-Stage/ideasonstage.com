@@ -1,10 +1,8 @@
-{{ define "main" }}
-	{{ "<!-- training/single.html:main:start -->" | safeHTML }}
-	{{ partial "b/page-title" page }}
-	{{ partial "b/page-breadcrumbs.html" page }}
-	{{ block "page-content" . }}{{ end }}
-	{{ "<!-- training/single.html:main:end -->" | safeHTML }}
-{{ end }}
+{{/* <!-- define main only if different from default structure --> */}}
+
+
+
+{{/* <!-- define custom blocks --> */}}
 
 {{ define "page-content" }}
 	{{ "<!-- training/single.html:page-content:start -->" | safeHTML }}

@@ -1,10 +1,18 @@
+{{/* <!-- define main only if different from default structure --> */}}
+
 {{ define "main" }}
 	{{ "<!-- news/section.html:main:start -->" | safeHTML }}
-	{{ partial "b/page-title" . }}
-	{{ partial "b/page-list-news" . }}
+	{{ template "page-title" . }}
+	{{ template "page-list" . }}
 	{{ "<!-- news/section.html:main:end -->" | safeHTML }}
 {{ end }}
 
+
+
+{{/* <!-- define custom blocks --> */}}
+
 {{ define "page-list" }}
+	{{ "<!-- news/section.html:page-list:start -->" | safeHTML }}
 	{{ partial "b/page-list-news" . }}
+	{{ "<!-- news/section.html:page-list:end -->" | safeHTML }}
 {{ end }}

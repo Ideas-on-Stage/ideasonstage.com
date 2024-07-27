@@ -1,8 +1,8 @@
 {{ define "main" }}
 	{{ "<!-- _default/section.html:main:start -->" | safeHTML }}
-	{{ partial "b/page-title" . }}
-	{{ partial "b/page-breadcrumbs.html" . }}
-	{{ partial "b/page-content.html" . }}
-	{{ partial "b/page-list" page }}
+	{{ template "page-title" page }}
+	{{ template "page-breadcrumbs" page }}
+	{{ template "page-content" page }}
+	{{ template "page-list" page }}
 	{{ "<!-- _default/section.html:main:end -->" | safeHTML }}
 {{ end }}

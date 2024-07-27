@@ -1,10 +1,13 @@
-{{ "<!-- partials/b/cta.html:start -->" | safeHTML }}
+{{ "<!-- partials/b/data-cta.html:start -->" | safeHTML }}
+{{ $sectionid := "call-to-action" }}
+{{ if .sectionid }}{{ $sectionid = .sectionid }}{{ end }}
+
 {{ with .datafile }}
 	{{ $data := index site.Data.cta . }}
 	{{ if $data }}
 		{{ $localizeddata := index $data site.LanguageCode }}
 		{{ with $localizeddata }}
-			<header id="call-to-action" class="layout-module-hero">
+			<header id="{{ $sectionid }}" class="layout-module-hero">
 				<div class="layout-module-layer">
 					<img src="{{ .picture }}" alt="{{ .title }}">
 				</div>
@@ -35,5 +38,5 @@
 			</header>
 		{{ end }}
 	{{ end }}
-{{ end }}	
-{{ "<!-- partials/b/cta.html:end -->" | safeHTML }}
+{{ end }}
+{{ "<!-- partials/b/data-cta.html:end -->" | safeHTML }}

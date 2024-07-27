@@ -18,7 +18,8 @@
 	--module-column-gap: {{ site.Params.layout.module.column_gap }};
 	--module-row-gap: {{ site.Params.layout.module.row_gap }};
 	--module-big-gap: {{ site.Params.layout.module.big_gap }};
-	
+
+	--module-width: calc( 100% - 0.001px );
 	--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px );
 	--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px );
 
@@ -370,12 +371,12 @@
 	
 	#content-main :not(div) + div.layout-shortcode,
 	#content-main :not(div) + div.layout-shortcode-img {
-		margin-top: 3em;
+		margin-top: 48px;
 	}
 
 	#content-main div.layout-shortcode + :not(div),
 	#content-main div.layout-shortcode-img + :not(div) {
-		margin-top: 3em;
+		margin-top: 48px;
 	}
 	
 	#content-main > blockquote {
@@ -390,13 +391,11 @@
 	/* ensures img are displayed full content width */
 	#content-main > p > img {
 		display: block;
-		margin-top: 1em;
-		margin-bottom: 1em;
+		margin-top: 48px;
+		margin-bottom: 48px;
 		width: auto;
 		height: auto;
 		max-width: 100%;
-		border: 2px solid #ddd;
-		border-radius: 8px;
 	}
 	
 	#content-main table {
@@ -671,7 +670,7 @@
 
 	/* wrapper from main page content, with nice left and right margins */
 	.layout-content {
-		margin: 3em auto; /* use auto to center div on page */
+		margin: 48px auto; /* use auto to center div on page */
 		padding: 0;
 		width: 80vw;
 		max-width: 1200px; /* prevents text area from getting unpleasantly wide */
@@ -696,7 +695,7 @@
 	@media (max-aspect-ratio:1/1) and (max-width:480px) {
 		
 		.layout-content {
-			margin: 3em var(--module-ts-column-gap);
+			margin: 48px var(--module-ts-column-gap);
 			width: calc(100% - var(--module-ts-column-gap) * 2);
 			max-width: calc(100% - var(--module-ts-column-gap) * 2);
 		}
@@ -721,10 +720,10 @@
 	
 	/*
 	Modules are containers with predefined sizes.
-	.layout-module	 standard module
-	.layout-module-half standard module, half width
+	.layout-module: standard module, fixed height
+	.layout-module-half standard module, fixed height, half-width
 	.layout-module-screen-full full screen module
-	.layout-module-hero hero module
+	.layout-module-hero hero module, fixed hero height
 	
 	To add a gap between modules, wrap them in a .layout-module-group div
 	
@@ -737,8 +736,9 @@
 	/* Use this to create a full width module div */
 	.layout-module {
 		display: flex;
-		height: var(--module-height);
+		height: var(--module-height); /* defines the fixed height of the module */
 		width: calc(100% - 0px);
+		overflow: hidden;
 	}
 	
 	/* Or use this to create a half width module div */
@@ -1807,34 +1807,6 @@
 	margin-top: 0;
 }
 
-/* PMO: added thumbnail stuff */
-/*PMO forced to make thumbnail relative or caption alignment was wrong*/
-.thumbnail {
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 0px;
-	border: 0px;
-	padding: 2px;
-	width: auto;
-}
-
-.thumbnail:hover {
-	border-color: #333;
-}
-
-.thumbnail .thumbnail-caption {
-	position: absolute;
-	top: 50%;
-	margin-left: -4px;
-	padding: 4px;
-	width: 100%;
-}
-
-.thumbnail-caption h3 {
-	margin: 0px;
-	color: #888;
-}
 
 /* @group PEOPLE-BOX */
 

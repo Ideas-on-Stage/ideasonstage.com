@@ -13,65 +13,123 @@
 		{{ partial "page-nav.html" . }}
 		<main id="main" role="main">
 			{{ range page.Params.blocks }}
+				
 				{{/* <!-- if .blocks defined in Params, then use it to define page layout --> */}}
 				{{ if eq .type "data-cta" }}
-					{{ partial "b/cta" . }}
+					{{/* <!-- call to action block --> */}}
+					{{ template "data-cta" . }}
 				{{ else if eq .type "data-module-list" }}
-					{{ partial "b/data-module-list.html" . }}
+					{{/* <!-- module list block --> */}}
+					{{ template "data-module-list" . }}
 				{{ else if eq .type "data-reference-list" }}
-					{{ partial "b/data-reference-list.html" . }}
+					{{/* <!-- reference list block --> */}}
+					{{ template "data-reference-list" . }}
 				{{ else if eq .type "data-testimonial-list" }}
-					{{ partial "b/data-testimonial-list.html" . }}
+					{{/* <!-- testimonial list block --> */}}
+					{{ template "data-testimonial-list" . }}
 				{{ else if eq .type "page-breadcrumbs" }}
-					{{ partial "b/page-breadcrumbs.html" page }}
+					{{/* <!-- breadcrumbs block --> */}}
+					{{ template "page-breadcrumbs" page }}
 				{{ else if eq .type "page-content" }}
-					{{ block "page-content" page }}
-						{{ "<!-- _default/baseof.html:page-content:start -->" | safeHTML }}
-						{{ partial "b/page-content" page }}
-						{{ "<!-- _default/baseof.html:page-content:end -->" | safeHTML }}
-					{{ end }}
+					{{/* <!-- content block --> */}}
+					{{ template "page-content" page }}
 				{{ else if eq .type "page-hero" }}
-					{{ partial "b/page-hero" page }}		
+					{{/* <!-- hero block --> */}}
+					{{ template "page-hero" page }}
 				{{ else if eq .type "page-list" }}
-					{{ if page.IsSection }}
-						{{ block "page-list" page }}
-							{{ "<!-- _default/baseof.html:page-list:start -->" | safeHTML }}
-							{{ partial "b/page-list" page }}
-							{{ "<!-- _default/baseof.html:page-list:end -->" | safeHTML }}
-						{{ end }}
-					{{ else }}
-						{{ "<!-- _default/baseof.html:error-invalid:start -->" | safeHTML }}
-						{{ partial "b/error-invalid.html" . }}
-						{{ "<!-- _default/baseof.html:error-invalid:end -->" | safeHTML }}
-					{{ end }}
+					{{/* <!-- list block --> */}}
+					{{ template "page-list" page }}
 				{{ else if eq .type "page-title" }}
-					{{ block "page-title" page }}
-						{{ "<!-- _default/baseof.html:page-title:start -->" | safeHTML }}
-						{{ partial "b/page-title" page }}
-						{{ "<!-- _default/baseof.html:page-title:end -->" | safeHTML }}
-					{{ end }}
+					{{/* <!-- title block --> */}}
+					{{ template "page-title" page }}
 				{{ else if eq .type "site-location" }}
-					{{ partial "b/site-location.html" . }}
+					{{/* <!-- location block --> */}}
+					{{ template "site-location" . }}
 				{{ else }}
-					{{ partial "b/error-unknown.html" . }}
+					{{/* <!-- error block --> */}}
+					{{ template "error-unknown" . }}
 				{{ end }}
+				
 			{{ else }}
-				{{/* <!-- else use default page layout --> */}}
+				{{/* <!-- else use default page block order --> */}}
 				{{ block "main" page }}
-					{{ "<!-- _default/baseof.html:main:start -->" | safeHTML }}
-					<p class="text-red">Don't forget to define main block</p>
-					{{ "<!-- _default/baseof.html:main:end -->" | safeHTML }}
+					{{ template "page-title" page }}
+					{{ template "page-breadcrumbs" page }}
+					{{ template "page-content" page }}
+					{{ if page.IsNode }}
+						{{ template "page-list" page }}
+					{{ end }}
 				{{ end }}
+				
 			{{ end }}
-			<aside class="aside">
-				{{ partial "page-contact.html" . }}
-			</aside>
+				
+			{{ partial "page-contact.html" . }}
+			
 		</main>
+			
 		<footer class="footer">
 			{{ partial "page-footer.html" . }}
 		</footer>
+			
 		{{ partial "page-js.html" . }}
+		
 	</body>
 	
 </html>
 {{ "<!-- _default/baseof.html:end -->" | safeHTML }}
+
+
+
+{{ define "data-cta" }}
+	{{ partial "b/data-cta.html" . }}
+{{ end }}					
+
+{{ define "data-module-list" }}
+	{{ partial "b/data-module-list.html" . }}
+{{ end }}
+
+{{ define "data-reference-list" }}
+	{{ partial "b/data-reference-list.html" . }}
+{{ end }}
+	
+{{ define "data-testimonial-list" }}
+	{{ partial "b/data-testimonial-list.html" . }}
+{{ end }}
+	
+{{ define "page-breadcrumbs" }}
+	{{ partial "b/page-breadcrumbs.html" page }}
+{{ end }}
+	
+{{ define "page-content" }}
+	{{ partial "b/page-content.html" page }}
+{{ end }}
+
+{{ define "page-hero" }}
+	{{ partial "b/page-hero.html" page }}
+{{ end }}
+	
+{{ define "page-list" }}
+	{{ if page.IsNode }}
+		{{ "<!-- _default/baseof.html:page-list:start -->" | safeHTML }}
+		{{ partial "b/page-list" page }}
+		{{ "<!-- _default/baseof.html:page-list:end -->" | safeHTML }}
+	{{ else }}
+		{{ "<!-- _default/baseof.html:error-invalid:start -->" | safeHTML }}
+		{{ partial "b/error-invalid.html" . }}
+		{{ "<!-- _default/baseof.html:error-invalid:end -->" | safeHTML }}
+	{{ end }}
+{{ end }}
+
+{{ define "page-title" }}
+	{{ "<!-- _default/baseof.html:page-title:define:start -->" | safeHTML }}
+	{{ partial "b/page-title.html" page }}
+	{{ "<!-- _default/baseof.html:page-title:define:end -->" | safeHTML }}
+{{ end }}
+	
+{{ define "site-location" }}
+	{{ partial "b/site-location.html" . }}
+{{ end }}
+
+{{ define "error-unknown" }}
+	{{ partial "b/error-unknown.html" . }}
+{{ end }}
