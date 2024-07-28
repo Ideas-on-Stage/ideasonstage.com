@@ -1,23 +1,23 @@
 {{ "<!-- shortcodes:call-to-action.html:start -->" | safeHTML }}
-<div class="l-shortcode {{ with .Params.style }}{{ . }}{{ end }}">
+<div class="layout-shortcode {{ with .Params.style }}{{ . }}{{ end }}">
 	<div class="flex-parent flex-parent-column flex-gap">
 		{{ if .Params.title }}
-		<div class="l-shortcode-child flex-child">
+		<div class="layout-shortcode-child flex-child">
 			<h3 class="text-center">{{ .Params.title }}</h3>
 		</div>
 		{{ end }}
 		{{ if .Params.picture }}
-		<div class="l-shortcode-child flex-child flex-align-self-center">
+		<div class="layout-shortcode-child flex-child flex-align-self-center">
 			<img src="{{ .Params.picture }}" class="center" height="192px" alt="{{ .Params.title }}">
 		</div>
 		{{ end }}
 		{{ if .Params.subtitle }}
-		<div class="l-shortcode-child flex-child">
+		<div class="layout-shortcode-child flex-child">
 			<p class="text-center">{{ .Params.subtitle }}</p>
 		</div>
 		{{ end }}
 		{{ if .Params.button }}
-		<div class="l-shortcode-child flex-child flex-align-self-center paddingv-tiny text-center">
+		<div class="layout-shortcode-child flex-child flex-align-self-center paddingv-tiny text-center">
 			<a href="{{ .Params.link }}" class="button-primary">{{ .Params.button }}</a>
 		</div>
 		{{ end }}

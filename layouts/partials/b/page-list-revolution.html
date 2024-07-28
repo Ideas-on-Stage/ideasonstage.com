@@ -3,11 +3,11 @@
 {{ range first 1 .Pages }}	
 	{{/* <!-- generate hero with newest video --> */}}
 	<section id="highlight">
-		<div class="l-module-hero">
-			<div class="l-module-layer">
+		<div class="layout-module-hero">
+			<div class="layout-module-layer">
 				<img src="{{ .RelPermalink }}image.jpg">
 			</div>
-			<div class="l-module-layer">
+			<div class="layout-module-layer">
 				<div class="flex-parent flex-parent-column">
 					<div class="flex-child-text text-center">
 						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
@@ -22,9 +22,9 @@
 		</div>
 	</section>
 {{ end }}
-<div class="l-content">
+<div class="layout-content">
 	<div class="flex-parent flex-parent-row paddingt-none paddingb-medium">
-		<div class="l-module-column-text style-module-text ">	
+		<div class="layout-module-column-text style-module-text ">	
 			{{ with .Content }}{{ . | markdownify }}{{ end }}
 		</div>
 		<div class="flex-parent flex-parent-row paddingt-none paddingb-none flex-justify-space-around">

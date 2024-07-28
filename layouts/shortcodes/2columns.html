@@ -1,6 +1,6 @@
-<div class="l-shortcode flex-justify-center {{ with .Params.class }}{{ . }}{{ end }}">
+<div class="layout-shortcode flex-justify-center {{ with .Params.class }}{{ . }}{{ end }}">
 {{ if .Params.title }}
-	<div class="l-shortcode-child">
+	<div class="layout-shortcode-child">
 		<h3 class="text-center">{{ .Params.title }}</h3>
 	</div>
 {{ end }}
@@ -9,10 +9,10 @@
 	Shortcode content is not two columns. The second column content is separated by "---"
 {{ else }}
 	<div class="flex-parent flex-parent-row flex-parent-column-ontall">
-		<div class="l-shortcode-child flex-child flex-child-50p">
+		<div class="layout-shortcode-child flex-child flex-child-50p">
 			{{ (index $columns 0) | markdownify }}
 		</div>
-		<div class="l-shortcode-child flex-child flex-child-50p">
+		<div class="layout-shortcode-child flex-child flex-child-50p">
 			{{ (index $columns 1) | markdownify }}
 		</div>
 	</div>

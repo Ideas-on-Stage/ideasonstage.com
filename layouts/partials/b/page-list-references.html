@@ -1,6 +1,6 @@
 {{ "<!-- partials/b/page-list-references.html:start -->" | safeHTML }}
 <section id="references-details" class="bg-white">
-	<div class="l-content">
+	<div class="layout-content">
 		{{ $.Scratch.Set "count" 0 }}
 		{{ $languageshort := substr site.LanguageCode 0 2 }}
 		{{ range .Params.datafilelist }}

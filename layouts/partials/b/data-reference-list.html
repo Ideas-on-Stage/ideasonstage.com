@@ -2,7 +2,7 @@
 {{ $sectionid := "references" }}
 {{ if .sectionid }}{{ $sectionid = .sectionid }}{{ end }}
 
-<section id="{{ $sectionid }}" class="l-module-group margin bg-white">
+<section id="{{ $sectionid }}" class="layout-module-group margin bg-white">
 	<div class="flex-parent flex-parent-row flex-gap flex-justify-start">
 		{{ range .datafilelist }}
 			{{ $data := index site.Data.references . }}

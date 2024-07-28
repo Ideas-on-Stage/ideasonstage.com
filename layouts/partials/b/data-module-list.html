@@ -1,7 +1,7 @@
 {{ "<!-- partials/b/modules:start -->" | safeHTML }}
 {{ $sectionid := "modules" }}
 {{ if .sectionid }}{{ $sectionid = .sectionid }}{{ end }} 
-<section id="{{ $sectionid }}" class="l-module-group">
+<section id="{{ $sectionid }}" class="layout-module-group">
 	{{ range .datafilelist }}
 		{{ $data := index site.Data.modules . }}
 		{{ if $data }}

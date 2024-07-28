@@ -1,0 +1,20 @@
+{{ "<!-- partials/page-nav.html:start -->" | safeHTML }}
+<nav class="">
+	<div class="layout-content marginv-none">
+		<ul class="flex-parent flex-parent-row flex-gap flex-justify-center">
+		<!-- Languages Drop Down -->
+		{{ if .IsTranslated }}
+			{{ range .AllTranslations }}
+				{{ if ne (site.LanguageCode | lower) (.Lang | lower) }}
+					<li class="flex-child">
+						<a href="{{ .Permalink }}">
+							{{ .Language.LanguageName }}
+						</a>
+					</li>
+				{{ end }}
+			{{ end }}
+		{{ end }}
+		</ul>
+	</div>
+</nav>
+{{ "<!-- partials/page-nav.html:end -->" | safeHTML }}
