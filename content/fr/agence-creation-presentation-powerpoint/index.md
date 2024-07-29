@@ -2,7 +2,7 @@
 draft: false
 title: "Agence de création de présentations PowerPoint"
 description: "Impressionnez votre auditoire avec une présentation PowerPoint de qualité professionnelle. Nos services sont utilisés par les plus grandes marques."
-translationKey: "/powerpoint-presentation-design-agency/"
+translationKey: "powerpoint-presentation-design-agency"
 
 schema: "Service"
 provider: "ideasonstage"

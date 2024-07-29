@@ -20,8 +20,8 @@
 	--module-big-gap: {{ site.Params.layout.module.big_gap }};
 
 	--module-width: calc( 100% - 0.001px );
-	--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px );
-	--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px );
+	--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px ); /* width of 1/12th column */
+	--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px ); /* width of 1/5th column */
 
 	--module-ts-height: {{ site.Params.layout.module.ts.height }};
 	--module-ts-column-gap: {{ site.Params.layout.module.ts.column_gap }}; 
@@ -335,7 +335,6 @@
 	/* define title margins */
 	#content-main > h2 {
 		/* The > sign ensures only direct children are affected */
-		/* use padding-top size of top bar to position text properly when clicking on anchor, for example anchor link in table of contents */
 		margin-top: var(--menubar-height);
 		margin-bottom: 0.5em;
 		scroll-margin-top: calc(var(--menubar-height) + 48px);
@@ -1565,10 +1564,6 @@
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
-
-	.square {
-		aspect-ratio: 1;
-	}
 	
 	.centered {
 		text-align: center;
@@ -1862,9 +1857,9 @@
 		color: #555;
 		background-color: #fff;
 		border: 1px solid #ccc;
-		-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
-		-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-		transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+		-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 		box-sizing: border-box;
 	}
 	.iosform-control:focus {
@@ -2129,7 +2124,7 @@
 		color: #222;
 		padding-top:0.1em;
 		padding-left: 0.3em;
-		padding-righ: 0.3em;
+		padding-right: 0.3em;
 		box-sizing: border-box;
 	}
 	

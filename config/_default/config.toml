@@ -282,16 +282,10 @@ title 					= "Ideas on Stage"
 		# -------------------
 		# News
 		[languages.en.params.news]
-			viewMorePostLink	= "/news/"
 			more				= "Continue Reading"
 			by					= "by"
 			sbcategorytitle		= "Top Categories"
 			related				= "See Also"
-		
-		# -------------------		
-		# References
-		[languages.en.params.references]
-			title	= "References"
 		
 		# -------------------
 		# Revolution
@@ -483,17 +477,11 @@ title 					= "Ideas on Stage"
 		# -------------------		
 		# News
 		[languages.fr.params.news]
-			viewMorePostLink	= "/news/"
 			more				= "continuer à lire"
 			by					= "par"
 			sbcategorytitle		= "Top catégories"
 			related				= "Voir également"
-	
-		# -------------------		
-		# References
-		[languages.fr.params.references]
-			title	= "Références"
-	
+		
 		# -------------------		
 		# Revolution
 		[languages.fr.params.revolution]
@@ -658,16 +646,10 @@ title 					= "Ideas on Stage"
 		# -------------------
 		# News
 		[languages.es.params.news]
-			viewMorePostLink	= "/news/"
 			more				= "Continuar leyendo"
 			by					= "por"
 			sbcategorytitle		= "Top categorías"
 			related				= "También te puede interesar"
-	
-		# -------------------		
-		# References
-		[languages.es.params.references]
-			title	= "References"
 		
 		# -------------------
 		# Revolution

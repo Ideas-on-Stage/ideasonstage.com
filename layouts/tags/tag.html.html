@@ -1,99 +1,11 @@
-{{ define "main" }}
-	{{ "<!-- tags/tag.html.html:main:start -->" | safeHTML }}
-	<div class="layout-content">
-		<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-big-gap">
-			<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
-				<div class="scroller">
-					{{ partial "sidebar/sidebar-top-categories.html" . }}
-					{{ partial "sidebar/sidebar-newsletter.html" . }}
-				</div>
-			</aside>
-			<article id="content-main" class="flex-child flex-child-67p">
-				{{ range (.Paginator 8).Pages }}
-					<section class="post">
-						<div class="flex-parent flex-parent-row paddingt-none paddingb-none">
-							<div class= "row-tag">
-								<ul class="post-tag">
-									{{ range (.GetTerms "tags") }}
-										<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-								{{ end }}
-								</ul>
-							</div>
-						</div>
-						<div class="flex-parent flex-parent-row paddingt-none paddingb-huge">		
-							<a href="{{ .RelPermalink }}">
-								<h2 class="margint-small">{{ .Title }}</h2>
-							</a>
-							<p>
-								{{ if isset .Params "author" }}
-									{{ .Site.Params.news.by }} 
-									{{ $scratch := newScratch }}
-									{{ $scratch.Set "author" "/team/" }}
-									{{ $author := .Params.author | urlize }}
-									{{ $scratch.Add "author" $author }}
-									{{ $authorname := .Params.author }}
-									{{ with .Site.GetPage ($scratch.Get "author") }}
-										{{ if ne .Params.draft "true" }}
-											{{ $authorname }} —
-										{{ else }}
-											{{ .Params.author }} -
-										{{ end }}
-									{{ else }} 
-										{{ .Params.author }} -
-									{{ end }}
-								{{ end }}
-								{{ if isset .Params "categories" }}
-									{{ if gt (len .Params.categories) 0 }}
-										in <a href="{{ $.Site.BaseURL }}categories/{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
-									{{ end }}
-								{{ end }}
-								<a href="{{ .Permalink }}">
-									<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-										{{ partial "f/getdate" .Date }}
-									</time>
-								</a>
-							</p>
-							<div class="image">
-								<a href="{{ .RelPermalink }}">
-									{{ if .Params.banner }}
-										<img src="{{ .Params.banner }}" class="img-responsive" alt="">
-									{{ else }}
-										<img src="/news/img/placeholder.png" class="img-responsive" alt="">
-									{{ end }}
-								</a>
-							</div>
-							<p>{{ .Summary }}</p>
-							<p class="marginv-none">
-								<a href="{{ .RelPermalink }}" class="button-secondary">{{ .Site.Params.news.more }}</a>
-							</p>
-						</div>
-            		</section>
-				{{ end }}
-			
-			{{/* <!-- add pagination buttons --> */}}
-			<div class="flex-parent-ro">
-				<div>
-	                <ul class="pager">
-	                    {{ if .Paginator.HasPrev }}
-	                    <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}" class="button-secondary">&larr; {{ .Site.Params.news.prev }}</a></li>
-	                    {{ else }}
-	<!-- this code greys out the "Newer" button in the first page                            
-	                    <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-	-->                            
-	                    {{ end }}
-	
-	                    {{ if .Paginator.HasNext }}
-	                    <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}" class="button-secondary">{{ .Site.Params.news.next }} &rarr;</a></li>
-	                    {{ else }}
-	<!-- this code greys out the "Older" button in the first page   
-	                    <li class="next disabled"><a href="#">Older &rarr;</a></li>
-	-->
-	                    {{ end }}
-	                </ul>
-				</div>
-			</div>
-			</article>
-		</div>	
-	</div>
-    {{ "<!-- tags/tag.html.html:main:end -->" | safeHTML }}
+{{/* <!-- define main only if different from default structure --> */}}
+
+
+
+{{/* <!-- define custom blocks --> */}}
+
+{{ define "page-content" }}
+	{{ "<!-- tags/tag.html.html:page-content:start -->" | safeHTML }}
+	{{ partial "b/page-content-tags.html" . }}
+	{{ "<!-- tags/tag.html.html:page-content:end -->" | safeHTML }}
 {{ end }}
