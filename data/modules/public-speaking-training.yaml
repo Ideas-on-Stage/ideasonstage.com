@@ -10,12 +10,13 @@ en:
 
 es:
     sectionid: "presentations-training"
-    title: "Formación Presentaciones"
-    description: "Cambia la cultura de las presentaciones en tu organización."
+    title: "Formación en Presentaciones"
+    description: "Conviértete en un speaker de primer nivel con nuestras formaciones."
     picture: "/img/training.jpg"
     style: "bg-black"
     layout: "inserts/module-picture-textright.html"
     url: "/es/formacion-para-hablar-en-publico/"
+    button: "Conoce nuestro catálogo de formación"
     
 fr:
     sectionid: "public-speaking-training"

@@ -10,14 +10,14 @@ en:
         link: "/ultimate-public-speaking-guide/"			
 
 es:
-    date: "2023-09-05"
     picture: "/es/guia-definitiva-hablar-en-publico/hablar-en-publico.es.jpg"
     title: "LA GUÍA DEFINITIVA PARA HABLAR EN PÚBLICO"
-    description: "Usa estas técnicas para comunicarte de forma efectiva."
+    level: "h2"
+    description: "Aprende a comunicarte de forma efectiva con estas técnicas."
     color: "text-white"	
     opacity: "30"
     button:
-        text: "Leer la guía"
+        text: "Lee la guía"
         link: "/es/guia-definitiva-hablar-en-publico/"
 
 fr:

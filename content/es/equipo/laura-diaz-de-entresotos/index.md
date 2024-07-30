@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: "Laura Díaz de Entresotos | Directora de Presentaciones"
 description: "Laura Díaz de Entresotos es una de nuestras coaches directora de presentaciones en España"
 name: "Laura Díaz de Entresotos"

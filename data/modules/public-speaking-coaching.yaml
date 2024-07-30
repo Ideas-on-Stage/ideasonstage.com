@@ -10,12 +10,13 @@ en:
 
 es:
     sectionid: "public-speaking-coaching"
-    title: "Coaching Hablar en Público"
-    description: "Muestra tu mejor versión sobre el escenario."
+    title: "Entrenamiento para Hablar en Público"
+    description: "Despliega tu carisma y presencia al hablar en público, en el escenario o ante los medios."
     picture: "/img/inserts/home-business-events.jpg"
     style: "bg-black"
     layout: "inserts/module-picture-textright.html"
     url: "/es/coaching-para-hablar-en-publico/"
+    button: "Descubre nuestros servicios para speakers"
 
 fr:
     sectionid: "public-speaking-coaching"
