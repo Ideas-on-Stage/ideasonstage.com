@@ -1,13 +1,15 @@
 {{ "<!-- partials/head-css.html:start -->" | safeHTML }}
 
-{{ "<!-- Custom Fonts -->" | safeHTML }}
-{{ $fontawesome := resources.Get "font-awesome.min.css" | resources.Minify }}
-<link rel="stylesheet" href="{{ $fontawesome.RelPermalink }}" type="text/css">
-{{ $typography := resources.Get "typography.css" | resources.Minify }}
-	<link rel="stylesheet" href="{{ $typography.RelPermalink }}" type="text/css" />
-
 {{ "<!-- Site CSS -->" | safeHTML }}
 {{ $style := resources.Get site.Params.css.main | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+{{ "<!-- Custom Fonts -->" | safeHTML }}
+{{ $typography := resources.Get "typography.css" | resources.Minify }}
+	<link rel="stylesheet" href="{{ $typography.RelPermalink }}" type="text/css" />
+
+{{ "<!-- Font Awesome -->" | safeHTML }}
+{{ $fontawesome := resources.Get "font-awesome.min.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $fontawesome.RelPermalink }}" type="text/css">
 
 {{ "<!-- partials/head-css.html:end -->" | safeHTML }}

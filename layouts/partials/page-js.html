@@ -1,4 +1,4 @@
- {{ "<!-- partials/page-js.html:start -->" | safeHTML }}
+{{ "<!-- partials/page-js.html:start -->" | safeHTML }}
 
 {{ "<!-- jQuery - Required for form validation -->" | safeHTML }}
 {{ $jsjquery := resources.Get "jquery.js" | resources.Minify }}
@@ -24,8 +24,8 @@
 
 {{ "<!-- Search Management JavaScript, as resources to minify js -->" | safeHTML }}   
 {{ $jsfuse := resources.Get "fuse.js" | resources.Minify }}
-<script src="{{ $jsfuse.RelPermalink }}"></script>           
+<script async src="{{ $jsfuse.RelPermalink }}"></script>
 {{ $jsfs := resources.Get "fastsearch.js" | resources.Minify }}
-<script src="{{ $jsfs.RelPermalink }}"></script> 
+<script async src="{{ $jsfs.RelPermalink }}"></script> 
 
 {{ "<!-- partials/page-js.html:end -->" | safeHTML }}

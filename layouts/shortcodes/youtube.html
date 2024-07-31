@@ -1,0 +1,90 @@
+{{/* <!--
+	youtube.html shortcode with lazy loading.
+	Rewritten to embed videos from youtube.com and force lazy loading
+	so that it doesn't take ages to load scripts and content.
+--> */}}
+
+<div class="layout-shortcode">
+	<div id="{{ index .Params 0 }}" class="yt-placeholder">
+		<img src="http://img.youtube.com/vi/{{ index .Params 0 }}/sddefault.jpg" />
+		<div class="yt-video">
+			<div id="player{{ index .Params 0 }}">
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	{{ $varid := index .Params 0 }}
+	{{ $varid := replace $varid "-" "dash" }}
+	
+	var player;
+	var ytid;
+	var loaded;
+	
+	document.getElementById("{{ index .Params 0 }}").addEventListener("click", function(){
+		ytid = this.id;
+		document.getElementById('player' + ytid).style.display = 'visible';
+		
+		console.log("launch video " + ytid);
+		console.log(loaded);
+		loadYT();
+		if (1 == loaded)
+		{
+			onYouTubeIframeAPIReady();
+		}
+	});
+	
+	// 2. This code loads the IFrame Player API code asynchronously.
+	function loadYT() {
+		var tag = document.createElement('script');
+		tag.src = "https://www.youtube.com/iframe_api";
+		var firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	}
+	
+	// 3. This function creates an <iframe> (and YouTube player)
+	//	after the API code downloads.
+	
+	function onYouTubeIframeAPIReady() {
+		var playerid = 'player' + ytid;
+		player = new YT.Player(
+			playerid,
+			{
+				height: '100%',
+				width: '100%',
+				videoId: ytid,
+				events: {
+					'onReady': onPlayerReady,
+					'onStateChange': onPlayerStateChange
+				}
+			}
+		);		
+		loaded = 1;
+	}
+	
+	
+	
+	// 4. The API will call this function when the video player is ready.
+	
+	function onPlayerReady(event)
+	{
+		console.log(event.target)
+		event.target.playVideo();
+	}
+	
+	// 5. The API calls this function when the player's state changes.
+	//	The function indicates that when playing a video (state=1),
+	//	the player should play for six seconds and then stop.
+
+	var done = false;
+	function onPlayerStateChange(event)
+	{
+	}
+	
+	function stopVideo()
+	{
+		player.stopVideo();
+	}
+
+</script>
