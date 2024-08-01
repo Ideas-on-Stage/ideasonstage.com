@@ -2,11 +2,24 @@
 	youtube.html shortcode with lazy loading.
 	Rewritten to embed videos from youtube.com and force lazy loading
 	so that it doesn't take ages to load scripts and content.
+	
+	2024-07-31 PMO: first version, customized js to work with multiple videos on same page
+	2024-08-01 PMO: added code to load on server image placeholder
 --> */}}
+
+{{ $varid := index .Params 0 }}
+{{ $varid := replace $varid "-" "dash" }}
 
 <div class="layout-shortcode">
 	<div id="{{ index .Params 0 }}" class="yt-placeholder">
-		<img src="http://img.youtube.com/vi/{{ index .Params 0 }}/sddefault.jpg" />
+		{{ $path := printf "/static/img/youtube/%s.jpg" (index .Params 0) }}
+		{{ if os.FileExists $path }}
+			{{/* <!-- use available local version of youtube placeholder image in /static/img/youtube/ --> */}}
+			<img src="{{ printf "/img/youtube/%s.jpg" (index .Params 0) }}" />
+		{{ else }}
+			{{/* <!-- else use remote version of youtube placeholder image --> */}}
+			<img src="http://img.youtube.com/vi/{{ index .Params 0 }}/sddefault.jpg" />
+		{{ end }}
 		<div class="yt-video">
 			<div id="player{{ index .Params 0 }}">
 			</div>
@@ -15,8 +28,6 @@
 </div>
 
 <script>
-	{{ $varid := index .Params 0 }}
-	{{ $varid := replace $varid "-" "dash" }}
 	
 	var player;
 	var ytid;
