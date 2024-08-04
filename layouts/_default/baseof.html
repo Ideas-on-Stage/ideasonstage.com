@@ -3,10 +3,14 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	
 	<head>
-		{{ partial "head.html" . }}
-		{{ block "head-custom" . }}
-			{{/* <!-- page specific head info, for example a common schema --> */}}
-		{{ end }}
+		{{ template "head-css" . }}
+		{{ template "head-title" . }}
+		{{ template "head-meta" . }}
+		{{ template "head-hreflang" . }}
+		{{ template "head-alternate" . }}
+		{{ template "head-favicon" . }}
+		{{ template "head-schema" . }}
+		{{ template "head-custom" . }}
 	</head>
 	
 	<body id="page-top" class="layout-page">
@@ -79,6 +83,44 @@
 {{ "<!-- _default/baseof.html:end -->" | safeHTML }}
 
 
+
+{{/* <!-- definition of default head templates --> */}}
+
+{{ define "head-css" }}
+	{{ partial "head-css.html" . }}
+{{ end }}
+
+{{ define "head-title" }}
+	{{ partial "head-title.html" . }}
+{{ end }}
+
+{{ define "head-meta" }}
+	{{ partial "head-meta.html" . }}
+{{ end }}
+
+{{ define "head-hreflang" }}
+	{{ partial "head-hreflang.html" . }}
+{{ end }}
+
+{{ define "head-alternate" }}
+	{{ partial "head-alternate.html" . }}
+{{ end }}
+
+{{ define "head-favicon" }}
+	{{ partial "head-favicon.html" . }}
+{{ end }}
+
+{{ define "head-schema" }}
+	{{ partial "head-schema.html" . }}
+{{ end }}
+
+{{ define "head-custom" }}
+	{{/* <!-- page specific head info, for example a common schema --> */}}
+{{ end }}
+
+
+
+{{/* <!-- definition of default body templates --> */}}
 
 {{ define "data-cta" }}
 	{{ partial "b/data-cta.html" . }}

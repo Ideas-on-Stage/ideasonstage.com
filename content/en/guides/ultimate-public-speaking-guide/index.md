@@ -99,7 +99,6 @@ Before we explain how to practice gestures, here are some gestures to avoid:
 * **Don’t rub your hands**. Bill Gates was always doing this. It makes him look like he is preparing something evil (especially when he released mosquitos into the audience during his TED talk!) It’s the gesture that Mr. Burns from the Simpsons always does
 * **Don’t point your finger (whatever the finger)**. This is a gesture that is considered inappropriate in many cultures. If you need to point at a direction, do it with your whole hand, palm open. 
 
-<br />
 {{< youtube -P9C8xl4RPU >}}
 
 In order to practice gestures, start by adopting a rooted stance. Find your breathing rhythm. Let your hands hang by your side. Imagine that you’re establishing eye contact with your audience. This position feels awkward and exposed. Why? Because this position feels vulnerable, without any psychological protection. It feels “naked.” Paradoxically, someone watching you from the audience will perceive you as confident and relaxed. This is called the comfort zone paradox: as you open your body, you feel less protected, but you look more accessible and confident. When you close your body language with closed gestures such as crossed arms, you feel more protected but look aloof and insecure.
@@ -156,7 +155,6 @@ In order to deal with these 2 causes and fight them, there are a number of metho
 * Avoid focusing on your thoughts, don’t go down the rabbit hole. Keep talking with other speakers backstage to stop your mind from creating imaginary worst-case scenarios.
 * Stay present, keep your eye on the time, where you’re entering from and what’s currently happening.  
 
-<br />
 {{< youtube DYQ-4Z6WMqM >}}
 
 ### Eliminating vocal ums and errs and other filler words
@@ -185,7 +183,6 @@ To avoid that pitfall, practice using the Post-its and above all, try to detach 
 
 If you have received feedback that your voice is monotonous or lacks dynamics, we advise you to discover and practice the 4 Tempos, demonstrated in a video with Michael and Rose. 
 
-<br />
 {{< youtube 3nMIo1mGcLc >}}
 
 [This video is part of our series The Business Presentation Revolution.](https://www.ideasonstage.com/fr/revolution/)
