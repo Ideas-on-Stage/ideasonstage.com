@@ -4,6 +4,12 @@
 
 {{/* <!-- define custom blocks --> */}}
 
+{{ define "head-title" }}
+	<title>
+		{{ (printf "%s | %s %s" .Title site.Title site.Params.Country) | truncate 70 }}
+	</title>
+{{ end }}
+
 {{ define "page-list" }}
 	{{ "<!-- tags/section.html:page-list:start -->" | safeHTML }}
 	{{ partial "b/page-list-tags.html" . }}

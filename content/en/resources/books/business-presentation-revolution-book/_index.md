@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "Business Presentation Revolution - The Book"
-description: "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? It’s time to join the Business Presentation Revolution."
+description: "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? Discover the Business Presentation Revolution book."
 
 blocks:
 - type: page-title

@@ -1,5 +1,4 @@
 ---
-draft: false
 title: "The Ultimate Public Speaking Guide"
 description: "Get rid of your fear of speaking in public and learn the best techniques to become a great orator."
 categories: [ "public Speaking" ]

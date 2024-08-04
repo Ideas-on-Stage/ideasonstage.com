@@ -11,6 +11,12 @@
 
 {{/* <!-- define custom blocks --> */}}
 
+{{ define "head-css" }}
+	{{ partial "head-css.html" . }}
+	{{ $style := resources.Get "revolution.scss" | resources.ExecuteAsTemplate "revolution.css" . | resources.ToCSS | resources.Minify }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ end }}
+
 {{ define "page-list" }}
 	{{ "<!-- revolution/section.html:page-list:start -->" | safeHTML }}
 	{{ partial "b/page-list-revolution.html" . }}

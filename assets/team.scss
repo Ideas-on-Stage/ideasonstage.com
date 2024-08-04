@@ -1,0 +1,35 @@
+/* @group TEAMMEMBER */
+
+	#team-member .style-person-title {
+		font-size: 1.5em;
+		margin-top: 0;
+		color: var(--color-midgray);
+		text-transform: uppercase;
+	}
+	
+	#team-member-list img.teammember-img {
+		width: 100px;
+		height: 100px;
+		border: 3px solid white;
+		border-radius: 50%;
+		transition: all .35s;
+		filter: grayscale(100%);
+	}
+	
+	#team-member-list img.teammember-img:hover {
+		border: 3px solid var(--color-primary);
+		filter: grayscale(0%);
+	}
+	
+	#team-member-list .teammember-name {
+		font-size: 1em;
+		margin: 4px 0;
+	}
+	
+	#team-member-list .teammember-title {
+		font-size: 0.75em;
+		margin: 0;
+		color: #aaa;
+	}
+
+/* @end */

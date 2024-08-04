@@ -1,8 +1,17 @@
 {{/* <!-- define main only if different from default structure --> */}}
 
+{{ define "main" }}
+{{ end }}
+
 
 
 {{/* <!-- define custom blocks --> */}}
+
+{{ define "head-css" }}
+	{{ partial "head-css.html" . }}
+	{{ $style := resources.Get "team.scss" | resources.ExecuteAsTemplate "team.css" . | resources.ToCSS | resources.Minify }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ end }}
 
 {{ define "page-content" }}
 	{{ "<!-- team/section.html:page-content:start -->" | safeHTML }}
@@ -15,3 +24,4 @@
 	{{ partial "b/page-list-team.html" . }}
 	{{ "<!-- team/section.html:page-list:end -->" | safeHTML }}
 {{ end }}
+

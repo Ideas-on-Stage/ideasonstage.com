@@ -1,11 +1,12 @@
 ---
-draft: false
 title: "La guía definitiva para hablar en público"
 description: "Técnicas de oratoria, gestión del estrés, resolución de problemas frecuentes: cómo hablar en público con facilidad."
 categories: [ "Hablar en Público" ]
 url: "/es/guia-definitiva-hablar-en-publico/"
-picture: "public-speaking.jpg"
+picture: "hablar-en-publico.jpg"
 summary: "Esta guía te ofrece los consejos necesarios para hablar en público con éxito, ya sea en una reunión o frente a un público de miles de personas. Hablar en público es un ejercicio estresante para la mayoría de personas. ¿Cómo actuar? ¿Cuáles son los errores que debes evitar? Con esta guía, escrita por profesionaes en comunicación interpersonal, podrás aprender las técnicas necesarias para conseguir una comunicación oral efectiva, y controlar el estrés."
+translationKey: "guides/ultimate-public-speaking-guide"
+
 ---
 ## ¿Quiénes somos?
 Ideas on Stage es una empresa especializada en presentaciones de negocios. Hemos entrenado y formado a miles de ponentes. Tenemos una larga experiencia en la preparación de presentaciones estilo TED y TEDx con más de 300 ponentes preparados y docenas de eventos TEDx en Europa y Estados Unidos.
@@ -86,7 +87,6 @@ Antes de explicar cómo ensayar la gestualidad, te enumeramos algunos gestos a e
 * Frotarse las manos. Bill Gates tenía este defecto cuando presentaba. Le hacía parecer que estaba maquinando algo constantemente, al igual que el Sr. Burns en Los Simpsons ...
 * Señalar con el dedo (con cualquier dedo): es un gesto que se considera grosero o inapropiado en muchas culturas. Si deseas  mostrar una dirección, es preferible hacerlo extendiendo toda la mano.
 
-<br />
 {{< youtube ttx9xv7GrnQ >}}
 
 Para practicar los gestos, comienza alineando tu postura como comentamos más arriba, respira con calma. Deja que los brazos se extiendan a los lados de tu cuerpo, relajados. Imagina hacer contacto visual con el público frente a ti. En esta posición, seguramente te sentirás incómodo, poco natural. ¿Por qué? Porque es una posición vulnerable y abierta que no ofrece protección psicológica frente al público. Sin embargo, alguien que te mire tendrá la sensación de que eres "normal". Esta es la paradoja de los gestos: lo que sentimos puede ser muy diferente de lo que el público percibe.

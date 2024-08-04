@@ -4,17 +4,12 @@
 
 **/.obsidian
 
-.nova/
-.nova/**
+/.nova/
 
-_disabled/
-_disabled/**
+/_disabled/
 
-isableFastRender/
-isableFastRender/**
+/isableFastRender/
 
-public/
-public/**
+/public/
 
-resources/
-resources/**
+/resources/

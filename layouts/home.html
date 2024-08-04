@@ -8,7 +8,13 @@
 {{ end }}
 
 {{ define "page-title" }}
-	{{ "<!-- home.html:page-title:start -->" | safeHTML }}
-		{{ partial "b/page-title-home" page }}
-	{{ "<!-- home.html:page-title:end -->" | safeHTML }}
+	{{ "<!-- home.html:page-title:define:start -->" | safeHTML }}
+	{{ partial "b/page-title-home" page }}
+	{{ "<!-- home.html:page-title:define:end -->" | safeHTML }}
+{{ end }}
+
+{{ define "page-content" }}
+	{{ "<!-- home.html:page-content:define:start -->" | safeHTML }}
+	{{ partial "b/page-content-home" page }}	
+	{{ "<!-- home.html:page-content:define:end -->" | safeHTML }}
 {{ end }}
