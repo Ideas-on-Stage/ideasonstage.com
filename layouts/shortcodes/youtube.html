@@ -6,7 +6,7 @@
 	2024-07-31 PMO: first version, customized js to work with multiple videos on same page
 	2024-08-01 PMO: added code to load on server image placeholder
 	2024-08-03 PMO: inlined css to remove it from main stylesheet
-	2024-08-04 PMO: corrected http to htts for youtube image links
+	2024-08-04 PMO: corrected http to https + fixed layout for youtube image links
 --> */}}
 
 {{ $varid := index .Params 0 }}
@@ -18,10 +18,11 @@
 		{{ $path := printf "/static/img/youtube/%s.jpg" (index .Params 0) }}
 		{{ if os.FileExists $path }}
 			{{/* <!-- use available server version of youtube placeholder image in /static/img/youtube/ --> */}}
-			<img src="{{ printf "/img/youtube/%s.jpg" (index .Params 0) }}" style="position:absolute;z-index: 100;top:0;left:0;width:100%;height:100%;object-fit:cover;"/>
+			{{ $img := printf "/img/youtube/%s.jpg" (index .Params 0) }}
+			<img src="{{ $img }}" style="position:absolute;z-index: 100;top:0;left:0;width:100%;height:100%;object-fit:cover;"/>
 		{{ else }}
 			{{/* <!-- else use youtube.com version of youtube placeholder image --> */}}
-			<img src="https://img.youtube.com/vi/{{ index .Params 0 }}/sddefault.jpg" />
+			<img src="https://img.youtube.com/vi/{{ index .Params 0 }}/sddefault.jpg" style="position:absolute;z-index: 100;top:0;left:0;width:100%;height:100%;object-fit:cover;"/>
 		{{ end }}
 		<div style="position:absolute;z-index:110;width:100%;height:0;padding-bottom:56.25%;">
 			<div style="position:absolute;top:0;left: 0;width: 100%;height: 100%;">
