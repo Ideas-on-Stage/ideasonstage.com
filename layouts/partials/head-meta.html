@@ -36,4 +36,8 @@
 {{ if eq .Params.ni true }}
 	<meta name="robots" content="noindex">
 {{ end }}
+{{ if eq .Type "tags" }}
+	{{/* <!-- do not index tag pages --> */}}
+	<meta name="robots" content="noindex">
+{{ end }}
 {{ "<!-- partials/head-meta.html:end -->" | safeHTML }}

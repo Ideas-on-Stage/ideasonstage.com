@@ -190,28 +190,47 @@
 
 # 2024-07-09
 [[redirects]]
-from			= "https://www.ideasonstage.com/fr/revolution/*"
-to				= "https://www.ideasonstage.com/fr/ressources/revolution/:splat"
-status			= 301
-force			= true
+	from			= "https://www.ideasonstage.com/fr/revolution/*"
+	to				= "https://www.ideasonstage.com/fr/ressources/revolution/:splat"
+	status			= 301
+	force			= true
 
 # 2024-07-09
 [[redirects]]
-from			= "https://www.ideasonstage.com/fr/references/*"
-to				= "https://www.ideasonstage.com/fr/apropos/references/:splat"
-status			= 301
-force			= true
+	from			= "https://www.ideasonstage.com/fr/references/*"
+	to				= "https://www.ideasonstage.com/fr/apropos/references/:splat"
+	status			= 301
+	force			= true
 
 # 2024-07-10
 [[redirects]]
-from			= "https://www.ideasonstage.com/resources/confident-presenter-book/"
-to				= "https://www.ideasonstage.com/resources/books/confident-presenter-book/"
-status			= 301
-force			= true
+	from			= "https://www.ideasonstage.com/resources/confident-presenter-book/"
+	to				= "https://www.ideasonstage.com/resources/books/confident-presenter-book/"
+	status			= 301
+	force			= true
 
 # 2024-07-23
 [[redirects]]
-from			= "https://www.ideasonstage.com/business-presentation-revolution/book/*"
-to				= "https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/:splat"
-status			= 301
-force			= true
+	from			= "https://www.ideasonstage.com/business-presentation-revolution/book/*"
+	to				= "https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/:splat"
+	status			= 301
+	force			= true
+
+# 2024-08-05
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/coaching-prise-de-parole-en-public/coaching-tedx/evenements/tedx-lille-2017/"
+	to				= "https://www.ideasonstage.com/fr/apropos/references/tedx-lille-2017/"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/public-speaking-coaching/tedx-coaching/events/tedx-tours-2019/"
+	to				= "https://www.ideasonstage.com/fr/apropos/references/tedx-tours-2019/"
+	status			= 301
+	force			= true
+
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/success-stories-clients/tedx-lille-2017/"
+	to				= "https://www.ideasonstage.com/fr/apropos/references/tedx-lille-2017/"
+	status			= 301
+	force			= true
