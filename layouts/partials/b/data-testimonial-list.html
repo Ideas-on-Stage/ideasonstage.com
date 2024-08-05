@@ -1,7 +1,6 @@
 {{ "<!-- partials/b/testimonials.html:start -->" | safeHTML }}
 {{ $sectionid := "testimonials" }}
 {{ if .sectionid }}{{ $sectionid = .sectionid }}{{ end }}
-
 <section id="{{ $sectionid }}" class="layout-module-group bg-lightgrey">
 	<div class="testimonials flex-parent flex-parent-scroll flex-gap ios-scrollbar">
 		{{ range .datafilelist }}

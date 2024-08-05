@@ -102,6 +102,19 @@ title 					= "Ideas on Stage"
 				bottom	= "1vw"
 				left	= "0"
 
+	[[params.countries]]
+		name	= "USA"
+		url		= "/"
+	[[params.countries]]
+		name	= "France"
+		url		= "/fr/"
+	[[params.countries]]
+		name	= "España"
+		url		= "/es/"
+	[[params.countries]]
+		name	= "UK"
+		url		= "/uk/"
+		
 	# ---------------------
 	# Layout
 	[params.navigation]
@@ -134,7 +147,7 @@ title 					= "Ideas on Stage"
 				url		= "https://www.youtube.com/user/IdeasOnStage/"
 
 
-
+	
 ################################
 # ENGLISH US
 ################################
@@ -324,7 +337,7 @@ title 					= "Ideas on Stage"
 ################################
 
 [languages.fr]
-	languageName	= "French"
+	languageName	= "Français"
 	languageCode	= "fr"
 	contentDir		= "content/fr"
 	weight			= "2"

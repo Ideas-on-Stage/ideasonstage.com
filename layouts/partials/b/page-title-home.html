@@ -12,18 +12,14 @@
 	<nav class="bg-dark">
 		<div class="layout-content marginv-none">
 			<ul class="flex-parent flex-parent-row flex-big-gap flex-justify-center paddingv-tiny">
-			<!-- Languages Drop Down -->
-			{{ if .IsTranslated }}
-				{{ range .AllTranslations }}
-					{{ if ne (site.LanguageCode | lower) (.Lang | lower) }}
-							<a href="{{ .Permalink }}">
+				<!-- Countries -->
+				{{ range site.Params.countries }}
+					<a href="{{ .url }}">
 						<li class="flex-child button-secondary text-small">
-								{{ .Language.LanguageName }}
+							{{ .name }}
 						</li>
-							</a>
-					{{ end }}
+					</a>
 				{{ end }}
-			{{ end }}
 			</ul>
 		</div>
 	</nav>

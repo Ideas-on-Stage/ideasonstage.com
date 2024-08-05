@@ -7,11 +7,11 @@ outputs: [ "html" ]
 picture: "/img/ideas-on-stage.svg"
 schema: "Website"
 mastodon: "https://mastodon.social/@pmorsa"
-hidetitle: false
 type: "home"
+translationKey: "home"
 
 blocks:
-  - type: "page-title"
+  - type: "page-title-home"
   - type: "data-cta"
     datafile: "public-speaking-guide"
   - type: "data-module-list"

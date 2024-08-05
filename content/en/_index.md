@@ -19,7 +19,7 @@ blocks:
   datafilelist: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
 - type: "data-module-list"
   sectionid: "see-also"
-  datafilelist: [ "business-presentation-revolution", "guideevents", "news", "presentationscore" ]
+  datafilelist: [ "business-presentation-revolution", "news" ]
 - type: "data-testimonial-list"
   datafilelist: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
 ---

@@ -46,6 +46,9 @@
 				{{ else if eq .type "page-title" }}
 					{{/* <!-- title block --> */}}
 					{{ template "page-title" page }}
+				{{ else if eq .type "page-title-home" }}
+					{{/* <!-- home title block --> */}}
+					{{ template "page-title-home" page }}
 				{{ else if eq .type "site-location" }}
 					{{/* <!-- location block --> */}}
 					{{ template "site-location" . }}
@@ -165,6 +168,12 @@
 {{ define "page-title" }}
 	{{ "<!-- _default/baseof.html:page-title:define:start -->" | safeHTML }}
 	{{ partial "b/page-title.html" page }}
+	{{ "<!-- _default/baseof.html:page-title:define:end -->" | safeHTML }}
+{{ end }}
+
+{{ define "page-title-home" }}
+	{{ "<!-- _default/baseof.html:page-title:define:start -->" | safeHTML }}
+	{{ partial "b/page-title-home.html" page }}
 	{{ "<!-- _default/baseof.html:page-title:define:end -->" | safeHTML }}
 {{ end }}
 	
