@@ -11,11 +11,11 @@ summary: "Ce guide vous donnera tous les conseils nécessaires pour réussir vot
 weight: 10
 
 blocks:
-    - type: page-hero
-    - type: page-breadcrumbs
-    - type: page-content
-    - type: data-module-list
-      datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
+- type: page-hero
+- type: page-breadcrumbs
+- type: page-content
+- type: data-module-list
+  datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 
 ## Qui sommes-nous ?

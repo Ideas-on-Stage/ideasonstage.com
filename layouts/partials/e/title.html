@@ -1,3 +1,4 @@
+{{ "<!-- partials/e/title.html:start -->" | safeHTML }}
 {{ $data := . }}
 {{ if (partial "f/ispage" .) }}
 	{{ $data = .Params }}
@@ -5,3 +6,4 @@
 {{ if $data.title }}
 	<h3>{{ with $data.title | safeHTML }}{{ . }}{{ end }}</h3>
 {{ end }}
+{{ "<!-- partials/e/title.html:end -->" | safeHTML }}

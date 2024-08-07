@@ -8,7 +8,7 @@ picture: "remote-presentations.jpg"
 summary: "What you need to deliver great presentations remotely: gear, software, setup, animation. We wrote this guide based on ten years of experience delivering professional remote presentations to clients. Note: we don’t earn any money on the software or hardware we recommend in this article. We recommend them based on our experience, but there are many other solutions that might work well."
 
 blocks:
-- type: page-title
+- type: page-hero
 - type: page-breadcrumbs
 - type: page-content
 - type: data-module-list

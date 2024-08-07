@@ -11,20 +11,20 @@ type: "home"
 translationKey: "home"
 
 blocks:
-  - type: "page-title-home"
-  - type: "data-cta"
-    datafile: "public-speaking-guide"
-  - type: "data-module-list"
-    sectionid: "services"
-    datafilelist: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
-  - type: "page-content"
-  - type: "data-reference-list"
-    datafilelist: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
-  - type: "data-module-list"
-    sectionid: "see-also"
-    datafilelist: [ "presentationscore", "news" ]
-  - type: "data-testimonial-list"
-    datafilelist: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
+- type: "page-title-home"
+- type: "data-cta"
+  datafile: "public-speaking-guide"
+- type: "data-module-list"
+  sectionid: "services"
+  datafilelist: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
+- type: "page-content"
+- type: "data-reference-list"
+  datafilelist: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
+- type: "data-module-list"
+  sectionid: "see-also"
+  datafilelist: [ "presentationscore", "news" ]
+- type: "data-testimonial-list"
+  datafilelist: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
 ---
 
 Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.

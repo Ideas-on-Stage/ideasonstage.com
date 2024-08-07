@@ -6,11 +6,6 @@ translationKey: "communication-consulting"
 picture: "corporate-office.jpg"
 thumbnail: "thumbnail.jpg"
 
-blocks:
-- type: "page-hero"
-- type: "page-breadcrumbs"
-- type: "page-content"
-- type: "page-list"
 ---
 
 {{< text-centered title="A different approach to corporate communication" >}}

@@ -9,11 +9,11 @@ picture: "public-speaking-training.jpg"
 weight: 20
 
 blocks:
-    - type: page-hero
-    - type: page-breadcrumbs
-    - type: page-content
-    - type: data-module-list
-      datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
+- type: page-hero
+- type: page-breadcrumbs
+- type: page-content
+- type: data-module-list
+  datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 
 Cet article explique les critères importants pour choisir une formation en prise de parole en public moderne et qui réponde aux besoins des entreprises. Il vaut mieux faire appel à un organisme de formation ayant une équipe d’experts employés à temps plein et avec une vraie connaissance du fonctionnement du monde de l’entreprise.

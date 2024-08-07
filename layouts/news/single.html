@@ -1,17 +1,23 @@
-{{/* <!-- define main only if different from default structure --> */}}
+{{/* <!-- define "main" to override default "main" in _default/baseof.thml --> */}}
 
-{{ define "main" }}
-	{{ "<!-- news/single.html:main:start -->" | safeHTML }}
-	{{ template "page-content" . }}
-	{{ "<!-- news/single.html:main:end -->" | safeHTML }}
-{{ end }}
+	{{ define "main" }}
+		{{ "<!-- news/single.html:main:define:start -->" | safeHTML }}
+		{{ template "page-content" . }}
+		{{ "<!-- news/single.html:main:define:end -->" | safeHTML }}
+	{{ end }}
 
 
 
-{{/* <!-- define custom blocks --> */}}
+{{/* <!-- define elements to override default elements in _default/baseof.html --> */}}
 
-{{ define "page-content" }}
-	{{ "<!-- news/single.html:page-content:start -->" | safeHTML }}
-	{{ partial "b/page-content-news-single" . }}
-	{{ "<!-- news/single.html:page-content:end -->" | safeHTML }}
-{{ end }}
+	{{ define "head-meta-desc" }}
+		{{ "<!-- news/single.html:head-meta-desc:define:start -->" | safeHTML }}
+		<meta name="description" property="og:description"  content="{{ .Params.title }} | {{ .Params.author }}">
+		{{ "<!-- news/single.html:head-meta-desc:define:end -->" | safeHTML }}
+	{{ end }}
+	
+	{{ define "page-content" }}
+		{{ "<!-- news/single.html:page-content:define:start -->" | safeHTML }}
+		{{ partial "b/page-content-news-single" . }}
+		{{ "<!-- news/single.html:page-content:define:end -->" | safeHTML }}
+	{{ end }}

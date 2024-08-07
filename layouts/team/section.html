@@ -1,27 +1,25 @@
-{{/* <!-- define main only if different from default structure --> */}}
-
-{{ define "main" }}
-{{ end }}
+{{/* <!-- define "main" to override default "main" in _default/baseof.thml --> */}}
 
 
 
-{{/* <!-- define custom blocks --> */}}
+{{/* <!-- define elements to override default elements in _default/baseof.html --> */}}
 
-{{ define "head-css" }}
-	{{ partial "head-css.html" . }}
-	{{ $style := resources.Get "team.scss" | resources.ExecuteAsTemplate "team.css" . | resources.ToCSS | resources.Minify }}
-	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-{{ end }}
-
-{{ define "page-content" }}
-	{{ "<!-- team/section.html:page-content:start -->" | safeHTML }}
-	{{ partial "b/page-content-home.html" . }}
-	{{ "<!-- team/section.html:page-content:end -->" | safeHTML }}
-{{ end }}
-
-{{ define "page-list" }}
-	{{ "<!-- team/section.html:page-list:start -->" | safeHTML }}
-	{{ partial "b/page-list-team.html" . }}
-	{{ "<!-- team/section.html:page-list:end -->" | safeHTML }}
-{{ end }}
-
+	{{ define "head-css" }}
+		{{ "<!-- tags/section.html:head-css:define:start -->" | safeHTML }}
+		{{ partial "b/head-css.html" . }}
+		{{ $style := resources.Get "team.scss" | resources.ExecuteAsTemplate "team.css" . | resources.ToCSS | resources.Minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+		{{ "<!-- tags/section.html:head-css:define:end -->" | safeHTML }}
+	{{ end }}
+	
+	{{ define "page-content" }}
+		{{ "<!-- team/section.html:page-content:define:start -->" | safeHTML }}
+		{{ partial "b/page-content-home.html" . }}
+		{{ "<!-- team/section.html:page-content:define:end -->" | safeHTML }}
+	{{ end }}
+	
+	{{ define "page-list" }}
+		{{ "<!-- team/section.html:page-list:define:start -->" | safeHTML }}
+		{{ partial "b/page-list-team.html" . }}
+		{{ "<!-- team/section.html:page-list:define:end -->" | safeHTML }}
+	{{ end }}

@@ -6,6 +6,13 @@ url: "/ultimate-public-speaking-guide/"
 translationKey: "guides/ultimate-public-speaking-guide"
 picture: "public-speaking.jpg"
 summary: "This guide will give you all the tools necessary to help you succeed whether its a small face to face meeting or in front of an audience of thousands of people. Getting up and selling ideas to an audience is a stressful exercise for most of us. So how do we handle it? What are the things we should avoid? Thanks to this guide written by the best professionals of the public speaking world, you can learn the necessary techniques to help you be a great public speaker and beat the stress."
+
+blocks:
+  - type: page-hero
+  - type: page-breadcrumbs
+  - type: page-content
+  - type: data-module-list
+    datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 
 ## Who are we?

@@ -4,10 +4,6 @@ title: "Notre politique RSE"
 description: "Découvrez les mesures prises par Ideas on Stage pour limiter son impact sur la planète."
 translationKey: "csr"
 
-blocks:
-- type: page-hero
-- type: page-breadcrumbs
-- type: page-content
 ---
 
 Ideas on Stage est une petite entreprise, mais nous tenons à faire notre part pour préserver le futur de notre planète. C'est pourquoi nous avons mis en place une politique RSE simple mais efficace. Cette politique agit sur trois axes : social, environnement et économie.

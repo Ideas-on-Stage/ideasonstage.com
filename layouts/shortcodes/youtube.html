@@ -12,6 +12,7 @@
 {{ $varid := index .Params 0 }}
 {{ $varid := replace $varid "-" "dash" }}
 
+{{ "<!-- shortcodes:youtube.html:start -->" | safeHTML }}
 <div class="layout-shortcode">
 	<div id="{{ index .Params 0 }}" style="position:relative;padding-bottom:56.25%;height:0;">
 		{{/* <!-- build search path for on server picture --> */}}
@@ -39,6 +40,7 @@
 	var ytid;
 	var loaded;
 	
+	// 1. Listen for click on placeholder pic
 	document.getElementById("{{ index .Params 0 }}").addEventListener("click", function(){
 		ytid = this.id;
 		document.getElementById('player' + ytid).style.display = 'visible';
@@ -62,7 +64,6 @@
 	
 	// 3. This function creates an <iframe> (and YouTube player)
 	//	after the API code downloads.
-	
 	function onYouTubeIframeAPIReady() {
 		var playerid = 'player' + ytid;
 		player = new YT.Player(
@@ -80,10 +81,7 @@
 		loaded = 1;
 	}
 	
-	
-	
 	// 4. The API will call this function when the video player is ready.
-	
 	function onPlayerReady(event)
 	{
 		console.log(event.target)
@@ -93,7 +91,6 @@
 	// 5. The API calls this function when the player's state changes.
 	//	The function indicates that when playing a video (state=1),
 	//	the player should play for six seconds and then stop.
-
 	var done = false;
 	function onPlayerStateChange(event)
 	{
@@ -105,3 +102,4 @@
 	}
 
 </script>
+{{ "<!-- shortcodes:youtube.html:end -->" | safeHTML }}

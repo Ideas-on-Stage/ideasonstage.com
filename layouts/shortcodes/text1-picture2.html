@@ -1,11 +1,15 @@
 {{ "<!-- shortcodes:text1-picture2.html:start -->" | safeHTML }}
 <div class="layout-shortcode flex-parent flex-parent-row flex-parent-column-ontall flex-gap flex-justify-start marginv-medium{{ with .Params.style }}{{ . }}{{ end }}">
 	<div class="layout-shortcode-child flex-child flex-child-40p">
-		<h3 class="">{{ .Params.title }}</h3>
-	    <p>{{ .Inner | markdownify }}</p>
+		<h3 class="">
+			{{ .Params.title }}
+		</h3>
+		<p>
+			{{ .Inner | markdownify }}
+		</p>
 	</div>
 	<div class="layout-shortcode-child flex-child flex-child-60p">
-		<img src="{{ .Params.picture }}" alt="{{ .Params.title }}">
+		<img src="{{ .Params.picture }}" alt="{{ .Params.title }}" />
 	</div>
 </div>
 {{ "<!-- shortcodes:text1-picture2.html:end -->" | safeHTML }}

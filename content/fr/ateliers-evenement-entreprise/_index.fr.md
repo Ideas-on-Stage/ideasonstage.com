@@ -5,11 +5,6 @@ description: "Des ateliers créatifs pour vous aider à lancer vos projets et re
 picture: "workshops.jpg"
 translationKey: "workshops"
 
-blocks:
-- type: page-hero
-- type: page-breadcrumbs
-- type: page-content
-- type: page-list
 ---
 
 {{< call-to-action title="Des ateliers ludiques et sérieux à la fois" subtitle="Drôles et efficaces, nos ateliers marqueront les esprits de vos collaborateurs. Que ce soit dans le cadre d'un séminaire ou d'un évènement d'entreprise, ils renforcent la cohésion et les compétences de vos équipes de manière ludique. Nos ateliers sont conçus pour vous et avec vous, sur mesure." button="NOUS CONTACTER" link="#contact" >}}

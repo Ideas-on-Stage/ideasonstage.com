@@ -1,11 +1,11 @@
-{{/* <!-- define main only if different from default structure --> */}}
+{{/* <!-- define "main" to override default "main" in _default/baseof.thml --> */}}
 
 
 
-{{/* <!-- define custom blocks --> */}}
+{{/* <!-- define elements to override default elements in _default/baseof.html --> */}}
 
-{{ define "page-content" }}
-	{{ "<!-- training/single.html:page-content:start -->" | safeHTML }}
-	{{ partial "b/page-content-training-single" page }}
-	{{ "<!-- training/single.html:page-content:end -->" | safeHTML }}
-{{ end }}
+	{{ define "page-content" }}
+		{{ "<!-- training/single.html:page-content:define:start -->" | safeHTML }}
+		{{ partial "b/page-content-training-single" page }}
+		{{ "<!-- training/single.html:page-content:define:end -->" | safeHTML }}
+	{{ end }}

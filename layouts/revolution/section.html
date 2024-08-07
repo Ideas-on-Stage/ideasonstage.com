@@ -1,24 +1,26 @@
-{{/* <!-- define main only if different from default structure --> */}}
+{{/* <!-- define "main" to override default "main" in _default/baseof.thml --> */}}
 
-{{ define "main" }}
-	{{ "<!-- revolution/section.html:main:start -->" | safeHTML }}
-	{{ template "page-title" . }}
-	{{ template "page-list" . }}
-	{{ "<!-- revolution/section.html:main:end -->" | safeHTML }}
-{{ end }}
+	{{ define "main" }}
+		{{ "<!-- revolution/section.html:main:define:start -->" | safeHTML }}
+		{{ template "page-title" . }}
+		{{ template "page-list" . }}
+		{{ "<!-- revolution/section.html:main:define:end -->" | safeHTML }}
+	{{ end }}
 
 
 
-{{/* <!-- define custom blocks --> */}}
+{{/* <!-- define elements to override default elements in _default/baseof.html --> */}}
 
-{{ define "head-css" }}
-	{{ partial "head-css.html" . }}
-	{{ $style := resources.Get "revolution.scss" | resources.ExecuteAsTemplate "revolution.css" . | resources.ToCSS | resources.Minify }}
-	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-{{ end }}
-
-{{ define "page-list" }}
-	{{ "<!-- revolution/section.html:page-list:start -->" | safeHTML }}
-	{{ partial "b/page-list-revolution.html" . }}
-	{{ "<!-- revolution/section.html:page-list:end -->" | safeHTML }}
-{{ end }}
+	{{ define "head-css" }}
+		{{ "<!-- revolution/section.html:head-css:define:start -->" | safeHTML }}
+		{{ partial "b/head-css.html" . }}
+		{{ $style := resources.Get "revolution.scss" | resources.ExecuteAsTemplate "revolution.css" . | resources.ToCSS | resources.Minify }}
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+		{{ "<!-- revolution/section.html:head-css:define:end -->" | safeHTML }}
+	{{ end }}
+	
+	{{ define "page-list" }}
+		{{ "<!-- revolution/section.html:page-list:define:start -->" | safeHTML }}
+		{{ partial "b/page-list-revolution.html" . }}
+		{{ "<!-- revolution/section.html:page-list:define:end -->" | safeHTML }}
+	{{ end }}

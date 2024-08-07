@@ -1,3 +1,4 @@
+{{ "<!-- partials/e/tags.html:start -->" | safeHTML }}
 {{ $tags := .GetTerms "tags" }}
 {{ if $tags }}
 	<div class="flex-parent flex-parent-row row-tag paddingv-tiny">
@@ -8,3 +9,4 @@
 		</ul>
 	</div>
 {{ end }}
+{{ "<!-- partials/e/tags.html:end -->" | safeHTML }}

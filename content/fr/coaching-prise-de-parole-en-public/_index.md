@@ -5,11 +5,6 @@ description: "Développez votre éloquence et votre présence sur scène. Devene
 picture: "wikistage-wbg-2015.jpg"
 translationKey: "public-speaking-coaching"
 
-blocks:
-- type: "page-hero"
-- type: "page-breadcrumbs"
-- type: "page-content"
-- type: "page-list"
 ---
 
 La prise de parole, ou art oratoire, est un ensemble de techniques qui permettent de communiquer son message efficacement face à un auditoire, que celui-ci soit constitué d’une ou de plusieurs milliers de personnes. Parmi les techniques clés de la prise de parole, on peut citer :

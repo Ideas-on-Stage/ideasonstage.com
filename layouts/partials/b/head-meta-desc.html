@@ -1,0 +1,4 @@
+{{ "<!-- partials/b/head-meta-desc.html:start -->" | safeHTML }}
+{{ $desc := .Description }}
+<meta name="description" property="og:description"  content="{{ $desc }}">
+{{ "<!-- partials/b/head-meta-desc.html:end -->" | safeHTML }}

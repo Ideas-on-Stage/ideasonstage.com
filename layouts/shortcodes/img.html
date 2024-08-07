@@ -2,6 +2,9 @@
 {{ $width := .Get "width" }}
 {{ $height := .Get "height" }}
 {{ $class := .Get "class" }}
+
+{{ "<!-- shortcodes:img.html:start -->" | safeHTML }}
 <div class="{{ $class }}">
-<img src="{{ $src }}" {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }} />
+	<img src="{{ $src }}" {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }} />
 </div>
+{{ "<!-- shortcodes:img.html:end -->" | safeHTML }}

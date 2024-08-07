@@ -1,4 +1,4 @@
-{{ "<!-- partials/head-css.html:start -->" | safeHTML }}
+{{ "<!-- partials/b/head-css.html:start -->" | safeHTML }}
 
 {{ "<!-- Site CSS -->" | safeHTML }}
 {{ $style := resources.Get site.Params.css.main | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
@@ -12,4 +12,4 @@
 {{ $fontawesome := resources.Get "font-awesome.min.css" | resources.Minify }}
 <link rel="stylesheet" href="{{ $fontawesome.RelPermalink }}" type="text/css">
 
-{{ "<!-- partials/head-css.html:end -->" | safeHTML }}
+{{ "<!-- partials/b/head-css.html:end -->" | safeHTML }}

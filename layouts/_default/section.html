@@ -1,8 +1,16 @@
-{{ define "main" }}
-	{{ "<!-- _default/section.html:main:start -->" | safeHTML }}
-	{{ template "page-title" page }}
-	{{ template "page-breadcrumbs" page }}
-	{{ template "page-content" page }}
-	{{ template "page-list" page }}
-	{{ "<!-- _default/section.html:main:end -->" | safeHTML }}
-{{ end }}
+{{/* <!-- define "main" to override default "main" in _default/baseof.thml --> */}}
+
+
+
+
+{{/* <!-- define elements to override default elements in _default/baseof.html --> */}}
+
+	{{ define "head-meta-desc" }}
+		{{ "<!-- _default/section.html:head-meta-desc:define:start -->" | safeHTML }}
+		{{ $desc := .Description }}
+		{{ if ge .Paginator.PageNumber 2 }}
+			{{ $desc = printf "%s | Page %s" .Description (string .Paginator.PageNumber) }}
+		{{ end }}
+		<meta name="description" property="og:description"  content="{{ $desc }}">
+		{{ "<!-- _default/section.html:head-meta-desc:define:end -->" | safeHTML }}
+	{{ end }}

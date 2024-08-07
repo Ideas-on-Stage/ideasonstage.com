@@ -1,5 +1,10 @@
 :root {
 	
+	--page-padding-top: {{ site.Params.layout.page.padding_top }};
+	--page-padding-right: {{ site.Params.layout.page.padding_right }};
+	--page-padding-bottom: {{ site.Params.layout.page.padding_bottom }};
+	--page-padding-left: {{ site.Params.layout.page.padding_left }};
+	
 	--menubar-height: {{ site.Params.layout.menubar.height }};
 	
 	--hero-height:	{{ site.Params.layout.hero.height }};
@@ -315,23 +320,11 @@
 		
 	}
 
-	/* #content-main is the section that displays the .Content of most pages */
-	#content-main > h5 {
-		/* highlight h1 and h5 in red to show they should not be used in content */
-		color: red; 
-	}
-
-	/* define title margins */
-	#content-main > h2 {
-		/* The > sign ensures only direct children are affected */
-		margin-top: var(--menubar-height);
-		margin-bottom: 0.5em;
-		scroll-margin-top: calc(var(--menubar-height) + 48px);
-	}
+	#content-main > h1,
+	#content-main > h2,
 	#content-main > h3,
 	#content-main > h4 {
 		margin-top: var(--menubar-height);
-		margin-top: 1em;
 		margin-bottom: 0.5em;
 		scroll-margin-top: calc(var(--menubar-height) + 48px);
 	}
@@ -339,29 +332,18 @@
 	#content-main li {
 		line-height: 1.6em;
 	}
-	#content-main p:first-child,
-	#content-main h2:first-child,
-	#content-main h3:first-child,
-	#content-main h4:first-child {
+	#content-main :first-child {
 		/* remove top margin from first element of content */
 		margin-top: 0;
-		padding-top: 0;
 	}
 	
-	#content-main p:last-child,
-	#content-main h2:last-child,
-	#content-main h3:last-child,
-	#content-main h4:last-child {
+	#content-main :last-child {
 		/* remove bottom margin from last element of content */
 		margin-bottom: 0;
-		padding-bottom: 0;
 	}
 	
 	#content-main :not(div) + div.layout-shortcode,
-	#content-main :not(div) + div.layout-shortcode-img {
-		margin-top: 48px;
-	}
-
+	#content-main :not(div) + div.layout-shortcode-img,
 	#content-main div.layout-shortcode + :not(div),
 	#content-main div.layout-shortcode-img + :not(div) {
 		margin-top: 48px;
@@ -407,10 +389,6 @@
 		padding: 1vw;
 		width: auto;
 		border: 1px solid #ddd;
-	}
-
-	#content-main li {
-		
 	}
 	
 	@media (max-width:480px) {
@@ -629,10 +607,10 @@
 /* @group LAYOUT-PAGE */
 	
 	.layout-page {
-		padding-top: {{ site.Params.layout.page.padding_top }};
-		padding-right: {{ site.Params.layout.page.padding_right }};
-		padding-bottom: {{ site.Params.layout.page.padding_bottom }};
-		padding-left: {{ site.Params.layout.page.padding_left }};
+		padding-top: var(--page-padding-top);
+		padding-right: var(--page-padding-right);
+		padding-bottom: var(--page-padding-bottom);
+		padding-left: var(--page-padding-left);
 	}
 	
 	/* main page title layout */

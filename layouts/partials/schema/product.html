@@ -3,34 +3,38 @@
 	
 	Use product instead of service if there is a price. This "may" allow it to be displayed as a rich snippet in Google's results. Products can be services.
  --> */}}
+{{ "<!-- partials/schema/product.html:start -->" | safeHTML }}
 <script type="application/ld+json">
-{
-	"@context": "https://schema.org/",
-	"@type": "Product",
-	"name": {{ .Title }},
-	"description": {{ .Params.description }},
-	{{ if .Params.picture }}"image": {{ partial "f/getpicturepath" . }},{{ end }}
-	"brand": {
-	    "@type": "Brand",
-	    "name": {{ site.Params.author }}
-	}
-	{{ if .Params.Offers }},
-	"offers": [
-		{{ $permalink := .Permalink }}
-		{{ $counter := 0 }}
-		{{ range .Params.offers }}
-			{{ if ne 0 $counter }},{{ end }}
-			{
-			    "@type": "Offer",
-			    "url": {{ $permalink }},
-			    "priceCurrency": {{ .pricecurrency }},
-			    "price": {{ .price }},
-			    "availability": {{ .availability }},
-			    "seller": {{ (partial "schema/properties/organization" .seller) | safeJS }}
-		    }
-			{{ $counter = add $counter 1 }}
+	{
+		"@context": "https://schema.org/",
+		"@type": "Product",
+		"name": {{ .Title }},
+		"description": {{ .Params.description }},
+		{{ if .Params.picture }}
+			"image": {{ partial "f/getpicturepath" . }},
 		{{ end }}
-	]
-	{{ end }}
-}
+		"brand": {
+			"@type": "Brand",
+			"name": {{ site.Params.author }}
+		}
+		{{ if .Params.Offers }},
+			"offers": [
+				{{ $permalink := .Permalink }}
+				{{ $counter := 0 }}
+				{{ range .Params.offers }}
+					{{ if ne 0 $counter }},{{ end }}
+					{
+						"@type": "Offer",
+						"url": {{ $permalink }},
+						"priceCurrency": {{ .pricecurrency }},
+						"price": {{ .price }},
+						"availability": {{ .availability }},
+						"seller": {{ (partial "schema/properties/organization" .seller) | safeJS }}
+					}
+					{{ $counter = add $counter 1 }}
+				{{ end }}
+			]
+		{{ end }}
+	}
 </script>
+{{ "<!-- partials/schema/product.html:end -->" | safeHTML }}

@@ -5,10 +5,6 @@ description: "Développez votre présence sur scène. Devenez un leader charisma
 picture: "public-speaking-coaching-10.jpg"
 translationKey: "public-speaking-coaching/executive-coaching"
 
-blocks:
-    - type: page-hero
-    - type: page-breadcrumbs
-    - type: page-content
 ---
 
 ## Soyez un leader sur scène

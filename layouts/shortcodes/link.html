@@ -4,10 +4,14 @@
 		{{ partial "e/link-picture.html" .Params }}
 	</div>
 	<div class="layout-shortcode-child flex-child flex-child-60p">
-	    <a href="{{ .Params.link }}">
-	    	<h3 class="">{{ .Params.title }}</h3>
-	    </a>
-	    <p>{{ .Inner | markdownify }}</p>
+		<a href="{{ .Params.link }}">
+			<h3 class="">
+				{{ .Params.title }}
+			</h3>
+		</a>
+		<p>
+			{{ .Inner | markdownify }}
+		</p>
 	</div>
 </div>
 {{ "<!-- shortcodes:link-picture-1-text2.html:end -->" | safeHTML }}

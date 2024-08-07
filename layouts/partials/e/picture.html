@@ -1,2 +1,4 @@
+{{ "<!-- partials/e/picture.html:start -->" | safeHTML }}
 {{ $data := partial "f/getdata" . }}
 <img src="{{ partial "f/getpicturepath" . }}" {{ with $data.title }}alt="{{ . }}"{{ end }}>
+{{ "<!-- partials/e/picture.html:end -->" | safeHTML }}

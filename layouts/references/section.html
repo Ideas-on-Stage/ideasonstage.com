@@ -1,19 +1,19 @@
-{{/* <!-- define main only if different from default structure --> */}}
+{{/* <!-- define "main" to override default "main" in _default/baseof.thml --> */}}
 
-{{ define "main" }}
-	{{ "<!-- references/section.html:main:start -->" | safeHTML }}
-	{{ template "data-reference-list" .Params }}
-	{{ template "page-content" . }}
-	{{ template "page-list" . }}
-	{{ "<!-- references/section.html:main:end -->" | safeHTML }}
-{{ end }}
+	{{ define "main" }}
+		{{ "<!-- references/section.html:main:define:start -->" | safeHTML }}
+		{{ template "data-reference-list" .Params }}
+		{{ template "page-content" . }}
+		{{ template "page-list" . }}
+		{{ "<!-- references/section.html:main:define:end -->" | safeHTML }}
+	{{ end }}
 
 
 
-{{/* <!-- define custom blocks --> */}}
+{{/* <!-- define elements to override default elements in _default/baseof.html --> */}}
 
-{{ define "page-list" }}
-	{{ "<!-- references/section.html:page-list:start -->" | safeHTML }}
-	{{ partial "b/page-list-references.html" . }}
-	{{ "<!-- references/section.html:page-list:end -->" | safeHTML }}
-{{ end }}
+	{{ define "page-list" }}
+		{{ "<!-- references/section.html:page-list:define:start -->" | safeHTML }}
+		{{ partial "b/page-list-references.html" . }}
+		{{ "<!-- references/section.html:page-list:define:end -->" | safeHTML }}
+	{{ end }}

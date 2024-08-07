@@ -10,11 +10,11 @@ summary: "Félicitations, vous venez d'être sélectionné pour être speaker à
 weight: 30
 
 blocks:
-    - type: page-hero
-    - type: page-breadcrumbs
-    - type: page-content
-    - type: data-module-list
-      datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
+- type: page-hero
+- type: page-breadcrumbs
+- type: page-content
+- type: data-module-list
+  datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 
 ## Pourquoi le guide ultime du TEDx Speaker ?

@@ -1,25 +1,25 @@
 {{/* <!-- 
- 	gallery shortcode
- 	
- 	Creates a grid of images (up to 24).
- 	Becomes 2 images side by side on ts (tall small) screens
- 	So the ideal number of images is even (2, 4, 6, etc.)
- 	
- 	Number of images per row is, in order of priority:
- 	- 1 or 2 if one or 2 pics
- 	- 3 if multiple of 3
- 	- 4 if multiple of 4
- 	- 5 if multiple of 5
- 	- 4 in all other cases (7, 11, etc.)
- 	
- 	Parameters:
- 	
- 	- unnamed list of pictures as string, between 1 and 
- 	
- 	Result: gallery of images
- 	
- --> */}}
- 
+	gallery shortcode
+	
+	Creates a grid of images (up to 24).
+	Becomes 2 images side by side on ts (tall small) screens
+	So the ideal number of images is even (2, 4, 6, etc.)
+	
+	Number of images per row is, in order of priority:
+	- 1 or 2 if one or 2 pics
+	- 3 if multiple of 3
+	- 4 if multiple of 4
+	- 5 if multiple of 5
+	- 4 in all other cases (7, 11, etc.)
+	
+	Parameters:
+	
+	- unnamed list of pictures as string, between 1 and 
+	
+	Result: gallery of images
+	
+--> */}}
+
 {{ $class := "flex-child" }}
 {{ $len := len .Params }}
 {{ if eq $len 1 }}
@@ -72,14 +72,16 @@
 	{{ $class = "flex-child flex-child-25p" }}
 {{ end }}
 
+{{ "<!-- shortcodes:gallery.html:start -->" | safeHTML }}
 {{ if gt $len 0  }}
-<div class="layout-shortcode">
-	<div class="layout-shortcode-child">
-		<div class="flex-parent flex-parent-row">
-			{{ range .Params }}
-			<div class="{{ $class }} height-auto"><img src="{{ . }}"></div>
-			{{ end }}
+	<div class="layout-shortcode">
+		<div class="layout-shortcode-child">
+			<div class="flex-parent flex-parent-row">
+				{{ range .Params }}
+				<div class="{{ $class }} height-auto"><img src="{{ . }}"></div>
+				{{ end }}
+			</div>
 		</div>
 	</div>
-</div>
 {{ end }}
+{{ "<!-- shortcodes:gallery.html:end -->" | safeHTML }}

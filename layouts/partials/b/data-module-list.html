@@ -1,4 +1,4 @@
-{{ "<!-- partials/b/modules:start -->" | safeHTML }}
+{{ "<!-- partials/b/data-module-list:start -->" | safeHTML }}
 {{ $sectionid := "modules" }}
 {{ if .sectionid }}{{ $sectionid = .sectionid }}{{ end }} 
 <section id="{{ $sectionid }}" class="layout-module-group">
@@ -12,4 +12,4 @@
 		{{ end }}
 	{{ end }}
 </section>
-{{ "<!-- partials/b/modules:end -->" | safeHTML }}
+{{ "<!-- partials/b/data-module-list:end -->" | safeHTML }}

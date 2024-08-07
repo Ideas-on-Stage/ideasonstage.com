@@ -1,25 +1,32 @@
-{{/* <!-- define main only if different from default structure --> */}}
+{{/* <!-- define "main" to override default "main" in _default/baseof.thml --> */}}
 
-{{ define "main" }}
-	{{ "<!-- team/single.html:main:start -->" | safeHTML }}
-	{{ template "page-breadcrumbs" page }}
-	{{ template "page-content" page }}
-	{{ "<!-- team/single.html:main:end -->" | safeHTML }}
-{{ end }}
+	{{ define "main" }}
+		{{ "<!-- team/single.html:main:define:start -->" | safeHTML }}
+		{{ template "page-breadcrumbs" page }}
+		{{ template "page-content" page }}
+		{{ "<!-- team/single.html:main:define:end -->" | safeHTML }}
+	{{ end }}
 
 
 
-{{/* <!-- define custom blocks --> */}}
+{{/* <!-- define elements to override default elements in _default/baseof.html --> */}}
 
-{{ define "head-custom" }}
-	{{ "<!-- team/single.html:head-custom:start -->" | safeHTML }}
-	{{/* <!-- use Person schema for team member page --> */}}
-	{{ partial "schema/person.html" . }}
-	{{ "<!-- team/single.html:head-custom:end -->" | safeHTML }}
-{{ end }}
-
-{{ define "page-content" }}
-	{{ "<!-- team/single.html:page-content:start -->" | safeHTML }}
-	{{ partial "b/page-content-team-single.html" . }}
-	{{ "<!-- team/single.html:page-content:end -->" | safeHTML }}
-{{ end }}
+	{{ define "head-meta-desc" }}
+		{{ "<!-- tags/section.html:head-meta-desc:define:start -->" | safeHTML }}
+		{{/* <!-- meta description for team section page --> */}}
+		<meta name="description" property="og:description"  content="{{ .Params.name }} | {{ .Params.position }} | Ideas on Stage">
+		{{ "<!-- tags/section.html:head-meta-desc:define:end -->" | safeHTML }}
+	{{ end }}
+	
+	{{ define "head-custom" }}
+		{{ "<!-- team/single.html:head-custom:define:start -->" | safeHTML }}
+		{{/* <!-- use Person schema for team member page --> */}}
+		{{ partial "schema/person.html" . }}
+		{{ "<!-- team/single.html:head-custom:define:end -->" | safeHTML }}
+	{{ end }}
+	
+	{{ define "page-content" }}
+		{{ "<!-- team/single.html:page-content:define:start -->" | safeHTML }}
+		{{ partial "b/page-content-team-single.html" . }}
+		{{ "<!-- team/single.html:page-content:define:end -->" | safeHTML }}
+	{{ end }}

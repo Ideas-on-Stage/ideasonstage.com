@@ -5,11 +5,6 @@ description: "Whether you are a leader in a major corporation or running your ow
 picture: "wikistage-wbg-2015.jpg"
 translationKey: "public-speaking-coaching"
 
-blocks:
-- type: "page-hero"
-- type: "page-breadcrumbs"
-- type: "page-content"
-- type: "page-list"
 ---
 
 ## Tailored to address each individual’s strengths and areas for improvement. 

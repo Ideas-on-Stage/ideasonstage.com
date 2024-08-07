@@ -5,10 +5,6 @@ description: "Media Training professionnel pour préparer les dirigeants à fair
 picture: "media-training.jpg"
 translationKey: "public-speaking-coaching/media-training"
 
-blocks:
-    - type: page-hero
-    - type: page-breadcrumbs
-    - type: page-content
 ---
 
 ## Montrez au monde la meilleure version de vous-même

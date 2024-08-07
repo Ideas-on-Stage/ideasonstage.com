@@ -1,7 +1,12 @@
-{{ define "main" }}
-	{{ "<!-- _default/single.html:main:start -->" | safeHTML }}
-	{{ template "page-title" page }}
-	{{ template "page-breadcrumbs" page }}
-	{{ template "page-content" page }}
-	{{ "<!-- _default/single.html:main:end -->" | safeHTML }}
-{{ end }}
+{{/* <!-- define "main" to override default "main" in _default/baseof.thml --> */}}
+
+	{{ define "placehorder" }}
+		<div>
+			dummy element
+		</div>
+	{{ end }}
+
+
+
+{{/* <!-- define elements to override default elements in _default/baseof.html --> */}}
+

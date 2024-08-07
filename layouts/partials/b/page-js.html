@@ -1,4 +1,4 @@
-{{ "<!-- partials/page-js.html:start -->" | safeHTML }}
+{{ "<!-- partials/b/page-js.html:start -->" | safeHTML }}
 
 {{ "<!-- jQuery - Required for form validation -->" | safeHTML }}
 {{ $jsjquery := resources.Get "jquery.js" | resources.Minify }}
@@ -28,4 +28,4 @@
 {{ $jsfs := resources.Get "fastsearch.js" | resources.Minify }}
 <script async src="{{ $jsfs.RelPermalink }}"></script> 
 
-{{ "<!-- partials/page-js.html:end -->" | safeHTML }}
+{{ "<!-- partials/b/page-js.html:end -->" | safeHTML }}

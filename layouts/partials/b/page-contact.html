@@ -1,7 +1,10 @@
-{{ "<!-- partials/page-contact.html:start -->" | safeHTML }}
+{{ "<!-- partials/b/page-contact.html:start -->" | safeHTML }}
 <section id="contact">
+	
 	<aside>
+		
 		<div class="layout-content">
+			
 			<div class="flex-parent flex-parent-column flex-align-center">
 				<h2 class="section-heading">
 					{{ with .Params.contact.title }}
@@ -23,6 +26,7 @@
 					</p>
 				{{ end }}
 			</div>
+			
 			<div class="layout-content-narrow">
 				<div class="flex-parent flex-parent-column flex-justify-center">
 					<form action="{{ .RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
@@ -50,7 +54,10 @@
 					</form>
 				</div>
 			</div>
+			
 		</div>
+		
 	</aside>
-</section>{{ "<!-- contact end -->" | safeHTML }}
-{{ "<!-- partials/page-contact.html:end -->" | safeHTML }}
+	
+</section>
+{{ "<!-- partials/b/page-contact.html:end -->" | safeHTML }}

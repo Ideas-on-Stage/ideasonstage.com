@@ -1,19 +1,20 @@
 {{/* <!--
 	Official Google rich snippet type: yes
  --> */}}
-	{{ $permalink := .Permalink }}
-	{{ range .Params.videoobjects }}
-		{{ $embedurl := .embedurl }}
-		{{ $firstchars := substr $embedurl 0 4 }}
-		{{ if ne $firstchars "http" }}
-			{{ $embedurl = add "https://www.youtube.com/embed/" $embedurl }}
-		{{ end }}
-		{{ $thumbnailurl := .thumbnailurl }}
-		{{ $firstchars = substr $thumbnailurl 0 4 }}
-		{{ if ne $firstchars "http" }}
-			{{ $thumbnailurl = add $permalink $thumbnailurl }}
-		{{ end }}
-		<script type="application/ld+json">
+{{ "<!-- partials/schema/videoobjects.html:start -->" | safeHTML }}
+{{ $permalink := .Permalink }}
+{{ range .Params.videoobjects }}
+	{{ $embedurl := .embedurl }}
+	{{ $firstchars := substr $embedurl 0 4 }}
+	{{ if ne $firstchars "http" }}
+		{{ $embedurl = add "https://www.youtube.com/embed/" $embedurl }}
+	{{ end }}
+	{{ $thumbnailurl := .thumbnailurl }}
+	{{ $firstchars = substr $thumbnailurl 0 4 }}
+	{{ if ne $firstchars "http" }}
+		{{ $thumbnailurl = add $permalink $thumbnailurl }}
+	{{ end }}
+	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org/"
 			, "@type": "VideoObject"
@@ -25,5 +26,6 @@
 			, "thumbnailUrl": {{ $thumbnailurl }}
 			, "uploadDate": {{ .uploaddate }}
 		}
-		</script>
-	{{ end }}
+	</script>
+{{ end }}
+{{ "<!-- partials/schema/videoobjects.html:end -->" | safeHTML }}

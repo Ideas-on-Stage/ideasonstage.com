@@ -1,18 +1,18 @@
-{{/* <!-- define main only if different from default structure --> */}}
+{{/* <!-- define "main" to override default "main" in _default/baseof.thml --> */}}
 
-{{ define "main" }}
-	{{ "<!-- news/section.html:main:start -->" | safeHTML }}
-	{{ template "page-title" . }}
-	{{ template "page-list" . }}
-	{{ "<!-- news/section.html:main:end -->" | safeHTML }}
-{{ end }}
+	{{ define "main" }}
+		{{ "<!-- news/section.html:main:define:start -->" | safeHTML }}
+		{{ template "page-title" . }}
+		{{ template "page-list" . }}
+		{{ "<!-- news/section.html:main:define:end -->" | safeHTML }}
+	{{ end }}
 
 
 
-{{/* <!-- define custom blocks --> */}}
+{{/* <!-- define elements to override default elements in _default/baseof.html --> */}}
 
-{{ define "page-list" }}
-	{{ "<!-- news/section.html:page-list:start -->" | safeHTML }}
-	{{ partial "b/page-list-news" . }}
-	{{ "<!-- news/section.html:page-list:end -->" | safeHTML }}
-{{ end }}
+	{{ define "page-list" }}
+		{{ "<!-- news/section.html:page-list:define:start -->" | safeHTML }}
+		{{ partial "b/page-list-news" . }}
+		{{ "<!-- news/section.html:page-list:define:end -->" | safeHTML }}
+	{{ end }}

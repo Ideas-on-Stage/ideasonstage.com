@@ -1,11 +1,13 @@
 {{/* <!-- 
- 	teammember shortcode
- 
- --> */}}
+	teammember shortcode
+--> */}}
+
+{{ "<!-- shortcodes:teammemberpage.html:start -->" | safeHTML }}
 {{ $page := "/team/" }}
 {{ if isset .Params "page" }}
 	{{ $page = add $page .Params.page }}
 {{ end }}
 {{ with site.GetPage $page }}
-<a href="{{ .RelPermalink }}">{{ .Params.name }}</a>
+	<a href="{{ .RelPermalink }}">{{ .Params.name }}</a>
 {{ end }}
+{{ "<!-- shortcodes:teammemberpage.html:end -->" | safeHTML }}

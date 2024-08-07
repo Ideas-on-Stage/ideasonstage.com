@@ -1,11 +1,14 @@
-{{ define "main" }}
-	{{ "<!-- 404.html:main:start -->" | safeHTML }}
-	<section id="404" class="layout-module-screen-full bg-dark">
-		<div class="flex-parent flex-parent-column flex-justify-center flex-align-center padding-medium">
-			<img src="/img/404/404.svg" width="20%" alt="">
-			<h1 class="text-center">Oops, something went wrong</h1>
-			<p class="text-center">It seems we forgot our next line.<br>While we gather our thoughts,<br>use the menu on top to find your way around,<br>or drop us a line with the contact form so we can check what went wrong.</p>
-		</div>
-	</section>
-	{{ "<!-- 404.html:main:end -->" | safeHTML }}
-{{ end }}
+{{/* <!-- define "main" to override default "main" in _default/baseof.thml --> */}}
+
+	{{ define "main" }}
+		{{ "<!-- 404.html:main:define:start -->" | safeHTML }}
+		<section id="404" class="layout-module-screen-full bg-dark">
+			<div class="flex-parent flex-parent-column flex-justify-center flex-align-center padding-medium">
+				<img src="/img/404/404.svg" width="20%" alt="">
+				<h1 class="text-center">Oops, something went wrong</h1>
+				<p class="text-center">It seems we forgot our next line.<br>While we gather our thoughts,<br>use the menu on top to find your way around,<br>or drop us a line with the contact form so we can check what went wrong.</p>
+			</div>
+		</section>
+		{{ "<!-- 404.html:main:define:end -->" | safeHTML }}
+	{{ end }}
+	
