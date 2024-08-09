@@ -145,9 +145,9 @@
 	.footer-social-link					{ font-size: 1.2em;		}
 	.iosform-control					{ font-size: 0.8em;		}
 	.iosnavbar-menu-item,
-	.iosnavbar-menu-item a				{ font-size: 0.85em;	}
+	.iosnavbar-menu-item a				{ font-size: 14px;		}
 	.iosnavbar-menu-dropdown-item,
-	.iosnavbar-menu-dropdown-item a		{ font-size: 0.85em;	}
+	.iosnavbar-menu-dropdown-item a		{ font-size: 14px;		}
 	.iostestimonials-text				{ font-size: 14px;		}
 	.iostestimonials-name				{ font-size: 1em;		}
 	.iostestimonials-position		 	{ font-size: 0.85em;	}
@@ -1542,10 +1542,13 @@
 		background-color: #222;
 		position: fixed;
 		top: 0;
-		width: 100%;
+		width: calc( 100% - 0px);
+		padding-left: var(--module-column-gap);
+		padding-right: var(--module-column-gap);
 		z-index:1000;
 		border: none;
 		transition: all .35s;
+		box-sizing: border-box;
 	}
 	
 	/* Links inside the navbar */
@@ -1562,21 +1565,18 @@
 	
 	/* Adjust logo positioning */
 	.iosnavbar-brand {
-		margin-top: calc((var(--menubar-height) - var(--logo-height)) / 2 + var(--logo-offset));
-		height: var(--logo-height);
+		height: var(--menubar-height);
 		float: left;
 	}
 
 	.iosnavbar-brand img {
-		width: var(--logo-width);
-		height: var(--logo-height);
+		height: var(--menubar-height);
 		float: left;
 	}
 	
 	/* <ul> menu (replaced by burger on ts screens) */
 	.iosnavbar-menu {
 		float: right;
-		padding: 0;
 		margin: 0;
 		height: var(--menubar-height);
 		background-color: #222;
@@ -1638,7 +1638,7 @@
 	.iosnavbar input[type=checkbox] {
 	}
 	
-	@media (min-width : 481px) {
+	@media (min-width : 781px) {
 		
 		.iosnavbar ul li:hover > ul {
 			display: inherit;
@@ -1649,9 +1649,22 @@
 			display: none;
 		}
 		
+		.iosnavbar-menu-dropdown {
+			left: calc( 100% - 180px);
+			width: 180px;
+		}
+		.iosnavbar-menu-dropdown-item a {
+			text-align: right;
+		}
+	}
+
+	@media (min-width: 781px) and (max-width : 900px) {
+		.iosnavbar-shorten {
+			display: none;
+		}
 	}
 	
-	@media (max-width : 480px) {
+	@media (max-width : 780px) {
 		
 		.menutoggle + a,
 		.iosnavbar-menu {

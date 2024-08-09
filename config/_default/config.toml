@@ -246,6 +246,7 @@ title 					= "Ideas on Stage"
 		[[languages.en.params.navigation.menubar]]
 			name	= "Contact"
 			url		= "#contact"
+			icon	= "fa-envelope"
 
 		[[languages.en.params.navigation.footer]]
 			name = "Services"

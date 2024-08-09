@@ -8,7 +8,6 @@ picture: "/img/ideas-on-stage.svg"
 schema: "Website"
 mastodon: "https://mastodon.social/@pmorsa"
 type: "home"
-translationKey: "home"
 
 blocks:
 - type: "page-title-home"
