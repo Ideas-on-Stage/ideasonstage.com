@@ -4,6 +4,7 @@
 	--page-padding-right: {{ site.Params.layout.page.padding_right }};
 	--page-padding-bottom: {{ site.Params.layout.page.padding_bottom }};
 	--page-padding-left: {{ site.Params.layout.page.padding_left }};
+	--page-max-width: 1920px;
 	
 	--menubar-height: {{ site.Params.layout.menubar.height }};
 	
@@ -127,8 +128,21 @@
 
 	/* This is where ALL font sizes are declared */
 
-	/* font sizes for standard tags */
+	/* base font size, in vw so everything is proportional to viewport width */
 	body, a, blockquote	{ font-size: 1.50vw;	}
+
+	/* adjust for small tall smartphone screens */
+	@media (max-width:480px) {
+		body, a, blockquote { font-size: 4vw;		}
+	}
+	
+	/* adjust for very large screens (>1280px wide) 
+		so that text does not become too big */
+	@media(min-width:1281px) {
+		body, a, blockquote	{ font-size: 20px;		}
+	}
+	
+	/* standad tags font sizes, in em, so it is relative to base font size */
 	h1					{ font-size: 2.00em;	}
 	h2					{ font-size: 1.75em;	}
 	h3					{ font-size: 1.25em;	}
@@ -136,7 +150,13 @@
 	h5					{ font-size: 1.00em;	}
 	footer, footer a	{ font-size: 1.00em;	}
 	
-	/* font sizes for custom classes */
+	/* menu items are not proportional to viewport width, so it's in px */
+	.iosnavbar-menu-item,
+	.iosnavbar-menu-item a				{ font-size: 14px;		}
+	.iosnavbar-menu-dropdown-item,
+	.iosnavbar-menu-dropdown-item a		{ font-size: 14px;		}
+	
+	/* font size for other tags should be in em */
 	.button-primary						{ font-size: 1em;		}
 	.nav a								{ font-size: 0.8em;		}
 	.footer-category-main				{ font-size: 0.8em;		}
@@ -144,16 +164,12 @@
 	.footer-text			 			{ font-size: 0.75em;	}
 	.footer-social-link					{ font-size: 1.2em;		}
 	.iosform-control					{ font-size: 0.8em;		}
-	.iosnavbar-menu-item,
-	.iosnavbar-menu-item a				{ font-size: 14px;		}
-	.iosnavbar-menu-dropdown-item,
-	.iosnavbar-menu-dropdown-item a		{ font-size: 14px;		}
-	.iostestimonials-text				{ font-size: 14px;		}
-	.iostestimonials-name				{ font-size: 1em;		}
-	.iostestimonials-position		 	{ font-size: 0.85em;	}
+	.testimonials-text					{ font-size: 0.8em;		}
+	.testimonials-name					{ font-size: 0.8em;		}
+	.testimonials-position			 	{ font-size: 0.8em;		}
 	.style-section-title-main 			{ font-size: 2.00em;	}
 	.style-module-text h3				{ font-size: 2.00em;	}
-	.style-text-icon					{ font-size: 1em;		}
+	.style-text-icon					{ font-size: 0.8em;		}
 	.text-base							{ font-size: 1.00em;	}
 	.text-small							{ font-size: 0.80em;	}
 	#content-table h2					{ font-size: 1em;		}
@@ -162,23 +178,7 @@
 	#sidebar li							{ font-size: 1em;		}
 	#sidebar p,
 	#sidebar a							{ font-size: 0.80em;	}
-	/* adjust for small tall smartphone screens */
-	@media (max-width:480px) {
-		body, a, blockquote 			{ font-size: 4vw;		}
-		.button-primary					{ font-size: 4vw;		}
-		.iosnavbar-menu-item,
-		.iosnavbar-menu-item a			{ font-size: 1em;		}
-		.iosnavbar-menu-dropdown-item,
-		.iosnavbar-menu-dropdown-item a	{ font-size: 1em;		}
-		.style-text-icon				{ font-size: 0.8em; 	}
-	}
 	
-	/* adjust for very large screens (>1280px wide) 
-		so that text does not become too big */
-	@media(min-width:1281px) {
-		body, a, blockquote				{ font-size: 20px;		}
-	}
-
 /* @end */
 
 
@@ -611,6 +611,8 @@
 		padding-right: var(--page-padding-right);
 		padding-bottom: var(--page-padding-bottom);
 		padding-left: var(--page-padding-left);
+		max-width: var(--page-max-width);
+		margin: auto;
 	}
 	
 	/* main page title layout */
@@ -685,6 +687,7 @@
 		display: flex;
 		height: var(--module-height); /* defines the fixed height of the module */
 		width: calc(100% - 0px);
+		max-height: calc( var(--page-max-width) / 100 * 40 );
 		overflow: hidden;
 	}
 	
@@ -704,6 +707,7 @@
 	.layout-module-hero {
 		height: var(--hero-height);
 		width: calc(100% - 0px);
+		max-width: var(--page-max-width);;
 	}
 	
 	/* Enclose modules in a layout-module-group div to have a gap between them */		
@@ -774,6 +778,7 @@
 		position: absolute;
 		height: inherit;
 		width: inherit;
+		max-width: inherit;
 	}
 	.layout-module-layer > img {
 		height: inherit;
@@ -1543,6 +1548,7 @@
 		position: fixed;
 		top: 0;
 		width: calc( 100% - 0px);
+		max-width: var(--page-max-width);
 		padding-left: var(--module-column-gap);
 		padding-right: var(--module-column-gap);
 		z-index:1000;
@@ -1685,6 +1691,10 @@
 			color: var(--color-primary);
 		}
 		
+		.iosnavbar {
+			padding-left: calc( var(--module-column-gap) * 4 );
+			padding-right: calc( var(--module-column-gap) * 4 );
+		}
 		.iosnavbar-burger {
 			float: right;
 			display: block;
@@ -1876,9 +1886,15 @@
 		flex-basis: 30vw;
 	}	
 	
+	.testimonials-picture {
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+
+	}
 	.testimonials-picture img {
-		width: 60px;
-		height: 60px;
+		width: 100%;
+		height: 100%;
 		border-radius: 30px;
 	}
 	

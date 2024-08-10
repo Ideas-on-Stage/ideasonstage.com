@@ -17,8 +17,10 @@
 							{{ end }}
 							<div class="flex-parent flex-parent-row flex-justify-start flex-gap">
 								{{ if .img }}
-									<div class="flex-child flex-child-20p testimonials-picture">
-										<img class="" alt="{{ .name }}" src="{{ .img }}">
+									<div class="flex-child flex-child-20p">
+										<div class="testimonials-picture">
+											<img class="" alt="{{ .name }}" src="{{ .img }}">
+										</div>
 									</div>
 								{{ end }}
 								<div class="flex-child flex-child-80p">

@@ -75,7 +75,7 @@ title 					= "Ideas on Stage"
 		[params.layout.hero]
 			height	= "60vh"
 		[params.layout.module]
-			height			= "480px"
+			height			= "40vw"
 			height_big		= "480px"
 			height_ts		= "140vw" # ts is for tall small screens on smartphones
 			padding_top		= "0.5vw"
