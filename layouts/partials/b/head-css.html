@@ -1,23 +1,15 @@
 {{ "<!-- partials/b/head-css.html:start -->" | safeHTML }}
 
-{{ "<!-- Critical CSS -->" | safeHTML }}
-{{ $critical := resources.Get "critical.scss" | resources.ExecuteAsTemplate "critical.css" . | resources.ToCSS | resources.Minify }}
-<style type="text/css">
-	{{ $critical.Content | safeCSS }}
-</style>
-
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 {{ $typography := resources.Get "typography.css" | resources.Minify }}
-<style type="text/css">
-	{{ $typography.Content | safeCSS }}
-</style>
+<link rel="stylesheet" href="{{ $typography.RelPermalink }}" type="text/css">
 
 {{ "<!-- Font Awesome -->" | safeHTML }}
 {{ $fontawesome := resources.Get "font-awesome.min.css" | resources.Minify }}
-<link rel="stylesheet" href="{{ $fontawesome.RelPermalink }}" type="text/css" loading="lazy">
+<link rel="stylesheet" href="{{ $fontawesome.RelPermalink }}" type="text/css">
 
 {{ "<!-- Site CSS -->" | safeHTML }}
 {{ $style := resources.Get site.Params.css.main | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" loading="lazy">
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
 
 {{ "<!-- partials/b/head-css.html:end -->" | safeHTML }}
