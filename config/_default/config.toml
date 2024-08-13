@@ -66,42 +66,29 @@ title 					= "Ideas on Stage"
 	# Layout
 	[params.layout]
 		[params.layout.menubar]
-			height	= "52px"
+			height			= "52px"
 		[params.layout.page]
 			padding_top		= "52px"
 			padding_right	= "0"
 			padding_bottom	= "0"
 			padding_left	= "0"
+			max_width		= "1920px"
 		[params.layout.hero]
-			height	= "60vh"
+			height	= "60vh" # use vh so that it is proportional to screen height
 		[params.layout.module]
-			height			= "40vw"
-			height_big		= "480px"
-			height_ts		= "140vw" # ts is for tall small screens on smartphones
-			padding_top		= "0.5vw"
-			padding_right	= "0.5vw"
-			padding_bottom	= "0.5vw"
-			padding_left	= "0.5vw"
-			big_gap			= "4vw"
-			column_gap		= "1vw"
-			row_gap			= "1vw"
-			
+			height			= "40vw" # use vw so that it remains proportional to width
+			column_gap		= "12px"
+			column_gap_big	= "24px"
+			row_gap			= "12px"
 			[params.layout.module.ts]
 				height			= "140vw"
-				padding_top		= "1vw"
-				padding_right	= "0"
-				padding_bottom	= "1vw"
-				padding_left	= "0"
-				big_gap			= "4vw"
 				column_gap		= "4vw"
+				column_gap_big	= "4vw"
 				row_gap			= "4vw"
+		[params.layout.content]
+			max_width			= "1200px"
+			max_width_narrow	= "800px"
 		
-			[params.layout.module.padding_ts]
-				top		= "1vw"
-				right	= "0"
-				bottom	= "1vw"
-				left	= "0"
-
 	[[params.countries]]
 		name	= "USA"
 		url		= "/"

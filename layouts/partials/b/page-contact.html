@@ -5,7 +5,7 @@
 		
 		<div class="layout-content">
 			
-			<div class="flex-parent flex-parent-column flex-align-center">
+			<div class="flex-parent flex-parent-column flex-parent-align-center">
 				<h2 class="section-heading">
 					{{ with .Params.contact.title }}
 						{{ . | markdownify }}
@@ -28,7 +28,7 @@
 			</div>
 			
 			<div class="layout-content-narrow">
-				<div class="flex-parent flex-parent-column flex-justify-center">
+				<div class="flex-parent flex-parent-column flex-parent-justify-center">
 					<form action="{{ .RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm">
 						<div class="iosform-group">
 							<input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
@@ -48,7 +48,7 @@
 						<div class="iosform-group">
 							<textarea id="message" name="message" class="iosform-control" placeholder="{{ with .Site.Params.contact.form.message.text }}{{ . | markdownify }}{{ end }}" oninvalid="alert('{{ with .Site.Params.contact.form.message.warning }}{{ .  | markdownify }}{{ end }}');" required></textarea>  	
 						</div>
-						<div class="iosform-button flex-child flex-align-self-center">
+						<div class="iosform-button flex-child flex-child-align-center">
 							<input type="submit" id="contactsubmit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="button-primary" success="{{ with .Site.Params.contact.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}">	
 						</div>
 					</form>

@@ -3,7 +3,7 @@
 {{ if .sectionid }}{{ $sectionid = .sectionid }}{{ end }}
 
 <section id="{{ $sectionid }}" class="layout-module-group margin bg-white">
-	<div class="flex-parent flex-parent-row flex-gap flex-justify-start">
+	<div class="flex-parent flex-parent-row flex-parent-gap flex-parent-justify-start">
 		{{ range .datafilelist }}
 			{{ $data := index site.Data.references . }}
 			{{ if $data }}

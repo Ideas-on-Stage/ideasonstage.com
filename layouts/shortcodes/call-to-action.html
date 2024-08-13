@@ -1,13 +1,13 @@
 {{ "<!-- shortcodes:call-to-action.html:start -->" | safeHTML }}
 <div class="layout-shortcode {{ with .Params.style }}{{ . }}{{ end }}">
-	<div class="flex-parent flex-parent-column flex-gap">
+	<div class="flex-parent flex-parent-column flex-parent-gap">
 		{{ if .Params.title }}
 		<div class="layout-shortcode-child flex-child">
 			<h3 class="text-center">{{ .Params.title }}</h3>
 		</div>
 		{{ end }}
 		{{ if .Params.picture }}
-		<div class="layout-shortcode-child flex-child flex-align-self-center">
+		<div class="layout-shortcode-child flex-child flex-child-align-center">
 			<img src="{{ .Params.picture }}" class="center" height="192px" alt="{{ .Params.title }}">
 		</div>
 		{{ end }}
@@ -17,7 +17,7 @@
 		</div>
 		{{ end }}
 		{{ if .Params.button }}
-		<div class="layout-shortcode-child flex-child flex-align-self-center paddingv-tiny text-center">
+		<div class="layout-shortcode-child flex-child flex-child-align-center paddingv-tiny text-center">
 			<a href="{{ .Params.link }}" class="button-primary">{{ .Params.button }}</a>
 		</div>
 		{{ end }}

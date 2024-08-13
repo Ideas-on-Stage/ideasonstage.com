@@ -2,7 +2,7 @@
 {{ $sectionid := "testimonials" }}
 {{ if .sectionid }}{{ $sectionid = .sectionid }}{{ end }}
 <section id="{{ $sectionid }}" class="layout-module-group bg-lightgrey">
-	<div class="testimonials flex-parent flex-parent-scroll flex-gap ios-scrollbar">
+	<div class="flex-parent flex-parent-scroll flex-parent-gap scrollbar-h">
 		{{ range .datafilelist }}
 			{{ $data := index site.Data.testimonials . }}
 			{{ if $data }}
@@ -15,7 +15,7 @@
 									{{ . }}
 								</p>
 							{{ end }}
-							<div class="flex-parent flex-parent-row flex-justify-start flex-gap">
+							<div class="flex-parent flex-parent-row flex-parent-justify-start flex-parent-gap">
 								{{ if .img }}
 									<div class="flex-child flex-child-20p">
 										<div class="testimonials-picture">
