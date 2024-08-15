@@ -25,6 +25,7 @@
 			{{/* <!-- else use youtube.com version of youtube placeholder image --> */}}
 			<img src="https://img.youtube.com/vi/{{ index .Params 0 }}/sddefault.jpg" style="position:absolute;z-index: 100;top:0;left:0;width:100%;height:100%;object-fit:cover;"/>
 		{{ end }}
+		<img src="/img/icons/youtube.svg" style="position: absolute;z-index:105;top:40%;left:45%;width:10%;">
 		<div style="position:absolute;z-index:110;width:100%;height:0;padding-bottom:56.25%;">
 			<div style="position:absolute;top:0;left: 0;width: 100%;height: 100%;">
 				<div id="player{{ index .Params 0 }}">
