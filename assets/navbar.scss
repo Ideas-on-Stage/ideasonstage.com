@@ -1,0 +1,228 @@
+/* @group FONT FAMILIES */
+	
+	.iosnavbar-menu,
+	.iosnavbar-menu a {
+		font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+/* @end */
+
+
+
+/* @group FONT SIZES */
+
+	.iosnavbar-menu-item,
+	.iosnavbar-menu-item a				{ font-size: 14px;		}
+	.iosnavbar-menu-dropdown-item,
+	.iosnavbar-menu-dropdown-item a		{ font-size: 14px;		}
+		
+/* @end */
+
+
+
+/* @group MENU */
+
+	/* Navbar container */
+	.iosnavbar {
+		/* overflow: hidden; */
+		background-color: #222;
+		position: fixed;
+		top: 0;
+		width: calc( 100% - 0px);
+		max-width: var(--page-max-width);
+		padding-left: var(--module-column-gap);
+		padding-right: var(--module-column-gap);
+		z-index:1000;
+		border: none;
+		transition: all .35s;
+		box-sizing: border-box;
+	}
+	
+	/* Links inside the navbar */
+	.iosnavbar a {
+		display: block;
+		text-align: left;
+		font-weight: 700;
+		color: #ddd;
+		text-decoration: none;
+		text-transform: uppercase;
+		/* background-color: #222; */
+		border: none;
+	}
+	
+	/* Adjust logo positioning */
+	.iosnavbar-brand {
+		height: var(--menubar-height);
+		float: left;
+	}
+
+	.iosnavbar-brand img {
+		height: var(--menubar-height);
+		float: left;
+	}
+	
+	/* <ul> menu (replaced by burger on ts screens) */
+	.iosnavbar-menu {
+		float: right;
+		margin: 0;
+		height: var(--menubar-height);
+		background-color: #222;
+		box-sizing: border-box;
+		display: flex;
+		align-items: stretch;
+		flex-direction: row;
+		gap: 1em;
+	}
+	
+	/* <li> menu bar items */
+	.iosnavbar-menu-item {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		box-sizing: border-box;
+		display: flex;
+		align-items: center;
+	}
+	
+	.iosnavbar-menu-item a:hover {
+		color: var(--color-primary);
+	}
+	
+	/* menu dropdown list, use on <ul> inside a <li class="iosnavbar-menu-item"> */
+	.iosnavbar-menu-dropdown {
+		display: none;
+		position: absolute;
+		top: calc(var(--menubar-height) - 2px);
+		margin: 0;
+		background-color: rgba(34,34,34,1);
+		padding: 0;
+		box-sizing: border-box;
+		flex-direction: column;
+		gap: 0.2em;
+	}
+	
+	/* menu dropdown item */
+	.iosnavbar-menu-dropdown-item {
+		float: none;
+		display: list-item;
+		position: relative;
+		list-style: none;
+		padding: 5px 12px;
+		background-color: transparent;
+		line-height: 20px;
+		font-weight: 400;
+		box-sizing: border-box;
+	}
+	
+	.iosnavbar-menu-dropdown-item a:hover {
+		color: #ff8200;
+	}
+	
+	.menutoggle, [id^=drop] {
+		display: none;
+	}
+	
+	.iosnavbar input[type=checkbox] {
+	}
+	
+	@media (min-width : 781px) {
+		
+		.iosnavbar ul li:hover > ul {
+			display: inherit;
+		}
+		
+		/* burger symbol (replaces normal menu on ts screens) */
+		.iosnavbar-burger {
+			display: none;
+		}
+		
+		.iosnavbar-menu-dropdown {
+			left: calc( 100% - 180px);
+			width: 180px;
+		}
+		.iosnavbar-menu-dropdown-item a {
+			text-align: right;
+		}
+	}
+
+	@media (min-width: 781px) and (max-width : 900px) {
+		.iosnavbar-shorten {
+			display: none;
+		}
+	}
+	
+	@media (max-width : 780px) {
+		
+		.menutoggle + a,
+		.iosnavbar-menu {
+			display: none;
+		}
+		
+		.menutoggle {
+			display: block;
+			background-color: #222;
+			color: #ddd;
+			line-height: 1.6em;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: 700;
+			border: none;
+		}
+		.menutoggle:hover {
+			color: var(--color-primary);
+		}
+		
+		.iosnavbar {
+			padding-left: calc( var(--module-column-gap) * 4 );
+			padding-right: calc( var(--module-column-gap) * 4 );
+		}
+		.iosnavbar-burger {
+			float: right;
+			display: block;
+			font-size: 1.6em;
+		}
+		
+		/* show dropdown */
+		[id^=drop]:checked + ul {
+			display: flex;
+		}
+		
+		.iosnavbar-menu {
+			position: absolute;
+			top: calc(var(--menubar-height) - 2px);
+			left: 0;
+			width: 100%;
+			flex-direction: column;
+			height: auto;
+			align-items: center;
+			padding-bottom: 16px;
+		}
+		
+		.iosnavbar-menu-item {
+			padding: 0.20em;
+			align-items: center;
+			flex-direction: column;
+		}
+		
+		.iosnavbar-menu-dropdown {
+			float: none;
+			position: static;
+			margin-left: 0em;
+			width: 100%;
+			color: #ffffff;
+			box-sizing: border-box;
+			align-items: center;
+		}
+		
+		.iosnavbar-menu-dropdown-item {
+			margin: 0;
+			padding: 1em 0 0 0;
+			box-sizing: border-box;
+		}
+		
+	}
+
+/* @end */

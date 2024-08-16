@@ -1,0 +1,50 @@
+:root {
+	
+	--page-padding-top: {{ site.Params.layout.page.padding_top }};
+	--page-padding-right: {{ site.Params.layout.page.padding_right }};
+	--page-padding-bottom: {{ site.Params.layout.page.padding_bottom }};
+	--page-padding-left: {{ site.Params.layout.page.padding_left }};
+	--page-max-width: {{ site.Params.layout.page.max_width }};
+
+	--content-max-width: {{ site.Params.layout.content.max_width }};
+	--content-max-width-narrow: {{ site.Params.layout.content.max_width_narrow }};
+
+	--menubar-height: {{ site.Params.layout.menubar.height }};
+	--menubar-burger: {{ site.Params.layout.menubar.burger }};
+	--menubar-condensed: {{ site.Params.layout.menubar.condensed }};	
+	
+	--hero-height:	{{ site.Params.layout.hero.height }};
+	--module-height: {{ site.Params.layout.module.height }};
+	--module-column-gap: {{ site.Params.layout.module.column_gap }};
+	--module-row-gap: {{ site.Params.layout.module.row_gap }};
+	--module-big-gap: {{ site.Params.layout.module.column_gap_big }};
+
+	--module-width: calc( 100% - 0.001px );
+	--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px ); /* width of 1/12th column */
+	--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px ); /* width of 1/5th column */
+
+	--module-ts-height: {{ site.Params.layout.module.ts.height }};
+	--module-ts-column-gap: {{ site.Params.layout.module.ts.column_gap }}; 
+	--module-ts-row-gap: {{ site.Params.layout.module.ts.row_gap }};
+	--module-ts-big-gap: {{ site.Params.layout.module.ts.big_gap }};
+
+	--module-ts-12c-width: calc( ( 100% - var(--module-ts-column-gap) * 11 ) / 12 );
+	--module-ts-5c-width: calc( ( 100% - var(--module-ts-column-gap) * 4 ) / 5 );
+	
+	/* colors */
+	--color-blockquote: {{ site.Params.colors.blockquote }};
+	--color-blue: {{ site.Params.colors.blue }};
+	--color-button-primary: {{ site.Params.buttons.primary.color }};
+	--color-button-primary-bg: {{ site.Params.buttons.primary.bg_color }};
+	--color-button-secondary: {{ site.Params.buttons.secondary.color }};
+	--color-button-secondary-bg: {{ site.Params.buttons.secondary.bg_color }};
+	--color-darkgray: {{ site.Params.colors.darkgray }};
+	--color-lightgray: {{ site.Params.colors.lightgray }};
+	--color-midgray: {{ site.Params.colors.midgray }};
+	--color-link-hover: {{ site.Params.colors.link_hover }};
+	--color-primary: {{ site.Params.colors.orange }};
+	--color-text: {{ site.Params.colors.text }};
+	--color-text-inv: {{ site.Params.colors.text_inv }};
+	--color-time: {{ site.Params.colors.time }};
+	
+}

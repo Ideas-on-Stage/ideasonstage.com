@@ -1,17 +1,15 @@
 {{ "<!-- partials/b/page-title-home.html:start -->" | safeHTML }}
-<header>
-	<div class="bg-dark paddingt-tiny bg-dark centered">
-		<div class="layout-content marginv-none">
-			<h1 class="text-base">
-				{{ with .Title }}{{ . | markdownify  }}{{ end }}
-			</h1>
-		</div>
+<header id="title-home">
+	<div class="layout-content marginv-none">
+		<h1>
+			{{ with .Title }}{{ . | markdownify  }}{{ end }}
+		</h1>
 	</div>
 </header>
-<aside>
+<aside id="country-list">
 	<nav class="bg-dark">
 		<div class="layout-content marginv-none">
-			<ul class="flex-parent flex-parent-row flex-parent-gap-big flex-parent-justify-center paddingv-tiny">
+			<ul class="flex-parent flex-parent-row flex-parent-gap flex-parent-justify-center paddingv-tiny">
 				<!-- Countries -->
 				{{ range site.Params.countries }}
 					<a href="{{ .url }}">

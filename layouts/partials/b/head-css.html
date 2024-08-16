@@ -1,15 +1,29 @@
 {{ "<!-- partials/b/head-css.html:start -->" | safeHTML }}
 
+{{ "<!-- Critical CSS -->" | safeHTML }}
+{{ $variables := resources.Get "variables.scss" | resources.ExecuteAsTemplate "variables.css" . | resources.ToCSS | resources.Minify }}
+{{ $navbar := resources.Get "navbar.scss" | resources.ExecuteAsTemplate "critical.css" . | resources.ToCSS | resources.Minify }}
+{{ $titlehome := resources.Get "title-home.scss" | resources.ExecuteAsTemplate "titlehome.css" . | resources.ToCSS | resources.Minify }}
+<style type="text/css">
+	{{ $variables.Content | safeCSS }}
+	{{ $navbar.Content | safeCSS }}
+	{{ $titlehome.Content | safeCSS }}
+</style>
+
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 {{ $typography := resources.Get "typography.css" | resources.Minify }}
-<link rel="stylesheet" href="{{ $typography.RelPermalink }}" type="text/css">
+<style type="text/css">
+	{{ $typography.Content | safeCSS }}
+</style>
 
 {{ "<!-- Font Awesome -->" | safeHTML }}
 {{ $fontawesome := resources.Get "font-awesome.min.css" | resources.Minify }}
-<link rel="stylesheet" href="{{ $fontawesome.RelPermalink }}" type="text/css">
+<style type="text/css">
+	{{ $fontawesome.Content | safeCSS }}
+</style>
 
 {{ "<!-- Site CSS -->" | safeHTML }}
-{{ $style := resources.Get site.Params.css.main | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
+{{ $style := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
 
 {{ "<!-- partials/b/head-css.html:end -->" | safeHTML }}
