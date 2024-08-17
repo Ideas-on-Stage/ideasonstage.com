@@ -13,3 +13,27 @@
 	color: #fff;
 	background-color: #222;
 }
+
+#country-list {
+	background-color: var(--color-darkgray);
+}
+
+#country-list ul {
+	display: flex;
+	flex-direction: row;
+	gap: 1em;
+	margin: 0;
+	padding: 10px;
+	justify-content: center;
+}
+
+#country-list li {
+	font-family: "Gotham SSm A", "Gotham SSm B";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	list-style: none;
+	margin: 0;
+	color: var(--color-button-secondary);
+}

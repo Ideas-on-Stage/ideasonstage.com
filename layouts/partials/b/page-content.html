@@ -1,6 +1,6 @@
 {{ "<!-- partials/b/page-content.html:start -->" | safeHTML }}
 {{ if .Content }}
-	<div class="layout-content">
+	<div class="layout-content marginv-large">
 		{{ if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
 			<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall">
 				<article id="content-main" class="flex-child flex-child-100p">

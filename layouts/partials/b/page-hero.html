@@ -1,11 +1,11 @@
 {{ "<!-- partials/b/page-hero.html:start -->" | safeHTML }}
 {{/* <!-- get hero picture if there is one available --> */}}
 {{ $heropath := partial "f/getheropicturepath" . }}	
-<header id="hero" class="layout-module-hero">
-	<div class="layout-module-layer">
+<header id="hero" class="hero">
+	<div class="hero-layer">
 		<img src="{{ $heropath }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
 	</div>
-	<div class="layout-module-layer">
+	<div class="hero-layer">
 		<div class="layout-page-title style-page-title-overlay">
 			{{ if eq true $.Page.Params.Heroh2 }}
 				<h2 class="text-center">{{ "<!-- picture and h1 -->" | safeHTML }}

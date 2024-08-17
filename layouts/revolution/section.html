@@ -14,8 +14,12 @@
 	{{ define "head-css" }}
 		{{ "<!-- revolution/section.html:head-css:define:start -->" | safeHTML }}
 		{{ partial "b/head-css.html" . }}
-		{{ $style := resources.Get "revolution.scss" | resources.ExecuteAsTemplate "revolution.css" . | resources.ToCSS | resources.Minify }}
-		<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+		<style>
+			{{ $cta := resources.Get "cta.scss" | resources.ExecuteAsTemplate "cta.css" . | resources.ToCSS | resources.Minify }}
+			{{ $cta.Content | safeCSS }}
+		</style>
+		{{ $revolution := resources.Get "revolution.scss" | resources.ExecuteAsTemplate "revolution.css" . | resources.ToCSS | resources.Minify }}
+		<link rel="stylesheet" href="{{ $revolution.RelPermalink }}">
 		{{ "<!-- revolution/section.html:head-css:define:end -->" | safeHTML }}
 	{{ end }}
 	

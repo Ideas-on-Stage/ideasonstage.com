@@ -1,25 +1,22 @@
 {{ "<!-- partials/b/page-title-home.html:start -->" | safeHTML }}
 <header id="title-home">
-	<div class="layout-content marginv-none">
+	<div class="layout-content">
 		<h1>
 			{{ with .Title }}{{ . | markdownify  }}{{ end }}
 		</h1>
 	</div>
 </header>
 <aside id="country-list">
-	<nav class="bg-dark">
-		<div class="layout-content marginv-none">
-			<ul class="flex-parent flex-parent-row flex-parent-gap flex-parent-justify-center paddingv-tiny">
-				<!-- Countries -->
-				{{ range site.Params.countries }}
-					<a href="{{ .url }}">
-						<li class="flex-child button-secondary text-small">
-							{{ .name }}
-						</li>
-					</a>
-				{{ end }}
-			</ul>
-		</div>
+	<nav class="layout-content">
+		<ul>
+			{{ range site.Params.countries }}
+				<a href="{{ .url }}">
+					<li>
+						{{ .name }}
+					</li>
+				</a>
+			{{ end }}
+		</ul>
 	</nav>
 </aside>
 {{ "<!-- partials/b/page-title-home.html:end -->" | safeHTML }}

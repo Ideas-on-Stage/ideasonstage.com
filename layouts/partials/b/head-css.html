@@ -1,14 +1,57 @@
 {{ "<!-- partials/b/head-css.html:start -->" | safeHTML }}
 
 {{ "<!-- Critical CSS -->" | safeHTML }}
+
 {{ $variables := resources.Get "variables.scss" | resources.ExecuteAsTemplate "variables.css" . | resources.ToCSS | resources.Minify }}
+{{ $critical := resources.Get "critical.scss" | resources.ExecuteAsTemplate "critical.css" . | resources.ToCSS | resources.Minify }}
 {{ $navbar := resources.Get "navbar.scss" | resources.ExecuteAsTemplate "critical.css" . | resources.ToCSS | resources.Minify }}
-{{ $titlehome := resources.Get "title-home.scss" | resources.ExecuteAsTemplate "titlehome.css" . | resources.ToCSS | resources.Minify }}
+
 <style type="text/css">
 	{{ $variables.Content | safeCSS }}
+	{{ $critical.Content | safeCSS }}
 	{{ $navbar.Content | safeCSS }}
-	{{ $titlehome.Content | safeCSS }}
 </style>
+
+<style type="text/css">
+	
+	{{ range page.Params.blocks }}
+		
+		{{/* <!-- used to inline only necessary css. Honestly, it's a pain in the *ss for not much --> */}}
+		{{ if eq .type "data-cta" }}
+			{{ $cta := resources.Get "cta.scss" | resources.ExecuteAsTemplate "cta.css" . | resources.ToCSS | resources.Minify }}
+			{{ $cta.Content | safeCSS }}
+		{{ else if eq .type "data-module-list" }}
+			{{ $module := resources.Get "module.scss" | resources.ExecuteAsTemplate "module.css" . | resources.ToCSS | resources.Minify }}
+			{{ $module.Content | safeCSS }}
+		{{ else if eq .type "page-breadcrumbs" }}
+			{{ $breadcrumbs := resources.Get "breadcrumbs.scss" | resources.ExecuteAsTemplate "breadcrumbs.css" . | resources.ToCSS | resources.Minify }}
+			{{ $breadcrumbs.Content | safeCSS }}
+		{{ else if eq .type "page-hero" }}
+			{{ $hero := resources.Get "hero.scss" | resources.ExecuteAsTemplate "hero.css" . | resources.ToCSS | resources.Minify }}
+			{{ $hero.Content | safeCSS }}
+			{{ $title := resources.Get "title.scss" | resources.ExecuteAsTemplate "title.css" . | resources.ToCSS | resources.Minify }}
+			{{ $title.Content | safeCSS }}
+		{{ else if eq .type "page-title" }}
+			{{ $title := resources.Get "title.scss" | resources.ExecuteAsTemplate "title.css" . | resources.ToCSS | resources.Minify }}
+			{{ $title.Content | safeCSS }}
+		{{ else if eq .type "page-title-home" }}
+			{{ $titlehome := resources.Get "title-home.scss" | resources.ExecuteAsTemplate "titlehome.css" . | resources.ToCSS | resources.Minify }}
+			{{ $titlehome.Content | safeCSS }}
+		{{ end }}
+		
+	{{ else }}
+	
+		{{/* <!-- use default inline css --> */}}
+		{{ $hero := resources.Get "hero.scss" | resources.ExecuteAsTemplate "hero.css" . | resources.ToCSS | resources.Minify }}
+		{{ $hero.Content | safeCSS }}
+		{{ $title := resources.Get "title.scss" | resources.ExecuteAsTemplate "title.css" . | resources.ToCSS | resources.Minify }}
+		{{ $title.Content | safeCSS }}
+		{{ $breadcrumbs := resources.Get "breadcrumbs.scss" | resources.ExecuteAsTemplate "breadcrumbs.css" . | resources.ToCSS | resources.Minify }}
+		{{ $breadcrumbs.Content | safeCSS }}			
+	{{ end }}
+
+</style>
+			
 
 {{ "<!-- Custom Fonts -->" | safeHTML }}
 {{ $typography := resources.Get "typography.css" | resources.Minify }}

@@ -3,26 +3,22 @@
 {{ range first 1 .Pages }}	
 	{{/* <!-- generate hero with newest video --> */}}
 	<section id="highlight">
-		<div class="layout-module-hero">
-			<div class="layout-module-layer">
+		<div class="cta">
+			<div class="cta-layer">
 				<img src="{{ .RelPermalink }}image.jpg">
 			</div>
-			<div class="layout-module-layer">
-				<div class="flex-parent flex-parent-column">
-					<div class="flex-child-text text-center">
-						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
-							<h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
-						</a>
-						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">
-							{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
-						</a>
-					</div>
-				</div>
+			<div class="cta-layer cta-layer-text">
+				<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
+					<h2 class="cta-layer-text-title">{{ with .Title }}{{ . }}{{ end }}</h2>
+				</a>
+				<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">
+					{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
+				</a>
 			</div>
 		</div>
 	</section>
 {{ end }}
-<div class="layout-content">
+<div class="layout-content marginv-large">
 	<div class="flex-parent flex-parent-row paddingt-none paddingb-medium">
 		<div class="layout-module-column-text style-module-text ">	
 			{{ with .Content }}{{ . | markdownify }}{{ end }}

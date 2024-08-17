@@ -1,11 +1,43 @@
 
 /* @group FONT FAMILIES */
 
+	/* This is where ALL font families are declared */
+
+	body,
+	p,
+	a,
+	input,
+	textarea {
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 500;		
+	}
+
+	b, strong, blockquote {
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 700;
+	}
+	
+	h1, h2, h3, h4, big {
+		font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
+		font-weight: 700;
+	}
+
 	/* Specific fonts - try to limit it */
 	.style-text-intro {
 		font-family: "Whitney SSm A", "Whitney SSm B";
 		font-style: normal;
 		font-weight: 500;	
+	}
+
+	.button-primary,
+	.button-secondary {
+		font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
+		font-weight: 700;
+		text-transform: uppercase;
 	}
 
 	.footer-category-main,
@@ -28,8 +60,33 @@
 
 
 /* @group FONT SIZES */
+
+	/* This is where ALL font sizes are declared */
+
+	/* base font size, in vw so everything is proportional to viewport width */
+	body, a, blockquote					{ font-size: 1.50vw;	}
+
+	/* adjust for small tall smartphone screens */
+	@media (max-width:480px) {
+		body, a, blockquote 			{ font-size: 4vw;		}
+	}
+	
+	/* adjust for very large screens (>1280px wide) 
+		so that text does not become too big */
+	@media(min-width:1281px) {
+		body, a, blockquote				{ font-size: 20px;		}
+	}
+	
+	/* standad tags font sizes, in em, so it is relative to base font size */
+	h1									{ font-size: 2.00em;	}
+	h2									{ font-size: 1.75em;	}
+	h3									{ font-size: 1.25em;	}
+	h4									{ font-size: 1.00em;	}
+	h5									{ font-size: 1.00em;	}
+	footer, footer a					{ font-size: 1.00em;	}
 	
 	/* font size for other tags should be in em */
+	.button-primary						{ font-size: 1em;		}
 	.footer-category-main				{ font-size: 0.8em;		}
 	.footer-category-sub				{ font-size: 0.8em;		}
 	.footer-text			 			{ font-size: 0.75em;	}
@@ -39,6 +96,7 @@
 	.testimonials-name					{ font-size: 0.8em;		}
 	.testimonials-position				{ font-size: 0.8em;		}
 	.style-section-title-main 			{ font-size: 2em;		}
+	.style-module-text h3				{ font-size: 2em;		}
 	.style-text-icon					{ font-size: 0.8em;		}
 	.text-base							{ font-size: 1em;		}
 	.text-small							{ font-size: 0.8em;		}
@@ -51,6 +109,112 @@
 	#sidebar p,
 	#sidebar a							{ font-size: 0.8em;		}
 	
+/* @end */
+
+
+
+/* @group STYLES STANDARD TAGS */
+
+	/* !!! Only set sitewide attributes !!! */
+	/* define the styling of standard tags */
+
+
+	body {
+		color: var(--color-text);
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		scroll-padding-top: var(--menubar-height);
+	}
+	
+	article,
+	aside,
+	div,
+	section, {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		scroll-margin-top: calc( var(--menubar-height) * 2 );
+	}
+	
+	a {
+		color: var(--color-text);
+		border-bottom: none;
+		text-decoration: none;
+		transition: all .35s;
+	}
+	
+	a:hover,
+	a:focus {
+		color: var(--color-link-hover);
+		border-bottom: none;
+		text-decoration: none;
+		transition: all .35s;
+	}
+	
+	a img {
+		border: none;
+	}
+	
+	a.imagelink {
+		border: none;
+		font-size: 0.1em;
+	}
+
+	blockquote {
+		padding: 1vw;
+	}
+
+	blockquote p {
+		margin: 0;
+	}
+
+	blockquote i {
+		color: var(--color-text);
+		font-weight: 500;
+	}
+
+	h1 {
+		line-height: 1.2em;
+		margin: 0;
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		text-transform: uppercase;
+	}
+
+	h2,
+	h3,
+	h4 {
+		line-height: 1.2em;
+		margin-block-start: 0;
+		margin-block-end: 0;
+	}
+
+	li {
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		text-align: left;
+	}
+	
+	li a {
+		border-bottom: dotted 1px var(--color-link-hover);
+	}
+		
+	time {
+		color: var(--color-time);
+	}
+
+	p {
+		margin-top: 1em;
+		margin-bottom: 1em;
+		line-height: 1.6em;
+	}
+	
+	p a {
+		border-bottom: dotted 1px var(--color-link-hover);
+		line-height: 1.6em;
+	}
+
 /* @end */
 
 
@@ -260,6 +424,13 @@
 
 /* @group STYLES CUSTOM CLASSES */
 	
+	/* style for page titles */
+	.style-page-title {
+		text-align: center;
+		color: #fff;
+		background-color: #222;
+	}
+	
 	/* style for photograph styled pictures */
 	.style-photograph {
 		border: 8px solid #fff;
@@ -295,6 +466,12 @@
 		margin-top: 0;
 	}
 	
+	.style-page-title-overlay {
+		text-align: center;
+		color: #fff;
+		background-color: rgba(0, 0, 0, 0.4);	
+	}
+	
 	.style-section-title-main {
 		color: #bbb;
 		text-transform: uppercase;
@@ -303,6 +480,325 @@
 	
 	.text-center {
 		text-align:  center;
+	}
+	
+/* @end */
+
+
+
+/* @group BUTTONS */
+	
+	/* use to create a primary button */
+	.button-primary {
+		display: block; /* to ensure full height of button calculated for layout */
+		margin: 0 auto;
+		padding: 1vw 2vw;
+		color: var(--color-button-primary) !important;
+		background-color: var(--color-button-primary-bg);
+		border: none;
+		border-radius: 5px;
+		border-color: none;
+		border-style: none;
+		box-sizing: border-box; /* because normal sizing model is shit */
+	}
+	
+	/* use to create a secondary button */
+	.button-secondary {
+		padding: 0px;
+		color: var(--color-button-secondary) !important;
+		background-color: var(--color-button-secondary-bg);
+		border: none;
+		border-radius: 3px;
+		border-color: none;
+		border-style: none;
+		list-style: none; /* remove bullet when used on li */
+	}
+	
+	.bg-primary .button-secondary {
+		/* use white text instead of blue if background is orange */
+		color: white !important;
+	}
+	
+	/* adapt to tall smartphone screens */
+	@media (max-width:480px) {
+		
+		.button-primary {
+			padding: 2vw 6vw;
+			max-width: 90vw;
+		}
+		
+	}
+
+/* @end */
+
+
+
+/* LAYOUT layout- classes are used to structure the page layout */
+
+/* @group LAYOUT-PAGE */
+	
+	.layout-page {
+		padding-top: var(--page-padding-top);
+		padding-right: var(--page-padding-right);
+		padding-bottom: var(--page-padding-bottom);
+		padding-left: var(--page-padding-left);
+		max-width: var(--page-max-width);
+		margin: auto;
+	}
+	
+	/* main page title layout */
+	.layout-page-title {
+		position: sticky;
+		top: var(--menubar-height);
+		z-index: 100;
+		display: flex;
+		justify-content: center;
+		padding: 2vw;
+	}
+	
+/* @end */
+
+
+
+/* @group LAYOUT-CONTENT */
+
+	/* wrapper from main page content, with nice left and right margins */
+	.layout-content {
+		margin: 48px auto; /* use auto to center div on page */
+		padding: 0;
+		width: 80vw;
+		max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
+	}
+	
+	/* use for narrow content such as forms */
+	.layout-content-narrow {
+		margin: 0 auto; /* use auto to center div on page */
+		padding: 0;
+		width: 50vw;
+		max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
+	}
+	
+	@media (max-width:480px) {
+		
+		.layout-content {
+			margin: 48px var(--module-ts-column-gap);
+			width: calc(100% - var(--module-ts-column-gap) * 2);
+			max-width: calc(100% - var(--module-ts-column-gap) * 2);
+		}
+		
+		/* make the narrow content look nice in small screens */
+		.layout-content-narrow {
+			margin: 0 var(--module-ts-column-gap);
+			width: calc(100% - var(--module-ts-column-gap) * 2 );
+			max-width: calc(100% - var(--module-ts-column-gap) * 2 );
+		}
+	}
+	
+/* @end */
+	
+/* @group LAYOUT-MODULE */
+	
+	/*
+	Modules are containers with predefined sizes.
+	.layout-module: standard module, fixed height
+	.layout-module-half standard module, fixed height, half-width
+	.layout-module-screen-full full screen module
+	.layout-module-hero hero module, fixed hero height
+	
+	To add a gap between modules, wrap them in a .layout-module-group div
+	
+	Inside modules, you have the following predefined layouts:
+	.layout-module-row to display an image and text side by side
+	.layout-module-column to display image and text in a column
+	.layout-module-layer to layer elements on top of each other (eg an image in the back, text on top)
+	*/
+	
+	/* Use this to create a full width module div */
+	.layout-module {
+		display: flex;
+		height: var(--module-height); /* defines the fixed height of the module */
+		width: calc(100% - 0px);
+		max-height: calc( var(--page-max-width) / 100 * 40 );
+		max-width: var(--page-max-width);
+		overflow: hidden;
+	}
+	
+	/* Or use this to create a half width module div */
+	.layout-module-half {
+		flex-direction: column;
+		width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
+	}
+	
+	/* full screen layout module */
+	.layout-module-screen-full {
+		height: calc(100vh - var(--menubar-height));
+		width: calc(100% - 0px);
+	}
+	
+	/* hero layout module */
+	.layout-module-hero {
+		height: var(--hero-height);
+		width: calc(100% - 0px);
+		max-width: var(--page-max-width);;
+	}
+	
+	/* Enclose modules in a layout-module-group div to have a gap between them */		
+	.layout-module-group {
+		width: calc(100% - 0px);
+		display: flex;
+		flex-direction: row; /* to display half modules side by side */
+		flex-wrap: wrap; /* to create additional rows if necessary */
+		margin: var(--module-row-gap) 0;
+		padding: 0 var(--module-column-gap);
+		gap: var(--module-row-gap) var(--module-column-gap);
+	}
+	
+	/* use to create module div with pic on left, text on right */
+	.layout-module-row {
+		flex-direction: row;
+	}
+	
+	/* use to create inner div with the pic on left */
+	.layout-module-row-image {
+		height: 100%;
+		width: 64%;
+	}
+	.layout-module-row-image img {
+		display: block;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+		object-position: 100% 50%; /* anchor on right edge (100%), vertical center */
+	}
+	
+	/* use to create inner div with text on right */
+	.layout-module-row-text {
+		padding: 4vw;
+		width: 36%;
+	}
+	
+	/* use to create module div with text on top, image below */
+	.layout-module-column {
+		flex-direction: column;
+	}
+	
+	/* use to create inner div with text on top */
+	.layout-module-column-text {
+		position: relative;	/* enables z-index */
+		z-index: 10; /* if text overflows, it will go over picture below */
+		padding: 2vw 4vw;
+		margin: auto;
+		height: 50%;
+		width: 100%;
+		text-align: center;
+	}
+	
+	/* use to create inner div with image on bottom */
+	.layout-module-column-image {
+		height: 50%; /* without this, image size can overflow from module */
+		width: 100%;
+	}
+	.layout-module-column-image img {	
+		height: 100%;
+		width: 100%;
+		object-fit: contain; /* image is never distorted, crop if necessary */
+		object-position: 50% 100%; /* anchor on bottom, horizontal center */
+	}
+	
+	/* use to layer elements on top of each other, one layer per element */
+	.layout-module-layer {
+		position: absolute;
+		height: inherit;
+		width: inherit;
+		max-height: inherit;
+		max-width: inherit;
+	}
+	.layout-module-layer > img {
+		height: inherit; /* ! works only if height of parent is calculated as vw or px, not % */
+		width: inherit; /* ! works only if width of parent is calculated as vw or px, not % */
+		max-height: inherit;
+		max-width: inherit;
+		object-fit: cover;
+	}	
+	.layout-module-half .layout-module-layer {
+		/* half module layers have a width of 50% */
+		width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
+	}
+
+	.layout-module-group .layout-module-half .layout-module-layer {
+		width: calc( ( 100% - var(--module-column-gap) * 3 ) / 2);
+	}
+	
+	.layout-module .layout-module-layer,
+	.layout-module-half .layout-module-layer {
+		height: var(--module-height);
+	}
+	
+	/* remove gap for module right after title */
+	.layout-module-title + .layout-module, {
+		margin-top: 0;
+	}
+	
+	@media (max-width:480px) {
+		
+		.layout-module-group {
+			margin: var(--module-ts-row-gap) 0;
+			padding: 0;
+			gap: var(--module-ts-row-gap) var(--module-ts-column-gap);
+		}
+		
+		.margin {
+			width: calc(100% - var(--module-ts-column-gap) * 2);
+			margin-left: var(--module-ts-column-gap);
+			margin-right: var(--module-ts-column-gap);
+		}
+		
+		.layout-module {
+			height: var(--module-ts-height);
+		}
+		
+		.layout-module-half {
+			width: 100%; /* make half width modules full width on ts screens */
+		}
+		
+		.layout-module-row {
+			height:  var(--module-ts-height);
+			width: 100%;
+			flex-direction: column-reverse;
+			justify-content: space-between;
+		}
+		
+		.layout-module-row-image {
+			height: 50%;
+			width: 100%;
+		}
+		
+		.layout-module-row-text {
+			padding: 8vw;
+			height: 50%;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.layout-module-column {
+			height: var(--module-ts-height);
+		}
+		.layout-module-column-text {
+			padding: 8vw;
+		}
+		.layout-module-column-image img {
+			object-fit: cover; /* use cover instead of contain on ts screens */
+		}
+		
+		.layout-module-layer {
+			width: 100%;
+			height: inherit;
+		}
+		.layout-module .layout-module-layer,
+		.layout-module-half .layout-module-layer {
+			height: var(--module-ts-height);
+		}
+		
 	}
 	
 /* @end */
@@ -712,8 +1208,75 @@
 	
 /* @end */
 
-	
 
+
+/* @group HELPER CLASSES */
+
+	.bg-primary {	
+		color: var(--color-text-inv) !important;
+		background-color: var(--color-button-primary-bg);
+	}
+	
+	/* this is necessary to override bootstrap's inherited styles */
+	.bg-primary h1,
+	.bg-primary h2,
+	.bg-primary h3,
+	.bg-primary h4,
+	.bg-primary p {	
+		color: var(--color-text-inv) !important;
+	}
+	
+	.bg-dark {
+		color: var(--color-text-inv);
+		background-color: var(--color-darkgray);
+	}
+	.bg-dark a {	
+		color: var(--color-text-inv);
+	} 
+	.bg-dark a:hover {
+		color: #FF8200;
+		transition: all .35s;
+	}
+	
+	.bg-black {
+		color: #fff;
+		background-color: #000;
+	}
+	.bg-black a 	{
+		color: #fff;						
+	}
+	.bg-black a:hover {
+		color: #FF8200;
+		transition: all .35s;
+	}
+	
+	.bg-codingandbricks	{
+		color: #FFD500;
+		background-color: #233B4C;
+	}
+	.bg-codingandbricks a {
+		color: #FFD500!important;
+	}
+	.bg-codingandbricks a:hover {
+		color: #FFD500;
+		transition: all .35s;
+	}
+	
+	.bg-lightgrey, 
+	.bg-lightgray {
+		background-color: #f2f2f2;
+	}
+	
+	/* text color helper classes */
+	
+	.text-primary	{ color: var(--color-primary);		}
+	.text-faded		{ color: rgba(255,255,255,.7);	}
+	.text-blue		{ color: rgb(51,53,65);			}
+	.text-white		{ color: #fff;					}
+	.text-gray		{ color: #888;					}
+	.text-dark		{ color: #222;					}
+	.text-red		{ color: red }
+	
 	/* padding helper classes */
 
 	.padding-huge		{ padding: 80px;		}
