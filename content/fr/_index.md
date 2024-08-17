@@ -7,7 +7,7 @@ schema: "Website"
 translationKey: "home"
 
 blocks:
-- type: "page-title-home"
+- type: "page-title"
 - type: "data-cta"
   datafile: "public-speaking-guide"
 - type: "data-module-list"

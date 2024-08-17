@@ -8,7 +8,7 @@ translationKey: "home"
 mastodon: "https://mastodon.social/@pmorsa"
 
 blocks:
-- type: "page-title-home"
+- type: "page-title"
 - type: "data-cta"
   datafile: "public-speaking-guide"
 - type: "data-module-list"
