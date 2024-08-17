@@ -18,9 +18,7 @@
 
 {{ "<!-- Font Awesome -->" | safeHTML }}
 {{ $fontawesome := resources.Get "font-awesome.min.css" | resources.Minify }}
-<style type="text/css">
-	{{ $fontawesome.Content | safeCSS }}
-</style>
+<link rel="stylesheet" href="{{ $fontawesome.RelPermalink }}" type="text/css">
 
 {{ "<!-- Site CSS -->" | safeHTML }}
 {{ $style := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
