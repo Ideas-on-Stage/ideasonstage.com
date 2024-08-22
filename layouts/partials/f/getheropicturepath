@@ -6,7 +6,7 @@
 	Offers the advantage of completing the path if only the image name is specified in the parameter, and also looks for a default hero.jpg image first.
 	
 	Arguments:
-	- . as .Page object
+	- .Page object or path as string
 	
 	Process:
 	- If argument is a valid .Page object:
@@ -27,20 +27,18 @@
 {{ $picture := "" }}
 {{ $found := false }}
 {{ $thumbtest := "filenotfound" }}
+
 {{ if partial "f/ispage" . }}
 	{{/* <!-- then this is a page, check for hero.jpg in same directory --> */}}
 	{{ if .File }}
 		{{ $thumbtest = .File.Dir }}		
-  {{ else }}
-    {{ $thumbtest = "filenotfound" }}
+	{{ else }}
+		{{ $thumbtest = "filenotfound" }}
 	{{ end }}
 	{{ $thumbtest = add $thumbtest "hero.jpg" }}
-	{{ if and (eq .Section "team") (.IsPage) }}
-		{{/* <!-- temporary workaround not to show hero on team member page --> */}}
-	{{ else if (eq .Section "tags") }}
-	{{ else if (fileExists $thumbtest) }}
+	{{ if (fileExists $thumbtest) }}
 		{{/* <!-- then a file named hero.jpg exists, use it --> */}}
-	  {{ $picture = "hero.jpg" }}
+		{{ $picture = "hero.jpg" }}
 		{{ $found = true }}
 	{{ else if .Params.picture }}
 		{{/* <!-- else if .picture exists, use it --> */}}
@@ -50,17 +48,7 @@
 {{ end }}
 
 {{ if $found }}
-	{{ $firstchar := substr $picture 0 1 }}
-	{{ $firstfour := substr $picture 0 4 }}
-	{{ if eq "/" $firstchar }}
-		{{/* <!-- if starts with / then .picture contains rel path to img --> */}}
-		{{ $imgpath = $picture }}
-	{{ else if eq "http" $firstfour }}
-		{{/* <!-- if starts with / then .picture contains abs path to img --> */}}
-		{{ $imgpath = $picture }}
-	{{ else }}
-		{{/* <!-- else .picture contains name of img, add path --> */}}
-		{{ $imgpath = path.Join .RelPermalink $picture }}
-	{{ end }}
+	{{ $imgpath = $picture }}
 {{ end }}
+
 {{ return $imgpath }}

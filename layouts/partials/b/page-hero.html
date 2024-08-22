@@ -1,9 +1,10 @@
 {{ "<!-- partials/b/page-hero.html:start -->" | safeHTML }}
 {{/* <!-- get hero picture if there is one available --> */}}
-{{ $heropath := partial "f/getheropicturepath" . }}	
+{{ $heropath := partial "f/getheropicturepath" . }}
+{{ $srcset := partial "f/getpicturesrcset" $heropath }}
 <header id="hero" class="layout-module-hero">
 	<div class="layout-module-layer">
-		<img src="{{ $heropath }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
+		<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
 	</div>
 	<div class="layout-module-layer">
 		<div class="layout-page-title style-page-title-overlay">

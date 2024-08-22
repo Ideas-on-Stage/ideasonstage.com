@@ -1,14 +1,20 @@
 {{/* <!--
 	
 	f/getpicturesrcset
+
+	Returns a slice with two things:
+	- the "src" path for the fallback picture
+	- the "srcset" paths for the list of responsive pictures
 	
-	Returns as series of responsive pictures for the original picture	
-	
-	Parameters:
-	- . as image path string
+	Arguments:
+	- image path as string. The image path must match a global or page resource
 	
 	Returns:
-	- source set as string
+	- a slice with "src" and "srcset" to be used as follows:
+	
+	Example code:
+	{{ $srcset := partial "f/getpicturesrcset" "/img/picture.jgp" }}
+	<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="" class="">
 
  --> */}}
 

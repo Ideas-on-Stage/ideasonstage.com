@@ -5,7 +5,7 @@
 	Gets full path to .picture parameter for pages and data files.
 	
 	Arguments:
-	- . as .Page object or . as Data object
+	- .Page object or Data object
 	
 	Process:
 	- If page:

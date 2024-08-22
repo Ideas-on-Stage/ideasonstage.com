@@ -2,7 +2,7 @@
 draft: false
 title: "Pitch for Startups"
 description: "Learn to deliver a killer pitch from experienced coaches who've worked with hundreds of start-ups."
-picture: "image.jpg"
+picture: "pitch-for-startups.jpg"
 translationKey: "presentations-training/pitch-for-startups"
 ---
 
