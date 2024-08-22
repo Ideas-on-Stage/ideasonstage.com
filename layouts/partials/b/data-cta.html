@@ -1,3 +1,11 @@
+{{/* <!-- 
+
+	Call to action template
+	- data is located in /data/cta as a datafile
+	- picture is located in /assets as a global resource
+
+--> */}}
+
 {{ "<!-- partials/b/data-cta.html:start -->" | safeHTML }}
 {{ $sectionid := "call-to-action" }}
 {{ if .sectionid }}{{ $sectionid = .sectionid }}{{ end }}
@@ -7,9 +15,11 @@
 	{{ if $data }}
 		{{ $localizeddata := index $data site.LanguageCode }}
 		{{ with $localizeddata }}
+
+			{{ $srcset := partial "f/getpicturesrcset" .picture }}
 			<header id="{{ $sectionid }}" class="layout-module-hero">
 				<div class="layout-module-layer">
-					<img src="{{ .picture }}" alt="{{ .title }}">
+					<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .title }}">
 				</div>
 				{{/* <!-- adding layout-hero div corrects bug on browsers where sticky doesn't work --> */}}
 				<div class= "layout-module-layer" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>

@@ -1,19 +1,22 @@
 {{/* <!-- define "main" to override default "main" in _default/baseof.thml --> */}}
 
+	{{ define "main" }}
+		{{ "<!-- home.html:main:define:start -->" | safeHTML }}
+		{{ template "page-title" . }}
+		{{ template "page-content" . }}
+		{{ template "page-list" page }}
+		{{ "<!-- home.html:main:define:end -->" | safeHTML }}
+	{{ end }}
+
+
+
+{{/* <!-- define elements to override default elements in _default/baseof.html --> */}}
+
 	{{ define "head-schema" }}
 		{{ "<!-- home.html:head-schema:define:start -->" | safeHTML }}
 		{{ partial "schema/corporation.html" . }}
 		{{ partial "schema/website.html" . }}	
 		{{ "<!-- home.html:head-schema:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "main" }}
-		{{ "<!-- home.html:main:define:start -->" | safeHTML }}
-		{{ partial "b/page-title" . }}
-		{{ partial "b/page-breadcrumbs.html" . }}
-		{{ partial "b/page-content.html" . }}
-		{{ partial "b/page-list" page }}
-		{{ "<!-- home.html:main:define:end -->" | safeHTML }}
 	{{ end }}
 	
 	{{ define "page-title" }}
@@ -27,7 +30,3 @@
 		{{ partial "b/page-content-home" page }}	
 		{{ "<!-- home.html:page-content:define:end -->" | safeHTML }}
 	{{ end }}
-
-
-
-{{/* <!-- define elements to override default elements in _default/baseof.html --> */}}

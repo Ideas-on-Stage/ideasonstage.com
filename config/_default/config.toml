@@ -61,7 +61,14 @@ title 					= "Ideas on Stage"
 		midgray		= "#888"
 		blue		= "#00A3E0"
 		orange		= "#FF8200"
-		
+
+	# ---------------------
+	# Layout
+	[params.images]
+		landscapePhotoWidths	= [2400, 1200, 480]
+		portraitPhotoWidths		= [1600, 800, 480]
+		quality					= 70
+
 	# ---------------------
 	# Layout
 	[params.layout]

@@ -1,0 +1,51 @@
+{{/* <!--
+	
+	f/getpicturesrcset
+	
+	Returns as series of responsive pictures for the original picture	
+	
+	Parameters:
+	- . as image path string
+	
+	Returns:
+	- source set as string
+
+ --> */}}
+
+{{ $imgSrc := "" }}
+{{ $imgSrcSet := slice }}
+
+<!-- 1. Try to get image as page resource -->
+{{ $image := page.Resources.Get . }}
+
+<!-- 2. If not found, try to get image as global resource in /assets -->
+{{ if not $image }}
+	{{ $image = resources.Get . }}
+{{ end }}
+
+{{ if $image }}
+	
+	<!-- uses settings from config.toml depending on orientation -->
+	{{ $widths := site.Params.images.landscapePhotoWidths }}
+	{{ if gt $image.Height $image.Width }}
+		{{ $widths = site.Params.images.portraitPhotoWidths }}
+	{{ end }}
+	
+	<!--
+  	Add URL for each width to $imgSrcSet variable
+  	format: "/path/img_1000.jpg 1000w,/path/img_500.jpg 500w"
+  	Note: the first URL is used as "fallback" src in $imgSrc.
+	-->
+	{{ range $widths }}
+		{{ $srcUrl := (printf "%dx" . | $image.Resize).RelPermalink }}
+		{{ if eq $imgSrc "" }}{{ $imgSrc = $srcUrl }}{{ end }}
+		{{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) }}
+	{{ end }}
+	{{ $imgSrcSet = slice $imgSrc (delimit $imgSrcSet ",") }}
+
+{{ else }}
+	<!-- 3. If no resource found, fall back to using default image -->
+	{{ $imgSrcSet = slice . . }}
+{{ end }}
+
+{{ return $imgSrcSet }}

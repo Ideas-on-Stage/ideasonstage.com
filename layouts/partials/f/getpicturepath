@@ -39,6 +39,8 @@
 	{{/* <!-- else it can be a data or shortcode file, use .picture property --> */}}
 	{{ $picture = .picture }}
 	{{ $found = true }}
+{{ else }}
+	{{ $found = false }}
 {{ end }}
 
 {{ if $found }}
@@ -60,5 +62,7 @@
 			{{ $imgpath = path.Join .RelPermalink $picture }}
 		{{ end }}
 	{{ end }}
+{{ else }}
+	{{ $imgpath = "not found" }}
 {{ end }}
 {{ return $imgpath }}

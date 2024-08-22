@@ -3,7 +3,7 @@
 	<div class="flex-parent flex-parent-row flex-parent-gap-big">
 		{{ partial "sidebar/sidebar-menu.html" page }}
 		<article id="content-main" class="flex-child flex-child-67p">
-			{{ with .Content }}{{ . }}{{ end }}
+			{{ with page.Content }}{{ . }}{{ end }}
 		</article>
 	</div>
 </div>

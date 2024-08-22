@@ -1,17 +1,17 @@
 en:
     title: Masterclass
-    logo: disney-logo.png
+    picture: disney-logo.png
     client: Disney
     category: "Event Animation"
 
 es:
     title: Masterclass
-    logo: disney-logo.png
+    picture: disney-logo.png
     client: Disney
     category: "Event Animation"
 
 fr:
     title: Masterclass
-    logo: disney-logo.png
+    picture: disney-logo.png
     client: disney
     category: "Event Animation"
