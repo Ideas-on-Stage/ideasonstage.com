@@ -5,7 +5,7 @@ description: "Learn the five key principles to communicate a compelling message 
 showrefs: false
 ---
 
-{{% picture1-text2 picture="confident-presenter-book-2.png" %}}
+{{< picture1-text2 picture="confident-presenter-book-2.png" >}}
 
 ## Become a more credible, confident and convincing presenter.
  
@@ -20,11 +20,11 @@ Now Officially Included in New York University’s Business Communication Course
 
 {{< call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" >}}
 
-{{< call-to-action style="bg-lightgray" title="Discover your presentation score" subtitle="To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book. After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. It’s free, easy and takes less than three minutes to complete." picture="/img/inserts/meter-orange.png" button="TAKE THE TEST NOW" link="https://presentationscorecard.scoreapp.com" >}}
+{{< call-to-action style="bg-lightgray" title="Discover your presentation score" subtitle="To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book. After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. It’s free, easy and takes less than three minutes to complete." picture="meter-orange.png" button="TAKE THE TEST NOW" link="https://presentationscorecard.scoreapp.com" >}}
 
 ## An idea needs wings, and that means a strong, well-delivered presentation.
 
-{{% picture1-text2 picture="andrea-pacini.jpg" %}}
+{{< picture1-text2 picture="andrea-pacini.jpg" >}}
 
 ### Meet the Author
 
