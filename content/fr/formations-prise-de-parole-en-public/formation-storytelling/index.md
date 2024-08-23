@@ -20,7 +20,7 @@ Cette formation explique comment utiliser les techniques de storytelling pour cr
 {{< image-wide src="storytelling.jpg" alt="Formation Storytelling" >}}
 
 {{< agenda-list style="bg-lightgray">}}
-	{{< agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre les techniques de l’art oratoire pour présenter avec aisance et présence sur scène.<br>Apprendre à convaincre son auditoire à travers l'utilisation du langage corporel, verbal et émotionnel." >}}
+	{{< agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre à utiliser les techniques de storytelling pour créer un message clé<br>Bien structurer ses idées et ses éléments de langage.<br>Développer une histoire captivante pour convaincre son auditoire." >}}
 	{{< agenda-item title="Prérequis de la formation" description="Avoir déjà fait une présentation en public.<br>Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>Il n’est pas nécessaire d’avoir un ordinateur." >}}
 	{{< agenda-item title="Public concerné" description="Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux." >}}
 	{{< agenda-item title="Moyens pédagogiques, modalités et méthodes" description="Site web avec les différents supports et exercices<br>Support visuel PowerPoint<br>Livret d’exercices imprimé<br>Exercices pratiques" >}}
