@@ -1,14 +1,14 @@
 en:
     title: Presentation Training
-    picture: salesforce-logo.png
+    picture: /img/logos/salesforce-logo.png
     client: Salesforce
 
 es:
     title: Formación en presentaciones
-    picture: salesforce-logo.png
+    picture: /img/logos/salesforce-logo.png
     client: Salesforce
 
 fr:
     title: Formations à l’art de présenter
-    picture: salesforce-logo.png
+    picture: /img/logos/salesforce-logo.png
     client: Salesforce

@@ -17,7 +17,7 @@ contact:
 
 Cette formation phare de notre programme couvre les modules storytelling, présentations PowerPoint et art oratoire sur deux jours, pour un apprentissage en profondeur avec beaucoup d'exercices pratiques. Si vous avez peu de temps disponible pour former vos équipes, [cette formation est également disponible sur 1 journée](/fr/formation-prise-de-parole-1-jour/). 
 
-{{< image-wide src="/img/image-wide/public-speaking-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
+{{< image-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
 
 {{< agenda-list style="bg-lightgray">}}
 	{{< agenda-item title="Objectifs pédagogiques de la formation" description="Combiner le storytelling, les présentations PowerPoint et l'art oratoire pour convaincre son auditoire." >}}

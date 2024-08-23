@@ -11,9 +11,13 @@
  --> */}}
  
 {{ $result := false }}
-{{ if or .IsPage .IsNode }}
+
+{{ if (partial "f/isstring" .) }}
+	{{ $result = false }}
+{{ else if or .IsPage .IsNode }}
 	{{ $result = true }}
 {{ else }}
 	{{ $result = false }}
 {{ end }}
+
 {{ return $result }}

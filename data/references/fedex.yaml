@@ -1,14 +1,14 @@
 en:
-    picture: fedex-logo.png
+    picture: /img/logos/fedex-logo.png
     client: FedEx
     category: Executive Coaching
 
 es:
-    picture: fedex-logo.png
+    picture: /img/logos/fedex-logo.png
     client: FedEx
     category: Executive Coaching
 
 fr:
-    picture: fedex-logo.png
+    picture: /img/logos/fedex-logo.png
     client: TEDx
     category: Executive coaching

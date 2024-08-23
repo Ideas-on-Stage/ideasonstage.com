@@ -1,15 +1,15 @@
 en:
     title: Bouygues
-    picture: bouygues-logo.png
+    picture: /img/logos/bouygues-logo.png
     client: Bouygues
 
 es:
     title: Bouygues
-    picture: bouygues-logo.png
+    picture: /img/logos/bouygues-logo.png
     client: Bouygues
 
 
 fr:
     title: Bouygues
-    picture: bouygues-logo.png
+    picture: /img/logos/bouygues-logo.png
     client: Bouygues

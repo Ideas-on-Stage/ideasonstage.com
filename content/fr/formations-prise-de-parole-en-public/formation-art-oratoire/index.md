@@ -17,7 +17,7 @@ contact:
 
 Ce module est dédié à l’art oratoire et apprendra aux participants comment utiliser les techniques de langage corporel, verbal et émotionnel pour convaincre un auditoire. Il comprend une courte introduction à l'identification et la mise en valeur du message, car il s'agit d'un ingrédient crucial d’une bonne présentation. Pendant la journée, les participants mettront en pratique les techniques apprises sur base d’une présentation de leur choix.
 
-{{< image-wide src="public-speaking-training.jpg" alt="Formation à la prise de parole" >}}
+{{< image-wide src="formation-art-oratoire.jpg" alt="Formation à la prise de parole" >}}
 
 {{< agenda-list style="bg-lightgray">}}
 	{{< agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre à utiliser les techniques de storytelling pour créer un message clé<br>Bien structurer ses idées et ses éléments de langage.<br>Développer une histoire captivante pour convaincre son auditoire." >}}

@@ -2,7 +2,7 @@ fr:
     sectionid: "ateliers-entreprise-creatifs"
     title: "Ateliers créatifs"
     description: "Des activités de team building et de développement des compétences pour vos évènements d'entreprise."
-    picture: "/img/creative-workshops.jpg"
+    picture: "/img/modules/creative-workshops.jpg"
     style: "bg-black"
     layout: "inserts/module-picture-textright.html"
     url: "/fr/ateliers-evenement-entreprise/"

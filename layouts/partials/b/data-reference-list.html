@@ -10,8 +10,7 @@
 				{{ $localizeddata := index $data site.LanguageCode }}
 				{{ if $localizeddata }}
 					<div class="flex-child flex-child-16p border">
-						{{ $picpath := printf "/img/logos/%s" $localizeddata.picture }}
-						{{ $srcset := partial "f/getpicturesrcset" $picpath }}
+						{{ $srcset := partial "f/getpicturesrcset" $localizeddata.picture }}
 						<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with $localizeddata.client }}alt="{{ . }}"{{ end }} class="logo" />
 					</div>
 				{{ end }}

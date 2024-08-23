@@ -17,7 +17,7 @@ contact:
 
 PowerPoint est devenu tellement utilisé qu'il est devenu synonyme de présentation en entreprise. Cependant, il est souvent mal utilisé. Lors de cette formation, les participants apprendront ce qu'est une présentation PowerPoint efficace. Ils verront comment utiliser PowerPoint pour créer des diapositives qui vont clarifier et renforcer le discours.
 
-{{< image-wide src="/img/image-wide/storytelling.jpg" alt="Formation Visuels" >}}
+{{< image-wide src="formation-presentations-powerpoint.jpg" alt="Formation Visuels" >}}
 
 {{< agenda-list style="bg-lightgray">}}
 	{{< agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre comment construire une présentation PowerPoint qui applique les bons principes de communication : structure, contenu, style.<br>Ce n'est pas une formation pour apprendre à utiliser PowerPoint, mais plutôt à communiquer efficacement avec PowerPoint." >}}

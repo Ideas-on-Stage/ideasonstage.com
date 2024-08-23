@@ -19,7 +19,7 @@ Pour être efficace, la prise de parole doit faire l’objet d’un travail en a
 
 Notre service de coaching en prise de parole est taillé sur mesure. Que vous soyez un cadre dirigeant devant présenter sa nouvelle stratégie, un organisateur souhaitant faire coacher les intervenants de son événement ou un créateur de start-up invité à présenter à une grande conférence, notre objectif est le même : vous faire réussir.
 
-{{< image-wide src="/img/image-wide/coaching-001.jpg" alt="Meeting" >}}
+{{< image-wide src="coaching-prise-de-parole-001.jpg" alt="Meeting" >}}
 
 ## Un accompagnement sur plusieurs séances
 
@@ -33,7 +33,7 @@ Notre expérience montre l’importance de la répétition dans la préparation.
     {{< agenda-item title="SÉANCE 3 - RÉPÉTITION FINALE" description="Lors de cette dernière séance, le coach travaille pour valider tous les acquis de l'intervenant et s'assurer que tous les automatismes et réflexes sont en place pour la présentation définitive." >}}
 {{< /agenda-list >}}
 
-{{< image-wide src="/img/image-wide/working-001.jpg" alt="Coaching" >}}
+{{< image-wide src="coaching-prise-de-parole-002.jpg" alt="Coaching" >}}
 
 ## Une combinaison de techniques classiques et modernes
 
@@ -49,7 +49,7 @@ Nous adaptons le programme de coaching aux forces et opportunités d’améliora
 
 Plus les enjeux sont importants, plus la préparation est essentielle. [Pour en savoir plus sur la prise de parole en public, vous pouvez consulter notre guide.](/fr/guide-ultime-prise-de-parole-en-public/)
 
-{{< image-wide src="/img/image-wide/working-002.jpg" alt="Coaching" >}}
+{{< image-wide src="coaching-prise-de-parole-003.jpg" alt="Coaching" >}}
 
 ## Coaching ou formation ?
 

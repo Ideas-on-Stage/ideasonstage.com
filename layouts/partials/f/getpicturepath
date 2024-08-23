@@ -23,7 +23,8 @@
 {{ $imgpath := "" }}
 {{ $picture := "" }}
 {{ $found := false }}
-{{ if .Params }}
+
+{{ if (partial "f/ispage" .) }}
 	{{/* <!-- then this is a page, check for thumbnail.jpg in same directory --> */}}
 	{{ $thumbtest := add .File.Dir "thumbnail.jpg" }}
 	{{ if fileExists $thumbtest }}
@@ -31,38 +32,49 @@
 	  	{{ $picture = "thumbnail.jpg" }}
 		{{ $found = true }}
 	{{ else if .Params.picture }}
-		{{/* <!-- else if .picture exists, use it --> */}}
-		{{ $picture = .Params.picture }}
+		{{/* <!-- else if .picture exists, use the whole page object --> */}}
+		{{ $picture = . }}
 		{{ $found = true }}
 	{{ end }}
 {{ else if (isset . "picture") }}
 	{{/* <!-- else it can be a data or shortcode file, use .picture property --> */}}
 	{{ $picture = .picture }}
 	{{ $found = true }}
+{{ else if (isset . "src") }}
+	{{/* <!-- else it can be a data or shortcode file, use .src property --> */}}
+	{{ $picture = .src }}
+	{{ $found = true }}
 {{ else }}
 	{{ $found = false }}
 {{ end }}
 
 {{ if $found }}
-	{{ $firstchar := substr $picture 0 1 }}
-	{{ $firstfour := substr $picture 0 4 }}
-	{{ if eq "/" $firstchar }}
-		{{/* <!-- if starts with / then .picture contains rel path to img --> */}}
-		{{ $imgpath = $picture }}
-	{{ else if eq "http" $firstfour }}
-		{{/* <!-- if starts with / then .picture contains abs path to img --> */}}
-		{{ $imgpath = $picture }}
-	{{ else }}
-		{{/* <!-- else .picture contains name of img, add path --> */}}
-		{{ if .RelPermalink }}
-			{{ $imgpath = path.Join .RelPermalink $picture }}
-		{{ else if (isset . "url") }}
-			{{ $imgpath = path.Join .url $picture }}
+	{{ if (partial "f/isstring" $picture) }}
+		{{/* <!-- if it's a string check if path should be completed --> */}}		
+		{{ $firstchar := substr $picture 0 1 }}
+		{{ $firstfour := substr $picture 0 4 }}
+		{{ if eq "/" $firstchar }}
+			{{/* <!-- if starts with / then .picture contains rel path to img --> */}}
+			{{ $imgpath = $picture }}
+		{{ else if eq "http" $firstfour }}
+			{{/* <!-- if starts with / then .picture contains abs path to img --> */}}
+			{{ $imgpath = $picture }}
 		{{ else }}
-			{{ $imgpath = path.Join .RelPermalink $picture }}
+			{{/* <!-- else .picture contains name of img, add path --> */}}
+			{{ if .RelPermalink }}
+				{{ $imgpath = path.Join .RelPermalink $picture }}
+			{{ else if (isset . "url") }}
+				{{ $imgpath = path.Join .url $picture }}
+			{{ else }}
+				{{ $imgpath = path.Join .RelPermalink $picture }}
+			{{ end }}
 		{{ end }}
+	{{ else }}
+		{{/* <!-- else it is a page object, return it untouched --> */}}		
+		{{ $imgpath = . }}
 	{{ end }}
 {{ else }}
 	{{ $imgpath = "not found" }}
 {{ end }}
+
 {{ return $imgpath }}

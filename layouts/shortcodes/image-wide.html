@@ -7,6 +7,6 @@
  --> */}}
 {{ "<!-- shortcodes:image-wide.html:start -->" | safeHTML }}
 <div class="layout-shortcode-img">
-	<img src="{{ .Params.src }}" {{ with .Params.alt }}alt="{{ . }}"{{ end }}>
+	{{ partial "e/picture" .Params }}
 </div>
 {{ "<!-- shortcodes:image-wide.html:end -->" | safeHTML }}

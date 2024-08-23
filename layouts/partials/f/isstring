@@ -1,0 +1,19 @@
+{{/* <!--
+	
+	f/isstring
+	
+	Test if object is a string.
+	
+	Returns:
+	- true if string, 
+	- false if not
+	
+ --> */}}
+ 
+{{ $result := false }}
+
+{{ if eq (printf "%s" .) . }}
+	{{ $result = true }}
+{{ end }}
+
+{{ return $result }}

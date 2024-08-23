@@ -1,14 +1,14 @@
 en:
     title: Pitch training
-    picture: deloitte-logo.png
+    picture: /img/logos/deloitte-logo.png
     client: Deloitte
 
 es:
     title: Pitch training
-    picture: deloitte-logo.png
+    picture: /img/logos/deloitte-logo.png
     client: Deloitte
 
 fr:
     title: Entraînement au pitch
-    picture: deloitte-logo.png
+    picture: /img/logos/deloitte-logo.png
     client: Deloitte

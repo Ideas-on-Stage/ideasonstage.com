@@ -9,7 +9,7 @@
 		</p>
 	</div>
 	<div class="layout-shortcode-child flex-child flex-child-40p">
-		<img src="{{ .Params.picture }}" alt="{{ .Params.title }}" />
+		{{ partial "e/picture" .Params }}
 	</div>
 </div>
 {{ "<!-- shortcodes:text2-picture1.html:end -->" | safeHTML }}

@@ -13,13 +13,13 @@ translationKey: "workshops"
 Qui êtes-vous vraiment ? Quelles sont les valeurs partagées par votre équipe ? Qu’est-ce qui anime et motive vos collaborateurs à se surpasser ? Lors de cet atelier de 3 h, différentes activités seront proposées pour faire émerger l’identité de votre équipe et renforcer sa cohésion. Créativité, LEGO®, brainstorming, collaboration seront mis à contribution. Cet atelier dure trois heures.
 {{< /text-centered >}}
 
-{{< image-wide src="/img/image-wide/lego-constructions.jpg" alt="LEGO® pour le Team Building" >}}
+{{< image-wide src="lego-constructions.jpg" alt="LEGO® pour le Team Building" >}}
 
 {{< text-centered category="Atelier Projets" title="Lancer des projets internes" >}}
 Avec l’aide de nos animateurs expérimentés, les participants définiront des projets stratégiques internes pour améliorer la compétitivité de l’entreprise. Nous pouvons créer du matériel personnalisé en fonction de vos objectifs : un canevas projet, des cartes de rôles, etc. Cet atelier dure trois heures.
 {{< /text-centered >}}
 
-{{< image-wide src="/img/image-wide/project-roles.jpg" alt="Cartes de rôles de projets" >}}
+{{< image-wide src="cartes-roles-projet.jpg" alt="Cartes de rôles de projets" >}}
 
 {{< text-centered category="Atelier Projets" title="Créer de l'intrapreneuriat" >}}
 Lors de cet évènement, les participants pourront créer leur propre projet d’entrepreneuriat. Ils créeront une startup et établiront leur business model. À la fin de l’atelier, ils feront un « pitch » pour vendre leur idée. Un vote élira les meilleurs projets. Cet atelier dure une demi-journée à une journée.

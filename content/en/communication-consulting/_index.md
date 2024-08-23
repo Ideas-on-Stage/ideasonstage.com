@@ -12,7 +12,7 @@ thumbnail: "thumbnail.jpg"
 Our corporate communication strategy consulting branch offers all necessary services for your organizational, management and internal communication needs. Our approach emphasizes the use of human communication to deliver effective messages.
 {{< /text-centered >}}
 
-{{< image-wide src="/communication-consulting/corporate-communication.jpg" alt="Corporate Communication" >}}
+{{< image-wide src="corporate-communication.jpg" alt="Corporate Communication" >}}
 
 {{< icon-list title="Key benefits" style="bg-lightgray" >}}
 	{{< icon-item icon="identity.svg" description="Reinforce your identity" style="icon-small" >}}

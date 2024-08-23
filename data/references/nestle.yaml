@@ -1,15 +1,15 @@
 en:
     title: Nestlé
-    picture: nestle-logo.png
+    picture: /img/logos/nestle-logo.png
     client: Nestlé
 
 es:
     title: Nestlé
-    picture: nestle-logo.png
+    picture: /img/logos/nestle-logo.png
     client: Nestlé
 
 
 fr:
     title: Nestlé
-    picture: nestle-logo.png
+    picture: /img/logos/nestle-logo.png
     client: Nestlé

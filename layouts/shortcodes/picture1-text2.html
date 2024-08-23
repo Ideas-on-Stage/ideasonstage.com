@@ -2,7 +2,7 @@
 <div class="layout-shortcode {{ with .Params.style }}{{ . }}{{ end }}">
 	<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-parent-gap">
 		<div class="flex-child flex-child-40p">
-			<img src="{{ .Params.picture }}" alt="{{ .Params.title }}">
+			{{ partial "e/picture" .Params }}
 		</div>
 		<div class="flex-child flex-child-60p">
 			<h3 class="">

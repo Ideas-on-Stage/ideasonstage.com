@@ -1,17 +1,17 @@
 en:
     title: Safran
-    picture: safran-logo.png
+    picture: /img/logos/safran-logo.png
     client: Safran
     category: Communication Consulting
 
 es:
     title: Safran
-    picture: safran-logo.png
+    picture: /img/logos/safran-logo.png
     client: Safran
     category: Communication Consulting
 
 fr:
     title: Safran
-    picture: safran-logo.png
+    picture: /img/logos/safran-logo.png
     client: Safran
     category: Communication Consulting

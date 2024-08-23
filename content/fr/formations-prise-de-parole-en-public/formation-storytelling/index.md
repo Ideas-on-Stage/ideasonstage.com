@@ -17,7 +17,7 @@ contact:
 
 Cette formation explique comment utiliser les techniques de storytelling pour créer de meilleures présentations. Cette formation est particulièrement adaptée pour les présentations en entreprise, comme les présentations devant un comité ou les présentations commerciales.
 
-{{< image-wide src="/img/image-wide/storytelling.jpg" alt="Formation Storytelling" >}}
+{{< image-wide src="storytelling.jpg" alt="Formation Storytelling" >}}
 
 {{< agenda-list style="bg-lightgray">}}
 	{{< agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre les techniques de l’art oratoire pour présenter avec aisance et présence sur scène.<br>Apprendre à convaincre son auditoire à travers l'utilisation du langage corporel, verbal et émotionnel." >}}

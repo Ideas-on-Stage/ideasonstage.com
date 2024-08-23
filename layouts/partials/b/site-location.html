@@ -1,7 +1,8 @@
 {{ "<!-- partials/b/site-location.html:start -->" | safeHTML }}
 <section id="address" class="layout-module marginv-tiny">
 	<div class="layout-module-layer bg-black">
-		<img src="{{ site.Params.map.bgimage }}">
+		{{ $srcset := partial "f/getpicturesrcset" site.Params.map.bgimage }}
+		<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="Address">
 	</div>
 	<div class="layout-module-layer">
 		<div class="layout-module-column-text text-white">	

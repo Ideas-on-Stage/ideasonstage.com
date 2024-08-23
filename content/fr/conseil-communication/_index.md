@@ -10,7 +10,7 @@ thumbnail: "thumbnail.jpg"
 Notre offre de conseil en stratégie de communication d'entreprise propose tous les services nécessaires pour vos besoins en matière d'organisation, de gestion et de communication interne. Notre approche met l'accent sur l'utilisation d’une communication humaine pour délivrer des messages efficaces.
 {{< /text-centered >}}
 
-{{< image-wide src="/communication-consulting/corporate-communication.jpg" alt="Communication d'entreprise" >}}
+{{< image-wide src="conseil-en-communication.jpg" alt="Communication d'entreprise" >}}
 
 {{< icon-list title="Bénéfices clés" style="bg-lightgray" >}}
 	{{< icon-item icon="identity.svg" description="Identité renforcée" style="icon-small" >}}
@@ -37,7 +37,7 @@ Une fois que nous avons dessiné une stratégie de communication globale claire,
 	{{< icon-item icon="certificate.svg" description="ESG" style="icon-small" >}}
 {{< /icon-list >}}
 
-{{< image-wide src="corporate-office.jpg" alt="Communication d'entreprise" >}}
+{{< image-wide src="bureaux-entreprise.jpg" alt="Communication d'entreprise" >}}
 
 {{< text-centered title="Communication humaine" >}}
 Des entreprises comme Apple et Google ont démontré l'impact positif qu'une bonne communication d'entreprise, et en particulier une bonne communication interpersonnelle, peut avoir sur les performances d'une entreprise. Notre approche, basée sur les relations interpersonnelles et la communication directe, a prouvé qu'elle donnait des résultats et accélérait le changement culturel dans les entreprises.
