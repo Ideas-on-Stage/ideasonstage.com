@@ -2,7 +2,7 @@ en:
   title: "Business Presentation Revolution Videos"
   layout: "inserts/module-half-text-picture.html"
   style: "bg-primary"
-  picture: "/img/inserts/revolution-hand-clicker.jpg"
+  picture: "/img/modules/revolution-hand-clicker.jpg"
   url: "/revolution/"
   description: "Discover the best tips on how to present with our new video series: The Business Presentation Revolution."
   
@@ -10,7 +10,7 @@ fr:
   title: "Vidéos The Business Presentation Revolution"
   layout: "inserts/module-half-text-picture.html"
   style: "bg-primary"
-  picture: "/img/inserts/revolution-hand-clicker.jpg"
+  picture: "/img/modules/revolution-hand-clicker.jpg"
   url: "/fr/revolution/"
   description: "Une série de courtes vidéos pour apprendre à mieux présenter, disponibles sur YouTube et iTunes."
   
@@ -18,6 +18,6 @@ es:
   title: "Videos The Business Presentation Revolution"
   layout: "inserts/module-half-text-picture.html"
   style: "bg-primary"
-  picture: "/img/inserts/revolution-hand-clicker.jpg"
+  picture: "/img/modules/revolution-hand-clicker.jpg"
   url: "/es/revolution/"
   description: "Los mejores consejos para presentar con nuestra nueva serie: The Business Presentation Revolution."
