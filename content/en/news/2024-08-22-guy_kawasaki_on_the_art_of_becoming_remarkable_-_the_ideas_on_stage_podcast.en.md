@@ -61,11 +61,9 @@ banner = "/img/news/guy_and_andrea.jpg"
 [Spotify](https://open.spotify.com/episode/3BPlydT7OSrd0I7uuZr3nR)
 
 \
-**I hope you enjoy it!**
+I hope you enjoy it!
 
 {{< youtube 4rx2r99sC3k>}}
-
-
 
 **Want to learn more?** 
 
