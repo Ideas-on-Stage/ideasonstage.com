@@ -7,14 +7,9 @@ picture: "training.jpg"
 thumbnail: "thumbnail.jpg"
 pages: "bottom"
 translationKey: "presentations-training"
+type: "training"
 
-blocks:
-- type: "page-hero"
-- type: "page-breadcrumbs"
-- type: "data-reference-list"
-  datafilelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
-- type: "page-content"
-- type: "page-list"
+datareferencelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
 ---
 
 ## Change the culture of presentations in your company

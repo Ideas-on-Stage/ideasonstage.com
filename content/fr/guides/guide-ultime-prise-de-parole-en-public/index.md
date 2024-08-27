@@ -10,12 +10,8 @@ enablehero: true
 summary: "Ce guide vous donnera tous les conseils nécessaires pour réussir votre prise de parole en public, que ce soit lors d’une réunion ou face à un auditoire de plusieurs milliers de personnes. S’exprimer face à d’autres personnes est un exercice stressant pour la plupart d’entre nous. Comment se comporter ? Quelles sont les erreurs à ne pas commettre ? Grâce à ce guide écrit par les meilleurs professionnels de la communication interpersonnelle, vous pourrez apprendre les techniques nécessaires à une communication orale efficace et à gérer votre stress."
 weight: 10
 
-blocks:
-- type: page-hero
-- type: page-breadcrumbs
-- type: page-content
-- type: data-module-list
-  datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
+# blocks data
+datamoduleasidelist: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 
 ## Qui sommes-nous ?

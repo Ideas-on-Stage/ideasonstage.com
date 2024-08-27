@@ -7,12 +7,8 @@ translationKey: "guides/how-to-deliver-presentations-remotely"
 picture: "presentations-a-distance.jpg"
 summary: "Ce dont vous avez besoin pour réaliser de superbes présentations à distance : équipement, logiciel, configuration, animation. Nous avons rédigé ce guide sur la base de dix années d’expérience de présentations professionnelles données à distance à nos clients. Nous ne gagnons pas d’argent sur les logiciels ou le matériel que nous recommandons dans cet article. Nous les recommandons en fonction de notre expérience, mais il existe de nombreuses autres solutions qui pourraient tout aussi bien fonctionner."
 
-blocks:
-- type: page-hero
-- type: page-breadcrumbs
-- type: page-content
-- type: data-module-list
-  datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
+# blocks data
+datamoduleasidelist: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 ## Une bonne configuration de base pour les présentations à distance
 

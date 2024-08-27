@@ -4,12 +4,7 @@ title: "Welcome to the Revolution"
 description: "Thank you for joining the Business Presentation Revolution."
 ni: true
 
-blocks:
-    - type: page-title
-    - type: page-breadcrumbs
-    - type: page-content
-    - type: data-module-list
-      datafilelist: [ "catalogue", "news" ]
+datamoduleasidelist: [ "catalogue", "news" ]
 ---
 
 ## Welcome to the Revolution

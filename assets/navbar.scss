@@ -1,4 +1,4 @@
-/* @group FONT FAMILIES */
+/* @group MENU */
 	
 	.iosnavbar-menu,
 	.iosnavbar-menu a {
@@ -8,22 +8,12 @@
 		text-transform: uppercase;
 	}
 
-/* @end */
-
-
-
-/* @group FONT SIZES */
-
 	.iosnavbar-menu-item,
-	.iosnavbar-menu-item a				{ font-size: 14px;		}
+	.iosnavbar-menu-item a,				
 	.iosnavbar-menu-dropdown-item,
-	.iosnavbar-menu-dropdown-item a		{ font-size: 14px;		}
-		
-/* @end */
-
-
-
-/* @group MENU */
+	.iosnavbar-menu-dropdown-item a {
+		font-size: 14px;
+	}
 
 	/* Navbar container */
 	.iosnavbar {
@@ -40,7 +30,7 @@
 		transition: all .35s;
 		box-sizing: border-box;
 	}
-	
+
 	/* Links inside the navbar */
 	.iosnavbar a {
 		display: block;
@@ -52,7 +42,7 @@
 		/* background-color: #222; */
 		border: none;
 	}
-	
+
 	/* Adjust logo positioning */
 	.iosnavbar-brand {
 		height: var(--menubar-height);
@@ -63,7 +53,7 @@
 		height: var(--menubar-height);
 		float: left;
 	}
-	
+
 	/* <ul> menu (replaced by burger on ts screens) */
 	.iosnavbar-menu {
 		float: right;
@@ -76,7 +66,7 @@
 		flex-direction: row;
 		gap: 1em;
 	}
-	
+
 	/* <li> menu bar items */
 	.iosnavbar-menu-item {
 		margin: 0;

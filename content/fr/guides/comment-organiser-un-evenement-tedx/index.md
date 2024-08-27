@@ -8,12 +8,8 @@ picture: "tedx-saclay-03.jpg"
 summary: "Ce guide vous donnera tous les conseils nécessaires pour organiser votre événement TEDx, que ce soit en tant que bénévole ou pour votre entreprise. Si vous êtes déjà expérimenté, nous espérons que vous y découvrirez des conseils utiles."
 weight: 40
 
-blocks:
-- type: page-hero
-- type: page-breadcrumbs
-- type: page-content
-- type: data-module-list
-  datafilelist: [ "public-speaking-training", "public-speaking-coaching" ]
+# blocks data
+datamoduleasidelist: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 
 ## Qu’est-ce qu’un événement TEDx ?

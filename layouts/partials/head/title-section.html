@@ -1,0 +1,15 @@
+{{ "<!-- partials/b/head-title.html:start -->" | safeHTML }}
+<title>
+	{{ if .Params.Title }}
+		{{/* <!-- Front matter title if defined for page --> */}}
+		{{ (printf "%s | %s %s" .Params.Title site.Title site.Params.Country) | truncate 70 }}
+		{{ if ge .Paginator.PageNumber 2 }}
+			{{/* <!-- Add page number for multiple pages --> */}}
+			| Page {{ .Paginator.PageNumber }}
+		{{ end }}
+	{{ else }}
+		{{/* <!-- Else use site title and country name --> */}}
+		{{ (printf "%s %s" site.Title site.Params.Country) | truncate 70 }}
+	{{ end }}
+</title>
+{{ "<!-- partials/b/head-title.html:end -->" | safeHTML }}

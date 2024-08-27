@@ -1,0 +1,15 @@
+{{ "<!-- partials/b/data-module-list:start -->" | safeHTML }}
+{{ with .Params.datamodulelist }}
+	<section id="modules" class="layout-module-group">
+		{{ range . }}
+			{{ $data := index site.Data.modules . }}
+			{{ if $data }}
+				{{ $localizeddata := index $data site.LanguageCode }}
+				{{ if $localizeddata }}
+					{{ partial $localizeddata.layout $localizeddata }}
+				{{ end }}
+			{{ end }}
+		{{ end }}
+	</section>
+{{ end }}
+{{ "<!-- partials/b/data-module-list:end -->" | safeHTML }}

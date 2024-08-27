@@ -1,0 +1,4 @@
+{{ "<!-- partials/b/head-css-revolution-section.html:start -->" | safeHTML }}
+{{ $style := resources.Get "revolution.scss" | resources.ExecuteAsTemplate "revolution.css" . | resources.ToCSS | resources.Minify }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{ "<!-- partials/b/head-css-revolution-section.html:end -->" | safeHTML }}

@@ -1,0 +1,8 @@
+{{ "<!-- partials/e/blocks.html:start -->" | safeHTML }}
+{{ $part := . }}
+{{ $blocks := partial "f/getblocks" $part }}
+{{ range $blocks }}
+	{{ $partial := printf "%s/%s.html" $part . }}
+	{{ partial $partial page }}
+{{ end }}
+{{ "<!-- partials/e/blocks.html:end -->" | safeHTML }}

@@ -1,0 +1,60 @@
+{{ "<!-- partials/b/page-list-references.html:start -->" | safeHTML }}
+<section id="references-details" class="bg-white">
+	<div class="layout-content">
+		{{ $.Scratch.Set "count" 0 }}
+		{{ $languageshort := substr site.LanguageCode 0 2 }}
+		{{ range .Params.datareferencelist }}
+			{{ $data := index site.Data.references . }}
+			{{ if $data }}
+				{{ $localizeddata := index $data site.LanguageCode }}
+				{{ if $localizeddata }}
+					{{ if $localizeddata.description }}
+						<div class="flex-parent flex-parent-row flex-parent-align-start flex-parent-gap margint-medium">
+							<div class="flex-child flex-child-20p border">
+								{{ partial "e/picture.html" $localizeddata }}
+							</div>
+							<div class="flex-child flex-child-80p">
+								<h2>{{ $localizeddata.client }}</h2>
+								<p><b>{{ $localizeddata.title | markdownify }}</b></p>
+								{{ with $localizeddata.description }}
+									<p>{{ . | markdownify }}</p>
+								{{ end }}
+								{{ with $localizeddata.imgcontent }}
+									<img src="{{ . }}">
+								{{ end }}
+								{{ with $localizeddata.description2 }}
+									<p>{{ . | markdownify }}</p>
+								{{ end }}
+							</div>
+						</div>
+					{{ end }}
+				{{ end }}
+			{{ end }}
+		{{ end }}
+		{{ range .Pages }}
+			<div class="flex-parent flex-parent-row flex-parent-align-start flex-parent-gap margint-medium">
+				<div class="flex-child flex-child-20p">
+					<div class="border">
+						{{ partial "e/picture" . }}
+					</div>
+				</div>
+				<div class="flex-child flex-child-80p">
+					<h2>{{ .Params.client }}</h2>
+					<p>
+						<a href="{{ .Permalink }}">
+							<b>{{ .Title | markdownify }}</b>
+						</a>
+					</p>
+					<p>
+						<a href="{{ .Permalink }}">
+							{{ with .Description }}
+								{{ . | markdownify }}
+							{{ end }}
+						</a>
+					</p>
+				</div>
+			</div>
+		{{ end }}
+	</div>
+</section>
+{{ "<!-- partials/b/page-list-references.html:end -->" | safeHTML }}

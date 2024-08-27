@@ -3,14 +3,8 @@ draft: false
 title: "About"
 description: "Presentation creation, business events, public speaking training and coaching"
 translationKey: "about"
-
-blocks:
-- type: page-title
-- type: page-breadcrumbs
-- type: page-content
-- type: page-list
-- type: data-module-list
-  datafilelist: [ team, catalogue ]
+  
+datamoduleasidelist: [ team, catalogue ]
 ---
 
 Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training. In a world of boring conferences and endless meetings, you will stand out and shine.

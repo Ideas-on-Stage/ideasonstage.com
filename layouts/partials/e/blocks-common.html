@@ -1,0 +1,13 @@
+{{ "<!-- partials/e/blocks.html:start -->" | safeHTML }}
+
+{{ $part := . }}
+{{ $common := (index site.Data.layouts "_common") }}
+{{ $blocks := (index $common $part) }}
+{{ if or (eq $part "bodytop") (eq $part "bodybottom") }}
+	{{ $part = "body" }}
+{{ end }}
+{{ range $blocks }}
+	{{ $partial := printf "%s/%s.html" $part . }}
+	{{ partial $partial page }}
+{{ end }}
+{{ "<!-- partials/e/blocks.html:end -->" | safeHTML }}

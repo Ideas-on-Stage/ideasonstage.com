@@ -9,21 +9,20 @@ schema: "Website"
 mastodon: "https://mastodon.social/@pmorsa"
 type: "home"
 
-blocks:
-- type: "page-title-home"
-- type: "data-cta"
-  datafile: "public-speaking-guide"
-- type: "data-module-list"
-  sectionid: "services"
-  datafilelist: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
-- type: "page-content"
-- type: "data-reference-list"
-  datafilelist: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
-- type: "data-module-list"
-  sectionid: "see-also"
-  datafilelist: [ "presentationscore", "news" ]
-- type: "data-testimonial-list"
-  datafilelist: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
+body:
+- title-home
+- cta
+- module-list
+- content
+- reference-list
+- module-aside-list
+- testimonial-list
+
+datacta: "public-speaking-guide"
+datamodulelist: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
+datareferencelist: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
+datamoduleasidelist: [ "presentationscore", "news" ]
+datatestimoniallist: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
 ---
 
 Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.

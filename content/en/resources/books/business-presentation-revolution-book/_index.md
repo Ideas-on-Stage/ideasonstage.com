@@ -3,10 +3,10 @@ draft: false
 title: "Business Presentation Revolution - The Book"
 description: "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? Discover the Business Presentation Revolution book."
 
-blocks:
-- type: page-title
-- type: page-breadcrumbs
-- type: page-content
+body:
+- title
+- breadcrumbs
+- content
 ---
 
 ## Business Presentation Revolution – The Book

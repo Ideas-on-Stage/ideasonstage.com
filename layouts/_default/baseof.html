@@ -1,258 +1,52 @@
 {{/* <!--
-	There are several parts in this file:
-	- the default page layout itself, used as the skeleton for all pages
-	- the default define "main", which can be overridden in page layouts with {{ define "main" }}
-	- the default define elements, which can be overridden in page layouts with {{ define "element" }}
---> */}}
+	this template is generated using the structure defined in /data/layouts.yaml
+	
+	For <head>:
+	- the _common head blocks are added,
+	- the specific head blocks (if they exist) are added, in order of priority:
+		- the head blocks defined in the page
+		- the head blocks matching the page .Type and .Kind in /data/layouts.yaml
+		- the head blocks defined in _default matching the page .Kind in /data/layouts.yaml
 
-{{/* <!-- default page layout --> */}}
+	For <body>:
+	- the _common body top blocks are added as defined in /data/layouts.yaml,
+	- the specific body blocks (if they exist) are added, in order of priority:
+		- the body blocks defined in the page
+		- the body blocks matching the page .Type and .Kind in /data/layouts.yaml
+		- the body blocks defined in _default matching the page .Kind  in /data/layouts.yaml
+	- the _common body bottom blocks are added as defined in /data/layouts.yaml.
+
+	For <footer>:
+	- the common footer blocks are added.
+	- there are no specific footer blocks.
+--> */}}
 
 {{ "<!-- _default/baseof.html:start -->" | safeHTML }}
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-	
-	<head id="head">
-		{{ template "head-css" . }}
-		{{ template "head-title" . }}
-		{{ template "head-meta" . }}
-		{{ template "head-meta-desc" . }}
-		{{ template "head-hreflang" . }}
-		{{ template "head-alternate" . }}
-		{{ template "head-favicon" . }}
-		{{ template "head-schema" . }}
-		{{ template "head-custom" . }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">	
+	<head id="head">		
+		{{ "<!-- Insert _common head blocks defined in /data/layout.yaml -->" | safeHTML }}
+		{{ partial "e/blocks-common.html" "head" }}
+			
+		{{ "<!-- Insert head blocks defined in /data/layout.yaml or page -->" | safeHTML }}
+		{{ partial "e/blocks" "head" }}
 	</head>
-	
 	<body id="page-top" class="layout-page">
-
-		{{/* <!-- Standard navigation --> */}}		
-		{{ template "site-navbar" . }}
-			
+		{{ "<!-- Insert _common bodytop blocks defined in /data/layouts.yaml -->" | safeHTML }}
+		{{/* <!-- this is for example the menu bar --> */}}
+		{{ partial "e/blocks-common.html" "bodytop" }}
 		<main id="main" class="main" role="main">
-			
-			{{/* <!-- main content can use default layout, or by defining .blocks in the page .Params --> */}}
-			{{ range page.Params.blocks }}
-				
-				{{/* <!-- if .blocks defined in Params, then use it to define custom page layout --> */}}
-				{{ if eq .type "data-cta" }}
-					{{ template "data-cta" . }}
-				{{ else if eq .type "data-module-list" }}
-					{{ template "data-module-list" . }}
-				{{ else if eq .type "data-reference-list" }}
-					{{ template "data-reference-list" . }}
-				{{ else if eq .type "data-testimonial-list" }}
-					{{ template "data-testimonial-list" . }}
-				{{ else if eq .type "page-breadcrumbs" }}
-					{{ template "page-breadcrumbs" . }}
-				{{ else if eq .type "page-content" }}
-					{{ template "page-content" . }}
-				{{ else if eq .type "page-hero" }}
-					{{ template "page-hero" . }}
-				{{ else if eq .type "page-list" }}
-					{{ template "page-list" . }}
-				{{ else if eq .type "page-title" }}
-					{{ template "page-title" . }}
-				{{ else if eq .type "page-title-home" }}
-					{{ template "page-title-home" . }}
-				{{ else if eq .type "site-location" }}
-					{{ template "site-location" . }}
-				{{ else }}
-					{{ template "error-unknown" . }}
-				{{ end }}
-				
-			{{ else }}
-				
-				{{/* <!-- else use default main template --> */}}
-				{{/* <!-- can be overridden in page templates --> */}}
-				{{ template "main" . }}
-				
-			{{ end }}
-			
-			{{ template "site-contact" . }}
-			
+			{{ "<!-- Insert body blocks defined in /data/layout.yaml or page -->" | safeHTML }}
+			{{ partial "e/blocks" "body" }}
 		</main>
-			
+		{{ "<!-- Insert _common bodybottom blocks defined in /data/layouts.yaml -->" | safeHTML }}
+		{{/* <!-- this is for example the contact form --> */}}
+		{{ partial "e/blocks-common.html" "bodybottom"}}
 		<footer id="footer" class="footer">
-			{{ template "site-footer" . }}
+			{{ "<!-- Insert _common footer blocks defined in /data/layouts.yaml -->" | safeHTML }}
+			{{ partial "e/blocks-common.html" "footer" }}
 		</footer>
-		
-		{{ template "site-js" . }}
-		
+		{{ partial "js/js.html" . }}
 	</body>
-	
 </html>
 {{ "<!-- _default/baseof.html:end -->" | safeHTML }}
-
-
-
-{{/* <!-- definition of default main template --> */}}
-
-	{{ define "main" }}
-		{{ "<!-- _default/baseof.html:main:define:start -->" | safeHTML }}
-		{{ if page.Params.Picture }}
-			{{ template "page-hero" . }}			
-		{{ else }}
-			{{ template "page-title" . }}
-		{{ end }}
-		{{ if (not .Parent.IsHome) }}
-			{{ template "page-breadcrumbs" . }}
-		{{ end }}
-		{{ template "page-content" . }}
-		{{ if page.IsNode }}
-			{{ template "page-list" . }}
-		{{ end }}
-		{{ "<!-- _default/baseof.html:main:define:end -->" | safeHTML }}
-	{{ end }}
-
-
-
-{{/* <!-- definition of default element templates --> */}}
-
-	{{ define "head-css" }}
-		{{ "<!-- _default/baseof.html:head-css:define:start -->" | safeHTML }}
-		{{ partial "b/head-css.html" . }}
-		{{ "<!-- _default/baseof.html:head-css:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "head-title" }}
-		{{ "<!-- _default/baseof.html:head-title:define:start -->" | safeHTML }}
-		{{ partial "b/head-title.html" . }}
-		{{ "<!-- _default/baseof.html:head-title:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "head-meta" }}
-		{{ "<!-- _default/baseof.html:head-meta:define:start -->" | safeHTML }}
-		{{ partial "b/head-meta.html" . }}
-		{{ "<!-- _default/baseof.html:head-meta:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "head-meta-desc" }}
-		{{ "<!-- _default/baseof.html:head-meta-desc:define:start -->" | safeHTML }}
-		{{ partial "b/head-meta-desc" . }}
-		{{ "<!-- _default/baseof.html:head-meta-desc:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "head-hreflang" }}
-		{{ "<!-- _default/baseof.html:head-hreflang:define:start -->" | safeHTML }}
-		{{ partial "b/head-hreflang.html" . }}
-		{{ "<!-- _default/baseof.html:head-hreflang:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "head-alternate" }}
-		{{ "<!-- _default/baseof.html:head-alternate:define:start -->" | safeHTML }}
-		{{ partial "b/head-alternate.html" . }}
-		{{ "<!-- _default/baseof.html:head-alternate:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "head-favicon" }}
-		{{ "<!-- _default/baseof.html:head-favicon:define:start -->" | safeHTML }}
-		{{ partial "b/head-favicon.html" . }}
-		{{ "<!-- _default/baseof.html:head-favicon:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "head-schema" }}
-		{{ "<!-- _default/baseof.html:head-schema:define:start -->" | safeHTML }}
-		{{ partial "b/head-schema.html" . }}
-		{{ "<!-- _default/baseof.html:head-schema:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "head-custom" }}
-		{{/* <!-- page specific head info, for example a common schema --> */}}
-		{{/* <!-- empty for _default template --> */}}
-	{{ end }}
-
-	{{ define "data-cta" }}
-		{{ "<!-- _default/baseof.html:data-cta:define:start -->" | safeHTML }}
-		{{ partial "b/data-cta.html" . }}
-		{{ "<!-- _default/baseof.html:data-cta:define:end -->" | safeHTML }}
-	{{ end }}					
-	
-	{{ define "data-module-list" }}
-		{{ "<!-- _default/baseof.html:data-module-list:define:start -->" | safeHTML }}
-		{{ partial "b/data-module-list.html" . }}
-		{{ "<!-- _default/baseof.html:data-module-list:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "data-reference-list" }}
-		{{ "<!-- _default/baseof.html:data-reference-list:define:start -->" | safeHTML }}
-		{{ partial "b/data-reference-list.html" . }}
-		{{ "<!-- _default/baseof.html:data-reference-list:define:end -->" | safeHTML }}
-	{{ end }}
-		
-	{{ define "data-testimonial-list" }}
-		{{ "<!-- _default/baseof.html:data-testimonial-list:define:start -->" | safeHTML }}
-		{{ partial "b/data-testimonial-list.html" . }}
-		{{ "<!-- _default/baseof.html:data-testimonial-list:define:end -->" | safeHTML }}
-	{{ end }}
-		
-	{{ define "page-breadcrumbs" }}
-		{{ "<!-- _default/baseof.html:page-breadcrumbs:define:start -->" | safeHTML }}
-		{{ partial "b/page-breadcrumbs.html" page }}
-		{{ "<!-- _default/baseof.html:page-breadcrumbs:define:end -->" | safeHTML }}
-	{{ end }}
-		
-	{{ define "page-content" }}
-		{{ "<!-- _default/baseof.html:page-content:define:start -->" | safeHTML }}
-		{{ partial "b/page-content.html" page }}
-		{{ "<!-- _default/baseof.html:page-content:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "page-hero" }}
-		{{ "<!-- _default/baseof.html:page-hero:define:start -->" | safeHTML }}
-		{{ partial "b/page-hero.html" page }}
-		{{ "<!-- _default/baseof.html:page-hero:define:end -->" | safeHTML }}
-	{{ end }}
-		
-	{{ define "page-list" }}
-		{{ "<!-- _default/baseof.html:page-list:define:start -->" | safeHTML }}
-		{{ partial "b/page-list" page }}
-		{{ "<!-- _default/baseof.html:head-list:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "page-title" }}
-		{{ "<!-- _default/baseof.html:page-title:define:start -->" | safeHTML }}
-		{{ partial "b/page-title.html" page }}
-		{{ "<!-- _default/baseof.html:page-title:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "page-title-home" }}
-		{{ "<!-- _default/baseof.html:page-title-home:define:start -->" | safeHTML }}
-		{{ partial "b/page-title-home.html" page }}
-		{{ "<!-- _default/baseof.html:page-title-home:define:end -->" | safeHTML }}
-	{{ end }}
-		
-	{{ define "site-contact" }}
-		{{ "<!-- _default/baseof.html:site-contact:define:start -->" | safeHTML }}
-		{{ partial "b/site-contact.html" . }}
-		{{ "<!-- _default/baseof.html:site-contact:define:end -->" | safeHTML }}
-	{{ end }}
-
-	{{ define "site-footer" }}
-		{{ "<!-- _default/baseof.html:site-footer:define:start -->" | safeHTML }}
-		{{ partial "b/site-footer.html" . }}
-		{{ "<!-- _default/baseof.html:site-footer:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "site-js" }}
-		{{ "<!-- _default/baseof.html:site-js:define:start -->" | safeHTML }}
-		{{ partial "b/site-js.html" . }}
-		{{ "<!-- _default/baseof.html:site-js:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "site-navbar" }}
-		{{ "<!-- _default/baseof.html:site-navbar:define:start -->" | safeHTML }}
-		{{ partial "b/site-navbar.html" . }}
-		{{ "<!-- _default/baseof.html:site-navbar:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "site-location" }}
-		{{ "<!-- _default/baseof.html:site-location:define:start -->" | safeHTML }}
-		{{ partial "b/site-location.html" . }}
-		{{ "<!-- _default/baseof.html:site-location:define:end -->" | safeHTML }}
-	{{ end }}
-	
-	{{ define "error-unknown" }}
-		{{ "<!-- _default/baseof.html:error-unknown:define:start -->" | safeHTML }}
-		{{ partial "b/error-unknown.html" . }}
-		{{ "<!-- _default/baseof.html:error-unknown:define:end -->" | safeHTML }}
-	{{ end }}

@@ -6,15 +6,14 @@ picture: "formation.jpg"
 translationKey: "presentations-training"
 type: "training"
 
-blocks:
-- type: "data-cta"
-  datafile: "public-speaking-training"
-- type: "page-breadcrumbs"
-- type: "data-reference-list"
-  datafilelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
-- type: "page-content"
-- type: "data-module-list"
-  datafilelist: [ "guidepublicspeaking", "guideremotepresentations" ]
+datacta: "public-speaking-training"
+datareferencelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
+datamodulelist: [ "guidepublicspeaking", "guideremotepresentations" ]
+
+body:
+  - hero
+  - reference-list
+  - content-training-section
 
 sidebar:
   title: "Liste des formations"

@@ -1,0 +1,32 @@
+{{/* <!--
+	
+	f/getblocks
+
+	get blocks of the type specified
+	
+ --> */}}
+
+{{ $data := page }} {{/* <!-- page object --> */}}
+{{ $part := . }} {{/* <!-- string equal to "head", "body" or "footer" --> */}}
+
+{{/* <!-- set default result to _default blocks matching $part ("head" or "body") --> */}}
+{{ $result := index (index (index site.Data.layouts "_default") $data.Kind) $part }}
+
+{{/* <!-- if specific blocks matching part are defined in page --> */}}
+{{ if isset page.Params $part }}
+	{{/* <!-- then use specific blocks defined in page front matter --> */}}
+	{{ $result = index page.Params $part }}
+
+{{/* <!-- else if specific blocks matching page .Type defined in /data/layouts.yaml --> */}}
+{{ else if (isset site.Data.layouts $data.Type) }}
+	{{ $type := index site.Data.layouts $data.Type }}
+	{{ if $type }}
+		{{/* <!-- and if specific blocks matching page .Kind defined in /data/layouts.yaml --> */}}
+		{{ if (isset $type $data.Kind) }}
+			{{/* <!-- then use specific blocks defined in /data/layouts.yaml --> */}}
+			{{ $result = index (index $type $data.Kind) $part }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+{{ return $result }}

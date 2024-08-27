@@ -1,0 +1,193 @@
+# /data/layouts.yaml is where all page structures are defined.
+# this is a lot easier to read and maintain vs. multiple templates per page type
+
+# common blocks are added to ALL pages
+# they cannot be overridden
+_common:
+    # common header blocks for all pages
+    head:
+        - css
+        - meta
+        - hreflang
+        - alternate
+        - favicon
+        - schema
+    # common body blocks above "main" for all pages
+    bodytop:
+        - navbar
+    # common body blocks after "main" for all pages
+    bodybottom:
+        - contact
+    # common footer blocks for all pages
+    footer:
+        - footer
+
+
+
+# default blocks are used if no specific blocks are defined for a page type.
+# they can be overridden by a specific .Type and .Kind combination below in this file
+# or by a "body:" argument followed by a list (similar to the body: declaration this file) in the front matter of a page
+_default:
+    # page.Kind "section"
+    section:
+        head:
+            - meta-desc-section
+            - title-section
+        body:
+            - title
+            - breadcrumbs
+            - content
+            - list
+            - module-aside-list
+    # page.Kind "single"
+    page:
+        head:
+            - meta-desc-single
+            - title-single
+        body:
+            - title
+            - breadcrumbs
+            - content
+            - module-aside-list
+    # page.Kind "home"
+    home:
+        head:
+            - meta-desc-single
+            - schema-corporation
+            - schema-website
+            - title-home
+        body:
+            - title-home
+            - cta
+            - module-list
+            - content-home
+            - reference-list
+            - module-aside-list
+            - testimonial-list
+            - location
+    # page.Kind "404"
+    404:
+        head:
+            - meta-desc-single
+            - title-404
+        body:
+            - "404"
+
+
+
+# below are the specific .Type + .Kind combinations that can override the _default blocks.
+# they can be overridden for a page by a "body:" argument in the page front matter
+# to know the exact .Type and .Kind of a page, temporarily put {{ .Type }} {{ .Kind }} in the body of baseof.html template
+
+# page.Type "news"
+news:
+    # page.Kind "section"
+    section:
+        body:
+            - title
+            - list-news
+    # page.Kind "page"
+    page:
+        head:
+            - meta-desc-news-single
+            - title-single
+        body:
+            - title
+            - content-news-single
+
+
+
+# page.Type "references"
+references:
+    # page.Kind "section"
+    section:
+        body:
+            - title
+            - reference-list
+            - content
+            - list-references
+
+
+
+# page.Type "revolution"
+revolution:
+    # page.Kind "section"
+    section:
+        head:
+            - css-revolution-section
+            - meta-desc-section
+            - title-section
+        body:
+            - title
+            - list-revolution
+    # page.Kind "page"
+    page:
+        body:
+            - title
+            - content-revolution
+
+
+
+# page.Type "tags"
+tags:
+    # page.Kind "taxonomy"
+    taxonomy:
+        head:
+            - meta-desc-tags-taxonomy
+            - meta-robots-ni
+            - title-tags-taxonomy
+        body:
+            - title
+            - list-tags
+    # page.Kind "term"
+    term:
+        head:
+            - meta-desc-tags-term
+            - meta-robots-ni
+            - title-tags-term
+        body:
+            - title
+            - breadcrumbs
+            - list-tags
+
+
+
+# page.Type "team"
+team:
+    # page.Kind "section"
+    section:
+        head:
+            - css-team
+            - meta-desc-section
+            - title-section
+        body:
+            - title
+            - content-home
+            - list-team
+    # page.Kind "page"
+    page:
+        head:
+            - meta-desc-team-single
+            - schema-person
+            - title-team-single
+        body:
+            - breadcrumbs
+            - content-team-single
+
+
+
+# page.Type "training"
+training:
+    # page.Kind "section"
+    section:
+        body:
+            - hero
+            - breadcrumbs
+            - reference-list
+            - content
+            - list
+    # page.Kind "page"
+    page:
+        body:
+            - title
+            - content-training-single
