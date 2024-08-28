@@ -6,14 +6,19 @@
 	{{- $variables.Content | safeCSS -}}
 	{{- $navbar := resources.Get "css/navbar.scss" | resources.ExecuteAsTemplate "critical.css" . | resources.ToCSS | resources.Minify -}}
 	{{- $navbar.Content | safeCSS -}}
-	{{- $typography := resources.Get "css/typography.css" | resources.Minify -}}
-	{{- $typography.Content | safeCSS -}}
 </style>
-
-{{ "<!-- Font Awesome -->" | safeHTML }}
-{{ $fontawesome := resources.Get "css/font-awesome.min.css" | resources.Minify }}
-<link rel="stylesheet" href="{{ $fontawesome.RelPermalink }}" type="text/css">
-
+{{ "<!-- Typography -->" | safeHTML }}
+<style type="text/css">
+	{{- $typography := resources.Get "css/typography.css" | resources.Minify -}}
+	{{- $typography.Content | safeCSS -}}	
+</style>
+{{ "<!-- FontAwesome -->" | safeHTML }}
+<style>
+	{{- $fontawesome := resources.Get "css/fontawesome.css" | resources.Minify -}}
+	{{- $fontawesome.Content | safeCSS -}}
+	{{- $fontawesome := resources.Get "css/fontawesome.scss" | resources.ToCSS | resources.Minify -}}
+	{{- $fontawesome.Content | safeCSS -}}
+</style>
 {{ "<!-- Site CSS -->" | safeHTML }}
 {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
