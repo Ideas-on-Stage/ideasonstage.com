@@ -9,7 +9,8 @@
 				{{ $home = printf "%s%s/" $home .Site.LanguageCode }}	
 			{{ end }}
 			<a class="page-scroll" href="{{ $home }}">
-				<img src="{{ .Site.Params.navigation.brand_logo }}" alt="Ideas on Stage">
+				{{ $logo := resources.Get "img/ideas-on-stage.svg" }}
+				{{ $logo.Content | safeHTML }}
 			</a>
 		</div>
 		
