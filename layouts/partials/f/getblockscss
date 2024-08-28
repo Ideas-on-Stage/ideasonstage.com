@@ -1,0 +1,29 @@
+{{/* <!--
+	
+	f/getblockscss
+
+	get critical css resources matching list of "body" blocks
+	
+	Arguments:
+	- anything (argument not used, but one must be passed)
+	
+	Process:
+	- Checks for each "body" block if a .css file exists with same name
+	  If yes, add it to the list of .css files
+		
+	Returns:
+	- file list as a list of strings (WITHOUT path, subfolder or extension)
+	
+ --> */}}
+
+{{ $blocks := partial "f/getblocks" "body" }}
+{{ $result := slice }}
+
+{{ range $blocks }}
+	{{ $filepath := printf "assets/css/%s.scss" . }}
+	{{ if fileExists $filepath }}
+		{{ $result = $result | append . }}
+	{{ end }}
+{{ end }}
+
+{{ return $result }}

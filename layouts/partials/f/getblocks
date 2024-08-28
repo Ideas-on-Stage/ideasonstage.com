@@ -2,7 +2,18 @@
 	
 	f/getblocks
 
-	get blocks of the type specified
+	get blocks of the type specified, "head" or "body"
+	
+	Arguments:
+	- "head" or "body" as string based on which blocks to get
+	
+	Process:
+	- If page.Params.head or page.Params.body then get the list of blocks from page.Params
+	- Else if a specific .Type and .Kind block list exists in layouts.yaml, use it
+	- Else use _default block list for .Kind in layouts.yaml
+		
+	Returns:
+	- Block list as a list of strings
 	
  --> */}}
 

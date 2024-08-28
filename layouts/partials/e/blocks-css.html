@@ -1,0 +1,11 @@
+{{ "<!-- partials/e/blocks-css.html:start -->" | safeHTML }}
+<style type="text/css">
+	{{- $blocks := partial "f/getblockscss" "dummy" -}}
+	{{- range $blocks -}}
+		{{- $resource := printf "css/%s.scss" . -}}
+		{{- $css := printf "%s.css" . -}}
+		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | resources.ToCSS | resources.Minify }}
+		{{- $style.Content | safeCSS -}}
+	{{- end -}}
+</style>
+{{ "<!-- partials/e/blocks-css.html:end -->" | safeHTML }}

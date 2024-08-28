@@ -1,6 +1,7 @@
 {{ "<!-- partials/b/page-title.html:start -->" | safeHTML }}
 
-{{ if .Params.picture }}
+{{ $hero := partial "f/getheropicturepath" . }}
+{{ if $hero }}
 	{{ partial "body/hero.html" . }}
 {{ else if .Title }}
 	{{ if and (eq .Section "news") (.IsPage) }}

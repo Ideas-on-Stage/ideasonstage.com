@@ -262,12 +262,12 @@
 	#content-main li {
 		line-height: 1.6em;
 	}
-	#content-main :first-child {
+	#content-main > :first-child {
 		/* remove top margin from first element of content */
 		margin-top: 0;
 	}
 	
-	#content-main :last-child {
+	#content-main > :last-child {
 		/* remove bottom margin from last element of content */
 		margin-bottom: 0;
 	}

@@ -38,7 +38,7 @@ Here are downloadable storyline outlines with examples, together with a printabl
 
 * [5.1. The pSCORE Guide to Connection](bpr-bonus-5-1-the-pscore-guide-to-connection-pdf.zip)
 
-[Click here to go back to the main Business Presentation Revolution Bonus Resources page](/business-presentation-revolution/book/bonus-content/)
+[Click here to go back to the main Business Presentation Revolution Bonus Resources page](/resources/books/business-presentation-revolution-book/bonus-content/)
 
 Footnote: we don’t use any cookies or tracking on this web site. This is great for your privacy, but because we don’t track you, if you want to come back to this page to download more resources, you’ll need to fill in your name and email address again. Don’t worry: this doesn’t mean you’ll get our tips more than once (as long as you use the same email address as before), so it’s just a minor inconvenience. But it might be worth bookmarking this page for easier future reference.
 

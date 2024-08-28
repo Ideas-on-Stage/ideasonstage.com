@@ -1,31 +1,31 @@
 {{ "<!-- partials/b/page-js.html:start -->" | safeHTML }}
 
 {{ "<!-- jQuery - Required for form validation -->" | safeHTML }}
-{{ $jsjquery := resources.Get "jquery.js" | resources.Minify }}
+{{ $jsjquery := resources.Get "js/jquery.js" | resources.Minify }}
 <script src="{{ $jsjquery.RelPermalink }}"></script>
 
 {{ "<!-- jQuery - Contact form event handler -->" | safeHTML }}
 <script type="text/javascript">
-  $("form").submit(function(e) {
-    e.preventDefault();
-    var $form = $(this);
-    var submitButton = $('input[type=submit]', this);
+	$("form").submit(function(e) {
+		e.preventDefault();
+		var $form = $(this);
+		var submitButton = $('input[type=submit]', this);
 
-    $.post($form.attr("action"), $form.serialize()).done(function(data) {
-        var successMessage = submitButton.attr("success");
-        submitButton.prop('value', successMessage);
-        alert(submitButton.attr('success'));
-        submitButton.prop('disabled', true);
-    }).fail(function(data) {
-      // Optionally alert the user of an error here...
-    });
-  });    
+		$.post($form.attr("action"), $form.serialize()).done(function(data) {
+				var successMessage = submitButton.attr("success");
+				submitButton.prop('value', successMessage);
+				alert(submitButton.attr('success'));
+				submitButton.prop('disabled', true);
+		}).fail(function(data) {
+			// Optionally alert the user of an error here...
+		});
+	});
 </script>
 
-{{ "<!-- Search Management JavaScript, as resources to minify js -->" | safeHTML }}   
-{{ $jsfuse := resources.Get "fuse.js" | resources.Minify }}
+{{ "<!-- Search Management JavaScript, as resources to minify js -->" | safeHTML }} 	
+{{ $jsfuse := resources.Get "js/fuse.js" | resources.Minify }}
 <script async src="{{ $jsfuse.RelPermalink }}"></script>
-{{ $jsfs := resources.Get "fastsearch.js" | resources.Minify }}
+{{ $jsfs := resources.Get "js/fastsearch.js" | resources.Minify }}
 <script async src="{{ $jsfs.RelPermalink }}"></script> 
 
 {{ "<!-- partials/b/page-js.html:end -->" | safeHTML }}

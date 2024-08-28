@@ -20,14 +20,14 @@
 	- the common footer blocks are added.
 	- there are no specific footer blocks.
 --> */}}
-
 {{ "<!-- _default/baseof.html:start -->" | safeHTML }}
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">	
-	<head id="head">		
+	<head id="head">
 		{{ "<!-- Insert _common head blocks defined in /data/layout.yaml -->" | safeHTML }}
 		{{ partial "e/blocks-common.html" "head" }}
-			
+		{{ "<!-- Insert critical css based on body blocks -->" | safeHTML }}
+		{{ partial "e/blocks-css.html" "dummy" }}
 		{{ "<!-- Insert head blocks defined in /data/layout.yaml or page -->" | safeHTML }}
 		{{ partial "e/blocks" "head" }}
 	</head>
