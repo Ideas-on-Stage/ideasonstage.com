@@ -1,5 +1,3 @@
-
-/* main page title layout */
 .title {
 	top: var(--menubar-height);
 	z-index: 100;
@@ -10,38 +8,6 @@
 	color: var(--color-text-inv);
 }
 
-
-/* main page title layout */
-.title--hero-title {
-	position: sticky;
-	top: var(--menubar-height);
-	z-index: 100;
-	display: flex;
-	justify-content: center;
-	padding: 2vw;
-	text-align: center;
-	color: #fff;
-	background-color: rgba(0, 0, 0, 0.4);	
-}
-
-/* hero layout module */
-.title--hero {
-	height: var(--hero-height);
-	width: calc(100% - 0.001px);
-	max-width: var(--page-max-width);
-}
-
-.title--hero-layer {
-	position: absolute;
-	height: inherit;
-	width: inherit;
-	max-height: inherit;
-	max-width: inherit;
-}
-.title--hero-layer > img {
-	height: inherit; /* ! works only if height of parent is calculated as vw or px, not % */
-	width: inherit; /* ! works only if width of parent is calculated as vw or px, not % */
-	max-height: inherit;
-	max-width: inherit;
-	object-fit: cover;
-}
+/* include css for hero */
+{{- $css := resources.Get "css/hero.scss" | resources.ExecuteAsTemplate "hero.css" . | resources.ToCSS | resources.Minify -}}
+{{- $css.Content | safeCSS -}}

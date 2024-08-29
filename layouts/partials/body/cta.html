@@ -13,9 +13,11 @@
 		{{ $localizeddata := index $data site.LanguageCode }}
 		{{ with $localizeddata }}
 			<header id="call-to-action" class="cta">
-				{{ $srcset := partial "f/getpicturesrcset" .picture }}
-				<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .title }}">
-				<div class= "cta--layer cta--text" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
+				<div class="critical--layer">
+					{{ $srcset := partial "f/getpicturesrcset" .picture }}
+					<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .title }}">
+				</div>
+				<div class= "critical--layer cta--text" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
 					{{ if eq "h2" .level }}
 						<h2 class="cta--title">{{ "<!-- picture and h1 -->" | safeHTML }}
 							{{ with .title }}

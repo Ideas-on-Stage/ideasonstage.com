@@ -1,23 +1,15 @@
 {{ "<!-- partials/b/page-hero.html:start -->" | safeHTML }}
-{{/* <!-- get hero picture if there is one available --> */}}
-{{ $heropath := partial "f/getheropicturepath" . }}
-{{ $srcset := partial "f/getpicturesrcset" $heropath }}
-<header id="hero" class="title--hero">
-	<div class="title--hero-layer">
+<header id="hero" class="hero">
+	<div class="critical--layer">
+		{{/* <!-- get hero picture if there is one available --> */}}
+		{{ $heropath := partial "f/getheropicturepath" . }}
+		{{ $srcset := partial "f/getpicturesrcset" $heropath }}
 		<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
 	</div>
-	<div class="title--hero-layer">
-		<div class="title--hero-title">
-			{{ if eq true $.Page.Params.Heroh2 }}
-				<h2 class="text-center">{{ "<!-- picture and h1 -->" | safeHTML }}
-					{{ with .Title }}{{ . | markdownify }}{{ end }}
-				</h2>
-			{{ else }}
-				<h1 class="text-center">{{ "<!-- picture and h2 -->" | safeHTML }}
-					{{ with .Title }}{{ . | markdownify }}{{ end }}
-				</h1>
-			{{ end }}
-		</div>
+	<div class="critical--layer">
+		<h1 class="hero--title">{{ "<!-- picture and h2 -->" | safeHTML }}
+			{{ with .Title }}{{ . | markdownify }}{{ end }}
+		</h1>
 	</div>
 </header>
 {{ "<!-- partials/b/page-hero.html:end -->" | safeHTML }}
