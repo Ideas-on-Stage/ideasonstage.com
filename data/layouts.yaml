@@ -60,7 +60,7 @@ _default:
             - title-home
             - cta
             - module-list
-            - content-home
+            - content-short
             - reference-list
             - module-aside-list
             - testimonial-list
@@ -114,7 +114,6 @@ revolution:
     # page.Kind "section"
     section:
         head:
-            - css-revolution-section
             - meta-desc-section
             - title-section
         body:
@@ -124,6 +123,7 @@ revolution:
     page:
         body:
             - title
+            - breadcrumbs
             - content-revolution
 
 
@@ -157,12 +157,11 @@ team:
     # page.Kind "section"
     section:
         head:
-            - css-team
             - meta-desc-section
             - title-section
         body:
             - title
-            - content-home
+            - content-short
             - list-team
     # page.Kind "page"
     page:
@@ -181,7 +180,7 @@ training:
     # page.Kind "section"
     section:
         body:
-            - hero
+            - title
             - breadcrumbs
             - reference-list
             - content

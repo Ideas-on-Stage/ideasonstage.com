@@ -1,0 +1,91 @@
+.list-revolution--hero {
+	height: var(--hero-height);
+	width: calc(100% - 0.001px);
+	max-width: var(--page-max-width);
+}
+
+.list-revolution--hero-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.list-revolution--social {
+	text-align: center;	
+}
+
+.list-revolution--social > a > img {
+	width: 3em;
+	height: 3em;
+}
+
+.list-revolution--box {
+	height: 100%;
+	flex: 1;
+	flex-basis: 33%;
+	width: 33%;
+	max-width: 50%;
+	min-width: 250px;
+	padding: 00.5em;
+	position: relative;
+	margin-bottom: 2em;
+	box-sizing: border-box;
+}
+
+.list-revolution--thumb-frame {
+	height: 100%;
+	position:relative;
+}
+
+.list-revolution--thumb-frame:hover .list-revolution--overlay .list-revolution--overlay-title {
+	color: var(--color-primary);
+	outline: 0;
+}
+
+.list-revolution--thumb {
+	width:100%;
+	box-sizing: border-box;
+}
+.list-revolution--thumb img {
+	display: block; /* to prevent line height from being added to div height */
+	width: 100%;
+	height: 100%;
+}
+
+.list-revolution--overlay {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-left: 0.3em;
+	padding-bottom: 0.1em;
+	padding-top: 1.5em;
+	background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0.9));
+	box-sizing: border-box;	
+}
+
+.list-revolution--overlay-title {
+	font-size: 1.2em;
+	font-weight: 700;
+	text-align: left;
+	bottom: 0;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+.list-revolution--summary {
+	font-size: 1em;
+	color: #222;
+	padding-top:0.1em;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+	box-sizing: border-box;
+}
+
+@media (max-width:480px) {
+	.list-revolution--box {
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+}

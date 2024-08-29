@@ -1,0 +1,47 @@
+.cta {
+	width: var(--hero-width);
+	height: var(--hero-height);
+	max-width: var(--page-max-width);
+	overflow: hidden;
+}
+
+.cta--layer {
+	position: absolute;
+	height: inherit;
+	width: inherit;
+	max-height: inherit;
+	max-width: inherit;
+}
+
+.cta img {
+	position: absolute;
+	height: inherit; /* ! works only if height of parent is calculated as vw or px, not % */
+	width: inherit; /* ! works only if width of parent is calculated as vw or px, not % */
+	max-height: inherit;
+	max-width: inherit;
+	object-fit: cover;
+}
+@media (max-width:480px) {
+	.cta-layer,
+	.cta img {
+		width: 100%;
+	}	
+}
+
+.cta--text {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.cta--title {
+	color: white;
+	text-align: center;
+} 
+
+.cta--description {
+	color: white;
+	text-align: center;
+} 

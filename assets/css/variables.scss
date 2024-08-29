@@ -1,50 +1,64 @@
 :root {
+
+	/* menubar */
+	--menubar-height: 52px;
 	
-	--page-padding-top: {{ site.Params.layout.page.padding_top }};
-	--page-padding-right: {{ site.Params.layout.page.padding_right }};
-	--page-padding-bottom: {{ site.Params.layout.page.padding_bottom }};
-	--page-padding-left: {{ site.Params.layout.page.padding_left }};
-	--page-max-width: {{ site.Params.layout.page.max_width }};
+	/* page */
+	--page-padding-top: var(--menubar-height);
+	--page-padding-right: 0px;
+	--page-padding-bottom: 0px;
+	--page-padding-left: 0px;
+	--page-max-width: 1920px;
 
-	--content-max-width: {{ site.Params.layout.content.max_width }};
-	--content-max-width-narrow: {{ site.Params.layout.content.max_width_narrow }};
+	/* content */
+	--content-max-width: 1200px;
+	--content-max-width-narrow: 800px;
 
-	--menubar-height: {{ site.Params.layout.menubar.height }};
-	--menubar-burger: {{ site.Params.layout.menubar.burger }};
-	--menubar-condensed: {{ site.Params.layout.menubar.condensed }};	
+	/* blocks */
+	--hero-width: calc( 100% - 0.001px );
+	--hero-height:	60vh;
 	
-	--hero-height:	{{ site.Params.layout.hero.height }};
-	--module-height: {{ site.Params.layout.module.height }};
-	--module-column-gap: {{ site.Params.layout.module.column_gap }};
-	--module-row-gap: {{ site.Params.layout.module.row_gap }};
-	--module-big-gap: {{ site.Params.layout.module.column_gap_big }};
-
 	--module-width: calc( 100% - 0.001px );
+	--module-height: 40vw;
+	
+	--module-column-gap: 12px;
+	--module-row-gap: 12px;
+	--module-big-gap: 24px;
+
 	--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px ); /* width of 1/12th column */
 	--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px ); /* width of 1/5th column */
 
-	--module-ts-height: {{ site.Params.layout.module.ts.height }};
-	--module-ts-column-gap: {{ site.Params.layout.module.ts.column_gap }}; 
-	--module-ts-row-gap: {{ site.Params.layout.module.ts.row_gap }};
-	--module-ts-big-gap: {{ site.Params.layout.module.ts.big_gap }};
+	--module-ts-height: 140vw;
+	--module-ts-column-gap: 4vw; 
+	--module-ts-row-gap: 4vw;
+	--module-ts-big-gap: 4vw;
 
 	--module-ts-12c-width: calc( ( 100% - var(--module-ts-column-gap) * 11 ) / 12 );
 	--module-ts-5c-width: calc( ( 100% - var(--module-ts-column-gap) * 4 ) / 5 );
+
+
 	
 	/* colors */
-	--color-blockquote: {{ site.Params.colors.blockquote }};
-	--color-blue: {{ site.Params.colors.blue }};
-	--color-button-primary: {{ site.Params.buttons.primary.color }};
-	--color-button-primary-bg: {{ site.Params.buttons.primary.bg_color }};
-	--color-button-secondary: {{ site.Params.buttons.secondary.color }};
-	--color-button-secondary-bg: {{ site.Params.buttons.secondary.bg_color }};
-	--color-darkgray: {{ site.Params.colors.darkgray }};
-	--color-lightgray: {{ site.Params.colors.lightgray }};
-	--color-midgray: {{ site.Params.colors.midgray }};
-	--color-link-hover: {{ site.Params.colors.link_hover }};
-	--color-primary: {{ site.Params.colors.orange }};
-	--color-text: {{ site.Params.colors.text }};
-	--color-text-inv: {{ site.Params.colors.text_inv }};
-	--color-time: {{ site.Params.colors.time }};
+	--color-primary: #FF8200;
+	--color-secondary: #00A3E0;
+	--color-darkgray: #222;
+	--color-lightgray: #eee;
+	--color-midgray: #888;
+	
+	--color-text: black;
+	--color-text-inv: white;
+
+	--color-bg-dark: var(--color-darkgray);
+	--color-bg-light: white;
+		
+	--color-blockquote: var(--color-secondary);
+	--color-link-hover: var(--color-primary);
+	--color-time: #aaa;
+	
+	--color-button-primary: var(--color-text-inv);
+	--color-button-primary-bg: var(--color-primary);
+
+	--color-button-secondary: var(--color-secondary);
+	--color-button-secondary-bg: none;
 	
 }

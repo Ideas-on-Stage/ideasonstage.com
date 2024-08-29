@@ -1,6 +1,6 @@
 {{ "<!-- partials/b/data-reference-list:start -->" | safeHTML }}
 {{ with .Params.datareferencelist }}
-	<section id="references" class="layout-module-group margin bg-white">
+	<section id="reference-list" class="layout-module-group margin bg-white">
 		<div class="flex-parent flex-parent-row flex-parent-gap flex-parent-justify-start">
 			{{ range . }}
 				{{ $data := index site.Data.references . }}

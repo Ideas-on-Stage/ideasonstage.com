@@ -27,16 +27,6 @@ title 					= "Ideas on Stage"
 	favicon	= "/img/ios_favicon.ico"
 	
 	# ---------------------
-	# Buttons
-	[params.buttons]
-		[params.buttons.primary]
-			color		= "white"
-			bg_color	= "#FF8200"
-		[params.buttons.secondary]
-			color		= "#00A3E0"
-			bg_color	= "none"
-
-	# ---------------------
 	# CSS
 	[params.css]
 		main			= "main.scss"
@@ -45,57 +35,14 @@ title 					= "Ideas on Stage"
 		fontawesome		= "/css/font-awesome.min.css"
 
 	# ---------------------
-	# Colors
-	[params.colors]
-		link_hover	= "#FF8200"
-		text		= "#444"
-		text_inv	= "white"
-		title_h1	= "black"
-		title_h2	= "black"
-		title_h3	= "black"
-		title_h4	= "black"
-		time		= "#aaa"
-		blockquote	= "#00A3E0"
-		darkgray	= "#222"
-		lightgray	= "#eee"
-		midgray		= "#888"
-		blue		= "#00A3E0"
-		orange		= "#FF8200"
-
-	# ---------------------
-	# Layout
+	# Responsive images
 	[params.images]
 		landscapePhotoWidths	= [2400, 1200, 480]
 		portraitPhotoWidths		= [1600, 800, 480]
 		quality					= 70
 
 	# ---------------------
-	# Layout
-	[params.layout]
-		[params.layout.menubar]
-			height			= "52px"
-		[params.layout.page]
-			padding_top		= "52px"
-			padding_right	= "0"
-			padding_bottom	= "0"
-			padding_left	= "0"
-			max_width		= "1920px"
-		[params.layout.hero]
-			height	= "60vh" # use vh so that it is proportional to screen height
-		[params.layout.module]
-			height			= "40vw" # use vw so that it remains proportional to width
-			column_gap		= "12px"
-			column_gap_big	= "24px"
-			row_gap			= "12px"
-			[params.layout.module.ts]
-				height			= "140vw"
-				column_gap		= "4vw"
-				column_gap_big	= "4vw"
-				row_gap			= "4vw"
-		[params.layout.content]
-			max_width			= "1200px"
-			max_width_narrow	= "800px"
-		
+	# Countries		
 	[[params.countries]]
 		name	= "USA"
 		url		= "/"

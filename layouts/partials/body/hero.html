@@ -2,12 +2,12 @@
 {{/* <!-- get hero picture if there is one available --> */}}
 {{ $heropath := partial "f/getheropicturepath" . }}
 {{ $srcset := partial "f/getpicturesrcset" $heropath }}
-<header id="hero" class="layout-module-hero">
-	<div class="layout-module-layer">
+<header id="hero" class="title--hero">
+	<div class="title--hero-layer">
 		<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
 	</div>
-	<div class="layout-module-layer">
-		<div class="layout-page-title style-page-title-overlay">
+	<div class="title--hero-layer">
+		<div class="title--hero-title">
 			{{ if eq true $.Page.Params.Heroh2 }}
 				<h2 class="text-center">{{ "<!-- picture and h1 -->" | safeHTML }}
 					{{ with .Title }}{{ . | markdownify }}{{ end }}

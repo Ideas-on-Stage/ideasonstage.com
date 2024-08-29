@@ -3,5 +3,5 @@
 {{ if (partial "f/ispage" .) }}
 	{{ $data = .Params }}
 {{ end }}
-<a href="{{ partial "f/geturl" . }}" class="button-secondary">{{ with $data.button }}{{ . }}{{ else }}{{ site.Params.buttons.default }}{{ end }}</a>
+<a href="{{ partial "f/geturl" . }}" class="critical--button-secondary">{{ with $data.button }}{{ . }}{{ else }}{{ site.Params.buttons.default }}{{ end }}</a>
 {{ "<!-- partials/e/button-secondary.html:end -->" | safeHTML }}

@@ -2,39 +2,33 @@
 {{ $content := .Content }}
 {{ range first 1 .Pages }}	
 	{{/* <!-- generate hero with newest video --> */}}
-	<section id="highlight">
-		<div class="layout-module-hero">
-			<div class="layout-module-layer">
-				<img src="{{ .RelPermalink }}image.jpg">
-			</div>
-			<div class="layout-module-layer">
-				<div class="flex-parent flex-parent-column">
-					<div class="flex-child-text text-center">
-						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
-							<h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
-						</a>
-						<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">
-							{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
-						</a>
-					</div>
-				</div>
-			</div>
+	<section id="highlight" class="list-revolution--hero">
+		<div class="critical--layer">
+			<img src="{{ .RelPermalink }}image.jpg">
+		</div>
+		<div class="critical--layer list-revolution--hero-text">
+			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
+				<h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
+			</a>
+			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">
+				{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
+			</a>
 		</div>
 	</section>
 {{ end }}
-<div class="layout-content">
+<div class="critical--content">
 	<div class="flex-parent flex-parent-row paddingt-none paddingb-medium">
 		<div class="layout-module-column-text style-module-text ">	
 			{{ with .Content }}{{ . | markdownify }}{{ end }}
 		</div>
 		<div class="flex-parent flex-parent-row paddingt-none paddingb-none flex-parent-justify-space-around">
-			<div class="flex-child revolution-social">
+			<div class="flex-child list-revolution--social">
 				<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="youtube.svg" alt="youtube"><br>YouTube</a>
 			</div>
-			<div class="flex-child revolution-social">
+			<div class="flex-child list-revolution--social">
 				<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"><img src="itunes.svg" alt="iTunes"><br>iTunes</a>
 			</div>
-			<div class="flex-child revolution-social">
+			<div class="flex-child list-revolution--social">
 				<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="linkedin.svg" alt="linkedin"><br>Linkedin</a>
 			</div>
 		</div>
@@ -50,19 +44,19 @@
 			{{ if (eq ($scratch.Get "first") "true") }}
 				{{ $scratch.Set "first" "false" }}
 			{{ else }}
-				<a class="revolution-box" href="{{ .RelPermalink }}">
-					<div class="revolution-thumb-frame">
-						<div class="revolution-thumb">
+				<a class="list-revolution--box" href="{{ .RelPermalink }}">
+					<div class="list-revolution--thumb-frame">
+						<div class="list-revolution--thumb">
 							<img src="{{ .RelPermalink }}thumbnail.jpg" class="img-responsive" alt="">
 						</div>
-						<div class="revolution-overlay">
-							<div class="revolution-overlay-title">
+						<div class="list-revolution--overlay">
+							<div class="list-revolution--overlay-title">
 								{{ .Title }}
 							</div>
 						</div>
 					</div>
 					
-					<div class="revolution-summary">
+					<div class="list-revolution--summary">
 						<p>
 							{{ .Description }}
 						</p>

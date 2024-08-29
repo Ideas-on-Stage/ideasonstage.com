@@ -1,4 +1,0 @@
-{{ "<!-- partials/b/head-css-team.html:start -->" | safeHTML }}
-{{ $style := resources.Get "css/team.scss" | resources.ExecuteAsTemplate "team.css" . | resources.ToCSS | resources.Minify }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-{{ "<!-- partials/b/head-css-team.html:end -->" | safeHTML }}

@@ -1,0 +1,130 @@
+.module-list {
+	width: calc(100% - 0.001px);
+	display: flex;
+	flex-direction: row; /* to display half modules side by side */
+	flex-wrap: wrap; /* to create additional rows if necessary */
+	margin: var(--module-row-gap) 0;
+	padding: 0 var(--module-column-gap);
+	gap: var(--module-row-gap) var(--module-column-gap);
+}
+
+.module-list--column {
+	display: flex;
+	flex-direction: column;
+	height: var(--module-height); /* defines the fixed height of the module */
+	width: calc(100% - 0.001px);
+	max-height: calc( var(--page-max-width) / 100 * 40 );
+	max-width: var(--page-max-width);
+	overflow: hidden;
+}
+
+/* Use this to create a full width module div */
+.module-list--row {
+	display: flex;
+	flex-direction: row;
+	height: var(--module-height); /* defines the fixed height of the module */
+	width: calc(100% - 0.001px);
+	max-height: calc( var(--page-max-width) / 100 * 40 );
+	max-width: var(--page-max-width);
+	overflow: hidden;
+}
+
+/* Or use this to create a half width module div */
+.module-list--half {
+	display: flex;
+	flex-direction: column;
+	height: var(--module-height); /* defines the fixed height of the module */
+	width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
+}
+
+/* use to create inner div with the pic on left */
+.module-list--row-image {
+	height: 100%;
+	width: 64%;
+}
+.module-list--row-image img {
+	display: block;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: 100% 50%; /* anchor on right edge (100%), vertical center */
+}
+
+/* use to create inner div with text on right */
+.module-list--row-text {
+	padding: 4vw;
+	width: 36%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* use to create inner div with text on top */
+.module-list--column-text {
+	position: relative;	/* enables z-index */
+	z-index: 10; /* if text overflows, it will go over picture below */
+	padding: 2vw 4vw;
+	margin: auto;
+	height: 50%;
+	width: 100%;
+	text-align: center;
+}
+
+/* use to create inner div with image on bottom */
+.module-list--column-image {
+	height: 50%; /* without this, image size can overflow from module */
+	width: 100%;
+}
+.module-list--column-image img {	
+	height: 100%;
+	width: 100%;
+	object-fit: contain; /* image is never distorted, crop if necessary */
+	object-position: 50% 100%; /* anchor on bottom, horizontal center */
+}
+
+.module-list--text h3 {
+	font-size: 2em;
+}
+
+@media (max-width:480px) {
+	
+	.module-list {
+		margin: var(--module-ts-row-gap) 0;
+		padding: 0;
+		gap: var(--module-ts-row-gap) var(--module-ts-column-gap);
+	}
+
+	.module-list--column {
+		height: var(--module-ts-height);
+		width: 100%;
+	}
+	.module-list--column-text {
+		padding: 8vw;
+	}
+	.module-list--column-image img {
+		object-fit: cover; /* use cover instead of contain on ts screens */
+	}
+	
+	.module-list--half {
+		height: var(--module-ts-height);
+		width: 100%; /* make half width modules full width on ts screens */
+	}
+	
+	.module-list--row {
+		height:  var(--module-ts-height);
+		width: 100%;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+	}	
+	.module-list--row-image {
+		height: 50%;
+		width: 100%;
+	}
+	.module-list--row-text {
+		padding: 8vw;
+		height: 50%;
+		width: 100%;
+		text-align: center;
+	}
+
+}

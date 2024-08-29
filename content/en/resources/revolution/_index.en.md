@@ -1,8 +1,9 @@
 ---
 draft: false
+type: revolution
+translationKey: resources/revolution
 title: "The Business Presentation Revolution"
 description: "Introducing The Business Presentation Revolution Podcast: your regular dose of Presentation Inspiration."
-translationKey: "revolution"
 ---
 
 Introducing The Business Presentation Revolution Podcast: your regular dose of Presentation Inspiration. In these bite-sized videos we share valuable tips on all aspects of the art of presenting, such as successful preparation practices, speaking tips to really engage a specific audience, slide design and more.

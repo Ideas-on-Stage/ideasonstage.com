@@ -1,13 +1,11 @@
 {{ "<!-- partials/inserts/module-texttop-picture.html:start -->" | safeHTML }}
-<div class="layout-module">
-	<div class="layout-module-column {{ partial "f/getstyle" . }}">
-		<div class="layout-module-column-text style-module-text">
+	<div class="module-list--column {{ partial "f/getstyle" . }}">
+		<div class="module-list--column-text module-list--text">
 			{{ partial "e/link-title-description.html" . }}
 			{{ partial "e/button-secondary.html" . }}
 		</div>
-		<div class="layout-module-column-image">
+		<div class="module-list--column-image">
 			{{ partial "e/link-picture.html" . }}
 		</div>
 	</div>
-</div>
 {{ "<!-- partials/inserts/module-texttop-picture.html:end -->" | safeHTML }}

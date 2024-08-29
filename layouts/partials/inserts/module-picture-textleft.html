@@ -1,10 +1,10 @@
 {{ "<!-- partials/inserts/module-picture-textleft.html:start -->" | safeHTML }}
-<div class="layout-module layout-module-row flex-parent-column-ontall {{ partial "f/getstyle" . }}">
-	<div class="layout-module-row-text style-module-text">
+<div class="module-list--row {{ partial "f/getstyle" . }}">
+	<div class="module-list--row-text module-list--text">
 		{{ partial "e/link-title-description.html" . }}
 		{{ partial "e/button-secondary.html" . }}
 	</div>
-	<div class="layout-module-row-image">
+	<div class="module-list--row-image">
 		{{ partial "e/link-picture.html" . }}
 	</div>
 </div>

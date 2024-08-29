@@ -1,0 +1,270 @@
+/* @group FONT FAMILIES */
+
+	body,
+	p,
+	a,
+	input,
+	textarea {
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 500;		
+	}
+
+	b,
+	strong,
+	blockquote {
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 700;
+	}
+	
+	h1,
+	h2,
+	h3,
+	h4,
+	big {
+		font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
+		font-weight: 700;
+	}
+
+/* @end */
+
+
+
+/* @group FONT SIZES */
+
+	/* This is where ALL font sizes are declared */
+
+	/* base font size, in vw so everything is proportional to viewport width */
+	body, a, blockquote					{ font-size: 1.50vw;	}
+
+	@media (max-width:480px) {
+		/* adjust for small tall smartphone screens */
+		body, a, blockquote 			{ font-size: 4vw;		}
+	}
+	
+	@media(min-width:1281px) {
+		/* adjust for very large screens (>1280px wide) 
+			so that text does not become too big */
+		body, a, blockquote				{ font-size: 20px;		}
+	}
+	
+	/* standad tags font sizes, in em, so it is relative to base font size */
+	h1									{ font-size: 2.00em;	}
+	h2									{ font-size: 1.75em;	}
+	h3									{ font-size: 1.25em;	}
+	h4									{ font-size: 1.00em;	}
+	h5									{ font-size: 1.00em;	}
+	footer, footer a					{ font-size: 1.00em;	}
+	
+/* @end */
+
+
+
+/* @group STYLES STANDARD TAGS */
+
+	/* !!! Only set sitewide attributes !!! */
+	/* define the styling of standard tags */
+
+
+	body {
+		color: var(--color-text);
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		scroll-padding-top: var(--menubar-height);
+		padding-top: var(--page-padding-top);
+		padding-right: var(--page-padding-right);
+		padding-bottom: var(--page-padding-bottom);
+		padding-left: var(--page-padding-left);
+		max-width: var(--page-max-width);
+		margin: auto;
+	}
+	
+	article,
+	aside,
+	div,
+	section {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		scroll-margin-top: calc( var(--menubar-height) * 2 );
+	}
+	
+	a {
+		color: var(--color-text);
+		border-bottom: none;
+		text-decoration: none;
+		transition: all .35s;
+	}
+	
+	a:hover,
+	a:focus {
+		color: var(--color-link-hover);
+		border-bottom: none;
+		text-decoration: none;
+		transition: all .35s;
+	}
+	
+	a img {
+		border: none;
+	}
+	
+	a.imagelink {
+		border: none;
+		font-size: 0.1em;
+	}
+
+	blockquote {
+		padding: 1vw;
+	}
+
+	blockquote p {
+		margin: 0;
+	}
+
+	blockquote i {
+		color: var(--color-text);
+		font-weight: 500;
+	}
+
+	h1 {
+		line-height: 1.2em;
+		margin: 0;
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		text-transform: uppercase;
+	}
+
+	h2,
+	h3,
+	h4 {
+		line-height: 1.2em;
+		margin-block-start: 0;
+		margin-block-end: 0;
+	}
+
+	li {
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		text-align: left;
+	}
+	
+	li a {
+		border-bottom: dotted 1px var(--color-link-hover);
+	}
+		
+	time {
+		color: var(--color-time);
+	}
+
+	p {
+		margin-top: 1em;
+		margin-bottom: 1em;
+		line-height: 1.6em;
+	}
+	
+	p a {
+		border-bottom: dotted 1px var(--color-link-hover);
+		line-height: 1.6em;
+	}
+
+/* @end */
+
+
+
+/* @group CRITICAL */
+/*
+	.critical--bg-dark {
+		color: var(--color-text-inv);
+		background-color: var(--color-bg-dark);
+	}
+	.critical--bg-dark a {	
+		color: var(--color-text-inv);
+	} 
+	.critical--bg-dark a:hover {
+		color: #FF8200;
+		transition: all .35s;
+	}
+*/
+
+	.critical--content {
+		margin: 48px auto; /* use auto to center div on page */
+		padding: 0;
+		width: 80vw;
+		max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
+	}	
+	@media (max-width:480px) {		
+		.critical--content {
+			margin: 48px var(--module-ts-column-gap);
+			width: calc(100% - var(--module-ts-column-gap) * 2);
+			max-width: calc(100% - var(--module-ts-column-gap) * 2);
+		}
+	}
+
+	.critical--layer {
+		position: absolute;
+		height: inherit;
+		width: inherit;
+		max-height: inherit;
+		max-width: inherit;
+	}
+	.critical--layer > img {
+		height: inherit; /* ! works only if height of parent is calculated as vw or px, not % */
+		width: inherit; /* ! works only if width of parent is calculated as vw or px, not % */
+		max-height: inherit;
+		max-width: inherit;
+		object-fit: cover;
+	}
+
+	.critical--button-primary,
+	.critical--button-secondary {
+		font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 1em;
+		list-style: none; /* remove bullet when used on li */
+	}
+
+	.critical--button-primary {
+		display: block; /* to ensure full height of button calculated for layout */
+		margin: 0 auto;
+		padding: 1vw 2vw;
+		color: var(--color-button-primary) !important;
+		background-color: var(--color-button-primary-bg);
+		border: none;
+		border-radius: 5px;
+		border-color: none;
+		border-style: none;
+		box-sizing: border-box; /* because normal sizing model is shit */
+	}
+	
+	/* use to create a secondary button */
+	.critical--button-secondary {
+		padding: 0px;
+		color: var(--color-button-secondary) !important;
+		background-color: var(--color-button-secondary-bg);
+		border: none;
+		border-radius: 3px;
+		border-color: none;
+		border-style: none;
+	}
+	
+	.bg-primary .critical--button-secondary {
+		/* use white text instead of blue if background is orange */
+		color: white !important;
+	}
+	
+	/* adapt to tall smartphone screens */
+	@media (max-width:480px) {
+		
+		.critical--button-primary {
+			padding: 2vw 6vw;
+			max-width: 90vw;
+		}
+		
+	}	
+		
+/* @end */

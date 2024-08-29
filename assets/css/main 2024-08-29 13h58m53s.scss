@@ -1,6 +1,30 @@
 
 /* @group FONT FAMILIES */
 
+	/* This is where ALL font families are declared */
+
+	body,
+	p,
+	a,
+	input,
+	textarea {
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 500;		
+	}
+
+	b, strong, blockquote {
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 700;
+	}
+	
+	h1, h2, h3, h4, big {
+		font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
+		font-weight: 700;
+	}
+
 	/* Specific fonts - try to limit it */
 	.style-text-intro {
 		font-family: "Whitney SSm A", "Whitney SSm B";
@@ -37,6 +61,30 @@
 
 /* @group FONT SIZES */
 
+	/* This is where ALL font sizes are declared */
+
+	/* base font size, in vw so everything is proportional to viewport width */
+	body, a, blockquote					{ font-size: 1.50vw;	}
+
+	/* adjust for small tall smartphone screens */
+	@media (max-width:480px) {
+		body, a, blockquote 			{ font-size: 4vw;		}
+	}
+	
+	/* adjust for very large screens (>1280px wide) 
+		so that text does not become too big */
+	@media(min-width:1281px) {
+		body, a, blockquote				{ font-size: 20px;		}
+	}
+	
+	/* standad tags font sizes, in em, so it is relative to base font size */
+	h1									{ font-size: 2.00em;	}
+	h2									{ font-size: 1.75em;	}
+	h3									{ font-size: 1.25em;	}
+	h4									{ font-size: 1.00em;	}
+	h5									{ font-size: 1.00em;	}
+	footer, footer a					{ font-size: 1.00em;	}
+	
 	/* font size for other tags should be in em */
 	.button-primary						{ font-size: 1em;		}
 	.footer-category-main				{ font-size: 0.8em;		}
@@ -61,6 +109,112 @@
 	#sidebar p,
 	#sidebar a							{ font-size: 0.8em;		}
 	
+/* @end */
+
+
+
+/* @group STYLES STANDARD TAGS */
+
+	/* !!! Only set sitewide attributes !!! */
+	/* define the styling of standard tags */
+
+
+	body {
+		color: var(--color-text);
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		scroll-padding-top: var(--menubar-height);
+	}
+	
+	article,
+	aside,
+	div,
+	section, {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		scroll-margin-top: calc( var(--menubar-height) * 2 );
+	}
+	
+	a {
+		color: var(--color-text);
+		border-bottom: none;
+		text-decoration: none;
+		transition: all .35s;
+	}
+	
+	a:hover,
+	a:focus {
+		color: var(--color-link-hover);
+		border-bottom: none;
+		text-decoration: none;
+		transition: all .35s;
+	}
+	
+	a img {
+		border: none;
+	}
+	
+	a.imagelink {
+		border: none;
+		font-size: 0.1em;
+	}
+
+	blockquote {
+		padding: 1vw;
+	}
+
+	blockquote p {
+		margin: 0;
+	}
+
+	blockquote i {
+		color: var(--color-text);
+		font-weight: 500;
+	}
+
+	h1 {
+		line-height: 1.2em;
+		margin: 0;
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		text-transform: uppercase;
+	}
+
+	h2,
+	h3,
+	h4 {
+		line-height: 1.2em;
+		margin-block-start: 0;
+		margin-block-end: 0;
+	}
+
+	li {
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		text-align: left;
+	}
+	
+	li a {
+		border-bottom: dotted 1px var(--color-link-hover);
+	}
+		
+	time {
+		color: var(--color-time);
+	}
+
+	p {
+		margin-top: 1em;
+		margin-bottom: 1em;
+		line-height: 1.6em;
+	}
+	
+	p a {
+		border-bottom: dotted 1px var(--color-link-hover);
+		line-height: 1.6em;
+	}
+
 /* @end */
 
 
@@ -284,6 +438,11 @@
 		box-sizing: border-box;
 	}
 	
+	.style-text-intro {
+		color: #888;
+		text-align: center;
+	}
+	
 	.style-agenda-item-title {
 		color: var(--color-secondary);
 		margin-bottom: 0;
@@ -387,6 +546,16 @@
 		margin: auto;
 	}
 	
+	/* main page title layout */
+	.layout-page-title {
+		position: sticky;
+		top: var(--menubar-height);
+		z-index: 100;
+		display: flex;
+		justify-content: center;
+		padding: 2vw;
+	}
+	
 /* @end */
 
 
@@ -465,7 +634,15 @@
 		height: calc(100vh - var(--menubar-height));
 		width: calc(100% - 0px);
 	}
-		/* Enclose modules in a layout-module-group div to have a gap between them */		
+	
+	/* hero layout module */
+	.layout-module-hero {
+		height: var(--hero-height);
+		width: calc(100% - 0px);
+		max-width: var(--page-max-width);;
+	}
+	
+	/* Enclose modules in a layout-module-group div to have a gap between them */		
 	.layout-module-group {
 		width: calc(100% - 0px);
 		display: flex;
@@ -555,6 +732,11 @@
 	.layout-module .layout-module-layer,
 	.layout-module-half .layout-module-layer {
 		height: var(--module-height);
+	}
+	
+	/* remove gap for module right after title */
+	.layout-module-title + .layout-module, {
+		margin-top: 0;
 	}
 	
 	@media (max-width:480px) {
