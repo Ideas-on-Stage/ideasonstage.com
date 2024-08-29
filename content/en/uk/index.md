@@ -12,11 +12,11 @@ type: "home"
 body:
 - title-home
 - cta
-- module-list
+- modules
 - content
-- reference-list
-- module-aside-list
-- testimonial-list
+- references
+- modules-aside
+- testimonials
 
 datacta: "public-speaking-guide"
 datamodulelist: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]

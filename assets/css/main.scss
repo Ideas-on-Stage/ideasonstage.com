@@ -269,14 +269,7 @@
 
 
 /* @group STYLES CUSTOM CLASSES */
-	
-	/* style for page titles */
-	.style-page-title {
-		text-align: center;
-		color: #fff;
-		background-color: #222;
-	}
-	
+		
 	/* style for photograph styled pictures */
 	.style-photograph {
 		border: 8px solid #fff;
@@ -305,12 +298,6 @@
 	
 	.style-text-icon {
 		margin-top: 0;
-	}
-	
-	.style-page-title-overlay {
-		text-align: center;
-		color: #fff;
-		background-color: rgba(0, 0, 0, 0.4);	
 	}
 	
 	.style-section-title-main {
@@ -370,23 +357,6 @@
 		
 	}
 
-/* @end */
-
-
-
-/* LAYOUT layout- classes are used to structure the page layout */
-
-/* @group LAYOUT-PAGE */
-	
-	.layout-page {
-		padding-top: var(--page-padding-top);
-		padding-right: var(--page-padding-right);
-		padding-bottom: var(--page-padding-bottom);
-		padding-left: var(--page-padding-left);
-		max-width: var(--page-max-width);
-		margin: auto;
-	}
-	
 /* @end */
 
 

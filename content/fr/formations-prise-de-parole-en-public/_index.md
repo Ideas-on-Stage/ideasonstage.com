@@ -12,7 +12,7 @@ datamodulelist: [ "guidepublicspeaking", "guideremotepresentations" ]
 
 body:
   - hero
-  - reference-list
+  - references
   - content-training-section
 
 sidebar:

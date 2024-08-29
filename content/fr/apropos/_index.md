@@ -8,8 +8,8 @@ body:
 - title
 - location
 - content
-- list
-- module-aside-list
+- pages
+- modules-aside
 
 datamoduleasidelist: [ team, catalogue ]
 ---

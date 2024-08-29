@@ -37,8 +37,8 @@ _default:
             - title
             - breadcrumbs
             - content
-            - list
-            - module-aside-list
+            - pages
+            - modules-aside
     # page.Kind "single"
     page:
         head:
@@ -48,7 +48,7 @@ _default:
             - title
             - breadcrumbs
             - content
-            - module-aside-list
+            - modules-aside
     # page.Kind "home"
     home:
         head:
@@ -59,11 +59,11 @@ _default:
         body:
             - title-home
             - cta
-            - module-list
+            - modules
             - content-short
-            - reference-list
-            - module-aside-list
-            - testimonial-list
+            - references
+            - modules-aside
+            - testimonials
             - location
     # page.Kind "404"
     404:
@@ -85,7 +85,7 @@ news:
     section:
         body:
             - title
-            - list-news
+            - pages-news
     # page.Kind "page"
     page:
         head:
@@ -103,9 +103,9 @@ references:
     section:
         body:
             - title
-            - reference-list
+            - references
             - content
-            - list-references
+            - pages-references
 
 
 
@@ -118,7 +118,7 @@ revolution:
             - title-section
         body:
             - title
-            - list-revolution
+            - pages-revolution
     # page.Kind "page"
     page:
         body:
@@ -138,7 +138,7 @@ tags:
             - title-tags-taxonomy
         body:
             - title
-            - list-tags
+            - pages-tags
     # page.Kind "term"
     term:
         head:
@@ -148,7 +148,7 @@ tags:
         body:
             - title
             - breadcrumbs
-            - list-tags
+            - pages-tags
 
 
 
@@ -162,7 +162,7 @@ team:
         body:
             - title
             - content-short
-            - list-team
+            - pages-team
     # page.Kind "page"
     page:
         head:
@@ -182,9 +182,9 @@ training:
         body:
             - title
             - breadcrumbs
-            - reference-list
+            - references
             - content
-            - list
+            - pages
     # page.Kind "page"
     page:
         body:
