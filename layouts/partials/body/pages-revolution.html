@@ -1,12 +1,12 @@
-{{ "<!-- partials/b/page-list-revolution.html:start -->" | safeHTML }}
+{{ "<!-- partials/b/page-pages-revolution.html:start -->" | safeHTML }}
 {{ $content := .Content }}
 {{ range first 1 .Pages }}	
 	{{/* <!-- generate hero with newest video --> */}}
-	<section id="highlight" class="list-revolution--hero">
+	<section id="highlight" class="pages-revolution--hero">
 		<div class="critical--layer">
 			<img src="{{ .RelPermalink }}image.jpg">
 		</div>
-		<div class="critical--layer list-revolution--hero-text">
+		<div class="critical--layer pages-revolution--hero-text">
 			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 				<h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
 			</a>
@@ -22,13 +22,13 @@
 			{{ with .Content }}{{ . | markdownify }}{{ end }}
 		</div>
 		<div class="flex-parent flex-parent-row paddingt-none paddingb-none flex-parent-justify-space-around">
-			<div class="flex-child list-revolution--social">
+			<div class="flex-child pages-revolution--social">
 				<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="youtube.svg" alt="youtube"><br>YouTube</a>
 			</div>
-			<div class="flex-child list-revolution--social">
+			<div class="flex-child pages-revolution--social">
 				<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"><img src="itunes.svg" alt="iTunes"><br>iTunes</a>
 			</div>
-			<div class="flex-child list-revolution--social">
+			<div class="flex-child pages-revolution--social">
 				<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="linkedin.svg" alt="linkedin"><br>Linkedin</a>
 			</div>
 		</div>
@@ -44,19 +44,19 @@
 			{{ if (eq ($scratch.Get "first") "true") }}
 				{{ $scratch.Set "first" "false" }}
 			{{ else }}
-				<a class="list-revolution--box" href="{{ .RelPermalink }}">
-					<div class="list-revolution--thumb-frame">
-						<div class="list-revolution--thumb">
+				<a class="pages-revolution--box" href="{{ .RelPermalink }}">
+					<div class="pages-revolution--thumb-frame">
+						<div class="pages-revolution--thumb">
 							<img src="{{ .RelPermalink }}thumbnail.jpg" class="img-responsive" alt="">
 						</div>
-						<div class="list-revolution--overlay">
-							<div class="list-revolution--overlay-title">
+						<div class="pages-revolution--overlay">
+							<div class="pages-revolution--overlay-title">
 								{{ .Title }}
 							</div>
 						</div>
 					</div>
 					
-					<div class="list-revolution--summary">
+					<div class="pages-revolution--summary">
 						<p>
 							{{ .Description }}
 						</p>
@@ -66,4 +66,4 @@
 		{{ end }}
 	</div>
 </div>
-{{ "<!-- partials/b/page-list-revolution.html:end -->" | safeHTML }}
+{{ "<!-- partials/b/page-pages-revolution.html:end -->" | safeHTML }}

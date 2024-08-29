@@ -1,6 +1,6 @@
-{{ "<!-- partials/b/data-module-list:start -->" | safeHTML }}
+{{ "<!-- partials/b/data-modules:start -->" | safeHTML }}
 {{ with .Params.datamodulelist }}
-	<section id="module-list" class="module-list">
+	<section id="modules" class="modules">
 		{{ range . }}
 			{{ $data := index site.Data.modules . }}
 			{{ if $data }}
@@ -12,4 +12,4 @@
 		{{ end }}
 	</section>
 {{ end }}
-{{ "<!-- partials/b/data-module-list:end -->" | safeHTML }}
+{{ "<!-- partials/b/data-modules:end -->" | safeHTML }}

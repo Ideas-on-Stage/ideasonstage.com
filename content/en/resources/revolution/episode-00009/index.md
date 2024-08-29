@@ -1,5 +1,6 @@
 ---
 draft: "false"
+type: "revolution"
 title: "Once upon a business story"
 date: "2019-10-01"
 cast: [ "Rose Bloomfield", "Pierre Morsa" ]

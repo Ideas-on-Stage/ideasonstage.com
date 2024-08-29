@@ -1,5 +1,6 @@
 ---
 draft: "false"
+type: "revolution"
 title: "Showtime Stress"
 date: "2019-06-04"
 cast: [ "Rose Bloomfield", "Michael Rickwood" ]

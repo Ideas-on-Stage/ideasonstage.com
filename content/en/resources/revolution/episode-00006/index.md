@@ -1,5 +1,6 @@
 ---
 draft: "false"
+type: "revolution"
 title: "Gestures"
 date: "2019-05-17"
 cast: [ "Rose Bloomfield", "Michael Rickwood" ]

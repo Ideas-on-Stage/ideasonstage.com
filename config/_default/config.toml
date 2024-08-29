@@ -204,7 +204,7 @@ title 					= "Ideas on Stage"
 				name = "Resources"
 			[[languages.en.params.navigation.footer.items]]
 				name	= "Videos"
-				url		= "/revolution/"
+				url		= "/resources/revolution/"
 			[[languages.en.params.navigation.footer.items]]
 				name	= "Articles and News"
 				url		= "/news/"

@@ -1,5 +1,6 @@
 ---
 draft: "false"
+type: "revolution"
 title: "Overcoming nerves"
 date: "2019-01-19"
 cast: [ "Phil Waknell", "Rose Bloomfield" ]

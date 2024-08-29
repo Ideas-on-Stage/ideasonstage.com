@@ -1,5 +1,6 @@
 ---
 draft: "false"
+type: "revolution"
 title: "Amazing Events"
 date: "2019-09-09"
 cast: [ "Rose Bloomfield", "Michael Rickwood" ]

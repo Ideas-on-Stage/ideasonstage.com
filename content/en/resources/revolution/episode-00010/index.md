@@ -1,5 +1,6 @@
 ---
 draft: "false"
+type: "revolution"
 title: "4 Tempos"
 date: "2019-11-05"
 cast: [ "Rose Bloomfield", "Michael Rickwood" ]

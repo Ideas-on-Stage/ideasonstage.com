@@ -1,5 +1,6 @@
 ---
 draft: "false"
+type: "revolution"
 title: "Slide Success"
 date: "2019-05-02"
 cast: [ "Phil Waknell", "Rose Bloomfield" ]

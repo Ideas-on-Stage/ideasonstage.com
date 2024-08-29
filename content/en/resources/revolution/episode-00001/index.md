@@ -1,5 +1,6 @@
 ---
 draft: "false"
+type: "revolution"
 title: "Transformation"
 date: "2019-01-07"
 cast: [ "Phil Waknell", "Rose Bloomfield" ]
