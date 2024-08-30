@@ -10,13 +10,13 @@
 			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 				<h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
 			</a>
-			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="button-secondary">
+			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="critical--button-secondary">
 				{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
 			</a>
 		</div>
 	</section>
 {{ end }}
-<div class="critical--content">
+<section id="content" class="critical--content">
 	<div class="flex-parent flex-parent-row paddingt-none paddingb-medium">
 		<div class="layout-module-column-text style-module-text ">	
 			{{ with .Content }}{{ . | markdownify }}{{ end }}
@@ -65,5 +65,5 @@
 			{{ end }}
 		{{ end }}
 	</div>
-</div>
+</section>
 {{ "<!-- partials/b/page-pages-revolution.html:end -->" | safeHTML }}

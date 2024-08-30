@@ -1,0 +1,28 @@
+	#breadcrumbs {
+		background-color: var(--color-lightgray);
+	}
+	
+	#breadcrumbs a {
+		border: none; /* remove line under link */
+	}
+	
+	#breadcrumbs li {
+		margin: 0;
+	}
+	
+	#breadcrumbs ol {
+		display: flex;
+		padding: 0.2vw 0;
+		margin: 0;
+		list-style: none;
+		text-transform: uppercase;
+	}
+	@media (max-width:480px) {
+		#breadcrumbs ol {
+			padding: 2vw 0;
+		}
+	}
+	
+	#breadcrumbs .arrow {
+		padding: 0 2vw;
+	}

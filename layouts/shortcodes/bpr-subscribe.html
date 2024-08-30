@@ -21,7 +21,7 @@
 				<input type="email" id="email" name="email" class="iosform-control" placeholder="{{ with .Site.Params.contact.form.email.text }}{{ . | markdownify }}{{ end }}" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('{{ with .Site.Params.contact.form.email.warning }}{{ .  | markdownify }}{{ end }}');" required>
 			</div>
 			<div class="iosform-button">
-				<input onclick="window.location.href = '/business-presentation-revolution/book/thankyou/';" type="submit" value="Join the Revolution" class="button-primary" success="Congratulations, you will receive an email shortly." wait="Wait...">
+				<input onclick="window.location.href = '/business-presentation-revolution/book/thankyou/';" type="submit" value="Join the Revolution" class="critical--button-primary" success="Congratulations, you will receive an email shortly." wait="Wait...">
 			</div>
 		</form>
 	</div>

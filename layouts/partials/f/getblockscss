@@ -10,7 +10,8 @@
 	Process:
 	- Checks for each "body" block if a .css file exists with same name
 	  If yes, add it to the list of .css files
-		
+	- Then uses each part of the file name to include additional css
+	  For example "pages-news" could include css from pages.scss and news.scss
 	Returns:
 	- file list as a list of strings (WITHOUT path, subfolder or extension)
 	
@@ -23,6 +24,16 @@
 	{{ $filepath := printf "assets/css/%s.scss" . }}
 	{{ if fileExists $filepath }}
 		{{ $result = $result | append . }}
+	{{ end }}
+	{{ $split := strings.Split . "-" }}
+	{{ $len := $split | len }}
+	{{ if ge $len 2 }}
+		{{ range $split }}
+			{{ $filepathsplit := printf "assets/css/%s.scss" . }}
+			{{ if fileExists $filepathsplit }}
+				{{ $result = $result | append . }}
+			{{ end }}	
+		{{ end }}
 	{{ end }}
 {{ end }}
 

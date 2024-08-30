@@ -1,3 +1,0 @@
-/* include css from modules */
-{{- $css := resources.Get "css/modules.scss" | resources.ExecuteAsTemplate "modules.css" . | resources.ToCSS | resources.Minify -}}
-{{- $css.Content | safeCSS -}}

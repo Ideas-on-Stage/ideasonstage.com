@@ -1,29 +1,6 @@
 
 /* @group FONT FAMILIES */
 
-	/* Specific fonts - try to limit it */
-	.style-text-intro {
-		font-family: "Whitney SSm A", "Whitney SSm B";
-		font-style: normal;
-		font-weight: 500;	
-	}
-
-	.button-primary,
-	.button-secondary {
-		font-family: "Gotham SSm A", "Gotham SSm B";
-		font-style: normal;
-		font-weight: 700;
-		text-transform: uppercase;
-	}
-
-	.footer-category-main,
-	.footer-category-main a {
-		font-family: "Gotham SSm A", "Gotham SSm B";
-		font-style: normal;
-		font-weight: 700;
-		text-transform: uppercase;		
-	}
-	
 	#TableOfContents > ul > li > a {
 		/* first level of table of contents bold */
 		font-family: "Whitney SSm A", "Whitney SSm B";
@@ -38,11 +15,6 @@
 /* @group FONT SIZES */
 
 	/* font size for other tags should be in em */
-	.button-primary						{ font-size: 1em;		}
-	.footer-category-main				{ font-size: 0.8em;		}
-	.footer-category-sub				{ font-size: 0.8em;		}
-	.footer-text			 			{ font-size: 0.75em;	}
-	.footer-social-link					{ font-size: 1.2em;		}
 	.iosform-control					{ font-size: 0.8em;		}
 	.testimonials-text					{ font-size: 0.8em;		}
 	.testimonials-name					{ font-size: 0.8em;		}
@@ -67,35 +39,6 @@
 
 /* @group STYLES IDs */
 
-	#breadcrumbs {
-		background-color: var(--color-lightgray);
-	}
-
-	#breadcrumbs ol {
-		display: flex;
-		padding: 0.2vw 0;
-		margin: 0;
-		list-style: none;
-		text-transform: uppercase;
-	}
-	
-	#breadcrumbs li {
-		margin: 0;
-	}
-	
-	#breadcrumbs .arrow {
-		padding: 0 2vw;
-	}
-
-	@media (max-width:480px) {
-		
-		/* adjust for tall viewport */	
-		#breadcrumbs ol {
-			padding: 2vw 0;
-		}
-		
-	}
-
 	#content-main > h1,
 	#content-main > h2,
 	#content-main > h3,
@@ -108,6 +51,7 @@
 	#content-main li {
 		line-height: 1.6em;
 	}
+	
 	#content-main > :first-child {
 		/* remove top margin from first element of content */
 		margin-top: 0;
@@ -149,11 +93,14 @@
 		border: 1px solid #ddd;
 		border-collapse: collapse;
 	}
-	
 	#content-main thead {
 		border: none;
 	}
-	
+	#content-main td {
+		padding: 1vw;
+		width: auto;
+		border: 1px solid #ddd;
+	}
 	#content-main th {
 		padding: 1vw;
 		width: auto;
@@ -161,20 +108,33 @@
 		border: 1px solid #ddd;
 		text-align: center;
 	}
-	
-	#content-main td {
-		padding: 1vw;
-		width: auto;
-		border: 1px solid #ddd;
-	}
-	
-	@media (max-width:480px) {
-		
+	@media (max-width:480px) {		
 		#content-main th {
 			min-width: 50px;
 		}
-		
 	}
+		
+	/* Agenda Collapsible Styling */
+	#content-main input[type='checkbox'] {
+		display: none;
+	}	
+	#content-main .agenda-toggle {
+		display: block;  
+		font-weight: 500;
+		cursor: pointer;
+		margin-top: 1em;
+	}
+	#content-main .collapsible-content {
+		max-height: 0px;
+		overflow: hidden;
+		transition: max-height .25s ease-in-out;
+	}
+	#content-main .agenda-toggle:checked + .agenda-toggle + .collapsible-content {
+		max-height: 100vh;
+	}
+
+/* @end */
+
 
 	/* content table is the style for the table of contents */
 	#content-table {
@@ -247,18 +207,18 @@
 		color: #ff8200;
 	}
 
-	.sidebar-box {
+	#sidebar .sidebar-box {
 		background-color: #eee;
 		padding-bottom: 1vw;
 		margin-bottom: 1vw;
 	}
 	
-	.sidebar-narrow-field {
+	#sidebar .sidebar-narrow-field {
 		width: 80%;
 		margin-left: 10%;
 	}
 
-	#sidebar .button-primary {
+	#sidebar .critical--button-primary {
 		margin: 0;
 		padding: 0.8em 1em;
 		font-size: 0.8em;
@@ -310,53 +270,6 @@
 		text-align:  center;
 	}
 	
-/* @end */
-
-
-
-/* @group BUTTONS */
-	
-	/* use to create a primary button */
-	.button-primary {
-		display: block; /* to ensure full height of button calculated for layout */
-		margin: 0 auto;
-		padding: 1vw 2vw;
-		color: var(--color-button-primary) !important;
-		background-color: var(--color-button-primary-bg);
-		border: none;
-		border-radius: 5px;
-		border-color: none;
-		border-style: none;
-		box-sizing: border-box; /* because normal sizing model is shit */
-	}
-	
-	/* use to create a secondary button */
-	.button-secondary {
-		padding: 0px;
-		color: var(--color-button-secondary) !important;
-		background-color: var(--color-button-secondary-bg);
-		border: none;
-		border-radius: 3px;
-		border-color: none;
-		border-style: none;
-		list-style: none; /* remove bullet when used on li */
-	}
-	
-	.bg-primary .button-secondary {
-		/* use white text instead of blue if background is orange */
-		color: white !important;
-	}
-	
-	/* adapt to tall smartphone screens */
-	@media (max-width:480px) {
-		
-		.button-primary {
-			padding: 2vw 6vw;
-			max-width: 90vw;
-		}
-		
-	}
-
 /* @end */
 
 
@@ -611,6 +524,14 @@
 	.layout-shortcode-img img {
 		width: 100%;
 		height: 100%;
+	}
+
+	.shortcode-text-intro {
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 500;	
+		color: var(--color-text-mid);
+		text-align: center;
 	}
 
 	@media (max-width:480px) {
@@ -1002,10 +923,9 @@
 
 	.bg-primary {	
 		color: var(--color-text-inv) !important;
-		background-color: var(--color-button-primary-bg);
+		background-color: var(--color-primary);
 	}
-	
-	/* this is necessary to override bootstrap's inherited styles */
+		/* this is necessary to override bootstrap's inherited styles */
 	.bg-primary h1,
 	.bg-primary h2,
 	.bg-primary h3,
@@ -1278,6 +1198,7 @@
 
 
 /* @group FOOTER */
+	
 
 	.footer {
 		margin: 0;
@@ -1302,12 +1223,18 @@
 	
 	.footer-category-main,
 	.footer-category-main a {
+		font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 0.8em;
+		text-transform: uppercase;		
 		color: #ddd;
 		border: none;
 	}
 	
 	.footer-category-sub,
 	.footer-category-sub a {
+		font-size: 0.8em;
 		color: #ddd;
 		border: none;
 	}
@@ -1326,7 +1253,12 @@
 	}
 	
 	.footer-social-link {
+		font-size: 1.2em;
 		color: #222;		
+	}
+	
+	.footer-text {
+		font-size: 0.75em;
 	}
 	
 	@media (max-width:480px) {
@@ -1335,41 +1267,6 @@
 			flex-grow: 2;
 		}
 		
-	}
-
-/* @end */
-
-
-
-/* @group News */
-
-	ul.post-tag {
-		list-style: none;
-		padding: 0;
-		margin:0;
-	}
-	.post-tag >li {
-		background-color: #eee;
-		padding: 0 0.4em;
-		margin: 0 0.2em 0.2em 0.2em;
-		float: left;
-		text-transform: uppercase;
-	}
-	.post-tag >li>a:hover {
-		color: var(--color-primary);
-	}
-	.post-tag >li:first-of-type {
-		margin: 0 0.2em 0 0;
-	}
-	.post-tag>li>a {
-		color: #222;
-		font-size: 0.8em;
-		border-bottom: none;
-	}
-	
-	.row-tag {
-		padding-bottom: 0.2em;
-		margin-top: .2em;
 	}
 
 /* @end */
@@ -1491,33 +1388,6 @@
 	#searchResults li .sc {
 		text-transform: none;
 		font-weight: normal;
-	}
-
-/* @end */
-
-
-
-/* @group Agenda Collapsible Styling */
-
-	input[type='checkbox'] {
-		display: none;
-	}
-	
-	.agenda-toggle {
-		display: block;  
-		font-weight: 500;
-		cursor: pointer;
-		margin-top: 1em;
-	}
-	
-	.collapsible-content {
-		max-height: 0px;
-		overflow: hidden;
-
-		transition: max-height .25s ease-in-out;
-	}
-	.agenda-toggle:checked + .agenda-toggle + .collapsible-content {
-		max-height: 100vh;
 	}
 
 /* @end */

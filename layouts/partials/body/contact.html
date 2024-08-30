@@ -49,7 +49,7 @@
 							<textarea id="message" name="message" class="iosform-control" placeholder="{{ with .Site.Params.contact.form.message.text }}{{ . | markdownify }}{{ end }}" oninvalid="alert('{{ with .Site.Params.contact.form.message.warning }}{{ .  | markdownify }}{{ end }}');" required></textarea>  	
 						</div>
 						<div class="iosform-button flex-child flex-child-align-center">
-							<input type="submit" id="contactsubmit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="button-primary" success="{{ with .Site.Params.contact.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}">	
+							<input type="submit" id="contactsubmit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="critical--button-primary" success="{{ with .Site.Params.contact.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}">	
 						</div>
 					</form>
 				</div>

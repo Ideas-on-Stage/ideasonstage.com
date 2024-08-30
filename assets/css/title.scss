@@ -8,6 +8,6 @@
 	color: var(--color-text-inv);
 }
 
-/* include css for hero */
+/* include css from hero */
 {{- $css := resources.Get "css/hero.scss" | resources.ExecuteAsTemplate "hero.css" . | resources.ToCSS | resources.Minify -}}
 {{- $css.Content | safeCSS -}}

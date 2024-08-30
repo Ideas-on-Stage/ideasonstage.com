@@ -175,20 +175,52 @@
 
 
 /* @group CRITICAL */
-/*
-	.critical--bg-dark {
-		color: var(--color-text-inv);
-		background-color: var(--color-bg-dark);
-	}
-	.critical--bg-dark a {	
-		color: var(--color-text-inv);
-	} 
-	.critical--bg-dark a:hover {
-		color: #FF8200;
-		transition: all .35s;
-	}
-*/
 
+	.critical--button-primary,
+	.critical--button-secondary {
+		font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 1em;
+		list-style: none; /* remove bullet when used on li */
+	}
+
+	.critical--button-primary {
+		display: block; /* to ensure full height of button calculated for layout */
+		margin: 0 auto;
+		padding: 1vw 2vw;
+		color: var(--color-button-primary) !important;
+		background-color: var(--color-button-primary-bg);
+		border: none;
+		border-radius: 5px;
+		border-color: none;
+		border-style: none;
+		box-sizing: border-box; /* because normal sizing model is shit */
+	}
+	@media (max-width:480px) {		
+		.critical--button-primary {
+			padding: 2vw 6vw;
+			max-width: 90vw;
+		}
+	}	
+	
+	/* use to create a secondary button */
+	.critical--button-secondary {
+		padding: 0px;
+		color: var(--color-button-secondary) !important;
+		background-color: var(--color-button-secondary-bg);
+		border: none;
+		border-radius: 3px;
+		border-color: none;
+		border-style: none;
+	}
+	
+	.bg-primary .critical--button-secondary {
+		/* use white text instead of blue if background is orange */
+		color: white !important;
+	}
+	
 	.critical--content {
 		margin: 48px auto; /* use auto to center div on page */
 		padding: 0;
@@ -218,53 +250,10 @@
 		object-fit: cover;
 	}
 
-	.critical--button-primary,
-	.critical--button-secondary {
-		font-family: "Gotham SSm A", "Gotham SSm B";
-		font-style: normal;
-		font-weight: 700;
-		text-transform: uppercase;
-		font-size: 1em;
-		list-style: none; /* remove bullet when used on li */
-	}
-
-	.critical--button-primary {
-		display: block; /* to ensure full height of button calculated for layout */
-		margin: 0 auto;
-		padding: 1vw 2vw;
-		color: var(--color-button-primary) !important;
-		background-color: var(--color-button-primary-bg);
-		border: none;
-		border-radius: 5px;
-		border-color: none;
-		border-style: none;
-		box-sizing: border-box; /* because normal sizing model is shit */
+	.critical--marginv-none {
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 	
-	/* use to create a secondary button */
-	.critical--button-secondary {
-		padding: 0px;
-		color: var(--color-button-secondary) !important;
-		background-color: var(--color-button-secondary-bg);
-		border: none;
-		border-radius: 3px;
-		border-color: none;
-		border-style: none;
-	}
-	
-	.bg-primary .critical--button-secondary {
-		/* use white text instead of blue if background is orange */
-		color: white !important;
-	}
-	
-	/* adapt to tall smartphone screens */
-	@media (max-width:480px) {
-		
-		.critical--button-primary {
-			padding: 2vw 6vw;
-			max-width: 90vw;
-		}
-		
-	}	
 		
 /* @end */
