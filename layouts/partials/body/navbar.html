@@ -41,9 +41,6 @@
 				
 			<!-- Search Dropdown -->
 			<li class="cl-navbar--menu-item">
-				<a href="#">
-					<i class="fa fa-search"></i>
-				</a>
 				<label for="drop-search" class="cl-navbar--menutoggle">
 					<i class="fa fa-search"></i>
 				</label>
@@ -68,13 +65,6 @@
 					</span>
 					<i class="fa fa-chevron-down"></i>
 				</label>
-				<a href="#">
-					<i class="fa fa-globe"></i>
-					<span class="cl-navbar--shorten">
-						{{ with .Language.LanguageName  }}{{ . }}{{ end }}
-					</span>
-					<i class="fa fa-chevron-down"></i>
-				</a>
 				<input type="checkbox" id="drop-languages"/>
 				<ul class="cl-navbar--menu-dropdown">
 					{{ if .IsTranslated }}

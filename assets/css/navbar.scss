@@ -100,7 +100,8 @@
 }
 	
 .cl-navbar--menutoggle, [id^=drop] {
-	display: none;
+	/* display: none; */
+	color: white;
 }
 
 .cl-navbar input[type=checkbox] {
