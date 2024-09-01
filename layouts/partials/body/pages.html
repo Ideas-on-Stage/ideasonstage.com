@@ -1,5 +1,5 @@
 {{ "<!-- partials/b/page-list.html:start -->" | safeHTML }}
-<section id="content-list" class="layout-content">
+<section id="content-list" class="cl-critical--content-width">
 	{{ range .Pages }}
 		{{ if (isset .Params "title") }}
 			{{/* <!-- Only list pages with a title in front matter --> */}}

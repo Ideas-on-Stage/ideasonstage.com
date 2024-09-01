@@ -1,14 +1,14 @@
 {{ "<!-- partials/b/page-title-home.html:start -->" | safeHTML }}
-<header id="title-home" class="title-home">
-	<h1 class="title-home--title">
+<header id="title-home" class="cl-title-home">
+	<h1 class="cl-title-home--title">
 		{{ with .Title }}{{ . | markdownify  }}{{ end }}
 	</h1>
 </header>
-<nav id="country-list" class="title-home--country-list">
-	<ul class="title-home--country-list-list">
+<nav id="country-list" class="cl-title-home--country-list">
+	<ul class="cl-title-home--country-list-list">
 		{{ range site.Params.countries }}
 			<a href="{{ .url }}">
-				<li class="title-home--country-list-item">
+				<li class="cl-title-home--country-list-item">
 					{{ .name }}
 				</li>
 			</a>

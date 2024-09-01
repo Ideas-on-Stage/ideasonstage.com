@@ -1,7 +1,7 @@
 en:
   title: "PDF Catalogue"
   layout: "inserts/module-half-text-picture.html"
-  style: "bg-lightgray"
+  style: "bg-light"
   picture: "/img/inserts/catalogue.jpg"
   url: "/guides/ideasonstage-catalogue-en.pdf"
   description: "Download our pdf catalogue."
@@ -9,7 +9,7 @@ en:
 fr:
   title: "Catalogue pdf"
   layout: "inserts/module-half-text-picture.html"
-  style: "bg-lightgray"
+  style: "bg-light"
   picture: "/img/inserts/catalogue.jpg"
   url: "/guides/ideasonstage-catalogue-fr.pdf"
   description: "Téléchargez notre catalogue de services au format pdf."
@@ -17,7 +17,7 @@ fr:
 es:
   title: "Catálogo PDF"
   layout: "inserts/module-half-text-picture.html"
-  style: "bg-lightgray"
+  style: "bg-light"
   picture: "/img/inserts/catalogue.jpg"
   url: "/guides/ideasonstage-catalogue-es.pdf"
   description: "Descarga nuestro catálogo de servicios en formato pdf."

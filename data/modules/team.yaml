@@ -1,7 +1,7 @@
 en:
   title: "Team"
   layout: "inserts/module-half-text-picture.html"
-  style: "bg-lightgray"
+  style: "bg-light"
   picture: "/img/inserts/team.jpg"
   url: "/team/"
   description: "Our international team can help you in English, French, Spanish and Italian."
@@ -10,7 +10,7 @@ en:
 fr:
   title: "Équipe"
   layout: "inserts/module-half-text-picture.html"
-  style: "bg-lightgray"
+  style: "bg-light"
   picture: "/img/inserts/team.jpg"
   url: "/fr/equipe/"
   description: "Notre équipe internationale peut vous accompagner en français, anglais, espagnol et italien."
@@ -19,7 +19,7 @@ fr:
 es:
   title: "Equipo"
   layout: "inserts/module-half-text-picture.html"
-  style: "bg-lightgray"
+  style: "bg-light"
   picture: "/img/inserts/team.jpg"
   url: "/es/equipo/"
   description: "Nuestro equipo internacional puede ayudarte en español, inglés, francés e italiano."

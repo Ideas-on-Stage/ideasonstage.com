@@ -1,7 +1,7 @@
 fr:
   title: "Comment présenter à distance"
   layout: "inserts/module-half-text-picture.html"
-  style: "bg-lightgray"
+  style: "bg-light"
   picture: "/fr/comment-presenter-a-distance/presentations-a-distance.jpg"
   url: "/fr/comment-presenter-a-distance/"
   description: "Notre guide gratuit."

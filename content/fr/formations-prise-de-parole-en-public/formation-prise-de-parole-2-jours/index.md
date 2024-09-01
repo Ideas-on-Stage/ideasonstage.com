@@ -19,7 +19,7 @@ Cette formation phare de notre programme couvre les modules storytelling, prése
 
 {{< image-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
 
-{{< agenda-list style="bg-lightgray">}}
+{{< agenda-list style="bg-light">}}
 	{{< agenda-item title="Objectifs pédagogiques de la formation" description="Combiner le storytelling, les présentations PowerPoint et l'art oratoire pour convaincre son auditoire." >}}
 	{{< agenda-item title="Prérequis de la formation" description="Avoir déjà fait une présentation en public.<br>Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>Ordinateur avec Microsoft PowerPoint ou un autre logiciel de présentation." >}}
 	{{< agenda-item title="Public concerné" description="Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux." >}}
@@ -29,14 +29,14 @@ Cette formation phare de notre programme couvre les modules storytelling, prése
 
 {{< space-medium style="bg-white" >}}
 
-{{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
+{{< icon-list title="Organisme de formation depuis 2010" style="bg-light" >}}
 	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
 	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
 {{< /icon-list >}}
 
 {{< space-medium style="bg-white" >}}
 
-{{< agenda-list style="bg-lightgray" title="Programme jour 1" >}}
+{{< agenda-list style="bg-light" title="Programme jour 1" >}}
 	{{< agenda-item title="Introduction" description="Les trois piliers d’une bonne présentation<br>Agenda et objectifs<br>Vos attentes" >}}
 	{{< agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
 	{{< agenda-item title="Structure" description="Choisir une structure<br>Placez les éléments de langage<br>Complétez votre structure<br>Reliez les éléments" >}}
@@ -46,7 +46,7 @@ Cette formation phare de notre programme couvre les modules storytelling, prése
 	{{< agenda-item title="Conclusion" description="Récapitulatif des points clés." >}}
 {{< /agenda-list >}}
 
-{{< agenda-list style="bg-lightgray" title="Programme jour 2" >}}
+{{< agenda-list style="bg-light" title="Programme jour 2" >}}
 	{{< agenda-item title="Lier histoire et présentation" description="Utiliser un « storyboard »<br>La méthode pSCORE" >}}
 	{{< agenda-item title="Diapositives de structure" description="Couverture et dernière page<br>Diapositive de section<br>Diapositive d'agenda" >}}
 	{{< agenda-item title="Éléments de contenu" description="Titre<br>Texte détaillé<br>Tableaux<br>Graphiques<br>Schémas et pictogrammes<br>Photos<br>Vidéos<br>Autres éléments" >}}

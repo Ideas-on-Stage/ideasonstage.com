@@ -1,0 +1,31 @@
+.iosform--field {
+	/* layout */
+	display: block;
+	margin: 20px 0;
+	padding: 6px 12px;
+	width: 100%;
+	/* font */
+	font-size: 0.8em;
+	line-height: 1.42857143;
+	/* style */
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: none;
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	box-sizing: border-box;
+}
+.iosform--field:focus {
+	/* highlight active field border */
+	border-color: var(--color-primary);
+	outline: 0;
+}
+input.iosform--field {
+	height: 34px;
+}
+textarea.iosform--field {
+	height: 200px;
+}

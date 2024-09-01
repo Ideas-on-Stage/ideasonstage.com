@@ -1,11 +1,11 @@
-.cta {
+.cl-cta {
 	width: var(--hero-width);
 	height: var(--hero-height);
 	max-width: var(--page-max-width);
 	overflow: hidden;
 }
 
-.cta--text {
+.cl-cta--text {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -13,12 +13,10 @@
 	justify-content: center;
 }
 
-.cta--title {
-	color: white;
+.cl-cta--title {
 	text-align: center;
 } 
 
-.cta--description {
-	color: white;
+.cl-cta--description {
 	text-align: center;
 } 

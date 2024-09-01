@@ -34,28 +34,28 @@ Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateu
 Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais experts, reconnus dans le monde de l'entreprise.
 
 {{< image-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
-{{< agenda-list style="bg-lightgray paddingv-small" title="Formation Prise de Parole 2 jours">}}
+{{< agenda-list style="bg-light paddingv-small" title="Formation Prise de Parole 2 jours">}}
 	{{< agenda-item title="" description="Notre formation phare de prise de parole en public, qui regroupe les modules Storytelling, Présentations PowerPoint et Art Oratoire. Cette formation s'appuie sur notre expérience unique de conseil en présentation auprès des plus grandes entreprises et des meilleures écoles de commerce." >}}
 {{< /agenda-list >}}
-{{< call-to-action button="En savoir plus" link="/fr/formation-prise-de-parole-2-jours/" style="bg-lightgray paddingv-small" >}}
+{{< call-to-action button="En savoir plus" link="/fr/formation-prise-de-parole-2-jours/" style="bg-light paddingv-small" >}}
 
 {{< image-wide src="prise-de-parole-en-public-002.jpg" alt="Intervenant en train de réaliser une présentation" >}}
-{{< agenda-list style="bg-lightgray paddingv-small" title="Formation Art Oratoire">}}
+{{< agenda-list style="bg-light paddingv-small" title="Formation Art Oratoire">}}
 	{{< agenda-item title="" description="Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations." >}}
 {{< /agenda-list >}}
-{{< call-to-action button="En savoir plus" link="/fr/formation-art-oratoire/" style="bg-lightgray paddingv-small" >}}
+{{< call-to-action button="En savoir plus" link="/fr/formation-art-oratoire/" style="bg-light paddingv-small" >}}
 
 {{< image-wide src="prise-de-parole-en-public-003.jpg" alt="Storytelling" >}}
-{{< agenda-list style="bg-lightgray paddingv-small" title="Formation storytelling">}}
+{{< agenda-list style="bg-light paddingv-small" title="Formation storytelling">}}
 	{{< agenda-item description="Le module storytelling est un module star de nos formations. Unique en son genre, pensé pour les besoins des entreprises, il vous apprendra comment construire votre discours pour convaincre votre auditoire, depuis l'identification des messages clés jusqu'à la création d'une histoire captivante." >}}
 {{< /agenda-list >}}
-{{< call-to-action button="En savoir plus" link="/fr/formation-storytelling/" style="bg-lightgray paddingv-small" >}}
+{{< call-to-action button="En savoir plus" link="/fr/formation-storytelling/" style="bg-light paddingv-small" >}}
 
 {{< image-wide src="prise-de-parole-en-public-004.jpg" alt="Gros plan mains qui applaudissent" >}}
-{{< agenda-list style="bg-lightgray paddingv-small" title="Formation Présentations PowerPoint">}}
+{{< agenda-list style="bg-light paddingv-small" title="Formation Présentations PowerPoint">}}
 	{{< agenda-item title="" description="Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoint. Lors de cette formation vous apprendrez comment utiliser PowerPoint pour créer des diapositives qui vont renforcer et clarifier votre discours oral. Vous apprendrez quel type de diapositive créer en fonction de l'utilisation de la présentation. Vous serez formés aux techniques de base du design pour créer des slides à fort impact visuel : simplicité, structure, choix des éléments. Enfin, vous verrez comment utiliser PowerPoint pour gagner du temps." >}}
 {{< /agenda-list >}}
-{{< call-to-action button="En savoir plus" link="/fr/formation-presentations-powerpoint/"  style="bg-lightgray paddingv-small" >}}
+{{< call-to-action button="En savoir plus" link="/fr/formation-presentations-powerpoint/"  style="bg-light paddingv-small" >}}
 
 ## Pourquoi choisir Ideas on Stage ?
 
@@ -67,7 +67,7 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 - Nous respectons chaque personne, nous laissons les différences s'exprimer pour que chacun puisse trouver le « style » qui lui correspond.
 - Nous avons un portefeuille de clients et de grandes écoles qui peuvent attester de la qualité de nos formations.
 <p></p>
-{{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
+{{< icon-list title="Organisme de formation depuis 2010" style="bg-light" >}}
 	{{< icon-item icon="logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
 	{{< icon-item icon="logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
 	{{< agenda-item description="[Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)" >}}

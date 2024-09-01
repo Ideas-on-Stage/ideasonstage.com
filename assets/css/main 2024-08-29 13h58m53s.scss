@@ -91,13 +91,13 @@
 	.footer-category-sub				{ font-size: 0.8em;		}
 	.footer-text			 			{ font-size: 0.75em;	}
 	.footer-social-link					{ font-size: 1.2em;		}
-	.iosform-control					{ font-size: 0.8em;		}
+	.iosform--control					{ font-size: 0.8em;		}
 	.testimonials-text					{ font-size: 0.8em;		}
 	.testimonials-name					{ font-size: 0.8em;		}
 	.testimonials-position				{ font-size: 0.8em;		}
 	.style-section-title-main 			{ font-size: 2em;		}
 	.style-module-text h3				{ font-size: 2em;		}
-	.style-text-icon					{ font-size: 0.8em;		}
+	.cl-shortcode--icon-text					{ font-size: 0.8em;		}
 	.text-base							{ font-size: 1em;		}
 	.text-small							{ font-size: 0.8em;		}
 	#content-table h2					{ font-size: 1em;		}
@@ -272,10 +272,10 @@
 		margin-bottom: 0;
 	}
 	
-	#content-main :not(div) + div.layout-shortcode,
-	#content-main :not(div) + div.layout-shortcode-img,
-	#content-main div.layout-shortcode + :not(div),
-	#content-main div.layout-shortcode-img + :not(div) {
+	#content-main :not(div) + div.cl-shortcode,
+	#content-main :not(div) + div.cl-shortcode--img,
+	#content-main div.cl-shortcode + :not(div),
+	#content-main div.cl-shortcode--img + :not(div) {
 		/* add margin space between shortcode and normal content */
 		margin-top: 48px;
 	}
@@ -432,7 +432,7 @@
 	}
 	
 	/* style for photograph styled pictures */
-	.style-photograph {
+	.cl-content--style-photograph {
 		border: 8px solid #fff;
 		box-shadow: 2px 2px 8px #aaa;
 		box-sizing: border-box;
@@ -443,26 +443,26 @@
 		text-align: center;
 	}
 	
-	.style-agenda-item-title {
+	.cl-shortcode--agenda-item-title {
 		color: var(--color-secondary);
 		margin-bottom: 0;
 		text-transform: uppercase;
 	}
 	
-	.style-agenda-item-description {
+	.cl-shortcode--agenda-item-description {
 		color: var(--color-midgray);
 		margin-top: 0;
 	}
 	
-	.style-icon {
+	.cl-shortcode--icon {
 		margin: auto; /* to center icon */
 	}
 	
-	.icon-small {
+	.cl-shortcode--icon-small {
 		width: 50%;
 	}
 	
-	.style-text-icon {
+	.cl-shortcode--icon-text {
 		margin-top: 0;
 	}
 	
@@ -560,10 +560,10 @@
 
 
 
-/* @group LAYOUT-CONTENT */
+/* @group cl-critical--content-width */
 
 	/* wrapper from main page content, with nice left and right margins */
-	.layout-content {
+	.cl-critical--content-width {
 		margin: 48px auto; /* use auto to center div on page */
 		padding: 0;
 		width: 80vw;
@@ -571,7 +571,7 @@
 	}
 	
 	/* use for narrow content such as forms */
-	.layout-content-narrow {
+	.cl-critical--content-width-narrow {
 		margin: 0 auto; /* use auto to center div on page */
 		padding: 0;
 		width: 50vw;
@@ -580,14 +580,14 @@
 	
 	@media (max-width:480px) {
 		
-		.layout-content {
+		.cl-critical--content-width {
 			margin: 48px var(--module-ts-column-gap);
 			width: calc(100% - var(--module-ts-column-gap) * 2);
 			max-width: calc(100% - var(--module-ts-column-gap) * 2);
 		}
 		
 		/* make the narrow content look nice in small screens */
-		.layout-content-narrow {
+		.cl-critical--content-width-narrow {
 			margin: 0 var(--module-ts-column-gap);
 			width: calc(100% - var(--module-ts-column-gap) * 2 );
 			max-width: calc(100% - var(--module-ts-column-gap) * 2 );
@@ -805,34 +805,34 @@
 
 
 
-/* @group LAYOUT-SHORTCODE */
+/* @group cl-shortcode */
 	
-	.shortcode-certificate {
+	.cl-shortcode--certificate {
 		width: 256px;	
 	}
 	
-	.layout-shortcode {
+	.cl-shortcode {
 		margin: 0 -2vw;
 		padding: 2vw;
 	}
 	
-	.layout-shortcode-img {
+	.cl-shortcode--img {
 		margin: 0 -2vw;
 		padding: 0;
 	}
-	.layout-shortcode-img img {
+	.cl-shortcode--img img {
 		width: 100%;
 		height: 100%;
 	}
 
 	@media (max-width:480px) {
 		
-		.layout-shortcode {
+		.cl-shortcode {
 			margin: 0 -4vw;
 			padding: 4vw;
 		}
 		
-		.layout-shortcode-img {
+		.cl-shortcode--img {
 			margin: 0 -4vw;
 		}
 		
@@ -1262,8 +1262,8 @@
 		transition: all .35s;
 	}
 	
-	.bg-lightgrey, 
-	.bg-lightgray {
+	.bg-light, 
+	.bg-light {
 		background-color: #f2f2f2;
 	}
 	
@@ -1455,7 +1455,7 @@
 
 /* @group IOSFORM */
 	
-	.iosform-control {
+	.iosform--control {
 		box-shadow: none;
 		border-radius: 4px;
 		display: block;
@@ -1471,17 +1471,17 @@
 		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 		box-sizing: border-box;
 	}
-	.iosform-control:focus {
+	.iosform--control:focus {
 		/* highlight active field border */
 		border-color: var(--color-primary);
 		outline: 0;
 	}
 		
-	input.iosform-control {
+	input.iosform--control {
 		height: 34px;
 	}
 	
-	textarea.iosform-control {
+	textarea.iosform--control {
 		height: 200px;
 	}
 	
@@ -1715,20 +1715,20 @@
 		display: none;
 	}
 	
-	.agenda-toggle {
+	.cl-shortcode--agenda-item-toggle {
 		display: block;  
 		font-weight: 500;
 		cursor: pointer;
 		margin-top: 1em;
 	}
 	
-	.collapsible-content {
+	.cl-shortcode--agenda-item-collapsible {
 		max-height: 0px;
 		overflow: hidden;
 
 		transition: max-height .25s ease-in-out;
 	}
-	.agenda-toggle:checked + .agenda-toggle + .collapsible-content {
+	.cl-shortcode--agenda-item-toggle:checked + .cl-shortcode--agenda-item-toggle + .cl-shortcode--agenda-item-collapsible {
 		max-height: 100vh;
 	}
 

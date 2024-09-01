@@ -1,13 +1,13 @@
 {{ "<!-- partials/b/page-hero.html:start -->" | safeHTML }}
-<header id="hero" class="hero">
-	<div class="critical--layer">
+<header id="hero" class="cl-hero">
+	<div class="cl-critical--layer">
 		{{/* <!-- get hero picture if there is one available --> */}}
 		{{ $heropath := partial "f/getheropicturepath" . }}
 		{{ $srcset := partial "f/getpicturesrcset" $heropath }}
 		<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
 	</div>
-	<div class="critical--layer">
-		<h1 class="hero--title">{{ "<!-- picture and h2 -->" | safeHTML }}
+	<div class="cl-critical--layer">
+		<h1 class="cl-hero--title">{{ "<!-- picture and h2 -->" | safeHTML }}
 			{{ with .Title }}{{ . | markdownify }}{{ end }}
 		</h1>
 	</div>

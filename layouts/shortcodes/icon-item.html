@@ -11,7 +11,7 @@
 
 {{ "<!-- shortcodes:icon-item.html:start -->" | safeHTML }}
 <div class="flex-child flex-child-{{ with .Params.size }}{{ . }}{{ else }}20p{{ end }}">	
-	<div class="style-icon {{ with .Params.style }}{{ . }}{{ end }}">
+	<div class="cl-shortcode--icon {{ with .Params.style }}{{ . }}{{ end }}">
 		{{ with .Params.url }}
 			<a href="{{ . }}">
 		{{ end }}
@@ -21,7 +21,7 @@
 		{{ end }}
 	</div>
 	<div>
-		<p class="style-text-icon text-center">
+		<p class="cl-shortcode--icon-text">
 			{{ .Params.description | markdownify }}
 		</p>
 	</div>

@@ -1,0 +1,82 @@
+/* .cl-content standard tags styles */	
+
+/* h1 should be in <header> title, not in content */
+.cl-content > h2,
+.cl-content > h3,
+.cl-content > h4 {
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+	scroll-margin-top: calc(var(--menubar-height) + 48px);
+}
+.cl-content li {
+	line-height: 1.6em;
+}
+.cl-content > blockquote {
+	background: #f5f5f5;
+	border-radius: 0px;
+	margin: 2vw -2vw;
+	padding: 2vw;
+	color: var(--color-blockquote);
+	border-left: 4px var(--color-secondary) solid;
+}
+.cl-content > p > img {
+	display: block;
+	margin-top: 48px;
+	margin-bottom: 48px;
+	width: auto;
+	height: auto;
+	max-width: 100%; /* ensures img are shown at max content width */
+}
+
+.cl-content table {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+.cl-content thead {
+	border: none;
+}
+.cl-content td {
+	padding: 1vw;
+	width: auto;
+	border: 1px solid #ddd;
+}
+.cl-content th {
+	padding: 1vw;
+	width: auto;
+	min-width: 120px; /* small columns will have the same size */
+	border: 1px solid #ddd;
+	text-align: center;
+}
+@media (max-width:480px) {		
+	.cl-content th {
+		min-width: 50px;
+	}
+}
+
+/* .cl-content adapt margin-top and bottom */
+.cl-content > :first-child {
+	/* remove top margin from first element of content */
+	margin-top: 0;
+}
+.cl-content > :last-child {
+	/* remove bottom margin from last element of content */
+	margin-bottom: 0;
+}
+
+/* style for photograph styled pictures */
+.cl-content--style-photograph {
+	border: 8px solid #fff;
+	box-shadow: 2px 2px 8px #aaa;
+	box-sizing: border-box;
+}
+
+#TableOfContents > ul > li > a {
+	/* first level of table of contents bold */
+	font-family: "Whitney SSm A", "Whitney SSm B";
+	font-style: normal;
+	font-weight: 700;
+}
+
+/* include shortcode.css */
+{{- $css := resources.Get "css/shortcode.scss" | resources.ExecuteAsTemplate "shortcode.css" . | resources.ToCSS | resources.Minify -}}
+{{- $css.Content | safeCSS -}}

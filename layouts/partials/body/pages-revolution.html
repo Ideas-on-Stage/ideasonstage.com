@@ -3,10 +3,10 @@
 {{ range first 1 .Pages }}	
 	{{/* <!-- generate hero with newest video --> */}}
 	<section id="highlight" class="pages-revolution--hero">
-		<div class="critical--layer">
+		<div class="cl-critical--layer">
 			<img src="{{ .RelPermalink }}image.jpg">
 		</div>
-		<div class="critical--layer pages-revolution--hero-text">
+		<div class="cl-critical--layer pages-revolution--hero-text">
 			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 				<h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
 			</a>
@@ -16,7 +16,7 @@
 		</div>
 	</section>
 {{ end }}
-<section id="content" class="critical--content">
+<section id="content" class="cl-critical--content-width">
 	<div class="flex-parent flex-parent-row paddingt-none paddingb-medium">
 		<div class="layout-module-column-text style-module-text ">	
 			{{ with .Content }}{{ . | markdownify }}{{ end }}

@@ -20,7 +20,7 @@ Now Officially Included in New York University’s Business Communication Course
 
 {{< call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" >}}
 
-{{< call-to-action style="bg-lightgray" title="Discover your presentation score" subtitle="To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book. After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. It’s free, easy and takes less than three minutes to complete." picture="meter-orange.png" button="TAKE THE TEST NOW" link="https://presentationscorecard.scoreapp.com" >}}
+{{< call-to-action style="bg-light" title="Discover your presentation score" subtitle="To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book. After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. It’s free, easy and takes less than three minutes to complete." picture="meter-orange.png" button="TAKE THE TEST NOW" link="https://presentationscorecard.scoreapp.com" >}}
 
 ## An idea needs wings, and that means a strong, well-delivered presentation.
 

@@ -1,0 +1,48 @@
+.cl-footer {
+	margin: 0;
+	padding: var(--content-space-v) 0;
+	background-color: var(--color-darkgray);
+	color: var(--color-lightgray);
+}
+.cl-footer a {
+	color: var(--color-lightgray);
+	border: none;
+}
+.cl-footer a:hover {
+	color: var(--color-primary);
+}
+.cl-footer--category {
+	list-style: none;
+	margin: 0px;
+	padding: 0;
+}
+
+.cl-footer--category-main,
+.cl-footer--category-main a {
+	font-family: "Gotham SSm A", "Gotham SSm B";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 0.8em;
+	text-transform: uppercase;		
+	border: none;
+}
+
+.cl-footer--category-sub,
+.cl-footer--category-sub a {
+	font-size: 0.85em;
+	border: none;
+}
+
+.cl-footer--social {
+	background-color: var(--color-lightgray);
+	color: var(--color-darkgray);
+	border-radius: 50%;
+	width: 1.5em;
+	height: 1.5em;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.cl-footer--text {
+	font-size: 0.75em;
+}

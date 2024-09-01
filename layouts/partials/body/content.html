@@ -1,20 +1,24 @@
-{{ "<!-- partials/b/page-content.html:start -->" | safeHTML }}
+{{ "<!-- partials/body/content.html:start -->" | safeHTML }}
 {{ if .Content }}
-	<div class="layout-content">
+	<article id="content-main" class="cl-critical--content-width cl-critical--content-space-v cl-content">
 		{{ if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
-			<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall">
-				<article id="content-main" class="flex-child flex-child-100p">
-					{{ with .Params.summary }}<p>{{ . }}</p>{{ end }} 
-					<h2>{{ site.Params.tableofcontents }}</h2>
-					{{ with .TableOfContents }}{{ . }}{{ end }} 
-					{{ with .Content }}{{ . }}{{ end }} 
-				</article>
-			</div>
-		{{ else }}
-			<section id="content-main">
-				{{ with page.Content }}{{ . }}{{ end }} 
-			</section>
+			{{ with .Params.summary }}
+				<p>
+					{{ . }}
+				</p>
+			{{ end }}
+			<h2>
+				{{ site.Params.tableofcontents }}
+			</h2>
+			{{ with .TableOfContents }}
+				{{ . }}
+			{{ end }}
 		{{ end }}
-	</div>
+		{{ with .Content }}
+			{{ . }}
+		{{ end }}
+	</article>
+{{ else }}
+	{{ "<!-- no content found -->" | safeHTML }}
 {{ end }}
-{{ "<!-- partials/b/page-content.html:end -->" | safeHTML }}
+{{ "<!-- partials/body/content.html:end -->" | safeHTML }}

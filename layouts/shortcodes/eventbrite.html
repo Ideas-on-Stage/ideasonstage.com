@@ -1,5 +1,7 @@
 {{ "<!-- shortcodes:eventbrite.html:start -->" | safeHTML }}
-<div class="eventbrite_embed">
-	<iframe src="//eventbrite.de/tickets-external?eid={{ index .Params 0 }}&amp;ref=etckt" width="100%" height="350" frameborder="0" marginwidth="5" marginheight="5" scrolling="auto"></iframe>
+<div class="cl-shortcode">
+	<div class="eventbrite_embed">
+		<iframe src="//eventbrite.de/tickets-external?eid={{ index .Params 0 }}&amp;ref=etckt" width="100%" height="350" frameborder="0" marginwidth="5" marginheight="5" scrolling="auto"></iframe>
+	</div>
 </div>
 {{ "<!-- shortcodes:eventbrite.html:end -->" | safeHTML }}

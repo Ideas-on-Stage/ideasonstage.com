@@ -1,7 +1,7 @@
 en:
     title: "Event Organizer Guide"
     layout: "inserts/module-half-text-picture.html"
-    style: "bg-lightgray"
+    style: "bg-light"
     picture: "/event-organizer-guide/event-organizer.jpg"
     url: "/event-organizer-guide/"
     description: "Our guide to help you organize memorable corporate events."
@@ -10,7 +10,7 @@ en:
 fr:
     title: "Guide de l'organisateur d'événements"
     layout: "inserts/module-half-text-picture.html"
-    style: "bg-lightgray"
+    style: "bg-light"
     picture: "/fr/guide-organisateur-evenement-entreprise/organisateur-evenement.jpg"
     url: "/fr/guide-organisateur-evenement-entreprise/"
     description: "Notre guide pour vous aider à organiser vos événements d'entreprise."

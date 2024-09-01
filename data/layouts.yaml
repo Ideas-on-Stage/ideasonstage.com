@@ -85,6 +85,7 @@ news:
     section:
         body:
             - title
+            - content
             - pages-news
     # page.Kind "page"
     page:
@@ -138,6 +139,7 @@ tags:
             - title-tags-taxonomy
         body:
             - title
+            - content
             - pages-tags
     # page.Kind "term"
     term:
@@ -148,6 +150,7 @@ tags:
         body:
             - title
             - breadcrumbs
+            - content
             - pages-tags
 
 

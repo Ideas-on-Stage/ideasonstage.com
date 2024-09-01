@@ -1,9 +1,9 @@
 /* @group FONT FAMILIES */
 
-	body,
-	p,
 	a,
+	body,
 	input,
+	p,
 	textarea {
 		font-family: "Whitney SSm A", "Whitney SSm B";
 		font-style: normal;
@@ -11,8 +11,8 @@
 	}
 
 	b,
-	strong,
-	blockquote {
+	blockquote,
+	strong {
 		font-family: "Whitney SSm A", "Whitney SSm B";
 		font-style: normal;
 		font-weight: 700;
@@ -22,7 +22,7 @@
 	h2,
 	h3,
 	h4,
-	big {
+	h5 {
 		font-family: "Gotham SSm A", "Gotham SSm B";
 		font-style: normal;
 		font-weight: 700;
@@ -34,29 +34,49 @@
 
 /* @group FONT SIZES */
 
-	/* This is where ALL font sizes are declared */
-
-	/* base font size, in vw so everything is proportional to viewport width */
-	body, a, blockquote					{ font-size: 1.50vw;	}
+	a,
+	blockquote,
+	body,
+	input
+	p,
+	strong,
+	textarea {
+		font-size: var(text-size-base);
+	}
 
 	@media (max-width:480px) {
 		/* adjust for small tall smartphone screens */
-		body, a, blockquote 			{ font-size: 4vw;		}
+		a,
+		blockquote,
+		body,
+		input
+		p,
+		strong,
+		textarea {
+			font-size: 4vw;
+		}
 	}
 	
 	@media(min-width:1281px) {
 		/* adjust for very large screens (>1280px wide) 
 			so that text does not become too big */
-		body, a, blockquote				{ font-size: 20px;		}
+		a,
+		blockquote,
+		body,
+		input
+		p,
+		strong,
+		textarea {
+			font-size: 20px;
+		}
 	}
 	
 	/* standad tags font sizes, in em, so it is relative to base font size */
-	h1									{ font-size: 2.00em;	}
-	h2									{ font-size: 1.75em;	}
-	h3									{ font-size: 1.25em;	}
-	h4									{ font-size: 1.00em;	}
-	h5									{ font-size: 1.00em;	}
-	footer, footer a					{ font-size: 1.00em;	}
+	h1	{ font-size: 2.00em;	}
+	h2	{ font-size: 1.75em;	}
+	h3	{ font-size: 1.25em;	}
+	h4	{ font-size: 1.00em;	}
+	h5	{ font-size: 1.00em;	}
 	
 /* @end */
 
@@ -174,7 +194,86 @@
 
 
 
-/* @group CRITICAL */
+/* @group BG-COLORS */
+	
+	.bg-black {
+		background-color: var(--color-bg-black);
+		color: var(--color-bg-black-text);
+	}
+	.bg-black a {
+		color: var(--color-bg-black-link);
+	}
+	.bg-black a:hover {
+		color: var(--color-bg-black-link-hover);
+		transition: all .35s;
+	}
+	
+	.bg-dark {
+		background-color: var(--color-bg-dark);
+		color: var(--color-bg-dark-text);
+	}
+	.bg-dark a {
+		color: var(--color-bg-dark-link);
+	}
+	.bg-dark a:hover {
+		color: var(--color-bg-dark-link-hover);
+		transition: all .35s;
+	}
+	
+	.bg-light {
+		background-color: var(--color-bg-light);
+		color: var(--color-bg-light-text);
+	}
+	.bg-light a {
+		color: var(--color-bg-light-link);
+	}
+	.bg-light a:hover {
+		color: var(--color-bg-light-link-hover);
+	}
+
+	.bg-primary {	
+		background-color: var(--color-bg-primary);
+		color: var(--color-bg-primary-text);
+	}
+	.bg-primary a {
+		color: var(--color-bg-primary-link);
+		transition: all .35s;
+	}
+	.bg-primary a:hover {
+		color: var(--color-bg-primary-link-hover);
+		transition: all .35s;
+	}
+
+	.bg-secondary {	
+		background-color: var(--color-bg-secondary);
+		color: var(--color-bg-secondary-text);
+	}
+	.bg-secondary a {
+		color: var(--color-bg-secondary-link);
+		transition: all .35s;
+	}
+	.bg-secondary a:hover {
+		color: var(--color-bg-secondary-link-hover);
+		transition: all .35s;
+	}
+	
+	.bg-codingandbricks	{
+		background-color: #233B4C;
+		color: #FFD500;
+	}
+	.bg-codingandbricks a {
+		color: #FFD500!important;
+	}
+	.bg-codingandbricks a:hover {
+		color: #FFD500;
+		transition: all .35s;
+	}
+
+/* @end */
+
+
+
+/* @group BUTTON */
 
 	.critical--button-primary,
 	.critical--button-secondary {
@@ -220,29 +319,64 @@
 		/* use white text instead of blue if background is orange */
 		color: white !important;
 	}
+
+/* @end */	
+
+
+
+/* @group CONTENT */
+
+	.cl-critical--content-space-v {
+		margin-top: var(--content-space-v);
+		margin-bottom: var(--content-space-v);
+	}
 	
-	.critical--content {
-		margin: 48px auto; /* use auto to center div on page */
+	.cl-critical--content-width {
+		margin-left: auto; /* use auto to center div on page */
+		margin-right: auto; /* use auto to center div on page */
 		padding: 0;
 		width: 80vw;
 		max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
 	}	
 	@media (max-width:480px) {		
-		.critical--content {
-			margin: 48px var(--module-ts-column-gap);
+		.cl-critical--content-width {
+			margin-left: var(--module-ts-column-gap);
+			margin-right: var(--module-ts-column-gap); 
 			width: calc(100% - var(--module-ts-column-gap) * 2);
 			max-width: calc(100% - var(--module-ts-column-gap) * 2);
 		}
 	}
+	
+		/* use for narrow content such as forms */
+	.cl-critical--content-width-narrow {
+		margin: 0 auto; /* use auto to center div on page */
+		padding: 0;
+		width: 50vw;
+		max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
+	}
+	@media (max-width:480px) {
+		/* make the narrow content look nice in small screens */
+		.cl-critical--content-width-narrow {
+			margin: 0 var(--module-ts-column-gap);
+			width: calc(100% - var(--module-ts-column-gap) * 2 );
+			max-width: calc(100% - var(--module-ts-column-gap) * 2 );
+		}
+	}
 
-	.critical--layer {
+/* @end */
+
+
+
+/* @group LAYER */
+
+	.cl-critical--layer {
 		position: absolute;
 		height: inherit;
 		width: inherit;
 		max-height: inherit;
 		max-width: inherit;
 	}
-	.critical--layer > img {
+	.cl-critical--layer > img {
 		height: inherit; /* ! works only if height of parent is calculated as vw or px, not % */
 		width: inherit; /* ! works only if width of parent is calculated as vw or px, not % */
 		max-height: inherit;
@@ -250,10 +384,4 @@
 		object-fit: cover;
 	}
 
-	.critical--marginv-none {
-		margin-top: 0;
-		margin-bottom: 0;
-	}
-	
-		
 /* @end */

@@ -25,7 +25,7 @@ Notre service de coaching en prise de parole est taillé sur mesure. Que vous so
 
 Notre expérience montre l’importance de la répétition dans la préparation. C’est pourquoi le programme de notre coaching se déroule sur plusieurs séances individuelles. Nous adaptons le programme en fonction des forces et points d’amélioration de chacun, mais ci-dessous vous trouverez un exemple type.
 
-{{< agenda-list style="bg-lightgray" title="Exemple de programme de coaching">}}
+{{< agenda-list style="bg-light" title="Exemple de programme de coaching">}}
     {{< agenda-item title="ENTRETIEN PRÉLIMINAIRE" description="Définition des attentes, du contexte et des objectifs du coaching. Définition et explication du plan de travail los des séances à venir (le coaching est un travail collaboratif entre coach et intervenant)." >}}
     {{< agenda-item title="PRÉPARATION" description="L'intervenant rassemble les informations nécessaires pour sa présentation (données, informations, visuels, …) et crée une première version de l'histoire qu'il envoie au coach qui effectue un travail de préparation de la séance 1." >}}
     {{< agenda-item title="SÉANCE 1 - HISTOIRE" description="Le coach et l'intervenant revoient ensemble les pistes d'amélioration de l'histoire et des visuels utilisés. Si possible, une première répétition « sur scène » est effectuée pour définir le travail sur la partie oratoire." >}}

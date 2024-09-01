@@ -1,60 +1,46 @@
-/* @group SIDEBAR */
+.cl-sidebar h2							{ font-size: 1em;		}
+.cl-sidebar li							{ font-size: 1em;		}
+.cl-sidebar p,
+.cl-sidebar a							{ font-size: 0.8em;		}
 
-	#sidebar {
-		background-color: var(--color-lightgray);
-	}
-	
-	#sidebar h2 {
-		font-size: 1em;
-		color: #222;
-		margin: 0;
-		text-align: left;
-	}
+.cl-sidebar {
+	background-color: var(--color-lightgray);
+}
 
-	#sidebar ul {
-		list-style-type: none;
-		padding: 0;
-		margin: 0;
-		margin-bottom: 1em;
-	}
-	
-	#sidebar li {
-		font-size: 1em;
-		margin: 0.5em 0;
-		padding: 0;
-	}
-	
-	#sidebar p {
-		font-size: 0.80em;
-	}
-	
-	#sidebar a {
-		font-size: 0.80em;
-		text-transform: capitalize;
-		width: 100%;
-		color: #222;
-		line-height: 1.6em;
-	}
+.cl-sidebar h2 {
+	color: #222;
+	margin: 0;
+	text-align: left;
+}
 
-	#sidebar a:hover {
-		color: #ff8200;
-	}
+.cl-sidebar ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 1em;
+}
 
-	.sidebar-box {
-		background-color: #eee;
-		padding-bottom: 1vw;
-		margin-bottom: 1vw;
-	}
-	
-	.sidebar-narrow-field {
-		width: 80%;
-		margin-left: 10%;
-	}
+.cl-sidebar li {
+	margin: 0.5em 0;
+	padding: 0;
+}
 
-	#sidebar .critical--button-primary {
-		margin: 0;
-		padding: 0.8em 1em;
-		font-size: 0.8em;
-	}
+.cl-sidebar a {
+	text-transform: capitalize;
+	width: 100%;
+	color: #222;
+	line-height: 1.6em;
+}
+.cl-sidebar a:hover {
+	color: #ff8200;
+}
 
-/* @end */
+.cl-sidebar--item {
+	margin: 2vw;	
+}
+
+.cl-sidebar .critical--button-primary {
+	margin: 0;
+	padding: 0.8em 1em;
+	font-size: 0.8em;
+}

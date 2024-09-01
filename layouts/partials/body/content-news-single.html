@@ -1,5 +1,5 @@
 {{ "<!-- partials/b/content-news-single.html:start -->" | safeHTML }}
-<div class="layout-content">
+<div class="cl-critical--content-width cl-critical--content-space-v">
 	<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-parent-gap-big">
 		<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
 			<div class="scroller">
@@ -7,7 +7,7 @@
 				{{ partial "sidebar/sidebar-top-categories.html" . }}
 			</div>
 		</aside>
-		<article id="content-main" class="flex-child flex-child-67p">
+		<article id="content-main" class="flex-child flex-child-67p cl-content">
 			<div class="flex-parent flex-parent-column">
 				<div class="flex-parent flex-parent-row">
 					<h1>{{ .Title }}</h1>

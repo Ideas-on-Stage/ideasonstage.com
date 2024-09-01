@@ -19,7 +19,7 @@ Cette formation condense l'essentiel des modules storytelling, présentations Po
 
 Pour les groupes souhaitant couvrir les différents sujets plus en profondeur et avec plus de mise en pratique, nous proposons également la [formation prise de parole 2 jours](/fr/formation-prise-de-parole-2-jours/).
 
-{{< agenda-list style="bg-lightgray">}}
+{{< agenda-list style="bg-light">}}
 	{{< agenda-item title="Objectifs pédagogiques de la formation" description="Combiner le storytelling, les présentations PowerPoint et l'art oratoire pour convaincre son auditoire." >}}
 	{{< agenda-item title="Prérequis de la formation" description="Avoir déjà fait une présentation en public.<br>Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>Il n’est pas nécessaire d’avoir un ordinateur." >}}
 	{{< agenda-item title="Public concerné" description="Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux." >}}
@@ -29,14 +29,14 @@ Pour les groupes souhaitant couvrir les différents sujets plus en profondeur et
 
 {{< space-medium style="bg-white" >}}
 
-{{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
+{{< icon-list title="Organisme de formation depuis 2010" style="bg-light" >}}
 	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
 	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
 {{< /icon-list >}}
 
 {{< space-medium style="bg-white" >}}
 
-{{< agenda-list style="bg-lightgray" title="Programme" >}}
+{{< agenda-list style="bg-light" title="Programme" >}}
 	{{< agenda-item title="Introduction" description="Les trois piliers d’une bonne présentation<br>Agenda et objectifs<br>Vos attentes" >}}
 	{{< agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
 	{{< agenda-item title="Storytelling" description="Structure : choisir une structure adaptée à l'objectif et au contenu de votre présentation." >}}

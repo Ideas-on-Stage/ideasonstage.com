@@ -13,7 +13,7 @@
 {{ $varid := replace $varid "-" "dash" }}
 
 {{ "<!-- shortcodes:youtube.html:start -->" | safeHTML }}
-<div class="layout-shortcode">
+<div class="cl-shortcode">
 	<div id="{{ index .Params 0 }}" style="position:relative;padding-bottom:56.25%;height:0;">
 		{{/* <!-- build search path for on server picture --> */}}
 		{{ $path := printf "/static/img/youtube/%s.jpg" (index .Params 0) }}

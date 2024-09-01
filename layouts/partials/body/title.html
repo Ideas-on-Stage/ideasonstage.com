@@ -9,7 +9,7 @@
 	{{ else if and (eq .Section "team") (.IsPage) }}
 		{{/* <!-- no title for team member  pages (ideally should be replaced by a parameter) --> */}}
 	{{ else }}
-		<header id="title" class="title">
+		<header id="title" class="cl-title">
 			<h1>
 				{{ with .Title }}{{ . | markdownify }}{{ end }}
 			</h1>

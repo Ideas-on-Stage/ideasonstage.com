@@ -14,12 +14,12 @@ Our corporate communication strategy consulting branch offers all necessary serv
 
 {{< image-wide src="corporate-communication.jpg" alt="Corporate Communication" >}}
 
-{{< icon-list title="Key benefits" style="bg-lightgray" >}}
-	{{< icon-item icon="identity.svg" description="Reinforce your identity" style="icon-small" >}}
-	{{< icon-item icon="vision.svg" description="A clear vision and mission" style="icon-small" >}}
-	{{< icon-item icon="fast.svg" description="Faster organizational transformation" style="icon-small" >}}
-	{{< icon-item icon="group.svg" description="Effective employee coordination" style="icon-small" >}}
-	{{< icon-item icon="performance.svg" description="Corporate performance improvement" style="icon-small" >}}
+{{< icon-list title="Key benefits" style="bg-light" >}}
+	{{< icon-item icon="identity.svg" description="Reinforce your identity" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="vision.svg" description="A clear vision and mission" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="fast.svg" description="Faster organizational transformation" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="group.svg" description="Effective employee coordination" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="performance.svg" description="Corporate performance improvement" style="cl-shortcode--icon-small" >}}
 {{< /icon-list >}}
 
 {{< text-centered category="Communication Strategy" title="Unite your company around one message" >}}
@@ -30,12 +30,12 @@ A great communication strategy will unify your corporate vision around a clear m
 Once we have a clear overall communication strategy in place; we work with you to execute that vision at the organizational and management levels. This is our inside and outside approach to help you achieve communication excellence. Our difference is our ability to execute the strategy.<br>Our team has years of experience working with C-level executives and are themselves active as public speakers and coaches. We have helped many organizations transform the way they communicate around a simpler, more concrete method of communication. This, in turn, has helped them transform their organizations better and faster.
 {{< /text-centered >}}
  
-{{< icon-list title="Top reasons why people use our corporate communication services" style="bg-lightgray" >}}
-	{{< icon-item icon="leader.svg" description="Leadership Meeting" style="icon-small" >}}
-	{{< icon-item icon="launch.svg" description="Launches and Rollouts" style="icon-small" >}}
-	{{< icon-item icon="csr.svg" description="Corporate and Social Responsibility" style="icon-small" >}}
-	{{< icon-item icon="transformation.svg" description="Organizational Transformation Plan" style="icon-small" >}}
-	{{< icon-item icon="certificate.svg" description="ESG communication" style="icon-small" >}}
+{{< icon-list title="Top reasons why people use our corporate communication services" style="bg-light" >}}
+	{{< icon-item icon="leader.svg" description="Leadership Meeting" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="launch.svg" description="Launches and Rollouts" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="csr.svg" description="Corporate and Social Responsibility" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="transformation.svg" description="Organizational Transformation Plan" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="certificate.svg" description="ESG communication" style="cl-shortcode--icon-small" >}}
 {{< /icon-list >}}
 
 {{< image-wide src="corporate-office.jpg" alt="Corporate Communication" >}}

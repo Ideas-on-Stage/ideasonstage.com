@@ -1,10 +1,10 @@
-.hero {
+.cl-hero {
 	height: var(--hero-height);
 	width: calc(100% - 0.001px);
 	max-width: var(--page-max-width);
 }
 
-.hero--title {
+.cl-hero--title {
 	position: sticky;
 	top: var(--menubar-height);
 	z-index: 100;

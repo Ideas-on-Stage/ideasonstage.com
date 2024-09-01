@@ -1,7 +1,7 @@
 {{ "<!-- partials/b/data-modules:start -->" | safeHTML }}
 {{ with .Params.datamoduleasidelist }}
 	<aside>
-		<section id="modules-aside" class="layout-module-group">
+		<section id="modules-aside" class="modules">
 				{{ range . }}
 					{{ $data := index site.Data.modules . }}
 					{{ if $data }}

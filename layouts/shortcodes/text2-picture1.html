@@ -1,15 +1,17 @@
 {{ "<!-- shortcodes:text2-picture1.html:start -->" | safeHTML }}
-<div class="layout-shortcode flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-parent-gap flex-parent-justify-start marginv-medium {{ with .Params.style }}{{ . }}{{ end }}">
-	<div class="layout-shortcode-child flex-child flex-child-60p">
-		<h3 class="">
-			{{ .Params.title }}
-		</h3>
-		<p>
-			{{ .Inner | markdownify }}
-		</p>
-	</div>
-	<div class="layout-shortcode-child flex-child flex-child-40p">
-		{{ partial "e/picture" .Params }}
+<div class="cl-shortcode {{ with .Params.style }}{{ . }}{{ end }}">
+	<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-parent-gap flex-parent-justify-start {{ with .Params.style }}{{ . }}{{ end }}">
+		<div class="cl-shortcode-child flex-child flex-child-60p">
+			<h3 class="">
+				{{ .Params.title }}
+			</h3>
+			<p>
+				{{ .Inner | markdownify }}
+			</p>
+		</div>
+		<div class="cl-shortcode-child flex-child flex-child-40p">
+			{{ partial "e/picture" .Params }}
+		</div>
 	</div>
 </div>
 {{ "<!-- shortcodes:text2-picture1.html:end -->" | safeHTML }}

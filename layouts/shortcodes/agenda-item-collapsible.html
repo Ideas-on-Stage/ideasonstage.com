@@ -2,16 +2,16 @@
 <div class="padding-tiny">
 	{{ if .Params.description }}
 		{{ if $.Params.title }}
-			<input id="collapsible_{{ $.Params.title }}" class="agenda-toggle" type="checkbox">
-			<label for="collapsible_{{ $.Params.title }}" class="agenda-toggle style-agenda-item-title text-center">{{ $.Params.title }} <i class="fa fa-chevron-down"></i></label>
+			<input id="collapsible_{{ $.Params.title }}" class="cl-shortcode--agenda-item-toggle" type="checkbox">
+			<label for="collapsible_{{ $.Params.title }}" class="cl-shortcode--agenda-item-toggle cl-shortcode--agenda-item-title">{{ $.Params.title }} <i class="fa fa-chevron-down"></i></label>
 		{{ end }}
-		<div class="collapsible-content">
-			<p class="style-agenda-item-description text-center agenda-content-inner">{{ .Params.description | markdownify }}</p>
+		<div class="cl-shortcode--agenda-item-collapsible">
+			<p class="cl-shortcode--agenda-item-description">{{ .Params.description | markdownify }}</p>
 		</div>	
 		
 	{{ else }}
 		{{ if $.Params.title }}
-		<p class="style-agenda-item-title text-center">{{ $.Params.title }}</p>
+		<p class="cl-shortcode--agenda-item-title">{{ $.Params.title }}</p>
 		{{ end }}
 	{{ end }}	
 </div>

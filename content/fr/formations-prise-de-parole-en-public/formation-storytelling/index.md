@@ -19,7 +19,7 @@ Cette formation explique comment utiliser les techniques de storytelling pour cr
 
 {{< image-wide src="storytelling.jpg" alt="Formation Storytelling" >}}
 
-{{< agenda-list style="bg-lightgray">}}
+{{< agenda-list style="bg-light">}}
 	{{< agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre à utiliser les techniques de storytelling pour créer un message clé<br>Bien structurer ses idées et ses éléments de langage.<br>Développer une histoire captivante pour convaincre son auditoire." >}}
 	{{< agenda-item title="Prérequis de la formation" description="Avoir déjà fait une présentation en public.<br>Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>Il n’est pas nécessaire d’avoir un ordinateur." >}}
 	{{< agenda-item title="Public concerné" description="Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux." >}}
@@ -29,14 +29,14 @@ Cette formation explique comment utiliser les techniques de storytelling pour cr
 
 {{< space-medium style="bg-white" >}}
 
-{{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
+{{< icon-list title="Organisme de formation depuis 2010" style="bg-light" >}}
 	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
 	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
 {{< /icon-list >}}
 
 {{< space-medium style="bg-white" >}}
 
-{{< agenda-list style="bg-lightgray" title="Programme" >}}
+{{< agenda-list style="bg-light" title="Programme" >}}
 {{< agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
 {{< agenda-item title="Lier histoire et présentation" description="Utiliser un « storyboard »<br>La méthode pSCORE" >}}
 {{< agenda-item title="Diapositives de structure" description="Couverture et dernière page<br>Diapositive de section<br>Diapositive d'agenda" >}}

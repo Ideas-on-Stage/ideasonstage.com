@@ -74,8 +74,8 @@
 
 {{ "<!-- shortcodes:gallery.html:start -->" | safeHTML }}
 {{ if gt $len 0  }}
-	<div class="layout-shortcode">
-		<div class="layout-shortcode-child">
+	<div class="cl-shortcode">
+		<div class="cl-shortcode-child">
 			<div class="flex-parent flex-parent-row">
 				{{ range .Params }}
 				<div class="{{ $class }} height-auto"><img src="{{ . }}"></div>

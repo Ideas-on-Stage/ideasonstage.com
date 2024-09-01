@@ -1,9 +1,9 @@
 {{ "<!-- partials/b/page-nav.html:start -->" | safeHTML }}
-<nav class="iosnavbar">
+<nav class="cl-navbar">
 	
 	<div class="flex-parent flex-parent-row flex-parent-align-center">
 		<!-- logo -->
-		<div class="iosnavbar-brand">
+		<div class="cl-navbar--brand">
 			{{ $home := .Site.BaseURL }}
 			{{ if ne "en" .Site.LanguageCode }}
 				{{ $home = printf "%s%s/" $home .Site.LanguageCode }}	
@@ -15,7 +15,7 @@
 		</div>
 		
 		<!-- burger menu on ts screens -->
-		<label for="drop" class="menutoggle iosnavbar-burger">
+		<label for="drop" class="cl-navbar--menutoggle cl-navbar--burger">
 			<svg fill="#fff" width="16px" height="16px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path d="M2,4A1,1,0,0,1,3,3H21a1,1,0,0,1,0,2H3A1,1,0,0,1,2,4Zm1,9H21a1,1,0,0,0,0-2H3a1,1,0,0,0,0,2Zm0,8H21a1,1,0,0,0,0-2H3a1,1,0,0,0,0,2Z"/>	
 			</svg>
@@ -23,64 +23,64 @@
 		<input type="checkbox" id="drop" />
 		
 		<!-- iosmenu start -->
-		<ul class="iosnavbar-menu">
+		<ul class="cl-navbar--menu">
 			
 			<!-- Menubar Menu Items -->
 			{{ range .Site.Params.navigation.menubar }}
-				<li class="iosnavbar-menu-item">
+				<li class="cl-navbar--menu-item">
 					<a class="page-scroll" href="{{ .url }}" onclick="getElementById('drop').checked = false">
 						{{ if .icon }}
 							<i class="fa {{ .icon }}"></i>
-							<span class="iosnavbar-shorten">{{ .name }}</span>
+							<span class="cl-navbar--shorten">{{ .name }}</span>
 						{{ else }}
 							{{ .name }}
-						{{ end }}
+						{{ end }} 
 					</a>
 				</li>  
 			{{ end }}
 				
 			<!-- Search Dropdown -->
-			<li class="iosnavbar-menu-item">
-				<label for="drop-5" class="menutoggle">
-					<i class="fa fa-search"></i>
-				</label>
+			<li class="cl-navbar--menu-item">
 				<a href="#">
 					<i class="fa fa-search"></i>
 				</a>
-				<input type="checkbox" id="drop-5"/>
-				<ul class="iosnavbar-menu-dropdown">
-					<li id="fastSearch" class="iosnavbar-menu-dropdown-item">
-						<input id="searchInput" tabindex="0">
+				<label for="drop-search" class="cl-navbar--menutoggle">
+					<i class="fa fa-search"></i>
+				</label>
+				<input type="checkbox" id="drop-search"/>
+				<ul class="cl-navbar--menu-dropdown cl-fastsearch">
+					<li id="fastSearch" class="cl-fastsearch--item">
+						<input id="searchInput" class="cl-fastsearch--input" tabindex="0">
 					</li>
-					<li class="iosnavbar-menu-dropdown-item">
-						<ul id="searchResults">
+					<li class="cl-fastsearch--item">
+						<ul id="searchResults" class="cl-fastsearch--results">
 						</ul>
 					</li>
 				</ul>
 			</li>
 			
 			<!-- Languages Drop Down -->
-			<li class="iosnavbar-menu-item">
-				<label for="drop-4" class="menutoggle">
+			<li class="cl-navbar--menu-item">
+				<label for="drop-languages" class="cl-navbar--menutoggle">
 					<i class="fa fa-globe"></i>
-					<span class="iosnavbar-shorten">
-					{{ with .Language.LanguageName }}{{ . }}{{ end }}
+					<span class="cl-navbar--shorten">
+						{{ with .Language.LanguageName }}{{ . }}{{ end }}
 					</span>
 					<i class="fa fa-chevron-down"></i>
 				</label>
 				<a href="#">
 					<i class="fa fa-globe"></i>
-					<span class="iosnavbar-shorten">
-					{{ with .Language.LanguageName  }}{{ . }}{{ end }}
+					<span class="cl-navbar--shorten">
+						{{ with .Language.LanguageName  }}{{ . }}{{ end }}
 					</span>
 					<i class="fa fa-chevron-down"></i>
 				</a>
-				<input type="checkbox" id="drop-4"/>
-				<ul class="iosnavbar-menu-dropdown">
+				<input type="checkbox" id="drop-languages"/>
+				<ul class="cl-navbar--menu-dropdown">
 					{{ if .IsTranslated }}
 						{{ range .AllTranslations }}
 							{{ if ne (site.LanguageCode | lower) (.Lang | lower) }}
-								<li class="iosnavbar-menu-dropdown-item">
+								<li class="cl-navbar--menu-dropdown-item">
 									<a href="{{ .Permalink }}">
 										{{ .Language.LanguageName }}
 									</a>
@@ -91,7 +91,7 @@
 				</ul>
 			</li>
 			
-		</ul><!-- iosmenu end -->
+		</ul>
 		
 	</div>
 </nav>

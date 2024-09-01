@@ -1,0 +1,116 @@
+.cl-shortcode {
+	margin: 0 -2vw;
+	padding: 2vw;
+}
+.cl-shortcode--img {
+	margin: 0 -2vw;
+	padding: 0;
+}
+.cl-shortcode--img img {
+	display: block; /* prevent line height from being added to div height */
+	width: 100%;
+	height: 100%;
+}
+@media (max-width:480px) {	
+	.cl-shortcode {
+			margin: 0 -4vw;
+			padding: 4vw;
+		}
+	.cl-shortcode--img {
+			margin: 0 -4vw;
+		}
+}
+
+
+
+/* spacing with other elements (that are not of class .cl-shortcode) */
+:not(.cl-shortcode) + .cl-shortcode,
+.cl-shortcode + :not(.cl-shortcode),
+div.cl-shortcode--img + :not(div) {
+	/* add margin space between cl-shortcode and content that is not of class .cl-shortcode */
+	margin-top: 48px;
+}
+
+
+
+/* ios certificate */
+.cl-shortcode--certificate {
+	width: 256px;	
+}
+
+
+
+/* icon */	
+.cl-shortcode--icon {
+	margin: auto; /* to center icon */
+}	
+.cl-shortcode--icon-small {
+	width: 50%;
+}
+.cl-shortcode--icon-text {
+	margin-top: 0;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+
+
+/* Text */
+.cl-shortcode--text-centered {
+	margin: 2vw auto;
+	padding: 0;
+	text-align: center;
+}
+@media (max-width:480px) {
+	.cl-shortcode--text-centered {
+		margin: 8vw;
+	}
+}
+.cl-shortcode--text-intro {
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 500;	
+		color: var(--color-text-mid);
+		text-align: center;
+}
+.cl-shortcode--title {
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: normal;
+		font-weight: 700;
+		text-align: center;
+		margin-bottom: 0.5em;
+}
+
+
+
+/*Agenda */		
+.cl-shortcode--agenda-item-title {
+	color: var(--color-secondary);
+	margin-bottom: 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.cl-shortcode--agenda-item-description {
+	color: var(--color-midgray);
+	margin-top: 0;
+	text-align: center;
+}
+/* Agenda Collapsible Styling */
+input[type='checkbox'] {
+	display: none;
+}
+.cl-shortcode--agenda-item-toggle {
+	display: block;  
+	font-weight: 500;
+	cursor: pointer;
+	margin-top: 1em;
+}
+.cl-shortcode--agenda-item-collapsible {
+	max-height: 0px;
+	overflow: hidden;
+	transition: max-height .25s ease-in-out;
+}
+.cl-shortcode--agenda-item-toggle:checked + .cl-shortcode--agenda-item-toggle + .cl-shortcode--agenda-item-collapsible {
+	max-height: 100vh;
+}

@@ -1,0 +1,52 @@
+.cl-fastsearch {
+	padding: 1vw;
+}
+
+.cl-fastsearch--input {
+	/* layout */
+	display: inline-block;
+	padding: 0.5em 0.5em;
+	width: 100%;
+	height: 24px;
+	box-sizing: border-box;
+	/* text */
+	font-size: 0.8em;
+	text-align: left;
+	/* style */
+	background-color: #555;
+	color: #ddd;
+	border-radius: 3px 3px 3px 3px;
+	border: none;
+	outline: none;
+}
+
+.cl-fastsearch--item {
+	/* layout */
+	display: block;
+	top: 0px;
+	padding: 0;
+	/* font */
+	font-size: 0.8em;
+	/* style */
+	border: 0;
+}
+
+.cl-fastsearch--results {
+	list-style: none;
+	padding: 0;
+}
+
+.cl-fastsearch--results-description {
+	/* text of search result */
+	font-size: 0.8em;
+	font-weight: normal;
+	text-align: left;
+	text-transform: none;
+	border: 0;
+}
+
+.cl-fastsearch--results-title{
+	/* title of search result */
+	display: inline-block;
+	text-align: left;
+}

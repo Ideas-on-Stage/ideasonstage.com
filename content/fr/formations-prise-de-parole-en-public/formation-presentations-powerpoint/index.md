@@ -19,7 +19,7 @@ PowerPoint est devenu tellement utilisé qu'il est devenu synonyme de présentat
 
 {{< image-wide src="formation-presentations-powerpoint.jpg" alt="Formation Visuels" >}}
 
-{{< agenda-list style="bg-lightgray">}}
+{{< agenda-list style="bg-light">}}
 	{{< agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre comment construire une présentation PowerPoint qui applique les bons principes de communication : structure, contenu, style.<br>Ce n'est pas une formation pour apprendre à utiliser PowerPoint, mais plutôt à communiquer efficacement avec PowerPoint." >}}
 	{{< agenda-item title="Prérequis de la formation" description="Avoir déjà fait une présentation en public.<br>Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>Avoir un ordinateur avec une version récente de Microsoft PowerPoint." >}}
 	{{< agenda-item title="Public concerné" description="Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux." >}}
@@ -29,14 +29,14 @@ PowerPoint est devenu tellement utilisé qu'il est devenu synonyme de présentat
 
 {{< space-medium style="bg-white" >}}
 
-{{< icon-list title="Organisme de formation depuis 2010" style="bg-lightgray" >}}
+{{< icon-list title="Organisme de formation depuis 2010" style="bg-light" >}}
 	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
 	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
 {{< /icon-list >}}
 
 {{< space-medium style="bg-white" >}}
 
-{{< agenda-list style="bg-lightgray" title="Programme" >}}
+{{< agenda-list style="bg-light" title="Programme" >}}
 	{{< agenda-item title="Introduction" description="Les trois piliers d’une bonne présentation<br>Agenda et objectifs<br>Vos attentes" >}}
 	{{< agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
 	{{< agenda-item title="Lier histoire et présentation" description="Utiliser un « storyboard »<br>La méthode pSCORE" >}}

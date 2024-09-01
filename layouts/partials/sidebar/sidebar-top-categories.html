@@ -1,9 +1,17 @@
 {{ "<!-- partials/inserts/sidebar-top-categories.html:start -->" | safeHTML }}
-<h2>{{ .Site.Params.news.sbcategorytitle }}</h2>
+<div class="cl-sidebar--item">
+	<h2>
+		{{ .Site.Params.news.sbcategorytitle }}
+	</h2>
 	<ul>
 		{{ $t := .Site.Taxonomies.tags }}
 		{{ range first 5 $t.ByCount }}
-			<li><a href="{{ .Page.Permalink }}">{{ .Term }} <span>({{ .Count }})</span></a></li>
+			<li>
+				<a href="{{ .Page.Permalink }}">
+					{{ .Term }} <span>({{ .Count }})</span>
+				</a>
+			</li>
 		{{ end }}
 	</ul>
+</div>
 {{ "<!-- partials/inserts/sidebar-top-categories.html:end -->" | safeHTML }}

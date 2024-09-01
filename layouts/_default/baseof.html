@@ -31,18 +31,18 @@
 		{{ "<!-- Insert head blocks defined in /data/layout.yaml or page -->" | safeHTML }}
 		{{ partial "e/blocks" "head" }}
 	</head>
-	<body id="page-top" class="layout-page">
+	<body id="page-top">
 		{{ "<!-- Insert _common bodytop blocks defined in /data/layouts.yaml -->" | safeHTML }}
 		{{/* <!-- this is for example the menu bar --> */}}
 		{{ partial "e/blocks-common.html" "bodytop" }}
-		<main id="main" class="main" role="main">
+		<main id="main" role="main">
 			{{ "<!-- Insert body blocks defined in /data/layout.yaml or page -->" | safeHTML }}
 			{{ partial "e/blocks" "body" }}
 		</main>
 		{{ "<!-- Insert _common bodybottom blocks defined in /data/layouts.yaml -->" | safeHTML }}
 		{{/* <!-- this is for example the contact form --> */}}
 		{{ partial "e/blocks-common.html" "bodybottom"}}
-		<footer id="footer" class="footer">
+		<footer id="footer" class="cl-footer">
 			{{ "<!-- Insert _common footer blocks defined in /data/layouts.yaml -->" | safeHTML }}
 			{{ partial "e/blocks-common.html" "footer" }}
 		</footer>

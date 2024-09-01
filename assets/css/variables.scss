@@ -13,6 +13,7 @@
 	/* content */
 	--content-max-width: 1200px;
 	--content-max-width-narrow: 800px;
+	--content-space-v: 48px;
 
 	/* blocks */
 	--hero-width: calc( 100% - 0.001px );
@@ -38,19 +39,51 @@
 
 
 	
-	/* colors */
+	/* base colors */
 	--color-primary: #FF8200;
 	--color-secondary: #00A3E0;
 	--color-darkgray: #222;
 	--color-lightgray: #eee;
 	--color-midgray: #888;
-	
 	--color-text: black;
 	--color-text-inv: white;
 	--color-text-mid: var(--color-midgray);
 
+	/* black background scheme */
+	--color-bg-black: black;
+	--color-bg-black-text: white;
+	--color-bg-black-link: white;
+	--color-bg-black-link-hover: var(--color-primary);
+	
+	/* dark background scheme */
 	--color-bg-dark: var(--color-darkgray);
-	--color-bg-light: white;
+	--color-bg-dark-text: white;
+	--color-bg-dark-link: white;
+	--color-bg-dark-link-hover: var(--color-primary);
+	
+	/* light background scheme */
+	--color-bg-light: var(--color-lightgray);
+	--color-bg-light-text: black;
+	--color-bg-light-link: black;
+	--color-bg-light-link-hover: var(--color-primary);
+
+	/* white background scheme */
+	--color-bg-white: white;
+	--color-bg-white-text: black;
+	--color-bg-white-link: black;
+	--color-bg-white-link-hover: var(--color-primary);
+
+	/* primary background scheme */
+	--color-bg-primary: #FF8200;
+	--color-bg-primary-text: white;
+	--color-bg-primary-link: white;
+	--color-bg-primary-link-hover: white;
+	
+	/* secondary background scheme */
+	--color-bg-secondary: #00A3E0;
+	--color-bg-secondary-text: white;
+	--color-bg-secondary-link: white;
+	--color-bg-secondary-link-hover: white;
 		
 	--color-blockquote: var(--color-secondary);
 	--color-link-hover: var(--color-primary);
@@ -62,4 +95,5 @@
 	--color-button-secondary: var(--color-secondary);
 	--color-button-secondary-bg: none;
 	
+	--text-size-base: 1.5vw;
 }

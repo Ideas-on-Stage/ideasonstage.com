@@ -1,45 +1,33 @@
-{{/* <!-- 
-
-	Call to action template
-	- data is located in /data/cta as a datafile
-	- picture is located in /assets as a global resource
-
---> */}}
-
-{{ "<!-- partials/b/data-cta.html:start -->" | safeHTML }}
+{{ "<!-- partials/body/cta.html:start -->" | safeHTML }}
 {{ with .Params.datacta }}
 	{{ $data := index site.Data.cta . }}
 	{{ if $data }}
 		{{ $localizeddata := index $data site.LanguageCode }}
 		{{ with $localizeddata }}
-			<header id="call-to-action" class="cta">
-				<div class="critical--layer">
+			<header id="call-to-action" class="bg-black cl-cta">
+				<div class="cl-critical--layer">
 					{{ $srcset := partial "f/getpicturesrcset" .picture }}
 					<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .title }}">
 				</div>
-				<div class= "critical--layer cta--text" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
-					{{ if eq "h2" .level }}
-						<h2 class="cta--title">{{ "<!-- picture and h1 -->" | safeHTML }}
-							{{ with .title }}
-								{{ . | markdownify }}
-							{{ end }}
+				<div class= "cl-critical--layer cl-cta--text" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
+					{{ with .title }}
+						<h2 class="cl-cta--title">{{ "<!-- picture and h1 -->" | safeHTML }}
+							{{ . | markdownify }}
 						</h2>
-					{{ else }}
-						<h1 class="cta--title">{{ "<!-- picture and h2 -->" | safeHTML }}
-							{{ with .title }}
-								{{ . | markdownify }}
-							{{ end }}
-						</h1>
-					{{ end }}
+						{{ end }}
 					{{ with .description }}
-						<p class="cta--description">{{ . }}</p>
+						<p class="cl-cta--description">
+							{{ . }}
+						</p>
 					{{ end }}
 					{{ with .button }}
-						<a href="{{ .link }}" class="critical--button-primary">{{ .text }}</a>
+						<a href="{{ .link }}" class="critical--button-primary">
+							{{ .text }}
+						</a>
 					{{ end }}
 				</div>
 			</header>
 		{{ end }}
 	{{ end }}
 {{ end }}
-{{ "<!-- partials/b/data-cta.html:end -->" | safeHTML }}
+{{ "<!-- partials/body/cta.html:end -->" | safeHTML }}

@@ -29,12 +29,12 @@ Lors de cet évènement, les participants pourront créer leur propre projet d�
 Plus qu’un atelier, cette activité marquera durablement les esprits de votre entreprise. Vos employés monteront sur scène pour partager leurs connaissances avec toute l’entreprise. La Masterclass est un moyen unique de dynamiser les meilleurs éléments et de leur donner une opportunité de montrer tout leur potentiel. Fleuron de notre offre, la préparation de la Masterclass s’étale sur trois mois.
 {{< /text-centered >}}
 
-{{< icon-list title="Bénéfices clés" style="bg-lightgray" >}}
-	{{< icon-item icon="/img/icons/transformation.svg" description="Ateliers Personnalisés" style="icon-small">}}
-	{{< icon-item icon="/img/icons/vision.svg" description="Vision et missions claires" style="icon-small" >}}
-	{{< icon-item icon="/img/icons/fast.svg" description="Transformation plus rapide" style="icon-small" >}}
-	{{< icon-item icon="/img/icons/group.svg" description="Renforcement des équipes" style="icon-small" >}}
-	{{< icon-item icon="/img/icons/performance.svg" description="Amélioration des performances" style="icon-small" >}}
+{{< icon-list title="Bénéfices clés" style="bg-light" >}}
+	{{< icon-item icon="/img/icons/transformation.svg" description="Ateliers Personnalisés" style="cl-shortcode--icon-small">}}
+	{{< icon-item icon="/img/icons/vision.svg" description="Vision et missions claires" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="/img/icons/fast.svg" description="Transformation plus rapide" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="/img/icons/group.svg" description="Renforcement des équipes" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="/img/icons/performance.svg" description="Amélioration des performances" style="cl-shortcode--icon-small" >}}
 {{< /icon-list >}}
 
 {{< text-centered title="Une équipe expérimentée" >}}

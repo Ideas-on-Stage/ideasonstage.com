@@ -1,9 +1,9 @@
 {{ "<!-- partials/b/page-breadcrumbs.html:start -->" | safeHTML }}
 {{ if (not .Parent.IsHome) }} {{/* <!-- show only if 2 levels of depth --> */}}
-	<aside id="breadcrumbs">
-		<div class="critical--content critical--marginv-none">
+	<aside id="breadcrumbs" class="cl-breadcrumbs">
+		<div class="cl-critical--content-width">
 		{{ "<!-- partials/revolution/breadcrumbs.html -->" | safeHTML }}
-			<ol>
+			<ol class="cl-breadcrumbs--list">
 				{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
 			</ol>
 		</div>
@@ -20,13 +20,21 @@
 		{{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
 	{{ end }}
 	{{ if .p1.IsHome }}
-		<li>
-			<a href="{{ .p1.Permalink }}"><span class="fa fa-home"></span></a>
+		<li class="cl-breadcrumbs--item">
+			<a href="{{ .p1.Permalink }}" class="cl-breadcrumbs--link ">
+				<span class="fa fa-home"></span>
+			</a>
 		</li>
 	{{ else if eq .p1 .p2 }}
 		{{/* <!-- currently active page --> */}}
 	{{ else }}
-		<li><span class="fa fa-angle-right arrow"></span></li>
-		<li><a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a></li>
+		<li class="cl-breadcrumbs--item">
+			<span class="cl-breadcrumbs--arrow fa fa-angle-right"></span>
+		</li>
+		<li class="cl-breadcrumbs--item">
+			<a href="{{ .p1.Permalink }}" class="cl-breadcrumbs--link">
+				{{ .p1.Title }}
+			</a>
+		</li>
 	{{ end }}
 {{ end }}

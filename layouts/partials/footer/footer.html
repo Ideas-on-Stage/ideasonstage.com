@@ -1,16 +1,16 @@
-{{ "<!-- partials/b/page-footer.html:start -->" | safeHTML }}
-<div class="layout-content marginv-none paddingv-medium">
+{{ "<!-- partials/footer/footer.html:start -->" | safeHTML }}
+<div class="cl-critical--content-width">
 	<div class= "flex-parent flex-parent-row flex-parent-gap">
 		{{ range .Site.Params.navigation.footer }}
 			<div class="flex-child flex-child-25p">
-				<ul class="flex-parent flex-parent-column footer-category">
+				<ul class="flex-parent flex-parent-column cl-footer--category">
 					{{ with .name }}
-						<li class="footer-category-main">
+						<li class="cl-footer--category-main">
 							{{ . }}
 						</li>
 					{{ end }}
 					{{ range .items }}
-						<li class="footer-category-sub">
+						<li class="cl-footer--category-sub">
 							<a href="{{ .url }}">
 								{{ .name }}
 							</a>
@@ -21,25 +21,14 @@
 		{{ end }}
 	</div>
 	<div class="flex-parent flex-parent-row flex-parent-gap flex-parent-column-reverse-ontall margint-medium">
-		<div class="flex-child flex-child-80p footer-text">
-			<p class="margin-none">
+		<div class="flex-child">
+			<p class="margin-none cl-footer--text">
 				{{ with .Site.Copyright }}{{ . }}{{ end }} {{ now.Year }}. 
 				{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
 				{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
 				{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
 			</p>
 		</div>
-		<div class="flex-child flex-child-20p">
-			<div class="flex-parent flex-parent-row flex-parent-gap flex-parent-justify-end">
-			{{ range .Site.Params.Social.Items }}
-				<div class="footer-social">
-					<a class="footer-social-link" href="{{ .url }}">
-						<i class="text-dark fa fa-{{ .icon }} fa-2"></i>
-					</a>
-				</div>
-			{{ end }}
-			</div>
-		</div>
 	</div>
 </div>
-{{ "<!-- partials/b/page-footer.html:end -->" | safeHTML }}
+{{ "<!-- partials/footer/footer.html:end -->" | safeHTML }}

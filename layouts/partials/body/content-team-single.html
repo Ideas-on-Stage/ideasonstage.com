@@ -1,16 +1,16 @@
-{{ "<!-- partials/b/page-content-team-single.html:start -->" | safeHTML }}
-<section id="team-member" class="layout-content">
-	<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-parent-gap-big">
+{{ "<!-- partials/body/content-team-single.html:start -->" | safeHTML }}
+<section id="team-member" class="cl-critical--content-width cl-critical--content-space-v">
+	<article class="flex-parent flex-parent-row flex-parent-column-ontall flex-parent-gap-big">
 		<div class="flex-child flex-child-33p">
 			{{ with .Params }}
-				<img src="{{ .picture }}" class="style-photograph" alt="{{ .name }}">
+				<img src="{{ .picture }}" class="cl-content--style-photograph" alt="{{ .name }}">
 			{{ end }}
 		</div>
-		<div class="flex-child flex-child-67p">
+		<div class="flex-child flex-child-67p cl-content">
 			<h1>{{ .Params.name }}</h1>
-			<p class="content-team-single--title">{{ .Params.position }}</p>
+			<p class="cl-content-team-single--title">{{ .Params.position }}</p>
 			{{ with .Content }}{{ . | markdownify }}{{ end }}
 		</div>
-	</div>
+	</article>
 </section>
-{{ "<!-- partials/b/page-content-team-single.html:end -->" | safeHTML }}
+{{ "<!-- partials/body/content-team-single.html:end -->" | safeHTML }}
