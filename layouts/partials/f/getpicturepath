@@ -2,21 +2,28 @@
 	
 	f/getpicturepath
 	
-	Gets full path to .picture parameter for pages and data files.
+	Gets full path to picture for pages and data files.
+	Allows to use a specific .thumbnail image.
 	
 	Arguments:
-	- .Page object or Data object
+	- page object or data object
 	
 	Process:
 	- If page:
-		- tries to use thumbnail.jpg, then .Params.picture
-		- completes path with .RelPermalink if only picture name specified.
-	- If data:
-		- tries to use .picture
-		- completes path with .url if only picture name specified, eg. "pic.jpg"
+		- try to use thumbnail.jpg; if found, the result is set to "thumbnail.jpg" (string)
+		- if not found, try to use .Params.picture; if found, the result is set to the page object, NOT a picture name
+		  returning the page object will make it easier to process the pic as a page resource to create different responsive sizes
+		  see f/getpicturesrcset for more info on the creation of the responsive sizes
+	- else try to use .picture; in that case, the picture is set to the value of .picture (string)
+	- else try to use .src; in that case, the picture is set to the value of .src (string)
+
+	- if result is a string then complete path with .url if only picture name specified,
+	  eg. "pic.jpg" for url "/services/" will become "/services/pic.jpg", "/toto/pic.jgp" will be left untouched
 	
 	Returns:
-	- relative path to thumbnail file, empty string if not found.
+	- relative path to picture,
+	- or page object,
+	- or "not found" if not found.
 
  --> */}}
 

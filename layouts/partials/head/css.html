@@ -1,4 +1,4 @@
-{{ "<!-- partials/b/head-css.html:start -->" | safeHTML }}
+{{ "<!-- partials/head/css.html:start -->" | safeHTML }}
 
 {{ "<!-- Critical CSS -->" | safeHTML }}
 <style type="text/css">
@@ -29,4 +29,4 @@
 {{ if ne true site.Params.disablemaincss }}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
 {{ end }}
-{{ "<!-- partials/b/head-css.html:end -->" | safeHTML }}
+{{ "<!-- partials/head/css.html:end -->" | safeHTML }}

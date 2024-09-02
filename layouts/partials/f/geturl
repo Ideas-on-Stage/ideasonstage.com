@@ -2,26 +2,29 @@
 	
 	f/getpicturepath
 	
-	Gets url for pages and data files.
+	Gets url parameter for pages and data files.
 	
 	Arguments:
-	- . as .Page for pages or . as Data for data files
+	- page, data object, or a structure containing a .link or .url property
 	
 	Process:
 	- If page:
 		- use .Permalink
-	- If data:
-		- use .url
+	- else try to use .link property
+	- if not found, try to use .url property
 
- --> */}}
+	Returns:
+	- url as a string
+	- empty string if not found
+
+--> */}}
 
 {{ $result := "" }}
 {{ if partial "f/ispage" . }}
 	{{ $result = .RelPermalink }}
 {{ else if isset . "link" }}
 	{{ $result = .link }}
-{{ else }}
-	{{/* <!-- else this is a site.Data file --> */}}
+{{ else if isset . "url" }}
 	{{ $result = .url }}
 {{ end }}
 

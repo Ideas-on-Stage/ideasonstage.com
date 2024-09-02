@@ -4,7 +4,7 @@
 	
 	Test if page is currently active or not based on .date, .expirydate and .draft
 
-	Parameters:
+	Arguments:
 	- . as object containing .date, .expirydate and .draft properties (all are optional)
 	
 	Returns:

@@ -1,0 +1,7 @@
+{{ "<!-- DRAFT, not tested, and .text is probably wrong -->" | safeHTML }}
+{{ "<!-- partials/e/button-primary.html:start -->" | safeHTML }}
+{{ $data := partial "f/getdata" . }}
+<a href="{{ partial "f/geturl" . }}" class="critical--button-primary">
+	{{ .text }}
+</a>
+{{ "<!-- partials/e/button-primary.html:end -->" | safeHTML }}

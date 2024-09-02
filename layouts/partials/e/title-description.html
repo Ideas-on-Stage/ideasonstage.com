@@ -1,8 +1,5 @@
 {{ "<!-- partials/e/title-description.html:start -->" | safeHTML }}
-{{ $data := . }}
-{{ if (partial "f/ispage" .) }}
-	{{ $data = .Params }}
-{{ end }}
+{{ $data := partial "f/getdata" . }}
 {{ partial "e/title.html" . }}
 {{ if $data.description }}
 	<p>{{ with $data.description }}{{ . | safeHTML }}{{ end }}</p>

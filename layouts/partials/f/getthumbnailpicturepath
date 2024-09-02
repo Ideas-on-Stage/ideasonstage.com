@@ -6,7 +6,7 @@
 	Use it to get the right thumbnail pic in inserts.
 	
 	Arguments:
-	- . as .Page object or . as Data object
+	- .Page object or .Data object
 	
 	Process:
 	- If page:

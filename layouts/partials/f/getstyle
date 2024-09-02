@@ -4,11 +4,11 @@
 	
 	Get style parameter from .Params.style for page objects, from .style for other objects such as data objects.
 	
-	Parameters:
-	- . as .Page or .Data object
+	Arguments:
+	- page or data object
 	
 	Returns:
-	- .style attribute
+	- style attribute as string to be added to class="style" in html code
 
  --> */}}
 

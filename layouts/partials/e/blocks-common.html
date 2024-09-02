@@ -1,5 +1,4 @@
-{{ "<!-- partials/e/blocks.html:start -->" | safeHTML }}
-
+{{ "<!-- partials/e/blocks-common.html:start -->" | safeHTML }}
 {{ $part := . }}
 {{ $common := (index site.Data.layouts "_common") }}
 {{ $blocks := (index $common $part) }}
@@ -10,4 +9,4 @@
 	{{ $partial := printf "%s/%s.html" $part . }}
 	{{ partial $partial page }}
 {{ end }}
-{{ "<!-- partials/e/blocks.html:end -->" | safeHTML }}
+{{ "<!-- partials/e/blocks-common.html:end -->" | safeHTML }}

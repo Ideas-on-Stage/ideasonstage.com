@@ -1,5 +1,8 @@
 {{/* <!--
-	this template is generated using the structure defined in /data/layouts.yaml
+	
+	ALL pages are generated using this template: section, single, 404, all pages.
+	- The standard page structures are defined in /data/layouts.yaml
+	- A custom page structure can be defined in the front matter of a page.
 	
 	For <head>:
 	- the _common head blocks are added,
@@ -9,44 +12,53 @@
 		- the head blocks defined in _default matching the page .Kind in /data/layouts.yaml
 
 	For <body>:
-	- the _common body top blocks are added as defined in /data/layouts.yaml,
+	- the _common bodytop blocks are added as defined in /data/layouts.yaml,
 	- the specific body blocks (if they exist) are added, in order of priority:
 		- the body blocks defined in the page
 		- the body blocks matching the page .Type and .Kind in /data/layouts.yaml
 		- the body blocks defined in _default matching the page .Kind  in /data/layouts.yaml
-	- the _common body bottom blocks are added as defined in /data/layouts.yaml.
+	- the _common bodybottom blocks are added as defined in /data/layouts.yaml.
 
 	For <footer>:
-	- the common footer blocks are added.
-	- there are no specific footer blocks.
+	- the _common footer blocks are added.
+	- (there are no specific footer blocks, although the functionality would be easy to add.)
+	
 --> */}}
+
 {{ "<!-- _default/baseof.html:start -->" | safeHTML }}
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">	
+
 	<head id="head">
-		{{ "<!-- Insert _common head blocks defined in /data/layout.yaml -->" | safeHTML }}
+		{{ "<!-- _default/baseof.html: add _common head blocks defined in /data/layouts.yaml -->" | safeHTML }}
 		{{ partial "e/blocks-common.html" "head" }}
-		{{ "<!-- Insert critical css based on body blocks -->" | safeHTML }}
+		{{ "<!-- _default/baseof.html: add critical css based on body blocks -->" | safeHTML }}
 		{{ partial "e/blocks-css.html" "dummy" }}
-		{{ "<!-- Insert head blocks defined in /data/layout.yaml or page -->" | safeHTML }}
+		{{ "<!-- _default/baseof.html: add head blocks matching page .Type and .Kind defined in /data/layouts.yaml or page front matter -->" | safeHTML }}
 		{{ partial "e/blocks" "head" }}
 	</head>
+	
 	<body id="page-top">
-		{{ "<!-- Insert _common bodytop blocks defined in /data/layouts.yaml -->" | safeHTML }}
-		{{/* <!-- this is for example the menu bar --> */}}
+		
+		{{ "<!-- _default/baseof.html: add _common bodytop blocks defined in /data/layouts.yaml -->" | safeHTML }}
 		{{ partial "e/blocks-common.html" "bodytop" }}
+
 		<main id="main" role="main">
-			{{ "<!-- Insert body blocks defined in /data/layout.yaml or page -->" | safeHTML }}
+			{{ "<!-- _default/baseof.html: add body blocks matching page .Type and .Kind defined in /data/layouts.yaml or page front matter -->" | safeHTML }}
 			{{ partial "e/blocks" "body" }}
 		</main>
-		{{ "<!-- Insert _common bodybottom blocks defined in /data/layouts.yaml -->" | safeHTML }}
-		{{/* <!-- this is for example the contact form --> */}}
+		
+		{{ "<!-- _default/baseof.html: add _common bodybottom blocks defined in /data/layouts.yaml -->" | safeHTML }}
 		{{ partial "e/blocks-common.html" "bodybottom"}}
+		
 		<footer id="footer" class="cl-footer">
-			{{ "<!-- Insert _common footer blocks defined in /data/layouts.yaml -->" | safeHTML }}
+			{{ "<!-- _default/baseof.html: add _common footer blocks defined in /data/layouts.yaml -->" | safeHTML }}
 			{{ partial "e/blocks-common.html" "footer" }}
 		</footer>
+		
+		{{ "<!-- _default/baseof.html: add javascript -->" | safeHTML }}
 		{{ partial "js/js.html" . }}
+		
 	</body>
 </html>
 {{ "<!-- _default/baseof.html:end -->" | safeHTML }}

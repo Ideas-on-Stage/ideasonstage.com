@@ -1,6 +1,6 @@
-{{ "<!-- partials/b/head-title-tags-term.html:start -->" | safeHTML }}
+{{ "<!-- partials/head/title-tags-term.html:start -->" | safeHTML }}
 <title>
 	{{/* <!-- tag term page --> */}}
 	{{ (printf "%s | %s | %s %s" .Title .Type site.Title site.Params.Country) | truncate 70 }}
 </title>
-{{ "<!-- partials/b/head-title-tags-term.html:end -->" | safeHTML }}
+{{ "<!-- partials/head/title-tags-term.html:end -->" | safeHTML }}

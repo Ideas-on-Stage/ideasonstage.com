@@ -11,9 +11,10 @@
 	- If page.Params.head or page.Params.body then get the list of blocks from page.Params
 	- Else if a specific .Type and .Kind block list exists in layouts.yaml, use it
 	- Else use _default block list for .Kind in layouts.yaml
-		
+	
 	Returns:
 	- Block list as a list of strings
+	  e.g. [ "title", "content" ]
 	
 	Versions:
 	2024-09-02 corrected case where specific .Kind is defined but not specific part (eg body is defined but not head)

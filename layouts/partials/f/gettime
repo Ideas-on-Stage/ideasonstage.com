@@ -5,7 +5,7 @@
 	Gets the human readable time with time zone.
 	See additional comments in f/getdatetime
 	
-	Parameters: 
+	Arguments: 
 	- date as string or date object
 	
 	Returns: 

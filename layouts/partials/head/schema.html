@@ -1,4 +1,4 @@
-{{ "<!-- partials/b/head-schema.html:start -->" | safeHTML }}
+{{ "<!-- partials/head/schema.html:start -->" | safeHTML }}
 {{ if isset .Params "schema" }}
 	{{ $schema := lower .Params.schema }}
 	{{ partial (printf "schema/%s.html" $schema) . }}
@@ -9,4 +9,4 @@
 {{ if isset .Params "videoobjects" }}
 	{{ partial "schema/videoobjects.html" . }}
 {{ end }}
-{{ "<!-- partials/b/head-schema.html:end -->" | safeHTML }}
+{{ "<!-- partials/head/schema.html:end -->" | safeHTML }}
