@@ -2,15 +2,9 @@
 .cl-navbar {
 	position: fixed;
 	top: 0;
-	padding-left: var(--module-column-gap);
-	padding-right: var(--module-column-gap);
-	width: calc( 100% - 0px);
-	max-width: var(--page-max-width);
-	box-sizing: border-box;
-	z-index:1000;
-	background-color: var(--color-bg-dark);
+	width: 100%;
+	z-index:1000; /* no other element should be given a higher z-index */
 	border: none;
-	transition: all .35s;
 }
 
 /* Adjust logo positioning */
@@ -22,18 +16,14 @@
 .cl-navbar--menu {
 	float: right;
 	display: flex;
-	flex-direction: row;
 	align-items: stretch;
 	gap: 1em;
-	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	height: var(--menubar-height);
-	background-color: var(--color-bg-dark); /* used for ts screens */
 }
 
 .cl-navbar--menu-item,
-.cl-navbar--menu-item a,				
+.cl-navbar--menu-item a,
 .cl-navbar--menu-dropdown-item,
 .cl-navbar--menu-dropdown-item a {
 	font-family: "Gotham SSm A", "Gotham SSm B";
@@ -46,24 +36,15 @@
 /* <li> menu bar items */
 .cl-navbar--menu-item {
 	display: flex; /* allows easy vertical centering of <a> tag inside */
+	align-items: center; /* so text item inside is centered vertically */
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 	list-style: none;
-	align-items: center;
 }
 .cl-navbar--menu-item a {
 	display: block;
-	text-align: left;
-	font-weight: 700;
-	color: #ddd;
 	text-decoration: none;
-	text-transform: uppercase;
-	/* background-color: #222; */
 	border: none;
-}
-.cl-navbar--menu-item a:hover {
-	color: var(--color-primary);
 }
 
 /* menu dropdown list, use on <ul> inside a <li class="cl-navbar--menu-item"> */
@@ -72,11 +53,8 @@
 	position: absolute;
 	top: calc(var(--menubar-height) - 2px);
 	margin: 0;
-	background-color: rgba(34,34,34,1);
 	padding: 0;
-	box-sizing: border-box;
 	flex-direction: column;
-	gap: 0.2em;
 }
 	
 /* menu dropdown item */
@@ -89,12 +67,8 @@
 	background-color: transparent;
 	line-height: 20px;
 	font-weight: 400;
-	box-sizing: border-box;
 }	
-.cl-navbar--menu-dropdown-item a:hover {
-	color: var(--color-bg-dark-link-hover);
-}
-	
+
 .cl-navbar--menulabel {
 	color: white;
 }
@@ -104,6 +78,20 @@
 }
 
 @media (min-width : 768px) {
+
+	.cl-navbar {
+		padding-left: var(--module-column-gap);
+		padding-right: var(--module-column-gap);
+		max-width: var(--page-max-width);		
+	}
+	
+	.cl-navbar--menu {
+		flex-direction: row;		
+		height: var(--menubar-height);
+	}
+	.cl-navbar--menu-item {
+		height: var(--menubar-height);
+	}
 	
 	.cl-navbar--menu-item:hover .cl-navbar--menu-dropdown {
 		display: inherit;
@@ -145,9 +133,9 @@
 	.cl-navbar--menu {
 		/* hide text menu on ts screens, show it only if burger checkbox checked */
 		display: none;
-		position: absolute;
-		top: calc(var(--menubar-height) - 2px);
+		position: fixed;
 		left: 0;
+		top: calc(var(--menubar-height) - 2px);
 		width: 100%;
 		flex-direction: column;
 		height: auto;
@@ -158,6 +146,7 @@
 	.cl-navbar--menu-item {
 		padding: 0.20em;
 		align-items: center;
+		justify-content: center;
 		flex-direction: column;
 	}
 	
@@ -166,15 +155,12 @@
 		position: static;
 		margin-left: 0em;
 		width: 100%;
-		color: #ffffff;
-		box-sizing: border-box;
 		align-items: center;
 	}
 	
 	.cl-navbar--menu-dropdown-item {
 		margin: 0;
 		padding: 1em 0 0 0;
-		box-sizing: border-box;
 	}
 
 	/* show menu/dropdown when checkbox is checked */

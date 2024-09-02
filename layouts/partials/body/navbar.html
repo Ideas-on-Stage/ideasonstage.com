@@ -1,5 +1,5 @@
 {{ "<!-- partials/b/page-nav.html:start -->" | safeHTML }}
-<nav class="cl-navbar">
+<nav class="bg-dark cl-navbar">
 	
 	<div class="flex-parent flex-parent-row flex-parent-align-center">
 		<!-- logo -->
@@ -23,7 +23,7 @@
 		<input type="checkbox" id="drop" class="cl-navbar--checkbox"/>
 		
 		<!-- iosmenu start -->
-		<ul class="cl-navbar--menu">
+		<ul class="bg-dark cl-navbar--menu">
 			
 			<!-- Menubar Menu Items -->
 			{{ range .Site.Params.navigation.menubar }}
@@ -45,7 +45,7 @@
 					<i class="fa fa-search"></i>
 				</label>
 				<input type="checkbox" id="drop-search" class="cl-navbar--checkbox"/>
-				<ul class="cl-navbar--menu-dropdown">
+				<ul class="bg-dark cl-navbar--menu-dropdown">
 					<li id="fastSearch" class="cl-navbar--menu-dropdown-item">
 						<input id="searchInput" class="cl-fastsearch--input" tabindex="0">
 					</li>
@@ -60,13 +60,13 @@
 			<li class="cl-navbar--menu-item">
 				<label for="drop-languages" class="cl-navbar--menulabel">
 					<i class="fa fa-globe"></i>
-					<span class="cl-navbar--shorten">
-						{{ with .Language.LanguageName }}{{ . }}{{ end }}
-					</span>
-					<i class="fa fa-chevron-down"></i>
+						<span class="cl-navbar--shorten">
+							{{ with .Language.LanguageName }}{{ . }}{{ end }}
+						</span>
+						<i class="fa fa-chevron-down"></i>
 				</label>
 				<input type="checkbox" id="drop-languages" class="cl-navbar--checkbox"/>
-				<ul class="cl-navbar--menu-dropdown">
+				<ul class="bg-dark cl-navbar--menu-dropdown">
 					{{ if .IsTranslated }}
 						{{ range .AllTranslations }}
 							{{ if ne (site.LanguageCode | lower) (.Lang | lower) }}
