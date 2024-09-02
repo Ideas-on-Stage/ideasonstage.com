@@ -12,11 +12,6 @@
 	to				= "https://www.ideasonstage.com/fr/:splat"
 	status			= 301
 	force			= true
-[[redirects]]
-	from			= "https://www.ideasonstage.it/*"	
-	to				= "https://www.ideasonstage.com/"
-	status			= 301
-	force			= true
 
 # redirect catalogue
 [[redirects]]
@@ -29,7 +24,7 @@
 	to				= "https://www.ideasonstage.com/guides/ideasonstage-catalogue-fr.pdf"
 	status			= 301
 	force			= true
-	
+
 # redirect in (linkedin)
 [[redirects]]
 	from			= "https://www.ideasonstage.com/in/"
@@ -41,7 +36,7 @@
 	to				= "https://www.linkedin.com/company/ideas-on-stage/"
 	status			= 301
 	force			= true
-		
+
 # redirect revolution
 [[redirects]]
 	from			= "https://revolution.ideasonstage.com/*"
@@ -56,7 +51,6 @@
 
 
 # UK Andrea's stuff redirects
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/score/"
 	to				= "https://presentationscorecard.scoreapp.com/"
@@ -85,25 +79,21 @@
 
 	
 # Temporary page redirects, url change
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/business-presentation-revolution/"
 	to				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/"
 	status			= 301
 	force			= true
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-prise-de-parole-en-public/"
 	to				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/"
 	status			= 301
 	force			= true
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/fr/formations-ateliers/*"
 	to				= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/:splat"
 	status			= 301
 	force			= true
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/corporate-communication/*"
 	to				= "https://www.ideasonstage.com/communication-consulting/:splat"
@@ -112,13 +102,11 @@
 
 
 # Temporary for duplicate different from Google canonical problem
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/handicap/"
 	to				= "https://www.ideasonstage.com/rse/"
 	status			= 301
 	force			= true
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/fr/handicap/"
 	to				= "https://www.ideasonstage.com/rse/"
@@ -126,55 +114,43 @@
 	force			= true
 
 # Redirect of training pages
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-storytelling/"
 	to				= "https://www.ideasonstage.com//fr/formation-storytelling/"
 	status			= 301
 	force			= true
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-art-oratoire/"
 	to				= "https://www.ideasonstage.com//fr/formation-art-oratoire/"
 	status			= 301
 	force			= true
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-visuels-powerpoint/"
 	to				= "https://www.ideasonstage.com//fr/formation-presentations-powerpoint/"
 	status			= 301
 	force			= true
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/services/communication-consulting/audience-transformation-roadmap/ATR_template_Ideas_on_Stage.pdf"
 	to				= "https://www.ideasonstage.com/files/ATR_template_Ideas_on_Stage.pdf"
 	status			= 301
 	force			= true
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/fr/evenements-entreprise/ateliers-lego-serious-play/"
 	to				= "https://www.ideasonstage.com/fr/ateliers-evenement-entreprise/ateliers-lego-serious-play/"
 	status			= 301
 	force			= true
-	
-[[redirects]]
-	from			= "https://www.ideasonstage.com/fr/services/conseil-communication/storytelling-et-ecriture/"
-	to				= "https://www.ideasonstage.com/fr/conseil-communication/storytelling-et-ecriture/"
-	status			= 301
-	force			= true
 
+# services redirect
 [[redirects]]
 	from			= "https://www.ideasonstage.com/services/*"
 	to				= "https://www.ideasonstage.com/:splat"
 	status			= 301
 	force			= true
-	
 [[redirects]]
 	from			= "https://www.ideasonstage.com/fr/services/*"
 	to				= "https://www.ideasonstage.com/fr/:splat"
 	status			= 301
 	force			= true
-
 [[redirects]]
 	from			= "https://www.ideasonstage.com/es/services/*"
 	to				= "https://www.ideasonstage.com/es/:splat"
@@ -190,26 +166,17 @@
 
 # 2024-07-09
 [[redirects]]
-	from			= "https://www.ideasonstage.com/fr/revolution/*"
-	to				= "https://www.ideasonstage.com/fr/ressources/revolution/:splat"
-	status			= 301
-	force			= true
-
-# 2024-07-09
-[[redirects]]
 	from			= "https://www.ideasonstage.com/fr/references/*"
 	to				= "https://www.ideasonstage.com/fr/apropos/references/:splat"
 	status			= 301
 	force			= true
 
-# 2024-07-10
+# books en redirect
 [[redirects]]
 	from			= "https://www.ideasonstage.com/resources/confident-presenter-book/"
 	to				= "https://www.ideasonstage.com/resources/books/confident-presenter-book/"
 	status			= 301
 	force			= true
-
-# 2024-07-23
 [[redirects]]
 	from			= "https://www.ideasonstage.com/business-presentation-revolution/book/*"
 	to				= "https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/:splat"
@@ -225,12 +192,18 @@
 
 [[redirects]]
 	from			= "https://www.ideasonstage.com/public-speaking-coaching/tedx-coaching/events/tedx-tours-2019/"
-	to				= "https://www.ideasonstage.com/fr/apropos/references/tedx-tours-2019/"
+	to				= "https://www.ideasonstage.com/about/references/tedx-tours-2019/"
 	status			= 301
 	force			= true
 
+# 2024-09-02 revolution redirect
 [[redirects]]
-	from			= "https://www.ideasonstage.com/fr/success-stories-clients/tedx-lille-2017/"
-	to				= "https://www.ideasonstage.com/fr/apropos/references/tedx-lille-2017/"
+	from			= "https://www.ideasonstage.com/revolution/*"
+	to				= "https://www.ideasonstage.com/resources/revolution/:splat"
+	status			= 301
+	force			= true
+[[redirects]]
+	from			= "https://www.ideasonstage.com/fr/revolution/*"
+	to				= "https://www.ideasonstage.com/fr/ressources/revolution/:splat"
 	status			= 301
 	force			= true

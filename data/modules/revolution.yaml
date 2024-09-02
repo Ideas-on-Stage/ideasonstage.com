@@ -3,7 +3,7 @@ en:
   layout: "inserts/module-half-text-picture.html"
   style: "bg-primary"
   picture: "/img/modules/revolution-hand-clicker.jpg"
-  url: "/revolution/"
+  url: "/resources/revolution/"
   description: "Discover the best tips on how to present with our new video series: The Business Presentation Revolution."
   
 fr:
