@@ -86,13 +86,14 @@
 
 	/* !!! Only set sitewide attributes !!! */
 	/* define the styling of standard tags */
-
+	* {
+		box-sizing: border-box;
+	}
 
 	body {
 		color: var(--color-text);
 		margin: 0;
 		padding: 0;
-		box-sizing: border-box;
 		scroll-padding-top: var(--menubar-height);
 		padding-top: var(--page-padding-top);
 		padding-right: var(--page-padding-right);
@@ -108,7 +109,6 @@
 	section {
 		margin: 0;
 		padding: 0;
-		box-sizing: border-box;
 		scroll-margin-top: calc( var(--menubar-height) * 2 );
 	}
 	

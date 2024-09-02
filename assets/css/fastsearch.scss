@@ -1,13 +1,7 @@
-.cl-fastsearch {
-	padding: 1vw;
-}
-
 .cl-fastsearch--input {
 	/* layout */
 	display: inline-block;
 	padding: 0.5em 0.5em;
-	width: 100%;
-	height: 24px;
 	box-sizing: border-box;
 	/* text */
 	font-size: 0.8em;
@@ -19,12 +13,18 @@
 	border: none;
 	outline: none;
 }
+input.cl-fastsearch--input {
+	width: 100%;
+	min-width: 256px;
+}
 
 .cl-fastsearch--item {
 	/* layout */
 	display: block;
 	top: 0px;
-	padding: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0.2em;
 	/* font */
 	font-size: 0.8em;
 	/* style */
