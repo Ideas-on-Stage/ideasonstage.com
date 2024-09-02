@@ -5,7 +5,6 @@ title: "Formation pitch pour Startups"
 description: "Apprenez les secrets du pitch, par une équipe de coachs qui a collaboré avec des centaines de startups."
 translationKey: "presentations-training/pitch-for-startups"
 picture: "image.jpg"
-schema: "Course"
 ---
 
 ## Tout dépend du pitch

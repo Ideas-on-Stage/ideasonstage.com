@@ -221,22 +221,7 @@
 		top: var(--menubar-height);
 		z-index: 100;	
 	}
-	
-	.layout-double-sticky {
-		position: sticky;
-		top: calc(var(--menubar-height) + 1.6em + .4vw);
-		z-index: 99;	
-	}
-	
-	@media (max-width:480px) {
 		
-		.layout-double-sticky {
-			position: relative;
-			top: 0;
-		}
-		
-	}
-	
 /* @end */
 
 

@@ -63,6 +63,19 @@
 	margin-bottom: 0;
 }
 
+.cl-content--parent {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: var(--module-big-gap);
+}
+@media (max-width:480px) {
+	.cl-content--parent {
+		flex-direction: column-reverse;
+		gap: var(--module-ts-big-gap);
+	}
+}
+
 /* style for photograph styled pictures */
 .cl-content--style-photograph {
 	border: 8px solid #fff;

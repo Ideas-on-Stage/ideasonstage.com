@@ -15,6 +15,9 @@
 	Returns:
 	- Block list as a list of strings
 	
+	Versions:
+	2024-09-02 corrected case where specific .Kind is defined but not specific part (eg body is defined but not head)
+
  --> */}}
 
 {{ $data := page }} {{/* <!-- page object --> */}}
@@ -28,14 +31,19 @@
 	{{/* <!-- then use specific blocks defined in page front matter --> */}}
 	{{ $result = index page.Params $part }}
 
-{{/* <!-- else if specific blocks matching page .Type defined in /data/layouts.yaml --> */}}
+{{/* <!-- else if specific blocks matching page .Type are defined in /data/layouts.yaml --> */}}
 {{ else if (isset site.Data.layouts $data.Type) }}
 	{{ $type := index site.Data.layouts $data.Type }}
 	{{ if $type }}
-		{{/* <!-- and if specific blocks matching page .Kind defined in /data/layouts.yaml --> */}}
+		{{/* <!-- and if specific blocks matching page .Kind are defined in /data/layouts.yaml --> */}}
 		{{ if (isset $type $data.Kind) }}
-			{{/* <!-- then use specific blocks defined in /data/layouts.yaml --> */}}
-			{{ $result = index (index $type $data.Kind) $part }}
+			{{ $kind := index $type $data.Kind }}
+			{{/* <!-- 2024-09-02 added test to check if $part is set in layout.yaml --> */}}
+			{{/* <!-- and if specific blocks matching "part" (head or body) are defined in /data/layouts.yaml --> */}}
+			{{ if (isset $kind $part) }}
+				{{/* <!-- then use specific blocks defined in /data/layouts.yaml --> */}}
+				{{ $result = index (index $type $data.Kind) $part }}
+			{{ end }}
 		{{ end }}
 	{{ end }}
 {{ end }}

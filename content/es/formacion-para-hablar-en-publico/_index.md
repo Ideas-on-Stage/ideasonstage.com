@@ -3,7 +3,6 @@ draft: false
 title: "Formación"
 description: "Cambia la cultura de las presentaciones en tu empresa con  los mejores cursos para hablar en público y hacer presentaciones"
 url: "/es/formacion-para-hablar-en-publico/"
-schema: "course"
 thumbnail: "thumbnail.jpg"
 translationKey: "presentations-training"
 ---

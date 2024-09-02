@@ -2,7 +2,6 @@
 draft: false
 title: "Public Speaking Training"
 description: "Change the culture of presentations in your company"
-schema: "course"
 picture: "training.jpg"
 thumbnail: "thumbnail.jpg"
 pages: "bottom"

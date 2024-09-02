@@ -4,8 +4,22 @@
 .cl-sidebar a							{ font-size: 0.8em;		}
 
 .cl-sidebar {
+	position: sticky;
+	flex-basis: 33%;
+	flex-grow: 0;
+	flex-shrink: 0;
+	top: calc(var(--menubar-height) + 1.6em + .4vw);
+	z-index: 90;
 	background-color: var(--color-lightgray);
 }
+@media (max-width:480px) {
+	.cl-sidebar {
+		position: relative;
+		top: 0;
+	}
+}
+
+
 
 .cl-sidebar h2 {
 	color: #222;
@@ -35,12 +49,18 @@
 	color: #ff8200;
 }
 
-.cl-sidebar--item {
-	margin: 2vw;	
-}
-
 .cl-sidebar .critical--button-primary {
 	margin: 0;
 	padding: 0.8em 1em;
 	font-size: 0.8em;
+}
+
+.cl-sidebar--item {
+	margin: 2vw;	
+}
+
+.cl-sidebar--scroller {
+	padding: 1vw;
+	max-height: 90vh;
+	overflow-y: auto;
 }
