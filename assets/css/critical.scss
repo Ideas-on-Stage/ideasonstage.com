@@ -107,8 +107,6 @@
 	aside,
 	div,
 	section {
-		margin: 0;
-		padding: 0;
 		scroll-margin-top: calc( var(--menubar-height) * 2 );
 	}
 	
@@ -286,7 +284,7 @@
 	}
 
 	.critical--button-primary {
-		display: block; /* to ensure full height of button calculated for layout */
+		display: inline-block; /* to ensure full height of button calculated for layout */
 		margin: 0 auto;
 		padding: 1vw 2vw;
 		color: var(--color-button-primary) !important;
@@ -295,7 +293,6 @@
 		border-radius: 5px;
 		border-color: none;
 		border-style: none;
-		box-sizing: border-box; /* because normal sizing model is shit */
 	}
 	@media (max-width:480px) {		
 		.critical--button-primary {

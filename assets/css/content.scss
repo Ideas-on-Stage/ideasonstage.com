@@ -1,17 +1,52 @@
 /* .cl-content standard tags styles */	
 
+.cl-content {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	gap: var(--module-big-gap);
+}
+@media (max-width:480px) {
+	.cl-content {
+		flex-direction: column-reverse;
+	}
+}
+
+.cl-content--main {
+}
+.cl-content--main img {
+	display: block; /* prevent line height from being added to div height */
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+.cl-content--sidebar + .cl-content--main {
+	width: calc( 67% - var(--module-big-gap) / 2 );	/* reduce main content width when there is a sidebar */
+}
+@media (max-width:480px) {
+	.cl-content--main,
+	.cl-content--sidebar + .cl-content--main {
+			width: 100%; /* set main content width to 100% on ts screens */
+	}
+}
+
 /* h1 should be in <header> title, not in content */
-.cl-content > h2,
-.cl-content > h3,
-.cl-content > h4 {
+.cl-content--main > h2,
+.cl-content--main > h3,
+.cl-content--main > h4 {
 	margin-top: 2em;
 	margin-bottom: 0.5em;
 	scroll-margin-top: calc(var(--menubar-height) + 48px);
 }
-.cl-content li {
+.cl-content--main li {
 	line-height: 1.6em;
 }
-.cl-content > blockquote {
+.cl-content--main > blockquote {
 	background: #f5f5f5;
 	border-radius: 0px;
 	margin: 2vw -2vw;
@@ -19,7 +54,7 @@
 	color: var(--color-blockquote);
 	border-left: 4px var(--color-secondary) solid;
 }
-.cl-content > p > img {
+.cl-content--main > p > img {
 	display: block;
 	margin-top: 48px;
 	margin-bottom: 48px;
@@ -28,19 +63,19 @@
 	max-width: 100%; /* ensures img are shown at max content width */
 }
 
-.cl-content table {
+.cl-content--main table {
 	border: 1px solid #ddd;
 	border-collapse: collapse;
 }
-.cl-content thead {
+.cl-content--main thead {
 	border: none;
 }
-.cl-content td {
+.cl-content--main td {
 	padding: 1vw;
 	width: auto;
 	border: 1px solid #ddd;
 }
-.cl-content th {
+.cl-content--main th {
 	padding: 1vw;
 	width: auto;
 	min-width: 120px; /* small columns will have the same size */
@@ -48,35 +83,85 @@
 	text-align: center;
 }
 @media (max-width:480px) {		
-	.cl-content th {
+	.cl-content--main th {
 		min-width: 50px;
 	}
 }
 
 /* .cl-content adapt margin-top and bottom */
-.cl-content > :first-child {
+.cl-content--main > :first-child {
 	/* remove top margin from first element of content */
 	margin-top: 0;
 }
-.cl-content > :last-child {
+.cl-content--main > :last-child {
 	/* remove bottom margin from last element of content */
 	margin-bottom: 0;
 }
 
-.cl-content--parent {
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	gap: var(--module-big-gap);
+
+
+/* content sidebar */
+
+.cl-content--sidebar h2
+{
+	font-size: 1em;
+}
+.cl-content--sidebar li,
+.cl-content--sidebar p {
+	font-size: 0.8em;
+}
+
+.cl-content--sidebar {
+	background-color: var(--color-lightgray);
 }
 @media (max-width:480px) {
-	.cl-content--parent {
-		flex-direction: column-reverse;
-		gap: var(--module-ts-big-gap);
+	.cl-content--sidebar {
+		position: static;
+		width: 100%;
+	}
+}
+@media (min-width: 481px) {
+	.cl-content--sidebar {
+		position: sticky;
+		z-index: 900;
+		top: calc(var(--menubar-height) + 1.6em + .4vw);
+		width: calc( 33% - var(--module-big-gap) );
 	}
 }
 
+.cl-content--sidebar img {
+	display: block;
+	max-width: 100%; /* prevent overflow from container */
+}
+
+.cl-content--sidebar ul {
+	list-style-type: none;
+	padding: 0; /* remove left space on lists */
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+.cl-content--sidebar li {
+	margin: 1em 0;
+	padding: 0;
+}
+
+.cl-content--sidebar-scroller {
+	padding: 1em;
+	max-height: 90vh;
+	width: 100%;
+	overflow-y: auto;
+}
+.cl-content--sidebar--scroller:first-child {
+	margin-top: 0;
+}
+.cl-content--sidebar--scroller:last-child {
+	margin-bottom: 0;
+}
+
+
 /* style for photograph styled pictures */
+
 .cl-content--style-photograph {
 	border: 8px solid #fff;
 	box-shadow: 2px 2px 8px #aaa;

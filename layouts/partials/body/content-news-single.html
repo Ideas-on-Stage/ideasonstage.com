@@ -1,24 +1,16 @@
 {{ "<!-- partials/body/content-news-single.html:start -->" | safeHTML }}
-<div class="cl-critical--content-width cl-critical--content-space-v cl-content--parent">
-	<aside id="sidebar" class="flex-child flex-child-33p cl-sidebar">
-		<div class="cl-sidebar--scroller">
+<div class="cl-critical--content-width cl-critical--content-space-v cl-content">
+	<aside id="sidebar" class="cl-content--sidebar">
+		<div class="cl-content--sidebar-scroller">
 			{{ partial "sidebar/sidebar-related.html" . }}
 			{{ partial "sidebar/sidebar-top-categories.html" . }}
 		</div>
 	</aside>
-	<article id="content-main" class="flex-child flex-child-67p cl-content">
-		<div class="flex-parent flex-parent-column">
-			<div class="flex-parent flex-parent-row">
-				<h1>{{ .Title }}</h1>
-			</div>
-			{{ partial "e/metadata.html" . }}
-			{{ partial "e/tags.html" . }}
-			<div class="flex-parent flex-parent-row paddingv-tiny">			
-				<div id="post-content">
-				{{ with .Content }}{{ . }}{{ end }}
-				</div>
-			</div>
-		</div>
+	<article id="content-main" class="cl-content--main">
+		<h1>{{ .Title }}</h1>
+		{{ partial "e/metadata.html" . }}
+		{{ partial "e/tags.html" . }}
+		{{ with .Content }}{{ . }}{{ end }}
 	</article>
 </div>
 {{ "<!-- partials/body/content-news-single.html:end -->" | safeHTML }}

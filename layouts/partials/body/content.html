@@ -1,6 +1,6 @@
 {{ "<!-- partials/body/content.html:start -->" | safeHTML }}
 {{ if .Content }}
-	<article id="content-main" class="cl-critical--content-width cl-critical--content-space-v cl-content">
+	<article id="content-main" class="cl-critical--content-width cl-critical--content-space-v cl-content--main">
 		{{ if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
 			{{ with .Params.summary }}
 				<p>

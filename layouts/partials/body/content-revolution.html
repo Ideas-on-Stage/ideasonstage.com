@@ -1,32 +1,30 @@
 {{ "<!-- partials/body/content-revolution.html:start -->" | safeHTML }}
-<div class="cl-critical--content-width cl-critical--content-space-v">
-	<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-parent-gap-big">
-		<aside id="sidebar" class="flex-child flex-child-33p layout-double-sticky">
-			<div class="scroller">
-				{{ partial "sidebar/sidebar-top-categories.html" . }}
+<div class="cl-critical--content-width cl-critical--content-space-v cl-content">
+	<aside id="sidebar" class="cl-content--sidebar">
+		<div class="cl-content--sidebar-scroller">
+			{{ partial "sidebar/sidebar-top-categories.html" . }}
+		</div>
+	</aside>
+	<article class="cl-content--main">
+		{{ partial "e/tags.html" . }}
+		<div id="content-main" class="flex-parent flex-parent-row">
+			<p class="text-muted">
+				{{ if isset .Params "author" }}
+					{{ .Site.Params.news.by }}
+					<a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">
+						{{ .Params.author }}
+					</a>
+				{{ end }}
+				<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+					{{ partial "f/getdate" .Date }}
+				</time> 
+			</p>
+		</div>
+		<div class="flex-parent-row paddingt-tiny">
+			<div id="post-content">
+				{{ with .Content }}{{ . }}{{ end }}
 			</div>
-		</aside>
-		<article class="flex-child flex-child-67p cl-content">
-			{{ partial "e/tags.html" . }}
-			<div id="content-main" class="flex-parent flex-parent-row">
-				<p class="text-muted">
-					{{ if isset .Params "author" }}
-						{{ .Site.Params.news.by }}
-						<a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">
-							{{ .Params.author }}
-						</a>
-					{{ end }}
-					<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-						{{ partial "f/getdate" .Date }}
-					</time> 
-				</p>
-			</div>
-			<div class="flex-parent-row paddingt-tiny">
-				<div id="post-content">
-					{{ with .Content }}{{ . }}{{ end }}
-				</div>
-			</div>
-		</article>
-	</div>
+		</div>
+	</article>
 </div>
 {{ "<!-- partials/body/content-revolution.html:end -->" | safeHTML }}

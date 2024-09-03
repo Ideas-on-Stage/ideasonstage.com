@@ -1,5 +1,5 @@
 
-{{ $files := slice "sidebar" "fastsearch" "testimonials" "footer" "contact" "iosform" }}
+{{ $files := slice "fastsearch" "testimonials" "footer" "contact" "iosform" }}
 {{ $context := . }}
 {{ range $files }}
 	{{ $resource := printf "css/%s.scss" . }}

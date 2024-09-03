@@ -1,20 +1,14 @@
 {{ "<!-- partials/sidebar/sidebar-menu:start -->" | safeHTML }}
-<section id="sidebar" class="cl-sidebar flex-child flex-child-33p layout-double-sticky">
-	<div class="scroller">
-		<div class="flex-parent flex-parent-column flex-parent-justify-center">
-			<h2>
-				{{ .Params.sidebar.title }}
-			</h2>
-			<ul>
-				{{ range .Params.sidebar.items }}
-					<li>
-						{{ with .url }}<a href="{{ . }}">{{ end }}
-							{{ with .name }}{{ . }}{{ end }}
-						{{ with .url }}</a>{{ end }}
-					</li>
-				{{ end }}
-			</ul>
-		</div>
-	</div>
-</section>
+<h2>
+	{{ .Params.sidebar.title }}
+</h2>
+<ul>
+	{{ range .Params.sidebar.items }}
+		<li>
+			{{ with .url }}<a href="{{ . }}">{{ end }}
+				{{ with .name }}{{ . }}{{ end }}
+			{{ with .url }}</a>{{ end }}
+		</li>
+	{{ end }}
+</ul>
 {{ "<!-- partials/sidebar/sidebar-menu:end -->" | safeHTML }}

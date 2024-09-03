@@ -1,54 +1,52 @@
 {{ "<!-- partials/body/pages-news.html:start -->" | safeHTML }}
-<div class="cl-critical--content-width cl-critical--content-space-v">
-	<div class="flex-parent flex-parent-row flex-parent-column-reverse-ontall flex-parent-gap-big">
-		<aside id="sidebar" class="flex-child flex-child-33p cl-sidebar">
-			<div class="cl-sidebar--scroller">
-				{{ partial "sidebar/sidebar-top-categories.html" . }}
-			</div>
-		</aside>
-		<article id="content-main" class="flex-child flex-child-67p">
-			{{ range (.Paginator).Pages }}
-				<section class="post">
-					<div class="flex-parent flex-parent-row paddingt-tiny paddingb-huge">   				
-						<a href="{{ .RelPermalink }}">
-							<h2>{{ .Title }}</h2>
+<div class="cl-critical--content-width cl-critical--content-space-v cl-content">
+	<aside id="sidebar" class="cl-content--sidebar">
+		<div class="cl-content--sidebar-scroller">
+			{{ partial "sidebar/sidebar-top-categories.html" . }}
+		</div>
+	</aside>
+	<article id="content-main" class="cl-content--main">
+		{{ range (.Paginator).Pages }}
+			<section class="post">
+				<div class="flex-parent flex-parent-row paddingt-tiny paddingb-huge">   				
+					<a href="{{ .RelPermalink }}">
+						<h2>{{ .Title }}</h2>
+					</a>
+					{{ partial "e/metadata.html" . }}
+					{{ partial "e/tags.html" . }}
+					{{ if .Params.banner }}
+						<div class="image">
+							<a href="{{ .RelPermalink }}">
+								<img src="{{ .Params.banner }}">
+							</a>
+						</div>
+					{{ end }}
+					<p>{{ .Summary }}</p>
+					<p class="marginv-none">
+						<a href="{{ .RelPermalink }}" class="critical--button-secondary">{{ .Site.Params.news.more }}</a>
+					</p>
+				</div>
+			</section>
+		{{ end }}
+		<aside>
+			{{/* <!-- add pagination buttons --> */}}
+			<ul class="flex-parent flex-parent-row">
+				{{ if .Paginator.HasPrev }}
+					<li class="critical--button-secondary">
+						<a href="{{ .Paginator.Prev.URL }}" class="critical--button-secondary">
+							&larr; {{ site.Params.buttons.previous }}
 						</a>
-						{{ partial "e/metadata.html" . }}
-						{{ partial "e/tags.html" . }}
-						{{ if .Params.banner }}
-							<div class="image">
-								<a href="{{ .RelPermalink }}">
-									<img src="{{ .Params.banner }}">
-								</a>
-							</div>
-						{{ end }}
-						<p>{{ .Summary }}</p>
-						<p class="marginv-none">
-							<a href="{{ .RelPermalink }}" class="critical--button-secondary">{{ .Site.Params.news.more }}</a>
-						</p>
-					</div>
-				</section>
-			{{ end }}
-			<aside>
-				{{/* <!-- add pagination buttons --> */}}
-				<ul class="flex-parent flex-parent-row">
-					{{ if .Paginator.HasPrev }}
-						<li class="critical--button-secondary">
-							<a href="{{ .Paginator.Prev.URL }}" class="critical--button-secondary">
-								&larr; {{ site.Params.buttons.previous }}
-							</a>
-						</li>
-					{{ end }}
-					{{ if .Paginator.HasNext }}
-						<li class="critical--button-secondary">
-							<a href="{{ .Paginator.Next.URL }}" class="critical--button-secondary">
-								{{ site.Params.buttons.next }} &rarr;
-							</a>
-						</li>
-					{{ end }}
-				</ul>
-			</aside>
-		</article>
-	</div>	
-</div>
+					</li>
+				{{ end }}
+				{{ if .Paginator.HasNext }}
+					<li class="critical--button-secondary">
+						<a href="{{ .Paginator.Next.URL }}" class="critical--button-secondary">
+							{{ site.Params.buttons.next }} &rarr;
+						</a>
+					</li>
+				{{ end }}
+			</ul>
+		</aside>
+	</article>
+</div>	
 {{ "<!-- partials/body/pages-news.html:end -->" | safeHTML }}

@@ -1,13 +1,17 @@
 {{ "<!-- partials/inserts/sidebar-related.html:start -->" | safeHTML }}
-{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ $related := site.RegularPages.Related page | first 3 }}
 {{ with $related }}
-<div class="cl-sidebar--item">
-	<h2>{{ $.Site.Params.news.related }}</h2>
+	<h2>
+		{{ $.Site.Params.news.related }}
+	</h2>
 	<ul>
 		{{ range . }}
-		<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+			<li>
+				<a href="{{ .RelPermalink }}">
+					{{ .Title }}
+				</a>
+			</li>
 		{{ end }}
 	</ul>
-</div>
 {{ end }}
 {{ "<!-- partials/inserts/sidebar-related.html:end -->" | safeHTML }}

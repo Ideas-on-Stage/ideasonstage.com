@@ -1,30 +1,42 @@
 {{ "<!-- partials/sidebar/sidebar-training:start -->" | safeHTML }}
-<section id="sidebar" class="cl-sidebar">
-  <div class="flex-parent flex-parent-column flex-parent-justify-center bg-light paddingb-small">
-		<div class="flex-child paddingh-small paddingt-small paddingb-tiny">
-			<h2 class="margin-none">Fiche récapitulative de la formation</h2>
-		</div>
-		<div class="flex-child paddingh-small ">
-			{{ with .Params.title }}<p class="margin-none">Intitulé : {{ . }}</p>{{ end }}
-		</div>
-		<div class="flex-child paddingh-small paddingt-tiny">
-			{{ with .Params.duration }}<p class="margin-none">Durée : {{ . }}</p>{{ end }}
-		</div>
-		<div class="flex-child paddingh-small paddingt-tiny">
-			{{ with .Params.price }}<p class="margin-none">Prix : {{ . }}</p>{{ end }}
-		</div>
-		<div class="flex-child paddingh-small paddingt-tiny">
-			{{ with .Params.attendees }}<p class="margin-none">Participants : {{ . }}</p>{{ end }}
-		</div>
-		<div class="flex-child paddingh-small paddingt-tiny">
-			{{ with .Params.format }}<p class="margin-none">Format : {{ . }}</p>{{ end }}
-		</div>
-		<div class="flex-child paddingh-small paddingt-tiny paddingb-small">
-			{{ with .Params.locations }}<p class="margin-none">Où : {{ . }}</p>{{ end }}
-		</div>
-		<div class="flex-child flex-child-align-center">
-			<a href="#contact" class="critical--button-primary">Réserver une formation</a>
-		</div>
-	</div>
-</section>
+<h2>
+	Fiche récapitulative de la formation
+</h2>
+<ul>
+{{ with .Params.title }}
+	<li>
+		Intitulé : {{ . }}
+	</li>
+{{ end }}
+{{ with .Params.duration }}
+	<li>
+		Durée : {{ . }}
+	</li>
+{{ end }}
+{{ with .Params.price }}
+	<li>
+		Prix : {{ . }}
+	</li>
+{{ end }}
+{{ with .Params.attendees }}
+	<li>
+		Participants : {{ . }}
+	</li>
+{{ end }}
+{{ with .Params.format }}
+	<li>
+		Format : {{ . }}
+	</li>
+{{ end }}
+{{ with .Params.locations }}
+	<li>
+		Où : {{ . }}
+	</li>
+{{ end }}
+	<li>
+		<a href="#contact" class="critical--button-primary">
+			Réserver une formation
+		</a>
+	<li>
+</ul>
 {{ "<!-- partials/sidebar/sidebar-training:end -->" | safeHTML }}
