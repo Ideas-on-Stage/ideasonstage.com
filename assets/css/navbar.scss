@@ -7,21 +7,13 @@
 	border: none;
 }
 
-/* Adjust logo positioning */
+/* Logo */
 .cl-navbar--brand {
 	float: left;
 	height: var(--menubar-height);
 }
 
-.cl-navbar--menu {
-	float: right;
-	display: flex;
-	align-items: stretch;
-	gap: 1em;
-	margin: 0;
-	padding: 0;
-}
-
+/* Font for menu */
 .cl-navbar--menu-item,
 .cl-navbar--menu-item a,
 .cl-navbar--menu-dropdown-item,
@@ -31,52 +23,14 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 14px;
+	border: none; /* remove underline for a links */
 }
 
-/* <li> menu bar items */
-.cl-navbar--menu-item {
-	display: flex; /* allows easy vertical centering of <a> tag inside */
-	align-items: center; /* so text item inside is centered vertically */
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-.cl-navbar--menu-item a {
-	display: block;
-	text-decoration: none;
-	border: none;
+.cl-navbar--menu-checkbox {
+	display: none; /* hide checkboxes */
 }
 
-/* menu dropdown list, use on <ul> inside a <li class="cl-navbar--menu-item"> */
-.cl-navbar--menu-dropdown {
-	display: none;
-	position: absolute;
-	top: calc(var(--menubar-height) - 2px);
-	margin: 0;
-	padding: 0;
-	flex-direction: column;
-}
-	
-/* menu dropdown item */
-.cl-navbar--menu-dropdown-item {
-	float: none;
-	display: list-item;
-	position: relative;
-	list-style: none;
-	padding: 5px 12px;
-	background-color: transparent;
-	line-height: 20px;
-	font-weight: 400;
-}	
-
-.cl-navbar--menulabel {
-	color: white;
-}
-
-.cl-navbar--checkbox {
-	display: none;
-}
-
+/* Menu for normal screens */
 @media (min-width : 768px) {
 
 	.cl-navbar {
@@ -85,39 +39,69 @@
 		max-width: var(--page-max-width);		
 	}
 	
-	.cl-navbar--menu {
-		flex-direction: row;		
-		height: var(--menubar-height);
+	.cl-navbar--menu-burger {
+		display: none; /* hide burger symbol on normal screens */
 	}
+	
+	.cl-navbar--menu {
+		float: right;
+		margin: 0;
+		padding: 0;
+		height: var(--menubar-height);
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		gap: 1em;
+	}
+	
 	.cl-navbar--menu-item {
+		display: flex; /* allows easy vertical centering of <a> tag inside */
+		align-items: center; /* so text item inside is centered vertically */
+		margin: 0;
+		padding: 0;
+		list-style: none;
 		height: var(--menubar-height);
 	}
 	
+	/* show dropdown on hover */
 	.cl-navbar--menu-item:hover .cl-navbar--menu-dropdown {
 		display: inherit;
 	}
-	
-	.cl-navbar--burger {
-		/* hide burger symbol on normal screens */
-		display: none;
-	}
-	
+
 	.cl-navbar--menu-dropdown {
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		top: calc(var(--menubar-height) - 2px);
 		right: 0;
+		margin: 0;
+		padding: 0;
 		width: auto;
+	}
+
+	.cl-navbar--menu-dropdown-item {
+		float: none;
+		display: list-item;
+		position: relative;
+		list-style: none;
+		padding: 5px 12px;
+		background-color: transparent;
+		line-height: 20px;
+		font-weight: 400;
 	}
 	.cl-navbar--menu-dropdown-item a {
 		text-align: right;
 	}
 }
 
+/* Special menu properties for medium screens */
 @media (min-width: 768px) and (max-width : 900px) {
-	/* show only icon (hide text) on medium screen widths */
-	.cl-navbar--shorten {
-		display: none;
+	.cl-navbar--menu-shorten {
+		display: none; /* show only icon (hide text) on medium screen widths */
 	}
 }
 
+/* Menu for ts screens */
 @media (max-width : 767px) {
 	
 	.cl-navbar {
@@ -125,48 +109,60 @@
 		padding-right: calc( var(--module-ts-column-gap) );
 	}
 	
-	.cl-navbar--burger { 
+	.cl-navbar--menu-burger { 
 		display: block;
 		font-size: 1.6em;
 	}
 	
 	.cl-navbar--menu {
-		/* hide text menu on ts screens, show it only if burger checkbox checked */
-		display: none;
 		position: fixed;
+		margin: 0;
+		padding: 1em;
 		left: 0;
 		top: calc(var(--menubar-height) - 2px);
-		width: 100%;
-		flex-direction: column;
 		height: auto;
+		width: 100%;
+		display: none; /* hide menu on ts screens, show if burger checkbox checked */
+		flex-direction: column;
 		align-items: center;
-		padding-bottom: 16px;
+		gap: 1em;
 	}
 	
 	.cl-navbar--menu-item {
+		margin: 0;
 		padding: 0.20em;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
-	}
-	
-	.cl-navbar--menu-dropdown {
-		float: none;
-		position: static;
-		margin-left: 0em;
 		width: 100%;
+		display: flex; /* allows easy vertical centering of <a> tag inside */
+		flex-direction: column;
+		align-items: center; /* so text item inside is centered vertically */
+		justify-content: center;
+		list-style: none;
+	}
+
+	.cl-navbar--menu-dropdown {
+		position: static;
+		top: calc(var(--menubar-height) - 2px);
+		margin: 0;
+		padding: 1em;
+		width: 100%;
+		display: none; /* hide, show if checkbox checked */
+		flex-direction: column;
 		align-items: center;
+		gap: 1em;
 	}
 	
 	.cl-navbar--menu-dropdown-item {
+		display: list-item;
+		position: relative;
+		list-style: none;
 		margin: 0;
-		padding: 1em 0 0 0;
+		padding: 0;
 	}
-
-	/* show menu/dropdown when checkbox is checked */
+	
+	/* show menu or menu dropdown when checkbox is checked */
 	[id^=drop]:checked + .cl-navbar--menu,
 	[id^=drop]:checked + .cl-navbar--menu-dropdown {
 		display: flex;
 	}
-		
+	
 }
