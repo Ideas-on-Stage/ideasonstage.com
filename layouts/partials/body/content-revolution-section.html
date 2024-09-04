@@ -1,0 +1,73 @@
+{{ "<!-- partials/body/pages-revolution.html:start -->" | safeHTML }}
+{{ $content := .Content }}
+<main id="main" role="main">
+	{{ range first 1 .Pages }}	
+		{{/* <!-- generate hero with newest video --> */}}
+		<section id="highlight" class="pages-revolution--hero">
+			<div class="cl-critical--layer">
+				<img src="{{ .RelPermalink }}image.jpg">
+			</div>
+			<div class="cl-critical--layer pages-revolution--hero-text">
+				<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
+					<h2 class="text-white">{{ with .Title }}{{ . }}{{ end }}</h2>
+				</a>
+				<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="critical--button-secondary">
+					{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
+				</a>
+			</div>
+		</section>
+	{{ end }}
+	<section id="content" class="cl-critical--content-width">
+		<div class="flex-parent flex-parent-row paddingt-none paddingb-medium">
+			<div class="layout-module-column-text style-module-text ">
+				<article id="article">
+					{{ with .Content }}{{ . | markdownify }}{{ end }}
+				</article>
+			</div>
+			<div class="flex-parent flex-parent-row paddingt-none paddingb-none flex-parent-justify-space-around">
+				<div class="flex-child pages-revolution--social">
+					<a href="https://www.youtube.com/user/IdeasOnStage/videos"><img src="youtube.svg" alt="youtube"><br>YouTube</a>
+				</div>
+				<div class="flex-child pages-revolution--social">
+					<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"><img src="itunes.svg" alt="iTunes"><br>iTunes</a>
+				</div>
+				<div class="flex-child pages-revolution--social">
+					<a href="https://www.linkedin.com/company/ideas-on-stage/"><img src="linkedin.svg" alt="linkedin"><br>Linkedin</a>
+				</div>
+			</div>
+		</div>
+		<div class="flex-parent flex-parent-row paddingv-medium">
+			<h2 class="centered">{{ .Site.Params.revolution.episodes }}</h2>		
+		</div>
+		<div class="flex-parent flex-parent-row paddingv-medium">
+			{{ $scratch := newScratch }}
+			{{ $scratch.Set "first" "true" }}
+			{{ $scratch.Set "content" .Content }}
+			{{ range (where .Site.RegularPages "Type" "revolution") }}
+				{{ if (eq ($scratch.Get "first") "true") }}
+					{{ $scratch.Set "first" "false" }}
+				{{ else }}
+					<a class="pages-revolution--box" href="{{ .RelPermalink }}">
+						<div class="pages-revolution--thumb-frame">
+							<div class="pages-revolution--thumb">
+								<img src="{{ .RelPermalink }}thumbnail.jpg" class="img-responsive" alt="">
+							</div>
+							<div class="pages-revolution--overlay">
+								<div class="pages-revolution--overlay-title">
+									{{ .Title }}
+								</div>
+							</div>
+						</div>
+						
+						<div class="pages-revolution--summary">
+							<p>
+								{{ .Description }}
+							</p>
+						</div>
+					</a>
+				{{ end }}
+			{{ end }}
+		</div>
+	</section>
+</main>
+{{ "<!-- partials/body/pages-revolution.html:end -->" | safeHTML }}

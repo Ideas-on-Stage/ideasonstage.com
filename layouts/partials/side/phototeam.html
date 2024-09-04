@@ -1,0 +1,5 @@
+{{ "<!-- partials/sidebar/sidebar-menu:start -->" | safeHTML }}
+{{ with .Params }}
+	<img src="{{ .picture }}" class="cl-content--style-photograph" alt="{{ .name }}">
+{{ end }}
+{{ "<!-- partials/sidebar/sidebar-menu:end -->" | safeHTML }}

@@ -1,0 +1,14 @@
+{{ "<!-- partials/sidebar/phototeam:start -->" | safeHTML }}
+<h2>
+	{{ .Params.sidebar.title }}
+</h2>
+<ul>
+	{{ range .Params.sidebar.items }}
+		<li>
+			{{ with .url }}<a href="{{ . }}">{{ end }}
+				{{ with .name }}{{ . }}{{ end }}
+			{{ with .url }}</a>{{ end }}
+		</li>
+	{{ end }}
+</ul>
+{{ "<!-- partials/sidebar/phototeam:end -->" | safeHTML }}

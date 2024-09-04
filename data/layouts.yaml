@@ -1,5 +1,47 @@
 # /data/layouts.yaml is where all page structures are defined.
 # this is a lot easier to read and maintain vs. multiple templates per page type
+# head: blocks added to the <head></head> part
+# body: blocks added to the <body></body> part
+# side: blocks added to the sidebar inside the cl-content part
+# main: blocks added inside the cl-content--main part. Use only if absolutely necessary
+# list: blocks added inside list elements
+# 
+# Simple example without side or main blocks:
+#   <head>
+#       _common "head" blocks
+#       specific "head" blocks
+#   </head>
+#   <body>
+#       _common "bodytop" blocks
+#       specific "body" blocks
+#       _common "bodybottom" blocks
+#   </body>
+#   <footer>
+#       _common "footer" blocks
+#   </footer>
+# 
+# Example of body with side and cont blocks:
+#   <body>
+#       _common "bodytop" blocks
+#       "body" blocks, and inside the body block named "content" we have the following div:
+#       <div class="cl-content">
+#           <div class="cl-content--sidebar">
+#               "side" blocks
+#           </div>
+#           <div class="cl-content--main">
+#               "main" blocks
+#           </div>
+#       </div>
+#       _common "bodybottom" blocks
+#   </body>
+
+# list the css files necessary for each block type, if any
+_css:
+    body:
+    footer:
+    main:
+    side:
+    list:
 
 # common blocks are added to ALL pages
 # they cannot be overridden
@@ -34,21 +76,25 @@ _default:
             - meta-desc-section
             - title-section
         body:
-            - title
+            - h1
             - breadcrumbs
             - content
             - pages
             - modules-aside
+        main:
+            - content
     # page.Kind "single"
     page:
         head:
             - meta-desc-single
             - title-single
         body:
-            - title
+            - h1
             - breadcrumbs
             - content
             - modules-aside
+        main:
+            - content
     # page.Kind "home"
     home:
         head:
@@ -57,7 +103,7 @@ _default:
             - schema-website
             - title-home
         body:
-            - title-home
+            - h1home
             - cta
             - modules
             - content-short
@@ -65,13 +111,16 @@ _default:
             - modules-aside
             - testimonials
             - location
-    # page.Kind "404"
-    404:
+
+
+# page.Type "404"
+404:
+    page:
         head:
             - meta-desc-single
             - title-404
         body:
-            - "404"
+            - content-404
 
 
 
@@ -83,72 +132,99 @@ _default:
 news:
     # page.Kind "section"
     section:
+        # each part defined below overrides default for page Type "news" Kind "section"
+        # here, there is no "head:" part defined so _default:section:head: will be used
+        # body part is defined so it will override _default:section:body: part
         body:
-            - title
+            - h1
             - content
-            - pages-news
-    # page.Kind "page"
+        # content main blocks
+        # will appear where the "content" item is inserted in "body:"
+        # if there is no "content" item it will not be used
+        main:
+            - list
+            - buttonprevnextnews
+        # content sidebar blocks
+        # will appear where the "content" item is inserted in "body:" (there must be a content item in body:)
+        # if there is no "content" item it will not be used
+        side:
+            - topcategories
+        # list of pages blocks (repeated for each page listed)
+        # will appear where the "list" item is inserted in "body:" or "main:"
+        # if there is no "list" item it will not be used
+        list:
+            - title
+            - metadata
+            - tags
+            - banner
+            - summary
+            - buttonmorenews
+            - space-medium
     page:
         head:
             - meta-desc-news-single
             - title-single
         body:
-            - title
-            - content-news-single
-
+            - breadcrumbs
+            - content
+        side:
+            - related
+            - topcategories
+        main:
+            - h1
+            - metadata
+            - tags
+            - content
 
 
 # page.Type "references"
 references:
-    # page.Kind "section"
     section:
         body:
-            - title
+            - h1
             - references
             - content
+        main:
             - pages-references
-
 
 
 # page.Type "revolution"
 revolution:
-    # page.Kind "section"
     section:
         head:
             - meta-desc-section
             - title-section
         body:
-            - title
-            - pages-revolution
-    # page.Kind "page"
+            - h1
+            - content-revolution-section
     page:
         body:
-            - title
+            - h1
             - breadcrumbs
-            - content-revolution
+            - content-revolution-single
 
 
 
 # page.Type "tags"
 tags:
-    # page.Kind "taxonomy"
+    # taxonomy = section for tags
     taxonomy:
         head:
             - meta-desc-tags-taxonomy
             - meta-robots-ni
             - title-tags-taxonomy
         body:
-            - title
+            - h1
             - content
             - pages-tags
-    # page.Kind "term"
+    # term = page for tags
     term:
         head:
             - meta-desc-tags-term
             - meta-robots-ni
             - title-tags-term
         body:
-            - title
+            - h1
             - breadcrumbs
             - content
             - pages-tags
@@ -157,16 +233,14 @@ tags:
 
 # page.Type "team"
 team:
-    # page.Kind "section"
     section:
         head:
             - meta-desc-section
             - title-section
         body:
-            - title
+            - h1
             - content-short
             - pages-team
-    # page.Kind "page"
     page:
         head:
             - meta-desc-team-single
@@ -174,22 +248,30 @@ team:
             - title-team-single
         body:
             - breadcrumbs
-            - content-team-single
+            - content
+        main:
+            - h1team
+            - positionteam
+            - content
+        side:
+            - phototeam
 
 
 
 # page.Type "training"
 training:
-    # page.Kind "section"
     section:
         body:
-            - title
+            - h1
             - breadcrumbs
             - references
             - content
             - pages
-    # page.Kind "page"
+        side:
+            - links
     page:
         body:
-            - title
-            - content-training-single
+            - h1
+            - content
+        side:
+            - training

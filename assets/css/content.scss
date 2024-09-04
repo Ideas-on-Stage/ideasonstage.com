@@ -21,7 +21,7 @@
 	display: block; /* prevent line height from being added to div height */
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 	object-fit: contain;
 }
@@ -102,16 +102,8 @@
 
 /* content sidebar */
 
-.cl-content--sidebar h2
-{
-	font-size: 1em;
-}
-.cl-content--sidebar li,
-.cl-content--sidebar p {
-	font-size: 0.8em;
-}
-
 .cl-content--sidebar {
+	max-height: 90vh;
 	background-color: var(--color-lightgray);
 }
 @media (max-width:480px) {
@@ -134,6 +126,17 @@
 	max-width: 100%; /* prevent overflow from container */
 }
 
+.cl-content--sidebar h2
+{
+	margin: 1em 16px 0.5em 16px;
+	font-size: 1em;
+}
+.cl-content--sidebar li,
+.cl-content--sidebar p {
+	margin: 1em 16px;
+	font-size: 0.8em;
+}
+
 .cl-content--sidebar ul {
 	list-style-type: none;
 	padding: 0; /* remove left space on lists */
@@ -141,31 +144,11 @@
 	margin-bottom: 1em;
 }
 
-.cl-content--sidebar li {
-	margin: 1em 0;
-	padding: 0;
-}
-
-.cl-content--sidebar-scroller {
-	padding: 1em;
-	max-height: 90vh;
-	width: 100%;
-	overflow-y: auto;
-}
-.cl-content--sidebar--scroller:first-child {
-	margin-top: 0;
-}
-.cl-content--sidebar--scroller:last-child {
-	margin-bottom: 0;
-}
-
-
 /* style for photograph styled pictures */
 
 .cl-content--style-photograph {
 	border: 8px solid #fff;
 	box-shadow: 2px 2px 8px #aaa;
-	box-sizing: border-box;
 }
 
 #TableOfContents > ul > li > a {

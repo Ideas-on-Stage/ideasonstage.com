@@ -1,7 +1,21 @@
 # !!! TEST A REDIRECTION AFTER MODIFYING THE FILE TO BE SURE IT'S CORRECT
 # 1 mistake and the whole file may be ignored by Netlify
 
-# PERMANENT redirect .es .fr .it
+# 404 redirect
+[[redirects]]
+	from = "/*"
+	to = "/404/"
+	status = 404
+[[redirects]]
+	from = "/es/*"
+	to = "/es/404/"
+	status = 404
+[[redirects]]
+	from = "/fr/*"
+	to = "/fr/404/"
+	status = 404
+
+# PERMANENT redirect .es .fr sites to /es/ /fr/
 [[redirects]]
 	from			= "https://www.ideasonstage.es/*"	
 	to				= "https://www.ideasonstage.com/es/:splat"

@@ -4,7 +4,7 @@ title: "Business Presentation Revolution - The Book"
 description: "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? Discover the Business Presentation Revolution book."
 
 body:
-- title
+- h1
 - breadcrumbs
 - content
 ---

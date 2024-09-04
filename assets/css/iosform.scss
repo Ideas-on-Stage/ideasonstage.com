@@ -1,7 +1,14 @@
+form.iosform {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
 .iosform--field {
 	/* layout */
 	display: block;
-	margin: 20px 0;
+	margin: 0;
 	padding: 6px 12px;
 	width: 100%;
 	/* font */

@@ -2,14 +2,16 @@
 draft: false
 title: "Formación"
 description: "Cambia la cultura de las presentaciones en tu empresa con  los mejores cursos para hablar en público y hacer presentaciones"
+picture: formacion.jpg
 url: "/es/formacion-para-hablar-en-publico/"
 thumbnail: "thumbnail.jpg"
 translationKey: "presentations-training"
+type: "section"
 ---
 
-## Cambia la cultura de las presentaciones en tu empresa
-
+{{< text-centered title="Cambia la cultura de las presentaciones en tu empresa" >}}
 En Ideas on Stage creemos que todas las personas tienen el potencial para convertirse en presentadores de éxito; y que incluso los oradores con un talento natural tienen potencial de mejora. ¿Por qué? Porque hemos ayudado a cientos de presentadores a sentirse más cómodos, a ganar confianza y a ser más convincentes, dentro de un abanico de clientes que engloba todos los niveles de experiencia y profesionales.
+{{< /text-centered >}}
 
 {{< text2-picture1 picture="/img/inserts/presentation-training-10.jpg" title="Metodología probada, formadores experimentados" >}}
 Los métodos y técnicas que enseñamos son los mismos que utilizamos diariamente para crear presentaciones memorables para nuestros clientes, por lo que sabemos que funcionan. Nuestros formadores suman decenas de años de experiencia en la preparación y exposición de presentaciones de alto nivel, de forma que aprenderás de auténticos expertos.

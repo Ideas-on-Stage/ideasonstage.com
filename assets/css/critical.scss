@@ -36,7 +36,6 @@
 
 	a,
 	blockquote,
-	body,
 	input
 	p,
 	strong,
@@ -48,7 +47,6 @@
 		/* adjust for small tall smartphone screens */
 		a,
 		blockquote,
-		body,
 		input
 		p,
 		strong,
@@ -62,7 +60,6 @@
 			so that text does not become too big */
 		a,
 		blockquote,
-		body,
 		input
 		p,
 		strong,
@@ -92,8 +89,6 @@
 
 	body {
 		color: var(--color-text);
-		margin: 0;
-		padding: 0;
 		scroll-padding-top: var(--menubar-height);
 		padding-top: var(--page-padding-top);
 		padding-right: var(--page-padding-right);

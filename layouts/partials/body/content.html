@@ -1,24 +1,15 @@
 {{ "<!-- partials/body/content.html:start -->" | safeHTML }}
-{{ if .Content }}
-	<article id="content-main" class="cl-critical--content-width cl-critical--content-space-v cl-content--main">
-		{{ if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
-			{{ with .Params.summary }}
-				<p>
-					{{ . }}
-				</p>
-			{{ end }}
-			<h2>
-				{{ site.Params.tableofcontents }}
-			</h2>
-			{{ with .TableOfContents }}
-				{{ . }}
-			{{ end }}
-		{{ end }}
-		{{ with .Content }}
-			{{ . }}
-		{{ end }}
-	</article>
-{{ else }}
-	{{ "<!-- no content found -->" | safeHTML }}
-{{ end }}
+{{ .Kind }} {{ .Type }}
+<div class="cl-critical--content-width cl-critical--content-space-v cl-content">
+	{{ if partial "f/getblocks" "side" }}
+		<aside id="sidebar" class="cl-content--sidebar">
+			{{ partial "e/blocks" "side" }}
+		</aside>
+	{{ end }}
+	<main id="main" role="main" class="cl-content--main">
+		<article id="article">
+			{{ partial "e/blocks" "main" }}
+		</article>
+	</main>
+</div>
 {{ "<!-- partials/body/content.html:end -->" | safeHTML }}

@@ -1,0 +1,19 @@
+<aside>
+	{{/* <!-- add pagination buttons --> */}}
+	<ul class="flex-parent flex-parent-row">
+		{{ if .Paginator.HasPrev }}
+			<li class="critical--button-secondary">
+				<a href="{{ .Paginator.Prev.URL }}" class="critical--button-secondary">
+					&larr; {{ site.Params.buttons.previous }}
+				</a>
+			</li>
+		{{ end }}
+		{{ if .Paginator.HasNext }}
+			<li class="critical--button-secondary">
+				<a href="{{ .Paginator.Next.URL }}" class="critical--button-secondary">
+					{{ site.Params.buttons.next }} &rarr;
+				</a>
+			</li>
+		{{ end }}
+	</ul>
+</aside>

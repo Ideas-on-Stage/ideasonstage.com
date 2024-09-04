@@ -1,28 +1,25 @@
 {{ "<!-- shortcodes:bpr-subscribe.html:start -->" | safeHTML }}
-<div class="cl-shortcode bg-light">
+<div class="cl-shortcode bg-light">	
+	<h2 class="cl-shortcode--title">
+		Get the overview free
+	</h2>
+	<p class="cl-shortcode--text-centered">
+		Please send me the synopsis of Business Presentation Revolution, including the 5 major revolutions to fix business presentations.
+	</p>
 	
-	<div class="style-module-text text-center">
-		<h2 class="section-heading">
-			Get the overview free
-		</h2>
-		<p>Please send me the synopsis of Business Presentation Revolution, including the 5 major revolutions to fix business presentations.</p>
-	</div>
-	
-	<div class="cl-critical--content-width-narrow">
-		<form action="{{ $.Page.RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="magicwandForm" id="magicwandForm">
-			
-			<input type="hidden" name="_subject" value="Form sent from page: {{ $.Page.Permalink }}">
-			
-			<input type="text" id="namefirst" name="namefirst" class="iosform--control" placeholder="First Name" oninvalid="alert('{{ with .Site.Params.contact.form.name.warning  }}{{ .  | markdownify }}{{ end }}');" required>
-			
-			<input type="text" id="namelast" name="namelast" class="iosform--control" placeholder="Last Name" oninvalid="alert('{{ with .Site.Params.contact.form.name.warning  }}{{ .  | markdownify }}{{ end }}');" required>
-			
-			<input type="email" id="email" name="email" class="iosform--control" placeholder="{{ with .Site.Params.contact.form.email.text }}{{ . | markdownify }}{{ end }}" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('{{ with .Site.Params.contact.form.email.warning }}{{ .  | markdownify }}{{ end }}');" required>
-			
-			<input onclick="window.location.href = '/business-presentation-revolution/book/thankyou/';" type="submit" value="Join the Revolution" class="critical--button-primary" success="Congratulations, you will receive an email shortly." wait="Wait...">
-			
-		</form>
-	</div>
+	<form action="{{ $.Page.RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="magicwandForm" id="magicwandForm" class="cl-critical--content-width-narrow iosform">
+		
+		<input type="hidden" name="_subject" value="Form sent from page: {{ $.Page.Permalink }}">
+		
+		<input type="text" id="namefirst" name="namefirst" class="iosform--field" placeholder="First Name" oninvalid="alert('{{ with .Site.Params.contact.form.name.warning  }}{{ .  | markdownify }}{{ end }}');" required>
+		
+		<input type="text" id="namelast" name="namelast" class="iosform--field" placeholder="Last Name" oninvalid="alert('{{ with .Site.Params.contact.form.name.warning  }}{{ .  | markdownify }}{{ end }}');" required>
+		
+		<input type="email" id="email" name="email" class="iosform--field" placeholder="{{ with .Site.Params.contact.form.email.text }}{{ . | markdownify }}{{ end }}" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('{{ with .Site.Params.contact.form.email.warning }}{{ .  | markdownify }}{{ end }}');" required>
+		
+		<input onclick="window.location.href = '/business-presentation-revolution/book/thankyou/';" type="submit" value="Join the Revolution" class="critical--button-primary" success="Congratulations, you will receive an email shortly." wait="Wait...">
+		
+	</form>	
 	
 </div>
 {{ "<!-- shortcodes:bpr-subscribe.html:end -->" | safeHTML }}

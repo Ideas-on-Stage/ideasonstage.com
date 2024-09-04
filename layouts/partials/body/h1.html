@@ -1,8 +1,8 @@
-{{ "<!-- partials/body/title.html:start -->" | safeHTML }}
+{{ "<!-- partials/body/h1.html:start -->" | safeHTML }}
 
 {{ $hero := partial "f/getheropicturepath" . }}
 {{ if $hero }}
-	{{ partial "body/hero.html" . }}
+	{{ partial "body/h1hero.html" . }}
 {{ else if .Title }}
 	{{ if and (eq .Section "news") (.IsPage) }}
 		{{/* <!-- no title for news pages (ideally should be replaced by a parameter) --> */}}
@@ -16,4 +16,4 @@
 		</header>
 	{{ end }}		
 {{ end }}
-{{ "<!-- partials/body/title.html:end -->" | safeHTML }}
+{{ "<!-- partials/body/h1.html:end -->" | safeHTML }}

@@ -2,10 +2,9 @@ baseURL					= "https://www.ideasonstage.com/"
 canonifyurls			= false
 copyright				= "© Ideas on Stage 2010 - "
 DefaultContentLanguage	= "en"
-paginate				= 8
-paginatePath			= "newspage"
 theme					= "hugo-theme-korporate"
 title 					= "Ideas on Stage"
+
 
 [markup]
 	[markup.goldmark]
@@ -15,6 +14,11 @@ title 					= "Ideas on Stage"
 		startLevel	= 2		# start level for table of contents
 		endLevel	= 3		# end level for table of contents
 			
+[pagination]
+	disableAliases = true
+	pagerSize = 8
+	path = "page"
+
 [Permalinks]
 	news	= "/news/:year/:month/:day/:filename/"
 

@@ -1,3 +1,0 @@
-/* include css from tags */
-{{- $css := resources.Get "css/tags.scss" | resources.ExecuteAsTemplate "tags.css" . | resources.ToCSS | resources.Minify -}}
-{{- $css.Content | safeCSS -}}

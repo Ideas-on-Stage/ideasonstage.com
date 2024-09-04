@@ -1,12 +1,3 @@
-/* Navbar container */
-.cl-navbar {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index:1000; /* no other element should be given a higher z-index */
-	border: none;
-}
-
 /* Logo */
 .cl-navbar--brand {
 	float: left;
@@ -34,6 +25,10 @@
 @media (min-width : 768px) {
 
 	.cl-navbar {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index:1000; /* no other element should be given a higher z-index */
 		padding-left: var(--module-column-gap);
 		padding-right: var(--module-column-gap);
 		max-width: var(--page-max-width);		
@@ -105,6 +100,10 @@
 @media (max-width : 767px) {
 	
 	.cl-navbar {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index:1000; /* no other element should be given a higher z-index */
 		padding-left: calc( var(--module-ts-column-gap) );
 		padding-right: calc( var(--module-ts-column-gap) );
 	}

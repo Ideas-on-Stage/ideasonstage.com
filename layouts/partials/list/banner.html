@@ -1,0 +1,7 @@
+{{ if .Params.banner }}
+	<div class="image">
+		<a href="{{ .RelPermalink }}">
+			<img src="{{ .Params.banner }}">
+		</a>
+	</div>
+{{ end }}

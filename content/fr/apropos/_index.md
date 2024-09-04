@@ -5,7 +5,7 @@ description: "Agence spécialisée en présentation et en prise de parole en pub
 translationKey: "about"
 
 body:
-- title
+- h1
 - location
 - content
 - pages

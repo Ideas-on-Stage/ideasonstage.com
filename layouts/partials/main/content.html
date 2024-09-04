@@ -1,0 +1,16 @@
+{{ if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
+	{{ with .Params.summary }}
+		<p>
+			{{ . }}
+		</p>
+	{{ end }}
+	<h2>
+		{{ site.Params.tableofcontents }}
+	</h2>
+	{{ with .TableOfContents }}
+		{{ . }}
+	{{ end }}
+{{ end }}
+{{ with .Content }}
+	{{ . }}
+{{ end }}

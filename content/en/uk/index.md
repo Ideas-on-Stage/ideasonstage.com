@@ -10,7 +10,7 @@ mastodon: "https://mastodon.social/@pmorsa"
 type: "home"
 
 body:
-- title-home
+- h1home
 - cta
 - modules
 - content

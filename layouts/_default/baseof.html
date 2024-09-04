@@ -43,10 +43,8 @@
 		{{ "<!-- _default/baseof.html: add _common bodytop blocks defined in /data/layouts.yaml -->" | safeHTML }}
 		{{ partial "e/blocks-common.html" "bodytop" }}
 
-		<main id="main" role="main">
-			{{ "<!-- _default/baseof.html: add body blocks matching page .Type and .Kind defined in /data/layouts.yaml or page front matter -->" | safeHTML }}
-			{{ partial "e/blocks" "body" }}
-		</main>
+		{{ "<!-- _default/baseof.html: add body blocks matching page .Type and .Kind defined in /data/layouts.yaml or page front matter -->" | safeHTML }}
+		{{ partial "e/blocks" "body" }}
 		
 		{{ "<!-- _default/baseof.html: add _common bodybottom blocks defined in /data/layouts.yaml -->" | safeHTML }}
 		{{ partial "e/blocks-common.html" "bodybottom"}}

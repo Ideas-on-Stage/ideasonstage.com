@@ -2,7 +2,7 @@
 	
 	f/getblockscss
 
-	get css resources matching the list of "body" blocks for the current page
+	get css resources matching the list of "body", "main" blocks for the current page
 	
 	Arguments:
 	- anything (argument not used, but one must be passed)
@@ -20,22 +20,25 @@
 	
  --> */}}
 
-{{ $blocks := partial "f/getblocks" "body" }}
+{{ $blocktypes := slice "body" "main" "list" }}
 {{ $result := slice }}
 
-{{ range $blocks }}
-	{{ $filepath := printf "assets/css/%s.scss" . }}
-	{{ if fileExists $filepath }}
-		{{ $result = $result | append . }}
-	{{ end }}
-	{{ $split := strings.Split . "-" }}
-	{{ $len := $split | len }}
-	{{ if ge $len 2 }}
-		{{ range $split }}
-			{{ $filepathsplit := printf "assets/css/%s.scss" . }}
-			{{ if fileExists $filepathsplit }}
-				{{ $result = $result | append . }}
-			{{ end }}	
+{{ range $blocktypes }}
+	{{ $blocks := partial "f/getblocks" . }}
+	{{ range $blocks }}
+		{{ $filepath := printf "assets/css/%s.scss" . }}
+		{{ if fileExists $filepath }}
+			{{ $result = $result | append . }}
+		{{ end }}
+		{{ $split := strings.Split . "-" }}
+		{{ $len := $split | len }}
+		{{ if ge $len 2 }}
+			{{ range $split }}
+				{{ $filepathsplit := printf "assets/css/%s.scss" . }}
+				{{ if fileExists $filepathsplit }}
+					{{ $result = $result | append . }}
+				{{ end }}	
+			{{ end }}
 		{{ end }}
 	{{ end }}
 {{ end }}

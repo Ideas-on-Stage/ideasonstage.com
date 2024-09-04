@@ -6,14 +6,14 @@ picture: "training.jpg"
 thumbnail: "thumbnail.jpg"
 pages: "bottom"
 translationKey: "presentations-training"
-type: "training"
+type: "section"
 
 datareferencelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
 ---
 
-## Change the culture of presentations in your company
-
+{{< text-centered title="Change the culture of presentations in your company" >}}
 At Ideas on Stage, we believe that everybody has the potential to become a successful presenter – and that even talented speakers have the potential to improve. Why’s that? Because we’ve helped thousands of presenters to become more comfortable, confident and convincing, across a wide range of clients at all levels of business and experience.
+{{< /text-centered >}}
 
 {{< text2-picture1 picture="/img/inserts/presentation-training-10.jpg" title="Proven methods, experienced trainers" >}}
 The methods and techniques we teach are the ones we use every day to produce memorable presentations for business leaders, so we know they work. Our trainers all have many years of experience of high-level presentations so you are learning from true experts.

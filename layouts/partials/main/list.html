@@ -1,0 +1,10 @@
+{{ $blocks := partial "f/getblocks" "list" }}
+{{ range (.Paginator).Pages }}
+	<section class="cl-content--list-item">
+		{{ $page := . }}
+		{{ range $blocks }}
+			{{ $partial := printf "%s/%s.html" "list" . }}
+			{{ partial $partial $page }}
+		{{ end }}
+	</section>
+{{ end }}
