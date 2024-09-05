@@ -5,7 +5,7 @@ tags			= ["Femmes","Entrepreneur","Événement","Pitch","Paris"]
 news			= ["general"]
 date			= "2017-09-01"
 author			= "Rose Bloomfield"
-banner			= "img/news/be_a_boss_thumb.jpg"
+banner			= "/img/news/be_a_boss_thumb.jpg"
 translationKey	= "2017-09-01-can-women-pitch-as-well-as-men"
 +++
 Comment se fait-il que la plupart des startups à succès soient pilotées par des hommes ? D'abord, il y a davantage d'hommes que de femmes qui décident de – ou osent – créer une société. Ensuite, les hommes [réussissent plus souvent](http://fortune.com/2017/03/13/female-founders-venture-capital/) à lever des fonds que les femmes. Et les femmes qui parviennent à faire des levées se retrouvent en général avec moins de capital que les hommes. Ayant moi-même passé deux ans dans les sphères de la Silicon Valley, j'ai pu observer ces réalités aussi bien là-bas qu'ici en France. C'est une bien triste réalité, qui doit changer. 

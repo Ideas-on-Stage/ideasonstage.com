@@ -5,7 +5,7 @@ tags			= ["Pitch","Entrepreneur","Entrainement","Paris","Startup"]
 news			= ["general"]
 date			= "2017-10-04"
 author			= "Phil Waknell"
-banner			= "img/news/PierrePitchSSBL_thumb.jpg"
+banner			= "/img/news/PierrePitchSSBL_thumb.jpg"
 translationKey	= "2017-10-04-helping-startups-pitch-for-social-good"
 +++
 Le [Sport Social Business Lab](http://sport.socialbusinesslab.com), SSBL pour les intimes, est un incubateur spécialisé dans les Startups autour du sport et de l’économie solidaire. Il fait partie du réseau [INCO](http://inco.co.com), « le premier consortium mondial d'une nouvelle économie, inclusive et durable ».

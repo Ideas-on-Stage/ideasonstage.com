@@ -5,7 +5,7 @@ tags = ["TEDxSaclay", "Presenting", "Presentations", "TEDx", "Inspire", "Public 
 news = ["general"]
 date = "2020-01-29"
 author = "Phil Waknell"
-banner = "/img/news/magic ingredients.jpeg"
+banner = "/img/news/magic-ingredients.jpeg"
 +++
 Is there a perfect recipe for a successful presentation? No. Partly it depends on the audience and the context: a boardroom presentation shouldn’t look like a TED talk, even if the subject is the same. And different presentations at the same event – a conference, a demo day, an Executive Committee meeting – should also look different from each other, because otherwise none of them will stand out.
 

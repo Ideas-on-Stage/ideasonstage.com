@@ -1,5 +1,5 @@
 
-.cl-content-short {
+.cl-contentshort {
 	margin: 48px auto; /* use auto to center div on page */
 	padding: 0;
 	width: 80vw;
@@ -7,11 +7,11 @@
 	font-family: "Whitney SSm A", "Whitney SSm B";
 	font-style: normal;
 	font-weight: 500;	
-	color: #888;
+	color: var(--color-bg-white-text-mid);
 	text-align: center;
 }
 @media (max-width:480px) {
-	.cl-content-short {
+	.cl-contentshort {
 		margin: 48px var(--module-ts-column-gap);
 		width: calc(100% - var(--module-ts-column-gap) * 2);
 		max-width: calc(100% - var(--module-ts-column-gap) * 2);

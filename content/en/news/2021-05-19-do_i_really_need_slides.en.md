@@ -4,7 +4,7 @@ title = "Do I really need slides?"
 news = ["general"]
 date = "2021-05-18"
 author = "Phil Waknell"
-banner = "/img/news/istock-454246687_work_copy.jpg"
+banner = "/img/news/istock-454246687.jpg"
 +++
 The success of PowerPoint in taking over corporate communication has led to one major problem: it is now the default way people present. If your boss asks you: “Have you prepared your presentation?” what she really means is: “Have you prepared your PowerPoint® slides?”
 
@@ -16,7 +16,7 @@ If you decide that your audience will benefit from some kind of visual aids, you
 
 ***People remember what you do far better than what you project, even if your slides are great.***
 
-![](/img/news/istock-454246687_work_copy.jpg)
+![](/img/news/istock-454246687.jpg)
 
 If there’s no suitable object or action for this point, the next question should be: would a flip-chart or whiteboard (or similar modern media like smartboards or a Zoom whiteboard) be a good way to illustrate what I am saying?
 

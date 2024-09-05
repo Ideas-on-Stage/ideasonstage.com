@@ -7,11 +7,11 @@
 <nav id="country-list" class="cl-title-home--country-list">
 	<ul class="cl-title-home--country-list-list">
 		{{ range site.Params.countries }}
-			<a href="{{ .url }}">
-				<li class="cl-title-home--country-list-item">
+			<li class="cl-title-home--country-list-item">
+				<a href="{{ .url }}" class="critical--button-secondary">
 					{{ .name }}
-				</li>
-			</a>
+				</a>
+			</li>
 		{{ end }}
 	</ul>
 </nav>

@@ -5,7 +5,7 @@ tags		= ["Events","France","Technology","Future"]
 news			= ["general"] 
 date  		  = "2017-08-31"
 author    	   = "Rose Bloomfield"
-banner    	 = "img/news/bordeaux_thumb.jpg"
+banner    	 = "/img/news/bordeaux_thumb.jpg"
 translationKey  = "2017-08-31-lost-in-transition"
 +++
 

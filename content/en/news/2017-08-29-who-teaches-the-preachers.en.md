@@ -5,7 +5,7 @@ tags			= ["France","Training","Story","Preaching"]
 news			= ["general"] 
 date			= "2017-08-29"
 author			= "Phil Waknell"
-banner			= "img/news/teaching_preaching_thumb.jpg"
+banner			= "/img/news/teaching_preaching_thumb.jpg"
 translationKey	= "2017-08-29-who-teaches-the-preachers"
 +++
 It’s not only business leaders, salespeople and entrepreneurs who need to inspire their audiences. For thousands of years, many of the most talented speakers could be found not in a shop or office but in a place of worship.

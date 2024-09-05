@@ -5,7 +5,7 @@ tags			= ["France","TEDx","Evenement"]
 news			= ["general"] 
 date			= "2017-12-01"
 author			= "Vanessa Querville"
-banner			= "img/news/tedx_saclay_thumb.jpg"
+banner			= "/img/news/tedx_saclay_thumb.jpg"
 translationKey  = "2017-12-01-tedxsaclay"
 +++
 Pour la troisième année, Ideas on Stage est l'heureux partenaire de la conférence TEDx Saclay qui a eu lieu le 30 novembre 2017 dans les tous nouveaux locaux de [CentraleSupélec](https://tedxsaclay.com/programme) sur le plateau de Saclay sur le thème : **Au service du Vivant.**

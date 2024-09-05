@@ -4,7 +4,7 @@ title = "Ai-je réellement besoin de diapositives ?"
 news = ["general"]
 date = "2021-05-18"
 author = "Phil Waknell"
-banner = "/img/news/istock-454246687_work_copy.jpg"
+banner = "/img/news/istock-454246687.jpg"
 +++
 Le succès de PowerPoint dans la communication d'entreprise a entraîné un problème majeur : il est devenu la méthode de présentation par défaut. Si votre patron vous demande : "Avez-vous préparé votre présentation ?", ce qu'elle veut vraiment dire, c'est : "Avez-vous préparé vos diapositives PowerPoint® ?"
 
@@ -16,7 +16,7 @@ Si vous décidez que votre auditoire bénéficiera d'un support visuel, vous dev
 
 **Les gens se souviennent bien mieux de ce que vous faites que de ce que vous projetez, même si vos diapositives sont excellentes.**
 
-![](/img/news/istock-454246687_work_copy.jpg)
+![](/img/news/istock-454246687.jpg)
 
 S'il n'y a pas d'objet ou d'action appropriée, la question suivante devrait être : est-ce qu'un paperboard ou un tableau blanc (ou un support moderne similaire comme les smartboards ou les tableaux blancs sur Zoom) serait un bon moyen d'illustrer ce que je dis ?
 

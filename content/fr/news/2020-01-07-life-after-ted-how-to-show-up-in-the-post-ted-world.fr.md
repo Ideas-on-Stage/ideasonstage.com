@@ -13,7 +13,7 @@ Vous voyez cette image mentale du présentateur que vous imaginez devoir être s
 
 Bienvenue dans l’ère des présentations Post-TED, centrées sur l’authenticité.
 
-[Dans mon dernier article, éviter les mauvaises présentations style TED](/news/2019/10/29/2019-10-29-eviter-les-mauvaises-presentations-style-ted/), nous avons exploré quelques-unes des raisons fondamentales que beaucoup connaissent, et ce que j’appelle la « fatigue TED ». Il vaut mieux le lire en premier, car il s’agissait du deuxième d’une série de trois articles explorant ce sujet. Cependant, si vous pensez que vous savez déjà ce que je veux dire par fatigue TED, poursuivez votre lecture.
+[Dans mon dernier article, éviter les mauvaises présentations style TED](/fr/news/2019/10/29/2019-10-29-eviter-les-mauvaises-presentations-style-ted/), nous avons exploré quelques-unes des raisons fondamentales que beaucoup connaissent, et ce que j’appelle la « fatigue TED ». Il vaut mieux le lire en premier, car il s’agissait du deuxième d’une série de trois articles explorant ce sujet. Cependant, si vous pensez que vous savez déjà ce que je veux dire par fatigue TED, poursuivez votre lecture.
 
 Ainsi, j’expliquais que nous étions plutôt fatigués du style TED, stéréotypé et « hautement oratoire », parfaitement poli et parfaitement prévisible que nous voyons maintes et maintes fois. Bien. Mais alors, que faire ?
 

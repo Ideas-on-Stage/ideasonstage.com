@@ -5,7 +5,7 @@ tags			= ["France","TEDx","Events"]
 news			= ["general"] 
 date			= "2017-12-01"
 author			= "Rose Bloomfield"
-banner			= "img/news/tedx_saclay_thumb.jpg"
+banner			= "/img/news/tedx_saclay_thumb.jpg"
 translationKey  = "2017-12-01-tedxsaclay"
 +++
 For the third year running, Ideas on Stage was very happy to partner with the TEDx Saclay conference, which took place this November 30, 2017 in the brand-new [CentraleSupélec]( http://www.centralesupelec.fr/) amphitheater at the Plateau de Saclay on the powerful theme of “Serving the Living”.

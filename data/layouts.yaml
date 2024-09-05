@@ -35,13 +35,7 @@
 #       _common "bodybottom" blocks
 #   </body>
 
-# list the css files necessary for each block type, if any
-_css:
-    body:
-    footer:
-    main:
-    side:
-    list:
+
 
 # common blocks are added to ALL pages
 # they cannot be overridden
@@ -106,7 +100,7 @@ _default:
             - h1home
             - cta
             - modules
-            - content-short
+            - contentshort
             - references
             - modules-aside
             - testimonials
@@ -115,6 +109,7 @@ _default:
 
 # page.Type "404"
 404:
+    # page.Kind "page"
     page:
         head:
             - meta-desc-single
@@ -239,7 +234,7 @@ team:
             - title-section
         body:
             - h1
-            - content-short
+            - contentshort
             - pages-team
     page:
         head:
