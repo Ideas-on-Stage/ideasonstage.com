@@ -193,7 +193,6 @@ title 					= "Ideas on Stage"
 		[[languages.en.params.navigation.menubar]]
 			name	= "Contact"
 			url		= "#contact"
-			icon	= "fa-envelope"
 
 		[[languages.en.params.navigation.footer]]
 			name = "Services"
@@ -383,7 +382,6 @@ title 					= "Ideas on Stage"
 		[[languages.fr.params.navigation.menubar]]
 			name	= "Contact"
 			url		= "#contact"
-			icon	= "fa-envelope"
 
 		[[languages.fr.params.navigation.footer]]
 			name		= "Services"
@@ -568,7 +566,6 @@ title 					= "Ideas on Stage"
 		[[languages.es.params.navigation.menubar]]
 			name	= "Contacto"
 			url		= "#contact"
-			icon	= "fa-envelope"
 
 		[[languages.es.params.navigation.footer]]	
 			name	= "Servicios"

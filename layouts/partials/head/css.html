@@ -16,12 +16,4 @@
 	{{- $typography.Content | safeCSS -}}	
 </style>
 
-{{ "<!-- FontAwesome -->" | safeHTML }}
-<style>
-	{{- $fontawesome := resources.Get "css/fontawesome.css" | resources.Minify -}}
-	{{- $fontawesome.Content | safeCSS -}}
-	{{- $fontawesome := resources.Get "css/fontawesome.scss" | resources.ToCSS | resources.Minify -}}
-	{{- $fontawesome.Content | safeCSS -}}
-</style>
-
 {{ "<!-- partials/head/css.html:end -->" | safeHTML }}

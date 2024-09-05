@@ -2,7 +2,7 @@
 
 {{ "<!-- jQuery - Required for form validation -->" | safeHTML }}
 {{ $jsjquery := resources.Get "js/jquery.js" | resources.Minify }}
-<script src="{{ $jsjquery.RelPermalink }}"></script>
+<script async type="module" src="{{ $jsjquery.RelPermalink }}"></script>
 
 {{ "<!-- jQuery - Contact form event handler -->" | safeHTML }}
 <script type="text/javascript">
@@ -24,8 +24,8 @@
 
 {{ "<!-- Search Management JavaScript, as resources to minify js -->" | safeHTML }} 	
 {{ $jsfuse := resources.Get "js/fuse.js" | resources.Minify }}
-<script async src="{{ $jsfuse.RelPermalink }}"></script>
+<script async type="module" src="{{ $jsfuse.RelPermalink }}"></script>
 {{ $jsfs := resources.Get "js/fastsearch.js" | resources.Minify }}
-<script async src="{{ $jsfs.RelPermalink }}"></script> 
+<script async type="module" src="{{ $jsfs.RelPermalink }}"></script> 
 
 {{ "<!-- partials/b/page-js.html:end -->" | safeHTML }}

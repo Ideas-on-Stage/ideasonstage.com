@@ -15,7 +15,7 @@
 	
 	<!-- menu-burger menu on ts screens -->
 	<label for="drop" class="cl-navbar--menu-label cl-navbar--menu-burger">
-	{{ $burger := resources.Get "img/navbar/burger.svg" }}			
+		{{ $burger := resources.Get "img/icons/burger.svg" }}			
 		<img src="data:image/svg+xml;base64,{{ $burger.Content | base64Encode }}" height="16px" width="16px" alt="Burger Menu">
 	</label>
 	<input type="checkbox" id="drop" class="cl-navbar--menu-checkbox"/>
@@ -27,12 +27,7 @@
 		{{ range site.Params.navigation.menubar }}
 			<li class="cl-navbar--menu-item">
 				<a class="page-scroll" href="{{ .url }}" onclick="getElementById('drop').checked = false">
-					{{ if .icon }}
-						<i class="fa {{ .icon }}"></i>
-						<span class="cl-navbar--menu-shorten">{{ .name }}</span>
-					{{ else }}
-						{{ .name }}
-					{{ end }} 
+					{{ .name }}
 				</a>
 			</li>  
 		{{ end }}
@@ -40,7 +35,8 @@
 		<!-- Search Dropdown -->
 		<li class="cl-navbar--menu-item">
 			<label for="drop-search" class="cl-navbar--menu-label">
-				<i class="fa fa-search"></i>
+				{{ $img := resources.Get "img/icons/search.svg" }}			
+				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Search">
 			</label>
 			<input type="checkbox" id="drop-search" class="cl-navbar--menu-checkbox"/>
 			<ul class="bg-dark cl-navbar--menu-dropdown">
@@ -57,11 +53,13 @@
 		<!-- Languages Drop Down -->
 		<li class="cl-navbar--menu-item">
 			<label for="drop-languages" class="cl-navbar--menu-label">
-				<i class="fa fa-globe"></i>
-					<span class="cl-navbar--menu-shorten">
-						{{ with .Language.LanguageName }}{{ . }}{{ end }}
-					</span>
-					<i class="fa fa-chevron-down"></i>
+				{{ $img := resources.Get "img/icons/globe.svg" }}			
+				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Search">
+				<span class="cl-navbar--menu-shorten">
+					{{ with .Language.LanguageName }}{{ . }}{{ end }}
+					{{ $img := resources.Get "img/icons/dropdown.svg" }}			
+					<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12x" alt="Search">
+				</span>
 			</label>
 			<input type="checkbox" id="drop-languages" class="cl-navbar--menu-checkbox"/>
 			<ul class="bg-dark cl-navbar--menu-dropdown">
