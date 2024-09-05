@@ -20,7 +20,7 @@
 	
  --> */}}
 
-{{ $blocktypes := slice "body" "main" "list" }}
+{{ $blocktypes := slice "bodytop" "body" "bodybottom" "main" "list" }}
 {{ $result := slice }}
 
 {{ range $blocktypes }}
