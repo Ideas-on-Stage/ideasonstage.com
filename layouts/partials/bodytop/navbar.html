@@ -3,9 +3,9 @@
 	
 	<!-- logo -->
 	<div class="cl-navbar--brand">
-		{{ $home := .Site.BaseURL }}
-		{{ if ne "en" .Site.LanguageCode }}
-			{{ $home = printf "%s%s/" $home .Site.LanguageCode }}	
+		{{ $home := site.BaseURL }}
+		{{ if ne "en" site.LanguageCode }}
+			{{ $home = printf "%s%s/" $home site.LanguageCode }}	
 		{{ end }}
 		<a class="page-scroll" href="{{ $home }}">
 			{{ $logo := resources.Get "img/navbar/ideas-on-stage.svg" }}
@@ -14,19 +14,17 @@
 	</div>
 	
 	<!-- menu-burger menu on ts screens -->
-	<div class="cl-navbar--menu-burger">
-		<label for="drop">
-		{{ $burger := resources.Get "img/navbar/burger.svg" }}			
-			<img src="data:image/svg+xml;base64,{{ $burger.Content | base64Encode }}" height="16px" width="16px" alt="Burger Menu">
-		</label>
-		<input type="checkbox" id="drop" class="cl-navbar--menu-checkbox"/>
-	</div>
+	<label for="drop" class="cl-navbar--menu-label cl-navbar--menu-burger">
+	{{ $burger := resources.Get "img/navbar/burger.svg" }}			
+		<img src="data:image/svg+xml;base64,{{ $burger.Content | base64Encode }}" height="16px" width="16px" alt="Burger Menu">
+	</label>
+	<input type="checkbox" id="drop" class="cl-navbar--menu-checkbox"/>
 			
 	<!-- iosmenu start -->
 	<ul class="bg-dark cl-navbar--menu">
 		
 		<!-- Menubar Menu Items -->
-		{{ range .Site.Params.navigation.menubar }}
+		{{ range site.Params.navigation.menubar }}
 			<li class="cl-navbar--menu-item">
 				<a class="page-scroll" href="{{ .url }}" onclick="getElementById('drop').checked = false">
 					{{ if .icon }}
