@@ -1,15 +1,11 @@
+/*
 
-{{ $files := slice "fastsearch" "testimonials" "footer" "contact" "iosform" }}
-{{ $context := . }}
-{{ range $files }}
-	{{ $resource := printf "css/%s.scss" . }}
-	{{ $cssfile := printf "%s.css" . }}
-	{{- $css := resources.Get $resource | resources.ExecuteAsTemplate $cssfile $context | resources.ToCSS | resources.Minify -}}
-	{{- $css.Content | safeCSS -}}
-{{ end }}
-
-
+	MAIN includes non critical classes that don't need to be inlined in the html document.
 	
+*/
+
+
+
 /* @group LAYOUT-MODULE */
 	
 	/*
@@ -555,6 +551,262 @@
 		
 	}
 	
+/* @end */
+
+
+
+/* @group cl-contact */
+
+	.cl-contact--text {
+		text-align: center;
+	}
+	
+/* @end */
+
+
+
+/* @group cl-fastsearch */
+
+	.cl-fastsearch--input {
+		/* layout */
+		display: inline-block;
+		padding: 0.5em 0.5em;
+		box-sizing: border-box;
+		/* text */
+		font-size: 0.8em;
+		text-align: left;
+		/* style */
+		background-color: #555;
+		color: #ddd;
+		border-radius: 3px 3px 3px 3px;
+		border: none;
+		outline: none;
+	}
+	input.cl-fastsearch--input {
+		width: 100%;
+		min-width: 256px;
+	}
+	
+	.cl-fastsearch--item {
+		/* layout */
+		display: block;
+		top: 0px;
+		width: 100%;
+		margin: 0;
+		padding: 0.2em;
+		/* font */
+		font-size: 0.8em;
+		/* style */
+		border: 0;
+	}
+	
+	.cl-fastsearch--results {
+		list-style: none;
+		padding: 0;
+	}
+	
+	.cl-fastsearch--results-description {
+		/* text of search result */
+		font-size: 0.8em;
+		font-weight: normal;
+		text-align: left;
+		text-transform: none;
+		border: 0;
+	}
+	
+	.cl-fastsearch--results-title{
+		/* title of search result */
+		display: inline-block;
+		text-align: left;
+	}
+
+/* @end */
+
+
+
+/* @group cl-form */
+
+	form.cl-form {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+	}
+	
+	.cl-form--field {
+		/* layout */
+		display: block;
+		margin: 0;
+		padding: 6px 12px;
+		width: 100%;
+		/* font */
+		font-size: 0.8em;
+		line-height: 1.42857143;
+		/* style */
+		color: #555;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-shadow: none;
+		-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+		-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		box-sizing: border-box;
+	}
+	.cl-form--field:focus {
+		/* highlight active field border */
+		border-color: var(--color-primary);
+		outline: 0;
+	}
+	input.cl-form--field {
+		height: 34px;
+	}
+	textarea.cl-form--field {
+		height: 200px;
+	}
+	
+/* @end */
+
+
+
+/* @group footer */
+
+	.cl-footer {
+		margin: 0;
+		padding: var(--content-space-v) 0;
+		background-color: var(--color-darkgray);
+		color: var(--color-lightgray);
+	}
+	.cl-footer a {
+		color: var(--color-lightgray);
+		border: none;
+	}
+	.cl-footer a:hover {
+		color: var(--color-primary);
+	}
+	.cl-footer--category {
+		list-style: none;
+		margin: 0px;
+		padding: 0;
+	}
+	
+	.cl-footer--category-main,
+	.cl-footer--category-main a {
+		font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: normal;
+		font-weight: 700;
+		font-size: 0.8em;
+		text-transform: uppercase;		
+		border: none;
+	}
+	
+	.cl-footer--category-sub,
+	.cl-footer--category-sub a {
+		font-size: 0.85em;
+		border: none;
+	}
+	
+	.cl-footer--social {
+		background-color: var(--color-lightgray);
+		color: var(--color-darkgray);
+		border-radius: 50%;
+		width: 1.5em;
+		height: 1.5em;
+		font-size: 1.2em;
+		text-align: center;
+	}
+	
+	.cl-footer--text {
+		font-size: 0.75em;
+	}
+
+/* @end */
+
+
+
+/* @group cl-testimonials */
+
+	.cl-testimonials {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: flex-start;
+		gap: var(--module-big-gap);
+		overflow-x: scroll;
+		padding-bottom: 2.0em;
+		width: 100%;
+	}
+	@media (max-width:480px) {
+		.cl-testimonials {
+			padding-bottom: 1.0em;
+		}
+	}
+	
+	.cl-testimonials::-webkit-scrollbar {
+		height: 0.4em;
+	}
+	.cl-testimonials::-webkit-scrollbar-track {
+		/* Track */
+		border-radius: 10px;
+		background: #ddd;
+		opacity: 0.5;
+	}
+	.cl-testimonials::-webkit-scrollbar-thumb {
+		/* Handle */
+		background: #222; 
+		border-radius: 10px;
+		opacity: 0.4;
+	}	
+	
+	.cl-testimonials--item {
+		flex-grow: 0;
+		flex-shrink: 0;
+		flex-basis: 30vw;
+	}
+	.cl-testimonials--item:first-child {
+		margin-left: 2vw;
+	} 
+	.cl-testimonials--item:last-child {
+		margin-right: 2vw;
+	}		
+	@media (max-width:480px) {	
+		.cl-testimonials--item {
+			flex-basis: 70vw;
+		}
+	}
+	
+	.cl-testimonials--name {
+		font-size: 0.8em;
+	}
+	
+	.cl-testimonials--person {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		gap: var(--module-big-gap);
+	}
+	
+	.cl-testimonials--position {
+		margin: 0;
+		font-size: 0.8em;
+	}
+	
+	.cl-testimonials--picture {
+		flex-basis: 20%;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.cl-testimonials--picture img {
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+	}
+	
+	.cl-testimonials--text {
+		font-size: 0.8em;
+	}
+
 /* @end */
 
 

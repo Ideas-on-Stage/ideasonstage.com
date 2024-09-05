@@ -22,14 +22,16 @@
 	{{ if .p1.IsHome }}
 		<li class="cl-breadcrumbs--item">
 			<a href="{{ .p1.Permalink }}" class="cl-breadcrumbs--link ">
-				<span class="fa fa-home"></span>
+				{{ $img := resources.Get "img/icons/home.svg" }}
+				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Back to Ideas on Stage Homepage">
 			</a>
 		</li>
 	{{ else if eq .p1 .p2 }}
 		{{/* <!-- currently active page --> */}}
 	{{ else }}
 		<li class="cl-breadcrumbs--item">
-			<span class="cl-breadcrumbs--arrow fa fa-angle-right"></span>
+				{{ $img := resources.Get "img/icons/right.svg" }}
+				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Right Arrow">
 		</li>
 		<li class="cl-breadcrumbs--item">
 			<a href="{{ .p1.Permalink }}" class="cl-breadcrumbs--link">

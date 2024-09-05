@@ -313,8 +313,8 @@
 /* @group CONTENT */
 
 	.cl-critical--content-space-v {
-		margin-top: var(--content-space-v);
-		margin-bottom: var(--content-space-v);
+		margin-top: var(--content-space-v) !important;
+		margin-bottom: var(--content-space-v) !important;
 	}
 	
 	.cl-critical--content-width {

@@ -1,4 +1,4 @@
-.modules {
+.cl-modules {
 	width: calc(100% - 0.001px);
 	display: flex;
 	flex-direction: row; /* to display half modules side by side */
@@ -8,7 +8,7 @@
 	gap: var(--module-row-gap) var(--module-column-gap);
 }
 
-.modules--column {
+.cl-modules--column {
 	display: flex;
 	flex-direction: column;
 	height: var(--module-height); /* defines the fixed height of the module */
@@ -19,7 +19,7 @@
 }
 
 /* Use this to create a full width module div */
-.modules--row {
+.cl-modules--row {
 	display: flex;
 	flex-direction: row;
 	height: var(--module-height); /* defines the fixed height of the module */
@@ -30,7 +30,7 @@
 }
 
 /* Or use this to create a half width module div */
-.modules--half {
+.cl-modules--half {
 	display: flex;
 	flex-direction: column;
 	height: var(--module-height); /* defines the fixed height of the module */
@@ -38,11 +38,11 @@
 }
 
 /* use to create inner div with the pic on left */
-.modules--row-image {
+.cl-modules--row-image {
 	height: 100%;
 	width: 64%;
 }
-.modules--row-image img {
+.cl-modules--row-image img {
 	display: block;
 	height: 100%;
 	width: 100%;
@@ -51,7 +51,7 @@
 }
 
 /* use to create inner div with text on right */
-.modules--row-text {
+.cl-modules--row-text {
 	padding: 4vw;
 	width: 36%;
 	display: flex;
@@ -60,7 +60,7 @@
 }
 
 /* use to create inner div with text on top */
-.modules--column-text {
+.cl-modules--column-text {
 	position: relative;	/* enables z-index */
 	z-index: 10; /* if text overflows, it will go over picture below */
 	padding: 2vw 4vw;
@@ -71,56 +71,56 @@
 }
 
 /* use to create inner div with image on bottom */
-.modules--column-image {
+.cl-modules--column-image {
 	height: 50%; /* without this, image size can overflow from module */
 	width: 100%;
 }
-.modules--column-image img {	
+.cl-modules--column-image img {	
 	height: 100%;
 	width: 100%;
 	object-fit: contain; /* image is never distorted, crop if necessary */
 	object-position: 50% 100%; /* anchor on bottom, horizontal center */
 }
 
-.modules--text h3 {
+.cl-modules--text h3 {
 	font-size: 1.8em;
 }
 
 @media (max-width:480px) {
 	
-	.modules {
+	.cl-modules {
 		margin: var(--module-ts-row-gap) 0;
 		padding: 0;
 		gap: var(--module-ts-row-gap) var(--module-ts-column-gap);
 	}
 
-	.modules--column {
+	.cl-modules--column {
 		height: var(--module-ts-height);
 		width: 100%;
 	}
-	.modules--column-text {
+	.cl-modules--column-text {
 		padding: 8vw;
 	}
-	.modules--column-image img {
+	.cl-modules--column-image img {
 		object-fit: cover; /* use cover instead of contain on ts screens */
 	}
 	
-	.modules--half {
+	.cl-modules--half {
 		height: var(--module-ts-height);
 		width: 100%; /* make half width modules full width on ts screens */
 	}
 	
-	.modules--row {
+	.cl-modules--row {
 		height:  var(--module-ts-height);
 		width: 100%;
 		flex-direction: column-reverse;
 		justify-content: space-between;
 	}	
-	.modules--row-image {
+	.cl-modules--row-image {
 		height: 50%;
 		width: 100%;
 	}
-	.modules--row-text {
+	.cl-modules--row-text {
 		padding: 8vw;
 		height: 50%;
 		width: 100%;

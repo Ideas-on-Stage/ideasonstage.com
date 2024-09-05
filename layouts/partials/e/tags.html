@@ -2,9 +2,9 @@
 {{ $tags := .GetTerms "tags" }}
 {{ if $tags }}
 	<div class="flex-parent flex-parent-row row-tag paddingv-tiny">
-		<ul class="tags">
+		<ul class="cl-tags">
 			{{ range (.GetTerms "tags") }}
-				<li class="tags--tag">
+				<li class="cl-tags--tag">
 					<a href="{{ .Permalink }}">
 						{{ .LinkTitle }}
 					</a>

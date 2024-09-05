@@ -1,6 +1,6 @@
 {{ "<!-- partials/body/modules:start -->" | safeHTML }}
 {{ with .Params.datamodulelist }}
-	<section id="modules" class="modules">
+	<section id="modules" class="cl-modules">
 		{{ range . }}
 			{{ $data := index site.Data.modules . }}
 			{{ if $data }}

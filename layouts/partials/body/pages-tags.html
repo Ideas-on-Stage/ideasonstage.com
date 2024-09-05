@@ -4,9 +4,9 @@
 		{{ partial "sidebar/sidebar-top-categories.html" . }}
 	</aside>
 	<article id="content-main" class="cl-content--main">
-		<ul class="tags">
+		<ul class="cl-tags">
 			{{ range .Pages.ByTitle }}
-				<li class="tags--tag">
+				<li class="cl-tags--tag">
 					<a href="{{ .RelPermalink }}">
 						{{ .Title }}
 					</a>

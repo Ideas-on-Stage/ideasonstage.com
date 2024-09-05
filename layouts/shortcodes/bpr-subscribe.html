@@ -7,15 +7,15 @@
 		Please send me the synopsis of Business Presentation Revolution, including the 5 major revolutions to fix business presentations.
 	</p>
 	
-	<form action="{{ $.Page.RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="magicwandForm" id="magicwandForm" class="cl-critical--content-width-narrow iosform">
+	<form action="{{ $.Page.RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="magicwandForm" id="magicwandForm" class="cl-critical--content-width-narrow cl-form">
 		
 		<input type="hidden" name="_subject" value="Form sent from page: {{ $.Page.Permalink }}">
 		
-		<input type="text" id="namefirst" name="namefirst" class="iosform--field" placeholder="First Name" oninvalid="alert('{{ with .Site.Params.contact.form.name.warning  }}{{ .  | markdownify }}{{ end }}');" required>
+		<input type="text" id="namefirst" name="namefirst" class="cl-form--field" placeholder="First Name" oninvalid="alert('{{ with .Site.Params.contact.form.name.warning  }}{{ .  | markdownify }}{{ end }}');" required>
 		
-		<input type="text" id="namelast" name="namelast" class="iosform--field" placeholder="Last Name" oninvalid="alert('{{ with .Site.Params.contact.form.name.warning  }}{{ .  | markdownify }}{{ end }}');" required>
+		<input type="text" id="namelast" name="namelast" class="cl-form--field" placeholder="Last Name" oninvalid="alert('{{ with .Site.Params.contact.form.name.warning  }}{{ .  | markdownify }}{{ end }}');" required>
 		
-		<input type="email" id="email" name="email" class="iosform--field" placeholder="{{ with .Site.Params.contact.form.email.text }}{{ . | markdownify }}{{ end }}" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('{{ with .Site.Params.contact.form.email.warning }}{{ .  | markdownify }}{{ end }}');" required>
+		<input type="email" id="email" name="email" class="cl-form--field" placeholder="{{ with .Site.Params.contact.form.email.text }}{{ . | markdownify }}{{ end }}" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"oninvalid="alert('{{ with .Site.Params.contact.form.email.warning }}{{ .  | markdownify }}{{ end }}');" required>
 		
 		<input onclick="window.location.href = '/business-presentation-revolution/book/thankyou/';" type="submit" value="Join the Revolution" class="critical--button-primary" success="Congratulations, you will receive an email shortly." wait="Wait...">
 		

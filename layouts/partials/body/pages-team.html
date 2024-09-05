@@ -4,12 +4,13 @@
 		<div class="flex-parent flex-parent-row flex-parent-column-ontall flex-parent-justify-start flex-parent-gap">
 			{{ range .Pages.ByWeight }}
 				<a href="{{ .RelPermalink }}" class="flex-child flex-child-33p flex-parent flex-parent-column flex-parent-align-center paddingv-small">
-					<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}" class="pages-team--img">	
-					<h2 class="pages-team--name">{{ .Params.name }}</h2>
-					<p class="pages-team--title">{{ .Params.position }}</p>
+					<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}" class="cl-pages-team--img" width="100px" height="100px">	
+					<h2 class="cl-pages-team--name">{{ .Params.name }}</h2>
+					<p class="cl-pages-team--title">{{ .Params.position }}</p>
 				</a>
 			{{ end}}
 		</div>
 	</div>
 </section>
 {{ "<!-- partials/body/pages-team.html:end -->" | safeHTML }}
+ 
