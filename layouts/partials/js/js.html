@@ -2,7 +2,7 @@
 
 {{ "<!-- jQuery - Required for form validation -->" | safeHTML }}
 {{ $jsjquery := resources.Get "js/jquery.js" | resources.Minify }}
-<script async type="module" src="{{ $jsjquery.RelPermalink }}"></script>
+<script src="{{ $jsjquery.RelPermalink }}"></script>
 
 {{ "<!-- jQuery - Contact form event handler -->" | safeHTML }}
 <script type="text/javascript">
