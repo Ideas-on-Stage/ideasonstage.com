@@ -24,9 +24,4 @@
 	{{- $fontawesome.Content | safeCSS -}}
 </style>
 
-{{ "<!-- Site CSS -->" | safeHTML }}
-{{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
-{{ if ne true site.Params.disablemaincss }}
-	<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
-{{ end }}
 {{ "<!-- partials/head/css.html:end -->" | safeHTML }}
