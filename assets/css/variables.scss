@@ -44,11 +44,19 @@
 	
 	/* base colors */
 		--color-primary: #FF8200;
-		--color-primary-contrast: #ee7200;
+		--color-primary-contrast: #dd6200;
 		--color-secondary: #00A3E0;
 		--color-darkgray: #222;
 		--color-lightgray: #eee;
 		--color-midgray: #888;
+	
+
+	/* white background scheme (DEFAULT)  */
+		--color-bg-white: white;
+		--color-bg-white-text: black;
+		--color-bg-white-text-mid: #777;
+		--color-bg-white-link: black;
+		--color-bg-white-link-hover: var(--color-primary);
 	
 	/* black background scheme */
 		--color-bg-black: black;
@@ -70,14 +78,6 @@
 		--color-bg-light-text-mid: #black;
 		--color-bg-light-link: black;
 		--color-bg-light-link-hover: var(--color-primary);
-
-	/* white background scheme */
-		--color-bg-white: white;
-		--color-bg-white-text: black;
-		--color-bg-white-text-mid: #999;
-		--color-bg-white-link: black;
-		--color-bg-white-link-hover: var(--color-primary);
-	
 	/* primary background scheme */
 		--color-bg-primary: var(--color-primary);
 		--color-bg-primary-text: white;

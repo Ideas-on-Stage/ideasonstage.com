@@ -53,8 +53,6 @@
 			{{ "<!-- _default/baseof.html: add _common footer blocks defined in /data/layouts.yaml -->" | safeHTML }}
 			{{ partial "e/blocks-common.html" "footer" }}
 		</footer>
-				
-	</body>
 
 		{{ "<!-- _default/baseof.html: add javascript -->" | safeHTML }}
 		{{ partial "js/js.html" . }}
@@ -64,5 +62,8 @@
 		<noscript>
 			<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
 		</noscript>
+		
+	</body>
+
 </html>
 {{ "<!-- _default/baseof.html:end -->" | safeHTML }}

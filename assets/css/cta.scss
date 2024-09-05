@@ -1,16 +1,22 @@
 .cl-cta {
-	width: var(--hero-width);
 	height: var(--hero-height);
+	width: var(--hero-width);
 	max-width: var(--page-max-width);
 	overflow: hidden;
-}
-
-.cl-cta--text {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	align-items: center;
 	justify-content: center;
+}
+
+.cl-cta-img {
+	position: absolute;
+	z-index: -100;
+	height: var(--hero-height);
+	width: 100%;
+	max-width: var(--page-max-width);
+	object-fit: cover;
 }
 
 .cl-cta--title {

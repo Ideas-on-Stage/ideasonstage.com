@@ -1,0 +1,87 @@
+{{ "<!-- partials/body/navbar.html:start -->" | safeHTML }}
+<nav class="bg-dark cl-navbar">
+	
+	<!-- logo -->
+	<div class="cl-navbar--brand">
+		{{ $home := .Site.BaseURL }}
+		{{ if ne "en" .Site.LanguageCode }}
+			{{ $home = printf "%s%s/" $home .Site.LanguageCode }}	
+		{{ end }}
+		<a class="page-scroll" href="{{ $home }}">
+			{{ $logo := resources.Get "img/navbar/ideas-on-stage.svg" }}
+			<img src="data:image/svg+xml;base64,{{ $logo.Content | base64Encode }}" height="52" width="184" alt="Logo Ideas on Stage">
+		</a>
+	</div>
+	
+	<!-- menu-burger menu on ts screens -->
+	<div class="cl-navbar--menu-burger">
+		<label for="drop">
+		{{ $burger := resources.Get "img/navbar/burger.svg" }}			
+			<img src="data:image/svg+xml;base64,{{ $burger.Content | base64Encode }}" height="16px" width="16px" alt="Burger Menu">
+		</label>
+		<input type="checkbox" id="drop" class="cl-navbar--menu-checkbox"/>
+	</div>
+			
+	<!-- iosmenu start -->
+	<ul class="bg-dark cl-navbar--menu">
+		
+		<!-- Menubar Menu Items -->
+		{{ range .Site.Params.navigation.menubar }}
+			<li class="cl-navbar--menu-item">
+				<a class="page-scroll" href="{{ .url }}" onclick="getElementById('drop').checked = false">
+					{{ if .icon }}
+						<i class="fa {{ .icon }}"></i>
+						<span class="cl-navbar--menu-shorten">{{ .name }}</span>
+					{{ else }}
+						{{ .name }}
+					{{ end }} 
+				</a>
+			</li>  
+		{{ end }}
+			
+		<!-- Search Dropdown -->
+		<li class="cl-navbar--menu-item">
+			<label for="drop-search" class="cl-navbar--menu-label">
+				<i class="fa fa-search"></i>
+			</label>
+			<input type="checkbox" id="drop-search" class="cl-navbar--menu-checkbox"/>
+			<ul class="bg-dark cl-navbar--menu-dropdown">
+				<li id="fastSearch" class="cl-navbar--menu-dropdown-item">
+					<input id="searchInput" class="cl-fastsearch--input" tabindex="0">
+				</li>
+				<li class="cl-navbar--menu-dropdown-item">
+					<ul id="searchResults" class="cl-fastsearch--results">
+					</ul>
+				</li>
+			</ul>
+		</li>
+		
+		<!-- Languages Drop Down -->
+		<li class="cl-navbar--menu-item">
+			<label for="drop-languages" class="cl-navbar--menu-label">
+				<i class="fa fa-globe"></i>
+					<span class="cl-navbar--menu-shorten">
+						{{ with .Language.LanguageName }}{{ . }}{{ end }}
+					</span>
+					<i class="fa fa-chevron-down"></i>
+			</label>
+			<input type="checkbox" id="drop-languages" class="cl-navbar--menu-checkbox"/>
+			<ul class="bg-dark cl-navbar--menu-dropdown">
+				{{ if .IsTranslated }}
+					{{ range .AllTranslations }}
+						{{ if ne (site.LanguageCode | lower) (.Lang | lower) }}
+							<li class="cl-navbar--menu-dropdown-item">
+								<a href="{{ .Permalink }}">
+									{{ .Language.LanguageName }}
+								</a>
+							</li>
+						{{ end }}
+					{{ end }}
+				{{ end }}
+			</ul>
+		</li>
+		
+	</ul>
+
+</nav>
+{{ "<!-- partials/body/navbar.html:end -->" | safeHTML }}

@@ -1,7 +1,15 @@
-/* Logo */
-.cl-navbar--brand {
-	float: left;
-	height: var(--menubar-height);
+.cl-navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:1000; /* no other element should be given a higher z-index */
+	padding-left: var(--module-column-gap);
+	padding-right: var(--module-column-gap);
+	max-width: var(--page-max-width);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 /* Font for menu */
@@ -23,15 +31,9 @@
 
 /* Menu for normal screens */
 @media (min-width : 768px) {
-
-	.cl-navbar {
-		position: fixed;
-		top: 0;
-		width: 100%;
-		z-index:1000; /* no other element should be given a higher z-index */
-		padding-left: var(--module-column-gap);
-		padding-right: var(--module-column-gap);
-		max-width: var(--page-max-width);		
+	/* Logo */
+	.cl-navbar--brand {
+		height: var(--menubar-height);
 	}
 	
 	.cl-navbar--menu-burger {
@@ -39,7 +41,6 @@
 	}
 	
 	.cl-navbar--menu {
-		float: right;
 		margin: 0;
 		padding: 0;
 		height: var(--menubar-height);
@@ -108,9 +109,13 @@
 		padding-right: calc( var(--module-ts-column-gap) );
 	}
 	
+	/* Logo */
+	.cl-navbar--brand {
+		height: var(--menubar-height);
+	}
+
 	.cl-navbar--menu-burger { 
-		display: block;
-		font-size: 1.6em;
+		display: inline-block;
 	}
 	
 	.cl-navbar--menu {

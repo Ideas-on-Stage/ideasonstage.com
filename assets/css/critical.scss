@@ -88,7 +88,6 @@
 	}
 
 	body {
-		color: var(--color-bg-white-text);
 		scroll-padding-top: var(--menubar-height);
 		padding-top: var(--page-padding-top);
 		padding-right: var(--page-padding-right);
@@ -279,8 +278,7 @@
 	}
 
 	.critical--button-primary {
-		display: inline-block; /* to ensure full height of button calculated for layout */
-		margin: 0 auto;
+		margin: 0;
 		padding: 1vw 2vw;
 		color: var(--color-button-primary) !important;
 		background-color: var(--color-button-primary-bg);

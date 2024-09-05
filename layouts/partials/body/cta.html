@@ -4,28 +4,24 @@
 	{{ if $data }}
 		{{ $localizeddata := index $data site.LanguageCode }}
 		{{ with $localizeddata }}
-			<header id="call-to-action" class="bg-black cl-cta">
-				<div class="cl-critical--layer">
-					{{ $srcset := partial "f/getpicturesrcset" .picture }}
-					<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .title }}">
-				</div>
-				<div class= "cl-critical--layer cl-cta--text" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
-					{{ with .title }}
-						<h2 class="cl-cta--title">{{ "<!-- picture and h1 -->" | safeHTML }}
-							{{ . | markdownify }}
-						</h2>
-						{{ end }}
-					{{ with .description }}
-						<p class="cl-cta--description">
-							{{ . }}
-						</p>
+			<header id="call-to-action" class="bg-black cl-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
+				{{ $srcset := partial "f/getpicturesrcset" .picture }}
+				<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .title }}" class="cl-cta-img" width="100%" height="60vh">
+				{{ with .title }}
+					<h2 class="cl-cta--title">
+						{{ . | markdownify }}
+					</h2>
 					{{ end }}
-					{{ with .button }}
-						<a href="{{ .link }}" class="critical--button-primary">
-							{{ .text }}
-						</a>
-					{{ end }}
-				</div>
+				{{ with .description }}
+					<p class="cl-cta--description">
+						{{ . }}
+					</p>
+				{{ end }}
+				{{ with .button }}
+					<a href="{{ .link }}" class="critical--button-primary">
+						{{ .text }}
+					</a>
+				{{ end }}
 			</header>
 		{{ end }}
 	{{ end }}

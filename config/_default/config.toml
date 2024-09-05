@@ -70,6 +70,8 @@ title 					= "Ideas on Stage"
 		brand_ball			= "/img/ideas-on-stage-ball.svg"
 		languageicon		= "/img/globe.svg"
 		languageiconhover	= "/img/globe_hover.svg"
+		burger_height		= "16px"
+		burger_width		= "16px"
 
 	# ---------------------
 	[params.organization]
