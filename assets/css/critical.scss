@@ -350,24 +350,3 @@
 	}
 
 /* @end */
-
-
-
-/* @group LAYER */
-
-	.cl-critical--layer {
-		position: absolute;
-		height: inherit;
-		width: inherit;
-		max-height: inherit;
-		max-width: inherit;
-	}
-	.cl-critical--layer > img {
-		height: inherit; /* ! works only if height of parent is calculated as vw or px, not % */
-		width: inherit; /* ! works only if width of parent is calculated as vw or px, not % */
-		max-height: inherit;
-		max-width: inherit;
-		object-fit: cover;
-	}
-
-/* @end */

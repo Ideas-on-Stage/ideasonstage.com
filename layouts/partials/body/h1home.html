@@ -1,13 +1,13 @@
 {{ "<!-- partials/body/h1home.html:start -->" | safeHTML }}
-<header id="title-home" class="cl-title-home">
-	<h1 class="cl-title-home--title">
+<header id="title-home" class="cl-h1home">
+	<h1 class="cl-h1home--title">
 		{{ with .Title }}{{ . | markdownify  }}{{ end }}
 	</h1>
 </header>
-<nav id="country-list" class="cl-title-home--country-list">
-	<ul class="cl-title-home--country-list-list">
+<nav id="country-list" class="cl-h1home--country-list">
+	<ul class="cl-h1home--country-list-list">
 		{{ range site.Params.countries }}
-			<li class="cl-title-home--country-list-item">
+			<li class="cl-h1home--country-list-item">
 				<a href="{{ .url }}" class="critical--button-secondary">
 					{{ .name }}
 				</a>

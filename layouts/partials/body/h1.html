@@ -1,19 +1,22 @@
 {{ "<!-- partials/body/h1.html:start -->" | safeHTML }}
-
 {{ $hero := partial "f/getheropicturepath" . }}
 {{ if $hero }}
-	{{ partial "body/h1hero.html" . }}
-{{ else if .Title }}
-	{{ if and (eq .Section "news") (.IsPage) }}
-		{{/* <!-- no title for news pages (ideally should be replaced by a parameter) --> */}}
-	{{ else if and (eq .Section "team") (.IsPage) }}
-		{{/* <!-- no title for team member  pages (ideally should be replaced by a parameter) --> */}}
-	{{ else }}
-		<header id="title" class="cl-title">
-			<h1>
+	<header id="hero" class="bg-black cl-h1--hero">
+		{{/* <!-- get hero picture if there is one available --> */}}
+		{{ $heropath := partial "f/getheropicturepath" . }}
+		{{ $srcset := partial "f/getpicturesrcset" $heropath }}
+		<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }} class="cl-h1--hero-img">
+		<div class="cl-h1--hero-title-container">
+			<h1 class="cl-h1--hero-title">{{ "<!-- picture and h2 -->" | safeHTML }}
 				{{ with .Title }}{{ . | markdownify }}{{ end }}
 			</h1>
-		</header>
-	{{ end }}		
+		</div>
+	</header>
+{{ else if .Title }}
+	<header id="title" class="cl-h1">
+		<h1>
+			{{ with .Title }}{{ . | markdownify }}{{ end }}
+		</h1>
+	</header>
 {{ end }}
 {{ "<!-- partials/body/h1.html:end -->" | safeHTML }}

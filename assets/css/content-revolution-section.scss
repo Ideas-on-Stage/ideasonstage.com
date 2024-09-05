@@ -1,26 +1,45 @@
-.pages-revolution--hero {
+.cl-pages-revolution--hero {
 	height: var(--hero-height);
-	width: calc(100% - 0.001px);
+	width: var(--hero-width);
 	max-width: var(--page-max-width);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
 }
 
-.pages-revolution--hero-text {
+.cl-pages-revolution--hero-img {
+	position: absolute;
+	z-index: -100;
+	height: var(--hero-height);
+	width: 100%;
+	max-width: var(--page-max-width);
+	object-fit: cover;
+}
+
+.cl-pages-revolution--hero-title {
+	text-align: center;
+} 
+
+.cl-pages-revolution--hero-text {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-.pages-revolution--social {
+.cl-pages-revolution--social {
 	text-align: center;	
 }
 
-.pages-revolution--social > a > img {
+.cl-pages-revolution--social > a > img {
 	width: 3em;
 	height: 3em;
 }
 
-.pages-revolution--box {
+.cl-pages-revolution--box {
 	height: 100%;
 	flex: 1;
 	flex-basis: 33%;
@@ -33,27 +52,27 @@
 	box-sizing: border-box;
 }
 
-.pages-revolution--thumb-frame {
+.cl-pages-revolution--thumb-frame {
 	height: 100%;
 	position:relative;
 }
 
-.pages-revolution--thumb-frame:hover .pages-revolution--overlay .pages-revolution--overlay-title {
+.cl-pages-revolution--thumb-frame:hover .cl-pages-revolution--overlay .cl-pages-revolution--overlay-title {
 	color: var(--color-primary);
 	outline: 0;
 }
 
-.pages-revolution--thumb {
+.cl-pages-revolution--thumb {
 	width:100%;
 	box-sizing: border-box;
 }
-.pages-revolution--thumb img {
+.cl-pages-revolution--thumb img {
 	display: block; /* to prevent line height from being added to div height */
 	width: 100%;
 	height: 100%;
 }
 
-.pages-revolution--overlay {
+.cl-pages-revolution--overlay {
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -65,7 +84,7 @@
 	box-sizing: border-box;	
 }
 
-.pages-revolution--overlay-title {
+.cl-pages-revolution--overlay-title {
 	font-size: 1.2em;
 	font-weight: 700;
 	text-align: left;
@@ -74,7 +93,7 @@
 	box-sizing: border-box;
 }
 
-.pages-revolution--summary {
+.cl-pages-revolution--summary {
 	font-size: 1em;
 	color: #222;
 	padding-top:0.1em;
@@ -84,7 +103,7 @@
 }
 
 @media (max-width:480px) {
-	.pages-revolution--box {
+	.cl-pages-revolution--box {
 		max-width: 100%;
 		box-sizing: border-box;
 	}
