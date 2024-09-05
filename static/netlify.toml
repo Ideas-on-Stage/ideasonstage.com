@@ -138,7 +138,7 @@
 	to		= "https://www.ideasonstage.com//fr/formation-art-oratoire/"
 	status	= 301
 	force	= true
-[[redirects]
+[[redirects]]
 	from	= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-visuels-powerpoint/"
 	to		= "https://www.ideasonstage.com//fr/formation-presentations-powerpoint/"
 	status	= 301
