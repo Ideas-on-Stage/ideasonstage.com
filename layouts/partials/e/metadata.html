@@ -17,7 +17,7 @@
 				{{ .Params.author }} -
 			{{ end }}
 		{{ end }}
-		<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate" .Date }}</time> 
+		<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate.go" .Date }}</time> 
 	</p>
 </section>
 {{ "<!-- partials/e/metadata.html:end -->" | safeHTML }}

@@ -2,16 +2,16 @@
 <nav class="bg-dark cl-navbar">
 	
 	<!-- logo -->
-	<div class="cl-navbar--brand">
-		{{ $home := site.BaseURL }}
-		{{ if ne "en" site.LanguageCode }}
-			{{ $home = printf "%s%s/" $home site.LanguageCode }}	
-		{{ end }}
-		<a class="page-scroll" href="{{ $home }}">
+	{{ $home := site.BaseURL }}
+	{{ if ne "en" site.LanguageCode }}
+		{{ $home = printf "%s%s/" $home site.LanguageCode }}	
+	{{ end }}
+	<a class="page-scroll" href="{{ $home }}">
+		<div class="cl-navbar--brand">
 			{{ $logo := resources.Get "img/navbar/ideas-on-stage.svg" }}
 			<img src="data:image/svg+xml;base64,{{ $logo.Content | base64Encode }}" height="52" width="184" alt="Logo Ideas on Stage">
-		</a>
-	</div>
+		</div>
+	</a>
 	
 	<!-- menu-burger menu on ts screens -->
 	<label for="drop" class="cl-navbar--menu-label cl-navbar--menu-burger">
@@ -22,9 +22,8 @@
 			
 	<!-- iosmenu start -->
 	<ul class="bg-dark cl-navbar--menu">
-		
 		<!-- Menubar Menu Items -->
-		{{ range site.Params.navigation.menubar }}
+		{{ range site.Params.navbar }}
 			<li class="cl-navbar--menu-item">
 				<a class="page-scroll" href="{{ .url }}" onclick="getElementById('drop').checked = false">
 					{{ .name }}

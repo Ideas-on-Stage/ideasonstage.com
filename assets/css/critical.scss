@@ -284,10 +284,11 @@
 		background-color: var(--color-button-primary-bg);
 		border: none;
 		border-radius: 5px;
+		text-align: center;
 	}
 	@media (max-width:480px) {		
 		.critical--button-primary {
-			padding: 2vw 6vw;
+			padding: 2vw 4vw;
 			max-width: 90vw;
 		}
 	}	

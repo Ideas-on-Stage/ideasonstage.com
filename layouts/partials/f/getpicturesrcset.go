@@ -13,7 +13,7 @@
 	- a slice with "src" and "srcset" to be used as in the example below.
 	
 	Example code:
-	{{ $srcset := partial "f/getpicturesrcset" "/img/picture.jgp" }}
+	{{ $srcset := partial "f/getpicturesrcset.go" "/img/picture.jgp" }}
 	<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="" class="">
 
  --> */}}
@@ -22,10 +22,10 @@
 {{ $imgSrcSet := slice }}
 {{ $image := "" }}
 
-{{ if (partial "f/ispage" .) }}
+{{ if (partial "f/ispage.go" .) }}
 	<!-- 1. Try to get image as page resource if argument is a page object -->
 	{{ $image = .Resources.Get .Params.picture }}
-{{ else if (partial "f/isstring" .) }}
+{{ else if (partial "f/isstring.go" .) }}
 	<!-- 2. Try to get image as page resource, but with current page as reference -->
 	{{ $image = page.Resources.Get . }}
 	{{ if not $image }}

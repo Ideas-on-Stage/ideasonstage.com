@@ -1,3 +1,4 @@
 f is for "functions"
 
 These functions return a single value such as a date, a picture path, etc.
+These functions should not insert HTML in a template.

@@ -1,0 +1,571 @@
+baseURL: https://www.ideasonstage.com/
+canonifyurls: false
+DefaultContentLanguage: en
+theme: hugo-theme-korporate
+title: Ideas on Stage
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true    # added to allow raw HTML in page .Content
+    tableOfContents:
+        startLevel: 2        # start level for table of contents
+        endLevel: 3        # end level for table of contents
+
+pagination:
+    disableAliases: true
+    pagerSize: 8
+    path: page
+
+Permalinks:
+    news: /news/:year/:month/:day/:filename/
+
+taxonomies:
+    tag: tags
+
+params:
+    author: Ideas on Stage
+    email: info@ideasonstage.com
+    favicon: /img/ios_favicon.ico
+    
+    # ---------------------
+    # CSS
+    css:
+        customfonts: [ "https://cloud.typography.com/6201816/7621392/css/fonts.css" ]
+        fontawesome: "/css/font-awesome.min.css"
+    
+    # ---------------------
+    # Responsive images
+    images:
+        landscapePhotoWidths: [2400, 1200, 480]
+        portraitPhotoWidths: [1600, 800, 480]
+        quality: 70
+    
+    # ---------------------
+    # Countries
+    countries:
+        - name: "USA"
+          url: "/"
+        - name: "France"
+          url: "/fr/"
+        - name: "España"
+          url: "/es/"
+        - name: "UK"
+          url: "/uk/"
+    
+    # ---------------------
+    # Layout
+    navigation:
+        brand: "Ideas on Stage"
+        brand_logo: "/img/ideas-on-stage.svg"
+        brand_logo_height: "48px"
+        brand_logo_offset: "2px"
+        brand_ball: "/img/ideas-on-stage-ball.svg"
+        languageicon: "/img/globe.svg"
+        languageiconhover: "/img/globe_hover.svg"
+        burger_height: "16px"
+        burger_width: "16px"
+
+    # ---------------------
+    organization:
+        logo: "/img/ideas-on-stage.svg"
+        name: "Ideas on Stage"
+        sameas: [ "https://www.linkedin.com/company/ideas-on-stage/", "https://www.youtube.com/user/IdeasOnStage", "https://twitter.com/ideasonstage", "https://www.pierremorsa.com/ideas-on-stage/" ]
+
+    # ---------------------    
+    # Social items for footer or other elements
+    social:
+        - icon: "facebook"
+          url: "https://www.facebook.com/ideasonstage"
+        - icon: "linkedin"
+          url: "https://www.linkedin.com/company/ideas-on-stage/"
+        - icon: "youtube"
+          url: "https://www.youtube.com/user/IdeasOnStage/"
+
+
+
+################################
+# LANGUAGES
+################################
+languages:
+    en:
+        languageName: "English"
+        languageCode: "en"
+        contentDir: "content/en"
+        weight: "1"
+        
+        params:
+            country: "USA"
+            googleAnalytics: "UA-30695118-1"
+            tableofcontents: "Table of Contents"
+            
+            # -------------------
+            # Buttons
+            buttons:
+                default: "Learn More"
+                next: "Older"
+                previous: "Newer"
+                back: "Back"
+            
+            # -------------------        
+            # Contact
+            contact:
+                enable: true
+                title: "Contact us"
+                subtitle: "Any questions? Use the form below and we'll get back to you shortly"
+                buttonText: "Send message"
+                wait: "Please Wait..."
+                success: "Thank you, we'll get back to you shortly."
+                recaptchasitekey: "6LdPO_4UAAAAAOkPGjWhZSJaqJKKR4XOrf8Xyfs0"
+                missingcaptcha: "Please Enter CAPTCHA Code.\n"
+                wrongcaptcha: "The CAPTCHA Code Does Not Match.\n"
+                # 'warning' defines error messages for invalid inputs
+                form:
+                    name:
+                        text: "Your Name *"
+                        warning: "Please enter your name."
+                    email:
+                        text: "Your Email *"
+                        warning: "Please enter a valid email address."
+                    phone:
+                        text: "Your Phone (optional)"
+                        warning: "Please enter a valid phone number."
+                    country:
+                        text: "Your country of residence (optional)"
+                        warning: "Please enter your country of residence."
+                    message:
+                        text: "Let us know how we can help you *"
+                        warning: "Please enter a message."
+            
+            # -------------------
+            # Events list
+            events:
+                empty: "No new event scheduled."
+            
+            # -------------------
+            # Location    
+            location:
+                addresscountry: "USA"
+                addresslocality: ""
+                addressregion: ""
+                postalcode: ""
+                streetaddress: ""
+                telephone: ""
+            
+            # -------------------
+            # Map
+            map:
+                enable: false
+                title: "Where to find us"
+                address: ""
+                bgimage: ""
+
+            # -------------------
+            # Navbar
+            navbar:
+                - name: "Training"
+                  url: "/presentations-training/"
+                - name: "Coaching"
+                  url: "/public-speaking-coaching/"
+                - name: "Consulting"
+                  url: "/communication-consulting/"
+                - name: "Contact"
+                  url: "#contact"
+            
+            # -------------------        
+            # Footer
+            footer:
+                copyright: "© Ideas on Stage 2010 - "
+                rights: "All Rights Reserved"
+                cookies: "We fully respect your privacy. We don't use cookies or scripts to track you."
+                text: "Ideas on Stage – SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 – N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
+                categories:
+                    - name: "Services"
+                      items:
+                        - name: "Training"
+                          url: "/presentations-training/"
+                        - name: "Coaching"
+                          url: "/public-speaking-coaching/"
+                        - name: "Consulting"
+                          url: "/communication-consulting/"
+                    - name: "Resources"
+                      items:
+                        - name: "Videos"
+                          url: "/resources/revolution/"
+                        - name: "Articles and News"
+                          url: "/news/"
+                        - name: "Guides"
+                          url: "/guides/"
+                        - name: "Books"
+                          url: "/resources/books/"
+                        - name: "Podcast"
+                          url: "/resources/podcast/"
+                    - name: "Ideas on Stage"
+                      items:
+                        - name: "About Us"
+                          url: "/about/"
+                        - name: "Team"
+                          url: "/team/"
+                        - name: "References"
+                          url: "/about/references/"
+                    - name: "Contact Us"
+                      items:
+                        - name: "Contact Form"
+                          url: "#contact"
+            
+            # -------------------
+            # News
+            news:
+                more: "Continue Reading"
+                by: "by"
+                sbcategorytitle: "Top Categories"
+                related: "See Also"
+            
+            # -------------------
+            # Revolution
+            revolution:
+                more: "Watch Episode"
+                episodes: "Previous episodes"
+            
+            # -------------------        
+            # Subscribe to our news
+            subscribe:
+                enable: true
+                title: "Subscribe to our monthly news"
+                subtitle: "Get the best tips on presentations every month."
+                contactemail: "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
+                buttonText: "Subscribe"
+                wait: "Please Wait..."
+                success: "Thank you, stay tuned for good news!"
+                email:
+                    text: "Your Email *"
+                    warning: "Please enter your email address."
+            
+            # -------------------        
+            # Testimonials
+            testimonials:
+                # All testimonials are defined in their own files. You can find testimonials 
+                # at '/data/testimonials'.
+                enable: true
+                title: "Testimonials"
+                subtitle: "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
+
+
+
+    ################################
+    # FRENCH
+    ################################
+    fr:
+        languageName: "Français"
+        languageCode: "fr"
+        contentDir: "content/fr"
+        weight: "2"
+        
+        params:
+            country: "France"
+            googleAnalytics: "UA-30695118-2"
+            tableofcontents: "Table des matières"
+            monthtrans: "mois.yaml"
+        
+            # -------------------
+            # Buttons
+            buttons:
+                default: "En savoir plus"
+                next: "Plus anciens"
+                previous: "Plus récents"
+                back: "Retour"
+            
+            # -------------------    
+            # Contact section
+            contact:
+                enable: true
+                title: "Contactez-nous"
+                subtitle: "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement. Votre demande restera confidentielle et votre email ne sera pas ajouté à une liste de distribution."
+                contactphone: ""
+                buttonText: "Envoyer"
+                wait: "Veuillez patienter..."
+                success: "Merci, nous vous répondrons rapidement."
+                recaptchasitekey: "6LcHff4UAAAAAJOGp7-jMBjBd70L_WuN_YZFAO6q"
+                missingcaptcha: "Veuillez entrer le code CAPTCHA.\n"
+                wrongcaptcha: "Le code CAPTCHA ne correspond pas.\n"
+                # 'warning' defines error messages for invalid inputs
+                form:
+                    name:
+                        text: "Votre nom complet *"
+                        warning: "Veuillez entrer votre nom complet."
+                    email:
+                        text: "Votre email *"
+                        warning: "Veuillez entrer une adresse e-mail valide."
+                    phone:
+                        text: "Votre téléphone (optionnel)"
+                        warning: "Veuillez entrer un numéro de téléphone valide."
+                    country:
+                        text: "Votre pays de résidence (optionnel)"
+                        warning: "Veuillez entrer votre pays de résidence."
+                    message:
+                        text: "Votre message *"
+                        warning: "S'il vous plaît entrer un message."
+            
+            # -------------------
+            # Events list
+            events:
+                empty: "Pas d'événement planifié."
+            
+            # -------------------
+            # Location
+            location:
+                addresscountry: "France"
+                addresslocality: "Paris"
+                addressregion: "Île de France"
+                postalcode: "75008"
+                streetaddress: "138 avenue des Champs Élysées"
+                telephone: "+33183750544"
+            
+            # -------------------
+            # Map
+            map:
+                enable: true
+                title: "Où nous trouver"
+                address: "138 avenue des Champs Élysées — 75008 Paris, France — Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
+                bgimage: "/img/triumph.jpg"
+            
+            # -------------------        
+            # navbar
+            navbar:
+                - name: "Formations"
+                  url: "/fr/formations-prise-de-parole-en-public/"
+                - name: "Coaching"
+                  url: "/fr/coaching-prise-de-parole-en-public/"
+                - name: "Conseil"
+                  url: "/fr/conseil-communication/"
+                - name: "Ateliers"
+                  url: "/fr/ateliers-evenement-entreprise/"
+                - name: "Contact"
+                  url: "#contact"
+            
+            # -------------------        
+            # footer
+            footer:
+                copyright: "© Ideas on Stage 2010 - "
+                rights: "Tous droits réservés"
+                cookies: "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
+                text: "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
+                categories:
+                    - name: "Services"
+                      items:
+                        - name: "Formations prise de parole"
+                          url: "/fr/formations-prise-de-parole-en-public/"
+                        - name: "Coaching prise de parole"
+                          url: "/fr/coaching-prise-de-parole-en-public/"
+                        - name: "Conseil en communication"
+                          url: "/fr/conseil-communication/"
+                        - name: "Ateliers entreprise"
+                          url: "/fr/ateliers-evenement-entreprise/"
+                    - name: "Ressources"
+                      items:
+                        - name: "Vidéos"
+                          url: "/fr/ressources/revolution/"
+                        - name: "Articles et Nouvelles"
+                          url: "/fr/news/"
+                        - name: "Guides Gratuits"
+                          url: "/fr/guides/"
+                        - name: "Autres Ressources"
+                          url: "/fr/ressources/"
+                    - name: "Ideas on Stage"
+                      items:
+                        - name: "À propos de nous"
+                          url: "/fr/apropos/"
+                        - name: "Équipe"
+                          url: "/fr/equipe/"    
+                        - name: "Références Clients"
+                          url: "/fr/apropos/references/"
+                        - name: "Politique RSE"
+                          url: "/fr/apropos/rse/"
+                    - name: "Contactez-nous"
+                      items:
+                        - name: "Formulaire"
+                          url: "#contact"
+                        - name: "Email"
+                          url: "mailto:info@ideasonstage.com"
+            
+            # -------------------        
+            # News
+            news:
+                more: "continuer à lire"
+                by: "par"
+                sbcategorytitle: "Top catégories"
+                related: "Voir également"
+            
+            # -------------------        
+            # Revolution
+            revolution:
+                more: "Regarder l'épisode"
+                episodes: "Épisodes précédents"
+            
+            # -------------------        
+            # Subscribe to our news
+            subscribe:
+                enable: true
+                title: "Recevez nos conseils chaque mois"
+                subtitle: "Inscrivez-vous pour recevoir nos conseils directement dans votre boîte aux lettres."
+                buttonText: "S'inscrire"
+                wait: "Un instant..."
+                success: "Merci !"    
+                email:
+                    text: "Votre Email *"
+                    warning: "Veuillez entre votre adresse email."
+            
+            # -------------------        
+            # Testimonials
+            testimonials:
+                enable: true            
+                title: "Témoignages"
+                subtitle: "Nous avons travaillé avec de nombreux clients ; voici quelques exemples de ce que nos clients disent de nous."
+    
+    
+    
+    ##################
+    # SPANISH
+    ##################
+    es:
+        languageName: "Español"
+        languageCode: "es"
+        contentDir: "content/es"
+        weight: "3"
+        
+        params:
+            country: "España"
+            googleAnalytics: "UA-30695118-3"
+            tableofcontents: "Tabla de contenidos"
+            monthtrans: "mois.es.yaml"
+        
+            # -------------------
+            # Buttons
+            buttons:
+                default: "Saber más"
+                next: "Más antiguo"
+                previous: "Más nuevo"
+                back: "Atrás"
+    
+            # -------------------        
+            # Contact section
+            contact:
+                enable: true
+                title: "Contacta con nosotros"
+                subtitle: "¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible"
+                contactemail: "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
+                buttonText: "Enviar mensaje"
+                wait: "Un momento ..."
+                success: "Gracias, en breve nos pondremos en contacto contigo."
+                recaptchasitekey: "6Lcnff4UAAAAAG8RHxmsXXggu-WaRriMcsYB5rgG"
+                missingcaptcha: "Introduzca el código CAPTCHA.\n"
+                wrongcaptcha: "El código CAPTCHA no coincide.\n"
+                # 'warning' defines error messages for invalid inputs
+                form:
+                    name:
+                        text: "Tu Nombre *"
+                        warning: "Por favor, escribe tu nombre."
+                    email:
+                        text: "Tu Email *"
+                        warning: "Por favor, introduce un email válido."
+                    phone:
+                        text: "Tu teléfono (opcional)"
+                        warning: "Por favor, introduce un número de teléfono válido."
+                    country:
+                        text: "Tu páis de residencia (opcional)"
+                        warning: "Por favor incluya su país de residencia."
+                    message:
+                        text: "Tu Mensaje *"
+                        warning: "Por favor, escribe un mensaje."
+            
+            # -------------------        
+            # Location
+            location:
+                addresscountry: "España"
+                addresslocality: "Barcelona"
+                addressregion: ""
+                postalcode: ""
+                streetaddress: ""
+                telephone: "+34684607409"
+            
+            # -------------------
+            # Map
+            map:
+                enable: false
+                title: ""
+                address: ""
+                bgimage: ""
+            
+            # -------------------        
+            # navbar
+            navbar:    
+                - name: "Formación"
+                  url: "/es/formacion-para-hablar-en-publico/"
+                - name: "Coaching"
+                  url: "/es/coaching-para-hablar-en-publico/"
+                - name: "Creación"
+                  url: "/es/creacion-presentaciones-powerpoint/"
+                - name: "Contacto"
+                  url: "#contact"
+            
+            # -------------------        
+            # footer
+            footer:
+                copyright: "© Ideas on Stage 2010 - "
+                rights: "Todos los derechos reservados"
+                cookies: "No usamos cookies."
+                text: "Ideas on Stage Spain<br>Barcelona."
+                categories:
+                    - name: "Servicios"
+                      items:
+                        - name: "Formación"
+                          url: "/es/formacion-para-hablar-en-publico/"
+                        - name: "Coaching"
+                          url: "/es/coaching-para-hablar-en-publico/"
+                        - name: "Creación"
+                          url: "/es/creacion-presentaciones-powerpoint/"
+                    - name: "Recursos"
+                      items:
+                          - name: "Videos"
+                            url: "/es/revolution/"
+                          - name: "Guías"
+                            url: "/es/guias/"
+                    - name: "Ideas on Stage"
+                      items:
+                          - name: "Acerca de nosotros"
+                            url: "/es/acerca-de-nosotros/"
+                          - name: "Equipo"
+                            url: "/es/equipo/"
+                          - name: "Referencias"
+                            url: "/es/acerca-de-nosotros/referencias/"
+                    - name: "Contacto"
+                      items:
+                          - name: "Formulario"
+                            url: "#contact"
+            
+            # -------------------
+            # News
+            news:
+                more: "Continuar leyendo"
+                by: "por"
+                sbcategorytitle: "Top categorías"
+                related: "También te puede interesar"
+            
+            # -------------------
+            # Revolution
+            revolution:
+                more: "Ver el episodio"
+                episodes: "Episodios"
+            
+            # -------------------        
+            # Subscribe to our news
+            subscribe:
+            enable: false
+            
+            # -------------------        
+            # Testimonials
+            testimonials:
+                enable: true    
+                title: "Testimonios"
+                subtitle: "Hemos trabajado con muchos clientes a lo largo de los años, y siempre nos encanta conocer sus impresiones después de cada colaboración. He aquí una muestra de lo que nuestros clientes dicen de nosotros."    
+    

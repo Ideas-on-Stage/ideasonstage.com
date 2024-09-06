@@ -1,4 +1,4 @@
-{{ $blocks := partial "f/getblocks" "list" }}
+{{ $blocks := partial "f/getblocks.go" "list" }}
 {{ range (.Paginator).Pages }}
 	<section class="cl-content--list-item">
 		{{ $page := . }}

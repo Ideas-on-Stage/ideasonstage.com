@@ -1,7 +1,7 @@
 {{ "<!-- partials/footer/footer.html:start -->" | safeHTML }}
 <div class="cl-critical--content-width">
 	<div class= "flex-parent flex-parent-row flex-parent-gap">
-		{{ range .Site.Params.navigation.footer }}
+		{{ range site.Params.footer.categories }}
 			<div class="flex-child flex-child-25p">
 				<ul class="flex-parent flex-parent-column cl-footer--category">
 					{{ with .name }}
@@ -23,10 +23,10 @@
 	<div class="flex-parent flex-parent-row flex-parent-gap flex-parent-column-reverse-ontall margint-medium">
 		<div class="flex-child">
 			<p class="margin-none cl-footer--text">
-				{{ with .Site.Copyright }}{{ . }}{{ end }} {{ now.Year }}. 
-				{{ with .Site.Params.rights }}{{ . }}{{ end }}<br />
-				{{ with .Site.Params.cookies }}{{ . | markdownify }}{{ end }}</br>
-				{{ with .Site.Params.footer_desc }}{{ . | markdownify }}{{ end }}
+				{{ with site.Params.footer.copyright }}{{ . }}{{ end }} {{ now.Year }}. 
+				{{ with site.Params.footer.rights }}{{ . }}{{ end }}<br />
+				{{ with site.Params.footer.cookies }}{{ . | markdownify }}{{ end }}</br>
+				{{ with site.Params.footer.text }}{{ . | markdownify }}{{ end }}
 			</p>
 		</div>
 	</div>

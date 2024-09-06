@@ -3,7 +3,7 @@
 	{{ if eq true .enable }}
 		<section id="address" class="layout-module marginv-tiny">
 			<div class="layout-module-layer bg-black">
-				{{ $srcset := partial "f/getpicturesrcset" .bgimage }}
+				{{ $srcset := partial "f/getpicturesrcset.go" .bgimage }}
 				<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="Address">
 			</div>
 			<div class="layout-module-layer">

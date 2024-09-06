@@ -32,7 +32,7 @@
 {{ $found := false }}
 {{ $thumbtest := "" }}
 
-{{ if (partial "f/ispage" .) }}
+{{ if (partial "f/ispage.go" .) }}
 	{{/* <!-- then this is a page, check for thumbnail.jpg in same directory --> */}}
 	{{ $thumbtest = add .File.Dir "thumbnail.jpg" }}
 	{{ if fileExists $thumbtest }}
@@ -57,7 +57,7 @@
 {{ end }}
 
 {{ if $found }}
-	{{ if (partial "f/isstring" $picture) }}
+	{{ if (partial "f/isstring.go" $picture) }}
 		{{/* <!-- if it's a string check if path should be completed --> */}}		
 		{{ $firstchar := substr $picture 0 1 }}
 		{{ $firstfour := substr $picture 0 4 }}

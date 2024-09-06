@@ -8,7 +8,7 @@
 					{{ $localizeddata := index $data site.LanguageCode }}
 					{{ if $localizeddata }}
 						<div class="flex-child flex-child-16p border">
-							{{ $srcset := partial "f/getpicturesrcset" $localizeddata.picture }}
+							{{ $srcset := partial "f/getpicturesrcset.go" $localizeddata.picture }}
 							<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with $localizeddata.client }}alt="{{ . }}"{{ end }} class="logo" height="100" width="100" />
 						</div>
 					{{ end }}

@@ -22,8 +22,8 @@
 	
  --> */}}
 
-{{ $date := partial "f/getdate" . }}
-{{ $time := partial "f/gettime" . }}
+{{ $date := partial "f/getdate.go" . }}
+{{ $time := partial "f/gettime.go" . }}
 {{ $dateout := add $date " " }}
 {{ $dateout = add $dateout $time }}
 {{ return $dateout }}

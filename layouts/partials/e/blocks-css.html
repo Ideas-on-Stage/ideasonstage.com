@@ -1,6 +1,6 @@
 {{ "<!-- partials/e/blocks-css.html:start -->" | safeHTML }}
 <style type="text/css">
-	{{- $blocks := partial "f/getblockscss" "dummy" -}}
+	{{- $blocks := partial "f/getblockscss.go" "dummy" -}}
 	{{- range $blocks -}}
 		{{- $resource := printf "css/%s.scss" . -}}
 		{{- $css := printf "%s.css" . -}}

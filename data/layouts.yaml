@@ -51,6 +51,7 @@ _common:
     # common body blocks above "main" for all pages
     bodytop:
         - navbar
+    # do not add body: to _common, use bodytop: or bodybottom: instead
     # common body blocks after "main" for all pages
     bodybottom:
         - contact

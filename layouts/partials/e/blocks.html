@@ -1,6 +1,6 @@
 {{ "<!-- partials/e/blocks.html:start -->" | safeHTML }}
 {{ $part := . }}
-{{ $blocks := partial "f/getblocks" $part }}
+{{ $blocks := partial "f/getblocks.go" $part }}
 {{ range $blocks }}
 	{{ $partial := printf "%s/%s.html" $part . }}
 	{{ partial $partial page }}

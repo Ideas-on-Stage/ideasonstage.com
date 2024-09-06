@@ -1,5 +1,5 @@
 {{ "<!-- partials/e/title-description.html:start -->" | safeHTML }}
-{{ $data := partial "f/getdata" . }}
+{{ $data := partial "f/getdata.go" . }}
 {{ partial "e/title.html" . }}
 {{ if $data.description }}
 	<p>{{ with $data.description }}{{ . | safeHTML }}{{ end }}</p>

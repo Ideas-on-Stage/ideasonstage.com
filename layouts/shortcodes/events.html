@@ -20,7 +20,7 @@
 					</h4>
 					<p>
 						{{ .description }}<br />
-						{{ partial "f/getdatetime" .startdate }}<br />
+						{{ partial "f/getdatetime.go" .startdate }}<br />
 						{{ .performer }}<br />
 						{{ range .offers }}
 							<a href="{{ .url }}" class="critical--button-secondary">

@@ -13,7 +13,7 @@
  --> */}}
 
 {{ $style := "" }}
-{{ if (partial "f/ispage" .) }}
+{{ if (partial "f/ispage.go" .) }}
 	{{ with .Params.style }}
 		{{ $style = . }}
 	{{ end }}

@@ -1,6 +1,6 @@
 {{/* <!--
 	
-	f/getblockscss
+	f/getblockscss.go
 
 	get css resources matching the list of "body", "main" blocks for the current page
 	
@@ -24,7 +24,7 @@
 {{ $result := slice }}
 
 {{ range $blocktypes }}
-	{{ $blocks := partial "f/getblocks" . }}
+	{{ $blocks := partial "f/getblocks.go" . }}
 	{{ range $blocks }}
 		{{ $filepath := printf "assets/css/%s.scss" . }}
 		{{ if fileExists $filepath }}

@@ -1,6 +1,6 @@
 {{ "<!-- partials/e/button-secondary.html:start -->" | safeHTML }}
-{{ $data := partial "f/getdata" . }}
-<a href="{{ partial "f/geturl" . }}" class="critical--button-secondary">
+{{ $data := partial "f/getdata.go" . }}
+<a href="{{ partial "f/geturl.go" . }}" class="critical--button-secondary">
 	{{ with $data.button }}{{ . }}{{ else }}{{ site.Params.buttons.default }}{{ end }}
 </a>
 {{ "<!-- partials/e/button-secondary.html:end -->" | safeHTML }}

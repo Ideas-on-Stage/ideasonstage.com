@@ -15,7 +15,7 @@
  
 {{ $result := false }}
 
-{{ if (partial "f/isstring" .) }}
+{{ if (partial "f/isstring.go" .) }}
 	{{ $result = false }}
 {{ else if or .IsPage .IsNode }}
 	{{ $result = true }}

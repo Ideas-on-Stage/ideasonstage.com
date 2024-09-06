@@ -9,12 +9,6 @@
 	align-items: flex-start;
 	gap: var(--module-big-gap);
 }
-@media (max-width:480px) {
-	.cl-content {
-		flex-direction: column-reverse;
-	}
-}
-
 .cl-content--main {
 }
 .cl-content--main img {
@@ -28,13 +22,6 @@
 .cl-content--sidebar + .cl-content--main {
 	width: calc( 67% - var(--module-big-gap) / 2 );	/* reduce main content width when there is a sidebar */
 }
-@media (max-width:480px) {
-	.cl-content--main,
-	.cl-content--sidebar + .cl-content--main {
-			width: 100%; /* set main content width to 100% on ts screens */
-	}
-}
-
 /* h1 should be in <header> title, not in content */
 .cl-content--main > h2,
 .cl-content--main > h3,
@@ -82,7 +69,14 @@
 	border: 1px solid #ddd;
 	text-align: center;
 }
-@media (max-width:480px) {		
+@media (max-width:720px) {		
+	.cl-content {
+		flex-direction: column-reverse;
+	}
+	.cl-content--main,
+	.cl-content--sidebar + .cl-content--main {
+			width: 100%; /* set main content width to 100% on ts screens */
+	}
 	.cl-content--main th {
 		min-width: 50px;
 	}
@@ -106,13 +100,13 @@
 	max-height: 90vh;
 	background-color: var(--color-lightgray);
 }
-@media (max-width:480px) {
+@media (max-width:720px) {
 	.cl-content--sidebar {
 		position: static;
 		width: 100%;
 	}
 }
-@media (min-width: 481px) {
+@media (min-width: 721px) {
 	.cl-content--sidebar {
 		position: sticky;
 		z-index: 900;

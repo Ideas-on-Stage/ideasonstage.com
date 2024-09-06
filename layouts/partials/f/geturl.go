@@ -20,7 +20,7 @@
 --> */}}
 
 {{ $result := "" }}
-{{ if partial "f/ispage" . }}
+{{ if partial "f/ispage.go" . }}
 	{{ $result = .RelPermalink }}
 {{ else if isset . "link" }}
 	{{ $result = .link }}
