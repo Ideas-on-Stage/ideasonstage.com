@@ -30,40 +30,24 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">	
 
 	<head id="head">
-		{{ "<!-- _default/baseof.html: add _common head blocks defined in /data/layouts.yaml -->" | safeHTML }}
 		{{ partial "e/blocks-common.html" "head" }}
-		{{ "<!-- _default/baseof.html: add critical css based on body blocks -->" | safeHTML }}
 		{{ partial "e/blocks-css.html" "dummy" }}
-		{{ "<!-- _default/baseof.html: add head blocks matching page .Type and .Kind defined in /data/layouts.yaml or page front matter -->" | safeHTML }}
 		{{ partial "e/blocks" "head" }}
 	</head>
 	
 	<body id="page-top">
-		
-		{{ "<!-- _default/baseof.html: add _common bodytop blocks defined in /data/layouts.yaml -->" | safeHTML }}
 		{{ partial "e/blocks-common.html" "bodytop" }}
-
-		{{ "<!-- _default/baseof.html: add body blocks matching page .Type and .Kind defined in /data/layouts.yaml or page front matter -->" | safeHTML }}
 		{{ partial "e/blocks" "body" }}
-		
-		{{ "<!-- _default/baseof.html: add _common bodybottom blocks defined in /data/layouts.yaml -->" | safeHTML }}
 		{{ partial "e/blocks-common.html" "bodybottom"}}
-		
 		<footer id="footer" class="cl-footer">
-			{{ "<!-- _default/baseof.html: add _common footer blocks defined in /data/layouts.yaml -->" | safeHTML }}
 			{{ partial "e/blocks-common.html" "footer" }}
 		</footer>
-
-		{{ "<!-- _default/baseof.html: add javascript -->" | safeHTML }}
 		{{ partial "js/js.html" . }}
-		{{ "<!-- Site CSS -->" | safeHTML }}
 		{{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
 		<link rel="preload" href="{{ $style.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
 		<noscript>
 			<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
-		</noscript>
-		
+		</noscript>		
 	</body>
-
 </html>
 {{ "<!-- _default/baseof.html:end -->" | safeHTML }}

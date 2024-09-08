@@ -13,7 +13,7 @@ body:
 - h1home
 - cta
 - modules
-- content
+- contentshort
 - references
 - modules-aside
 - testimonials

@@ -1,4 +1,3 @@
-{{ "<!-- partials/body/testimonials.html:start -->" | safeHTML }}
 {{ with .Params.datatestimoniallist }}
 	<section id="testimonials" class="cl-testimonials bg-light">
 		{{ range . }}
@@ -15,7 +14,7 @@
 						<div class="cl-testimonials--person">
 							{{ if .img }}
 								<div class="cl-testimonials--picture">
-									<img class="" alt="{{ .name }}" src="{{ .img }}" height="100" width="100">
+									<img class="" alt="{{ .name }}" src="{{ .img }}" height="60px" width="60px">
 								</div>
 							{{ end }}
 							<div>
@@ -32,5 +31,6 @@
 			{{ end }}
 		{{ end }} 
 	</section>
+{{ else }}
+	{{ partial "e/html-comment.html" "skipped: testimonials: no .Params.datatestimoniallist" }}
 {{ end }}
-{{ "<!-- partials/body/testimonials.html:end -->" | safeHTML }}

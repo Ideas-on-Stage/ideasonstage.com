@@ -1,4 +1,3 @@
-{{ "<!-- partials/body/modules:start -->" | safeHTML }}
 {{ with .Params.datamodulelist }}
 	<section id="modules" class="cl-modules">
 		{{ range . }}
@@ -9,7 +8,10 @@
 					{{ partial $localizeddata.layout $localizeddata }}
 				{{ end }}
 			{{ end }}
+		{{ else }}
+			{{ partial "e/html-comment.html" "skipped: modules: .Params.datamodulelist is empty" }}
 		{{ end }}
 	</section>
+{{ else }}
+	{{ partial "e/html-comment.html" "skipped: modules: no .Params.datamodulelist" }}
 {{ end }}
-{{ "<!-- partials/body/modules:end -->" | safeHTML }}

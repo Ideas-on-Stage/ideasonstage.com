@@ -1,4 +1,3 @@
-{{ "<!-- partials/body/cta.html:start -->" | safeHTML }}
 {{ with .Params.datacta }}
 	{{ $data := index site.Data.cta . }}
 	{{ if $data }}
@@ -23,7 +22,12 @@
 					</a>
 				{{ end }}
 			</header>
+		{{ else }}
+			{{ partial "e/html-comment.html" "skipped: cta: no localized data for current language in page.Params.datacta" }}
 		{{ end }}
+	{{ else }}
+		{{ partial "e/html-comment.html" "skipped: cta: no data in page.Params.datacta" }}
 	{{ end }}
+{{ else }}
+	{{ partial "e/html-comment.html" "skipped: cta: no page.Params.datacta" }}
 {{ end }}
-{{ "<!-- partials/body/cta.html:end -->" | safeHTML }}

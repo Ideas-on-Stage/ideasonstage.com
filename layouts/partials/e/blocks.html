@@ -1,8 +1,12 @@
-{{ "<!-- partials/e/blocks.html:start -->" | safeHTML }}
 {{ $part := . }}
+{{ "<!-- partials/e/blocks.html:start -->" | safeHTML  }}
 {{ $blocks := partial "f/getblocks.go" $part }}
 {{ range $blocks }}
 	{{ $partial := printf "%s/%s.html" $part . }}
+	{{ $commentstart := printf "<!-- %s:start -->" $partial }}
+	{{ $commentstart | safeHTML }}
 	{{ partial $partial page }}
+	{{ $commentend := printf "<!-- %s:end -->" $partial }}
+	{{ $commentend | safeHTML }}
 {{ end }}
 {{ "<!-- partials/e/blocks.html:end -->" | safeHTML }}

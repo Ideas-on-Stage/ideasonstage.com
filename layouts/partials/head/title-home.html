@@ -1,4 +1,3 @@
-{{ "<!-- partials/head/title-home.html:start -->" | safeHTML }}
 <title>
 	{{ if .Params.headtitle }}
 		{{ (printf "%s" .Params.headtitle) | truncate 70 }}
@@ -6,4 +5,3 @@
 		{{ (printf "%s | %s" .Title site.Params.Country) | truncate 70 }}
 	{{ end }}
 </title>
-{{ "<!-- partials/head/title-home.html:end -->" | safeHTML }}

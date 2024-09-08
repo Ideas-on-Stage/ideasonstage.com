@@ -1,4 +1,3 @@
-{{ "<!-- partials/body/location.html:start -->" | safeHTML }}
 {{ with site.Params.map }}
 	{{ if eq true .enable }}
 		<section id="address" class="layout-module marginv-tiny">
@@ -17,6 +16,9 @@
 				</div>
 			</div>
 		</section>{{ "<!-- map end -->" | safeHTML }}
+	{{ else }}
+	{{ "<!-- no location because site.Params.map.enable is not true -->" | safeHTML }}
 	{{ end }}
+{{ else }}
+	{{ "<!-- no location because site.Params.map not set -->" | safeHTML }}
 {{ end }}
-{{ "<!-- partials/body/location.html:end -->" | safeHTML }}

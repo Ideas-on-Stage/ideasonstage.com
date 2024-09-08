@@ -1,4 +1,3 @@
-{{ "<!-- partials/head/title-team-single.html:start -->" | safeHTML }}
 <title>
 	{{ if and .Params.position .Params.Name }}
 		{{/* <!-- Team member page --> */}}
@@ -8,4 +7,3 @@
 		{{ (printf "%s | %s %s" .Params.name site.Title site.Params.Country) | truncate 70 }}
 	{{ end }}
 </title>
-{{ "<!-- partials/head/title-team-single.html:end -->" | safeHTML }}

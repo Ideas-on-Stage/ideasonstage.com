@@ -1,5 +1,3 @@
-{{ "<!-- partials/head/css.html:start -->" | safeHTML }}
-
 {{ "<!-- Critical CSS -->" | safeHTML }}
 <style type="text/css">
 	{{- $variables := resources.Get "css/variables.scss" | resources.ExecuteAsTemplate "variables.css" . | resources.ToCSS | resources.Minify -}}
@@ -9,11 +7,8 @@
 	{{- $navbar := resources.Get "css/navbar.scss" | resources.ExecuteAsTemplate "navbar.css" . | resources.ToCSS | resources.Minify -}}
 	{{- $navbar.Content | safeCSS -}}
 </style>
-
 {{ "<!-- Typography -->" | safeHTML }}
 <style type="text/css">
 	{{- $typography := resources.Get "css/typography.css" | resources.Minify -}}
 	{{- $typography.Content | safeCSS -}}	
 </style>
-
-{{ "<!-- partials/head/css.html:end -->" | safeHTML }}

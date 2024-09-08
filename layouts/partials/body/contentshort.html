@@ -1,7 +1,9 @@
-{{ "<!-- partials/body/contentshort.html:start -->" | safeHTML }}
+{{ with .Content }}
 <main id="contentshort" class="cl-contentshort">
 	<article id="article">
-		{{ .Content }}
+		{{ . }}
 	</article>
 </main>
-{{ "<!-- partials/body/contentshort.html:end -->" | safeHTML }}
+{{ else }}
+	{{ partial "e/html-comment.html" "skipped: contentshort: no content" }}
+{{ end }}

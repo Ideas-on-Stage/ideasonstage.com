@@ -34,16 +34,7 @@
 
 /* @group FONT SIZES */
 
-	a,
-	blockquote,
-	input
-	p,
-	strong,
-	textarea {
-		font-size: var(text-size-base);
-	}
-
-	@media (max-width:480px) {
+	@media (max-width:{{ site.Params.layout.ts_width }}) {
 		/* adjust for small tall smartphone screens */
 		a,
 		blockquote,
@@ -54,17 +45,24 @@
 			font-size: 4vw;
 		}
 	}
-	
-	@media(min-width:1281px) {
-		/* adjust for very large screens (>1280px wide) 
-			so that text does not become too big */
+	@media (min-width:{{ site.Params.layout.normal_width }}) {
 		a,
 		blockquote,
 		input
 		p,
 		strong,
 		textarea {
-			font-size: 20px;
+			font-size: var(--text-size-base);
+		}
+	}
+	@media(min-width:{{ site.Params.layout.max_width }}) {
+		a,
+		blockquote,
+		input
+		p,
+		strong,
+		textarea {
+			font-size: 30px; /* prevent text from growing too large */
 		}
 	}
 	
@@ -93,7 +91,7 @@
 		padding-right: var(--page-padding-right);
 		padding-bottom: var(--page-padding-bottom);
 		padding-left: var(--page-padding-left);
-		max-width: var(--page-max-width);
+		max-width: {{ site.Params.layout.max_width }};
 		margin: auto;
 	}
 	
@@ -286,7 +284,7 @@
 		border-radius: 5px;
 		text-align: center;
 	}
-	@media (max-width:480px) {		
+	@media (max-width:{{ site.Params.layout.ts_width }}) {
 		.critical--button-primary {
 			padding: 2vw 4vw;
 			max-width: 90vw;
@@ -325,7 +323,7 @@
 		width: 80vw;
 		max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
 	}	
-	@media (max-width:480px) {		
+	@media (max-width:{{ site.Params.layout.ts_width }}) {
 		.cl-critical--content-width {
 			margin-left: var(--module-ts-column-gap);
 			margin-right: var(--module-ts-column-gap); 
@@ -341,7 +339,7 @@
 		width: 50vw;
 		max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
 	}
-	@media (max-width:480px) {
+	@media (max-width:{{ site.Params.layout.ts_width }}) {
 		/* make the narrow content look nice in small screens */
 		.cl-critical--content-width-narrow {
 			margin: 0 var(--module-ts-column-gap);

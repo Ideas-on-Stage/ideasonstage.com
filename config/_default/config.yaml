@@ -54,7 +54,15 @@ params:
           url: "/uk/"
     
     # ---------------------
-    # Layout
+    # layout
+    layout:
+        ts_width: 720px # small screens width
+        normal_width: 721px # between ts and max width
+        max_width: 1920px # maximum width
+        shorten_width: 900px # breakpoint to shorten menu entries to icon only
+    
+    # ---------------------
+    # navigation
     navigation:
         brand: "Ideas on Stage"
         brand_logo: "/img/ideas-on-stage.svg"

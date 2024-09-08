@@ -30,7 +30,7 @@
 }
 
 /* Menu for normal screens */
-@media (min-width : 768px) {
+@media (min-width : {{ site.Params.layout.normal_width }}) {
 	/* Logo */
 	.cl-navbar--brand {
 		height: var(--menubar-height);
@@ -91,14 +91,14 @@
 }
 
 /* Special menu properties for medium screens */
-@media (min-width: 768px) and (max-width : 900px) {
+@media (min-width: {{ site.Params.layout.normal_width }}) and (max-width : {{ site.Params.layout.shorten_width }}) {
 	.cl-navbar--menu-shorten {
 		display: none; /* show only icon (hide text) on medium screen widths */
 	}
 }
 
 /* Menu for ts screens */
-@media (max-width : 767px) {
+@media (max-width : {{ site.Params.layout.ts_width }}) {
 	
 	.cl-navbar {
 		position: fixed;

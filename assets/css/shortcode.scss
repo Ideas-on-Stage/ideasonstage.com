@@ -11,7 +11,7 @@
 	width: 100%;
 	height: 100%;
 }
-@media (max-width:480px) {	
+@media (max-width:{{ site.Params.layout.ts_width }}) {	
 	.cl-shortcode {
 			margin: 0 -4vw;
 			padding: 4vw;
@@ -65,7 +65,7 @@ div.cl-shortcode--img + :not(div) {
 	padding: 0;
 	text-align: center;
 }
-@media (max-width:480px) {
+@media (max-width:{{ site.Params.layout.ts_width }}) {
 	.cl-shortcode--text-centered {
 		margin: 8vw;
 	}

@@ -10,7 +10,7 @@
 	color: var(--color-bg-white-text-mid);
 	text-align: center;
 }
-@media (max-width:480px) {
+@media (max-width:{{ site.Params.layout.ts_width }}) {
 	.cl-contentshort {
 		margin: 48px var(--module-ts-column-gap);
 		width: calc(100% - var(--module-ts-column-gap) * 2);

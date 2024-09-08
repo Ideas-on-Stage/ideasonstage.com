@@ -1,4 +1,3 @@
-{{ "<!-- partials/body/pages.html:start -->" | safeHTML }}
 <section id="content-list" class="cl-critical--content-width">
 	{{ range .Pages }}
 		{{ if (isset .Params "title") }}
@@ -7,4 +6,3 @@
 		{{ end }}
 	{{ end }}
 </section>
-{{ "<!-- partials/body/pages.html:end -->" | safeHTML }}

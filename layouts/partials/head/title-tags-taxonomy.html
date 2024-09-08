@@ -1,6 +1,4 @@
-{{ "<!-- partials/head/title-tags-taxonomy.html:start -->" | safeHTML }}
 <title>
 	{{/* <!-- tag taxonomy page --> */}}
 	{{ (printf "%s | %s %s" .Title site.Title site.Params.Country) | truncate 70 }}
 </title>
-{{ "<!-- partials/head/title-tags-taxonomy.html:end -->" | safeHTML }}

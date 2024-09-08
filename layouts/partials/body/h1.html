@@ -1,21 +1,27 @@
-{{ "<!-- partials/body/h1.html:start -->" | safeHTML }}
+{{/* <!-- try to get hero picture --> */}}
 {{ $hero := partial "f/getheropicturepath.go" . }}
 {{ if $hero }}
+	{{/* <!-- create hero --> */}}
 	<header id="hero" class="bg-black cl-h1--hero">
-		{{/* <!-- get hero picture if there is one available --> */}}
 		{{ $srcset := partial "f/getpicturesrcset.go" $hero }}
 		<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }} class="cl-h1--hero-img">
-		<div class="cl-h1--hero-title-container">
-			<h1 class="cl-h1--hero-title">{{ "<!-- picture and h2 -->" | safeHTML }}
-				{{ with .Title }}{{ . | markdownify }}{{ end }}
-			</h1>
-		</div>
+		{{ with .Title }}
+			<div class="cl-h1--hero-title-container">
+				<h1 class="cl-h1--hero-title">
+					{{ . | markdownify }}
+				</h1>
+			</div>
+		{{ else }}
+			{{ partial "e/html-comment.html" "skipped: h1: no .Title for hero" }}
+		{{ end }}
 	</header>
 {{ else if .Title }}
+	{{/* <!-- create standard title --> */}}
 	<header id="title" class="cl-h1">
 		<h1>
 			{{ with .Title }}{{ . | markdownify }}{{ end }}
 		</h1>
 	</header>
+{{ else }}
+	{{ partial "e/html-comment.html" "skipped: h1: no hero picture (hero.jpg or .Params.picture) and no .Title" }}
 {{ end }}
-{{ "<!-- partials/body/h1.html:end -->" | safeHTML }}

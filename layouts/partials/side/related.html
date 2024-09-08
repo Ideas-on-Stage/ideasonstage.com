@@ -1,4 +1,4 @@
-{{ "<!-- partials/inserts/sidebar-related.html:start -->" | safeHTML }}
+{{ "<!-- partials/side/related.html:start -->" | safeHTML }}
 {{ $related := site.RegularPages.Related page | first 3 }}
 {{ with $related }}
 	<h2>
@@ -14,4 +14,4 @@
 		{{ end }}
 	</ul>
 {{ end }}
-{{ "<!-- partials/inserts/sidebar-related.html:end -->" | safeHTML }}
+{{ "<!-- partials/side/related.html:end -->" | safeHTML }}

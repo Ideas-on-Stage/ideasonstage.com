@@ -1,15 +1,15 @@
-{{ "<!-- partials/body/breadcrumbs.html:start -->" | safeHTML }}
-{{ if (not .Parent.IsHome) }} {{/* <!-- show only if 2 levels of depth --> */}}
+{{ if and (not .IsHome) (not .Parent.IsHome) }}
+	{{/* <!-- then at least 2 levels of depth, show breadcrumbs --> */}}
 	<aside id="breadcrumbs" class="cl-breadcrumbs">
 		<div class="cl-critical--content-width">
-		{{ "<!-- partials/revolution/breadcrumbs.html -->" | safeHTML }}
 			<ol class="cl-breadcrumbs--list">
 				{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
 			</ol>
 		</div>
 	</aside>
+{{ else }}
+	{{ "<!-- skipped: no breadcrumbs on home or 1st level section -->" | safeHTML }}
 {{ end }}
-{{ "<!-- partials/body/breadcrumbs.html:end -->" | safeHTML }}
 
 
 

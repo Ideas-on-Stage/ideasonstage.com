@@ -128,7 +128,7 @@
 		height: var(--module-height);
 	}
 	
-	@media (max-width:480px) {
+	@media (max-width:{{ site.Params.layout.ts_width }}) {
 		
 		.layout-module-group {
 			margin: var(--module-ts-row-gap) 0;
@@ -379,7 +379,7 @@
 		
 	}
 	
-	@media (max-width:480px) {
+	@media (max-width:{{ site.Params.layout.ts_width }}) {
 		
 		/* on ts screens, use a width of 100% for these sizes */
 		.flex-child-100p,
@@ -493,7 +493,7 @@
 	}
 	
 	
-	@media (max-width:480px) {
+	@media (max-width:{{ site.Params.layout.ts_width }}) {
 		
 		/* change flex-direction to column on tall smartphone screens */
 		.flex-parent-column-ontall {
@@ -683,7 +683,7 @@
 		padding-bottom: 2.0em;
 		width: 100%;
 	}
-	@media (max-width:480px) {
+	@media (max-width:{{ site.Params.layout.ts_width }}) {
 		.cl-testimonials {
 			padding-bottom: 1.0em;
 		}
@@ -716,7 +716,7 @@
 	.cl-testimonials--item:last-child {
 		margin-right: 2vw;
 	}		
-	@media (max-width:480px) {	
+	@media (max-width:{{ site.Params.layout.ts_width }}) {	
 		.cl-testimonials--item {
 			flex-basis: 70vw;
 		}
@@ -739,15 +739,15 @@
 	}
 	
 	.cl-testimonials--picture {
-		flex-basis: 20%;
-		width: 100%;
-		height: 100%;
+		flex-basis: 60px;
+		width: 60px;
+		height: 60px;
 		object-fit: contain;
 	}
 	.cl-testimonials--picture img {
-	width: 100%;
-	height: 100%;
-	border-radius: 30px;
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
 	}
 	
 	.cl-testimonials--text {

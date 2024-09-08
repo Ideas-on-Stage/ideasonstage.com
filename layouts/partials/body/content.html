@@ -1,9 +1,10 @@
-{{ "<!-- partials/body/content.html:start -->" | safeHTML }}
 <div class="cl-critical--content-width cl-critical--content-space-v cl-content">
 	{{ if partial "f/getblocks.go" "side" }}
 		<aside id="sidebar" class="cl-content--sidebar">
 			{{ partial "e/blocks" "side" }}
 		</aside>
+	{{ else }}
+		{{ partial "e/html-comment.html" "skipped: sidebar: no elements to show" }}
 	{{ end }}
 	<main id="main" role="main" class="cl-content--main">
 		<article id="article">
@@ -11,4 +12,3 @@
 		</article>
 	</main>
 </div>
-{{ "<!-- partials/body/content.html:end -->" | safeHTML }}

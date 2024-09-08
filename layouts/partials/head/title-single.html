@@ -1,4 +1,3 @@
-{{ "<!-- partials/head/title-single.html:start -->" | safeHTML }}
 <title>
 	{{ if .Params.Title }}
 		{{/* <!-- Front matter title if defined for page --> */}}
@@ -8,4 +7,3 @@
 		{{ (printf "%s %s" site.Title site.Params.Country) | truncate 70 }}
 	{{ end }}
 </title>
-{{ "<!-- partials/head/title-single.html:end -->" | safeHTML }}

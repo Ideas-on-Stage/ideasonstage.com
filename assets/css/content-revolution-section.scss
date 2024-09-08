@@ -102,7 +102,7 @@
 	box-sizing: border-box;
 }
 
-@media (max-width:480px) {
+@media (max-width:{{ site.Params.layout.ts_width }}) {
 	.cl-content-revolution-section--box {
 		max-width: 100%;
 		box-sizing: border-box;

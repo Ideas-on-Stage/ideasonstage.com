@@ -1,7 +1,5 @@
-{{ "<!-- partials/head/meta-desc-section.html:start -->" | safeHTML }}
 {{ $desc := .Description }}
 {{ if ge .Paginator.PageNumber 2 }}
 	{{ $desc = printf "%s | Page %s" .Description (string .Paginator.PageNumber) }}
 {{ end }}
 <meta name="description" property="og:description"  content="{{ $desc }}">
-{{ "<!-- partials/head/meta-desc-section.html:end -->" | safeHTML }}

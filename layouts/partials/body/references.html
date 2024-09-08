@@ -1,4 +1,3 @@
-{{ "<!-- partials/body/references:start -->" | safeHTML }}
 {{ with .Params.datareferencelist }}
 	<section id="reference-list" class="layout-module-group margin bg-white">
 		<div class="flex-parent flex-parent-row flex-parent-gap flex-parent-justify-start">
@@ -16,5 +15,6 @@
 			{{ end }}
 		</div>
 	</section>
+{{ else }}
+	{{ partial "e/html-comment.html" "skipped: references: no .Params.datareferencelist" }}
 {{ end }}
-{{ "<!-- partials/body/references:end -->" | safeHTML }}

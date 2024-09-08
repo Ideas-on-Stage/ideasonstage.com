@@ -18,7 +18,7 @@
 	text-transform: uppercase;
 	gap: 0.5em;
 }
-@media (max-width:480px) {
+@media (max-width:{{ site.Params.layout.ts_width }}) {
 	.cl-breadcrumbs--list {
 		padding: 2vw 0;
 	}
