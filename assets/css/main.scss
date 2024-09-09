@@ -18,7 +18,7 @@
 	/* Use this to create a full width module div */
 	.layout-module {
 		display: flex;
-		height: var(--module-height); /* defines the fixed height of the module */
+		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
 		width: calc(100% - 0px);
 		max-height: calc( var(--page-max-width) / 100 * 40 );
 		max-width: var(--page-max-width);
@@ -125,7 +125,7 @@
 	
 	.layout-module .layout-module-layer,
 	.layout-module-half .layout-module-layer {
-		height: var(--module-height);
+		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
 	}
 	
 	@media (max-width:{{ site.Params.layout.ts_width }}) {

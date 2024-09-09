@@ -23,9 +23,9 @@
 	width: calc( 67% - var(--module-big-gap) / 2 );	/* reduce main content width when there is a sidebar */
 }
 /* h1 should be in <header> title, not in content */
-.cl-content--main > h2,
-.cl-content--main > h3,
-.cl-content--main > h4 {
+.cl-content--main h2,
+.cl-content--main h3,
+.cl-content--main h4 {
 	margin-top: 2em;
 	margin-bottom: 0.5em;
 	scroll-margin-top: calc(var(--menubar-height) + 48px);
@@ -33,7 +33,7 @@
 .cl-content--main li {
 	line-height: 1.6em;
 }
-.cl-content--main > blockquote {
+.cl-content--main blockquote {
 	background: #f5f5f5;
 	border-radius: 0px;
 	margin: 2vw -2vw;
@@ -41,7 +41,7 @@
 	color: var(--color-blockquote);
 	border-left: 4px var(--color-secondary) solid;
 }
-.cl-content--main > p > img {
+.cl-content--main p img {
 	display: block;
 	margin-top: 48px;
 	margin-bottom: 48px;
@@ -130,6 +130,10 @@
 	margin: 1em 16px;
 	font-size: 0.8em;
 }
+.cl-content--sidebar li a {
+	font-size: 1em;
+}
+
 
 .cl-content--sidebar ul {
 	list-style-type: none;

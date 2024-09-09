@@ -38,7 +38,8 @@
 		/* adjust for small tall smartphone screens */
 		a,
 		blockquote,
-		input
+		input,
+		li,
 		p,
 		strong,
 		textarea {
@@ -48,7 +49,8 @@
 	@media (min-width:{{ site.Params.layout.normal_width }}) {
 		a,
 		blockquote,
-		input
+		input,
+		li,
 		p,
 		strong,
 		textarea {
@@ -58,7 +60,7 @@
 	@media(min-width:{{ site.Params.layout.max_width }}) {
 		a,
 		blockquote,
-		input
+		input,
 		p,
 		strong,
 		textarea {
@@ -153,6 +155,7 @@
 		line-height: 1.2em;
 		margin-block-start: 0;
 		margin-block-end: 0;
+		scroll-margin-top: calc(var(--menubar-height) + 48px);
 	}
 
 	li {

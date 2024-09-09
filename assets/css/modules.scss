@@ -82,6 +82,7 @@
 
 .cl-modules--text h3 {
 	font-size: 1.8em;
+	margin-top: 0;
 }
 
 @media (max-width:{{ site.Params.layout.ts_width }}) {
