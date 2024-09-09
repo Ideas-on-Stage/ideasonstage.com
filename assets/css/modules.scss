@@ -12,25 +12,37 @@
 .cl-modules--half {
 	display: flex;
 	flex-direction: column;
-	height: var(--module-height); /* defines the fixed height of the module */
+	height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
 	width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
+	max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
+	max-width: calc( ( var(--page-max-width) - var(--module-column-gap) ) / 2 - 0.001px);
+	overflow: hidden;
 }
-
 .cl-modules--column {
 	display: flex;
 	flex-direction: column;
-	height: var(--module-height); /* defines the fixed height of the module */
+	height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
 	width: calc(100% - 0.001px);
-	max-height: calc( var(--page-max-width) / 100 * 40 );
+	max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
 	max-width: var(--page-max-width);
 	overflow: hidden;
 }
+/* Use this to create a full width module div */
+.cl-modules--row {
+	display: flex;
+	flex-direction: row;
+	height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
+	width: calc(100% - 0.001px);
+	max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
+	max-width: var(--page-max-width);
+	overflow: hidden;
+}
+
 /* use to create inner div with text on top */
 .cl-modules--column-text {
 	position: relative;	/* enables z-index */
 	z-index: 10; /* if text overflows, it will go over picture below */
-	padding: 2vw 4vw;
-	margin: auto;
+	padding: 2em;
 	height: 50%;
 	width: 100%;
 	text-align: center;
@@ -47,16 +59,6 @@
 	object-position: 50% 100%; /* anchor on bottom, horizontal center */
 }
 
-/* Use this to create a full width module div */
-.cl-modules--row {
-	display: flex;
-	flex-direction: row;
-	height: var(--module-height); /* defines the fixed height of the module */
-	width: calc(100% - 0.001px);
-	max-height: calc( var(--page-max-width) / 100 * 40 );
-	max-width: var(--page-max-width);
-	overflow: hidden;
-}
 /* use to create inner div with the pic on left */
 .cl-modules--row-image {
 	height: 100%;
@@ -71,7 +73,7 @@
 }
 /* use to create inner div with text on right */
 .cl-modules--row-text {
-	padding: 4vw;
+	padding: 2em;
 	width: 36%;
 	display: flex;
 	flex-direction: column;
@@ -91,23 +93,17 @@
 	}
 
 	.cl-modules--column {
-		height: var(--module-ts-height);
 		width: 100%;
-	}
-	.cl-modules--column-text {
-		padding: 8vw;
 	}
 	.cl-modules--column-image img {
 		object-fit: cover; /* use cover instead of contain on ts screens */
 	}
 	
 	.cl-modules--half {
-		height: var(--module-ts-height);
 		width: 100%; /* make half width modules full width on ts screens */
 	}
 	
 	.cl-modules--row {
-		height:  var(--module-ts-height);
 		width: 100%;
 		flex-direction: column-reverse;
 		justify-content: space-between;
@@ -117,17 +113,9 @@
 		width: 100%;
 	}
 	.cl-modules--row-text {
-		padding: 8vw;
 		height: 50%;
 		width: 100%;
 		text-align: center;
 	}
 
-}
-@media (min-width:{{ site.Params.layout.max_width }}) {
-	.cl-modules--column,
-	.cl-modules--row,
-	.cl-modules--half {
-		height:  780px;
-	}
 }
