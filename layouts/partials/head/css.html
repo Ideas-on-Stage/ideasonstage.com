@@ -2,8 +2,8 @@
 <style type="text/css">
 	{{- $variables := resources.Get "css/variables.scss" | resources.ExecuteAsTemplate "variables.css" . | resources.ToCSS | resources.Minify -}}
 	{{- $variables.Content | safeCSS -}}
-	{{- $critical := resources.Get "css/critical.scss" | resources.ExecuteAsTemplate "critical.css" . | resources.ToCSS | resources.Minify -}}
-	{{- $critical.Content | safeCSS -}}
+	{{- $core := resources.Get "css/core.scss" | resources.ExecuteAsTemplate "core.css" . | resources.ToCSS | resources.Minify -}}
+	{{- $core.Content | safeCSS -}}
 	{{- $navbar := resources.Get "css/navbar.scss" | resources.ExecuteAsTemplate "navbar.css" . | resources.ToCSS | resources.Minify -}}
 	{{- $navbar.Content | safeCSS -}}
 </style>

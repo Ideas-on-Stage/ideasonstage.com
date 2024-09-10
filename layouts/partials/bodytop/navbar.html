@@ -1,4 +1,4 @@
-<nav class="bg-dark cl-navbar">
+<nav class="cl-navbar">
 	
 	<!-- logo -->
 	{{ $home := site.BaseURL }}
@@ -20,7 +20,7 @@
 	<input type="checkbox" id="drop" class="cl-navbar--menu-checkbox"/>
 			
 	<!-- iosmenu start -->
-	<ul class="bg-dark cl-navbar--menu">
+	<ul class="cl-navbar--menu">
 		<!-- Menubar Menu Items -->
 		{{ range site.Params.navbar }}
 			<li class="cl-navbar--menu-item">
@@ -37,7 +37,7 @@
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Search">
 			</label>
 			<input type="checkbox" id="drop-search" class="cl-navbar--menu-checkbox"/>
-			<ul class="bg-dark cl-navbar--menu-dropdown">
+			<ul class="cl-navbar--menu-dropdown">
 				<li id="fastSearch" class="cl-navbar--menu-dropdown-item">
 					<input id="searchInput" class="cl-fastsearch--input" tabindex="0">
 				</li>
@@ -60,7 +60,7 @@
 				</span>
 			</label>
 			<input type="checkbox" id="drop-languages" class="cl-navbar--menu-checkbox"/>
-			<ul class="bg-dark cl-navbar--menu-dropdown">
+			<ul class="cl-navbar--menu-dropdown">
 				{{ if .IsTranslated }}
 					{{ range .AllTranslations }}
 						{{ if ne (site.LanguageCode | lower) (.Lang | lower) }}

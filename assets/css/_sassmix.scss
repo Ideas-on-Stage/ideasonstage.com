@@ -1,0 +1,108 @@
+/* @group SASS mixins */
+
+	@mixin font-primary($style: bold) {
+		font-family: "Gotham SSm A", "Gotham SSm B";
+		font-style: $style;
+	}
+	
+	@mixin font-secondary($style: normal) {
+		font-family: "Whitney SSm A", "Whitney SSm B";
+		font-style: $style;
+	}
+	
+	@mixin scheme-black {
+		background-color: var(--color-bg-black);
+		color: var(--color-bg-black-text);
+		
+		a {
+			color: var(--color-bg-black-link);
+		}
+		a:hover {
+			color: var(--color-bg-black-link-hover);
+			transition: all .35s;
+		}
+	}
+	
+	@mixin scheme-dark {
+		background-color: var(--color-bg-dark);
+		color: var(--color-bg-dark-text);
+		
+		a {
+			color: var(--color-bg-dark-link);
+		}
+		
+		a:hover {
+			color: var(--color-bg-dark-link-hover);
+			transition: all .35s;
+		}
+	}
+	
+	@mixin scheme-light {
+		background-color: var(--color-bg-light);
+		color: var(--color-bg-light-text);
+		
+		a {
+			color: var(--color-bg-light-link);
+		}
+		
+		a:hover {
+			color: var(--color-bg-light-link-hover);
+		}
+	}
+	
+	@mixin scheme-primary {	
+		background-color: var(--color-bg-primary);
+		color: var(--color-bg-primary-text);
+		
+		a {
+			color: var(--color-bg-primary-link);
+			transition: all .35s;
+		}
+		
+		a:hover {
+			color: var(--color-bg-primary-link-hover);
+			transition: all .35s;
+		}
+	}
+
+	@mixin scheme-secondary {	
+		background-color: var(--color-bg-secondary);
+		color: var(--color-bg-secondary-text);
+		
+		a {
+			color: var(--color-bg-secondary-link);
+			transition: all .35s;
+		}
+		
+		a:hover {
+			color: var(--color-bg-secondary-link-hover);
+			transition: all .35s;
+		}
+	}
+	
+	@mixin scheme-codingandbricks	{
+		background-color: #233B4C;
+		color: #FFD500;
+		
+		a {
+			color: #FFD500!important;
+		}
+		
+		a:hover {
+			color: #FFD500;
+			transition: all .35s;
+		}
+	}
+	
+/* @end */
+
+@mixin scheme-navbar {
+	@include scheme-dark;
+}
+@mixin font-navbar {
+	@include font-primary;
+}
+
+@mixin scheme-404 {
+	@include scheme-dark;
+}

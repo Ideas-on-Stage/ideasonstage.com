@@ -1,3 +1,5 @@
+@import 'sassmix';
+
 .cl-404 {
 	height: calc(100vh - var(--menubar-height));
 	width: calc(100% - 0px);
@@ -5,15 +7,14 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--color-bg-dark);
+	@include scheme-404;
 }
 
 .cl-404--title {
-	color: var(--color-bg-dark-text);
+	margin-top: 1em;
 	text-align: center;
 }
 
 .cl-404--text {
-	color: var(--color-bg-dark-text);
 	text-align: center;
 }
