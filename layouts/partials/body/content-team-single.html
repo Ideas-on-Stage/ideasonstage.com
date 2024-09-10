@@ -5,7 +5,7 @@
 				<img src="{{ .picture }}" class="cl-content--style-photograph" alt="{{ .name }}">
 			{{ end }}
 		</div>
-		<div class="cl-content--main">
+		<div class="cl-content--main cl-content--main-content">
 			<h1>{{ .Params.name }}</h1>
 			<p class="cl-content-team-single--title">{{ .Params.position }}</p>
 			{{ with .Content }}{{ . | markdownify }}{{ end }}

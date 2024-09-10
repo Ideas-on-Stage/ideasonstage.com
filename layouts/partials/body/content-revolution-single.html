@@ -5,26 +5,20 @@
 		</div>
 	</aside>
 	<main id="main" role="main" class="cl-content--main">
-		<article id="article">
-			{{ partial "e/tags.html" . }}
-			<div id="content-main" class="flex-parent flex-parent-row">
-				<p class="text-muted">
-					{{ if isset .Params "author" }}
-						{{ .Site.Params.news.by }}
-						<a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">
-							{{ .Params.author }}
-						</a>
-					{{ end }}
-					<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-						{{ partial "f/getdate.go" .Date }}
-					</time> 
-				</p>
-			</div>
-			<div class="flex-parent-row paddingt-tiny">
-				<div id="post-content">
-					{{ with .Content }}{{ . }}{{ end }}
-				</div>
-			</div>
+		{{ partial "e/tags.html" . }}
+		<article id="article" class="cl-content--main-content">
+			<p class="text-muted">
+				{{ if isset .Params "author" }}
+					{{ .Site.Params.news.by }}
+					<a href="{{ (index .Site.Params.navigation.items "004").url }}{{ .Params.author | urlize }}">
+						{{ .Params.author }}
+					</a>
+				{{ end }}
+				<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+					{{ partial "f/getdate.go" .Date }}
+				</time> 
+			</p>
+			{{ with .Content }}{{ . }}{{ end }}
 		</article>
 	</main>
 </div>

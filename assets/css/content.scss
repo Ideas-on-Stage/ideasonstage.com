@@ -10,8 +10,13 @@
 	gap: var(--module-big-gap);
 }
 .cl-content--main {
+	width: 100%;
 }
-.cl-content--main img {
+.cl-content--sidebar + .cl-content--main {
+	width: calc( 67% - var(--module-big-gap) / 2 );	/* reduce main content width when there is a sidebar */
+}
+
+.cl-content--main-content > img {
 	display: block; /* prevent line height from being added to div height */
 	margin: 0;
 	padding: 0;
@@ -19,21 +24,18 @@
 	height: auto;
 	object-fit: contain;
 }
-.cl-content--sidebar + .cl-content--main {
-	width: calc( 67% - var(--module-big-gap) / 2 );	/* reduce main content width when there is a sidebar */
-}
 /* h1 should be in <header> title, not in content */
-.cl-content--main h2,
-.cl-content--main h3,
-.cl-content--main h4 {
+.cl-content--main-content > h2,
+.cl-content--main-content > h3,
+.cl-content--main-content > h4 {
 	margin-top: 2em;
 	margin-bottom: 0.5em;
 	scroll-margin-top: calc(var(--menubar-height) + 48px);
 }
-.cl-content--main li {
+.cl-content--main-content > li {
 	line-height: 1.6em;
 }
-.cl-content--main blockquote {
+.cl-content--main-content > blockquote {
 	background: #f5f5f5;
 	border-radius: 0px;
 	margin: 2vw -2vw;
@@ -41,7 +43,7 @@
 	color: var(--color-blockquote);
 	border-left: 4px var(--color-secondary) solid;
 }
-.cl-content--main p img {
+.cl-content--main-content > p > img {
 	display: block;
 	margin-top: 48px;
 	margin-bottom: 48px;
@@ -50,19 +52,19 @@
 	max-width: 100%; /* ensures img are shown at max content width */
 }
 
-.cl-content--main table {
+.cl-content--main-content > table {
 	border: 1px solid #ddd;
 	border-collapse: collapse;
 }
-.cl-content--main thead {
+.cl-content--main-content thead {
 	border: none;
 }
-.cl-content--main td {
+.cl-content--main-content td {
 	padding: 1vw;
 	width: auto;
 	border: 1px solid #ddd;
 }
-.cl-content--main th {
+.cl-content--main-content th {
 	padding: 1vw;
 	width: auto;
 	min-width: 120px; /* small columns will have the same size */
@@ -73,21 +75,20 @@
 	.cl-content {
 		flex-direction: column-reverse;
 	}
-	.cl-content--main,
 	.cl-content--sidebar + .cl-content--main {
 			width: 100%; /* set main content width to 100% on ts screens */
 	}
-	.cl-content--main th {
+	.cl-content--main-content th {
 		min-width: 50px;
 	}
 }
 
 /* .cl-content adapt margin-top and bottom */
-.cl-content--main > :first-child {
+.cl-content--main-content > :first-child {
 	/* remove top margin from first element of content */
 	margin-top: 0;
 }
-.cl-content--main > :last-child {
+.cl-content--main-content > :last-child {
 	/* remove bottom margin from last element of content */
 	margin-bottom: 0;
 }
