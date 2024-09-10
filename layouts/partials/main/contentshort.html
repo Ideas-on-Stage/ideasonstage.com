@@ -1,9 +1,7 @@
 {{ with .Content }}
-<main id="contentshort" class="cl-contentshort">
-	<article id="article">
+	<article id="article" class="cl-contentshort">
 		{{ . }}
 	</article>
-</main>
 {{ else }}
 	{{ partial "e/html-comment.html" "skipped: contentshort: no content" }}
 {{ end }}

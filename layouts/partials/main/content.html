@@ -1,16 +1,18 @@
-{{ if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
-	{{ with .Params.summary }}
-		<p>
+<article id="article" class="cl-content--main-content">
+	{{ if or (.Params.showtoc) (and (eq "guides" .Section ) (.IsPage))}}
+		{{ with .Params.summary }}
+			<p>
+				{{ . }}
+			</p>
+		{{ end }}
+		<h2>
+			{{ site.Params.tableofcontents }}
+		</h2>
+		{{ with .TableOfContents }}
 			{{ . }}
-		</p>
+		{{ end }}
 	{{ end }}
-	<h2>
-		{{ site.Params.tableofcontents }}
-	</h2>
-	{{ with .TableOfContents }}
+	{{ with .Content }}
 		{{ . }}
 	{{ end }}
-{{ end }}
-{{ with .Content }}
-	{{ . }}
-{{ end }}
+<article id="article" class="cl-content--main-content">

@@ -100,12 +100,14 @@ _default:
         body:
             - h1home
             - cta
-            - modules
-            - contentshort
+            - contentwide
             - references
             - modules-aside
             - testimonials
             - location
+        main:
+            - modules
+            - contentshort
 
 
 # page.Type "404"
@@ -235,8 +237,10 @@ team:
             - title-section
         body:
             - h1
+            - contentwide
+        main:
             - contentshort
-            - pages-team
+            - team
     page:
         head:
             - meta-desc-team-single

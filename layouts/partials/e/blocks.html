@@ -3,10 +3,16 @@
 {{ $blocks := partial "f/getblocks.go" $part }}
 {{ range $blocks }}
 	{{ $partial := printf "%s/%s.html" $part . }}
+	{{ $path := printf "/layouts/partials/%s" $partial }}
 	{{ $commentstart := printf "<!-- %s:start -->" $partial }}
 	{{ $commentstart | safeHTML }}
-	{{ partial $partial page }}
+	{{ if fileExists $path }}
+		{{ partial $partial page }}
+	{{ else }}
+		{{ (printf "<!-- partial file %s not found -->" $partial) | safeHTML }}
+	{{ end }}
 	{{ $commentend := printf "<!-- %s:end -->" $partial }}
 	{{ $commentend | safeHTML }}
+	
 {{ end }}
 {{ "<!-- partials/e/blocks.html:end -->" | safeHTML }}
