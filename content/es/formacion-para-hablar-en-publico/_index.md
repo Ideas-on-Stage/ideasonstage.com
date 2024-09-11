@@ -25,6 +25,6 @@ Cualquier presentación debe ser hecha a medida para un público concreto. De ig
 Nuestro enfoque orientando a resultados persigue conseguir un cambio permanente en tu forma de presentar y en la de tu equipo. Nuestros cursos son eminentemente prácticos para que los participantes puedan aprender Y asimilar nuestras técnicas. En cada curso entregamos materiales detallados para guiar a los participantes a la hora de preparar su próxima presentación. Y también podemos incluir sesiones individuales de acompañamiento para los participanes en las semanas posteriores al curso, para ayudarles a prepararse y ensayar mientras ponen en práctica las nuevas técnicas. ¡Nuestros cursos son sólo el comienzo del viaje!
 {{< /text2-picture1 >}}
 
-{{< picture1-text2 picture="formacion.es.jpg" title="Presentaciones de negocios, en estilo TED" >}}
+{{< picture1-text2 picture="formacion.jpg" title="Presentaciones de negocios, en estilo TED" >}}
 Las presentaciones de negocios no son espectáculos, pero las empresas pueden aprender mucho de las presentaciones TED y Apple. Como líderes en este moderno estilo de presentar, con cientos de charlas a nuestras espaldas en eventos TED(x) por todo el mundo, Ideas on Stage es el socio ideal para ayudarte a aplicar un poco de magia-TED a tus presentaciones.
 {{< /picture1-text2 >}}

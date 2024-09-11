@@ -2,7 +2,7 @@
 
 .cl-404 {
 	height: calc(100vh - var(--menubar-height));
-	width: calc(100% - 0px);
+	width: calc(100% - 0.001px);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

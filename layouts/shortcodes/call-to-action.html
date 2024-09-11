@@ -1,26 +1,16 @@
 {{ "<!-- shortcodes:call-to-action.html:start -->" | safeHTML }}
-<div class="cl-shortcode {{ with .Params.style }}{{ . }}{{ end }}">
-	<div class="flex-parent flex-parent-column flex-parent-gap">
-		{{ if .Params.title }}
-		<div class="cl-shortcode-child flex-child">
-			<h3 class="text-center">{{ .Params.title }}</h3>
-		</div>
-		{{ end }}
-		{{ if .Params.picture }}
-		<div class="cl-shortcode-child flex-child flex-child-align-center">
-			<img src="{{ .Params.picture }}" class="center" height="192px" alt="{{ .Params.title }}">
-		</div>
-		{{ end }}
-		{{ if .Params.subtitle }}
-		<div class="cl-shortcode-child flex-child">
-			<p class="text-center">{{ .Params.subtitle }}</p>
-		</div>
-		{{ end }}
-		{{ if .Params.button }}
-		<div class="cl-shortcode-child flex-child flex-child-align-center paddingv-tiny text-center">
-			<a href="{{ .Params.link }}" class="critical--button-primary">{{ .Params.button }}</a>
-		</div>
-		{{ end }}
-	</div>
+<div class="cl-shortcode cl-shortcode--call-to-action {{ with .Params.style }}{{ . }}{{ end }}">
+	{{ with .Params.title }}
+		<h3>{{ . }}</h3>
+	{{ end }}
+	{{ if .Params.picture }}
+		<img src="{{ .Params.picture }}" height="192px" alt="{{ .Params.title }}">
+	{{ end }}
+	{{ with .Params.subtitle }}
+		<p>{{ . }}</p>
+	{{ end }}
+	{{ if .Params.button }}
+		<a href="{{ .Params.link }}" class="critical--button-primary">{{ .Params.button }}</a>
+	{{ end }}
 </div>
 {{ "<!-- shortcodes:call-to-action.html:end -->" | safeHTML }}

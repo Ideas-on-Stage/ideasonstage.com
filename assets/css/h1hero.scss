@@ -3,7 +3,7 @@
 	z-index: 100;
 	display: flex;
 	justify-content: center;
-	padding: 2vw;
+	padding: 1em;
 	background-color: var(--color-bg-dark);
 	color: var(--color-bg-dark-text);
 	text-align: center;
@@ -23,7 +23,7 @@
 		object-fit: cover;
 	}
 
-	.title {	
+	.title {
 		position: absolute;
 		height: inherit;
 		width: inherit;
@@ -36,7 +36,7 @@
 			z-index: 100;
 			display: flex;
 			justify-content: center;
-			padding: 2vw;
+			padding: 1em;
 			text-align: center;
 			background-color: rgba(0, 0, 0, 0.4);	
 		}

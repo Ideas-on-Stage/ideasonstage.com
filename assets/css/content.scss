@@ -1,5 +1,9 @@
 @import "sassmix";
+@import "content-variables";
 @import 'shortcode';
+
+$text-font-family: "Times", "Serif" !default;
+$title-font-family: "Helvetica Neue", "Sans Serif" !default;
 
 .cl-content {
 	padding: 0;
@@ -26,9 +30,6 @@
 }
 
 .cl-content--main-content {
-}
-
-.cl-content--main-content {
 
 	> :first-child {
 		margin-top: 0;
@@ -38,18 +39,28 @@
 	}
 	
 	> blockquote {
+		font-family: $text-font-family;
 		background: #f5f5f5;
 		border-radius: 0px;
-		margin: 2vw -2vw;
-		padding: 2vw;
+		margin: 1em 0;
+		padding: 1em;
 		color: var(--color-blockquote);
 		border-left: 4px var(--color-secondary) solid;
+		
+		> :first-child {
+			margin-top: 0;
+		}
+		> :last-child {
+			margin-bottom: 0;
+		}
+		
 	}
 	
 	/* h1 should be in <header> title, not in content, so it is not styled */
 	> h2,
 	> h3,
 	> h4 {
+		font-family: $title-font-family;
 		margin-top: 2em;
 		margin-bottom: 1em;
 		scroll-margin-top: calc(var(--menubar-height) + 48px);
@@ -65,8 +76,12 @@
 		object-fit: contain;
 	}
 	
+	> ul {
+		list-style-type: square;
+	}	
 	> ol,
 	> ul {
+		font-family: $text-font-family;
 		margin-top: 0;
 		margin-bottom: 0;
 		
@@ -79,14 +94,19 @@
 	}
 
 	> p {
+		font-family: $text-font-family;
 		margin-top: 1.6em;
 		margin-bottom: 0em;
 		line-height: 1.6em;
-	
+		
+		> a {
+			font-family: $text-font-family;
+		}
+		
 		> img {
 			display: block;
-			margin-top: 48px;
-			margin-bottom: 48px;
+			margin-top: 3em;
+			margin-bottom: 3em;
 			width: auto;
 			height: auto;
 			max-width: 100%; /* ensures img are shown at max content width */
@@ -94,6 +114,7 @@
 	}
 	
 	> table {
+		font-family: $text-font-family;
 		border: 1px solid #ddd;
 		border-collapse: collapse;
 		
@@ -102,13 +123,13 @@
 		}
 		
 		> td {
-			padding: 1vw;
+			padding: 1em;
 			width: auto;
 			border: 1px solid #ddd;
 		}
 		
 		> th {
-			padding: 1vw;
+			padding: 1em;
 			width: auto;
 			min-width: 120px; /* small columns will have the same size */
 			border: 1px solid #ddd;
@@ -127,37 +148,46 @@
 /* content sidebar */
 
 .cl-content--sidebar {
-	width: 33%;
-	max-height: 90vh;
+	width: calc( 33% - var(--module-big-gap) * 2 );
 	background-color: var(--color-lightgray);
 	@media (max-width: $sm-screen) {
-		position: static;
 		width: 100%;
 	}
-	@media (min-width: $lg-screen) {
-		position: sticky;
-		z-index: 900;
-		top: calc(var(--menubar-height) + 1.6em + .4vw);
-		width: calc( 33% - var(--module-big-gap) );
+	
+	a {
+		font-family: $text-font-family;
+		font-size: 1em;
 	}
 	
 	img {
 		display: block;
 		max-width: 100%; /* prevent overflow from container */
 	}
+	
 	h2 {
-		margin: 1em 16px 0.5em 16px;
+		font-family: $title-font-family;
+		margin: 1em 1em 0.5em 1em;
 		font-size: 1em;
 	}
-	li,
-	p {
-		margin: 1em 16px;
+	
+	li {
+		font-family: $text-font-family;
+		margin: 1em;
 		font-size: 0.8em;
 	}
-	li a {
-		font-size: 1em;
+
+	p {
+		font-family: $text-font-family;
+		margin: 1em;
+		font-size: 0.8em;
 	}
+	
+	ol {
+		font-family: $text-font-family;
+	}
+	
 	ul {
+		font-family: $text-font-family;
 		list-style-type: none;
 		padding: 0; /* remove left space on lists */
 		margin: 0;

@@ -30,7 +30,6 @@
 
 /* @group FONT SIZES */
 
-
 a,
 blockquote,
 input,
@@ -38,21 +37,65 @@ li,
 p,
 strong,
 textarea {
-	font-size: var(--text-size-base);
+	font-size: calc( var(--text-size) * var(--text-ratio-md) );
 	@media (max-width: $sm-screen) {
-		font-size: 4vw;
+		font-size: calc( var(--text-size) * 2vw );
 	}
 	@media(min-width: $lg-screen) {
-		font-size: 30px; /* prevent text from growing too large */
+		font-size: calc( #{$lg-screen} / 100 * var(--text-size) ); /* prevent text from growing too large */
 	}
 }
 	
-	/* standad tags font sizes, in em, so it is relative to base font size */
-	h1	{ font-size: 2.00rem;	}
-	h2	{ font-size: 1.75rem;	}
-	h3	{ font-size: 1.25rem;	}
-	h4	{ font-size: 1.00rem;	}
-	h5	{ font-size: 1.00rem;	}
+/* standad tags font sizes, in em, so it is relative to base font size */
+h1 {
+	font-size: calc( var(--text-size-h1) * var(--text-ratio-md) );
+	@media (max-width: $sm-screen) {
+		font-size: calc( var(--text-size-h1) * var(--text-ratio-sm) );
+	}
+	@media(min-width: $lg-screen) {
+		font-size: calc( #{$lg-screen} / 100 * var(--text-size-h1) ); /* prevent text from growing too large */
+	}
+}
+
+h2 {
+	font-size: calc( var(--text-size-h2) * var(--text-ratio-md) );
+	@media (max-width: $sm-screen) {
+		font-size: calc( var(--text-size-h2) * var(--text-ratio-sm) );
+	}
+	@media(min-width: $lg-screen) {
+		font-size: calc( #{$lg-screen} / 100 * var(--text-size-h2) ); /* prevent text from growing too large */
+	}
+}
+
+h3 {
+	font-size: calc( var(--text-size-h3) * var(--text-ratio-md) );
+	@media (max-width: $sm-screen) {
+		font-size: calc( var(--text-size-h3) * var(--text-ratio-sm) );
+	}
+	@media(min-width: $lg-screen) {
+		font-size: calc( #{$lg-screen} / 100 * var(--text-size-h3) ); /* prevent text from growing too large */
+	}
+}
+
+h4 {
+	font-size: calc( var(--text-size-h4) * var(--text-ratio-md) );
+	@media (max-width: $sm-screen) {
+		font-size: calc( var(--text-size-h4) * var(--text-ratio-sm) );
+	}
+	@media(min-width: $lg-screen) {
+		font-size: calc( #{$lg-screen} / 100 * var(--text-size-h4) ); /* prevent text from growing too large */
+	}
+}
+
+h5 {
+	font-size: calc( var(--text-size-h5) * var(--text-ratio-md) );
+	@media (max-width: $sm-screen) {
+		font-size: calc( var(--text-size-h5) * var(--text-ratio-sm) );
+	}
+	@media(min-width: $lg-screen) {
+		font-size: calc( #{$lg-screen} / 100 * var(--text-size-h5) ); /* prevent text from growing too large */
+	}
+}
 	
 /* @end */
 
@@ -105,20 +148,6 @@ textarea {
 	a.imagelink {
 		border: none;
 		font-size: 0.1em;
-	}
-
-	blockquote {
-		padding: 1vw;
-		
-		p {
-			margin: 0;
-		}
-		
-		i {
-			color: var(--color-bg-white-text);
-			font-weight: 500;
-		}
-		
 	}
 	
 	h1 {
@@ -254,33 +283,27 @@ textarea {
 	.critical--button-secondary {
 		@include font-primary(bold);
 		text-transform: uppercase;
-		font-size: 1em;
 		list-style: none; /* remove bullet when used on li */
 	}
 
 	.critical--button-primary {
 		margin: 0;
-		padding: 1vw 2vw;
+		padding: 1em 2em;
 		color: var(--color-button-primary) !important;
 		background-color: var(--color-button-primary-bg);
 		border: none;
-		border-radius: 5px;
+		border-radius: 0.5em;
 		text-align: center;
+		max-width: 90vw;
 	}
-	@media (max-width:{{ site.Params.layout.ts_width }}) {
-		.critical--button-primary {
-			padding: 2vw 4vw;
-			max-width: 90vw;
-		}
-	}	
 		
 	/* use to create a secondary button */
 	.critical--button-secondary {
-		padding: 0px;
+		padding: 0;
 		color: var(--color-button-secondary) !important;
 		background-color: var(--color-button-secondary-bg);
 		border: none;
-		border-radius: 3px;
+		border-radius: 0.5em;
 	}
 	
 	.bg-primary .critical--button-secondary {
@@ -305,9 +328,7 @@ textarea {
 		padding: 0;
 		width: 80vw;
 		max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
-	}	
-	@media (max-width:{{ site.Params.layout.ts_width }}) {
-		.cl-critical--content-width {
+		@media (max-width: $sm-screen) {
 			margin-left: var(--module-ts-column-gap);
 			margin-right: var(--module-ts-column-gap); 
 			width: calc(100% - var(--module-ts-column-gap) * 2);
@@ -315,16 +336,14 @@ textarea {
 		}
 	}
 	
-		/* use for narrow content such as forms */
+	
+	/* use for narrow content such as forms */
 	.cl-critical--content-width-narrow {
 		margin: 0 auto; /* use auto to center div on page */
 		padding: 0;
 		width: 50vw;
 		max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
-	}
-	@media (max-width:{{ site.Params.layout.ts_width }}) {
-		/* make the narrow content look nice in small screens */
-		.cl-critical--content-width-narrow {
+		@media (max-width: $sm-screen) {
 			margin: 0 var(--module-ts-column-gap);
 			width: calc(100% - var(--module-ts-column-gap) * 2 );
 			max-width: calc(100% - var(--module-ts-column-gap) * 2 );

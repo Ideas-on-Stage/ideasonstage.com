@@ -1,17 +1,10 @@
 {{ "<!-- shortcodes:agenda-item.html:start -->" | safeHTML }}
-<div class="padding-tiny">
+<div class="cl-shortcode--agenda-item">
+	{{ if $.Params.title }}
+		<p class="title">{{ $.Params.title }}</p>
+	{{ end }}
 	{{ if .Params.description }}
-		{{ if $.Params.title }}
-			<div class="cl-shortcode--agenda-item-title">{{ $.Params.title }}</div>
-		{{ end }}
-		<div class="">
-			<p class="cl-shortcode--agenda-item-description">{{ .Params.description | markdownify }}</p>
-		</div>	
-		
-	{{ else }}
-		{{ if $.Params.title }}
-		<p class="cl-shortcode--agenda-item-title">{{ $.Params.title }}</p>
-		{{ end }}
+		<p class="description">{{ .Params.description | markdownify }}</p>		
 	{{ end }}	
 </div>
 {{ "<!-- shortcodes:agenda-item.html:end -->" | safeHTML }}
