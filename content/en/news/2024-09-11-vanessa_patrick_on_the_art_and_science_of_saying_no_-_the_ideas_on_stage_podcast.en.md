@@ -9,8 +9,6 @@ banner = "/img/news/vp_thumbnail.jpg"
 +++
 ![Andrea and Dr. Patrick](/img/news/vp_thumbnail.jpg "Andrea and Dr. Patrick")
 
-
-
 <div style="margin: 5px 0;">
   <div>
     <p class="p1">In this episode of the Ideas on Stage podcast we spoke with Dr. Vanessa Patrick.<span class="Apple-converted-space">&nbsp;</span></p>
@@ -50,7 +48,7 @@ banner = "/img/news/vp_thumbnail.jpg"
 
 [YouTube](https://youtu.be/SCpllRISS00)
 
-[Apple Podcasts](https://podcasts.apple.com/us/podcast/62-guy-kawasaki-on-the-art-of-becoming-remarkable/id1506050111?i=1000665252599)[](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/OGJiNTRiNTItN2RmNC00ZWI5LWI1YzktNDI0YmQ3N2EwN2Iz?sa=X&ved=0CAUQkfYCahcKEwjY6ua-_9WGAxUAAAAAHQAAAAAQAQ)
+[Apple Podcasts](https://podcasts.apple.com/us/podcast/ideas-on-stage-podcast/id1506050111)[](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw/episode/OGJiNTRiNTItN2RmNC00ZWI5LWI1YzktNDI0YmQ3N2EwN2Iz?sa=X&ved=0CAUQkfYCahcKEwjY6ua-_9WGAxUAAAAAHQAAAAAQAQ)
 
 [Spotify](https://open.spotify.com/episode/4ewPVe7M6QnL5K1YNARzcB)
 
