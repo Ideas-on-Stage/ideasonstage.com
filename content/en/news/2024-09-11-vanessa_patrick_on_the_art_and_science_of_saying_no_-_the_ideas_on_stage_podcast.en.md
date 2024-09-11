@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Vanessa Patrick on The Art and Science of Saying No - The Ideas on Stage Podcast"
+title = "Vanessa Patrick on The Art and Science of Saying No - The Ideas on Stage Podcast "
 tags = ["Podcasts"]
 news = ["general"]
 date = "2024-09-11"
