@@ -74,10 +74,13 @@ _default:
             - h1hero
             - breadcrumbs
             - content
-            - pages
+            - list
             - modules-aside
         main:
             - contentmain
+        list:
+            - link-picture2-text1
+            
     # page.Kind "single"
     page:
         head:
@@ -170,7 +173,7 @@ news:
             - related
             - topcategories
         main:
-            - h1hero
+            - h1
             - metadata
             - tags
             - contentmain
