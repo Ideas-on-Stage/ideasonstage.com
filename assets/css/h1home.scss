@@ -1,49 +1,13 @@
+@import 'sassmix';
+
 .cl-h1home {
-	font-family: "Gotham SSm A", "Gotham SSm B";
-	font-style: normal;
-	font-weight: 700;
-	background-color: var(--color-darkgray);
+	@include scheme-h1home();
 	text-align: center;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
-}
 
-.cl-h1home--title {
-	font-size: 1em;
-	text-align: center;
-	color: #fff;
-	background-color: #222;
-}
-
-.cl-h1home--country-list {
-	background-color: var(--color-darkgray);
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-bottom: 10px;
-}
-
-.cl-h1home--country-list-list {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding: 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	gap: var(--module-big-gap);
-}
-
-.cl-h1home--country-list-item {
-	font-family: "Gotham SSm A", "Gotham SSm B";
-	font-style: normal;
-	font-weight: 700;
-	font-size: 0.85em;
-	text-transform: uppercase;
-	padding: 0px;
-	color: var(--color-button-secondary);
-	border: none;
-	border-radius: 3px;
-	border-color: none;
-	border-style: none;
-	list-style: none; /* remove bullet when used on li */
+	h1 {
+		font-size: 1em;
+	}
 }

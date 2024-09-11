@@ -2,12 +2,12 @@
 {{ $hero := partial "f/getheropicturepath.go" . }}
 {{ if $hero }}
 	{{/* <!-- create hero --> */}}
-	<header id="hero" class="bg-black cl-h1--hero">
+	<header id="hero" class="bg-black cl-h1hero--hero">
 		{{ $srcset := partial "f/getpicturesrcset.go" $hero }}
-		<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }} class="cl-h1--hero-img">
+		<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
 		{{ with .Title }}
-			<div class="cl-h1--hero-title-container">
-				<h1 class="cl-h1--hero-title">
+			<div class="title">
+				<h1>
 					{{ . | markdownify }}
 				</h1>
 			</div>
@@ -17,7 +17,7 @@
 	</header>
 {{ else if .Title }}
 	{{/* <!-- create standard title --> */}}
-	<header id="title" class="cl-h1">
+	<header id="title" class="cl-h1hero--title">
 		<h1>
 			{{ with .Title }}{{ . | markdownify }}{{ end }}
 		</h1>

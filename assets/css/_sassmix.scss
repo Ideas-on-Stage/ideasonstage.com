@@ -1,3 +1,6 @@
+$sm-screen: 720px;
+$lg-screen: 1920px;
+
 /* @group SASS mixins */
 
 	@mixin font-primary($style: bold) {
@@ -96,13 +99,21 @@
 	
 /* @end */
 
+@mixin scheme-404 {
+	@include scheme-dark;
+}
+@mixin scheme-countrylist {
+	@include scheme-dark;	
+}
+@mixin scheme-h1hero {
+	@include scheme-dark;
+}
+@mixin scheme-h1home {
+	@include scheme-dark;
+}
 @mixin scheme-navbar {
 	@include scheme-dark;
 }
 @mixin font-navbar {
 	@include font-primary;
-}
-
-@mixin scheme-404 {
-	@include scheme-dark;
 }

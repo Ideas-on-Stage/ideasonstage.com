@@ -1,4 +1,5 @@
-/* .cl-content standard tags styles */	
+@import "sassmix";
+@import 'shortcode';
 
 .cl-content {
 	padding: 0;
@@ -8,34 +9,35 @@
 	flex-wrap: nowrap;
 	align-items: flex-start;
 	gap: var(--module-big-gap);
+	@media (max-width: $sm-screen) {
+		flex-direction: column-reverse;
+	}
 }
+
 .cl-content--main {
 	width: 100%;
 }
+
 .cl-content--sidebar + .cl-content--main {
 	width: calc( 67% - var(--module-big-gap) / 2 );	/* reduce main content width when there is a sidebar */
+	@media (max-width: $sm-screen) {
+		width: 100%; /* set main content width to 100% on ts screens */
+	}
 }
 
-.cl-content--main-content img {
-	display: block; /* prevent line height from being added to div height */
-	margin: 0;
-	padding: 0;
-	max-width: 100%;
-	height: auto;
-	object-fit: contain;
+.cl-content--main-content {
 }
 
-/* h1 should be in <header> title, not in content */
-.cl-content--main-content > {
+.cl-content--main-content {
 
-	:first-child {
+	> :first-child {
 		margin-top: 0;
 	}
-	:last-child {
+	> :last-child {
 		margin-bottom: 0;
 	}
 	
-	blockquote {
+	> blockquote {
 		background: #f5f5f5;
 		border-radius: 0px;
 		margin: 2vw -2vw;
@@ -43,69 +45,81 @@
 		color: var(--color-blockquote);
 		border-left: 4px var(--color-secondary) solid;
 	}
-	h2,
-	h3,
-	h4 {
+	
+	/* h1 should be in <header> title, not in content, so it is not styled */
+	> h2,
+	> h3,
+	> h4 {
 		margin-top: 2em;
 		margin-bottom: 1em;
 		scroll-margin-top: calc(var(--menubar-height) + 48px);
 	}
-	ol,
-	ul {
+
+	img {
+		/* NOT > img because it should apply to all img within the class */
+		display: block; /* prevent line height from being added to div height */
+		margin: 0;
+		padding: 0;
+		max-width: 100%;
+		height: auto;
+		object-fit: contain;
+	}
+	
+	> ol,
+	> ul {
 		margin-top: 0;
 		margin-bottom: 0;
+		
+		> li {
+			margin-top: 0.5em;
+			margin-bottom: 0em;
+			line-height: 1.6em;
+		}
+		
 	}
-	ol > li,
-	ul > li {
-		margin-top: 0.5em;
-		margin-bottom: 0em;
-		line-height: 1.6em;
-	}
-	p {
+
+	> p {
 		margin-top: 1.6em;
 		margin-bottom: 0em;
 		line-height: 1.6em;
-	}
-	p img {
-		display: block;
-		margin-top: 48px;
-		margin-bottom: 48px;
-		width: auto;
-		height: auto;
-		max-width: 100%; /* ensures img are shown at max content width */
+	
+		> img {
+			display: block;
+			margin-top: 48px;
+			margin-bottom: 48px;
+			width: auto;
+			height: auto;
+			max-width: 100%; /* ensures img are shown at max content width */
+		}
 	}
 	
-	table {
+	> table {
 		border: 1px solid #ddd;
 		border-collapse: collapse;
-	}
-	thead {
-		border: none;
-	}
-	td {
-		padding: 1vw;
-		width: auto;
-		border: 1px solid #ddd;
-	}
-	th {
-		padding: 1vw;
-		width: auto;
-		min-width: 120px; /* small columns will have the same size */
-		border: 1px solid #ddd;
-		text-align: center;
-	}
-}
+		
+		> thead {
+			border: none;
+		}
+		
+		> td {
+			padding: 1vw;
+			width: auto;
+			border: 1px solid #ddd;
+		}
+		
+		> th {
+			padding: 1vw;
+			width: auto;
+			min-width: 120px; /* small columns will have the same size */
+			border: 1px solid #ddd;
+			text-align: center;
+			@media (max-width: $sm-screen) {
+				min-width: 50px;
+			}
+		}
 
-@media (max-width:{{ site.Params.layout.ts_width }}) {
-	.cl-content {
-		flex-direction: column-reverse;
 	}
-	.cl-content--sidebar + .cl-content--main {
-			width: 100%; /* set main content width to 100% on ts screens */
-	}
-	.cl-content--main-content th {
-		min-width: 50px;
-	}
+
 }
 
 
@@ -113,25 +127,19 @@
 /* content sidebar */
 
 .cl-content--sidebar {
+	width: 33%;
 	max-height: 90vh;
 	background-color: var(--color-lightgray);
-}
-@media (max-width:{{ site.Params.layout.ts_width }}) {
-	.cl-content--sidebar {
+	@media (max-width: $sm-screen) {
 		position: static;
 		width: 100%;
 	}
-}
-@media (min-width: {{ site.Params.layout.normal_width }}) {
-	.cl-content--sidebar {
+	@media (min-width: $lg-screen) {
 		position: sticky;
 		z-index: 900;
 		top: calc(var(--menubar-height) + 1.6em + .4vw);
 		width: calc( 33% - var(--module-big-gap) );
 	}
-}
-
-.cl-content--sidebar {
 	
 	img {
 		display: block;
@@ -158,19 +166,7 @@
 }
 
 /* style for photograph styled pictures */
-
 .cl-content--style-photograph {
 	border: 8px solid #fff;
 	box-shadow: 2px 2px 8px #aaa;
 }
-
-#TableOfContents > ul > li > a {
-	/* first level of table of contents bold */
-	font-family: "Whitney SSm A", "Whitney SSm B";
-	font-style: normal;
-	font-weight: 700;
-}
-
-/* include shortcode.css */
-{{- $css := resources.Get "css/shortcode.scss" | resources.ExecuteAsTemplate "shortcode.css" . | resources.ToCSS | resources.Minify -}}
-{{- $css.Content | safeCSS -}}

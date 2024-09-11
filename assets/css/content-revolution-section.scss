@@ -1,3 +1,5 @@
+@import 'sassmix';
+
 .cl-content-revolution-section--hero {
 	height: var(--hero-height);
 	width: var(--hero-width);
@@ -8,103 +10,87 @@
 	flex-wrap: nowrap;
 	align-items: center;
 	justify-content: center;
-}
 
-.cl-content-revolution-section--hero-img {
-	position: absolute;
-	z-index: -100;
-	height: var(--hero-height);
-	width: 100%;
-	max-width: var(--page-max-width);
-	object-fit: cover;
-}
-
-.cl-content-revolution-section--hero-title {
-	text-align: center;
-} 
-
-.cl-content-revolution-section--hero-text {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	img {
+		position: absolute;
+		z-index: -100;
+		height: var(--hero-height);
+		width: 100%;
+		max-width: var(--page-max-width);
+		object-fit: cover;
+	}
+	
+	h2 {
+		text-align: center;
+		margin-bottom: 0.5rem;
+	} 
+	
 }
 
 .cl-content-revolution-section--social {
-	text-align: center;	
-}
-
-.cl-content-revolution-section--social > a > img {
-	width: 3em;
-	height: 3em;
-}
-
-.cl-content-revolution-section--box {
-	height: 100%;
-	flex: 1;
-	flex-basis: 33%;
-	width: 33%;
-	max-width: 50%;
-	min-width: 250px;
-	padding: 00.5em;
-	position: relative;
-	margin-bottom: 2em;
-	box-sizing: border-box;
-}
-
-.cl-content-revolution-section--thumb-frame {
-	height: 100%;
-	position:relative;
-}
-
-.cl-content-revolution-section--thumb-frame:hover .cl-content-revolution-section--overlay .cl-content-revolution-section--overlay-title {
-	color: var(--color-primary);
-	outline: 0;
-}
-
-.cl-content-revolution-section--thumb {
-	width:100%;
-	box-sizing: border-box;
-}
-.cl-content-revolution-section--thumb img {
-	display: block; /* to prevent line height from being added to div height */
-	width: 100%;
-	height: 100%;
-}
-
-.cl-content-revolution-section--overlay {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding-left: 0.3em;
-	padding-bottom: 0.1em;
-	padding-top: 1.5em;
-	background-image: linear-gradient( rgba(0,0,0,0), rgba(0,0,0,0.9));
-	box-sizing: border-box;	
-}
-
-.cl-content-revolution-section--overlay-title {
-	font-size: 1.2em;
-	font-weight: 700;
-	text-align: left;
-	bottom: 0;
-	color: #fff;
-	box-sizing: border-box;
-}
-
-.cl-content-revolution-section--summary {
-	font-size: 1em;
-	color: #222;
-	padding-top:0.1em;
-	padding-left: 0.3em;
-	padding-right: 0.3em;
-	box-sizing: border-box;
-}
-
-@media (max-width:{{ site.Params.layout.ts_width }}) {
-	.cl-content-revolution-section--box {
-		max-width: 100%;
-		box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	
+	.item {
+		flex-basis: 33%;
+		flex-shrink: 0;	
 	}
+	
+	a {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+		img {
+			width: 3rem;
+			height: 3rem;
+		}
+		
+		p {
+			margin-top: 0.5rem;
+		}
+	}
+	
+}
+
+.cl-content-revolution-section--videolist {
+	
+	h2 {
+		margin-bottom: 0.5rem;
+		text-align: center;
+	}
+	
+	a {
+		height: 100%;
+		flex: 1;
+		flex-basis: 33%;
+		width: 33%;
+		max-width: 50%;
+		min-width: 250px;
+		padding: 0.5rem;
+		position: relative;
+		margin-bottom: 2rem;
+		box-sizing: border-box;
+		@media (max-width: $sm-screen) {
+			max-width: 100%;
+			box-sizing: border-box;
+		}
+	}
+	
+	img {
+		display: block; /* to prevent line height from being added to div height */
+		width: 100%;
+		height: 100%;			
+	}
+	
+	h3 {
+		margin-top: 0.5rem;
+	}
+	
+	p {
+		margin-top: 0.5rem;
+	}
+	
 }

@@ -1,27 +1,43 @@
+@import 'sassmix';
+
+
+
 .cl-shortcode {
 	margin: 0 -2vw;
 	padding: 2vw;
+	@media (max-width: $sm-screen) {	
+		margin: 0 -4vw;
+		padding: 4vw;
+	}
+
+	> :first-child {
+		margin-top: 0;
+	}
+	> :last-child {
+		margin-bottom: 0;
+	}
+
+	h3 {
+		margin-top: 0;
+	}
+	
 }
+
 .cl-shortcode--img {
 	margin: 0 -2vw;
 	padding: 0;
-}
-.cl-shortcode--img img {
+	@media (max-width: $sm-screen) {	
+		margin: 0 -4vw;
+		padding: 0;
+	}
+	
+	> img {
 	display: block; /* prevent line height from being added to div height */
 	width: 100%;
 	height: 100%;
-}
-@media (max-width:{{ site.Params.layout.ts_width }}) {	
-	.cl-shortcode {
-			margin: 0 -4vw;
-			padding: 4vw;
-		}
-	.cl-shortcode--img {
-			margin: 0 -4vw;
-			padding: 0;
-		}
-}
+	}
 
+}
 
 
 /* spacing with other elements (that are not of class .cl-shortcode) */
@@ -65,30 +81,20 @@ div.cl-shortcode--img + :not(div) {
 	padding: 0;
 	text-align: center;
 }
-@media (max-width:{{ site.Params.layout.ts_width }}) {
+@media (max-width: $sm-screen) {
 	.cl-shortcode--text-centered {
 		margin: 8vw;
 	}
 }
-.cl-shortcode--text-intro {
-		font-family: "Whitney SSm A", "Whitney SSm B";
-		font-style: normal;
-		font-weight: 500;
-		color: var(--color-bg-white-text-mid);
+.cl-shortcode--text-centered {
 		text-align: center;
 }
-.cl-shortcode--title {
-		font-family: "Gotham SSm A", "Gotham SSm B";
-		font-style: normal;
-		font-weight: 700;
+.cl-shortcode--title-centered {
 		text-align: center;
 		margin-top: 0;
 		margin-bottom: 0.5em;
 }
 
-.cl-shortcode h3 {
-	margin-top: 0;
-}
 
 
 /*Agenda */		

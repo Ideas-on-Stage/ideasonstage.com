@@ -10,8 +10,9 @@ datacta: "public-speaking-training"
 datareferencelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
 datamodulelist: [ "guidepublicspeaking", "guideremotepresentations" ]
 
-body: 
-  - h1
+body:
+  - h1hero
+  - breadcrumbs
   - references
   - content
 

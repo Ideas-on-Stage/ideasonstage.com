@@ -71,7 +71,7 @@ _default:
             - meta-desc-section
             - title-section
         body:
-            - h1
+            - h1hero
             - breadcrumbs
             - content
             - pages
@@ -84,7 +84,7 @@ _default:
             - meta-desc-single
             - title-single
         body:
-            - h1
+            - h1hero
             - breadcrumbs
             - content
             - modules-aside
@@ -99,6 +99,7 @@ _default:
             - title-home
         body:
             - h1home
+            - countrylist
             - cta
             - contentwide
             - references
@@ -134,7 +135,7 @@ news:
         # here, there is no "head:" part defined so _default:section:head: will be used
         # body part is defined so it will override _default:section:body: part
         body:
-            - h1
+            - h1hero
             - content
         # content main blocks
         # will appear where the "content" item is inserted in "body:"
@@ -169,7 +170,7 @@ news:
             - related
             - topcategories
         main:
-            - h1
+            - h1hero
             - metadata
             - tags
             - contentmain
@@ -179,7 +180,7 @@ news:
 references:
     section:
         body:
-            - h1
+            - h1hero
             - references
             - content
         main:
@@ -193,11 +194,11 @@ revolution:
             - meta-desc-section
             - title-section
         body:
-            - h1
+            - h1hero
             - content-revolution-section
     page:
         body:
-            - h1
+            - h1hero
             - breadcrumbs
             - content-revolution-single
 
@@ -212,7 +213,7 @@ tags:
             - meta-robots-ni
             - title-tags-taxonomy
         body:
-            - h1
+            - h1hero
             - content
             - pages-tags
     # term = page for tags
@@ -222,7 +223,7 @@ tags:
             - meta-robots-ni
             - title-tags-term
         body:
-            - h1
+            - h1hero
             - breadcrumbs
             - content
             - pages-tags
@@ -236,7 +237,7 @@ team:
             - meta-desc-section
             - title-section
         body:
-            - h1
+            - h1hero
             - contentwide
         main:
             - contentshort
@@ -262,7 +263,7 @@ team:
 training:
     section:
         body:
-            - h1
+            - h1hero
             - breadcrumbs
             - references
             - content
@@ -271,7 +272,7 @@ training:
             - links
     page:
         body:
-            - h1
+            - h1hero
             - content
         side:
             - training

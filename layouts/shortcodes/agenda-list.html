@@ -1,7 +1,7 @@
 {{ "<!-- shortcodes:agenda-list.html:start -->" | safeHTML }}
 <div class="cl-shortcode {{ with .Params.style }}{{ . }}{{ end }}">
 	{{ if .Params.title }}
-		<h3 class="cl-shortcode--title">{{ .Params.title }}</h3>
+		<h3 class="cl-shortcode--title-centered">{{ .Params.title }}</h3>
 	{{ end }}
 	{{ .Inner }}
 </div>

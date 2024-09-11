@@ -1,0 +1,47 @@
+.cl-h1hero--title {
+	top: var(--menubar-height);
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	padding: 2vw;
+	background-color: var(--color-bg-dark);
+	color: var(--color-bg-dark-text);
+	text-align: center;
+}
+
+.cl-h1hero--hero {
+	height: var(--hero-height);
+	width: calc(100% - 0.001px);
+	max-width: var(--page-max-width);
+
+	img {
+		position: absolute;
+		top: var(--menubar-height);
+		height: var(--hero-height);
+		width: calc(100% - 0.001px);
+		max-width: var(--page-max-width);
+		object-fit: cover;
+	}
+
+	.title {	
+		position: absolute;
+		height: inherit;
+		width: inherit;
+		max-height: inherit;
+		max-width: inherit;
+	
+		h1 {
+			position: sticky;
+			top: var(--menubar-height);
+			z-index: 100;
+			display: flex;
+			justify-content: center;
+			padding: 2vw;
+			text-align: center;
+			background-color: rgba(0, 0, 0, 0.4);	
+		}
+	
+	}
+
+}
+

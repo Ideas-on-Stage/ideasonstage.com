@@ -30,46 +30,29 @@
 
 /* @group FONT SIZES */
 
-	@media (max-width:{{ site.Params.layout.ts_width }}) {
-		/* adjust for small tall smartphone screens */
-		a,
-		blockquote,
-		input,
-		li,
-		p,
-		strong,
-		textarea {
-			font-size: 4vw;
-		}
+
+a,
+blockquote,
+input,
+li,
+p,
+strong,
+textarea {
+	font-size: var(--text-size-base);
+	@media (max-width: $sm-screen) {
+		font-size: 4vw;
 	}
-	@media (min-width:{{ site.Params.layout.normal_width }}) {
-		a,
-		blockquote,
-		input,
-		li,
-		p,
-		strong,
-		textarea {
-			font-size: var(--text-size-base);
-		}
+	@media(min-width: $lg-screen) {
+		font-size: 30px; /* prevent text from growing too large */
 	}
-	@media(min-width:{{ site.Params.layout.max_width }}) {
-		a,
-		blockquote,
-		input,
-		p,
-		strong,
-		textarea {
-			font-size: 30px; /* prevent text from growing too large */
-		}
-	}
+}
 	
 	/* standad tags font sizes, in em, so it is relative to base font size */
-	h1	{ font-size: 2.00em;	}
-	h2	{ font-size: 1.75em;	}
-	h3	{ font-size: 1.25em;	}
-	h4	{ font-size: 1.00em;	}
-	h5	{ font-size: 1.00em;	}
+	h1	{ font-size: 2.00rem;	}
+	h2	{ font-size: 1.75rem;	}
+	h3	{ font-size: 1.25rem;	}
+	h4	{ font-size: 1.00rem;	}
+	h5	{ font-size: 1.00rem;	}
 	
 /* @end */
 
@@ -126,17 +109,18 @@
 
 	blockquote {
 		padding: 1vw;
+		
+		p {
+			margin: 0;
+		}
+		
+		i {
+			color: var(--color-bg-white-text);
+			font-weight: 500;
+		}
+		
 	}
-
-	blockquote p {
-		margin: 0;
-	}
-
-	blockquote i {
-		color: var(--color-bg-white-text);
-		font-weight: 500;
-	}
-
+	
 	h1 {
 		line-height: 1.2em;
 		margin: 0;
@@ -158,12 +142,13 @@
 		margin-top: 0.5em;
 		margin-bottom: 0.5em;
 		text-align: left;
+		
+		a {
+			border-bottom: dotted 1px var(--color-bg-white-link-hover);
+		}
+		
 	}
 	
-	li a {
-		border-bottom: dotted 1px var(--color-bg-white-link-hover);
-	}
-		
 	time {
 		color: var(--color-time);
 	}
@@ -172,13 +157,14 @@
 		margin-top: 1em;
 		margin-bottom: 1em;
 		line-height: 1.6em;
+		
+		a {
+			border-bottom: dotted 1px var(--color-bg-white-link-hover);
+			line-height: 1.6em;
+		}
+		
 	}
 	
-	p a {
-		border-bottom: dotted 1px var(--color-bg-white-link-hover);
-		line-height: 1.6em;
-	}
-
 /* @end */
 
 

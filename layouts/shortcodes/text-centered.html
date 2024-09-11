@@ -1,12 +1,12 @@
 {{ "<!-- shortcodes:text-centered.html:start -->" | safeHTML }}
 <div class="cl-shortcode {{ with .Params.class }}{{ . }}{{ end }}">
 	{{ if .Params.title }}
-		<h2 class="cl-shortcode--title">
+		<h2 class="cl-shortcode--title-centered">
 			{{ .Params.title }}
 		</h2>
 	{{ end }}
 	{{ if .Inner }}
-		<p class="cl-shortcode--text-intro">
+		<p class="cl-shortcode--text-centered">
 			{{ .Inner | markdownify }}
 		</p>
 	{{ end }}

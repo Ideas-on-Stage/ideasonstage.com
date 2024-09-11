@@ -5,18 +5,20 @@
 */
 
 .cl-youtube--placeholder {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
-.cl-youtube--placeholder img {
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+
+	img {
+		position: absolute;
+		z-index: 100;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
 }
 
 .cl-youtube--video {
@@ -25,11 +27,13 @@
 	width: 100%;
 	height: 0;
 	padding-bottom: 56.25%; /* 16:9 */
-}
-.cl-youtube--video iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
 }

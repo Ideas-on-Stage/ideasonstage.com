@@ -1,12 +1,10 @@
 {{ if and (not .IsHome) (not .Parent.IsHome) }}
 	{{/* <!-- then at least 2 levels of depth, show breadcrumbs --> */}}
-	<aside id="breadcrumbs" class="cl-breadcrumbs">
-		<div class="cl-critical--content-width">
-			<ol class="cl-breadcrumbs--list">
-				{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
-			</ol>
-		</div>
-	</aside>
+	<nav id="breadcrumbs" class="cl-breadcrumbs">
+		<ol class="cl-critical--content-width">
+			{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+		</ol>
+	</nav>
 {{ else }}
 	{{ "<!-- skipped: no breadcrumbs on home or 1st level section -->" | safeHTML }}
 {{ end }}
@@ -20,8 +18,8 @@
 		{{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
 	{{ end }}
 	{{ if .p1.IsHome }}
-		<li class="cl-breadcrumbs--item">
-			<a href="{{ .p1.Permalink }}" class="cl-breadcrumbs--link ">
+		<li>
+			<a href="{{ .p1.Permalink }}">
 				{{ $img := resources.Get "img/icons/home.svg" }}
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Back to Ideas on Stage Homepage">
 			</a>
@@ -29,12 +27,12 @@
 	{{ else if eq .p1 .p2 }}
 		{{/* <!-- currently active page --> */}}
 	{{ else }}
-		<li class="cl-breadcrumbs--item">
+		<li>
 				{{ $img := resources.Get "img/icons/right.svg" }}
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Right Arrow">
 		</li>
-		<li class="cl-breadcrumbs--item">
-			<a href="{{ .p1.Permalink }}" class="cl-breadcrumbs--link">
+		<li>
+			<a href="{{ .p1.Permalink }}">
 				{{ .p1.Title }}
 			</a>
 		</li>

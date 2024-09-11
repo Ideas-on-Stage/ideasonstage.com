@@ -1,0 +1,11 @@
+<nav id="country-list" class="cl-countrylist">
+	<ul>
+		{{ range site.Params.countries }}
+			<li>
+				<a href="{{ .url }}" class="critical--button-secondary">
+					{{ .name }}
+				</a>
+			</li>
+		{{ end }}
+	</ul>
+</nav>

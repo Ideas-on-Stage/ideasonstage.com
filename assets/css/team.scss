@@ -1,23 +1,23 @@
 .cl-pages-team--img {
-		width: 100px !important;
-		height: 100px !important;
-		border: 3px solid white;
-		border-radius: 50%;
-		transition: all .35s;
-		filter: grayscale(100%);
-	}
+	width: 100px !important;
+	height: 100px !important;
+	border: 3px solid white;
+	border-radius: 50%;
+	transition: all .35s;
+	filter: grayscale(100%);
+}
 .cl-pages-team--img:hover {
-		border: 3px solid var(--color-primary);
-		filter: grayscale(0%);
-	}
+	border: 3px solid var(--color-primary);
+	filter: grayscale(0%);
+}
 	
 .cl-pages-team--name {
-		font-size: 1em;
-		margin: 4px 0;
-	}
+	font-size: 1em;
+	margin: 4px 0;
+}
 	
 .cl-pages-team--title {
-		font-size: 0.75em;
-		margin: 0;
-		color: #aaa;
-	}
+	font-size: 0.75em;
+	margin: 0;
+	color: #aaa;
+}
