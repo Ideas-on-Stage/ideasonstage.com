@@ -1,17 +1,12 @@
-/* Import */
 @import "_sassmix";
 @import "_body-breadcrumbs-params";
 
-
-
-/* Variables */
 $breadcumb-padding: 0.5em 0 !default;
 $list-gap: 0.5em !default;
 $list-transform: uppercase !default;
 
 
 
-/* CSS */
 .cl-breadcrumbs {
 	background-color: var(--color-lightgray);
 

@@ -1,5 +1,11 @@
 @import "_sassmix";
 
+$navbar-font-family: "Gotham SSm A", "Gotham SSm B" !default;
+$navbar-font-weight: 700 !default;
+$navbar-scheme: "dark" !default;
+
+
+
 .cl-navbar {
 	position: fixed;
 	top: 0;
@@ -12,7 +18,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	@include scheme-navbar;
+	@include scheme($navbar-scheme);
 }
 
 /* Font for menu */
@@ -20,7 +26,7 @@
 .cl-navbar--menu-item a,
 .cl-navbar--menu-dropdown-item,
 .cl-navbar--menu-dropdown-item a {
-	@include font-navbar;
+	@include font($navbar-font-family, $navbar-font-weight);
 	text-transform: uppercase;
 	font-size: 14px;
 	border: none; /* remove underline for a links */
@@ -63,7 +69,7 @@
 	/* show dropdown on hover */
 	.cl-navbar--menu-item:hover .cl-navbar--menu-dropdown {
 		display: inherit;
-		@include scheme-navbar;
+		@include scheme($navbar-scheme);
 	}
 
 	.cl-navbar--menu-dropdown {
@@ -130,7 +136,7 @@
 		flex-direction: column;
 		align-items: center;
 		gap: 1em;
-		@include scheme-navbar;
+		@include scheme($navbar-scheme);
 	}
 	
 	.cl-navbar--menu-item {

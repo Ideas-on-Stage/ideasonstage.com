@@ -1,27 +1,32 @@
+@import "_sassmix";
+
+$tag-scheme: "light" !default;
+$tag-font-size: 0.8em !default;
+$tag-text-transform: uppercase !default;
+$tag-link-border: none !default;
+$tag-padding: 0.25em 0.5em !default;
+
+
+
 .cl-tags {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 0.5em;
 	list-style: none;
 	padding: 0;
 	margin:0;
-}
-.cl-tags--tag {
-	background-color: #eee;
-	padding: 0 0.4em;
-	margin: 0 0.2em 0.2em 0.2em;
-	float: left;
-	text-transform: uppercase;
-
-	:first-of-type {
-		margin: 0 0.2em 0 0;
-	}
+	width: 100%;
 	
-	a {
-		color: #222;
-		font-size: 0.8em;
-		border-bottom: none;
-	}
+	li {
+		@include scheme($tag-scheme);
+		margin: 0;
+		padding: $tag-padding;
+		text-transform: $tag-text-transform;
 	
-	a:hover {
-		color: var(--color-link-hover);
+		a {
+			font-size: $tag-font-size;
+			border-bottom: $tag-link-border;
+		}
 	}
-
 }

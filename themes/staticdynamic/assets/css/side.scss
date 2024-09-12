@@ -1,10 +1,9 @@
 @import "_sassmix";
 @import "_side-params";
 
-
-
-$text-font-family: "Times", "Serif" !default;
-$title-font-family: "Helvetica Neue", "Sans Serif" !default;
+$side-font-size: 0.8em !default;
+$side-font-size-h2: 1em !default;
+$side-font-size-li: 0.8em !default;
 
 
 
@@ -16,8 +15,7 @@ $title-font-family: "Helvetica Neue", "Sans Serif" !default;
 	}
 	
 	a {
-		font-family: $text-font-family;
-		font-size: 1em;
+		font-size: $side-font-size;
 	}
 	
 	img {
@@ -26,29 +24,21 @@ $title-font-family: "Helvetica Neue", "Sans Serif" !default;
 	}
 	
 	h2 {
-		font-family: $title-font-family;
 		margin: 1em 1em 0.5em 1em;
-		font-size: 1em;
+		font-size: $side-font-size-h2;
 	}
 	
 	li {
-		font-family: $text-font-family;
 		margin: 1em;
-		font-size: 0.8em;
+		font-size: $side-font-size-li;
 	}
 
 	p {
-		font-family: $text-font-family;
 		margin: 1em;
-		font-size: 0.8em;
+		font-size: $side-font-size;
 	}
-	
-	ol {
-		font-family: $text-font-family;
-	}
-	
+
 	ul {
-		font-family: $text-font-family;
 		list-style-type: none;
 		padding: 0; /* remove left space on lists */
 		margin: 0;

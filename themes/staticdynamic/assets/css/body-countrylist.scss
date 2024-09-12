@@ -1,14 +1,13 @@
 @import "_sassmix";
 @import "_body-countrylist-params";
 
-
 $list-font-size: 0.85em !default;
-
+$scheme: "dark";
 
 
 .cl-countrylist {
 
-	@include scheme-countrylist();
+	@include scheme($scheme);
 		
 	margin-top: 0;
 	margin-bottom: 0;

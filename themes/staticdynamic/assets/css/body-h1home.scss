@@ -1,7 +1,11 @@
 @import "_sassmix";
 
+$scheme: "dark" !default;
+
+
+
 .cl-h1home {
-	@include scheme-h1home();
+	@include scheme($scheme);
 	text-align: center;
 	padding-top: 10px;
 	padding-left: 10px;

@@ -11,4 +11,6 @@
 			{{ end }}
 		</ul>
 	</div>
+{{ else }}
+	{{ partial "e/html-comment.html" "INFO: skipped: main-tags: no .GetTerms tags" }}
 {{ end }}

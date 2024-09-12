@@ -1,16 +1,6 @@
 @import "_sassmix";
 @import "_core-params";
 
-$text-size : 1 !default;
-$text-size-h1: 2 !default;
-$text-size-h2: 1.5 !default;
-$text-size-h3: 1.25 !default;
-$text-size-h4: 1.25 !default;
-$text-size-h5: 1 !default;
-$text-ratio-sm: 4vw !default;
-$text-ratio-md: 1.5vw !default;
-
-
 /* @group FONT FAMILIES */
 
 	a,
@@ -18,13 +8,13 @@ $text-ratio-md: 1.5vw !default;
 	input,
 	p,
 	textarea {
-		@include font-secondary(normal);
+		@include font($font-family, $font-weight);
 	}
 
 	b,
 	blockquote,
 	strong {
-		@include font-secondary(bold);
+		@include font($font-family-b, $font-weight-b);
 	}
 	
 	h1,
@@ -32,7 +22,7 @@ $text-ratio-md: 1.5vw !default;
 	h3,
 	h4,
 	h5 {
-		@include font-primary(bold);
+		@include font($font-family-h, $font-weight-h);
 	}
 
 /* @end */
@@ -40,19 +30,6 @@ $text-ratio-md: 1.5vw !default;
 
 
 /* @group FONT SIZES */
-
-	@mixin text-scaling($size) {
-		/* take text font size and scale it with normal screen ratio */
-		font-size: calc( #{$size} * #{$text-ratio-md} );
-		@media (max-width: $sm-screen) {
-			/* take text font size and scale it with small screen ratio */
-			font-size: calc( #{$size} * #{$text-ratio-sm} );
-		}
-		@media(min-width: $lg-screen) {
-			/* once max size is reached, stop growing font, use fixed max. size instead */
-			font-size: calc( #{$lg-screen} / 100 * #{$size} ); /* prevent text from growing too large */
-		}	
-	}
 	
 	a,
 	blockquote,
@@ -62,27 +39,27 @@ $text-ratio-md: 1.5vw !default;
 	p,
 	strong,
 	textarea {
-		@include text-scaling($text-size);
+		@include font-scaling($font-size);
 	}
 	
 	h1 {
-		@include text-scaling($text-size-h1);
+		@include font-scaling($font-size-h1);
 	}
 	
 	h2 {
-		@include text-scaling($text-size-h2);
+		@include font-scaling($font-size-h2);
 	}
 	
 	h3 {
-		@include text-scaling($text-size-h3);
+		@include font-scaling($font-size-h3);
 	}
 	
 	h4 {
-		@include text-scaling($text-size-h4);
+		@include font-scaling($font-size-h4);
 	}
 	
 	h5 {
-		@include text-scaling($text-size-h5);
+		@include font-scaling($font-size-h5);
 	}
 	
 /* @end */
@@ -115,7 +92,7 @@ $text-ratio-md: 1.5vw !default;
 	}
 	
 	a {
-		color: var(--color-bg-white-text);
+		color: $scheme-white-link;
 		border-bottom: none;
 		text-decoration: none;
 		transition: all .35s;
@@ -123,7 +100,7 @@ $text-ratio-md: 1.5vw !default;
 	
 	a:hover,
 	a:focus {
-		color: var(--color-bg-white-link-hover);
+		color: $scheme-white-link-hover;
 		border-bottom: none;
 		text-decoration: none;
 		transition: all .35s;
@@ -161,7 +138,7 @@ $text-ratio-md: 1.5vw !default;
 		text-align: left;
 		
 		a {
-			border-bottom: dotted 1px var(--color-bg-white-link-hover);
+			border-bottom: dotted 1px $scheme-white-link-hover;
 		}
 		
 	}
@@ -176,7 +153,7 @@ $text-ratio-md: 1.5vw !default;
 		line-height: 1.6em;
 		
 		a {
-			border-bottom: dotted 1px var(--color-bg-white-link-hover);
+			border-bottom: dotted 1px $scheme-white-link-hover;
 			line-height: 1.6em;
 		}
 		
@@ -189,76 +166,27 @@ $text-ratio-md: 1.5vw !default;
 /* @group BG-COLORS */
 	
 	.bg-black {
-		background-color: var(--color-bg-black);
-		color: var(--color-bg-black-text);
-	}
-	.bg-black a {
-		color: var(--color-bg-black-link);
-	}
-	.bg-black a:hover {
-		color: var(--color-bg-black-link-hover);
-		transition: all .35s;
+		@include scheme("black");
 	}
 	
 	.bg-dark {
-		background-color: var(--color-bg-dark);
-		color: var(--color-bg-dark-text);
-	}
-	.bg-dark a {
-		color: var(--color-bg-dark-link);
-	}
-	.bg-dark a:hover {
-		color: var(--color-bg-dark-link-hover);
-		transition: all .35s;
+		@include scheme("dark");
 	}
 	
 	.bg-light {
-		background-color: var(--color-bg-light);
-		color: var(--color-bg-light-text);
-	}
-	.bg-light a {
-		color: var(--color-bg-light-link);
-	}
-	.bg-light a:hover {
-		color: var(--color-bg-light-link-hover);
+		@include scheme("light");
 	}
 
 	.bg-primary {	
-		background-color: var(--color-bg-primary);
-		color: var(--color-bg-primary-text);
-	}
-	.bg-primary a {
-		color: var(--color-bg-primary-link);
-		transition: all .35s;
-	}
-	.bg-primary a:hover {
-		color: var(--color-bg-primary-link-hover);
-		transition: all .35s;
+		@include scheme("primary");
 	}
 
 	.bg-secondary {	
-		background-color: var(--color-bg-secondary);
-		color: var(--color-bg-secondary-text);
-	}
-	.bg-secondary a {
-		color: var(--color-bg-secondary-link);
-		transition: all .35s;
-	}
-	.bg-secondary a:hover {
-		color: var(--color-bg-secondary-link-hover);
-		transition: all .35s;
+		@include scheme("secondary");
 	}
 	
 	.bg-codingandbricks	{
-		background-color: #233B4C;
-		color: #FFD500;
-	}
-	.bg-codingandbricks a {
-		color: #FFD500!important;
-	}
-	.bg-codingandbricks a:hover {
-		color: #FFD500;
-		transition: all .35s;
+		@include scheme("codingandbricks");
 	}
 
 /* @end */
@@ -269,7 +197,7 @@ $text-ratio-md: 1.5vw !default;
 
 	.critical--button-primary,
 	.critical--button-secondary {
-		@include font-primary(bold);
+		@include font($font-family-button, $font-weight-button);
 		text-transform: uppercase;
 		list-style: none; /* remove bullet when used on li */
 	}
