@@ -1,0 +1,35 @@
+{{ with .Params.datacta }}
+	{{ $data := index site.Data.cta . }}
+	{{ if $data }}
+		{{ $localizeddata := index $data site.LanguageCode }}
+		{{ with $localizeddata }}
+			<header id="call-to-action" class="bg-black cl-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
+				{{ $picture := printf "img/cta/%s" .picture }}
+				{{ $pic := resources.Get $picture }}
+				<img src="data:image/webp;base64,{{ $pic.Content | base64Encode }}" alt="{{ .title }}" class="cl-cta-img" width="100%" height="60vh">
+				
+				{{ with .title }}
+					<h2>
+						{{ . | markdownify }}
+					</h2>
+				{{ end }}
+				{{ with .description }}
+					<p>
+						{{ . }}
+					</p>
+				{{ end }}
+				{{ with .button }}
+					<a href="{{ .link }}" class="critical--button-primary">
+						{{ .text }}
+					</a>
+				{{ end }}
+			</header>
+		{{ else }}
+			{{ partial "e/html-comment.html" "skipped: cta: no localized data for current language in page.Params.datacta" }}
+		{{ end }}
+	{{ else }}
+		{{ partial "e/html-comment.html" "skipped: cta: no data in page.Params.datacta" }}
+	{{ end }}
+{{ else }}
+	{{ partial "e/html-comment.html" "skipped: cta: no page.Params.datacta" }}
+{{ end }}

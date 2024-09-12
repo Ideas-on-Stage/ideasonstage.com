@@ -7,10 +7,10 @@ title: Ideas on Stage
 markup:
     goldmark:
         renderer:
-            unsafe: true    # added to allow raw HTML in page .Content
+            unsafe: true    # allow raw HTML in page.Content
     tableOfContents:
-        startLevel: 2        # start level for table of contents
-        endLevel: 3        # end level for table of contents
+        startLevel: 2
+        endLevel: 3
 
 pagination:
     disableAliases: true
