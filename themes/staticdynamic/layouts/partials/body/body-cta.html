@@ -5,8 +5,8 @@
 		{{ with $localizeddata }}
 			<header id="call-to-action" class="bg-black cl-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
 				{{ $picture := printf "img/cta/%s" .picture }}
-				{{ $pic := resources.Get $picture }}
-				<img src="data:image/webp;base64,{{ $pic.Content | base64Encode }}" alt="{{ .title }}" class="cl-cta-img" width="100%" height="60vh">
+				{{ $srcset := partial "f/getpicturesrcset.go" $picture }}
+				<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .title }}" width="100%" height="60vh">
 				
 				{{ with .title }}
 					<h2>
