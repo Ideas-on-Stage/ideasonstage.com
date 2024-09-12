@@ -11,11 +11,14 @@
 {{ "<!-- partials/e/blocks-css.html:start -->" | safeHTML }}
 <style type="text/css">
 	{{- $blocks := partial "f/getblockscss.go" "dummy" -}}
-	{{- range $blocks -}}
+		{{- range $blocks -}}
 		{{- $resource := printf "css/%s.scss" . -}}
 		{{- $css := printf "%s.css" . -}}
 		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | resources.ToCSS | resources.Minify }}
 		{{- $style.Content | safeCSS -}}
 	{{- end -}}
 </style>
+{{ range $blocks }}
+	{{ (printf "<!-- inlined: %s.scss -->" .) | safeHTML }}
+{{ end }}
 {{ "<!-- partials/e/blocks-css.html:end -->" | safeHTML }}

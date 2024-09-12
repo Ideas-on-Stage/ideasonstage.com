@@ -20,7 +20,7 @@
 	
  --> */}}
 
-{{ $blocktypes := slice "bodytop" "body" "bodybottom" "main" "list" }}
+{{ $blocktypes := slice "bodytop" "body" "" "main" "list" }}
 {{ $result := slice }}
 
 {{ range $blocktypes }}
@@ -42,5 +42,6 @@
 		{{ end }}
 	{{ end }}
 {{ end }}
+{{- $result = $result | uniq -}}
 
 {{ return $result }}

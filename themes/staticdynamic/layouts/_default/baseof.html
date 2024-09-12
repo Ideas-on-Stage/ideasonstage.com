@@ -43,10 +43,15 @@
 			{{ partial "e/blocks-common.html" "footer" }}
 		</footer>
 		{{ partial "js/js.html" . }}
-		{{ $style := resources.Get "css/more.scss" | resources.ExecuteAsTemplate "more.css" . | resources.ToCSS | resources.Minify }}
-		<link rel="preload" href="{{ $style.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
+		
+		{{ $css := resources.Get "css/bodybottom-contact.scss" | resources.ExecuteAsTemplate "contact.css" . | resources.ToCSS | resources.Minify }}
+		<link rel="preload" href="{{ $css.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
+		
+		{{ $more := resources.Get "css/more.scss" | resources.ExecuteAsTemplate "more.css" . | resources.ToCSS | resources.Minify }}
+		<link rel="preload" href="{{ $more.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
 		<noscript>
-			<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
+			<link rel="stylesheet" href="{{ $css.RelPermalink }}" type="text/css">
+			<link rel="stylesheet" href="{{ $more.RelPermalink }}" type="text/css">
 		</noscript>		
 	</body>
 </html>
