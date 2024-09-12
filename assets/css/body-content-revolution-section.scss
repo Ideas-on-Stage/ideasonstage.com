@@ -1,0 +1,98 @@
+@import "_sassmix";
+
+
+
+.cl-content-revolution-section--hero {
+	height: var(--hero-height);
+	width: var(--hero-width);
+	max-width: var(--page-max-width);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+
+	img {
+		position: absolute;
+		z-index: -100;
+		height: var(--hero-height);
+		width: 100%;
+		max-width: var(--page-max-width);
+		object-fit: cover;
+	}
+	
+	h2 {
+		text-align: center;
+		margin-bottom: 0.5rem;
+	} 
+	
+}
+
+.cl-content-revolution-section--social {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	
+	.item {
+		flex-basis: 33%;
+		flex-shrink: 0;	
+	}
+	
+	a {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+		img {
+			width: 3rem;
+			height: 3rem;
+		}
+		
+		p {
+			margin-top: 0.5rem;
+		}
+	}
+	
+}
+
+.cl-content-revolution-section--videolist {
+	
+	a {
+		height: 100%;
+		flex: 1;
+		flex-basis: 33%;
+		width: 33%;
+		max-width: 50%;
+		min-width: 250px;
+		padding: 0.5rem;
+		position: relative;
+		margin-bottom: 2rem;
+		box-sizing: border-box;
+		@media (max-width: $sm-screen) {
+			max-width: 100%;
+			box-sizing: border-box;
+		}
+	}
+	
+	h2 {
+		margin-bottom: 0.5rem;
+		text-align: center;
+	}
+	
+	h3 {
+		margin-top: 0.5rem;
+	}
+	
+	img {
+		display: block; /* to prevent line height from being added to div height */
+		width: 100%;
+		height: 100%;
+	}
+	
+	p {
+		margin-top: 0.5rem;
+	}
+	
+}

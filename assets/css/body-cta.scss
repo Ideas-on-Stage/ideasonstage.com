@@ -1,0 +1,28 @@
+.cl-cta {
+	height: var(--hero-height);
+	width: var(--hero-width);
+	max-width: var(--page-max-width);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+
+	img {
+		position: absolute;
+		z-index: -100;
+		height: var(--hero-height);
+		width: 100%;
+		max-width: var(--page-max-width);
+		object-fit: cover;
+	}
+
+	h2 {
+		text-align: center;
+	}
+	
+	p {
+		text-align: center;
+	}
+}

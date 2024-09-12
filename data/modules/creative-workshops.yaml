@@ -4,5 +4,5 @@ fr:
     description: "Des activités de team building et de développement des compétences pour vos évènements d'entreprise."
     picture: "/img/modules/creative-workshops.jpg"
     style: "bg-black"
-    layout: "inserts/module-picture-textright.html"
+    layout: "module/row-picture-text.html"
     url: "/fr/ateliers-evenement-entreprise/"

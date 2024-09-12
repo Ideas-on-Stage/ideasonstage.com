@@ -1,0 +1,21 @@
+<section id="metadata" class="flex-parent flex-parent-row">
+	<p class="text-muted  mb-small">
+		{{ if isset .Params "author" }}
+			{{ .Site.Params.news.by }} 
+			{{ $scratch := newScratch }}
+			{{ $scratch.Set "author" "/team/" }}
+			{{ $author := .Params.author | urlize }}
+			{{ $scratch.Add "author" $author }}
+			{{ with .Site.GetPage ($scratch.Get "author") }}
+				{{ if ne .Params.draft "true" }}
+					{{ $.Params.author }} —
+				{{ else }}
+					{{ .Params.author }} -
+				{{ end }}
+			{{ else }} 
+				{{ .Params.author }} -
+			{{ end }}
+		{{ end }}
+		<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate.go" .Date }}</time> 
+	</p>
+</section>

@@ -5,35 +5,6 @@
 # side: blocks added to the sidebar inside the cl-content part
 # main: blocks added inside the cl-content--main part. Use only if absolutely necessary
 # list: blocks added inside list elements
-# 
-# Simple example without side or main blocks:
-#   <head>
-#       _common "head" blocks
-#       specific "head" blocks
-#   </head>
-#   <body>
-#       _common "bodytop" blocks
-#       specific "body" blocks
-#       _common "bodybottom" blocks
-#   </body>
-#   <footer>
-#       _common "footer" blocks
-#   </footer>
-# 
-# Example of body with side and cont blocks:
-#   <body>
-#       _common "bodytop" blocks
-#       "body" blocks, and inside the body block named "content" we have the following div:
-#       <div class="cl-content">
-#           <div class="cl-content--sidebar">
-#               "side" blocks
-#           </div>
-#           <div class="cl-content--main">
-#               "main" blocks
-#           </div>
-#       </div>
-#       _common "bodybottom" blocks
-#   </body>
 
 
 
@@ -42,22 +13,22 @@
 _common:
     # common header blocks for all pages
     head:
-        - css
-        - meta
-        - hreflang
-        - alternate
-        - favicon
-        - schema
+        - head-css
+        - head-meta
+        - head-hreflang
+        - head-alternate
+        - head-favicon
+        - head-schema
     # common body blocks above "main" for all pages
     bodytop:
-        - navbar
+        - bodytop-navbar
     # do not add body: to _common, use bodytop: or bodybottom: instead
     # common body blocks after "main" for all pages
     bodybottom:
-        - contact
+        - bodybottom-contact
     # common footer blocks for all pages
     footer:
-        - footer
+        - footer-footer
 
 
 
@@ -68,50 +39,50 @@ _default:
     # page.Kind "section"
     section:
         head:
-            - meta-desc-section
-            - title-section
+            - head-meta-desc-section
+            - head-title-section
         body:
-            - h1hero
-            - breadcrumbs
-            - content
-            - list
-            - modules-aside
+            - body-h1hero
+            - body-breadcrumbs
+            - body-side-main
+            - body-list
+            - body-modules-aside
         main:
-            - contentmain
+            - main-content
         list:
-            - link-picture2-text1
+            - list-link-picture2-text1
             
     # page.Kind "single"
     page:
         head:
-            - meta-desc-single
-            - title-single
+            - head-meta-desc-single
+            - head-title-single
         body:
-            - h1hero
-            - breadcrumbs
-            - content
-            - modules-aside
+            - body-h1hero
+            - body-breadcrumbs
+            - body-side-main
+            - body-modules-aside
         main:
-            - contentmain
+            - main-content
     # page.Kind "home"
     home:
         head:
-            - meta-desc-single
-            - schema-corporation
-            - schema-website
-            - title-home
+            - head-meta-desc-single
+            - head-schema-corporation
+            - head-schema-website
+            - head-title-home
         body:
-            - h1home
-            - countrylist
-            - cta
-            - contentwide
-            - references
-            - modules-aside
-            - testimonials
-            - location
+            - body-h1home
+            - body-countrylist
+            - body-cta
+            - body-contentwide
+            - body-references
+            - body-modules-aside
+            - body-testimonials
+            - body-location
         main:
-            - modules
-            - contentshort
+            - main-modules
+            - main-contenthome
 
 
 # page.Type "404"
@@ -119,10 +90,10 @@ _default:
     # page.Kind "page"
     page:
         head:
-            - meta-desc-single
-            - title-404
+            - head-meta-desc-single
+            - head-title-404
         body:
-            - content404
+            - body-content404
 
 
 
@@ -138,98 +109,98 @@ news:
         # here, there is no "head:" part defined so _default:section:head: will be used
         # body part is defined so it will override _default:section:body: part
         body:
-            - h1hero
-            - content
+            - body-h1hero
+            - body-side-main
         # content main blocks
         # will appear where the "content" item is inserted in "body:"
         # if there is no "content" item it will not be used
         main:
-            - list
-            - buttonprevnextnews
+            - main-list
+            - main-buttonprevnextnews
         # content sidebar blocks
         # will appear where the "content" item is inserted in "body:" (there must be a content item in body:)
         # if there is no "content" item it will not be used
         side:
-            - topcategories
+            - side-topcategories
         # list of pages blocks (repeated for each page listed)
         # will appear where the "list" item is inserted in "body:" or "main:"
         # if there is no "list" item it will not be used
         list:
-            - title
-            - metadata
-            - tags
-            - banner
-            - summary
-            - buttonmorenews
-            - space-medium
+            - list-h2
+            - list-metadata
+            - list-tags
+            - list-banner
+            - list-summary
+            - list-buttonmorenews
+            - list-space-medium
     page:
         head:
-            - meta-desc-news-single
-            - title-single
+            - head-meta-desc-news-single
+            - head-title-single
         body:
-            - breadcrumbs
-            - content
+            - body-breadcrumbs
+            - body-side-main
         side:
-            - related
-            - topcategories
+            - side-related
+            - side-topcategories
         main:
-            - h1
-            - metadata
-            - tags
-            - contentmain
+            - main-h1
+            - main-metadatanews
+            - main-tags
+            - main-content
 
 
 # page.Type "references"
 references:
     section:
         body:
-            - h1hero
-            - references
-            - content
+            - body-h1hero
+            - body-references
+            - body-side-main
         main:
-            - pages-references
+            - main-listreferences
 
 
 # page.Type "revolution"
 revolution:
     section:
         head:
-            - meta-desc-section
-            - title-section
+            - head-meta-desc-section
+            - head-title-section
         body:
-            - h1hero
-            - content-revolution-section
+            - body-h1hero
+            - body-content-revolution-section
     page:
         body:
-            - h1hero
-            - breadcrumbs
-            - content-revolution-single
+            - body-h1hero
+            - body-breadcrumbs
+            - body-content-revolution-single
 
 
 
 # page.Type "tags"
 tags:
-    # taxonomy = section for tags
+    # page.Kind "taxonomy" = section for tags
     taxonomy:
         head:
-            - meta-desc-tags-taxonomy
-            - meta-robots-ni
-            - title-tags-taxonomy
+            - head-meta-desc-tags-taxonomy
+            - head-meta-robots-ni
+            - head-title-tags-taxonomy
         body:
-            - h1hero
-            - content
-            - pages-tags
-    # term = page for tags
+            - body-h1hero
+            - body-side-main
+            - body-pages-tags
+    # page.Kind "term" = page for tags
     term:
         head:
-            - meta-desc-tags-term
-            - meta-robots-ni
-            - title-tags-term
+            - head-meta-desc-tags-term
+            - head-meta-robots-ni
+            - head-title-tags-term
         body:
-            - h1hero
-            - breadcrumbs
-            - content
-            - pages-tags
+            - body-h1hero
+            - body-breadcrumbs
+            - body-side-main
+            - body-pages-tags
 
 
 
@@ -237,28 +208,28 @@ tags:
 team:
     section:
         head:
-            - meta-desc-section
-            - title-section
+            - head-meta-desc-section
+            - head-title-section
         body:
-            - h1hero
-            - contentwide
+            - body-h1hero
+            - body-contentwide
         main:
-            - contentshort
-            - team
+            - main-contenthome
+            - main-listteam
     page:
         head:
-            - meta-desc-team-single
-            - schema-person
-            - title-team-single
+            - head-meta-desc-team-single
+            - head-schema-person
+            - head-title-team-single
         body:
-            - breadcrumbs
-            - content
+            - body-breadcrumbs
+            - body-side-main
         main:
-            - h1team
-            - positionteam
-            - contentmain
+            - main-h1team
+            - main-positionteam
+            - main-content
         side:
-            - phototeam
+            - side-phototeam
 
 
 
@@ -266,16 +237,16 @@ team:
 training:
     section:
         body:
-            - h1hero
-            - breadcrumbs
-            - references
-            - content
-            - pages
+            - body-h1hero
+            - body-breadcrumbs
+            - body-references
+            - body-side-main
+            - body-pages
         side:
-            - links
+            - side-links
     page:
         body:
-            - h1hero
-            - content
+            - body-h1hero
+            - body-side-main
         side:
-            - training
+            - side-training

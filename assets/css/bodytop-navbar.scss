@@ -1,0 +1,173 @@
+@import "_sassmix";
+
+.cl-navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:1000; /* no other element should be given a higher z-index */
+	padding-left: var(--module-column-gap);
+	padding-right: var(--module-column-gap);
+	max-width: var(--page-max-width);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	@include scheme-navbar;
+}
+
+/* Font for menu */
+.cl-navbar--menu-item,
+.cl-navbar--menu-item a,
+.cl-navbar--menu-dropdown-item,
+.cl-navbar--menu-dropdown-item a {
+	@include font-navbar;
+	text-transform: uppercase;
+	font-size: 14px;
+	border: none; /* remove underline for a links */
+}
+
+.cl-navbar--menu-checkbox {
+	display: none; /* hide checkboxes */
+}
+
+/* Menu for normal screens */
+@media (min-width : $sm-screen) {
+	/* Logo */
+	.cl-navbar--brand {
+		height: var(--menubar-height);
+	}
+	
+	.cl-navbar--menu-burger {
+		display: none; /* hide burger symbol on normal screens */
+	}
+	
+	.cl-navbar--menu {
+		margin: 0;
+		padding: 0;
+		height: var(--menubar-height);
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		gap: 1em;
+	}
+	
+	.cl-navbar--menu-item {
+		display: flex; /* allows easy vertical centering of <a> tag inside */
+		align-items: center; /* so text item inside is centered vertically */
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		height: var(--menubar-height);
+	}
+	
+	/* show dropdown on hover */
+	.cl-navbar--menu-item:hover .cl-navbar--menu-dropdown {
+		display: inherit;
+		@include scheme-navbar;
+	}
+
+	.cl-navbar--menu-dropdown {
+		display: none;
+		flex-direction: column;
+		position: absolute;
+		top: calc(var(--menubar-height) - 2px);
+		right: 0;
+		margin: 0;
+		padding: 0;
+		width: auto;
+	}
+
+	.cl-navbar--menu-dropdown-item {
+		float: none;
+		display: list-item;
+		position: relative;
+		list-style: none;
+		padding: 5px 12px;
+		line-height: 20px;
+	}
+	.cl-navbar--menu-dropdown-item a {
+		text-align: right;
+	}
+}
+
+/* Special menu properties for medium screens */
+@media (min-width: $sm-screen) and (max-width : {{ site.Params.layout.shorten_width }}) {
+	.cl-navbar--menu-shorten {
+		display: none; /* show only icon (hide text) on medium screen widths */
+	}
+}
+
+/* Menu for ts screens */
+@media (max-width : $sm-screen) {
+	
+	.cl-navbar {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index:1000; /* no other element should be given a higher z-index */
+		padding-left: calc( var(--module-ts-column-gap) );
+		padding-right: calc( var(--module-ts-column-gap) );
+	}
+	
+	/* Logo */
+	.cl-navbar--brand {
+		height: var(--menubar-height);
+	}
+
+	.cl-navbar--menu-burger { 
+		display: inline-block;
+	}
+	
+	.cl-navbar--menu {
+		position: fixed;
+		margin: 0;
+		padding: 1em;
+		left: 0;
+		top: calc(var(--menubar-height) - 2px);
+		height: auto;
+		width: 100%;
+		display: none; /* hide menu on ts screens, show if burger checkbox checked */
+		flex-direction: column;
+		align-items: center;
+		gap: 1em;
+		@include scheme-navbar;
+	}
+	
+	.cl-navbar--menu-item {
+		margin: 0;
+		padding: 0.20em;
+		width: 100%;
+		display: flex; /* allows easy vertical centering of <a> tag inside */
+		flex-direction: column;
+		align-items: center; /* so text item inside is centered vertically */
+		justify-content: center;
+		list-style: none;
+	}
+
+	.cl-navbar--menu-dropdown {
+		position: static;
+		top: calc(var(--menubar-height) - 2px);
+		margin: 0;
+		padding: 1em;
+		width: 100%;
+		display: none; /* hide, show if checkbox checked */
+		flex-direction: column;
+		align-items: center;
+		gap: 1em;
+	}
+	
+	.cl-navbar--menu-dropdown-item {
+		display: list-item;
+		position: relative;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	/* show menu or menu dropdown when checkbox is checked */
+	[id^=drop]:checked + .cl-navbar--menu,
+	[id^=drop]:checked + .cl-navbar--menu-dropdown {
+		display: flex;
+	}
+	
+}

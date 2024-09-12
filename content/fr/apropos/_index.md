@@ -5,11 +5,11 @@ description: "Agence spécialisée en présentation et en prise de parole en pub
 translationKey: "about"
 
 body:
-- h1hero
-- location
-- content
-- pages
-- modules-aside
+- body-h1hero
+- body-location
+- body-side-main
+- body-pages
+- body-modules-aside
 
 datamoduleasidelist: [ team, catalogue ]
 ---

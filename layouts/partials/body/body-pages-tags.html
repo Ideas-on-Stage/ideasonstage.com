@@ -1,0 +1,16 @@
+<div class="cl-critical--content-width cl-critical--content-space-v cl-side-main">
+	<aside id="sidebar" class="cl-side-main--side cl-side">
+		{{ partial "side/side-topcategories.html" . }}
+	</aside>
+	<article id="content-main" class="cl-side-main--main">
+		<ul class="cl-tags">
+			{{ range .Pages.ByTitle }}
+				<li class="cl-tags--tag">
+					<a href="{{ .RelPermalink }}">
+						{{ .Title }}
+					</a>
+				</li>
+			{{ end }}
+		</ul>
+	</article>
+</div>

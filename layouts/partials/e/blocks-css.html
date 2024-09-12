@@ -1,3 +1,13 @@
+{{/* <!--
+	
+	e/blocks-css
+
+	- Finds the name of the blocks bl-* used on the page
+	- Calls f/getblockscss.go to retrieve the CSS files with matching names
+	- Adds content of CSS files as inline css (directly in <head><style>css here</style></head> )
+	
+ --> */}}
+
 {{ "<!-- partials/e/blocks-css.html:start -->" | safeHTML }}
 <style type="text/css">
 	{{- $blocks := partial "f/getblockscss.go" "dummy" -}}

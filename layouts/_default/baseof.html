@@ -43,7 +43,7 @@
 			{{ partial "e/blocks-common.html" "footer" }}
 		</footer>
 		{{ partial "js/js.html" . }}
-		{{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "main.css" . | resources.ToCSS | resources.Minify }}
+		{{ $style := resources.Get "css/more.scss" | resources.ExecuteAsTemplate "more.css" . | resources.ToCSS | resources.Minify }}
 		<link rel="preload" href="{{ $style.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
 		<noscript>
 			<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">

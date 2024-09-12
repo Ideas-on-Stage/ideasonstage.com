@@ -1,0 +1,8 @@
+<section id="content-list" class="cl-critical--content-width">
+	{{ range .Pages }}
+		{{ if (isset .Params "title") }}
+			{{/* <!-- Only list pages with a title in front matter --> */}}
+			{{ partial "list/list-link-picture2-text1.html" . }}
+		{{ end }}
+	{{ end }}
+</section>

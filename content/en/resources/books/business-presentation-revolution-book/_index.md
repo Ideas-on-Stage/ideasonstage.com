@@ -4,9 +4,9 @@ title: "Business Presentation Revolution - The Book"
 description: "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? Discover the Business Presentation Revolution book."
 
 body:
-- h1hero
-- breadcrumbs
-- content
+- body-h1hero
+- body-breadcrumbs
+- body-side-main
 ---
 
 ## Business Presentation Revolution – The Book

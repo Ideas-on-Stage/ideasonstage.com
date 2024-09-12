@@ -1,0 +1,57 @@
+@import "_sassmix";
+@import "_side-params";
+
+
+
+$text-font-family: "Times", "Serif" !default;
+$title-font-family: "Helvetica Neue", "Sans Serif" !default;
+
+
+
+.cl-side {
+	width: calc( 33% - var(--module-big-gap) * 2 );
+	background-color: var(--color-lightgray);
+	@media (max-width: $sm-screen) {
+		width: 100%;
+	}
+	
+	a {
+		font-family: $text-font-family;
+		font-size: 1em;
+	}
+	
+	img {
+		display: block;
+		max-width: 100%; /* prevent overflow from container */
+	}
+	
+	h2 {
+		font-family: $title-font-family;
+		margin: 1em 1em 0.5em 1em;
+		font-size: 1em;
+	}
+	
+	li {
+		font-family: $text-font-family;
+		margin: 1em;
+		font-size: 0.8em;
+	}
+
+	p {
+		font-family: $text-font-family;
+		margin: 1em;
+		font-size: 0.8em;
+	}
+	
+	ol {
+		font-family: $text-font-family;
+	}
+	
+	ul {
+		font-family: $text-font-family;
+		list-style-type: none;
+		padding: 0; /* remove left space on lists */
+		margin: 0;
+		margin-bottom: 1em;
+	}
+}

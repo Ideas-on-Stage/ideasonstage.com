@@ -1,0 +1,51 @@
+@import "_sassmix";
+@import "_body-side-main-params";
+@import "side";
+
+$text-font-family: "Times", "Serif" !default;
+$title-font-family: "Helvetica Neue", "Sans Serif" !default;
+
+.cl-side-main {
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	gap: var(--module-big-gap);
+	@media (max-width: $sm-screen) {
+		flex-direction: column-reverse;
+	}
+}
+
+.cl-side-main--main {
+	width: 100%;
+	
+	img {
+		display: block; /* prevent line height from being added to div height */
+		max-width: 100%;
+		height: auto;
+		object-fit: contain;
+	}
+}
+
+.cl-side-main--side {
+	width: calc( 33% - var(--module-big-gap) * 2 );
+	background-color: var(--color-lightgray);
+	@media (max-width: $sm-screen) {
+		width: 100%;
+	}
+}
+
+.cl-side-main--side + .cl-side-main--main {
+	width: calc( 67% - var(--module-big-gap) / 2 );	/* reduce main content width when there is a sidebar */
+	@media (max-width: $sm-screen) {
+		width: 100%; /* set main content width to 100% on ts screens */
+	}
+}
+
+/* style for photograph styled pictures */
+.cl-side-main--photograph {
+	border: 8px solid #fff;
+	box-shadow: 2px 2px 8px #aaa;
+}

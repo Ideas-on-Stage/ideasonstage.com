@@ -1,0 +1,12 @@
+{{ "<!-- Critical CSS -->" | safeHTML }}
+<style type="text/css">
+	{{- $variables := resources.Get "css/variables.scss" | resources.ExecuteAsTemplate "variables.css" . | resources.ToCSS | resources.Minify -}}
+	{{- $variables.Content | safeCSS -}}
+	{{- $core := resources.Get "css/core.scss" | resources.ExecuteAsTemplate "core.css" . | resources.ToCSS | resources.Minify -}}
+	{{- $core.Content | safeCSS -}}
+</style>
+{{ "<!-- Typography -->" | safeHTML }}
+<style type="text/css">
+	{{- $typography := resources.Get "css/typography.css" | resources.Minify -}}
+	{{- $typography.Content | safeCSS -}}	
+</style>

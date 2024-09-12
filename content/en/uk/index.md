@@ -10,13 +10,17 @@ mastodon: "https://mastodon.social/@pmorsa"
 type: "home"
 
 body:
-- h1home
-- cta
-- modules
-- contentshort
-- references
-- modules-aside
-- testimonials
+    - body-h1home
+    - body-countrylist
+    - body-cta
+    - body-contentwide
+    - body-references
+    - body-modules-aside
+    - body-testimonials
+    - body-location
+main:
+    - main-modules
+    - main-contenthome
 
 datacta: "public-speaking-guide"
 datamodulelist: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]

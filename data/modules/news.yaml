@@ -1,6 +1,6 @@
 en:
     title: "News"
-    layout: "inserts/module-half-text-picture.html"
+    layout: "module/half-text-picture.html"
     style: "bg-light"
     picture: "/img/modules/news.png"
     url: "/news/"
@@ -9,7 +9,7 @@ en:
 
 fr:
     title: "Nouvelles"
-    layout: "inserts/module-half-text-picture.html"
+    layout: "module/half-text-picture.html"
     style: "bg-light"
     picture: "/img/modules/news.png"
     url: "/fr/news/"

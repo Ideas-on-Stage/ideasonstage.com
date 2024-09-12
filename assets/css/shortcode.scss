@@ -1,0 +1,279 @@
+@import "_sassmix";
+
+
+
+.cl-shortcode {
+	margin: 0 -2vw;
+	padding: 2vw;
+	@media (max-width: $sm-screen) {
+		flex-direction: column-reverse;
+		margin: 0 -4vw;
+		padding: 4vw;
+	}
+
+	> :first-child {
+		margin-top: 0;
+	}
+	> :last-child {
+		margin-bottom: 0;
+	}
+
+	h3 {
+		margin-top: 0;
+	}
+
+}
+
+.cl-shortcode--img {
+	margin: 0 -2vw;
+	padding: 0;
+	@media (max-width: $sm-screen) {	
+		margin: 0 -4vw;
+		padding: 0;
+	}
+	
+	> img {
+	display: block; /* prevent line height from being added to div height */
+	width: 100%;
+	height: 100%;
+	}
+
+}
+
+
+/* spacing with other elements (that are not of class .cl-shortcode) */
+:not(.cl-shortcode) + .cl-shortcode,
+.cl-shortcode + :not(.cl-shortcode),
+div.cl-shortcode--img + :not(div) {
+	/* add margin space between cl-shortcode and content that is not of class .cl-shortcode */
+	margin-top: 48px;
+}
+
+
+.cl-shortcode--category {
+	text-align: center;
+}
+
+/* ios certificate */
+.cl-shortcode--certificate {
+	width: 256px;	
+}
+
+
+
+/* icon */	
+.cl-shortcode--icon {
+	margin: auto; /* to center icon */
+}	
+.cl-shortcode--icon-small {
+	width: 50%;
+}
+.cl-shortcode--icon-text {
+	margin-top: 0;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+
+
+/* Text */
+.cl-shortcode--text-centered {
+	margin: 2vw auto;
+	padding: 0;
+	text-align: center;
+}
+@media (max-width: $sm-screen) {
+	.cl-shortcode--text-centered {
+		margin: 8vw;
+	}
+}
+.cl-shortcode--text-centered {
+		text-align: center;
+}
+.cl-shortcode--title-centered {
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 0.5em;
+}
+
+
+
+/*Agenda */		
+.cl-shortcode--agenda-list {
+	> :first-child {
+		margin-top: 0;
+	}
+	> :last-child {
+		margin-bottom: 0;
+	}
+}
+
+.cl-shortcode--agenda-item {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	text-align: center;
+	
+	.title {
+		color: var(--color-secondary);
+		margin-top: 0;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		text-align: center;		
+	}
+	
+	.description {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	
+}
+
+/* Agenda Collapsible Styling */
+input[type='checkbox'] {
+	display: none;
+}
+.cl-shortcode--agenda-item-toggle {
+	display: block;  
+	font-weight: 500;
+	cursor: pointer;
+	margin-top: 1em;
+}
+.cl-shortcode--agenda-item-collapsible {
+	max-height: 0px;
+	overflow: hidden;
+	transition: max-height .25s ease-in-out;
+}
+.cl-shortcode--agenda-item-toggle:checked + .cl-shortcode--agenda-item-toggle + .cl-shortcode--agenda-item-collapsible {
+	max-height: 100vh;
+}
+
+.cl-shortcode--call-to-action {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+.cl-shortcode--picture1-text2 {
+	display: flex;
+	flex-direction: row;
+	gap: var(--module-big-gap);
+	@media (max-width: $sm-screen) {
+		flex-direction: column;
+	}
+	
+	.text {
+		width: calc( 66% - var(--module-big-gap) );
+		@media (max-width: $sm-screen) {
+			width: 100%;
+		}	
+		
+		> :first-child {
+			margin-top: 0;
+		}
+		> :last-child {
+			margin-bottom: 0;
+		}	
+	}
+	
+	.picture {
+		width: 34%;
+		@media (max-width: $sm-screen) {
+			width: 100%;
+		}
+	}
+
+}
+
+.cl-shortcode--picture2-text1 {
+	display: flex;
+	flex-direction: row;
+	gap: var(--module-big-gap);
+	@media (max-width: $sm-screen) {
+		flex-direction: column;
+	}
+	
+	.text {
+		width: 34%;
+		@media (max-width: $sm-screen) {
+			width: 100%;
+		}	
+		
+		> :first-child {
+			margin-top: 0;
+		}
+		> :last-child {
+			margin-bottom: 0;
+		}	
+	}
+	
+	.picture {
+		width: calc( 66% - var(--module-big-gap) );
+		@media (max-width: $sm-screen) {
+			width: 100%;
+		}
+	}
+
+}
+
+.cl-shortcode--text1-picture2 {
+	display: flex;
+	flex-direction: row;
+	gap: var(--module-big-gap);
+	@media (max-width: $sm-screen) {
+		flex-direction: column-reverse;
+	}
+	
+	.text {
+		width: 34%;
+		@media (max-width: $sm-screen) {
+			width: 100%;
+		}
+		
+		> :first-child {
+			margin-top: 0;
+		}
+		> :last-child {
+			margin-bottom: 0;
+		}
+	}
+	
+	.picture {
+		width: calc( 66% - var(--module-big-gap) );
+		@media (max-width: $sm-screen) {
+			width: 100%;
+		}
+	}
+
+}
+
+.cl-shortcode--text2-picture1 {
+	display: flex;
+	flex-direction: row;
+	gap: var(--module-big-gap);
+	@media (max-width: $sm-screen) {
+		flex-direction: column-reverse;
+	}
+	
+	.text {
+		width: calc( 66% - var(--module-big-gap) );
+		@media (max-width: $sm-screen) {
+			width: 100%;
+		}
+		
+		> :first-child {
+			margin-top: 0;
+		}
+		> :last-child {
+			margin-bottom: 0;
+		}
+	}
+	
+	.picture {
+		width: 34%;
+		@media (max-width: $sm-screen) {
+			width: 100%;
+		}
+	}
+
+}

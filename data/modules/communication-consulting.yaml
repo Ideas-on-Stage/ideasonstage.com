@@ -4,7 +4,7 @@ en:
     description: "A human-centric vision of corporate communication."
     picture: "/img/modules/communication-consulting.jpg"
     style: "bg-black"
-    layout: "inserts/module-picture-textright.html"
+    layout: "module/row-picture-text.html"
     url: "/communication-consulting/"
     button: "Discover our approach to corporate communication"
 
@@ -14,6 +14,6 @@ fr:
     description: "Découvrez une approche différente de la communication d'entreprise."
     picture: "/img/modules/communication-consulting.jpg"
     style: "bg-black"
-    layout: "inserts/module-picture-textright.html"
+    layout: "module/row-picture-text.html"
     url: "/fr/conseil-communication/"
 

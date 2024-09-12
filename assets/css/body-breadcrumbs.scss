@@ -1,0 +1,35 @@
+/* Import */
+@import "_sassmix";
+@import "_body-breadcrumbs-params";
+
+
+
+/* Variables */
+$breadcumb-padding: 0.5em 0 !default;
+$list-gap: 0.5em !default;
+$list-transform: uppercase !default;
+
+
+
+/* CSS */
+.cl-breadcrumbs {
+	background-color: var(--color-lightgray);
+
+	a {
+		border: none; /* remove line under link */
+	}
+
+	ol {
+		display: flex;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: $breadcumb-padding;
+		list-style: none;
+		text-transform: $list-transform;
+		gap: $list-gap;
+		
+		li {
+			margin: 0;
+		}
+	}
+}

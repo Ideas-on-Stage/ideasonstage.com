@@ -11,10 +11,10 @@ datareferencelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombu
 datamodulelist: [ "guidepublicspeaking", "guideremotepresentations" ]
 
 body:
-  - h1hero
-  - breadcrumbs
-  - references
-  - content
+  - body-h1hero
+  - body-breadcrumbs
+  - body-references
+  - body-side-main
 
 sidebar:
   title: "Liste des formations"

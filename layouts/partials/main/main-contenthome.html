@@ -1,0 +1,7 @@
+{{ with .Content }}
+	<article id="article" class="cl-contenthome">
+		{{ . }}
+	</article>
+{{ else }}
+	{{ partial "e/html-comment.html" "skipped: contenthome: no content" }}
+{{ end }}

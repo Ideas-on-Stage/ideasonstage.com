@@ -1,0 +1,10 @@
+<section id="list" class="cl-critical--content-width cl-critical--content-space-v">
+	{{ $blocks := partial "f/getblocks.go" "list" }}
+	{{ range .Pages }}
+		{{ $page := . }}
+		{{ range $blocks }}
+			{{ $partial := printf "%s/%s.html" "list" . }}
+			{{ partial $partial $page }}
+		{{ end }}
+	{{ end }}
+</section>

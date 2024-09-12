@@ -1,6 +1,6 @@
 en:
     title: "What is your Presentation Score?"
-    layout: "inserts/module-half-text-picture.html"
+    layout: "module/half-text-picture.html"
     style: "bg-primary"
     picture: "/img/inserts/meter.png"
     url: "https://presentationscorecard.scoreapp.com/"

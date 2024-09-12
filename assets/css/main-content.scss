@@ -1,0 +1,111 @@
+@import "_sassmix";
+@import "_main-content-params";
+@import "shortcode";
+
+
+
+$text-font-family: "Times", "Serif" !default;
+$title-font-family: "Helvetica Neue", "Sans Serif" !default;
+
+
+
+.cl-content {
+
+	> :first-child {
+		margin-top: 0;
+	}
+	> :last-child {
+		margin-bottom: 0;
+	}
+	
+	> blockquote {
+		font-family: $text-font-family;
+		background: #f5f5f5;
+		border-radius: 0px;
+		margin: 1em 0;
+		padding: 1em;
+		color: var(--color-blockquote);
+		border-left: 4px var(--color-secondary) solid;
+		
+		> :first-child {
+			margin-top: 0;
+		}
+		> :last-child {
+			margin-bottom: 0;
+		}
+		
+	}
+	
+	/* h1 should be in <header> title, not in content, so it is not styled */
+	> h2,
+	> h3,
+	> h4 {
+		font-family: $title-font-family;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		scroll-margin-top: calc(var(--menubar-height) + 48px);
+	}
+
+	> ul {
+		list-style-type: square;
+	}	
+	> ol,
+	> ul {
+		font-family: $text-font-family;
+		margin-top: 0;
+		margin-bottom: 0;
+		
+		> li {
+			margin-top: 0.5em;
+			margin-bottom: 0em;
+			line-height: 1.6em;
+		}
+	}
+
+	> p {
+		font-family: $text-font-family;
+		margin-top: 1.6em;
+		margin-bottom: 0em;
+		line-height: 1.6em;
+		
+		> a {
+			font-family: $text-font-family;
+		}
+		
+		> img {
+			display: block;
+			margin-top: 3em;
+			margin-bottom: 3em;
+			width: auto;
+			height: auto;
+			max-width: 100%; /* ensures img are shown at max content width */
+		}
+	}
+	
+	> table {
+		font-family: $text-font-family;
+		border: 1px solid #ddd;
+		border-collapse: collapse;
+		
+		> thead {
+			border: none;
+		}
+		
+		> td {
+			padding: 1em;
+			width: auto;
+			border: 1px solid #ddd;
+		}
+		
+		> th {
+			padding: 1em;
+			width: auto;
+			min-width: 120px; /* small columns will have the same size */
+			border: 1px solid #ddd;
+			text-align: center;
+			@media (max-width: $sm-screen) {
+				min-width: 50px;
+			}
+		}
+	}
+}
