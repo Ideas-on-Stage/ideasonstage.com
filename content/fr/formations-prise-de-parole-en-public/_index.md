@@ -35,25 +35,25 @@ Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateu
 Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais experts, reconnus dans le monde de l'entreprise.
 
 {{< image-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
-{{< agenda-list style="bg-light paddingv-small" title="Formation Prise de Parole 2 jours">}}
+{{< agenda-list style="bg-light" title="Formation Prise de Parole 2 jours">}}
 	{{< agenda-item title="" description="Notre formation phare de prise de parole en public, qui regroupe les modules Storytelling, Présentations PowerPoint et Art Oratoire. Cette formation s'appuie sur notre expérience unique de conseil en présentation auprès des plus grandes entreprises et des meilleures écoles de commerce." >}}
 {{< /agenda-list >}}
 {{< call-to-action button="En savoir plus" link="/fr/formation-prise-de-parole-2-jours/" style="bg-light paddingv-small" >}}
 
 {{< image-wide src="prise-de-parole-en-public-002.jpg" alt="Intervenant en train de réaliser une présentation" >}}
-{{< agenda-list style="bg-light paddingv-small" title="Formation Art Oratoire">}}
+{{< agenda-list style="bg-light" title="Formation Art Oratoire">}}
 	{{< agenda-item title="" description="Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations." >}}
 {{< /agenda-list >}}
 {{< call-to-action button="En savoir plus" link="/fr/formation-art-oratoire/" style="bg-light paddingv-small" >}}
 
 {{< image-wide src="prise-de-parole-en-public-003.jpg" alt="Storytelling" >}}
-{{< agenda-list style="bg-light paddingv-small" title="Formation storytelling">}}
+{{< agenda-list style="bg-light" title="Formation storytelling">}}
 	{{< agenda-item description="Le module storytelling est un module star de nos formations. Unique en son genre, pensé pour les besoins des entreprises, il vous apprendra comment construire votre discours pour convaincre votre auditoire, depuis l'identification des messages clés jusqu'à la création d'une histoire captivante." >}}
 {{< /agenda-list >}}
 {{< call-to-action button="En savoir plus" link="/fr/formation-storytelling/" style="bg-light paddingv-small" >}}
 
 {{< image-wide src="prise-de-parole-en-public-004.jpg" alt="Gros plan mains qui applaudissent" >}}
-{{< agenda-list style="bg-light paddingv-small" title="Formation Présentations PowerPoint">}}
+{{< agenda-list style="bg-light" title="Formation Présentations PowerPoint">}}
 	{{< agenda-item title="" description="Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoint. Lors de cette formation vous apprendrez comment utiliser PowerPoint pour créer des diapositives qui vont renforcer et clarifier votre discours oral. Vous apprendrez quel type de diapositive créer en fonction de l'utilisation de la présentation. Vous serez formés aux techniques de base du design pour créer des slides à fort impact visuel : simplicité, structure, choix des éléments. Enfin, vous verrez comment utiliser PowerPoint pour gagner du temps." >}}
 {{< /agenda-list >}}
 {{< call-to-action button="En savoir plus" link="/fr/formation-presentations-powerpoint/"  style="bg-light paddingv-small" >}}
@@ -83,7 +83,7 @@ Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise e
 
 Nos formations sont données uniquement en intra-entreprises.
 
-{{< picture1-text2 picture="trois-cercles.svg" title="Une formation en prise de parole en public complète et moderne" style="padding-small border" >}}
+{{< picture1-text2 picture="trois-cercles.svg" title="Une formation en prise de parole en public complète et moderne" style="border" >}}
 En 2010, Ideas on Stage a été le premier acteur à amener une méthode de présentation moderne et complète, basée sur l'état de l'art. Cette méthode combine les trois piliers d'une bonne présentation : histoire, visuels et art oratoire, pour communiquer efficacement son message.
 
 Le « **storytelling** » apporte les outils pour identifier les messages clés et les structurer en une histoire passionnante et simple à suivre.  

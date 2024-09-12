@@ -13,7 +13,6 @@
 _common:
     # common header blocks for all pages
     head:
-        - head-css
         - head-meta
         - head-hreflang
         - head-alternate
@@ -174,8 +173,9 @@ revolution:
         body:
             - body-h1hero
             - body-breadcrumbs
-            - body-content-revolution-single
-
+            - body-side-main
+        side:
+            - side-topcategories
 
 
 # page.Type "tags"
