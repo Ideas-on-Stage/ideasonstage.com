@@ -38,20 +38,22 @@
 	<!-- scale pic if it is not a SVG (SVGs don't need to and cannot be scaled) -->
 	{{ if ne "svg" $image.MediaType.SubType }}
 		<!-- uses settings from config.toml depending on orientation -->
-		{{ $widths := site.Params.images.landscapePhotoWidths }}
+		{{ $scales := site.Params.images.landscape }}
 		{{ if gt $image.Height $image.Width }}
-			{{ $widths = site.Params.images.portraitPhotoWidths }}
+			{{ $scales = site.Params.images.portrait }}
 		{{ end }}
 		
 		<!--
-  		Add URL for each width to $imgSrcSet variable
-  		format: "/path/img_1000.jpg 1000w,/path/img_500.jpg 500w"
-  		Note: the first URL is used as "fallback" src in $imgSrc.
+		Add URL for each width to $imgSrcSet variable
+		format: "/path/img_1000.jpg 1000w,/path/img_500.jpg 500w"
+		Note: the first URL is used as "fallback" src in $imgSrc.
 		-->
-		{{ range $widths }}
-			{{ $srcUrl := (printf "%dx" . | $image.Resize).RelPermalink }}
-			{{ if eq $imgSrc "" }}{{ $imgSrc = $srcUrl }}{{ end }}
-			{{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .) }}
+		{{ range $scales }}
+			{{ $srcUrl := (printf "%dx" .scale | $image.Resize).RelPermalink }}
+			{{ if eq $imgSrc "" }}
+				{{ $imgSrc = $srcUrl }}
+			{{ end }}
+			{{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .scale) }}
 		{{ end }}
 		{{ $imgSrcSet = slice $imgSrc (delimit $imgSrcSet ",") }}
 	{{ else }}

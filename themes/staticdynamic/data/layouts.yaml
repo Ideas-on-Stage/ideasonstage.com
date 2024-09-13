@@ -190,6 +190,8 @@ tags:
             - body-h1hero
             - body-side-main
             - body-pages-tags
+        main:
+            - main-tags
     # page.Kind "term" = page for tags
     term:
         head:

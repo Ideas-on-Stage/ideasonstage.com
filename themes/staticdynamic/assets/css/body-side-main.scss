@@ -21,6 +21,13 @@ $title-font-family: "Helvetica Neue", "Sans Serif" !default;
 .cl-side-main--main {
 	width: 100%;
 	
+	> :first-child {
+		margin-top: 0;
+	}
+	> :last-child {
+		margin-bottom: 0;
+	}
+	
 	img {
 		display: block; /* prevent line height from being added to div height */
 		max-width: 100%;
@@ -34,6 +41,13 @@ $title-font-family: "Helvetica Neue", "Sans Serif" !default;
 	background-color: var(--color-lightgray);
 	@media (max-width: $sm-screen) {
 		width: 100%;
+	}
+	
+	> :first-child {
+		margin-top: 0;
+	}
+	> :last-child {
+		margin-bottom: 0;
 	}
 }
 

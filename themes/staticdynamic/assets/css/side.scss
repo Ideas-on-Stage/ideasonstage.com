@@ -8,11 +8,19 @@ $side-font-size-li: 0.8em !default;
 
 
 .cl-side {
+	padding-top: 1em;
 	width: calc( 33% - var(--module-big-gap) * 2 );
 	background-color: var(--color-lightgray);
 	@media (max-width: $sm-screen) {
 		width: 100%;
 	}
+
+	> :first-child {
+		margin-top: 0;
+	}	
+	> :last-child {
+		margin-bottom: 0;
+	}	
 	
 	a {
 		font-size: $side-font-size;
@@ -24,7 +32,7 @@ $side-font-size-li: 0.8em !default;
 	}
 	
 	h2 {
-		margin: 1em 1em 0.5em 1em;
+		margin: 0em 1em 0.5em 1em;
 		font-size: $side-font-size-h2;
 	}
 	
@@ -40,7 +48,7 @@ $side-font-size-li: 0.8em !default;
 
 	ul {
 		list-style-type: none;
-		padding: 0; /* remove left space on lists */
+		padding-left: 0.2em; /* remove left space on lists */
 		margin: 0;
 		margin-bottom: 1em;
 	}
