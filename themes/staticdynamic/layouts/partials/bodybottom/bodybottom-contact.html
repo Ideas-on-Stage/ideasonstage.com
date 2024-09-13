@@ -1,5 +1,5 @@
 <aside>
-	<section id="contact" class="cl-critical--content-width cl-critical--content-space-v">
+	<section id="contact" class="cl-core--content-width cl-core--content-space-v">
 		
 		<div class="flex-parent flex-parent-column flex-parent-align-center">
 			<h2>
@@ -18,7 +18,7 @@
 			</p>
 		</div> 
 		
-		<div class="cl-critical--content-width-narrow">
+		<div class="cl-core--content-width-narrow">
 			<form action="{{ .RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm" class="cl-form">
 				
 				<input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
@@ -33,7 +33,7 @@
 				
 				<textarea id="message" name="message" class="cl-form--field" placeholder="{{ with .Site.Params.contact.form.message.text }}{{ . | markdownify }}{{ end }}" oninvalid="alert('{{ with .Site.Params.contact.form.message.warning }}{{ .  | markdownify }}{{ end }}');" required></textarea>
 				
-				<input type="submit" id="contactsubmit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="critical--button-primary" success="{{ with .Site.Params.contact.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}">
+				<input type="submit" id="contactsubmit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="cl-core--button-primary" success="{{ with .Site.Params.contact.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}">
 				
 			</form>
 			

@@ -1,25 +1,19 @@
 @import "_sassmix";
-@import "_main-content-params";
+@import "custom/_main-content";
 @import "shortcode";
 
+/* default values */
+$main-content-font-family: $font-family !default;
+$main-content-font-family-h: $font-family-h !default;
 
 
-$text-font-family: "Times", "Serif" !default;
-$title-font-family: "Helvetica Neue", "Sans Serif" !default;
 
+.cl-main-content {
 
-
-.cl-content {
-
-	> :first-child {
-		margin-top: 0;
-	}
-	> :last-child {
-		margin-bottom: 0;
-	}
+	@include firstlastchildnomargin;
 	
 	> blockquote {
-		font-family: $text-font-family;
+		font-family: $main-content-font-family;
 		background: #f5f5f5;
 		border-radius: 0px;
 		margin: 1em 0;
@@ -27,12 +21,7 @@ $title-font-family: "Helvetica Neue", "Sans Serif" !default;
 		color: var(--color-blockquote);
 		border-left: 4px var(--color-secondary) solid;
 		
-		> :first-child {
-			margin-top: 0;
-		}
-		> :last-child {
-			margin-bottom: 0;
-		}
+		@include firstlastchildnomargin;
 		
 	}
 	
@@ -40,7 +29,7 @@ $title-font-family: "Helvetica Neue", "Sans Serif" !default;
 	> h2,
 	> h3,
 	> h4 {
-		font-family: $title-font-family;
+		font-family: $main-content-font-family-h;
 		margin-top: 2em;
 		margin-bottom: 1em;
 		scroll-margin-top: calc(var(--menubar-height) + 48px);
@@ -51,7 +40,7 @@ $title-font-family: "Helvetica Neue", "Sans Serif" !default;
 	}	
 	> ol,
 	> ul {
-		font-family: $text-font-family;
+		font-family: $main-content-font-family;
 		margin-top: 0;
 		margin-bottom: 0;
 		
@@ -63,13 +52,13 @@ $title-font-family: "Helvetica Neue", "Sans Serif" !default;
 	}
 
 	> p {
-		font-family: $text-font-family;
+		font-family: $main-content-font-family;
 		margin-top: 1.6em;
 		margin-bottom: 0em;
 		line-height: 1.6em;
 		
 		> a {
-			font-family: $text-font-family;
+			font-family: $main-content-font-family;
 		}
 		
 		> img {
@@ -83,7 +72,7 @@ $title-font-family: "Helvetica Neue", "Sans Serif" !default;
 	}
 	
 	> table {
-		font-family: $text-font-family;
+		font-family: $main-content-font-family;
 		border: 1px solid #ddd;
 		border-collapse: collapse;
 		

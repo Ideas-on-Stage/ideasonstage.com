@@ -1,7 +1,7 @@
 {{ if and (not .IsHome) (not .Parent.IsHome) }}
 	{{/* <!-- then at least 2 levels of depth, show breadcrumbs --> */}}
-	<nav id="breadcrumbs" class="cl-breadcrumbs">
-		<ol class="cl-critical--content-width">
+	<nav id="breadcrumbs" class="cl-body-breadcrumbs">
+		<ol class="cl-core--content-width">
 			{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
 		</ol>
 	</nav>

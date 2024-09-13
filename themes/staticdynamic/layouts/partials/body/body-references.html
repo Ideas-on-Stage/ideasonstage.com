@@ -1,19 +1,15 @@
 {{ with .Params.datareferencelist }}
-	<section id="reference-list" class="layout-module-group margin bg-white">
-		<div class="flex-parent flex-parent-row flex-parent-gap flex-parent-justify-start">
-			{{ range . }}
-				{{ $data := index site.Data.references . }}
-				{{ if $data }}
-					{{ $localizeddata := index $data site.LanguageCode }}
-					{{ if $localizeddata }}
-						<div class="flex-child flex-child-16p border">
-							{{ $srcset := partial "f/getpicturesrcset.go" $localizeddata.picture }}
-							<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with $localizeddata.client }}alt="{{ . }}"{{ end }} class="logo" height="100" width="100" />
-						</div>
-					{{ end }}
+	<section id="reference-list" class="cl-body-references">
+		{{ range . }}
+			{{ $data := index site.Data.references . }}
+			{{ if $data }}
+				{{ $localizeddata := index $data site.LanguageCode }}
+				{{ if $localizeddata }}
+					{{ $srcset := partial "f/getpicturesrcset.go" $localizeddata.picture }}
+					<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with $localizeddata.client }}alt="{{ . }}"{{ end }} height="100" width="100" />
 				{{ end }}
 			{{ end }}
-		</div>
+		{{ end }}
 	</section>
 {{ else }}
 	{{ partial "e/html-comment.html" "skipped: references: no .Params.datareferencelist" }}

@@ -1,8 +1,8 @@
-<nav id="country-list" class="cl-countrylist">
+<nav id="country-list" class="cl-body-countrylist">
 	<ul>
 		{{ range site.Params.countries }}
 			<li>
-				<a href="{{ .url }}" class="critical--button-secondary">
+				<a href="{{ .url }}" class="cl-core--button-secondary">
 					{{ .name }}
 				</a>
 			</li>

@@ -15,14 +15,15 @@ $font-weight-h: 700 !default;
 $font-family-button: "Gotham SSm A", "Gotham SSm B" !default;
 $font-weight-button: 700 !default;
 
-/* font-size must be without units */
+/* font-size is a ratio between font sizes. It must be WITHOUT units */
 $font-size : 1 !default;
 $font-size-h1: 2 !default;
 $font-size-h2: 1.5 !default;
 $font-size-h3: 1.25 !default;
 $font-size-h4: 1.25 !default;
 $font-size-h5: 1 !default;
-/* font-ratio must be in vw units */
+
+/* font-ratio scales $font-size. It must be in vw units */
 $font-ratio-sm: 4vw !default;
 $font-ratio-md: 1.5vw !default;
 
@@ -33,7 +34,6 @@ $color-secondary: #00A3E0 !default;
 $color-darkgray: #222 !default;
 $color-lightgray: #eee !default;
 $color-midgray: #888 !default;
-
 
 /* white background scheme (DEFAULT)  */
 $scheme-white-back: white !default;
@@ -141,5 +141,15 @@ $scheme-codingandbricks-link-hover: #FFD500 !default;
 	}
 	@else {
 		@include colors($scheme-white-back, $scheme-white-text, $scheme-white-text-mid, $scheme-white-link, $scheme-white-link-hover);
+	}
+}
+
+@mixin firstlastchildnomargin {
+	/* remove top margin from first element and bottom margin from last element */
+	> :first-child {
+		margin-top: 0;
+	}
+	> :last-child {
+		margin-top: 0;
 	}
 }

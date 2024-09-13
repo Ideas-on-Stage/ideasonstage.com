@@ -1,6 +1,6 @@
 {{ $blocks := partial "f/getblocks.go" "list" }}
 {{ range (.Paginator).Pages }}
-	<section class="cl-content">
+	<section class="cl-main-content">
 		{{ $page := . }}
 		{{ range $blocks }}
 			{{ $partial := printf "%s/%s.html" "list" . }}

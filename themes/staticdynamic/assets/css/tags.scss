@@ -1,10 +1,10 @@
 @import "_sassmix";
 
-$tag-scheme: "light" !default;
-$tag-font-size: 0.8em !default;
-$tag-text-transform: uppercase !default;
-$tag-link-border: none !default;
-$tag-padding: 0.25em 0.5em !default;
+$tags-scheme: "light" !default;
+$tags-font-size: 0.8em !default;
+$tags-text-transform: uppercase !default;
+$tags-link-border: none !default;
+$tags-padding: 0.25em 0.5em !default;
 
 
 
@@ -20,14 +20,14 @@ $tag-padding: 0.25em 0.5em !default;
 	width: 100%;
 	
 	li {
-		@include scheme($tag-scheme);
+		@include scheme($tags-scheme);
 		margin: 0;
-		padding: $tag-padding;
-		text-transform: $tag-text-transform;
+		padding: $tags-padding;
+		text-transform: $tags-text-transform;
 	
 		a {
-			font-size: $tag-font-size;
-			border-bottom: $tag-link-border;
+			font-size: $tags-font-size;
+			border-bottom: $tags-link-border;
 		}
 	}
 }

@@ -6,7 +6,7 @@ $navbar-scheme: "dark" !default;
 
 
 
-.cl-navbar {
+.cl-bodytop-navbar {
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -22,32 +22,32 @@ $navbar-scheme: "dark" !default;
 }
 
 /* Font for menu */
-.cl-navbar--menu-item,
-.cl-navbar--menu-item a,
-.cl-navbar--menu-dropdown-item,
-.cl-navbar--menu-dropdown-item a {
+.cl-bodytop-navbar--menu-item,
+.cl-bodytop-navbar--menu-item a,
+.cl-bodytop-navbar--menu-dropdown-item,
+.cl-bodytop-navbar--menu-dropdown-item a {
 	@include font($navbar-font-family, $navbar-font-weight);
 	text-transform: uppercase;
 	font-size: 14px;
 	border: none; /* remove underline for a links */
 }
 
-.cl-navbar--menu-checkbox {
+.cl-bodytop-navbar--menu-checkbox {
 	display: none; /* hide checkboxes */
 }
 
 /* Menu for normal screens */
 @media (min-width : $sm-screen) {
 	/* Logo */
-	.cl-navbar--brand {
+	.cl-bodytop-navbar--brand {
 		height: var(--menubar-height);
 	}
 	
-	.cl-navbar--menu-burger {
+	.cl-bodytop-navbar--menu-burger {
 		display: none; /* hide burger symbol on normal screens */
 	}
 	
-	.cl-navbar--menu {
+	.cl-bodytop-navbar--menu {
 		margin: 0;
 		padding: 0;
 		height: var(--menubar-height);
@@ -57,7 +57,7 @@ $navbar-scheme: "dark" !default;
 		gap: 1em;
 	}
 	
-	.cl-navbar--menu-item {
+	.cl-bodytop-navbar--menu-item {
 		display: flex; /* allows easy vertical centering of <a> tag inside */
 		align-items: center; /* so text item inside is centered vertically */
 		margin: 0;
@@ -67,12 +67,12 @@ $navbar-scheme: "dark" !default;
 	}
 	
 	/* show dropdown on hover */
-	.cl-navbar--menu-item:hover .cl-navbar--menu-dropdown {
+	.cl-bodytop-navbar--menu-item:hover .cl-bodytop-navbar--menu-dropdown {
 		display: inherit;
 		@include scheme($navbar-scheme);
 	}
 
-	.cl-navbar--menu-dropdown {
+	.cl-bodytop-navbar--menu-dropdown {
 		display: none;
 		flex-direction: column;
 		position: absolute;
@@ -83,7 +83,7 @@ $navbar-scheme: "dark" !default;
 		width: auto;
 	}
 
-	.cl-navbar--menu-dropdown-item {
+	.cl-bodytop-navbar--menu-dropdown-item {
 		float: none;
 		display: list-item;
 		position: relative;
@@ -91,14 +91,14 @@ $navbar-scheme: "dark" !default;
 		padding: 5px 12px;
 		line-height: 20px;
 	}
-	.cl-navbar--menu-dropdown-item a {
+	.cl-bodytop-navbar--menu-dropdown-item a {
 		text-align: right;
 	}
 }
 
 /* Special menu properties for medium screens */
 @media (min-width: $sm-screen) and (max-width : {{ site.Params.layout.shorten_width }}) {
-	.cl-navbar--menu-shorten {
+	.cl-bodytop-navbar--menu-shorten {
 		display: none; /* show only icon (hide text) on medium screen widths */
 	}
 }
@@ -106,7 +106,7 @@ $navbar-scheme: "dark" !default;
 /* Menu for ts screens */
 @media (max-width : $sm-screen) {
 	
-	.cl-navbar {
+	.cl-bodytop-navbar {
 		position: fixed;
 		top: 0;
 		width: 100%;
@@ -116,15 +116,15 @@ $navbar-scheme: "dark" !default;
 	}
 	
 	/* Logo */
-	.cl-navbar--brand {
+	.cl-bodytop-navbar--brand {
 		height: var(--menubar-height);
 	}
 
-	.cl-navbar--menu-burger { 
+	.cl-bodytop-navbar--menu-burger { 
 		display: inline-block;
 	}
 	
-	.cl-navbar--menu {
+	.cl-bodytop-navbar--menu {
 		position: fixed;
 		margin: 0;
 		padding: 1em;
@@ -139,7 +139,7 @@ $navbar-scheme: "dark" !default;
 		@include scheme($navbar-scheme);
 	}
 	
-	.cl-navbar--menu-item {
+	.cl-bodytop-navbar--menu-item {
 		margin: 0;
 		padding: 0.20em;
 		width: 100%;
@@ -150,7 +150,7 @@ $navbar-scheme: "dark" !default;
 		list-style: none;
 	}
 
-	.cl-navbar--menu-dropdown {
+	.cl-bodytop-navbar--menu-dropdown {
 		position: static;
 		top: calc(var(--menubar-height) - 2px);
 		margin: 0;
@@ -162,7 +162,7 @@ $navbar-scheme: "dark" !default;
 		gap: 1em;
 	}
 	
-	.cl-navbar--menu-dropdown-item {
+	.cl-bodytop-navbar--menu-dropdown-item {
 		display: list-item;
 		position: relative;
 		list-style: none;
@@ -171,8 +171,8 @@ $navbar-scheme: "dark" !default;
 	}
 	
 	/* show menu or menu dropdown when checkbox is checked */
-	[id^=drop]:checked + .cl-navbar--menu,
-	[id^=drop]:checked + .cl-navbar--menu-dropdown {
+	[id^=drop]:checked + .cl-bodytop-navbar--menu,
+	[id^=drop]:checked + .cl-bodytop-navbar--menu-dropdown {
 		display: flex;
 	}
 	

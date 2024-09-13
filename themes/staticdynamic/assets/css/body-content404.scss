@@ -1,17 +1,17 @@
 @import "_sassmix";
 
-$scheme: "dark";
+$body-content404-scheme: "dark" !default;
 
 
 
-.cl-404 {
+.cl-body-content404 {
 	height: calc(100vh - var(--menubar-height));
 	width: calc(100% - 0.001px);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	@include scheme($scheme);
+	@include scheme($body-content404-scheme);
 
 	h1 {
 		margin-top: 1em;
@@ -23,4 +23,3 @@ $scheme: "dark";
 	}
 
 }
-

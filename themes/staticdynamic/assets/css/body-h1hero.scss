@@ -1,4 +1,4 @@
-.cl-h1hero--title {
+.cl-body-h1hero--title {
 	top: var(--menubar-height);
 	z-index: 100;
 	display: flex;
@@ -9,7 +9,7 @@
 	text-align: center;
 }
 
-.cl-h1hero--hero {
+.cl-body-h1hero--hero {
 	height: var(--hero-height);
 	width: calc(100% - 0.001px);
 	max-width: var(--page-max-width);

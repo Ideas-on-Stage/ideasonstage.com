@@ -31,7 +31,7 @@ N'hésitez pas à vous munir de vos cartes de visite : vous pourrez peut-être a
 
 [Vous pouvez vous inscrire dès maintenant sur Eventbrite en cliquant sur ce lien.](https://www.eventbrite.fr/e/inscription-morning-inspiration-par-ideas-on-stage-columbus-consulting-71763379199)
 
-<a href="https://www.eventbrite.fr/e/inscription-morning-inspiration-par-ideas-on-stage-columbus-consulting-71763379199" target="_blank" class="critical--button-primary btn-register">Inscrivez-vous</a>
+<a href="https://www.eventbrite.fr/e/inscription-morning-inspiration-par-ideas-on-stage-columbus-consulting-71763379199" target="_blank" class="cl-core--button-primary btn-register">Inscrivez-vous</a>
 
 Les équipes de Ideas on Stage et Columbus Consulting
 

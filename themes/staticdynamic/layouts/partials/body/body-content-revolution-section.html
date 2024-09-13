@@ -2,25 +2,25 @@
 <main id="main" role="main">
 
 	{{/* <!-- generate hero with newest video --> */}}
-	<section id="highlight" class="bg-black cl-content-revolution-section--hero" style="background-color:rgba(0,0,0,.3);">
+	<section id="highlight" class="bg-black cl-body-content-revolution-section--hero" style="background-color:rgba(0,0,0,.3);">
 		{{ range first 1 .Pages }}	
-			<img src="{{ .RelPermalink }}image.jpg" class="cl-content-revolution-section--hero-img">
+			<img src="{{ .RelPermalink }}image.jpg" class="cl-body-content-revolution-section--hero-img">
 			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 				<h2>
 					{{ with .Title }}{{ . }}{{ end }}
 				</h2>
 			</a>
-			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="critical--button-secondary">
+			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="cl-core--button-secondary">
 				{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
 			</a>
 		{{ end }}
 	</section>
 
-	<article id="content" class="cl-critical--content-width cl-critical--content-space-v text-center">
+	<article id="content" class="cl-core--content-width cl-core--content-space-v text-center">
 		{{ with .Content }}{{ . | markdownify }}{{ end }}
 	</article>
 
-	<section id="videos-platforms" class="cl-critical--content-width cl-critical--content-space-v cl-content-revolution-section--social">
+	<section id="videos-platforms" class="cl-core--content-width cl-core--content-space-v cl-body-content-revolution-section--social">
 		<div class="item">
 			<a href="https://www.youtube.com/user/IdeasOnStage/videos">
 				<img src="youtube.svg" alt="youtube">
@@ -41,7 +41,7 @@
 		</div>
 	</section>
 	
-	<article id="previous-episodes" class="cl-critical--content-width cl-critical--content-space-v cl-content-revolution-section--videolist">
+	<article id="previous-episodes" class="cl-core--content-width cl-core--content-space-v cl-body-content-revolution-section--videolist">
 		<h2>{{ .Site.Params.revolution.episodes }}</h2>		
 		<div class="flex-parent flex-parent-row">
 			{{ $scratch := newScratch }}

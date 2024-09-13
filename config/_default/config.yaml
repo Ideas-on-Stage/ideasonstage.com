@@ -37,9 +37,16 @@ params:
     # ---------------------
     # Responsive images
     images:
-        landscapePhotoWidths: [2400, 1200, 480]
-        portraitPhotoWidths: [1600, 800, 480]
+        landscape:
+            - scale: 2400
+            - scale: 1200
+            - scale: 720
+        portrait:
+            - scale: 1600
+            - scale: 800
+            - scale: 480
         quality: 70
+
     
     # ---------------------
     # Countries

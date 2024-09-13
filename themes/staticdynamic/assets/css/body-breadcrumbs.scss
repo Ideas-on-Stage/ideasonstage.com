@@ -1,13 +1,13 @@
 @import "_sassmix";
-@import "_body-breadcrumbs-params";
+@import "custom/_body-breadcrumbs";
 
-$breadcumb-padding: 0.5em 0 !default;
-$list-gap: 0.5em !default;
-$list-transform: uppercase !default;
+$body-breadcumbs-padding: 0.5em 0 !default;
+$body-breadcrumbs-list-gap: 0.5em !default;
+$body-breadcrumbs-list-transform: uppercase !default;
 
 
 
-.cl-breadcrumbs {
+.cl-body-breadcrumbs {
 	background-color: var(--color-lightgray);
 
 	a {
@@ -18,10 +18,10 @@ $list-transform: uppercase !default;
 		display: flex;
 		margin-top: 0;
 		margin-bottom: 0;
-		padding: $breadcumb-padding;
+		padding: $body-breadcumbs-padding;
 		list-style: none;
-		text-transform: $list-transform;
-		gap: $list-gap;
+		text-transform: $body-breadcrumbs-list-transform;
+		gap: $body-breadcrumbs-list-gap;
 		
 		li {
 			margin: 0;

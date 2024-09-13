@@ -39,14 +39,8 @@ params:
     images:
         landscape:
             - scale: 2400
-              width: 2400
-              height: 1350
             - scale: 1200
-              width: 1200
-              height: 1350
             - scale: 720
-              width: 720
-              height: 720              
         portrait:
             - scale: 1600
             - scale: 800

@@ -1,13 +1,13 @@
 @import "_sassmix";
-@import "_body-countrylist-params";
+@import "custom/_body-countrylist";
 
-$list-font-size: 0.85em !default;
-$scheme: "dark";
+$body-countrylist-list-font-size: 0.85em !default;
+$body-countrylist-scheme: "dark" !default;
 
 
-.cl-countrylist {
+.cl-body-countrylist {
 
-	@include scheme($scheme);
+	@include scheme($body-countrylist-scheme);
 		
 	margin-top: 0;
 	margin-bottom: 0;
@@ -28,7 +28,7 @@ $scheme: "dark";
 		list-style: none; /* remove bullet when used on li */
 		
 		a {
-			font-size: $list-font-size;
+			font-size: $body-countrylist-list-font-size;
 		}
 	}
 }

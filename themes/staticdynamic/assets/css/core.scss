@@ -1,5 +1,5 @@
 @import "_sassmix";
-@import "_core-params";
+@import "custom/_core";
 
 /* @group FONT FAMILIES */
 
@@ -195,14 +195,14 @@
 
 /* @group BUTTON */
 
-	.critical--button-primary,
-	.critical--button-secondary {
+	.cl-core--button-primary,
+	.cl-core--button-secondary {
 		@include font($font-family-button, $font-weight-button);
 		text-transform: uppercase;
 		list-style: none; /* remove bullet when used on li */
 	}
 
-	.critical--button-primary {
+	.cl-core--button-primary {
 		margin: 0;
 		padding: 1em 2em;
 		color: var(--color-button-primary) !important;
@@ -214,7 +214,7 @@
 	}
 		
 	/* use to create a secondary button */
-	.critical--button-secondary {
+	.cl-core--button-secondary {
 		padding: 0;
 		color: var(--color-button-secondary) !important;
 		background-color: var(--color-button-secondary-bg);
@@ -222,7 +222,7 @@
 		border-radius: 0.5em;
 	}
 	
-	.bg-primary .critical--button-secondary {
+	.bg-primary .cl-core--button-secondary {
 		/* use white text instead of blue if background is orange */
 		color: white !important;
 	}
@@ -233,12 +233,12 @@
 
 /* @group CONTENT */
 
-	.cl-critical--content-space-v {
+	.cl-core--content-space-v {
 		margin-top: var(--content-space-v) !important;
 		margin-bottom: var(--content-space-v) !important;
 	}
 	
-	.cl-critical--content-width {
+	.cl-core--content-width {
 		margin-left: auto; /* use auto to center div on page */
 		margin-right: auto; /* use auto to center div on page */
 		padding: 0;
@@ -254,7 +254,7 @@
 	
 	
 	/* use for narrow content such as forms */
-	.cl-critical--content-width-narrow {
+	.cl-core--content-width-narrow {
 		margin: 0 auto; /* use auto to center div on page */
 		padding: 0;
 		width: 50vw;

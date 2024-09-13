@@ -1,4 +1,4 @@
-<div class="cl-critical--content-width">
+<div class="cl-core--content-width">
 	<div class= "flex-parent flex-parent-row flex-parent-gap">
 		{{ range site.Params.footer.categories }}
 			<div class="flex-child flex-child-25p">
@@ -21,7 +21,7 @@
 	</div>
 	<div class="flex-parent flex-parent-row flex-parent-gap flex-parent-column-reverse-ontall margint-medium">
 		<div class="flex-child">
-			<p class="margin-none cl-footer--text">
+			<p class="cl-footer--text">
 				{{ with site.Params.footer.copyright }}{{ . }}{{ end }} {{ now.Year }}. 
 				{{ with site.Params.footer.rights }}{{ . }}{{ end }}<br />
 				{{ with site.Params.footer.cookies }}{{ . | markdownify }}{{ end }}</br>

@@ -2,7 +2,7 @@
 
 
 
-.cl-listteam {
+.cl-main-listteam {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -11,7 +11,7 @@
 	row-gap: 2em;
 }
 
-.cl-listteam--teammember {
+.cl-main-listteam--teammember {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
