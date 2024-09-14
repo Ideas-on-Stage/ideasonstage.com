@@ -1,14 +1,6 @@
 {{ with .Params.datamoduleasidelist }}
 	<aside id="modules-aside" class="cl-modules">
-		{{ range . }}
-			{{ $data := index site.Data.modules . }}
-			{{ if $data }}
-				{{ $localizeddata := index $data site.LanguageCode }}
-				{{ if $localizeddata }}
-					{{ partial $localizeddata.layout $localizeddata }}
-				{{ end }}
-			{{ end }}
-		{{ end }}
+		{{ partial "e/modules.html" . }}
 	</aside>
 {{ else }}
 	{{ partial "e/html-comment.html" "skipped: modules-aside: no .Params.datamoduleasidelist" }}

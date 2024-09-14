@@ -1,0 +1,31 @@
+{{/* <!--
+	
+	e/modules
+
+	displays the list of modules given as an argument.
+	
+	Arguments:
+	- [ "list of modules" ] as slice of strings.
+	
+	Process:
+	- Each module listed must match a data file in /data/modules
+	  For example, if the argument list is "toto" "tutu",
+	  we are going to get the files /data/modules/toto.yaml and /data/modules/tutu.yaml
+	- Each module is rendered using the specified module layout in the layout: parameter.
+	  For example, layout: module/half-text-picture.html will render the module using
+	  the module/half-text-picture.html template.
+	
+	Versions:
+	2024-09-14 first consolidated version
+
+ --> */}}
+ 
+ {{ range . }}
+	{{ $data := index site.Data.modules . }}
+	{{ if $data }}
+		{{ $localizeddata := index $data site.LanguageCode }}
+		{{ if $localizeddata }}
+			{{ partial $localizeddata.layout $localizeddata }}
+		{{ end }}
+	{{ end }}
+{{ end }}

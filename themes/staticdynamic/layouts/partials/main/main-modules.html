@@ -1,16 +1,6 @@
 {{ with .Params.datamodulelist }}
 	<section id="modules" class="cl-modules">
-		{{ range . }}
-			{{ $data := index site.Data.modules . }}
-			{{ if $data }}
-				{{ $localizeddata := index $data site.LanguageCode }}
-				{{ if $localizeddata }}
-					{{ partial $localizeddata.layout $localizeddata }}
-				{{ end }}
-			{{ end }}
-		{{ else }}
-			{{ partial "e/html-comment.html" "skipped: modules: .Params.datamodulelist is empty" }}
-		{{ end }}
+		{{ partial "e/modules.html" . }}
 	</section>
 {{ else }}
 	{{ partial "e/html-comment.html" "skipped: modules: no .Params.datamodulelist" }}
