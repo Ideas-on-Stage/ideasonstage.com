@@ -1,13 +1,18 @@
-{{ $part := . }}
 {{ "<!-- partials/e/blocks.html:start -->" | safeHTML  }}
-{{ $blocks := partial "f/getblocks.go" $part }}
-{{ range $blocks }}
-	{{ $partial := printf "%s/%s.html" $part . }}
-	{{ $commentstart := printf "<!-- %s:start -->" $partial }}
-	{{ $commentstart | safeHTML }}
-	{{ partial $partial page }}
-	{{ $commentend := printf "<!-- %s:end -->" $partial }}
-	{{ $commentend | safeHTML }}
-	
+{{ $parts := . }}
+{{ range $parts }}
+	{{ $part := . }}
+	<!-- get the list of blocks for the part -->
+	{{ $blocks := partial "f/getblocks.go" $part }}
+	{{ range $blocks }}
+		{{ $block := . }}
+		{{ $partial := printf "%s/%s.html" $part $block }}
+		{{ $commentstart := printf "<!-- %s:start -->" $partial }}
+		{{ $commentstart | safeHTML }}
+		<!-- display the block using the partial file -->
+		{{ partial $partial page }}
+		{{ $commentend := printf "<!-- %s:end -->" $partial }}
+		{{ $commentend | safeHTML }}	
+	{{ end }}
 {{ end }}
 {{ "<!-- partials/e/blocks.html:end -->" | safeHTML }}

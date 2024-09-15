@@ -31,6 +31,10 @@
 	{{ $result = index site.Data.layouts._common "bodytop" }}
 {{ else if eq $part "bodybottom" }}
 	{{ $result = index site.Data.layouts._common "bodybottom" }}
+{{ else if eq $part "headtop" }}
+	{{ $result = index site.Data.layouts._common "headtop" }}
+{{ else if eq $part "headbottom" }}
+	{{ $result = index site.Data.layouts._common "headbottom" }}
 {{ else if isset page.Params $part }}
 	{{/* <!-- then use specific blocks defined in page front matter --> */}}
 	{{ $result = index page.Params $part }}

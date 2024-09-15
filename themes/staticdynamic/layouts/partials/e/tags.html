@@ -1,16 +1,16 @@
 {{ "<!-- partials/e/tags.html:start -->" | safeHTML }}
 {{ $tags := .GetTerms "tags" }}
 {{ if $tags }}
-	<div class="flex-parent flex-parent-row row-tag paddingv-tiny">
-		<ul class="cl-tags">
-			{{ range (.GetTerms "tags") }}
-				<li class="cl-tags--tag">
-					<a href="{{ .Permalink }}">
-						{{ .LinkTitle }}
-					</a>
-				</li>
-			{{ end }}
-		</ul>
-	</div>
+	<ul class="cl-tags">
+		{{ range (.GetTerms "tags") }}
+			<li class="cl-tags--tag">
+				<a href="{{ .Permalink }}">
+					{{ .LinkTitle }}
+				</a>
+			</li>
+		{{ end }}
+	</ul>
+{{ else }}
+	{{ partial "e/html-comment.html" "INFO: skipped: e/tags: no .GetTerms tags" }}
 {{ end }}
 {{ "<!-- partials/e/tags.html:end -->" | safeHTML }}

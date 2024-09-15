@@ -1,19 +1,19 @@
-<aside>
+<nav>
 	{{/* <!-- add pagination buttons --> */}}
-	<ul class="flex-parent flex-parent-row">
+	<ul class="cl-main-prevnext">
 		{{ if .Paginator.HasPrev }}
-			<li class="cl-core--button-secondary">
+			<li>
 				<a href="{{ .Paginator.Prev.URL }}" class="cl-core--button-secondary">
 					&larr; {{ site.Params.buttons.previous }}
 				</a>
 			</li>
 		{{ end }}
 		{{ if .Paginator.HasNext }}
-			<li class="cl-core--button-secondary">
+			<li>
 				<a href="{{ .Paginator.Next.URL }}" class="cl-core--button-secondary">
 					{{ site.Params.buttons.next }} &rarr;
 				</a>
 			</li>
 		{{ end }}
 	</ul>
-</aside>
+</nav>

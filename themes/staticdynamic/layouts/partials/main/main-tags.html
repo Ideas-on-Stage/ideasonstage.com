@@ -1,14 +1,1 @@
-{{ $tags := .GetTerms "tags" }}
-{{ if $tags }}
-	<ul class="cl-tags">
-		{{ range (.GetTerms "tags") }}
-			<li class="cl-tags--tag">
-				<a href="{{ .Permalink }}">
-					{{ .LinkTitle }}
-				</a>
-			</li>
-		{{ end }}
-	</ul>
-{{ else }}
-	{{ partial "e/html-comment.html" "INFO: skipped: main-tags: no .GetTerms tags" }}
-{{ end }}
+{{ partial "e/tags.html" . }}

@@ -1,4 +1,4 @@
-<section id="metadata">
+<section id="authorandtime" class="cl-authorandtime">
 	<p>
 		{{ if isset .Params "author" }}
 			{{ .Site.Params.news.by }} 
@@ -16,6 +16,8 @@
 				{{ .Params.author }} -
 			{{ end }}
 		{{ end }}
-		<time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ partial "f/getdate.go" .Date }}</time> 
+		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+			{{ partial "f/getdate.go" .Date }}
+		</time> 
 	</p>
 </section>

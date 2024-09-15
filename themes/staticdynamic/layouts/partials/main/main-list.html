@@ -4,7 +4,9 @@
 		{{ $page := . }}
 		{{ range $blocks }}
 			{{ $partial := printf "%s/%s.html" "list" . }}
+			{{ printf "<!-- %s:start -->" $partial | safeHTML }}
 			{{ partial $partial $page }}
+			{{ printf "<!-- %s:end -->" $partial | safeHTML }}
 		{{ end }}
 	</section>
 {{ end }}

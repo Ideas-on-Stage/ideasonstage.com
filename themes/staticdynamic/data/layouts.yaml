@@ -12,8 +12,10 @@
 # they cannot be overridden
 _common:
     # common header blocks for all pages
-    head:
+    headtop:
         - head-meta
+        - head-css
+    headbottom:
         - head-hreflang
         - head-alternate
         - head-favicon
@@ -25,9 +27,8 @@ _common:
     # common body blocks after "main" for all pages
     bodybottom:
         - bodybottom-contact
-    # common footer blocks for all pages
-    footer:
-        - footer-footer
+        - bodybottom-footer
+        - bodybottom-deferred
 
 
 
@@ -115,7 +116,7 @@ news:
         # if there is no "content" item it will not be used
         main:
             - main-list
-            - main-buttonprevnextnews
+            - main-prevnext
         # content sidebar blocks
         # will appear where the "content" item is inserted in "body:" (there must be a content item in body:)
         # if there is no "content" item it will not be used
@@ -126,7 +127,7 @@ news:
         # if there is no "list" item it will not be used
         list:
             - list-h2
-            - list-metadata
+            - list-authorandtime
             - list-tags
             - list-banner
             - list-summary
@@ -144,7 +145,7 @@ news:
             - side-topcategories
         main:
             - main-h1
-            - main-metadatanews
+            - main-authorandtime
             - main-tags
             - main-content
 
@@ -231,7 +232,7 @@ team:
             - main-positionteam
             - main-content
         side:
-            - side-phototeam
+            - side-photo
 
 
 
