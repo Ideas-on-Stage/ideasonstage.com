@@ -1,6 +1,7 @@
+{{ "<!-- partials/e/blocks-common.html:start -->" | safeHTML }}
 {{ $part := . }}
-{{ "<!-- partials/e/blocks.html:start -->" | safeHTML  }}
-{{ $blocks := partial "f/getblocks.go" $part }}
+{{ $common := (index site.Data.layouts "_common") }}
+{{ $blocks := (index $common $part) }}
 {{ range $blocks }}
 	{{ $partial := printf "%s/%s.html" $part . }}
 	{{ $commentstart := printf "<!-- %s:start -->" $partial }}
@@ -8,6 +9,5 @@
 	{{ partial $partial page }}
 	{{ $commentend := printf "<!-- %s:end -->" $partial }}
 	{{ $commentend | safeHTML }}
-	
 {{ end }}
-{{ "<!-- partials/e/blocks.html:end -->" | safeHTML }}
+{{ "<!-- partials/e/blocks-common.html:end -->" | safeHTML }}

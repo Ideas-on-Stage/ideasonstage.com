@@ -12,24 +12,22 @@
 # they cannot be overridden
 _common:
     # common header blocks for all pages
-    headtop:
-        - headtop-css
-        - headtop-meta
-    headbottom:
-        - headbottom-hreflang
-        - headbottom-alternate
-        - headbottom-favicon
-        - headbottom-schema
-    # do not add head: to _common, use headtop: or headbottom: instead
+    head:
+        - head-meta
+        - head-hreflang
+        - head-alternate
+        - head-favicon
+        - head-schema
     # common body blocks above "main" for all pages
     bodytop:
         - bodytop-navbar
     # do not add body: to _common, use bodytop: or bodybottom: instead
     # common body blocks after "main" for all pages
     bodybottom:
-        - bodybottom-contact # contact form
-        - bodybottom-footer # footer
-        - bodybottom-deferred # scripts, low priority css
+        - bodybottom-contact
+    # common footer blocks for all pages
+    footer:
+        - footer-footer
 
 
 
@@ -45,8 +43,8 @@ _default:
         body:
             - body-h1hero
             - body-breadcrumbs
-            - body-side-main # where the content of side: and main: will appear
-            - body-list # where the content of list: will appear
+            - body-side-main
+            - body-list
             - body-modules-aside
         main:
             - main-content
@@ -61,7 +59,7 @@ _default:
         body:
             - body-h1hero
             - body-breadcrumbs
-            - body-side-main # where the content of side: and main: will appear
+            - body-side-main
             - body-modules-aside
         main:
             - main-content
@@ -111,12 +109,12 @@ news:
         # body part is defined so it will override _default:section:body: part
         body:
             - body-h1hero
-            - body-side-main # where the content of side: and main: will appear
+            - body-side-main
         # content main blocks
         # will appear where the "content" item is inserted in "body:"
         # if there is no "content" item it will not be used
         main:
-            - main-list # where the content of list: will appear
+            - main-list
             - main-buttonprevnextnews
         # content sidebar blocks
         # will appear where the "content" item is inserted in "body:" (there must be a content item in body:)

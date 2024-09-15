@@ -5,7 +5,8 @@
 	get css resources matching the list of "body", "main" blocks for the current page
 	
 	Arguments:
-	- list of css block types to get
+	- anything (argument not used, but one must be passed)
+	  e.g. "dummy" or "toto"
 	
 	Process:
 	- Checks for each "body" block if a .css file exists with same name in /assets/css
@@ -19,10 +20,10 @@
 	
  --> */}}
 
-{{ $blocktypes := slice "bodytop" "body" "main" "list" }}
+{{ $blocktypes := slice "bodytop" "body" "" "main" "list" }}
 {{ $result := slice }}
 
-{{ range . }}
+{{ range $blocktypes }}
 	{{ $blocks := partial "f/getblocks.go" . }}
 	{{ range $blocks }}
 		{{ $filepath := printf "assets/css/%s.scss" . }}

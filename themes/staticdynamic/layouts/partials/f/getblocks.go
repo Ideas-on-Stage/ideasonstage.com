@@ -27,7 +27,11 @@
 {{/* <!-- set default result to _default blocks matching $part ("head" or "body") --> */}}
 {{ $result := index (index (index site.Data.layouts "_default") $data.Kind) $part }}
 
-{{ if isset page.Params $part }}
+{{ if eq $part "bodytop" }}
+	{{ $result = index site.Data.layouts._common "bodytop" }}
+{{ else if eq $part "bodybottom" }}
+	{{ $result = index site.Data.layouts._common "bodybottom" }}
+{{ else if isset page.Params $part }}
 	{{/* <!-- then use specific blocks defined in page front matter --> */}}
 	{{ $result = index page.Params $part }}
 
@@ -46,8 +50,6 @@
 			{{ end }}
 		{{ end }}
 	{{ end }}
-{{ else if isset site.Data.layouts._common $part }}
-	{{ $result = index site.Data.layouts._common $part }}
 {{ end }}
 
 {{ return $result }}
