@@ -8,6 +8,7 @@
 	{{ partial $partial page }}
 	{{ $commentend := printf "<!-- %s:end -->" $partial }}
 	{{ $commentend | safeHTML }}
-	
+{{ else }}
+	{{ partial "e/html-comment.html" (printf "WARN: no blocks found for %s" $part) }}
 {{ end }}
 {{ "<!-- partials/e/blocks.html:end -->" | safeHTML }}

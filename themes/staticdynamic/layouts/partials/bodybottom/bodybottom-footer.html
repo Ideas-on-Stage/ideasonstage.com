@@ -1,0 +1,34 @@
+<footer id="footer" class="cl-footer">
+	<div class="cl-core--content-width">
+		<div class= "flex-parent flex-parent-row flex-parent-gap">
+			{{ range site.Params.footer.categories }}
+				<div class="flex-child flex-child-25p">
+					<ul class="flex-parent flex-parent-column cl-footer--category">
+						{{ with .name }}
+							<li class="cl-footer--category-main">
+								{{ . }}
+							</li>
+						{{ end }}
+						{{ range .items }}
+							<li class="cl-footer--category-sub">
+								<a href="{{ .url }}">
+									{{ .name }}
+								</a>
+							</li>
+						{{ end }}
+					</ul>
+				</div>
+			{{ end }}
+		</div>
+		<div class="flex-parent flex-parent-row flex-parent-gap flex-parent-column-reverse-ontall margint-medium">
+			<div class="flex-child">
+				<p class="cl-footer--text">
+					{{ with site.Params.footer.copyright }}{{ . }}{{ end }} {{ now.Year }}. 
+					{{ with site.Params.footer.rights }}{{ . }}{{ end }}<br />
+					{{ with site.Params.footer.cookies }}{{ . | markdownify }}{{ end }}</br>
+					{{ with site.Params.footer.text }}{{ . | markdownify }}{{ end }}
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>

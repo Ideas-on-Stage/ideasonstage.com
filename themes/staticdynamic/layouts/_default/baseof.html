@@ -5,23 +5,20 @@
 	- A custom page structure can be defined in the front matter of a page.
 	
 	For <head>:
-	- the _common head blocks are added,
+	- the _common headtop blocks are added as defined in /data/layouts.yaml,
 	- the specific head blocks (if they exist) are added, in order of priority:
-		- the head blocks defined in the page
+		- the head blocks defined in the page front matter
 		- the head blocks matching the page .Type and .Kind in /data/layouts.yaml
 		- the head blocks defined in _default matching the page .Kind in /data/layouts.yaml
+	- the _common headbottom blocks are added.
 
 	For <body>:
 	- the _common bodytop blocks are added as defined in /data/layouts.yaml,
 	- the specific body blocks (if they exist) are added, in order of priority:
-		- the body blocks defined in the page
+		- the body blocks defined in the page front matter
 		- the body blocks matching the page .Type and .Kind in /data/layouts.yaml
-		- the body blocks defined in _default matching the page .Kind  in /data/layouts.yaml
-	- the _common bodybottom blocks are added as defined in /data/layouts.yaml.
-
-	For <footer>:
-	- the _common footer blocks are added.
-	- (there are no specific footer blocks, although the functionality would be easy to add.)
+		- the body blocks defined in _default matching the page .Kind in /data/layouts.yaml
+	- the _common bodybottom blocks are added.
 	
 --> */}}
 
@@ -30,42 +27,16 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">	
 
 	<head id="head">
-		{{ "<!-- Critical CSS -->" | safeHTML }}
-		<style type="text/css">
-			{{- $variables := resources.Get "css/variables.scss" | resources.ExecuteAsTemplate "variables.css" . | resources.ToCSS | resources.Minify -}}
-			{{- $variables.Content | safeCSS -}}
-			{{- $core := resources.Get "css/core.scss" | resources.ExecuteAsTemplate "core.css" . | resources.ToCSS | resources.Minify -}}
-			{{- $core.Content | safeCSS -}}
-		</style>
-		{{ "<!-- Typography -->" | safeHTML }}
-		<style type="text/css">
-			{{- $typography := resources.Get "css/typography.css" | resources.Minify -}}
-			{{- $typography.Content | safeCSS -}}	
-		</style>
-		
-		{{ partial "e/blocks-common.html" "head" }}
-		{{ partial "e/blocks-css.html" "dummy" }}
-		{{ partial "e/blocks" "head" }}
+		{{ partial "e/blocks.html" "headtop" }}
+		{{ partial "e/blocks.html" "head" }}
+		{{ partial "e/blocks.html" "headbottom" }}
 	</head>
 	
 	<body id="page-top">
-		{{ partial "e/blocks-common.html" "bodytop" }}
-		{{ partial "e/blocks" "body" }}
-		{{ partial "e/blocks-common.html" "bodybottom"}}
-		<footer id="footer" class="cl-footer">
-			{{ partial "e/blocks-common.html" "footer" }}
-		</footer>
-		{{ partial "js/js.html" . }}
-		
-		{{ $css := resources.Get "css/bodybottom-contact.scss" | resources.ExecuteAsTemplate "contact.css" . | resources.ToCSS | resources.Minify }}
-		<link rel="preload" href="{{ $css.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
-		
-		{{ $more := resources.Get "css/more.scss" | resources.ExecuteAsTemplate "more.css" . | resources.ToCSS | resources.Minify }}
-		<link rel="preload" href="{{ $more.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
-		<noscript>
-			<link rel="stylesheet" href="{{ $css.RelPermalink }}" type="text/css">
-			<link rel="stylesheet" href="{{ $more.RelPermalink }}" type="text/css">
-		</noscript>		
+		{{ partial "e/blocks.html" "bodytop" }}
+		{{ partial "e/blocks.html" "body" }}
+		{{ partial "e/blocks.html" "bodybottom"}}
 	</body>
+	
 </html>
 {{ "<!-- _default/baseof.html:end -->" | safeHTML }}

@@ -10,11 +10,12 @@
 
 {{ "<!-- partials/e/blocks-css.html:start -->" | safeHTML }}
 <style type="text/css">
-	{{- $blocks := partial "f/getblockscss.go" "dummy" -}}
-		{{- range $blocks -}}
+	{{- $blocktypes := slice "bodytop" "body" "main" "list" }}
+	{{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
+	{{- range $blocks -}}
 		{{- $resource := printf "css/%s.scss" . -}}
 		{{- $css := printf "%s.css" . -}}
-		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | resources.ToCSS | resources.Minify }}
+		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | resources.Minify }}
 		{{- $style.Content | safeCSS -}}
 	{{- end -}}
 </style>

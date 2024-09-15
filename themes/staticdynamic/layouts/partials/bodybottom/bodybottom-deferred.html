@@ -1,0 +1,12 @@
+{{ partial "js/js.html" . }}
+
+{{ $css := resources.Get "css/bodybottom-contact.scss" | resources.ExecuteAsTemplate "contact.css" . | toCSS | resources.Minify }}
+<link rel="preload" href="{{ $css.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
+
+{{ $more := resources.Get "css/more.scss" | resources.ExecuteAsTemplate "more.css" . | toCSS | resources.Minify }}
+<link rel="preload" href="{{ $more.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
+
+<noscript>
+	<link rel="stylesheet" href="{{ $css.RelPermalink }}" type="text/css">
+	<link rel="stylesheet" href="{{ $more.RelPermalink }}" type="text/css">
+</noscript>		
