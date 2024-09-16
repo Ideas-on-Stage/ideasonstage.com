@@ -18,10 +18,11 @@
 	{{ $lang := . }}
 	{{ range site.Languages }}
 		{{ if eq .LanguageCode $lang }}
-		{{ $entry := dict "name" .LanguageName "code" .LanguageCode "url" (relLangURL "") }}
+		{{ $entry := dict "name" .LanguageName "code" .LanguageCode "url" (printf "%s%s" site.BaseURL .LanguageCode) }}
 		{{ $result = $result | append $entry }}
 		{{ end }}
 	{{ end }}
 {{ end }}
 
 {{ return $result }}
+ 
