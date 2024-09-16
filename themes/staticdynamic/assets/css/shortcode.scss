@@ -24,23 +24,6 @@
 
 }
 
-.cl-shortcode--img {
-	margin: 0 -2vw;
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	@media (max-width: $sm-screen) {	
-		margin: 0 -4vw;
-		padding: 0;
-	}
-
-	> img {
-	display: block; /* prevent line height from being added to div height */
-	}
-}
-
-
 /* spacing with other elements (that are not of class .cl-shortcode) */
 :not(.cl-shortcode) + .cl-shortcode,
 .cl-shortcode + :not(.cl-shortcode),
@@ -48,6 +31,44 @@ div.cl-shortcode--img + :not(div) {
 	/* add margin space between cl-shortcode and content that is not of class .cl-shortcode */
 	margin-top: 48px;
 }
+
+
+
+/* img shortcode */
+	.cl-shortcode--img {
+		margin: 0 -2vw;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		@media (max-width: $sm-screen) {	
+			margin: 0 -4vw;
+			padding: 0;
+		}
+	
+		> img {
+		display: block; /* prevent line height from being added to div height */
+		}
+	}
+
+
+
+/* image-wide shortcode */
+	.cl-shortcode--image-wide {
+		margin: 0 -2vw;
+		padding: 0;
+		@media (max-width: $sm-screen) {	
+			margin: 0 -4vw;
+			padding: 0;
+		}
+	
+		> img {
+		width: 100%; /* make image full width of container */
+		display: block; /* prevent line height from being added to div height */
+		}
+	}
+
+
 
 
 .cl-shortcode--category {
@@ -83,8 +104,15 @@ div.cl-shortcode--img + :not(div) {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+		justify-content: center;
+		gap: var(--module-column-gap);
 	}
 
+	> h3 {
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 0.5em;
+	}
 }
 
 

@@ -260,6 +260,7 @@ training:
     page:
         body:
             - body-h1hero
+            - body-breadcrumbs
             - body-side-main
         side:
             - side-training
