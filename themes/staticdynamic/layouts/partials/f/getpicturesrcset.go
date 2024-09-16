@@ -49,7 +49,7 @@
 		Note: the first URL is used as "fallback" src in $imgSrc.
 		-->
 		{{ range $scales }}
-			{{ $srcUrl := (printf "%dx" .scale | $image.Resize).RelPermalink }}
+			{{ $srcUrl := (printf "%dx webp" .scale | $image.Resize).RelPermalink }}
 			{{ if eq $imgSrc "" }}
 				{{ $imgSrc = $srcUrl }}
 			{{ end }}

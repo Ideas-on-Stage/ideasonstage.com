@@ -11,9 +11,7 @@
 	padding: 0 var(--module-column-gap);
 	gap: var(--module-row-gap) var(--module-column-gap);
 	@media (max-width: $sm-screen) {
-		margin: var(--module-ts-row-gap) 0;
-		padding: 0;
-		gap: var(--module-ts-row-gap) var(--module-ts-column-gap);
+		padding: 0; /* to remove gap left and right */
 	}
 	
 	h3 {

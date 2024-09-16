@@ -153,3 +153,52 @@ $scheme-codingandbricks-link-hover: #FFD500 !default;
 		margin-top: 0;
 	}
 }
+
+@mixin content($width: "normal", $marginv: "normal") {
+	@if "normal" == $width {
+		margin-left: auto; /* use auto to center div on page */
+		margin-right: auto; /* use auto to center div on page */
+		width: 80vw;
+		max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
+		@media (max-width: $sm-screen) {
+			margin-left: var(--module-column-gap);
+			margin-right: var(--module-column-gap); 
+			width: calc(100% - var(--module-column-gap) * 2);
+			max-width: calc(100% - var(--module-column-gap) * 2);
+		}
+	}
+	@else if "narrow" == $width {
+		/* use for narrow content such as forms */
+		margin: 0 auto; /* use auto to center div on page */
+		width: 50vw;
+		max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
+		@media (max-width: $sm-screen) {
+			margin: 0 var(--module-column-gap);
+			width: calc(100% - var(--module-column-gap) * 2 );
+			max-width: calc(100% - var(--module-column-gap) * 2 );
+		}
+	}
+	@else if "wide" == $width {
+			margin-left: var(--module-column-gap);
+			margin-right: var(--module-column-gap); 
+			width: calc(100% - var(--module-column-gap) * 2);
+	}
+	@else if "full" == $width {
+			margin-left: 0;
+			margin-right: 0;
+			width: calc( 100% );
+	}
+	
+	@if "normal" == $marginv {
+		margin-top: var(--content-space-v) !important;
+		margin-bottom: var(--content-space-v) !important;		
+	}
+	@else if "gap" == $marginv {
+		margin-top: var(--content-space-v) !important;
+		margin-bottom: var(--content-space-v) !important;
+	}
+	@else if "none" == $marginv {
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+	}
+}

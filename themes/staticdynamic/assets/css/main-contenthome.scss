@@ -8,8 +8,8 @@
 	color: var(--color-bg-white-text-mid);
 	text-align: center;
 	@media (max-width: $sm-screen) {
-		margin: 48px var(--module-ts-column-gap);
-		width: calc(100% - var(--module-ts-column-gap) * 2);
-		max-width: calc(100% - var(--module-ts-column-gap) * 2);
+		margin: 48px var(--module-column-gap);
+		width: calc(100% - var(--module-column-gap) * 2);
+		max-width: calc(100% - var(--module-column-gap) * 2);
 	}
 }

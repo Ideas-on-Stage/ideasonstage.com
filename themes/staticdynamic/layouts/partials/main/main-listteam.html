@@ -2,8 +2,12 @@
 	{{ range .Pages.ByWeight }}
 		<a href="{{ .RelPermalink }}" class="cl-main-listteam--teammember">
 			<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}" width="100px" height="100px">	
-			<h2>{{ .Params.name }}</h2>
-			<p>{{ .Params.position }}</p>
+			<h2>
+				{{ .Params.name }}
+			</h2>
+			<p>
+				{{ .Params.position }}
+			</p>
 		</a>
 	{{ end}}
 </section>

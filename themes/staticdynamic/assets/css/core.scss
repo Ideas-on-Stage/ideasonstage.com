@@ -241,10 +241,10 @@
 		width: 80vw;
 		max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
 		@media (max-width: $sm-screen) {
-			margin-left: var(--module-ts-column-gap);
-			margin-right: var(--module-ts-column-gap); 
-			width: calc(100% - var(--module-ts-column-gap) * 2);
-			max-width: calc(100% - var(--module-ts-column-gap) * 2);
+			margin-left: var(--module-column-gap);
+			margin-right: var(--module-column-gap); 
+			width: calc(100% - var(--module-column-gap) * 2);
+			max-width: calc(100% - var(--module-column-gap) * 2);
 		}
 	}
 	
@@ -256,9 +256,9 @@
 		width: 50vw;
 		max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
 		@media (max-width: $sm-screen) {
-			margin: 0 var(--module-ts-column-gap);
-			width: calc(100% - var(--module-ts-column-gap) * 2 );
-			max-width: calc(100% - var(--module-ts-column-gap) * 2 );
+			margin: 0 var(--module-column-gap);
+			width: calc(100% - var(--module-column-gap) * 2 );
+			max-width: calc(100% - var(--module-column-gap) * 2 );
 		}
 	}
 

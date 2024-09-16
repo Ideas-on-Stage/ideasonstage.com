@@ -111,8 +111,8 @@ $navbar-scheme: "dark" !default;
 		top: 0;
 		width: 100%;
 		z-index:1000; /* no other element should be given a higher z-index */
-		padding-left: calc( var(--module-ts-column-gap) );
-		padding-right: calc( var(--module-ts-column-gap) );
+		padding-left: calc( var(--module-column-gap) );
+		padding-right: calc( var(--module-column-gap) );
 	}
 	
 	/* Logo */

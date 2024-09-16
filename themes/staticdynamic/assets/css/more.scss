@@ -1,334 +1,4 @@
-
-/* @group FLEX */
-
-	/* .flex- is a series of classes to implement generic flexbox */
-	/* .layout- are defined for a precise use, .flex- is more generic */
-	
-	/* flex parent that wraps if too large */
-	.flex-parent {
-		display: flex;
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		height: 100%;
-	}
-		
-	.flex-parent-row {
-		flex-direction: row;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		align-items: flex-start;
-	}
-	
-	.flex-parent-column {
-		flex-direction: column;
-		flex-wrap: nowrap;
-		align-items: stretch;
-	}
-		
-	/* standard flex child */
-	.flex-child {
-		flex: 1;
-		flex-basis: auto;
-		flex-grow: 0;
-		flex-shrink: 0;
-		margin: 0;
-		padding: 0;
-		max-height: 100%;
-		max-width: 100%;
-		height: auto;
-	}
-	.flex-child img {
-		display: block; /* prevent line height from being added to div height */
-		margin: 0;
-		padding: 0;
-		width: 100%;
-		height: auto;
-		object-fit: contain;
-	}
-	
-	.flex-child-scroll {
-		height: auto;
-	}
-	
-	.flex-child-text {
-		padding: 2vw;
-	}
-	
-	/* adjust child to text on left of pic */
-	.flex-child-text-left {
-		padding-right: 2vw;
-	}
-	
-	/* adjust child to text on right of pic */
-	.flex-child-text-right {
-		padding-left: 2vw;
-	}
-	
-	.logo {
-		display: block;
-		margin: 0;
-		padding: 0;
-		width: 32px;
-		height: 32px;
-	}
-	
-	@media (min-width : 481px) {
-		
-		/* flex child constrained to 60% of available space */
-		.flex-child-100p {
-			width: calc(100% - 0.001px);
-		}
-		
-		/* flex child constrained to 60% of available space */
-		.flex-child-80p {
-			width: calc(80% - 0.001px);
-		}
-		.flex-parent-gap .flex-child-80p {
-			width: calc(var(--module-5c-width) * 4 + var(--module-column-gap) * 3 );
-		}
-		
-		/* flex child constrained to 2/3 of available space */
-		.flex-child-67p {
-			width: calc(100% / 12 * 8 - 0.001px); /* start at 67% width */
-		}
-		.flex-parent-gap .flex-child-67p {
-			width: calc(var(--module-12c-width) * 8 + var(--module-column-gap) * 7 );
-		}
-		.flex-parent-gap-big .flex-child-67p {
-			width: calc( 67% - var(--module-big-gap) / 2 );
-		}
-		
-		/* flex child constrained to 60% of available space */
-		.flex-child-60p {
-			width: calc(60% - 0.001px);
-		}
-		.flex-parent-gap .flex-child-60p {
-			width: calc( var(--module-5c-width) * 3 + var(--module-column-gap) * 2 );
-		}
-		.flex-parent-gap-big .flex-child-60p {
-			width: calc( 60% - var(--module-big-gap) / 2 );
-		}
-		
-		/* flex child constrained to 50% of available space */
-		.flex-child-50p {
-			width: calc(50% - 0.001px); /* start at 60% width */
-		}
-		.flex-parent-gap .flex-child-50p {
-			width: calc(var(--module-12c-width) * 6 + var(--module-column-gap) * 5 );
-		}		
-		
-		/* flex child constrained to 40% of available space */
-		.flex-child-40p {
-			width: calc(40% - 0.001px);
-			box-sizing: border-box;
-		}
-		.flex-parent-gap .flex-child-40p {
-			width: calc(var(--module-5c-width) * 2 + var(--module-column-gap) * 1 );
-		}		
-		.flex-parent-gap-big .flex-child-40p {
-			width: calc( 40% - var(--module-big-gap) / 2 );
-		}
-		
-		/* flex child constrained to 1/3 of available space */
-		.flex-child-33p {
-			width: calc( (100% / 3) - 0.001px );
-		}
-		.flex-parent-gap .flex-child-33p {
-			width: calc(var(--module-12c-width) * 4 + var(--module-column-gap) * 3 );
-		}
-		.flex-parent-gap-big .flex-child-33p {
-			width: calc( 33% - var(--module-big-gap) / 2 );
-		}
-		
-		.flex-child-25p {
-			width: calc(25% - 0.001px);
-		}
-		.flex-parent-gap .flex-child-25p {
-			width: calc(var(--module-12c-width) * 3 + var(--module-column-gap) * 2 );
-		}
-		
-		.flex-child-20p {
-			width: calc(20% - 0px);
-		}
-		.flex-parent-gap .flex-child-20p {
-			width: calc(var(--module-5c-width));
-		}
-		
-		.flex-child-16p {
-			width: calc( (100% / 6) - 0.001px);
-		}
-		.flex-parent-gap .flex-child-16p {
-			width: calc(var(--module-12c-width) * 2 + var(--module-column-gap) * 1 );
-		}
-		
-	}
-	
-	@media (max-width:{{ site.Params.layout.ts_width }}) {
-		
-		/* on ts screens, use a width of 100% for these sizes */
-		.flex-child-100p,
-		.flex-child-67p,
-		.flex-child-60p,
-		.flex-child-50p,
-		.flex-child-40p,
-		.flex-child-33p {
-			width: calc( 100% - 0.001px );
-		}
-		
-		/* on ts screens, use a width of 50% for these sizes */
-		.flex-child-25p {
-			width: calc( 50% - 0.001px );
-		}
-		.flex-parent-gap .flex-child-25p {
-			width: calc( ( 100% - var(--module-ts-column-gap) ) / 2 );
-		}
-		
-		/* on ts screens, use a width of 66% for these sizes */
-		.flex-child-80p {
-			width: calc( 100% / 3 * 2 - 0.001px );
-		}
-		.flex-parent-gap .flex-child-80p,
-		{
-			width: calc( var(--module-ts-12c-width) * 8 + var(--module-ts-column-gap) * 7 );
-		}
-		
-		/* on ts screens, use a width of 33% for these sizes */
-		.flex-child-20p,
-		.flex-child-16p {
-			width: calc( 100% / 3 - 0.001px );
-		}
-		.flex-parent-gap .flex-child-20p,
-		.flex-parent-gap .flex-child-16p {
-			width: calc( var(--module-ts-12c-width) * 4 + var(--module-ts-column-gap) * 3 );
-		}
-		
-	}
-
-/* @end */
-
-
-
-/* @group flex helper classes */
-	
-	.flex-parent-align-center {
-		/* center flex items (vertically for row, horizontally for col */
-		align-items: center;
-	}
-	
-	.flex-parent-align-end {
-		/* align flex items (vertically for row, horizontally for col */
-		align-items: flex-end;
-	}
-	
-	.flex-parent-align-start {
-		/* align flex items (vertically for row, horizontally for col */
-		align-items: flex-start;
-	}
-	
-	.flex-parent-align-stretch {
-		/* stretch flex items (vertically for row, horizontally for col */
-		align-items: stretch;
-	}
-	
-	.flex-child-align-center {
-		/* force one child to center itself  */
-		align-self: center;
-	}
-	
-	.flex-parent-justify-center {
-		/* center flex items (horizontally for row, vertically for col */
-		justify-content: center;
-	}
-	
-	.flex-parent-justify-start {
-		/* force all items at start of flex container */
-		justify-content: flex-start;
-	}
-	
-	.flex-parent-justify-end {
-		/* force all items at end of flex container */
-		justify-content: flex-end;
-	}
-	
-	.flex-parent-justify-space-between {
-		/* add even space between items */
-		justify-content: space-between;
-	}
-	
-	.flex-parent-justify-space-around {
-		/* add even space between items */
-		justify-content: space-around;
-	}
-	
-	.flex-parent-nowrap {
-		/* disable wrap */
-		flex-wrap: nowrap;
-	}
-	
-	.flex-parent-wrap {
-		flex-wrap: wrap;
-	}
-	
-	.flex-parent-gap {
-		gap: var(--module-row-gap) var(--module-column-gap);
-	}
-	.flex-parent-gap-big {
-		gap: var(--module-big-gap);
-	}
-	
-	
-	@media (max-width:{{ site.Params.layout.ts_width }}) {
-		
-		/* change flex-direction to column on tall smartphone screens */
-		.flex-parent-column-ontall {
-			flex-direction: column;
-			flex-wrap: nowrap;
-		}
-		
-		/* change flex-direction to column-reverse on tall smartphone screens */
-		.flex-parent-column-reverse-ontall {
-			flex-direction: column-reverse;
-			flex-wrap: nowrap;
-		}
-		
-		.flex-parent-column-ontall .flex-child-text-left {
-			/* text was on left of img, now above */
-			padding-right: 0;
-			padding-top: 4vw;
-			padding-bottom: 2vw;
-		}
-		
-		.flex-parent-column-reverse-ontall .flex-child-text-left {
-			/* text was on left of img, now below */
-			padding-top: 4vw;
-			padding-right: 0;
-		}
-		
-		.flex-parent-column-ontall .flex-child-text-right {
-			/* text was on right of img, now below */
-			padding-top: 4vw;
-			padding-left: 0;
-		}
-		
-		.flex-parent-column-reverse-ontall .flex-child-text-right {
-			/* text was on right of img, now above */
-			padding-left: 0;
-			padding-top: 4vw;
-			padding-bottom: 2vw;
-		}
-		
-		.flex-parent-gap {
-			gap: var(--module-ts-row-gap) var(--module-ts-column-gap);
-		}
-		
-		.flex-parent-gap-big {
-			gap: var(--module-ts-big-gap);
-		}			
-		
-	}
-	
-/* @end */
+@import "_sassmix";
 
 
 
@@ -530,6 +200,338 @@
 	}
 
 /* @end */
+
+
+
+/* LEGACY : under this part, legacy stuff that should be replaced */
+
+/* @group FLEX */
+
+	/* .flex- is a series of classes to implement generic flexbox */
+	/* .layout- are defined for a precise use, .flex- is more generic */
+	
+	/* flex parent that wraps if too large */
+	.flex-parent {
+		display: flex;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+	}
+		
+	.flex-parent-row {
+		flex-direction: row;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+	
+	.flex-parent-column {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: stretch;
+	}
+		
+	/* standard flex child */
+	.flex-child {
+		flex: 1;
+		flex-basis: auto;
+		flex-grow: 0;
+		flex-shrink: 0;
+		margin: 0;
+		padding: 0;
+		max-height: 100%;
+		max-width: 100%;
+		height: auto;
+	}
+	.flex-child img {
+		display: block; /* prevent line height from being added to div height */
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: auto;
+		object-fit: contain;
+	}
+	
+	.flex-child-scroll {
+		height: auto;
+	}
+	
+	.flex-child-text {
+		padding: 2vw;
+	}
+	
+	/* adjust child to text on left of pic */
+	.flex-child-text-left {
+		padding-right: 2vw;
+	}
+	
+	/* adjust child to text on right of pic */
+	.flex-child-text-right {
+		padding-left: 2vw;
+	}
+	
+	.logo {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 32px;
+		height: 32px;
+	}
+	
+	/* flex child constrained to 60% of available space */
+	.flex-child-100p {
+		width: calc(100% - 0.001px);
+	}
+	
+	/* flex child constrained to 60% of available space */
+	.flex-child-80p {
+		width: calc(80% - 0.001px);
+	}
+	.flex-parent-gap .flex-child-80p {
+		width: calc(var(--module-5c-width) * 4 + var(--module-column-gap) * 3 );
+	}
+	
+	/* flex child constrained to 2/3 of available space */
+	.flex-child-67p {
+		width: calc(100% / 12 * 8 - 0.001px); /* start at 67% width */
+	}
+	.flex-parent-gap .flex-child-67p {
+		width: calc(var(--module-12c-width) * 8 + var(--module-column-gap) * 7 );
+	}
+	.flex-parent-gap-big .flex-child-67p {
+		width: calc( 67% - var(--module-big-gap) / 2 );
+	}
+	
+	/* flex child constrained to 60% of available space */
+	.flex-child-60p {
+		width: calc(60% - 0.001px);
+	}
+	.flex-parent-gap .flex-child-60p {
+		width: calc( var(--module-5c-width) * 3 + var(--module-column-gap) * 2 );
+	}
+	.flex-parent-gap-big .flex-child-60p {
+		width: calc( 60% - var(--module-big-gap) / 2 );
+	}
+	
+	/* flex child constrained to 50% of available space */
+	.flex-child-50p {
+		width: calc(50% - 0.001px); /* start at 60% width */
+	}
+	.flex-parent-gap .flex-child-50p {
+		width: calc(var(--module-12c-width) * 6 + var(--module-column-gap) * 5 );
+	}		
+	
+	/* flex child constrained to 40% of available space */
+	.flex-child-40p {
+		width: calc(40% - 0.001px);
+		box-sizing: border-box;
+	}
+	.flex-parent-gap .flex-child-40p {
+		width: calc(var(--module-5c-width) * 2 + var(--module-column-gap) * 1 );
+	}		
+	.flex-parent-gap-big .flex-child-40p {
+		width: calc( 40% - var(--module-big-gap) / 2 );
+	}
+	
+	/* flex child constrained to 1/3 of available space */
+	.flex-child-33p {
+		width: calc( (100% / 3) - 0.001px );
+	}
+	.flex-parent-gap .flex-child-33p {
+		width: calc(var(--module-12c-width) * 4 + var(--module-column-gap) * 3 );
+	}
+	.flex-parent-gap-big .flex-child-33p {
+		width: calc( 33% - var(--module-big-gap) / 2 );
+	}
+	
+	.flex-child-25p {
+		width: calc(25% - 0.001px);
+	}
+	.flex-parent-gap .flex-child-25p {
+		width: calc(var(--module-12c-width) * 3 + var(--module-column-gap) * 2 );
+	}
+	
+	.flex-child-20p {
+		width: calc(20% - 0px);
+	}
+	.flex-parent-gap .flex-child-20p {
+		width: calc(var(--module-5c-width));
+	}
+	
+	.flex-child-16p {
+		width: calc( (100% / 6) - 0.001px);
+	}
+	.flex-parent-gap .flex-child-16p {
+		width: calc(var(--module-12c-width) * 2 + var(--module-column-gap) * 1 );
+	}
+		
+	@media (max-width: $sm-screen) {
+		
+		/* on ts screens, use a width of 100% for these sizes */
+		.flex-child-100p,
+		.flex-child-67p,
+		.flex-child-60p,
+		.flex-child-50p,
+		.flex-child-40p,
+		.flex-child-33p {
+			width: calc( 100% - 0.001px );
+		}
+		
+		/* on ts screens, use a width of 50% for these sizes */
+		.flex-child-25p {
+			width: calc( 50% - 0.001px );
+		}
+		.flex-parent-gap .flex-child-25p {
+			width: calc( ( 100% - var(--module-column-gap) ) / 2 );
+		}
+		
+		/* on ts screens, use a width of 66% for these sizes */
+		.flex-child-80p {
+			width: calc( 100% / 3 * 2 - 0.001px );
+		}
+		.flex-parent-gap .flex-child-80p,
+		{
+			width: calc( var(--module-12c-width) * 8 + var(--module-column-gap) * 7 );
+		}
+		
+		/* on ts screens, use a width of 33% for these sizes */
+		.flex-child-20p,
+		.flex-child-16p {
+			width: calc( 100% / 3 - 0.001px );
+		}
+		.flex-parent-gap .flex-child-20p,
+		.flex-parent-gap .flex-child-16p {
+			width: calc( var(--module-12c-width) * 4 + var(--module-column-gap) * 3 );
+		}
+		
+	}
+
+/* @end */
+
+
+
+/* @group flex helper classes */
+	
+	.flex-parent-align-center {
+		/* center flex items (vertically for row, horizontally for col */
+		align-items: center;
+	}
+	
+	.flex-parent-align-end {
+		/* align flex items (vertically for row, horizontally for col */
+		align-items: flex-end;
+	}
+	
+	.flex-parent-align-start {
+		/* align flex items (vertically for row, horizontally for col */
+		align-items: flex-start;
+	}
+	
+	.flex-parent-align-stretch {
+		/* stretch flex items (vertically for row, horizontally for col */
+		align-items: stretch;
+	}
+	
+	.flex-child-align-center {
+		/* force one child to center itself  */
+		align-self: center;
+	}
+	
+	.flex-parent-justify-center {
+		/* center flex items (horizontally for row, vertically for col */
+		justify-content: center;
+	}
+	
+	.flex-parent-justify-start {
+		/* force all items at start of flex container */
+		justify-content: flex-start;
+	}
+	
+	.flex-parent-justify-end {
+		/* force all items at end of flex container */
+		justify-content: flex-end;
+	}
+	
+	.flex-parent-justify-space-between {
+		/* add even space between items */
+		justify-content: space-between;
+	}
+	
+	.flex-parent-justify-space-around {
+		/* add even space between items */
+		justify-content: space-around;
+	}
+	
+	.flex-parent-nowrap {
+		/* disable wrap */
+		flex-wrap: nowrap;
+	}
+	
+	.flex-parent-wrap {
+		flex-wrap: wrap;
+	}
+	
+	.flex-parent-gap {
+		gap: var(--module-row-gap) var(--module-column-gap);
+	}
+	.flex-parent-gap-big {
+		gap: var(--module-big-gap);
+	}
+	
+	
+	@media (max-width: $sm-screen) {
+		
+		/* change flex-direction to column on tall smartphone screens */
+		.flex-parent-column-ontall {
+			flex-direction: column;
+			flex-wrap: nowrap;
+		}
+		
+		/* change flex-direction to column-reverse on tall smartphone screens */
+		.flex-parent-column-reverse-ontall {
+			flex-direction: column-reverse;
+			flex-wrap: nowrap;
+		}
+		
+		.flex-parent-column-ontall .flex-child-text-left {
+			/* text was on left of img, now above */
+			padding-right: 0;
+			padding-top: 4vw;
+			padding-bottom: 2vw;
+		}
+		
+		.flex-parent-column-reverse-ontall .flex-child-text-left {
+			/* text was on left of img, now below */
+			padding-top: 4vw;
+			padding-right: 0;
+		}
+		
+		.flex-parent-column-ontall .flex-child-text-right {
+			/* text was on right of img, now below */
+			padding-top: 4vw;
+			padding-left: 0;
+		}
+		
+		.flex-parent-column-reverse-ontall .flex-child-text-right {
+			/* text was on right of img, now above */
+			padding-left: 0;
+			padding-top: 4vw;
+			padding-bottom: 2vw;
+		}
+		
+		.flex-parent-gap {
+			gap: var(--module-row-gap) var(--module-column-gap);
+		}
+		
+		.flex-parent-gap-big {
+			gap: var(--module-big-gap);
+		}			
+		
+	}
+	
+/* @end */
+
 
 
 
