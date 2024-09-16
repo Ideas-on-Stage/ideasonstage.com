@@ -61,16 +61,13 @@
 			</label>
 			<input type="checkbox" id="drop-languages" class="cl-bodytop-navbar--menu-checkbox"/>
 			<ul class="cl-bodytop-navbar--menu-dropdown">
-				{{ if .IsTranslated }}
-					{{ range .AllTranslations }}
-						{{ if ne (site.LanguageCode | lower) (.Lang | lower) }}
-							<li class="cl-bodytop-navbar--menu-dropdown-item">
-								<a href="{{ .Permalink }}">
-									{{ .Language.LanguageName }}
-								</a>
-							</li>
-						{{ end }}
-					{{ end }}
+				{{ $links := partial "f/gettranslationlinks.go" . }}				
+				{{ range $links }}
+					<li class="cl-bodytop-navbar--menu-dropdown-item">
+						<a href="{{ .url }}" hreflang="{{ .code }}">
+							{{ .name }}
+						</a>
+					</li>
 				{{ end }}
 			</ul>
 		</li>

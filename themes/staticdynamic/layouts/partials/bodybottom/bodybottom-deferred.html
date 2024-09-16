@@ -1,11 +1,20 @@
 {{ partial "js/js.html" . }}
 
-{{ $css := resources.Get "css/bodybottom-contact.scss" | resources.ExecuteAsTemplate "contact.css" . | resources.ToCSS | resources.Minify }}
-<link rel="preload" href="{{ $css.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
+{{ $blocktypes := slice "bodybottom" }}
+{{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
+{{- range $blocks -}}
+	{{- $resource := printf "css/%s.scss" . -}}
+	{{- $css := printf "%s.css" . -}}
+	{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | resources.ToCSS | resources.Minify }}
+	<link rel="preload" href="{{ $style.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
+	</noscript>
+{{- end -}}
 
+<!-- Remaining non-critical CSS -->
 {{ $more := resources.Get "css/more.scss" | resources.ExecuteAsTemplate "more.css" . | resources.ToCSS | resources.Minify }}
 <link rel="preload" href="{{ $more.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
-	<link rel="stylesheet" href="{{ $css.RelPermalink }}" type="text/css">
 	<link rel="stylesheet" href="{{ $more.RelPermalink }}" type="text/css">
 </noscript>		

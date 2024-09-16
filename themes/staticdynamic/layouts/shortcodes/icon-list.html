@@ -1,20 +1,21 @@
+{{/* <!-- 
+	
+	Arguments:
+	- title: add a title to the icon list
+	- style: add a style class to the shortcode
+	- rowsize: the number of icons per row, between 1 and 6. Will also determine size of icons.
+	- "Inner": the content of the shortcode should be a list of icon-item shortcodes.
+--> */}}
+
 {{ "<!-- shortcodes:icon-list.html:start -->" | safeHTML }}
-<div class="cl-shortcode {{ with .Params.style }}{{ . }}{{ end }}">
-	<div class="flex-parent flex-parent-column flex-parent-gap">
-		{{ if .Params.title }}
-			<div class="flex-child">
-				{{ with .Params.title }}
-					<h3 class="cl-shortcode--title-centered">
-						{{ . }}
-					</h3>
-				{{ end }}
-			</div>
-		{{ end }}
-		<div class="flex-child">
-			<div class="flex-parent flex-parent-row flex-parent-justify-center flex-parent-gap">
-				{{ .Inner }}
-			</div>
-		</div>
+<div class="cl-shortcode cl-shortcode--icon-list {{ with .Params.style }}{{ . }}{{ end }}">
+	{{ with .Params.title }}
+		<h3 class="cl-shortcode--title-centered">
+			{{ . }}
+		</h3>
+	{{ end }}
+	<div class="list">
+		{{ .Inner }}
 	</div>
 </div>
 {{ "<!-- shortcodes:icon-list.html:end -->" | safeHTML }}

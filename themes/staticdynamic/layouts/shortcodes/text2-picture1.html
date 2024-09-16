@@ -1,9 +1,7 @@
 {{ "<!-- shortcodes:text2-picture1.html:start -->" | safeHTML }}
 <div class="cl-shortcode cl-shortcode--text2-picture1 {{ with .Params.style }}{{ . }}{{ end }}">
 	<div class="text">
-		<h3>
-			{{ .Params.title }}
-		</h3>
+		{{ partial "e/link-title" .Params }}
 		<p>
 			{{ .Inner | markdownify }}
 		</p>

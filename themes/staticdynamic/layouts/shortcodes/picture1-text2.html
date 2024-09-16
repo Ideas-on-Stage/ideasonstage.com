@@ -4,9 +4,7 @@
 		{{ partial "e/picture" .Params }}
 	</div>
 	<div class="text">
-		<h3>
-			{{ .Params.title }}
-		</h3>
+		{{ partial "e/title" .Params }}
 		<p>
 			{{ .Inner | markdownify }}
 		</p>

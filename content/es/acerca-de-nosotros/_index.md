@@ -3,6 +3,7 @@ draft: false
 title: "Acerca"
 description: "Creación de presentaciones, eventos corporativos, formación y coaching para hablar en público"
 translationKey: "about"
+type: about
 
 # blocks data
 datamoduleasidelist: [ team, catalogue ]

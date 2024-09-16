@@ -3,7 +3,7 @@ draft: false
 title: "About"
 description: "Presentation creation, business events, public speaking training and coaching"
 translationKey: "about"
-  
+
 datamoduleasidelist: [ team, catalogue ]
 ---
 

@@ -3,13 +3,7 @@ draft: false
 title: "À propos"
 description: "Agence spécialisée en présentation et en prise de parole en public pour les grands groupes internationaux."
 translationKey: "about"
-
-body:
-- body-h1hero
-- body-location
-- body-side-main
-- body-pages
-- body-modules-aside
+type: about
 
 datamoduleasidelist: [ team, catalogue ]
 ---

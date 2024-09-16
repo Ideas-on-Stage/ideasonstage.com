@@ -24,7 +24,7 @@
 
 {{ if (partial "f/ispage.go" .) }}
 	<!-- 1. Try to get image as page resource if argument is a page object -->
-	{{ $image = .Resources.Get .Params.picture }}
+	{{ $image = .Resources.Get .Params.picture }}	
 {{ else if (partial "f/isstring.go" .) }}
 	<!-- 2. Try to get image as page resource, but with current page as reference -->
 	{{ $image = page.Resources.Get . }}
@@ -49,11 +49,20 @@
 		Note: the first URL is used as "fallback" src in $imgSrc.
 		-->
 		{{ range $scales }}
-			{{ $srcUrl := (printf "%dx" .scale | $image.Resize).RelPermalink }}
+			{{ $scale := .scale }}
+			{{ if (strings.Contains $image.RelPermalink "logos") }}
+				{{ $scale = div $scale 4 }}
+			{{ end }}
+			{{ $srcUrl := "" }}
+			{{ if gt $image.Width $scale }}
+				{{ $srcUrl = (printf "%dx webp" $scale | $image.Resize).RelPermalink }}
+			{{ else }}
+				{{ $srcUrl = (printf "%dx%d webp" $image.Width $image.Height | $image.Resize).RelPermalink }}
+			{{ end }}
 			{{ if eq $imgSrc "" }}
 				{{ $imgSrc = $srcUrl }}
 			{{ end }}
-			{{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl .scale) }}
+			{{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl $scale) }}
 		{{ end }}
 		{{ $imgSrcSet = slice $imgSrc (delimit $imgSrcSet ",") }}
 	{{ else }}

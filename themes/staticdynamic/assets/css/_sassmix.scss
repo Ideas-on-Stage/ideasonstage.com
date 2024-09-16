@@ -154,7 +154,7 @@ $scheme-codingandbricks-link-hover: #FFD500 !default;
 	}
 }
 
-@mixin content($width: "normal", $marginv: "normal") {
+@mixin content($width: "normal", $marginv: "medium") {
 	@if "normal" == $width {
 		margin-left: auto; /* use auto to center div on page */
 		margin-right: auto; /* use auto to center div on page */
@@ -189,11 +189,11 @@ $scheme-codingandbricks-link-hover: #FFD500 !default;
 			width: calc( 100% );
 	}
 	
-	@if "normal" == $marginv {
+	@if "medium" == $marginv {
 		margin-top: var(--content-space-v) !important;
 		margin-bottom: var(--content-space-v) !important;		
 	}
-	@else if "gap" == $marginv {
+	@else if "small" == $marginv {
 		margin-top: var(--content-space-v) !important;
 		margin-bottom: var(--content-space-v) !important;
 	}

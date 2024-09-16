@@ -1,4 +1,20 @@
-{{ "<!-- partials/e/blocks.html:start -->" | safeHTML  }}
+{{/* <!--
+	
+	e/blocks
+
+	creates the html for the parts given as an argument.
+	
+	Arguments:
+	- list of parts as slice of strings, e.g. "bodytop" "body" "bodybottom"
+	
+	Process:
+	- The proper list of blocks is retrieved for each part
+	- Then the partial matching the block is used to generate the html
+	- A :start and :end comment is added before and after the block for debugging
+
+ --> */}}
+ 
+ {{ "<!-- partials/e/blocks.html:start -->" | safeHTML  }}
 {{ $parts := . }}
 {{ range $parts }}
 	{{ $part := . }}
@@ -12,7 +28,7 @@
 		<!-- display the block using the partial file -->
 		{{ partial $partial page }}
 		{{ $commentend := printf "<!-- %s:end -->" $partial }}
-		{{ $commentend | safeHTML }}	
+		{{ $commentend | safeHTML }}
 	{{ end }}
 {{ end }}
 {{ "<!-- partials/e/blocks.html:end -->" | safeHTML }}

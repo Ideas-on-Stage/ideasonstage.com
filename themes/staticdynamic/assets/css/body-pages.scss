@@ -1,0 +1,7 @@
+@import "_sassmix";
+
+
+
+.cl-body-pages {
+	@include content("normal", "medium");
+}

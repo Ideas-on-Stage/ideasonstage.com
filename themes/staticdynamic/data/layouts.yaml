@@ -101,6 +101,16 @@ _default:
 # they can be overridden for a page by a "body:" argument in the page front matter
 # to know the exact .Type and .Kind of a page, temporarily put {{ .Type }} {{ .Kind }} in the body of baseof.html template
 
+# page.Type "about"
+about:
+    section:
+        body:
+            - body-h1hero
+            - body-location
+            - body-side-main
+            - body-pages
+            - body-modules-aside
+
 # page.Type "news"
 news:
     # page.Kind "section"
