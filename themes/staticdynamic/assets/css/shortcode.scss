@@ -43,6 +43,15 @@ div.cl-shortcode--img + :not(div) {
 
 
 
+/* bpr-subscrib */
+
+	.cl-shortcode--bpr-subscribe {
+		@include scheme("light");
+		text-align: center;
+	}
+	
+
+
 /* ios certificate */
 
 	.cl-shortcode--certificate {
@@ -127,10 +136,6 @@ div.cl-shortcode--img + :not(div) {
 
 	.cl-shortcode--call-to-action {
 		text-align: center;
-		
-		.button {
-			display: inline-block;
-		}
 	}
 
 

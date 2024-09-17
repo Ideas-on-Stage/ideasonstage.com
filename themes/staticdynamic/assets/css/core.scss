@@ -201,6 +201,7 @@
 	.cl-core--button-primary {
 		margin: 0;
 		padding: 1em 2em;
+		display: inline-block;
 		color: var(--color-button-primary) !important;
 		background-color: var(--color-button-primary-bg);
 		border: none;
@@ -212,6 +213,7 @@
 	/* use to create a secondary button */
 	.cl-core--button-secondary {
 		padding: 0;
+		display: inline-block;
 		color: var(--color-button-secondary) !important;
 		background-color: var(--color-button-secondary-bg);
 		border: none;
@@ -224,42 +226,3 @@
 	}
 
 /* @end */	
-
-
-
-/* @group CONTENT */
-
-	.cl-core--content-space-v {
-		margin-top: var(--content-space-v) !important;
-		margin-bottom: var(--content-space-v) !important;
-	}
-	
-	.cl-core--content-width {
-		margin-left: auto; /* use auto to center div on page */
-		margin-right: auto; /* use auto to center div on page */
-		padding: 0;
-		width: 80vw;
-		max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
-		@media (max-width: $sm-screen) {
-			margin-left: var(--module-column-gap);
-			margin-right: var(--module-column-gap); 
-			width: calc(100% - var(--module-column-gap) * 2);
-			max-width: calc(100% - var(--module-column-gap) * 2);
-		}
-	}
-	
-	
-	/* use for narrow content such as forms */
-	.cl-core--content-width-narrow {
-		margin: 0 auto; /* use auto to center div on page */
-		padding: 0;
-		width: 50vw;
-		max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
-		@media (max-width: $sm-screen) {
-			margin: 0 var(--module-column-gap);
-			width: calc(100% - var(--module-column-gap) * 2 );
-			max-width: calc(100% - var(--module-column-gap) * 2 );
-		}
-	}
-
-/* @end */

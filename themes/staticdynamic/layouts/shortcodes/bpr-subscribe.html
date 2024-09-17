@@ -1,13 +1,13 @@
 {{ "<!-- shortcodes:bpr-subscribe.html:start -->" | safeHTML }}
-<div class="cl-shortcode bg-light">	
-	<h2 class="cl-shortcode--title-centered">
-		Get the overview free
+<div class="cl-shortcode cl-shortcode--bpr-subscribe">
+	<h2>
+		Get the overview free 
 	</h2>
-	<p class="cl-shortcode--text-centered">
+	<p>
 		Please send me the synopsis of Business Presentation Revolution, including the 5 major revolutions to fix business presentations.
 	</p>
 	
-	<form action="{{ $.Page.RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="magicwandForm" id="magicwandForm" class="cl-core--content-width-narrow cl-form">
+	<form action="{{ $.Page.RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="magicwandForm" id="magicwandForm" class="cl-form">
 		
 		<input type="hidden" name="_subject" value="Form sent from page: {{ $.Page.Permalink }}">
 		
@@ -19,7 +19,6 @@
 		
 		<input onclick="window.location.href = '/business-presentation-revolution/book/thankyou/';" type="submit" value="Join the Revolution" class="cl-core--button-primary" success="Congratulations, you will receive an email shortly." wait="Wait...">
 		
-	</form>	
-	
+	</form>
 </div>
 {{ "<!-- shortcodes:bpr-subscribe.html:end -->" | safeHTML }}
