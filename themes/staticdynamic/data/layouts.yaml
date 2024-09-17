@@ -200,9 +200,10 @@ tags:
         body:
             - body-h1hero
             - body-side-main
-            - body-pages-tags
+        side:
+            - side-topcategories
         main:
-            - main-tags
+            - main-pages-tags
     # page.Kind "term" = page for tags
     term:
         head:
@@ -213,7 +214,10 @@ tags:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
-            - body-pages-tags
+        side:
+            - side-topcategories
+        main:
+            - main-pages-tags
 
 
 
@@ -252,9 +256,9 @@ training:
         body:
             - body-h1hero
             - body-breadcrumbs
-            - body-references
             - body-side-main
             - body-pages
+            - body-references
         side:
             - side-links
     page:

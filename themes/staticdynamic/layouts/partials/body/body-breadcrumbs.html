@@ -1,9 +1,9 @@
 {{ if and (not .IsHome) (not .Parent.IsHome) }}
 	{{/* <!-- then at least 2 levels of depth, show breadcrumbs --> */}}
 	<nav id="breadcrumbs" class="cl-body-breadcrumbs">
-		<ol class="cl-core--content-width">
+		<ul>
 			{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
-		</ol>
+		</ul>
 	</nav>
 {{ else }}
 	{{ "<!-- skipped: no breadcrumbs on home or 1st level section -->" | safeHTML }}

@@ -13,8 +13,8 @@ datamodulelist: [ "guidepublicspeaking", "guideremotepresentations" ]
 body:
   - body-h1hero
   - body-breadcrumbs
-  - body-references
   - body-side-main
+  - body-references
 
 sidebar:
   title: "Liste des formations"
@@ -35,28 +35,24 @@ Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateu
 Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais experts, reconnus dans le monde de l'entreprise.
 
 {{< image-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
-{{< agenda-list style="bg-light" title="Formation Prise de Parole 2 jours">}}
-	{{< agenda-item title="" description="Notre formation phare de prise de parole en public, qui regroupe les modules Storytelling, Présentations PowerPoint et Art Oratoire. Cette formation s'appuie sur notre expérience unique de conseil en présentation auprès des plus grandes entreprises et des meilleures écoles de commerce." >}}
-{{< /agenda-list >}}
-{{< call-to-action button="En savoir plus" link="/fr/formation-prise-de-parole-2-jours/" style="bg-light paddingv-small" >}}
+{{< call-to-action title="Formation Prise de Parole 2 jours" button="En savoir plus" link="/fr/formation-prise-de-parole-2-jours/" style="bg-light" >}}
+Notre formation phare de prise de parole en public, qui regroupe les modules Storytelling, Présentations PowerPoint et Art Oratoire. Cette formation s'appuie sur notre expérience unique de conseil en présentation auprès des plus grandes entreprises et des meilleures écoles de commerce.
+{{< /call-to-action >}}
 
 {{< image-wide src="prise-de-parole-en-public-002.jpg" alt="Intervenant en train de réaliser une présentation" >}}
-{{< agenda-list style="bg-light" title="Formation Art Oratoire">}}
-	{{< agenda-item title="" description="Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations." >}}
-{{< /agenda-list >}}
-{{< call-to-action button="En savoir plus" link="/fr/formation-art-oratoire/" style="bg-light paddingv-small" >}}
+{{< call-to-action title="Formation Art Oratoire" button="En savoir plus" link="/fr/formation-art-oratoire/" style="bg-light" >}}
+Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations.
+{{< /call-to-action >}}
 
 {{< image-wide src="prise-de-parole-en-public-003.jpg" alt="Storytelling" >}}
-{{< agenda-list style="bg-light" title="Formation storytelling">}}
-	{{< agenda-item description="Le module storytelling est un module star de nos formations. Unique en son genre, pensé pour les besoins des entreprises, il vous apprendra comment construire votre discours pour convaincre votre auditoire, depuis l'identification des messages clés jusqu'à la création d'une histoire captivante." >}}
-{{< /agenda-list >}}
-{{< call-to-action button="En savoir plus" link="/fr/formation-storytelling/" style="bg-light paddingv-small" >}}
+{{< call-to-action title="Formation Storytelling" button="En savoir plus" link="/fr/formation-storytelling/" style="bg-light" >}}
+Le module storytelling est un module star de nos formations. Unique en son genre, pensé pour les besoins des entreprises, il vous apprendra comment construire votre discours pour convaincre votre auditoire, depuis l'identification des messages clés jusqu'à la création d'une histoire captivante.
+{{< /call-to-action >}}
 
 {{< image-wide src="prise-de-parole-en-public-004.jpg" alt="Gros plan mains qui applaudissent" >}}
-{{< agenda-list style="bg-light" title="Formation Présentations PowerPoint">}}
-	{{< agenda-item title="" description="Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoint. Lors de cette formation vous apprendrez comment utiliser PowerPoint pour créer des diapositives qui vont renforcer et clarifier votre discours oral. Vous apprendrez quel type de diapositive créer en fonction de l'utilisation de la présentation. Vous serez formés aux techniques de base du design pour créer des slides à fort impact visuel : simplicité, structure, choix des éléments. Enfin, vous verrez comment utiliser PowerPoint pour gagner du temps." >}}
-{{< /agenda-list >}}
-{{< call-to-action button="En savoir plus" link="/fr/formation-presentations-powerpoint/"  style="bg-light paddingv-small" >}}
+{{< call-to-action title="Formation Présentations PowerPoint" button="En savoir plus" link="/fr/formation-presentations-powerpoint/"  style="bg-light" >}}
+Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoint. Lors de cette formation vous apprendrez comment utiliser PowerPoint pour créer des diapositives qui vont renforcer et clarifier votre discours oral. Vous apprendrez quel type de diapositive créer en fonction de l'utilisation de la présentation. Vous serez formés aux techniques de base du design pour créer des slides à fort impact visuel : simplicité, structure, choix des éléments. Enfin, vous verrez comment utiliser PowerPoint pour gagner du temps.
+{{< /call-to-action >}}
 
 ## Pourquoi choisir Ideas on Stage ?
 
@@ -71,9 +67,11 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 {{< icon-list title="Organisme de formation depuis 2010" style="bg-light" >}}
 	{{< icon-item icon="logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
 	{{< icon-item icon="logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
+{{< /icon-list >}}
+{{< agenda-list style="bg-light" >}}
 	{{< agenda-item description="[Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)" >}}
 	{{< agenda-item description="[Vous pouvez également consulter le certificat délivré par l'organisme de certification Alticert en cliquant ici.](/files/certificat-qualiopi-alticert.pdf)" >}}
-{{< /icon-list >}}
+{{< /agenda-list >}}
 
 > Nous réalisons également d'autres formations spécialisées et sur-mesure en fonction de vos besoins spécifiques. Négociation, réunions difficiles, intervention lors de conférences, posture de leadership sur scène, …
 

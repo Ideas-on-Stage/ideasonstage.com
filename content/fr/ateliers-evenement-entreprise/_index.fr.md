@@ -7,7 +7,9 @@ translationKey: "workshops"
 
 ---
 
-{{< call-to-action title="Des ateliers ludiques et sérieux à la fois" subtitle="Drôles et efficaces, nos ateliers marqueront les esprits de vos collaborateurs. Que ce soit dans le cadre d'un séminaire ou d'un évènement d'entreprise, ils renforcent la cohésion et les compétences de vos équipes de manière ludique. Nos ateliers sont conçus pour vous et avec vous, sur mesure." button="NOUS CONTACTER" link="#contact" >}}
+{{< call-to-action title="Des ateliers ludiques et sérieux à la fois" button="NOUS CONTACTER" link="#contact" >}}
+Drôles et efficaces, nos ateliers marqueront les esprits de vos collaborateurs. Que ce soit dans le cadre d'un séminaire ou d'un évènement d'entreprise, ils renforcent la cohésion et les compétences de vos équipes de manière ludique. Nos ateliers sont conçus pour vous et avec vous, sur mesure.
+{{< /call-to-action >}}
 
 {{< text-centered category="Team Building" title="Créez une équipe aux valeurs qui vous ressemblent" >}}
 Qui êtes-vous vraiment ? Quelles sont les valeurs partagées par votre équipe ? Qu’est-ce qui anime et motive vos collaborateurs à se surpasser ? Lors de cet atelier de 3 h, différentes activités seront proposées pour faire émerger l’identité de votre équipe et renforcer sa cohésion. Créativité, LEGO®, brainstorming, collaboration seront mis à contribution. Cet atelier dure trois heures.

@@ -19,8 +19,11 @@ Now Officially Included in New York University’s Business Communication Course
 {{% /picture1-text2 %}}
 
 {{< call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" >}}
+{{< /call-to-action >}}
 
-{{< call-to-action style="bg-light" title="Discover your presentation score" subtitle="To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book. After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. It’s free, easy and takes less than three minutes to complete." picture="meter-orange.png" button="TAKE THE TEST NOW" link="https://presentationscorecard.scoreapp.com" >}}
+{{< call-to-action style="bg-light" title="Discover your presentation score" picture="meter-orange.png" button="TAKE THE TEST NOW" link="https://presentationscorecard.scoreapp.com">}}
+To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book. After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. It’s free, easy and takes less than three minutes to complete.
+{{< /call-to-action >}}
 
 ## An idea needs wings, and that means a strong, well-delivered presentation.
 
@@ -52,6 +55,7 @@ As the host of the Ideas on Stage podcast, Andrea understands what makes a great
 To enhance the value of your episode, Andrea can offer a special digital gift for your listeners.
 
 {{< call-to-action button="BOOK ANDREA NOW" link="mailto:support.uk@ideasonstage.com" >}}
+{{< /call-to-action >}}
 
 > "This book is the ultimate roadmap to what makes a memorable presentation. It’s the book I wish I had read when I started my career as a professional keynote speaker." 
 <br /><i>—Mark Leruste, bestselling author of Glow in the Dark</i>
@@ -62,7 +66,7 @@ To enhance the value of your episode, Andrea can offer a special digital gift fo
 ## Inspire your audience. Increase your influence. Make an impact.
 
 {{< call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" >}}
-
+{{< /call-to-action >}}
 
 
 

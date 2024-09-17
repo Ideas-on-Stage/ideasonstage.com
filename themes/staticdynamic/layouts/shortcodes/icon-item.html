@@ -10,20 +10,16 @@
 --> */}}
 
 {{ "<!-- shortcodes:icon-item.html:start -->" | safeHTML }}
-<div class="flex-child flex-child-{{ with .Params.size }}{{ . }}{{ else }}20p{{ end }}">	
-	<div class="cl-shortcode--icon {{ with .Params.style }}{{ . }}{{ end }}">
-		{{ with .Params.url }}
-			<a href="{{ . }}">
-		{{ end }}
-		<img src="{{ .Params.icon }}" alt= "{{ .Params.description | markdownify }}" />
-		{{ with .Params.url }}
-			</a>
-		{{ end }}
-	</div>
-	<div>
-		<p class="cl-shortcode--icon-text">
-			{{ .Params.description | markdownify }}
-		</p>
-	</div>
+<div class="cl-shortcode--icon-item">
+	{{ with .Params.url }}
+		<a href="{{ . }}">
+	{{ end }}
+	<img src="{{ .Params.icon }}" alt= "{{ .Params.description | markdownify }}" class="{{ with .Params.style }}{{ . }}{{ end }}" />
+	{{ with .Params.url }}
+		</a>
+	{{ end }}
+	<p class=".text">
+		{{ .Params.description | markdownify }}
+	</p>
 </div>
 {{ "<!-- shortcodes:icon-item.html:end -->" | safeHTML }}

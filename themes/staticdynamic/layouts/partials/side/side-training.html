@@ -1,44 +1,46 @@
 {{ "<!-- partials/side/training:start -->" | safeHTML }}
-<h2>
-	Fiche récapitulative de la formation
-</h2>
-<ul>
-{{ with .Params.title }}
-	<li>
-		Intitulé : {{ . }}
-	</li>
-{{ end }}
-{{ with .Params.duration }}
-	<li>
-		Durée : {{ . }}
-	</li>
-{{ end }}
-{{ with .Params.price }}
-	<li>
-		Prix : {{ . }}
-	</li>
-{{ end }}
-{{ with .Params.attendees }}
-	<li>
-		Participants : {{ . }}
-	</li>
-{{ end }}
-{{ with .Params.format }}
-	<li>
-		Format : {{ . }}
-	</li>
-{{ end }}
-{{ with .Params.locations }}
-	<li>
-		Où : {{ . }}
-	</li>
-{{ end }}
-	<li>
-		<a href="#contact">
-			<div class="cl-core--button-primary" style="width:auto;">
-				Réserver une formation
-			</div>
-		</a>
-	<li>
-</ul>
+<section id="training-summary">
+	<h2>
+		Fiche récapitulative de la formation
+	</h2>
+	<ul>
+	{{ with .Params.title }}
+		<li>
+			Intitulé : {{ . }}
+		</li>
+	{{ end }}
+	{{ with .Params.duration }}
+		<li>
+			Durée : {{ . }}
+		</li>
+	{{ end }}
+	{{ with .Params.price }}
+		<li>
+			Prix : {{ . }}
+		</li>
+	{{ end }}
+	{{ with .Params.attendees }}
+		<li>
+			Participants : {{ . }}
+		</li>
+	{{ end }}
+	{{ with .Params.format }}
+		<li>
+			Format : {{ . }}
+		</li>
+	{{ end }}
+	{{ with .Params.locations }}
+		<li>
+			Où : {{ . }}
+		</li>
+	{{ end }}
+		<li>
+			<a href="#contact">
+				<div class="cl-core--button-primary" style="width:auto;">
+					Réserver une formation
+				</div>
+			</a>
+		<li>
+	</ul>
+</section>
 {{ "<!-- partials/side/training:end -->" | safeHTML }}

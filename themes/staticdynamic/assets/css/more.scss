@@ -472,6 +472,7 @@ $footer-scheme: "dark";
 	}
 	
 	
+	
 	@media (max-width: $sm-screen) {
 		
 		/* change flex-direction to column on tall smartphone screens */
@@ -522,54 +523,4 @@ $footer-scheme: "dark";
 		
 	}
 	
-/* @end */
-
-
-
-
-/* @group LEGACY HELPER CLASSES */
-
-	/*  These classes should all be removed once transition in complete */
-	
-	/* text helper classes */
-	.text-white		{ color: #fff;					}
-	.text-center	{ text-align: center;				}
-	
-	/* padding helper classes */
-	.paddingt-none		{ padding-top: 0px;		}
-	.paddingb-medium	{ padding-bottom: 40px;	}
-	.paddingb-none		{ padding-bottom: 0px;	}
-	
-	.paddingv-small 	{
-		padding-top: 20px;
-		padding-bottom: 20px;
-	}
-	.paddingv-tiny {
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-
-	/* margin helper classes */
-	.margint-medium {
-		margin-top: 40px;
-	} 	
-	.marginv-medium {
-		margin-top: 40px;
-		margin-bottom: 40px;
-	}
-	.marginv-none {
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-	
-	.centered {
-		text-align: center;
-		width:100%; 
-	}
-	
-	.border {
-		border: 1px solid #888;
-		box-sizing: border-box;
-	}
-		
 /* @end */

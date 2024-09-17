@@ -1,39 +1,42 @@
-{{ $content := .Content }}
-<main id="main" role="main">
+<main id="main" role="main" class="cl-body-content-revolution-section">
 
 	{{/* <!-- generate hero with newest video --> */}}
-	<section id="highlight" class="bg-black cl-body-content-revolution-section--hero" style="background-color:rgba(0,0,0,.3);">
+	<section id="highlight" class="hero" style="background-color:rgba(0,0,0,.3);">
 		{{ range first 1 .Pages }}	
-			<img src="{{ .RelPermalink }}image.jpg" class="cl-body-content-revolution-section--hero-img">
+			<img src="{{ .RelPermalink }}image.jpg">
 			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 				<h2>
 					{{ with .Title }}{{ . }}{{ end }}
 				</h2>
 			</a>
 			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="cl-core--button-secondary">
-				{{ with $.Site.Params.revolution.more }}{{ . }}{{ end }}
+				{{ with site.Params.revolution.more }}{{ . }}{{ end }}
 			</a>
 		{{ end }}
 	</section>
-
-	<article id="content" class="cl-core--content-width cl-core--content-space-v text-center">
-		{{ with .Content }}{{ . | markdownify }}{{ end }}
-	</article>
-
-	<section id="videos-platforms" class="cl-core--content-width cl-core--content-space-v cl-body-content-revolution-section--social">
-		<div class="item">
+	
+	{{/* <!-- add page content as intro text --> */}}
+	{{ with .Content }}
+		<article id="content" class="text">
+			{{ . | markdownify }}
+		</article>
+	{{ end }}
+	
+	{{/* <!-- add social links --> */}}
+	<section id="videos-platforms" class="social">
+		<div class="social-item">
 			<a href="https://www.youtube.com/user/IdeasOnStage/videos">
 				<img src="youtube.svg" alt="youtube">
 				<p>YouTube</p>
 			</a>
 		</div>
-		<div class="item">
+		<div class="social-item">
 			<a href="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2">
 				<img src="itunes.svg" alt="iTunes">
 				<p>iTunes</p>
 			</a>
 		</div>
-		<div class="item">
+		<div class="social-item">
 			<a href="https://www.linkedin.com/company/ideas-on-stage/">
 				<img src="linkedin.svg" alt="linkedin">
 				<p>Linkedin</p>
@@ -41,28 +44,29 @@
 		</div>
 	</section>
 	
-	<article id="previous-episodes" class="cl-core--content-width cl-core--content-space-v cl-body-content-revolution-section--videolist">
-		<h2>{{ .Site.Params.revolution.episodes }}</h2>		
-		<div class="flex-parent flex-parent-row">
-			{{ $scratch := newScratch }}
-			{{ $scratch.Set "first" "true" }}
-			{{ $scratch.Set "content" .Content }}
-			{{ range (where .Site.RegularPages "Type" "revolution") }}
-				{{ if (eq ($scratch.Get "first") "true") }}
-					{{ $scratch.Set "first" "false" }}
+	{{/* <!-- generate list of past episodes --> */}}
+	<article id="previous-episodes" class="videolist">
+		<h2>{{ site.Params.revolution.episodes }}</h2>		
+		<ul class="episodes">
+			{{ $first := true }}
+			{{ range .Pages }}
+				{{ if eq $first true }}
+					{{ $first = false }}
 				{{ else }}
-					<a href="{{ .RelPermalink }}">
-						<img src="{{ .RelPermalink }}thumbnail.jpg" alt="{{ .Title }}">
-						<h3>
-							{{ .Title }}
-						</h3>
-						<p>
-							{{ .Description }}
-						</p>
-					</a>
+					<li>
+						<a href="{{ .RelPermalink }}">
+							<img src="{{ .RelPermalink }}thumbnail.jpg" alt="{{ .Title }}">
+							<h3>
+								{{ .Title }}
+							</h3>
+							<p>
+								{{ .Description }}
+							</p>
+						</a>
+					</li>
 				{{ end }}
 			{{ end }}
-		</div>
+		</ul>
 	</article>
 	
 </main>

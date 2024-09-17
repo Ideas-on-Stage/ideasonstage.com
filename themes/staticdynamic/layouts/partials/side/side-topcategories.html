@@ -1,15 +1,17 @@
 {{ "<!-- partials/inserts/sidebar-top-categories.html:start -->" | safeHTML }}
-<h2>
-	{{ .Site.Params.news.sbcategorytitle }}
-</h2>
-<ul>
-	{{ $t := .Site.Taxonomies.tags }}
-	{{ range first 5 $t.ByCount }}
-		<li>
-			<a href="{{ .Page.Permalink }}">
-				{{ .Term }} ({{ .Count }})
-			</a>
-		</li>
-	{{ end }}
-</ul>
+<section id="top-categories">
+	<h2>
+		{{ .Site.Params.news.sbcategorytitle }}
+	</h2>
+	<ul>
+		{{ $t := .Site.Taxonomies.tags }}
+		{{ range first 5 $t.ByCount }}
+			<li>
+				<a href="{{ .Page.Permalink }}">
+					{{ .Term }} ({{ .Count }})
+				</a>
+			</li>
+		{{ end }}
+	</ul>
+</section>
 {{ "<!-- partials/inserts/sidebar-top-categories.html:end -->" | safeHTML }}

@@ -1,14 +1,16 @@
 {{ "<!-- partials/side/links:start -->" | safeHTML }}
-<h2>
-	{{ .Params.sidebar.title }}
-</h2>
-<ul>
-	{{ range .Params.sidebar.items }}
-		<li>
-			{{ with .url }}<a href="{{ . }}">{{ end }}
-				{{ with .name }}{{ . }}{{ end }}
-			{{ with .url }}</a>{{ end }}
-		</li>
-	{{ end }}
-</ul>
+<section id="links">
+	<h2>
+		{{ .Params.sidebar.title }}
+	</h2>
+	<ul>
+		{{ range .Params.sidebar.items }}
+			<li>
+				{{ with .url }}<a href="{{ . }}">{{ end }}
+					{{ with .name }}{{ . }}{{ end }}
+				{{ with .url }}</a>{{ end }}
+			</li>
+		{{ end }}
+	</ul>
+</section>
 {{ "<!-- partials/side/links:end -->" | safeHTML }}

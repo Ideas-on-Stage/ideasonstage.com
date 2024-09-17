@@ -1,3 +1,27 @@
+{{/* <!--
+	
+	call-to-action
+
+	Creates a title + text + button shortcode
+	
+	Arguments:
+	- title
+	- picture
+	- subtitle
+	- button
+	
+	Process:
+	- Checks for each "body" block if a .css file exists with same name in /assets/css
+	  If yes, add it to the list of .css files
+	- Then uses each part of the file name to include additional css
+	  e.g. "pages-news" could include css from pages.scss and news.scss if these files exist in /assets/css
+
+	Returns:
+	- file list as a list of strings (WITHOUT path, subfolder or extension)
+	  eg [ "title", "content" ]
+	
+ --> */}}
+ 
 {{ "<!-- shortcodes:call-to-action.html:start -->" | safeHTML }}
 <div class="cl-shortcode cl-shortcode--call-to-action {{ with .Params.style }}{{ . }}{{ end }}">
 	{{ with .Params.title }}
@@ -7,10 +31,13 @@
 		<img src="{{ .Params.picture }}" height="192px" alt="{{ .Params.title }}">
 	{{ end }}
 	{{ with .Params.subtitle }}
+		<strong>{{ . }}</strong>
+	{{ end }}
+	{{ with .Inner}}
 		<p>{{ . }}</p>
 	{{ end }}
 	{{ if .Params.button }}
-		<a href="{{ .Params.link }}" class="cl-core--button-primary">{{ .Params.button }}</a>
+		<a href="{{ .Params.link }}" class="button cl-core--button-primary">{{ .Params.button }}</a>
 	{{ end }}
 </div>
 {{ "<!-- shortcodes:call-to-action.html:end -->" | safeHTML }}

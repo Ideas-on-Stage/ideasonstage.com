@@ -1,0 +1,9 @@
+<ul class="cl-tags">
+	{{ range .Pages.ByTitle }}
+		<li class="cl-tags--tag">
+			<a href="{{ .RelPermalink }}">
+				{{ .Title }}
+			</a>
+		</li>
+	{{ end }}
+</ul>

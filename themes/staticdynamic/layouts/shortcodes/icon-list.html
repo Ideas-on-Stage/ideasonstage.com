@@ -8,13 +8,13 @@
 --> */}}
 
 {{ "<!-- shortcodes:icon-list.html:start -->" | safeHTML }}
-<div class="cl-shortcode cl-shortcode--icon-list {{ with .Params.style }}{{ . }}{{ end }} flex-parent-gap">
+<div class="cl-shortcode cl-shortcode--icon-list {{ with .Params.style }}{{ . }}{{ end }}">
 	{{ with .Params.title }}
 		<h3>
 			{{ . }}
 		</h3>
 	{{ end }}
-	<div class="list">
+	<div class="items">
 		{{ .Inner }}
 	</div>
 </div>

@@ -1,58 +1,73 @@
-<section id="references-details" class="bg-white">
-	<div class="cl-core--content-width">
-		{{ $.Scratch.Set "count" 0 }}
-		{{ $languageshort := substr site.LanguageCode 0 2 }}
-		{{ range .Params.datareferencelist }}
-			{{ $data := index site.Data.references . }}
-			{{ if $data }}
-				{{ $localizeddata := index $data site.LanguageCode }}
-				{{ if $localizeddata }}
-					{{ if $localizeddata.description }}
-						<div class="flex-parent flex-parent-row flex-parent-align-start flex-parent-gap margint-medium">
-							<div class="flex-child flex-child-20p border">
-								{{ partial "e/picture.html" $localizeddata }}
-							</div>
-							<div class="flex-child flex-child-80p">
-								<h2>{{ $localizeddata.client }}</h2>
-								<p><b>{{ $localizeddata.title | markdownify }}</b></p>
-								{{ with $localizeddata.description }}
-									<p>{{ . | markdownify }}</p>
-								{{ end }}
-								{{ with $localizeddata.imgcontent }}
-									<img src="{{ . }}">
-								{{ end }}
-								{{ with $localizeddata.description2 }}
-									<p>{{ . | markdownify }}</p>
-								{{ end }}
-							</div>
+<section id="references-details" class="cl-main-listreferences--references">
+	{{ range .Params.datareferencelist }}
+		{{ $data := index site.Data.references . }}
+		{{ if $data }}
+			{{ $localizeddata := index $data site.LanguageCode }}
+			{{ if $localizeddata }}
+				{{ if $localizeddata.description }}
+					<div class="reference">
+						{{ partial "e/picture.html" $localizeddata }}
+						<div class="text">
+							{{ with $localizeddata.client }}
+							<h2>
+								{{ . }}
+							</h2>
+							{{ end }}
+							{{ with $localizeddata.title }}
+								<p>
+									<b>
+										{{ . | markdownify }}
+									</b>
+								</p>
+							{{ end }}
+							{{ with $localizeddata.description }}
+								<p>
+									{{ . | markdownify }}
+								</p>
+							{{ end }}
+							{{ with $localizeddata.imgcontent }}
+								<img src="{{ . }}">
+							{{ end }}
+							{{ with $localizeddata.description2 }}
+								<p>
+									{{ . | markdownify }}
+								</p>
+							{{ end }}
 						</div>
-					{{ end }}
+					</div>
 				{{ end }}
 			{{ end }}
 		{{ end }}
-		{{ range .Pages }}
-			<div class="flex-parent flex-parent-row flex-parent-align-start flex-parent-gap margint-medium">
-				<div class="flex-child flex-child-20p">
-					<div class="border">
-						{{ partial "e/picture" . }}
-					</div>
-				</div>
-				<div class="flex-child flex-child-80p">
-					<h2>{{ .Params.client }}</h2>
-					<p>
-						<a href="{{ .Permalink }}">
-							<b>{{ .Title | markdownify }}</b>
-						</a>
-					</p>
-					<p>
-						<a href="{{ .Permalink }}">
-							{{ with .Description }}
+	{{ end }}
+</section>
+
+<section id="success-stories" class="cl-main-listreferences--stories">
+	{{ range .Pages }}
+		<div class="story">
+			{{ partial "e/picture" . }}
+			<div class="text">
+				{{ with .Params.client }}
+					<h2>
+						{{ . }}
+					</h2>
+				{{ end }}
+				<p>
+					<a href="{{ .Permalink }}">
+						{{ with .Title }}
+							<b>
 								{{ . | markdownify }}
-							{{ end }}
-						</a>
-					</p>
-				</div>
+							</b>
+						{{ end }}
+					</a>
+				</p>
+				<p>
+					<a href="{{ .Permalink }}">
+						{{ with .Description }}
+							{{ . | markdownify }}
+						{{ end }}
+					</a>
+				</p>
 			</div>
-		{{ end }}
-	</div>
+		</div>
+	{{ end }}
 </section>

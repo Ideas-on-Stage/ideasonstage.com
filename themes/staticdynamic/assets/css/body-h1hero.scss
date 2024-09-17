@@ -1,15 +1,19 @@
+@import "_sassmix";
+
+
+
 .cl-body-h1hero--title {
+	@include scheme("dark");
 	top: var(--menubar-height);
 	z-index: 100;
 	display: flex;
 	justify-content: center;
 	padding: 1em;
-	background-color: var(--color-bg-dark);
-	color: var(--color-bg-dark-text);
 	text-align: center;
 }
 
 .cl-body-h1hero--hero {
+	@include scheme("black");
 	height: var(--hero-height);
 	width: calc(100% - 0.001px);
 	max-width: var(--page-max-width);
@@ -23,22 +27,14 @@
 		object-fit: cover;
 	}
 
-	.title {
-		position: absolute;
-		height: inherit;
-		width: inherit;
-		max-height: inherit;
-		max-width: inherit;
-		
-		h1 {
-			position: sticky;
-			top: var(--menubar-height);
-			z-index: 100;
-			display: flex;
-			justify-content: center;
-			padding: 1em;
-			text-align: center;
-			background-color: rgba(0, 0, 0, 0.4);	
-		}
+	h1 {
+		position: sticky;
+		top: var(--menubar-height);
+		z-index: 100;
+		display: flex;
+		justify-content: center;
+		padding: 1em;
+		text-align: center;
+		background-color: rgba(0, 0, 0, 0.4);	
 	}
 }

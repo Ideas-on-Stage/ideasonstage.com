@@ -1,0 +1,66 @@
+@import "_sassmix";
+
+
+
+.cl-main-listreferences--references {
+	
+	.reference {
+		@include content("normal", "medium");
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: var(--module-big-gap);
+		align-items: flex-start;
+		
+		img {
+			width: 20%;
+			border: 1px solid #888;
+			@media (max-width: $sm-screen) {
+				width: 33%;
+			}
+		}
+		
+		.text {
+			width: calc( 80% - var(--module-big-gap) );
+			@media (max-width: $sm-screen) {
+				width: 100%;
+			}
+			
+			> :first-child {
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+.cl-main-listreferences--stories {
+	
+	.story {
+		@include content("normal", "medium");
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: var(--module-big-gap);
+		align-items: flex-start;
+		
+		img {
+			width: 20%;
+			border: 1px solid #888;
+			@media (max-width: $sm-screen) {
+				width: 33%;
+			}
+		}
+		
+		.text {
+			width: calc( 80% - var(--module-big-gap) );
+			@media (max-width: $sm-screen) {
+				width: 100%;
+			}
+			
+			> :first-child {
+				margin-top: 0;
+			}
+		}
+	}
+}
+

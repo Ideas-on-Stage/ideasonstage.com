@@ -2,7 +2,8 @@
 
 
 
-form.cl-form {
+.cl-form {
+	@include content("narrow", "none");
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
@@ -16,7 +17,7 @@ form.cl-form {
 	width: 100%;
 	font-size: 0.8em;
 	line-height: 1.42857143;
-	color: #555;
+	color: #444;
 	background-color: #fff;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -26,14 +27,17 @@ form.cl-form {
 	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 	box-sizing: border-box;
 }
+
 .cl-form--field:focus {
 	/* highlight active field border */
 	border-color: var(--color-primary);
 	outline: 0;
 }
+
 input.cl-form--field {
 	height: 34px;
 }
+
 textarea.cl-form--field {
 	height: 200px;
 }

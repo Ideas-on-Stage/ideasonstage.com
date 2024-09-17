@@ -14,7 +14,8 @@ $body-breadcrumbs-list-transform: uppercase !default;
 		border: none; /* remove line under link */
 	}
 
-	ol {
+	ul {
+		@include content("normal", "none");
 		display: flex;
 		margin-top: 0;
 		margin-bottom: 0;
