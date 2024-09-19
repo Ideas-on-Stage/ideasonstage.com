@@ -5,6 +5,7 @@ date: "2019-03-05"
 cast: [ "Phil Waknell", "Rose Bloomfield" ]
 description: "Si te acabaras de enterar de que tienes que hacer una presentación de 15 minutos mañana, ¿cómo te prepararías?"
 translationKey: "revolution/episode-00004"
+type: revolution
 
 schema: "VideoObject"
 embedurl: "LVu6yIu8VGw"

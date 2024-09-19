@@ -5,6 +5,7 @@ date: "2019-05-17"
 cast: [ "Rose Bloomfield", "Michael Rickwood" ]
 description: "Conoce los cuatro tipos de gestos que puedes utilizar para comunicar eficazmente en escena"
 translationKey: "revolution/episode-00006"
+type: revolution
 
 schema: "VideoObject"
 embedurl: "ttx9xv7GrnQ"

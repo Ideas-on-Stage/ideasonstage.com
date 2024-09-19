@@ -5,6 +5,7 @@ date: "2019-02-11"
 cast: [ "Phil Waknell", "Rose Bloomfield" ]
 description: " No olvides hacerte estas preguntas esenciales para asegurarte de que no fallar antes incluso de empezar a hablar"
 translationKey: "revolution/episode-00003"
+type: revolution
 
 schema: "VideoObject"
 embedurl: "4jYoALR465E"

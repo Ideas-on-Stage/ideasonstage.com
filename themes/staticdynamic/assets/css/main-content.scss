@@ -9,7 +9,6 @@ $main-content-font-family-h: $font-family-h !default;
 
 
 .cl-main-content {
-
 	@include firstlastchildnomargin;
 	
 	> blockquote {
@@ -54,7 +53,7 @@ $main-content-font-family-h: $font-family-h !default;
 	> p {
 		font-family: $main-content-font-family;
 		margin-top: 1.6em;
-		margin-bottom: 0em;
+		margin-bottom: 1.6em;
 		line-height: 1.6em;
 		
 		> a {

@@ -13,7 +13,7 @@ body:
     - body-h1home
     - body-countrylist
     - body-cta
-    - body-contentwide
+    - body-mainwide
     - body-references
     - body-modules-aside
     - body-testimonials

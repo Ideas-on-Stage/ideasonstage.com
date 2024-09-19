@@ -26,6 +26,7 @@
 --> */}}
 
 {{ "<!-- _default/baseof.html:start -->" | safeHTML }}
+{{ (printf "<!-- page.Type %s - page.Kind %s -->" .Type .Kind) | safeHTML }}
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">	
 

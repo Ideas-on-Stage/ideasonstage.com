@@ -7,10 +7,10 @@ $navbar-scheme: "dark" !default;
 
 
 .cl-bodytop-navbar {
-	position: fixed;
+	position: fixed; /* menubar stays at top of screen */
 	top: 0;
 	width: 100%;
-	z-index:1000; /* no other element should be given a higher z-index */
+	z-index: 1000; /* no other element should be given a higher z-index */
 	padding-left: var(--module-column-gap);
 	padding-right: var(--module-column-gap);
 	max-width: var(--page-max-width);
@@ -43,7 +43,7 @@ $navbar-scheme: "dark" !default;
 		height: var(--menubar-height);
 	}
 	
-	.cl-bodytop-navbar--menu-burger {
+	.cl-bodytop-navbar--burger {
 		display: none; /* hide burger symbol on normal screens */
 	}
 	
@@ -55,44 +55,42 @@ $navbar-scheme: "dark" !default;
 		flex-direction: row;
 		align-items: stretch;
 		gap: 1em;
-	}
-	
-	.cl-bodytop-navbar--menu-item {
-		display: flex; /* allows easy vertical centering of <a> tag inside */
-		align-items: center; /* so text item inside is centered vertically */
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		height: var(--menubar-height);
-	}
-	
-	/* show dropdown on hover */
-	.cl-bodytop-navbar--menu-item:hover .cl-bodytop-navbar--menu-dropdown {
-		display: inherit;
-		@include scheme($navbar-scheme);
-	}
+
+		li {
+			display: flex; /* allows easy vertical centering of <a> tag inside */
+			align-items: center; /* so text item inside is centered vertically */
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			min-height: var(--menubar-height); /* min-height because should be allowed to grow for search */
+		}
+		/* show dropdown on hover */
+		li:hover .cl-bodytop-navbar--menu-dropdown {
+			display: flex;
+			@include scheme($navbar-scheme);
+		}
+	}	
 
 	.cl-bodytop-navbar--menu-dropdown {
-		display: none;
-		flex-direction: column;
 		position: absolute;
 		top: calc(var(--menubar-height) - 2px);
-		right: 0;
+		right: 0; /* sticks dropdown to right of screen */
 		margin: 0;
 		padding: 0;
 		width: auto;
-	}
-
-	.cl-bodytop-navbar--menu-dropdown-item {
-		float: none;
-		display: list-item;
-		position: relative;
-		list-style: none;
-		padding: 5px 12px;
-		line-height: 20px;
-	}
-	.cl-bodytop-navbar--menu-dropdown-item a {
-		text-align: right;
+		display: none; /* replaced by flex on hover */
+		flex-direction: column;
+		transition: 200ms;
+		transition-delay: 200ms;
+		
+		li {
+			display: flex;
+			align-items: center; /* so text item inside is centered vertically */
+			position: relative;
+			list-style: none;
+			padding: 5px 12px;
+			line-height: 20px;
+		}
 	}
 }
 
@@ -106,21 +104,12 @@ $navbar-scheme: "dark" !default;
 /* Menu for ts screens */
 @media (max-width : $sm-screen) {
 	
-	.cl-bodytop-navbar {
-		position: fixed;
-		top: 0;
-		width: 100%;
-		z-index:1000; /* no other element should be given a higher z-index */
-		padding-left: calc( var(--module-column-gap) );
-		padding-right: calc( var(--module-column-gap) );
-	}
-	
 	/* Logo */
 	.cl-bodytop-navbar--brand {
 		height: var(--menubar-height);
 	}
 
-	.cl-bodytop-navbar--menu-burger { 
+	.cl-bodytop-navbar--burger { 
 		display: inline-block;
 	}
 	

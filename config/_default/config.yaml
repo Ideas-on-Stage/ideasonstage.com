@@ -6,6 +6,9 @@ title: Ideas on Stage
 
 markup:
     goldmark:
+        parser:
+            attribute:
+                block: true
         renderer:
             unsafe: true    # added to allow raw HTML in page .Content
     tableOfContents:

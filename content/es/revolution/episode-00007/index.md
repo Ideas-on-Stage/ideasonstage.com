@@ -5,6 +5,7 @@ date: "2019-06-04"
 cast: [ "Rose Bloomfield", "Michael Rickwood" ]
 description: "El estrés y los nervios antes de una presentación son inevitables. Este video te da pistas para reducirlos"
 translationKey: "revolution/episode-00007"
+type: revolution
 
 schema: "VideoObject"
 embedurl: "Rh3MPWz-lQU"

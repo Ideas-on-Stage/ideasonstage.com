@@ -5,6 +5,7 @@ date: "2019-11-05"
 cast: [ "Rose Bloomfield", "Michael Rickwood" ]
 description: "Te presentamos un modelo para eliminar la monotonía de tus presentaciones. Captura la atención de tu audiencia"
 translationKey: "revolution/episode-00010"
+type: revolution
 
 schema: "VideoObject"
 embedurl: "JkbvYqYEeo8"

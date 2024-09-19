@@ -1,0 +1,15 @@
+@import "_sassmix";
+
+
+
+/* text-centered */
+
+.cl-shortcode--text-centered {
+	margin: 2vw auto;
+	padding: 0;
+	text-align: center;
+	@media (max-width: $sm-screen) {
+		margin: 8vw;
+	}
+}
+	

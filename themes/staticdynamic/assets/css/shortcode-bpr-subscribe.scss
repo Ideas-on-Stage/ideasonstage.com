@@ -1,0 +1,10 @@
+@import "_sassmix";
+
+
+
+/* bpr-subscribe shortcode */
+
+.cl-shortcode--bpr-subscribe {
+	@include scheme("light");
+	text-align: center;
+}

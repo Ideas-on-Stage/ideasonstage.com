@@ -5,6 +5,7 @@ date: "2019-09-09"
 cast: [ "Rose Bloomfield", "Michael Rickwood" ]
 description: "Organizar un evento requiere una enorme dedicación de esfuerzo, tiempo y dinero. Sácale el máximo partido con estos tres consejos."
 translationKey: "revolution/episode-00008"
+type: revolution
 
 schema: "VideoObject"
 embedurl: "pCERROM6an0"

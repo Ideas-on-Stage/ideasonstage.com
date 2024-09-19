@@ -5,6 +5,7 @@ date: "2019-05-02"
 cast: [ "Phil Waknell", "Rose Bloomfield" ]
 description: "​​Las slides potentes nacen de mensajes potentes y de ideas visuales claras aunque en ocasiones no son necesarias"
 translationKey: "revolution/episode-00005"
+type: revolution
 
 schema: "VideoObject"
 embedurl: "QoHSuEPa2_s"

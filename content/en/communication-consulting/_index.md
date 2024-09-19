@@ -15,11 +15,11 @@ Our corporate communication strategy consulting branch offers all necessary serv
 {{< image-wide src="corporate-communication.jpg" alt="Corporate Communication" >}}
 
 {{< icon-list title="Key benefits" style="bg-light" >}}
-	{{< icon-item icon="identity.svg" description="Reinforce your identity" style="cl-shortcode--icon-small" >}}
-	{{< icon-item icon="vision.svg" description="A clear vision and mission" style="cl-shortcode--icon-small" >}}
-	{{< icon-item icon="fast.svg" description="Faster organizational transformation" style="cl-shortcode--icon-small" >}}
-	{{< icon-item icon="group.svg" description="Effective employee coordination" style="cl-shortcode--icon-small" >}}
-	{{< icon-item icon="performance.svg" description="Corporate performance improvement" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="identity.svg" description="Reinforce your identity" >}}
+	{{< icon-item icon="vision.svg" description="A clear vision and mission" >}}
+	{{< icon-item icon="fast.svg" description="Faster organizational transformation" >}}
+	{{< icon-item icon="group.svg" description="Effective employee coordination" >}}
+	{{< icon-item icon="performance.svg" description="Corporate performance improvement" >}}
 {{< /icon-list >}}
 
 {{< space-medium >}}
@@ -35,11 +35,11 @@ Once we have a clear overall communication strategy in place; we work with you t
 {{< image-wide src="corporate-office.jpg" alt="Corporate Communication" >}}
 
 {{< icon-list title="Top reasons why people use our corporate communication services" style="bg-light" >}}
-	{{< icon-item icon="leader.svg" description="Leadership Meeting" style="cl-shortcode--icon-small" >}}
-	{{< icon-item icon="launch.svg" description="Launches and Rollouts" style="cl-shortcode--icon-small" >}}
-	{{< icon-item icon="csr.svg" description="Corporate and Social Responsibility" style="cl-shortcode--icon-small" >}}
-	{{< icon-item icon="transformation.svg" description="Organizational Transformation Plan" style="cl-shortcode--icon-small" >}}
-	{{< icon-item icon="certificate.svg" description="ESG communication" style="cl-shortcode--icon-small" >}}
+	{{< icon-item icon="leader.svg" description="Leadership Meeting" >}}
+	{{< icon-item icon="launch.svg" description="Launches and Rollouts" >}}
+	{{< icon-item icon="csr.svg" description="Corporate and Social Responsibility" >}}
+	{{< icon-item icon="transformation.svg" description="Organizational Transformation Plan" >}}
+	{{< icon-item icon="certificate.svg" description="ESG communication" >}}
 {{< /icon-list >}}
 
 {{< space-medium >}}

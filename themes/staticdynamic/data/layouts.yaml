@@ -45,7 +45,7 @@ _default:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
-            - body-list
+            - body-listpages
             - body-modules-aside
         main:
             - main-content
@@ -75,7 +75,7 @@ _default:
             - body-h1home
             - body-countrylist
             - body-cta
-            - body-contentwide
+            - body-mainwide
             - body-references
             - body-modules-aside
             - body-testimonials
@@ -108,7 +108,7 @@ about:
             - body-h1hero
             - body-location
             - body-side-main
-            - body-pages
+            - body-listpages
             - body-modules-aside
 
 # page.Type "news"
@@ -171,6 +171,7 @@ references:
             - main-listreferences
 
 
+
 # page.Type "revolution"
 revolution:
     section:
@@ -179,7 +180,11 @@ revolution:
             - head-title-section
         body:
             - body-h1hero
-            - body-content-revolution-section
+            - body-herorevolution
+            - body-side-main
+        main:
+            - main-content
+            - main-listrevolution
     page:
         body:
             - body-h1hero
@@ -187,6 +192,7 @@ revolution:
             - body-side-main
         side:
             - side-topcategories
+
 
 
 # page.Type "tags"
@@ -229,7 +235,7 @@ team:
             - head-title-section
         body:
             - body-h1hero
-            - body-contentwide
+            - body-mainwide
         main:
             - main-contenthome
             - main-listteam
@@ -257,7 +263,7 @@ training:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
-            - body-pages
+            - body-listpages
             - body-references
         side:
             - side-links

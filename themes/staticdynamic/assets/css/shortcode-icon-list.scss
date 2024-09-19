@@ -1,0 +1,41 @@
+@import "_sassmix";
+
+
+
+/* icon-list */
+
+.cl-shortcode--icon-list {
+	text-align: center;
+	
+	h3 {
+		margin-bottom: 1.5em;
+	}
+	
+	.items {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		gap: var(--module-column-gap);
+		align-items: flex-start;
+		justify-content: center;
+		@media (max-width: $sm-screen) {
+			flex-wrap: wrap;
+		}
+	}
+}
+
+.cl-shortcode--icon-item {
+	width: calc( (100% - 2 * var(--module-column-gap)) / 3 - 0.001px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	img {
+		width: 5rem;
+		height: 5rem;
+	}
+	
+	p {
+		margin-top: 0.5rem;
+	}
+}

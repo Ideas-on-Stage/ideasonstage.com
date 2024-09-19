@@ -1,0 +1,49 @@
+@import "_sassmix";
+
+.cl-main-listrevolution {
+	@include content("normal", "medium");
+	
+	/* list of episodes */
+	ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		list-style: none;
+		padding: 0;
+		gap: var(--module-column-gap);
+	}
+	
+	/* episode */
+	li {	
+		height: 100%;
+		width: calc( (100% - 2 * var(--module-column-gap)) / 3 - 0.001px);
+		margin-bottom: 2rem;
+		@media (max-width: $sm-screen) {
+			width: 100%;
+		}
+	}
+	
+	/* list title */
+	h2 {
+		margin-bottom: 0.5rem;
+		text-align: center;
+	}
+	
+	/* episode title */
+	h3 {
+		font-size: 1em;
+		margin-top: 0.5rem;
+	}
+	
+	/* episode thumb */
+	img {
+		display: block; /* to prevent line height from being added to div height */
+		width: 100%;
+		height: 100%;
+	}
+	
+	/* episode description */
+	p {
+		margin-top: 0.5rem;
+	}
+}

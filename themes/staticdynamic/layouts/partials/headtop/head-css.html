@@ -19,11 +19,32 @@
 	{{- range $blocks -}}
 		{{- $resource := printf "css/%s.scss" . -}}
 		{{- $css := printf "%s.css" . -}}
-		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | resources.ToCSS | resources.Minify }}
+		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | resources.ToCSS | resources.Minify -}}
 		{{- $style.Content | safeCSS -}}
 	{{- end -}}
 </style>
 {{ range $blocks }}
 	{{ (printf "<!-- inlined: %s.scss -->" .) | safeHTML }}
 {{ end }}
+{{ "<!-- Shortcodes inline CSS -->" | safeHTML }}
+<style type="text/css">
+	{{- $shortcodes := readDir "/themes/staticdynamic/layouts/shortcodes" -}}
+	{{- $found := slice -}}
+	{{- range $shortcodes -}}
+		{{- $name := index (split .Name ".") 0 -}}
+		{{- if page.HasShortcode $name -}}
+			{{- if fileExists (printf "/themes/staticdynamic/assets/css/shortcode-%s.scss" $name) -}}
+				{{- $found = $found | append $name }}
+			{{- end -}}
+		{{- end -}}
+	{{- end -}}
+	{{- $found = uniq $found -}}
+	{{- range $found -}}
+		{{- $resource := printf "css/shortcode-%s.scss" . -}}
+		{{- $css := printf "shortcode-%s.css" . -}}
+		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | resources.ToCSS | resources.Minify -}}
+		{{- $style.Content | safeCSS -}}
+	{{- end -}}
+</style>
+
 {{ "<!-- partials/e/blocks-css.html:end -->" | safeHTML }}
