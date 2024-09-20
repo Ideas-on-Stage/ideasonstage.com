@@ -1,0 +1,39 @@
+{{/* <!--
+	
+	e/icon
+
+	Inserts an icon available in /assets/img/icons, e.g. "burger.svg"
+	
+	Arguments: A dict entry containing
+	- name: "name of icon file including extension" as string.
+	- alt: "alt text" as a string (optional)
+	- height: height of icon (optional), width is always equal to height
+	
+	Process:
+	- Gets the icon file as a resource
+	- Inserts the html code to display the icon.
+	
+	Versions:
+	2024-09-20 first version
+
+ --> */}}
+
+{{ $alt := .name }}
+{{ $width := "12px" }}
+{{ $height := "12px" }}
+{{ $path := "" }}
+{{ $img := "" }}
+
+{{ if isset . "alt" }}
+	{{ $alt = .alt }}
+{{ end }}
+
+{{ if isset . "height" }}
+	{{ $height := .height }}
+	{{ $width := .height }}
+{{ end }}
+ 
+{{ $path := printf "img/icons/%s" .name }}
+{{ $img := resources.Get "img/icons/dropdown.svg" }}
+
+{{ $img.Content | safeHTML }}

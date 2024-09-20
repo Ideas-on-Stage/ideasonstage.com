@@ -28,12 +28,15 @@
 {{ end }}
 {{ "<!-- Shortcodes inline CSS -->" | safeHTML }}
 <style type="text/css">
-	{{- $shortcodes := readDir "/themes/staticdynamic/layouts/shortcodes" -}}
 	{{- $found := slice -}}
+	{{- $shortcodes := readDir "/themes/staticdynamic/layouts/shortcodes" -}}
+	{{- $shortcodes = $shortcodes | append (readDir "/layouts/shortcodes") -}}
 	{{- range $shortcodes -}}
 		{{- $name := index (split .Name ".") 0 -}}
 		{{- if page.HasShortcode $name -}}
 			{{- if fileExists (printf "/themes/staticdynamic/assets/css/shortcode-%s.scss" $name) -}}
+				{{- $found = $found | append $name }}
+			{{- else if fileExists (printf "/assets/css/shortcode-%s.scss" $name) -}}
 				{{- $found = $found | append $name }}
 			{{- end -}}
 		{{- end -}}

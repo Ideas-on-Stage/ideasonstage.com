@@ -55,8 +55,7 @@
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Search">
 				<span class="cl-bodytop-navbar--menu-shorten">
 					{{ with .Language.LanguageName }}{{ . }}{{ end }}
-					{{ $img := resources.Get "img/icons/dropdown.svg" }}			
-					<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12x" alt="Search">
+					{{ partial "e/icon.html" (dict "name" "dropdown.svg" "alt" "Show Content") }}
 				</span>
 			</label>
 			<input type="checkbox" id="drop-languages" class="cl-bodytop-navbar--menu-checkbox"/>

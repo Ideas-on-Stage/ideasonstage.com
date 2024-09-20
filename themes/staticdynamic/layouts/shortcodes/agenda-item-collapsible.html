@@ -1,18 +1,19 @@
 {{ "<!-- shortcodes:agenda-item-collapsible.html:start -->" | safeHTML }}
-<div>
+<div class="item-collapsible">
 	{{ if .Params.description }}
-		{{ if $.Params.title }}
-			<input id="collapsible_{{ $.Params.title }}" class="cl-shortcode--agenda-item-toggle" type="checkbox">
-			<label for="collapsible_{{ $.Params.title }}" class="cl-shortcode--agenda-item-toggle cl-shortcode--agenda-item-title">{{ $.Params.title }} <i class="fa fa-chevron-down"></i></label>
-		{{ end }}
-		<div class="cl-shortcode--agenda-item-collapsible">
-			<p class="cl-shortcode--agenda-item-description">{{ .Params.description | markdownify }}</p>
-		</div>	
+		<input id="collapsible_{{ $.Params.title }}" class="item-checkbox" type="checkbox">
+		<label for="collapsible_{{ $.Params.title }}" class="item-toggle">
+			<h4 class="item-title">
+				{{ .Params.title }}
+				{{ partial "e/icon.html" (dict "name" "dropdown.svg" "alt" "Show Content") }}
+			</h4>
+		</label>
+		<p class="item-collapsible-content item-description">{{ .Params.description | markdownify }}</p>
 		
 	{{ else }}
-		{{ if $.Params.title }}
-		<p class="cl-shortcode--agenda-item-title">{{ $.Params.title }}</p>
-		{{ end }}
+		<p class="item-title">
+			{{ $.Params.title }}
+		</p>
 	{{ end }}	
 </div>
 {{ "<!-- shortcodes:agenda-item-collapsible.html:end -->" | safeHTML }}
