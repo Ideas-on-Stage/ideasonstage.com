@@ -86,7 +86,7 @@ function executeSearch(term) {
     searchitems = '';
   } else { // build our html 
     for (let item in results.slice(0,5)) { // only show first 5 results
-      searchitems += '<li><a href="' + results[item].item.permalink + '" tabindex="0">' + '<span class="cl-fastsearch--results-title">' + results[item].item.title + '</span><br /><span class="cl-fastsearch--results-description">'+ results[item].item.description +'</span></a></li>';
+      searchitems += '<li><a href="' + results[item].item.permalink + '" tabindex="0">' + '<span class="results-title">' + results[item].item.title + '</span><br /><span class="results-description">'+ results[item].item.description +'</span></a></li>';
     }
     resultsAvailable = true;
   }

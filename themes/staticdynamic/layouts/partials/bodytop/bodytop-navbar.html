@@ -37,12 +37,12 @@
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Search">
 			</label>
 			<input type="checkbox" id="drop-search" class="cl-bodytop-navbar--menu-checkbox"/>
-			<ul class="cl-bodytop-navbar--menu-dropdown">
+			<ul class="cl-bodytop-navbar--menu-dropdown cl-fastsearch">
 				<li id="fastSearch" class="cl-bodytop-navbar--menu-dropdown-item">
-					<input id="searchInput" class="cl-fastsearch--input" tabindex="0">
+					<input id="searchInput" class="input" tabindex="0">
 				</li>
 				<li class="cl-bodytop-navbar--menu-dropdown-item">
-					<ul id="searchResults" class="cl-fastsearch--results">
+					<ul id="searchResults" class="results">
 					</ul>
 				</li>
 			</ul>

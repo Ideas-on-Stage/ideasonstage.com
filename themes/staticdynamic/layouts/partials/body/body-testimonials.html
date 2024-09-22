@@ -5,24 +5,22 @@
 			{{ if $data }}
 				{{ $localizeddata := index $data site.LanguageCode }}
 				{{ with $localizeddata }}
-					<div class="cl-testimonials--item">
+					<div class="item">
 						{{ with .text }}
-							<p class="cl-testimonials--text">
+							<p class="text">
 								{{ . }}
 							</p>
 						{{ end }}
-						<div class="cl-testimonials--person">
+						<div class="person">
 							{{ if .img }}
-								<div class="cl-testimonials--picture">
-									<img class="" alt="{{ .name }}" src="{{ .img }}" height="60px" width="60px">
-								</div>
+								<img loading="lazy" alt="{{ .name }}" src="{{ .img }}" height="60px" width="60px">
 							{{ end }}
 							<div>
 								{{ with .name }}
-									<h4 class="cl-testimonials--name">{{ . }}</h4>
+									<h4 class="name">{{ . }}</h4>
 								{{ end }}
 								{{ with .position }}
-									<p class="cl-testimonials--position">{{ . }}</p>
+									<p class="position">{{ . }}</p>
 								{{ end }}
 							</div>
 						</div>

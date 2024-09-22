@@ -6,7 +6,7 @@
 				{{ $localizeddata := index $data site.LanguageCode }}
 				{{ if $localizeddata }}
 					{{ $srcset := partial "f/getpicturesrcset.go" $localizeddata.picture }}
-					<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with $localizeddata.client }}alt="{{ . }}"{{ end }} height="100" width="100" />
+					<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" {{ with $localizeddata.client }}alt="{{ . }}"{{ end }} height="100" width="100" />
 				{{ end }}
 			{{ end }}
 		{{ end }}

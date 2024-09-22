@@ -1,5 +1,5 @@
 <footer id="footer" class="cl-footer">
-	<ul class="cl-footer--links">
+	<ul>
 		{{ range site.Params.footer.categories }}
 			<li>
 				{{ .name }}
@@ -15,7 +15,7 @@
 			</li>
 		{{ end }}
 	</ul>
-	<p class="cl-footer--text">
+	<p class="text">
 		{{ with site.Params.footer.copyright }}{{ . }}{{ end }} {{ now.Year }}. 
 		{{ with site.Params.footer.rights }}{{ . }}{{ end }}<br />
 		{{ with site.Params.footer.cookies }}{{ . | markdownify }}{{ end }}</br>
