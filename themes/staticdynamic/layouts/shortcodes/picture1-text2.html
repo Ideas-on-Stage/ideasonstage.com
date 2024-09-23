@@ -1,8 +1,6 @@
 {{ "<!-- shortcodes:picture1-text2.html:start -->" | safeHTML }}
 <div class="cl-shortcode cl-shortcode--picture1-text2 {{ with .Params.style }}{{ . }}{{ end }}">
-	<div class="picture">
-		{{ partial "e/picture" .Params }}
-	</div>
+	{{ partial "e/picture" .Params }}
 	<div class="text">
 		{{ partial "e/title" .Params }}
 		<p>

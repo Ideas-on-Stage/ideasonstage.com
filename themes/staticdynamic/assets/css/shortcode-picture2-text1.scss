@@ -26,7 +26,7 @@
 		}	
 	}
 	
-	.picture {
+	img {
 		width: calc( 66% - var(--module-big-gap) );
 		@media (max-width: $sm-screen) {
 			width: 100%;

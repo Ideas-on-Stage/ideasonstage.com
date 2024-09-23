@@ -6,8 +6,6 @@
 			{{ .Inner | markdownify }}
 		</p>
 	</div>
-	<div class="picture">
-		{{ partial "e/picture" .Params }}
-	</div>
+	{{ partial "e/picture" .Params }}
 </div>
 {{ "<!-- shortcodes:text1-picture2.html:end -->" | safeHTML }}
