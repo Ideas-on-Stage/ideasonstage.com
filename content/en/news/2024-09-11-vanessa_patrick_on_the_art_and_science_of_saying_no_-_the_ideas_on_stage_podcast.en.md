@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Vanessa Patrick on The Art and Science of Saying No - The Ideas on Stage Podcast"
+title = "Vanessa Patrick on The Art and Science of Saying No - The Ideas on Stage Podcast "
 tags = ["Podcasts"]
 news = ["general"]
 date = "2024-09-11"
@@ -12,11 +12,11 @@ banner = "/img/news/vp_thumbnail.jpg"
 <div style="margin: 5px 0;">
   <div>
     <p class="p1">In this episode of the Ideas on Stage podcast we spoke with Dr. Vanessa Patrick.<span class="Apple-converted-space">&nbsp;</span></p>
-    <p class="p2">&nbsp;</p>
+    <p class="p2">
     <p class="p1">Vanessa Patrick, PhD. is an award winning researcher and teacher at the Bauer College of Business at the University of Houston. She is a regular speaker at both academic and practitioner conferences and her research investigates strategies to achieve personal mastery and inspire everyday excellence in oneself and others. Her new book is The Power of Saying No: The New Science of How to Say No that Puts You in Charge of Your Life.</p>
-    <p class="p2">&nbsp;</p>
+    <p class="p2">
     <p class="p1">In this episode we talked about the art and science of saying no.<span class="Apple-converted-space">&nbsp;</span></p>
-    <p class="p3">&nbsp;</p>
+    <p class="p3">
     <p class="p1"><strong>Transcript</strong></p>
     <p class="p1"><strong>What inspired you to choose the topic of saying no for your book and research?</strong></p>
     <p class="p1">I realised through personal experiences and research that many people struggle with saying no effectively. My research focuses on personal mastery and self-regulation, and I saw a gap in research about how to say no effectively. The positive media response to my initial papers confirmed that this was an important issue, leading me to write the book.</p>
