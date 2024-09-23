@@ -2,147 +2,148 @@
 
 
 
-.cl-modules {
-	width: calc(100% - 0.001px);
-	display: flex;
-	flex-direction: row; /* to display half modules side by side */
-	flex-wrap: wrap; /* to create additional rows if necessary */
-	margin: var(--module-row-gap) 0;
-	padding: 0 var(--module-column-gap);
-	gap: var(--module-row-gap) var(--module-column-gap);
-	@media (max-width: $sm-screen) {
-		padding: 0; /* to remove gap left and right */
-	}
-	
-	h3 {
-		font-size: 1.8em;
-		margin-top: 0;
-	}
-}
-
-/* Add this to create a half width module div */
-.cl-modules--half {
-	display: flex;
-	flex-direction: column;
-	height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-	width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
-	max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
-	max-width: calc( ( var(--page-max-width) - var(--module-column-gap) ) / 2 - 0.001px);
-	overflow: hidden;
-	@media (max-width: $sm-screen) {	
-		width: 100%; /* make half width modules full width on ts screens */
-	}
-	
-	/* use to create inner div with text on top */
-	.text {
-		position: relative;	/* enables z-index */
-		z-index: 10; /* if text overflows, it will go over picture below */
-		padding: 2em;
-		height: 50%;
-		width: 100%;
-		text-align: center;
-	}
-	
-	/* use to create inner div with image on bottom */
-	.image {
-		height: 50%; /* without this, image size can overflow from module */
-		width: 100%;
-		
-		img {	
-			height: 100%;
-			width: 100%;
-			object-fit: contain; /* image is never distorted, crop if necessary */
-			object-position: 50% 100%; /* anchor on bottom, horizontal center */
-			@media (max-width: $sm-screen) {
-				object-fit: cover; /* use cover instead of contain on ts screens */
-			}
-		}
-	}
-}
-
-.cl-modules--column {
-	display: flex;
-	flex-direction: column;
-	height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-	width: calc(100% - 0.001px);
-	max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
-	max-width: var(--page-max-width);
-	overflow: hidden;
-	@media (max-width: $sm-screen) {
-		width: 100%;
-	}
-
-	/* use to create inner div with text on top */
-	.text {
-		position: relative;	/* enables z-index */
-		z-index: 10; /* if text overflows, it will go over picture below */
-		padding: 2em;
-		height: 50%;
-		width: 100%;
-		text-align: center;
-	}
-	
-	/* use to create inner div with image on bottom */
-	.image {
-		height: 50%; /* without this, image size can overflow from module */
-		width: 100%;
-		
-		img {	
-			height: 100%;
-			width: 100%;
-			object-fit: contain; /* image is never distorted, crop if necessary */
-			object-position: 50% 100%; /* anchor on bottom, horizontal center */
-			@media (max-width: $sm-screen) {
-				object-fit: cover; /* use cover instead of contain on ts screens */
-			}
-		}
-	}		
-}
-
-/* Use this to create a full width module div */
-.cl-modules--row {
-	display: flex;
-	flex-direction: row;
-	height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-	width: calc(100% - 0.001px);
-	max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
-	max-width: var(--page-max-width);
-	overflow: hidden;
-	@media (max-width: $sm-screen) {	
-		width: 100%;
-		flex-direction: column-reverse;
-		justify-content: space-between;
-	}
-		
-	/* use to create inner div with the pic on left */
-	.image {
-		height: 100%;
-		width: 64%;
+/* cl-modules */
+	.cl-modules {
+		width: calc(100% - 0.001px);
+		display: flex;
+		flex-direction: row; /* to display half modules side by side */
+		flex-wrap: wrap; /* to create additional rows if necessary */
+		margin: var(--module-row-gap) 0;
+		padding: 0 var(--module-column-gap);
+		gap: var(--module-row-gap) var(--module-column-gap);
 		@media (max-width: $sm-screen) {
-			height: 50%;
-			width: 100%;
+			padding: 0; /* to remove gap left and right */
 		}
-	
-		img {
-			display: block;
-			height: 100%;
-			width: 100%;
-			object-fit: cover;
-			object-position: 100% 50%; /* anchor on right edge (100%), vertical center */
+		
+		h3 {
+			font-size: 1.8em;
+			margin-top: 0;
 		}
 	}
 	
-	/* use to create inner div with text on right */
-	.text {
-		padding: 2em;
-		width: 36%;
+	/* Add this to create a half width module div */
+	.cl-modules--half {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		@media (max-width: $sm-screen) {
+		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
+		width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
+		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
+		max-width: calc( ( var(--page-max-width) - var(--module-column-gap) ) / 2 - 0.001px);
+		overflow: hidden;
+		@media (max-width: $sm-screen) {	
+			width: 100%; /* make half width modules full width on ts screens */
+		}
+		
+		/* use to create inner div with text on top */
+		.text {
+			position: relative;	/* enables z-index */
+			z-index: 10; /* if text overflows, it will go over picture below */
+			padding: 2em;
 			height: 50%;
 			width: 100%;
 			text-align: center;
 		}
+		
+		/* use to create inner div with image on bottom */
+		.image {
+			height: 50%; /* without this, image size can overflow from module */
+			width: 100%;
+			
+			img {	
+				height: 100%;
+				width: 100%;
+				object-fit: contain; /* image is never distorted, crop if necessary */
+				object-position: 50% 100%; /* anchor on bottom, horizontal center */
+				@media (max-width: $sm-screen) {
+					object-fit: cover; /* use cover instead of contain on ts screens */
+				}
+			}
+		}
 	}
-}
+	
+	.cl-modules--column {
+		display: flex;
+		flex-direction: column;
+		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
+		width: calc(100% - 0.001px);
+		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
+		max-width: var(--page-max-width);
+		overflow: hidden;
+		@media (max-width: $sm-screen) {
+			width: 100%;
+		}
+		
+		/* use to create inner div with text on top */
+		.text {
+			position: relative;	/* enables z-index */
+			z-index: 10; /* if text overflows, it will go over picture below */
+			padding: 2em;
+			height: 50%;
+			width: 100%;
+			text-align: center;
+		}
+		
+		/* use to create inner div with image on bottom */
+		.image {
+			height: 50%; /* without this, image size can overflow from module */
+			width: 100%;
+			
+			img {	
+				height: 100%;
+				width: 100%;
+				object-fit: contain; /* image is never distorted, crop if necessary */
+				object-position: 50% 100%; /* anchor on bottom, horizontal center */
+				@media (max-width: $sm-screen) {
+					object-fit: cover; /* use cover instead of contain on ts screens */
+				}
+			}
+		}		
+	}
+	
+	/* Use this to create a full width module div */
+	.cl-modules--row {
+		display: flex;
+		flex-direction: row;
+		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
+		width: calc(100% - 0.001px);
+		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
+		max-width: var(--page-max-width);
+		overflow: hidden;
+		@media (max-width: $sm-screen) {	
+			width: 100%;
+			flex-direction: column-reverse;
+			justify-content: space-between;
+		}
+			
+		/* use to create inner div with the pic on left */
+		.image {
+			height: 100%;
+			width: 64%;
+			@media (max-width: $sm-screen) {
+				height: 50%;
+				width: 100%;
+			}
+		
+			img {
+				display: block;
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+				object-position: 100% 50%; /* anchor on right edge (100%), vertical center */
+			}
+		}
+		
+		/* use to create inner div with text on right */
+		.text {
+			padding: 2em;
+			width: 36%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			@media (max-width: $sm-screen) {
+				height: 50%;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}

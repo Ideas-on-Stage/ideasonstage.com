@@ -3,14 +3,14 @@
 
 
 
-.cl-bodybottom-contact {
-	@include content("narrow", "medium");
+	.cl-bodybottom-contact {
+		@include content("narrow", "medium");
+		
+		h2 {
+			text-align: center;
+		}
 	
-	h2 {
-		text-align: center;
+		p {
+			text-align: center;
+		}
 	}
-
-	p {
-		text-align: center;
-	}
-}

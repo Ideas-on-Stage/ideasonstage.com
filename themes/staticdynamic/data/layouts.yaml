@@ -2,9 +2,9 @@
 # this is a lot easier to read and maintain vs. multiple templates per page type
 # head: blocks added to the <head></head> part
 # body: blocks added to the <body></body> part
-# side: blocks added to the sidebar inside the cl-main-content part
-# main: blocks added inside the cl-main-content--main part. Use only if absolutely necessary
-# list: blocks added inside list elements
+# side: blocks added to the sidebar inside the .side part (needs a body-side-main part)
+# main: blocks added inside the .main part (needs a body-side-main or body-main* part)
+# list: blocks added inside list elements (needs a body-list* or main-list* part)
 
 
 
@@ -45,7 +45,7 @@ _default:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
-            - body-listpages
+            - body-list
             - body-modules-aside
         main:
             - main-content
@@ -85,6 +85,7 @@ _default:
             - main-contenthome
 
 
+
 # page.Type "404"
 404:
     # page.Kind "page"
@@ -101,6 +102,8 @@ _default:
 # they can be overridden for a page by a "body:" argument in the page front matter
 # to know the exact .Type and .Kind of a page, temporarily put {{ .Type }} {{ .Kind }} in the body of baseof.html template
 
+
+
 # page.Type "about"
 about:
     section:
@@ -108,8 +111,10 @@ about:
             - body-h1hero
             - body-location
             - body-side-main
-            - body-listpages
+            - body-list
             - body-modules-aside
+
+
 
 # page.Type "news"
 news:
@@ -158,6 +163,7 @@ news:
             - main-authorandtime
             - main-tags
             - main-content
+
 
 
 # page.Type "references"
@@ -263,7 +269,7 @@ training:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
-            - body-listpages
+            - body-list
             - body-references
         side:
             - side-links

@@ -2,42 +2,42 @@
 
 
 
-.cl-form {
-	@include content("narrow", "none");
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-	align-items: center;
-}
-
-.cl-form--field {
-	display: block;
-	margin: 0;
-	padding: 6px 12px;
-	width: 100%;
-	font-size: 0.8em;
-	line-height: 1.42857143;
-	color: #444;
-	background-color: #fff;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-shadow: none;
-	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-	box-sizing: border-box;
-}
-
-.cl-form--field:focus {
-	/* highlight active field border */
-	border-color: var(--color-primary);
-	outline: 0;
-}
-
-input.cl-form--field {
-	height: 34px;
-}
-
-textarea.cl-form--field {
-	height: 200px;
-}
+	.cl-form {
+		@include content("narrow", "none");
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+	}
+	
+	.cl-form--field {
+		display: block;
+		margin: 0;
+		padding: 6px 12px;
+		width: 100%;
+		font-size: 0.8em;
+		line-height: 1.42857143;
+		color: #444;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-shadow: none;
+		-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+		-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+		box-sizing: border-box;
+	}
+	
+	.cl-form--field:focus {
+		/* highlight active field border */
+		border-color: var(--color-primary);
+		outline: 0;
+	}
+	
+	input.cl-form--field {
+		height: 34px;
+	}
+	
+	textarea.cl-form--field {
+		height: 200px;
+	}

@@ -2,65 +2,65 @@
 
 
 
-.cl-main-listreferences--references {
-	
-	.reference {
-		@include content("normal", "medium");
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		gap: var(--module-big-gap);
-		align-items: flex-start;
+	.cl-main-listreferences--references {
 		
-		img {
-			width: 20%;
-			border: 1px solid #888;
-			@media (max-width: $sm-screen) {
-				width: 33%;
-			}
-		}
-		
-		.text {
-			width: calc( 80% - var(--module-big-gap) );
-			@media (max-width: $sm-screen) {
-				width: 100%;
+		.reference {
+			@include content("normal", "medium");
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: var(--module-big-gap);
+			align-items: flex-start;
+			
+			img {
+				width: 20%;
+				border: 1px solid #888;
+				@media (max-width: $sm-screen) {
+					width: 33%;
+				}
 			}
 			
-			> :first-child {
-				margin-top: 0;
+			.text {
+				width: calc( 80% - var(--module-big-gap) );
+				@media (max-width: $sm-screen) {
+					width: 100%;
+				}
+				
+				> :first-child {
+					margin-top: 0;
+				}
 			}
 		}
 	}
-}
-
-.cl-main-listreferences--stories {
 	
-	.story {
-		@include content("normal", "medium");
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		gap: var(--module-big-gap);
-		align-items: flex-start;
+	.cl-main-listreferences--stories {
 		
-		img {
-			width: 20%;
-			border: 1px solid #888;
-			@media (max-width: $sm-screen) {
-				width: 33%;
-			}
-		}
-		
-		.text {
-			width: calc( 80% - var(--module-big-gap) );
-			@media (max-width: $sm-screen) {
-				width: 100%;
+		.story {
+			@include content("normal", "medium");
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: var(--module-big-gap);
+			align-items: flex-start;
+			
+			img {
+				width: 20%;
+				border: 1px solid #888;
+				@media (max-width: $sm-screen) {
+					width: 33%;
+				}
 			}
 			
-			> :first-child {
-				margin-top: 0;
+			.text {
+				width: calc( 80% - var(--module-big-gap) );
+				@media (max-width: $sm-screen) {
+					width: 100%;
+				}
+				
+				> :first-child {
+					margin-top: 0;
+				}
 			}
 		}
 	}
-}
-
+	

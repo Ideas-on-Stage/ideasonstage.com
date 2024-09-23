@@ -2,39 +2,36 @@
 
 
 
-.cl-shortcode {
-	margin: 0 -2vw;
-	padding: 2vw;
-	@media (max-width: $sm-screen) {
-		flex-direction: column-reverse;
-		margin: 0 -4vw;
-		padding: 4vw;
+	.cl-shortcode {
+		margin: 0 -2vw;
+		padding: 2vw;
+		@media (max-width: $sm-screen) {
+			flex-direction: column-reverse;
+			margin: 0 -4vw;
+			padding: 4vw;
+		}
+		
+		> :first-child {
+			margin-top: 0;
+		}
+		> :last-child {
+			margin-bottom: 0;
+		}
+		
+		h3 {
+			margin-top: 0;
+		}
+		
+		/* Shortcode helper classes */
+		.border {
+			border: 1px solid #bbb;
+		}	
 	}
 
-	> :first-child {
-		margin-top: 0;
-	}
-	> :last-child {
-		margin-bottom: 0;
-	}
-
-	h3 {
-		margin-top: 0;
-	}	
-}
-
-/* spacing with other elements (that are not of class .cl-shortcode) */
-:not(.cl-shortcode) + .cl-shortcode,
-.cl-shortcode + :not(.cl-shortcode),
-div.cl-shortcode--img + :not(div) {
-	/* add margin space between cl-shortcode and content that is not of class .cl-shortcode */
-	margin-top: 48px;
-}
-
-
-
-/* Shortcode helper classes */
-
-	.border {
-		border: 1px solid #bbb;
+	/* spacing with other elements (that are not of class .cl-shortcode) */
+	:not(.cl-shortcode) + .cl-shortcode,
+	.cl-shortcode + :not(.cl-shortcode),
+	div.cl-shortcode--img + :not(div) {
+		/* add margin space between cl-shortcode and content that is not of class .cl-shortcode */
+		margin-top: 48px;
 	}
