@@ -7,25 +7,25 @@ $body-breadcrumbs-list-transform: uppercase !default;
 
 
 
-.cl-body-breadcrumbs {
-	background-color: var(--color-lightgray);
-
-	a {
-		border: none; /* remove line under link */
-	}
-
-	ul {
-		@include content("normal", "none");
-		display: flex;
-		margin-top: 0;
-		margin-bottom: 0;
-		padding: $body-breadcumbs-padding;
-		list-style: none;
-		text-transform: $body-breadcrumbs-list-transform;
-		gap: $body-breadcrumbs-list-gap;
+	.cl-body-breadcrumbs {
+		background-color: var(--color-lightgray);
 		
-		li {
-			margin: 0;
+		a {
+			border: none; /* remove line under link */
+		}
+		
+		ul {
+			@include content("normal", "none");
+			display: flex;
+			margin-top: 0;
+			margin-bottom: 0;
+			padding: $body-breadcumbs-padding;
+			list-style: none;
+			text-transform: $body-breadcrumbs-list-transform;
+			gap: $body-breadcrumbs-list-gap;
+			
+			li {
+				margin: 0;
+			}
 		}
 	}
-}

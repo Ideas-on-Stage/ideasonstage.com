@@ -6,7 +6,7 @@ $footer-scheme: "dark";
 
 /* @group cl-fastsearch */
 
-	.cl-fastsearch {
+	.cl-more--fastsearch {
 		
 		input {
 			display: inline-block;
@@ -50,7 +50,7 @@ $footer-scheme: "dark";
 
 /* @group footer */
 
-	.cl-footer {
+	.cl-more--footer {
 		@include scheme($footer-scheme);
 		margin: 0;
 		padding: var(--content-space-v) 0;
@@ -101,7 +101,7 @@ $footer-scheme: "dark";
 
 /* @group cl-testimonials */
 
-	.cl-testimonials {
+	.cl-more--testimonials {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;

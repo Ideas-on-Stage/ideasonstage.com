@@ -7,6 +7,7 @@
 .cl-shortcode--picture2-text1 {
 	display: flex;
 	flex-direction: row;
+	align-items: flex-start;
 	gap: var(--module-big-gap);
 	@media (max-width: $sm-screen) {
 		flex-direction: column;

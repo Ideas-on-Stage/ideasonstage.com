@@ -6,163 +6,163 @@ $navbar-scheme: "dark" !default;
 
 
 
-.cl-bodytop-navbar {
-	position: fixed; /* menubar stays at top of screen */
-	top: 0;
-	width: 100%;
-	z-index: 1000; /* no other element should be given a higher z-index */
-	padding-left: var(--module-column-gap);
-	padding-right: var(--module-column-gap);
-	max-width: var(--page-max-width);
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	@include scheme($navbar-scheme);
-}
-
-/* Font for menu */
-.cl-bodytop-navbar--menu-item,
-.cl-bodytop-navbar--menu-item a,
-.cl-bodytop-navbar--menu-dropdown-item,
-.cl-bodytop-navbar--menu-dropdown-item a {
-	@include font($navbar-font-family, $navbar-font-weight);
-	text-transform: uppercase;
-	font-size: 14px;
-	border: none; /* remove underline for a links */
-}
-
-.cl-bodytop-navbar--menu-checkbox {
-	display: none; /* hide checkboxes */
-}
-
-/* Menu for normal screens */
-@media (min-width : $sm-screen) {
-	/* Logo */
-	.cl-bodytop-navbar--brand {
-		height: var(--menubar-height);
-	}
-	
-	.cl-bodytop-navbar--burger {
-		display: none; /* hide burger symbol on normal screens */
-	}
-	
-	.cl-bodytop-navbar--menu {
-		margin: 0;
-		padding: 0;
-		height: var(--menubar-height);
+	.cl-bodytop-navbar {
+		position: fixed; /* menubar stays at top of screen */
+		top: 0;
+		width: 100%;
+		z-index: 1000; /* no other element should be given a higher z-index */
+		padding-left: var(--module-column-gap);
+		padding-right: var(--module-column-gap);
+		max-width: var(--page-max-width);
 		display: flex;
 		flex-direction: row;
-		align-items: stretch;
-		gap: 1em;
-
-		li {
-			display: flex; /* allows easy vertical centering of <a> tag inside */
-			align-items: center; /* so text item inside is centered vertically */
-			margin: 0;
-			padding: 0;
-			list-style: none;
-			min-height: var(--menubar-height); /* min-height because should be allowed to grow for search */
-		}
-		/* show dropdown on hover */
-		li:hover .cl-bodytop-navbar--menu-dropdown {
-			display: flex;
-			@include scheme($navbar-scheme);
-		}
-	}	
-
-	.cl-bodytop-navbar--menu-dropdown {
-		position: absolute;
-		top: calc(var(--menubar-height) - 2px);
-		right: 0; /* sticks dropdown to right of screen */
-		margin: 0;
-		padding: 0;
-		width: auto;
-		display: none; /* replaced by flex on hover */
-		flex-direction: column;
-		transition: 200ms;
-		transition-delay: 200ms;
-		
-		li {
-			display: flex;
-			align-items: center; /* so text item inside is centered vertically */
-			position: relative;
-			list-style: none;
-			padding: 5px 12px;
-			line-height: 20px;
-		}
-	}
-}
-
-/* Special menu properties for medium screens */
-@media (min-width: $sm-screen) and (max-width : {{ site.Params.layout.shorten_width }}) {
-	.cl-bodytop-navbar--menu-shorten {
-		display: none; /* show only icon (hide text) on medium screen widths */
-	}
-}
-
-/* Menu for ts screens */
-@media (max-width : $sm-screen) {
-	
-	/* Logo */
-	.cl-bodytop-navbar--brand {
-		height: var(--menubar-height);
-	}
-
-	.cl-bodytop-navbar--burger { 
-		display: inline-block;
-	}
-	
-	.cl-bodytop-navbar--menu {
-		position: fixed;
-		margin: 0;
-		padding: 1em;
-		left: 0;
-		top: calc(var(--menubar-height) - 2px);
-		height: auto;
-		width: 100%;
-		display: none; /* hide menu on ts screens, show if burger checkbox checked */
-		flex-direction: column;
+		justify-content: space-between;
 		align-items: center;
-		gap: 1em;
 		@include scheme($navbar-scheme);
+		
+		/* Font for menu */
+		.menu-item,
+		.menu-item a,
+		.menu-dropdown-item,
+		.menu-dropdown-item a {
+			@include font($navbar-font-family, $navbar-font-weight);
+			text-transform: uppercase;
+			font-size: 14px;
+			border: none; /* remove underline for a links */
+		}
+		
+		.menu-checkbox {
+			display: none; /* hide checkboxes */
+		}
+		
+		/* Menu for normal screens */
+		@media (min-width : $sm-screen) {
+			/* Logo */
+			.brand {
+				height: var(--menubar-height);
+			}
+			
+			.burger {
+				display: none; /* hide burger symbol on normal screens */
+			}
+			
+			.menu {
+				margin: 0;
+				padding: 0;
+				height: var(--menubar-height);
+				display: flex;
+				flex-direction: row;
+				align-items: stretch;
+				gap: 1em;
+				
+				li {
+					display: flex; /* allows easy vertical centering of <a> tag inside */
+					align-items: center; /* so text item inside is centered vertically */
+					margin: 0;
+					padding: 0;
+					list-style: none;
+					min-height: var(--menubar-height); /* min-height because should be allowed to grow for search */
+				}
+				/* show dropdown on hover */
+				li:hover .menu-dropdown {
+					display: flex;
+					@include scheme($navbar-scheme);
+				}
+			}	
+			
+			.menu-dropdown {
+				position: absolute;
+				top: calc(var(--menubar-height) - 2px);
+				right: 0; /* sticks dropdown to right of screen */
+				margin: 0;
+				padding: 0;
+				width: auto;
+				display: none; /* replaced by flex on hover */
+				flex-direction: column;
+				transition: 200ms;
+				transition-delay: 200ms;
+				
+				li {
+					display: flex;
+					align-items: center; /* so text item inside is centered vertically */
+					position: relative;
+					list-style: none;
+					padding: 5px 12px;
+					line-height: 20px;
+				}
+			}
+		}
+		
+		/* Special menu properties for medium screens */
+		@media (min-width: $sm-screen) and (max-width : {{ site.Params.layout.shorten_width }}) {
+			.menu-shorten {
+				display: none; /* show only icon (hide text) on medium screen widths */
+			}
+		}
+		
+		/* Menu for ts screens */
+		@media (max-width : $sm-screen) {
+			
+			/* Logo */
+			.brand {
+				height: var(--menubar-height);
+			}
+			
+			.burger { 
+				display: inline-block;
+			}
+			
+			.menu {
+				position: fixed;
+				margin: 0;
+				padding: 1em;
+				left: 0;
+				top: calc(var(--menubar-height) - 2px);
+				height: auto;
+				width: 100%;
+				display: none; /* hide menu on ts screens, show if burger checkbox checked */
+				flex-direction: column;
+				align-items: center;
+				gap: 1em;
+				@include scheme($navbar-scheme);
+			}
+			
+			.menu-item {
+				margin: 0;
+				padding: 0.20em;
+				width: 100%;
+				display: flex; /* allows easy vertical centering of <a> tag inside */
+				flex-direction: column;
+				align-items: center; /* so text item inside is centered vertically */
+				justify-content: center;
+				list-style: none;
+			}
+			
+			.menu-dropdown {
+				position: static;
+				top: calc(var(--menubar-height) - 2px);
+				margin: 0;
+				padding: 1em;
+				width: 100%;
+				display: none; /* hide, show if checkbox checked */
+				flex-direction: column;
+				align-items: center;
+				gap: 1em;
+			}
+			
+			.menu-dropdown-item {
+				display: list-item;
+				position: relative;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+			/* show menu or menu dropdown when checkbox is checked */
+			[id^=drop]:checked + .menu,
+			[id^=drop]:checked + .menu-dropdown {
+				display: flex;
+			}
+			
+		}
 	}
-	
-	.cl-bodytop-navbar--menu-item {
-		margin: 0;
-		padding: 0.20em;
-		width: 100%;
-		display: flex; /* allows easy vertical centering of <a> tag inside */
-		flex-direction: column;
-		align-items: center; /* so text item inside is centered vertically */
-		justify-content: center;
-		list-style: none;
-	}
-
-	.cl-bodytop-navbar--menu-dropdown {
-		position: static;
-		top: calc(var(--menubar-height) - 2px);
-		margin: 0;
-		padding: 1em;
-		width: 100%;
-		display: none; /* hide, show if checkbox checked */
-		flex-direction: column;
-		align-items: center;
-		gap: 1em;
-	}
-	
-	.cl-bodytop-navbar--menu-dropdown-item {
-		display: list-item;
-		position: relative;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-	
-	/* show menu or menu dropdown when checkbox is checked */
-	[id^=drop]:checked + .cl-bodytop-navbar--menu,
-	[id^=drop]:checked + .cl-bodytop-navbar--menu-dropdown {
-		display: flex;
-	}
-	
-}

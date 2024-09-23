@@ -5,43 +5,43 @@
 	{{ if ne "en" site.LanguageCode }}
 		{{ $home = printf "%s%s/" $home site.LanguageCode }}	
 	{{ end }}
-	<a class="page-scroll" href="{{ $home }}">
-		<div class="cl-bodytop-navbar--brand">
+	<a href="{{ $home }}">
+		<div class="brand">
 			{{ $logo := resources.Get "img/navbar/ideas-on-stage.svg" }}
 			<img src="data:image/svg+xml;base64,{{ $logo.Content | base64Encode }}" height="52" width="184" alt="Logo Ideas on Stage">
 		</div>
 	</a>
 	
 	<!-- menu-burger menu on ts screens -->
-	<label for="drop" class="cl-bodytop-navbar--menu-label cl-bodytop-navbar--burger">
+	<label for="drop" class="burger">
 		{{ $burger := resources.Get "img/icons/burger.svg" }}			
 		<img src="data:image/svg+xml;base64,{{ $burger.Content | base64Encode }}" height="16px" width="16px" alt="Burger Menu">
 	</label>
-	<input type="checkbox" id="drop" class="cl-bodytop-navbar--menu-checkbox"/>
+	<input type="checkbox" id="drop" class="menu-checkbox"/>
 			
 	<!-- iosmenu start -->
-	<ul class="cl-bodytop-navbar--menu">
+	<ul class="menu">
 		<!-- Menubar Menu Items -->
 		{{ range site.Params.navbar }}
-			<li class="cl-bodytop-navbar--menu-item">
-				<a class="page-scroll" href="{{ .url }}" onclick="getElementById('drop').checked = false">
+			<li class="menu-item">
+				<a href="{{ .url }}" onclick="getElementById('drop').checked = false">
 					{{ .name }}
 				</a>
-			</li>  
+			</li>
 		{{ end }}
 			
 		<!-- Search Dropdown -->
-		<li class="cl-bodytop-navbar--menu-item">
-			<label for="drop-search" class="cl-bodytop-navbar--menu-label">
+		<li class="menu-item">
+			<label for="drop-search">
 				{{ $img := resources.Get "img/icons/search.svg" }}			
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Search">
 			</label>
-			<input type="checkbox" id="drop-search" class="cl-bodytop-navbar--menu-checkbox"/>
-			<ul class="cl-bodytop-navbar--menu-dropdown cl-fastsearch">
-				<li id="fastSearch" class="cl-bodytop-navbar--menu-dropdown-item">
+			<input type="checkbox" id="drop-search" class="menu-checkbox"/>
+			<ul class="menu-dropdown cl-more--fastsearch">
+				<li id="fastSearch" class="menu-dropdown-item">
 					<input id="searchInput" class="input" tabindex="0">
 				</li>
-				<li class="cl-bodytop-navbar--menu-dropdown-item">
+				<li class="menu-dropdown-item">
 					<ul id="searchResults" class="results">
 					</ul>
 				</li>
@@ -49,20 +49,20 @@
 		</li>
 		
 		<!-- Languages Drop Down -->
-		<li class="cl-bodytop-navbar--menu-item">
-			<label for="drop-languages" class="cl-bodytop-navbar--menu-label">
+		<li class="menu-item">
+			<label for="drop-languages">
 				{{ $img := resources.Get "img/icons/globe.svg" }}			
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Search">
-				<span class="cl-bodytop-navbar--menu-shorten">
+				<span class="menu-shorten">
 					{{ with .Language.LanguageName }}{{ . }}{{ end }}
 					{{ partial "e/icon.html" (dict "name" "dropdown.svg" "alt" "Show Content") }}
 				</span>
 			</label>
-			<input type="checkbox" id="drop-languages" class="cl-bodytop-navbar--menu-checkbox"/>
-			<ul class="cl-bodytop-navbar--menu-dropdown">
-				{{ $links := partial "f/gettranslationlinks.go" . }}				
+			<input type="checkbox" id="drop-languages" class="menu-checkbox"/>
+			<ul class="menu-dropdown">
+				{{ $links := partial "f/gettranslationlinks.go" . }}
 				{{ range $links }}
-					<li class="cl-bodytop-navbar--menu-dropdown-item">
+					<li class="menu-dropdown-item">
 						<a href="{{ .url }}" hreflang="{{ .code }}">
 							{{ .name }}
 						</a>

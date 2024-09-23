@@ -1,12 +1,12 @@
 <div class="cl-body-side-main">
 	{{ if partial "f/getblocks.go" "side" }}
-		<aside id="sidebar" class="cl-body-side-main--side cl-side">
+		<aside id="sidebar" class="side">
 			{{ partial "e/blocks" (slice "side") }}
 		</aside>
 	{{ else }}
 		{{ partial "e/html-comment.html" "skipped: sidebar: no elements to show" }}
 	{{ end }}
-	<main id="main" role="main" class="cl-body-side-main--main">
+	<main id="main" role="main" class="main">
 		{{ partial "e/blocks" (slice "main") }}
 	</main>
 </div>

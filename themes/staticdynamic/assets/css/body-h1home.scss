@@ -4,14 +4,14 @@ $body-h1home-scheme: "dark" !default;
 
 
 
-.cl-body-h1home {
-	@include scheme($body-h1home-scheme);
-	text-align: center;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-
-	h1 {
-		font-size: 1em;
+	.cl-body-h1home {
+		@include scheme($body-h1home-scheme);
+		text-align: center;
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		
+		h1 {
+			font-size: 1em;
+		}
 	}
-}
