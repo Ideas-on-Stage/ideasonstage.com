@@ -1,19 +1,14 @@
 {{ "<!-- shortcodes:agenda-item-collapsible.html:start -->" | safeHTML }}
 <div class="item-collapsible">
-	{{ if .Params.description }}
-		<input id="collapsible_{{ $.Params.title }}" class="item-checkbox" type="checkbox">
-		<label for="collapsible_{{ $.Params.title }}" class="item-toggle">
-			<h4 class="item-title">
-				{{ .Params.title }}
-				{{ partial "e/icon.html" (dict "name" "dropdown.svg" "alt" "Show Content") }}
-			</h4>
-		</label>
-		<p class="item-collapsible-content item-description">{{ .Params.description | markdownify }}</p>
-		
-	{{ else }}
-		<p class="item-title">
-			{{ $.Params.title }}
-		</p>
-	{{ end }}	
+	<input id="collapsible_{{ $.Params.title }}" class="item-checkbox" type="checkbox">
+	<label for="collapsible_{{ $.Params.title }}" class="item-toggle">
+		<h4 class="item-title">
+			{{ .Params.title }}
+			{{ partial "e/icon.html" (dict "name" "dropdown.svg" "alt" "Show Content") }}
+		</h4>
+	</label>
+	<p class="item-collapsible-content item-description">
+		{{ .Params.description | markdownify }}
+	</p>
 </div>
 {{ "<!-- shortcodes:agenda-item-collapsible.html:end -->" | safeHTML }}

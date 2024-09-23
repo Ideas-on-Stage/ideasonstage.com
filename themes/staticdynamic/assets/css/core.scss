@@ -70,6 +70,8 @@
 
 	/* !!! Only set sitewide attributes !!! */
 	/* define the styling of standard tags */
+	
+	/* use border-box as the standard sizing model */
 	* {
 		box-sizing: border-box;
 	}
