@@ -15,7 +15,7 @@
 	--text-ratio-md: 1vw;
 	
 	--text-size-base: 1.5vw;
-	@media (max-width: $sm-screen) {
+	@media (max-width: $gl-sm-screen) {
 			--text-size-base: 4vw;
 	}
 	
@@ -38,29 +38,29 @@
 	--hero-height:	60vh;
 		
 	--module-height: 40; /* no unit */
-	@media (max-width: $sm-screen) {
+	@media (max-width: $gl-sm-screen) {
 		--module-height: 140;
 	}
 		
 	--module-column-gap: 12px;
-	@media (max-width: $sm-screen) {
+	@media (max-width: $gl-sm-screen) {
 		--module-column-gap: 4vw; 
 	}
 	--module-row-gap: 12px;
-	@media (max-width: $sm-screen) {
+	@media (max-width: $gl-sm-screen) {
 		--module-row-gap: 4vw;
 	}
 	--module-big-gap: 24px;
-	@media (max-width: $sm-screen) {
+	@media (max-width: $gl-sm-screen) {
 		--module-big-gap: 4vw;
 	}
 		
 	--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px ); /* width of 1/12th column */
-	@media (max-width: $sm-screen) {
+	@media (max-width: $gl-sm-screen) {
 		--module-12c-width: calc( ( 100% - var(--module-ts-column-gap) * 11 ) / 12 );
 	}
 	--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px ); /* width of 1/5th column */
-	@media (max-width: $sm-screen) {
+	@media (max-width: $gl-sm-screen) {
 		--module-5c-width: calc( ( 100% - var(--module-ts-column-gap) * 4 ) / 5 );
 	}
 

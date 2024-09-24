@@ -1,6 +1,4 @@
-@import "_sassmix";
-
-
+{{ partial "e/sass.scss" . }}
 
 	.cl-body-h1hero--title {
 		@include scheme("dark");

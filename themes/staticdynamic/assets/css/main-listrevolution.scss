@@ -1,8 +1,5 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
 
-
-
-/* cl-main-listrevolution */
 	.cl-main-listrevolution {
 		@include content("normal", "medium");
 		
@@ -21,7 +18,7 @@
 			height: 100%;
 			width: calc( (100% - 2 * var(--module-column-gap)) / 3 - 0.001px);
 			margin-bottom: 2rem;
-			@media (max-width: $sm-screen) {
+			@media (max-width: $gl-sm-screen) {
 				width: 100%;
 			}
 		}

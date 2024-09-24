@@ -1,8 +1,6 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
+@import "_shortcode";
 
-
-
-/* call-to-action */
 	.cl-shortcode--call-to-action {
 		text-align: center;
 	}

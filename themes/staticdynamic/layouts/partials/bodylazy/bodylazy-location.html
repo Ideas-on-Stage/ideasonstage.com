@@ -1,8 +1,8 @@
 {{ with site.Params.map }}
 	{{ if eq true .enable }}
-		<section id="address" class="cl-body-location">
+		<section id="address" class="cl-bodylazy-location">
 			{{ $srcset := partial "f/getpicturesrcset.go" .bgimage }}
-			<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="Ideas on Stage Champs Élysées">
+			<img loading="lazy" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="Ideas on Stage Champs Élysées">
 			<h2>
 				{{ with .title }}{{ . | markdownify }}{{ end }}
 			</h2>

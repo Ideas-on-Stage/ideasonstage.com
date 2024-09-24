@@ -1,6 +1,4 @@
-@import "_sassmix";
-
-
+{{ partial "e/sass.scss" . }}
 
 	.cl-body-herorevolution {
 		@include scheme("dark");

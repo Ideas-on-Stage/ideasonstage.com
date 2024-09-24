@@ -1,8 +1,5 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
 
-
-
-/* cl-main-listteam */
 	.cl-main-listteam {
 		@include content("normal", "medium");
 		display: flex;
@@ -18,7 +15,7 @@
 			align-items: center;
 			width: calc( ( 100% - 2 * 1em ) / 3 - 0.001px );
 			
-			@media (max-width: $sm-screen) {
+			@media (max-width: $gl-sm-screen) {
 				width: 100%;
 			}
 			

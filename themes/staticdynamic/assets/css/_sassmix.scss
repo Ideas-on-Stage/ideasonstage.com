@@ -1,88 +1,88 @@
 /* screen size breakpoints */
-$sm-screen: 720px !default;
-$lg-screen: 1920px !default;
+$gl-sm-screen: 720px !default;
+$gl-lg-screen: 1920px !default;
 
 /* font for standard text */
-$font-family: "Whitney SSm A", "Whitney SSm B" !default;
-$font-weight: 400 !default;
+$gl-font-family: "Whitney SSm A", "Whitney SSm B" !default;
+$gl-font-weight: 400 !default;
 /* font for bold text */
-$font-family-b: "Whitney SSm A", "Whitney SSm B" !default;
-$font-weight-b: 700 !default;
+$gl-font-family-b: "Whitney SSm A", "Whitney SSm B" !default;
+$gl-font-weight-b: 700 !default;
 /* font for h1, h2, etc. */
-$font-family-h: "Gotham SSm A", "Gotham SSm B" !default;
-$font-weight-h: 700 !default;
+$gl-font-family-h: "Gotham SSm A", "Gotham SSm B" !default;
+$gl-font-weight-h: 700 !default;
 /* font for buttons etc. */
-$font-family-button: "Gotham SSm A", "Gotham SSm B" !default;
-$font-weight-button: 700 !default;
+$gl-font-family-button: "Gotham SSm A", "Gotham SSm B" !default;
+$gl-font-weight-button: 700 !default;
 
 /* font-size is a ratio between font sizes. It must be WITHOUT units */
-$font-size : 1 !default;
-$font-size-h1: 2 !default;
-$font-size-h2: 1.5 !default;
-$font-size-h3: 1.25 !default;
-$font-size-h4: 1.25 !default;
-$font-size-h5: 1 !default;
+$gl-font-size : 1 !default;
+$gl-font-size-h1: 2 !default;
+$gl-font-size-h2: 1.5 !default;
+$gl-font-size-h3: 1.25 !default;
+$gl-font-size-h4: 1.25 !default;
+$gl-font-size-h5: 1 !default;
 
-/* font-ratio scales $font-size. It must be in vw units */
-$font-ratio-sm: 4vw !default;
-$font-ratio-md: 1.5vw !default;
+/* font-ratio scales $gl-font-size. It must be in vw units */
+$gl-font-ratio-sm: 4vw !default;
+$gl-font-ratio-md: 1.5vw !default;
 
 /* base colors */
-$color-primary: #FF8200 !default;
-$color-primary-contrast: #dd6200 !default;
-$color-secondary: #00A3E0 !default;
-$color-darkgray: #222 !default;
-$color-lightgray: #eee !default;
-$color-midgray: #888 !default;
+$gl-color-primary: #FF8200 !default;
+$gl-color-primary-contrast: #dd6200 !default;
+$gl-color-secondary: #00A3E0 !default;
+$gl-color-darkgray: #222 !default;
+$gl-color-lightgray: #eee !default;
+$gl-color-midgray: #888 !default;
 
 /* white background scheme (DEFAULT)  */
-$scheme-white-back: white !default;
-$scheme-white-text: black !default;
-$scheme-white-text-mid: #444 !default;
-$scheme-white-link: black !default;
-$scheme-white-link-hover: $color-primary !default;
+$gl-scheme-white-back: white !default;
+$gl-scheme-white-text: black !default;
+$gl-scheme-white-text-mid: #444 !default;
+$gl-scheme-white-link: black !default;
+$gl-scheme-white-link-hover: $gl-color-primary !default;
 
 /* black background scheme */
-$scheme-black-back: black !default;
-$scheme-black-text: white !default;
-$scheme-black-text-mid: #white !default;
-$scheme-black-link: white !default;
-$scheme-black-link-hover: $color-primary !default;
+$gl-scheme-black-back: black !default;
+$gl-scheme-black-text: white !default;
+$gl-scheme-black-text-mid: #white !default;
+$gl-scheme-black-link: white !default;
+$gl-scheme-black-link-hover: $gl-color-primary !default;
 
 /* dark background scheme */
-$scheme-dark-back: $color-darkgray !default;
-$scheme-dark-text: white !default;
-$scheme-dark-text-mid: #white !default;
-$scheme-dark-link: white !default;
-$scheme-dark-link-hover: $color-primary !default;
+$gl-scheme-dark-back: $gl-color-darkgray !default;
+$gl-scheme-dark-text: white !default;
+$gl-scheme-dark-text-mid: #white !default;
+$gl-scheme-dark-link: white !default;
+$gl-scheme-dark-link-hover: $gl-color-primary !default;
 
 /* light background scheme */
-$scheme-light-back: $color-lightgray !default;
-$scheme-light-text: black !default;
-$scheme-light-text-mid: #black !default;
-$scheme-light-link: black !default;
-$scheme-light-link-hover: $color-primary !default;
+$gl-scheme-light-back: $gl-color-lightgray !default;
+$gl-scheme-light-text: black !default;
+$gl-scheme-light-text-mid: #black !default;
+$gl-scheme-light-link: black !default;
+$gl-scheme-light-link-hover: $gl-color-primary !default;
 
 /* primary background scheme */
-$scheme-primary-back: $color-primary !default;
-$scheme-primary-text: white !default;
-$scheme-primary-text-mid: white !default;
-$scheme-primary-link: white !default;
-$scheme-primary-link-hover: white !default;
+$gl-scheme-primary-back: $gl-color-primary !default;
+$gl-scheme-primary-text: white !default;
+$gl-scheme-primary-text-mid: white !default;
+$gl-scheme-primary-link: white !default;
+$gl-scheme-primary-link-hover: white !default;
 
 /* secondary background scheme */
-$scheme-secondary-back: $color-secondary !default;
-$scheme-secondary-text: white !default;
-$scheme-secondary-text-mid: #white !default;
-$scheme-secondary-link: white !default;
-$scheme-secondary-link-hover: white !default;
+$gl-scheme-secondary-back: $gl-color-secondary !default;
+$gl-scheme-secondary-text: white !default;
+$gl-scheme-secondary-text-mid: #white !default;
+$gl-scheme-secondary-link: white !default;
+$gl-scheme-secondary-link-hover: white !default;
 
 /* codingandbricks scheme */
-$scheme-codingandbricks-back: #233B4C !default;
-$scheme-codingandbricks-text: #FFD500 !default;
-$scheme-codingandbricks-text-mid: #444 !default;
-$scheme-codingandbricks-link: #FFD500!important !default;
-$scheme-codingandbricks-link-hover: #FFD500 !default;
+$gl-scheme-codingandbricks-back: #233B4C !default;
+$gl-scheme-codingandbricks-text: #FFD500 !default;
+$gl-scheme-codingandbricks-text-mid: #444 !default;
+$gl-scheme-codingandbricks-link: #FFD500!important !default;
+$gl-scheme-codingandbricks-link-hover: #FFD500 !default;
 
 
 
@@ -93,14 +93,14 @@ $scheme-codingandbricks-link-hover: #FFD500 !default;
 
 @mixin font-scaling($size) {
 	/* take text font size and scale it with normal screen ratio */
-	font-size: calc( #{$size} * #{$font-ratio-md} );
-	@media (max-width: $sm-screen) {
+	font-size: calc( #{$size} * #{$gl-font-ratio-md} );
+	@media (max-width: $gl-sm-screen) {
 		/* take text font size and scale it with small screen ratio */
-		font-size: calc( #{$size} * #{$font-ratio-sm} );
+		font-size: calc( #{$size} * #{$gl-font-ratio-sm} );
 	}
-	@media(min-width: $lg-screen) {
+	@media(min-width: $gl-lg-screen) {
 		/* once max size is reached, stop growing font, use fixed max. size instead */
-		font-size: calc( #{$lg-screen} / 100 * #{$size} ); /* prevent text from growing too large */
+		font-size: calc( #{$gl-lg-screen} / 100 * #{$size} ); /* prevent text from growing too large */
 	}	
 }
 
@@ -122,25 +122,25 @@ $scheme-codingandbricks-link-hover: #FFD500 !default;
 /* use @include scheme("name") to add a predefined color scheme */
 @mixin scheme($scheme: "default") {
 	@if "black" == $scheme {
-		@include colors($scheme-black-back, $scheme-black-text, $scheme-black-text-mid, $scheme-black-link, $scheme-black-link-hover);
+		@include colors($gl-scheme-black-back, $gl-scheme-black-text, $gl-scheme-black-text-mid, $gl-scheme-black-link, $gl-scheme-black-link-hover);
 	} 
 	@else if "light" == $scheme {
-		@include colors($scheme-light-back, $scheme-light-text, $scheme-light-text-mid, $scheme-light-link, $scheme-light-link-hover);
+		@include colors($gl-scheme-light-back, $gl-scheme-light-text, $gl-scheme-light-text-mid, $gl-scheme-light-link, $gl-scheme-light-link-hover);
 	}
 	@else if "dark" == $scheme {
-		@include colors($scheme-dark-back, $scheme-dark-text, $scheme-dark-text-mid, $scheme-dark-link, $scheme-dark-link-hover);
+		@include colors($gl-scheme-dark-back, $gl-scheme-dark-text, $gl-scheme-dark-text-mid, $gl-scheme-dark-link, $gl-scheme-dark-link-hover);
 	}
 	@else if "primary" == $scheme {
-		@include colors($scheme-primary-back, $scheme-primary-text, $scheme-primary-text-mid, $scheme-primary-link, $scheme-primary-link-hover);
+		@include colors($gl-scheme-primary-back, $gl-scheme-primary-text, $gl-scheme-primary-text-mid, $gl-scheme-primary-link, $gl-scheme-primary-link-hover);
 	}
 	@else if "secondary" == $scheme {
-		@include colors($scheme-secondary-back, $scheme-secondary-text, $scheme-secondary-text-mid, $scheme-secondary-link, $scheme-secondary-link-hover);		
+		@include colors($gl-scheme-secondary-back, $gl-scheme-secondary-text, $gl-scheme-secondary-text-mid, $gl-scheme-secondary-link, $gl-scheme-secondary-link-hover);		
 	}
 	@else if "codingandbricks" == $scheme {
-		@include colors($scheme-codingandbricks-back, $scheme-codingandbricks-text, $scheme-codingandbricks-text-mid, $scheme-codingandbricks-link, $scheme-codingandbricks-link-hover);		
+		@include colors($gl-scheme-codingandbricks-back, $gl-scheme-codingandbricks-text, $gl-scheme-codingandbricks-text-mid, $gl-scheme-codingandbricks-link, $gl-scheme-codingandbricks-link-hover);		
 	}
 	@else {
-		@include colors($scheme-white-back, $scheme-white-text, $scheme-white-text-mid, $scheme-white-link, $scheme-white-link-hover);
+		@include colors($gl-scheme-white-back, $gl-scheme-white-text, $gl-scheme-white-text-mid, $gl-scheme-white-link, $gl-scheme-white-link-hover);
 	}
 }
 
@@ -160,7 +160,7 @@ $scheme-codingandbricks-link-hover: #FFD500 !default;
 		margin-right: auto; /* use auto to center div on page */
 		width: 80vw;
 		max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
-		@media (max-width: $sm-screen) {
+		@media (max-width: $gl-sm-screen) {
 			margin-left: var(--module-column-gap);
 			margin-right: var(--module-column-gap); 
 			width: calc(100% - var(--module-column-gap) * 2);
@@ -172,7 +172,7 @@ $scheme-codingandbricks-link-hover: #FFD500 !default;
 		margin: 0 auto; /* use auto to center div on page */
 		width: 50vw;
 		max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
-		@media (max-width: $sm-screen) {
+		@media (max-width: $gl-sm-screen) {
 			margin: 0 var(--module-column-gap);
 			width: calc(100% - var(--module-column-gap) * 2 );
 			max-width: calc(100% - var(--module-column-gap) * 2 );

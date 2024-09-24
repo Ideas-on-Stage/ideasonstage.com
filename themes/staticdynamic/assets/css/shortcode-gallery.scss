@@ -1,0 +1,16 @@
+{{ partial "e/sass.scss" . }}
+@import "_shortcode";
+
+	.cl-shortcode--gallery {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		
+		img {
+			height: auto;
+			width: 33.333%;
+			@media (max-width: $gl-sm-screen) {
+				width: 50%;
+			}
+		}
+	}

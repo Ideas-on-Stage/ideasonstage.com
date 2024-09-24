@@ -1,8 +1,6 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
+@import "_shortcode";
 
-
-
-/* icon-list */
 	.cl-shortcode--icon-list {
 		text-align: center;
 		
@@ -17,7 +15,7 @@
 			gap: var(--module-column-gap);
 			align-items: flex-start;
 			justify-content: center;
-			@media (max-width: $sm-screen) {
+			@media (max-width: $gl-sm-screen) {
 				flex-wrap: wrap;
 			}
 		}

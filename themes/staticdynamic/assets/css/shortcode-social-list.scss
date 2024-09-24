@@ -1,8 +1,6 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
+@import "_shortcode";
 
-
-
-/* social-list shortcode */
 	.cl-shortcode--social-list {
 		text-align: center;
 		

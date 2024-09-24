@@ -1,8 +1,6 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
+@import "_shortcode";
 
-
-
-/* agenda-list and agenda-item */
 	.cl-shortcode--agenda-list {
 		text-align: center;
 		

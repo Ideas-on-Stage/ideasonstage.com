@@ -5,83 +5,12 @@
 	Becomes 2 images side by side on ts (tall small) screens
 	So the ideal number of images is even (2, 4, 6, etc.)
 	
-	Number of images per row is, in order of priority:
-	- 1 or 2 if one or 2 pics
-	- 3 if multiple of 3
-	- 4 if multiple of 4
-	- 5 if multiple of 5
-	- 4 in all other cases (7, 11, etc.)
-	
-	Parameters:
-	
-	- unnamed list of pictures as string, between 1 and 
-	
-	Result: gallery of images
-	
 --> */}}
 
-{{ $class := "flex-child" }}
-{{ $len := len .Params }}
-{{ if eq $len 1 }}
-	{{ $class = "flex-child"}}
-{{ else if eq $len 2 }}
-	{{ $class = "flex-child flex-child-50p" }}
-{{ else if eq $len 3 }}
-	{{ $class = "flex-child flex-child-33p" }}
-{{ else if eq $len 4 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 5 }}
-	{{ $class = "flex-child flex-child-20p" }}
-{{ else if eq $len 6 }}
-	{{ $class = "flex-child flex-child-33p" }}
-{{ else if eq $len 7 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 8 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 9 }}
-	{{ $class = "flex-child flex-child-33p" }}	
-{{ else if eq $len 10 }}
-	{{ $class = "flex-child flex-child-20p" }}	
-{{ else if eq $len 11 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 12 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 13 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 14 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 15 }}
-	{{ $class = "flex-child flex-child-33p" }}
-{{ else if eq $len 16 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 17 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 18 }}
-	{{ $class = "flex-child flex-child-33p" }}
-{{ else if eq $len 19 }}
-	{{ $class = "flex-child flex-child-25p" }}	
-{{ else if eq $len 20 }}
-	{{ $class = "flex-child flex-child-25p" }}	
-{{ else if eq $len 21 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 22 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 23 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ else if eq $len 24 }}
-	{{ $class = "flex-child flex-child-25p" }}
-{{ end }}
-
 {{ "<!-- shortcodes:gallery.html:start -->" | safeHTML }}
-{{ if gt $len 0  }}
-	<div class="cl-shortcode">
-		<div class="cl-shortcode-child">
-			<div class="flex-parent flex-parent-row">
-				{{ range .Params }}
-				<div class="{{ $class }}"><img src="{{ . }}"></div>
-				{{ end }}
-			</div>
-		</div>
+	<div class="cl-shortcode cl-shortcode--gallery">
+		{{ range .Params }}
+			<img src="{{ . }}">
+		{{ end }}
 	</div>
-{{ end }}
 {{ "<!-- shortcodes:gallery.html:end -->" | safeHTML }}

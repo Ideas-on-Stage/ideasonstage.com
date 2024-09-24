@@ -5,7 +5,7 @@ tags = ["News", "Ideas on Stage", "UK", "United Kingdom", "London"]
 news = ["general"]
 date = "2019-03-12"
 author = "Pierre Morsa"
-banner = "/img/team-members/andrea-pacini.jpg"
+banner = "/team/andrea-pacini/andrea-pacini.jpg"
 +++
 
 This March Andrea Pacini joined Ideas on Stage as UK Presentation Director, meaning that Ideas on Stage now has a direct presence in France, Spain, Italy and the United Kingdom - and we serve the rest of the world from these four locations. 

@@ -1,0 +1,16 @@
+{{ with .Params.datareferencelist }}
+	<section id="reference-list" class="cl-referencesgrid">
+		{{ range . }}
+			{{ $data := index site.Data.references . }}
+			{{ if $data }}
+				{{ $localizeddata := index $data site.LanguageCode }}
+				{{ if $localizeddata }}
+					{{ $srcset := partial "f/getpicturesrcset.go" $localizeddata.picture }}
+					<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" {{ with $localizeddata.client }}alt="{{ . }}"{{ end }} height="100" width="100" />
+				{{ end }}
+			{{ end }}
+		{{ end }}
+	</section>
+{{ else }}
+	{{ partial "e/html-comment.html" "INFO: skipped: references: no .Params.datareferencelist" }}
+{{ end }}

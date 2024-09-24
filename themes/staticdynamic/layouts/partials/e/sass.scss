@@ -1,0 +1,17 @@
+{{/* <!--
+	
+	e/sass
+
+	- adds the @import "_sassmix" line
+	- if a custom config file exists, adds @import "customfile" line
+	
+	Arguments:
+	- name of scss file (for example main.scss)
+	
+ --> */}}
+@import "_sassmix";
+{{ $filepath := printf "custom/_%s.scss" . }}
+{{ $fullpath := printf "/assets/css/%s" $filepath }}
+{{ if fileExists $fullpath }}
+	@import "{{ $filepath }}";
+{{ end }}

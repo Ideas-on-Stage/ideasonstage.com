@@ -1,4 +1,4 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
 
 $tags-scheme: "light" !default;
 $tags-font-size: 0.8em !default;

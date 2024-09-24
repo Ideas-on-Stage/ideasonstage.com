@@ -1,6 +1,4 @@
-@import "_sassmix";
-
-
+{{ partial "e/sass.scss" . }}
 
 	.cl-main-listreferences--references {
 		
@@ -15,14 +13,14 @@
 			img {
 				width: 20%;
 				border: 1px solid #888;
-				@media (max-width: $sm-screen) {
+				@media (max-width: $gl-sm-screen) {
 					width: 33%;
 				}
 			}
 			
 			.text {
 				width: calc( 80% - var(--module-big-gap) );
-				@media (max-width: $sm-screen) {
+				@media (max-width: $gl-sm-screen) {
 					width: 100%;
 				}
 				
@@ -46,14 +44,14 @@
 			img {
 				width: 20%;
 				border: 1px solid #888;
-				@media (max-width: $sm-screen) {
+				@media (max-width: $gl-sm-screen) {
 					width: 33%;
 				}
 			}
 			
 			.text {
 				width: calc( 80% - var(--module-big-gap) );
-				@media (max-width: $sm-screen) {
+				@media (max-width: $gl-sm-screen) {
 					width: 100%;
 				}
 				

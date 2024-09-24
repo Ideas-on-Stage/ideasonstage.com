@@ -1,11 +1,8 @@
-@import "_sassmix";
-@import "custom/_body-breadcrumbs";
+{{ partial "e/sass.scss" . }}
 
 $body-breadcumbs-padding: 0.5em 0 !default;
 $body-breadcrumbs-list-gap: 0.5em !default;
 $body-breadcrumbs-list-transform: uppercase !default;
-
-
 
 	.cl-body-breadcrumbs {
 		background-color: var(--color-lightgray);

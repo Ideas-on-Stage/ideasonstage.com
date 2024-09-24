@@ -1,12 +1,10 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
+@import "_shortcode";
 
-
-
-/* image-wide shortcode */
 	.cl-shortcode--image-wide {
 		margin: 0 -2vw;
 		padding: 0;
-		@media (max-width: $sm-screen) {	
+		@media (max-width: $gl-sm-screen) {	
 			margin: 0 -4vw;
 			padding: 0;
 		}

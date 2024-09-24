@@ -3,7 +3,8 @@
 	{{ if $data }}
 		{{ $localizeddata := index $data site.LanguageCode }}
 		{{ with $localizeddata }}
-			<header id="call-to-action" class="bg-black cl-body-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
+			<header id="call-to-action" class="cl-body-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
+				
 				{{ $picture := printf "img/cta/%s" .picture }}
 				{{ $srcset := partial "f/getpicturesrcset.go" $picture }}
 				<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .title }}" width="100%" height="60vh">
@@ -13,11 +14,13 @@
 						{{ . | markdownify }}
 					</h2>
 				{{ end }}
+				
 				{{ with .description }}
 					<p>
 						{{ . }}
 					</p>
 				{{ end }}
+				
 				{{ with .button }}
 					<a href="{{ .link }}" class="cl-core--button-primary">
 						{{ .text }}

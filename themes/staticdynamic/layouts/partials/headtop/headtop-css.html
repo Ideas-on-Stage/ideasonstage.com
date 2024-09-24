@@ -1,14 +1,14 @@
 {{ "<!-- Critical CSS -->" | safeHTML }}
 <style type="text/css">
-	{{- $variables := resources.Get "css/variables.scss" | resources.ExecuteAsTemplate "variables.css" . | resources.ToCSS | resources.Minify -}}
+	{{- $variables := resources.Get "css/variables.scss" | resources.ExecuteAsTemplate "variables.css" . | toCSS | minify -}}
 	{{- $variables.Content | safeCSS -}}
-	{{- $core := resources.Get "css/core.scss" | resources.ExecuteAsTemplate "core.css" . | resources.ToCSS | resources.Minify -}}
+	{{- $core := resources.Get "css/core.scss" | resources.ExecuteAsTemplate "core.css" . | toCSS | minify -}}
 	{{- $core.Content | safeCSS -}}
 </style>
 
 {{ "<!-- Typography -->" | safeHTML }}
 <style type="text/css">
-	{{- $typography := resources.Get "css/typography.css" | resources.Minify -}}
+	{{- $typography := resources.Get "css/typography.css" | minify -}}
 	{{- $typography.Content | safeCSS -}}	
 </style>
 
@@ -19,7 +19,7 @@
 	{{- range $blocks -}}
 		{{- $resource := printf "css/%s.scss" . -}}
 		{{- $css := printf "%s.css" . -}}
-		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | resources.ToCSS | resources.Minify -}}
+		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify -}}
 		{{- $style.Content | safeCSS -}}
 	{{- end -}}
 </style>
@@ -45,7 +45,7 @@
 	{{- range $found -}}
 		{{- $resource := printf "css/shortcode-%s.scss" . -}}
 		{{- $css := printf "shortcode-%s.css" . -}}
-		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | resources.ToCSS | resources.Minify -}}
+		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify -}}
 		{{- $style.Content | safeCSS -}}
 	{{- end -}}
 </style>

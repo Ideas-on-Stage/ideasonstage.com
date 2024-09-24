@@ -10,11 +10,8 @@ datacta: "public-speaking-training"
 datareferencelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
 datamodulelist: [ "guidepublicspeaking", "guideremotepresentations" ]
 
-body:
-  - body-h1hero
-  - body-breadcrumbs
-  - body-side-main
-  - body-references
+bodylazy:
+  - bodylazy-referencesgrid
 
 sidebar:
   title: "Liste des formations"
@@ -65,8 +62,8 @@ Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoin
 - Nous avons un portefeuille de clients et de grandes écoles qui peuvent attester de la qualité de nos formations.
 <p></p>
 {{< icon-list title="Organisme de formation depuis 2010" style="bg-light" >}}
-	{{< icon-item icon="logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
-	{{< icon-item icon="logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
+	{{< icon-item icon="logo-datadock.png" size= "25p" description="Référencé Datadock" style="st-border" >}}
+	{{< icon-item icon="logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="st-border" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
 {{< /icon-list >}}
 {{< agenda-list style="bg-light" >}}
 	{{< agenda-item description="[Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)" >}}
@@ -81,7 +78,7 @@ Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise e
 
 Nos formations sont données uniquement en intra-entreprises.
 
-{{< picture1-text2 picture="trois-cercles.svg" title="Une formation en prise de parole en public complète et moderne" style="border" >}}
+{{< picture1-text2 picture="trois-cercles.svg" title="Une formation en prise de parole en public complète et moderne" style="st-border" >}}
 En 2010, Ideas on Stage a été le premier acteur à amener une méthode de présentation moderne et complète, basée sur l'état de l'art. Cette méthode combine les trois piliers d'une bonne présentation : histoire, visuels et art oratoire, pour communiquer efficacement son message.
 
 Le « **storytelling** » apporte les outils pour identifier les messages clés et les structurer en une histoire passionnante et simple à suivre.  

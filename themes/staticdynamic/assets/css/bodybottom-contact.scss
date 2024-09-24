@@ -1,7 +1,5 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
 @import "form";
-
-
 
 	.cl-bodybottom-contact {
 		@include content("narrow", "medium");
@@ -9,7 +7,7 @@
 		h2 {
 			text-align: center;
 		}
-	
+		
 		p {
 			text-align: center;
 		}

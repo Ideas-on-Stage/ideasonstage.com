@@ -1,3 +1,6 @@
+{{ partial "e/sass.scss" . }}
+
+@import "_sassmix";
 
 	.cl-authorandtime {
 		
@@ -5,4 +8,3 @@
 			color: var(--color-time);
 		}
 	}
-	

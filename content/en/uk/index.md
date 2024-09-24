@@ -14,10 +14,11 @@ body:
     - body-countrylist
     - body-cta
     - body-mainwide
-    - body-references
-    - body-modules-aside
-    - body-testimonials
-    - body-location
+bodylazy:
+    - bodylazy-referencesgrid
+    - bodylazy-modules-aside
+    - bodylazy-testimonials
+    - bodylazy-location
 main:
     - main-modules
     - main-contenthome

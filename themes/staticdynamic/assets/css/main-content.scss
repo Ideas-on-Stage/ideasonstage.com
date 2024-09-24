@@ -1,12 +1,7 @@
-@import "_sassmix";
-@import "custom/_main-content";
-@import "shortcode";
+{{ partial "e/sass.scss" . }}
 
-/* default values */
-$main-content-font-family: $font-family !default;
-$main-content-font-family-h: $font-family-h !default;
-
-
+$main-content-font-family: $gl-font-family !default;
+$main-content-font-family-h: $gl-font-family-h !default;
 
 	.cl-main-content {
 		@include firstlastchildnomargin;
@@ -91,7 +86,7 @@ $main-content-font-family-h: $font-family-h !default;
 				min-width: 120px; /* small columns will have the same size */
 				border: 1px solid #ddd;
 				text-align: center;
-				@media (max-width: $sm-screen) {
+				@media (max-width: $gl-sm-screen) {
 					min-width: 50px;
 				}
 			}

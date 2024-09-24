@@ -1,14 +1,10 @@
-@import "_sassmix";
-@import "custom/_body-countrylist";
+{{ partial "e/sass.scss" . }}
 
 $body-countrylist-list-font-size: 0.85em !default;
 $body-countrylist-scheme: "dark" !default;
 
-
 	.cl-body-countrylist {
-		
 		@include scheme($body-countrylist-scheme);
-			
 		margin-top: 0;
 		margin-bottom: 0;
 		padding-bottom: 1rem;

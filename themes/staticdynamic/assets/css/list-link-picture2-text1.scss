@@ -1,6 +1,4 @@
-@import "_sassmix";
-
-
+{{ partial "e/sass.scss" . }}
 
 	.cl-list-link-picture2-text1 {
 		display: flex;
@@ -9,13 +7,13 @@
 		margin-top: 3em;
 		margin-bottom: 3em;
 		width: 100%;
-		@media (max-width: $sm-screen) {
+		@media (max-width: $gl-sm-screen) {
 			flex-direction: column;
 		}
 		
 		.text {
 			width: 34%;
-			@media (max-width: $sm-screen) {
+			@media (max-width: $gl-sm-screen) {
 				width: 100%;
 			}	
 			
@@ -29,7 +27,7 @@
 		
 		.picture {
 			width: calc( 66% - var(--module-big-gap) );
-			@media (max-width: $sm-screen) {
+			@media (max-width: $gl-sm-screen) {
 				width: 100%;
 			}
 			

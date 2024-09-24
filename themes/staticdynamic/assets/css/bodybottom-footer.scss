@@ -1,0 +1,48 @@
+{{ partial "e/sass.scss" . }}
+
+$bodybottom-footer-scheme: "dark" !default;
+
+	.cl-bodybottom-footer {
+		@include scheme($bodybottom-footer-scheme);
+		margin: 0;
+		padding: var(--content-space-v) 0;
+		
+		> ul {
+			@include content("normal", "medium");
+			padding: 0;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: var(--module-column-gap);
+			font-family: "Gotham SSm A", "Gotham SSm B";
+			font-style: normal;
+			font-weight: 700;
+			font-size: 0.8em;
+			list-style: none;
+			
+			> li {
+				width: calc( (100% - 3 * var(--module-column-gap) ) / 4 - 0.001px );
+				@media (max-width: $gl-sm-screen) {
+					width: calc( (100% - var(--module-column-gap) ) / 2 - 0.001px );
+				} 
+				text-transform: uppercase;
+			}
+		}
+		
+		.items {
+			list-style: none;
+			padding-left: 0;
+			text-transform: none;
+			
+			> li a {
+				border: none;
+				font-size: 0.75em;
+			}
+		}	
+		
+		.text {
+			@include content("normal", "medium");
+			font-size: 0.75em;
+		}
+		
+	}

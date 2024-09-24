@@ -1,20 +1,49 @@
-{{ partial "js/js.html" . }}
-
-{{ $blocktypes := slice "bodybottom" }}
+<!-- Page specific non-critical CSS -->
+{{ $blocktypes := slice "bodylazy" "bodybottom" }}
 {{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
 {{- range $blocks -}}
 	{{- $resource := printf "css/%s.scss" . -}}
 	{{- $css := printf "%s.css" . -}}
-	{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | resources.ToCSS | resources.Minify }}
+	{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify }}
 	<link rel="preload" href="{{ $style.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
 	<noscript>
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
 	</noscript>
 {{- end -}}
 
-<!-- Remaining non-critical CSS -->
-{{ $more := resources.Get "css/more.scss" | resources.ExecuteAsTemplate "more.css" . | resources.ToCSS | resources.Minify }}
+<!-- Standard non-critical CSS -->
+{{ $more := resources.Get "css/more.scss" | resources.ExecuteAsTemplate "more.css" . | toCSS | minify }}
 <link rel="preload" href="{{ $more.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
 	<link rel="stylesheet" href="{{ $more.RelPermalink }}" type="text/css">
 </noscript>		
+
+<!-- jQuery - Required for form validation -->
+{{ $jsjquery := resources.Get "js/jquery.js" | minify }}
+<script src="{{ $jsjquery.RelPermalink }}"></script>
+
+<!-- jQuery - Contact form event handler -->
+<script type="text/javascript">
+	$("form").submit(function(e) {
+		e.preventDefault();
+		var $form = $(this);
+		var submitButton = $('input[type=submit]', this);
+
+		$.post($form.attr("action"), $form.serialize()).done(function(data) {
+				var successMessage = submitButton.attr("success");
+				submitButton.prop('value', successMessage);
+				alert(submitButton.attr('success'));
+				submitButton.prop('disabled', true);
+		}).fail(function(data) {
+			// Optionally alert the user of an error here...
+		});
+	});
+</script>
+
+<!-- fuse.js - used for search -->
+{{ $jsfuse := resources.Get "js/fuse.js" | minify }}
+<script async type="module" src="{{ $jsfuse.RelPermalink }}"></script>
+
+<!-- fastsearch.js - used for search -->
+{{ $jsfs := resources.Get "js/fastsearch.js" | minify }}
+<script async type="module" src="{{ $jsfs.RelPermalink }}"></script> 

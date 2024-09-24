@@ -1,12 +1,9 @@
 @import "_sassmix";
 
-
-
 	.cl-shortcode {
 		margin: 0 -2vw;
 		padding: 2vw;
-		@media (max-width: $sm-screen) {
-			flex-direction: column-reverse;
+		@media (max-width: $gl-sm-screen) {
 			margin: 0 -4vw;
 			padding: 4vw;
 		}
@@ -21,11 +18,6 @@
 		h3 {
 			margin-top: 0;
 		}
-		
-		/* Shortcode helper classes */
-		.border {
-			border: 1px solid #bbb;
-		}	
 	}
 
 	/* spacing with other elements (that are not of class .cl-shortcode) */
@@ -34,4 +26,14 @@
 	div.cl-shortcode--img + :not(div) {
 		/* add margin space between cl-shortcode and content that is not of class .cl-shortcode */
 		margin-top: 48px;
+	}
+	
+	@mixin two-columns($sm-direction: column) {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		gap: var(--module-big-gap);
+		@media (max-width: $gl-sm-screen) {
+			flex-direction: $sm-direction;
+		}
 	}

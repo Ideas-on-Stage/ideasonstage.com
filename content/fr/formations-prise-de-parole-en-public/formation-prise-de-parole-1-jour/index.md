@@ -30,8 +30,8 @@ Pour les groupes souhaitant couvrir les différents sujets plus en profondeur et
 {{< space-medium style="bg-white" >}}
 
 {{< icon-list title="Organisme de formation depuis 2010" style="bg-light" >}}
-	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-datadock.png" size= "25p" description="Référencé Datadock" style="border spacing" >}}
-	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="border spacing" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
+	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-datadock.png" size= "25p" description="Référencé Datadock" style="st-border" >}}
+	{{< icon-item icon="/fr/formations-prise-de-parole-en-public/logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="st-border" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
 {{< /icon-list >}}
 
 {{< space-medium style="bg-white" >}}

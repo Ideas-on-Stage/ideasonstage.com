@@ -1,14 +1,11 @@
-@import "_sassmix";
-@import "custom/_body-side-main";
+{{ partial "e/sass.scss" . }}
 
-$body-side-main-font-family: $font-family !default;
-$body-side-main-font-family-h: $font-family-h !default;
+$body-side-main-font-family: $gl-font-family !default;
+$body-side-main-font-family-h: $gl-font-family-h !default;
 
 $side-font-size: 0.8em !default;
 $side-font-size-h2: 1em !default;
 $side-font-size-li: 1em !default;
-
-
 
 	.cl-body-side-main {
 		@include content("normal", "medium");
@@ -19,14 +16,14 @@ $side-font-size-li: 1em !default;
 		flex-wrap: nowrap;
 		align-items: flex-start;
 		gap: var(--module-big-gap);
-		@media (max-width: $sm-screen) {
+		@media (max-width: $gl-sm-screen) {
 			flex-direction: column-reverse;
 		}
 		
 		.side {
 			width: calc( 33% - var(--module-big-gap) * 2 );
 			background-color: var(--color-lightgray);
-			@media (max-width: $sm-screen) {
+			@media (max-width: $gl-sm-screen) {
 				width: 100%;
 			}
 			
@@ -52,7 +49,12 @@ $side-font-size-li: 1em !default;
 			}
 			
 			li {
-				font-size: $side-font-size-li;
+				margin-top: 1em;
+				margin-bottom: 1em;
+				font-size: $side-font-size;
+			}
+			li a {
+				font-size: 1em;
 			}
 			
 			p {
@@ -87,7 +89,7 @@ $side-font-size-li: 1em !default;
 		
 		.side + .main {
 			width: calc( 67% - var(--module-big-gap) / 2 );	/* reduce main content width when there is a sidebar */
-			@media (max-width: $sm-screen) {
+			@media (max-width: $gl-sm-screen) {
 				width: 100%; /* set main content width to 100% on ts screens */
 			}
 		}

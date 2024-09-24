@@ -1,8 +1,6 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
 
 $body-content404-scheme: "dark" !default;
-
-
 
 	.cl-body-content404 {
 		height: calc(100vh - var(--menubar-height));

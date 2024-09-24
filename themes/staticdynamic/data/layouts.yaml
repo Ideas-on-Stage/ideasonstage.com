@@ -1,25 +1,38 @@
 # /data/layouts.yaml is where all page structures are defined.
-# this is a lot easier to read and maintain vs. multiple templates per page type
-# head: blocks added to the <head></head> part
-# body: blocks added to the <body></body> part
-# side: blocks added to the sidebar inside the .side part (needs a body-side-main part)
-# main: blocks added inside the .main part (needs a body-side-main or body-main* part)
-# list: blocks added inside list elements (needs a body-list* or main-list* part)
+#
+# _common blocks are added to ALL pages
+# _default blocks are used if no specific page definition exists for the page.Type and page.Kind
+# page.Type page.Kind blocks are used instead of _default, e.g. type "news" kind "section"
+# a page front matter can contain a custom layout definition.
+#
+# The following block types are used in this template:
+# - headtop: common blocks added first to the <head></head> part
+# - head: blocks added to the <head></head> part
+# - headbottom: common blocks added last to the <head></head> part
+# - bodytop: common blocks added fist to the <body></body> part
+# - body: blocks added to the <body></body> part
+# - bodylazy: blocks added to the <body></body> part, css and img use lazy-loading
+# - bodybottom: common blocks added last to the <body></body> part
+# - side: blocks added to the sidebar inside the .side part (needs a body-side-main part)
+# - main: blocks added inside the .main part (needs a body-side-main or body-main* part)
+# - list: blocks added inside list elements (needs a body-list* or main-list* part)
+#
+# It is possible to create a custom block type if necessary.
 
 
 
-# common blocks are added to ALL pages
-# they cannot be overridden
+# _common blocks are added to ALL pages
+# they can be overridden, but we recommend not to do so
 _common:
     # common header blocks for all pages
     headtop:
-        - head-meta
-        - head-css
+        - headtop-meta
+        - headtop-css
     headbottom:
-        - head-hreflang
-        - head-alternate
-        - head-favicon
-        - head-schema
+        - headbottom-hreflang
+        - headbottom-alternate
+        - headbottom-favicon
+        - headbottom-schema
     # common body blocks above "main" for all pages
     bodytop:
         - bodytop-navbar
@@ -32,9 +45,9 @@ _common:
 
 
 
-# default blocks are used if no specific blocks are defined for a page type.
+# _default blocks are used if no specific blocks are defined for a page.Type and page.Kind.
 # they can be overridden by a specific .Type and .Kind combination below in this file
-# or by a "body:" argument followed by a list (similar to the body: declaration this file) in the front matter of a page
+# or by a custom block definition in the front matter of a page (e.g. add a "body:" entry to the page front matter)
 _default:
     # page.Kind "section"
     section:
@@ -45,8 +58,9 @@ _default:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
-            - body-list
-            - body-modules-aside
+        bodylazy:
+            - bodylazy-list # by putting the list here, we choose to put it below the <main> part
+            - bodylazy-modules-aside
         main:
             - main-content
         list:
@@ -61,7 +75,8 @@ _default:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
-            - body-modules-aside
+        bodylazy:
+            - bodylazy-modules-aside
         main:
             - main-content
     # page.Kind "home"
@@ -76,10 +91,11 @@ _default:
             - body-countrylist
             - body-cta
             - body-mainwide
-            - body-references
-            - body-modules-aside
-            - body-testimonials
-            - body-location
+        bodylazy:
+            - bodylazy-referencesgrid
+            - bodylazy-modules-aside
+            - bodylazy-testimonials
+            - bodylazy-location
         main:
             - main-modules
             - main-contenthome
@@ -109,10 +125,11 @@ about:
     section:
         body:
             - body-h1hero
-            - body-location
             - body-side-main
-            - body-list
-            - body-modules-aside
+        bodylazy:
+            - bodylazy-list
+            - bodylazy-location
+            - bodylazy-modules-aside
 
 
 
@@ -171,7 +188,7 @@ references:
     section:
         body:
             - body-h1hero
-            - body-references
+            - body-referencesgrid
             - body-side-main
         main:
             - main-listreferences
@@ -269,8 +286,9 @@ training:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
-            - body-list
-            - body-references
+        bodylazy:
+            - bodylazy-list
+            - bodylazy-referencesgrid
         side:
             - side-links
     page:

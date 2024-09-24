@@ -1,20 +1,18 @@
-@import "_sassmix";
-@import "custom/_core";
+{{ partial "e/sass.scss" . }}
 
-/* @group FONT FAMILIES */
-
+	/* font families */
 	a,
 	body,
 	input,
 	p,
 	textarea {
-		@include font($font-family, $font-weight);
+		@include font($gl-font-family, $gl-font-weight);
 	}
 
 	b,
 	blockquote,
 	strong {
-		@include font($font-family-b, $font-weight-b);
+		@include font($gl-font-family-b, $gl-font-weight-b);
 	}
 	
 	h1,
@@ -22,15 +20,10 @@
 	h3,
 	h4,
 	h5 {
-		@include font($font-family-h, $font-weight-h);
+		@include font($gl-font-family-h, $gl-font-weight-h);
 	}
-
-/* @end */
-
-
-
-/* @group FONT SIZES */
 	
+	/* font sizes */
 	a,
 	blockquote,
 	body,
@@ -39,43 +32,36 @@
 	p,
 	strong,
 	textarea {
-		@include font-scaling($font-size);
+		@include font-scaling($gl-font-size);
 	}
 	
 	h1 {
-		@include font-scaling($font-size-h1);
+		@include font-scaling($gl-font-size-h1);
 	}
 	
 	h2 {
-		@include font-scaling($font-size-h2);
+		@include font-scaling($gl-font-size-h2);
 	}
 	
 	h3 {
-		@include font-scaling($font-size-h3);
+		@include font-scaling($gl-font-size-h3);
 	}
 	
 	h4 {
-		@include font-scaling($font-size-h4);
+		@include font-scaling($gl-font-size-h4);
 	}
 	
 	h5 {
-		@include font-scaling($font-size-h5);
+		@include font-scaling($gl-font-size-h5);
 	}
 	
-/* @end */
 
-
-
-/* @group STYLES STANDARD TAGS */
-
-	/* !!! Only set sitewide attributes !!! */
-	/* define the styling of standard tags */
-	
-	/* use border-box as the standard sizing model */
+	/* sizing model */
 	* {
 		box-sizing: border-box;
 	}
 
+	/* body default padding and size */
 	body {
 		scroll-padding-top: var(--menubar-height);
 		padding-top: var(--page-padding-top);
@@ -94,7 +80,7 @@
 	}
 	
 	a {
-		color: $scheme-white-link;
+		color: $gl-scheme-white-link;
 		border-bottom: none;
 		text-decoration: none;
 		transition: all .35s;
@@ -102,7 +88,7 @@
 	
 	a:hover,
 	a:focus {
-		color: $scheme-white-link-hover;
+		color: $gl-scheme-white-link-hover;
 		border-bottom: none;
 		text-decoration: none;
 		transition: all .35s;
@@ -140,7 +126,7 @@
 		text-align: left;
 		
 		a {
-			border-bottom: dotted 1px $scheme-white-link-hover;
+			border-bottom: dotted 1px $gl-scheme-white-link-hover;
 		}
 		
 	}
@@ -151,51 +137,17 @@
 		line-height: 1.6em;
 		
 		a {
-			border-bottom: dotted 1px $scheme-white-link-hover;
+			border-bottom: dotted 1px $gl-scheme-white-link-hover;
 			line-height: 1.6em;
 		}
 		
 	}
-	
-/* @end */
 
 
-
-/* @group BG-COLORS */
-	
-	.bg-black {
-		@include scheme("black");
-	}
-	
-	.bg-dark {
-		@include scheme("dark");
-	}
-	
-	.bg-light {
-		@include scheme("light");
-	}
-
-	.bg-primary {	
-		@include scheme("primary");
-	}
-
-	.bg-secondary {	
-		@include scheme("secondary");
-	}
-	
-	.bg-codingandbricks	{
-		@include scheme("codingandbricks");
-	}
-
-/* @end */
-
-
-
-/* @group BUTTON */
-
+	/* buttons */
 	.cl-core--button-primary,
 	.cl-core--button-secondary {
-		@include font($font-family-button, $font-weight-button);
+		@include font($gl-font-family-button, $gl-font-weight-button);
 		text-transform: uppercase;
 		list-style: none; /* remove bullet when used on li */
 	}
@@ -227,14 +179,36 @@
 		color: white !important;
 	}
 
-/* @end */	
+	/* color scheme helper classes */
+	.bg-black {
+		@include scheme("black");
+	}
+	
+	.bg-dark {
+		@include scheme("dark");
+	}
+	
+	.bg-light {
+		@include scheme("light");
+	}
 
+	.bg-primary {	
+		@include scheme("primary");
+	}
 
+	.bg-secondary {	
+		@include scheme("secondary");
+	}
+	
+	.bg-codingandbricks	{
+		@include scheme("codingandbricks");
+	}
 
-/* @group STYLE HELPERS */
+	/* Style helper classes */
+	.st-border {
+		border: 1px solid #bbb;
+	}
 
 	.st-center {
 		text-align: center;
 	}
-
-/* @end */
