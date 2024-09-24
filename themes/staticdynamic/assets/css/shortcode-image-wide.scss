@@ -2,15 +2,13 @@
 @import "_shortcode";
 
 	.cl-shortcode--image-wide {
-		margin: 0 -2vw;
 		padding: 0;
 		@media (max-width: $gl-sm-screen) {	
-			margin: 0 -4vw;
 			padding: 0;
 		}
 		
-		> img {
-		width: 100%; /* make image full width of container */
-		display: block; /* prevent line height from being added to div height */
+		img {
+			width: 100%; /* make image full width of container */
+			display: block; /* prevent line height from being added to div height */
 		}
 	}

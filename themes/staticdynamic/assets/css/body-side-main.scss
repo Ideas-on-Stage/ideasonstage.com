@@ -6,6 +6,7 @@ $body-side-main-font-family-h: $gl-font-family-h !default;
 $side-font-size: 0.8em !default;
 $side-font-size-h2: 1em !default;
 $side-font-size-li: 1em !default;
+$side-scheme: "light" !default;
 
 	.cl-body-side-main {
 		@include content("normal", "medium");
@@ -22,7 +23,7 @@ $side-font-size-li: 1em !default;
 		
 		.side {
 			width: calc( 33% - var(--module-big-gap) * 2 );
-			background-color: var(--color-lightgray);
+			@include scheme($side-scheme);
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
 			}

@@ -1,9 +1,9 @@
 {{ partial "e/sass.scss" . }}
 
-$bodybottom-footer-scheme: "dark" !default;
+$footer-scheme: "dark" !default;
 
 	.cl-bodybottom-footer {
-		@include scheme($bodybottom-footer-scheme);
+		@include scheme($footer-scheme);
 		margin: 0;
 		padding: var(--content-space-v) 0;
 		

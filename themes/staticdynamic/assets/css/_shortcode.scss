@@ -1,33 +1,6 @@
 @import "_sassmix";
-
-	.cl-shortcode {
-		margin: 0 -2vw;
-		padding: 2vw;
-		@media (max-width: $gl-sm-screen) {
-			margin: 0 -4vw;
-			padding: 4vw;
-		}
-		
-		> :first-child {
-			margin-top: 0;
-		}
-		> :last-child {
-			margin-bottom: 0;
-		}
-		
-		h3 {
-			margin-top: 0;
-		}
-	}
-
-	/* spacing with other elements (that are not of class .cl-shortcode) */
-	:not(.cl-shortcode) + .cl-shortcode,
-	.cl-shortcode + :not(.cl-shortcode),
-	div.cl-shortcode--img + :not(div) {
-		/* add margin space between cl-shortcode and content that is not of class .cl-shortcode */
-		margin-top: 48px;
-	}
 	
+	/* use to display two columns that become 1 vertical column on sm screens */
 	@mixin two-columns($sm-direction: column) {
 		display: flex;
 		flex-direction: row;

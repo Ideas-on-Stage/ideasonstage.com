@@ -1,5 +1,5 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-bodylazy-list {
+	.cl-body-list {
 		@include content("normal", "medium");
 	}

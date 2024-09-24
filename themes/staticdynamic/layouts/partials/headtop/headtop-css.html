@@ -26,6 +26,7 @@
 {{ range $blocks }}
 	{{ (printf "<!-- inlined: %s.scss -->" .) | safeHTML }}
 {{ end }}
+
 {{ "<!-- Shortcodes inline CSS -->" | safeHTML }}
 <style type="text/css">
 	{{- $found := slice -}}
@@ -42,6 +43,12 @@
 		{{- end -}}
 	{{- end -}}
 	{{- $found = uniq $found -}}
+	{{- if ge ($found | len) 1 -}}
+		{{- $resource := "css/shortcode.scss" -}}
+		{{- $css := "shortcode.css" -}}
+		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify -}}
+		{{- $style.Content | safeCSS -}}		
+	{{- end -}}
 	{{- range $found -}}
 		{{- $resource := printf "css/shortcode-%s.scss" . -}}
 		{{- $css := printf "shortcode-%s.css" . -}}

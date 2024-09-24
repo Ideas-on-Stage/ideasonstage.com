@@ -58,8 +58,8 @@ _default:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
+            - body-list # by putting the list here, we choose to put it below the <main> part
         bodylazy:
-            - bodylazy-list # by putting the list here, we choose to put it below the <main> part
             - bodylazy-modules-aside
         main:
             - main-content
@@ -126,8 +126,8 @@ about:
         body:
             - body-h1hero
             - body-side-main
+            - body-list
         bodylazy:
-            - bodylazy-list
             - bodylazy-location
             - bodylazy-modules-aside
 
@@ -286,9 +286,10 @@ training:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
+            - body-list
         bodylazy:
-            - bodylazy-list
             - bodylazy-referencesgrid
+            - bodylazy-modules-aside
         side:
             - side-links
     page:
