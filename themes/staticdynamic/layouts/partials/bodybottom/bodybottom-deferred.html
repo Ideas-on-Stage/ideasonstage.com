@@ -18,11 +18,7 @@
 	<link rel="stylesheet" href="{{ $more.RelPermalink }}" type="text/css">
 </noscript>		
 
-<!-- jQuery - Required for form validation -->
-{{ $jsjquery := resources.Get "js/jquery.js" | minify }}
-<script src="{{ $jsjquery.RelPermalink }}"></script>
-
-<!-- jQuery - Contact form event handler -->
+<!-- contact form event handler -->
 <script type="text/javascript">
 	
 	document.getElementById("ioscontactForm").addEventListener("submit", submitForm);
