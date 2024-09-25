@@ -21,21 +21,20 @@
 <!-- contact form event handler -->
 <script type="text/javascript">
 	
+	// add event listener to form
 	document.getElementById("ioscontactForm").addEventListener("submit", submitForm);
 	
 	function submitForm(event) {
+		// prevent normal behaviour (immediate submit)
 		event.preventDefault();
 		
+		// declare variables
 		const myForm = event.target;
 		const formData = new FormData(myForm);
-		
 		let submitButton = document.getElementById("contactsubmit");
 		let successMessage = submitButton.getAttribute("success");
-		submitButton.setAttribute("value", successMessage);
-		submitButton.setAttribute("disabled", true);
-		submitButton.style.background = "#888";
-		alert(successMessage);
 		
+		// send data to server
 		fetch(
 			"/",
 			{
@@ -44,8 +43,19 @@
 				body: new URLSearchParams(formData).toString(),
 			}
 		)
-		.then(() => console.log("Form successfully submitted"))
-		.catch((error) => alert(error));
+		.then(
+			// display success dialog
+			alert(successMessage)
+		)
+		.catch(
+			// display error dialog
+			(error) => alert(error)
+		);
+		
+		// change aspect of submit button
+		submitButton.setAttribute("value", successMessage);
+		submitButton.setAttribute("disabled", true);
+		submitButton.style.background = "#888";
 	}
 
 </script>
