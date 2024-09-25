@@ -30,28 +30,24 @@
 	function submitForm(event) {
 		event.preventDefault();
 		
-		const myForm = event.target;
-		const formData = new FormData(myForm);
 		
-		let submitButton = document.getElementById("contactsubmit");
-		let successMessage = submitButton.getAttribute("success");
-		submitButton.setAttribute("value", successMessage);
-		submitButton.setAttribute("disabled", true);
-		submitButton.style.background = "#888";
-		alert(successMessage);
-		
-		fetch(
-			"/",
-			{
-				method: "POST",
-				headers: { "Content-Type": "application/x-www-form-urlencoded" },
-				body: new URLSearchParams(formData).toString(),
-			}
-		)
-		.then(() => console.log("Form successfully submitted"))
-		.catch((error) => alert(error));
 	}
+	
+	
+	$("form").submit(function(e) {
+		e.preventDefault();
+		var $form = $(this);
+		var submitButton = $('input[type=submit]', this);
 
+		$.post($form.attr("action"), $form.serialize()).done(function(data) {
+				var successMessage = submitButton.attr("success");
+				submitButton.prop('value', successMessage);
+				alert(submitButton.attr('success'));
+				submitButton.prop('disabled', true);
+		}).fail(function(data) {
+			// Optionally alert the user of an error here...
+		});
+	});
 </script>
 
 <!-- fuse.js - used for search -->
