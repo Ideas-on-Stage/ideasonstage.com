@@ -286,7 +286,6 @@ training:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
-            - body-list
         bodylazy:
             - bodylazy-referencesgrid
             - bodylazy-modules-aside
