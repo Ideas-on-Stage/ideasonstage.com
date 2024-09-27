@@ -1,5 +1,44 @@
 {{ partial "e/sass.scss" . }}
 
+	@mixin modulebase($width: "full") {
+		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
+		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
+		display: flex;
+		overflow: hidden;
+		@media (max-width: $gl-sm-screen) {	
+			width: 100%;
+		}
+			
+		@if "half" == $width {
+			width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
+			max-width: calc( ( var(--page-max-width) - var(--module-column-gap) ) / 2 - 0.001px);
+		}
+		@else {
+			width: calc(100% - 0.001px);
+			max-width: var(--page-max-width);
+		}
+	}
+	
+	@mixin image {
+		display: block;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+	
+	@mixin text($height: 100%, $width: 100%) {
+		position: relative;	/* enables z-index */
+		z-index: 10; /* if text overflows, it will go over picture below */
+		padding: 2em;
+		height: $height;
+		width: $width;		
+		@media (max-width: $gl-sm-screen) {
+			height: 50%;
+			width: 100%;
+			text-align: center;
+		}	
+	}
+	
 	.cl-modules {
 		width: calc(100% - 0.001px);
 		display: flex;
@@ -18,26 +57,14 @@
 		}
 	}
 	
-	/* Add this to create a half width module div */
+	/* half-width module div, text on top, image bottom */
 	.cl-modules--half {
-		display: flex;
+		@include modulebase("half");
 		flex-direction: column;
-		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-		width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
-		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
-		max-width: calc( ( var(--page-max-width) - var(--module-column-gap) ) / 2 - 0.001px);
-		overflow: hidden;
-		@media (max-width: $gl-sm-screen) {	
-			width: 100%; /* make half width modules full width on ts screens */
-		}
 		
 		/* use to create inner div with text on top */
 		.text {
-			position: relative;	/* enables z-index */
-			z-index: 10; /* if text overflows, it will go over picture below */
-			padding: 2em;
-			height: 50%;
-			width: 100%;
+			@include text(50%, 100%);
 			text-align: center;
 		}
 		
@@ -47,8 +74,7 @@
 			width: 100%;
 			
 			img {	
-				height: 100%;
-				width: 100%;
+				@include image;
 				object-fit: contain; /* image is never distorted, crop if necessary */
 				object-position: 50% 100%; /* anchor on bottom, horizontal center */
 				@media (max-width: $gl-sm-screen) {
@@ -58,25 +84,14 @@
 		}
 	}
 	
+	/* full-width module div, text on top, image bottom */
 	.cl-modules--column {
-		display: flex;
+		@include modulebase("full");
 		flex-direction: column;
-		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-		width: calc(100% - 0.001px);
-		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
-		max-width: var(--page-max-width);
-		overflow: hidden;
-		@media (max-width: $gl-sm-screen) {
-			width: 100%;
-		}
 		
 		/* use to create inner div with text on top */
 		.text {
-			position: relative;	/* enables z-index */
-			z-index: 10; /* if text overflows, it will go over picture below */
-			padding: 2em;
-			height: 50%;
-			width: 100%;
+			@include text(50%, 100%);
 			text-align: center;
 		}
 		
@@ -86,8 +101,7 @@
 			width: 100%;
 			
 			img {	
-				height: 100%;
-				width: 100%;
+				@include image;
 				object-fit: contain; /* image is never distorted, crop if necessary */
 				object-position: 50% 100%; /* anchor on bottom, horizontal center */
 				@media (max-width: $gl-sm-screen) {
@@ -97,22 +111,16 @@
 		}		
 	}
 	
-	/* Use this to create a full width module div */
+	/* full-width module div, image left, text right */
 	.cl-modules--row {
-		display: flex;
+		@include modulebase("full");
 		flex-direction: row;
-		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-		width: calc(100% - 0.001px);
-		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
-		max-width: var(--page-max-width);
-		overflow: hidden;
 		@media (max-width: $gl-sm-screen) {	
-			width: 100%;
 			flex-direction: column-reverse;
 			justify-content: space-between;
 		}
 			
-		/* use to create inner div with the pic on left */
+		/* div containing pic on left */
 		.image {
 			height: 100%;
 			width: 64%;
@@ -122,25 +130,17 @@
 			}
 		
 			img {
-				display: block;
-				height: 100%;
-				width: 100%;
+				@include image;
 				object-fit: cover;
 				object-position: 100% 50%; /* anchor on right edge (100%), vertical center */
 			}
 		}
 		
-		/* use to create inner div with text on right */
+		/* div containing text on right */
 		.text {
-			padding: 2em;
-			width: 36%;
+			@include text(100%, 36%);
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			@media (max-width: $gl-sm-screen) {
-				height: 50%;
-				width: 100%;
-				text-align: center;
-			}
 		}
 	}

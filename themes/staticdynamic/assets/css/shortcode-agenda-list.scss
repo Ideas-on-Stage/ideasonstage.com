@@ -1,15 +1,8 @@
 {{ partial "e/sass.scss" . }}
-@import "_shortcode";
 
 	.cl-shortcode--agenda-list {
+		@include firstlastchildnomargin;
 		text-align: center;
-		
-		> :first-child {
-			margin-top: 0;
-		}
-		> :last-child {
-			margin-bottom: 0;
-		}
 		
 		.item-title {
 			margin-top: 1.5em;
@@ -17,7 +10,6 @@
 			text-align: center;
 			color: var(--color-secondary);
 			text-transform: uppercase;
-			text-align: center;
 			font-size: 1em;
 		}
 		

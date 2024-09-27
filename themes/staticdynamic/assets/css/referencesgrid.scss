@@ -1,5 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
+$referencesgrid-scheme: "white" !default;
+
 	.cl-referencesgrid {
 		display: flex;
 		flex-direction: row;
@@ -8,9 +10,9 @@
 		margin: var(--module-column-gap);
 		
 		img {
+			@include scheme-img-border($referencesgrid-scheme);
 			height: auto;
 			width: calc( ( 100% - 5 * var(--module-column-gap) ) / 6 - 0.001px );
-			border: 1px solid #bbb;
 			@media (max-width: $gl-sm-screen) {
 				width: calc( ( 100% - 2 * var(--module-column-gap) ) / 3 - 0.001px );
 			}

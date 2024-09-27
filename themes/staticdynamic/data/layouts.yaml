@@ -39,7 +39,7 @@ _common:
     # do not add body: to _common, use bodytop: or bodybottom: instead
     # common body blocks after "main" for all pages
     bodybottom:
-        - bodybottom-contact
+        - bodybottom-contact-form
         - bodybottom-footer
         - bodybottom-deferred
 

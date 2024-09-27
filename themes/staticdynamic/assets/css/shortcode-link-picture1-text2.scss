@@ -1,25 +1,17 @@
 {{ partial "e/sass.scss" . }}
-@import "_shortcode";
 
 	.cl-shortcode--link-picture1-text2 {
 		@include two-columns;
 		
 		.text {
+			@include firstlastchildnomargin;
 			width: calc( 66% - var(--module-big-gap) );
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
 			}	
-			
-			> :first-child {
-				margin-top: 0;
-			}
-			> :last-child {
-				margin-bottom: 0;
-			}	
 		}
 		
 		.picture {
-			
 			width: calc( 34% - var(--module-big-gap) );
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;

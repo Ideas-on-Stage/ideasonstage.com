@@ -86,119 +86,155 @@ $gl-scheme-codingandbricks-link-hover: #FFD500 !default;
 
 
 
-@mixin font($family, $weight) {
-	font-family: $family;
-	font-weight: $weight;
-}
+	@mixin font($family, $weight) {
+		font-family: $family;
+		font-weight: $weight;
+	}
 
-@mixin font-scaling($size) {
-	/* take text font size and scale it with normal screen ratio */
-	font-size: calc( #{$size} * #{$gl-font-ratio-md} );
-	@media (max-width: $gl-sm-screen) {
-		/* take text font size and scale it with small screen ratio */
-		font-size: calc( #{$size} * #{$gl-font-ratio-sm} );
-	}
-	@media(min-width: $gl-lg-screen) {
-		/* once max size is reached, stop growing font, use fixed max. size instead */
-		font-size: calc( #{$gl-lg-screen} / 100 * #{$size} ); /* prevent text from growing too large */
-	}	
-}
-
-/* sets the main colors: background, text, a, a:hover */
-@mixin colors($back, $text, $mid, $link, $link-hover) {
-	background-color: $back;
-	color: $text;
-	
-	a {
-		color: $link;
-	}
-	
-	a:hover {
-		color: $link-hover;
-		transition: all .35s;
-	}
-}
-
-/* use @include scheme("name") to add a predefined color scheme */
-@mixin scheme($scheme: "default") {
-	@if "black" == $scheme {
-		@include colors($gl-scheme-black-back, $gl-scheme-black-text, $gl-scheme-black-text-mid, $gl-scheme-black-link, $gl-scheme-black-link-hover);
-	} 
-	@else if "light" == $scheme {
-		@include colors($gl-scheme-light-back, $gl-scheme-light-text, $gl-scheme-light-text-mid, $gl-scheme-light-link, $gl-scheme-light-link-hover);
-	}
-	@else if "dark" == $scheme {
-		@include colors($gl-scheme-dark-back, $gl-scheme-dark-text, $gl-scheme-dark-text-mid, $gl-scheme-dark-link, $gl-scheme-dark-link-hover);
-	}
-	@else if "primary" == $scheme {
-		@include colors($gl-scheme-primary-back, $gl-scheme-primary-text, $gl-scheme-primary-text-mid, $gl-scheme-primary-link, $gl-scheme-primary-link-hover);
-	}
-	@else if "secondary" == $scheme {
-		@include colors($gl-scheme-secondary-back, $gl-scheme-secondary-text, $gl-scheme-secondary-text-mid, $gl-scheme-secondary-link, $gl-scheme-secondary-link-hover);		
-	}
-	@else if "codingandbricks" == $scheme {
-		@include colors($gl-scheme-codingandbricks-back, $gl-scheme-codingandbricks-text, $gl-scheme-codingandbricks-text-mid, $gl-scheme-codingandbricks-link, $gl-scheme-codingandbricks-link-hover);		
-	}
-	@else {
-		@include colors($gl-scheme-white-back, $gl-scheme-white-text, $gl-scheme-white-text-mid, $gl-scheme-white-link, $gl-scheme-white-link-hover);
-	}
-}
-
-@mixin firstlastchildnomargin {
-	/* remove top margin from first element and bottom margin from last element */
-	> :first-child {
-		margin-top: 0;
-	}
-	> :last-child {
-		margin-top: 0;
-	}
-}
-
-@mixin content($width: "normal", $marginv: "medium") {
-	@if "normal" == $width {
-		margin-left: auto; /* use auto to center div on page */
-		margin-right: auto; /* use auto to center div on page */
-		width: 80vw;
-		max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
+	@mixin font-scaling($size) {
+		/* take text font size and scale it with normal screen ratio */
+		font-size: calc( #{$size} * #{$gl-font-ratio-md} );
 		@media (max-width: $gl-sm-screen) {
-			margin-left: var(--module-column-gap);
-			margin-right: var(--module-column-gap); 
-			width: calc(100% - var(--module-column-gap) * 2);
-			max-width: calc(100% - var(--module-column-gap) * 2);
+			/* take text font size and scale it with small screen ratio */
+			font-size: calc( #{$size} * #{$gl-font-ratio-sm} );
+		}
+		@media(min-width: $gl-lg-screen) {
+			/* once max size is reached, stop growing font, use fixed max. size instead */
+			font-size: calc( #{$gl-lg-screen} / 100 * #{$size} ); /* prevent text from growing too large */
+		}	
+	}
+
+	/* sets the main colors: background, text, a, a:hover */
+	@mixin colors($back, $text, $mid, $link, $link-hover) {
+		background-color: $back;
+		color: $text;
+		
+		a {
+			color: $link;
+		}
+		
+		a:hover {
+			color: $link-hover;
+			transition: all .35s;
 		}
 	}
-	@else if "narrow" == $width {
-		/* use for narrow content such as forms */
-		margin: 0 auto; /* use auto to center div on page */
-		width: 50vw;
-		max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
-		@media (max-width: $gl-sm-screen) {
-			margin: 0 var(--module-column-gap);
-			width: calc(100% - var(--module-column-gap) * 2 );
-			max-width: calc(100% - var(--module-column-gap) * 2 );
+
+	/* color scheme for text and background colors */
+	@mixin scheme($scheme: "default") {
+		@if "black" == $scheme {
+			@include colors($gl-scheme-black-back, $gl-scheme-black-text, $gl-scheme-black-text-mid, $gl-scheme-black-link, $gl-scheme-black-link-hover);
+		} 
+		@else if "light" == $scheme {
+			@include colors($gl-scheme-light-back, $gl-scheme-light-text, $gl-scheme-light-text-mid, $gl-scheme-light-link, $gl-scheme-light-link-hover);
+		}
+		@else if "dark" == $scheme {
+			@include colors($gl-scheme-dark-back, $gl-scheme-dark-text, $gl-scheme-dark-text-mid, $gl-scheme-dark-link, $gl-scheme-dark-link-hover);
+		}
+		@else if "primary" == $scheme {
+			@include colors($gl-scheme-primary-back, $gl-scheme-primary-text, $gl-scheme-primary-text-mid, $gl-scheme-primary-link, $gl-scheme-primary-link-hover);
+		}
+		@else if "secondary" == $scheme {
+			@include colors($gl-scheme-secondary-back, $gl-scheme-secondary-text, $gl-scheme-secondary-text-mid, $gl-scheme-secondary-link, $gl-scheme-secondary-link-hover);		
+		}
+		@else if "codingandbricks" == $scheme {
+			@include colors($gl-scheme-codingandbricks-back, $gl-scheme-codingandbricks-text, $gl-scheme-codingandbricks-text-mid, $gl-scheme-codingandbricks-link, $gl-scheme-codingandbricks-link-hover);		
+		}
+		@else {
+			/* default scheme "white" */
+			@include colors($gl-scheme-white-back, $gl-scheme-white-text, $gl-scheme-white-text-mid, $gl-scheme-white-link, $gl-scheme-white-link-hover);
 		}
 	}
-	@else if "wide" == $width {
-			margin-left: var(--module-column-gap);
-			margin-right: var(--module-column-gap); 
-			width: calc(100% - var(--module-column-gap) * 2);
+	
+	/* color scheme for images with a border */
+	@mixin scheme-img-border($scheme: "default") {
+		@if "white" == $scheme {
+			border: 1px solid #bbb;
+		}
 	}
-	@else if "full" == $width {
-			margin-left: 0;
-			margin-right: 0;
-			width: calc( 100% );
+
+	
+	/* color scheme for forms */
+	@mixin scheme-form($scheme: "default") {
+		@if "white" == $scheme {
+			color: #444;
+			background-color: #fff;
+			border: 1px solid #ccc;
+		}
+	}
+
+	@mixin content($width: "normal", $marginv: "medium") {
+		@if "normal" == $width {
+			margin-left: auto; /* use auto to center div on page */
+			margin-right: auto; /* use auto to center div on page */
+			width: 80vw;
+			max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
+			@media (max-width: $gl-sm-screen) {
+				margin-left: var(--module-column-gap);
+				margin-right: var(--module-column-gap); 
+				width: calc(100% - var(--module-column-gap) * 2);
+				max-width: calc(100% - var(--module-column-gap) * 2);
+			}
+		}
+		@else if "narrow" == $width {
+			/* use for narrow content such as forms */
+			margin: 0 auto; /* use auto to center div on page */
+			width: 50vw;
+			max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
+			@media (max-width: $gl-sm-screen) {
+				margin: 0 var(--module-column-gap);
+				width: calc(100% - var(--module-column-gap) * 2 );
+				max-width: calc(100% - var(--module-column-gap) * 2 );
+			}
+		}
+		@else if "wide" == $width {
+				margin-left: var(--module-column-gap);
+				margin-right: var(--module-column-gap); 
+				width: calc(100% - var(--module-column-gap) * 2);
+		}
+		@else if "full" == $width {
+				margin-left: 0;
+				margin-right: 0;
+				width: calc( 100% );
+		}
+		
+		@if "medium" == $marginv {
+			margin-top: var(--content-space-v) !important;
+			margin-bottom: var(--content-space-v) !important;		
+		}
+		@else if "small" == $marginv {
+			margin-top: var(--content-space-v) !important;
+			margin-bottom: var(--content-space-v) !important;
+		}
+		@else if "none" == $marginv {
+			margin-top: 0 !important;
+			margin-bottom: 0 !important;
+		}
+	}
+
+	@mixin firstlastchildnomargin {
+		/* remove top margin from first element and bottom margin from last element */
+		> :first-child {
+			margin-top: 0;
+		}
+		> :last-child {
+			margin-bottom: 0;
+		}
 	}
 	
-	@if "medium" == $marginv {
-		margin-top: var(--content-space-v) !important;
-		margin-bottom: var(--content-space-v) !important;		
+	@mixin img-resp {
+		display: block; /* prevent line height from being added to div height */
+		max-width: 100%;
+		height: auto;
+		object-fit: contain;
 	}
-	@else if "small" == $marginv {
-		margin-top: var(--content-space-v) !important;
-		margin-bottom: var(--content-space-v) !important;
+	
+	/* use to display two columns that become 1 vertical column on sm screens */
+	@mixin two-columns($sm-direction: column) {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		gap: var(--module-big-gap);
+		@media (max-width: $gl-sm-screen) {
+			flex-direction: $sm-direction;
+		}
 	}
-	@else if "none" == $marginv {
-		margin-top: 0 !important;
-		margin-bottom: 0 !important;
-	}
-}

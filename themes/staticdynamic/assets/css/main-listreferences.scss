@@ -1,5 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
+$main-listreferences-scheme: "white" !default;
+
 	.cl-main-listreferences--references {
 		
 		.reference {
@@ -11,8 +13,8 @@
 			align-items: flex-start;
 			
 			img {
+				@include scheme-img-border($main-listreferences-scheme);
 				width: 20%;
-				border: 1px solid #888;
 				@media (max-width: $gl-sm-screen) {
 					width: 33%;
 				}
@@ -42,8 +44,8 @@
 			align-items: flex-start;
 			
 			img {
+				@include scheme-img-border($main-listreferences-scheme);
 				width: 20%;
-				border: 1px solid #888;
 				@media (max-width: $gl-sm-screen) {
 					width: 33%;
 				}

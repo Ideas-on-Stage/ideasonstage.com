@@ -1,8 +1,5 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
 
-
-
-/* bpr-subscribe shortcode */
 	.cl-shortcode--bpr-subscribe {
 		@include scheme("light");
 		text-align: center;

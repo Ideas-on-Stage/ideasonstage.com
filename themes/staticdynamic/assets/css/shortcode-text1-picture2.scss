@@ -1,21 +1,14 @@
 {{ partial "e/sass.scss" . }}
-@import "_shortcode";
 
 	.cl-shortcode--text1-picture2 {
 		@include two-columns(column-reverse);
 		
 		.text {
+			@include firstlastchildnomargin;
 			width: 34%;
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
-			}
-			
-			> :first-child {
-				margin-top: 0;
-			}
-			> :last-child {
-				margin-bottom: 0;
-			}
+			}			
 		}
 		
 		img {

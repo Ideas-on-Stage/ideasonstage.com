@@ -1,6 +1,9 @@
 {{ partial "e/sass.scss" . }}
 
+$photo-border: 8px solid #fff !default;
+$photo-shadow: 2px 2px 8px #aaa;
+
 	.cl-photo {
-		border: 8px solid #fff;
-		box-shadow: 2px 2px 8px #aaa;
+		border: $photo-border;
+		box-shadow: $photo-shadow;
 	}

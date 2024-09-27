@@ -1,5 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
+$fastsearch-input-background-color: #555 !default;
+$fastsearch-input-color: #ddd !default;
+
 	/*
 		fastsearch class
 		It's so small it could be integrated in the core file,
@@ -14,8 +17,8 @@
 			box-sizing: border-box;
 			font-size: 0.8em;
 			text-align: left;
-			background-color: #555;
-			color: #ddd;
+			background-color: $fastsearch-input-background-color;
+			color: $fastsearch-input-color;
 			border-radius: 3px 3px 3px 3px;
 			border: none;
 			outline: none;

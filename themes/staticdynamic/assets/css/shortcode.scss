@@ -1,19 +1,13 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
 
 	/* used as common class for all shortcodes */
 	.cl-shortcode {
+		@include firstlastchildnomargin;
 		margin: 0 -2vw;
 		padding: 2vw;
 		@media (max-width: $gl-sm-screen) {
 			margin: 0 -4vw;
 			padding: 4vw;
-		}
-		
-		> :first-child {
-			margin-top: 0;
-		}
-		> :last-child {
-			margin-bottom: 0;
 		}
 		
 		h3 {

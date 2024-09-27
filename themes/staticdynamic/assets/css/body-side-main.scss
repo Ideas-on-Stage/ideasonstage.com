@@ -22,17 +22,11 @@ $side-scheme: "light" !default;
 		}
 		
 		.side {
-			width: calc( 33% - var(--module-big-gap) * 2 );
+			@include firstlastchildnomargin;
 			@include scheme($side-scheme);
+			width: calc( 33% - var(--module-big-gap) * 2 );
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
-			}
-			
-			> :first-child {
-				margin-top: 0;
-			}
-			> :last-child {
-				margin-bottom: 0;
 			}
 			
 			a {
@@ -40,8 +34,7 @@ $side-scheme: "light" !default;
 			}
 			
 			img {
-				display: block;
-				max-width: 100%; /* prevent overflow from container */
+				@include img-resp;
 			}
 			
 			h2 {
@@ -71,20 +64,11 @@ $side-scheme: "light" !default;
 		}
 		
 		.main {
+			@include firstlastchildnomargin;
 			width: 100%;
 			
-			> :first-child {
-				margin-top: 0;
-			}
-			> :last-child {
-				margin-bottom: 0;
-			}
-			
 			img {
-				display: block; /* prevent line height from being added to div height */
-				max-width: 100%;
-				height: auto;
-				object-fit: contain;
+				@include img-resp;
 			}
 		}
 		

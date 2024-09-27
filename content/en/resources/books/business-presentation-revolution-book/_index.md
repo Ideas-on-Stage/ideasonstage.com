@@ -3,8 +3,11 @@ draft: false
 title: "Business Presentation Revolution - The Book"
 description: "Are you tired of boring, ineffective presentations? Do you want to stand out through effective communication? Discover the Business Presentation Revolution book."
 
-# custom empty bodylazy to prevent display of subpages list
-bodylazy:
+# custom body to prevent display of pages list
+body:
+- body-h1hero
+- body-breadcrumbs
+- body-side-main
 ---
 
 ## Business Presentation Revolution – The Book

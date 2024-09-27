@@ -1,8 +1,5 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
 
-
-
-/* bpr-form-bonus-download */
 	.cl-shortcode--bpr-form-bonus-download {
 		@include scheme("light");
 		text-align: center;

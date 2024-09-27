@@ -1,5 +1,4 @@
 {{ partial "e/sass.scss" . }}
-@import "_shortcode";
 
 	.cl-shortcode--text-centered {
 		margin: 2vw auto;
@@ -7,6 +6,5 @@
 		text-align: center;
 		@media (max-width: $gl-sm-screen) {
 			margin: 8vw;
-		}
+		}		
 	}
-	

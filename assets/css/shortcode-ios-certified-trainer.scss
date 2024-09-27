@@ -1,8 +1,5 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
 
-
-
-/* ios certificate */
 	.cl-shortcode--ios-certified-trainer {
 		height: 3em !important;
 		width: auto;

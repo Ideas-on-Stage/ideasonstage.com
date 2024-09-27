@@ -1,7 +1,6 @@
 {{ partial "e/sass.scss" . }}
-@import "form";
 
-	.cl-bodybottom-contact {
+	.cl-bodybottom-contact-form {
 		@include content("narrow", "medium");
 		
 		h2 {
