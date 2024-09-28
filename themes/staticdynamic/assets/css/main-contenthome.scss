@@ -1,15 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-contenthome {
-		margin: 48px auto; /* use auto to center div on page */
+		@include margins("medium", "normal");
 		padding: 0;
-		width: 80vw;
-		max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
 		color: var(--color-bg-white-text-mid);
 		text-align: center;
-		@media (max-width: $gl-sm-screen) {
-			margin: 48px var(--module-column-gap);
-			width: calc(100% - var(--module-column-gap) * 2);
-			max-width: calc(100% - var(--module-column-gap) * 2);
-		}
 	}

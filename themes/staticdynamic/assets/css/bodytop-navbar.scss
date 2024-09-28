@@ -27,6 +27,10 @@ $navbar-scheme: "dark" !default;
 			text-transform: uppercase;
 			font-size: 14px;
 			border: none; /* remove underline for a links */
+			
+			img {
+				display: inline-block; /* display icon on same line as text */
+			}
 		}
 		
 		.menu-checkbox {

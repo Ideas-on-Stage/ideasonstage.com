@@ -9,7 +9,7 @@ $side-font-size-li: 1em !default;
 $side-scheme: "light" !default;
 
 	.cl-body-side-main {
-		@include content("normal", "medium");
+		@include margins("medium", "normal");
 		padding: 0;
 		display: flex;
 		flex-direction: row;
@@ -66,10 +66,6 @@ $side-scheme: "light" !default;
 		.main {
 			@include firstlastchildnomargin;
 			width: 100%;
-			
-			img {
-				@include img-resp;
-			}
 		}
 		
 		.side + .main {

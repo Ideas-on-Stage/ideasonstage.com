@@ -1,6 +1,11 @@
 {{ partial "e/sass.scss" . }}
 
 $footer-scheme: "dark" !default;
+$footer-category-font-family: "Gotham SSm A", "Gotham SSm B" !default; 
+$footer-category-font-weight: 700 !default;
+$footer-category-font-size: 1em !default;
+$footer-item-font-size: 1em !default;
+$footer-text-font-size: 0.8em !default;
 
 	.cl-bodybottom-footer {
 		@include scheme($footer-scheme);
@@ -8,20 +13,19 @@ $footer-scheme: "dark" !default;
 		padding: var(--content-space-v) 0;
 		
 		> ul {
-			@include content("normal", "medium");
+			@include margins("medium", "normal");
 			padding: 0;
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
 			gap: var(--module-column-gap);
-			font-family: "Gotham SSm A", "Gotham SSm B";
-			font-style: normal;
-			font-weight: 700;
-			font-size: 0.8em;
 			list-style: none;
 			
 			> li {
+				@include font($footer-category-font-family, $footer-category-font-weight);
 				width: calc( (100% - 3 * var(--module-column-gap) ) / 4 - 0.001px );
+				font-size: $footer-category-font-size;
+				line-height: 1.6em;
 				@media (max-width: $gl-sm-screen) {
 					width: calc( (100% - var(--module-column-gap) ) / 2 - 0.001px );
 				} 
@@ -36,13 +40,13 @@ $footer-scheme: "dark" !default;
 			
 			> li a {
 				border: none;
-				font-size: 0.75em;
+				font-size: $footer-item-font-size;
 			}
-		}	
+		}
 		
 		.text {
-			@include content("normal", "medium");
-			font-size: 0.75em;
+			@include margins("medium", "normal");
+			font-size: $footer-text-font-size;
 		}
 		
 	}

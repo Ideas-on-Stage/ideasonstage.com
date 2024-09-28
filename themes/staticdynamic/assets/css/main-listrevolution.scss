@@ -1,7 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-listrevolution {
-		@include content("normal", "medium");
+		@include margins("medium", "normal");
 		
 		/* list of episodes */
 		ul {

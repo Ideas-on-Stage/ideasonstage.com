@@ -1,4 +1,4 @@
-{{ "<!-- Critical CSS -->" | safeHTML }}
+{{ "<!-- Core inline CSS -->" | safeHTML }}
 <style type="text/css">
 	{{- $variables := resources.Get "css/variables.scss" | resources.ExecuteAsTemplate "variables.css" . | toCSS | minify -}}
 	{{- $variables.Content | safeCSS -}}
@@ -6,7 +6,7 @@
 	{{- $core.Content | safeCSS -}}
 </style>
 
-{{ "<!-- Typography -->" | safeHTML }}
+{{ "<!-- Fonts inline CSS -->" | safeHTML }}
 <style type="text/css">
 	{{- $typography := resources.Get "css/typography.css" | minify -}}
 	{{- $typography.Content | safeCSS -}}	

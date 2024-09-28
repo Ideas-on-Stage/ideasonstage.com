@@ -3,7 +3,7 @@
 $form-scheme: "white";
 
 	.cl-form {
-		@include content("narrow", "none");
+		@include margins("none", "narrow");
 		display: flex;
 		flex-direction: column;
 		gap: 20px;

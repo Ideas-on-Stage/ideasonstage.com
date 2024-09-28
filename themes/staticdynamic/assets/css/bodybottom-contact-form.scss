@@ -1,7 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-bodybottom-contact-form {
-		@include content("narrow", "medium");
+		@include margins("medium", "wide");
 		
 		h2 {
 			text-align: center;

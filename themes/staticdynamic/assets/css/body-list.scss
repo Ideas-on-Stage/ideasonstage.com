@@ -1,5 +1,5 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-list {
-		@include content("normal", "medium");
+		@include margins("medium", "normal");
 	}

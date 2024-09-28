@@ -13,7 +13,7 @@ $breadcrumbs-scheme: "light";
 		}
 		
 		ul {
-			@include content("normal", "none");
+			@include margins("none", "normal");
 			display: flex;
 			margin-top: 0;
 			margin-bottom: 0;

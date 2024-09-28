@@ -5,7 +5,7 @@ $main-listreferences-scheme: "white" !default;
 	.cl-main-listreferences--references {
 		
 		.reference {
-			@include content("normal", "medium");
+			@include margins("medium", "normal");
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
@@ -36,7 +36,7 @@ $main-listreferences-scheme: "white" !default;
 	.cl-main-listreferences--stories {
 		
 		.story {
-			@include content("normal", "medium");
+			@include margins("medium", "normal");
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
