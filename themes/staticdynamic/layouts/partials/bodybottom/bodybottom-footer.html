@@ -1,20 +1,22 @@
 <footer id="footer" class="cl-bodybottom-footer">
-	<ul>
-		{{ range site.Params.footer.categories }}
-			<li>
-				{{ .name }}
-				<ul class="items">
-					{{ range .items }}
-						<li>
-							<a href="{{ .url }}">
-								{{ .name }}
-							</a>
-						</li>
-					{{ end }}
-				</ul>
-			</li>
-		{{ end }}
-	</ul>
+	<nav id="footer-menu">
+		<ul class="categories">
+			{{ range site.Params.footer.categories }}
+				<li>
+					<h3>{{ .name }}</h3>
+					<ul class="items">
+						{{ range .items }}
+							<li>
+								<a href="{{ .url }}">
+									{{ .name }}
+								</a>
+							</li>
+						{{ end }}
+					</ul>
+				</li>
+			{{ end }}
+		</ul>
+	</nav>
 	<p class="text">
 		{{ with site.Params.footer.copyright }}{{ . }}{{ end }} {{ now.Year }}. 
 		{{ with site.Params.footer.rights }}{{ . }}{{ end }}<br />

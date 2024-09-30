@@ -1,7 +1,10 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-listteam {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
 		@include margins("medium", "normal");
+		
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -13,7 +16,7 @@
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			width: calc( ( 100% - 2 * 1em ) / 3 - 0.001px );
+			width: calc( ( 100% - 2 * 2em ) / 3 - 0.001px );
 			
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
@@ -28,19 +31,17 @@
 				filter: grayscale(100%);
 			}
 			img:hover {
-				border: 3px solid $gl-color-primary;
+				border: 3px solid var(--color-primary);
 				filter: grayscale(0%);
 			}
 				
 			h2 {
-				font-size: 1em;
 				margin: 4px 0;
 			}
-				
+			
 			p {
-				font-size: 0.75em;
 				margin: 0;
-				color: #aaa;
+				color: var(--color-text-muted);
 			}
 		}
 	}

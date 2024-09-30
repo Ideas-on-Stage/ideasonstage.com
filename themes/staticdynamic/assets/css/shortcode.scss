@@ -2,7 +2,10 @@
 
 	/* used as common class for all shortcodes */
 	.cl-shortcode {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
 		@include firstlastchildnomargin;
+		
 		margin: 0 -2vw;
 		padding: 2vw;
 		@media (max-width: $gl-sm-screen) {

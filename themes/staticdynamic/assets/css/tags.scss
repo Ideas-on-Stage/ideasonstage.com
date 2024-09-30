@@ -1,12 +1,11 @@
 {{ partial "e/sass.scss" . }}
 
-$tags-scheme: "light" !default;
-$tags-font-size: 0.8em !default;
-$tags-text-transform: uppercase !default;
-$tags-link-border: none !default;
 $tags-padding: 0.25em 0.5em !default;
 
 	.cl-tags {
+		@include font-scheme({{ . }});
+		@include color-scheme({{ . }});
+		
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -18,14 +17,11 @@ $tags-padding: 0.25em 0.5em !default;
 		width: 100%;
 		
 		li {
-			@include scheme($tags-scheme);
 			margin: 0;
 			padding: $tags-padding;
-			text-transform: $tags-text-transform;
 			
 			a {
-				font-size: $tags-font-size;
-				border-bottom: $tags-link-border;
+				border-bottom: none;
 			}
 		}
 	}

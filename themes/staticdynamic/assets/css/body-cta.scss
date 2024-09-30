@@ -1,9 +1,9 @@
 {{ partial "e/sass.scss" . }}
 
-$cta-scheme: "black" !default;
-
 	.cl-body-cta {
-		@include scheme($cta-scheme);
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
+		
 		height: var(--hero-height);
 		width: var(--hero-width);
 		max-width: var(--page-max-width);

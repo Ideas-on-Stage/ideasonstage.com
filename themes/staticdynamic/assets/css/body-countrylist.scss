@@ -1,10 +1,9 @@
 {{ partial "e/sass.scss" . }}
 
-$countrylist-list-font-size: 0.85em !default;
-$countrylist-scheme: "dark" !default;
-
 	.cl-body-countrylist {
-		@include scheme($countrylist-scheme);
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
+		
 		margin-top: 0;
 		margin-bottom: 0;
 		padding-bottom: 1rem;
@@ -20,11 +19,7 @@ $countrylist-scheme: "dark" !default;
 		}
 		
 		li {
-			padding: 0px;
+			padding: 0;
 			list-style: none; /* remove bullet when used on li */
-			
-			a {
-				font-size: $countrylist-list-font-size;
-			}
 		}
 	}

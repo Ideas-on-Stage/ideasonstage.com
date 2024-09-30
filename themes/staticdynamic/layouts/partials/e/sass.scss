@@ -8,8 +8,15 @@
 	Arguments:
 	- name of scss file (for example main.scss)
 	
+	Process:
+	- includes _sassmix
+	- 
+	
  --> */}}
 @import "_sassmix";
+@import "_color-schemes";
+@import "_font-schemes";
+
 {{ $filepath := printf "custom/_%s.scss" . }}
 {{ $fullpath := printf "/assets/css/%s" $filepath }}
 {{ if fileExists $fullpath }}

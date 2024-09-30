@@ -1,8 +1,11 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-main-positionteam--title {
-		font-size: 1.5em;
-		margin-top: 0;
-		color: var(--color-midgray);
+	h2.cl-main-positionteam {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
+		
+		margin-top: 0.2em;
+		margin-bottom: 1em;
+		color: var(--color-text-muted);
 		text-transform: uppercase;
 	}

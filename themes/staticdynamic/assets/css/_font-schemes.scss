@@ -1,0 +1,76 @@
+@import "_sassmix";
+
+	@mixin font-scheme($scheme) {
+		
+		@if ":root" == $scheme {
+			/* default font scheme */
+			--font-family: "Whitney SSm A", "Whitney SSm B";
+			--font-weight: 400;
+			--font-family-b: "Whitney SSm A", "Whitney SSm B";
+			--font-weight-b: 700;
+			--font-family-h: "Gotham SSm A", "Gotham SSm B";
+			--font-weight-h: 700;
+			--font-family-button: "Gotham SSm A", "Gotham SSm B";
+			--font-weight-button: 700;
+			
+			/* font sizes - NO unit, it will be multiplied by the ratio in vw */
+			--font-size: 1;
+			--font-size-h1: 2;
+			--font-size-h2: 1.5;
+			--font-size-h3: 1.25;
+			--font-size-h4: 1.25;
+			--font-size-h5: 1;
+			--font-size-button-primary: 1;
+			--font-size-button-secondary: 1;
+			
+			/* font case */
+			--font-case-h1: uppercase;
+			--font-case-button-primary: uppercase;
+			--font-case-button-secondary: uppercase;
+			
+			/* font-ratio - adapts base font sizes based on media breakpoints - unit: vw (recommended) */
+			--font-ratio: 1.5vw;
+			@media (max-width: $gl-sm-screen) {
+				--font-ratio: 4vw;
+			}
+		}
+		@else if "body-breadcrumbs" == $scheme {
+			--font-case: uppercase;
+		}
+		@else if "body-h1home" == $scheme {
+			--font-size-h1: 1;
+		}
+		@else if "body-side-main--side" == $scheme {
+			--font-size-h2: 1;
+			--font-size: 0.8;
+		}
+		@else if "body-countrylist" == $scheme {
+			--font-size-button-secondary: 0.85;
+		}
+		@else if "bodybottom-footer" == $scheme {
+			--font-size-h3: 1;
+			--font-size: 0.8;
+		}
+		@else if "bodylazy-testimonials" == $scheme {
+			--font-size-h4: 0.8;
+			--font-size: 0.8;
+		}
+		@else if "bodytop-navbar" == $scheme {
+			--font-family: "Gotham SSm A", "Gotham SSm B";
+			--font-weight: 700;
+		}
+		@else if "main-listteam" == $scheme {
+			--font-size-h2: 1;
+			--font-size: 0.75;
+		}
+		@else if "main-positionteam" == $scheme {
+			--font-size-h2: 1.2;
+		}
+		@else if "modules" == $scheme {
+			--font-size-h3: 1.8;
+		}
+		@else if "tags" == $scheme {
+			--font-size: 0.8;
+			--font-case: uppercase;
+		}
+	}

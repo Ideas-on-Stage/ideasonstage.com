@@ -1,8 +1,14 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-contenthome {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
 		@include margins("medium", "normal");
+		
 		padding: 0;
-		color: var(--color-bg-white-text-mid);
 		text-align: center;
+		
+		p {
+			color: var(--color-text-muted);
+		}
 	}

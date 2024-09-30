@@ -1,10 +1,9 @@
 {{ partial "e/sass.scss" . }}
 
-$navbar-font-family: "Gotham SSm A", "Gotham SSm B" !default;
-$navbar-font-weight: 700 !default;
-$navbar-scheme: "dark" !default;
-
 	.cl-bodytop-navbar {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
+		
 		position: fixed; /* menubar stays at top of screen */
 		top: 0;
 		width: 100%;
@@ -16,14 +15,12 @@ $navbar-scheme: "dark" !default;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		@include scheme($navbar-scheme);
 		
 		/* Font for menu */
 		.menu-item,
 		.menu-item a,
 		.menu-dropdown-item,
 		.menu-dropdown-item a {
-			@include font($navbar-font-family, $navbar-font-weight);
 			text-transform: uppercase;
 			font-size: 14px;
 			border: none; /* remove underline for a links */
@@ -68,7 +65,6 @@ $navbar-scheme: "dark" !default;
 				/* show dropdown on hover */
 				li:hover .menu-dropdown {
 					display: flex;
-					@include scheme($navbar-scheme);
 				}
 			}	
 			
@@ -81,8 +77,7 @@ $navbar-scheme: "dark" !default;
 				width: auto;
 				display: none; /* replaced by flex on hover */
 				flex-direction: column;
-				transition: 200ms;
-				transition-delay: 200ms;
+				background-color: var(--color-back);
 				
 				li {
 					display: flex;
@@ -96,7 +91,7 @@ $navbar-scheme: "dark" !default;
 		}
 		
 		/* Special menu properties for medium screens */
-		@media (min-width: $gl-sm-screen) and (max-width : {{ site.Params.layout.shorten_width }}) {
+		@media (min-width: $gl-sm-screen) and (max-width : $gl-menu-short) {
 			.menu-shorten {
 				display: none; /* show only icon (hide text) on medium screen widths */
 			}
@@ -117,7 +112,7 @@ $navbar-scheme: "dark" !default;
 			.menu {
 				position: fixed;
 				margin: 0;
-				padding: 1em;
+				padding: 1.5em;
 				left: 0;
 				top: calc(var(--menubar-height) - 2px);
 				height: auto;
@@ -125,13 +120,13 @@ $navbar-scheme: "dark" !default;
 				display: none; /* hide menu on ts screens, show if burger checkbox checked */
 				flex-direction: column;
 				align-items: center;
-				gap: 1em;
-				@include scheme($navbar-scheme);
+				gap: 1.5rem;
+				background-color: var(--color-back);
 			}
 			
 			.menu-item {
 				margin: 0;
-				padding: 0.20em;
+				padding: 0;
 				width: 100%;
 				display: flex; /* allows easy vertical centering of <a> tag inside */
 				flex-direction: column;
@@ -144,20 +139,23 @@ $navbar-scheme: "dark" !default;
 				position: static;
 				top: calc(var(--menubar-height) - 2px);
 				margin: 0;
-				padding: 1em;
+				padding: 1.5rem 0 0 0;
 				width: 100%;
 				display: none; /* hide, show if checkbox checked */
 				flex-direction: column;
 				align-items: center;
-				gap: 1em;
+				gap: 1.5rem;
+				background-color: var(--color-back);
 			}
 			
 			.menu-dropdown-item {
 				display: list-item;
 				position: relative;
+				width: 100%;
 				list-style: none;
 				margin: 0;
 				padding: 0;
+				text-align: center;
 			}
 			
 			/* show menu or menu dropdown when checkbox is checked */

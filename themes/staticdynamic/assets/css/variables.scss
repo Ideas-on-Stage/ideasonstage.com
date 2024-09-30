@@ -1,131 +1,50 @@
-@import "_sassmix";
+{{ partial "e/sass.scss" . }}
 
-
-
-:root {
-
-	/* base text size */
-	--text-size: 1.5;
-	--text-size-h1: 3;
-	--text-size-h2: 2.5;
-	--text-size-h3: 2;
-	--text-size-h4: 1.5;
-	--text-size-h5: 1.5;
-	--text-ratio-sm: 2vw;
-	--text-ratio-md: 1vw;
-	
-	--text-size-base: 1.5vw;
-	@media (max-width: $gl-sm-screen) {
-			--text-size-base: 4vw;
-	}
-	
-	/* menubar */
-	--menubar-height: 52px;
-	
-	/* page */
-	--page-padding-top: var(--menubar-height);
-	--page-padding-right: 0px;
-	--page-padding-bottom: 0px;
-	--page-padding-left: 0px;
-	--page-max-width: 1920px;
-
-	/* content */
-	--content-max-width: 1200px;
-	--content-max-width-narrow: 800px;
-	--content-space-v: 48px;
-
-	/* blocks */
-	--hero-height:	60vh;
+	:root {
 		
-	--module-height: 40; /* no unit */
-	@media (max-width: $gl-sm-screen) {
-		--module-height: 140;
-	}
+		/*
+			menubar height
+		*/
+		--menubar-height: 52px;
 		
-	--module-column-gap: 12px;
-	@media (max-width: $gl-sm-screen) {
-		--module-column-gap: 4vw; 
-	}
-	--module-row-gap: 12px;
-	@media (max-width: $gl-sm-screen) {
-		--module-row-gap: 4vw;
-	}
-	--module-big-gap: 24px;
-	@media (max-width: $gl-sm-screen) {
-		--module-big-gap: 4vw;
-	}
+		/* 
+			page padding
+		*/
+		--page-padding-top: var(--menubar-height);
+		--page-padding-right: 0px;
+		--page-padding-bottom: 0px;
+		--page-padding-left: 0px;
+		--page-max-width: 1920px;
 		
-	--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px ); /* width of 1/12th column */
-	@media (max-width: $gl-sm-screen) {
-		--module-12c-width: calc( ( 100% - var(--module-ts-column-gap) * 11 ) / 12 );
-	}
-	--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px ); /* width of 1/5th column */
-	@media (max-width: $gl-sm-screen) {
-		--module-5c-width: calc( ( 100% - var(--module-ts-column-gap) * 4 ) / 5 );
-	}
-
-
-
-	/* base colors */
-	--color-primary: #FF8200;
-	--color-primary-contrast: #dd6200;
-	--color-secondary: #00A3E0;
-	--color-darkgray: #222;
-	--color-lightgray: #eee;
-	--color-midgray: #888;
-	
-
-	/* white background scheme (DEFAULT)  */
-	--color-bg-white: white;
-	--color-bg-white-text: black;
-	--color-bg-white-text-mid: #444;
-	--color-bg-white-link: black;
-	--color-bg-white-link-hover: var(--color-primary);
-	
-	/* black background scheme */
-		--color-bg-black: black;
-		--color-bg-black-text: white;
-		--color-bg-black-text-mid: #white;
-		--color-bg-black-link: white;
-		--color-bg-black-link-hover: var(--color-primary);
-	
-	/* dark background scheme */
-		--color-bg-dark: var(--color-darkgray);
-		--color-bg-dark-text: white;
-		--color-bg-dark-text-mid: #white;
-		--color-bg-dark-link: white;
-		--color-bg-dark-link-hover: var(--color-primary);
-	
-	/* light background scheme */
-		--color-bg-light: var(--color-lightgray);
-		--color-bg-light-text: black;
-		--color-bg-light-text-mid: #black;
-		--color-bg-light-link: black;
-		--color-bg-light-link-hover: var(--color-primary);
-	/* primary background scheme */
-		--color-bg-primary: var(--color-primary);
-		--color-bg-primary-text: white;
-		--color-bg-primary-text-mid: white;
-		--color-bg-primary-link: white;
-		--color-bg-primary-link-hover: white;
-	
-	/* secondary background scheme */
-		--color-bg-secondary: var(--color-secondary);
-		--color-bg-secondary-text: white;
-		--color-bg-secondary-text-mid: #white;
-		--color-bg-secondary-link: white;
-		--color-bg-secondary-link-hover: white;
-
-	/* specific items colors */
-		--color-blockquote: var(--color-secondary);
-		--color-link-hover: var(--color-primary);
-		--color-time: #aaa;
-	
-	/* button colors */
-		--color-button-primary: white;
-		--color-button-primary-bg: var(--color-primary-contrast);
+		/*
+			content width
+		*/
+		--content-max-width: 1200px; /* "normal" content, "normal" margins */
+		--content-max-width-narrow: 800px; /* "narrow" content, "wide" margins */
+		--content-space-v: 48px; /* "normal" vertical space */
 		
-		--color-button-secondary: var(--color-secondary);
-		--color-button-secondary-bg: none;
-	
-}
+		/*
+			hero height
+		*/
+		--hero-height:	60vh;
+		
+		/* 
+			modules
+		*/
+		--module-height: 40; /* module height on normal screens, no unit but is inferred to be vw  */
+		--module-column-gap: 12px; /* module column gap on normal screens */
+		--module-row-gap: 12px; /* module row gap on normal screens */
+		--module-big-gap: 24px;
+		@media (max-width: $gl-sm-screen) {
+			--module-height: 140; /* module height on small screens */
+			--module-column-gap: 4vw; /* module column gap on small screens */
+			--module-row-gap: 4vw;
+			--module-big-gap: 4vw;
+		}
+		--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px ); /* width of 1/5th column */
+		--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px ); /* width of 1/12th column */
+		@media (max-width: $gl-sm-screen) {
+			--module-5c-width: calc( ( 100% - var(--module-ts-column-gap) * 4 ) / 5 );
+			--module-12c-width: calc( ( 100% - var(--module-ts-column-gap) * 11 ) / 12 );
+		}
+	}

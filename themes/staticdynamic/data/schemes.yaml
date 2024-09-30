@@ -1,0 +1,72 @@
+# site color schemes.
+# can be customized without touching the css
+
+- name: default
+  "color-primary": #FF8200
+  "color-primary-contrast": #dd6200
+  "color-secondary": #00A3E0
+  "color-darkgray": #222
+  "color-lightgray": #eee
+  "color-midgray": #888
+  "color-back": white
+  "color-border": #bbb
+  "color-link": black
+  "color-link-hover": var(--color-primary)
+  "color-text": black
+  "color-text-muted": #444
+  "color-blockquote": var(--color-secondary)
+  "color-time": #aaa
+  "color-button-primary-back": var(--color-primary-contrast)
+  "color-button-primary-text": white
+  "color-button-secondary-back": none
+  "color-button-secondary-text": var(--color-secondary)
+
+- name: black
+  "color-back": black
+  "color-border": white
+  "color-button-primary-back": var(--color-primary-contrast)
+  "color-button-primary-text": white
+  "color-button-secondary-back": none
+  "color-button-secondary-text": var(--color-secondary)
+  "color-link": white
+  "color-link-hover": var(--color-primary)
+  "color-text": white
+  "color-text-muted": white
+
+- name: light
+  "color-back": var(--color-lightgray)
+  "color-link": black
+  "color-link-hover": var(--color-primary)
+  "color-text": black
+  "color-text-muted": black
+
+- name: dark
+  "color-back": #222
+  "color-link": white
+  "color-link-hover": var(--color-primary)
+  "color-text": white
+  "color-text-muted": white
+
+- name: primary
+  "color-back": var(--color-primary)
+  "color-button-secondary-text": white
+  "color-link": white
+  "color-link-hover": white
+  "color-text": white
+  "color-text-muted": white
+
+- name: secondary
+  "color-back": var(--color-secondary)
+  "color-button-secondary-text": white
+  "color-link": white
+  "color-link-hover": white
+  "color-text": white
+  "color-text-muted": white
+
+- name: codingandbricks
+  "color-back": #233B4C
+  "color-button-secondary-text": #FFD500
+  "color-text": #FFD500
+  "color-text-muted": #444
+  "color-link": #FFD500!important
+  "color-link-hover": #FFD500

@@ -1,8 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
-$main-listreferences-scheme: "white" !default;
-
 	.cl-main-listreferences--references {
+		@include color-scheme("cl-main-listreferences--references");
+		@include font-scheme("cl-main-listreferences--references");
 		
 		.reference {
 			@include margins("medium", "normal");
@@ -13,7 +13,7 @@ $main-listreferences-scheme: "white" !default;
 			align-items: flex-start;
 			
 			img {
-				@include scheme-img-border($main-listreferences-scheme);
+				border: 1px solid var(--color-border);
 				width: 20%;
 				@media (max-width: $gl-sm-screen) {
 					width: 33%;
@@ -34,6 +34,8 @@ $main-listreferences-scheme: "white" !default;
 	}
 	
 	.cl-main-listreferences--stories {
+		@include color-scheme("cl-main-listreferences--stories");
+		@include font-scheme("cl-main-listreferences--stories");
 		
 		.story {
 			@include margins("medium", "normal");
@@ -44,7 +46,7 @@ $main-listreferences-scheme: "white" !default;
 			align-items: flex-start;
 			
 			img {
-				@include scheme-img-border($main-listreferences-scheme);
+				border: 1px solid var(--color-border);
 				width: 20%;
 				@media (max-width: $gl-sm-screen) {
 					width: 33%;

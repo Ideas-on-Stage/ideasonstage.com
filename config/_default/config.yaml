@@ -10,10 +10,10 @@ markup:
             attribute:
                 block: true
         renderer:
-            unsafe: true    # added to allow raw HTML in page .Content
+            unsafe: true # added to allow raw HTML in page .Content
     tableOfContents:
-        startLevel: 2        # start level for table of contents
-        endLevel: 3        # end level for table of contents
+        startLevel: 2 # start level for table of contents
+        endLevel: 3 # end level for table of contents
 
 pagination:
     disableAliases: true
@@ -35,7 +35,6 @@ params:
     # CSS
     css:
         customfonts: [ "https://cloud.typography.com/6201816/7621392/css/fonts.css" ]
-        fontawesome: "/css/font-awesome.min.css"
     
     # ---------------------
     # Responsive images
@@ -64,14 +63,6 @@ params:
           url: "/uk/"
     
     # ---------------------
-    # layout
-    layout:
-        ts_width: 720px # small screens width
-        normal_width: 721px # between ts and max width
-        max_width: 1920px # maximum width
-        shorten_width: 900px # breakpoint to shorten menu entries to icon only
-    
-    # ---------------------
     # navigation
     navigation:
         brand: "Ideas on Stage"
@@ -89,16 +80,6 @@ params:
         logo: "/img/ideas-on-stage.svg"
         name: "Ideas on Stage"
         sameas: [ "https://www.linkedin.com/company/ideas-on-stage/", "https://www.youtube.com/user/IdeasOnStage", "https://twitter.com/ideasonstage", "https://www.pierremorsa.com/ideas-on-stage/" ]
-
-    # ---------------------    
-    # Social items for footer or other elements
-    social:
-        - icon: "facebook"
-          url: "https://www.facebook.com/ideasonstage"
-        - icon: "linkedin"
-          url: "https://www.linkedin.com/company/ideas-on-stage/"
-        - icon: "youtube"
-          url: "https://www.youtube.com/user/IdeasOnStage/"
 
 
 

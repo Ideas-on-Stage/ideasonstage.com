@@ -1,33 +1,35 @@
 {{ partial "e/sass.scss" . }}
 
-$form-scheme: "white";
-
 	.cl-form {
-		@include margins("none", "narrow");
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
+		@include margins("none", "wide");
+		
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
 		align-items: center;
 		
 		.field {
-			@include scheme-form($form-scheme);
 			display: block;
 			margin: 0;
 			padding: 6px 12px;
 			width: 100%;
 			font-size: 0.8em;
 			line-height: 1.42857143;
+			border: 1px solid var(--color-form-border);
+			background-color: var(--color-form-back);
 			border-radius: 4px;
 			box-shadow: none;
+			color: var(--color-form-text);
 			-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
 			-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 			transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-			box-sizing: border-box;
 		}
 		
 		.field:focus {
 			/* highlight active field border */
-			border-color: var(--color-primary);
+			border-color: var(--color-form-border-focus);
 			outline: 0;
 		}
 		

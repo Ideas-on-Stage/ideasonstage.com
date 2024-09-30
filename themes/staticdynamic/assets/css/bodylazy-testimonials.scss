@@ -1,9 +1,9 @@
 {{ partial "e/sass.scss" . }}
 
-$testimonials-scheme: "light" !default;
-
 	.cl-bodylazy-testimonials {
-		@include scheme($testimonials-scheme);
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
+		
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
@@ -45,14 +45,10 @@ $testimonials-scheme: "light" !default;
 		.item:last-child {
 			margin-right: 2vw;
 		}		
-		@media (max-width:{{ site.Params.layout.ts_width }}) {	
+		@media (max-width: $gl-sm-screen) {	
 			.item {
 				flex-basis: 70vw;
 			}
-		}
-		
-		.name {
-			font-size: 0.8em;
 		}
 		
 		.person {
@@ -64,16 +60,11 @@ $testimonials-scheme: "light" !default;
 		
 		.position {
 			margin: 0;
-			font-size: 0.8em;
 		}
 		
 		img {
 			width: 60px;
 			height: 60px;
 			border-radius: 30px;
-		}
-		
-		.text {
-			font-size: 0.8em;
 		}
 	}

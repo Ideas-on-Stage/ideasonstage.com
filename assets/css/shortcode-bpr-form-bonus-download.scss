@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-shortcode--bpr-form-bonus-download {
-		@include scheme("light");
+		@include base-color-scheme("light");
 		text-align: center;
 	}

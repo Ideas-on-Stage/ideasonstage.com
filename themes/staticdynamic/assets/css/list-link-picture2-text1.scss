@@ -1,6 +1,9 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-list-link-picture2-text1 {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
+
 		display: flex;
 		flex-direction: row;
 		gap: var(--module-big-gap);

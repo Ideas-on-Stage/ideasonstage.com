@@ -1,6 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-authorandtime {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
 		
 		time {
 			color: var(--color-time);

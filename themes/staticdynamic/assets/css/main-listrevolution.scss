@@ -1,6 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-listrevolution {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
 		@include margins("medium", "normal");
 		
 		/* list of episodes */

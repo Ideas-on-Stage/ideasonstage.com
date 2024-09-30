@@ -3,7 +3,7 @@
 {{ if $tags }}
 	<ul class="cl-tags">
 		{{ range (.GetTerms "tags") }}
-			<li class="cl-tags--tag">
+			<li>
 				<a href="{{ .Permalink }}">
 					{{ .LinkTitle }}
 				</a>

@@ -1,0 +1,183 @@
+@import "_sassmix";
+
+	/*
+		color-scheme
+		:root is the default scheme
+	 */
+	@mixin color-scheme($scheme) {
+		@if ":root" == $scheme {
+			@include base-color-scheme(":root");
+		}
+		@else if "body-breadcrumbs" == $scheme {
+			@include base-color-scheme("light");
+		}
+		@else if "body-content404" == $scheme {
+			@include base-color-scheme("dark");
+		}
+		@else if "bodytop-navbar" == $scheme {
+			@include base-color-scheme("dark");
+		}
+		@else if "body-countrylist" == $scheme {
+			@include base-color-scheme("dark");
+		}
+		@else if "body-cta" == $scheme {
+			@include base-color-scheme("dark");
+		}
+		@else if "body-h1home" == $scheme {
+			@include base-color-scheme("dark");
+		}
+		@else if "body-h1hero" == $scheme {
+			@include base-color-scheme("dark");
+		}
+		@else if "body-herorevolution" == $scheme {
+			@include base-color-scheme("dark");
+		}
+		@else if "body-side-main--main" == $scheme {
+			@include base-color-scheme("white");
+		}
+		@else if "body-side-main--side" == $scheme {
+			@include base-color-scheme("light");
+		}
+		@else if "bodybottom-footer" == $scheme {
+			@include base-color-scheme("dark");
+		}
+		@else if "bodylazy-location" == $scheme {
+			@include base-color-scheme("black");
+		}
+		@else if "bodylazy-testimonials" == $scheme {
+			@include base-color-scheme("light");
+		}
+		@else if "form" == $scheme {
+			--color-form-text: #444;
+			--color-form-back: #fff;
+			--color-form-border: var(--color-border);
+			--color-form-border-focus: var(--color-primary);
+		}
+		@else if "more--fastsearch" == $scheme {
+			--color-search-input-back: #555;
+			--color-search-input-text: #ddd;
+		}
+		@else if "photo" == $scheme {
+			--color-photo-border: white;
+			--color-photo-shadow: #aaa;
+		}
+		@else if "tags" == $scheme {
+			@include base-color-scheme("light");
+			--color-li-back: var(--color-lightgray);
+		}
+	} 
+
+
+	/*
+		base-color-scheme
+		apply predefined schemes
+	*/	
+	@mixin base-color-scheme($scheme) {
+		
+		@if ":root" == $scheme {
+			/* reusable colors */
+			--color-primary: #FF8200;
+			--color-primary-contrast: #dd6200;
+			--color-secondary: #00A3E0;
+			--color-darkgray: #222;
+			--color-lightgray: #eee;
+			--color-midgray: #888;
+			
+			/* base colors */
+			--color-back: white;
+			--color-link: black;
+			--color-link-hover: var(--color-primary);
+			--color-text: black;
+			--color-text-muted: #444;
+			
+			/* element-specific colors */
+			--color-blockquote: var(--color-secondary);
+			--color-border: #bbb;
+			--color-time: #aaa;
+			
+			/* button colors */
+			--color-button-primary-back: var(--color-primary-contrast);
+			--color-button-primary-text: white;
+			--color-button-secondary-back: none;
+			--color-button-secondary-text: var(--color-secondary);
+			
+		}
+		@else if "black" == $scheme {
+			/* black background scheme */
+			--color-back: black;
+			--color-border: white;
+			--color-link: white;
+			--color-link-hover: var(--color-primary);
+			--color-text: white;
+			--color-text-muted: white;
+		}
+		@else if "light" == $scheme {
+			/* light gray background scheme */	
+			--color-back: var(--color-lightgray);
+			--color-link: black;
+			--color-link-hover: var(--color-primary);
+			--color-text: black;
+			--color-text-muted: black;
+		}
+		@else if "dark" == $scheme {
+			/* dark gray background scheme */
+			--color-back: #222;
+			--color-link: white;
+			--color-link-hover: var(--color-primary);
+			--color-text: white;
+			--color-text-muted: #white;
+		}
+		@else if "primary" == $scheme {
+			/* primary background scheme */
+			--color-back: var(--color-primary);
+			--color-button-secondary-text: white;
+			--color-link: white;
+			--color-link-hover: white;
+			--color-text: white;
+			--color-text-muted: white;
+		}
+		@else if "secondary" == $scheme {
+			/* secondary background scheme */
+			--color-back: var(--color-secondary);
+			--color-button-secondary-text: white;
+			--color-link: white;
+			--color-link-hover: white;
+			--color-text: white;
+			--color-text-muted: #white;
+		}
+		@else if "codingandbricks" == $scheme {
+			/* codingandbricks scheme */
+			--color-back: #233B4C;
+			--color-button-secondary-text: #FFD500;
+			--color-text: #FFD500;
+			--color-text-muted: #444;
+			--color-link: #FFD500!important;
+			--color-link-hover: #FFD500;
+		}
+	}
+
+
+
+	/*
+		color scheme helper classes
+		add a class here with the scheme to allow use in shortcodes and content
+	*/
+	.bg-black {
+		@include base-color-scheme("black")
+	}
+	.bg-dark {
+		@include base-color-scheme("dark")
+	}
+	.bg-light {
+		@include base-color-scheme("light")
+	}
+	.bg-primary {
+		@include base-color-scheme("primary")
+	}
+	.bg-secondary {
+		@include base-color-scheme("secondary")
+	}
+	.bg-codingandbricks	{
+		@include base-color-scheme("codingandbricks")
+	}
+

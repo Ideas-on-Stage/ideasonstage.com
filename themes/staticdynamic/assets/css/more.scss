@@ -1,8 +1,5 @@
 {{ partial "e/sass.scss" . }}
 
-$fastsearch-input-background-color: #555 !default;
-$fastsearch-input-color: #ddd !default;
-
 	/*
 		fastsearch class
 		It's so small it could be integrated in the core file,
@@ -10,6 +7,8 @@ $fastsearch-input-color: #ddd !default;
 		for non-critical css.
 	*/
 	.cl-more--fastsearch {
+		@include color-scheme("more--fastsearch");
+		@include font-scheme("more--fastsearch");
 		
 		input {
 			display: inline-block;
@@ -17,8 +16,8 @@ $fastsearch-input-color: #ddd !default;
 			box-sizing: border-box;
 			font-size: 0.8em;
 			text-align: left;
-			background-color: $fastsearch-input-background-color;
-			color: $fastsearch-input-color;
+			background-color: var(--color-search-input-back);
+			color: var(--color-search-input-text);
 			border-radius: 3px 3px 3px 3px;
 			border: none;
 			outline: none;

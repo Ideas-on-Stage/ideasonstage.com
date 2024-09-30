@@ -27,6 +27,8 @@
 {{/* <!-- set default result to _default blocks matching $part ("head" or "body") --> */}}
 {{ $result := index (index (index site.Data.layouts "_default") $data.Kind) $part }}
 
+{{/* <!-- bodytop, bodybottom, headtop and headbottom are ignored if declared elsewhere than _common --> */}}
+{{/* <!-- it is therefore useless to declare a bodytop part in a specific part or in a page front matter --> */}}
 {{ if eq $part "bodytop" }}
 	{{ $result = index site.Data.layouts._common "bodytop" }}
 {{ else if eq $part "bodybottom" }}
@@ -36,11 +38,10 @@
 {{ else if eq $part "headbottom" }}
 	{{ $result = index site.Data.layouts._common "headbottom" }}
 {{ else if isset page.Params $part }}
-	{{/* <!-- then use specific blocks defined in page front matter --> */}}
+	{{/* <!-- if part exists in front matter, use it --> */}}
 	{{ $result = index page.Params $part }}
-
-{{/* <!-- else if specific blocks matching page .Type are defined in /data/layouts.yaml --> */}}
 {{ else if (isset site.Data.layouts $data.Type) }}
+	{{/* <!-- else if specific blocks matching page .Type are defined in /data/layouts.yaml, use it --> */}}
 	{{ $type := index site.Data.layouts $data.Type }}
 	{{ if $type }}
 		{{/* <!-- and if specific blocks matching page .Kind are defined in /data/layouts.yaml --> */}}

@@ -25,4 +25,3 @@
 {{ end }}
 
 {{ return $result }}
- 

@@ -1,14 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
-$body-side-main-font-family: $gl-font-family !default;
-$body-side-main-font-family-h: $gl-font-family-h !default;
-
-$side-font-size: 0.8em !default;
-$side-font-size-h2: 1em !default;
-$side-font-size-li: 1em !default;
-$side-scheme: "light" !default;
-
 	.cl-body-side-main {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
 		@include margins("medium", "normal");
 		padding: 0;
 		display: flex;
@@ -23,14 +17,11 @@ $side-scheme: "light" !default;
 		
 		.side {
 			@include firstlastchildnomargin;
-			@include scheme($side-scheme);
+			@include color-scheme("body-side-main--side");
+			@include font-scheme("body-side-main--side");
 			width: calc( 33% - var(--module-big-gap) * 2 );
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
-			}
-			
-			a {
-				font-size: $side-font-size;
 			}
 			
 			img {
@@ -38,32 +29,27 @@ $side-scheme: "light" !default;
 			}
 			
 			h2 {
-				margin: 1em 1em 0.5em 1em;
-				font-size: $side-font-size-h2;
+				margin: 1rem 1rem 0.5rem 1rem;
 			}
 			
 			li {
-				margin-top: 1em;
-				margin-bottom: 1em;
-				font-size: $side-font-size;
-			}
-			li a {
-				font-size: 1em;
+				margin: 1rem 0;
 			}
 			
 			p {
-				margin: 1em;
-				font-size: $side-font-size;
+				margin: 1rem;
 			}
 			
 			ul {
 				list-style: none;
-				padding-left: 0em; /* remove left space on lists */
-				margin: 0.5em 1em 1em 1em;
+				padding-left: 0; /* remove left space on lists */
+				margin: 0.5rem 1rem 1rem 1rem;
 			}
 		}
 		
 		.main {
+			@include color-scheme("body-side-main--main");
+			@include font-scheme("body-side-main--main");
 			@include firstlastchildnomargin;
 			width: 100%;
 		}

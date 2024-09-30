@@ -1,6 +1,9 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-prevnext {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
+		
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;

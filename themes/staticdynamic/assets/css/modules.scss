@@ -40,6 +40,9 @@
 	}
 	
 	.cl-modules {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
+
 		width: calc(100% - 0.001px);
 		display: flex;
 		flex-direction: row; /* to display half modules side by side */
@@ -52,7 +55,6 @@
 		}
 		
 		h3 {
-			font-size: 1.8em;
 			margin-top: 0;
 		}
 	}

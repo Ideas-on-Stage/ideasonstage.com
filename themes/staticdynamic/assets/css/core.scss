@@ -1,18 +1,28 @@
 {{ partial "e/sass.scss" . }}
 
-	/* font families */
+	:root {
+		@include color-scheme(":root");
+		@include font-scheme(":root");
+	}
+	
+	/*
+		font families
+	*/
 	a,
 	body,
 	input,
 	p,
+	span,
 	textarea {
-		@include font($gl-font-family, $gl-font-weight);
+		font-family: var(--font-family);
+		font-weight: var(--font-weight);
 	}
 
 	b,
 	blockquote,
 	strong {
-		@include font($gl-font-family-b, $gl-font-weight-b);
+		font-family: var(--font-family-b);
+		font-weight: var(--font-weight-b);
 	}
 	
 	h1,
@@ -20,10 +30,13 @@
 	h3,
 	h4,
 	h5 {
-		@include font($gl-font-family-h, $gl-font-weight-h);
+		font-family: var(--font-family-h);
+		font-weight: var(--font-weight-h);
 	}
 	
-	/* font sizes */
+	/*
+		font sizes
+	*/
 	a,
 	blockquote,
 	body,
@@ -32,43 +45,51 @@
 	p,
 	strong,
 	textarea {
-		@include font-scaling($gl-font-size);
+		font-size: calc(var(--font-size) * var(--font-ratio));
+		text-transform: var(--font-case);
 	}
 	
 	h1 {
-		@include font-scaling($gl-font-size-h1);
+		font-size: calc(var(--font-size-h1) * var(--font-ratio));
+		text-transform: var(--font-case-h1);
 	}
 	
 	h2 {
-		@include font-scaling($gl-font-size-h2);
+		font-size: calc(var(--font-size-h2) * var(--font-ratio));
+		text-transform: var(--font-case-h2);
 	}
 	
 	h3 {
-		@include font-scaling($gl-font-size-h3);
+		font-size: calc(var(--font-size-h3) * var(--font-ratio));
+		text-transform: var(--font-case-h3);
 	}
 	
 	h4 {
-		@include font-scaling($gl-font-size-h4);
+		font-size: calc(var(--font-size-h4) * var(--font-ratio));
+		text-transform: var(--font-case-h4);
 	}
 	
 	h5 {
-		@include font-scaling($gl-font-size-h5);
+		font-size: calc(var(--font-size-h5) * var(--font-ratio));
+		text-transform: var(--font-case-h5);
 	}
 	
 
-	/* sizing model */
+	/*
+		element sizes (padding, margin, sizes)
+	*/
 	* {
+		/* use box-sizing as the default sizing model */
 		box-sizing: border-box;
 	}
 
-	/* body default padding and size */
 	body {
 		scroll-padding-top: var(--menubar-height);
 		padding-top: var(--page-padding-top);
 		padding-right: var(--page-padding-right);
 		padding-bottom: var(--page-padding-bottom);
 		padding-left: var(--page-padding-left);
-		max-width: {{ site.Params.layout.max_width }};
+		max-width: var(--page-max-width);
 		margin: auto;
 	}
 	
@@ -80,7 +101,7 @@
 	}
 	
 	a {
-		color: $gl-scheme-white-link;
+		color: var(--color-link);
 		border-bottom: none;
 		text-decoration: none;
 		transition: all .35s;
@@ -88,7 +109,7 @@
 	
 	a:hover,
 	a:focus {
-		color: $gl-scheme-white-link-hover;
+		color: var(--color-link-hover);
 		border-bottom: none;
 		text-decoration: none;
 		transition: all .35s;
@@ -128,9 +149,10 @@
 		margin-top: 0.5em;
 		margin-bottom: 0.5em;
 		text-align: left;
+		background-color: var(--color-li-back);
 		
 		a {
-			border-bottom: dotted 1px $gl-scheme-white-link-hover;
+			border-bottom: dotted 1px var(--color-link-hover);
 		}
 		
 	}
@@ -141,78 +163,93 @@
 		line-height: 1.6em;
 		
 		a {
-			border-bottom: dotted 1px $gl-scheme-white-link-hover;
+			border-bottom: dotted 1px var(--color-link-hover);
 			line-height: 1.6em;
 		}
 		
 	}
 
-
-	/* buttons */
-	.cl-core--button-primary,
-	.cl-core--button-secondary {
-		@include font($gl-font-family-button, $gl-font-weight-button);
-		text-transform: uppercase;
-		list-style: none; /* remove bullet when used on li */
+	/*
+		colors
+		by using a variable for color elements,
+		we can declare the color once and for all,
+		and change it by changing the variable value based on class/context
+		this allows to use color schemes very easily
+	*/
+	aside,
+	div,
+	footer,
+	header,
+	nav,
+	section {
+		background-color: var(--color-back);
 	}
 
+	a {
+		color: var(--color-link);
+	}
+
+	
+	a:hover,
+	a:focus {
+		color: var(--color-link-hover);
+	}
+	
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	li,
+	ol,
+	p,
+	ul,
+	blockquote {
+		color: var(--color-text);
+	}
+
+
+
+	/* 
+		buttons
+		primary buttons are very visible,
+		secondary buttons are a bit more understated
+	*/
 	.cl-core--button-primary {
+		display: inline-block;
 		margin: 0;
 		padding: 1em 2em;
-		display: inline-block;
-		color: var(--color-button-primary) !important;
-		background-color: var(--color-button-primary-bg);
+		font-family: var(--font-family-button);
+		font-weight: var(--font-weight-button);
+		font-size: calc(var(--font-size-button-primary) * var(--font-ratio));
+		text-transform: var(--font-case-button-primary);
+		list-style: none; /* remove bullet when used on li */
+		color: var(--color-button-primary-text);
+		background-color: var(--color-button-primary-back);
 		border: none;
 		border-radius: 0.5em;
 		text-align: center;
 		max-width: 90vw;
-	}
 		
-	/* use to create a secondary button */
+		&:hover {
+			color: var(--color-button-primary-text);
+		}
+	}
+	
 	.cl-core--button-secondary {
-		padding: 0;
 		display: inline-block;
-		color: var(--color-button-secondary) !important;
-		background-color: var(--color-button-secondary-bg);
+		padding: 0;
+		font-family: var(--font-family-button);
+		font-weight: var(--font-weight-button);
+		font-size: calc(var(--font-size-button-secondary) * var(--font-ratio));
+		text-transform: var(--font-case-button-secondary);
+		list-style: none; /* remove bullet when used on li */
+		color: var(--color-button-secondary-text);
+		background-color: var(--color-button-secondary-back);
 		border: none;
 		border-radius: 0.5em;
-	}
-	
-	.bg-primary .cl-core--button-secondary {
-		/* use white text instead of blue if background is orange */
-		color: white !important;
-	}
-
-	/* color scheme helper classes */
-	.bg-black {
-		@include scheme("black");
-	}
-	
-	.bg-dark {
-		@include scheme("dark");
-	}
-	
-	.bg-light {
-		@include scheme("light");
-	}
-
-	.bg-primary {	
-		@include scheme("primary");
-	}
-
-	.bg-secondary {	
-		@include scheme("secondary");
-	}
-	
-	.bg-codingandbricks	{
-		@include scheme("codingandbricks");
-	}
-
-	/* Style helper classes */
-	.st-border {
-		border: 1px solid #bbb;
-	}
-
-	.st-center {
-		text-align: center;
+		
+		&:hover {
+			color: var(--color-button-secondary-text);
+		}
 	}

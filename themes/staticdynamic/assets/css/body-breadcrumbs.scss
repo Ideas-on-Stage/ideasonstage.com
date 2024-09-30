@@ -2,11 +2,10 @@
 
 $breadcrumbs-padding: 0.5em 0 !default;
 $breadcrumbs-list-gap: 0.5em !default;
-$breadcrumbs-list-transform: uppercase !default;
-$breadcrumbs-scheme: "light";
 
 	.cl-body-breadcrumbs {
-		@include scheme($breadcrumbs-scheme);
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
 		
 		a {
 			border: none; /* remove line under link */
@@ -19,11 +18,14 @@ $breadcrumbs-scheme: "light";
 			margin-bottom: 0;
 			padding: $breadcrumbs-padding;
 			list-style: none;
-			text-transform: $breadcrumbs-list-transform;
 			gap: $breadcrumbs-list-gap;
 			
 			li {
 				margin: 0;
 			}
+		}
+		
+		img {
+			display: inline-block;
 		}
 	}

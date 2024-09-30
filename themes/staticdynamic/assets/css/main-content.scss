@@ -1,13 +1,11 @@
 {{ partial "e/sass.scss" . }}
 
-$main-content-font-family: $gl-font-family !default;
-$main-content-font-family-h: $gl-font-family-h !default;
-
 	.cl-main-content {
+		@include color-scheme({{ . }});
+		@include font-scheme({{ . }});
 		@include firstlastchildnomargin;
 		
 		> blockquote {
-			font-family: $main-content-font-family;
 			background: #f5f5f5;
 			border-radius: 0px;
 			margin: 1em 0;
@@ -23,7 +21,6 @@ $main-content-font-family-h: $gl-font-family-h !default;
 		> h2,
 		> h3,
 		> h4 {
-			font-family: $main-content-font-family-h;
 			margin-top: 2em;
 			margin-bottom: 1em;
 			scroll-margin-top: calc(var(--menubar-height) + 48px);
@@ -35,7 +32,6 @@ $main-content-font-family-h: $gl-font-family-h !default;
 		
 		> ol,
 		> ul {
-			font-family: $main-content-font-family;
 			margin-top: 0;
 			margin-bottom: 0;
 			
@@ -47,15 +43,10 @@ $main-content-font-family-h: $gl-font-family-h !default;
 		}
 		
 		> p {
-			font-family: $main-content-font-family;
 			margin-top: 1.6em;
 			margin-bottom: 1.6em;
 			line-height: 1.6em;
-			
-			> a {
-				font-family: $main-content-font-family;
-			}
-			
+				
 			> img {
 				display: block;
 				margin-top: 3em;
@@ -67,8 +58,7 @@ $main-content-font-family-h: $gl-font-family-h !default;
 		}
 		
 		> table {
-			font-family: $main-content-font-family;
-			border: 1px solid #ddd;
+			border: 1px solid var(--color-border);
 			border-collapse: collapse;
 			
 			> thead {
@@ -78,18 +68,27 @@ $main-content-font-family-h: $gl-font-family-h !default;
 			> td {
 				padding: 1em;
 				width: auto;
-				border: 1px solid #ddd;
+				border: 1px solid var(--color-border);
 			}
 			
 			> th {
 				padding: 1em;
 				width: auto;
 				min-width: 120px; /* small columns will have the same size */
-				border: 1px solid #ddd;
+				border: 1px solid var(--color-border);
 				text-align: center;
 				@media (max-width: $gl-sm-screen) {
 					min-width: 50px;
 				}
 			}
+		}
+		
+		/* content helper classes */
+		.st-border {
+			border: 1px solid var(--color-border);
+		}
+		
+		.st-center {
+			text-align: center;
 		}
 	}

@@ -1,108 +1,19 @@
-/* screen size breakpoints */
-$gl-sm-screen: 720px !default;
-$gl-lg-screen: 1920px !default;
-
-/* font for standard text */
-$gl-font-family: "Whitney SSm A", "Whitney SSm B" !default;
-$gl-font-weight: 400 !default;
-/* font for bold text */
-$gl-font-family-b: "Whitney SSm A", "Whitney SSm B" !default;
-$gl-font-weight-b: 700 !default;
-/* font for h1, h2, etc. */
-$gl-font-family-h: "Gotham SSm A", "Gotham SSm B" !default;
-$gl-font-weight-h: 700 !default;
-/* font for buttons etc. */
-$gl-font-family-button: "Gotham SSm A", "Gotham SSm B" !default;
-$gl-font-weight-button: 700 !default;
-
-/* font-size is a ratio between font sizes. It must be WITHOUT units */
-$gl-font-size : 1 !default;
-$gl-font-size-h1: 2 !default;
-$gl-font-size-h2: 1.5 !default;
-$gl-font-size-h3: 1.25 !default;
-$gl-font-size-h4: 1.25 !default;
-$gl-font-size-h5: 1 !default;
-
-/* font-ratio scales $gl-font-size. It must be in vw units */
-$gl-font-ratio-sm: 4vw !default;
-$gl-font-ratio-md: 1.5vw !default;
-
-/* base colors */
-$gl-color-primary: #FF8200 !default;
-$gl-color-primary-contrast: #dd6200 !default;
-$gl-color-secondary: #00A3E0 !default;
-$gl-color-darkgray: #222 !default;
-$gl-color-lightgray: #eee !default;
-$gl-color-midgray: #888 !default;
-
-/* white background scheme (DEFAULT)  */
-$gl-scheme-white-back: white !default;
-$gl-scheme-white-text: black !default;
-$gl-scheme-white-text-mid: #444 !default;
-$gl-scheme-white-link: black !default;
-$gl-scheme-white-link-hover: $gl-color-primary !default;
-
-/* black background scheme */
-$gl-scheme-black-back: black !default;
-$gl-scheme-black-text: white !default;
-$gl-scheme-black-text-mid: #white !default;
-$gl-scheme-black-link: white !default;
-$gl-scheme-black-link-hover: $gl-color-primary !default;
-
-/* dark background scheme */
-$gl-scheme-dark-back: $gl-color-darkgray !default;
-$gl-scheme-dark-text: white !default;
-$gl-scheme-dark-text-mid: #white !default;
-$gl-scheme-dark-link: white !default;
-$gl-scheme-dark-link-hover: $gl-color-primary !default;
-
-/* light background scheme */
-$gl-scheme-light-back: $gl-color-lightgray !default;
-$gl-scheme-light-text: black !default;
-$gl-scheme-light-text-mid: #black !default;
-$gl-scheme-light-link: black !default;
-$gl-scheme-light-link-hover: $gl-color-primary !default;
-
-/* primary background scheme */
-$gl-scheme-primary-back: $gl-color-primary !default;
-$gl-scheme-primary-text: white !default;
-$gl-scheme-primary-text-mid: white !default;
-$gl-scheme-primary-link: white !default;
-$gl-scheme-primary-link-hover: white !default;
-
-/* secondary background scheme */
-$gl-scheme-secondary-back: $gl-color-secondary !default;
-$gl-scheme-secondary-text: white !default;
-$gl-scheme-secondary-text-mid: #white !default;
-$gl-scheme-secondary-link: white !default;
-$gl-scheme-secondary-link-hover: white !default;
-
-/* codingandbricks scheme */
-$gl-scheme-codingandbricks-back: #233B4C !default;
-$gl-scheme-codingandbricks-text: #FFD500 !default;
-$gl-scheme-codingandbricks-text-mid: #444 !default;
-$gl-scheme-codingandbricks-link: #FFD500!important !default;
-$gl-scheme-codingandbricks-link-hover: #FFD500 !default;
+/*
+	screen size breakpoints
+	unit: px
+	declared as sass variables because css variables don't work in media queries
+*/
+	$gl-sm-screen: 720px !default;
+	$gl-lg-screen: 1920px !default;
+	$gl-menu-short: 900px !default;
 
 
+/*
+	mixins
+*/
 
-	/* sets the main colors: background, text, a, a:hover */
-	@mixin colors($back, $text, $mid, $link, $link-hover) {
-		background-color: $back;
-		color: $text;
-		
-		a {
-			color: $link;
-		}
-		
-		a:hover {
-			color: $link-hover;
-			transition: all .35s;
-		}
-	}
-
+	/* remove top margin from first element and bottom margin from last element */
 	@mixin firstlastchildnomargin {
-		/* remove top margin from first element and bottom margin from last element */
 		> :first-child {
 			margin-top: 0;
 		}
@@ -111,40 +22,31 @@ $gl-scheme-codingandbricks-link-hover: #FFD500 !default;
 		}
 	}
 
-	@mixin font($family, $weight) {
-		font-family: $family;
-		font-weight: $weight;
-	}
-
-	@mixin font-scaling($size) {
-		/* take text font size and scale it with normal screen ratio */
-		font-size: calc( #{$size} * #{$gl-font-ratio-md} );
-		@media (max-width: $gl-sm-screen) {
-			/* take text font size and scale it with small screen ratio */
-			font-size: calc( #{$size} * #{$gl-font-ratio-sm} );
-		}
-		@media(min-width: $gl-lg-screen) {
-			/* once max size is reached, stop growing font, use fixed max. size instead */
-			font-size: calc( #{$gl-lg-screen} / 100 * #{$size} ); /* prevent text from growing too large */
-		}	
-	}
-	
+	/* default "responsive" image */
 	@mixin img-resp {
 		display: block; /* prevent line height from being added to div height */
 		max-width: 100%;
 		height: auto;
 		object-fit: contain;
 	}
-	
+
+	/* margins for content
+		marginv: "tall", "medium", "small", "none"
+		marginh: "wide", "normal", "gap", "none"
+	*/
 	@mixin margins($marginv: "medium", $marginh: "normal") {
 		
-		@if "medium" == $marginv {
-			margin-top: var(--content-space-v) !important;
-			margin-bottom: var(--content-space-v) !important;		
+		@if "tall" == $marginv {
+			margin-top: 5em !important;
+			margin-bottom: 5em !important;
+		}
+		@else if "medium" == $marginv {
+			margin-top: 3em !important;
+			margin-bottom: 3em !important;		
 		}
 		@else if "small" == $marginv {
-			margin-top: var(--content-space-v) !important;
-			margin-bottom: var(--content-space-v) !important;
+			margin-top: 1em !important;
+			margin-bottom: 1em !important;
 		}
 		@else if "none" == $marginv {
 			margin-top: 0 !important;
@@ -165,11 +67,13 @@ $gl-scheme-codingandbricks-link-hover: #FFD500 !default;
 		}
 		@else if "wide" == $marginh {
 			/* use for narrow content such as forms */
-			margin: 0 auto; /* use auto to center div on page */
+			margin-left: auto; /* use auto to center div on page */
+			margin-right: auto; /* use auto to center div on page */
 			width: 50vw;
 			max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
 			@media (max-width: $gl-sm-screen) {
-				margin: 0 var(--module-column-gap);
+				margin-left: var(--module-column-gap);
+				margin-right: var(--module-column-gap);
 				width: calc(100% - var(--module-column-gap) * 2 );
 				max-width: calc(100% - var(--module-column-gap) * 2 );
 			}
@@ -186,56 +90,13 @@ $gl-scheme-codingandbricks-link-hover: #FFD500 !default;
 		}
 	}
 
-	/* color scheme for text and background colors */
-	@mixin scheme($scheme: "default") {
-		@if "black" == $scheme {
-			@include colors($gl-scheme-black-back, $gl-scheme-black-text, $gl-scheme-black-text-mid, $gl-scheme-black-link, $gl-scheme-black-link-hover);
-		} 
-		@else if "light" == $scheme {
-			@include colors($gl-scheme-light-back, $gl-scheme-light-text, $gl-scheme-light-text-mid, $gl-scheme-light-link, $gl-scheme-light-link-hover);
-		}
-		@else if "dark" == $scheme {
-			@include colors($gl-scheme-dark-back, $gl-scheme-dark-text, $gl-scheme-dark-text-mid, $gl-scheme-dark-link, $gl-scheme-dark-link-hover);
-		}
-		@else if "primary" == $scheme {
-			@include colors($gl-scheme-primary-back, $gl-scheme-primary-text, $gl-scheme-primary-text-mid, $gl-scheme-primary-link, $gl-scheme-primary-link-hover);
-		}
-		@else if "secondary" == $scheme {
-			@include colors($gl-scheme-secondary-back, $gl-scheme-secondary-text, $gl-scheme-secondary-text-mid, $gl-scheme-secondary-link, $gl-scheme-secondary-link-hover);		
-		}
-		@else if "codingandbricks" == $scheme {
-			@include colors($gl-scheme-codingandbricks-back, $gl-scheme-codingandbricks-text, $gl-scheme-codingandbricks-text-mid, $gl-scheme-codingandbricks-link, $gl-scheme-codingandbricks-link-hover);		
-		}
-		@else {
-			/* default scheme "white" */
-			@include colors($gl-scheme-white-back, $gl-scheme-white-text, $gl-scheme-white-text-mid, $gl-scheme-white-link, $gl-scheme-white-link-hover);
-		}
-	}
-	
-	/* color scheme for images with a border */
-	@mixin scheme-img-border($scheme: "default") {
-		@if "white" == $scheme {
-			border: 1px solid #bbb;
-		}
-	}
-
-	
-	/* color scheme for forms */
-	@mixin scheme-form($scheme: "default") {
-		@if "white" == $scheme {
-			color: #444;
-			background-color: #fff;
-			border: 1px solid #ccc;
-		}
-	}
-
 	/* use to display two columns that become 1 vertical column on sm screens */
-	@mixin two-columns($sm-direction: column) {
+	@mixin two-columns($sm-screen-direction: column) {
 		display: flex;
 		flex-direction: row;
 		align-items: flex-start;
 		gap: var(--module-big-gap);
 		@media (max-width: $gl-sm-screen) {
-			flex-direction: $sm-direction;
+			flex-direction: $sm-screen-direction;
 		}
 	}
