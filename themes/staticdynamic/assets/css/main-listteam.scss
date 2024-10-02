@@ -1,8 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-listteam {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		@include margins("medium", "normal");
 		
 		display: flex;
@@ -44,4 +42,7 @@
 				color: var(--color-text-muted);
 			}
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-shortcode--bpr-subscribe {
-		@include base-color-scheme("light");
+		{{ partial "e/colorscheme.scss" "light" }};
 		text-align: center;
 	}

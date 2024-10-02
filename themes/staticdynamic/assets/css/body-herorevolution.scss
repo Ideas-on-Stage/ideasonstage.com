@@ -1,8 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-herorevolution {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		
 		margin-top: 0;
 		height: var(--hero-height);
@@ -28,4 +26,7 @@
 			text-align: center;
 			margin-bottom: 0.5rem;
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

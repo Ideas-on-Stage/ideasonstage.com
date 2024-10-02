@@ -1,7 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-list {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		@include margins("medium", "normal");
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

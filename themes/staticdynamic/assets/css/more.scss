@@ -7,8 +7,6 @@
 		for non-critical css.
 	*/
 	.cl-more--fastsearch {
-		@include color-scheme("more--fastsearch");
-		@include font-scheme("more--fastsearch");
 		
 		input {
 			display: inline-block;
@@ -39,9 +37,12 @@
 			border: 0;
 		}
 		
-		.results-title{
+		.results-title {
 			/* title of search result */
 			display: inline-block;
 			text-align: left;
 		}
+		
+		{{ partial "e/colorscheme.scss" "more--fastsearch" }}
+		{{ partial "e/fontscheme.scss" "more-fastsearch" }}
 	}

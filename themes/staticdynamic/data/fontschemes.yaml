@@ -1,0 +1,84 @@
+# see advice in colorschemes.yaml if nothing happens when changing a variable
+
+#
+# block font schemes
+#
+
+body-breadcrumbs:
+- "--font-case: uppercase"
+
+body-h1home:
+- "--font-size-h1: 1"
+
+body-side-main--side:
+- "--font-size-h2: 1"
+- "--font-size: 0.8"
+
+body-countrylist:
+- "--font-size-button-secondary: 0.85"
+
+bodybottom-footer:
+- "--font-size-h3: 1"
+- "--font-size: 0.8"
+
+bodylazy-testimonials:
+- "--font-size-h4: 0.8"
+- "--font-size: 0.8"
+
+bodytop-navbar:
+- "--font-family: Gotham SSm A, Gotham SSm B"
+- "--font-weight: 700"
+
+main-h1:
+- "--font-case-h1: none;"
+
+main-listteam:
+- "--font-size-h2: 1"
+- "--font-size: 0.75"
+
+main-positionteam:
+- "--font-size-h2: 1.2"
+
+modules:
+- "--font-size-h3: 1.8"
+
+call-to-action:
+- "--text-align-h3: center"
+- "--text-align: center"
+
+tags:
+- "--font-size: 0.8"
+- "--font-case: uppercase"
+
+
+
+#
+# base font schemes
+#
+
+root:
+# default font scheme */
+- "--font-family: Whitney SSm A, Whitney SSm B"
+- "--font-weight: 400"
+- "--font-family-b: Whitney SSm A, Whitney SSm B"
+- "--font-weight-b: 700"
+- "--font-family-h: Gotham SSm A, Gotham SSm B"
+- "--font-weight-h: 700"
+- "--font-family-button: Gotham SSm A, Gotham SSm B"
+- "--font-weight-button: 700"
+# font sizes - NO unit, it will be multiplied by the ratio in vw */
+- "--font-size: 1"
+- "--font-size-h1: 2"
+- "--font-size-h2: 1.5"
+- "--font-size-h3: 1.25"
+- "--font-size-h4: 1.25"
+- "--font-size-h5: 1"
+- "--font-size-button-primary: 1"
+- "--font-size-button-secondary: 1"
+# font-ratio - adapts base font sizes based on media breakpoints - unit: vw (recommended) */
+- "--font-ratio: 1.5vw"
+- "--font-ratio-sm: 4vw"
+# font case */
+- "--font-case-h1: uppercase"
+- "--font-case-button-primary: uppercase"
+- "--font-case-button-secondary: uppercase"

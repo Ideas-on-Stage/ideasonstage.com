@@ -1,9 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-referencesgrid {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
-		
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -18,4 +15,7 @@
 				width: calc( ( 100% - 2 * var(--module-column-gap) ) / 3 - 0.001px );
 			}
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

@@ -1,8 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-listreferences--references {
-		@include color-scheme("cl-main-listreferences--references");
-		@include font-scheme("cl-main-listreferences--references");
 		
 		.reference {
 			@include margins("medium", "normal");
@@ -31,11 +29,12 @@
 				}
 			}
 		}
+		
+		{{ partial "e/colorscheme.scss" "cl-main-listreferences--references" }}
+		{{ partial "e/fontscheme.scss" "cl-main-listreferences--references" }}
 	}
 	
 	.cl-main-listreferences--stories {
-		@include color-scheme("cl-main-listreferences--stories");
-		@include font-scheme("cl-main-listreferences--stories");
 		
 		.story {
 			@include margins("medium", "normal");
@@ -64,5 +63,8 @@
 				}
 			}
 		}
+		
+		{{ partial "e/colorscheme.scss" "cl-main-listreferences--stories" }}
+		{{ partial "e/fontscheme.scss" "cl-main-listreferences--stories" }}
 	}
 	

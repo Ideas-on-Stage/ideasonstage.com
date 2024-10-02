@@ -14,8 +14,6 @@
 	
  --> */}}
 @import "_sassmix";
-@import "_color-schemes";
-@import "_font-schemes";
 
 {{ $filepath := printf "custom/_%s.scss" . }}
 {{ $fullpath := printf "/assets/css/%s" $filepath }}

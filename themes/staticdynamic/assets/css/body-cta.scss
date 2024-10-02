@@ -1,8 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-cta {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		
 		height: var(--hero-height);
 		width: var(--hero-width);
@@ -34,4 +32,7 @@
 			margin-left: 1em;
 			margin-right: 1em;
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

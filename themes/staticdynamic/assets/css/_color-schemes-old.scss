@@ -98,6 +98,8 @@
 			/* button colors */
 			--color-button-primary-back: var(--color-primary-contrast);
 			--color-button-primary-text: white;
+			--color-button-primary-back-hover: var(--color-primary);
+			--color-button-primary-text-hover: white;
 			--color-button-secondary-back: none;
 			--color-button-secondary-text: var(--color-secondary);
 			
@@ -154,30 +156,5 @@
 			--color-link: #FFD500!important;
 			--color-link-hover: #FFD500;
 		}
-	}
-
-
-
-	/*
-		color scheme helper classes
-		add a class here with the scheme to allow use in shortcodes and content
-	*/
-	.bg-black {
-		@include base-color-scheme("black")
-	}
-	.bg-dark {
-		@include base-color-scheme("dark")
-	}
-	.bg-light {
-		@include base-color-scheme("light")
-	}
-	.bg-primary {
-		@include base-color-scheme("primary")
-	}
-	.bg-secondary {
-		@include base-color-scheme("secondary")
-	}
-	.bg-codingandbricks	{
-		@include base-color-scheme("codingandbricks")
 	}
 

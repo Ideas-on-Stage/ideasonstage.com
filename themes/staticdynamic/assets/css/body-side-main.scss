@@ -1,8 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-side-main {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		@include margins("medium", "normal");
 		padding: 0;
 		display: flex;
@@ -17,8 +15,6 @@
 		
 		.side {
 			@include firstlastchildnomargin;
-			@include color-scheme("body-side-main--side");
-			@include font-scheme("body-side-main--side");
 			width: calc( 33% - var(--module-big-gap) * 2 );
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
@@ -45,13 +41,17 @@
 				padding-left: 0; /* remove left space on lists */
 				margin: 0.5rem 1rem 1rem 1rem;
 			}
+			
+			{{ partial "e/colorscheme.scss" "body-side-main--side" }};
+			{{ partial "e/fontscheme.scss" "body-side-main--side" }};
 		}
 		
 		.main {
-			@include color-scheme("body-side-main--main");
-			@include font-scheme("body-side-main--main");
 			@include firstlastchildnomargin;
 			width: 100%;
+			
+			{{ partial "e/colorscheme.scss" "body-side-main--main" }};
+			{{ partial "e/fontscheme.scss" "body-side-main--main" }};
 		}
 		
 		.side + .main {
@@ -60,5 +60,8 @@
 				width: 100%; /* set main content width to 100% on ts screens */
 			}
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}
 	

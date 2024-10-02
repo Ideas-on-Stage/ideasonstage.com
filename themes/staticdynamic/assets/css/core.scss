@@ -1,10 +1,5 @@
 {{ partial "e/sass.scss" . }}
 
-	:root {
-		@include color-scheme(":root");
-		@include font-scheme(":root");
-	}
-	
 	/*
 		font families
 	*/
@@ -47,33 +42,42 @@
 	textarea {
 		font-size: calc(var(--font-size) * var(--font-ratio));
 		text-transform: var(--font-case);
+		text-align: var(--text-align);
 	}
 	
 	h1 {
 		font-size: calc(var(--font-size-h1) * var(--font-ratio));
 		text-transform: var(--font-case-h1);
+		text-align: var(--text-align-h1);
 	}
 	
 	h2 {
 		font-size: calc(var(--font-size-h2) * var(--font-ratio));
 		text-transform: var(--font-case-h2);
+		text-align: var(--text-align-h2);
 	}
 	
 	h3 {
 		font-size: calc(var(--font-size-h3) * var(--font-ratio));
 		text-transform: var(--font-case-h3);
+		text-align: var(--text-align-h3);
 	}
 	
 	h4 {
 		font-size: calc(var(--font-size-h4) * var(--font-ratio));
 		text-transform: var(--font-case-h4);
+		text-align: var(--text-align-h4);
 	}
 	
 	h5 {
 		font-size: calc(var(--font-size-h5) * var(--font-ratio));
 		text-transform: var(--font-case-h5);
+		text-align: var(--text-align-h5);
 	}
-	
+
+	img {
+		max-width: 100%;
+	}
 
 	/*
 		element sizes (padding, margin, sizes)
@@ -127,17 +131,12 @@
 	h1 {
 		line-height: 1.2em;
 		margin: 0;
-		margin-block-start: 0em;
-		margin-block-end: 0em;
-		text-transform: uppercase;
 	}
 
 	h2,
 	h3,
 	h4 {
 		line-height: 1.2em;
-		margin-block-start: 0;
-		margin-block-end: 0;
 		scroll-margin-top: calc(var(--menubar-height) + 48px);
 	}
 
@@ -217,7 +216,7 @@
 	*/
 	.cl-core--button-primary {
 		display: inline-block;
-		margin: 0;
+		margin: 0 auto;
 		padding: 1em 2em;
 		font-family: var(--font-family-button);
 		font-weight: var(--font-weight-button);
@@ -232,7 +231,10 @@
 		max-width: 90vw;
 		
 		&:hover {
-			color: var(--color-button-primary-text);
+			background-color: var(--color-button-primary-back-hover);
+			color: var(--color-button-primary-text-hover);
+			transition: background-color .5s;
+			cursor: pointer;
 		}
 	}
 	
@@ -250,6 +252,22 @@
 		border-radius: 0.5em;
 		
 		&:hover {
-			color: var(--color-button-secondary-text);
+			background-color: var(--color-button-secondary-back-hover);
+			color: var(--color-button-secondary-text-hover);
+			transition: background-color .5s;
+			cursor: pointer;
 		}
 	}
+
+	/*
+		color scheme helper classes
+		create bg-color-scheme classes from /data/schemes.yaml
+	*/
+	{{ range $key, $value := site.Data.colorschemes }}
+		{{ if not (partial "f/isstring.go" $value) }}
+			{{ $class := printf ".bg-%s" $key }}
+			{{ $class }} {
+				{{ partial "e/colorscheme.scss" $key }}
+			}
+		{{ end }}
+	{{ end }}

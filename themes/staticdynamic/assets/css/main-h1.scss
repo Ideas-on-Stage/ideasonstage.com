@@ -1,8 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-h1 {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		
-		text-transform: none;
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

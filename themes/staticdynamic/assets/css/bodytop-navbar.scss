@@ -1,9 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-bodytop-navbar {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
-		
+	.cl-bodytop-navbar {		
 		position: fixed; /* menubar stays at top of screen */
 		top: 0;
 		width: 100%;
@@ -165,4 +162,7 @@
 			}
 			
 		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
 	}

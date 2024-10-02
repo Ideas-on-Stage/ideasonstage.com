@@ -1,9 +1,9 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-photo {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
-		
+	.cl-photo {		
 		border: 8px solid var(--color-photo-border);
 		box-shadow: 2px 2px 8px var(--color-photo-shadow);
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

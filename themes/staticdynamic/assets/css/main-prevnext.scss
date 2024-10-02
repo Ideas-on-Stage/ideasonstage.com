@@ -1,13 +1,13 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-main-prevnext {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
-		
+	.cl-main-prevnext {		
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: space-between;
 		padding: 0;
 		list-style: none;
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

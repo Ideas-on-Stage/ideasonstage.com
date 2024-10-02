@@ -1,8 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-form {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		@include margins("none", "wide");
 		
 		display: flex;
@@ -40,4 +38,7 @@
 		textarea.field {
 			height: 200px;
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

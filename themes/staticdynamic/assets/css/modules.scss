@@ -40,9 +40,6 @@
 	}
 	
 	.cl-modules {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
-
 		width: calc(100% - 0.001px);
 		display: flex;
 		flex-direction: row; /* to display half modules side by side */
@@ -57,6 +54,9 @@
 		h3 {
 			margin-top: 0;
 		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
 	}
 	
 	/* half-width module div, text on top, image bottom */
@@ -118,22 +118,23 @@
 		@include modulebase("full");
 		flex-direction: row;
 		@media (max-width: $gl-sm-screen) {	
-			flex-direction: column-reverse;
+			flex-direction: column-reverse; /* create column with pic on bottom, text on top */
 			justify-content: space-between;
 		}
 			
 		/* div containing pic on left */
 		.image {
-			height: 100%;
-			width: 64%;
+			height: 100%; /* full height of container */
+			width: 64%; /* two-thirds of width of container, leave space on right for text */
 			@media (max-width: $gl-sm-screen) {
-				height: 50%;
-				width: 100%;
+				/* on sm screens, use a column layout where pic is in the bottom half */
+				height: 50%; /* half height of container */
+				width: 100%; /* full width of container */
 			}
 		
 			img {
 				@include image;
-				object-fit: cover;
+				object-fit: cover; /* fill container without distorting image */
 				object-position: 100% 50%; /* anchor on right edge (100%), vertical center */
 			}
 		}

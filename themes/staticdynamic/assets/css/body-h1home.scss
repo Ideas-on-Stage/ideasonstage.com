@@ -1,11 +1,12 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-h1home {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		
 		text-align: center;
 		padding-top: 10px;
 		padding-left: 10px;
 		padding-right: 10px;
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

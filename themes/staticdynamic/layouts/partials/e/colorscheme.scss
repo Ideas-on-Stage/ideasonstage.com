@@ -1,0 +1,7 @@
+{{ $scheme := index site.Data.colorschemes . }}
+{{ if (partial "f/isstring.go" $scheme) }}
+	{{ $scheme = index site.Data.colorschemes $scheme }}
+{{ end }}
+{{ range $scheme }}
+	{{ printf "%s;" . }}
+{{ end }}

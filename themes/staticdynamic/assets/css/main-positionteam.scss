@@ -1,11 +1,11 @@
 {{ partial "e/sass.scss" . }}
 
 	h2.cl-main-positionteam {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
-		
 		margin-top: 0.2em;
 		margin-bottom: 1em;
 		color: var(--color-text-muted);
 		text-transform: uppercase;
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

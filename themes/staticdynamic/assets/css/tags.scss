@@ -3,9 +3,6 @@
 $tags-padding: 0.25em 0.5em !default;
 
 	.cl-tags {
-		@include font-scheme({{ . }});
-		@include color-scheme({{ . }});
-		
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -24,4 +21,7 @@ $tags-padding: 0.25em 0.5em !default;
 				border-bottom: none;
 			}
 		}
+		
+		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/colorscheme.scss" . }};
 	}

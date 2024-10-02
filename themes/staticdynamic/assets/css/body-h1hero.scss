@@ -1,8 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-h1hero--title {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		
 		top: var(--menubar-height);
 		z-index: 100;
@@ -10,11 +8,12 @@
 		justify-content: center;
 		padding: 1em;
 		text-align: center;
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}
 	
 	.cl-body-h1hero--hero {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		
 		height: var(--hero-height);
 		width: calc(100% - 0.001px);
@@ -39,4 +38,7 @@
 			text-align: center;
 			background-color: rgba(0, 0, 0, 0.4);	
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

@@ -1,9 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-bodylazy-testimonials {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
-		
+	.cl-bodylazy-testimonials {		
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
@@ -67,4 +64,7 @@
 			height: 60px;
 			border-radius: 30px;
 		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
 	}

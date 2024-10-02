@@ -1,9 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-content404 {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
-
+	
 		height: calc(100vh - var(--menubar-height));
 		width: calc(100% - 0.001px);
 		display: flex;
@@ -19,4 +17,7 @@
 		p {
 			text-align: center;
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

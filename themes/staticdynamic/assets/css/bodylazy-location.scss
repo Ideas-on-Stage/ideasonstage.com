@@ -1,9 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-bodylazy-location {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
-
 		display: flex;
 		flex-direction: column;
 		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
@@ -32,4 +29,7 @@
 			margin: 1em 2em 2em 2em;
 			text-align: center;
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

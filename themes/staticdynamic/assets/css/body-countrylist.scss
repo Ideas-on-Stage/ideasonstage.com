@@ -1,8 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-countrylist {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		
 		margin-top: 0;
 		margin-bottom: 0;
@@ -22,4 +20,7 @@
 			padding: 0;
 			list-style: none; /* remove bullet when used on li */
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

@@ -1,8 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-content {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		@include firstlastchildnomargin;
 		
 		> blockquote {
@@ -91,4 +89,7 @@
 		.st-center {
 			text-align: center;
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

@@ -69,6 +69,10 @@
 		@else if "modules" == $scheme {
 			--font-size-h3: 1.8;
 		}
+		@else if "call-to-action" == $scheme {
+			--text-align-h3: center;
+			--text-align: center;
+		}
 		@else if "tags" == $scheme {
 			--font-size: 0.8;
 			--font-case: uppercase;

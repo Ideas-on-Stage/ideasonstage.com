@@ -1,9 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-bodybottom-footer {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
-		
 		margin: 0;
 		padding: var(--content-space-v) 0;
 		
@@ -46,4 +43,6 @@
 			@include margins("medium", "normal");
 		}
 		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}

@@ -4,8 +4,6 @@ $breadcrumbs-padding: 0.5em 0 !default;
 $breadcrumbs-list-gap: 0.5em !default;
 
 	.cl-body-breadcrumbs {
-		@include color-scheme({{ . }});
-		@include font-scheme({{ . }});
 		
 		a {
 			border: none; /* remove line under link */
@@ -28,4 +26,7 @@ $breadcrumbs-list-gap: 0.5em !default;
 		img {
 			display: inline-block;
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
 	}
