@@ -1,5 +1,11 @@
 {{ partial "e/sass.scss" . }}
 
+:root {
+	@media (max-width: $gl-sm-screen) {
+		--font-ratio: var(--font-ratio-sm);
+	}
+}
+
 	/*
 		font families
 	*/
