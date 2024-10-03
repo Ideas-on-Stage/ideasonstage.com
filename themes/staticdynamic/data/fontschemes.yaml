@@ -1,84 +1,124 @@
 # see advice in colorschemes.yaml if nothing happens when changing a variable
 
-#
+# ------------------
 # block font schemes
-#
+# you only need to redefine elements that change from the root scheme
+# ------------------
 
 body-breadcrumbs:
-- "--font-case: uppercase"
+    - "--text-transform: uppercase"
+    - "--line-height: 1em"
 
 body-h1home:
-- "--font-size-h1: 1"
+    - "--font-size-h1: 1"
 
 body-side-main--side:
-- "--font-size-h2: 1"
-- "--font-size: 0.8"
+    - "--font-size: 0.8"
+    - "--line-height: 1em"
+    - "--font-size-h2: 1"
 
 body-countrylist:
-- "--font-size-button-secondary: 0.85"
+    - "--font-size-button-secondary: 0.85"
 
 bodybottom-footer:
-- "--font-size-h3: 1"
-- "--font-size: 0.8"
+    - "--font-size: 0.8"
+    - "--font-size-h3: 1"
 
 bodylazy-testimonials:
-- "--font-size-h4: 0.8"
-- "--font-size: 0.8"
+    - "--font-size: 0.8"
+    - "--font-size-h4: 0.8"
 
 bodytop-navbar:
-- "--font-family: Gotham SSm A, Gotham SSm B"
-- "--font-weight: 700"
+    - "--font-family: Gotham SSm A, Gotham SSm B"
+    - "--font-weight: 700"
+
+main-content:
+    - "--margin-top-h2: 2em"
+    - "--margin-bottom-h2: 1em"
+    - "--margin-top-h3: 2em"
+    - "--margin-bottom-h3: 1em"
+    - "--margin-top-h4: 2em"
+    - "--margin-bottom-h4: 1em"
+    - "--margin-top-img: 2em"
+    - "--margin-bottom-img: 2em"
+    - "--list-style-type-ul: square"
 
 main-h1:
-- "--font-case-h1: none;"
+    - "--text-transform-h1: none"
+
+main-listrevolution:
+    - "--text-align-h2: center"
+    - "--font-size-h3: 1"
 
 main-listteam:
-- "--font-size-h2: 1"
-- "--font-size: 0.75"
+    - "--font-size: 0.75"
+    - "--font-size-h2: 1"
 
 main-positionteam:
-- "--font-size-h2: 1.2"
+    - "--font-size-h2: 1.2"
+    - "--text-transform-h2: uppercase"
 
 modules:
-- "--font-size-h3: 1.8"
+    - "--font-size-h3: 1.8"
 
 call-to-action:
-- "--text-align-h3: center"
-- "--text-align: center"
+    - "--text-align: center"
+    - "--text-align-h3: center"
 
 tags:
-- "--font-size: 0.8"
-- "--font-case: uppercase"
+    - "--font-size: 0.8"
+    - "--text-transform: uppercase"
 
 
 
-#
+# -----------------
 # base font schemes
-#
+# -----------------
 
 root:
-# default font scheme */
-- "--font-family: Whitney SSm A, Whitney SSm B"
-- "--font-weight: 400"
-- "--font-family-b: Whitney SSm A, Whitney SSm B"
-- "--font-weight-b: 700"
-- "--font-family-h: Gotham SSm A, Gotham SSm B"
-- "--font-weight-h: 700"
-- "--font-family-button: Gotham SSm A, Gotham SSm B"
-- "--font-weight-button: 700"
-# font sizes - NO unit, it will be multiplied by the ratio in vw */
-- "--font-size: 1"
-- "--font-size-h1: 2"
-- "--font-size-h2: 1.5"
-- "--font-size-h3: 1.25"
-- "--font-size-h4: 1.25"
-- "--font-size-h5: 1"
-- "--font-size-button-primary: 1"
-- "--font-size-button-secondary: 1"
-# font-ratio - adapts base font sizes based on media breakpoints - unit: vw (recommended) */
-- "--font-ratio: 1.5vw"
-- "--font-ratio-sm: 4vw"
-# font case */
-- "--font-case-h1: uppercase"
-- "--font-case-button-primary: uppercase"
-- "--font-case-button-secondary: uppercase"
+    # font families */
+    - "--font-family: Whitney SSm A, Whitney SSm B"
+    - "--font-weight: 400"
+    - "--font-family-b: Whitney SSm A, Whitney SSm B"
+    - "--font-weight-b: 700"
+    - "--font-family-h: Gotham SSm A, Gotham SSm B"
+    - "--font-weight-h: 700"
+    - "--font-family-button: Gotham SSm A, Gotham SSm B"
+    - "--font-weight-button: 700"
+    # font-size - NO unit, it will be multiplied by the ratio in vw */
+    - "--font-size: 1"
+    # h1
+    - "--font-size-h1: 2"
+    - "--line-height-h1: 1.2em"
+    - "--text-transform-h1: uppercase"
+    # h2
+    - "--font-size-h2: 1.5"
+    - "--line-height-h2: 1.2em"
+    # h3
+    - "--font-size-h3: 1.25"
+    - "--line-height-h3: 1.2em"
+    # h4
+    - "--font-size-h4: 1.25"
+    - "--line-height-h4: 1.2em"
+    # h5
+    - "--font-size-h5: 1"
+    - "--line-height-h5: 1.2em"
+    #li
+    - "--margin-top-li: 0.5em"
+    - "--margin-bottom-li: 0.5em"
+    - "--line-height-li: 1.5em"
+    # p
+    - "--margin-top-p: 1em"
+    - "--margin-bottom-p: 1em"
+    - "--line-height-p: 1.6em"
+    # button-primary
+    - "--font-size-button-primary: 1"
+    - "--text-align-button-primary: center"
+    - "--text-transform-button-primary: uppercase"
+    # button-secondary
+    - "--font-size-button-secondary: 1"
+    - "--text-transform-button-secondary: uppercase"
+    
+    # font-ratio - adapts base font sizes based on media breakpoints - unit: vw (recommended) */
+    - "--font-ratio: 1.5vw" # font ratio for normal screens
+    - "--font-ratio-sm: 4.2vw" # font ratio for small screens

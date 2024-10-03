@@ -24,9 +24,9 @@
 			--font-size-button-secondary: 1;
 			
 			/* font case */
-			--font-case-h1: uppercase;
-			--font-case-button-primary: uppercase;
-			--font-case-button-secondary: uppercase;
+			--text-transform-h1: uppercase;
+			--text-transform-button-primary: uppercase;
+			--text-transform-button-secondary: uppercase;
 			
 			/* font-ratio - adapts base font sizes based on media breakpoints - unit: vw (recommended) */
 			--font-ratio: 1.5vw;
@@ -35,7 +35,7 @@
 			}
 		}
 		@else if "body-breadcrumbs" == $scheme {
-			--font-case: uppercase;
+			--text-transform: uppercase;
 		}
 		@else if "body-h1home" == $scheme {
 			--font-size-h1: 1;
@@ -75,6 +75,6 @@
 		}
 		@else if "tags" == $scheme {
 			--font-size: 0.8;
-			--font-case: uppercase;
+			--text-transform: uppercase;
 		}
 	}

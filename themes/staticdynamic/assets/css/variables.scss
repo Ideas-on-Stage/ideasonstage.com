@@ -34,17 +34,18 @@
 		--module-column-gap: 12px; /* module column gap on normal screens */
 		--module-row-gap: 12px; /* module row gap on normal screens */
 		--module-big-gap: 24px;
+		--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px ); /* width of 1/5th column */
+		--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px ); /* width of 1/12th column */
+		
 		@media (max-width: $gl-sm-screen) {
 			--module-height: 140; /* module height on small screens */
 			--module-column-gap: 4vw; /* module column gap on small screens */
 			--module-row-gap: 4vw;
 			--module-big-gap: 4vw;
-		}
-		--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px ); /* width of 1/5th column */
-		--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px ); /* width of 1/12th column */
-		@media (max-width: $gl-sm-screen) {
 			--module-5c-width: calc( ( 100% - var(--module-ts-column-gap) * 4 ) / 5 );
 			--module-12c-width: calc( ( 100% - var(--module-ts-column-gap) * 11 ) / 12 );
+			/* adapt font ratio for small screens (usually to make font bigger) */
+			--font-ratio: var(--font-ratio-sm);
 		}
 		
 		/*

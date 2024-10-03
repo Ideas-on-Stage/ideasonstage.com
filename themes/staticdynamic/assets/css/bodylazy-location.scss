@@ -1,12 +1,10 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-bodylazy-location {
+		@include margins("gap", "none");
 		display: flex;
 		flex-direction: column;
 		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-		width: calc(100%);
-		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
-		max-width: var(--page-max-width);
 		overflow: hidden;
 		background-color: none;
 		

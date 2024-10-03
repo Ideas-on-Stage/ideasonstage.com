@@ -1,7 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-h1hero--title {
-		
 		top: var(--menubar-height);
 		z-index: 100;
 		display: flex;
@@ -14,7 +13,6 @@
 	}
 	
 	.cl-body-h1hero--hero {
-		
 		height: var(--hero-height);
 		width: calc(100% - 0.001px);
 		max-width: var(--page-max-width);
