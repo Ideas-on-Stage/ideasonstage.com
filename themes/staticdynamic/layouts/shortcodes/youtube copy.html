@@ -26,8 +26,8 @@
 			<img src="https://img.youtube.com/vi/{{ index .Params 0 }}/sddefault.jpg">
 		{{ end }}
 		<img src="/img/icons/youtube.svg" class="icon">
-		<div class="video">
-			<div class="videocontainer">
+		<div style="position:absolute;z-index:110;width:100%;height:0;padding-bottom:56.25%;background-color:none;">
+			<div style="position:absolute;top:0;left: 0;width: 100%;height: 100%;background-color:none;">
 				<div id="player{{ index .Params 0 }}" style="background-color:none;">
 				</div>
 			</div>

@@ -13,6 +13,8 @@
 			height: 0;
 			
 			img {
+				margin-top: 0;
+				margin-bottom: 0;
 				position: absolute;
 				z-index: 100;
 				top: 0;
@@ -21,7 +23,17 @@
 				height: 100%;
 				object-fit: cover;
 			}
+			
+			.icon {
+				position: absolute;
+				z-index:105;
+				top:40%;
+				left:45%;
+				width:10%;
+				height: auto;				
+			}
 		}
+		
 		
 		.video {
 			position: absolute;
@@ -30,7 +42,7 @@
 			height: 0;
 			padding-bottom: 56.25%; /* 16:9 */
 			
-			iframe {
+			.videocontainer {
 				position: absolute;
 				top: 0;
 				left: 0;

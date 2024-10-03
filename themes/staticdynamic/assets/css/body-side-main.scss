@@ -15,31 +15,13 @@
 		
 		.side {
 			@include firstlastchildnomargin;
+			padding: var(--padding);
 			width: calc( 33% - var(--module-big-gap) * 2 );
+			display: flex;
+			flex-direction: column;
+			gap: var(--gap);
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
-			}
-			
-			img {
-				@include img-resp;
-			}
-			
-			h2 {
-				margin: 1rem 1rem 0.5rem 1rem;
-			}
-			
-			li {
-				margin: 1rem 0;
-			}
-			
-			p {
-				margin: 1rem;
-			}
-			
-			ul {
-				list-style: none;
-				padding-left: 0; /* remove left space on lists */
-				margin: 0.5rem 1rem 1rem 1rem;
 			}
 			
 			{{ partial "e/colorscheme.scss" "body-side-main--side" }};
@@ -62,6 +44,5 @@
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }};
 	}
-	

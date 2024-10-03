@@ -1,7 +1,7 @@
 {{ "<!-- partials/side/related.html:start -->" | safeHTML }}
 {{ $related := site.RegularPages.Related page | first 3 }}
 {{ with $related }}
-	<section id="related-pages">
+	<section id="related-pages" class="cl-side-related">
 		<h2>
 			{{ $.Site.Params.news.related }}
 		</h2>

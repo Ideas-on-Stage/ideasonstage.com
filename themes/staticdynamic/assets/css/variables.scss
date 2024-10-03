@@ -10,10 +10,7 @@
 			page padding
 		*/
 		--page-padding-top: var(--menubar-height);
-		--page-padding-right: 0px;
-		--page-padding-bottom: 0px;
-		--page-padding-left: 0px;
-		--page-max-width: 1920px;
+		--page-max-width: $gl-lg-screen;
 		
 		/*
 			content width

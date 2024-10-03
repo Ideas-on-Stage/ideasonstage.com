@@ -13,9 +13,15 @@ body-h1home:
     - "--font-size-h1: 1"
 
 body-side-main--side:
+    - "--padding: 0"
     - "--font-size: 0.8"
-    - "--line-height: 1em"
     - "--font-size-h2: 1"
+    - "--margin-top-h2: 0"
+    - "--margin-bottom-h2: 0.5rem"
+    - "--list-style-type-ul: none"
+    - "--padding-left-ul: 0"
+    - "--margin-top-ul: 0"
+    - "--gap: 0"
 
 body-countrylist:
     - "--font-size-button-secondary: 0.85"
@@ -23,6 +29,7 @@ body-countrylist:
 bodybottom-footer:
     - "--font-size: 0.8"
     - "--font-size-h3: 1"
+    - "--margin-top-li: 1.5em"
 
 bodylazy-testimonials:
     - "--font-size: 0.8"
@@ -42,6 +49,7 @@ main-content:
     - "--margin-top-img: 2em"
     - "--margin-bottom-img: 2em"
     - "--list-style-type-ul: square"
+    - "--padding-left-ul: 2em"
 
 main-h1:
     - "--text-transform-h1: none"
@@ -76,6 +84,10 @@ tags:
 # -----------------
 
 root:
+    # font-ratio - adapts base font sizes based on media breakpoints - unit: vw (recommended) */
+    - "--font-ratio: 1.5vw" # font ratio for normal screens
+    - "--font-ratio-sm: 4.2vw" # font ratio for small screens
+
     # font families */
     - "--font-family: Whitney SSm A, Whitney SSm B"
     - "--font-weight: 400"
@@ -85,7 +97,9 @@ root:
     - "--font-weight-h: 700"
     - "--font-family-button: Gotham SSm A, Gotham SSm B"
     - "--font-weight-button: 700"
-    # font-size - NO unit, it will be multiplied by the ratio in vw */
+    # font-size, line-height, margin-top, margin-bottom, text-align, text-transform
+    # For font-size DON'T USE UNITS, it will be multiplied by the ratio in vw for perfect scaling
+    # for example, --font-size: 1 --> 1 * 1.5vw = 1.5vw actual font size
     - "--font-size: 1"
     # h1
     - "--font-size-h1: 2"
@@ -119,6 +133,3 @@ root:
     - "--font-size-button-secondary: 1"
     - "--text-transform-button-secondary: uppercase"
     
-    # font-ratio - adapts base font sizes based on media breakpoints - unit: vw (recommended) */
-    - "--font-ratio: 1.5vw" # font ratio for normal screens
-    - "--font-ratio-sm: 4.2vw" # font ratio for small screens
