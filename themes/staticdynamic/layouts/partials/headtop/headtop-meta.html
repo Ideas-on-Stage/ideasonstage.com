@@ -22,7 +22,7 @@
 		{{ with $localizeddata }}
 			{{ $picture := printf "img/cta/%s" .picture }}
 			{{ $srcset := partial "f/getpicturesrcset.go" $picture }}
-			<link rel="preload" as="image" href="{{ collections.Index $srcset 0 }}" imagessrcset="{{ collections.Index $srcset 1 }}">
+			<link rel="preload" as="image" href="{{ collections.Index $srcset 0 }}" imagesrcset="{{ collections.Index $srcset 1 }}">
 		{{ end }}
 	{{ end }}
 {{ end }}

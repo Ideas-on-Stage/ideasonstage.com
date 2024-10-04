@@ -22,7 +22,8 @@
 
 
 # _common blocks are added to ALL pages
-# they can be overridden, but we recommend not to do so
+# headtop, headbottom, bodytop and bodybottom CANNOT be overridden
+# they will be ignored anywhere else
 _common:
     # common header blocks for all pages
     headtop:
