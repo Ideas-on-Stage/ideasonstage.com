@@ -2,7 +2,15 @@
 
 	@mixin text($tag) {
 		
-		/* applies the same set of standard text properties to a tag */
+		/*
+			applies the same set of standard text properties to a tag:
+			- font-family
+			- font-weight
+			- font-size
+			- line-height
+			- text-align
+			- text-transform
+		*/
 		
 		@if "b" == $tag {
 			font-family: var(--font-family-b);
@@ -104,7 +112,11 @@
 	
 	@mixin margins($tag) {
 		
-		/* applies top and bottom margins to a tag */
+		/*
+			applies top and bottom margins to a tag:
+			- margin-top
+			- margin-bottom
+		 */
 		
 		@if "blockquote" == $tag {
 			margin-top: var(--margin-top-blockquote);
@@ -158,11 +170,14 @@
 	
 	@mixin colors($tag) {
 
-		/* applies specific colors to a tag */
+		/*
+			applies colors to a tag:
+			- background-color
+			- (text) color
+		*/
 		
 		@if "a" == $tag {
 			background-color: var(--color-back-a);
-			border-bottom: 1px dotted var(--color-border-a);
 			color: var(--color-text-a);
 		}
 		@else if "a:hover" == $tag {
@@ -175,7 +190,6 @@
 		}
 		@else if "blockquote" == $tag {
 			background-color: var(--color-back-blockquote);
-			border-left: 4px solid var(--color-border-blockquote);
 			color: var(--color-text-blockquote);
 		}
 		@else if "button-primary" == $tag {
@@ -243,7 +257,7 @@
 	a {
 		@include colors("a");
 		@include text("a");
-		
+		border-bottom: 1px dotted var(--color-border-a);
 		text-decoration: none;
 		transition: all .35s;
 	}
@@ -255,7 +269,7 @@
 	
 	aside {
 		@include colors("aside");
-	}	
+	}
 
 	b {
 		@include colors("b");
@@ -267,10 +281,10 @@
 		@include margins("blockquote");
 		@include text("blockquote");
 		@include firstlastchildnomargin();
+		border-left: 4px solid var(--color-border-blockquote);
 		margin-left: 0;
 		margin-right: 0;
 		padding: 1em;
-		
 	}
 	
 	body {
@@ -326,7 +340,6 @@
 	img {
 		@include margins("img");
 		@include img-resp;
-		max-width: 100%;
 	}
 
 	input {
@@ -386,7 +399,6 @@
 		list-style: none; /* remove bullet when used on li */
 		margin-left: auto;
 		margin-right: auto;
-		max-width: 90vw;
 		padding: 1em 2em;
 		
 		&:hover {

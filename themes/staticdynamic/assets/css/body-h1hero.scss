@@ -18,12 +18,7 @@
 		max-width: var(--page-max-width);
 		
 		img {
-			position: absolute;
-			top: var(--menubar-height);
-			height: var(--hero-height);
-			width: calc(100% - 0.001px);
-			max-width: var(--page-max-width);
-			object-fit: cover;
+			@include img-back;
 		}
 		
 		h1 {

@@ -13,12 +13,7 @@
 		justify-content: center;
 		
 		img {
-			position: absolute;
-			z-index: -100;
-			height: var(--hero-height);
-			width: 100%;
-			max-width: var(--page-max-width);
-			object-fit: cover;
+			@include img-back(-100);
 		}
 		
 		h2 {

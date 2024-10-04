@@ -31,7 +31,7 @@
 {{ if partial "f/ispage.go" . }}
 	{{/* <!-- then this is a page, check for hero.jpg in same directory --> */}}
 	{{ if .File }}
-		{{ $thumbtest = .File.Dir }}		
+		{{ $thumbtest = .File.Dir }}
 	{{ else }}
 		{{ $thumbtest = "filenotfound" }}
 	{{ end }}

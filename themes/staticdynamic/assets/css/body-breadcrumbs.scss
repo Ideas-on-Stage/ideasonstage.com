@@ -12,11 +12,8 @@ $breadcrumbs-list-gap: 0.5em !default;
 		ul {
 			@include margins("none", "normal");
 			display: flex;
-			margin-top: 0;
-			margin-bottom: 0;
-			padding: $breadcrumbs-padding;
-			list-style: none;
-			gap: $breadcrumbs-list-gap;
+			flex-direction: row;
+			gap: var(--gap);
 			
 			li {
 				margin: 0;
@@ -24,7 +21,7 @@ $breadcrumbs-list-gap: 0.5em !default;
 		}
 		
 		img {
-			display: inline-block;
+			display: inline-block; /* put image on same line as text */
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};

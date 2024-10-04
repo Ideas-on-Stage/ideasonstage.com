@@ -6,8 +6,19 @@
 # ------------------
 
 body-breadcrumbs:
-    - "--text-transform: uppercase"
+    - "--gap: 1rem"
     - "--line-height: 1em"
+    - "--list-style-type-ul: none"
+    - "--text-transform: uppercase"
+
+body-content404:
+    - "--margin-top-h1: 1em"
+    - "--text-align-h1: center"
+    - "--text-align-p: center"
+
+body-countrylist:
+    - "--font-size-button-secondary: 0.85"
+    - "--gap: 1em"
 
 body-h1home:
     - "--font-size-h1: 1"
@@ -22,9 +33,6 @@ body-side-main--side:
     - "--padding-left-ul: 0"
     - "--margin-top-ul: 0"
     - "--gap: 0"
-
-body-countrylist:
-    - "--font-size-button-secondary: 0.85"
 
 bodybottom-footer:
     - "--font-size: 0.8"

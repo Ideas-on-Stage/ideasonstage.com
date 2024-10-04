@@ -4,7 +4,7 @@
 	{{/* <!-- create hero --> */}}
 	<header id="hero" class="cl-body-h1hero--hero">
 		{{ $srcset := partial "f/getpicturesrcset.go" $hero }}
-		<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
+		<img loading="eager" decoding="async" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
 		{{ with .Title }}
 			<h1>
 				{{ . | markdownify }}

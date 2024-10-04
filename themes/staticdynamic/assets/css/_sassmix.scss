@@ -29,6 +29,18 @@
 		height: auto;
 		object-fit: contain;
 	}
+	
+	/* background image */
+	@mixin img-back($z-index: 0) {
+		position: absolute;
+		height: var(--hero-height);
+		width: 100%;
+		max-width: var(--page-max-width);
+		object-fit: cover;
+		@if 0 != $z-index {
+			z-index: $z-index;
+		}
+	}
 
 	/* margins for content
 		marginv: "tall", "medium", "small", "none"

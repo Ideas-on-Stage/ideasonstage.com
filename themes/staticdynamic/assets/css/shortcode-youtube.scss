@@ -9,13 +9,13 @@
 		
 		.placeholder {
 			position: relative;
-			padding-bottom: 56.25%; /* 16:9 */
+			padding-bottom: 56.25%; /* trick for 16:9 ratio */
 			height: 0;
 			
 			img {
 				margin-top: 0;
 				margin-bottom: 0;
-				position: absolute;
+				position: absolute; /* layer */
 				z-index: 100;
 				top: 0;
 				left: 0;
@@ -25,12 +25,12 @@
 			}
 			
 			.icon {
-				position: absolute;
+				position: absolute; /* layer on top of img */
 				z-index:105;
 				top:40%;
 				left:45%;
 				width:10%;
-				height: auto;				
+				height: auto;
 			}
 		}
 		

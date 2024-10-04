@@ -9,15 +9,6 @@
 		justify-content: center;
 		align-items: center;
 		
-		h1 {
-			margin-top: 1em;
-			text-align: center;
-		}
-		
-		p {
-			text-align: center;
-		}
-		
 		{{ partial "e/colorscheme.scss" . }};
 		{{ partial "e/fontscheme.scss" . }}
 	}

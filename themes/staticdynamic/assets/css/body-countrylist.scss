@@ -2,25 +2,18 @@
 
 	.cl-body-countrylist {
 		
-		margin-top: 0;
-		margin-bottom: 0;
-		padding-bottom: 1rem;
-		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/fontscheme.scss" . }}
+
 		ul {
-			margin-top: 0;
-			margin-bottom: 0;
-			padding: 0;
 			display: flex;
 			flex-direction: row;
 			justify-content: center;
-			gap: var(--module-big-gap);
+			gap: var(--gap);
 		}
 		
 		li {
-			padding: 0;
 			list-style: none; /* remove bullet when used on li */
 		}
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
 	}

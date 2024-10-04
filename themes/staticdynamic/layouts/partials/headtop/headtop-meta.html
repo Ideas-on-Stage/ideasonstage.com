@@ -14,3 +14,15 @@
 {{ if eq .Params.ni true }}
 	<meta name="robots" content="noindex">
 {{ end }}
+
+{{ with .Params.datacta }}
+	{{ $data := index site.Data.cta . }}
+	{{ if $data }}
+		{{ $localizeddata := index $data site.LanguageCode }}
+		{{ with $localizeddata }}
+			{{ $picture := printf "img/cta/%s" .picture }}
+			{{ $srcset := partial "f/getpicturesrcset.go" $picture }}
+			<link rel="preload" as="image" href="{{ collections.Index $srcset 0 }}" imagessrcset="{{ collections.Index $srcset 1 }}">
+		{{ end }}
+	{{ end }}
+{{ end }}
