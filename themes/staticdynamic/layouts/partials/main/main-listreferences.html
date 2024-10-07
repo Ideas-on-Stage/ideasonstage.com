@@ -1,12 +1,14 @@
-<section id="references-details" class="cl-main-listreferences--references">
-	{{ range .Params.datareferencelist }}
-		{{ $data := index site.Data.references . }}
-		{{ if $data }}
-			{{ $localizeddata := index $data site.LanguageCode }}
+{{ $data := site.Data.references }}
+{{ if $data }}
+	<section id="client-references" class="cl-main-listreferences">
+		{{ range $data }}
+			{{ $localizeddata := index . site.LanguageCode }}
 			{{ if $localizeddata }}
 				{{ if $localizeddata.description }}
 					<div class="reference">
-						{{ partial "e/picture.html" $localizeddata }}
+						<div class="logo">
+							{{ partial "e/picture.html" $localizeddata }}
+						</div>
 						<div class="text">
 							{{ with $localizeddata.client }}
 							<h2>
@@ -36,38 +38,48 @@
 						</div>
 					</div>
 				{{ end }}
+			{{ else }}
+				{{ partial "e/html-comment.html" "no localized data" }}
 			{{ end }}
+		{{ else }}
+			{{ partial "e/html-comment.html" "no data" }}
 		{{ end }}
-	{{ end }}
-</section>
+	</section>
+{{ end }}
 
-<section id="success-stories" class="cl-main-listreferences--stories">
-	{{ range .Pages }}
-		<div class="story">
-			{{ partial "e/picture" . }}
-			<div class="text">
-				{{ with .Params.client }}
-					<h2>
-						{{ . }}
-					</h2>
-				{{ end }}
-				<p>
-					<a href="{{ .Permalink }}">
-						{{ with .Title }}
-							<b>
+{{ if .Pages }}
+	<section id="client-success-stories" class="cl-main-listreferences">
+		{{ range .Pages }}
+			<div class="reference">
+				<div class="thumb">
+					{{ partial "e/picture" . }}
+				</div>
+				<div class="text">
+					{{ with .Params.client }}
+						<h2>
+							{{ . }}
+						</h2>
+					{{ end }}
+					<p>
+						<a href="{{ .Permalink }}">
+							{{ with .Title }}
+								<b>
+									{{ . | markdownify }}
+								</b>
+							{{ end }}
+						</a>
+					</p>
+					<p>
+						<a href="{{ .Permalink }}">
+							{{ with .Description }}
 								{{ . | markdownify }}
-							</b>
-						{{ end }}
-					</a>
-				</p>
-				<p>
-					<a href="{{ .Permalink }}">
-						{{ with .Description }}
-							{{ . | markdownify }}
-						{{ end }}
-					</a>
-				</p>
+							{{ end }}
+						</a>
+					</p>
+				</div>
 			</div>
-		</div>
-	{{ end }}
-</section>
+		{{ else }}
+			{{ partial "e/html-comment.html" "no pages" }}
+		{{ end }}
+	</section>
+{{ end }}

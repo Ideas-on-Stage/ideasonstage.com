@@ -2,15 +2,13 @@
 	
 	f/getblocks
 
-	get blocks of the type specified, "head" or "body"
-	
-	Arguments:
-	- "head" or "body" as string based on which blocks to get
-	
-	Process:
-	- If page.Params.head or page.Params.body then get the list of blocks from page.Params
+	get blocks of the type specified, for example "head" or "body"
+	- If block type is declared in page.Params then get the list of blocks from page.Params
 	- Else if a specific .Type and .Kind block list exists in layouts.yaml, use it
 	- Else use _default block list for .Kind in layouts.yaml
+	
+	Arguments:
+	- block type as string based on which blocks to get
 	
 	Returns:
 	- Block list as a list of strings
@@ -19,7 +17,7 @@
 	Versions:
 	2024-09-02 corrected case where specific .Kind is defined but not specific part (eg body is defined but not head)
 
- --> */}}
+--> */}}
 
 {{ $data := page }} {{/* <!-- page object --> */}}
 {{ $part := . }} {{/* <!-- string equal to "head", "body" or "footer" --> */}}

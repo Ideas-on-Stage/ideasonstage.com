@@ -6,12 +6,9 @@ picture: "formation.jpg"
 translationKey: "presentations-training"
 type: "training"
 
-datacta: "public-speaking-training"
-datareferencelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
-datamodulelist: [ "guidepublicspeaking", "guideremotepresentations" ]
-
 bodylazy:
   - bodylazy-referencesgrid
+  - bodylazy-modules-aside
 
 sidebar:
   title: "Liste des formations"
@@ -24,6 +21,10 @@ sidebar:
     url: "/fr/formation-storytelling/"
   - name: "Formation présentations PowerPoint"
     url: "/fr/formation-presentations-powerpoint/"
+
+dt-body-cta: "public-speaking-training"
+dt-bodylazy-referencesgrid: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
+dt-bodylazy-modules-aside: [ "guidepublicspeaking", "guideremotepresentations" ]
 
 ---
 

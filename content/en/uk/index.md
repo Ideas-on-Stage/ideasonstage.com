@@ -23,11 +23,11 @@ main:
     - main-modules
     - main-contenthome
 
-datacta: "public-speaking-guide"
-datamodulelist: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
-datareferencelist: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
-datamoduleasidelist: [ "presentationscore", "news" ]
-datatestimoniallist: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
+dt-body-cta: "public-speaking-guide"
+dt-main-modules: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
+dt-body-referencesgrid: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
+dt-bodylazy-modules-aside: [ "presentationscore", "news" ]
+dt-bodylazy-testimonials: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
 ---
 
 Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.

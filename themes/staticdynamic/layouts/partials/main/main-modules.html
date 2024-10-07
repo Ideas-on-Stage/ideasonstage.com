@@ -1,7 +1,8 @@
-{{ with .Params.datamodulelist }}
+{{ $data := index .Params "dt-main-modules" }}
+{{ with $data }}
 	<section id="modules" class="cl-modules">
 		{{ partial "e/modules.html" . }}
 	</section>
 {{ else }}
-	{{ partial "e/html-comment.html" "skipped: modules: no .Params.datamodulelist" }}
+	{{ partial "e/html-comment.html" "skipped: modules: no .Params.dt-main-modules" }}
 {{ end }}

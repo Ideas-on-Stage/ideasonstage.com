@@ -2,19 +2,17 @@
 	
 	e/blocks
 
-	creates the html for the parts given as an argument.
-	
-	Arguments:
-	- list of parts as slice of strings, e.g. "bodytop" "body" "bodybottom"
-	
-	Process:
+	Creates the html for the parts given as an argument.
 	- The proper list of blocks is retrieved for each part
 	- Then the partial matching the block is used to generate the html
 	- A :start and :end comment is added before and after the block for debugging
+	
+	Arguments:
+	- list of parts as slice of strings, e.g. "bodytop" "body" "bodybottom"
 
- --> */}}
- 
- {{ "<!-- partials/e/blocks.html:start -->" | safeHTML  }}
+--> */}}
+
+{{ "<!-- partials/e/blocks.html:start -->" | safeHTML  }}
 {{ $parts := . }}
 {{ range $parts }}
 	{{ $part := . }}

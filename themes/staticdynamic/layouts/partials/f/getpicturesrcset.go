@@ -16,7 +16,7 @@
 	{{ $srcset := partial "f/getpicturesrcset.go" "/img/picture.jgp" }}
 	<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="" class="">
 
- --> */}}
+--> */}}
 
 {{ $imgSrc := "" }}
 {{ $imgSrcSet := slice }}

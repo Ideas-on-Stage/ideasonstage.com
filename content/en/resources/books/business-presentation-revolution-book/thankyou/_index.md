@@ -4,7 +4,7 @@ title: "Welcome to the Revolution"
 description: "Thank you for joining the Business Presentation Revolution."
 ni: true
 
-datamoduleasidelist: [ "catalogue", "news" ]
+dt-bodylazy-modules-aside: [ "catalogue", "news" ]
 ---
 
 ## Welcome to the Revolution

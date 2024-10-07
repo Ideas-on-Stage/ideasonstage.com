@@ -2,23 +2,21 @@
 	
 	f/getblockscss.go
 
-	get css resources matching the list of "body", "main" blocks for the current page
+	Get css resources matching the list of block types given as argument for the current page
+	- Checks for each block if a .css file exists with same name in /assets/css
+	  If yes, add it to the list of .css files
+	- Then uses each word of the file name to include additional css
+	  e.g. "pages-news" could include css from pages.scss and news.scss if these files exist in /assets/css
 	
 	Arguments:
-	- anything (argument not used, but one must be passed)
-	  e.g. "dummy" or "toto"
+	- list of block types
+	  e.g. [ "side", "main" ]
 	
-	Process:
-	- Checks for each "body" block if a .css file exists with same name in /assets/css
-	  If yes, add it to the list of .css files
-	- Then uses each part of the file name to include additional css
-	  e.g. "pages-news" could include css from pages.scss and news.scss if these files exist in /assets/css
-
 	Returns:
-	- file list as a list of strings (WITHOUT path, subfolder or extension)
-	  eg [ "title", "content" ]
+	- list of css files as a list of strings (WITHOUT path, subfolder or extension)
+	  eg [ "title", "content" ] (implied that these are "title.scss" and "content.scss")
 	
- --> */}}
+--> */}}
 
 {{ $blocktypes := . }}
 {{ $result := slice }}

@@ -1,3 +1,16 @@
+{{/* <!--
+	
+	body-h1hero.html
+
+	Generates the HTML for a hero if a hero picture exists,
+	else generates a standard title.
+	To know how the hero picture is retrieved, check the "f/getheropicturepath.go" function.
+	
+	Arguments:
+	- page object
+	
+--> */}}
+
 {{/* <!-- try to get hero picture --> */}}
 {{ $hero := partial "f/getheropicturepath.go" . }}
 {{ if $hero }}

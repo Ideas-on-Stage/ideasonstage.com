@@ -15,7 +15,8 @@
 	<meta name="robots" content="noindex">
 {{ end }}
 
-{{ with .Params.datacta }}
+{{ $cta := index .Params "dt-body-cta" }}
+{{ with $cta }}
 	{{ $data := index site.Data.cta . }}
 	{{ if $data }}
 		{{ $localizeddata := index $data site.LanguageCode }}

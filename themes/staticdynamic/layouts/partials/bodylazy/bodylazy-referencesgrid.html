@@ -1,4 +1,5 @@
-{{ with .Params.datareferencelist }}
+{{ $grid := index .Params "dt-bodylazy-referencesgrid" }}
+{{ with $grid }}
 	<section id="reference-list" class="cl-referencesgrid">
 		{{ range . }}
 			{{ $data := index site.Data.references . }}
@@ -12,5 +13,5 @@
 		{{ end }}
 	</section>
 {{ else }}
-	{{ partial "e/html-comment.html" "INFO: skipped: references: no .Params.datareferencelist" }}
+	{{ partial "e/html-comment.html" "INFO: skipped: references: no .Params.dt-bodylazy-referencesgrid" }}
 {{ end }}

@@ -1,3 +1,54 @@
+{{/* <!--
+	
+	body-list.html
+
+	Generates the HTML with all list blocks as specified in /data/layouts.
+	
+	Arguments:
+	- page object
+
+	Example:
+	A layout.yaml file contains the following entry for page type "news", kind "section":
+	news:
+		section:
+			body:
+				- body-h1hero
+				- body-side-main
+			main:
+				- main-list
+				- main-prevnext
+			side:
+				- side-topcategories
+			list:
+				- list-h2
+				- list-authorandtime
+				- list-tags
+				- list-banner
+				- list-summary
+				- list-buttonmorenews
+				- list-space-medium
+		
+	This file will generate a list entry  for each child page of current page:
+		Child page 1:
+			- list-h2
+			- list-authorandtime
+			- list-tags
+			- list-banner
+			- list-summary
+			- list-buttonmorenews
+			- list-space-medium
+		Child page 2:
+			- list-h2
+			- list-authorandtime
+			- list-tags
+			- list-banner
+			- list-summary
+			- list-buttonmorenews
+			- list-space-medium
+		etc.
+	
+--> */}}
+
 <section id="list" class="cl-body-list">
 	{{ $blocks := partial "f/getblocks.go" "list" }}
 	{{ range .Pages }}

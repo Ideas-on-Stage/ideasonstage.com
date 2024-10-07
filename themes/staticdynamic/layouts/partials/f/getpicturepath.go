@@ -25,7 +25,7 @@
 	- or page object,
 	- or "not found" if not found.
 
- --> */}}
+--> */}}
 
 {{ $imgpath := "" }}
 {{ $picture := "" }}

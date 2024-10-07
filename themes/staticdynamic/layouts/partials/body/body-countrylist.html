@@ -1,3 +1,15 @@
+{{/* <!--
+	
+	body-countrylist.html
+
+	Generates the HTML for a list of site countries (matching the different languages).
+	The countries must be defined in site.Params.countries
+	
+	Arguments:
+	- anything (mandatory but not used)
+	
+--> */}}
+
 <nav id="country-list" class="cl-body-countrylist">
 	<ul>
 		{{ range site.Params.countries }}

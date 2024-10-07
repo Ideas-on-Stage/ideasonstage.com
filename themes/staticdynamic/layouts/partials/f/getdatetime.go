@@ -20,7 +20,7 @@
 	Returns: 
 	- localized date and time string with format "Monday 1 March 2000 15:00 CEST"
 	
- --> */}}
+--> */}}
 
 {{ $date := partial "f/getdate.go" . }}
 {{ $time := partial "f/gettime.go" . }}

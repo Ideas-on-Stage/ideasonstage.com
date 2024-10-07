@@ -1,1 +1,12 @@
+{{/* <!--
+	
+	e/html-comment.html
+
+	Adds HTML comment.
+	
+	Arguments:
+	- comment as string
+	
+--> */}}
+
 {{ (printf "<!-- %s -->" .) | safeHTML }}

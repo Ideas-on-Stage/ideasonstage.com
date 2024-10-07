@@ -10,7 +10,7 @@
 	Returns:
 	- style attribute as string to be added to class="style" in html code
 
- --> */}}
+--> */}}
 
 {{ $style := "" }}
 {{ if (partial "f/ispage.go" .) }}

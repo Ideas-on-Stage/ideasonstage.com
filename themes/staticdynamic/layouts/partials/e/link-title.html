@@ -1,7 +1,12 @@
 {{ "<!-- partials/e/link-title.html:start -->" | safeHTML }}
 {{ if .title }}
-<a href="{{ partial "f/geturl.go" . }}">
+	{{ $href := partial "f/geturl.go" . }}
+	{{ if $href }}
+		<a href="{{ partial "f/geturl.go" . }}">
+	{{ end }}
 	{{ partial "e/title.html" . }}
-</a>
+	{{ if $href }}
+		</a>
+	{{ end }}
 {{ end }}
 {{ "<!-- partials/e/link-title.html:end -->" | safeHTML }}

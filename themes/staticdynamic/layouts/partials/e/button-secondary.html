@@ -1,3 +1,14 @@
+{{/* <!--
+	
+	e/button-secondary.html
+
+	Adds a secondary button object.
+	
+	Arguments:
+	- structure with .text and .link
+	
+--> */}}
+
 {{ "<!-- partials/e/button-secondary.html:start -->" | safeHTML }}
 {{ $data := partial "f/getdata.go" . }}
 <a href="{{ partial "f/geturl.go" . }}" class="cl-core--button-secondary">

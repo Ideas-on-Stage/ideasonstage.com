@@ -1,3 +1,15 @@
+{{/* <!--
+	
+	body-side-main.html
+
+	Generates the HTML with the side: and main: blocks declared in /data/layouts.
+	If there are no side: blocks, that part is ignored and the layout is adapted.
+	
+	Arguments:
+	- page object
+	
+--> */}}
+
 <div class="cl-body-side-main">
 	{{ if partial "f/getblocks.go" "side" }}
 		<aside id="sidebar" class="side">

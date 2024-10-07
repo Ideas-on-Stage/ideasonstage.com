@@ -3,20 +3,19 @@
 	e/icon
 
 	Inserts an icon available in /assets/img/icons, e.g. "burger.svg"
-	
-	Arguments: A dict entry containing
-	- name: "name of icon file including extension" as string.
-	- alt: "alt text" as a string (optional)
-	- height: height of icon (optional), width is always equal to height
-	
-	Process:
 	- Gets the icon file as a resource
 	- Inserts the html code to display the icon.
+	
+	Arguments:
+	- A dict entry containing
+		- name: "name of icon file including extension" as string.
+		- alt: "alt text" as a string (optional)
+		- height: height of icon (optional), width is always equal to height
 	
 	Versions:
 	2024-09-20 first version
 
- --> */}}
+--> */}}
 
 {{ $alt := .name }}
 {{ $width := "12px" }}

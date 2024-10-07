@@ -11,7 +11,7 @@
 	Returns: 
 	- localized human readable date string with format "Monday 1 March 2000"
 
- --> */}}
+--> */}}
 
 {{/* <!-- get language --> */}}
 {{ $lang := site.LanguageCode }}

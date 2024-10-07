@@ -8,7 +8,7 @@
 	
 	This allows to use for example .picture without having to wonder if it's .picture or .Params.picture
 	
- --> */}}
+--> */}}
 
 {{ $data := . }}
 {{ if .Params }}

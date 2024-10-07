@@ -1,3 +1,14 @@
+{{/* <!--
+	
+	body-h1home.html
+
+	Generates the HTML for h1 title for the home page.
+	
+	Arguments:
+	- page object with a .Title parameter in the front matter
+	
+--> */}}
+
 <header id="title-home" class="cl-body-h1home">
 	<h1>
 		{{ with .Title }}{{ . | markdownify  }}{{ end }}

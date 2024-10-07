@@ -1,6 +1,17 @@
+{{/* <!--
+	
+	body-herorevolution.html
+
+	Generates the HTML for a hero with the newest revolution video.
+	
+	Arguments:
+	- page object
+	
+--> */}}
+
 {{/* <!-- generate hero with newest video --> */}}
 <section id="highlight" class="cl-body-herorevolution" style="background-color:rgba(0,0,0,.3);">
-	{{ range first 1 .Pages }}	
+	{{ range (first 1 .Pages) }}	
 		<img src="{{ .RelPermalink }}image.jpg">
 		<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 			<h2>

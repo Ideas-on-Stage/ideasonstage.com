@@ -11,7 +11,7 @@ summary: "Ce guide vous donnera tous les conseils nécessaires pour réussir vot
 weight: 10
 
 # blocks data
-datamoduleasidelist: [ "public-speaking-training", "public-speaking-coaching" ]
+dt-bodylazy-modules-aside: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 
 ## Qui sommes-nous ?

@@ -112,3 +112,15 @@
 			flex-direction: $sm-screen-direction;
 		}
 	}
+
+	@mixin flex-columns($nb, $nb-sm) {
+		$nbm: $nb - 1;
+		width: calc( (100% - #{$nbm} * var(--module-column-gap)) / #{$nb} - 0.001px);
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		@media (max-width: $gl-sm-screen) {		
+			$nbm-sm: $nbm - 1;
+			width: calc( (100% - #{$nbm-sm} * var(--module-column-gap)) / #{$nb-sm} - 0.001px);
+		}
+	}

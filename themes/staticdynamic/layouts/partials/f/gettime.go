@@ -11,7 +11,7 @@
 	Returns: 
 	- localized time string with format "15:00 CEST (Paris Time)"
 
- --> */}}
+--> */}}
 
 {{/* <!-- get language --> */}}
 {{ $lang := site.LanguageCode }}

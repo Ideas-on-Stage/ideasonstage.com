@@ -1,18 +1,15 @@
 {{/* <!--
 	
-	f/getpicturepath
+	f/geturl.go
 	
 	Gets url parameter for pages and data files.
+	- If page then use .Permalink
+	- else try to use .link property
+	- if not found, try to use .url property
 	
 	Arguments:
 	- page, data object, or a structure containing a .link or .url property
 	
-	Process:
-	- If page:
-		- use .Permalink
-	- else try to use .link property
-	- if not found, try to use .url property
-
 	Returns:
 	- url as a string
 	- empty string if not found

@@ -8,7 +8,7 @@ pages: "bottom"
 translationKey: "presentations-training"
 type: "section"
 
-datareferencelist: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
+dt-body-referencesgrid: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
 ---
 
 {{< text-centered title="Change the culture of presentations in your company" >}}

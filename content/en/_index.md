@@ -8,13 +8,12 @@ translationKey: "home"
 mastodon: "https://mastodon.social/@pmorsa"
 
 # blocks data
-datacta: "public-speaking-guide"
-datamodulelist: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
-datareferencelist: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
-datamoduleasidelist: [ "business-presentation-revolution", "news" ]
-datatestimoniallist: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
+dt-body-cta: "public-speaking-guide"
+dt-main-modules: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
+dt-bodylazy-referencesgrid: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
+dt-bodylazy-modules-aside: [ "business-presentation-revolution", "news" ]
+dt-bodylazy-testimonials: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
 ---
-
 Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.
 
 The communication experts of Ideas on Stage provide a full range of presentation services in the United Kingdom, the United States, France, Spain and Italy.

@@ -1,6 +1,8 @@
 {{ "<!-- partials/e/picture.html:start -->" | safeHTML }}
 {{ $data := partial "f/getdata.go" . }}
 {{ $picpath := partial "f/getpicturepath.go" . }}
-{{ $srcset := partial "f/getpicturesrcset.go" $picpath }}
-<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" class="picture" {{ with $data.title }}alt="{{ . }}"{{ end }}{{ with $data.alt }}alt="{{ . }}"{{ end }}>
+{{ if ne "not found" $picpath }}
+	{{ $srcset := partial "f/getpicturesrcset.go" $picpath }}
+	<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" class="picture" {{ with $data.title }}alt="{{ . }}"{{ end }}{{ with $data.alt }}alt="{{ . }}"{{ end }}>
+{{ end }}
 {{ "<!-- partials/e/picture.html:end -->" | safeHTML }}

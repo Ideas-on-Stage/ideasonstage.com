@@ -1,7 +1,23 @@
+{{/* <!--
+	
+	body-breadcrumbs.html
+
+	Generates the HTML for navigation breadcrumbs.
+	Typically displayed under title or under hero.
+	Only displayed when 2 levels are reached.
+	Does not display current page.
+	
+	Arguments:
+	- page object
+	
+--> */}}
+
+{{/* <!-- if page is not home and parent is not home... --> */}}
 {{ if and (not .IsHome) (not .Parent.IsHome) }}
-	{{/* <!-- then at least 2 levels of depth, show breadcrumbs --> */}}
+	{{/* <!-- ...then at least 2 levels of depth, show breadcrumbs --> */}}
 	<nav id="breadcrumbs" class="cl-body-breadcrumbs">
 		<ul>
+			{{/* <!-- call breadcrumbnav starting with current page --> */}}
 			{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
 		</ul>
 	</nav>
@@ -11,14 +27,15 @@
 
 
 
+{{/* <!-- recursive function to generate each breadcrumb level --> */}}
 {{ define "breadcrumbnav" }}
 
-	{{/* <!-- start with .p1 and .p2 as current page  --> */}}
+	{{/* <!-- if current page has a parent... --> */}}
 	{{ if .p1.Parent }}
-		{{/* <!-- if p1 has a parent, call recursively with parent page as p1 until we reach homepage... --> */}}
+		{{/* <!-- ... then call recursively with parent page as p1 until we reach homepage... --> */}}
 		{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
 	{{ end }}
-	
+
 	{{/* <!-- ... once homepage is reached... --> */}}
 	{{ if .p1.IsHome }}
 		{{/* <!-- ... show home item (first item) --> */}}
@@ -28,6 +45,7 @@
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Back to Ideas on Stage Homepage">
 			</a>
 		</li>
+	{{/* <!-- ... else if it is not the current page... --> */}}
 	{{ else if ne .p1 .p2 }}
 		{{/* <!-- ... then recursively add parent pages until current page is reached --> */}}
 		<li>

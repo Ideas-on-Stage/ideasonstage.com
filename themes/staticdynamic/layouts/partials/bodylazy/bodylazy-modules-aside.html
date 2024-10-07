@@ -1,7 +1,8 @@
-{{ with .Params.datamoduleasidelist }}
+{{ $data := index .Params "dt-bodylazy-modules-aside" }}
+{{ with $data }}
 	<aside id="modules-aside" class="cl-modules">
 		{{ partial "e/modules.html" . }}
 	</aside>
 {{ else }}
-	{{ partial "e/html-comment.html" "INFO: skipped: modules-aside: no .Params.datamoduleasidelist" }}
+	{{ partial "e/html-comment.html" "INFO: skipped: modules-aside: no .Params.dt-bodylazy-modules-aside" }}
 {{ end }}

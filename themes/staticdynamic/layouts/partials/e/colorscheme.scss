@@ -1,3 +1,16 @@
+{{/* <!--
+	
+	e/colorscheme.scss
+
+	Used in .scss files to add a color scheme to a css class.
+	- The list of elements to insert in the class is retrieved from /data/colorschemes.yaml
+	- Then each element is inserted into the css class
+	
+	Arguments:
+	- block name as string
+	
+--> */}}
+
 {{ $scheme := index site.Data.colorschemes . }}
 {{ if (partial "f/isstring.go" $scheme) }}
 	{{ $scheme = index site.Data.colorschemes $scheme }}
