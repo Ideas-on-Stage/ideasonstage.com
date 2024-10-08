@@ -63,13 +63,14 @@
 		
 		.text {
 			padding: 1em;
-			height: calc( 100% - 40vw );
+			height: calc( 100% - 15vw );
 			min-height: 15vw;
 			border-radius: 5px 5px 0px 0px;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
 			@media (max-width: $gl-sm-screen) {	
+				height: calc( 100% - 40vw );
 				min-height: 45vw;
 			}
 		}
