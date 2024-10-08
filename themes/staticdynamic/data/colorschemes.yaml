@@ -17,13 +17,23 @@ bodytop-navbar: "dark"
 body-countrylist: "dark"
 body-cta: "dark"
 body-h1home: "dark"
-body-h1hero: "dark"
+body-h1hero--title: "dark"
 body-herorevolution: "dark"
 body-side-main--main: "white"
 body-side-main--side: "light"
 bodybottom-footer: "dark"
 bodylazy-location: "black"
 bodylazy-testimonials: "light"
+
+body-carousel:
+- "--color-back: var(--color-lightgray)"
+
+body-carousel--item:
+- "--color-back: white"
+
+body-h1hero--hero:
+- "--color-back-h1: rgba(0, 0, 0, 0.4)"
+- "--color-text-h1: white"
 
 body-side-main:
 - "--color-border-a: var(--color-primary)"

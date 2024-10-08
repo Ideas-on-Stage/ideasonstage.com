@@ -32,8 +32,7 @@
 		--module-row-gap: 12px; /* module row gap on normal screens */
 		--module-big-gap: 24px;
 		--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px ); /* width of 1/5th column */
-		--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px ); /* width of 1/12th column */
-		
+		--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px ); /* width of 1/12th column */		
 		@media (max-width: $gl-sm-screen) {
 			--module-height: 140; /* module height on small screens */
 			--module-column-gap: 4vw; /* module column gap on small screens */
@@ -46,7 +45,7 @@
 		}
 		
 		/*
-			insert color scheme and font scheme variables
+			insert base color scheme and font scheme variables
 			these variables are generated from the /data/colorschemes.yaml and /data/fontschemes.yaml files
 		 */
 		{{ partial "e/colorscheme.scss" "root" }};

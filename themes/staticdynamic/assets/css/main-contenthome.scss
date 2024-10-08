@@ -4,10 +4,7 @@
 		@include margins("medium", "normal");
 		padding: 0;
 		text-align: center;
-		
-		p {
-			color: var(--color-text-muted);
-		}
+		color: var(--color-text-muted);
 		
 		{{ partial "e/colorscheme.scss" . }};
 		{{ partial "e/fontscheme.scss" . }}

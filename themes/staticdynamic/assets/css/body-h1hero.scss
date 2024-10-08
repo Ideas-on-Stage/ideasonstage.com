@@ -8,13 +8,13 @@
 		padding: 1em;
 		text-align: center;
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/colorscheme.scss" "body-h1hero--title" }};
+		{{ partial "e/fontscheme.scss" "body-h1hero--title" }};
 	}
 	
 	.cl-body-h1hero--hero {
 		height: var(--hero-height);
-		width: calc(100% - 0.001px);
+		width: 100%;
 		max-width: var(--page-max-width);
 		
 		img {
@@ -25,13 +25,9 @@
 			position: sticky;
 			top: var(--menubar-height);
 			z-index: 100;
-			display: flex;
-			justify-content: center;
 			padding: 1em;
-			text-align: center;
-			background-color: rgba(0, 0, 0, 0.4);	
 		}
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/colorscheme.scss" "body-h1hero--hero" }};
+		{{ partial "e/fontscheme.scss" "body-h1hero--hero" }};
 	}

@@ -1,0 +1,49 @@
+{{ $data := index .Params "dt-body-carousel" }}
+{{ with $data }}
+	<section id="carousel" class="cl-body-carousel">
+		<h3>{{ .title }}</h3>
+		<ul class="cl-body-carousel--carousel">
+			{{ range .data }}
+				{{ $data := index site.Data.carousels . }}
+				{{ if $data }}
+					{{ $localizeddata := index $data site.LanguageCode }}
+					{{ with $localizeddata }}
+					<li class="cl-body-carousel--item">
+							<div class="text">
+								<div class="maintext">
+									<a href="{{ partial "f/geturl.go" . }}">
+										{{ with .title }}
+											<h4>
+												{{ . }}
+											</h4>
+										{{ end }}
+										{{ with .description }}
+											<p>
+												{{ . }}
+											</p>
+										{{ end }}
+									</a>
+								</div>
+								<div class="button">
+									{{ partial "e/button-secondary" . }}
+								</div>
+							</div>
+							<div class="button">
+							</div>
+							<div class="img">
+								<a href="{{ partial "f/geturl.go" . }}">
+								{{ if .img }}
+									{{ $srcset := partial "f/getpicturesrcset.go" .img }}
+									<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .name }}">
+								{{ end }}
+								</a>
+							</div>
+						</li>
+					{{ end }}
+				{{ end }}
+			{{ end }}
+		</ul>
+	</section>
+{{ else }}
+	{{ partial "e/html-comment.html" "skipped: carousel: no page.Params.dt-body-carousel" }}
+{{ end }}

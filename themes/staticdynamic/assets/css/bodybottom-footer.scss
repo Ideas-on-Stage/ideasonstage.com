@@ -21,10 +21,6 @@
 					@media (max-width: $gl-sm-screen) {
 						width: calc( (100% - var(--module-column-gap) ) / 2 - 0.001px );
 					}
-					
-					h3 {
-						text-transform: uppercase;
-					} 
 				}
 			}
 			

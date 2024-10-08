@@ -1,10 +1,10 @@
 ---
-draft: true
-weight: 30
+draft: false
 title: "Formation pitch pour Startups"
 description: "Apprenez les secrets du pitch, par une équipe de coachs qui a collaboré avec des centaines de startups."
+picture: "pitch-startup.jpg"
 translationKey: "presentations-training/pitch-for-startups"
-picture: "image.jpg"
+url: "/fr/formation-pitch-pour-startups/"
 ---
 
 ## Tout dépend du pitch

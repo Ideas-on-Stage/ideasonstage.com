@@ -11,6 +11,11 @@ body-breadcrumbs:
     - "--list-style-type-ul: none"
     - "--text-transform: uppercase"
 
+body-carousel:
+    - "--font-size-h4: 1"
+    - "--font-size: 0.8"
+    - "--font-size-button-secondary: 0.8"
+
 body-content404:
     - "--margin-top-h1: 1em"
     - "--text-align-h1: center"
@@ -23,6 +28,9 @@ body-countrylist:
 body-h1home:
     - "--font-size-h1: 1"
 
+body-h1hero--hero:
+    - "--text-align-h1: center"
+
 body-side-main--side:
     - "--padding: 0"
     - "--font-size: 0.8"
@@ -34,9 +42,14 @@ body-side-main--side:
     - "--margin-top-ul: 0"
     - "--gap: 0"
 
+bodybottom-contact-form:
+    - "--text-align-h2: center"
+    - "--text-align-p: center"
+
 bodybottom-footer:
     - "--font-size: 0.8"
     - "--font-size-h3: 1"
+    - "--text-transform-h3: uppercase"
     - "--margin-top-li: 1.5em"
 
 bodylazy-testimonials:
