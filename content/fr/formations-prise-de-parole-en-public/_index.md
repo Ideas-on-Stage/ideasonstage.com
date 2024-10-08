@@ -9,13 +9,13 @@ type: "training"
 hero:
   - img: /img/logos/datadock.png 
     title: Référencé DataDock
-    description: Entreprise référencée DataDock
+    description: Organisme de formation référencé DataDock
   - img: /img/logos/qualiopi.png
     title: Certifié Qualiopi
-    description: Certifié Qualiopi au titre des actions de formation 
+    description: Certifié Qualiopi au titre des actions de formation 
   - img: /img/logos/survio-rating.png
     title: Évaluation moyenne de 4,5/5
-    description: Évaluation moyenne des participants sur Survio.com entre 2022 et 2024
+    description: Évaluation moyenne des participants sur survio.com entre octobre 2022 et septembre 2024
   
 sidebar:
   title: "Liste des formations"
