@@ -6,6 +6,17 @@ picture: "prise-de-parole-2.jpg"
 translationKey: "presentations-training"
 type: "training"
 
+hero:
+  - img: /img/logos/datadock.png 
+    title: Référencé DataDock
+    description: Entreprise référencée DataDock
+  - img: /img/logos/qualiopi.png
+    title: Certifié Qualiopi
+    description: Certifié Qualiopi au titre des actions de formation 
+  - img: /img/logos/survio-rating.png
+    title: Évaluation moyenne de 4,5/5
+    description: Évaluation moyenne des participants sur Survio.com entre 2022 et 2024
+  
 sidebar:
   title: "Liste des formations"
   items:

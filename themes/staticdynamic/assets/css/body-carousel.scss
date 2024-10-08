@@ -42,7 +42,7 @@
 			opacity: 0.4;
 		}
 	}
-
+	
 	.cl-body-carousel--item {
 		flex-grow: 1;
 		flex-shrink: 0;
@@ -63,7 +63,7 @@
 		
 		.text {
 			padding: 1em;
-			height: calc( 100% - 15vw );
+			height: calc( 100% - 15vw ); /* full container height minus picture height */
 			min-height: 15vw;
 			border-radius: 5px 5px 0px 0px;
 			display: flex;
@@ -94,3 +94,10 @@
 		{{ partial "e/colorscheme.scss" "body-carousel--item" }}
 		{{ partial "e/fontscheme.scss" "body-carousel--item" }}
 	}
+	
+	.cl-body-carousel--space {
+		width: 1px;
+		height: 1px;
+		background-color: var(--color-back);
+		list-style-type: none;
+	}	
