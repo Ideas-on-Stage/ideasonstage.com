@@ -1,8 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	@mixin modulebase($width: "full") {
-		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
+		@include height-module;
 		overflow: hidden;
 		@media (max-width: $gl-sm-screen) {	
 			width: 100%;
@@ -12,7 +11,7 @@
 			@include columns(2);
 		}
 		@else {
-			width: calc(100% - 0.001px);
+			width: 100%;
 		}
 	}
 	
@@ -31,7 +30,7 @@
 	
 	.cl-modules {
 		@include flex-row($gap: "gap", $wrap: "wrap");
-		width: calc(100% - 0.001px);
+		width: 100%;
 		margin: var(--row-gap) 0;
 		padding: 0 var(--column-gap);
 		@media (max-width: $gl-sm-screen) {

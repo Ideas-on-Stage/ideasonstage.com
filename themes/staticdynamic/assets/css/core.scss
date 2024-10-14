@@ -266,6 +266,17 @@
 		@include colors("a:hover");
 		transition: all .35s;
 	}
+	p > a,
+	h1 > a,
+	h2 > a,
+	h3 > a,
+	h4 > a,
+	h5 > a {
+		font-family: inherit;
+		font-weight: inherit;
+		font-size: inherit;
+		color: inherit;
+	}
 	
 	aside {
 		@include colors("aside");

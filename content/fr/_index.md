@@ -9,7 +9,7 @@ translationKey: "home"
 # blocks data
 dt-body-cta: "public-speaking-guide"
 dt-main-modules: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting", "creative-workshops" ]
-dt-body-referencesgrid: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
+dt-bodylazy-referencesgrid: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
 dt-bodylazy-modules-aside: [ "codingandbricks", "news" ]
 dt-bodylazy-testimonials: [ "roxanne-varza", "cesar-harada", "francois-marchessaux", "nicolas-beau", "david-musotte" ]
 ---

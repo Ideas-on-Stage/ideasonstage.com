@@ -233,6 +233,11 @@
 		}
 	}
 
+	@mixin height-module {
+		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
+		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
+	}
+	
 	@mixin scroll-h {
 		overflow-x: scroll;
 		

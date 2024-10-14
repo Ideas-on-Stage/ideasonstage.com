@@ -2,16 +2,16 @@
 
 	.cl-bodylazy-location {
 		@include margins($vertical: "gap", $horizontal: "none");
-		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-		background-color: none;
+		@include height-module;
 		
-		img {
+		> img {
 			@include img-back;
 		}
 		
 		.text {
-			position: relative; /* enable z-index to have text layered on top of img */
+			--color-back: none;
 			@include flex-column($align-column-h: center);
+			position: relative; /* enable z-index to have text layered on top of img */
 			
 			h2 {
 				margin: 2em 2em 0em 2em;

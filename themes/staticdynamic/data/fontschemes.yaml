@@ -12,7 +12,7 @@ body-breadcrumbs:
     - "--text-transform: uppercase"
 
 body-carousel:
-    - "--font-size-h4: 1"
+    - "--font-size-h4: 1" 
     - "--font-size: 0.8"
     - "--font-size-button-secondary: 0.8"
 
