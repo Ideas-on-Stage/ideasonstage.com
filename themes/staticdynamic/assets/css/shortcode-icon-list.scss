@@ -8,12 +8,7 @@
 		}
 		
 		.items {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: nowrap;
-			gap: var(--module-column-gap);
-			align-items: flex-start;
-			justify-content: center;
+			@include flex-row($gap: "gap", $wrap: "nowrap", $align-row-v: flex-start, $align-h: center);
 			@media (max-width: $gl-sm-screen) {
 				flex-wrap: wrap;
 			}
@@ -21,9 +16,8 @@
 	}
 	
 	.cl-shortcode--icon-item {
-		width: calc( (100% - 2 * var(--module-column-gap)) / 3 - 0.001px);
-		display: flex;
-		flex-direction: column;
+		@include flex-column;
+		@include columns(3);
 		align-items: center;
 		
 		a {

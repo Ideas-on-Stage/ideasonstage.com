@@ -1,8 +1,5 @@
 {{ partial "e/sass.scss" . }}
 
-$breadcrumbs-padding: 0.5em 0 !default;
-$breadcrumbs-list-gap: 0.5em !default;
-
 	.cl-body-breadcrumbs {
 		
 		a {
@@ -10,10 +7,8 @@ $breadcrumbs-list-gap: 0.5em !default;
 		}
 		
 		ul {
-			@include margins("none", "normal");
-			display: flex;
-			flex-direction: row;
-			gap: var(--gap);
+			@include margins($vertical: "none", $horizontal: "normal");
+			@include flex-row($gap: "gap", $wrap: "wrap");
 			
 			li {
 				margin: 0;
@@ -21,7 +16,7 @@ $breadcrumbs-list-gap: 0.5em !default;
 		}
 		
 		img {
-			display: inline-block; /* put image on same line as text */
+			@include img-sameline;
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};

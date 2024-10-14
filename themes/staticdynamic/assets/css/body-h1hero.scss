@@ -16,7 +16,6 @@
 		position: relative;
 		height: var(--hero-height);
 		width: 100%;
-		max-width: var(--page-max-width);
 		
 		> img {
 			@include img-back;
@@ -35,16 +34,12 @@
 
 	/* logo bar at bottom of hero */
 	.cl-body-h1hero--logobar {
+		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-around);
 		padding: 2vw;
 		height: auto;
 		width: 100%;
 		position: absolute; /* combined with position: relative on parent */
 		bottom: 0; /* position on bottom of hero */
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		justify-content: space-around;
-		gap: var(--module-big-gap);
 		@media (max-width: $gl-sm-screen) {
 			height: 32vw;
 		}
@@ -58,7 +53,7 @@
 		flex-direction: column;
 		align-items: center;
 		
-		p {
+		> p {
 			margin-top: 0.5em;
 			margin-bottom: 0em;
 			text-align: center;

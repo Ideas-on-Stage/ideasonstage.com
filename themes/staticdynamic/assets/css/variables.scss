@@ -10,7 +10,8 @@
 			page padding
 		*/
 		--page-padding-top: var(--menubar-height);
-		--page-max-width: $gl-lg-screen;
+		--page-width: 100%;
+		--page-max-width: #{$gl-lg-screen};
 		
 		/*
 			content width
@@ -28,20 +29,20 @@
 			modules
 		*/
 		--module-height: 40; /* module height on normal screens, no unit but is inferred to be vw  */
-		--module-column-gap: 12px; /* module column gap on normal screens */
-		--module-row-gap: 12px; /* module row gap on normal screens */
-		--module-big-gap: 24px;
-		--module-5c-width: calc( ( 100% - var(--module-column-gap) * 4 ) / 5 - 0.001px ); /* width of 1/5th column */
-		--module-12c-width: calc( ( 100% - var(--module-column-gap) * 11 ) / 12 - 0.001px ); /* width of 1/12th column */		
+		--column-gap: 12px; /* module column gap on normal screens */
+		--column-gap-big: 24px;
+		--row-gap: 12px; /* module row gap on normal screens */
+		--row-gap-big: 24px;
 		@media (max-width: $gl-sm-screen) {
 			--module-height: 140; /* module height on small screens */
-			--module-column-gap: 4vw; /* module column gap on small screens */
-			--module-row-gap: 4vw;
-			--module-big-gap: 4vw;
-			--module-5c-width: calc( ( 100% - var(--module-ts-column-gap) * 4 ) / 5 );
-			--module-12c-width: calc( ( 100% - var(--module-ts-column-gap) * 11 ) / 12 );
-			/* adapt font ratio for small screens (usually to make font bigger) */
+			--column-gap: 4vw; /* module column gap on small screens */
+			--column-gap-big: 4vw;
+			--row-gap: 4vw;
+			--row-gap-big: 4vw;
 			--font-ratio: var(--font-ratio-sm);
+		}
+		@media (min-width: $gl-lg-screen) {
+			--font-ratio: 28px;
 		}
 		
 		/*

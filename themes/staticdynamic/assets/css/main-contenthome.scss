@@ -1,9 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-contenthome {
-		@include margins("medium", "normal");
+		@include margins($vertical: "medium", $horizontal: "normal");
 		padding: 0;
-		text-align: center;
 		color: var(--color-text-muted);
 		
 		{{ partial "e/colorscheme.scss" . }};

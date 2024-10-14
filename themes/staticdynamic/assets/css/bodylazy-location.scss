@@ -1,31 +1,28 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-bodylazy-location {
-		@include margins("gap", "none");
-		display: flex;
-		flex-direction: column;
+		@include margins($vertical: "gap", $horizontal: "none");
 		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-		overflow: hidden;
 		background-color: none;
 		
 		img {
-			position: absolute;
-			height: calc( var(--module-height) * 1vw );
-			width: 100%;
-			max-width: var(--page-max-width);
-			object-fit: cover;
+			@include img-back;
 		}
 		
-		h2 {
+		.text {
 			position: relative; /* enable z-index to have text layered on top of img */
-			margin: 2em 2em 0em 2em;
-			text-align: center;
-		}
+			@include flex-column($align-column-h: center);
+			
+			h2 {
+				margin: 2em 2em 0em 2em;
+				text-align: center;
+			}
+			
+			p {
+				margin: 1em 2em 2em 2em;
+				text-align: center;
+			}
 		
-		p {
-			position: relative; /* enable z-index to have text layered on top of img */
-			margin: 1em 2em 2em 2em;
-			text-align: center;
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};

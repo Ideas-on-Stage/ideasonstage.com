@@ -1,12 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-bodylazy-testimonials {		
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		align-items: flex-start;
-		gap: var(--module-big-gap);
-		overflow-x: scroll;
+	.cl-bodylazy-testimonials {
+		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start);
+		@include scroll-h;
 		padding-bottom: 2.0em;
 		width: 100%;
 		@media (max-width: $gl-sm-screen) {
@@ -15,26 +11,13 @@
 			}
 		}
 		
-		&::-webkit-scrollbar {
-			height: 0.4em;
-		}
-		&::-webkit-scrollbar-track {
-			/* Track */
-			border-radius: 10px;
-			background: #ddd;
-			opacity: 0.5;
-		}
-		&::-webkit-scrollbar-thumb {
-			/* Handle */
-			background: #222; 
-			border-radius: 10px;
-			opacity: 0.4;
-		}	
-		
 		.item {
 			flex-grow: 0;
 			flex-shrink: 0;
 			flex-basis: 30vw;
+			@media (max-width: $gl-sm-screen) {	
+				flex-basis: 70vw;
+			}
 		}
 		.item:first-child {
 			margin-left: 2vw;
@@ -42,17 +25,9 @@
 		.item:last-child {
 			margin-right: 2vw;
 		}		
-		@media (max-width: $gl-sm-screen) {	
-			.item {
-				flex-basis: 70vw;
-			}
-		}
 		
 		.person {
-			display: flex;
-			flex-direction: row;
-			justify-content: flex-start;
-			gap: var(--module-big-gap);
+			@include flex-row($gap: "big", $wrap: "nowrap", $align-h: flex-start);
 		}
 		
 		.position {
@@ -60,9 +35,7 @@
 		}
 		
 		img {
-			width: 60px;
-			height: 60px;
-			border-radius: 30px;
+			@include img-circle(60px);
 		}
 		
 		{{ partial "e/colorscheme.scss" . }}

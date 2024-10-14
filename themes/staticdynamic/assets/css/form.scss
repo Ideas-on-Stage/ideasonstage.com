@@ -1,12 +1,9 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-form {
-		@include margins("none", "wide");
-		
-		display: flex;
-		flex-direction: column;
+		@include margins($vertical: "none", $horizontal: "wide");
+		@include flex-column($align-column-h: center);
 		gap: 20px;
-		align-items: center;
 		
 		.field {
 			display: block;

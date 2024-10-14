@@ -3,27 +3,17 @@
 	@mixin modulebase($width: "full") {
 		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
 		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
-		display: flex;
 		overflow: hidden;
 		@media (max-width: $gl-sm-screen) {	
 			width: 100%;
 		}
 			
 		@if "half" == $width {
-			width: calc( ( 100% - var(--module-column-gap) ) / 2 - 0.001px ); /* -0.001px to avoid rounding errors in FFox */
-			max-width: calc( ( var(--page-max-width) - var(--module-column-gap) ) / 2 - 0.001px);
+			@include columns(2);
 		}
 		@else {
 			width: calc(100% - 0.001px);
-			max-width: var(--page-max-width);
 		}
-	}
-	
-	@mixin image {
-		display: block;
-		height: 100%;
-		width: 100%;
-		object-fit: cover;
 	}
 	
 	@mixin text($height: 100%, $width: 100%) {
@@ -40,13 +30,10 @@
 	}
 	
 	.cl-modules {
+		@include flex-row($gap: "gap", $wrap: "wrap");
 		width: calc(100% - 0.001px);
-		display: flex;
-		flex-direction: row; /* to display half modules side by side */
-		flex-wrap: wrap; /* to create additional rows if necessary */
-		margin: var(--module-row-gap) 0;
-		padding: 0 var(--module-column-gap);
-		gap: var(--module-row-gap) var(--module-column-gap);
+		margin: var(--row-gap) 0;
+		padding: 0 var(--column-gap);
 		@media (max-width: $gl-sm-screen) {
 			padding: 0; /* to remove gap left and right */
 		}
@@ -62,7 +49,7 @@
 	/* half-width module div, text on top, image bottom */
 	.cl-modules--half {
 		@include modulebase("half");
-		flex-direction: column;
+		@include flex-column;
 		
 		/* use to create inner div with text on top */
 		.text {
@@ -76,8 +63,7 @@
 			width: 100%;
 			
 			img {	
-				@include image;
-				object-fit: contain; /* image is never distorted, crop if necessary */
+				@include img-contain;
 				object-position: 50% 100%; /* anchor on bottom, horizontal center */
 				@media (max-width: $gl-sm-screen) {
 					object-fit: cover; /* use cover instead of contain on ts screens */
@@ -89,7 +75,7 @@
 	/* full-width module div, text on top, image bottom */
 	.cl-modules--column {
 		@include modulebase("full");
-		flex-direction: column;
+		@include flex-column;
 		
 		/* use to create inner div with text on top */
 		.text {
@@ -103,8 +89,7 @@
 			width: 100%;
 			
 			img {	
-				@include image;
-				object-fit: contain; /* image is never distorted, crop if necessary */
+				@include img-contain;
 				object-position: 50% 100%; /* anchor on bottom, horizontal center */
 				@media (max-width: $gl-sm-screen) {
 					object-fit: cover; /* use cover instead of contain on ts screens */
@@ -116,7 +101,7 @@
 	/* full-width module div, image left, text right */
 	.cl-modules--row {
 		@include modulebase("full");
-		flex-direction: row;
+		@include flex-row;
 		@media (max-width: $gl-sm-screen) {	
 			flex-direction: column-reverse; /* create column with pic on bottom, text on top */
 			justify-content: space-between;
@@ -133,8 +118,7 @@
 			}
 		
 			img {
-				@include image;
-				object-fit: cover; /* fill container without distorting image */
+				@include img-cover;
 				object-position: 100% 50%; /* anchor on right edge (100%), vertical center */
 			}
 		}
@@ -142,8 +126,9 @@
 		/* div containing text on right */
 		.text {
 			@include text(100%, 36%);
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
+			@include flex-column($align-v: center);
+			@media (max-width: $gl-sm-screen) {
+				@include flex-column($align-v: flex-start, $align-column-h: center);
+			}
 		}
 	}

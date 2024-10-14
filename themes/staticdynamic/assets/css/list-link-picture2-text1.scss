@@ -1,9 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-list-link-picture2-text1 {
-		display: flex;
-		flex-direction: row;
-		gap: var(--module-big-gap);
+		@include flex-row($gap: "big", $wrap: "nowrap");
 		margin-top: 3em;
 		margin-bottom: 3em;
 		width: 100%;
@@ -13,24 +11,17 @@
 		
 		.text {
 			@include firstlastchildnomargin;
-			width: 34%;
+			@include width-onethird;
 			@media (max-width: $gl-sm-screen) {
-				width: 100%;
-			}	
+				margin-top: 1em; /* add space between img and text on sm screens */
+			}
 		}
 		
 		.picture {
-			width: calc( 66% - var(--module-big-gap) );
-			@media (max-width: $gl-sm-screen) {
-				width: 100%;
-			}
+			@include width-twothirds;
 			
 			img {
-				display: block; /* prevent line height from being added to div height */
-				margin: 0;
-				padding: 0;
-				width: 100%;
-				object-fit: contain;
+				@include img-contain;
 			}
 			
 		}

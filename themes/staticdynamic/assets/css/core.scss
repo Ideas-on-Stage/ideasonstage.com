@@ -110,7 +110,7 @@
 		}
 	}
 	
-	@mixin margins($tag) {
+	@mixin topbotmargins($tag) {
 		
 		/*
 			applies top and bottom margins to a tag:
@@ -278,7 +278,7 @@
 	
 	blockquote {
 		@include colors("blockquote");
-		@include margins("blockquote");
+		@include topbotmargins("blockquote");
 		@include text("blockquote");
 		@include firstlastchildnomargin();
 		border-left: 4px solid var(--color-border-blockquote);
@@ -291,8 +291,11 @@
 		@include colors("body");
 		@include text("body");
 		margin: 0 auto;
-		padding-top:  var(--menubar-height);
-		max-width: var(--page-max-width);
+		padding-top: var(--menubar-height);
+		width: var(--page-width);
+		@media (min-width: $gl-lg-screen) {
+			--page-width: var(--page-max-width);
+		}
 	}
 
 	div {
@@ -305,31 +308,31 @@
 	
 	h1 {
 		@include colors("h1");
-		@include margins("h1");
+		@include topbotmargins("h1");
 		@include text("h1");
 	}
 	
 	h2 {
 		@include colors("h2");
-		@include margins("h2");
+		@include topbotmargins("h2");
 		@include text("h2");
 	}
 
 	h3 {
 		@include colors("h3");
-		@include margins("h3");
+		@include topbotmargins("h3");
 		@include text("h3");
 	}
 
 	h4 {
 		@include colors("h4");
-		@include margins("h4");
+		@include topbotmargins("h4");
 		@include text("h4");
 	}
 
 	h5 {		
 		@include colors("h5");
-		@include margins("h5");
+		@include topbotmargins("h5");
 		@include text("h5");
 	}
 	
@@ -338,7 +341,7 @@
 	}
 
 	img {
-		@include margins("img");
+		@include topbotmargins("img");
 		@include img-resp;
 	}
 
@@ -348,7 +351,7 @@
 	
 	li {
 		@include colors("li");
-		@include margins("li");
+		@include topbotmargins("li");
 		@include text("li");
 	}
 	
@@ -362,7 +365,7 @@
 	
 	p {
 		@include colors("p");
-		@include margins("p");
+		@include topbotmargins("p");
 		@include text("p");
 	}
 	
@@ -384,14 +387,14 @@
 	}
 	
 	ul {
-		@include margins("ul");
+		@include topbotmargins("ul");
 		list-style-type: var(--list-style-type-ul);
 		padding-left: var(--padding-left-ul);
 	}
 
 	.cl-core--button-primary {
 		@include colors("button-primary");
-		@include margins("button-primary");
+		@include topbotmargins("button-primary");
 		@include text("button-primary");
 		border: none;
 		border-radius: 0.5em;
@@ -410,7 +413,7 @@
 	
 	.cl-core--button-secondary {
 		@include colors("button-secondary");
-		@include margins("button-secondary");
+		@include topbotmargins("button-secondary");
 		@include text("button-secondary");
 		border: none;
 		border-radius: 0.5em;

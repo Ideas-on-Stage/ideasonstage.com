@@ -1,30 +1,19 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-herorevolution {
-		
+		@include flex-column($align-column-h: center, $align-v: center);
 		margin-top: 0;
 		height: var(--hero-height);
 		width: var(--hero-width);
-		max-width: var(--page-max-width);
 		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: nowrap;
-		align-items: center;
-		justify-content: center;
-		
-		img {
-			position: absolute;
-			z-index: -100;
-			height: var(--hero-height);
-			width: 100%;
-			max-width: var(--page-max-width);
-			object-fit: cover;
-		}
 		
 		h2 {
 			text-align: center;
 			margin-bottom: 0.5rem;
+		}
+		
+		img {
+			@include img-back($z-index: -100);
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};

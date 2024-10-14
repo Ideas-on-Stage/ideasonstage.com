@@ -5,17 +5,11 @@
 		
 		.text {
 			@include firstlastchildnomargin;
-			width: 34%;
-			@media (max-width: $gl-sm-screen) {
-				width: 100%;
-			}	
+			@include width-onethird;
 		}
 		
 		img {
+			@include width-twothirds;
 			margin: 0;
-			width: calc( 66% - var(--module-big-gap) );
-			@media (max-width: $gl-sm-screen) {
-				width: 100%;
-			}
 		}
 	}

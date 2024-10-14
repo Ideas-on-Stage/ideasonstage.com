@@ -4,7 +4,6 @@ title: "The Business Presentation Revolution Training"
 description: "Thanks to our signature training course, your team's presentations will never be the same again."
 picture: "image.jpg"
 translationKey: "presentations-training/the-business-presentation-revolution"
-schema: "Course"
 ---
 
 ## Train your teams to give TED-quality business presentations

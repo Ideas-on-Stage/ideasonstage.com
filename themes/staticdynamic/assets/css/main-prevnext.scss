@@ -1,10 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-main-prevnext {		
-		display: flex;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		justify-content: space-between;
+	.cl-main-prevnext {
+		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-between);
 		padding: 0;
 		list-style: none;
 		

@@ -12,7 +12,7 @@
 {{/* <!-- generate hero with newest video --> */}}
 <section id="highlight" class="cl-body-herorevolution" style="background-color:rgba(0,0,0,.3);">
 	{{ range (first 1 .Pages) }}	
-		<img src="{{ .RelPermalink }}image.jpg">
+		<img src="{{ .RelPermalink }}image.jpg" alt="{{ .Title }}">
 		<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
 			<h2>
 				{{ with .Title }}{{ . }}{{ end }}

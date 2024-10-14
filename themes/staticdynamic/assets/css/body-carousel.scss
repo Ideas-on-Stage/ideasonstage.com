@@ -3,46 +3,24 @@
 	.cl-body-carousel {
 		padding-top: 2rem;
 		
-		h3 {
+		> h3 {
 			padding-left: 2rem;
 		}
+		
 		{{ partial "e/colorscheme.scss" . }}
 		{{ partial "e/fontscheme.scss" . }}
 	}
 	
+	/* container for the carousel items */
 	.cl-body-carousel--carousel {
-		display: flex;
+		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: stretch);
+		@include scroll-h;
 		padding-top: 2rem;
 		padding-bottom: 2rem;
-		flex-direction: row;
-		flex-wrap: nowrap;
-		align-items: stretch;
-		gap: var(--module-big-gap);
-		overflow-x: scroll;
 		width: 100%;
-		@media (max-width: $gl-sm-screen) {
-			.cl-testimonials {
-				padding-bottom: 1.0em;
-			}
-		}
-		
-		&::-webkit-scrollbar {
-			height: 0.4em;
-		}
-		&::-webkit-scrollbar-track {
-			/* Track */
-			border-radius: 10px;
-			background: #ddd;
-			opacity: 0.5;
-		}
-		&::-webkit-scrollbar-thumb {
-			/* Handle */
-			background: #222; 
-			border-radius: 10px;
-			opacity: 0.4;
-		}
 	}
 	
+	/* carousel item */
 	.cl-body-carousel--item {
 		flex-grow: 1;
 		flex-shrink: 0;
@@ -62,32 +40,24 @@
 		}
 		
 		.text {
+			@include flex-column($align-v: space-between);
 			padding: 1em;
 			height: calc( 100% - 15vw ); /* full container height minus picture height */
 			min-height: 15vw;
 			border-radius: 5px 5px 0px 0px;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
 			@media (max-width: $gl-sm-screen) {	
 				height: calc( 100% - 40vw );
 				min-height: 45vw;
 			}
 		}
 		
-		.img {
-			width: 100%;
+		img {
 			height: 15vw;
+			width: 100%;
 			border-radius: 0px 0px 5px 5px;
+			object-fit: cover;
 			@media (max-width: $gl-sm-screen) {	
 				height: 40vw;
-			}
-			
-			img {
-				height: 100%;
-				width: 100%;
-				border-radius: 0px 0px 5px 5px;
-				object-fit: cover;
 			}
 		}
 		
@@ -95,6 +65,7 @@
 		{{ partial "e/fontscheme.scss" "body-carousel--item" }}
 	}
 	
+	/* adds a space on the right (right margin/padding is not honored if it's the last element) */
 	.cl-body-carousel--space {
 		width: 1px;
 		height: 1px;

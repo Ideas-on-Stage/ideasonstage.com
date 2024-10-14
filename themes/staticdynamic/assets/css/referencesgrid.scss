@@ -1,18 +1,15 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-referencesgrid {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		gap: var(--module-column-gap);
-		margin: var(--module-column-gap);
+		@include flex-row($gap: "gap", $wrap: "wrap");
+		margin: var(--column-gap);
 		
 		img {
+			@include columns(6);
 			border: 1px solid var(--color-border);
 			height: auto;
-			width: calc( ( 100% - 5 * var(--module-column-gap) ) / 6 - 0.001px );
 			@media (max-width: $gl-sm-screen) {
-				width: calc( ( 100% - 2 * var(--module-column-gap) ) / 3 - 0.001px );
+				width: calc( ( 100% - 2 * var(--column-gap) ) / 3 - 0.001px );
 			}
 		}
 		

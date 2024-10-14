@@ -3,10 +3,7 @@
 $tags-padding: 0.25em 0.5em !default;
 
 	.cl-tags {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		gap: 0.5em;
+		@include flex-row($gap: 0.5em, $wrap: "wrap");
 		list-style: none;
 		margin-top: 1em;
 		margin-bottom: 1em;

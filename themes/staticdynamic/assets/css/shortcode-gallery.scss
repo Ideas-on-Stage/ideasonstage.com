@@ -1,9 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-shortcode--gallery {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+		@include flex-row($gap: "none", $wrap: "wrap");
 		
 		img {
 			height: auto;

@@ -9,7 +9,7 @@
 # - headtop: common blocks added first to the <head></head> part
 # - head: blocks added to the <head></head> part
 # - headbottom: common blocks added last to the <head></head> part
-# - bodytop: common blocks added fist to the <body></body> part
+# - bodytop: common blocks added first to the <body></body> part
 # - body: blocks added to the <body></body> part
 # - bodylazy: blocks added to the <body></body> part, css and img use lazy-loading
 # - bodybottom: common blocks added last to the <body></body> part

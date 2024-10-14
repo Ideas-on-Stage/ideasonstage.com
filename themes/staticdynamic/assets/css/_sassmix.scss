@@ -12,6 +12,11 @@
 	mixins
 */
 
+	@mixin columns($nbcols) {
+		$nbgaps: $nbcols - 1;
+		width: calc( (100% - #{$nbgaps} * var(--column-gap)) / #{$nbcols} - 0.001px);
+	}
+	
 	/* remove top margin from first element and bottom margin from last element */
 	@mixin firstlastchildnomargin {
 		> :first-child {
@@ -22,18 +27,12 @@
 		}
 	}
 
-	/* default "responsive" image */
-	@mixin img-resp {
-		display: block; /* prevent line height from being added to div height */
-		max-width: 100%;
-		height: auto;
-		object-fit: contain;
-	}
-	
-	/* background image */
+	/*
+		background image
+	*/
 	@mixin img-back($z-index: 0) {
 		position: absolute;
-		height: var(--hero-height);
+		height: inherit; /* ! parent container must have fixed height */
 		width: 100%;
 		max-width: var(--page-max-width);
 		object-fit: cover;
@@ -41,61 +40,106 @@
 			z-index: $z-index;
 		}
 	}
+	
+	@mixin img-circle($size) {
+		width: $size !important;
+		height: $size !important;
+		border-radius: 50%;		
+	}
+	
+	/*
+		image full width of parent container
+	*/
+	@mixin img-contain {
+		display: block;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+	}
 
+	/*
+		image full height and width of parent container
+	*/
+	@mixin img-cover {
+		display: block;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+	
+	/*
+		image on same line as text, useful for icons
+	*/
+	@mixin img-sameline {
+		display: inline-block;
+	}
+	
+	/*
+		"responsive" image
+		width cannot exceed 100% but can be less
+		img is contained within parent container (cannot overflow from it)
+	 */
+	@mixin img-resp {
+		display: block; /* prevent line height from being added to div height */
+		max-width: 100%;
+		height: auto;
+		object-fit: contain;
+	}
+	
 	/* margins for content
 		marginv: "tall", "medium", "small", "none"
 		marginh: "wide", "normal", "gap", "none"
 	*/
-	@mixin margins($marginv: "medium", $marginh: "normal") {
+	@mixin margins($vertical: "medium", $horizontal: "normal") {
 		
-		@if "tall" == $marginv {
+		@if "tall" == $vertical {
 			margin-top: 5em !important;
 			margin-bottom: 5em !important;
 		}
-		@else if "medium" == $marginv {
+		@else if "medium" == $vertical {
 			margin-top: 3em !important;
 			margin-bottom: 3em !important;		
 		}
-		@else if "small" == $marginv {
+		@else if "small" == $vertical {
 			margin-top: 1em !important;
 			margin-bottom: 1em !important;
 		}
-		@else if "none" == $marginv {
+		@else if "none" == $vertical {
 			margin-top: 0 !important;
 			margin-bottom: 0 !important;
 		}
 		
-		@if "normal" == $marginh {
+		@if "normal" == $horizontal {
 			margin-left: auto; /* use auto to center div on page */
 			margin-right: auto; /* use auto to center div on page */
 			width: 80vw;
 			max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
 			@media (max-width: $gl-sm-screen) {
-				margin-left: var(--module-column-gap);
-				margin-right: var(--module-column-gap); 
-				width: calc(100% - var(--module-column-gap) * 2);
-				max-width: calc(100% - var(--module-column-gap) * 2);
+				margin-left: var(--column-gap);
+				margin-right: var(--column-gap); 
+				width: calc(100% - var(--column-gap) * 2);
+				max-width: calc(100% - var(--column-gap) * 2);
 			}
 		}
-		@else if "wide" == $marginh {
+		@else if "wide" == $horizontal {
 			/* use for narrow content such as forms */
 			margin-left: auto; /* use auto to center div on page */
 			margin-right: auto; /* use auto to center div on page */
 			width: 50vw;
 			max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
 			@media (max-width: $gl-sm-screen) {
-				margin-left: var(--module-column-gap);
-				margin-right: var(--module-column-gap);
-				width: calc(100% - var(--module-column-gap) * 2 );
-				max-width: calc(100% - var(--module-column-gap) * 2 );
+				margin-left: var(--column-gap);
+				margin-right: var(--column-gap);
+				width: calc(100% - var(--column-gap) * 2 );
+				max-width: calc(100% - var(--column-gap) * 2 );
 			}
 		}
-		@else if "gap" == $marginh {
-				margin-left: var(--module-column-gap);
-				margin-right: var(--module-column-gap); 
-				width: calc(100% - var(--module-column-gap) * 2);
+		@else if "gap" == $horizontal {
+				margin-left: var(--column-gap);
+				margin-right: var(--column-gap); 
+				width: calc(100% - var(--column-gap) * 2);
 		}
-		@else if "none" == $marginh {
+		@else if "none" == $horizontal {
 				margin-left: 0;
 				margin-right: 0;
 				width: calc( 100% );
@@ -104,23 +148,123 @@
 
 	/* use to display two columns that become 1 vertical column on sm screens */
 	@mixin two-columns($sm-screen-direction: column) {
+		--column-gap: var(--column-gap-big);
 		display: flex;
 		flex-direction: row;
 		align-items: flex-start;
-		gap: var(--module-big-gap);
+		gap: var(--column-gap);
 		@media (max-width: $gl-sm-screen) {
 			flex-direction: $sm-screen-direction;
 		}
 	}
+	
 
-	@mixin flex-columns($nb, $nb-sm) {
-		$nbm: $nb - 1;
-		width: calc( (100% - #{$nbm} * var(--module-column-gap)) / #{$nb} - 0.001px);
+	@mixin flex-column($gap: "none", $wrap: "nowrap", $align-column-h: flex-start, $align-h: flex-start, $align-v: flex-start) {
 		display: flex;
 		flex-direction: column;
-		flex-wrap: nowrap;
-		@media (max-width: $gl-sm-screen) {		
-			$nbm-sm: $nbm - 1;
-			width: calc( (100% - #{$nbm-sm} * var(--module-column-gap)) / #{$nb-sm} - 0.001px);
+		align-content: $align-h;
+		align-items: $align-column-h;
+		justify-content: $align-v;
+		@if "gap" == $gap {
+			row-gap: var(--row-gap); /* ! flex columns have row gaps */
+		}
+		@else if "big" == $gap {
+			--row-gap: var(--row-gap-big);
+			row-gap: var(--row-gap);
+		}
+		@else if "none" == $gap {
+		}
+		@else {
+			row-gap: $gap;
+		}
+		
+		@if "nowrap" == $wrap {
+			flex-wrap: nowrap;
+		}
+		@else if "wrap" == $wrap {
+			flex-wrap: wrap;
+		}
+		@else {
+			flex-wrap: $wrap;
 		}
 	}
+	
+	@mixin flex-row($gap: "none", $wrap: "nowrap", $align-row-v: flex-start, $align-v: flex-start, $align-h: flex-start) {
+		display: flex;
+		flex-direction: row;
+		align-content: $align-v;
+		align-items: $align-row-v;
+		justify-content: $align-h;
+		@if "gap" == $gap {
+			column-gap: var(--column-gap); /* ! flex rows have column gaps */
+		}
+		@else if "big" == $gap {
+			--column-gap: var(--column-gap-big);
+			column-gap: var(--column-gap);
+		}
+		@else if "none" == $gap {
+		}
+		@else {
+			--column-gap: #{$gap};
+			column-gap: var(--column-gap);
+		}
+		
+		@if "nowrap" == $wrap {
+			flex-wrap: nowrap;
+		}
+		@else if "wrap" == $wrap {
+			flex-wrap: wrap;
+			@if "gap" == $gap {
+				row-gap: var(--row-gap);
+			}
+			@else if "big" == $gap {
+				--row-gap: var(--row-gap-big);
+				row-gap: var(--row-gap);
+			}
+			@else if "none" == $gap {
+			}
+			@else {
+				--row-gap: #{$gap};
+				row-gap: var(--row-gap);
+			}
+		}
+		@else {
+			flex-wrap: $wrap;
+		}
+	}
+
+	@mixin scroll-h {
+		overflow-x: scroll;
+		
+		&::-webkit-scrollbar {
+			height: 0.4em;
+		}
+		&::-webkit-scrollbar-track {
+			/* Track */
+			border-radius: 10px;
+			background: #ddd;
+			opacity: 0.5;
+		}
+		&::-webkit-scrollbar-thumb {
+			/* Handle */
+			background: #222; 
+			border-radius: 10px;
+			opacity: 0.4;
+		}	
+		
+	}
+
+	@mixin width-onethird {
+		width: calc( 33% );
+		@media (max-width: $gl-sm-screen) {
+			width: 100%;  /* set width to 100% on sm screens */
+		}
+	}
+	
+	@mixin width-twothirds {
+		width: calc( 67% - var(--column-gap) );	/* reduce main content width when there is a sidebar */
+		@media (max-width: $gl-sm-screen) {
+			width: 100%; /* set width to 100% on sm screens */
+		}
+	}
+	

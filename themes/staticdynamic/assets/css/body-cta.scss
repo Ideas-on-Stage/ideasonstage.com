@@ -1,28 +1,22 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-cta {
-		
+		@include flex-column($align-column-h: center, $align-v: center);
 		height: var(--hero-height);
 		width: var(--hero-width);
-		max-width: var(--page-max-width);
 		overflow: hidden;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: nowrap;
-		align-items: center;
-		justify-content: center;
 		
-		img {
-			@include img-back(-100);
+		> img {
+			@include img-back($z-index: -100);
 		}
 		
-		h2 {
+		> h2 {
 			text-align: center;
 			margin-left: 1em;
 			margin-right: 1em;
 		}
 		
-		p {
+		> p {
 			text-align: center;
 			margin-left: 1em;
 			margin-right: 1em;

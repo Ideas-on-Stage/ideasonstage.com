@@ -72,12 +72,18 @@ main-content:
     - "--list-style-type-ul: square"
     - "--padding-left-ul: 2em"
 
+main-contenthome:
+    - "--text-align-p: center"
+
 main-h1:
     - "--text-transform-h1: none"
 
 main-listrevolution:
     - "--text-align-h2: center"
+    - "--margin-bottom-h2: 0.5rem"
     - "--font-size-h3: 1"
+    - "--margin-top-h3: 0.5rem"
+    - "--margin-top-p: 0.5rem"
 
 main-listteam:
     - "--font-size: 0.75"

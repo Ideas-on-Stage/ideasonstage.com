@@ -3,12 +3,14 @@
 		<section id="address" class="cl-bodylazy-location">
 			{{ $srcset := partial "f/getpicturesrcset.go" .bgimage }}
 			<img loading="lazy" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="Ideas on Stage Champs Élysées">
-			<h2>
-				{{ with .title }}{{ . | markdownify }}{{ end }}
-			</h2>
-			<p>
-				{{ with .address }}{{ . | safeHTML }}{{ end }}
-			</p>
+			<div class="text">
+				<h2>
+					{{ with .title }}{{ . | markdownify }}{{ end }}
+				</h2>
+				<p>
+					{{ with .address }}{{ . | safeHTML }}{{ end }}
+				</p>
+			</div>
 		</section>
 	{{ else }}
 		{{ "<!-- no location because site.Params.map.enable is not true -->" | safeHTML }}

@@ -1,3 +1,15 @@
+{{/* <!--
+	
+	agenda-list
+
+	Inserts a list.
+	
+	Arguments:
+	- .title as string
+	- agenda-item shortcodes as .Inner content
+	
+--> */}}
+
 {{ "<!-- shortcodes:agenda-list.html:start -->" | safeHTML }}
 <div class="cl-shortcode cl-shortcode--agenda-list {{ with .Params.style }}{{ . }}{{ end }}">
 	{{ if .Params.title }}

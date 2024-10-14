@@ -5,45 +5,22 @@
 		
 		/* list of episodes */
 		ul {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
+			@include flex-row($gap: "gap", $wrap: "wrap");
 			list-style: none;
 			padding: 0;
-			gap: var(--module-column-gap);
 		}
 		
 		/* episode */
 		li {	
+			@include columns(3);
 			height: 100%;
-			width: calc( (100% - 2 * var(--module-column-gap)) / 3 - 0.001px);
 			margin-bottom: 2rem;
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
 			}
 		}
 		
-		/* list title */
-		h2 {
-			margin-bottom: 0.5rem;
-		}
-		
-		/* episode title */
-		h3 {
-			margin-top: 0.5rem;
-		}
-		
 		/* episode thumb */
-		img {
-			display: block; /* to prevent line height from being added to div height */
-			width: 100%;
-			height: 100%;
-		}
-		
-		/* episode description */
-		p {
-			margin-top: 0.5rem;
-		}
 		
 		{{ partial "e/colorscheme.scss" . }};
 		{{ partial "e/fontscheme.scss" . }}

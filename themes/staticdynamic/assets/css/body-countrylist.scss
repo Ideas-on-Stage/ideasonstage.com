@@ -2,18 +2,14 @@
 
 	.cl-body-countrylist {
 		
+		> ul {
+			@include flex-row($gap: "gap", $wrap: "wrap", $align-h: center);
+			
+			> li {
+				list-style: none; /* remove bullet when used on li */
+			}
+		}
+		
 		{{ partial "e/colorscheme.scss" . }};
 		{{ partial "e/fontscheme.scss" . }}
-
-		ul {
-			display: flex;
-			flex-direction: row;
-			justify-content: center;
-			gap: var(--gap);
-		}
-		
-		li {
-			list-style: none; /* remove bullet when used on li */
-		}
-		
 	}

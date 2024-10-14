@@ -20,7 +20,7 @@
 		{{ if os.FileExists $path }}
 			{{/* <!-- use available server version of youtube placeholder image in /static/img/youtube/ --> */}}
 			{{ $img := printf "/img/youtube/%s.jpg" (index .Params 0) }}
-			<img src="{{ $img }}">
+			<img src="{{ $img }}" alt="YouTube Video {{ index .Params 0 }}" }}>
 		{{ else }}
 			{{/* <!-- else use youtube.com version of youtube placeholder image --> */}}
 			<img src="https://img.youtube.com/vi/{{ index .Params 0 }}/sddefault.jpg">

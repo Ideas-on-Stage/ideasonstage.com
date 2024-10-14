@@ -8,23 +8,19 @@
 		}
 		
 		.items {
-			display: flex;
-			flex-direction: row;
-			gap: var(--module-column-gap);
-			align-items: center;
-			justify-content: center;
+			@include flex-row($gap: "gap", $wrap: "nowrap", $align-row-v: center, $align-h: center);
 		}
 	}
 	
 	.cl-shortcode--social-item {
-		width: calc( (100% - 2 * var(--module-column-gap)) / 3 - 0.001px);
+		@include columns(3);
 		
 		a {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
+			@include flex-column($align-column-h: center);
+			border-bottom: none;
 			
 			img {
+				margin: 0;
 				width: 5rem;
 				height: 5rem;
 			}

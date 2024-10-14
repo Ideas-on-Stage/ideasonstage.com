@@ -3,12 +3,8 @@
 	.cl-main-listreferences {
 		
 		.reference {
-			@include margins("medium", "normal");
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			gap: var(--module-big-gap);
-			align-items: flex-start;
+			@include margins($vertical: "medium", $horizontal: "normal");
+			@include flex-row($gap: "big", $wrap: "wrap", $align-row-v: flex-start);
 			
 			.logo {
 				width: 20%;				
@@ -29,7 +25,7 @@
 			}
 			
 			.text {
-				width: calc( 80% - var(--module-big-gap) );
+				width: calc( 80% - var(--column-gap-big) );
 				@media (max-width: $gl-sm-screen) {
 					width: 100%;
 				}

@@ -1,30 +1,20 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-listteam {
-		@include margins("medium", "normal");
-		
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		column-gap: 1em;
-		row-gap: 2em;
+		@include margins($vertical: "medium", $horizontal: "normal");
+		@include flex-row($gap: "big", $wrap: "wrap", $align-h: center);
 		
 		.teammember {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			width: calc( ( 100% - 2 * 2em ) / 3 - 0.001px );
+			@include flex-column($align-column-h: center);
+			@include columns(3);
 			
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
 			}
 			
 			img {
-				width: 100px !important;
-				height: 100px !important;
+				@include img-circle(6rem);
 				border: 3px solid white;
-				border-radius: 50%;
 				transition: all .35s;
 				filter: grayscale(100%);
 			}

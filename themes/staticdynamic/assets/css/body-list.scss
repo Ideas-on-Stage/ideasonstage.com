@@ -1,7 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-list {
-		@include margins("medium", "normal");
+		@include margins($vertical: "medium", $horizontal: "normal");
 		
 		{{ partial "e/colorscheme.scss" . }};
 		{{ partial "e/fontscheme.scss" . }}

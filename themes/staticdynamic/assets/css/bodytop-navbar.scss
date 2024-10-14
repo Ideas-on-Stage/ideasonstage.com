@@ -1,17 +1,13 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-bodytop-navbar {		
+	.cl-bodytop-navbar {
+		@include flex-row($align-row-v: center, $align-h: space-between);
 		position: fixed; /* menubar stays at top of screen */
 		top: 0;
-		width: 100%;
+		width: var(--page-width);
 		z-index: 1000; /* no other element should be given a higher z-index */
-		padding-left: var(--module-column-gap);
-		padding-right: var(--module-column-gap);
-		max-width: var(--page-max-width);
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
+		padding-left: var(--column-gap);
+		padding-right: var(--column-gap);
 		
 		/* Font for menu */
 		.menu-item,
@@ -23,7 +19,7 @@
 			border: none; /* remove underline for a links */
 			
 			img {
-				display: inline-block; /* display icon on same line as text */
+				@include img-sameline;
 			}
 		}
 		
@@ -43,17 +39,14 @@
 			}
 			
 			.menu {
+				@include flex-row($align-h: stretch);
 				margin: 0;
 				padding: 0;
-				height: var(--menubar-height);
-				display: flex;
-				flex-direction: row;
-				align-items: stretch;
+				height: var(--menubar-height);				
 				gap: 1em;
 				
 				li {
-					display: flex; /* allows easy vertical centering of <a> tag inside */
-					align-items: center; /* so text item inside is centered vertically */
+					@include flex-row($align-row-v: center);
 					margin: 0;
 					padding: 0;
 					list-style: none;
@@ -122,13 +115,10 @@
 			}
 			
 			.menu-item {
+				@include flex-column($align-column-h: center, $align-v: center);
 				margin: 0;
 				padding: 0;
 				width: 100%;
-				display: flex; /* allows easy vertical centering of <a> tag inside */
-				flex-direction: column;
-				align-items: center; /* so text item inside is centered vertically */
-				justify-content: center;
 				list-style: none;
 			}
 			
