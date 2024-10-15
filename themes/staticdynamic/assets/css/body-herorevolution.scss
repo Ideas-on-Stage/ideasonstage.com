@@ -2,15 +2,9 @@
 
 	.cl-body-herorevolution {
 		@include flex-column($align-column-h: center, $align-v: center);
-		margin-top: 0;
-		height: var(--hero-height);
-		width: var(--hero-width);
+		@include height-hero;
+		width: 100%;
 		overflow: hidden;
-		
-		> h2 {
-			text-align: center;
-			margin-bottom: 0.5rem;
-		}
 		
 		> img {
 			@include img-back($z-index: -100);

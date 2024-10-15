@@ -8,7 +8,7 @@
 		}
 			
 		@if "half" == $width {
-			@include columns(2);
+			@include width-column(2);
 		}
 		@else {
 			width: 100%;
@@ -35,10 +35,6 @@
 		padding: 0 var(--column-gap);
 		@media (max-width: $gl-sm-screen) {
 			padding: 0; /* to remove gap left and right */
-		}
-		
-		h3 {
-			margin-top: 0;
 		}
 		
 		{{ partial "e/colorscheme.scss" . }}

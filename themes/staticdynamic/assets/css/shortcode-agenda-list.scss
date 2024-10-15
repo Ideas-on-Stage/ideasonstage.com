@@ -2,45 +2,7 @@
 
 	.cl-shortcode--agenda-list {
 		@include firstlastchildnomargin;
-		text-align: center;
 		
-		.item-title {
-			margin-top: 1.5em;
-			margin-bottom: 0.2em;
-			text-align: center;
-			color: var(--color-secondary);
-			text-transform: uppercase;
-			font-size: 1em;
-		}
-		
-		.item-description {
-			margin-top: 0;
-			margin-bottom: 1.5em;
-		}
-		
-		/* below is css for agenda items that can be folded/unfolded */
-		
-		.item-checkbox {
-			display: none;
-		}
-		
-		.item-toggle {
-			font-weight: 500;
-			cursor: pointer;
-			margin-top: 1em;
-			
-			img {
-				display: inline-block; /* puts img on same line as toggle text */
-			}
-		}
-		
-		.item-collapsible-content {
-			height: 0px;
-			overflow: hidden;
-			transition: max-height .25s ease-in-out;
-		}
-		
-		.item-checkbox:checked + .item-toggle + .item-collapsible-content {
-			height: auto;
-		}
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
 	}

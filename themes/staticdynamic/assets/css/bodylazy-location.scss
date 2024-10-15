@@ -9,20 +9,11 @@
 		}
 		
 		.text {
-			--color-back: none;
 			@include flex-column($align-column-h: center);
+			--color-back: none;
 			position: relative; /* enable z-index to have text layered on top of img */
-			
-			h2 {
-				margin: 2em 2em 0em 2em;
-				text-align: center;
-			}
-			
-			p {
-				margin: 1em 2em 2em 2em;
-				text-align: center;
-			}
-		
+			padding-left: 2em;
+			padding-right: 2em;
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};

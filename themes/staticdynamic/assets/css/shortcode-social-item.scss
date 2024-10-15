@@ -1,0 +1,24 @@
+{{ partial "e/sass.scss" . }}
+	
+	.cl-shortcode--social-item {
+		@include width-column(3);
+		
+		a {
+			@include flex-column($align-column-h: center);
+			border-bottom: none;
+			
+			img {
+				margin: 0;
+				width: 5rem;
+				height: 5rem;
+			}
+			
+			p {
+				margin-top: 0.5rem;
+				margin-bottom: 0;
+			}
+		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
+	}

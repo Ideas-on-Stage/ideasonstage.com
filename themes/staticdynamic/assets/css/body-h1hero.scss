@@ -13,8 +13,8 @@
 	}
 	
 	.cl-body-h1hero--hero {
+		@include height-hero;
 		position: relative;
-		height: var(--hero-height);
 		width: 100%;
 		
 		> img {

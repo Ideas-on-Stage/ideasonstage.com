@@ -7,7 +7,7 @@
 			@include flex-row($gap: "big", $wrap: "wrap", $align-row-v: flex-start);
 			
 			.logo {
-				width: 20%;				
+				@include width-column(5);
 				@media (max-width: $gl-sm-screen) {
 					width: 33%;
 				}
@@ -18,14 +18,18 @@
 			}
 			
 			.thumb {
-				width: 20%;				
+				@include width-column(5);
 				@media (max-width: $gl-sm-screen) {
 					width: 100%;
+				}
+				
+				img {
+					@include img-contain;
 				}
 			}
 			
 			.text {
-				width: calc( 80% - var(--column-gap-big) );
+				@include width-column(5, 4);
 				@media (max-width: $gl-sm-screen) {
 					width: 100%;
 				}

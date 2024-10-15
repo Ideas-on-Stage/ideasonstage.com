@@ -1,0 +1,19 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode--icon-item {
+		@include flex-column($gap: "gap", $align-column-h: center);
+		@include width-column(3);
+		
+		a {
+			border-bottom: none;
+		}
+		
+		img {
+			margin: 0;
+			width: 5rem;
+			height: 5rem;
+		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
+	}

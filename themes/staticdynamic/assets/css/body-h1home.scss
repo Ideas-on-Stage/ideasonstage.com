@@ -2,9 +2,9 @@
 
 	.cl-body-h1home {
 		text-align: center;
-		padding-top: 10px;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-top: 1em;
+		padding-left: 1em;
+		padding-right: 1em;
 		
 		{{ partial "e/colorscheme.scss" . }};
 		{{ partial "e/fontscheme.scss" . }}

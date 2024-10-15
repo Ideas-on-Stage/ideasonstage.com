@@ -13,10 +13,10 @@
 				list-style: none;
 				
 				> li {
-					@include columns(4);
+					@include width-column(4);
 					line-height: 1.6em;
 					@media (max-width: $gl-sm-screen) {
-						@include columns(2);
+						@include width-column(2);
 					}
 				}
 			}

@@ -10,24 +10,7 @@
 		.items {
 			@include flex-row($gap: "gap", $wrap: "nowrap", $align-row-v: center, $align-h: center);
 		}
-	}
-	
-	.cl-shortcode--social-item {
-		@include columns(3);
 		
-		a {
-			@include flex-column($align-column-h: center);
-			border-bottom: none;
-			
-			img {
-				margin: 0;
-				width: 5rem;
-				height: 5rem;
-			}
-			
-			p {
-				margin-top: 0.5rem;
-				margin-bottom: 0;
-			}
-		}
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
 	}

@@ -1,24 +1,97 @@
-/*
+/*	--------
 	screen size breakpoints
 	unit: px
 	declared as sass variables because css variables don't work in media queries
-*/
+	-------- */
 	$gl-sm-screen: 720px !default;
 	$gl-lg-screen: 1920px !default;
 	$gl-menu-short: 900px !default;
 
 
-/*
-	mixins
-*/
 
-	@mixin columns($nbcols) {
-		$nbgaps: $nbcols - 1;
-		width: calc( (100% - #{$nbgaps} * var(--column-gap)) / #{$nbcols} - 0.001px);
+/*	--------
+	mixins
+	-------- */
+
+	@mixin colors($tag) {
+		/*
+			adds color css elements to a tag:
+			- background-color
+			- (text) color
+		*/
+		
+		@if "a" == $tag {
+			background-color: var(--color-back-a);
+			color: var(--color-text-a);
+		}
+		@else if "a:hover" == $tag {
+			background-color: var(--color-back-a-hover);
+			color: var(--color-text-a-hover);
+		}
+		@else if "b" == $tag {
+			background-color: var(--color-back-b);
+			color: var(--color-text-b);
+		}
+		@else if "blockquote" == $tag {
+			background-color: var(--color-back-blockquote);
+			color: var(--color-text-blockquote);
+		}
+		@else if "button-primary" == $tag {
+			background-color: var(--color-back-button-primary);
+			color: var(--color-text-button-primary);
+		}
+		@else if "button-primary-hover" == $tag {
+			background-color: var(--color-back-button-primary-hover);
+			color: var(--color-text-button-primary-hover);
+		}
+		@else if "button-secondary" == $tag {
+			background-color: var(--color-back-button-secondary);
+			color: var(--color-text-button-secondary);
+		}
+		@else if "button-secondary-hover" == $tag {
+			background-color: var(--color-back-button-secondary-hover);
+			color: var(--color-text-button-secondary-hover);
+		}
+		@else if "h1" == $tag {
+			background-color: var(--color-back-h1);
+			color: var(--color-text-h1);
+		}
+		@else if "h2" == $tag {
+			background-color: var(--color-back-h2);
+			color: var(--color-text-h2);
+		}
+		@else if "h3" == $tag {
+			background-color: var(--color-back-h3);
+			color: var(--color-text-h3);
+		}
+		@else if "h4" == $tag {
+			background-color: var(--color-back-h4);
+			color: var(--color-text-h4);
+		}
+		@else if "h5" == $tag {
+			background-color: var(--color-back-h5);
+			color: var(--color-text-h5);
+		}
+		@else if "li" == $tag {
+			background-color: var(--color-back-li);
+			color: var(--color-text-li);
+		}
+		@else if "p" == $tag {
+			background-color: var(--color-back-p);
+			color: var(--color-text-p);
+		}
+		@else if "time" == $tag {
+			background-color: var(--color-back-time);
+			color: var(--color-text-time);
+		}
+		@else {
+			background-color: var(--color-back);
+			color: var(--color-text);
+		}
 	}
-	
-	/* remove top margin from first element and bottom margin from last element */
+
 	@mixin firstlastchildnomargin {
+		/* remove top margin from first element and bottom margin from last element */
 		> :first-child {
 			margin-top: 0;
 		}
@@ -27,139 +100,8 @@
 		}
 	}
 
-	/*
-		background image
-	*/
-	@mixin img-back($z-index: 0) {
-		position: absolute;
-		height: inherit; /* ! parent container must have fixed height */
-		width: 100%;
-		max-width: var(--page-max-width);
-		object-fit: cover;
-		@if 0 != $z-index {
-			z-index: $z-index;
-		}
-	}
-	
-	@mixin img-circle($size) {
-		width: $size !important;
-		height: $size !important;
-		border-radius: 50%;		
-	}
-	
-	/*
-		image full width of parent container
-	*/
-	@mixin img-contain {
-		display: block;
-		height: 100%;
-		width: 100%;
-		object-fit: contain;
-	}
-
-	/*
-		image full height and width of parent container
-	*/
-	@mixin img-cover {
-		display: block;
-		height: 100%;
-		width: 100%;
-		object-fit: cover;
-	}
-	
-	/*
-		image on same line as text, useful for icons
-	*/
-	@mixin img-sameline {
-		display: inline-block;
-	}
-	
-	/*
-		"responsive" image
-		width cannot exceed 100% but can be less
-		img is contained within parent container (cannot overflow from it)
-	 */
-	@mixin img-resp {
-		display: block; /* prevent line height from being added to div height */
-		max-width: 100%;
-		height: auto;
-		object-fit: contain;
-	}
-	
-	/* margins for content
-		marginv: "tall", "medium", "small", "none"
-		marginh: "wide", "normal", "gap", "none"
-	*/
-	@mixin margins($vertical: "medium", $horizontal: "normal") {
-		
-		@if "tall" == $vertical {
-			margin-top: 5em !important;
-			margin-bottom: 5em !important;
-		}
-		@else if "medium" == $vertical {
-			margin-top: 3em !important;
-			margin-bottom: 3em !important;		
-		}
-		@else if "small" == $vertical {
-			margin-top: 1em !important;
-			margin-bottom: 1em !important;
-		}
-		@else if "none" == $vertical {
-			margin-top: 0 !important;
-			margin-bottom: 0 !important;
-		}
-		
-		@if "normal" == $horizontal {
-			margin-left: auto; /* use auto to center div on page */
-			margin-right: auto; /* use auto to center div on page */
-			width: 80vw;
-			max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
-			@media (max-width: $gl-sm-screen) {
-				margin-left: var(--column-gap);
-				margin-right: var(--column-gap); 
-				width: calc(100% - var(--column-gap) * 2);
-				max-width: calc(100% - var(--column-gap) * 2);
-			}
-		}
-		@else if "wide" == $horizontal {
-			/* use for narrow content such as forms */
-			margin-left: auto; /* use auto to center div on page */
-			margin-right: auto; /* use auto to center div on page */
-			width: 50vw;
-			max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
-			@media (max-width: $gl-sm-screen) {
-				margin-left: var(--column-gap);
-				margin-right: var(--column-gap);
-				width: calc(100% - var(--column-gap) * 2 );
-				max-width: calc(100% - var(--column-gap) * 2 );
-			}
-		}
-		@else if "gap" == $horizontal {
-				margin-left: var(--column-gap);
-				margin-right: var(--column-gap); 
-				width: calc(100% - var(--column-gap) * 2);
-		}
-		@else if "none" == $horizontal {
-				margin-left: 0;
-				margin-right: 0;
-				width: calc( 100% );
-		}
-	}
-
-	/* use to display two columns that become 1 vertical column on sm screens */
-	@mixin two-columns($sm-screen-direction: column) {
-		--column-gap: var(--column-gap-big);
-		display: flex;
-		flex-direction: row;
-		align-items: flex-start;
-		gap: var(--column-gap);
-		@media (max-width: $gl-sm-screen) {
-			flex-direction: $sm-screen-direction;
-		}
-	}
-	
-
 	@mixin flex-column($gap: "none", $wrap: "nowrap", $align-column-h: flex-start, $align-h: flex-start, $align-v: flex-start) {
+		/* creates a flexbox column */
 		display: flex;
 		flex-direction: column;
 		align-content: $align-h;
@@ -190,6 +132,7 @@
 	}
 	
 	@mixin flex-row($gap: "none", $wrap: "nowrap", $align-row-v: flex-start, $align-v: flex-start, $align-h: flex-start) {
+		/* creates a flexbox row */
 		display: flex;
 		flex-direction: row;
 		align-content: $align-v;
@@ -233,12 +176,133 @@
 		}
 	}
 
+	@mixin height-hero {
+		height: var(--hero-height);
+	}
+	
 	@mixin height-module {
+		/* sets height to module height */
 		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
 		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
 	}
 	
+	@mixin img-back($z-index: 0) {
+		/* background image, full size of parent */
+		position: absolute;
+		height: inherit; /* ! parent container must have fixed height */
+		width: 100%;
+		max-width: var(--page-max-width);
+		object-fit: cover;
+		@if 0 != $z-index {
+			z-index: $z-index;
+		}
+	}
+	
+	@mixin img-circle($size) {
+		/* round image */
+		width: $size !important;
+		height: $size !important;
+		border-radius: 50%;		
+	}
+	
+	@mixin img-contain {
+		/* image full width of parent container, height based on image ratio */
+		display: block;
+		height: auto;
+		width: 100%;
+		object-fit: contain;
+	}
+
+	@mixin img-cover {
+		/* image full size of parent container, cropped to fill parent container */
+		display: block;
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	@mixin img-responsive {
+		display: block; /* prevent line height from being added to div height */
+		max-width: 100%;
+		height: auto;
+	}
+	
+	@mixin img-sameline {
+		/* image on same line as text, useful to add icons in text */
+		display: inline-block;
+	}
+	
+	@mixin margins($vertical: "medium", $horizontal: "normal") {
+		/* margins for content
+			marginv: "tall", "medium", "short", "none"
+			marginh: "wide", "normal", "gap", "none"
+		*/
+		
+		@if "tall" == $vertical {
+			margin-top: 5em !important;
+			margin-bottom: 5em !important;
+		}
+		@else if "medium" == $vertical {
+			margin-top: 3em !important;
+			margin-bottom: 3em !important;		
+		}
+		@else if "short" == $vertical {
+			margin-top: 1em !important;
+			margin-bottom: 1em !important;
+		}
+		@else if "none" == $vertical {
+			margin-top: 0 !important;
+			margin-bottom: 0 !important;
+		}
+		@else {
+			margin-top : $vertical !important;
+			margin-bottom: $vertical !important;
+		}
+		
+		@if "normal" == $horizontal {
+			margin-left: auto; /* use auto to center div on page */
+			margin-right: auto; /* use auto to center div on page */
+			width: 80vw;
+			max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
+			@media (max-width: $gl-sm-screen) {
+				margin-left: var(--column-gap);
+				margin-right: var(--column-gap); 
+				width: calc(100% - var(--column-gap) * 2);
+				max-width: calc(100% - var(--column-gap) * 2);
+			}
+		}
+		@else if "wide" == $horizontal {
+			/* use for narrow content such as forms */
+			margin-left: auto; /* use auto to center div on page */
+			margin-right: auto; /* use auto to center div on page */
+			width: 50vw;
+			max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
+			@media (max-width: $gl-sm-screen) {
+				margin-left: var(--column-gap);
+				margin-right: var(--column-gap);
+				width: calc(100% - var(--column-gap) * 2 );
+				max-width: calc(100% - var(--column-gap) * 2 );
+			}
+		}
+		@else if "gap" == $horizontal {
+				margin-left: var(--column-gap);
+				margin-right: var(--column-gap); 
+				width: calc(100% - var(--column-gap) * 2);
+		}
+		@else if "none" == $horizontal {
+				margin-left: 0;
+				margin-right: 0;
+				width: calc( 100% );
+		}
+		@else {
+				margin-left: $horizontal;
+				margin-right: $horizontal; 
+				width: calc(100% - #{$horizontal} * 2);			
+		}
+	}
+
 	@mixin scroll-h {
+		/* creates container with horizontal overflow + horizontal scroll bar */
 		overflow-x: scroll;
 		
 		&::-webkit-scrollbar {
@@ -259,6 +323,233 @@
 		
 	}
 
+	@mixin size($height: "unset", $width: "unset", $height-sm: "unset", $width-sm: "unset", $min-height: "unset", $min-width: "unset", $min-height-sm: "unset", $min-width-sm: "unset", $max-height: "unset", $max-width: "unset", $max-height-sm: "unset", $max-width-sm: "unset") {
+		@if "unset" != $height {
+			height: $height;
+		}
+		@if "unset" != $width {
+			width: $width;
+		}
+		@if "unset" != $min-height {
+			min-height: $min-height;
+		}
+		@if "unset" != $min-width {
+			min-width: $min-width;
+		}
+		@if "unset" != $max-height {
+			max-height: $max-height;
+		}
+		@if "unset" != $max-width {
+			max-width: $max-width;
+		}
+		@media (max-width: $gl-sm-screen) {
+			height: 100vw;
+			@if "unset" != $height-sm {
+				height: $height-sm;
+			}
+			@if "unset" != $width-sm {
+				width: $width-sm;
+			}
+			@if "unset" != $min-height-sm {
+				min-height: $min-height-sm;
+			}
+			@if "unset" != $min-width-sm{ 
+				min-width: $min-width-sm;
+			}
+			@if "unset" != $max-height-sm {
+				max-height: $max-height-sm;
+			}
+			@if "unset" != $max-width-sm {
+				max-width: $max-width-sm;
+			}
+		}
+	}
+	
+	@mixin text($tag) {
+		/*
+			applies the same set of standard text properties to a tag:
+			- font-family
+			- font-weight
+			- font-size
+			- line-height
+			- text-align
+			- text-transform
+		*/
+		
+		@if "b" == $tag {
+			font-family: var(--font-family-b);
+			font-weight: var(--font-weight-b);
+			font-size: calc(var(--font-size) * var(--font-ratio));
+			line-height: var(--line-height-b);
+			text-align: var(--text-align-b);
+			text-transform: var(--text-transform-b);
+		}
+		@else if "blockquote" == $tag {
+			font-family: var(--font-family-blockquote);
+			font-weight: var(--font-weight-blockquote);
+			font-size: calc(var(--font-size-blockquote) * var(--font-ratio));
+			line-height: var(--line-height-blockquote);
+			text-align: var(--text-align-blockquote);
+			text-transform: var(--text-transform-blockquote);
+		}
+		@else if "button-primary" == $tag {
+			font-family: var(--font-family-button);
+			font-weight: var(--font-weight-button);
+			font-size: calc(var(--font-size-button-primary) * var(--font-ratio));
+			line-height: var(--line-height-button-primary);
+			text-align: var(--text-align-button-primary);
+			text-transform: var(--text-transform-button-primary);
+		}
+		@else if "button-secondary" == $tag {
+			font-family: var(--font-family-button);
+			font-weight: var(--font-weight-button);
+			font-size: calc(var(--font-size-button-secondary) * var(--font-ratio));
+			line-height: var(--line-height-button-secondary);
+			text-align: var(--text-align-button-secondary);
+			text-transform: var(--text-transform-button-secondary);
+		}
+		@else if "h1" == $tag {
+			font-family: var(--font-family-h);
+			font-weight: var(--font-weight-h);
+			font-size: calc(var(--font-size-h1) * var(--font-ratio));
+			line-height: var(--line-height-h1);
+			text-align: var(--text-align-h1);
+			text-transform: var(--text-transform-h1);
+		}
+		@else if "h2" == $tag {
+			font-family: var(--font-family-h);
+			font-weight: var(--font-weight-h);
+			font-size: calc(var(--font-size-h2) * var(--font-ratio));
+			line-height: var(--line-height-h2);
+			text-align: var(--text-align-h2);
+			text-transform: var(--text-transform-h2);
+		}
+		@else if "h3" == $tag {
+			font-family: var(--font-family-h);
+			font-weight: var(--font-weight-h);
+			font-size: calc(var(--font-size-h3) * var(--font-ratio));
+			line-height: var(--line-height-h3);
+			text-align: var(--text-align-h3);
+			text-transform: var(--text-transform-h3);
+		}
+		@else if "h4" == $tag {
+			font-family: var(--font-family-h);
+			font-weight: var(--font-weight-h);
+			font-size: calc(var(--font-size-h4) * var(--font-ratio));
+			line-height: var(--line-height-h4);
+			text-align: var(--text-align-h4);
+			text-transform: var(--text-transform-h4);
+		}
+		@else if "h5" == $tag {
+			font-family: var(--font-family-h);
+			font-weight: var(--font-weight-h);
+			font-size: calc(var(--font-size-h5) * var(--font-ratio));
+			line-height: var(--line-height-h5);
+			text-align: var(--text-align-h5);
+			text-transform: var(--text-transform-h5);
+		}
+		@else if "li" == $tag {
+			font-family: var(--font-family);
+			font-weight: var(--font-weight);
+			font-size: calc(var(--font-size) * var(--font-ratio));
+			line-height: var(--line-height-li);
+			text-align: var(--text-align-li);
+			text-transform: var(--text-transfor-lim);
+		}
+		@else if "p" == $tag {
+			font-family: var(--font-family);
+			font-weight: var(--font-weight);
+			font-size: calc(var(--font-size) * var(--font-ratio));
+			line-height: var(--line-height-p);
+			text-align: var(--text-align-p);
+			text-transform: var(--text-transform-p);
+		}
+		@else {
+			font-family: var(--font-family);
+			font-weight: var(--font-weight);
+			font-size: calc(var(--font-size) * var(--font-ratio));
+			line-height: var(--line-height);
+			text-align: var(--text-align);
+			text-transform: var(--text-transform);
+		}
+	}
+	
+	@mixin topbotmargins($tag) {
+		/*
+			applies top and bottom margins to a tag:
+			- margin-top
+			- margin-bottom
+		 */
+		
+		@if "blockquote" == $tag {
+			margin-top: var(--margin-top-blockquote);
+			margin-bottom: var(--margin-bottom-blockquote);
+		}
+		@else if "button-primary" == $tag {
+			margin-top: var(--margin-top-button-primary);
+			margin-bottom: var(--margin-bottom-button-primary);
+		}
+		@else if "button-secondary" == $tag {
+			margin-top: var(--margin-top-button-secondary);
+			margin-bottom: var(--margin-bottom-button-secondary);
+		}
+		@else if "h1" == $tag {
+			margin-top: var(--margin-top-h1);
+			margin-bottom: var(--margin-bottom-h1);
+		}
+		@else if "h2" == $tag {
+			margin-top: var(--margin-top-h2);
+			margin-bottom: var(--margin-bottom-h2);
+		}
+		@else if "h3" == $tag {
+			margin-top: var(--margin-top-h3);
+			margin-bottom: var(--margin-bottom-h3);
+		}
+		@else if "h4" == $tag {
+			margin-top: var(--margin-top-h4);
+			margin-bottom: var(--margin-bottom-h4);
+		}
+		@else if "h5" == $tag {
+			margin-top: var(--margin-top-h5);
+			margin-bottom: var(--margin-bottom-h5);
+		}
+		@else if "img" == $tag {
+			margin-top: var(--margin-top-img);
+			margin-bottom: var(--margin-bottom-img);
+		}
+		@else if "li" == $tag {
+			margin-top: var(--margin-top-li);
+			margin-bottom: var(--margin-bottom-li);
+		}
+		@else if "p" == $tag {
+			margin-top: var(--margin-top-p);
+			margin-bottom: var(--margin-bottom-p);
+		}
+		@else if "ul" == $tag {
+			margin-top: var(--margin-top-ul);
+			margin-bottom: var(--margin-bottom-ul);
+		}
+	}
+
+	@mixin two-columns($sm-screen-direction: column) {
+		/* displays two columns that become 1 vertical column on sm screens */
+		--column-gap: var(--column-gap-big);
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		gap: var(--column-gap);
+		@media (max-width: $gl-sm-screen) {
+			flex-direction: $sm-screen-direction;
+		}
+	}
+
+	@mixin width-column($col-nb, $col-span: 1) {
+		/* determines width of column based on number of columns $nbcols and gap */
+		$gap-nb: $col-nb - 1;
+		$gap-span: $col-span - 1;
+		width: calc( (100% - #{$gap-nb} * var(--column-gap)) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px);
+	}
+	
 	@mixin width-onethird {
 		width: calc( 33% );
 		@media (max-width: $gl-sm-screen) {

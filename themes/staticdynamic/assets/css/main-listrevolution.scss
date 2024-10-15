@@ -6,15 +6,14 @@
 		/* list of episodes */
 		ul {
 			@include flex-row($gap: "gap", $wrap: "wrap");
-			list-style: none;
-			padding: 0;
+			list-style-type: none;
 		}
 		
 		/* episode */
-		li {	
-			@include columns(3);
+		li {
+			@include width-column(3);
 			height: 100%;
-			margin-bottom: 2rem;
+			margin-bottom: 1rem;
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
 			}

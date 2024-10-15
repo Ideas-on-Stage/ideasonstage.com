@@ -9,4 +9,7 @@
 		img {
 			width: 100%; /* make image full width of container */
 		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
 	}

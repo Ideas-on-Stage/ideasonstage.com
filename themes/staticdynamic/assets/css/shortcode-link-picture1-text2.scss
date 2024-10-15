@@ -15,4 +15,7 @@
 				@include img-contain;
 			}
 		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
 	}

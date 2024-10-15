@@ -2,4 +2,7 @@
 
 	.cl-side-links {
 		padding: 1em;	
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
 	}

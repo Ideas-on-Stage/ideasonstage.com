@@ -10,4 +10,7 @@
 				width: 50%;
 			}
 		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
 	}

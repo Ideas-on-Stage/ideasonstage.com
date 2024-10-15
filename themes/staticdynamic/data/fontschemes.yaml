@@ -16,6 +16,10 @@ body-carousel:
     - "--font-size: 0.8"
     - "--font-size-button-secondary: 0.8"
 
+body-cta:
+    - "--text-align-h2: center"
+    - "--text-align-p: center"
+
 body-content404:
     - "--margin-top-h1: 1em"
     - "--text-align-h1: center"
@@ -30,6 +34,10 @@ body-h1home:
 
 body-h1hero--hero:
     - "--text-align-h1: center"
+
+body-herorevolution:
+    - "--text-align: center"
+    - "--margin-bottom-h2: 0.5em"
 
 body-side-main--side:
     - "--padding: 0"
@@ -51,6 +59,12 @@ bodybottom-footer:
     - "--font-size-h3: 1"
     - "--text-transform-h3: uppercase"
     - "--margin-top-li: 1.5em"
+
+bodylazy-location:
+    - "--margin-top-h2: 2em"
+    - "--margin-bottom-h2: 0em"
+    - "--text-align-h2: center"
+    - "--text-align-p: center"
 
 bodylazy-testimonials:
     - "--font-size: 0.8"
@@ -88,6 +102,10 @@ main-listrevolution:
 main-listteam:
     - "--font-size: 0.75"
     - "--font-size-h2: 1"
+    - "--margin-top-h2: 8px"
+    - "--margin-bottom-h2: 4px"
+    - "--margin-top-p: 0"
+    - "--margin-bottom-p: 0"
 
 main-positionteam:
     - "--font-size-h2: 1.2"
@@ -96,15 +114,33 @@ main-positionteam:
 modules:
     - "--font-size-h3: 1.8"
 
-call-to-action:
-    - "--text-align: center"
-    - "--text-align-h3: center"
 
 tags:
     - "--font-size: 0.8"
     - "--text-transform: uppercase"
 
+#shortcodes
+agenda-item:
+    - "--text-align: center"
+    - "--margin-bottom-h4: 0.2em"
+    - "--text-transform-h4: uppercase"
+    - "--font-size-h4: 1em"
+    - "--margin-top-p: 0em"
+    
+agenda-list:
+    - "--text-align: center"
 
+call-to-action:
+    - "--text-align: center"
+    - "--text-align-h3: center"
+
+icon-list:
+    - "--margin-bottom-h3: 1.5em"
+    - "--text-align-h3: center"
+
+icon-item:
+    - "--margin-top-p: 0.5em"
+    - "--text-align-p: center"
 
 # -----------------
 # base font schemes

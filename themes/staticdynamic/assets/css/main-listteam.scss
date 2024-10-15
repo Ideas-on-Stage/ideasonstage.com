@@ -6,7 +6,7 @@
 		
 		.teammember {
 			@include flex-column($align-column-h: center);
-			@include columns(3);
+			@include width-column(3);
 			
 			@media (max-width: $gl-sm-screen) {
 				width: 100%;
@@ -23,12 +23,7 @@
 				filter: grayscale(0%);
 			}
 				
-			h2 {
-				margin: 4px 0;
-			}
-			
 			p {
-				margin: 0;
 				color: var(--color-text-muted);
 			}
 		}

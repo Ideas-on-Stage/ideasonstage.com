@@ -3,6 +3,10 @@
 	.cl-main-content {
 		@include firstlastchildnomargin;
 		
+		>p img {
+			@include topbotmargins("img");
+		}
+		
 		/*
 			TODO: adapt so it can be themed like other tags
 			but it is not used at all right now, so low priority

@@ -1,7 +1,5 @@
 {{ partial "e/sass.scss" . }}
 
-$tags-padding: 0.25em 0.5em !default;
-
 	.cl-tags {
 		@include flex-row($gap: 0.5em, $wrap: "wrap");
 		list-style: none;
@@ -11,7 +9,7 @@ $tags-padding: 0.25em 0.5em !default;
 		
 		li {
 			margin: 0;
-			padding: $tags-padding;
+			padding: 0.25em 0.5em;
 			
 			a {
 				border-bottom: none;

@@ -1,253 +1,5 @@
 {{ partial "e/sass.scss" . }}
 
-	@mixin text($tag) {
-		
-		/*
-			applies the same set of standard text properties to a tag:
-			- font-family
-			- font-weight
-			- font-size
-			- line-height
-			- text-align
-			- text-transform
-		*/
-		
-		@if "b" == $tag {
-			font-family: var(--font-family-b);
-			font-weight: var(--font-weight-b);
-			font-size: calc(var(--font-size) * var(--font-ratio));
-			line-height: var(--line-height-b);
-			text-align: var(--text-align-b);
-			text-transform: var(--text-transform-b);
-		}
-		@else if "blockquote" == $tag {
-			font-family: var(--font-family-blockquote);
-			font-weight: var(--font-weight-blockquote);
-			font-size: calc(var(--font-size-blockquote) * var(--font-ratio));
-			line-height: var(--line-height-blockquote);
-			text-align: var(--text-align-blockquote);
-			text-transform: var(--text-transform-blockquote);
-		}
-		@else if "button-primary" == $tag {
-			font-family: var(--font-family-button);
-			font-weight: var(--font-weight-button);
-			font-size: calc(var(--font-size-button-primary) * var(--font-ratio));
-			line-height: var(--line-height-button-primary);
-			text-align: var(--text-align-button-primary);
-			text-transform: var(--text-transform-button-primary);
-		}
-		@else if "button-secondary" == $tag {
-			font-family: var(--font-family-button);
-			font-weight: var(--font-weight-button);
-			font-size: calc(var(--font-size-button-secondary) * var(--font-ratio));
-			line-height: var(--line-height-button-secondary);
-			text-align: var(--text-align-button-secondary);
-			text-transform: var(--text-transform-button-secondary);
-		}
-		@else if "h1" == $tag {
-			font-family: var(--font-family-h);
-			font-weight: var(--font-weight-h);
-			font-size: calc(var(--font-size-h1) * var(--font-ratio));
-			line-height: var(--line-height-h1);
-			text-align: var(--text-align-h1);
-			text-transform: var(--text-transform-h1);
-		}
-		@else if "h2" == $tag {
-			font-family: var(--font-family-h);
-			font-weight: var(--font-weight-h);
-			font-size: calc(var(--font-size-h2) * var(--font-ratio));
-			line-height: var(--line-height-h2);
-			text-align: var(--text-align-h2);
-			text-transform: var(--text-transform-h2);
-		}
-		@else if "h3" == $tag {
-			font-family: var(--font-family-h);
-			font-weight: var(--font-weight-h);
-			font-size: calc(var(--font-size-h3) * var(--font-ratio));
-			line-height: var(--line-height-h3);
-			text-align: var(--text-align-h3);
-			text-transform: var(--text-transform-h3);
-		}
-		@else if "h4" == $tag {
-			font-family: var(--font-family-h);
-			font-weight: var(--font-weight-h);
-			font-size: calc(var(--font-size-h4) * var(--font-ratio));
-			line-height: var(--line-height-h4);
-			text-align: var(--text-align-h4);
-			text-transform: var(--text-transform-h4);
-		}
-		@else if "h5" == $tag {
-			font-family: var(--font-family-h);
-			font-weight: var(--font-weight-h);
-			font-size: calc(var(--font-size-h5) * var(--font-ratio));
-			line-height: var(--line-height-h5);
-			text-align: var(--text-align-h5);
-			text-transform: var(--text-transform-h5);
-		}
-		@else if "li" == $tag {
-			font-family: var(--font-family);
-			font-weight: var(--font-weight);
-			font-size: calc(var(--font-size) * var(--font-ratio));
-			line-height: var(--line-height-li);
-			text-align: var(--text-align-li);
-			text-transform: var(--text-transfor-lim);
-		}
-		@else if "p" == $tag {
-			font-family: var(--font-family);
-			font-weight: var(--font-weight);
-			font-size: calc(var(--font-size) * var(--font-ratio));
-			line-height: var(--line-height-p);
-			text-align: var(--text-align-p);
-			text-transform: var(--text-transform-p);
-		}
-		@else {
-			font-family: var(--font-family);
-			font-weight: var(--font-weight);
-			font-size: calc(var(--font-size) * var(--font-ratio));
-			line-height: var(--line-height);
-			text-align: var(--text-align);
-			text-transform: var(--text-transform);
-		}
-	}
-	
-	@mixin topbotmargins($tag) {
-		
-		/*
-			applies top and bottom margins to a tag:
-			- margin-top
-			- margin-bottom
-		 */
-		
-		@if "blockquote" == $tag {
-			margin-top: var(--margin-top-blockquote);
-			margin-bottom: var(--margin-bottom-blockquote);
-		}
-		@else if "button-primary" == $tag {
-			margin-top: var(--margin-top-button-primary);
-			margin-bottom: var(--margin-bottom-button-primary);
-		}
-		@else if "button-secondary" == $tag {
-			margin-top: var(--margin-top-button-secondary);
-			margin-bottom: var(--margin-bottom-button-secondary);
-		}
-		@else if "h1" == $tag {
-			margin-top: var(--margin-top-h1);
-			margin-bottom: var(--margin-bottom-h1);
-		}
-		@else if "h2" == $tag {
-			margin-top: var(--margin-top-h2);
-			margin-bottom: var(--margin-bottom-h2);
-		}
-		@else if "h3" == $tag {
-			margin-top: var(--margin-top-h3);
-			margin-bottom: var(--margin-bottom-h3);
-		}
-		@else if "h4" == $tag {
-			margin-top: var(--margin-top-h4);
-			margin-bottom: var(--margin-bottom-h4);
-		}
-		@else if "h5" == $tag {
-			margin-top: var(--margin-top-h5);
-			margin-bottom: var(--margin-bottom-h5);
-		}
-		@else if "img" == $tag {
-			margin-top: var(--margin-top-img);
-			margin-bottom: var(--margin-bottom-img);
-		}
-		@else if "li" == $tag {
-			margin-top: var(--margin-top-li);
-			margin-bottom: var(--margin-bottom-li);
-		}
-		@else if "p" == $tag {
-			margin-top: var(--margin-top-p);
-			margin-bottom: var(--margin-bottom-p);
-		}
-		@else if "ul" == $tag {
-			margin-top: var(--margin-top-ul);
-			margin-bottom: var(--margin-bottom-ul);
-		}
-	}
-	
-	@mixin colors($tag) {
-
-		/*
-			applies colors to a tag:
-			- background-color
-			- (text) color
-		*/
-		
-		@if "a" == $tag {
-			background-color: var(--color-back-a);
-			color: var(--color-text-a);
-		}
-		@else if "a:hover" == $tag {
-			background-color: var(--color-back-a-hover);
-			color: var(--color-text-a-hover);
-		}
-		@else if "b" == $tag {
-			background-color: var(--color-back-b);
-			color: var(--color-text-b);
-		}
-		@else if "blockquote" == $tag {
-			background-color: var(--color-back-blockquote);
-			color: var(--color-text-blockquote);
-		}
-		@else if "button-primary" == $tag {
-			background-color: var(--color-back-button-primary);
-			color: var(--color-text-button-primary);
-		}
-		@else if "button-primary-hover" == $tag {
-			background-color: var(--color-back-button-primary-hover);
-			color: var(--color-text-button-primary-hover);
-		}
-		@else if "button-secondary" == $tag {
-			background-color: var(--color-back-button-secondary);
-			color: var(--color-text-button-secondary);
-		}
-		@else if "button-secondary-hover" == $tag {
-			background-color: var(--color-back-button-secondary-hover);
-			color: var(--color-text-button-secondary-hover);
-		}
-		@else if "h1" == $tag {
-			background-color: var(--color-back-h1);
-			color: var(--color-text-h1);
-		}
-		@else if "h2" == $tag {
-			background-color: var(--color-back-h2);
-			color: var(--color-text-h2);
-		}
-		@else if "h3" == $tag {
-			background-color: var(--color-back-h3);
-			color: var(--color-text-h3);
-		}
-		@else if "h4" == $tag {
-			background-color: var(--color-back-h4);
-			color: var(--color-text-h4);
-		}
-		@else if "h5" == $tag {
-			background-color: var(--color-back-h5);
-			color: var(--color-text-h5);
-		}
-		@else if "li" == $tag {
-			background-color: var(--color-back-li);
-			color: var(--color-text-li);
-		}
-		@else if "p" == $tag {
-			background-color: var(--color-back-p);
-			color: var(--color-text-p);
-		}
-		@else if "time" == $tag {
-			background-color: var(--color-back-time);
-			color: var(--color-text-time);
-		}
-		@else {
-			background-color: var(--color-back);
-			color: var(--color-text);
-		}
-	}
-
-
-
 	* {
 		/* use box-sizing as the default sizing model */
 		box-sizing: border-box;
@@ -272,10 +24,12 @@
 	h3 > a,
 	h4 > a,
 	h5 > a {
+		/* inherit text attributes from parent tag */
 		font-family: inherit;
 		font-weight: inherit;
 		font-size: inherit;
 		color: inherit;
+		text-transform: inherit;
 	}
 	
 	aside {
@@ -311,6 +65,7 @@
 
 	div {
 		@include colors("div");
+		@include text("div");
 	}	
 
 	footer {
@@ -352,8 +107,7 @@
 	}
 
 	img {
-		@include topbotmargins("img");
-		@include img-resp;
+		@include img-responsive;
 	}
 
 	input {

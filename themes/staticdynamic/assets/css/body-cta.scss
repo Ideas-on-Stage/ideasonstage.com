@@ -2,24 +2,14 @@
 
 	.cl-body-cta {
 		@include flex-column($align-column-h: center, $align-v: center);
+		padding-left: 1em;
+		padding-right: 1em;
 		height: var(--hero-height);
 		width: var(--hero-width);
 		overflow: hidden;
 		
 		> img {
 			@include img-back($z-index: -100);
-		}
-		
-		> h2 {
-			text-align: center;
-			margin-left: 1em;
-			margin-right: 1em;
-		}
-		
-		> p {
-			text-align: center;
-			margin-left: 1em;
-			margin-right: 1em;
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};

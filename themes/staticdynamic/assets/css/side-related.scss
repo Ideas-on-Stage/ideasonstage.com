@@ -1,5 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-side-related {
-		padding: 1em;	
+		padding: 1em;
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/fontscheme.scss" . }}
 	}
