@@ -1,13 +1,9 @@
 {{/* <!--
 	
-	f/getdata
+	f/getlocalizeddata
 
-	Standardizes data access base
-	If it's a page, will use .Params as base
-	If it's another object such as a data object, use . as base
-	
-	This allows to use for example .picture without having to wonder if it's .picture or .Params.picture
-	
+	For a data structure, retrieves localized entry
+
 --> */}}
 
 {{ $data := . }}

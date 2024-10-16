@@ -15,7 +15,9 @@ contact:
     subtitle: "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d’un jour ouvré."
 ---
 
-Cette formation phare de notre programme, enseignée dans les meilleures écoles de commerce françaises, couvre les modules storytelling, présentations PowerPoint et art oratoire sur deux jours, pour un apprentissage en profondeur avec beaucoup d’exercices pratiques. Si vous avez peu de temps disponible pour former vos équipes, [cette formation est également disponible sur 1 journée](/fr/formation-prise-de-parole-1-jour/). 
+Cette formation phare de notre programme, enseignée dans les meilleures écoles de commerce françaises, couvre les modules storytelling, présentations PowerPoint et art oratoire sur deux jours, pour un apprentissage en profondeur avec beaucoup d’exercices pratiques. Si vous avez peu de temps disponible pour former vos équipes, [cette formation est également disponible sur 1 journée](/fr/formation-prise-de-parole-1-jour/).
+
+Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).
 
 {{< shortcode-image-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
 

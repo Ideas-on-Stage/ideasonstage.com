@@ -19,6 +19,8 @@ Cette formation condense l'essentiel des modules storytelling, présentations Po
 
 Pour les groupes souhaitant couvrir les différents sujets plus en profondeur et avec plus de mise en pratique, nous proposons également la [formation prise de parole 2 jours](/fr/formation-prise-de-parole-2-jours/).
 
+Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).
+
 {{< shortcode-agenda-list style="bg-light">}}
 	{{< shortcode-agenda-item title="Objectifs pédagogiques de la formation" description="Combiner le storytelling, les présentations PowerPoint et l'art oratoire pour convaincre son auditoire." >}}
 	{{< shortcode-agenda-item title="Prérequis de la formation" description="Avoir déjà fait une présentation en public.<br>Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>Il n’est pas nécessaire d’avoir un ordinateur." >}}

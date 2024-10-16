@@ -17,6 +17,8 @@ contact:
 
 Ce module est dédié à l’art oratoire et apprendra aux participants comment utiliser les techniques de langage corporel, verbal et émotionnel pour convaincre un auditoire. Il comprend une courte introduction à l'identification et la mise en valeur du message, car il s'agit d'un ingrédient crucial d’une bonne présentation. Pendant la journée, les participants mettront en pratique les techniques apprises sur base d’une présentation de leur choix.
 
+Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).
+
 {{< shortcode-image-wide src="formation-art-oratoire.jpg" alt="Formation à la prise de parole" >}}
 
 {{< shortcode-agenda-list style="bg-light">}}

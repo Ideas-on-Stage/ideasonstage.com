@@ -17,6 +17,8 @@ contact:
 
 Cette formation explique comment utiliser les techniques de storytelling pour créer de meilleures présentations. Cette formation est particulièrement adaptée pour les présentations en entreprise, comme les présentations devant un comité ou les présentations commerciales.
 
+Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).
+
 {{< shortcode-image-wide src="storytelling.jpg" alt="Formation Storytelling" >}}
 
 {{< shortcode-agenda-list style="bg-light">}}

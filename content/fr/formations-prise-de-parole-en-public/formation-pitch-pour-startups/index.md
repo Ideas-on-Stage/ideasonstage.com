@@ -15,3 +15,5 @@ Ideas on Stage a travaillé avec des Startups, des incubateurs et des accéléra
 Suite à notre coaching certaines startups ont levé des millions, convaincu leurs clients et gagné des concours de pitch des deux côtés de l'Atlantique !
 
 Si vous souhaitez bénéficier des conseils de Coachs expérimentés, ou si vous voulez organiser un atelier Pitch pour un groupe de Startups vous pouvez nous contacter via le formulaire ci-dessous.
+
+Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).

@@ -1,0 +1,136 @@
+en:
+    id: ioscontactForm
+    name: contactForm
+    title: "Contact us"
+    description: "Any questions? Use the form below and we'll get back to you shortly"
+    fields:
+    - id: "fname"
+      name: "name"
+      type: "text"
+      required: true
+      text: "Your Name *"
+      warning: "Please enter your name."
+    - id: "email"
+      name: "email"
+      type: "email"
+      required: true
+      text: "Your Email *"
+      warning: "Please enter a valid email address."
+    - id: "phone"
+      name: "phone"
+      type: "tel"
+      required: false
+      text: "Your Phone (optional)"
+      warning: "Please enter a valid phone number."
+    - id: "country"
+      name: "country"
+      type: "text"
+      required: false
+      text: "Your country of residence (optional)"
+      warning: "Please enter your country of residence."
+    - id: "message"
+      name: "message"
+      type: "textarea"
+      required: true
+      text: "Let us know how we can help you *"
+      warning: "Please enter a message."
+    button:
+      id: "contactsubmit"
+      type: "submit"
+      text: "Send message"
+      wait: "Please Wait..."
+      success: "Thank you, we'll get back to you shortly."
+    captcha:
+      key: "6LdPO_4UAAAAAOkPGjWhZSJaqJKKR4XOrf8Xyfs0"
+      warning: "Please Enter CAPTCHA Code.\n"
+      error: "The CAPTCHA Code Does Not Match.\n"
+
+fr:
+    title: "Contactez-nous"
+    description: "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
+    fields:
+    - id: "fname"
+      name: "name"
+      type: "text"
+      required: true
+      text: "Votre nom complet *"
+      warning: "Veuillez entrer votre nom complet."
+    - id: "email"
+      name: "email"
+      type: "email"
+      required: true
+      text: "Votre email *"
+      warning: "Veuillez entrer une adresse e-mail valide."
+    - id: "phone"
+      name: "phone"
+      type: "tel"
+      required: false
+      text: "Votre téléphone (optionnel)"
+      warning: "Veuillez entrer un numéro de téléphone valide."
+    - id: "country"
+      name: "country"
+      type: "text"
+      required: false
+      text: "Votre pays de résidence (optionnel)"
+      warning: "Veuillez entrer votre pays de résidence."
+    - id: "message"
+      name: "message"
+      type: "textarea"
+      required: true
+      text: "Votre message *"
+      warning: "S'il vous plaît entrer un message."
+    button:
+      id: "contactsubmit"
+      type: "submit"
+      button: "Envoyer"
+      wait: "Veuillez patienter..."
+      success: "Merci, nous vous répondrons rapidement."
+    captcha:
+      key: "6LcHff4UAAAAAJOGp7-jMBjBd70L_WuN_YZFAO6q"
+      warning: "Veuillez entrer le code CAPTCHA.\n"
+      error: "Le code CAPTCHA ne correspond pas.\n"
+
+es:
+    title: "Contacta con nosotros"
+    description: "¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible"
+    fields:
+    - id: "fname"
+      name: "name"
+      type: "text"
+      required: true
+      text: "Tu Nombre *"
+      warning: "Por favor, escribe tu nombre."
+    - id: "email"
+      name: "email"
+      type: "email"
+      required: true
+      text: "Tu Email *"
+      warning: "Por favor, introduce un email válido."
+    - id: "phone"
+      name: "phone"
+      type: "tel"
+      required: false
+      text: "Tu teléfono (opcional)"
+      warning: "Por favor, introduce un número de teléfono válido."
+    - id: "country"
+      name: "country"
+      type: "text"
+      required: false
+      text: "Tu páis de residencia (opcional)"
+      warning: "Por favor incluya su país de residencia."
+    - id: "message"
+      name: "message"
+      type: "textarea"
+      required: true
+      text: "Tu Mensaje *"
+      warning: "Por favor, escribe un mensaje."
+    button:
+      id: "contactsubmit"
+      type: "submit"
+      text: "Enviar mensaje"
+      wait: "Un momento ..."
+      success: "Gracias, en breve nos pondremos en contacto contigo."
+    captcha:
+      key: "6Lcnff4UAAAAAG8RHxmsXXggu-WaRriMcsYB5rgG"
+      warning: "Introduzca el código CAPTCHA.\n"
+      error: "El código CAPTCHA no coincide.\n"
