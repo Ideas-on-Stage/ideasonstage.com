@@ -6,6 +6,7 @@
 	- If page then use .Permalink
 	- else try to use .link property
 	- if not found, try to use .url property
+	- if not found, try to use the .href property
 	
 	Arguments:
 	- page, data object, or a structure containing a .link or .url property
@@ -23,6 +24,8 @@
 	{{ $result = .link }}
 {{ else if isset . "url" }}
 	{{ $result = .url }}
+{{ else if isset . "href" }}
+	{{ $result = .href }}
 {{ end }}
 
 {{ return $result }}

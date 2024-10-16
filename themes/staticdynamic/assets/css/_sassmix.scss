@@ -183,6 +183,10 @@
 		height: calc(100vh - var(--menubar-height));
 	}
 	
+	@mixin height-half {
+		height: 50%;
+	}
+	
 	@mixin height-hero {
 		height: var(--hero-height);
 	}
@@ -215,7 +219,7 @@
 	@mixin img-contain {
 		/* image full width of parent container, height based on image ratio */
 		display: block;
-		height: auto;
+		height: 100%;
 		width: 100%;
 		object-fit: contain;
 	}

@@ -21,7 +21,7 @@ Now Officially Included in New York University’s Business Communication Course
 {{< shortcode-call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" >}}
 {{< /shortcode-call-to-action >}}
 
-{{< shortcode-call-to-action style="bg-light" title="Discover your presentation score" picture="meter-orange.png" button="TAKE THE TEST NOW" link="https://presentationscorecard.scoreapp.com">}}
+{{< shortcode-call-to-action style="bg-light" title="Discover your presentation score" picture="meter-orange.png" button="TAKE THE TEST NOW" link="https://presentationscorecard.scoreapp.com" >}}
 To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book. After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. It’s free, easy and takes less than three minutes to complete.
 {{< /shortcode-call-to-action >}}
 
@@ -44,7 +44,13 @@ Andrea is on a mission to stop great ideas from failing just because of the way 
 To get in touch or find out more, check out his [LinkedIn profile](https://www.linkedin.com/in/apacini/). 
 {{< /shortcode-picture1-text2 >}}
 
-{{< shortcode-gallery "/resources/books/confident-presenter-book/reader1.jpg" "/resources/books/confident-presenter-book/reader2.jpg" "/resources/books/confident-presenter-book/reader3.jpg" "/resources/books/confident-presenter-book/reader4.jpg" "/resources/books/confident-presenter-book/reader5.jpg" "/resources/books/confident-presenter-book/reader6.jpg" >}}
+{{< shortcode-gallery
+    "/resources/books/confident-presenter-book/reader1.jpg"
+    "/resources/books/confident-presenter-book/reader2.jpg"
+    "/resources/books/confident-presenter-book/reader3.jpg"
+    "/resources/books/confident-presenter-book/reader4.jpg"
+    "/resources/books/confident-presenter-book/reader5.jpg"
+    "/resources/books/confident-presenter-book/reader6.jpg" >}}
 
 ## Want to book Andrea on your podcast? 
 
@@ -67,8 +73,3 @@ To enhance the value of your episode, Andrea can offer a special digital gift fo
 
 {{< shortcode-call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" >}}
 {{< /shortcode-call-to-action >}}
-
-
-
-
-

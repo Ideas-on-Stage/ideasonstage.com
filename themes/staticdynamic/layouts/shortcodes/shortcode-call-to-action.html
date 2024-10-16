@@ -5,29 +5,38 @@
 	Creates a title + text + button shortcode with a background picture
 	
 	Arguments:
-	- title as string
-	- picture as string
-	- subtitle as string
-	- button as string
+	- .Params.title as string
+	- .Params.picture as string
+	- .Params.subtitle as string
+	- .Params.button as string
+	- .Params.link as string
 	
 --> */}}
 
 {{ "<!-- shortcodes:call-to-action.html:start -->" | safeHTML }}
 <div class="cl-shortcode cl-shortcode--call-to-action {{ with .Params.style }}{{ . }}{{ end }}">
 	{{ with .Params.title }}
-		<h3>{{ . }}</h3>
+		<h3>
+			{{ . }}
+		</h3>
 	{{ end }}
 	{{ if .Params.picture }}
 		<img src="{{ .Params.picture }}" height="192px" alt="{{ .Params.title }}">
 	{{ end }}
 	{{ with .Params.subtitle }}
-		<strong>{{ . }}</strong>
+		<strong>
+			{{ . }}
+		</strong>
 	{{ end }}
-	{{ with .Inner}}
-		<p>{{ . }}</p>
+	{{ with .Inner }}
+		<p>
+			{{ . }}
+		</p>
 	{{ end }}
 	{{ if .Params.button }}
-		<a href="{{ .Params.link }}" class="button cl-core--button-primary">{{ .Params.button }}</a>
+		<a href="{{ partial "f/geturl.go" .Params }}" class="button cl-core--button-primary">
+			{{ .Params.button }}
+		</a>
 	{{ end }}
 </div>
 {{ "<!-- shortcodes:call-to-action.html:end -->" | safeHTML }}

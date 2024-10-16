@@ -15,7 +15,6 @@ Nos formations mettent l'accent sur la mise en pratique via des exercices et des
 
 ## Télécharger le cahier d'exercices
 
-
 {{< shortcode-call-to-action button="Télécharger le cahier d'exercices" link="/training/cahier-exercices-ideas-on-stage.pdf" style="bg-light" >}}
 Vous pouvez télécharger le cahier général d'exercices utilisé pendant nos formations avec le bouton ci-dessous. Ce cahier est utilisé pour les formations prise de parole, storytelling, présentations PowerPoint et art oratoire.
 {{< /shortcode-call-to-action >}}

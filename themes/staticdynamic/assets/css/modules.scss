@@ -15,6 +15,15 @@
 		}
 	}
 	
+	@mixin image($height: 100%, $width: 100%) {
+		height: $height;
+		width: $width;
+		@media (max-width: $gl-sm-screen) {
+			@include width-full;
+			@include height-half;
+		}
+	}
+	
 	@mixin text($height: 100%, $width: 100%) {
 		position: relative;	/* enables z-index */
 		z-index: 10; /* if text overflows, it will go over picture below */
@@ -23,7 +32,7 @@
 		width: $width;		
 		@media (max-width: $gl-sm-screen) {
 			@include width-full;
-			height: 50%;
+			@include height-half;
 			text-align: center;
 		}	
 	}
@@ -54,10 +63,9 @@
 		
 		/* use to create inner div with image on bottom */
 		.image {
-			@include width-full;
-			height: 50%; /* without this, image size can overflow from module */
+			@include image(50%, 100%);
 			
-			img {	
+			img {
 				@include img-contain;
 				object-position: 50% 100%; /* anchor on bottom, horizontal center */
 				@media (max-width: $gl-sm-screen) {
@@ -80,14 +88,13 @@
 		
 		/* use to create inner div with image on bottom */
 		.image {
-			@include width-full;
-			height: 50%; /* without this, image size can overflow from module */
+			@include image(50%, 100%);
 			
 			img {	
 				@include img-contain;
 				object-position: 50% 100%; /* anchor on bottom, horizontal center */
 				@media (max-width: $gl-sm-screen) {
-					object-fit: cover; /* use cover instead of contain on ts screens */
+					object-fit: cover; /* use cover instead of contain on sm screens */
 				}
 			}
 		}		
@@ -101,17 +108,11 @@
 			flex-direction: column-reverse; /* create column with pic on bottom, text on top */
 			justify-content: space-between;
 		}
-			
+		
 		/* div containing pic on left */
 		.image {
-			height: 100%; /* full height of container */
-			width: 64%; /* two-thirds of width of container, leave space on right for text */
-			@media (max-width: $gl-sm-screen) {
-				/* on sm screens, use a column layout where pic is in the bottom half */
-				height: 50%; /* half height of container */
-				width: 100%; /* full width of container */
-			}
-		
+			@include image(100%, 64%);
+			
 			img {
 				@include img-cover;
 				object-position: 100% 50%; /* anchor on right edge (100%), vertical center */

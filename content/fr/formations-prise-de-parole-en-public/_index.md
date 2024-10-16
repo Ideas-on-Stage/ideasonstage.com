@@ -56,8 +56,8 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 - Nous avons un portefeuille de clients et de grandes écoles qui peuvent attester de la qualité de nos formations.
 <p></p>
 {{< shortcode-icon-list title="Organisme de formation depuis 2010" style="bg-light" >}}
-	{{< shortcode-icon-item icon="logo-datadock.png" size= "25p" description="Référencé Datadock" style="st-border" >}}
-	{{< shortcode-icon-item icon="logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="st-border" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
+	{{< shortcode-icon-item icon="logo-datadock.png" description="Référencé Datadock" style="st-border" >}}
+	{{< shortcode-icon-item icon="logo-qualiopi.png" description="Certifié Qualiopi au titre des actions de formation" style="st-border" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
 {{< /shortcode-icon-list >}}
 {{< shortcode-agenda-list style="bg-light" >}}
 	{{< shortcode-agenda-item description="[Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)" >}}
