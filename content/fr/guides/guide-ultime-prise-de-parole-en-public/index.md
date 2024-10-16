@@ -178,7 +178,7 @@ Pour éviter cela, il faut répéter l’exercice des Post-its, et surtout, il f
 Si vous avez tendance à prendre une voix faible ou monotone lorsque vous prenez la parole en public, nous vous conseillons de pratiquer les 4 tempos, tels que décrits dans cette excellente vidéo réalisée par mes collègues Michael et Rose.
 
 <br />
-{{< youtube 3nMIo1mGcLc >}}
+{{< shortcode-youtube 3nMIo1mGcLc >}}
 
 [Cette vidéo fait partie de notre série The Business Presentation Revolution](https://www.ideasonstage.com/fr/revolution/)
 

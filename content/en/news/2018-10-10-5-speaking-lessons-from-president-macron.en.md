@@ -39,7 +39,7 @@ One question received its own round of applause, because it resonated with so ma
 
 Macron took a moment to reflect on this statement and the audience’s sympathetic applause, and replied: “The URSSAF is your friend.” 
 
-{{< youtube jBxgl5z27ZI >}}
+{{< shortcode-youtube jBxgl5z27ZI >}}
 
 <br>
 

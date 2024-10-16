@@ -47,8 +47,8 @@
 		
 		/*
 			insert base color scheme and font scheme variables
-			these variables are generated from the /data/colorschemes.yaml and /data/fontschemes.yaml files
+			these variables are generated from the /data/colorschemes.yaml and /data/textschemes.yaml files
 		 */
 		{{ partial "e/colorscheme.scss" "root" }};
-		{{ partial "e/fontscheme.scss" "root" }};
+		{{ partial "e/textscheme.scss" "root" }};
 	}

@@ -11,7 +11,7 @@ schema: "VideoObject"
 embedurl: "1BZaJCshACc"
 ---
 
-{{< youtube 1BZaJCshACc >}}
+{{< shortcode-youtube 1BZaJCshACc >}}
 
 ## Transcript
 

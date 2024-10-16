@@ -14,7 +14,7 @@ banner = "/img/news/169_yodel.png"
   <p><span style="font-weight: 400;">Based on centuries of Swiss tradition, the YODEL Technique&trade; is simple to use, takes your audience by surprise, and is guaranteed to wake them up.</span></p>
   <p><span style="font-weight: 400;">If you've never heard of yodelling, check out this short video of voice coach </span><a href="https://www.jimmycannon.com/"><span style="font-weight: 400;">Jimmy Cannon</span></a><span style="font-weight: 400;">, demonstrating this impressive vocal technique.</span></p>
 
-{{< youtube 9a2t707IIDM >}}
+{{< shortcode-youtube 9a2t707IIDM >}}
 
   <p><span style="font-weight: 400;">Putting it into practice is straightforward. Every ten minutes or so, pause your presentation, take a deep breath, and yodel loudly for several seconds. Then, recap what you said in the previous ten minutes, and move on. This is grounded in science: wake people up, reset their attention, remind them what they heard before moving on, and they will remember so much more.</span></p>
   <p><span style="font-weight: 400;">We&rsquo;ve tested the YODEL&trade; Technique in partnership with the </span><strong>First Applied Psychological Research Institute (Lausanne)</strong><span style="font-weight: 400;">, and results are extremely encouraging. When audiences get over the initial surprise, they find it engaging, but what is more important is that they remember 30% more than in our control experiment, which instead reset their attention using funny cat videos, and 80% more than the baseline, which was a simple presentation without any attempt to reset the audience's attention.</span></p>

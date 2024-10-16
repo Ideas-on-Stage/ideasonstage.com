@@ -12,7 +12,7 @@ embedurl: "m49x-uOgtZ8"
 
 Présenter, c’est transformer, pas informer. Découvrez la question essentielle à vous poser pour réussir votre présentation. Invité : Phil Waknell
 
-{{< youtube m49x-uOgtZ8 >}}
+{{< shortcode-youtube m49x-uOgtZ8 >}}
 
 ## Transcription
 Rose : [00:00:00] Bienvenue dans la Révolution des Présentations Business, votre tasse d’inspiration pour vos présentations. 

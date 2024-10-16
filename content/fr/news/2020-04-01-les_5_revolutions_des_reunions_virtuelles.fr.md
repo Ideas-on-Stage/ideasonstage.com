@@ -39,4 +39,4 @@ Nous pouvons améliorer beaucoup d’aspects des réunions virtuelles, et nous v
 
 **Nous espérons que cela vous aidera à faire de votre prochaine réunion virtuelle un véritable succès.**
 
-{{< youtube IknE6ibOYpw >}}
+{{< shortcode-youtube IknE6ibOYpw >}}

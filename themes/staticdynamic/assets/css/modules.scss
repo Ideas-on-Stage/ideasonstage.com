@@ -4,14 +4,14 @@
 		@include height-module;
 		overflow: hidden;
 		@media (max-width: $gl-sm-screen) {	
-			width: 100%;
+			@include width-full;
 		}
 			
 		@if "half" == $width {
 			@include width-column(2);
 		}
 		@else {
-			width: 100%;
+			@include width-full;
 		}
 	}
 	
@@ -22,15 +22,15 @@
 		height: $height;
 		width: $width;		
 		@media (max-width: $gl-sm-screen) {
+			@include width-full;
 			height: 50%;
-			width: 100%;
 			text-align: center;
 		}	
 	}
 	
 	.cl-modules {
 		@include flex-row($gap: "gap", $wrap: "wrap");
-		width: 100%;
+		@include width-full;
 		margin: var(--row-gap) 0;
 		padding: 0 var(--column-gap);
 		@media (max-width: $gl-sm-screen) {
@@ -38,7 +38,7 @@
 		}
 		
 		{{ partial "e/colorscheme.scss" . }}
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}
 	
 	/* half-width module div, text on top, image bottom */
@@ -54,8 +54,8 @@
 		
 		/* use to create inner div with image on bottom */
 		.image {
+			@include width-full;
 			height: 50%; /* without this, image size can overflow from module */
-			width: 100%;
 			
 			img {	
 				@include img-contain;
@@ -80,8 +80,8 @@
 		
 		/* use to create inner div with image on bottom */
 		.image {
+			@include width-full;
 			height: 50%; /* without this, image size can overflow from module */
-			width: 100%;
 			
 			img {	
 				@include img-contain;

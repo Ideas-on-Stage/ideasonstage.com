@@ -16,7 +16,7 @@ L’ère de « Death by PowerPoint® » est révolue.
 
 Prenez 5 minutes pour découvrir 3 étapes clés qui assureront le succès de vos slides et qui vous aideront à atteindre vos objectifs - et qui donneront envie à votre auditoire d’en savoir plus. Découvrez nos astuces dans le nouvel épisode du podcast « The Business Presentation Revolution », délivrées par nos experts en présentation Rose Bloomfield et Phil Waknell.
 
-{{< youtube UCwbZXiPC18 >}}
+{{< shortcode-youtube UCwbZXiPC18 >}}
 
 ## Transcription
 Rose: [00:00:00] Bienvenue dans “The Business Presentation Revolution”, votre cocktail vitaminé pour vos présentations. 

@@ -58,7 +58,10 @@ tags:
 
 # shortcodes:
 
-agenda-item:
+shortcode-agenda-item:
+- "--color-text-h4: var(--color-secondary)"
+
+shortcode-agenda-list:
 - "--color-text-h4: var(--color-secondary)"
 
 

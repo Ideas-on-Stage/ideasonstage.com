@@ -3,8 +3,8 @@
 	.cl-bodylazy-testimonials {
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start);
 		@include scroll-h;
+		@include width-full;
 		padding-bottom: 2.0em;
-		width: 100%;
 		@media (max-width: $gl-sm-screen) {
 			.cl-testimonials {
 				padding-bottom: 1.0em;
@@ -39,5 +39,5 @@
 		}
 		
 		{{ partial "e/colorscheme.scss" . }}
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}

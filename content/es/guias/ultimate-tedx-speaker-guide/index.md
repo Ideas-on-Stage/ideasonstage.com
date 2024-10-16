@@ -63,25 +63,25 @@ Si has acordado una fecha para tu primera sesión con tu director/coach, o al me
 Si no estás familiarizado con TED o los eventos TEDx lo primero que tienes que hacer es ir a TED.com y echar un vistazo a algunos videos para comprender por qué este congreso tiene tan buena reputación. Aquí tienes algunos enlaces en inglés y español que te darán algunas pistas sobre el estilo y la calidad de las charlas.
 
 	Inés Temple: ¿Cómo incluimos a más niñas en la educación?
-	{{< youtube DvBGMnT9Gd4 >}}
+	{{< shortcode-youtube DvBGMnT9Gd4 >}}
 	
 	Eduardo Sáez de Cabezón: Las matemáticas son para siempre
-	{{< youtube 0MeQ0wTGYdA >}}
+	{{< shortcode-youtube 0MeQ0wTGYdA >}}
 	
 	Phil Waknell: The 3 Magic Ingredients of Amazing Presentations
-	{{< youtube yoD8RMq2OkU >}}
+	{{< shortcode-youtube yoD8RMq2OkU >}}
 	
 	Al Gore: New thinking on the climate crisis
-	{{< ted al_gore_new_thinking_on_the_climate_crisis >}}
+	{{< shortcode-ted al_gore_new_thinking_on_the_climate_crisis >}}
 	
 	Elizabeth Gilbert: Your elusive creative genius
-	{{< ted elizabeth_gilbert_your_elusive_creative_genius >}}
+	{{< shortcode-ted elizabeth_gilbert_your_elusive_creative_genius >}}
 	
 	Seth Godin: How to get your ideas to spread
-	{{< ted seth_godin_how_to_get_your_ideas_to_spread >}}
+	{{< shortcode-ted seth_godin_how_to_get_your_ideas_to_spread >}}
 	
 	Hans Rosling: Asia’s rise how and when
-	{{< ted hans_rosling_asia_s_rise_how_and_when >}}
+	{{< shortcode-ted hans_rosling_asia_s_rise_how_and_when >}}
 
 Envía el título de tu charla: los organizadores necesitan esa información para incluirla en la web del evento y en el programa impreso. Busca un título original y evita títulos generalistas o poco específicos. Intenta buscar algo que atraiga la atención; quizá una pregunta, o un eslogan. Es bastante frecuente que este punto sea problemático en este momento ya que es posible que todavía estés dando forma a la charla.
 

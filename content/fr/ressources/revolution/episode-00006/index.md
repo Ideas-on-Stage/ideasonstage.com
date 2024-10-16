@@ -10,7 +10,7 @@ schema: "VideoObject"
 embedurl: "-P9C8xl4RPU"
 ---
 
-{{< youtube -P9C8xl4RPU >}}
+{{< shortcode-youtube -P9C8xl4RPU >}}
 
 ## Transcription
 

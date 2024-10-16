@@ -12,4 +12,4 @@ Expert en prise de parole en public, Lény Guissart s’appuie sur plusieurs ann
 
 Aujourd’hui, il enseigne l’art oratoire en grandes écoles (CentraleSupélec, Neoma, Strate Design…) et également en entreprises (Axa, Big Mamma, Veolia…). Passionné par le croisement des disciplines et des savoirs, il est souvent sollicité par des entreprises et des institutions culturelles pour créer des conférences-spectacles (Pavillon France de l’exposition universelle, Centre Pompidou, La Poste…)
 
-{{< ios-certified-trainer >}}
+{{< shortcode-ios-certified-trainer >}}

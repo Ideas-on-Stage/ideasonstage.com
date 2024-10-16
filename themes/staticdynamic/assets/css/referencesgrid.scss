@@ -9,10 +9,10 @@
 			border: 1px solid var(--color-border);
 			height: auto;
 			@media (max-width: $gl-sm-screen) {
-				width: calc( ( 100% - 2 * var(--column-gap) ) / 3 - 0.001px );
+				@include width-column(3);
 			}
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}

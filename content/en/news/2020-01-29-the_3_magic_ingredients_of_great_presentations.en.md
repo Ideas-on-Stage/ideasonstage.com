@@ -15,7 +15,7 @@ Over the last ten years, I’ve given thousands of speakers countless pieces of 
 
 These were the subject of my recent TEDx talk at [TEDxSaclay](https://tedxsaclay.com/). Perhaps you’d like to discover them live by watching [this short video](https://www.youtube.com/watch?v=yoD8RMq2OkU) – or if not, scroll down to see a summary.
 
-{{< youtube yoD8RMq2OkU >}}
+{{< shortcode-youtube yoD8RMq2OkU >}}
 
 So let’s recap these three magic ingredients:
 

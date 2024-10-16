@@ -1,21 +1,19 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-h1hero--title {
+		@include flex-column($align-column-h: center, $align-v: center);
 		top: var(--menubar-height);
 		z-index: 100;
-		display: flex;
-		justify-content: center;
 		padding: 1em;
-		text-align: center;
 		
 		{{ partial "e/colorscheme.scss" "body-h1hero--title" }};
-		{{ partial "e/fontscheme.scss" "body-h1hero--title" }};
+		{{ partial "e/textscheme.scss" "body-h1hero--title" }};
 	}
 	
 	.cl-body-h1hero--hero {
 		@include height-hero;
+		@include width-full;
 		position: relative;
-		width: 100%;
 		
 		> img {
 			@include img-back;
@@ -29,15 +27,15 @@
 		}
 		
 		{{ partial "e/colorscheme.scss" "body-h1hero--hero" }};
-		{{ partial "e/fontscheme.scss" "body-h1hero--hero" }};
+		{{ partial "e/textscheme.scss" "body-h1hero--hero" }};
 	}
 
 	/* logo bar at bottom of hero */
 	.cl-body-h1hero--logobar {
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-around);
+		@include width-full;
 		padding: 2vw;
 		height: auto;
-		width: 100%;
 		position: absolute; /* combined with position: relative on parent */
 		bottom: 0; /* position on bottom of hero */
 		@media (max-width: $gl-sm-screen) {
@@ -47,11 +45,9 @@
 	
 	/* item in the logo bar at bottom of hero */
 	.cl-body-h1hero--logobar-item {
+		@include flex-column($align-column-h: center);
 		flex-basis: 0; /* 0 to have all children same size */
 		flex-grow: 1;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 		
 		> p {
 			margin-top: 0.5em;

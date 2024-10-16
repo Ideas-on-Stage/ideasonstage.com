@@ -15,8 +15,8 @@ Rose Bloomfield est l'animatrice du show, et Phil Waknell est notre premier invi
 Des versions avec des sous-titres en français et espagnol sont mises à disposition peu après la version anglaise.
 {.st-center}
 
-{{< social-list style="bg-light" >}}
-    {{< social-item url="https://www.youtube.com/user/IdeasOnStage/videos" picture="youtube.svg" alt="YouTube" text="YouTube" >}}
-    {{< social-item url="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2" picture="itunes.svg" alt="iTunes" text="Apple Music" >}}
-    {{< social-item url="https://www.linkedin.com/company/ideas-on-stage/" picture="linkedin.svg" alt="LinkedIn" text="LinkedIn" >}}
-{{< /social-list >}}
+{{< shortcode-social-list style="bg-light" >}}
+    {{< shortcode-social-item url="https://www.youtube.com/user/IdeasOnStage/videos" picture="youtube.svg" alt="YouTube" text="YouTube" >}}
+    {{< shortcode-social-item url="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2" picture="itunes.svg" alt="iTunes" text="Apple Music" >}}
+    {{< shortcode-social-item url="https://www.linkedin.com/company/ideas-on-stage/" picture="linkedin.svg" alt="LinkedIn" text="LinkedIn" >}}
+{{< /shortcode-social-list >}}

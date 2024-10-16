@@ -12,7 +12,7 @@ embedurl: "DYQ-4Z6WMqM"
 
 Rose demande à Phil des conseils pour maîtriser sa peur avant une présentation importante. Découvrez les trucs de notre Chief Inspiration Officer pour être zen avant votre prise de parole en public.
 
-{{< youtube DYQ-4Z6WMqM >}}
+{{< shortcode-youtube DYQ-4Z6WMqM >}}
 
 ## Transcription
 Rose : Bienvenue dans la Révolution des Présentations Business, votre tasse de sérénité pour vos présentations. Ça va Phil ?

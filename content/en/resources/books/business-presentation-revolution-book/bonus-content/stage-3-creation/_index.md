@@ -28,21 +28,21 @@ In Business Presentation Revolution you’ll find references to several playlist
 
 These videos can help you to go deeper and may also help you to convince your colleagues that they should also take the time to join the Business Presentation Revolution!
 
-{{< youtube 07q2ppihDFg >}}
+{{< shortcode-youtube 07q2ppihDFg >}}
 
 <br />
 
-{{< youtube jT-H6UrinG0 >}}
+{{< shortcode-youtube jT-H6UrinG0 >}}
 
 <br />
 
-{{< youtube RBwa0UOY2vo >}}
+{{< shortcode-youtube RBwa0UOY2vo >}}
 
 ## Templates & Checklists
 
 The Creation section of the book was already long enough without adding many pages with different storylines. Besides, it’s probably more useful for you to have them in a downloadable format, with examples.
 
-{{< bpr-form-bonus-download >}}
+{{< shortcode-bpr-form-bonus-download >}}
 
 ## Recommended Reading
 

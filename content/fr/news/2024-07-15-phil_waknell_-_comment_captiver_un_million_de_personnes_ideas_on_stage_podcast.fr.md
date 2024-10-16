@@ -92,7 +92,7 @@ La chose la plus importante à retenir est de fournir une valeur réelle – con
 
 **J'espère que ça vous a plu !**
 
-{{< youtube vCR5eO8qhOI >}}
+{{< shortcode-youtube vCR5eO8qhOI >}}
 
 **Vous voulez en savoir plus ?** 
 

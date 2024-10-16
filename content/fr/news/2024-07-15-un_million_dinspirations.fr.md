@@ -112,4 +112,4 @@ C'est un bon mantra. Et je n'ai toujours pas réussi à débarrasser le monde de
 
 Mais il paraît que le but d’un leader n’est pas de fabriquer des followers, mais de fabriquer davantage de leaders. J'espère donc que certaines personnes -parmi ces millions de téléspectateurs- l'utiliseront non seulement pour faire de meilleures présentations, mais qu'ils inspireront également d'autres personnes à transformer leurs propres présentations, et qu'ensemble, nous pourrons alors vraiment faire la différence.
 
-{{< youtube yoD8RMq2OkU >}}
+{{< shortcode-youtube yoD8RMq2OkU >}}

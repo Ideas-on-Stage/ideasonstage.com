@@ -14,4 +14,4 @@ Comédien, il met également en scène et coache des interprètes. En 2017, Anto
 
 Ayant formé et coaché plus de 500 personnes, il intervient dans des milieux très variés (diplomatie, politique, service public, start-up, présidence d’entreprise).
 
-{{< ios-certified-trainer >}}
+{{< shortcode-ios-certified-trainer >}}

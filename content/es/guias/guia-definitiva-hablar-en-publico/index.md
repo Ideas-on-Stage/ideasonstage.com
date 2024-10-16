@@ -87,7 +87,7 @@ Antes de explicar cómo ensayar la gestualidad, te enumeramos algunos gestos a e
 * Frotarse las manos. Bill Gates tenía este defecto cuando presentaba. Le hacía parecer que estaba maquinando algo constantemente, al igual que el Sr. Burns en Los Simpsons ...
 * Señalar con el dedo (con cualquier dedo): es un gesto que se considera grosero o inapropiado en muchas culturas. Si deseas  mostrar una dirección, es preferible hacerlo extendiendo toda la mano.
 
-{{< youtube ttx9xv7GrnQ >}}
+{{< shortcode-youtube ttx9xv7GrnQ >}}
 
 Para practicar los gestos, comienza alineando tu postura como comentamos más arriba, respira con calma. Deja que los brazos se extiendan a los lados de tu cuerpo, relajados. Imagina hacer contacto visual con el público frente a ti. En esta posición, seguramente te sentirás incómodo, poco natural. ¿Por qué? Porque es una posición vulnerable y abierta que no ofrece protección psicológica frente al público. Sin embargo, alguien que te mire tendrá la sensación de que eres "normal". Esta es la paradoja de los gestos: lo que sentimos puede ser muy diferente de lo que el público percibe.
 
@@ -144,7 +144,7 @@ Para combatir estas dos causas, hay muchos métodos. Enumeramos algunos de ellos
 
 Si el miedo a hablar en público te resulta particularmente intenso, en este video tienes algunos consejos que te pueden ayudar:
 
-{{< youtube 7ownq_fi8eU >}}
+{{< shortcode-youtube 7ownq_fi8eU >}}
 
 ### Eliminar los "eeeh" y otras muletillas
 Los "eeeh" y otras muletillas son el tic del idioma más común al hablar  en público. Y para corregirlos, puedes usar... la mirada.
@@ -169,7 +169,7 @@ Para evitarlo, puedes repetir el ejercicio de los Post-its, y sobre todo, es nec
 Si sueles tener una voz débil o monótona cuando hablas en público, te recomendamos que practiques los 4 tempos, como se explica en este excelente video realizado por mis colegas Michael y Rose.
 
 <br />
-{{< youtube JkbvYqYEeo8 >}}
+{{< shortcode-youtube JkbvYqYEeo8 >}}
 
 [Este video forma parte de nuestra serie The Business Presentation Revolution](https://www.ideasonstage.com/es/revolution/)
 
@@ -181,7 +181,7 @@ Si no tienes nada que decir, ser un gran orador no es muy útil. Por eso siempre
 
 Nuestro compañero Phil Waknell lo explica estupendamente en esta charla Ted *(en inglés con subtítulos)*.
 
-{{< youtube yoD8RMq2OkU >}}
+{{< shortcode-youtube yoD8RMq2OkU >}}
 
 Otra alternativa es trabajar el contenido de tu discurso de forma orgánica con el trabajo de tu voz. La ventaja de este método es que trabajarás tu discurso, tu voz y tu presencia y tu autenticidad simultáneamente desde el primer momento. Si te inclinas por este método te aconsejamos que lo hagas con la ayuda de un coach de voz especializado en está técnica. 
 

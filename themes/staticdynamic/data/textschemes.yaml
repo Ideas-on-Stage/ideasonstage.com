@@ -120,25 +120,28 @@ tags:
     - "--text-transform: uppercase"
 
 #shortcodes
-agenda-item:
+shortcode-agenda-item:
     - "--text-align: center"
     - "--margin-bottom-h4: 0.2em"
     - "--text-transform-h4: uppercase"
     - "--font-size-h4: 1em"
     - "--margin-top-p: 0em"
     
-agenda-list:
+shortcode-agenda-list:
     - "--text-align: center"
+    - "--margin-bottom-h4: 0.2em"
+    - "--text-transform-h4: uppercase"
+    - "--font-size-h4: 1em"
 
-call-to-action:
+shortcode-call-to-action:
     - "--text-align: center"
     - "--text-align-h3: center"
 
-icon-list:
+shortcode-icon-list:
     - "--margin-bottom-h3: 1.5em"
     - "--text-align-h3: center"
 
-icon-item:
+shortcode-icon-item:
     - "--margin-top-p: 0.5em"
     - "--text-align-p: center"
 

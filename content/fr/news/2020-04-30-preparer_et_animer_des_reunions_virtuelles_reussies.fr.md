@@ -41,4 +41,4 @@ Sur la base de ces responsabilités, plusieurs points vous apparaîtront sans do
 
 Avant 2020, j'étais souvent sur scène dans le rôle de maître de cérémonie lors de conférences, jouant un rôle similaire. Dans le monde de l'après-Covid-19, je m'attends à ce que le rôle de maître de cérémonie en ligne me tienne tout aussi occupé, car les entreprises se rendent compte qu'elles ont besoin d'un spécialiste pour les aider à animer les réunions et conférences en ligne importantes. Si vous avez besoin d'un expert pour vous accompagner, n’hésitez pas à nous contacter en utilisant le formulaire ci-dessous.
 
-{{< youtube 8z_z2gM7i-Y >}}
+{{< shortcode-youtube 8z_z2gM7i-Y >}}

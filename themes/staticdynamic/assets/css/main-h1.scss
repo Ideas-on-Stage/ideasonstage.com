@@ -3,5 +3,5 @@
 	.cl-main-h1 {
 		
 		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}

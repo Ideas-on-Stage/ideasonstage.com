@@ -2,8 +2,7 @@
 
 	.cl-form {
 		@include margins($vertical: "none", $horizontal: "wide");
-		@include flex-column($align-column-h: center);
-		gap: 20px;
+		@include flex-column($gap: 20px, $align-column-h: center);
 		
 		.field {
 			display: block;
@@ -37,5 +36,5 @@
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}

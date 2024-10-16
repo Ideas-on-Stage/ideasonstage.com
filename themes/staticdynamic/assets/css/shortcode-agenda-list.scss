@@ -3,6 +3,14 @@
 	.cl-shortcode--agenda-list {
 		@include firstlastchildnomargin;
 		
+		ul {
+			padding-left: 0px;
+		}
+		
+		li {
+				@include list-style-none;
+			}
+	
 		{{ partial "e/colorscheme.scss" . }}
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}

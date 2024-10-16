@@ -10,7 +10,7 @@ schema: "VideoObject"
 embedurl: "kihTh9ap35M"
 ---
 
-{{< youtube kihTh9ap35M >}}
+{{< shortcode-youtube kihTh9ap35M >}}
 
 **Rose** : Quelle belle histoire…
 

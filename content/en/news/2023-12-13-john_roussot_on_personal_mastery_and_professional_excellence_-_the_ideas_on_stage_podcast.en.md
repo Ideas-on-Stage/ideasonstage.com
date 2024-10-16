@@ -45,7 +45,7 @@ In this episode we talked about personal mastery and professional excellence. 
 
 I hope you enjoy it!
 
-{{< youtube 7ahiF2jL00k >}}
+{{< shortcode-youtube 7ahiF2jL00k >}}
 
 **Want to learn more?** 
 

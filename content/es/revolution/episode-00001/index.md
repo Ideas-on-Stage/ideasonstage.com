@@ -13,7 +13,7 @@ embedurl: "dUXonT_Vom8"
 
 Las presentaciones son para transformar, no para informar. Descubre cuál es la pregunta más importante que tienes que hacerte para conseguir que tu presentación sea un éxito. Invitado: Phil Waknell
 
-{{< youtube dUXonT_Vom8 >}}
+{{< shortcode-youtube dUXonT_Vom8 >}}
 
 ## Transcripción 
 

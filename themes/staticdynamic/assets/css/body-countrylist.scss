@@ -6,10 +6,10 @@
 			@include flex-row($gap: "gap", $wrap: "wrap", $align-h: center);
 			
 			> li {
-				list-style: none; /* remove bullet when used on li */
+				@include list-style-none;
 			}
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}

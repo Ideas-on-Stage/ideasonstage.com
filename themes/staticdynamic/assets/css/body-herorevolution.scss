@@ -3,13 +3,12 @@
 	.cl-body-herorevolution {
 		@include flex-column($align-column-h: center, $align-v: center);
 		@include height-hero;
-		width: 100%;
-		overflow: hidden;
+		@include width-full;
 		
 		> img {
 			@include img-back($z-index: -100);
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}

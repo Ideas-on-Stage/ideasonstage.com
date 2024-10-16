@@ -29,17 +29,17 @@ In Business Presentation Revolution you’ll find references to several playlist
 
 These videos can help you to go deeper and may also help you to convince your colleagues that they should also take the time to join the Business Presentation Revolution!
 
-{{< youtube y4QGKIE7SEY >}}
+{{< shortcode-youtube y4QGKIE7SEY >}}
 
 <br />
 
-{{< youtube Ol878WG2WTg >}}
+{{< shortcode-youtube Ol878WG2WTg >}}
 
 ## Templates & Checklists
 
 Whether you’re preparing your own slides, or developing a storyboard to give to a specialist slide designer, the storyboard template and slide design checklist mentioned in Business Presentation Revolution can guide you and make the process smooth for everyone involved.
 
-{{< bpr-form-bonus-download >}}
+{{< shortcode-bpr-form-bonus-download >}}
 
 ## Recommended Reading
 

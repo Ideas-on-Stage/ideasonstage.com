@@ -53,7 +53,7 @@ If you missed the live session, make sure to check out the recording below. And 
 
 [](https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469)
 
-{{< youtube pB6SHX2LqEM >}}
+{{< shortcode-youtube pB6SHX2LqEM >}}
 
 **Want to learn more?** 
 

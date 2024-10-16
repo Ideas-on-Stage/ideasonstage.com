@@ -54,7 +54,7 @@ So, let's grab our pens, draw our stories, and tap into our inner visual languag
 
 If you missed the event, you can watch the full recording below. 
 
-{{< youtube F1vyBMB-esE >}}
+{{< shortcode-youtube F1vyBMB-esE >}}
 
 
 

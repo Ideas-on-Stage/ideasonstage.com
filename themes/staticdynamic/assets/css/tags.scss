@@ -16,6 +16,6 @@
 			}
 		}
 		
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 		{{ partial "e/colorscheme.scss" . }};
 	}

@@ -13,7 +13,7 @@ embedurl: "7ownq_fi8eU"
 
 Rose pregunta a Phil cómo superar el miedo antes de una presentación importante, y convertirlo en energía positiva sobre el escenario. Descubre los consejos de nuestro Chief Inspiration Officer para encontrar tu zen interior antes de un gran evento.
 
-{{< youtube 7ownq_fi8eU >}}
+{{< shortcode-youtube 7ownq_fi8eU >}}
 
 ## Transcripción
 

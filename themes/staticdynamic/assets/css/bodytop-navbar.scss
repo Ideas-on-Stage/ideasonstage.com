@@ -1,7 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-bodytop-navbar {
-		@include flex-row($align-row-v: center, $align-h: space-between);
+		@include flex-row($gap: "gap", $align-row-v: center, $align-h: space-between);
 		position: fixed; /* menubar stays at top of screen */
 		top: 0;
 		width: var(--page-width);
@@ -154,5 +154,5 @@
 		}
 		
 		{{ partial "e/colorscheme.scss" . }}
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}

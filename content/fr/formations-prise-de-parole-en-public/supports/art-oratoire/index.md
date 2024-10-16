@@ -36,12 +36,12 @@ Ce module est dédié à l’art oratoire. Il comprend une courte introduction a
 
 ### Les trois piliers d’une bonne présentation
 
-{{< include "/static/training/trois-piliers.md" >}}
+{{< shortcode-include "/static/training/trois-piliers.md" >}}
 
 
 ### À propos d’Ideas on Stage
 
-{{< include "/static/training/a-propos-d-ideas-on-stage.md" >}}
+{{< shortcode-include "/static/training/a-propos-d-ideas-on-stage.md" >}}
 
 
 ### À propos de vous
@@ -61,7 +61,7 @@ Présenter l’agenda et les objectifs de la journée.
 
 ## Message
 
-{{< include "/static/training/message.fr.md" >}}
+{{< shortcode-include "/static/training/message.fr.md" >}}
 
 
 ## Art oratoire
@@ -201,7 +201,7 @@ Chacun se focalise sur « sa » voix, celle qui permet à chacun d'exprimer au m
 
 À partir de quelle vitesse parle-t-on trop lentement ? Nous ne parlons pratiquement jamais trop lentement (sauf lorsque nous « faisons le mort » face au stress). Au fil du temps, la vitesse moyenne d’une prise de parole a augmenté. Si nous écoutons aujourd’hui des orateurs comme Martin Luther King ou Jacques Chirac, ils semblent parler plus lentement que tous les orateurs actuels.
 
-{{< youtube "vP4iY1TtS3s" >}}
+{{< shortcode-youtube "vP4iY1TtS3s" >}}
 
 Puisque notre vitesse maximum est autour de 150 mots par minute, nous pouvons utiliser cette astuce pour déterminer facilement la durée de notre prise de parole : nous prenons le nombre total de mots de notre texte et nous le divisons par 150.
 
@@ -445,7 +445,7 @@ Cela conclut notre formation sur la prise de parole, mais ce n’est que le déb
 
 ### Ressources supplémentaires
 
-{{< include "/static/training/ressources-complementaires.md" >}}
+{{< shortcode-include "/static/training/ressources-complementaires.md" >}}
 
 
 ### Récapitulatif

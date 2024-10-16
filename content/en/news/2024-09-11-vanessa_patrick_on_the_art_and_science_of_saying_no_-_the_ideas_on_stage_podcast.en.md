@@ -55,7 +55,7 @@ banner = "/img/news/vp_thumbnail.jpg"
 \
 I hope you enjoy it!
 
-{{< youtube SCpllRISS00>}}
+{{< shortcode-youtube SCpllRISS00>}}
 
 **Want to learn more?** 
 

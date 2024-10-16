@@ -11,7 +11,7 @@ schema: "VideoObject"
 embedurl: "sQqx-u0LrO0"
 ---
 
-{{< youtube sQqx-u0LrO0 >}} 
+{{< shortcode-youtube sQqx-u0LrO0 >}} 
 
 **Rose**: ¡Qué gran historia! 
  

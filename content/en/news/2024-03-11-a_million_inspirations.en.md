@@ -113,4 +113,4 @@ It’s a good mantra. And I still haven’t succeeded in ridding the world of ba
 
 But they say that the aim of a leader is not to produce followers, but to produce more leaders. So my hope is that some of the million viewers of this talk will not only use it to deliver better presentations, but also inspire others to transform their own presentations, and then together we can truly make a difference.
 
-{{< youtube yoD8RMq2OkU >}}
+{{< shortcode-youtube yoD8RMq2OkU >}}

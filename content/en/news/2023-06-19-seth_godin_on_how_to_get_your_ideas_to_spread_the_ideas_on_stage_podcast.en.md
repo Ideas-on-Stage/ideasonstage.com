@@ -49,7 +49,7 @@ In this episode we talked about how to get your ideas to spread.
 
 I hope you enjoy it!
 
-{{< youtube 0GnxSS0n-L4 >}}
+{{< shortcode-youtube 0GnxSS0n-L4 >}}
 
 **Want to learn more?** 
 

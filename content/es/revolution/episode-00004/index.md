@@ -13,7 +13,7 @@ embedurl: "LVu6yIu8VGw"
 
 ¿Puedes responder a esta pregunta honestamente? Si te acabaras de enterar de que tienes que hacer una presentación de 15 minutos mañana, ¿cómo te prepararías? ¿Podrías el carro delante del caballo? La mayoría de la gente lo hace. Pero no te preocupes, ¡el último episodio de The Business Presentation Revolution puede ayudarte! Tómate unos momentos para aprender el pequeño y simple cambio que hará que pongas el caballo delante del carro, y a ti te en el asiento del conductor.
 
-{{< youtube LVu6yIu8VGw >}}
+{{< shortcode-youtube LVu6yIu8VGw >}}
 
 ## Transcripción
 

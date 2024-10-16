@@ -18,12 +18,12 @@ The additional resources for this stage should help you to create a strong found
 
 These videos can help you to go deeper and may also help you to convince your colleagues that they should also take the time to join the Business Presentation Revolution!
 
-{{< youtube WOGTFXBOwfk >}}
+{{< shortcode-youtube WOGTFXBOwfk >}}
 
 ## Templates & Checklists
 
 There is a set of 20 questions to answer about your Audience, their Burning Needs and the Context in Section 1 of Business Presentation Revolution. You may find it helpful to download the ABC Template to help you to answer these questions and understand the ABC of your presentation.
 
-{{< bpr-form-bonus-download >}}
+{{< shortcode-bpr-form-bonus-download >}}
 
 [Click here to go back to the main Business Presentation Revolution Bonus Resources page](/resources/books/business-presentation-revolution-book/bonus-content/)

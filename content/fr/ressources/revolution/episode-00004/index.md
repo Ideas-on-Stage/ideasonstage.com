@@ -12,7 +12,7 @@ embedurl: "Vx78LJvHXyA"
 
 Vous venez juste d’apprendre que vous devez donner une présentation de 15min demain. Comment vous préparez-vous ? Mettez-vous la charrue avant les boeufs comme la plupart des gens ? Ne vous inquiétez pas, le nouvel épisode de “The Business Presentation Revolution” est là pour vous aider ! Apprenez en quelques minutes quel changement drastique vous permettra de remettre les boeufs avant la charrue et vous à la place du conducteur. Rejoignez Rose et Phil Waknell, co-fondateur et Chief Inspiration Officer d’Ideas on Stage, pour discuter d’une méthode infaillible pour préparer une bonne présentation.
 
-{{< youtube Vx78LJvHXyA >}}
+{{< shortcode-youtube Vx78LJvHXyA >}}
 
 ## Transcription
 

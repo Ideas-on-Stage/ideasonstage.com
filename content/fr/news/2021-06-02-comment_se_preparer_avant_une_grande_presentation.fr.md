@@ -36,4 +36,4 @@ Une fois que ces personnes importantes sont correctement briefées et à vos cô
 
 Vous en saurez plus dans cette courte vidéo où l'on voit notre Chief Coaching Officer, Michael Rickwood, avec l'animatrice Rose Bloomfield.
 
-{{< youtube -_8sswO35r4 >}}
+{{< shortcode-youtube -_8sswO35r4 >}}

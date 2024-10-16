@@ -43,4 +43,4 @@ Based on these important responsibilities, several points will doubtless become 
 
 Before 2020, I was often on stage in the role of Master of Ceremonies at conferences, performing a similar role. In the post-Covid-19 world, I’m expecting the role of Online Master of Ceremonies to keep me just as busy, as companies realise that they need a specialist to handle this role for important online meetings and conferences. If you need a specialist for this, please contact us using the form below.
 
-{{< youtube z-csVYDeicQ >}}
+{{< shortcode-youtube z-csVYDeicQ >}}

@@ -72,4 +72,4 @@ Pour résumer :
 
 Vous trouverez plus de détails sur la prise de parole dans les réunions virtuelles dans le webinaire ci-dessous. Si vous trouvez cela utile, consultez nos autres webinaires [Virtual Meeting Revolution](https://www.ideasonstage.com/fr/formation-presentations/webinaires/) et n'hésitez pas à nous contacter si vous souhaitez de l'aide pour préparer votre prochaine réunion ou présentation en ligne.
 
-{{< youtube 01TMHcrGOqg >}}
+{{< shortcode-youtube 01TMHcrGOqg >}}

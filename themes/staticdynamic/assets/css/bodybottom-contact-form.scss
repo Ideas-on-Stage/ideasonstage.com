@@ -4,5 +4,5 @@
 		@include margins($vertical: "medium", $horizontal: "normal");
 		
 		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}

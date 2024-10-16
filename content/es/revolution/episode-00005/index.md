@@ -13,7 +13,7 @@ embedurl: "QoHSuEPa2_s"
 
 ​​Las slides potentes nacen de mensajes potentes y de ideas visuales claras. Pero en algunas ocasiones las slides no son necesarias. Los días de la Muerte por PowerPoint® han llegado a su fin. Dedica 5 minutos a descubrir los 3 sencillos pasos para triunfar con tus slides y conseguir tus objetivos (y dejar al público con ganas de más) en nuestro nuevo episodio de The Business Presentation Revolution podcast, con los expertos Rose Bloomfield y Phil Waknell.
 
-{{< youtube QoHSuEPa2_s >}}
+{{< shortcode-youtube QoHSuEPa2_s >}}
 
 ## Transcripción
  

@@ -78,4 +78,4 @@ Une fois que vous avez rempli votre colonne Transformation avec des notes autoco
 
 Vous trouverez plus d'informations sur le Parcours de Transformation de l’Auditoire [ici](https://www.ideasonstage.com/fr/conseil-communication/parcours-transformation-auditoire/), ainsi qu'un modèle téléchargeable. Vous pouvez également en apprendre davantage sur ce sujet dans le discours TEDx ci-dessous.
 
-{{< youtube yoD8RMq2OkU >}}
+{{< shortcode-youtube yoD8RMq2OkU >}}

@@ -73,4 +73,4 @@ Si vous avez besoin d'aide pour produire des slides efficaces pour vos réunions
 
 
 
-{{< youtube ekCyWeFWUcw >}}
+{{< shortcode-youtube ekCyWeFWUcw >}}

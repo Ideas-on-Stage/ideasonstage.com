@@ -44,7 +44,7 @@ Une question a été applaudie, car elle a suscité l’intérêt de nombreux en
 Macron a pris un moment pour réfléchir à cette déclaration et aux applaudissements compréhensifs du public et a répondu : « Votre ami, c’est L’URSSAF. »
 
 <br />
-{{< youtube jBxgl5z27ZI >}}
+{{< shortcode-youtube jBxgl5z27ZI >}}
 ​​<br />
 ​​
 Il aurait été très facile de compatir, puis d’expliquer ce que fait son gouvernement pour réduire les charges sociales et les dépenses de l’État, mais Macron a choisi une approche audacieuse. Il a choisi de dire le contraire de ce que croyaient la plupart des entrepreneurs de la salle. Immédiatement, l’auditoire a eu une déclaration-choc, digne d’être partagée sur Twitter, et qui a retenu l’attention de tous.

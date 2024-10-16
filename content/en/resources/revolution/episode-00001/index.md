@@ -13,7 +13,7 @@ embedurl: "P9u20pKFIUQ"
 
 Presentations are for transformation, not information. Learn the golden simple question to ask yourself to make your presentation a success. Guest: Phil Waknell
 
-{{< youtube P9u20pKFIUQ >}}
+{{< shortcode-youtube P9u20pKFIUQ >}}
 
 ## Transcript
 

@@ -34,15 +34,15 @@ In Business Presentation Revolution you’ll find references to several playlist
 
 These videos can help you to go deeper and may also help you to convince your colleagues that they should also take the time to join the Business Presentation Revolution!
 
-{{< youtube ZExgFItoaqA >}}
+{{< shortcode-youtube ZExgFItoaqA >}}
 
 <br />
 
-{{< youtube -P9C8xl4RPU >}}
+{{< shortcode-youtube -P9C8xl4RPU >}}
 
 <br />
 
-{{< youtube 1BZaJCshACc >}}
+{{< shortcode-youtube 1BZaJCshACc >}}
 
 <br />
 
@@ -52,7 +52,7 @@ These videos can help you to go deeper and may also help you to convince your co
 
 Preparing for a presentation can be stressful. Download our pSCORE Guide to Connection for tips on how to find your own style, how to prepare, what to do before your presentation begins, and what speaking success looks and sounds like.
 
-{{< bpr-form-bonus-download >}}
+{{< shortcode-bpr-form-bonus-download >}}
 
 ## Recommended Reading
 In addition to Business Presentation Revolution, we recommend reading other useful books. In this section, we particularly recommend:

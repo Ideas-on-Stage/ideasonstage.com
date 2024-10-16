@@ -20,7 +20,7 @@
 			.thumb {
 				@include width-column(5);
 				@media (max-width: $gl-sm-screen) {
-					width: 100%;
+					@include width-full;
 				}
 				
 				img {
@@ -31,7 +31,7 @@
 			.text {
 				@include width-column(5, 4);
 				@media (max-width: $gl-sm-screen) {
-					width: 100%;
+					@include width-full;
 				}
 				
 				> :first-child {
@@ -41,5 +41,5 @@
 		}
 		
 		{{ partial "e/colorscheme.scss" "cl-main-listreferences--references" }}
-		{{ partial "e/fontscheme.scss" "cl-main-listreferences--references" }}
+		{{ partial "e/textscheme.scss" "cl-main-listreferences--references" }}
 	}

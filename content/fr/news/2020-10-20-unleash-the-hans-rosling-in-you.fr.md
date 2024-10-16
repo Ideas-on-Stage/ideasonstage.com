@@ -22,7 +22,7 @@ Gapminder.org va vous fournir les éléments de base, le point de départ : les
 
 Prenez par exemple l’exemple de son excellente présentation sur l’évolution de l’Inde et de la Chine. Il ne montre pas les données historisées de la Chine et de l’Inde (et du reste du monde). Ce qu’il fait, en réalité, c’est raconter l’histoire des événements historiques importants et comment la marche vers la souveraineté et l’indépendance ont affecté le développement de ces pays. Un de mes moments préférés est lorsqu’il évoque de manière ironique le grand bond en avant de la Chine de la planification centralisée, et on voit en réalité une grosse baisse de l’espérance de vie.
 
-{{< ted hans_rosling_asia_s_rise_how_and_when >}}
+{{< shortcode-ted hans_rosling_asia_s_rise_how_and_when >}}
 
 Hans a bien d’autres qualités : il prend le temps d’établir le contexte pour s’assurer que le public a les éléments nécessaires pour comprendre son histoire. Il prend le temps d’expliquer le contexte historique, et fait très attention de bien expliquer la signification de chaque élément du graphique : chaque axe, les bulles, l’année, etc.
 

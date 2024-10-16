@@ -15,12 +15,12 @@
 			height: 100%;
 			margin-bottom: 1rem;
 			@media (max-width: $gl-sm-screen) {
-				width: 100%;
+				@include width-full;
 			}
 		}
 		
 		/* episode thumb */
 		
 		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}

@@ -21,7 +21,7 @@ Gapminder.org is going to give you the initial material, the starting point: the
 
 Take for example his fantastic talk about the evolution of India and China. He is not showing historical data about China and India (and the rest of the world). What he actually does is tell the story of how key historical events and the march towards sovereignty of these countries affected their development. Check in particular how he ironically talks about China’s great leap forward with central planning, and you actually see a huge drop in life expectancy.
 
-{{< ted hans_rosling_asia_s_rise_how_and_when >}}
+{{< shortcode-ted hans_rosling_asia_s_rise_how_and_when >}}
 
 Among Hans’ other skills: setting up the context to make sure that people have the necessary information to understand his story. He takes time to explain the historical context, and takes great care to explain the meaning of each element of his graph: each axis, the bubbles, the year, etc.
 

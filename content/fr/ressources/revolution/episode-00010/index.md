@@ -10,7 +10,7 @@ schema: "VideoObject"
 embedurl: "3nMIo1mGcLc"
 ---
 
-{{< youtube 3nMIo1mGcLc >}}
+{{< shortcode-youtube 3nMIo1mGcLc >}}
 
 **Rose** : Bonjour, bienvenue à The Business Presentation Revolution. Je viens de donner le meilleur de moi-même, c’est-à-dire la présentation la plus ennuyeuse de ma vie et je voudrais apprendre à donner une présentation plus intéressante et plus captivante.
  

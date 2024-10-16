@@ -21,7 +21,7 @@ The additional resources for this stage should help you to use the pSCORE method
 
 These videos can help you to go deeper and may also help you to convince your colleagues that they should also take the time to join the Business Presentation Revolution!
 
-{{< youtube yoD8RMq2OkU >}}
+{{< shortcode-youtube yoD8RMq2OkU >}}
 
 <br />
 
@@ -31,7 +31,7 @@ These videos can help you to go deeper and may also help you to convince your co
 
 We recommend drawing the Audience Transformation Roadmap on a whiteboard or flipchart for a group brainstorm. If you need to fill it in during an online brainstorm, you may find it useful to download our templates in Microsoft® Office formats.
 
-{{< bpr-form-bonus-download >}}
+{{< shortcode-bpr-form-bonus-download >}}
 
 ## Recommended Reading
 

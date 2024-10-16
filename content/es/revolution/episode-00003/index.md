@@ -13,7 +13,7 @@ embedurl: "4jYoALR465E"
 
 El ingrediente secreto de cualquier presentación es Tu Audiencia. No olvides hacerte estas preguntas esenciales para asegurarte de que no fallar antes incluso de empezar a hablar.
 
-{{< youtube 4jYoALR465E >}}
+{{< shortcode-youtube 4jYoALR465E >}}
 
 ## Transcripción
 

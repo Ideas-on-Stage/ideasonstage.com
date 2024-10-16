@@ -115,6 +115,7 @@
 			row-gap: var(--row-gap);
 		}
 		@else if "none" == $gap {
+			--row-gap: 0px;
 		}
 		@else {
 			row-gap: $gap;
@@ -146,6 +147,7 @@
 			column-gap: var(--column-gap);
 		}
 		@else if "none" == $gap {
+			--column-gap: 0px;
 		}
 		@else {
 			--column-gap: #{$gap};
@@ -165,6 +167,7 @@
 				row-gap: var(--row-gap);
 			}
 			@else if "none" == $gap {
+				--row-gap: 0px;
 			}
 			@else {
 				--row-gap: #{$gap};
@@ -176,6 +179,10 @@
 		}
 	}
 
+	@mixin height-full {
+		height: calc(100vh - var(--menubar-height));
+	}
+	
 	@mixin height-hero {
 		height: var(--hero-height);
 	}
@@ -230,6 +237,10 @@
 	@mixin img-sameline {
 		/* image on same line as text, useful to add icons in text */
 		display: inline-block;
+	}
+	
+	@mixin list-style-none {
+		list-style-type: none;
 	}
 	
 	@mixin margins($vertical: "medium", $horizontal: "normal") {
@@ -547,7 +558,11 @@
 		/* determines width of column based on number of columns $nbcols and gap */
 		$gap-nb: $col-nb - 1;
 		$gap-span: $col-span - 1;
-		width: calc( (100% - #{$gap-nb} * var(--column-gap)) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px);
+		width: calc( (100% - #{$gap-nb} * var(--column-gap)) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px );
+	}
+	
+	@mixin width-full() {
+		width: 100%;
 	}
 	
 	@mixin width-onethird {

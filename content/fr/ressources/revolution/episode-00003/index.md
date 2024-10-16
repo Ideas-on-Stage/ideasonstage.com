@@ -12,7 +12,7 @@ embedurl: "WOGTFXBOwfk"
 
 L’ingrédient secret de toute présentation est votre public. N’oubliez pas de vous poser ces questions essentielles avant de prendre la parole.
 
-{{< youtube WOGTFXBOwfk >}}
+{{< shortcode-youtube WOGTFXBOwfk >}}
 
 ## Transcription
 

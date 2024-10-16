@@ -2,9 +2,9 @@
 
 	.cl-body-content404 {
 		@include flex-column($align-column-h: center, $align-v: center);
-		height: calc(100vh - var(--menubar-height));
-		width: 100%;
+		@include height-full;
+		@include width-full;
 		
 		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/fontscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
 	}

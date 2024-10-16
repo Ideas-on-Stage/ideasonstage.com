@@ -19,21 +19,21 @@ Pour être efficace, la prise de parole doit faire l’objet d’un travail en a
 
 Notre service de coaching en prise de parole est taillé sur mesure. Que vous soyez un cadre dirigeant devant présenter sa nouvelle stratégie, un organisateur souhaitant faire coacher les intervenants de son événement ou un créateur de start-up invité à présenter à une grande conférence, notre objectif est le même : vous faire réussir.
 
-{{< image-wide src="coaching-prise-de-parole-001.jpg" alt="Meeting" >}}
+{{< shortcode-image-wide src="coaching-prise-de-parole-001.jpg" alt="Meeting" >}}
 
 ## Un accompagnement sur plusieurs séances
 
 Notre expérience montre l’importance de la répétition dans la préparation. C’est pourquoi le programme de notre coaching se déroule sur plusieurs séances individuelles. Nous adaptons le programme en fonction des forces et points d’amélioration de chacun, mais ci-dessous vous trouverez un exemple type.
 
-{{< agenda-list style="bg-light" title="Exemple de programme de coaching">}}
-    {{< agenda-item title="ENTRETIEN PRÉLIMINAIRE" description="Définition des attentes, du contexte et des objectifs du coaching. Définition et explication du plan de travail los des séances à venir (le coaching est un travail collaboratif entre coach et intervenant)." >}}
-    {{< agenda-item title="PRÉPARATION" description="L'intervenant rassemble les informations nécessaires pour sa présentation (données, informations, visuels, …) et crée une première version de l'histoire qu'il envoie au coach qui effectue un travail de préparation de la séance 1." >}}
-    {{< agenda-item title="SÉANCE 1 - HISTOIRE" description="Le coach et l'intervenant revoient ensemble les pistes d'amélioration de l'histoire et des visuels utilisés. Si possible, une première répétition « sur scène » est effectuée pour définir le travail sur la partie oratoire." >}}
-    {{< agenda-item title="SÉANCE 2 - PRÉSENCE" description="Sur base de la séance précédente, le coach accompagne l'intervenant pour améliorer sa présence sur scène. Il le conseille pour donner plus d'impact à l'histoire et aux messages clés." >}}
-    {{< agenda-item title="SÉANCE 3 - RÉPÉTITION FINALE" description="Lors de cette dernière séance, le coach travaille pour valider tous les acquis de l'intervenant et s'assurer que tous les automatismes et réflexes sont en place pour la présentation définitive." >}}
-{{< /agenda-list >}}
+{{< shortcode-agenda-list style="bg-light" title="Exemple de programme de coaching">}}
+    {{< shortcode-agenda-item title="ENTRETIEN PRÉLIMINAIRE" description="Définition des attentes, du contexte et des objectifs du coaching. Définition et explication du plan de travail los des séances à venir (le coaching est un travail collaboratif entre coach et intervenant)." >}}
+    {{< shortcode-agenda-item title="PRÉPARATION" description="L'intervenant rassemble les informations nécessaires pour sa présentation (données, informations, visuels, …) et crée une première version de l'histoire qu'il envoie au coach qui effectue un travail de préparation de la séance 1." >}}
+    {{< shortcode-agenda-item title="SÉANCE 1 - HISTOIRE" description="Le coach et l'intervenant revoient ensemble les pistes d'amélioration de l'histoire et des visuels utilisés. Si possible, une première répétition « sur scène » est effectuée pour définir le travail sur la partie oratoire." >}}
+    {{< shortcode-agenda-item title="SÉANCE 2 - PRÉSENCE" description="Sur base de la séance précédente, le coach accompagne l'intervenant pour améliorer sa présence sur scène. Il le conseille pour donner plus d'impact à l'histoire et aux messages clés." >}}
+    {{< shortcode-agenda-item title="SÉANCE 3 - RÉPÉTITION FINALE" description="Lors de cette dernière séance, le coach travaille pour valider tous les acquis de l'intervenant et s'assurer que tous les automatismes et réflexes sont en place pour la présentation définitive." >}}
+{{< /shortcode-agenda-list >}}
 
-{{< image-wide src="coaching-prise-de-parole-002.jpg" alt="Coaching" >}}
+{{< shortcode-image-wide src="coaching-prise-de-parole-002.jpg" alt="Coaching" >}}
 
 ## Une combinaison de techniques classiques et modernes
 
@@ -49,7 +49,7 @@ Nous adaptons le programme de coaching aux forces et opportunités d’améliora
 
 Plus les enjeux sont importants, plus la préparation est essentielle. [Pour en savoir plus sur la prise de parole en public, vous pouvez consulter notre guide.](/fr/guide-ultime-prise-de-parole-en-public/)
 
-{{< image-wide src="coaching-prise-de-parole-003.jpg" alt="Coaching" >}}
+{{< shortcode-image-wide src="coaching-prise-de-parole-003.jpg" alt="Coaching" >}}
 
 ## Coaching ou formation ?
 

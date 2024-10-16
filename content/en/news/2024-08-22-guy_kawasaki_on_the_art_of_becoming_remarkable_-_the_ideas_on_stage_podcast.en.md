@@ -63,7 +63,7 @@ banner = "/img/news/guy_and_andrea.jpg"
 \
 I hope you enjoy it!
 
-{{< youtube 4rx2r99sC3k>}}
+{{< shortcode-youtube 4rx2r99sC3k>}}
 
 **Want to learn more?** 
 

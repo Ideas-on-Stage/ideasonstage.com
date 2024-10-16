@@ -36,4 +36,4 @@ Once these important people are properly briefed and on your side, you will feel
 
 Find out more in this short video featuring our Chief Coaching Officer, Michael Rickwood, with host Rose Bloomfield.
 
-{{< youtube Prqz74BFlIA >}}
+{{< shortcode-youtube Prqz74BFlIA >}}

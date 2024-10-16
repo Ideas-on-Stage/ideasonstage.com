@@ -19,7 +19,7 @@ Comme souvent, la réponse correcte est : ça dépend. C’est rarement une bon
 
 Dans un environnement très formel, par exemple un meeting politique, il vaut mieux ne pas bouger beaucoup. Si l’événement est plus informel, par exemple un concours de pitch, il est essentiel d’avoir l’air dynamique et passionné, et bouger peut aider. Nous pourrions même sauter sur scène, et cela serait acceptable (bien que nous ne recommandions pas le style Ballmer).
 
-{{< youtube IGVscYI5XlQ >}}
+{{< shortcode-youtube IGVscYI5XlQ >}}
 
 Nous avons vu des intervenants faire des discours extraordinaires assis ou derrière un pupitre, sans bouger. À l’opposé, nous avons vu des orateurs bouger avec énergie sur scène et faire excellente impression. L’important, c’est que leur posture était cohérente par rapport à leur style, et lorsqu’ils se déplaçaient, c’était avec *intention*, pas parce qu’ils ne pouvaient pas se contrôler. Un bon coach vous aidera à comprendre et construire un style qui correspond à votre personnalité au lieu de vous forcer à adopter un stéréotype du « bon présentateur » (une notion que je développerai dans un autre article).
 

@@ -11,7 +11,7 @@ schema: "VideoObject"
 embedurl: "JkbvYqYEeo8"
 ---
 
-{{< youtube JkbvYqYEeo8 >}}
+{{< shortcode-youtube JkbvYqYEeo8 >}}
 
 **Rose**: Hola, bienvenidos a the Business Presentation Revolution podcast. Acabo de hacer la presentación más aburrida de mi vida y necesito aprender cómo hacer una presentación más interesante y cautivadora. 
  

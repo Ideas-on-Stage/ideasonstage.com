@@ -82,19 +82,19 @@ Once you have fixed a date for your first coaching session, you can prepare by d
 Know TED: “Have you met TED?” Excuse the pop-culture reference (see How I met your Mother). If you are not familiar with TED or TEDx, the first thing you need to do is visit [www.ted.com](https://www.ted.com) and watch a few videos to understand why the conference has garnered such a globally positive reputation. Here are some links in English, which will give you a hint of the style and quality of the talks.
 
 Al Gore: new thinking on the climate crisis
-{{< ted al_gore_new_thinking_on_the_climate_crisis >}}
+{{< shortcode-ted al_gore_new_thinking_on_the_climate_crisis >}}
 
 Sarah Kay: If I Should Have a Daughter
-{{< ted sarah_kay_if_i_should_have_a_daughter >}}
+{{< shortcode-ted sarah_kay_if_i_should_have_a_daughter >}}
 	
 Seth Godin: how to get your ideas to spread
-{{< ted seth_godin_the_tribes_we_lead >}}
+{{< shortcode-ted seth_godin_the_tribes_we_lead >}}
 
 Hans Rösling: Asia’s rise how and when
-{{< ted hans_rosling_asia_s_rise_how_and_when >}}
+{{< shortcode-ted hans_rosling_asia_s_rise_how_and_when >}}
 
 Amanda Gorman: The Hill We Climb/Using your voice is a political choice
-{{< ted amanda_gorman_using_your_voice_is_a_political_choice >}}
+{{< shortcode-ted amanda_gorman_using_your_voice_is_a_political_choice >}}
 
 Title it: provide the organizers with the title of your talk. They will need it to prepare the event web site and print their programs. In order to do that they need the title of your talk. Try to be original with your title and avoid non-specific, generalized titles. Try to find something that will hook people’s attention. A question perhaps, or a slogan. Don’t worry, it is common for this step to feel problematic since you are still working on your content.
 
