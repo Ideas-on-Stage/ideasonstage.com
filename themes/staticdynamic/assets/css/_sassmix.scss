@@ -179,12 +179,22 @@
 		}
 	}
 
-	@mixin height-full {
+	@mixin height-screen-full {
 		height: calc(100vh - var(--menubar-height));
+	}
+	
+	@mixin height-full {
+		height: 100%;
 	}
 	
 	@mixin height-half {
 		height: 50%;
+	}
+	
+	@mixin height-half-sm-screen {
+		@media (max-width: $gl-sm-screen) {
+			height: 50%;
+		}
 	}
 	
 	@mixin height-hero {
@@ -198,10 +208,13 @@
 	}
 	
 	@mixin img-back($z-index: 0) {
-		/* background image, full size of parent */
+		/*
+			puts image in the back as a background image, full size of parent
+			(also see text-front to put text in front of image)
+		*/
 		position: absolute;
-		height: inherit; /* ! parent container must have fixed height */
-		width: 100%;
+		height: inherit; /* ! parent container must have height in absolute unit or 100%, but not 0-99% */
+		width: inherit; /* ! parent container must have width in absolute unit or 100%, but not not 0-99% */
 		max-width: var(--page-max-width);
 		object-fit: cover;
 		@if 0 != $z-index {
@@ -213,7 +226,7 @@
 		/* round image */
 		width: $size !important;
 		height: $size !important;
-		border-radius: 50%;		
+		border-radius: 50%;
 	}
 	
 	@mixin img-contain {
@@ -241,10 +254,6 @@
 	@mixin img-sameline {
 		/* image on same line as text, useful to add icons in text */
 		display: inline-block;
-	}
-	
-	@mixin list-style-none {
-		list-style-type: none;
 	}
 	
 	@mixin margins($vertical: "medium", $horizontal: "normal") {
@@ -489,6 +498,19 @@
 		}
 	}
 	
+	@mixin text-front($z-index: 10) {
+		/* 
+			puts text front, often to layer it above an image
+			(also see img-back to put image in the background)
+		*/
+		position: relative;	/* enables z-index */
+		z-index: $z-index; /* if text overflows, it will go over picture below */
+	}
+	
+	@mixin text-padding($padding: 2em) {
+		padding: $padding;
+	}
+	
 	@mixin topbotmargins($tag) {
 		/*
 			applies top and bottom margins to a tag:
@@ -558,6 +580,11 @@
 		}
 	}
 
+	@mixin ul-list-style-none {
+		list-style-type: none;
+		padding-left: 0;
+	}
+
 	@mixin width-column($col-nb, $col-span: 1) {
 		/* determines width of column based on number of columns $nbcols and gap */
 		$gap-nb: $col-nb - 1;
@@ -568,18 +595,17 @@
 	@mixin width-full() {
 		width: 100%;
 	}
+
+	@mixin width-full-sm-screen {
+		@media (max-width: $gl-sm-screen) {
+			width: 100%;
+		}
+	}
 	
 	@mixin width-onethird {
 		width: calc( 33% );
-		@media (max-width: $gl-sm-screen) {
-			width: 100%;  /* set width to 100% on sm screens */
-		}
 	}
 	
 	@mixin width-twothirds {
 		width: calc( 67% - var(--column-gap) );	/* reduce main content width when there is a sidebar */
-		@media (max-width: $gl-sm-screen) {
-			width: 100%; /* set width to 100% on sm screens */
-		}
 	}
-	

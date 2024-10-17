@@ -4,7 +4,7 @@
 		@include flex-column($align-column-h: center, $align-v: center);
 		@include height-hero;
 		@include width-full;
-		padding: 1em;
+		@include text-padding;
 		
 		> img {
 			@include img-back($z-index: -100);

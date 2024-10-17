@@ -6,7 +6,7 @@
 		/* list of episodes */
 		ul {
 			@include flex-row($gap: "gap", $wrap: "wrap");
-			list-style-type: none;
+			@include ul-list-style-none;
 		}
 		
 		/* episode */

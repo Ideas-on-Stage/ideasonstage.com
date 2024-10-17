@@ -2,8 +2,7 @@
 
 	.cl-main-prevnext {
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-between);
-		padding: 0;
-		list-style: none;
+		@include ul-list-style-none;
 		
 		{{ partial "e/colorscheme.scss" . }};
 		{{ partial "e/textscheme.scss" . }}

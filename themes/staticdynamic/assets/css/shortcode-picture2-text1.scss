@@ -6,11 +6,12 @@
 		.text {
 			@include firstlastchildnomargin;
 			@include width-onethird;
+			@include width-full-sm-screen;
 		}
 		
 		img {
 			@include width-twothirds;
-			margin: 0;
+			@include width-full-sm-screen;
 		}
 		
 		{{ partial "e/colorscheme.scss" . }}

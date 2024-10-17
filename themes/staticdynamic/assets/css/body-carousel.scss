@@ -15,6 +15,7 @@
 	.cl-body-carousel--carousel {
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: stretch);
 		@include scroll-h;
+		@include ul-list-style-none;
 		padding-top: 2rem;
 		padding-bottom: 2rem;
 		width: 100%;
@@ -27,7 +28,6 @@
 		flex-basis: 25vw;
 		border-radius: 5px;
 		background-color: var(--color-back);
-		list-style-type: none;
 		@media (max-width: $gl-sm-screen) {	
 			flex-basis: 70vw;
 		}
@@ -70,5 +70,4 @@
 		width: 1px;
 		height: 1px;
 		background-color: var(--color-back);
-		list-style-type: none;
 	}	

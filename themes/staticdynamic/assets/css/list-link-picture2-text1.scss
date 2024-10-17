@@ -12,6 +12,7 @@
 		.text {
 			@include firstlastchildnomargin;
 			@include width-onethird;
+			@include width-full-sm-screen;
 			@media (max-width: $gl-sm-screen) {
 				margin-top: 1em; /* add space between img and text on sm screens */
 			}
@@ -19,6 +20,7 @@
 		
 		.picture {
 			@include width-twothirds;
+			@include width-full-sm-screen;
 			
 			img {
 				@include img-contain;

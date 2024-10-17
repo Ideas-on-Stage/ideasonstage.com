@@ -1,42 +1,5 @@
 {{ partial "e/sass.scss" . }}
 
-	@mixin modulebase($width: "full") {
-		@include height-module;
-		overflow: hidden;
-		@media (max-width: $gl-sm-screen) {	
-			@include width-full;
-		}
-			
-		@if "half" == $width {
-			@include width-column(2);
-		}
-		@else {
-			@include width-full;
-		}
-	}
-	
-	@mixin image($height: 100%, $width: 100%) {
-		height: $height;
-		width: $width;
-		@media (max-width: $gl-sm-screen) {
-			@include width-full;
-			@include height-half;
-		}
-	}
-	
-	@mixin text($height: 100%, $width: 100%) {
-		position: relative;	/* enables z-index */
-		z-index: 10; /* if text overflows, it will go over picture below */
-		padding: 2em;
-		height: $height;
-		width: $width;		
-		@media (max-width: $gl-sm-screen) {
-			@include width-full;
-			@include height-half;
-			text-align: center;
-		}	
-	}
-	
 	.cl-modules {
 		@include flex-row($gap: "gap", $wrap: "wrap");
 		@include width-full;
@@ -52,18 +15,24 @@
 	
 	/* half-width module div, text on top, image bottom */
 	.cl-modules--half {
-		@include modulebase("half");
 		@include flex-column;
+		@include height-module;
+		@include width-column(2);
+		@include width-full-sm-screen();
 		
 		/* use to create inner div with text on top */
 		.text {
-			@include text(50%, 100%);
+			@include text-front;
+			@include text-padding;
+			@include height-half;
+			@include width-full;
 			text-align: center;
 		}
 		
 		/* use to create inner div with image on bottom */
 		.image {
-			@include image(50%, 100%);
+			@include height-half;
+			@include width-full;
 			
 			img {
 				@include img-contain;
@@ -77,24 +46,29 @@
 	
 	/* full-width module div, text on top, image bottom */
 	.cl-modules--column {
-		@include modulebase("full");
 		@include flex-column;
+		@include height-module;
+		@include width-full;
 		
 		/* use to create inner div with text on top */
 		.text {
-			@include text(50%, 100%);
+			@include text-front;
+			@include text-padding;
+			@include height-half;
+			@include width-full;
 			text-align: center;
 		}
 		
 		/* use to create inner div with image on bottom */
 		.image {
-			@include image(50%, 100%);
+			@include height-half;
+			@include width-full;
 			
 			img {	
 				@include img-contain;
 				object-position: 50% 100%; /* anchor on bottom, horizontal center */
 				@media (max-width: $gl-sm-screen) {
-					object-fit: cover; /* use cover instead of contain on sm screens */
+					@include img-cover;
 				}
 			}
 		}		
@@ -102,16 +76,20 @@
 	
 	/* full-width module div, image left, text right */
 	.cl-modules--row {
-		@include modulebase("full");
 		@include flex-row;
-		@media (max-width: $gl-sm-screen) {	
+		@include height-module;
+		@include width-full;
+		@media (max-width: $gl-sm-screen) {
 			flex-direction: column-reverse; /* create column with pic on bottom, text on top */
 			justify-content: space-between;
 		}
 		
 		/* div containing pic on left */
 		.image {
-			@include image(100%, 64%);
+			@include height-full;
+			@include width-twothirds;
+			@include height-half-sm-screen;
+			@include width-full-sm-screen;
 			
 			img {
 				@include img-cover;
@@ -121,10 +99,16 @@
 		
 		/* div containing text on right */
 		.text {
-			@include text(100%, 36%);
+			@include text-front;
+			@include text-padding;
 			@include flex-column($align-v: center);
+			@include height-full;
+			@include width-onethird;
+			@include height-half-sm-screen;
+			@include width-full-sm-screen;
 			@media (max-width: $gl-sm-screen) {
 				@include flex-column($align-v: flex-start, $align-column-h: center);
+				text-align: center;
 			}
 		}
 	}

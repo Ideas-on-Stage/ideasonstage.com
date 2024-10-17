@@ -9,8 +9,7 @@
 			
 			.categories {
 				@include flex-row($gap: "gap", $wrap: "wrap");
-				padding: 0;
-				list-style: none;
+				@include ul-list-style-none;
 				
 				> li {
 					@include width-column(4);
@@ -22,8 +21,7 @@
 			}
 			
 			.items {
-				list-style: none;
-				padding-left: 0;
+				@include ul-list-style-none;
 				text-transform: none;
 				
 				> li a {

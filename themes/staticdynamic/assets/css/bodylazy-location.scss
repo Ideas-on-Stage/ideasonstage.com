@@ -10,10 +10,9 @@
 		
 		.text {
 			@include flex-column($align-column-h: center);
+			@include text-front;
 			--color-back: none;
-			position: relative; /* enable z-index to have text layered on top of img */
-			padding-left: 2em;
-			padding-right: 2em;
+			padding: 2em;
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};

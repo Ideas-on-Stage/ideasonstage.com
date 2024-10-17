@@ -2,7 +2,7 @@
 
 	.cl-body-content404 {
 		@include flex-column($align-column-h: center, $align-v: center);
-		@include height-full;
+		@include height-screen-full;
 		@include width-full;
 		
 		{{ partial "e/colorscheme.scss" . }};

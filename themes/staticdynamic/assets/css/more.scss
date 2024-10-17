@@ -23,8 +23,7 @@
 		}
 		
 		.results {
-			list-style: none;
-			padding: 0;
+			@include ul-list-style-none;
 		}
 		
 		.results-description {

@@ -6,10 +6,12 @@
 		.text {
 			@include firstlastchildnomargin;
 			@include width-twothirds;
+			@include width-full-sm-screen;
 		}
 		
 		.picture {
 			@include width-onethird;
+			@include width-full-sm-screen;
 			
 			img {
 				@include img-contain;

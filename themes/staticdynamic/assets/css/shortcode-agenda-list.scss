@@ -4,13 +4,9 @@
 		@include firstlastchildnomargin;
 		
 		ul {
-			padding-left: 0px;
+			@include ul-list-style-none;
 		}
 		
-		li {
-				@include list-style-none;
-			}
-	
 		{{ partial "e/colorscheme.scss" . }}
 		{{ partial "e/textscheme.scss" . }}
 	}
