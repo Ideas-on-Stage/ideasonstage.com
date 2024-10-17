@@ -7,6 +7,8 @@ date = "2024-10-17"
 author = "Andrea Pacini"
 banner = "/img/news/carole_robin.jpg"
 +++
+![Andrea and Carole](/img/news/carole_robin.jpg "Andrea and Carole")
+
 In a recent podcast interview with Carole Robin, Ph.D., we discussed the value of building exceptional relationships. Carole, co-author of *Connect* and a former Stanford professor, shared practical advice that can improve your personal and professional lives.
 
 **Key Takeaways from Our Conversation:**
