@@ -3,15 +3,14 @@
 	.cl-body-side-main {
 		@include margins($vertical: "medium", $horizontal: "normal");
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start, $align-h: space-between);
+		@include flex-column-sm-screen(column-reverse);
 		padding: 0;
-		@media (max-width: $gl-sm-screen) {
-			flex-direction: column-reverse;
-		}
 		
 		.side {
 			@include firstlastchildnomargin;
 			@include flex-column($gap: "gap");
 			@include width-onethird;
+			@include width-full-sm-screen;
 			margin-right: 1em; /* add space to the right of sidebar so it doesn't stick to right col */
 			padding: var(--padding);
 			@media (max-width: $gl-sm-screen) {
@@ -32,6 +31,7 @@
 		
 		.side + .main {
 			@include width-twothirds;
+			@include width-full-sm-screen;
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};

@@ -19,9 +19,7 @@
 			
 			.thumb {
 				@include width-column(5);
-				@media (max-width: $gl-sm-screen) {
-					@include width-full;
-				}
+				@include width-full-sm-screen;
 				
 				img {
 					@include img-contain;
@@ -30,9 +28,7 @@
 			
 			.text {
 				@include width-column(5, 4);
-				@media (max-width: $gl-sm-screen) {
-					@include width-full;
-				}
+				@include width-full-sm-screen;
 				
 				> :first-child {
 					margin-top: 0;

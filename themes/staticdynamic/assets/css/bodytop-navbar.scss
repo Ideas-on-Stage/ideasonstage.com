@@ -42,7 +42,7 @@
 				@include flex-row($align-h: stretch);
 				margin: 0;
 				padding: 0;
-				height: var(--menubar-height);				
+				height: var(--menubar-height);
 				gap: 1em;
 				
 				li {
@@ -87,7 +87,7 @@
 			}
 		}
 		
-		/* Menu for ts screens */
+		/* Menu for small screens */
 		@media (max-width : $gl-sm-screen) {
 			
 			/* Logo */

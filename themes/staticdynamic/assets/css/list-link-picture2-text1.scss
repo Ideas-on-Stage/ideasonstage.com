@@ -2,20 +2,15 @@
 
 	.cl-list-link-picture2-text1 {
 		@include flex-row($gap: "big", $wrap: "nowrap");
+		@include flex-column-sm-screen(column);		
 		@include width-full;
-		margin-top: 3em;
-		margin-bottom: 3em;
-		@media (max-width: $gl-sm-screen) {
-			flex-direction: column;
-		}
+		margin-top: 3rem;
+		margin-bottom: 3rem;
 		
 		.text {
 			@include firstlastchildnomargin;
 			@include width-onethird;
 			@include width-full-sm-screen;
-			@media (max-width: $gl-sm-screen) {
-				margin-top: 1em; /* add space between img and text on sm screens */
-			}
 		}
 		
 		.picture {
@@ -25,7 +20,6 @@
 			img {
 				@include img-contain;
 			}
-			
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};

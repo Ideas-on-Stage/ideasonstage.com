@@ -1,7 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-shortcode--picture2-text1 {
-		@include two-columns;
+		@include flex-row($gap: "gap");
+		@include flex-column-sm-screen(column);
 		
 		.text {
 			@include firstlastchildnomargin;

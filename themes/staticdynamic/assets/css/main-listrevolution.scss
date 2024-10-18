@@ -12,7 +12,7 @@
 		/* episode */
 		li {
 			@include width-column(3);
-			height: 100%;
+			@include height-full;
 			margin-bottom: 1rem;
 			@media (max-width: $gl-sm-screen) {
 				@include width-full;

@@ -12,9 +12,9 @@ body-breadcrumbs:
     - "--text-transform: uppercase"
 
 body-carousel:
-    - "--font-size-h4: 1" 
-    - "--font-size: 0.8"
-    - "--font-size-button-secondary: 0.8"
+    - "--font-ratio: 0.8"
+    - "--font-ratio-button-secondary: 0.8"
+    - "--font-ratio-h4: 1" 
 
 body-cta:
     - "--text-align-h2: center"
@@ -26,11 +26,11 @@ body-content404:
     - "--text-align-p: center"
 
 body-countrylist:
-    - "--font-size-button-secondary: 0.85"
+    - "--font-ratio-button-secondary: 0.85"
     - "--gap: 1em"
 
 body-h1home:
-    - "--font-size-h1: 1"
+    - "--font-ratio-h1: 1"
 
 body-h1hero--hero:
     - "--text-align-h1: center"
@@ -40,23 +40,23 @@ body-herorevolution:
     - "--margin-bottom-h2: 0.5em"
 
 body-side-main--side:
+    - "--gap: 0"
+    - "--font-ratio: 0.8"
     - "--padding: 0"
-    - "--font-size: 0.8"
-    - "--font-size-h2: 1"
+    - "--font-ratio-h2: 1"
     - "--margin-top-h2: 0"
     - "--margin-bottom-h2: 0.5rem"
     - "--list-style-type-ul: none"
     - "--padding-left-ul: 0"
     - "--margin-top-ul: 0"
-    - "--gap: 0"
 
 bodybottom-contact-form:
     - "--text-align-h2: center"
     - "--text-align-p: center"
 
 bodybottom-footer:
-    - "--font-size: 0.8"
-    - "--font-size-h3: 1"
+    - "--font-ratio: 0.8"
+    - "--font-ratio-h3: 1"
     - "--text-transform-h3: uppercase"
     - "--margin-top-li: 1.5em"
 
@@ -67,8 +67,8 @@ bodylazy-location:
     - "--text-align-p: center"
 
 bodylazy-testimonials:
-    - "--font-size: 0.8"
-    - "--font-size-h4: 0.8"
+    - "--font-ratio: 0.8"
+    - "--font-ratio-h4: 0.8"
 
 bodytop-navbar:
     - "--font-family: Gotham SSm A, Gotham SSm B"
@@ -95,28 +95,28 @@ main-h1:
 main-listrevolution:
     - "--text-align-h2: center"
     - "--margin-bottom-h2: 0.5rem"
-    - "--font-size-h3: 1"
+    - "--font-ratio-h3: 1"
     - "--margin-top-h3: 0.5rem"
     - "--margin-top-p: 0.5rem"
 
 main-listteam:
-    - "--font-size: 0.75"
-    - "--font-size-h2: 1"
+    - "--font-ratio: 0.75"
+    - "--font-ratio-h2: 1"
     - "--margin-top-h2: 8px"
     - "--margin-bottom-h2: 4px"
     - "--margin-top-p: 0"
     - "--margin-bottom-p: 0"
 
 main-positionteam:
-    - "--font-size-h2: 1.2"
+    - "--font-ratio-h2: 1.2"
     - "--text-transform-h2: uppercase"
 
 modules:
-    - "--font-size-h3: 1.8"
+    - "--font-ratio-h3: 1.8"
 
 
 tags:
-    - "--font-size: 0.8"
+    - "--font-ratio: 0.8"
     - "--text-transform: uppercase"
 
 #shortcodes
@@ -124,14 +124,14 @@ shortcode-agenda-item:
     - "--text-align: center"
     - "--margin-bottom-h4: 0.2em"
     - "--text-transform-h4: uppercase"
-    - "--font-size-h4: 1em"
+    - "--font-ratio-h4: 1em"
     - "--margin-top-p: 0em"
     
 shortcode-agenda-list:
     - "--text-align: center"
     - "--margin-bottom-h4: 0.2em"
     - "--text-transform-h4: uppercase"
-    - "--font-size-h4: 1em"
+    - "--font-ratio-h4: 1em"
 
 shortcode-call-to-action:
     - "--text-align: center"
@@ -151,8 +151,8 @@ shortcode-icon-item:
 
 root:
     # font-ratio - adapts base font sizes based on media breakpoints - unit: vw (recommended) */
-    - "--font-ratio: 1.5vw" # font ratio for normal screens
-    - "--font-ratio-sm: 4.2vw" # font ratio for small screens
+    - "--font-base-size: 1.5vw" # font ratio for normal screens
+    - "--font-base-size-sm-screen: 4.2vw" # font ratio for small screens
 
     # font families */
     - "--font-family: Whitney SSm A, Whitney SSm B"
@@ -164,24 +164,24 @@ root:
     - "--font-family-button: Gotham SSm A, Gotham SSm B"
     - "--font-weight-button: 700"
     # font-size, line-height, margin-top, margin-bottom, text-align, text-transform
-    # For font-size DON'T USE UNITS, it will be multiplied by the ratio in vw for perfect scaling
-    # for example, --font-size: 1 --> 1 * 1.5vw = 1.5vw actual font size
-    - "--font-size: 1"
+    # For --font-ratio DON'T USE UNITS, it will be multiplied by the --font-base-size for perfect scaling
+    # for example, --font-ratio: 1, --font-base-size 1.5 --> 1 * 1.5vw = 1.5vw actual font size
+    - "--font-ratio: 1"
     # h1
-    - "--font-size-h1: 2"
+    - "--font-ratio-h1: 2"
     - "--line-height-h1: 1.2em"
     - "--text-transform-h1: uppercase"
     # h2
-    - "--font-size-h2: 1.5"
+    - "--font-ratio-h2: 1.5"
     - "--line-height-h2: 1.2em"
     # h3
-    - "--font-size-h3: 1.25"
+    - "--font-ratio-h3: 1.25"
     - "--line-height-h3: 1.2em"
     # h4
-    - "--font-size-h4: 1.25"
+    - "--font-ratio-h4: 1.25"
     - "--line-height-h4: 1.2em"
     # h5
-    - "--font-size-h5: 1"
+    - "--font-ratio-h5: 1"
     - "--line-height-h5: 1.2em"
     #li
     - "--margin-top-li: 0.5em"
@@ -192,10 +192,9 @@ root:
     - "--margin-bottom-p: 1em"
     - "--line-height-p: 1.6em"
     # button-primary
-    - "--font-size-button-primary: 1"
+    - "--font-ratio-button-primary: 1"
     - "--text-align-button-primary: center"
     - "--text-transform-button-primary: uppercase"
     # button-secondary
-    - "--font-size-button-secondary: 1"
+    - "--font-ratio-button-secondary: 1"
     - "--text-transform-button-secondary: uppercase"
-    

@@ -4,6 +4,10 @@
 		margin: 0;
 		padding: var(--content-space-v) 0;
 		
+		a {
+			@include a-underline-none;
+		}
+		
 		nav {
 			@include margins($vertical: "medium", $horizontal: "normal");
 			
@@ -13,6 +17,7 @@
 				
 				> li {
 					@include width-column(4);
+					@include width-column-sm-screen(2);
 					line-height: 1.6em;
 					@media (max-width: $gl-sm-screen) {
 						@include width-column(2);
@@ -21,17 +26,15 @@
 			}
 			
 			.items {
-				@include ul-list-style-none;
-				text-transform: none;
 				
-				> li a {
-					border: none;
+				> ul {
+					@include ul-list-style-none;
 				}
 			}
 		}
 		
 		.text {
-			@include margins("medium", "normal");
+			@include margins($vertical: "medium", $horizontal: "normal");
 		}
 		
 		{{ partial "e/colorscheme.scss" . }};

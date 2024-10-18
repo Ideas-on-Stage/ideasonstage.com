@@ -16,8 +16,7 @@
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: stretch);
 		@include scroll-h;
 		@include ul-list-style-none;
-		padding-top: 2rem;
-		padding-bottom: 2rem;
+		padding: var(--row-gap) var(--column-gap);
 		width: 100%;
 	}
 	
@@ -28,13 +27,10 @@
 		flex-basis: 25vw;
 		border-radius: 5px;
 		background-color: var(--color-back);
-		@media (max-width: $gl-sm-screen) {	
+		@media (max-width: $gl-sm-screen) {
 			flex-basis: 70vw;
 		}
 		
-		&:first-child {
-			margin-left: 2vw;
-		} 
 		&:last-child {
 			margin-right: 2vw;
 		}
@@ -43,9 +39,8 @@
 			@include flex-column($align-v: space-between);
 			padding: 1em;
 			height: calc( 100% - 15vw ); /* full container height minus picture height */
-			min-height: 15vw;
 			border-radius: 5px 5px 0px 0px;
-			@media (max-width: $gl-sm-screen) {	
+			@media (max-width: $gl-sm-screen) {
 				height: calc( 100% - 40vw );
 				min-height: 45vw;
 			}
@@ -56,7 +51,7 @@
 			width: 100%;
 			border-radius: 0px 0px 5px 5px;
 			object-fit: cover;
-			@media (max-width: $gl-sm-screen) {	
+			@media (max-width: $gl-sm-screen) {
 				height: 40vw;
 			}
 		}

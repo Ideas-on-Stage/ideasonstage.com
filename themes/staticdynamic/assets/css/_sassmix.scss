@@ -13,6 +13,10 @@
 	mixins
 	-------- */
 
+	@mixin a-underline-none {
+		border-bottom: none;
+	}
+
 	@mixin colors($tag) {
 		/*
 			adds color css elements to a tag:
@@ -346,48 +350,6 @@
 		}	
 		
 	}
-
-	@mixin size($height: "unset", $width: "unset", $height-sm: "unset", $width-sm: "unset", $min-height: "unset", $min-width: "unset", $min-height-sm: "unset", $min-width-sm: "unset", $max-height: "unset", $max-width: "unset", $max-height-sm: "unset", $max-width-sm: "unset") {
-		@if "unset" != $height {
-			height: $height;
-		}
-		@if "unset" != $width {
-			width: $width;
-		}
-		@if "unset" != $min-height {
-			min-height: $min-height;
-		}
-		@if "unset" != $min-width {
-			min-width: $min-width;
-		}
-		@if "unset" != $max-height {
-			max-height: $max-height;
-		}
-		@if "unset" != $max-width {
-			max-width: $max-width;
-		}
-		@media (max-width: $gl-sm-screen) {
-			height: 100vw;
-			@if "unset" != $height-sm {
-				height: $height-sm;
-			}
-			@if "unset" != $width-sm {
-				width: $width-sm;
-			}
-			@if "unset" != $min-height-sm {
-				min-height: $min-height-sm;
-			}
-			@if "unset" != $min-width-sm{ 
-				min-width: $min-width-sm;
-			}
-			@if "unset" != $max-height-sm {
-				max-height: $max-height-sm;
-			}
-			@if "unset" != $max-width-sm {
-				max-width: $max-width-sm;
-			}
-		}
-	}
 	
 	@mixin text($tag) {
 		/*
@@ -403,7 +365,7 @@
 		@if "b" == $tag {
 			font-family: var(--font-family-b);
 			font-weight: var(--font-weight-b);
-			font-size: calc(var(--font-size) * var(--font-ratio));
+			font-size: calc(var(--font-ratio) * var(--font-base-size));
 			line-height: var(--line-height-b);
 			text-align: var(--text-align-b);
 			text-transform: var(--text-transform-b);
@@ -411,7 +373,7 @@
 		@else if "blockquote" == $tag {
 			font-family: var(--font-family-blockquote);
 			font-weight: var(--font-weight-blockquote);
-			font-size: calc(var(--font-size-blockquote) * var(--font-ratio));
+			font-size: calc(var(--font-ratio-blockquote) * var(--font-base-size));
 			line-height: var(--line-height-blockquote);
 			text-align: var(--text-align-blockquote);
 			text-transform: var(--text-transform-blockquote);
@@ -419,7 +381,7 @@
 		@else if "button-primary" == $tag {
 			font-family: var(--font-family-button);
 			font-weight: var(--font-weight-button);
-			font-size: calc(var(--font-size-button-primary) * var(--font-ratio));
+			font-size: calc(var(--font-ratio-button-primary) * var(--font-base-size));
 			line-height: var(--line-height-button-primary);
 			text-align: var(--text-align-button-primary);
 			text-transform: var(--text-transform-button-primary);
@@ -427,7 +389,7 @@
 		@else if "button-secondary" == $tag {
 			font-family: var(--font-family-button);
 			font-weight: var(--font-weight-button);
-			font-size: calc(var(--font-size-button-secondary) * var(--font-ratio));
+			font-size: calc(var(--font-ratio-button-secondary) * var(--font-base-size));
 			line-height: var(--line-height-button-secondary);
 			text-align: var(--text-align-button-secondary);
 			text-transform: var(--text-transform-button-secondary);
@@ -435,7 +397,7 @@
 		@else if "h1" == $tag {
 			font-family: var(--font-family-h);
 			font-weight: var(--font-weight-h);
-			font-size: calc(var(--font-size-h1) * var(--font-ratio));
+			font-size: calc(var(--font-ratio-h1) * var(--font-base-size));
 			line-height: var(--line-height-h1);
 			text-align: var(--text-align-h1);
 			text-transform: var(--text-transform-h1);
@@ -443,7 +405,7 @@
 		@else if "h2" == $tag {
 			font-family: var(--font-family-h);
 			font-weight: var(--font-weight-h);
-			font-size: calc(var(--font-size-h2) * var(--font-ratio));
+			font-size: calc(var(--font-ratio-h2) * var(--font-base-size));
 			line-height: var(--line-height-h2);
 			text-align: var(--text-align-h2);
 			text-transform: var(--text-transform-h2);
@@ -451,7 +413,7 @@
 		@else if "h3" == $tag {
 			font-family: var(--font-family-h);
 			font-weight: var(--font-weight-h);
-			font-size: calc(var(--font-size-h3) * var(--font-ratio));
+			font-size: calc(var(--font-ratio-h3) * var(--font-base-size));
 			line-height: var(--line-height-h3);
 			text-align: var(--text-align-h3);
 			text-transform: var(--text-transform-h3);
@@ -459,7 +421,7 @@
 		@else if "h4" == $tag {
 			font-family: var(--font-family-h);
 			font-weight: var(--font-weight-h);
-			font-size: calc(var(--font-size-h4) * var(--font-ratio));
+			font-size: calc(var(--font-ratio-h4) * var(--font-base-size));
 			line-height: var(--line-height-h4);
 			text-align: var(--text-align-h4);
 			text-transform: var(--text-transform-h4);
@@ -467,7 +429,7 @@
 		@else if "h5" == $tag {
 			font-family: var(--font-family-h);
 			font-weight: var(--font-weight-h);
-			font-size: calc(var(--font-size-h5) * var(--font-ratio));
+			font-size: calc(var(--font-ratio-h5) * var(--font-base-size));
 			line-height: var(--line-height-h5);
 			text-align: var(--text-align-h5);
 			text-transform: var(--text-transform-h5);
@@ -475,7 +437,7 @@
 		@else if "li" == $tag {
 			font-family: var(--font-family);
 			font-weight: var(--font-weight);
-			font-size: calc(var(--font-size) * var(--font-ratio));
+			font-size: calc(var(--font-ratio) * var(--font-base-size));
 			line-height: var(--line-height-li);
 			text-align: var(--text-align-li);
 			text-transform: var(--text-transfor-lim);
@@ -483,7 +445,7 @@
 		@else if "p" == $tag {
 			font-family: var(--font-family);
 			font-weight: var(--font-weight);
-			font-size: calc(var(--font-size) * var(--font-ratio));
+			font-size: calc(var(--font-ratio) * var(--font-base-size));
 			line-height: var(--line-height-p);
 			text-align: var(--text-align-p);
 			text-transform: var(--text-transform-p);
@@ -491,7 +453,7 @@
 		@else {
 			font-family: var(--font-family);
 			font-weight: var(--font-weight);
-			font-size: calc(var(--font-size) * var(--font-ratio));
+			font-size: calc(var(--font-ratio) * var(--font-base-size));
 			line-height: var(--line-height);
 			text-align: var(--text-align);
 			text-transform: var(--text-transform);
@@ -567,16 +529,12 @@
 			margin-bottom: var(--margin-bottom-ul);
 		}
 	}
-
-	@mixin two-columns($sm-screen-direction: column) {
-		/* displays two columns that become 1 vertical column on sm screens */
-		--column-gap: var(--column-gap-big);
-		display: flex;
-		flex-direction: row;
-		align-items: flex-start;
-		gap: var(--column-gap);
+	
+	@mixin flex-column-sm-screen($flex-direction: column) {
+		/* turns flex-row into a flex-column on small screens */
 		@media (max-width: $gl-sm-screen) {
-			flex-direction: $sm-screen-direction;
+			flex-direction: $flex-direction;
+			row-gap: var(--row-gap);
 		}
 	}
 
@@ -590,6 +548,13 @@
 		$gap-nb: $col-nb - 1;
 		$gap-span: $col-span - 1;
 		width: calc( (100% - #{$gap-nb} * var(--column-gap)) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px );
+	}
+	
+	@mixin width-column-sm-screen($col-nb, $col-span: 1) {
+		/* determines width of column based on number of columns $nbcols and gap */
+		@media (max-width: $gl-sm-screen) {
+			@include width-column($col-nb, $col-span);
+		}
 	}
 	
 	@mixin width-full() {

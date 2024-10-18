@@ -2,8 +2,7 @@
 
 	.cl-body-h1hero--title {
 		@include flex-column($align-column-h: center, $align-v: center);
-		top: var(--menubar-height);
-		z-index: 100;
+		@include text-front;
 		padding: 1em;
 		
 		{{ partial "e/colorscheme.scss" "body-h1hero--title" }};
