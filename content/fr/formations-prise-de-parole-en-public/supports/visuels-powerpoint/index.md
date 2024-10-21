@@ -37,7 +37,7 @@ PowerPoint est devenu tellement utilisé qu'il est devenu synonyme de présentat
 
 ### Les trois piliers d'une bonne présentation
 
-{{< shortcode-include "/static/training/trois-piliers.md" >}}
+{{% shortcode-include "/static/training/trois-piliers.md" %}}
 
 Cette formation est dédiée au pilier « visuels ». Nous ne verrons pas comment utiliser PowerPoint ; savoir utiliser ce logiciel est un prérequis, même si le formateur pourra éventuellement vous donner des conseils pour réaliser certaines diapositives.
 
@@ -46,7 +46,7 @@ Mais avant de découvrir les bons principes de communication, nous allons redéf
 
 ### À propos d’Ideas on Stage
 
-{{< shortcode-include "/static/training/a-propos-d-ideas-on-stage.md" >}}
+{{% shortcode-include "/static/training/a-propos-d-ideas-on-stage.md" %}}
 
 
 ### Présentation PowerPoint ou DocuPoint ?
@@ -72,7 +72,7 @@ Nous avons vu qu'il y avait trois piliers. Avant de créer une présentation Pow
 
 ## Message
 
-{{< shortcode-include "/static/training/message.fr.md" >}}
+{{% shortcode-include "/static/training/message.fr.md" %}}
 
 Maintenant que nous connaissons les principes de base d'une bonne histoire, nous pouvons revenir à la création de la présentation PowerPoint.
 
@@ -446,7 +446,7 @@ Créez une présentation de maximum 7 diapositives et présentez-là devant les 
 
 ## Ressources supplémentaires
 
-{{< shortcode-include "/static/training/ressources-complementaires.md" >}}
+{{% shortcode-include "/static/training/ressources-complementaires.md" %}}
 
 
 ## Révisions

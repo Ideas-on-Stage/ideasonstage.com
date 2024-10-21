@@ -40,12 +40,12 @@ Cette formation est dédiée à la partie histoire. Nous allons découvrir comme
 
 ### Les trois piliers d'une bonne présentation
 
-{{< shortcode-include "/static/training/trois-piliers.md" >}}
+{{% shortcode-include "/static/training/trois-piliers.md" %}}
 
 
 ### À propos d’Ideas on Stage
 
-{{< shortcode-include "/static/training/a-propos-d-ideas-on-stage.md" >}}
+{{% shortcode-include "/static/training/a-propos-d-ideas-on-stage.md" %}}
 
 
 ### À propos de vous
@@ -70,7 +70,7 @@ Présenter l’agenda et les objectifs de la journée.
 
 ## Message
 
-{{< shortcode-include "/static/training/message.fr.md" >}}
+{{% shortcode-include "/static/training/message.fr.md" %}}
 
  
 ## Structure
@@ -337,7 +337,7 @@ Ceci conclut notre formation sur le storytelling. Maintenant, la perfection est 
 
 ### Ressources supplémentaires
 
-{{< shortcode-include "/static/training/ressources-complementaires.md" >}}
+{{% shortcode-include "/static/training/ressources-complementaires.md" %}}
 
 
 ### Récapitulatif
