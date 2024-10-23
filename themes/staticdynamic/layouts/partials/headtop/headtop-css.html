@@ -1,7 +1,10 @@
-{{ "<!-- Core inline CSS -->" | safeHTML }}
+{{ "<!-- Variables inline CSS -->" | safeHTML }}
 <style type="text/css">
 	{{- $css := resources.Get "css/variables.scss" | resources.ExecuteAsTemplate "variables.css" . | toCSS | minify -}}
 	{{- $css.Content | safeCSS -}}
+</style>
+{{ "<!-- Core inline CSS -->" | safeHTML }}
+<style type="text/css">
 	{{- $css := resources.Get "css/core.scss" | resources.ExecuteAsTemplate "core.css" . | toCSS | minify -}}
 	{{- $css.Content | safeCSS -}}
 </style>

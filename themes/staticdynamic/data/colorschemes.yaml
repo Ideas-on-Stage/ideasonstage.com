@@ -11,19 +11,18 @@
 # block color schemes
 #
 
-body-breadcrumbs: "light"
-body-content404: "dark"
-bodytop-navbar: "dark"
-body-countrylist: "dark"
-body-cta: "dark"
-body-h1home: "dark"
-body-h1hero--title: "dark"
-body-herorevolution: "dark"
-body-side-main--main: "white"
-body-side-main--side: "light"
-bodybottom-footer: "dark"
-bodylazy-location: "black"
-bodylazy-testimonials: "light"
+body-breadcrumbs: "bg-light"
+body-content404: "bg-dark"
+bodytop-navbar: "bg-dark"
+body-countrylist: "bg-dark"
+body-cta: "bg-dark"
+body-h1home: "bg-dark"
+body-h1hero--title: "bg-dark"
+body-herorevolution: "bg-dark"
+body-side-main--side: "bg-light"
+bodybottom-footer: "bg-dark"
+bodylazy-location: "bg-black"
+bodylazy-testimonials: "bg-light"
 
 body-carousel:
 - "--color-back: var(--color-lightgray)"
@@ -96,7 +95,7 @@ root:
 - "--color-text-button-secondary: var(--color-secondary)"
 - "--color-text-button-secondary-hover: var(--color-secondary)"
 
-black:
+bg-black:
 - "--color-back: black"
 - "--color-border: white"
 - "--color-text-a: white"
@@ -104,21 +103,21 @@ black:
 - "--color-text: white"
 - "--color-text-muted: white"
 
-light:
+bg-light:
 - "--color-back: var(--color-lightgray)"
 - "--color-text-a: black"
 - "--color-text-a-hover: var(--color-primary)"
 - "--color-text: black"
 - "--color-text-muted: black"
 
-dark:
+bg-dark:
 - "--color-back: #222"
 - "--color-text-a: white"
 - "--color-text-a-hover: var(--color-primary)"
 - "--color-text: white"
 - "--color-text-muted: #white"
 
-primary:
+bg-primary:
 - "--color-back: var(--color-primary)"
 - "--color-text-a: white"
 - "--color-text-a-hover: white"
@@ -127,7 +126,7 @@ primary:
 - "--color-text-button-secondary: white"
 - "--color-text-button-secondary-hover: white"
 
-secondary:
+bg-secondary:
 - "--color-back: var(--color-secondary)"
 - "--color-text-button-secondary: white"
 - "--color-text-a: white"
@@ -135,7 +134,7 @@ secondary:
 - "--color-text: white"
 - "--color-text-muted: #white"
 
-codingandbricks:
+bg-codingandbricks:
 - "--color-back: #233B4C"
 - "--color-text-button-secondary: #FFD500"
 - "--color-text: #FFD500"

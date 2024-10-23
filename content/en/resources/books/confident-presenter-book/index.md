@@ -4,20 +4,14 @@ title: "Confident Presenter - The Book"
 description: "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."
 showrefs: false
 ---
-
-{{< shortcode-picture1-text2 picture="confident-presenter-book-2.png" >}}
-
-## Become a more credible, confident and convincing presenter.
- 
+{{< shortcode-picture1-text2 picture="confident-presenter-book-2.png" title="Become a more credible, confident and convincing presenter." >}}
 Learn the five key principles to communicate a compelling message that inspires action, growth and impact.
 
 > "Improving your presentation skills can change your life forever, and this book will give you the power to make that change."
 <br /><i>—Garr Reynolds, Author of Presentation Zen</i>
 
 Now Officially Included in New York University’s Business Communication Courses
-
 {{< /shortcode-picture1-text2 >}}
-
 {{< shortcode-call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" >}}
 {{< /shortcode-call-to-action >}}
 

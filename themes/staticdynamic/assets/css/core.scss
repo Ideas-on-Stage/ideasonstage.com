@@ -212,8 +212,8 @@
 		for example, a helper class ".bg-black" will be created for the color scheme named "black"
 	*/
 	{{ range $key, $value := site.Data.colorschemes }}
-		{{ if not (partial "f/isstring.go" $value) }}
-			{{ $class := printf ".bg-%s" $key }}
+		{{ if strings.Contains $key "bg-" }}
+			{{ $class := printf ".%s" $key }}
 			{{ $class }} {
 				{{ partial "e/colorscheme.scss" $key }}
 			}

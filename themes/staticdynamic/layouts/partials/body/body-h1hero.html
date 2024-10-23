@@ -26,19 +26,7 @@
 			{{ partial "e/html-comment.html" "skipped: h1: no .Title for hero" }}
 		{{ end }}
 		
-		{{ if isset .Params "hero" }}
-			<div class="cl-body-h1hero--logobar">
-				{{ range .Params.hero }}
-					<div class="cl-body-h1hero--logobar-item">
-						{{ $srcset := partial "f/getpicturesrcset.go" .img }}
-						<img loading="eager" decoding="async" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .title }}alt="{{ . }}"{{ end }}>
-						<p>
-							{{ .description }}
-						</p>
-					</div>
-				{{ end }}
-			</div>
-		{{ end }}
+		{{ partial "e/logobar.html" . }}
 	</header>
 {{ else if .Title }}
 	{{/* <!-- create standard title --> */}}

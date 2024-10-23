@@ -1,0 +1,13 @@
+{{ if isset .Params "hero" }}
+	<div class="cl-body-h1hero--logobar">
+		{{ range .Params.hero }}
+			<div class="cl-body-h1hero--logobar-item">
+				{{ $srcset := partial "f/getpicturesrcset.go" .img }}
+				<img loading="eager" decoding="async" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .title }}alt="{{ . }}"{{ end }}>
+				<p>
+					{{ .description }}
+				</p>
+			</div>
+		{{ end }}
+	</div>
+{{ end }}

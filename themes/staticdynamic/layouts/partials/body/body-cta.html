@@ -26,32 +26,35 @@
 		{{ $localizeddata := index $data site.LanguageCode }}
 		{{ with $localizeddata }}
 			<header id="call-to-action" class="cl-body-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
-				
 				{{/* <!-- cta picture --> */}}
 				{{ $picture := printf "img/cta/%s" .picture }}
 				{{ $srcset := partial "f/getpicturesrcset.go" $picture }}
 				<img loading="eager" decoding="async" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .title }}" width="100%" height="60vh">
 				
-				{{/* <!-- cta title --> */}}
-				{{ with .title }}
-					<h2>
-						{{ . | markdownify }}
-					</h2>
-				{{ end }}
+				<div class="cl-body-cta--main">
+					{{/* <!-- cta title --> */}}
+					{{ with .title }}
+						<h2>
+							{{ . | markdownify }}
+						</h2>
+					{{ end }}
+					
+					{{/* <!-- cta description --> */}}
+					{{ with .description }}
+						<p>
+							{{ . }}
+						</p>
+					{{ end }}
+					
+					{{/* <!-- cta button --> */}}
+					{{ with .button }}
+						<a href="{{ .link }}" class="cl-core--button-primary">
+							{{ .text }}
+						</a>
+					{{ end }}
+				</div>
 				
-				{{/* <!-- cta description --> */}}
-				{{ with .description }}
-					<p>
-						{{ . }}
-					</p>
-				{{ end }}
-				
-				{{/* <!-- cta button --> */}}
-				{{ with .button }}
-					<a href="{{ .link }}" class="cl-core--button-primary">
-						{{ .text }}
-					</a>
-				{{ end }}
+				{{ partial "e/logobar.html" page }}
 			</header>
 		{{ else }}
 			{{ partial "e/html-comment.html" "skipped: cta: no localized data for current language in page.Params.dt-body-cta" }}

@@ -8,6 +8,14 @@ pages: "bottom"
 translationKey: "presentations-training"
 type: "section"
 
+hero:
+  - img: /img/logos/ideas-on-stage-award-01.png 
+    title: Best Presentation Skills Training in the UK
+    description: Best Presentation Skills Training in the UK
+  - img: /img/logos/ideas-on-stage-award-04.png
+    title: Outstanding External Provider Finalist
+    description: Outstanding External Provider Finalist
+
 dt-body-referencesgrid: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
 ---
 
