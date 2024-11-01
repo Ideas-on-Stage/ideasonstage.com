@@ -56,6 +56,12 @@
 	status	= 301
 	force	= true	
 
+# redirect training
+[[redirects]]
+	from	= "https://training.ideasonstage.com/*"
+	to		= "https://www.ideasonstage.com/public-speaking-training/docs/:splat"
+	status	= 301
+	force	= true
 
 # UK Andrea's stuff redirects
 [[redirects]]
