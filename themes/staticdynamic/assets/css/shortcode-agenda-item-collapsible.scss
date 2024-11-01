@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode--agenda-item-collapsible {
+	.cl-shortcode-agenda-item-collapsible {
 		@include firstlastchildnomargin;
 		text-align: center;
 		

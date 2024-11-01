@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode--img {
+	.cl-shortcode-img {
 		@include flex-column($align-column-h: center);
 		margin: 0 -2vw;
 		padding: 0;

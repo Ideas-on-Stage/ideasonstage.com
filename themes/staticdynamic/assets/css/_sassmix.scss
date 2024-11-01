@@ -211,6 +211,10 @@
 		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
 	}
 	
+	@mixin height-navbar {
+		height: var(--menubar-height);
+	}
+	
 	@mixin img-back($z-index: 0) {
 		/*
 			puts image in the back as a background image, full size of parent

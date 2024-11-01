@@ -9,6 +9,11 @@
 		padding-left: var(--column-gap);
 		padding-right: var(--column-gap);
 		
+		/* Logo */
+		.brand {
+			@include height-navbar();
+		}
+		
 		/* Font for menu */
 		.menu-item,
 		.menu-item a,
@@ -19,7 +24,7 @@
 			border: none; /* remove underline for a links */
 			
 			img {
-				@include img-sameline;
+				@include img-sameline; /* show icon on same line as text */
 			}
 		}
 		
@@ -27,29 +32,26 @@
 			display: none; /* hide checkboxes */
 		}
 		
+		ul {
+			@include ul-list-style-none(); /* remove bullets from lists */
+		}
+		
 		/* Menu for normal screens */
 		@media (min-width : $gl-sm-screen) {
-			/* Logo */
-			.brand {
-				height: var(--menubar-height);
-			}
 			
+			/* burger menu (hidden on normal screens) */
 			.burger {
-				display: none; /* hide burger symbol on normal screens */
+				display: none;
 			}
 			
+			/* menu items */
 			.menu {
-				@include flex-row($align-h: stretch);
-				margin: 0;
-				padding: 0;
-				height: var(--menubar-height);
-				gap: 1em;
+				@include flex-row($gap: 1em, $align-h: stretch);
+				@include height-navbar();
 				
 				li {
 					@include flex-row($align-row-v: center);
 					margin: 0;
-					padding: 0;
-					list-style: none;
 					min-height: var(--menubar-height); /* min-height because should be allowed to grow for search */
 				}
 				/* show dropdown on hover */
@@ -58,22 +60,19 @@
 				}
 			}	
 			
+			/* menu dropdown, displayed on hover */
 			.menu-dropdown {
 				position: absolute;
 				top: calc(var(--menubar-height) - 2px);
 				right: 0; /* sticks dropdown to right of screen */
-				margin: 0;
-				padding: 0;
 				width: auto;
 				display: none; /* replaced by flex on hover */
 				flex-direction: column;
 				background-color: var(--color-back);
 				
 				li {
-					display: flex;
-					align-items: center; /* so text item inside is centered vertically */
+					@include flex-row($align-row-v: center);
 					position: relative;
-					list-style: none;
 					padding: 5px 12px;
 					line-height: 20px;
 				}
@@ -90,23 +89,20 @@
 		/* Menu for small screens */
 		@media (max-width : $gl-sm-screen) {
 			
-			/* Logo */
-			.brand {
-				height: var(--menubar-height);
-			}
-			
+			/* burger menu */
 			.burger { 
 				display: inline-block;
 			}
 			
+			/* menu items (shown when clicking on burger) */
 			.menu {
+				@include width-full();
 				position: fixed;
 				margin: 0;
 				padding: 1.5em;
 				left: 0;
 				top: calc(var(--menubar-height) - 2px);
 				height: auto;
-				width: 100%;
 				display: none; /* hide menu on ts screens, show if burger checkbox checked */
 				flex-direction: column;
 				align-items: center;
@@ -115,31 +111,29 @@
 			}
 			
 			.menu-item {
+				@include width-full();
 				@include flex-column($align-column-h: center, $align-v: center);
 				margin: 0;
 				padding: 0;
-				width: 100%;
 				list-style: none;
 			}
 			
+			/* menu dropdown, displayed on tap */
 			.menu-dropdown {
+				@include width-full();
+				@include flex-column($gap: 1.5rem, $align-column-h: center);
 				position: static;
 				top: calc(var(--menubar-height) - 2px);
 				margin: 0;
 				padding: 1.5rem 0 0 0;
-				width: 100%;
 				display: none; /* hide, show if checkbox checked */
-				flex-direction: column;
-				align-items: center;
-				gap: 1.5rem;
 				background-color: var(--color-back);
 			}
 			
 			.menu-dropdown-item {
+				@include width-full();
 				display: list-item;
 				position: relative;
-				width: 100%;
-				list-style: none;
 				margin: 0;
 				padding: 0;
 				text-align: center;
@@ -150,7 +144,6 @@
 			[id^=drop]:checked + .menu-dropdown {
 				display: flex;
 			}
-			
 		}
 		
 		{{ partial "e/colorscheme.scss" . }}

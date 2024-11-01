@@ -21,13 +21,30 @@ Pour les groupes souhaitant couvrir les différents sujets plus en profondeur et
 
 Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).
 
-{{< shortcode-agenda-list style="bg-light">}}
-	{{< shortcode-agenda-item title="Objectifs pédagogiques de la formation" description="Combiner le storytelling, les présentations PowerPoint et l'art oratoire pour convaincre son auditoire." >}}
-	{{< shortcode-agenda-item title="Prérequis de la formation" description="Avoir déjà fait une présentation en public.<br>Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>Il n’est pas nécessaire d’avoir un ordinateur." >}}
-	{{< shortcode-agenda-item title="Public concerné" description="Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux." >}}
-	{{< shortcode-agenda-item title="Moyens pédagogiques, modalités et méthodes" description="Site web avec les différents supports et exercices<br>Support visuel PowerPoint<br>Livret d’exercices imprimé<br>Exercices pratiques" >}}
-	{{< shortcode-agenda-item title="Méthode d'évaluation" description="Évaluation continue au cours de la formation<br>Exercice final de mise en pratique des acquis" >}}
-{{< /shortcode-agenda-list >}}
+{{% shortcode-agenda-list style="bg-light" %}}
+#### Objectifs pédagogiques de la formation
+Combiner le storytelling, les présentations PowerPoint et l'art oratoire pour convaincre son auditoire.
+
+#### Prérequis de la formation
+
+- Avoir déjà fait une présentation en public.
+- Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.
+- Il n’est pas nécessaire d’avoir un ordinateur.
+
+#### Public concerné
+Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux.
+
+#### Moyens pédagogiques, modalités et méthodes
+
+- Site web avec les différents supports et exercices
+- Support visuel PowerPoint
+- Livret d’exercices imprimé
+- Exercices pratiques
+
+#### Méthode d'évaluation
+- Évaluation continue au cours de la formation
+- Exercice final de mise en pratique des acquis
+{{% /shortcode-agenda-list %}}
 
 {{< shortcode-space-medium style="bg-white" >}}
 
@@ -38,14 +55,36 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 
 {{< shortcode-space-medium style="bg-white" >}}
 
-{{< shortcode-agenda-list style="bg-light" title="Programme" >}}
-	{{< shortcode-agenda-item title="Introduction" description="Les trois piliers d’une bonne présentation<br>Agenda et objectifs<br>Vos attentes" >}}
-	{{< shortcode-agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
-	{{< shortcode-agenda-item title="Storytelling" description="Structure : choisir une structure adaptée à l'objectif et au contenu de votre présentation." >}}
-	
-	{{< shortcode-agenda-item title="Visuels" description="La règle d'or : utiliser les visuels pour renforcer ou clarifier votre discours.<br>Les règles de base pour créer des visuels impactants." >}}
-	
-	{{< shortcode-agenda-item title="Art oratoire" description="Ancrage : apprendre les techniques d'ancrage corporel et visuel, bases de l'art oratoire. Apprendre à respirer pour mieux prendre la parole. Utiliser le déplacement et la gestuelle pour ajouter force et intention à son discours." >}}
-	{{< shortcode-agenda-item title="Exercice final" description="Mise en pratique des acquis lors d'une présentation complète de cinq minutes." >}}
-	{{< shortcode-agenda-item title="Conclusion" description="Récapitulatif des points clés<br>Évaluation de la formation par les participants" >}}
+{{% shortcode-agenda-list style="bg-light" %}}
+### Programme
+
+#### Introduction
+- Les trois piliers d’une bonne présentation
+- Agenda et objectifs
+- Vos attentes
+
+#### Message
+- ABC : ce n’est pas votre présentation, c’est la leur
+- Objectif de transformation
+- Information + Émotion = Action
+- Parcours de Transformation de l’Audience
+
+#### Storytelling
+Structure : choisir une structure adaptée à l'objectif et au contenu de votre présentation.
+
+#### Visuels
+- La règle d'or : utiliser les visuels pour renforcer ou clarifier votre discours.
+- Les règles de base pour créer des visuels impactants.
+
+#### Art oratoire
+- Ancrage : apprendre les techniques d'ancrage corporel et visuel, bases de l'art oratoire.
+- Apprendre à respirer pour mieux prendre la parole.
+- Utiliser le déplacement et la gestuelle pour ajouter force et intention à son discours.
+
+#### Exercice final
+Mise en pratique des acquis lors d'une présentation complète de cinq minutes.
+
+#### Conclusion
+- Récapitulatif des points clés
+- Évaluation de la formation par les participants
 {{< /shortcode-agenda-list >}}

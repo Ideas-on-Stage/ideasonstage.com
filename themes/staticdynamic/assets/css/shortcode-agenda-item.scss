@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode--agenda-item {
+	.cl-shortcode-agenda-item {
 		
 		{{ partial "e/colorscheme.scss" . }}
 		{{ partial "e/textscheme.scss" . }}

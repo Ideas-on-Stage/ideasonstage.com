@@ -106,7 +106,7 @@ languages:
                 previous: "Newer"
                 back: "Back"
             
-            # -------------------        
+            # -------------------
             # Contact
             contact:
                 enable: true
@@ -171,7 +171,7 @@ languages:
                 - name: "Contact"
                   url: "#contact"
             
-            # -------------------        
+            # -------------------
             # Footer
             footer:
                 copyright: "© Ideas on Stage 2010 - "
@@ -226,7 +226,7 @@ languages:
                 more: "Watch Episode"
                 episodes: "Previous episodes"
             
-            # -------------------        
+            # -------------------
             # Subscribe to our news
             subscribe:
                 enable: true
@@ -240,7 +240,7 @@ languages:
                     text: "Your Email *"
                     warning: "Please enter your email address."
             
-            # -------------------        
+            # -------------------
             # Testimonials
             testimonials:
                 # All testimonials are defined in their own files. You can find testimonials 
@@ -274,7 +274,7 @@ languages:
                 previous: "Plus récents"
                 back: "Retour"
             
-            # -------------------    
+            # -------------------
             # Contact section
             contact:
                 enable: true
@@ -328,7 +328,7 @@ languages:
                 address: "138 avenue des Champs Élysées — 75008 Paris, France — Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
                 bgimage: "/img/triumph.jpg"
             
-            # -------------------        
+            # -------------------
             # navbar
             navbar:
                 - name: "Formations"
@@ -342,7 +342,7 @@ languages:
                 - name: "Contact"
                   url: "#contact"
             
-            # -------------------        
+            # -------------------
             # footer
             footer:
                 copyright: "© Ideas on Stage 2010 - "
@@ -387,7 +387,7 @@ languages:
                         - name: "Email"
                           url: "mailto:info@ideasonstage.com"
             
-            # -------------------        
+            # -------------------
             # News
             news:
                 more: "continuer à lire"
@@ -395,13 +395,13 @@ languages:
                 sbcategorytitle: "Top catégories"
                 related: "Voir également"
             
-            # -------------------        
+            # -------------------
             # Revolution
             revolution:
                 more: "Regarder l'épisode"
                 episodes: "Épisodes précédents"
             
-            # -------------------        
+            # -------------------
             # Subscribe to our news
             subscribe:
                 enable: true
@@ -409,15 +409,15 @@ languages:
                 subtitle: "Inscrivez-vous pour recevoir nos conseils directement dans votre boîte aux lettres."
                 buttonText: "S'inscrire"
                 wait: "Un instant..."
-                success: "Merci !"    
+                success: "Merci !"
                 email:
                     text: "Votre Email *"
                     warning: "Veuillez entre votre adresse email."
             
-            # -------------------        
+            # -------------------
             # Testimonials
             testimonials:
-                enable: true            
+                enable: true
                 title: "Témoignages"
                 subtitle: "Nous avons travaillé avec de nombreux clients ; voici quelques exemples de ce que nos clients disent de nous."
     
@@ -446,7 +446,7 @@ languages:
                 previous: "Más nuevo"
                 back: "Atrás"
     
-            # -------------------        
+            # -------------------
             # Contact section
             contact:
                 enable: true
@@ -477,7 +477,7 @@ languages:
                         text: "Tu Mensaje *"
                         warning: "Por favor, escribe un mensaje."
             
-            # -------------------        
+            # -------------------
             # Location
             location:
                 addresscountry: "España"
@@ -495,7 +495,7 @@ languages:
                 address: ""
                 bgimage: ""
             
-            # -------------------        
+            # -------------------
             # navbar
             navbar:    
                 - name: "Formación"
@@ -507,7 +507,7 @@ languages:
                 - name: "Contacto"
                   url: "#contact"
             
-            # -------------------        
+            # -------------------
             # footer
             footer:
                 copyright: "© Ideas on Stage 2010 - "
@@ -556,15 +556,14 @@ languages:
                 more: "Ver el episodio"
                 episodes: "Episodios"
             
-            # -------------------        
+            # -------------------
             # Subscribe to our news
             subscribe:
             enable: false
             
-            # -------------------        
+            # -------------------
             # Testimonials
             testimonials:
                 enable: true    
                 title: "Testimonios"
-                subtitle: "Hemos trabajado con muchos clientes a lo largo de los años, y siempre nos encanta conocer sus impresiones después de cada colaboración. He aquí una muestra de lo que nuestros clientes dicen de nosotros."    
-    
+                subtitle: "Hemos trabajado con muchos clientes a lo largo de los años, y siempre nos encanta conocer sus impresiones después de cada colaboración. He aquí una muestra de lo que nuestros clientes dicen de nosotros."

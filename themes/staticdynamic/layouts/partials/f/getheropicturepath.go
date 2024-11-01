@@ -33,7 +33,7 @@
 		{{ $thumbtesta = add $thumbtest "hero.webp" }}
 		{{ $thumbtestb = add $thumbtest "hero.jpg" }}
 		{{ if (fileExists $thumbtesta) }}
-			{{/* <!-- then a file named hero.jpg exists, use it --> */}}
+			{{/* <!-- then a file named hero.webp exists, use it --> */}}
 			{{ $picture = "hero.webp" }}
 			{{ $found = true }}
 		{{ else if (fileExists $thumbtestb) }}

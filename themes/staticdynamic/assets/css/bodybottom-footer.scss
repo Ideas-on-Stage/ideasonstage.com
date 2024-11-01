@@ -8,6 +8,7 @@
 			@include a-underline-none;
 		}
 		
+		/* navigation items in footer */
 		nav {
 			@include margins($vertical: "medium", $horizontal: "normal");
 			
@@ -33,6 +34,7 @@
 			}
 		}
 		
+		/* text at bottom of footer: copyright, legal, etc. */
 		.text {
 			@include margins($vertical: "medium", $horizontal: "normal");
 		}

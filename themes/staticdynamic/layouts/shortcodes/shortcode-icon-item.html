@@ -1,4 +1,4 @@
-{{/* <!-- 
+{{/* <!--
 	icon-item shortcode
 	
 	Inserts an icon within an icon-list shortcode
@@ -6,11 +6,11 @@
 	size: size of the icon, 20p, 25p, 33p, etc.
 	style: style for the icon
 	icon: icon to use
-	url: link for the icon 	
+	url: link for the icon
 --> */}}
 
 {{ "<!-- shortcodes:icon-item.html:start -->" | safeHTML }}
-<div class="cl-shortcode--icon-item">
+<div class="cl-shortcode-icon-item">
 	{{ with .Params.url }}
 		<a href="{{ . }}">
 	{{ end }}

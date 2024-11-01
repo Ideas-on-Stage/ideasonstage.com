@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode--gallery {
+	.cl-shortcode-gallery {
 		@include flex-row($gap: "none", $wrap: "wrap");
 		
 		img {

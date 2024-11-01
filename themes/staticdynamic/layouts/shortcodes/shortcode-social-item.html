@@ -1,5 +1,5 @@
 {{ "<!-- shortcodes:social-item.html:start -->" | safeHTML }}
-<div class="cl-shortcode--social-item">
+<div class="cl-shortcode-social-item">
 	<a href="{{ .Params.url }}" target="_blank">
 		{{ $imgpath := printf "img/icons/%s" .Params.picture }}
 		{{ with resources.Get $imgpath }}

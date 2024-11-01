@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode--text1-picture2 {
+	.cl-shortcode-text1-picture2 {
 		@include flex-row($gap: "gap");
 		@include flex-column-sm-screen(column-reverse);
 		

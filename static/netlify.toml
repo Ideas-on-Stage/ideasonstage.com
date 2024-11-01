@@ -8,20 +8,27 @@
 	status	= 301
 	force	= true
 [[redirects]]
-	from	= "https://www.ideasonstage.fr/*"	
+	from	= "https://www.ideasonstage.fr/*"
 	to		= "https://www.ideasonstage.com/fr/:splat"
 	status	= 301
 	force	= true
 
 # redirect catalogue
 [[redirects]]
-	from	= "https://catalogue.ideasonstage.com/*"	
+	from	= "https://catalogue.ideasonstage.com/*"
 	to		= "https://www.ideasonstage.com/guides/ideasonstage-catalogue-en.pdf"
 	status	= 301
 	force	= true	
 [[redirects]]
 	from	= "https://catalogue.ideasonstage.com/fr/*"
 	to		= "https://www.ideasonstage.com/guides/ideasonstage-catalogue-fr.pdf"
+	status	= 301
+	force	= true
+	
+# redirect formation
+[[redirects]]
+	from	= "https://formation.ideasonstage.com/*"
+	to		= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/supports/:splat"
 	status	= 301
 	force	= true
 

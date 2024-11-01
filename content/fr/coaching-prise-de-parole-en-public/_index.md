@@ -25,13 +25,24 @@ Notre service de coaching en prise de parole est taillé sur mesure. Que vous so
 
 Notre expérience montre l’importance de la répétition dans la préparation. C’est pourquoi le programme de notre coaching se déroule sur plusieurs séances individuelles. Nous adaptons le programme en fonction des forces et points d’amélioration de chacun, mais ci-dessous vous trouverez un exemple type.
 
-{{< shortcode-agenda-list style="bg-light" title="Exemple de programme de coaching">}}
-    {{< shortcode-agenda-item title="ENTRETIEN PRÉLIMINAIRE" description="Définition des attentes, du contexte et des objectifs du coaching. Définition et explication du plan de travail los des séances à venir (le coaching est un travail collaboratif entre coach et intervenant)." >}}
-    {{< shortcode-agenda-item title="PRÉPARATION" description="L'intervenant rassemble les informations nécessaires pour sa présentation (données, informations, visuels, …) et crée une première version de l'histoire qu'il envoie au coach qui effectue un travail de préparation de la séance 1." >}}
-    {{< shortcode-agenda-item title="SÉANCE 1 - HISTOIRE" description="Le coach et l'intervenant revoient ensemble les pistes d'amélioration de l'histoire et des visuels utilisés. Si possible, une première répétition « sur scène » est effectuée pour définir le travail sur la partie oratoire." >}}
-    {{< shortcode-agenda-item title="SÉANCE 2 - PRÉSENCE" description="Sur base de la séance précédente, le coach accompagne l'intervenant pour améliorer sa présence sur scène. Il le conseille pour donner plus d'impact à l'histoire et aux messages clés." >}}
-    {{< shortcode-agenda-item title="SÉANCE 3 - RÉPÉTITION FINALE" description="Lors de cette dernière séance, le coach travaille pour valider tous les acquis de l'intervenant et s'assurer que tous les automatismes et réflexes sont en place pour la présentation définitive." >}}
-{{< /shortcode-agenda-list >}}
+{{% shortcode-agenda-list style="bg-light" %}}
+### Exemple de programme de coaching
+
+#### ENTRETIEN PRÉLIMINAIRE
+Définition des attentes, du contexte et des objectifs du coaching. Définition et explication du plan de travail los des séances à venir (le coaching est un travail collaboratif entre coach et intervenant).
+
+#### PRÉPARATION
+L'intervenant rassemble les informations nécessaires pour sa présentation (données, informations, visuels, …) et crée une première version de l'histoire qu'il envoie au coach qui effectue un travail de préparation de la séance 1.
+
+#### SÉANCE 1 - HISTOIRE
+Le coach et l'intervenant revoient ensemble les pistes d'amélioration de l'histoire et des visuels utilisés. Si possible, une première répétition « sur scène » est effectuée pour définir le travail sur la partie oratoire.
+
+#### SÉANCE 2 - PRÉSENCE
+Sur base de la séance précédente, le coach accompagne l'intervenant pour améliorer sa présence sur scène. Il le conseille pour donner plus d'impact à l'histoire et aux messages clés.
+
+#### SÉANCE 3 - RÉPÉTITION FINALE
+Lors de cette dernière séance, le coach travaille pour valider tous les acquis de l'intervenant et s'assurer que tous les automatismes et réflexes sont en place pour la présentation définitive.
+{{% /shortcode-agenda-list %}}
 
 {{< shortcode-image-wide src="coaching-prise-de-parole-002.jpg" alt="Coaching" >}}
 

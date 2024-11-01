@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode--picture2-text1 {
+	.cl-shortcode-picture2-text1 {
 		@include flex-row($gap: "gap");
 		@include flex-column-sm-screen(column);
 		

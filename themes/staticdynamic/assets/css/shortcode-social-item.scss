@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 	
-	.cl-shortcode--social-item {
+	.cl-shortcode-social-item {
 		@include width-column(3);
 		
 		a {

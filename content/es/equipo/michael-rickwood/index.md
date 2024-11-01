@@ -1,5 +1,5 @@
 ---
-draft: false
+draft: true
 title: "Michael Rickwood | Director de Coaching"
 description: "Michael Rickwood es uno de nuestros coaches director de presentaciones, ubicado en París"
 name: "Michael Rickwood"

@@ -1,5 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
+	/* main container, including title and items */
 	.cl-body-carousel {
 		padding-top: 2rem;
 		
@@ -22,19 +23,20 @@
 	
 	/* carousel item */
 	.cl-body-carousel--item {
-		flex-grow: 1;
-		flex-shrink: 0;
-		flex-basis: 25vw;
+		/* 
+			note: height of all items is determined by item with the most lines of text
+			this is due to the use of stretch in the flex-parent definition
+		*/
+		flex-grow: 0; /* do not grow horizontally */
+		flex-shrink: 0; /* and do not shrink horizontally */
+		flex-basis: 25vw; /* so that basis width is always honored */
 		border-radius: 5px;
 		background-color: var(--color-back);
 		@media (max-width: $gl-sm-screen) {
 			flex-basis: 70vw;
 		}
 		
-		&:last-child {
-			margin-right: 2vw;
-		}
-		
+		/* text container containing title, description and button of item */
 		.text {
 			@include flex-column($align-v: space-between);
 			padding: 1em;
@@ -60,7 +62,8 @@
 		{{ partial "e/textscheme.scss" "body-carousel--item" }}
 	}
 	
-	/* adds a space on the right (right margin/padding is not honored if it's the last element) */
+	/* adds an empty item on the right to force adding a margin
+	   (right margin/padding is not honored if it's the last item) */
 	.cl-body-carousel--space {
 		width: 1px;
 		height: 1px;

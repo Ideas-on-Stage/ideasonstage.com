@@ -14,54 +14,14 @@
 		{{ partial "e/textscheme.scss" . }}
 	}
 
+	/* main text container, may have to share space with a logobar */
 	.cl-body-cta--main {
 		@include flex-column($align-column-h: center, $align-v: center);
 		@include width-full;
-		flex-grow: 1;
+		flex-grow: 1; /* take all available vertical space in parent */
 		padding-left: 2em;
 		padding-right: 2em;
 		--color-back: none;
 	}
 	
-
-	/* logo bar at bottom of hero */
-	.cl-body-h1hero--logobar {
-		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-around);
-		@include width-full;
-		padding: 2vw;
-		height: auto;
-		bottom: 0; /* position on bottom of hero */
-		--color-back: none;
-		@media (max-width: $gl-sm-screen) {
-			height: 32vw;
-		}
-	}
-
-	/* item in the logo bar at bottom of hero */
-	.cl-body-h1hero--logobar-item {
-		@include flex-column($align-column-h: center);
-		flex-basis: 0; /* 0 to have all children same size */
-		flex-grow: 1;
-		
-		> p {
-			margin-top: 0.5em;
-			margin-bottom: 0em;
-			text-align: center;
-			color: white;
-			@media (max-width: $gl-sm-screen) {
-				display: none; /* hide text on sm screens (not enough space) */
-			}
-		}
-		
-		> img {
-			border: 2px solid var(--color-border);
-			padding: 1vw;
-			width: 10vw;
-			height: 10vw;
-			background-color: rgba(0, 0, 0, 0.6);
-			@media (max-width: $gl-sm-screen) {
-				width: 24vw;
-				height: 24vw;
-			}
-		}
-	}
+@import "_logobar.scss";

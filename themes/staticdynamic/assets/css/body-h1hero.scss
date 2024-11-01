@@ -1,24 +1,28 @@
 {{ partial "e/sass.scss" . }}
 
+	/* container if title only (no hero) */
 	.cl-body-h1hero--title {
 		@include flex-column($align-column-h: center, $align-v: center);
-		@include text-front;
+		@include text-front();
 		padding: 1em;
 		
 		{{ partial "e/colorscheme.scss" "body-h1hero--title" }};
 		{{ partial "e/textscheme.scss" "body-h1hero--title" }};
 	}
 	
+	/* container if title + hero img */
 	.cl-body-h1hero--hero {
-		@include height-hero;
-		@include width-full;
+		@include height-hero();
+		@include width-full();
+		@include flex-column($align-v: space-between);
 		position: relative;
 		
 		> img {
-			@include img-back;
+			@include img-back($z-index: -100);
 		}
 		
 		> h1 {
+			@include width-full();
 			position: sticky;
 			top: var(--menubar-height);
 			z-index: 100;
@@ -29,44 +33,4 @@
 		{{ partial "e/textscheme.scss" "body-h1hero--hero" }};
 	}
 
-	/* logo bar at bottom of hero */
-	.cl-body-h1hero--logobar {
-		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-around);
-		@include width-full;
-		padding: 2vw;
-		height: auto;
-		position: absolute; /* combined with position: relative on parent */
-		bottom: 0; /* position on bottom of hero */
-		@media (max-width: $gl-sm-screen) {
-			height: 32vw;
-		}
-	}
-	
-	/* item in the logo bar at bottom of hero */
-	.cl-body-h1hero--logobar-item {
-		@include flex-column($align-column-h: center);
-		flex-basis: 0; /* 0 to have all children same size */
-		flex-grow: 1;
-		
-		> p {
-			margin-top: 0.5em;
-			margin-bottom: 0em;
-			text-align: center;
-			color: white;
-			@media (max-width: $gl-sm-screen) {
-				display: none; /* hide text on sm screens (not enough space) */
-			}
-		}
-		
-		> img {
-			border: 2px solid var(--color-border);
-			padding: 1vw;
-			width: 10vw;
-			height: 10vw;
-			background-color: rgba(0, 0, 0, 0.6);
-			@media (max-width: $gl-sm-screen) {
-				width: 24vw;
-				height: 24vw;
-			}
-		}
-	}
+@import "_logobar.scss";

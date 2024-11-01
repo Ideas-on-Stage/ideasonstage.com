@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode--icon-list {
+	.cl-shortcode-icon-list {
 		
 		.items {
 			@include flex-row($gap: "gap", $wrap: "nowrap", $align-row-v: flex-start, $align-h: center);

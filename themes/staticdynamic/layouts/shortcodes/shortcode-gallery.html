@@ -1,14 +1,18 @@
-{{/* <!-- 
+{{/* <!--
 	gallery shortcode
 	
-	Creates a grid of images (up to 24).
-	Becomes 2 images side by side on ts (tall small) screens
-	So the ideal number of images is even (2, 4, 6, etc.)
+	Creates a grid of images:
+	- 3 per row,
+	- 2 images per row on small screens
+	- The ideal number of images is a multiple of 6
+
+	Arguments:
+	- .Params as list of images "image1.jpg" "image2.jpg" etc. Add path if image is a site resource, not a page resource
 	
 --> */}}
 
 {{ "<!-- shortcodes:gallery.html:start -->" | safeHTML }}
-	<div class="cl-shortcode cl-shortcode--gallery">
+	<div class="cl-shortcode cl-shortcode-gallery">
 		{{ range .Params }}
 			<img src="{{ . }}">
 		{{ end }}
