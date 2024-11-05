@@ -13,6 +13,13 @@
 	status	= 301
 	force	= true
 
+# redirect bienvenue
+[[redirects]]
+	from	= "https://bienvenue.ideasonstage.com/*"
+	to		= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/"
+	status	= 301
+	force	= true
+	
 # redirect catalogue
 [[redirects]]
 	from	= "https://catalogue.ideasonstage.com/*"
@@ -218,6 +225,13 @@
 [[redirects]]
 	from	= "https://www.ideasonstage.com/fr/revolution/*"
 	to		= "https://www.ideasonstage.com/fr/ressources/revolution/:splat"
+	status	= 301
+	force	= true
+
+# 2024-11-03 canonical corrections
+[[redirects]]
+	from	= "https://www.ideasonstage.com/news/2020/10/20/2020-10-20-unleash-the-hans-r%C3%B6sling-in-you/"
+	to		= "https://www.ideasonstage.com/news/2020/10/20/2020-10-20-unleash-the-hans-rosling-in-you/"
 	status	= 301
 	force	= true
 
