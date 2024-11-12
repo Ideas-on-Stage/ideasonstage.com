@@ -11,7 +11,14 @@ contact:
 Nous sommes ravis de vous compter parmi les participants à l'une de nos formations. Vous trouverez sur cette page les informations pratiques pour vous aider à préparer au mieux votre formation.
 
 ## Avoir un sujet à présenter
-Nos formations mettent l'accent sur la mise en pratique via des exercices et des études de cas. Pour que cette formation soit la plus utile pour vous, nous vous conseillons d'avoir un ou deux sujets concrets à présenter, un sujet en lien avec votre travail et un sujet libre. Plus le sujet sera riche et complexe, plus vous aurez de matière à travailler pendant la formation.
+Nos formations mettent l'accent sur la mise en pratique via des exercices et des études de cas. Pour que cette formation soit la plus utile pour vous, nous vous conseillons d'avoir un ou deux sujets concrets à présenter, un sujet en lien avec votre travail et un sujet libre. Plus le sujet sera riche et complexe, plus vous aurez de matière à travailler pendant la formation. Voici quelques exemples typiques de cas concrets :
+
+- Lancement d'un nouveau produit
+- Lancement d'un projet face au comité exécutif
+- Présentation d'une analyse et des conclusions
+- Motivation d'une équipe
+- Réunion commerciale
+
 
 ## Télécharger le cahier d'exercices
 
