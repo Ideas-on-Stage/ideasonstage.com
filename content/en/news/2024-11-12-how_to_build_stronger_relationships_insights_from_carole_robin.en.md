@@ -3,7 +3,7 @@ draft = false
 title = "Julian Treasure on How to Speak and Be Heard – The Ideas on Stage Podcast "
 tags = ["Podcasts"]
 news = ["general"]
-date = "2024-11-19"
+date = "2024-11-13"
 author = "Andrea Pacini"
 banner = "/img/news/julian_and_andrea.jpg"
 +++
