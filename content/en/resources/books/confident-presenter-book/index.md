@@ -3,6 +3,14 @@ draft: false
 title: "Confident Presenter - The Book"
 description: "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."
 showrefs: false
+
+imgalt:
+    - reader1.jpg: Reader 1 Confident Presenter
+    - reader2.jpg: Reader 2 Confident Presenter
+    - reader3.jpg: Reader 3 Confident Presenter
+    - reader4.jpg: Reader 4 Confident Presenter
+    - reader5.jpg: Reader 5 Confident Presenter
+    - reader6.jpg: Reader 6 Confident Presenter
 ---
 {{< shortcode-picture1-text2 picture="confident-presenter-book-2.png" title="Become a more credible, confident and convincing presenter." >}}
 Learn the five key principles to communicate a compelling message that inspires action, growth and impact.
@@ -39,12 +47,12 @@ To get in touch or find out more, check out his [LinkedIn profile](https://www.l
 {{< /shortcode-picture1-text2 >}}
 
 {{< shortcode-gallery
-    "/resources/books/confident-presenter-book/reader1.jpg"
-    "/resources/books/confident-presenter-book/reader2.jpg"
-    "/resources/books/confident-presenter-book/reader3.jpg"
-    "/resources/books/confident-presenter-book/reader4.jpg"
-    "/resources/books/confident-presenter-book/reader5.jpg"
-    "/resources/books/confident-presenter-book/reader6.jpg" >}}
+    "/resources/books/confident-presenter-book/reader1.jpg, Reader 1 selfie holding Confident Presenter book in front of him"
+    "/resources/books/confident-presenter-book/reader2.jpg, Reader 2 selfie holding Confident Presenter book in front of him"
+    "/resources/books/confident-presenter-book/reader3.jpg, Reader 3 selfie holding Confident Presenter book in front of him"
+    "/resources/books/confident-presenter-book/reader4.jpg, Reader 4 selfie holding Confident Presenter book in front of him"
+    "/resources/books/confident-presenter-book/reader5.jpg, Reader 5 selfie holding Confident Presenter book in front of him"
+    "/resources/books/confident-presenter-book/reader6.jpg, Reader 6 selfie holding Confident Presenter book in front of him" >}}
 
 ## Want to book Andrea on your podcast? 
 

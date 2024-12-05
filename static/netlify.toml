@@ -39,6 +39,14 @@
 	status	= 301
 	force	= true
 
+# redirect satisfaction (partners satisfaction questionnaire link)
+[[redirects]]
+	from	= "https://satisfaction.ideasonstage.com/*"
+	to		= "https://www.survio.com/survey/d/K5J7A9O3T5J3I0G8I"
+	status	= 301
+	force	= true
+
+
 # redirect in (linkedin)
 [[redirects]]
 	from	= "https://www.ideasonstage.com/in/"

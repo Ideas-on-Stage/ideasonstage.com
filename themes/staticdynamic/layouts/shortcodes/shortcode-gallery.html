@@ -14,7 +14,9 @@
 {{ "<!-- shortcodes:gallery.html:start -->" | safeHTML }}
 	<div class="cl-shortcode cl-shortcode-gallery">
 		{{ range .Params }}
-			<img src="{{ . }}">
+			{{ $args := split . "," }}
+			{{ $alt := index $args 1 }}
+			<img src="{{ index $args 0 }}" alt="{{ $alt }}">
 		{{ end }}
 	</div>
 {{ "<!-- shortcodes:gallery.html:end -->" | safeHTML }}
