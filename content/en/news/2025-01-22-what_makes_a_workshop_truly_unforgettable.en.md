@@ -38,12 +38,11 @@ Pedram’s SPPARK framework provides a simple structure for workshop activities.
 3. **Provide guidance:** Organise participants and resources. Give clear instructions so everyone is ready to engage.
 4. **Activate the experience:** Run the activity. Keep it concise (no more than 20 minutes) and mix task types to maintain energy.
 5. **Reflect on the experience:** Encourage participants to reflect on what they learned. Ask questions like:
-6. * “How was it?”
 
+   * “How was it?”
    * “What did you learn?”
-
    * “How will you apply this?”
-7. **Key takeaways:** Wrap up by summarising the main points. Use participants’ own words to reinforce understanding and ownership.
+6. **Key takeaways:** Wrap up by summarising the main points. Use participants’ own words to reinforce understanding and ownership.
 
 **Managing Challenging Participants**
 
