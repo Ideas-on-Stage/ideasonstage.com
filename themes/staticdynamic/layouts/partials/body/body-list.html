@@ -53,9 +53,13 @@
 	{{ $blocks := partial "f/getblocks.go" "list" }}
 	{{ range .Pages }}
 		{{ $page := . }}
-		{{ range $blocks }}
-			{{ $partial := printf "%s/%s.html" "list" . }}
-			{{ partial $partial $page }}
+		{{ if or $page.Params.ni $page.Params.nl }}
+			{{/* <!-- skip non indexed pages (ni: true or nl: true) --> */}}
+		{{ else }}
+			{{ range $blocks }}
+				{{ $partial := printf "%s/%s.html" "list" . }}
+				{{ partial $partial $page }}
+			{{ end }}
 		{{ end }}
 	{{ end }}
 </section>
