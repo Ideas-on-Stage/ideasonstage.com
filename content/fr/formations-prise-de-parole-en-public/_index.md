@@ -10,7 +10,7 @@ hero:
   - img: /img/logos/datadock.png 
     title: Référencé DataDock
     description: Organisme de formation référencé DataDock
-  - img: /img/logos/qualiopi.png
+  - img: logo-qualiopi.png
     title: Certifié Qualiopi
     description: Certifié Qualiopi au titre des actions de formation 
   - img: /img/logos/survio-rating.png
