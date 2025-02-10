@@ -48,13 +48,6 @@ Employés et cadres en entreprise, en particulier les dirigeants, les personnes 
 
 {{< shortcode-space-medium style="bg-white" >}}
 
-{{< shortcode-icon-list title="Organisme de formation depuis 2010" style="bg-light" >}}
-	{{< shortcode-icon-item icon="/fr/formations-prise-de-parole-en-public/logo-datadock.png" size= "25p" description="Référencé Datadock" style="st-border" >}}
-	{{< shortcode-icon-item icon="/fr/formations-prise-de-parole-en-public/logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="st-border" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
-{{< /shortcode-icon-list >}}
-
-{{< shortcode-space-medium style="bg-white" >}}
-
 {{% shortcode-agenda-list style="bg-light" %}}
 ### Programme
 

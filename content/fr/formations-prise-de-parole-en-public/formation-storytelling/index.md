@@ -31,13 +31,6 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 
 {{< shortcode-space-medium style="bg-white" >}}
 
-{{< shortcode-icon-list title="Organisme de formation depuis 2010" style="bg-light" >}}
-	{{< shortcode-icon-item icon="/fr/formations-prise-de-parole-en-public/logo-datadock.png" size= "25p" description="Référencé Datadock" style="st-border" >}}
-	{{< shortcode-icon-item icon="/fr/formations-prise-de-parole-en-public/logo-qualiopi.png" size="25p" description="Certifié Qualiopi au titre des actions de formation" style="st-border" url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
-{{< /shortcode-icon-list >}}
-
-{{< shortcode-space-medium style="bg-white" >}}
-
 {{< shortcode-agenda-list style="bg-light" title="Programme" >}}
 {{< shortcode-agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
 {{< shortcode-agenda-item title="Lier histoire et présentation" description="Utiliser un « storyboard »<br>La méthode pSCORE" >}}

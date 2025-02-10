@@ -12,7 +12,7 @@ hero:
     description: Organisme de formation référencé DataDock
   - img: logo-qualiopi.png
     title: Certifié Qualiopi
-    description: Certifié Qualiopi au titre des actions de formation 
+    description: Organisme certifié Qualiopi au titre des actions de formation 
   - img: /img/logos/survio-rating.png
     title: Évaluation moyenne de 4,5/5
     description: Évaluation moyenne des participants sur survio.com entre octobre 2022 et septembre 2024
