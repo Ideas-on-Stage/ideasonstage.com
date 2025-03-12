@@ -52,7 +52,6 @@ banner = "/img/news/jstoddard.jpg"
       <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Leaders should model vulnerability to create a culture of self-compassion</span></li>
     </ul>
     <p><span style="font-weight: 400;">This interview with </span><strong>Dr. Jill Stoddard</strong><span style="font-weight: 400;"> was filled with insights that challenge how we think about confidence and success. If you&rsquo;ve ever struggled with self-doubt, remember: </span><strong>you&rsquo;re not alone, and you don&rsquo;t have to wait until you feel ready to take action.</strong></p>
- 
 
 To learn more about Jill’s ideas, [watch the full interview on YouTube.](https://youtu.be/Lw-IJ7W-us0)
 
