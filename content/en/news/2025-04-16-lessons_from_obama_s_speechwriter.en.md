@@ -54,7 +54,7 @@ banner = "/img/news/andrea_pacini_and_terry_szuplat_in_zoom.jpg"
 
   <p><span style="font-weight: 400;">This interview with </span><strong>Terry Szuplat</strong><span style="font-weight: 400;"> was packed with powerful lessons on public speaking, storytelling and what he learned from writing speeches for </span><strong>Barack Obama. </strong><span style="font-weight: 400;">To hear more of Terry&rsquo;s insights, </span><a href="https://youtu.be/iHssyTkG6Gk"><span style="font-weight: 400;">watch the full interview on YouTube.</span></a></p>
 
-  <p><span style="font-weight: 400;">{{&lt; shortcode-youtube iHssyTkG6Gk &gt;}}</span></p>
+{{< shortcode-youtube iHssyTkG6Gk >}}
 
   <p><strong>Want to learn more?</strong><span style="font-weight: 400;">&nbsp;</span></p>
 
