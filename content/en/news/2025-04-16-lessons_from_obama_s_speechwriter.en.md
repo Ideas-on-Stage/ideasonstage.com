@@ -7,6 +7,8 @@ date = "2025-04-16"
 author = "Andrea Pacini"
 banner = "/img/news/andrea_pacini_and_terry_szuplat_in_zoom.jpg"
 +++
+![Andrea Pacini and Terry Szuplat in Zoom](/img/news/andrea_pacini_and_terry_szuplat_in_zoom.jpg "AP and TS")
+
 <div style="margin: 5px 0;">
 
   <p><span style="font-weight: 400;">What does it take to write speeches for a president? In our latest podcast, I had the honour of speaking with </span><strong>Terry Szuplat</strong><span style="font-weight: 400;">, Barack Obama&rsquo;s speechwriter. He shared lessons on public speaking, storytelling and how to connect with an audience in a way that sticks. His advice applies to anyone who wants to communicate with impact &ndash; whether on a big stage or in a small meeting.</span></p>
