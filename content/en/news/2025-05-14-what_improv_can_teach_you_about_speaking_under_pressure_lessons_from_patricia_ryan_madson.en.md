@@ -49,7 +49,11 @@ banner = "/img/news/patmadson.jpg"
   <p class="p2"><strong>Final Thoughts</strong></p>
   <p class="p1">Improvisation requires preparation, but it also means trusting yourself, adapting to the moment and focusing on others. Whether on stage or in daily life, these skills make us better speakers, better leaders and better humans.</p>
   <p class="p1">To hear the full conversation with Patricia Ryan Madson, listen to this episode of the <a href="https://youtu.be/cqa6MGTpfsA"><span class="s3">Ideas on Stage Podcast</span></a>.</p>
-  <p class="p1">{{&lt; shortcode-youtube cqa6MGTpfsA &gt;}}</p>
+
+
+{{< shortcode-youtube cqa6MGTpfsA >}}
+
+
   <p class="p1"><strong>Want to learn more?</strong>&nbsp;</p>
   <ul class="ul1">
     <li class="li3"><span class="s5">Read&nbsp;<a href="https://www.ideasonstage.com/admin/"><span class="s6">Confident Presenter</span></a>&nbsp;and&nbsp;<a href="https://www.ideasonstage.com/admin/"><span class="s6">Business Presentation Revolution</span></a></span></li>
