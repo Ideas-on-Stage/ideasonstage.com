@@ -7,6 +7,12 @@ ni: true
 translationKey: "public-speaking-training/materials"
 ---
 
-Cette page vous permet d'accéder aux différents supports de formation. Vous pouvez cliquer sur les liens ci-dessous pour y accéder.
+Nous vous remercions d'avoir suivi nos formations.
+
+Cette page vous donne accès aux différents supports de formation. Vous pouvez cliquer sur les liens ci-dessous pour y accéder :
+
+- [Storytelling](storytelling)
+- [Art oratoire](art-oratoire)
+- [Visuels](visuels-powerpoint)
 
 [Vous pouvez télécharger la dernière version du cahier d'exercices au format pdf en cliquant sur ce lien.](/training/cahier-exercices-ideas-on-stage.pdf)
