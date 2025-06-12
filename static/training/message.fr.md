@@ -113,6 +113,31 @@ Dans l’exemple de la tour Eiffel, passer de « avant » à « après » a 
 
 Il est important de noter que chaque changement se construit à partir de la couche précédente : ce que les gens pensent est influencé par les faits, ce qu’ils ressentent est influencé par ce qu’ils pensent, et ce qu’ils font est influencé par ce qu’ils ressentent. C’est pourquoi il est si difficile de faire changer les personnes qui refusent de faire évoluer leur compréhension des faits. 
 
+Voici un autre exemple. Imaginons que vous présentiez un projet pour faire installer un nouveau système de gestion de la relation client (CRM). Votre audience est le Comité Exécutif, en particulier le PDG qui doit valider le projet. Son besoin est d'être rassuré sur la faisabilité du projet et de comprendre les bénéfices qu'il apportera. Le contexte est une réduction du budget global pour les projets. Voici comment pourrait s'articuler le PTA :
+
+Avant :
+
+- Sait : ne connaît pas le projet. Ne maîtrise pas le sujet présenté, en particulier les aspects techniques.
+- Pense : le projet n'est pas une priorité.
+- Ressent : de l'agacement car il voudrait traiter d'autres sujets.
+- Fait : rien.
+
+Après :
+
+- Sait : connaît les bénéfices du projet. Connaît les mécanismes mis en place pour assurer le succès du projet.
+- Pense : le projet est une priorité et le risque est maîtrisé.
+- Ressent : l'envie de lancer le projet, est rassuré par rapport à la faisabilité.
+- Fait : valide les travaux sur le projet.
+
+→ (messages clés) :
+
+- Nous avons un problème urgent aujourd'hui : nos concurrents nous prennent des parts de marché.
+- Notre analyse montre que cela est dû à notre méconnaissance de nos clients.
+- Le projet va nous donner une meilleure connaissance de nos clients.
+- Cela va nous permettre de gagner des parts de marché et de renforcer la fidélité de notre clientèle.
+- Les risques sont identifiés et maîtrisés.
+- La prochaine étape du projet est de valider le choix de la solution.
+
 > Exercice : prendre 10/20 minutes pour créer votre Parcours de Transformation de l'Audience.
 
 

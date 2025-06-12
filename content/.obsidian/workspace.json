@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/index.md",
+                "file": "fr/formations-prise-de-parole-en-public/supports/storytelling/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/index.md",
+                "file": "fr/formations-prise-de-parole-en-public/supports/storytelling/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/index.md",
+                "file": "fr/formations-prise-de-parole-en-public/supports/storytelling/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/index.md",
+                "file": "fr/formations-prise-de-parole-en-public/supports/storytelling/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,6 +170,7 @@
   },
   "active": "9a49c392eb6afeef",
   "lastOpenFiles": [
+    "fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/index.md",
     "en/news/2025-06-11-how_to_be_the_speaker_everyone_wants_to_book.en.md",
     "en/news/2025-05-14-what_improv_can_teach_you_about_speaking_under_pressure_lessons_from_patricia_ryan_madson.en.md",
     "en/news/2025-04-17-five_simple_ways_to_improve_your_charts.en.md",
@@ -214,7 +215,6 @@
     "public-speaking-training/materials/2024-04-19-a52f3cae/oratory/index.fr.md",
     "public-speaking-training/materials/2024-04-19-a52f3cae/_index.fr.md",
     "public-speaking-training/materials/2024-04-19-a52f3cae-da28-4178-86c3-4167d399ae38/visuals/index.fr.md",
-    "public-speaking-training/materials/2024-04-19-a52f3cae-da28-4178-86c3-4167d399ae38/storytelling/index.fr.md",
-    "public-speaking-training/materials/2024-04-19-a52f3cae-da28-4178-86c3-4167d399ae38/oratory/index.fr.md"
+    "public-speaking-training/materials/2024-04-19-a52f3cae-da28-4178-86c3-4167d399ae38/storytelling/index.fr.md"
   ]
 }
