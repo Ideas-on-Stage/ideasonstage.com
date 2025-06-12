@@ -1,7 +1,8 @@
 ---
 draft: false
 title: "Comment vous préparer pour nos formations"
-description : "Nos conseils pour tirer le meilleur parti de nos formations en prise de parole en public."
+description: "Nos conseils pour tirer le meilleur parti de nos formations en prise de parole en public."
+ni: true
 
 contact:
     title: "Réservez une session de formation"
@@ -10,7 +11,15 @@ contact:
 
 Nous sommes ravis de vous compter parmi les participants à l'une de nos formations. Vous trouverez sur cette page les informations pratiques pour vous aider à préparer au mieux votre formation.
 
+## Remplir le questionnaire pré-formation
+
+Afin de nous aider à mieux cerner vos besoins, vous pouvez remplir le questionnaire pré-formation. Cela prend 2 minutes :
+
+[Remplir le questionnaire pré-formation](https://www.survio.com/survey/d/D3T4A8Q9X1D4U3M7S)
+
+
 ## Avoir un sujet à présenter
+
 Nos formations mettent l'accent sur la mise en pratique via des exercices et des études de cas. Pour que cette formation soit la plus utile pour vous, nous vous conseillons d'avoir un ou deux sujets concrets à présenter, un sujet en lien avec votre travail et un sujet libre. Plus le sujet sera riche et complexe, plus vous aurez de matière à travailler pendant la formation. Voici quelques exemples typiques de cas concrets :
 
 - Lancement d'un nouveau produit

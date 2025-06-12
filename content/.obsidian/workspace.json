@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/_index.es.md",
+                "file": "fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/index.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/_index.es.md",
+                "file": "fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
             }
           },
           {
@@ -102,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/_index.es.md",
+                "file": "fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -115,8 +128,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/_index.es.md"
-              }
+                "file": "fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
             }
           }
         ]
@@ -146,8 +168,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "010b834fbf33071b",
+  "active": "9a49c392eb6afeef",
   "lastOpenFiles": [
+    "en/news/2025-06-11-how_to_be_the_speaker_everyone_wants_to_book.en.md",
+    "en/news/2025-05-14-what_improv_can_teach_you_about_speaking_under_pressure_lessons_from_patricia_ryan_madson.en.md",
+    "en/news/2025-04-17-five_simple_ways_to_improve_your_charts.en.md",
+    "en/news/2025-04-16-lessons_from_obama_s_speechwriter.en.md",
+    "en/news/2025-03-12-why_success_fuels_self-doubt_and_how_to_overcome_imposter_feelings.en.md",
+    "en/news/2025-02-12-you_have_more_influence_than_you_think.en.md",
     "news/2024-06-10-how_personal_storytelling_can_transform_your_business_boost_your_career_and_drive_change_2.en.md",
     "public-speaking-training/public-speaking-training-2-days/index.fr.md",
     "public-speaking-training/public-speaking-training-2-days",
@@ -187,12 +215,6 @@
     "public-speaking-training/materials/2024-04-19-a52f3cae/_index.fr.md",
     "public-speaking-training/materials/2024-04-19-a52f3cae-da28-4178-86c3-4167d399ae38/visuals/index.fr.md",
     "public-speaking-training/materials/2024-04-19-a52f3cae-da28-4178-86c3-4167d399ae38/storytelling/index.fr.md",
-    "public-speaking-training/materials/2024-04-19-a52f3cae-da28-4178-86c3-4167d399ae38/oratory/index.fr.md",
-    "public-speaking-training/materials/2024-04-19-a52f3cae-da28-4178-86c3-4167d399ae38/_index.fr.md",
-    "public-speaking-training/materials/2024-04-16-19cc6511-3240-41cb-ba67-88e7b2ec1a57 2/storytelling/index.fr.md",
-    "public-speaking-training/materials/2024-04-16-19cc6511-3240-41cb-ba67-88e7b2ec1a57 2/visuals/index.fr.md",
-    "public-speaking-training/materials/2024-04-16-19cc6511-3240-41cb-ba67-88e7b2ec1a57 2/oratory/index.fr.md",
-    "public-speaking-training/materials/2024-04-16-19cc6511-3240-41cb-ba67-88e7b2ec1a57 2/_index.fr.md",
-    "public-speaking-training/materials/elements/three-pillars/index.fr.md"
+    "public-speaking-training/materials/2024-04-19-a52f3cae-da28-4178-86c3-4167d399ae38/oratory/index.fr.md"
   ]
 }
