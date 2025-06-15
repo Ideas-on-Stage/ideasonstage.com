@@ -24,4 +24,4 @@ Si la réponse est non, alors et seulement alors vous devez envisager d'utiliser
 
 **La clé de tout outil est de savoir quand ne pas l'utiliser. Si vous n'avez qu'un marteau, vous traiterez tout comme un clou ; si vous partez du principe que vous allez utiliser PowerPoint, vous vous limitez à une méthode d'illustration alors que d'autres choix pourraient être meilleurs, et que le bon choix pourrait être de ne pas utiliser de visuels du tout.**
 
-Cet article contient des extraits de *Business Presentation Revolution*, écrit par Phil Waknell et publié en juillet 2021. Obtenez gratuitement l'introduction dès aujourd'hui sur <https://www.ideasonstage.com/business-presentation-revolution/book/>
+Cet article contient des extraits de *Business Presentation Revolution*, écrit par Phil Waknell et publié en juillet 2021. Obtenez gratuitement l'introduction dès aujourd'hui sur <https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/>

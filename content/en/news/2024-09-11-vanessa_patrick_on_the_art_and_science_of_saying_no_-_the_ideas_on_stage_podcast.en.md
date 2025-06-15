@@ -59,6 +59,6 @@ I hope you enjoy it!
 
 **Want to learn more?** 
 
-* Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
+* Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/)
 * To make the most of the book, take the [Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
 * Attend our free, [live masterclass](http://ideasonstageuk.eventbrite.com/) on all things presentation skills

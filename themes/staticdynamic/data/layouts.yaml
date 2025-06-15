@@ -13,9 +13,9 @@
 # - body: blocks added to the <body></body> part
 # - bodylazy: blocks added to the <body></body> part, css and img use lazy-loading
 # - bodybottom: common blocks added last to the <body></body> part
-# - side: blocks added to the sidebar inside the .side part (needs a body-side-main part)
-# - main: blocks added inside the .main part (needs a body-side-main or body-main* part)
-# - list: blocks added inside list elements (needs a body-list* or main-list* part)
+# - side: blocks added to the sidebar inside the .side part (needs a body-side-main part declared in the body block)
+# - main: blocks added inside the .main part (needs a body-side-main or body-main* part declared in the body block)
+# - list: blocks added inside list elements (needs a body-list* or main-list* part declared in the body block)
 #
 # It is possible to create a custom block type if necessary.
 
@@ -34,11 +34,11 @@ _common:
         - headbottom-alternate
         - headbottom-favicon
         - headbottom-schema
-    # common body blocks above "main" for all pages
+    # bodytop are common body blocks above "main" for all pages
     bodytop:
         - bodytop-navbar
     # do not add body: to _common, use bodytop: or bodybottom: instead
-    # common body blocks after "main" for all pages
+    # bodybottom are common body blocks after "main" for all pages
     bodybottom:
         - bodybottom-contact-form
         - bodybottom-footer
@@ -97,6 +97,7 @@ _default:
             - bodylazy-modules-aside
             - bodylazy-testimonials
             - bodylazy-location
+            - bodylazy-awards
         main:
             - main-modules
             - main-contenthome

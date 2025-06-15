@@ -30,7 +30,7 @@ Yet far too many businesspeople still approach a presentation with the sole aim 
 
 **The world will be a better place when every presentation has transformational objectives, and when people share information in standalone documents instead of quickly-forgotten oral presentations. Join the Business Presentation Revolution, and be part of the solution.**
 
-*This article contains extracts from Business Presentation Revolution, by Phil Waknell, published in July 2021. Download the introduction free at <https://www.ideasonstage.com/business-presentation-revolution/book/> and join the revolution!*
+*This article contains extracts from Business Presentation Revolution, by Phil Waknell, published in July 2021. Download the introduction free at <https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/> and join the revolution!*
 
 For more on why presentations should rhyme with transformation, check out Phil’s TEDx talk below.
 

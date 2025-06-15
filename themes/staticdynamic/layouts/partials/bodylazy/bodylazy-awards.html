@@ -1,0 +1,6 @@
+{{ $data := index .Params "dt-bodylazy-awards" }}
+{{ with $data }}
+	{{ partial "e/awards.html" . }}
+{{ else }}
+	{{ partial "e/html-comment.html" "INFO: skipped: bodylazy-awards: no .Params.dt-bodylazy-awards" }}
+{{ end }}

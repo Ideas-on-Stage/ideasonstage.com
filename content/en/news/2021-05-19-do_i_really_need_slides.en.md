@@ -24,4 +24,4 @@ If the answer is no, then and only then should you consider using slides. Since 
 
 ***The key with any tool is knowing when not to use it. If you only have a hammer, you’ll treat everything like a nail; if you assume you are going to use PowerPoint, then you restrict yourself to one illustration method when other choices may be better, and the right choice may be no visual aids at all.***
 
-This article contains extracts from *Business Presentation Revolution*, by Phil Waknell, published July 2021. Get the introduction free today at <https://www.ideasonstage.com/business-presentation-revolution/book/>.
+This article contains extracts from *Business Presentation Revolution*, by Phil Waknell, published July 2021. Get the introduction free today at <https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/>.

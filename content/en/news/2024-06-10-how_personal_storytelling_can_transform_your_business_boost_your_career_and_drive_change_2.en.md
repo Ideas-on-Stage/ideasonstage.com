@@ -57,7 +57,7 @@ If you missed the live session, make sure to check out the recording below. And 
 
 **Want to learn more?** 
 
-* Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
+* Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/)
 
 * To make the most of the book, take the [Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
 

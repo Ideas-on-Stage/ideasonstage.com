@@ -19,28 +19,19 @@ bodylazy:
     - bodylazy-modules-aside
     - bodylazy-testimonials
     - bodylazy-location
+    - bodylazy-awards
 main:
     - main-modules
     - main-contenthome
 
-hero:
-  - img: /img/logos/ideas-on-stage-award-01.png 
-    title: Best Presentation Skills Training in the UK
-    description: Best Presentation Skills Training in the UK
-  - img: /img/logos/ideas-on-stage-award-02.png 
-    title: Best Virtual Speaker
-    description: Best Virtual Speaker
-  - img: /img/logos/ideas-on-stage-award-04.png
-    title: Outstanding External Provider Finalist
-    description: Outstanding External Provider Finalist
-    
-dt-body-cta: "public-speaking-guide"
+dt-body-cta: "most-transformational-roxor"
 dt-main-modules: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
 dt-body-referencesgrid: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
 dt-bodylazy-modules-aside: [ "presentationscore", "news" ]
 dt-bodylazy-testimonials: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
+dt-bodylazy-awards: [ "best-training-uk", "best-virtual-speaker-uk", "highly-commended-book-uk", "outstanding-provider-uk" ]
 ---
 
-Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.
+ At Ideas on Stage, we empower business owners, leaders and teams to become confident, compelling presenters through coaching and training.
 
-The communication experts of Ideas on Stage provide a full range of presentation services in the United Kingdom, the United States, France, Spain and Italy.
+Too many great ideas fail simply because of how they’re presented. Our mission is to change that. We want to help hundreds of thousands of business leaders inspire their audiences, increase their influence, and make a positive impact in the world.

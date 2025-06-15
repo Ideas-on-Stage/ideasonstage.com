@@ -1,0 +1,27 @@
+{{ partial "e/sass.scss" . }}
+	/* logo bar at bottom of hero */
+	.cl-awards {
+		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-around);
+		@include width-full;
+		padding: 2vw;
+		height: auto;
+		--color-back: none;
+		@media (max-width: $gl-sm-screen) {
+			height: 32vw;
+		}
+	}
+
+	/* item in the logo bar at bottom of hero */
+	.cl-awards--item {
+		@include flex-column($align-column-h: center);
+		flex-basis: 0; /* 0 to have all children same size */
+		flex-grow: 1;		
+		> img {
+			width: 10vw;
+			height: 10vw;
+			@media (max-width: $gl-sm-screen) {
+				width: 24vw;
+				height: 24vw;
+			}
+		}
+	}

@@ -46,4 +46,4 @@ I am often asked whether it’s acceptable to produce documents in PowerPoint. M
 
 **If you are going to treat PowerPoint as a kind of Swiss Army knife, remember only to use one tool at a time. Trying to prepare a slide and a handout in one go will be as unsuccessful as trying to use the corkscrew and blade at the same time, except that the pain will be for your audience.**
 
-This is an extract from Business Presentation Revolution, by Phil Waknell, published on July 14th 2021. Why wait? [Get the introduction free, today](https://www.ideasonstage.com/business-presentation-revolution/book/), and discover a better way of presenting.
+This is an extract from Business Presentation Revolution, by Phil Waknell, published on July 14th 2021. Why wait? [Get the introduction free, today](https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/), and discover a better way of presenting.

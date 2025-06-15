@@ -7,17 +7,6 @@ schema: "Website"
 translationKey: "home"
 mastodon: "https://mastodon.social/@pmorsa"
 
-hero:
-  - img: /img/logos/ideas-on-stage-award-01.png 
-    title: Best Presentation Skills Training in the UK
-    description: Best Presentation Skills Training in the UK
-  - img: /img/logos/ideas-on-stage-award-02.png 
-    title: Best Virtual Speaker
-    description: Best Virtual Speaker
-  - img: /img/logos/ideas-on-stage-award-04.png
-    title: Outstanding External Provider Finalist
-    description: Outstanding External Provider Finalist
-
 # blocks data
 dt-body-cta: "public-speaking-guide"
 dt-main-modules: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]

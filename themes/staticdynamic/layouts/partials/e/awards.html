@@ -1,0 +1,14 @@
+<div class="cl-awards">
+	{{ range . }}
+		{{ $data := index site.Data.awards . }}
+		{{ if $data }}
+			{{ $localizeddata := index $data site.LanguageCode }}
+			{{ if $localizeddata }}
+				<div class="cl-awards--item">
+					{{ $srcset := partial "f/getpicturesrcset.go" $localizeddata.img }}
+					<img loading="eager" decoding="async" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with $localizeddata.title }}alt="{{ . }}"{{ end }}>
+				</div>
+			{{ end }}
+		{{ end }}
+	{{ end }}
+</div>
