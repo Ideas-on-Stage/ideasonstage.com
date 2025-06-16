@@ -8,7 +8,7 @@ translationKey: "home"
 mastodon: "https://mastodon.social/@pmorsa"
 
 # blocks data
-dt-body-cta: "public-speaking-guide"
+dt-body-cta: "most-transformational-roxor"
 dt-main-modules: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
 dt-bodylazy-referencesgrid: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
 dt-bodylazy-modules-aside: [ "business-presentation-revolution", "news" ]

@@ -1,0 +1,9 @@
+en:
+    title: "Free Web Class"
+    layout: "module/half-text-picture.html"
+    style: "bg-light"
+    picture: "/img/modules/freewebclass.jpg"
+    url: "https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469"
+    description: "Master the art of presenting: boost your confidence and engage your audience."
+    button: "Register Now"
+    

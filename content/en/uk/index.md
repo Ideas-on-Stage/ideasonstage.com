@@ -9,26 +9,12 @@ schema: "Website"
 mastodon: "https://mastodon.social/@pmorsa"
 type: "home"
 
-body:
-    - body-h1home
-    - body-countrylist
-    - body-cta
-    - body-mainwide
-bodylazy:
-    - bodylazy-referencesgrid
-    - bodylazy-modules-aside
-    - bodylazy-testimonials
-    - bodylazy-location
-    - bodylazy-awards
-main:
-    - main-modules
-    - main-contenthome
 
 dt-body-cta: "most-transformational-roxor"
 dt-main-modules: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
-dt-body-referencesgrid: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
-dt-bodylazy-modules-aside: [ "presentationscore", "news" ]
-dt-bodylazy-testimonials: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
+dt-bodylazy-referencesgrid: [ "ebay", "spotify", "bosch", "octopuselectricvehicles", "havas", "rainmaking", "tbifgc", "fedex", "salesforce", "deloitte", "google", "disney", "wbg", "lacoste", "loreal" ]
+dt-bodylazy-modules-aside: [ "confidentpresenter", "presentationscore", "freewebclass", "freeminicourse" ]
+dt-bodylazy-testimonials: [ "tom-katte", "cam-beaudoin", "eran-shlomi", "margaret-satya-rose", "caroline-boston", "graham-purvis" ]
 dt-bodylazy-awards: [ "best-training-uk", "best-virtual-speaker-uk", "highly-commended-book-uk", "outstanding-provider-uk" ]
 ---
 

@@ -104,6 +104,31 @@ _default:
 
 
 
+# page.Type "home"
+home:
+    page:
+        head:
+            - head-meta-desc-single
+            - head-schema-corporation
+            - head-schema-website
+            - head-title-home
+        body:
+            - body-h1home
+            - body-countrylist
+            - body-cta
+            - body-mainwide
+        bodylazy:
+            - bodylazy-referencesgrid
+            - bodylazy-modules-aside
+            - bodylazy-testimonials
+            - bodylazy-location
+            - bodylazy-awards
+        main:
+            - main-modules
+            - main-contenthome
+
+
+
 # page.Type "404"
 404:
     # page.Kind "page"

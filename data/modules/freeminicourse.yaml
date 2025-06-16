@@ -1,0 +1,9 @@
+en:
+    title: "Free Mini-Course"
+    layout: "module/half-text-picture.html"
+    style: "bg-light"
+    picture: "/img/modules/freeminicourse.jpg"
+    url: "https://confident-presenter-mini-course.scoreapp.com/"
+    description: "In just 20 minutes, discover where true presentation confidence comes from, and how to avoid common mistakes that weaken your message."
+    button: "Start Learning Today"
+    
