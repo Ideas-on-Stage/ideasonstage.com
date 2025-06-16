@@ -1,10 +1,10 @@
 ---
 draft: false
+type: "training"
 title: "Formations prise de parole en public"
 description: "La formation en prise de parole en public pour les entreprises la plus complète du marché. Message, Storytelling, Visuels et Art Oratoire."
 picture: "prise-de-parole-2.jpg"
 translationKey: "presentations-training"
-type: "training"
 
 hero:
   - img: /img/logos/datadock.png 

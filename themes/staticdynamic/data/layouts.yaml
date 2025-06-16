@@ -104,31 +104,6 @@ _default:
 
 
 
-# page.Type "home"
-home:
-    page:
-        head:
-            - head-meta-desc-single
-            - head-schema-corporation
-            - head-schema-website
-            - head-title-home
-        body:
-            - body-h1home
-            - body-countrylist
-            - body-cta
-            - body-mainwide
-        bodylazy:
-            - bodylazy-referencesgrid
-            - bodylazy-modules-aside
-            - bodylazy-testimonials
-            - bodylazy-location
-            - bodylazy-awards
-        main:
-            - main-modules
-            - main-contenthome
-
-
-
 # page.Type "404"
 404:
     # page.Kind "page"
@@ -244,7 +219,6 @@ revolution:
             - side-topcategories
 
 
-
 # page.Type "tags"
 tags:
     # page.Kind "taxonomy" = section for tags
@@ -256,10 +230,10 @@ tags:
         body:
             - body-h1hero
             - body-side-main
-        side:
-            - side-topcategories
         main:
             - main-pages-tags
+        side:
+            - side-topcategories
     # page.Kind "term" = page for tags
     term:
         head:
@@ -270,10 +244,10 @@ tags:
             - body-h1hero
             - body-breadcrumbs
             - body-side-main
-        side:
-            - side-topcategories
         main:
             - main-pages-tags
+        side:
+            - side-topcategories
 
 
 

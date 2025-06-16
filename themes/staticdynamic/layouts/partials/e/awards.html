@@ -1,3 +1,18 @@
+{{/* <!--
+	
+	e/awards.html
+
+	A list of logos for awards.
+	
+	Arguments:
+	- list of data files from /data/awards/
+	  e.g. slice "best-training-uk" "best-virtual-speaker-uk"
+
+	History:
+	- 2025-06-15 first version
+		
+--> */}}
+
 <div class="cl-awards">
 	{{ range . }}
 		{{ $data := index site.Data.awards . }}

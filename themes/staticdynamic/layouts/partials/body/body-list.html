@@ -53,7 +53,17 @@
 	{{ $blocks := partial "f/getblocks.go" "list" }}
 	{{ range .Pages }}
 		{{ $page := . }}
-		{{ if or $page.Params.ni $page.Params.nl }}
+		{{ $force := false }}
+		{{/* <!-- by default pages are listed --> */}}
+		{{/* <!-- if ni is true or nl is true, they are not listed --> */}}
+		{{/* <!-- but if fl is true it overrides both ni and nl --> */}}
+		{{/* <!-- check if force list is true (fl: true) --> */}}
+		{{ if isset $page.Params "fl" }}
+			{{ if eq $page.Params.fl true }}
+				{{ $force = true }}
+			{{ end }}
+		{{ end }}
+		{{ if and (or $page.Params.ni $page.Params.nl) (eq false $force) }}
 			{{/* <!-- skip non indexed pages (ni: true or nl: true) --> */}}
 		{{ else }}
 			{{ range $blocks }}

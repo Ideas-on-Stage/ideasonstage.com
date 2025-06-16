@@ -2,6 +2,8 @@
 title: "Support de la formation Art Oratoire"
 showtoc: true
 ni: true
+fl: true
+button: "Accéder au support"
 ---
 
 ## Introduction

@@ -2,6 +2,8 @@
 title: "Support de la formation Storytelling"
 showtoc: true
 ni: true
+fl: true
+button: "Accéder au support"
 ---
 
 Prérequis : avoir un sujet pour créer une histoire. Cela peut être une présentation que vous devez donner, ou un sujet qui vous intéresse.

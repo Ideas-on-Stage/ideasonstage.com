@@ -2,6 +2,8 @@
 title: "Support de la formation Visuels PowerPoint"
 showtoc: true
 ni: true
+fl: true
+button: "Accéder au support"
 ---
 
 ## Introduction
