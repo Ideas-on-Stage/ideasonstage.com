@@ -105,30 +105,6 @@
 	status	= 301
 	force	= true
 
-	
-# Temporary page redirects, url change
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/business-presentation-revolution/"
-	to		= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-prise-de-parole-en-public/"
-	to		= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/formations-ateliers/*"
-	to		= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/:splat"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://www.ideasonstage.com/corporate-communication/*"
-	to		= "https://www.ideasonstage.com/communication-consulting/:splat"
-	status	= 301
-	force	= true
-
-
 # Temporary for duplicate different from Google canonical problem
 [[redirects]]
 	from	= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/handicap/"
@@ -203,11 +179,6 @@
 [[redirects]]
 	from	= "https://www.ideasonstage.com/resources/confident-presenter-book/"
 	to		= "https://www.ideasonstage.com/resources/books/confident-presenter-book/"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/*"
-	to		= "https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/:splat"
 	status	= 301
 	force	= true
 
