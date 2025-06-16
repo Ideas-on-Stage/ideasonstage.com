@@ -23,8 +23,7 @@
 
 {{ $page := page }} {{/* <!-- page object --> */}}
 {{ $part := . }} {{/* <!-- string with name of part to retrieve  --> */}}
-{{ $result := index (index (index site.Data.layouts "_default") $page.Kind) $part }} {{/* <!-- else use _default blocks from /data/layouts.html --> */}}
-
+{{ $result := slice }}
 
 {{/* <!-- bodytop, bodybottom, headtop and headbottom are ignored if declared elsewhere than _common --> */}}
 {{/* <!-- it is therefore useless to declare a bodytop part in a specific part or in a page front matter --> */}}
@@ -60,6 +59,11 @@
 {{/* <!-- use Kind=home if declared as page.Type --> */}}	
 {{ else if eq "home" $page.Type }}
 	{{ $result = index (index (index site.Data.layouts "_default") "home") $part }}
+
+{{/* <!-- else use _default blocks from /data/layouts.html --> */}}
+{{ else }}
+	{{ $result = index (index (index site.Data.layouts "_default") $page.Kind) $part }}
+
 {{ end }}
 
 {{ return $result }}

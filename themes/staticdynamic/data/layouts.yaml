@@ -58,8 +58,8 @@ _default:
         body:
             - body-h1hero
             - body-breadcrumbs
-            - body-side-main
-            - body-list # by putting the list here, we choose to put it below the <main> part
+            - body-side-main # What goes inside side and main is defined in main: and side: 
+            - body-list # what goes in the list is defined in list:
         bodylazy:
             - bodylazy-modules-aside
         main:
@@ -132,6 +132,8 @@ about:
         bodylazy:
             - bodylazy-location
             - bodylazy-modules-aside
+        main:
+            - main-content
 
 
 
@@ -217,6 +219,8 @@ revolution:
             - body-side-main
         side:
             - side-topcategories
+        main:
+            - main-content
 
 
 # page.Type "tags"
@@ -293,6 +297,8 @@ training:
             - bodylazy-modules-aside
         side:
             - side-links
+        main:
+            - main-content
     page:
         body:
             - body-h1hero
@@ -300,3 +306,5 @@ training:
             - body-side-main
         side:
             - side-training
+        main:
+            - main-content
