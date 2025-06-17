@@ -1,0 +1,67 @@
+{{/* <!--
+	
+	body-cta.html
+
+	Generates a call to action similar to a hero with a button.
+	A data file containing the cta details must exist in /data/ctas
+	
+	Arguments:
+	- page object where the front matter has:
+		- dt-body-cta: "cta data file" as string
+		  A data file matching "cta data file" must exist in /data/ctas
+	
+	Example:
+		- Page front matter: dt-body-cta: "my-narcissic-new-book"
+		- Data file: /data/ctas/my-narcissic-new-book.yaml
+	
+--> */}}
+
+{{/* <!-- check if dt-body-cta parameter exists in page front matter --> */}}
+{{ $cta := index .Params "dt-body-cta" }}
+{{ with $cta }}
+	{{/* <!-- check if data file declared in dt-body-cta exists --> */}}
+	{{ $data := index site.Data.ctas . }}
+	{{ if $data }}
+		{{/* <!-- check if data file contains localized data for current language --> */}}
+		{{ $localizeddata := partial "f/getlocalizeddata" $data }}
+		{{ with $localizeddata }}
+			<header id="call-to-action" class="cl-body-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
+				{{/* <!-- cta picture --> */}}
+				{{ $picture := printf "img/cta/%s" .picture }}
+				{{ $srcset := partial "f/getpicturesrcset.go" $picture }}
+				<img loading="eager" decoding="async" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .title }}" width="100%" height="60vh">
+				
+				<div class="cl-body-cta--main">
+					{{/* <!-- cta title --> */}}
+					{{ with .title }}
+						<h2>
+							{{ . | markdownify }}
+						</h2>
+					{{ end }}
+					
+					{{/* <!-- cta description --> */}}
+					{{ with .description }}
+						<p>
+							{{ . }}
+						</p>
+					{{ end }}
+					
+					{{/* <!-- cta button --> */}}
+					{{ with .button }}
+						<a href="{{ .link }}" class="cl-core--button-primary">
+							{{ .text }}
+						</a>
+					{{ end }}
+				</div>
+				
+				{{ partial "e/logobar.html" page }}
+			</header>
+		{{ else }}
+			{{ partial "e/html-comment.html" "skipped: cta: no localized data for current language in page.Params.dt-body-cta" }}
+		{{ end }}
+	{{ else }}
+		{{ partial "e/html-comment.html" "skipped: cta: no data file matching page.Params.dt-body-cta" }}
+	{{ end }}
+{{ else }}
+	{{ partial "e/html-comment.html" "skipped: cta: no page.Params.dt-body-cta" }}
+{{ end }}

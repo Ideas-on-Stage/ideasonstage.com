@@ -1,0 +1,32 @@
+{{/* <!--
+	
+	body-referencesgrid.html
+
+	Generates the HTML with a grid of logos from client references.
+	
+	Arguments:
+	- page object where the front matter contains a "dt-body-referencesgrid" parameter
+	  with the list of files in /data/references
+	
+	Example:
+	- dt-body-referencesgrid: [ "list", "of", "references", "data", "files" ]
+
+--> */}}
+
+{{ $grid := index .Params "dt-body-referencesgrid" }}
+{{ with $grid }}
+	<section id="reference-list" class="cl-referencesgrid">
+		{{ range . }}
+			{{ $data := index site.Data.references . }}
+			{{ if $data }}
+				{{ $localizeddata := partial "f/getlocalizeddata" $data }}
+				{{ if $localizeddata }}
+					{{ $srcset := partial "f/getpicturesrcset.go" $localizeddata.picture }}
+					<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with $localizeddata.client }}alt="{{ . }}"{{ end }} height="100" width="100" />
+				{{ end }}
+			{{ end }}
+		{{ end }}
+	</section>
+{{ else }}
+	{{ partial "e/html-comment.html" "INFO: skipped: references: no .Params.dt-body-referencesgrid" }}
+{{ end }}

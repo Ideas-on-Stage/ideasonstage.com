@@ -66,7 +66,6 @@ _default:
             - main-content
         list:
             - list-link-picture2-text1
-            
     # page.Kind "single"
     page:
         head:
@@ -80,7 +79,7 @@ _default:
             - bodylazy-modules-aside
         main:
             - main-content
-    # page.Kind "home"
+    # page.Kind "home" (also applies to page.Type "home")
     home:
         head:
             - head-meta-desc-single
@@ -124,6 +123,7 @@ _default:
 
 # page.Type "about"
 about:
+    #page.Kind "section"
     section:
         body:
             - body-h1hero
@@ -141,26 +141,14 @@ about:
 news:
     # page.Kind "section"
     section:
-        # each part defined below overrides default for page Type "news" Kind "section"
-        # here, there is no "head:" part defined so _default:section:head: will be used
-        # body part is defined so it will override _default:section:body: part
         body:
             - body-h1hero
             - body-side-main
-        # content main blocks
-        # will appear where the "content" item is inserted in "body:"
-        # if there is no "content" item it will not be used
         main:
             - main-list
             - main-prevnext
-        # content sidebar blocks
-        # will appear where the "content" item is inserted in "body:" (there must be a content item in body:)
-        # if there is no "content" item it will not be used
         side:
             - side-topcategories
-        # list of pages blocks (repeated for each page listed)
-        # will appear where the "list" item is inserted in "body:" or "main:"
-        # if there is no "list" item it will not be used
         list:
             - list-h2
             - list-authorandtime
@@ -169,6 +157,7 @@ news:
             - list-summary
             - list-buttonmorenews
             - list-space-medium
+    # page.Kind "page"
     page:
         head:
             - head-meta-desc-news-single
@@ -189,6 +178,7 @@ news:
 
 # page.Type "references"
 references:
+    # page.Kind "section"
     section:
         body:
             - body-h1hero
@@ -201,6 +191,7 @@ references:
 
 # page.Type "revolution"
 revolution:
+    # page.Kind "section"
     section:
         head:
             - head-meta-desc-section
@@ -212,6 +203,7 @@ revolution:
         main:
             - main-content
             - main-listrevolution
+    # page.Kind "page"
     page:
         body:
             - body-h1hero
@@ -257,6 +249,7 @@ tags:
 
 # page.Type "team"
 team:
+    # page.Kind "section"
     section:
         head:
             - head-meta-desc-section
@@ -267,6 +260,7 @@ team:
         main:
             - main-contenthome
             - main-listteam
+    # page.Kind "page"
     page:
         head:
             - head-meta-desc-team-single
@@ -286,6 +280,7 @@ team:
 
 # page.Type "training"
 training:
+    # page.Kind "section"
     section:
         body:
             - body-h1hero
@@ -299,6 +294,7 @@ training:
             - side-links
         main:
             - main-content
+    # page.Kind "page"
     page:
         body:
             - body-h1hero
