@@ -28,14 +28,11 @@
 {{ $data := partial "f/getdatalocalized" (slice . "body-carousel") }}
 {{ with $data }}
 	<section id="carousel" class="cl-body-carousel">
-		
-		{{ with index page.Params "body-carousel-title" }}
+		{{ with .title }}
 			<h3>{{ . }}</h3>
 		{{ end }}
-		
 		<ul class="cl-body-carousel--carousel">
-			
-			{{ range . }}
+			{{ range .items }}
 				<li class="cl-body-carousel--item">
 					<div class="text">
 						<a href="{{ partial "f/geturl.go" . }}">
@@ -60,13 +57,10 @@
 					</a>
 				</li>
 			{{ end }}
-			
 			<li class="cl-body-carousel--space">
 				<p>&nbsp;</p>
 			</li>
-			
 		</ul>
-
 	</section>
 {{ else }}
 	{{ partial "e/html-comment.html" "skipped: body-carousel: no page.Params.body-body-carousels-data or missing localized data" }}

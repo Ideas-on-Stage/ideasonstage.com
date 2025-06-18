@@ -17,6 +17,7 @@
 {{/* <!-- initialize variables --> */}}
 {{ $localizeddata := slice }}
 {{ $localizedresult := slice }}
+{{ $issingle := false }}
 
 {{/* <!-- get current site language code --> */}}
 {{ $languagecode := site.LanguageCode }}
@@ -39,6 +40,7 @@
 {{/* <!-- if front matter parameter is a single string, convert it to list --> */}}
 {{ if (partial "f/isstring.go" $datalist) }}
 	{{ $datalist = slice $datalist }}
+	{{ $issingle = true }}
 {{ end }}
 
 {{/* <!-- get list of data files matching data type --> */}}
@@ -63,6 +65,10 @@
 		{{ $localizedresult = $localizedresult | append $localizeddata }}
 	{{ end }}
 
+{{ end }}
+
+{{ if $issingle }}
+	{{ $localizedresult = index $localizedresult 0 }}
 {{ end }}
 
 {{ return $localizedresult }}

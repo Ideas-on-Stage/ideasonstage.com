@@ -48,7 +48,6 @@ params:
             - scale: 800
             - scale: 480
         quality: 70
-
     
     # ---------------------
     # Countries
@@ -329,7 +328,7 @@ languages:
                 title: "Where to find us"
                 address: ""
                 bgimage: ""
-
+            
             # -------------------
             # Navbar
             navbar:
@@ -339,6 +338,8 @@ languages:
                   url: "/public-speaking-coaching/"
                 - name: "Consulting"
                   url: "/communication-consulting/"
+                - name: "Events"
+                  url: "/uk/events/"
                 - name: "Contact"
                   url: "#contact"
             

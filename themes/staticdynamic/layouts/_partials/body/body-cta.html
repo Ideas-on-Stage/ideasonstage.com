@@ -18,7 +18,7 @@
 
 {{/* <!-- check if body-cta-data parameter exists in page front matter --> */}}
 {{ $data := partial "f/getdatalocalized" (slice . "body-cta") }}
-{{ range $data }}
+{{ with $data }}
 	<header id="call-to-action" class="cl-body-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
 		{{/* <!-- cta picture --> */}}
 		{{ $picture := printf "img/cta/%s" .picture }}
