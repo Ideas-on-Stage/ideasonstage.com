@@ -1,0 +1,17 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-testimonial {
+		@include flex-column($gap: "gap", $align-column-h: center);
+		
+		.text {
+			@include firstlastchildnomargin;
+			--text-align: center;
+		}
+		
+		img {
+			@include img-circle(10vw);
+		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
+	}

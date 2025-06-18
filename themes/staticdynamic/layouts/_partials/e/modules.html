@@ -21,11 +21,5 @@
  --> */}}
  
  {{ range . }}
-	{{ $data := index site.Data.modules . }}
-	{{ if $data }}
-		{{ $localizeddata := partial "f/getlocalizeddata" $data }}
-		{{ if $localizeddata }}
-			{{ partial $localizeddata.layout $localizeddata }}
-		{{ end }}
-	{{ end }}
+	{{ partial .layout . }}
 {{ end }}

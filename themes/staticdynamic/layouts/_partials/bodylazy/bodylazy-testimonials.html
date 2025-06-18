@@ -1,40 +1,32 @@
-{{/* <!-- retrieve testimonals list from page.dt-bodylazy-testimonials --> */}}
-{{ $data := index .Params "dt-bodylazy-testimonials" }}
+{{/* <!-- retrieve testimonals list from page.bodylazy-testimonials-data --> */}}
+{{ $data := partial "f/getdatalocalized" (slice . "bodylazy-testimonials") }}
 {{ with $data }}
 	<section id="testimonials" class="cl-bodylazy-testimonials">
 		{{/* <!-- iterate over each testimonial --> */}}
 		{{ range . }}
-			{{/* <!-- retrieve testimonial data file from /data/testimonials --> */}}
-			{{ $data := index site.Data.testimonials . }}
-			{{ if $data }}
-				{{/* <!-- get correct language data (skip if not found) --> */}}
-				{{ $localizeddata := partial "f/getlocalizeddata" $data }}
-				{{ with $localizeddata }}
-					<div class="item">
-						{{ with .text }}
-							<p class="text">
-								{{ . }}
-							</p>
-						{{ end }}
-						<div class="person">
-							{{ if .img }}
-								{{ $srcset := partial "f/getpicturesrcset.go" .img }}
-								<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .name }}" height="60" width="60">
-							{{ end }}
-							<div>
-								{{ with .name }}
-									<h4 class="name">{{ . }}</h4>
-								{{ end }}
-								{{ with .position }}
-									<p class="position">{{ . }}</p>
-								{{ end }}
-							</div>
-						</div>
-					</div>
+			<div class="item">
+				{{ with .text }}
+					<p class="text">
+						{{ . }}
+					</p>
 				{{ end }}
-			{{ end }}
+				<div class="person">
+					{{ if .img }}
+						{{ $srcset := partial "f/getpicturesrcset.go" .img }}
+						<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .name }}" height="60" width="60">
+					{{ end }}
+					<div>
+						{{ with .name }}
+							<h4 class="name">{{ . }}</h4>
+						{{ end }}
+						{{ with .position }}
+							<p class="position">{{ . }}</p>
+						{{ end }}
+					</div>
+				</div>
+			</div>
 		{{ end }} 
 	</section>
 {{ else }}
-	{{ partial "e/html-comment.html" "skipped: testimonials: no .Params.dt-bodylazy-testimonials" }}
+	{{ partial "e/html-comment.html" "skipped: testimonials: no .Params.bodylazy-testimonials-data" }}
 {{ end }}

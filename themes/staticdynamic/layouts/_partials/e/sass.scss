@@ -1,16 +1,16 @@
 {{/* <!--
 	
-	e/sass
+	e/sass.scss
 
-	- adds the @import "_sassmix" line
-	- if a custom config file exists, adds @import "customfile" line
+	1/ Adds the @import "_sassmix" line to a scss file.
+	Sassmix is a group of common variables and mixins to be used throughout the css files.
+	Sassmix contains only variables and mixins, therefore it does not add duplicate content.
+
+	2/ If a custom config file exists, adds @import "customfile" line
+	e.g. for "toto", tests if a file exists in /assets/css/custom/_toto.scss" and import it if it exists
 	
 	Arguments:
-	- name of scss file (for example main.scss)
-	
-	Process:
-	- includes _sassmix
-	- 
+	- name of scss file (for example "main")
 	
  --> */}}
 @import "_sassmix";

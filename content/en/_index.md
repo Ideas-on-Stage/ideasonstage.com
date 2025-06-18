@@ -8,11 +8,11 @@ translationKey: "home"
 mastodon: "https://mastodon.social/@pmorsa"
 
 # blocks data
-dt-body-cta: "most-transformational-roxor"
-dt-main-modules: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
-dt-bodylazy-referencesgrid: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
-dt-bodylazy-modules-aside: [ "business-presentation-revolution", "news" ]
-dt-bodylazy-testimonials: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
+body-cta-data: "most-transformational-roxor"
+main-modules-data: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
+bodylazy-references-data: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
+bodylazy-modules-aside-data: [ "business-presentation-revolution", "news" ]
+bodylazy-testimonials-data: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
 ---
 Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.
 

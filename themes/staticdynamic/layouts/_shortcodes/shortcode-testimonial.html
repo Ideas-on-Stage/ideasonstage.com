@@ -1,0 +1,17 @@
+{{ "<!-- _shortcodes:shortcode-testimonial.html:start -->" | safeHTML }}
+<div class="cl-shortcode cl-shortcode-testimonial {{ with .Params.style }}{{ . }}{{ end }}">
+	{{ partial "e/photograph" .Params }}
+	<div class="text">
+		<p>
+			{{ with .Params.quote }}{{ . }}{{ end }}
+		</p>
+		<p class="name-title">
+			-
+			<strong>
+				{{ with .Params.name }}{{ . }}{{ end }}, 
+			</strong>
+			{{ with .Params.title }}{{ . }}{{ end }}
+		</p>
+	</div>
+</div>
+{{ "<!-- _shortcodes:shortcode-testimonial.html:end -->" | safeHTML }}

@@ -5,7 +5,7 @@ description: "Agence spécialisée en présentation et en prise de parole en pub
 translationKey: "about"
 type: about
 
-dt-bodylazy-modules-aside: [ team, catalogue ]
+bodylazy-modules-aside-data: [ team, catalogue ]
 ---
 
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public. Dans un univers de conférences monotones et de réunions sans fin, vous vous démarquerez.

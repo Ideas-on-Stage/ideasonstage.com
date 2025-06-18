@@ -15,15 +15,9 @@
 	<meta name="robots" content="noindex">
 {{ end }}
 
-{{ $cta := index .Params "dt-body-cta" }}
-{{ with $cta }}
-	{{ $data := index site.Data.cta . }}
-	{{ if $data }}
-		{{ $localizeddata := partial "f/getlocalizeddata" $data }}
-		{{ with $localizeddata }}
-			{{ $picture := printf "img/cta/%s" .picture }}
-			{{ $srcset := partial "f/getpicturesrcset.go" $picture }}
-			<link rel="preload" as="image" href="{{ collections.Index $srcset 0 }}" imagesrcset="{{ collections.Index $srcset 1 }}">
-		{{ end }}
-	{{ end }}
+{{ $data := partial "f/getdatalocalized" (slice . "body-cta") }}
+{{ range $data }}
+	{{ $picture := printf "img/cta/%s" .picture }}
+	{{ $srcset := partial "f/getpicturesrcset.go" $picture }}
+	<link rel="preload" as="image" href="{{ collections.Index $srcset 0 }}" imagesrcset="{{ collections.Index $srcset 1 }}">
 {{ end }}

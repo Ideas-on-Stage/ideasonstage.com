@@ -1,8 +1,28 @@
 {{/* <!--
 	
-	f/getlocalizeddata
+	f/getdata
 
-	For a data structure, retrieves localized entry
+	Returns a "harmonized" data structure, removing .Params if necessary.
+	e.g. the structure:
+	.Params
+		.title
+		.description
+	will become
+	.title
+	.description
+
+	the structure	
+	.title
+	.description
+	will remeain 
+	.title
+	.description
+
+	Arguments:
+	- .Params.data or .data
+	
+	Returns:
+	- .data
 
 --> */}}
 

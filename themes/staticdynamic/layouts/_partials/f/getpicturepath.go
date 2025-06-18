@@ -48,6 +48,10 @@
 	{{/* <!-- else it can be a data or shortcode file, use .picture property --> */}}
 	{{ $picture = .picture }}
 	{{ $found = true }}
+{{ else if (isset . "img") }}
+	{{/* <!-- else it can be a data or shortcode file, use .picture property --> */}}
+	{{ $picture = .img }}
+	{{ $found = true }}
 {{ else if (isset . "src") }}
 	{{/* <!-- else it can be a data or shortcode file, use .src property --> */}}
 	{{ $picture = .src }}

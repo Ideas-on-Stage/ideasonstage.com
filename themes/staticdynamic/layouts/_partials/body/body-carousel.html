@@ -6,17 +6,14 @@
 	A carousel should have at least 4 items to look "right".
 	
 	Arguments:
-	- page object
-	  The page object must have a dt-body-carousel front matter argument
-	  The dt-body-carousel has two properties:
-	  - .title is the title of the carousel
-	  - .data is the list of /data/carousels files containing the carousel items
-	
+	- page object with the following front matter properties:
+	  body-body-carousels-data: [ "list", "of", "body-carousel", "data", "files" ]
+	  body-carousel-title: "title of the carousel"
+
 	Example:
 	Page front matter:
-	dt-body-carousel:
-	  title: "My super carousel"
-	  data: [ "item1", "item2", "item3", "item4" ]
+	body-carousel-title: "My super carousel"
+	body-body-carousels-data: [ "item1", "item2", "item3", "item4" ]
 	
 	/data/carousels files:
 	- item1.yaml
@@ -24,48 +21,44 @@
 	- item3.yaml
 	- item4.yaml
 	Each file should have an entry for the site language
-	Check the /data/carousels files for examples.
+	Check the /data/body-carousel files for examples.
 	
 --> */}}
 
-{{ $data := index .Params "dt-body-carousel" }}
+{{ $data := partial "f/getdatalocalized" (slice . "body-carousel") }}
 {{ with $data }}
 	<section id="carousel" class="cl-body-carousel">
 		
-		<h3>{{ .title }}</h3>
+		{{ with index page.Params "body-carousel-title" }}
+			<h3>{{ . }}</h3>
+		{{ end }}
 		
 		<ul class="cl-body-carousel--carousel">
 			
-			{{ range .data }}
-				{{ $data := index site.Data.carousels . }}
-				{{ if $data }}
-					{{ $localizeddata := partial "f/getlocalizeddata" $data }}
-					{{ with $localizeddata }}
-					<li class="cl-body-carousel--item">
-						<div class="text">
-							<a href="{{ partial "f/geturl.go" . }}">
-								{{ with .title }}
-									<h4>
-										{{ . }}
-									</h4>
-								{{ end }}
-								{{ with .description }}
-									<p>
-										{{ . }}
-									</p>
-								{{ end }}
-							</a>
-							{{ partial "e/button-secondary" . }}
-						</div>
+			{{ range . }}
+				<li class="cl-body-carousel--item">
+					<div class="text">
 						<a href="{{ partial "f/geturl.go" . }}">
-							{{ if .img }}
-								{{ $srcset := partial "f/getpicturesrcset.go" .img }}
-								<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .name }}">
+							{{ with .title }}
+								<h4>
+									{{ . }}
+								</h4>
+							{{ end }}
+							{{ with .description }}
+								<p>
+									{{ . }}
+								</p>
 							{{ end }}
 						</a>
-					</li>
-					{{ end }}
-				{{ end }}
+						{{ partial "e/button-secondary" . }}
+					</div>
+					<a href="{{ partial "f/geturl.go" . }}">
+						{{ if .img }}
+							{{ $srcset := partial "f/getpicturesrcset.go" .img }}
+							<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .name }}">
+						{{ end }}
+					</a>
+				</li>
 			{{ end }}
 			
 			<li class="cl-body-carousel--space">
@@ -73,8 +66,8 @@
 			</li>
 			
 		</ul>
-		
+
 	</section>
 {{ else }}
-	{{ partial "e/html-comment.html" "skipped: carousel: no page.Params.dt-body-carousel" }}
+	{{ partial "e/html-comment.html" "skipped: body-carousel: no page.Params.body-body-carousels-data or missing localized data" }}
 {{ end }}

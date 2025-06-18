@@ -1,9 +1,13 @@
-e is short for "elements"
+"e" is short for elements
 
-The elements folder contains very short snippets of common HTML/Hugo code that can be reused in multiple pages to help reduce the maintenance costs.
+The "e" elements folder contains very short snippets of common HTML/Hugo code that can be reused in multiple pages to help reduce the maintenance costs.
+
+"e" elements should be very stable.
 
 Try to limit these snippets to a single html <tag></tag> element, for example:
 - <img>
 - <a>...</a>
 - <p>...</p>
 - <div>...</div>
+
+These "e" elements generate HTML, whereas "f" functions return a value and don't generate HTML in the document.

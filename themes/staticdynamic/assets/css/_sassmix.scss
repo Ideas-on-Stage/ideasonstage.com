@@ -578,3 +578,11 @@
 	@mixin width-twothirds {
 		width: calc( 67% - var(--column-gap) );	/* reduce main content width when there is a sidebar */
 	}
+
+	@mixin width-onefifth {
+		width: calc( 20% );
+	}
+	
+	@mixin width-fourfifths {
+		width: calc( 80% - var(--column-gap) );	/* reduce main content width when there is a sidebar */
+	}

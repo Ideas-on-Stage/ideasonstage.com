@@ -7,11 +7,11 @@ schema: "Website"
 translationKey: "home"
 
 # blocks data
-dt-body-cta: "public-speaking-guide"
-dt-main-modules: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting", "creative-workshops" ]
-dt-bodylazy-referencesgrid: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
-dt-bodylazy-modules-aside: [ "codingandbricks", "news" ]
-dt-bodylazy-testimonials: [ "roxanne-varza", "cesar-harada", "francois-marchessaux", "nicolas-beau", "david-musotte" ]
+body-cta-data: "public-speaking-guide"
+main-modules-data: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting", "creative-workshops" ]
+bodylazy-references-data: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
+bodylazy-modules-aside-data: [ "codingandbricks", "news" ]
+bodylazy-testimonials-data: [ "roxanne-varza", "cesar-harada", "francois-marchessaux", "nicolas-beau", "david-musotte" ]
 ---
 
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.

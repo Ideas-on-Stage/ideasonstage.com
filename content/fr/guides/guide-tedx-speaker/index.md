@@ -10,7 +10,7 @@ summary: "Félicitations, vous venez d'être sélectionné pour être speaker à
 weight: 30
 
 # blocks data
-dt-bodylazy-modules-aside: [ "public-speaking-training", "public-speaking-coaching" ]
+bodylazy-modules-aside-data: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 
 ## Pourquoi le guide ultime du TEDx Speaker ?

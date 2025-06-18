@@ -6,7 +6,7 @@ translationKey: "about"
 type: about
 
 # blocks data
-dt-bodylazy-modules-aside: [ team, catalogue ]
+bodylazy-modules-aside-data: [ team, catalogue ]
 ---
 En Ideas on Stage tenemos como propósito ayudar a los líderes de todo el mundo a hacer presentaciones extraordinarias, crear eventos que inspiren y muevan al cambio, y fortalecer sus compañías mediante la formación y coaching para hablar en público. En un mundo plagado de presentaciones insufribles y aburridas y de reuniones interminables, le ayudaremos a destacar y a brillar.
 

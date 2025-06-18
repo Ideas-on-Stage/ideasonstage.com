@@ -9,7 +9,7 @@ summary: "Ce guide vous donnera tous les conseils nécessaires pour organiser vo
 weight: 40
 
 # blocks data
-dt-bodylazy-modules-aside: [ "public-speaking-training", "public-speaking-coaching" ]
+bodylazy-modules-aside-data: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 
 ## Qu’est-ce qu’un événement TEDx ?

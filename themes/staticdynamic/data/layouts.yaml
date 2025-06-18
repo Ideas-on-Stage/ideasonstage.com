@@ -137,6 +137,24 @@ about:
 
 
 
+# page.Type "events"
+events:
+    # page.Kind "single"
+    page:
+        head:
+            - head-meta-desc-single
+            - head-title-single
+        body:
+            - body-cta
+            - body-breadcrumbs
+            - body-side-main
+        bodylazy:
+            - bodylazy-modules-aside
+        main:
+            - main-content
+
+
+
 # page.Type "news"
 news:
     # page.Kind "section"

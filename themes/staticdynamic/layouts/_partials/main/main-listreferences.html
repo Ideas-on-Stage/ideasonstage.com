@@ -1,48 +1,39 @@
-{{ $data := site.Data.references }}
-{{ if $data }}
+{{ $data := partial "f/getdatalocalized" (slice . "main-references") }}
+{{ with $data }}
 	<section id="client-references" class="cl-main-listreferences">
-		{{ range $data }}
-			{{ $localizeddata := partial "f/getlocalizeddata" $data }}
-			{{ if $localizeddata }}
-				{{ if $localizeddata.description }}
-					<div class="reference">
-						<div class="logo">
-							{{ partial "e/picture.html" $localizeddata }}
-						</div>
-						<div class="text">
-							{{ with $localizeddata.client }}
-							<h2>
-								{{ . }}
-							</h2>
-							{{ end }}
-							{{ with $localizeddata.title }}
-								<p>
-									<b>
-										{{ . | markdownify }}
-									</b>
-								</p>
-							{{ end }}
-							{{ with $localizeddata.description }}
-								<p>
-									{{ . | markdownify }}
-								</p>
-							{{ end }}
-							{{ with $localizeddata.imgcontent }}
-								<img src="{{ . }}">
-							{{ end }}
-							{{ with $localizeddata.description2 }}
-								<p>
-									{{ . | markdownify }}
-								</p>
-							{{ end }}
-						</div>
-					</div>
-				{{ end }}
-			{{ else }}
-				{{ partial "e/html-comment.html" "no localized data" }}
-			{{ end }}
-		{{ else }}
-			{{ partial "e/html-comment.html" "no data" }}
+		{{ range . }}
+			<div class="reference">
+				<div class="logo">
+					{{ partial "e/picture.html" . }}
+				</div>
+				<div class="text">
+					{{ with .client }}
+					<h2>
+						{{ . }}
+					</h2>
+					{{ end }}
+					{{ with .title }}
+						<p>
+							<b>
+								{{ . | markdownify }}
+							</b>
+						</p>
+					{{ end }}
+					{{ with .description }}
+						<p>
+							{{ . | markdownify }}
+						</p>
+					{{ end }}
+					{{ with .imgcontent }}
+						<img src="{{ . }}">
+					{{ end }}
+					{{ with .description2 }}
+						<p>
+							{{ . | markdownify }}
+						</p>
+					{{ end }}
+				</div>
+			</div>
 		{{ end }}
 	</section>
 {{ end }}

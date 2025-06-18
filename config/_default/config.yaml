@@ -253,6 +253,8 @@ languages:
                 title: "Testimonials"
                 subtitle: "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
 
+
+
     ################################
     # UK / en-GB
     ################################
@@ -260,7 +262,7 @@ languages:
         languageName: "United Kingdom"
         languageCode: "en-GB"
         contentDir: "content/uk"
-        weight: "1"
+        weight: "4"
         
         params:
             country: "United Kingdom"
@@ -309,7 +311,25 @@ languages:
             # Events list
             events:
                 empty: "No new event scheduled."
-                
+            
+            # -------------------
+            # Location    
+            location:
+                addresscountry: "USA"
+                addresslocality: ""
+                addressregion: ""
+                postalcode: ""
+                streetaddress: ""
+                telephone: ""
+            
+            # -------------------
+            # Map
+            map:
+                enable: false
+                title: "Where to find us"
+                address: ""
+                bgimage: ""
+
             # -------------------
             # Navbar
             navbar:
@@ -361,43 +381,6 @@ languages:
                       items:
                         - name: "Contact Form"
                           url: "#contact"
-            
-            # -------------------
-            # News
-            news:
-                more: "Continue Reading"
-                by: "by"
-                sbcategorytitle: "Top Categories"
-                related: "See Also"
-            
-            # -------------------
-            # Revolution
-            revolution:
-                more: "Watch Episode"
-                episodes: "Previous episodes"
-            
-            # -------------------
-            # Subscribe to our news
-            subscribe:
-                enable: true
-                title: "Subscribe to our monthly news"
-                subtitle: "Get the best tips on presentations every month."
-                contactemail: "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
-                buttonText: "Subscribe"
-                wait: "Please Wait..."
-                success: "Thank you, stay tuned for good news!"
-                email:
-                    text: "Your Email *"
-                    warning: "Please enter your email address."
-            
-            # -------------------
-            # Testimonials
-            testimonials:
-                # All testimonials are defined in their own files. You can find testimonials 
-                # at '/data/testimonials'.
-                enable: true
-                title: "Testimonials"
-                subtitle: "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
 
 
 
@@ -415,7 +398,7 @@ languages:
             googleAnalytics: "UA-30695118-2"
             tableofcontents: "Table des matières"
             monthtrans: "mois.yaml"
-        
+            
             # -------------------
             # Buttons
             buttons:
@@ -587,7 +570,7 @@ languages:
             googleAnalytics: "UA-30695118-3"
             tableofcontents: "Tabla de contenidos"
             monthtrans: "mois.es.yaml"
-        
+            
             # -------------------
             # Buttons
             buttons:
@@ -595,7 +578,7 @@ languages:
                 next: "Más antiguo"
                 previous: "Más nuevo"
                 back: "Atrás"
-    
+            
             # -------------------
             # Contact section
             contact:

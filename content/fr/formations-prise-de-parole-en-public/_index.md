@@ -33,12 +33,11 @@ sidebar:
   - name: "Formation au Pitch"
     url: /fr/formation-pitch-pour-startups/
 
-dt-body-carousel:
-  title: "Nos formations les plus demandées"
-  data: [ "prise-de-parole-2-jours", "prise-de-parole-1-jour", "art-oratoire", "storytelling" ]
-dt-body-cta: "public-speaking-training"
-dt-bodylazy-referencesgrid: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
-dt-bodylazy-modules-aside: [ "guidepublicspeaking", "guideremotepresentations" ]
+body-carousel-title: "Nos formations les plus demandées"
+body-carousel-data: "formations"
+body-cta-data: "public-speaking-training"
+bodylazy-references-data: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
+bodylazy-modules-aside-data: [ "guidepublicspeaking", "guideremotepresentations" ]
 ---
 
 Chez Ideas on Stage, nous croyons que chaque personne peut devenir un bon orateur. Pourquoi ? Parce que nous avons aidé des milliers d’intervenants à gagner en aisance sur scène, en confiance et en force de persuasion, pour des clients travaillant dans tout type d’industrie et à tous les niveaux.

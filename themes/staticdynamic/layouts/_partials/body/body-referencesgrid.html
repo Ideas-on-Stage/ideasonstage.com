@@ -12,19 +12,12 @@
 	- dt-body-referencesgrid: [ "list", "of", "references", "data", "files" ]
 
 --> */}}
-
-{{ $grid := index .Params "dt-body-referencesgrid" }}
-{{ with $grid }}
+{{ $data := partial "f/getdatalocalized" (slice . "body-references") }}
+{{ with $data }}
 	<section id="reference-list" class="cl-referencesgrid">
 		{{ range . }}
-			{{ $data := index site.Data.references . }}
-			{{ if $data }}
-				{{ $localizeddata := partial "f/getlocalizeddata" $data }}
-				{{ if $localizeddata }}
-					{{ $srcset := partial "f/getpicturesrcset.go" $localizeddata.picture }}
-					<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with $localizeddata.client }}alt="{{ . }}"{{ end }} height="100" width="100" />
-				{{ end }}
-			{{ end }}
+			{{ $srcset := partial "f/getpicturesrcset.go" .picture }}
+			<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .client }}alt="{{ . }}"{{ end }} height="100" width="100" />
 		{{ end }}
 	</section>
 {{ else }}
