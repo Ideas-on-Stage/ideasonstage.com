@@ -3,6 +3,7 @@ draft: false
 type: events
 title: "UK Events"
 description: "Events happening in the UK"
+picture: "uk-events.jpg"
 
 body-cta-data: "uk-events"
 ---

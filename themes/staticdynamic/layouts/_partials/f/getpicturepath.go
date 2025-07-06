@@ -36,12 +36,12 @@
 	{{/* <!-- then this is a page, check for thumbnail.jpg in same directory --> */}}
 	{{ $thumbtest = add .File.Dir "thumbnail.jpg" }}
 	{{ if fileExists $thumbtest }}
-		{{/* <!-- then a file named thumbnail.jpg exists, use it --> */}}
+		{{/* <!-- if a file named thumbnail.jpg exists, use thumbnail.jpg --> */}}
 	  	{{ $picture = "thumbnail.jpg" }}
 		{{ $found = true }}
 	{{ else if .Params.picture }}
-		{{/* <!-- else if .picture exists, use the whole page object --> */}}
-		{{ $picture = . }}
+		{{/* <!-- if .picture exists, use the picture property --> */}}
+		{{ $picture = .Params.picture }}
 		{{ $found = true }}
 	{{ end }}
 {{ else if (isset . "picture") }}
@@ -49,7 +49,7 @@
 	{{ $picture = .picture }}
 	{{ $found = true }}
 {{ else if (isset . "img") }}
-	{{/* <!-- else it can be a data or shortcode file, use .picture property --> */}}
+	{{/* <!-- else it can be a data or shortcode file, use .img property --> */}}
 	{{ $picture = .img }}
 	{{ $found = true }}
 {{ else if (isset . "src") }}
@@ -69,7 +69,7 @@
 			{{/* <!-- if starts with / then .picture contains rel path to img --> */}}
 			{{ $imgpath = $picture }}
 		{{ else if eq "http" $firstfour }}
-			{{/* <!-- if starts with / then .picture contains abs path to img --> */}}
+			{{/* <!-- if starts with http then .picture contains abs path to img --> */}}
 			{{ $imgpath = $picture }}
 		{{ else }}
 			{{/* <!-- else .picture contains name of img, add path --> */}}
