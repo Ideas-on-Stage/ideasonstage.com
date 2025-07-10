@@ -1,6 +1,6 @@
 ---
 title: "Agencia internacional – Entrenamiento para hablar en público"
-headtitle: "Agencia internacional – Entrenamiento hablar en público | España"
+headtitle: "Ideas on Stage España | Entrenamiento hablar en público - Agencia internacional"
 description: "Especialista europeo en formación y coaching para hablar en público y oratoria, y preparación de presentaciones efectivas e impactantes"
 outputs: ["html","rss","json"]
 schema: "Website"

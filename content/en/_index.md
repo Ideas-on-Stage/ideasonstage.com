@@ -1,6 +1,6 @@
 ---
 title: "Public Speaking Coaching and Training - International Communication Agency"
-headtitle: "Public Speaking Coaching and Training - International Agency | USA"
+headtitle: "Ideas on Stage USA | Public Speaking Coaching and Training - International Agency"
 description: "International agency specialized in Public Speaking Coaching and Training and Presentation Creation. We cover North America and Europe."
 outputs: ["html","rss","json"]
 schema: "Website"

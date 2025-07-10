@@ -2,7 +2,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" property="og:author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
-<meta name="title" property="og:title" content="{{ .Title }}">
+{{ if .Params.headtitle }}
+<meta name="title" property="og:title" content="{{ .Params.headtitle }}">
+{{ else }}
+	<meta name="title" property="og:title" content="{{ .Title }}">
+{{ end }}
 <meta name ="url" property="og:url" content ="{{ .Permalink }}">
 {{ if .Params.picture }}
 	<meta name ="image" property="og:image" content="{{ partial "f/getpicturepath.go" . }}">

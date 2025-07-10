@@ -1,6 +1,6 @@
 ---
 title: "Formation et coaching en prise de parole - Agence de communication internationale"
-headtitle: "Formation coaching en prise de parole - Agence internationale | France"
+headtitle: "Ideas on Stage France | Formation coaching en prise de parole - Agence internationale"
 description: "Agence internationale spécialisée formation et coaching en prise de parole en public et création de présentations. Nous sommes présents aux États-Unis et en Europe."
 outputs: ["html","rss","json"]
 schema: "Website"

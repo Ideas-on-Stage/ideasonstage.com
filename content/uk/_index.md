@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "International Communication Agency - Public Speaking Training and Coaching"
-headtitle: "International Agency - Public Speaking Training and Coaching | UK"
+headtitle: "Ideas on Stage UK | Public Speaking Training and Coaching - International Agency"
 description: "International agency specialized in Public Speaking Coaching and Training and Presentation Creation - United Kingdom"
 outputs: [ "html" ]
 picture: "/img/ideas-on-stage.svg"
