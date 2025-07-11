@@ -84,6 +84,6 @@ If you couldn’t join us live, you can watch the full recording below. And keep
   <ul class="ul1">
     <li class="li3"><span class="s5">Read&nbsp;<a href="https://www.ideasonstage.com/admin/"><span class="s6">Confident Presenter</span></a>&nbsp;and&nbsp;<a href="https://www.ideasonstage.com/admin/"><span class="s6">Business Presentation Revolution</span></a></span></li>
     <li class="li1">To make the most of the book, take the&nbsp;<a href="https://www.ideasonstage.com/admin/"><span class="s1">Confident Presenter Scorecard</span></a>&nbsp;to assess your presentation skills in less than 3 minutes</li>
-    <li class="li1">Attend our free,&nbsp;<a href="https://www.ideasonstage.com/admin/"><span class="s1">live masterclass</span></a>&nbsp;on all things presentation skills</li>
+    <li class="li1">Attend our free,&nbsp;<a href="https://www.ideasonstage.com/uk/events/"><span class="s1">live masterclass</span></a>&nbsp;on all things presentation skills</li>
   </ul>
 </div>
