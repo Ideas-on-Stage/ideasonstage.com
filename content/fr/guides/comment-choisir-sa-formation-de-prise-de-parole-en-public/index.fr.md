@@ -3,12 +3,15 @@ draft: false
 date: "2023-03-29"
 title: "8 critères pour choisir sa formation de prise de parole en public"
 description: "Un guide pour vous aider à choisir la bonne formation de prise de parole en public pour votre entreprise, avec une fiche d'évaluation gratuite."
-summary: "Vous trouverez une liste de tous les critères d'évaluation pour bien choisir une formation de prise de parole en public pour votre entreprise : certification, compétences, méthode, équipe, pédagogie. En prime, vous trouverez une fiche d'évaluation gratuite avec tous les critères."
 url: "/fr/comment-choisir-sa-formation-de-prise-de-parole-en-public/"
-picture: "public-speaking-training.jpg"
 weight: 20
 
-# blocks data
+# custom
+picture: "public-speaking-training.jpg"
+showtoc: true
+summary: "Vous trouverez une liste de tous les critères d'évaluation pour bien choisir une formation de prise de parole en public pour votre entreprise : certification, compétences, méthode, équipe, pédagogie. En prime, vous trouverez une fiche d'évaluation gratuite avec tous les critères."
+
+# data
 bodylazy-modules-aside-data: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 

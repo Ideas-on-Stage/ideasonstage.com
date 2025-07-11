@@ -1,16 +1,18 @@
 ---
 draft: false
 title: "Le guide ultime de la prise de parole en public"
-categories: [ "Prise de parole en public" ]
 description: "Techniques d'art oratoire, gestion du stress, résolution des problèmes fréquents : comment prendre la parole en public avec aisance."
-url: "/fr/guide-ultime-prise-de-parole-en-public/"
 translationKey: "guides/ultimate-public-speaking-guide"
-picture: "prise-de-parole-en-public.fr.jpg"
-enablehero: true
-summary: "Ce guide vous donnera tous les conseils nécessaires pour réussir votre prise de parole en public, que ce soit lors d’une réunion ou face à un auditoire de plusieurs milliers de personnes. S’exprimer face à d’autres personnes est un exercice stressant pour la plupart d’entre nous. Comment se comporter ? Quelles sont les erreurs à ne pas commettre ? Grâce à ce guide écrit par les meilleurs professionnels de la communication interpersonnelle, vous pourrez apprendre les techniques nécessaires à une communication orale efficace et à gérer votre stress."
+url: "/fr/guide-ultime-prise-de-parole-en-public/"
 weight: 10
 
-# blocks data
+# custom
+categories: [ "Prise de parole en public" ]
+picture: "prise-de-parole-en-public.fr.jpg"
+showtoc: true
+summary: "Ce guide vous donnera tous les conseils nécessaires pour réussir votre prise de parole en public, que ce soit lors d’une réunion ou face à un auditoire de plusieurs milliers de personnes. S’exprimer face à d’autres personnes est un exercice stressant pour la plupart d’entre nous. Comment se comporter ? Quelles sont les erreurs à ne pas commettre ? Grâce à ce guide écrit par les meilleurs professionnels de la communication interpersonnelle, vous pourrez apprendre les techniques nécessaires à une communication orale efficace et à gérer votre stress."
+
+# data
 bodylazy-modules-aside-data: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 

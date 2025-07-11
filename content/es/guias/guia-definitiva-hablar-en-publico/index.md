@@ -4,6 +4,7 @@ description: "Técnicas de oratoria, gestión del estrés, resolución de proble
 categories: [ "Hablar en Público" ]
 url: "/es/guia-definitiva-hablar-en-publico/"
 picture: "hablar-en-publico.jpg"
+showtoc: true
 summary: "Esta guía te ofrece los consejos necesarios para hablar en público con éxito, ya sea en una reunión o frente a un público de miles de personas. Hablar en público es un ejercicio estresante para la mayoría de personas. ¿Cómo actuar? ¿Cuáles son los errores que debes evitar? Con esta guía, escrita por profesionaes en comunicación interpersonal, podrás aprender las técnicas necesarias para conseguir una comunicación oral efectiva, y controlar el estrés."
 translationKey: "guides/ultimate-public-speaking-guide"
 

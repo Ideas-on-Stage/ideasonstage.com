@@ -6,6 +6,7 @@ categories: [ "TEDx Events" ]
 url: "/tedx-speaker-guide/"
 translationKey: "guides/tedx-speaker-guide"
 picture: "tedx-speaker.jpg"
+showtoc: true
 summary: "Congratulations, you’ve just been contacted to be a speaker at a TED or TEDx talk! Or it could be that you have the ambition to organize one yourself. If it’s either of those, this guide was made for you."
 ---
 

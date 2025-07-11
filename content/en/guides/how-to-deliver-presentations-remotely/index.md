@@ -5,6 +5,7 @@ description: "A complete guide on how to deliver great presentations remotely us
 url: "/how-to-deliver-presentations-remotely/"
 translationKey: "guides/how-to-deliver-presentations-remotely"
 picture: "remote-presentations.jpg"
+showtoc: true
 summary: "What you need to deliver great presentations remotely: gear, software, setup, animation. We wrote this guide based on ten years of experience delivering professional remote presentations to clients. Note: we don’t earn any money on the software or hardware we recommend in this article. We recommend them based on our experience, but there are many other solutions that might work well."
 
 bodylazy-modules-aside-data: [ revolution, team ]
