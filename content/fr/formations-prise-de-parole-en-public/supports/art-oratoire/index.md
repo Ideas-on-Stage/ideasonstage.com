@@ -1,12 +1,13 @@
 ---
-title: "Support de la formation Art Oratoire"
+title: Support de la formation Art Oratoire
 showtoc: true
 ni: true
 fl: true
-button: "Accéder au support"
+button: Accéder au support
+hugopublishpath: /Users/pmorsa/Sites/Hugo/ideasonstage.com/content/fr/formations-prise-de-parole-en-public/supports/art-oratoire/index.md
 ---
 
-## Introduction
+## 1 Introduction
 
 Ce module est dédié à l’art oratoire. Il comprend une courte introduction au storytelling et aux visuels, afin que les participants aient une vue d’ensemble des ingrédients d’une bonne présentation. Pendant la journée, les participants mettront en pratique les techniques apprises sur base d’une présentation de leur choix.
 
@@ -36,37 +37,49 @@ Ce module est dédié à l’art oratoire. Il comprend une courte introduction a
 - Il n’est pas nécessaire d’avoir un ordinateur.
 
 
-### Les trois piliers d’une bonne présentation
+### 1.1 Les trois piliers d’une bonne présentation
+Une présentation réussie est une présentation qui atteint notre objectif de transformation. L'objectif de transformation est le changement que nous voulons voir se produire dans notre audience.
 
-{{% shortcode-include "/static/training/trois-piliers.md" %}}
+Pour que ce changement se produise, nous avons besoin de nous appuyer sur un **message** clair et persuasif. Sa communication s'appuie sur trois piliers :
+
+- **l'histoire**
+- **les visuels**
+- **l'orateur**
+
+![Three Circles](trois-cercles.svg)
+
+L'histoire communique notre message de manière claire et convaincante. Les visuels sont optionnels et servent à clarifier et renforcer l'histoire. L'orateur porte et incarne le message.
 
 
-### À propos d’Ideas on Stage
+### 1.2 À propos d’Ideas on Stage
+Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.
 
-{{% shortcode-include "/static/training/a-propos-d-ideas-on-stage.md" %}}
+Nous avons créé Ideas on Stage en 2010, convaincus que l’art de présenter est un avantage compétitif essentiel. Nous avons proposé un mélange révolutionnaire de storytelling, de design visuel et de coaching à la prise de parole. Notre intuition était correcte : nos clients ont pris conscience de la valeur des présentations à fort impact, sont devenus fidèles et nous ont recommandés à leurs amis.
+
+Aujourd’hui, les experts en communication d’Ideas on Stage vous proposent un éventail complet de services en présentation dans le monde en anglais, français, espagnol, italien et allemand.
 
 
-### À propos de vous
+### 1.3 À propos de vous
 
 > Je prends une minute pour me présenter.
 
 
-### Agenda et objectifs
+### 1.4 Agenda et objectifs
 
 Présenter l’agenda et les objectifs de la journée.
 
 
-### Vos attentes
+### 1.5 Vos attentes
 
 > Quelles sont vos attentes pour cette formation ? Y a-t-il des points spécifiques que vous voulez aborder ?
 
 
-## Message
+## 2 Message
 
 {{% shortcode-include "/static/training/message.fr.md" %}}
 
 
-## Art oratoire
+## 3 Art oratoire
 
 Maintenant que nous avons couvert les bases du storytelling, nous pouvons travailler sur notre prise de parole. Les techniques de prise de parole peuvent être classées en deux grandes catégories :
 
@@ -74,14 +87,14 @@ Maintenant que nous avons couvert les bases du storytelling, nous pouvons travai
 - Compétences de parole : vitesse, diction, rythme, ton, etc.
 
 
-### Vrai ou faux : démasquer les mythes
+### 3.1 Vrai ou faux : démasquer les mythes
 
 Il y a beaucoup de mythes autour de la prise de parole et de l’art oratoire. Voici quelques affirmations. Sont-elles vraies ou fausses ?
 
 - Q : Nous avons plus peur de prendre la parole en public que de la mort.
   <br>R : Faux. Cela peut faire peur, mais soyons réalistes, pas autant que la mort. Cependant, le ressenti peut être similaire.
 - Q : Les Américains sont des présentateurs nés.
-  <br>R : Faux. Ils n’ont pas de gènes spéciaux. Peut-être qu’ils en ont, mais pas pour la prise de parole.
+  <br>R : Faux. Ils n’ont pas de gènes spéciaux pour mieux présenter.
 - Q : Il y a des différences selon les pays.
   <br>R : Vrai. Mais elles sont plus superficielles que ce que l’on pense.
 - Q : 90 % de ce que nous disons est communiqué à travers le langage corporel.
@@ -94,13 +107,13 @@ Il y a beaucoup de mythes autour de la prise de parole et de l’art oratoire. V
   <br>R : Pas nécessairement. Cela peut être utile, mais les présentations en entreprise sont bien différentes du métier de comédien. Il vous suffit de voir à quel point de nombreux acteurs sont mauvais lors de leurs prises de parole lors de cérémonies.
 
 
-### Ancrer son corps
+### 3.2 Ancrer son corps
 
 L’ancrage corporel repose sur le travail de la posture. Un bon ancrage offre plus de stabilité et projette une meilleure confiance en soi.
 
 Les trois éléments essentiels de l’ancrage sont : posture, respiration et contact visuel.
 
-#### Posture de base
+#### 3.2.1 Posture de base
 
 Une bonne posture projette une image de confiance et de présence sur scène. Elle facilite également le flux d’air entre nos poumons et notre bouche. Nous allons voir la posture théorique « idéale ». Cette posture de base est assez contraignante, mais nous verrons qu’en réalité nous avons plus de liberté.
 
@@ -120,7 +133,7 @@ Quoi que nous fassions, la posture doit nous sembler naturelle et non forcée.
 > Exercice : tout le monde se lève et pratique la posture de base.
 
 
-#### Respiration
+#### 3.2.2 Respiration
 
 Une respiration calme, profonde, nous aidera à rester détendus et naturels sur scène. Il y a deux types de respirations :
 
@@ -140,7 +153,7 @@ Une fois ce premier exercice fait, prenons le temps de prendre conscience de la 
 Lors d’une présentation, personne n’a le temps de penser à sa respiration. Pour les personnes qui risquent d’avoir une respiration trop courte ou trop rapide, nous conseillons de pratiquer la respiration discrètement avant la présentation en tant qu’échauffement. Heureusement, nous verrons plus loin qu’il existe d’autres moyens pour se détendre et se préparer à monter sur scène.
 
 
-#### L’arme secrète : le contact visuel
+#### 3.2.3 L’arme secrète : le contact visuel
 
 Nous avons vu la posture, la respiration et la voix. Il y a un élément qui lie tous ces éléments ensemble : le contact visuel. Avec le contact visuel, nous pouvons :
 
@@ -169,12 +182,12 @@ Si nous continuons à avoir des mouvements parasites lorsque nous établissons u
 > Exercice : Utilisez le contact visuel pour adresser une partie de votre message.
 
 
-### Convaincre avec le langage verbal
+### 3.3 Convaincre avec le langage verbal
 
 Nous venons de voir les bases : posture, respiration, voir et contact visuel. Nous sommes maintenant prêts à travailler sur la prise de parole.
 
 
-#### Voix
+#### 3.3.1 Voix
 
 Le son que nous émettons, notre tessiture vocale, est en partie dicté par nos gènes (notre ADN, par exemple la taille de nos cordes vocales) et en partie dicté par notre cerveau (nous avons la capacité de parler fort, mais nous avons peut-être développé l’habitude de parler avec une voix faible et douce, et cela est gravé dans notre cerveau). Nous pouvons nous entraîner à accroître notre registre vocal. Cependant, cela prend beaucoup de temps, parfois des années et des milliers d’heures pour les bons chanteurs. Nous avons pris conscience que les présentateurs en entreprise n’ont pas le temps de réellement travailler sur leur registre vocal. La vérité est que ce travail n’a pas autant d’importance qu’il n’y paraît au premier abord. Ce qui est important, c’est de parler suffisamment fort, clairement, et surtout avec « authenticité ».
 
@@ -197,7 +210,7 @@ Ce travail de la voix se fait normalement sur le long terme. Les chanteurs profe
 Chacun se focalise sur « sa » voix, celle qui permet à chacun d'exprimer au mieux son registre naturel ; en prise de parole, c'est cette voix qui est la plus efficace.
 
 
-#### Vitesse
+#### 3.3.2 Vitesse
 
 À partir de quelle vitesse parle-t-on trop vite ? Cela dépend, mais au-dessus de 170 mots par minute, il devient difficile de tout suivre. Idéalement, nous ne devrions pas parler plus rapidement que 150 mots par minute.
 
@@ -210,7 +223,7 @@ Puisque notre vitesse maximum est autour de 150 mots par minute, nous pouvons u
 > Exercice : prenez la parole en binômes, et veillez à ne pas parler trop vite.
 
 
-#### Ton
+#### 3.3.3 Ton
 
 Nous sommes tous différents. Nous avons tous un timbre de voix naturel qu’il est impossible de changer fondamentalement ; la meilleure chose que nous pouvons faire est de développer une voix naturelle qui soit clairement audible. Mais nous devons éviter de tomber dans les travers suivants :
 
@@ -223,24 +236,24 @@ Si vous êtes une personne joyeuse, utilisez cela à votre avantage. Si vous êt
 > Exercice : pratiquez l’exercice de tonalité. Sur base du travail de résonance effectué plus tôt, trouvez un timbre de voix qui soit « naturel » et « sans effort » pour vous. Utilisez la résonance naturelle de votre corps plutôt que de forcer.
 
 
-#### Le pouvoir de la pause
+#### 3.3.4 Le pouvoir de la pause
 
 Ajouter des pauses aux moments stratégiques peut grandement augmenter l’impact de nos mots. Apprenez à insérer des pauses aux bons endroits. La pause a plusieurs effets : elle montre que ce qui vient d’être dit est important. Elle laisse le temps à l’auditoire d’absorber vos mots. Et elle attire l’attention.
 
 > Exercice : utilisez une pause pour augmenter l’effet dramatique de vos mots.
 
 
-### Langage corporel
+### 3.4 Langage corporel
 
 Outre la posture, le langage corporel est constitué des gestes et des mouvements que nous allons faire, même s'ils sont parfois imperceptibles.
 
 
-#### Gestes
+#### 3.4.1 Gestes
 
 Les bons gestes mettent en valeur nos mots et sont cohérents avec l’intention de notre discours. Tout comme les mouvements, il ne faut pas les surinterpréter ni trop y penser lorsque nous sommes sur scène. Les gestes naturels sont les meilleurs. Nous devrions simplement nous entraîner à éviter les gestes inappropriés.
 
 
-#### Exemples de gestes inappropriés
+#### 3.4.2 Exemples de gestes inappropriés
 
 Les gestes inappropriés doivent être évités, en partie parce qu’ils peuvent trahir le stress, l’anxiété et l’insécurité, mais surtout parce qu’ils sont socialement inappropriés. Par exemple, saviez-vous que croiser vos bras n’est pas nécessairement un signe de blocage de la communication ? C’est en réalité un geste de confort : nous croisons les bras parce que c’est confortable. Beaucoup de personnes croisent les bras parce que cela leur permet de **mieux** écouter ! Cependant, nous ne devons pas le faire, car la *perception culturelle* de ce geste est négative.
 
@@ -258,7 +271,7 @@ Voici quelques exemples de gestes à éviter :
 Il est particulièrement important d’éviter les gestes avec les doigts lors de conférences multiculturelles. Il y a une image de George W. Bush (le père, pas le fils) qui fait le signe V de la victoire aux Australiens. Malheureusement, sa main est dans le mauvais sens, et ce geste ne signifie pas du tout la victoire en Australie… Nous ne connaîtrons jamais la signification locale de tous les gestes, aussi li vaut mieux les éviter.
 
 
-#### Comment utiliser les gestes
+#### 3.4.3 Comment utiliser les gestes
 
 D’après Jerry Weissman, un coach américain en prise de parole avec le plus d’expérience, l’importance des gestes est surestimée, et nous partageons le même point de vue. Les gestes naturels sont les meilleurs, tant que nous évitons les gestes listés ci-dessus.
 
@@ -283,26 +296,26 @@ Nous pouvons utiliser des gestes spécifiques pour renforcer certains de nos mot
 Ces gestes spécifiques peuvent être utilisés de manière spontanée ou planifiés lors de la préparation jusqu’à ce qu’ils deviennent automatiques.
 
 
-#### Utiliser les gestes en miroir
+#### 3.4.4 Utiliser les gestes en miroir
 
 C’est une technique avancée. Lorsque vous faites des gestes, pour tout semble inversé pour votre auditoire. Cela n’a pas d’importance pour les gestes symétriques, mais si vous faites un mouvement de votre gauche à votre droite pour illustrer le passage du temps, votre auditoire aura l’impression que vous faites ce mouvement à l’envers. Nous devons inverser le sens de tous nous mouvements ; dans cet exemple, nous devons bouger nos mains de la droite vers la gauche.
 
 > Exercice : en binôme. Une personne pratique la gestuelle, en commençant les bras le long du corps. Elle effectue les gestes en miroir pour illustrer une ligne du temps, l’autre personne observe. Ensuite les rôles sont inversés.
 
 
-#### Mouvements
+#### 3.4.5 Mouvements
 
 Avoir une bonne posture ne signifie pas que nous devions rester tout le temps sur place sans bouger. Nous pouvons nous déplacer, mais nos mouvements doivent avoir **du sens** par rapport à notre discours. Nous devons cependant éviter les mouvements inutiles ou parasites.
 
 
-#### Donner du sens à ses mouvements
+#### 3.4.6 Donner du sens à ses mouvements
 
 Nous ne devons pas passer beaucoup de temps à penser à comment nous nous déplaçons pendant notre présentation ; ce n’est pas la priorité. Mais nous pouvons nous entraîner à nous déplacer avec du sens.
 
 Par exemple, nous pouvons nous déplacer sur la gauche lorsque nous voulons nous adresser aux personnes sur la gauche de l’auditoire. Ensuite nous reculons pour nous approcher de l’écran pour montrer quelque chose sur une diapositive. Puis nous pouvons avancer pour nous rapprocher de l’auditoire pour créer une sensation de proximité.
 
 
-#### Éviter les mouvements parasites
+#### 3.4.7 Éviter les mouvements parasites
 
 Des exemples de mouvements parasites sont :
 
@@ -316,14 +329,14 @@ La bonne nouvelle, c’est que si nous utilisons correctement le contact visuel,
 
 
 
-### Langage émotionnel
+### 3.5 Langage émotionnel
 
 Nous appelons « langage émotionnel » les réactions instinctives que nous avons lors d’une présentation. Nos réactions peuvent être positives (lorsque nous avons un retour qui nous semble positif de la part de l’audience), mais elles peuvent également être négatives, lorsqu’on ressent une situation de conflit, de l’agressivité ou de la négativité.
 
 Tout comme lorsque les sportifs de haut niveau, nous sommes moins performants lorsque nous laissons notre instinct décider de notre langage émotionnel. Par exemple, accepter de réagir instinctivement avec colère contre une attaque verbale peut causer une réaction en chaîne incontrôlable. Un bon orateur va donc apprendre à maîtriser son langage émotionnel pour en faire un outil qu'il utilisera en fonction de l'effet qu'il souhaite créer.
 
 
-#### Rester naturel : découvrir son style
+#### 3.5.1 Rester naturel : découvrir son style
 
 Nous sommes tous différents. C’est vrai pour la prise de parole en public. Certains peuvent raconter des blagues, d’autres ne doivent même pas y penser. Certains d’entre nous sont calmes, d’autres sont animés. Cela n’a pas d’importance. Si nous restons authentiques, que nous ne trahissons pas qui nous sommes, nous pouvons tous être de bons présentateurs, chacun avec notre propre style.
 
@@ -332,7 +345,7 @@ Si vous êtes extraverti, utilisez votre capacité à établir une connexion. Si
 > Exercice : prenez le temps de réfléchir à ce qui fonctionne pour vous et ce qui ne fonctionne pas. Prenez le temps de définir votre style.
 
 
-#### Faire face à une audience négative
+#### 3.5.2 Faire face à une audience négative
 
 Il existe de nombreuses raisons pour lesquelles une personne ou une audience peut avoir une attitude négative :
 
@@ -384,7 +397,7 @@ Dans tous les cas, n’ayez pas l’objectif final en tête (par exemple « nou
 > Préparer une liste de questions difficiles, les poser à l'orateur qui va s'entraîner à jouer avec les questions.
 
 
-#### Stress : comment vaincre la peur
+#### 3.5.3 Stress : comment vaincre la peur
 
 La peur de la prise de parole en public vient d’une réponse physiologique instinctive : la perception du danger. Nos sens déclenchent les signaux d’alerte, et notre cerveau perçoit les mêmes signaux que si nous allions être mangés par un prédateur : il appuie sur le bouton « panique » et notre stress explose. Tout le monde ressent du stress lors d’une présentation en public, mais certains d’entre nous savent comment le gérer. Nous allons voir maintenant comment gérer ce stress.
 
@@ -409,18 +422,18 @@ Cela nous donne la solution pour gérer notre stress : nous devons apprendre no
 Nous ne pouvons pas nous débarrasser du vertige en allant grimper l’Everest, parce que nous nous arrêterons à la première difficulté. Si notre peur de la prise de parole est particulièrement forte, nous recommandons de s’entraîner progressivement et régulièrement. Au fil du temps, vous allez acquérir la confiance nécessaire et trouver les mécanismes pour gérer votre peur de la prise de parole en public.
 
 
-### Bien répéter pour éviter le « creux des répétitions »
+### 3.6 Bien répéter pour éviter le « creux des répétitions »
 
 Certaines personnes nous disent que le fait de répéter leur font perdre leur naturel. C’est vrai uniquement si nous ne répétons pas *suffisamment*, à cause du « creux des répétitions ».
 
 Si nous réalisons une présentation sans préparation, cela sera OK, mais pas excellent. Lorsque nous commençons à répéter, nous demandons à notre cerveau de faire deux choses à la fois : apprendre notre présentation et avoir l’air naturel. Ce n’est pas possible. Ce n’est qu’une fois que nous avons répété suffisamment et que notre histoire devient parfaitement intégrée dans notre cerveau au point de ne plus avoir à y penser que nous pouvons nous améliorer.
 
-![Creux des répétitions](creux-des-repetitions.svg)
+![../_elements/creux-des-repetitions.svg](../_elements/creux-des-repetitions.svg)
 
 Lors de toutes nos années de coaching, nous n’avons jamais vu un intervenant devenir moins bon parce qu’il s’était préparé. Nous avons par contre vu beaucoup d’intervenants échouer parce qu’ils ne s’étaient pas préparés suffisamment (ou, malheureusement, pas du tout).
 
 
-### Quelques conseils supplémentaires
+### 3.7 Quelques conseils supplémentaires
 
 Dans cette section, nous avons regroupé plusieurs conseils sur base notre expérience :
 
@@ -433,29 +446,36 @@ Dans cette section, nous avons regroupé plusieurs conseils sur base notre expé
 - Éviter si possible les fiches et les téléprompteurs. Utiliser des diapositives à la place, pour se souvenir de la structure de la présentation.
 
 
-## Notre présentation finale
+## 4 Notre présentation finale
 
 Nous sommes maintenant prêts à donner une présentation de cinq minutes maximum en utilisant les techniques de prise de parole vues pendant la journée. 
 
 > Exercice : créez une présentation de cinq minutes en utilisant les techniques de storytelling vues aujourd’hui, et donnez-la en utilisant les techniques de prise de parole.
 
 
-## Conclusion
+## 5 Conclusion
 
 Cela conclut notre formation sur la prise de parole, mais ce n’est que le début du voyage. Certaines personnes disent qu’il faut 10 000 heures pour maîtriser une compétence. Bien que le nombre d’heures exact soit discutable, devenir un bon orateur demande de la pratique régulière. Saviez-vous que certains des meilleurs orateurs TEDx prennent jusqu’à 40 heures de préparation pour une présentation de 15 minutes ? Sans entraînement, ce que vous avez appris aujourd’hui sera oublié dans un mois.
 
 
-### Ressources supplémentaires
+### 5.1 Ressources supplémentaires
 
-{{% shortcode-include "/static/training/ressources-complementaires.md" %}}
+Voici une liste de ressources pour compléter votre formation :
+
+- [Web : le guide ultime de la prise de parole](https://www.ideasonstage.com/ultimate-public-speaking-guide/)
+- [Web : le guide ultime du TEDx Speaker](https://www.ideasonstage.com/tedx-speaker-guide/)
+- [Web : Présentation Zen, le blog de Garr Reynolds](https://www.presentationzen.com)
+- [Livre : Ces idées qui collent, Dan et Chip Heath](https://www.amazon.com/Made-Stick-Ideas-Survive-Others/dp/1400064287/ref=sr_1_1?crid=QLFKSSGZD3D1&keywords=made+to+stick&qid=1672826815&sprefix=made+to+stick%2Caps%2C159&sr=8-1)
+- [Livre: Jerry Weissman's Presenting to Win, anglais](https://www.amazon.fr/Presenting-Win-Telling-Updated-Expanded/dp/0137144172?__mk_fr_FR=ÅMÅŽÕÑ&crid=1COI010TLR193&keywords=jerry+weissman&qid=1678119781&sprefix=jerry+weissman%2Caps%2C90&sr=8-3)
+- [Livre : Business Presentation Revolution Book, Phil Waknell](https://www.amazon.com/Business-Presentation-Revolution-Inspire-Action/dp/1781336091/ref=sr_1_1?crid=32Z7VQISN3G25&keywords=business+presentation+revolution&qid=1672817543&sprefix=business+presentation+revolution%2Caps%2C135&sr=8-1)
 
 
-### Récapitulatif
+### 5.2 Récapitulatif
 
 > Discussion : partagez ce que vous avez appris aujourd’hui avec le groupe, et comment vous pouvez continuer à vous entraîner à la prise de parole.
 
 
-## Révisions
+## 6 Révisions
 
 - 2024-04-18 Amélioration de la partie sur le langage émotionnel
 - 2024-04-04 Adaptation à la mise en ligne et corrections de coquilles

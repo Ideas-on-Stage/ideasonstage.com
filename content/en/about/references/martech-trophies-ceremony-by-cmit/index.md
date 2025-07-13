@@ -5,6 +5,7 @@ description: "Discover how startups were prepared before the MarTech Trophies Ce
 categories: [ "Public Speaking", "Events", "Startups", "Pitch" ]
 translationKey: "client-success-stories/martech-trophies-ceremony-by-cmit"
 picture: "cmit_story.jpg"
+type: references
 ---
 
 The 4th edition of the Martech Startup Trophies Ceremony is a competition organized by the “Club des Marketeurs de la Tech” (CMIT) (Tech Marketers’ Club). Since 2016, CMIT puts innovative B2B marketing startups in the spotlight and honors new talents. Each year, the winners are promoted on their website and their media partners. The objective is to give more visibility to the newcomers and highlight their services to their potential marketing clients. This year, three startups were selected: Kiliba, Omnilive and Sensego.

@@ -1,0 +1,10 @@
+{{/* <!--
+	shortcode-toc.html
+	
+	Insert the Table of Contents in the page.
+--> */}}
+{{ "<!-- shortcode-toc.html:start -->" | safeHTML }}
+<div class="toc">
+  {{ .Page.TableOfContents }}
+</div>
+{{ "<!-- shortcode-toc.html:end -->" | safeHTML }}
