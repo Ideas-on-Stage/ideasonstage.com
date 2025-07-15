@@ -47,12 +47,15 @@
 		{{/* <!-- and if specific blocks matching page .Kind are defined in /data/layouts.yaml --> */}}
 		{{ if (isset $type $page.Kind) }}
 			{{ $kind := index $type $page.Kind }}
-			{{/* <!-- 2024-09-02 added test to check if $part is set in layout.yaml --> */}}
+			{{/* <!-- 2024-09-02 ADD test to check if $part is set in layout.yaml --> */}}
 			{{/* <!-- and if specific blocks matching "part" (head or body) are defined in /data/layouts.yaml --> */}}
 			{{ if (isset $kind $part) }}
 				{{/* <!-- then use specific blocks defined in /data/layouts.yaml --> */}}
 				{{ $result = index (index $type $page.Kind) $part }}
-			{{ end }}
+		{{ end }}
+		{{/* <!-- 2025-07-13 ADD else use default blocks --> */}}
+		{{ else }}
+			{{ $result = index (index (index site.Data.layouts "_default") $page.Kind) $part }}
 		{{ end }}
 	{{ end }}
 	

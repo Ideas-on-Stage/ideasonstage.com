@@ -25,8 +25,8 @@
 
 --> */}}
 
-{{ "<!-- _default/baseof.html:start -->" | safeHTML }}
-{{ (printf "<!-- page.Type %s - page.Kind %s -->" .Type .Kind) | safeHTML }}
+{{ "<!-- all.html:start -->" | safeHTML }}
+{{ (printf "<!-- page.Type '%s' - page.Kind '%s' - page.Language '%s' -->" .Type .Kind .Language) | safeHTML }}
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">	
 
@@ -39,4 +39,4 @@
 	</body>
 
 </html>
-{{ "<!-- _default/baseof.html:end -->" | safeHTML }}
+{{ "<!-- all.html:end -->" | safeHTML }}
