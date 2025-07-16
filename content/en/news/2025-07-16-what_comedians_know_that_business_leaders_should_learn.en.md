@@ -7,15 +7,13 @@ date = "2025-07-16"
 author = "Andrea Pacini"
 banner = "/img/news/bethandandrea.jpg"
 +++
-
-
 ![Andrea and Beth](/img/news/bethandandrea.jpg "Andrea and Beth")
-
-
 
 *Discover how humour can transform your business communication. In this episode of the Ideas on Stage Podcast, Beth Sherman – Emmy-winning comedy writer and speaker – shares practical strategies to connect with audiences, build trust and add just the right dose of humour to any message.*
 
 In [this episode of the *Ideas on Stage Podcast*](https://youtu.be/7R5RLR_DJB4), Emmy Award-winning comedy writer **Beth Sherman** shares practical ways business leaders can use humour to build trust, connect with audiences and communicate more effectively.
+
+With 30 years of experience in comedy and writing credits for shows like *The Late Show with David Letterman* and *The Tonight Show* with Jay Leno, Beth now helps professionals use humour to lead, inspire and persuade.
 
 **Why Humour Works**
 
