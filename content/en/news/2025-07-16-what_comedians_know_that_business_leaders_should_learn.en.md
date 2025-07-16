@@ -9,7 +9,7 @@ banner = "/img/news/bethandandrea.jpg"
 +++
 
 
-![Andrea and Beth in Zoom ](/img/news/bethandandrea.jpg "Andrea and Beth in Zoom ")
+![Andrea and Beth](/img/news/bethandandrea.jpg "Andrea and Beth")
 
 
 
@@ -57,10 +57,9 @@ Beth hears this often. Her answer: you don’t need to be. If you’ve ever made
 
 Beth's final message: "Humour is a love language. When used with care and truth, it helps people feel seen, heard and connected."
 
-**To hear the full conversation with Beth Sherman, watch [this episode ](https://youtu.be/7R5RLR_DJB4)of the Ideas on Stage Podcast.[](https://youtu.be/d4XYElBqEVw)**
+**To hear the full conversation with Beth Sherman, watch [this episode ](https://youtu.be/7R5RLR_DJB4)of the Ideas on Stage Podcast.**[](https://youtu.be/d4XYElBqEVw)
 
 {{< shortcode-youtube 7R5RLR_DJB4 >}}  
-
 
 **Want to learn more?** 
 
