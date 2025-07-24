@@ -1,0 +1,8 @@
+{{ partial "e/sass.scss" . }}
+
+	/* container for sidebar and main content area */
+	.cl-body-mainfull {
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/textscheme.scss" . }};
+	}

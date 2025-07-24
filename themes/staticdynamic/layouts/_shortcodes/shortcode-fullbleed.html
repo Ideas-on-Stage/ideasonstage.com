@@ -1,0 +1,28 @@
+{{/* <!--
+
+--> */}}
+{{ "<!-- shortcodes-fullbleed.html:start -->" | safeHTML }}
+{{/* <!-- determine where text will be displayed (top, middle, bottom) --> */}}
+{{- $align := "middle" -}}
+{{- if .Params.align -}}
+	{{- if eq .Params.align "middle" -}}
+		{{- $align = "middle" -}}
+	{{- else if eq .Params.align "top" -}}
+		{{- $align = "top" -}}
+	{{- else if eq .Params.align "bottom" -}}
+		{{- $align = "bottom" -}}
+	{{- end -}}
+{{- end -}}
+{{/* <!-- insert the full-bleed section --> */}}
+<section class="cl-shortcode cl-shortcode-fullbleed" {{ with .Params.opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }} {{ with .Params.bgcolor }}style="background-color:{{ . }};"{{ end }}>
+	{{ partial "e/picture" .Params }}
+	<div class="cl-shortcode-fullbleed--main {{ $align }}">
+		{{- with .Params.title -}}
+			<h2>{{ . }}</h2>
+		{{- end -}}
+		{{- with .Inner -}}
+			<p>{{ . }}</p>
+		{{- end -}}
+	</div>
+</section>
+{{ "<!-- shortcode-fullbleed.html:end -->" | safeHTML }}

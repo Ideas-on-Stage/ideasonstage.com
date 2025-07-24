@@ -12,11 +12,3 @@
 		}
 		
 	}
-
-	/* spacing with other elements (that are not of class .cl-shortcode) */
-	:not(.cl-shortcode) + .cl-shortcode,
-	.cl-shortcode + :not(.cl-shortcode),
-	div.cl-shortcode-img + :not(div) {
-		/* add margin space between cl-shortcode and content that is not of class .cl-shortcode */
-		margin-top: 48px;
-	}

@@ -1,0 +1,15 @@
+{{/* <!--
+
+--> */}}
+{{ "<!-- shortcodes-fullbleed.html:start -->" | safeHTML }}
+<section class="cl-shortcode cl-shortcode-fulltext" {{ with .Params.bgcolor }}style="background-color:{{ . }};"{{ end }}>
+	<div class="cl-shortcode-fulltext--main">
+		{{- with .Params.title -}}
+			<h2>{{ . }}</h2>
+		{{- end -}}
+		{{- with .Inner -}}
+			<p>{{ . }}</p>
+		{{- end -}}
+	</div>
+</section>
+{{ "<!-- shortcode-fullbleed.html:end -->" | safeHTML }}

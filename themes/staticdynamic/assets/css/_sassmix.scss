@@ -571,6 +571,10 @@
 		}
 	}
 	
+	@mixin width-screen-full() {
+		width: 100%;
+	}
+	
 	@mixin width-onethird {
 		width: calc( 33% );
 	}

@@ -1,0 +1,21 @@
+<article id="article" class="cl-main-contentfull">
+	{{/* <!-- generate summary if page.Params.summary exists --> */}}
+	{{ with .Params.summary }}
+		<p>
+			{{ . }}
+		</p>
+	{{ end }}
+	{{/* <!-- generate table of contents if .Page.Params.showtoc is true --> */}}
+	{{ if .Params.showtoc }}
+		<h2>
+			{{ site.Params.tableofcontents }}
+		</h2>
+		{{ with .TableOfContents }}
+			{{ . }}
+		{{ end }}
+	{{ end }}
+	{{/* <!-- generate content --> */}}
+	{{ with .Content }}
+		{{ . }}
+	{{ end }}
+</article>

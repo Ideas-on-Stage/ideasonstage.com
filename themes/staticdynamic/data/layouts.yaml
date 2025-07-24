@@ -322,3 +322,26 @@ training:
             - side-training
         main:
             - main-content
+
+
+
+# page.Type "full"
+full:
+    # page.Kind "section"
+    section:
+        head:
+            - head-meta-desc-section
+            - head-title-section
+        body:
+            - body-h1hero
+            - body-mainfull
+        main:
+            - main-contenthome
+            - main-listteam
+    # page.Kind "page"
+    page:
+        body:
+            - body-breadcrumbs
+            - body-mainfull
+        main:
+            - main-contentfull

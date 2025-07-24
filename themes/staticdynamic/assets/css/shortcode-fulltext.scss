@@ -1,0 +1,25 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-fulltext {
+		@include flex-column($align-column-h: center, $align-v: space-between);
+		@include width-screen-full();
+		margin: 0;
+		overflow: hidden;
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/textscheme.scss" . }}
+		
+		h2 {
+			margin-top: 2vw;
+			margin-bottom: 0;
+		}
+		
+		p {
+			margin-bottom: 2vw;
+		}
+	}
+
+	.cl-shortcode-fulltext--main {
+		flex-grow: 1; /* take all available vertical space in parent */
+		text-align: center;
+	}

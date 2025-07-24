@@ -1,0 +1,48 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-fullbleed {
+		@include flex-column($align-column-h: center, $align-v: space-between);
+		@include height-hero();
+		@include width-screen-full();
+		margin: 0 !important;
+		padding: 0 !important;
+		overflow: hidden;
+		
+		> img {
+			@include img-back($z-index: -100);
+			left: 0px;
+		}
+		
+		h2 {
+			font-size: 4em;
+			margin: 0;
+		}
+		
+		p {
+			margin: 0;
+		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/textscheme.scss" . }}
+	}
+
+	.cl-shortcode-fullbleed--main {
+		@include width-full;
+		flex-grow: 1; /* take all available vertical space in parent */
+		padding-left: 2em;
+		padding-right: 2em;
+		--color-back: none;
+		text-align: center;
+		
+		&.middle {
+			@include flex-column($align-column-h: center, $align-v: center);
+		}
+		
+		&.top {
+			@include flex-column($align-column-h: center, $align-v: flex-start);
+		}
+		
+		&.bottom {
+			@include flex-column($align-column-h: center, $align-v: flex-end);
+		}
+	}

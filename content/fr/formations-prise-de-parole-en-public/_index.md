@@ -62,6 +62,8 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 	{{< shortcode-agenda-item description="[Vous pouvez également consulter le certificat délivré par l'organisme de certification Alticert en cliquant ici.](/files/certificat-qualiopi-alticert.pdf)" >}}
 {{< /shortcode-agenda-list >}}
 
+{{< shortcode-space-medium >}}
+
 > Nous réalisons également d'autres formations spécialisées et sur-mesure en fonction de vos besoins spécifiques. Négociation, réunions difficiles, intervention lors de conférences, posture de leadership sur scène, …
 
 ## Notre méthodologie

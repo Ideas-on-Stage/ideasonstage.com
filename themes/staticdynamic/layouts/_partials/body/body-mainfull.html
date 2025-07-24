@@ -1,0 +1,16 @@
+{{/* <!--
+	
+	body-mainwide.html
+
+	Generates the HTML for <main> content.
+	Content layout is "full" (no left and right margins)
+	This part is then populated with the blocks declared in the "main:" section in /data/layouts
+	
+	Arguments:
+	- page object
+	
+--> */}}
+
+<main id="main" class="cl-body-mainfull">
+	{{ partial "e/blocks" (slice "main") }}
+</main>
