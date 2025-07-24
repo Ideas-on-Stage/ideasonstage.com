@@ -84,7 +84,11 @@ Le module message est tellement important qu'il est inclus dans nos formations s
 
 Il est constitué de trois outils extrêmement efficaces pour identifier ce que vous devez dire dans votre présentation : l'ABC, l'Objectif de Transformation et le Parcours de Transformation de l'Audience.
 
+<<<<<<< HEAD
 ### 0.1 ABC : ce n’est pas votre présentation, c’est la leur
+=======
+### 2.1 ABC : ce n’est pas votre présentation, c’est la leur
+>>>>>>> 50237f9a1c11dda25c5a5cdface8752df1407518
 
 Lorsque nous avons une présentation à donner, la première chose à faire est d’en savoir plus sur notre audience. Qui est-elle ? Quels sont ses besoins ? Quel est le contexte dans lequel nous allons donner la présentation ? C’est pour cela que nous démarrons par l’ABC.
 
@@ -99,7 +103,11 @@ Lorsque nous avons une présentation à donner, la première chose à faire est 
 > Exercice : prenez cinq minutes pour définir votre ABC. Ensuite nous partageons et nous analysons les ABC en groupe.
 
 
+<<<<<<< HEAD
 ### 0.2 Objectif de transformation
+=======
+### 2.2 Objectif de transformation
+>>>>>>> 50237f9a1c11dda25c5a5cdface8752df1407518
 
 L’objectif de transformation est l’action que nous voulons voir notre audience faire. Pour identifier cet objectif de transformation, le plus simple est de répondre à cette question : après ma présentation, que va **faire** mon audience ?
 
@@ -125,7 +133,11 @@ Conseils :
 	- Si notre objectif est de valider le budget d’un projet, simplement expliquer la répartition des dépenses est insuffisant. Nous devons viser la validation formelle du budget par le comité de direction.
 
 
+<<<<<<< HEAD
 ### 0.3 Information + Émotion = Action
+=======
+### 2.3 Information + Émotion = Action
+>>>>>>> 50237f9a1c11dda25c5a5cdface8752df1407518
 
 Il est nécessaire d’utiliser l'information (les faits) et les émotions pour faire passer l'audience à l'action et ainsi atteindre notre objectif de transformation.
 
@@ -145,7 +157,11 @@ Par exemple, il ne sert à rien d’essayer de convaincre un « platiste » qu
 Pour notre histoire, notre objectif est d’identifier les faits et les émotions nécessaires pour créer l’action dans l’esprit de notre audience, et ainsi réaliser le changement voulu.
 
 
+<<<<<<< HEAD
 ### 0.4 Idéation : Parcours de Transformation de l'Audience
+=======
+### 2.4 Idéation : Parcours de Transformation de l'Audience
+>>>>>>> 50237f9a1c11dda25c5a5cdface8752df1407518
 
 Le parcours de transformation de l'audience ou « PTA » (ATR en anglais) est un outil créé pour nous aider à identifier les faits et les émotions sur lesquels nous devons agir dans notre présentation.
 
@@ -222,7 +238,11 @@ Après :
 > Exercice : prendre 10/20 minutes pour créer votre Parcours de Transformation de l'Audience.
 
 
+<<<<<<< HEAD
 ### 0.5 Objectif : convaincre
+=======
+### 2.5 Objectif : convaincre
+>>>>>>> 50237f9a1c11dda25c5a5cdface8752df1407518
 
 Sur base des éléments de langage que nous avons identifiés avec le Parcours de Transformation de l’Audience, nous allons construire une première histoire courte qui nous servira de base pour les exercices du reste de la journée.
 
