@@ -1,0 +1,35 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-item-card {
+		/* 
+			note: to have all items have the same height on a given row,
+			use stretch in the flex-parent definition.
+		*/
+		flex-grow: 0; /* do not grow horizontally */
+		flex-shrink: 0; /* and do not shrink horizontally */
+		border-radius: 5px;
+		margin: 0;
+		
+		/* text container containing title, description and button of item */
+		.text {
+			@include flex-column($align-v: space-between);
+			padding: 1em;
+			height: calc( 100% - 15vw ); /* full container height minus picture height */
+			border-radius: 5px 5px 0px 0px;
+			@media (max-width: $gl-sm-screen) {
+				height: calc( 100% - 40vw );
+				min-height: 45vw;
+			}
+		}
+		
+		img {
+			height: 15vw;
+			width: 100%;
+			border-radius: 0px 0px 5px 5px;
+			object-fit: cover;
+			@media (max-width: $gl-sm-screen) {
+				height: 40vw;
+			}
+		}
+		
+	}

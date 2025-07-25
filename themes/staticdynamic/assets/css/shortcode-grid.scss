@@ -1,0 +1,30 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-grid {
+		@include flex-column($gap: "none", $align-column-h: center);
+		
+		& h2 {
+			margin-bottom: 2em;
+		}
+		
+		& ul {
+			/* set width of grid to content width */
+			@include width-content();
+			/* create flex rows for grid items */
+			@include flex-row($gap: "gap", $wrap: "wrap", $align-row-v: stretch);
+			/* remove styles from ul list */
+			@include ul-list-style-none;
+			
+			> li {
+				@include width-column(3);
+				flex-grow: 0; /* do not grow horizontally */
+				flex-shrink: 0; /* and do not shrink horizontally */
+				@media (max-width: $gl-sm-screen) {
+					@include width-column(2);
+				}
+			}
+		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
+	}

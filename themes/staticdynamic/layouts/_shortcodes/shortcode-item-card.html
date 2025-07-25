@@ -1,0 +1,45 @@
+{{/* <!--
+	
+	body-carousel.html
+
+	Generates the HTML for a carousel with multiple items displayed horizontally.
+	A carousel should have at least 4 items to look "right".
+	
+	Arguments:
+	- page object with the following front matter properties:
+	  body-body-carousels-data: [ "list", "of", "body-carousel", "data", "files" ]
+	  body-carousel-title: "title of the carousel"
+
+	Example:
+	Page front matter:
+	body-carousel-title: "My super carousel"
+	body-body-carousels-data: [ "item1", "item2", "item3", "item4" ]
+	
+	/data/carousels files:
+	- item1.yaml
+	- item2.yaml
+	- item3.yaml
+	- item4.yaml
+	Each file should have an entry for the site language
+	Check the /data/body-carousel files for examples.
+	
+--> */}}
+
+<li class="cl-shortcode-item-card" {{ with .Params.bgcolor }}style="background-color: {{ . }}"{{ end }}>
+	<div class="text">
+		{{ with .Params.title }}
+			<h3>
+				{{ . }}
+			</h3>
+		{{ end }}
+		{{ with .Inner }}
+			<p>
+				{{ . }}
+			</p>
+		{{ end }}
+	</div>
+	{{ if .Params.img }}
+		{{ $srcset := partial "f/getpicturesrcset.go" .Params.img }}
+		<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .Params.name }}">
+	{{ end }}
+</li>

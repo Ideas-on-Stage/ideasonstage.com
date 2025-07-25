@@ -3,9 +3,7 @@
 	.cl-shortcode-fullbleed {
 		@include flex-column($align-column-h: center, $align-v: space-between);
 		@include height-hero();
-		@include width-screen-full();
-		margin: 0 !important;
-		padding: 0 !important;
+		@include width-full();
 		overflow: hidden;
 		
 		> img {
@@ -13,7 +11,7 @@
 			left: 0px;
 		}
 		
-		h2 {
+		h1 {
 			font-size: 4em;
 			margin: 0;
 		}

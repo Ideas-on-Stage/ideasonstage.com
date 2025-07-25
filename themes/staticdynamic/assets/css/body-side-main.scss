@@ -26,7 +26,7 @@
 		/* container for main content */
 		.main {
 			@include firstlastchildnomargin;
-			@include width-full;
+			@include width-content;
 			
 			{{ partial "e/colorscheme.scss" "body-side-main--main" }};
 			{{ partial "e/textscheme.scss" "body-side-main--main" }};

@@ -29,15 +29,15 @@
 			modules
 		*/
 		--module-height: 40; /* module height on normal screens, no unit but is inferred to be vw  */
-		--column-gap: 12px; /* module column gap on normal screens */
+		--column-gap-default: 12px; /* module column gap on normal screens */
 		--column-gap-big: 24px;
-		--row-gap: 12px; /* module row gap on normal screens */
+		--row-gap-default: 12px; /* module row gap on normal screens */
 		--row-gap-big: 24px;
 		@media (max-width: $gl-sm-screen) {
 			--module-height: 140; /* module height on small screens */
-			--column-gap: 4vw; /* module column gap on small screens */
+			--column-gap-default: 4vw; /* module column gap on small screens */
 			--column-gap-big: 4vw;
-			--row-gap: 4vw;
+			--row-gap-default: 4vw;
 			--row-gap-big: 4vw;
 			--font-base-size: var(--font-base-size-sm-screen);
 		}

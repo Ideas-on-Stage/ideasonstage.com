@@ -2,24 +2,23 @@
 
 	.cl-shortcode-fulltext {
 		@include flex-column($align-column-h: center, $align-v: space-between);
-		@include width-screen-full();
-		margin: 0;
+		@include width-full();
 		overflow: hidden;
+		padding: 4vw;
 		
 		{{ partial "e/colorscheme.scss" . }};
 		{{ partial "e/textscheme.scss" . }}
 		
 		h2 {
-			margin-top: 2vw;
 			margin-bottom: 0;
 		}
 		
 		p {
-			margin-bottom: 2vw;
+			margin-top: 0.5em;
 		}
-	}
-
-	.cl-shortcode-fulltext--main {
-		flex-grow: 1; /* take all available vertical space in parent */
-		text-align: center;
+		
+		.main {
+			flex-grow: 1; /* take all available vertical space in parent */
+			text-align: center;
+		}
 	}

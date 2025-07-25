@@ -32,6 +32,7 @@
 		flex-shrink: 0; /* and do not shrink horizontally */
 		flex-basis: 25vw; /* so that basis width is always honored */
 		border-radius: 5px;
+		margin: 0;
 		@media (max-width: $gl-sm-screen) {
 			flex-basis: 70vw;
 		}

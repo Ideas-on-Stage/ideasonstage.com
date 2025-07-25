@@ -112,17 +112,28 @@
 		align-items: $align-column-h;
 		justify-content: $align-v;
 		@if "gap" == $gap {
-			row-gap: var(--row-gap); /* ! flex columns have row gaps */
-		}
+			--column-gap: var(--column-gap-default);
+			column-gap: var(--column-gap); /* ! flex rows have column gaps */
+			--row-gap: var(--row-gap-default);
+			row-gap: var(--row-gap);
+	}
 		@else if "big" == $gap {
+			--column-gap: var(--column-gap-big);
+			column-gap: var(--column-gap);
 			--row-gap: var(--row-gap-big);
 			row-gap: var(--row-gap);
 		}
 		@else if "none" == $gap {
+			--column-gap: 0px;
+			column-gap: var(--column-gap);			
 			--row-gap: 0px;
+			row-gap: var(--row-gap);
 		}
 		@else {
-			row-gap: $gap;
+			--column-gap: calc( #{$gap} );
+			column-gap: var(--column-gap);
+			--row-gap: calc( #{$gap} );
+			row-gap: var(--row-gap);
 		}
 		
 		@if "nowrap" == $wrap {
@@ -144,18 +155,28 @@
 		align-items: $align-row-v;
 		justify-content: $align-h;
 		@if "gap" == $gap {
+			--column-gap: var(--column-gap-default);
 			column-gap: var(--column-gap); /* ! flex rows have column gaps */
-		}
+			--row-gap: var(--row-gap-default);
+			row-gap: var(--row-gap);
+	}
 		@else if "big" == $gap {
 			--column-gap: var(--column-gap-big);
 			column-gap: var(--column-gap);
+			--row-gap: var(--row-gap-big);
+			row-gap: var(--row-gap);
 		}
 		@else if "none" == $gap {
 			--column-gap: 0px;
+			column-gap: var(--column-gap);			
+			--row-gap: 0px;
+			row-gap: var(--row-gap);
 		}
 		@else {
-			--column-gap: #{$gap};
+			--column-gap: calc( #{$gap} );
 			column-gap: var(--column-gap);
+			--row-gap: calc( #{$gap} );
+			row-gap: var(--row-gap);
 		}
 		
 		@if "nowrap" == $wrap {
@@ -163,20 +184,6 @@
 		}
 		@else if "wrap" == $wrap {
 			flex-wrap: wrap;
-			@if "gap" == $gap {
-				row-gap: var(--row-gap);
-			}
-			@else if "big" == $gap {
-				--row-gap: var(--row-gap-big);
-				row-gap: var(--row-gap);
-			}
-			@else if "none" == $gap {
-				--row-gap: 0px;
-			}
-			@else {
-				--row-gap: #{$gap};
-				row-gap: var(--row-gap);
-			}
 		}
 		@else {
 			flex-wrap: $wrap;
@@ -551,7 +558,8 @@
 		/* determines width of column based on number of columns $nbcols and gap */
 		$gap-nb: $col-nb - 1;
 		$gap-span: $col-span - 1;
-		width: calc( (100% - #{$gap-nb} * var(--column-gap)) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px );
+		flex-basis: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px );
+		width: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px );
 	}
 	
 	@mixin width-column-sm-screen($col-nb, $col-span: 1) {
@@ -565,6 +573,11 @@
 		width: 100%;
 	}
 
+	@mixin width-content() {
+		width: 100%;
+		max-width: 80vw;
+	}
+
 	@mixin width-full-sm-screen {
 		@media (max-width: $gl-sm-screen) {
 			width: 100%;
@@ -572,7 +585,7 @@
 	}
 	
 	@mixin width-screen-full() {
-		width: 100%;
+		width: 100vw;
 	}
 	
 	@mixin width-onethird {

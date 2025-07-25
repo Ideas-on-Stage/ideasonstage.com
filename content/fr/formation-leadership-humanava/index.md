@@ -1,14 +1,14 @@
 ---
 draft: false
-type: full
+type: full # full-width layout
 title: "Formation Leadership Humanava"
 description: "Une formation pour développer votre posture de leader."
-picture: "prise-de-parole-2.jpg"
 translationKey: "presentations-training"
 ni: true
 ---
 
-{{< shortcode-fullbleed bgcolor="#A886D6" title="Leadership" >}}
+{{< shortcode-fullbleed bgcolor="#A886D6" >}}
+# Leadership
 L'art d'être écouté.e et suivi.e
 {{< /shortcode-fullbleed >}}
 
@@ -16,7 +16,6 @@ L'art d'être écouté.e et suivi.e
 
 Les formations de prise de parole d'Ideas on Stage ont révélé le potentiel de leader de nombreuses personnes. En nous associant avec Humanava, nous sortons du cadre de la scène pour accompagner les futurs dirigeants dans leur posture quotidienne.
 
-{{< shortcode-space-medium >}}
 
 {{< shortcode-fullbleed img="humanava-arnaud-janet.jpg" >}}
 {{< /shortcode-fullbleed >}}
@@ -60,32 +59,34 @@ transformer en profondeur la façon de diriger.<br>
 {{< shortcode-fullbleed img="humanava-leadership-interview.jpg" >}}
 {{< /shortcode-fullbleed >}}
 
-{{< shortcode-carousel title="Une équipe d'experts incroyables"  bgcolor="#5C2183" >}}
-  {{< shortcode-carousel-item title="Thomas Pesquet"  bgcolor="#FFF" img="expert-thomas-pesquet.jpg" >}}
+{{< shortcode-grid title="Une équipe d'experts incroyables" class="padding gridgap" style="background-color:#5C2183;color:#FFF" >}}
+  {{< shortcode-item-card title="Thomas Pesquet"  bgcolor="#aaa" img="expert-thomas-pesquet.jpg" >}}
   Ancien pilote de chasse, astronaute.
-  {{< /shortcode-carousel-item >}}
-  {{< shortcode-carousel-item title="Expert 2" bgcolor="#FFF" >}}
+  {{< /shortcode-item-card >}}
+  {{< shortcode-item-card title="Expert 2" bgcolor="#FFF" >}}
   Lorem ipsum blabla.
-  {{< /shortcode-carousel-item>}}
+  {{< /shortcode-item-card >}}
+  {{< shortcode-item-card title="Expert"  bgcolor="#FFF" >}}
+  Lorem ipsum blabla.
+  {{< /shortcode-item-card >}}
+  {{< shortcode-item-card title="Expert"  bgcolor="#FFF" >}}
+  Lorem ipsum blabla.
+  {{< /shortcode-item-card >}}
+  {{< shortcode-item-card title="Expert"  bgcolor="#FFF" >}}
+  Lorem ipsum blabla.
+  {{< /shortcode-item-card >}}
   {{< shortcode-carousel-item title="Expert"  bgcolor="#FFF" >}}
   Lorem ipsum blabla.
-  {{< /shortcode-carousel-item >}}
-  {{< shortcode-carousel-item title="Expert"  bgcolor="#FFF" >}}
-  Lorem ipsum blabla.
-  {{< /shortcode-carousel-item >}}
-  {{< shortcode-carousel-item title="Expert"  bgcolor="#FFF" >}}
-  Lorem ipsum blabla.
-  {{< /shortcode-carousel-item >}}
-  {{< shortcode-carousel-item title="Expert"  bgcolor="#FFF" >}}
-  Lorem ipsum blabla.
-  {{< /shortcode-carousel-item >}}
-{{< /shortcode-carousel >}}
+  {{< /shortcode-item-card >}}
+{{< /shortcode-grid >}}
 
 {{< shortcode-space-medium >}}
 
+{{% shortcode-fullbleed img="compass.svg" %}}
 ## Une boussole pour vous orienter vers votre style de leadership
 
 La boussole du leadership est un outil simple pour vous aider à trouver le style de leadership qui vous convient.
+{{% /shortcode-fullbleed %}}
 
 
 ## Le parcours en 4 étapes
