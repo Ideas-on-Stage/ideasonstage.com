@@ -14,7 +14,8 @@
 --> */}}
 
 {{ "<!-- shortcodes:call-to-action.html:start -->" | safeHTML }}
-<div class="cl-shortcode cl-shortcode-call-to-action {{ with .Params.style }}{{ . }}{{ end }}">
+{{- $class := .Get "class" -}}
+<div class="cl-shortcode cl-shortcode-call-to-action {{ $class }} {{ with .Params.style }}{{ . }}{{ end }}">
 	{{ with .Params.title }}
 		<h3>
 			{{ . }}

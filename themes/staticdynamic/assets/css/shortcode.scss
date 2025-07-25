@@ -4,11 +4,32 @@
 	.cl-shortcode {
 		@include firstlastchildnomargin;
 		
-		margin: 0 -2vw;
-		padding: 2vw;
-		@media (max-width: $gl-sm-screen) {
-			margin: 0 -4vw;
+		&.gap {
+			margin-top: 48px;
+		}
+		
+		&.padding {
 			padding: 4vw;
 		}
 		
+		/* if a background color is specified for the shortcode, add padding */
+		&.bg-black,
+		&.bg-white,
+		&.bg-light,
+		&.bg-dark,
+		&.bg-primary,
+		&.bg-secondary {
+			padding: 4vw;
+		}
+	}
+
+	/* add marging space between shortcode and non-shortcode elements e.g. a .cl-shortcode followed by a p */
+	.cl-shortcode + :not(.cl-shortcode),
+	div.cl-shortcode-img + :not(div) {
+		/* add margin space between cl-shortcode and content that is not of class .cl-shortcode */
+		margin-top: 48px;
+	}
+	/* add margin space between non-shortcode and shortcode elements e.g. a p followed by a .cl-shortcode */
+	:not(.cl-shortcode) + .cl-shortcode {
+		margin-top: 48px;
 	}

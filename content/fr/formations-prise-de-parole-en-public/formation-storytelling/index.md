@@ -21,25 +21,86 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 
 {{< shortcode-image-wide src="storytelling.jpg" alt="Formation Storytelling" >}}
 
-{{< shortcode-agenda-list style="bg-light">}}
-	{{< shortcode-agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre à utiliser les techniques de storytelling pour créer un message clé<br>Bien structurer ses idées et ses éléments de langage.<br>Développer une histoire captivante pour convaincre son auditoire." >}}
-	{{< shortcode-agenda-item title="Prérequis de la formation" description="Avoir déjà fait une présentation en public.<br>Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>Il n’est pas nécessaire d’avoir un ordinateur." >}}
-	{{< shortcode-agenda-item title="Public concerné" description="Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux." >}}
-	{{< shortcode-agenda-item title="Moyens pédagogiques, modalités et méthodes" description="Site web avec les différents supports et exercices<br>Support visuel PowerPoint<br>Livret d’exercices imprimé<br>Exercices pratiques" >}}
-	{{< shortcode-agenda-item title="Méthode d'évaluation" description="Évaluation continue au cours de la formation<br>Exercice final de mise en pratique des acquis" >}}
-{{< /shortcode-agenda-list >}}
+{{% shortcode-agenda-list class="bg-light" %}}
+### Formation Storytelling
+
+#### Objectifs pédagogiques de la formation
+Apprendre à utiliser les techniques de storytelling pour créer un message clé.<br>
+Bien structurer ses idées et ses éléments de langage.<br>
+Développer une histoire captivante pour convaincre son auditoire.
+
+#### Prérequis de la formation
+Avoir déjà fait une présentation en public.<br>
+Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>
+Il n’est pas nécessaire d’avoir un ordinateur.
+
+#### Public concerné
+Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux.
+
+#### Moyens pédagogiques, modalités et méthodes
+Site web avec les différents supports et exercices
+<br>Support visuel PowerPoint
+<br>Livret d’exercices imprimé
+<br>Exercices pratiques
+
+#### Méthode d'évaluation
+Évaluation continue au cours de la formation.<br>
+Exercice final de mise en pratique des acquis.
+{{% /shortcode-agenda-list %}}
 
 {{< shortcode-space-medium style="bg-white" >}}
 
-{{< shortcode-agenda-list style="bg-light" title="Programme" >}}
-{{< shortcode-agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
-{{< shortcode-agenda-item title="Lier histoire et présentation" description="Utiliser un « storyboard »<br>La méthode pSCORE" >}}
-{{< shortcode-agenda-item title="Diapositives de structure" description="Couverture et dernière page<br>Diapositive de section<br>Diapositive d'agenda" >}}
-{{< shortcode-agenda-item title="Éléments de contenu" description="Titre<br>Texte détaillé<br>Tableaux<br>Graphiques<br>Schémas et pictogrammes<br>Photos<br>Vidéos<br>Autres éléments" >}}
-{{< shortcode-agenda-item title="Types de diapositive" description="Titre et texte<br>Diapositive avec graphique<br>Diapositive avec schéma<br>Diapositive avec pictogrammes<br>Photo + titre<br>En résumé" >}}
-{{< shortcode-agenda-item title="Design" description="Police de caractères<br>Couleurs" >}}
-{{< shortcode-agenda-item title="Checklist finale" description="Votre présentation est-elle pSCORE ?" >}}
-{{< shortcode-agenda-item title="Exercice final" description="Mise en pratique des acquis lors d'une présentation complète de cinq minutes." >}}
-{{< shortcode-agenda-item title="Conclusion" description="Récapitulatif des points clés<br>Évaluation de la formation par les participants" >}}
-{{< /shortcode-agenda-list >}}
+{{% shortcode-agenda-list style="bg-light" %}}
+
+### Programme détaillé
+
+#### Message
+ABC : ce n’est pas votre présentation, c’est la leur. Commencez par identifier votre audience, ses besoins et le contexte de la présentation.
+
+Objectif de transformation: que voulez-vous que votre audience fasse à la fin de la présentation ?
+
+Comprendre l'importance de combiner Information et Émotion pour donner envie de passer à l'Action.
+
+Parcours de Transformation de l’Audience : identifier les éléments émotionnels et factuels qui vont influencer votre audience.
+
+
+#### Structurer son histoire
+Toute histoire est constituée d'un début, d'un milieu et d'une fin : comprendre le rôle de l'introduction, du développement et de la conclusion.
+
+Structures : quels sont les structures typiques qui fonctionnent pour une présentation ? Dans quelle situation les utiliser ?
+
+
+#### Captiver son audience
+Quelles sont les techniques narratives qui permettent de rendre une histoire intéressante ?
+
+Utiliser une accroche forte pour capter l'attention de votre audience.
+
+Lui donner une bonne raison de vous écouter jusqu'au bout : pourquoi est-ce important pour lui ?
+
+Donner un objectif clair : quel est l'objectif de la présentation ? Où voulez-vous emmener votre audience ?
+
+Utiliser des anecdotes, des métaphores, des images, des exemples pour rendre la présentation concrète et simple à comprendre.
+
+Éviter le jargon, les concepts, les détails inutiles.
+
+Conclure en beauté et appeler à passer à l'action.
+
+
+#### Diapositives
+Quand et comment utiliser des diapositives PowerPoint lors d'une présentation ?
+
+
+#### Art Oratoire
+Quelques conseils pour bien raconter votre histoire sur scène.
+
+#### Checklist finale
+Votre histoire est-elle pSCORE ?
+
+#### Exercice final
+Mise en pratique des acquis lors d'une présentation complète de cinq minutes.
+
+#### Conclusion
+Récapitulatif des points clés<br>
+Évaluation de la formation par les participants
+{{% /shortcode-agenda-list %}}
 

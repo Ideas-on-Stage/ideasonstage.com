@@ -11,8 +11,9 @@
 	
 --> */}}
 
+{{- $class := .Get "class" -}}
 {{ "<!-- shortcodes:gallery.html:start -->" | safeHTML }}
-	<div class="cl-shortcode cl-shortcode-gallery">
+	<div class="cl-shortcode cl-shortcode-gallery {{ $class }}">
 		{{ range .Params }}
 			{{ $args := split . "," }}
 			{{ $alt := index $args 1 }}

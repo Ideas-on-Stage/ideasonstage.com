@@ -88,4 +88,8 @@ transformer en profondeur la façon de diriger.<br>
 La boussole du leadership est un outil simple pour vous aider à trouver le style de leadership qui vous convient.
 
 
+## Le parcours en 4 étapes
+
+
+
 {{< shortcode-space-medium >}}

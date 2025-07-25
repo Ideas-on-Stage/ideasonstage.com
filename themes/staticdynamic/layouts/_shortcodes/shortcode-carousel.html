@@ -24,7 +24,7 @@
 	Check the /data/body-carousel files for examples.
 	
 --> */}}
-<section class="cl-shortcode-carousel" {{ with .Params.bgcolor }}style="background-color: {{ . }}"{{ end }}>
+<section class="cl-shortcode cl-shortcode-carousel {{ with .Params.class }}{{ . }}{{ end }}" {{ with .Params.bgcolor }}style="background-color: {{ . }}"{{ end }}>
 	{{ with .Params.title }}
 		<h2 style="color: white;">
 			{{ . }}

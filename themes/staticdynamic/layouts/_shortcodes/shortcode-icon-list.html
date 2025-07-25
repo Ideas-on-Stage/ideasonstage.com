@@ -8,7 +8,8 @@
 --> */}}
 
 {{ "<!-- shortcodes:icon-list.html:start -->" | safeHTML }}
-<div class="cl-shortcode cl-shortcode-icon-list {{ with .Params.style }}{{ . }}{{ end }}">
+{{- $class := .Get "class" -}}
+<div class="cl-shortcode cl-shortcode-icon-list {{ with $class }}{{ . }}{{ end }} {{ with .Params.style }}{{ . }}{{ end }}">
 	{{ with .Params.title }}
 		<h3>
 			{{ . }}

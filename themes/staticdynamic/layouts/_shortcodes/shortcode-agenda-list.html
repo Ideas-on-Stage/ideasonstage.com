@@ -11,9 +11,10 @@
 --> */}}
 
 {{ "<!-- shortcodes:agenda-list.html:start -->" | safeHTML }}
-<div class="cl-shortcode cl-shortcode-agenda-list {{ with .Params.style }}{{ . }}{{ end }}">
-	{{ if .Params.title }}
-		<h3>{{ .Params.title }}</h3>
+{{- $class := .Get "class" -}}
+<div class="cl-shortcode cl-shortcode-agenda-list {{ with $class }}{{ . }}{{ end }} {{ with .Params.style }}{{ . }}{{ end }}">
+	{{ with .Params.title }}
+		<h3>{{ . }}</h3>
 	{{ end }}
 	{{ .Inner }}
 </div>

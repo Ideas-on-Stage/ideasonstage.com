@@ -19,13 +19,11 @@ Pour être efficace, la prise de parole doit faire l’objet d’un travail en a
 
 Notre service de coaching en prise de parole est taillé sur mesure. Que vous soyez un cadre dirigeant devant présenter sa nouvelle stratégie, un organisateur souhaitant faire coacher les intervenants de son événement ou un créateur de start-up invité à présenter à une grande conférence, notre objectif est le même : vous faire réussir.
 
-{{< shortcode-image-wide src="coaching-prise-de-parole-001.jpg" alt="Meeting" >}}
-
 ## Un accompagnement sur plusieurs séances
 
 Notre expérience montre l’importance de la répétition dans la préparation. C’est pourquoi le programme de notre coaching se déroule sur plusieurs séances individuelles. Nous adaptons le programme en fonction des forces et points d’amélioration de chacun, mais ci-dessous vous trouverez un exemple type.
 
-{{% shortcode-agenda-list style="bg-light" %}}
+{{% shortcode-agenda-list class="padding bg-light" %}}
 ### Exemple de programme de coaching
 
 #### ENTRETIEN PRÉLIMINAIRE

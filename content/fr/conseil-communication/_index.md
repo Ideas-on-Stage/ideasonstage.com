@@ -12,7 +12,7 @@ Notre offre de conseil en stratégie de communication d'entreprise propose tous 
 
 {{< shortcode-image-wide src="conseil-en-communication.jpg" alt="Communication d'entreprise" >}}
 
-{{< shortcode-icon-list title="Bénéfices clés" style="bg-light" >}}
+{{< shortcode-icon-list title="Bénéfices clés" class="padding bg-light" >}}
 	{{< shortcode-icon-item icon="identity.svg" description="Identité renforcée" >}}
 	{{< shortcode-icon-item icon="vision.svg" description="Vision et missions claires" >}}
 	{{< shortcode-icon-item icon="fast.svg" description="Transformation plus rapide" >}}
@@ -32,7 +32,7 @@ Une fois que nous avons dessiné une stratégie de communication globale claire,
 
 {{< shortcode-image-wide src="bureaux-entreprise.jpg" alt="Communication d'entreprise" >}}
 
-{{< shortcode-icon-list title="Principaux usages de nos services de conseil en communication" style="bg-light" >}}
+{{< shortcode-icon-list title="Principaux usages de nos services de conseil en communication" class="padding bg-light" >}}
 	{{< shortcode-icon-item icon="leader.svg" description="Réunion de management" >}}
 	{{< shortcode-icon-item icon="launch.svg" description="Lancements et déploiements" >}}
 	{{< shortcode-icon-item icon="csr.svg" description="Responsabilité sociétale des entreprises" >}}

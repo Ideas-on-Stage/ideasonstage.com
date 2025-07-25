@@ -14,7 +14,7 @@
 	{{- end -}}
 {{- end -}}
 {{/* <!-- insert the full-bleed section --> */}}
-<section class="cl-shortcode cl-shortcode-fullbleed" {{ with .Params.opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }} {{ with .Params.bgcolor }}style="background-color:{{ . }};"{{ end }}>
+<section class="cl-shortcode cl-shortcode-fullbleed {{ with .Params.class }}{{ . }}{{ end }}" {{ with .Params.opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }} {{ with .Params.bgcolor }}style="background-color:{{ . }};"{{ end }}>
 	{{ partial "e/picture" .Params }}
 	<div class="cl-shortcode-fullbleed--main {{ $align }}">
 		{{- with .Params.title -}}
