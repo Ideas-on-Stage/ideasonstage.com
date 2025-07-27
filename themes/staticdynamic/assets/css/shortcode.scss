@@ -9,7 +9,23 @@
 		}
 		
 		&.padding {
-			padding: 4vw;
+			padding: 48px;
+		}
+		
+		&.padding-top {
+			padding-top: 48px;
+		}
+		
+		&.padding-bottom {
+			padding-bottom: 48px;
+		}
+		
+		&.padding-left {
+			padding-left: 48px;
+		}
+		
+		&.padding-right {
+			padding-right: 48px;
 		}
 		
 		/* if a background color is specified for the shortcode, add padding */

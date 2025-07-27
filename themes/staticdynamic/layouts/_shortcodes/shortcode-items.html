@@ -1,0 +1,76 @@
+{{/* <!--
+	
+	shortcode-items.html
+	
+	Parameters:
+	- type*: "grid" or "carousel"
+	- title: title of the item list
+	- description: description of the carousel
+	- class: list of additional classes
+	- bgcolor: background color, e.g. "#000"
+	- color: text color, e.g. "#FFF"
+	- .Inner*: the content for the carousel should be a list of shortcode-item-* shortcodes, e.g. shortcode-item-card
+	
+--> */}}
+
+{{/* <!-- get type parameter --> */}}
+{{- $type := false -}}
+{{- with .Get "type" -}}
+	{{- if or (eq "grid" .) (eq "carousel" .) -}}
+		{{- $type = . -}}
+	{{- else -}}
+		<p>shortcode-items: invalid type parameter {{ . }} (must be "grid or "carousel")</p>
+	{{- end -}}
+{{- else -}}
+	<p>shortcode-items: missing type parameter (must be "grid" or "carousel")</p>
+{{- end -}}
+
+{{/* <!-- get id (optional) --> */}}
+{{- $id := false -}}
+{{- with (.Get "id") -}}
+	{{- $id := printf "id=\"%s\"" . -}}
+{{- end -}}
+
+{{/* <!-- get class parameter (optional) --> */}}
+{{- $class := (.Get "class") -}}
+{{- $classa := printf "class=\"cl-shortcode cl-shortcode-items %s %s\"" $type $class -}}
+{{- $classb := printf "class=\"%s %s\"" $type $class -}}
+
+{{/* <!-- get title and description (optional) --> */}}
+{{- $text := "" -}}
+{{- $title := .Get "title" -}}
+{{- $description := .Get "description" -}}
+{{- if or $title $description -}}
+	{{- $text = printf "%s\n%s\n" $title $description -}}
+{{- end -}}
+
+{{/* <!-- get background color (optional) --> */}}
+{{- $bgcolor := .Get "bgcolor" -}}
+{{- with $bgcolor -}}
+	{{- $bgcolor = printf "style=\"background-color:%s\"" . -}}
+{{- end -}}
+
+{{/* <!-- get text color (optional) --> */}}
+{{- $color := .Get "color" -}}
+{{- with $color -}}
+	{{- $color = printf "style=\"color:%s\"" . -}}
+{{- end -}}
+
+{{ "<!-- shortcode-items.html:start -->" | safeHTML }}
+<section
+	{{ with $id }}{{ . | safeHTMLAttr }}{{ end }}
+	{{ with $classa }}{{ . | safeHTMLAttr }}{{ end }}
+	{{ with $bgcolor }}{{ . | safeHTMLAttr }}{{ end }}>
+	{{- with $text -}}
+		<div class="text"
+			{{ with $color }}{{ . | safeHTMLAttr }}{{ end }}>
+			{{ . | markdownify }}
+		</div>
+	{{- end -}}
+	{{- with .Inner -}}
+		<ul {{ with $classb }}{{ . | safeHTMLAttr }}{{ end }}>
+			{{ . }}
+		</ul>
+	{{- end -}}
+</section>
+{{ "<!-- shortcode-items.html:end -->" | safeHTML }}

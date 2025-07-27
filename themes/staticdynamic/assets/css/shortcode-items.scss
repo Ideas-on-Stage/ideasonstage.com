@@ -1,0 +1,113 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-items {
+		
+		@include flex-column($gap: "none", $align-column-h: center);
+		
+		> .text {
+			@include width-content();
+			padding-bottom: 24px;
+			
+			> h2 {
+				padding: 0;
+				--text-align-h2: center;
+			}
+			
+			> p {
+				--text-align-p: center;
+			}
+		}
+		
+		&.carousel,
+		&.grid {			
+			& ul {
+				@include ul-list-style-none;
+				
+				> li {
+					flex-grow: 0; /* do not grow horizontally */
+					flex-shrink: 0; /* and do not shrink horizontally */
+				}
+				
+				&.gridgap {
+					@include flex-row($gap: "gap", $wrap: "wrap", $align-row-v: stretch);
+				}
+				
+				&.width-content {
+					@include width-content();
+				}
+				
+				&.width-full {
+					@include width-full();
+				}
+			}
+		}
+		
+		&.carousel {
+			& ul {
+				@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: stretch);
+				@include scroll-h;
+				padding: var(--row-gap) var(--column-gap);
+				width: 100%;
+				
+				> li {
+					/* make width of carousel items narrower so that an item breaks across the right side of the screen */
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(1.5);
+					}
+					
+					&.columns-1 {
+						@include width-column(1.4);
+					}
+					&.columns-2 {
+						@include width-column(2.2);
+					}
+					&.columns-3 {
+						@include width-column(3.2);
+					}
+					&.columns-4 {
+						@include width-column(4.1);
+					}
+					&.columns-5 {
+						@include width-column(5.1);
+					}
+					&.columns-6 {
+						@include width-column(6.1);
+					}
+				}
+			}
+		}
+		
+		&.grid {
+			& ul {
+				@include flex-row($gap: "none", $wrap: "wrap", $align-row-v: stretch);
+				
+				> li {
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(2);
+					}
+					
+					&.columns-1 {
+						@include width-column(1);
+					}
+					&.columns-2 {
+						@include width-column(2);
+					}
+					&.columns-3 {
+						@include width-column(3);
+					}
+					&.columns-4 {
+						@include width-column(4);
+					}
+					&.columns-5 {
+						@include width-column(5);
+					}
+					&.columns-6 {
+						@include width-column(6);
+					}
+				}
+			}
+		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
+	}

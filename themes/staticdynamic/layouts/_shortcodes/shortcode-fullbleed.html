@@ -3,8 +3,9 @@
 --> */}}
 {{ "<!-- shortcodes-fullbleed.html:start -->" | safeHTML }}
 {{/* <!-- determine where text will be displayed (top, middle, bottom) --> */}}
-{{- $align := "middle" -}}
-{{- if .Params.align -}}
+
+{{- $align := .Get "align" -}}
+{{- if $align -}}
 	{{- if eq .Params.align "middle" -}}
 		{{- $align = "middle" -}}
 	{{- else if eq .Params.align "top" -}}
@@ -12,13 +13,25 @@
 	{{- else if eq .Params.align "bottom" -}}
 		{{- $align = "bottom" -}}
 	{{- end -}}
+{{- else -}}
+	{{- $align = "middle" -}}
 {{- end -}}
+
+{{- $bgcolor := .Get "bgcolor" -}}
+
+{{- $bgopacity := .Get "bgopacity" -}}
+
 {{- $class := .Get "class" -}}
+
+{{- $img := .Get "img" -}}
+
+{{- $title := .Get "title" -}}
+
 {{/* <!-- insert the full-bleed section --> */}}
-<section class="cl-shortcode cl-shortcode-fullbleed {{ with $class }}{{ . }}{{ end }}" {{ with .Params.bgopacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }} {{ with .Params.bgcolor }}style="background-color:{{ . }};"{{ end }}>
+<section class="cl-shortcode cl-shortcode-fullbleed {{ with $class }}{{ . }}{{ end }}" {{ with $bgopacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }} {{ with $bgcolor }}style="background-color:{{ . }};"{{ end }}>
 	{{ partial "e/picture" .Params }}
 	<div class="cl-shortcode-fullbleed--main {{ $align }}">
-		{{- with .Params.title -}}
+		{{- with $title -}}
 		<h2>{{ . }}</h2>
 		{{- end -}}
 		{{- with .Inner -}}

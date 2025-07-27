@@ -11,26 +11,23 @@
 			left: 0px;
 		}
 		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/textscheme.scss" . }}
+	}
+
+	.cl-shortcode-fullbleed--main {
+		@include width-content();
+		flex-grow: 1; /* take all available vertical space in parent */
+		text-align: center;
+		
 		h1 {
-			font-size: 4em;
+			font-size: 3em;
 			margin: 0;
 		}
 		
 		p {
 			margin: 0;
 		}
-		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
-	}
-
-	.cl-shortcode-fullbleed--main {
-		@include width-full;
-		flex-grow: 1; /* take all available vertical space in parent */
-		padding-left: 2em;
-		padding-right: 2em;
-		--color-back: none;
-		text-align: center;
 		
 		&.middle {
 			@include flex-column($align-column-h: center, $align-v: center);

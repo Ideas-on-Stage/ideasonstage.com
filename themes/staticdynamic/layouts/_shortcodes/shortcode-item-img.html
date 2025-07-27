@@ -1,0 +1,30 @@
+{{/* <!--
+	
+	{{< shortcode-item-img >}}
+	
+	Parameters:
+	- img: url for image file
+	- alt: text for image description
+	- columns: number of columns for image (e.g. 3 will make image take one third of horizontal space)
+	- class: additional helper classes to format item
+
+--> */}}
+
+{{- $alt := .Get "alt" -}}
+{{- $class := .Get "class" -}}
+{{- $columns := .Get "columns" -}}
+{{- $img := .Get "img" -}}
+{{ "<!-- shortcode-item-img.html:start -->" | safeHTML }}
+<li class="cl-shortcode-item-img {{ with $columns }}columns-{{ . }}{{ end }} {{ with $class }}{{ . }}{{ end }}">
+	{{- if $img -}}
+		{{- if $alt -}}
+			{{- $srcset := partial "f/getpicturesrcset.go" $img -}}
+			<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" {{ with $alt }}alt="{{ . }}"{{ end }}>
+		{{- else -}}
+			<p>shortcode-item-img: missing alt parameter with image description</p>
+		{{- end -}}
+	{{- else -}}
+		<p>shortcode-item-img: missing img parameter with image url</p>
+	{{- end -}}
+</li>
+{{ "<!-- shortcode-item-img.html:end -->" | safeHTML }}

@@ -230,7 +230,7 @@
 		position: absolute;
 		height: inherit; /* ! parent container must have height in absolute unit or 100%, but not 0-99% */
 		width: inherit; /* ! parent container must have width in absolute unit or 100%, but not not 0-99% */
-		max-width: var(--page-max-width);
+		max-width: inherit; /* var(--page-max-width); */
 		object-fit: cover;
 		@if 0 != $z-index {
 			z-index: $z-index;
@@ -571,11 +571,14 @@
 	
 	@mixin width-full() {
 		width: 100%;
+		max-width: 100%;
 	}
 
 	@mixin width-content() {
 		width: 100%;
 		max-width: 80vw;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	@mixin width-full-sm-screen {

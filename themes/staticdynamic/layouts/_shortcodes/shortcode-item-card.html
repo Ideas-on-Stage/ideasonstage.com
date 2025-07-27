@@ -1,45 +1,74 @@
 {{/* <!--
 	
-	body-carousel.html
+	{{< shortcode-item-card >}}
+	
+	Inserts a "card" item.
+	Card items contain a title, text and a picture (all optional) in a card layout with rounded corner.
+	
+	Parameters:
+	- .Inner: text to display on the card
+	- img: url for image file
+	- alt: text for image description
+	- columns: number of columns for image (e.g. 3 will make image take one third of horizontal space)
+	- class: additional helper classes to format item
 
-	Generates the HTML for a carousel with multiple items displayed horizontally.
-	A carousel should have at least 4 items to look "right".
-	
-	Arguments:
-	- page object with the following front matter properties:
-	  body-body-carousels-data: [ "list", "of", "body-carousel", "data", "files" ]
-	  body-carousel-title: "title of the carousel"
-
-	Example:
-	Page front matter:
-	body-carousel-title: "My super carousel"
-	body-body-carousels-data: [ "item1", "item2", "item3", "item4" ]
-	
-	/data/carousels files:
-	- item1.yaml
-	- item2.yaml
-	- item3.yaml
-	- item4.yaml
-	Each file should have an entry for the site language
-	Check the /data/body-carousel files for examples.
-	
 --> */}}
 
-<li class="cl-shortcode-item-card" {{ with .Params.bgcolor }}style="background-color: {{ . }}"{{ end }}>
-	<div class="text">
-		{{ with .Params.title }}
-			<h3>
-				{{ . }}
-			</h3>
-		{{ end }}
-		{{ with .Inner }}
-			<p>
-				{{ . }}
-			</p>
-		{{ end }}
-	</div>
-	{{ if .Params.img }}
-		{{ $srcset := partial "f/getpicturesrcset.go" .Params.img }}
-		<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .Params.name }}">
-	{{ end }}
+{{/* <!-- get class parameter (optional) --> */}}
+{{- $columns := (.Get "columns") -}}
+{{- if $columns -}}
+	{{- $columns = printf "columns-%s" $columns -}}
+{{- else -}}
+	<p>shortcode-item-card: missing mandatory columns parameter</p>
+{{- end -}}
+{{- $class := printf "class=\"cl-shortcode-item-card %s %s\"" $columns (.Get "class") -}}
+
+{{/* <!-- get title and description (optional) --> */}}
+{{- $text := false -}}
+{{- $title := .Get "title" -}}
+{{- $description := .Get "description" -}}
+{{- if or $title $description -}}
+	{{- $text = printf "%s\n%s\n" $title $description -}}
+{{- end -}}
+
+{{/* <!-- get img (optional) --> */}}
+{{- $srcset := false -}}
+{{- $img := .Get "img" -}}
+{{- with $img -}}
+	{{ $srcset = partial "f/getpicturesrcset.go" $img }}
+	{{ $img = collections.Index $srcset 0 }}
+	{{ $srcset = printf "srcset=\"%s\"" $srcset }}
+{{- end -}}
+
+{{/* <!-- get alt --> */}}
+{{- $alt := .Get "alt" -}}
+{{- with $alt -}}
+	{{- $alt = printf "alt=\"%s\"" . -}}
+{{- end -}}
+
+{{/* <!-- get background color (optional) --> */}}
+{{- $bgcolor := .Get "bgcolor" -}}
+{{- with $bgcolor -}}
+	{{- $bgcolor = printf "style=\"background-color:%s\"" . -}}
+{{- end -}}
+
+{{/* <!-- get text color (optional) --> */}}
+{{- $color := .Get "color" -}}
+{{- with $color -}}
+	{{- $color = printf "style=\"color:%s\"" . -}}
+{{- end -}}
+
+<li {{ with $class }}{{ . | safeHTMLAttr }}{{ end }}
+	{{ with $bgcolor }}{{ . | safeHTMLAttr }}{{ end }}>
+	{{- with $text -}}
+		<div class="text"
+			{{ with $color }}{{ . | safeHTMLAttr }}{{ end }}>
+			{{ . | markdownify }}
+		</div>
+	{{- end -}}
+	{{- with $img -}}
+		<img src="{{ . }}" loading="lazy" 
+			{{ with $srcset }}{{ . | safeHTMLAttr }}{{ end }}
+			{{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}>
+	{{- end -}}
 </li>
