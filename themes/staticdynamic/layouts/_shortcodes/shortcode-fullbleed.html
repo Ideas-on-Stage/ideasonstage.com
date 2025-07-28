@@ -31,9 +31,6 @@
 <section class="cl-shortcode cl-shortcode-fullbleed {{ with $class }}{{ . }}{{ end }}" {{ with $bgopacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }} {{ with $bgcolor }}style="background-color:{{ . }};"{{ end }}>
 	{{ partial "e/picture" .Params }}
 	<div class="cl-shortcode-fullbleed--main {{ $align }}">
-		{{- with $title -}}
-		<h2>{{ . }}</h2>
-		{{- end -}}
 		{{- with .Inner -}}
 		{{ . | markdownify }}
 		{{- end -}}

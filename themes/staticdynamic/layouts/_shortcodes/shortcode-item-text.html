@@ -13,14 +13,6 @@
 	
 --> */}}
 
-{{/* <!-- get title and description (optional) --> */}}
-{{- $text := "" -}}
-{{- $title := .Get "title" -}}
-{{- $description := .Get "description" -}}
-{{- if or $title $description -}}
-	{{- $text = printf "%s\n%s\n" $title $description -}}
-{{- end -}}
-
 {{/* <!-- get background color (optional) --> */}}
 {{- $bgcolor := .Get "bgcolor" -}}
 {{- with $bgcolor -}}
@@ -39,9 +31,7 @@
 <li class="cl-shortcode-item-text {{ with .Params.columns }}columns-{{ . }}{{ end }}"
 	{{ with $bgcolor }}{{ . | safeHTMLAttr }}{{ end }}>
 	<div class="text" {{ with $color }}{{ . | safeHTMLAttr }}{{ end }}>
-		{{- with $text -}}
-			{{ . | markdownify }}
-		{{- end -}}
+		{{ with .Inner }}{{ . | markdownify }}{{ end }}
 	</div>
 </li>
 {{ "<!-- shortcode-item-img.html:end -->" | safeHTML }}

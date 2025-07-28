@@ -36,8 +36,8 @@
 {{- $img := .Get "img" -}}
 {{- with $img -}}
 	{{ $srcset = partial "f/getpicturesrcset.go" $img }}
-	{{ $img = index $srcset 0 }}
-	{{ $srcset = printf "srcset=\"%s\"" (index $srcset 1) }}
+	{{ $img = collections.Index $srcset 0 }}
+	{{ $srcset = printf "srcset=\"%s\"" $srcset }}
 {{- end -}}
 
 {{/* <!-- get alt --> */}}
@@ -60,15 +60,14 @@
 
 <li {{ with $class }}{{ . | safeHTMLAttr }}{{ end }}
 	{{ with $bgcolor }}{{ . | safeHTMLAttr }}{{ end }}>
-	{{- with .Inner -}}
+	{{- with $text -}}
 		<div class="text"
 			{{ with $color }}{{ . | safeHTMLAttr }}{{ end }}>
 			{{ . | markdownify }}
 		</div>
 	{{- end -}}
 	{{- with $img -}}
-		<img src="{{ . }}"
-			loading="lazy" 
+		<img src="{{ . }}" loading="lazy" 
 			{{ with $srcset }}{{ . | safeHTMLAttr }}{{ end }}
 			{{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{- end -}}
