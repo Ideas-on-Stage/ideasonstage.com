@@ -4,12 +4,7 @@
 {{ "<!-- shortcodes-fullbleed.html:start -->" | safeHTML }}
 <section class="cl-shortcode cl-shortcode-fulltext {{ with .Params.class }}{{ . }}{{ end }}" {{ with .Params.bgcolor }}style="background-color:{{ . }};"{{ end }}>
 	<div class="main">
-		{{- with .Params.title -}}
-			<h2>{{ . }}</h2>
-		{{- end -}}
-		{{- with .Inner -}}
-			<p>{{ . }}</p>
-		{{- end -}}
+		{{ with .Inner }}{{ . | markdownify}}{{ end }}
 	</div>
 </section>
 {{ "<!-- shortcode-fullbleed.html:end -->" | safeHTML }}

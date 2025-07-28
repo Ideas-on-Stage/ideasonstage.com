@@ -304,6 +304,7 @@
 			width: 80vw;
 			max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
 			@media (max-width: $gl-sm-screen) {
+				--column-gap: var(--column-gap-default); 
 				margin-left: var(--column-gap);
 				margin-right: var(--column-gap); 
 				width: calc(100% - var(--column-gap) * 2);
@@ -317,6 +318,7 @@
 			width: 50vw;
 			max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
 			@media (max-width: $gl-sm-screen) {
+				--column-gap: var(--column-gap-default); 
 				margin-left: var(--column-gap);
 				margin-right: var(--column-gap);
 				width: calc(100% - var(--column-gap) * 2 );
@@ -324,6 +326,7 @@
 			}
 		}
 		@else if "gap" == $horizontal {
+				--column-gap: var(--column-gap-default); 
 				margin-left: var(--column-gap);
 				margin-right: var(--column-gap); 
 				width: calc(100% - var(--column-gap) * 2);
@@ -558,6 +561,7 @@
 		/* determines width of column based on number of columns $nbcols and gap */
 		$gap-nb: $col-nb - 1;
 		$gap-span: $col-span - 1;
+		--column-gap: var(--column-gap-default);
 		flex-basis: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px );
 		width: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px );
 	}
@@ -596,6 +600,7 @@
 	}
 	
 	@mixin width-twothirds {
+		--column-gap: var(--column-gap-default); 
 		width: calc( 67% - var(--column-gap) );	/* reduce main content width when there is a sidebar */
 	}
 
@@ -604,5 +609,6 @@
 	}
 	
 	@mixin width-fourfifths {
+		--column-gap: var(--column-gap-default); 
 		width: calc( 80% - var(--column-gap) );	/* reduce main content width when there is a sidebar */
 	}

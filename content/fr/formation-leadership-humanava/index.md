@@ -5,6 +5,8 @@ title: "Formation Leadership Humanava"
 description: "Une formation pour développer votre posture de leader."
 translationKey: "presentations-training"
 ni: true
+contact:
+  description: Contactez-nous pour en savoir plus sur la formation Leadership et nous vous répondrons rapidement.
 ---
 
 {{< shortcode-fullbleed bgcolor="#A886D6" >}}
@@ -27,16 +29,11 @@ Les formations de prise de parole d'Ideas on Stage ont révélé le potentiel de
 
 
 
-{{< shortcode-fulltext img="humanava-arnaud-janet.jpg" color="#FFFFFF" bgcolor="#A886D6" title="Qui est Humanava ?" align="center" >}}
-Une école de leadership nouvelle génération,<br>
-qui allie introspection, pratique et inspiration<br>
-pour aider chacun·e à révéler son potentiel et<br>
-à grandir en tant que leader humain·e et engagé·e.<br>
+{{< shortcode-fulltext img="humanava-arnaud-janet.jpg" color="#FFFFFF" bgcolor="#A886D6" align="center" >}}
+## Qui est Humanava ?
+Une école de leadership nouvelle génération, qui allie introspection, pratique et inspiration, pour aider chacun·e à révéler son potentiel et à grandir en tant que leader humain·e et engagé·e.
 
-Notre différence ? Des masterclass<br>
-cinématographiques, un accompagnement<br>
-humain, et un parcours conçu pour<br>
-transformer en profondeur la façon de diriger.<br>
+Notre différence ? Des masterclass cinématographiques, un accompagnement humain, et un parcours conçu pour transformer en profondeur la façon de diriger.
 {{< /shortcode-fulltext >}}
 
 
@@ -46,19 +43,13 @@ transformer en profondeur la façon de diriger.<br>
 
 
 
-{{< shortcode-fullbleed
-img="number-1.svg"
-alt="6 modules" >}}
-## 6 modules pour développer un leadership aligné, humain et durable
-Chaque étape du parcours s’inscrit dans une dynamique claire : un rythme d’apprentissage qui alterne réflexion personnelle, contenus inspirants et mise en action. Ce cadre permet de ne pas simplement consommer du contenu, mais de le vivre, de l’intégrer, et d’évoluer module après module.
-{{< /shortcode-fullbleed >}}
-
-
-
 {{< shortcode-items
 type="carousel"
-bgcolor="#1E1E1E"
-color="white" >}}
+class="padding-top"
+title="## 6 modules pour développer un leadership aligné,<br>humain et durable"
+description="Chaque étape du parcours s’inscrit dans une dynamique claire : un rythme d’apprentissage qui alterne réflexion personnelle, contenus inspirants et mise en action. Ce cadre permet de ne pas simplement consommer du contenu, mais de le vivre, de l’intégrer, et d’évoluer module après module."
+bgcolor="#5C2183"
+color="#FFF" >}}
 
   {{< shortcode-item-card 
   title="### Les fondements du leadership"
@@ -100,7 +91,7 @@ color="white" >}}
 
 
 {{< shortcode-fullbleed
-img="number-2.svg"
+img="number-1.svg"
 alt="coaching collectifs" >}}
 ## Des coachings collectifs pour ancrer la pratique
 À la fin de chaque module, vous participez à un coaching de groupe en visio animé par un·e coach professionnel·le. Ces sessions vous permettent de clarifier vos idées, de partager vos expériences, et de transformer l’apprentissage en action concrète.
@@ -114,7 +105,7 @@ alt="coaching collectifs" >}}
 
 
 {{< shortcode-fullbleed
-img="number-3.svg"
+img="number-2.svg"
 alt="espace de confiance" >}}
 ## Un espace de confiance pour grandir en profondeur
 Chez Humanava, nous croyons que la transformation ne peut avoir lieu que dans un espace sûr, bienveillant et exigeant à la fois. C’est ce que nous cultivons tout au long du parcours : un cadre humain, où chacun·e peut avancer à son rythme, explorer en profondeur, et évoluer sans masque.
@@ -128,7 +119,7 @@ Chez Humanava, nous croyons que la transformation ne peut avoir lieu que dans un
 
 
 {{< shortcode-fullbleed
-img="number-4.svg"
+img="number-3.svg"
 alt="espace de confiance" >}}
 ## Une communauté vivante et bienveillante
 Pendant et après le parcours, vous rejoignez un collectif de leaders engagé·es, venant de différents horizons. Un espace d’échange pour poser vos questions, vous inspirer des autres, et avancer ensemble dans un esprit d’entraide.
@@ -136,15 +127,10 @@ Pendant et après le parcours, vous rejoignez un collectif de leaders engagé·e
 
 
 
-{{< shortcode-fullbleed img="humanava-leadership-interview.jpg" >}}
-{{< /shortcode-fullbleed >}}
-
-
-
 {{< shortcode-items
 type="grid"
 title="## Une équipe d'experts incroyables"
-class="padding gridgap"
+class="padding-top padding-bottom width-content gridgap"
 bgcolor="#5C2183"
 color="#FFF" >}}
 
@@ -182,46 +168,3 @@ color="#FFF" >}}
     columns="4" >}}
 
 {{< /shortcode-items >}}
-
-
-
-{{< shortcode-space-medium >}}
-
-
-
-{{< shortcode-fullbleed
-img="compass.svg"
-alt="Compass" >}}
-## La boussole du leadership
-La boussole du leadership est un outil simple pour vous aider à trouver le style de leadership qui vous convient. Votre style est-il plutôt celui d'un coach ? Êtes-vous plutôt directif ou à l'écoute ?
-{{< /shortcode-fullbleed >}}
-
-
-
-{{< shortcode-items
-type="grid"
-title="## Une boussole pour vous orienter vers votre style de leadership" description="La boussole du leadership est un outil simple pour vous aider à trouver le style de leadership qui vous convient. Votre style est-il plutôt celui d'un coach ? Êtes-vous plutôt directif ou à l'écoute ?"
-class="width-full padding-top"
-bgcolor="#5C2183"
-color="white" >}}
-
-    {{< shortcode-item-img
-    img="placeholder-mountain.jpg" 
-    alt="Mountains"
-    columns="2" >}}
-  
-    {{< shortcode-item-text 
-    title="### Chef exécutif"
-    description="raésietauis."
-    color="white"
-    columns="2" >}}
-  
-{{< /shortcode-items >}}
-
-
-
-## Le parcours en 4 étapes
-
-
-
-{{< shortcode-space-medium >}}

@@ -51,27 +51,42 @@
 				
 				> li {
 					/* make width of carousel items narrower so that an item breaks across the right side of the screen */
-					@media (max-width: $gl-sm-screen) {
-						@include width-column(1.5);
-					}
 					
 					&.columns-1 {
 						@include width-column(1.4);
+						@media (max-width: $gl-sm-screen) {
+							@include width-column(1.4);
+						}
 					}
 					&.columns-2 {
 						@include width-column(2.2);
+						@media (max-width: $gl-sm-screen) {
+							@include width-column(1.4);
+						}
 					}
 					&.columns-3 {
 						@include width-column(3.2);
+						@media (max-width: $gl-sm-screen) {
+							@include width-column(1.4);
+						}
 					}
 					&.columns-4 {
 						@include width-column(4.1);
+						@media (max-width: $gl-sm-screen) {
+							@include width-column(1.4);
+						}
 					}
 					&.columns-5 {
 						@include width-column(5.1);
+						@media (max-width: $gl-sm-screen) {
+							@include width-column(1.4);
+						}
 					}
 					&.columns-6 {
 						@include width-column(6.1);
+						@media (max-width: $gl-sm-screen) {
+							@include width-column(1.4);
+						}
 					}
 				}
 			}
@@ -82,27 +97,44 @@
 				@include flex-row($gap: "none", $wrap: "wrap", $align-row-v: stretch);
 				
 				> li {
-					@media (max-width: $gl-sm-screen) {
-						@include width-column(2);
-					}
 					
 					&.columns-1 {
+						/* number of columns for large screens */
 						@include width-column(1);
+						@media (max-width: $gl-sm-screen) {
+							/* number of columns for small screens */
+							@include width-column(1);
+						}
 					}
 					&.columns-2 {
 						@include width-column(2);
+						@media (max-width: $gl-sm-screen) {
+							@include width-column(1);
+						}
 					}
 					&.columns-3 {
 						@include width-column(3);
+						@media (max-width: $gl-sm-screen) {
+							@include width-column(1);
+						}
 					}
 					&.columns-4 {
 						@include width-column(4);
+						@media (max-width: $gl-sm-screen) {
+							@include width-column(1);
+						}
 					}
 					&.columns-5 {
 						@include width-column(5);
+						@media (max-width: $gl-sm-screen) {
+							@include width-column(2);
+						}
 					}
 					&.columns-6 {
 						@include width-column(6);
+						@media (max-width: $gl-sm-screen) {
+							@include width-column(2);
+						}
 					}
 				}
 			}

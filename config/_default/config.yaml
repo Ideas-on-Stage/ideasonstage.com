@@ -114,10 +114,7 @@ languages:
             contact:
                 enable: true
                 title: "Contact us"
-                subtitle: "Any questions? Use the form below and we'll get back to you shortly"
-                buttonText: "Send message"
-                wait: "Please Wait..."
-                success: "Thank you, we'll get back to you shortly."
+                description: "Any questions? Use the form below and we'll get back to you shortly"
                 recaptchasitekey: "6LdPO_4UAAAAAOkPGjWhZSJaqJKKR4XOrf8Xyfs0"
                 missingcaptcha: "Please Enter CAPTCHA Code.\n"
                 wrongcaptcha: "The CAPTCHA Code Does Not Match.\n"
@@ -138,7 +135,11 @@ languages:
                     message:
                         text: "Let us know how we can help you *"
                         warning: "Please enter a message."
-            
+                    button:
+                        text: "Send message"
+                        success: "Thank you, we'll get back to you shortly."
+                        wait: "Please Wait..."
+                
             # -------------------
             # Events list
             events:
@@ -281,10 +282,7 @@ languages:
             contact:
                 enable: true
                 title: "Contact us"
-                subtitle: "Any questions? Use the form below and we'll get back to you shortly"
-                buttonText: "Send message"
-                wait: "Please Wait..."
-                success: "Thank you, we'll get back to you shortly."
+                description: "Any questions? Use the form below and we'll get back to you shortly"
                 recaptchasitekey: "6LdPO_4UAAAAAOkPGjWhZSJaqJKKR4XOrf8Xyfs0"
                 missingcaptcha: "Please Enter CAPTCHA Code.\n"
                 wrongcaptcha: "The CAPTCHA Code Does Not Match.\n"
@@ -305,6 +303,10 @@ languages:
                     message:
                         text: "Let us know how we can help you *"
                         warning: "Please enter a message."
+                    button:
+                        text: "Send message"
+                        success: "Thank you, we'll get back to you shortly."
+                        wait: "Please Wait..."
             
             # -------------------
             # Events list
@@ -413,11 +415,7 @@ languages:
             contact:
                 enable: true
                 title: "Contactez-nous"
-                subtitle: "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
-                contactphone: ""
-                buttonText: "Envoyer"
-                wait: "Veuillez patienter..."
-                success: "Merci, nous vous répondrons rapidement."
+                description: "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
                 recaptchasitekey: "6LcHff4UAAAAAJOGp7-jMBjBd70L_WuN_YZFAO6q"
                 missingcaptcha: "Veuillez entrer le code CAPTCHA.\n"
                 wrongcaptcha: "Le code CAPTCHA ne correspond pas.\n"
@@ -438,7 +436,11 @@ languages:
                     message:
                         text: "Votre message *"
                         warning: "S'il vous plaît entrer un message."
-            
+                    button:
+                        text: "Envoyer"
+                        success: "Merci, nous vous répondrons rapidement."
+                        wait: "Veuillez patienter..."
+          
             # -------------------
             # Events list
             events:
@@ -585,11 +587,8 @@ languages:
             contact:
                 enable: true
                 title: "Contacta con nosotros"
-                subtitle: "¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible"
+                description: "¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible"
                 contactemail: "[info@ideasonstage.com](mailto:info@ideasonstage.com)"
-                buttonText: "Enviar mensaje"
-                wait: "Un momento ..."
-                success: "Gracias, en breve nos pondremos en contacto contigo."
                 recaptchasitekey: "6Lcnff4UAAAAAG8RHxmsXXggu-WaRriMcsYB5rgG"
                 missingcaptcha: "Introduzca el código CAPTCHA.\n"
                 wrongcaptcha: "El código CAPTCHA no coincide.\n"
@@ -610,6 +609,10 @@ languages:
                     message:
                         text: "Tu Mensaje *"
                         warning: "Por favor, escribe un mensaje."
+                    button:
+                        text: "Enviar mensaje"
+                        success: "Gracias, en breve nos pondremos en contacto contigo."
+                        wait: "Un momento ..."
             
             # -------------------
             # Location

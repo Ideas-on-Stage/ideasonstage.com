@@ -5,10 +5,12 @@
 			note: to have all items have the same height on a given row,
 			use stretch in the flex-parent definition.
 		*/
+		margin: 0;
+		padding: 0;
 		flex-grow: 0; /* do not grow horizontally */
 		flex-shrink: 0; /* and do not shrink horizontally */
 		border-radius: 5px;
-		margin: 0;
+		overflow: hidden;
 		
 		/* text container containing title, description and button of item */
 		.text {

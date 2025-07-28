@@ -1,37 +1,132 @@
-<aside>
-	<section id="contact" class="cl-bodybottom-contact-form">
-		<h2>
-			{{ with .Params.contact.title }}
-				{{ . | markdownify }}
-			{{ else }}
-				{{ site.Params.contact.title | markdownify }}
-			{{ end }}
-		</h2>
-		<p>
-			{{ with .Params.contact.subtitle }}
-				{{ . | markdownify }}
-			{{ else }}
-				{{ site.Params.contact.subtitle | markdownify }}
-			{{ end }}
-		</p>
+{{/* <!--
+	
+bodybottom-contact-form.html
+
+The standard contact form for the website.
+
+Parameters are defined in the site config.yaml file.
+
+The following parameters can be customized in the page front matter,
+using the following yaml structure:
+
+contact:
+    title: "title of the form"
+    description: "descriptive text below the title"
+    form:
+        button:
+            text: "label of the button"
+	
+--> */}}
+
+{{/* <!-- get title from page front matter or from site config --> */}}
+{{- $title := false -}}
+{{- with .Params.contact.title -}}
+	{{- $title = . -}}
+{{- else -}}
+	{{- $title = site.Params.contact.title }}
+{{- end -}}
+
+{{/* <!-- get description from page front matter or from site config --> */}}
+{{- $description := false -}}
+{{- with .Params.contact.description }}
+	{{- $description = . }}
+{{- else -}}
+	{{ $description = site.Params.contact.description }}
+{{- end -}}
+
+{{- $nametext := site.Params.contact.form.name.text -}}
+{{- $namewarn := site.Params.contact.form.name.warning -}}
+
+{{- $emailtext := site.Params.contact.form.email.text -}}
+{{- $emailwarn := site.Params.contact.form.email.warning -}}
+
+{{- $phonetext := site.Params.contact.form.phone.text -}}
+{{- $phonewarn := site.Params.contact.form.phone.warning -}}
+
+{{- $countrytext := site.Params.contact.form.country.text -}}
+{{- $countrywarn := site.Params.contact.form.country.warning -}}
+
+{{- $messagetext := site.Params.contact.form.message.text -}}
+{{- $messagewarn := site.Params.contact.form.message.warning -}}
+
+{{- $buttontext := false -}}
+{{- with .Params.contact.form.button.text }}
+	{{- $buttontext = . -}}
+{{- else -}}
+	{{- $buttontext = site.Params.contact.form.button.text -}}
+{{- end -}}
+
+{{- $buttonsuccess := site.Params.contact.form.button.success -}}
+{{- $buttonwait := site.Params.contact.form.button.wait -}}
+
+<aside id="contact" class="cl-bodybottom-contact-form">
 		
-		<form action="{{ .RelPermalink }}" method="POST" netlify netlify-honeypot="bot-field" name="contactForm" id="ioscontactForm" class="cl-form">
-			
-			<input type="hidden" name="_subject" value="Form sent from page: {{ .Permalink }}">
-			
-			<input type="text" id="fname" name="name" class="field" placeholder="{{ with .Site.Params.contact.form.name.text }}{{ .  | markdownify }}{{ end }}" oninvalid="alert('{{ with .Site.Params.contact.form.name.warning  }}{{ .  | markdownify }}{{ end }}');" required>
-			
-			<input type="email" id="email" name="email" class="field" placeholder="{{ with .Site.Params.contact.form.email.text }}{{ . | markdownify }}{{ end }}" pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}" oninvalid="alert('{{ with .Site.Params.contact.form.email.warning }}{{ .  | markdownify }}{{ end }}');" required>
-			
-			<input type="tel" id="phone" name="phone" class="field" placeholder="{{ with .Site.Params.contact.form.phone.text }}{{ . | markdownify }}{{ end }}" pattern="^[0-9-+\s()]*$" oninvalid="alert('{{ with .Site.Params.contact.form.phone.warning  }}{{ .  | markdownify }}{{ end }}');">
-			
-			<input type="text" id="country" name="country" class="field" placeholder="{{ with .Site.Params.contact.form.country.text }}{{ .  | markdownify }}{{ end }}" oninvalid="alert('{{ with .Site.Params.contact.form.country.warning  }}{{ .  | markdownify }}{{ end }}');">
-			
-			<textarea id="message" name="message" class="field" placeholder="{{ with .Site.Params.contact.form.message.text }}{{ . | markdownify }}{{ end }}" oninvalid="alert('{{ with .Site.Params.contact.form.message.warning }}{{ .  | markdownify }}{{ end }}');" required></textarea>
-			
-			<input type="submit" id="contactsubmit" value="{{ with .Site.Params.contact.buttonText }}{{ . | markdownify }}{{ end }}" class="cl-core--button-primary" success="{{ with .Site.Params.contact.success }}{{ . }}{{ end }}" wait="{{ with .Site.Params.contact.wait }}{{ . }}{{ end }}">
-			
-		</form>
-			
-	</section>
+	<h2>
+		{{ with $title }}{{ . | markdownify }}{{ end }}
+	</h2>
+	
+	<p>
+		{{ with $description }}{{ . | markdownify }}{{ end }}
+	</p>
+	
+	<form id="ioscontactForm"
+		action="{{ .RelPermalink }}"
+		method="POST"
+		netlify netlify-honeypot="bot-field"
+		name="contactForm"
+		class="cl-form">
+		
+		<input id="sentfrom"
+			type="hidden"
+			name="_subject"
+			value="Form sent from page: {{ .Permalink }}">
+		
+		<input id="fname"
+			type="text"
+			name="name"
+			class="field"
+			placeholder="{{ $nametext }}"
+			oninvalid="alert('{{ $namewarn }}');"
+			required>
+		
+		<input id="email"
+			type="email"
+			name="email"
+			class="field"
+			placeholder="{{ $emailtext }}"
+			pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}"
+			oninvalid="alert('{{ $emailwarn }}');"
+			required>
+		
+		<input id="phone"
+			type="tel"
+			name="phone"
+			class="field"
+			placeholder="{{ $phonetext }}"
+			pattern="^[0-9-+\s()]*$"
+			oninvalid="alert('{{ $phonewarn }}');">
+		
+		<input id="country"
+			type="text"
+			name="country"
+			class="field"
+			placeholder="{{ $countrytext }}"
+			oninvalid="alert('{{ $countrywarn }}');">
+		
+		<textarea id="message"
+			name="message"
+			class="field"
+			placeholder="{{ $messagetext }}"
+			oninvalid="alert('{{ $messagewarn }}');"
+			required></textarea>
+		
+		<input id="contactsubmit"
+			type="submit"
+			value="{{ $buttontext }}"
+			class="cl-core--button-primary"
+			success="{{ $buttonsuccess }}"
+			wait="{{ $buttonwait }}">
+		
+	</form>
+	
 </aside>
