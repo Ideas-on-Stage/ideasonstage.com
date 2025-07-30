@@ -3,7 +3,7 @@ draft: false
 type: full # full-width layout
 title: "Formation Leadership Humanava"
 description: "Une formation pour développer votre posture de leader."
-translationKey: "presentations-training"
+translationKey: "leadership-training-humanava"
 ni: true
 contact:
   description: Contactez-nous pour en savoir plus sur la formation Leadership et nous vous répondrons rapidement.
@@ -32,7 +32,6 @@ Les formations de prise de parole d'Ideas on Stage ont révélé le potentiel de
 
 
 {{< shortcode-fulltext
-  img="humanava-arnaud-janet.jpg"
   color="#FFFFFF"
   bgcolor="#A886D6"
   align="center" >}}
@@ -94,10 +93,10 @@ Chaque étape du parcours s’inscrit dans une dynamique claire : un rythme d’
   {{< /shortcode-item-card >}}
   
   {{< shortcode-item-card
-    title="### Changement et Croissance"
-    description="Développer sa capacité à évoluer, à accompagner le changement et à incarner un leadership vivant."
     bgcolor="#FFF9F3"
     columns="3" >}}
+  ### Changement et Croissance
+  Développer sa capacité à évoluer, à accompagner le changement et à incarner un leadership vivant.
   {{< /shortcode-item-card >}}
 
 {{< /shortcode-items >}}
