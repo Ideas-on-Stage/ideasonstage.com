@@ -6,19 +6,18 @@
 		overflow: hidden;
 		padding: 4vw;
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
-		
-		h2 {
-			margin-bottom: 0;
-		}
-		
-		p {
-			margin-top: 0.5em;
-		}
-		
-		.main {
+		.text {
 			flex-grow: 1; /* take all available vertical space in parent */
-			text-align: center;
+			
+			h2 {
+				margin-bottom: 0;
+			}
+			
+			p {
+				margin-top: 0.5em;
+			}
 		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/textscheme.scss" . }}		
 	}

@@ -32,9 +32,7 @@ Les formations de prise de parole d'Ideas on Stage ont révélé le potentiel de
 
 
 {{< shortcode-fulltext
-  color="#FFFFFF"
-  bgcolor="#A886D6"
-  align="center" >}}
+  bgcolor="#A886D6" >}}
 ## Qui est Humanava ?
 Une école de leadership nouvelle génération, qui allie introspection, pratique et inspiration, pour aider chacun·e à révéler son potentiel et à grandir en tant que leader humain·e et engagé·e.
 

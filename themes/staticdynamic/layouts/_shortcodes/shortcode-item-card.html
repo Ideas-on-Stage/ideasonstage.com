@@ -1,75 +1,56 @@
 {{/* <!--
 	
 	{{< shortcode-item-card >}}
+	{{< /shortcode-item-card >}}
 	
 	Inserts a "card" item.
 	Card items contain a title, text and a picture (all optional) in a card layout with rounded corner.
 	
 	Parameters:
-	- .Inner: text to display on the card
+	- class: helper classes to format item
+	- columns: number of columns for image (e.g. 3 will make image take one third of horizontal space)
 	- img: url for image file
 	- alt: text for image description
-	- columns: number of columns for image (e.g. 3 will make image take one third of horizontal space)
-	- class: additional helper classes to format item
+	- .Inner: text to display on the card
+	- bgcolor: background color
+	- color: text color
 
 --> */}}
 
-{{/* <!-- get class parameter (optional) --> */}}
-{{- $columns := (.Get "columns") -}}
-{{- if $columns -}}
-	{{- $columns = printf "columns-%s" $columns -}}
-{{- else -}}
-	<p>shortcode-item-card: missing mandatory columns parameter</p>
-{{- end -}}
-{{- $class := printf "class=\"cl-shortcode-item-card %s %s\"" $columns (.Get "class") -}}
-
-{{/* <!-- get title and description (optional) --> */}}
-{{- $text := false -}}
-{{- $title := .Get "title" -}}
-{{- $description := .Get "description" -}}
-{{- if or $title $description -}}
-	{{- $text = printf "%s\n%s\n" $title $description -}}
-{{- end -}}
-
-{{/* <!-- get img (optional) --> */}}
-{{- $srcset := false -}}
+{{/* <!-- get shortcode parameters --> */}}
+{{- $class := (.Get "class") -}}
+{{- $classcolumns := (.Get "columns") -}}
 {{- $img := .Get "img" -}}
-{{- with $img -}}
-	{{ $srcset = partial "f/getpicturesrcset.go" $img }}
-	{{ $img = index $srcset 0 }}
-	{{ $srcset = printf "srcset=\"%s\"" (index $srcset 1) }}
+{{- $imgalt := .Get "alt" -}}
+{{- $inner := .Inner -}}
+{{- $stylebgcolor := .Get "bgcolor" -}}
+{{- $stylecolor := .Get "color" -}}
+
+{{/* <!-- get class --> */}}
+{{- if $classcolumns -}}
+	{{- $classcolumns = printf "columns-%s" $classcolumns -}}
 {{- end -}}
+{{- $class = partial "f/gethtmlattrclass.go" (slice "cl-shortcode-item-card" $class $classcolumns) -}}
 
 {{/* <!-- get alt --> */}}
-{{- $alt := .Get "alt" -}}
-{{- with $alt -}}
-	{{- $alt = printf "alt=\"%s\"" . -}}
+{{- with $imgalt -}}
+	{{- $imgalt = printf "alt=\"%s\"" . -}}
 {{- end -}}
 
-{{/* <!-- get background color (optional) --> */}}
-{{- $bgcolor := .Get "bgcolor" -}}
-{{- with $bgcolor -}}
-	{{- $bgcolor = printf "style=\"background-color:%s\"" . -}}
-{{- end -}}
+{{/* <!-- get background color --> */}}
+{{- $stylebgcolor = partial "f/gethtmlattrstyle.go" (dict "background-color" $stylebgcolor) -}}
 
-{{/* <!-- get text color (optional) --> */}}
-{{- $color := .Get "color" -}}
-{{- with $color -}}
-	{{- $color = printf "style=\"color:%s\"" . -}}
-{{- end -}}
+{{/* <!-- get text color --> */}}
+{{- $stylecolor = partial "f/gethtmlattrstyle.go" (dict "color" $stylecolor) -}}
 
-<li {{ with $class }}{{ . | safeHTMLAttr }}{{ end }}
-	{{ with $bgcolor }}{{ . | safeHTMLAttr }}{{ end }}>
-	{{- with .Inner -}}
-		<div class="text"
-			{{ with $color }}{{ . | safeHTMLAttr }}{{ end }}>
-			{{ . | markdownify }}
-		</div>
+<li
+	{{ with $class }}{{ . | safeHTMLAttr }}{{ end }}
+	{{ with $stylebgcolor }}{{ . | safeHTMLAttr }}{{ end }}>
+	{{- with $inner -}}
+	<div class="text"
+		{{ with $stylecolor }}{{ . | safeHTMLAttr }}{{ end }}>
+		{{ . | markdownify }}
+	</div>
 	{{- end -}}
-	{{- with $img -}}
-		<img src="{{ . }}"
-			loading="lazy" 
-			{{ with $srcset }}{{ . | safeHTMLAttr }}{{ end }}
-			{{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}>
-	{{- end -}}
+	{{ partial "e/picture" .Params }}
 </li>

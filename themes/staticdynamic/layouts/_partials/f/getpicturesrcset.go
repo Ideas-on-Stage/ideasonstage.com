@@ -19,18 +19,22 @@
 --> */}}
 
 {{ $imgSrc := "" }}
-{{ $imgSrcSet := slice }}
-{{ $image := "" }}
+{{ $imgSrcSet := false }}
+{{ $image := false }}
 
-{{ if (partial "f/ispage.go" .) }}
-	<!-- 1. Try to get image as page resource if argument is a page object -->
-	{{ $image = .Resources.Get .Params.picture }}	
-{{ else if (partial "f/isstring.go" .) }}
-	<!-- 2. Try to get image as page resource, but with current page as reference -->
-	{{ $image = page.Resources.Get . }}
-	{{ if not $image }}
-		<!-- 3. If no result, try to get image from global resources in /assets -->
-		{{ $image = resources.Get . }}
+{{ if . }}
+	{{ if ne "" . }}
+		{{ if (partial "f/ispage.go" .) }}
+			<!-- 1. Try to get image as page resource if argument is a page object -->
+			{{ $image = .Resources.Get .Params.picture }}	
+		{{ else if (partial "f/isstring.go" .) }}
+			<!-- 2. Try to get image as page resource, but with current page as reference -->
+			{{ $image = page.Resources.Get . }}
+			{{ if not $image }}
+				<!-- 3. If no result, try to get image from global resources in /assets -->
+				{{ $image = resources.Get . }}
+			{{ end }}
+		{{ end }}
 	{{ end }}
 {{ end }}
 
@@ -48,6 +52,7 @@
 		format: "/path/img_1000.jpg 1000w,/path/img_500.jpg 500w"
 		Note: the first URL is used as "fallback" src in $imgSrc.
 		-->
+		{{ $imgSrcSet = slice }}
 		{{ range $scales }}
 			{{ $scale := .scale }}
 			{{ if (strings.Contains $image.RelPermalink "logos") }}
@@ -69,8 +74,12 @@
 		{{ $imgSrcSet = slice . . }}
 	{{ end }}
 {{ else }}
-	<!-- 3. If no resource found, fall back to using default image -->
-	{{ $imgSrcSet = slice . . }}
+	<!-- If no resource found, fall back to using default image -->
+	{{ if . }}
+		{{ if ne "" . }}
+			{{ $imgSrcSet = slice . . }}
+		{{ end }}
+	{{ end }}
 {{ end }}
 
 {{ return $imgSrcSet }}

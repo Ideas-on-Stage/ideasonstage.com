@@ -25,20 +25,14 @@ Ideas on Stage s'associe avec Marion Chapsal, spécialiste de la prise de parole
 
 
 
-{{< shortcode-fullbleed
-  img="humanava-arnaud-janet.jpg" >}}
-{{< /shortcode-fullbleed >}}
-
-
-
 {{< shortcode-fulltext
   color="#FFFFFF"
   bgcolor="#A886D6"
-  align="center" >}}
-## À propos de Marion Chapsal
-Une école de leadership nouvelle génération, qui allie introspection, pratique et inspiration, pour aider chacun·e à révéler son potentiel et à grandir en tant que leader humain·e et engagé·e.
+  classtext="center" >}}
+## Le mot de Marion Chapsal, fondatrice du programme
+J'ai créé Women on Stage en 2019, pour répondre à un besoin essentiel.
 
-Notre différence ? Des masterclass cinématographiques, un accompagnement humain, et un parcours conçu pour transformer en profondeur la façon de diriger.
+Ce besoin, je l'ai identifié au fil de mes 30 années d'expérience professionnelle à coacher des femmes leader.
 {{< /shortcode-fulltext >}}
 
 
@@ -106,8 +100,8 @@ Le parcours que nous proposons vous permettra de mieux vous connaître et de dé
 {{< shortcode-fullbleed
   img="number-1.svg"
   alt="coaching collectifs" >}}
-## Des coachings collectifs pour ancrer la pratique
-À la fin de chaque module, vous participez à un coaching de groupe en visio animé par un·e coach professionnel·le. Ces sessions vous permettent de clarifier vos idées, de partager vos expériences, et de transformer l’apprentissage en action concrète.
+## En option, un coaching de carrière personnalisé
+La formation « Women on Stage » est un pas important vers une posture de leadership authentique, saine et naturelle, mais notre programme ne s'arrête pas là. Si vous le souhaitez, notre équipe d'expertes peut vous accompagner dans le développement de votre carrière : image, communication, positionnement.
 {{< /shortcode-fullbleed >}}
 
 
@@ -121,8 +115,8 @@ Le parcours que nous proposons vous permettra de mieux vous connaître et de dé
 {{< shortcode-fullbleed
   img="number-2.svg"
   alt="espace de confiance" >}}
-## Un espace de confiance pour grandir en profondeur
-Chez Humanava, nous croyons que la transformation ne peut avoir lieu que dans un espace sûr, bienveillant et exigeant à la fois. C’est ce que nous cultivons tout au long du parcours : un cadre humain, où chacun·e peut avancer à son rythme, explorer en profondeur, et évoluer sans masque.
+## 3 formules « Women on Stage »
+(proposer trois formules: 1 jour, 2 jours, coaching long terme)
 {{< /shortcode-fullbleed >}}
 
 
@@ -144,48 +138,29 @@ Pendant et après le parcours, vous rejoignez un collectif de leaders engagé·e
 
 {{< shortcode-items
   type="grid"
-  title="## Une équipe d'experts incroyables"
   class="padding-top padding-bottom width-content gridgap"
   bgcolor="#5C2183"
   color="#FFF" >}}
+  ## Des formatrices senior, expertes de la prise de parole
 
   {{< shortcode-item-card
-    img="expert-thomas-pesquet.jpg"
-    alt="Thomas Pesquet"
     bgcolor="white"
-    columns="4" >}}
-  ### Thomas Pesquet
-  Ancien pilote de chasse, astronaute.
+    columns="3" >}}
+  ### Christine Besneux
+  {{< /shortcode-item-card >}}
+  
+  {{< shortcode-item-card
+    alt="Marion Chapsal"
+    bgcolor="white"
+    columns="3" >}}
+  ### Marion Chapsal
+  Spécialiste du leadership au féminin. Enseigne à EM Lyon.
   {{< /shortcode-item-card >}}
     
   {{< shortcode-item-card
     bgcolor="white"
-    columns="4" >}}
-  ### Expert 2
+    columns="3" >}}
+  ### Valérie Lagabe
   {{< /shortcode-item-card >}}
-    
-  {{< shortcode-item-card
-    bgcolor="white"
-    columns="4" >}}
-  ### Expert 3
-  {{< /shortcode-item-card >}}
-    
-  {{< shortcode-item-card
-    bgcolor="white"
-    columns="4" >}}
-  ### Expert 4
-  {{< /shortcode-item-card >}}
-    
-  {{< shortcode-item-card
-    bgcolor="white"
-    columns="4" >}}
-  ### Expert 5
-  {{< /shortcode-item-card >}}
-    
-  {{< shortcode-item-card
-    bgcolor="white"
-    columns="4" >}}
-  ### Expert 6
-  {{< /shortcode-item-card >}}
-
+  
 {{< /shortcode-items >}}

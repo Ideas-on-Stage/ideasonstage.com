@@ -15,7 +15,7 @@
 		{{ partial "e/textscheme.scss" . }}
 	}
 
-	.cl-shortcode-fullbleed--main {
+	.text {
 		@include width-content();
 		flex-grow: 1; /* take all available vertical space in parent */
 		text-align: center;

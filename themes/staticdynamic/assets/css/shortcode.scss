@@ -37,6 +37,16 @@
 		&.bg-secondary {
 			padding: 4vw;
 		}
+		
+		.center {
+			text-align: center;
+		}
+		.left {
+			text-align: left;
+		}
+		.right {
+			text-align: right;
+		}
 	}
 
 	/* add marging space between shortcode and non-shortcode elements e.g. a .cl-shortcode followed by a p */

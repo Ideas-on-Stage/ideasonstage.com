@@ -1,39 +1,61 @@
 {{/* <!--
 
+	{{< shortcode-fullbleed >}}
+	{{< /shortcode-fullbleed >}}
+	
+	Inserts a full-bleed image with text on top.
+	Both img and text are optional, but then it's a bit pointless.
+	
+	Parameters:
+	- class: classes for container
+	- classtext: classes for text. Use "top" "middle" or "bottom" to align text vertically.
+		Will default to "middle" if omitted.
+	- img: url for image file
+	- alt: text for image description
+	- .Inner: text content
+	- bgcolor: style background color for container.
+		Examples: #000, white, black, #FFEEAA 
+		Tip: use rgba(0,0,0,.5) for a 50% black overlay on picture.
+	- color: style color for text
+	
 --> */}}
 {{ "<!-- shortcodes-fullbleed.html:start -->" | safeHTML }}
-{{/* <!-- determine where text will be displayed (top, middle, bottom) --> */}}
 
-{{- $align := .Get "align" -}}
-{{- if $align -}}
-	{{- if eq .Params.align "middle" -}}
-		{{- $align = "middle" -}}
-	{{- else if eq .Params.align "top" -}}
-		{{- $align = "top" -}}
-	{{- else if eq .Params.align "bottom" -}}
-		{{- $align = "bottom" -}}
-	{{- end -}}
-{{- else -}}
-	{{- $align = "middle" -}}
-{{- end -}}
-
-{{- $bgcolor := .Get "bgcolor" -}}
-
-{{- $bgopacity := .Get "bgopacity" -}}
-
+{{/* <!-- get shortcode parameters --> */}}
 {{- $class := .Get "class" -}}
-
+{{- $classtext := .Get "classtext" -}}
 {{- $img := .Get "img" -}}
+{{- $imgalt := .Get "alt" -}}
+{{- $inner := .Inner -}}
+{{- $stylebgcolor := .Get "bgcolor" -}}
+{{- $stylecolor := .Get "color" -}}
 
-{{- $title := .Get "title" -}}
+{{/* <!-- get background color --> */}}
+{{- $stylebgcolor = partial "f/gethtmlattrstyle.go" (dict "background-color" $stylebgcolor) -}}
+
+{{/* <!-- get class --> */}}
+{{- $class = partial "f/gethtmlattrclass.go" (slice "cl-shortcode cl-shortcode-fullbleed" $class) -}}
+
+{{/* <!-- get classtext - if not defined, set it to "middle" by default --> */}}
+{{- if not $classtext -}}
+	{{- $classtext = "middle" -}}
+{{- end -}}
+{{- $classtext = partial "f/gethtmlattrclass.go" (slice "text" $classtext) -}}
+
+{{/* <!-- get text color --> */}}
+{{- $stylecolor = partial "f/gethtmlattrstyle.go" (dict "color" $stylecolor) -}}
 
 {{/* <!-- insert the full-bleed section --> */}}
-<section class="cl-shortcode cl-shortcode-fullbleed {{ with $class }}{{ . }}{{ end }}" {{ with $bgopacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }} {{ with $bgcolor }}style="background-color:{{ . }};"{{ end }}>
+<section 
+	{{ with $class }}{{ . | safeHTMLAttr }}{{ end }}
+	{{ with $stylebgcolor }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{ partial "e/picture" .Params }}
-	<div class="cl-shortcode-fullbleed--main {{ $align }}">
-		{{- with .Inner -}}
+	{{- with $inner -}}
+	<div
+		{{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }}
+		{{ with $stylecolor }}{{ . | safeHTMLAttr }}{{ end }}>
 		{{ . | markdownify }}
-		{{- end -}}
 	</div>
+	{{- end -}}
 </section>
 {{ "<!-- shortcode-fullbleed.html:end -->" | safeHTML }}
