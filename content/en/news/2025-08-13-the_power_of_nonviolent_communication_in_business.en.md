@@ -7,15 +7,9 @@ date = "2025-08-13"
 author = "Andrea Pacini"
 banner = "/img/news/copy_of_template_for_youtube_thumbnail-marym.jpg"
 +++
-
-
 ![Andrea Pacini and Mary Mackenzie in Zoom ](/img/news/copy_of_template_for_youtube_thumbnail-marym.jpg "Andrea and Mary ")
 
-
-
 *In this episode of the Ideas on Stage Podcast, Mary Mackenzie shares how Nonviolent Communication (NVC) helps leaders and professionals build stronger relationships, give feedback without defensiveness, and align their actions with their values. Learn practical strategies to communicate with empathy, clarity and impact.*
-
-
 
 In [this episode of the **Ideas on Stage Podcast**](https://youtu.be/bcMSQ12jAXs)**,** Mary Mackenzie, Certified Trainer of Nonviolent Communication and CEO of the NVC Academy, joined us to explore the power of Nonviolent Communication (NVC) in leadership, business and everyday life.
 
@@ -38,6 +32,8 @@ Throughout the conversation, Mary shared some real-life examples that illustrate
 This conversation with Mary Mackenzie offered valuable insights into empathy, feedback and how to communicate in ways that strengthen connection and trust.
 
 To hear more of Mary’s perspective on Nonviolent Communication, [watch the full interview on YouTube.](https://youtu.be/bcMSQ12jAXs) 
+
+
 {{< shortcode-youtube bcMSQ12jAXs >}}  
 
 **Want to learn more?** 
