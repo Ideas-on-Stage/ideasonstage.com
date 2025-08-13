@@ -46,7 +46,7 @@ These videos can help you to go deeper and may also help you to convince your co
 
 <br />
 
-{{> youtube kDFJlcLyAuE >}}
+{{< shortcode-youtube kDFJlcLyAuE >}}
 
 ## Downloadable Resources
 
