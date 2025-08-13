@@ -574,6 +574,7 @@
 	}
 	
 	@mixin width-full() {
+		/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column */
 		flex-basis: 100%;
 		width: 100%;
 		max-width: 100%;
@@ -588,6 +589,7 @@
 
 	@mixin width-full-sm-screen {
 		@media (max-width: $gl-sm-screen) {
+			/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column */
 			flex-basis: 100%;
 			width: 100%;
 		}

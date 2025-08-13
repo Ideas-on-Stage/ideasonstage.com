@@ -1,6 +1,9 @@
 # !!! TEST A REDIRECTION AFTER MODIFYING THE FILE TO BE SURE IT'S CORRECT
 # 1 mistake and the whole file may be ignored by Netlify
 
+# --------
+# TOP LEVEL DOMAIN NAMES REDIRECTS
+
 # PERMANENT redirect .es .fr sites to /es/ /fr/
 [[redirects]]
 	from	= "https://www.ideasonstage.es/*"
@@ -12,6 +15,11 @@
 	to		= "https://www.ideasonstage.com/fr/:splat"
 	status	= 301
 	force	= true
+
+
+
+# --------
+# SUBDOMAIN NAMES REDIRECTS
 
 # redirect bienvenue
 [[redirects]]
@@ -39,26 +47,6 @@
 	status	= 301
 	force	= true
 
-# redirect satisfaction (partners satisfaction questionnaire link)
-[[redirects]]
-	from	= "https://satisfaction.ideasonstage.com/*"
-	to		= "https://www.survio.com/survey/d/K5J7A9O3T5J3I0G8I"
-	status	= 301
-	force	= true
-
-
-# redirect in (linkedin)
-[[redirects]]
-	from	= "https://www.ideasonstage.com/in/"
-	to		= "https://www.linkedin.com/company/ideas-on-stage/"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://in.ideasonstage.com/*"
-	to		= "https://www.linkedin.com/company/ideas-on-stage/"
-	status	= 301
-	force	= true
-
 # redirect revolution
 [[redirects]]
 	from	= "https://revolution.ideasonstage.com/*"
@@ -69,12 +57,36 @@
 	from	= "https://revolution.ideasonstage.com/fr/*"
 	to		= "https://www.ideasonstage.com/fr/revolution/"
 	status	= 301
-	force	= true	
+	force	= true
+
+# redirect satisfaction (partners satisfaction questionnaire link)
+[[redirects]]
+	from	= "https://satisfaction.ideasonstage.com/*"
+	to		= "https://www.survio.com/survey/d/K5J7A9O3T5J3I0G8I"
+	status	= 301
+	force	= true
 
 # redirect training
 [[redirects]]
 	from	= "https://training.ideasonstage.com/*"
 	to		= "https://www.ideasonstage.com/public-speaking-training/docs/:splat"
+	status	= 301
+	force	= true
+
+
+
+# --------
+# EXTERNAL URL REDIRECTS
+
+# redirect in (linkedin)
+[[redirects]]
+	from	= "https://www.ideasonstage.com/in/"
+	to		= "https://www.linkedin.com/company/ideas-on-stage/"
+	status	= 301
+	force	= true
+[[redirects]]
+	from	= "https://in.ideasonstage.com/*"
+	to		= "https://www.linkedin.com/company/ideas-on-stage/"
 	status	= 301
 	force	= true
 
@@ -104,6 +116,27 @@
 	to		= "https://mailchi.mp/5975bea9212e/value-bundle/"
 	status	= 301
 	force	= true
+
+
+
+# --------
+# BPR BOOK REDIRECTS
+
+[[redirects]]
+	from	= "https://www.ideasonstage.com/business-presentation-revolution/book/bonus-content/"
+	to		= "https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/bonus-content/"
+	status	= 301
+	force	= true
+[[redirects]]
+	from	= "https://www.ideasonstage.com/fr/handicap/"
+	to		= "https://www.ideasonstage.com/rse/"
+	status	= 301
+	force	= true
+
+
+
+# --------
+# TEMPORARY CANONICAL FIX REDIRECTS
 
 # Temporary for duplicate different from Google canonical problem
 [[redirects]]
@@ -144,23 +177,6 @@
 	status	= 301
 	force	= true
 
-# services redirect
-[[redirects]]
-	from	= "https://www.ideasonstage.com/services/*"
-	to		= "https://www.ideasonstage.com/:splat"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/services/*"
-	to		= "https://www.ideasonstage.com/fr/:splat"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://www.ideasonstage.com/es/services/*"
-	to		= "https://www.ideasonstage.com/es/:splat"
-	status	= 301
-	force	= true
-
 # 2024-07-09
 [[redirects]]
 	from	= "https://www.ideasonstage.com/fr/rse/*"
@@ -175,7 +191,7 @@
 	status	= 301
 	force	= true
 
-# books en redirect
+# book confident presenter en redirect
 [[redirects]]
 	from	= "https://www.ideasonstage.com/resources/confident-presenter-book/"
 	to		= "https://www.ideasonstage.com/resources/books/confident-presenter-book/"
@@ -227,4 +243,3 @@
 	from	= "/*"
 	to		= "/404/"
 	status	= 404
-	
