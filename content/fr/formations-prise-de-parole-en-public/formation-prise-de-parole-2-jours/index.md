@@ -46,7 +46,7 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 - Exercice final de mise en pratique des acquis
 {{% /shortcode-agenda-list %}}
 
-{{< shortcode-space-medium style="bg-white" >}}
+
 
 {{% shortcode-agenda-list style="bg-light" %}}
 ### Programme jour 1

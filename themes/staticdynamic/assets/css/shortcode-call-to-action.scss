@@ -1,6 +1,11 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode-call-to-action {	
+	.cl-shortcode-call-to-action {
+		
+		.text {
+			@include firstlastchildnomargin();
+		}
+		
 		{{ partial "e/colorscheme.scss" . }}
 		{{ partial "e/textscheme.scss" . }}
 	}

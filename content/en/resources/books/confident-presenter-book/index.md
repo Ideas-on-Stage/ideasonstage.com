@@ -5,12 +5,12 @@ description: "Learn the five key principles to communicate a compelling message 
 showrefs: false
 
 imgalt:
-    - reader1.jpg: Reader 1 Confident Presenter
-    - reader2.jpg: Reader 2 Confident Presenter
-    - reader3.jpg: Reader 3 Confident Presenter
-    - reader4.jpg: Reader 4 Confident Presenter
-    - reader5.jpg: Reader 5 Confident Presenter
-    - reader6.jpg: Reader 6 Confident Presenter
+  - reader1.jpg: Reader 1 Confident Presenter
+  - reader2.jpg: Reader 2 Confident Presenter
+  - reader3.jpg: Reader 3 Confident Presenter
+  - reader4.jpg: Reader 4 Confident Presenter
+  - reader5.jpg: Reader 5 Confident Presenter
+  - reader6.jpg: Reader 6 Confident Presenter
 ---
 {{< shortcode-picture1-text2 picture="confident-presenter-book-2.png" title="Become a more credible, confident and convincing presenter." >}}
 Learn the five key principles to communicate a compelling message that inspires action, growth and impact.
@@ -20,19 +20,32 @@ Learn the five key principles to communicate a compelling message that inspires 
 
 Now Officially Included in New York University’s Business Communication Courses
 {{< /shortcode-picture1-text2 >}}
-{{< shortcode-call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" >}}
+
+
+
+{{< shortcode-call-to-action
+  class="margin-bottom"
+  button="ORDER NOW"
+  link="https://amzn.eu/d/bKswMEe" >}}
 {{< /shortcode-call-to-action >}}
 
-{{< shortcode-call-to-action style="bg-light" title="Discover your presentation score" picture="meter-orange.png" button="TAKE THE TEST NOW" link="https://presentationscorecard.scoreapp.com" >}}
+
+
+{{< shortcode-call-to-action
+  style="bg-light"
+  title="Discover your presentation score"
+  picture="meter-orange.png"
+  button="TAKE THE TEST NOW"
+  link="https://presentationscorecard.scoreapp.com" >}}
 To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book. After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. It’s free, easy and takes less than three minutes to complete.
 {{< /shortcode-call-to-action >}}
 
 ## An idea needs wings, and that means a strong, well-delivered presentation.
 
-{{< shortcode-picture1-text2 picture="andrea-pacini.jpg" >}}
-
+{{< shortcode-picture1-text2
+  class="margin-bottom"
+  picture="andrea-pacini.jpg" >}}
 ### Meet the Author
-
 Andrea Pacini is a presentation coach and Head of Ideas on Stage UK.
 
 He specialises in working with business owners, leaders and their teams who want to become more confident presenters.
@@ -46,13 +59,42 @@ Andrea is on a mission to stop great ideas from failing just because of the way 
 To get in touch or find out more, check out his [LinkedIn profile](https://www.linkedin.com/in/apacini/). 
 {{< /shortcode-picture1-text2 >}}
 
-{{< shortcode-gallery
-    "/resources/books/confident-presenter-book/reader1.jpg, Reader 1 selfie holding Confident Presenter book in front of him"
-    "/resources/books/confident-presenter-book/reader2.jpg, Reader 2 selfie holding Confident Presenter book in front of him"
-    "/resources/books/confident-presenter-book/reader3.jpg, Reader 3 selfie holding Confident Presenter book in front of him"
-    "/resources/books/confident-presenter-book/reader4.jpg, Reader 4 selfie holding Confident Presenter book in front of him"
-    "/resources/books/confident-presenter-book/reader5.jpg, Reader 5 selfie holding Confident Presenter book in front of him"
-    "/resources/books/confident-presenter-book/reader6.jpg, Reader 6 selfie holding Confident Presenter book in front of him" >}}
+{{< shortcode-list
+    type="grid" >}}
+
+{{< shortcode-list-pict
+    class="corners-square"
+    columns="3"
+    img="/resources/books/confident-presenter-book/reader1.jpg"
+    alt="Reader 1 selfie holding Confident Presenter book in front of him" >}}
+{{< shortcode-list-pict
+    class="corners-square"
+    columns="3"
+    img="/resources/books/confident-presenter-book/reader2.jpg"
+    alt="Reader 2 selfie holding Confident Presenter book in front of him" >}}
+{{< shortcode-list-pict
+    class="corners-square"
+    columns="3"
+    img="/resources/books/confident-presenter-book/reader3.jpg"
+    alt="Reader 3 selfie holding Confident Presenter book in front of him" >}}
+{{< shortcode-list-pict
+    class="corners-square"
+    columns="3"
+    img="/resources/books/confident-presenter-book/reader4.jpg"
+    alt="Reader 4 selfie holding Confident Presenter book in front of him" >}}
+{{< shortcode-list-pict
+    class="corners-square"
+    columns="3"
+    img="/resources/books/confident-presenter-book/reader5.jpg"
+    alt="Reader 5 selfie holding Confident Presenter book in front of him" >}}
+{{< shortcode-list-pict
+    class="corners-square"
+    columns="3"
+    img="/resources/books/confident-presenter-book/reader6.jpg"
+    alt="Reader 6 selfie holding Confident Presenter book in front of him" >}}
+
+{{< /shortcode-list >}}
+
 
 ## Want to book Andrea on your podcast? 
 
@@ -62,7 +104,9 @@ As the host of the Ideas on Stage podcast, Andrea understands what makes a great
 
 To enhance the value of your episode, Andrea can offer a special digital gift for your listeners.
 
-{{< shortcode-call-to-action button="BOOK ANDREA NOW" link="mailto:support.uk@ideasonstage.com" >}}
+{{< shortcode-call-to-action
+  class="margin-bottom"
+  button="BOOK ANDREA NOW" link="mailto:support.uk@ideasonstage.com" >}}
 {{< /shortcode-call-to-action >}}
 
 > "This book is the ultimate roadmap to what makes a memorable presentation. It’s the book I wish I had read when I started my career as a professional keynote speaker." 

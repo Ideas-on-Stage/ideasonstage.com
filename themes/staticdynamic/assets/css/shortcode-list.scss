@@ -1,0 +1,132 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-list {
+		@include ul-list-style-none;
+		
+		&.carousel {
+			@include flex-row($gap: "none", $wrap: "nowrap", $align-row-v: stretch, $align-h: center);
+			@include scroll-h;
+			padding-left: 1vw; /* add space on left */
+			padding-bottom: 1vw; /* add space between scroll and items */
+			
+			&.gap {
+				@include flex-row($gap: "gap", $wrap: "nowrap", $align-row-v: stretch);
+			}
+			
+			> li {
+				/* make width of carousel items narrower so that an item breaks across the right side of the screen */
+				&.columns-1 {
+					@include width-column(1.4);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(1.4);
+					}
+				}
+				&.columns-2 {
+					@include width-column(2.2);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(1.4);
+					}
+				}
+				&.columns-3 {
+					@include width-column(3.2);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(1.4);
+					}
+				}
+				&.columns-4 {
+					@include width-column(4.1);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(1.4);
+					}
+				}
+				&.columns-5 {
+					@include width-column(5.1);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(1.4);
+					}
+				}
+				&.columns-6 {
+					@include width-column(6.1);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(1.4);
+					}
+				}
+				&.columns-7 {
+					@include width-column(7.1);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(1.4);
+					}
+				}
+				&.columns-8 {
+					@include width-column(8.1);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(1.4);
+					}
+				}
+			}
+		}
+		
+		&.grid {
+			@include flex-row($gap: "none", $wrap: "wrap", $align-row-v: stretch, $align-h: center);
+			
+			&.gap {
+				@include flex-row($gap: "gap", $wrap: "wrap", $align-row-v: stretch, $align-h: center);
+			}
+			
+			> li {
+				&.columns-1 {
+					/* number of columns for large screens */
+					@include width-column(1);
+					@media (max-width: $gl-sm-screen) {
+						/* number of columns for small screens */
+						@include width-column(1);
+					}
+				}
+				&.columns-2 {
+					@include width-column(2);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(1);
+					}
+				}
+				&.columns-3 {
+					@include width-column(3);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(2);
+					}
+				}
+				&.columns-4 {
+					@include width-column(4);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(2);
+					}
+				}
+				&.columns-5 {
+					@include width-column(5);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(2);
+					}
+				}
+				&.columns-6 {
+					@include width-column(6);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(3);
+					}
+				}
+				&.columns-7 {
+					@include width-column(7);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(3);
+					}
+				}
+				&.columns-8 {
+					@include width-column(8);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(4);
+					}
+				}
+			}
+		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/textscheme.scss" . }}
+	}

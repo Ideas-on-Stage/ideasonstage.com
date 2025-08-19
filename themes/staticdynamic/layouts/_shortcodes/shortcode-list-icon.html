@@ -1,0 +1,34 @@
+{{/* <!--
+	icon-item shortcode
+	
+	Inserts an icon within an icon-list shortcode
+	
+	size: size of the icon, 20p, 25p, 33p, etc.
+	style: style for the icon
+	icon: icon to use
+	url: link for the icon
+--> */}}
+
+{{/* <!-- get parameters --> */}}
+{{- $class := partial "f/gethtmlattrclass.go" . -}}
+{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $columns := .Get "columns" -}}
+{{- $img := .Get "img" -}}
+{{- $alt := .Get "alt" -}}
+
+{{ "<!-- shortcode-list-icon.html:start -->" | safeHTML }}
+<li {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
+	{{- with .Params.url -}}
+	<a href="{{ . }}">
+	{{- end -}}
+		<div class="content">
+			<img src="{{ $img }}" alt= "{{ $alt }}" />
+			<div class="text">
+				{{ .Params.description | markdownify }}
+			</div>
+		</div>
+	{{- with .Params.url -}}
+	</a>
+	{{- end -}}
+</li>
+{{ "<!-- shortcode-list-icon.html:end -->" | safeHTML }}

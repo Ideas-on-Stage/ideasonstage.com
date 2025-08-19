@@ -1,7 +1,11 @@
-{{ "<!-- _shortcodes:shortcode-testimonial.html:start -->" | safeHTML }}
-<div class="cl-shortcode cl-shortcode-testimonial {{ with .Params.style }}{{ . }}{{ end }}">
+{{/* <!-- get parameters --> */}}
+{{- $class := partial "f/gethtmlattrclass.go" . -}}
+{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+
+{{ "<!-- shortcode-testimonial.html:start -->" | safeHTML }}
+<div {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{ partial "e/photograph" .Params }}
-	<div class="text">
+	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
 		<p>
 			{{ with .Params.quote }}{{ . }}{{ end }}
 		</p>
@@ -14,4 +18,4 @@
 		</p>
 	</div>
 </div>
-{{ "<!-- _shortcodes:shortcode-testimonial.html:end -->" | safeHTML }}
+{{ "<!-- shortcode-testimonial.html:end -->" | safeHTML }}

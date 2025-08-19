@@ -3,8 +3,8 @@
 {{ $height := .Get "height" }}
 {{ $class := .Get "class" }}
 
-{{ "<!-- shortcodes:img.html:start -->" | safeHTML }}
+{{ "<!-- shortcode-img.html:start -->" | safeHTML }}
 <div class="cl-shortcode cl-shortcode-img {{ $class }}">
 	<img src="{{ $src }}" {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }} />
 </div>
-{{ "<!-- shortcodes:img.html:end -->" | safeHTML }}
+{{ "<!-- shortcode-img.html:end -->" | safeHTML }}

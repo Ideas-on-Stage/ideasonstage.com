@@ -1,0 +1,34 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-list-icon {
+		/* 
+			note: to have all items have the same height on a given row,
+			use stretch in the flex-parent definition.
+		*/
+		flex-grow: 0; /* do not grow horizontally */
+		flex-shrink: 0; /* and do not shrink horizontally */
+		margin: 0;
+		padding: 0;
+		border-radius: 5px;
+		overflow: hidden;
+		
+		.content {
+			@include flex-column($align-column-h:center);
+			
+			.text {
+				margin-top: 1vw;
+				text-align: center;
+			}
+			
+			img {
+				height: 6vw;
+				width: 6vw;
+				object-fit: cover;
+				@media (max-width: $gl-sm-screen) {
+					height: 18vw;
+					width: 18vw;
+				}
+			}
+		}
+		
+	}

@@ -3,6 +3,6 @@
 {{- $picpath := partial "f/getpicturepath.go" . -}}
 {{- if ne "not found" $picpath -}}
 {{- $srcset := partial "f/getpicturesrcset.go" $picpath -}}
-<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" class="picture" {{ with $data.title }}alt="{{ . }}"{{ end }}{{ with $data.alt }}alt="{{ . }}"{{ end }}>
+<img class="picture" src="{{ index $srcset 0 }}" srcset="{{ index $srcset 1 }}" {{ with $data.title }}alt="{{ . }}"{{ end }} {{ with $data.alt }}alt="{{ . }}"{{ end }}>
 {{- end -}}
 {{ "<!-- partials/e/picture.html:end -->" | safeHTML }}

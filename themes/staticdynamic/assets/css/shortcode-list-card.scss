@@ -1,23 +1,23 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode-item-card {
+	.cl-shortcode-list-card {
 		/* 
 			note: to have all items have the same height on a given row,
 			use stretch in the flex-parent definition.
 		*/
-		margin: 0;
-		padding: 0;
 		flex-grow: 0; /* do not grow horizontally */
 		flex-shrink: 0; /* and do not shrink horizontally */
+		margin: 0;
+		padding: 0;
 		border-radius: 5px;
 		overflow: hidden;
 		
 		/* text container containing title, description and button of item */
 		.text {
-			@include flex-column($align-v: space-between);
-			padding: 1em;
+			@include flex-column($align-column-h: stretch, $align-v: space-between);
+			margin: 0;
+			padding: 1vw;
 			height: calc( 100% - 15vw ); /* full container height minus picture height */
-			border-radius: 5px 5px 0px 0px;
 			
 			@media (max-width: $gl-sm-screen) {
 				height: calc( 100% - 40vw );
@@ -28,7 +28,6 @@
 		img {
 			height: 15vw;
 			width: 100%;
-			border-radius: 0px 0px 5px 5px;
 			object-fit: cover;
 			@media (max-width: $gl-sm-screen) {
 				height: 40vw;

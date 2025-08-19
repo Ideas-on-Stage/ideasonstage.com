@@ -1,6 +1,6 @@
-{{ "<!-- shortcodes:include.html:start -->" | safeHTML }}
+{{ "<!-- shortcode-include.html:start -->" | safeHTML }}
 {{ $file := .Get 0 }}
 {{ if strings.HasSuffix $file ".md" }}
 	{{- $file | readFile | safeHTML -}}
 {{ end }}
-{{ "<!-- shortcodes:include.html:end -->" | safeHTML }}
+{{ "<!-- shortcode-include.html:end -->" | safeHTML }}

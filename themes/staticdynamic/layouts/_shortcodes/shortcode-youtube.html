@@ -12,7 +12,7 @@
 {{ $varid := index .Params 0 }}
 {{ $varid := replace $varid "-" "dash" }}
 
-{{ "<!-- shortcodes:youtube.html:start -->" | safeHTML }}
+{{ "<!-- shortcode-youtube.html:start -->" | safeHTML }}
 <div class="cl-shortcode cl-shortcode-youtube">
 	<div id="{{ index .Params 0 }}" class="placeholder">
 		{{/* <!-- build search path for on server picture --> */}}
@@ -103,4 +103,4 @@
 	}
 
 </script>
-{{ "<!-- shortcodes:youtube.html:end -->" | safeHTML }}
+{{ "<!-- shortcode-youtube.html:end -->" | safeHTML }}

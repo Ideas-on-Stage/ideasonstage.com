@@ -29,7 +29,7 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 	{{< shortcode-agenda-item title="Méthode d'évaluation" description="Évaluation continue au cours de la formation<br>Exercice final de mise en pratique des acquis" >}}
 {{< /shortcode-agenda-list >}}
 
-{{< shortcode-space-medium style="bg-white" >}}
+
 
 {{< shortcode-agenda-list style="bg-light" title="Programme" >}}
 	{{< shortcode-agenda-item title="Introduction" description="Les trois piliers d’une bonne présentation<br>Agenda et objectifs<br>Vos attentes" >}}

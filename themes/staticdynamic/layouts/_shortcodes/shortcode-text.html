@@ -1,0 +1,15 @@
+
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $inner := .Inner -}}
+
+{{ "<!-- shortcode-text.html:start -->" | safeHTML }}
+{{- with $inner -}}
+<div {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
+{{/* <!-- important: do not indent the line below or Hugo will not render content properly --> */}}
+<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
+{{ . | markdownify }}
+</div>
+</div>
+{{- end -}}
+{{ "<!-- shortcode-text.html:end -->" | safeHTML }}

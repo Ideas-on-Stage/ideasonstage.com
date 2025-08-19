@@ -20,20 +20,78 @@ Now, as a Business Presentation Revolutionary, we hope we can count on you to co
 
 So please tell your colleagues, tell your pets, tell the world! Simply click on the links below to share this page so your networks can also join the revolution and help fix presentations for good!
 
-{{< shortcode-social-list title="Spread the word" style="bg-light" >}}
-    {{< shortcode-social-item url="https://www.linkedin.com/feed/update/urn:li:activity:6790184415256571904/" picture="linkedin.svg" alt="LinkedIn" text="Talk about it on LinkedIn" >}}
-    {{< shortcode-social-item url="http://bit.ly/iostwxbl" picture="twitter.svg" alt="Twitter" text="Tweet about it on Twitter" >}}
-    {{< shortcode-social-item url="https://www.facebook.com/ideasonstage/posts/4371626369517281" picture="facebook.svg" alt="Facebook" text="Talk about it on Facebook" >}}
-{{< /shortcode-social-list >}}
+
+
+{{< shortcode-section
+  id="social-networks"
+  class="margin-top margin-bottom bg-light" >}}
+
+{{< shortcode-text
+  class="text-center margin-bottom" >}}
+### Spread the Word
+{{< /shortcode-text >}}
+
+{{< shortcode-list
+  class="margin-bottom"
+  type="grid" >}}
+
+{{< shortcode-list-icon
+  columns="2"
+  url="https://www.linkedin.com/feed/update/urn:li:activity:6790184415256571904/"
+  img="linkedin.svg"
+  alt="LinkedIn"
+  description="Talk about it on LinkedIn" >}}
+  
+{{< shortcode-list-icon
+  columns="2"
+  url="https://www.facebook.com/ideasonstage/posts/4371626369517281"
+  img="facebook.svg"
+  alt="Facebook"
+  description="Talk about it on Facebook" >}}
+
+{{< /shortcode-list >}}
+
+{{< /shortcode-section >}}
+
+
 
 Thanks for sharing, we wish you happy reading, and as a last thank-you, here’s an exclusive video from Business Presentation Revolution author Phil Waknell, especially for you.
 
 {{< shortcode-youtube SvYz_DOWYfc >}}
 
-{{< shortcode-social-list title="Follow Us" >}}
-    {{< shortcode-social-item url="https://bit.ly/3wQJQxo" picture="youtube.svg" alt="YouTube" text="YouTube" >}}
-    {{< shortcode-social-item url="https://bit.ly/3g4fTnY" picture="linkedin.svg" alt="LinkedIn" text="LinkedIn" >}}
-    {{< shortcode-social-item url="https://bit.ly/327pRNa" picture="twitter.svg" alt="Twitter" text="Twitter" >}}
-{{< /shortcode-social-list >}}
+
+
+{{< shortcode-section
+  id="follow-us"
+  class="margin-top margin-bottom bg-light" >}}
+
+{{< shortcode-text
+  class="text-center margin-bottom" >}}
+### Follow Us
+{{< /shortcode-text >}}
+
+{{< shortcode-list
+  class="margin-bottom"
+  type="grid" >}}
+
+{{< shortcode-list-icon
+  columns="2"
+  url="https://bit.ly/3g4fTnY"
+  img="linkedin.svg"
+  alt="LinkedIn"
+  description="LinkedIn" >}}
+  
+{{< shortcode-list-icon
+  columns="2"
+  url="https://bit.ly/3wQJQxo"
+  img="youtube.svg"
+  alt="YouTube"
+  description="YouTube" >}}
+
+{{< /shortcode-list >}}
+
+{{< /shortcode-section >}}
+
+
  
  If you need help making your next presentation or business event a success, let us know. [You can find more details on our services here](https://www.ideasonstage.com//), or contact us using the form below.

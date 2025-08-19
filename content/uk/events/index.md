@@ -8,24 +8,69 @@ picture: "uk-events.jpg"
 body-cta-data: "uk-events"
 ---
 
-{{< shortcode-icon-list title="What You’ll Learn in Just 30 Minutes" style="bg-light" >}}
-	{{< shortcode-icon-item description="Learn proven techniques to communicate with clarity" >}}
-	{{< shortcode-icon-item description="Discover simple ways to structure your message for impact" >}}
-	{{< shortcode-icon-item description="Feel more confident in every presentation — whether it’s a pitch, meeting or keynote" >}}
-{{< /shortcode-icon-list >}}
+{{< shortcode-section
+  class="bg-light" >}}
+
+{{< shortcode-text
+  class="text-center" >}}
+## What You’ll Learn in Just 30 Minutes
+{{< /shortcode-text >}}
+
+{{< shortcode-list
+  type="grid" >}}
+
+{{< shortcode-list-text
+  class="text-center"
+  columns="3" >}}
+Learn proven techniques to communicate with clarity
+{{< /shortcode-list-text >}}
+
+{{< shortcode-list-text
+  class="text-center"
+  columns="3" >}}
+Discover simple ways to structure your message for impact
+{{< /shortcode-list-text >}}
+
+{{< shortcode-list-text
+  class="text-center"
+  columns="3" >}}
+Feel more confident in every presentation — whether it’s a pitch, meeting or keynote
+{{< /shortcode-list-text >}}
+
+{{< /shortcode-list >}}
+
+{{< /shortcode-section >}}
+
 
 
 {{< shortcode-agenda-list style="bg-white">}}
 	{{< shortcode-agenda-item title="Real Feedback From Real Participants" >}}
 {{< /shortcode-agenda-list >}}
 
-{{< shortcode-testimonial img="jessie-woelke.jpg" quote="I’ve had a fair amount of presentation training over my career but the hour with Andrea was priceless." name="Jessie Wölke" title="Co-Founder of No Planet B" >}}
+{{< shortcode-testimonial
+  img="jessie-woelke.jpg"
+  quote="I’ve had a fair amount of presentation training over my career but the hour with Andrea was priceless."
+  name="Jessie Wölke"
+  title="Co-Founder of No Planet B" >}}
 
-{{< shortcode-testimonial img="kaley-mcclellan.jpg" quote="This training should be required for anyone in our line of work! It was so great. In 30 minutes I learned more about how to streamline my approach than ever before." name="Kaley McClellan" title="People Operations Specialist at Method Communications" >}}
+{{< shortcode-testimonial
+  class="margin-top"
+  img="kaley-mcclellan.jpg"
+  quote="This training should be required for anyone in our line of work! It was so great. In 30 minutes I learned more about how to streamline my approach than ever before."
+  name="Kaley McClellan"
+  title="People Operations Specialist at Method Communications" >}}
 
-{{< shortcode-testimonial img="jo-smallwood.jpg" quote="Just had the very fortunate opportunity to listen to Andrea Pacini talk about how to create a great presentation. 45 minutes of wonderful insights — a really great session." name="Jo Smallwood" title="Head of Learning & Development at Soldo" >}}
+{{< shortcode-testimonial
+  class="margin-top"
+  img="jo-smallwood.jpg"
+  quote="Just had the very fortunate opportunity to listen to Andrea Pacini talk about how to create a great presentation. 45 minutes of wonderful insights — a really great session."
+  name="Jo Smallwood"
+  title="Head of Learning & Development at Soldo" >}}
 
-{{< shortcode-call-to-action button="Save Your Spot" link="https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469" style="bg-white" >}}
+{{< shortcode-call-to-action
+  class="margin-top"
+  button="Save Your Spot"
+  link="https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469" >}}
 {{< /shortcode-call-to-action >}}
 
 

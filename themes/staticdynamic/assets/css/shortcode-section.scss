@@ -1,0 +1,17 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-section {
+		
+		.text {
+			@include width-content();
+		}
+		
+		> img {
+			@include img-back($z-index: -100);
+			width: 100%;
+			left: 0px;
+		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/textscheme.scss" . }}
+	}

@@ -15,7 +15,6 @@
 	
 	.cl-modules--half {
 		/* half-width module div, text on top, image bottom */
-		@include flex-column;
 		@include height-module;
 		@include width-column(2);
 		@include width-full-sm-screen();

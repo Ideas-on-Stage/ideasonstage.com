@@ -1,0 +1,21 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-section-hero {
+		@include height-hero();
+		@include flex-column($align-column-h: stretch, $align-v: center);
+		
+		.text {
+			@include width-content();
+			@include firstlastchildnomargin();
+			text-align: center;
+		}
+		
+		> img {
+			@include img-back($z-index: -100);
+			width: 100%;
+			left: 0px;
+		}
+		
+		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/textscheme.scss" . }}
+	}

@@ -55,7 +55,7 @@ tags:
 - "--color-back-li: var(--color-lightgray)"
 - "--color-back-a: none"
 
-# shortcodes:
+# shortcode-
 
 shortcode-agenda-item:
 - "--color-text-h4: var(--color-secondary)"

@@ -13,31 +13,45 @@
 	
 --> */}}
 
-{{ "<!-- shortcodes:call-to-action.html:start -->" | safeHTML }}
-{{- $class := .Get "class" -}}
-<div class="cl-shortcode cl-shortcode-call-to-action {{ $class }} {{ with .Params.style }}{{ . }}{{ end }}">
-	{{ with .Params.title }}
-		<h3>
-			{{ . }}
-		</h3>
-	{{ end }}
-	{{ if .Params.picture }}
-		<img src="{{ .Params.picture }}" height="192px" alt="{{ .Params.title }}">
-	{{ end }}
-	{{ with .Params.subtitle }}
-		<strong>
-			{{ . }}
-		</strong>
-	{{ end }}
-	{{ with .Inner }}
-		<p>
-			{{ . }}
-		</p>
-	{{ end }}
-	{{ if .Params.button }}
-		<a href="{{ partial "f/geturl.go" .Params }}" class="button cl-core--button-primary">
-			{{ .Params.button }}
-		</a>
-	{{ end }}
+{{/* <!-- set rendering options --> */}}
+{{- $opts := dict "display" "block" -}}
+
+{{/* <!-- get parameters --> */}}
+{{- $class := partial "f/gethtmlattrclass.go" . -}}
+{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $inner := .Inner -}}
+{{- $title := .Get "title" -}}
+{{- $subtitle := .Get "subtitle" -}}
+{{- $button := .Get "button" -}}
+{{- $img := .Get "picture" -}}
+{{- $alt := .Get "alt" -}}
+
+{{ "<!-- shortcode-call-to-action.html:start -->" | safeHTML }}
+<div {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
+	{{- if $inner -}}
+	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
+		{{ with $title }}
+			<h3>
+				{{ . }}
+			</h3>
+		{{ end }}
+		{{ if $img }}
+			<img src="{{ $img }}" height="192px" alt="{{ $alt }}">
+		{{ end }}
+		{{ with $subtitle }}
+			<strong>
+				{{ . }}
+			</strong>
+		{{ end }}
+		{{ with $inner }}
+			{{ . | page.RenderString $opts }}
+		{{ end }}
+		{{ if $button }}
+			<a href="{{ partial "f/geturl.go" $.Params }}" class="button cl-core--button-primary">
+				{{ .Params.button }}
+			</a>
+		{{ end }}
+	</div>
+	{{- end -}}
 </div>
-{{ "<!-- shortcodes:call-to-action.html:end -->" | safeHTML }}
+{{ "<!-- shortcode-call-to-action.html:end -->" | safeHTML }}

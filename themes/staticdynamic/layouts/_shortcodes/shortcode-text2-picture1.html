@@ -1,11 +1,11 @@
-{{ "<!-- shortcodes:text2-picture1.html:start -->" | safeHTML }}
+{{- $opts := dict "display" "block" -}}
+
+{{ "<!-- shortcode-text2-picture1.html:start -->" | safeHTML }}
 <div class="cl-shortcode cl-shortcode-text2-picture1 {{ with .Params.class }}{{ . }}{{ end }} {{ with .Params.style }}{{ . }}{{ end }}">
 	<div class="text">
 		{{ partial "e/link-title" .Params }}
-		<p>
-			{{ .Inner | markdownify }}
-		</p>
+		{{ .Inner | page.RenderString $opts }}
 	</div>
 	{{ partial "e/picture" .Params }}
 </div>
-{{ "<!-- shortcodes:text2-picture1.html:end -->" | safeHTML }} 
+{{ "<!-- shortcode-text2-picture1.html:end -->" | safeHTML }}

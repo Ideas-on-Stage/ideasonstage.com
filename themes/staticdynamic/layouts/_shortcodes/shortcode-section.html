@@ -1,0 +1,46 @@
+{{/* <!--
+
+	{{< shortcode-section >}}
+	{{< /shortcode-section >}}
+	
+	Inserts a full-bleed image with text on top.
+	Both img and text are optional, but then it's a bit pointless.
+	
+	Parameters:
+	- standard class and style parameters
+	- img: url for background image file
+	- alt: text for image description	
+--> */}}
+
+{{/* <!-- get parameters --> */}}
+{{- $class := partial "f/gethtmlattrclass.go" . -}}
+{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $id := .Get "id" -}}
+{{- $img := .Get "img" -}}
+{{- $inner := .Inner -}}
+
+{{/* <!-- process id --> */}}
+{{- with $id -}}
+	{{- $id = printf "id=\"%s\"" $id -}}
+{{- end -}}
+
+{{ "<!-- shortcode-section.html:start -->" | safeHTML }}
+<section {{ with $id }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
+	{{- if $img -}}
+	{{ partial "e/picture" $.Params }}
+	{{- end -}}
+	{{- with $inner -}}
+		{{- $inner = $inner | strings.TrimSpace -}}
+		{{- if strings.Contains $inner "<!-- shortcode" -}}
+			{{/* <!-- if inner contains shortcodes, render inner as html --> */}}
+			{{- $dummy := "-->" -}}
+			{{ . | safeHTML }}
+		{{- else -}}
+			{{/* <!-- else render inner as markdown --> */}}
+			<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
+				{{ . | markdownify}}
+			</div>
+		{{- end -}}
+	{{- end -}}
+</section>
+{{ "<!-- shortcode-section.html:end -->" | safeHTML }}

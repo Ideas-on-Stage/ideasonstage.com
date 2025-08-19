@@ -46,7 +46,7 @@ Employés et cadres en entreprise, en particulier les dirigeants, les personnes 
 - Exercice final de mise en pratique des acquis
 {{% /shortcode-agenda-list %}}
 
-{{< shortcode-space-medium style="bg-white" >}}
+
 
 {{% shortcode-agenda-list style="bg-light" %}}
 ### Programme

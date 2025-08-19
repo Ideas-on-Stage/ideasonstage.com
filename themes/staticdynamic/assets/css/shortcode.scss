@@ -2,28 +2,73 @@
 
 	/* used as common class for all shortcodes */
 	.cl-shortcode {
-		@include firstlastchildnomargin;
+		/* PMO 2025-08-18: delete @include firstlastchildnomargin */
 		
-		&.gap {
-			margin-top: 48px;
+		/* PMO 2025-08-18: add @include overflow: hidden */
+		overflow: hidden;
+		
+		/* width helper classes */
+		&.width-content {
+			@include width-content();
+		}
+
+		/* height helper classes */
+		&.height-full {
+			@include height-full();
+		}
+		&.height-hero {
+			@include height-hero();
 		}
 		
+		&.align-top {
+			@include flex-column($align-column-h: stretch, $align-v: flex-start);
+		}
+		&.align-middle {
+			@include flex-column($align-column-h: stretch, $align-v: center);
+		}
+		&.align-bottom {
+			@include flex-column($align-column-h: stretch, $align-v: flex-end);
+		}
+		
+		/* corners helper classes */
+		&.corners-round {
+			border-radius: 5px;
+		}
+		&.corners-square {
+			border-radius: 0;
+		}
+		
+		/* margin helper classes */
+		/* "gap" is legacy, should be replaced by margin-top */
+		&.margin {
+			margin: 48px;
+		}
+		&.margin-top {
+			margin-top: 48px;
+		}
+		&.margin-bottom {
+			margin-bottom: 48px;
+		}
+		&.margin-left {
+			margin-left: 48px;
+		}
+		&.margin-right {
+			margin-right: 48px;
+		}
+		
+		/* padding helper classes */
 		&.padding {
 			padding: 48px;
 		}
-		
 		&.padding-top {
 			padding-top: 48px;
 		}
-		
 		&.padding-bottom {
 			padding-bottom: 48px;
 		}
-		
 		&.padding-left {
 			padding-left: 48px;
 		}
-		
 		&.padding-right {
 			padding-right: 48px;
 		}
@@ -38,24 +83,35 @@
 			padding: 4vw;
 		}
 		
-		.center {
-			text-align: center;
+		.text {
+			
+			@include firstlastchildnomargin();
+			
+			/* helper classes for shortcodes */
+			&.text-center {
+				text-align: center;
+			}
+			&.text-left {
+				text-align: left;
+			}
+			&.text-right {
+				text-align: right;
+			}
 		}
-		.left {
-			text-align: left;
-		}
-		.right {
-			text-align: right;
-		}
+		
 	}
 
+	/* 2025-08-19: PMO delete due to too many incompatibilities */
 	/* add marging space between shortcode and non-shortcode elements e.g. a .cl-shortcode followed by a p */
+/*
 	.cl-shortcode + :not(.cl-shortcode),
 	div.cl-shortcode-img + :not(div) {
-		/* add margin space between cl-shortcode and content that is not of class .cl-shortcode */
-		margin-top: 48px;
+	margin-top: 48px;
 	}
+*/
 	/* add margin space between non-shortcode and shortcode elements e.g. a p followed by a .cl-shortcode */
+/*
 	:not(.cl-shortcode) + .cl-shortcode {
 		margin-top: 48px;
 	}
+*/

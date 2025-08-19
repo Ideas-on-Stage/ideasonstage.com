@@ -12,8 +12,33 @@ Presentamos el podcast The Business Presentation Revolution: tu dosis regular de
 Rose Bloofield presenta la serie, y Phil Waknell es el primer invitado. Publicamos nuevos episodios quincenalmente; si quieres recibir los nuevos videos recién salidos del horno, síguenos en LinkedIn o suscríbete en iTunes.
 {.st-center}
 
-{{< shortcode-social-list style="bg-light" >}}
-    {{< shortcode-social-item url="https://www.youtube.com/user/IdeasOnStage/videos" picture="youtube.svg" alt="YouTube" text="YouTube" >}}
-    {{< shortcode-social-item url="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2" picture="itunes.svg" alt="iTunes" text="Apple Music" >}}
-    {{< shortcode-social-item url="https://www.linkedin.com/company/ideas-on-stage/" picture="linkedin.svg" alt="LinkedIn" text="LinkedIn" >}}
-{{< /shortcode-social-list >}}
+
+
+{{< shortcode-section
+  id="social-media"
+  class="margin-top margin-bottom bg-light" >}}
+  
+{{< shortcode-list
+  type="grid" >}}
+
+{{< shortcode-list-icon
+  columns="3"
+  url="https://www.youtube.com/user/IdeasOnStage/videos"
+  img="youtube.svg"
+  alt="YouTube"
+  description="YouTube" >}}
+{{< shortcode-list-icon
+  columns="3"
+  url="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"
+  img="itunes.svg"
+  alt="iTunes"
+  description="Apple Music" >}}
+{{< shortcode-list-icon
+  columns="3"
+  url="https://www.linkedin.com/company/ideas-on-stage/"
+  img="linkedin.svg"
+  alt="LinkedIn"
+  description="LinkedIn" >}}
+{{< /shortcode-list >}}
+
+{{< /shortcode-section >}}

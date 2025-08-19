@@ -48,7 +48,7 @@ Site web avec les différents supports et exercices
 Exercice final de mise en pratique des acquis.
 {{% /shortcode-agenda-list %}}
 
-{{< shortcode-space-medium style="bg-white" >}}
+
 
 {{% shortcode-agenda-list style="bg-light" %}}
 

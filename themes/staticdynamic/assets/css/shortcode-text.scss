@@ -1,12 +1,13 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode-fulltext {
-		@include flex-column($align-column-h: center, $align-v: space-between);
-		@include width-full();
+	.cl-shortcode-text {
+		@include flex-column($align-column-h: stretch, $align-v: space-between);
+		margin: 0;
+		padding: 0;
 		overflow: hidden;
-		padding: 4vw;
 		
 		.text {
+			@include firstlastchildnomargin();
 			flex-grow: 1; /* take all available vertical space in parent */
 			
 			h2 {

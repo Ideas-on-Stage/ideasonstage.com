@@ -1,0 +1,31 @@
+{{/* <!--
+	
+	{{< shortcode-item-img >}}
+	
+	Inserts a picture item.
+	Should be nested inside a shortcode-items list.
+	
+	Parameters:
+	- class: standard class parameter
+	- style: standard style parameter
+	- columns: number of columns
+	- img: url for image file
+	- alt: text for image description
+
+--> */}}
+
+{{/* <!-- get parameters --> */}}
+{{- $class := partial "f/gethtmlattrclass.go" . -}}
+{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $columns := .Get "columns" -}}
+{{- $img := .Get "img" -}}
+{{- $alt := .Get "alt" -}}
+
+{{/* <!-- generate html --> */}}
+{{- if and $img $alt -}}
+	<li {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
+		{{ partial "e/picture" .Params }}
+	</li>
+{{- else -}}
+	<p>Shortcode parameter missing: img="image.jpg" or alt="image description"</p>
+{{- end -}}
