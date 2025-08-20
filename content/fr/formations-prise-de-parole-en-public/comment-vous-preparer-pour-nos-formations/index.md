@@ -33,7 +33,10 @@ Nos formations mettent l'accent sur la mise en pratique via des exercices et des
 
 > Note : ce cahier est valable pour les formations prise de parole, storytelling, présentations PowerPoint et art oratoire. Les autres formations, comme l'Art du Pitch, Business Presentation Revolution ou Women on Stage, font appel à des supports spécifiques qui vous seront distribués lors de la formation.
 
-{{< shortcode-call-to-action button="Télécharger le cahier d'exercices" link="/training/cahier-exercices-ideas-on-stage.pdf" style="bg-light" >}}
+{{< shortcode-call-to-action
+  class="margin-top bg-light"
+  button="Télécharger le cahier d'exercices"
+  url="/training/cahier-exercices-ideas-on-stage.pdf" >}}
 Vous pouvez télécharger le cahier général d'exercices utilisé pendant nos formations avec le bouton ci-dessous. Ce cahier est utilisé pour les formations prise de parole, storytelling, présentations PowerPoint et art oratoire.
 {{< /shortcode-call-to-action >}}
 
@@ -66,9 +69,11 @@ Métro ou RER :
 - Station Charles de Gaulle Étoile (lignes 1, 2, 6, RER A) - Prendre la sortie 1 (Av. des Champs Elysées), cela vous évitera de vous retrouver du mauvais côté de l'Arc de Triomphe.
 - Station George V (ligne 1) - Sortie 1 (Av. des Champs Elysées)
 
+
 ### Horaires d'ouverture
 
 Nos formations se déroulent typiquement entre 9h et 17h. L'accès aux locaux n'est garanti qu'à partir de 9h.
+
 
 ### Pour le repas de midi
 
@@ -77,6 +82,7 @@ Nos formations se déroulent typiquement entre 9h et 17h. L'accès aux locaux n'
 Le repas a lieu sur place, dans nos locaux. Nous commandons une variété de menus auprès de notre traiteur, y compris des menus vegan et sans gluten. Cependant, si vous avez des besoins alimentaires spécifiques, vous pouvez nous en faire part directement en nous contactant avec le formulaire en bas de page. Merci de nous contacter au moins 5 jours ouvrés avant la formation, au-delà de ce délai nous ne pouvons pas garantir la prise en compte de votre demande. Du café et de l'eau sont disponibles à volonté pendant la formation.
 
 Pour les formations sur plusieurs jours, nous ne nous occupons pas du repas du soir ou de l'hébergement.
+
 
 ## Questions fréquentes
 

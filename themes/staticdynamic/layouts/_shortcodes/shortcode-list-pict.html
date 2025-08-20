@@ -27,5 +27,5 @@
 		{{ partial "e/picture" .Params }}
 	</li>
 {{- else -}}
-	<p>Shortcode parameter missing: img="image.jpg" or alt="image description"</p>
+	<p class="error">shortcode-pict parameter missing: img="image.jpg" or alt="image description"</p>
 {{- end -}}

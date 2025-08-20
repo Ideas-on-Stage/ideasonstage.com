@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode-list-text {
+	li.cl-shortcode-list-text {
 		/* 
 			note: to have all items have the same height on a given row,
 			use stretch in the flex-parent definition.
@@ -13,8 +13,9 @@
 		overflow: hidden;
 		
 		.text {
-			@include flex-column($align-column-h: stretch, $align-v: center);
-			padding: 1vw;
+			@include flex-column($align-column-h: stretch, $align-v: top);
+			@include firstlastchildnomargin();
+			height: 100%;
 			
 			h1 {
 				font-size: 4em;

@@ -124,6 +124,8 @@
 			--column-gap: 0px;
 			--row-gap: 0px;
 		}
+		@else if "undefined" == $gap {
+		}
 		@else {
 			--column-gap: calc( #{$gap} );
 			--row-gap: calc( #{$gap} );
@@ -150,6 +152,7 @@
 		align-content: $align-v;
 		align-items: $align-row-v;
 		justify-content: $align-h;
+		
 		@if "gap" == $gap {
 			--column-gap: var(--column-gap-default);
 			--row-gap: var(--row-gap-default);
@@ -161,6 +164,8 @@
 		@else if "none" == $gap {
 			--column-gap: 0px;
 			--row-gap: 0px;
+		}
+		@else if "undefined" == $gap {
 		}
 		@else {
 			--column-gap: calc( #{$gap} );
@@ -335,7 +340,11 @@
 	}
 
 	@mixin scroll-h {
-		/* creates container with horizontal overflow + horizontal scroll bar */
+		/*
+			Creates container with horizontal overflow + horizontal scroll bar.
+			Useful for carousel.
+		*/
+		
 		overflow-x: scroll;
 		
 		&::-webkit-scrollbar {
@@ -543,9 +552,12 @@
 		}
 	}
 
+	/* use to remove all styles from ul, useful to use ul for grids, carousels, etc. */
 	@mixin ul-list-style-none {
-		list-style-type: none;
-		padding-left: 0;
+		--list-style-type-ul: none;
+		--padding-left-ul: 0;
+		--margin-top-ul: 0;
+		--margin-bottom-ul: 0;
 	}
 
 	@mixin width-column($col-nb, $col-span: 1) {
@@ -563,6 +575,7 @@
 		}
 	}
 	
+	/* full width (of parent) */
 	@mixin width-full() {
 		/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column */
 		flex-basis: 100%;
@@ -570,13 +583,29 @@
 		max-width: 100%;
 	}
 
+	/* standard main content width */
 	@mixin width-content() {
 		width: 100%;
 		max-width: 80vw;
 		margin-left: auto;
 		margin-right: auto;
+		@media (max-width: $gl-sm-screen) {
+			max-width: 90vw;
+		}
 	}
 
+	/* use when content would be too wide, e.g. forms */
+	@mixin width-content-narrow() {
+		width: 100%;
+		max-width: 50vw;
+		margin-left: auto;
+		margin-right: auto;
+		@media (max-width: $gl-sm-screen) {
+			max-width: 90vw;
+		}
+	}
+
+	/* use to force full width (of parent) on small screens. */
 	@mixin width-full-sm-screen {
 		@media (max-width: $gl-sm-screen) {
 			/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column */
@@ -584,7 +613,9 @@
 			width: 100%;
 		}
 	}
-	
+
+	/* the widths below are not recommended to use */	
+
 	@mixin width-screen-full() {
 		width: 100vw;
 	}

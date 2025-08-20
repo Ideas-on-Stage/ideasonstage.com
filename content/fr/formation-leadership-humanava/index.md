@@ -172,7 +172,7 @@ Pendant et après le parcours, vous rejoignez un collectif de leaders engagé·e
   class="width-content gap" >}}
 
 {{< shortcode-list-text
-  class="text-middle text-left corners-round"
+  class="text-middle text-padding text-left"
   bgcolor="white"
   columns="4" >}}
 ### Nos experts

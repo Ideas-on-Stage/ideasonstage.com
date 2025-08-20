@@ -68,10 +68,12 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
   type="grid" >}}
 
 {{< shortcode-list-icon
+  class="icon-big"
   columns="2"
   img="logo-datadock.png"
   description="Référencé Datadock" >}}
 {{< shortcode-list-icon
+  class="icon-big"
   columns="2"
   img="logo-qualiopi.png"
   description="Certifié Qualiopi au titre des actions de formation"
@@ -154,7 +156,7 @@ N'hésitez pas à nous dire si vous avez des personnes nécessitant un aménagem
 {{< shortcode-call-to-action
   class="margin-bottom bg-light"
   button="En savoir plus"
-  link="/fr/formation-prise-de-parole-2-jours/" >}}
+  url="/fr/formation-prise-de-parole-2-jours/" >}}
 ### Formation Prise de Parole 2 jours
 Notre formation phare de prise de parole en public, qui regroupe les modules Storytelling, Présentations PowerPoint et Art Oratoire. Cette formation s'appuie sur notre expérience unique de conseil en présentation auprès des plus grandes entreprises et des meilleures écoles de commerce.
 {{< /shortcode-call-to-action >}}
@@ -168,7 +170,7 @@ Notre formation phare de prise de parole en public, qui regroupe les modules Sto
 {{< shortcode-call-to-action
   class="margin-bottom bg-light"
   button="En savoir plus"
-  link="/fr/formation-art-oratoire/" >}}
+  url="/fr/formation-art-oratoire/" >}}
 ### Formation Art Oratoire
 Le module art oratoire couvre toutes les techniques de communication verbale et non-verbale pour réussir vos interventions. Les méthodes venant du monde du théâtre ont été adaptées aux besoins spécifiques des entreprises, pour une méthode unique apportant des résultats beaucoup plus rapides et respectant la personnalité de chacun. Vous pourrez directement apprécier la différence lors de vos soutenances orales et lors de vos présentations.
 {{< /shortcode-call-to-action >}}
@@ -180,7 +182,7 @@ Le module art oratoire couvre toutes les techniques de communication verbale et 
 {{< shortcode-call-to-action
   class="margin-bottom bg-light"
   button="En savoir plus"
-  link="/fr/formation-storytelling/" >}}
+  url="/fr/formation-storytelling/" >}}
 ### Formation Storytelling
 Le module storytelling est un module star de nos formations. Unique en son genre, pensé pour les besoins des entreprises, il vous apprendra comment construire votre discours pour convaincre votre auditoire, depuis l'identification des messages clés jusqu'à la création d'une histoire captivante.
 {{< /shortcode-call-to-action >}}
@@ -192,7 +194,7 @@ Le module storytelling est un module star de nos formations. Unique en son genre
 {{< shortcode-call-to-action
   class="margin-bottom bg-light"
   button="En savoir plus"
-  link="/fr/formation-presentations-powerpoint/" >}}
+  url="/fr/formation-presentations-powerpoint/" >}}
 ### Formation Présentations PowerPoint
 Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoint. Lors de cette formation vous apprendrez comment utiliser PowerPoint pour créer des diapositives qui vont renforcer et clarifier votre discours oral. Vous apprendrez quel type de diapositive créer en fonction de l'utilisation de la présentation. Vous serez formés aux techniques de base du design pour créer des slides à fort impact visuel : simplicité, structure, choix des éléments. Enfin, vous verrez comment utiliser PowerPoint pour gagner du temps.
 {{< /shortcode-call-to-action >}}

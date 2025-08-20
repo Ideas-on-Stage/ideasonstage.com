@@ -1,17 +1,16 @@
 {{/* <!--
 	
-	shortcode-items.html
+	shortcode-list.html
 	
 	Displays a list of li items in a grid or carousel format.
+	This shortcode only accepts shortcode-list-* shortcodes in .Inner content.
 	
 	Parameters:
-	- type: "grid" or "carousel" (mandatory)
-	- class: list of additional classes
-	- bgcolor: background color, e.g. "#000"
-	- color: text color, e.g. "#FFF"
-	- .Inner: text and a list of shortcode-item-* shortcodes, e.g. shortcode-item-card
-		- Optional title and text as markdown.
-		- A list of shortcode-item-... as the li items to add to the item list. 
+	- type="grid" or "carousel" (mandatory)
+	- class="list of classes"
+	- bgcolor="#color"
+	- color="#color"
+	- .Inner list of shortcode-list-* shortcodes, e.g. shortcode-item-card
 	
 --> */}}
 
@@ -26,16 +25,14 @@
 	{{- if or (eq "grid" .) (eq "carousel" .) -}}
 		{{- $type = . -}}
 	{{- else -}}
-		<p>shortcode-items: invalid type value {{ . }} (must be "grid or "carousel")</p>
+		<p class="error">shortcode-items: invalid type value {{ . }} (must be "grid or "carousel")</p>
 	{{- end -}}
 {{- else -}}
-	<p>shortcode-items: missing type parameter (must be "grid" or "carousel")</p>
+	<p class="error">shortcode-items: missing type parameter (must be "grid" or "carousel")</p>
 {{- end -}}
 
-{{ "<!-- shortcode-items.html:start -->" | safeHTML }}
-{{- with $inner -}}
+{{ "<!-- shortcode-list.html:start -->" | safeHTML }}
 <ul {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
-{{ . | safeHTML }}
+	{{ $inner | safeHTML }}
 </ul>
-{{- end -}}
-{{ "<!-- shortcode-items.html:end -->" | safeHTML }}
+{{ "<!-- shortcode-list.html:end -->" | safeHTML }}

@@ -22,7 +22,7 @@
 	<a href="{{ . }}">
 	{{- end -}}
 		<div class="content">
-			<img src="{{ $img }}" alt= "{{ $alt }}" />
+			<img src="{{ $img }}" alt= "{{ $alt }}" {{ with index $class "img" }}{{ . | safeHTMLAttr }}{{ end }}/>
 			<div class="text">
 				{{ .Params.description | markdownify }}
 			</div>

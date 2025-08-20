@@ -17,9 +17,8 @@
 			width: 100%;
 			object-fit: cover;
 			@media (max-width: $gl-sm-screen) {
-				height: 40vw;
+				/* 2025-08-20: PMO delete height: 40vw */
+				/* height: 40vw; */
 			}
 		}
-		
 	}
-

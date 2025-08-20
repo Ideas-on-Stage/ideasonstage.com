@@ -2,7 +2,7 @@
 
 	.cl-bodybottom-footer {
 		margin: 0;
-		padding: var(--content-space-v) 0;
+		padding: 4vw 0;
 		
 		a {
 			@include a-underline-none;
@@ -10,7 +10,7 @@
 		
 		/* navigation items in footer */
 		nav {
-			@include margins($vertical: "medium", $horizontal: "normal");
+			@include margins($vertical: "none", $horizontal: "normal");
 			
 			.categories {
 				@include flex-row($gap: "gap", $wrap: "wrap");

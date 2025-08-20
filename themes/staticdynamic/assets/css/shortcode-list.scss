@@ -1,17 +1,27 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode-list {
-		@include ul-list-style-none;
+	/* used to create a grid or carousel */
+	ul.cl-shortcode-list {
+		@include ul-list-style-none();
+			
+		&.gap {
+			--column-gap: var(--column-gap-default);
+			--row-gap: var(--row-gap-default);
+		}
+		&.gap-big {
+			--column-gap: var(--column-gap-big);
+			--row-gap: var(--row-gap-big);
+		}
+		&.gap-none {
+			--column-gap: 0px;
+			--row-gap: 0px;
+		}
 		
 		&.carousel {
-			@include flex-row($gap: "none", $wrap: "nowrap", $align-row-v: stretch, $align-h: center);
+			@include flex-row($wrap: "nowrap", $align-row-v: stretch, $align-h: flex-start);
 			@include scroll-h;
 			padding-left: 1vw; /* add space on left */
 			padding-bottom: 1vw; /* add space between scroll and items */
-			
-			&.gap {
-				@include flex-row($gap: "gap", $wrap: "nowrap", $align-row-v: stretch);
-			}
 			
 			> li {
 				/* make width of carousel items narrower so that an item breaks across the right side of the screen */
@@ -67,11 +77,7 @@
 		}
 		
 		&.grid {
-			@include flex-row($gap: "none", $wrap: "wrap", $align-row-v: stretch, $align-h: center);
-			
-			&.gap {
-				@include flex-row($gap: "gap", $wrap: "wrap", $align-row-v: stretch, $align-h: center);
-			}
+			@include flex-row($wrap: "wrap", $align-row-v: stretch, $align-h: center);
 			
 			> li {
 				&.columns-1 {
@@ -91,7 +97,13 @@
 				&.columns-3 {
 					@include width-column(3);
 					@media (max-width: $gl-sm-screen) {
-						@include width-column(2);
+						@include width-column(1);
+					}
+				}
+				&.columns-32 {
+					@include width-column(3,2);
+					@media (max-width: $gl-sm-screen) {
+						@include width-column(1);
 					}
 				}
 				&.columns-4 {

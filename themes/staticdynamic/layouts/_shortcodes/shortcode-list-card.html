@@ -17,6 +17,9 @@
 
 --> */}}
 
+{{/* <!-- set rendering options --> */}}
+{{- $opts := dict "display" "block" -}}
+
 {{/* <!-- get parameters --> */}}
 {{- $class := partial "f/gethtmlattrclass.go" . -}}
 {{- $style := partial "f/gethtmlattrstyle.go" . -}}
@@ -25,12 +28,13 @@
 {{- $alt := .Get "alt" -}}
 {{- $inner := .Inner -}}
 
-{{/* <!-- generate html --> */}}
+{{ "<!-- shortcode-list-card.html:start -->" | safeHTML }}
 <li	{{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
-{{- with $inner -}}
-<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
-{{- . | markdownify -}}
-</div>
-{{- end -}}
-{{ partial "e/picture" .Params }}
+	{{- with $inner -}}
+	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
+		{{- . | page.RenderString $opts -}}
+	</div>
+	{{- end -}}
+	{{ partial "e/picture" .Params }}
 </li>
+{{ "<!-- shortcode-list-card.html:end -->" | safeHTML }}

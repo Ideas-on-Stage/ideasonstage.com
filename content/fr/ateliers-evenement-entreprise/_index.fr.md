@@ -9,7 +9,7 @@ translationKey: "workshops"
 
 {{< shortcode-call-to-action 
   button="NOUS CONTACTER"
-  link="#contact" >}}
+  url="#contact" >}}
 ## Des ateliers ludiques et sérieux à la fois
 Drôles et efficaces, nos ateliers marqueront les esprits de vos collaborateurs. Que ce soit dans le cadre d'un séminaire ou d'un évènement d'entreprise, ils renforcent la cohésion et les compétences de vos équipes de manière ludique. Nos ateliers sont conçus pour vous et avec vous, sur mesure.
 {{< /shortcode-call-to-action >}}

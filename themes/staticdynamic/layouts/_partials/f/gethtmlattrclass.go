@@ -15,14 +15,14 @@
 	- a dictionary with:
 		- "main": class="cl-shortcode cl-shortcode-name list of classes applicable to main container"
 		- "text": class="list of classes applicable to text elements"
-		- "pict": class="list of classes applicable to img elements"
+		- "img": class="list of classes applicable to img elements"
 
  --> */}}
 
 {{/* <!-- list of values for shortcode, text and img classes --> */}}
 {{/* <!-- if class is not listed, it goes into main (shortcode class) --> */}}
 {{- $textclasses := slice -}}
-{{- $pictclasses := slice -}}
+{{- $imgclasses := slice -}}
 
 {{/* <!-- list of possible values for img classes --> */}}
 {{/* <!-- currently none --> */}}
@@ -33,7 +33,7 @@
 {{- $parent := .Parent -}}
 {{- $classmain := slice "cl-shortcode" -}}
 {{- $classtext := slice "text" -}}
-{{- $classpict := slice "pict" -}}
+{{- $classimg := slice "img" -}}
 
 {{/* <!-- get class elements from shortcode parameters --> */}}
 {{- $class := (.Get "class") -}}
@@ -53,17 +53,19 @@
 	{{- $classmain = $classmain | append (printf "columns-%s" .) -}}
 {{- end -}}
 
-{{/* <!-- sort classes to main, cont, text and pict --> */}}
+{{/* <!-- sort classes to main, cont, text and img --> */}}
 {{- $class = split $class " " -}}
 {{- range $class -}}
 	{{- if in $textclasses . -}}
 		{{- $classtext = $classtext | append . -}}
 	{{- else if strings.Contains . "text-" -}}
 		{{- $classtext = $classtext | append . -}}
-	{{- else if in $pictclasses . -}}
-		{{- $classpict = $classpict | append . -}}
-	{{- else if strings.Contains . "pict-" -}}
-		{{- $classpict = $classpict | append . -}}
+	{{- else if in $imgclasses . -}}
+		{{- $classimg = $classimg | append . -}}
+	{{- else if strings.Contains . "img-" -}}
+		{{- $classimg = $classimg | append . -}}
+	{{- else if strings.Contains . "icon-" -}}
+		{{- $classimg = $classimg | append . -}}
 	{{- else -}}
 		{{/* <!-- otherwise simly add class to other list --> */}}
 		{{- $classmain = $classmain | append . -}}
@@ -80,12 +82,12 @@
 {{- $classtext = trim $classtext " " -}}
 {{- $classtext = printf "class=\"%s\"" $classtext -}}
 
-{{/* <!-- build pict class="" --> */}}
-{{- $classpict = delimit $classpict " " -}}
-{{- $classpict = trim $classpict " " -}}
-{{- $classpict = printf "class=\"%s\"" $classpict -}}
+{{/* <!-- build img class="" --> */}}
+{{- $classimg = delimit $classimg " " -}}
+{{- $classimg = trim $classimg " " -}}
+{{- $classimg = printf "class=\"%s\"" $classimg -}}
 
 {{/* <!-- build results dictionary --> */}}
-{{- $result = dict "main" $classmain "text" $classtext "pict" $classpict -}}
+{{- $result = dict "main" $classmain "text" $classtext "img" $classimg -}}
 
 {{- return $result -}}

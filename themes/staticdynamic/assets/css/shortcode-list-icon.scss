@@ -29,6 +29,15 @@
 					width: 18vw;
 				}
 			}
+			
+			img.icon-big {
+				height: 12vw;
+				width: 12vw;
+				object-fit: cover;
+				@media (max-width: $gl-sm-screen) {
+					height: 36vw;
+					width: 36vw;
+				}
+			}
 		}
-		
 	}

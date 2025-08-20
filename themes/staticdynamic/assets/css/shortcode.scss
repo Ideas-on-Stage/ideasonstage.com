@@ -1,17 +1,14 @@
 {{ partial "e/sass.scss" . }}
 
 	/* used as common class for all shortcodes */
+	/* it only contains helper classes to format shortcodes */
 	.cl-shortcode {
-		/* PMO 2025-08-18: delete @include firstlastchildnomargin */
-		
-		/* PMO 2025-08-18: add @include overflow: hidden */
-		overflow: hidden;
 		
 		/* width helper classes */
 		&.width-content {
 			@include width-content();
 		}
-
+		
 		/* height helper classes */
 		&.height-full {
 			@include height-full();
@@ -21,13 +18,13 @@
 		}
 		
 		&.align-top {
-			@include flex-column($align-column-h: stretch, $align-v: flex-start);
+			justify-content: flex-start;
 		}
 		&.align-middle {
-			@include flex-column($align-column-h: stretch, $align-v: center);
+			justify-content: center;
 		}
 		&.align-bottom {
-			@include flex-column($align-column-h: stretch, $align-v: flex-end);
+			justify-content: flex-end;
 		}
 		
 		/* corners helper classes */
@@ -39,7 +36,6 @@
 		}
 		
 		/* margin helper classes */
-		/* "gap" is legacy, should be replaced by margin-top */
 		&.margin {
 			margin: 48px;
 		}
@@ -84,9 +80,6 @@
 		}
 		
 		.text {
-			
-			@include firstlastchildnomargin();
-			
 			/* helper classes for shortcodes */
 			&.text-center {
 				text-align: center;
@@ -97,8 +90,22 @@
 			&.text-right {
 				text-align: right;
 			}
+			&.text-top {
+				justify-content: flex-start;
+			}
+			&.text-middle {
+				justify-content: center;
+			}
+			&.text-bottom {
+				justify-content: flex-end;
+			}
+			&.text-padding {
+				padding: 1vw;
+				@media (max-width: $gl-sm-screen) {
+					padding: 2vw;
+				}
+			}
 		}
-		
 	}
 
 	/* 2025-08-19: PMO delete due to too many incompatibilities */

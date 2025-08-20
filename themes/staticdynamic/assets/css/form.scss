@@ -1,7 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-form {
-		@include margins($vertical: "none", $horizontal: "wide");
+		@include width-content-narrow();
 		@include flex-column($gap: 20px, $align-column-h: center);
 		
 		.field {

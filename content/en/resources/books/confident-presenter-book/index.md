@@ -3,16 +3,12 @@ draft: false
 title: "Confident Presenter - The Book"
 description: "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."
 showrefs: false
-
-imgalt:
-  - reader1.jpg: Reader 1 Confident Presenter
-  - reader2.jpg: Reader 2 Confident Presenter
-  - reader3.jpg: Reader 3 Confident Presenter
-  - reader4.jpg: Reader 4 Confident Presenter
-  - reader5.jpg: Reader 5 Confident Presenter
-  - reader6.jpg: Reader 6 Confident Presenter
 ---
-{{< shortcode-picture1-text2 picture="confident-presenter-book-2.png" title="Become a more credible, confident and convincing presenter." >}}
+
+{{< shortcode-picture1-text2
+  picture="confident-presenter-book-2.png"
+  title="" >}}
+## Become a more credible, confident and convincing presenter
 Learn the five key principles to communicate a compelling message that inspires action, growth and impact.
 
 > "Improving your presentation skills can change your life forever, and this book will give you the power to make that change."
@@ -24,27 +20,41 @@ Now Officially Included in New York University’s Business Communication Course
 
 
 {{< shortcode-call-to-action
-  class="margin-bottom"
+  class="margin-top margin-bottom"
   button="ORDER NOW"
-  link="https://amzn.eu/d/bKswMEe" >}}
+  url="https://amzn.eu/d/bKswMEe" >}}
 {{< /shortcode-call-to-action >}}
 
 
 
 {{< shortcode-call-to-action
-  style="bg-light"
-  title="Discover your presentation score"
-  picture="meter-orange.png"
+  class="bg-light"
   button="TAKE THE TEST NOW"
-  link="https://presentationscorecard.scoreapp.com" >}}
+  url="https://presentationscorecard.scoreapp.com" >}}
+![Meter Orange](meter-orange.png)
+
+## Discover your presentation score
 To get the most from the book, take the Confident Presenter Scorecard to assess how you stand on following the key principles covered in the book. After you answer a series of simple yes/no questions you’ll receive an instant score plus suggestions for improvement. It’s free, easy and takes less than three minutes to complete.
 {{< /shortcode-call-to-action >}}
 
 ## An idea needs wings, and that means a strong, well-delivered presentation.
+{.st-center}
 
-{{< shortcode-picture1-text2
-  class="margin-bottom"
-  picture="andrea-pacini.jpg" >}}
+{{< shortcode-section
+  id="author"
+  class="margin-bottom" >}}
+  
+{{< shortcode-list
+  class="gap"
+  type="grid" >}}
+
+{{< shortcode-list-pict
+  columns="3"
+  img="andrea-pacini.jpg"
+  alt="Andrea Pacini" >}}
+
+{{< shortcode-list-text
+  columns="32" >}}
 ### Meet the Author
 Andrea Pacini is a presentation coach and Head of Ideas on Stage UK.
 
@@ -55,9 +65,12 @@ Since 2010 Ideas on Stage has worked with thousands of clients around the world,
 Andrea is the main voice of the Ideas on Stage Podcast, where he has interviewed some of the most authoritative voices in the public speaking space, including Seth Godin, Garr Reynolds, Carmine Gallo and Dr John Medina.
 
 Andrea is on a mission to stop great ideas from failing just because of the way they're presented. His vision is to help hundreds of thousands of business leaders share their message so they can grow their business, increase their influence, and make a positive impact in the world.
+{{< /shortcode-list-text >}}
 
-To get in touch or find out more, check out his [LinkedIn profile](https://www.linkedin.com/in/apacini/). 
-{{< /shortcode-picture1-text2 >}}
+{{< /shortcode-list >}}
+
+{{< /shortcode-section >}}
+
 
 {{< shortcode-list
     type="grid" >}}
@@ -97,6 +110,7 @@ To get in touch or find out more, check out his [LinkedIn profile](https://www.l
 
 
 ## Want to book Andrea on your podcast? 
+{.st-center}
 
 ![Andrea talking](andrea-talking.jpg)
 
@@ -106,7 +120,8 @@ To enhance the value of your episode, Andrea can offer a special digital gift fo
 
 {{< shortcode-call-to-action
   class="margin-bottom"
-  button="BOOK ANDREA NOW" link="mailto:support.uk@ideasonstage.com" >}}
+  button="BOOK ANDREA NOW"
+  url="mailto:support.uk@ideasonstage.com" >}}
 {{< /shortcode-call-to-action >}}
 
 > "This book is the ultimate roadmap to what makes a memorable presentation. It’s the book I wish I had read when I started my career as a professional keynote speaker." 
@@ -117,5 +132,7 @@ To enhance the value of your episode, Andrea can offer a special digital gift fo
 
 ## Inspire your audience. Increase your influence. Make an impact.
 
-{{< shortcode-call-to-action button="ORDER NOW" link="https://amzn.eu/d/bKswMEe" >}}
+{{< shortcode-call-to-action
+  button="ORDER NOW"
+  url="https://amzn.eu/d/bKswMEe" >}}
 {{< /shortcode-call-to-action >}}

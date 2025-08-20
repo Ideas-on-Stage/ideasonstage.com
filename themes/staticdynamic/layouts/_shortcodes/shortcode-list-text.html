@@ -15,6 +15,9 @@
 	
 --> */}}
 
+{{/* <!-- set rendering options --> */}}
+{{- $opts := dict "display" "block" -}}
+
 {{/* <!-- get shortcode parameters --> */}}
 {{- $class := partial "f/gethtmlattrclass.go" . -}}
 {{- $style := partial "f/gethtmlattrstyle.go" . -}}
@@ -24,8 +27,8 @@
 {{/* <!-- generate html --> */}}
 {{- with $inner -}}
 <li {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
-<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
-{{ . | markdownify }}
-</div>	
+	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
+		{{ . | page.RenderString $opts }}
+	</div>	
 </li>
 {{- end -}}

@@ -9,10 +9,27 @@
 	
 --> */}}
 
-{{ "<!-- DRAFT, not tested, and .text is probably wrong -->" | safeHTML }}
+{{/* <!-- initialize variables --> */}}
+{{- $text := false -}}
+{{- $url := false -}}
+
+{{/* <!-- process parameters --> */}}
+{{- if isset . "button" -}}
+	{{- $text = .button -}}
+{{- end -}}
+{{- if isset . "url" -}}
+	{{/* <!-- url should be used whenever possible, link or other names are deprecated --> */}}
+	{{- $url = .url -}}
+{{- else if isset . "link" -}}
+	{{- $url = .link -}}
+{{- end -}}
+
 {{ "<!-- partials/e/button-primary.html:start -->" | safeHTML }}
-{{ $data := partial "f/getdata.go" . }}
+{{- if and $url $text -}}
 	<a href="{{ partial "f/geturl.go" . }}" class="cl-core--button-primary">
-		{{ .text }}
+		{{ $text }}
 	</a>
+{{- else -}}
+	<p class="error">button-primary: missing parameter url or text" }}</p>
+{{- end -}}
 {{ "<!-- partials/e/button-primary.html:end -->" | safeHTML }}

@@ -2,14 +2,15 @@
 	
 	call-to-action
 
-	Creates a title + text + button shortcode with a background picture
+	Creates a content + button shortcode
 	
 	Arguments:
-	- .Params.title as string
-	- .Params.picture as string
-	- .Params.subtitle as string
-	- .Params.button as string
-	- .Params.link as string
+	- class="list of classes"
+	- bgcolor="#color"
+	- color="#color"
+	- button="text of button"
+	- url="url of button"
+	- .Inner
 	
 --> */}}
 
@@ -20,36 +21,18 @@
 {{- $class := partial "f/gethtmlattrclass.go" . -}}
 {{- $style := partial "f/gethtmlattrstyle.go" . -}}
 {{- $inner := .Inner -}}
-{{- $title := .Get "title" -}}
-{{- $subtitle := .Get "subtitle" -}}
 {{- $button := .Get "button" -}}
-{{- $img := .Get "picture" -}}
-{{- $alt := .Get "alt" -}}
+{{- $url := .Get "url" -}}
 
 {{ "<!-- shortcode-call-to-action.html:start -->" | safeHTML }}
 <div {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{- if $inner -}}
 	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
-		{{ with $title }}
-			<h3>
-				{{ . }}
-			</h3>
-		{{ end }}
-		{{ if $img }}
-			<img src="{{ $img }}" height="192px" alt="{{ $alt }}">
-		{{ end }}
-		{{ with $subtitle }}
-			<strong>
-				{{ . }}
-			</strong>
-		{{ end }}
 		{{ with $inner }}
 			{{ . | page.RenderString $opts }}
 		{{ end }}
 		{{ if $button }}
-			<a href="{{ partial "f/geturl.go" $.Params }}" class="button cl-core--button-primary">
-				{{ .Params.button }}
-			</a>
+			{{ partial "e/button-primary.html" .Params }}
 		{{ end }}
 	</div>
 	{{- end -}}
