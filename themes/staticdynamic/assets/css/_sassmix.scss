@@ -111,6 +111,9 @@
 		align-content: $align-h;
 		align-items: $align-column-h;
 		justify-content: $align-v;
+		flex-wrap: var(--flex-wrap);
+		column-gap: var(--column-gap);
+		row-gap: var(--row-gap);
 		
 		@if "gap" == $gap {
 			--column-gap: var(--column-gap-default);
@@ -124,24 +127,16 @@
 			--column-gap: 0px;
 			--row-gap: 0px;
 		}
-		@else if "undefined" == $gap {
-		}
 		@else {
 			--column-gap: calc( #{$gap} );
 			--row-gap: calc( #{$gap} );
 		}
 		
-		column-gap: var(--column-gap);
-		row-gap: var(--row-gap);
-		
 		@if "nowrap" == $wrap {
-			flex-wrap: nowrap;
-		}
-		@else if "wrap" == $wrap {
-			flex-wrap: wrap;
+			--flex-wrap: nowrap;
 		}
 		@else {
-			flex-wrap: $wrap;
+			--flex-wrap: wrap;
 		}
 	}
 	
@@ -152,6 +147,9 @@
 		align-content: $align-v;
 		align-items: $align-row-v;
 		justify-content: $align-h;
+		flex-wrap: var(--flex-wrap);
+		column-gap: var(--column-gap);
+		row-gap: var(--row-gap);
 		
 		@if "gap" == $gap {
 			--column-gap: var(--column-gap-default);
@@ -165,24 +163,16 @@
 			--column-gap: 0px;
 			--row-gap: 0px;
 		}
-		@else if "undefined" == $gap {
-		}
 		@else {
 			--column-gap: calc( #{$gap} );
 			--row-gap: calc( #{$gap} );
 		}
 		
-		column-gap: var(--column-gap);
-		row-gap: var(--row-gap);
-		
 		@if "nowrap" == $wrap {
-			flex-wrap: nowrap;
-		}
-		@else if "wrap" == $wrap {
-			flex-wrap: wrap;
+			--flex-wrap: nowrap;
 		}
 		@else {
-			flex-wrap: $wrap;
+			--flex-wrap: wrap;
 		}
 	}
 

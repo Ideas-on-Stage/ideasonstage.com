@@ -56,6 +56,8 @@
 			@include height-half;
 			@include width-full;
 			text-align: center;
+			--text-align-h3: center;
+			--text-align-p: center;
 		}
 		
 		.image {

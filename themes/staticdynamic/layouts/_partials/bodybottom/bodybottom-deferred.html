@@ -2,6 +2,7 @@
 {{ $blocktypes := slice "bodylazy" "bodybottom" }}
 {{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
 {{- range $blocks -}}
+	{{- if ne . "modules" -}}
 	{{- $resource := printf "css/%s.scss" . -}}
 	{{- $css := printf "%s.css" . -}}
 	{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify }}
@@ -9,6 +10,7 @@
 	<noscript>
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
 	</noscript>
+	{{- end -}}
 {{- end -}}
 
 <!-- Standard non-critical CSS more.css -->

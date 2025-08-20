@@ -1,10 +1,20 @@
-{{ "<!-- Core CSS -->" | safeHTML }}
-{{- $css := resources.Get "css/core.scss" | resources.ExecuteAsTemplate "core.css" . | toCSS | minify -}}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{ "<!-- Variables inline CSS -->" | safeHTML }}
+<style type="text/css">
+	{{- $css := resources.Get "css/variables.scss" | resources.ExecuteAsTemplate "variables.css" . | toCSS | minify -}}
+	{{- $css.Content | safeCSS -}}
+</style>
 
-{{ "<!-- Fonts CSS -->" | safeHTML }}
-{{- $typography := resources.Get "css/typography.css" | minify -}}
-<link rel="stylesheet" href="{{ $typography.RelPermalink }}">
+{{ "<!-- Core inline CSS -->" | safeHTML }}
+<style type="text/css">
+	{{- $css := resources.Get "css/core.scss" | resources.ExecuteAsTemplate "core.css" . | toCSS | minify -}}
+	{{- $css.Content | safeCSS -}}
+</style>
+
+{{ "<!-- Fonts inline CSS -->" | safeHTML }}
+<style type="text/css">
+	{{- $typography := resources.Get "css/typography.css" | minify -}}
+	{{- $typography.Content | safeCSS -}}	
+</style>
 
 {{ "<!-- Blocks inline CSS -->" | safeHTML }}
 <style type="text/css">

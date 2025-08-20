@@ -1,5 +1,58 @@
 {{ partial "e/sass.scss" . }}
 
+	:root {
+		/*
+			menubar height
+		*/
+		--menubar-height: 52px;
+		
+		/* 
+			page padding
+		*/
+		--page-padding-top: var(--menubar-height);
+		--page-width: 100%;
+		--page-max-width: #{$gl-lg-screen};
+		
+		/*
+			content width
+		*/
+		--content-max-width: 1200px; /* "normal" content, "normal" margins */
+		--content-max-width-narrow: 800px; /* "narrow" content, "wide" margins */
+		--content-space-v: 48px; /* "normal" vertical space */
+		
+		/*
+			hero height
+		*/
+		--hero-height:	60vh;
+		
+		/* 
+			modules
+		*/
+		--module-height: 40; /* module height on normal screens, no unit but is inferred to be vw  */
+		--column-gap-default: 12px; /* module column gap on normal screens */
+		--column-gap-big: 24px;
+		--row-gap-default: 12px; /* module row gap on normal screens */
+		--row-gap-big: 24px;
+		@media (max-width: $gl-sm-screen) {
+			--module-height: 140; /* module height on small screens */
+			--column-gap-default: 4vw; /* module column gap on small screens */
+			--column-gap-big: 4vw;
+			--row-gap-default: 4vw;
+			--row-gap-big: 4vw;
+			--font-base-size: var(--font-base-size-sm-screen);
+		}
+		@media (min-width: $gl-lg-screen) {
+			--font-base-size: 28px;
+		}
+		
+		/*
+			insert base color scheme and font scheme variables
+			these variables are generated from the /data/colorschemes.yaml and /data/textschemes.yaml files
+		 */
+		{{ partial "e/colorscheme.scss" "root" }};
+		{{ partial "e/textscheme.scss" "root" }};
+	}
+
 	* {
 		/* use box-sizing as the default sizing model */
 		box-sizing: border-box;
@@ -53,8 +106,6 @@
 	}
 	
 	body {
-		@include colors("body");
-		@include text("body");
 		margin: 0 auto;
 		padding-top: var(--menubar-height);
 		width: var(--page-width);
@@ -65,7 +116,6 @@
 
 	div {
 		@include colors("div");
-		@include text("div");
 	}	
 
 	footer {
@@ -74,31 +124,26 @@
 	
 	h1 {
 		@include colors("h1");
-		@include topbotmargins("h1");
 		@include text("h1");
 	}
 	
 	h2 {
 		@include colors("h2");
-		@include topbotmargins("h2");
 		@include text("h2");
 	}
 
 	h3 {
 		@include colors("h3");
-		@include topbotmargins("h3");
 		@include text("h3");
 	}
 
 	h4 {
 		@include colors("h4");
-		@include topbotmargins("h4");
 		@include text("h4");
 	}
 
 	h5 {		
 		@include colors("h5");
-		@include topbotmargins("h5");
 		@include text("h5");
 	}
 	
@@ -127,7 +172,7 @@
 	nav {
 		@include colors("nav");
 	}
-	
+
 	p {
 		@include colors("p");
 		@include topbotmargins("p");
@@ -136,6 +181,10 @@
 	
 	section  {
 		@include colors("section");
+	}
+
+	span {
+		@include colors("span");
 	}
 	
 	strong {
