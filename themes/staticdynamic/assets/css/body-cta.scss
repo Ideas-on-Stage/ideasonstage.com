@@ -12,16 +12,14 @@
 		
 		{{ partial "e/colorscheme.scss" . }};
 		{{ partial "e/textscheme.scss" . }}
+		
+		/* main text container, may have to share space with a logobar */
+		.main {
+			@include flex-column($align-column-h: center, $align-v: center);
+			@include width-full;
+			flex-grow: 1; /* take all available vertical space in parent */
+			--color-back: none;
+		}
 	}
 
-	/* main text container, may have to share space with a logobar */
-	.cl-body-cta--main {
-		@include flex-column($align-column-h: center, $align-v: center);
-		@include width-full;
-		flex-grow: 1; /* take all available vertical space in parent */
-		padding-left: 2em;
-		padding-right: 2em;
-		--color-back: none;
-	}
-	
 @import "_logobar.scss";

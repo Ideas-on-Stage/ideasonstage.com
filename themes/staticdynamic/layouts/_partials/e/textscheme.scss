@@ -11,10 +11,15 @@
 	
 --> */}}
 
-{{ $scheme := index site.Data.textschemes . }}
-{{ if (partial "f/isstring.go" $scheme) }}
-	{{ $scheme = index site.Data.textschemes $scheme }}
-{{ end }}
-{{ range $scheme }}
+{{/* <!-- tries to find a text scheme matching the block name --> */}}
+{{- $scheme := index site.Data.textschemes . -}}
+
+{{- if (partial "f/isstring.go" $scheme) -}}
+	{{/* <!-- if there is one, retrieve it --> */}}
+	{{- $scheme = index site.Data.textschemes $scheme -}}
+{{- end -}}
+
+{{/* <!-- iterate over each item to generate the css code --> */}}
+{{- range $scheme -}}
 	{{ printf "%s;" . }}
-{{ end }}
+{{- end -}}

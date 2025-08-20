@@ -383,6 +383,8 @@
 			line-height: var(--line-height-b);
 			text-align: var(--text-align-b);
 			text-transform: var(--text-transform-b);
+			margin-top: var(--margin-top-b);
+			margin-bottom: var(--margin-bottom-b);
 		}
 		@else if "blockquote" == $tag {
 			font-family: var(--font-family-blockquote);
@@ -391,6 +393,8 @@
 			line-height: var(--line-height-blockquote);
 			text-align: var(--text-align-blockquote);
 			text-transform: var(--text-transform-blockquote);
+			margin-top: var(--margin-top-blockquote);
+			margin-bottom: var(--margin-bottom-blockquote);
 		}
 		@else if "button-primary" == $tag {
 			font-family: var(--font-family-button);
@@ -399,6 +403,8 @@
 			line-height: var(--line-height-button-primary);
 			text-align: var(--text-align-button-primary);
 			text-transform: var(--text-transform-button-primary);
+			margin-top: var(--margin-top-button-primary);
+			margin-bottom: var(--margin-bottom-button-primary);
 		}
 		@else if "button-secondary" == $tag {
 			font-family: var(--font-family-button);
@@ -407,6 +413,8 @@
 			line-height: var(--line-height-button-secondary);
 			text-align: var(--text-align-button-secondary);
 			text-transform: var(--text-transform-button-secondary);
+			margin-top: var(--margin-top-button-secondary);
+			margin-bottom: var(--margin-bottom-button-secondary);
 		}
 		@else if "h1" == $tag {
 			font-family: var(--font-family-h);
@@ -415,6 +423,8 @@
 			line-height: var(--line-height-h1);
 			text-align: var(--text-align-h1);
 			text-transform: var(--text-transform-h1);
+			margin-top: var(--margin-top-h1);
+			margin-bottom: var(--margin-bottom-h1);
 		}
 		@else if "h2" == $tag {
 			font-family: var(--font-family-h);
@@ -423,6 +433,8 @@
 			line-height: var(--line-height-h2);
 			text-align: var(--text-align-h2);
 			text-transform: var(--text-transform-h2);
+			margin-top: var(--margin-top-h2);
+			margin-bottom: var(--margin-bottom-h2);
 		}
 		@else if "h3" == $tag {
 			font-family: var(--font-family-h);
@@ -431,6 +443,8 @@
 			line-height: var(--line-height-h3);
 			text-align: var(--text-align-h3);
 			text-transform: var(--text-transform-h3);
+			margin-top: var(--margin-top-h3);
+			margin-bottom: var(--margin-bottom-h3);
 		}
 		@else if "h4" == $tag {
 			font-family: var(--font-family-h);
@@ -439,6 +453,8 @@
 			line-height: var(--line-height-h4);
 			text-align: var(--text-align-h4);
 			text-transform: var(--text-transform-h4);
+			margin-top: var(--margin-top-h4);
+			margin-bottom: var(--margin-bottom-h4);
 		}
 		@else if "h5" == $tag {
 			font-family: var(--font-family-h);
@@ -447,6 +463,8 @@
 			line-height: var(--line-height-h5);
 			text-align: var(--text-align-h5);
 			text-transform: var(--text-transform-h5);
+			margin-top: var(--margin-top-h5);
+			margin-bottom: var(--margin-bottom-h5);
 		}
 		@else if "li" == $tag {
 			font-family: var(--font-family);
@@ -455,6 +473,8 @@
 			line-height: var(--line-height-li);
 			text-align: var(--text-align-li);
 			text-transform: var(--text-transfor-lim);
+			margin-top: var(--margin-top-li);
+			margin-bottom: var(--margin-bottom-li);
 		}
 		@else if "p" == $tag {
 			font-family: var(--font-family);
@@ -463,6 +483,8 @@
 			line-height: var(--line-height-p);
 			text-align: var(--text-align-p);
 			text-transform: var(--text-transform-p);
+			margin-top: var(--margin-top-p);
+			margin-bottom: var(--margin-bottom-p);
 		}
 		@else {
 			font-family: var(--font-family);
@@ -471,6 +493,8 @@
 			line-height: var(--line-height);
 			text-align: var(--text-align);
 			text-transform: var(--text-transform);
+			margin-top: var(--margin-top);
+			margin-bottom: var(--margin-bottom);
 		}
 	}
 	
@@ -578,7 +602,6 @@
 	/* full width (of parent) */
 	@mixin width-full() {
 		/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column */
-		flex-basis: 100%;
 		width: 100%;
 		max-width: 100%;
 	}

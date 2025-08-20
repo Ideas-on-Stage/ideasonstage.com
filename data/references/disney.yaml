@@ -13,5 +13,6 @@ es:
 fr:
     title: Masterclass
     picture: /img/logos/disney-logo.png
-    client: disney
+    client: Disney
     category: "Event Animation"
+    description: "La Masterclass donne la parole aux employés. Tout employé peut candidater pour faire une présentation sur scène, sur un sujet d'intérêt général. Les candidats retenus font l'objet d'une préparation intense : formation de groupe puis coaching individuel. En parallèle, nous formons des « coachs internes » qui accompagnent les intervenants dans leur préparation. Tout ce travail aboutit à un évènement d'un jour, retransmis en direct dans toute l'entreprise. Cet évènement a permis de partager la connaissance au-delà des silos traditionnels et de révéler plusieurs personnes à haut potentiel, améliorant de fait la performance de l'entreprise."

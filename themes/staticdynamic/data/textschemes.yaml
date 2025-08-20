@@ -114,7 +114,6 @@ main-positionteam:
 modules:
     - "--font-ratio-h3: 1.8"
 
-
 tags:
     - "--font-ratio: 0.8"
     - "--text-transform: uppercase"
@@ -166,7 +165,11 @@ root:
     # font-size, line-height, margin-top, margin-bottom, text-align, text-transform
     # For --font-ratio DON'T USE UNITS, it will be multiplied by the --font-base-size for perfect scaling
     # for example, --font-ratio: 1, --font-base-size 1.5 --> 1 * 1.5vw = 1.5vw actual font size
+    # body (default)
     - "--font-ratio: 1"
+    - "--line-height: 1em"
+    - "--text-align: left"
+    - "--text-transform: none"
     # h1
     - "--font-ratio-h1: 2"
     - "--line-height-h1: 1.2em"
@@ -174,15 +177,19 @@ root:
     # h2
     - "--font-ratio-h2: 1.5"
     - "--line-height-h2: 1.2em"
+    - "--text-transform-h2: none"
     # h3
     - "--font-ratio-h3: 1.25"
     - "--line-height-h3: 1.2em"
+    - "--text-transform-h3: none"
     # h4
     - "--font-ratio-h4: 1.25"
     - "--line-height-h4: 1.2em"
+    - "--text-transform-h4: none"
     # h5
     - "--font-ratio-h5: 1"
     - "--line-height-h5: 1.2em"
+    - "--text-transform-h5: none"
     #li
     - "--margin-top-li: 0.5em"
     - "--margin-bottom-li: 0.5em"

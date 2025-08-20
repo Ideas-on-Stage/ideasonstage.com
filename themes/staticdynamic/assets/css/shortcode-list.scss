@@ -3,25 +3,25 @@
 	/* used to create a grid or carousel */
 	ul.cl-shortcode-list {
 		@include ul-list-style-none();
-			
-		&.gap {
-			--column-gap: var(--column-gap-default);
-			--row-gap: var(--row-gap-default);
-		}
-		&.gap-big {
-			--column-gap: var(--column-gap-big);
-			--row-gap: var(--row-gap-big);
-		}
-		&.gap-none {
-			--column-gap: 0px;
-			--row-gap: 0px;
-		}
 		
 		&.carousel {
 			@include flex-row($wrap: "nowrap", $align-row-v: stretch, $align-h: flex-start);
 			@include scroll-h;
 			padding-left: 1vw; /* add space on left */
 			padding-bottom: 1vw; /* add space between scroll and items */
+			
+			&.gap {
+				--column-gap: var(--column-gap-default);
+				--row-gap: var(--row-gap-default);
+			}
+			&.gap-big {
+				--column-gap: var(--column-gap-big);
+				--row-gap: var(--row-gap-big);
+			}
+			&.gap-none {
+				--column-gap: 0px;
+				--row-gap: 0px;
+			}
 			
 			> li {
 				/* make width of carousel items narrower so that an item breaks across the right side of the screen */
@@ -78,6 +78,19 @@
 		
 		&.grid {
 			@include flex-row($wrap: "wrap", $align-row-v: stretch, $align-h: center);
+			
+			&.gap {
+				--column-gap: var(--column-gap-default);
+				--row-gap: var(--row-gap-default);
+			}
+			&.gap-big {
+				--column-gap: var(--column-gap-big);
+				--row-gap: var(--row-gap-big);
+			}
+			&.gap-none {
+				--column-gap: 0px;
+				--row-gap: 0px;
+			}
 			
 			> li {
 				&.columns-1 {
