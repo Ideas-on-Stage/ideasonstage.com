@@ -4,7 +4,7 @@
 	.cl-body-side-main {
 		@include margins($vertical: "medium", $horizontal: "normal");
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start, $align-h: space-between);
-		@include flex-column-sm-screen(column-reverse);
+		@include flex-column-sm(column-reverse);
 		padding: 0;
 		
 		/* container for sidebar */
@@ -12,7 +12,7 @@
 			@include firstlastchildnomargin;
 			@include flex-column($gap: "gap");
 			@include width-onethird;
-			@include width-full-sm-screen;
+			@include width-full-sm;
 			margin-right: 1em; /* add space to the right of sidebar so it doesn't stick to right col */
 			padding: var(--padding);
 			@media (max-width: $gl-sm-screen) {
@@ -33,7 +33,7 @@
 		/* adapt size of main content area if there is a sidebar */
 		.side + .main {
 			@include width-twothirds;
-			@include width-full-sm-screen;
+			@include width-full-sm;
 		}
 		
 

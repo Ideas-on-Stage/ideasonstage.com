@@ -6,7 +6,7 @@
 		
 		.teammember {
 			@include width-column(3);
-			@include width-column-sm-screen(1);
+			@include width-column-sm(1);
 			
 			.content {
 				@include flex-column($align-column-h: center);

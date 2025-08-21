@@ -47,7 +47,7 @@
 		/* half-width module div, text on top, image bottom */
 		@include height-module;
 		@include width-column(2);
-		@include width-full-sm-screen();
+		@include width-full-sm();
 		
 		.text {
 			/* div containing text on top */
@@ -89,7 +89,7 @@
 			@include height-full;
 			@include width-twothirds;
 			@include height-half-sm-screen;
-			@include width-full-sm-screen;
+			@include width-full-sm;
 			
 			img {
 				@include img-cover;
@@ -105,7 +105,7 @@
 			@include height-full;
 			@include width-onethird;
 			@include height-half-sm-screen;
-			@include width-full-sm-screen;
+			@include width-full-sm;
 			@media (max-width: $gl-sm-screen) {
 				@include flex-column($align-v: flex-start, $align-column-h: center);
 			}
@@ -129,7 +129,7 @@
 			@include height-full;
 			@include width-twothirds;
 			@include height-half-sm-screen;
-			@include width-full-sm-screen;
+			@include width-full-sm;
 			
 			img {
 				@include img-cover;
@@ -145,7 +145,7 @@
 			@include height-full;
 			@include width-onethird;
 			@include height-half-sm-screen;
-			@include width-full-sm-screen;
+			@include width-full-sm;
 			@media (max-width: $gl-sm-screen) {
 				@include flex-column($align-v: flex-start, $align-column-h: center);
 			}

@@ -10,9 +10,6 @@
 			@include img-back($z-index: -100);
 		}
 		
-
-		{{ partial "e/scheme.scss" . }}
-		
 		/* main text container, may have to share space with a logobar */
 		.main {
 			@include flex-column($align-column-h: center, $align-v: center);
@@ -20,6 +17,8 @@
 			flex-grow: 1; /* take all available vertical space in parent */
 			--color-back: none;
 		}
+		
+		{{ partial "e/scheme.scss" . }}
 	}
 
 @import "_logobar.scss";

@@ -2,17 +2,17 @@
 
 	.cl-shortcode-link-picture1-text2 {
 		@include flex-row($gap: "gap");
-		@include flex-column-sm-screen(column);
+		@include flex-column-sm(column);
 		
 		.text {
 			@include firstlastchildnomargin;
 			@include width-twothirds;
-			@include width-full-sm-screen;
+			@include width-full-sm;
 		}
 		
 		.picture {
 			@include width-onethird;
-			@include width-full-sm-screen;
+			@include width-full-sm;
 			
 			img {
 				@include img-contain;

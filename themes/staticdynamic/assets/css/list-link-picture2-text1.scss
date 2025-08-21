@@ -2,7 +2,7 @@
 
 	.cl-list-link-picture2-text1 {
 		@include flex-row($gap: "big", $wrap: "nowrap");
-		@include flex-column-sm-screen(column);		
+		@include flex-column-sm(column);		
 		@include width-full;
 		margin-top: 3rem;
 		margin-bottom: 3rem;
@@ -10,12 +10,12 @@
 		.text {
 			@include firstlastchildnomargin;
 			@include width-onethird;
-			@include width-full-sm-screen;
+			@include width-full-sm;
 		}
 		
 		.picture {
 			@include width-twothirds;
-			@include width-full-sm-screen;
+			@include width-full-sm;
 			
 			img {
 				@include img-contain;

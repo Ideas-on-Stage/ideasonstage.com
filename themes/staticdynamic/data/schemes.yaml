@@ -177,6 +177,9 @@ main-positionteam:
         font-ratio: "1.2"
         text-transform: "uppercase"
 
+module-column-text-picture:
+    text-align: "center"
+
 module-half-text-picture:
     text-align: "center"
 
@@ -238,6 +241,10 @@ shortcode-icon-item:
         margin-top: "0.5em"
         text-align: "center"
 
+shortcode-section-hero:
+    h1:
+        text-transform: "uppercase"
+
 
 
 # -----------------
@@ -245,17 +252,52 @@ shortcode-icon-item:
 # -----------------
 
 root:
+
+    # menubar variables
+    menubar-height: "52px"
+    
+    # page variables
+    page-padding-top: "var(--menubar-height)"
+    page-width: "100%"
+    page-max-width: "#{$gl-lg-screen}"
+    
+    # content variables
+    content-max-width: "1200px"
+    content-max-width-narrow: "800px"
+    content-space-v: "48px"
+    
+    # hero variables
+    hero-height: "60vh"
+    
+    # modules variables
+    module-height: "40"
+    column-gap-default: "12px"
+    column-gap-big: "24px"
+    row-gap-default: "12px"
+    row-gap-big: "24px"
+    
+    sm:
+        module-height: "140"
+        column-gap-default: "4vw"
+        column-gap-big: "4vw"
+        row-gap-default: "4vw"
+        row-gap-big: "4vw"
+        font-base-size: "var(--font-base-size-sm)"
+    
+    lg:
+        font-base-size: "22px"
+    
     # font-ratio - adapts base font sizes based on media breakpoints - unit: vw (recommended) */
     font-base-size: "1.5vw" # font ratio for normal screens
     font-base-size-sm: "4.2vw" # font ratio for small screens
-
+    
     # font families */
     # For --font-ratio DON'T USE UNITS, it will be multiplied by the --font-base-size for perfect scaling
     # for example, --font-ratio: 1, --font-base-size 1.5 --> 1 * 1.5vw = 1.5vw actual font size
     font-family: "Whitney SSm A, Whitney SSm B"
     font-weight: "400"
     font-ratio: "1"
-
+    
     # default colors
     color-text-default: "black"
     color-text-muted: "#444"
@@ -266,7 +308,7 @@ root:
     color-lightgray: "#eee"
     color-midgray: "#888"
     color-border: "#bbb"
-
+    
     # font-size, line-height, margin-top, margin-bottom, text-align, text-transform
     line-height: "1em"
     text-align-default: "left"
@@ -282,56 +324,69 @@ a:
     color-text: "black"
     color-text-hover: "var(--color-primary)"
     color-border: "var(--color-primary)"
+
 b:
     font-family: "Whitney SSm A, Whitney SSm B"
     font-weight: "700"
+
 blockquote:
     line-height: "1.6em"
     color-back: "#f5f5f5"
     color-border: "var(--color-secondary)"
+
 h1:
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
     font-ratio: "2"
     line-height: "1.2em"
     text-transform: "uppercase"
+
 h2:
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
     font-ratio: "1.5"
     line-height: "1.2em"
     text-transform: "none"
+
 h3:
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
     font-ratio: "1.25"
     line-height: "1.2em"
     text-transform: "none"
+
 h4:
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
     font-ratio: "1.25"
     line-height: "1.2em"
     text-transform: "none"
+
 h5:
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
     font-ratio-h5: "1"
     line-height-h5: "1.2em"
     text-transform-h5: "none"
+
 li:
     margin-top: "0.5em"
     margin-bottom: "0.5em"
     line-height: "1.5em"
+
 p:
     margin-top: "1em"
     margin-bottom: "1em"
     line-height: "1.6em"
+
 ul:
     list-style-type: "square"
     list-indent: "1em"
+
 time:
     color-text: "#aaa"
+
+
 
 # -----------------
 # class variables (don't use . on level 1, use . on sublevels)
@@ -348,6 +403,7 @@ button-primary:
     color-text: "white"
     color-back-hover: "var(--color-primary)"
     color-text-hover: "white"
+    
 button-secondary:
     padding: "0"
     font-family: "Gotham SSm A, Gotham SSm B"

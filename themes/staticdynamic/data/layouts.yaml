@@ -56,8 +56,8 @@ _default:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1
             - body-breadcrumbs
+            - body-h1
             - body-side-main # What goes inside side and main is defined in main: and side: 
             - body-list # what goes in the list is defined in list:
         bodylazy:
@@ -72,8 +72,8 @@ _default:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-h1
             - body-breadcrumbs
+            - body-h1
             - body-side-main
         bodylazy:
             - bodylazy-modules-aside
@@ -145,8 +145,8 @@ events:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-cta
             - body-breadcrumbs
+            - body-cta
             - body-side-main
         bodylazy:
             - bodylazy-modules-aside
@@ -224,8 +224,8 @@ revolution:
     # page.Kind "page"
     page:
         body:
-            - body-h1
             - body-breadcrumbs
+            - body-h1
             - body-side-main
         side:
             - side-topcategories
@@ -255,8 +255,8 @@ tags:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-h1
             - body-breadcrumbs
+            - body-h1
             - body-side-main
         main:
             - main-pages-tags
@@ -301,8 +301,8 @@ training:
     # page.Kind "section"
     section:
         body:
-            - body-h1
             - body-breadcrumbs
+            - body-h1
             - body-carousel
             - body-side-main
         bodylazy:
@@ -315,8 +315,8 @@ training:
     # page.Kind "page"
     page:
         body:
-            - body-h1
             - body-breadcrumbs
+            - body-h1
             - body-side-main
         side:
             - side-training

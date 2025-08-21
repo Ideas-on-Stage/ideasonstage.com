@@ -4,7 +4,7 @@
 	declared as sass variables because css variables don't work in media queries
 	-------- */
 	$gl-sm-screen: 720px !default;
-	$gl-lg-screen: 1920px !default;
+	$gl-lg-screen: 1440px !default;
 	$gl-menu-short: 900px !default;
 
 
@@ -63,7 +63,7 @@
 		}
 	}
 
-	@mixin flex-column-sm-screen($flex-direction: column) {
+	@mixin flex-column-sm($flex-direction: column) {
 		/* turns flex-row into a flex-column on small screens */
 		@media (max-width: $gl-sm-screen) {
 			flex-direction: $flex-direction;
@@ -136,7 +136,7 @@
 	@mixin height-module {
 		/* set height to fixed module height */
 		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-		max-height: calc( var(--page-max-width) / 100 * var(--module-height) );
+		max-height: calc( var(--page-max-width) / 80 * var(--module-height) );
 	}
 	
 	@mixin height-navbar {
@@ -152,7 +152,7 @@
 		position: absolute;
 		height: inherit; /* ! parent container must have height in absolute unit or 100%, but not 0-99% */
 		width: inherit; /* ! parent container must have width in absolute unit or 100%, but not not 0-99% */
-		max-width: inherit; /* var(--page-max-width); */
+		max-width: var(--page-max-width);
 		object-fit: cover;
 		@if 0 != $z-index {
 			z-index: $z-index;
@@ -329,7 +329,7 @@
 		line-height: var(--line-height);
 		text-align: var(--text-align);
 		text-transform: var(--text-transform);
-
+		
 		padding: var(--padding);
 		padding-top: var(--padding-top);
 		padding-bottom: var(--padding-bottom);
@@ -351,18 +351,11 @@
 		width: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px );
 	}
 	
-	@mixin width-column-sm-screen($col-nb, $col-span: 1) {
+	@mixin width-column-sm($col-nb, $col-span: 1) {
 		/* determines width of column based on number of columns $nbcols and gap */
 		@media (max-width: $gl-sm-screen) {
 			@include width-column($col-nb, $col-span);
 		}
-	}
-	
-	/* full width (of parent) */
-	@mixin width-full() {
-		/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column */
-		width: 100%;
-		max-width: 100%;
 	}
 
 	/* standard main content width */
@@ -386,9 +379,16 @@
 			max-width: 90vw;
 		}
 	}
+	
+	/* full width (of parent) */
+	@mixin width-full() {
+		/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column */
+		width: calc( 100% - 0.001px );
+		max-width: calc( 100% - 0.001px );
+	}
 
 	/* use to force full width (of parent) on small screens. */
-	@mixin width-full-sm-screen {
+	@mixin width-full-sm {
 		@media (max-width: $gl-sm-screen) {
 			/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column */
 			flex-basis: 100%;

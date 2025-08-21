@@ -6,12 +6,9 @@
 		
 		> img {
 			@include width-column(6);
+			@include width-column-sm(3);
 			border: 1px solid var(--color-border);
-			@media (max-width: $gl-sm-screen) {
-				@include width-column(3);
-			}
 		}
 		
-
 		{{ partial "e/scheme.scss" . }}
 	}

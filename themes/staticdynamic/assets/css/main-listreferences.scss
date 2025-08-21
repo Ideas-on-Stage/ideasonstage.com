@@ -19,7 +19,7 @@
 			
 			.thumb {
 				@include width-column(5);
-				@include width-full-sm-screen;
+				@include width-full-sm;
 				
 				img {
 					@include img-contain;
@@ -28,7 +28,7 @@
 			
 			.text {
 				@include width-column(5, 4);
-				@include width-full-sm-screen;
+				@include width-full-sm;
 				
 				> :first-child {
 					margin-top: 0;

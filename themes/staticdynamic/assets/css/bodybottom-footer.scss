@@ -19,7 +19,7 @@
 				
 				> li {
 					@include width-column(4);
-					@include width-column-sm-screen(2);
+					@include width-column-sm(2);
 					line-height: 1.6em;
 					@media (max-width: $gl-sm-screen) {
 						@include width-column(2);

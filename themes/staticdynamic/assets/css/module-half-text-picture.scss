@@ -4,7 +4,7 @@
 		/* half-width module div, text on top, image bottom */
 		@include height-module;
 		@include width-column(2);
-		@include width-full-sm-screen();
+		@include width-full-sm();
 		
 		.text {
 			/* div containing text on top */
