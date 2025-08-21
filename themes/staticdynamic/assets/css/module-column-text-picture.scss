@@ -1,0 +1,33 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-module-column-text-picture {
+		/* full-width module div, text on top, image bottom */
+		@include flex-column;
+		@include height-module;
+		@include width-full;
+		
+		.text {
+			/* div containing text on top */
+			@include text-front;
+			@include text-padding;
+			@include height-half;
+			@include width-full;
+		}
+		
+		.image {
+			/* div containing image on bottom */
+			@include height-half;
+			@include width-full;
+			
+			img {	
+				@include img-contain;
+				object-position: 50% 100%; /* anchor on bottom, horizontal center */
+				@media (max-width: $gl-sm-screen) {
+					@include img-cover;
+				}
+			}
+		}		
+		
+		{{ partial "e/scheme.scss" . }}
+	}
+	

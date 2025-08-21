@@ -1,45 +1,51 @@
 {{ partial "e/sass.scss" . }}
 
+	/* 
+		:root
+		
+		Use to set default values of global variables
+	*/
 	:root {
 		/*
-			menubar height
+			menubar variables
 		*/
 		--menubar-height: 52px;
 		
 		/* 
-			page padding
+			page variables
 		*/
 		--page-padding-top: var(--menubar-height);
 		--page-width: 100%;
 		--page-max-width: #{$gl-lg-screen};
 		
 		/*
-			content width
+			content variables
 		*/
 		--content-max-width: 1200px; /* "normal" content, "normal" margins */
 		--content-max-width-narrow: 800px; /* "narrow" content, "wide" margins */
 		--content-space-v: 48px; /* "normal" vertical space */
 		
 		/*
-			hero height
+			hero variables
 		*/
 		--hero-height:	60vh;
 		
 		/* 
-			modules
+			modules variables
 		*/
 		--module-height: 40; /* module height on normal screens, no unit but is inferred to be vw  */
 		--column-gap-default: 12px; /* module column gap on normal screens */
 		--column-gap-big: 24px;
 		--row-gap-default: 12px; /* module row gap on normal screens */
 		--row-gap-big: 24px;
+
 		@media (max-width: $gl-sm-screen) {
 			--module-height: 140; /* module height on small screens */
 			--column-gap-default: 4vw; /* module column gap on small screens */
 			--column-gap-big: 4vw;
 			--row-gap-default: 4vw;
 			--row-gap-big: 4vw;
-			--font-base-size: var(--font-base-size-sm-screen);
+			--font-base-size: var(--font-base-size-sm);
 		}
 		@media (min-width: $gl-lg-screen) {
 			--font-base-size: 28px;
@@ -49,8 +55,7 @@
 			insert base color scheme and font scheme variables
 			these variables are generated from the /data/colorschemes.yaml and /data/textschemes.yaml files
 		 */
-		{{ partial "e/colorscheme.scss" "root" }};
-		{{ partial "e/textscheme.scss" "root" }};
+		{{ partial "e/scheme.scss" "root" }};
 	}
 
 	* {
@@ -60,16 +65,17 @@
 	}
 
 	a {
-		@include colors("a");
-		@include text("a");
-		border-bottom: 1px dotted var(--color-border-a);
+		@include variable-scheme();
 		text-decoration: none;
 		transition: all .35s;
+		{{ partial "e/scheme.scss" "a" }}
 	}
 	a:hover,
 	a:focus {
-		@include colors("a:hover");
+		color: var(--color-text-hover);
+		
 		transition: all .35s;
+		
 	}
 	p > a,
 	h1 > a,
@@ -78,31 +84,39 @@
 	h4 > a,
 	h5 > a {
 		/* inherit text attributes from parent tag */
+		border-bottom: 1px dotted var(--color-primary);
+		color: inherit;
+		
 		font-family: inherit;
 		font-weight: inherit;
 		font-size: inherit;
-		color: inherit;
+		line-height: var(--line-height-a);
+		text-align: var(--text-align-a);
 		text-transform: inherit;
 	}
 	
 	aside {
-		@include colors("aside");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "aside" }}
 	}
 
 	b {
-		@include colors("b");
-		@include text("b");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "b" }}
 	}
 	
 	blockquote {
-		@include colors("blockquote");
-		@include topbotmargins("blockquote");
-		@include text("blockquote");
 		@include firstlastchildnomargin();
-		border-left: 4px solid var(--color-border-blockquote);
+		@include variable-scheme();
+		
+		border-left: 4px solid var(--color-border);
 		margin-left: 0;
 		margin-right: 0;
 		padding: 1em;
+		
+		{{ partial "e/scheme.scss" "blockquote" }}
 	}
 	
 	body {
@@ -112,134 +126,172 @@
 		@media (min-width: $gl-lg-screen) {
 			--page-width: var(--page-max-width);
 		}
+		
+		{{ partial "e/scheme.scss" "body" }}
 	}
 
 	div {
-		@include colors("div");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "div" }}
 	}	
 
 	footer {
-		@include colors("footer");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "footer" }}
 	}
 	
 	h1 {
-		@include colors("h1");
-		@include text("h1");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "h1" }}
 	}
 	
 	h2 {
-		@include colors("h2");
-		@include text("h2");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "h2" }}
 	}
 
 	h3 {
-		@include colors("h3");
-		@include text("h3");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "h3" }}
 	}
 
 	h4 {
-		@include colors("h4");
-		@include text("h4");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "h4" }}
 	}
 
-	h5 {		
-		@include colors("h5");
-		@include text("h5");
+	h5 {
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "h5" }}
 	}
 	
 	header {
-		@include colors("header");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "header" }}
 	}
 
 	img {
-		@include img-responsive;
+		@include img-responsive();
+		
+		{{ partial "e/scheme.scss" "img" }}
 	}
 
 	input {
-		@include text("input");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "input" }}
 	}
 	
 	li {
-		@include colors("li");
-		@include topbotmargins("li");
-		@include text("li");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "li" }}
 	}
 	
 	main {
-		@include colors("main");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "main" }}
 	}
 	
 	nav {
-		@include colors("nav");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "nav" }}
 	}
 
 	p {
-		@include colors("p");
-		@include topbotmargins("p");
-		@include text("p");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "p" }}
 	}
 	
 	section  {
-		@include colors("section");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "section" }}
 	}
 
 	span {
-		@include colors("span");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "span" }}
 	}
 	
 	strong {
-		@include colors("b");
-		@include text("b"); /* "b" because used as synonym of <b> */
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "strong" }}
 	}
 	
 	textarea {
-		@include text("textarea");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "textarea" }}
 	}
 
 	time {
-		@include colors("time");
+		@include variable-scheme();
+		
+		{{ partial "e/scheme.scss" "time" }}
 	}
 	
 	ul {
-		@include topbotmargins("ul");
-		list-style-type: var(--list-style-type-ul);
-		padding-left: var(--padding-left-ul);
+		@include variable-scheme();
+		list-style-type: var(--list-style-type);
+		list-style-position: inside;
+		padding-left: var(--list-indent);
+		text-indent: calc( var(--list-indent) * -1 );
+		
+		{{ partial "e/scheme.scss" "ul" }}
 	}
-
+	
 	.cl-core--button-primary {
-		@include colors("button-primary");
-		@include topbotmargins("button-primary");
-		@include text("button-primary");
 		border: none;
 		border-radius: 0.5em;
 		display: inline-block;
 		list-style: none; /* remove bullet when used on li */
 		margin-left: auto;
 		margin-right: auto;
-		padding: 1em 2em;
+		padding: var(--padding);
 		
 		&:hover {
-			@include colors("button-primary-hover");
+			padding: var(--padding);
+			background-color: var(--color-back-hover);
+			color: var(--color-text-hover);
 			transition: background-color .5s;
 			cursor: pointer;
 		}
+		
+		{{ partial "e/scheme.scss" "button-primary" }}
 	}
 	
 	.cl-core--button-secondary {
-		@include colors("button-secondary");
-		@include topbotmargins("button-secondary");
-		@include text("button-secondary");
+		@include variable-scheme();
+		
 		border: none;
 		border-radius: 0.5em;
 		display: inline-block;
 		list-style: none; /* remove bullet when used on li */
-		padding: 0;
+		padding: var(--padding);
 		
 		&:hover {
-			@include colors("button-secondary-hover");
+			background-color: var(--color-back-hover);
+			color: var(--color-text-hover);
+			
 			transition: background-color .5s;
 			cursor: pointer;
 		}
+		
+		{{ partial "e/scheme.scss" "button-secondary" }}
 	}
 
 	/* content helper classes */

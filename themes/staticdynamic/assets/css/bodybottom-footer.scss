@@ -10,11 +10,12 @@
 		
 		/* navigation items in footer */
 		nav {
+			@include ul-list-style-none;
 			@include margins($vertical: "none", $horizontal: "normal");
 			
-			.categories {
+			> ul {
 				@include flex-row($gap: "gap", $wrap: "wrap");
-				@include ul-list-style-none;
+				@include ul-container();
 				
 				> li {
 					@include width-column(4);
@@ -23,13 +24,10 @@
 					@media (max-width: $gl-sm-screen) {
 						@include width-column(2);
 					}
-				}
-			}
-			
-			.items {
-				
-				> ul {
-					@include ul-list-style-none;
+					
+					> ul {
+						@include ul-container();
+					}
 				}
 			}
 		}
@@ -39,6 +37,6 @@
 			@include margins($vertical: "medium", $horizontal: "normal");
 		}
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
+
+		{{ partial "e/scheme.scss" . }}
 	}

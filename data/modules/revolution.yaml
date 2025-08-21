@@ -1,6 +1,6 @@
 en:
   title: "Business Presentation Revolution Videos"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-primary"
   picture: "/img/modules/revolution-hand-clicker.jpg"
   url: "/resources/revolution/"
@@ -8,7 +8,7 @@ en:
   
 fr:
   title: "Vidéos The Business Presentation Revolution"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-primary"
   picture: "/img/modules/revolution-hand-clicker.jpg"
   url: "/fr/revolution/"
@@ -16,7 +16,7 @@ fr:
   
 es:
   title: "Videos The Business Presentation Revolution"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-primary"
   picture: "/img/modules/revolution-hand-clicker.jpg"
   url: "/es/revolution/"

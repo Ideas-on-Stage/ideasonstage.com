@@ -15,6 +15,6 @@
 			padding: 2em;
 		}
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
+
+		{{ partial "e/scheme.scss" . }}
 	}

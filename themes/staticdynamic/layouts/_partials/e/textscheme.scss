@@ -1,6 +1,6 @@
 {{/* <!--
 	
-	e/textscheme.scss
+	e/variablescheme.scss
 
 	Used in .scss files to add a text scheme to a css class.
 	- The list of elements to insert in the class is retrieved from /data/textschemes.yaml
@@ -11,15 +11,28 @@
 	
 --> */}}
 
-{{/* <!-- tries to find a text scheme matching the block name --> */}}
-{{- $scheme := index site.Data.textschemes . -}}
+{{/* <!-- try to get the text scheme matching the block name --> */}}
+{{- $scheme := index site.Data.schemes . -}}
 
-{{- if (partial "f/isstring.go" $scheme) -}}
-	{{/* <!-- if there is one, retrieve it --> */}}
-	{{- $scheme = index site.Data.textschemes $scheme -}}
-{{- end -}}
+{{/* <!-- dummy variable for debugging --> */}}
+{{- printf "--scheme:%s;" . -}}
 
 {{/* <!-- iterate over each item to generate the css code --> */}}
-{{- range $scheme -}}
-	{{ printf "%s;" . }}
+{{- range $key, $val := $scheme -}}
+	{{- $type := printf "%T" $val -}}
+	{{- if eq "string" $type -}}
+		{{/* <!-- generate css property --> */}}
+		{{- printf "--%s:%s;" $key $val -}}
+	{{- else -}}
+		{{/* <!-- generate tag{ css --> */}}
+		{{- with $key -}}
+			{{- printf "%s{" . -}}
+		{{- end -}}
+		{{- range $keyb, $valb := $val -}}
+			{{/* <!-- generate css property --> */}}
+			{{- printf "--%s: %s;" $keyb $valb -}}
+		{{- end -}}
+		{{/* <!-- close "tag" css --> */}}
+		{{- printf "}" -}}
+	{{- end -}}
 {{- end -}}

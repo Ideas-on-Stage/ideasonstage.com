@@ -11,10 +11,27 @@
 	
 --> */}}
 
-{{ $scheme := index site.Data.colorschemes . }}
-{{ if (partial "f/isstring.go" $scheme) }}
-	{{ $scheme = index site.Data.colorschemes $scheme }}
-{{ end }}
-{{ range $scheme }}
-	{{ printf "%s;" . }}
-{{ end }}
+{{/* <!-- try to get the text scheme matching the block name --> */}}
+{{- $scheme := index site.Data.colorschemes . -}}
+
+{{- printf "--colorscheme:%s;" . -}}
+
+{{/* <!-- iterate over each item to generate the css code --> */}}
+{{- range $key, $val := $scheme -}}
+	{{- $type := printf "%T" $val -}}
+	{{- if eq "string" $type -}}
+		{{/* <!-- generate css variable --> */}}
+		{{- printf "--%s:%s;" $key $val -}}
+	{{- else -}}
+		{{/* <!-- generate tag{ css --> */}}
+		{{- with $key -}}
+			{{- printf "%s{" . -}}
+		{{- end -}}
+		{{- range $keyb, $valb := $val -}}
+			{{/* <!-- generate css variable --> */}}
+			{{- printf "--%s: %s;" $keyb $valb -}}
+		{{- end -}}
+		{{/* <!-- close "tag" css --> */}}
+		{{- printf "}" -}}
+	{{- end -}}
+{{- end -}}

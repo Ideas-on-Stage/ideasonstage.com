@@ -1,0 +1,41 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-module-row-text-picture {
+		/* full-width module div, image left, text right */
+		@include flex-row;
+		@include height-module;
+		@include width-full;
+		@media (max-width: $gl-sm-screen) {
+			flex-direction: column-reverse; /* create column with pic on bottom, text on top */
+			justify-content: space-between;
+		}
+		
+		.image {
+			/* div containing pic on left */
+			@include height-full;
+			@include width-twothirds;
+			@include height-half-sm-screen;
+			@include width-full-sm-screen;
+			
+			img {
+				@include img-cover;
+				object-position: 100% 50%; /* anchor on right edge (100%), vertical center */
+			}
+		}
+		
+		.text {
+			/* div containing text on right */
+			@include text-front;
+			@include text-padding;
+			@include flex-column($align-v: center);
+			@include height-full;
+			@include width-onethird;
+			@include height-half-sm-screen;
+			@include width-full-sm-screen;
+			@media (max-width: $gl-sm-screen) {
+				@include flex-column($align-v: flex-start, $align-column-h: center);
+			}
+		}
+		
+		{{ partial "e/scheme.scss" . }}
+	}

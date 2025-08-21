@@ -1,6 +1,6 @@
 {{/* <!--
 	
-	body-h1hero.html
+	body-h1.html
 
 	Generates the HTML for a hero if a hero picture exists,
 	else generates a standard title.
@@ -15,7 +15,7 @@
 {{ $hero := partial "f/getheropicturepath.go" . }}
 {{ if $hero }}
 	{{/* <!-- create hero --> */}}
-	<header id="hero" class="cl-body-h1hero--hero">
+	<header id="hero" class="cl-body-h1--hero">
 		{{ $srcset := partial "f/getpicturesrcset.go" $hero }}
 		<img loading="eager" decoding="async" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
 		{{ with .Title }}
@@ -30,7 +30,7 @@
 	</header>
 {{ else if .Title }}
 	{{/* <!-- create standard title --> */}}
-	<header id="title" class="cl-body-h1hero--title">
+	<header id="title" class="cl-body-h1--title">
 		<h1>
 			{{ with .Title }}{{ . | markdownify }}{{ end }}
 		</h1>

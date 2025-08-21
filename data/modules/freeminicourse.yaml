@@ -1,6 +1,6 @@
 en:
     title: "Free Mini-Course"
-    layout: "module/half-text-picture.html"
+    layout: "module-half-text-picture.html"
     style: "bg-light"
     picture: "/img/modules/freeminicourse.jpg"
     url: "https://confident-presenter-mini-course.scoreapp.com/"

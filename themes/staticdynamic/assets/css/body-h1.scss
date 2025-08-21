@@ -1,0 +1,36 @@
+{{ partial "e/sass.scss" . }}
+
+	/* container if title only (no hero) */
+	.cl-body-h1--hero {
+		
+		/* container if title + hero img */
+		@include height-hero();
+		@include width-full();
+		@include flex-column($align-v: space-between);
+		position: relative;
+		background-color: rgba(0, 0, 0, 0.4);
+		
+		> img {
+			@include img-back($z-index: -100);
+		}
+		
+		> h1 {
+			@include width-full();
+			position: sticky;
+			top: var(--menubar-height);
+			z-index: 100;
+			padding: 1em;
+		}
+		
+		{{ partial "e/scheme.scss" "body-h1--hero" }};
+	}
+
+	.cl-body-h1--title {
+		@include flex-column($align-column-h: center, $align-v: center);
+		@include text-front();
+		padding: 1em;
+		
+		{{ partial "e/scheme.scss" "body-h1--title" }};
+	}
+
+@import "_logobar.scss";

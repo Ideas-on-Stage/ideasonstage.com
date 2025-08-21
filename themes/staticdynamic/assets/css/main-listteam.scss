@@ -5,29 +5,32 @@
 		@include flex-row($gap: "big", $wrap: "wrap", $align-h: center);
 		
 		.teammember {
-			@include flex-column($align-column-h: center);
 			@include width-column(3);
+			@include width-column-sm-screen(1);
 			
-			@media (max-width: $gl-sm-screen) {
-				@include width-full;
-			}
-			
-			img {
-				@include img-circle(6rem);
-				border: 3px solid white;
-				transition: all .35s;
-				filter: grayscale(100%);
-			}
-			img:hover {
-				border: 3px solid var(--color-primary);
-				filter: grayscale(0%);
-			}
+			.content {
+				@include flex-column($align-column-h: center);
 				
-			p {
-				color: var(--color-text-muted);
+				@media (max-width: $gl-sm-screen) {
+					@include width-full;
+				}
+				
+				img {
+					@include img-circle(6rem);
+					border: 3px solid white;
+					transition: all .35s;
+					filter: grayscale(100%);
+				}
+				img:hover {
+					border: 3px solid var(--color-primary);
+					filter: grayscale(0%);
+				}
+					
+				p {
+					color: var(--color-text-muted);
+				}
 			}
 		}
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
+		{{ partial "e/scheme.scss" . }}
 	}

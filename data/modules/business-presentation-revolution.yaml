@@ -1,6 +1,6 @@
 en:
     title: "The Business Presentation Revolution"
-    layout: "module/half-text-picture.html"
+    layout: "module-half-text-picture.html"
     style: "bg-primary"
     picture: "/img/modules/revolution-hand-clicker.jpg"
     url: "/business-presentation-revolution/"

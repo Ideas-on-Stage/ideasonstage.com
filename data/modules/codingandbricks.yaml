@@ -1,6 +1,6 @@
 fr:
   title: "Ateliers LEGO"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-codingandbricks"
   picture: "/img/inserts/home-lego.png"
   url: "/fr/ateliers-evenement-entreprise/ateliers-lego-serious-play/"

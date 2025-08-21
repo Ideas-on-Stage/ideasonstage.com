@@ -4,7 +4,8 @@
 		@include firstlastchildnomargin;
 		
 		>p img {
-			@include topbotmargins("img");
+			margin-top: var(--margin-top);
+			margin-bottom: var(--margin-bottom);
 		}
 		
 		/*
@@ -37,6 +38,6 @@
 			}
 		}
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
+
+		{{ partial "e/scheme.scss" . }}
 	}

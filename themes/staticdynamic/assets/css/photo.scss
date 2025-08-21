@@ -4,6 +4,6 @@
 		border: 8px solid var(--color-photo-border);
 		box-shadow: 2px 2px 8px var(--color-photo-shadow);
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
+
+		{{ partial "e/scheme.scss" . }}
 	}

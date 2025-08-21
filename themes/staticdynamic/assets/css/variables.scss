@@ -39,7 +39,7 @@
 			--column-gap-big: 4vw;
 			--row-gap-default: 4vw;
 			--row-gap-big: 4vw;
-			--font-base-size: var(--font-base-size-sm-screen);
+			--font-base-size: var(--font-base-size-sm);
 		}
 		@media (min-width: $gl-lg-screen) {
 			--font-base-size: 28px;
@@ -50,5 +50,5 @@
 			these variables are generated from the /data/colorschemes.yaml and /data/textschemes.yaml files
 		 */
 		{{ partial "e/colorscheme.scss" "root" }};
-		{{ partial "e/textscheme.scss" "root" }};
+		{{ partial "e/scheme.scss" "root" }};
 	}

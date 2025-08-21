@@ -1,6 +1,5 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-shortcode-bpr-subscribe {
-		{{ partial "e/colorscheme.scss" "light" }};
 		text-align: center;
 	}

@@ -6,6 +6,7 @@
 # ------------------
 
 body-breadcrumbs:
+    scheme: "bg-light"
     gap: "1rem"
     line-height: "1em"
     ul:
@@ -15,43 +16,62 @@ body-breadcrumbs:
 
 body-carousel:
     font-ratio: "0.8"
+    color-back: "var(--color-lightgray)"
     .button:
         font-ratio: "0.8"
     h4:
         font-ratio: "1" 
 
-body-cta:
-    h2:
-        text-align: "center"
-    p:
-        text-align: "center"
+body-carousel--item:
+    color-back: "white"
 
 body-content404:
+    scheme: "bg-dark"
     h1:
         margin-top: "1em"
         text-align: "center"
     p:
         text-align: "center"
 
+body-cta:
+    scheme: "bg-dark"
+    h2:
+        text-align: "center"
+    p:
+        text-align: "center"
+
 body-countrylist:
+    scheme: "bg-dark"
     gap: "1em"
     .button-secondary:
         font-ratio: "0.85"
 
 body-h1home:
+    scheme: "bg-dark"
     h1:
         font-ratio: "1"
-
-body-h1--hero:
-    h1:
         text-align: "center"
 
+body-h1--hero:
+    text-align: "center"
+    color-text: "white"
+
+body-h1--title:
+    text-align: "center"
+    color-text: "black"
+
 body-herorevolution:
+    scheme: "bg-dark"
     text-align: "center"
     h2:
         margin-bottom: "0.5em"
 
+body-side-main:
+    a:
+        color-border: "var(--color-primary)"
+
 body-side-main--side:
+    scheme: "bg-light"
     gap: "0"
     font-ratio: "0.8"
     padding: "0"
@@ -71,14 +91,18 @@ bodybottom-contact-form:
         text-align: "center"
 
 bodybottom-footer:
+    scheme: "bg-dark"
     font-ratio: "0.8"
     h3:
         font-ratio: "1"
         text-transform: "uppercase"
+    ul:
+        list-style-type: "none"
     li:
         margin-top: "1.5em"
 
 bodylazy-location:
+    scheme: "bg-black"
     h2:
         margin-top: "2em"
         margin-bottom: "0em"
@@ -87,16 +111,23 @@ bodylazy-location:
         text-align: "center"
 
 bodylazy-testimonials:
+    scheme: "bg-light"
     font-ratio: "0.8"
     h4:
         font-ratio: "0.8"
 
 bodytop-navbar:
+    scheme: "bg-dark"
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
     font-base-size: "14px" # navbar is an exception
     font-ratio: "1"
     text-transform: "uppercase"
+
+form:
+    color-text: "#444"
+    color-back: "#fff"
+    color-border-focus: "var(--color-primary)"
 
 main-content:
     h2:
@@ -111,9 +142,6 @@ main-content:
     img:
         margin-top: "2em"
         margin-bottom: "2em"
-    ul:
-        list-style-type: "square"
-        padding-left: "2em"
 
 main-contenthome:
     p:
@@ -135,6 +163,7 @@ main-listrevolution:
 
 main-listteam:
     font-ratio: "0.75"
+    text-align: "center"
     h2:
         font-ratio: "1"
         margin-top: "8px"
@@ -148,13 +177,32 @@ main-positionteam:
         font-ratio: "1.2"
         text-transform: "uppercase"
 
+module-half-text-picture:
+    text-align: "center"
+
+module-row-picture-text:
+    sm:
+        text-align: "center"
+
 modules:
     h3:
         font-ratio: "1.8"
 
+more--fastsearch:
+    color-search-input-back: "#555"
+    color-search-input-text: "#ddd"
+
+photo:
+    color-photo-border: "white"
+    color-photo-shadow: "#aaa"
+
 tags:
     font-ratio: "0.8"
     text-transform: "uppercase"
+    li:
+        color-back: "var(--color-lightgray)"
+    a:
+        color-back: "none"
 
 #shortcodes
 shortcode-agenda-item:
@@ -163,15 +211,17 @@ shortcode-agenda-item:
         margin-bottom: "0.2em"
         text-transform: "uppercase"
         font-ratio: "1em"
+        color-text: var(--color-secondary)"
     p:
         margin-top: "0em"
-    
+
 shortcode-agenda-list:
     text-align: "center"
     h4:
         margin-bottom: "0.2em"
         text-transform: "uppercase"
         font-ratio: "1em"
+        color-text: var(--color-secondary)"
 
 shortcode-call-to-action:
     text-align: "center"
@@ -188,8 +238,10 @@ shortcode-icon-item:
         margin-top: "0.5em"
         text-align: "center"
 
+
+
 # -----------------
-# base font schemes
+# root variables
 # -----------------
 
 root:
@@ -203,15 +255,40 @@ root:
     font-family: "Whitney SSm A, Whitney SSm B"
     font-weight: "400"
     font-ratio: "1"
-    
+
+    # default colors
+    color-text-default: "black"
+    color-text-muted: "#444"
+    color-primary: "#FF8200"
+    color-primary-contrast: "#dd6200"
+    color-secondary: "#00A3E0"
+    color-darkgray: "#222"
+    color-lightgray: "#eee"
+    color-midgray: "#888"
+    color-border: "#bbb"
+
     # font-size, line-height, margin-top, margin-bottom, text-align, text-transform
     line-height: "1em"
-    text-align: "left"
-    text-transform: "none"
+    text-align-default: "left"
+    text-transform-default: "none"
 
+
+
+# -----------------
+# tag variables
+# -----------------
+
+a:
+    color-text: "black"
+    color-text-hover: "var(--color-primary)"
+    color-border: "var(--color-primary)"
 b:
     font-family: "Whitney SSm A, Whitney SSm B"
     font-weight: "700"
+blockquote:
+    line-height: "1.6em"
+    color-back: "#f5f5f5"
+    color-border: "var(--color-secondary)"
 h1:
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
@@ -250,14 +327,34 @@ p:
     margin-top: "1em"
     margin-bottom: "1em"
     line-height: "1.6em"
+ul:
+    list-style-type: "square"
+    list-indent: "1em"
+time:
+    color-text: "#aaa"
+
+# -----------------
+# class variables (don't use . on level 1, use . on sublevels)
+# -----------------
+
 button-primary:
+    padding: "1em 2em"
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
     font-ratio: "1"
     text-align: "center"
     text-transform: "uppercase"
+    color-back: "var(--color-primary-contrast)"
+    color-text: "white"
+    color-back-hover: "var(--color-primary)"
+    color-text-hover: "white"
 button-secondary:
+    padding: "0"
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
     font-ratio: "1"
+    line-height: "1.5em"
     text-transform: "uppercase"
+    color-back: "none"
+    color-text: "var(--color-secondary)"
+    color-text-hover: "var(--color-secondary)"

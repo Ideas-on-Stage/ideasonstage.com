@@ -3,6 +3,8 @@
 	.cl-side-related {
 		padding: 1em;
 		
-		{{ partial "e/colorscheme.scss" . }}
-		{{ partial "e/textscheme.scss" . }}
+		> ul {
+			@include ul-list-style-none();
+		}
+		{{ partial "e/scheme.scss" . }}
 	}

@@ -41,6 +41,5 @@
 			text-align: left;
 		}
 		
-		{{ partial "e/colorscheme.scss" "more--fastsearch" }}
-		{{ partial "e/textscheme.scss" "more-fastsearch" }}
+		{{ partial "e/scheme.scss" "more-fastsearch" }}
 	}

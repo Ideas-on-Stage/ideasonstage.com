@@ -1,0 +1,143 @@
+# if nothing happens when changing a scheme:
+# - check if you are changing the right variable
+# - check that the matching scss file includes the necessary {{ partial "e/colorscheme.scss" . }} line
+#   this is the line that dynamically generates variables based on this file
+# - check in core.scss if the part has been adapted to be themed using variables 
+#   it is possible that the property has not been adapted to be themed
+
+
+
+#
+# block color schemes
+#
+
+body-breadcrumbs: "bg-light"
+body-content404: "bg-dark"
+bodytop-navbar: "bg-dark"
+body-countrylist: "bg-dark"
+body-cta: "bg-dark"
+body-h1home: "bg-dark"
+body-h1--title: "bg-dark"
+body-herorevolution: "bg-dark"
+body-side-main--side: "bg-light"
+bodybottom-footer: "bg-dark"
+bodylazy-location: "bg-black"
+bodylazy-testimonials: "bg-light"
+
+body-carousel:
+- "--color-back: var(--color-lightgray)"
+
+body-carousel--item:
+- "--color-back: white"
+
+body-h1--hero:
+- "--color-back-h1: rgba(0, 0, 0, 0.4)"
+- "--color-text-h1: white"
+
+body-side-main:
+- "--color-border-a: var(--color-primary)"
+
+form:
+- "--color-form-text: #444"
+- "--color-form-back: #fff"
+- "--color-form-border: var(--color-border)"
+- "--color-form-border-focus: var(--color-primary)"
+
+more--fastsearch:
+- "--color-search-input-back: #555"
+- "--color-search-input-text: #ddd"
+
+photo:
+- "--color-photo-border: white"
+- "--color-photo-shadow: #aaa"
+
+tags:
+- "--color-back-li: var(--color-lightgray)"
+- "--color-back-a: none"
+
+# shortcode-
+
+shortcode-agenda-item:
+- "--color-text-h4: var(--color-secondary)"
+
+shortcode-agenda-list:
+- "--color-text-h4: var(--color-secondary)"
+
+
+#
+# base color schemes
+#
+
+root:
+- "--color-back-blockquote: #f5f5f5"
+- "--color-border-blockquote: var(--color-secondary)"
+- "--color-primary: #FF8200"
+- "--color-primary-contrast: #dd6200"
+- "--color-secondary: #00A3E0"
+- "--color-darkgray: #222"
+- "--color-lightgray: #eee"
+- "--color-midgray: #888"
+
+- "--color-back: none"
+- "--color-text: black"
+- "--color-text-a: black"
+- "--color-text-a-hover: var(--color-primary)"
+- "--color-border-a: none"
+- "--color-blockquote: var(--color-secondary)"
+- "--color-border: #bbb"
+- "--color-text-muted: #444"
+- "--color-text-time: #aaa"
+- "--color-back-button-primary: var(--color-primary-contrast)"
+- "--color-text-button-primary: white"
+- "--color-back-button-primary-hover: var(--color-primary)"
+- "--color-text-button-primary-hover: white"
+- "--color-back-button-secondary: none"
+- "--color-text-button-secondary: var(--color-secondary)"
+- "--color-text-button-secondary-hover: var(--color-secondary)"
+
+bg-black:
+- "--color-back: black"
+- "--color-border: white"
+- "--color-text-a: white"
+- "--color-text-a-hover: var(--color-primary)"
+- "--color-text: white"
+- "--color-text-muted: white"
+
+bg-light:
+- "--color-back: var(--color-lightgray)"
+- "--color-text-a: black"
+- "--color-text-a-hover: var(--color-primary)"
+- "--color-text: black"
+- "--color-text-muted: black"
+
+bg-dark:
+- "--color-back: #222"
+- "--color-text-a: white"
+- "--color-text-a-hover: var(--color-primary)"
+- "--color-text: white"
+- "--color-text-muted: #white"
+
+bg-primary:
+- "--color-back: var(--color-primary)"
+- "--color-text-a: white"
+- "--color-text-a-hover: white"
+- "--color-text: white"
+- "--color-text-muted: white"
+- "--color-text-button-secondary: white"
+- "--color-text-button-secondary-hover: white"
+
+bg-secondary:
+- "--color-back: var(--color-secondary)"
+- "--color-text-button-secondary: white"
+- "--color-text-a: white"
+- "--color-text-a-hover: white"
+- "--color-text: white"
+- "--color-text-muted: #white"
+
+bg-codingandbricks:
+- "--color-back: #233B4C"
+- "--color-text-button-secondary: #FFD500"
+- "--color-text: #FFD500"
+- "--color-text-muted: #444"
+- "--color-text-a: #FFD500!important"
+- "--color-text-a-hover: #FFD500"

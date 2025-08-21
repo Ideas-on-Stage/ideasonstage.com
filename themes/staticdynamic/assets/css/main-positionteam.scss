@@ -5,6 +5,6 @@
 		margin-bottom: 1em;
 		color: var(--color-text-muted);
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
+
+		{{ partial "e/scheme.scss" . }}
 	}

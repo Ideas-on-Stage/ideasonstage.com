@@ -1,13 +1,16 @@
 <section id="team-member-list" class="cl-main-listteam">
+	
 	{{ range .Pages.ByWeight }}
-		<a href="{{ .RelPermalink }}" class="teammember">
-			<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}" width="100px" height="100px">
-			<h2>
-				{{ .Params.name }}
-			</h2>
-			<p>
-				{{ .Params.position }}
-			</p>
-		</a>
+		<div href="{{ .RelPermalink }}" class="teammember">
+			<a href="{{ .RelPermalink }}" class="content">
+				<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}" width="100px" height="100px">
+				<h2>
+					{{ .Params.name }}
+				</h2>
+				<p>
+					{{ .Params.position }}
+				</p>
+			</a>
+		</div>
 	{{ end}}
 </section>

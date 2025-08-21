@@ -7,6 +7,7 @@
 		}
 		
 		ul {
+			@include ul-container();
 			@include margins($vertical: "none", $horizontal: "normal");
 			@include flex-row($gap: "gap", $wrap: "wrap");
 			
@@ -19,6 +20,6 @@
 			@include img-sameline;
 		}
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
+
+		{{ partial "e/scheme.scss" . }}
 	}

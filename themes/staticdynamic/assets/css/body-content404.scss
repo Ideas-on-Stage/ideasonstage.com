@@ -5,6 +5,6 @@
 		@include height-screen-full;
 		@include width-full;
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
+
+		{{ partial "e/scheme.scss" . }}
 	}

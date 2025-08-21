@@ -1,6 +1,6 @@
 en:
     title: "Confident Presenter"
-    layout: "module/half-text-picture.html"
+    layout: "module-half-text-picture.html"
     style: "bg-primary"
     picture: "/img/modules/confident-presenter-book.png"
     url: "https://www.ideasonstage.com/resources/books/confident-presenter-book/"

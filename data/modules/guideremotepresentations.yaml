@@ -1,6 +1,6 @@
 fr:
   title: "Comment présenter à distance"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-light"
   picture: "/fr/comment-presenter-a-distance/presentations-a-distance.jpg"
   url: "/fr/comment-presenter-a-distance/"

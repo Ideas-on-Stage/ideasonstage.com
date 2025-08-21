@@ -38,6 +38,5 @@
 			@include img-circle(60px);
 		}
 		
-		{{ partial "e/colorscheme.scss" . }}
-		{{ partial "e/textscheme.scss" . }}
+		{{ partial "e/scheme.scss" . }}
 	}

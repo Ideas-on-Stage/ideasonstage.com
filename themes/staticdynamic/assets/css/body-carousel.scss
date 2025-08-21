@@ -8,8 +8,7 @@
 			margin-left: 2rem;
 		}
 		
-		{{ partial "e/colorscheme.scss" . }}
-		{{ partial "e/textscheme.scss" . }}
+		{{ partial "e/scheme.scss" . }}
 	}
 	
 	/* container for the carousel items */
@@ -59,7 +58,7 @@
 		}
 		
 		{{ partial "e/colorscheme.scss" "body-carousel--item" }}
-		{{ partial "e/textscheme.scss" "body-carousel--item" }}
+		{{ partial "e/scheme.scss" "body-carousel--item" }}
 	}
 	
 	/* adds an empty item on the right to force adding a margin

@@ -11,11 +11,11 @@
 			width: 100%;
 			font-size: 0.8em;
 			line-height: 1.42857143;
-			border: 1px solid var(--color-form-border);
-			background-color: var(--color-form-back);
+			border: 1px solid var(--color-border);
+			background-color: var(--color-back);
 			border-radius: 4px;
 			box-shadow: none;
-			color: var(--color-form-text);
+			color: var(--color-text);
 			-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
 			-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 			transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
@@ -23,7 +23,7 @@
 		
 		.field:focus {
 			/* highlight active field border */
-			border-color: var(--color-form-border-focus);
+			border-color: var(--color-border-focus);
 			outline: 0;
 		}
 		
@@ -35,6 +35,5 @@
 			height: 200px;
 		}
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
+		{{ partial "e/scheme.scss" . }}
 	}

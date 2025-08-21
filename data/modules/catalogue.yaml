@@ -1,6 +1,6 @@
 en:
   title: "PDF Catalogue"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-light"
   picture: "/img/inserts/catalogue.jpg"
   url: "/guides/ideasonstage-catalogue-en.pdf"
@@ -9,7 +9,7 @@ en:
 
 fr:
   title: "Catalogue pdf"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-light"
   picture: "/img/inserts/catalogue.jpg"
   url: "/guides/ideasonstage-catalogue-fr.pdf"
@@ -18,7 +18,7 @@ fr:
 
 es:
   title: "Catálogo PDF"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-light"
   picture: "/img/inserts/catalogue.jpg"
   url: "/guides/ideasonstage-catalogue-es.pdf"

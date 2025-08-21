@@ -1,0 +1,54 @@
+{{/* <!--
+	
+	e/textscheme.scss
+
+	Used in .scss files to add a text scheme to a css class.
+	- The list of elements to insert in the class is retrieved from /data/textschemes.yaml
+	- Then each element is inserted into the css class
+	
+	Arguments:
+	- block name as string
+	
+--> */}}
+
+{{/* <!-- try to get the text scheme matching the block name --> */}}
+{{- $scheme := index site.Data.schemes . -}}
+
+{{- printf "--scheme:%s;" . -}}
+
+{{/* <!-- iterate over each item to generate the css code --> */}}
+{{- range $key, $val := $scheme -}}
+	{{- $type := printf "%T" $val -}}
+	{{- $keyname := printf "%s" $key -}}
+	{{- if eq "string" $type -}}
+		{{- if eq "scheme" $keyname -}}
+			{{/* <!-- generate scheme variables for specified scheme --> */}}
+			{{ partial "e/colorscheme.scss" $val }}
+		{{- else -}}
+			{{/* <!-- generate css variable --> */}}
+			{{- printf "--%s:%s;" $key $val -}}
+		{{- end -}}
+	{{- else -}}
+		{{- if eq "sm" $keyname }}
+			{{/* <!-- generate @media{ css --> */}}
+			{{- printf "@media (max-width:$gl-sm-screen){" -}}
+			{{- range $keyb, $valb := $val -}}
+				{{/* <!-- generate css variable --> */}}
+				{{- printf "--%s: %s;" $keyb $valb -}}
+			{{- end -}}
+			{{/* <!-- close "tag" css --> */}}
+			{{- printf "}" -}}
+		{{- else -}}
+			{{/* <!-- generate tag{ css --> */}}
+			{{- with $key -}}
+				{{- printf "%s{" . -}}
+			{{- end -}}
+			{{- range $keyb, $valb := $val -}}
+				{{/* <!-- generate css variable --> */}}
+				{{- printf "--%s: %s;" $keyb $valb -}}
+			{{- end -}}
+			{{/* <!-- close "tag" css --> */}}
+			{{- printf "}" -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}

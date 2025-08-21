@@ -9,41 +9,10 @@
 			padding: 0; /* to remove gap left and right */
 		}
 		
-		{{ partial "e/colorscheme.scss" . }}
-		{{ partial "e/textscheme.scss" . }}
+		{{ partial "e/scheme.scss" . }}
 	}
-	
-	.cl-modules--half {
-		/* half-width module div, text on top, image bottom */
-		@include height-module;
-		@include width-column(2);
-		@include width-full-sm-screen();
-		
-		.text {
-			/* div containing text on top */
-			@include text-front;
-			@include text-padding;
-			@include height-half;
-			@include width-full;
-			text-align: center;
-		}
-		
-		.image {
-			/* div containing image on bottom */
-			@include height-half;
-			@include width-full;
-			
-			img {
-				@include img-contain;
-				object-position: 50% 100%; /* anchor on bottom, horizontal center */
-				@media (max-width: $gl-sm-screen) {
-					@include img-cover;
-				}
-			}
-		}
-	}
-	
-	.cl-modules--column {
+
+	.cl-module-column-text-picture {
 		/* full-width module div, text on top, image bottom */
 		@include flex-column;
 		@include height-module;
@@ -55,9 +24,6 @@
 			@include text-padding;
 			@include height-half;
 			@include width-full;
-			text-align: center;
-			--text-align-h3: center;
-			--text-align-p: center;
 		}
 		
 		.image {
@@ -73,9 +39,42 @@
 				}
 			}
 		}		
+		
+		{{ partial "e/scheme.scss" "module-column-text-picture" }}
 	}
-	
-	.cl-modules--row {
+
+	.cl-module-half-text-picture {
+		/* half-width module div, text on top, image bottom */
+		@include height-module;
+		@include width-column(2);
+		@include width-full-sm-screen();
+		
+		.text {
+			/* div containing text on top */
+			@include text-front;
+			@include text-padding;
+			@include height-half;
+			@include width-full;
+		}
+		
+		.image {
+			/* div containing image on bottom */
+			@include height-half;
+			@include width-full;
+			
+			img {
+				@include img-contain;
+				object-position: 50% 100%; /* anchor on bottom, horizontal center */
+				@media (max-width: $gl-sm-screen) {
+					@include img-cover;
+				}
+			}
+		}
+		
+		{{ partial "e/scheme.scss" "module-half-text-picture" }}
+	}
+
+	.cl-module-row-text-picture {
 		/* full-width module div, image left, text right */
 		@include flex-row;
 		@include height-module;
@@ -109,7 +108,48 @@
 			@include width-full-sm-screen;
 			@media (max-width: $gl-sm-screen) {
 				@include flex-column($align-v: flex-start, $align-column-h: center);
-				text-align: center;
 			}
 		}
+		
+		{{ partial "e/scheme.scss" "module-row-text-picture" }}
+	}
+
+	.cl-module-row-picture-text {
+		/* full-width module div, image left, text right */
+		@include flex-row;
+		@include height-module;
+		@include width-full;
+		@media (max-width: $gl-sm-screen) {
+			flex-direction: column-reverse; /* create column with pic on bottom, text on top */
+			justify-content: space-between;
+		}
+		
+		.image {
+			/* div containing pic on left */
+			@include height-full;
+			@include width-twothirds;
+			@include height-half-sm-screen;
+			@include width-full-sm-screen;
+			
+			img {
+				@include img-cover;
+				object-position: 100% 50%; /* anchor on right edge (100%), vertical center */
+			}
+		}
+		
+		.text {
+			/* div containing text on right */
+			@include text-front;
+			@include text-padding;
+			@include flex-column($align-v: center);
+			@include height-full;
+			@include width-onethird;
+			@include height-half-sm-screen;
+			@include width-full-sm-screen;
+			@media (max-width: $gl-sm-screen) {
+				@include flex-column($align-v: flex-start, $align-column-h: center);
+			}
+		}
+		
+		{{ partial "e/scheme.scss" "module-row-picture-text" }}
 	}

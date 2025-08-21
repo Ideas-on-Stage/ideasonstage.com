@@ -3,6 +3,6 @@
 	.cl-bodybottom-contact-form {
 		@include margins($vertical: "medium", $horizontal: "normal");
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
+
+		{{ partial "e/scheme.scss" . }}
 	}

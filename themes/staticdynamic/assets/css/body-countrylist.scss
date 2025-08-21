@@ -4,9 +4,9 @@
 		
 		> ul {
 			@include flex-row($gap: "gap", $wrap: "wrap", $align-h: center);
-			@include ul-list-style-none;
+			@include ul-container;
 		}
 		
-		{{ partial "e/colorscheme.scss" . }};
-		{{ partial "e/textscheme.scss" . }}
+
+		{{ partial "e/scheme.scss" . }}
 	}

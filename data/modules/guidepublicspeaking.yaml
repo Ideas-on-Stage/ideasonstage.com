@@ -1,6 +1,6 @@
 fr:
   title: "Guide de la prise de parole"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-light"
   picture: "/fr/guide-ultime-prise-de-parole-en-public/prise-de-parole-en-public.fr.jpg"
   url: "/fr/guide-ultime-prise-de-parole-en-public/"

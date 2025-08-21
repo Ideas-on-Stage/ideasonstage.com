@@ -1,6 +1,6 @@
 en:
     title: "Event Organizer Guide"
-    layout: "module/half-text-picture.html"
+    layout: "module-half-text-picture.html"
     style: "bg-light"
     picture: "/event-organizer-guide/event-organizer.jpg"
     url: "/event-organizer-guide/"
@@ -9,7 +9,7 @@ en:
 
 fr:
     title: "Guide de l'organisateur d'événements"
-    layout: "module/half-text-picture.html"
+    layout: "module-half-text-picture.html"
     style: "bg-light"
     picture: "/fr/guide-organisateur-evenement-entreprise/organisateur-evenement.jpg"
     url: "/fr/guide-organisateur-evenement-entreprise/"

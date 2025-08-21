@@ -56,7 +56,7 @@ _default:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1hero
+            - body-h1
             - body-breadcrumbs
             - body-side-main # What goes inside side and main is defined in main: and side: 
             - body-list # what goes in the list is defined in list:
@@ -72,7 +72,7 @@ _default:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-h1hero
+            - body-h1
             - body-breadcrumbs
             - body-side-main
         bodylazy:
@@ -126,7 +126,7 @@ about:
     #page.Kind "section"
     section:
         body:
-            - body-h1hero
+            - body-h1
             - body-side-main
             - body-list
         bodylazy:
@@ -160,7 +160,7 @@ news:
     # page.Kind "section"
     section:
         body:
-            - body-h1hero
+            - body-h1
             - body-side-main
         main:
             - main-list
@@ -199,7 +199,7 @@ references:
     # page.Kind "section"
     section:
         body:
-            - body-h1hero
+            - body-h1
             - body-referencesgrid
             - body-side-main
         main:
@@ -215,7 +215,7 @@ revolution:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1hero
+            - body-h1
             - body-herorevolution
             - body-side-main
         main:
@@ -224,7 +224,7 @@ revolution:
     # page.Kind "page"
     page:
         body:
-            - body-h1hero
+            - body-h1
             - body-breadcrumbs
             - body-side-main
         side:
@@ -242,7 +242,7 @@ tags:
             - head-meta-robots-ni
             - head-title-tags-taxonomy
         body:
-            - body-h1hero
+            - body-h1
             - body-side-main
         main:
             - main-pages-tags
@@ -255,7 +255,7 @@ tags:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-h1hero
+            - body-h1
             - body-breadcrumbs
             - body-side-main
         main:
@@ -273,7 +273,7 @@ team:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1hero
+            - body-h1
             - body-mainwide
         main:
             - main-contenthome
@@ -301,7 +301,7 @@ training:
     # page.Kind "section"
     section:
         body:
-            - body-h1hero
+            - body-h1
             - body-breadcrumbs
             - body-carousel
             - body-side-main
@@ -315,7 +315,7 @@ training:
     # page.Kind "page"
     page:
         body:
-            - body-h1hero
+            - body-h1
             - body-breadcrumbs
             - body-side-main
         side:
@@ -333,7 +333,7 @@ full:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1hero
+            - body-h1
             - body-mainfull
         main:
             - main-contenthome

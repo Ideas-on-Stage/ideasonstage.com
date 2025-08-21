@@ -1,6 +1,6 @@
 en:
   title: "Team"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-light"
   picture: "/img/inserts/team.jpg"
   url: "/team/"
@@ -9,7 +9,7 @@ en:
 
 fr:
   title: "Équipe"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-light"
   picture: "/img/inserts/team.jpg"
   url: "/fr/equipe/"
@@ -18,7 +18,7 @@ fr:
 
 es:
   title: "Equipo"
-  layout: "module/half-text-picture.html"
+  layout: "module-half-text-picture.html"
   style: "bg-light"
   picture: "/img/inserts/team.jpg"
   url: "/es/equipo/"

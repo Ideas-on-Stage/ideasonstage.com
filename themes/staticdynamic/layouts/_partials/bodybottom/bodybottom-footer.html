@@ -1,20 +1,20 @@
 <footer id="footer" class="cl-bodybottom-footer">
-	<nav id="footer-menu">
-		<ul class="categories">
-			{{ range site.Params.footer.categories }}
-				<li  class="items">
-					<h3>{{ .name }}</h3>
-					<ul>
-						{{ range .items }}
-							<li>
-								<a href="{{ .url }}">
-									{{ .name }}
-								</a>
-							</li>
-						{{ end }}
-					</ul>
-				</li>
-			{{ end }}
+	<nav>
+		<ul>
+			{{- range site.Params.footer.categories -}}
+			<li>
+				<h3>{{ .name }}</h3>
+				<ul>
+					{{- range .items -}}
+					<li>
+						<a href="{{ .url }}">
+							{{- .name -}}
+						</a>
+					</li>
+					{{- end }}
+				</ul>
+			</li>
+			{{- end -}}
 		</ul>
 	</nav>
 	<p class="text">

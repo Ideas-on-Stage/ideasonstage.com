@@ -2,8 +2,8 @@
 
 	.cl-tags {
 		@include flex-row($gap: 0.5em, $wrap: "wrap");
-		@include ul-list-style-none;
-		@include width-full;
+		@include ul-container();
+		@include width-full();
 		margin-top: 1em;
 		margin-bottom: 1em;
 		
@@ -16,6 +16,6 @@
 			}
 		}
 		
-		{{ partial "e/textscheme.scss" . }}
-		{{ partial "e/colorscheme.scss" . }};
+		{{ partial "e/scheme.scss" . }}
+
 	}
