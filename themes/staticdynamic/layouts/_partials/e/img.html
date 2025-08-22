@@ -4,10 +4,10 @@
 {{- if ne "not found" $picpath -}}
 {{- $srcset := partial "f/getimgsrcset.go" $picpath -}}
 {{- $alt := false -}}
-{{- if $data.title -}}
-	{{- $alt := $data.title -}}
-{{- else if $data.alt -}}
-	{{- $alt := $data.alt -}}
+{{- if $data.alt -}}
+	{{- $alt = $data.alt -}}
+{{- else if $data.title -}}
+	{{- $alt = $data.title -}}
 {{- end -}}
 {{- $sizes := "(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px" -}}
 <img
