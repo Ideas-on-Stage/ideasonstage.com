@@ -89,8 +89,13 @@
 		@media (max-width : $gl-sm-screen) {
 			
 			/* burger menu */
-			.burger { 
+			.burger {
 				display: inline-block;
+
+				> img {
+					height: 16px;
+					width: 16px;
+				}
 			}
 			
 			/* menu items (shown when clicking on burger) */

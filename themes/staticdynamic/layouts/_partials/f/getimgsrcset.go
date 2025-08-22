@@ -1,6 +1,6 @@
 {{/* <!--
 	
-	f/getpicturesrcset
+	f/getimgsrcset
 
 	Returns a slice with two things:
 	- the "src" path for the fallback picture
@@ -13,7 +13,7 @@
 	- a slice with "src" and "srcset" to be used as in the example below.
 	
 	Example code:
-	{{ $srcset := partial "f/getpicturesrcset.go" "/img/picture.jgp" }}
+	{{ $srcset := partial "f/getimgsrcset.go" "/img/picture.jgp" }}
 	<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="" class="">
 
 --> */}}

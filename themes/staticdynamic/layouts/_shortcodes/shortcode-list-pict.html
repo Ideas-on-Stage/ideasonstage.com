@@ -24,7 +24,7 @@
 {{/* <!-- generate html --> */}}
 {{- if and $img $alt -}}
 	<li {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
-		{{ partial "e/picture" .Params }}
+		{{ partial "e/img" .Params }}
 	</li>
 {{- else -}}
 	<p class="error">shortcode-pict parameter missing: img="image.jpg" or alt="image description"</p>

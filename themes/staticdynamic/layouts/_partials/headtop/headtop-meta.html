@@ -9,8 +9,8 @@
 {{ end }}
 <meta name ="url" property="og:url" content ="{{ .Permalink }}">
 {{ if .Params.picture }}
-	<meta name ="image" property="og:image" content="{{ partial "f/getpicturepath.go" . }}">
-	<link rel="image_src" href="{{ partial "f/getpicturepath.go" . }}">
+	<meta name ="image" property="og:image" content="{{ partial "f/getimgpath.go" . }}">
+	<link rel="image_src" href="{{ partial "f/getimgpath.go" . }}">
 {{ end }}
 {{ with .Params.mastodon }}
 	<link rel="me" href="{{ . }}">
@@ -22,6 +22,6 @@
 {{ $data := partial "f/getdatalocalized" (slice . "body-cta") }}
 {{ with $data }}
 	{{ $picture := printf "img/cta/%s" .picture }}
-	{{ $srcset := partial "f/getpicturesrcset.go" $picture }}
+	{{ $srcset := partial "f/getimgsrcset.go" $picture }}
 	<link rel="preload" as="image" href="{{ collections.Index $srcset 0 }}" imagesrcset="{{ collections.Index $srcset 1 }}">
 {{ end }}

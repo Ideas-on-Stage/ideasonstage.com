@@ -25,43 +25,48 @@
 	
 --> */}}
 
-{{ $data := partial "f/getdatalocalized" (slice . "body-carousel") }}
-{{ with $data }}
-	<section id="carousel" class="cl-body-carousel">
-		{{ with .title }}
-			<h3>{{ . }}</h3>
-		{{ end }}
-		<ul class="cl-body-carousel--carousel">
-			{{ range .items }}
-				<li class="cl-body-carousel--item">
-					<div class="text">
-						<a href="{{ partial "f/geturl.go" . }}">
-							{{ with .title }}
-								<h4>
-									{{ . }}
-								</h4>
-							{{ end }}
-							{{ with .description }}
-								<p>
-									{{ . }}
-								</p>
-							{{ end }}
-						</a>
-						{{ partial "e/button-secondary" . }}
-					</div>
+{{- $data := partial "f/getdatalocalized" (slice . "body-carousel") -}}
+{{- with $data -}}
+<section id="carousel" class="cl-body-carousel">
+	{{- with .title -}}
+		<h3>{{ . }}</h3>
+	{{- end -}}
+	<ul class="cl-body-carousel--carousel">
+		{{- range .items -}}
+			<li class="cl-body-carousel--item">
+				<div class="text">
 					<a href="{{ partial "f/geturl.go" . }}">
-						{{ if .img }}
-							{{ $srcset := partial "f/getpicturesrcset.go" .img }}
-							<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .name }}">
+						{{ with .title }}
+							<h4>
+								{{ . }}
+							</h4>
+						{{ end }}
+						{{ with .description }}
+							<p>
+								{{ . }}
+							</p>
 						{{ end }}
 					</a>
-				</li>
-			{{ end }}
-			<li class="cl-body-carousel--space">
-				<p>&nbsp;</p>
+					{{ partial "e/button-secondary" . }}
+				</div>
+				<a href="{{ partial "f/geturl.go" . }}">
+					{{- if .img -}}
+						{{ $srcset := partial "f/getimgsrcset.go" .img }}
+						<img
+							src="{{ collections.Index $srcset 0 }}"
+							loading="lazy"
+							srcset="{{ collections.Index $srcset 1 }}"
+							sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+							alt="{{ .name }}">
+					{{- end -}}
+				</a>
 			</li>
-		</ul>
-	</section>
-{{ else }}
+		{{- end -}}
+		<li class="cl-body-carousel--space">
+			<p>&nbsp;</p>
+		</li>
+	</ul>
+</section>
+{{- else -}}
 	{{ partial "e/html-comment.html" "skipped: body-carousel: no page.Params.body-body-carousels-data or missing localized data" }}
-{{ end }}
+{{- end -}}

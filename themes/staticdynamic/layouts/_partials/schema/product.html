@@ -11,7 +11,7 @@
 		"name": {{ .Title }},
 		"description": {{ .Params.description }},
 		{{ if .Params.picture }}
-			"image": {{ partial "f/getpicturepath.go" . }},
+			"image": {{ partial "f/getimgpath.go" . }},
 		{{ end }}
 		"brand": {
 			"@type": "Brand",

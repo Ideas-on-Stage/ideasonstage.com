@@ -16,7 +16,7 @@
 	<!-- menu-burger menu on ts screens -->
 	<label for="drop" class="burger">
 		{{ $burger := resources.Get "img/icons/burger.svg" }}
-		<img src="data:image/svg+xml;base64,{{ $burger.Content | base64Encode }}" height="16px" width="16px" alt="Burger Menu">
+		<img src="data:image/svg+xml;base64,{{ $burger.Content | base64Encode }}" height="16" width="16" alt="Burger Menu">
 	</label>
 	
 	<input type="checkbox" id="drop" class="menu-checkbox"/>
@@ -37,7 +37,7 @@
 		<li class="menu-item">
 			<label for="drop-search">
 				{{ $img := resources.Get "img/icons/search.svg" }}
-				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Search">
+				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12" width="12" alt="Search">
 			</label>
 			<input type="checkbox" id="drop-search" class="menu-checkbox"/>
 			<ul class="menu-dropdown cl-more--fastsearch">
@@ -55,7 +55,7 @@
 		<li class="menu-item">
 			<label for="drop-languages">
 				{{ $img := resources.Get "img/icons/globe.svg" }}
-				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Search">
+				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12" width="12" alt="Search">
 				<span class="menu-shorten">
 					{{ with .Language.LanguageName }}{{ . }}{{ end }}
 					{{ partial "e/icon.html" (dict "name" "dropdown.svg" "alt" "Show Content") }}

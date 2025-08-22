@@ -1,23 +1,23 @@
 {{ "<!-- Variables inline CSS -->" | safeHTML }}
-<style type="text/css">
+<style>
 	{{- $css := resources.Get "css/variables.scss" | resources.ExecuteAsTemplate "variables.css" . | toCSS | minify -}}
 	{{- $css.Content | safeCSS -}}
 </style>
 
 {{ "<!-- Core inline CSS -->" | safeHTML }}
-<style type="text/css">
+<style>
 	{{- $css := resources.Get "css/core.scss" | resources.ExecuteAsTemplate "core.css" . | toCSS | minify -}}
 	{{- $css.Content | safeCSS -}}
 </style>
 
 {{ "<!-- Fonts inline CSS -->" | safeHTML }}
-<style type="text/css">
+<style>
 	{{- $typography := resources.Get "css/typography.css" | minify -}}
 	{{- $typography.Content | safeCSS -}}	
 </style>
 
 {{ "<!-- Blocks inline CSS -->" | safeHTML }}
-<style type="text/css">
+<style>
 	{{ $blocktypes := slice "bodytop" "body" "main" "list" "side" }}
 	{{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
 	{{- range $blocks -}}
@@ -27,26 +27,26 @@
 		{{- $style.Content | safeCSS -}}
 	{{- end -}}
 </style>
-{{ range $blocks }}
+{{- range $blocks -}}
 	{{ (printf "<!-- inlined: %s.scss -->" .) | safeHTML }}
-{{ end }}
+{{- end -}}
 
 {{ "<!-- Shortcodes inline CSS -->" | safeHTML }}
-<style type="text/css">
-	{{- $found := slice -}}
-	{{- $shortcodes := readDir "/themes/staticdynamic/layouts/_shortcodes" -}}
-	{{- $shortcodes = $shortcodes | append (readDir "/layouts/_shortcodes") -}}
-	{{- range $shortcodes -}}
-		{{- $name := index (split .Name ".") 0 -}}
-		{{- if page.HasShortcode $name -}}
-			{{- if fileExists (printf "/themes/staticdynamic/assets/css/%s.scss" $name) -}}
-				{{- $found = $found | append $name }}
-			{{- else if fileExists (printf "/assets/css/%s.scss" $name) -}}
-				{{- $found = $found | append $name }}
-			{{- end -}}
+{{- $found := slice -}}
+{{- $shortcodes := readDir "/themes/staticdynamic/layouts/_shortcodes" -}}
+{{- $shortcodes = $shortcodes | append (readDir "/layouts/_shortcodes") -}}
+{{- range $shortcodes -}}
+	{{- $name := index (split .Name ".") 0 -}}
+	{{- if page.HasShortcode $name -}}
+		{{- if fileExists (printf "/themes/staticdynamic/assets/css/%s.scss" $name) -}}
+			{{- $found = $found | append $name }}
+		{{- else if fileExists (printf "/assets/css/%s.scss" $name) -}}
+			{{- $found = $found | append $name }}
 		{{- end -}}
 	{{- end -}}
-	{{- $found = uniq $found -}}
+{{- end -}}
+{{- $found = uniq $found -}}
+<style>
 	{{- if ge ($found | len) 1 -}}
 		{{- $resource := "css/shortcode.scss" -}}
 		{{- $css := "shortcode.css" -}}

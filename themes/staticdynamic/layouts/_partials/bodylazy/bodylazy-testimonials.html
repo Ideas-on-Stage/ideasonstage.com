@@ -12,8 +12,15 @@
 				{{ end }}
 				<div class="person">
 					{{ if .img }}
-						{{ $srcset := partial "f/getpicturesrcset.go" .img }}
-						<img src="{{ collections.Index $srcset 0 }}" loading="lazy" srcset="{{ collections.Index $srcset 1 }}" alt="{{ .name }}" height="60" width="60">
+						{{ $srcset := partial "f/getimgsrcset.go" .img }}
+						<img
+							loading="lazy"
+							src="{{ collections.Index $srcset 0 }}"
+							srcset="{{ collections.Index $srcset 1 }}"
+							sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+							alt="{{ .name }}"
+							height="60"
+							width="60">
 					{{ end }}
 					<div>
 						{{ with .name }}

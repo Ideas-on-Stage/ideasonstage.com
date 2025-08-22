@@ -15,9 +15,15 @@
 {{ $hero := partial "f/getheropicturepath.go" . }}
 {{ if $hero }}
 	{{/* <!-- create hero --> */}}
-	<header id="hero" class="cl-body-h1--hero">
-		{{ $srcset := partial "f/getpicturesrcset.go" $hero }}
-		<img loading="eager" decoding="async" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .Title }}alt="{{ . }}"{{ end }}>
+	<header id="title" class="cl-body-h1--hero">
+		{{ $srcset := partial "f/getimgsrcset.go" $hero }}
+		<img
+			loading="eager"
+			decoding="async"
+			src="{{ collections.Index $srcset 0 }}"
+			srcset="{{ collections.Index $srcset 1 }}"
+			sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+			{{ with .Title }}alt="{{ . }}"{{ end }}>
 		{{ with .Title }}
 			<h1>
 				{{ . | markdownify }}

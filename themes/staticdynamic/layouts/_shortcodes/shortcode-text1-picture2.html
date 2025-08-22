@@ -6,6 +6,6 @@
 		{{- (partial "e/link-title" .Params) | safeHTML -}}
 		{{ .Inner | page.RenderString $opts }}
 	</div>
-	{{ partial "e/picture" .Params }}
+	{{ partial "e/img" .Params }}
 </div>
 {{ "<!-- shortcode-text1-picture2.html:end -->" | safeHTML }}

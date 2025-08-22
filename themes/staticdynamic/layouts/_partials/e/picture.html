@@ -1,8 +1,0 @@
-{{ "<!-- partials/e/picture.html:start -->" | safeHTML }}
-{{- $data := partial "f/getdata.go" . -}}
-{{- $picpath := partial "f/getpicturepath.go" . -}}
-{{- if ne "not found" $picpath -}}
-{{- $srcset := partial "f/getpicturesrcset.go" $picpath -}}
-<img class="picture" src="{{ index $srcset 0 }}" srcset="{{ index $srcset 1 }}" {{ with $data.title }}alt="{{ . }}"{{ end }} {{ with $data.alt }}alt="{{ . }}"{{ end }}>
-{{- end -}}
-{{ "<!-- partials/e/picture.html:end -->" | safeHTML }}

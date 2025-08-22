@@ -4,7 +4,7 @@
 		{{ range . }}
 			<div class="reference">
 				<div class="logo">
-					{{ partial "e/picture.html" . }}
+					{{ partial "e/img.html" . }}
 				</div>
 				<div class="text">
 					{{ with .client }}
@@ -43,7 +43,7 @@
 		{{ range .Pages }}
 			<div class="reference">
 				<div class="thumb">
-					{{ partial "e/picture" . }}
+					{{ partial "e/img" . }}
 				</div>
 				<div class="text">
 					{{ with .Params.client }}

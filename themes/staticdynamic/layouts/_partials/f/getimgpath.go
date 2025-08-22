@@ -1,6 +1,6 @@
 {{/* <!--
 	
-	f/getpicturepath
+	f/getimgpath
 	
 	Gets full path to picture for pages and data files.
 	Allows to use a specific .thumbnail image.

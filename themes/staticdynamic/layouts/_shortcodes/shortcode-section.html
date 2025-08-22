@@ -27,7 +27,7 @@
 {{ "<!-- shortcode-section.html:start -->" | safeHTML }}
 <section {{ with $id }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{- if $img -}}
-	{{ partial "e/picture" $.Params }}
+	{{ partial "e/img" $.Params }}
 	{{- end -}}
 	{{- with $inner -}}
 		{{- $inner = $inner | strings.TrimSpace -}}

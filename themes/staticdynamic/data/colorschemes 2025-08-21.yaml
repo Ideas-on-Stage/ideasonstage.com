@@ -115,7 +115,7 @@ bg-dark:
 - "--color-text-a: white"
 - "--color-text-a-hover: var(--color-primary)"
 - "--color-text: white"
-- "--color-text-muted: #white"
+- "--color-text-muted: white"
 
 bg-primary:
 - "--color-back: var(--color-primary)"
@@ -132,7 +132,7 @@ bg-secondary:
 - "--color-text-a: white"
 - "--color-text-a-hover: white"
 - "--color-text: white"
-- "--color-text-muted: #white"
+- "--color-text-muted: white"
 
 bg-codingandbricks:
 - "--color-back: #233B4C"

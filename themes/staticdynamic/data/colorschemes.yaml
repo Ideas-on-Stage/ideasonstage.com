@@ -50,7 +50,7 @@ bg-light:
 bg-dark:
     color-back: "#222"
     color-text: "white"
-    color-text-muted: "#white"
+    color-text-muted: "white"
     a:
         color-text: "white"
         color-text-hover: "var(--color-primary)"
@@ -79,7 +79,7 @@ bg-primary:
 bg-secondary:
     color-back: "var(--color-secondary)"
     color-text: "white"
-    color-text-muted: "#white"
+    color-text-muted: "white"
     a:
         color-text: "white"
         color-text-hover: "white"

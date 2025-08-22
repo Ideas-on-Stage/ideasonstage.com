@@ -16,8 +16,13 @@
 {{ with $data }}
 	<section id="reference-list" class="cl-referencesgrid">
 		{{ range . }}
-			{{ $srcset := partial "f/getpicturesrcset.go" .picture }}
-			<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .client }}alt="{{ . }}"{{ end }} height="100" width="100" />
+			{{ $srcset := partial "f/getimgsrcset.go" .picture }}
+			<img
+				src="{{ collections.Index $srcset 0 }}"
+				srcset="{{ collections.Index $srcset 1 }}"
+				sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+				{{ with .client }}alt="{{ . }}"{{ end }}
+				height="100" width="100" />
 		{{ end }}
 	</section>
 {{ else }}

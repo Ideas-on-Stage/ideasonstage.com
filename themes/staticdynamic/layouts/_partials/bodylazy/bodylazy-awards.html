@@ -1,13 +1,19 @@
-{{ $data := partial "f/getdatalocalized" (slice . "bodylazy-awards") }}
-{{ with $data }}
+{{- $data := partial "f/getdatalocalized" (slice . "bodylazy-awards") -}}
+{{- with $data -}}
 	<div class="cl-awards">
-		{{ range . }}
+		{{- range . -}}
 			<div class="cl-awards--item">
-				{{ $srcset := partial "f/getpicturesrcset.go" .img }}
-				<img loading="eager" decoding="async" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" {{ with .title }}alt="{{ . }}"{{ end }}>
+				{{- $srcset := partial "f/getimgsrcset.go" .img -}}
+				<img
+					loading="lazy"
+					decoding="async"
+					src="{{ collections.Index $srcset 0 }}"
+					srcset="{{ collections.Index $srcset 1 }}"
+					sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+					{{ with .title }}alt="{{ . }}"{{ end }}>
 			</div>
-		{{ end }}
+		{{- end -}}
 	</div>
-{{ else }}
+{{- else -}}
 	{{ partial "e/html-comment.html" "INFO: skipped: bodylazy-awards: no .Params.bodylazy-awards-data" }}
-{{ end }}
+{{- end -}}

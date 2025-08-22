@@ -27,7 +27,7 @@
 {{ "<!-- shortcode-section-hero.html:start -->" | safeHTML }}
 <section {{ with $id }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{- if $img -}}
-	{{ partial "e/picture" $.Params }}
+	{{ partial "e/img" $.Params }}
 	{{- end -}}
 	{{- with $inner -}}
 	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>

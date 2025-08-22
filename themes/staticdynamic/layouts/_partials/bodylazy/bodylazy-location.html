@@ -1,8 +1,13 @@
-{{ with site.Params.map }}
-	{{ if eq true .enable }}
+{{- with site.Params.map -}}
+	{{- if eq true .enable -}}
 		<section id="address" class="cl-bodylazy-location">
-			{{ $srcset := partial "f/getpicturesrcset.go" .bgimage }}
-			<img loading="lazy" src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="Ideas on Stage Champs Élysées">
+			{{- $srcset := partial "f/getimgsrcset.go" .bgimage -}}
+			<img
+				loading="lazy"
+				src="{{ collections.Index $srcset 0 }}"
+				srcset="{{ collections.Index $srcset 1 }}"
+				sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+				alt="Ideas on Stage Champs Élysées">
 			<div class="text">
 				<h2>
 					{{ with .title }}{{ . | markdownify }}{{ end }}
@@ -12,9 +17,9 @@
 				</p>
 			</div>
 		</section>
-	{{ else }}
+	{{- else -}}
 		{{ "<!-- no location because site.Params.map.enable is not true -->" | safeHTML }}
-	{{ end }}
-{{ else }}
+	{{- end -}}
+{{- else -}}
 	{{ "<!-- no location because site.Params.map not set -->" | safeHTML }}
-{{ end }}
+{{- end -}}
