@@ -2,28 +2,49 @@
 	
 	f/getdata
 
-	Returns a "harmonized" data structure, removing .Params if necessary.
-	e.g. the structure:
-	.Params
+	Returns a "harmonized" data structure:
+	- remove page or .Params if necessary.
+	- other data types (string, int, etc.) are left untouched.
+	
+	This is especially useful when calling a partial with different data objects (a page, a shortcode, a dict, etc.)
+	and you don't want to spend time testing every possible case.
+	With f/getdata, you know you can proceed with a standard data structure.
+	
+	e.g. the page structure:
+		page
+			.Params
+				.title
+				.description
+	will become a dict:
 		.title
 		.description
-	will become
-	.title
-	.description
+	
+	the .Params structure:
+		.Params
+			.title
+			.description
+	will become a dict:
+		.title
+		.description
 
-	the structure	
-	.title
-	.description
-	will remeain 
-	.title
-	.description
+	the dict structure:
+		.title
+		.description
+	will remain a dict:
+		.title
+		.description
 
 	Arguments:
-	- .Params.data or .data
+	- some data:
+		- page object
+		- or .Params dict
+		- or dict
+		- or any other data type such as string, int...
 	
 	Returns:
-	- .data
-
+	- dict data for page, .Params or dict
+	- the original data for other data types.
+	
 --> */}}
 
 {{/* <!-- initialize variables --> */}}
