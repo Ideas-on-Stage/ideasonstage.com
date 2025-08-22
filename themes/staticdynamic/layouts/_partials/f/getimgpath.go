@@ -25,34 +25,38 @@
 
 --> */}}
 
-{{ $imgpath := "" }}
-{{ $picture := "" }}
+{{/* <!-- initialize variables  --> */}}
+{{ $type := partial "f/getdatatype" . }}
+{{ $data := partial "f/getdata" . }}
+{{ $imgpath := false }}
+{{ $img := false }}
 {{ $found := false }}
-{{ $thumbtest := "" }}
+{{ $thumbtest := false }}
 
-{{ if (partial "f/ispage.go" .) }}
+{{/* <!-- if page object, check if thumbnail.jpg exists, if yes use it --> */}}
+{{ if eq "page" $type }}
 	{{/* <!-- then this is a page, check for thumbnail.jpg in same directory --> */}}
 	{{ $thumbtest = add .File.Dir "thumbnail.jpg" }}
 	{{ if fileExists $thumbtest }}
 		{{/* <!-- if a file named thumbnail.jpg exists, use thumbnail.jpg --> */}}
-	  	{{ $picture = "thumbnail.jpg" }}
-		{{ $found = true }}
-	{{ else if .Params.picture }}
-		{{/* <!-- if .picture exists, use the picture property --> */}}
-		{{ $picture = .Params.picture }}
+	  	{{ $img = "thumbnail.jpg" }}
 		{{ $found = true }}
 	{{ end }}
-{{ else if (isset . "picture") }}
-	{{/* <!-- else it can be a data or shortcode file, use .picture property --> */}}
-	{{ $picture = .picture }}
+{{ end }}
+
+{{ if $found }}
+	{{/* <!-- do nothing --> */}}
+{{ else if (isset $data "img") }}
+	{{/* <!-- if .img exists, use it --> */}}
+	{{ $img = $data.img }}
 	{{ $found = true }}
-{{ else if (isset . "img") }}
-	{{/* <!-- else it can be a data or shortcode file, use .img property --> */}}
-	{{ $picture = .img }}
+{{ else if isset $data "picture" }}
+	{{/* <!-- if .picture exists, use it (deprecated in favor of img) --> */}}
+	{{ $img = $data.picture }}
 	{{ $found = true }}
-{{ else if (isset . "src") }}
+{{ else if isset $data "src" }}
 	{{/* <!-- else it can be a data or shortcode file, use .src property --> */}}
-	{{ $picture = .src }}
+	{{ $img = $data.src }}
 	{{ $found = true }}
 {{ else }}
 	{{ $found = false }}
@@ -60,26 +64,24 @@
 
 {{ if $found }}
 	{{/* <!-- if it's a string check if path should be completed --> */}}		
-	{{ $firstchar := substr $picture 0 1 }}
-	{{ $firstfour := substr $picture 0 4 }}
+	{{ $firstchar := substr $img 0 1 }}
+	{{ $firstfour := substr $img 0 4 }}
 	{{ if eq "/" $firstchar }}
 		{{/* <!-- if starts with / then .picture contains rel path to img --> */}}
-		{{ $imgpath = $picture }}
+		{{ $imgpath = $img }}
 	{{ else if eq "http" $firstfour }}
 		{{/* <!-- if starts with http then .picture contains abs path to img --> */}}
-		{{ $imgpath = $picture }}
+		{{ $imgpath = $img }}
 	{{ else }}
-		{{/* <!-- else .picture contains name of img, add path --> */}}
-		{{ if .RelPermalink }}
-			{{ $imgpath = path.Join .RelPermalink $picture }}
-		{{ else if (isset . "url") }}
-			{{ $imgpath = path.Join .url $picture }}
+		{{/* <!-- else add path --> */}}
+		{{ if (isset $data "url") }}
+			{{ $imgpath = path.Join $data.url $img }}
 		{{ else }}
-			{{ $imgpath = path.Join .RelPermalink $picture }}
+			{{ $imgpath = path.Join .RelPermalink $img }}
 		{{ end }}
 	{{ end }}
 {{ else }}
-	{{ $imgpath = "not found" }}
+	{{ $imgpath = false }}
 {{ end }}
 
 {{ return $imgpath }}

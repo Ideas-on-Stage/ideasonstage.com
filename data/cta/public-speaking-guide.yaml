@@ -1,5 +1,5 @@
 en:
-    picture: "public-speaking.jpg"
+    picture: "/img/cta/public-speaking.jpg"
     title: "PUBLIC SPEAKING GUIDE"
     level: "h2"
     description: "Our guide to master the art of public speaking."
@@ -10,7 +10,7 @@ en:
         link: "/ultimate-public-speaking-guide/"			
 
 es:
-    picture: "public-speaking.jpg"
+    picture: "/img/cta/public-speaking.jpg"
     title: "LA GUÍA DEFINITIVA PARA HABLAR EN PÚBLICO"
     level: "h2"
     description: "Aprende a comunicarte de forma efectiva con estas técnicas."
@@ -21,7 +21,7 @@ es:
         link: "/es/guia-definitiva-hablar-en-publico/"
 
 fr:
-    picture: "public-speaking.jpg"
+    picture: "/img/cta/public-speaking.jpg"
     title: "GUIDE DE LA PRISE DE PAROLE EN PUBLIC"
     level: "h2"
     description: "Notre guide pour maîtriser les techniques de l'art oratoire."

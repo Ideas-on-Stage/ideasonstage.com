@@ -17,21 +17,14 @@
 --> */}}
 
 {{- $data := partial "f/getdatalocalized" (slice . "body-cta") -}}
+{{/* <!-- add loading and decoding img attributes to data --> */}}
+{{- $data = merge $data (dict "loading" "eager" "decoding" "async") -}}
 
 {{/* <!-- check if body-cta-data parameter exists in page front matter --> */}}
 {{- with $data -}}
 <header id="call-to-action" class="cl-body-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
 	{{/* <!-- cta picture --> */}}
-	{{- $picture := printf "img/cta/%s" .picture -}}
-	{{- $srcset := partial "f/getimgsrcset.go" $picture -}}
-	{{- $sizes := "(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px" -}}
-	<img
-		loading="eager"
-		decoding="async"
-		src="{{ collections.Index $srcset 0 }}"
-		srcset="{{ collections.Index $srcset 1 }}"
-		sizes="{{ $sizes }}"
-		alt="{{ .title }}">
+	{{ partial "e/img.html" . }}
 	
 	<div class="main">
 		{{/* <!-- cta title --> */}}

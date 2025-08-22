@@ -1,20 +1,57 @@
-{{ "<!-- partials/e/img.html:start -->" | safeHTML }}
+{{/* <!-- 
+	
+	e/img.html
+	
+	Parameters:
+	- a page object (in which case it will try to retrieve img in the following order:
+		- a thumbnail.jpg file,
+		- .Params.img
+		- .Params.picture
+	- a data object, with the required properties (see variables below)	
+	
+ --> */}}
+{{- $imgpath := partial "f/getimgpath.go" . -}}
 {{- $data := partial "f/getdata.go" . -}}
-{{- $picpath := partial "f/getimgpath.go" . -}}
-{{- if ne "not found" $picpath -}}
-{{- $srcset := partial "f/getimgsrcset.go" $picpath -}}
-{{- $alt := false -}}
-{{- if $data.alt -}}
-	{{- $alt = $data.alt -}}
-{{- else if $data.title -}}
-	{{- $alt = $data.title -}}
-{{- end -}}
+{{- $srcset := false -}}
 {{- $sizes := "(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px" -}}
+{{- $alt := false -}}
+{{- $class := false -}}
+{{- $loading := false -}}
+{{- $decoding := false -}}
+
+{{- if $imgpath -}}
+	{{- $srcset = partial "f/getimgsrcset.go" $imgpath -}}
+{{- end -}}
+
+{{- if $data.alt -}}
+	{{- $alt = printf "alt=\"%s\"" $data.alt -}}
+{{- else if $data.title -}}
+	{{- $alt = printf "alt=\"%s\"" $data.title -}}
+{{- end -}}
+
+{{- with $data.class -}}
+	{{- $class = printf "class=\"%s\"" . -}}
+{{- end -}}
+
+{{- with $data.loading -}}
+	{{- $loading = printf "loading=\"%s\"" . -}}
+{{- end -}}
+
+{{- with $data.decoding -}}
+	{{- $decoding = printf "decoding=\"%s\"" . -}}
+{{- end -}}
+
+{{ "<!-- partials/e/img.html:start -->" | safeHTML }}
+{{- if $imgpath -}}
 <img
-	class="picture"
 	src="{{ index $srcset 0 }}"
 	srcset="{{ index $srcset 1 }}"
 	sizes="{{ $sizes }}"
-	{{ with $alt }}alt="{{ . }}"{{ end }}>
+	{{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}
+	{{ with $class }}{{ . | safeHTMLAttr }}{{ end }}
+	{{ with $loading }}{{ . | safeHTMLAttr }}{{ end }}
+	{{ with $decoding }}{{ . | safeHTMLAttr }}{{ end }}>
+{{- else -}}
+	<!-- img not found -->
 {{- end -}}
 {{ "<!-- partials/e/img.html:end -->" | safeHTML }}
