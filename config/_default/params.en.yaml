@@ -1,0 +1,118 @@
+# params.en.yaml
+
+country: "United States"
+countryShort: "USA"
+baseUrl: https://www.ideasonstage.com/
+googleAnalytics: "UA-30695118-1"
+
+# -------------------
+# buttons
+buttons:
+    default: "Learn More"
+    next: "Older"
+    previous: "Newer"
+    back: "Back"
+
+# -------------------
+# contact
+contact:
+    disabled: false
+    title: "Contact us"
+    description: "Any questions? Use the form below and we'll get back to you shortly"
+    recaptchasitekey: "6LdPO_4UAAAAAOkPGjWhZSJaqJKKR4XOrf8Xyfs0"
+    missingcaptcha: "Please Enter CAPTCHA Code.\n"
+    wrongcaptcha: "The CAPTCHA Code Does Not Match.\n"
+    # 'warning' defines error messages for invalid inputs
+    form:
+        name:
+            text: "Your Name *"
+            warning: "Please enter your name."
+        email:
+            text: "Your Email *"
+            warning: "Please enter a valid email address."
+        phone:
+            text: "Your Phone (optional)"
+            warning: "Please enter a valid phone number."
+        country:
+            text: "Your country of residence (optional)"
+            warning: "Please enter your country of residence."
+        message:
+            text: "Let us know how we can help you *"
+            warning: "Please enter a message."
+        button:
+            text: "Send message"
+            success: "Thank you, we'll get back to you shortly."
+            wait: "Please Wait..."
+
+# -------------------
+# footer
+footer:
+    copyright: "© Ideas on Stage 2010 - "
+    rights: "All Rights Reserved"
+    cookies: "We fully respect your privacy. We don't use cookies or scripts to track you."
+    text: "Ideas on Stage – SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 – N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
+    categories:
+        - name: "Services"
+          items:
+            - name: "Training"
+              url: "/presentations-training/"
+            - name: "Coaching"
+              url: "/public-speaking-coaching/"
+            - name: "Consulting"
+              url: "/communication-consulting/"
+        - name: "Resources"
+          items:
+            - name: "Videos"
+              url: "/resources/revolution/"
+            - name: "Articles and News"
+              url: "/news/"
+            - name: "Guides"
+              url: "/guides/"
+            - name: "Books"
+              url: "/resources/books/"
+            - name: "Podcast"
+              url: "/resources/podcast/"
+        - name: "Ideas on Stage"
+          items:
+            - name: "About Us"
+              url: "/about/"
+            - name: "Team"
+              url: "/team/"
+            - name: "References"
+              url: "/about/references/"
+        - name: "Contact Us"
+          items:
+            - name: "Contact Form"
+              url: "#contact"
+
+# -------------------
+# navbar
+navbar:
+    - name: "Training"
+      url: "/presentations-training/"
+    - name: "Coaching"
+      url: "/public-speaking-coaching/"
+    - name: "Consulting"
+      url: "/communication-consulting/"
+    - name: "Contact"
+      url: "#contact"
+
+# -------------------
+# news
+news:
+    sbcategorytitle: "Top Categories"
+    related: "See Also"
+
+# -------------------
+# table of contents
+tableofcontents:
+    title: "Table of Contents"
+
+# -------------------
+# testimonials
+testimonials:
+    # All testimonials are defined in their own files. You can find testimonials 
+    # at '/data/testimonials'.
+    enable: true
+    title: "Testimonials"
+    subtitle: "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."

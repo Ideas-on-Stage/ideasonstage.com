@@ -1,0 +1,54 @@
+baseURL: https://www.ideasonstage.com/
+canonifyurls: false
+defaultContentLanguage: en
+theme: staticdynamic
+title: Ideas on Stage
+
+languages:
+    
+    en:
+        languageCode: en
+        languageName: United States
+        contentDir: content/en
+        weight: 1
+    
+    fr:
+        languageCode: fr
+        languageName: France
+        contentDir: content/fr
+        weight: 2
+    
+    es:
+        languageCode: es
+        languageName: España
+        contentDir: content/es
+        weight: 3
+    
+    uk:
+        languageCode: en-GB
+        languageName: United Kingdom
+        contentDir: content/uk
+        weight: 4
+    
+markup:
+    goldmark:
+        parser:
+            attribute:
+                block: true
+        renderer:
+            unsafe: true # added to allow raw HTML in page .Content
+    
+    tableOfContents:
+        startLevel: 2 # heading start level for table of contents
+        endLevel: 3 # heading end level for table of contents
+
+pagination:
+    disableAliases: true
+    pagerSize: 8
+    path: page
+
+permalinks:
+    news: /news/:year/:month/:day/:contentbasename/
+
+taxonomies:
+    tag: tags

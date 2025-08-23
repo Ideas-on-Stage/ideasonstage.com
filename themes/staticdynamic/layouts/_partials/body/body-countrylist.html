@@ -12,12 +12,14 @@
 
 <nav id="country-list" class="cl-body-countrylist">
 	<ul>
-		{{ range site.Params.countries }}
+		{{- range site.Languages -}}
+			{{- with .Params -}}
 			<li>
-				<a href="{{ .url }}" class="cl-core--button-secondary">
-					{{ .name }}
+				<a href="{{ .baseUrl }}" class="cl-core--button-secondary">
+					{{ .countryShort }}
 				</a>
 			</li>
-		{{ end }}
+			{{- end -}}
+		{{- end -}}
 	</ul>
 </nav>

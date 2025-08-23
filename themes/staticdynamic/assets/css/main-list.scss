@@ -1,0 +1,26 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-main-list {
+		@include flex-column($gap: "big", $wrap: "nowrap");
+		@include width-full;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		
+		.item {
+			@include flex-row($gap: "big", $wrap: "nowrap");
+			@include flex-column-sm();
+			
+			.picture {
+				@include width-column(3,2);
+				@include width-column-sm(1);
+			}
+			
+			.text {
+				@include firstlastchildnomargin;
+				@include width-column(3);
+				@include width-column-sm(1);
+			}
+			
+			{{ partial "e/scheme.scss" . }}
+		}
+	}

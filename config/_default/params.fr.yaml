@@ -1,0 +1,140 @@
+# params.fr.yaml
+
+country: "France"
+countryShort: "France"
+baseUrl: https://www.ideasonstage.com/fr/
+googleAnalytics: "UA-30695118-2"
+
+# -------------------
+# Buttons
+buttons:
+    default: "En savoir plus"
+    next: "Plus anciens"
+    previous: "Plus récents"
+    back: "Retour"
+
+# -------------------
+# Contact section
+contact:
+    disabled: false
+    title: "Contactez-nous"
+    description: "Des questions ? Contactez-nous avec le formulaire ci-dessous et nous vous répondrons rapidement."
+    recaptchasitekey: "6LcHff4UAAAAAJOGp7-jMBjBd70L_WuN_YZFAO6q"
+    missingcaptcha: "Veuillez entrer le code CAPTCHA.\n"
+    wrongcaptcha: "Le code CAPTCHA ne correspond pas.\n"
+    # 'warning' defines error messages for invalid inputs
+    form:
+        name:
+            text: "Votre nom complet *"
+            warning: "Veuillez entrer votre nom complet."
+        email:
+            text: "Votre email *"
+            warning: "Veuillez entrer une adresse e-mail valide."
+        phone:
+            text: "Votre téléphone (optionnel)"
+            warning: "Veuillez entrer un numéro de téléphone valide."
+        country:
+            text: "Votre pays de résidence (optionnel)"
+            warning: "Veuillez entrer votre pays de résidence."
+        message:
+            text: "Votre message *"
+            warning: "S'il vous plaît entrer un message."
+        button:
+            text: "Envoyer"
+            success: "Merci, nous vous répondrons rapidement."
+            wait: "Veuillez patienter..."
+
+# -------------------
+# footer
+footer:
+    copyright: "© Ideas on Stage 2010 - "
+    rights: "Tous droits réservés"
+    cookies: "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
+    text: "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
+    categories:
+        - name: "Services"
+          items:
+            - name: "Formations prise de parole"
+              url: "/fr/formations-prise-de-parole-en-public/"
+            - name: "Coaching prise de parole"
+              url: "/fr/coaching-prise-de-parole-en-public/"
+            - name: "Conseil en communication"
+              url: "/fr/conseil-communication/"
+            - name: "Ateliers entreprise"
+              url: "/fr/ateliers-evenement-entreprise/"
+        - name: "Ressources"
+          items:
+            - name: "Vidéos"
+              url: "/fr/ressources/revolution/"
+            - name: "Articles et Nouvelles"
+              url: "/fr/news/"
+            - name: "Guides Gratuits"
+              url: "/fr/guides/"
+            - name: "Autres Ressources"
+              url: "/fr/ressources/"
+        - name: "Ideas on Stage"
+          items:
+            - name: "À propos de nous"
+              url: "/fr/apropos/"
+            - name: "Équipe"
+              url: "/fr/equipe/"    
+            - name: "Références Clients"
+              url: "/fr/apropos/references/"
+            - name: "Politique RSE"
+              url: "/fr/apropos/rse/"
+        - name: "Contactez-nous"
+          items:
+            - name: "Formulaire"
+              url: "#contact"
+            - name: "Email"
+              url: "mailto:info@ideasonstage.com"
+
+# -------------------
+# Location
+location:
+    addresscountry: "France"
+    addresslocality: "Paris"
+    addressregion: "Île de France"
+    postalcode: "75008"
+    streetaddress: "138 avenue des Champs Élysées"
+    telephone: "+33183750544"
+
+# -------------------
+# Map
+map:
+    disabled: false
+    title: "Où nous trouver"
+    address: "138 avenue des Champs Élysées — 75008 Paris, France — Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
+    bgimage: "/img/triumph.jpg"
+
+# -------------------
+# navbar
+navbar:
+    - name: "Formations"
+      url: "/fr/formations-prise-de-parole-en-public/"
+    - name: "Coaching"
+      url: "/fr/coaching-prise-de-parole-en-public/"
+    - name: "Conseil"
+      url: "/fr/conseil-communication/"
+    - name: "Ateliers"
+      url: "/fr/ateliers-evenement-entreprise/"
+    - name: "Contact"
+      url: "#contact"
+
+# -------------------
+# News
+news:
+    sbcategorytitle: "Top catégories"
+    related: "Voir également"
+
+# -------------------
+# table of contents
+tableofcontents:
+    title: "Table des matières"
+
+# -------------------
+# Testimonials
+testimonials:
+    enable: true
+    title: "Témoignages"
+    subtitle: "Nous avons travaillé avec de nombreux clients ; voici quelques exemples de ce que nos clients disent de nous."

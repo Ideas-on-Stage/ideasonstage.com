@@ -15,7 +15,6 @@
 # - bodybottom: common blocks added last to the <body></body> part
 # - side: blocks added to the sidebar inside the .side part (needs a body-side-main part declared in the body block)
 # - main: blocks added inside the .main part (needs a body-side-main or body-main* part declared in the body block)
-# - list: blocks added inside list elements (needs a body-list* or main-list* part declared in the body block)
 #
 # It is possible to create a custom block type if necessary.
 
@@ -59,13 +58,11 @@ _default:
             - body-breadcrumbs
             - body-h1
             - body-side-main # What goes inside side and main is defined in main: and side: 
-            - body-list # what goes in the list is defined in list:
         bodylazy:
             - bodylazy-modules-aside
         main:
             - main-content
-        list:
-            - list-link-picture2-text1
+            - main-list
     # page.Kind "page"
     page:
         head:
@@ -128,12 +125,12 @@ about:
         body:
             - body-h1
             - body-side-main
-            - body-list
         bodylazy:
             - bodylazy-location
             - bodylazy-modules-aside
         main:
             - main-content
+            - main-list
 
 
 
@@ -163,18 +160,10 @@ news:
             - body-h1
             - body-side-main
         main:
-            - main-list
+            - main-listnews
             - main-prevnext
         side:
             - side-topcategories
-        list:
-            - list-h2
-            - list-authorandtime
-            - list-tags
-            - list-banner
-            - list-summary
-            - list-buttonmorenews
-            - list-space-medium
     # page.Kind "page"
     page:
         head:

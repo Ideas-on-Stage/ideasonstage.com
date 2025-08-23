@@ -1,5 +1,5 @@
 {{- with site.Params.map -}}
-	{{- if eq true .enable -}}
+	{{- if not .disabled -}}
 		<section id="address" class="cl-bodylazy-location">
 			{{- $srcset := partial "f/getimgsrcset.go" .bgimage -}}
 			<img

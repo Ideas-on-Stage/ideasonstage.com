@@ -4,6 +4,9 @@
 
 root:
 
+    width-viewport-sm: "720px"
+    width-viewport-lg: "1440px"
+    
     # menubar variables
     menubar-height: "52px"
     

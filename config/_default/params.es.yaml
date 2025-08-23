@@ -1,0 +1,120 @@
+# params.es.yaml
+
+country: "España"
+countryShort: "España"
+baseUrl: https://www.ideasonstage.com/es/
+googleAnalytics: "UA-30695118-3"
+
+# -------------------
+# buttons
+buttons:
+    default: "Saber más"
+    next: "Más antiguo"
+    previous: "Más nuevo"
+    back: "Atrás"
+
+# -------------------
+# contact
+contact:
+    disabled: false
+    title: "Contacta con nosotros"
+    description: "¿Alguna pregunta? Usa el formulario y te responderemos lo antes posible"
+    recaptchasitekey: "6Lcnff4UAAAAAG8RHxmsXXggu-WaRriMcsYB5rgG"
+    missingcaptcha: "Introduzca el código CAPTCHA.\n"
+    wrongcaptcha: "El código CAPTCHA no coincide.\n"
+    # 'warning' defines error messages for invalid inputs
+    form:
+        name:
+            text: "Tu Nombre *"
+            warning: "Por favor, escribe tu nombre."
+        email:
+            text: "Tu Email *"
+            warning: "Por favor, introduce un email válido."
+        phone:
+            text: "Tu teléfono (opcional)"
+            warning: "Por favor, introduce un número de teléfono válido."
+        country:
+            text: "Tu páis de residencia (opcional)"
+            warning: "Por favor incluya su país de residencia."
+        message:
+            text: "Tu Mensaje *"
+            warning: "Por favor, escribe un mensaje."
+        button:
+            text: "Enviar mensaje"
+            success: "Gracias, en breve nos pondremos en contacto contigo."
+            wait: "Un momento ..."
+
+# -------------------
+# footer
+footer:
+    copyright: "© Ideas on Stage 2010 - "
+    rights: "Todos los derechos reservados"
+    cookies: "No usamos cookies."
+    text: "Ideas on Stage Spain<br>Barcelona."
+    categories:
+        - name: "Servicios"
+          items:
+            - name: "Formación"
+              url: "/es/formacion-para-hablar-en-publico/"
+            - name: "Coaching"
+              url: "/es/coaching-para-hablar-en-publico/"
+            - name: "Creación"
+              url: "/es/creacion-presentaciones-powerpoint/"
+        - name: "Recursos"
+          items:
+              - name: "Videos"
+                url: "/es/revolution/"
+              - name: "Guías"
+                url: "/es/guias/"
+        - name: "Ideas on Stage"
+          items:
+              - name: "Acerca de nosotros"
+                url: "/es/acerca-de-nosotros/"
+              - name: "Equipo"
+                url: "/es/equipo/"
+              - name: "Referencias"
+                url: "/es/acerca-de-nosotros/referencias/"
+        - name: "Contacto"
+          items:
+              - name: "Formulario"
+                url: "#contact"
+
+# -------------------
+# Location
+location:
+    addresscountry: "España"
+    addresslocality: "Barcelona"
+    addressregion: ""
+    postalcode: ""
+    streetaddress: ""
+    telephone: "+34684607409"
+
+# -------------------
+# navbar
+navbar:    
+    - name: "Formación"
+      url: "/es/formacion-para-hablar-en-publico/"
+    - name: "Coaching"
+      url: "/es/coaching-para-hablar-en-publico/"
+    - name: "Creación"
+      url: "/es/creacion-presentaciones-powerpoint/"
+    - name: "Contacto"
+      url: "#contact"
+
+# -------------------
+# News
+news:
+    sbcategorytitle: "Top categorías"
+    related: "También te puede interesar"
+
+# -------------------
+# table of contents
+tableofcontents:
+    title: "Tabla de contenidos"
+
+# -------------------
+# Testimonials
+testimonials:
+    enable: true    
+    title: "Testimonios"
+    subtitle: "Hemos trabajado con muchos clientes a lo largo de los años, y siempre nos encanta conocer sus impresiones después de cada colaboración. He aquí una muestra de lo que nuestros clientes dicen de nosotros."

@@ -1,0 +1,32 @@
+{{-  range (.Paginator).Pages -}}
+	<section class="cl-main-listnews">
+		
+		<a href="{{ .RelPermalink }}">
+			<h2>{{ .Title }}</h2>
+		</a>
+		
+		{{ partial "e/authorandtime.html" . }}
+		
+		{{ partial "e/tags.html" . }}
+		
+		{{ if .Params.banner }}
+			<a href="{{ .RelPermalink }}">
+				<img src="{{ .Params.banner }}" alt="{{ .Params.Title }}">
+			</a>
+		{{ end }}
+		
+		<p>
+			{{ .Summary | plainify }}
+		</p>
+		
+		<p>
+			<a href="{{ .RelPermalink }}" class="cl-core--button-secondary">
+				{{ page.Params.more }}
+			</a>
+		</p>
+		
+		<div style="margin-top:48px;">
+		</div>
+			
+	</section>
+{{- end -}}

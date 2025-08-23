@@ -34,6 +34,8 @@ contact:
 	{{ $description = site.Params.contact.description }}
 {{- end -}}
 
+{{- $disabled := site.Params.contact.disabled -}}
+
 {{- $nametext := site.Params.contact.form.name.text -}}
 {{- $namewarn := site.Params.contact.form.name.warning -}}
 
@@ -59,6 +61,7 @@ contact:
 {{- $buttonsuccess := site.Params.contact.form.button.success -}}
 {{- $buttonwait := site.Params.contact.form.button.wait -}}
 
+{{- if not $disabled -}}
 <aside id="contact" class="cl-bodybottom-contact-form">
 		
 	<h2>
@@ -130,3 +133,4 @@ contact:
 	</form>
 	
 </aside>
+{{- end -}}

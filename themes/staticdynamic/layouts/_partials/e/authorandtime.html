@@ -12,7 +12,6 @@
 <section id="authorandtime" class="cl-authorandtime">
 	<p>
 		{{ if isset .Params "author" }}
-			{{ .Site.Params.news.by }} 
 			{{ $scratch := newScratch }}
 			{{ $scratch.Set "author" "/team/" }}
 			{{ $author := .Params.author | urlize }}

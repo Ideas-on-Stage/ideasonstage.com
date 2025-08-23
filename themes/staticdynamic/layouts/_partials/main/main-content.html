@@ -8,7 +8,7 @@
 	{{/* <!-- generate table of contents if .Page.Params.showtoc is true --> */}}
 	{{ if .Params.showtoc }}
 		<h2>
-			{{ site.Params.tableofcontents }}
+			{{ site.Params.tableofcontents.title }}
 		</h2>
 		{{ with .TableOfContents }}
 			{{ . }}

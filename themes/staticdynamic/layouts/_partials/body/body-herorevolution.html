@@ -18,6 +18,6 @@
 					{{ with .Title }}{{ . }}{{ end }}
 			</a>
 		</h2>
-		{{ partial "e/button-secondary.html" (dict "button" site.Params.revolution.more "link" .RelPermalink) }}
+		{{ partial "e/button-secondary.html" (dict "button" page.Params.more "link" .RelPermalink) }}
 	{{ end }}
 </section>

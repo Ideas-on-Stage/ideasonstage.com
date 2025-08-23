@@ -1,12 +1,13 @@
-{{ $blocks := partial "f/getblocks.go" "list" }}
 {{ range (.Paginator).Pages }}
-	<section class="cl-main-content">
-		{{ $page := . }}
-		{{ range $blocks }}
-			{{ $partial := printf "%s/%s.html" "list" . }}
-			{{ printf "<!-- %s:start -->" $partial | safeHTML }}
-			{{ partial $partial $page }}
-			{{ printf "<!-- %s:end -->" $partial | safeHTML }}
-		{{ end }}
-	</section>
+	<div class="cl-main-list">
+		<section class="item {{ partial "f/getstyle.go" . }}">
+			<div class="picture">
+				{{ partial "e/link-picture.html" . }}
+			</div>
+			<div class="text">
+				{{ partial "e/link-title-description.html" . }}
+				<p>{{ partial "e/button-secondary.html" . }}</p>
+			</div>
+		</section>
+	</div>
 {{ end }}
