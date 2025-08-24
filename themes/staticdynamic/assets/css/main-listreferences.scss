@@ -3,7 +3,7 @@
 	.cl-main-listreferences {
 		
 		.reference {
-			@include margins($vertical: "medium", $horizontal: "normal");
+			@include margins($vertical: "medium");
 			@include flex-row($gap: "big", $wrap: "wrap", $align-row-v: flex-start);
 			
 			.logo {

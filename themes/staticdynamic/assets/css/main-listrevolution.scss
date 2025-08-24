@@ -1,8 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-listrevolution {
-		@include margins("medium", "normal");
-		
+	
 		/* list of episodes */
 		ul {
 			@include flex-row($gap: "gap", $wrap: "wrap");
@@ -12,15 +11,9 @@
 		/* episode */
 		li {
 			@include width-column(3);
-			@include height-full;
-			margin-bottom: 1rem;
-			@media (max-width: $gl-sm-screen) {
-				@include width-full;
-			}
+			@include width-column-sm(1);
+			
 		}
 		
-		/* episode thumb */
-		
-
 		{{ partial "e/scheme.scss" . }}
 	}

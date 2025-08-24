@@ -2,11 +2,11 @@
 <article id="previous-episodes" class="cl-main-listrevolution">
 	<h2>{{ page.Params.episodes }}</h2>		
 	<ul>
-		{{ $first := true }}
-		{{ range .Pages }}
-			{{ if eq $first true }}
-				{{ $first = false }}
-			{{ else }}
+		{{- $first := true -}}
+		{{- range .Pages -}}
+			{{- if eq $first true -}}
+				{{- $first = false -}}
+			{{- else -}}
 				<li>
 					<a href="{{ .RelPermalink }}">
 						<img src="{{ .RelPermalink }}thumbnail.jpg" alt="{{ .Title }}">
@@ -18,7 +18,7 @@
 						</p>
 					</a>
 				</li>
-			{{ end }}
-		{{ end }}
+			{{- end -}}
+		{{- end -}}
 	</ul>
 </article>
