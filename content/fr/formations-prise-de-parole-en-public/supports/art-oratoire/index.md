@@ -5,6 +5,7 @@ ni: true
 fl: true
 button: Accéder au support
 hugopublishpath: /Users/pmorsa/Sites/Hugo/ideasonstage.com/content/fr/formations-prise-de-parole-en-public/supports/art-oratoire/index.md
+numbering: off
 ---
 
 Ce module est dédié à l’art oratoire. Il comprend une courte introduction au storytelling et aux visuels, afin que les participants aient une vue d’ensemble des ingrédients d’une bonne présentation. Pendant la journée, les participants mettront en pratique les techniques apprises sur base d’une présentation de leur choix.
@@ -49,7 +50,7 @@ Pour que ce changement se produise, nous avons besoin de nous appuyer sur un **m
 - **les visuels**
 - **l'orateur**
 
-![Three Circles](trois-piliers.svg)
+![Three Circles](_elements/trois-piliers.svg)
 
 L'histoire communique notre message de manière claire et convaincante. Les visuels sont optionnels et servent à clarifier et renforcer l'histoire. L'orateur porte et incarne le message.
 
@@ -84,11 +85,7 @@ Le module message est tellement important qu'il est inclus dans nos formations s
 
 Il est constitué de trois outils extrêmement efficaces pour identifier ce que vous devez dire dans votre présentation : l'ABC, l'Objectif de Transformation et le Parcours de Transformation de l'Audience.
 
-<<<<<<< HEAD
 ### 0.1 ABC : ce n’est pas votre présentation, c’est la leur
-=======
-### 2.1 ABC : ce n’est pas votre présentation, c’est la leur
->>>>>>> 50237f9a1c11dda25c5a5cdface8752df1407518
 
 Lorsque nous avons une présentation à donner, la première chose à faire est d’en savoir plus sur notre audience. Qui est-elle ? Quels sont ses besoins ? Quel est le contexte dans lequel nous allons donner la présentation ? C’est pour cela que nous démarrons par l’ABC.
 
@@ -98,16 +95,12 @@ Lorsque nous avons une présentation à donner, la première chose à faire est 
 
 - C : Contexte. Le **contexte** est l’ensemble des éléments externes qui peuvent influencer votre présentation. Imaginez par exemple une société pétrolière qui communique sur la responsabilité environnementale. Le mot « responsabilité » aura une signification complètement différente si la société a causé une marée noire récente. Si nous parlons de cryptomonnaie, le contexte peut être positif (le prix du Bitcoin atteint des sommets) ou négatif (un scandale vient d’éclater). Des éléments typiques de contexte à analyser sont le marché, les prévisions économiques, le climat géopolitique, la compétition, la culture locale…
 
-![ABC](abc.jpg)
+![ABC](_elements/abc.jpg)
 
 > Exercice : prenez cinq minutes pour définir votre ABC. Ensuite nous partageons et nous analysons les ABC en groupe.
 
 
-<<<<<<< HEAD
 ### 0.2 Objectif de transformation
-=======
-### 2.2 Objectif de transformation
->>>>>>> 50237f9a1c11dda25c5a5cdface8752df1407518
 
 L’objectif de transformation est l’action que nous voulons voir notre audience faire. Pour identifier cet objectif de transformation, le plus simple est de répondre à cette question : après ma présentation, que va **faire** mon audience ?
 
@@ -119,7 +112,7 @@ Voici quelques exemples d’objectifs de transformation concrets :
 - « ils vont valider mon budget »
 - « ils vont dédier 1 jour par mois à mon projet »
 
-![Objectif de transformation de l'auditoire](objectif-de-transformation.jpg)
+![Objectif de transformation de l'auditoire](_elements/objectif-de-transformation.jpg)
 
 > Prenez 5 minutes pour identifier votre objectif de transformation. Ensuite nous partageons et nous analysons les objectifs en groupe.
 
@@ -133,15 +126,11 @@ Conseils :
 	- Si notre objectif est de valider le budget d’un projet, simplement expliquer la répartition des dépenses est insuffisant. Nous devons viser la validation formelle du budget par le comité de direction.
 
 
-<<<<<<< HEAD
 ### 0.3 Information + Émotion = Action
-=======
-### 2.3 Information + Émotion = Action
->>>>>>> 50237f9a1c11dda25c5a5cdface8752df1407518
 
 Il est nécessaire d’utiliser l'information (les faits) et les émotions pour faire passer l'audience à l'action et ainsi atteindre notre objectif de transformation.
 
-![Information + Émotion = Action](information-emotion-action.svg)
+![Information + Émotion = Action](_elements/information-emotion-action.svg)
 
 Un objectif de transformation ne peut pas être atteint en ne communiquant que de l'information. Il peut être atteint en communiquant uniquement des émotions pour des décisions irrationnelles, mais en entreprise cela n’est en général pas suffisant.
 
@@ -157,15 +146,11 @@ Par exemple, il ne sert à rien d’essayer de convaincre un « platiste » qu
 Pour notre histoire, notre objectif est d’identifier les faits et les émotions nécessaires pour créer l’action dans l’esprit de notre audience, et ainsi réaliser le changement voulu.
 
 
-<<<<<<< HEAD
 ### 0.4 Idéation : Parcours de Transformation de l'Audience
-=======
-### 2.4 Idéation : Parcours de Transformation de l'Audience
->>>>>>> 50237f9a1c11dda25c5a5cdface8752df1407518
 
 Le parcours de transformation de l'audience ou « PTA » (ATR en anglais) est un outil créé pour nous aider à identifier les faits et les émotions sur lesquels nous devons agir dans notre présentation.
 
-![PTA](pta.jpg)
+![PTA](_elements/pta.jpg)
 
 Dans la colonne de gauche, le PTA reprend quatre catégories. Ce que notre audience (pas nous)…
 
@@ -238,11 +223,7 @@ Après :
 > Exercice : prendre 10/20 minutes pour créer votre Parcours de Transformation de l'Audience.
 
 
-<<<<<<< HEAD
 ### 0.5 Objectif : convaincre
-=======
-### 2.5 Objectif : convaincre
->>>>>>> 50237f9a1c11dda25c5a5cdface8752df1407518
 
 Sur base des éléments de langage que nous avons identifiés avec le Parcours de Transformation de l’Audience, nous allons construire une première histoire courte qui nous servira de base pour les exercices du reste de la journée.
 
@@ -299,7 +280,7 @@ Les trois éléments essentiels de l’ancrage sont : posture, respiration et c
 
 Une bonne posture projette une image de confiance et de présence sur scène. Elle facilite également le flux d’air entre nos poumons et notre bouche. Nous allons voir la posture théorique « idéale ». Cette posture de base est assez contraignante, mais nous verrons qu’en réalité nous avons plus de liberté.
 
-![Appuis](appuis.fr.svg)
+![Appuis](_elements/appuis.svg)
 
 - Pieds : à plat sur le sol, séparés de la largeur de nos hanches.
 - Jambes : toniques, droites, mais pas rigides. 
@@ -322,7 +303,7 @@ Une respiration calme, profonde, nous aidera à rester détendus et naturels sur
 - Thoracique : cette respiration donne l’impression de venir du haut des poumons.
 - Abdominale : cette respiration donne l’impression de venir du bas du ventre.
   
-![Respiration thoracique et abdominale](respiration.fr.svg)
+![Respiration thoracique et abdominale](_elements/respiration.svg)
 
 Pour comprendre la différence, le mieux est de faire un exercice.
 
@@ -398,7 +379,7 @@ Chacun se focalise sur « sa » voix, celle qui permet à chacun d'exprimer au m
 
 À partir de quelle vitesse parle-t-on trop lentement ? Nous ne parlons pratiquement jamais trop lentement (sauf lorsque nous « faisons le mort » face au stress). Au fil du temps, la vitesse moyenne d’une prise de parole a augmenté. Si nous écoutons aujourd’hui des orateurs comme Martin Luther King ou Jacques Chirac, ils semblent parler plus lentement que tous les orateurs actuels.
 
-{{< shortcode-youtube "vP4iY1TtS3s" >}}
+![_elements/youtube-vP4iY1TtS3s.jpg](_elements/youtube-vP4iY1TtS3s.jpg)
 
 Puisque notre vitesse maximum est autour de 150 mots par minute, nous pouvons utiliser cette astuce pour déterminer facilement la durée de notre prise de parole : nous prenons le nombre total de mots de notre texte et nous le divisons par 150.
 
@@ -610,7 +591,7 @@ Certaines personnes nous disent que le fait de répéter leur font perdre leur n
 
 Si nous réalisons une présentation sans préparation, cela sera OK, mais pas excellent. Lorsque nous commençons à répéter, nous demandons à notre cerveau de faire deux choses à la fois : apprendre notre présentation et avoir l’air naturel. Ce n’est pas possible. Ce n’est qu’une fois que nous avons répété suffisamment et que notre histoire devient parfaitement intégrée dans notre cerveau au point de ne plus avoir à y penser que nous pouvons nous améliorer.
 
-![creux-des-repetitions.svg](creux-des-repetitions.svg)
+![_elements/creux-des-repetitions.svg](_elements/creux-des-repetitions.svg)
 
 Lors de toutes nos années de coaching, nous n’avons jamais vu un intervenant devenir moins bon parce qu’il s’était préparé. Nous avons par contre vu beaucoup d’intervenants échouer parce qu’ils ne s’étaient pas préparés suffisamment (ou, malheureusement, pas du tout).
 
