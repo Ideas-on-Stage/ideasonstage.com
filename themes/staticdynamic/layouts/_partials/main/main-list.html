@@ -1,6 +1,9 @@
 {{ "<!-- partials/main/main-list.html:start -->" | safeHTML }}
 <div class="cl-main-list">
-	{{- range (.Paginator).Pages -}}
+{{- range (.Paginator).Pages -}}
+	{{- if .Params.nl -}}
+		{{/* <!-- do not list pages with .Params nl: true --> */}}
+	{{- else -}}
 	<section class="item {{ partial "f/getstyle.go" . }}">
 		<div class="picture">
 			{{ partial "e/link-picture.html" . }}
@@ -11,5 +14,6 @@
 		</div>
 	</section>
 	{{- end -}}
+{{- end -}}
 </div>
 {{ "<!-- partials/main/main-list.html:end -->" | safeHTML }}

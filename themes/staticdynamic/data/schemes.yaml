@@ -322,6 +322,9 @@ main:
     h1:
         text-transform: "none"
 
+main-list:
+    .cl-core--button-secondary:
+        margin-top: "0.5em"
 main-listrevolution:
     h2:
         text-align: "center"

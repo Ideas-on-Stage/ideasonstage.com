@@ -3,6 +3,7 @@ draft: false
 title: "Notre processus de coaching"
 description: "Un processus complet couvrant le message, l'art oratoire, le storytelling et les visuels."
 ni: true
+nl: true
 translationKey: "public-speaking-coaching/coaching-process"
 ---
 
