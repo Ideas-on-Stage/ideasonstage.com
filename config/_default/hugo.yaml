@@ -8,7 +8,7 @@ languages:
     
     en:
         languageCode: en
-        languageName: United States
+        languageName: International
         contentDir: content/en
         weight: 1
     

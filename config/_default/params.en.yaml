@@ -1,7 +1,7 @@
 # params.en.yaml
 
-country: "United States"
-countryShort: "USA"
+country: "International"
+countryShort: "Global"
 baseUrl: https://www.ideasonstage.com/
 googleAnalytics: "UA-30695118-1"
 
