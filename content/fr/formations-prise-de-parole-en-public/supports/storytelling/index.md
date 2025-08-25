@@ -1,17 +1,18 @@
 ---
-title: "Support de la formation Storytelling"
-showtoc: true
+title: Storytelling
+showtoc: false
 ni: true
 fl: true
-button: "Accéder au support"
+button: Accéder au support
+hugopublishpath: /Users/pmorsa/Sites/Hugo/ideasonstage.com/content/fr/formations-prise-de-parole-en-public/supports/storytelling/index.md
+weight: "2"
 ---
 
-Prérequis : avoir un sujet pour créer une histoire. Cela peut être une présentation que vous devez donner, ou un sujet qui vous intéresse.
+Cette formation est dédiée à la partie histoire. Nous allons découvrir comment utiliser les techniques de storytelling pour créer de meilleures présentations. Cette formation est particulièrement adaptée pour les présentations en entreprise, comme les présentations devant un comité exécutif ou les présentations commerciales.
 
+{{< shortcode-toc >}}
 
-## Introduction
-
-Cette formation est dédiée à la partie histoire. Nous allons découvrir comment utiliser les techniques de storytelling pour créer de meilleures présentations. Cette formation est particulièrement adaptée pour les présentations en entreprise, comme les présentations devant un comité ou les présentations commerciales.
+## 1 Introduction
 
 **Durée** : 7h.
 
@@ -40,49 +41,64 @@ Cette formation est dédiée à la partie histoire. Nous allons découvrir comme
 - Il n'est pas nécessaire d'avoir un ordinateur.
 
 
-### Les trois piliers d'une bonne présentation
+### 1.1 Les trois piliers d'une bonne présentation
 
-{{% shortcode-include "/static/training/trois-piliers.md" %}}
+Une présentation réussie est une présentation qui atteint notre objectif de transformation. L'objectif de transformation est le changement que nous voulons voir se produire dans notre audience.
+
+Pour que ce changement se produise, nous avons besoin de nous appuyer sur un **message** clair et persuasif. Sa communication s'appuie sur trois piliers :
+
+- **l'histoire**
+- **les visuels**
+- **l'orateur**
+
+![Three Circles](_elements/trois-piliers.svg)
+
+L'histoire communique notre message de manière claire et convaincante. Les visuels sont optionnels et servent à clarifier et renforcer l'histoire. L'orateur porte et incarne le message.
 
 
-### À propos d’Ideas on Stage
+### 1.2 À propos d’Ideas on Stage
 
-{{% shortcode-include "/static/training/a-propos-d-ideas-on-stage.md" %}}
+Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.
+
+Nous avons créé Ideas on Stage en 2010, convaincus que l’art de présenter est un avantage compétitif essentiel. Nous avons proposé un mélange révolutionnaire de storytelling, de design visuel et de coaching à la prise de parole. Notre intuition était correcte : nos clients ont pris conscience de la valeur des présentations à fort impact, sont devenus fidèles et nous ont recommandés à leurs amis.
+
+Aujourd’hui, les experts en communication d’Ideas on Stage vous proposent un éventail complet de services en présentation dans le monde en anglais, français, espagnol, italien et allemand.
 
 
-### À propos de vous
+
+### 1.3 À propos de vous
 
 > Je prends une minute pour me présenter.
 
 
-### Agenda et objectifs
+### 1.4 Agenda et objectifs
 
 Présenter l’agenda et les objectifs de la journée.
 
 
-### Vos attentes
+### 1.5 Vos attentes
 
 > Quelles sont vos attentes pour cette formation ? Y a-t-il des points spécifiques que vous voulez aborder ?
 
 
-## Qu’est-ce que vous n’aimez pas dans les présentations en entreprise ?
+## 2 Qu’est-ce que vous n’aimez pas dans les présentations en entreprise ?
 
 > Qu’est-ce que vous n’aimez pas dans les présentations en entreprise ? Qu’est-ce qui fonctionne, et qu’est-ce qui devrait être amélioré ?
 
 
-## Message
+## 3 Message
 
-{{% shortcode-include "/static/training/message.fr.md" %}}
+Voir le [module message](message/index.md).
 
- 
-## Structure
+
+## 4 Structure
 
 Une histoire a toujours au minimum trois parties : un début, un milieu et une fin. Une bonne structure accroche l’attention et rend la présentation simple à suivre et à comprendre.
 
 Dans cette section, nous allons expliquer comment créer une bonne structure, puis nous utiliserons notre ABC et notre PTA pour ajouter du contenu à notre histoire.
 
 
-### Choisir une structure
+### 4.1 Choisir une structure
 
 Il existe un nombre infini de structures possibles. Nous allons donc proposer ici quelques formules éprouvées, souvent utilisées pour créer des présentations.
 
@@ -105,11 +121,11 @@ Si possible, évitez les structures « composées », par exemple une structure 
 > Exercice : sur base de votre ABC et de votre PTA, choisissez une des structures types pour votre présentation.
 
 
-### Placez les éléments de langage
+### 4.2 Placez les éléments de langage
 
 Une fois notre structure choisie, nous prenons nos éléments de langage dans la PTA et nous les ajoutons à la structure choisie.
 
-![PTA](pta-avec-postits.svg)
+![PTA](_elements/pta-avec-postits.svg)
 
 Nous organisons ces éléments sur notre structure. Si possible, nous les organisons par ordre importance :
 
@@ -117,16 +133,16 @@ Nous organisons ces éléments sur notre structure. Si possible, nous les organi
 - Ce qui est utile, mais non prioritaire,
 - Ce qui est intéressant, mais peu utile.
 
-![Structure](structure.svg)
+![Structure](_elements/structure.svg)
  
 > Exercice : prenez les éléments de langage de votre PTA et placez-les sur votre structure.
 
 
-### Complétez votre structure
+### 4.3 Complétez votre structure
 
 Nous avons identifié des éléments de langage importants avec la PTA, mais il y a probablement des trous à combler.
 
-![Structure](structure-remplir-trous.svg)
+![Structure](_elements/structure-remplir-trous.svg)
 
 Voici une liste des éléments que vous pouvez inclure dans votre présentation :
 
@@ -147,7 +163,7 @@ Fin :
 - Appel à l’action
 
 
-### Reliez les éléments 
+### 4.4 Reliez les éléments 
 
 Une fois la structure de base complétée, nous pouvons écrire un premier brouillon de notre histoire. L’objectif de ce premier jet est de vérifier que l’histoire choisie « fonctionne ». En particulier, nous vérifions que :
 
@@ -159,14 +175,14 @@ Une fois la structure de base complétée, nous pouvons écrire un premier broui
 > Exercice : j’écris un premier brouillon de mon histoire pour valider la structure et les éléments de langage choisis.
 
 
-## Histoire
+## 5 Histoire
 
 Une fois le premier brouillon validé, nous pouvons écrire l’histoire complète. Dans cette partie, nous allons voir plusieurs techniques pour écrire de meilleures histoires.
 
 > Vidéo : Chanel
 
 
-### Commencer fort, terminer en beauté
+### 5.1 Commencer fort, terminer en beauté
 
 Le début et la fin sont les deux moments où l’attention de l’auditoire est maximale, et sont donc cruciaux pour atteindre notre objectif de transformation. Nous verrons ensuite comment écrire une bonne histoire, mais pour l’instant nous allons nous focaliser sur le début et la fin.
 
@@ -183,7 +199,7 @@ La surprise et la curiosité sont les deux émotions les plus efficaces pour att
 - Faire un appel à l’action : que voulez-vous qu’ils fassent ?
 
 
-### Rester léger
+### 5.2 Rester léger
 
 Lors de la préparation d’une présentation, une règle essentielle est : rester léger. Nous devons dire ce qui est nécessaire, mais pas plus.
 
@@ -198,7 +214,7 @@ Pour éviter ce problème, nous utilisons l’exercice du pitch de 2 minutes :
 > Exercice : je crée un pitch de 2 minutes avec un début, un milieu et une fin. J’utilise la technique « commencer fort, terminer en beauté ».
 
 
-### Rendre le problème/besoin essentiel
+### 5.3 Rendre le problème/besoin essentiel
 
 Si le problème ou besoin n’est pas *perçu* comme assez important, nous n’y accorderons pas beaucoup d’attention. C’est une question de perception : le problème peut être sans importance, ce qui compte c’est qu’il soit *perçu* comme important par le décideur. Cela peut paraître un peu stupide, mais il peut être plus important pour nous de choisir la bonne paire de chaussures que de résoudre le problème de la faim dans le monde.
 
@@ -215,14 +231,14 @@ Par exemple, si nous n’avons pas de système pour suivre les marchés en temps
 > Exercice : donnez de l’importance au problème/besoin/enjeu de votre présentation.
 
 
-### Utiliser des anecdotes (mini-histoires)
+### 5.4 Utiliser des anecdotes (mini-histoires)
 
 Les anecdotes sont des mini-histoires qui nous aident à communiquer avec authenticité et émotion. Différentes études démontrent que l’utilisation d’histoires améliore la mémorisation des informations. Ces anecdotes peuvent être des histoires personnelles, des histoires de clients…
 
 > Exercice : ajouter une anecdote à votre histoire pour communiquer un des éléments de langage.
 
 
-### Personnaliser et rendre unique
+### 5.5 Personnaliser et rendre unique
 
 Personnaliser notre histoire est un moyen très efficace pour accroître la « connexion » avec notre auditoire. Par exemple, si nous allons voir un client dans le secteur pharmaceutique, nous prendrons le temps de personnaliser la présentation avec ses produits et son secteur d’activité. C’est encore mieux si nous pouvons la personnaliser avec des éléments de sa culture d’entreprise. Si nous allons en Inde, prenons le temps de montrer notre respect pour la culture locale et évitons les conflits culturels. 
 
@@ -231,12 +247,12 @@ Personnaliser notre histoire est un moyen très efficace pour accroître la « 
 > Exercice : j’ajoute un élément pour personnaliser ma présentation en fonction de mon auditoire.
 
 
-### Simplifier les chiffres et les données
+### 5.6 Simplifier les chiffres et les données
 
 > Vidéo : la petite terre
 
 
-### Utiliser les techniques de rhétorique
+### 5.7 Utiliser les techniques de rhétorique
 
 Il y a plusieurs techniques de rhétorique que nous pouvons utiliser pour rendre notre présentation plus efficace. Voici une liste des plus utiles, adaptée pour les présentations :
 
@@ -251,7 +267,7 @@ Il existe de nombreuses autres figures de style, à vous de choisir les plus app
 > J’utilise une technique de rhétorique pour rendre ma présentation plus percutante.
 
 
-### Emprunter de la crédibilité
+### 5.8 Emprunter de la crédibilité
 
 Il vaut parfois mieux que certains messages soient communiqués par d’autres personnes que nous. Par exemple, il est difficile d’avoir l’air impartial si nous présentons un sujet pour lequel nous avons un conflit d’intérêt. Dans ce cas, faire appel à une personne indépendante ou à un témoignage d’un client est probablement une meilleure solution, car ces personnes seront perçues comme étant plus neutres et dignes de confiance.
 
@@ -260,7 +276,7 @@ Une façon d’emprunter de la crédibilité est de citer une personne célèbre
 > Exercice : ajoutez un témoignage ou une citation à votre présentation.
 
 
-### Combler le fossé de la connaissance
+### 5.9 Combler le fossé de la connaissance
 
 Une histoire est comme une chaîne : il suffit d’un maillon manquant pour qu’elle se brise. Parfois, les éléments de langage identifiés ne sont pas suffisants, parce que l’auditoire n’a pas la connaissance nécessaire pour comprendre le message. Il existe deux approches opposées pour « combler le fossé » de la connaissance :
 
@@ -280,7 +296,7 @@ Voici quelques techniques pour combler de fossé de la connaissance :
 > Exercice : comblez les fossés de la connaissance dans votre histoire.
 
 
-### Simplifier jusqu’à la perfection
+### 5.10 Simplifier jusqu’à la perfection
 
 Une histoire est comme les boutons d’un four à micro-ondes : cela semble très logique et intuitif pour son concepteur, mais cela peut être difficile à comprendre pour quelqu’un d’autre. Même avec toutes les techniques vues précédemment, notre histoire peut probablement être encore plus simple. Nous devons chercher à simplifier, simplifier, et encore simplifier, jusqu’à ce que tous les points de friction soient éliminés.
 
@@ -289,7 +305,7 @@ Nous pouvons utiliser le test « ma mère comprendrait-elle ce dont je suis en 
 > Exercice : présentez votre histoire à quelqu’un d’autre. Écoutez son feedback sur les points de friction restants dans votre histoire.
 
 
-## Checklist histoire
+## 6 Checklist histoire
 
 Une fois votre histoire terminée, vous pouvez faire une ultime vérification avec la liste suivante :
 
@@ -320,34 +336,44 @@ Une fois votre histoire terminée, vous pouvez faire une ultime vérification av
 > Exercice : vérifiez votre histoire avec la checklist.
 
 
-## Mise en pratique finale
+## 7 Mise en pratique finale
 
 
-### Préparation
+### 7.1 Préparation
 
 > Exercice : vous avez 20 minutes pour préparer une présentation de cinq minutes. Nous vous recommandons de ne pas utiliser de diapositives, mais de plutôt vous focaliser sur l’histoire.
 
-### Présentation
+### 7.2 Présentation
 
 > Exercice : lorsque tout le monde est prêt, chaque participant présente son histoire face au groupe. Le formateur et le groupe donnent des conseils constructifs.
 
 
-## Conclusion
+## 8 Conclusion
 
 Ceci conclut notre formation sur le storytelling. Maintenant, la perfection est atteinte par l’entraînement.
 
 
-### Ressources supplémentaires
-
-{{% shortcode-include "/static/training/ressources-complementaires.md" %}}
+### 8.1 Ressources supplémentaires
 
 
-### Récapitulatif
+Voici une liste de ressources pour compléter votre formation :
+
+- [Web : le guide ultime de la prise de parole](https://www.ideasonstage.com/ultimate-public-speaking-guide/)
+- [Web : le guide ultime du TEDx Speaker](https://www.ideasonstage.com/tedx-speaker-guide/)
+- [Web : Présentation Zen, le blog de Garr Reynolds](https://www.presentationzen.com)
+- [Livre : Ces idées qui collent, Dan et Chip Heath](https://www.amazon.com/Made-Stick-Ideas-Survive-Others/dp/1400064287/ref=sr_1_1?crid=QLFKSSGZD3D1&keywords=made+to+stick&qid=1672826815&sprefix=made+to+stick%2Caps%2C159&sr=8-1)
+- [Livre: Jerry Weissman's Presenting to Win, anglais](https://www.amazon.fr/Presenting-Win-Telling-Updated-Expanded/dp/0137144172?__mk_fr_FR=ÅMÅŽÕÑ&crid=1COI010TLR193&keywords=jerry+weissman&qid=1678119781&sprefix=jerry+weissman%2Caps%2C90&sr=8-3)
+- [Livre : Business Presentation Revolution Book, Phil Waknell](https://www.amazon.com/Business-Presentation-Revolution-Inspire-Action/dp/1781336091/ref=sr_1_1?crid=32Z7VQISN3G25&keywords=business+presentation+revolution&qid=1672817543&sprefix=business+presentation+revolution%2Caps%2C135&sr=8-1)
+
+
+
+### 8.2 Récapitulatif
 
 > Discussion : je partage ce que j’ai appris aujourd’hui avec le groupe, et la façon dont je m’en servirai pour améliorer mes présentations.
 
 
-## Révisions
+## 9 Révisions
 
+- 2025-07-11 Refonte de la partie publication web/pdf
 - 2024-04-04 Adaptation à la mise en ligne
 - 2023-03-02 Première version française

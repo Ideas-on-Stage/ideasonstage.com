@@ -1,13 +1,15 @@
-{{ range (.Paginator).Pages }}
-	<div class="cl-main-list">
-		<section class="item {{ partial "f/getstyle.go" . }}">
-			<div class="picture">
-				{{ partial "e/link-picture.html" . }}
-			</div>
-			<div class="text">
-				{{ partial "e/link-title-description.html" . }}
-				<p>{{ partial "e/button-secondary.html" . }}</p>
-			</div>
-		</section>
-	</div>
-{{ end }}
+{{ "<!-- partials/main/main-list.html:start -->" | safeHTML }}
+<div class="cl-main-list">
+	{{- range (.Paginator).Pages -}}
+	<section class="item {{ partial "f/getstyle.go" . }}">
+		<div class="picture">
+			{{ partial "e/link-picture.html" . }}
+		</div>
+		<div class="text">
+			{{ partial "e/link-title-description.html" . }}
+			{{ partial "e/button-secondary.html" . }}
+		</div>
+	</section>
+	{{- end -}}
+</div>
+{{ "<!-- partials/main/main-list.html:end -->" | safeHTML }}

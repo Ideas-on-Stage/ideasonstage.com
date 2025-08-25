@@ -1,14 +1,15 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-list {
+		--file: "main-list.scss";
+		
 		@include flex-column($gap: "big", $wrap: "nowrap");
-		@include width-full;
-		margin-top: 3rem;
-		margin-bottom: 3rem;
+		@include margins($vertical: "medium")
 		
 		.item {
 			@include flex-row($gap: "big", $wrap: "nowrap");
 			@include flex-column-sm();
+			@include width-full();
 			
 			.picture {
 				@include width-column(3,2);
@@ -21,6 +22,7 @@
 				@include width-column-sm(1);
 			}
 			
-			{{ partial "e/scheme.scss" . }}
 		}
+		
+		{{ partial "e/scheme.scss" . }}
 	}
