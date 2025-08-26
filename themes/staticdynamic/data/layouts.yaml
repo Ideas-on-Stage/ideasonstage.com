@@ -87,7 +87,7 @@ _default:
             - body-h1home
             - body-countrylist
             - body-cta
-            - body-mainwide
+            - body-mainfull
         bodylazy:
             - bodylazy-referencesgrid
             - bodylazy-modules-aside
@@ -213,8 +213,8 @@ revolution:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1
             - body-herorevolution
+            - body-h1
             - body-side-main
         main:
             - main-content
@@ -275,7 +275,7 @@ team:
             - head-title-section
         body:
             - body-h1
-            - body-mainwide
+            - body-side-main
         main:
             - main-contenthome
             - main-listteam

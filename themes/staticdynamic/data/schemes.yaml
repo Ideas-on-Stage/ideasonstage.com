@@ -230,6 +230,7 @@ body-h1--hero:
 body-h1--title:
     text-align: "center"
     color-text: "black"
+    margin-top: "1em"
 
 body-herorevolution:
     scheme: "bg-dark"
