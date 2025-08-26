@@ -3,7 +3,7 @@
 	.cl-body-content404 {
 		@include flex-column($align-column-h: center, $align-v: center);
 		@include height-screen-full;
-		@include width-full;
+		@include width-parent-full;
 		
 
 		{{ partial "e/scheme.scss" . }}

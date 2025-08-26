@@ -3,7 +3,7 @@
 	.cl-tags {
 		@include flex-row($gap: 0.5em, $wrap: "wrap");
 		@include ul-container();
-		@include width-full();
+		@include width-parent-full();
 		margin-top: 1em;
 		margin-bottom: 1em;
 		

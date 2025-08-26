@@ -4,7 +4,7 @@
 		/* full-width module div, image left, text right */
 		@include flex-row;
 		@include height-module;
-		@include width-full;
+		@include width-parent-full;
 		@media (max-width: $gl-sm-screen) {
 			flex-direction: column-reverse; /* create column with pic on bottom, text on top */
 			justify-content: space-between;
@@ -15,7 +15,7 @@
 			@include height-full;
 			@include width-twothirds;
 			@include height-half-sm-screen;
-			@include width-full-sm;
+			@include width-parent-full-sm;
 			
 			img {
 				@include img-cover;
@@ -31,7 +31,7 @@
 			@include height-full;
 			@include width-onethird;
 			@include height-half-sm-screen;
-			@include width-full-sm;
+			@include width-parent-full-sm;
 			@media (max-width: $gl-sm-screen) {
 				@include flex-column($align-v: flex-start, $align-column-h: center);
 			}

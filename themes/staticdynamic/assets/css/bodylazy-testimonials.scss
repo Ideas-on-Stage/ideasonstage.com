@@ -3,7 +3,7 @@
 	.cl-bodylazy-testimonials {
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start);
 		@include scroll-h;
-		@include width-full;
+		@include width-parent-full;
 		padding-bottom: 2.0em;
 		@media (max-width: $gl-sm-screen) {
 			.cl-testimonials {

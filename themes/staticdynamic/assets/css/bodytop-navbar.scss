@@ -100,7 +100,7 @@
 			
 			/* menu items (shown when clicking on burger) */
 			.menu {
-				@include width-full();
+				@include width-parent-full();
 				position: fixed;
 				margin: 0;
 				padding: 1.5em;
@@ -115,7 +115,7 @@
 			}
 			
 			.menu-item {
-				@include width-full();
+				@include width-parent-full();
 				@include flex-column($align-column-h: center, $align-v: center);
 				margin: 0;
 				padding: 0;
@@ -124,7 +124,7 @@
 			
 			/* menu dropdown, displayed on tap */
 			.menu-dropdown {
-				@include width-full();
+				@include width-parent-full();
 				@include flex-column($gap: 1.5rem, $align-column-h: center);
 				position: static;
 				top: calc(var(--menubar-height) - 2px);
@@ -135,7 +135,7 @@
 			}
 			
 			.menu-dropdown-item {
-				@include width-full();
+				@include width-parent-full();
 				display: list-item;
 				position: relative;
 				margin: 0;

@@ -3,7 +3,7 @@
 	.cl-body-cta {
 		@include flex-column($align-column-h: center, $align-v: space-between);
 		@include height-hero;
-		@include width-full;
+		@include width-parent-full;
 		overflow: hidden;
 		
 		> img {
@@ -13,7 +13,7 @@
 		/* main text container, may have to share space with a logobar */
 		.main {
 			@include flex-column($align-column-h: center, $align-v: center);
-			@include width-full;
+			@include width-parent-full;
 			flex-grow: 1; /* take all available vertical space in parent */
 			--color-back: none;
 		}

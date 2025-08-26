@@ -1,7 +1,7 @@
 	/* logo bar at bottom of hero */
 	.cl-logobar {
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-around);
-		@include width-full;
+		@include width-parent-full;
 		padding: 2vw;
 		height: auto;
 		--color-back: none;

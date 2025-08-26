@@ -12,7 +12,7 @@
 				@include flex-column($align-column-h: center);
 				
 				@media (max-width: $gl-sm-screen) {
-					@include width-full;
+					@include width-parent-full;
 				}
 				
 				img {

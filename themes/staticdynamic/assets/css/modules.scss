@@ -2,7 +2,7 @@
 
 	.cl-modules {
 		@include flex-row($gap: "gap", $wrap: "wrap");
-		@include width-full;
+		@include width-parent-full;
 		margin: var(--row-gap) 0;
 		padding: 0 var(--column-gap);
 		@media (max-width: $gl-sm-screen) {
@@ -16,20 +16,20 @@
 		/* full-width module div, text on top, image bottom */
 		@include flex-column;
 		@include height-module;
-		@include width-full;
+		@include width-parent-full;
 		
 		.text {
 			/* div containing text on top */
 			@include text-front;
 			@include text-padding;
 			@include height-half;
-			@include width-full;
+			@include width-parent-full;
 		}
 		
 		.image {
 			/* div containing image on bottom */
 			@include height-half;
-			@include width-full;
+			@include width-parent-full;
 			
 			img {	
 				@include img-contain;
@@ -47,20 +47,20 @@
 		/* half-width module div, text on top, image bottom */
 		@include height-module;
 		@include width-column(2);
-		@include width-full-sm();
+		@include width-parent-full-sm();
 		
 		.text {
 			/* div containing text on top */
 			@include text-front;
 			@include text-padding;
 			@include height-half;
-			@include width-full;
+			@include width-parent-full;
 		}
 		
 		.image {
 			/* div containing image on bottom */
 			@include height-half;
-			@include width-full;
+			@include width-parent-full;
 			
 			img {
 				@include img-contain;
@@ -78,7 +78,7 @@
 		/* full-width module div, image left, text right */
 		@include flex-row;
 		@include height-module;
-		@include width-full;
+		@include width-parent-full;
 		@media (max-width: $gl-sm-screen) {
 			flex-direction: column-reverse; /* create column with pic on bottom, text on top */
 			justify-content: space-between;
@@ -89,7 +89,7 @@
 			@include height-full;
 			@include width-twothirds;
 			@include height-half-sm-screen;
-			@include width-full-sm;
+			@include width-parent-full-sm;
 			
 			img {
 				@include img-cover;
@@ -105,7 +105,7 @@
 			@include height-full;
 			@include width-onethird;
 			@include height-half-sm-screen;
-			@include width-full-sm;
+			@include width-parent-full-sm;
 			@media (max-width: $gl-sm-screen) {
 				@include flex-column($align-v: flex-start, $align-column-h: center);
 			}
@@ -118,7 +118,7 @@
 		/* full-width module div, image left, text right */
 		@include flex-row;
 		@include height-module;
-		@include width-full;
+		@include width-parent-full;
 		@media (max-width: $gl-sm-screen) {
 			flex-direction: column-reverse; /* create column with pic on bottom, text on top */
 			justify-content: space-between;
@@ -129,7 +129,7 @@
 			@include height-full;
 			@include width-twothirds;
 			@include height-half-sm-screen;
-			@include width-full-sm;
+			@include width-parent-full-sm;
 			
 			img {
 				@include img-cover;
@@ -145,7 +145,7 @@
 			@include height-full;
 			@include width-onethird;
 			@include height-half-sm-screen;
-			@include width-full-sm;
+			@include width-parent-full-sm;
 			@media (max-width: $gl-sm-screen) {
 				@include flex-column($align-v: flex-start, $align-column-h: center);
 			}

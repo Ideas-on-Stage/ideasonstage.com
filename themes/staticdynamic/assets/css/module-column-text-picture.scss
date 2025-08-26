@@ -4,20 +4,20 @@
 		/* full-width module div, text on top, image bottom */
 		@include flex-column;
 		@include height-module;
-		@include width-full;
+		@include width-parent-full;
 		
 		.text {
 			/* div containing text on top */
 			@include text-front;
 			@include text-padding;
 			@include height-half;
-			@include width-full;
+			@include width-parent-full;
 		}
 		
 		.image {
 			/* div containing image on bottom */
 			@include height-half;
-			@include width-full;
+			@include width-parent-full;
 			
 			img {	
 				@include img-contain;

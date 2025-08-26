@@ -344,7 +344,19 @@
 	}
 	
 	@mixin width-column($col-nb, $col-span: 1) {
-		/* determines width of column based on number of columns $nbcols and gap */
+		/*
+			Calculates exact width of item based on a column system.
+			
+			Parameters:
+			- $col-nb: the number of columns to use to divide the total width
+			  eg. 3 will result in a one-third width, 5 in a one-fifth width, minus the gaps
+			- $col-span: the number of columns covered by the ite
+			  eg if $col-nb is 3 and $col-span is 2, the item will be two-thirds width.
+		
+			Note: parent should be a flex-container with a specified width.
+			If parent has no width specified, the result will be wonky.
+		*/
+		
 		$gap-nb: $col-nb - 1;
 		$gap-span: $col-span - 1;
 		flex-basis: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px );
@@ -352,7 +364,15 @@
 	}
 	
 	@mixin width-column-sm($col-nb, $col-span: 1) {
-		/* determines width of column based on number of columns $nbcols and gap */
+		/*
+			Calculates exact width of item based on a column system,
+			for small screens.
+			
+			For example:
+			@include width-column(3,2); → item will be tho-thirds on normal screens.
+			@include width-column-sm(1); → but item will switch to full parent width on small screens.
+		*/
+		
 		@media (max-width: $gl-sm-screen) {
 			@include width-column($col-nb, $col-span);
 		}
@@ -369,6 +389,16 @@
 		}
 	}
 
+	/* standard main content width */
+	@mixin width-content-sm() {
+		@media (max-width: $gl-sm-screen) {
+			width: 100%;
+			max-width: 90vw;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
 	/* use when content would be too wide, e.g. forms */
 	@mixin width-content-narrow() {
 		width: 100%;
@@ -381,41 +411,33 @@
 	}
 	
 	/* full width (of parent) */
-	@mixin width-full() {
-		/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column */
+	@mixin width-parent-full() {
 		width: calc( 100% - 0.001px );
 		max-width: calc( 100% - 0.001px );
 	}
 
 	/* use to force full width (of parent) on small screens. */
-	@mixin width-full-sm {
+	@mixin width-parent-full-sm() {
 		@media (max-width: $gl-sm-screen) {
-			/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column */
+			/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column.
+				note: this should probably be removed, and I should fix the way width-column is handled. */
 			flex-basis: 100%;
 			width: 100%;
+			max-width: 100%;
 		}
 	}
 
-	/* the widths below are not recommended to use */	
-
-	@mixin width-screen-full() {
-		width: 100vw;
-	}
+	/* 
+		the widths below are legacy and are not recommended to use.
+	*/	
 	
-	@mixin width-onethird {
+	@mixin width-onethird() {
+		/* Instead use @include width-column(3) */
 		width: calc( 33% );
 	}
 	
-	@mixin width-twothirds {
+	@mixin width-twothirds() {
+		/* Instead use @include width-column(3,2) */
 		--column-gap: var(--column-gap-default); 
 		width: calc( 67% - var(--column-gap) );	/* reduce main content width when there is a sidebar */
-	}
-
-	@mixin width-onefifth {
-		width: calc( 20% );
-	}
-	
-	@mixin width-fourfifths {
-		--column-gap: var(--column-gap-default); 
-		width: calc( 80% - var(--column-gap) );	/* reduce main content width when there is a sidebar */
 	}

@@ -4,12 +4,12 @@
 		--file: "main-list.scss";
 		
 		@include flex-column($gap: "big", $wrap: "nowrap");
-		@include margins($vertical: "medium")
+		@include margins($vertical: "medium");
 		
 		.item {
 			@include flex-row($gap: "big", $wrap: "nowrap");
 			@include flex-column-sm();
-			@include width-full();
+			@include width-parent-full();
 			
 			.picture {
 				@include width-column(3,2);

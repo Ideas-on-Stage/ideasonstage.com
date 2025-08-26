@@ -3,7 +3,7 @@
 	.cl-body-herorevolution {
 		@include flex-column($align-column-h: center, $align-v: center);
 		@include height-hero;
-		@include width-full;
+		@include width-parent-full;
 		
 		> img {
 			@include img-back($z-index: -100);

@@ -7,12 +7,12 @@
 		.text {
 			@include firstlastchildnomargin;
 			@include width-twothirds;
-			@include width-full-sm;
+			@include width-parent-full-sm;
 		}
 		
 		img {
 			@include width-onethird;
-			@include width-full-sm;
+			@include width-parent-full-sm;
 		}
 		
 		{{ partial "e/colorscheme.scss" . }}
