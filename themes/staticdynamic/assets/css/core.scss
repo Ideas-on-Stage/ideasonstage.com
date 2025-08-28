@@ -189,7 +189,29 @@
 		
 		{{ partial "e/scheme.scss" "time" }}
 	}
+
+	table {
+		@include variable-scheme();
+		border: 1px solid var(--color-border);
+		border-collapse: collapse;
+		
+		{{ partial "e/scheme.scss" "table" }}
+	}
 	
+	td {
+		@include variable-scheme();
+		border: 1px solid var(--color-border);
+		
+		{{ partial "e/scheme.scss" "td" }}
+	}
+	
+	th {
+		@include variable-scheme();
+		border: 1px solid var(--color-border);
+		
+		{{ partial "e/scheme.scss" "th" }}
+	}
+
 	ul {
 		@include variable-scheme();
 		list-style-type: var(--list-style-type);

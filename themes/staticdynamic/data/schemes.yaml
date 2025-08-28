@@ -133,12 +133,31 @@ p:
     margin-bottom: "1em"
     line-height: "1.6em"
 
+table:
+    color-border: "#888"
+
+td:
+    padding-top: "0.5em"
+    padding-bottom: "0.5em"
+    padding-left: "0.5em"
+    padding-right: "0.5em"
+    color-border: "#888"
+
+th:
+    font-family: "Gotham SSm A, Gotham SSm B"
+    font-weight: "700"
+    padding-top: "0.5em"
+    padding-bottom: "0.5em"
+    padding-left: "0.5em"
+    padding-right: "0.5em"
+    color-border: "#888"
+    
+time:
+    color-text: "#aaa"
+
 ul:
     list-style-type: "square"
     list-indent: "1em"
-
-time:
-    color-text: "#aaa"
 
 
 
