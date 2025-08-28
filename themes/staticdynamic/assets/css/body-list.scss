@@ -1,9 +1,0 @@
-{{ partial "e/sass.scss" . }}
-
-	/* container for list elements on section pages */
-	.cl-body-list {
-		@include margins($vertical: "medium", $horizontal: "normal");
-		
-
-		{{ partial "e/scheme.scss" . }}
-	}

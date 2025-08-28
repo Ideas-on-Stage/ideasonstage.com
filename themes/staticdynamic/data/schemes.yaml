@@ -228,9 +228,10 @@ body-h1--hero:
     color-text: "white"
 
 body-h1--title:
-    text-align: "center"
-    color-text: "black"
-    margin-top: "1em"
+    h1:
+        text-align: "center"
+        color-text: "black"
+        margin-top: "2em"
 
 body-herorevolution:
     scheme: "bg-dark"

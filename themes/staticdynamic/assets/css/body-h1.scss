@@ -27,8 +27,10 @@
 
 	.cl-body-h1--title {
 		@include flex-column($align-column-h: center, $align-v: center);
-		@include text-front();
-		padding: 1em;
+		
+		> h1 {
+		@include width-content();			
+		}
 		
 		{{ partial "e/scheme.scss" "body-h1--title" }};
 	}

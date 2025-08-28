@@ -7,9 +7,6 @@ picture: "prise-de-parole-2.jpg"
 translationKey: "presentations-training"
 
 hero:
-  - img: /img/logos/datadock.png 
-    title: Référencé DataDock
-    description: Organisme de formation référencé DataDock
   - img: logo-qualiopi.png
     title: Certifié Qualiopi
     description: Organisme certifié Qualiopi au titre des actions de formation 
@@ -70,11 +67,6 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 {{< shortcode-list-icon
   class="icon-big"
   columns="2"
-  img="logo-datadock.png"
-  description="Référencé Datadock" >}}
-{{< shortcode-list-icon
-  class="icon-big"
-  columns="2"
   img="logo-qualiopi.png"
   description="Certifié Qualiopi au titre des actions de formation"
   url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
@@ -118,7 +110,7 @@ En fonction de votre secteur d'activité et de votre département, nous adaptero
 - Présentations techniques de services internet, de matériel, de logiciel, de cybersécurité, …
 - Présentations lors de comités exécutifs : défense de budgets, de stratégie, lancement d'un plan de transformation, lancement de projets internes, …
 
-Ideas on Stage est un organisme de formation officiel depuis 2010, référencé [Datadock](https://www.data-dock.fr) et certifié [Qualiopi](https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation). En tant qu'organisme de formation, nous pouvons vous assister dans les démarches administratives. Nous vous fournirons automatiquement tous les documents nécessaires, et si vous le souhaitez nous vous assisterons dans les démarches administratives : devis, convention de formation, plan pédagogique, pré-requis, feuille de présence, évaluation post-formation, certificat de réalisation, prise en charge de la formation par votre OPCO.
+Ideas on Stage est un organisme de formation officiel depuis 2010, d'abord référencé [Datadock](https://www.data-dock.fr) et aujourd'hui certifié [Qualiopi](https://travail-emploi.gouv.fr/formation-professionnelle/acteurs-cadre-et-qualite-de-la-formation-professionnelle/article/qualiopi-marque-de-certification-qualite-des-prestataires-de-formation). En tant qu'organisme de formation, nous pouvons vous assister dans les démarches administratives. Nous vous fournirons automatiquement tous les documents nécessaires, et si vous le souhaitez nous vous assisterons dans les démarches administratives : devis, convention de formation, plan pédagogique, pré-requis, feuille de présence, évaluation post-formation, certificat de réalisation, prise en charge de la formation par votre OPCO.
 
 
 
