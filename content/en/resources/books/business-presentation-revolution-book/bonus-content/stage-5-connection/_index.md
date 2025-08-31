@@ -24,7 +24,7 @@ The additional resources for this stage should help you to make a great SCORE in
 * [The body language myth of crossing your arms](https://www.ideasonstage.com/news/2019/06/18/2019-06-18-the-body-language-myth-of-crossing-your-arms/)
 * [Why true leaders use a speaker coach](https://www.ideasonstage.com/news/2019/11/26/2019-11-26-being-coached-is-the-mark-of-true-leaders/)
 
-## Playlists of Example Presentations
+## Playlist of Example Presentations
 
 In Business Presentation Revolution you’ll find references to several playlists featuring presentations that excel in different aspects. Here is a playlist of talks where the speaker is particularly clear and easy to understand, which is so important especially where some members of the audience may not be native speakers of your language.
 

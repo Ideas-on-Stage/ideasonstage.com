@@ -28,7 +28,8 @@
 	h2 > a,
 	h3 > a,
 	h4 > a,
-	h5 > a {
+	h5 > a,
+	li > a {
 		/* inherit text attributes from parent tag */
 		border-bottom: 1px dotted var(--color-primary);
 		color: inherit;

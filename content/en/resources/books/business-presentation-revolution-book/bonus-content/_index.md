@@ -19,15 +19,39 @@ You can find the extra resources for each stage on the dedicated pages below. Be
 
 <a href="https://presentationscorecard.scoreapp.com" target="_blank">Click here to fill in the Impactful Presenter Scorecard</a>
 
-{{< shortcode-link-picture1-text2 link="stage-1-foundation/" title="Stage 1: Foundation" picture="stage-1-foundation/thumbnail.jpg" >}}Understand your Audience, their Burning Needs and the Context, and start thinking about your presentation’s transformational objectives.{{< /shortcode-link-picture1-text2 >}}
+{{< shortcode-link-picture1-text2
+  class="margin-top margin-bottom"
+  link="stage-1-foundation/"
+  title="Stage 1: Foundation" picture="stage-1-foundation/thumbnail.jpg" >}}
+Understand your Audience, their Burning Needs and the Context, and start thinking about your presentation’s transformational objectives.
+{{< /shortcode-link-picture1-text2 >}}
 
-{{< shortcode-link-picture1-text2 link="stage-2-ideation/" title="Stage 2: Ideation" picture="stage-2-ideation/thumbnail.jpg" >}}Find the raw materials for your presentation to achieve your transformational objectives, using powerful creativity techniques.{{< /shortcode-link-picture1-text2 >}}
+{{< shortcode-link-picture1-text2
+  class="margin-top margin-bottom"
+  link="stage-2-ideation/"
+  title="Stage 2: Ideation" picture="stage-2-ideation/thumbnail.jpg" >}}
+Find the raw materials for your presentation to achieve your transformational objectives, using powerful creativity techniques.
+{{< /shortcode-link-picture1-text2 >}}
 
-{{< shortcode-link-picture1-text2 link="stage-3-creation/" title="Stage 3: Creation" picture="stage-3-creation/thumbnail.jpg" >}}Use the art of storytelling to shape your messages into a compelling and effective storyline for your presentation.{{< /shortcode-link-picture1-text2 >}}
+{{< shortcode-link-picture1-text2
+  class="margin-top margin-bottom"
+  link="stage-3-creation/"
+  title="Stage 3: Creation" picture="stage-3-creation/thumbnail.jpg" >}}
+Use the art of storytelling to shape your messages into a compelling and effective storyline for your presentation.
+{{< /shortcode-link-picture1-text2 >}}
 
-{{< shortcode-link-picture1-text2 link="stage-4-illustration/" title="Stage 4: Illustration" picture="stage-4-illustration/thumbnail.jpg" >}}Avoid ‘death by PowerPoint’, but instead use slides where appropriate as powerful visual aids to make your presentation more impactful and memorable.{{< /shortcode-link-picture1-text2 >}}
+{{< shortcode-link-picture1-text2
+  class="margin-top margin-bottom"
+  link="stage-4-illustration/"
+  title="Stage 4: Illustration" picture="stage-4-illustration/thumbnail.jpg" >}}
+Avoid ‘death by PowerPoint’, but instead use slides where appropriate as powerful visual aids to make your presentation more impactful and memorable.
+{{< /shortcode-link-picture1-text2 >}}
 
-{{< shortcode-link-picture1-text2 link="stage-5-connection/" title="Stage 5: Connection" picture="stage-5-connection/thumbnail.jpg" >}}The way you speak is just as important as what you say and what you show: in this stage, you prepare well, and make a strong connection with your audience.
+{{< shortcode-link-picture1-text2
+  class="margin-top margin-bottom"
+  link="stage-5-connection/"
+  title="Stage 5: Connection" picture="stage-5-connection/thumbnail.jpg" >}}
+The way you speak is just as important as what you say and what you show: in this stage, you prepare well, and make a strong connection with your audience.
 {{< /shortcode-link-picture1-text2 >}}
 
 If you enjoyed Business Presentation Revolution, please help to spread these ideas by leaving a book review on Amazon, GoodReads, or any other site where you buy your books.
