@@ -215,10 +215,6 @@
 			margin-top: 0 !important;
 			margin-bottom: 0 !important;
 		}
-		@else {
-			margin-top : $vertical !important;
-			margin-bottom: $vertical !important;
-		}
 		
 		@if "normal" == $horizontal {
 			margin-left: auto; /* use auto to center div on page */
@@ -257,11 +253,6 @@
 				margin-left: 0;
 				margin-right: 0;
 				width: calc( 100% );
-		}
-		@else {
-				margin-left: $horizontal;
-				margin-right: $horizontal; 
-				width: calc(100% - #{$horizontal} * 2);			
 		}
 	}
 

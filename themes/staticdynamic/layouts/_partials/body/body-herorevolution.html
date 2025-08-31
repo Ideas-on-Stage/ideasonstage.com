@@ -13,11 +13,11 @@
 <section id="highlight" class="cl-body-herorevolution" style="background-color:rgba(0,0,0,.3);">
 	{{ range (first 1 .Pages) }}	
 		<img src="{{ .RelPermalink }}image.jpg" alt="{{ .Title }}">
-		<h2>
 			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
+		<h2>
 					{{ with .Title }}{{ . }}{{ end }}
-			</a>
 		</h2>
+			</a>
 		{{ partial "e/button-secondary.html" (dict "button" page.Params.more "link" .RelPermalink) }}
 	{{ end }}
 </section>

@@ -253,9 +253,9 @@ body-h1--title:
         margin-top: "2em"
 
 body-herorevolution:
-    scheme: "bg-dark"
     text-align: "center"
     h2:
+        color-text: "white"
         margin-bottom: "0.5em"
 
 body-side-main:
