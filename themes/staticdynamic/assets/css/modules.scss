@@ -6,7 +6,12 @@
 		margin: var(--row-gap) 0;
 		padding: 0 var(--column-gap);
 		@media (max-width: $gl-sm-screen) {
-			padding: 0; /* to remove gap left and right */
+			/* on small screens, remove gap left and right */
+			padding: 0;
+		}
+		@media (min-width: $gl-lg-screen) {
+			/* on large screens, remove gap left and right */
+			padding: 0;
 		}
 		
 		{{ partial "e/scheme.scss" . }}

@@ -359,8 +359,8 @@
 		
 		$gap-nb: $col-nb - 1;
 		$gap-span: $col-span - 1;
-		flex-basis: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px );
-		width: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px );
+		flex-basis: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px + 0.001px );
+		width: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px + 0.001px );
 	}
 	
 	@mixin width-column-sm($col-nb, $col-span: 1) {
@@ -412,8 +412,8 @@
 	
 	/* full width (of parent) */
 	@mixin width-parent-full() {
-		width: calc( 100% - 0.001px );
-		max-width: calc( 100% - 0.001px );
+		width: calc( 100% - 0.001px + 0.001px );
+		max-width: calc( 100% - 0.001px + 0.001px );
 	}
 
 	/* use to force full width (of parent) on small screens. */

@@ -4,6 +4,12 @@
 		@include flex-row($gap: "gap", $wrap: "wrap");
 		margin: var(--column-gap);
 		
+		@media (min-width: $gl-lg-screen) {
+			/* on large screens, remove gap left and right */
+			margin-left: 0;
+			margin-right: 0;
+		}
+		
 		> img {
 			@include width-column(6);
 			@include width-column-sm(3);
