@@ -15,9 +15,9 @@
 	For <body>:
 	- the _common bodytop blocks are added as defined in /data/layouts.yaml,
 	- the specific body blocks (if they exist) are added, in order of priority:
-		- the body blocks defined in the page
+		- the body blocks defined in the page .Params front matter
 		- the body blocks matching the page .Type and .Kind in /data/layouts.yaml
-		- the body blocks defined in _default matching the page .Kind  in /data/layouts.yaml
+		- the body blocks defined in _default matching the page .Kind in /data/layouts.yaml
 	- the _common bodybottom blocks are added.
 	
 	Notes:
@@ -25,7 +25,7 @@
 
 --> */}}
 
-{{ "<!-- all.html:start -->" | safeHTML }}
+{{ "<!-- Hugo template all.html  -->" | safeHTML }}
 {{ (printf "<!-- page.Type '%s' - page.Kind '%s' - page.Language '%s' -->" .Type .Kind .Language) | safeHTML }}
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">	
@@ -39,4 +39,3 @@
 	</body>
 
 </html>
-{{ "<!-- all.html:end -->" | safeHTML }}
