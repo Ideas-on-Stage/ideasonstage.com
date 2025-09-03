@@ -4,9 +4,9 @@ type: full # full-width layout
 title: "Formation Leadership Humanava"
 description: "Une formation pour développer votre posture de leader."
 translationKey: "leadership-training-humanava"
-ni: true
 contact:
-  description: Contactez-nous pour en savoir plus sur la formation Leadership et nous vous répondrons rapidement.
+  title: Contactez-nous pour en savoir plus
+  description: Contactez-nous pour en savoir plus sur la formation Leadership.
 ---
 
 {{< shortcode-section-hero
@@ -26,6 +26,8 @@ L'art d'être écouté.e et suivi.e
 Les formations de prise de parole d'Ideas on Stage ont révélé le potentiel de leader de nombreuses personnes.
 
 En nous associant avec Humanava, nous sortons du cadre de la scène pour accompagner les futurs dirigeants dans leur posture quotidienne.
+
+Cette formation est à destination des entreprises. Elle peut se réaliser en ligne de manière individuelle, ou en présentiel pour des groupes de 4 à 8 personnes.
 {{< /shortcode-text >}}
 
 {{< /shortcode-section >}}
@@ -74,8 +76,11 @@ Chaque étape du parcours s’inscrit dans une dynamique claire : un rythme d’
   class="corners-round"
   bgcolor="#FFF9F3"
   columns="3" >}}
-### Les fondements du leadership
-Clarifier ce qu'est un.e leader aujourd'hui — et ce que cela signifie pour vous.
+### Les fondements du leadership et découverte de soi
+Explorez les principes fondamentaux du leadership, et découvrez votre style de leadership.
+
+- Comprendre l'essence du leadership
+- Adopter une posture de leader
 {{< /shortcode-list-card >}}
   
 {{< shortcode-list-card
@@ -84,6 +89,8 @@ Clarifier ce qu'est un.e leader aujourd'hui — et ce que cela signifie pour vou
   columns="3" >}}
 ### Self-Leadership
 Mieux se connaître pour mieux diriger : valeurs, émotions, énergie, alignement.
+- Maîtriser la conscience de soi
+- Maintenir son énergie de leader
 {{< /shortcode-list-card >}}
   
 {{< shortcode-list-card
@@ -92,6 +99,9 @@ Mieux se connaître pour mieux diriger : valeurs, émotions, énergie, alignemen
   columns="3" >}}
 ### Vision et Sens
 Définir une direction claire, inspirante et connectée à ce qui compte vraiment.
+
+- Définir votre raison d’être
+- Communiquer votre vision
 {{< /shortcode-list-card >}}
 
 {{< shortcode-list-card
@@ -100,6 +110,9 @@ Définir une direction claire, inspirante et connectée à ce qui compte vraimen
   columns="3" >}}
 ### Communication Efficace
 Apprendre à écouter, s'exprimer avec impact, et créer un climat de confiance.
+
+- Instaurer une culture riche en feedback
+- Faciliter les conversations difficiles
 {{< /shortcode-list-card >}}
 
 {{< shortcode-list-card
@@ -108,6 +121,9 @@ Apprendre à écouter, s'exprimer avec impact, et créer un climat de confiance.
   columns="3" >}}
 ### Engagement et Confiance
 Motiver, responsabiliser et créer les conditions d'une dynamique collective.
+
+- Créer les conditions de l’engagement
+- Faciliter des dialogues authentiques
 {{< /shortcode-list-card >}}
 
 {{< shortcode-list-card
@@ -116,6 +132,9 @@ Motiver, responsabiliser et créer les conditions d'une dynamique collective.
   columns="3" >}}
 ### Changement et Croissance
 Développer sa capacité à évoluer, à accompagner le changement et à incarner un leadership vivant.
+
+- Surmonter la résistance au changement
+- Adopter une mentalité de croissance
 {{< /shortcode-list-card >}}
 
 {{< /shortcode-list >}}
@@ -159,71 +178,3 @@ Chez Humanava, nous croyons que la transformation ne peut avoir lieu que dans un
 ## Une communauté vivante et bienveillante
 Pendant et après le parcours, vous rejoignez un collectif de leaders engagé·es, venant de différents horizons. Un espace d’échange pour poser vos questions, vous inspirer des autres, et avancer ensemble dans un esprit d’entraide.
 {{< /shortcode-section-hero >}}
-
-
-
-{{< shortcode-section
-  id="experts"
-  class="padding-top padding-bottom"
-  bgcolor="#5C2183" >}}
-
-{{< shortcode-list
-  type="grid"
-  class="width-content gap" >}}
-
-{{< shortcode-list-text
-  class="text-middle text-padding text-left"
-  bgcolor="white"
-  columns="4" >}}
-### Nos experts
-Équipe
-{{< /shortcode-list-text >}}
-
-{{< shortcode-list-card
-  img="expert-thomas-pesquet.jpg"
-  alt="Thomas Pesquet"
-  bgcolor="white"
-  columns="4" >}}
-### Thomas Pesquet
-Ancien pilote de chasse, astronaute.
-{{< /shortcode-list-card >}}
-  
-{{< shortcode-list-card
-  bgcolor="white"
-  columns="4" >}}
-### Expert 2
-{{< /shortcode-list-card >}}
-  
-{{< shortcode-list-card
-  bgcolor="white"
-  columns="4" >}}
-### Expert 3
-{{< /shortcode-list-card >}}
-  
-{{< shortcode-list-card
-  bgcolor="white"
-  columns="4" >}}
-### Expert 4
-{{< /shortcode-list-card >}}
-  
-{{< shortcode-list-card
-  bgcolor="white"
-  columns="4" >}}
-### Expert 5
-{{< /shortcode-list-card >}}
-  
-{{< shortcode-list-card
-  bgcolor="white"
-  columns="4" >}}
-### Expert 6
-{{< /shortcode-list-card >}}
-
-{{< shortcode-list-pict
-  class="corners-round"
-  columns="4"
-  img="placeholder-mountain.jpg"
-  alt="Mountain picture" >}}
-
-{{< /shortcode-list >}}
-
-{{< /shortcode-section >}}

@@ -95,3 +95,13 @@ bg-codingandbricks:
         color-text-hover: "#FFD500"
     button-secondary:
         color-text: "#FFD500"
+
+bg-humanava:
+    color-back: "#5C2183"
+    color-text: "white"
+    color-text-muted: "#bbb"
+    a:
+        color-text: "white!important"
+        color-text-hover: "white"
+    button-secondary:
+        color-text: "white"

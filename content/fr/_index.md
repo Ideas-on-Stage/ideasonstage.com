@@ -10,7 +10,7 @@ translationKey: "home"
 body-cta-data: "public-speaking-guide"
 main-modules-data: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting", "creative-workshops" ]
 bodylazy-references-data: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
-bodylazy-modules-aside-data: [ "codingandbricks", "news" ]
+bodylazy-modules-aside-data: [ "leadership-humanava-formation", "codingandbricks" ]
 bodylazy-testimonials-data: [ "roxanne-varza", "cesar-harada", "francois-marchessaux", "nicolas-beau", "david-musotte" ]
 ---
 
