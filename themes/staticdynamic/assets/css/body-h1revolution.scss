@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-body-herorevolution {
+	.cl-body-h1revolution {
 		@include flex-column($align-column-h: center, $align-v: center);
 		@include height-hero;
 		@include width-parent-full;

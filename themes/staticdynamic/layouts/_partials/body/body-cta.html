@@ -5,6 +5,9 @@
 	Generates a call to action similar to a hero with a button.
 	A data file containing the cta details must exist in /data/ctas
 	
+	CTAs and heros have a similar appearance,
+	however CTAs have a h2 title, heros have a h1 title.
+	
 	Arguments:
 	- page object where the front matter has:
 		- body-cta-data: "cta data file" as string
@@ -22,35 +25,35 @@
 
 {{/* <!-- check if body-cta-data parameter exists in page front matter --> */}}
 {{- with $data -}}
-<header id="call-to-action" class="cl-body-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
+<div id="call-to-action" class="cl-body-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
 	{{/* <!-- cta picture --> */}}
 	{{ partial "e/img.html" . }}
 	
-	<div class="main">
+	<div class="text">
 		{{/* <!-- cta title --> */}}
-		{{ with .title }}
+		{{- with .title -}}
 			<h2>
 				{{ . | markdownify }}
 			</h2>
-		{{ end }}
+		{{- end -}}
 		
 		{{/* <!-- cta description --> */}}
-		{{ with .description }}
+		{{- with .description -}}
 			<p>
 				{{ . }}
 			</p>
-		{{ end }}
+		{{- end -}}
 		
 		{{/* <!-- cta button --> */}}
-		{{ with .button }}
+		{{- with .button -}}
 			<a href="{{ .link }}" class="cl-core--button-primary">
 				{{ .text }}
 			</a>
-		{{ end }}
+		{{- end -}}
 	</div>
 	
 	{{ partial "e/logobar.html" page }}
-</header>
+</div>
 {{- else -}}
-	{{ partial "e/html-comment.html" "skipped: cta: no page.Params.body-cta-data" }}
+	{{ partial "e/html-comment.html" "SKIPPED: no page.Params.body-cta-data" }}
 {{- end -}}

@@ -70,6 +70,10 @@
 		margin: 0 auto;
 		padding-top: var(--menubar-height);
 		width: var(--page-width);
+		/* turn body into a giant flexbox. */
+		@include flex-row($gap:"none", $wrap:"wrap", $align-row-v:flex-start, $align-h:center);
+		@include flex-column-sm();
+		
 		@media (min-width: $gl-lg-screen) {
 			--page-width: var(--page-max-width);
 		}

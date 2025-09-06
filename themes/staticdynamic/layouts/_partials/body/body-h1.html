@@ -12,11 +12,11 @@
 --> */}}
 
 {{/* <!-- try to get hero picture --> */}}
-{{ $hero := partial "f/getheropicturepath.go" . }}
-{{ if $hero }}
+{{- $hero := partial "f/getheropicturepath.go" . -}}
+{{- if $hero -}}
 	{{/* <!-- create hero --> */}}
 	<header id="title" class="cl-body-h1--hero">
-		{{ $srcset := partial "f/getimgsrcset.go" $hero }}
+		{{- $srcset := partial "f/getimgsrcset.go" $hero -}}
 		<img
 			loading="eager"
 			decoding="async"
@@ -24,23 +24,42 @@
 			srcset="{{ collections.Index $srcset 1 }}"
 			sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
 			{{ with .Title }}alt="{{ . }}"{{ end }}>
-		{{ with .Title }}
+			
+		<div class="text">
+			{{/* <!-- hero title --> */}}
+			{{- with .Title -}}
 			<h1>
 				{{ . | markdownify }}
 			</h1>
-		{{ else }}
-			{{ partial "e/html-comment.html" "skipped: h1: no .Title for hero" }}
-		{{ end }}
+			{{- end -}}
+			
+			{{/* <!-- cta description --> */}}
+			{{- with .Params.description -}}
+			<p>
+				{{ . }}
+			</p>
+			{{- end -}}
+			
+			{{/* <!-- cta button --> */}}
+			{{- with .Params.button -}}
+			<a href="{{ .link }}" class="cl-core--button-primary">
+				{{ .text }}
+			</a>
+			{{- end -}}
+		</div>
 		
-		{{ partial "e/logobar.html" . }}
+		{{ partial "e/logobar.html" page }}
+		
 	</header>
-{{ else if .Title }}
+{{- else if .Title -}}
 	{{/* <!-- create standard title --> */}}
 	<header id="title" class="cl-body-h1--title">
+		{{- with .Title -}}
 		<h1>
-			{{ with .Title }}{{ . | markdownify }}{{ end }}
+			{{ . | markdownify }}
 		</h1>
+		{{- end -}}
 	</header>
-{{ else }}
-	{{ partial "e/html-comment.html" "WARN: skipped: h1: no hero picture (hero.jpg or .Params.picture) and no .Title" }}
-{{ end }}
+{{- else -}}
+	<p class="error">ERROR: front matter missing .Title</p>
+{{- end -}}

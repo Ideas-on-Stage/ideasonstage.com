@@ -228,6 +228,8 @@ body-cta:
     h2:
         text-align: "center"
     p:
+        margin-top: "0.5em"
+        margin-bottom: "2em"
         text-align: "center"
 
 body-countrylist:
@@ -245,6 +247,10 @@ body-h1home:
 body-h1--hero:
     text-align: "center"
     color-text: "white"
+    p:
+        margin-top: "0.5em"
+        margin-bottom: "2em"
+        text-align: "center"
 
 body-h1--title:
     h1:
@@ -252,7 +258,7 @@ body-h1--title:
         color-text: "black"
         margin-top: "2em"
 
-body-herorevolution:
+body-h1revolution:
     text-align: "center"
     h2:
         color-text: "white"

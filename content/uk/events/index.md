@@ -1,11 +1,12 @@
 ---
 draft: false
 type: events
-title: "UK Events"
-description: "Events happening in the UK"
+title: "BECOME A MORE CONFIDENT PRESENTER"
+description: "Join the web class that’s helped nearly 6,000 business leaders communicate with clarity and confidence since 2019."
 picture: "uk-events.jpg"
-
-body-cta-data: "uk-events"
+button:
+  text: "REGISTER ON EVENTBRITE"
+  link: "https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469"
 ---
 
 {{< shortcode-section

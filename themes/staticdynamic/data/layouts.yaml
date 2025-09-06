@@ -146,7 +146,7 @@ events:
             - head-title-single
         body:
             - body-breadcrumbs
-            - body-cta
+            - body-h1
             - body-side-main
         bodylazy:
             - bodylazy-modules-aside
@@ -213,7 +213,7 @@ revolution:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-herorevolution
+            - body-h1revolution
             - body-h1
             - body-side-main
         main:

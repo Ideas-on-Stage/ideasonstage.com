@@ -10,10 +10,10 @@
 		
 		/* container for sidebar */
 		.side {
-			@include firstlastchildnomargin;
+			@include firstlastchildnomargin();
 			@include flex-column($gap: "gap");
 			@include width-column(3,1);
-			@include width-content-sm;
+			@include width-content-sm();
 			margin-right: 1em; /* add space to the right of sidebar so it doesn't stick to right col */
 			padding: var(--padding);
 			@media (max-width: $gl-sm-screen) {
@@ -25,8 +25,8 @@
 		
 		/* container for main content */
 		.main {
-			@include firstlastchildnomargin;
-			@include width-content;
+			@include firstlastchildnomargin();
+			@include width-content();
 			
 			{{ partial "e/scheme.scss" "body-side-main--main" }};
 		}
@@ -34,7 +34,7 @@
 		/* adapt size of main content area if there is a sidebar */
 		.side + .main {
 			@include width-column(3,2);
-			@include width-content-sm;
+			@include width-content-sm();
 		}
 		
 		{{ partial "e/scheme.scss" . }};

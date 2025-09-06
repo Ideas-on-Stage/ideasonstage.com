@@ -13,47 +13,47 @@
 --> */}}
 
 {{/* <!-- if page is not home and parent is not home... --> */}}
-{{ if and (not .IsHome) (not .Parent.IsHome) }}
+{{- if and (not .IsHome) (not .Parent.IsHome) -}}
 	{{/* <!-- ...then at least 2 levels of depth, show breadcrumbs --> */}}
 	<nav id="breadcrumbs" class="cl-body-breadcrumbs">
 		<ul>
 			{{/* <!-- call breadcrumbnav starting with current page --> */}}
-			{{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+			{{- template "breadcrumbnav" (dict "p1" . "p2" .) -}}
 		</ul>
 	</nav>
-{{ else }}
+{{- else -}}
 	{{ "<!-- skipped: no breadcrumbs on home or 1st level section -->" | safeHTML }}
-{{ end }}
+{{- end -}}
 
 
 
 {{/* <!-- recursive function to generate each breadcrumb level --> */}}
-{{ define "breadcrumbnav" }}
+{{- define "breadcrumbnav" -}}
 
 	{{/* <!-- if current page has a parent... --> */}}
-	{{ if .p1.Parent }}
+	{{- if .p1.Parent -}}
 		{{/* <!-- ... then call recursively with parent page as p1 until we reach homepage... --> */}}
-		{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
-	{{ end }}
+		{{- template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 ) -}}
+	{{- end -}}
 
 	{{/* <!-- ... once homepage is reached... --> */}}
-	{{ if .p1.IsHome }}
+	{{- if .p1.IsHome -}}
 		{{/* <!-- ... show home item (first item) --> */}}
 		<li>
 			<a href="{{ .p1.Permalink }}">
-				{{ $img := resources.Get "img/icons/home.svg" }}
+				{{- $img := resources.Get "img/icons/home.svg" -}}
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Back to Ideas on Stage Homepage">
 			</a>
 		</li>
 	{{/* <!-- ... else if it is not the current page... --> */}}
-	{{ else if ne .p1 .p2 }}
+	{{- else if ne .p1 .p2 -}}
 		{{/* <!-- ... then recursively add parent pages until current page is reached --> */}}
 		<li>
-			{{ $img := resources.Get "img/icons/right.svg" }}
+			{{- $img := resources.Get "img/icons/right.svg" -}}
 			<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Right Arrow">
 			<a href="{{ .p1.Permalink }}">
-				{{ .p1.Title }}
+				{{- .p1.Title -}}
 			</a>
 		</li>
-	{{ end }}
-{{ end }}
+	{{- end -}}
+{{- end -}}
