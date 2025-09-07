@@ -1,6 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-countrylist {
+		@include width-parent-full();
 		
 		> ul {
 			@include flex-row($gap: "gap", $wrap: "wrap", $align-h: center);
