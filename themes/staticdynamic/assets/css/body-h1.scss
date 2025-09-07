@@ -26,6 +26,7 @@
 	}
 
 	.cl-body-h1--title {
+		@include width-parent-full();
 		@include flex-column($align-column-h: center, $align-v: center);
 		
 		> h1 {

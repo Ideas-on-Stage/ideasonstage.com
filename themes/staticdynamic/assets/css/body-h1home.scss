@@ -1,6 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-h1home {
+		@include width-parent-full();
+		
 		text-align: center;
 		padding-top: 1em;
 		padding-left: 1em;

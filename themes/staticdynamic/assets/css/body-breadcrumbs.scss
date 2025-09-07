@@ -1,6 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-body-breadcrumbs {
+		@include width-parent-full();
 		
 		a {
 			border: none; /* remove line under link */

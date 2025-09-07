@@ -1,33 +1,26 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-bodybottom-footer {
+		@include width-parent-full();
 		margin: 0;
-		padding: 4vw 0;
 		
 		a {
 			@include a-underline-none;
 		}
 		
 		/* navigation items in footer */
-		nav {
-			@include ul-list-style-none;
-			@include margins($vertical: "none", $horizontal: "normal");
+		> ul {
+			@include width-content();
+			@include flex-row($gap: "gap", $wrap: "wrap");
+			@include ul-container();
 			
-			> ul {
-				@include flex-row($gap: "gap", $wrap: "wrap");
-				@include ul-container();
+			> li {
+				@include width-column(4);
+				@include width-column-sm(2);
+				line-height: 1.6em;
 				
-				> li {
-					@include width-column(4);
-					@include width-column-sm(2);
-					line-height: 1.6em;
-					@media (max-width: $gl-sm-screen) {
-						@include width-column(2);
-					}
-					
-					> ul {
-						@include ul-container();
-					}
+				> ul {
+					@include ul-container();
 				}
 			}
 		}
@@ -37,6 +30,5 @@
 			@include margins($vertical: "medium", $horizontal: "normal");
 		}
 		
-
 		{{ partial "e/scheme.scss" . }}
 	}
