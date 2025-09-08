@@ -16,8 +16,8 @@
 		
 		/* main text container, may have to share space with a logobar */
 		.text {
-			@include flex-column($align-column-h: center, $align-v: center);
-			@include width-parent-full;
+			@include width-content();
+			@include margins($vertical: "medium");
 			flex-grow: 1; /* take all available vertical space in parent */
 			--color-back: none;
 		}
