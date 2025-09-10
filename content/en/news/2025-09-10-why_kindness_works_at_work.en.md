@@ -7,8 +7,6 @@ date = "2025-09-10"
 author = "Andrea Pacini"
 banner = "/img/news/grahamallcott.jpg"
 +++
-
-
 ![Andrea Pacini and Graham Allcott in Zoom ](/img/news/grahamallcott.jpg "AP and GA")
 
 *In this episode, Graham Allcott shares how kindness can drive performance, build trust and shape strong workplace cultures. We explore the difference between kindness and niceness, the ROI of empathy and practical ways leaders can embed kindness into how they lead.*
