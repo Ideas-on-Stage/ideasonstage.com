@@ -1,8 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-bodybottom-contact-form {
-		@include margins($vertical: "medium", $horizontal: "normal");
+		@include width-content-narrow();
+		@include margins($vertical: "medium");
 		
-
 		{{ partial "e/scheme.scss" . }}
 	}

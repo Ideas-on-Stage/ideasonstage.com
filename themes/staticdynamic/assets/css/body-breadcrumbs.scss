@@ -8,8 +8,9 @@
 		}
 		
 		ul {
+			@include width-content();
 			@include ul-container();
-			@include margins($vertical: "none", $horizontal: "normal");
+			@include margins($vertical: "none");
 			@include flex-row($gap: "gap", $wrap: "wrap");
 			
 			li {

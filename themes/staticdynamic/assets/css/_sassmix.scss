@@ -14,11 +14,16 @@
 	-------- */
 
 	@mixin a-underline-none {
+		/* 
+			Removes underline of <a> links
+		*/
 		border-bottom: none;
 	}
 
 	@mixin firstlastchildnomargin {
-		/* remove top margin from first element and bottom margin from last element */
+		/*
+			Removes top margin from first element and bottom margin from last element
+		*/
 		> :first-child {
 			margin-top: 0;
 		}
@@ -28,7 +33,9 @@
 	}
 
 	@mixin flex-column($gap: "none", $wrap: "nowrap", $align-column-h: flex-start, $align-h: flex-start, $align-v: flex-start) {
-		/* creates a flexbox column */
+		/*
+			Creates a flexbox column
+		*/
 		display: flex;
 		flex-direction: column;
 		align-content: $align-h;
@@ -64,14 +71,19 @@
 	}
 
 	@mixin flex-column-sm($flex-direction: column) {
-		/* turns flex-row into a flex-column on small screens */
+		/* 
+			Turns a flex-row into a flex-column on small screens
+			$flex-direction can be column or column-reverse
+		*/
 		@media (max-width: $gl-sm-screen) {
 			flex-direction: $flex-direction;
 		}
 	}
 	
 	@mixin flex-row($gap: "none", $wrap: "nowrap", $align-row-v: flex-start, $align-v: flex-start, $align-h: flex-start) {
-		/* creates a flexbox row */
+		/*
+			Creates a flexbox row
+		*/
 		display: flex;
 		flex-direction: row;
 		align-content: $align-v;
@@ -193,10 +205,10 @@
 		display: inline-block;
 	}
 	
-	@mixin margins($vertical: "medium", $horizontal: "normal") {
-		/* margins for content
+	@mixin margins($vertical: "medium") {
+		/*
+			standardized margins for theme
 			marginv: "tall", "medium", "short", "none"
-			marginh: "wide", "normal", "gap", "none"
 		*/
 		
 		@if "tall" == $vertical {
@@ -214,45 +226,6 @@
 		@else if "none" == $vertical {
 			margin-top: 0 !important;
 			margin-bottom: 0 !important;
-		}
-		
-		@if "normal" == $horizontal {
-			margin-left: auto; /* use auto to center div on page */
-			margin-right: auto; /* use auto to center div on page */
-			width: 80vw;
-			max-width: var(--content-max-width); /* prevents text area from getting unpleasantly wide */
-			@media (max-width: $gl-sm-screen) {
-				--column-gap: var(--column-gap-default); 
-				margin-left: var(--column-gap);
-				margin-right: var(--column-gap); 
-				width: calc(100% - var(--column-gap) * 2);
-				max-width: calc(100% - var(--column-gap) * 2);
-			}
-		}
-		@else if "wide" == $horizontal {
-			/* use for narrow content such as forms */
-			margin-left: auto; /* use auto to center div on page */
-			margin-right: auto; /* use auto to center div on page */
-			width: 50vw;
-			max-width: var(--content-max-width-narrow); /* prevents text area from getting unpleasantly wide */
-			@media (max-width: $gl-sm-screen) {
-				--column-gap: var(--column-gap-default); 
-				margin-left: var(--column-gap);
-				margin-right: var(--column-gap);
-				width: calc(100% - var(--column-gap) * 2 );
-				max-width: calc(100% - var(--column-gap) * 2 );
-			}
-		}
-		@else if "gap" == $horizontal {
-				--column-gap: var(--column-gap-default); 
-				margin-left: var(--column-gap);
-				margin-right: var(--column-gap); 
-				width: calc(100% - var(--column-gap) * 2);
-		}
-		@else if "none" == $horizontal {
-				margin-left: 0;
-				margin-right: 0;
-				width: calc( 100% );
 		}
 	}
 

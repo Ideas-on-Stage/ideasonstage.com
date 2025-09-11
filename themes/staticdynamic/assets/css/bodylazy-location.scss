@@ -1,20 +1,19 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-bodylazy-location {
-		@include margins($vertical: "gap", $horizontal: "none");
-		@include height-module;
+		@include height-module();
+		@include width-parent-full();
 		
 		> img {
-			@include img-back;
+			@include img-back();
 		}
 		
 		.text {
-			@include flex-column($align-column-h: center);
+			@include width-content();
+			@include margins($vertical: "medium");
 			@include text-front;
 			--color-back: none;
-			padding: 2em;
 		}
 		
-
 		{{ partial "e/scheme.scss" . }}
 	}

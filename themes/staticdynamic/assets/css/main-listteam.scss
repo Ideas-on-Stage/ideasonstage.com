@@ -1,7 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-main-listteam {
-		@include margins($vertical: "medium", $horizontal: "normal");
+		@include width-content();
+		@include margins($vertical: "medium");
 		@include flex-row($gap: "big", $wrap: "wrap", $align-h: center);
 		
 		.teammember {

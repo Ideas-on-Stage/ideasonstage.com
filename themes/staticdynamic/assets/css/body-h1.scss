@@ -6,8 +6,6 @@
 		/* container if title + hero img */
 		@include height-hero();
 		@include width-parent-full();
-		@include flex-column($align-v: space-between);
-		position: relative;
 		background-color: rgba(0, 0, 0, 0.4);
 		
 		> img {
