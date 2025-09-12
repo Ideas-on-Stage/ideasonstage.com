@@ -11,7 +11,6 @@
 	}
 
 	a {
-		@include variable-scheme();
 		border-bottom: 1px dotted var(--color-primary); /* use stylized dotted underline for links */
 		transition: all .35s;
 		color: inherit;
@@ -20,6 +19,8 @@
 		font-size: inherit;
 		text-decoration: none; /* remove default underline */
 		text-transform: inherit;
+		
+		{{ partial "e/scheme-variables.scss" "a" }}
 		{{ partial "e/scheme.scss" "a" }}
 	}
 	a:hover,
@@ -31,26 +32,24 @@
 	}
 	
 	aside {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "aside" }}
 		{{ partial "e/scheme.scss" "aside" }}
 	}
 
 	b {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "b" }}		
 		{{ partial "e/scheme.scss" "b" }}
 	}
 	
 	blockquote {
 		@include firstlastchildnomargin();
-		@include variable-scheme();
 		
 		border-left: 4px solid var(--color-border);
 		margin-left: 0;
 		margin-right: 0;
 		padding: 1em;
 		
+		{{ partial "e/scheme-variables.scss" "blockquote" }}
 		{{ partial "e/scheme.scss" "blockquote" }}
 	}
 	
@@ -69,153 +68,133 @@
 	}
 
 	div {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "div" }}
 		{{ partial "e/scheme.scss" "div" }}
 	}	
 
 	footer {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "footer" }}
 		{{ partial "e/scheme.scss" "footer" }}
 	}
 	
 	h1 {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "h1" }}
 		{{ partial "e/scheme.scss" "h1" }}
 	}
 	
 	h2 {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "h2" }}		
 		{{ partial "e/scheme.scss" "h2" }}
 	}
 
 	h3 {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "h3" }}		
 		{{ partial "e/scheme.scss" "h3" }}
 	}
 
 	h4 {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "h4" }}
 		{{ partial "e/scheme.scss" "h4" }}
 	}
 
 	h5 {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "h5" }}
 		{{ partial "e/scheme.scss" "h5" }}
 	}
 	
 	header {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "" }}
 		{{ partial "e/scheme.scss" "header" }}
 	}
 
 	img {
-		@include img-responsive();
-		
+		{{ partial "e/scheme-variables.scss" "img" }}
 		{{ partial "e/scheme.scss" "img" }}
 	}
 
 	input {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "input" }}
 		{{ partial "e/scheme.scss" "input" }}
 	}
 	
 	li {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "li" }}
 		{{ partial "e/scheme.scss" "li" }}
 	}
 	
 	main {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "main" }}
 		{{ partial "e/scheme.scss" "main" }}
 	}
 	
 	nav {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "nav" }}
 		{{ partial "e/scheme.scss" "nav" }}
 	}
 
 	p {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "p" }}
 		{{ partial "e/scheme.scss" "p" }}
 	}
 	
 	section  {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "section" }}
 		{{ partial "e/scheme.scss" "section" }}
 	}
 
 	span {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "span" }}
 		{{ partial "e/scheme.scss" "span" }}
 	}
 	
 	strong {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "strong" }}
 		{{ partial "e/scheme.scss" "strong" }}
 	}
 	
 	textarea {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "textarea" }}
 		{{ partial "e/scheme.scss" "textarea" }}
 	}
 
 	time {
-		@include variable-scheme();
-		
+		{{ partial "e/scheme-variables.scss" "time" }}
 		{{ partial "e/scheme.scss" "time" }}
 	}
 
 	table {
-		@include variable-scheme();
 		border: 1px solid var(--color-border);
 		border-collapse: collapse;
 		
+		{{ partial "e/scheme-variables.scss" "table" }}
 		{{ partial "e/scheme.scss" "table" }}
 	}
 	
 	td {
-		@include variable-scheme();
 		border: 1px solid var(--color-border);
 		
+		{{ partial "e/scheme-variables.scss" "td" }}
 		{{ partial "e/scheme.scss" "td" }}
 	}
 	
 	th {
-		@include variable-scheme();
 		border: 1px solid var(--color-border);
 		
+		{{ partial "e/scheme-variables.scss" "th" }}
 		{{ partial "e/scheme.scss" "th" }}
 	}
 
 	ul {
-		@include variable-scheme();
 		list-style-type: var(--list-style-type);
 		list-style-position: inside;
 		padding-left: var(--list-indent);
 		text-indent: calc( var(--list-indent) * -1 );
 		
+		{{ partial "e/scheme-variables.scss" "ul" }}
 		{{ partial "e/scheme.scss" "ul" }}
 	}
 	
 	.cl-core--button-primary {
-		@include variable-scheme();
 		@include a-underline-none();
 		border: none;
 		border-radius: 0.5em;
@@ -231,11 +210,11 @@
 			cursor: pointer;
 		}
 		
+		{{ partial "e/scheme-variables.scss" "button-primary" }}
 		{{ partial "e/scheme.scss" "button-primary" }}
 	}
 	
 	.cl-core--button-secondary {
-		@include variable-scheme();
 		@include a-underline-none();
 		border: none;
 		border-radius: 0.5em;
@@ -251,6 +230,7 @@
 			cursor: pointer;
 		}
 		
+		{{ partial "e/scheme-variables.scss" "button-secondary" }}
 		{{ partial "e/scheme.scss" "button-secondary" }}
 	}
 

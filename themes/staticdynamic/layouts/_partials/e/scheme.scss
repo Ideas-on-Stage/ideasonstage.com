@@ -12,10 +12,11 @@
 --> */}}
 
 {{/* <!-- try to get the text scheme matching the block name --> */}}
-{{- $scheme := index site.Data.schemes . -}}
+{{- $element := . -}}
+{{- $scheme := index site.Data.schemes $element -}}
 
 {{/* <!-- try to get the text scheme matching the block name --> */}}
-{{- printf "--generated-scheme:%s;" . -}}
+{{- printf "--generated-scheme:%s;" $element -}}
 
 {{/* <!-- iterate over each item to generate the css code --> */}}
 {{- range $key, $val := $scheme -}}
@@ -34,10 +35,14 @@
 		{{- end -}}
 		
 	{{- else -}}
+	
+		{{- if eq "." (substr $keyname 0 1) -}}
+			{{- $keyname = (substr $keyname 1) -}}
+		{{- end -}}
 		
 		{{- if eq "sm" $keyname }}
 			
-			{{/* <!-- generate @media{ css --> */}}
+			{{/* <!-- generate @media css for small screens --> */}}
 			{{- printf "@media (max-width:$gl-sm-screen){" -}}
 			{{- range $keyb, $valb := $val -}}
 				{{/* <!-- generate css variable --> */}}
@@ -48,7 +53,7 @@
 			
 		{{- else if eq "lg" $keyname }}
 			
-			{{/* <!-- generate @media{ css --> */}}
+			{{/* <!-- generate @media css for large screens --> */}}
 			{{- printf "@media(min-width:$gl-lg-screen){" -}}
 			{{- range $keyb, $valb := $val -}}
 				{{/* <!-- generate css variable --> */}}
@@ -59,13 +64,13 @@
 			
 		{{- else -}}
 			
-			{{/* <!-- generate tag{ css --> */}}
+			{{/* <!-- generate tag css --> */}}
 			{{- with $key -}}
 				{{- printf "%s{" . -}}
 			{{- end -}}
 			{{- range $keyb, $valb := $val -}}
 				{{/* <!-- generate css variable --> */}}
-				{{- printf "--%s: %s;" $keyb $valb -}}
+				{{- printf "--%s-%s: %s;" $keyname $keyb $valb -}}
 			{{- end -}}
 			{{/* <!-- close "tag" css --> */}}
 			{{- printf "}" -}}
