@@ -2,7 +2,8 @@
 draft: false
 title: "Welcome to the Revolution"
 description: "Thank you for joining the Business Presentation Revolution."
-ni: true
+ni: true # prevent indexing
+nl: true # prevent listing
 
 bodylazy-modules-aside-data: [ "catalogue", "news" ]
 ---

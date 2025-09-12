@@ -1,7 +1,7 @@
 <section id="team-member-list" class="cl-main-listteam">
 	{{ range .Pages.ByWeight }}
 		<div href="{{ .RelPermalink }}" class="teammember">
-			<a href="{{ .RelPermalink }}" class="content">
+			<a href="{{ .RelPermalink }}" class="content cl-core--a-underline-none">
 				<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}" width="100px" height="100px">
 				<h2>
 					{{ .Params.name }}

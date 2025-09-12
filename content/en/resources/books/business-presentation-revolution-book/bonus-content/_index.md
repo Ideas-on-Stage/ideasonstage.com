@@ -2,7 +2,8 @@
 draft: false
 title: "Business Presentation Revolution – Bonus Content"
 hidepagelist: true
-ni: true
+ni: true # prevent indexing
+nl: true # prevent listing
 ---
 
 ## Business Presentation Revolution – Bonus Content

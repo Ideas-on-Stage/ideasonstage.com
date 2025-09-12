@@ -6,7 +6,7 @@
 		{{ $home = printf "%s%s/" $home site.Language.Lang }}	
 	{{ end }}
 	
-	<a href="{{ $home }}">
+	<a href="{{ $home }}" class="cl-core--a-underline-none">
 		<div class="brand">
 			{{ $logo := resources.Get "img/navbar/ideas-on-stage.svg" }}
 			<img src="data:image/svg+xml;base64,{{ $logo.Content | base64Encode }}" height="52" width="184" alt="Logo Ideas on Stage">
@@ -27,7 +27,7 @@
 		<!-- Menubar Menu Items -->
 		{{ range site.Params.navbar }}
 			<li class="menu-item">
-				<a href="{{ .url }}" onclick="getElementById('drop').checked = false">
+				<a href="{{ .url }}" onclick="getElementById('drop').checked = false" class="cl-core--a-underline-none">
 					{{ .name }}
 				</a>
 			</li>
@@ -66,7 +66,7 @@
 				{{ range site.Sites }}
 					{{ if ne .Language.LanguageCode site.LanguageCode }}
 						<li class="menu-dropdown-item">
-							<a href="{{ .Home.Permalink }}" hreflang="{{ .Language.LanguageCode }}">
+							<a href="{{ .Home.Permalink }}" hreflang="{{ .Language.LanguageCode }}" class="cl-core--a-underline-none">
 								{{ .Language.LanguageName }}
 							</a>
 						</li>

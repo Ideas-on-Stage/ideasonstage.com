@@ -1,7 +1,8 @@
 {{ "<!-- partials/main/main-list.html:start -->" | safeHTML }}
 <div class="cl-main-list">
-{{- range (.Paginator).Pages -}}
+{{- range .Pages -}}
 	{{- if .Params.nl -}}
+		{{ "<!-- page skipped (nl is true) -->" | safeHTML }}
 		{{/* <!-- do not list pages with .Params nl: true --> */}}
 	{{- else -}}
 	<section class="item {{ partial "f/getstyle.go" . }}">

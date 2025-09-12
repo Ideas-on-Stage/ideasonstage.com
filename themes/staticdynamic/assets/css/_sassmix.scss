@@ -18,6 +18,7 @@
 			Removes underline of <a> links
 		*/
 		border-bottom: none;
+		text-decoration: none;
 	}
 
 	@mixin firstlastchildnomargin {

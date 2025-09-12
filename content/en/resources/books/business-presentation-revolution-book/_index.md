@@ -5,8 +5,8 @@ description: "Are you tired of boring, ineffective presentations? Do you want to
 
 # custom body to prevent display of pages list
 body:
-- body-h1
 - body-breadcrumbs
+- body-h1
 - body-sidebar-main
 ---
 

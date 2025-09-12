@@ -35,7 +35,7 @@
 		{{- range .items -}}
 			<li class="cl-body-carousel--item">
 				<div class="text">
-					<a href="{{ partial "f/geturl.go" . }}">
+					<a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
 						{{ with .title }}
 							<h4>
 								{{ . }}
@@ -49,7 +49,7 @@
 					</a>
 					{{ partial "e/button-secondary" . }}
 				</div>
-				<a href="{{ partial "f/geturl.go" . }}">
+				<a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
 					{{- if .img -}}
 						{{ $srcset := partial "f/getimgsrcset.go" .img }}
 						<img

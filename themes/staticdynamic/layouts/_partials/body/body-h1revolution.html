@@ -13,7 +13,7 @@
 <section id="highlight" class="cl-body-h1revolution" style="background-color:rgba(0,0,0,.3);">
 	{{ range (first 1 .Pages) }}	
 		<img src="{{ .RelPermalink }}image.jpg" alt="{{ .Title }}">
-			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}">
+			<a href="{{ with .RelPermalink }}{{ . }}{{ end }}" class="cl-core--a-underline-none">
 		<h2>
 					{{ with .Title }}{{ . }}{{ end }}
 		</h2>
