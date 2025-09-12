@@ -221,9 +221,8 @@
 		border-radius: 0.5em;
 		display: inline-block;
 		list-style: none; /* remove bullet when used on li */
-		margin-left: auto;
-		margin-right: auto;
 		padding: var(--padding);
+		
 		&:hover {
 			padding: var(--padding);
 			background-color: var(--color-back-hover);
@@ -257,7 +256,8 @@
 
 	.cl-core--a-underline-none {
 		/*
-			remove underline from hypertext links
+			Removes underline from hypertext links
+			Alternatively, include the a-underline-none mixin in the css.
 		*/
 		@include a-underline-none();
 	}

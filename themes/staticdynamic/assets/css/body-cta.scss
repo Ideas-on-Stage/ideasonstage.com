@@ -10,7 +10,7 @@
 		
 		/* main text container, may have to share space with a logobar */
 		.text {
-			@include height-hero();
+			@include height-parent-full(); /* same height as parent so text can be centered inside div */
 			@include width-parent-full();
 			@include flex-column($align-column-h: center, $align-v: center);
 			--color-back: none;

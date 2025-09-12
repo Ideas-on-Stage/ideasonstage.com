@@ -213,20 +213,20 @@
 		*/
 		
 		@if "tall" == $vertical {
-			margin-top: 5em !important;
-			margin-bottom: 5em !important;
+			--margin-top: 5em !important;
+			--margin-bottom: 5em !important;
 		}
 		@else if "medium" == $vertical {
-			margin-top: 3em !important;
-			margin-bottom: 3em !important;		
+			--margin-top: 3em !important;
+			--margin-bottom: 3em !important;		
 		}
 		@else if "short" == $vertical {
-			margin-top: 1em !important;
-			margin-bottom: 1em !important;
+			--margin-top: 1em !important;
+			--margin-bottom: 1em !important;
 		}
 		@else if "none" == $vertical {
-			margin-top: 0 !important;
-			margin-bottom: 0 !important;
+			--margin-top: 0 !important;
+			--margin-bottom: 0 !important;
 		}
 	}
 
@@ -279,6 +279,11 @@
 	}
 
 	@mixin ul-container {
+		/*
+			Turns a ul tag into an unstyled container
+			- no bullets in front of li items
+			- no indents
+		*/
 		--list-style-type: none;
 		--padding-left: 0;
 		--list-indent: 0;

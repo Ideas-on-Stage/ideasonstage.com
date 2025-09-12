@@ -2,8 +2,9 @@
 
 	/* container if title only (no hero) */
 	.cl-body-h1--hero {
-		
-		/* container if title + hero img */
+		/*
+			if hero img exists, create hero
+		*/
 		@include height-hero();
 		@include width-parent-full();
 		background-color: rgba(0, 0, 0, 0.4);
@@ -24,6 +25,9 @@
 	}
 
 	.cl-body-h1--title {
+		/*
+			if no hero img, only use a title
+		*/
 		@include width-parent-full();
 		@include flex-column($align-column-h: center, $align-v: center);
 		

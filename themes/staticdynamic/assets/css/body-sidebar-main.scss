@@ -2,7 +2,6 @@
 
 	/* container for sidebar and main content area */
 	.cl-body-sidebar-main {
-		@include margins($vertical: "medium");
 		@include width-content();
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start, $align-h: space-between);
 		@include flex-column-sm(column-reverse);
@@ -10,10 +9,11 @@
 		
 		/* container for sidebar */
 		.sidebar {
-			@include firstlastchildnomargin();
-			@include flex-column($gap: "gap");
 			@include width-column(3,1);
 			@include width-content-sm();
+			@include margins($vertical: "medium");
+			@include firstlastchildnomargin();
+			@include flex-column($gap: "gap");
 			margin-right: 1em; /* add space to the right of sidebar so it doesn't stick to right col */
 			padding: var(--padding);
 			@media (max-width: $gl-sm-screen) {
@@ -25,9 +25,10 @@
 		
 		/* container for main content */
 		.main {
-			@include firstlastchildnomargin();
 			@include width-content();
 			@include width-content-sm(); /* use content width instead of 2/3 column width on small screens */
+			@include margins($vertical: "medium");
+			@include firstlastchildnomargin();
 			
 			{{ partial "e/scheme.scss" "body-sidebar-main--main" }};
 		}
