@@ -342,6 +342,9 @@ main-content:
     img:
         margin-top: "2em"
         margin-bottom: "2em"
+    ul:
+        margin-top: "1em"
+        margin-bottom: "1em"
 
 main-contenthome:
     p:
@@ -350,10 +353,23 @@ main-contenthome:
 main:
     h1:
         text-transform: "none"
+        margin-bottom: "1em"
 
 main-list:
     .cl-core--button-secondary:
         margin-top: "0.5em"
+        
+main-listnews:
+    h2:
+        margin-top: "0em"
+        margin-bottom: "0.5em"
+    .cl-authorandtime:
+        margin-top: "0em"
+        margin-bottom: "0.5em"
+    .cl-core--button-secondary:
+        margin-top: "0.5em"
+        margin-bottom: "0.5em"
+
 main-listrevolution:
     h2:
         text-align: "center"
