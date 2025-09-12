@@ -1,6 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-shortcode-agenda-list {
+		@include margins($vertical: "none");
 		@include firstlastchildnomargin;
 		
 		ul {

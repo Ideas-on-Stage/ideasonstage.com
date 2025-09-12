@@ -433,6 +433,7 @@ tags:
         color-back: "none"
 
 #shortcodes
+
 shortcode-agenda-item:
     text-align: "center"
     h4:

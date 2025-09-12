@@ -80,6 +80,8 @@
 		}
 		
 		.text {
+			@include margins($vertical: "none");
+			
 			/* helper classes for shortcodes */
 			&.text-center {
 				text-align: center;

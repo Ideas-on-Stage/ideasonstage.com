@@ -1,6 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-shortcode-call-to-action {
+		@include margins($vertical: "none");
 		
 		.text {
 			@include firstlastchildnomargin();
