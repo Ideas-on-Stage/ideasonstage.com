@@ -123,17 +123,17 @@
 		height: calc(100vh - var(--menubar-height));
 	}
 	
-	@mixin height-full {
+	@mixin height-parent-full {
 		/* set height to full height of parent container */
 		height: 100%;
 	}
 	
-	@mixin height-half {
+	@mixin height-parent-half {
 		/* set height to half height of parent container */
 		height: 50%;
 	}
 	
-	@mixin height-half-sm-screen {
+	@mixin height-parent-half-sm {
 		/* set height to half height of parent container on small screens */
 		@media (max-width: $gl-sm-screen) {
 			height: 50%;

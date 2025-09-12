@@ -12,9 +12,9 @@
 		
 		.image {
 			/* div containing pic on left */
-			@include height-full;
+			@include height-parent-full;
 			@include width-twothirds;
-			@include height-half-sm-screen;
+			@include height-parent-half-sm;
 			@include width-parent-full-sm;
 			
 			img {
@@ -28,9 +28,9 @@
 			@include text-front;
 			@include text-padding;
 			@include flex-column($align-v: center);
-			@include height-full;
+			@include height-parent-full;
 			@include width-onethird;
-			@include height-half-sm-screen;
+			@include height-parent-half-sm;
 			@include width-parent-full-sm;
 			@media (max-width: $gl-sm-screen) {
 				@include flex-column($align-v: flex-start, $align-column-h: center);

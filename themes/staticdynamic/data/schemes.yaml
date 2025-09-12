@@ -264,11 +264,11 @@ body-h1revolution:
         color-text: "white"
         margin-bottom: "0.5em"
 
-body-side-main:
+body-sidebar-main:
     a:
         color-border: "var(--color-primary)"
 
-body-side-main--side:
+body-sidebar-main--side:
     scheme: "bg-light"
     gap: "0"
     font-ratio: "0.8"

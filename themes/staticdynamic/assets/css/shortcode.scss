@@ -10,8 +10,8 @@
 		}
 		
 		/* height helper classes */
-		&.height-full {
-			@include height-full();
+		&.height-parent-full {
+			@include height-parent-full();
 		}
 		&.height-hero {
 			@include height-hero();

@@ -1,6 +1,6 @@
 {{/* <!--
 	
-	body-side-main.html
+	body-sidebar-main.html
 
 	Generates the HTML with the side: and main: blocks declared in /data/layouts.
 	If there are no side: blocks, that part is ignored and the layout is adapted.
@@ -10,9 +10,9 @@
 	
 --> */}}
 
-<div class="cl-body-side-main">
+<div class="cl-body-sidebar-main">
 	{{ if partial "f/getblocks.go" "side" }}
-		<aside id="sidebar" class="side">
+		<aside id="sidebar" class="sidebar">
 			{{ partial "e/blocks" (slice "side") }}
 		</aside>
 	{{ else }}

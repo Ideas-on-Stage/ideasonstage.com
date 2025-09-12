@@ -2,7 +2,10 @@
 
 	/* main container, including title and items */
 	.cl-body-carousel {
+		@include width-parent-full();
+		
 		padding-top: 2rem;
+		overflow: hidden;
 		
 		> h3 {
 			margin-left: 2rem;
@@ -60,11 +63,3 @@
 		{{ partial "e/colorscheme.scss" "body-carousel--item" }}
 		{{ partial "e/scheme.scss" "body-carousel--item" }}
 	}
-	
-	/* adds an empty item on the right to force adding a margin
-	   (right margin/padding is not honored if it's the last item) */
-	.cl-body-carousel--space {
-		width: 1px;
-		height: 1px;
-		background-color: var(--color-back);
-	}	

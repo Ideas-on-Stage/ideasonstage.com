@@ -10,13 +10,13 @@
 			/* div containing text on top */
 			@include text-front;
 			@include text-padding;
-			@include height-half;
+			@include height-parent-half;
 			@include width-parent-full;
 		}
 		
 		.image {
 			/* div containing image on bottom */
-			@include height-half;
+			@include height-parent-half;
 			@include width-parent-full;
 			
 			img {	

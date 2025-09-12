@@ -1,7 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	/* container for sidebar and main content area */
-	.cl-body-side-main {
+	.cl-body-sidebar-main {
 		@include margins($vertical: "medium");
 		@include width-content();
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start, $align-h: space-between);
@@ -9,7 +9,7 @@
 		padding: 0;
 		
 		/* container for sidebar */
-		.side {
+		.sidebar {
 			@include firstlastchildnomargin();
 			@include flex-column($gap: "gap");
 			@include width-column(3,1);
@@ -20,21 +20,20 @@
 				margin-right: 0; /* remove space on small screens */
 			}
 			
-			{{ partial "e/scheme.scss" "body-side-main--side" }};
+			{{ partial "e/scheme.scss" "body-sidebar-main--side" }};
 		}
 		
 		/* container for main content */
 		.main {
 			@include firstlastchildnomargin();
 			@include width-content();
+			@include width-content-sm(); /* use content width instead of 2/3 column width on small screens */
 			
-			{{ partial "e/scheme.scss" "body-side-main--main" }};
+			{{ partial "e/scheme.scss" "body-sidebar-main--main" }};
 		}
 		
 		/* adapt size of main content area if there is a sidebar */
-		.side + .main {
-			@include width-column(3,2);
-			@include width-content-sm();
+		.sidebar + .main {
 		}
 		
 		{{ partial "e/scheme.scss" . }};
