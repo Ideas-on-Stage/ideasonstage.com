@@ -221,8 +221,8 @@
 			--margin-bottom: 3em !important;		
 		}
 		@else if "short" == $vertical {
-			--margin-top: 1em !important;
-			--margin-bottom: 1em !important;
+			--margin-top: 2em !important;
+			--margin-bottom: 2em !important;
 		}
 		@else if "none" == $vertical {
 			--margin-top: 0 !important;

@@ -3,14 +3,13 @@
 	.cl-main-listreferences {
 		
 		.reference {
-			@include margins($vertical: "medium");
+			@include margins($vertical: "none");
 			@include flex-row($gap: "big", $wrap: "wrap", $align-row-v: flex-start);
 			
 			.logo {
 				@include width-column(5);
-				@media (max-width: $gl-sm-screen) {
-					width: 33%;
-				}
+				@include width-column-sm(4);
+				@include margins($vertical: "short");
 				
 				img {
 					border: 1px solid var(--color-border);
@@ -19,7 +18,8 @@
 			
 			.thumb {
 				@include width-column(5);
-				@include width-parent-full-sm;
+				@include width-column-sm(4);
+				@include margins($vertical: "short");
 				
 				img {
 					@include img-contain;
@@ -28,13 +28,14 @@
 			
 			.text {
 				@include width-column(5, 4);
-				@include width-parent-full-sm;
-				
+				@include width-column-sm(4, 3);
+				@include margins($vertical: "short");
+				@include firstlastchildnomargin();
 				> :first-child {
 					margin-top: 0;
 				}
 			}
 		}
 		
-		{{ partial "e/scheme.scss" "cl-main-listreferences--references" }}
+		{{ partial "e/scheme.scss" . }}
 	}

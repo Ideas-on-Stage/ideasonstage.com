@@ -354,6 +354,13 @@ main:
 main-list:
     .cl-core--button-secondary:
         margin-top: "0.5em"
+        
+main-listreferences:
+    h2:
+        margin-bottom: "0.5rem"
+    p:
+        margin-top: "0.5rem"
+
 main-listrevolution:
     h2:
         text-align: "center"

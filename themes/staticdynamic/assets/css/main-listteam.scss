@@ -2,19 +2,16 @@
 
 	.cl-main-listteam {
 		@include width-content();
-		@include margins($vertical: "medium");
+		@include margins($vertical: "none");
 		@include flex-row($gap: "big", $wrap: "wrap", $align-h: center);
 		
 		.teammember {
-			@include width-column(3);
-			@include width-column-sm(1);
+			@include width-column(3); /* display team members in 3 columns... */
+			@include width-column-sm(1); /* ...and only 1 column on small screens */
 			
 			.content {
-				@include flex-column($align-column-h: center);
-				
-				@media (max-width: $gl-sm-screen) {
-					@include width-parent-full;
-				}
+				@include margins($vertical: "short");
+				@include flex-column($align-column-h: center); /* easiest way to center content is to use a flex column */
 				
 				img {
 					@include img-circle(6rem);
