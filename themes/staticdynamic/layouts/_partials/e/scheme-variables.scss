@@ -12,27 +12,26 @@
 --> */}}
 
 {{/* <!-- try to get the text scheme matching the block name --> */}}
-{{- $element := . -}}
-{{- $scheme := index site.Data.schemes $element -}}
+{{- $element := printf "%s-" . -}}
+{{- if eq "-" $element -}}
+	{{- $element = "" -}}
+{{- end -}}
 
-{{/* <!-- try to get the text scheme matching the block name --> */}}
-{{- printf "--generated-scheme:%s;" $element -}}
-
-{{- printf "background-color: var(--%s-color-back);" $element -}}
-{{- printf "color: var(--%s-color-text);" $element -}}
-{{- printf "font-family: var(--%s-font-family);" $element -}}
-{{- printf "font-weight: var(--%s-font-weight);" $element -}}
-{{- printf "font-size: calc(var(--%s-font-ratio) * var(--font-base-size));" $element -}}
-{{- printf "line-height: var(--%s-line-height);" $element -}}
-{{- printf "text-align: var(--%s-text-align);" $element -}}
-{{- printf "text-transform: var(--%s-text-transform);" $element -}}
-{{- printf "padding: var(--%s-padding);" $element -}}
-{{- printf "padding-top: var(--%s-padding-top);" $element -}}
-{{- printf "padding-bottom: var(--%s-padding-bottom);" $element -}}
-{{- printf "padding-left: var(--%s-padding-left);" $element -}}
-{{- printf "padding-right: var(--%s-padding-right);" $element -}}
-{{- printf "margin: var(--%s-margin);" $element -}}
-{{- printf "margin-top: var(--%s-margin-top);" $element -}}
-{{- printf "margin-bottom: var(--%s-margin-bottom);" $element -}}
-{{- printf "margin-left: var(--%s-margin-left);" $element -}}
-{{- printf "margin-right: var(--%s-margin-right);" $element -}}
+{{- printf "background-color: var(--%scolor-back);" $element -}}
+{{- printf "color: var(--%scolor-text);" $element -}}
+{{- printf "font-family: var(--%sfont-family);" $element -}}
+{{- printf "font-weight: var(--%sfont-weight);" $element -}}
+{{- printf "font-size: calc(var(--%sfont-ratio) * var(--font-base-size));" $element -}}
+{{- printf "line-height: var(--%sline-height);" $element -}}
+{{- printf "text-align: var(--%stext-align);" $element -}}
+{{- printf "text-transform: var(--%stext-transform);" $element -}}
+{{- printf "padding: var(--%spadding);" $element -}}
+{{- printf "padding-top: var(--%spadding-top);" $element -}}
+{{- printf "padding-bottom: var(--%spadding-bottom);" $element -}}
+{{- printf "padding-left: var(--%spadding-left);" $element -}}
+{{- printf "padding-right: var(--%spadding-right);" $element -}}
+{{- printf "margin: var(--%smargin);" $element -}}
+{{- printf "margin-top: var(--%smargin-top);" $element -}}
+{{- printf "margin-bottom: var(--%smargin-bottom);" $element -}}
+{{- printf "margin-left: var(--%smargin-left);" $element -}}
+{{- printf "margin-right: var(--%smargin-right);" $element -}}
