@@ -2,7 +2,7 @@
 <div class="cl-main-list">
 {{- range .Pages -}}
 	{{- if .Params.nl -}}
-		{{ "<!-- page skipped (nl is true) -->" | safeHTML }}
+		{{ (printf "<!-- page %s skipped (nl is true) -->" .Title) | safeHTML }}
 		{{/* <!-- do not list pages with .Params nl: true --> */}}
 	{{- else -}}
 	<section class="item {{ partial "f/getstyle.go" . }}">

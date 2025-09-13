@@ -3,57 +3,9 @@
 # -----------------
 
 root:
-
-    width-viewport-sm: "720px"
-    width-viewport-lg: "1440px"
-    
-    # menubar variables
-    menubar-height: "52px"
-    
-    # page variables
-    page-padding-top: "var(--menubar-height)"
-    page-width: "100%"
-    page-max-width: "#{$gl-lg-screen}"
-    
-    # content variables
-    content-max-width: "1200px"
-    content-max-width-narrow: "800px"
-    content-space-v: "48px"
-    
-    # hero variables
-    hero-height: "60vh"
-    
-    # modules variables
-    module-height: "40"
-    column-gap-default: "12px"
-    column-gap-big: "24px"
-    row-gap-default: "12px"
-    row-gap-big: "24px"
-    
-    sm:
-        module-height: "140"
-        column-gap-default: "4vw"
-        column-gap-big: "4vw"
-        row-gap-default: "4vw"
-        row-gap-big: "4vw"
-        font-base-size: "var(--font-base-size-sm)"
-    
-    lg:
-        font-base-size: "22px"
-    
-    # font-ratio - adapts base font sizes based on media breakpoints - unit: vw (recommended) */
-    font-base-size: "1.5vw" # font ratio for normal screens
-    font-base-size-sm: "4.2vw" # font ratio for small screens
-    
-    # font families */
-    # For --font-ratio DON'T USE UNITS, it will be multiplied by the --font-base-size for perfect scaling
-    # for example, --font-ratio: 1, --font-base-size 1.5 --> 1 * 1.5vw = 1.5vw actual font size
-    font-family: "Whitney SSm A, Whitney SSm B"
-    font-weight: "400"
-    font-ratio: "1"
     
     # default colors
-    color-text-default: "black"
+    color-text: "black"
     color-text-muted: "#444"
     color-primary: "#FF8200"
     color-primary-contrast: "#dd6200"
@@ -63,10 +15,62 @@ root:
     color-midgray: "#888"
     color-border: "#bbb"
     
-    # font-size, line-height, margin-top, margin-bottom, text-align, text-transform
-    line-height: "1em"
-    text-align-default: "left"
-    text-transform-default: "none"
+    # content variables
+    content-width: "100%"
+    content-max-width: "80vw"
+    
+    # flex variables
+    flex-column-gap-big: "24px"
+    flex-column-gap-medium: "12px"
+    flex-row-gap-big: "24px"
+    flex-row-gap-medium: "12px"
+    
+    # font families */
+    # For --font-ratio DON'T USE UNITS, it will be multiplied by the --font-base-size for perfect scaling
+    # for example, --font-ratio: 1, --font-base-size 1.5 --> 1 * 1.5vw = 1.5vw actual font size
+    font-base-size: "1.5vw" # font base size for normal screens
+    font-family: "Whitney SSm A, Whitney SSm B"
+    font-weight: "400"
+    font-ratio: "1"
+    
+    # hero variables
+    hero-height: "60vh"
+    
+    # module variables
+    module-height: "40"
+    
+    # menubar variables
+    menubar-height: "52px"
+    
+    # page variables
+    page-padding-top: "var(--menubar-height)"
+    page-width: "100%"
+    page-max-width: "#{$gl-lg-screen}"
+    
+    # adapt variable values for small screens
+    sm:
+        # content variables
+        content-width: "100%"
+        content-max-width: "92vw" # recommended: 100vw - 2 * flex-column-gap-medium
+        
+        #flexbox variables
+        flex-column-gap-big: "4vw"
+        flex-column-gap-medium: "4vw"
+        flex-row-gap-big: "4vw"
+        flex-row-gap-medium: "4vw"
+        
+        #font variables
+        font-base-size: "4.2vw" # font base size for small screens
+        
+        # hero variables
+        hero-height: "70vh"
+        
+        # module variables
+        module-height: "140"
+    
+    # adapt variable values for large screens
+    lg:
+        font-base-size: "22px"
 
 
 
@@ -228,12 +232,13 @@ body-breadcrumbs:
         text-transform: "uppercase"
 
 body-carousel:
-    font-ratio: "0.8"
     color-back: "var(--color-lightgray)"
     .button:
         font-ratio: "0.8"
     h4:
-        font-ratio: "1" 
+        font-ratio: "1"
+    p:
+        font-ratio: "0.8"
 
 body-carousel--item:
     color-back: "white"
@@ -321,9 +326,15 @@ bodybottom-footer:
     h3:
         font-ratio: "1"
         text-transform: "uppercase"
-    li:
-        margin-top: "1em"
-        font-ratio: "0.8"
+    .categories:
+        li:
+            margin-top: "1rem"
+            margin-bottom: "0rem"
+    .items:
+        li:
+            margin-top: "0.8rem"
+            margin-bottom: "0rem"
+            font-ratio: "0.8"
     p:
         font-ratio: "0.8"
 
@@ -439,6 +450,8 @@ module-row-picture-text:
         text-align: "center"
 
 modules:
+    flex-row-gap: "var(--flex-row-gap-medium)"
+    flex-column-gap: "var(--flex-column-gap-medium)"
     h3:
         font-ratio: "1.8"
 

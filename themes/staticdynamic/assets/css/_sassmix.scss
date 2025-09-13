@@ -43,24 +43,24 @@
 		align-items: $align-column-h;
 		justify-content: $align-v;
 		flex-wrap: var(--flex-wrap);
-		column-gap: var(--column-gap);
-		row-gap: var(--row-gap);
+		column-gap: var(--flex-column-gap);
+		row-gap: var(--flex-row-gap);
 		
 		@if "gap" == $gap {
-			--column-gap: var(--column-gap-default);
-			--row-gap: var(--row-gap-default);
+			--flex-column-gap: var(--flex-column-gap-medium);
+			--flex-row-gap: var(--flex-row-gap-medium);
 		}
 		@else if "big" == $gap {
-			--column-gap: var(--column-gap-big);
-			--row-gap: var(--row-gap-big);
+			--flex-column-gap: var(--flex-column-gap-big);
+			--flex-row-gap: var(--flex-row-gap-big);
 		}
 		@else if "none" == $gap {
-			--column-gap: 0px;
-			--row-gap: 0px;
+			--flex-column-gap: 0px;
+			--flex-row-gap: 0px;
 		}
 		@else {
-			--column-gap: calc( #{$gap} );
-			--row-gap: calc( #{$gap} );
+			--flex-column-gap: calc( #{$gap} );
+			--flex-row-gap: calc( #{$gap} );
 		}
 		
 		@if "nowrap" == $wrap {
@@ -91,24 +91,27 @@
 		align-items: $align-row-v;
 		justify-content: $align-h;
 		flex-wrap: var(--flex-wrap);
-		column-gap: var(--column-gap);
-		row-gap: var(--row-gap);
+		column-gap: var(--flex-column-gap);
+		row-gap: var(--flex-row-gap);
 		
 		@if "gap" == $gap {
-			--column-gap: var(--column-gap-default);
-			--row-gap: var(--row-gap-default);
+			--flex-column-gap: var(--flex-column-gap-medium);
+			--flex-row-gap: var(--flex-row-gap-medium);
 		}
 		@else if "big" == $gap {
-			--column-gap: var(--column-gap-big);
-			--row-gap: var(--row-gap-big);
+			--flex-column-gap: var(--flex-column-gap-big);
+			--flex-row-gap: var(--flex-row-gap-big);
 		}
 		@else if "none" == $gap {
-			--column-gap: 0px;
-			--row-gap: 0px;
+			--flex-column-gap: 0px;
+			--flex-row-gap: 0px;
+		}
+		@else if "skip" == $gap {
+			// nothing
 		}
 		@else {
-			--column-gap: calc( #{$gap} );
-			--row-gap: calc( #{$gap} );
+			--flex-column-gap: calc( #{$gap} );
+			--flex-row-gap: calc( #{$gap} );
 		}
 		
 		@if "nowrap" == $wrap {
@@ -206,27 +209,103 @@
 		display: inline-block;
 	}
 	
-	@mixin margins($vertical: "medium") {
+	@mixin margins($vertical: "", $top: "", $bottom: "") {
 		/*
 			standardized margins for theme
 			marginv: "tall", "medium", "short", "none"
 		*/
 		
 		@if "tall" == $vertical {
-			margin-top: 5em;
-			margin-bottom: 5em;
+			margin-top: 5rem;
+			margin-bottom: 5rem;
 		}
 		@else if "medium" == $vertical {
-			margin-top: 3em;
-			margin-bottom: 3em;		
+			margin-top: 3rem;
+			margin-bottom: 3rem;		
 		}
 		@else if "short" == $vertical {
-			margin-top: 1em;
-			margin-bottom: 1em;
+			margin-top: 1rem;
+			margin-bottom: 1rem;
 		}
 		@else if "none" == $vertical {
-			margin-top: 0;
-			margin-bottom: 0;
+			margin-top: 0rem;
+			margin-bottom: 0rem;
+		}
+		
+		@if "tall" == $top {
+			margin-top: 5rem;
+		}
+		@else if "medium" == $top {
+			margin-top: 3rem;
+		}
+		@else if "short" == $top {
+			margin-top: 1rem;
+		}
+		@else if "none" == $top {
+			margin-top: 0rem;
+		}
+		
+		@if "tall" == $bottom {
+			margin-bottom: 5rem;
+		}
+		@else if "medium" == $bottom {
+			margin-bottom: 3rem;		
+		}
+		@else if "short" == $bottom {
+			margin-bottom: 1rem;
+		}
+		@else if "none" == $bottom {
+			margin-bottom: 0rem;
+		}
+	}
+
+	@mixin padding($vertical: "", $top: "", $bottom: "") {
+		/*
+			standardized padding
+			padding: "tall", "medium", "short", "none"
+		*/
+		
+		@if "tall" == $vertical {
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+		}
+		@else if "medium" == $vertical {
+			padding-top: 3rem;
+			padding-bottom: 3rem;		
+		}
+		@else if "short" == $vertical {
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+		}
+		@else if "none" == $vertical {
+			padding-top: 0rem;
+			padding-bottom: 0rem;
+		}
+		
+		@if "tall" == $top {
+			padding-top: 5rem;
+		}
+		@else if "medium" == $top {
+			padding-top: 3rem;
+		}
+		@else if "short" == $top {
+			padding-top: 1rem;
+		}
+		@else if "none" == $top {
+			padding-top: 0rem;
+		}
+		
+		@if "tall" == $bottom {
+			padding-bottom: 5rem;
+		}
+		@else if "medium" == $bottom {
+			padding-bottom: 3rem;		
+		}
+		@else if "short" == $bottom {
+			padding-bottom: 1rem;
+		}
+		@else if "none" == $bottom {
+			padding-bottom: 0rem;
 		}
 	}
 
@@ -329,8 +408,8 @@
 		
 		$gap-nb: $col-nb - 1;
 		$gap-span: $col-span - 1;
-		flex-basis: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px + 0.001px );
-		width: calc( ( 100% - #{$gap-nb} * var(--column-gap) ) / #{$col-nb} * #{$col-span} + var(--column-gap) * #{$gap-span} - 0.001px + 0.001px );
+		flex-basis: calc( ( 100% - #{$gap-nb} * var(--flex-column-gap) ) / #{$col-nb} * #{$col-span} + var(--flex-column-gap) * #{$gap-span} - 0.001px + 0.001px );
+		width: calc( ( 100% - #{$gap-nb} * var(--flex-column-gap) ) / #{$col-nb} * #{$col-span} + var(--flex-column-gap) * #{$gap-span} - 0.001px + 0.001px );
 	}
 	
 	@mixin width-column-sm($col-nb, $col-span: 1) {
@@ -350,20 +429,25 @@
 
 	/* standard main content width */
 	@mixin width-content() {
-		width: 100%;
-		max-width: 80vw;
+		/*
+			Use content width
+			Note: variable values will adapt automatically for small screens
+		*/
+		width: var(--content-width);
+		max-width: var(--content-max-width);
 		margin-left: auto;
 		margin-right: auto;
-		@media (max-width: $gl-sm-screen) {
-			max-width: 90vw;
-		}
 	}
 
-	/* standard main content width */
 	@mixin width-content-sm() {
+		/*
+			Use content width on small screens
+			Note: if you already use width-content() for a given element,
+			then there is no need to add width-content-sm() for that element
+		*/
 		@media (max-width: $gl-sm-screen) {
-			width: 100%;
-			max-width: 90vw;
+			width: var(--content-width);
+			max-width: var(--content-max-width);
 			margin-left: auto;
 			margin-right: auto;
 		}
@@ -408,6 +492,6 @@
 	
 	@mixin width-twothirds() {
 		/* Instead use @include width-column(3,2) */
-		--column-gap: var(--column-gap-default); 
-		width: calc( 67% - var(--column-gap) );	/* reduce main content width when there is a sidebar */
+		--flex-column-gap: var(--flex-column-gap-medium); 
+		width: calc( 67% - var(--flex-column-gap) );	/* reduce main content width when there is a sidebar */
 	}

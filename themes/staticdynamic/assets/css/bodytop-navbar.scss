@@ -6,8 +6,8 @@
 		top: 0;
 		width: var(--page-width);
 		z-index: 1000; /* no other element should be given a higher z-index */
-		padding-left: var(--column-gap);
-		padding-right: var(--column-gap);
+		padding-left: var(--flex-column-gap);
+		padding-right: var(--flex-column-gap);
 		
 		/* Logo */
 		.brand {

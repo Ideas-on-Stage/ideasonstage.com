@@ -2,7 +2,7 @@
 
 	.cl-referencesgrid {
 		@include flex-row($gap: "gap", $wrap: "wrap");
-		margin: var(--column-gap);
+		margin: var(--flex-column-gap);
 		
 		@media (min-width: $gl-lg-screen) {
 			/* on large screens, remove gap left and right */

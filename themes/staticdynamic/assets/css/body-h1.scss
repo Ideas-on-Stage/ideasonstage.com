@@ -16,9 +16,8 @@
 		/* main text container, may have to share space with a logobar */
 		.text {
 			@include width-content();
-			@include margins($vertical: "medium");
-			flex-grow: 1; /* take all available vertical space in parent */
-			--color-back: none;
+			@include padding($top: "medium");
+			@include firstlastchildnomargin();
 		}
 		
 		{{ partial "e/scheme.scss" "body-h1--hero" }};

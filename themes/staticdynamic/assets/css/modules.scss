@@ -1,10 +1,10 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-modules {
-		@include flex-row($gap: "gap", $wrap: "wrap");
+		@include flex-row($gap: "skip", $wrap: "wrap");
 		@include width-parent-full;
-		margin: var(--row-gap) 0;
-		padding: 0 var(--column-gap);
+		margin: var(--flex-row-gap) 0;
+		padding: 0 var(--flex-column-gap);
 		@media (max-width: $gl-sm-screen) {
 			/* on small screens, remove gap left and right */
 			padding: 0;

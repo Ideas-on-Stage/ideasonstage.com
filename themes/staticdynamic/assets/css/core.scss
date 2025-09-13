@@ -57,8 +57,6 @@
 	}
 	
 	body {
-		@include flex-row($wrap: "wrap");
-		
 		margin: 0 auto;
 		padding-top: var(--menubar-height);
 		width: var(--page-width);

@@ -2,10 +2,11 @@
 
 	.cl-bodybottom-footer {
 		@include width-parent-full();
+		@include padding($vertical: "medium");
+
 		/* navigation items in footer */
 		> ul {
 			@include width-content();
-			@include margins($vertical: "medium");
 			@include flex-row($gap: "gap", $wrap: "wrap");
 			@include ul-container();
 			
@@ -22,7 +23,7 @@
 		/* text at bottom of footer: copyright, legal, etc. */
 		.text {
 			@include width-content();
-			@include margins($vertical: "medium");
+			@include margins($top: "medium");
 		}
 		
 		{{ partial "e/scheme.scss" . }}

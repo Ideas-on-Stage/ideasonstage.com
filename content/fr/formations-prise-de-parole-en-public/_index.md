@@ -184,7 +184,7 @@ Le module storytelling est un module star de nos formations. Unique en son genre
 {{< shortcode-image-wide src="prise-de-parole-en-public-004.jpg" alt="Gros plan mains qui applaudissent" >}}
 
 {{< shortcode-call-to-action
-  class="margin-bottom bg-light"
+  class="bg-light"
   button="En savoir plus"
   url="/fr/formation-presentations-powerpoint/" >}}
 ### Formation Présentations PowerPoint

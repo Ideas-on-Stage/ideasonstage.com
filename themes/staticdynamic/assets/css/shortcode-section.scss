@@ -4,6 +4,7 @@
 		
 		.text {
 			@include width-content();
+			@include firstlastchildnomargin();
 		}
 		
 		> img {

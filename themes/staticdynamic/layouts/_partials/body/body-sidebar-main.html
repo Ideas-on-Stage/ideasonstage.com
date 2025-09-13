@@ -10,15 +10,15 @@
 	
 --> */}}
 
-<div class="cl-body-sidebar-main">
-	{{ if partial "f/getblocks.go" "side" }}
-		<aside id="sidebar" class="sidebar">
-			{{ partial "e/blocks" (slice "side") }}
-		</aside>
-	{{ else }}
+<main class="cl-body-sidebar-main">
+	{{- if partial "f/getblocks.go" "side" -}}
+	<aside id="sidebar" class="sidebar">
+		{{ partial "e/blocks" (slice "side") }}
+	</aside>
+	{{- else -}}
 		{{ partial "e/html-comment.html" "skipped: sidebar: no elements to show" }}
-	{{ end }}
-	<main id="main" role="main" class="main">
+	{{- end -}}
+	<article id="article" class="article">
 		{{ partial "e/blocks" (slice "main") }}
-	</main>
-</div>
+	</article>
+</main>

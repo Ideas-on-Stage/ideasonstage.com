@@ -1,21 +1,23 @@
-<article id="article" class="cl-main-content">
+{{- if .Content -}}
+<div id="main-content" class="cl-main-content">
 	{{/* <!-- generate summary if page.Params.summary exists --> */}}
-	{{ with .Params.summary }}
+	{{- with .Params.summary -}}
 		<p>
 			{{ . }}
 		</p>
-	{{ end }}
+	{{- end -}}
 	{{/* <!-- generate table of contents if .Page.Params.showtoc is true --> */}}
-	{{ if .Params.showtoc }}
+	{{- if .Params.showtoc -}}
 		<h2>
 			{{ site.Params.tableofcontents.title }}
 		</h2>
-		{{ with .TableOfContents }}
+		{{- with .TableOfContents -}}
 			{{ . }}
-		{{ end }}
-	{{ end }}
+		{{- end -}}
+	{{- end -}}
 	{{/* <!-- generate content --> */}}
-	{{ with .Content }}
+	{{- with .Content -}}
 		{{ . }}
-	{{ end }}
-</article>
+	{{- end -}}
+</div>
+{{- end -}}
