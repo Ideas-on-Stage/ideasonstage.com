@@ -86,6 +86,7 @@ a:
 b:
     font-family: "Whitney SSm A, Whitney SSm B"
     font-weight: "700"
+    font-ratio: "1"
 
 blockquote:
     line-height: "1.6em"
@@ -130,13 +131,15 @@ h5:
 li:
     font-family: "var(--font-family)"
     font-weight: "var(--font-weight)"
+    font-ratio: "1"
+    line-height: "1.6em"
     margin-top: "0.5em"
     margin-bottom: "0.5em"
-    line-height: "1.6em"
 
 p:
     font-family: "var(--font-family)"
     font-weight: "var(--font-weight)"
+    font-ratio: "1"
     margin-top: "1em"
     margin-bottom: "1em"
     line-height: "1.6em"
@@ -154,6 +157,7 @@ td:
 th:
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
+    font-ratio: "1"
     padding-top: "0.5em"
     padding-bottom: "0.5em"
     padding-left: "0.5em"

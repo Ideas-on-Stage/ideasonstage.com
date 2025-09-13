@@ -3,9 +3,9 @@
 	unit: px
 	declared as sass variables because css variables don't work in media queries
 	-------- */
-	$gl-sm-screen: 720px !default;
-	$gl-lg-screen: 1440px !default;
-	$gl-menu-short: 900px !default;
+	$gl-sm-screen: 640px !default; // small screens breakpoint
+	$gl-lg-screen: 1440px !default; // large screens breakpoint
+	$gl-menu-short: 900px !default; // size under which the short menu display should be used
 
 
 

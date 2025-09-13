@@ -1,14 +1,22 @@
 <!-- Page specific non-critical CSS -->
-{{ $blocktypes := slice "bodylazy" "bodybottom" }}
+
+{{/* <!-- get main blocks to avoid duplicating css between main and layz and bottom --> */}}
+{{- $bodyblocktypes := slice "body" "main" -}}
+{{- $bodyblocks := partial "f/getblockscss.go" $bodyblocktypes -}}
+
+{{/* <!-- get bottom blocks --> */}}
+{{- $blocktypes := slice "bodylazy" "bodybottom" -}}
 {{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
 {{- range $blocks -}}
-	{{- $resource := printf "css/%s.scss" . -}}
-	{{- $css := printf "%s.css" . -}}
-	{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify }}
-	<link rel="preload" href="{{ $style.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript>
-		<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
-	</noscript>
+	{{- if not (in $bodyblocks .) -}}
+		{{- $resource := printf "css/%s.scss" . -}}
+		{{- $css := printf "%s.css" . -}}
+		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify }}
+		<link rel="preload" href="{{ $style.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript>
+			<link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css">
+		</noscript>
+	{{- end -}}
 {{- end -}}
 
 <!-- Standard non-critical CSS more.css -->

@@ -1,3 +1,5 @@
+{{/* <!-- this alternate version of headtop-css inlines everything --> */}}
+
 {{ "<!-- Variables inline CSS -->" | safeHTML }}
 <style>
 	{{- $css := resources.Get "css/variables.scss" | resources.ExecuteAsTemplate "variables.css" . | toCSS | minify -}}

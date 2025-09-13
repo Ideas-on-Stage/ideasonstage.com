@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="{{ $typography.RelPermalink }}">
 
 {{ "<!-- Blocks inline CSS -->" | safeHTML }}
-<style type="text/css">
+<style>
 	{{ $blocktypes := slice "bodytop" "body" "main" "list" "side" }}
 	{{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
 	{{- range $blocks -}}
@@ -22,7 +22,7 @@
 {{ end }}
 
 {{ "<!-- Shortcodes inline CSS -->" | safeHTML }}
-<style type="text/css">
+<style>
 	{{- $found := slice -}}
 	{{- $shortcodes := readDir "/themes/staticdynamic/layouts/_shortcodes" -}}
 	{{- $shortcodes = $shortcodes | append (readDir "/layouts/_shortcodes") -}}
