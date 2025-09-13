@@ -162,11 +162,16 @@ ul:
 
 
 # -----------------
-# class variables (don't use . on level 1, use . on sublevels)
+# cl-core-- variables 
+# Don't use "." in front of class name when on level 0
+# Use "." in front of class name on sublevels
 # -----------------
 
-button-primary:
-    padding: "1em 2em"
+cl-core--button-primary:
+    padding-top: "1em"
+    padding-bottom: "1em"
+    padding-left: "2em"
+    padding-right: "2em"
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
     font-ratio: "1"
@@ -176,8 +181,8 @@ button-primary:
     color-text: "white"
     color-back-hover: "var(--color-primary)"
     color-text-hover: "white"
-    
-button-secondary:
+
+cl-core--button-secondary:
     padding: "0"
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
@@ -187,6 +192,20 @@ button-secondary:
     color-back: "none"
     color-text: "var(--color-secondary)"
     color-text-hover: "var(--color-secondary)"
+
+cl-core--tags:
+    margin-top: "1em"
+    margin-bottom: "1em"
+    
+cl-core--tag:
+    margin: "0"
+    padding-top: "0.25em"
+    padding-bottom: "0.25em"
+    padding-left: "0.5em"
+    padding-right: "0.5em"
+    color-back: "var(--color-lightgray)"
+    font-ratio: "0.8"
+    text-transform: "uppercase"
 
 
 
@@ -369,7 +388,7 @@ main-listnews:
     h2:
         margin-top: "0em"
         margin-bottom: "0.5em"
-    .cl-authorandtime:
+    .cl-core--authorandtime:
         margin-top: "0em"
         margin-bottom: "0.5em"
     .cl-core--button-secondary:

@@ -28,8 +28,12 @@
 			{{- printf "%s{" . -}}
 		{{- end -}}
 		{{- range $keyb, $valb := $val -}}
+			{{- $element := $key -}}
+			{{- if eq "." (substr $element 0 1) -}}
+				{{- $element = substr $element 1 -}}
+			{{- end -}}
 			{{/* <!-- generate css variable --> */}}
-			{{- printf "--%s: %s;" $keyb $valb -}}
+			{{- printf "--%s-%s: %s;" $element $keyb $valb -}}
 		{{- end -}}
 		{{/* <!-- close "tag" css --> */}}
 		{{- printf "}" -}}

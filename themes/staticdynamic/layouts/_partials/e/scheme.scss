@@ -7,66 +7,94 @@
 	- Then each element is inserted into the css class
 	
 	Arguments:
-	- block name as string
+	- element name as string
 	
 --> */}}
 
-{{/* <!-- try to get the text scheme matching the block name --> */}}
-{{- $scheme := index site.Data.schemes . -}}
+{{/* <!-- initialize variables --> */}}
+{{- $scheme := slice -}}
 
-{{/* <!-- try to get the text scheme matching the block name --> */}}
-{{- printf "--generated-scheme:%s;" . -}}
+{{/* <!-- get parameters, either the element name if called directly or --> */}}
+{{/* <!-- or a slice with element, values if called recursively --> */}}
+{{- $element := . -}}
 
-{{/* <!-- iterate over each item to generate the css code --> */}}
+{{- $type := partial "f/getdatatype" $element -}}
+{{/* <!-- if the argument is a string... --> */}}
+{{- if eq "string" $type  -}}
+	{{/* <!-- ...then try to get the scheme matching the element name from the file "schemes.yaml" --> */}}
+	{{- $scheme = index site.Data.schemes $element -}}
+	{{- $element = "" -}}
+{{- else -}}
+	{{/* <!-- ...else we assume e/scheme.scss has been called with a slice --> */}}
+	{{- $scheme = index $element 1 -}}
+	{{- $schemetype := partial "f/getdatatype" $scheme -}}
+	{{- if eq "string" $schemetype  -}}
+		{{/* <!-- ...then try to get the scheme matching the element name from the file "schemes.yaml" --> */}}
+		{{- $scheme = index site.Data.schemes $scheme -}}
+	{{- end -}}
+	{{- $element = index $element 0 -}}
+	{{- if eq "." (substr $element 0 1) -}}
+		{{- $element = substr $element 1 -}}
+	{{- end -}}
+	{{- $element = printf "%s-" $element -}}
+{{- end -}}
+
+{{/* <!-- generate unused variable with the scheme name for debugging --> */}}
+{{- if eq "string" $type -}}
+	{{ printf "--generated-scheme:%s;" . }}
+{{- else -}}
+	{{ printf "--generated-scheme:%s;" (index . 0) }}
+{{- end -}}
+
+{{/* <!-- iterate over each value for the scheme to generate the css code --> */}}
 {{- range $key, $val := $scheme -}}
 
-	{{- $type := printf "%T" $val -}}
+	{{- $valtype := partial "f/getdatatype" $val -}}
 	{{- $keyname := printf "%s" $key -}}
 
-	{{- if eq "string" $type -}}
+	{{/* <!-- if $val is a string... --> */}}
+	{{- if eq "string" $valtype -}}
+		{{/* <!-- ...then the value can be used to generate the css variable --> */}}
 		
+		{{/* <!-- if the $key is named "scheme"... --> */}}
 		{{- if eq "scheme" $keyname -}}
-			{{/* <!-- generate scheme variables for specified scheme --> */}}
+			{{/* <!-- ...then call e/colorscheme.scss to generate predefined color scheme --> */}}
 			{{ partial "e/colorscheme.scss" $val }}
 		{{- else -}}
-			{{/* <!-- generate css variable --> */}}
-			{{- printf "--%s:%s;" $key $val -}}
+			{{/* <!-- ...else generate css variable, e.g. "--font-size: 1em" --> */}}
+			{{/* <!-- where $key is "font-size" and $val is "1em" --> */}}
+			{{- printf "--%s%s:%s;" $element $key $val -}}
 		{{- end -}}
 		
 	{{- else -}}
 		
 		{{- if eq "sm" $keyname }}
 			
-			{{/* <!-- generate @media{ css --> */}}
+			{{/* <!-- generate @media{ css for small screens --> */}}
 			{{- printf "@media (max-width:$gl-sm-screen){" -}}
-			{{- range $keyb, $valb := $val -}}
-				{{/* <!-- generate css variable --> */}}
-				{{- printf "--%s: %s;" $keyb $valb -}}
-			{{- end -}}
+			
 			{{/* <!-- close "tag" css --> */}}
 			{{- printf "}" -}}
 			
 		{{- else if eq "lg" $keyname }}
 			
-			{{/* <!-- generate @media{ css --> */}}
+			{{/* <!-- generate @media{ css for large screens --> */}}
 			{{- printf "@media(min-width:$gl-lg-screen){" -}}
-			{{- range $keyb, $valb := $val -}}
-				{{/* <!-- generate css variable --> */}}
-				{{- printf "--%s: %s;" $keyb $valb -}}
-			{{- end -}}
+			
+			{{/* <!-- call e/scheme recursively */}}
+			{{ partial "e/scheme.scss" (slice $key $val) }}
+			
 			{{/* <!-- close "tag" css --> */}}
 			{{- printf "}" -}}
 			
 		{{- else -}}
 			
-			{{/* <!-- generate tag{ css --> */}}
-			{{- with $key -}}
-				{{- printf "%s{" . -}}
-			{{- end -}}
-			{{- range $keyb, $valb := $val -}}
-				{{/* <!-- generate css variable --> */}}
-				{{- printf "--%s: %s;" $keyb $valb -}}
-			{{- end -}}
+			{{/* <!-- generate tag{ css --> e.g. "h1{" where $key is "h1" */}}
+			{{- printf "%s{" $key -}}
+			
+			{{/* <!-- call e/scheme recursively */}}
+			{{ partial "e/scheme.scss" (slice $key $val) }}
+			
 			{{/* <!-- close "tag" css --> */}}
 			{{- printf "}" -}}
 			

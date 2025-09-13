@@ -11,7 +11,6 @@
 	}
 
 	a {
-		@include variable-scheme();
 		border-bottom: 1px dotted var(--color-primary); /* use stylized dotted underline for links */
 		transition: all .35s;
 		color: inherit;
@@ -20,7 +19,10 @@
 		font-size: inherit;
 		text-decoration: none; /* remove default underline */
 		text-transform: inherit;
-		{{ partial "e/scheme.scss" "a" }}
+		{{- $tag := "a" -}}
+		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+
 	}
 	a:hover,
 	a:focus {
@@ -81,33 +83,33 @@
 	}
 	
 	h1 {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "h1" }}
+		{{- $tag := "h1" -}}
+		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	h2 {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "h2" }}
+		{{- $tag := "h2" -}}
+		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	h3 {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "h3" }}
+		{{- $tag := "h3" -}}
+		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	h4 {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "h4" }}
+		{{- $tag := "h4" -}}
+		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	h5 {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "h5" }}
+		{{- $tag := "h5" -}}
+		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	header {
@@ -215,43 +217,59 @@
 	}
 	
 	.cl-core--button-primary {
-		@include variable-scheme();
 		@include a-underline-none();
 		border: none;
 		border-radius: 0.5em;
 		display: inline-block;
 		list-style: none; /* remove bullet when used on li */
-		padding: var(--padding);
 		
 		&:hover {
-			padding: var(--padding);
-			background-color: var(--color-back-hover);
-			color: var(--color-text-hover);
 			transition: background-color .5s;
 			cursor: pointer;
 		}
 		
-		{{ partial "e/scheme.scss" "button-primary" }}
+		{{- $tag := "cl-core--button-primary" -}}
+		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	.cl-core--button-secondary {
-		@include variable-scheme();
 		@include a-underline-none();
 		border: none;
 		border-radius: 0.5em;
 		display: inline-block;
 		list-style: none; /* remove bullet when used on li */
-		padding: var(--padding);
 		
 		&:hover {
-			background-color: var(--color-back-hover);
-			color: var(--color-text-hover);
-			
 			transition: background-color .5s;
 			cursor: pointer;
 		}
 		
-		{{ partial "e/scheme.scss" "button-secondary" }}
+		{{- $tag := "cl-core--button-secondary" -}}
+		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+	}
+
+	.cl-core--authorandtime {
+		{{- $tag := "cl-core--authorandtime" -}}
+		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+	}
+
+	.cl-core--tags {
+		@include flex-row($gap: 0.5em, $wrap: "wrap");
+		@include ul-container();
+		@include width-parent-full();
+		
+		{{- $tag := "cl-core--tags" -}}
+		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+	}
+	
+	.cl-core--tag {
+		{{- $tag := "cl-core--tag" -}}
+		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	.cl-core--a-underline-none {
