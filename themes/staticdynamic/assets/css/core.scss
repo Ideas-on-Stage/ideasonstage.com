@@ -20,7 +20,7 @@
 		text-decoration: none; /* remove default underline */
 		text-transform: inherit;
 		{{- $tag := "a" -}}
-		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 
 	}
@@ -71,9 +71,8 @@
 	}
 
 	div {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "div" }}
+		{{- $tag := "generic" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 	}	
 
 	footer {
@@ -84,31 +83,31 @@
 	
 	h1 {
 		{{- $tag := "h1" -}}
-		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	h2 {
 		{{- $tag := "h2" -}}
-		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	h3 {
 		{{- $tag := "h3" -}}
-		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	h4 {
 		{{- $tag := "h4" -}}
-		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	h5 {
 		{{- $tag := "h5" -}}
-		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
@@ -149,15 +148,14 @@
 	}
 
 	p {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "p" }}
+		{{- $tag := "p" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	section  {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "section" }}
+		{{- $tag := "" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 	}
 
 	span {
@@ -207,13 +205,14 @@
 	}
 
 	ul {
-		@include variable-scheme();
 		list-style-type: var(--list-style-type);
 		list-style-position: inside;
 		padding-left: var(--list-indent);
 		text-indent: calc( var(--list-indent) * -1 );
 		
-		{{ partial "e/scheme.scss" "ul" }}
+		{{- $tag := "ul" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	.cl-core--button-primary {
@@ -224,12 +223,12 @@
 		list-style: none; /* remove bullet when used on li */
 		
 		&:hover {
-			transition: background-color .5s;
+			// transition: background-color .5s;
 			cursor: pointer;
 		}
 		
 		{{- $tag := "cl-core--button-primary" -}}
-		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
@@ -241,18 +240,18 @@
 		list-style: none; /* remove bullet when used on li */
 		
 		&:hover {
-			transition: background-color .5s;
+			// transition: background-color .5s;
 			cursor: pointer;
 		}
 		
 		{{- $tag := "cl-core--button-secondary" -}}
-		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	.cl-core--authorandtime {
 		{{- $tag := "cl-core--authorandtime" -}}
-		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
@@ -262,13 +261,13 @@
 		@include width-parent-full();
 		
 		{{- $tag := "cl-core--tags" -}}
-		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	.cl-core--tag {
 		{{- $tag := "cl-core--tag" -}}
-		{{ partial "e/scheme-variables.scss" $tag }}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 

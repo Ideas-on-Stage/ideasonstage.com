@@ -129,6 +129,8 @@ li:
     line-height: "1.5em"
 
 p:
+    font-family: "var(--font-family)"
+    font-weight: "var(--font-weight)"
     margin-top: "1em"
     margin-bottom: "1em"
     line-height: "1.6em"
@@ -487,10 +489,6 @@ shortcode-icon-item:
         text-align: "center"
 
 shortcode-image-wide:
-    margin-top: "0em"
-    margin-bottom: "0em"
-
-shortcode-section:
     margin-top: "0em"
     margin-bottom: "0em"
 

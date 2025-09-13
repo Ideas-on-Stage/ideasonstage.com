@@ -36,14 +36,20 @@
 	{{- if eq "." (substr $element 0 1) -}}
 		{{- $element = substr $element 1 -}}
 	{{- end -}}
-	{{- $element = printf "%s-" $element -}}
+	{{- if ne "" $element -}}
+		{{- $element = printf "%s-" $element -}}
+	{{- end -}}
 {{- end -}}
 
-{{/* <!-- generate unused variable with the scheme name for debugging --> */}}
-{{- if eq "string" $type -}}
-	{{ printf "--generated-scheme:%s;" . }}
-{{- else -}}
-	{{ printf "--generated-scheme:%s;" (index . 0) }}
+{{- if $scheme -}}
+	{{/* <!-- generate unused variable with the scheme name for debugging --> */}}
+	{{- if eq "string" $type -}}
+		{{ printf "--scheme:%s;" . }}
+	{{- else -}}
+		{{- if ne "" (index . 0) -}}
+		{{ printf "--scheme:%s;" (index . 0) }}
+		{{- end -}}
+	{{- end -}}
 {{- end -}}
 
 {{/* <!-- iterate over each value for the scheme to generate the css code --> */}}
@@ -72,6 +78,9 @@
 			
 			{{/* <!-- generate @media{ css for small screens --> */}}
 			{{- printf "@media (max-width:$gl-sm-screen){" -}}
+			
+			{{/* <!-- call e/scheme recursively */}}
+			{{ partial "e/scheme.scss" (slice "" $val) }}
 			
 			{{/* <!-- close "tag" css --> */}}
 			{{- printf "}" -}}

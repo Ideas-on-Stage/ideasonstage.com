@@ -27,6 +27,8 @@
 				@include width-column-sm(1);
 			}
 			
+			{{ partial "e/scheme-variable-properties.scss" "item" }}
+			
 		}
 		
 		{{ partial "e/scheme.scss" . }}
