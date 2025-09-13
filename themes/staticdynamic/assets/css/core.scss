@@ -76,9 +76,8 @@
 	}	
 
 	footer {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "footer" }}
+		{{- $tag := "generic" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 	}
 	
 	h1 {
@@ -130,9 +129,9 @@
 	}
 	
 	li {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "li" }}
+		{{- $tag := "li" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	main {

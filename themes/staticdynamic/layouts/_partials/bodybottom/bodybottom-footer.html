@@ -1,11 +1,11 @@
 <footer id="footer" class="cl-bodybottom-footer">
-	<ul>
+	<ul class="categories">
 		{{- range site.Params.footer.categories -}}
-		<li>
+		<li class="category">
 			<h3>{{ .name }}</h3>
-			<ul>
+			<ul class="items">
 				{{- range .items -}}
-				<li>
+				<li class="item">
 					<a href="{{ .url }}" class="cl-core--a-underline-none">
 						{{- .name -}}
 					</a>

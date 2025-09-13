@@ -2,7 +2,6 @@
 
 	.cl-bodybottom-footer {
 		@include width-parent-full();
-		
 		/* navigation items in footer */
 		> ul {
 			@include width-content();
@@ -13,8 +12,6 @@
 			> li {
 				@include width-column(4);
 				@include width-column-sm(2);
-				@include margins($vertical: "none");
-				line-height: 1.6em;
 				
 				> ul {
 					@include ul-container();

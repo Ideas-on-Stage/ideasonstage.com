@@ -119,14 +119,16 @@ h4:
 h5:
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
-    font-ratio-h5: "1"
-    line-height-h5: "1.2em"
-    text-transform-h5: "none"
+    font-ratio: "1"
+    line-height: "1.2em"
+    text-transform: "none"
 
 li:
+    font-family: "var(--font-family)"
+    font-weight: "var(--font-weight)"
     margin-top: "0.5em"
     margin-bottom: "0.5em"
-    line-height: "1.5em"
+    line-height: "1.6em"
 
 p:
     font-family: "var(--font-family)"
@@ -316,14 +318,14 @@ bodybottom-contact-form:
 
 bodybottom-footer:
     scheme: "bg-dark"
-    font-ratio: "0.8"
     h3:
         font-ratio: "1"
         text-transform: "uppercase"
-    ul:
-        list-style-type: "none"
     li:
-        margin-top: "1.5em"
+        margin-top: "1em"
+        font-ratio: "0.8"
+    p:
+        font-ratio: "0.8"
 
 bodylazy-location:
     scheme: "bg-black"
