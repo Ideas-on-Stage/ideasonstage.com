@@ -80,6 +80,7 @@
 			{{- printf "@media (max-width:$gl-sm-screen){" -}}
 			
 			{{/* <!-- call e/scheme recursively */}}
+			{{/* <!-- use "" as first argument so that generated variables remain generic */}}
 			{{ partial "e/scheme.scss" (slice "" $val) }}
 			
 			{{/* <!-- close "tag" css --> */}}
@@ -91,7 +92,8 @@
 			{{- printf "@media(min-width:$gl-lg-screen){" -}}
 			
 			{{/* <!-- call e/scheme recursively */}}
-			{{ partial "e/scheme.scss" (slice $key $val) }}
+			{{/* <!-- use "" as first argument so that generated variables remain generic */}}
+			{{ partial "e/scheme.scss" (slice "" $val) }}
 			
 			{{/* <!-- close "tag" css --> */}}
 			{{- printf "}" -}}
