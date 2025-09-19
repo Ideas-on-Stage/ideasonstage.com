@@ -302,20 +302,20 @@ body-h1revolution:
 body-sidebar-main:
     a:
         color-border: "var(--color-primary)"
-
-body-sidebar-main--side:
-    scheme: "bg-light"
-    gap: "0"
-    font-ratio: "0.8"
-    padding: "0"
-    h2:
-        font-ratio: "1"
-        margin-top: "0"
-        margin-bottom: "0.5rem"
-    ul:
-        list-style-type: "none"
-        padding-left: "0"
-        margin-top: "0"
+    .sidebar:
+        scheme: "bg-light"
+        gap: "0"
+        font-ratio: "0.8"
+        padding: "0"
+        h2:
+            font-ratio: "1"
+            margin-top: "0"
+            margin-bottom: "0.5rem"
+        ul:
+            list-style-type: "none"
+            
+            list-indent: "0"
+            margin-top: "0"
 
 bodybottom-contact-form:
     h2:
@@ -331,10 +331,14 @@ bodybottom-footer:
         font-ratio: "1"
         text-transform: "uppercase"
     .categories:
+        ul:
+            list-style-type: "none"
         li:
             margin-top: "1rem"
             margin-bottom: "0rem"
     .items:
+        ul:
+            list-style-type: "none"
         li:
             margin-top: "0.8rem"
             margin-bottom: "0rem"

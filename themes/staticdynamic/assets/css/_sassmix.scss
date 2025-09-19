@@ -350,11 +350,10 @@
 
 	/* use to remove all styles from ul, useful to use ul for grids, carousels, etc. */
 	@mixin ul-list-style-none {
-		--list-style-type: none;
-		--padding-left: 0;
-		--list-indent: 0;
-		--margin-top: 0;
-		--margin-bottom: 0;
+		--ul-list-style-type: none;
+		--ul-list-indent: 0;
+		--ul-margin-top: 0;
+		--ul-margin-bottom: 0;
 	}
 
 	@mixin ul-container {
@@ -363,9 +362,8 @@
 			- no bullets in front of li items
 			- no indents
 		*/
-		--list-style-type: none;
-		--padding-left: 0;
-		--list-indent: 0;
+		--ul-list-style-type: none;
+		--ul-list-indent: 0;
 	}
 
 	@mixin variable-scheme() {
