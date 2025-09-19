@@ -8,7 +8,7 @@
 		padding: 0;
 		
 		/* container for sidebar */
-		.sidebar {
+		.cl-body-sidebar-main--sidebar {
 			@include width-column(3,1);
 			@include width-content-sm();
 			@include margins($top: "medium");
@@ -19,20 +19,20 @@
 				margin-right: 0; /* remove space on small screens */
 			}
 			
-			{{ partial "e/scheme.scss" "body-sidebar-main--side" }};
+			{{ partial "e/scheme.scss" "body-sidebar-main--sidebar" }};
 		}
 		
 		/* container for main content */
-		.article {
+		.cl-body-sidebar-main--article {
 			@include width-content();
 			@include margins($top: "medium");
 			@include firstlastchildnomargin();
 			
-			{{ partial "e/scheme.scss" "body-sidebar-main--main" }};
+			{{ partial "e/scheme.scss" "body-sidebar-main--article" }};
 		}
 		
 		/* adapt size of main content area if there is a sidebar */
-		.sidebar + .article {
+		.cl-body-sidebar-main--sidebar + .cl-body-sidebar-main--article {
 			@include width-column(3,2);
 			@include width-content-sm(); /* use content width instead of 2/3 column width on small screens */
 		}

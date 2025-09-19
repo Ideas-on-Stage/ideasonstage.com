@@ -203,8 +203,7 @@
 
 	ul {
 		list-style-type: var(--ul-list-style-type);
-		list-style-position: inside;
-		padding-left: var(--ul-list-indent);
+		list-style-position: var(--ul-list-style-position);
 		text-indent: calc( var(--ul-list-indent) * -1 );
 		
 		{{- $tag := "ul" -}}

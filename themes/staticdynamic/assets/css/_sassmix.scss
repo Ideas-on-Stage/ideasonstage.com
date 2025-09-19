@@ -354,6 +354,7 @@
 		--ul-list-indent: 0;
 		--ul-margin-top: 0;
 		--ul-margin-bottom: 0;
+		--ul-padding-left: 0;
 	}
 
 	@mixin ul-container {
@@ -364,6 +365,7 @@
 		*/
 		--ul-list-style-type: none;
 		--ul-list-indent: 0;
+		--ul-padding-left: 0;
 	}
 
 	@mixin variable-scheme() {

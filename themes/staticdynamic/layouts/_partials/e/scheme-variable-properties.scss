@@ -33,12 +33,10 @@
 	{{- printf "font-size: calc(var(--%sfont-ratio) * var(--font-base-size));" $element -}}
 	{{- printf "line-height: var(--%sline-height);" $element -}}
 	{{- printf "text-transform: var(--%stext-transform);" $element -}}
-	{{- printf "padding: var(--%spadding);" $element -}}
 	{{- printf "padding-top: var(--%spadding-top);" $element -}}
 	{{- printf "padding-bottom: var(--%spadding-bottom);" $element -}}
 	{{- printf "padding-left: var(--%spadding-left);" $element -}}
 	{{- printf "padding-right: var(--%spadding-right);" $element -}}
-	{{- printf "margin: var(--%smargin);" $element -}}
 	{{- printf "margin-top: var(--%smargin-top);" $element -}}
 	{{- printf "margin-bottom: var(--%smargin-bottom);" $element -}}
 	{{- printf "margin-left: var(--%smargin-left);" $element -}}
