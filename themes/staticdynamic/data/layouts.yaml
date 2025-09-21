@@ -13,8 +13,8 @@
 # - body: blocks added to the <body></body> part
 # - bodylazy: blocks added to the <body></body> part, css and img use lazy-loading
 # - bodybottom: common blocks added last to the <body></body> part
-# - sidebar: blocks added to the sidebar inside the .side part (needs a body-main part declared in the body block)
-# - article: blocks added inside the .main part (needs a body-main or body-main* part declared in the body block)
+# - sidebar: blocks added to the sidebar inside the .side part (needs a body-main-sidebar-article part declared in the body block)
+# - article: blocks added inside the .main part (needs a body-main-sidebar-article or body-main-sidebar-article* part declared in the body block)
 #
 # It is possible to create a custom block type if necessary.
 
@@ -57,7 +57,7 @@ _default:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-main # What goes inside side and main is defined in article: and sidebar: 
+            - body-main-sidebar-article # What goes inside side and main is defined in article: and sidebar: 
         bodylazy:
             - bodylazy-modules-aside
         article:
@@ -71,7 +71,7 @@ _default:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-main
+            - body-main-sidebar-article
         bodylazy:
             - bodylazy-modules-aside
         article:
@@ -127,7 +127,7 @@ about:
             - head-title-section
         body:
             - body-h1
-            - body-main
+            - body-main-sidebar-article
         bodylazy:
             - bodylazy-location
             - bodylazy-modules-aside
@@ -147,7 +147,7 @@ events:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-main
+            - body-main-sidebar-article
         bodylazy:
             - bodylazy-modules-aside
         article:
@@ -164,7 +164,7 @@ news:
             - head-title-section
         body:
             - body-h1
-            - body-main
+            - body-main-sidebar-article
         article:
             - article-listnews
             - article-prevnext
@@ -177,7 +177,7 @@ news:
             - head-title-single
         body:
             - body-breadcrumbs
-            - body-main
+            - body-main-sidebar-article
         sidebar:
             - sidebar-related
             - sidebar-topcategories
@@ -199,7 +199,7 @@ references:
         body:
             - body-h1
             - body-referencesgrid
-            - body-main
+            - body-main-sidebar-article
         article:
             - article-listreferences
 
@@ -215,7 +215,7 @@ revolution:
         body:
             - body-h1revolution
             - body-h1
-            - body-main
+            - body-main-sidebar-article
         article:
             - article-content
             - article-listrevolution
@@ -227,7 +227,7 @@ revolution:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-main
+            - body-main-sidebar-article
         sidebar:
             - sidebar-topcategories
         article:
@@ -244,7 +244,7 @@ tags:
             - head-title-tags-taxonomy
         body:
             - body-h1
-            - body-main
+            - body-main-sidebar-article
         article:
             - article-pages-tags
         sidebar:
@@ -258,7 +258,7 @@ tags:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-main
+            - body-main-sidebar-article
         article:
             - article-pages-tags
         sidebar:
@@ -275,7 +275,7 @@ team:
             - head-title-section
         body:
             - body-h1
-            - body-main
+            - body-main-sidebar-article
         article:
             - article-contenthome
             - article-listteam
@@ -287,7 +287,7 @@ team:
             - head-title-team-single
         body:
             - body-breadcrumbs
-            - body-main
+            - body-main-sidebar-article
         article:
             - article-h1team
             - article-positionteam
@@ -308,7 +308,7 @@ training:
             - body-breadcrumbs
             - body-h1
             - body-carousel
-            - body-main
+            - body-main-sidebar-article
         bodylazy:
             - bodylazy-referencesgrid
             - bodylazy-modules-aside
@@ -324,7 +324,7 @@ training:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-main
+            - body-main-sidebar-article
         sidebar:
             - sidebar-training
         article:

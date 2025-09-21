@@ -1,0 +1,21 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-sidebar {
+		@include width-column(3,1);
+		@include width-content-sm();
+		@include margins($top: "medium");
+		@include firstlastchildnomargin();
+		@include flex-column($gap: "gap");
+		padding: var(--padding);
+		@media (max-width: $gl-sm-screen) {
+			margin-right: 0; /* remove space on small screens */
+		}
+		
+		{{ partial "e/scheme.scss" "sidebar" }};
+	}
+	
+	/* adapt size of main content area if there is a sidebar */
+	.cl-sidebar + .cl-article {
+		@include width-column(3,2);
+		@include width-content-sm(); /* use content width instead of 2/3 column width on small screens */
+	}

@@ -7,7 +7,7 @@ description: "Are you tired of boring, ineffective presentations? Do you want to
 body:
 - body-breadcrumbs
 - body-h1
-- body-main
+- body-main-sidebar-article
 ---
 
 ## Business Presentation Revolution – The Book

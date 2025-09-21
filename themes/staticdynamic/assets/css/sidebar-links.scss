@@ -1,7 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-sidebar-links {
-		padding: 1em;	
+		@include width-parent-full();
+		padding: 1em;
 		
 		{{ partial "e/colorscheme.scss" . }}
 		{{ partial "e/scheme.scss" . }}

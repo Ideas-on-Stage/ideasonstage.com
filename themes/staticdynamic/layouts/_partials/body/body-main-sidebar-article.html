@@ -12,14 +12,14 @@
 
 <main class="cl-body-main">
 	{{- if partial "f/getblocks.go" "sidebar" -}}
-	<aside id="sidebar" class="cl-body-main--sidebar">
+	<aside id="sidebar" class="cl-sidebar">
 		{{ partial "e/blocks" (slice "sidebar") }}
 	</aside>
 	{{- else -}}
 		{{ partial "e/html-comment.html" "skipped: no blocks for sidebar in layouts.yaml" }}
 	{{- end -}}
 	{{- if partial "f/getblocks.go" "article" -}}
-	<article id="article" class="cl-body-main--article">
+	<article id="article" class="cl-article">
 		{{ partial "e/blocks" (slice "article") }}
 	</article>
 	{{- else -}}

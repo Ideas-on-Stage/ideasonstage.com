@@ -33,9 +33,7 @@
 	}
 	
 	aside {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "aside" }}
+		{{ partial "e/scheme-variable-properties.scss" "generic" }}
 	}
 
 	b {
@@ -133,9 +131,7 @@
 	}
 	
 	main {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "main" }}
+		{{ partial "e/scheme-variable-properties.scss" "generic" }}
 	}
 	
 	nav {
