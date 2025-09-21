@@ -1,0 +1,25 @@
+{{ "<!-- partials/side/links:start -->" | safeHTML }}
+{{- if isset .Params "dt-sidebar" -}}
+{{- $data := index .Params "dt-sidebar" -}}
+<section id="links" class="cl-sidebar-links">
+	{{- with $data.title -}}
+	<h2>
+		{{ . }}
+	</h2>
+	{{- end -}}
+	{{- with $data.items -}}
+	<ul>
+		{{ range . }}
+			<li>
+				{{ with .url }}<a href="{{ . }}">{{ end }}
+					{{ with .name }}{{ . }}{{ end }}
+				{{ with .url }}</a>{{ end }}
+			</li>
+		{{ end }}
+	</ul>
+	{{- end -}}
+</section>
+{{- else -}}
+	{{ partial "e/html-comment.html" "skipped: no dt-sidebar: defined in page front matter" }}
+{{- end -}}
+{{ "<!-- partials/side/links:end -->" | safeHTML }}

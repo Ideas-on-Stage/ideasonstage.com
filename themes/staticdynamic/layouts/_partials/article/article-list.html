@@ -1,5 +1,5 @@
 {{ "<!-- partials/main/main-list.html:start -->" | safeHTML }}
-<div class="cl-main-list">
+<div class="cl-article-list">
 {{- range .Pages -}}
 	{{- if .Params.nl -}}
 		{{ (printf "<!-- page %s skipped (nl is true) -->" .Title) | safeHTML }}

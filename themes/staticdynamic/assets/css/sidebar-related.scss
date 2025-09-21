@@ -1,8 +1,10 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-side-training {
+	.cl-sidebar-related {
 		padding: 1em;
 		
-		{{ partial "e/colorscheme.scss" . }}
+		> ul {
+			@include ul-list-style-none();
+		}
 		{{ partial "e/scheme.scss" . }}
 	}

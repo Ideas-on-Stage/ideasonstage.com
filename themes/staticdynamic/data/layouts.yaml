@@ -13,8 +13,8 @@
 # - body: blocks added to the <body></body> part
 # - bodylazy: blocks added to the <body></body> part, css and img use lazy-loading
 # - bodybottom: common blocks added last to the <body></body> part
-# - side: blocks added to the sidebar inside the .side part (needs a body-sidebar-main part declared in the body block)
-# - main: blocks added inside the .main part (needs a body-sidebar-main or body-main* part declared in the body block)
+# - sidebar: blocks added to the sidebar inside the .side part (needs a body-main part declared in the body block)
+# - article: blocks added inside the .main part (needs a body-main or body-main* part declared in the body block)
 #
 # It is possible to create a custom block type if necessary.
 
@@ -57,10 +57,10 @@ _default:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-sidebar-main # What goes inside side and main is defined in main: and side: 
+            - body-main # What goes inside side and main is defined in article: and sidebar: 
         bodylazy:
             - bodylazy-modules-aside
-        main:
+        article:
             - article-content
             - article-list
     # page.Kind "page"
@@ -71,10 +71,10 @@ _default:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-sidebar-main
+            - body-main
         bodylazy:
             - bodylazy-modules-aside
-        main:
+        article:
             - article-content
     # page.Kind "home" (also applies to page.Type "home")
     home:
@@ -94,7 +94,7 @@ _default:
             - bodylazy-testimonials
             - bodylazy-location
             - bodylazy-awards
-        main:
+        article:
             - article-modules
             - article-contenthome
 
@@ -127,11 +127,11 @@ about:
             - head-title-section
         body:
             - body-h1
-            - body-sidebar-main
+            - body-main
         bodylazy:
             - bodylazy-location
             - bodylazy-modules-aside
-        main:
+        article:
             - article-content
             - article-list
 
@@ -147,10 +147,10 @@ events:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-sidebar-main
+            - body-main
         bodylazy:
             - bodylazy-modules-aside
-        main:
+        article:
             - article-content
 
 
@@ -164,12 +164,12 @@ news:
             - head-title-section
         body:
             - body-h1
-            - body-sidebar-main
-        main:
+            - body-main
+        article:
             - article-listnews
             - article-prevnext
-        side:
-            - side-topcategories
+        sidebar:
+            - sidebar-topcategories
     # page.Kind "page"
     page:
         head:
@@ -177,11 +177,11 @@ news:
             - head-title-single
         body:
             - body-breadcrumbs
-            - body-sidebar-main
-        side:
-            - side-related
-            - side-topcategories
-        main:
+            - body-main
+        sidebar:
+            - sidebar-related
+            - sidebar-topcategories
+        article:
             - article-h1
             - article-authorandtime
             - article-tags
@@ -199,8 +199,8 @@ references:
         body:
             - body-h1
             - body-referencesgrid
-            - body-sidebar-main
-        main:
+            - body-main
+        article:
             - article-listreferences
 
 
@@ -215,8 +215,8 @@ revolution:
         body:
             - body-h1revolution
             - body-h1
-            - body-sidebar-main
-        main:
+            - body-main
+        article:
             - article-content
             - article-listrevolution
     # page.Kind "page"
@@ -227,10 +227,10 @@ revolution:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-sidebar-main
-        side:
-            - side-topcategories
-        main:
+            - body-main
+        sidebar:
+            - sidebar-topcategories
+        article:
             - article-content
 
 
@@ -244,11 +244,11 @@ tags:
             - head-title-tags-taxonomy
         body:
             - body-h1
-            - body-sidebar-main
-        main:
+            - body-main
+        article:
             - article-pages-tags
-        side:
-            - side-topcategories
+        sidebar:
+            - sidebar-topcategories
     # page.Kind "term" = page for tags
     term:
         head:
@@ -258,11 +258,11 @@ tags:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-sidebar-main
-        main:
+            - body-main
+        article:
             - article-pages-tags
-        side:
-            - side-topcategories
+        sidebar:
+            - sidebar-topcategories
 
 
 
@@ -275,8 +275,8 @@ team:
             - head-title-section
         body:
             - body-h1
-            - body-sidebar-main
-        main:
+            - body-main
+        article:
             - article-contenthome
             - article-listteam
     # page.Kind "page"
@@ -287,13 +287,13 @@ team:
             - head-title-team-single
         body:
             - body-breadcrumbs
-            - body-sidebar-main
-        main:
+            - body-main
+        article:
             - article-h1team
             - article-positionteam
             - article-content
-        side:
-            - side-photo
+        sidebar:
+            - sidebar-photo
 
 
 
@@ -308,13 +308,13 @@ training:
             - body-breadcrumbs
             - body-h1
             - body-carousel
-            - body-sidebar-main
+            - body-main
         bodylazy:
             - bodylazy-referencesgrid
             - bodylazy-modules-aside
-        side:
-            - side-links
-        main:
+        sidebar:
+            - sidebar-links
+        article:
             - article-content
     # page.Kind "page"
     page:
@@ -324,10 +324,10 @@ training:
         body:
             - body-breadcrumbs
             - body-h1
-            - body-sidebar-main
-        side:
-            - side-training
-        main:
+            - body-main
+        sidebar:
+            - sidebar-training
+        article:
             - article-content
 
 
@@ -342,7 +342,7 @@ full:
         body:
             - body-h1
             - body-mainfull
-        main:
+        article:
             - article-contenthome
             - article-listteam
     # page.Kind "page"
@@ -353,5 +353,5 @@ full:
         body:
             - body-breadcrumbs
             - body-mainfull
-        main:
+        article:
             - article-contentfull

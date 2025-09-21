@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-main-contenthome {
+	.cl-article-contenthome {
 		@include width-content();
 		@include margins($vertical: "medium");
 		color: var(--color-text-muted);

@@ -1,6 +1,6 @@
 {{ $data := partial "f/getdatalocalized" (slice . "main-references") }}
 {{ with $data }}
-	<section id="client-references" class="cl-main-listreferences">
+	<section id="client-references" class="cl-article-listreferences">
 		{{ range . }}
 			<div class="reference">
 				<div class="logo">
@@ -39,7 +39,7 @@
 {{ end }}
 
 {{ if .Pages }}
-	<section id="client-success-stories" class="cl-main-listreferences">
+	<section id="client-success-stories" class="cl-article-listreferences">
 		{{ range .Pages }}
 			<div class="reference">
 				<div class="thumb">

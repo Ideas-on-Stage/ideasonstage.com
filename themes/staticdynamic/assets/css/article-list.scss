@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-main-list {
+	.cl-article-list {
 		--file: "main-list.scss";
 		
 		@include flex-column($gap: "big", $wrap: "nowrap");

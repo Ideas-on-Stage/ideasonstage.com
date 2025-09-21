@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-main-content {
+	.cl-article-content {
 		@include firstlastchildnomargin;
 		
 		>p img {

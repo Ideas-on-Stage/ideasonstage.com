@@ -1,0 +1,8 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-sidebar-topcategories {
+		padding: 1em;	
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/scheme.scss" . }}
+	}

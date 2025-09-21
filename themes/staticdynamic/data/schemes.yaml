@@ -298,7 +298,7 @@ body-h1revolution:
         color-text: "white"
         margin-bottom: "0.5em"
 
-body-sidebar-main--sidebar:
+body-main--sidebar:
     scheme: "bg-light"
     gap: "0"
     padding: "0"
@@ -356,8 +356,9 @@ bodylazy-location:
 
 bodylazy-testimonials:
     scheme: "bg-light"
-    font-ratio: "0.8"
     h4:
+        font-ratio: "0.8"
+    p:
         font-ratio: "0.8"
 
 bodytop-navbar:

@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-main-prevnext {
+	.cl-article-prevnext {
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-between);
 		@include ul-list-style-none;
 		

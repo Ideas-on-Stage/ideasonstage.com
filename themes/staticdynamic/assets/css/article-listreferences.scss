@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-main-listreferences {
+	.cl-article-listreferences {
 		
 		.reference {
 			@include margins($vertical: "medium");
@@ -36,5 +36,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" "cl-main-listreferences--references" }}
+		{{ partial "e/scheme.scss" "cl-article-listreferences--references" }}
 	}
