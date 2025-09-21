@@ -10,7 +10,7 @@
 	
 	Arguments:
 	- list of block types
-	  e.g. [ "side", "main" ]
+	  e.g. [ "sidebar", "article" ]
 	
 	Returns:
 	- list of css files as a list of strings (WITHOUT path, subfolder or extension)
@@ -18,28 +18,47 @@
 	
 --> */}}
 
-{{ $blocktypes := . }}
-{{ $result := slice }}
+{{/* <!-- initialize variables --> */}}
+{{- $basepath := "assets/css" -}}
+{{- $result := slice -}}
 
-{{ range $blocktypes }}
-	{{ $blocks := partial "f/getblocks.go" . }}
-	{{ range $blocks }}
-		{{ $filepath := printf "assets/css/%s.scss" . }}
-		{{ if fileExists $filepath }}
-			{{ $result = $result | append . }}
-		{{ end }}
-		{{ $split := strings.Split . "-" }}
-		{{ $len := $split | len }}
-		{{ if ge $len 2 }}
-			{{ range $split }}
-				{{ $filepathsplit := printf "assets/css/%s.scss" . }}
-				{{ if fileExists $filepathsplit }}
-					{{ $result = $result | append . }}
-				{{ end }}	
-			{{ end }}
-		{{ end }}
-	{{ end }}
-{{ end }}
+{{/* <!-- get list of blocks passed as argument --> */}}
+{{- $blocktypes := . -}}
+
+{{/* <!-- iterate over each block type --> */}}
+{{- range $blocktypes -}}
+	{{/* <!-- use getblocks to get the list of blocks matching the block type --> */}}
+	{{- $blocks := partial "f/getblocks.go" . -}}
+	
+	{{/* <!-- iterate over the list of blocks --> */}}
+	{{- range $blocks -}}
+		{{/* <!-- try to find .scss file matching the block name --> */}}
+		{{/* <!-- e.g. "body-h1" → body-h1.scss --> */}}
+		{{- $filepath := printf "%s/%s.scss" $basepath . -}}
+		{{- if fileExists $filepath -}}
+			{{/* <!-- if found, add it to list of css files --> */}}
+			{{- $result = $result | append . -}}
+		{{- end -}}
+		
+		{{/* <!-- if block name has at least 2 words separated by a "-" --> */}}
+		{{/* <!-- then to find a css file for each word --> */}}
+		{{/* <!-- e.g. "body-h1" → check if "body.scss" and "h1.scss" exist --> */}}
+		{{- $split := strings.Split . "-" -}}
+		{{- $len := $split | len -}}
+		{{- if ge $len 2 -}}
+			{{- range $split -}}
+				{{- $filepathsplit := printf "%s/%s.scss" $basepath . -}}
+				{{- if fileExists $filepathsplit -}}
+					{{/* <!-- if found, add it to list of css files --> */}}
+					{{- $result = $result | append . -}}
+				{{- end -}}	
+			{{- end -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+
+{{/* <!-- deduplicate result (to avoid returning the same css file twice) --> */}}
 {{- $result = $result | uniq -}}
 
-{{ return $result }}
+{{/* <!-- return list of css files --> */}}
+{{- return $result -}}

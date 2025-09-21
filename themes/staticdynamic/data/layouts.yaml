@@ -61,8 +61,8 @@ _default:
         bodylazy:
             - bodylazy-modules-aside
         main:
-            - main-content
-            - main-list
+            - article-content
+            - article-list
     # page.Kind "page"
     page:
         head:
@@ -75,7 +75,7 @@ _default:
         bodylazy:
             - bodylazy-modules-aside
         main:
-            - main-content
+            - article-content
     # page.Kind "home" (also applies to page.Type "home")
     home:
         head:
@@ -95,8 +95,8 @@ _default:
             - bodylazy-location
             - bodylazy-awards
         main:
-            - main-modules
-            - main-contenthome
+            - article-modules
+            - article-contenthome
 
 
 
@@ -132,8 +132,8 @@ about:
             - bodylazy-location
             - bodylazy-modules-aside
         main:
-            - main-content
-            - main-list
+            - article-content
+            - article-list
 
 
 
@@ -151,7 +151,7 @@ events:
         bodylazy:
             - bodylazy-modules-aside
         main:
-            - main-content
+            - article-content
 
 
 
@@ -166,8 +166,8 @@ news:
             - body-h1
             - body-sidebar-main
         main:
-            - main-listnews
-            - main-prevnext
+            - article-listnews
+            - article-prevnext
         side:
             - side-topcategories
     # page.Kind "page"
@@ -182,10 +182,10 @@ news:
             - side-related
             - side-topcategories
         main:
-            - main-h1
-            - main-authorandtime
-            - main-tags
-            - main-content
+            - article-h1
+            - article-authorandtime
+            - article-tags
+            - article-content
 
 
 
@@ -201,7 +201,7 @@ references:
             - body-referencesgrid
             - body-sidebar-main
         main:
-            - main-listreferences
+            - article-listreferences
 
 
 
@@ -217,8 +217,8 @@ revolution:
             - body-h1
             - body-sidebar-main
         main:
-            - main-content
-            - main-listrevolution
+            - article-content
+            - article-listrevolution
     # page.Kind "page"
     page:
         head:
@@ -231,7 +231,7 @@ revolution:
         side:
             - side-topcategories
         main:
-            - main-content
+            - article-content
 
 
 # page.Type "tags"
@@ -246,7 +246,7 @@ tags:
             - body-h1
             - body-sidebar-main
         main:
-            - main-pages-tags
+            - article-pages-tags
         side:
             - side-topcategories
     # page.Kind "term" = page for tags
@@ -260,7 +260,7 @@ tags:
             - body-h1
             - body-sidebar-main
         main:
-            - main-pages-tags
+            - article-pages-tags
         side:
             - side-topcategories
 
@@ -277,8 +277,8 @@ team:
             - body-h1
             - body-sidebar-main
         main:
-            - main-contenthome
-            - main-listteam
+            - article-contenthome
+            - article-listteam
     # page.Kind "page"
     page:
         head:
@@ -289,9 +289,9 @@ team:
             - body-breadcrumbs
             - body-sidebar-main
         main:
-            - main-h1team
-            - main-positionteam
-            - main-content
+            - article-h1team
+            - article-positionteam
+            - article-content
         side:
             - side-photo
 
@@ -315,7 +315,7 @@ training:
         side:
             - side-links
         main:
-            - main-content
+            - article-content
     # page.Kind "page"
     page:
         head:
@@ -328,7 +328,7 @@ training:
         side:
             - side-training
         main:
-            - main-content
+            - article-content
 
 
 
@@ -343,8 +343,8 @@ full:
             - body-h1
             - body-mainfull
         main:
-            - main-contenthome
-            - main-listteam
+            - article-contenthome
+            - article-listteam
     # page.Kind "page"
     page:
         head:
@@ -354,4 +354,4 @@ full:
             - body-breadcrumbs
             - body-mainfull
         main:
-            - main-contentfull
+            - article-contentfull

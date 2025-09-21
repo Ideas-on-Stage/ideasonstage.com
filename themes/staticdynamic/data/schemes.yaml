@@ -373,7 +373,7 @@ form:
     color-back: "#fff"
     color-border-focus: "var(--color-primary)"
 
-main-content:
+article-content:
     h2:
         margin-top: "2em"
         margin-bottom: "1em"
@@ -390,7 +390,7 @@ main-content:
         margin-top: "1em"
         margin-bottom: "1em"
 
-main-contenthome:
+article-contenthome:
     p:
         text-align: "center"
 
@@ -399,7 +399,7 @@ main:
         text-transform: "none"
         margin-bottom: "1em"
 
-main-list:
+article-list:
     .item:
         margin-top: "1em"
         margin-bottom: "1em"
@@ -409,7 +409,7 @@ main-list:
     .cl-core--button-secondary:
         margin-top: "0.5em"
 
-main-listnews:
+article-listnews:
     h2:
         margin-top: "0em"
         margin-bottom: "0.5em"
@@ -420,7 +420,7 @@ main-listnews:
         margin-top: "0.5em"
         margin-bottom: "0.5em"
 
-main-listrevolution:
+article-listrevolution:
     h2:
         text-align: "center"
         margin-bottom: "0.5rem"
@@ -430,7 +430,7 @@ main-listrevolution:
     p:
         margin-top: "0.5rem"
 
-main-listteam:
+article-listteam:
     font-ratio: "0.75"
     text-align: "center"
     h2:
@@ -441,7 +441,7 @@ main-listteam:
         margin-top: "0"
         margin-bottom: "0"
 
-main-positionteam:
+article-positionteam:
     h2:
         font-ratio: "1.2"
         text-transform: "uppercase"
