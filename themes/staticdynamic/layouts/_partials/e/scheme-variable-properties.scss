@@ -26,13 +26,15 @@
 {{- printf "color: var(--%scolor-text);" $element -}}
 {{- printf "text-align: var(--%stext-align);" $element -}}
 
+{{- printf "font-family: var(--%sfont-family);" $element -}}
+{{- printf "font-weight: var(--%sfont-weight);" $element -}}
+{{- printf "font-size: calc(var(--%sfont-ratio) * var(--font-base-size));" $element -}}
+{{- printf "line-height: var(--%sline-height);" $element -}}
+{{- printf "text-transform: var(--%stext-transform);" $element -}}
+
 {{/* <!-- "specific" variable properties, applicable to elements that are not "generic" --> */}}
+{{/* <!-- They are not generic because applying a generic padding and margin leads to too many problems --> */}}
 {{- if ne "" $element -}}
-	{{- printf "font-family: var(--%sfont-family);" $element -}}
-	{{- printf "font-weight: var(--%sfont-weight);" $element -}}
-	{{- printf "font-size: calc(var(--%sfont-ratio) * var(--font-base-size));" $element -}}
-	{{- printf "line-height: var(--%sline-height);" $element -}}
-	{{- printf "text-transform: var(--%stext-transform);" $element -}}
 	{{- printf "padding-top: var(--%spadding-top);" $element -}}
 	{{- printf "padding-bottom: var(--%spadding-bottom);" $element -}}
 	{{- printf "padding-left: var(--%spadding-left);" $element -}}

@@ -414,11 +414,12 @@ bodylazy-testimonials:
 
 bodytop-navbar:
     scheme: "bg-dark"
-    font-family: "Gotham SSm A, Gotham SSm B"
-    font-weight: "700"
     font-base-size: "14px" # navbar is an exception
-    font-ratio: "1"
-    text-transform: "uppercase"
+    li:
+        font-family: "Gotham SSm A, Gotham SSm B"
+        font-weight: "700"
+        font-ratio: "1"
+        text-transform: "uppercase"
 
 form:
     color-text: "#444"
@@ -528,6 +529,15 @@ shortcode-icon-item:
 shortcode-image-wide:
     margin-top: "0em"
     margin-bottom: "0em"
+
+shortcode-list-card:
+    .text:
+        h3:
+            font-ratio: "1"
+        p:
+            font-ratio: "0.8"
+        li:
+            font-ratio: "0.8"
 
 shortcode-section-hero:
     h1:

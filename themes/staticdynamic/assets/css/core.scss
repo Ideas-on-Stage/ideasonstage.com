@@ -33,7 +33,8 @@
 	}
 	
 	aside {
-		{{ partial "e/scheme-variable-properties.scss" "generic" }}
+		{{- $tag := "generic" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 	}
 
 	b {
@@ -51,7 +52,8 @@
 		margin-right: 0;
 		padding: 1em;
 		
-		{{ partial "e/scheme.scss" "blockquote" }}
+		{{- $tag := "blockquote" -}}
+		{{ partial "e/scheme.scss" $tag }}
 	}
 	
 	body {
@@ -62,8 +64,6 @@
 		@media (min-width: $gl-lg-screen) {
 			--page-width: var(--page-max-width);
 		}
-		
-		{{ partial "e/scheme.scss" "body" }}
 	}
 
 	div {
@@ -113,14 +113,11 @@
 
 	img {
 		@include img-responsive();
-		
-		{{ partial "e/scheme.scss" "img" }}
 	}
 
 	input {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "input" }}
+		{{- $tag := "generic" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 	}
 	
 	li {
@@ -130,13 +127,13 @@
 	}
 	
 	main {
-		{{ partial "e/scheme-variable-properties.scss" "generic" }}
+		{{- $tag := "generic" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 	}
 	
 	nav {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "nav" }}
+		{{- $tag := "generic" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 	}
 
 	p {
@@ -146,32 +143,18 @@
 	}
 	
 	section  {
-		{{- $tag := "" -}}
+		{{- $tag := "generic" -}}
 		{{ partial "e/scheme-variable-properties.scss" $tag }}
-	}
-
-	span {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "span" }}
-	}
-	
-	strong {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "strong" }}
 	}
 	
 	textarea {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "textarea" }}
+		{{- $tag := "generic" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 	}
 
 	time {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "time" }}
+		{{- $tag := "generic" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 	}
 
 	table {

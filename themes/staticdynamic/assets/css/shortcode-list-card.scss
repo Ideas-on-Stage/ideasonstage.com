@@ -33,4 +33,7 @@
 				height: 40vw;
 			}
 		}
+		
+		{{ partial "e/colorscheme.scss" . }}
+		{{ partial "e/scheme.scss" . }}
 	}
