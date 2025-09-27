@@ -107,9 +107,8 @@
 	}
 	
 	header {
-		@include variable-scheme();
-		
-		{{ partial "e/scheme.scss" "header" }}
+		{{- $tag := "generic" -}}
+		{{ partial "e/scheme-variable-properties.scss" $tag }}
 	}
 
 	img {

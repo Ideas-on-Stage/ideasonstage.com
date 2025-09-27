@@ -1,7 +1,7 @@
 <!-- Page specific non-critical CSS -->
 
 {{/* <!-- get main blocks to avoid duplicating css between main and layz and bottom --> */}}
-{{- $bodyblocktypes := slice "body" "main" -}}
+{{- $bodyblocktypes := slice "body" "main" "article" -}}
 {{- $bodyblocks := partial "f/getblockscss.go" $bodyblocktypes -}}
 
 {{/* <!-- get bottom blocks --> */}}

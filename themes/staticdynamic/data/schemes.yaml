@@ -220,10 +220,79 @@ cl-core--tag:
 
 
 
-# ------------------
-# block font schemes
+# -------------
+# block schemes
 # you only need to redefine elements that change from the root scheme
-# ------------------
+# -------------
+
+article-content:
+    h2:
+        margin-top: "2em"
+        margin-bottom: "1em"
+    h3:
+        margin-top: "2em"
+        margin-bottom: "1em"
+    h4:
+        margin-top: "2em"
+        margin-bottom: "1em"
+    img:
+        margin-top: "2em"
+        margin-bottom: "2em"
+    ul:
+        margin-top: "1em"
+        margin-bottom: "1em"
+
+article-contenthome:
+    p:
+        text-align: "center"
+
+article-list:
+    .item:
+        margin-top: "1em"
+        margin-bottom: "1em"
+    p:
+        margin-top: "0em"
+        margin-bottom: "0em"
+    .cl-core--button-secondary:
+        margin-top: "0.5em"
+
+article-listnews:
+    h2:
+        margin-top: "0em"
+        margin-bottom: "0.5em"
+    .cl-core--authorandtime:
+        margin-top: "0em"
+        margin-bottom: "0.5em"
+    .cl-core--button-secondary:
+        margin-top: "0.5em"
+        margin-bottom: "0.5em"
+
+article-listrevolution:
+    h2:
+        text-align: "center"
+        margin-bottom: "0.5rem"
+    h3:
+        font-ratio: "1"
+        margin-top: "0.5rem"
+    p:
+        margin-top: "0.5rem"
+
+article-listteam:
+    h2:
+        font-ratio: "1"
+        text-align: "center"
+        margin-top: "8px"
+        margin-bottom: "4px"
+    p:
+        font-ratio: "0.75"
+        text-align: "center"
+        margin-top: "0"
+        margin-bottom: "0"
+
+article-positionteam:
+    h2:
+        font-ratio: "1.2"
+        text-transform: "uppercase"
 
 body-breadcrumbs:
     scheme: "bg-light"
@@ -298,24 +367,6 @@ body-h1revolution:
         color-text: "white"
         margin-bottom: "0.5em"
 
-sidebar:
-    scheme: "bg-light"
-    gap: "0"
-    padding: "0"
-    a:
-        color-border: "var(--color-primary)"
-    h2:
-        font-ratio: "0.8"
-        margin-top: "0"
-        margin-bottom: "0.5rem"
-    ul:
-        list-style-type: "none"
-        list-indent: "0"
-        margin-top: "0"
-        padding-left: "0"
-    li:
-        font-ratio: "0.8"
-
 bodybottom-contact-form:
     h2:
         text-align: "center"
@@ -374,78 +425,10 @@ form:
     color-back: "#fff"
     color-border-focus: "var(--color-primary)"
 
-article-content:
-    h2:
-        margin-top: "2em"
-        margin-bottom: "1em"
-    h3:
-        margin-top: "2em"
-        margin-bottom: "1em"
-    h4:
-        margin-top: "2em"
-        margin-bottom: "1em"
-    img:
-        margin-top: "2em"
-        margin-bottom: "2em"
-    ul:
-        margin-top: "1em"
-        margin-bottom: "1em"
-
-article-contenthome:
-    p:
-        text-align: "center"
-
 main:
     h1:
         text-transform: "none"
         margin-bottom: "1em"
-
-article-list:
-    .item:
-        margin-top: "1em"
-        margin-bottom: "1em"
-    p:
-        margin-top: "0em"
-        margin-bottom: "0em"
-    .cl-core--button-secondary:
-        margin-top: "0.5em"
-
-article-listnews:
-    h2:
-        margin-top: "0em"
-        margin-bottom: "0.5em"
-    .cl-core--authorandtime:
-        margin-top: "0em"
-        margin-bottom: "0.5em"
-    .cl-core--button-secondary:
-        margin-top: "0.5em"
-        margin-bottom: "0.5em"
-
-article-listrevolution:
-    h2:
-        text-align: "center"
-        margin-bottom: "0.5rem"
-    h3:
-        font-ratio: "1"
-        margin-top: "0.5rem"
-    p:
-        margin-top: "0.5rem"
-
-article-listteam:
-    font-ratio: "0.75"
-    text-align: "center"
-    h2:
-        font-ratio: "1"
-        margin-top: "8px"
-        margin-bottom: "4px"
-    p:
-        margin-top: "0"
-        margin-bottom: "0"
-
-article-positionteam:
-    h2:
-        font-ratio: "1.2"
-        text-transform: "uppercase"
 
 module-column-text-picture:
     text-align: "center"
@@ -471,6 +454,24 @@ photo:
     color-photo-border: "white"
     color-photo-shadow: "#aaa"
 
+sidebar:
+    scheme: "bg-light"
+    gap: "0"
+    padding: "0"
+    a:
+        color-border: "var(--color-primary)"
+    h2:
+        font-ratio: "0.8"
+        margin-top: "0"
+        margin-bottom: "0.5rem"
+    ul:
+        list-style-type: "none"
+        list-indent: "0"
+        margin-top: "0"
+        padding-left: "0"
+    li:
+        font-ratio: "0.8"
+
 sidebar-links:
     padding-top: "1rem"
     padding-left: "1rem"
@@ -485,7 +486,11 @@ tags:
     a:
         color-back: "none"
 
-#shortcodes
+
+
+# -----------------
+# shortcode schemes
+# -----------------
 
 shortcode-agenda-item:
     text-align: "center"
