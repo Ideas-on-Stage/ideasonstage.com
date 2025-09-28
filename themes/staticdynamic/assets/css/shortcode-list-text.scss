@@ -30,4 +30,6 @@
 				margin: 0;
 			}
 		}
+		
+		{{ partial "e/scheme.scss" "cl-shortcode-list-text" }}
 	}

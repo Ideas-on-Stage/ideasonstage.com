@@ -4,6 +4,5 @@
 		@include width-parent-full();
 		padding: 1em;
 		
-		{{ partial "e/colorscheme.scss" . }}
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-sidebar-links" }}
 	}

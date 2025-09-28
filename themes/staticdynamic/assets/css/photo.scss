@@ -4,5 +4,5 @@
 		border: 8px solid var(--color-photo-border);
 		box-shadow: 2px 2px 8px var(--color-photo-shadow);
 		
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-photo" }}
 	}

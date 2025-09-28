@@ -16,6 +16,5 @@
 			left: 0px;
 		}
 		
-
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-shortcode-section-hero" }}
 	}

@@ -5,5 +5,5 @@
 		@include margins($top: "medium");
 		@include firstlastchildnomargin();
 		
-		{{ partial "e/scheme.scss" "article" }};
+		{{ partial "e/scheme.scss" "cl-article" }};
 	}

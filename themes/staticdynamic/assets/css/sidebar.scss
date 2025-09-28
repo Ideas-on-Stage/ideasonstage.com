@@ -11,7 +11,7 @@
 			margin-right: 0; /* remove space on small screens */
 		}
 		
-		{{ partial "e/scheme.scss" "sidebar" }};
+		{{ partial "e/scheme.scss" "cl-sidebar" }};
 	}
 	
 	/* adapt size of main content area if there is a sidebar */

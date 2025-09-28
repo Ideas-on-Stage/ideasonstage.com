@@ -33,5 +33,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-article-listteam" }}
 	}

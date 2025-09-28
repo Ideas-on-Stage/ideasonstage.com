@@ -20,7 +20,7 @@
 			@include firstlastchildnomargin();
 		}
 		
-		{{ partial "e/scheme.scss" "body-h1--hero" }};
+		{{ partial "e/scheme.scss" "cl-body-h1--hero" }};
 	}
 
 	.cl-body-h1--title {
@@ -34,7 +34,7 @@
 			@include width-content();
 		}
 		
-		{{ partial "e/scheme.scss" "body-h1--title" }};
+		{{ partial "e/scheme.scss" "cl-body-h1--title" }};
 	}
 
 @import "_logobar.scss";

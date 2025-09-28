@@ -4,5 +4,5 @@
 		@include width-content-narrow();
 		@include margins($vertical: "medium");
 		
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-bodybottom-contact-form" }}
 	}

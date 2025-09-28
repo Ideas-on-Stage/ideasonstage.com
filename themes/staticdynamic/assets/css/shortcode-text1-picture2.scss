@@ -16,6 +16,5 @@
 			@include width-parent-full-sm;
 		}
 		
-		{{ partial "e/colorscheme.scss" . }}
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-shortcode-text1-picture2" }}
 	}

@@ -14,7 +14,7 @@
 			padding: 0;
 		}
 		
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-modules" }}
 	}
 
 	.cl-module-column-text-picture {
@@ -45,7 +45,7 @@
 			}
 		}		
 		
-		{{ partial "e/scheme.scss" "module-column-text-picture" }}
+		{{ partial "e/scheme.scss" "cl-module-column-text-picture" }}
 	}
 
 	.cl-module-half-text-picture {
@@ -76,7 +76,7 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" "module-half-text-picture" }}
+		{{ partial "e/scheme.scss" "cl-module-half-text-picture" }}
 	}
 
 	.cl-module-row-text-picture {
@@ -116,7 +116,7 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" "module-row-text-picture" }}
+		{{ partial "e/scheme.scss" "cl-module-row-text-picture" }}
 	}
 
 	.cl-module-row-picture-text {
@@ -156,5 +156,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" "module-row-picture-text" }}
+		{{ partial "e/scheme.scss" "cl-module-row-picture-text" }}
 	}

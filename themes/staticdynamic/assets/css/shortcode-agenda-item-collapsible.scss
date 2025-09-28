@@ -44,5 +44,5 @@
 			height: auto;
 		}
 		
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-shortcode-agenda-item-collapsible" }}
 	}

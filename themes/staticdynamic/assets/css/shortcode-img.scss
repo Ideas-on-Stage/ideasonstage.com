@@ -9,6 +9,5 @@
 			padding: 0;
 		}
 		
-		{{ partial "e/colorscheme.scss" . }}
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-shortcode-img" }}
 	}

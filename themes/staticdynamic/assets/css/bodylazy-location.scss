@@ -15,5 +15,5 @@
 			--color-back: none;
 		}
 		
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-bodylazy-location" }}
 	}

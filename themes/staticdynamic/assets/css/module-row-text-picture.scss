@@ -37,5 +37,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-module-row-text-picture" }}
 	}

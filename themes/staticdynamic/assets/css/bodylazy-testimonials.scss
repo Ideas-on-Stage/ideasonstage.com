@@ -38,5 +38,5 @@
 			@include img-circle(60px);
 		}
 		
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-bodylazy-testimonials" }}
 	}

@@ -28,6 +28,6 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" . }}
+		{{ partial "e/scheme.scss" "cl-module-column-text-picture" }}
 	}
 	

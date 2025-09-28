@@ -7,6 +7,6 @@
 		@include flex-column-sm(column-reverse);
 		padding: 0;
 		
-		{{ partial "e/scheme.scss" . }};
+		{{ partial "e/scheme.scss" "cl-body-main" }};
 	}
 
