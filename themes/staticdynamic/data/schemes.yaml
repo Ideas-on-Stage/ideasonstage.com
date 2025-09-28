@@ -29,9 +29,13 @@ root:
     # For --font-ratio DON'T USE UNITS, it will be multiplied by the --font-base-size for perfect scaling
     # for example, --font-ratio: 1, --font-base-size 1.5 --> 1 * 1.5vw = 1.5vw actual font size
     font-base-size: "1.5vw" # font base size for normal screens
-    font-family: "Whitney SSm A, Whitney SSm B"
-    font-weight: "400"
     font-ratio: "1"
+
+    font-family-a: "Whitney SSm A, Whitney SSm B"
+    font-weight-a: "400"
+
+    font-family-b: "Gotham SSm A, Gotham SSm B"
+    font-weight-b: "700"
     
     # hero variables
     hero-height: "60vh"
@@ -84,61 +88,73 @@ a:
     color-border: "var(--color-primary)"
 
 b:
-    font-family: "Whitney SSm A, Whitney SSm B"
-    font-weight: "700"
-    font-ratio: "1"
+    font-family: "var(--font-family-a)"
+    font-weight: "var(--font-weight-b)"
+    font-ratio: "var(--font-ratio)"
 
 blockquote:
+    font-family: "var(--font-family-a)"
+    font-weight: "var(--font-weight-a)"
+    font-ratio: "var(--font-ratio)"
     line-height: "1.6em"
     color-back: "#f5f5f5"
     color-border: "var(--color-secondary)"
+    padding-top: "1rem"
+    padding-bottom: "1rem"
+    padding-left: "1rem"
+    padding-right: "1rem"
 
 h1:
-    font-family: "Gotham SSm A, Gotham SSm B"
-    font-weight: "700"
+    font-family: "var(--font-family-b)"
+    font-weight: "var(--font-weight-b)"
     font-ratio: "2"
     line-height: "1.2em"
     text-transform: "uppercase"
 
 h2:
-    font-family: "Gotham SSm A, Gotham SSm B"
-    font-weight: "700"
+    font-family: "var(--font-family-b)"
+    font-weight: "var(--font-weight-b)"
     font-ratio: "1.5"
     line-height: "1.2em"
     text-transform: "none"
 
 h3:
-    font-family: "Gotham SSm A, Gotham SSm B"
-    font-weight: "700"
+    font-family: "var(--font-family-b)"
+    font-weight: "var(--font-weight-b)"
     font-ratio: "1.25"
     line-height: "1.2em"
     text-transform: "none"
 
 h4:
-    font-family: "Gotham SSm A, Gotham SSm B"
-    font-weight: "700"
+    font-family: "var(--font-family-b)"
+    font-weight: "var(--font-weight-b)"
     font-ratio: "1.25"
     line-height: "1.2em"
     text-transform: "none"
 
 h5:
-    font-family: "Gotham SSm A, Gotham SSm B"
-    font-weight: "700"
+    font-family: "var(--font-family-b)"
+    font-weight: "var(--font-weight-b)"
     font-ratio: "1"
     line-height: "1.2em"
     text-transform: "none"
 
+input:
+    font-family: "var(--font-family-a)"
+    font-weight: "var(--font-weight-a)"
+    font-ratio: "1"
+
 li:
-    font-family: "var(--font-family)"
-    font-weight: "var(--font-weight)"
+    font-family: "var(--font-family-a)"
+    font-weight: "var(--font-weight-a)"
     font-ratio: "1"
     line-height: "1.6em"
     margin-top: "0.5em"
     margin-bottom: "0.5em"
 
 p:
-    font-family: "var(--font-family)"
-    font-weight: "var(--font-weight)"
+    font-family: "var(--font-family-a)"
+    font-weight: "var(--font-weight-a)"
     font-ratio: "1"
     margin-top: "1em"
     margin-bottom: "1em"
@@ -148,15 +164,22 @@ table:
     color-border: "#888"
 
 td:
+    font-family: "var(--font-family-a)"
+    font-weight: "var(--font-weight-a)"
     padding-top: "0.5em"
     padding-bottom: "0.5em"
     padding-left: "0.5em"
     padding-right: "0.5em"
     color-border: "#888"
 
+textarea:
+    font-family: "var(--font-family-a)"
+    font-weight: "var(--font-weight-a)"
+    font-ratio: "1"
+
 th:
-    font-family: "Gotham SSm A, Gotham SSm B"
-    font-weight: "700"
+    font-family: "var(--font-family-b)"
+    font-weight: "var(--font-weight-b)"
     font-ratio: "1"
     padding-top: "0.5em"
     padding-bottom: "0.5em"
@@ -314,6 +337,13 @@ cl-body-carousel:
 
 cl-body-carousel--item:
     color-back: "white"
+    .text:
+        padding-top: "1rem"
+        padding-bottom: "1rem"
+        padding-left: "1rem"
+        padding-right: "1rem"
+        .cl-core--button-secondary:
+            font-ratio: "0.8"
 
 cl-body-content404:
     scheme: "bg-dark"
@@ -399,7 +429,7 @@ cl-bodybottom-footer:
 cl-bodylazy-location:
     scheme: "bg-black"
     h2:
-        margin-top: "2em"
+        margin-top: "0em"
         margin-bottom: "0em"
         text-align: "center"
     p:
@@ -472,6 +502,13 @@ cl-sidebar:
         padding-left: "0"
     li:
         font-ratio: "0.8"
+    .cl-core--button-primary:
+        margin-top: "1rem"
+        padding-top: "0.5rem"
+        padding-bottom: "0.5rem"
+        padding-left: "1rem"
+        padding-right: "1rem"
+        font-ratio: "0.8"
 
 cl-sidebar-links:
     padding-top: "1rem"
@@ -493,6 +530,11 @@ cl-tags:
 # cl-shortcode schemes
 # -----------------
 
+cl-shortcode:
+    img:
+        margin-top: "0rem"
+        margin-bottom: "0rem"
+        
 cl-shortcode-agenda-item:
     text-align: "center"
     h4:
@@ -532,6 +574,10 @@ cl-shortcode-image-wide:
 
 cl-shortcode-list-card:
     .text:
+        padding-top: "1rem"
+        padding-bottom: "1rem"
+        padding-left: "1rem"
+        padding-right: "1rem"
         h3:
             font-ratio: "1"
         p:

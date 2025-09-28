@@ -108,6 +108,9 @@
 				}
 			}
 		}
+		
+		{{ partial "e/scheme.scss" "cl-shortcode" }}
+		
 	}
 
 	/* 2025-08-19: PMO delete due to too many incompatibilities */

@@ -47,16 +47,27 @@
 	{{- end -}}
 {{- end -}}
 
+{{/* <!-- if the $element is identified as a generic element... --> */}}
 {{- if $isgeneric -}}
+	{{/* <!-- ...then generate variable properties without element prefix --> */}}
+	{{/* <!-- if the element is not "root:"... --> */}}
 	{{- if ne "root" $element -}}
+		{{/* <!-- ...then generate generic variable properties (without element prefix) --> */}}
 		{{- partial "e/scheme-variable-properties" "generic" -}}
+	{{- else -}}
+		{{/* <!-- ...else variable properties should not be generated for root, do nothing --> */}}
 	{{- end -}}
+	{{/* <!-- set element name to nothing, so that variables below are generic --> */}}
 	{{- $element = "" -}}
 {{- else -}}
+	{{/* <!-- ...else generate specific variable properties --> */}}
 	{{- partial "e/scheme-variable-properties" $element -}}
 {{- end -}}
 
+{{/* <!-- if the element is not empty (= is not generic)... --> */}}
 {{- if ne "" $element -}}
+	{{/* <!-- ...then generate the specific prefix for variables --> */}}
+	{{/* <!-- for example, h1 variables will be prefixed with "h1-" --> */}}
 	{{- $element = printf "%s-" $element -}}
 {{- end -}}
 

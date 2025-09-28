@@ -11,7 +11,7 @@
 	}
 
 	a {
-		border-bottom: 1px dotted var(--color-primary); /* use stylized dotted underline for links */
+		border-bottom: 1px dotted var(--a-color-border); /* use stylized dotted underline for links */
 		transition: all .35s;
 		color: inherit;
 		font-family: inherit;
@@ -26,7 +26,7 @@
 	}
 	a:hover,
 	a:focus {
-		color: var(--color-text-hover);
+		color: var(--a-color-text-hover);
 		
 		transition: all .35s;
 		
@@ -40,10 +40,9 @@
 	blockquote {
 		@include firstlastchildnomargin();
 		
-		border-left: 4px solid var(--color-border);
+		border-left: 4px solid var(--blockquote-color-border);
 		margin-left: 0;
 		margin-right: 0;
-		padding: 1em;
 		
 		{{- $tag := "blockquote" -}}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
@@ -114,7 +113,7 @@
 	}
 
 	table {
-		border: 1px solid var(--color-border);
+		border: 1px solid var(--table-color-border);
 		border-collapse: collapse;
 		
 		{{- $tag := "table" -}}
@@ -122,14 +121,14 @@
 	}
 	
 	td {
-		border: 1px solid var(--color-border);
+		border: 1px solid var(--td-color-border);
 		
 		{{- $tag := "td" -}}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	th {
-		border: 1px solid var(--color-border);
+		border: 1px solid var(--th-color-border);
 		
 		{{- $tag := "th" -}}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
@@ -153,6 +152,7 @@
 		
 		&:hover {
 			// transition: background-color .5s;
+			color: var(--cl-core--button-primary-color-text-hover);
 			cursor: pointer;
 		}
 		
@@ -169,6 +169,7 @@
 		
 		&:hover {
 			// transition: background-color .5s;
+			color: var(--cl-core--button-secondary-color-text-hover);
 			cursor: pointer;
 		}
 		

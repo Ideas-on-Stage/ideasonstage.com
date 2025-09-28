@@ -10,7 +10,7 @@
 		
 		.text {
 			@include width-content();
-			@include margins($vertical: "medium");
+			@include padding($vertical: "medium");
 			@include text-front;
 			--color-back: none;
 		}
