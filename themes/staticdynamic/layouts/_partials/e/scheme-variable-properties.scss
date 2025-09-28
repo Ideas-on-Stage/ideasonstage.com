@@ -14,23 +14,21 @@
 {{/* <!-- try to get the text scheme matching the block name --> */}}
 {{- $element := . -}}
 {{- if or (eq "" $element) (eq "generic" $element) -}}
-	{{- printf "--scheme-variable-properties:generic;" -}}
 	{{- $element = "" -}}
 {{- else -}}
 	{{- $element = printf "%s-" $element -}}
-	{{- printf "--scheme-variable-properties:%s;" $element -}}
 {{- end -}}
 
 {{/* <!-- "generic" variable properties, applicable to all elements --> */}}
 {{- printf "background-color: var(--%scolor-back);" $element -}}
 {{- printf "color: var(--%scolor-text);" $element -}}
 {{- printf "text-align: var(--%stext-align);" $element -}}
-
 {{- printf "font-family: var(--%sfont-family);" $element -}}
 {{- printf "font-weight: var(--%sfont-weight);" $element -}}
 {{- printf "font-size: calc(var(--%sfont-ratio) * var(--font-base-size));" $element -}}
 {{- printf "line-height: var(--%sline-height);" $element -}}
 {{- printf "text-transform: var(--%stext-transform);" $element -}}
+
 
 {{/* <!-- "specific" variable properties, applicable to elements that are not "generic" --> */}}
 {{/* <!-- They are not generic because applying a generic padding and margin leads to too many problems --> */}}
@@ -41,6 +39,6 @@
 	{{- printf "padding-right: var(--%spadding-right);" $element -}}
 	{{- printf "margin-top: var(--%smargin-top);" $element -}}
 	{{- printf "margin-bottom: var(--%smargin-bottom);" $element -}}
-	{{- printf "margin-left: var(--%smargin-left);" $element -}}
-	{{- printf "margin-right: var(--%smargin-right);" $element -}}
+	{{/* <!-- no margin-left or margin-right as it is used to align elements --> */}}
+	{{/* <!-- including it in the scheme could cause layout issues --> */}}
 {{- end -}}

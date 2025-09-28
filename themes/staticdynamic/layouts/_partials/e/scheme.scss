@@ -8,11 +8,19 @@
 	
 	Arguments:
 	- element name as string
+	  example: "bodytop-navbar" will generate:
+	  - generic variable properties, for example font-weight:var(--font-weight)
+	  - generic variable values retrieved from schemes.yaml, for example --font-weight: 400
+	- OR element name and scheme name as slice
+	  example: (slice "li" "li") will generate:
+	  - specific variable properties, for example font-weight:var(--li-font-weight)
+	  - specific variable values, for example --li-font-weight: 400
 	
 --> */}}
 
 {{/* <!-- initialize variables --> */}}
 {{- $scheme := slice -}}
+{{- $isgeneric := false -}}
 
 {{/* <!-- get parameters, either the element name if called directly or --> */}}
 {{/* <!-- or a slice with element, values if called recursively --> */}}
@@ -21,9 +29,10 @@
 {{- $type := partial "f/getdatatype" $element -}}
 {{/* <!-- if the argument is a string... --> */}}
 {{- if eq "string" $type  -}}
+
 	{{/* <!-- ...then try to get the scheme matching the element name from the file "schemes.yaml" --> */}}
 	{{- $scheme = index site.Data.schemes $element -}}
-	{{- $element = "" -}}
+	{{- $isgeneric = true -}}
 {{- else -}}
 	{{/* <!-- ...else we assume e/scheme.scss has been called with a slice --> */}}
 	{{- $scheme = index $element 1 -}}
@@ -36,21 +45,21 @@
 	{{- if eq "." (substr $element 0 1) -}}
 		{{- $element = substr $element 1 -}}
 	{{- end -}}
-	{{- if ne "" $element -}}
-		{{- $element = printf "%s-" $element -}}
-	{{- end -}}
 {{- end -}}
 
-{{- if $scheme -}}
-	{{/* <!-- generate unused variable with the scheme name for debugging --> */}}
-	{{- if eq "string" $type -}}
-		{{ printf "--scheme:%s;" . }}
-	{{- else -}}
-		{{- if ne "" (index . 0) -}}
-		{{ printf "--scheme:%s;" (index . 0) }}
-		{{- end -}}
+{{- if $isgeneric -}}
+	{{- if ne "root" $element -}}
+		{{- partial "e/scheme-variable-properties" "generic" -}}
 	{{- end -}}
+	{{- $element = "" -}}
+{{- else -}}
+	{{- partial "e/scheme-variable-properties" $element -}}
 {{- end -}}
+
+{{- if ne "" $element -}}
+	{{- $element = printf "%s-" $element -}}
+{{- end -}}
+
 
 {{/* <!-- iterate over each value for the scheme to generate the css code --> */}}
 {{- range $key, $val := $scheme -}}
@@ -101,6 +110,7 @@
 		{{- else -}}
 			
 			{{/* <!-- generate tag{ css --> e.g. "h1{" where $key is "h1" */}}
+			{{/* <!-- this is necessary to override the default tag variables */}}
 			{{- printf "%s{" $key -}}
 			
 			{{/* <!-- call e/scheme recursively */}}
