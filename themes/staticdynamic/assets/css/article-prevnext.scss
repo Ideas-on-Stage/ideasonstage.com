@@ -4,5 +4,5 @@
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-between);
 		@include ul-list-style-none;
 		
-		{{ partial "e/scheme.scss" "cl-article-prevnext" }}
+		{{ partial "e/scheme.scss" ".cl-article-prevnext" }}
 	}

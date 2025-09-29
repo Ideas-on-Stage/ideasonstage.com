@@ -16,7 +16,7 @@
 			--color-back: none;
 		}
 		
-		{{ partial "e/scheme.scss" "cl-body-cta" }}
+		{{ partial "e/scheme.scss" ".cl-body-cta" }}
 	}
 
 @import "_logobar.scss";

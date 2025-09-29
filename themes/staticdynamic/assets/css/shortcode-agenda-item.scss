@@ -1,5 +1,5 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-shortcode-agenda-item {
-		{{ partial "e/scheme.scss" "cl-shortcode-agenda-item" }}
+		{{ partial "e/scheme.scss" ".cl-shortcode-agenda-item" }}
 	}

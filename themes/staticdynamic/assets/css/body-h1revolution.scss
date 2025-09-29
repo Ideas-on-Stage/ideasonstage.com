@@ -9,5 +9,5 @@
 			@include img-back($z-index: -100);
 		}
 		
-		{{ partial "e/scheme.scss" "cl-body-h1revolution" }}
+		{{ partial "e/scheme.scss" ".cl-body-h1revolution" }}
 	}

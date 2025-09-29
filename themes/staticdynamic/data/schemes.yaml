@@ -196,59 +196,11 @@ ul:
 
 
 # -----------------
-# cl-core-- variables 
-# Don't use "." in front of class name when on level 0
-# Use "." in front of class name on sublevels
+# .cl-* custom classes variables 
+# Update 2025-09-29: use "." in front of class names, on any level.
 # -----------------
 
-cl-core--button-primary:
-    padding-top: "1em"
-    padding-bottom: "1em"
-    padding-left: "2em"
-    padding-right: "2em"
-    font-family: "Gotham SSm A, Gotham SSm B"
-    font-weight: "700"
-    font-ratio: "1"
-    text-align: "center"
-    text-transform: "uppercase"
-    color-back: "var(--color-primary-contrast)"
-    color-text: "white"
-    color-back-hover: "var(--color-primary)"
-    color-text-hover: "white"
-
-cl-core--button-secondary:
-    padding: "0"
-    font-family: "Gotham SSm A, Gotham SSm B"
-    font-weight: "700"
-    font-ratio: "1"
-    line-height: "1.5em"
-    text-transform: "uppercase"
-    color-back: "none"
-    color-text: "var(--color-secondary)"
-    color-text-hover: "var(--color-secondary)"
-
-cl-core--tags:
-    margin-top: "1em"
-    margin-bottom: "1em"
-    
-cl-core--tag:
-    margin: "0"
-    padding-top: "0.25em"
-    padding-bottom: "0.25em"
-    padding-left: "0.5em"
-    padding-right: "0.5em"
-    color-back: "var(--color-lightgray)"
-    font-ratio: "0.8"
-    text-transform: "uppercase"
-
-
-
-# -------------
-# cl-block schemes
-# you only need to redefine elements that change from the root scheme
-# -------------
-
-cl-article-content:
+.cl-article-content:
     h2:
         margin-top: "2em"
         margin-bottom: "1em"
@@ -265,21 +217,21 @@ cl-article-content:
         margin-top: "1em"
         margin-bottom: "1em"
 
-cl-article-contenthome:
+.cl-article-contenthome:
     p:
         text-align: "center"
 
-cl-article-list:
+.cl-article-list:
     .item:
-        margin-top: "1em"
-        margin-bottom: "1em"
+        margin-top: "1rem"
+        margin-bottom: "1rem"
     p:
-        margin-top: "0em"
-        margin-bottom: "0em"
+        margin-top: "0.5rem"
+        margin-bottom: "0rem"
     .cl-core--button-secondary:
-        margin-top: "0.5em"
+        margin-top: "0.5rem"
 
-cl-article-listnews:
+.cl-article-listnews:
     h2:
         margin-top: "0em"
         margin-bottom: "0.5em"
@@ -290,7 +242,7 @@ cl-article-listnews:
         margin-top: "0.5em"
         margin-bottom: "0.5em"
 
-cl-article-listrevolution:
+.cl-article-listrevolution:
     h2:
         text-align: "center"
         margin-bottom: "0.5rem"
@@ -300,7 +252,7 @@ cl-article-listrevolution:
     p:
         margin-top: "0.5rem"
 
-cl-article-listteam:
+.cl-article-listteam:
     h2:
         font-ratio: "1"
         text-align: "center"
@@ -312,12 +264,12 @@ cl-article-listteam:
         margin-top: "0"
         margin-bottom: "0"
 
-cl-article-positionteam:
+.cl-article-positionteam:
     h2:
         font-ratio: "1.2"
         text-transform: "uppercase"
 
-cl-body-breadcrumbs:
+.cl-body-breadcrumbs:
     scheme: "bg-light"
     gap: "1rem"
     line-height: "1em"
@@ -326,7 +278,7 @@ cl-body-breadcrumbs:
     li:
         text-transform: "uppercase"
 
-cl-body-carousel:
+.cl-body-carousel:
     color-back: "var(--color-lightgray)"
     .button:
         font-ratio: "0.8"
@@ -335,7 +287,7 @@ cl-body-carousel:
     p:
         font-ratio: "0.8"
 
-cl-body-carousel--item:
+.cl-body-carousel--item:
     color-back: "white"
     .text:
         padding-top: "1rem"
@@ -345,7 +297,7 @@ cl-body-carousel--item:
         .cl-core--button-secondary:
             font-ratio: "0.8"
 
-cl-body-content404:
+.cl-body-content404:
     scheme: "bg-dark"
     h1:
         margin-top: "1em"
@@ -353,7 +305,7 @@ cl-body-content404:
     p:
         text-align: "center"
 
-cl-body-cta:
+.cl-body-cta:
     scheme: "bg-dark"
     h2:
         text-align: "center"
@@ -362,19 +314,19 @@ cl-body-cta:
         margin-bottom: "2em"
         text-align: "center"
 
-cl-body-countrylist:
+.cl-body-countrylist:
     scheme: "bg-dark"
     gap: "1em"
     .button-secondary:
         font-ratio: "0.85"
 
-cl-body-h1home:
+.cl-body-h1home:
     scheme: "bg-dark"
     h1:
         font-ratio: "1"
         text-align: "center"
 
-cl-body-h1--hero:
+.cl-body-h1--hero:
     text-align: "center"
     color-text: "white"
     h1:
@@ -385,19 +337,19 @@ cl-body-h1--hero:
         margin-bottom: "2em"
         text-align: "center"
 
-cl-body-h1--title:
+.cl-body-h1--title:
     h1:
         text-align: "center"
         color-text: "black"
         margin-top: "2em"
 
-cl-body-h1revolution:
+.cl-body-h1revolution:
     text-align: "center"
     h2:
         color-text: "white"
         margin-bottom: "0.5em"
 
-cl-bodybottom-contact-form:
+.cl-bodybottom-contact-form:
     h2:
         text-align: "center"
         margin-top: "0"
@@ -405,7 +357,7 @@ cl-bodybottom-contact-form:
     p:
         text-align: "center"
 
-cl-bodybottom-footer:
+.cl-bodybottom-footer:
     scheme: "bg-dark"
     h3:
         font-ratio: "1"
@@ -426,7 +378,7 @@ cl-bodybottom-footer:
     p:
         font-ratio: "0.8"
 
-cl-bodylazy-location:
+.cl-bodylazy-location:
     scheme: "bg-black"
     h2:
         margin-top: "0em"
@@ -435,14 +387,14 @@ cl-bodylazy-location:
     p:
         text-align: "center"
 
-cl-bodylazy-testimonials:
+.cl-bodylazy-testimonials:
     scheme: "bg-light"
     h4:
         font-ratio: "0.8"
     p:
         font-ratio: "0.8"
 
-cl-bodytop-navbar:
+.cl-bodytop-navbar:
     scheme: "bg-dark"
     font-base-size: "14px" # navbar is an exception
     li:
@@ -451,41 +403,83 @@ cl-bodytop-navbar:
         font-ratio: "1"
         text-transform: "uppercase"
 
-cl-form:
+.cl-core--button-primary:
+    padding-top: "1em"
+    padding-bottom: "1em"
+    padding-left: "2em"
+    padding-right: "2em"
+    font-family: "Gotham SSm A, Gotham SSm B"
+    font-weight: "700"
+    font-ratio: "1"
+    text-align: "center"
+    text-transform: "uppercase"
+    color-back: "var(--color-primary-contrast)"
+    color-text: "white"
+    color-back-hover: "var(--color-primary)"
+    color-text-hover: "white"
+
+.cl-core--button-secondary:
+    padding: "0"
+    font-family: "Gotham SSm A, Gotham SSm B"
+    font-weight: "700"
+    font-ratio: "1"
+    line-height: "1.5em"
+    text-transform: "uppercase"
+    color-back: "none"
+    color-text: "var(--color-secondary)"
+    color-text-hover: "var(--color-secondary)"
+
+.cl-core--tags:
+    margin-top: "1em"
+    margin-bottom: "1em"
+    
+.cl-core--tag:
+    font-family: "var(--font-family-a)"
+    font-weight: "var(--font-weight-a)"
+    margin: "0"
+    padding-top: "0.25em"
+    padding-bottom: "0.25em"
+    padding-left: "0.5em"
+    padding-right: "0.5em"
+    color-back: "var(--color-lightgray)"
+    font-ratio: "0.8"
+    text-transform: "uppercase"
+
+.cl-form:
     color-text: "#444"
     color-back: "#fff"
     color-border-focus: "var(--color-primary)"
 
-cl-main:
+.cl-main:
     h1:
         text-transform: "none"
         margin-bottom: "1em"
 
-cl-module-column-text-picture:
-    text-align: "center"
-
-cl-module-half-text-picture:
-    text-align: "center"
-
-cl-module-row-picture-text:
-    sm:
-        text-align: "center"
-
-cl-modules:
+.cl-modules:
     flex-row-gap: "var(--flex-row-gap-medium)"
     flex-column-gap: "var(--flex-column-gap-medium)"
     h3:
         font-ratio: "1.8"
 
-cl-more--fastsearch:
+.cl-modules--column-text-picture:
+    text-align: "center"
+
+.cl-modules--half-text-picture:
+    text-align: "center"
+
+.cl-modules--row-picture-text:
+    sm:
+        text-align: "center"
+
+.cl-more--fastsearch:
     color-search-input-back: "#555"
     color-search-input-text: "#ddd"
 
-cl-photo:
+.cl-photo:
     color-photo-border: "white"
     color-photo-shadow: "#aaa"
 
-cl-sidebar:
+.cl-sidebar:
     scheme: "bg-light"
     gap: "0"
     padding: "0"
@@ -510,13 +504,13 @@ cl-sidebar:
         padding-right: "1rem"
         font-ratio: "0.8"
 
-cl-sidebar-links:
+.cl-sidebar-links:
     padding-top: "1rem"
     padding-left: "1rem"
     padding-bottom: "1rem"
     padding-right: "1rem"
 
-cl-tags:
+.cl-tags:
     font-ratio: "0.8"
     text-transform: "uppercase"
     li:
@@ -530,12 +524,12 @@ cl-tags:
 # cl-shortcode schemes
 # -----------------
 
-cl-shortcode:
+.cl-shortcode:
     img:
         margin-top: "0rem"
         margin-bottom: "0rem"
         
-cl-shortcode-agenda-item:
+.cl-shortcode-agenda-item:
     text-align: "center"
     h4:
         margin-bottom: "0.2em"
@@ -545,7 +539,7 @@ cl-shortcode-agenda-item:
     p:
         margin-top: "0em"
 
-cl-shortcode-agenda-list:
+.cl-shortcode-agenda-list:
     text-align: "center"
     h4:
         margin-bottom: "0.2em"
@@ -553,26 +547,26 @@ cl-shortcode-agenda-list:
         font-ratio: "1em"
         color-text: "var(--color-secondary)"
 
-cl-shortcode-call-to-action:
+.cl-shortcode-call-to-action:
     text-align: "center"
     h3:
         text-align: "center"
 
-cl-shortcode-icon-list:
+.cl-shortcode-icon-list:
     h3:
         margin-bottom: "1.5em"
         text-align: "center"
 
-cl-shortcode-icon-item:
+.cl-shortcode-icon-item:
     p:
         margin-top: "0.5em"
         text-align: "center"
 
-cl-shortcode-image-wide:
+.cl-shortcode-image-wide:
     margin-top: "0em"
     margin-bottom: "0em"
 
-cl-shortcode-list-card:
+.cl-shortcode-list-card:
     .text:
         padding-top: "1rem"
         padding-bottom: "1rem"
@@ -585,7 +579,7 @@ cl-shortcode-list-card:
         li:
             font-ratio: "0.8"
 
-cl-shortcode-section-hero:
+.cl-shortcode-section-hero:
     h1:
         text-transform: "uppercase"
 

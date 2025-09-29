@@ -3,5 +3,5 @@
 	/* container for sidebar and main content area */
 	.cl-body-mainfull {
 		
-		{{ partial "e/scheme.scss" "cl-body-mainfull" }};
+		{{ partial "e/scheme.scss" ".cl-body-mainfull" }};
 	}

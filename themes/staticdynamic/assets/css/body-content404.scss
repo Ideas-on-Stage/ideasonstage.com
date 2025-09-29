@@ -5,5 +5,5 @@
 		@include height-screen-full;
 		@include width-parent-full;
 		
-		{{ partial "e/scheme.scss" "cl-body-content404" }}
+		{{ partial "e/scheme.scss" ".cl-body-content404" }}
 	}

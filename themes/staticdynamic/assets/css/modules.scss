@@ -14,10 +14,10 @@
 			padding: 0;
 		}
 		
-		{{ partial "e/scheme.scss" "cl-modules" }}
+		{{ partial "e/scheme.scss" ".cl-modules" }}
 	}
 
-	.cl-module-column-text-picture {
+	.cl-modules--column-text-picture {
 		/* full-width module div, text on top, image bottom */
 		@include flex-column;
 		@include height-module;
@@ -45,10 +45,10 @@
 			}
 		}		
 		
-		{{ partial "e/scheme.scss" "cl-module-column-text-picture" }}
+		{{ partial "e/scheme.scss" ".cl-modules--column-text-picture" }}
 	}
 
-	.cl-module-half-text-picture {
+	.cl-modules--half-text-picture {
 		/* half-width module div, text on top, image bottom */
 		@include height-module;
 		@include width-column(2);
@@ -76,10 +76,10 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" "cl-module-half-text-picture" }}
+		{{ partial "e/scheme.scss" ".cl-modules--half-text-picture" }}
 	}
 
-	.cl-module-row-text-picture {
+	.cl-modules--row-text-picture {
 		/* full-width module div, image left, text right */
 		@include flex-row;
 		@include height-module;
@@ -116,10 +116,10 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" "cl-module-row-text-picture" }}
+		{{ partial "e/scheme.scss" ".cl-modules--row-text-picture" }}
 	}
 
-	.cl-module-row-picture-text {
+	.cl-modules--row-picture-text {
 		/* full-width module div, image left, text right */
 		@include flex-row;
 		@include height-module;
@@ -156,5 +156,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" "cl-module-row-picture-text" }}
+		{{ partial "e/scheme.scss" ".cl-modules--row-picture-text" }}
 	}

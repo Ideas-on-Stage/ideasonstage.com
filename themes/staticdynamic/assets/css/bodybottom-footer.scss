@@ -26,5 +26,5 @@
 			@include margins($top: "medium");
 		}
 		
-		{{ partial "e/scheme.scss" "cl-bodybottom-footer" }}
+		{{ partial "e/scheme.scss" ".cl-bodybottom-footer" }}
 	}

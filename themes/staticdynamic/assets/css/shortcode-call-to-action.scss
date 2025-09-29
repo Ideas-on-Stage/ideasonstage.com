@@ -7,5 +7,5 @@
 			@include firstlastchildnomargin();
 		}
 		
-		{{ partial "e/scheme.scss" "cl-shortcode-call-to-action" }}
+		{{ partial "e/scheme.scss" ".cl-shortcode-call-to-action" }}
 	}

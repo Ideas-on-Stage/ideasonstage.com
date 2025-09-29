@@ -8,5 +8,5 @@
 			@include ul-list-style-none;
 		}
 		
-		{{ partial "e/scheme.scss" "cl-shortcode-agenda-list" }}
+		{{ partial "e/scheme.scss" ".cl-shortcode-agenda-list" }}
 	}

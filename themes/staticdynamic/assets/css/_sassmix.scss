@@ -367,30 +367,6 @@
 		--ul-list-indent: 0;
 		--ul-padding-left: 0;
 	}
-
-	@mixin variable-scheme() {
-		background-color: var(--color-back);
-		color: var(--color-text);
-		
-		font-family: var(--font-family);
-		font-weight: var(--font-weight);
-		font-size: calc(var(--font-ratio) * var(--font-base-size));
-		line-height: var(--line-height);
-		text-align: var(--text-align);
-		text-transform: var(--text-transform);
-		
-		padding: var(--padding);
-		padding-top: var(--padding-top);
-		padding-bottom: var(--padding-bottom);
-		padding-left: var(--padding-left);
-		padding-right: var(--padding-right);
-		
-		margin: var(--margin);
-		margin-top: var(--margin-top);
-		margin-bottom: var(--margin-bottom);
-		margin-left: var(--margin-left);
-		margin-right: var(--margin-right);
-	}
 	
 	@mixin width-column($col-nb, $col-span: 1) {
 		/*

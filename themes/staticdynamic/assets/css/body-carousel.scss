@@ -11,7 +11,7 @@
 			margin-left: 2rem;
 		}
 		
-		{{ partial "e/scheme.scss" "cl-body-carousel" }}
+		{{ partial "e/scheme.scss" ".cl-body-carousel" }}
 	}
 	
 	/* container for the carousel items */
@@ -61,5 +61,5 @@
 		}
 		
 		{{ partial "e/colorscheme.scss" "cl-body-carousel--item" }}
-		{{ partial "e/scheme.scss" "cl-body-carousel--item" }}
+		{{ partial "e/scheme.scss" ".cl-body-carousel--item" }}
 	}

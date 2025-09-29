@@ -8,5 +8,5 @@
 			@include ul-container;
 		}
 		
-		{{ partial "e/scheme.scss" "cl-body-countrylist" }}
+		{{ partial "e/scheme.scss" ".cl-body-countrylist" }}
 	}

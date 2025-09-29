@@ -6,5 +6,5 @@
 		> ul {
 			@include ul-list-style-none();
 		}
-		{{ partial "e/scheme.scss" "cl-sidebar-related" }}
+		{{ partial "e/scheme.scss" ".cl-sidebar-related" }}
 	}

@@ -156,7 +156,7 @@
 			cursor: pointer;
 		}
 		
-		{{- $tag := "cl-core--button-primary" -}}
+		{{- $tag := ".cl-core--button-primary" -}}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
@@ -173,12 +173,12 @@
 			cursor: pointer;
 		}
 		
-		{{- $tag := "cl-core--button-secondary" -}}
+		{{- $tag := ".cl-core--button-secondary" -}}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	.cl-core--authorandtime {
-		{{- $tag := "cl-core--authorandtime" -}}
+		{{- $tag := ".cl-core--authorandtime" -}}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
@@ -187,12 +187,12 @@
 		@include ul-container();
 		@include width-parent-full();
 		
-		{{- $tag := "cl-core--tags" -}}
+		{{- $tag := ".cl-core--tags" -}}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	.cl-core--tag {
-		{{- $tag := "cl-core--tag" -}}
+		{{- $tag := ".cl-core--tag" -}}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 

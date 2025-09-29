@@ -3,5 +3,5 @@
 	.cl-sidebar-topcategories {
 		padding: 1em;	
 		
-		{{ partial "e/scheme.scss" "cl-sidebar-topcategories" }}
+		{{ partial "e/scheme.scss" ".cl-sidebar-topcategories" }}
 	}

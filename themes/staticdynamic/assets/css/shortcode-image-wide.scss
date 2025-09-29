@@ -7,5 +7,5 @@
 			@include img-contain;
 		}
 		
-		{{ partial "e/scheme.scss" "cl-shortcode-image-wide" }}
+		{{ partial "e/scheme.scss" ".cl-shortcode-image-wide" }}
 	}
