@@ -460,6 +460,10 @@ ul:
     flex-column-gap: "var(--flex-column-gap-medium)"
     h3:
         font-ratio: "1.8"
+    p:
+        margin-top: "0.4rem"
+    .cl-core--button-secondary:
+        margin-top: "1rem"
 
 .cl-modules--column-text-picture:
     text-align: "center"
