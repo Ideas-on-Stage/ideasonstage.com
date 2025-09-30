@@ -26,7 +26,6 @@
 		.text {
 			/* div containing text on top */
 			@include text-front;
-			@include text-padding;
 			@include height-parent-half;
 			@include width-parent-full;
 		}
@@ -57,7 +56,6 @@
 		.text {
 			/* div containing text on top */
 			@include text-front;
-			@include text-padding;
 			@include height-parent-half;
 			@include width-parent-full;
 		}
@@ -92,7 +90,7 @@
 		.image {
 			/* div containing pic on left */
 			@include height-parent-full;
-			@include width-twothirds;
+			@include width-column(3,2);
 			@include height-parent-half-sm;
 			@include width-parent-full-sm;
 			
@@ -105,10 +103,9 @@
 		.text {
 			/* div containing text on right */
 			@include text-front;
-			@include text-padding;
 			@include flex-column($align-v: center);
 			@include height-parent-full;
-			@include width-onethird;
+			@include width-column(3);
 			@include height-parent-half-sm;
 			@include width-parent-full-sm;
 			@media (max-width: $gl-sm-screen) {
@@ -132,7 +129,7 @@
 		.image {
 			/* div containing pic on left */
 			@include height-parent-full;
-			@include width-twothirds;
+			@include width-column(3,2);
 			@include height-parent-half-sm;
 			@include width-parent-full-sm;
 			
@@ -145,10 +142,9 @@
 		.text {
 			/* div containing text on right */
 			@include text-front;
-			@include text-padding;
 			@include flex-column($align-v: center);
 			@include height-parent-full;
-			@include width-onethird;
+			@include width-column(3);
 			@include height-parent-half-sm;
 			@include width-parent-full-sm;
 			@media (max-width: $gl-sm-screen) {

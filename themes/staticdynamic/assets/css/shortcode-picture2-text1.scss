@@ -6,12 +6,12 @@
 		
 		.text {
 			@include firstlastchildnomargin;
-			@include width-onethird;
+			@include width-column(3);
 			@include width-parent-full-sm;
 		}
 		
 		img {
-			@include width-twothirds;
+			@include width-column(3,2);
 			@include width-parent-full-sm;
 		}
 		

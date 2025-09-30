@@ -2,7 +2,7 @@
 
 	/* used to create a grid or carousel */
 	ul.cl-shortcode-list {
-		@include ul-list-style-none();
+		@include ul-container();
 		
 		&.carousel {
 			@include flex-row($wrap: "nowrap", $align-row-v: stretch, $align-h: flex-start);

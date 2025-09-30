@@ -5,7 +5,7 @@
 		@include firstlastchildnomargin;
 		
 		ul {
-			@include ul-list-style-none;
+			@include ul-container();
 		}
 		
 		{{ partial "e/scheme.scss" ".cl-shortcode-agenda-list" }}

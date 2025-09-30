@@ -13,18 +13,45 @@
 
 {{/* <!-- try to get hero picture --> */}}
 {{- $hero := partial "f/getheropicturepath.go" . -}}
+
+{{/* <!-- if hero pic found... --> */}}
 {{- if $hero -}}
+	{{/* <!-- ...then create hero with pic and h1 --> */}}
+
+	{{/* <!-- set arguments for e/img --> */}}
+	{{- $img := dict "img" $hero "loading" "eager" "decoding" "async" -}}
+
+	{{- $srcset := partial "f/getimgsrcset.go" $hero -}}
 	{{/* <!-- create hero --> */}}
 	<header id="title" class="cl-body-h1--hero">
-		{{- $srcset := partial "f/getimgsrcset.go" $hero -}}
-		<img
-			loading="eager"
-			decoding="async"
-			src="{{ collections.Index $srcset 0 }}"
-			srcset="{{ collections.Index $srcset 1 }}"
-			sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
-			{{ with .Title }}alt="{{ . }}"{{ end }}>
-			
+		<div class="img">
+			{{ partial "e/img.html" $img }}
+		</div>
+		
+		<div class="overlay">
+		</div>
+		
+		{{/* <!-- add logobar if there is one --> */}}
+		<div class="logobar-layer">
+			<div class="logobar-container">
+				{{ range .Params.hero }}
+					<div class="logobar-item">
+						{{ $srcset := partial "f/getimgsrcset.go" .img }}
+						<img
+							loading="eager"
+							decoding="async"
+							src="{{ collections.Index $srcset 0 }}"
+							srcset="{{ collections.Index $srcset 1 }}"
+							sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+							{{ with .title }}alt="{{ . }}"{{ end }}>
+						<p>
+							{{ .description }}
+						</p>
+					</div>
+				{{ end }}
+			</div>
+		</div>	
+		
 		<div class="text">
 			{{/* <!-- hero title --> */}}
 			{{- with .Title -}}
@@ -48,18 +75,16 @@
 			{{- end -}}
 		</div>
 		
-		{{ partial "e/logobar.html" page }}
-		
 	</header>
 {{- else if .Title -}}
-	{{/* <!-- create standard title --> */}}
+	{{/* <!-- ...else create standard h1 title --> */}}
+	{{- with .Title -}}
 	<header id="title" class="cl-body-h1--title">
-		{{- with .Title -}}
 		<h1>
 			{{ . | markdownify }}
 		</h1>
-		{{- end -}}
 	</header>
+	{{- end -}}
 {{- else -}}
 	<p class="error">ERROR: front matter missing .Title</p>
 {{- end -}}

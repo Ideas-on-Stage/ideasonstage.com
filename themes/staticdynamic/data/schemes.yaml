@@ -16,8 +16,8 @@ root:
     color-border: "#bbb"
     
     # content variables
-    content-width: "100%"
     content-max-width: "80vw"
+    content-narrow-max-width: "50vw"
     
     # flex variables
     flex-column-gap-big: "24px"
@@ -41,7 +41,7 @@ root:
     hero-height: "60vh"
     
     # module variables
-    module-height: "40"
+    module-height-ratio: "40" # no unit, as ratio of width
     
     # menubar variables
     menubar-height: "52px"
@@ -54,8 +54,8 @@ root:
     # adapt variable values for small screens
     sm:
         # content variables
-        content-width: "100%"
         content-max-width: "92vw" # recommended: 100vw - 2 * flex-column-gap-medium
+        content-narrow-max-width: "92vw" # recommended: 100vw - 2 * flex-column-gap-medium
         
         #flexbox variables
         flex-column-gap-big: "4vw"
@@ -70,7 +70,7 @@ root:
         hero-height: "70vh"
         
         # module variables
-        module-height: "140"
+        module-height-ratio: "140" # no unit
     
     # adapt variable values for large screens
     lg:
@@ -464,6 +464,11 @@ ul:
         margin-top: "0.4rem"
     .cl-core--button-secondary:
         margin-top: "1rem"
+    .text:
+        padding-top: "2rem"
+        padding-bottom: "2rem"
+        padding-left: "2rem"
+        padding-right: "2rem"
 
 .cl-modules--column-text-picture:
     text-align: "center"

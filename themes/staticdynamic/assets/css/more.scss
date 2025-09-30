@@ -23,7 +23,7 @@
 		}
 		
 		.results {
-			@include ul-list-style-none;
+			@include ul-container();
 		}
 		
 		.results-description {

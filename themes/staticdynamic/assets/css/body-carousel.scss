@@ -18,7 +18,7 @@
 	.cl-body-carousel--carousel {
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: stretch);
 		@include scroll-h;
-		@include ul-list-style-none;
+		@include ul-container();
 		padding: var(--flex-row-gap) var(--flex-column-gap);
 		width: 100%;
 	}

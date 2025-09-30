@@ -151,8 +151,8 @@
 	
 	@mixin height-module {
 		/* set height to fixed module height */
-		height: calc( var(--module-height) * 1vw ); /* defines the fixed height of the module */
-		max-height: calc( var(--page-max-width) / 80 * var(--module-height) );
+		height: calc( var(--module-height-ratio) * 1vw ); /* defines the fixed height of the module */
+		max-height: calc( var(--page-max-width) / 80 * var(--module-height-ratio) );
 	}
 	
 	@mixin height-navbar {
@@ -160,7 +160,7 @@
 		height: var(--menubar-height);
 	}
 	
-	@mixin img-back($z-index: 0) {
+	@mixin img-back($z-index: -100) {
 		/*
 			puts image in the back as a background image, full size of parent
 			(also see text-front to put text in front of image)
@@ -208,6 +208,17 @@
 		/* image on same line as text, useful to add icons in text */
 		display: inline-block;
 	}
+	
+	@mixin layer($z-index: -100) {
+		position: absolute;
+		height: inherit; /* ! parent container must have height in absolute unit or 100%, but not 0-99% */
+		width: inherit; /* ! parent container must have width in absolute unit or 100%, but not not 0-99% */
+		max-width: inherit;
+		object-fit: cover;
+		@if 0 != $z-index {
+			z-index: $z-index;
+		}
+	}		
 	
 	@mixin margins($vertical: "", $top: "", $bottom: "") {
 		/*
@@ -335,139 +346,135 @@
 		
 	}
 	
-	@mixin text-front($z-index: 10) {
+	@mixin text-front($z-index: 100) {
 		/* 
 			puts text front, often to layer it above an image
 			(also see img-back to put image in the background)
 		*/
 		position: relative;	/* enables z-index */
 		z-index: $z-index; /* if text overflows, it will go over picture below */
-	}
-	
-	@mixin text-padding($padding: 2em) {
-		padding: $padding;
+
 	}
 
-	/* use to remove all styles from ul, useful to use ul for grids, carousels, etc. */
-	@mixin ul-list-style-none {
-		--ul-list-style-type: none;
-		--ul-list-indent: 0;
-		--ul-margin-top: 0;
-		--ul-margin-bottom: 0;
-		--ul-padding-left: 0;
-	}
-
+	/*
+		ul-container()
+		
+		turns a ul tag into an unstyled container
+		- no bullets in front of li items
+		- no indents
+	*/
 	@mixin ul-container {
-		/*
-			Turns a ul tag into an unstyled container
-			- no bullets in front of li items
-			- no indents
-		*/
 		--ul-list-style-type: none;
 		--ul-list-indent: 0;
 		--ul-padding-left: 0;
 	}
 	
-	@mixin width-column($col-nb, $col-span: 1) {
-		/*
-			Calculates exact width of item based on a column system.
-			
-			Parameters:
-			- $col-nb: the number of columns to use to divide the total width
-			  eg. 3 will result in a one-third width, 5 in a one-fifth width, minus the gaps
-			- $col-span: the number of columns covered by the ite
-			  eg if $col-nb is 3 and $col-span is 2, the item will be two-thirds width.
+	/*
+		width-column()
 		
-			Note: parent should be a flex-container with a specified width.
-			If parent has no width specified, the result will be wonky.
-		*/
+		calculates exact width of item based on a column system.
 		
+		Parameters:
+		- $col-nb: the number of columns to use to divide the total width
+		  eg. 3 will result in a one-third width, 5 in a one-fifth width, minus the gaps
+		- $col-span: the number of columns covered by the ite
+		  eg if $col-nb is 3 and $col-span is 2, the item will be two-thirds width.
+		
+		Note: parent must be a flex-container with a specified width in absolute units.
+		a width of 100% will work only if the parent is actually 100% of total width of viewport
+		if parent has no width specified, the result will be wonky.
+	*/
+	@mixin width-column($col-nb, $col-span: 1) {		
 		$gap-nb: $col-nb - 1;
 		$gap-span: $col-span - 1;
 		flex-basis: calc( ( 100% - #{$gap-nb} * var(--flex-column-gap) ) / #{$col-nb} * #{$col-span} + var(--flex-column-gap) * #{$gap-span} - 0.001px + 0.001px );
 		width: calc( ( 100% - #{$gap-nb} * var(--flex-column-gap) ) / #{$col-nb} * #{$col-span} + var(--flex-column-gap) * #{$gap-span} - 0.001px + 0.001px );
 	}
 	
-	@mixin width-column-sm($col-nb, $col-span: 1) {
-		/*
-			Calculates exact width of item based on a column system,
-			for small screens.
-			
-			For example:
-			@include width-column(3,2); → item will be tho-thirds on normal screens.
-			@include width-column-sm(1); → but item will switch to full parent width on small screens.
-		*/
+	/*
+		width-column-sm()
 		
+		calculates exact width of item based on a column system for small screens.
+		
+		for example:
+		@include width-column(3,2); → item will be tho-thirds on normal screens.
+		@include width-column-sm(1); → but item will switch to full parent width on small screens.
+	*/
+	@mixin width-column-sm($col-nb, $col-span: 1) {
 		@media (max-width: $gl-sm-screen) {
 			@include width-column($col-nb, $col-span);
 		}
 	}
 
-	/* standard main content width */
+	/*
+		width-content()
+		
+		set width of element to a maximum of "--content-max-width"
+		default is 80vw on normal screens
+		--content-max-width is defined in schemes.yaml		
+		the value of --content-max-width will adapt automatically for small screens
+	*/
 	@mixin width-content() {
-		/*
-			Use content width
-			Note: variable values will adapt automatically for small screens
-		*/
-		width: var(--content-width);
+		width: calc( 0.001px + 100% - 0.001px );
 		max-width: var(--content-max-width);
 		margin-left: auto;
 		margin-right: auto;
 	}
 
+	/*
+		width-content-sm()
+		set width of element to a maximum of "--content-max-width" on small screens
+		if you already use width-content() for a given element,
+		then there is no need to add width-content-sm() for that element
+	*/
 	@mixin width-content-sm() {
-		/*
-			Use content width on small screens
-			Note: if you already use width-content() for a given element,
-			then there is no need to add width-content-sm() for that element
-		*/
 		@media (max-width: $gl-sm-screen) {
-			width: var(--content-width);
+			width: calc( 0.001px + 100% - 0.001px );
 			max-width: var(--content-max-width);
 			margin-left: auto;
 			margin-right: auto;
 		}
 	}
 
-	/* use when content would be too wide, e.g. forms */
+	/*
+		width-content-narrow()
+		
+		set width of element to a maximum of "--content-narrow-max-width" on small screens
+		default is 50vw on normal screens
+		--content-narrow-max-width is defined in schemes.yaml
+		use to restrict content width on normal or large screens,
+		for example for the forms so the fields are not too large.
+	*/
 	@mixin width-content-narrow() {
-		width: 100%;
-		max-width: 50vw;
+		width: calc( 0.001px + 100% - 0.001px );
+		max-width: var(--content-narrow-max-width);
 		margin-left: auto;
 		margin-right: auto;
-		@media (max-width: $gl-sm-screen) {
-			max-width: 90vw;
-		}
 	}
 	
-	/* full width (of parent) */
+	/* 
+		width-parent-full()
+		
+		set width of element to full width of parent
+	*/
 	@mixin width-parent-full() {
-		width: calc( 100% - 0.001px + 0.001px );
-		max-width: calc( 100% - 0.001px + 0.001px );
+		width: calc( 0.001px + 100% - 0.001px );
+		max-width: calc( 0.001px + 100% - 0.001px );
 	}
 
-	/* use to force full width (of parent) on small screens. */
+	/*
+		width-parent-full-sm()
+		
+		set width of element to full width of parent on small screens.
+		useful if an element is half width on normal screens,
+		but should be full width on small screens.
+	*/
 	@mixin width-parent-full-sm() {
 		@media (max-width: $gl-sm-screen) {
 			/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column.
 				note: this should probably be removed, and I should fix the way width-column is handled. */
-			flex-basis: 100%;
-			width: 100%;
-			max-width: 100%;
+			flex-basis: calc( 0.001px + 100% - 0.001px );
+			width: calc( 0.001px + 100% - 0.001px );
+			max-width: calc( 0.001px + 100% - 0.001px );
 		}
-	}
-
-	/* 
-		the widths below are legacy and are not recommended to use.
-	*/	
-	
-	@mixin width-onethird() {
-		/* Instead use @include width-column(3) */
-		width: calc( 33% );
-	}
-	
-	@mixin width-twothirds() {
-		/* Instead use @include width-column(3,2) */
-		--flex-column-gap: var(--flex-column-gap-medium); 
-		width: calc( 67% - var(--flex-column-gap) );	/* reduce main content width when there is a sidebar */
 	}

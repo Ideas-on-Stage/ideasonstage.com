@@ -25,9 +25,14 @@
 
 {{/* <!-- check if body-cta-data parameter exists in page front matter --> */}}
 {{- with $data -}}
-<div id="call-to-action" class="cl-body-cta" {{ with .opacity }}style="background-color:rgba(0,0,0,.{{ . }});"{{ end }}>
+<div id="call-to-action" class="cl-body-cta">
 	{{/* <!-- cta picture --> */}}
-	{{ partial "e/img.html" . }}
+	<div class="img">
+		{{ partial "e/img.html" . }}
+	</div>
+	
+	<div class="overlay">
+	</div>
 	
 	<div class="text">
 		{{/* <!-- cta title --> */}}
