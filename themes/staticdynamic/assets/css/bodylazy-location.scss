@@ -4,14 +4,17 @@
 		@include height-module();
 		@include width-parent-full();
 		
-		> img {
-			@include img-back();
+		.img {
+			@include layer($z-index: 10);
+			> img {
+				@include img-back();
+			}
 		}
 		
 		.text {
+			@include text-front($z-index: 20);
 			@include width-content();
 			@include padding($vertical: "medium");
-			@include text-front;
 			--color-back: none;
 		}
 		

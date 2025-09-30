@@ -31,9 +31,9 @@
 	{{- with .title -}}
 		<h3>{{ . }}</h3>
 	{{- end -}}
-	<ul class="cl-body-carousel--carousel">
+	<ul class="container">
 		{{- range .items -}}
-			<li class="cl-body-carousel--item">
+			<li class="item">
 				<div class="text">
 					<a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
 						{{ with .title }}

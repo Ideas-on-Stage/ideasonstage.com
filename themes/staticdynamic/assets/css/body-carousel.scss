@@ -12,54 +12,54 @@
 		}
 		
 		{{ partial "e/scheme.scss" ".cl-body-carousel" }}
-	}
-	
-	/* container for the carousel items */
-	.cl-body-carousel--carousel {
-		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: stretch);
-		@include scroll-h;
-		@include ul-container();
-		padding: var(--flex-row-gap) var(--flex-column-gap);
-		width: 100%;
-	}
-	
-	/* carousel item */
-	.cl-body-carousel--item {
-		/* 
-			note: height of all items is determined by item with the most lines of text
-			this is due to the use of stretch in the flex-parent definition
-		*/
-		flex-grow: 0; /* do not grow horizontally */
-		flex-shrink: 0; /* and do not shrink horizontally */
-		flex-basis: 25vw; /* so that basis width is always honored */
-		border-radius: 5px;
-		background-color: var(--color-back);
-		@media (max-width: $gl-sm-screen) {
-			flex-basis: 70vw;
-		}
 		
-		/* text container containing title, description and button of item */
-		.text {
-			@include flex-column($align-v: space-between);
-			padding: 1em;
-			height: calc( 100% - 15vw ); /* full container height minus picture height */
-			border-radius: 5px 5px 0px 0px;
-			@media (max-width: $gl-sm-screen) {
-				height: calc( 100% - 40vw );
-				min-height: 45vw;
-			}
-		}
-		
-		img {
-			height: 15vw;
+		/* container for the carousel items */
+		.container {
+			@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: stretch);
+			@include scroll-h;
+			@include ul-container();
+			padding: var(--flex-row-gap) var(--flex-column-gap);
 			width: 100%;
-			border-radius: 0px 0px 5px 5px;
-			object-fit: cover;
-			@media (max-width: $gl-sm-screen) {
-				height: 40vw;
+			
+			/* carousel item */
+			.item {
+				/* 
+					note: height of all items is determined by item with the most lines of text
+					this is due to the use of stretch in the flex-parent definition
+				*/
+				flex-grow: 0; /* do not grow horizontally */
+				flex-shrink: 0; /* and do not shrink horizontally */
+				flex-basis: 25vw; /* so that basis width is always honored */
+				border-radius: 5px;
+				background-color: var(--color-back);
+				@media (max-width: $gl-sm-screen) {
+					flex-basis: 70vw;
+				}
+				
+				/* text container containing title, description and button of item */
+				.text {
+					@include flex-column($align-v: space-between);
+					padding: 1em;
+					height: calc( 100% - 15vw ); /* full container height minus picture height */
+					border-radius: 5px 5px 0px 0px;
+					@media (max-width: $gl-sm-screen) {
+						height: calc( 100% - 40vw );
+						min-height: 45vw;
+					}
+				}
+				
+				img {
+					height: 15vw;
+					width: 100%;
+					border-radius: 0px 0px 5px 5px;
+					object-fit: cover;
+					@media (max-width: $gl-sm-screen) {
+						height: 40vw;
+					}
+				}
+				
+				{{ partial "e/colorscheme.scss" "cl-body-carousel--item" }}
+				{{ partial "e/scheme.scss" ".cl-body-carousel--item" }}
 			}
 		}
-		
-		{{ partial "e/colorscheme.scss" "cl-body-carousel--item" }}
-		{{ partial "e/scheme.scss" ".cl-body-carousel--item" }}
 	}

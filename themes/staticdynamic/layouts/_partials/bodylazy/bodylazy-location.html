@@ -2,12 +2,14 @@
 	{{- if not .disabled -}}
 		<section id="address" class="cl-bodylazy-location">
 			{{- $srcset := partial "f/getimgsrcset.go" .bgimage -}}
-			<img
-				loading="lazy"
-				src="{{ collections.Index $srcset 0 }}"
-				srcset="{{ collections.Index $srcset 1 }}"
-				sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
-				alt="Ideas on Stage Champs Élysées">
+			<div class="img">
+				<img
+					loading="lazy"
+					src="{{ collections.Index $srcset 0 }}"
+					srcset="{{ collections.Index $srcset 1 }}"
+					sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+					alt="Ideas on Stage Champs Élysées">
+			</div>
 			<div class="text">
 				<h2>
 					{{ with .title }}{{ . | markdownify }}{{ end }}
