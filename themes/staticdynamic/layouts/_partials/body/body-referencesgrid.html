@@ -16,7 +16,7 @@
 {{ with $data }}
 	<section id="reference-list" class="cl-referencesgrid">
 		{{ range . }}
-			{{ $srcset := partial "f/getimgsrcset.go" .picture }}
+			{{ $srcset := partial "f/getimgsrcset.go" .img }}
 			<img
 				src="{{ collections.Index $srcset 0 }}"
 				srcset="{{ collections.Index $srcset 1 }}"

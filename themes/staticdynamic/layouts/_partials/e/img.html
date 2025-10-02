@@ -3,24 +3,37 @@
 	e/img.html
 	
 	Parameters:
-	- a page object (in which case it will try to retrieve img in the following order:
-		- a thumbnail.jpg file,
-		- .Params.img
-		- .Params.picture
-	- a data object, with the required properties (see variables below)	
+	- a page object:
+		- It will try to retrieve img in the following order:
+			- a thumbnail.jpg file located in the same folder as the page,
+			- .Params.img
+			- .Params.picture (deprecated, use .Params.img instead)
+		- It will get the alt text in the following order:
+			- .Params.alt
+			- .Params.title
+	- a data object, with the required properties (see variables below)
+		- .img: the image file
+		- .alt: the image alt description
+		- .class: a list of specific classes applicable to the img
+		- .loading: "eager", etc.
+		- .decoding: "async", etc.
+		- .sizes: list of sizes 
 	
  --> */}}
 {{- $imgpath := partial "f/getimgpath.go" . -}}
 {{- $data := partial "f/getdata.go" . -}}
 {{- $srcset := false -}}
-{{- $sizes := "(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px" -}}
+{{- $src := false -}}
 {{- $alt := false -}}
 {{- $class := false -}}
 {{- $loading := false -}}
 {{- $decoding := false -}}
+{{- $sizes := "sizes=\"(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px\"" -}}
 
 {{- if $imgpath -}}
 	{{- $srcset = partial "f/getimgsrcset.go" $imgpath -}}
+	{{- $src = printf "src=\"%s\"" (index $srcset 0) -}}
+	{{- $srcset = printf "srcset=\"%s\"" (index $srcset 1) -}}
 {{- end -}}
 
 {{- if $data.alt -}}
@@ -41,12 +54,16 @@
 	{{- $decoding = printf "decoding=\"%s\"" . -}}
 {{- end -}}
 
+{{- with $data.sizes -}}
+	{{- $sizes = printf "sizes=\"%s\"" . -}}
+{{- end -}}
+
 {{ "<!-- partials/e/img.html:start -->" | safeHTML }}
 {{- if $imgpath -}}
 <img
-	src="{{ index $srcset 0 }}"
-	srcset="{{ index $srcset 1 }}"
-	sizes="{{ $sizes }}"
+	{{ with $src }}{{ . | safeHTMLAttr }}{{ end }}
+	{{ with $srcset }}{{ . | safeHTMLAttr }}{{ end }}
+	{{ with $sizes }}{{ . | safeHTMLAttr }}{{ end }}
 	{{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}
 	{{ with $class }}{{ . | safeHTMLAttr }}{{ end }}
 	{{ with $loading }}{{ . | safeHTMLAttr }}{{ end }}
