@@ -38,7 +38,8 @@
 	blockquote {
 		@include firstlastchildnomargin();
 		
-		border-left: 4px solid var(--blockquote-color-border);
+		background-color: var(--color-back);
+		border-left: 4px solid var(--color-border);
 		margin-left: 0;
 		margin-right: 0;
 		
