@@ -89,7 +89,7 @@
 		{{- else -}}
 			{{/* <!-- ...else generate css variable, e.g. "--font-size: 1em" --> */}}
 			{{/* <!-- where $key is "font-size" and $val is "1em" --> */}}
-			{{- printf "--%s%s:%s;" $element $key $val -}}
+			{{- printf "%s:%s;" $key $val -}}
 		{{- end -}}
 		
 	{{- else -}}

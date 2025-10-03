@@ -33,7 +33,7 @@
 				{{- $element = substr $element 1 -}}
 			{{- end -}}
 			{{/* <!-- generate css variable --> */}}
-			{{- printf "--%s-%s: %s;" $element $keyb $valb -}}
+			{{- printf "--%s: %s;" $keyb $valb -}}
 		{{- end -}}
 		{{/* <!-- close "tag" css --> */}}
 		{{- printf "}" -}}

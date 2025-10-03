@@ -5,6 +5,7 @@
 		position: fixed; /* menubar stays at top of screen */
 		top: 0;
 		width: var(--page-width);
+		height: var(--menubar-height);
 		z-index: 1000; /* no other element should be given a higher z-index */
 		padding-left: var(--flex-column-gap);
 		padding-right: var(--flex-column-gap);

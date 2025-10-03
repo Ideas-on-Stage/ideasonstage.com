@@ -18,14 +18,12 @@ bg-black:
     a:
         color-text: "white"
         color-text-hover: "var(--color-primary)"
-
-bg-light:
-    color-back: "var(--color-lightgray)"
-    color-text: "black"
-    color-text-muted: "black"
-    a:
-        color-text: "black"
-        color-text-hover: "var(--color-primary)"
+    .cl-core--button-primary:
+        color-text: "white"
+        color-text-hover: "white"
+    .cl-core--button-secondary:
+        color-text: "var(--color-secondary)"
+        color-text-hover: "var(--color-secondary)"
 
 bg-dark:
     color-back: "#222"
@@ -35,6 +33,26 @@ bg-dark:
     a:
         color-text: "white"
         color-text-hover: "var(--color-primary)"
+    .cl-core--button-primary:
+        color-text: "white"
+        color-text-hover: "white"
+    .cl-core--button-secondary:
+        color-text: "var(--color-secondary)"
+        color-text-hover: "var(--color-secondary)"
+
+bg-light:
+    color-back: "var(--color-lightgray)"
+    color-text: "black"
+    color-text-muted: "black"
+    a:
+        color-text: "black"
+        color-text-hover: "var(--color-primary)"
+    .cl-core--button-primary:
+        color-text: "white"
+        color-text-hover: "white"
+    .cl-core--button-secondary:
+        color-text: "var(--color-secondary)"
+        color-text-hover: "var(--color-secondary)"
 
 bg-primary:
     color-back: "var(--color-primary)"

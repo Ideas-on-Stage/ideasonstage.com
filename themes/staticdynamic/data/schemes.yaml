@@ -5,76 +5,77 @@
 root:
     
     # default colors
-    color-text: "black"
-    color-text-muted: "#444"
-    color-primary: "#FF8200"
-    color-primary-contrast: "#dd6200"
-    color-secondary: "#00A3E0"
-    color-darkgray: "#222"
-    color-lightgray: "#eee"
-    color-midgray: "#888"
-    color-border: "#bbb"
+    --color-back: "none"
+    --color-text: "black"
+    --color-text-muted: "#444"
+    --color-primary: "#FF8200"
+    --color-primary-contrast: "#dd6200"
+    --color-secondary: "#00A3E0"
+    --color-darkgray: "#222"
+    --color-lightgray: "#eee"
+    --color-midgray: "#888"
+    --color-border: "#bbb"
     
     # content variables
-    content-max-width: "80vw"
-    content-narrow-max-width: "50vw"
+    --content-max-width: "80vw"
+    --content-narrow-max-width: "50vw"
     
     # flex variables
-    flex-column-gap-big: "24px"
-    flex-column-gap-medium: "12px"
-    flex-row-gap-big: "24px"
-    flex-row-gap-medium: "12px"
+    --flex-column-gap-big: "24px"
+    --flex-column-gap-medium: "12px"
+    --flex-row-gap-big: "24px"
+    --flex-row-gap-medium: "12px"
     
     # font families */
-    # For --font-ratio DON'T USE UNITS, it will be multiplied by the --font-base-size for perfect scaling
-    # for example, --font-ratio: 1, --font-base-size 1.5 --> 1 * 1.5vw = 1.5vw actual font size
-    font-base-size: "1.5vw" # font base size for normal screens
-    font-ratio: "1"
+    # For --font-ratio DON'T USE UNITS, it will be multiplied by the ----font-base-size for perfect scaling
+    # for example, --font-ratio: 1, ----font-base-size 1.5 --> 1 * 1.5vw = 1.5vw actual font size
+    --font-base-size: "1.5vw" # font base size for normal screens
+    --font-ratio: "1"
 
-    font-family-a: "Whitney SSm A, Whitney SSm B"
-    font-weight-a: "400"
+    --font-family-a: "Whitney SSm A, Whitney SSm B"
+    --font-weight-a: "400"
 
-    font-family-b: "Gotham SSm A, Gotham SSm B"
-    font-weight-b: "700"
+    --font-family-b: "Gotham SSm A, Gotham SSm B"
+    --font-weight-b: "700"
     
     # hero variables
-    hero-height: "60vh"
+    --hero-height: "60vh"
     
     # module variables
-    module-height-ratio: "40" # no unit, as ratio of width
+    --module-height-ratio: "40" # no unit, as ratio of width
     
     # menubar variables
-    menubar-height: "52px"
+    --menubar-height: "52px"
     
     # page variables
-    page-padding-top: "var(--menubar-height)"
-    page-width: "100%"
-    page-max-width: "#{$gl-lg-screen}"
+    --page-padding-top: "var(--menubar-height)"
+    --page-width: "100%"
+    --page-max-width: "#{$gl-lg-screen}"
     
     # adapt variable values for small screens
     sm:
         # content variables
-        content-max-width: "92vw" # recommended: 100vw - 2 * flex-column-gap-medium
-        content-narrow-max-width: "92vw" # recommended: 100vw - 2 * flex-column-gap-medium
+        --content-max-width: "92vw" # recommended: 100vw - 2 * flex-column-gap-medium
+        --content-narrow-max-width: "92vw" # recommended: 100vw - 2 * flex-column-gap-medium
         
         #flexbox variables
-        flex-column-gap-big: "4vw"
-        flex-column-gap-medium: "4vw"
-        flex-row-gap-big: "4vw"
-        flex-row-gap-medium: "4vw"
+        --flex-column-gap-big: "4vw"
+        --flex-column-gap-medium: "4vw"
+        --flex-row-gap-big: "4vw"
+        --flex-row-gap-medium: "4vw"
         
         #font variables
-        font-base-size: "4.2vw" # font base size for small screens
+        --font-base-size: "4.2vw" # font base size for small screens
         
         # hero variables
-        hero-height: "70vh"
+        --hero-height: "70vh"
         
         # module variables
-        module-height-ratio: "140" # no unit
+        --module-height-ratio: "140" # no unit
     
     # adapt variable values for large screens
     lg:
-        font-base-size: "22px"
+        --font-base-size: "22px"
 
 
 
@@ -83,22 +84,22 @@ root:
 # -----------------
 
 a:
-    color-text: "black"
-    color-text-hover: "var(--color-primary)"
-    color-border: "var(--color-primary)"
+    --color-text: "black"
+    --color-text-hover: "var(--color-primary)"
+    --color-border: "var(--color-primary)"
 
 b:
     font-family: "var(--font-family-a)"
     font-weight: "var(--font-weight-b)"
-    font-ratio: "var(--font-ratio)"
+    --font-ratio: "var(--font-ratio)"
 
 blockquote:
     font-family: "var(--font-family-a)"
     font-weight: "var(--font-weight-a)"
-    font-ratio: "var(--font-ratio)"
+    --font-ratio: "var(--font-ratio)"
     line-height: "1.6em"
-    color-back: "#f5f5f5"
-    color-border: "var(--color-secondary)"
+    --color-back: "#f5f5f5"
+    --color-border: "var(--color-secondary)"
     padding-top: "1rem"
     padding-bottom: "1rem"
     padding-left: "1rem"
@@ -107,47 +108,47 @@ blockquote:
 h1:
     font-family: "var(--font-family-b)"
     font-weight: "var(--font-weight-b)"
-    font-ratio: "2"
+    --font-ratio: "2"
     line-height: "1.2em"
     text-transform: "uppercase"
 
 h2:
     font-family: "var(--font-family-b)"
     font-weight: "var(--font-weight-b)"
-    font-ratio: "1.5"
+    --font-ratio: "1.5"
     line-height: "1.2em"
     text-transform: "none"
 
 h3:
     font-family: "var(--font-family-b)"
     font-weight: "var(--font-weight-b)"
-    font-ratio: "1.25"
+    --font-ratio: "1.25"
     line-height: "1.2em"
     text-transform: "none"
 
 h4:
     font-family: "var(--font-family-b)"
     font-weight: "var(--font-weight-b)"
-    font-ratio: "1.25"
+    --font-ratio: "1.25"
     line-height: "1.2em"
     text-transform: "none"
 
 h5:
     font-family: "var(--font-family-b)"
     font-weight: "var(--font-weight-b)"
-    font-ratio: "1"
+    --font-ratio: "1"
     line-height: "1.2em"
     text-transform: "none"
 
 input:
     font-family: "var(--font-family-a)"
     font-weight: "var(--font-weight-a)"
-    font-ratio: "1"
+    --font-ratio: "1"
 
 li:
     font-family: "var(--font-family-a)"
     font-weight: "var(--font-weight-a)"
-    font-ratio: "1"
+    --font-ratio: "1"
     line-height: "1.6em"
     margin-top: "0.5em"
     margin-bottom: "0.5em"
@@ -155,13 +156,13 @@ li:
 p:
     font-family: "var(--font-family-a)"
     font-weight: "var(--font-weight-a)"
-    font-ratio: "1"
+    --font-ratio: "1"
     margin-top: "1em"
     margin-bottom: "1em"
     line-height: "1.6em"
 
 table:
-    color-border: "#888"
+    --color-border: "#888"
 
 td:
     font-family: "var(--font-family-a)"
@@ -170,25 +171,25 @@ td:
     padding-bottom: "0.5em"
     padding-left: "0.5em"
     padding-right: "0.5em"
-    color-border: "#888"
+    --color-border: "#888"
 
 textarea:
     font-family: "var(--font-family-a)"
     font-weight: "var(--font-weight-a)"
-    font-ratio: "1"
+    --font-ratio: "1"
 
 th:
     font-family: "var(--font-family-b)"
     font-weight: "var(--font-weight-b)"
-    font-ratio: "1"
+    --font-ratio: "1"
     padding-top: "0.5em"
     padding-bottom: "0.5em"
     padding-left: "0.5em"
     padding-right: "0.5em"
-    color-border: "#888"
+    --color-border: "#888"
     
 time:
-    color-text: "#aaa"
+    --color-text: "#aaa"
 
 ul:
     list-style-type: "square"
@@ -247,31 +248,30 @@ ul:
         text-align: "center"
         margin-bottom: "0.5rem"
     h3:
-        font-ratio: "1"
+        --font-ratio: "1"
         margin-top: "0.5rem"
     p:
         margin-top: "0.5rem"
 
 .cl-article-listteam:
     h2:
-        font-ratio: "1"
+        --font-ratio: "1"
         text-align: "center"
         margin-top: "8px"
         margin-bottom: "4px"
     p:
-        font-ratio: "0.75"
+        --font-ratio: "0.75"
         text-align: "center"
         margin-top: "0"
         margin-bottom: "0"
 
 .cl-article-positionteam:
     h2:
-        font-ratio: "1.2"
+        --font-ratio: "1.2"
         text-transform: "uppercase"
 
 .cl-body-breadcrumbs:
     scheme: "bg-light"
-    gap: "1rem"
     line-height: "1em"
     ul:
         list-style-type: "none"
@@ -279,23 +279,23 @@ ul:
         text-transform: "uppercase"
 
 .cl-body-carousel:
-    color-back: "var(--color-lightgray)"
+    --color-back: "var(--color-lightgray)"
     .button:
-        font-ratio: "0.8"
+        --font-ratio: "0.8"
     h4:
-        font-ratio: "1"
+        --font-ratio: "1"
     p:
-        font-ratio: "0.8"
+        --font-ratio: "0.8"
 
 .cl-body-carousel--item:
-    color-back: "white"
+    --color-back: "white"
     .text:
         padding-top: "1rem"
         padding-bottom: "1rem"
         padding-left: "1rem"
         padding-right: "1rem"
         .cl-core--button-secondary:
-            font-ratio: "0.8"
+            --font-ratio: "0.8"
 
 .cl-body-content404:
     scheme: "bg-dark"
@@ -316,14 +316,15 @@ ul:
 
 .cl-body-countrylist:
     scheme: "bg-dark"
-    gap: "1em"
-    .button-secondary:
-        font-ratio: "0.85"
+    .cl-core--button-secondary:
+        --font-ratio: "0.85"
 
 .cl-body-h1home:
     scheme: "bg-dark"
     h1:
-        font-ratio: "1"
+        margin-top: "0"
+        margin-bottom: "0"
+        --font-ratio: "1"
         text-align: "center"
 
 .cl-body-h1--hero:
@@ -340,13 +341,13 @@ ul:
 .cl-body-h1--title:
     h1:
         text-align: "center"
-        color-text: "black"
+        --color-text: "black"
         margin-top: "2em"
 
 .cl-body-h1revolution:
     text-align: "center"
     h2:
-        color-text: "white"
+        --color-text: "white"
         margin-bottom: "0.5em"
 
 .cl-bodybottom-contact-form:
@@ -359,24 +360,22 @@ ul:
 
 .cl-bodybottom-footer:
     scheme: "bg-dark"
-    h3:
-        font-ratio: "1"
-        text-transform: "uppercase"
     .categories:
-        ul:
-            list-style-type: "none"
-        li:
+        .category:
             margin-top: "1rem"
             margin-bottom: "0rem"
-    .items:
-        ul:
-            list-style-type: "none"
-        li:
-            margin-top: "0.8rem"
-            margin-bottom: "0rem"
-            font-ratio: "0.8"
-    p:
-        font-ratio: "0.8"
+            h3:
+                margin-top: "0"
+                margin-bottom: "0"
+                --font-ratio: "1"
+                text-transform: "uppercase"
+            .items:
+                .item:
+                    margin-top: "0.8rem"
+                    margin-bottom: "0rem"
+                    --font-ratio: "0.8"
+    .text:
+        --font-ratio: "0.8"
 
 .cl-bodylazy-location:
     scheme: "bg-black"
@@ -390,17 +389,17 @@ ul:
 .cl-bodylazy-testimonials:
     scheme: "bg-light"
     h4:
-        font-ratio: "0.8"
+        --font-ratio: "0.8"
     p:
-        font-ratio: "0.8"
+        --font-ratio: "0.8"
 
 .cl-bodytop-navbar:
     scheme: "bg-dark"
-    font-base-size: "14px" # navbar is an exception
+    --font-base-size: "14px" # navbar is an exception
     li:
         font-family: "Gotham SSm A, Gotham SSm B"
         font-weight: "700"
-        font-ratio: "1"
+        --font-ratio: "1"
         text-transform: "uppercase"
 
 .cl-core--button-primary:
@@ -410,23 +409,24 @@ ul:
     padding-right: "2em"
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
-    font-ratio: "1"
+    --font-ratio: "1"
     text-align: "center"
     text-transform: "uppercase"
-    color-back: "var(--color-primary-contrast)"
-    color-text: "white"
-    color-back-hover: "var(--color-primary)"
-    color-text-hover: "white"
+    background-color: "var(--color-back)"
+    --color-back: "var(--color-primary-contrast)"
+    --color-text: "white"
+    --color-back-hover: "var(--color-primary)"
+    --color-text-hover: "white"
 
 .cl-core--button-secondary:
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
-    font-ratio: "1"
+    --font-ratio: "1"
     line-height: "1.5em"
     text-transform: "uppercase"
-    color-back: "none"
-    color-text: "var(--color-secondary)"
-    color-text-hover: "var(--color-secondary)"
+    --color-back: "none"
+    --color-text: "var(--color-secondary)"
+    --color-text-hover: "var(--color-secondary)"
 
 .cl-core--tags:
     margin-top: "1em"
@@ -439,14 +439,14 @@ ul:
     padding-bottom: "0.25em"
     padding-left: "0.5em"
     padding-right: "0.5em"
-    color-back: "var(--color-lightgray)"
-    font-ratio: "0.8"
     text-transform: "uppercase"
+    --color-back: "var(--color-lightgray)"
+    --font-ratio: "0.8"
 
 .cl-form:
-    color-text: "#444"
-    color-back: "#fff"
-    color-border-focus: "var(--color-primary)"
+    --color-text: "#444"
+    --color-back: "#fff"
+    --color-border-focus: "var(--color-primary)"
 
 .cl-main:
     h1:
@@ -454,10 +454,12 @@ ul:
         margin-bottom: "1em"
 
 .cl-modules:
-    flex-row-gap: "var(--flex-row-gap-medium)"
-    flex-column-gap: "var(--flex-column-gap-medium)"
+    --flex-row-gap: "var(--flex-row-gap-medium)"
+    --flex-column-gap: "var(--flex-column-gap-medium)"
     h3:
-        font-ratio: "1.8"
+        margin-top: "0"
+        margin-bottom: "0"
+        --font-ratio: "1.8"
     p:
         margin-top: "0.4rem"
     .cl-core--button-secondary:
@@ -479,8 +481,8 @@ ul:
         text-align: "center"
 
 .cl-more--fastsearch:
-    color-search-input-back: "#555"
-    color-search-input-text: "#ddd"
+    --color-search-input-back: "#555"
+    --color-search-input-text: "#ddd"
 
 .cl-photo:
     color-photo-border: "white"
@@ -488,12 +490,10 @@ ul:
 
 .cl-sidebar:
     scheme: "bg-light"
-    gap: "0"
-    padding: "0"
     a:
-        color-border: "var(--color-primary)"
+        --color-border: "var(--color-primary)"
     h2:
-        font-ratio: "0.8"
+        --font-ratio: "0.8"
         margin-top: "0"
         margin-bottom: "0.5rem"
     ul:
@@ -502,14 +502,14 @@ ul:
         margin-top: "0"
         padding-left: "0"
     li:
-        font-ratio: "0.8"
+        --font-ratio: "0.8"
     .cl-core--button-primary:
         margin-top: "1rem"
         padding-top: "0.5rem"
         padding-bottom: "0.5rem"
         padding-left: "1rem"
         padding-right: "1rem"
-        font-ratio: "0.8"
+        --font-ratio: "0.8"
 
 .cl-sidebar-links:
     padding-top: "1rem"
@@ -518,12 +518,12 @@ ul:
     padding-right: "1rem"
 
 .cl-tags:
-    font-ratio: "0.8"
+    --font-ratio: "0.8"
     text-transform: "uppercase"
     li:
-        color-back: "var(--color-lightgray)"
+        --color-back: "var(--color-lightgray)"
     a:
-        color-back: "none"
+        --color-back: "none"
 
 
 
@@ -541,8 +541,8 @@ ul:
     h4:
         margin-bottom: "0.2em"
         text-transform: "uppercase"
-        font-ratio: "1em"
-        color-text: "var(--color-secondary)"
+        --font-ratio: "1em"
+        --color-text: "var(--color-secondary)"
     p:
         margin-top: "0em"
 
@@ -551,8 +551,8 @@ ul:
     h4:
         margin-bottom: "0.2em"
         text-transform: "uppercase"
-        font-ratio: "1em"
-        color-text: "var(--color-secondary)"
+        --font-ratio: "1em"
+        --color-text: "var(--color-secondary)"
 
 .cl-shortcode-call-to-action:
     text-align: "center"
@@ -580,11 +580,11 @@ ul:
         padding-left: "1rem"
         padding-right: "1rem"
         h3:
-            font-ratio: "1"
+            --font-ratio: "1"
         p:
-            font-ratio: "0.8"
+            --font-ratio: "0.8"
         li:
-            font-ratio: "0.8"
+            --font-ratio: "0.8"
 
 .cl-shortcode-section-hero:
     h1:
