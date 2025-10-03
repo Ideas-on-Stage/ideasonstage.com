@@ -13,12 +13,10 @@
 	a {
 		border-bottom: 1px dotted var(--color-border); /* use stylized dotted underline for links */
 		transition: all .35s;
-		color: inherit;
 		font-family: inherit;
 		font-weight: inherit;
-		font-size: inherit;
-		text-decoration: none; /* remove default underline */
 		text-transform: inherit;
+		text-decoration: none; /* remove default underline */
 		
 		{{- $tag := "a" -}}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
