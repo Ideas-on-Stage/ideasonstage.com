@@ -11,89 +11,89 @@
 # base color schemes
 #
 bg-black:
-    color-back: "black"
-    color-border: "white"
-    color-text: "white"
-    color-text-muted: "white"
+    --color-back: "black"
+    --color-border: "white"
+    --color-text: "white"
+    --color-text-muted: "white"
     a:
-        color-text: "white"
-        color-text-hover: "var(--color-primary)"
+        --color-text: "white"
+        --color-text-hover: "var(--color-primary)"
     .cl-core--button-primary:
-        color-text: "white"
-        color-text-hover: "white"
+        --color-text: "white"
+        --color-text-hover: "white"
     .cl-core--button-secondary:
-        color-text: "var(--color-secondary)"
-        color-text-hover: "var(--color-secondary)"
+        --color-text: "var(--color-secondary)"
+        --color-text-hover: "var(--color-secondary)"
 
 bg-dark:
-    color-back: "#222"
-    color-text: "white"
-    color-text-muted: "white"
-    color-overlay: "rgba(0, 0, 0, 0.5)"
+    --color-back: "#222"
+    --color-text: "white"
+    --color-text-muted: "white"
+    --color-overlay: "rgba(0, 0, 0, 0.5)"
     a:
-        color-text: "white"
-        color-text-hover: "var(--color-primary)"
+        --color-text: "white"
+        --color-text-hover: "var(--color-primary)"
     .cl-core--button-primary:
-        color-text: "white"
-        color-text-hover: "white"
+        --color-text: "white"
+        --color-text-hover: "white"
     .cl-core--button-secondary:
-        color-text: "var(--color-secondary)"
-        color-text-hover: "var(--color-secondary)"
+        --color-text: "var(--color-secondary)"
+        --color-text-hover: "var(--color-secondary)"
 
 bg-light:
-    color-back: "var(--color-lightgray)"
-    color-text: "black"
-    color-text-muted: "black"
+    --color-back: "var(--color-lightgray)"
+    --color-text: "black"
+    --color-text-muted: "black"
     a:
-        color-text: "black"
-        color-text-hover: "var(--color-primary)"
+        --color-text: "black"
+        --color-text-hover: "var(--color-primary)"
     .cl-core--button-primary:
-        color-text: "white"
-        color-text-hover: "white"
+        --color-text: "white"
+        --color-text-hover: "white"
     .cl-core--button-secondary:
-        color-text: "var(--color-secondary)"
-        color-text-hover: "var(--color-secondary)"
+        --color-text: "var(--color-secondary)"
+        --color-text-hover: "var(--color-secondary)"
 
 bg-primary:
-    color-back: "var(--color-primary)"
-    color-text: "white"
-    color-text-muted: "white"
+    --color-back: "var(--color-primary)"
+    --color-text: "white"
+    --color-text-muted: "white"
     a:
-        color-text: "white"
-        color-text-hover: "white"
+        --color-text: "white"
+        --color-text-hover: "white"
     .cl-core--button-secondary:
-        color-text: "white"
-        color-text-hover: "white"
+        --color-text: "white"
+        --color-text-hover: "white"
 
 bg-secondary:
-    color-back: "var(--color-secondary)"
-    color-text: "white"
-    color-text-muted: "white"
+    --color-back: "var(--color-secondary)"
+    --color-text: "white"
+    --color-text-muted: "white"
     a:
-        color-text: "white"
-        color-text-hover: "white"
+        --color-text: "white"
+        --color-text-hover: "white"
     .cl-core--button-secondary:
-        color-text: "white"
-        color-text-hover: "white"
+        --color-text: "white"
+        --color-text-hover: "white"
 
 bg-codingandbricks:
-    color-back: "#233B4C"
-    color-text: "#FFD500"
-    color-text-muted: "#444"
+    --color-back: "#233B4C"
+    --color-text: "#FFD500"
+    --color-text-muted: "#444"
     a:
-        color-text: "#FFD500!important"
-        color-text-hover: "#FFD500"
+        --color-text: "#FFD500!important"
+        --color-text-hover: "#FFD500"
     .cl-core--button-secondary:
-        color-text: "#FFD500"
-        color-text-hover: "#FFD500"
+        --color-text: "#FFD500"
+        --color-text-hover: "#FFD500"
 
 bg-humanava:
-    color-back: "#5C2183"
-    color-text: "white"
-    color-text-muted: "#bbb"
+    --color-back: "#5C2183"
+    --color-text: "white"
+    --color-text-muted: "#bbb"
     a:
-        color-text: "white!important"
-        color-text-hover: "white"
+        --color-text: "white!important"
+        --color-text-hover: "white"
     .cl-core--button-secondary:
-        color-text: "white"
-        color-text-hover: "white"
+        --color-text: "white"
+        --color-text-hover: "white"

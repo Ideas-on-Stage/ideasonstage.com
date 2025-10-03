@@ -21,7 +21,7 @@
 	{{- $type := printf "%T" $val -}}
 	{{- if eq "string" $type -}}
 		{{/* <!-- generate css variable --> */}}
-		{{- printf "--%s:%s;" $key $val -}}
+		{{- printf "%s:%s;" $key $val -}}
 	{{- else -}}
 		{{/* <!-- generate tag{ css --> */}}
 		{{- with $key -}}
@@ -33,7 +33,7 @@
 				{{- $element = substr $element 1 -}}
 			{{- end -}}
 			{{/* <!-- generate css variable --> */}}
-			{{- printf "--%s: %s;" $keyb $valb -}}
+			{{- printf "%s: %s;" $keyb $valb -}}
 		{{- end -}}
 		{{/* <!-- close "tag" css --> */}}
 		{{- printf "}" -}}

@@ -13,20 +13,16 @@
 
 {{/* <!-- try to get the text scheme matching the block name --> */}}
 {{- $element := . -}}
-{{- if or (eq "" $element) (eq "generic" $element) -}}
+{{- if eq "generic" $element -}}
 	{{- $element = "" -}}
-{{- else -}}
-	{{- $element = printf "%s-" $element -}}
 {{- end -}}
 
-{{/* <!-- "generic" variable properties, applicable to all elements --> */}}
-
-
-{{/* <!-- "specific" variable properties, applicable to elements that are not "generic" --> */}}
-{{/* <!-- They are not generic because applying a generic padding and margin leads to too many problems --> */}}
 {{- if ne "" $element -}}
+	{{/* <!-- "specific" variable properties, applicable to elements that are not "generic" --> */}}
+	{{/* <!-- They are not generic because applying a generic padding and margin leads to too many problems --> */}}
 	{{- printf "color: var(--color-text);" -}}
 	{{- printf "font-size: calc(var(--font-ratio) * var(--font-base-size));" -}}
 {{- else -}}
+	{{/* <!-- "generic" variable properties, applicable to all elements --> */}}
 	{{- printf "background-color: var(--color-back);" -}}
 {{- end -}}
