@@ -118,6 +118,7 @@ navbar:
       url: "/fr/conseil-communication/"
     - name: "Ateliers"
       url: "/fr/ateliers-evenement-entreprise/"
+      hideonmediumscreens: true
     - name: "Contact"
       url: "#contact"
 

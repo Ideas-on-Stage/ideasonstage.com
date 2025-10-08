@@ -5,7 +5,7 @@
 		
 		.text {
 			@include firstlastchildnomargin;
-			--text-align: center;
+			text-align: center;
 		}
 		
 		img {
@@ -16,5 +16,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-testimonials" }}
+		{{ partial "e/scheme.scss" ".cl-shortcode-testimonial" }}
 	}

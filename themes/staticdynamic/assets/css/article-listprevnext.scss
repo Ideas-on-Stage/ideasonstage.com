@@ -1,0 +1,8 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-article-listprevnext {
+		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-between);
+		@include ul-container;
+		
+		{{ partial "e/scheme.scss" ".cl-article-listprevnext" }}
+	}

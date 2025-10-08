@@ -2,6 +2,7 @@
 
 	.cl-article-content {
 		@include firstlastchildnomargin;
+		@include width-content();
 		
 		>p img {
 			margin-top: var(--margin-top);

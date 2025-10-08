@@ -15,6 +15,7 @@ root:
     --color-lightgray: "#eee"
     --color-midgray: "#888"
     --color-border: "#bbb"
+    --color-overlay: "rgba(0,0,0,.6)"
     
     # content variables
     --content-max-width: "80vw"
@@ -224,11 +225,15 @@ ul:
     .item:
         margin-top: "1rem"
         margin-bottom: "1rem"
+    h3:
+        margin-top: "0"
+        margin-bottom: "0.5rem"
+        line-height: "1em"
     p:
-        margin-top: "0.5rem"
+        margin-top: "0.6rem"
         margin-bottom: "0rem"
     .cl-core--button-secondary:
-        margin-top: "0.5rem"
+        margin-top: "0.8rem"
 
 .cl-article-listnews:
     h2:

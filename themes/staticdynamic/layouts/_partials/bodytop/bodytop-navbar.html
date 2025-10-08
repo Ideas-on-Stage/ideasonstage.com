@@ -26,7 +26,7 @@
 		
 		<!-- Menubar Menu Items -->
 		{{ range site.Params.navbar }}
-			<li class="menu-item">
+			<li class="menu-item {{ if .hideonmediumscreens }}menu-shorten{{ end }}">
 				<a href="{{ .url }}" onclick="getElementById('drop').checked = false" class="cl-core--a-underline-none">
 					{{ .name }}
 				</a>

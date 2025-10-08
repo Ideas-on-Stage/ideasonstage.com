@@ -1,0 +1,9 @@
+en:
+    sectionid: "academy"
+    title: "Academy"
+    description: "Join a community of leaders mastering the art of communication with live sessions, coaching and continuous support."
+    picture: "/img/modules/academy.jpg"
+    style: "bg-black"
+    layout: "module-row-picture-text.html"
+    url: "/uk/academy/"
+    button: "Explore the academy"

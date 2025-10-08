@@ -1,0 +1,49 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-article-listtrainingsupport {
+		@include flex-row($gap: "none", $wrap: "wrap");
+		margin-bottom: 4em;
+		 
+		.item {
+			@include width-column(2);
+			@include width-column-sm(1);
+			@include height-module();
+			
+			.img {
+					@include layer($z-index: 10);
+					img {
+						@include img-back($z-index: -1);
+					}
+			}
+			
+			.overlay {
+				@include layer($z-index: 20);
+				background-color: var(--color-overlay);
+			}
+			
+			/* main text container, may have to share space with a logobar */
+			.text {
+				@include text-front();
+				@include height-parent-full(); /* same height as parent so text can be centered inside div */
+				@include width-parent-full();
+				@include flex-column($align-column-h: center, $align-v: center);
+				padding: 2em;
+				text-align: center;
+				--color-back: none;
+				h3 {
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+				p {
+					margin-top: 0.8em;
+					margin-bottom: 0;
+				}
+			}
+			
+			&.empty {
+				background-color: var(--color-darkgray);
+			}
+		}
+		
+		{{ partial "e/scheme.scss" ".cl-article-listtrainingsupport" }}
+	}

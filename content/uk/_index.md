@@ -9,7 +9,7 @@ schema: "Website"
 type: "home"
 
 body-cta-data: "most-transformational-roxor"
-main-modules-data: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
+main-modules-data: [ "public-speaking-training", "public-speaking-coaching", "presentation-academy" ]
 bodylazy-references-data: [ "ebay", "spotify", "bosch", "octopuselectricvehicles", "havas", "rainmaking", "tbifgc", "fedex", "salesforce", "deloitte", "google", "disney", "wbg", "lacoste", "loreal" ]
 bodylazy-modules-aside-data: [ "confidentpresenter", "presentationscore", "freewebclass", "freeminicourse" ]
 bodylazy-testimonials-data: [ "tom-katte", "cam-beaudoin", "eran-shlomi", "margaret-satya-rose", "caroline-boston", "graham-purvis" ]

@@ -6,19 +6,54 @@
 
 --> */}}
 
-<ul class="cl-article-prevnext">
-	{{- if .Paginator.HasPrev -}}
+{{- $ancestor := .Parent -}}
+{{- $prevgenerated := false -}}
+{{- $nextgenerated := false -}}
+
+<nav id="prevnext"  class="cl-article-prevnext">
+	<ul>
+
+		{{/* <!-- .Next and .Prev seem reversed because Hugo's default sort order is "desc" --> */}}
+		{{- with .Next -}}
+		{{- if .IsDescendant $ancestor -}}
 		<li>
-			<a href="{{ .Paginator.Prev.URL }}" class="cl-core--button-secondary">
-				&larr; {{ site.Params.buttons.previous }}
+			<a href="{{ .Permalink }}" class="cl-core--button-secondary">
+				&larr;&nbsp;{{ .Title }}
 			</a>
 		</li>
-	{{- end -}}
-	{{- if .Paginator.HasNext -}}
+		{{- $prevgenerated = true -}}
+		{{- end -}}
+		{{- end -}}
+		
+		{{- if not $prevgenerated -}}
+		{{- with $ancestor -}}
 		<li>
-			<a href="{{ .Paginator.Next.URL }}" class="cl-core--button-secondary">
-				{{ site.Params.buttons.next }} &rarr;
+			<a href="{{ .Permalink }}" class="cl-core--button-secondary">
+				&larr;&nbsp;{{ .Title }}
 			</a>
 		</li>
-	{{- end -}}
-</ul>
+		{{- end -}}
+		{{- end -}}
+		
+		{{- with .Prev -}}
+		{{- if .IsDescendant $ancestor -}}
+		<li>
+			<a href="{{ .Permalink }}" class="cl-core--button-secondary">
+				{{ .Title }}&nbsp;&rarr;
+			</a>
+		</li>
+		{{- $nextgenerated = true -}}
+		{{- end -}}
+		{{- end -}}
+		
+		{{- if not $nextgenerated -}}
+		{{- with $ancestor -}}
+		<li>
+			<a href="{{ .Permalink }}" class="cl-core--button-secondary">
+				{{ .Title }}&nbsp;&rarr;
+			</a>
+		</li>
+		{{- end -}}
+		{{- end -}}
+	</ul>
+</nav>

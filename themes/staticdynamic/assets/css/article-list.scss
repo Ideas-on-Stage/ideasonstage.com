@@ -1,7 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-article-list {
-		--file: "main-list.scss";
 		
 		@include flex-column($gap: "big", $wrap: "nowrap");
 		@include margins($vertical: "medium");

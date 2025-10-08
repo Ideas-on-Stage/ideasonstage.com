@@ -1,0 +1,29 @@
+{{ "<!-- partials/main/main-list.html:start -->" | safeHTML }}
+<div class="cl-article-listtrainingsupport">
+{{- $counter := 0 -}}
+{{- range .Pages -}}
+	{{- if .Params.nl -}}
+		{{ (printf "<!-- page %s skipped (nl is true) -->" .Title) | safeHTML }}
+		{{/* <!-- do not list pages with .Params nl: true --> */}}
+	{{- else -}}
+	<section class="item bg-black">
+		<div class="img">
+			{{ partial "e/link-picture.html" . }}
+		</div>
+		<div class="overlay">
+		</div>
+		<div class="text">
+			{{ partial "e/link-title-description.html" . }}
+		</div>
+	</section>
+	{{- $counter = add $counter 1 -}}
+	{{- end -}}
+{{- end -}}
+
+{{/* <!-- if number of pages is odd, add a black square --> */}}
+{{- if eq 1 (mod $counter 2) -}}
+	<div class="item empty">
+	</div>
+{{- end -}}
+</div>
+{{ "<!-- partials/main/main-list.html:end -->" | safeHTML }}

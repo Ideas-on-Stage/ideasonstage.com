@@ -1,8 +1,24 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-article-prevnext {
-		@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-between);
-		@include ul-container;
 		
-		{{ partial "e/scheme.scss" ".cl-article-prevnext" }}
+		ul {
+			@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-between);
+			@include ul-container;
+			
+			li {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+			.cl-core--button-secondary {
+				--font-ratio: 0.8;
+			}
+		}
+		
+		{{ partial "e/scheme.scss" ".cl-article-listprevnext" }}
+	}
+	
+	.cl-article-prevnext + .cl-article-content,
+	.cl-article-content + .cl-article-prevnext {		
+		margin-top: 2rem;
 	}

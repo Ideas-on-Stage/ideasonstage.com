@@ -42,7 +42,7 @@
 		<li>
 			<a href="{{ .p1.Permalink }}">
 				{{- $img := resources.Get "img/icons/home.svg" -}}
-				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Back to Ideas on Stage Homepage">
+				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="15px" width="15px" alt="Back to Ideas on Stage Homepage">
 			</a>
 		</li>
 	{{/* <!-- ... else if it is not the current page... --> */}}
@@ -50,8 +50,7 @@
 		{{/* <!-- ... then recursively add parent pages until current page is reached --> */}}
 		<li>
 			{{- $img := resources.Get "img/icons/right.svg" -}}
-			<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Right Arrow">
-			<a href="{{ .p1.Permalink }}">
+			&nbsp;<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12px" width="12px" alt="Right Arrow">&nbsp;<a href="{{ .p1.Permalink }}">
 				{{- .p1.Title -}}
 			</a>
 		</li>

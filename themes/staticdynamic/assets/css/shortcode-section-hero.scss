@@ -4,16 +4,19 @@
 		@include height-hero();
 		@include flex-column($align-column-h: stretch, $align-v: center);
 		
+		.img {
+			@include layer($z-index: 10);
+			@include width-parent-full();
+			img {
+				@include img-back($z-index: -100);
+			}
+		}
+		
 		.text {
+			@include text-front();
 			@include width-content();
 			@include firstlastchildnomargin();
 			text-align: center;
-		}
-		
-		> img {
-			@include img-back($z-index: -100);
-			width: 100%;
-			left: 0px;
 		}
 		
 		{{ partial "e/scheme.scss" ".cl-shortcode-section-hero" }}

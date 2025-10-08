@@ -69,9 +69,12 @@
 			
 			{{/* <!-- cta button --> */}}
 			{{- with .Params.button -}}
+			
+			{{- if ne "string" (partial "f/getdatatype" .) -}}
 			<a href="{{ .link }}" class="cl-core--button-primary">
 				{{ .text }}
 			</a>
+			{{- end -}}
 			{{- end -}}
 		</div>
 		

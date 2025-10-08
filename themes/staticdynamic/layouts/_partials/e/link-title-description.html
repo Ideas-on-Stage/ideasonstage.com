@@ -1,5 +1,8 @@
 {{ "<!-- partials/e/link-title-description.html:start -->" | safeHTML }}
 <a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
-	{{ partial "e/title-description.html" . }}
+	{{ partial "e/title.html" . }}
+</a>
+<a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
+	{{ partial "e/description.html" . }}
 </a>
 {{ "<!-- partials/e/link-title-description.html:end -->" | safeHTML }}

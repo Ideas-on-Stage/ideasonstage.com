@@ -167,7 +167,7 @@ news:
             - body-main-sidebar-article
         article:
             - article-listnews
-            - article-prevnext
+            - article-listprevnext
         sidebar:
             - sidebar-topcategories
     # page.Kind "page"
@@ -329,6 +329,41 @@ training:
             - sidebar-training
         article:
             - article-content
+
+
+
+
+# page.Type "training-support"
+training-support:
+    # page.Kind "section"
+    section:
+        head:
+            - head-meta-desc-section
+            - head-title-section
+        body:
+            - body-breadcrumbs
+            - body-h1
+            - body-carousel
+            - body-mainfull
+        bodylazy:
+            - bodylazy-referencesgrid
+            - bodylazy-modules-aside
+        article:
+            - article-listtrainingsupport
+            - article-content
+    # page.Kind "page"
+    page:
+        head:
+            - head-meta-desc-single
+            - head-title-single
+        body:
+            - body-breadcrumbs
+            - body-h1
+            - body-main-sidebar-article
+        article:
+            - article-prevnext
+            - article-content
+            - article-prevnext
 
 
 

@@ -70,13 +70,45 @@
 		}
 	}
 
-	@mixin flex-column-sm($flex-direction: column) {
+	@mixin flex-column-sm($flex-direction: column, $gap: "none", $wrap: "nowrap", $align-column-h: flex-start, $align-h: flex-start, $align-v: flex-start) {
 		/* 
 			Turns a flex-row into a flex-column on small screens
 			$flex-direction can be column or column-reverse
 		*/
 		@media (max-width: $gl-sm-screen) {
+			display: flex;
 			flex-direction: $flex-direction;
+			align-content: $align-h;
+			align-items: $align-column-h;
+			justify-content: $align-v;
+			flex-wrap: var(--flex-wrap);
+			column-gap: var(--flex-column-gap);
+			row-gap: var(--flex-row-gap);
+
+			
+			@if "gap" == $gap {
+				--flex-column-gap: var(--flex-column-gap-medium);
+				--flex-row-gap: var(--flex-row-gap-medium);
+			}
+			@else if "big" == $gap {
+				--flex-column-gap: var(--flex-column-gap-big);
+				--flex-row-gap: var(--flex-row-gap-big);
+			}
+			@else if "none" == $gap {
+				--flex-column-gap: 0px;
+				--flex-row-gap: 0px;
+			}
+			@else {
+				--flex-column-gap: calc( #{$gap} );
+				--flex-row-gap: calc( #{$gap} );
+			}
+			
+			@if "nowrap" == $wrap {
+				--flex-wrap: nowrap;
+			}
+			@else {
+				--flex-wrap: wrap;
+			}
 		}
 	}
 	
@@ -164,10 +196,8 @@
 			puts image in the back as a background image, full size of parent
 			(also see text-front to put text in front of image)
 		*/
-		position: absolute;
-		height: inherit; /* ! parent container must have height in absolute unit or 100%, but not 0-99% */
-		width: inherit; /* ! parent container must have width in absolute unit or 100%, but not not 0-99% */
-		max-width: var(--page-max-width);
+		height: 100%; /* ! parent container must have height in absolute unit or 100%, but not 0-99% */
+		width: 100%; /* ! parent container must have width in absolute unit or 100%, but not not 0-99% */
 		object-fit: cover;
 		@if 0 != $z-index {
 			z-index: $z-index;

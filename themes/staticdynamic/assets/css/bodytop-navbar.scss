@@ -2,26 +2,17 @@
 
 	.cl-bodytop-navbar {
 		@include flex-row($gap: "gap", $align-row-v: center, $align-h: space-between);
+		@include width-parent-full();
 		position: fixed; /* menubar stays at top of screen */
 		top: 0;
-		width: var(--page-width);
 		height: var(--menubar-height);
 		z-index: 1000; /* no other element should be given a higher z-index */
 		padding-left: var(--flex-column-gap);
 		padding-right: var(--flex-column-gap);
 		
-		/* Logo */
-		.brand {
-			@include height-navbar();
-		}
-		
 		/* Font for menu */
 		.menu-item,
-		.menu-item a,
-		.menu-dropdown-item,
-		.menu-dropdown-item a {
-			border: none; /* remove underline for a links */
-			
+		.menu-dropdown-item {			
 			img {
 				@include img-sameline; /* show icon on same line as text */
 			}
@@ -31,11 +22,12 @@
 			display: none; /* hide checkboxes */
 		}
 		
-		ul {
-			@include ul-container();
-		}
 		
-		/* Menu for normal screens */
+		
+		/*
+			--------------------------------------
+			Menu for NORMAL WIDTH TO LARGE screens
+		*/
 		@media (min-width : $gl-sm-screen) {
 			
 			/* burger menu (hidden on normal screens) */
@@ -47,30 +39,31 @@
 			.menu {
 				@include flex-row($gap: 1em, $align-h: stretch);
 				@include height-navbar();
+				@include ul-container();
 				
-				li {
+				.menu-item {
 					@include flex-row($align-row-v: center);
+					// note: add position: relative to align dropdown with menu item;
 					margin: 0;
 					min-height: var(--menubar-height); /* min-height because should be allowed to grow for search */
+					/* show dropdown on hover */
+					&:hover .menu-dropdown {
+						display: flex;
+					}
 				}
-				/* show dropdown on hover */
-				li:hover .menu-dropdown {
-					display: flex;
-				}
-			}	
+			}
 			
 			/* menu dropdown, displayed on hover */
 			.menu-dropdown {
+				@include ul-container();
 				position: absolute;
-				top: calc(var(--menubar-height) - 2px);
-				margin-top: 0;
+				top: calc(var(--menubar-height) - 4px);
 				right: 0; /* sticks dropdown to right of screen */
 				width: auto;
-				display: none; /* replaced by flex on hover */
+				display: none; /* replaced by display: flex on hover */
 				flex-direction: column;
 				background-color: var(--color-back);
-				
-				li {
+				.menu-dropdown-item {
 					@include flex-row($align-row-v: center);
 					position: relative;
 					padding: 5px 12px;
@@ -79,14 +72,24 @@
 			}
 		}
 		
-		/* Special menu properties for medium screens */
+		
+		
+		/*
+			------------------------------------------
+			Special menu properties for medium screens
+		*/
 		@media (min-width: $gl-sm-screen) and (max-width : $gl-menu-short) {
 			.menu-shorten {
-				display: none; /* show only icon (hide text) on medium screen widths */
+				display: none !important; /* show only icon (hide text) on medium screen widths */
 			}
 		}
 		
-		/* Menu for small screens */
+		
+		
+		/*
+			----------------------------
+			Menu for SMALL WIDTH screens
+		*/
 		@media (max-width : $gl-sm-screen) {
 			
 			/* burger menu */
@@ -113,18 +116,19 @@
 				align-items: center;
 				gap: 1.5rem;
 				background-color: var(--color-back);
-			}
-			
-			.menu-item {
-				@include width-parent-full();
-				@include flex-column($align-column-h: center, $align-v: center);
-				margin: 0;
-				padding: 0;
-				list-style: none;
+				
+				.menu-item {
+					@include width-parent-full();
+					@include flex-column($align-column-h: center, $align-v: center);
+					margin: 0;
+					padding: 0;
+					list-style: none;
+				}
 			}
 			
 			/* menu dropdown, displayed on tap */
 			.menu-dropdown {
+				@include ul-container();
 				@include width-parent-full();
 				@include flex-column($gap: 1.5rem, $align-column-h: center);
 				position: static;
@@ -133,15 +137,15 @@
 				padding: 1.5rem 0 0 0;
 				display: none; /* hide, show if checkbox checked */
 				background-color: var(--color-back);
-			}
-			
-			.menu-dropdown-item {
-				@include width-parent-full();
-				display: list-item;
-				position: relative;
-				margin: 0;
-				padding: 0;
-				text-align: center;
+				
+				.menu-dropdown-item {
+					@include width-parent-full();
+					display: list-item;
+					position: relative;
+					margin: 0;
+					padding: 0;
+					text-align: center;
+				}
 			}
 			
 			/* show menu or menu dropdown when checkbox is checked */
