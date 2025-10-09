@@ -1,15 +1,21 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-shortcode-section-hero {
+		@include width-parent-full();
 		@include height-hero();
 		@include flex-column($align-column-h: stretch, $align-v: center);
 		
+		
 		.img {
 			@include layer($z-index: 10);
-			@include width-parent-full();
-			img {
-				@include img-back($z-index: -100);
+			> img {
+				@include img-back($z-index: -1);
 			}
+		}
+		
+		.overlay {
+			@include layer($z-index: 20);
+			background-color: var(--color-overlay);
 		}
 		
 		.text {

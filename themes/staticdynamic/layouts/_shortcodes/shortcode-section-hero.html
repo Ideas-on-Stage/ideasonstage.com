@@ -31,6 +31,8 @@
 		{{ partial "e/img" $.Params }}
 	</div>
 	{{- end -}}
+	<div class="overlay">
+	</div>
 	{{- with $inner -}}
 	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
 		{{ . | markdownify}}

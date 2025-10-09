@@ -1,12 +1,19 @@
+# 
+# The following properties should be defined using variables:
+#   --font-ratio because it is used in the font-size calculation. eg --font-ratio: "1"
+#   --color-* because they are "theme" color variables. eg --color-back: "#FFF"
+#   Do not define font-size directly, change --font-ratio or if really necessary --font-base-size. 
+#   Everything else can be defined directly as a property, eg. line-height: "1.6em"
+
 # -----------------
 # root variables
 # -----------------
 
 root:
     
-    # default colors
+    # default values for color variables
+    # do not define --color-text at root level as it would override too many things
     --color-back: "none"
-    # do not define --color-text as it would override too many things
     --color-text-muted: "#444"
     --color-primary: "#FF8200"
     --color-primary-contrast: "#dd6200"
@@ -31,7 +38,7 @@ root:
     # For --font-ratio DON'T USE UNITS, it will be multiplied by the ----font-base-size for perfect scaling
     # for example, --font-ratio: 1, ----font-base-size 1.5 --> 1 * 1.5vw = 1.5vw actual font size
     --font-base-size: "1.5vw" # font base size for normal screens
-    --font-ratio: "1"
+    --font-ratio: "1" # don't use units for "ratio" variables
 
     --font-family-a: "Whitney SSm A, Whitney SSm B"
     --font-weight-a: "400"
@@ -85,7 +92,7 @@ root:
 # -----------------
 
 a:
-    --color-text: "black"
+    --color-text: "inherit"
     --color-text-hover: "var(--color-primary)"
     --color-border: "var(--color-primary)"
 
@@ -310,12 +317,13 @@ ul:
 
 .cl-body-cta:
     scheme: "bg-dark"
+    text-align: "center"
     h2:
-        text-align: "center"
+        margin-top: "0"
+        margin-bottom: "0"
     p:
         margin-top: "0.5em"
         margin-bottom: "2em"
-        text-align: "center"
 
 .cl-body-countrylist:
     scheme: "bg-dark"
@@ -324,28 +332,27 @@ ul:
 
 .cl-body-h1home:
     scheme: "bg-dark"
+    text-align: "center"
     h1:
         margin-top: "0"
         margin-bottom: "0"
         --font-ratio: "1"
-        text-align: "center"
 
 .cl-body-h1--hero:
     scheme: "bg-dark"
     text-align: "center"
     h1:
-        margin-top: "0em"
-        margin-bottom: "0.5em"    
+        margin-top: "0"
+        margin-bottom: "0"
     p:
         margin-top: "0.5em"
         margin-bottom: "2em"
-        text-align: "center"
 
 .cl-body-h1--title:
     h1:
         text-align: "center"
-        --color-text: "black"
         margin-top: "2em"
+        --color-text: "black"
 
 .cl-body-h1revolution:
     text-align: "center"
@@ -592,7 +599,13 @@ ul:
 
 .cl-shortcode-section-hero:
     h1:
+        margin-top: "0"
+        margin-bottom: "0"
         text-transform: "uppercase"
+    p:
+        margin-top: "0.5rem"
+    .cl-core--button-primary:
+        margin-top: "1rem"
 
 
 

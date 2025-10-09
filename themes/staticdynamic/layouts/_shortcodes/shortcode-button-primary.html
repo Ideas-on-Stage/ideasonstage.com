@@ -1,0 +1,18 @@
+{{/* <!--
+	
+	shortcode-button
+
+	Creates a button	
+
+	Arguments:
+	- class="list of classes"
+	- bgcolor="#color"
+	- color="#color"
+	- name="text of button"
+	- url="url of button"
+	
+--> */}}
+
+{{ "<!-- shortcode-button-primary.html:start -->" | safeHTML }}
+{{ partial "e/button-primary.html" .Params }}
+{{ "<!-- shortcode-button-primary.html:end -->" | safeHTML }}
