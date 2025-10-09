@@ -42,7 +42,7 @@
 	
 # redirect supports de formation "standard"
 [[redirects]]
-	from	= "https://supports.ideasonstage.com/*"
+	from	= "https://formation.ideasonstage.com/*"
 	to		= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/supports/:splat"
 	status	= 301
 	force	= true
