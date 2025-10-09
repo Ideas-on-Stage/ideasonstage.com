@@ -40,9 +40,9 @@
 	status	= 301
 	force	= true
 	
-# redirect formation
+# redirect supports de formation "standard"
 [[redirects]]
-	from	= "https://support.ideasonstage.com/*"
+	from	= "https://supports.ideasonstage.com/*"
 	to		= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/supports/:splat"
 	status	= 301
 	force	= true
@@ -66,10 +66,9 @@
 	status	= 301
 	force	= true
 
-# redirect training
 [[redirects]]
-	from	= "https://training.ideasonstage.com/*"
-	to		= "https://www.ideasonstage.com/public-speaking-training/docs/:splat"
+	from	= "https://partenaires.ideasonstage.com/*"
+	to		= "https://www.survio.com/survey/d/K5J7A9O3T5J3I0G8I"
 	status	= 301
 	force	= true
 
