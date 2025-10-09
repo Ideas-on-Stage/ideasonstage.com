@@ -39,7 +39,7 @@ If you couldn’t join us live, you can watch the full recording below. And keep
 
 {{< shortcode-youtube kD8zCF7ARoE >}}  
 
-#### Want to learn more? 
+##### Want to learn more? 
 
 * Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
 * To make the most of the book, take the[ Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
