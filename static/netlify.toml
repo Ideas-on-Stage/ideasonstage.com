@@ -42,7 +42,7 @@
 	
 # redirect formation
 [[redirects]]
-	from	= "https://formation.ideasonstage.com/*"
+	from	= "https://support.ideasonstage.com/*"
 	to		= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/supports/:splat"
 	status	= 301
 	force	= true
@@ -62,7 +62,7 @@
 # redirect satisfaction (partners satisfaction questionnaire link)
 [[redirects]]
 	from	= "https://satisfaction.ideasonstage.com/*"
-	to		= "https://www.survio.com/survey/d/K5J7A9O3T5J3I0G8I"
+	to		= "https://www.survio.com/survey/d/X5P/Formation-ideasonstage"
 	status	= 301
 	force	= true
 
