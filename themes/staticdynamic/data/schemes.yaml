@@ -241,6 +241,9 @@ ul:
         margin-bottom: "0rem"
     .cl-core--button-secondary:
         margin-top: "0.8rem"
+    sm:
+        h3:
+            margin-top: "1rem"
 
 .cl-article-listnews:
     h2:
@@ -607,5 +610,8 @@ ul:
     .cl-core--button-primary:
         margin-top: "1rem"
 
-
+.cl-shortcode-testimonial:
+    p:
+        margin-bottom: "0.5rem"
+        margin-top: "0.5rem"
 

@@ -191,6 +191,13 @@
 		height: var(--menubar-height);
 	}
 	
+	@mixin hide-sm {
+		/* hide element on small screens */
+		@media (max-width: $gl-sm-screen) {
+			display: none;
+		}
+	}
+	
 	@mixin img-back($z-index: -100) {
 		/*
 			puts image in the back as a background image, full size of parent

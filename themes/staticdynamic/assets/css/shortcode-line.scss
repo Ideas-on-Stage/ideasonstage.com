@@ -1,0 +1,9 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-line {
+		@include width-content();
+		border-style: solid;
+		border-color: var(--color-midgray);
+		
+		{{ partial "e/scheme.scss" ".cl-shortcode-img" }}
+	}

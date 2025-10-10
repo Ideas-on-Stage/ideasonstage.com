@@ -28,6 +28,7 @@ Your membership includes everything you need to keep improving month after month
 - **Speaker Day** – meet and connect in person
 - **30-day money-back guarantee** – join with complete peace of mind
 
+{{< shortcode-line class="margin-top margin-bottom" >}}
 
 ## Outcomes
 
@@ -40,10 +41,11 @@ By joining the Academy, you’ll learn to:
 - Strengthen your **presence and credibility** as a professional
 - Keep improving through **ongoing practice and expert feedback**
 
+{{< shortcode-line class="margin-top margin-bottom" >}}
 
 ## Who it’s for
 
-The Ideas on Stage Academy is designed for:
+The Academy is designed for:
 
 - **Business owners** who want to share their ideas with confidence
 - **Leaders and managers** who want to engage and motivate their teams
@@ -51,6 +53,7 @@ The Ideas on Stage Academy is designed for:
 
 If you’re serious about becoming a more confident, impactful communicator — and you value learning alongside a group of motivated peers — this is for you.
 
+{{< shortcode-line class="margin-top margin-bottom" >}}
 
 ## How it works
 
@@ -69,7 +72,7 @@ You’ll learn, practise and connect — all in one place.
 {{< shortcode-text class="width-content text-center bg-light">}}
 ## Pricing & Guarantee
 
-Membership in the Ideas on Stage Academy starts at **£95 per month**
+Membership in the Academy starts at **£95 per month**
 _(or £950 per year — get 2 months free)_
 _Prices are exclusive of VAT for UK clients._
 
@@ -111,7 +114,7 @@ _Team Pack: 30% discount for groups of 3 or more from the same organisation._
   url="https://docs.google.com/forms/d/e/1FAIpQLSfV8DCfxi8xnFvdjXa-p8n7PINZWRU2eGVzhwOAaILfvvoeeg/viewform" >}}
 ## Apply to join the Academy 
 
-Membership in the Ideas on Stage Academy is by application. We welcome professionals who are serious about becoming confident, impactful communicators — and who want to contribute to a high-quality community. 
+Membership in the Academy is by application. We welcome professionals who are serious about becoming confident, impactful communicators — and who want to contribute to a high-quality community. 
 {{< /shortcode-call-to-action >}}
 
 _Spaces are limited to keep the group focused and valuable._

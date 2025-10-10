@@ -41,6 +41,7 @@
 			}
 			
 			&.empty {
+				@include hide-sm(); // hide empty box on small screens, as it serves no purpose
 				background-color: var(--color-darkgray);
 			}
 		}
