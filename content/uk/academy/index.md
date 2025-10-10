@@ -7,7 +7,9 @@ picture: "academy.jpg"
 ---
 {{< shortcode-section-hero class="bg-black" img="academy.jpg">}}
 # Become a confident, convincing communicator
-Live practice, expert coaching and a community that keeps you moving.
+Live practice, expert coaching and a community that keeps you moving.<br>
+_Membership by application — limited spaces available_
+
 {{< shortcode-button-primary name="APPLY NOW" url="https://docs.google.com/forms/d/e/1FAIpQLSfV8DCfxi8xnFvdjXa-p8n7PINZWRU2eGVzhwOAaILfvvoeeg/viewform" >}}
 {{< /shortcode-section-hero >}}
 
@@ -73,16 +75,23 @@ You’ll learn, practise and connect — all in one place.
 ## Pricing & Guarantee
 
 Membership in the Academy starts at **£95 per month**
+
 _(or £950 per year — get 2 months free)_
+
 _Prices are exclusive of VAT for UK clients._
 
 You’ll get everything you need to keep improving:
+
 Monthly web class • live practice with feedback • assignments & templates • private community • AI Coach • online courses • special events • annual Speaker Day • 30-day money-back guarantee
 
 **Peace of Mind Promise**
+
 We want you to feel completely at ease when you join.
+
 Try the Academy for 30 days.
+
 If it’s not the right fit, just let us know — we’ll give you a full refund, no questions asked.
+
 Cancel anytime. No lock-in, no pressure.
 
 _Team Pack: 30% discount for groups of 3 or more from the same organisation._
@@ -115,8 +124,10 @@ _Team Pack: 30% discount for groups of 3 or more from the same organisation._
 ## Apply to join the Academy 
 
 Membership in the Academy is by application. We welcome professionals who are serious about becoming confident, impactful communicators — and who want to contribute to a high-quality community. 
-{{< /shortcode-call-to-action >}}
 
 _Spaces are limited to keep the group focused and valuable._
+
+{{< /shortcode-call-to-action >}}
+
 
 Have a question before applying? Contact our team.
