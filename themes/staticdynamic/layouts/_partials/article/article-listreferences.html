@@ -4,7 +4,7 @@
 		{{ range . }}
 			<div class="reference">
 				<div class="logo">
-					{{ partial "e/img.html" . }}
+					{{ partial "e/img.html" (dict "img" .img "alt" .client) }}
 				</div>
 				<div class="text">
 					{{ with .client }}
@@ -43,7 +43,8 @@
 		{{ range .Pages }}
 			<div class="reference">
 				<div class="thumb">
-					{{ partial "e/img" . }}
+					{{/* <!-- we can give the page object as the "img" value, and e/img will find the path --> */}}
+					{{ partial "e/img" (dict "img" . "alt" .Title) }}
 				</div>
 				<div class="text">
 					{{ with .Params.client }}

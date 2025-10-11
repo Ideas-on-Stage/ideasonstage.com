@@ -19,7 +19,7 @@
 	{{/* <!-- ...then create hero with pic and h1 --> */}}
 
 	{{/* <!-- set arguments for e/img --> */}}
-	{{- $img := dict "img" $hero "loading" "eager" "decoding" "async" -}}
+	{{- $img := dict "img" $hero "loading" "eager" "decoding" "async" "alt" .Title -}}
 
 	{{- $srcset := partial "f/getimgsrcset.go" $hero -}}
 	{{/* <!-- create hero --> */}}
