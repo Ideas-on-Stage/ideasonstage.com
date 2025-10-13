@@ -1,10 +1,16 @@
-{{ $src := .Get "src" }}
-{{ $width := .Get "width" }}
-{{ $height := .Get "height" }}
-{{ $class := .Get "class" }}
+{{/* <!-- get parameters --> */}}
+{{- $class := partial "f/gethtmlattrclass.go" . -}}
+{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $img := .Get "img" -}}
+{{- $alt := .Get "alt" -}}
+{{- $width := .Get "width" -}}
+{{- $height := .Get "height" -}}
+{{- $class := .Get "class" -}}
+
+{{/* <!-- check and process parameters --> */}}
 
 {{ "<!-- shortcode-img.html:start -->" | safeHTML }}
 <div class="cl-shortcode cl-shortcode-img {{ $class }}">
-	<img src="{{ $src }}" {{ with $width }}width="{{ . }}"{{ end }} {{ with $height }}height="{{ . }}"{{ end }} />
+{{ partial "e/img" .Params }}
 </div>
 {{ "<!-- shortcode-img.html:end -->" | safeHTML }}

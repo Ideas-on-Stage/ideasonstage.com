@@ -79,7 +79,7 @@ Feel more confident in every presentation — whether it’s a pitch, meeting or
 	{{< shortcode-agenda-item title="A quick look inside" description="Watch this 1-minute video to see what it’s like to join one of our web classes." >}}
 	{{< shortcode-youtube "So8WglOw37E" >}}
 	{{< shortcode-agenda-item title="Doing Business. Doing Good." description="We see a world of entrepreneurs and business leaders using their voice to make a positive impact. That’s why we align our events and programmes with the **United Nations Sustainable Development Goals**, with a focus on **Goal 4: Quality Education**.<br>Imagine if more of us prioritised social impact alongside (or even above) financial returns.<br>That’s how we can create a better future for all." >}}
-	{{< shortcode-img src="sdg.jpg" >}}
+	{{< shortcode-img img="sdg.jpg" alt="Event">}}
 {{< /shortcode-agenda-list >}}
 
 {{< shortcode-call-to-action

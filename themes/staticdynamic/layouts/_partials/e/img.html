@@ -60,14 +60,7 @@
 
 {{ "<!-- partials/e/img.html:start -->" | safeHTML }}
 {{- if $imgpath -}}
-<img
-	{{ with $src }}{{ . | safeHTMLAttr }}{{ end }}
-	{{ with $srcset }}{{ . | safeHTMLAttr }}{{ end }}
-	{{ with $sizes }}{{ . | safeHTMLAttr }}{{ end }}
-	{{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}
-	{{ with $class }}{{ . | safeHTMLAttr }}{{ end }}
-	{{ with $loading }}{{ . | safeHTMLAttr }}{{ end }}
-	{{ with $decoding }}{{ . | safeHTMLAttr }}{{ end }}>
+<img {{ with $src }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $srcset }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $sizes }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $class }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $loading }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $decoding }}{{ . | safeHTMLAttr }}{{ end }}>
 {{- else -}}
 	<!-- img not found -->
 {{- end -}}

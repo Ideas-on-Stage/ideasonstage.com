@@ -5,7 +5,7 @@ description: "The Ideas on Stage Podcast"
 url: "/resources/podcast/"
 ---
 
-{{< shortcode-img src="/resources/podcast/RVOimwZI.jpeg" class="centered" width="250px" >}}
+{{< shortcode-img img="/resources/podcast/RVOimwZI.jpeg" alt="Ideas on Stage Podcast" class="centered" width="250px" >}}
 
 Do you enjoy listening to podcasts? Are you interested in leadership and communication? Then you might enjoy the Ideas on Stage Podcast.
 
