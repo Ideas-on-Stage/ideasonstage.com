@@ -43,7 +43,8 @@ By joining the Academy, you’ll learn to:
 - Strengthen your **presence and credibility** as a professional
 - Keep improving through **ongoing practice and expert feedback**
 
-{{< shortcode-line class="margin-top margin-bottom" >}}
+{{< shortcode-img src="academy-people.jpg" alt="Academy People" class="margin-top margin-bottom">}}
+
 
 ## Who it’s for
 
