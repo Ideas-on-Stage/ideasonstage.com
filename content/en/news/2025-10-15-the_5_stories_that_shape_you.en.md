@@ -27,11 +27,18 @@ Amanda also shares personal insights from her own journey: growing up in Reading
 
 Whether you're preparing a keynote, rewriting your website or just trying to show up more authentically, this conversation will help you understand how to shape and share the stories that matter most.
 
-###### **To hear the full conversation with Amanda Baker, [watch this episode](https://youtu.be/cRUkvU1yCgU) of the Ideas on Stage Podcast.**
+###### 
+
+
+**To hear the full conversation with Amanda Baker, [watch this episode](https://youtu.be/cRUkvU1yCgU) of the Ideas on Stage Podcast.**
+
+###### 
+
+
 
 {{< shortcode-youtube cRUkvU1yCgU >}}  
 
-###### Want to learn more? 
+#### Want to learn more? 
 
 * Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
 * To make the most of the book, take the[ Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
