@@ -16,7 +16,6 @@ Pierre Morsa a été interviewé dans le documentaire « Le pouvoir des mots�
 
 Il enseigne le storytelling de marque et le storytelling politique à l’EFAP et l'EGE. Il a un diplôme d’ingénieur commercial de HEC Liège.
 
-Pierre tient un [blog personnel](https://www.pierremorsa.com/), en français.
 
 ## Missions remarquables
 

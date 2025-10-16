@@ -11,7 +11,7 @@
 	Offers the advantage of completing the path if only the image name is specified in the parameter, and also looks for a default hero.jpg image first.
 	
 	Arguments:
-	- page object or path as string
+	- page object
 	
 	Returns:
 	- name of hero picture
@@ -39,6 +39,10 @@
 		{{ else if (fileExists $thumbtestb) }}
 			{{/* <!-- then a file named hero.jpg exists, use it --> */}}
 			{{ $picture = "hero.jpg" }}
+			{{ $found = true }}
+		{{ else if .Params.img }}
+			{{/* <!-- else if .picture exists, use it --> */}}
+			{{ $picture = .Params.img }}
 			{{ $found = true }}
 		{{ else if .Params.picture }}
 			{{/* <!-- else if .picture exists, use it --> */}}

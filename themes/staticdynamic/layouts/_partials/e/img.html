@@ -17,7 +17,9 @@
 		- .class: a list of specific classes applicable to the img
 		- .loading: "eager", etc.
 		- .decoding: "async", etc.
-		- .sizes: list of sizes 
+		- .sizes: list of sizes
+		- .width: width of the picture
+		- .height: height of the picture
 	
  --> */}}
 {{- $imgpath := partial "f/getimgpath.go" . -}}
@@ -28,6 +30,8 @@
 {{- $class := false -}}
 {{- $loading := false -}}
 {{- $decoding := false -}}
+{{- $height := false -}}
+{{- $width := false -}}
 {{- $sizes := "sizes=\"(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px\"" -}}
 
 {{- if $imgpath -}}
@@ -58,9 +62,17 @@
 	{{- $sizes = printf "sizes=\"%s\"" . -}}
 {{- end -}}
 
+{{- with $data.width -}}
+	{{- $width = printf "height=\"%s\"" . -}}
+{{- end -}}
+
+{{- with $data.height -}}
+	{{- $height = printf "height=\"%s\"" . -}}
+{{- end -}}
+
 {{ "<!-- partials/e/img.html:start -->" | safeHTML }}
 {{- if $imgpath -}}
-<img {{ with $src }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $srcset }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $sizes }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $class }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $loading }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $decoding }}{{ . | safeHTMLAttr }}{{ end }}>
+<img {{ with $src }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $srcset }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $sizes }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $class }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $loading }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $decoding }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $width }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $height }}{{ . | safeHTMLAttr }}{{ end }}>
 {{- else -}}
 	<!-- img not found -->
 {{- end -}}
