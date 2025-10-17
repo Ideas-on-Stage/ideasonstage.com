@@ -39,11 +39,18 @@
 	to		= "https://www.ideasonstage.com/guides/ideasonstage-catalogue-fr.pdf"
 	status	= 301
 	force	= true
-	
-# redirect supports de formation "standard"
+
+# redirect supports de formation standard
 [[redirects]]
 	from	= "https://formation.ideasonstage.com/*"
 	to		= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/supports/:splat"
+	status	= 301
+	force	= true
+
+# redirect questionnaire pré-formation
+[[redirects]]
+	from	= "https://preformation.ideasonstage.com/*"
+	to		= "https://www.survio.com/survey/d/D3T4A8Q9X1D4U3M7S"
 	status	= 301
 	force	= true
 
@@ -59,13 +66,14 @@
 	status	= 301
 	force	= true
 
-# redirect satisfaction (partners satisfaction questionnaire link)
+# redirect questionnaire post-formation
 [[redirects]]
 	from	= "https://satisfaction.ideasonstage.com/*"
 	to		= "https://www.survio.com/survey/d/X5P/Formation-ideasonstage"
 	status	= 301
 	force	= true
 
+# redirect questionnaire satisfaction partnenaires
 [[redirects]]
 	from	= "https://partenaires.ideasonstage.com/*"
 	to		= "https://www.survio.com/survey/d/K5J7A9O3T5J3I0G8I"
