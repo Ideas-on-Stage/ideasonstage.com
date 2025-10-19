@@ -75,7 +75,6 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 
 {{< shortcode-agenda-list class="" >}}
 	{{< shortcode-agenda-item description="[Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)" >}}
-	{{< shortcode-agenda-item description="[Vous pouvez également consulter le certificat délivré par l'organisme de certification Alticert en cliquant ici.](/files/certificat-qualiopi-alticert.pdf)" >}}
 {{< /shortcode-agenda-list >}}
 
 {{< /shortcode-section >}}

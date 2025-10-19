@@ -3,27 +3,7 @@
 	.cl-body-cta {
 		@include height-hero();
 		@include width-parent-full();
-		
-		.img {
-			@include layer($z-index: 10);
-			> img {
-				@include img-back($z-index: -1);
-			}
-		}
-		
-		.overlay {
-			@include layer($z-index: 20);
-			background-color: var(--color-overlay);
-		}
-		
-		/* main text container, may have to share space with a logobar */
-		.text {
-			@include text-front();
-			@include height-parent-full(); /* same height as parent so text can be centered inside div */
-			@include width-content();
-			@include flex-column($align-column-h: center, $align-v: center);
-			--color-back: none;
-		}
+		@include layer-img-overlay-text;
 		
 		{{ partial "e/scheme.scss" ".cl-body-cta" }}
 	}

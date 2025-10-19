@@ -52,7 +52,7 @@ We invented this technique, and even we are often amazed at how easy it is to ar
 
 If you would like the help of an experienced facilitator to help you to run a brainstorming session using the Audience Transformation Roadmap™, the Ideas on Stage team would be happy to help: contact us at info@ideasonstage.com. Available in English, French, Spanish, Italian and German.
 
-For a larger version of the Audience Transformation Roadmap™, simply download our short guide [here](/files/ATR_template_Ideas_on_Stage.pdf).
+For a larger version of the Audience Transformation Roadmap™, simply download our short guide [here](ATR_template_Ideas_on_Stage.pdf).
 
 Have you tried using the Audience Transformation Roadmap™? We’d love to hear your experiences, so please tell us your thoughts using the form below.
 

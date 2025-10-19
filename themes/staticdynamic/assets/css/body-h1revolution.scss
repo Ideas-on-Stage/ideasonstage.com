@@ -3,11 +3,7 @@
 	.cl-body-h1revolution {
 		@include height-hero;
 		@include width-parent-full;
-		@include flex-column($align-column-h: center, $align-v: center);
-		
-		> img {
-			@include img-back($z-index: -100);
-		}
+		@include layer-img-overlay-text;
 		
 		{{ partial "e/scheme.scss" ".cl-body-h1revolution" }}
 	}

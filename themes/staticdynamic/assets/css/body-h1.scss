@@ -7,18 +7,7 @@
 		*/
 		@include height-hero();
 		@include width-parent-full();
-		
-		.img {
-			@include layer($z-index: 10);
-			> img {
-				@include img-back($z-index: -1);
-			}
-		}
-		
-		.overlay {
-			@include layer($z-index: 20);
-			background-color: var(--color-overlay);
-		}
+		@include layer-img-overlay-text($text-align-v: flex-start);
 		
 		/* logo bar at bottom of hero */
 		.logobar-layer {
@@ -64,14 +53,6 @@
 					}
 				}
 			}
-		}
-		
-		/* main text container, may have to share space with a logobar */
-		.text {
-			@include text-front($z-index: 30);
-			@include width-content();
-			@include padding($top: "medium");
-			@include firstlastchildnomargin();
 		}
 		
 		{{ partial "e/scheme.scss" ".cl-body-h1--hero" }};
