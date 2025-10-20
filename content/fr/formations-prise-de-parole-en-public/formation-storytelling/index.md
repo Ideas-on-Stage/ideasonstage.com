@@ -21,7 +21,7 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 
 {{< shortcode-image-wide src="storytelling.jpg" alt="Formation Storytelling" >}}
 
-{{% shortcode-agenda-list class="bg-light" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 ### Formation Storytelling
 
 #### Objectifs pédagogiques de la formation
@@ -50,7 +50,7 @@ Exercice final de mise en pratique des acquis.
 
 
 
-{{% shortcode-agenda-list style="bg-light" %}}
+{{% shortcode-agenda-list style="bg-light padding" %}}
 
 ### Programme détaillé
 

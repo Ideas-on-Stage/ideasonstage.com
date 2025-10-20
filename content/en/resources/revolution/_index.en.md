@@ -17,7 +17,7 @@ Rose Bloomfield is the anchor of the show, and Phil Waknell is the first guest t
 
 {{< shortcode-section
   id="social-media"
-  class="margin-top margin-bottom bg-light" >}}
+  class="margin-top margin-bottom bg-light padding" >}}
   
 {{< shortcode-list
   type="grid" >}}

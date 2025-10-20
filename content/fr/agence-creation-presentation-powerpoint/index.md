@@ -25,7 +25,7 @@ L'ATR (Audience Transformation Roadmap) est notre outil unique pour définir vos
 L'expérience le prouve régulièrement : de beaux slides ne sont rien sans une bonne histoire. Nos experts utilisent l'art du storytelling chaque jour. Ils l'enseignent dans des écoles de commerce et de communication.
 {{< /shortcode-picture1-text2 >}}
 
-{{< shortcode-text1-picture2 picture="/img/inserts/presentation-creation-service-14.jpg" title="Visuels" style="bg-light" >}}
+{{< shortcode-text1-picture2 picture="/img/inserts/presentation-creation-service-14.jpg" title="Visuels" style="bg-light padding" >}}
 Les raconteurs vont travailler main dans la main avec les designers de présentations pour créer des slides qui augmenteront l'impact de chacun de vos mots.
 {{< /shortcode-text1-picture2 >}}
 

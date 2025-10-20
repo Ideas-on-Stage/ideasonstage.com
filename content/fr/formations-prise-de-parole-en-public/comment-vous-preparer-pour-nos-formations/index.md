@@ -34,7 +34,7 @@ Nos formations mettent l'accent sur la mise en pratique via des exercices et des
 > Note : ce cahier est valable pour les formations prise de parole, storytelling, présentations PowerPoint et art oratoire. Les autres formations, comme l'Art du Pitch, Business Presentation Revolution ou Women on Stage, font appel à des supports spécifiques qui vous seront distribués lors de la formation.
 
 {{< shortcode-call-to-action
-  class="margin-top bg-light"
+  class="margin-top bg-light padding"
   button="Télécharger le cahier d'exercices"
   url="/training/cahier-exercices-ideas-on-stage.pdf" >}}
 Vous pouvez télécharger le cahier général d'exercices utilisé pendant nos formations avec le bouton ci-dessous. Ce cahier est utilisé pour les formations prise de parole, storytelling, présentations PowerPoint et art oratoire.

@@ -21,7 +21,7 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 
 {{< shortcode-image-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
 
-{{% shortcode-agenda-list style="bg-light" %}}
+{{% shortcode-agenda-list style="bg-light padding" %}}
 ### Descriptif de la formation
 
 #### Objectifs pédagogiques de la formation
@@ -48,7 +48,7 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 
 
 
-{{% shortcode-agenda-list style="bg-light" %}}
+{{% shortcode-agenda-list style="bg-light padding" %}}
 ### Programme jour 1
 
 #### Introduction

@@ -7,7 +7,15 @@
 		*/
 		@include height-hero();
 		@include width-parent-full();
-		@include layer-img-overlay-text($text-align-v: flex-start);
+		@include layer-img-overlay-text($text-align-v: "top");
+		
+		.text {
+			@media (max-width: $gl-sm-screen) {
+				p {
+					display: none; // hide description on small screens so it doesn't cover the pic
+				}
+			}
+		}
 		
 		/* logo bar at bottom of hero */
 		.logobar-layer {

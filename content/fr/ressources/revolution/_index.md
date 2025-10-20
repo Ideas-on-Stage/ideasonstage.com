@@ -20,7 +20,7 @@ Des versions avec des sous-titres en français et espagnol sont mises à disposi
 
 {{< shortcode-section
   id="social-media"
-  class="margin-top margin-bottom bg-light" >}}
+  class="margin-top margin-bottom bg-light padding" >}}
   
 {{< shortcode-list
   type="grid" >}}

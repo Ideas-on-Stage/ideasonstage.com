@@ -145,7 +145,7 @@ N'hésitez pas à nous dire si vous avez des personnes nécessitant un aménagem
 
 
 {{< shortcode-call-to-action
-  class="margin-bottom bg-light"
+  class="margin-bottom bg-light padding"
   button="En savoir plus"
   url="/fr/formation-prise-de-parole-2-jours/" >}}
 ### Formation Prise de Parole 2 jours
@@ -159,7 +159,7 @@ Notre formation phare de prise de parole en public, qui regroupe les modules Sto
   alt="Intervenant en train de réaliser une présentation" >}}
 
 {{< shortcode-call-to-action
-  class="margin-bottom bg-light"
+  class="margin-bottom bg-light padding"
   button="En savoir plus"
   url="/fr/formation-art-oratoire/" >}}
 ### Formation Art Oratoire
@@ -171,7 +171,7 @@ Le module art oratoire couvre toutes les techniques de communication verbale et 
 {{< shortcode-image-wide src="prise-de-parole-en-public-003.jpg" alt="Storytelling" >}}
 
 {{< shortcode-call-to-action
-  class="margin-bottom bg-light"
+  class="margin-bottom bg-light padding"
   button="En savoir plus"
   url="/fr/formation-storytelling/" >}}
 ### Formation Storytelling
@@ -183,7 +183,7 @@ Le module storytelling est un module star de nos formations. Unique en son genre
 {{< shortcode-image-wide src="prise-de-parole-en-public-004.jpg" alt="Gros plan mains qui applaudissent" >}}
 
 {{< shortcode-call-to-action
-  class="bg-light"
+  class="bg-light padding"
   button="En savoir plus"
   url="/fr/formation-presentations-powerpoint/" >}}
 ### Formation Présentations PowerPoint

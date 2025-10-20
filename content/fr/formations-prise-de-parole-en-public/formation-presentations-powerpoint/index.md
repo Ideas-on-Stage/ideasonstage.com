@@ -21,7 +21,7 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 
 {{< shortcode-image-wide src="formation-presentations-powerpoint.jpg" alt="Formation Visuels" >}}
 
-{{< shortcode-agenda-list style="bg-light">}}
+{{< shortcode-agenda-list style="bg-light padding">}}
 	{{< shortcode-agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre comment construire une présentation PowerPoint qui applique les bons principes de communication : structure, contenu, style.<br>Ce n'est pas une formation pour apprendre à utiliser PowerPoint, mais plutôt à communiquer efficacement avec PowerPoint." >}}
 	{{< shortcode-agenda-item title="Prérequis de la formation" description="Avoir déjà fait une présentation en public.<br>Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>Avoir un ordinateur avec une version récente de Microsoft PowerPoint." >}}
 	{{< shortcode-agenda-item title="Public concerné" description="Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux." >}}
@@ -31,7 +31,7 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 
 
 
-{{< shortcode-agenda-list style="bg-light" title="Programme" >}}
+{{< shortcode-agenda-list style="bg-light padding" title="Programme" >}}
 	{{< shortcode-agenda-item title="Introduction" description="Les trois piliers d’une bonne présentation<br>Agenda et objectifs<br>Vos attentes" >}}
 	{{< shortcode-agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
 	{{< shortcode-agenda-item title="Lier histoire et présentation" description="Utiliser un « storyboard »<br>La méthode pSCORE" >}}

@@ -21,7 +21,7 @@ Our corporate communication strategy consulting branch offers all necessary serv
 
 
 {{< shortcode-section 
-  class="bg-light">}}
+  class="bg-light padding">}}
 
 {{< shortcode-text
   class="text-center" >}}
@@ -84,7 +84,7 @@ Once we have a clear overall communication strategy in place; we work with you t
 
 
 {{< shortcode-section
-  class="bg-light" >}}
+  class="bg-light padding" >}}
 
 {{< shortcode-text
   class="text-center" >}}

@@ -54,7 +54,7 @@ Plus qu’un atelier, cette activité marquera durablement les esprits de votre 
 
 
 {{< shortcode-section
-  class="margin-top margin-bottom bg-light" >}}
+  class="margin-top margin-bottom bg-light padding" >}}
 
 {{< shortcode-text
   class="text-center" >}}

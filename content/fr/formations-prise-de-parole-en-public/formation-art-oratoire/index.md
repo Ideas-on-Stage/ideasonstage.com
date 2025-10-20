@@ -21,7 +21,7 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 
 {{< shortcode-image-wide src="formation-art-oratoire.jpg" alt="Formation à la prise de parole" >}}
 
-{{< shortcode-agenda-list style="bg-light">}}
+{{< shortcode-agenda-list style="bg-light padding">}}
 	{{< shortcode-agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre les techniques de l’art oratoire pour présenter avec aisance et présence sur scène.<br>Apprendre à convaincre son auditoire à travers l'utilisation du langage corporel, verbal et émotionnel." >}}
 	{{< shortcode-agenda-item title="Prérequis de la formation" description="Avoir déjà fait une présentation en public.<br>Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>Il n’est pas nécessaire d’avoir un ordinateur." >}}
 	{{< shortcode-agenda-item title="Public concerné" description="Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux." >}}
@@ -31,7 +31,7 @@ Pour vous aider à préparer votre formation, [vous pouvez consulter les informa
 
 
 
-{{< shortcode-agenda-list style="bg-light" title="Programme" >}}
+{{< shortcode-agenda-list style="bg-light padding" title="Programme" >}}
 	{{< shortcode-agenda-item title="Introduction" description="Les trois piliers d’une bonne présentation<br>Agenda et objectifs<br>Vos attentes" >}}
 	{{< shortcode-agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
 	{{< shortcode-agenda-item title="Vrai ou faux ?" description="Démasquer les mythes pour mieux comprendre ce qui fait un bon orateur." >}}

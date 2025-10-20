@@ -69,16 +69,6 @@
 			padding-right: 48px;
 		}
 		
-		/* if a background color is specified for the shortcode, add padding */
-		&.bg-black,
-		&.bg-white,
-		&.bg-light,
-		&.bg-dark,
-		&.bg-primary,
-		&.bg-secondary {
-			padding: 4vw;
-		}
-		
 		.text {
 			@include margins($vertical: "none");
 			

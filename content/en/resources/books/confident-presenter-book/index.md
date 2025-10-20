@@ -28,7 +28,7 @@ Now Officially Included in New York University’s Business Communication Course
 
 
 {{< shortcode-call-to-action
-  class="bg-light"
+  class="bg-light padding"
   button="TAKE THE TEST NOW"
   url="https://presentationscorecard.scoreapp.com" >}}
 ![Meter Orange](meter-orange.png)

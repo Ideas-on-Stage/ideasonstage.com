@@ -19,7 +19,7 @@ Rose Bloofield presenta la serie, y Phil Waknell es el primer invitado. Publicam
 
 {{< shortcode-section
   id="social-media"
-  class="margin-top margin-bottom bg-light" >}}
+  class="margin-top margin-bottom bg-light padding" >}}
   
 {{< shortcode-list
   type="grid" >}}

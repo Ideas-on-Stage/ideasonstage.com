@@ -72,7 +72,7 @@ The Academy combines live learning, hands-on practice and continuous support to 
 You’ll learn, practise and connect — all in one place.
 {{< /shortcode-text >}}
 
-{{< shortcode-text class="width-content text-center bg-light">}}
+{{< shortcode-text class="width-content text-center bg-light padding">}}
 ## Pricing & Guarantee
 
 Membership in the Academy starts at **£95 per month**
@@ -119,7 +119,7 @@ _Team Pack: 30% discount for groups of 3 or more from the same organisation._
 
 
 {{< shortcode-call-to-action
-  class="bg-light margin-top"
+  class="bg-light padding margin-top"
   button="APPLY NOW"
   url="https://docs.google.com/forms/d/e/1FAIpQLSfV8DCfxi8xnFvdjXa-p8n7PINZWRU2eGVzhwOAaILfvvoeeg/viewform" >}}
 ## Apply to join the Academy 

@@ -160,6 +160,7 @@
 	
 	@mixin height-parent-full {
 		/* set height to full height of parent container */
+		/* only works if parent has fixed-height */
 		height: 100%;
 	}
 	
@@ -256,7 +257,16 @@
 		}
 	}
 	
-	@mixin layer-img-overlay-text($overlay-opacity: 60%, $text-align-v: center) {
+	/* 
+		layer-img-overlay-text
+		
+		Creates 3 layers for a hero type layout: 
+		<div class="img"></div> is the image layer for the background image
+		<div class="overlay></div> is for the color overlay above the image
+		<div class="text"></div> is for the text over the image
+		the alignment of the text can be flex-start (at top), center or flex-end (at bottom)
+	 */
+	@mixin layer-img-overlay-text($text-align-v: "center") {
 		.img {
 			@include layer($z-index: 10);
 			> img {
@@ -274,17 +284,25 @@
 			@include text-front();
 			@include height-parent-full(); /* same height as parent so text can be centered inside div */
 			@include width-content();
-			@include flex-column($align-column-h: center, $align-v: $text-align-v);
-			padding: 2rem;
+			@if "top" == $text-align-v {
+				@include flex-column($align-column-h: center, $align-v: flex-start);
+			}
+			@else if "bottom" == $text-align-v {
+				@include flex-column($align-column-h: center, $align-v: flex-end);
+			}
+			@else {
+				@include flex-column($align-column-h: center, $align-v: center);
+			}
+			padding: 3rem;
 			--color-back: none;
 		}
 	}
 	
+	/*
+		standardized margins for theme
+		marginv: "tall", "medium", "short", "none"
+	*/
 	@mixin margins($vertical: "", $top: "", $bottom: "") {
-		/*
-			standardized margins for theme
-			marginv: "tall", "medium", "short", "none"
-		*/
 		
 		@if "tall" == $vertical {
 			margin-top: 5rem;

@@ -27,7 +27,7 @@ So please tell your colleagues, tell your pets, tell the world! Simply click on 
 
 {{< shortcode-section
   id="social-networks"
-  class="margin-top margin-bottom bg-light" >}}
+  class="margin-top margin-bottom bg-light padding" >}}
 
 {{< shortcode-text
   class="text-center margin-bottom" >}}
@@ -66,7 +66,7 @@ Thanks for sharing, we wish you happy reading, and as a last thank-you, here’s
 
 {{< shortcode-section
   id="follow-us"
-  class="margin-top margin-bottom bg-light" >}}
+  class="margin-top margin-bottom bg-light padding" >}}
 
 {{< shortcode-text
   class="text-center margin-bottom" >}}

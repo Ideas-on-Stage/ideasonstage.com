@@ -10,7 +10,7 @@ button:
 ---
 
 {{< shortcode-section
-  class="bg-light" >}}
+  class="bg-light padding" >}}
 
 {{< shortcode-text
   class="text-center" >}}

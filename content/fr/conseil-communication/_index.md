@@ -19,7 +19,7 @@ Notre offre de conseil en stratégie de communication d'entreprise propose tous 
 
 
 {{< shortcode-section 
-  class="bg-light">}}
+  class="bg-light padding">}}
 
 {{< shortcode-text
   class="text-center" >}}
@@ -27,7 +27,7 @@ Notre offre de conseil en stratégie de communication d'entreprise propose tous 
 {{< /shortcode-text >}}
 
 {{< shortcode-list
-  class="margin-top margin-bottom gap"
+  class="margin-top"
   type="grid" >}}
 
 {{< shortcode-list-icon
@@ -76,7 +76,7 @@ Une fois que nous avons dessiné une stratégie de communication globale claire,
 {{< shortcode-image-wide src="bureaux-entreprise.jpg" alt="Communication d'entreprise" >}}
 
 {{< shortcode-section
-  class="bg-light" >}}
+  class="bg-light padding" >}}
 
 {{< shortcode-text
   class="text-center" >}}
@@ -84,7 +84,7 @@ Une fois que nous avons dessiné une stratégie de communication globale claire,
 {{< /shortcode-text >}}
 
 {{< shortcode-list 
-  class="margin-top margin-bottom"
+  class="margin-top"
   type="grid" >}}
 {{< shortcode-list-icon
   columns="5"
