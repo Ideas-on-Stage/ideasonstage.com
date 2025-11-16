@@ -11,7 +11,8 @@ picture: elevator-pitch.jpg
 hugopublishpath: /Users/pmorsa/Sites/Hugo/ideasonstage.com/content/fr/formations-prise-de-parole-en-public/supports/pitch/_index.md
 ---
 
-Cette préparation au pitch se déroule sur 2 séances de 3 heures. Elle vous permettra de construire un pitch impactant et d’être confiant sur scène, face à la caméra.
+
+Cette préparation au pitch se déroule sur 2 séances de 3 heures. Elle vous permettra de construire un pitch impactant et d’être confiant sur scène.
 
 
 ## 1 Supports de la formation

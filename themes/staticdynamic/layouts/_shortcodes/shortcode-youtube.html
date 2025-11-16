@@ -7,6 +7,7 @@
 	2024-08-01 PMO: added code to load on server image placeholder
 	2024-08-03 PMO: inlined css to remove it from main stylesheet
 	2024-08-04 PMO: corrected http to https + fixed layout for youtube image links
+	2025-11-16 PMO: corrected youtube icon display over image (use resources.Get)
 --> */}}
 
 {{ $varid := index .Params 0 }}
@@ -25,7 +26,8 @@
 			{{/* <!-- else use youtube.com version of youtube placeholder image --> */}}
 			<img src="https://img.youtube.com/vi/{{ index .Params 0 }}/sddefault.jpg">
 		{{ end }}
-		<img src="/img/icons/youtube.svg" class="icon">
+		{{ $image := resources.Get "img/icons/youtube.svg" }}
+		<img src="{{ $image.RelPermalink }}" class="icon">
 		<div class="video">
 			<div class="videocontainer">
 				<div id="player{{ index .Params 0 }}" style="background-color:none;">
