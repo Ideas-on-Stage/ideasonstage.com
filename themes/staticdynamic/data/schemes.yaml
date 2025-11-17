@@ -58,10 +58,13 @@ root:
     # page variables
     --page-padding-top: "var(--menubar-height)"
     --page-width: "100%"
-    --page-max-width: "#{$gl-lg-screen}"
+    --page-max-width: "100%"
     
     # adapt variable values for small screens
     sm:
+        # page variable
+        --page-max-width: "#{$gl-lg-screen}"
+        
         # content variables
         --content-max-width: "92vw" # recommended: 100vw - 2 * flex-column-gap-medium
         --content-narrow-max-width: "92vw" # recommended: 100vw - 2 * flex-column-gap-medium
@@ -83,8 +86,16 @@ root:
     
     # adapt variable values for large screens
     lg:
+        # page variables
+        --page-width: "1440px"
+        --page-max-width: "1440px"
+        
+        # content variables
+        --content-max-width: "1152px"
+        --content-narrow-max-width: "720px"
+        
+        # font variables
         --font-base-size: "22px"
-
 
 
 # -----------------
