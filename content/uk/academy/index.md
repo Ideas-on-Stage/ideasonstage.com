@@ -10,7 +10,7 @@ picture: "academy.jpg"
 Live practice, expert coaching and a community that keeps you moving.<br>
 _Membership by application — limited spaces available_
 
-{{< shortcode-button-primary name="APPLY NOW" url="https://docs.google.com/forms/d/e/1FAIpQLSfV8DCfxi8xnFvdjXa-p8n7PINZWRU2eGVzhwOAaILfvvoeeg/viewform" >}}
+{{< shortcode-button-primary name="APPLY NOW" url="https://tally.so/r/RGWN9v" >}}
 {{< /shortcode-section-hero >}}
 
 {{< shortcode-text class="width-content margin-top margin-bottom" >}}
@@ -121,7 +121,7 @@ _Team Pack: 30% discount for groups of 3 or more from the same organisation._
 {{< shortcode-call-to-action
   class="bg-light padding margin-top"
   button="APPLY NOW"
-  url="https://docs.google.com/forms/d/e/1FAIpQLSfV8DCfxi8xnFvdjXa-p8n7PINZWRU2eGVzhwOAaILfvvoeeg/viewform" >}}
+  url="https://tally.so/r/RGWN9v" >}}
 ## Apply to join the Academy 
 
 Membership in the Academy is by application. We welcome professionals who are serious about becoming confident, impactful communicators — and who want to contribute to a high-quality community. 
