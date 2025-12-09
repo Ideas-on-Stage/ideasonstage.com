@@ -69,7 +69,7 @@
 # redirect questionnaire post-formation
 [[redirects]]
 	from	= "https://satisfaction.ideasonstage.com/*"
-	to		= "https://www.survio.com/survey/d/X5P/Formation-ideasonstage"
+	to		= "https://www.survio.com/survey/d/K5J7A9O3T5J3I0G8I"
 	status	= 301
 	force	= true
 
