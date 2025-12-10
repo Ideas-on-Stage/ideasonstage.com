@@ -27,13 +27,12 @@ Ciaran’s journey shows what happens when a professional chooses to grow beyond
 
 And that’s what becoming a better speaker truly means.
 
-
 **Watch the [full interview with Ciaran](https://youtu.be/ANY2ty554zU) to hear his story and the lessons behind his transformation.**
 
 {{< shortcode-youtube ANY2ty554zU >}}  
 
 #### Want to learn more? 
 
-* Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
+* Read **[Confident Presenter – free copy](https://mailchi.mp/ideasonstage/confident-presenter)** and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
 * To make the most of the book, take the[ Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
 * Attend our free,[ live masterclass](https://www.ideasonstage.com/uk/events/) on all things presentation skills
