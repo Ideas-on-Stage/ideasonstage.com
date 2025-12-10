@@ -45,15 +45,12 @@ If you want to improve how you show up right away, Kay says to check the length 
 
 Your appearance is part of your message. This episode offers clear, actionable steps to help you show up with more confidence, clarity and consistency – whether you’re on stage, on video or in a photo shoot.
 
-
-
-
 **To hear the full conversation with Kay Korsh, [watch this episode](https://youtu.be/omLC61SLkVA) of the Ideas on Stage Podcast.**
 
 {{< shortcode-youtube omLC61SLkVA >}}  
 
 #### Want to learn more? 
 
-* Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
+* Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/)
 * To make the most of the book, take the[ Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
 * Attend our free,[ live masterclass](https://www.ideasonstage.com/uk/events/) on all things presentation skills
