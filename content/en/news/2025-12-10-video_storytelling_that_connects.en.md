@@ -39,13 +39,12 @@ Ravinol described video storytelling as two tracks running side by side: what we
 
 Ravinol also spoke about the work behind short videos. A two-minute video may seem easier than a six-minute one, but often it takes more effort. To make a short video powerful, the message must be refined and structured with care. That discipline is what makes a story land.
 
-
 **To hear the full conversation with Ravinol Chambers and explore these ideas in depth, [watch this episode](https://youtu.be/rAkTHbnCoWI) of the Ideas on Stage Podcast.**
 
 {{< shortcode-youtube rAkTHbnCoWI >}}  
 
 #### Want to learn more? 
 
-* Read [Confident Presenter](https://www.ideasonstage.com/resources/confident-presenter-book/) and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
+* Read **[Confident Presenter – free copy](https://mailchi.mp/ideasonstage/confident-presenter)** and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
 * To make the most of the book, take the[ Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
 * Attend our free,[ live masterclass](https://www.ideasonstage.com/uk/events/) on all things presentation skills
