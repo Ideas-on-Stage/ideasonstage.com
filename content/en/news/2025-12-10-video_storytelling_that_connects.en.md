@@ -45,6 +45,6 @@ Ravinol also spoke about the work behind short videos. A two-minute video may se
 
 #### Want to learn more? 
 
-* Read **[Confident Presenter – free copy](https://mailchi.mp/ideasonstage/confident-presenter)** and [Business Presentation Revolution ](https://www.ideasonstage.com/business-presentation-revolution/book/)
+* Read **[Confident Presenter – free copy](https://mailchi.mp/ideasonstage/confident-presenter)** and [Business Presentation Revolution ](https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/)
 * To make the most of the book, take the[ Confident Presenter Scorecard](https://ideasonstage.com/score) to assess your presentation skills in less than 3 minutes
 * Attend our free,[ live masterclass](https://www.ideasonstage.com/uk/events/) on all things presentation skills
