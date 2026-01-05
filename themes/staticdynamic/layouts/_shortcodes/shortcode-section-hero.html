@@ -17,6 +17,7 @@
 {{- $style := partial "f/gethtmlattrstyle.go" . -}}
 {{- $id := .Get "id" -}}
 {{- $img := .Get "img" -}}
+{{- $overlay := .Get "overlay" -}}
 {{- $inner := .Inner -}}
 
 {{/* <!-- process id --> */}}
@@ -31,8 +32,10 @@
 		{{ partial "e/img" $.Params }}
 	</div>
 	{{- end -}}
+	{{- if $overlay -}}
 	<div class="overlay">
 	</div>
+	{{- end -}}
 	{{- with $inner -}}
 	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
 		{{ . | markdownify}}
