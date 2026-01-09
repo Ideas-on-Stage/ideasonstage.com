@@ -261,6 +261,108 @@ revolution:
 
 
 
+#page.Type "services"
+services:
+    # page.Kind "taxonomy" = section for tags
+    section:
+        head:
+            - head-meta-desc-tags-taxonomy
+            - head-title-tags-taxonomy
+        body:
+            - body-h1
+            - body-main-sidebar-article
+        article:
+            - article-listtaxonomy-services
+    # page.Kind "taxonomy" = section for tags
+    taxonomy:
+        head:
+            - head-meta-desc-tags-taxonomy
+            - head-title-tags-taxonomy
+        body:
+            - body-h1
+            - body-main-sidebar-article
+        article:
+            - article-listtaxonomy-services
+    # page.Kind "term" = page for tags
+    page:
+        head:
+            - head-meta-desc-tags-term
+            - head-meta-robots-ni
+            - head-title-tags-term
+        body:
+            - body-breadcrumbs
+            - body-h1
+            - body-main-sidebar-article
+        article:
+            - article-listtaxonomy-services-term
+    # page.Kind "term" = page for tags
+    term:
+        head:
+            - head-meta-desc-tags-term
+            - head-meta-robots-ni
+            - head-title-tags-term
+        body:
+            - body-breadcrumbs
+            - body-h1
+            - body-main-sidebar-article
+        article:
+            - article-listtaxonomy-services-term
+
+
+
+#page.Type "skills"
+skills:
+    # page.Kind "taxonomy" = section for tags
+    section:
+        head:
+            - head-meta-desc-tags-taxonomy
+            - head-title-tags-taxonomy
+        body:
+            - body-h1
+            - body-main-sidebar-article
+        article:
+            - article-content
+            - article-listtaxonomy-skills
+    # page.Kind "taxonomy" = section for tags
+    taxonomy:
+        head:
+            - head-meta-desc-tags-taxonomy
+            - head-title-tags-taxonomy
+        body:
+            - body-h1
+            - body-main-sidebar-article
+        article:
+            - article-content
+            - article-listtaxonomy-skills
+    # page.Kind "term" = page for tags
+    page:
+        head:
+            - head-meta-desc-tags-term
+            - head-meta-robots-ni
+            - head-title-tags-term
+        body:
+            - body-breadcrumbs
+            - body-h1
+            - body-main-sidebar-article
+        article:
+            - article-content
+            - article-listtaxonomy-skills-term
+    # page.Kind "term" = page for tags
+    term:
+        head:
+            - head-meta-desc-tags-term
+            - head-meta-robots-ni
+            - head-title-tags-term
+        body:
+            - body-breadcrumbs
+            - body-h1
+            - body-main-sidebar-article
+        article:
+            - article-content
+            - article-listtaxonomy-skills-term
+
+
+
 # page.Type "tags"
 tags:
     # page.Kind "taxonomy" = section for tags

@@ -1,0 +1,34 @@
+<article id="list-taxonomy" class="cl-listtaxonomy">
+	{{ $taxo := site.Taxonomies.skills.Get (.Title | lower) }}
+	{{/* <!-- get the order in which skills should be displayed --> */}}
+	{{- $order := partial "f/getdata.go" site.Data.taxonomies.services -}}
+	{{/* <!-- iterate through ordered services --> */}}
+	{{- range $order -}}
+		{{- $service := . -}}
+		{{- $keya := slice . -}}
+		{{ $pages := where $taxo.Pages "Params.services" "intersect" $keya }}
+		{{- if $pages -}}
+			<h2>
+				<a href="{{ relLangURL "services" }}/{{ $service | urlize }}">
+					{{ title $service }}
+				</a>
+			</h2>
+			<ul>
+				{{- range $pages -}}
+				{{/* <!-- if ordered skill = group skill then display it --> */}}
+					<li>
+						<a href="{{ .RelPermalink }}">
+							<img src="{{ .RelPermalink }}thumbnail.jpg" alt="{{ .Title }}">
+							<h3>
+								{{ .Title }}
+							</h3>
+							<p>
+								{{ .Description }}
+							</p>
+						</a>
+					</li>
+				{{- end -}}
+			</ul>
+		{{- end -}}
+	{{- end -}}
+</article>

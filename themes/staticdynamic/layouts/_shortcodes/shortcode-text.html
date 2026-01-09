@@ -1,7 +1,7 @@
 {{/* <!-- get parameters --> */}}
 {{- $class := partial "f/gethtmlattrclass" . -}}
 {{- $style := partial "f/gethtmlattrstyle" . -}}
-{{- $inner := .Inner -}}
+{{- $inner := .InnerDeindent -}}
 
 {{ "<!-- shortcode-text.html:start -->" | safeHTML }}
 {{- with $inner -}}

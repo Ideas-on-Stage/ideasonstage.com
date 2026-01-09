@@ -123,10 +123,15 @@ navbar:
       url: "#contact"
 
 # -------------------
-# News
+# news
 news:
     sbcategorytitle: "Top catégories"
     related: "Voir également"
+
+# -------------------
+# permalinks
+Permalinks:
+    skills: /offre/competences/:slug/
 
 # -------------------
 # table of contents

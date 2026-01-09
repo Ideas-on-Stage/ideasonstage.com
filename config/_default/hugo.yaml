@@ -51,4 +51,6 @@ permalinks:
     news: /news/:year/:month/:day/:contentbasename/
 
 taxonomies:
+    service: services
+    skill: skills
     tag: tags

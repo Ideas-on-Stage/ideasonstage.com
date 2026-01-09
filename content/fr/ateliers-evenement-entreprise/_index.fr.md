@@ -5,6 +5,8 @@ description: "Des ateliers créatifs pour vous aider à lancer vos projets et re
 picture: "workshops.jpg"
 translationKey: "workshops"
 
+services: [ ateliers ]
+skills: [ communication écrite, prise de parole, leadership ]
 ---
 
 {{< shortcode-call-to-action 

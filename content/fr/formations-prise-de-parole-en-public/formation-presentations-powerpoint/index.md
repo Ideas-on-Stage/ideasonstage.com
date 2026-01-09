@@ -4,6 +4,10 @@ title: "Formation présentations PowerPoint"
 description: "Formation intra-entreprise pour apprendre à convaincre avec des visuels PowerPoint."
 url: "/fr/formation-presentations-powerpoint/"
 type: "training"
+
+services: [ formations ]
+skills: [ prise de parole ]
+
 format: "Intra-entreprise"
 duration: "7 h"
 price: "3000 € HTVA"

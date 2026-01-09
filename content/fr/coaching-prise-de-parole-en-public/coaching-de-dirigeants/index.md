@@ -5,6 +5,8 @@ description: "Développez votre présence sur scène. Devenez un leader charisma
 picture: "public-speaking-coaching-10.jpg"
 translationKey: "public-speaking-coaching/executive-coaching"
 
+services: [ coaching ]
+skills: [ leadership, prise de parole ]
 ---
 
 ## Soyez un leader sur scène

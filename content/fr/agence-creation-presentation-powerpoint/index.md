@@ -6,6 +6,10 @@ translationKey: "powerpoint-presentation-design-agency"
 
 schema: "Service"
 provider: "ideasonstage"
+
+services: [ design ]
+skills: [ communication visuelle ]
+
 ---
 
 ## De l'idée à la présentation persuasive

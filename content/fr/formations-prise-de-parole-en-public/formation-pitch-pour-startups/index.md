@@ -5,6 +5,10 @@ description: "Apprenez les secrets du pitch, par une équipe de coachs qui a col
 picture: "pitch-startup.jpg"
 translationKey: "presentations-training/pitch-for-startups"
 url: "/fr/formation-pitch-pour-startups/"
+type: "training"
+
+services: [ formations ]
+skills: [ prise de parole ]
 ---
 
 ## Tout dépend du pitch

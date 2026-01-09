@@ -1,0 +1,29 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-listtaxonomy {
+		
+		h2 {
+			text-align: center;
+			text-transform: uppercase;
+		}
+		
+		/* list of pages matching taxonomy term */
+		ul {
+			@include flex-row($gap: "gap", $wrap: "wrap");
+			@include ul-container();
+		}
+		
+		/* page matching taxonomy term */
+		li {
+			@include width-column(3);
+			@include width-column-sm(1);
+			
+			img { 
+				height: 15vw;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+		
+		{{ partial "e/scheme.scss" ".cl-article-listtaxonomy" }}
+	}

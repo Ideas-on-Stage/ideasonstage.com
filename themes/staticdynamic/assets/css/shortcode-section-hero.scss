@@ -4,6 +4,11 @@
 		@include height-hero();
 		@include width-parent-full();
 		@include layer-img-overlay-text();
+		min-height: 50vw;
+		
+		img {
+			min-height: 50vw;
+		}
 		
 		.text {
 			text-align: center;

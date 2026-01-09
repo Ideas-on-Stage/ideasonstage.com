@@ -3,6 +3,9 @@ draft: true
 title: "Coaching prise de parole en public"
 description: "Développez votre présence sur scène. Devenez un leader charismatique."
 translationKey: "public-speaking-coaching/coaching"
+
+services: [ coaching ]
+skills: [ prise de parole ]
 ---
 
 Notre service de coaching est taillé sur mesure. Que vous soyez un cadre dirigeant devant présenter sa nouvelle stratégie, un organisateur souhaitant faire coacher les intervenants de son événement ou un créateur de start-up invité à présenter à une grande conférence, notre objectif est le même : vous faire réussir.

@@ -4,6 +4,10 @@ title: "Formation prise de parole 1 jour"
 description: "Message, storytelling, présentations PowerPoint et art oratoire."
 url: "/fr/formation-prise-de-parole-1-jour/"
 type: "training"
+
+services: [ formations ]
+skills: [ prise de parole ]
+
 format: "Intra-entreprise"
 duration: "7 h"
 price: "3000 € HTVA"

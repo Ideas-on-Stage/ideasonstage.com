@@ -4,6 +4,10 @@ title: "Formation art oratoire"
 description: "La formation en art oratoire la plus complète. Apprenez à vous exprimer avec aisance sur scène."
 url: "/fr/formation-art-oratoire/"
 type: "training"
+
+services: [ formations ]
+skills: [ prise de parole ]
+
 format: "Intra-entreprise"
 duration: "7 h"
 price: "3000 € HTVA"

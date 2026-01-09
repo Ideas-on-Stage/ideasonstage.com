@@ -1,0 +1,31 @@
+<article id="list-taxonomy" class="cl-listtaxonomy">
+	{{ $taxo := site.Taxonomies.skills }}
+	{{- $order := partial "f/getdata.go" site.Data.taxonomies.skills -}}
+	{{ range $order }}
+		{{- $skill := . -}}
+		{{- $keya := slice . -}}
+		{{ $pages := (where site.Pages "Params.skills" "intersect" $keya).ByWeight  }}
+		{{- if $pages -}}
+			<h2>
+				<a href="{{ relLangURL "skills" }}/{{ $skill | urlize }}">
+					{{ title $skill }}
+				</a>
+			</h2>
+			<ul>
+				{{- range $pages -}}
+				<li>
+					<a href="{{ .RelPermalink }}">
+						<img src="{{ .RelPermalink }}thumbnail.jpg" alt="{{ .Title }}">
+						<h3>
+							{{ .Title }}
+						</h3>
+						<p>
+							{{ .Description }}
+						</p>
+					</a>
+				</li>
+				{{- end -}}
+			</ul>
+		{{- end -}}
+	{{- end -}}
+</article>

@@ -4,6 +4,10 @@ title: "Formation prise de parole 2 jours"
 description : "Message, storytelling, présentations PowerPoint et art oratoire avec mise en pratique et étude de cas."
 url: "/fr/formation-prise-de-parole-2-jours/"
 type: "training"
+
+services: [ formations ]
+skills: [ prise de parole ]
+
 format : "Intra-entreprise"
 duration: "2 x 7 h"
 price: "6000 € HTVA"

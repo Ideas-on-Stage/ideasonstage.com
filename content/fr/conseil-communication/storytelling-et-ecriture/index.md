@@ -4,6 +4,9 @@ title: "Storytelling et Écriture"
 description: "Notre équipe de « Storytellers » vous créera une histoire captivante."
 picture: "story-copywriting.jpg"
 translationKey: "communication-consulting/story-copywriting"
+
+services: [ conseil ]
+skills: [ communication écrite, prise de parole ]
 ---
 
 ## Pourquoi nous souvenons-nous des histoires, mais oublions la présentation d'hier ?
