@@ -1,9 +1,9 @@
 +++
 draft = false
-title = "Video Storytelling That Connects"
+title = "The Psychology of Being Heard "
 tags = ["Podcasts"]
 news = ["general"]
-date = "2025-12-10"
+date = "2026-01-14"
 author = "Andrea Pacini"
 banner = "/img/news/podcast_youtube_thumbnail-toddkashdan.png"
 +++
