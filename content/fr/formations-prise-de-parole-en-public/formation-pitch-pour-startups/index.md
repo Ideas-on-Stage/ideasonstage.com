@@ -7,8 +7,9 @@ translationKey: "presentations-training/pitch-for-startups"
 url: "/fr/formation-pitch-pour-startups/"
 type: "training"
 
+# taxonomies
 services: [ formations ]
-skills: [ prise de parole ]
+skills: [ prise de parole en public ]
 ---
 
 ## Tout dépend du pitch

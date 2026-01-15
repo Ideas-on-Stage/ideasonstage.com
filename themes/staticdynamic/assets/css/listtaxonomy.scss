@@ -9,7 +9,7 @@
 		
 		/* list of pages matching taxonomy term */
 		ul {
-			@include flex-row($gap: "gap", $wrap: "wrap");
+			@include flex-row($gap: "big", $wrap: "wrap", $align-h: center);
 			@include ul-container();
 		}
 		
@@ -19,9 +19,16 @@
 			@include width-column-sm(1);
 			
 			img { 
-				height: 15vw;
+				height: 16vw;
+				max-height: 250px;
 				width: 100%;
 				object-fit: cover;
+				border-radius: 0.5vw;
+				
+				@media (max-width: $gl-sm-screen) {
+					height: 50vw;
+					border-radius: 1.5vw;
+				}
 			}
 		}
 		

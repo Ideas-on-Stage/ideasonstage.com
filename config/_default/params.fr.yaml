@@ -52,7 +52,7 @@ footer:
     cookies: "Nous respectons votre vie privée. Nous n'utilisons ni cookies ni scripts pour vous surveiller."
     text: "Ideas on Stage SARL au capital social de 22 000 €<br>138 avenue des Champs-Élysées − 75008 Paris<br>SIRET : 52214433600057 − N° TVA : FR02522144336<br>Déclaration d’activité enregistrée sous le numéro 11 75 45849 75 auprès du préfet de région d’Ile-de-France."
     categories:
-        - name: "Services"
+        - name: "Offre"
           items:
             - name: "Formations prise de parole"
               url: "/fr/formations-prise-de-parole-en-public/"
@@ -111,13 +111,13 @@ map:
 # navbar
 navbar:
     - name: "Formations"
-      url: "/fr/formations-prise-de-parole-en-public/"
+      url: "/fr/services/formations/"
     - name: "Coaching"
-      url: "/fr/coaching-prise-de-parole-en-public/"
+      url: "/fr/services/coaching/"
     - name: "Conseil"
-      url: "/fr/conseil-communication/"
+      url: "/fr/services/conseil/"
     - name: "Ateliers"
-      url: "/fr/ateliers-evenement-entreprise/"
+      url: "/fr/services/ateliers/"
       hideonmediumscreens: true
     - name: "Contact"
       url: "#contact"

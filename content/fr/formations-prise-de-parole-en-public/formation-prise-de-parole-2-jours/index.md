@@ -1,18 +1,20 @@
 ---
 draft: false
 title: "Formation prise de parole 2 jours"
-description : "Message, storytelling, présentations PowerPoint et art oratoire avec mise en pratique et étude de cas."
+description: "Formation approfondie en prise de parole : message, storytelling, présentations PowerPoint et art oratoire avec mise en pratique et plusieurs études de cas."
 url: "/fr/formation-prise-de-parole-2-jours/"
 type: "training"
+weight: 50
 
+# taxonomies
 services: [ formations ]
-skills: [ prise de parole ]
+skills: [ prise de parole en public ]
 
 format : "Intra-entreprise"
 duration: "2 x 7 h"
 price: "6000 € HTVA"
 attendees: "4 à 8 personnes"
-locations: "dans vos locaux ou dans nos locaux des Champs Élysées à Paris"
+location: "dans vos locaux ou dans nos locaux des Champs Élysées à Paris"
 
 contact:
     title: "Réservez une session de formation"

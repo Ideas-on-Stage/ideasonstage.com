@@ -1,0 +1,157 @@
+{{/* <!--
+	
+	shortcode-training-info.html
+	
+	Displays the training info (price, location, etc.).
+	
+	Parameters:
+	- format="Intra-entreprise"
+	- duration="7 h"
+	- price="3000 € HTVA"
+	- attendees="4 à 8 personnes"
+	- location="dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"	
+--> */}}
+
+{{/* <!-- get parameters --> */}}
+{{- $name := .Get "name" -}}
+{{- $objectives := .Get "objectives" -}}
+{{- $format := .Get "format" -}}
+{{- $prerequisites := .Get "prerequisites" -}}
+{{- $duration := .Get "duration" -}}
+{{- $price := .Get "price" -}}
+{{- $audience := .Get "audience" -}}
+{{- $attendees := .Get "attendees" -}}
+{{- $location := .Get "location" -}}
+{{- $means := .Get "means" -}}
+{{- $evaluation := .Get "evaluation" -}}
+
+{{- $class := partial "f/gethtmlattrclass.go" . -}}
+{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+
+{{ "<!-- shortcode-training-info.html:start -->" | safeHTML }}
+<div {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
+	<ul>
+		{{- with $name -}}
+		<li id="name" class="content">
+			<div class="key">
+				<b>Intitulé :</b>
+			</div>
+			<div class="value">
+				{{ . | safeHTML }}
+			</div>
+		</li>
+		{{- end -}}
+
+		{{- with $objectives -}}
+		<li id="format" class="content">
+			<div class="key">
+				<b>Objectifs :</b>
+			</div>
+			<div class="value">
+				{{ . | safeHTML }}
+			</div>
+		</li>
+		{{- end -}}
+
+		{{- with $format -}}
+		<li id="format" class="content">
+			<div class="key">
+				<b>Format :</b>
+			</div>
+			<div class="value">
+				{{ . | safeHTML }}
+			</div>
+		</li>
+		{{- end -}}
+
+		{{- with $prerequisites -}}
+		<li id="prerequisites" class="content">
+			<div class="key">
+				<b>Prérequis :</b>
+			</div>
+			<div class="value">
+				{{ . | safeHTML }}
+			</div>
+		</li>
+		{{- end -}}
+		
+		{{- with $duration -}}
+		<li id="duration" class="content">
+			<div class="key">
+				<b>Durée :</b>
+			</div>
+			<div class="value">
+				{{ . | safeHTML }}
+			</div>
+		</li>
+		{{- end -}}
+		
+		{{- with $price -}}
+		<li id="price" class="content">
+			<div class="key">
+				<b>Prix :</b>
+			</div>
+			<div class="value">
+				{{ . | safeHTML }}
+			</div>
+		</li>
+		{{- end -}}
+		
+		{{- with $audience -}}
+		<li id="audience" class="content">
+			<div class="key">
+				<b>Audience :</b>
+			</div>
+			<div class="value">
+				{{ . | safeHTML }}
+			</div>
+		</li>
+		{{- end -}}
+		
+		{{- with $attendees -}}
+		<li id="attendees" class="content">
+			<div class="key">
+				<b>Participants :</b>
+			</div>
+			<div class="value">
+				{{ . | safeHTML }}
+			</div>
+		</li>
+		{{- end -}}
+		
+		{{- with $location -}}
+		<li id="location" class="content">
+			<div class="key">
+				<b>Lieu :</b>
+			</div>
+			<div class="value">
+				{{ . | safeHTML }}
+			</div>
+		</li>
+		{{- end -}}
+		
+		{{- with $means -}}
+		<li id="means" class="content">
+			<div class="key">
+				<b>Moyens pédagogiques, modalités et méthodes :</b>
+			</div>
+			<div class="value">
+				{{ . | safeHTML }}
+			</div>
+		</li>
+		{{- end -}}
+		
+		{{- with $evaluation -}}
+		<li id="evaluation" class="content">
+			<div class="key">
+				<b>Évaluation :</b>
+			</div>
+			<div class="value">
+				{{ . | safeHTML }}
+			</div>
+		</li>
+		{{- end -}}
+		
+	</ul>
+</div>
+{{ "<!-- shortcode-training-info.html:end -->" | safeHTML }}

@@ -5,14 +5,16 @@ description: "Formation aux techniques de storytelling pour apprendre à convain
 url: "/fr/formation-storytelling/"
 type: "training"
 format: "Intra-entreprise"
+weight: 10
 
+# taxonomies
 services: [ formations ]
-skills: [ prise de parole ]
+skills: [ prise de parole en public ]
 
 duration: "7 h"
 price: "3000 € HTVA"
 attendees: "4 à 8 personnes"
-locations: "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
+location: "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
 
 contact:
     title: "Réservez une session de formation"

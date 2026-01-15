@@ -4,15 +4,17 @@ title: "Formation prise de parole 1 jour"
 description: "Message, storytelling, présentations PowerPoint et art oratoire."
 url: "/fr/formation-prise-de-parole-1-jour/"
 type: "training"
+weight: 40
 
+# taxonomies
 services: [ formations ]
-skills: [ prise de parole ]
+skills: [ prise de parole en public ]
 
 format: "Intra-entreprise"
 duration: "7 h"
 price: "3000 € HTVA"
 attendees: "4 à 8 personnes"
-locations: "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
+location: "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
 
 contact:
     title: "Réservez une session de formation"

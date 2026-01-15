@@ -272,6 +272,7 @@ services:
             - body-h1
             - body-main-sidebar-article
         article:
+            - article-content
             - article-listtaxonomy-services
     # page.Kind "taxonomy" = section for tags
     taxonomy:
@@ -282,6 +283,7 @@ services:
             - body-h1
             - body-main-sidebar-article
         article:
+            - article-content
             - article-listtaxonomy-services
     # page.Kind "term" = page for tags
     page:
@@ -294,6 +296,7 @@ services:
             - body-h1
             - body-main-sidebar-article
         article:
+            - article-content
             - article-listtaxonomy-services-term
     # page.Kind "term" = page for tags
     term:
@@ -306,6 +309,7 @@ services:
             - body-h1
             - body-main-sidebar-article
         article:
+            - article-content
             - article-listtaxonomy-services-term
 
 

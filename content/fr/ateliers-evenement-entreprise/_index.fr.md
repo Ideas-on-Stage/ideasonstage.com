@@ -6,7 +6,7 @@ picture: "workshops.jpg"
 translationKey: "workshops"
 
 services: [ ateliers ]
-skills: [ communication écrite, prise de parole, leadership ]
+skills: [ team building ]
 ---
 
 {{< shortcode-call-to-action 

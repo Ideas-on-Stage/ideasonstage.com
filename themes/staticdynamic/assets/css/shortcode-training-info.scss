@@ -1,0 +1,40 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-training-info {
+		/* 
+			note: to have all items have the same height on a given row,
+			use stretch in the flex-parent definition.
+		*/
+		flex-grow: 0; /* do not grow horizontally */
+		flex-shrink: 0; /* and do not shrink horizontally */
+		margin: 0;
+		padding: 0;
+		border-radius: 5px;
+		overflow: hidden;
+		
+		ul {
+			@include width-content();
+			@include flex-column();
+			padding-left: 0;
+				
+			li {
+				@include width-content;
+				@include flex-row();
+				border: #aaa solid 2px;
+				border-radius: 4px;
+				
+				.key {
+					@include width-column(5, 2);
+					margin: 0.5vw;
+					text-align: right;
+				}
+				
+				.value {
+					@include width-column(5, 3);
+					margin: 0.5vw;
+				}
+			}
+		}
+		
+		{{ partial "e/scheme.scss" ".cl-shortcode-list-icon" }}
+	}

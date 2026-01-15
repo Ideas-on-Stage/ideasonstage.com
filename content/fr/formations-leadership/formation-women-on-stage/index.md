@@ -4,18 +4,20 @@ type: full # full-width layout
 title: "Formation Women on Stage"
 description: "Formation de prise de parole pour les femmes cadres en entreprise."
 translationKey: "women-on-stage-training"
-
-services: [ formations ]
-skills: [ leadership ]
-
 ni: true
 contact:
   description: Contactez-nous pour en savoir plus sur la formation Women on Stage et nous vous répondrons rapidement.
+
+# taxonomy
+services: [ formations ]
+skills: [ leadership ]
 ---
 
 {{< shortcode-section-hero
-  bgcolor="#A886D6" >}}
-# Women on Stage
+  color="white"
+  img="hero.jpg"
+  overlay=true >}}
+# Formation Women on Stage
 La prise de parole pour les futures Leaders
 {{< /shortcode-section-hero >}}
 
@@ -24,11 +26,46 @@ La prise de parole pour les futures Leaders
 {{< shortcode-section
   class="margin-top margin-bottom" >}}
 
-  {{< shortcode-text
-    class="text-center" >}}
-  Ideas on Stage s'associe avec Marion Chapsal, spécialiste de la prise de parole et du leadership pour les femmes, pour proposer Women on Stage, une formation unique destinée aux cadres à haut potentiel.
+  {{< shortcode-text >}}
+Ideas on Stage s'associe avec Marion Chapsal, spécialiste de la prise de parole et du leadership pour les femmes, pour proposer Women on Stage, une formation unique destinée aux cadres à haut potentiel.
+
+Ideas on Stage propose le programme Women on Stage pour répondre au constat de 3 décalages :
+
+- Le premier : le décalage entre la manière dont les femmes se perçoivent, et leurs performances en tant que speakers.
+- Le second : le faible pourcentage de femmes présentes sur scène, dans les congrès, dans les panels, dans les médias en tant qu’expertes.
+- Et enfin, le troisième, le phénomène du « double lien » pour les femmes lorsqu’elles s’expriment en public, et qui est semblable à celui du « double-bind » pour les femmes et le pouvoir.
+
+À l’issue de leur formation, les participantes seront en mesure de :
+
+- identifier le syndrome de l’imposture, ses origines et ses effets,
+- déjouer la peur de l’échec,
+- exprimer leur légitimité,
+- identifier et repérer des attitudes ou remarques sexistes,
+- répondre à ces attitudes avec assertivité pour s’affirmer,
+- prendre leur place tant sur le plan physique que mental.
+
+La formation en groupes non mixtes, exclusivement féminins, offre un cadre sécurisant aux femmes pour qu’elles osent s’exprimer librement, sans être jugées. Tout est fait pour que s’instaure un climat de confiance réciproque propice au lâcher-prise.
   {{< /shortcode-text >}}
 
+{{< /shortcode-section >}}
+
+{{< shortcode-section
+  class="margin-top margin-bottom" >}}
+
+  {{< shortcode-training-info
+    name="Formation Women on Stage"
+    objectives="Comprendre et exprimer sa légitimité<br>Identifier et repérer les attitudes ou remarques sexistes,<br>Répondre à ces attitudes avec assertivité pour s’affirmer,<br>Prendre sa place tant sur le plan physique que mental"
+    format="Intra-entreprise"
+    prerequisites="Donner régulièrement des présentations en entreprise"
+    duration="7 h"
+    price="3000 € HTVA"
+    audience="Femmes cadres amenées à évoluer vers des postes à responsabilité"
+    attendees="4 à 8 personnes"
+    location="dans vos locaux ou dans nos locaux des Champs Élysées à Paris"
+    class="text-center"
+    means="Site web avec les différents supports et exercices<br>Support visuel PowerPoint<br>Livret d’exercices imprimé<br>Site web avec les différents supports et exercices"
+    evaluation="Évaluation continue au cours de la formation.<br>Exercice final de mise en pratique des acquis." >}}
+      
 {{< /shortcode-section >}}
 
 
@@ -111,77 +148,57 @@ Le parcours que nous proposons vous permettra de mieux vous connaître et de dé
 
 
 
-{{< shortcode-section-hero
-  img="number-1.svg"
-  alt="coaching collectifs" >}}
+{{< shortcode-section class="margin-top margin-bottom" >}}
+
+{{< shortcode-text >}}
 ## En option, un coaching de carrière personnalisé
 La formation « Women on Stage » est un pas important vers une posture de leadership authentique, saine et naturelle, mais notre programme ne s'arrête pas là. Si vous le souhaitez, notre équipe d'expertes peut vous accompagner dans le développement de votre carrière : image, communication, positionnement.
-{{< /shortcode-section-hero >}}
 
-
-
-{{< shortcode-section-hero
-  img="superpowers.jpg" >}}
-{{< /shortcode-section-hero >}}
-
-
-
-{{< shortcode-section-hero
-  img="number-2.svg"
-  alt="espace de confiance" >}}
-## 3 formules « Women on Stage »
-(proposer trois formules: 1 jour, 2 jours, coaching long terme)
-{{< /shortcode-section-hero >}}
-
-
-
-{{< shortcode-section-hero
-  img="people.jpg" >}}
-{{< /shortcode-section-hero >}}
-
-
-
-{{< shortcode-section-hero
-  img="number-3.svg"
-  alt="espace de confiance" >}}
 ## Une communauté vivante et bienveillante
 Pendant et après le parcours, vous rejoignez un collectif de leaders engagé·es, venant de différents horizons. Un espace d’échange pour poser vos questions, vous inspirer des autres, et avancer ensemble dans un esprit d’entraide.
-{{< /shortcode-section-hero >}}
 
-{{< shortcode-section
-  class="padding-top"
-  bgcolor="#5C2183" >}}
+## Programme détaillé
 
-{{< shortcode-text 
-  class="width-content padding-top text-center"
-  color="white" >}}
-## Des formatrices senior, expertes de la prise de parole
+**Introduction** :
+
+- Présentation du formateur
+- Je me présente
+- Les orateurs qui m'inspirent
+- Programme de la formation
+Pourquoi Women on Stage ?
+- Auto-évaluation : quels avantages y a-t-il pour les femmes à ne pas prendre la parole ? Pourquoi est-il vital, pour les femmes dans le monde, de parler maintenant ?
+
+**La femme dans l'arène** :
+
+- La scène = l'arène : votre arène, votre audience, les loges, les critiques, les strapontins, les supporters.
+
+**Les 4 armures** :
+
+- Pourquoi nous voulons endosser une armure avant d'entrer dans l'arène
+- Les 4 stratégies de défense
+- Les conséquences
+
+**Mes super pouvoirs** :
+
+- Respiration
+- Voix
+- Regard
+- Langage
+
+**Mon pourquoi** :
+
+- La fenêtre de Johari
+
+**Mon blason** :
+
+- Mon blason : Créer un blason qui reprend ma citation, mes super-pouvoirs et mon pourquoi.
+
+**Préparation d'une présentation par les participantes.**
+
+- Cinq critères de succès pour toute Présentation
+- Comment donner du feedback
+- Création d'une histoire et présentation devant les autres participants
+
 {{< /shortcode-text >}}
-
-{{< shortcode-list
-  type="grid"
-  class="width-content padding-top padding-bottom gap"
-  color="#FFF" >}}
-  {{< shortcode-list-card
-    bgcolor="white"
-    columns="3" >}}
-  ### Christine Besneux
-  {{< /shortcode-list-card >}}
-  
-  {{< shortcode-list-card
-    alt="Marion Chapsal"
-    bgcolor="white"
-    columns="3" >}}
-  ### Marion Chapsal
-  Spécialiste du leadership au féminin. Enseigne à EM Lyon.
-  {{< /shortcode-list-card >}}
-    
-  {{< shortcode-list-card
-    bgcolor="white"
-    columns="3" >}}
-  ### Valérie Lagabe
-  {{< /shortcode-list-card >}}
-  
-{{< /shortcode-list >}}
 
 {{< /shortcode-section >}}

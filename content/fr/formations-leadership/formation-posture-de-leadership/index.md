@@ -34,6 +34,20 @@ En nous associant avec Humanava, nous sortons du cadre de la scène pour accompa
 Cette formation est à destination des entreprises. Elle peut se réaliser en ligne de manière individuelle, ou en présentiel pour des groupes de 4 à 8 personnes.
 {{< /shortcode-text >}}
 
+  {{< shortcode-training-info
+    name="Formation à la posture de leader"
+    objectives="Connaître son style de leadership<br>Adopter une posture de leader<br>Construire la collaboration d'équipe"
+    format="Intra-entreprise"
+    prerequisites="Être à un poste de management avec encadrement d'équipe"
+    duration="7 h"
+    price="3000 € HTVA"
+    audience="Cadres pressentis pour évoluer vers des positions de leadership"
+    attendees="4 à 8 personnes"
+    location="dans vos locaux ou dans nos locaux des Champs Élysées à Paris"
+    class="text-center"
+    means="Site web avec les différents supports et exercices<br>Support visuel PowerPoint<br>Livret d’exercices imprimé<br>Site web avec les différents supports et exercices"
+    evaluation="Évaluation continue au cours de la formation<br>" >}}
+
 {{< /shortcode-section >}}
 
 
