@@ -88,7 +88,7 @@ Audiences leave with simple frameworks and ways of thinking they can apply immed
 
 **A purpose beyond the stage**
 
-Andrea’s work is driven by a belief that better communication leads to better decisions and better outcomes. Every keynote supports a wider commitment to education and social impact through the _Kids on Stage_ project.
+Andrea’s work is driven by a belief that better communication leads to better decisions and better outcomes. Every keynote supports a wider commitment to education and social impact through the [_Kids on Stage_ project](/uk/kids-on-stage).
 {{< /shortcode-list-text >}}
 
 {{< /shortcode-list >}}
