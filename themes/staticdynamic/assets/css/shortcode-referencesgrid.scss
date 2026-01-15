@@ -1,0 +1,19 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-shortcode-referencesgrid {
+		@include flex-row($gap: "gap", $wrap: "wrap");
+		
+		@media (min-width: $gl-lg-screen) {
+			/* on large screens, remove gap left and right */
+			margin-left: 0;
+			margin-right: 0;
+		}
+		
+		> img {
+			@include width-column(6);
+			@include width-column-sm(3);
+			border: 1px solid var(--color-border);
+		}
+		
+		{{ partial "e/scheme.scss" ".cl-referencesgrid" }}
+	}

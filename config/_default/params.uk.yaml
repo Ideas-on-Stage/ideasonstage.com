@@ -87,12 +87,14 @@ footer:
 # -------------------
 # navbar
 navbar:
-    - name: "Training"
-      url: "/presentations-training/"
-    - name: "Coaching"
-      url: "/public-speaking-coaching/"
     - name: "Academy"
       url: "/uk/academy/"
+    - name: "Workshops"
+      url: "/uk/workshops/"
+    - name: "Coaching"
+      url: "/uk/coaching/"
+    - name: "Speaking"
+      url: "/uk/speaking/"
     - name: "Events"
       url: "/uk/events/"
     - name: "Contact"

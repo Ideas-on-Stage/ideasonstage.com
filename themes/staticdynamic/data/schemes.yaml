@@ -574,9 +574,9 @@ ul:
 .cl-shortcode-agenda-list:
     text-align: "center"
     h4:
-        margin-bottom: "0.2em"
+        margin-bottom: "1em"
         text-transform: "uppercase"
-        --font-ratio: "1em"
+        --font-ratio: "1.1"
         --color-text: "var(--color-secondary)"
 
 .cl-shortcode-call-to-action:

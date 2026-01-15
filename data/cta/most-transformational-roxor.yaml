@@ -2,9 +2,9 @@ en:
     picture: "/img/cta/public-speaking.jpg"
     title: "THE MOST TRANSFORMATIONAL PRESENTATION TRAINING FOR BUSINESS LEADERS"
     level: "h2"
-    description: "Our guide to master the art of public speaking."
+    description: "Every great idea deserves to be heard – learn how to make yours stand out."
     color: "text-white"	
     opacity: "30"
     button:
-        text: "READ OUR GUIDE"
-        link: "/ultimate-public-speaking-guide/"			
+        text: "JOIN A FREE WEBCLASS"
+        link: "/ultimate-public-speaking-guide/"

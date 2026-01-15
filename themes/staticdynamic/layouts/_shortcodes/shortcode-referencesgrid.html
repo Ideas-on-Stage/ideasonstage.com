@@ -1,0 +1,30 @@
+{{/* <!--
+
+	{{< shortcode-referencesgrid >}}
+	
+	Parameters:
+	- standard class and style parameters
+	- 
+--> */}}
+
+{{/* <!-- get parameters --> */}}
+{{- $class := partial "f/gethtmlattrclass.go" . -}}
+{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+
+{{ "<!-- shortcode-references.html:start -->" | safeHTML }}
+{{- $data := partial "f/getdatalocalized" (slice page "bodylazy-references") -}}
+{{- with $data -}}
+<section id="reference-list" class="cl-shortcode-referencesgrid">
+	{{- range . -}}
+		{{- $srcset := partial "f/getimgsrcset.go" .img -}}
+		<img
+			loading="lazy"
+			src="{{ collections.Index $srcset 0 }}"
+			srcset="{{ collections.Index $srcset 1 }}"
+			sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+			{{ with .client }}alt="{{ . }}"{{ end }} height="100" width="100" />
+	{{- end -}}
+</section>
+{{- else -}}
+	{{ partial "e/html-comment.html" "skipped: references: no .Params.bodylazy-references-data" }}
+{{- end -}}

@@ -2,7 +2,7 @@
 draft: false
 type: events
 title: "BECOME A MORE CONFIDENT PRESENTER"
-description: "Join the web class that’s helped nearly 6,000 business leaders communicate with clarity and confidence since 2019."
+description: "Join the web class that’s helped nearly 6,000 business leaders present clearly to prospects and communicate with confidence since 2019."
 picture: "uk-events.jpg"
 button:
   text: "REGISTER ON EVENTBRITE"
@@ -13,7 +13,7 @@ button:
   class="bg-light padding" >}}
 
 {{< shortcode-text
-  class="text-center" >}}
+  class="text-center margin-sm-bottom" >}}
 ## What You’ll Learn in Just 30 Minutes
 {{< /shortcode-text >}}
 
@@ -21,21 +21,21 @@ button:
   type="grid" >}}
 
 {{< shortcode-list-text
-  class="text-center"
+  class="text-center text-padding"
   columns="3" >}}
 Learn proven techniques to communicate with clarity
 {{< /shortcode-list-text >}}
 
 {{< shortcode-list-text
-  class="text-center"
+  class="text-center text-padding"
   columns="3" >}}
 Discover simple ways to structure your message for impact
 {{< /shortcode-list-text >}}
 
 {{< shortcode-list-text
-  class="text-center"
+  class="text-center text-padding"
   columns="3" >}}
-Feel more confident in every presentation — whether it’s a pitch, meeting or keynote
+Feel more confident in every presentation – whether it’s a pitch, meeting or client-facing presentation
 {{< /shortcode-list-text >}}
 
 {{< /shortcode-list >}}
@@ -44,9 +44,12 @@ Feel more confident in every presentation — whether it’s a pitch, meeting or
 
 
 
-{{< shortcode-agenda-list style="bg-white">}}
-	{{< shortcode-agenda-item title="Real Feedback From Real Participants" >}}
-{{< /shortcode-agenda-list >}}
+{{< shortcode-section
+  class="margin-top margin-bottom padding-top" >}}
+
+  {{< shortcode-agenda-list style="bg-white">}}
+    {{< shortcode-agenda-item title="Real Feedback From Real Participants" >}}
+  {{< /shortcode-agenda-list >}}
 
 {{< shortcode-testimonial
   img="jessie-woelke.jpg"
@@ -69,20 +72,44 @@ Feel more confident in every presentation — whether it’s a pitch, meeting or
   title="Head of Learning & Development at Soldo" >}}
 
 {{< shortcode-call-to-action
-  class="margin-top"
+  class="margin-top padding-bottom"
   button="Save Your Spot"
   url="https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469" >}}
 {{< /shortcode-call-to-action >}}
 
+{{< /shortcode-section >}}
+
+
+
+{{< shortcode-section
+  class="margin-top margin-bottom" >}}
 
 {{< shortcode-agenda-list dummy="" >}}
-	{{< shortcode-agenda-item title="A quick look inside" description="Watch this 1-minute video to see what it’s like to join one of our web classes." >}}
-	{{< shortcode-youtube "So8WglOw37E" >}}
-	{{< shortcode-agenda-item title="Doing Business. Doing Good." description="We see a world of entrepreneurs and business leaders using their voice to make a positive impact. That’s why we align our events and programmes with the **United Nations Sustainable Development Goals**, with a focus on **Goal 4: Quality Education**.<br>Imagine if more of us prioritised social impact alongside (or even above) financial returns.<br>That’s how we can create a better future for all." >}}
-	{{< shortcode-img img="sdg.jpg" alt="Event">}}
-{{< /shortcode-agenda-list >}}
 
-{{< shortcode-call-to-action
-  button="Attend for Free"
-  url="https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469" >}}
-{{< /shortcode-call-to-action >}}
+  {{< shortcode-agenda-item title="A quick look inside" description="Watch this 1-minute video to see what it’s like to join one of our web classes." >}}
+	
+    {{< shortcode-youtube "So8WglOw37E" >}}
+
+  {{< /shortcode-agenda-list >}}
+
+{{< /shortcode-section >}}
+
+
+
+{{< shortcode-section
+  class="margin-top margin-bottom" >}}
+
+  {{< shortcode-agenda-list dummy="" >}}
+
+    {{< shortcode-agenda-item title="Doing Business. Doing Good." description="We see a world of entrepreneurs and business leaders using their voice to make a positive impact. That’s why we align our events and programmes with the **United Nations Sustainable Development Goals**, with a focus on **Goal 4: Quality Education**.<br>Imagine if more of us prioritised social impact alongside (or even above) financial returns.<br>That’s how we can create a better future for all." >}}
+    {{< shortcode-img img="sdg.jpg" alt="Event">}}
+
+  {{< /shortcode-agenda-list >}}
+
+  {{< shortcode-call-to-action
+    button="Attend for Free"
+    url="https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469"
+    class="margin-top" >}}
+  {{< /shortcode-call-to-action >}}
+
+{{< /shortcode-section >}}
