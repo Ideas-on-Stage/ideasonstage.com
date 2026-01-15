@@ -53,12 +53,12 @@ footer:
     categories:
         - name: "Services"
           items:
-            - name: "Training"
-              url: "/presentations-training/"
+            - name: "Academy"
+              url: "/uk/academy/"
+            - name: "Workshops"
+              url: "/uk/workshops/"
             - name: "Coaching"
-              url: "/public-speaking-coaching/"
-            - name: "Consulting"
-              url: "/communication-consulting/"
+              url: "/uk/coaching/"
         - name: "Resources"
           items:
             - name: "Videos"

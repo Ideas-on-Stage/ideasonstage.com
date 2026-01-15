@@ -1,0 +1,9 @@
+en:
+    sectionid: "uk-coaching"
+    title: "Coaching"
+    description: "Work privately with an expert coach to prepare your next presentation to prospects – or to strengthen your presence, clarity and confidence as a speaker."
+    picture: "/img/modules/uk-coaching.jpg"
+    style: "bg-black"
+    layout: "module-row-picture-text.html"
+    url: "/uk/coaching/"
+    button: "Explore coaching"

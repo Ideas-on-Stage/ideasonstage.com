@@ -24,7 +24,7 @@ Your membership includes everything you need to keep improving month after month
 - **Private community** – connect with like-minded professionals
 - **Assignments and templates** – turn insights into action
 - **Unlimited session recordings** – catch up anytime
-- **Online courses** – build your core skills at your own pace
+- **Online course** – build your core skills at your own pace
 - **AI Coach** – get 24/7 presentation coaching whenever you need it
 - **Special events** – deepen your learning with the community
 - **Speaker Day** – meet and connect in person
@@ -65,7 +65,7 @@ The Academy combines live learning, hands-on practice and continuous support to 
 - **Monthly web class** – learn practical skills from leading communication experts
 - **Monthly live practice** – apply what you learn, get feedback and build confidence
 - **Monthly assignment** – short, focused tasks to prepare for the next practice session
-- **Extra resources** – access three online courses worth £375 and an AI Coach, your 24/7 presentation coach
+- **Extra resources** – get expert training and 24/7 support from our AI Coach, your personal presentation coach
 - **Time commitment** – around two to three hours a month to learn, practise and apply
 - **Where it happens** – live sessions on Zoom, community on Circle
 

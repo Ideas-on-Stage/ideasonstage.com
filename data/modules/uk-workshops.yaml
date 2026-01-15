@@ -1,0 +1,9 @@
+en:
+    sectionid: "uk-workshops"
+    title: "Workshops"
+    description: "Interactive, hands-on workshops for teams who want to communicate with impact and present to prospects with confidence."
+    picture: "/img/modules/uk-workshops.jpg"
+    style: "bg-black"
+    layout: "module-row-picture-text.html"
+    url: "/uk/workshops/"
+    button: "Explore workshops"

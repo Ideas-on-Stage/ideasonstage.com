@@ -1,0 +1,9 @@
+en:
+    title: "Making an impact"
+    layout: "module-row-picture-text.html"
+    style: "bg-dark"
+    picture: "/img/modules/uk-kids-on-stage.jpg"
+    description: "Part of every project supports Kids on Stage, helping children access education and new opportunities. We’re proud to be part of the 1% Pledge, dedicating 1% of our revenue to this initiative."
+    button: "Learn more about Kids on Stage"
+    url: "/uk/kids-on-stage/"
+    

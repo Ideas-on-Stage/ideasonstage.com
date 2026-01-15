@@ -1,0 +1,10 @@
+en:
+    picture: "/img/cta/uk-terry-szuplat.jpg"
+    title: "Live in London: An evening with Obama’s former speechwriter"
+    level: "h2"
+    description: "March 26, 2026"
+    color: "text-white"	
+    opacity: "30"
+    button:
+        text: "JOIN THE WAITLIST"
+        link: "https://sayitwell.scoreapp.com/"
