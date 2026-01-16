@@ -9,9 +9,9 @@ button:
 
 {{< shortcode-list type="grid" class="gap-big" >}}
 
-{{< shortcode-list-pict img="award1.jpg" alt="Award" columns="4" >}}
+{{< shortcode-list-img img="award1.jpg" alt="Award" columns="4" >}}
 
-{{< shortcode-list-pict img="award2.jpg" alt="Award" columns="4" >}}
+{{< shortcode-list-img img="award2.jpg" alt="Award" columns="4" >}}
 
 {{< /shortcode-list >}}
 

@@ -25,7 +25,7 @@ PowerPoint est devenu tellement utilisé qu'il est devenu synonyme de présentat
 
 Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).
 
-{{< shortcode-image-wide src="formation-presentations-powerpoint.jpg" alt="Formation Visuels" >}}
+{{< shortcode-img-wide src="formation-presentations-powerpoint.jpg" alt="Formation Visuels" >}}
 
 {{< shortcode-agenda-list style="bg-light padding">}}
 	{{< shortcode-agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre comment construire une présentation PowerPoint qui applique les bons principes de communication : structure, contenu, style.<br>Ce n'est pas une formation pour apprendre à utiliser PowerPoint, mais plutôt à communiquer efficacement avec PowerPoint." >}}

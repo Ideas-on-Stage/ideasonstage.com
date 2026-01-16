@@ -1,12 +1,20 @@
 {{/* <!--
-	icon-item shortcode
+
+	{{< shortcode-list >}}	
+	  {{< shortcode-list-icon
+	    class="helper classes from shortcode.css"
+	    style="style for the icon"
+	    img="icon to use"
+	    alt="alt text for the icon"
+	    size="size of the icon, 20p, 25p, 33p, etc."
+	    url="link to follow when clicking on the icon"
+	    description="text below the icon"
+	  >}}
+	{{< /shortcode-list >}}	
 	
-	Inserts an icon within an icon-list shortcode
-	
-	size: size of the icon, 20p, 25p, 33p, etc.
-	style: style for the icon
-	icon: icon to use
-	url: link for the icon
+	Inserts an icon as a list item.
+	Should be nested inside a shortcode-list list.
+
 --> */}}
 
 {{/* <!-- get parameters --> */}}
@@ -15,10 +23,11 @@
 {{- $columns := .Get "columns" -}}
 {{- $img := .Get "img" -}}
 {{- $alt := .Get "alt" -}}
+{{- $url := .Get "url" -}}
 
-{{ "<!-- shortcode-list-icon.html:start -->" | safeHTML }}
+{{/* <!-- generate html --> */}}
 <li {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
-	{{- with .Params.url -}}
+	{{- with $url -}}
 	<a href="{{ . }}">
 	{{- end -}}
 		<div class="content">
@@ -27,8 +36,7 @@
 				{{ .Params.description | markdownify }}
 			</div>
 		</div>
-	{{- with .Params.url -}}
+	{{- with $url -}}
 	</a>
 	{{- end -}}
 </li>
-{{ "<!-- shortcode-list-icon.html:end -->" | safeHTML }}

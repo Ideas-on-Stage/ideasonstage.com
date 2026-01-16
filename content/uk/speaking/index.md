@@ -34,7 +34,7 @@ Many leaders have important things to say – but their message gets lost. Andre
 
 
 
-{{< shortcode-text2-picture1 class="margin-top" img="andrea-pacini.jpg" alt="Andrea Pacini" >}}
+{{< shortcode-text2-img1 class="margin-top" img="andrea-pacini.jpg" alt="Andrea Pacini" >}}
 
 ## About Andrea Pacini
 
@@ -44,7 +44,7 @@ Andrea has spoken at hundreds of events and ran sessions at leading organisation
 
 Andrea’s vision is to help hundreds of thousands of business leaders inspire their audiences, increase their influence, and make a positive impact in the world.
 
-{{< /shortcode-text2-picture1 >}}
+{{< /shortcode-text2-img1 >}}
 
 
 {{< shortcode-section class="margin-top margin-bottom padding-top padding-bottom padding-sm-left padding-sm-right bg-light" >}}

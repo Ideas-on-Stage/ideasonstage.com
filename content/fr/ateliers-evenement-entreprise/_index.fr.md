@@ -25,7 +25,7 @@ Qui êtes-vous vraiment ? Quelles sont les valeurs partagées par votre équipe
 
 
 
-{{< shortcode-image-wide
+{{< shortcode-img-wide
   src="lego-constructions.jpg"
   alt="LEGO® pour le Team Building" >}}
 
@@ -40,7 +40,7 @@ Avec l’aide de nos animateurs expérimentés, les participants définiront des
 
 
 
-{{< shortcode-image-wide src="cartes-roles-projet.jpg" alt="Cartes de rôles de projets" >}}
+{{< shortcode-img-wide src="cartes-roles-projet.jpg" alt="Cartes de rôles de projets" >}}
 
 
 

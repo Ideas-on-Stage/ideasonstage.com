@@ -595,7 +595,7 @@ ul:
         margin-top: "0.5em"
         text-align: "center"
 
-.cl-shortcode-image-wide:
+.cl-shortcode-img-wide:
     margin-top: "0em"
     margin-bottom: "0em"
 

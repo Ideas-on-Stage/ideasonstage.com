@@ -1,17 +1,19 @@
 {{/* <!--
 
-	{{< shortcode-section-hero >}}
+	{{< shortcode-section-hero
+	  class="helper classes from shortcode.css"
+	  style="list of styles"
+	  id="id of section"
+	  img="url for background image file"
+	  alt="text for image description"
+	  overlay="true" or "false" to display a darkening overlay over background or img
+	>}}
+	  .Inner markdown text to display on hero
 	{{< /shortcode-section-hero >}}
 	
-	Inserts a full-bleed image with text on top.
+	Inserts a <section> with a full-bleed image with text on top.
 	Both img and text are optional, but then it's a bit pointless.
 	
-	Parameters:
-	- standard class and style parameters
-	- img: url for background image file
-	- alt: text for image description
-	- overlay: true to display an overlay over background or img
-	- .inner: text to display
 --> */}}
 
 {{/* <!-- get parameters --> */}}

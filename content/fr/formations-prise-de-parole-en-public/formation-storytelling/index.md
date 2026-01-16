@@ -25,7 +25,7 @@ Cette formation explique comment utiliser les techniques de storytelling pour cr
 
 Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).
 
-{{< shortcode-image-wide src="storytelling.jpg" alt="Formation Storytelling" >}}
+{{< shortcode-img-wide src="storytelling.jpg" alt="Formation Storytelling" >}}
 
 {{% shortcode-agenda-list class="bg-light padding" %}}
 ### Formation Storytelling

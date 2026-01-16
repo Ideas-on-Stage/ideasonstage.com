@@ -5,7 +5,7 @@ description: "Learn the five key principles to communicate a compelling message 
 showrefs: false
 ---
 
-{{< shortcode-picture1-text2
+{{< shortcode-img1-text2
   picture="confident-presenter-book-2.png"
   title="" >}}
 ## Become a more credible, confident and convincing presenter
@@ -15,7 +15,7 @@ Learn the five key principles to communicate a compelling message that inspires 
 <br /><i>—Garr Reynolds, Author of Presentation Zen</i>
 
 Now Officially Included in New York University’s Business Communication Courses
-{{< /shortcode-picture1-text2 >}}
+{{< /shortcode-img1-text2 >}}
 
 
 
@@ -48,7 +48,7 @@ To get the most from the book, take the Confident Presenter Scorecard to assess 
   class="gap"
   type="grid" >}}
 
-{{< shortcode-list-pict
+{{< shortcode-list-img
   columns="3"
   img="andrea-pacini.jpg"
   alt="Andrea Pacini" >}}
@@ -75,32 +75,32 @@ Andrea is on a mission to stop great ideas from failing just because of the way 
 {{< shortcode-list
     type="grid" >}}
 
-{{< shortcode-list-pict
+{{< shortcode-list-img
     class="corners-square"
     columns="3"
     img="/resources/books/confident-presenter-book/reader1.jpg"
     alt="Reader 1 selfie holding Confident Presenter book in front of him" >}}
-{{< shortcode-list-pict
+{{< shortcode-list-img
     class="corners-square"
     columns="3"
     img="/resources/books/confident-presenter-book/reader2.jpg"
     alt="Reader 2 selfie holding Confident Presenter book in front of him" >}}
-{{< shortcode-list-pict
+{{< shortcode-list-img
     class="corners-square"
     columns="3"
     img="/resources/books/confident-presenter-book/reader3.jpg"
     alt="Reader 3 selfie holding Confident Presenter book in front of him" >}}
-{{< shortcode-list-pict
+{{< shortcode-list-img
     class="corners-square"
     columns="3"
     img="/resources/books/confident-presenter-book/reader4.jpg"
     alt="Reader 4 selfie holding Confident Presenter book in front of him" >}}
-{{< shortcode-list-pict
+{{< shortcode-list-img
     class="corners-square"
     columns="3"
     img="/resources/books/confident-presenter-book/reader5.jpg"
     alt="Reader 5 selfie holding Confident Presenter book in front of him" >}}
-{{< shortcode-list-pict
+{{< shortcode-list-img
     class="corners-square"
     columns="3"
     img="/resources/books/confident-presenter-book/reader6.jpg"

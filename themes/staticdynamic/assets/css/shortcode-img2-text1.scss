@@ -1,23 +1,19 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode-link-picture1-text2 {
+	.cl-shortcode-img2-text1 {
 		@include flex-row($gap: "gap");
 		@include flex-column-sm(column);
 		
 		.text {
 			@include firstlastchildnomargin;
+			@include width-column(3);
+			@include width-parent-full-sm;
+		}
+		
+		img {
 			@include width-column(3,2);
 			@include width-parent-full-sm;
 		}
 		
-		.picture {
-			@include width-column(3);
-			@include width-parent-full-sm;
-			
-			img {
-				@include img-contain;
-			}
-		}
-		
-		{{ partial "e/scheme.scss" ".cl-shortcode-link-picture1-text2" }}
+		{{ partial "e/scheme.scss" ".cl-shortcode-img2-text1" }}
 	}

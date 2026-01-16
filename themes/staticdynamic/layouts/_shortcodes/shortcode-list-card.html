@@ -1,20 +1,21 @@
 {{/* <!--
+
+	{{< shortcode-list >}}	
+	  {{< shortcode-list-card
+	    class="helper classes from shortcode.css"
+	    style="standard style parameter"
+	    columns="number of columns"
+	    img="url for image file"
+	    alt="text for image description"
+	  >}}
+	    .Inner text for the card
+	  {{< /shortcode-list-card >}}
+	{{< /shortcode-list >}}
 	
-	{{< shortcode-item-card >}}
-	{{< /shortcode-item-card >}}
-	
-	Inserts a "card" item with rounded corners.
+	Inserts a "card" item with rounded corners as a list item.
 	Card items contain a title, text and a picture (all optional).
 	Should be nested inside a shortcode-items list.
 	
-	Parameters:
-	- class: standard class parameter
-	- style: standard style parameter
-	- columns: number of columns
-	- img: url for image file
-	- alt: text for image description
-	- .Inner: text for the card
-
 --> */}}
 
 {{/* <!-- set rendering options --> */}}
@@ -28,7 +29,7 @@
 {{- $alt := .Get "alt" -}}
 {{- $inner := .Inner -}}
 
-{{ "<!-- shortcode-list-card.html:start -->" | safeHTML }}
+{{/* <!-- generate html --> */}}
 <li	{{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{- with $inner -}}
 	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
@@ -37,4 +38,3 @@
 	{{- end -}}
 	{{ partial "e/img" .Params }}
 </li>
-{{ "<!-- shortcode-list-card.html:end -->" | safeHTML }}

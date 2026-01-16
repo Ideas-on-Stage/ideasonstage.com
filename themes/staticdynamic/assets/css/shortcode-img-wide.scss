@@ -1,11 +1,11 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode-image-wide {
+	.cl-shortcode-img-wide {
 		padding: 0;
 		
 		img {
 			@include img-contain;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-image-wide" }}
+		{{ partial "e/scheme.scss" ".cl-shortcode-img-wide" }}
 	}

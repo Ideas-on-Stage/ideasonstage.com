@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode-list-pict {
+	.cl-shortcode-list-img {
 		/* 
 			note: to have all items have the same height on a given row,
 			use stretch in the flex-parent definition.
@@ -22,5 +22,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-list-pict" }}
+		{{ partial "e/scheme.scss" ".cl-shortcode-list-img" }}
 	}

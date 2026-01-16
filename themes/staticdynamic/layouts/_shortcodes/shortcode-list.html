@@ -1,16 +1,23 @@
 {{/* <!--
-	
-	shortcode-list.html
-	
-	Displays a list of li items in a grid or carousel format.
-	This shortcode only accepts shortcode-list-* shortcodes in .Inner content.
-	
-	Parameters:
-	- type="grid" or "carousel" (mandatory)
-	- class="list of classes"
-	- bgcolor="#color"
-	- color="#color"
-	- .Inner list of shortcode-list-* shortcodes, e.g. shortcode-item-card
+
+	{{< shortcode-list
+	  class="helper classes from shortcode.css"
+	  style="list of styles"
+	  type="grid" or "carousel" (mandatory)
+	  bgcolor="#color"
+	  color="#color"
+	>}}
+	  .Inner list of shortcode-list-* shortcodes, for example:
+	  {{< shortcode-list-card >}}
+	  {{< /shortcode-list-card >}}
+	  {{< shortcode-list-text >}}
+	  {{< /shortcode-list-text >}}
+	{{< /shortcode-list >}}	
+
+	Creates the <ul> container to display a list of <li> items.
+	The list can be formatted as a grid or a carousel.
+	This shortcode only accepts shortcode-list-* shortcodes in .Inner content,
+	as it requires <li> items.
 	
 --> */}}
 

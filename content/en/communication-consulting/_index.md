@@ -16,7 +16,7 @@ Our corporate communication strategy consulting branch offers all necessary serv
 
 
 
-{{< shortcode-image-wide
+{{< shortcode-img-wide
   src="corporate-communication.jpg" alt="Corporate Communication" >}}
 
 
@@ -79,7 +79,7 @@ Once we have a clear overall communication strategy in place; we work with you t
 
 
  
-{{< shortcode-image-wide src="corporate-office.jpg" alt="Corporate Communication" >}}
+{{< shortcode-img-wide src="corporate-office.jpg" alt="Corporate Communication" >}}
 
 
 

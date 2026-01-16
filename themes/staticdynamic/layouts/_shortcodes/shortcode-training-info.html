@@ -1,18 +1,29 @@
 {{/* <!--
 	
-	shortcode-training-info.html
+	{{< shortcode-training-info
+	  class="helper classes from shortcode.css"
+	  style="standard style parameter"
+	  format="Intra-entreprise or Inter-entreprise"
+	  objectives="Objectifs de la formation"
+	  format="Présentiel, en ligne"
+	  prerequisites="Prérequis"
+	  duration="7 h"
+	  price="3000 € HTVA"
+	  audience="Leaders, managers"
+	  attendees="4 à 8 personnes"
+	  location="dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"	
+	  means="Livret d'exercices, Présentation PowerPoint"
+	  evaluation="Évaluation continue"
+	>}}
 	
 	Displays the training info (price, location, etc.).
 	
 	Parameters:
-	- format="Intra-entreprise"
-	- duration="7 h"
-	- price="3000 € HTVA"
-	- attendees="4 à 8 personnes"
-	- location="dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"	
 --> */}}
 
 {{/* <!-- get parameters --> */}}
+{{- $class := partial "f/gethtmlattrclass.go" . -}}
+{{- $style := partial "f/gethtmlattrstyle.go" . -}}
 {{- $name := .Get "name" -}}
 {{- $objectives := .Get "objectives" -}}
 {{- $format := .Get "format" -}}
@@ -25,8 +36,6 @@
 {{- $means := .Get "means" -}}
 {{- $evaluation := .Get "evaluation" -}}
 
-{{- $class := partial "f/gethtmlattrclass.go" . -}}
-{{- $style := partial "f/gethtmlattrstyle.go" . -}}
 
 {{ "<!-- shortcode-training-info.html:start -->" | safeHTML }}
 <div {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>

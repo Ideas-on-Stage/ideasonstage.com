@@ -1,11 +1,17 @@
 {{/* <!--
-	shortcode-line
 	
-	Adds a horizontal line
+	{{< shortcode-line 
+	  class="helper classes from shortcode.css"
+	  style="list of styles"
+	>}}
+	
+	Adds a horizontal line.
+	
 --> */}}
+
+{{/* <!-- get parameters --> */}}
 {{- $class := partial "f/gethtmlattrclass.go" . -}}
 {{- $style := partial "f/gethtmlattrstyle.go" . -}}
 
-{{ "<!-- shortcode-line.html:start -->" | safeHTML }}
+{{/* <!-- generate html --> */}}
 <hr {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
-{{ "<!-- shortcode-line.html:end -->" | safeHTML }}

@@ -14,7 +14,7 @@ Notre offre de conseil en stratégie de communication d'entreprise propose tous 
 
 
 
-{{< shortcode-image-wide src="conseil-en-communication.jpg" alt="Communication d'entreprise" >}}
+{{< shortcode-img-wide src="conseil-en-communication.jpg" alt="Communication d'entreprise" >}}
 
 
 
@@ -73,7 +73,7 @@ Une bonne stratégie de communication permettra d'unifier la vision de votre ent
 Une fois que nous avons dessiné une stratégie de communication globale claire, nous travaillons avec vous pour déployer cette vision au niveau de l'organisation et du management. Notre approche à la fois interne et externe est la clé pour aider à atteindre l'excellence en matière de communication. Notre différence est notre capacité à mettre en œuvre votre stratégie de façon concrète.<br>Notre équipe possède de nombreuses années d'expérience de collaboration avec des cadres de haut niveau et est elle-même active en tant que speakers et coaches. Nous avons aidé de nombreuses organisations à transformer leur façon de communiquer grâce à une méthode de communication plus simple et plus concrète. Cela les a aidés à transformer leurs organisations, à la fois mieux et plus rapidement.
 {{< /shortcode-section >}}
 
-{{< shortcode-image-wide src="bureaux-entreprise.jpg" alt="Communication d'entreprise" >}}
+{{< shortcode-img-wide src="bureaux-entreprise.jpg" alt="Communication d'entreprise" >}}
 
 {{< shortcode-section
   class="bg-light padding" >}}

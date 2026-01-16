@@ -1,15 +1,18 @@
 {{/* <!--
 
-	{{< shortcode-section >}}
+	{{< shortcode-section
+	  class="helper classes from shortcode.css"
+	  style="list of styles"
+	  id="id of section"
+	  img="url for background image file"
+	  alt="text for image description"
+	>}}
+	  .Inner markdown text to display
 	{{< /shortcode-section >}}
 	
-	Inserts a full-bleed image with text on top.
+	Inserts a <section> with a full-bleed image with text on top.
 	Both img and text are optional, but then it's a bit pointless.
 	
-	Parameters:
-	- standard class and style parameters
-	- img: url for background image file
-	- alt: text for image description	
 --> */}}
 
 {{/* <!-- get parameters --> */}}
@@ -17,6 +20,7 @@
 {{- $style := partial "f/gethtmlattrstyle.go" . -}}
 {{- $id := .Get "id" -}}
 {{- $img := .Get "img" -}}
+{{- $alt := .Get "alt" -}}
 {{- $inner := .Inner -}}
 
 {{/* <!-- process id --> */}}

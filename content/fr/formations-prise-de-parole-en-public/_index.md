@@ -113,34 +113,34 @@ Ideas on Stage est un organisme de formation officiel depuis 2010, d'abord réf�
 
 
 
-{{< shortcode-text2-picture1
+{{< shortcode-text2-img1
   class="margin-top margin-bottom"
   picture="/img/inserts/presentation-training-10.jpg" >}}
 ### Méthodes modernes, formateurs expérimentés
 Les méthodes et techniques que nous enseignons sont celles que nous utilisons chaque jour pour créer des présentations mémorables pour les dirigeants d’entreprise. Nos formateurs ont tous plusieurs années d’expérience des présentations de haut niveau. Vous apprendrez avec de vrais experts.
-{{< /shortcode-text2-picture1 >}}
+{{< /shortcode-text2-img1 >}}
 
 
 
-{{< shortcode-picture1-text2
+{{< shortcode-img1-text2
   class="margin-top margin-bottom"
   picture="/img/inserts/presentation-training-12.jpg"
   title="Un changement dans la durée" >}}
 Notre approche changera votre façon de présenter de manière durable. Nos formations sont remplies d’exercices et de mises en situation. Nous donnons un guide détaillé à chaque participant, qu’il pourra utiliser pour l’aider lors de la préparation de ses présentations. Et nous pouvons compléter la formation avec du coaching individualisé dans les semaines suivant la formation.
-{{< /shortcode-picture1-text2 >}}
+{{< /shortcode-img1-text2 >}}
 
 
 
-{{< shortcode-text2-picture1
+{{< shortcode-text2-img1
   class="margin-top margin-bottom"
   picture="accessibilite.jpg"
   title="Accueil des personnes en situation de handicap" >}}
 N'hésitez pas à nous dire si vous avez des personnes nécessitant un aménagement de la formation, que ce soit pour des raisons d'accessibilité ou autre. Nous mettrons tout en œuvre pour rendre nos formations accessibles au plus grand nombre. [Vous pouvez consulter notre page pour en savoir plus sur notre référent handicap.](/fr/apropos/rse/)
-{{< /shortcode-text2-picture1 >}}
+{{< /shortcode-text2-img1 >}}
 
 
 
-{{< shortcode-image-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
+{{< shortcode-img-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
 
 
 
@@ -154,7 +154,7 @@ Notre formation phare de prise de parole en public, qui regroupe les modules Sto
 
 
 
-{{< shortcode-image-wide
+{{< shortcode-img-wide
   src="prise-de-parole-en-public-002.jpg"
   alt="Intervenant en train de réaliser une présentation" >}}
 
@@ -168,7 +168,7 @@ Le module art oratoire couvre toutes les techniques de communication verbale et 
 
 
 
-{{< shortcode-image-wide src="prise-de-parole-en-public-003.jpg" alt="Storytelling" >}}
+{{< shortcode-img-wide src="prise-de-parole-en-public-003.jpg" alt="Storytelling" >}}
 
 {{< shortcode-call-to-action
   class="margin-bottom bg-light padding"
@@ -180,7 +180,7 @@ Le module storytelling est un module star de nos formations. Unique en son genre
 
 
 
-{{< shortcode-image-wide src="prise-de-parole-en-public-004.jpg" alt="Gros plan mains qui applaudissent" >}}
+{{< shortcode-img-wide src="prise-de-parole-en-public-004.jpg" alt="Gros plan mains qui applaudissent" >}}
 
 {{< shortcode-call-to-action
   class="bg-light padding"

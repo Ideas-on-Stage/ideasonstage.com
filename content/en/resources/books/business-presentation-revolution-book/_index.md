@@ -21,9 +21,9 @@ Business Presentation Revolution is available as a paperback from all good books
 <a href="https://www.amazon.com/Business-Presentation-Revolution-Inspire-Action/dp/1781336091/" target="_blank"><img src="amazon-button.png" /></a>
 
 
-{{< shortcode-picture1-text2 picture="bpr-book.jpg" >}}> “The business world needs leaders, and leaders need this book.” <br /><i>– Garr Reynolds, author of Presentation Zen</i>
+{{< shortcode-img1-text2 picture="bpr-book.jpg" >}}> “The business world needs leaders, and leaders need this book.” <br /><i>– Garr Reynolds, author of Presentation Zen</i>
 
-{{< /shortcode-picture1-text2 >}}
+{{< /shortcode-img1-text2 >}}
 
 {{< shortcode-bpr-subscribe >}}
 

@@ -25,7 +25,7 @@ Ce module est dédié à l’art oratoire et apprendra aux participants comment 
 
 Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).
 
-{{< shortcode-image-wide src="formation-art-oratoire.jpg" alt="Formation à la prise de parole" >}}
+{{< shortcode-img-wide src="formation-art-oratoire.jpg" alt="Formation à la prise de parole" >}}
 
 {{< shortcode-agenda-list style="bg-light padding">}}
 	{{< shortcode-agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre les techniques de l’art oratoire pour présenter avec aisance et présence sur scène.<br>Apprendre à convaincre son auditoire à travers l'utilisation du langage corporel, verbal et émotionnel." >}}

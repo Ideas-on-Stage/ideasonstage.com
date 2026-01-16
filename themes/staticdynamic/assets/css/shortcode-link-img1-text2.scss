@@ -1,8 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-shortcode-text2-picture1 {
+	.cl-shortcode-link-img1-text2 {
 		@include flex-row($gap: "gap");
-		@include flex-column-sm(column-reverse);
+		@include flex-column-sm(column);
 		
 		.text {
 			@include firstlastchildnomargin;
@@ -10,10 +10,14 @@
 			@include width-parent-full-sm;
 		}
 		
-		img {
+		.picture {
 			@include width-column(3);
 			@include width-parent-full-sm;
+			
+			img {
+				@include img-contain;
+			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-text2-picture1" }}
+		{{ partial "e/scheme.scss" ".cl-shortcode-link-img1-text2" }}
 	}

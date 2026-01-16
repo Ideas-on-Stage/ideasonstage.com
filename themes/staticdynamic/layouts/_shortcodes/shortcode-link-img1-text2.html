@@ -1,7 +1,24 @@
+{{/* <!--
+	
+	{{< shortcode-link-img1-text2
+	  class="helper classes from shortcode.css"
+	  style="list of styles"
+	  picture="image to display"
+	  link="url to follow when clicking on image or title"
+	  title="title to display"
+	>}}
+	  .Inner text to display
+	{{< /shortcode-link-img1-text2 >}}
+		
+	Adds a block with picture 1/3 left and text 2/3 right.
+	
+--> */}}
+
+{{/* <!-- get parameters --> */}}
 {{- $class := partial "f/gethtmlattrclass.go" . -}}
 {{- $style := partial "f/gethtmlattrstyle.go" . -}}
 
-{{ "<!-- shortcode-link-picture-1-text2.html:start -->" | safeHTML }}
+{{/* <!-- generate html --> */}}
 <div {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
 	<div class="picture">
 		{{ partial "e/link-picture" .Params }}

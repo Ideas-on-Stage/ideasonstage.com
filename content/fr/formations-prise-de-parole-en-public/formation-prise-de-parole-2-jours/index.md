@@ -25,7 +25,7 @@ Cette formation phare de notre programme, enseignée dans les meilleures écoles
 
 Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).
 
-{{< shortcode-image-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
+{{< shortcode-img-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
 
 {{% shortcode-agenda-list style="bg-light padding" %}}
 ### Descriptif de la formation

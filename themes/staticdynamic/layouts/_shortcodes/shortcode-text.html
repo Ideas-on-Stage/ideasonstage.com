@@ -1,15 +1,32 @@
+{{/* <!--
+
+	{{< shortcode-text
+	  class="helper classes from shortcode.css"
+	  style="list of styles"
+	>}}
+	  .Inner markdown text to display
+	{{< /shortcode-section >}}
+	
+	Inserts a <div> with text.
+	You can use the class and style parameters to stylize the text.
+	For example class="text-center" will center the text.
+	
+--> */}}
+
+{{/* <!-- set rendering options --> */}}
+{{- $opts := dict "display" "block" -}}
+
 {{/* <!-- get parameters --> */}}
 {{- $class := partial "f/gethtmlattrclass" . -}}
 {{- $style := partial "f/gethtmlattrstyle" . -}}
 {{- $inner := .InnerDeindent -}}
 
-{{ "<!-- shortcode-text.html:start -->" | safeHTML }}
+{{/* <!-- generate html --> */}}
 {{- with $inner -}}
 <div {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
-{{/* <!-- important: do not indent the line below or Hugo will not render content properly --> */}}
+{{/* <!-- important: do not indent the lines below or Hugo will not render content properly --> */}}
 <div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
-{{ . | page.RenderString (dict "display" "block") }}
+{{ . | page.RenderString $opts }}
 </div>
 </div>
 {{- end -}}
-{{ "<!-- shortcode-text.html:end -->" | safeHTML }}
