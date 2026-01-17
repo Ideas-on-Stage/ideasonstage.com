@@ -5,9 +5,15 @@ title: "Formation Leadership Humanava"
 description: "Une formation pour développer votre posture de leader."
 translationKey: "leadership-training-humanava"
 
+# redirects from former urls
+aliases:
+  - /fr/leadership-humanava/formation-au-leadership/
+
+# taxonomies
 services: [ formations ]
 skills: [ leadership ]
 
+# contact form
 contact:
   title: Contactez-nous pour en savoir plus
   description: Contactez-nous pour en savoir plus sur la formation Leadership.
