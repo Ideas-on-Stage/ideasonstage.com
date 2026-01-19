@@ -5,7 +5,7 @@ description: "The Ideas on Stage Podcast"
 url: "/resources/podcast/"
 ---
 
-{{< shortcode-img img="/resources/podcast/RVOimwZI.jpeg" alt="Ideas on Stage Podcast" class="centered" width="250px" >}}
+{{< shortcode-img img="/resources/podcast/ideas-on-stage-podcast.jpg" alt="Ideas on Stage Podcast" class="centered" width="250px" >}}
 
 Do you enjoy listening to podcasts? Are you interested in leadership and communication? Then you might enjoy the Ideas on Stage Podcast.
 
@@ -28,40 +28,20 @@ You can find the Ideas on Stage Podcast on all major platforms, using the links 
   type="grid" >}}
 
 {{< shortcode-list-icon
-  columns="7"
-  img="/resources/podcast/ts8Run07.png"
-  description="iTunes"
+  columns="3"
+  img="/resources/podcast/apple-podcasts.svg"
+  description="Apple Podcasts"
   url="https://podcasts.apple.com/us/podcast/ideas-on-stage-the-leadership-communication-podcast/id1506050111?uo=4" >}}
 {{< shortcode-list-icon
-  columns="7"
-  img="/resources/podcast/p7j4zikA.png"
-  description="Google"
-  url="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xYTRjNGFjYy9wb2RjYXN0L3Jzcw==" >}}
+  columns="3"
+  img="/resources/podcast/youtube.svg"
+  description="Youtube"
+  url="https://www.youtube.com/ideasonstage" >}}
 {{< shortcode-list-icon
-  columns="7"
-  img="/resources/podcast/cBUbJPRZ.png"
-  description="Overcast"
-  url="https://overcast.fm/itunes1506050111/ideas-on-stage-the-leadership-communication-podcast" >}}
-{{< shortcode-list-icon
-  columns="7"
-  img="/resources/podcast/L0dPgtGg.png"
-  description="Pocket Casts"
-  url="https://pca.st/jceb0ou8" >}}
-{{< shortcode-list-icon
-  columns="7"
-  img="/resources/podcast/yDc4rRXA.png"
-  description="Radio Public"
-  url="https://radiopublic.com/ideas-on-stage-the-leadership-co-6Bww2Z" >}}
-{{< shortcode-list-icon
-  columns="7"
-  img="/resources/podcast/QyC4zigD.png"
+  columns="3"
+  img="/resources/podcast/spotify.svg"
   description="Spotify"
   url="https://open.spotify.com/show/553zZntpVVa4ejnASoFOTt" >}}
-{{< shortcode-list-icon
-  columns="7"
-  img="/resources/podcast/PwWnswD0.png"
-  description="Deezer"
-  url="https://deezer.page.link/vEBL6TqKfLb5p7Di9" >}}
 {{< /shortcode-list >}}
 
 {{< /shortcode-section >}}
