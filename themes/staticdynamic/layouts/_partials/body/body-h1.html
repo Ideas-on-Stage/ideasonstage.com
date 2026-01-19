@@ -63,7 +63,7 @@
 			{{/* <!-- cta description --> */}}
 			{{- with .Params.description -}}
 			<p>
-				{{ . }}
+				{{ . | safeHTML }}
 			</p>
 			{{- end -}}
 			

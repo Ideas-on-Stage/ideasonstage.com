@@ -1,7 +1,7 @@
 ---
 draft: false
 title: "The confident presenter workshop"
-description: "Help your team find their voice – and present clearly to prospects. Interactive, hands-on sessions that build clarity, confidence and impact in every client-facing presentation."
+description: "Help your team find their voice – and present clearly to prospects.<br>Interactive, hands-on sessions that build clarity, confidence and impact in every client-facing presentation."
 button:
   text: "Contact us to discuss your workshop"
   link: "#contact"

@@ -11,7 +11,7 @@ type: "home"
 body-cta-data: "2026-03-26-obama-speechwriter"
 main-modules-data: [ "uk-academy", "uk-workshops", "uk-coaching" ]
 bodylazy-references-data: [ "ebay", "spotify", "bosch", "octopuselectricvehicles", "havas", "rainmaking", "tbifgc", "fedex", "salesforce", "deloitte", "google", "disney", "wbg", "lacoste", "loreal" ]
-bodylazy-modules-aside-data: [ "confidentpresenter", "presentationscore", "freewebclass", "freeminicourse", "uk-kids-on-stage" ]
+bodylazy-modules-aside-data: [ "uk-confidentpresenter", "uk-presentationscore", "uk-freewebclass", "uk-freeminicourse", "uk-kids-on-stage" ]
 bodylazy-testimonials-data: [ "tom-katte", "cam-beaudoin", "eran-shlomi", "margaret-satya-rose", "caroline-boston", "graham-purvis" ]
 bodylazy-awards-data: [ "best-training-uk", "best-virtual-speaker-uk", "highly-commended-book-uk", "outstanding-provider-uk" ]
 ---
