@@ -35,7 +35,7 @@ Dans cette masterclass avec Phil Waknell, auteur du best-seller Business Present
     format="Intra-entreprise"
     prerequisites="Avoir déjà fait une présentation en public.<br>Il n’est pas nécessaire d’avoir un ordinateur"
     duration="3 h"
-    price="3000 € HTVA"
+    price="3600 € HTVA"
     audience="Cadres en entreprise, en particulier les équipes dirigeantes (ComEx, direction commerciale …)"
     attendees="4 à 16 personnes"
     location="dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"

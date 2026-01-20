@@ -58,7 +58,7 @@ La formation en groupes non mixtes, exclusivement féminins, offre un cadre séc
     format="Intra-entreprise"
     prerequisites="Donner régulièrement des présentations en entreprise"
     duration="7 h"
-    price="3000 € HTVA"
+    price="3600 € HTVA"
     audience="Femmes cadres amenées à évoluer vers des postes à responsabilité"
     attendees="4 à 8 personnes"
     location="dans vos locaux ou dans nos locaux des Champs Élysées à Paris"

@@ -40,7 +40,7 @@ Lors de cette formation, vous découvrirez comment utiliser la technique du « t
     format="Intra-entreprise"
     prerequisites="Être amené.e à donner des interviews dans les médias ou lors de conférences"
     duration="7 h"
-    price="3000 € HTVA"
+    price="3600 € HTVA"
     audience="Cadres dirigeants, personnalités."
     attendees="4 à 8 personnes"
     location="dans vos locaux ou dans nos locaux des Champs Élysées à Paris"

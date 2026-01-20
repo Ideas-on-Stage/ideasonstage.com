@@ -46,7 +46,7 @@ Cette formation est à destination des entreprises. Elle peut se réaliser en li
     format="Intra-entreprise"
     prerequisites="Être à un poste de management avec encadrement d'équipe"
     duration="7 h"
-    price="3000 € HTVA"
+    price="3600 € HTVA"
     audience="Cadres pressentis pour évoluer vers des positions de leadership"
     attendees="4 à 8 personnes"
     location="dans vos locaux ou dans nos locaux des Champs Élysées à Paris"
