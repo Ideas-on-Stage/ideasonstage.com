@@ -358,10 +358,12 @@ ul:
     text-align: "center"
     h1:
         margin-top: "0"
-        margin-bottom: "0"
+        margin-bottom: "0em"
     p:
         margin-top: "0.5em"
-        margin-bottom: "2em"
+        margin-bottom: "0em"
+    .cl-core--button-primary:
+        margin-top: "2em"
 
 .cl-body-h1--title:
     h1:
