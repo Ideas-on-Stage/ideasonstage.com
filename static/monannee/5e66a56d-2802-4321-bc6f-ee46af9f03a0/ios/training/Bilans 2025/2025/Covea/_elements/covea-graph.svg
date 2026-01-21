@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   sodipodi:docname="covea-graph.svg"
+   inkscape:export-filename="disney-graph-pub.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.43333333"
+     inkscape:cx="690.00001"
+     inkscape:cy="540"
+     inkscape:window-width="3184"
+     inkscape:window-height="1341"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="32"
+       spacingy="32"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="8"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="896"
+       y="128"
+       width="794.90856"
+       height="112.46154"
+       id="rect7" />
+    <rect
+       x="896"
+       y="128"
+       width="1283.5677"
+       height="52.4887"
+       id="rect7-3" />
+    <rect
+       x="896"
+       y="128"
+       width="1283.5677"
+       height="52.488701"
+       id="rect7-3-9" />
+    <rect
+       x="896"
+       y="128"
+       width="1283.26"
+       height="116.48866"
+       id="rect9" />
+    <rect
+       x="896"
+       y="128"
+       width="1283.26"
+       height="116.48866"
+       id="rect10" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ff8200;stroke:#c5c5c5;stroke-width:3;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+       d="m 125.5,64 v 960"
+       id="path1" />
+    <rect
+       style="fill:#ff8200;fill-opacity:1;stroke:#ff8200;stroke-width:4.23665;stroke-opacity:1"
+       id="rect3"
+       width="1018.6326"
+       height="126.3063"
+       x="133.3674"
+       y="480.84686" />
+    <text
+       xml:space="preserve"
+       id="text9"
+       style="font-size:37.3333px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect10);display:inline;fill:#ff8200;fill-opacity:1;stroke:#ff8200;stroke-width:3;stroke-dasharray:none;stroke-opacity:1"
+       transform="translate(316.89384,395.31078)"><tspan
+         x="896"
+         y="162.0603"
+         id="tspan2"><tspan
+           style="font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan1">8 ACTIONS WOMEN ON STAGE</tspan></tspan></text>
+  </g>
+</svg>
