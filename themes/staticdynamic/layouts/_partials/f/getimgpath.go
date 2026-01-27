@@ -33,27 +33,35 @@
 {{ $found := false }}
 {{ $thumbtest := false }}
 
-{{/* <!-- if page object, check if thumbnail.jpg exists, if yes use it --> */}}
+{{/* <!-- if page object... --> */}}
 {{ if eq "page" $type }}
-	{{/* <!-- then this is a page, check for thumbnail.jpg in same directory --> */}}
+	{{/* <!-- ...then check for file named thumbnail.jpg in same directory --> */}}
 	{{ $thumbtest = add .File.Dir "thumbnail.jpg" }}
+	{{/* <!-- if a file named thumbnail.jpg exists... --> */}}
 	{{ if fileExists $thumbtest }}
-		{{/* <!-- if a file named thumbnail.jpg exists, use thumbnail.jpg --> */}}
+		{{/* <!-- ...then use thumbnail.jpg --> */}}
 	  	{{ $img = "thumbnail.jpg" }}
+		{{/* <!-- and remember that we found $img --> */}}
 		{{ $found = true }}
 	{{ end }}
 {{ end }}
 
+{{/* <!-- if $img was found... --> */}}
 {{ if $found }}
-	{{/* <!-- do nothing --> */}}
+	{{/* <!-- ...then do nothing --> */}}
+{{/* <!-- else if the .img property is set in $data... --> */}}
 {{ else if (isset $data "img") }}
-	{{/* <!-- if .img exists, use it --> */}}
+	{{/* <!-- ...then use it --> */}}
 	{{ $img = $data.img }}
+	{{/* <!-- and remember that we found $img --> */}}
 	{{ $found = true }}
+{{/* <!-- else if the .picture property is set in $data... --> */}}
 {{ else if isset $data "picture" }}
-	{{/* <!-- if .picture exists, use it (deprecated in favor of img) --> */}}
+	{{/* <!-- ...then use it (deprecated, use img instead) --> */}}
 	{{ $img = $data.picture }}
+	{{/* <!-- and remember that we found $img --> */}}
 	{{ $found = true }}
+{{/* <!-- else if the .src property is set in $data... --> */}}
 {{ else if isset $data "src" }}
 	{{/* <!-- else it can be a data or shortcode file, use .src property --> */}}
 	{{ $img = $data.src }}

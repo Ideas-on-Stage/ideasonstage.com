@@ -26,7 +26,7 @@
 	{{ if ne "" . }}
 		{{ if (partial "f/ispage.go" .) }}
 			<!-- 1. Try to get image as page resource if argument is a page object -->
-			{{ $image = .Resources.Get .Params.picture }}	
+			{{ $image = .Resources.Get .Params.picture }}
 		{{ else if (partial "f/isstring.go" .) }}
 			<!-- 2. Try to get image as page resource, but with current page as reference -->
 			{{ $image = page.Resources.Get . }}
@@ -81,5 +81,4 @@
 		{{ end }}
 	{{ end }}
 {{ end }}
-
 {{ return $imgSrcSet }}

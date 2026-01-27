@@ -44,6 +44,8 @@
 	{{- $alt = printf "alt=\"%s\"" $data.alt -}}
 {{- else if $data.title -}}
 	{{- $alt = printf "alt=\"%s\"" $data.title -}}
+{{- else if $data.description -}}
+	{{- $alt = printf "alt=\"%s\"" $data.description -}}
 {{- end -}}
 
 {{- with $data.class -}}
