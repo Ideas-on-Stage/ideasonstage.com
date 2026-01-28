@@ -127,67 +127,12 @@
 
 
 # --------
-# BPR BOOK REDIRECTS
-
-[[redirects]]
-	from	= "https://www.ideasonstage.com/business-presentation-revolution/book/bonus-content/"
-	to		= "https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/bonus-content/"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/handicap/"
-	to		= "https://www.ideasonstage.com/rse/"
-	status	= 301
-	force	= true
-
-
-
-# --------
 # TEMPORARY CANONICAL FIX REDIRECTS
 
-# Temporary for duplicate different from Google canonical problem
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/handicap/"
-	to		= "https://www.ideasonstage.com/rse/"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/handicap/"
-	to		= "https://www.ideasonstage.com/rse/"
-	status	= 301
-	force	= true
-
-# Redirect of training pages
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-storytelling/"
-	to		= "https://www.ideasonstage.com//fr/formation-storytelling/"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-art-oratoire/"
-	to		= "https://www.ideasonstage.com//fr/formation-art-oratoire/"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/formations-prise-de-parole-en-public/formation-visuels-powerpoint/"
-	to		= "https://www.ideasonstage.com//fr/formation-presentations-powerpoint/"
-	status	= 301
-	force	= true
+# Redirect for ATR pdf
 [[redirects]]
 	from	= "https://www.ideasonstage.com/services/communication-consulting/audience-transformation-roadmap/ATR_template_Ideas_on_Stage.pdf"
 	to		= "https://www.ideasonstage.com/files/ATR_template_Ideas_on_Stage.pdf"
-	status	= 301
-	force	= true
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/evenements-entreprise/ateliers-lego-serious-play/"
-	to		= "https://www.ideasonstage.com/fr/ateliers-evenement-entreprise/ateliers-lego-serious-play/"
-	status	= 301
-	force	= true
-
-# 2024-07-09
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/rse/*"
-	to		= "https://www.ideasonstage.com/fr/apropos/rse/:splat"
 	status	= 301
 	force	= true
 
@@ -195,26 +140,6 @@
 [[redirects]]
 	from	= "https://www.ideasonstage.com/fr/references/*"
 	to		= "https://www.ideasonstage.com/fr/apropos/references/:splat"
-	status	= 301
-	force	= true
-
-# book confident presenter en redirect
-[[redirects]]
-	from	= "https://www.ideasonstage.com/resources/confident-presenter-book/"
-	to		= "https://www.ideasonstage.com/resources/books/confident-presenter-book/"
-	status	= 301
-	force	= true
-
-# 2024-08-05
-[[redirects]]
-	from	= "https://www.ideasonstage.com/fr/coaching-prise-de-parole-en-public/coaching-tedx/evenements/tedx-lille-2017/"
-	to		= "https://www.ideasonstage.com/fr/apropos/references/tedx-lille-2017/"
-	status	= 301
-	force	= true
-
-[[redirects]]
-	from	= "https://www.ideasonstage.com/public-speaking-coaching/tedx-coaching/events/tedx-tours-2019/"
-	to		= "https://www.ideasonstage.com/about/references/tedx-tours-2019/"
 	status	= 301
 	force	= true
 
@@ -230,14 +155,11 @@
 	status	= 301
 	force	= true
 
-# 2024-11-03 canonical corrections
-[[redirects]]
-	from	= "https://www.ideasonstage.com/news/2020/10/20/2020-10-20-unleash-the-hans-r%C3%B6sling-in-you/"
-	to		= "https://www.ideasonstage.com/news/2020/10/20/2020-10-20-unleash-the-hans-rosling-in-you/"
-	status	= 301
-	force	= true
 
-# 404 redirect
+
+# --------
+# 404 REDIRECTS
+
 [[redirects]]
 	from	= "/es/*"
 	to		= "/es/404/"

@@ -24,28 +24,26 @@
  --> */}}
 {{- $imgpath := partial "f/getimgpath.go" . -}}
 {{- $data := partial "f/getdata.go" . -}}
+{{- $alt := partial "f/getimgalt.go" . -}}
+{{- $srcsetdata := false -}}
 {{- $srcset := false -}}
 {{- $src := false -}}
-{{- $alt := false -}}
 {{- $class := false -}}
 {{- $loading := false -}}
 {{- $decoding := false -}}
 {{- $height := false -}}
 {{- $width := false -}}
-{{- $sizes := "sizes=\"(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px\"" -}}
+{{- $sizes := false -}}
 
 {{- if $imgpath -}}
-	{{- $srcset = partial "f/getimgsrcset.go" $imgpath -}}
-	{{- $src = printf "src=\"%s\"" (index $srcset 0) -}}
-	{{- $srcset = printf "srcset=\"%s\"" (index $srcset 1) -}}
-{{- end -}}
-
-{{- if $data.alt -}}
-	{{- $alt = printf "alt=\"%s\"" $data.alt -}}
-{{- else if $data.title -}}
-	{{- $alt = printf "alt=\"%s\"" $data.title -}}
-{{- else if $data.description -}}
-	{{- $alt = printf "alt=\"%s\"" $data.description -}}
+	{{- $srcsetdata = partial "f/getimgsrcset.go" $imgpath -}}
+	{{- $src = printf "src=\"%s\"" (index $srcsetdata 0) -}}
+	{{- if (index $srcsetdata 1) -}}
+		{{- $srcset = printf "srcset=\"%s\"" (index $srcsetdata 1) -}}
+	{{- end -}}
+	{{- if (index $srcsetdata 2) -}}
+		{{- $sizes = printf "sizes=\"%s\"" (index $srcsetdata 2) -}}
+	{{- end -}}
 {{- end -}}
 
 {{- with $data.class -}}

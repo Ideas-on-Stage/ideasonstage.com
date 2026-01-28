@@ -7,6 +7,8 @@ showrefs: false
 picture: "tedx-lille-2017.jpg"
 translationKey: "client-success-stories/tedx-lille-2017"
 client: "TEDx Lille"
+aliases:
+  - "/fr/coaching-prise-de-parole-en-public/coaching-tedx/evenements/tedx-lille-2017/"
 ---
 ## Coaching TEDx Lille
 Saviez-vous qu’Ideas on Stage travaille avec TEDx Lille depuis ses débuts, et sponsorise d’autres événements TEDx locaux, tels que le très bon TEDx IÉSEG Lille ? Pourquoi sommes-nous si impliqués dans le coaching d’événements TEDx sur Lille en particulier ? Parce que certains de nos coachs habitent la région des Hauts de France, tout simplement !

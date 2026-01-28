@@ -13,12 +13,18 @@ css:
 images:
     landscape:
         - scale: 2400
+          size: "2400px"
         - scale: 1200
+          size: "(1200px > width >= 720px) 1200px"
         - scale: 720
+          size: "(720px > width) 720px"
     portrait:
         - scale: 1600
+          size: "1600px"
         - scale: 800
+          size: "(1600px > width >= 800px) 800px"
         - scale: 480
+          size: "(480px > width) 480px"
     quality: 70
 
 # ---------------------

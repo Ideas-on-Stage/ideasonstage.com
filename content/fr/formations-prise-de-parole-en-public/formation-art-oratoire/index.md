@@ -17,8 +17,11 @@ attendees: "4 à 8 personnes"
 location: "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
 
 contact:
-    title: "Réservez une session de formation"
-    subtitle: "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
+  title: "Réservez une session de formation"
+  subtitle: "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
+
+aliases:
+  - "/fr/formation-art-oratoire/"
 ---
 
 Ce module est dédié à l’art oratoire et apprendra aux participants comment utiliser les techniques de langage corporel, verbal et émotionnel pour convaincre un auditoire. Il comprend une courte introduction à l'identification et la mise en valeur du message, car il s'agit d'un ingrédient crucial d’une bonne présentation. Pendant la journée, les participants mettront en pratique les techniques apprises sur base d’une présentation de leur choix.

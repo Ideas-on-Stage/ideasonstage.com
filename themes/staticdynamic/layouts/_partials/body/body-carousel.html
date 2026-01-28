@@ -53,9 +53,9 @@
 					{{- if .img -}}
 						{{ $srcset := partial "f/getimgsrcset.go" .img }}
 						<img
-							src="{{ collections.Index $srcset 0 }}"
+							src="{{ index $srcset 0 }}"
 							loading="lazy"
-							srcset="{{ collections.Index $srcset 1 }}"
+							srcset="{{ index $srcset 1 }}"
 							sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
 							alt="{{ .name }}">
 					{{- end -}}

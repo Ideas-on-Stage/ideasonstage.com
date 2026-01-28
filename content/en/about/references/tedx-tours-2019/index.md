@@ -5,6 +5,8 @@ description: "How to create a great TEDx event, with Fabien Boutard, curator of 
 categories: [ "Public Speaking", "Events", "TEDx" ]
 picture: "tedx-tours-2019-1.jpg"
 translationKey: "client-success-stories/tedx-tours-2019"
+aliases:
+  - "/public-speaking-coaching/tedx-coaching/events/tedx-tours-2019/"
 ---
 
 ## How to create a great TEDx event, with Fabien Boutard, curator of TEDx Tours

@@ -4,6 +4,9 @@ title: "Business Presentation Revolution – Bonus Content"
 hidepagelist: true
 ni: true # prevent indexing
 nl: true # prevent listing
+
+aliases:
+  - "/business-presentation-revolution/book/bonus-content/"
 ---
 
 ## Business Presentation Revolution – Bonus Content

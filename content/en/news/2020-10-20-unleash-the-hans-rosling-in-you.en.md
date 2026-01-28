@@ -1,13 +1,15 @@
-+++
-draft = false
-title = "Unleash the Hans Rösling in You"
-tags = ["Public Speaking", "TEDx"]
-news = ["general"]
-date = "2020-10-20"
-author = "Pierre Morsa"
-banner = "/img/news/hans_rosling_sword.jpg"
-language = "en"
-+++
+---
+draft: false
+title: "Unleash the Hans Rösling in You"
+tags: ["Public Speaking", "TEDx"]
+news: ["general"]
+date: "2020-10-20"
+author: "Pierre Morsa"
+banner: "/img/news/hans_rosling_sword.jpg"
+language: "en"
+aliases:
+  - "/news/2020/10/20/2020-10-20-unleash-the-hans-r%C3%B6sling-in-you/"
+---
 
 If you ever talked with me about my favorite TEDx talks, then I am sure I mentioned the late Hans Rösling, one of my all-time favorite TED speakers. On paper, he didn’t really start with an advantage; he spoke English with a strong foreign accent, and his key topic was statistics and demographics, something most of us associate with good sleep, not with great presentations.
 

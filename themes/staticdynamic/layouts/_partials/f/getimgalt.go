@@ -13,11 +13,15 @@
 {{- $data := partial "f/getdata.go" . -}}
 
 {{- if not $data -}}
-	{{- $alt = false -}}
+	{{- $alt = "" -}}
 {{- else if $data.alt -}}
 	{{- $alt = $data.alt -}}
 {{- else if $data.title -}}
 	{{- $alt = $data.title -}}
+{{- else if $data.description -}}
+	{{- $alt = $data.description -}}
 {{- end -}}
+
+{{- $alt = printf "alt=\"%s\"" $alt -}}
 
 {{- return $alt -}}
