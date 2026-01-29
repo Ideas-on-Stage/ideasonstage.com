@@ -29,14 +29,14 @@
 {{- $alt := partial "f/getimgalt.go" . -}}
 {{- $href := partial "f/geturl.go" . -}}
 {{- $srcsetdata := false -}}
-{{- $srcset := false -}}
-{{- $src := false -}}
-{{- $class := false -}}
-{{- $loading := false -}}
-{{- $decoding := false -}}
-{{- $height := false -}}
-{{- $width := false -}}
-{{- $sizes := false -}}
+{{- $src := "" -}}
+{{- $srcset := "" -}}
+{{- $sizes := "" -}}
+{{- $class := "" -}}
+{{- $loading := "" -}}
+{{- $decoding := "" -}}
+{{- $height := "" -}}
+{{- $width := "" -}}
 
 {{- if $imgpath -}}
 	{{- $srcsetdata = partial "f/getimgsrcset.go" $imgpath -}}
@@ -79,7 +79,7 @@
 	{{- if $href -}}
 	<a class="cl-core--a-underline-none" href="{{ $href }}">
 	{{- end -}}
-	<img {{ with $src }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $srcset }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $sizes }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $class }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $loading }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $decoding }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $width }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $height }}{{ . | safeHTMLAttr }}{{ end }}>
+	<img {{ $src | safeHTMLAttr }} {{ $srcset | safeHTMLAttr }} {{ $sizes | safeHTMLAttr }} {{ $alt | safeHTMLAttr }} {{ $class | safeHTMLAttr }} {{ $loading | safeHTMLAttr }} {{ $decoding | safeHTMLAttr }} {{ $width | safeHTMLAttr }} {{ $height | safeHTMLAttr }}>
 	{{- if $href -}}
 	</a>
 	{{- end -}}
