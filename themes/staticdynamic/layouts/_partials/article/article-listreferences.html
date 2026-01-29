@@ -43,8 +43,10 @@
 		{{ range .Pages }}
 			<div class="reference">
 				<div class="thumb">
+					{{- $img := partial "f/getimgpaththumbnail" . -}}
+					{{- $alt := .Title -}}
 					{{/* <!-- we can give the page object as the "img" value, and e/img will find the path --> */}}
-					{{ partial "e/img" (dict "img" . "alt" .Title) }}
+					{{ partial "e/img" (dict "img" $img "alt" $alt) }}
 				</div>
 				<div class="text">
 					{{ with .Params.client }}

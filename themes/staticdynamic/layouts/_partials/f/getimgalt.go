@@ -11,6 +11,7 @@
 
 {{- $alt := false -}}
 {{- $data := partial "f/getdata.go" . -}}
+{{- $type := partial "f/getdatatype.go" . -}}
 
 {{- if not $data -}}
 	{{- $alt = "" -}}

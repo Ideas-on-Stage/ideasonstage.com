@@ -22,10 +22,18 @@
 
 --> */}}
 
-{{ $image := resources.Get . }}
+{{/* <!-- initialize variables --> */}}
 {{ $imgSrc := false }}
 {{ $imgSrcSet := false }}
 {{ $imgSizes := slice }}
+{{ $scale := 0 }}
+{{ $size := "" }}
+{{ $srcUrl := "" }}
+
+{{ $image := page.Resources.Get . }}
+{{ if not $image }}
+	{{ $image = resources.Get . }}
+{{ end }}
 
 {{ if $image }}
 	<!-- scale pic if it is not a SVG (SVGs don't need to and cannot be scaled) -->
@@ -43,20 +51,17 @@
 		-->
 		{{ $imgSrcSet = slice }}
 		{{ range $scales }}
-			{{ $scale := .scale }}
-			{{ $size := .size }}
-			{{ if (strings.Contains $image.RelPermalink "logos") }}
-				{{ $scale = div $scale 4 }}
-			{{ end }}
-			{{ $srcUrl := "" }}
+			{{/* <!-- initialize variables --> */}}
+			{{ $scale = .scale }}
+			{{ $size = .size }}
+			{{ $srcUrl = "" }}
+			{{/* <!-- if width greater than scale --> */}}
 			{{ if gt $image.Width $scale }}
 				{{ $srcUrl = (printf "%dx webp" $scale | $image.Resize).RelPermalink }}
 			{{ else }}
 				{{ $srcUrl = (printf "%dx%d webp" $image.Width $image.Height | $image.Resize).RelPermalink }}
 			{{ end }}
-			{{ if eq $imgSrc "" }}
-				{{ $imgSrc = $srcUrl }}
-			{{ end }}
+			{{ $imgSrc = $srcUrl }}
 			{{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl $scale) }}
 			{{ $imgSizes = $imgSizes | append (printf "%s" $size ) }}
 		{{ end }}
