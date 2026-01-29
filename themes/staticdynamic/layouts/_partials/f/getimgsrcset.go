@@ -28,7 +28,6 @@
 {{ $imgSizes := slice }}
 {{ $scale := 0 }}
 {{ $size := "" }}
-{{ $srcUrl := "" }}
 
 {{ $image := page.Resources.Get . }}
 {{ if not $image }}
@@ -54,19 +53,24 @@
 			{{/* <!-- initialize variables --> */}}
 			{{ $scale = .scale }}
 			{{ $size = .size }}
-			{{ $srcUrl = "" }}
-			{{/* <!-- if width greater than scale --> */}}
+			{{/* <!-- if width greater than scale... --> */}}
 			{{ if gt $image.Width $scale }}
-				{{ $srcUrl = (printf "%dx webp" $scale | $image.Resize).RelPermalink }}
+				{{/* <!-- ...then resize pic (downscale) and convert to webp --> */}}
+				{{ $imgSrc = (printf "%dx webp" $scale | $image.Resize).RelPermalink }}
 			{{ else }}
-				{{ $srcUrl = (printf "%dx%d webp" $image.Width $image.Height | $image.Resize).RelPermalink }}
+				{{/* <!-- ...else keep dimensions and convert to webp --> */}}
+				{{ $imgSrc = (printf "%dx%d webp" $image.Width $image.Height | $image.Resize).RelPermalink }}
 			{{ end }}
-			{{ $imgSrc = $srcUrl }}
-			{{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $srcUrl $scale) }}
+			{{/* <!-- add new srcset to srcset --> */}}
+			{{ $imgSrcSet = $imgSrcSet | append (printf "%s %dw" $imgSrc $scale) }}
+			{{/* <!-- add new size to sizes --> */}}
 			{{ $imgSizes = $imgSizes | append (printf "%s" $size ) }}
 		{{ end }}
+		{{/* <!-- convert slice of sizes to string of sizes separated by comma --> */}}
 		{{ $sizes := (delimit $imgSizes ",") }}
+		{{/* <!-- convert slice of srcset to string of srcset separated by comma --> */}}
 		{{ $set := delimit $imgSrcSet "," }}
+		{{/* <!-- build return value with src srcset sizes --> */}}
 		{{ $imgSrcSet = slice $imgSrc $set $sizes }}
 	{{ else }}
 		{{ $imgSrcSet = slice $image false false }}
