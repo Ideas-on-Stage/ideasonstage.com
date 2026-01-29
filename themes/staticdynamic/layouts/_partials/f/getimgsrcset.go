@@ -8,37 +8,24 @@
 	- the sizes for the pictures
 	
 	Arguments:
-	- Page object (with .Params.picture defined) or a string with a path to a global resource in /assets.
+	- image path as string
 	
 	Returns:
-	- a slice with "src" and "srcset" to be used as in the example below.
-	
+	- a slice with:
+		- "src" as src attribute
+		- "srcset" with list of image sources for different sizes
+		- "sizes" as list of sizes
+		
 	Example code:
 	{{ $srcset := partial "f/getimgsrcset.go" "/img/picture.jgp" }}
-	<img src="{{ collections.Index $srcset 0 }}" srcset="{{ collections.Index $srcset 1 }}" alt="" class="">
+	<img src="{{ index $srcset 0 }}" srcset="{{ index $srcset 1 }}" sizes="{{ index $srcset 2 }}">
 
 --> */}}
 
-{{ $imgSrc := "" }}
+{{ $image := resources.Get . }}
+{{ $imgSrc := false }}
 {{ $imgSrcSet := false }}
 {{ $imgSizes := slice }}
-{{ $image := false }}
-
-{{ if . }}
-	{{ if ne "" . }}
-		{{ if (partial "f/ispage.go" .) }}
-			<!-- 1. Try to get image as page resource if argument is a page object -->
-			{{ $image = .Resources.Get .Params.picture }}
-		{{ else if (partial "f/isstring.go" .) }}
-			<!-- 2. Try to get image as page resource, but with current page as reference -->
-			{{ $image = page.Resources.Get . }}
-			{{ if not $image }}
-				<!-- 3. If no result, try to get image from global resources in /assets -->
-				{{ $image = resources.Get . }}
-			{{ end }}
-		{{ end }}
-	{{ end }}
-{{ end }}
 
 {{ if $image }}
 	<!-- scale pic if it is not a SVG (SVGs don't need to and cannot be scaled) -->

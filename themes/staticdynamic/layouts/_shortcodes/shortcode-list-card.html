@@ -22,10 +22,11 @@
 {{- $opts := dict "display" "block" -}}
 
 {{/* <!-- get parameters --> */}}
+{{- $data := partial "f/getdata" . -}}
 {{- $class := partial "f/gethtmlattrclass.go" . -}}
 {{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $img := partial "f/getimgpath" $data -}}
 {{- $columns := .Get "columns" -}}
-{{- $img := .Get "img" -}}
 {{- $alt := .Get "alt" -}}
 {{- $inner := .Inner -}}
 
@@ -36,5 +37,8 @@
 		{{- . | page.RenderString $opts -}}
 	</div>
 	{{- end -}}
-	{{ partial "e/img" .Params }}
+	{{- if $img -}}
+	{{- $args := dict "img" $img "alt" $alt -}}
+	{{ partial "e/img" $args }}
+	{{- end -}}
 </li>

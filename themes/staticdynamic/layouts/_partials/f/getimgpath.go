@@ -22,50 +22,43 @@
 --> */}}
 
 {{/* <!-- initialize variables  --> */}}
-{{ $type := partial "f/getdatatype" . }}
-{{ $data := partial "f/getdata" . }}
+{{- $type := partial "f/getdatatype" . -}}
+{{- $data := partial "f/getdata" . -}}
 {{- $path := partial "f/geturl" $data -}}
-{{ $imgpath := false }}
-{{ $img := false }}
-{{ $found := false }}
-{{ $thumbtest := false }}
+{{- $imgpath := false -}}
+{{- $img := false -}}
 
 {{/* <!-- if the .img property is set in $data... --> */}}
-{{ if (isset $data "img") }}
+{{- if (isset $data "img") -}}
 	{{/* <!-- ...then use it --> */}}
-	{{ $img = $data.img }}
-	{{/* <!-- and remember that we found $img --> */}}
-	{{ $found = true }}
+	{{- $img = $data.img -}}
 {{/* <!-- else if the .picture property is set in $data... --> */}}
-{{ else if isset $data "picture" }}
+{{- else if isset $data "picture" -}}
 	{{/* <!-- ...then use it (deprecated, use img instead) --> */}}
-	{{ $img = $data.picture }}
-	{{/* <!-- and remember that we found $img --> */}}
-	{{ $found = true }}
+	{{- $img = $data.picture -}}
 {{/* <!-- else if the .src property is set in $data... --> */}}
-{{ else if isset $data "src" }}
+{{- else if isset $data "src" -}}
 	{{/* <!-- else it can be a data or shortcode file, use .src property --> */}}
-	{{ $img = $data.src }}
-	{{ $found = true }}
-{{ else }}
-	{{ $found = false }}
-{{ end }}
+	{{ $img = $data.src -}}
+{{- else }}
+	{{ $img = false -}}
+{{- end }}
 
-{{ if $found }}
+{{- if $img -}}
 	{{/* <!-- if string contains at least one /... --> */}}
-	{{ if strings.Contains $img "/" }}
+	{{- if strings.Contains $img "/" -}}
 		{{/* <!-- ...then it already contains path to img --> */}}
-		{{ $imgpath = $img }}
+		{{- $imgpath = $img -}}
 	{{/* <!-- ...else if path exists... --> */}}
-	{{ else if $path }}
+	{{- else if $path -}}
 		{{/* <!-- ...then add path --> */}}
-		{{ $imgpath = path.Join $path $img }}
-	{{ else }}
+		{{- $imgpath = path.Join $path $img -}}
+	{{- else -}}
 		{{/* <!-- ...else send back image name (means that file must be in the same directory as the page) --> */}}
-		{{ $imgpath = $img }}
-	{{ end }}
-{{ else }}
-	{{ $imgpath = "ERROR: property .img .picture or .src not found" }}
-{{ end }}
+		{{- $imgpath = $img -}}
+	{{- end -}}
+{{- else -}}
+	{{- $imgpath = false -}}
+{{- end -}}
 
-{{ return $imgpath }}
+{{- return $imgpath -}}

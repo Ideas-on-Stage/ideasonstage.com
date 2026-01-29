@@ -20,9 +20,8 @@
 --> */}}
 
 {{ $data := partial "f/getdata" . }}
-{{ $imgpath := "" }}
-{{ $img := "" }}
-{{ $found := false }}
+{{ $imgpath := false }}
+{{ $img := false }}
 {{ $thumbtest := "" }}
 {{ $thumbtesta := "" }}
 {{ $thumbtestb := "" }}
@@ -36,26 +35,20 @@
 		{{ if (fileExists $thumbtesta) }}
 			{{/* <!-- then a file named hero.webp exists, use it --> */}}
 			{{ $img = "hero.webp" }}
-			{{ $found = true }}
 		{{ else if (fileExists $thumbtestb) }}
 			{{/* <!-- then a file named hero.jpg exists, use it --> */}}
 			{{ $img = "hero.jpg" }}
-			{{ $found = true }}
 		{{ else if .Params.img }}
-			{{/* <!-- else if .picture exists, use it --> */}}
+			{{/* <!-- else if .img exists, use it --> */}}
 			{{ $img = .Params.img }}
-			{{ $found = true }}
 		{{ else if .Params.picture }}
 			{{/* <!-- else if .picture exists, use it --> */}}
 			{{ $img = .Params.picture }}
-			{{ $found = true }}
 		{{ end }}
-	{{ else }}
-		{{ $found = false }}
 	{{ end }}
 {{ end }}
 
-{{ if $found }}
+{{ if $img }}
 	{{/* <!-- if it's a string check if path should be completed --> */}}
 	{{/* <!-- if string contains at least one /... --> */}}
 	{{ if strings.Contains $img "/" }}

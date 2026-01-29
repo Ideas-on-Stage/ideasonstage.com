@@ -28,7 +28,6 @@
 {{ $data := partial "f/getdata" . }}
 {{ $imgpath := false }}
 {{ $img := false }}
-{{ $found := false }}
 {{ $thumbtest := false }}
 
 {{/* <!-- if page object, check if thumbnail.jpg exists, if yes use it --> */}}
@@ -45,7 +44,9 @@
 		{{/* <!-- if .picture exists, use it (deprecated in favor of img) --> */}}
 		{{ $img = $data.picture }}
 	{{ end }}
-	
+{{ end }}
+
+{{ if $img }}	
 	{{/* <!-- if it's a string check if path should be completed --> */}}
 	{{/* <!-- if string contains at least one /... --> */}}
 	{{ if strings.Contains $img "/" }}
