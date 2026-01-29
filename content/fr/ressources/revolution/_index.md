@@ -34,8 +34,8 @@ Des versions avec des sous-titres en français et espagnol sont mises à disposi
 {{< shortcode-list-icon
   columns="3"
   url="https://itunes.apple.com/fr/podcast/the-business-presentation-revolution/id1450141706?l=en&mt=2"
-  img="itunes.svg"
-  alt="/img/icons/iTunes"
+  img="/img/icons/itunes.svg"
+  alt="Apple Music"
   description="Apple Music" >}}
 {{< shortcode-list-icon
   columns="3"

@@ -3,17 +3,9 @@
 	e/img.html
 	
 	Parameters:
-	- a page object:
-		- It will try to retrieve img in the following order:
-			- a thumbnail.jpg file located in the same folder as the page,
-			- .Params.img
-			- .Params.picture (deprecated, use .Params.img instead)
-		- It will get the alt text in the following order:
-			- .Params.alt
-			- .Params.title
 	- a data object, with the required properties (see variables below)
-		- .img: the image file
-		- .alt: the image alt description
+		- .img: the image file (required)
+		- .alt: the image alt description (required)
 		- .class: a list of specific classes applicable to the img
 		- .loading: "eager", etc.
 		- .decoding: "async", etc.
@@ -23,6 +15,8 @@
 		- .href: link to go when clicking picture 
 	
  --> */}}
+ 
+ {{/* <!-- initialize variables --> */}}
 {{- $type := partial "f/getdatatype.go" . -}}
 {{- $data := partial "f/getdata.go" . -}}
 {{- $imgpath := partial "f/getimgpath.go" . -}}
@@ -38,43 +32,43 @@
 {{- $height := "" -}}
 {{- $width := "" -}}
 
+{{/* <!-- if an image exists... --> */}}
 {{- if $imgpath -}}
+	{{/* <!-- ...then get the sourceset for the image --> */}}
 	{{- $srcsetdata = partial "f/getimgsrcset.go" $imgpath -}}
+	{{/* <!-- element 0 of the returned value is the src attribute --> */}}
 	{{- $src = printf "src=\"%s\"" (index $srcsetdata 0) -}}
+	{{/* <!-- element 1 of the returned value is the srcset attribute --> */}}
 	{{- if (index $srcsetdata 1) -}}
 		{{- $srcset = printf "srcset=\"%s\"" (index $srcsetdata 1) -}}
 	{{- end -}}
+	{{/* <!-- element 2 of the returned value is the sizes attribute --> */}}
 	{{- if (index $srcsetdata 2) -}}
 		{{- $sizes = printf "sizes=\"%s\"" (index $srcsetdata 2) -}}
 	{{- end -}}
-{{- end -}}
 
-{{- with $data.class -}}
-	{{- $class = printf "class=\"%s\"" . -}}
-{{- end -}}
-
-{{- with $data.loading -}}
-	{{- $loading = printf "loading=\"%s\"" . -}}
-{{- end -}}
-
-{{- with $data.decoding -}}
-	{{- $decoding = printf "decoding=\"%s\"" . -}}
-{{- end -}}
-
-{{- with $data.sizes -}}
-	{{- $sizes = printf "sizes=\"%s\"" . -}}
-{{- end -}}
-
-{{- with $data.width -}}
-	{{- $width = printf "width=\"%s\"" . -}}
-{{- end -}}
-
-{{- with $data.height -}}
-	{{- $height = printf "height=\"%s\"" . -}}
+	{{- with $data.class -}}
+		{{- $class = printf "class=\"%s\"" . -}}
+	{{- end -}}
+	
+	{{- with $data.loading -}}
+		{{- $loading = printf "loading=\"%s\"" . -}}
+	{{- end -}}
+	
+	{{- with $data.decoding -}}
+		{{- $decoding = printf "decoding=\"%s\"" . -}}
+	{{- end -}}
+	
+	{{- with $data.width -}}
+		{{- $width = printf "width=\"%s\"" . -}}
+	{{- end -}}
+	
+	{{- with $data.height -}}
+		{{- $height = printf "height=\"%s\"" . -}}
+	{{- end -}}
 {{- end -}}
 
 {{ "<!-- partials/e/img.html:start -->" | safeHTML }}
-
 {{- if $imgpath -}}
 	{{- if $href -}}
 	<a class="cl-core--a-underline-none" href="{{ $href }}">
@@ -85,8 +79,5 @@
 	{{- end -}}
 {{- else -}}
 	<p class="error">ERROR: IMAGE NOT FOUND</p>
-{{- end -}}
-{{- if eq "page" $type -}}
-	<p class="error">ERROR: CHANGE CALL FROM PAGE TO DATA</p>
 {{- end -}}
 {{ "<!-- partials/e/img.html:end -->" | safeHTML }}

@@ -64,7 +64,7 @@
 		{{ $set := delimit $imgSrcSet "," }}
 		{{ $imgSrcSet = slice $imgSrc $set $sizes }}
 	{{ else }}
-		{{ $imgSrcSet = slice . false false }}
+		{{ $imgSrcSet = slice $image false false }}
 	{{ end }}
 {{ else }}
 	<!-- If no resource found, fall back to using default image -->
