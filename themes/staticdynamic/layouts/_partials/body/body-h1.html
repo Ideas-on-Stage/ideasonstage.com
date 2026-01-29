@@ -4,7 +4,7 @@
 
 	Generates the HTML for a hero if a hero picture exists,
 	else generates a standard title.
-	To know how the hero picture is retrieved, check the "f/getheropicturepath.go" function.
+	To know how the hero picture is retrieved, check the "f/getimgpathhero.go" function.
 	
 	Arguments:
 	- page object
@@ -12,14 +12,17 @@
 --> */}}
 
 {{/* <!-- try to get hero picture --> */}}
-{{- $hero := partial "f/getheropicturepath.go" . -}}
+{{- $hero := partial "f/getimgpathhero.go" . -}}
 
 {{/* <!-- if hero pic found... --> */}}
 {{- if $hero -}}
 	{{/* <!-- ...then create hero with pic and h1 --> */}}
 
 	{{/* <!-- set arguments for e/img --> */}}
-	{{- $img := dict "img" $hero "loading" "eager" "decoding" "async" "alt" .Title -}}
+	{{- $img := dict "img" $hero 
+					 "loading" "eager"
+					 "decoding" "async"
+					 "alt" .Title -}}
 
 	{{- $srcset := partial "f/getimgsrcset.go" $hero -}}
 	{{/* <!-- create hero --> */}}

@@ -20,11 +20,14 @@
 		- .sizes: list of sizes
 		- .width: width of the picture
 		- .height: height of the picture
+		- .href: link to go when clicking picture 
 	
  --> */}}
-{{- $imgpath := partial "f/getimgpath.go" . -}}
+{{- $type := partial "f/getdatatype.go" . -}}
 {{- $data := partial "f/getdata.go" . -}}
+{{- $imgpath := partial "f/getimgpath.go" . -}}
 {{- $alt := partial "f/getimgalt.go" . -}}
+{{- $href := partial "f/geturl.go" . -}}
 {{- $srcsetdata := false -}}
 {{- $srcset := false -}}
 {{- $src := false -}}
@@ -71,9 +74,19 @@
 {{- end -}}
 
 {{ "<!-- partials/e/img.html:start -->" | safeHTML }}
+
 {{- if $imgpath -}}
-<img {{ with $src }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $srcset }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $sizes }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $class }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $loading }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $decoding }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $width }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $height }}{{ . | safeHTMLAttr }}{{ end }}>
+	{{- if $href -}}
+	<a class="cl-core--a-underline-none" href="{{ $href }}">
+	{{- end -}}
+	<img {{ with $src }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $srcset }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $sizes }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $alt }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $class }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $loading }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $decoding }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $width }}{{ . | safeHTMLAttr }}{{ end }}   {{ with $height }}{{ . | safeHTMLAttr }}{{ end }}>
+	{{- if $href -}}
+	</a>
+	{{- end -}}
 {{- else -}}
-	<!-- img not found -->
+	<p class="error">ERROR: IMAGE NOT FOUND</p>
+{{- end -}}
+{{- if eq "page" $type -}}
+	<p class="error">ERROR: CHANGE CALL FROM PAGE TO DATA</p>
 {{- end -}}
 {{ "<!-- partials/e/img.html:end -->" | safeHTML }}

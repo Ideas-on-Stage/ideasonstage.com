@@ -2,6 +2,7 @@
 draft: false
 title: "Business Presentation Revolution – Stage 2: Ideation"
 ni: true
+nl: true
 ---
 
 In the Ideation stage, you take the transformational objectives you established in the Foundation stage, and find things to say, show and do to achieve those objectives: the raw materials of your presentation.

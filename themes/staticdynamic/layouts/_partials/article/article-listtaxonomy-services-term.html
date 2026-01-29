@@ -18,8 +18,11 @@
 				{{- range $pages -}}
 				{{/* <!-- if ordered skill = group skill then display it --> */}}
 					<li>
+						{{- $img := partial "f/getimgpaththumbnail.go" . -}}
+						{{- $alt := .Title -}}
+						{{- $href := .RelPermalink -}}
+						{{- partial "e/img.html" (dict "img" $img "alt" $alt "href" $href) -}}
 						<a href="{{ .RelPermalink }}">
-							<img src="{{ .RelPermalink }}thumbnail.jpg" alt="{{ .Title }}">
 							<h3>
 								{{ .Title }}
 							</h3>

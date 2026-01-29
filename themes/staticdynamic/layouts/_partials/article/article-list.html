@@ -1,13 +1,18 @@
-{{ "<!-- partials/main/main-list.html:start -->" | safeHTML }}
+{{ "<!-- partials/article/article-list.html:start -->" | safeHTML }}
 <div class="cl-article-list">
 {{- range .Pages -}}
+	{{/* <!-- if .Params.nl is true... --> */}}
 	{{- if .Params.nl -}}
+		{{/* <!-- ...then do not list page --> */}}
 		{{ (printf "<!-- page %s skipped (nl is true) -->" .Title) | safeHTML }}
-		{{/* <!-- do not list pages with .Params nl: true --> */}}
 	{{- else -}}
 	<section class="item {{ partial "f/getstyle.go" . }}">
 		<div class="picture">
-			{{ partial "e/link-picture.html" . }}
+			{{- $img := partial "f/getimgpaththumbnail.go" . -}}
+			{{- $alt := .Title -}}
+			{{- $href := .RelPermalink -}}
+			{{- $args := dict "img" $img "alt" $alt "href" $href -}}
+			{{ partial "e/img.html" $args }}
 		</div>
 		<div class="text">
 			{{ partial "e/link-title-description.html" . }}
@@ -17,4 +22,4 @@
 	{{- end -}}
 {{- end -}}
 </div>
-{{ "<!-- partials/main/main-list.html:end -->" | safeHTML }}
+{{ "<!-- partials/article/article-list.html:end -->" | safeHTML }}

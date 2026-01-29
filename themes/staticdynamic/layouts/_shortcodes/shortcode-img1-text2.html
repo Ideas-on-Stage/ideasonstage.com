@@ -2,7 +2,10 @@
 
 {{ "<!-- shortcode-img1-text2.html:start -->" | safeHTML }}
 <div class="cl-shortcode cl-shortcode-img1-text2 {{ with .Params.class }}{{ . }}{{ end }} {{ with .Params.style }}{{ . }}{{ end }}">
-	{{ partial "e/img" .Params }}
+	{{- $img := partial "f/getimgpath.go" .Params -}}
+	{{- $alt := partial "f/getimgalt" .Params -}}
+	{{- $href := partial "f/geturl" .Params -}}
+	{{ partial "e/img" (dict "img" $img "alt" $alt "href" $href) }}
 	<div class="text">
 		{{ partial "e/title" .Params }}
 		{{ .Inner | page.RenderString $opts }}

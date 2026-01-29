@@ -4,9 +4,9 @@
 	
 	Gets url parameter for pages and data files.
 	- If page then use .Permalink
-	- else try to use .link property
-	- if not found, try to use .url property
-	- if not found, try to use the .href property
+	- else try to use the .href property
+	- if not found then try to use .link property
+	- if not found then try to use .url property
 	
 	Arguments:
 	- page, data object, or a structure containing a .link or .url property
@@ -20,12 +20,12 @@
 {{ $result := "" }}
 {{ if partial "f/ispage.go" . }}
 	{{ $result = .RelPermalink }}
+{{ else if isset . "href" }}
+	{{ $result = .href }}
 {{ else if isset . "link" }}
 	{{ $result = .link }}
 {{ else if isset . "url" }}
 	{{ $result = .url }}
-{{ else if isset . "href" }}
-	{{ $result = .href }}
 {{ end }}
 
 {{ return $result }}

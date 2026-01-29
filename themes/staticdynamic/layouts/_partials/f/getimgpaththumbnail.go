@@ -13,7 +13,9 @@
 	- else try to use .picture; in that case, the picture is set to the value of .picture (string)
 
 	- if result is a string then complete path with .url if only picture name specified,
-	  eg. "pic.jpg" for url "/services/" will become "/services/pic.jpg", "/toto/pic.jgp" will be left untouched
+	  for example:
+	  - "pic.jpg" for url "/services/" will become "/services/pic.jpg"
+	  - "/toto/pic.jgp" will be left untouched as the path is already included
 	
 	Returns:
 	- path to picture,
@@ -44,14 +46,10 @@
 		{{ $img = $data.picture }}
 	{{ end }}
 	
-	{{/* <!-- if it's a string check if path should be completed --> */}}		
-	{{ $firstchar := substr $img 0 1 }}
-	{{ $firstfour := substr $img 0 4 }}
-	{{ if eq "/" $firstchar }}
-		{{/* <!-- if starts with / then .picture contains rel path to img --> */}}
-		{{ $imgpath = $img }}
-	{{ else if eq "http" $firstfour }}
-		{{/* <!-- if starts with http then .picture contains abs path to img --> */}}
+	{{/* <!-- if it's a string check if path should be completed --> */}}
+	{{/* <!-- if string contains at least one /... --> */}}
+	{{ if strings.Contains $img "/" }}
+		{{/* <!-- ...then it already contains path to img --> */}}
 		{{ $imgpath = $img }}
 	{{ else }}
 		{{/* <!-- else add path --> */}}

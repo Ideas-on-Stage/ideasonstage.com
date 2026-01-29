@@ -2,6 +2,7 @@
 draft: false
 title: "Business Presentation Revolution – Stage 4: Illustration"
 ni: true
+nl: true
 ---
 
 In the Illustration stage, you prepare appropriate supporting materials for your storyline. In some cases, this may mean documents that you should share before, during or after your presentation. In many cases, it means slides – but not just any old kind of boring slides.

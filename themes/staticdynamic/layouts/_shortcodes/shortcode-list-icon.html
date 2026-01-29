@@ -23,20 +23,20 @@
 {{- $columns := .Get "columns" -}}
 {{- $img := .Get "img" -}}
 {{- $alt := .Get "alt" -}}
-{{- $url := .Get "url" -}}
+{{- $href := .Get "url" -}}
 
 {{/* <!-- generate html --> */}}
 <li {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
-	{{- with $url -}}
+	{{- with $href -}}
 	<a href="{{ . }}">
 	{{- end -}}
 		<div class="content">
-			{{ partial "e/img" .Params }}
+			{{ partial "e/img" (dict "img" $img "alt" $alt "href" $href) }}
 			<div class="text">
 				{{ .Params.description | markdownify }}
 			</div>
 		</div>
-	{{- with $url -}}
+	{{- with $href -}}
 	</a>
 	{{- end -}}
 </li>

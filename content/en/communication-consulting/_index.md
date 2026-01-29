@@ -34,27 +34,27 @@ Our corporate communication strategy consulting branch offers all necessary serv
 
 {{< shortcode-list-icon
   columns="5"
-  img="identity.svg"
+  img="/img/icons/identity.svg"
   description="Reinforce your identity" >}}
 
 {{< shortcode-list-icon
   columns="5"
-  img="vision.svg"
+  img="/img/icons/vision.svg"
   description="Clarify your vision" >}}
 
 {{< shortcode-list-icon
   columns="5"
-  img="fast.svg"
+  img="/img/icons/fast.svg"
   description="Accelerate your transformation" >}}
 
 {{< shortcode-list-icon
   columns="5"
-  img="group.svg"
+  img="/img/icons/group.svg"
   description="Improve employee coordination" >}}
 
 {{< shortcode-list-icon
   columns="5"
-  img="performance.svg"
+  img="/img/icons/performance.svg"
   description="Increase performance" >}}
   
 {{< /shortcode-list >}}

@@ -2,18 +2,14 @@
 	
 	f/getimgpath
 	
-	Gets full path to picture for pages and data files.
-	Allows to use a specific .thumbnail image.
+	Gets full path to image file.
 	
 	Arguments:
-	- page object or data object
+	- data object with .img, .picture or .src property.
 	
 	Process:
-	- If page:
-		- try to use thumbnail.jpg; if found, the result is set to "thumbnail.jpg" (string)
-		- if not found, try to use .Params.picture
+	- try to use .img; in that case, the picture is set to the value of .img (string)
 	- else try to use .picture; in that case, the picture is set to the value of .picture (string)
-	- else try to use .img; in that case, the picture is set to the value of .img (string)
 	- else try to use .src; in that case, the picture is set to the value of .src (string)
 
 	- if result is a string then complete path with .url if only picture name specified,
@@ -28,29 +24,14 @@
 {{/* <!-- initialize variables  --> */}}
 {{ $type := partial "f/getdatatype" . }}
 {{ $data := partial "f/getdata" . }}
+{{- $path := partial "f/geturl" $data -}}
 {{ $imgpath := false }}
 {{ $img := false }}
 {{ $found := false }}
 {{ $thumbtest := false }}
 
-{{/* <!-- if page object... --> */}}
-{{ if eq "page" $type }}
-	{{/* <!-- ...then check for file named thumbnail.jpg in same directory --> */}}
-	{{ $thumbtest = add .File.Dir "thumbnail.jpg" }}
-	{{/* <!-- if a file named thumbnail.jpg exists... --> */}}
-	{{ if fileExists $thumbtest }}
-		{{/* <!-- ...then use thumbnail.jpg --> */}}
-	  	{{ $img = "thumbnail.jpg" }}
-		{{/* <!-- and remember that we found $img --> */}}
-		{{ $found = true }}
-	{{ end }}
-{{ end }}
-
-{{/* <!-- if $img was found... --> */}}
-{{ if $found }}
-	{{/* <!-- ...then do nothing --> */}}
-{{/* <!-- else if the .img property is set in $data... --> */}}
-{{ else if (isset $data "img") }}
+{{/* <!-- if the .img property is set in $data... --> */}}
+{{ if (isset $data "img") }}
 	{{/* <!-- ...then use it --> */}}
 	{{ $img = $data.img }}
 	{{/* <!-- and remember that we found $img --> */}}
@@ -71,25 +52,20 @@
 {{ end }}
 
 {{ if $found }}
-	{{/* <!-- if it's a string check if path should be completed --> */}}		
-	{{ $firstchar := substr $img 0 1 }}
-	{{ $firstfour := substr $img 0 4 }}
-	{{ if eq "/" $firstchar }}
-		{{/* <!-- if starts with / then .picture contains rel path to img --> */}}
+	{{/* <!-- if string contains at least one /... --> */}}
+	{{ if strings.Contains $img "/" }}
+		{{/* <!-- ...then it already contains path to img --> */}}
 		{{ $imgpath = $img }}
-	{{ else if eq "http" $firstfour }}
-		{{/* <!-- if starts with http then .picture contains abs path to img --> */}}
-		{{ $imgpath = $img }}
+	{{/* <!-- ...else if path exists... --> */}}
+	{{ else if $path }}
+		{{/* <!-- ...then add path --> */}}
+		{{ $imgpath = path.Join $path $img }}
 	{{ else }}
-		{{/* <!-- else add path --> */}}
-		{{ if (isset $data "url") }}
-			{{ $imgpath = path.Join $data.url $img }}
-		{{ else }}
-			{{ $imgpath = path.Join .RelPermalink $img }}
-		{{ end }}
+		{{/* <!-- ...else send back image name (means that file must be in the same directory as the page) --> */}}
+		{{ $imgpath = $img }}
 	{{ end }}
 {{ else }}
-	{{ $imgpath = false }}
+	{{ $imgpath = "ERROR: property .img .picture or .src not found" }}
 {{ end }}
 
 {{ return $imgpath }}

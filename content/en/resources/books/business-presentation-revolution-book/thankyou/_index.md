@@ -41,14 +41,14 @@ So please tell your colleagues, tell your pets, tell the world! Simply click on 
 {{< shortcode-list-icon
   columns="2"
   url="https://www.linkedin.com/feed/update/urn:li:activity:6790184415256571904/"
-  img="linkedin.svg"
+  img="/img/icons/linkedin.svg"
   alt="LinkedIn"
   description="Talk about it on LinkedIn" >}}
   
 {{< shortcode-list-icon
   columns="2"
   url="https://www.facebook.com/ideasonstage/posts/4371626369517281"
-  img="facebook.svg"
+  img="/img/icons/facebook.svg"
   alt="Facebook"
   description="Talk about it on Facebook" >}}
 
@@ -80,14 +80,14 @@ Thanks for sharing, we wish you happy reading, and as a last thank-you, here’s
 {{< shortcode-list-icon
   columns="2"
   url="https://bit.ly/3g4fTnY"
-  img="linkedin.svg"
+  img="/img/icons/linkedin.svg"
   alt="LinkedIn"
   description="LinkedIn" >}}
   
 {{< shortcode-list-icon
   columns="2"
   url="https://bit.ly/3wQJQxo"
-  img="youtube.svg"
+  img="/img/icons/youtube.svg"
   alt="YouTube"
   description="YouTube" >}}
 
