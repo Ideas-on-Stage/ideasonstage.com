@@ -67,7 +67,7 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 {{< shortcode-list-icon
   class="icon-big"
   columns="2"
-  img="logo-qualiopi.png"
+  img="/img/logos/qualiopi-logo.png"
   description="Certifié Qualiopi au titre des actions de formation"
   url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
   

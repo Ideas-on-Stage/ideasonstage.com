@@ -51,7 +51,7 @@ Short videos featuring important presentation tips.
   class="margin-top margin-bottom"
   link="https://www.youtube.com/watch?v=WOB6leUwZVM&list=PLZzM50I6k_S6jJR8x9Ig2Ho93UUEmObRF"
   title="Podcast"
-  picture="podcast-thumb.jpg" >}}
+  picture="/business-presentation-revolution/podcast-thumb.jpg" >}}
 Do you enjoy listening to podcasts? Are you interested in leadership and communication? Then you will enjoy the Ideas on Stage Podcast.
 {{< /shortcode-link-img1-text2 >}}
 
@@ -59,6 +59,6 @@ Do you enjoy listening to podcasts? Are you interested in leadership and communi
   class="margin-top margin-bottom"
   link="/news/"
   title="Articles"
-  picture="articles-thumb.jpg" >}}
+  picture="/business-presentation-revolution/articles-thumb.jpg" >}}
 Browse through our many articles on the art of presenting.
 {{< /shortcode-link-img1-text2 >}}
