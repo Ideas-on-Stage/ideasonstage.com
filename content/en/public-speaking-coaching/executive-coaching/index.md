@@ -2,8 +2,14 @@
 draft: false
 title: "Executive Coaching"
 description: "Develop your presence on stage. Be a Leader."
-translationKey: "public-speaking-coaching/executive-coaching"
 picture: "public-speaking-coaching-10.jpg"
+
+# taxonomies
+services: [ coaching ]
+skills: [ public speaking ]
+
+# url
+translationKey: "public-speaking-coaching/executive-coaching"
 ---
 
 ## Lead from the stage

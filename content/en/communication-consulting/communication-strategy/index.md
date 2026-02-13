@@ -3,6 +3,12 @@ draft: false
 title: "Presentation Strategy"
 description: "Choose the right angle for your audience to ensure your presentation is a complete success."
 picture: "strategy.jpg"
+
+# taxonomies
+services: [ consulting ]
+skills: [ public speaking ]
+
+# url
 translationKey: "communication-consulting/communication-strategy"
 ---
 

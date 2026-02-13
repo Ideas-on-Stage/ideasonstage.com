@@ -3,6 +3,12 @@ draft: false
 title: "Storytelling & Copywriting"
 description: "Together with our creative business storytellers, craft a narrative to captivate your audience and make your messages stick."
 picture: "story-copywriting.jpg"
+
+# taxonomies
+services: [ consulting ]
+skills: [ public speaking ]
+
+# url
 translationKey: "communication-consulting/story-copywriting"
 ---
 

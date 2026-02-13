@@ -3,14 +3,18 @@ draft: false
 type: full # full-width layout
 title: "Formation gérer des réunions efficaces"
 description: "Réunions Efficaces propose une méthode simple et efficace pour planifier, préparer et exécuter des réunions très efficaces, en ligne et en présentiel, et libérer du temps pour d’autres activités."
-translationKey: "effective-meetings-training"
-ni: true
+weight: 230
+
+# corntact form
 contact:
   description: Contactez-nous pour en savoir plus sur la formation réunions efficaces et nous vous répondrons rapidement.
 
 # taxonomy
 services: [ formations ]
 skills: [ management ]
+
+# url
+translationKey: "management-training/effective-meetings-training"
 ---
 
 {{< shortcode-section-hero

@@ -1,15 +1,19 @@
 ---
 draft: false
+type: "training"
 title: "Formation pitch pour Startups"
 description: "Apprenez les secrets du pitch, par une équipe de coachs qui a collaboré avec des centaines de startups."
 picture: "pitch-startup.jpg"
-translationKey: "presentations-training/pitch-for-startups"
-url: "/fr/formation-pitch-pour-startups/"
-type: "training"
+weight: 60
 
 # taxonomies
 services: [ formations ]
 skills: [ prise de parole en public ]
+
+# url
+translationKey: "presentations-training/pitch-for-startups-training"
+aliases: 
+    - "/fr/formation-pitch-pour-startups/"
 ---
 
 ## Tout dépend du pitch

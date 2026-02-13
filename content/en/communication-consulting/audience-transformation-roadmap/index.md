@@ -3,6 +3,12 @@ draft: false
 title: "The Audience Transformation Roadmap™"
 description: "The Audience Transformation Roadmap™ is a simple and powerful tool created by Ideas on Stage to work out what transformations you need to make and what to say to achieve them."
 picture: "ATR_english.jpeg"
+
+# taxonomies
+services: [ consulting ]
+skills: [ public speaking ]
+
+# url
 translationKey: "communication-consulting/audience-transformation-roadmap"
 ---
 

@@ -43,7 +43,7 @@
 		{{- with $name -}}
 		<li id="name" class="content">
 			<div class="key">
-				<b>Intitulé :</b>
+				<b>{{ site.Params.training.name }}</b>
 			</div>
 			<div class="value">
 				{{ . | safeHTML }}
@@ -52,9 +52,9 @@
 		{{- end -}}
 
 		{{- with $objectives -}}
-		<li id="format" class="content">
+		<li id="objectives" class="content">
 			<div class="key">
-				<b>Objectifs :</b>
+				<b>{{ site.Params.training.objectives }}</b>
 			</div>
 			<div class="value">
 				{{ . | safeHTML }}
@@ -65,7 +65,7 @@
 		{{- with $format -}}
 		<li id="format" class="content">
 			<div class="key">
-				<b>Format :</b>
+				<b>{{ site.Params.training.format }}</b>
 			</div>
 			<div class="value">
 				{{ . | safeHTML }}
@@ -76,7 +76,7 @@
 		{{- with $prerequisites -}}
 		<li id="prerequisites" class="content">
 			<div class="key">
-				<b>Prérequis :</b>
+				<b>{{ site.Params.training.prerequisites }}</b>
 			</div>
 			<div class="value">
 				{{ . | safeHTML }}
@@ -87,7 +87,7 @@
 		{{- with $duration -}}
 		<li id="duration" class="content">
 			<div class="key">
-				<b>Durée :</b>
+				<b>{{ site.Params.training.duration }}</b>
 			</div>
 			<div class="value">
 				{{ . | safeHTML }}
@@ -98,7 +98,7 @@
 		{{- with $price -}}
 		<li id="price" class="content">
 			<div class="key">
-				<b>Prix :</b>
+				<b>{{ site.Params.training.price }}</b>
 			</div>
 			<div class="value">
 				{{ . | safeHTML }}
@@ -109,7 +109,7 @@
 		{{- with $audience -}}
 		<li id="audience" class="content">
 			<div class="key">
-				<b>Audience :</b>
+				<b>{{ site.Params.training.audience }}</b>
 			</div>
 			<div class="value">
 				{{ . | safeHTML }}
@@ -120,7 +120,7 @@
 		{{- with $attendees -}}
 		<li id="attendees" class="content">
 			<div class="key">
-				<b>Participants :</b>
+				<b>{{ site.Params.training.attendees }}</b>
 			</div>
 			<div class="value">
 				{{ . | safeHTML }}
@@ -131,7 +131,7 @@
 		{{- with $location -}}
 		<li id="location" class="content">
 			<div class="key">
-				<b>Lieu :</b>
+				<b>{{ site.Params.training.location }}</b>
 			</div>
 			<div class="value">
 				{{ . | safeHTML }}
@@ -140,9 +140,9 @@
 		{{- end -}}
 		
 		{{- with $means -}}
-		<li id="means" class="content">
+		<li id="materials" class="content">
 			<div class="key">
-				<b>Moyens pédagogiques, modalités et méthodes :</b>
+				<b>{{ site.Params.training.materials }}</b>
 			</div>
 			<div class="value">
 				{{ . | safeHTML }}
@@ -153,7 +153,7 @@
 		{{- with $evaluation -}}
 		<li id="evaluation" class="content">
 			<div class="key">
-				<b>Évaluation :</b>
+				<b>{{ site.Params.training.evaluation }}</b>
 			</div>
 			<div class="value">
 				{{ . | safeHTML }}

@@ -3,10 +3,13 @@ draft: false
 title: "Coaching en prise de parole pour dirigeants"
 description: "Développez votre présence sur scène. Devenez un leader charismatique."
 picture: "public-speaking-coaching-10.jpg"
-translationKey: "public-speaking-coaching/executive-coaching"
 
+# taxonomies
 services: [ coaching ]
 skills: [ leadership, prise de parole ]
+
+# url
+translationKey: "public-speaking-coaching/executive-coaching"
 ---
 
 ## Soyez un leader sur scène

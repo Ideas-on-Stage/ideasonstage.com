@@ -3,6 +3,12 @@ draft: false
 title: "Media Training"
 description: "Professional coaching to prepare leaders for important media or conference appearances."
 picture: "media-training.jpg"
+
+# taxonomies
+services: [ coaching ]
+skills: [ public speaking ]
+
+# url
 translationKey: "public-speaking-coaching/media-training"
 ---
 

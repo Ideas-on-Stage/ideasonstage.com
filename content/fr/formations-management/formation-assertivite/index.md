@@ -3,14 +3,18 @@ draft: false
 type: full # full-width layout
 title: "Formation Assertivité"
 description: "Apprendre à adopter une attitude assertive face aux comportements agressifs et passifs."
-translationKey: "assertiveness-training"
-ni: true
+weight: 210
+
+# contact form
 contact:
   description: Contactez-nous pour en savoir plus sur la formation Assertivité et nous vous répondrons rapidement.
 
 # taxonomy
 services: [ formations ]
 skills: [ management ]
+
+# url
+translationKey: "management-training/assertiveness-training"
 ---
 
 {{< shortcode-section-hero

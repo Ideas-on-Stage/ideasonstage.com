@@ -1,25 +1,28 @@
 ---
 draft: false
+type: "training"
 title: "Formation Storytelling"
 description: "Formation aux techniques de storytelling pour apprendre à convaincre son auditoire."
-url: "/fr/formation-storytelling/"
-type: "training"
-format: "Intra-entreprise"
 weight: 10
 
 # taxonomies
 services: [ formations ]
 skills: [ prise de parole en public ]
 
+# training
+format: "Intra-entreprise"
 duration: "7 h"
 price: "3000 € HTVA"
 attendees: "4 à 8 personnes"
 location: "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
 
+# contact form
 contact:
   title: "Réservez une session de formation"
   subtitle: "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
 
+# url
+translationKey: "public-speaking-training/storytelling-training"
 aliases:
   - "/fr/formation-storytelling/"
 ---  

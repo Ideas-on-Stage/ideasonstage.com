@@ -3,14 +3,17 @@ draft: false
 type: full # full-width layout
 title: "Formation Women on Stage"
 description: "Formation de prise de parole pour les femmes cadres en entreprise."
-translationKey: "women-on-stage-training"
-ni: true
+weight: 140
+
 contact:
   description: Contactez-nous pour en savoir plus sur la formation Women on Stage et nous vous répondrons rapidement.
 
 # taxonomy
 services: [ formations ]
 skills: [ leadership ]
+
+# url
+translationKey: "leadership-training/women-on-stage-training"
 ---
 
 {{< shortcode-section-hero

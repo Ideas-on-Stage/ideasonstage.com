@@ -3,14 +3,18 @@ draft: false
 type: full # full-width layout
 title: "Formation Media Training"
 description: "Formation à la prise de parole face à la caméra et lors d'interviews."
-translationKey: "media-training-training"
-ni: true
+weight: 130
+
+# contact form
 contact:
   description: Contactez-nous pour en savoir plus sur la formation Media Training et nous vous répondrons rapidement.
 
 # taxonomy
 services: [ formations ]
 skills: [ leadership ]
+
+# url
+translationKey: "public-speaking-training/media-training"
 ---
 
 {{< shortcode-section-hero

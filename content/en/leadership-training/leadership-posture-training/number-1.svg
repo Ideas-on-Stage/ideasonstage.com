@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="pahrpal-background" serif:id="pahrpal background">
+        <rect x="0" y="0" width="1920" height="1080" style="fill:rgb(167,134,211);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,67.8541,39.7454)">
+        <g id="piti-arc-de-cercle" serif:id="piti arc de cercle">
+            <g>
+                <g transform="matrix(0.319425,0,0,0.319425,571.497,180.404)">
+                    <path d="M1022.64,594.574C1081.27,594.574 1137,607.445 1187.07,630.584L1219.73,611.835C1160.81,580.81 1093.7,563.251 1022.64,563.251C788.207,563.251 597.444,754.014 597.444,988.451C597.444,1075.8 623.93,1157.04 669.241,1224.67L685.46,1191.57L685.46,1191.49C649.524,1132.19 628.841,1062.7 628.841,988.451C628.841,771.276 805.468,594.574 1022.64,594.574ZM1379.54,757.586L1363.18,790.769C1397.03,848.95 1416.45,916.506 1416.45,988.451C1416.45,1205.55 1239.82,1382.25 1022.64,1382.25C966.025,1382.25 912.085,1370.2 863.352,1348.55L831.806,1368.27C889.244,1397.21 954.047,1413.58 1022.64,1413.58C1257.08,1413.58 1447.77,1222.89 1447.77,988.451C1447.77,903.411 1422.7,824.1 1379.54,757.586Z" style="fill:white;fill-opacity:0.18;fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(0.319425,0,0,0.319425,571.497,180.404)">
+                    <path d="M433.812,873.294C480.887,632.099 672.713,442.133 914.942,398.049L914.942,381.843C663.89,426.304 465.028,623.275 417.554,873.294L433.812,873.294Z" style="fill:white;fill-opacity:0.18;fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(0.319425,0,0,0.319425,571.497,180.404)">
+                    <path d="M1614.59,1086.39C1575.67,1322.29 1398.8,1512.2 1169.82,1570.19L1169.82,1586.73C1407.67,1528.19 1591.53,1331.15 1630.82,1086.39L1614.59,1086.39Z" style="fill:white;fill-opacity:0.18;fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(0.469919,0,0,0.469919,636.301,270.663)">
+        <g id="namba-1" serif:id="namba 1">
+            <g transform="matrix(558.419,0,0,558.419,825.653,770)">
+            </g>
+            <text x="590px" y="770px" style="font-family:'Gotham-Bold', 'Gotham';font-size:558.419px;fill:white;fill-opacity:0.18;">1</text>
+        </g>
+    </g>
+</svg>

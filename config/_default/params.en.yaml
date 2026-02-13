@@ -55,11 +55,11 @@ footer:
         - name: "Services"
           items:
             - name: "Training"
-              url: "/presentations-training/"
+              url: "/services/training/"
             - name: "Coaching"
-              url: "/public-speaking-coaching/"
+              url: "/services/coaching/"
             - name: "Consulting"
-              url: "/communication-consulting/"
+              url: "/services/consulting/"
         - name: "Resources"
           items:
             - name: "Videos"
@@ -89,11 +89,11 @@ footer:
 # navbar
 navbar:
     - name: "Training"
-      url: "/presentations-training/"
+      url: "/services/training/"
     - name: "Coaching"
-      url: "/public-speaking-coaching/"
+      url: "/services/coaching/"
     - name: "Consulting"
-      url: "/communication-consulting/"
+      url: "/services/consulting/"
     - name: "Contact"
       url: "#contact"
 
@@ -116,3 +116,18 @@ testimonials:
     enable: true
     title: "Testimonials"
     subtitle: "We have worked with many clients over the years, and we always love to hear their impressions after every collaboration. Here's a sample of what our clients say about us."
+
+# -------------------
+# Training
+training:
+    name: "Name:"
+    objectives: "Objectives:"
+    format: "Format:"
+    prerequisites: "Prerequisites:"
+    duration: "Duration:"
+    price: "Price:"
+    audience: "Audience:" # target audience
+    attendees: "Participants:"	# number of participants
+    location: "Location:"
+    materials: "Materials:"
+    evaluation: "Evaluation:"

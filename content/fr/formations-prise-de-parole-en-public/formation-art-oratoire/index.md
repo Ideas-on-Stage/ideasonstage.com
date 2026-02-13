@@ -1,27 +1,30 @@
 ---
 draft: false
+type: "training"
 title: "Formation art oratoire"
 description: "La formation en art oratoire la plus complète. Apprenez à vous exprimer avec aisance sur scène."
-url: "/fr/formation-art-oratoire/"
-type: "training"
 weight: 20
+
+# contact form
+contact:
+  title: "Réservez une session de formation"
+  subtitle: "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
 
 # taxonomies
 services: [ formations ]
 skills: [ prise de parole en public ]
 
+# training
 format: "Intra-entreprise"
 duration: "7 h"
 price: "3000 € HTVA"
 attendees: "4 à 8 personnes"
 location: "dans vos locaux, dans nos locaux des Champs Élysées à Paris ou en ligne"
 
-contact:
-  title: "Réservez une session de formation"
-  subtitle: "Contactez-nous avec le formulaire ci-dessous et nous vous répondrons en moins d'un jour ouvré."
-
-aliases:
-  - "/fr/formation-art-oratoire/"
+# url
+translationKey: "public-speaking-training/oratory-training"
+aliases: 
+    - "/fr/formation-art-oratoire/"
 ---
 
 Ce module est dédié à l’art oratoire et apprendra aux participants comment utiliser les techniques de langage corporel, verbal et émotionnel pour convaincre un auditoire. Il comprend une courte introduction à l'identification et la mise en valeur du message, car il s'agit d'un ingrédient crucial d’une bonne présentation. Pendant la journée, les participants mettront en pratique les techniques apprises sur base d’une présentation de leur choix.

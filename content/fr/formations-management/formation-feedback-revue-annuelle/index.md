@@ -3,14 +3,18 @@ draft: false
 type: full # full-width layout
 title: "Formation Feedback et Revue Annuelle"
 description: "Utilisez le feedback pour faire progresser vos équipes, renforcer leur cohésion et améliorer la performance de votre organisation."
-translationKey: "feedback-training"
-ni: true
+weight: 220
+
+# contact form
 contact:
   description: Contactez-nous pour en savoir plus sur la formation Feedback et Revue Annuelle et nous vous répondrons rapidement.
 
 # taxonomy
 services: [ formations ]
 skills: [ management ]
+
+# url
+translationKey: "management-training/feedback-training"
 ---
 
 {{< shortcode-section-hero

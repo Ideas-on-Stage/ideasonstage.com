@@ -144,3 +144,18 @@ testimonials:
     enable: true
     title: "Témoignages"
     subtitle: "Nous avons travaillé avec de nombreux clients ; voici quelques exemples de ce que nos clients disent de nous."
+
+# -------------------
+# Training
+training:
+    name: "Intitulé :"
+    objectives: "Objectifs :"
+    format: "Format :"
+    prerequisites: "Prérequis :"
+    duration: "Durée :"
+    price: "Prix :"
+    audience: "Audience :" # target audience
+    attendees: "Participants :"	# number of participants
+    location: "Lieu :"
+    materials: "Moyens pédagogiques, modalités et méthodes :"
+    evaluation: "Évaluation :"

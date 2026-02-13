@@ -3,14 +3,18 @@ draft: false
 type: full # full-width layout
 title: "Masterclass Business Presentation Revolution"
 description: "Masterclass Business Presentation Revolution par Phil Waknell."
-translationKey: "media-training-training"
-ni: true
+weight: 120
+
+# contact form
 contact:
   description: Contactez-nous pour en savoir plus sur la formation Media Training et nous vous répondrons rapidement.
 
 # taxonomy
 services: [ formations ]
-skills: [ leadership, prise de parole en public ]
+skills: [ leadership ]
+
+#url
+translationKey: "leadership-training/business-presentation-revolution-masterclass"
 ---
 
 {{< shortcode-section-hero
