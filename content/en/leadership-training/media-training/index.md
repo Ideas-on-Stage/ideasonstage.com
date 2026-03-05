@@ -15,6 +15,8 @@ skills: [ leadership ]
 
 # url
 translationKey: "public-speaking-training/media-training"
+aliases:
+  - /public-speaking-coaching/media-training/
 ---
 
 {{< shortcode-section-hero
