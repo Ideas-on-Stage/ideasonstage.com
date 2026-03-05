@@ -10,7 +10,7 @@ contact:
   description: Contactez-nous pour en savoir plus sur la formation Media Training et nous vous répondrons rapidement.
 
 # taxonomy
-services: [ formations ]
+services: [ formations, coaching ]
 skills: [ leadership ]
 
 # url

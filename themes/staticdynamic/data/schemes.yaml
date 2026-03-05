@@ -476,6 +476,17 @@ ul:
     --color-back: "#fff"
     --color-border-focus: "var(--color-primary)"
 
+.cl-listtaxonomy:
+    h2:
+        margin-top: "2em"
+    h3:
+        margin-top: "0.6em"
+        margin-bottom: "0"
+    p:
+        --font-ratio: "0.85"
+        margin-top: "0.4em"
+        margin-bottom: "0"
+
 .cl-main:
     h1:
         text-transform: "none"

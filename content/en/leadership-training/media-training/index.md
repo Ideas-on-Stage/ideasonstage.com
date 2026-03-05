@@ -10,7 +10,7 @@ contact:
     title: "Book your training session"
 
 # taxonomy
-services: [ training ]
+services: [ training, coaching ]
 skills: [ leadership ]
 
 # url
