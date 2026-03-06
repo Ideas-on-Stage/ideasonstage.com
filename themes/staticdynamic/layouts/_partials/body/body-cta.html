@@ -19,45 +19,48 @@
 	
 --> */}}
 
-{{- $data := partial "f/getdatalocalized" (slice . "body-cta") -}}
-{{/* <!-- add loading and decoding img attributes to data --> */}}
-{{- $data = merge $data (dict "loading" "eager" "decoding" "async") -}}
+{{- $data := partial "f/getdatalocalized" (slice . "body-ctas") -}}
 
-{{/* <!-- check if body-cta-data parameter exists in page front matter --> */}}
-{{- with $data -}}
-<div id="call-to-action" class="cl-body-cta">
-	{{/* <!-- cta picture --> */}}
-	<div class="img">
-		{{ partial "e/img.html" . }}
-	</div>
-	
-	<div class="overlay">
-	</div>
-	
-	<div class="text">
-		{{/* <!-- cta title --> */}}
-		{{- with .title -}}
-			<h2>
-				{{ . | markdownify }}
-			</h2>
-		{{- end -}}
-		
-		{{/* <!-- cta description --> */}}
-		{{- with .description -}}
-			<p>
-				{{ . }}
-			</p>
-		{{- end -}}
-		
-		{{/* <!-- cta button --> */}}
-		{{- with .button -}}
-			<a href="{{ .link }}" class="cl-core--button-primary">
-				{{ .text }}
-			</a>
-		{{- end -}}
-	</div>
-	
-</div>
-{{- else -}}
-	{{ partial "e/html-comment.html" "SKIPPED: no page.Params.body-cta-data" }}
+{{- range $data -}}
+	{{/* <!-- add loading and decoding img attributes to data --> */}}
+
+	{{- if partial "f/isactive.go" . -}}	
+		<div id="call-to-action" class="cl-body-cta">
+			{{/* <!-- cta picture --> */}}
+			<div class="img">
+				{{- $cta := merge . (dict "loading" "eager" "decoding" "async") -}}
+				{{ partial "e/img.html" $cta }}
+			</div>
+			
+			<div class="overlay">
+			</div>
+			
+			<div class="text">
+				{{/* <!-- cta title --> */}}
+				{{- with .title -}}
+					<h2>
+						{{ . | markdownify }}
+					</h2>
+				{{- end -}}
+				
+				{{/* <!-- cta description --> */}}
+				{{- with .description -}}
+					<p>
+						{{ . }}
+					</p>
+				{{- end -}}
+				
+				{{/* <!-- cta button --> */}}
+				{{- with .button -}}
+					<a href="{{ .link }}" class="cl-core--button-primary">
+						{{ .text }}
+					</a>
+				{{- end -}}
+			</div>
+			
+		</div>
+		{{/* <!-- only show 1 call to action, the first one that is active --> */}}
+		{{- break -}}
+	{{- end -}}
+
 {{- end -}}

@@ -31,7 +31,7 @@ dt-sidebar:
     url: /fr/formation-pitch-pour-startups/
 
 body-carousel-data: "formations"
-body-cta-data: "public-speaking-training"
+body-ctas-data: [ "public-speaking-training" ]
 bodylazy-references-data: [ disney, salesforce, deloitte, nestle, wbg, em-lyon, colombus-consulting, business-france, bpce, bouygues, edf, colas ]
 bodylazy-modules-aside-data: [ "guidepublicspeaking", "guideremotepresentations" ]
 ---

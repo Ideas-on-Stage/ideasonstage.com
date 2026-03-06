@@ -21,6 +21,9 @@
 	- path to picture,
 	- or false if not found.
 
+	History:
+	- 2026-03-06 switched from using .File.Dir to .Resources.Get to test if thumbnail.jpg exists
+	
 --> */}}
 
 {{/* <!-- initialize variables  --> */}}
@@ -33,15 +36,17 @@
 {{/* <!-- if page object, check if thumbnail.jpg exists, if yes use it --> */}}
 {{ if eq "page" $type }}
 	{{/* <!-- then this is a page, check for thumbnail.jpg in same directory --> */}}
-	{{ $thumbtest = add .File.Dir "thumbnail.jpg" }}
-	{{ if fileExists $thumbtest }}
-		{{/* <!-- if a file named thumbnail.jpg exists, use thumbnail.jpg --> */}}
-	  	{{ $img = "thumbnail.jpg" }}
+	{{ $thumbtest = .Resources.Get "thumbnail.jpg" }}
+	{{ if $thumbtest }}
+		{{/* <!-- if thumbnail.jpg exists, use thumbnail.jpg --> */}}
+		{{ $img = $thumbtest.RelPermalink }}
+	{{/* <!-- ...else if img parameter extists... --> */}}
 	{{ else if (isset $data "img") }}
-		{{/* <!-- if .img exists, use it --> */}}
+		{{/* <!-- ...then use it --> */}}
 		{{ $img = $data.img }}
+	{{/* <!-- ...else if .picture parameter exists... --> */}}
 	{{ else if isset $data "picture" }}
-		{{/* <!-- if .picture exists, use it (deprecated in favor of img) --> */}}
+		{{/* <!-- ...then use it (deprecated in favor of img) --> */}}
 		{{ $img = $data.picture }}
 	{{ end }}
 {{ end }}

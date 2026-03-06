@@ -14,7 +14,7 @@
 {{- $type := partial "f/getdatatype.go" . -}}
 
 {{- if not $data -}}
-	{{- $alt = "" -}}
+	{{- $alt = false -}}
 {{- else if $data.alt -}}
 	{{- $alt = $data.alt -}}
 {{- else if $data.title -}}
@@ -23,6 +23,8 @@
 	{{- $alt = $data.description -}}
 {{- end -}}
 
-{{- $alt = printf "alt=\"%s\"" $alt -}}
+{{- if $alt -}}
+	{{- $alt = printf "alt=\"%s\"" $alt -}}
+{{- end -}}
 
 {{- return $alt -}}

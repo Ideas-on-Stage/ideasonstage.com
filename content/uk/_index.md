@@ -8,7 +8,7 @@ picture: "/img/ideas-on-stage.svg"
 schema: "Website"
 type: "home"
 
-body-cta-data: "2026-03-26-obama-speechwriter"
+body-ctas-data: [ "2026-03-26-obama-speechwriter", "uk-most-transformational-roxor" ]
 main-modules-data: [ "uk-academy", "uk-workshops", "uk-coaching" ]
 bodylazy-references-data: [ "ebay", "spotify", "bosch", "octopuselectricvehicles", "havas", "rainmaking", "tbifgc", "fedex", "salesforce", "deloitte", "google", "disney", "wbg", "lacoste", "loreal" ]
 bodylazy-modules-aside-data: [ "uk-confidentpresenter", "uk-presentationscore", "uk-freewebclass", "uk-freeminicourse", "uk-kids-on-stage" ]
