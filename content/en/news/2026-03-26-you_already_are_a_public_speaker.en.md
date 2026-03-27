@@ -24,6 +24,8 @@ If you speak regularly – at any scale – you are a public speaker. You don’
 
 
 
+<hr>
+
 *Timeless Presenter*, my new book on the principles of communication that never expire, will be released soon.
 
 If you’d like to be notified when it’s out, you can [join the early access list here](https://mailchi.mp/ideasonstage/timeless-presenter-book).
