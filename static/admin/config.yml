@@ -31,7 +31,7 @@ collections:
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
       - {label: "Date", name: "date", widget: "datetime", default: "", format: "YYYY-MM-DD"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Thumb", name: "banner", widget: "image"}
+      - {label: "Thumb", name: "banner", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "news_english" # Used in routes, e.g., /admin/collections/blog
     label: "English Article" # Used in the UI
@@ -47,7 +47,7 @@ collections:
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
       - {label: "Date", name: "date", widget: "datetime", default: "", format: "YYYY-MM-DD"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Thumb", name: "banner", widget: "image"}
+      - {label: "Thumb", name: "banner", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "news_spanish" # Used in routes, e.g., /admin/collections/blog
     label: "Spanish Article" # Used in the UI
@@ -63,5 +63,5 @@ collections:
       - {label: "News", name: "news", widget: "hidden", default: ["general"]}
       - {label: "Date", name: "date", widget: "datetime", default: "", format: "YYYY-MM-DD"}
       - {label: "Author", name: "author", widget: "string"}
-      - {label: "Thumb", name: "banner", widget: "image"}
+      - {label: "Thumb", name: "banner", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
