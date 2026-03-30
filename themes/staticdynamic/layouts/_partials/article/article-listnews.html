@@ -10,9 +10,9 @@
 		{{ partial "e/tags.html" . }}
 		
 		{{ if .Params.banner }}
-			<a href="{{ .RelPermalink }}">
-				<img src="{{ .Params.banner }}" alt="{{ .Params.Title }}">
-			</a>
+		<a href="{{ .RelPermalink }}">
+			<img src="{{ .Params.banner }}" alt="{{ .Params.Title }}">
+		</a>
 		{{ end }}
 		
 		<p>
