@@ -3,7 +3,7 @@ draft = false
 title = "WHAT’S IN IT FOR THEM?"
 tags = ["Timeless Presenter"]
 news = ["general"]
-date = "2026-03-30"
+date = "2026-03-31"
 author = "Andrea Pacini"
 +++
 At a conference a few years ago, an HR manager told me, “My team has to sit through internal presentations every month. Most of them don’t want to be there.” Then she asked, “What should presenters do when the audience has no choice?”
