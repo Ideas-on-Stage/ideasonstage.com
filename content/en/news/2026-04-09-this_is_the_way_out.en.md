@@ -1,22 +1,26 @@
 +++
 draft = false
-title = "THIS IS THE WAY OUT"
+title = "THE ROOM ISN’T THE PROBLEM"
 tags = ["Timeless Presenter"]
 news = ["general"]
-date = "2026-04-10"
+date = "2026-04-21"
 author = "Andrea Pacini"
 +++
-In 2009, Warren Buffett told a group of students that his greatest fear early in life was public speaking. He was so anxious about it that he dropped a speaking course before it even started. But eventually, he forced himself to go back and complete it.
+It’s the preparation that came before it.
 
-Years later, he said that the most valuable diploma in his office was from that public speaking course.
+We tend to blame the audience when a presentation doesn’t land – too passive, too quiet, too sceptical, too distracted. It’s easy to think people weren’t listening because they didn’t care.
 
-That’s the key: action changes fear.
+But often, they didn’t care because you didn’t give them a reason to.
 
-As psychologist George W. Crane observed, “Motions are the precursors of emotions.” You might not be able to change how you feel on command, but you can decide how you act. And that, in turn, changes how you feel.
+But most rooms reflect what they’re given.
 
-Actors know this. So do experienced speakers. They don’t wait until they feel confident. They lean into the moment. And the confidence follows.
+If the message isn’t clear, people won’t know what to take away.
 
-So next time you’re nervous before a talk, don’t wait for the nerves to pass. Take the first step. Start speaking. You’ll feel the shift.
+You can’t control the room. You can control how ready you are for it.
+
+When you prepare with care, the room usually follows.
+
+
 
 <hr>
 
