@@ -1,6 +1,6 @@
 {{ $data := partial "f/getdatalocalized" (slice . "bodylazy-modules-aside") }}
 {{ with $data }}
-	<aside id="modules-aside" class="cl-modules">
+	<aside id="modules-aside" class="cl-core--module">
 		{{ partial "e/modules.html" . }}
 	</aside>
 {{ else }}

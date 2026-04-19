@@ -33,8 +33,8 @@
 	{{/* <!-- iterate over the list of blocks --> */}}
 	{{- range $blocks -}}
 		{{/* <!-- try to find .scss file matching the block name --> */}}
-		{{/* <!-- e.g. "body-h1" → body-h1.scss --> */}}
-		{{- $filepath := printf "%s/%s.scss" $basepath . -}}
+		{{/* <!-- e.g. "body-h1" → cl-body-h1.scss --> */}}
+		{{- $filepath := printf "%s/cl-%s.scss" $basepath . -}}
 		{{- if fileExists $filepath -}}
 			{{/* <!-- if found, add it to list of css files --> */}}
 			{{- $result = $result | append . -}}
@@ -47,7 +47,7 @@
 		{{- $len := $split | len -}}
 		{{- if ge $len 2 -}}
 			{{- range $split -}}
-				{{- $filepathsplit := printf "%s/%s.scss" $basepath . -}}
+				{{- $filepathsplit := printf "%s/cl-%s.scss" $basepath . -}}
 				{{- if fileExists $filepathsplit -}}
 					{{/* <!-- if found, add it to list of css files --> */}}
 					{{- $result = $result | append . -}}

@@ -1,5 +1,5 @@
 {{ "<!-- Core CSS -->" | safeHTML }}
-{{- $css := resources.Get "css/core.scss" | resources.ExecuteAsTemplate "core.css" . | toCSS | minify -}}
+{{- $css := resources.Get "css/_core.scss" | resources.ExecuteAsTemplate "core.css" . | toCSS | minify -}}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
 {{ "<!-- Fonts CSS -->" | safeHTML }}
@@ -10,44 +10,63 @@
 	{{ $blocktypes := slice "bodytop" "body" "article" "list" "sidebar" }}
 	{{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
 	{{- range $blocks -}}
-		{{- $resource := printf "css/%s.scss" . -}}
-		{{- $css := printf "%s.css" . -}}
+		{{- $resource := printf "css/cl-%s.scss" . -}}
+		{{- $css := printf "cl-%s.css" . -}}
 		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify -}}
 		{{- $style.Content | safeCSS -}}
 	{{- end -}}
 </style>
-{{ range $blocks }}
+
+{{- range $blocks -}}
 	{{ (printf "<!-- inlined: %s.scss -->" .) | safeHTML }}
-{{ end }}
+{{- end -}}
 
 {{ "<!-- Shortcodes inline CSS -->" | safeHTML }}
 <style>
+
 	{{- $found := slice -}}
+	{{/* <!-- get all files in layouts/_shortcodes --> */}}
 	{{- $shortcodes := readDir "/themes/staticdynamic/layouts/_shortcodes" -}}
 	{{- $shortcodes = $shortcodes | append (readDir "/layouts/_shortcodes") -}}
+	{{/* <!-- for each file... --> */}}
 	{{- range $shortcodes -}}
+		{{/* <!-- split its name at "." to remove extension (assumption is there is no dot anywhere else) --> */}}
 		{{- $name := index (split .Name ".") 0 -}}
+		{{/* <!-- if the shortcode file is used in the page... --> */}}
 		{{- if page.HasShortcode $name -}}
-			{{- if fileExists (printf "/themes/staticdynamic/assets/css/%s.scss" $name) -}}
+			{{/* <!-- ...then if there is a css file in the theme assets directory with the same name... --> */}}
+			{{- if fileExists (printf "/themes/staticdynamic/assets/css/cl-%s.scss" $name) -}}
+				{{/* <!-- ...then add it to list of found css files --> */}}
 				{{- $found = $found | append $name }}
-			{{- else if fileExists (printf "/assets/css/%s.scss" $name) -}}
+			{{/* <!-- ...else if there is a css file in the site assets directory with the same name... --> */}}
+			{{- else if fileExists (printf "/assets/css/cl-%s.scss" $name) -}}
+				{{/* <!-- ...then add it to list of found css files --> */}}
 				{{- $found = $found | append $name }}
 			{{- end -}}
 		{{- end -}}
 	{{- end -}}
+
+	{{/* <!-- remove duplicate entries from found list --> */}}
 	{{- $found = uniq $found -}}
+	
+	{{/* <!-- if at least one css file was found... --> */}}
 	{{- if ge ($found | len) 1 -}}
-		{{- $resource := "css/shortcode.scss" -}}
-		{{- $css := "shortcode.css" -}}
+		{{/* <!-- ...then add the common cl-shortcode.css file --> */}}
+		{{- $resource := "css/cl-shortcode.scss" -}}
+		{{- $css := "cl-shortcode.css" -}}
 		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify -}}
 		{{- $style.Content | safeCSS -}}		
 	{{- end -}}
+
+	{{/* <!-- for each shortcode css file found... --> */}}
 	{{- range $found -}}
-		{{- $resource := printf "css/%s.scss" . -}}
-		{{- $css := printf "%s.css" . -}}
+		{{/* <!-- ...add its css --> */}}
+		{{- $resource := printf "css/cl-%s.scss" . -}}
+		{{- $css := printf "cl-%s.css" . -}}
 		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify -}}
 		{{- $style.Content | safeCSS -}}
 	{{- end -}}
+
 </style>
 
 {{ "<!-- partials/e/blocks-css.html:end -->" | safeHTML }}

@@ -1,6 +1,6 @@
 {{ $data := partial "f/getdatalocalized" (slice . "main-modules") }}
 {{ with $data }}
-	<div id="modules" class="cl-modules">
+	<div id="modules" class="cl-core--module">
 		{{ partial "e/modules.html" . }}
 	</div>
 {{ else }}

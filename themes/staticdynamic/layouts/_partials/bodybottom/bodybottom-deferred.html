@@ -9,8 +9,8 @@
 {{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
 {{- range $blocks -}}
 	{{- if not (in $bodyblocks .) -}}
-		{{- $resource := printf "css/%s.scss" . -}}
-		{{- $css := printf "%s.css" . -}}
+		{{- $resource := printf "css/cl-%s.scss" . -}}
+		{{- $css := printf "cl-%s.css" . -}}
 		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify }}
 		<link rel="preload" href="{{ $style.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
 		<noscript>
@@ -20,7 +20,7 @@
 {{- end -}}
 
 <!-- Standard non-critical CSS more.css -->
-{{ $more := resources.Get "css/more.scss" | resources.ExecuteAsTemplate "more.css" . | toCSS | minify }}
+{{ $more := resources.Get "css/_more.scss" | resources.ExecuteAsTemplate "more.css" . | toCSS | minify }}
 <link rel="preload" href="{{ $more.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
 	<link rel="stylesheet" href="{{ $more.RelPermalink }}" type="text/css">

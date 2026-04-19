@@ -456,6 +456,34 @@ ul:
     --color-text: "var(--color-secondary)"
     --color-text-hover: "var(--color-secondary)"
 
+
+.cl-core--module:
+    --flex-row-gap: "var(--flex-row-gap-medium)"
+    --flex-column-gap: "var(--flex-column-gap-medium)"
+    h3:
+        margin-top: "0"
+        margin-bottom: "0"
+        --font-ratio: "1.8"
+    p:
+        margin-top: "0.4rem"
+    .cl-core--button-secondary:
+        margin-top: "1rem"
+    .text:
+        padding-top: "2rem"
+        padding-bottom: "2rem"
+        padding-left: "2rem"
+        padding-right: "2rem"
+
+.cl-core--module-column-text-picture:
+    text-align: "center"
+
+.cl-core--module-half-text-picture:
+    text-align: "center"
+
+.cl-core--module-row-picture-text:
+    sm:
+        text-align: "center"
+
 .cl-core--tags:
     margin-top: "1em"
     margin-bottom: "1em"
@@ -491,33 +519,6 @@ ul:
     h1:
         text-transform: "none"
         margin-bottom: "1em"
-
-.cl-modules:
-    --flex-row-gap: "var(--flex-row-gap-medium)"
-    --flex-column-gap: "var(--flex-column-gap-medium)"
-    h3:
-        margin-top: "0"
-        margin-bottom: "0"
-        --font-ratio: "1.8"
-    p:
-        margin-top: "0.4rem"
-    .cl-core--button-secondary:
-        margin-top: "1rem"
-    .text:
-        padding-top: "2rem"
-        padding-bottom: "2rem"
-        padding-left: "2rem"
-        padding-right: "2rem"
-
-.cl-modules--column-text-picture:
-    text-align: "center"
-
-.cl-modules--half-text-picture:
-    text-align: "center"
-
-.cl-modules--row-picture-text:
-    sm:
-        text-align: "center"
 
 .cl-more--fastsearch:
     --color-search-input-back: "#555"

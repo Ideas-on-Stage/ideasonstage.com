@@ -1,8 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
-	/* used as common class for all shortcodes */
-	/* it only contains helper classes to format shortcodes */
 	.cl-shortcode {
+		/* used as common class for all shortcodes */
+		/* it only contains helper classes to format shortcodes */
 		
 		/* width helper classes */
 		&.width-content {
@@ -162,18 +162,3 @@
 		{{ partial "e/scheme.scss" ".cl-shortcode" }}
 		
 	}
-
-	/* 2025-08-19: PMO delete due to too many incompatibilities */
-	/* add marging space between shortcode and non-shortcode elements e.g. a .cl-shortcode followed by a p */
-/*
-	.cl-shortcode + :not(.cl-shortcode),
-	div.cl-shortcode-img + :not(div) {
-	margin-top: 48px;
-	}
-*/
-	/* add margin space between non-shortcode and shortcode elements e.g. a p followed by a .cl-shortcode */
-/*
-	:not(.cl-shortcode) + .cl-shortcode {
-		margin-top: 48px;
-	}
-*/

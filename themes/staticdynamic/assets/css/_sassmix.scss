@@ -206,6 +206,7 @@
 		*/
 		height: 100%; /* ! parent container must have height in absolute unit or 100%, but not 0-99% */
 		width: 100%; /* ! parent container must have width in absolute unit or 100%, but not not 0-99% */
+		position: absolute;
 		object-fit: cover;
 		@if 0 != $z-index {
 			z-index: $z-index;
@@ -251,7 +252,6 @@
 		height: inherit; /* ! parent container must have height in absolute unit or 100%, but not 0-99% */
 		width: inherit; /* ! parent container must have width in absolute unit or 100%, but not not 0-99% */
 		max-width: inherit;
-		object-fit: cover;
 		@if 0 != $z-index {
 			z-index: $z-index;
 		}
