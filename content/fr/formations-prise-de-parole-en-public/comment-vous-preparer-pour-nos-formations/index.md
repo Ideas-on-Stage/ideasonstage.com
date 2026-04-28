@@ -79,7 +79,11 @@ Nos formations se déroulent typiquement entre 9h et 17h. L'accès aux locaux n'
 
 ![Plateau repas midi](plateau-repas.png)
 
-Le repas a lieu sur place, dans nos locaux. Nous commandons une variété de menus auprès de notre traiteur, y compris des menus vegan et sans gluten. Cependant, si vous avez des besoins alimentaires spécifiques, vous pouvez nous en faire part directement en nous contactant avec le formulaire en bas de page. Merci de nous contacter au moins 5 jours ouvrés avant la formation, au-delà de ce délai nous ne pouvons pas garantir la prise en compte de votre demande. Du café et de l'eau sont disponibles à volonté pendant la formation.
+Si le repas de midi est explicitement inclus dans la prestation, il aura lieu sur place, dans nos locaux.
+
+Nous commandons une variété de menus auprès de notre traiteur, La Boite, y compris des menus vegan et sans gluten. Cependant, si vous avez des besoins alimentaires spécifiques, vous pouvez nous en faire part directement en nous contactant avec le formulaire en bas de page. Merci de nous contacter au moins 5 jours ouvrés avant la formation, au-delà de ce délai nous ne pouvons pas garantir la prise en compte de votre demande.
+
+Du café et de l'eau sont disponibles à volonté pendant la formation.
 
 Pour les formations sur plusieurs jours, nous ne nous occupons pas du repas du soir ou de l'hébergement.
 
