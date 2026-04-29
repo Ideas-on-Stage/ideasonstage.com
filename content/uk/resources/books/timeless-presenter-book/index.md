@@ -1,7 +1,7 @@
 ---
 draft: false
-title: "Timeless Presenter - The Book"
-description: "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."
+title: "Timeless Presenter"
+description: "In a world obsessed with tools and trends, _Timeless Presenter_ explores the fundamentals of communication that never expire."
 bodylazy-references-data: [ "ebay", "spotify", "salesforce", "bosch" ]
 aliases:
   - "/resources/books/timeless-presenter-book/"
@@ -12,7 +12,7 @@ aliases:
   picture="timeless-presenter-book-border.png"
   title="" >}}
 ## Timeless principles for leaders who want their ideas to land
-In a world obsessed with tools and trends, Timeless Presenter explores the principles of communication that never expire.
+In a world obsessed with tools and trends, _Timeless Presenter_ explores the principles of communication that never expire.
 
 {{< shortcode-button-primary
   class="margin-top margin-bottom"
@@ -33,7 +33,7 @@ But tools are not the problem.
 
 The fundamentals of communication have not changed. What makes an idea persuasive today is the same thing that made it powerful hundreds – even thousands – of years ago.
 
-Timeless Presenter steps back from techniques and trends. It focuses on the principles that shape how people listen, think and act.
+_Timeless Presenter_ steps back from techniques and trends. It focuses on the principles that shape how people listen, think and act.
 This is not a book of hacks. It’s a collection of short reflections on what truly makes ideas land – in a meeting, on a stage or in a conversation.
 
 Because while formats evolve, the craft of sharing ideas remains the same.
@@ -47,8 +47,10 @@ This book is for:
 - Founders and entrepreneurs
 - Executives and managers
 - Anyone whose role depends on influencing others
-- It’s for people who know communication matters and want to approach it with more depth and care.
-- It’s not a step-by-step manual. If you’re looking for a checklist or a framework, you may prefer Confident Presenter.
+
+It’s for people who know communication matters and want to approach it with more depth and care.
+
+It’s not a step-by-step manual. If you’re looking for a checklist or a framework, you may prefer [_Confident Presenter_](/uk/resources/books/confident-presenter-book/).
 
 This book takes a wider view. It invites you to think.
 
@@ -69,7 +71,7 @@ This book takes a wider view. It invites you to think.
     img="garr.png"
     quote="An essential read for anyone whose success depends on influencing others through the clarity and conviction of their words."
     name="Garr Reynolds"
-    title="Author of Presentation Zen"
+    title="Author of _Presentation Zen_"
   >}}
 
   {{< shortcode-testimonial
@@ -77,9 +79,9 @@ This book takes a wider view. It invites you to think.
     style=""
     columns="2"
     img="carmine.png"
-    quote="Most presentations are easy to ignore. In Timeless Presenter, Andrea Pacini reveals proven principles that will make your presentation hard to forget."
+    quote="Most presentations are easy to ignore. In _Timeless Presenter_, Andrea Pacini reveals proven principles that will make your presentation hard to forget."
     name="Carmine Gallo"
-    title="Harvard instructor and author of Talk Like TED"
+    title="Harvard instructor and author of _Talk Like TED_"
   >}}
 
 {{< /shortcode-list >}}	
@@ -88,14 +90,15 @@ This book takes a wider view. It invites you to think.
 
 ## What You’ll Gain
 
-After reading Timeless Presenter, you will:
+After reading _Timeless Presenter_, you will:
 
 - See communication through a clearer lens
 - Focus on what truly matters
 - Prepare with greater intention
 - Speak with more awareness of your audience
 - Build influence that lasts beyond any tool or trend
-- This book will not remove the work. But it will sharpen your perspective.
+
+This book will not remove the work. But it will sharpen your perspective.
 
 
 
@@ -105,15 +108,14 @@ After reading Timeless Presenter, you will:
 
 {{< shortcode-list-img
   columns="3"
-  img="andrea-pacini.jpg"
+  img="andrea.png"
   alt="Andrea Pacini" >}}
 
 {{< shortcode-list-text
   columns="32" >}}
 ## About the Author
-Andrea’s photo on one side and the below on the other side
 Andrea Pacini is the Head of Ideas on Stage UK. For more than a decade, he has helped hundreds of business leaders, entrepreneurs and TEDx speakers shape clear, memorable messages.
-His first book, Confident Presenter, was recognised at the Business Book Awards and is used in business communication courses.
+His first book, [_Confident Presenter_](/uk/resources/books/confident-presenter-book/), was recognised at the Business Book Awards and is used in business communication courses.
 Through his work, Andrea has seen tools evolve and trends come and go. The principles that make ideas land have remained the same.
 {{< /shortcode-list-text >}}
 

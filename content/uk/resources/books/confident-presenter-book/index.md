@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Confident Presenter - The Book"
+title: "Confident Presenter"
 description: "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."
 showrefs: false
 aliases:
