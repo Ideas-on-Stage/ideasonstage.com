@@ -26,6 +26,10 @@
 		&.align-bottom {
 			justify-content: flex-end;
 		}
+
+		&.align-items-center {
+			align-items: center;
+		}
 		
 		/* corners helper classes */
 		&.corners-round {
@@ -153,6 +157,12 @@
 			}
 			&.text-padding {
 				padding: 1vw;
+				@media (max-width: $gl-sm-screen) {
+					padding: 2vw;
+				}
+			}
+			&.text-padding-l {
+				padding: 2vw;
 				@media (max-width: $gl-sm-screen) {
 					padding: 2vw;
 				}

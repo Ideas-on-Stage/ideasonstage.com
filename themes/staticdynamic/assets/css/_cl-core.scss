@@ -1,5 +1,14 @@
 {{ partial "e/sass.scss" . }}
 
+	/*
+		_cl-core.scss
+		
+		Contains common classes that should be loaded immediately.
+		
+		All classes should be prefixed with .cl-core-- for consistency,
+		so when we encounter such a class, we immediately know where it is declared.
+	*/
+	
 	:root {
 		{{ partial "e/scheme.scss" "root" }};
 	}

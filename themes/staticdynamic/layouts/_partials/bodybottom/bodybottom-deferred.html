@@ -20,7 +20,7 @@
 {{- end -}}
 
 <!-- Standard non-critical CSS more.css -->
-{{ $more := resources.Get "css/_more.scss" | resources.ExecuteAsTemplate "more.css" . | toCSS | minify }}
+{{ $more := resources.Get "css/_cl-more.scss" | resources.ExecuteAsTemplate "more.css" . | toCSS | minify }}
 <link rel="preload" href="{{ $more.RelPermalink }}" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
 	<link rel="stylesheet" href="{{ $more.RelPermalink }}" type="text/css">

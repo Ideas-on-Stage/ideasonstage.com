@@ -7,7 +7,7 @@ weight: 120
 
 # contact form
 contact:
-  description: Contactez-nous pour en savoir plus sur la formation Media Training et nous vous répondrons rapidement.
+  description: Contactez-nous pour en savoir plus sur la formation Business Presentation Revolution et nous vous répondrons rapidement.
 
 # taxonomy
 services: [ formations ]

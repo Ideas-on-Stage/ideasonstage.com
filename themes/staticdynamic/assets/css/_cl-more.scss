@@ -1,12 +1,20 @@
 {{ partial "e/sass.scss" . }}
 
 	/*
-		fastsearch class
-		It's so small it could be integrated in the core file,
-		but it's kept here to show how to use more.scss
-		for non-critical css.
+		_cl-more.scss
+		
+		Contains common classes that can be loaded after core.scss
+		
+		All classes should be prefixed with .cl-more-- for consistency,
+		so when we encounter such a class, we immediately know where it is declared.
 	*/
+	
 	.cl-more--fastsearch {
+		/*
+			cl-more--fastsearch class
+			It's so small it could be integrated in the cl-core.scss file,
+			but it's kept here to show how to use _cl-more.scss for non-critical css.
+		*/
 		
 		input {
 			display: inline-block;

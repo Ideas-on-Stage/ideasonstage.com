@@ -1,0 +1,13 @@
+{{/* <!-- set rendering options --> */}}
+{{- $opts := dict "display" "block" -}}
+
+{{/* <!-- get parameters --> */}}
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $inner := .InnerDeindent -}}
+
+{{/* <!-- generate html --> */}}
+{{/* <!-- important: do not indent the lines below or Hugo may not render content properly --> */}}
+<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
+{{ . | page.RenderString $opts }}
+</div>

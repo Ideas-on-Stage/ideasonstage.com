@@ -431,17 +431,16 @@
 		*/
 		position: relative;	/* enables z-index */
 		z-index: $z-index; /* if text overflows, it will go over picture below */
-
 	}
 
-	/*
-		ul-container()
-		
-		turns a ul tag into an unstyled container
-		- no bullets in front of li items
-		- no indents
-	*/
 	@mixin ul-container {
+		/*
+			ul-container()
+			
+			turns a ul tag into an unstyled container
+			- no bullets in front of li items
+			- no indents
+		*/
 		margin-top: 0;
 		margin-bottom: 0;
 		list-style-type: none;
@@ -449,38 +448,38 @@
 		padding-left: 0;
 	}
 	
-	/*
-		width-column()
-		
-		calculates exact width of item based on a column system.
-		
-		Parameters:
-		- $col-nb: the number of columns to use to divide the total width
-		  eg. 3 will result in a one-third width, 5 in a one-fifth width, minus the gaps
-		- $col-span: the number of columns covered by the ite
-		  eg if $col-nb is 3 and $col-span is 2, the item will be two-thirds width.
-		
-		Note: parent must be a flex-container with a specified width in absolute units.
-		a width of 100% will work only if the parent is actually 100% of total width of viewport
-		if parent has no width specified, the result will be wonky.
-	*/
 	@mixin width-column($col-nb, $col-span: 1) {		
+		/*
+			width-column()
+			
+			calculates exact width of item based on a column system.
+			
+			Parameters:
+			- $col-nb: the number of columns to use to divide the total width
+			eg. 3 will result in a one-third width, 5 in a one-fifth width, minus the gaps
+			- $col-span: the number of columns covered by the ite
+			eg if $col-nb is 3 and $col-span is 2, the item will be two-thirds width.
+			
+			Note: parent must be a flex-container with a specified width in absolute units.
+			a width of 100% will work only if the parent is actually 100% of total width of viewport
+			if parent has no width specified, the result will be wonky.
+		*/
 		$gap-nb: $col-nb - 1;
 		$gap-span: $col-span - 1;
 		flex-basis: calc( ( 100% - #{$gap-nb} * var(--flex-column-gap) ) / #{$col-nb} * #{$col-span} + var(--flex-column-gap) * #{$gap-span} - 0.001px + 0.001px );
 		width: calc( ( 100% - #{$gap-nb} * var(--flex-column-gap) ) / #{$col-nb} * #{$col-span} + var(--flex-column-gap) * #{$gap-span} - 0.001px + 0.001px );
 	}
 	
-	/*
-		width-column-sm()
-		
-		calculates exact width of item based on a column system for small screens.
-		
-		for example:
-		@include width-column(3,2); → item will be tho-thirds on normal screens.
-		@include width-column-sm(1); → but item will switch to full parent width on small screens.
-	*/
 	@mixin width-column-sm($col-nb, $col-span: 1) {
+		/*
+			width-column-sm()
+			
+			calculates exact width of item based on a column system for small screens.
+			
+			for example:
+			@include width-column(3,2); → item will be tho-thirds on normal screens.
+			@include width-column-sm(1); → but item will switch to full parent width on small screens.
+		*/
 		@media (max-width: $gl-sm-screen) {
 			@include width-column($col-nb, $col-span);
 		}

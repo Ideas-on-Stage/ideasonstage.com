@@ -36,7 +36,7 @@ Les réunions occupent trop de nos vies professionnelles, et la plupart échouen
   {{< /shortcode-text >}}
   
   {{< shortcode-training-info
-    name="Formation Assertivité"
+    name="Gérer des réunions efficaces"
     objectives="Comprendre pourquoi la plupart des réunions d’affaires sont inefficaces<br>Apprendre une méthode simple pour planifier, préparer et exécuter des réunions très efficaces<br>Libérer du temps pour d’autres activités au sein de votre organisation"
     format="Intra-entreprise"
     prerequisites="Avoir déjà participé à des réunions en entreprise, en ligne ou en présentiel.<br>Il n'est pas nécessaire d'avoir un ordinateur"

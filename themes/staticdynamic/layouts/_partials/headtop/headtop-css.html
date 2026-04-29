@@ -1,5 +1,5 @@
 {{ "<!-- Core CSS -->" | safeHTML }}
-{{- $css := resources.Get "css/_core.scss" | resources.ExecuteAsTemplate "core.css" . | toCSS | minify -}}
+{{- $css := resources.Get "css/_cl-core.scss" | resources.ExecuteAsTemplate "core.css" . | toCSS | minify -}}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
 {{ "<!-- Fonts CSS -->" | safeHTML }}

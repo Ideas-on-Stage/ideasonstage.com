@@ -2,7 +2,7 @@
 # - check if you are changing the right variable
 # - check that the matching scss file includes the necessary {{ partial "e/colorscheme.scss" . }} line
 #   this is the line that dynamically generates variables based on this file
-# - check in core.scss if the part has been adapted to be themed using variables 
+# - check in cl-core.scss if the part has been adapted to be themed using variables 
 #   it is possible that the property has not been adapted to be themed
 
 

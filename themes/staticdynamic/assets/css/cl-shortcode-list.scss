@@ -1,7 +1,8 @@
 {{ partial "e/sass.scss" . }}
 
 	/* used to create a grid or carousel */
-	ul.cl-shortcode-list {
+	/* replaced ul.cl-shortcode-list for .cl-shortcode list so that style applies to any tag */
+	.cl-shortcode-list {
 		@include ul-container();
 		
 		&.carousel {
@@ -23,7 +24,7 @@
 				--flex-row-gap: 0px;
 			}
 			
-			> li {
+			> * {
 				/* make width of carousel items narrower so that an item breaks across the right side of the screen */
 				&.columns-1 {
 					@include width-column(1.4);
@@ -92,7 +93,7 @@
 				--flex-row-gap: 0px;
 			}
 			
-			> li {
+			> * {
 				&.columns-1 {
 					/* number of columns for large screens */
 					@include width-column(1);
