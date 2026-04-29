@@ -58,15 +58,10 @@ This book takes a wider view. It invites you to think.
 
 {{< shortcode-list
   class="margin-lg-top margin-lg-bottom gap"
-  style=""
   type="grid"
-  bgcolor=""
-  color=""
 >}}
 
   {{< shortcode-testimonial
-    class=""
-    style=""
     columns="2"
     img="garr.png"
     quote="An essential read for anyone whose success depends on influencing others through the clarity and conviction of their words."
@@ -75,8 +70,6 @@ This book takes a wider view. It invites you to think.
   >}}
 
   {{< shortcode-testimonial
-    class=""
-    style=""
     columns="2"
     img="carmine.png"
     quote="Most presentations are easy to ignore. In _Timeless Presenter_, Andrea Pacini reveals proven principles that will make your presentation hard to forget."
@@ -123,8 +116,7 @@ Through his work, Andrea has seen tools evolve and trends come and go. The princ
 
 
 
-{{< shortcode-referencesgrid 
->}}
+{{< shortcode-referencesgrid >}}
 
 
 

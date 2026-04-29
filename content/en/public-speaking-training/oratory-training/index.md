@@ -26,7 +26,7 @@ translationKey: "public-speaking-training/oratory-training"
 
 This module is dedicated to the art of public speaking and teaches participants how to use body language, verbal, and emotional techniques to persuade an audience. It includes a short introduction to identifying and highlighting the core message, as this is a crucial ingredient of any strong presentation. Throughout the day, participants will put the techniques they learn into practice based on a presentation of their own choice.
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 ### Oratory Training 1-day
 
 #### Training Objectives
@@ -59,7 +59,7 @@ Employees and managers in companies, particularly executives, people who frequen
 
 
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 ### Program
 
 #### Introduction

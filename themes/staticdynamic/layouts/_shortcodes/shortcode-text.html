@@ -1,16 +1,17 @@
 {{/* <!--
 
-	{{< shortcode-text
-	  class="helper classes from shortcode.css"
-	  style="list of styles"
-	>}}
-	  .Inner markdown text to display
-	{{< /shortcode-section >}}
-	
-	Inserts a <div> with text.
-	You can use the class and style parameters to stylize the text.
-	For example class="text-center" will center the text.
-	
+{{< shortcode-text
+  class="helper classes from shortcode.css"
+  bgcolor="#backgroundcolor"
+  color="#textcolor"
+>}}
+Inner markdown
+{{< /shortcode-section >}}
+
+Inserts a <div> with text.
+You can use the class and style parameters to stylize the text.
+For example class="text-center" will center the text.
+
 --> */}}
 
 {{/* <!-- set rendering options --> */}}
@@ -18,14 +19,18 @@
 
 {{/* <!-- get parameters --> */}}
 {{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classmain := index $class "main" -}}
+{{- $classtext := index $class "text" -}}
 {{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $stylemain := index $style "main" -}}
+{{- $styletext := index $style "text" -}}
 {{- $inner := .InnerDeindent -}}
 
 {{/* <!-- generate html --> */}}
 {{- with $inner -}}
-<div {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
+<div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
 {{/* <!-- important: do not indent the lines below or Hugo will not render content properly --> */}}
-<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
+<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
 {{ . | page.RenderString $opts }}
 </div>
 </div>

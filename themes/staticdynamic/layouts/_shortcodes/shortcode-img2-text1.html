@@ -1,11 +1,38 @@
+{{/* <!--
+	
+{{< shortcode-img2-text1
+  class="helper classes from shortcode.css"
+  bgcolor="#backgroundcolor"
+  color="#textcolor"
+  img="url for picture"
+  alt="alt for picture"
+  url="url for link"
+>}}
+Inner markdown
+{{< /shortcode-img2-text1 >}}
+
+Inserts a 2/3 img on the left and 1/3 text on the right.
+
+--> */}}
+
+{{/* <!-- set rendering options --> */}}
 {{- $opts := dict "display" "block" -}}
 
+{{/* <!-- get parameters --> */}}
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classmain := index $class "main" -}}
+{{- $classtext := index $class "text" -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $stylemain := index $style "main" -}}
+{{- $styletext := index $style "text" -}}
+{{- $inner := .InnerDeindent -}}
+
 {{ "<!-- shortcode-img2-text1.html:start -->" | safeHTML }}
-<div class="cl-shortcode cl-shortcode-img2-text1 {{ with .Params.class }}{{ . }}{{ end }} {{ with .Params.style }}{{ . }}{{ end }}">
+<div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{ partial "e/img" .Params }}
-	<div class="text">
+	<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
 		{{ partial "e/title" .Params }}
-		{{ .Inner | page.RenderString $opts }}
+		{{ $inner | page.RenderString $opts }}
 	</div>
 </div>
 {{ "<!-- shortcode-img2-text1.html:end -->" | safeHTML }}

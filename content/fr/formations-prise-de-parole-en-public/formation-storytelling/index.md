@@ -62,7 +62,7 @@ Exercice final de mise en pratique des acquis.
 
 
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 
 ### Programme détaillé
 

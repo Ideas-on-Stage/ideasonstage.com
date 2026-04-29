@@ -5,6 +5,9 @@
 	Takes the arguments from the shortcode
 	and returns a dictionary of formatted style="list of styles" HTML attributes.
 	
+	Using classes + getHTMLAttrClass should be preferred to style + getHTMLAttrStyle
+	Style is only for custom colors not defined in css.
+	
 	Arguments:
 	- shortcode context "." with these optional parameters:
 		- bgcolor="#color"

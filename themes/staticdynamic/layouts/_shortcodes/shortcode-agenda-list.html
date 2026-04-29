@@ -1,21 +1,36 @@
 {{/* <!--
 	
-	agenda-list
+{{< shortcode-agenda-list
+  class="list of classes"
+  bgcolor="#backgroundcolor"
+  color="#textcolor"
+  title="title of list"
+>}}
 
-	Inserts a list.
-	
-	Arguments:
-	- .title as string
-	- agenda-item shortcodes as .Inner content
-	
+{{< shortcode-agenda-item >}}
+{{< shortcode-agenda-item >}}
+{{< shortcode-agenda-item >}}
+
+{{< /shortcode-agenda-list >}}
+
+Inserts a list of agenda items, its initial purpose was for an agenda but now it is used for text lists.
+
 --> */}}
 
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classmain := index $class "main" -}}
+{{- $classtext := index $class "text" -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $stylemain := index $style "main" -}}
+{{- $styletext := index $style "text" -}}
+{{- $inner := .Inner -}}
+
 {{ "<!-- shortcode-agenda-list.html:start -->" | safeHTML }}
-{{- $class := .Get "class" -}}
-<div class="cl-shortcode cl-shortcode-agenda-list {{ with $class }}{{ . }}{{ end }} {{ with .Params.style }}{{ . }}{{ end }}">
+{{ $styletext }}
+<div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{ with .Params.title }}
 		<h3>{{ . }}</h3>
 	{{ end }}
-	{{ .Inner }}
+	{{ $inner }}
 </div>
 {{ "<!-- shortcode-agenda-list.html:end -->" | safeHTML }}

@@ -1,30 +1,37 @@
 {{/* <!--
 	
-	{{< shortcode-list >}}	
-	  {{< shortcode-list-imgç
-	    class="helper classes from shortcode.css"
-	    style="standard style parameter"
-	    columns="number of columns"
-	    img="url for image file"
-	    alt="text for image description"
-	  >}}
-	{{< /shortcode-list >}}	
-	
-	Inserts a picture as a list item.
-	Should be nested inside a shortcode-list list.
+{{< shortcode-list >}}	
+
+{{< shortcode-list-img
+  class="helper classes from shortcode.css"
+  bgcolor="#backgroundcolor"
+  color="#textcolor"
+  columns="number of columns"
+  img="url for image file"
+  alt="text for image description"
+>}}
+
+{{< /shortcode-list >}}	
+
+Inserts a picture as a list item.
+Should be nested inside a shortcode-list shortcode.
 
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass.go" . -}}
-{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classmain := index $class "main" -}}
+{{- $classtext := index $class "text" -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $stylemain := index $style "main" -}}
+{{- $styletext := index $style "text" -}}
 {{- $columns := .Get "columns" -}}
 {{- $img := .Get "img" -}}
 {{- $alt := .Get "alt" -}}
 
 {{/* <!-- generate html --> */}}
 {{- if and $img $alt -}}
-	<li {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
+	<li {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
 		{{ partial "e/img" .Params }}
 	</li>
 {{- else -}}

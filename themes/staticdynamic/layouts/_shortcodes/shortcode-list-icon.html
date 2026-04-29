@@ -1,38 +1,45 @@
 {{/* <!--
 
-	{{< shortcode-list >}}	
-	  {{< shortcode-list-icon
-	    class="helper classes from shortcode.css"
-	    style="style for the icon"
-	    img="icon to use"
-	    alt="alt text for the icon"
-	    size="size of the icon, 20p, 25p, 33p, etc."
-	    url="link to follow when clicking on the icon"
-	    description="text below the icon"
-	  >}}
-	{{< /shortcode-list >}}	
-	
-	Inserts an icon as a list item.
-	Should be nested inside a shortcode-list list.
+{{< shortcode-list >}}	
+
+{{< shortcode-list-icon
+  class="helper classes from shortcode.css"
+  bgcolor="#backgroundcolor"
+  color="#textcolor"
+  img="icon to use"
+  alt="alt text for the icon"
+  size="size of the icon, 20p, 25p, 33p, etc."
+  url="link to follow when clicking on the icon"
+  description="text below the icon"
+>}}
+
+{{< /shortcode-list >}}	
+
+Inserts an icon as a list item.
+Should be nested inside a shortcode-list shortcode.
 
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass.go" . -}}
-{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classmain := index $class "main" -}}
+{{- $classtext := index $class "text" -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $stylemain := index $style "main" -}}
+{{- $styletext := index $style "text" -}}
 {{- $columns := .Get "columns" -}}
 {{- $img := .Get "img" -}}
 {{- $alt := .Get "alt" -}}
 {{- $href := .Get "url" -}}
 
 {{/* <!-- generate html --> */}}
-<li {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
+<li {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{- with $href -}}
 	<a href="{{ . }}">
 	{{- end -}}
 		<div class="content">
 			{{ partial "e/img" (dict "img" $img "alt" $alt "href" $href) }}
-			<div class="text">
+			<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
 				{{ .Params.description | markdownify }}
 			</div>
 		</div>

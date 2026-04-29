@@ -1,18 +1,20 @@
 {{/* <!--
 
-	{{< shortcode-list >}}	
-	  {{< shortcode-list-text
-	    class="helper classes from shortcode.css"
-	    style="standard style parameter"
-	    columns="number of columns"
-	    .Inner markdown text
-	  >}}
-	  {{< /shortcode-list-text >}}
-	
-	Inserts a text box as a list item.
-	Should be nested inside a shortcode-items list.
-	Text should be in markdown format.
-	.Inner can contain a shortcode-img to insert an image.
+{{< shortcode-list >}}	
+
+{{< shortcode-list-text
+  class="helper classes from shortcode.css"
+  bgcolor="#backgroundcolor"
+  color="#textcolor"
+  columns="number of columns"
+>}}
+Inner markdown
+{{< /shortcode-list-text >}}
+
+Inserts a text box as a list item.
+Should be nested inside a shortcode-items list.
+Text should be in markdown format.
+.Inner can contain a shortcode-img to insert an image.
 	
 --> */}}
 
@@ -20,16 +22,20 @@
 {{- $opts := dict "display" "block" -}}
 
 {{/* <!-- get shortcode parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass.go" . -}}
-{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classmain := index $class "main" -}}
+{{- $classtext := index $class "text" -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $stylemain := index $style "main" -}}
+{{- $styletext := index $style "text" -}}
 {{- $columns := .Get "columns" -}}
 {{- $inner := .Inner -}}
 
 {{/* <!-- generate html --> */}}
 {{- with $inner -}}
-<li {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
-	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
-		{{ . | page.RenderString $opts }}
+<li {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
+	<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
+		{{ $inner | page.RenderString $opts }}
 	</div>	
 </li>
 {{- end -}}

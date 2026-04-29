@@ -47,7 +47,7 @@ Feel more confident in every presentation – whether it’s a pitch, meeting or
 {{< shortcode-section
   class="margin-top margin-bottom padding-top" >}}
 
-  {{< shortcode-agenda-list style="bg-white">}}
+  {{< shortcode-agenda-list class="bg-white">}}
     {{< shortcode-agenda-item title="Real Feedback From Real Participants" >}}
   {{< /shortcode-agenda-list >}}
 

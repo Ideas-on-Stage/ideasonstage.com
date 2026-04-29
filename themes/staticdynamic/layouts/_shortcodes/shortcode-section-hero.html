@@ -1,24 +1,29 @@
 {{/* <!--
 
-	{{< shortcode-section-hero
-	  class="helper classes from shortcode.css"
-	  style="list of styles"
-	  id="id of section"
-	  img="url for background image file"
-	  alt="text for image description"
-	  overlay="true" or "false" to display a darkening overlay over background or img
-	>}}
-	  .Inner markdown text to display on hero
-	{{< /shortcode-section-hero >}}
-	
-	Inserts a <section> with a full-bleed image with text on top.
-	Both img and text are optional, but then it's a bit pointless.
-	
+{{< shortcode-section-hero
+  class="helper classes from shortcode.css"
+  bgcolor="#backgroundcolor"
+  color="#textcolor"
+  id="id of section"
+  img="url for background image file"
+  alt="text for image description"
+  overlay="true" or "false" to display a darkening overlay over background or img
+>}}
+Inner markdown
+{{< /shortcode-section-hero >}}
+
+Inserts a <section> with a full-bleed image with text on top.
+Both img and Inner markdown are optional, but then it's a bit pointless.
+
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass.go" . -}}
-{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classmain := index $class "main" -}}
+{{- $classtext := index $class "text" -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $stylemain := index $style "main" -}}
+{{- $styletext := index $style "text" -}}
 {{- $id := .Get "id" -}}
 {{- $img := .Get "img" -}}
 {{- $overlay := .Get "overlay" -}}
@@ -30,7 +35,7 @@
 {{- end -}}
 
 {{ "<!-- shortcode-section-hero.html:start -->" | safeHTML }}
-<section {{ with $id }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
+<section {{ with $id }}{{ . | safeHTMLAttr }}{{ end }} {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{- if $img -}}
 	<div class="img">
 		{{ partial "e/img" $.Params }}
@@ -41,7 +46,7 @@
 	</div>
 	{{- end -}}
 	{{- with $inner -}}
-	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
+	<div {{ with index $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
 		{{ . | markdownify}}
 	</div>
 	{{- end -}}

@@ -62,7 +62,7 @@ Employees and managers in companies, particularly executives, people who frequen
 
 
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 
 ### Detailed Program
 

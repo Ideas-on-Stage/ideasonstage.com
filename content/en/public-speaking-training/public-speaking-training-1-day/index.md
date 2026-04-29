@@ -31,7 +31,7 @@ For groups wishing to cover these topics in more depth and with more practice, w
 
 To help you prepare for your training, you can consult the practical information via the dedicated link.
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 #### Training Objectives
 
 - Combine storytelling, PowerPoint presentations, and public speaking to persuade your audience
@@ -62,7 +62,7 @@ Employees and managers in companies, particularly executives, people who frequen
 
 
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 ### Program
 
 #### Introduction

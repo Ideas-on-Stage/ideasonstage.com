@@ -1,14 +1,25 @@
+{{/* <!--
+	
+{{< shortcode-agenda-item
+  title="title of agenda item"
+  description="description of agenda item"
+>}}
+
+Inserts an agenda item.
+
+--> */}}
+
 {{ "<!-- shortcode-agenda-item.html:start -->" | safeHTML }}
 <div class="cl-shortcode-agenda-item">
-	{{ with .Params.title }}
+	{{- with .Params.title -}}
 		<h4>
 			{{ . }}
 		</h4>
-	{{ end }}
-	{{ with .Params.description }}
+	{{- end -}}
+	{{- with .Params.description -}}
 		<p>
 			{{ . | markdownify }}
 		</p>
-	{{ end }}
+	{{- end -}}
 </div>
 {{ "<!-- shortcode-agenda-item.html:end -->" | safeHTML }}

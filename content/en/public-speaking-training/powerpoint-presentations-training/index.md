@@ -32,7 +32,7 @@ PowerPoint has become so widely used that it is now synonymous with corporate pr
 
 
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 ### PowerPoint Presentations Training
 
 #### Training Objectives
@@ -65,7 +65,7 @@ Employees and managers in companies, particularly executives, people who frequen
 
 
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 ### Program
 
 #### Introduction

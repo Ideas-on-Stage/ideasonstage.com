@@ -2,21 +2,27 @@
 
 {{< shortcode-referencesgrid 
   class="helper classes from shortcode.css"
-  style="list of styles"
+  bgcolor="#backgroundcolor"
+  color="#textcolor"
 >}}
 	
 Inserts a grid with a list of logos of client references.
-The list of references is specified in the front matter:
-bodylazy-references: [ list, of, references ]
+
+The list of references is specified in the front matter parameters:
+bodylazy-references-data: [ list, of, references ]
 
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass.go" . -}}
-{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classmain := index $class "main" -}}
+{{- $classtext := index $class "text" -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $stylemain := index $style "main" -}}
+{{- $styletext := index $style "text" -}}
+{{- $data := partial "f/getdatalocalized" (slice page "bodylazy-references") -}}
 
 {{ "<!-- shortcode-references.html:start -->" | safeHTML }}
-{{- $data := partial "f/getdatalocalized" (slice page "bodylazy-references") -}}
 {{- with $data -}}
 <section id="reference-list" class="cl-shortcode-referencesgrid">
 	{{- range . -}}

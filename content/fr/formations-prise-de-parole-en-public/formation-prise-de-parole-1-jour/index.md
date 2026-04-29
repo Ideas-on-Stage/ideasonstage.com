@@ -33,7 +33,7 @@ Pour les groupes souhaitant couvrir les différents sujets plus en profondeur et
 
 Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 #### Objectifs pédagogiques de la formation
 Combiner le storytelling, les présentations PowerPoint et l'art oratoire pour convaincre son auditoire.
 
@@ -60,7 +60,7 @@ Employés et cadres en entreprise, en particulier les dirigeants, les personnes 
 
 
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 ### Programme
 
 #### Introduction

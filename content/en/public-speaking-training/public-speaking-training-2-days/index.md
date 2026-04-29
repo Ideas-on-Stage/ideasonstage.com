@@ -31,7 +31,7 @@ This flagship training in our program, taught in France’s top business schools
 
 
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 ### Training Description
 
 #### Training Objectives
@@ -63,7 +63,7 @@ Employees and managers in companies, particularly executives, people who frequen
 
 
 
-{{% shortcode-agenda-list style="bg-light padding" %}}
+{{% shortcode-agenda-list class="bg-light padding" %}}
 ### Day 1 Program
 
 #### Introduction

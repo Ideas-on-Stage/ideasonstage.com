@@ -2,7 +2,8 @@
 	
 {{< shortcode-testimonial
   class="helper classes from shortcode.css"
-  style="standard style parameter"
+  bgcolor="#backgroundcolor"
+  color="#textcolor"
   img="url for picture"
   quote="testimonial text"
   name="name of person"
@@ -14,13 +15,17 @@ Inserts a testimonial with pic, quote, name and title.
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass.go" . -}}
-{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classmain := index $class "main" -}}
+{{- $classtext := index $class "text" -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $stylemain := index $style "main" -}}
+{{- $styletext := index $style "text" -}}
 
 {{ "<!-- shortcode-testimonial.html:start -->" | safeHTML }}
-<div {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
+<div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{ partial "e/photograph" .Params }}
-	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
+	<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
 		<p>
 			{{ with .Params.quote }}{{ . }}{{ end }}
 		</p>

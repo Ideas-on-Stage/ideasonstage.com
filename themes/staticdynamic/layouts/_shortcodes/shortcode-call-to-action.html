@@ -1,39 +1,41 @@
 {{/* <!--
-	
-	call-to-action
 
-	Creates a content + button shortcode
-	
-	Arguments:
-	- class="list of classes"
-	- bgcolor="#color"
-	- color="#color"
-	- button="text of button"
-	- url="url of button"
-	- .Inner
-	
+{{< shortcode-call-to-action
+  class="helper classes from shortcode.css"
+  bgcolor="#backgroundcolor"
+  color="#textcolor"
+  button="name of button"
+  url="link of button"
+>}}
+Inner markdown
+{{< /shortcode-call-to-action >}}
+
+Creates a call to action with a button
+
 --> */}}
 
 {{/* <!-- set rendering options --> */}}
 {{- $opts := dict "display" "block" -}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass.go" . -}}
-{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classmain := index $class "main" -}}
+{{- $classtext := index $class "text" -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $stylemain := index $style "main" -}}
+{{- $styletext := index $style "text" -}}
 {{- $inner := .Inner -}}
 {{- $button := .Get "button" -}}
 {{- $url := .Get "url" -}}
 
 {{ "<!-- shortcode-call-to-action.html:start -->" | safeHTML }}
-<div {{ with index $class "main" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "main" }}{{ . | safeHTMLAttr }}{{ end }}>
+<div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{- if $inner -}}
-	<div {{ with index $class "text" }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $style "text" }}{{ . | safeHTMLAttr }}{{ end }}>
-		{{ with $inner }}
-			{{ . | page.RenderString $opts }}
-		{{ end }}
-		{{ if $button }}
+	<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
+		{{ $inner | page.RenderString $opts }}
+		{{- if $button -}}
 			{{ partial "e/button-primary.html" .Params }}
-		{{ end }}
+		{{- end -}}
 	</div>
 	{{- end -}}
 </div>

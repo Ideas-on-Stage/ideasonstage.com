@@ -1,16 +1,36 @@
+{{/* <!--
+	
+{{< shortcode-img
+  class="helper classes from shortcode.css"
+  bgcolor="#backgroundcolor"
+  color="#textcolor"
+  img="url for picture"
+  alt="alt for picture"
+  url="url for link"
+  width="width of img"
+  height="width of img"
+>}}
+
+Inserts image
+
+--> */}}
+
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass.go" . -}}
-{{- $style := partial "f/gethtmlattrstyle.go" . -}}
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classmain := index $class "main" -}}
+{{- $classtext := index $class "text" -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $stylemain := index $style "main" -}}
+{{- $styletext := index $style "text" -}}
 {{- $img := .Get "img" -}}
 {{- $alt := .Get "alt" -}}
 {{- $width := .Get "width" -}}
 {{- $height := .Get "height" -}}
-{{- $class := .Get "class" -}}
 
 {{/* <!-- check and process parameters --> */}}
 
 {{ "<!-- shortcode-img.html:start -->" | safeHTML }}
-<div class="cl-shortcode cl-shortcode-img {{ $class }}">
+<div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
 {{ partial "e/img" .Params }}
 </div>
 {{ "<!-- shortcode-img.html:end -->" | safeHTML }}
