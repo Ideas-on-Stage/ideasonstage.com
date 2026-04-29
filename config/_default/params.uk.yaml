@@ -68,7 +68,7 @@ footer:
             - name: "Guides"
               url: "/guides/"
             - name: "Books"
-              url: "/resources/books/"
+              url: "/uk/resources/books/"
             - name: "Podcast"
               url: "/resources/podcast/"
         - name: "Ideas on Stage"
