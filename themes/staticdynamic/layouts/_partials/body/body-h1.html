@@ -83,13 +83,15 @@
 		
 	</header>
 {{- else if .Title -}}
-	{{/* <!-- ...else create standard h1 title --> */}}
-	{{- with .Title -}}
-	<header id="title" class="cl-body-h1--title">
-		<h1>
-			{{ . | markdownify }}
-		</h1>
-	</header>
+	{{- if ne true .Params.isTitleSkipped -}}
+		{{/* <!-- ...else create standard h1 title --> */}}
+		{{- with .Title -}}
+		<header id="title" class="cl-body-h1--title">
+			<h1>
+				{{ . | markdownify }}
+			</h1>
+		</header>
+		{{- end -}}
 	{{- end -}}
 {{- else -}}
 	<p class="error">ERROR: front matter missing .Title</p>
