@@ -31,27 +31,91 @@ PowerPoint est devenu tellement utilisé qu'il est devenu synonyme de présentat
 
 Pour vous aider à préparer votre formation, [vous pouvez consulter les informations pratiques en cliquant sur ce lien](/fr/formations-prise-de-parole-en-public/comment-vous-preparer-pour-nos-formations/).
 
-{{< shortcode-img-wide src="formation-presentations-powerpoint.jpg" alt="Formation Visuels" >}}
+{{< shortcode-img-wide
+  src="formation-presentations-powerpoint.jpg"
+  alt="Formation Visuels"
+  class="margin-top-l" >}}
 
-{{< shortcode-agenda-list class="bg-light padding">}}
-	{{< shortcode-agenda-item title="Objectifs pédagogiques de la formation" description="Apprendre comment construire une présentation PowerPoint qui applique les bons principes de communication : structure, contenu, style.<br>Ce n'est pas une formation pour apprendre à utiliser PowerPoint, mais plutôt à communiquer efficacement avec PowerPoint." >}}
-	{{< shortcode-agenda-item title="Prérequis de la formation" description="Avoir déjà fait une présentation en public.<br>Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>Avoir un ordinateur avec une version récente de Microsoft PowerPoint." >}}
-	{{< shortcode-agenda-item title="Public concerné" description="Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux." >}}
-	{{< shortcode-agenda-item title="Moyens pédagogiques, modalités et méthodes" description="Site web avec les différents supports et exercices<br>Support visuel PowerPoint<br>Livret d’exercices imprimé<br>Exercices pratiques" >}}
-	{{< shortcode-agenda-item title="Méthode d'évaluation" description="Évaluation continue au cours de la formation<br>Exercice final de mise en pratique des acquis" >}}
-{{< /shortcode-agenda-list >}}
+{{% shortcode-agenda-list
+  class="bg-light padding" %}}
+#### Objectifs pédagogiques de la formation
+Apprendre comment construire une présentation PowerPoint qui applique les bons principes de communication : structure, contenu, style.<br>
+Ce n'est pas une formation pour apprendre à utiliser PowerPoint, mais plutôt à communiquer efficacement avec PowerPoint.
+
+#### Prérequis de la formation
+Avoir déjà fait une présentation en public.<br>
+Avoir un cas concret de présentation à donner, qui servira d’étude de cas lors de certains exercices pratiques.<br>
+Avoir un ordinateur avec une version récente de Microsoft PowerPoint.
+
+#### Public concerné
+Employés et cadres en entreprise, en particulier les dirigeants, les personnes devant souvent prendre la parole et les commerciaux.
+
+#### Moyens pédagogiques, modalités et méthodes
+Site web avec les différents supports et exercices<br>
+Support visuel PowerPoint<br>
+Livret d’exercices imprimé<br>
+Exercices pratiques
+
+#### Méthode d'évaluation
+Évaluation continue au cours de la formation<br>
+Exercice final de mise en pratique des acquis
+{{% /shortcode-agenda-list %}}
 
 
 
-{{< shortcode-agenda-list class="bg-light padding" title="Programme" >}}
-	{{< shortcode-agenda-item title="Introduction" description="Les trois piliers d’une bonne présentation<br>Agenda et objectifs<br>Vos attentes" >}}
-	{{< shortcode-agenda-item title="Message" description="ABC : ce n’est pas votre présentation, c’est la leur<br>Objectif de transformation<br>Information + Émotion = Action<br>Parcours de Transformation de l’Audience" >}}
-	{{< shortcode-agenda-item title="Lier histoire et présentation" description="Utiliser un « storyboard »<br>La méthode pSCORE" >}}
-	{{< shortcode-agenda-item title="Diapositives de structure" description="Couverture et dernière page<br>Diapositive de section<br>Diapositive d'agenda" >}}
-	{{< shortcode-agenda-item title="Éléments de contenu" description="Titre<br>Texte détaillé<br>Tableaux<br>Graphiques<br>Schémas et pictogrammes<br>Photos<br>Vidéos<br>Autres éléments" >}}
-	{{< shortcode-agenda-item title="Types de diapositive" description="Titre et texte<br>Diapositive avec graphique<br>Diapositive avec schéma<br>Diapositive avec pictogrammes<br>Photo + titre<br>En résumé" >}}
-	{{< shortcode-agenda-item title="Design" description="Police de caractères<br>Couleurs" >}}
-	{{< shortcode-agenda-item title="Checklist finale" description="Votre présentation est-elle pSCORE ?" >}}
-	{{< shortcode-agenda-item title="Exercice final" description="Mise en pratique des acquis lors d'une présentation complète de cinq minutes." >}}
-	{{< shortcode-agenda-item title="Conclusion" description="Récapitulatif des points clés<br>Évaluation de la formation par les participants" >}}
-{{< /shortcode-agenda-list >}}
+{{% shortcode-agenda-list
+  class="bg-light padding" %}}
+### Programme
+
+#### Introduction
+Les trois piliers d’une bonne présentation<br>
+Agenda et objectifs<br>
+Vos attentes
+
+#### Message
+ABC : ce n’est pas votre présentation, c’est la leur<br>
+Objectif de transformation<br>
+Information + Émotion = Action<br>
+Parcours de Transformation de l’Audience
+
+#### Lier histoire et présentation
+Utiliser un « storyboard »<br>
+La méthode pSCORE
+
+#### Diapositives de structure
+Couverture et dernière page<br>
+Diapositive de section<br>
+Diapositive d'agenda
+
+#### Éléments de contenu
+Titre<br>
+Texte détaillé<br>
+Tableaux<br>
+Graphiques<br>
+Schémas et pictogrammes<br>
+Photos<br>
+Vidéos<br>
+Autres éléments
+
+#### Types de diapositive
+Titre et texte<br>
+Diapositive avec graphique<br>
+Diapositive avec schéma<br>
+Diapositive avec pictogrammes<br>
+Photo + titre<br>
+En résumé
+
+#### Design
+Police de caractères<br>
+Couleurs
+
+#### Checklist finale
+Votre présentation est-elle pSCORE ?
+
+#### Exercice final
+Mise en pratique des acquis lors d'une présentation complète de cinq minutes.
+
+#### Conclusion
+Récapitulatif des points clés<br>
+Évaluation de la formation par les participants
+{{% /shortcode-agenda-list %}}

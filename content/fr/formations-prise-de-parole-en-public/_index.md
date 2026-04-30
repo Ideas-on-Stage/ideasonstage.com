@@ -60,22 +60,17 @@ Se former avec Ideas on Stage, c'est l'assurance de travailler avec de vrais exp
 ### Organisme de formation depuis 2010
 {{< /shortcode-text >}}
 
-{{< shortcode-list 
-  class="margin-top margin-bottom"
-  type="grid" >}}
-
-{{< shortcode-list-icon
-  class="icon-big"
-  columns="2"
+{{< shortcode-img
+  class="align-self-center"
   img="/img/logos/qualiopi-logo.png"
-  description="Certifié Qualiopi au titre des actions de formation"
-  url="https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation" >}}
-  
-{{< /shortcode-list >}}
+  width="33%"
+  alt="Ideas on Stage est un organisme certifié Qualiopi au titre des actions de formation" >}}
 
-{{< shortcode-agenda-list class="" >}}
-	{{< shortcode-agenda-item description="[Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)" >}}
-{{< /shortcode-agenda-list >}}
+{{< shortcode-text class="text-center" >}}
+Ideas on Stage est un organisme certifié Qualiopi au titre des actions de formation.
+
+[Vous pouvez vérifier la validité de notre certificat Qualiopi sur le site du gouvernement en cliquant ici.](https://annuaire-entreprises.data.gouv.fr/labels-certificats/522144336#organisme-de-formation)
+{{< /shortcode-text >}}
 
 {{< /shortcode-section >}}
 
@@ -166,7 +161,7 @@ Le module storytelling est un module star de nos formations. Unique en son genre
 
 
 {{< shortcode-call-to-action
-  class="bg-light padding margin-lg-bottom"
+  class="bg-light padding margin-bottom-l"
   button="En savoir plus"
   url="/fr/formation-presentations-powerpoint/" >}}
 ### Formation Présentations PowerPoint
@@ -194,7 +189,7 @@ Notre approche changera votre façon de présenter de manière durable. Nos form
 
 
 {{< shortcode-text2-img1
-  class="margin-top margin-lg-bottom"
+  class="margin-top margin-bottom-l"
   img="accessibilite.jpg"
   alt="Accueil des personnes en situation de handicap" >}}
 ### Accueil des personnes en situation de handicap

@@ -22,7 +22,8 @@ Notre service de coaching en prise de parole est taillé sur mesure. Que vous so
 
 Notre expérience montre l’importance de la répétition dans la préparation. C’est pourquoi le programme de notre coaching se déroule sur plusieurs séances individuelles. Nous adaptons le programme en fonction des forces et points d’amélioration de chacun, mais ci-dessous vous trouverez un exemple type.
 
-{{% shortcode-agenda-list class="padding bg-light" %}}
+{{% shortcode-agenda-list
+  class="padding bg-light" %}}
 ### Exemple de programme de coaching
 
 #### ENTRETIEN PRÉLIMINAIRE
@@ -41,7 +42,13 @@ Sur base de la séance précédente, le coach accompagne l'intervenant pour amé
 Lors de cette dernière séance, le coach travaille pour valider tous les acquis de l'intervenant et s'assurer que tous les automatismes et réflexes sont en place pour la présentation définitive.
 {{% /shortcode-agenda-list %}}
 
-{{< shortcode-img-wide src="coaching-prise-de-parole-002.jpg" alt="Coaching" >}}
+
+
+{{< shortcode-img-wide
+  src="coaching-prise-de-parole-002.jpg"
+  alt="Coaching" >}}
+
+
 
 ## Une combinaison de techniques classiques et modernes
 
@@ -57,7 +64,13 @@ Nous adaptons le programme de coaching aux forces et opportunités d’améliora
 
 Plus les enjeux sont importants, plus la préparation est essentielle. [Pour en savoir plus sur la prise de parole en public, vous pouvez consulter notre guide.](/fr/guide-ultime-prise-de-parole-en-public/)
 
-{{< shortcode-img-wide src="coaching-prise-de-parole-003.jpg" alt="Coaching" >}}
+
+
+{{< shortcode-img-wide
+  src="coaching-prise-de-parole-003.jpg"
+  alt="Coaching" >}}
+
+
 
 ## Coaching ou formation ?
 

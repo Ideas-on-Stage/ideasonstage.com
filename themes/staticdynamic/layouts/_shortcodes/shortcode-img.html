@@ -31,6 +31,6 @@ Inserts image
 
 {{ "<!-- shortcode-img.html:start -->" | safeHTML }}
 <div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
-{{ partial "e/img" .Params }}
+	{{ partial "e/img" .Params }}
 </div>
 {{ "<!-- shortcode-img.html:end -->" | safeHTML }}

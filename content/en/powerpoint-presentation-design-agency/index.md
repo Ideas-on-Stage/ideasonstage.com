@@ -24,7 +24,7 @@ With our unique ATR (Audience Transformation Roadmap) you will be confident that
 With our unique ATR (Audience Transformation Roadmap) you will be confident that you have the right message for the right audience. The ATR was built by business professionals for business professionals.
 {{< /shortcode-img1-text2 >}}
 
-{{< shortcode-text1-img2 img="/img/inserts/presentation-creation-service-14.jpg" alt="Visuals" class="bg-light padding margin-lg-top margin-lg-bottom" >}}
+{{< shortcode-text1-img2 img="/img/inserts/presentation-creation-service-14.jpg" alt="Visuals" class="bg-light padding margin-top-l margin-bottom-l" >}}
 ### Visuals
 The storytellers will work hand in hand with our presentation designers to create powerful slides that will greatly increase the impact of your words.
 {{< /shortcode-text1-img2 >}}

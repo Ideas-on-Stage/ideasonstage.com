@@ -48,7 +48,7 @@ Every presentation should be made to measure for a specific audience. Likewise, 
 
 
 {{< shortcode-text2-img1
-  class="margin-lg-top margin-lg-bottom bg-light padding"
+  class="margin-top-l margin-bottom-l bg-light padding"
   img="/img/inserts/presentation-training-12.jpg"
   alt="Lasting transformation" >}}
 ### Lasting transformation

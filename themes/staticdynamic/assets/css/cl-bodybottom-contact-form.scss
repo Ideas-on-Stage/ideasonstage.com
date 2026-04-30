@@ -2,7 +2,7 @@
 
 	.cl-bodybottom-contact-form {
 		@include width-content-narrow();
-		@include margins($vertical: "medium");
+		@include margins($vertical: "tall");
 		
 		{{ partial "e/scheme.scss" ".cl-bodybottom-contact-form" }}
 	}

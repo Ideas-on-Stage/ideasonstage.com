@@ -28,7 +28,8 @@ This training explains how to use storytelling techniques to create better prese
 
 {{< shortcode-img-wide src="storytelling.jpg" alt="Formation Storytelling" >}}
 
-{{% shortcode-agenda-list class="bg-light padding" %}}
+{{% shortcode-agenda-list
+  class="bg-light padding" %}}
 ### Storytelling Training
 
 #### Training Objectives
@@ -62,7 +63,8 @@ Employees and managers in companies, particularly executives, people who frequen
 
 
 
-{{% shortcode-agenda-list class="bg-light padding" %}}
+{{% shortcode-agenda-list
+  class="bg-light padding" %}}
 
 ### Detailed Program
 

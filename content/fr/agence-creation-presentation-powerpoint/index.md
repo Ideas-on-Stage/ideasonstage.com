@@ -40,7 +40,7 @@ L'expérience le prouve régulièrement : de beaux slides ne sont rien sans une 
 {{< shortcode-text1-img2
   img="/img/inserts/presentation-creation-service-14.jpg"
   alt="Visuels"
-  class="margin-lg-top margin-lg-bottom bg-light padding" >}}
+  class="margin-top-l margin-bottom-l bg-light padding" >}}
 ### Visuels
 Les raconteurs vont travailler main dans la main avec les designers de présentations pour créer des slides qui augmenteront l'impact de chacun de vos mots.
 {{< /shortcode-text1-img2 >}}

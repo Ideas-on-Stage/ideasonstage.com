@@ -57,7 +57,7 @@ This book takes a wider view. It invites you to think.
 
 
 {{< shortcode-list
-  class="margin-lg-top margin-lg-bottom gap"
+  class="margin-top-l margin-bottom-l gap"
   type="grid"
 >}}
 
@@ -96,7 +96,7 @@ This book will not remove the work. But it will sharpen your perspective.
 
 
 {{< shortcode-list
-  class="gap margin-lg-top margin-lg-bottom"
+  class="gap margin-top-l margin-bottom-l"
   type="grid" >}}
 
 {{< shortcode-list-img

@@ -32,7 +32,7 @@ Cualquier presentación debe ser hecha a medida para un público concreto. De ig
 {{< /shortcode-img1-text2 >}}
 
 {{< shortcode-text2-img1
-  class="margin-lg-top margin-lg-bottom bg-light padding"
+  class="margin-top-l margin-bottom-l bg-light padding"
   img="/img/inserts/presentation-training-12.jpg"
   alt="Transformación duradera" >}}
 ### Transformación duradera

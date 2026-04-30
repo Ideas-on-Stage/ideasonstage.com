@@ -17,20 +17,21 @@ Inserts a list of agenda items, its initial purpose was for an agenda but now it
 
 --> */}}
 
+{{/* <!-- set rendering options --> */}}
+{{- $opts := dict "display" "block" -}}
+
+{{/* <!-- get parameters --> */}}
 {{- $class := partial "f/gethtmlattrclass" . -}}
 {{- $classmain := index $class "main" -}}
 {{- $classtext := index $class "text" -}}
 {{- $style := partial "f/gethtmlattrstyle" . -}}
 {{- $stylemain := index $style "main" -}}
 {{- $styletext := index $style "text" -}}
-{{- $inner := .Inner -}}
+{{- $inner := .InnerDeindent -}}
 
 {{ "<!-- shortcode-agenda-list.html:start -->" | safeHTML }}
 {{ $styletext }}
 <div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
-	{{ with .Params.title }}
-		<h3>{{ . }}</h3>
-	{{ end }}
-	{{ $inner }}
+	{{ $inner | page.RenderString $opts }}
 </div>
 {{ "<!-- shortcode-agenda-list.html:end -->" | safeHTML }}

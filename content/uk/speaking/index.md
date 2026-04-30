@@ -47,15 +47,15 @@ Andrea’s vision is to help hundreds of thousands of business leaders inspire t
 {{< /shortcode-text2-img1 >}}
 
 
-{{< shortcode-section class="margin-top margin-bottom padding-top padding-bottom padding-sm-left padding-sm-right bg-light" >}}
+{{< shortcode-section class="margin-top margin-bottom padding-top padding-bottom padding-left-s padding-right-s bg-light" >}}
 
-{{< shortcode-text class="text-center padding-sm-bottom bg-light" >}}
+{{< shortcode-text class="text-center padding-bottom-s bg-light" >}}
 ## Why work with Andrea
 {{< /shortcode-text >}}
 
 {{< shortcode-list type="grid" class="gap-big" >}}
 
-{{< shortcode-list-text columns="4" class="text-center margin-sm-top" >}}
+{{< shortcode-list-text columns="4" class="text-center margin-top-s" >}}
 
 {{< shortcode-img img="brain.png" width="33%" >}}
 
@@ -64,7 +64,7 @@ Andrea’s vision is to help hundreds of thousands of business leaders inspire t
 Andrea helps leaders make sense of what they want to say before worrying about how to say it. His work focuses on clarity first – so messages become easier to understand, remember and act on.
 {{< /shortcode-list-text >}}
 
-{{< shortcode-list-text columns="4" class="text-center margin-sm-top" >}}
+{{< shortcode-list-text columns="4" class="text-center margin-top-s" >}}
 
 {{< shortcode-img img="presenter.png" width="33%" >}}
 
@@ -73,7 +73,7 @@ Andrea helps leaders make sense of what they want to say before worrying about h
 With years of experience working with leaders, teams and speakers across sectors, Andrea brings insight that comes from real practice. His keynotes are built on what actually works in real presentations.
 {{< /shortcode-list-text >}}
 
-{{< shortcode-list-text columns="4" class="text-center margin-sm-top" >}}
+{{< shortcode-list-text columns="4" class="text-center margin-top-s" >}}
 
 {{< shortcode-img img="network.png" width="33%" >}}
 
@@ -82,7 +82,7 @@ With years of experience working with leaders, teams and speakers across sectors
 Audiences leave with simple frameworks and ways of thinking they can apply immediately – not abstract models or motivational talk.
 {{< /shortcode-list-text >}}
 
-{{< shortcode-list-text columns="4" class="text-center margin-sm-top" >}}
+{{< shortcode-list-text columns="4" class="text-center margin-top-s" >}}
 
 {{< shortcode-img img="heart.png" width="33%" >}}
 

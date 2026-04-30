@@ -13,7 +13,7 @@ button:
   class="bg-light padding" >}}
 
 {{< shortcode-text
-  class="text-center margin-sm-bottom" >}}
+  class="text-center margin-bottom-s" >}}
 ## What You’ll Learn in Just 30 Minutes
 {{< /shortcode-text >}}
 
@@ -44,12 +44,10 @@ Feel more confident in every presentation – whether it’s a pitch, meeting or
 
 
 
-{{< shortcode-section
-  class="margin-top margin-bottom padding-top" >}}
-
-  {{< shortcode-agenda-list class="bg-white">}}
-    {{< shortcode-agenda-item title="Real Feedback From Real Participants" >}}
-  {{< /shortcode-agenda-list >}}
+{{< shortcode-agenda-list
+  class="bg-white margin-top-l margin-bottom" >}}
+#### Real Feedback From Real Participants
+{{< /shortcode-agenda-list >}}
 
 {{< shortcode-testimonial
   img="jessie-woelke.jpg"
@@ -72,44 +70,37 @@ Feel more confident in every presentation – whether it’s a pitch, meeting or
   title="Head of Learning & Development at Soldo" >}}
 
 {{< shortcode-call-to-action
-  class="margin-top padding-bottom"
+  class="margin-top margin-bottom-l"
   button="Save Your Spot"
   url="https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469" >}}
 {{< /shortcode-call-to-action >}}
 
-{{< /shortcode-section >}}
 
 
-
-{{< shortcode-section
+{{< shortcode-agenda-list
   class="margin-top margin-bottom" >}}
+#### A quick look inside
+Watch this 1-minute video to see what it’s like to join one of our web classes.
+{{< /shortcode-agenda-list >}}
 
-{{< shortcode-agenda-list dummy="" >}}
-
-  {{< shortcode-agenda-item title="A quick look inside" description="Watch this 1-minute video to see what it’s like to join one of our web classes." >}}
-	
-    {{< shortcode-youtube "So8WglOw37E" >}}
-
-  {{< /shortcode-agenda-list >}}
-
-{{< /shortcode-section >}}
+{{< shortcode-youtube "So8WglOw37E" >}}
 
 
 
-{{< shortcode-section
-  class="margin-top margin-bottom" >}}
+{{% shortcode-agenda-list
+  class="margin-top-l" %}}
+#### Doing Business. Doing Good.
+We see a world of entrepreneurs and business leaders using their voice to make a positive impact. That’s why we align our events and programmes with the **United Nations Sustainable Development Goals**, with a focus on **Goal 4: Quality Education**.
 
-  {{< shortcode-agenda-list dummy="" >}}
+Imagine if more of us prioritised social impact alongside (or even above) financial returns.
 
-    {{< shortcode-agenda-item title="Doing Business. Doing Good." description="We see a world of entrepreneurs and business leaders using their voice to make a positive impact. That’s why we align our events and programmes with the **United Nations Sustainable Development Goals**, with a focus on **Goal 4: Quality Education**.<br>Imagine if more of us prioritised social impact alongside (or even above) financial returns.<br>That’s how we can create a better future for all." >}}
-    {{< shortcode-img img="sdg.jpg" alt="Event">}}
+That’s how we can create a better future for all.
+{{% /shortcode-agenda-list %}}
 
-  {{< /shortcode-agenda-list >}}
+{{< shortcode-img img="sdg.jpg" alt="Sustainable Development Goals">}}
 
-  {{< shortcode-call-to-action
-    button="Attend for Free"
-    url="https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469"
-    class="margin-top" >}}
-  {{< /shortcode-call-to-action >}}
-
-{{< /shortcode-section >}}
+{{< shortcode-call-to-action
+  button="Attend for Free"
+  url="https://www.eventbrite.co.uk/o/ideas-on-stage-uk-18757456469"
+  class="margin-top margin-bottom-l" >}}
+{{< /shortcode-call-to-action >}}
