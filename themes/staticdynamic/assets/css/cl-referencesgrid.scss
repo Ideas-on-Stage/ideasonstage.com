@@ -1,7 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-referencesgrid {
-		@include flex-row($gap: "gap", $wrap: "wrap");
+		@include flex-row($gap: "gap", $wrap: "wrap", $align-h: center);
 		margin: var(--flex-column-gap);
 		
 		@media (min-width: $gl-lg-screen) {

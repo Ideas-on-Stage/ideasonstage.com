@@ -1,7 +1,7 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-shortcode-referencesgrid {
-		@include flex-row($gap: "gap", $wrap: "wrap");
+		@include flex-row($gap: "gap", $wrap: "wrap", $align-h: center);
 		
 		@media (min-width: $gl-lg-screen) {
 			/* on large screens, remove gap left and right */
