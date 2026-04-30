@@ -14,26 +14,32 @@ Whether your clients are preparing for a TED talk, an important sales pitch or a
 
 From defining clear objectives and choosing key messages, all the way through to a final presentation ready to deliver, we ensure your clients communicate clearly, effectively and memorably.
 
-{{< shortcode-text2-img1 picture="/img/inserts/presentation-creation-service-10.jpg" title="Communication strategy consulting" >}}
+{{< shortcode-text2-img1 img="/img/inserts/presentation-creation-service-10.jpg" alt="Communication strategy consulting" class="margin-top margin-bottom" >}}
+### Communication strategy consulting
 With our unique ATR (Audience Transformation Roadmap) you will be confident that you have the right message for the right audience. The ATR was built by business professionals for business professionals.
 {{< /shortcode-text2-img1 >}}
 
-{{< shortcode-img1-text2 picture="/img/inserts/presentation-creation-service-12.jpg" title="Storytelling" >}}
+{{< shortcode-img1-text2 img="/img/inserts/presentation-creation-service-12.jpg" alt="Storytelling" class="margin-top margin-bottom" >}}
+### Storytelling
 With our unique ATR (Audience Transformation Roadmap) you will be confident that you have the right message for the right audience. The ATR was built by business professionals for business professionals.
 {{< /shortcode-img1-text2 >}}
 
-{{< shortcode-text1-img2 picture="/img/inserts/presentation-creation-service-14.jpg" title="Visuals" class="bg-light padding" >}}
+{{< shortcode-text1-img2 img="/img/inserts/presentation-creation-service-14.jpg" alt="Visuals" class="bg-light padding margin-lg-top margin-lg-bottom" >}}
+### Visuals
 The storytellers will work hand in hand with our presentation designers to create powerful slides that will greatly increase the impact of your words.
 {{< /shortcode-text1-img2 >}}
 
-{{< shortcode-img1-text2 picture="/img/inserts/presentation-creation-service-52.jpg" title="Meant for Business" >}}
+{{< shortcode-img1-text2 img="/img/inserts/presentation-creation-service-52.jpg" alt="Meant for Business" class="margin-top margin-bottom" >}}
+### Meant for business
 Our Presentation Creation team is led by former business executives who can help you turn complex concepts into simple illustrations. We know how to capture and keep the audience's interest to help you win the day.
 {{< /shortcode-img1-text2 >}}
 
-{{< shortcode-text2-img1 picture="/img/inserts/presentation-creation-service-54.jpg" title="Pixel perfect slides" >}}
+{{< shortcode-text2-img1 img="/img/inserts/presentation-creation-service-54.jpg" alt="Pixel perfect slides" class="margin-top margin-bottom" >}}
+### Pixel perfect slides
 Our unique PixelPerfectTool (PPT) guarantees that a 1 pixel line on your slide is a 1 pixel line on the screen. Say goodbye to fuzzy lines or slightly misaligned elements.
 {{< /shortcode-text2-img1 >}}
 
-{{< shortcode-img1-text2 picture="/img/inserts/presentation-creation-service-55.jpg" title="Light as a feather" >}}
+{{< shortcode-img1-text2 img="/img/inserts/presentation-creation-service-55.jpg" alt="Light as a feather" class="margin-top margin-bottom" >}}
+### Light as a feather
 You want to send your presentation but the file is too big? We will use our in-house tool to reduce the size of the PowerPoint presentation dramatically without visible quality loss.
 {{< /shortcode-img1-text2 >}}

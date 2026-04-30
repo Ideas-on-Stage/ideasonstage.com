@@ -1,3 +1,11 @@
+{{/* <!--
+	
+{{< shortcode-include filepath >}}
+
+Insert content of file into current file.
+
+--> */}}
+
 {{ "<!-- shortcode-include.html:start -->" | safeHTML }}
 {{ $file := .Get 0 }}
 {{ if strings.HasSuffix $file ".md" }}

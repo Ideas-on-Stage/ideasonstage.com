@@ -1,32 +1,36 @@
 {{/* <!--
-	youtube.html shortcode with lazy loading.
-	Rewritten to embed videos from youtube.com and force lazy loading
-	so that it doesn't take ages to load scripts and content.
 	
-	2024-07-31 PMO: first version, customized js to work with multiple videos on same page
-	2024-08-01 PMO: added code to load on server image placeholder
-	2024-08-03 PMO: inlined css to remove it from main stylesheet
-	2024-08-04 PMO: corrected http to https + fixed layout for youtube image links
-	2025-11-16 PMO: corrected youtube icon display over image (use resources.Get)
+{{< shortcode-youtube videoid >}}
+
+youtube.html shortcode with lazy loading.
+
+Rewritten to embed videos from youtube.com and force lazy loading.
+
+2024-07-31 PMO: first version, customized js to work with multiple videos on same page
+2024-08-01 PMO: added code to load on server image placeholder
+2024-08-03 PMO: inlined css to remove it from main stylesheet
+2024-08-04 PMO: corrected http to https + fixed layout for youtube image links
+2025-11-16 PMO: corrected youtube icon display over image (use resources.Get)
+
 --> */}}
 
-{{ $varid := index .Params 0 }}
-{{ $varid := replace $varid "-" "dash" }}
+{{- $varid := index .Params 0 -}}
+{{- $varid := replace $varid "-" "dash" -}}
+{{- $path := printf "/static/img/youtube/%s.jpg" (index .Params 0) -}}
+{{- $img := printf "/img/youtube/%s.jpg" (index .Params 0) -}}
+{{- $image := resources.Get "img/icons/youtube.svg" -}}
 
 {{ "<!-- shortcode-youtube.html:start -->" | safeHTML }}
 <div class="cl-shortcode cl-shortcode-youtube">
 	<div id="{{ index .Params 0 }}" class="placeholder">
 		{{/* <!-- build search path for on server picture --> */}}
-		{{ $path := printf "/static/img/youtube/%s.jpg" (index .Params 0) }}
-		{{ if os.FileExists $path }}
+		{{- if os.FileExists $path -}}
 			{{/* <!-- use available server version of youtube placeholder image in /static/img/youtube/ --> */}}
-			{{ $img := printf "/img/youtube/%s.jpg" (index .Params 0) }}
 			<img src="{{ $img }}" alt="YouTube Video {{ index .Params 0 }}" }}>
-		{{ else }}
+		{{- else -}}
 			{{/* <!-- else use youtube.com version of youtube placeholder image --> */}}
 			<img src="https://img.youtube.com/vi/{{ index .Params 0 }}/sddefault.jpg">
-		{{ end }}
-		{{ $image := resources.Get "img/icons/youtube.svg" }}
+		{{- end -}}
 		<img src="{{ $image.RelPermalink }}" class="icon">
 		<div class="video">
 			<div class="videocontainer">

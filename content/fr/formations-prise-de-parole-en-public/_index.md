@@ -89,7 +89,7 @@ Chaque sujet fait l'objet d'une explication théorique courte, puis d'une mise e
 
 Nos formations sont données uniquement en intra-entreprises.
 
-![Trois cercles](trois-cercles.svg)
+![Trois cercles](trois-piliers.svg)
 
 En 2010, Ideas on Stage a été le premier acteur à amener une méthode de présentation moderne et complète, basée sur l'état de l'art. Cette méthode combine les trois piliers d'une bonne présentation : histoire, visuels et art oratoire, pour communiquer efficacement son message.
 
@@ -113,34 +113,9 @@ Ideas on Stage est un organisme de formation officiel depuis 2010, d'abord réf�
 
 
 
-{{< shortcode-text2-img1
-  class="margin-top margin-bottom"
-  picture="/img/inserts/presentation-training-10.jpg" >}}
-### Méthodes modernes, formateurs expérimentés
-Les méthodes et techniques que nous enseignons sont celles que nous utilisons chaque jour pour créer des présentations mémorables pour les dirigeants d’entreprise. Nos formateurs ont tous plusieurs années d’expérience des présentations de haut niveau. Vous apprendrez avec de vrais experts.
-{{< /shortcode-text2-img1 >}}
-
-
-
-{{< shortcode-img1-text2
-  class="margin-top margin-bottom"
-  picture="/img/inserts/presentation-training-12.jpg"
-  title="Un changement dans la durée" >}}
-Notre approche changera votre façon de présenter de manière durable. Nos formations sont remplies d’exercices et de mises en situation. Nous donnons un guide détaillé à chaque participant, qu’il pourra utiliser pour l’aider lors de la préparation de ses présentations. Et nous pouvons compléter la formation avec du coaching individualisé dans les semaines suivant la formation.
-{{< /shortcode-img1-text2 >}}
-
-
-
-{{< shortcode-text2-img1
-  class="margin-top margin-bottom"
-  picture="accessibilite.jpg"
-  title="Accueil des personnes en situation de handicap" >}}
-N'hésitez pas à nous dire si vous avez des personnes nécessitant un aménagement de la formation, que ce soit pour des raisons d'accessibilité ou autre. Nous mettrons tout en œuvre pour rendre nos formations accessibles au plus grand nombre. [Vous pouvez consulter notre page pour en savoir plus sur notre référent handicap.](/fr/apropos/rse/)
-{{< /shortcode-text2-img1 >}}
-
-
-
-{{< shortcode-img-wide src="prise-de-parole-en-public-001.jpg" alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
+{{< shortcode-img-wide
+  img="prise-de-parole-en-public-001.jpg"
+  alt="Orateur sur scène avec une présentation PowerPoint sur l'écran" >}}
 
 
 
@@ -155,7 +130,7 @@ Notre formation phare de prise de parole en public, qui regroupe les modules Sto
 
 
 {{< shortcode-img-wide
-  src="prise-de-parole-en-public-002.jpg"
+  img="prise-de-parole-en-public-002.jpg"
   alt="Intervenant en train de réaliser une présentation" >}}
 
 {{< shortcode-call-to-action
@@ -168,7 +143,11 @@ Le module art oratoire couvre toutes les techniques de communication verbale et 
 
 
 
-{{< shortcode-img-wide src="prise-de-parole-en-public-003.jpg" alt="Storytelling" >}}
+{{< shortcode-img-wide
+  img="prise-de-parole-en-public-003.jpg"
+  alt="Storytelling" >}}
+
+
 
 {{< shortcode-call-to-action
   class="margin-bottom bg-light padding"
@@ -180,12 +159,45 @@ Le module storytelling est un module star de nos formations. Unique en son genre
 
 
 
-{{< shortcode-img-wide src="prise-de-parole-en-public-004.jpg" alt="Gros plan mains qui applaudissent" >}}
+{{< shortcode-img-wide
+  img="prise-de-parole-en-public-004.jpg"
+  alt="Gros plan mains qui applaudissent" >}}
+
+
 
 {{< shortcode-call-to-action
-  class="bg-light padding"
+  class="bg-light padding margin-lg-bottom"
   button="En savoir plus"
   url="/fr/formation-presentations-powerpoint/" >}}
 ### Formation Présentations PowerPoint
 Le module visuels n'est pas une formation sur l'utilisation de base de PowerPoint. Lors de cette formation vous apprendrez comment utiliser PowerPoint pour créer des diapositives qui vont renforcer et clarifier votre discours oral. Vous apprendrez quel type de diapositive créer en fonction de l'utilisation de la présentation. Vous serez formés aux techniques de base du design pour créer des slides à fort impact visuel : simplicité, structure, choix des éléments. Enfin, vous verrez comment utiliser PowerPoint pour gagner du temps.
 {{< /shortcode-call-to-action >}}
+
+{{< shortcode-text2-img1
+  class="margin-top margin-bottom"
+  img="/img/inserts/presentation-training-10.jpg"
+  alt="Méthodes modernes, formateurs expérimentés" >}}
+### Méthodes modernes, formateurs expérimentés
+Les méthodes et techniques que nous enseignons sont celles que nous utilisons chaque jour pour créer des présentations mémorables pour les dirigeants d’entreprise. Nos formateurs ont tous plusieurs années d’expérience des présentations de haut niveau. Vous apprendrez avec de vrais experts.
+{{< /shortcode-text2-img1 >}}
+
+
+
+{{< shortcode-img1-text2
+  class="margin-top margin-bottom"
+  img="/img/inserts/presentation-training-12.jpg"
+  alt="Un changement dans la durée" >}}
+### Un changement dans la durée
+Notre approche changera votre façon de présenter de manière durable. Nos formations sont remplies d’exercices et de mises en situation. Nous donnons un guide détaillé à chaque participant, qu’il pourra utiliser pour l’aider lors de la préparation de ses présentations. Et nous pouvons compléter la formation avec du coaching individualisé dans les semaines suivant la formation.
+{{< /shortcode-img1-text2 >}}
+
+
+
+{{< shortcode-text2-img1
+  class="margin-top margin-lg-bottom"
+  img="accessibilite.jpg"
+  alt="Accueil des personnes en situation de handicap" >}}
+### Accueil des personnes en situation de handicap
+N'hésitez pas à nous dire si vous avez des personnes nécessitant un aménagement de la formation, que ce soit pour des raisons d'accessibilité ou autre. Nous mettrons tout en œuvre pour rendre nos formations accessibles au plus grand nombre. [Vous pouvez consulter notre page pour en savoir plus sur notre référent handicap.](/fr/apropos/rse/)
+{{< /shortcode-text2-img1 >}}
+
