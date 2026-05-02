@@ -2,7 +2,6 @@
 
 	.cl-sidebar-links {
 		@include width-parent-full();
-		padding: 1em;
 		
 		{{ partial "e/scheme.scss" ".cl-sidebar-links" }}
 	}

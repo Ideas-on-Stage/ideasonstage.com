@@ -6,7 +6,6 @@
 		@include margins($top: "medium");
 		@include firstlastchildnomargin();
 		@include flex-column($gap: "gap");
-		padding: var(--padding);
 		@media (max-width: $gl-sm-screen) {
 			margin-right: 0; /* remove space on small screens */
 		}

@@ -1,7 +1,5 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-sidebar-training {
-		padding: 1em;
-		
+	.cl-sidebar-training {	
 		{{ partial "e/scheme.scss" ".cl-sidebar-training" }}
 	}

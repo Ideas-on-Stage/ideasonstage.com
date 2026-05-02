@@ -6,11 +6,11 @@
   color="#textcolor"
   title="title of list"
 >}}
+#### Item 1
+Text
 
-{{< shortcode-agenda-item >}}
-{{< shortcode-agenda-item >}}
-{{< shortcode-agenda-item >}}
-
+#### Item 2
+Text
 {{< /shortcode-agenda-list >}}
 
 Inserts a list of agenda items, its initial purpose was for an agenda but now it is used for text lists.
@@ -30,7 +30,6 @@ Inserts a list of agenda items, its initial purpose was for an agenda but now it
 {{- $inner := .InnerDeindent -}}
 
 {{ "<!-- shortcode-agenda-list.html:start -->" | safeHTML }}
-{{ $styletext }}
 <div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{ $inner | page.RenderString $opts }}
 </div>

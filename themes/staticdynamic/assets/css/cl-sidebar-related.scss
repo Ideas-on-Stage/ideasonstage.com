@@ -1,7 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
 	.cl-sidebar-related {
-		padding: 1em;
 		
 		> ul {
 			@include ul-container();
