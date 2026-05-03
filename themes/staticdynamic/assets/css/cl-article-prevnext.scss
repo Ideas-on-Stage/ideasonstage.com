@@ -5,17 +5,9 @@
 		ul {
 			@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-between);
 			@include ul-container;
-			
-			li {
-				margin-top: 0;
-				margin-bottom: 0;
-			}
-			.cl-core--button-secondary {
-				--font-ratio: 0.8;
-			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-article-listprevnext" }}
+		{{ partial "e/scheme.scss" ".cl-article-prevnext" }}
 	}
 	
 	.cl-article-prevnext + .cl-article-content,

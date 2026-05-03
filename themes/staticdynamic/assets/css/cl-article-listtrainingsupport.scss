@@ -10,10 +10,10 @@
 			@include height-module();
 			
 			.img {
-					@include layer($z-index: 10);
-					img {
-						@include img-back($z-index: -1);
-					}
+				@include layer($z-index: 10); /* create layer inside which image will be contained */
+				img {
+					@include img-back($z-index: -1); /* set image as a background image */
+				}
 			}
 			
 			.overlay {
@@ -27,22 +27,6 @@
 				@include height-parent-full(); /* same height as parent so text can be centered inside div */
 				@include width-parent-full();
 				@include flex-column($align-column-h: center, $align-v: center);
-				padding: 2em;
-				text-align: center;
-				--color-back: none;
-				h3 {
-					margin-top: 0;
-					margin-bottom: 0;
-				}
-				p {
-					margin-top: 0.8em;
-					margin-bottom: 0;
-				}
-			}
-			
-			&.empty {
-				@include hide-sm(); // hide empty box on small screens, as it serves no purpose
-				background-color: var(--color-darkgray);
 			}
 		}
 		

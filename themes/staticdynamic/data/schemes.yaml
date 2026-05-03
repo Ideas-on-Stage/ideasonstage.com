@@ -271,6 +271,10 @@ ul:
         margin-top: "0.5em"
         margin-bottom: "0.5em"
 
+.cl-article-listreferences:
+    img:
+        border: "1px solid var(--color-border)"
+
 .cl-article-listrevolution:
     h2:
         text-align: "center"
@@ -292,11 +296,42 @@ ul:
         text-align: "center"
         margin-top: "0"
         margin-bottom: "0"
+        color: "var(--color-text-muted)"
+    img:
+        border: "3px solid white"
+        transition: "all .35s"
+        filter: "grayscale(100%)"
+    img:hover:
+            border: "3px solid var(--color-primary)"
+            filter: "grayscale(0%)"
+
+.cl-article-listtrainingsupport:
+    .item:
+        .text:
+            padding: "2em"
+            text-align: "center"
+            --color-back: "none"
+            h3:
+                margin-top: "0"
+                margin-bottom: "0"
+            p:
+                margin-top: "0.8em"
+                margin-bottom: "0"
 
 .cl-article-positionteam:
-    h2:
-        --font-ratio: "1.2"
-        text-transform: "uppercase"
+    --font-ratio: "1.2"
+    text-transform: "uppercase"
+    margin-top: "0.2em"
+    margin-bottom: "1em"
+    color: "var(--color-text-muted)"
+
+.cl-article-prevnext:
+    ul:
+        li:
+            margin-top: "0"
+            margin-bottom: "0"
+        .cl-core--button-secondary:
+            --font-ratio: "0.8"
 
 .cl-body-breadcrumbs:
     scheme: "bg-light"

@@ -8,22 +8,12 @@
 			
 			.logo {
 				@include width-column(5);
-				@media (max-width: $gl-sm-screen) {
-					width: 33%;
-				}
-				
-				img {
-					border: 1px solid var(--color-border);
-				}
+				@include width-column-sm(3);
 			}
 			
 			.thumb {
 				@include width-column(5);
 				@include width-parent-full-sm;
-				
-				img {
-					@include img-contain;
-				}
 			}
 			
 			.text {
@@ -31,7 +21,7 @@
 				@include width-parent-full-sm;
 				
 				> :first-child {
-					margin-top: 0;
+					margin-top: 0; /* remove top margin from first text item so that its top is aligned with img */
 				}
 			}
 		}
