@@ -135,14 +135,12 @@ For business leaders, this is not a “soft” skill. It affects how you pitch, 
 
 When communication improves, decisions become clearer and your ideas have a better chance of succeeding.
 
-
 *[Watch the full event with Terry](https://youtu.be/zhqvNXtJKIY) to hear the stories and insights behind these ideas.*
-
 
 {{< shortcode-youtube zhqvNXtJKIY >}}
 
 #### Want to learn more? 
 
-* [Join the early access list](<>) for the book *Timeless Presenter*
-* Take the[ Confident Presenter Scorecard](<>) to assess your presentation skills in less than 3 minutes
-* Attend our free,[ live masterclass](<>)
+* [Join the early access list](https://mailchi.mp/ideasonstage/timeless-presenter-book) for the book *Timeless Presenter*
+* Take the[ Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/) to assess your presentation skills in less than 3 minutes
+* Attend our free,[ live masterclass](https://www.ideasonstage.com/uk/events/)
