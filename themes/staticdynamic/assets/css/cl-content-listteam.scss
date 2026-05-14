@@ -1,0 +1,26 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-content-listteam {
+		@include width-content();
+		@include margins($vertical: "medium");
+		@include flex-row($gap: "big", $wrap: "wrap", $align-h: center);
+		
+		.teammember {
+			@include width-column(3);
+			@include width-column-sm(1);
+			
+			.content {
+				@include flex-column($align-column-h: center);
+				
+				@media (max-width: $gl-sm-screen) {
+					@include width-parent-full;
+				}
+				
+				img {
+					@include img-circle(6rem);
+				}
+			}
+		}
+		
+		{{ partial "e/scheme.scss" ".cl-content-listteam" }}
+	}

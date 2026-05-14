@@ -22,7 +22,7 @@
 		</ul>
 	</nav>
 {{- else -}}
-	{{ "<!-- skipped: no breadcrumbs on home or 1st level section -->" | safeHTML }}
+	{{ partial "e/html-comment" "INFO: breadcrumbs skipped: no breadcrumbs on home or 1st level section" }}
 {{- end -}}
 
 

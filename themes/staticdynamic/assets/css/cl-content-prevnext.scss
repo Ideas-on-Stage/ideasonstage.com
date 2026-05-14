@@ -1,0 +1,16 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-content-prevnext {
+		
+		ul {
+			@include flex-row($gap: "big", $wrap: "nowrap", $align-h: space-between);
+			@include ul-container;
+		}
+		
+		{{ partial "e/scheme.scss" ".cl-content-prevnext" }}
+	}
+	
+	.cl-content-prevnext + .cl-content-content,
+	.cl-content-content + .cl-content-prevnext {		
+		margin-top: 2rem;
+	}

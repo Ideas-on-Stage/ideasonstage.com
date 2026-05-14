@@ -8,7 +8,7 @@
 
 {{ "<!-- Blocks inline CSS -->" | safeHTML }}
 <style>
-	{{ $blocktypes := slice "bodytop" "body" "article" "list" "sidebar" }}
+	{{ $blocktypes := slice "bodytop" "body" "main" "content" "list" "sidebar" }}
 	{{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
 	{{- range $blocks -}}
 		{{- $resource := printf "css/%s.scss" . -}}

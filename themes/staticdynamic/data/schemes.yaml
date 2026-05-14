@@ -222,7 +222,7 @@ ul:
 # Update 2025-09-29: use "." in front of class names, on any level.
 # -----------------
 
-.cl-article-content:
+.cl-content-content:
     h2:
         margin-top: "2em"
         margin-bottom: "1em"
@@ -239,11 +239,11 @@ ul:
         margin-top: "1em"
         margin-bottom: "1em"
 
-.cl-article-contenthome:
+.cl-content-contenthome:
     p:
         text-align: "center"
 
-.cl-article-list:
+.cl-content-list:
     .item:
         margin-top: "1rem"
         margin-bottom: "1rem"
@@ -260,7 +260,7 @@ ul:
         h3:
             margin-top: "1rem"
 
-.cl-article-listnews:
+.cl-content-listnews:
     h2:
         margin-top: "0em"
         margin-bottom: "0.5em"
@@ -271,11 +271,11 @@ ul:
         margin-top: "0.5em"
         margin-bottom: "0.5em"
 
-.cl-article-listreferences:
+.cl-content-listreferences:
     img:
         border: "1px solid var(--color-border)"
 
-.cl-article-listrevolution:
+.cl-content-listrevolution:
     h2:
         text-align: "center"
         margin-bottom: "0.5rem"
@@ -285,7 +285,7 @@ ul:
     p:
         margin-top: "0.5rem"
 
-.cl-article-listteam:
+.cl-content-listteam:
     h2:
         --font-ratio: "1"
         text-align: "center"
@@ -305,7 +305,7 @@ ul:
             border: "3px solid var(--color-primary)"
             filter: "grayscale(0%)"
 
-.cl-article-listtrainingsupport:
+.cl-content-listtrainingsupport:
     .item:
         .text:
             padding: "2em"
@@ -318,14 +318,14 @@ ul:
                 margin-top: "0.8em"
                 margin-bottom: "0"
 
-.cl-article-positionteam:
+.cl-content-positionteam:
     --font-ratio: "1.2"
     text-transform: "uppercase"
     margin-top: "0.2em"
     margin-bottom: "1em"
     color: "var(--color-text-muted)"
 
-.cl-article-prevnext:
+.cl-content-prevnext:
     ul:
         li:
             margin-top: "0"
@@ -340,78 +340,6 @@ ul:
         list-style-type: "none"
     li:
         text-transform: "uppercase"
-
-.cl-body-carousel:
-    --color-back: "var(--color-lightgray)"
-    .button:
-        --font-ratio: "0.8"
-    h4:
-        --font-ratio: "1"
-    p:
-        --font-ratio: "0.8"
-
-.cl-body-carousel--item:
-    --color-back: "white"
-    .text:
-        padding-top: "1rem"
-        padding-bottom: "1rem"
-        padding-left: "1rem"
-        padding-right: "1rem"
-        .cl-core--button-secondary:
-            --font-ratio: "0.8"
-
-.cl-body-content404:
-    scheme: "bg-dark"
-    h1:
-        margin-top: "1em"
-        text-align: "center"
-    p:
-        text-align: "center"
-
-.cl-body-cta:
-    scheme: "bg-dark"
-    text-align: "center"
-    h2:
-        margin-top: "0"
-        margin-bottom: "0"
-        text-transform: "uppercase"
-    p:
-        margin-top: "0.5em"
-        margin-bottom: "2em"
-
-.cl-body-countrylist:
-    scheme: "bg-dark"
-    .cl-core--button-secondary:
-        --font-ratio: "0.85"
-
-.cl-body-h1home:
-    scheme: "bg-dark"
-    text-align: "center"
-    --font-ratio: "1"
-
-.cl-body-h1--hero:
-    scheme: "bg-dark"
-    text-align: "center"
-    h1:
-        margin-top: "0"
-        margin-bottom: "0em"
-    p:
-        margin-top: "0.5em"
-        margin-bottom: "0em"
-    .cl-core--button-primary:
-        margin-top: "2em"
-
-.cl-body-h1--title:
-    h1:
-        text-align: "center"
-        margin-top: "2em"
-        --color-text: "black"
-
-.cl-body-h1revolution:
-    text-align: "center"
-    h2:
-        --color-text: "white"
-        margin-bottom: "0.5em"
 
 .cl-bodybottom-contact-form:
     h2:
@@ -555,6 +483,78 @@ ul:
     h1:
         text-transform: "none"
         margin-bottom: "1em"
+
+.cl-main-carousel:
+    --color-back: "var(--color-lightgray)"
+    .button:
+        --font-ratio: "0.8"
+    h4:
+        --font-ratio: "1"
+    p:
+        --font-ratio: "0.8"
+
+.cl-main-carousel--item:
+    --color-back: "white"
+    .text:
+        padding-top: "1rem"
+        padding-bottom: "1rem"
+        padding-left: "1rem"
+        padding-right: "1rem"
+        .cl-core--button-secondary:
+            --font-ratio: "0.8"
+
+.cl-main-content404:
+    scheme: "bg-dark"
+    h1:
+        margin-top: "1em"
+        text-align: "center"
+    p:
+        text-align: "center"
+
+.cl-main-cta:
+    scheme: "bg-dark"
+    text-align: "center"
+    h2:
+        margin-top: "0"
+        margin-bottom: "0"
+        text-transform: "uppercase"
+    p:
+        margin-top: "0.5em"
+        margin-bottom: "2em"
+
+.cl-main-countrylist:
+    scheme: "bg-dark"
+    .cl-core--button-secondary:
+        --font-ratio: "0.85"
+
+.cl-main-h1home:
+    scheme: "bg-dark"
+    text-align: "center"
+    --font-ratio: "1"
+
+.cl-main-h1--hero:
+    scheme: "bg-dark"
+    text-align: "center"
+    h1:
+        margin-top: "0"
+        margin-bottom: "0em"
+    p:
+        margin-top: "0.5em"
+        margin-bottom: "0em"
+    .cl-core--button-primary:
+        margin-top: "2em"
+
+.cl-main-h1--title:
+    h1:
+        text-align: "center"
+        margin-top: "2em"
+        --color-text: "black"
+
+.cl-main-h1revolution:
+    text-align: "center"
+    h2:
+        --color-text: "white"
+        margin-bottom: "0.5em"
 
 .cl-more--fastsearch:
     --color-search-input-back: "#555"

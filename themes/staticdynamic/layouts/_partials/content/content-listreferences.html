@@ -1,0 +1,79 @@
+{{ $data := partial "f/getdatalocalized" (slice . "main-references") }}
+{{ with $data }}
+<section id="client-references" class="cl-content-listreferences">
+	{{ range . }}
+	<div class="reference">
+		<div class="logo">
+			{{ partial "e/img.html" (dict "img" .img "alt" .client) }}
+		</div>
+		<div class="text">
+			{{ with .client }}
+			<h2>
+				{{ . }}
+			</h2>
+			{{ end }}
+			{{ with .title }}
+				<p>
+					<b>
+						{{ . | markdownify }}
+					</b>
+				</p>
+			{{ end }}
+			{{ with .description }}
+				<p>
+					{{ . | markdownify }}
+				</p>
+			{{ end }}
+			{{ with .imgcontent }}
+				<img src="{{ . }}">
+			{{ end }}
+			{{ with .description2 }}
+				<p>
+					{{ . | markdownify }}
+				</p>
+			{{ end }}
+		</div>
+	</div>
+	{{ end }}
+</section>
+{{ end }}
+
+{{ if .Pages }}
+<section id="client-success-stories" class="cl-content-listreferences">
+	{{ range .Pages }}
+	<div class="reference">
+		<div class="thumb">
+			{{- $img := partial "f/getimgpaththumbnail" . -}}
+			{{- $alt := .Title -}}
+			{{/* <!-- we can give the page object as the "img" value, and e/img will find the path --> */}}
+			{{ partial "e/img" (dict "img" $img "alt" $alt) }}
+		</div>
+		<div class="text">
+			{{ with .Params.client }}
+				<h2>
+					{{ . }}
+				</h2>
+			{{ end }}
+			<p>
+				<a href="{{ .Permalink }}">
+					{{ with .Title }}
+						<b>
+							{{ . | markdownify }}
+						</b>
+					{{ end }}
+				</a>
+			</p>
+			<p>
+				<a href="{{ .Permalink }}">
+					{{ with .Description }}
+						{{ . | markdownify }}
+					{{ end }}
+				</a>
+			</p>
+		</div>
+	</div>
+	{{ else }}
+		{{ partial "e/html-comment.html" "no pages" }}
+	{{ end }}
+</section>
+{{ end }}

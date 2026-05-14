@@ -5,8 +5,10 @@ description: "Are you tired of boring, ineffective presentations? Do you want to
 
 # custom body to prevent display of pages list
 body:
-- body-h1
-- body-content
+- body-main
+main:
+- main-h1
+- main-sidebar-content
 ---
 
 ## Business Presentation Revolution – The Book

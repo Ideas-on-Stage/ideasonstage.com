@@ -1,0 +1,24 @@
+{{ "<!-- partials/main/main-list.html:start -->" | safeHTML }}
+<div class="cl-content-listtrainingsupport">
+{{- range .Pages -}}
+	{{- if .Params.nl -}}
+		{{ (printf "<!-- page %s skipped (nl is true) -->" .Title) | safeHTML }}
+		{{/* <!-- do not list pages with .Params nl: true --> */}}
+	{{- else -}}
+	<section class="item bg-black">
+		<div class="img">
+			{{- $img := partial "f/getimgpaththumbnail.go" . -}}
+			{{- $alt := .Title -}}
+			{{ partial "e/img.html" (dict "img" $img "alt" $alt) }}
+		</div>
+		<div class="overlay">
+		</div>
+		<div class="text">
+			{{ partial "e/link-title-description.html" . }}
+		</div>
+	</section>
+	{{- end -}}
+{{- end -}}
+
+</div>
+{{ "<!-- partials/main/main-list.html:end -->" | safeHTML }}

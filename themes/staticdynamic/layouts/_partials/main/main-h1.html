@@ -1,0 +1,98 @@
+{{/* <!--
+	
+	body-h1.html
+
+	Generates the HTML for a hero if a hero picture exists,
+	else generates a standard title.
+	To know how the hero picture is retrieved, check the "f/getimgpathhero.go" function.
+	
+	Arguments:
+	- page object
+	
+--> */}}
+
+{{/* <!-- try to get hero picture --> */}}
+{{- $hero := partial "f/getimgpathhero.go" . -}}
+
+{{/* <!-- if hero pic found... --> */}}
+{{- if $hero -}}
+	{{/* <!-- ...then create hero with pic and h1 --> */}}
+
+	{{/* <!-- set arguments for e/img --> */}}
+	{{- $img := dict "img" $hero 
+					 "loading" "eager"
+					 "decoding" "async"
+					 "alt" .Title -}}
+
+	{{- $srcset := partial "f/getimgsrcset.go" $hero -}}
+	{{/* <!-- create hero --> */}}
+	<div class="cl-main-h1--hero">
+		<div class="img">
+			{{ partial "e/img.html" $img }}
+		</div>
+		
+		<div class="overlay">
+		</div>
+		
+		{{/* <!-- add logobar if there is one --> */}}
+		<div class="logobar-layer">
+			<div class="logobar-container">
+				{{ range .Params.hero }}
+					<div class="logobar-item">
+						{{ $srcset := partial "f/getimgsrcset.go" .img }}
+						<img
+							loading="eager"
+							decoding="async"
+							src="{{ collections.Index $srcset 0 }}"
+							srcset="{{ collections.Index $srcset 1 }}"
+							sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+							{{ with .title }}alt="{{ . }}"{{ end }}>
+						<p>
+							{{ .description }}
+						</p>
+					</div>
+				{{ end }}
+			</div>
+		</div>
+		
+		<div class="text">
+			{{/* <!-- hero title --> */}}
+			{{- with .Title -}}
+			<h1>
+				{{ . | markdownify }}
+			</h1>
+			{{- end -}}
+			
+			{{/* <!-- cta description --> */}}
+			{{- with .Params.description -}}
+			<p>
+				{{ . | safeHTML }}
+			</p>
+			{{- end -}}
+			
+			{{/* <!-- cta button --> */}}
+			{{- with .Params.button -}}
+			
+			{{- if ne "string" (partial "f/getdatatype" .) -}}
+			<a href="{{ .link }}" class="cl-core--button-primary">
+				{{ .text }}
+			</a>
+			{{- end -}}
+			{{- end -}}
+		</div>
+		
+	</div>
+{{- else if .Title -}}
+	{{- if ne true .Params.isTitleSkipped -}}
+		{{/* <!-- ...else create standard h1 title --> */}}
+		{{- with .Title -}}
+		<div class="cl-main-h1--title">
+			<h1>
+				{{ . | markdownify }}
+			</h1>
+		</div>
+		{{- end -}}
+	{{- end -}}
+{{- else -}}
+	<p class="error">ERROR: front matter missing .Title</p>
+{{- end -}}

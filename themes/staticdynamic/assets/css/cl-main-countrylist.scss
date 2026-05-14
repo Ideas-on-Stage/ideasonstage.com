@@ -1,0 +1,12 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-main-countrylist {
+		@include width-parent-full();
+		
+		> ul {
+			@include flex-row($gap: "gap", $wrap: "wrap", $align-h: center);
+			@include ul-container;
+		}
+		
+		{{ partial "e/scheme.scss" ".cl-main-countrylist" }}
+	}

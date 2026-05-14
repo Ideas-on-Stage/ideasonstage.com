@@ -1,0 +1,9 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-content {
+		@include width-content();
+		@include margins($top: "medium");
+		@include firstlastchildnomargin();
+		
+		{{ partial "e/scheme.scss" ".cl-content" }};
+	}

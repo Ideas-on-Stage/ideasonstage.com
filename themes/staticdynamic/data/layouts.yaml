@@ -13,8 +13,8 @@
 # - body: blocks added to the <body></body> part
 # - bodylazy: blocks added to the <body></body> part, css and img use lazy-loading
 # - bodybottom: common blocks added last to the <body></body> part
-# - sidebar: blocks added to the sidebar inside the .side part (needs a body-content part declared in the body block)
-# - article: blocks added inside the .main part (needs a body-content or body-content* part declared in the body block)
+# - sidebar: blocks added to the sidebar inside the .side part (needs a main-sidebar-content part declared in the body block)
+# - content: blocks added inside the .main part (needs a main-sidebar-content or main-content* part declared in the body block)
 #
 # It is possible to create a custom block type if necessary.
 
@@ -56,25 +56,29 @@ _default:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1
-            - body-content # What goes inside side and main is defined in article: and sidebar: 
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content # What goes inside side and main is defined in content: and sidebar: 
         bodylazy:
             - bodylazy-modules-aside
-        article:
-            - article-content
-            - article-list
+        content:
+            - content-content
+            - content-list
     # page.Kind "page"
     page:
         head:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-h1
-            - body-content
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
         bodylazy:
             - bodylazy-modules-aside
-        article:
-            - article-content
+        content:
+            - content-content
     # page.Kind "home" (also applies to page.Type "home")
     home:
         head:
@@ -83,19 +87,21 @@ _default:
             - head-schema-website
             - head-title-home
         body:
-            - body-h1home
-            - body-countrylist
-            - body-cta
-            - body-contentfull
+            - body-main
+        main:
+            - main-h1home
+            - main-countrylist
+            - main-cta
+            - main-contentfull
         bodylazy:
             - bodylazy-referencesgrid
             - bodylazy-modules-aside
             - bodylazy-testimonials
             - bodylazy-location
             - bodylazy-awards
-        article:
-            - article-modules
-            - article-contenthome
+        content:
+            - content-modules
+            - content-contenthome
 
 
 
@@ -107,7 +113,9 @@ _default:
             - head-meta-desc-single
             - head-title-404
         body:
-            - body-content404
+            - body-main
+        main:
+            - main-content404
 
 
 
@@ -125,14 +133,16 @@ about:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1
-            - body-content
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
         bodylazy:
             - bodylazy-location
             - bodylazy-modules-aside
-        article:
-            - article-content
-            - article-list
+        content:
+            - content-content
+            - content-list
 
 
 
@@ -144,12 +154,14 @@ events:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-h1
-            - body-content
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
         bodylazy:
             - bodylazy-modules-aside
-        article:
-            - article-content
+        content:
+            - content-content
 
 
 
@@ -161,20 +173,24 @@ full:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1
-            - body-contentfull
-        article:
-            - article-contenthome
-            - article-listteam
+            - body-main
+        main:
+            - main-h1
+            - main-contentfull
+        content:
+            - content-contenthome
+            - content-listteam
     # page.Kind "page"
     page:
         head:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-contentfull
-        article:
-            - article-contentfull
+            - body-main
+        main:
+            - main-contentfull
+        content:
+            - content-contentfull
 
 
 
@@ -186,11 +202,13 @@ news:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-listnews
-            - article-listprevnext
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-listnews
+            - content-listprevnext
         sidebar:
             - sidebar-topcategories
     # page.Kind "page"
@@ -199,15 +217,17 @@ news:
             - head-meta-desc-news-single
             - head-title-single
         body:
-            - body-content
+            - body-main
+        main:
+            - main-sidebar-content
         sidebar:
             - sidebar-related
             - sidebar-topcategories
-        article:
-            - article-h1
-            - article-authorandtime
-            - article-tags
-            - article-content
+        content:
+            - content-h1
+            - content-authorandtime
+            - content-tags
+            - content-content
 
 
 
@@ -219,11 +239,13 @@ references:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1
-            - body-referencesgrid
-            - body-content
-        article:
-            - article-listreferences
+            - body-main
+        main:
+            - main-h1
+            - main-referencesgrid
+            - main-sidebar-content
+        content:
+            - content-listreferences
 
 
 
@@ -235,24 +257,28 @@ revolution:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1revolution
-            - body-h1
-            - body-content
-        article:
-            - article-content
-            - article-listrevolution
+            - body-main
+        main:
+            - main-h1revolution
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-content
+            - content-listrevolution
     # page.Kind "page"
     page:
         head:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-h1
-            - body-content
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
         sidebar:
             - sidebar-topcategories
-        article:
-            - article-content
+        content:
+            - content-content
 
 
 
@@ -264,22 +290,26 @@ services:
             - head-meta-desc-tags-taxonomy
             - head-title-tags-taxonomy
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-content
-            - article-listtaxonomy-services
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-content
+            - content-listtaxonomy-services
     # page.Kind "taxonomy" = section for tags
     taxonomy:
         head:
             - head-meta-desc-tags-taxonomy
             - head-title-tags-taxonomy
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-content
-            - article-listtaxonomy-services
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-content
+            - content-listtaxonomy-services
     # page.Kind "term" = page for tags
     page:
         head:
@@ -287,11 +317,13 @@ services:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-content
-            - article-listtaxonomy-services-term
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-content
+            - content-listtaxonomy-services-term
     # page.Kind "term" = page for tags
     term:
         head:
@@ -299,11 +331,13 @@ services:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-content
-            - article-listtaxonomy-services-term
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-content
+            - content-listtaxonomy-services-term
 
 
 
@@ -315,22 +349,26 @@ skills:
             - head-meta-desc-tags-taxonomy
             - head-title-tags-taxonomy
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-content
-            - article-listtaxonomy-skills
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-content
+            - content-listtaxonomy-skills
     # page.Kind "taxonomy" = section for tags
     taxonomy:
         head:
             - head-meta-desc-tags-taxonomy
             - head-title-tags-taxonomy
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-content
-            - article-listtaxonomy-skills
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-content
+            - content-listtaxonomy-skills
     # page.Kind "term" = page for tags
     page:
         head:
@@ -338,11 +376,13 @@ skills:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-content
-            - article-listtaxonomy-skills-term
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-content
+            - content-listtaxonomy-skills-term
     # page.Kind "term" = page for tags
     term:
         head:
@@ -350,11 +390,13 @@ skills:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-content
-            - article-listtaxonomy-skills-term
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-content
+            - content-listtaxonomy-skills-term
 
 
 
@@ -367,10 +409,12 @@ tags:
             - head-meta-robots-ni
             - head-title-tags-taxonomy
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-pages-tags
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-pages-tags
         sidebar:
             - sidebar-topcategories
     # page.Kind "term" = page for tags
@@ -380,10 +424,12 @@ tags:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-pages-tags
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-pages-tags
         sidebar:
             - sidebar-topcategories
 
@@ -397,11 +443,13 @@ team:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-contenthome
-            - article-listteam
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-contenthome
+            - content-listteam
     # page.Kind "page"
     page:
         head:
@@ -409,11 +457,13 @@ team:
             - head-schema-person
             - head-title-team-single
         body:
-            - body-content
-        article:
-            - article-h1team
-            - article-positionteam
-            - article-content
+            - body-main
+        main:
+            - main-sidebar-content
+        content:
+            - content-h1team
+            - content-positionteam
+            - content-content
         sidebar:
             - sidebar-photo
 
@@ -427,28 +477,32 @@ training:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1
-            - body-carousel
-            - body-content
+            - body-main
+        main:
+            - main-h1
+            - main-carousel
+            - main-sidebar-content
         bodylazy:
             - bodylazy-referencesgrid
             - bodylazy-modules-aside
         sidebar:
             - sidebar-links
-        article:
-            - article-content
+        content:
+            - content-content
     # page.Kind "page"
     page:
         head:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-h1
-            - body-content
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
         sidebar:
             - sidebar-training
-        article:
-            - article-content
+        content:
+            - content-content
 
 
 
@@ -460,24 +514,28 @@ training-support:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-h1
-            - body-carousel
-            - body-contentfull
+            - body-main
+        main:
+            - main-h1
+            - main-carousel
+            - main-contentfull
         bodylazy:
             - bodylazy-referencesgrid
             - bodylazy-modules-aside
-        article:
-            - article-listtrainingsupport
-            - article-content
+        content:
+            - content-listtrainingsupport
+            - content-content
     # page.Kind "page"
     page:
         head:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-h1
-            - body-content
-        article:
-            - article-prevnext
-            - article-content
-            - article-prevnext
+            - body-main
+        main:
+            - main-h1
+            - main-sidebar-content
+        content:
+            - content-prevnext
+            - content-content
+            - content-prevnext

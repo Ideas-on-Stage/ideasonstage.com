@@ -1,0 +1,19 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-content-listrevolution {
+	
+		/* list of episodes */
+		ul {
+			@include flex-row($gap: "gap", $wrap: "wrap");
+			@include ul-container();
+		}
+		
+		/* episode */
+		li {
+			@include width-column(3);
+			@include width-column-sm(1);
+			
+		}
+		
+		{{ partial "e/scheme.scss" ".cl-content-listrevolution" }}
+	}

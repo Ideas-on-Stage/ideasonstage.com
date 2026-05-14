@@ -33,7 +33,7 @@
 	{{/* <!-- iterate over the list of blocks --> */}}
 	{{- range $blocks -}}
 		{{/* <!-- try to find .scss file matching the block name --> */}}
-		{{/* <!-- e.g. "body-h1" → cl-body-h1.scss --> */}}
+		{{/* <!-- e.g. "body-h1" → cl-main-h1.scss --> */}}
 		{{- $filepath := printf "%s/cl-%s.scss" $basepath . -}}
 		{{- if fileExists $filepath -}}
 			{{/* <!-- if found, add it to list of css files --> */}}

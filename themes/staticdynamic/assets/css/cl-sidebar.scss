@@ -14,7 +14,7 @@
 	}
 	
 	/* adapt size of main content area if there is a sidebar */
-	.cl-sidebar + .cl-article {
+	.cl-sidebar + .cl-content {
 		@include width-column(3,2);
 		@include width-content-sm(); /* use content width instead of 2/3 column width on small screens */
 	}

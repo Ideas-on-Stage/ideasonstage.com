@@ -7,7 +7,7 @@
 
 {{ "<!-- Blocks inline CSS -->" | safeHTML }}
 <style>
-	{{ $blocktypes := slice "bodytop" "body" "article" "list" "sidebar" }}
+	{{ $blocktypes := slice "bodytop" "body" "main" "content" "list" "sidebar" }}
 	{{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
 	{{- range $blocks -}}
 		{{- $resource := printf "css/cl-%s.scss" . -}}
@@ -23,7 +23,6 @@
 
 {{ "<!-- Shortcodes inline CSS -->" | safeHTML }}
 <style>
-
 	{{- $found := slice -}}
 	{{/* <!-- get all files in layouts/_shortcodes --> */}}
 	{{- $shortcodes := readDir "/themes/staticdynamic/layouts/_shortcodes" -}}
@@ -66,7 +65,6 @@
 		{{- $style := resources.Get $resource | resources.ExecuteAsTemplate $css . | toCSS | minify -}}
 		{{- $style.Content | safeCSS -}}
 	{{- end -}}
-
 </style>
 
 {{ "<!-- partials/e/blocks-css.html:end -->" | safeHTML }}

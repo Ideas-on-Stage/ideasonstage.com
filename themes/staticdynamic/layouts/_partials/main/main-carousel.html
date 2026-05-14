@@ -1,0 +1,69 @@
+{{/* <!--
+	
+	body-carousel.html
+
+	Generates the HTML for a carousel with multiple items displayed horizontally.
+	A carousel should have at least 4 items to look "right".
+	
+	Arguments:
+	- page object with the following front matter properties:
+	  body-body-carousels-data: [ "list", "of", "body-carousel", "data", "files" ]
+	  body-carousel-title: "title of the carousel"
+
+	Example:
+	Page front matter:
+	body-carousel-title: "My super carousel"
+	body-body-carousels-data: [ "item1", "item2", "item3", "item4" ]
+	
+	/data/carousels files:
+	- item1.yaml
+	- item2.yaml
+	- item3.yaml
+	- item4.yaml
+	Each file should have an entry for the site language
+	Check the /data/body-carousel files for examples.
+	
+--> */}}
+
+{{- $data := partial "f/getdatalocalized" (slice . "body-carousel") -}}
+{{- with $data -}}
+<section id="carousel" class="cl-main-carousel">
+	{{- with .title -}}
+		<h3>{{ . }}</h3>
+	{{- end -}}
+	<ul class="container">
+		{{- range .items -}}
+			<li class="item">
+				<div class="text">
+					<a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
+						{{ with .title }}
+							<h4>
+								{{ . }}
+							</h4>
+						{{ end }}
+						{{ with .description }}
+							<p>
+								{{ . }}
+							</p>
+						{{ end }}
+					</a>
+					{{ partial "e/button-secondary" . }}
+				</div>
+				<a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
+					{{- if .img -}}
+						{{ $srcset := partial "f/getimgsrcset.go" .img }}
+						<img
+							src="{{ index $srcset 0 }}"
+							loading="lazy"
+							srcset="{{ index $srcset 1 }}"
+							sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+							alt="{{ .name }}">
+					{{- end -}}
+				</a>
+			</li>
+		{{- end -}}
+	</ul>
+</section>
+{{- else -}}
+	{{ partial "e/html-comment.html" "SKIPPED: no page.Params.body-body-carousels-data or missing localized data" }}
+{{- end -}}

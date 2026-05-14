@@ -1,0 +1,9 @@
+{{ partial "e/sass.scss" . }}
+
+	.cl-main-h1revolution {
+		@include height-hero;
+		@include width-parent-full;
+		@include layer-img-overlay-text;
+		
+		{{ partial "e/scheme.scss" ".cl-main-h1revolution" }}
+	}
