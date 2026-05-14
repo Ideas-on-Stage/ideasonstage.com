@@ -1,6 +1,6 @@
 {{/* <!--
 	
-	body-breadcrumbs.html
+	bodytop-breadcrumbs.html
 
 	Generates the HTML for navigation breadcrumbs.
 	Typically displayed under title or under hero.
@@ -15,7 +15,7 @@
 {{/* <!-- if page is not home and parent is not home... --> */}}
 {{- if and (not .IsHome) (not .Parent.IsHome) -}}
 	{{/* <!-- ...then at least 2 levels of depth, show breadcrumbs --> */}}
-	<nav id="breadcrumbs" class="cl-body-breadcrumbs">
+	<nav id="breadcrumbs" class="cl-bodytop-breadcrumbs">
 		<ul>
 			{{/* <!-- call breadcrumbnav starting with current page --> */}}
 			{{- template "breadcrumbnav" (dict "p1" . "p2" .) -}}

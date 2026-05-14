@@ -1,12 +1,12 @@
 {{ partial "e/sass.scss" . }}
 
 	/* container for sidebar and main content area */
-	.cl-body-main {
+	.cl-body-content {
 		@include width-content();
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start, $align-h: space-between);
 		@include flex-column-sm(column-reverse);
 		padding: 0;
 		
-		{{ partial "e/scheme.scss" ".cl-body-main" }};
+		{{ partial "e/scheme.scss" ".cl-body-content" }};
 	}
 

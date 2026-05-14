@@ -35,7 +35,11 @@
 	</head>
 
 	<body id="page-top">
-		{{ partial "e/blocks" (slice "bodytop" "body" "bodylazy" "bodybottom") }}
+		{{ partial "e/blocks" (slice "bodytop") }}
+		<main id="main">
+			{{ partial "e/blocks" (slice "body" "bodylazy") }}
+		</main>
+		{{ partial "e/blocks" (slice "bodybottom") }}
 	</body>
 
 </html>

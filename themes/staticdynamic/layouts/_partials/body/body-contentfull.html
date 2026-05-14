@@ -1,8 +1,8 @@
 {{/* <!--
 	
-	body-mainfull.html
+	body-contentfull.html
 
-	Generates the HTML for <main> content.
+	Generates the HTML for main page content.
 	Content layout is "full" (no left and right margins)
 	This part is then populated with the blocks declared in the "main:" section in /data/layouts
 	
@@ -11,8 +11,6 @@
 	
 --> */}}
 
-<main id="main" class="cl-body-mainfull">
-	<article id="article">
-		{{ partial "e/blocks" (slice "article") }}
-	</article>
-</main>
+<section id="content" class="cl-body-contentfull">
+	{{ partial "e/blocks" (slice "article") }}
+</section>

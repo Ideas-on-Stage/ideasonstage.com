@@ -25,7 +25,7 @@
 	{{/* <!-- add loading and decoding img attributes to data --> */}}
 
 	{{- if partial "f/isactive.go" . -}}	
-		<div id="call-to-action" class="cl-body-cta">
+		<section id="call-to-action" class="cl-body-cta">
 			{{/* <!-- cta picture --> */}}
 			<div class="img">
 				{{- $cta := merge . (dict "loading" "eager" "decoding" "async") -}}
@@ -58,7 +58,7 @@
 				{{- end -}}
 			</div>
 			
-		</div>
+		</section>
 		{{/* <!-- only show 1 call to action, the first one that is active --> */}}
 		{{- break -}}
 	{{- end -}}

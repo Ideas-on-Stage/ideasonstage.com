@@ -13,8 +13,8 @@
 # - body: blocks added to the <body></body> part
 # - bodylazy: blocks added to the <body></body> part, css and img use lazy-loading
 # - bodybottom: common blocks added last to the <body></body> part
-# - sidebar: blocks added to the sidebar inside the .side part (needs a body-main-sidebar-article part declared in the body block)
-# - article: blocks added inside the .main part (needs a body-main-sidebar-article or body-main-sidebar-article* part declared in the body block)
+# - sidebar: blocks added to the sidebar inside the .side part (needs a body-content part declared in the body block)
+# - article: blocks added inside the .main part (needs a body-content or body-content* part declared in the body block)
 #
 # It is possible to create a custom block type if necessary.
 
@@ -36,6 +36,7 @@ _common:
     # bodytop are common body blocks above "main" for all pages
     bodytop:
         - bodytop-navbar
+        - bodytop-breadcrumbs
     # do not add body: to _common, use bodytop: or bodybottom: instead
     # bodybottom are common body blocks after "main" for all pages
     bodybottom:
@@ -55,9 +56,8 @@ _default:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-breadcrumbs
             - body-h1
-            - body-main-sidebar-article # What goes inside side and main is defined in article: and sidebar: 
+            - body-content # What goes inside side and main is defined in article: and sidebar: 
         bodylazy:
             - bodylazy-modules-aside
         article:
@@ -69,9 +69,8 @@ _default:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-breadcrumbs
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         bodylazy:
             - bodylazy-modules-aside
         article:
@@ -87,7 +86,7 @@ _default:
             - body-h1home
             - body-countrylist
             - body-cta
-            - body-mainfull
+            - body-contentfull
         bodylazy:
             - bodylazy-referencesgrid
             - bodylazy-modules-aside
@@ -127,7 +126,7 @@ about:
             - head-title-section
         body:
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         bodylazy:
             - bodylazy-location
             - bodylazy-modules-aside
@@ -145,9 +144,8 @@ events:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-breadcrumbs
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         bodylazy:
             - bodylazy-modules-aside
         article:
@@ -164,7 +162,7 @@ full:
             - head-title-section
         body:
             - body-h1
-            - body-mainfull
+            - body-contentfull
         article:
             - article-contenthome
             - article-listteam
@@ -174,8 +172,7 @@ full:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-breadcrumbs
-            - body-mainfull
+            - body-contentfull
         article:
             - article-contentfull
 
@@ -190,7 +187,7 @@ news:
             - head-title-section
         body:
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-listnews
             - article-listprevnext
@@ -202,8 +199,7 @@ news:
             - head-meta-desc-news-single
             - head-title-single
         body:
-            - body-breadcrumbs
-            - body-main-sidebar-article
+            - body-content
         sidebar:
             - sidebar-related
             - sidebar-topcategories
@@ -225,7 +221,7 @@ references:
         body:
             - body-h1
             - body-referencesgrid
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-listreferences
 
@@ -241,7 +237,7 @@ revolution:
         body:
             - body-h1revolution
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-content
             - article-listrevolution
@@ -251,9 +247,8 @@ revolution:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-breadcrumbs
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         sidebar:
             - sidebar-topcategories
         article:
@@ -270,7 +265,7 @@ services:
             - head-title-tags-taxonomy
         body:
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-content
             - article-listtaxonomy-services
@@ -281,7 +276,7 @@ services:
             - head-title-tags-taxonomy
         body:
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-content
             - article-listtaxonomy-services
@@ -292,9 +287,8 @@ services:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-breadcrumbs
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-content
             - article-listtaxonomy-services-term
@@ -305,9 +299,8 @@ services:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-breadcrumbs
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-content
             - article-listtaxonomy-services-term
@@ -323,7 +316,7 @@ skills:
             - head-title-tags-taxonomy
         body:
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-content
             - article-listtaxonomy-skills
@@ -334,7 +327,7 @@ skills:
             - head-title-tags-taxonomy
         body:
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-content
             - article-listtaxonomy-skills
@@ -345,9 +338,8 @@ skills:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-breadcrumbs
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-content
             - article-listtaxonomy-skills-term
@@ -358,9 +350,8 @@ skills:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-breadcrumbs
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-content
             - article-listtaxonomy-skills-term
@@ -377,7 +368,7 @@ tags:
             - head-title-tags-taxonomy
         body:
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-pages-tags
         sidebar:
@@ -389,9 +380,8 @@ tags:
             - head-meta-robots-ni
             - head-title-tags-term
         body:
-            - body-breadcrumbs
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-pages-tags
         sidebar:
@@ -408,7 +398,7 @@ team:
             - head-title-section
         body:
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-contenthome
             - article-listteam
@@ -419,8 +409,7 @@ team:
             - head-schema-person
             - head-title-team-single
         body:
-            - body-breadcrumbs
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-h1team
             - article-positionteam
@@ -438,10 +427,9 @@ training:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-breadcrumbs
             - body-h1
             - body-carousel
-            - body-main-sidebar-article
+            - body-content
         bodylazy:
             - bodylazy-referencesgrid
             - bodylazy-modules-aside
@@ -455,9 +443,8 @@ training:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-breadcrumbs
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         sidebar:
             - sidebar-training
         article:
@@ -473,10 +460,9 @@ training-support:
             - head-meta-desc-section
             - head-title-section
         body:
-            - body-breadcrumbs
             - body-h1
             - body-carousel
-            - body-mainfull
+            - body-contentfull
         bodylazy:
             - bodylazy-referencesgrid
             - bodylazy-modules-aside
@@ -489,9 +475,8 @@ training-support:
             - head-meta-desc-single
             - head-title-single
         body:
-            - body-breadcrumbs
             - body-h1
-            - body-main-sidebar-article
+            - body-content
         article:
             - article-prevnext
             - article-content

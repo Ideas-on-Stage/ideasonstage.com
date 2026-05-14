@@ -333,7 +333,7 @@ ul:
         .cl-core--button-secondary:
             --font-ratio: "0.8"
 
-.cl-body-breadcrumbs:
+.cl-bodytop-breadcrumbs:
     scheme: "bg-light"
     line-height: "1em"
     ul:
@@ -387,10 +387,7 @@ ul:
 .cl-body-h1home:
     scheme: "bg-dark"
     text-align: "center"
-    h1:
-        margin-top: "0"
-        margin-bottom: "0"
-        --font-ratio: "1"
+    --font-ratio: "1"
 
 .cl-body-h1--hero:
     scheme: "bg-dark"

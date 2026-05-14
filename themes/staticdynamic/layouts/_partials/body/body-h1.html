@@ -26,7 +26,7 @@
 
 	{{- $srcset := partial "f/getimgsrcset.go" $hero -}}
 	{{/* <!-- create hero --> */}}
-	<header id="title" class="cl-body-h1--hero">
+	<div id="title" class="cl-body-h1--hero">
 		<div class="img">
 			{{ partial "e/img.html" $img }}
 		</div>
@@ -81,16 +81,16 @@
 			{{- end -}}
 		</div>
 		
-	</header>
+	</div>
 {{- else if .Title -}}
 	{{- if ne true .Params.isTitleSkipped -}}
 		{{/* <!-- ...else create standard h1 title --> */}}
 		{{- with .Title -}}
-		<header id="title" class="cl-body-h1--title">
+		<div id="title" class="cl-body-h1--title">
 			<h1>
 				{{ . | markdownify }}
 			</h1>
-		</header>
+		</div>
 		{{- end -}}
 	{{- end -}}
 {{- else -}}

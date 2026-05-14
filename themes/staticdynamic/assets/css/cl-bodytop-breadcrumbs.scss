@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-body-breadcrumbs {
+	.cl-bodytop-breadcrumbs {
 		@include width-parent-full();
 		
 		a {
@@ -20,5 +20,5 @@
 			@include img-sameline;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-body-breadcrumbs" }}
+		{{ partial "e/scheme.scss" ".cl-bodytop-breadcrumbs" }}
 	}
