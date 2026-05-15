@@ -112,12 +112,12 @@
 		}
 	}
 	
-	@mixin flex-row($gap: "none", $wrap: "nowrap", $align-row-v: flex-start, $align-v: flex-start, $align-h: flex-start) {
+	@mixin flex-row($gap: "none", $wrap: "nowrap", $align-row-v: flex-start, $align-v: flex-start, $align-h: flex-start, $flex-direction: row) {
 		/*
 			Creates a flexbox row
 		*/
 		display: flex;
-		flex-direction: row;
+		flex-direction: $flex-direction;
 		align-content: $align-v;
 		align-items: $align-row-v;
 		justify-content: $align-h;
@@ -448,7 +448,7 @@
 		padding-left: 0;
 	}
 	
-	@mixin width-column($col-nb, $col-span: 1) {		
+	@mixin width-column($col-nb: 2, $col-span: 1) {		
 		/*
 			width-column()
 			

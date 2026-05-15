@@ -8,6 +8,10 @@
 			@include firstlastchildnomargin;
 			@include width-column(3,2);
 			@include width-parent-full-sm;
+			
+			@media (max-width: $gl-sm-screen) {
+				margin-top: 1.5em; /* remove space on small screens */
+			}
 		}
 		
 		img {

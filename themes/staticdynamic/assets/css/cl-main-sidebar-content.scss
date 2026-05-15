@@ -3,10 +3,10 @@
 	/* container for sidebar and main content area */
 	.cl-main-sidebar-content {
 		@include width-content();
-		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start, $align-h: space-between);
-		@include flex-column-sm(column-reverse);
+		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start, $align-h: space-between, $flex-direction: row-reverse);
+		@include flex-column-sm(column);
 		padding: 0;
 		
 		{{ partial "e/scheme.scss" ".cl-main-sidebar-content" }};
+		
 	}
-

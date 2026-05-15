@@ -11,18 +11,18 @@
 --> */}}
 
 <div class="cl-main-sidebar-content">
+	{{- if partial "f/getblocks.go" "content" -}}
+	<div class="cl-content">
+		{{ partial "e/blocks" (slice "content") }}
+	</div>
+	{{- else -}}
+		{{ partial "e/html-comment.html" "INFO: skipped content: no blocks for content in layouts.yaml" }}
+	{{- end -}}
 	{{- if partial "f/getblocks.go" "sidebar" -}}
 	<aside class="cl-sidebar">
 		{{ partial "e/blocks" (slice "sidebar") }}
 	</aside>
 	{{- else -}}
 		{{ partial "e/html-comment.html" "INFO: skipped sidebar: no blocks for sidebar in layouts.yaml" }}
-	{{- end -}}
-	{{- if partial "f/getblocks.go" "content" -}}
-	<div class="cl-content">
-		{{ partial "e/blocks" (slice "content") }}
-	</div>
-	{{- else -}}
-		{{ partial "e/html-comment.html" "INFO: skipped content: no blocks for article in layouts.yaml" }}
 	{{- end -}}
 </div>
