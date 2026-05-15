@@ -11,7 +11,7 @@ summary: "Ce dont vous avez besoin pour réaliser de superbes présentations à 
 showtoc: true
 
 # data
-bodylazy-modules-aside-data: [ "public-speaking-training", "public-speaking-coaching" ]
+mainlazy-modules-aside-data: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 ## Une bonne configuration de base pour les présentations à distance
 

@@ -1,8 +1,8 @@
 {{ $data := partial "f/getdatalocalized" (slice . "main-modules") }}
 {{ with $data }}
-	<div id="modules" class="cl-core--module">
+	<section id="modules" class="cl-core--module">
 		{{ partial "e/modules.html" . }}
-	</div>
+	</section>
 {{ else }}
 	{{ partial "e/html-comment.html" "skipped: modules: no .Params.main-modules-data" }}
 {{ end }}

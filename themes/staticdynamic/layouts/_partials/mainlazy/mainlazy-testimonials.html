@@ -1,7 +1,7 @@
-{{/* <!-- retrieve testimonals list from page.bodylazy-testimonials-data --> */}}
-{{ $data := partial "f/getdatalocalized" (slice . "bodylazy-testimonials") }}
+{{/* <!-- retrieve testimonals list from page.mainlazy-testimonials-data --> */}}
+{{ $data := partial "f/getdatalocalized" (slice . "mainlazy-testimonials") }}
 {{ with $data }}
-	<section id="testimonials" class="cl-bodylazy-testimonials">
+	<section id="testimonials" class="cl-mainlazy-testimonials">
 		{{/* <!-- iterate over each testimonial --> */}}
 		{{ range . }}
 			<div class="item">
@@ -35,5 +35,5 @@
 		{{ end }} 
 	</section>
 {{ else }}
-	{{ partial "e/html-comment.html" "skipped: testimonials: no .Params.bodylazy-testimonials-data" }}
+	{{ partial "e/html-comment.html" "skipped: testimonials: no .Params.mainlazy-testimonials-data" }}
 {{ end }}

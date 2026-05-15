@@ -12,7 +12,7 @@ showtoc: true
 summary: "Ce guide vous donnera tous les conseils nécessaires pour organiser votre événement TEDx, que ce soit en tant que bénévole ou pour votre entreprise. Si vous êtes déjà expérimenté, nous espérons que vous y découvrirez des conseils utiles."
 
 # data
-bodylazy-modules-aside-data: [ "public-speaking-training", "public-speaking-coaching" ]
+mainlazy-modules-aside-data: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 
 ## Qu’est-ce qu’un événement TEDx ?

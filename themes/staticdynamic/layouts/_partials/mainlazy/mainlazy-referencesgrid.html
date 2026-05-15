@@ -1,4 +1,4 @@
-{{- $data := partial "f/getdatalocalized" (slice . "bodylazy-references") -}}
+{{- $data := partial "f/getdatalocalized" (slice . "mainlazy-references") -}}
 {{- with $data -}}
 	<section id="reference-list" class="cl-referencesgrid">
 		{{- range . -}}
@@ -6,5 +6,5 @@
 		{{- end -}}
 	</section>
 {{- else -}}
-	{{ partial "e/html-comment.html" "skipped: references: no .Params.bodylazy-references-data" }}
+	{{ partial "e/html-comment.html" "skipped: references: no .Params.mainlazy-references-data" }}
 {{- end -}}

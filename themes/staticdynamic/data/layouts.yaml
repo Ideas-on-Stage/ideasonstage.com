@@ -11,7 +11,7 @@
 # - headbottom: common blocks added last to the <head></head> part
 # - bodytop: common blocks added first to the <body></body> part
 # - body: blocks added to the <body></body> part
-# - bodylazy: blocks added to the <body></body> part, css and img use lazy-loading
+# - mainlazy: blocks added to the <body></body> part, css and img use lazy-loading
 # - bodybottom: common blocks added last to the <body></body> part
 # - sidebar: blocks added to the sidebar inside the .side part (needs a main-sidebar-content part declared in the body block)
 # - content: blocks added inside the .main part (needs a main-sidebar-content or main-content* part declared in the body block)
@@ -60,8 +60,8 @@ _default:
         main:
             - main-h1
             - main-sidebar-content # What goes inside side and main is defined in content: and sidebar: 
-        bodylazy:
-            - bodylazy-modules-aside
+        mainlazy:
+            - mainlazy-modules-aside
         content:
             - content-content
             - content-list
@@ -75,8 +75,8 @@ _default:
         main:
             - main-h1
             - main-sidebar-content
-        bodylazy:
-            - bodylazy-modules-aside
+        mainlazy:
+            - mainlazy-modules-aside
         content:
             - content-content
     # page.Kind "home" (also applies to page.Type "home")
@@ -92,15 +92,15 @@ _default:
             - main-h1home
             - main-countrylist
             - main-cta
+            - main-modules
             - main-contentfull
-        bodylazy:
-            - bodylazy-referencesgrid
-            - bodylazy-modules-aside
-            - bodylazy-testimonials
-            - bodylazy-location
-            - bodylazy-awards
+        mainlazy:
+            - mainlazy-referencesgrid
+            - mainlazy-modules-aside
+            - mainlazy-testimonials
+            - mainlazy-location
+            - mainlazy-awards
         content:
-            - content-modules
             - content-contenthome
 
 
@@ -137,9 +137,9 @@ about:
         main:
             - main-h1
             - main-sidebar-content
-        bodylazy:
-            - bodylazy-location
-            - bodylazy-modules-aside
+        mainlazy:
+            - mainlazy-location
+            - mainlazy-modules-aside
         content:
             - content-content
             - content-list
@@ -158,8 +158,8 @@ events:
         main:
             - main-h1
             - main-sidebar-content
-        bodylazy:
-            - bodylazy-modules-aside
+        mainlazy:
+            - mainlazy-modules-aside
         content:
             - content-content
 
@@ -482,9 +482,9 @@ training:
             - main-h1
             - main-carousel
             - main-sidebar-content
-        bodylazy:
-            - bodylazy-referencesgrid
-            - bodylazy-modules-aside
+        mainlazy:
+            - mainlazy-referencesgrid
+            - mainlazy-modules-aside
         sidebar:
             - sidebar-links
         content:
@@ -519,9 +519,9 @@ training-support:
             - main-h1
             - main-carousel
             - main-contentfull
-        bodylazy:
-            - bodylazy-referencesgrid
-            - bodylazy-modules-aside
+        mainlazy:
+            - mainlazy-referencesgrid
+            - mainlazy-modules-aside
         content:
             - content-listtrainingsupport
             - content-content

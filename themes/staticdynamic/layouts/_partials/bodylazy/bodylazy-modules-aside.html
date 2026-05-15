@@ -1,8 +1,0 @@
-{{ $data := partial "f/getdatalocalized" (slice . "bodylazy-modules-aside") }}
-{{ with $data }}
-	<aside id="modules-aside" class="cl-core--module">
-		{{ partial "e/modules.html" . }}
-	</aside>
-{{ else }}
-	{{ partial "e/html-comment.html" "INFO: skipped: modules-aside: no .Params.bodylazy-modules-aside-data" }}
-{{ end }}

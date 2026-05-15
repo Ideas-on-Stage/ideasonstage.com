@@ -9,9 +9,9 @@ translationKey: "home"
 # blocks data
 body-ctas-data: [ "public-speaking-guide" ]
 main-modules-data: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting", "creative-workshops" ]
-bodylazy-references-data: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
-bodylazy-modules-aside-data: [ "leadership-humanava-formation" ]
-bodylazy-testimonials-data: [ "roxanne-varza", "cesar-harada", "francois-marchessaux", "nicolas-beau", "david-musotte" ]
+mainlazy-references-data: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
+mainlazy-modules-aside-data: [ "leadership-humanava-formation" ]
+mainlazy-testimonials-data: [ "roxanne-varza", "cesar-harada", "francois-marchessaux", "nicolas-beau", "david-musotte" ]
 ---
 
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.

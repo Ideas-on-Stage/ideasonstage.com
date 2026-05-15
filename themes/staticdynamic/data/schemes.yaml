@@ -368,7 +368,7 @@ ul:
     .text:
         --font-ratio: "0.8"
 
-.cl-bodylazy-location:
+.cl-mainlazy-location:
     scheme: "bg-black"
     h2:
         margin-top: "0em"
@@ -377,7 +377,7 @@ ul:
     p:
         text-align: "center"
 
-.cl-bodylazy-testimonials:
+.cl-mainlazy-testimonials:
     scheme: "bg-light"
     h4:
         --font-ratio: "0.8"
@@ -478,11 +478,6 @@ ul:
         --font-ratio: "0.85"
         margin-top: "0.4em"
         margin-bottom: "0"
-
-.cl-main:
-    h1:
-        text-transform: "none"
-        margin-bottom: "1em"
 
 .cl-main-carousel:
     --color-back: "var(--color-lightgray)"

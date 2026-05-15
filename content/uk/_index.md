@@ -10,10 +10,10 @@ type: "home"
 
 body-ctas-data: [ "2026-03-26-obama-speechwriter", "uk-most-transformational-roxor" ]
 main-modules-data: [ "uk-academy", "uk-workshops", "uk-coaching" ]
-bodylazy-references-data: [ "ebay", "spotify", "bosch", "octopuselectricvehicles", "havas", "rainmaking", "tbifgc", "fedex", "salesforce", "deloitte", "google", "disney", "wbg", "lacoste", "loreal" ]
-bodylazy-modules-aside-data: [ "uk-confidentpresenter", "uk-presentationscore", "uk-freewebclass", "uk-freeminicourse", "uk-kids-on-stage" ]
-bodylazy-testimonials-data: [ "tom-katte", "cam-beaudoin", "eran-shlomi", "margaret-satya-rose", "caroline-boston", "graham-purvis" ]
-bodylazy-awards-data: [ "best-training-uk", "best-virtual-speaker-uk", "highly-commended-book-uk", "outstanding-provider-uk" ]
+mainlazy-references-data: [ "ebay", "spotify", "bosch", "octopuselectricvehicles", "havas", "rainmaking", "tbifgc", "fedex", "salesforce", "deloitte", "google", "disney", "wbg", "lacoste", "loreal" ]
+mainlazy-modules-aside-data: [ "uk-confidentpresenter", "uk-presentationscore", "uk-freewebclass", "uk-freeminicourse", "uk-kids-on-stage" ]
+mainlazy-testimonials-data: [ "tom-katte", "cam-beaudoin", "eran-shlomi", "margaret-satya-rose", "caroline-boston", "graham-purvis" ]
+mainlazy-awards-data: [ "best-training-uk", "best-virtual-speaker-uk", "highly-commended-book-uk", "outstanding-provider-uk" ]
 ---
 At Ideas on Stage, we empower business owners, leaders and teams to become confident, compelling presenters through coaching and training – especially when presenting to prospects.
 

@@ -1,4 +1,4 @@
-{{- $data := partial "f/getdatalocalized" (slice . "bodylazy-awards") -}}
+{{- $data := partial "f/getdatalocalized" (slice . "mainlazy-awards") -}}
 {{- with $data -}}
 	<div class="cl-awards">
 		{{- range . -}}
@@ -15,5 +15,5 @@
 		{{- end -}}
 	</div>
 {{- else -}}
-	{{ partial "e/html-comment.html" "INFO: skipped: bodylazy-awards: no .Params.bodylazy-awards-data" }}
+	{{ partial "e/html-comment.html" "INFO: skipped: mainlazy-awards: no .Params.mainlazy-awards-data" }}
 {{- end -}}

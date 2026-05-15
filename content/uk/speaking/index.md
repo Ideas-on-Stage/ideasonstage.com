@@ -10,7 +10,7 @@ button:
 contact:
   description: Contact Andrea to check his availability
 
-bodylazy-references-data: [ wharton-alumni, iod, impact-hub,fiverr, general-assembly, nyu ]
+mainlazy-references-data: [ wharton-alumni, iod, impact-hub,fiverr, general-assembly, nyu ]
 ---
 
 {{< shortcode-text class="text-center" >}}

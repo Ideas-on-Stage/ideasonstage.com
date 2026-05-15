@@ -5,7 +5,7 @@
 {{- $bodyblocks := partial "f/getblockscss.go" $bodyblocktypes -}}
 
 {{/* <!-- get bottom blocks --> */}}
-{{- $blocktypes := slice "bodylazy" "bodybottom" -}}
+{{- $blocktypes := slice "mainlazy" "bodybottom" -}}
 {{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
 {{- range $blocks -}}
 	{{- if not (in $bodyblocks .) -}}

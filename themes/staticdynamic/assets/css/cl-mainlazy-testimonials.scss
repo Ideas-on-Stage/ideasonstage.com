@@ -1,6 +1,6 @@
 {{ partial "e/sass.scss" . }}
 
-	.cl-bodylazy-testimonials {
+	.cl-mainlazy-testimonials {
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start);
 		@include scroll-h;
 		@include width-parent-full;
@@ -38,5 +38,5 @@
 			@include img-circle(60px);
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-bodylazy-testimonials" }}
+		{{ partial "e/scheme.scss" ".cl-mainlazy-testimonials" }}
 	}
