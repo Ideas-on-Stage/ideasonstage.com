@@ -8,9 +8,15 @@
 	- anything (mandatory but not used)
 	
 --> */}}
+{{- $img := "/img/404/404.svg" -}}
+{{- $alt := "404 not found" -}}
+{{- $width := "20%" -}}
+{{- $loading := "eager" -}}
+{{- $decoding := "async" -}}
+{{- $params := dict "img" $img "alt" $alt "width" $width "loading" $loading "decoding" $decoding -}}
 
 <div class="cl-main-content404">
-	<img src="/img/404/404.svg" width="20%" alt="404 Not found">
+	{{ partial "e/img.html" $params }}
 	<h1>
 		{{ .Title }}
 	</h1>
