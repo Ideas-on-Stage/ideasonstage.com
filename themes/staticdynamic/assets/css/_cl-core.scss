@@ -136,6 +136,19 @@
 		{{- $tag := "ul" -}}
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
+
+
+
+	/*
+		.cl-core--
+		
+		Classes loaded for all pages because they are regularly used.
+	*/
+
+	.cl-core--authorandtime {
+		{{- $tag := ".cl-core--authorandtime" -}}
+		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+	}
 	
 	.cl-core--button-primary {
 		@include a-underline-none();
@@ -173,13 +186,11 @@
 		{{ partial "e/scheme.scss" (slice $tag $tag) }}
 	}
 
-	.cl-core--authorandtime {
-		{{- $tag := ".cl-core--authorandtime" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+	.cl-core--hidden {
+		position: absolute; /* remove item from document flow */
+		visibility: hidden; /* and hide it */
 	}
-
-{{ partial "e/sass.scss" . }}
-
+	
 	.cl-core--module {
 		@include flex-row($gap: "skip", $wrap: "wrap");
 		@include width-parent-full;

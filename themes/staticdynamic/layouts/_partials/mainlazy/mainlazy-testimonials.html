@@ -2,6 +2,9 @@
 {{ $data := partial "f/getdatalocalized" (slice . "mainlazy-testimonials") }}
 {{ with $data }}
 	<section id="testimonials" class="cl-mainlazy-testimonials">
+		{{- with site.Params.testimonials.title -}}
+			<h2 class="cl-core--hidden">{{ . }}</h2>
+		{{- end -}}
 		{{/* <!-- iterate over each testimonial --> */}}
 		{{ range . }}
 			<div class="item">

@@ -104,6 +104,11 @@ news:
     related: "See Also"
 
 # -------------------
+# references
+references:
+    title: "Client References"
+
+# -------------------
 # table of contents
 tableofcontents:
     title: "Table of Contents"

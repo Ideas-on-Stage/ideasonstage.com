@@ -19,12 +19,13 @@
 				flex-basis: 70vw;
 			}
 		}
-		.item:first-child {
+		.item:first-child,
+		h2 + .item {
 			margin-left: 2vw;
 		} 
 		.item:last-child {
 			margin-right: 2vw;
-		}		
+		}
 		
 		.person {
 			@include flex-row($gap: "big", $wrap: "nowrap", $align-h: flex-start);

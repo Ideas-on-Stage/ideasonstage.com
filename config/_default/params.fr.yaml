@@ -134,6 +134,11 @@ Permalinks:
     skills: /offre/competences/:slug/
 
 # -------------------
+# references
+references:
+    title: "Références clients"
+
+# -------------------
 # table of contents
 tableofcontents:
     title: "Table des matières"
