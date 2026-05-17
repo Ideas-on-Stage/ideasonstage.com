@@ -14,7 +14,7 @@
 --> */}}
 {{ $data := partial "f/getdatalocalized" (slice . "body-references") }}
 {{ with $data }}
-	<section id="references" class="cl-referencesgrid">
+	<div id="references" class="cl-referencesgrid">
 		{{ range . }}
 			{{ $srcset := partial "f/getimgsrcset.go" .img }}
 			<img
@@ -24,7 +24,7 @@
 				{{ with .client }}alt="{{ . }}"{{ end }}
 				height="100" width="100" />
 		{{ end }}
-	</section>
+	</div>
 {{ else }}
 	{{ partial "e/html-comment.html" "INFO: skipped: references: no .Params.dt-body-referencesgrid" }}
 {{ end }}
