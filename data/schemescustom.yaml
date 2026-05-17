@@ -1,0 +1,2 @@
+root:
+    --color-primary: "#FF8200" # used as an example of how values in this file override default values

@@ -16,9 +16,9 @@
 		{{- end -}}
 	</ul>
 	<p class="text">
-		{{ with site.Params.footer.copyright }}{{ . }}{{ end }} {{ now.Year }}. 
-		{{ with site.Params.footer.rights }}{{ . }}{{ end }}<br />
-		{{ with site.Params.footer.cookies }}{{ . | markdownify }}{{ end }}</br>
+		{{ with site.Params.footer.copyright }}{{ . }}{{ end }} {{ now.Year }}.
+		{{ with site.Params.footer.rights }}{{ . }}{{ end }}<br>
+		{{ with site.Params.footer.cookies }}{{ . | markdownify }}{{ end }}<br>
 		{{ with site.Params.footer.text }}{{ . | markdownify }}{{ end }}
 	</p>
 </footer> 

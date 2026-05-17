@@ -13,16 +13,16 @@ css:
 images:
     landscape:
         - scale: 2400
-          size: "2400px"
+          size: "(width >= 1200px) 2400px"
         - scale: 1200
           size: "(1200px > width >= 720px) 1200px"
         - scale: 720
           size: "(720px > width) 720px"
     portrait:
         - scale: 1600
-          size: "1600px"
+          size: "(width >= 800px) 1600px"
         - scale: 800
-          size: "(1600px > width >= 800px) 800px"
+          size: "(800px > width >= 480px) 800px"
         - scale: 480
           size: "(480px > width) 480px"
     quality: 70
@@ -48,4 +48,3 @@ organization:
     sameas:
         - https://www.linkedin.com/company/ideas-on-stage/
         - https://www.youtube.com/user/IdeasOnStage
-        - https://www.pierremorsa.com/ideas-on-stage/

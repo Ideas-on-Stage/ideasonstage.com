@@ -29,17 +29,37 @@
 {{- $type := partial "f/getdatatype" $element -}}
 {{/* <!-- if the argument is a string... --> */}}
 {{- if eq "string" $type  -}}
-
-	{{/* <!-- ...then try to get the scheme matching the element name from the file "schemes.yaml" --> */}}
-	{{- $scheme = index site.Data.schemes $element -}}
+	{{/* <!-- ...then try to get the scheme data matching the element name from the file "schemes.yaml" --> */}}
+	{{- $schemedft := index site.Data.schemes $element -}}
+	{{- $schemecst := index site.Data.schemescustom $element -}}
+	{{/* <!-- if there is both a default and custom scheme... --> */}}
+	{{- if and $schemedft $schemecst -}}
+		{{/* <!-- ...then merge the two schemes --> */}}
+		{{- $scheme = merge $schemedft $schemecst -}}
+	{{- else -}}
+		{{/* <!-- ...else just use the default scheme --> */}}
+		{{- $scheme = $schemedft -}}
+	{{- end -}}
 	{{- $isgeneric = true -}}
 {{- else -}}
 	{{/* <!-- ...else we assume e/scheme.scss has been called with a slice --> */}}
 	{{- $scheme = index $element 1 -}}
 	{{- $schemetype := partial "f/getdatatype" $scheme -}}
 	{{- if eq "string" $schemetype  -}}
-		{{/* <!-- ...then try to get the scheme matching the element name from the file "schemes.yaml" --> */}}
-		{{- $scheme = index site.Data.schemes $scheme -}}
+		{{/* <!-- ...then try to get the scheme data matching the element name from the file "schemes.yaml" --> */}}
+		{{- $schemedft := index site.Data.schemes $scheme -}}
+		{{- $schemecst := index site.Data.schemescustom $scheme -}}
+		{{/* <!-- if there is both a default and custom scheme... --> */}}
+		{{- if and $schemedft $schemecst -}}
+			{{/* <!-- ...then merge the two schemes --> */}}
+			{{- $scheme = merge $schemedft $schemecst -}}
+		{{- else -}}
+			{{/* <!-- ...else just use the default scheme --> */}}
+			{{- $scheme = $schemedft -}}
+		{{- end -}}
+	{{- else -}}
+		{{/* <!-- ...else do nothing because schemes.css was called recursively --> */}}
+		{{/* <!-- and the relevant scheme data is already passed in the argument --> */}}
 	{{- end -}}
 	{{- $element = index $element 0 -}}
 	{{- if eq "." (substr $element 0 1) -}}

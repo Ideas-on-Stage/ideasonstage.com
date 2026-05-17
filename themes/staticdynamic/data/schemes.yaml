@@ -1,9 +1,37 @@
+# ------------
+# schemes.yaml
 # 
+# This file contains the customizable styling elements
+# For example, margin, padding, color, etc. are defined here
+# EXCEPT when these values are deemed necessary for the site to work properly.
+# For example, some margin values may be in the css file because changing them would break the layout.
+#
+# The box model is better left untouched and is defined in the css files
+
 # The following properties should be defined using variables:
 #   --font-ratio because it is used in the font-size calculation. eg --font-ratio: "1"
 #   --color-* because they are "theme" color variables. eg --color-back: "#FFF"
 #   Do not define font-size directly, change --font-ratio or if really necessary --font-base-size. 
 #   Everything else can be defined directly as a property, eg. line-height: "1.6em"
+
+# Special keys:
+#   sm: will generate a media query @media (max-width:$gl-sm-screen) to target small screens
+#   lg: will generate a media query @media (max-width:$gl-lg-screen) to target large screens
+
+# To customize:
+#   - Do not modify this file
+#   - Instead, create a schemescustom.yaml file in the site data directory
+#   - Add the custom values in that file.
+#     site
+#       - data
+#          - schemescustom.yaml ← your custom values (will override default theme values)
+#       - themes
+#         - staticdynamic
+#           - data
+#             - schemes.yaml ← this file with default theme values
+#   So if you see a css property not defined here and not defined in the css file,
+#   it's probably defined in site.Data.schemescustom.yaml 
+
 
 # -----------------
 # root variables
@@ -653,10 +681,16 @@ ul:
 .cl-shortcode-img1-text2:
     h3:
         margin-bottom: "0"
+    sm:
+        .text:
+            margin-top: "1.5em"
 
 .cl-shortcode-img2-text1:
     h3:
         margin-bottom: "0"
+    sm:
+        .text:
+            margin-top: "1.5em"
 
 .cl-shortcode-list-card:
     .text:
@@ -697,10 +731,16 @@ ul:
 .cl-shortcode-text1-img2:
     h3:
         margin-bottom: "0"
+    sm:
+        .text:
+            margin-top: "1.5em"
 
 .cl-shortcode-text2-img1:
     h3:
         margin-bottom: "0"
+    sm:
+        .text:
+            margin-top: "1.5em"
 
 .cl-shortcode-training-info:
     margin: "0"
