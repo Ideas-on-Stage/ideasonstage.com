@@ -15,24 +15,9 @@ Inserts a 2/3 text on the left and 1/3 img on the right.
 
 --> */}}
 
-{{/* <!-- set rendering options --> */}}
-{{- $opts := dict "display" "block" -}}
-
-{{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass" . -}}
-{{- $classmain := index $class "main" -}}
-{{- $classtext := index $class "text" -}}
-{{- $style := partial "f/gethtmlattrstyle" . -}}
-{{- $stylemain := index $style "main" -}}
-{{- $styletext := index $style "text" -}}
-{{- $inner := .InnerDeindent -}}
-
 {{ "<!-- shortcode-text2-img1.html:start -->" | safeHTML }}
-<div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
-	<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
-		{{ (partial "e/link-title" .Params) | safeHTML }}
-		{{ $inner | page.RenderString $opts }}
-	</div>
+{{ with partial "_decorators/divmain.html" . }}
+	{{ partial "e/divtext.html" . }}
 	{{ partial "e/img" .Params }}
-</div>
+{{ end }}
 {{ "<!-- shortcode-text2-img1.html:end -->" | safeHTML }}

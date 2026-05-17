@@ -1,0 +1,16 @@
+{{/* <!-- set rendering options --> */}}
+{{- $opts := dict "display" "block" -}}
+
+{{/* <!-- get parameters --> */}}
+{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $classtext := index $class "text" -}}
+{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $styletext := index $style "text" -}}
+{{- $inner := .InnerDeindent -}}
+
+{{ "<!-- shortcode-img1-text2.html:start -->" | safeHTML }}
+<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
+	{{ partial "e/title" .Params }}
+	{{ $inner | page.RenderString $opts }}
+</div>
+{{ "<!-- shortcode-img1-text2.html:end -->" | safeHTML }}
