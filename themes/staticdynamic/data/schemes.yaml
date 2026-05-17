@@ -597,7 +597,6 @@ ul:
         margin-bottom: "0.5rem"
     ul:
         list-style-type: "none"
-        list-indent: "0"
         margin-top: "0"
         padding-left: "0"
     li:

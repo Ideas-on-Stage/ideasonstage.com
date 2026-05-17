@@ -64,7 +64,7 @@
 				flex-direction: column;
 				background-color: var(--color-back);
 				.menu-dropdown-item {
-					@include flex-row($align-row-v: center);
+					@include flex-row($align-row-v: center);
 					position: relative;
 					padding: 5px 12px;
 					line-height: 20px;
