@@ -250,6 +250,50 @@ ul:
 # Update 2025-09-29: use "." in front of class names, on any level.
 # -----------------
 
+.cl-bodytop-breadcrumbs:
+    scheme: "bg-light"
+    line-height: "1em"
+    ul:
+        list-style-type: "none"
+    li:
+        text-transform: "uppercase"
+
+.cl-bodybottom-contact-form:
+    h2:
+        text-align: "center"
+        margin-top: "0"
+        margin-bottom: "0"
+    p:
+        text-align: "center"
+
+.cl-bodybottom-footer:
+    scheme: "bg-dark"
+    .categories:
+        .category:
+            margin-top: "1rem"
+            margin-bottom: "0rem"
+            h3:
+                margin-top: "0"
+                margin-bottom: "0"
+                --font-ratio: "1"
+                text-transform: "uppercase"
+            .items:
+                .item:
+                    margin-top: "0.8rem"
+                    margin-bottom: "0rem"
+                    --font-ratio: "0.8"
+    .text:
+        --font-ratio: "0.8"
+
+.cl-bodytop-navbar:
+    scheme: "bg-dark"
+    --font-base-size: "14px" # navbar is an exception
+    li:
+        font-family: "Gotham SSm A, Gotham SSm B"
+        font-weight: "700"
+        --font-ratio: "1"
+        text-transform: "uppercase"
+
 .cl-content-content:
     h2:
         margin-top: "2em"
@@ -361,66 +405,6 @@ ul:
         .cl-core--button-secondary:
             --font-ratio: "0.8"
 
-.cl-bodytop-breadcrumbs:
-    scheme: "bg-light"
-    line-height: "1em"
-    ul:
-        list-style-type: "none"
-    li:
-        text-transform: "uppercase"
-
-.cl-bodybottom-contact-form:
-    h2:
-        text-align: "center"
-        margin-top: "0"
-        margin-bottom: "0"
-    p:
-        text-align: "center"
-
-.cl-bodybottom-footer:
-    scheme: "bg-dark"
-    .categories:
-        .category:
-            margin-top: "1rem"
-            margin-bottom: "0rem"
-            h3:
-                margin-top: "0"
-                margin-bottom: "0"
-                --font-ratio: "1"
-                text-transform: "uppercase"
-            .items:
-                .item:
-                    margin-top: "0.8rem"
-                    margin-bottom: "0rem"
-                    --font-ratio: "0.8"
-    .text:
-        --font-ratio: "0.8"
-
-.cl-mainlazy-location:
-    scheme: "bg-black"
-    h2:
-        margin-top: "0em"
-        margin-bottom: "0em"
-        text-align: "center"
-    p:
-        text-align: "center"
-
-.cl-mainlazy-testimonials:
-    scheme: "bg-light"
-    h4:
-        --font-ratio: "0.8"
-    p:
-        --font-ratio: "0.8"
-
-.cl-bodytop-navbar:
-    scheme: "bg-dark"
-    --font-base-size: "14px" # navbar is an exception
-    li:
-        font-family: "Gotham SSm A, Gotham SSm B"
-        font-weight: "700"
-        --font-ratio: "1"
-        text-transform: "uppercase"
-
 .cl-core--button-primary:
     font-family: "Gotham SSm A, Gotham SSm B"
     font-weight: "700"
@@ -447,7 +431,6 @@ ul:
     --color-back: "none"
     --color-text: "var(--color-secondary)"
     --color-text-hover: "var(--color-secondary)"
-
 
 .cl-core--module:
     --flex-row-gap: "var(--flex-row-gap-medium)"
@@ -511,7 +494,7 @@ ul:
     --color-back: "var(--color-lightgray)"
     .button:
         --font-ratio: "0.8"
-    h4:
+    h3:
         --font-ratio: "1"
     p:
         --font-ratio: "0.8"
@@ -578,6 +561,24 @@ ul:
     h2:
         --color-text: "white"
         margin-bottom: "0.5em"
+
+.cl-mainlazy-location:
+    scheme: "bg-black"
+    h2:
+        margin-top: "0em"
+        margin-bottom: "0em"
+        text-align: "center"
+    p:
+        text-align: "center"
+
+.cl-mainlazy-testimonials:
+    scheme: "bg-light"
+    h3:
+        --font-ratio: "0.8"
+        margin-top: "0"
+        margin-bottom: "0"
+    p:
+        --font-ratio: "0.8"
 
 .cl-more--fastsearch:
     --color-search-input-back: "#555"

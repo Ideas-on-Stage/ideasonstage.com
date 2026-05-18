@@ -108,6 +108,11 @@ news:
     related: "También te puede interesar"
 
 # -------------------
+# references
+references:
+    title: "Referencias"
+
+# -------------------
 # table of contents
 tableofcontents:
     title: "Tabla de contenidos"

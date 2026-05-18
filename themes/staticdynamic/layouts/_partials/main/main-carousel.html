@@ -29,7 +29,7 @@
 {{- with $data -}}
 <section id="carousel" class="cl-main-carousel">
 	{{- with .title -}}
-		<h3>{{ . }}</h3>
+		<h2>{{ . }}</h2>
 	{{- end -}}
 	<ul class="container">
 		{{- range .items -}}
@@ -37,9 +37,9 @@
 				<div class="text">
 					<a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
 						{{ with .title }}
-							<h4>
+							<h3>
 								{{ . }}
-							</h4>
+							</h3>
 						{{ end }}
 						{{ with .description }}
 							<p>
