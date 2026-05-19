@@ -25,14 +25,18 @@ mainlazy-references-data: [ list, of, references ]
 {{ "<!-- shortcode-references.html:start -->" | safeHTML }}
 {{- with $data -}}
 <section id="reference-list" class="cl-shortcode-referencesgrid">
+	{{- $title := index (index page.Params "mainlazy-references") "title" -}}
+	{{- with $title -}}
+	<h2 class="cl-core--hidden">{{ . }}</h2>
+	{{- end -}}
 	{{- range . -}}
-		{{- $srcset := partial "f/getimgsrcset.go" .img -}}
-		<img
-			loading="lazy"
-			src="{{ collections.Index $srcset 0 }}"
-			srcset="{{ collections.Index $srcset 1 }}"
-			sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
-			{{ with .client }}alt="{{ . }}"{{ end }} height="100" width="100" />
+	{{- $srcset := partial "f/getimgsrcset.go" .img -}}
+	<img
+		loading="lazy"
+		src="{{ collections.Index $srcset 0 }}"
+		srcset="{{ collections.Index $srcset 1 }}"
+		sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+		{{ with .client }}alt="{{ . }}"{{ end }} height="100" width="100" />
 	{{- end -}}
 </section>
 {{- else -}}

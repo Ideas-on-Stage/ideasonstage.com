@@ -3,7 +3,9 @@ draft: false
 title: "Timeless Presenter"
 description: "In a world obsessed with tools and trends, _Timeless Presenter_ explores the fundamentals of communication that never expire."
 isTitleSkipped: true
-mainlazy-references-data: [ "ebay", "spotify", "salesforce", "bosch" ]
+mainlazy-references:
+    title: "Client References"
+    data: [ "ebay", "spotify", "salesforce", "bosch" ]
 aliases:
   - "/resources/books/timeless-presenter-book/"
 ---

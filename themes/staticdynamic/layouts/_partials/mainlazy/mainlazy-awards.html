@@ -1,6 +1,10 @@
 {{- $data := partial "f/getdatalocalized" (slice . "mainlazy-awards") -}}
 {{- with $data -}}
 	<div class="cl-awards">
+		{{- $title := index (index page.Params "mainlazy-awards") "title" -}}
+		{{- with $title -}}
+		<h2 class="cl-core--hidden">{{ . }}</h2>
+		{{- end -}}
 		{{- range . -}}
 			<div class="cl-awards--item">
 				{{- $srcset := partial "f/getimgsrcset.go" .img -}}

@@ -2,39 +2,40 @@
 {{ $data := partial "f/getdatalocalized" (slice . "mainlazy-testimonials") }}
 {{ with $data }}
 	<section id="testimonials" class="cl-mainlazy-testimonials">
-		{{- with site.Params.testimonials.title -}}
-			<h2 class="cl-core--hidden">{{ . }}</h2>
+		{{- $title := index (index page.Params "mainlazy-testimonials") "title" -}}
+		{{- with $title -}}
+		<h2 class="cl-core--hidden">{{ . }}</h2>
 		{{- end -}}
 		{{/* <!-- iterate over each testimonial --> */}}
 		{{ range . }}
-			<div class="item">
-				{{ with .text }}
-					<p class="text">
-						{{ . }}
-					</p>
+		<div class="item">
+			{{ with .text }}
+				<p class="text">
+					{{ . }}
+				</p>
+			{{ end }}
+			<div class="person">
+				{{ if .img }}
+					{{ $srcset := partial "f/getimgsrcset.go" .img }}
+					<img
+						loading="lazy"
+						src="{{ collections.Index $srcset 0 }}"
+						srcset="{{ collections.Index $srcset 1 }}"
+						sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
+						alt="{{ .name }}"
+						height="60"
+						width="60">
 				{{ end }}
-				<div class="person">
-					{{ if .img }}
-						{{ $srcset := partial "f/getimgsrcset.go" .img }}
-						<img
-							loading="lazy"
-							src="{{ collections.Index $srcset 0 }}"
-							srcset="{{ collections.Index $srcset 1 }}"
-							sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
-							alt="{{ .name }}"
-							height="60"
-							width="60">
+				<div>
+					{{ with .name }}
+						<h3 class="name">{{ . }}</h3>
 					{{ end }}
-					<div>
-						{{ with .name }}
-							<h3 class="name">{{ . }}</h3>
-						{{ end }}
-						{{ with .position }}
-							<p class="position">{{ . }}</p>
-						{{ end }}
-					</div>
+					{{ with .position }}
+						<p class="position">{{ . }}</p>
+					{{ end }}
 				</div>
 			</div>
+		</div>
 		{{ end }} 
 	</section>
 {{ else }}

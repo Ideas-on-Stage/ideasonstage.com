@@ -8,11 +8,20 @@ translationKey: "home"
 mastodon: "https://mastodon.social/@pmorsa"
 
 # blocks data
-body-ctas-data: [ "public-speaking-guide" ]
-main-modules-data: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
-mainlazy-references-data: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
-mainlazy-modules-aside-data: [ "business-presentation-revolution", "news" ]
-mainlazy-testimonials-data: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
+body-ctas:
+    data: [ "public-speaking-guide" ]
+main-modules:
+    title: "Our Services"
+    data: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting" ]
+mainlazy-references:
+    title: "Client References"
+    data: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
+mainlazy-modules-aside:
+    title: "Public Speaking Resources"
+    data: [ "business-presentation-revolution", "news" ]
+mainlazy-testimonials:
+    title: "Testimonials"
+    data: [ "roxanne-varza", "garr-reynolds", "cesar-harada", "nicolas-beau", "david-musotte" ]
 ---
 Ideas on Stage helps leaders deliver powerful presentations, create inspiring events and empower their organizations with high quality public speaking coaching and training.
 

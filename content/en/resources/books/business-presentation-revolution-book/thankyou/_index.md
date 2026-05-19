@@ -5,7 +5,9 @@ description: "Thank you for joining the Business Presentation Revolution."
 ni: true # prevent indexing
 nl: true # prevent listing
 
-mainlazy-modules-aside-data: [ "catalogue", "news" ]
+mainlazy-modules-aside:
+    title: "More Resources"
+    data: [ "catalogue", "news" ]
 ---
 
 ## Welcome to the Revolution

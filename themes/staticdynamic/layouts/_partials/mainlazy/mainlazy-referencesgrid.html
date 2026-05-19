@@ -1,8 +1,9 @@
 {{- $data := partial "f/getdatalocalized" (slice . "mainlazy-references") -}}
 {{- with $data -}}
 	<section id="references" class="cl-referencesgrid">
-		{{- with site.Params.references.title -}}
-			<h2 class="cl-core--hidden">{{ . }}</h2>
+		{{- $title := index (index page.Params "mainlazy-references") "title" -}}
+		{{- with $title -}}
+		<h2 class="cl-core--hidden">{{ . }}</h2>
 		{{- end -}}
 		{{- range . -}}
 			{{ partial "e/img.html" (dict "img" .img   "alt" .client   "loading" "lazy"   "height" "100"   "width" "100") }}

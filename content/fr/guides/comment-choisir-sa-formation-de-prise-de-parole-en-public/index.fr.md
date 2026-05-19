@@ -12,7 +12,9 @@ showtoc: true
 summary: "Vous trouverez une liste de tous les critères d'évaluation pour bien choisir une formation de prise de parole en public pour votre entreprise : certification, compétences, méthode, équipe, pédagogie. En prime, vous trouverez une fiche d'évaluation gratuite avec tous les critères."
 
 # data
-mainlazy-modules-aside-data: [ "public-speaking-training", "public-speaking-coaching" ]
+mainlazy-modules-aside:
+    title: "Ressources"
+    data: [ "public-speaking-training", "public-speaking-coaching" ]
 ---
 
 Cet article explique les critères importants pour choisir une formation en prise de parole en public moderne et qui réponde aux besoins des entreprises. Il vaut mieux faire appel à un organisme de formation ayant une équipe d’experts employés à temps plein et avec une vraie connaissance du fonctionnement du monde de l’entreprise.

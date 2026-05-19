@@ -7,11 +7,20 @@ schema: "Website"
 translationKey: "home"
 
 # blocks data
-body-ctas-data: [ "public-speaking-guide" ]
-main-modules-data: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting", "creative-workshops" ]
-mainlazy-references-data: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
-mainlazy-modules-aside-data: [ "leadership-humanava-formation", "news" ]
-mainlazy-testimonials-data: [ "roxanne-varza", "cesar-harada", "francois-marchessaux", "nicolas-beau", "david-musotte" ]
+body-ctas:
+    data: [ "public-speaking-guide" ]
+main-modules:
+    title: "Services"
+    data: [ "public-speaking-training", "public-speaking-coaching", "communication-consulting", "creative-workshops" ]
+mainlazy-references:
+    title: "Références client"
+    data: [ "fedex", "salesforce", "deloitte", "boston-scientific", "google", "disney", "wbg", "ashoka", "lacoste", "business-france", "safran", "colombus-consulting", "edf", "loreal", "pierre-fabre", "insead", "em-lyon", "biogen"  ]
+mainlazy-modules-aside:
+    title: "Ressources"
+    data: [ "leadership-humanava-formation", "news" ]
+mainlazy-testimonials:
+    title: "Témoignages client"
+    data: [ "roxanne-varza", "cesar-harada", "francois-marchessaux", "nicolas-beau", "david-musotte" ]
 ---
 
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public.

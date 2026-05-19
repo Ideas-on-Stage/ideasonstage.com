@@ -15,60 +15,61 @@
 --> */}}
 
 {{/* <!-- initialize variables --> */}}
-{{ $localizeddata := slice }}
-{{ $localizedresult := slice }}
-{{ $issingle := false }}
+{{- $localizeddata := slice -}}
+{{- $localizedresult := slice -}}
+{{- $issingle := false -}}
 
 {{/* <!-- get current site language code --> */}}
-{{ $languagecode := site.LanguageCode }}
+{{- $languagecode := site.LanguageCode -}}
 
 {{/* <!-- get short language code (en-GB becomes en) --> */}}
-{{ $shortlangcode := index (split $languagecode "-") 0 }}
+{{- $shortlangcode := index (split $languagecode "-") 0 -}}
 
 {{/* <!-- get page object from argument --> */}}
-{{ $page := index . 0 }}
+{{- $page := index . 0 -}}
 
 {{/* <!-- get block type from argument, e.g. "body-carousel" --> */}}
-{{ $pageparam := index . 1 }}
+{{- $pageparam := index . 1 -}}
 
 {{/* <!-- get data type from block type, e.g. "body-carousel" gives "carousel" as data type --> */}}
-{{ $dataparam := index (split $pageparam "-") 1 }}
+{{- $dataparam := index (split $pageparam "-") 1 -}}
 
-{{/* <!-- use block type to retrieve front matter parameter --> */}}
-{{ $datalist := index $page.Params (printf "%s%s" $pageparam "-data") }}
+{{/* <!-- use data type to retrieve front matter parameter --> */}}
+{{- $fmparam := index $page.Params $pageparam -}}
+{{- $datalist := index $fmparam "data" -}}
 
 {{/* <!-- if front matter parameter is a single string, convert it to list --> */}}
-{{ if (partial "f/isstring.go" $datalist) }}
-	{{ $datalist = slice $datalist }}
-	{{ $issingle = true }}
-{{ end }}
+{{- if (partial "f/isstring.go" $datalist) -}}
+	{{- $datalist = slice $datalist -}}
+	{{- $issingle = true -}}
+{{- end -}}
 
 {{/* <!-- get list of data files matching data type --> */}}
-{{ $datafilelist := index site.Data $dataparam }}
+{{- $datafilelist := index site.Data $dataparam -}}
 
 {{/* <!-- iterate over list from page front matter parameter (does nothing if list empty) --> */}}
-{{ range $datalist }}
+{{- range $datalist -}}
 
 	{{/* <!-- get data file matching name configured in page front matter--> */}}
-	{{ $datafile := index $datafilelist . }}
+	{{- $datafile := index $datafilelist . -}}
 
 	{{/* <!-- try to get localized data matching full language code, e.g. "en-GB" --> */}}
-	{{ $localizeddata = index $datafile $languagecode }}
+	{{- $localizeddata = index $datafile $languagecode -}}
 
 	{{/* <!-- if not found, try to get localized data matching short language code, e.g. "en" --> */}}
-	{{ if not $localizeddata }}
-		{{ $localizeddata = index $datafile $shortlangcode }}
-	{{ end }}
+	{{- if not $localizeddata -}}
+		{{- $localizeddata = index $datafile $shortlangcode -}}
+	{{- end -}}
 
 	{{/* <!-- if localized data found, add it to list of results --> */}}
-	{{ if $localizeddata }}
-		{{ $localizedresult = $localizedresult | append $localizeddata }}
-	{{ end }}
+	{{- if $localizeddata -}}
+		{{- $localizedresult = $localizedresult | append $localizeddata -}}
+	{{- end -}}
 
-{{ end }}
+{{- end -}}
 
-{{ if $issingle }}
-	{{ $localizedresult = index $localizedresult 0 }}
-{{ end }}
+{{- if $issingle -}}
+	{{- $localizedresult = index $localizedresult 0 -}}
+{{- end -}}
 
-{{ return $localizedresult }}
+{{- return $localizedresult -}}

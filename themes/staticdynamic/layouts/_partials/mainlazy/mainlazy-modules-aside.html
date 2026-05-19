@@ -1,6 +1,10 @@
 {{ $data := partial "f/getdatalocalized" (slice . "mainlazy-modules-aside") }}
 {{ with $data }}
 	<aside id="modules-aside" class="cl-core--module">
+		{{- $title := index (index page.Params "mainlazy-modules") "title" -}}
+		{{- with $title -}}
+		<h2 class="cl-core--hidden">{{ . }}</h2>
+		{{- end -}}
 		{{ partial "e/modules.html" . }}
 	</aside>
 {{ else }}

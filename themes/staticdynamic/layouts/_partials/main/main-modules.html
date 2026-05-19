@@ -1,8 +1,12 @@
-{{ $data := partial "f/getdatalocalized" (slice . "main-modules") }}
-{{ with $data }}
-	<div id="modules" class="cl-core--module">
+{{- $data := partial "f/getdatalocalized" (slice . "main-modules") -}}
+{{- with $data -}}
+	<section id="modules" class="cl-core--module">
+		{{- $title := index (index page.Params "main-modules") "title" -}}
+		{{- with $title -}}
+		<h2 class="cl-core--hidden">{{ . }}</h2>
+		{{- end -}}
 		{{ partial "e/modules.html" . }}
-	</div>
-{{ else }}
+	</section>
+{{- else -}}
 	{{ partial "e/html-comment.html" "skipped: modules: no .Params.main-modules-data" }}
-{{ end }}
+{{- end -}}
