@@ -1,4 +1,4 @@
-<nav id="navbar" class="cl-bodytop-navbar">
+<nav id="navbar" class="cl-bodytop-navbar" aria-label="Main Menubar">
 	
 	<!-- logo -->
 	{{ $home := site.BaseURL }}
@@ -6,10 +6,11 @@
 		{{ $home = printf "%s%s/" $home site.Language.Lang }}	
 	{{ end }}
 	
-	<a href="{{ $home }}" class="cl-core--a-underline-none">
+	<!-- logo -->
+	<a href="{{ $home }}" class="cl-core--a-underline-none" aria-label="Ideas on Stage">
 		<div class="brand">
 			{{ $logo := resources.Get "img/navbar/ideas-on-stage.svg" }}
-			<img src="data:image/svg+xml;base64,{{ $logo.Content | base64Encode }}" height="52" width="184" alt="Logo Ideas on Stage">
+			<img src="data:image/svg+xml;base64,{{ $logo.Content | base64Encode }}" height="52" width="184" alt="Ideas on Stage">
 		</div>
 	</a>
 	
@@ -22,12 +23,13 @@
 	<input type="checkbox" id="drop" class="menu-checkbox"/>
 	
 	<!-- iosmenu start -->
-	<ul class="menu">
+	<ul class="menu" aria-label="Menu Items">
 		
 		<!-- Menubar Menu Items -->
 		{{ range site.Params.navbar }}
 			<li class="menu-item {{ if .hideonmediumscreens }}menu-shorten{{ end }}">
-				<a href="{{ .url }}" onclick="getElementById('drop').checked = false" class="cl-core--a-underline-none">
+				<a href="{{ .url }}" onclick="getElementById('drop').checked = false" class="cl-core--a-underline-none"
+					aria-label="{{ .name }}">
 					{{ .name }}
 				</a>
 			</li>

@@ -187,8 +187,14 @@
 	}
 
 	.cl-core--hidden {
+		/*
+			Hide an element using clip-path and remove it from document flow.
+			Using clip-path allows element to be accessible for screen readers,
+			so it's a better solution than visibility: hidden.
+		*/
 		position: absolute; /* remove item from document flow */
-		visibility: hidden; /* and hide it */
+		clip: rect(1px 1px 1px 1px); /* deprecated by w3c standards, kept for backwards compatibility */
+		clip-path: rect(1px 1px 1px 1px); /* new property replacing clip-path */
 	}
 	
 	.cl-core--module {
