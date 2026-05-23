@@ -17,15 +17,17 @@
 
 --> */}}
 
-{{ $result := "" }}
-{{ if partial "f/ispage.go" . }}
-	{{ $result = .RelPermalink }}
-{{ else if isset . "href" }}
-	{{ $result = .href }}
-{{ else if isset . "link" }}
-	{{ $result = .link }}
-{{ else if isset . "url" }}
-	{{ $result = .url }}
-{{ end }}
+{{- $type := partial "f/getdatatype" . -}}
+{{- $result := "" -}}
 
-{{ return $result }}
+{{- if eq $type "page" -}}
+	{{- $result = .RelPermalink -}}
+{{- else if isset . "href" -}}
+	{{- $result = .href -}}
+{{- else if isset . "link" -}}
+	{{- $result = .link -}}
+{{- else if isset . "url" -}}
+	{{- $result = .url -}}
+{{- end -}}
+
+{{- return $result -}}

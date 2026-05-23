@@ -23,9 +23,9 @@ Inserts a testimonial with pic, quote, name and title.
 {{- $styletext := index $style "text" -}}
 
 {{ "<!-- shortcode-testimonial.html:start -->" | safeHTML }}
-<div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
+{{ with partial "d/shortcode-div-main" . }}
 	{{ partial "e/photograph" .Params }}
-	<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
+	{{ with partial "d/shortcode-div-text" . }}
 		<p>
 			{{ with .Params.quote }}{{ . | markdownify }}{{ end }}
 		</p>
@@ -36,6 +36,6 @@ Inserts a testimonial with pic, quote, name and title.
 			</strong>
 			{{ with .Params.title }}{{ . | markdownify }}{{ end }}
 		</p>
-	</div>
-</div>
+	{{ end }}
+{{ end }}
 {{ "<!-- shortcode-testimonial.html:end -->" | safeHTML }}
