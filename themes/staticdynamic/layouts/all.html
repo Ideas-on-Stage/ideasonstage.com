@@ -31,15 +31,10 @@
 {{ (printf "<!-- page.Language '%s' -->" .Language) | safeHTML }}
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">	
-
 	<head id="head">
 		{{ partial "e/blocks" (slice "headtop" "head" "headbottom") }}
 	</head>
-
 	<body id="page-top">
-		{{ partial "e/blocks" (slice "bodytop") }}
-		{{ partial "e/blocks" (slice "body") }}
-		{{ partial "e/blocks" (slice "bodybottom") }}
+		{{ partial "e/blocks" (slice "bodytop" "body" "bodybottom") }}
 	</body>
-
 </html>
