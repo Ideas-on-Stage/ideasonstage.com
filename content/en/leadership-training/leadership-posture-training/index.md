@@ -175,7 +175,7 @@ Developing your ability to evolve, support change, and embody living leadership:
 
 {{< shortcode-section-hero
   img="number-1.svg"
-  alt="coaching collectifs" >}}
+  alt="Collective coaching sessions" >}}
 ## Group Coaching to Anchor Practice
 
 At the end of each module, you take part in a group coaching session led online by a professional coach. These sessions help you clarify ideas, share experiences, and turn learning into concrete action.
@@ -184,14 +184,15 @@ At the end of each module, you take part in a group coaching session led online 
 
 
 {{< shortcode-section-hero
-  img="humanava-leadership-interview.jpg" >}}
+  img="humanava-leadership-interview.jpg"
+  alt="Humanava leadership interview" >}}
 {{< /shortcode-section-hero >}}
 
 
 
 {{< shortcode-section-hero
   img="number-2.svg"
-  alt="Espace de confiance" >}}
+  alt="Safe space" >}}
 ## A Safe Space for Deep Growth
 
 At Humanava, we believe that transformation can only occur in a space that is safe, supportive, and demanding at the same time. This is what we cultivate throughout the journey: a human-centered environment where everyone can move at their own pace, explore deeply, and grow without masks.
@@ -200,14 +201,15 @@ At Humanava, we believe that transformation can only occur in a space that is sa
 
 
 {{< shortcode-section-hero
-  img="people.jpg" >}}
+  img="people.jpg"
+  alt="Three people participating to a leadership training" >}}
 {{< /shortcode-section-hero >}}
 
 
 
 {{< shortcode-section-hero
   img="number-3.svg"
-  alt="espace de confiance" >}}
+  alt="Supportive community" >}}
 ## A Living, Supportive Community
 
 During and after the program, you join a collective of engaged leaders from diverse backgrounds. A space for exchange where you can ask questions, draw inspiration from others, and move forward together in a spirit of mutual support.

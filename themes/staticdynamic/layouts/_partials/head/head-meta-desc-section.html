@@ -1,5 +1,5 @@
-{{ $desc := .Description }}
-{{ if ge .Paginator.PageNumber 2 }}
-	{{ $desc = printf "%s | Page %s" .Description (string .Paginator.PageNumber) }}
-{{ end }}
+{{- $desc := .Description -}}
+{{- if ge .Paginator.PageNumber 2 -}}
+	{{- $desc = printf "%s | Page %s" .Description (string .Paginator.PageNumber) -}}
+{{- end -}}
 <meta name="description" property="og:description" content="{{ $desc }}">

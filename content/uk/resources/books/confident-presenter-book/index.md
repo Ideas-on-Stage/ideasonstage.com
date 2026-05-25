@@ -4,7 +4,7 @@ title: "Confident Presenter"
 description: "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."
 isTitleSkipped: true
 aliases:
-  - "/resources/books/confident-presenter-book/"
+  - "/uk/resources/books/confident-presenter-book/"
 ---
 
 {{< shortcode-img1-text2
@@ -80,32 +80,32 @@ Andrea is on a mission to stop great ideas from failing just because of the way 
 {{< shortcode-list-img
     class="corners-square"
     columns="3"
-    img="/resources/books/confident-presenter-book/reader1.jpg"
+    img="/uk/resources/books/confident-presenter-book/reader1.jpg"
     alt="Reader 1 selfie holding Confident Presenter book in front of him" >}}
 {{< shortcode-list-img
     class="corners-square"
     columns="3"
-    img="/resources/books/confident-presenter-book/reader2.jpg"
+    img="/uk/resources/books/confident-presenter-book/reader2.jpg"
     alt="Reader 2 selfie holding Confident Presenter book in front of him" >}}
 {{< shortcode-list-img
     class="corners-square"
     columns="3"
-    img="/resources/books/confident-presenter-book/reader3.jpg"
+    img="/uk/resources/books/confident-presenter-book/reader3.jpg"
     alt="Reader 3 selfie holding Confident Presenter book in front of him" >}}
 {{< shortcode-list-img
     class="corners-square"
     columns="3"
-    img="/resources/books/confident-presenter-book/reader4.jpg"
+    img="/uk/resources/books/confident-presenter-book/reader4.jpg"
     alt="Reader 4 selfie holding Confident Presenter book in front of him" >}}
 {{< shortcode-list-img
     class="corners-square"
     columns="3"
-    img="/resources/books/confident-presenter-book/reader5.jpg"
+    img="/uk/resources/books/confident-presenter-book/reader5.jpg"
     alt="Reader 5 selfie holding Confident Presenter book in front of him" >}}
 {{< shortcode-list-img
     class="corners-square"
     columns="3"
-    img="/resources/books/confident-presenter-book/reader6.jpg"
+    img="/uk/resources/books/confident-presenter-book/reader6.jpg"
     alt="Reader 6 selfie holding Confident Presenter book in front of him" >}}
 
 {{< /shortcode-list >}}

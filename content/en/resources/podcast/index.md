@@ -30,17 +30,17 @@ You can find the Ideas on Stage Podcast on all major platforms, using the links 
 {{< shortcode-list-icon
   columns="3"
   img="/resources/podcast/apple-podcasts.svg"
-  description="Apple Podcasts"
+  alt="Apple Podcasts"
   url="https://podcasts.apple.com/us/podcast/ideas-on-stage-the-leadership-communication-podcast/id1506050111?uo=4" >}}
 {{< shortcode-list-icon
   columns="3"
   img="/resources/podcast/youtube.svg"
-  description="Youtube"
+  alt="Youtube"
   url="https://www.youtube.com/ideasonstage" >}}
 {{< shortcode-list-icon
   columns="3"
   img="/resources/podcast/spotify.svg"
-  description="Spotify"
+  alt="Spotify"
   url="https://open.spotify.com/show/553zZntpVVa4ejnASoFOTt" >}}
 {{< /shortcode-list >}}
 

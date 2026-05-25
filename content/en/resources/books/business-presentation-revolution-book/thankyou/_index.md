@@ -45,14 +45,14 @@ So please tell your colleagues, tell your pets, tell the world! Simply click on 
   url="https://www.linkedin.com/feed/update/urn:li:activity:6790184415256571904/"
   img="/img/icons/linkedin.svg"
   alt="LinkedIn"
-  description="Talk about it on LinkedIn" >}}
+  alt="Talk about it on LinkedIn" >}}
   
 {{< shortcode-list-icon
   columns="2"
   url="https://www.facebook.com/ideasonstage/posts/4371626369517281"
   img="/img/icons/facebook.svg"
   alt="Facebook"
-  description="Talk about it on Facebook" >}}
+  alt="Talk about it on Facebook" >}}
 
 {{< /shortcode-list >}}
 

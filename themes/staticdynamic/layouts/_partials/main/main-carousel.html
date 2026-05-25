@@ -36,22 +36,22 @@
 			<li class="item">
 				<div class="text">
 					<a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
-						{{ with .title }}
+						{{- with .title -}}
 							<h3>
 								{{ . }}
 							</h3>
-						{{ end }}
-						{{ with .description }}
+						{{- end -}}
+						{{- with .description -}}
 							<p>
 								{{ . }}
 							</p>
-						{{ end }}
+						{{- end -}}
 					</a>
-					{{ partial "e/button-secondary" . }}
+					{{- partial "e/button-secondary" . -}}
 				</div>
 				<a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
 					{{- if .img -}}
-						{{ $srcset := partial "f/getimgsrcset.go" .img }}
+						{{- $srcset := partial "f/getimgsrcset.go" .img -}}
 						<img
 							src="{{ index $srcset 0 }}"
 							loading="lazy"

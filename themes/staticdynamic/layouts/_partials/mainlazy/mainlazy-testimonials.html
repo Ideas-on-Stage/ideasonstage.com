@@ -1,22 +1,22 @@
 {{/* <!-- retrieve testimonals list from page.mainlazy-testimonials-data --> */}}
-{{ $data := partial "f/getdatalocalized" (slice . "mainlazy-testimonials") }}
-{{ with $data }}
+{{- $data := partial "f/getdatalocalized" (slice . "mainlazy-testimonials") -}}
+{{- with $data -}}
 	<section id="testimonials" class="cl-mainlazy-testimonials">
 		{{- $title := index (index page.Params "mainlazy-testimonials") "title" -}}
 		{{- with $title -}}
 		<h2 class="cl-core--hidden">{{ . }}</h2>
 		{{- end -}}
 		{{/* <!-- iterate over each testimonial --> */}}
-		{{ range . }}
+		{{- range . -}}
 		<div class="item">
-			{{ with .text }}
+			{{- with .text -}}
 				<p class="text">
 					{{ . }}
 				</p>
-			{{ end }}
+			{{- end -}}
 			<div class="person">
-				{{ if .img }}
-					{{ $srcset := partial "f/getimgsrcset.go" .img }}
+				{{- if .img -}}
+					{{- $srcset := partial "f/getimgsrcset.go" .img -}}
 					<img
 						loading="lazy"
 						src="{{ collections.Index $srcset 0 }}"
@@ -25,19 +25,19 @@
 						alt="{{ .name }}"
 						height="60"
 						width="60">
-				{{ end }}
+				{{- end -}}
 				<div>
-					{{ with .name }}
+					{{- with .name -}}
 						<h3 class="name">{{ . }}</h3>
-					{{ end }}
-					{{ with .position }}
+					{{- end -}}
+					{{- with .position -}}
 						<p class="position">{{ . }}</p>
-					{{ end }}
+					{{- end -}}
 				</div>
 			</div>
 		</div>
-		{{ end }} 
+		{{- end -}} 
 	</section>
-{{ else }}
+{{- else -}}
 	{{ partial "e/html-comment.html" "skipped: testimonials: no .Params.mainlazy-testimonials-data" }}
-{{ end }}
+{{- end -}}

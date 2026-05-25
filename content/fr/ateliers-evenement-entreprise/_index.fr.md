@@ -70,23 +70,23 @@ Plus qu’un atelier, cette activité marquera durablement les esprits de votre 
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/transformation.svg"
-  description="Ateliers Personnalisés" >}}
+  alt="Ateliers Personnalisés" >}}
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/vision.svg"
-  description="Vision et missions claires" >}}
+  alt="Vision et missions claires" >}}
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/fast.svg"
-  description="Transformation plus rapide" >}}
+  alt="Transformation plus rapide" >}}
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/group.svg"
-  description="Renforcement des équipes" >}}
+  alt="Renforcement des équipes" >}}
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/performance.svg"
-  description="Amélioration des performances" >}}
+  alt="Amélioration des performances" >}}
 
 {{< /shortcode-list >}}
 

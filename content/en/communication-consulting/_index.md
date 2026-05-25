@@ -35,27 +35,27 @@ Our corporate communication strategy consulting branch offers all necessary serv
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/identity.svg"
-  description="Reinforce your identity" >}}
+  alt="Reinforce your identity" >}}
 
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/vision.svg"
-  description="Clarify your vision" >}}
+  alt="Clarify your vision" >}}
 
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/fast.svg"
-  description="Accelerate your transformation" >}}
+  alt="Accelerate your transformation" >}}
 
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/group.svg"
-  description="Improve employee coordination" >}}
+  alt="Improve employee coordination" >}}
 
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/performance.svg"
-  description="Increase performance" >}}
+  alt="Increase performance" >}}
   
 {{< /shortcode-list >}}
 
@@ -97,23 +97,23 @@ Once we have a clear overall communication strategy in place; we work with you t
 {{< shortcode-list-icon
   columns="5"
   img="leader.svg"
-  description="Leadership Meeting" >}}
+  alt="Leadership Meeting" >}}
 {{< shortcode-list-icon
   columns="5"
   img="launch.svg"
-  description="Launches and Rollouts" >}}
+  alt="Launches and Rollouts" >}}
 {{< shortcode-list-icon
   columns="5"
   img="csr.svg"
-  description="Corporate and Social Responsibility" >}}
+  alt="Corporate and Social Responsibility" >}}
 {{< shortcode-list-icon
   columns="5"
   img="transformation.svg"
-  description="Organizational Transformation Plan" >}}
+  alt="Organizational Transformation Plan" >}}
 {{< shortcode-list-icon
   columns="5"
   img="certificate.svg"
-  description="ESG communication" >}}
+  alt="ESG communication" >}}
 {{< /shortcode-list >}}
 
 {{< /shortcode-section >}}

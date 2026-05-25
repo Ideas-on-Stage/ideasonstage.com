@@ -7,7 +7,7 @@ translationKey: "team/andrea-pacini"
 weight: 210
 schema: "person"
 ---
-Andrea Pacini is the author of [Confident Presenter](https://www.ideasonstage.com/resources/books/confident-presenter-book/), a presentation coach and Head of Ideas on Stage UK. He specialises in helping business owners, leaders and teams deliver clear presentations to prospects – presentations that guide potential clients to the next step.
+Andrea Pacini is the author of [Confident Presenter](https://www.ideasonstage.com/uk/resources/books/confident-presenter-book/), a presentation coach and Head of Ideas on Stage UK. He specialises in helping business owners, leaders and teams deliver clear presentations to prospects – presentations that guide potential clients to the next step.
 
 In 2024 he was awarded Best Virtual Speaker at The Speaker Awards.
 

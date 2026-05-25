@@ -96,5 +96,5 @@ La chose la plus importante à retenir est de fournir une valeur réelle – con
 
 **Vous voulez en savoir plus ?** 
 
-* Lire *[Confident Presenter](https://www.ideasonstage.com/resources/books/confident-presenter-book/)* et *[Business Presentation Revolution](https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/)*
+* Lire *[Confident Presenter](https://www.ideasonstage.com/uk/resources/books/confident-presenter-book/)* et *[Business Presentation Revolution](https://www.ideasonstage.com/resources/books/business-presentation-revolution-book/)*
 * Pour tirer le meilleur parti du livre, utilisez le *[Confident Presenter Scorecard](https://presentationscorecard.scoreapp.com/)* pour évaluer vos compétences en  matière de présentation en moins de 3 minutes.

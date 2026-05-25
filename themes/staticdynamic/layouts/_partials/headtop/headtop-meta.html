@@ -2,17 +2,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" property="og:author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}">
-{{- if .Params.headtitle -}}
+{{- if .Params.headtitle }}
 <meta name="title" property="og:title" content="{{ .Params.headtitle }}">
-{{- else -}}
+{{- else }}
 	<meta name="title" property="og:title" content="{{ .Title }}">
-{{- end -}}
+{{- end }}
 <meta name ="url" property="og:url" content ="{{ .Permalink }}">
-{{- if .Params.picture -}}
+{{- if .Params.picture }}
 	<meta name ="image" property="og:image" content="{{ partial "f/getimgpath.go" . }}">
 	<link rel="image_src" href="{{ partial "f/getimgpath.go" . }}">
-{{- end -}}
-{{- if eq .Params.ni true -}}
+{{- end }}
+{{- if eq .Params.ni true }}
 	<meta name="robots" content="noindex">
 {{- end -}}
 

@@ -178,7 +178,8 @@ Développer sa capacité à évoluer, à accompagner le changement et à incarne
 
 
 {{< shortcode-section-hero
-  img="humanava-leadership-interview.jpg" >}}
+  img="humanava-leadership-interview.jpg"
+  alt="Humanava interview de leadership" >}}
 {{< /shortcode-section-hero >}}
 
 
@@ -193,7 +194,8 @@ Chez Humanava, nous croyons que la transformation ne peut avoir lieu que dans un
 
 
 {{< shortcode-section-hero
-  img="people.jpg" >}}
+  img="people.jpg"
+  alt="Trois personnes participant à un atelier de leadership" >}}
 {{< /shortcode-section-hero >}}
 
 

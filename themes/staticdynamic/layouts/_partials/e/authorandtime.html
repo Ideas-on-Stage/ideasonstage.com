@@ -11,21 +11,23 @@
 
 <section id="authorandtime" class="cl-core--authorandtime">
 	<p>
-		{{ if isset .Params "author" }}
-			{{ $scratch := newScratch }}
-			{{ $scratch.Set "author" "/team/" }}
-			{{ $author := .Params.author | urlize }}
-			{{ $scratch.Add "author" $author }}
-			{{ with .Site.GetPage ($scratch.Get "author") }}
-				{{ if ne .Params.draft "true" }}
+		{{- if isset .Params "author" -}}
+			{{- $scratch := newScratch -}}
+			{{- $scratch.Set "author" "/team/" -}}
+			{{- $author := .Params.author | urlize -}}
+			{{- $scratch.Add "author" $author -}}
+			{{- with .Site.GetPage ($scratch.Get "author") -}}
+				{{- if ne .Params.draft "true" -}}
 					{{ $.Params.author }} —
-				{{ else }}
+				{{- else -}}
 					{{ .Params.author }} -
-				{{ end }}
-			{{ else }} 
+				{{- end -}}
+			{{- else -}} 
 				{{ .Params.author }} -
-			{{ end }}
-		{{ end }}
+			{{- end -}}
+		{{- else -}}
+			{{ partial "e/html-comment" (dict "level" "info" "source" "e/authorandtime" "comment" "skipped author because no author data found") }}
+		{{- end -}}
 		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
 			{{ partial "f/getdate.go" .Date }}
 		</time> 

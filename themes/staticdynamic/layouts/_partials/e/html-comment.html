@@ -6,7 +6,19 @@
 	
 	Arguments:
 	- comment as string
-	
+	- OR a dict containing:
+		- "level": level of alert INFO, WARNING, ERROR
+		- "source": source of message, for example name of file containing code where message is generated
+		- "comment": message to display
 --> */}}
 
-{{ (printf "<!-- %s -->" .) | safeHTML }}
+{{- $data := . -}}
+{{- $type := partial "f/getdatatype" $data -}}
+{{- if eq "string" $type -}}
+	{{ (printf "<!-- %s -->" $data) | safeHTML }}
+{{- else if eq "dict" $type -}}
+	{{- $level := (index $data "level") | upper -}}
+	{{- $file := index $data "file" -}}
+	{{- $comment := index $data "comment" -}}
+	{{ (printf "<!--%s: %s - %s-->" $level $file $comment) | safeHTML }}
+{{- end -}}

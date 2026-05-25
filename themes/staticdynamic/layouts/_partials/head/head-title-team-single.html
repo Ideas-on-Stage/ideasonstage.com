@@ -1,9 +1,9 @@
 <title>
-	{{ if and .Params.position .Params.Name }}
+	{{- if and .Params.position .Params.Name -}}
 		{{/* <!-- Team member page --> */}}
 		{{ (printf "%s - %s | %s %s" .Params.name .Params.position site.Title site.Params.Country) | truncate 70 }}
-	{{ else if .Params.name }}
+	{{- else if .Params.name -}}
 		{{/* <!-- Team member page with name only --> */}}
 		{{ (printf "%s | %s %s" .Params.name site.Title site.Params.Country) | truncate 70 }}
-	{{ end }}
+	{{- end -}}
 </title>

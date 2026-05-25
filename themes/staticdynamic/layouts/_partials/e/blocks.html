@@ -13,7 +13,7 @@
 
 --> */}}
 
-{{ "<!-- partials/e/blocks.html:start -->" | safeHTML  }}
+{{- "<!-- partials/e/blocks.html:start -->" | safeHTML  }}
 {{- $parts := . -}}
 {{- range $parts -}}
 	{{- $part := . -}}
@@ -22,10 +22,10 @@
 	{{- range $blocks -}}
 		{{- $block := . -}}
 		{{- $partial := printf "%s/%s.html" $part $block -}}
-		{{- $commentstart := printf "<!-- %s:start -->" $partial -}}
+		{{- $commentstart := printf "<!-- %s:start -->" $partial }}
 		{{ $commentstart | safeHTML }}
 		<!-- display the block using the partial file -->
-		{{ partial $partial page }}
+		{{- partial $partial page }}
 		{{- $commentend := printf "<!-- %s:end -->" $partial -}}
 		{{ $commentend | safeHTML }}
 	{{- end -}}

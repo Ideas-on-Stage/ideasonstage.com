@@ -28,7 +28,7 @@ Inserts wide image
 {{- $height := .Get "height" -}}
 
 {{ "<!-- shortcode-img-wide.html:start -->" | safeHTML }}
-<div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
-	{{ partial "e/img" .Params }}
-</div>
+{{ with partial "d/shortcode-div-main" . }}
+	{{ partial "e/img" . }}
+{{ end }}
 {{ "<!-- shortcode-img-wide.html:end -->" | safeHTML }}

@@ -33,9 +33,9 @@ Individual speaker coaching to help you revolutionize the way you present, with 
 
 {{< shortcode-link-img1-text2
   class="margin-top margin-bottom"
-  link="/public-speaking-coaching/media-training/"
+  link="/leadership-training/media-training/"
   title="Media Training"
-  picture="/public-speaking-coaching/media-training/media-training.jpg" >}}
+  picture="/leadership-training/media-training/media-training.jpg" >}}
 Specialist coaching to help you prepare to face tough questions, from the media or your employees.
 {{< /shortcode-link-img1-text2 >}}
 

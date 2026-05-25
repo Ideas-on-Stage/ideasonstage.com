@@ -15,22 +15,8 @@ Inserts image
 
 --> */}}
 
-{{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass" . -}}
-{{- $classmain := index $class "main" -}}
-{{- $classtext := index $class "text" -}}
-{{- $style := partial "f/gethtmlattrstyle" . -}}
-{{- $stylemain := index $style "main" -}}
-{{- $styletext := index $style "text" -}}
-{{- $img := .Get "img" -}}
-{{- $alt := .Get "alt" -}}
-{{- $width := .Get "width" -}}
-{{- $height := .Get "height" -}}
-
-{{/* <!-- check and process parameters --> */}}
-
 {{ "<!-- shortcode-img.html:start -->" | safeHTML }}
-<div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
-	{{ partial "e/img" .Params }}
-</div>
+{{ with partial "d/shortcode-div-main" . }}
+	{{ partial "e/img" . }}
+{{ end }}
 {{ "<!-- shortcode-img.html:end -->" | safeHTML }}

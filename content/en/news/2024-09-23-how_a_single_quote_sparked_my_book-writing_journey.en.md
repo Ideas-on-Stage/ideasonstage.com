@@ -9,7 +9,7 @@ banner = "/img/news/website_article_image_book.png"
 +++
 ![Confident Presenter book and award](/img/news/website_article_image_book.png "Confident Presenter book")
 
-In 2024, my book, [Confident Presenter](https://www.ideasonstage.com/resources/books/confident-presenter-book/), was awarded **Highly Commended** in the Business Self-Development Book category at the **Business Book Awards**. And it all started with one quote:
+In 2024, my book, [Confident Presenter](https://www.ideasonstage.com/uk/resources/books/confident-presenter-book/), was awarded **Highly Commended** in the Business Self-Development Book category at the **Business Book Awards**. And it all started with one quote:
 
 *"The book that changes your life is not the one you read, it's the one you write."*
 

@@ -1,7 +1,7 @@
 <title>
-	{{ if .Params.headtitle }}
+	{{- if .Params.headtitle -}}
 		{{ (printf "%s" .Params.headtitle) | truncate 70 }}
-	{{ else }}
+	{{- else -}}
 		{{ (printf "%s | %s" .Title site.Params.Country) | truncate 70 }}
-	{{ end }}
+	{{- end -}}
 </title>

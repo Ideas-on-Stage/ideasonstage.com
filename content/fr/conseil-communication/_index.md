@@ -33,27 +33,27 @@ Notre offre de conseil en stratégie de communication d'entreprise propose tous 
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/identity.svg"
-  description="Identité renforcée" >}}
+  alt="Identité renforcée" >}}
 
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/vision.svg"
-  description="Vision et missions claires" >}}
+  alt="Vision et missions claires" >}}
 
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/fast.svg"
-  description="Transformation plus rapide" >}}
+  alt="Transformation plus rapide" >}}
 
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/group.svg"
-  description="Meilleure coordination des équipes" >}}
+  alt="Meilleure coordination des équipes" >}}
 
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/performance.svg"
-  description="Amélioration des performances" >}}
+  alt="Amélioration des performances" >}}
   
 {{< /shortcode-list >}}
 
@@ -89,23 +89,23 @@ Une fois que nous avons dessiné une stratégie de communication globale claire,
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/leader.svg"
-  description="Réunion de management" >}}
+  alt="Réunion de management" >}}
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/launch.svg"
-  description="Lancements et déploiements" >}}
+  alt="Lancements et déploiements" >}}
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/csr.svg"
-  description="Responsabilité sociétale des entreprises" >}}
+  alt="Responsabilité sociétale des entreprises" >}}
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/transformation.svg"
-  description="Plan de transformation" >}}
+  alt="Plan de transformation" >}}
 {{< shortcode-list-icon
   columns="5"
   img="/img/icons/certificate.svg"
-  description="ESG" >}}
+  alt="ESG" >}}
 {{< /shortcode-list >}}
 
 {{< /shortcode-section >}}

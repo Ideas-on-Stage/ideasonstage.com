@@ -20,6 +20,7 @@ translationKey: "leadership-training/business-presentation-revolution-masterclas
 {{< shortcode-section-hero
   color="white"
   img="hero.jpg"
+  alt="Business Presentation Revolution"
   overlay=true >}}
 # Business Presentation Revolution Masterclass
 {{< /shortcode-section-hero >}}
@@ -52,6 +53,7 @@ In this masterclass with Phil Waknell, author of the best-selling book Business 
 
 {{< shortcode-section-hero
   img="presentation-entreprise.jpg" >}}
+  alt="Présentation en entreprise"
 {{< /shortcode-section-hero >}}
 
 

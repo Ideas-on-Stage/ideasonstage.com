@@ -14,7 +14,7 @@ services: [ formations, coaching ]
 skills: [ leadership ]
 
 # url
-translationKey: "public-speaking-training/media-training"
+translationKey: "leadership-training/media-training"
 aliases:
   - /coaching-prise-de-parole-en-public/media-training/
 ---
