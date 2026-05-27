@@ -6,8 +6,6 @@ news = ["general"]
 date = "2026-05-28"
 author = "Andrea Pacini"
 +++
-
-
 Many speakers prepare an introduction for themselves.
 
 Fewer think about what happens after they speak.
@@ -28,9 +26,8 @@ So next time you speak, think about how your talk will land after you leave the 
 
 That final moment matters too.
 
-
-
-
 <hr>
 
-This reflection is adapted from *Timeless Presenter*, my book on the principles of communication that never expire. Learn more about the book here: <https://www.ideasonstage.com/uk/resources/books/timeless-presenter-book/>
+This reflection is adapted from *Timeless Presenter*, my book on the principles of communication that never expire. 
+
+Learn more about the book here: <https://www.ideasonstage.com/uk/resources/books/timeless-presenter-book/>
