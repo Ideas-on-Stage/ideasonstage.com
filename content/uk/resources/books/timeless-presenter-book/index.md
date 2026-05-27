@@ -20,7 +20,7 @@ In a world obsessed with tools and trends, _Timeless Presenter_ explores the pri
 {{< shortcode-button-primary
   class="margin-top margin-bottom"
   name="ORDER NOW"
-  url="https://amzn.eu/d/0dgDA4Ii" >}}
+  url="https://geni.us/TimelessPresenter" >}}
 
 {{< /shortcode-img1-text2 >}}
 
@@ -134,5 +134,5 @@ If you want to think more deeply about how you influence, lead and share ideas, 
 {{< shortcode-call-to-action
   class="margin-top margin-bottom"
   button="ORDER NOW"
-  url="https://amzn.eu/d/0dgDA4Ii" >}}
+  url="https://geni.us/TimelessPresenter" >}}
 {{< /shortcode-call-to-action >}}
