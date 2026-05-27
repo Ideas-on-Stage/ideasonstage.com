@@ -1,7 +1,7 @@
 en:
     title: "Confident Presenter"
     layout: "module-half-text-picture.html"
-    style: "bg-primary"
+    style: "bg-light"
     picture: "/img/modules/confident-presenter-book.png"
     url: "https://www.ideasonstage.com/uk/resources/books/confident-presenter-book/"
     description: "Learn the five key principles to communicate a compelling message that inspires action, growth and impact."

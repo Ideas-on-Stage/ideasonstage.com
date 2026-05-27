@@ -18,7 +18,7 @@ mainlazy-references:
     data: [ "ebay", "spotify", "bosch", "octopuselectricvehicles", "havas", "rainmaking", "tbifgc", "fedex", "salesforce", "deloitte", "google", "disney", "wbg", "lacoste", "loreal" ]
 mainlazy-modules-aside:
     title: "Resources"
-    data: [ "uk-confidentpresenter", "uk-presentationscore", "uk-freewebclass", "uk-freeminicourse", "uk-kids-on-stage" ]
+    data: [ "uk-confidentpresenter", "uk-timelesspresenter", "uk-presentationscore", "uk-freewebclass", "uk-kids-on-stage" ]
 mainlazy-testimonials:
     title: "Client Testimonials"
     data: [ "tom-katte", "cam-beaudoin", "eran-shlomi", "margaret-satya-rose", "caroline-boston", "graham-purvis" ]
