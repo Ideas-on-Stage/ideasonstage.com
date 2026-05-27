@@ -6,8 +6,6 @@ news = ["general"]
 date = "2026-05-27"
 author = "Andrea Pacini"
 +++
-
-
 During an Adele concert in Birmingham, the sound system failed mid-song. The lights stayed on – the music vanished.
 
 But Adele didn’t stop.
@@ -30,7 +28,8 @@ You engage your audience with your message and your presence. If something break
 
 When tech fails, don’t let it stop you.
 
-
 <hr>
 
-This reflection is adapted from *Timeless Presenter*, my book on the principles of communication that never expire. Learn more about the book here: <https://www.ideasonstage.com/uk/resources/books/timeless-presenter-book/>
+This reflection is adapted from *Timeless Presenter*, my book on the principles of communication that never expire. 
+
+Learn more about the book here: <https://www.ideasonstage.com/uk/resources/books/timeless-presenter-book/>
