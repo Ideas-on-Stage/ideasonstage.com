@@ -6,8 +6,6 @@ news = ["general"]
 date = "2026-05-29"
 author = "Andrea Pacini"
 +++
-
-
 In the 1940s, the U.S. Air Force had a problem: pilots were crashing fully functional planes.
 
 Investigators blamed human error – until researcher Gilbert Daniels discovered the issue. Cockpits were designed based on “average” body measurements, but no single pilot matched the average.
@@ -24,9 +22,8 @@ The real measure is different: Did the audience feel something new? Did they und
 
 If not, adjust.
 
-
-
-
 <hr>
 
-This reflection is adapted from *Timeless Presenter*, my book on the principles of communication that never expire. Learn more about the book here: <https://www.ideasonstage.com/uk/resources/books/timeless-presenter-book/>
+This reflection is adapted from *Timeless Presenter*, my book on the principles of communication that never expire. 
+
+Learn more about the book here: <https://www.ideasonstage.com/uk/resources/books/timeless-presenter-book/>
