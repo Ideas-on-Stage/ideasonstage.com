@@ -32,4 +32,4 @@ When tech fails, don’t let it stop you.
 
 This reflection is adapted from *Timeless Presenter*, my book on the principles of communication that never expire. 
 
-Learn more about the book here: <https://www.ideasonstage.com/uk/resources/books/timeless-presenter-book/>
+[Learn more about the book here.](https://www.ideasonstage.com/uk/resources/books/timeless-presenter-book/)
