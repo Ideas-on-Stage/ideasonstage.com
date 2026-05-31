@@ -29,15 +29,15 @@
 {{- $img := false -}}
 
 {{/* <!-- if the .img property is set in $data... --> */}}
-{{- if (isset $data "img") -}}
+{{- if (index $data "img") -}}
 	{{/* <!-- ...then use it --> */}}
 	{{- $img = $data.img -}}
 {{/* <!-- else if the .picture property is set in $data... --> */}}
-{{- else if isset $data "picture" -}}
+{{- else if index $data "picture" -}}
 	{{/* <!-- ...then use it (deprecated, use img instead) --> */}}
 	{{- $img = $data.picture -}}
 {{/* <!-- else if the .src property is set in $data... --> */}}
-{{- else if isset $data "src" -}}
+{{- else if index $data "src" -}}
 	{{/* <!-- else it can be a data or shortcode file, use .src property --> */}}
 	{{ $img = $data.src -}}
 {{- else }}

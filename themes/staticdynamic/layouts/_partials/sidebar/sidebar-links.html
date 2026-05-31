@@ -1,5 +1,5 @@
 {{ "<!-- partials/side/links:start -->" | safeHTML }}
-{{- if isset .Params "dt-sidebar" -}}
+{{- if index .Params "dt-sidebar" -}}
 {{- $data := index .Params "dt-sidebar" -}}
 <section id="links" class="cl-sidebar-links">
 	{{- with $data.title -}}

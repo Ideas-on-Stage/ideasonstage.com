@@ -37,19 +37,19 @@
 	{{ $result = index site.Data.layouts._common "headbottom" }}
 	
 {{/* <!-- if custom part exists in page front matter, use it --> */}}
-{{ else if isset page.Params $part }}
+{{ else if index page.Params $part }}
 	{{ $result = index page.Params $part }}
 
 {{/* <!-- if specific blocks matching page .Type are defined in /data/layouts.yaml, use it --> */}}
-{{ else if (isset site.Data.layouts $page.Type) }}
+{{ else if index site.Data.layouts $page.Type }}
 	{{ $type := index site.Data.layouts $page.Type }}
 	{{ if $type }}
 		{{/* <!-- and if specific blocks matching page .Kind are defined in /data/layouts.yaml --> */}}
-		{{ if (isset $type $page.Kind) }}
+		{{ if index $type $page.Kind }}
 			{{ $kind := index $type $page.Kind }}
 			{{/* <!-- 2024-09-02 ADD test to check if $part is set in layout.yaml --> */}}
 			{{/* <!-- and if specific blocks matching "part" (head or body) are defined in /data/layouts.yaml --> */}}
-			{{ if (isset $kind $part) }}
+			{{ if index $kind $part }}
 				{{/* <!-- then use specific blocks defined in /data/layouts.yaml --> */}}
 				{{ $result = index (index $type $page.Kind) $part }}
 		{{ end }}

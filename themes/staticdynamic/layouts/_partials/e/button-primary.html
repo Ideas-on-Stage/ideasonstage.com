@@ -14,17 +14,18 @@
 {{- $url := false -}}
 
 {{/* <!-- process parameters --> */}}
-{{- if isset . "button" -}}
+{{- if .button -}}
 	{{- $text = .button -}}
-{{- else if isset . "name" -}}
+{{- else if .name -}}
 	{{- $text = .name -}}
 {{- else -}}
 	<p class="error">button-primary: missing parameter "name"</p>
 {{- end -}}
-{{- if isset . "url" -}}
+
+{{- if .url -}}
 	{{/* <!-- url should be used whenever possible, link or other names are deprecated --> */}}
 	{{- $url = .url -}}
-{{- else if isset . "link" -}}
+{{- else if .link -}}
 	{{- $url = .link -}}
 {{- else -}}
 	<p class="error">button-primary: missing parameter url</p>

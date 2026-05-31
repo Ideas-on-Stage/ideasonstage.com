@@ -41,11 +41,11 @@
 		{{/* <!-- if thumbnail.jpg exists, use thumbnail.jpg --> */}}
 		{{ $img = $thumbtest.RelPermalink }}
 	{{/* <!-- ...else if img parameter extists... --> */}}
-	{{ else if (isset $data "img") }}
+	{{ else if (index $data "img") }}
 		{{/* <!-- ...then use it --> */}}
 		{{ $img = $data.img }}
 	{{/* <!-- ...else if .picture parameter exists... --> */}}
-	{{ else if isset $data "picture" }}
+	{{ else if index $data "picture" }}
 		{{/* <!-- ...then use it (deprecated in favor of img) --> */}}
 		{{ $img = $data.picture }}
 	{{ end }}
@@ -59,7 +59,7 @@
 		{{ $imgpath = $img }}
 	{{ else }}
 		{{/* <!-- else add path --> */}}
-		{{ if (isset $data "url") }}
+		{{ if (index $data "url") }}
 			{{ $imgpath = path.Join $data.url $img }}
 		{{ else }}
 			{{ $imgpath = path.Join .RelPermalink $img }}

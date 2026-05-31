@@ -23,11 +23,11 @@
 {{- $path := "" -}}
 {{- $img := "" -}}
 
-{{- if isset . "alt" -}}
+{{- if .alt -}}
 	{{- $alt = .alt -}}
 {{- end -}}
 
-{{- if isset . "height" -}}
+{{- if .height -}}
 	{{- $height := .height -}}
 	{{- $width := .height -}}
 {{- end -}}

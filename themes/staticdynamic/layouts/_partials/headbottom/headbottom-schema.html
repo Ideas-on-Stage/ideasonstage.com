@@ -1,10 +1,10 @@
-{{- if isset .Params "schema" -}}
+{{- if index .Params "schema" -}}
 	{{- $schema := lower .Params.schema -}}
 	{{ partial (printf "schema/%s.html" $schema) . }}
 {{- end -}}
-{{- if isset .Params "events" -}}
+{{- if index .Params "events" -}}
 	{{ partial "schema/events.html" . }}
 {{- end -}}
-{{- if isset .Params "videoobjects" -}}
+{{- if index .Params "videoobjects" -}}
 	{{ partial "schema/videoobjects.html" . }}
 {{- end -}}

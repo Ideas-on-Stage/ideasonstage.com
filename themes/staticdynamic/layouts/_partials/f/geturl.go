@@ -17,17 +17,18 @@
 
 --> */}}
 
+{{- $data := partial "f/getdata" . -}}
 {{- $type := partial "f/getdatatype" . -}}
 {{- $result := "" -}}
 
 {{- if eq $type "page" -}}
 	{{- $result = .RelPermalink -}}
-{{- else if isset . "href" -}}
-	{{- $result = .href -}}
-{{- else if isset . "link" -}}
-	{{- $result = .link -}}
-{{- else if isset . "url" -}}
-	{{- $result = .url -}}
+{{- else if index $data "href" -}}
+	{{- $result = index $data "href" -}}
+{{- else if index $data "link" -}}
+	{{- $result = index $data "link" -}}
+{{- else if index $data "url" -}}
+	{{- $result = index $data "url" -}}
 {{- end -}}
 
 {{- return $result -}}

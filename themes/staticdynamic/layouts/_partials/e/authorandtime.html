@@ -11,12 +11,10 @@
 
 <section id="authorandtime" class="cl-core--authorandtime">
 	<p>
-		{{- if isset .Params "author" -}}
-			{{- $scratch := newScratch -}}
-			{{- $scratch.Set "author" "/team/" -}}
+		{{- if .Params.author -}}
 			{{- $author := .Params.author | urlize -}}
-			{{- $scratch.Add "author" $author -}}
-			{{- with .Site.GetPage ($scratch.Get "author") -}}
+			{{- $page := printf "/team/%s" $author -}}
+			{{- with .Site.GetPage $page -}}
 				{{- if ne .Params.draft "true" -}}
 					{{ $.Params.author }} —
 				{{- else -}}

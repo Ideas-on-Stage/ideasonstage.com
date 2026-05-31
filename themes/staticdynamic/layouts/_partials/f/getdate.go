@@ -15,7 +15,7 @@
 
 {{/* <!-- get language --> */}}
 {{ $lang := site.LanguageCode }}
-{{ if isset site.Data.multilingual.days $lang }}
+{{ if index site.Data.multilingual.days $lang }}
 {{ else }}
 	{{/* <!-- default to English if language not set --> */}}
 	{{ $lang = "en" }}

@@ -56,7 +56,7 @@
 		{{ $imgpath = $img }}
 	{{ else }}
 		{{/* <!-- else add path --> */}}
-		{{ if (isset $data "url") }}
+		{{ if (index $data "url") }}
 			{{ $imgpath = path.Join $data.url $img }}
 		{{ else }}
 			{{ $imgpath = path.Join page.RelPermalink $img }}
