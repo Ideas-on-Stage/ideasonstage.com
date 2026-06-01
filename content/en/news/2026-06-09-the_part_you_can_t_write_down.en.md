@@ -1,30 +1,34 @@
 +++
 draft = false
-title = "THE PART YOU CAN’T WRITE DOWN"
+title = "IN LOVE WITH THE AUDIENCE"
 tags = ["Timeless Presenter"]
 news = ["general"]
-date = "2026-06-10"
+date = "2026-06-11"
 author = "Andrea Pacini"
 +++
 
 
-I’ve worked with many marketing agencies that pitch proposals to potential clients. In most cases, the clients already have the written proposal. They’ve seen the decks. They’ve read the numbers. The information is there.
+Andy Lopata – a brilliant speaker and author – was once invited to speak at an event for a hairdressing company.
 
-The same thing happens in investment pitches.
+He wasn’t a hairdresser. He didn’t know the industry. But instead of guessing what might resonate, he did something simple – and smart.
 
-So why ask for a presentation?
+He asked to meet five people who would be in the audience. He spoke with them and asked questions. He learned what mattered to them and what challenges they faced.
 
-Because facts alone don’t close deals. When a client or an investor invites you to present, they’re looking for trust.
+Then he built his talk around what he’d learned. He used their language. He wove in their stories. And he delivered a talk that felt relevant to the people in the room.
 
-They want to see how you think and how you communicate. They want to know if they can work with you. They’re asking: “Can I trust these people with my brand, my budget, my money, my goals?”
+That’s what great speakers do. They focus on who they’re speaking to.
 
-That’s why the presentation matters – more than most people realise.
+Before they even think about what they want to say, they ask themselves:
 
-It’s a chance to connect. To add clarity. To show you care – and that you’re capable.
+* *Who’s in the room?*
+* *What do they care about?*
+* *What do they need to believe, feel or do?*
 
-So the next time you’re asked to “walk them through it,” remember: they’re listening to your pitch and forming an impression of you as a partner.
+The best speakers are in love with their audience. They prepare like it matters – because it does.
 
-And that’s your edge – if you prepare with that in mind.
+So before your next presentation, pause and ask yourself:
+
+*Do I really understand who I’m speaking to?*
 
 
 
