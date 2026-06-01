@@ -6,7 +6,7 @@ picture: "strategy.jpg"
 translationKey: "communication-consulting/communication-strategy"
 
 services: [ conseil ]
-skills: [ communication écrite, prise de parole ]
+skills: [ storytelling, prise de parole ]
 ---
 
 ## Nous vous créons une présentation pour répondre à des enjeux forts, quel que soit le public

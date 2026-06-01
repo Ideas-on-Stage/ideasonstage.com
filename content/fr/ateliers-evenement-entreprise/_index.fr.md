@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Ateliers pour vos évènements d'entreprise"
+title: "Ateliers pour vos événements d'entreprise"
 description: "Des ateliers créatifs pour vous aider à lancer vos projets et renforcer les compétences de vos équipes."
 picture: "workshops.jpg"
 translationKey: "workshops"
@@ -13,7 +13,7 @@ skills: [ team building ]
   button="NOUS CONTACTER"
   url="#contact" >}}
 ## Des ateliers ludiques et sérieux à la fois
-Drôles et efficaces, nos ateliers marqueront les esprits de vos collaborateurs. Que ce soit dans le cadre d'un séminaire ou d'un évènement d'entreprise, ils renforcent la cohésion et les compétences de vos équipes de manière ludique. Nos ateliers sont conçus pour vous et avec vous, sur mesure.
+Drôles et efficaces, nos ateliers marqueront les esprits de vos collaborateurs. Que ce soit dans le cadre d'un séminaire ou d'un événement d'entreprise, ils renforcent la cohésion et les compétences de vos équipes de manière ludique. Nos ateliers sont conçus pour vous et avec vous, sur mesure.
 {{< /shortcode-call-to-action >}}
 
 {{< shortcode-text
@@ -47,7 +47,7 @@ Avec l’aide de nos animateurs expérimentés, les participants définiront des
 {{< shortcode-text
   class="margin-top margin-bottom text-center" >}}
 ## Créer de l'intrapreneuriat
-Lors de cet évènement, les participants pourront créer leur propre projet d’entrepreneuriat. Ils créeront une startup et établiront leur business model. À la fin de l’atelier, ils feront un « pitch » pour vendre leur idée. Un vote élira les meilleurs projets. Cet atelier dure une demi-journée à une journée.
+Lors de cet événement, les participants pourront créer leur propre projet d’entrepreneuriat. Ils créeront une startup et établiront leur business model. À la fin de l’atelier, ils feront un « pitch » pour vendre leur idée. Un vote élira les meilleurs projets. Cet atelier dure une demi-journée à une journée.
 
 ## Une Masterclass pour les employés
 Plus qu’un atelier, cette activité marquera durablement les esprits de votre entreprise. Vos employés monteront sur scène pour partager leurs connaissances avec toute l’entreprise. La Masterclass est un moyen unique de dynamiser les meilleurs éléments et de leur donner une opportunité de montrer tout leur potentiel. Fleuron de notre offre, la préparation de la Masterclass s’étale sur trois mois.

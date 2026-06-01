@@ -7,10 +7,12 @@ weight: 1
 
 # taxonomies
 services: [ coaching ]
-skills: [ leadership, prise de parole ]
+skills: [ prise de parole ]
 
 # url
 translationKey: "public-speaking-coaching/public-speaking-coaching"
+aliases:
+  - /fr/coaching-prise-de-parole-en-public/
 ---
 
 La prise de parole, ou art oratoire, est un ensemble de techniques qui permettent de communiquer son message efficacement face à un auditoire, que celui-ci soit constitué d’une ou de plusieurs milliers de personnes. Parmi les techniques clés de la prise de parole, on peut citer :

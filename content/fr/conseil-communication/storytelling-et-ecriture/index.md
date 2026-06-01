@@ -6,7 +6,7 @@ picture: "story-copywriting.jpg"
 translationKey: "communication-consulting/story-copywriting"
 
 services: [ conseil ]
-skills: [ communication écrite, prise de parole ]
+skills: [ storytelling, prise de parole ]
 ---
 
 ## Pourquoi nous souvenons-nous des histoires, mais oublions la présentation d'hier ?
