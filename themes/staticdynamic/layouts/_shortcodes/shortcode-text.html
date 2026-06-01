@@ -16,9 +16,9 @@ For example class="text-center" will center the text.
 
 {{ "<!-- shortcode-text.html:start -->" | safeHTML }}
 {{- if .Inner -}}
-	{{ with partial "d/shortcode-div-main" . }}
-		{{ with partial "d/shortcode-div-text" . }}
-			{{ partial "e/shortcode-inner" .InnerDeindent }}
+	{{ with partial "_d/shortcode-div-main" . }}
+		{{ with partial "_d/shortcode-div-text" . }}
+			{{ partial "_e/shortcode-inner" .InnerDeindent }}
 		{{ end }}
 	{{ end }}
 {{- end -}}

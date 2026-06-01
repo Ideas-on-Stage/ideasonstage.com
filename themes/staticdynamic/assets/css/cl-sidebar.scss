@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-sidebar {
 		@include width-column(4,1);
@@ -13,5 +13,5 @@
 			margin-top: 0;
 			margin-right: 0; /* remove space on small screens */
 		}
-		{{ partial "e/scheme.scss" ".cl-sidebar" }};
+		{{ partial "_e/scheme.scss" ".cl-sidebar" }};
 	}

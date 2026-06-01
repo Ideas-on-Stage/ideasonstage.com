@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-bodytop-breadcrumbs {
 		@include width-parent-full();
@@ -20,5 +20,5 @@
 			@include img-sameline;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-bodytop-breadcrumbs" }}
+		{{ partial "_e/scheme.scss" ".cl-bodytop-breadcrumbs" }}
 	}

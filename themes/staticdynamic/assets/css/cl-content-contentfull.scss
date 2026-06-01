@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-content-contentfull {
 		@include firstlastchildnomargin;
@@ -18,5 +18,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-content-contentfull" }}
+		{{ partial "_e/scheme.scss" ".cl-content-contentfull" }}
 	}

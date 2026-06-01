@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode {
 		/* used as common class for all shortcodes */
@@ -230,6 +230,6 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode" }}
 		
 	}

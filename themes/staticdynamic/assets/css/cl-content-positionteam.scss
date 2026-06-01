@@ -1,6 +1,6 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-content-positionteam {
 		
-		{{ partial "e/scheme.scss" ".cl-content-positionteam" }}
+		{{ partial "_e/scheme.scss" ".cl-content-positionteam" }}
 	}

@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	/*
 		_cl-core.scss
@@ -10,7 +10,7 @@
 	*/
 	
 	:root {
-		{{ partial "e/scheme.scss" "root" }};
+		{{ partial "_e/scheme.scss" "root" }};
 	}
 
 	* {
@@ -33,19 +33,19 @@
 		}
 		
 		{{- $tag := "a" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	b {
 		{{- $tag := "b" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	blockquote {
 		@include firstlastchildnomargin();
 		
 		{{- $tag := "blockquote" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	body {
@@ -58,32 +58,32 @@
 		}
 		
 		{{- $tag := "body" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	h1 {
 		{{- $tag := "h1" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	h2 {
 		{{- $tag := "h2" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	h3 {
 		{{- $tag := "h3" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	h4 {
 		{{- $tag := "h4" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	h5 {
 		{{- $tag := "h5" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	img {
@@ -92,49 +92,49 @@
 
 	input {
 		{{- $tag := "input" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	li {
 		{{- $tag := "li" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	p {
 		{{- $tag := "p" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	textarea {
 		{{- $tag := "textarea" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	time {
 		{{- $tag := "time" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	table {
 		border-collapse: collapse;
 		
 		{{- $tag := "table" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	td {
 		{{- $tag := "td" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	th {
 		{{- $tag := "th" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	ul {
 		{{- $tag := "ul" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 
 
@@ -147,7 +147,7 @@
 
 	.cl-core--authorandtime {
 		{{- $tag := ".cl-core--authorandtime" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	.cl-core--button-primary {
@@ -165,7 +165,7 @@
 		}
 		
 		{{- $tag := ".cl-core--button-primary" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	.cl-core--button-secondary {
@@ -183,7 +183,7 @@
 		}
 		
 		{{- $tag := ".cl-core--button-secondary" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	.cl-core--hidden {
@@ -211,7 +211,7 @@
 			padding: 0;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-core--module" }}
+		{{ partial "_e/scheme.scss" ".cl-core--module" }}
 	}
 
 	.cl-core--module-column-text-picture {
@@ -241,7 +241,7 @@
 			}
 		}		
 		
-		{{ partial "e/scheme.scss" ".cl-core--module-column-text-picture" }}
+		{{ partial "_e/scheme.scss" ".cl-core--module-column-text-picture" }}
 	}
 
 	.cl-core--module-half-text-picture {
@@ -271,7 +271,7 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-core--module-half-text-picture" }}
+		{{ partial "_e/scheme.scss" ".cl-core--module-half-text-picture" }}
 	}
 
 	.cl-core--module-row-text-picture {
@@ -310,7 +310,7 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-core--module-row-text-picture" }}
+		{{ partial "_e/scheme.scss" ".cl-core--module-row-text-picture" }}
 	}
 
 	.cl-core--module-row-picture-text {
@@ -349,7 +349,7 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-core--module-row-picture-text" }}
+		{{ partial "_e/scheme.scss" ".cl-core--module-row-picture-text" }}
 	}
 
 	.cl-core--tags {
@@ -358,13 +358,13 @@
 		@include width-parent-full();
 		
 		{{- $tag := ".cl-core--tags" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 	
 	.cl-core--tag {
 		background-color: var(--color-back);
 		{{- $tag := ".cl-core--tag" -}}
-		{{ partial "e/scheme.scss" (slice $tag $tag) }}
+		{{ partial "_e/scheme.scss" (slice $tag $tag) }}
 	}
 
 	.cl-core--a-underline-none {
@@ -397,7 +397,7 @@
 		{{ if strings.Contains $key "bg-" }}
 			{{ $class := printf ".%s" $key }}
 			{{ $class }} {
-				{{ partial "e/colorscheme.scss" $key }}
+				{{ partial "_e/colorscheme.scss" $key }}
 			}
 		{{ end }}
 	{{ end }}

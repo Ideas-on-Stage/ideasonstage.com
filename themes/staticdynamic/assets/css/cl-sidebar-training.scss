@@ -1,5 +1,5 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-sidebar-training {	
-		{{ partial "e/scheme.scss" ".cl-sidebar-training" }}
+		{{ partial "_e/scheme.scss" ".cl-sidebar-training" }}
 	}

@@ -5,9 +5,9 @@
 		<h2>{{ .Title }}</h2>
 	</a>
 	
-	{{ partial "e/authorandtime.html" . }}
+	{{ partial "_e/authorandtime.html" . }}
 	
-	{{ partial "e/tags.html" . }}
+	{{ partial "_e/tags.html" . }}
 	
 	{{- if .Params.banner -}}
 	<a href="{{ .RelPermalink }}">

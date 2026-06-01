@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-training-info {
 		/* 
@@ -28,5 +28,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-training-info" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-training-info" }}
 	}

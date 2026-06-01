@@ -12,11 +12,11 @@
 	- dt-body-referencesgrid: [ "list", "of", "references", "data", "files" ]
 
 --> */}}
-{{- $data := partial "f/getdatalocalized" (slice . "body-references") -}}
+{{- $data := partial "_f/getdatalocalized" (slice . "body-references") -}}
 {{- with $data -}}
 	<div id="references" class="cl-referencesgrid">
 		{{- range . -}}
-			{{- $srcset := partial "f/getimgsrcset.go" .img -}}
+			{{- $srcset := partial "_f/getimgsrcset.go" .img -}}
 			<img
 				src="{{ collections.Index $srcset 0 }}"
 				srcset="{{ collections.Index $srcset 1 }}"
@@ -26,5 +26,5 @@
 		{{- end -}}
 	</div>
 {{- else -}}
-	{{ partial "e/html-comment.html" "INFO: skipped: references: no .Params.dt-body-referencesgrid" }}
+	{{ partial "_e/html-comment.html" "INFO: skipped: references: no .Params.dt-body-referencesgrid" }}
 {{- end -}}

@@ -15,17 +15,17 @@ Inserts a testimonial with pic, quote, name and title.
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $class := partial "_f/gethtmlattrclass" . -}}
 {{- $classmain := index $class "main" -}}
 {{- $classtext := index $class "text" -}}
-{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $style := partial "_f/gethtmlattrstyle" . -}}
 {{- $stylemain := index $style "main" -}}
 {{- $styletext := index $style "text" -}}
 
 {{ "<!-- shortcode-testimonial.html:start -->" | safeHTML }}
-{{ with partial "d/shortcode-div-main" . }}
-	{{ partial "e/photograph" .Params }}
-	{{ with partial "d/shortcode-div-text" . }}
+{{ with partial "_d/shortcode-div-main" . }}
+	{{ partial "_e/photograph" .Params }}
+	{{ with partial "_d/shortcode-div-text" . }}
 		<p>
 			{{ with .Params.quote }}{{ . | markdownify }}{{ end }}
 		</p>

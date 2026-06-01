@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 /*
 	youtube shortcode css
 	this file is not used.
@@ -50,5 +50,5 @@
 			}	
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-youtube" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-youtube" }}
 	}

@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-text2-img1 {
 		@include flex-row($gap: "gap");
@@ -15,5 +15,5 @@
 			@include width-parent-full-sm;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-text2-img1" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-text2-img1" }}
 	}

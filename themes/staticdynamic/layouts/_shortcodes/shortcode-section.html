@@ -17,10 +17,10 @@ Both img and text are optional, but then it's a bit pointless.
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $class := partial "_f/gethtmlattrclass" . -}}
 {{- $classmain := index $class "main" -}}
 {{- $classtext := index $class "text" -}}
-{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $style := partial "_f/gethtmlattrstyle" . -}}
 {{- $stylemain := index $style "main" -}}
 {{- $styletext := index $style "text" -}}
 {{- $id := .Get "id" -}}
@@ -36,7 +36,7 @@ Both img and text are optional, but then it's a bit pointless.
 {{ "<!-- shortcode-section.html:start -->" | safeHTML }}
 <section {{ with $id }}{{ . | safeHTMLAttr }}{{ end }} {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
 	{{- if $img -}}
-	{{ partial "e/img" $.Params }}
+	{{ partial "_e/img" $.Params }}
 	{{- end -}}
 	{{- with $inner -}}
 		{{- $inner = $inner | strings.TrimSpace -}}

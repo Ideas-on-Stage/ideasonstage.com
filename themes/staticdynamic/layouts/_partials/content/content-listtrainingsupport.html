@@ -7,14 +7,14 @@
 	{{- else -}}
 	<section class="item bg-black">
 		<div class="img">
-			{{- $img := partial "f/getimgpaththumbnail.go" . -}}
+			{{- $img := partial "_f/getimgpaththumbnail.go" . -}}
 			{{- $alt := .Title -}}
-			{{ partial "e/img.html" (dict "img" $img "alt" $alt) }}
+			{{ partial "_e/img.html" (dict "img" $img "alt" $alt) }}
 		</div>
 		<div class="overlay">
 		</div>
 		<div class="text">
-			{{ partial "e/link-title-description.html" . }}
+			{{ partial "_e/link-title-description.html" . }}
 		</div>
 	</section>
 	{{- end -}}

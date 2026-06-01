@@ -1,7 +1,7 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	/* container for sidebar and main content area */
 	.cl-main {
 		
-		{{ partial "e/scheme.scss" ".cl-main" }};
+		{{ partial "_e/scheme.scss" ".cl-main" }};
 	}

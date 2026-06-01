@@ -16,10 +16,10 @@ Creates a call to action with a button
 
 {{ "<!-- shortcode-call-to-action.html:start -->" | safeHTML }}
 {{- if .Inner -}}
-	{{ with partial "d/shortcode-div-main" . }}
-		{{ with partial "d/shortcode-div-text" . }}
-			{{ partial "e/shortcode-inner" .Inner }}
-			{{ partial "e/button-primary.html" .Params }}
+	{{ with partial "_d/shortcode-div-main" . }}
+		{{ with partial "_d/shortcode-div-text" . }}
+			{{ partial "_e/shortcode-inner" .Inner }}
+			{{ partial "_e/button-primary.html" .Params }}
 		{{ end }}
 	{{ end }}
 {{- end -}}

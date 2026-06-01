@@ -1,0 +1,5 @@
+{{ "<!-- partials/e/title-description.html:start -->" | safeHTML }}
+{{- $data := partial "_f/getdata.go" . -}}
+{{ partial "_e/title.html" . }}
+{{ partial "_e/description.html" . }}
+{{ "<!-- partials/e/title-description.html:end -->" | safeHTML }}

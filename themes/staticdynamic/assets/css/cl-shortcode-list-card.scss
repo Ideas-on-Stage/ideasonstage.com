@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-list-card {
 		/* 
@@ -34,5 +34,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-list-card" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-list-card" }}
 	}

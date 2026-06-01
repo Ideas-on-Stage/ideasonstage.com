@@ -16,20 +16,20 @@ Adds a block with picture 1/3 left and text 2/3 right.
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $class := partial "_f/gethtmlattrclass" . -}}
 {{- $classmain := index $class "main" -}}
 {{- $classtext := index $class "text" -}}
-{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $style := partial "_f/gethtmlattrstyle" . -}}
 {{- $stylemain := index $style "main" -}}
 {{- $styletext := index $style "text" -}}
 
 {{/* <!-- generate html --> */}}
 <div {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
 	<div class="picture">
-		{{ partial "e/img" .Params }}
+		{{ partial "_e/img" .Params }}
 	</div>
 	<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
-		{{ partial "e/link-title" .Params }}
+		{{ partial "_e/link-title" .Params }}
 		<p>
 			{{ .Inner | markdownify }}
 		</p>

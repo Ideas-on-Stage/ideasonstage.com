@@ -18,7 +18,7 @@ Inserts a list of agenda items, its initial purpose was for an agenda but now it
 --> */}}
 
 {{ "<!-- shortcode-agenda-list.html:start -->" | safeHTML }}
-{{ with partial "d/shortcode-div-main" . }}
-	{{ partial "e/shortcode-inner" .InnerDeindent }}
+{{ with partial "_d/shortcode-div-main" . }}
+	{{ partial "_e/shortcode-inner" .InnerDeindent }}
 {{ end }}
 {{ "<!-- shortcode-agenda-list.html:end -->" | safeHTML }}

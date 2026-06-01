@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	/* main container, including title and items */
 	.cl-main-carousel {
@@ -11,7 +11,7 @@
 			margin-left: 2rem;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-main-carousel" }}
+		{{ partial "_e/scheme.scss" ".cl-main-carousel" }}
 		
 		/* container for the carousel items */
 		.container {
@@ -58,8 +58,8 @@
 					}
 				}
 				
-				{{ partial "e/colorscheme.scss" "cl-main-carousel--item" }}
-				{{ partial "e/scheme.scss" ".cl-main-carousel--item" }}
+				{{ partial "_e/colorscheme.scss" "cl-main-carousel--item" }}
+				{{ partial "_e/scheme.scss" ".cl-main-carousel--item" }}
 			}
 		}
 	}

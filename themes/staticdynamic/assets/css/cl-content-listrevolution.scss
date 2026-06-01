@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-content-listrevolution {
 	
@@ -15,5 +15,5 @@
 			
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-content-listrevolution" }}
+		{{ partial "_e/scheme.scss" ".cl-content-listrevolution" }}
 	}

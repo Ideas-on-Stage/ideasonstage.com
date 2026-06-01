@@ -2,7 +2,7 @@
 {{/* <!-- get all pages with services = title of page --> */}}
 {{- $taxo := site.Taxonomies.services.Get (.Title | lower) -}}
 {{/* <!-- get the order in which skills should be displayed --> */}}
-{{- $order := partial "f/getdata.go" site.Data.taxonomies.skills -}}
+{{- $order := partial "_f/getdata.go" site.Data.taxonomies.skills -}}
 {{/* <!-- iterate through ordered skills --> */}}
 {{- range $order -}}
 	{{- $skill := . -}}
@@ -18,10 +18,10 @@
 		{{- range $pages -}}
 		{{/* <!-- if ordered skill = group skill then display it --> */}}
 		<li>
-			{{- $img := partial "f/getimgpaththumbnail.go" . -}}
+			{{- $img := partial "_f/getimgpaththumbnail.go" . -}}
 			{{- $alt := .Title -}}
 			{{- $href := .RelPermalink -}}
-			{{- partial "e/img.html" (dict "img" $img "alt" $alt "href" $href) -}}
+			{{- partial "_e/img.html" (dict "img" $img "alt" $alt "href" $href) -}}
 			<a href="{{ .RelPermalink }}">
 				<h3>
 					{{ .Title }}

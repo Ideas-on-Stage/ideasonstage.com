@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-list-img {
 		/* 
@@ -22,5 +22,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-list-img" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-list-img" }}
 	}

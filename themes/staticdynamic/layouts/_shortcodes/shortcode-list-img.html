@@ -19,10 +19,10 @@ Should be nested inside a shortcode-list shortcode.
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $class := partial "_f/gethtmlattrclass" . -}}
 {{- $classmain := index $class "main" -}}
 {{- $classtext := index $class "text" -}}
-{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $style := partial "_f/gethtmlattrstyle" . -}}
 {{- $stylemain := index $style "main" -}}
 {{- $styletext := index $style "text" -}}
 {{- $columns := .Get "columns" -}}
@@ -32,7 +32,7 @@ Should be nested inside a shortcode-list shortcode.
 {{/* <!-- generate html --> */}}
 {{- if and $img $alt -}}
 	<li {{ with $classmain }}{{ . | safeHTMLAttr }}{{ end }} {{ with $stylemain }}{{ . | safeHTMLAttr }}{{ end }}>
-		{{ partial "e/img" .Params }}
+		{{ partial "_e/img" .Params }}
 	</li>
 {{- else -}}
 	<p class="error">shortcode-pict parameter missing: img="image.jpg" or alt="image description"</p>

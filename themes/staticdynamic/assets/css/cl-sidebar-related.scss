@@ -1,9 +1,9 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-sidebar-related {
 		
 		> ul {
 			@include ul-container();
 		}
-		{{ partial "e/scheme.scss" ".cl-sidebar-related" }}
+		{{ partial "_e/scheme.scss" ".cl-sidebar-related" }}
 	}

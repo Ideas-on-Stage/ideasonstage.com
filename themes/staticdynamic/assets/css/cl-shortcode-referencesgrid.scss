@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-referencesgrid {
 		@include flex-row($gap: "gap", $wrap: "wrap", $align-h: center);
@@ -15,5 +15,5 @@
 			border: 1px solid var(--color-border);
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-referencesgrid" }}
+		{{ partial "_e/scheme.scss" ".cl-referencesgrid" }}
 	}

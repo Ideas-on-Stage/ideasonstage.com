@@ -1,0 +1,3 @@
+d is for "decorators"
+
+Decorators are typically used in templates to insert opening and closing tags, such as <a></a> or <div></div>.

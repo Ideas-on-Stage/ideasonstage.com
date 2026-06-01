@@ -1,0 +1,38 @@
+{{/* <!--
+	
+	e/button-primary.html
+
+	Adds a primary button object.
+	
+	Arguments:
+	- structure with .text and .link
+	
+--> */}}
+
+{{/* <!-- initialize variables --> */}}
+{{- $text := false -}}
+{{- $url := false -}}
+
+{{/* <!-- process parameters --> */}}
+{{- if .button -}}
+	{{- $text = .button -}}
+{{- else if .name -}}
+	{{- $text = .name -}}
+{{- else -}}
+	<p class="error">button-primary: missing parameter "name"</p>
+{{- end -}}
+
+{{- if .url -}}
+	{{/* <!-- url should be used whenever possible, link or other names are deprecated --> */}}
+	{{- $url = .url -}}
+{{- else if .link -}}
+	{{- $url = .link -}}
+{{- else -}}
+	<p class="error">button-primary: missing parameter url</p>
+{{- end -}}
+
+{{ "<!-- partials/e/button-primary.html:start -->" | safeHTML }}
+{{- if and $url $text -}}
+	<a href="{{ partial "_f/geturl.go" . }}" class="cl-core--button-primary">{{ $text }}</a>
+{{- end -}}
+{{ "<!-- partials/e/button-primary.html:end -->" | safeHTML }}

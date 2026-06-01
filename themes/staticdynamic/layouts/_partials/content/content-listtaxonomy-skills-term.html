@@ -1,7 +1,7 @@
 <section id="list-taxonomy" class="cl-listtaxonomy">
 	{{ $taxo := site.Taxonomies.skills.Get (.Title | lower) }}
 	{{/* <!-- get the order in which skills should be displayed --> */}}
-	{{- $order := partial "f/getdata.go" site.Data.taxonomies.services -}}
+	{{- $order := partial "_f/getdata.go" site.Data.taxonomies.services -}}
 	{{/* <!-- iterate through ordered services --> */}}
 	{{- range $order -}}
 		{{- $service := . -}}

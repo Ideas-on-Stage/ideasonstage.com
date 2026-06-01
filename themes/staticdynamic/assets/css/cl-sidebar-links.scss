@@ -1,7 +1,7 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-sidebar-links {
 		@include width-parent-full();
 		
-		{{ partial "e/scheme.scss" ".cl-sidebar-links" }}
+		{{ partial "_e/scheme.scss" ".cl-sidebar-links" }}
 	}

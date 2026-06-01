@@ -1,0 +1,33 @@
+{{/* <!--
+	
+	e/blocks
+
+	Creates the html for the parts given as an argument.
+	- The proper list of blocks is retrieved for each part
+	- Then the partial matching the block name is used to generate the html
+	- A :start and :end comment is added before and after the block to help debugging
+	
+	Arguments:
+	- list of parts as slice of strings
+	  e.g. slice "bodytop" "body" "bodybottom"
+
+--> */}}
+
+{{- "<!-- partials/e/blocks.html:start -->" | safeHTML  }}
+{{- $parts := . -}}
+{{- range $parts -}}
+	{{- $part := . -}}
+	<!-- get the list of blocks for the part -->
+	{{- $blocks := partial "_f/getblocks.go" $part -}}
+	{{- range $blocks -}}
+		{{- $block := . -}}
+		{{- $partial := printf "%s/%s.html" $part $block -}}
+		{{- $commentstart := printf "<!-- %s:start -->" $partial }}
+		{{ $commentstart | safeHTML }}
+		<!-- display the block using the partial file -->
+		{{- partial $partial page }}
+		{{- $commentend := printf "<!-- %s:end -->" $partial -}}
+		{{ $commentend | safeHTML }}
+	{{- end -}}
+{{- end -}}
+{{ "<!-- partials/e/blocks.html:end -->" | safeHTML }}

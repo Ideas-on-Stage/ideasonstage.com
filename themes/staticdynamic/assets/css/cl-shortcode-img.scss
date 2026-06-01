@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-img {
 		@include flex-column($align-column-h: center);
@@ -9,5 +9,5 @@
 			padding: 0;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-img" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-img" }}
 	}

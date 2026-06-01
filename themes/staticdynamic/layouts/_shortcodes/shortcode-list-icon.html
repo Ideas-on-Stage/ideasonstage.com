@@ -21,10 +21,10 @@ Should be nested inside a shortcode-list shortcode.
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $class := partial "_f/gethtmlattrclass" . -}}
 {{- $classmain := index $class "main" -}}
 {{- $classtext := index $class "text" -}}
-{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $style := partial "_f/gethtmlattrstyle" . -}}
 {{- $stylemain := index $style "main" -}}
 {{- $styletext := index $style "text" -}}
 {{- $columns := .Get "columns" -}}
@@ -38,7 +38,7 @@ Should be nested inside a shortcode-list shortcode.
 	<a href="{{ . }}">
 	{{- end -}}
 		<div class="content">
-			{{ partial "e/img" (dict "img" $img "alt" $alt "href" $href) }}
+			{{ partial "_e/img" (dict "img" $img "alt" $alt "href" $href) }}
 			<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
 				{{ .Params.description | markdownify }}
 			</div>

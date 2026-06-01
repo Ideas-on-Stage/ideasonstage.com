@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-main-h1home {
 		@include width-parent-full();
@@ -10,5 +10,5 @@
 		padding-left: 1em;
 		padding-right: 1em;
 		
-		{{ partial "e/scheme.scss" ".cl-main-h1home" }}
+		{{ partial "_e/scheme.scss" ".cl-main-h1home" }}
 	}

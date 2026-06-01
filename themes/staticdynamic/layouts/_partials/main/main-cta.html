@@ -19,17 +19,17 @@
 	
 --> */}}
 
-{{- $data := partial "f/getdatalocalized" (slice . "body-ctas") -}}
+{{- $data := partial "_f/getdatalocalized" (slice . "body-ctas") -}}
 
 {{- range $data -}}
 	{{/* <!-- add loading and decoding img attributes to data --> */}}
 
-	{{- if partial "f/isactive.go" . -}}	
+	{{- if partial "_f/isactive.go" . -}}	
 		<section id="call-to-action" class="cl-main-cta">
 			{{/* <!-- cta picture --> */}}
 			<div class="img">
 				{{- $cta := merge . (dict "loading" "eager" "decoding" "async") -}}
-				{{ partial "e/img.html" $cta }}
+				{{ partial "_e/img.html" $cta }}
 			</div>
 			
 			<div class="overlay">

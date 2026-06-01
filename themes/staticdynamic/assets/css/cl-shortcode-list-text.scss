@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	li.cl-shortcode-list-text {
 		/* 
@@ -31,5 +31,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-list-text" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-list-text" }}
 	}

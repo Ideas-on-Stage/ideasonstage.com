@@ -14,13 +14,13 @@ mainlazy-references-data: [ list, of, references ]
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $class := partial "_f/gethtmlattrclass" . -}}
 {{- $classmain := index $class "main" -}}
 {{- $classtext := index $class "text" -}}
-{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $style := partial "_f/gethtmlattrstyle" . -}}
 {{- $stylemain := index $style "main" -}}
 {{- $styletext := index $style "text" -}}
-{{- $data := partial "f/getdatalocalized" (slice page "mainlazy-references") -}}
+{{- $data := partial "_f/getdatalocalized" (slice page "mainlazy-references") -}}
 
 {{ "<!-- shortcode-references.html:start -->" | safeHTML }}
 {{- with $data -}}
@@ -30,7 +30,7 @@ mainlazy-references-data: [ list, of, references ]
 	<h2 class="cl-core--hidden">{{ . }}</h2>
 	{{- end -}}
 	{{- range . -}}
-	{{- $srcset := partial "f/getimgsrcset.go" .img -}}
+	{{- $srcset := partial "_f/getimgsrcset.go" .img -}}
 	<img
 		loading="lazy"
 		src="{{ collections.Index $srcset 0 }}"
@@ -40,5 +40,5 @@ mainlazy-references-data: [ list, of, references ]
 	{{- end -}}
 </section>
 {{- else -}}
-	{{ partial "e/html-comment.html" "skipped: references: no .Params.mainlazy-references-data" }}
+	{{ partial "_e/html-comment.html" "skipped: references: no .Params.mainlazy-references-data" }}
 {{- end -}}

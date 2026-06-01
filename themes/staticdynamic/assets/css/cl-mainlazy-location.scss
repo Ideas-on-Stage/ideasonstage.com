@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-mainlazy-location {
 		@include height-module();
@@ -18,5 +18,5 @@
 			--color-back: none;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-mainlazy-location" }}
+		{{ partial "_e/scheme.scss" ".cl-mainlazy-location" }}
 	}

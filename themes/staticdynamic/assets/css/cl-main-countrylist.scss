@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-main-countrylist {
 		@include width-parent-full();
@@ -8,5 +8,5 @@
 			@include ul-container;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-main-countrylist" }}
+		{{ partial "_e/scheme.scss" ".cl-main-countrylist" }}
 	}

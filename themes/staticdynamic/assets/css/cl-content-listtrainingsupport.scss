@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-content-listtrainingsupport {
 		@include flex-row($gap: "none", $wrap: "wrap");
@@ -30,5 +30,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-content-listtrainingsupport" }}
+		{{ partial "_e/scheme.scss" ".cl-content-listtrainingsupport" }}
 	}

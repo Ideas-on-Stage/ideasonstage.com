@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-content-listreferences {
 		
@@ -26,5 +26,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-content-listreferences" }}
+		{{ partial "_e/scheme.scss" ".cl-content-listreferences" }}
 	}

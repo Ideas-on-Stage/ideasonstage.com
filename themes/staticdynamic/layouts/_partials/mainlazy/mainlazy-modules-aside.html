@@ -1,12 +1,12 @@
-{{- $data := partial "f/getdatalocalized" (slice . "mainlazy-modules-aside") -}}
+{{- $data := partial "_f/getdatalocalized" (slice . "mainlazy-modules-aside") -}}
 {{- with $data -}}
 	<aside id="modules-aside" class="cl-core--module">
 		{{- $title := index (index page.Params "mainlazy-modules") "title" -}}
 		{{- with $title -}}
 		<h2 class="cl-core--hidden">{{ . }}</h2>
 		{{- end -}}
-		{{ partial "e/modules.html" . }}
+		{{ partial "_e/modules.html" . }}
 	</aside>
 {{- else -}}
-	{{ partial "e/html-comment.html" "INFO: skipped: modules-aside: no .Params.mainlazy-modules-aside-data" }}
+	{{ partial "_e/html-comment.html" "INFO: skipped: modules-aside: no .Params.mainlazy-modules-aside-data" }}
 {{- end -}}

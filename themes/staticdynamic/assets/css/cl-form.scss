@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-form {
 		@include width-content-narrow();
@@ -35,5 +35,5 @@
 			height: 200px;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-form" }}
+		{{ partial "_e/scheme.scss" ".cl-form" }}
 	}

@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-agenda-item-collapsible {
 		@include firstlastchildnomargin;
@@ -44,5 +44,5 @@
 			height: auto;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-agenda-item-collapsible" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-agenda-item-collapsible" }}
 	}

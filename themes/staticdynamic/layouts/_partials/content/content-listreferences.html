@@ -1,10 +1,10 @@
-{{ $data := partial "f/getdatalocalized" (slice . "main-references") }}
+{{ $data := partial "_f/getdatalocalized" (slice . "main-references") }}
 {{ with $data }}
 <section id="client-references" class="cl-content-listreferences">
 	{{ range . }}
 	<div class="reference">
 		<div class="logo">
-			{{ partial "e/img.html" (dict "img" .img "alt" .client) }}
+			{{ partial "_e/img.html" (dict "img" .img "alt" .client) }}
 		</div>
 		<div class="text">
 			{{ with .client }}
@@ -43,10 +43,10 @@
 	{{ range .Pages }}
 	<div class="reference">
 		<div class="thumb">
-			{{- $img := partial "f/getimgpaththumbnail" . -}}
+			{{- $img := partial "_f/getimgpaththumbnail" . -}}
 			{{- $alt := .Title -}}
 			{{/* <!-- we can give the page object as the "img" value, and e/img will find the path --> */}}
-			{{ partial "e/img" (dict "img" $img "alt" $alt) }}
+			{{ partial "_e/img" (dict "img" $img "alt" $alt) }}
 		</div>
 		<div class="text">
 			{{ with .Params.client }}
@@ -73,7 +73,7 @@
 		</div>
 	</div>
 	{{ else }}
-		{{ partial "e/html-comment.html" "no pages" }}
+		{{ partial "_e/html-comment.html" "no pages" }}
 	{{ end }}
 </section>
 {{ end }}

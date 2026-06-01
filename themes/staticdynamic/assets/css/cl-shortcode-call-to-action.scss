@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-call-to-action {
 		@include margins($vertical: "none");
@@ -7,5 +7,5 @@
 			@include firstlastchildnomargin();
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-call-to-action" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-call-to-action" }}
 	}

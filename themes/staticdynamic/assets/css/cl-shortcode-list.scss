@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	/* used to create a grid or carousel */
 	/* replaced ul.cl-shortcode-list for .cl-shortcode list so that style applies to any tag */
@@ -153,5 +153,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-list" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-list" }}
 	}

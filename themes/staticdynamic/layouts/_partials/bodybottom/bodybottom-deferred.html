@@ -2,11 +2,11 @@
 
 {{/* <!-- get main blocks to avoid duplicating css between main and lazy and bottom --> */}}
 {{- $bodyblocktypes := slice "body" "main" "content" -}}
-{{- $bodyblocks := partial "f/getblockscss.go" $bodyblocktypes -}}
+{{- $bodyblocks := partial "_f/getblockscss.go" $bodyblocktypes -}}
 
 {{/* <!-- get bottom blocks --> */}}
 {{- $blocktypes := slice "mainlazy" "bodybottom" -}}
-{{- $blocks := partial "f/getblockscss.go" $blocktypes -}}
+{{- $blocks := partial "_f/getblockscss.go" $blocktypes -}}
 {{- range $blocks -}}
 	{{- if not (in $bodyblocks .) -}}
 		{{- $resource := printf "css/cl-%s.scss" . -}}

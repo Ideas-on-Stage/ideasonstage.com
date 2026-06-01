@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	/*
 		_cl-more.scss
@@ -49,5 +49,5 @@
 			text-align: left;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-more--fastsearch" }}
+		{{ partial "_e/scheme.scss" ".cl-more--fastsearch" }}
 	}

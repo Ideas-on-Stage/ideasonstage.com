@@ -1,5 +1,5 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-content-listnews {
-		{{ partial "e/scheme.scss" ".cl-content-listnews" }}
+		{{ partial "_e/scheme.scss" ".cl-content-listnews" }}
 	}

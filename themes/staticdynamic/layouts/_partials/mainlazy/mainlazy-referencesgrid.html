@@ -1,4 +1,4 @@
-{{- $data := partial "f/getdatalocalized" (slice . "mainlazy-references") -}}
+{{- $data := partial "_f/getdatalocalized" (slice . "mainlazy-references") -}}
 {{- with $data -}}
 	<section id="references" class="cl-referencesgrid">
 		{{- $title := index (index page.Params "mainlazy-references") "title" -}}
@@ -6,9 +6,9 @@
 		<h2 class="cl-core--hidden">{{ . }}</h2>
 		{{- end -}}
 		{{- range . -}}
-			{{ partial "e/img.html" (dict "img" .img   "alt" .client   "loading" "lazy"   "height" "100"   "width" "100") }}
+			{{ partial "_e/img.html" (dict "img" .img   "alt" .client   "loading" "lazy"   "height" "100"   "width" "100") }}
 		{{- end -}}
 	</section>
 {{- else -}}
-	{{ partial "e/html-comment.html" "skipped: references: no .Params.mainlazy-references-data" }}
+	{{ partial "_e/html-comment.html" "skipped: references: no .Params.mainlazy-references-data" }}
 {{- end -}}

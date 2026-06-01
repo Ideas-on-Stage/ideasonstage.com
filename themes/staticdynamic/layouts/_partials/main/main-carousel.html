@@ -25,7 +25,7 @@
 	
 --> */}}
 
-{{- $data := partial "f/getdatalocalized" (slice . "body-carousel") -}}
+{{- $data := partial "_f/getdatalocalized" (slice . "body-carousel") -}}
 {{- with $data -}}
 <section id="carousel" class="cl-main-carousel">
 	{{- with .title -}}
@@ -35,7 +35,7 @@
 		{{- range .items -}}
 			<li class="item">
 				<div class="text">
-					<a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
+					<a href="{{ partial "_f/geturl.go" . }}" class="cl-core--a-underline-none">
 						{{- with .title -}}
 							<h3>
 								{{ . }}
@@ -47,23 +47,19 @@
 							</p>
 						{{- end -}}
 					</a>
-					{{- partial "e/button-secondary" . -}}
+					{{- partial "_e/button-secondary" . -}}
 				</div>
-				<a href="{{ partial "f/geturl.go" . }}" class="cl-core--a-underline-none">
-					{{- if .img -}}
-						{{- $srcset := partial "f/getimgsrcset.go" .img -}}
-						<img
-							src="{{ index $srcset 0 }}"
-							loading="lazy"
-							srcset="{{ index $srcset 1 }}"
-							sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
-							alt="{{ .name }}">
-					{{- end -}}
-				</a>
+				{{- if .img -}}
+					{{- $img := .img -}}
+					{{- $alt := .alt -}}
+					{{- $href := .href -}}
+					{{- $args := dict "img" $img "alt" $alt "url" $href -}}
+					{{ partial "_e/img.html" $args }}
+				{{- end -}}
 			</li>
 		{{- end -}}
 	</ul>
 </section>
 {{- else -}}
-	{{ partial "e/html-comment.html" "SKIPPED: no page.Params.body-body-carousels-data or missing localized data" }}
+	{{ partial "_e/html-comment.html" "SKIPPED: no page.Params.body-body-carousels-data or missing localized data" }}
 {{- end -}}

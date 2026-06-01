@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-img-wide {
 		padding: 0;
@@ -7,5 +7,5 @@
 			@include img-contain;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-img-wide" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-img-wide" }}
 	}

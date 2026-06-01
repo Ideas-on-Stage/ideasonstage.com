@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-section-hero {
 		@include height-hero();
@@ -18,5 +18,5 @@
 			text-align: center;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-section-hero" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-section-hero" }}
 	}

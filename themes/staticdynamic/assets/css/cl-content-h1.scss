@@ -1,6 +1,6 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-content-h1 {
 		
-		{{ partial "e/scheme.scss" ".cl-content-h1" }}
+		{{ partial "_e/scheme.scss" ".cl-content-h1" }}
 	}

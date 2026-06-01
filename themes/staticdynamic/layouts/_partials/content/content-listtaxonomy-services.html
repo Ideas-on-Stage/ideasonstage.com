@@ -1,7 +1,7 @@
 <section id="list-taxonomy" class="cl-listtaxonomy">
 	{{ $taxo := site.Taxonomies.services }}
 	{{/* <!-- get the order in which services should be displayed --> */}}
-	{{- $order := partial "f/getdata.go" site.Data.taxonomies.services -}}
+	{{- $order := partial "_f/getdata.go" site.Data.taxonomies.services -}}
 	{{- range $order -}}
 		{{- $service := . -}}
 		{{- $keya := slice . -}}

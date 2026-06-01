@@ -60,7 +60,7 @@
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12" width="12" alt="Search">
 				<span class="menu-shorten">
 					{{ with .Language.LanguageName }}{{ . }}{{ end }}
-					{{ partial "e/icon.html" (dict "name" "dropdown.svg" "alt" "Show Content") }}
+					{{ partial "_e/icon.html" (dict "name" "dropdown.svg" "alt" "Show Content") }}
 				</span>
 			</label>
 			<input type="checkbox" id="drop-languages" class="menu-checkbox"/>

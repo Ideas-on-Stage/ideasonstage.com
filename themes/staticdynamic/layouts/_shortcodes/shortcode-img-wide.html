@@ -16,10 +16,10 @@ Inserts wide image
 --> */}}
 
 {{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass" . -}}
+{{- $class := partial "_f/gethtmlattrclass" . -}}
 {{- $classmain := index $class "main" -}}
 {{- $classtext := index $class "text" -}}
-{{- $style := partial "f/gethtmlattrstyle" . -}}
+{{- $style := partial "_f/gethtmlattrstyle" . -}}
 {{- $stylemain := index $style "main" -}}
 {{- $styletext := index $style "text" -}}
 {{- $img := .Get "img" -}}
@@ -28,7 +28,7 @@ Inserts wide image
 {{- $height := .Get "height" -}}
 
 {{ "<!-- shortcode-img-wide.html:start -->" | safeHTML }}
-{{ with partial "d/shortcode-div-main" . }}
-	{{ partial "e/img" . }}
+{{ with partial "_d/shortcode-div-main" . }}
+	{{ partial "_e/img" . }}
 {{ end }}
 {{ "<!-- shortcode-img-wide.html:end -->" | safeHTML }}

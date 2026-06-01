@@ -6,17 +6,17 @@
 		{{/* <!-- ...then do not list page --> */}}
 		{{ (printf "<!-- page %s skipped (nl is true) -->" .Title) | safeHTML }}
 	{{- else -}}
-	<section class="item {{ partial "f/getstyle.go" . }}">
+	<section class="item {{ partial "_f/getstyle.go" . }}">
 		<div class="picture">
-			{{- $img := partial "f/getimgpaththumbnail.go" . -}}
+			{{- $img := partial "_f/getimgpaththumbnail.go" . -}}
 			{{- $alt := .Title -}}
 			{{- $href := .RelPermalink -}}
 			{{- $args := dict "img" $img "alt" $alt "href" $href -}}
-			{{ partial "e/img.html" $args }}
+			{{ partial "_e/img.html" $args }}
 		</div>
 		<div class="text">
-			{{ partial "e/link-title-description.html" . }}
-			{{ partial "e/button-secondary.html" . }}
+			{{ partial "_e/link-title-description.html" . }}
+			{{ partial "_e/button-secondary.html" . }}
 		</div>
 	</section>
 	{{- end -}}

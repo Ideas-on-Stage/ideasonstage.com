@@ -1,0 +1,8 @@
+{{ "<!-- partials/e/description.html:start -->" | safeHTML }}
+{{- $data := partial "_f/getdata.go" . -}}
+{{- if $data.description -}}
+	<p>
+		{{ with $data.description | markdownify | safeHTML }}{{ . }}{{ end }}
+	</p>
+{{- end -}}
+{{ "<!-- partials/e/description.html:end -->" | safeHTML }}

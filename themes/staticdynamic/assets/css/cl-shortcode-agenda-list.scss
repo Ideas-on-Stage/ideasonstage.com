@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-agenda-list {
 		@include margins($vertical: "none");
@@ -8,5 +8,5 @@
 			@include ul-container();
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-agenda-list" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-agenda-list" }}
 	}

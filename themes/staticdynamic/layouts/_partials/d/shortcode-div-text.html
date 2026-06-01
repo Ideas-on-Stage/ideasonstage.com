@@ -1,9 +1,0 @@
-{{/* <!-- get parameters --> */}}
-{{- $class := partial "f/gethtmlattrclass" . -}}
-{{- $classtext := index $class "text" -}}
-{{- $style := partial "f/gethtmlattrstyle" . -}}
-{{- $styletext := index $style "text" -}}
-
-<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with index $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
-	{{ templates.Inner . }}
-</div>

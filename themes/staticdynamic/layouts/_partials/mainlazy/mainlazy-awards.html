@@ -1,4 +1,4 @@
-{{- $data := partial "f/getdatalocalized" (slice . "mainlazy-awards") -}}
+{{- $data := partial "_f/getdatalocalized" (slice . "mainlazy-awards") -}}
 {{- with $data -}}
 	<div class="cl-awards">
 		{{- $title := index (index page.Params "mainlazy-awards") "title" -}}
@@ -7,7 +7,7 @@
 		{{- end -}}
 		{{- range . -}}
 			<div class="cl-awards--item">
-				{{- $srcset := partial "f/getimgsrcset.go" .img -}}
+				{{- $srcset := partial "_f/getimgsrcset.go" .img -}}
 				<img
 					loading="lazy"
 					decoding="async"
@@ -19,5 +19,5 @@
 		{{- end -}}
 	</div>
 {{- else -}}
-	{{ partial "e/html-comment.html" "INFO: skipped: mainlazy-awards: no .Params.mainlazy-awards-data" }}
+	{{ partial "_e/html-comment.html" "INFO: skipped: mainlazy-awards: no .Params.mainlazy-awards-data" }}
 {{- end -}}

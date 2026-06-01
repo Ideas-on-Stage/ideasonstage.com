@@ -12,7 +12,7 @@
 --> */}}
 
 {{/* <!-- try to get hero picture --> */}}
-{{- $hero := partial "f/getimgpathhero.go" . -}}
+{{- $hero := partial "_f/getimgpathhero.go" . -}}
 
 {{/* <!-- if hero pic found... --> */}}
 {{- if $hero -}}
@@ -24,11 +24,11 @@
 					 "decoding" "async"
 					 "alt" .Title -}}
 
-	{{- $srcset := partial "f/getimgsrcset.go" $hero -}}
+	{{- $srcset := partial "_f/getimgsrcset.go" $hero -}}
 	{{/* <!-- create hero --> */}}
 	<div class="cl-main-h1--hero">
 		<div class="img">
-			{{ partial "e/img.html" $img }}
+			{{ partial "_e/img.html" $img }}
 		</div>
 		
 		<div class="overlay">
@@ -39,14 +39,13 @@
 			<div class="logobar-container">
 				{{ range .Params.hero }}
 					<div class="logobar-item">
-						{{ $srcset := partial "f/getimgsrcset.go" .img }}
-						<img
-							loading="eager"
-							decoding="async"
-							src="{{ collections.Index $srcset 0 }}"
-							srcset="{{ collections.Index $srcset 1 }}"
-							sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
-							{{ with .title }}alt="{{ . }}"{{ end }}>
+						{{- $img := .img -}}
+						{{- $alt := .alt -}}
+						{{- $href := .href -}}
+						{{- $loading := "eager" -}}
+						{{- $decoding := "async" -}}
+						{{- $args := dict "img" $img   "alt" $alt   "href" $href   "loading" $loading   "decoding" $decoding -}}
+						{{ partial "_e/img.html" $args }}
 						<p>
 							{{ .description }}
 						</p>
@@ -73,7 +72,7 @@
 			{{/* <!-- cta button --> */}}
 			{{- with .Params.button -}}
 			
-			{{- if ne "string" (partial "f/getdatatype" .) -}}
+			{{- if ne "string" (partial "_f/getdatatype" .) -}}
 			<a href="{{ .link }}" class="cl-core--button-primary">
 				{{ .text }}
 			</a>

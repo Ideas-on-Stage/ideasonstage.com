@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-mainlazy-testimonials {
 		@include flex-row($gap: "big", $wrap: "nowrap", $align-row-v: flex-start);
@@ -39,5 +39,5 @@
 			@include img-circle(60px);
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-mainlazy-testimonials" }}
+		{{ partial "_e/scheme.scss" ".cl-mainlazy-testimonials" }}
 	}

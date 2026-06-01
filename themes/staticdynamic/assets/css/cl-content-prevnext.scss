@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-content-prevnext {
 		
@@ -7,7 +7,7 @@
 			@include ul-container;
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-content-prevnext" }}
+		{{ partial "_e/scheme.scss" ".cl-content-prevnext" }}
 	}
 	
 	.cl-content-prevnext + .cl-content-content,

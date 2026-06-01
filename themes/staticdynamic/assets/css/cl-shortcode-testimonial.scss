@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-shortcode-testimonial {
 		@include flex-column($gap: "gap", $align-column-h: center);
@@ -16,5 +16,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-shortcode-testimonial" }}
+		{{ partial "_e/scheme.scss" ".cl-shortcode-testimonial" }}
 	}

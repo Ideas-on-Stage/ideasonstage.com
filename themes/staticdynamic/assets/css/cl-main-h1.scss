@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	/* container if title only (no hero) */
 	.cl-main-h1--hero {
@@ -63,7 +63,7 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-main-h1--hero" }};
+		{{ partial "_e/scheme.scss" ".cl-main-h1--hero" }};
 	}
 
 	.cl-main-h1--title {
@@ -77,5 +77,5 @@
 			@include width-content();
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-main-h1--title" }};
+		{{ partial "_e/scheme.scss" ".cl-main-h1--title" }};
 	}

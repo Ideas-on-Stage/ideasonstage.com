@@ -1,5 +1,5 @@
 {{/* <!-- retrieve testimonals list from page.mainlazy-testimonials-data --> */}}
-{{- $data := partial "f/getdatalocalized" (slice . "mainlazy-testimonials") -}}
+{{- $data := partial "_f/getdatalocalized" (slice . "mainlazy-testimonials") -}}
 {{- with $data -}}
 	<section id="testimonials" class="cl-mainlazy-testimonials">
 		{{- $title := index (index page.Params "mainlazy-testimonials") "title" -}}
@@ -16,7 +16,7 @@
 			{{- end -}}
 			<div class="person">
 				{{- if .img -}}
-					{{- $srcset := partial "f/getimgsrcset.go" .img -}}
+					{{- $srcset := partial "_f/getimgsrcset.go" .img -}}
 					<img
 						loading="lazy"
 						src="{{ collections.Index $srcset 0 }}"
@@ -39,5 +39,5 @@
 		{{- end -}} 
 	</section>
 {{- else -}}
-	{{ partial "e/html-comment.html" "skipped: testimonials: no .Params.mainlazy-testimonials-data" }}
+	{{ partial "_e/html-comment.html" "skipped: testimonials: no .Params.mainlazy-testimonials-data" }}
 {{- end -}}

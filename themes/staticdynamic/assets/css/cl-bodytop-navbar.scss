@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-bodytop-navbar {
 		@include flex-row($gap: "gap", $align-row-v: center, $align-h: space-between);
@@ -155,5 +155,5 @@
 			}
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-bodytop-navbar" }}
+		{{ partial "_e/scheme.scss" ".cl-bodytop-navbar" }}
 	}

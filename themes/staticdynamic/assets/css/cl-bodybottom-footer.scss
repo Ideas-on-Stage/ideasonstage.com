@@ -1,4 +1,4 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-bodybottom-footer {
 		@include width-parent-full();
@@ -26,5 +26,5 @@
 			@include margins($top: "medium");
 		}
 		
-		{{ partial "e/scheme.scss" ".cl-bodybottom-footer" }}
+		{{ partial "_e/scheme.scss" ".cl-bodybottom-footer" }}
 	}

@@ -1,9 +1,9 @@
-{{ partial "e/sass.scss" . }}
+{{ partial "_e/sass.scss" . }}
 
 	.cl-content-contenthome {
 		@include width-content();
 		@include margins($vertical: "medium");
 		color: var(--color-text-muted);
 		
-		{{ partial "e/scheme.scss" ".cl-content-contenthome" }}
+		{{ partial "_e/scheme.scss" ".cl-content-contenthome" }}
 	}

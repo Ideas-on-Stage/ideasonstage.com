@@ -25,7 +25,7 @@
 						{{ with .Title }}{{ . }}{{ end }}
 			</h2>
 		</a>
-		{{ partial "e/button-secondary.html" (dict "button" page.Params.more "link" .RelPermalink) }}
+		{{ partial "_e/button-secondary.html" (dict "button" page.Params.more "link" .RelPermalink) }}
 	</div>
 	{{- end -}}
 </section>

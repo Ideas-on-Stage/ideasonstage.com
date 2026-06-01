@@ -1,0 +1,18 @@
+{{/* <!--
+	
+	e/link-photograph.html
+
+	Adds a photograph styled picture object.
+	
+	Arguments:
+	- a structure containing:
+		- picture url
+		- link to the picture
+	
+--> */}}
+
+{{ "<!-- partials/e/link-photograph.html:start -->" | safeHTML }}
+<a href="{{ partial "_f/geturl.go" . }}">
+	{{ partial "_e/photograph.html" . }}
+</a>
+{{ "<!-- partials/e/link-photograph.html:end -->" | safeHTML }}
