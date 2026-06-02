@@ -1,14 +1,13 @@
 {{- with site.Params.map -}}
 	{{- if not .disabled -}}
 		<section id="address" class="cl-mainlazy-location">
-			{{- $srcset := partial "_f/getimgsrcset.go" .bgimage -}}
 			<div class="img">
-				<img
-					loading="lazy"
-					src="{{ collections.Index $srcset 0 }}"
-					srcset="{{ collections.Index $srcset 1 }}"
-					sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
-					alt="Ideas on Stage Champs Élysées">
+				{{- $img := .img -}}
+				{{- $alt := .alt -}}
+				{{- $loading := "lazy" -}}
+				{{- $decoding := "async" -}}
+				{{- $params := dict "img" $img   "alt" $alt   "loading" $loading   "decoding" $decoding -}}
+				{{ partial "_e/img" $params }}
 			</div>
 			<div class="text">
 				<h2>

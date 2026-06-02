@@ -7,7 +7,7 @@ weight: 1
 
 # taxonomies
 services: [ coaching ]
-skills: [ prise de parole ]
+skills: [ prise de parole en public ]
 
 # url
 translationKey: "public-speaking-coaching/public-speaking-coaching"

@@ -6,7 +6,7 @@ picture: "atr_from_iOS.jpg"
 translationKey: "communication-consulting/audience-transformation-roadmap"
 
 services: [ conseil ] 
-skills: [ storytelling, prise de parole ]
+skills: [ storytelling, prise de parole en public ]
 ---
 
 La plupart des gens font des présentations pour partager des informations, ce qui est une perte de temps pour tout le monde car nous oublions la plupart de ce que nous entendons très rapidement.

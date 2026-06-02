@@ -6,7 +6,7 @@ picture: "public-speaking-coaching-10.jpg"
 
 # taxonomies
 services: [ coaching ]
-skills: [ leadership, prise de parole ]
+skills: [ leadership, prise de parole en public ]
 
 # url
 translationKey: "public-speaking-coaching/executive-coaching"

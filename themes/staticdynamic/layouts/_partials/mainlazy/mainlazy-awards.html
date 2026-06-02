@@ -3,21 +3,19 @@
 	<div class="cl-awards">
 		{{- $title := index (index page.Params "mainlazy-awards") "title" -}}
 		{{- with $title -}}
-		<h2 class="cl-core--hidden">{{ . }}</h2>
+			<h2 class="cl-core--hidden">{{ . }}</h2>
 		{{- end -}}
 		{{- range . -}}
 			<div class="cl-awards--item">
-				{{- $srcset := partial "_f/getimgsrcset.go" .img -}}
-				<img
-					loading="lazy"
-					decoding="async"
-					src="{{ collections.Index $srcset 0 }}"
-					srcset="{{ collections.Index $srcset 1 }}"
-					sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
-					{{ with .title }}alt="{{ . }}"{{ end }}>
+				{{- $img := .img -}}
+				{{- $alt := .title -}}
+				{{- $loading := "lazy" -}}
+				{{- $decoding := "async" -}}
+				{{- $params := dict "img" $img   "alt" $alt   "loading" $loading   "decoding" $decoding -}}
+				{{ partial "_e/img" $params }}
 			</div>
 		{{- end -}}
 	</div>
 {{- else -}}
-	{{ partial "_e/html-comment.html" "INFO: skipped: mainlazy-awards: no .Params.mainlazy-awards-data" }}
+	{{ partial "_e/html-comment.html" "INFO: skipped: mainlazy-awards: no .Params.mainlazy-awards.data" }}
 {{- end -}}

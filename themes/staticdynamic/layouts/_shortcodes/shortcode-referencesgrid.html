@@ -24,21 +24,22 @@ mainlazy-references-data: [ list, of, references ]
 
 {{ "<!-- shortcode-references.html:start -->" | safeHTML }}
 {{- with $data -}}
-<section id="reference-list" class="cl-shortcode-referencesgrid">
-	{{- $title := index (index page.Params "mainlazy-references") "title" -}}
-	{{- with $title -}}
-	<h2 class="cl-core--hidden">{{ . }}</h2>
-	{{- end -}}
-	{{- range . -}}
-	{{- $srcset := partial "_f/getimgsrcset.go" .img -}}
-	<img
-		loading="lazy"
-		src="{{ collections.Index $srcset 0 }}"
-		srcset="{{ collections.Index $srcset 1 }}"
-		sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
-		{{ with .client }}alt="{{ . }}"{{ end }} height="100" width="100" />
-	{{- end -}}
-</section>
+	<section id="references" class="cl-shortcode-referencesgrid">
+		{{- $title := index (index page.Params "mainlazy-references") "title" -}}
+		{{- with $title -}}
+			<h2 class="cl-core--hidden">{{ . }}</h2>
+		{{- end -}}
+		{{- range . -}}
+			{{- $img := .img -}}
+			{{- $alt := .client -}}
+			{{- $loading := "lazy" -}}
+			{{- $decoding := "async" -}}
+			{{- $height := "100" -}}
+			{{- $width := "100" -}}
+			{{- $params := dict "img" $img   "alt" $alt   "loading" $loading   "decoding" $decoding   "height" $height    "width" $width -}}
+			{{ partial "_e/img" $params }}
+		{{- end -}}
+	</section>
 {{- else -}}
 	{{ partial "_e/html-comment.html" "skipped: references: no .Params.mainlazy-references-data" }}
 {{- end -}}

@@ -1,0 +1,56 @@
+{{/* <!-- get parameters from dictionary passed as argument --> */}}
+{{- $pages := index . "pages" -}}
+{{- $subtaxonomy := index . "subtaxonomy" -}}
+
+{{- $paramssubtaxonomy := add "Params." $subtaxonomy -}}
+
+{{/* <!-- get the order in which subtaxonomy should be displayed --> */}}
+{{- $order := index site.Data.taxonomies $subtaxonomy -}}
+
+<section id="list-taxonomy" class="cl-listtaxonomy">
+
+	{{/* <!-- iterate through ordered services --> */}}
+	{{- range $order -}}
+		
+		{{- $termname := . -}}
+		{{- $keya := slice . -}}
+		{{- $subpages := where $pages $paramssubtaxonomy "intersect" $keya -}}
+		{{/* <!-- if there is at least one page to list... --> */}}
+		
+		{{- if $subpages -}}
+			{{/* <!-- ...then show service category (this avoids displaying empty service categories) --> */}}
+			
+			{{/* <!-- initialize temporary list of unused pages --> */}}
+			{{- $newslice := slice -}}
+			<h2>
+				<a href="{{ relLangURL $subtaxonomy }}/{{ $termname | urlize }}">
+					{{ title $termname }}
+				</a>
+			</h2>
+			<ul>
+				{{- range $subpages -}}
+					<li>
+						<a href="{{ .RelPermalink }}">
+							{{- $img := partial "_f/getimgpaththumbnail.go" . -}}
+							{{- $alt := .Title -}}
+							{{- $loading := "eager" -}}
+							{{- $params := dict "img" $img   "alt" $alt   "loading" $loading -}}
+							{{ partial "_e/img" $params }}
+							<h3>
+								{{ .Title }}
+							</h3>
+							<p>
+								{{ .Description }}
+							</p>
+						</a>
+					</li>
+				{{- end -}}
+			</ul>
+			{{/* <!-- take list of unused pages and use it for iteration on next service category --> */}}
+			{{- $pages = $pages | symdiff $subpages -}}
+			
+		{{- end -}}
+		
+	{{- end -}}
+
+</section>

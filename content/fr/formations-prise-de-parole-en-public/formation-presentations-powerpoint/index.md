@@ -7,7 +7,7 @@ weight: 30
 
 # taxonomies
 services: [ formations ]
-skills: [ prise de parole en public ]
+skills: [ prise de parole en public, communication visuelle ]
 
 # training
 format: "Intra-entreprise"

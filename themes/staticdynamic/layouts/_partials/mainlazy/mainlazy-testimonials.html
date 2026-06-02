@@ -16,15 +16,14 @@
 			{{- end -}}
 			<div class="person">
 				{{- if .img -}}
-					{{- $srcset := partial "_f/getimgsrcset.go" .img -}}
-					<img
-						loading="lazy"
-						src="{{ collections.Index $srcset 0 }}"
-						srcset="{{ collections.Index $srcset 1 }}"
-						sizes="(1200px > width >= 720px) 1200px, (720px > width ) 720px, 2400px"
-						alt="{{ .name }}"
-						height="60"
-						width="60">
+					{{- $img := .img -}}
+					{{- $alt := .name -}}
+					{{- $loading := "lazy" -}}
+					{{- $decoding := "async" -}}
+					{{- $height := "60" -}}
+					{{- $width := "60" -}}
+					{{- $params := dict "img" $img   "alt" $alt   "loading" $loading   "decoding" $decoding   "height" $height    "width" $width -}}
+					{{ partial "_e/img" $params }}
 				{{- end -}}
 				<div>
 					{{- with .name -}}

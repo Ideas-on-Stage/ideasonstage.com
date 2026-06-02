@@ -105,7 +105,8 @@ map:
     disabled: false
     title: "Où nous trouver"
     address: "138 avenue des Champs Élysées — 75008 Paris, France — Stations de métro Charles de Gaulle Étoile (sortie 1 Champs Élysées) ou George V."
-    bgimage: "/img/triumph.jpg"
+    img: "/img/triumph.jpg"
+    alt: "Arc de Triomphe sur les Champs Élysées à Paris, France"
 
 # -------------------
 # navbar

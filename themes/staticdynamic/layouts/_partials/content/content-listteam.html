@@ -1,8 +1,13 @@
 <section id="team-member-list" class="cl-content-listteam">
-	{{ range .Pages.ByWeight }}
+	{{- range .Pages.ByWeight -}}
 		<div href="{{ .RelPermalink }}" class="teammember">
 			<a href="{{ .RelPermalink }}" class="content cl-core--a-underline-none">
-				<img src="{{ add .RelPermalink "thumbnail.jpg" }}" alt="{{ .Params.name }}" width="100px" height="100px">
+				{{- $width := "100px" -}}
+				{{- $height := "100px" -}}
+				{{- $img := add .RelPermalink "thumbnail.jpg" -}}
+				{{- $alt := .Params.name -}}
+				{{- $params := dict "img" $img   "alt" $alt   "width" $width   "height" $height -}}
+				{{ partial "_e/img" $params }}
 				<h2>
 					{{ .Params.name }}
 				</h2>
@@ -11,5 +16,5 @@
 				</p>
 			</a>
 		</div>
-	{{ end}}
+	{{- end -}}
 </section>

@@ -1,0 +1,7 @@
+{{/* <!-- get parameters --> */}}
+{{- $data := partial "_f/getdata" . -}}
+{{- $href := partial "_f/geturl" . -}}
+
+<a href="{{ $href }}">
+	{{ templates.Inner . }}
+</a>
