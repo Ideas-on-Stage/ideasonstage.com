@@ -4,7 +4,7 @@
 	declared as sass variables because css variables don't work in media queries
 	-------- */
 	$gl-sm-screen: 640px !default; // small screens breakpoint
-	$gl-lg-screen: 1440px !default; // large screens breakpoint
+	$gl-lg-screen: 1920px !default; // large screens breakpoint
 	$gl-menu-short: 900px !default; // size under which the short menu display should be used
 
 
@@ -152,6 +152,24 @@
 			--flex-wrap: wrap;
 		}
 	}
+	
+	@mixin height-hero {
+		/* set height to fixed hero height */
+		height: var(--hero-height);
+		min-height: var(--hero-height-min);
+		max-height: var(--hero-height-max);
+	}
+	
+	@mixin height-module {
+		/* set height to fixed module height */
+		height: calc( var(--module-height-ratio) * 1vw ); /* defines the fixed height of the module */
+		max-height: calc( var(--page-max-width) / 80 * var(--module-height-ratio) );
+	}
+	
+	@mixin height-navbar {
+		/* set height to navbar height */
+		height: var(--menubar-height);
+	}
 
 	@mixin height-screen-full {
 		/* set height to screen height (actually viewport height) */
@@ -174,22 +192,6 @@
 		@media (max-width: $gl-sm-screen) {
 			height: 50%;
 		}
-	}
-	
-	@mixin height-hero {
-		/* set height to fixed hero height */
-		height: var(--hero-height);
-	}
-	
-	@mixin height-module {
-		/* set height to fixed module height */
-		height: calc( var(--module-height-ratio) * 1vw ); /* defines the fixed height of the module */
-		max-height: calc( var(--page-max-width) / 80 * var(--module-height-ratio) );
-	}
-	
-	@mixin height-navbar {
-		/* set height to navbar height */
-		height: var(--menubar-height);
 	}
 	
 	@mixin hide-sm {
@@ -250,6 +252,8 @@
 	@mixin layer($z-index: -100) {
 		position: absolute;
 		height: inherit; /* ! parent container must have height in absolute unit or 100%, but not 0-99% */
+		min-height: inherit; /* ! parent container must have height in absolute unit or 100%, but not 0-99% */
+		max-height: inherit; /* ! parent container must have height in absolute unit or 100%, but not 0-99% */
 		width: inherit; /* ! parent container must have width in absolute unit or 100%, but not not 0-99% */
 		max-width: inherit;
 		@if 0 != $z-index {
