@@ -1,46 +1,44 @@
-{{ "<!-- partials/side/training:start -->" | safeHTML }}
 <section id="training-summary" class="cl-sidebar-training">
 	<h2>
-		Fiche récapitulative de la formation
+		{{ site.Params.training.recaptitle }}
 	</h2>
 	<ul>
 	{{ with .Params.title }}
 		<li>
-			Intitulé : {{ . }}
+			{{ site.Params.training.name }} {{ . }}
 		</li>
 	{{ end }}
 	{{ with .Params.duration }}
 		<li>
-			Durée : {{ . }}
+			{{ site.Params.training.duration }} {{ . }}
 		</li>
 	{{ end }}
 	{{ with .Params.price }}
 		<li>
-			Prix : {{ . }}
+			{{ site.Params.training.price }} {{ . }}
 		</li>
 	{{ end }}
 	{{ with .Params.attendees }}
 		<li>
-			Participants : {{ . }}
+			{{ site.Params.training.attendees }} {{ . }}
 		</li>
 	{{ end }}
 	{{ with .Params.format }}
 		<li>
-			Format : {{ . }}
+			{{ site.Params.training.format }} {{ . }}
 		</li>
 	{{ end }}
 	{{ with .Params.location }}
 		<li>
-			Où : {{ . }}
+			{{ site.Params.training.location }} {{ . }}
 		</li>
 	{{ end }}
 		<li>
 			<a href="#contact">
 				<div class="cl-core--button-primary" style="width:auto;">
-					Réserver une formation
+					{{ site.Params.training.button }}
 				</div>
 			</a>
 		<li>
 	</ul>
 </section>
-{{ "<!-- partials/side/training:end -->" | safeHTML }}

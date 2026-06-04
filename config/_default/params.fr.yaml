@@ -154,6 +154,7 @@ testimonials:
 # -------------------
 # Training
 training:
+    recaptitle: "Fiche récapitulative de la formation"
     name: "Intitulé :"
     objectives: "Objectifs :"
     format: "Format :"
@@ -165,3 +166,4 @@ training:
     location: "Lieu :"
     materials: "Moyens pédagogiques, modalités et méthodes :"
     evaluation: "Évaluation :"
+    button: "Réserver une formation"
