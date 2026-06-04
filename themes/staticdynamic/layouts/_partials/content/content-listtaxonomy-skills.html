@@ -1,6 +1,6 @@
 <section id="list-taxonomy" class="cl-listtaxonomy cl-content-listtaxonomy-skills">
 	{{- $taxo := site.Taxonomies.skills -}}
-	{{- $order := partial "_f/getdata.go" site.Data.taxonomies.skills -}}
+	{{- $order := partial "_f/getdata.go" hugo.Data.taxonomies.skills -}}
 	{{- range $order -}}
 		{{- $skill := . -}}
 		{{- $keya := slice . -}}

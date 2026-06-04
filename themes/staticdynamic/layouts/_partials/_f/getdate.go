@@ -14,8 +14,8 @@
 --> */}}
 
 {{/* <!-- get language --> */}}
-{{ $lang := site.LanguageCode }}
-{{ if index site.Data.multilingual.days $lang }}
+{{ $lang := site.Language.Locale }}
+{{ if index hugo.Data.multilingual.days $lang }}
 {{ else }}
 	{{/* <!-- default to English if language not set --> */}}
 	{{ $lang = "en" }}
@@ -35,21 +35,21 @@
 {{/* <!-- get localized day name --> */}}
 {{ $dayname := index $dateelements 0 }}
 {{/* <!-- get array of localized day names  --> */}}
-{{ $days := index site.Data.multilingual.days $lang }}
+{{ $days := index hugo.Data.multilingual.days $lang }}
 {{/* <!-- get matching day translation --> */}}
 {{ $dayint := index $days $dayname }}
 
 {{/* <!-- get localized month name --> */}}
 {{ $monthname := printf "%s" $date.Month }}
 {{/* <!-- get array of localized month names  --> */}}
-{{ $months := index site.Data.multilingual.months $lang }}
+{{ $months := index hugo.Data.multilingual.months $lang }}
 {{/* <!-- get matching month translation --> */}}
 {{ $monthint := index $months $monthname }}
 
 {{/* <!-- get localized time zone name --> */}}
 {{ $timezonename := index $dateelements 5 }}
 {{/* <!-- get array of localized time zone names  --> */}}
-{{ $timezones := index site.Data.multilingual.timezones $lang }}
+{{ $timezones := index hugo.Data.multilingual.timezones $lang }}
 {{/* <!-- get matching time zone translation --> */}}
 {{ $timezoneint := index $timezones $timezonename }}
 

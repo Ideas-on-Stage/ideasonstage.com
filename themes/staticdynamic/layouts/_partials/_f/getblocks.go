@@ -28,21 +28,21 @@
 {{/* <!-- bodytop, bodybottom, headtop and headbottom are ignored if declared elsewhere than _common --> */}}
 {{/* <!-- it is therefore useless to declare a bodytop part in a specific part or in a page front matter --> */}}
 {{ if eq $part "bodytop" }}
-	{{ $result = index site.Data.layouts._common "bodytop" }}
+	{{ $result = index hugo.Data.layouts._common "bodytop" }}
 {{ else if eq $part "bodybottom" }}
-	{{ $result = index site.Data.layouts._common "bodybottom" }}
+	{{ $result = index hugo.Data.layouts._common "bodybottom" }}
 {{ else if eq $part "headtop" }}
-	{{ $result = index site.Data.layouts._common "headtop" }}
+	{{ $result = index hugo.Data.layouts._common "headtop" }}
 {{ else if eq $part "headbottom" }}
-	{{ $result = index site.Data.layouts._common "headbottom" }}
+	{{ $result = index hugo.Data.layouts._common "headbottom" }}
 	
 {{/* <!-- if custom part exists in page front matter, use it --> */}}
 {{ else if index page.Params $part }}
 	{{ $result = index page.Params $part }}
 
 {{/* <!-- if specific blocks matching page .Type are defined in /data/layouts.yaml, use it --> */}}
-{{ else if index site.Data.layouts $page.Type }}
-	{{ $type := index site.Data.layouts $page.Type }}
+{{ else if index hugo.Data.layouts $page.Type }}
+	{{ $type := index hugo.Data.layouts $page.Type }}
 	{{ if $type }}
 		{{/* <!-- and if specific blocks matching page .Kind are defined in /data/layouts.yaml --> */}}
 		{{ if index $type $page.Kind }}
@@ -55,17 +55,17 @@
 		{{ end }}
 		{{/* <!-- 2025-07-13 ADD else use default blocks --> */}}
 		{{ else }}
-			{{ $result = index (index (index site.Data.layouts "_default") $page.Kind) $part }}
+			{{ $result = index (index (index hugo.Data.layouts "_default") $page.Kind) $part }}
 		{{ end }}
 	{{ end }}
 	
 {{/* <!-- use Kind=home if declared as page.Type --> */}}	
 {{ else if eq "home" $page.Type }}
-	{{ $result = index (index (index site.Data.layouts "_default") "home") $part }}
+	{{ $result = index (index (index hugo.Data.layouts "_default") "home") $part }}
 
 {{/* <!-- else use _default blocks from /data/layouts.html --> */}}
 {{ else }}
-	{{ $result = index (index (index site.Data.layouts "_default") $page.Kind) $part }}
+	{{ $result = index (index (index hugo.Data.layouts "_default") $page.Kind) $part }}
 
 {{ end }}
 

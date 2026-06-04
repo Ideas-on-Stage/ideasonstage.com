@@ -30,8 +30,8 @@
 {{/* <!-- if the argument is a string... --> */}}
 {{- if eq "string" $type  -}}
 	{{/* <!-- ...then try to get the scheme data matching the element name from the file "schemes.yaml" --> */}}
-	{{- $schemedft := index site.Data.schemes $element -}}
-	{{- $schemecst := index site.Data.schemescustom $element -}}
+	{{- $schemedft := index hugo.Data.schemes $element -}}
+	{{- $schemecst := index hugo.Data.schemescustom $element -}}
 	{{/* <!-- if there is both a default and custom scheme... --> */}}
 	{{- if and $schemedft $schemecst -}}
 		{{/* <!-- ...then merge the two schemes --> */}}
@@ -47,8 +47,8 @@
 	{{- $schemetype := partial "_f/getdatatype" $scheme -}}
 	{{- if eq "string" $schemetype  -}}
 		{{/* <!-- ...then try to get the scheme data matching the element name from the file "schemes.yaml" --> */}}
-		{{- $schemedft := index site.Data.schemes $scheme -}}
-		{{- $schemecst := index site.Data.schemescustom $scheme -}}
+		{{- $schemedft := index hugo.Data.schemes $scheme -}}
+		{{- $schemecst := index hugo.Data.schemescustom $scheme -}}
 		{{/* <!-- if there is both a default and custom scheme... --> */}}
 		{{- if and $schemedft $schemecst -}}
 			{{/* <!-- ...then merge the two schemes --> */}}

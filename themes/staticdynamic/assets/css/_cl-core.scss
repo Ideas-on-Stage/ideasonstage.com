@@ -393,7 +393,7 @@
 		create bg-color-scheme classes from /data/colorschemes.yaml
 		for example, a helper class ".bg-black" will be created for the color scheme named "black"
 	*/
-	{{ range $key, $value := site.Data.colorschemes }}
+	{{ range $key, $value := hugo.Data.colorschemes }}
 		{{ if strings.Contains $key "bg-" }}
 			{{ $class := printf ".%s" $key }}
 			{{ $class }} {

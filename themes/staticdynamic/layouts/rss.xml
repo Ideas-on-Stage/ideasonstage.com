@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>
-			{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}
+			{{ with .Title }}{{.}} on {{ end }}{{ site.Title }}
 		</title>
 		<link>
 			{{ .Permalink }}
 		</link>
 		<description>
-			Recent content {{ with .Title }}in {{.}} {{ end }}on {{ .Site.Title }}
+			Recent content {{ with .Title }}in {{.}} {{ end }}on {{ site.Title }}
 		</description>
 		<generator>
 			Hugo -- gohugo.io
@@ -16,21 +16,21 @@
 			{{ if .Site.Params.ActualLangCode }}
 				{{.}}
 			{{ else }}
-				{{ .Site.LanguageCode }}
+				{{ site.Language.Locale }}
 			{{end}}
 		</language>
-		{{ with .Site.Author.email }}
+		{{ with site.Params.email }}
 			<managingEditor>
+				{{ with site.Params.author }}({{.}}){{end}}
 				{{.}}
-				{{ with $.Site.Author.name }}({{.}}){{end}}
 			</managingEditor>
 		{{end}}
-		{{ with .Site.Author.email }}
+		{{ with site.Params.email }}
 			<webMaster>
-				{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}
+				{{.}}{{ with site.Params.author }} ({{.}}){{end}}
 			</webMaster>
 		{{end}}
-		{{ with .Site.Copyright }}
+		{{ with site.Copyright }}
 			<copyright>
 				{{.}}
 			</copyright>
@@ -41,7 +41,7 @@
 			</lastBuildDate>
 		{{ end }}
 		<atom:link href="{{.Permalink}}" rel="self" type="application/rss+xml" />
-		{{ range first 15 .Site.RegularPages }}
+		{{ range first 15 site.RegularPages }}
 			<item>
 				<title>
 					{{ .Title }}
@@ -52,9 +52,9 @@
 				<pubDate>
 					{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}
 				</pubDate>
-				{{ with .Site.Author.email }}
+				{{ with site.Params.email }}
 					<author>
-						{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}
+						{{.}}{{ with site.Params.author }} ({{.}}){{end}}
 					</author>
 				{{end}}
 				<guid>

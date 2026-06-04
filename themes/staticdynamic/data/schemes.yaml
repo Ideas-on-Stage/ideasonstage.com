@@ -30,7 +30,7 @@
 #           - data
 #             - schemes.yaml ← this file with default theme values
 #   So if you see a css property not defined here and not defined in the css file,
-#   it's probably defined in site.Data.schemescustom.yaml 
+#   it's probably defined in hugo.Data.schemescustom.yaml 
 
 
 # -----------------

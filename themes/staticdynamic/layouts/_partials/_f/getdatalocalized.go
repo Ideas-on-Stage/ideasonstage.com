@@ -20,7 +20,7 @@
 {{- $issingle := false -}}
 
 {{/* <!-- get current site language code --> */}}
-{{- $languagecode := site.LanguageCode -}}
+{{- $languagecode := site.Language.Locale -}}
 
 {{/* <!-- get short language code (en-GB becomes en) --> */}}
 {{- $shortlangcode := index (split $languagecode "-") 0 -}}
@@ -45,7 +45,7 @@
 {{- end -}}
 
 {{/* <!-- get list of data files matching data type --> */}}
-{{- $datafilelist := index site.Data $dataparam -}}
+{{- $datafilelist := index hugo.Data $dataparam -}}
 
 {{/* <!-- iterate over list from page front matter parameter (does nothing if list empty) --> */}}
 {{- range $datalist -}}

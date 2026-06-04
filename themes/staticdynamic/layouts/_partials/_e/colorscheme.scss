@@ -12,7 +12,7 @@
 --> */}}
 
 {{/* <!-- try to get the text scheme matching the block name --> */}}
-{{- $scheme := index site.Data.colorschemes . -}}
+{{- $scheme := index hugo.Data.colorschemes . -}}
 
 {{- printf "--colorscheme:%s;" . -}}
 

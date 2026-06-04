@@ -2,7 +2,7 @@
 	
 	<!-- logo -->
 	{{ $home := site.BaseURL }}
-	{{ if ne "en" site.LanguageCode }}
+	{{ if ne "en" site.Language.Locale }}
 		{{ $home = printf "%s%s/" $home site.Language.Lang }}	
 	{{ end }}
 	
@@ -59,17 +59,17 @@
 				{{ $img := resources.Get "img/icons/globe.svg" }}
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12" width="12" alt="Search">
 				<span class="menu-shorten">
-					{{ with .Language.LanguageName }}{{ . }}{{ end }}
+					{{ with .Language.Label }}{{ . }}{{ end }}
 					{{ partial "_e/icon.html" (dict "name" "dropdown.svg" "alt" "Show Content") }}
 				</span>
 			</label>
 			<input type="checkbox" id="drop-languages" class="menu-checkbox"/>
 			<ul class="menu-dropdown">
-				{{ range site.Sites }}
-					{{ if ne .Language.LanguageCode site.LanguageCode }}
+				{{ range hugo.Sites }}
+					{{ if ne .Language.Locale site.Language.Locale }}
 						<li class="menu-dropdown-item">
-							<a href="{{ .Home.Permalink }}" hreflang="{{ .Language.LanguageCode }}" class="cl-core--a-underline-none">
-								{{ .Language.LanguageName }}
+							<a href="{{ .Home.Permalink }}" hreflang="{{ .Language.Locale }}" class="cl-core--a-underline-none">
+								{{ .Language.Label }}
 							</a>
 						</li>
 					{{ end }}

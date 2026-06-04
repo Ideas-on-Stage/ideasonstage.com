@@ -5,7 +5,7 @@
 {{- $paramssubtaxonomy := add "Params." $subtaxonomy -}}
 
 {{/* <!-- get the order in which subtaxonomy should be displayed --> */}}
-{{- $order := index site.Data.taxonomies $subtaxonomy -}}
+{{- $order := index hugo.Data.taxonomies $subtaxonomy -}}
 
 <section id="list-taxonomy" class="cl-listtaxonomy">
 

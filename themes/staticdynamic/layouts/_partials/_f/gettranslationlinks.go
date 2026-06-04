@@ -22,7 +22,7 @@
 
 --> */}}
 
-{{ $currentlangcode := site.LanguageCode | lower }}
+{{ $currentlangcode := site.Language.Locale | lower }}
 {{ $foundlang := slice $currentlangcode }}
 {{ $alllang := slice }}
 {{ $result := slice }}
@@ -34,9 +34,9 @@
 
 {{/* <!-- Retrieve translations for current page --> */}}
 {{ range .Translations }}
-	{{ $entry := dict "name" .Language.LanguageName "code" .Language.LanguageCode "url" .Permalink }}
+	{{ $entry := dict "name" .Language.Label "code" .Language.Locale "url" .Permalink }}
 	{{ $result = $result | append $entry }}
-	{{ $foundlang = $foundlang | append (.Language.LanguageCode | lower) }}
+	{{ $foundlang = $foundlang | append (.Language.Locale | lower) }}
 {{ end }}
 
 {{/* <!-- Identify missing translations, and add links to homepage for missing translations --> */}}

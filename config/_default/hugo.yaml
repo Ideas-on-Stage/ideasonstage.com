@@ -7,26 +7,26 @@ title: Ideas on Stage
 languages:
     
     en:
-        languageCode: en
-        languageName: International
+        locale: en
+        label: International
         contentDir: content/en
         weight: 1
     
     fr:
-        languageCode: fr
-        languageName: France
+        locale: fr
+        label: France
         contentDir: content/fr
         weight: 2
     
     es:
-        languageCode: es
-        languageName: España
+        locale: es
+        label: España
         contentDir: content/es
         weight: 3
     
     uk:
-        languageCode: en-GB
-        languageName: United Kingdom
+        locale: en-GB
+        label: United Kingdom
         contentDir: content/uk
         weight: 4
     
