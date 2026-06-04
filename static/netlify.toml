@@ -124,6 +124,12 @@
 	status	= 301
 	force	= true
 
+# Proton booking page redirects
+[[redirects]]
+	from	= "https://www.ideasonstage.com/booking-pierre/"
+	to		= "https://calendar.proton.me/bookings#VTp4Bme2O7RmPYqTWPFmu695pUDZ7NdKaUjetReJqrY="
+	status	= 301
+	force	= true
 
 
 # --------
