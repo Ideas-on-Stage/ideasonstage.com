@@ -110,6 +110,8 @@ root:
         
         # hero variables
         --hero-height: "70vh"
+        --hero-height-min: "70vh"
+        --hero-height-max: "70vh"
         
         # module variables
         --module-height-ratio: "140" # no unit
