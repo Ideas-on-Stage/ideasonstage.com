@@ -12,14 +12,14 @@
 
 <aside id="country-list" class="cl-main-countrylist">
 	<ul>
-		{{- range site.Languages -}}
-			{{- with .Params -}}
+		{{- range hugo.Sites -}}
+			{{- $href := .Home.RelPermalink -}}
+			{{- $label := .Language.Label -}}
 			<li>
-				<a href="{{ .baseUrl }}" class="cl-core--button-secondary">
-					{{ .countryShort }}
+				<a href="{{ $href }}" class="cl-core--button-secondary">
+					{{ $label }}
 				</a>
 			</li>
-			{{- end -}}
-		{{- end -}}
+		{{- end }}
 	</ul>
 </aside>
