@@ -18,17 +18,17 @@ dt-sidebar:
   title: "Liste des formations"
   items:
   - name: "Formation prise de parole 2 jours"
-    url: "/fr/formation-prise-de-parole-2-jours/"
+    url: "/fr/formations-prise-de-parole-en-public/formation-prise-de-parole-2-jours/"
   - name: "Formation prise de parole 1 jour"
-    url: "/fr/formation-prise-de-parole-1-jour/"
+    url: "/fr/formations-prise-de-parole-en-public/formation-prise-de-parole-1-jour/"
   - name: "Formation art oratoire"
-    url: "/fr/formation-art-oratoire/"
+    url: "/fr/formations-prise-de-parole-en-public/formation-art-oratoire/"
   - name: "Formation storytelling"
-    url: "/fr/formation-storytelling/"
+    url: "/fr/formations-prise-de-parole-en-public/formation-storytelling/"
   - name: "Formation présentations PowerPoint"
-    url: "/fr/formation-presentations-powerpoint/"
+    url: "/fr/formations-prise-de-parole-en-public/formation-presentations-powerpoint/"
   - name: "Formation au Pitch"
-    url: /fr/formation-pitch-pour-startups/
+    url: /fr/formations-prise-de-parole-en-public/formation-pitch-pour-startups/
 
 body-carousel:
     data: "formations"

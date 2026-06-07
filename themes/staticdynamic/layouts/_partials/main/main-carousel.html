@@ -35,7 +35,7 @@
 		{{- range .items -}}
 			<li class="item">
 				<div class="text">
-					<a href="{{ partial "_f/geturl.go" . }}" class="cl-core--a-underline-none">
+					{{- with partial "_d/a-underline-none" . -}}
 						{{- with .title -}}
 							<h3>
 								{{ . }}
@@ -46,7 +46,7 @@
 								{{ . }}
 							</p>
 						{{- end -}}
-					</a>
+					{{- end -}}
 					{{- partial "_e/button-secondary" . -}}
 				</div>
 				{{- if .img -}}
