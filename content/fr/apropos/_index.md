@@ -1,13 +1,9 @@
 ---
 draft: false
-title: "À propos"
+title: "À propos d'Ideas on Stage"
 description: "Agence spécialisée en présentation et en prise de parole en public pour les grands groupes internationaux."
 translationKey: "about"
 type: about
-
-mainlazy-modules-aside:
-    title: "Ressources"
-    data: [ team, catalogue ]
 ---
 
 Ideas on Stage accompagne les dirigeants dans la réalisation de leurs présentations, la création d’événements inspirants et la formation et le coaching de leurs organisations à la prise de parole en public. Dans un univers de conférences monotones et de réunions sans fin, vous vous démarquerez.
@@ -16,7 +12,7 @@ Nous avons créé Ideas on Stage en 2010, convaincus que l’art de présenter e
 
 ## Une présence internationale
 
-Les experts en communication d’Ideas on Stage vous proposent un éventail complet de services en présentation dans le monde en anglais, français, espagnol, italien et allemand. Nous avons des bureaux en France, Espagne, Italie et Royaume-Uni.
+Les experts en communication d’Ideas on Stage vous proposent un éventail complet de services en présentation dans le monde en anglais, français, espagnol, italien et allemand. Nous avons des bureaux en France, Espagne, Italie et Royaume-Uni.
 
 ## Des bureaux idéalement situés
 

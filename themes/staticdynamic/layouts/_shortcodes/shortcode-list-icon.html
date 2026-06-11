@@ -40,7 +40,7 @@ Should be nested inside a shortcode-list shortcode.
 		<div class="content">
 			{{ partial "_e/img" (dict "img" $img "alt" $alt "href" $href) }}
 			<div {{ with $classtext }}{{ . | safeHTMLAttr }}{{ end }} {{ with $styletext }}{{ . | safeHTMLAttr }}{{ end }}>
-				{{ .Params.description | markdownify }}
+				{{ $alt | markdownify }}
 			</div>
 		</div>
 	{{- with $href -}}
