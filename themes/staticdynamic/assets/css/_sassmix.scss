@@ -154,48 +154,64 @@
 	}
 	
 	@mixin height-hero {
-		/* set height to fixed hero height */
+		/*
+			set height to fixed hero height
+		*/
 		height: var(--hero-height);
 		min-height: var(--hero-height-min);
 		max-height: var(--hero-height-max);
 	}
 	
 	@mixin height-module {
-		/* set height to fixed module height */
+		/*
+			set height to fixed module height
+		*/
 		height: calc( var(--module-height-ratio) * 1vw ); /* defines the fixed height of the module */
 		max-height: calc( var(--page-max-width) / 80 * var(--module-height-ratio) );
 	}
 	
 	@mixin height-navbar {
-		/* set height to navbar height */
+		/*
+			set height to navbar height
+		*/
 		height: var(--menubar-height);
 	}
 
 	@mixin height-screen-full {
-		/* set height to screen height (actually viewport height) */
+		/*
+			set height to screen height (actually viewport height)
+		*/
 		height: calc(100vh - var(--menubar-height));
 	}
 	
 	@mixin height-parent-full {
-		/* set height to full height of parent container */
-		/* only works if parent has fixed-height */
+		/*
+			set height to full height of parent container 
+			only works if parent has fixed-height
+		*/
 		height: 100%;
 	}
 	
 	@mixin height-parent-half {
-		/* set height to half height of parent container */
+		/*
+			set height to half height of parent container
+		*/
 		height: 50%;
 	}
 	
 	@mixin height-parent-half-sm {
-		/* set height to half height of parent container on small screens */
+		/*
+			set height to half height of parent container on small screens
+		*/
 		@media (max-width: $gl-sm-screen) {
 			height: 50%;
 		}
 	}
 	
 	@mixin hide-sm {
-		/* hide element on small screens */
+		/*
+			hide element on small screens
+		*/
 		@media (max-width: $gl-sm-screen) {
 			display: none;
 		}
@@ -216,14 +232,18 @@
 	}
 	
 	@mixin img-circle($size) {
-		/* round image */
+		/*
+			round image
+		*/
 		width: $size !important;
 		height: $size !important;
 		border-radius: 50%;
 	}
 	
 	@mixin img-contain {
-		/* image full width of parent container, height based on image ratio */
+		/*
+			image full width of parent container, height based on image ratio
+		*/
 		display: block;
 		height: 100%;
 		width: 100%;
@@ -231,7 +251,9 @@
 	}
 
 	@mixin img-cover {
-		/* image full size of parent container, cropped to fill parent container */
+		/*
+			image full size of parent container, cropped to fill parent container
+		*/
 		display: block;
 		height: 100%;
 		width: 100%;
@@ -239,13 +261,18 @@
 	}
 
 	@mixin img-responsive {
+		/*
+			make image responsive
+		*/
 		display: block; /* prevent line height from being added to div height */
 		max-width: 100%;
 		height: auto;
 	}
 	
 	@mixin img-sameline {
-		/* image on same line as text, useful to add icons in text */
+		/*
+			image on same line as text, useful to add icons in text
+		*/
 		display: inline-block;
 	}
 	
@@ -261,16 +288,16 @@
 		}
 	}
 	
-	/* 
-		layer-img-overlay-text
-		
-		Creates 3 layers for a hero type layout: 
-		<div class="img"></div> is the image layer for the background image
-		<div class="overlay></div> is for the color overlay above the image
-		<div class="text"></div> is for the text over the image
-		the alignment of the text can be flex-start (at top), center or flex-end (at bottom)
-	 */
 	@mixin layer-img-overlay-text($text-align-v: "center") {
+		/* 
+			layer-img-overlay-text
+			
+			Creates 3 layers for a hero type layout: 
+			<div class="img"></div> is the image layer for the background image
+			<div class="overlay></div> is for the color overlay above the image
+			<div class="text"></div> is for the text over the image
+			the alignment of the text can be flex-start (at top), center or flex-end (at bottom)
+		*/
 		.img {
 			@include layer($z-index: 10);
 			> img {
@@ -283,8 +310,10 @@
 			background-color: var(--color-overlay);
 		}
 		
-		/* main text container, may have to share space with a logobar */
 		.text {
+			/*
+				main text container, may have to share space with a logobar
+			*/
 			@include text-front();
 			@include height-parent-full(); /* same height as parent so text can be centered inside div */
 			@include width-content();
@@ -302,11 +331,11 @@
 		}
 	}
 	
-	/*
-		standardized margins for theme
-		marginv: "tall", "medium", "short", "none"
-	*/
 	@mixin margins($vertical: "", $top: "", $bottom: "") {
+		/*
+			standardized margins for theme
+			marginv: "tall", "medium", "short", "none"
+		*/
 		
 		@if "tall" == $vertical {
 			margin-top: 5rem;
@@ -489,28 +518,28 @@
 		}
 	}
 
-	/*
-		width-content()
-		
-		set width of element to a maximum of "--content-max-width"
-		default is 80vw on normal screens
-		--content-max-width is defined in schemes.yaml		
-		the value of --content-max-width will adapt automatically for small screens
-	*/
 	@mixin width-content() {
+		/*
+			width-content()
+			
+			set width of element to a maximum of "--content-max-width"
+			default is 80vw on normal screens
+			--content-max-width is defined in schemes.yaml		
+			the value of --content-max-width will adapt automatically for small screens
+		*/
 		width: calc( 0.001px + 100% - 0.001px );
 		max-width: var(--content-max-width);
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	/*
-		width-content-sm()
-		set width of element to a maximum of "--content-max-width" on small screens
-		if you already use width-content() for a given element,
-		then there is no need to add width-content-sm() for that element
-	*/
 	@mixin width-content-sm() {
+		/*
+			width-content-sm()
+			set width of element to a maximum of "--content-max-width" on small screens
+			if you already use width-content() for a given element,
+			then there is no need to add width-content-sm() for that element
+		*/
 		@media (max-width: $gl-sm-screen) {
 			width: calc( 0.001px + 100% - 0.001px );
 			max-width: var(--content-max-width);
@@ -519,40 +548,40 @@
 		}
 	}
 
-	/*
-		width-content-narrow()
-		
-		set width of element to a maximum of "--content-narrow-max-width" on small screens
-		default is 50vw on normal screens
-		--content-narrow-max-width is defined in schemes.yaml
-		use to restrict content width on normal or large screens,
-		for example for the forms so the fields are not too large.
-	*/
 	@mixin width-content-narrow() {
+		/*
+			width-content-narrow()
+			
+			set width of element to a maximum of "--content-narrow-max-width" on small screens
+			default is 50vw on normal screens
+			--content-narrow-max-width is defined in schemes.yaml
+			use to restrict content width on normal or large screens,
+			for example for the forms so the fields are not too large.
+		*/
 		width: calc( 0.001px + 100% - 0.001px );
 		max-width: var(--content-narrow-max-width);
 		margin-left: auto;
 		margin-right: auto;
 	}
 	
-	/* 
-		width-parent-full()
-		
-		set width of element to full width of parent
-	*/
 	@mixin width-parent-full() {
+		/* 
+			width-parent-full()
+			
+			set width of element to full width of parent
+		*/
 		width: calc( 0.001px + 100% - 0.001px );
 		max-width: var(--page-max-width);
 	}
 
-	/*
-		width-parent-full-sm()
-		
-		set width of element to full width of parent on small screens.
-		useful if an element is half width on normal screens,
-		but should be full width on small screens.
-	*/
 	@mixin width-parent-full-sm() {
+		/*
+			width-parent-full-sm()
+			
+			set width of element to full width of parent on small screens.
+			useful if an element is half width on normal screens,
+			but should be full width on small screens.
+		*/
 		@media (max-width: $gl-sm-screen) {
 			/* 2025-08-11: PMO added flex-basis to override flex-basis in @mixin width-column.
 				note: this should probably be removed, and I should fix the way width-column is handled. */
