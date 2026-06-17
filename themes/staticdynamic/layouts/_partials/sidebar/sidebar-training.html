@@ -3,36 +3,36 @@
 		{{ site.Params.training.recaptitle }}
 	</h2>
 	<ul>
-	{{ with .Params.title }}
+	{{- with .Params.title -}}
 		<li>
 			{{ site.Params.training.name }} {{ . }}
 		</li>
-	{{ end }}
-	{{ with .Params.duration }}
+	{{- end -}}
+	{{- with .Params.duration -}}
 		<li>
 			{{ site.Params.training.duration }} {{ . }}
 		</li>
-	{{ end }}
-	{{ with .Params.price }}
+	{{- end -}}
+	{{- with .Params.price -}}
 		<li>
 			{{ site.Params.training.price }} {{ . }}
 		</li>
-	{{ end }}
-	{{ with .Params.attendees }}
+	{{- end -}}
+	{{- with .Params.attendees -}}
 		<li>
 			{{ site.Params.training.attendees }} {{ . }}
 		</li>
-	{{ end }}
-	{{ with .Params.format }}
+	{{- end -}}
+	{{- with .Params.format -}}
 		<li>
 			{{ site.Params.training.format }} {{ . }}
 		</li>
-	{{ end }}
-	{{ with .Params.location }}
+	{{- end -}}
+	{{- with .Params.location -}}
 		<li>
 			{{ site.Params.training.location }} {{ . }}
 		</li>
-	{{ end }}
+	{{- end -}}
 		<li>
 			<a href="#contact">
 				<div class="cl-core--button-primary" style="width:auto;">

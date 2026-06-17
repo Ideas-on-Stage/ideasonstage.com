@@ -1,19 +1,19 @@
 {{ "<!-- partials/side/related.html:start -->" | safeHTML }}
-{{ $related := site.RegularPages.Related page | first 3 }}
-{{ with $related }}
+{{- $related := site.RegularPages.Related page | first 3 -}}
+{{- with $related -}}
 	<section id="related-pages" class="cl-sidebar-related">
 		<h2>
-			{{ $.Site.Params.news.related }}
+			{{ site.Params.news.related }}
 		</h2>
 		<ul>
-			{{ range . }}
+			{{- range . -}}
 				<li>
 					<a href="{{ .RelPermalink }}">
 						{{ .Title }}
 					</a>
 				</li>
-			{{ end }}
+			{{- end -}}
 		</ul>
 	</section>
-{{ end }}
+{{- end -}}
 {{ "<!-- partials/side/related.html:end -->" | safeHTML }}

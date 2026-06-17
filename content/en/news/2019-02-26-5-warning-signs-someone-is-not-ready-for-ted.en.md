@@ -19,4 +19,4 @@ banner = "/img/news/slippery-floor.jpg"
 
 In collaboration with the presentation directors, the curator of the event has the responsibility to look for these clues, and if necessary axe the speaker from the program. It’s much better to remove one speaker from the show, even if he’s already announced on the program, than take the risk of a disaster on stage.
 
-![Slippery floor](/img/news/slippery-floor.jpg")
+![Slippery floor](/img/news/slippery-floor.jpg)

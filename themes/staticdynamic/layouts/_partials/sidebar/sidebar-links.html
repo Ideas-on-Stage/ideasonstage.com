@@ -3,20 +3,20 @@
 {{- $data := index .Params "dt-sidebar" -}}
 <section id="links" class="cl-sidebar-links">
 	{{- with $data.title -}}
-	<h2>
-		{{ . }}
-	</h2>
+		<h2>
+			{{ . }}
+		</h2>
 	{{- end -}}
 	{{- with $data.items -}}
-	<ul>
-		{{ range . }}
-			<li>
-				{{ with .url }}<a href="{{ . }}">{{ end }}
-					{{ with .name }}{{ . }}{{ end }}
-				{{ with .url }}</a>{{ end }}
-			</li>
-		{{ end }}
-	</ul>
+		<ul>
+			{{ range . }}
+				<li>
+					{{ with .url }}<a href="{{ . }}">{{ end }}
+						{{ with .name }}{{ . }}{{ end }}
+					{{ with .url }}</a>{{ end }}
+				</li>
+			{{ end }}
+		</ul>
 	{{- end -}}
 </section>
 {{- else -}}

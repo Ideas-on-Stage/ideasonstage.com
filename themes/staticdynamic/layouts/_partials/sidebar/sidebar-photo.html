@@ -1,5 +1,5 @@
-{{ with .Params }}
-<section id="photo">
-	<img src="{{ .picture }}" class="cl-photo" alt="{{ .name }}">
-</section>
-{{ end }}
+{{- with .Params -}}
+	<section id="photo">
+		<img src="{{ .picture }}" class="cl-photo" alt="{{ .name }}">
+	</section>
+{{- end -}}
