@@ -31,3 +31,19 @@ Il enseigne le storytelling de marque et le storytelling politique à l’EFAP e
 
 **TEDx : Coaching des intervenants de nombreux événements TEDx** dont TEDxParisUniversités, TEDxTours, TEDxLille, TEDxLaDéfense, TEDxIÉSEGLille, TEDxLannion, TEDxSaintGilles... Parmi les intervenants connus, coaching de Gaël Giraud, ancien chief economist de l'AFD, Maïa Mazaurette, sexologue et chroniqueuse à la télévision, à la radio et dans les journaux, Isaac Getz, professeur à l'ESCP conférencier et écrivain, ... Certaines de ces interventions ont plus d'un million de vues sur YouTube.
 
+
+## Témoignages LinkedIn
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7475841005607550976?collapsed=1" height="626" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7475855885408378880?collapsed=1" height="626" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7475974370742435840?collapsed=1" height="2811" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7475806815725785088?collapsed=1" height="668" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7473053400503517185?collapsed=1" height="753" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7162779234908811265?collapsed=1" height="597" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7454815110503780352?collapsed=1" height="565" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
