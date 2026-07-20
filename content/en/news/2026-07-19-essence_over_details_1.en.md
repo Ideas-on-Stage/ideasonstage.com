@@ -1,27 +1,23 @@
 +++
 draft = false
-title = "ESSENCE OVER DETAILS"
+title = "ARE YOU AS GOOD AS YOU CAN BE?"
 tags = ["Timeless Presenter"]
 news = ["general"]
-date = "2026-07-20"
+date = "2026-07-21"
 author = "Andrea Pacini"
 +++
 
 
-The best wisdom captures something deep in just a few words.
+Jazz pianist Bill Evans once said he could spend an entire lifetime exploring a single song.
 
-“This too shall pass.”\
-“Know thyself.”\
-“The journey of a thousand miles begins with a single step.”
+Rather than trying to perfect it once and move on – he was searching for new layers of meaning, new ways to express the same notes.
 
-None of these offers details. But they stay with us. That’s the power of essence.
+Presenting demands the same mindset.
 
-We often forget this when presenting. We feel the need to explain everything and include every detail.
+You don’t master it once and stop. You keep refining – how you structure ideas, tell stories, use visuals and connect with people.
 
-But clarity lives in simplicity.
+Ask yourself: “Am I as good at this as I can possibly be?”
 
-Try this: before your next presentation, summarise your core message in ten words or fewer. If you can’t do that, you don’t know your message well enough. Once you’ve written it down, use it as your north star.
+If the answer is no – good. It means you still have room to grow – and growth is the point.
 
-Anything else in your talk should serve that core message. If it doesn’t, cut it.
-
-The goal isn’t to say more. It’s to make what you say matter more.
+Presenting, like music, is a lifelong practice. There’s no finish line. Only the chance to get better each time you step up to perform.
