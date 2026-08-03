@@ -1,27 +1,35 @@
 +++
 draft = false
-title = "NINETY-NINE PROBLEMS"
+title = "ASK FOR ONE THING"
 tags = ["Timeless Presenter"]
 news = ["general"]
-date = "2026-08-05"
+date = "2026-08-06"
 author = "Andrea Pacini"
 +++
 
 
-One of the most useful exercises I’ve learned in business came from a mentor: Write down ninety-nine problems your customers face.
+I once heard Adam Grant say that he doesn’t accept a perfect ten when asking for feedback.
 
-Not one. Not five. Ninety-nine.
+Why?
 
-It forces you to dig deep. To stop thinking like an expert and start thinking like your customer.
+Because there’s always room to improve.
 
-We often assume people understand what we understand. But they don’t. The curse of knowledge makes it hard to see the world through their eyes.
+Perfection doesn’t exist.
 
-This exercise trains empathy.
+After every podcast appearance, he asks the host, “What’s one thing I could’ve done better?”
 
-The best presenters ask themselves: What does my audience need to hear? What do they understand? What do they care about?
+He wants to improve. Bit by bit. Episode by episode.
 
-The moment you let go of what you want to say and focus on what they need to hear, your communication becomes far more effective.
+Now imagine doing the same after every presentation.
 
-Radical empathy is a business tool. It’s also a communication tool.
+Instead of just hearing, “Well done,” try asking yourself: What’s one thing I could do differently next time?
 
-Try the ninety-nine problems exercise – and see how your message changes.
+That question changes the conversation. It invites real, useful feedback.
+
+It helps you grow.
+
+If you want to become a stronger presenter, take feedback seriously.
+
+Make it a habit. Ask better questions. Use what you learn.
+
+The difference between good and great is the willingness to keep improving.
