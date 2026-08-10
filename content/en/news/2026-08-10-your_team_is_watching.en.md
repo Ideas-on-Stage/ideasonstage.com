@@ -1,29 +1,25 @@
 +++
 draft = false
-title = "YOUR TEAM IS WATCHING"
+title = "THE NEXT STEP"
 tags = ["Timeless Presenter"]
 news = ["general"]
-date = "2026-08-11"
+date = "2026-08-12"
 author = "Andrea Pacini"
 +++
 
 
 
 
+A small brewery in Philadelphia called Yards Brewing approached several local bars with samples, hoping for shelf placement. Most passed – or asked for more convincing.
 
+Instead of aiming for an immediate deal, Yards focused on one thing: opening the door. They invited bar managers to visit the brewery, meet the team, taste on tap and learn their story.
 
-When chef René Redzepi opened Noma in Copenhagen, he was trying to do something different. He wanted to redefine Nordic cuisine. But beyond the food, what set the standard was how he led the kitchen.
+That simple next step was a starting point. Over time, those visits turned into orders. Months later, the brewery had dozens of accounts across the city.
 
-Redzepi would personally pick herbs with the team. He tasted, adjusted and explained his reasoning. He showed what care and precision looked like every day. That tone filtered through the entire restaurant.
+Their early progress came from building momentum – earning the opportunity to continue the conversation.
 
-Within a few years, Noma was named the best restaurant in the world.
+That’s the choice you face as a speaker.
 
-This applies just as much to leadership outside the kitchen.
+You won’t always leave the room with a signed agreement. But you can leave with interest, curiosity or a clear next step. That could mean earning a follow-up meeting. Or getting someone to lean in and learn more.
 
-If your presentations are messy, your team will assume that’s acceptable.
-
-They’ll match your effort, not your words.
-
-But if you prepare well and communicate with care, they’ll notice – and raise their own standards too.
-
-As a leader, you set the tone. Show your team what excellence looks like – and they’ll follow your lead.
+Move the conversation forward. Know what the next step is – and design your presentation to get there.
