@@ -11,7 +11,7 @@
 
 {{ "<!-- partials/e/button-secondary.html:start -->" | safeHTML }}
 {{- $data := partial "_f/getdata.go" . -}}
-<a href="{{ partial "_f/geturl.go" . }}" class="cl-core--button-secondary">
+<a href="{{ partial "_f/gethref.go" . }}" class="cl-core--button-secondary">
 	{{ with $data.button }}{{ . }}{{ else }}{{ site.Params.buttons.default }}{{ end }}
 </a>
 {{ "<!-- partials/e/button-secondary.html:end -->" | safeHTML }}

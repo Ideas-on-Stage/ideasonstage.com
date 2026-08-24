@@ -1,22 +1,22 @@
 <nav id="navbar" class="cl-bodytop-navbar" aria-label="Main Menubar">
 	
 	<!-- logo -->
-	{{ $home := site.BaseURL }}
-	{{ if ne "en" site.Language.Locale }}
-		{{ $home = printf "%s%s/" $home site.Language.Lang }}	
-	{{ end }}
+	{{- $home := site.BaseURL -}}
+	{{- if ne "en" site.Language.Locale -}}
+		{{- $home = printf "%s%s/" $home site.Language.Lang -}}
+	{{- end -}}
 	
 	<!-- logo -->
 	<a href="{{ $home }}" class="cl-core--a-underline-none" aria-label="Ideas on Stage">
 		<div class="brand">
-			{{ $logo := resources.Get "img/navbar/ideas-on-stage.svg" }}
+			{{- $logo := resources.Get "img/navbar/ideas-on-stage.svg" -}}
 			<img src="data:image/svg+xml;base64,{{ $logo.Content | base64Encode }}" height="52" width="184" alt="Ideas on Stage">
 		</div>
 	</a>
 	
 	<!-- menu-burger menu on ts screens -->
 	<label for="drop" class="burger">
-		{{ $burger := resources.Get "img/icons/burger.svg" }}
+		{{- $burger := resources.Get "img/icons/burger.svg" -}}
 		<img src="data:image/svg+xml;base64,{{ $burger.Content | base64Encode }}" height="16" width="16" alt="Burger Menu">
 	</label>
 	
@@ -26,19 +26,19 @@
 	<ul class="menu" aria-label="Menu Items">
 		
 		<!-- Menubar Menu Items -->
-		{{ range site.Params.navbar }}
+		{{- range site.Params.navbar -}}
 			<li class="menu-item {{ if .hideonmediumscreens }}menu-shorten{{ end }}">
 				<a href="{{ .url }}" onclick="getElementById('drop').checked = false" class="cl-core--a-underline-none"
 					aria-label="{{ .name }}">
 					{{ .name }}
 				</a>
 			</li>
-		{{ end }}
+		{{- end -}}
 		
 		<!-- Search Dropdown -->
 		<li class="menu-item">
 			<label for="drop-search">
-				{{ $img := resources.Get "img/icons/search.svg" }}
+				{{- $img := resources.Get "img/icons/search.svg" -}}
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12" width="12" alt="Search">
 			</label>
 			<input type="checkbox" id="drop-search" class="menu-checkbox"/>
@@ -56,7 +56,7 @@
 		<!-- Languages Drop Down -->
 		<li class="menu-item">
 			<label for="drop-languages">
-				{{ $img := resources.Get "img/icons/globe.svg" }}
+				{{- $img := resources.Get "img/icons/globe.svg" -}}
 				<img src="data:image/svg+xml;base64,{{ $img.Content | base64Encode }}" height="12" width="12" alt="Search">
 				<span class="menu-shorten">
 					{{ with .Language.Label }}{{ . }}{{ end }}
@@ -65,15 +65,17 @@
 			</label>
 			<input type="checkbox" id="drop-languages" class="menu-checkbox"/>
 			<ul class="menu-dropdown">
-				{{ range hugo.Sites }}
-					{{ if ne .Language.Locale site.Language.Locale }}
-						<li class="menu-dropdown-item">
-							<a href="{{ .Home.Permalink }}" hreflang="{{ .Language.Locale }}" class="cl-core--a-underline-none">
-								{{ .Language.Label }}
-							</a>
-						</li>
-					{{ end }}
-				{{ end }}
+				{{- range hugo.Sites -}}
+					{{- if ne .Language.Locale site.Language.Locale -}}
+						{{- if ne true .Params.isHidden -}}
+							<li class="menu-dropdown-item">
+								<a href="{{ .Home.Permalink }}" hreflang="{{ .Language.Locale }}" class="cl-core--a-underline-none">
+									{{ .Language.Label }}
+								</a>
+							</li>
+						{{- end -}}
+					{{- end -}}
+				{{- end -}}
 			</ul>
 		</li>
 		

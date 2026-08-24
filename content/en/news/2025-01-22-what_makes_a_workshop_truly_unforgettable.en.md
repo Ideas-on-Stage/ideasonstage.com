@@ -61,9 +61,3 @@ Great facilitation doesn’t happen by accident – it’s a deliberate process.
 These are just a few of the insights Pedram shared. To learn more about his strategies for facilitating meetings, workshops and training courses, you can watch the full interview by **[clicking the link to our podcast episode on YouTube.](https://youtu.be/rrHSzGD5XNA)**
 
 {{< shortcode-youtube rrHSzGD5XNA >}}
-
-**Want to learn more?** 
-
-* Read [Confident Presenter](<>) and [Business Presentation Revolution ](<>)
-* To make the most of the book, take the [Confident Presenter Scorecard](<>) to assess your presentation skills in less than 3 minutes
-* Attend our free, [live masterclass](<>) on all things presentation skills

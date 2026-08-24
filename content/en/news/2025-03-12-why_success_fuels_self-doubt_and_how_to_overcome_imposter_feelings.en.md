@@ -56,9 +56,3 @@ banner = "/img/news/jstoddard.jpg"
 To learn more about Jill’s ideas, [watch the full interview on YouTube.](https://youtu.be/Lw-IJ7W-us0)
 
 {{< shortcode-youtube Lw-IJ7W-us0 >}}
-
-**Want to learn more?** 
-
-* Read [Confident Presenter](<>) and [Business Presentation Revolution ](<>)
-* To make the most of the book, take the [Confident Presenter Scorecard](<>) to assess your presentation skills in less than 3 minutes
-* Attend our free, [live masterclass](<>) on all things presentation skills

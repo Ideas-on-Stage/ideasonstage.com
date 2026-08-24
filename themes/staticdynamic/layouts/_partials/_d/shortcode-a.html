@@ -1,6 +1,6 @@
 {{/* <!-- get parameters --> */}}
-{{- $data := partial "_f/getdata" . -}}
-{{- $href := partial "_f/geturl" . -}}
+{{- $data := partial "_f/getdata.go" . -}}
+{{- $href := partial "_f/gethref.go" . -}}
 
 <a href="{{ $href }}">
 	{{ templates.Inner . }}

@@ -1,8 +1,15 @@
 {{ "<!-- partials/e/title.html:start -->" | safeHTML }}
 {{- $data := partial "_f/getdata.go" . -}}
+{{- $href := partial "_f/gethref.go" . -}}
 {{- if $data.title -}}
 	<h3>
+		{{- if $href -}}
+		<a class="cl-core--a-underline-none" href="{{ $href }}">
+		{{- end -}}
 		{{ with $data.title | safeHTML }}{{ . }}{{ end }}
+		{{- if $href -}}
+		</a>
+		{{- end -}}
 	</h3>
 {{- end -}}
 {{ "<!-- partials/e/title.html:end -->" | safeHTML }}

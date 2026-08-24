@@ -4,26 +4,24 @@ defaultContentLanguage: en
 theme: staticdynamic
 title: Ideas on Stage
 
+# -------------------
+# list of languages
 languages:
-    
     en:
         locale: en
         label: International
         contentDir: content/en
         weight: 1
-    
     fr:
         locale: fr
         label: France
         contentDir: content/fr
         weight: 2
-    
     es:
         locale: es
         label: España
         contentDir: content/es
         weight: 3
-    
     uk:
         locale: en-GB
         label: UK

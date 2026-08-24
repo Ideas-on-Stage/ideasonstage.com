@@ -21,18 +21,25 @@
 
 --> */}}
 
+{{/* <!-- initialize variables --> */}}
 {{ $page := page }} {{/* <!-- page object --> */}}
 {{ $part := . }} {{/* <!-- string with name of part to retrieve  --> */}}
 {{ $result := slice }}
 
+
+
+{{/* <!-- get part data from data/layouts --> */}}
 {{/* <!-- bodytop, bodybottom, headtop and headbottom are ignored if declared elsewhere than _common --> */}}
 {{/* <!-- it is therefore useless to declare a bodytop part in a specific part or in a page front matter --> */}}
 {{ if eq $part "bodytop" }}
 	{{ $result = index hugo.Data.layouts._common "bodytop" }}
+
 {{ else if eq $part "bodybottom" }}
 	{{ $result = index hugo.Data.layouts._common "bodybottom" }}
+
 {{ else if eq $part "headtop" }}
 	{{ $result = index hugo.Data.layouts._common "headtop" }}
+
 {{ else if eq $part "headbottom" }}
 	{{ $result = index hugo.Data.layouts._common "headbottom" }}
 	

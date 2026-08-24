@@ -47,9 +47,3 @@ Vanessa’s work is a powerful reminder that we all have more influence than we 
 These are just a few of the insights Vanessa shared. To learn more about her work, I encourage you to [watch the full interview](https://youtu.be/XHOqs6Oo-fg). 
 
 {{< shortcode-youtube XHOqs6Oo-fg >}}
-
-**Want to learn more?** 
-
-* Read [Confident Presenter](<>) and [Business Presentation Revolution ](<>)
-* To make the most of the book, take the [Confident Presenter Scorecard](<>) to assess your presentation skills in less than 3 minutes
-* Attend our free, [live masterclass](<>) on all things presentation skills

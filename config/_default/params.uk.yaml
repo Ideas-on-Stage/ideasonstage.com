@@ -1,9 +1,9 @@
 # params.uk.yaml
-
 country: "United Kingdom"
 countryShort: "UK"
 baseUrl: https://www.ideasonstage.com/uk/
 googleAnalytics: "UA-30695118-1"
+isHidden: true
 
 # -------------------
 # buttons

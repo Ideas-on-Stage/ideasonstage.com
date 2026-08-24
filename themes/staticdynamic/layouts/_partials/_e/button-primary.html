@@ -33,6 +33,6 @@
 
 {{ "<!-- partials/e/button-primary.html:start -->" | safeHTML }}
 {{- if and $url $text -}}
-	<a href="{{ partial "_f/geturl.go" . }}" class="cl-core--button-primary">{{ $text }}</a>
+	<a href="{{ partial "_f/gethref.go" . }}" class="cl-core--button-primary">{{ $text }}</a>
 {{- end -}}
 {{ "<!-- partials/e/button-primary.html:end -->" | safeHTML }}

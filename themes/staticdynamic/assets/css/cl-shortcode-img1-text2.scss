@@ -10,7 +10,8 @@
 			@include width-parent-full-sm;
 		}
 		
-		img {
+		> a, 
+		> img {
 			@include width-column(3);
 			@include width-parent-full-sm;
 		}

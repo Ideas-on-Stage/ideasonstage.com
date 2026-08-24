@@ -6,7 +6,7 @@
 	The countries must be defined in site.Params.countries
 	
 	Arguments:
-	- anything (mandatory but not used)
+	- anything (argugment is mandatory but not used)
 	
 --> */}}
 
@@ -15,11 +15,13 @@
 		{{- range hugo.Sites -}}
 			{{- $href := .Home.RelPermalink -}}
 			{{- $label := .Language.Label -}}
-			<li>
-				<a href="{{ $href }}" class="cl-core--button-secondary">
-					{{ $label }}
-				</a>
-			</li>
+			{{- if ne true .Params.isHidden -}}
+				<li>
+					<a href="{{ $href }}" class="cl-core--button-secondary">
+						{{ $label }}
+					</a>
+				</li>
+			{{- end -}}
 		{{- end }}
 	</ul>
 </aside>

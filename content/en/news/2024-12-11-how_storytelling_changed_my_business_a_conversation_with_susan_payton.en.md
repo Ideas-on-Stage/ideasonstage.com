@@ -59,9 +59,3 @@ Storytelling can transform your business. If you’re interested in learning mor
 
 
 {{< shortcode-youtube eLiVKVGyK8s >}}
-
-**Want to learn more?** 
-
-* Read [Confident Presenter](<>) and [Business Presentation Revolution ](<>)
-* To make the most of the book, take the [Confident Presenter Scorecard](<>) to assess your presentation skills in less than 3 minutes
-* Attend our free, [live masterclass](<>) on all things presentation skills

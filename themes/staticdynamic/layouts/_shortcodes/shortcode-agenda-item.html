@@ -15,7 +15,7 @@ Should be nested inside {{< shortcode-agenda-list >}}
 --> */}}
 
 {{ "<!-- shortcode-agenda-item.html:start -->" | safeHTML }}
-<div class="cl-shortcode-agenda-item">
+{{ with partial "_d/shortcode-div-main" . }}
 	{{- with .Params.title -}}
 		<h4>
 			{{ . }}
@@ -26,5 +26,5 @@ Should be nested inside {{< shortcode-agenda-list >}}
 			{{ . | markdownify }}
 		</p>
 	{{- end -}}
-</div>
+{{ end }}
 {{ "<!-- shortcode-agenda-item.html:end -->" | safeHTML }}

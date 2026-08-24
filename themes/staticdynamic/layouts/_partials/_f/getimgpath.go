@@ -22,9 +22,9 @@
 --> */}}
 
 {{/* <!-- initialize variables  --> */}}
-{{- $type := partial "_f/getdatatype" . -}}
-{{- $data := partial "_f/getdata" . -}}
-{{- $path := partial "_f/geturl" $data -}}
+{{- $type := partial "_f/getdatatype.go" . -}}
+{{- $data := partial "_f/getdata.go" . -}}
+{{- $path := partial "_f/gethref.go" $data -}}
 {{- $imgpath := false -}}
 {{- $img := false -}}
 
