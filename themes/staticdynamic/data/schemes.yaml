@@ -33,6 +33,7 @@
 #   it's probably defined in hugo.Data.schemescustom.yaml 
 
 
+
 # -----------------
 # root variables
 # -----------------
@@ -128,6 +129,7 @@ root:
         
         # font variables
         --font-base-size: "22px"
+
 
 
 # -----------------
@@ -248,6 +250,8 @@ time:
 ul:
     list-style-type: "square"
     padding-left: "20px"
+
+
 
 # -----------------
 # .cl-* custom classes variables 
